@@ -1,76 +1,76 @@
 "","HomeTeam","AwayTeam","HomeGoals","AwayGoals","Round","Year","Date"
-"1","Werder Bremen","Borussia Dortmund",3,2,1,1963,1963-08-24 09:30:00
-"2","Hertha BSC Berlin","1. FC Nuernberg",1,1,1,1963,1963-08-24 09:30:00
-"3","Preussen Muenster","Hamburger SV",1,1,1,1963,1963-08-24 09:30:00
-"4","Eintracht Frankfurt","1. FC Kaiserslautern",1,1,1,1963,1963-08-24 09:30:00
-"5","Karlsruher SC","Meidericher SV",1,4,1,1963,1963-08-24 09:30:00
-"6","1. FC Saarbruecken","1. FC Koeln",0,2,1,1963,1963-08-24 09:30:00
-"7","TSV 1860 Muenchen","Eintracht Braunschweig",1,1,1,1963,1963-08-24 09:30:00
-"8","Schalke 04","VfB Stuttgart",2,0,1,1963,1963-08-24 09:30:00
-"9","Borussia Dortmund","TSV 1860 Muenchen",3,3,2,1963,1963-08-31 09:30:00
-"10","1. FC Nuernberg","Werder Bremen",3,0,2,1963,1963-08-31 09:30:00
-"11","Hamburger SV","1. FC Saarbruecken",4,2,2,1963,1963-08-31 09:30:00
-"12","1. FC Kaiserslautern","Schalke 04",2,3,2,1963,1963-08-31 09:30:00
-"13","Meidericher SV","Eintracht Frankfurt",3,1,2,1963,1963-08-31 09:30:00
-"14","1. FC Koeln","Karlsruher SC",4,0,2,1963,1963-08-31 09:30:00
-"15","Eintracht Braunschweig","Preussen Muenster",1,0,2,1963,1963-08-31 09:30:00
-"16","VfB Stuttgart","Hertha BSC Berlin",2,0,2,1963,1963-08-31 09:30:00
-"17","Werder Bremen","VfB Stuttgart",2,2,3,1963,1963-09-07 09:30:00
-"18","Hertha BSC Berlin","1. FC Kaiserslautern",2,2,3,1963,1963-09-07 09:30:00
-"19","Preussen Muenster","Meidericher SV",4,2,3,1963,1963-09-07 09:30:00
-"20","Eintracht Frankfurt","1. FC Nuernberg",2,3,3,1963,1963-09-07 09:30:00
-"21","Karlsruher SC","Hamburger SV",0,4,3,1963,1963-09-07 09:30:00
-"22","1. FC Saarbruecken","Eintracht Braunschweig",2,2,3,1963,1963-09-07 09:30:00
-"23","TSV 1860 Muenchen","1. FC Koeln",1,3,3,1963,1963-09-07 09:30:00
-"24","Schalke 04","Borussia Dortmund",3,1,3,1963,1963-09-07 09:30:00
-"25","Borussia Dortmund","1. FC Saarbruecken",2,1,4,1963,1963-09-14 09:30:00
-"26","1. FC Nuernberg","Preussen Muenster",2,2,4,1963,1963-09-14 09:30:00
-"27","Hamburger SV","Eintracht Frankfurt",3,0,4,1963,1963-09-14 09:30:00
-"28","1. FC Kaiserslautern","Werder Bremen",3,0,4,1963,1963-09-14 09:30:00
-"29","Meidericher SV","Hertha BSC Berlin",1,3,4,1963,1963-09-14 09:30:00
-"30","1. FC Koeln","Schalke 04",2,2,4,1963,1963-09-14 09:30:00
-"31","Eintracht Braunschweig","Karlsruher SC",2,0,4,1963,1963-09-14 09:30:00
-"32","VfB Stuttgart","TSV 1860 Muenchen",1,1,4,1963,1963-09-14 09:30:00
-"33","Werder Bremen","Meidericher SV",1,1,5,1963,1963-09-21 09:30:00
-"34","Hertha BSC Berlin","1. FC Koeln",0,3,5,1963,1963-09-21 09:30:00
-"35","Preussen Muenster","VfB Stuttgart",4,2,5,1963,1963-09-21 09:30:00
-"36","Eintracht Frankfurt","Eintracht Braunschweig",3,0,5,1963,1963-09-21 09:30:00
-"37","Karlsruher SC","Borussia Dortmund",1,3,5,1963,1963-09-21 09:30:00
-"38","1. FC Saarbruecken","1. FC Nuernberg",3,5,5,1963,1963-09-21 09:30:00
-"39","TSV 1860 Muenchen","1. FC Kaiserslautern",3,0,5,1963,1963-09-21 09:30:00
-"40","Schalke 04","Hamburger SV",1,0,5,1963,1963-09-21 09:30:00
-"41","Borussia Dortmund","Eintracht Frankfurt",3,0,6,1963,1963-10-05 09:30:00
-"42","1. FC Nuernberg","Karlsruher SC",2,4,6,1963,1963-10-05 09:30:00
-"43","Hamburger SV","Hertha BSC Berlin",5,1,6,1963,1963-10-05 09:30:00
-"44","1. FC Kaiserslautern","Preussen Muenster",0,0,6,1963,1963-10-05 09:30:00
-"45","Meidericher SV","TSV 1860 Muenchen",3,0,6,1963,1963-10-05 09:30:00
-"46","1. FC Koeln","Werder Bremen",4,3,6,1963,1963-10-05 09:30:00
-"47","Eintracht Braunschweig","Schalke 04",4,3,6,1963,1963-10-05 09:30:00
-"48","VfB Stuttgart","1. FC Saarbruecken",3,1,6,1963,1963-10-05 09:30:00
-"49","Werder Bremen","Hamburger SV",4,2,7,1963,1963-10-12 09:30:00
-"50","Hertha BSC Berlin","Eintracht Braunschweig",1,2,7,1963,1963-10-12 09:30:00
-"51","Preussen Muenster","Borussia Dortmund",1,2,7,1963,1963-10-12 09:30:00
-"52","Eintracht Frankfurt","1. FC Koeln",2,1,7,1963,1963-10-12 09:30:00
-"53","Karlsruher SC","VfB Stuttgart",0,3,7,1963,1963-10-12 09:30:00
-"54","1. FC Saarbruecken","1. FC Kaiserslautern",2,4,7,1963,1963-10-12 09:30:00
-"55","TSV 1860 Muenchen","1. FC Nuernberg",5,0,7,1963,1963-10-12 09:30:00
-"56","Schalke 04","Meidericher SV",2,2,7,1963,1963-10-12 09:30:00
-"57","Borussia Dortmund","Hertha BSC Berlin",7,2,8,1963,1963-10-19 09:30:00
-"58","1. FC Nuernberg","Schalke 04",0,2,8,1963,1963-10-19 09:30:00
-"59","Hamburger SV","TSV 1860 Muenchen",5,0,8,1963,1963-10-19 09:30:00
-"60","1. FC Kaiserslautern","Karlsruher SC",1,0,8,1963,1963-10-19 09:30:00
-"61","Meidericher SV","1. FC Saarbruecken",3,1,8,1963,1963-10-19 09:30:00
-"62","1. FC Koeln","Preussen Muenster",3,0,8,1963,1963-10-19 09:30:00
-"63","Eintracht Braunschweig","Werder Bremen",1,1,8,1963,1963-10-19 09:30:00
-"64","VfB Stuttgart","Eintracht Frankfurt",0,0,8,1963,1963-10-19 09:30:00
-"65","1. FC Nuernberg","1. FC Kaiserslautern",0,5,9,1963,1963-10-26 09:30:00
-"66","Hertha BSC Berlin","Eintracht Frankfurt",1,3,9,1963,1963-10-26 09:30:00
-"67","Hamburger SV","Eintracht Braunschweig",2,1,9,1963,1963-10-26 09:30:00
-"68","Preussen Muenster","TSV 1860 Muenchen",0,0,9,1963,1963-10-26 09:30:00
-"69","1. FC Koeln","Meidericher SV",3,3,9,1963,1963-10-26 09:30:00
-"70","1. FC Saarbruecken","Karlsruher SC",1,3,9,1963,1963-10-26 09:30:00
-"71","VfB Stuttgart","Borussia Dortmund",2,1,9,1963,1963-10-26 09:30:00
-"72","Schalke 04","Werder Bremen",2,3,9,1963,1963-10-26 09:30:00
+"1","Werder Bremen","Borussia Dortmund",3,2,1,1963,1963-08-24 10:30:00
+"2","Hertha BSC Berlin","1. FC Nuernberg",1,1,1,1963,1963-08-24 10:30:00
+"3","Preussen Muenster","Hamburger SV",1,1,1,1963,1963-08-24 10:30:00
+"4","Eintracht Frankfurt","1. FC Kaiserslautern",1,1,1,1963,1963-08-24 10:30:00
+"5","Karlsruher SC","Meidericher SV",1,4,1,1963,1963-08-24 10:30:00
+"6","1. FC Saarbruecken","1. FC Koeln",0,2,1,1963,1963-08-24 10:30:00
+"7","TSV 1860 Muenchen","Eintracht Braunschweig",1,1,1,1963,1963-08-24 10:30:00
+"8","Schalke 04","VfB Stuttgart",2,0,1,1963,1963-08-24 10:30:00
+"9","Borussia Dortmund","TSV 1860 Muenchen",3,3,2,1963,1963-08-31 10:30:00
+"10","1. FC Nuernberg","Werder Bremen",3,0,2,1963,1963-08-31 10:30:00
+"11","Hamburger SV","1. FC Saarbruecken",4,2,2,1963,1963-08-31 10:30:00
+"12","1. FC Kaiserslautern","Schalke 04",2,3,2,1963,1963-08-31 10:30:00
+"13","Meidericher SV","Eintracht Frankfurt",3,1,2,1963,1963-08-31 10:30:00
+"14","1. FC Koeln","Karlsruher SC",4,0,2,1963,1963-08-31 10:30:00
+"15","Eintracht Braunschweig","Preussen Muenster",1,0,2,1963,1963-08-31 10:30:00
+"16","VfB Stuttgart","Hertha BSC Berlin",2,0,2,1963,1963-08-31 10:30:00
+"17","Werder Bremen","VfB Stuttgart",2,2,3,1963,1963-09-07 10:30:00
+"18","Hertha BSC Berlin","1. FC Kaiserslautern",2,2,3,1963,1963-09-07 10:30:00
+"19","Preussen Muenster","Meidericher SV",4,2,3,1963,1963-09-07 10:30:00
+"20","Eintracht Frankfurt","1. FC Nuernberg",2,3,3,1963,1963-09-07 10:30:00
+"21","Karlsruher SC","Hamburger SV",0,4,3,1963,1963-09-07 10:30:00
+"22","1. FC Saarbruecken","Eintracht Braunschweig",2,2,3,1963,1963-09-07 10:30:00
+"23","TSV 1860 Muenchen","1. FC Koeln",1,3,3,1963,1963-09-07 10:30:00
+"24","Schalke 04","Borussia Dortmund",3,1,3,1963,1963-09-07 10:30:00
+"25","Borussia Dortmund","1. FC Saarbruecken",2,1,4,1963,1963-09-14 10:30:00
+"26","1. FC Nuernberg","Preussen Muenster",2,2,4,1963,1963-09-14 10:30:00
+"27","Hamburger SV","Eintracht Frankfurt",3,0,4,1963,1963-09-14 10:30:00
+"28","1. FC Kaiserslautern","Werder Bremen",3,0,4,1963,1963-09-14 10:30:00
+"29","Meidericher SV","Hertha BSC Berlin",1,3,4,1963,1963-09-14 10:30:00
+"30","1. FC Koeln","Schalke 04",2,2,4,1963,1963-09-14 10:30:00
+"31","Eintracht Braunschweig","Karlsruher SC",2,0,4,1963,1963-09-14 10:30:00
+"32","VfB Stuttgart","TSV 1860 Muenchen",1,1,4,1963,1963-09-14 10:30:00
+"33","Werder Bremen","Meidericher SV",1,1,5,1963,1963-09-21 10:30:00
+"34","Hertha BSC Berlin","1. FC Koeln",0,3,5,1963,1963-09-21 10:30:00
+"35","Preussen Muenster","VfB Stuttgart",4,2,5,1963,1963-09-21 10:30:00
+"36","Eintracht Frankfurt","Eintracht Braunschweig",3,0,5,1963,1963-09-21 10:30:00
+"37","Karlsruher SC","Borussia Dortmund",1,3,5,1963,1963-09-21 10:30:00
+"38","1. FC Saarbruecken","1. FC Nuernberg",3,5,5,1963,1963-09-21 10:30:00
+"39","TSV 1860 Muenchen","1. FC Kaiserslautern",3,0,5,1963,1963-09-21 10:30:00
+"40","Schalke 04","Hamburger SV",1,0,5,1963,1963-09-21 10:30:00
+"41","Borussia Dortmund","Eintracht Frankfurt",3,0,6,1963,1963-10-05 10:30:00
+"42","1. FC Nuernberg","Karlsruher SC",2,4,6,1963,1963-10-05 10:30:00
+"43","Hamburger SV","Hertha BSC Berlin",5,1,6,1963,1963-10-05 10:30:00
+"44","1. FC Kaiserslautern","Preussen Muenster",0,0,6,1963,1963-10-05 10:30:00
+"45","Meidericher SV","TSV 1860 Muenchen",3,0,6,1963,1963-10-05 10:30:00
+"46","1. FC Koeln","Werder Bremen",4,3,6,1963,1963-10-05 10:30:00
+"47","Eintracht Braunschweig","Schalke 04",4,3,6,1963,1963-10-05 10:30:00
+"48","VfB Stuttgart","1. FC Saarbruecken",3,1,6,1963,1963-10-05 10:30:00
+"49","Werder Bremen","Hamburger SV",4,2,7,1963,1963-10-12 10:30:00
+"50","Hertha BSC Berlin","Eintracht Braunschweig",1,2,7,1963,1963-10-12 10:30:00
+"51","Preussen Muenster","Borussia Dortmund",1,2,7,1963,1963-10-12 10:30:00
+"52","Eintracht Frankfurt","1. FC Koeln",2,1,7,1963,1963-10-12 10:30:00
+"53","Karlsruher SC","VfB Stuttgart",0,3,7,1963,1963-10-12 10:30:00
+"54","1. FC Saarbruecken","1. FC Kaiserslautern",2,4,7,1963,1963-10-12 10:30:00
+"55","TSV 1860 Muenchen","1. FC Nuernberg",5,0,7,1963,1963-10-12 10:30:00
+"56","Schalke 04","Meidericher SV",2,2,7,1963,1963-10-12 10:30:00
+"57","Borussia Dortmund","Hertha BSC Berlin",7,2,8,1963,1963-10-19 10:30:00
+"58","1. FC Nuernberg","Schalke 04",0,2,8,1963,1963-10-19 10:30:00
+"59","Hamburger SV","TSV 1860 Muenchen",5,0,8,1963,1963-10-19 10:30:00
+"60","1. FC Kaiserslautern","Karlsruher SC",1,0,8,1963,1963-10-19 10:30:00
+"61","Meidericher SV","1. FC Saarbruecken",3,1,8,1963,1963-10-19 10:30:00
+"62","1. FC Koeln","Preussen Muenster",3,0,8,1963,1963-10-19 10:30:00
+"63","Eintracht Braunschweig","Werder Bremen",1,1,8,1963,1963-10-19 10:30:00
+"64","VfB Stuttgart","Eintracht Frankfurt",0,0,8,1963,1963-10-19 10:30:00
+"65","1. FC Nuernberg","1. FC Kaiserslautern",0,5,9,1963,1963-10-26 10:30:00
+"66","Hertha BSC Berlin","Eintracht Frankfurt",1,3,9,1963,1963-10-26 10:30:00
+"67","Hamburger SV","Eintracht Braunschweig",2,1,9,1963,1963-10-26 10:30:00
+"68","Preussen Muenster","TSV 1860 Muenchen",0,0,9,1963,1963-10-26 10:30:00
+"69","1. FC Koeln","Meidericher SV",3,3,9,1963,1963-10-26 10:30:00
+"70","1. FC Saarbruecken","Karlsruher SC",1,3,9,1963,1963-10-26 10:30:00
+"71","VfB Stuttgart","Borussia Dortmund",2,1,9,1963,1963-10-26 10:30:00
+"72","Schalke 04","Werder Bremen",2,3,9,1963,1963-10-26 10:30:00
 "73","Borussia Dortmund","1. FC Nuernberg",3,1,10,1963,1963-11-09 09:30:00
 "74","Werder Bremen","Hertha BSC Berlin",2,2,10,1963,1963-11-09 09:30:00
 "75","1. FC Kaiserslautern","VfB Stuttgart",1,3,10,1963,1963-11-09 09:30:00
@@ -230,87 +230,87 @@
 "229","Eintracht Frankfurt","1. FC Saarbruecken",3,1,29,1963,1964-04-25 09:30:00
 "230","VfB Stuttgart","Meidericher SV",1,2,29,1963,1964-04-25 09:30:00
 "231","Schalke 04","Karlsruher SC",2,1,29,1963,1964-04-25 09:30:00
-"232","Borussia Dortmund","Hamburger SV",5,2,29,1963,1964-05-05 09:30:00
-"233","Hamburger SV","1. FC Nuernberg",2,2,30,1963,1964-05-11 09:30:00
-"234","Preussen Muenster","Hertha BSC Berlin",4,2,30,1963,1964-05-11 09:30:00
-"235","Meidericher SV","1. FC Kaiserslautern",3,0,30,1963,1964-05-11 09:30:00
-"236","Karlsruher SC","Eintracht Frankfurt",1,2,30,1963,1964-05-11 09:30:00
-"237","1. FC Koeln","VfB Stuttgart",2,1,30,1963,1964-05-11 09:30:00
-"238","1. FC Saarbruecken","Schalke 04",1,1,30,1963,1964-05-11 09:30:00
-"239","Eintracht Braunschweig","Borussia Dortmund",2,0,30,1963,1964-05-11 09:30:00
-"240","TSV 1860 Muenchen","Werder Bremen",3,2,30,1963,1964-05-11 09:30:00
-"241","1. FC Koeln","Hertha BSC Berlin",2,3,1,1964,1964-08-22 09:30:00
-"242","Hamburger SV","VfB Stuttgart",2,2,1,1964,1964-08-22 09:30:00
-"243","1. FC Nuernberg","Borussia Neunkirchen",2,0,1,1964,1964-08-22 09:30:00
-"244","Borussia Dortmund","Hannover 96",0,2,1,1964,1964-08-22 09:30:00
-"245","Eintracht Braunschweig","TSV 1860 Muenchen",1,1,1,1964,1964-08-22 09:30:00
-"246","1. FC Kaiserslautern","Werder Bremen",2,1,1,1964,1964-08-22 09:30:00
-"247","Karlsruher SC","Meidericher SV",2,1,1,1964,1964-08-22 09:30:00
-"248","Eintracht Frankfurt","Schalke 04",2,2,1,1964,1964-08-22 09:30:00
-"249","Hertha BSC Berlin","Hamburger SV",0,0,2,1964,1964-08-29 09:30:00
-"250","VfB Stuttgart","1. FC Nuernberg",3,1,2,1964,1964-08-29 09:30:00
-"251","Borussia Neunkirchen","Borussia Dortmund",1,2,2,1964,1964-08-29 09:30:00
-"252","Hannover 96","1. FC Koeln",2,0,2,1964,1964-08-29 09:30:00
-"253","TSV 1860 Muenchen","Eintracht Frankfurt",0,1,2,1964,1964-08-29 09:30:00
-"254","Werder Bremen","Eintracht Braunschweig",5,1,2,1964,1964-08-29 09:30:00
-"255","Meidericher SV","1. FC Kaiserslautern",3,1,2,1964,1964-08-29 09:30:00
-"256","Schalke 04","Karlsruher SC",1,1,2,1964,1964-08-29 09:30:00
-"257","1. FC Koeln","Borussia Neunkirchen",4,3,3,1964,1964-09-05 09:30:00
-"258","Hamburger SV","Hannover 96",3,0,3,1964,1964-09-05 09:30:00
-"259","1. FC Nuernberg","Hertha BSC Berlin",2,0,3,1964,1964-09-05 09:30:00
-"260","Borussia Dortmund","VfB Stuttgart",1,0,3,1964,1964-09-05 09:30:00
-"261","Eintracht Braunschweig","Meidericher SV",0,1,3,1964,1964-09-05 09:30:00
-"262","1. FC Kaiserslautern","Schalke 04",3,0,3,1964,1964-09-05 09:30:00
-"263","Karlsruher SC","TSV 1860 Muenchen",1,5,3,1964,1964-09-05 09:30:00
-"264","Eintracht Frankfurt","Werder Bremen",0,2,3,1964,1964-09-05 09:30:00
-"265","Hertha BSC Berlin","Borussia Dortmund",0,0,4,1964,1964-09-12 09:30:00
-"266","VfB Stuttgart","1. FC Koeln",3,3,4,1964,1964-09-12 09:30:00
-"267","Borussia Neunkirchen","Hamburger SV",3,1,4,1964,1964-09-12 09:30:00
-"268","Hannover 96","1. FC Nuernberg",2,2,4,1964,1964-09-12 09:30:00
-"269","TSV 1860 Muenchen","1. FC Kaiserslautern",2,2,4,1964,1964-09-12 09:30:00
-"270","Werder Bremen","Karlsruher SC",1,0,4,1964,1964-09-12 09:30:00
-"271","Meidericher SV","Eintracht Frankfurt",1,3,4,1964,1964-09-12 09:30:00
-"272","Schalke 04","Eintracht Braunschweig",0,3,4,1964,1964-09-12 09:30:00
-"273","1. FC Koeln","Werder Bremen",4,2,5,1964,1964-09-19 09:30:00
-"274","VfB Stuttgart","Hertha BSC Berlin",1,1,5,1964,1964-09-19 09:30:00
-"275","Hamburger SV","Meidericher SV",3,0,5,1964,1964-09-19 09:30:00
-"276","1. FC Nuernberg","Schalke 04",3,2,5,1964,1964-09-19 09:30:00
-"277","Borussia Dortmund","TSV 1860 Muenchen",1,1,5,1964,1964-09-19 09:30:00
-"278","Eintracht Braunschweig","Borussia Neunkirchen",1,0,5,1964,1964-09-19 09:30:00
-"279","1. FC Kaiserslautern","Hannover 96",1,0,5,1964,1964-09-19 09:30:00
-"280","Eintracht Frankfurt","Karlsruher SC",0,7,5,1964,1964-09-19 09:30:00
-"281","Hertha BSC Berlin","Eintracht Frankfurt",1,3,6,1964,1964-09-26 09:30:00
-"282","Borussia Neunkirchen","1. FC Kaiserslautern",0,3,6,1964,1964-09-26 09:30:00
-"283","Hannover 96","Eintracht Braunschweig",2,2,6,1964,1964-09-26 09:30:00
-"284","TSV 1860 Muenchen","1. FC Nuernberg",2,0,6,1964,1964-09-26 09:30:00
-"285","Werder Bremen","Hamburger SV",0,0,6,1964,1964-09-26 09:30:00
-"286","Meidericher SV","1. FC Koeln",0,3,6,1964,1964-09-26 09:30:00
-"287","Karlsruher SC","VfB Stuttgart",0,0,6,1964,1964-09-26 09:30:00
-"288","Schalke 04","Borussia Dortmund",2,6,6,1964,1964-09-26 09:30:00
-"289","Hertha BSC Berlin","TSV 1860 Muenchen",2,1,7,1964,1964-10-10 09:30:00
-"290","1. FC Koeln","Eintracht Braunschweig",5,1,7,1964,1964-10-10 09:30:00
-"291","VfB Stuttgart","Schalke 04",2,1,7,1964,1964-10-10 09:30:00
-"292","Hamburger SV","Eintracht Frankfurt",2,1,7,1964,1964-10-10 09:30:00
-"293","Borussia Neunkirchen","Meidericher SV",4,2,7,1964,1964-10-10 09:30:00
-"294","1. FC Nuernberg","Karlsruher SC",4,1,7,1964,1964-10-10 09:30:00
-"295","Hannover 96","Werder Bremen",1,2,7,1964,1964-10-10 09:30:00
-"296","Borussia Dortmund","1. FC Kaiserslautern",3,2,7,1964,1964-10-10 09:30:00
-"297","TSV 1860 Muenchen","Hannover 96",4,0,8,1964,1964-10-17 09:30:00
-"298","Eintracht Braunschweig","Borussia Dortmund",0,1,8,1964,1964-10-17 09:30:00
-"299","Werder Bremen","Borussia Neunkirchen",2,0,8,1964,1964-10-17 09:30:00
-"300","1. FC Kaiserslautern","1. FC Nuernberg",3,2,8,1964,1964-10-17 09:30:00
-"301","Meidericher SV","VfB Stuttgart",3,3,8,1964,1964-10-17 09:30:00
-"302","Karlsruher SC","Hamburger SV",2,2,8,1964,1964-10-17 09:30:00
-"303","Schalke 04","Hertha BSC Berlin",3,0,8,1964,1964-10-17 09:30:00
-"304","Eintracht Frankfurt","1. FC Koeln",1,4,8,1964,1964-10-17 09:30:00
-"305","Hertha BSC Berlin","Meidericher SV",2,2,9,1964,1964-10-24 09:30:00
-"306","1. FC Koeln","Karlsruher SC",4,1,9,1964,1964-10-24 09:30:00
-"307","VfB Stuttgart","Werder Bremen",1,1,9,1964,1964-10-24 09:30:00
-"308","Hamburger SV","1. FC Kaiserslautern",3,2,9,1964,1964-10-24 09:30:00
-"309","Borussia Neunkirchen","TSV 1860 Muenchen",3,0,9,1964,1964-10-24 09:30:00
-"310","1. FC Nuernberg","Eintracht Braunschweig",3,2,9,1964,1964-10-24 09:30:00
-"311","Hannover 96","Schalke 04",1,0,9,1964,1964-10-24 09:30:00
-"312","Borussia Dortmund","Eintracht Frankfurt",1,3,9,1964,1964-10-24 09:30:00
+"232","Borussia Dortmund","Hamburger SV",5,2,29,1963,1964-05-05 10:30:00
+"233","Hamburger SV","1. FC Nuernberg",2,2,30,1963,1964-05-11 10:30:00
+"234","Preussen Muenster","Hertha BSC Berlin",4,2,30,1963,1964-05-11 10:30:00
+"235","Meidericher SV","1. FC Kaiserslautern",3,0,30,1963,1964-05-11 10:30:00
+"236","Karlsruher SC","Eintracht Frankfurt",1,2,30,1963,1964-05-11 10:30:00
+"237","1. FC Koeln","VfB Stuttgart",2,1,30,1963,1964-05-11 10:30:00
+"238","1. FC Saarbruecken","Schalke 04",1,1,30,1963,1964-05-11 10:30:00
+"239","Eintracht Braunschweig","Borussia Dortmund",2,0,30,1963,1964-05-11 10:30:00
+"240","TSV 1860 Muenchen","Werder Bremen",3,2,30,1963,1964-05-11 10:30:00
+"241","1. FC Koeln","Hertha BSC Berlin",2,3,1,1964,1964-08-22 10:30:00
+"242","Hamburger SV","VfB Stuttgart",2,2,1,1964,1964-08-22 10:30:00
+"243","1. FC Nuernberg","Borussia Neunkirchen",2,0,1,1964,1964-08-22 10:30:00
+"244","Borussia Dortmund","Hannover 96",0,2,1,1964,1964-08-22 10:30:00
+"245","Eintracht Braunschweig","TSV 1860 Muenchen",1,1,1,1964,1964-08-22 10:30:00
+"246","1. FC Kaiserslautern","Werder Bremen",2,1,1,1964,1964-08-22 10:30:00
+"247","Karlsruher SC","Meidericher SV",2,1,1,1964,1964-08-22 10:30:00
+"248","Eintracht Frankfurt","Schalke 04",2,2,1,1964,1964-08-22 10:30:00
+"249","Hertha BSC Berlin","Hamburger SV",0,0,2,1964,1964-08-29 10:30:00
+"250","VfB Stuttgart","1. FC Nuernberg",3,1,2,1964,1964-08-29 10:30:00
+"251","Borussia Neunkirchen","Borussia Dortmund",1,2,2,1964,1964-08-29 10:30:00
+"252","Hannover 96","1. FC Koeln",2,0,2,1964,1964-08-29 10:30:00
+"253","TSV 1860 Muenchen","Eintracht Frankfurt",0,1,2,1964,1964-08-29 10:30:00
+"254","Werder Bremen","Eintracht Braunschweig",5,1,2,1964,1964-08-29 10:30:00
+"255","Meidericher SV","1. FC Kaiserslautern",3,1,2,1964,1964-08-29 10:30:00
+"256","Schalke 04","Karlsruher SC",1,1,2,1964,1964-08-29 10:30:00
+"257","1. FC Koeln","Borussia Neunkirchen",4,3,3,1964,1964-09-05 10:30:00
+"258","Hamburger SV","Hannover 96",3,0,3,1964,1964-09-05 10:30:00
+"259","1. FC Nuernberg","Hertha BSC Berlin",2,0,3,1964,1964-09-05 10:30:00
+"260","Borussia Dortmund","VfB Stuttgart",1,0,3,1964,1964-09-05 10:30:00
+"261","Eintracht Braunschweig","Meidericher SV",0,1,3,1964,1964-09-05 10:30:00
+"262","1. FC Kaiserslautern","Schalke 04",3,0,3,1964,1964-09-05 10:30:00
+"263","Karlsruher SC","TSV 1860 Muenchen",1,5,3,1964,1964-09-05 10:30:00
+"264","Eintracht Frankfurt","Werder Bremen",0,2,3,1964,1964-09-05 10:30:00
+"265","Hertha BSC Berlin","Borussia Dortmund",0,0,4,1964,1964-09-12 10:30:00
+"266","VfB Stuttgart","1. FC Koeln",3,3,4,1964,1964-09-12 10:30:00
+"267","Borussia Neunkirchen","Hamburger SV",3,1,4,1964,1964-09-12 10:30:00
+"268","Hannover 96","1. FC Nuernberg",2,2,4,1964,1964-09-12 10:30:00
+"269","TSV 1860 Muenchen","1. FC Kaiserslautern",2,2,4,1964,1964-09-12 10:30:00
+"270","Werder Bremen","Karlsruher SC",1,0,4,1964,1964-09-12 10:30:00
+"271","Meidericher SV","Eintracht Frankfurt",1,3,4,1964,1964-09-12 10:30:00
+"272","Schalke 04","Eintracht Braunschweig",0,3,4,1964,1964-09-12 10:30:00
+"273","1. FC Koeln","Werder Bremen",4,2,5,1964,1964-09-19 10:30:00
+"274","VfB Stuttgart","Hertha BSC Berlin",1,1,5,1964,1964-09-19 10:30:00
+"275","Hamburger SV","Meidericher SV",3,0,5,1964,1964-09-19 10:30:00
+"276","1. FC Nuernberg","Schalke 04",3,2,5,1964,1964-09-19 10:30:00
+"277","Borussia Dortmund","TSV 1860 Muenchen",1,1,5,1964,1964-09-19 10:30:00
+"278","Eintracht Braunschweig","Borussia Neunkirchen",1,0,5,1964,1964-09-19 10:30:00
+"279","1. FC Kaiserslautern","Hannover 96",1,0,5,1964,1964-09-19 10:30:00
+"280","Eintracht Frankfurt","Karlsruher SC",0,7,5,1964,1964-09-19 10:30:00
+"281","Hertha BSC Berlin","Eintracht Frankfurt",1,3,6,1964,1964-09-26 10:30:00
+"282","Borussia Neunkirchen","1. FC Kaiserslautern",0,3,6,1964,1964-09-26 10:30:00
+"283","Hannover 96","Eintracht Braunschweig",2,2,6,1964,1964-09-26 10:30:00
+"284","TSV 1860 Muenchen","1. FC Nuernberg",2,0,6,1964,1964-09-26 10:30:00
+"285","Werder Bremen","Hamburger SV",0,0,6,1964,1964-09-26 10:30:00
+"286","Meidericher SV","1. FC Koeln",0,3,6,1964,1964-09-26 10:30:00
+"287","Karlsruher SC","VfB Stuttgart",0,0,6,1964,1964-09-26 10:30:00
+"288","Schalke 04","Borussia Dortmund",2,6,6,1964,1964-09-26 10:30:00
+"289","Hertha BSC Berlin","TSV 1860 Muenchen",2,1,7,1964,1964-10-10 10:30:00
+"290","1. FC Koeln","Eintracht Braunschweig",5,1,7,1964,1964-10-10 10:30:00
+"291","VfB Stuttgart","Schalke 04",2,1,7,1964,1964-10-10 10:30:00
+"292","Hamburger SV","Eintracht Frankfurt",2,1,7,1964,1964-10-10 10:30:00
+"293","Borussia Neunkirchen","Meidericher SV",4,2,7,1964,1964-10-10 10:30:00
+"294","1. FC Nuernberg","Karlsruher SC",4,1,7,1964,1964-10-10 10:30:00
+"295","Hannover 96","Werder Bremen",1,2,7,1964,1964-10-10 10:30:00
+"296","Borussia Dortmund","1. FC Kaiserslautern",3,2,7,1964,1964-10-10 10:30:00
+"297","TSV 1860 Muenchen","Hannover 96",4,0,8,1964,1964-10-17 10:30:00
+"298","Eintracht Braunschweig","Borussia Dortmund",0,1,8,1964,1964-10-17 10:30:00
+"299","Werder Bremen","Borussia Neunkirchen",2,0,8,1964,1964-10-17 10:30:00
+"300","1. FC Kaiserslautern","1. FC Nuernberg",3,2,8,1964,1964-10-17 10:30:00
+"301","Meidericher SV","VfB Stuttgart",3,3,8,1964,1964-10-17 10:30:00
+"302","Karlsruher SC","Hamburger SV",2,2,8,1964,1964-10-17 10:30:00
+"303","Schalke 04","Hertha BSC Berlin",3,0,8,1964,1964-10-17 10:30:00
+"304","Eintracht Frankfurt","1. FC Koeln",1,4,8,1964,1964-10-17 10:30:00
+"305","Hertha BSC Berlin","Meidericher SV",2,2,9,1964,1964-10-24 10:30:00
+"306","1. FC Koeln","Karlsruher SC",4,1,9,1964,1964-10-24 10:30:00
+"307","VfB Stuttgart","Werder Bremen",1,1,9,1964,1964-10-24 10:30:00
+"308","Hamburger SV","1. FC Kaiserslautern",3,2,9,1964,1964-10-24 10:30:00
+"309","Borussia Neunkirchen","TSV 1860 Muenchen",3,0,9,1964,1964-10-24 10:30:00
+"310","1. FC Nuernberg","Eintracht Braunschweig",3,2,9,1964,1964-10-24 10:30:00
+"311","Hannover 96","Schalke 04",1,0,9,1964,1964-10-24 10:30:00
+"312","Borussia Dortmund","Eintracht Frankfurt",1,3,9,1964,1964-10-24 10:30:00
 "313","TSV 1860 Muenchen","VfB Stuttgart",1,0,10,1964,1964-11-07 09:30:00
 "314","Eintracht Braunschweig","Hamburger SV",2,0,10,1964,1964-11-07 09:30:00
 "315","Werder Bremen","Hertha BSC Berlin",5,1,10,1964,1964-11-07 09:30:00
@@ -455,129 +455,129 @@
 "454","Hannover 96","Karlsruher SC",4,2,27,1964,1965-04-10 09:30:00
 "455","Borussia Dortmund","Hamburger SV",2,0,27,1964,1965-04-10 09:30:00
 "456","Werder Bremen","TSV 1860 Muenchen",3,2,27,1964,1965-04-10 09:30:00
-"457","Hamburger SV","1. FC Koeln",0,0,28,1964,1965-04-30 09:30:00
-"458","Hannover 96","Borussia Neunkirchen",1,1,28,1964,1965-04-30 09:30:00
-"459","Borussia Dortmund","1. FC Nuernberg",2,1,28,1964,1965-04-30 09:30:00
-"460","TSV 1860 Muenchen","Schalke 04",3,1,28,1964,1965-04-30 09:30:00
-"461","1. FC Kaiserslautern","Eintracht Braunschweig",2,1,28,1964,1965-04-30 09:30:00
-"462","Meidericher SV","Werder Bremen",2,2,28,1964,1965-04-30 09:30:00
-"463","Karlsruher SC","Hertha BSC Berlin",0,1,28,1964,1965-04-30 09:30:00
-"464","Eintracht Frankfurt","VfB Stuttgart",2,3,28,1964,1965-04-30 09:30:00
-"465","Hertha BSC Berlin","Borussia Neunkirchen",1,1,29,1964,1965-05-08 09:30:00
-"466","1. FC Koeln","1. FC Nuernberg",0,0,29,1964,1965-05-08 09:30:00
-"467","VfB Stuttgart","Hannover 96",0,3,29,1964,1965-05-08 09:30:00
-"468","TSV 1860 Muenchen","Hamburger SV",4,1,29,1964,1965-05-08 09:30:00
-"469","Eintracht Braunschweig","Eintracht Frankfurt",3,2,29,1964,1965-05-08 09:30:00
-"470","Werder Bremen","Borussia Dortmund",3,0,29,1964,1965-05-08 09:30:00
-"471","1. FC Kaiserslautern","Karlsruher SC",0,1,29,1964,1965-05-08 09:30:00
-"472","Schalke 04","Meidericher SV",1,2,29,1964,1965-05-08 09:30:00
-"473","Meidericher SV","TSV 1860 Muenchen",3,0,30,1964,1965-05-14 09:30:00
-"474","Hamburger SV","Schalke 04",2,4,30,1964,1965-05-15 09:30:00
-"475","Borussia Neunkirchen","VfB Stuttgart",3,1,30,1964,1965-05-15 09:30:00
-"476","1. FC Nuernberg","Werder Bremen",2,3,30,1964,1965-05-15 09:30:00
-"477","Hannover 96","Hertha BSC Berlin",3,1,30,1964,1965-05-15 09:30:00
-"478","Borussia Dortmund","1. FC Koeln",2,2,30,1964,1965-05-15 09:30:00
-"479","Karlsruher SC","Eintracht Braunschweig",3,0,30,1964,1965-05-15 09:30:00
-"480","Eintracht Frankfurt","1. FC Kaiserslautern",1,2,30,1964,1965-05-15 09:30:00
-"481","Tasmania Berlin","Karlsruher SC",2,0,1,1965,1965-08-14 09:30:00
-"482","Borussia Neunkirchen","Borussia Moenchengladbach",1,1,1,1965,1965-08-14 09:30:00
-"483","Eintracht Braunschweig","Borussia Dortmund",4,0,1,1965,1965-08-14 09:30:00
-"484","Eintracht Frankfurt","Hamburger SV",2,0,1,1965,1965-08-14 09:30:00
-"485","TSV 1860 Muenchen","Bayern Muenchen",1,0,1,1965,1965-08-14 09:30:00
-"486","Werder Bremen","1. FC Nuernberg",1,0,1,1965,1965-08-14 09:30:00
-"487","1. FC Koeln","Hannover 96",0,1,1,1965,1965-08-14 09:30:00
-"488","Meidericher SV","1. FC Kaiserslautern",2,2,1,1965,1965-08-14 09:30:00
-"489","VfB Stuttgart","Schalke 04",1,0,1,1965,1965-08-14 09:30:00
-"490","1. FC Kaiserslautern","1. FC Koeln",3,2,2,1965,1965-08-21 09:30:00
-"491","Hannover 96","Werder Bremen",2,1,2,1965,1965-08-21 09:30:00
-"492","1. FC Nuernberg","TSV 1860 Muenchen",1,4,2,1965,1965-08-21 09:30:00
-"493","Bayern Muenchen","Eintracht Frankfurt",2,0,2,1965,1965-08-21 09:30:00
-"494","Hamburger SV","Eintracht Braunschweig",2,1,2,1965,1965-08-21 09:30:00
-"495","Borussia Dortmund","Borussia Neunkirchen",1,0,2,1965,1965-08-21 09:30:00
-"496","Borussia Moenchengladbach","Tasmania Berlin",5,0,2,1965,1965-08-21 09:30:00
-"497","VfB Stuttgart","Meidericher SV",2,0,2,1965,1965-08-21 09:30:00
-"498","Schalke 04","Karlsruher SC",0,0,2,1965,1965-08-21 09:30:00
-"499","Meidericher SV","Schalke 04",5,1,3,1965,1965-08-27 09:30:00
-"500","Karlsruher SC","Borussia Moenchengladbach",3,3,3,1965,1965-08-28 09:30:00
-"501","Tasmania Berlin","Borussia Dortmund",0,2,3,1965,1965-08-28 09:30:00
-"502","Borussia Neunkirchen","Hamburger SV",1,1,3,1965,1965-08-28 09:30:00
-"503","Eintracht Braunschweig","Bayern Muenchen",2,4,3,1965,1965-08-28 09:30:00
-"504","Eintracht Frankfurt","1. FC Nuernberg",1,2,3,1965,1965-08-28 09:30:00
-"505","TSV 1860 Muenchen","Hannover 96",5,0,3,1965,1965-08-28 09:30:00
-"506","Werder Bremen","1. FC Kaiserslautern",4,1,3,1965,1965-08-28 09:30:00
-"507","1. FC Koeln","VfB Stuttgart",3,1,3,1965,1965-08-28 09:30:00
-"508","1. FC Kaiserslautern","TSV 1860 Muenchen",3,0,4,1965,1965-09-04 09:30:00
-"509","Hannover 96","Eintracht Frankfurt",4,1,4,1965,1965-09-04 09:30:00
-"510","1. FC Nuernberg","Eintracht Braunschweig",1,1,4,1965,1965-09-04 09:30:00
-"511","Bayern Muenchen","Borussia Neunkirchen",6,0,4,1965,1965-09-04 09:30:00
-"512","Hamburger SV","Tasmania Berlin",5,1,4,1965,1965-09-04 09:30:00
-"513","Borussia Dortmund","Karlsruher SC",4,1,4,1965,1965-09-04 09:30:00
-"514","Meidericher SV","1. FC Koeln",2,3,4,1965,1965-09-04 09:30:00
-"515","VfB Stuttgart","Werder Bremen",0,2,4,1965,1965-09-04 09:30:00
-"516","Schalke 04","Borussia Moenchengladbach",0,0,4,1965,1965-09-04 09:30:00
-"517","Borussia Moenchengladbach","Borussia Dortmund",4,5,5,1965,1965-09-11 09:30:00
-"518","Karlsruher SC","Hamburger SV",1,4,5,1965,1965-09-11 09:30:00
-"519","Tasmania Berlin","Bayern Muenchen",0,2,5,1965,1965-09-11 09:30:00
-"520","Borussia Neunkirchen","1. FC Nuernberg",2,1,5,1965,1965-09-11 09:30:00
-"521","Eintracht Braunschweig","Hannover 96",2,1,5,1965,1965-09-11 09:30:00
-"522","Eintracht Frankfurt","1. FC Kaiserslautern",6,0,5,1965,1965-09-11 09:30:00
-"523","TSV 1860 Muenchen","VfB Stuttgart",0,0,5,1965,1965-09-11 09:30:00
-"524","Werder Bremen","Meidericher SV",2,0,5,1965,1965-09-11 09:30:00
-"525","1. FC Koeln","Schalke 04",2,1,5,1965,1965-09-11 09:30:00
-"526","1. FC Kaiserslautern","Eintracht Braunschweig",1,1,6,1965,1965-09-18 09:30:00
-"527","Hannover 96","Borussia Neunkirchen",6,0,6,1965,1965-09-18 09:30:00
-"528","1. FC Nuernberg","Tasmania Berlin",7,2,6,1965,1965-09-18 09:30:00
-"529","Bayern Muenchen","Karlsruher SC",5,1,6,1965,1965-09-18 09:30:00
-"530","Hamburger SV","Borussia Moenchengladbach",5,0,6,1965,1965-09-18 09:30:00
-"531","1. FC Koeln","Werder Bremen",2,0,6,1965,1965-09-18 09:30:00
-"532","Meidericher SV","TSV 1860 Muenchen",2,3,6,1965,1965-09-18 09:30:00
-"533","VfB Stuttgart","Eintracht Frankfurt",0,0,6,1965,1965-09-18 09:30:00
-"534","Schalke 04","Borussia Dortmund",2,3,6,1965,1965-09-18 09:30:00
-"535","Borussia Dortmund","Hamburger SV",2,2,7,1965,1965-10-02 09:30:00
-"536","Borussia Moenchengladbach","Bayern Muenchen",1,2,7,1965,1965-10-02 09:30:00
-"537","Karlsruher SC","1. FC Nuernberg",1,2,7,1965,1965-10-02 09:30:00
-"538","Tasmania Berlin","Hannover 96",1,5,7,1965,1965-10-02 09:30:00
-"539","Borussia Neunkirchen","1. FC Kaiserslautern",1,4,7,1965,1965-10-02 09:30:00
-"540","Eintracht Braunschweig","VfB Stuttgart",1,1,7,1965,1965-10-02 09:30:00
-"541","Eintracht Frankfurt","Meidericher SV",2,0,7,1965,1965-10-02 09:30:00
-"542","TSV 1860 Muenchen","1. FC Koeln",2,1,7,1965,1965-10-02 09:30:00
-"543","Werder Bremen","Schalke 04",2,0,7,1965,1965-10-02 09:30:00
-"544","1. FC Kaiserslautern","Tasmania Berlin",0,0,8,1965,1965-10-16 09:30:00
-"545","Hannover 96","Karlsruher SC",5,2,8,1965,1965-10-16 09:30:00
-"546","1. FC Nuernberg","Borussia Moenchengladbach",2,2,8,1965,1965-10-16 09:30:00
-"547","Bayern Muenchen","Borussia Dortmund",0,2,8,1965,1965-10-16 09:30:00
-"548","Werder Bremen","TSV 1860 Muenchen",0,2,8,1965,1965-10-16 09:30:00
-"549","1. FC Koeln","Eintracht Frankfurt",1,0,8,1965,1965-10-16 09:30:00
-"550","Meidericher SV","Eintracht Braunschweig",4,1,8,1965,1965-10-16 09:30:00
-"551","VfB Stuttgart","Borussia Neunkirchen",2,0,8,1965,1965-10-16 09:30:00
-"552","Schalke 04","Hamburger SV",2,1,8,1965,1965-10-16 09:30:00
-"553","Hamburger SV","Bayern Muenchen",0,4,9,1965,1965-10-20 09:30:00
-"554","Borussia Dortmund","1. FC Nuernberg",2,0,9,1965,1965-10-20 09:30:00
-"555","Borussia Moenchengladbach","Hannover 96",2,0,9,1965,1965-10-20 09:30:00
-"556","Karlsruher SC","1. FC Kaiserslautern",1,0,9,1965,1965-10-20 09:30:00
-"557","Tasmania Berlin","VfB Stuttgart",0,2,9,1965,1965-10-20 09:30:00
-"558","Borussia Neunkirchen","Meidericher SV",0,1,9,1965,1965-10-20 09:30:00
-"559","Eintracht Braunschweig","1. FC Koeln",1,2,9,1965,1965-10-20 09:30:00
-"560","Eintracht Frankfurt","Werder Bremen",1,0,9,1965,1965-10-20 09:30:00
-"561","TSV 1860 Muenchen","Schalke 04",3,0,9,1965,1965-10-20 09:30:00
-"562","1. FC Kaiserslautern","Borussia Moenchengladbach",1,2,10,1965,1965-10-23 09:30:00
-"563","Hannover 96","Borussia Dortmund",1,1,10,1965,1965-10-23 09:30:00
-"564","1. FC Nuernberg","Hamburger SV",5,0,10,1965,1965-10-23 09:30:00
-"565","TSV 1860 Muenchen","Eintracht Frankfurt",4,2,10,1965,1965-10-23 09:30:00
-"566","Werder Bremen","Eintracht Braunschweig",4,0,10,1965,1965-10-23 09:30:00
-"567","1. FC Koeln","Borussia Neunkirchen",4,2,10,1965,1965-10-23 09:30:00
-"568","Meidericher SV","Tasmania Berlin",3,0,10,1965,1965-10-23 09:30:00
-"569","VfB Stuttgart","Karlsruher SC",1,0,10,1965,1965-10-23 09:30:00
-"570","Schalke 04","Bayern Muenchen",1,1,10,1965,1965-10-23 09:30:00
-"571","Bayern Muenchen","1. FC Nuernberg",0,0,11,1965,1965-10-30 09:30:00
-"572","Hamburger SV","Hannover 96",2,1,11,1965,1965-10-30 09:30:00
-"573","Borussia Dortmund","1. FC Kaiserslautern",4,0,11,1965,1965-10-30 09:30:00
-"574","Borussia Moenchengladbach","VfB Stuttgart",1,0,11,1965,1965-10-30 09:30:00
-"575","Karlsruher SC","Meidericher SV",0,4,11,1965,1965-10-30 09:30:00
-"576","Tasmania Berlin","1. FC Koeln",0,6,11,1965,1965-10-30 09:30:00
-"577","Borussia Neunkirchen","Werder Bremen",1,2,11,1965,1965-10-30 09:30:00
-"578","Eintracht Braunschweig","TSV 1860 Muenchen",2,2,11,1965,1965-10-30 09:30:00
-"579","Eintracht Frankfurt","Schalke 04",4,1,11,1965,1965-10-30 09:30:00
+"457","Hamburger SV","1. FC Koeln",0,0,28,1964,1965-04-30 10:30:00
+"458","Hannover 96","Borussia Neunkirchen",1,1,28,1964,1965-04-30 10:30:00
+"459","Borussia Dortmund","1. FC Nuernberg",2,1,28,1964,1965-04-30 10:30:00
+"460","TSV 1860 Muenchen","Schalke 04",3,1,28,1964,1965-04-30 10:30:00
+"461","1. FC Kaiserslautern","Eintracht Braunschweig",2,1,28,1964,1965-04-30 10:30:00
+"462","Meidericher SV","Werder Bremen",2,2,28,1964,1965-04-30 10:30:00
+"463","Karlsruher SC","Hertha BSC Berlin",0,1,28,1964,1965-04-30 10:30:00
+"464","Eintracht Frankfurt","VfB Stuttgart",2,3,28,1964,1965-04-30 10:30:00
+"465","Hertha BSC Berlin","Borussia Neunkirchen",1,1,29,1964,1965-05-08 10:30:00
+"466","1. FC Koeln","1. FC Nuernberg",0,0,29,1964,1965-05-08 10:30:00
+"467","VfB Stuttgart","Hannover 96",0,3,29,1964,1965-05-08 10:30:00
+"468","TSV 1860 Muenchen","Hamburger SV",4,1,29,1964,1965-05-08 10:30:00
+"469","Eintracht Braunschweig","Eintracht Frankfurt",3,2,29,1964,1965-05-08 10:30:00
+"470","Werder Bremen","Borussia Dortmund",3,0,29,1964,1965-05-08 10:30:00
+"471","1. FC Kaiserslautern","Karlsruher SC",0,1,29,1964,1965-05-08 10:30:00
+"472","Schalke 04","Meidericher SV",1,2,29,1964,1965-05-08 10:30:00
+"473","Meidericher SV","TSV 1860 Muenchen",3,0,30,1964,1965-05-14 10:30:00
+"474","Hamburger SV","Schalke 04",2,4,30,1964,1965-05-15 10:30:00
+"475","Borussia Neunkirchen","VfB Stuttgart",3,1,30,1964,1965-05-15 10:30:00
+"476","1. FC Nuernberg","Werder Bremen",2,3,30,1964,1965-05-15 10:30:00
+"477","Hannover 96","Hertha BSC Berlin",3,1,30,1964,1965-05-15 10:30:00
+"478","Borussia Dortmund","1. FC Koeln",2,2,30,1964,1965-05-15 10:30:00
+"479","Karlsruher SC","Eintracht Braunschweig",3,0,30,1964,1965-05-15 10:30:00
+"480","Eintracht Frankfurt","1. FC Kaiserslautern",1,2,30,1964,1965-05-15 10:30:00
+"481","Tasmania Berlin","Karlsruher SC",2,0,1,1965,1965-08-14 10:30:00
+"482","Borussia Neunkirchen","Borussia Moenchengladbach",1,1,1,1965,1965-08-14 10:30:00
+"483","Eintracht Braunschweig","Borussia Dortmund",4,0,1,1965,1965-08-14 10:30:00
+"484","Eintracht Frankfurt","Hamburger SV",2,0,1,1965,1965-08-14 10:30:00
+"485","TSV 1860 Muenchen","Bayern Muenchen",1,0,1,1965,1965-08-14 10:30:00
+"486","Werder Bremen","1. FC Nuernberg",1,0,1,1965,1965-08-14 10:30:00
+"487","1. FC Koeln","Hannover 96",0,1,1,1965,1965-08-14 10:30:00
+"488","Meidericher SV","1. FC Kaiserslautern",2,2,1,1965,1965-08-14 10:30:00
+"489","VfB Stuttgart","Schalke 04",1,0,1,1965,1965-08-14 10:30:00
+"490","1. FC Kaiserslautern","1. FC Koeln",3,2,2,1965,1965-08-21 10:30:00
+"491","Hannover 96","Werder Bremen",2,1,2,1965,1965-08-21 10:30:00
+"492","1. FC Nuernberg","TSV 1860 Muenchen",1,4,2,1965,1965-08-21 10:30:00
+"493","Bayern Muenchen","Eintracht Frankfurt",2,0,2,1965,1965-08-21 10:30:00
+"494","Hamburger SV","Eintracht Braunschweig",2,1,2,1965,1965-08-21 10:30:00
+"495","Borussia Dortmund","Borussia Neunkirchen",1,0,2,1965,1965-08-21 10:30:00
+"496","Borussia Moenchengladbach","Tasmania Berlin",5,0,2,1965,1965-08-21 10:30:00
+"497","VfB Stuttgart","Meidericher SV",2,0,2,1965,1965-08-21 10:30:00
+"498","Schalke 04","Karlsruher SC",0,0,2,1965,1965-08-21 10:30:00
+"499","Meidericher SV","Schalke 04",5,1,3,1965,1965-08-27 10:30:00
+"500","Karlsruher SC","Borussia Moenchengladbach",3,3,3,1965,1965-08-28 10:30:00
+"501","Tasmania Berlin","Borussia Dortmund",0,2,3,1965,1965-08-28 10:30:00
+"502","Borussia Neunkirchen","Hamburger SV",1,1,3,1965,1965-08-28 10:30:00
+"503","Eintracht Braunschweig","Bayern Muenchen",2,4,3,1965,1965-08-28 10:30:00
+"504","Eintracht Frankfurt","1. FC Nuernberg",1,2,3,1965,1965-08-28 10:30:00
+"505","TSV 1860 Muenchen","Hannover 96",5,0,3,1965,1965-08-28 10:30:00
+"506","Werder Bremen","1. FC Kaiserslautern",4,1,3,1965,1965-08-28 10:30:00
+"507","1. FC Koeln","VfB Stuttgart",3,1,3,1965,1965-08-28 10:30:00
+"508","1. FC Kaiserslautern","TSV 1860 Muenchen",3,0,4,1965,1965-09-04 10:30:00
+"509","Hannover 96","Eintracht Frankfurt",4,1,4,1965,1965-09-04 10:30:00
+"510","1. FC Nuernberg","Eintracht Braunschweig",1,1,4,1965,1965-09-04 10:30:00
+"511","Bayern Muenchen","Borussia Neunkirchen",6,0,4,1965,1965-09-04 10:30:00
+"512","Hamburger SV","Tasmania Berlin",5,1,4,1965,1965-09-04 10:30:00
+"513","Borussia Dortmund","Karlsruher SC",4,1,4,1965,1965-09-04 10:30:00
+"514","Meidericher SV","1. FC Koeln",2,3,4,1965,1965-09-04 10:30:00
+"515","VfB Stuttgart","Werder Bremen",0,2,4,1965,1965-09-04 10:30:00
+"516","Schalke 04","Borussia Moenchengladbach",0,0,4,1965,1965-09-04 10:30:00
+"517","Borussia Moenchengladbach","Borussia Dortmund",4,5,5,1965,1965-09-11 10:30:00
+"518","Karlsruher SC","Hamburger SV",1,4,5,1965,1965-09-11 10:30:00
+"519","Tasmania Berlin","Bayern Muenchen",0,2,5,1965,1965-09-11 10:30:00
+"520","Borussia Neunkirchen","1. FC Nuernberg",2,1,5,1965,1965-09-11 10:30:00
+"521","Eintracht Braunschweig","Hannover 96",2,1,5,1965,1965-09-11 10:30:00
+"522","Eintracht Frankfurt","1. FC Kaiserslautern",6,0,5,1965,1965-09-11 10:30:00
+"523","TSV 1860 Muenchen","VfB Stuttgart",0,0,5,1965,1965-09-11 10:30:00
+"524","Werder Bremen","Meidericher SV",2,0,5,1965,1965-09-11 10:30:00
+"525","1. FC Koeln","Schalke 04",2,1,5,1965,1965-09-11 10:30:00
+"526","1. FC Kaiserslautern","Eintracht Braunschweig",1,1,6,1965,1965-09-18 10:30:00
+"527","Hannover 96","Borussia Neunkirchen",6,0,6,1965,1965-09-18 10:30:00
+"528","1. FC Nuernberg","Tasmania Berlin",7,2,6,1965,1965-09-18 10:30:00
+"529","Bayern Muenchen","Karlsruher SC",5,1,6,1965,1965-09-18 10:30:00
+"530","Hamburger SV","Borussia Moenchengladbach",5,0,6,1965,1965-09-18 10:30:00
+"531","1. FC Koeln","Werder Bremen",2,0,6,1965,1965-09-18 10:30:00
+"532","Meidericher SV","TSV 1860 Muenchen",2,3,6,1965,1965-09-18 10:30:00
+"533","VfB Stuttgart","Eintracht Frankfurt",0,0,6,1965,1965-09-18 10:30:00
+"534","Schalke 04","Borussia Dortmund",2,3,6,1965,1965-09-18 10:30:00
+"535","Borussia Dortmund","Hamburger SV",2,2,7,1965,1965-10-02 10:30:00
+"536","Borussia Moenchengladbach","Bayern Muenchen",1,2,7,1965,1965-10-02 10:30:00
+"537","Karlsruher SC","1. FC Nuernberg",1,2,7,1965,1965-10-02 10:30:00
+"538","Tasmania Berlin","Hannover 96",1,5,7,1965,1965-10-02 10:30:00
+"539","Borussia Neunkirchen","1. FC Kaiserslautern",1,4,7,1965,1965-10-02 10:30:00
+"540","Eintracht Braunschweig","VfB Stuttgart",1,1,7,1965,1965-10-02 10:30:00
+"541","Eintracht Frankfurt","Meidericher SV",2,0,7,1965,1965-10-02 10:30:00
+"542","TSV 1860 Muenchen","1. FC Koeln",2,1,7,1965,1965-10-02 10:30:00
+"543","Werder Bremen","Schalke 04",2,0,7,1965,1965-10-02 10:30:00
+"544","1. FC Kaiserslautern","Tasmania Berlin",0,0,8,1965,1965-10-16 10:30:00
+"545","Hannover 96","Karlsruher SC",5,2,8,1965,1965-10-16 10:30:00
+"546","1. FC Nuernberg","Borussia Moenchengladbach",2,2,8,1965,1965-10-16 10:30:00
+"547","Bayern Muenchen","Borussia Dortmund",0,2,8,1965,1965-10-16 10:30:00
+"548","Werder Bremen","TSV 1860 Muenchen",0,2,8,1965,1965-10-16 10:30:00
+"549","1. FC Koeln","Eintracht Frankfurt",1,0,8,1965,1965-10-16 10:30:00
+"550","Meidericher SV","Eintracht Braunschweig",4,1,8,1965,1965-10-16 10:30:00
+"551","VfB Stuttgart","Borussia Neunkirchen",2,0,8,1965,1965-10-16 10:30:00
+"552","Schalke 04","Hamburger SV",2,1,8,1965,1965-10-16 10:30:00
+"553","Hamburger SV","Bayern Muenchen",0,4,9,1965,1965-10-20 10:30:00
+"554","Borussia Dortmund","1. FC Nuernberg",2,0,9,1965,1965-10-20 10:30:00
+"555","Borussia Moenchengladbach","Hannover 96",2,0,9,1965,1965-10-20 10:30:00
+"556","Karlsruher SC","1. FC Kaiserslautern",1,0,9,1965,1965-10-20 10:30:00
+"557","Tasmania Berlin","VfB Stuttgart",0,2,9,1965,1965-10-20 10:30:00
+"558","Borussia Neunkirchen","Meidericher SV",0,1,9,1965,1965-10-20 10:30:00
+"559","Eintracht Braunschweig","1. FC Koeln",1,2,9,1965,1965-10-20 10:30:00
+"560","Eintracht Frankfurt","Werder Bremen",1,0,9,1965,1965-10-20 10:30:00
+"561","TSV 1860 Muenchen","Schalke 04",3,0,9,1965,1965-10-20 10:30:00
+"562","1. FC Kaiserslautern","Borussia Moenchengladbach",1,2,10,1965,1965-10-23 10:30:00
+"563","Hannover 96","Borussia Dortmund",1,1,10,1965,1965-10-23 10:30:00
+"564","1. FC Nuernberg","Hamburger SV",5,0,10,1965,1965-10-23 10:30:00
+"565","TSV 1860 Muenchen","Eintracht Frankfurt",4,2,10,1965,1965-10-23 10:30:00
+"566","Werder Bremen","Eintracht Braunschweig",4,0,10,1965,1965-10-23 10:30:00
+"567","1. FC Koeln","Borussia Neunkirchen",4,2,10,1965,1965-10-23 10:30:00
+"568","Meidericher SV","Tasmania Berlin",3,0,10,1965,1965-10-23 10:30:00
+"569","VfB Stuttgart","Karlsruher SC",1,0,10,1965,1965-10-23 10:30:00
+"570","Schalke 04","Bayern Muenchen",1,1,10,1965,1965-10-23 10:30:00
+"571","Bayern Muenchen","1. FC Nuernberg",0,0,11,1965,1965-10-30 10:30:00
+"572","Hamburger SV","Hannover 96",2,1,11,1965,1965-10-30 10:30:00
+"573","Borussia Dortmund","1. FC Kaiserslautern",4,0,11,1965,1965-10-30 10:30:00
+"574","Borussia Moenchengladbach","VfB Stuttgart",1,0,11,1965,1965-10-30 10:30:00
+"575","Karlsruher SC","Meidericher SV",0,4,11,1965,1965-10-30 10:30:00
+"576","Tasmania Berlin","1. FC Koeln",0,6,11,1965,1965-10-30 10:30:00
+"577","Borussia Neunkirchen","Werder Bremen",1,2,11,1965,1965-10-30 10:30:00
+"578","Eintracht Braunschweig","TSV 1860 Muenchen",2,2,11,1965,1965-10-30 10:30:00
+"579","Eintracht Frankfurt","Schalke 04",4,1,11,1965,1965-10-30 10:30:00
 "580","1. FC Kaiserslautern","Hamburger SV",2,1,12,1965,1965-11-06 09:30:00
 "581","Hannover 96","Bayern Muenchen",3,4,12,1965,1965-11-06 09:30:00
 "582","Eintracht Frankfurt","Eintracht Braunschweig",4,1,12,1965,1965-11-06 09:30:00
@@ -739,7 +739,7 @@
 "738","Karlsruher SC","1. FC Koeln",2,1,29,1965,1966-04-16 09:30:00
 "739","Tasmania Berlin","Werder Bremen",1,1,29,1965,1966-04-16 09:30:00
 "740","Borussia Neunkirchen","TSV 1860 Muenchen",1,9,29,1965,1966-04-16 09:30:00
-"741","Eintracht Braunschweig","Eintracht Frankfurt",2,2,29,1965,1966-04-26 14:00:00
+"741","Eintracht Braunschweig","Eintracht Frankfurt",2,2,29,1965,1966-04-26 15:00:00
 "742","1. FC Kaiserslautern","Bayern Muenchen",1,2,30,1965,1966-04-23 09:30:00
 "743","Hannover 96","1. FC Nuernberg",2,2,30,1965,1966-04-23 09:30:00
 "744","Eintracht Frankfurt","Borussia Neunkirchen",1,2,30,1965,1966-04-23 09:30:00
@@ -749,141 +749,141 @@
 "748","Meidericher SV","Borussia Dortmund",2,1,30,1965,1966-04-23 09:30:00
 "749","VfB Stuttgart","Hamburger SV",1,3,30,1965,1966-04-23 09:30:00
 "750","Schalke 04","Eintracht Braunschweig",1,1,30,1965,1966-04-23 09:30:00
-"751","Hannover 96","Schalke 04",0,3,31,1965,1966-04-30 09:30:00
-"752","1. FC Nuernberg","1. FC Kaiserslautern",1,1,31,1965,1966-04-30 09:30:00
-"753","Bayern Muenchen","VfB Stuttgart",0,1,31,1965,1966-04-30 09:30:00
-"754","Hamburger SV","Meidericher SV",2,0,31,1965,1966-04-30 09:30:00
-"755","Borussia Dortmund","1. FC Koeln",3,2,31,1965,1966-04-30 09:30:00
-"756","Borussia Moenchengladbach","Werder Bremen",0,7,31,1965,1966-04-30 09:30:00
-"757","Karlsruher SC","TSV 1860 Muenchen",1,1,31,1965,1966-04-30 09:30:00
-"758","Tasmania Berlin","Eintracht Frankfurt",0,3,31,1965,1966-04-30 09:30:00
-"759","Borussia Neunkirchen","Eintracht Braunschweig",1,0,31,1965,1966-04-30 09:30:00
-"760","1. FC Kaiserslautern","Hannover 96",1,1,32,1965,1966-05-07 09:30:00
-"761","Eintracht Braunschweig","Tasmania Berlin",3,1,32,1965,1966-05-14 09:30:00
-"762","Eintracht Frankfurt","Karlsruher SC",1,0,32,1965,1966-05-14 09:30:00
-"763","TSV 1860 Muenchen","Borussia Moenchengladbach",3,3,32,1965,1966-05-14 09:30:00
-"764","Werder Bremen","Borussia Dortmund",1,0,32,1965,1966-05-14 09:30:00
-"765","1. FC Koeln","Hamburger SV",5,1,32,1965,1966-05-14 09:30:00
-"766","Meidericher SV","Bayern Muenchen",1,1,32,1965,1966-05-14 09:30:00
-"767","VfB Stuttgart","1. FC Nuernberg",1,0,32,1965,1966-05-14 09:30:00
-"768","Schalke 04","Borussia Neunkirchen",2,0,32,1965,1966-05-14 09:30:00
-"769","1. FC Kaiserslautern","Schalke 04",3,2,33,1965,1966-05-21 09:30:00
-"770","Hannover 96","VfB Stuttgart",4,2,33,1965,1966-05-21 09:30:00
-"771","1. FC Nuernberg","Meidericher SV",4,1,33,1965,1966-05-21 09:30:00
-"772","Bayern Muenchen","1. FC Koeln",1,4,33,1965,1966-05-21 09:30:00
-"773","Hamburger SV","Werder Bremen",1,3,33,1965,1966-05-21 09:30:00
-"774","Borussia Dortmund","TSV 1860 Muenchen",0,2,33,1965,1966-05-21 09:30:00
-"775","Borussia Moenchengladbach","Eintracht Frankfurt",1,2,33,1965,1966-05-21 09:30:00
-"776","Karlsruher SC","Eintracht Braunschweig",1,4,33,1965,1966-05-21 09:30:00
-"777","Tasmania Berlin","Borussia Neunkirchen",2,1,33,1965,1966-05-21 09:30:00
-"778","Borussia Neunkirchen","Karlsruher SC",1,0,34,1965,1966-05-28 09:30:00
-"779","Eintracht Braunschweig","Borussia Moenchengladbach",1,1,34,1965,1966-05-28 09:30:00
-"780","Eintracht Frankfurt","Borussia Dortmund",4,1,34,1965,1966-05-28 09:30:00
-"781","TSV 1860 Muenchen","Hamburger SV",1,1,34,1965,1966-05-28 09:30:00
-"782","Werder Bremen","Bayern Muenchen",1,1,34,1965,1966-05-28 09:30:00
-"783","1. FC Koeln","1. FC Nuernberg",2,1,34,1965,1966-05-28 09:30:00
-"784","Meidericher SV","Hannover 96",2,2,34,1965,1966-05-28 09:30:00
-"785","VfB Stuttgart","1. FC Kaiserslautern",4,1,34,1965,1966-05-28 09:30:00
-"786","Schalke 04","Tasmania Berlin",4,0,34,1965,1966-05-28 09:30:00
-"787","Borussia Dortmund","Fortuna Duesseldorf",1,2,1,1966,1966-08-20 09:30:00
-"788","Hamburger SV","Hannover 96",2,1,1,1966,1966-08-20 09:30:00
-"789","1. FC Kaiserslautern","Karlsruher SC",3,1,1,1966,1966-08-20 09:30:00
-"790","Schalke 04","Borussia Moenchengladbach",0,0,1,1966,1966-08-20 09:30:00
-"791","MSV Duisburg","Rot-Weiss Essen",2,0,1,1966,1966-08-20 09:30:00
-"792","VfB Stuttgart","1. FC Nuernberg",1,0,1,1966,1966-08-20 09:30:00
-"793","Eintracht Braunschweig","Werder Bremen",2,0,1,1966,1966-08-20 09:30:00
-"794","1. FC Koeln","TSV 1860 Muenchen",2,0,1,1966,1966-08-20 09:30:00
-"795","Bayern Muenchen","Eintracht Frankfurt",1,2,1,1966,1966-08-20 09:30:00
-"796","TSV 1860 Muenchen","Eintracht Braunschweig",2,1,2,1966,1966-08-27 09:30:00
-"797","Werder Bremen","VfB Stuttgart",1,2,2,1966,1966-08-27 09:30:00
-"798","1. FC Nuernberg","MSV Duisburg",3,1,2,1966,1966-08-27 09:30:00
-"799","Rot-Weiss Essen","Schalke 04",4,1,2,1966,1966-08-27 09:30:00
-"800","Borussia Moenchengladbach","1. FC Kaiserslautern",1,1,2,1966,1966-08-27 09:30:00
-"801","Karlsruher SC","Hamburger SV",1,1,2,1966,1966-08-27 09:30:00
-"802","Hannover 96","Borussia Dortmund",2,0,2,1966,1966-08-27 09:30:00
-"803","Fortuna Duesseldorf","Bayern Muenchen",0,0,2,1966,1966-08-27 09:30:00
-"804","Eintracht Frankfurt","1. FC Koeln",4,0,2,1966,1966-08-27 09:30:00
-"805","Borussia Dortmund","Karlsruher SC",2,1,3,1966,1966-09-03 09:30:00
-"806","Hamburger SV","Borussia Moenchengladbach",2,0,3,1966,1966-09-03 09:30:00
-"807","1. FC Kaiserslautern","Rot-Weiss Essen",5,2,3,1966,1966-09-03 09:30:00
-"808","Schalke 04","1. FC Nuernberg",1,0,3,1966,1966-09-03 09:30:00
-"809","MSV Duisburg","Werder Bremen",1,0,3,1966,1966-09-03 09:30:00
-"810","VfB Stuttgart","TSV 1860 Muenchen",2,0,3,1966,1966-09-03 09:30:00
-"811","Eintracht Braunschweig","1. FC Koeln",1,0,3,1966,1966-09-03 09:30:00
-"812","Fortuna Duesseldorf","Eintracht Frankfurt",2,4,3,1966,1966-09-03 09:30:00
-"813","Bayern Muenchen","Hannover 96",0,0,3,1966,1966-09-03 09:30:00
-"814","Eintracht Frankfurt","Eintracht Braunschweig",0,1,4,1966,1966-09-07 14:00:00
-"815","1. FC Koeln","VfB Stuttgart",3,1,4,1966,1966-09-10 09:30:00
-"816","TSV 1860 Muenchen","MSV Duisburg",3,3,4,1966,1966-09-10 09:30:00
-"817","Werder Bremen","Schalke 04",2,1,4,1966,1966-09-10 09:30:00
-"818","1. FC Nuernberg","1. FC Kaiserslautern",1,2,4,1966,1966-09-10 09:30:00
-"819","Rot-Weiss Essen","Hamburger SV",1,1,4,1966,1966-09-10 09:30:00
-"820","Borussia Moenchengladbach","Borussia Dortmund",4,0,4,1966,1966-09-10 09:30:00
-"821","Karlsruher SC","Bayern Muenchen",1,6,4,1966,1966-09-10 09:30:00
-"822","Hannover 96","Fortuna Duesseldorf",0,2,4,1966,1966-09-10 09:30:00
-"823","Borussia Dortmund","Rot-Weiss Essen",0,0,5,1966,1966-09-17 09:30:00
-"824","Hamburger SV","1. FC Nuernberg",0,1,5,1966,1966-09-17 09:30:00
-"825","1. FC Kaiserslautern","Werder Bremen",2,0,5,1966,1966-09-17 09:30:00
-"826","Schalke 04","TSV 1860 Muenchen",1,0,5,1966,1966-09-17 09:30:00
-"827","MSV Duisburg","1. FC Koeln",1,0,5,1966,1966-09-17 09:30:00
-"828","VfB Stuttgart","Eintracht Braunschweig",1,2,5,1966,1966-09-17 09:30:00
-"829","Hannover 96","Eintracht Frankfurt",2,1,5,1966,1966-09-17 09:30:00
-"830","Fortuna Duesseldorf","Karlsruher SC",1,0,5,1966,1966-09-17 09:30:00
-"831","Bayern Muenchen","Borussia Moenchengladbach",4,3,5,1966,1966-09-17 09:30:00
-"832","Eintracht Braunschweig","MSV Duisburg",0,0,6,1966,1966-09-24 09:30:00
-"833","1. FC Koeln","Schalke 04",2,1,6,1966,1966-09-24 09:30:00
-"834","TSV 1860 Muenchen","1. FC Kaiserslautern",3,0,6,1966,1966-09-24 09:30:00
-"835","Werder Bremen","Hamburger SV",5,1,6,1966,1966-09-24 09:30:00
-"836","1. FC Nuernberg","Borussia Dortmund",2,0,6,1966,1966-09-24 09:30:00
-"837","Rot-Weiss Essen","Bayern Muenchen",3,1,6,1966,1966-09-24 09:30:00
-"838","Borussia Moenchengladbach","Fortuna Duesseldorf",3,1,6,1966,1966-09-24 09:30:00
-"839","Karlsruher SC","Hannover 96",0,0,6,1966,1966-09-24 09:30:00
-"840","Eintracht Frankfurt","VfB Stuttgart",4,0,6,1966,1966-09-24 09:30:00
-"841","Hamburger SV","TSV 1860 Muenchen",3,2,7,1966,1966-10-01 09:30:00
-"842","1. FC Kaiserslautern","1. FC Koeln",0,0,7,1966,1966-10-01 09:30:00
-"843","Schalke 04","Eintracht Braunschweig",0,0,7,1966,1966-10-01 09:30:00
-"844","MSV Duisburg","VfB Stuttgart",0,0,7,1966,1966-10-01 09:30:00
-"845","Karlsruher SC","Eintracht Frankfurt",3,2,7,1966,1966-10-01 09:30:00
-"846","Hannover 96","Borussia Moenchengladbach",1,1,7,1966,1966-10-01 09:30:00
-"847","Fortuna Duesseldorf","Rot-Weiss Essen",2,0,7,1966,1966-10-01 09:30:00
-"848","Bayern Muenchen","1. FC Nuernberg",0,1,7,1966,1966-10-01 09:30:00
-"849","Borussia Dortmund","Werder Bremen",2,0,7,1966,1966-10-01 09:30:00
-"850","VfB Stuttgart","Schalke 04",1,1,8,1966,1966-10-08 09:30:00
-"851","Eintracht Braunschweig","1. FC Kaiserslautern",2,0,8,1966,1966-10-08 09:30:00
-"852","1. FC Koeln","Hamburger SV",0,0,8,1966,1966-10-08 09:30:00
-"853","TSV 1860 Muenchen","Borussia Dortmund",1,2,8,1966,1966-10-08 09:30:00
-"854","Werder Bremen","Bayern Muenchen",4,1,8,1966,1966-10-08 09:30:00
-"855","1. FC Nuernberg","Fortuna Duesseldorf",4,2,8,1966,1966-10-08 09:30:00
-"856","Rot-Weiss Essen","Hannover 96",3,0,8,1966,1966-10-08 09:30:00
-"857","Borussia Moenchengladbach","Karlsruher SC",3,1,8,1966,1966-10-08 09:30:00
-"858","Eintracht Frankfurt","MSV Duisburg",1,0,8,1966,1966-10-08 09:30:00
-"859","Borussia Dortmund","1. FC Koeln",6,1,9,1966,1966-10-15 09:30:00
-"860","Hamburger SV","Eintracht Braunschweig",1,0,9,1966,1966-10-15 09:30:00
-"861","1. FC Kaiserslautern","VfB Stuttgart",3,3,9,1966,1966-10-15 09:30:00
-"862","Schalke 04","MSV Duisburg",2,1,9,1966,1966-10-15 09:30:00
-"863","Borussia Moenchengladbach","Eintracht Frankfurt",0,0,9,1966,1966-10-15 09:30:00
-"864","Karlsruher SC","Rot-Weiss Essen",0,1,9,1966,1966-10-15 09:30:00
-"865","Hannover 96","1. FC Nuernberg",2,0,9,1966,1966-10-15 09:30:00
-"866","Fortuna Duesseldorf","Werder Bremen",0,1,9,1966,1966-10-15 09:30:00
-"867","Bayern Muenchen","TSV 1860 Muenchen",3,0,9,1966,1966-10-15 09:30:00
-"868","MSV Duisburg","1. FC Kaiserslautern",1,1,10,1966,1966-10-22 09:30:00
-"869","VfB Stuttgart","Hamburger SV",1,3,10,1966,1966-10-22 09:30:00
-"870","Eintracht Braunschweig","Borussia Dortmund",3,1,10,1966,1966-10-22 09:30:00
-"871","1. FC Koeln","Bayern Muenchen",2,4,10,1966,1966-10-22 09:30:00
-"872","TSV 1860 Muenchen","Fortuna Duesseldorf",3,0,10,1966,1966-10-22 09:30:00
-"873","Werder Bremen","Hannover 96",3,0,10,1966,1966-10-22 09:30:00
-"874","1. FC Nuernberg","Karlsruher SC",2,2,10,1966,1966-10-22 09:30:00
-"875","Rot-Weiss Essen","Borussia Moenchengladbach",2,1,10,1966,1966-10-22 09:30:00
-"876","Eintracht Frankfurt","Schalke 04",4,2,10,1966,1966-10-22 09:30:00
-"877","Borussia Dortmund","VfB Stuttgart",1,1,11,1966,1966-10-29 09:30:00
-"878","Hamburger SV","MSV Duisburg",0,0,11,1966,1966-10-29 09:30:00
-"879","1. FC Kaiserslautern","Schalke 04",1,0,11,1966,1966-10-29 09:30:00
-"880","Rot-Weiss Essen","Eintracht Frankfurt",1,1,11,1966,1966-10-29 09:30:00
-"881","Borussia Moenchengladbach","1. FC Nuernberg",2,0,11,1966,1966-10-29 09:30:00
-"882","Karlsruher SC","Werder Bremen",4,4,11,1966,1966-10-29 09:30:00
-"883","Hannover 96","TSV 1860 Muenchen",2,2,11,1966,1966-10-29 09:30:00
-"884","Fortuna Duesseldorf","1. FC Koeln",1,3,11,1966,1966-10-29 09:30:00
-"885","Bayern Muenchen","Eintracht Braunschweig",2,0,11,1966,1966-10-29 09:30:00
+"751","Hannover 96","Schalke 04",0,3,31,1965,1966-04-30 10:30:00
+"752","1. FC Nuernberg","1. FC Kaiserslautern",1,1,31,1965,1966-04-30 10:30:00
+"753","Bayern Muenchen","VfB Stuttgart",0,1,31,1965,1966-04-30 10:30:00
+"754","Hamburger SV","Meidericher SV",2,0,31,1965,1966-04-30 10:30:00
+"755","Borussia Dortmund","1. FC Koeln",3,2,31,1965,1966-04-30 10:30:00
+"756","Borussia Moenchengladbach","Werder Bremen",0,7,31,1965,1966-04-30 10:30:00
+"757","Karlsruher SC","TSV 1860 Muenchen",1,1,31,1965,1966-04-30 10:30:00
+"758","Tasmania Berlin","Eintracht Frankfurt",0,3,31,1965,1966-04-30 10:30:00
+"759","Borussia Neunkirchen","Eintracht Braunschweig",1,0,31,1965,1966-04-30 10:30:00
+"760","1. FC Kaiserslautern","Hannover 96",1,1,32,1965,1966-05-07 10:30:00
+"761","Eintracht Braunschweig","Tasmania Berlin",3,1,32,1965,1966-05-14 10:30:00
+"762","Eintracht Frankfurt","Karlsruher SC",1,0,32,1965,1966-05-14 10:30:00
+"763","TSV 1860 Muenchen","Borussia Moenchengladbach",3,3,32,1965,1966-05-14 10:30:00
+"764","Werder Bremen","Borussia Dortmund",1,0,32,1965,1966-05-14 10:30:00
+"765","1. FC Koeln","Hamburger SV",5,1,32,1965,1966-05-14 10:30:00
+"766","Meidericher SV","Bayern Muenchen",1,1,32,1965,1966-05-14 10:30:00
+"767","VfB Stuttgart","1. FC Nuernberg",1,0,32,1965,1966-05-14 10:30:00
+"768","Schalke 04","Borussia Neunkirchen",2,0,32,1965,1966-05-14 10:30:00
+"769","1. FC Kaiserslautern","Schalke 04",3,2,33,1965,1966-05-21 10:30:00
+"770","Hannover 96","VfB Stuttgart",4,2,33,1965,1966-05-21 10:30:00
+"771","1. FC Nuernberg","Meidericher SV",4,1,33,1965,1966-05-21 10:30:00
+"772","Bayern Muenchen","1. FC Koeln",1,4,33,1965,1966-05-21 10:30:00
+"773","Hamburger SV","Werder Bremen",1,3,33,1965,1966-05-21 10:30:00
+"774","Borussia Dortmund","TSV 1860 Muenchen",0,2,33,1965,1966-05-21 10:30:00
+"775","Borussia Moenchengladbach","Eintracht Frankfurt",1,2,33,1965,1966-05-21 10:30:00
+"776","Karlsruher SC","Eintracht Braunschweig",1,4,33,1965,1966-05-21 10:30:00
+"777","Tasmania Berlin","Borussia Neunkirchen",2,1,33,1965,1966-05-21 10:30:00
+"778","Borussia Neunkirchen","Karlsruher SC",1,0,34,1965,1966-05-28 10:30:00
+"779","Eintracht Braunschweig","Borussia Moenchengladbach",1,1,34,1965,1966-05-28 10:30:00
+"780","Eintracht Frankfurt","Borussia Dortmund",4,1,34,1965,1966-05-28 10:30:00
+"781","TSV 1860 Muenchen","Hamburger SV",1,1,34,1965,1966-05-28 10:30:00
+"782","Werder Bremen","Bayern Muenchen",1,1,34,1965,1966-05-28 10:30:00
+"783","1. FC Koeln","1. FC Nuernberg",2,1,34,1965,1966-05-28 10:30:00
+"784","Meidericher SV","Hannover 96",2,2,34,1965,1966-05-28 10:30:00
+"785","VfB Stuttgart","1. FC Kaiserslautern",4,1,34,1965,1966-05-28 10:30:00
+"786","Schalke 04","Tasmania Berlin",4,0,34,1965,1966-05-28 10:30:00
+"787","Borussia Dortmund","Fortuna Duesseldorf",1,2,1,1966,1966-08-20 10:30:00
+"788","Hamburger SV","Hannover 96",2,1,1,1966,1966-08-20 10:30:00
+"789","1. FC Kaiserslautern","Karlsruher SC",3,1,1,1966,1966-08-20 10:30:00
+"790","Schalke 04","Borussia Moenchengladbach",0,0,1,1966,1966-08-20 10:30:00
+"791","MSV Duisburg","Rot-Weiss Essen",2,0,1,1966,1966-08-20 10:30:00
+"792","VfB Stuttgart","1. FC Nuernberg",1,0,1,1966,1966-08-20 10:30:00
+"793","Eintracht Braunschweig","Werder Bremen",2,0,1,1966,1966-08-20 10:30:00
+"794","1. FC Koeln","TSV 1860 Muenchen",2,0,1,1966,1966-08-20 10:30:00
+"795","Bayern Muenchen","Eintracht Frankfurt",1,2,1,1966,1966-08-20 10:30:00
+"796","TSV 1860 Muenchen","Eintracht Braunschweig",2,1,2,1966,1966-08-27 10:30:00
+"797","Werder Bremen","VfB Stuttgart",1,2,2,1966,1966-08-27 10:30:00
+"798","1. FC Nuernberg","MSV Duisburg",3,1,2,1966,1966-08-27 10:30:00
+"799","Rot-Weiss Essen","Schalke 04",4,1,2,1966,1966-08-27 10:30:00
+"800","Borussia Moenchengladbach","1. FC Kaiserslautern",1,1,2,1966,1966-08-27 10:30:00
+"801","Karlsruher SC","Hamburger SV",1,1,2,1966,1966-08-27 10:30:00
+"802","Hannover 96","Borussia Dortmund",2,0,2,1966,1966-08-27 10:30:00
+"803","Fortuna Duesseldorf","Bayern Muenchen",0,0,2,1966,1966-08-27 10:30:00
+"804","Eintracht Frankfurt","1. FC Koeln",4,0,2,1966,1966-08-27 10:30:00
+"805","Borussia Dortmund","Karlsruher SC",2,1,3,1966,1966-09-03 10:30:00
+"806","Hamburger SV","Borussia Moenchengladbach",2,0,3,1966,1966-09-03 10:30:00
+"807","1. FC Kaiserslautern","Rot-Weiss Essen",5,2,3,1966,1966-09-03 10:30:00
+"808","Schalke 04","1. FC Nuernberg",1,0,3,1966,1966-09-03 10:30:00
+"809","MSV Duisburg","Werder Bremen",1,0,3,1966,1966-09-03 10:30:00
+"810","VfB Stuttgart","TSV 1860 Muenchen",2,0,3,1966,1966-09-03 10:30:00
+"811","Eintracht Braunschweig","1. FC Koeln",1,0,3,1966,1966-09-03 10:30:00
+"812","Fortuna Duesseldorf","Eintracht Frankfurt",2,4,3,1966,1966-09-03 10:30:00
+"813","Bayern Muenchen","Hannover 96",0,0,3,1966,1966-09-03 10:30:00
+"814","Eintracht Frankfurt","Eintracht Braunschweig",0,1,4,1966,1966-09-07 15:00:00
+"815","1. FC Koeln","VfB Stuttgart",3,1,4,1966,1966-09-10 10:30:00
+"816","TSV 1860 Muenchen","MSV Duisburg",3,3,4,1966,1966-09-10 10:30:00
+"817","Werder Bremen","Schalke 04",2,1,4,1966,1966-09-10 10:30:00
+"818","1. FC Nuernberg","1. FC Kaiserslautern",1,2,4,1966,1966-09-10 10:30:00
+"819","Rot-Weiss Essen","Hamburger SV",1,1,4,1966,1966-09-10 10:30:00
+"820","Borussia Moenchengladbach","Borussia Dortmund",4,0,4,1966,1966-09-10 10:30:00
+"821","Karlsruher SC","Bayern Muenchen",1,6,4,1966,1966-09-10 10:30:00
+"822","Hannover 96","Fortuna Duesseldorf",0,2,4,1966,1966-09-10 10:30:00
+"823","Borussia Dortmund","Rot-Weiss Essen",0,0,5,1966,1966-09-17 10:30:00
+"824","Hamburger SV","1. FC Nuernberg",0,1,5,1966,1966-09-17 10:30:00
+"825","1. FC Kaiserslautern","Werder Bremen",2,0,5,1966,1966-09-17 10:30:00
+"826","Schalke 04","TSV 1860 Muenchen",1,0,5,1966,1966-09-17 10:30:00
+"827","MSV Duisburg","1. FC Koeln",1,0,5,1966,1966-09-17 10:30:00
+"828","VfB Stuttgart","Eintracht Braunschweig",1,2,5,1966,1966-09-17 10:30:00
+"829","Hannover 96","Eintracht Frankfurt",2,1,5,1966,1966-09-17 10:30:00
+"830","Fortuna Duesseldorf","Karlsruher SC",1,0,5,1966,1966-09-17 10:30:00
+"831","Bayern Muenchen","Borussia Moenchengladbach",4,3,5,1966,1966-09-17 10:30:00
+"832","Eintracht Braunschweig","MSV Duisburg",0,0,6,1966,1966-09-24 10:30:00
+"833","1. FC Koeln","Schalke 04",2,1,6,1966,1966-09-24 10:30:00
+"834","TSV 1860 Muenchen","1. FC Kaiserslautern",3,0,6,1966,1966-09-24 10:30:00
+"835","Werder Bremen","Hamburger SV",5,1,6,1966,1966-09-24 10:30:00
+"836","1. FC Nuernberg","Borussia Dortmund",2,0,6,1966,1966-09-24 10:30:00
+"837","Rot-Weiss Essen","Bayern Muenchen",3,1,6,1966,1966-09-24 10:30:00
+"838","Borussia Moenchengladbach","Fortuna Duesseldorf",3,1,6,1966,1966-09-24 10:30:00
+"839","Karlsruher SC","Hannover 96",0,0,6,1966,1966-09-24 10:30:00
+"840","Eintracht Frankfurt","VfB Stuttgart",4,0,6,1966,1966-09-24 10:30:00
+"841","Hamburger SV","TSV 1860 Muenchen",3,2,7,1966,1966-10-01 10:30:00
+"842","1. FC Kaiserslautern","1. FC Koeln",0,0,7,1966,1966-10-01 10:30:00
+"843","Schalke 04","Eintracht Braunschweig",0,0,7,1966,1966-10-01 10:30:00
+"844","MSV Duisburg","VfB Stuttgart",0,0,7,1966,1966-10-01 10:30:00
+"845","Karlsruher SC","Eintracht Frankfurt",3,2,7,1966,1966-10-01 10:30:00
+"846","Hannover 96","Borussia Moenchengladbach",1,1,7,1966,1966-10-01 10:30:00
+"847","Fortuna Duesseldorf","Rot-Weiss Essen",2,0,7,1966,1966-10-01 10:30:00
+"848","Bayern Muenchen","1. FC Nuernberg",0,1,7,1966,1966-10-01 10:30:00
+"849","Borussia Dortmund","Werder Bremen",2,0,7,1966,1966-10-01 10:30:00
+"850","VfB Stuttgart","Schalke 04",1,1,8,1966,1966-10-08 10:30:00
+"851","Eintracht Braunschweig","1. FC Kaiserslautern",2,0,8,1966,1966-10-08 10:30:00
+"852","1. FC Koeln","Hamburger SV",0,0,8,1966,1966-10-08 10:30:00
+"853","TSV 1860 Muenchen","Borussia Dortmund",1,2,8,1966,1966-10-08 10:30:00
+"854","Werder Bremen","Bayern Muenchen",4,1,8,1966,1966-10-08 10:30:00
+"855","1. FC Nuernberg","Fortuna Duesseldorf",4,2,8,1966,1966-10-08 10:30:00
+"856","Rot-Weiss Essen","Hannover 96",3,0,8,1966,1966-10-08 10:30:00
+"857","Borussia Moenchengladbach","Karlsruher SC",3,1,8,1966,1966-10-08 10:30:00
+"858","Eintracht Frankfurt","MSV Duisburg",1,0,8,1966,1966-10-08 10:30:00
+"859","Borussia Dortmund","1. FC Koeln",6,1,9,1966,1966-10-15 10:30:00
+"860","Hamburger SV","Eintracht Braunschweig",1,0,9,1966,1966-10-15 10:30:00
+"861","1. FC Kaiserslautern","VfB Stuttgart",3,3,9,1966,1966-10-15 10:30:00
+"862","Schalke 04","MSV Duisburg",2,1,9,1966,1966-10-15 10:30:00
+"863","Borussia Moenchengladbach","Eintracht Frankfurt",0,0,9,1966,1966-10-15 10:30:00
+"864","Karlsruher SC","Rot-Weiss Essen",0,1,9,1966,1966-10-15 10:30:00
+"865","Hannover 96","1. FC Nuernberg",2,0,9,1966,1966-10-15 10:30:00
+"866","Fortuna Duesseldorf","Werder Bremen",0,1,9,1966,1966-10-15 10:30:00
+"867","Bayern Muenchen","TSV 1860 Muenchen",3,0,9,1966,1966-10-15 10:30:00
+"868","MSV Duisburg","1. FC Kaiserslautern",1,1,10,1966,1966-10-22 10:30:00
+"869","VfB Stuttgart","Hamburger SV",1,3,10,1966,1966-10-22 10:30:00
+"870","Eintracht Braunschweig","Borussia Dortmund",3,1,10,1966,1966-10-22 10:30:00
+"871","1. FC Koeln","Bayern Muenchen",2,4,10,1966,1966-10-22 10:30:00
+"872","TSV 1860 Muenchen","Fortuna Duesseldorf",3,0,10,1966,1966-10-22 10:30:00
+"873","Werder Bremen","Hannover 96",3,0,10,1966,1966-10-22 10:30:00
+"874","1. FC Nuernberg","Karlsruher SC",2,2,10,1966,1966-10-22 10:30:00
+"875","Rot-Weiss Essen","Borussia Moenchengladbach",2,1,10,1966,1966-10-22 10:30:00
+"876","Eintracht Frankfurt","Schalke 04",4,2,10,1966,1966-10-22 10:30:00
+"877","Borussia Dortmund","VfB Stuttgart",1,1,11,1966,1966-10-29 10:30:00
+"878","Hamburger SV","MSV Duisburg",0,0,11,1966,1966-10-29 10:30:00
+"879","1. FC Kaiserslautern","Schalke 04",1,0,11,1966,1966-10-29 10:30:00
+"880","Rot-Weiss Essen","Eintracht Frankfurt",1,1,11,1966,1966-10-29 10:30:00
+"881","Borussia Moenchengladbach","1. FC Nuernberg",2,0,11,1966,1966-10-29 10:30:00
+"882","Karlsruher SC","Werder Bremen",4,4,11,1966,1966-10-29 10:30:00
+"883","Hannover 96","TSV 1860 Muenchen",2,2,11,1966,1966-10-29 10:30:00
+"884","Fortuna Duesseldorf","1. FC Koeln",1,3,11,1966,1966-10-29 10:30:00
+"885","Bayern Muenchen","Eintracht Braunschweig",2,0,11,1966,1966-10-29 10:30:00
 "886","Schalke 04","Hamburger SV",2,0,12,1966,1966-11-05 09:30:00
 "887","MSV Duisburg","Borussia Dortmund",1,5,12,1966,1966-11-05 09:30:00
 "888","VfB Stuttgart","Bayern Muenchen",2,4,12,1966,1966-11-05 09:30:00
@@ -1055,42 +1055,42 @@
 "1054","TSV 1860 Muenchen","Borussia Moenchengladbach",4,3,30,1966,1967-04-29 09:30:00
 "1055","Werder Bremen","Rot-Weiss Essen",0,0,30,1966,1967-04-29 09:30:00
 "1056","Eintracht Frankfurt","1. FC Nuernberg",1,4,30,1966,1967-04-29 09:30:00
-"1057","Borussia Moenchengladbach","1. FC Koeln",3,0,31,1966,1967-05-12 14:00:00
-"1058","Borussia Dortmund","1. FC Kaiserslautern",2,1,31,1966,1967-05-13 09:30:00
-"1059","Hamburger SV","Eintracht Frankfurt",0,2,31,1966,1967-05-13 09:30:00
-"1060","1. FC Nuernberg","Werder Bremen",2,1,31,1966,1967-05-13 09:30:00
-"1061","Rot-Weiss Essen","TSV 1860 Muenchen",2,2,31,1966,1967-05-13 09:30:00
-"1062","Karlsruher SC","Eintracht Braunschweig",3,0,31,1966,1967-05-13 09:30:00
-"1063","Hannover 96","VfB Stuttgart",2,2,31,1966,1967-05-13 09:30:00
-"1064","Fortuna Duesseldorf","MSV Duisburg",1,5,31,1966,1967-05-13 09:30:00
-"1065","Bayern Muenchen","Schalke 04",5,0,31,1966,1967-05-13 09:30:00
-"1066","Borussia Dortmund","Hamburger SV",7,0,32,1966,1967-05-20 09:30:00
-"1067","1. FC Kaiserslautern","Bayern Muenchen",1,0,32,1966,1967-05-20 09:30:00
-"1068","Schalke 04","Fortuna Duesseldorf",2,1,32,1966,1967-05-20 09:30:00
-"1069","MSV Duisburg","Hannover 96",3,0,32,1966,1967-05-20 09:30:00
-"1070","VfB Stuttgart","Karlsruher SC",2,0,32,1966,1967-05-20 09:30:00
-"1071","Eintracht Braunschweig","Borussia Moenchengladbach",2,1,32,1966,1967-05-20 09:30:00
-"1072","1. FC Koeln","Rot-Weiss Essen",2,1,32,1966,1967-05-20 09:30:00
-"1073","TSV 1860 Muenchen","1. FC Nuernberg",1,2,32,1966,1967-05-20 09:30:00
-"1074","Werder Bremen","Eintracht Frankfurt",3,0,32,1966,1967-05-20 09:30:00
-"1075","Werder Bremen","TSV 1860 Muenchen",2,4,33,1966,1967-05-27 09:30:00
-"1076","1. FC Nuernberg","1. FC Koeln",1,1,33,1966,1967-05-27 09:30:00
-"1077","Rot-Weiss Essen","Eintracht Braunschweig",0,0,33,1966,1967-05-27 09:30:00
-"1078","Borussia Moenchengladbach","VfB Stuttgart",1,2,33,1966,1967-05-27 09:30:00
-"1079","Karlsruher SC","MSV Duisburg",3,0,33,1966,1967-05-27 09:30:00
-"1080","Hannover 96","Schalke 04",1,2,33,1966,1967-05-27 09:30:00
-"1081","Fortuna Duesseldorf","1. FC Kaiserslautern",3,1,33,1966,1967-05-27 09:30:00
-"1082","Bayern Muenchen","Hamburger SV",3,1,33,1966,1967-05-27 09:30:00
-"1083","Eintracht Frankfurt","Borussia Dortmund",3,3,33,1966,1967-05-27 09:30:00
-"1084","Borussia Dortmund","Bayern Muenchen",4,0,34,1966,1967-06-03 09:30:00
-"1085","Hamburger SV","Fortuna Duesseldorf",2,1,34,1966,1967-06-03 09:30:00
-"1086","1. FC Kaiserslautern","Hannover 96",1,0,34,1966,1967-06-03 09:30:00
-"1087","Schalke 04","Karlsruher SC",1,3,34,1966,1967-06-03 09:30:00
-"1088","MSV Duisburg","Borussia Moenchengladbach",1,3,34,1966,1967-06-03 09:30:00
-"1089","VfB Stuttgart","Rot-Weiss Essen",1,0,34,1966,1967-06-03 09:30:00
-"1090","Eintracht Braunschweig","1. FC Nuernberg",4,1,34,1966,1967-06-03 09:30:00
-"1091","1. FC Koeln","Werder Bremen",4,1,34,1966,1967-06-03 09:30:00
-"1092","TSV 1860 Muenchen","Eintracht Frankfurt",2,1,34,1966,1967-06-03 09:30:00
+"1057","Borussia Moenchengladbach","1. FC Koeln",3,0,31,1966,1967-05-12 15:00:00
+"1058","Borussia Dortmund","1. FC Kaiserslautern",2,1,31,1966,1967-05-13 10:30:00
+"1059","Hamburger SV","Eintracht Frankfurt",0,2,31,1966,1967-05-13 10:30:00
+"1060","1. FC Nuernberg","Werder Bremen",2,1,31,1966,1967-05-13 10:30:00
+"1061","Rot-Weiss Essen","TSV 1860 Muenchen",2,2,31,1966,1967-05-13 10:30:00
+"1062","Karlsruher SC","Eintracht Braunschweig",3,0,31,1966,1967-05-13 10:30:00
+"1063","Hannover 96","VfB Stuttgart",2,2,31,1966,1967-05-13 10:30:00
+"1064","Fortuna Duesseldorf","MSV Duisburg",1,5,31,1966,1967-05-13 10:30:00
+"1065","Bayern Muenchen","Schalke 04",5,0,31,1966,1967-05-13 10:30:00
+"1066","Borussia Dortmund","Hamburger SV",7,0,32,1966,1967-05-20 10:30:00
+"1067","1. FC Kaiserslautern","Bayern Muenchen",1,0,32,1966,1967-05-20 10:30:00
+"1068","Schalke 04","Fortuna Duesseldorf",2,1,32,1966,1967-05-20 10:30:00
+"1069","MSV Duisburg","Hannover 96",3,0,32,1966,1967-05-20 10:30:00
+"1070","VfB Stuttgart","Karlsruher SC",2,0,32,1966,1967-05-20 10:30:00
+"1071","Eintracht Braunschweig","Borussia Moenchengladbach",2,1,32,1966,1967-05-20 10:30:00
+"1072","1. FC Koeln","Rot-Weiss Essen",2,1,32,1966,1967-05-20 10:30:00
+"1073","TSV 1860 Muenchen","1. FC Nuernberg",1,2,32,1966,1967-05-20 10:30:00
+"1074","Werder Bremen","Eintracht Frankfurt",3,0,32,1966,1967-05-20 10:30:00
+"1075","Werder Bremen","TSV 1860 Muenchen",2,4,33,1966,1967-05-27 10:30:00
+"1076","1. FC Nuernberg","1. FC Koeln",1,1,33,1966,1967-05-27 10:30:00
+"1077","Rot-Weiss Essen","Eintracht Braunschweig",0,0,33,1966,1967-05-27 10:30:00
+"1078","Borussia Moenchengladbach","VfB Stuttgart",1,2,33,1966,1967-05-27 10:30:00
+"1079","Karlsruher SC","MSV Duisburg",3,0,33,1966,1967-05-27 10:30:00
+"1080","Hannover 96","Schalke 04",1,2,33,1966,1967-05-27 10:30:00
+"1081","Fortuna Duesseldorf","1. FC Kaiserslautern",3,1,33,1966,1967-05-27 10:30:00
+"1082","Bayern Muenchen","Hamburger SV",3,1,33,1966,1967-05-27 10:30:00
+"1083","Eintracht Frankfurt","Borussia Dortmund",3,3,33,1966,1967-05-27 10:30:00
+"1084","Borussia Dortmund","Bayern Muenchen",4,0,34,1966,1967-06-03 10:30:00
+"1085","Hamburger SV","Fortuna Duesseldorf",2,1,34,1966,1967-06-03 10:30:00
+"1086","1. FC Kaiserslautern","Hannover 96",1,0,34,1966,1967-06-03 10:30:00
+"1087","Schalke 04","Karlsruher SC",1,3,34,1966,1967-06-03 10:30:00
+"1088","MSV Duisburg","Borussia Moenchengladbach",1,3,34,1966,1967-06-03 10:30:00
+"1089","VfB Stuttgart","Rot-Weiss Essen",1,0,34,1966,1967-06-03 10:30:00
+"1090","Eintracht Braunschweig","1. FC Nuernberg",4,1,34,1966,1967-06-03 10:30:00
+"1091","1. FC Koeln","Werder Bremen",4,1,34,1966,1967-06-03 10:30:00
+"1092","TSV 1860 Muenchen","Eintracht Frankfurt",2,1,34,1966,1967-06-03 10:30:00
 "1093","MSV Duisburg","Borussia Dortmund",2,2,1,1967,1967-08-18 14:30:00
 "1094","Alemannia Aachen","Bayern Muenchen",0,4,1,1967,1967-08-19 10:30:00
 "1095","1. FC Nuernberg","Karlsruher SC",2,0,1,1967,1967-08-19 10:30:00
@@ -1370,132 +1370,132 @@
 "1369","Borussia Dortmund","VfB Stuttgart",2,1,31,1967,1968-04-27 09:30:00
 "1370","Bayern Muenchen","Werder Bremen",2,3,31,1967,1968-04-27 09:30:00
 "1371","Hannover 96","1. FC Kaiserslautern",2,0,31,1967,1968-04-27 09:30:00
-"1372","Alemannia Aachen","MSV Duisburg",4,4,32,1967,1968-05-11 09:30:00
-"1373","1. FC Nuernberg","Hannover 96",2,1,32,1967,1968-05-11 09:30:00
-"1374","1. FC Kaiserslautern","Bayern Muenchen",2,2,32,1967,1968-05-11 09:30:00
-"1375","Werder Bremen","Borussia Dortmund",2,1,32,1967,1968-05-11 09:30:00
-"1376","VfB Stuttgart","Karlsruher SC",3,2,32,1967,1968-05-11 09:30:00
-"1377","Schalke 04","Borussia Neunkirchen",2,0,32,1967,1968-05-11 09:30:00
-"1378","TSV 1860 Muenchen","Hamburger SV",0,1,32,1967,1968-05-11 09:30:00
-"1379","Eintracht Braunschweig","Eintracht Frankfurt",0,0,32,1967,1968-05-11 09:30:00
-"1380","Borussia Moenchengladbach","1. FC Koeln",1,0,32,1967,1968-05-11 09:30:00
-"1381","Borussia Moenchengladbach","Eintracht Braunschweig",2,0,33,1967,1968-05-18 09:30:00
-"1382","Eintracht Frankfurt","TSV 1860 Muenchen",2,1,33,1967,1968-05-18 09:30:00
-"1383","Hamburger SV","Schalke 04",1,1,33,1967,1968-05-18 09:30:00
-"1384","Borussia Neunkirchen","VfB Stuttgart",0,5,33,1967,1968-05-18 09:30:00
-"1385","Karlsruher SC","Werder Bremen",1,2,33,1967,1968-05-18 09:30:00
-"1386","Borussia Dortmund","1. FC Kaiserslautern",4,0,33,1967,1968-05-18 09:30:00
-"1387","Bayern Muenchen","1. FC Nuernberg",0,2,33,1967,1968-05-18 09:30:00
-"1388","Hannover 96","MSV Duisburg",2,2,33,1967,1968-05-18 09:30:00
-"1389","1. FC Koeln","Alemannia Aachen",3,1,33,1967,1968-05-18 09:30:00
-"1390","Alemannia Aachen","Hannover 96",2,2,34,1967,1968-05-25 09:30:00
-"1391","MSV Duisburg","Bayern Muenchen",3,3,34,1967,1968-05-25 09:30:00
-"1392","1. FC Nuernberg","Borussia Dortmund",2,1,34,1967,1968-05-25 09:30:00
-"1393","1. FC Kaiserslautern","Karlsruher SC",1,1,34,1967,1968-05-25 09:30:00
-"1394","Werder Bremen","Borussia Neunkirchen",2,1,34,1967,1968-05-25 09:30:00
-"1395","Schalke 04","Eintracht Frankfurt",0,0,34,1967,1968-05-25 09:30:00
-"1396","TSV 1860 Muenchen","Borussia Moenchengladbach",0,0,34,1967,1968-05-25 09:30:00
-"1397","Eintracht Braunschweig","1. FC Koeln",1,2,34,1967,1968-05-25 09:30:00
-"1398","VfB Stuttgart","Hamburger SV",4,1,34,1967,1968-05-28 14:00:00
-"1399","1. FC Koeln","Kickers Offenbach",2,1,1,1968,1968-08-17 09:30:00
-"1400","Borussia Dortmund","Borussia Moenchengladbach",1,3,1,1968,1968-08-17 09:30:00
-"1401","Werder Bremen","Hannover 96",3,2,1,1968,1968-08-17 09:30:00
-"1402","Bayern Muenchen","1. FC Kaiserslautern",2,0,1,1968,1968-08-17 09:30:00
-"1403","VfB Stuttgart","TSV 1860 Muenchen",1,1,1,1968,1968-08-17 09:30:00
-"1404","Eintracht Braunschweig","Hamburger SV",1,0,1,1968,1968-08-17 09:30:00
-"1405","MSV Duisburg","Schalke 04",1,0,1,1968,1968-08-17 09:30:00
-"1406","Eintracht Frankfurt","Hertha BSC Berlin",2,0,1,1968,1968-08-17 09:30:00
-"1407","1. FC Nuernberg","Alemannia Aachen",1,4,1,1968,1968-08-17 09:30:00
-"1408","Hertha BSC Berlin","MSV Duisburg",1,1,2,1968,1968-08-24 09:30:00
-"1409","Schalke 04","Eintracht Braunschweig",0,2,2,1968,1968-08-24 09:30:00
-"1410","Hamburger SV","VfB Stuttgart",2,1,2,1968,1968-08-24 09:30:00
-"1411","TSV 1860 Muenchen","Bayern Muenchen",0,3,2,1968,1968-08-24 09:30:00
-"1412","1. FC Kaiserslautern","Werder Bremen",1,0,2,1968,1968-08-24 09:30:00
-"1413","Hannover 96","Borussia Dortmund",1,1,2,1968,1968-08-24 09:30:00
-"1414","Borussia Moenchengladbach","1. FC Koeln",2,1,2,1968,1968-08-24 09:30:00
-"1415","Kickers Offenbach","1. FC Nuernberg",2,1,2,1968,1968-08-24 09:30:00
-"1416","Alemannia Aachen","Eintracht Frankfurt",4,2,2,1968,1968-08-24 09:30:00
-"1417","MSV Duisburg","Eintracht Frankfurt",1,1,3,1968,1968-08-30 13:30:00
-"1418","1. FC Koeln","Hannover 96",1,0,3,1968,1968-08-31 09:30:00
-"1419","Bayern Muenchen","Hamburger SV",5,1,3,1968,1968-08-31 09:30:00
-"1420","VfB Stuttgart","Schalke 04",1,1,3,1968,1968-08-31 09:30:00
-"1421","Eintracht Braunschweig","Hertha BSC Berlin",3,3,3,1968,1968-08-31 09:30:00
-"1422","Kickers Offenbach","Alemannia Aachen",1,1,3,1968,1968-08-31 09:30:00
-"1423","1. FC Nuernberg","Borussia Moenchengladbach",4,0,3,1968,1968-08-31 09:30:00
-"1424","Borussia Dortmund","1. FC Kaiserslautern",2,3,3,1968,1968-09-17 14:00:00
-"1425","Werder Bremen","TSV 1860 Muenchen",4,1,3,1968,1968-09-17 14:00:00
-"1426","Hertha BSC Berlin","VfB Stuttgart",0,1,4,1968,1968-09-03 14:00:00
-"1427","Eintracht Frankfurt","Eintracht Braunschweig",0,1,4,1968,1968-09-04 14:00:00
-"1428","Schalke 04","Bayern Muenchen",1,2,4,1968,1968-09-04 14:00:00
-"1429","Hamburger SV","Werder Bremen",5,2,4,1968,1968-09-04 14:00:00
-"1430","TSV 1860 Muenchen","Borussia Dortmund",2,1,4,1968,1968-09-04 14:00:00
-"1431","1. FC Kaiserslautern","1. FC Koeln",4,0,4,1968,1968-09-04 14:00:00
-"1432","Hannover 96","1. FC Nuernberg",2,2,4,1968,1968-09-04 14:00:00
-"1433","Borussia Moenchengladbach","Kickers Offenbach",4,1,4,1968,1968-09-04 14:00:00
-"1434","Alemannia Aachen","MSV Duisburg",4,0,4,1968,1968-09-04 14:00:00
-"1435","1. FC Koeln","TSV 1860 Muenchen",0,0,5,1968,1968-09-07 09:30:00
-"1436","Borussia Dortmund","Hamburger SV",3,1,5,1968,1968-09-07 09:30:00
-"1437","Werder Bremen","Schalke 04",1,3,5,1968,1968-09-07 09:30:00
-"1438","Bayern Muenchen","Hertha BSC Berlin",3,0,5,1968,1968-09-07 09:30:00
-"1439","VfB Stuttgart","Eintracht Frankfurt",2,0,5,1968,1968-09-07 09:30:00
-"1440","Eintracht Braunschweig","MSV Duisburg",0,0,5,1968,1968-09-07 09:30:00
-"1441","Borussia Moenchengladbach","Alemannia Aachen",2,2,5,1968,1968-09-07 09:30:00
-"1442","Kickers Offenbach","Hannover 96",1,1,5,1968,1968-09-07 09:30:00
-"1443","1. FC Nuernberg","1. FC Kaiserslautern",1,0,5,1968,1968-09-07 09:30:00
-"1444","MSV Duisburg","VfB Stuttgart",2,0,6,1968,1968-09-13 13:30:00
-"1445","Eintracht Frankfurt","Bayern Muenchen",1,1,6,1968,1968-09-14 09:30:00
-"1446","Hertha BSC Berlin","Werder Bremen",1,0,6,1968,1968-09-14 09:30:00
-"1447","Schalke 04","Borussia Dortmund",4,1,6,1968,1968-09-14 09:30:00
-"1448","Hamburger SV","1. FC Koeln",3,1,6,1968,1968-09-14 09:30:00
-"1449","TSV 1860 Muenchen","1. FC Nuernberg",2,0,6,1968,1968-09-14 09:30:00
-"1450","1. FC Kaiserslautern","Kickers Offenbach",2,1,6,1968,1968-09-14 09:30:00
-"1451","Hannover 96","Borussia Moenchengladbach",2,3,6,1968,1968-09-14 09:30:00
-"1452","Alemannia Aachen","Eintracht Braunschweig",1,4,6,1968,1968-09-14 09:30:00
-"1453","Kickers Offenbach","TSV 1860 Muenchen",2,3,7,1968,1968-09-20 14:00:00
-"1454","1. FC Koeln","Schalke 04",2,0,7,1968,1968-09-21 09:30:00
-"1455","Borussia Dortmund","Hertha BSC Berlin",2,2,7,1968,1968-09-21 09:30:00
-"1456","Werder Bremen","Eintracht Frankfurt",0,1,7,1968,1968-09-21 09:30:00
-"1457","Bayern Muenchen","MSV Duisburg",2,2,7,1968,1968-09-21 09:30:00
-"1458","VfB Stuttgart","Eintracht Braunschweig",2,2,7,1968,1968-09-21 09:30:00
-"1459","Hannover 96","Alemannia Aachen",5,2,7,1968,1968-09-21 09:30:00
-"1460","Borussia Moenchengladbach","1. FC Kaiserslautern",4,0,7,1968,1968-09-21 09:30:00
-"1461","1. FC Nuernberg","Hamburger SV",0,0,7,1968,1968-09-21 09:30:00
-"1462","Eintracht Braunschweig","Bayern Muenchen",2,3,8,1968,1968-09-28 09:30:00
-"1463","MSV Duisburg","Werder Bremen",2,0,8,1968,1968-09-28 09:30:00
-"1464","Eintracht Frankfurt","Borussia Dortmund",1,1,8,1968,1968-09-28 09:30:00
-"1465","Hertha BSC Berlin","1. FC Koeln",2,1,8,1968,1968-09-28 09:30:00
-"1466","Schalke 04","1. FC Nuernberg",4,1,8,1968,1968-09-28 09:30:00
-"1467","Hamburger SV","Kickers Offenbach",3,0,8,1968,1968-09-28 09:30:00
-"1468","TSV 1860 Muenchen","Borussia Moenchengladbach",0,4,8,1968,1968-09-28 09:30:00
-"1469","1. FC Kaiserslautern","Hannover 96",0,0,8,1968,1968-09-28 09:30:00
-"1470","Alemannia Aachen","VfB Stuttgart",1,3,8,1968,1968-09-28 09:30:00
-"1471","1. FC Koeln","Eintracht Frankfurt",2,1,9,1968,1968-10-05 09:30:00
-"1472","Borussia Dortmund","MSV Duisburg",2,1,9,1968,1968-10-05 09:30:00
-"1473","Werder Bremen","Eintracht Braunschweig",2,1,9,1968,1968-10-05 09:30:00
-"1474","Bayern Muenchen","VfB Stuttgart",2,0,9,1968,1968-10-05 09:30:00
-"1475","1. FC Kaiserslautern","Alemannia Aachen",2,1,9,1968,1968-10-05 09:30:00
-"1476","Hannover 96","TSV 1860 Muenchen",3,2,9,1968,1968-10-05 09:30:00
-"1477","Borussia Moenchengladbach","Hamburger SV",1,2,9,1968,1968-10-05 09:30:00
-"1478","Kickers Offenbach","Schalke 04",1,0,9,1968,1968-10-05 09:30:00
-"1479","1. FC Nuernberg","Hertha BSC Berlin",3,0,9,1968,1968-10-05 09:30:00
-"1480","VfB Stuttgart","Werder Bremen",2,2,10,1968,1968-10-19 09:30:00
-"1481","Eintracht Braunschweig","Borussia Dortmund",4,3,10,1968,1968-10-19 09:30:00
-"1482","MSV Duisburg","1. FC Koeln",0,0,10,1968,1968-10-19 09:30:00
-"1483","Eintracht Frankfurt","1. FC Nuernberg",3,0,10,1968,1968-10-19 09:30:00
-"1484","Hertha BSC Berlin","Kickers Offenbach",1,0,10,1968,1968-10-19 09:30:00
-"1485","Schalke 04","Borussia Moenchengladbach",1,1,10,1968,1968-10-19 09:30:00
-"1486","Hamburger SV","Hannover 96",1,4,10,1968,1968-10-19 09:30:00
-"1487","TSV 1860 Muenchen","1. FC Kaiserslautern",1,0,10,1968,1968-10-19 09:30:00
-"1488","Alemannia Aachen","Bayern Muenchen",2,4,10,1968,1968-10-19 09:30:00
-"1489","1. FC Koeln","Eintracht Braunschweig",2,0,11,1968,1968-10-26 09:30:00
-"1490","Borussia Dortmund","VfB Stuttgart",1,0,11,1968,1968-10-26 09:30:00
-"1491","Werder Bremen","Bayern Muenchen",1,0,11,1968,1968-10-26 09:30:00
-"1492","TSV 1860 Muenchen","Alemannia Aachen",0,0,11,1968,1968-10-26 09:30:00
-"1493","1. FC Kaiserslautern","Hamburger SV",0,1,11,1968,1968-10-26 09:30:00
-"1494","Hannover 96","Schalke 04",1,0,11,1968,1968-10-26 09:30:00
-"1495","Borussia Moenchengladbach","Hertha BSC Berlin",0,1,11,1968,1968-10-26 09:30:00
-"1496","Kickers Offenbach","Eintracht Frankfurt",4,2,11,1968,1968-10-26 09:30:00
-"1497","1. FC Nuernberg","MSV Duisburg",1,1,11,1968,1968-10-26 09:30:00
+"1372","Alemannia Aachen","MSV Duisburg",4,4,32,1967,1968-05-11 10:30:00
+"1373","1. FC Nuernberg","Hannover 96",2,1,32,1967,1968-05-11 10:30:00
+"1374","1. FC Kaiserslautern","Bayern Muenchen",2,2,32,1967,1968-05-11 10:30:00
+"1375","Werder Bremen","Borussia Dortmund",2,1,32,1967,1968-05-11 10:30:00
+"1376","VfB Stuttgart","Karlsruher SC",3,2,32,1967,1968-05-11 10:30:00
+"1377","Schalke 04","Borussia Neunkirchen",2,0,32,1967,1968-05-11 10:30:00
+"1378","TSV 1860 Muenchen","Hamburger SV",0,1,32,1967,1968-05-11 10:30:00
+"1379","Eintracht Braunschweig","Eintracht Frankfurt",0,0,32,1967,1968-05-11 10:30:00
+"1380","Borussia Moenchengladbach","1. FC Koeln",1,0,32,1967,1968-05-11 10:30:00
+"1381","Borussia Moenchengladbach","Eintracht Braunschweig",2,0,33,1967,1968-05-18 10:30:00
+"1382","Eintracht Frankfurt","TSV 1860 Muenchen",2,1,33,1967,1968-05-18 10:30:00
+"1383","Hamburger SV","Schalke 04",1,1,33,1967,1968-05-18 10:30:00
+"1384","Borussia Neunkirchen","VfB Stuttgart",0,5,33,1967,1968-05-18 10:30:00
+"1385","Karlsruher SC","Werder Bremen",1,2,33,1967,1968-05-18 10:30:00
+"1386","Borussia Dortmund","1. FC Kaiserslautern",4,0,33,1967,1968-05-18 10:30:00
+"1387","Bayern Muenchen","1. FC Nuernberg",0,2,33,1967,1968-05-18 10:30:00
+"1388","Hannover 96","MSV Duisburg",2,2,33,1967,1968-05-18 10:30:00
+"1389","1. FC Koeln","Alemannia Aachen",3,1,33,1967,1968-05-18 10:30:00
+"1390","Alemannia Aachen","Hannover 96",2,2,34,1967,1968-05-25 10:30:00
+"1391","MSV Duisburg","Bayern Muenchen",3,3,34,1967,1968-05-25 10:30:00
+"1392","1. FC Nuernberg","Borussia Dortmund",2,1,34,1967,1968-05-25 10:30:00
+"1393","1. FC Kaiserslautern","Karlsruher SC",1,1,34,1967,1968-05-25 10:30:00
+"1394","Werder Bremen","Borussia Neunkirchen",2,1,34,1967,1968-05-25 10:30:00
+"1395","Schalke 04","Eintracht Frankfurt",0,0,34,1967,1968-05-25 10:30:00
+"1396","TSV 1860 Muenchen","Borussia Moenchengladbach",0,0,34,1967,1968-05-25 10:30:00
+"1397","Eintracht Braunschweig","1. FC Koeln",1,2,34,1967,1968-05-25 10:30:00
+"1398","VfB Stuttgart","Hamburger SV",4,1,34,1967,1968-05-28 15:00:00
+"1399","1. FC Koeln","Kickers Offenbach",2,1,1,1968,1968-08-17 10:30:00
+"1400","Borussia Dortmund","Borussia Moenchengladbach",1,3,1,1968,1968-08-17 10:30:00
+"1401","Werder Bremen","Hannover 96",3,2,1,1968,1968-08-17 10:30:00
+"1402","Bayern Muenchen","1. FC Kaiserslautern",2,0,1,1968,1968-08-17 10:30:00
+"1403","VfB Stuttgart","TSV 1860 Muenchen",1,1,1,1968,1968-08-17 10:30:00
+"1404","Eintracht Braunschweig","Hamburger SV",1,0,1,1968,1968-08-17 10:30:00
+"1405","MSV Duisburg","Schalke 04",1,0,1,1968,1968-08-17 10:30:00
+"1406","Eintracht Frankfurt","Hertha BSC Berlin",2,0,1,1968,1968-08-17 10:30:00
+"1407","1. FC Nuernberg","Alemannia Aachen",1,4,1,1968,1968-08-17 10:30:00
+"1408","Hertha BSC Berlin","MSV Duisburg",1,1,2,1968,1968-08-24 10:30:00
+"1409","Schalke 04","Eintracht Braunschweig",0,2,2,1968,1968-08-24 10:30:00
+"1410","Hamburger SV","VfB Stuttgart",2,1,2,1968,1968-08-24 10:30:00
+"1411","TSV 1860 Muenchen","Bayern Muenchen",0,3,2,1968,1968-08-24 10:30:00
+"1412","1. FC Kaiserslautern","Werder Bremen",1,0,2,1968,1968-08-24 10:30:00
+"1413","Hannover 96","Borussia Dortmund",1,1,2,1968,1968-08-24 10:30:00
+"1414","Borussia Moenchengladbach","1. FC Koeln",2,1,2,1968,1968-08-24 10:30:00
+"1415","Kickers Offenbach","1. FC Nuernberg",2,1,2,1968,1968-08-24 10:30:00
+"1416","Alemannia Aachen","Eintracht Frankfurt",4,2,2,1968,1968-08-24 10:30:00
+"1417","MSV Duisburg","Eintracht Frankfurt",1,1,3,1968,1968-08-30 14:30:00
+"1418","1. FC Koeln","Hannover 96",1,0,3,1968,1968-08-31 10:30:00
+"1419","Bayern Muenchen","Hamburger SV",5,1,3,1968,1968-08-31 10:30:00
+"1420","VfB Stuttgart","Schalke 04",1,1,3,1968,1968-08-31 10:30:00
+"1421","Eintracht Braunschweig","Hertha BSC Berlin",3,3,3,1968,1968-08-31 10:30:00
+"1422","Kickers Offenbach","Alemannia Aachen",1,1,3,1968,1968-08-31 10:30:00
+"1423","1. FC Nuernberg","Borussia Moenchengladbach",4,0,3,1968,1968-08-31 10:30:00
+"1424","Borussia Dortmund","1. FC Kaiserslautern",2,3,3,1968,1968-09-17 15:00:00
+"1425","Werder Bremen","TSV 1860 Muenchen",4,1,3,1968,1968-09-17 15:00:00
+"1426","Hertha BSC Berlin","VfB Stuttgart",0,1,4,1968,1968-09-03 15:00:00
+"1427","Eintracht Frankfurt","Eintracht Braunschweig",0,1,4,1968,1968-09-04 15:00:00
+"1428","Schalke 04","Bayern Muenchen",1,2,4,1968,1968-09-04 15:00:00
+"1429","Hamburger SV","Werder Bremen",5,2,4,1968,1968-09-04 15:00:00
+"1430","TSV 1860 Muenchen","Borussia Dortmund",2,1,4,1968,1968-09-04 15:00:00
+"1431","1. FC Kaiserslautern","1. FC Koeln",4,0,4,1968,1968-09-04 15:00:00
+"1432","Hannover 96","1. FC Nuernberg",2,2,4,1968,1968-09-04 15:00:00
+"1433","Borussia Moenchengladbach","Kickers Offenbach",4,1,4,1968,1968-09-04 15:00:00
+"1434","Alemannia Aachen","MSV Duisburg",4,0,4,1968,1968-09-04 15:00:00
+"1435","1. FC Koeln","TSV 1860 Muenchen",0,0,5,1968,1968-09-07 10:30:00
+"1436","Borussia Dortmund","Hamburger SV",3,1,5,1968,1968-09-07 10:30:00
+"1437","Werder Bremen","Schalke 04",1,3,5,1968,1968-09-07 10:30:00
+"1438","Bayern Muenchen","Hertha BSC Berlin",3,0,5,1968,1968-09-07 10:30:00
+"1439","VfB Stuttgart","Eintracht Frankfurt",2,0,5,1968,1968-09-07 10:30:00
+"1440","Eintracht Braunschweig","MSV Duisburg",0,0,5,1968,1968-09-07 10:30:00
+"1441","Borussia Moenchengladbach","Alemannia Aachen",2,2,5,1968,1968-09-07 10:30:00
+"1442","Kickers Offenbach","Hannover 96",1,1,5,1968,1968-09-07 10:30:00
+"1443","1. FC Nuernberg","1. FC Kaiserslautern",1,0,5,1968,1968-09-07 10:30:00
+"1444","MSV Duisburg","VfB Stuttgart",2,0,6,1968,1968-09-13 14:30:00
+"1445","Eintracht Frankfurt","Bayern Muenchen",1,1,6,1968,1968-09-14 10:30:00
+"1446","Hertha BSC Berlin","Werder Bremen",1,0,6,1968,1968-09-14 10:30:00
+"1447","Schalke 04","Borussia Dortmund",4,1,6,1968,1968-09-14 10:30:00
+"1448","Hamburger SV","1. FC Koeln",3,1,6,1968,1968-09-14 10:30:00
+"1449","TSV 1860 Muenchen","1. FC Nuernberg",2,0,6,1968,1968-09-14 10:30:00
+"1450","1. FC Kaiserslautern","Kickers Offenbach",2,1,6,1968,1968-09-14 10:30:00
+"1451","Hannover 96","Borussia Moenchengladbach",2,3,6,1968,1968-09-14 10:30:00
+"1452","Alemannia Aachen","Eintracht Braunschweig",1,4,6,1968,1968-09-14 10:30:00
+"1453","Kickers Offenbach","TSV 1860 Muenchen",2,3,7,1968,1968-09-20 15:00:00
+"1454","1. FC Koeln","Schalke 04",2,0,7,1968,1968-09-21 10:30:00
+"1455","Borussia Dortmund","Hertha BSC Berlin",2,2,7,1968,1968-09-21 10:30:00
+"1456","Werder Bremen","Eintracht Frankfurt",0,1,7,1968,1968-09-21 10:30:00
+"1457","Bayern Muenchen","MSV Duisburg",2,2,7,1968,1968-09-21 10:30:00
+"1458","VfB Stuttgart","Eintracht Braunschweig",2,2,7,1968,1968-09-21 10:30:00
+"1459","Hannover 96","Alemannia Aachen",5,2,7,1968,1968-09-21 10:30:00
+"1460","Borussia Moenchengladbach","1. FC Kaiserslautern",4,0,7,1968,1968-09-21 10:30:00
+"1461","1. FC Nuernberg","Hamburger SV",0,0,7,1968,1968-09-21 10:30:00
+"1462","Eintracht Braunschweig","Bayern Muenchen",2,3,8,1968,1968-09-28 10:30:00
+"1463","MSV Duisburg","Werder Bremen",2,0,8,1968,1968-09-28 10:30:00
+"1464","Eintracht Frankfurt","Borussia Dortmund",1,1,8,1968,1968-09-28 10:30:00
+"1465","Hertha BSC Berlin","1. FC Koeln",2,1,8,1968,1968-09-28 10:30:00
+"1466","Schalke 04","1. FC Nuernberg",4,1,8,1968,1968-09-28 10:30:00
+"1467","Hamburger SV","Kickers Offenbach",3,0,8,1968,1968-09-28 10:30:00
+"1468","TSV 1860 Muenchen","Borussia Moenchengladbach",0,4,8,1968,1968-09-28 10:30:00
+"1469","1. FC Kaiserslautern","Hannover 96",0,0,8,1968,1968-09-28 10:30:00
+"1470","Alemannia Aachen","VfB Stuttgart",1,3,8,1968,1968-09-28 10:30:00
+"1471","1. FC Koeln","Eintracht Frankfurt",2,1,9,1968,1968-10-05 10:30:00
+"1472","Borussia Dortmund","MSV Duisburg",2,1,9,1968,1968-10-05 10:30:00
+"1473","Werder Bremen","Eintracht Braunschweig",2,1,9,1968,1968-10-05 10:30:00
+"1474","Bayern Muenchen","VfB Stuttgart",2,0,9,1968,1968-10-05 10:30:00
+"1475","1. FC Kaiserslautern","Alemannia Aachen",2,1,9,1968,1968-10-05 10:30:00
+"1476","Hannover 96","TSV 1860 Muenchen",3,2,9,1968,1968-10-05 10:30:00
+"1477","Borussia Moenchengladbach","Hamburger SV",1,2,9,1968,1968-10-05 10:30:00
+"1478","Kickers Offenbach","Schalke 04",1,0,9,1968,1968-10-05 10:30:00
+"1479","1. FC Nuernberg","Hertha BSC Berlin",3,0,9,1968,1968-10-05 10:30:00
+"1480","VfB Stuttgart","Werder Bremen",2,2,10,1968,1968-10-19 10:30:00
+"1481","Eintracht Braunschweig","Borussia Dortmund",4,3,10,1968,1968-10-19 10:30:00
+"1482","MSV Duisburg","1. FC Koeln",0,0,10,1968,1968-10-19 10:30:00
+"1483","Eintracht Frankfurt","1. FC Nuernberg",3,0,10,1968,1968-10-19 10:30:00
+"1484","Hertha BSC Berlin","Kickers Offenbach",1,0,10,1968,1968-10-19 10:30:00
+"1485","Schalke 04","Borussia Moenchengladbach",1,1,10,1968,1968-10-19 10:30:00
+"1486","Hamburger SV","Hannover 96",1,4,10,1968,1968-10-19 10:30:00
+"1487","TSV 1860 Muenchen","1. FC Kaiserslautern",1,0,10,1968,1968-10-19 10:30:00
+"1488","Alemannia Aachen","Bayern Muenchen",2,4,10,1968,1968-10-19 10:30:00
+"1489","1. FC Koeln","Eintracht Braunschweig",2,0,11,1968,1968-10-26 10:30:00
+"1490","Borussia Dortmund","VfB Stuttgart",1,0,11,1968,1968-10-26 10:30:00
+"1491","Werder Bremen","Bayern Muenchen",1,0,11,1968,1968-10-26 10:30:00
+"1492","TSV 1860 Muenchen","Alemannia Aachen",0,0,11,1968,1968-10-26 10:30:00
+"1493","1. FC Kaiserslautern","Hamburger SV",0,1,11,1968,1968-10-26 10:30:00
+"1494","Hannover 96","Schalke 04",1,0,11,1968,1968-10-26 10:30:00
+"1495","Borussia Moenchengladbach","Hertha BSC Berlin",0,1,11,1968,1968-10-26 10:30:00
+"1496","Kickers Offenbach","Eintracht Frankfurt",4,2,11,1968,1968-10-26 10:30:00
+"1497","1. FC Nuernberg","MSV Duisburg",1,1,11,1968,1968-10-26 10:30:00
 "1498","Bayern Muenchen","Borussia Dortmund",4,1,12,1968,1968-10-30 14:00:00
 "1499","VfB Stuttgart","1. FC Koeln",6,1,12,1968,1968-10-30 14:00:00
 "1500","Eintracht Braunschweig","1. FC Nuernberg",0,2,12,1968,1968-10-30 14:00:00
@@ -1603,7 +1603,7 @@
 "1602","Kickers Offenbach","1. FC Kaiserslautern",4,1,23,1968,1969-03-12 14:00:00
 "1603","Werder Bremen","Hertha BSC Berlin",2,0,23,1968,1969-04-08 14:00:00
 "1604","Eintracht Braunschweig","Alemannia Aachen",2,0,23,1968,1969-04-08 14:00:00
-"1605","1. FC Koeln","Hamburger SV",4,1,23,1968,1969-04-30 14:00:00
+"1605","1. FC Koeln","Hamburger SV",4,1,23,1968,1969-04-30 15:00:00
 "1606","TSV 1860 Muenchen","Kickers Offenbach",2,0,24,1968,1969-02-28 14:00:00
 "1607","Eintracht Braunschweig","VfB Stuttgart",1,2,24,1968,1969-03-01 09:30:00
 "1608","MSV Duisburg","Bayern Muenchen",0,0,24,1968,1969-03-01 09:30:00
@@ -1612,7 +1612,7 @@
 "1611","1. FC Kaiserslautern","Borussia Moenchengladbach",2,0,24,1968,1969-03-01 09:30:00
 "1612","Alemannia Aachen","Hannover 96",2,0,24,1968,1969-03-01 09:30:00
 "1613","Hamburger SV","1. FC Nuernberg",4,2,24,1968,1969-04-09 14:00:00
-"1614","Hertha BSC Berlin","Borussia Dortmund",0,0,24,1968,1969-05-03 09:30:00
+"1614","Hertha BSC Berlin","Borussia Dortmund",0,0,24,1968,1969-05-03 10:30:00
 "1615","Borussia Dortmund","Eintracht Frankfurt",0,1,25,1968,1969-03-07 14:00:00
 "1616","1. FC Koeln","Hertha BSC Berlin",1,0,25,1968,1969-03-08 09:30:00
 "1617","Werder Bremen","MSV Duisburg",2,1,25,1968,1969-03-08 09:30:00
@@ -1630,7 +1630,7 @@
 "1629","TSV 1860 Muenchen","Hannover 96",2,1,26,1968,1969-03-15 09:30:00
 "1630","Alemannia Aachen","1. FC Kaiserslautern",1,0,26,1968,1969-03-15 09:30:00
 "1631","Eintracht Braunschweig","Werder Bremen",0,3,26,1968,1969-04-22 14:00:00
-"1632","Hamburger SV","Borussia Moenchengladbach",2,0,26,1968,1969-05-03 09:30:00
+"1632","Hamburger SV","Borussia Moenchengladbach",2,0,26,1968,1969-05-03 10:30:00
 "1633","Kickers Offenbach","Hertha BSC Berlin",1,0,27,1968,1969-03-21 09:30:00
 "1634","1. FC Koeln","MSV Duisburg",1,1,27,1968,1969-03-22 09:30:00
 "1635","Borussia Dortmund","Eintracht Braunschweig",2,1,27,1968,1969-03-22 09:30:00
@@ -1648,7 +1648,7 @@
 "1647","Schalke 04","Hannover 96",1,1,28,1968,1969-03-29 09:30:00
 "1648","Hamburger SV","1. FC Kaiserslautern",3,1,28,1968,1969-03-29 09:30:00
 "1649","Alemannia Aachen","TSV 1860 Muenchen",4,0,28,1968,1969-03-29 09:30:00
-"1650","Eintracht Braunschweig","1. FC Koeln",2,1,28,1968,1969-05-03 09:30:00
+"1650","Eintracht Braunschweig","1. FC Koeln",2,1,28,1968,1969-05-03 10:30:00
 "1651","1. FC Koeln","VfB Stuttgart",5,2,29,1968,1969-04-09 14:00:00
 "1652","Borussia Dortmund","Bayern Muenchen",0,1,29,1968,1969-04-19 09:30:00
 "1653","Werder Bremen","Alemannia Aachen",1,2,29,1968,1969-04-19 09:30:00
@@ -1667,132 +1667,132 @@
 "1666","Eintracht Frankfurt","Hannover 96",0,0,30,1968,1969-04-26 09:30:00
 "1667","Schalke 04","TSV 1860 Muenchen",2,0,30,1968,1969-04-26 09:30:00
 "1668","Alemannia Aachen","Hamburger SV",2,0,30,1968,1969-04-26 09:30:00
-"1669","Borussia Dortmund","Alemannia Aachen",3,1,31,1968,1969-05-16 14:00:00
-"1670","1. FC Koeln","Werder Bremen",3,3,31,1968,1969-05-17 09:30:00
-"1671","Hamburger SV","Schalke 04",1,3,31,1968,1969-05-17 09:30:00
-"1672","TSV 1860 Muenchen","Hertha BSC Berlin",0,1,31,1968,1969-05-17 09:30:00
-"1673","1. FC Kaiserslautern","Eintracht Frankfurt",2,2,31,1968,1969-05-17 09:30:00
-"1674","Hannover 96","MSV Duisburg",1,1,31,1968,1969-05-17 09:30:00
-"1675","Borussia Moenchengladbach","Eintracht Braunschweig",1,1,31,1968,1969-05-17 09:30:00
-"1676","Kickers Offenbach","VfB Stuttgart",2,1,31,1968,1969-05-17 09:30:00
-"1677","1. FC Nuernberg","Bayern Muenchen",2,0,31,1968,1969-05-17 09:30:00
-"1678","Werder Bremen","1. FC Nuernberg",3,3,32,1968,1969-05-23 14:00:00
-"1679","Eintracht Braunschweig","Hannover 96",3,3,32,1968,1969-05-23 14:00:00
-"1680","MSV Duisburg","1. FC Kaiserslautern",0,0,32,1968,1969-05-23 14:00:00
-"1681","Eintracht Frankfurt","TSV 1860 Muenchen",3,0,32,1968,1969-05-23 14:00:00
-"1682","1. FC Koeln","Borussia Dortmund",2,1,32,1968,1969-05-24 09:30:00
-"1683","Bayern Muenchen","Kickers Offenbach",5,1,32,1968,1969-05-24 09:30:00
-"1684","VfB Stuttgart","Borussia Moenchengladbach",0,3,32,1968,1969-05-24 09:30:00
-"1685","Hertha BSC Berlin","Hamburger SV",3,2,32,1968,1969-05-24 09:30:00
-"1686","Schalke 04","Alemannia Aachen",3,1,32,1968,1969-05-24 09:30:00
-"1687","1. FC Kaiserslautern","Eintracht Braunschweig",4,0,33,1968,1969-05-30 14:00:00
-"1688","Schalke 04","Hertha BSC Berlin",2,0,33,1968,1969-05-31 09:30:00
-"1689","Hamburger SV","Eintracht Frankfurt",1,4,33,1968,1969-05-31 09:30:00
-"1690","TSV 1860 Muenchen","MSV Duisburg",2,1,33,1968,1969-05-31 09:30:00
-"1691","Hannover 96","VfB Stuttgart",1,0,33,1968,1969-05-31 09:30:00
-"1692","Borussia Moenchengladbach","Bayern Muenchen",1,1,33,1968,1969-05-31 09:30:00
-"1693","Kickers Offenbach","Werder Bremen",0,3,33,1968,1969-05-31 09:30:00
-"1694","1. FC Nuernberg","Borussia Dortmund",2,2,33,1968,1969-05-31 09:30:00
-"1695","Alemannia Aachen","1. FC Koeln",2,1,33,1968,1969-05-31 09:30:00
-"1696","1. FC Koeln","1. FC Nuernberg",3,0,34,1968,1969-06-07 09:30:00
-"1697","Borussia Dortmund","Kickers Offenbach",3,0,34,1968,1969-06-07 09:30:00
-"1698","Werder Bremen","Borussia Moenchengladbach",6,5,34,1968,1969-06-07 09:30:00
-"1699","Bayern Muenchen","Hannover 96",2,1,34,1968,1969-06-07 09:30:00
-"1700","VfB Stuttgart","1. FC Kaiserslautern",4,3,34,1968,1969-06-07 09:30:00
-"1701","Eintracht Braunschweig","TSV 1860 Muenchen",2,1,34,1968,1969-06-07 09:30:00
-"1702","MSV Duisburg","Hamburger SV",0,0,34,1968,1969-06-07 09:30:00
-"1703","Eintracht Frankfurt","Schalke 04",1,0,34,1968,1969-06-07 09:30:00
-"1704","Hertha BSC Berlin","Alemannia Aachen",0,1,34,1968,1969-06-07 09:30:00
-"1705","Schalke 04","Borussia Moenchengladbach",2,0,1,1969,1969-08-16 09:30:00
-"1706","Rot-Weiss Oberhausen","Eintracht Frankfurt",3,1,1,1969,1969-08-16 09:30:00
-"1707","Hamburger SV","1. FC Kaiserslautern",2,1,1,1969,1969-08-16 09:30:00
-"1708","Hannover 96","Borussia Dortmund",4,2,1,1969,1969-08-16 09:30:00
-"1709","1. FC Koeln","Eintracht Braunschweig",3,2,1,1969,1969-08-16 09:30:00
-"1710","VfB Stuttgart","Werder Bremen",1,1,1,1969,1969-08-16 09:30:00
-"1711","Hertha BSC Berlin","MSV Duisburg",1,0,1,1969,1969-08-16 09:30:00
-"1712","Alemannia Aachen","TSV 1860 Muenchen",0,0,1,1969,1969-08-16 09:30:00
-"1713","Bayern Muenchen","Rot-Weiss Essen",4,0,1,1969,1969-08-16 09:30:00
-"1714","Eintracht Frankfurt","Schalke 04",2,1,2,1969,1969-08-22 14:00:00
-"1715","TSV 1860 Muenchen","Hertha BSC Berlin",2,0,2,1969,1969-08-23 09:30:00
-"1716","MSV Duisburg","VfB Stuttgart",1,1,2,1969,1969-08-23 09:30:00
-"1717","Werder Bremen","1. FC Koeln",2,1,2,1969,1969-08-23 09:30:00
-"1718","Eintracht Braunschweig","Hannover 96",1,1,2,1969,1969-08-23 09:30:00
-"1719","Borussia Dortmund","Hamburger SV",2,1,2,1969,1969-08-23 09:30:00
-"1720","1. FC Kaiserslautern","Rot-Weiss Oberhausen",0,0,2,1969,1969-08-23 09:30:00
-"1721","Borussia Moenchengladbach","Bayern Muenchen",2,1,2,1969,1969-08-23 09:30:00
-"1722","Rot-Weiss Essen","Alemannia Aachen",2,0,2,1969,1969-08-23 09:30:00
-"1723","Bayern Muenchen","Eintracht Frankfurt",2,1,3,1969,1969-08-27 14:00:00
-"1724","1. FC Koeln","MSV Duisburg",6,2,3,1969,1969-08-29 14:00:00
-"1725","Schalke 04","1. FC Kaiserslautern",4,2,3,1969,1969-08-30 09:30:00
-"1726","Rot-Weiss Oberhausen","Borussia Dortmund",2,1,3,1969,1969-08-30 09:30:00
-"1727","Hamburger SV","Eintracht Braunschweig",3,3,3,1969,1969-08-30 09:30:00
-"1728","Hannover 96","Werder Bremen",3,2,3,1969,1969-08-30 09:30:00
-"1729","VfB Stuttgart","TSV 1860 Muenchen",3,1,3,1969,1969-08-30 09:30:00
-"1730","Hertha BSC Berlin","Alemannia Aachen",2,1,3,1969,1969-08-30 09:30:00
-"1731","Borussia Moenchengladbach","Rot-Weiss Essen",2,1,3,1969,1969-08-30 09:30:00
-"1732","MSV Duisburg","Hannover 96",1,0,4,1969,1969-09-05 14:00:00
-"1733","Eintracht Frankfurt","Borussia Moenchengladbach",1,2,4,1969,1969-09-05 14:00:00
-"1734","Alemannia Aachen","VfB Stuttgart",4,2,4,1969,1969-09-06 09:30:00
-"1735","TSV 1860 Muenchen","1. FC Koeln",1,0,4,1969,1969-09-06 09:30:00
-"1736","Werder Bremen","Hamburger SV",1,1,4,1969,1969-09-06 09:30:00
-"1737","Eintracht Braunschweig","Rot-Weiss Oberhausen",0,4,4,1969,1969-09-06 09:30:00
-"1738","Borussia Dortmund","Schalke 04",1,1,4,1969,1969-09-06 09:30:00
-"1739","1. FC Kaiserslautern","Bayern Muenchen",0,0,4,1969,1969-09-06 09:30:00
-"1740","Rot-Weiss Essen","Hertha BSC Berlin",5,2,4,1969,1969-09-06 09:30:00
-"1741","Eintracht Frankfurt","Rot-Weiss Essen",2,1,5,1969,1969-09-12 14:00:00
-"1742","Borussia Moenchengladbach","1. FC Kaiserslautern",1,1,5,1969,1969-09-12 14:00:00
-"1743","Bayern Muenchen","Borussia Dortmund",3,0,5,1969,1969-09-12 14:00:00
-"1744","Schalke 04","Eintracht Braunschweig",1,1,5,1969,1969-09-13 09:30:00
-"1745","Rot-Weiss Oberhausen","Werder Bremen",3,1,5,1969,1969-09-13 09:30:00
-"1746","Hamburger SV","MSV Duisburg",4,1,5,1969,1969-09-13 09:30:00
-"1747","Hannover 96","TSV 1860 Muenchen",3,1,5,1969,1969-09-13 09:30:00
-"1748","1. FC Koeln","Alemannia Aachen",3,0,5,1969,1969-09-13 09:30:00
-"1749","VfB Stuttgart","Hertha BSC Berlin",1,4,5,1969,1969-09-13 09:30:00
-"1750","Hertha BSC Berlin","1. FC Koeln",1,0,6,1969,1969-09-26 14:00:00
-"1751","MSV Duisburg","Rot-Weiss Oberhausen",2,1,6,1969,1969-09-26 14:00:00
-"1752","Alemannia Aachen","Hannover 96",1,1,6,1969,1969-09-27 09:30:00
-"1753","TSV 1860 Muenchen","Hamburger SV",0,2,6,1969,1969-09-27 09:30:00
-"1754","Werder Bremen","Schalke 04",0,1,6,1969,1969-09-27 09:30:00
-"1755","Eintracht Braunschweig","Bayern Muenchen",0,4,6,1969,1969-09-27 09:30:00
-"1756","Borussia Dortmund","Borussia Moenchengladbach",2,1,6,1969,1969-09-27 09:30:00
-"1757","1. FC Kaiserslautern","Eintracht Frankfurt",2,0,6,1969,1969-09-27 09:30:00
-"1758","Rot-Weiss Essen","VfB Stuttgart",3,3,6,1969,1969-09-27 09:30:00
-"1759","Eintracht Frankfurt","Borussia Dortmund",2,0,7,1969,1969-10-03 14:00:00
-"1760","Schalke 04","MSV Duisburg",0,0,7,1969,1969-10-04 09:30:00
-"1761","Rot-Weiss Oberhausen","TSV 1860 Muenchen",3,0,7,1969,1969-10-04 09:30:00
-"1762","Hamburger SV","Alemannia Aachen",4,1,7,1969,1969-10-04 09:30:00
-"1763","Hannover 96","Hertha BSC Berlin",2,1,7,1969,1969-10-04 09:30:00
-"1764","1. FC Koeln","VfB Stuttgart",3,1,7,1969,1969-10-04 09:30:00
-"1765","1. FC Kaiserslautern","Rot-Weiss Essen",0,0,7,1969,1969-10-04 09:30:00
-"1766","Borussia Moenchengladbach","Eintracht Braunschweig",1,0,7,1969,1969-10-04 09:30:00
-"1767","Bayern Muenchen","Werder Bremen",4,1,7,1969,1969-10-04 09:30:00
-"1768","TSV 1860 Muenchen","Schalke 04",0,2,8,1969,1969-10-10 14:00:00
-"1769","MSV Duisburg","Bayern Muenchen",4,2,8,1969,1969-10-10 14:00:00
-"1770","VfB Stuttgart","Hannover 96",2,1,8,1969,1969-10-11 09:30:00
-"1771","Hertha BSC Berlin","Hamburger SV",1,0,8,1969,1969-10-11 09:30:00
-"1772","Alemannia Aachen","Rot-Weiss Oberhausen",2,0,8,1969,1969-10-11 09:30:00
-"1773","Werder Bremen","Borussia Moenchengladbach",0,0,8,1969,1969-10-11 09:30:00
-"1774","Eintracht Braunschweig","Eintracht Frankfurt",3,1,8,1969,1969-10-11 09:30:00
-"1775","Borussia Dortmund","1. FC Kaiserslautern",5,1,8,1969,1969-10-11 09:30:00
-"1776","Rot-Weiss Essen","1. FC Koeln",0,0,8,1969,1969-10-11 09:30:00
-"1777","Schalke 04","Alemannia Aachen",3,0,9,1969,1969-10-15 14:00:00
-"1778","Hamburger SV","VfB Stuttgart",1,3,9,1969,1969-10-15 14:00:00
-"1779","Hannover 96","1. FC Koeln",3,4,9,1969,1969-10-15 14:00:00
-"1780","Borussia Dortmund","Rot-Weiss Essen",4,1,9,1969,1969-10-15 14:00:00
-"1781","1. FC Kaiserslautern","Eintracht Braunschweig",2,0,9,1969,1969-10-15 14:00:00
-"1782","Eintracht Frankfurt","Werder Bremen",2,1,9,1969,1969-10-15 14:00:00
-"1783","Borussia Moenchengladbach","MSV Duisburg",4,1,9,1969,1969-10-15 14:00:00
-"1784","Bayern Muenchen","TSV 1860 Muenchen",2,0,9,1969,1969-10-15 14:00:00
-"1785","Rot-Weiss Oberhausen","Hertha BSC Berlin",3,1,9,1969,1969-10-18 14:00:00
-"1786","MSV Duisburg","Eintracht Frankfurt",1,1,10,1969,1969-10-24 14:00:00
-"1787","1. FC Koeln","Hamburger SV",3,0,10,1969,1969-10-25 09:30:00
-"1788","VfB Stuttgart","Rot-Weiss Oberhausen",4,2,10,1969,1969-10-25 09:30:00
-"1789","Hertha BSC Berlin","Schalke 04",3,0,10,1969,1969-10-25 09:30:00
-"1790","Alemannia Aachen","Bayern Muenchen",1,3,10,1969,1969-10-25 09:30:00
-"1791","TSV 1860 Muenchen","Borussia Moenchengladbach",0,3,10,1969,1969-10-25 09:30:00
-"1792","Werder Bremen","1. FC Kaiserslautern",3,2,10,1969,1969-10-25 09:30:00
-"1793","Eintracht Braunschweig","Borussia Dortmund",1,1,10,1969,1969-10-25 09:30:00
-"1794","Rot-Weiss Essen","Hannover 96",1,0,10,1969,1969-10-25 09:30:00
+"1669","Borussia Dortmund","Alemannia Aachen",3,1,31,1968,1969-05-16 15:00:00
+"1670","1. FC Koeln","Werder Bremen",3,3,31,1968,1969-05-17 10:30:00
+"1671","Hamburger SV","Schalke 04",1,3,31,1968,1969-05-17 10:30:00
+"1672","TSV 1860 Muenchen","Hertha BSC Berlin",0,1,31,1968,1969-05-17 10:30:00
+"1673","1. FC Kaiserslautern","Eintracht Frankfurt",2,2,31,1968,1969-05-17 10:30:00
+"1674","Hannover 96","MSV Duisburg",1,1,31,1968,1969-05-17 10:30:00
+"1675","Borussia Moenchengladbach","Eintracht Braunschweig",1,1,31,1968,1969-05-17 10:30:00
+"1676","Kickers Offenbach","VfB Stuttgart",2,1,31,1968,1969-05-17 10:30:00
+"1677","1. FC Nuernberg","Bayern Muenchen",2,0,31,1968,1969-05-17 10:30:00
+"1678","Werder Bremen","1. FC Nuernberg",3,3,32,1968,1969-05-23 15:00:00
+"1679","Eintracht Braunschweig","Hannover 96",3,3,32,1968,1969-05-23 15:00:00
+"1680","MSV Duisburg","1. FC Kaiserslautern",0,0,32,1968,1969-05-23 15:00:00
+"1681","Eintracht Frankfurt","TSV 1860 Muenchen",3,0,32,1968,1969-05-23 15:00:00
+"1682","1. FC Koeln","Borussia Dortmund",2,1,32,1968,1969-05-24 10:30:00
+"1683","Bayern Muenchen","Kickers Offenbach",5,1,32,1968,1969-05-24 10:30:00
+"1684","VfB Stuttgart","Borussia Moenchengladbach",0,3,32,1968,1969-05-24 10:30:00
+"1685","Hertha BSC Berlin","Hamburger SV",3,2,32,1968,1969-05-24 10:30:00
+"1686","Schalke 04","Alemannia Aachen",3,1,32,1968,1969-05-24 10:30:00
+"1687","1. FC Kaiserslautern","Eintracht Braunschweig",4,0,33,1968,1969-05-30 15:00:00
+"1688","Schalke 04","Hertha BSC Berlin",2,0,33,1968,1969-05-31 10:30:00
+"1689","Hamburger SV","Eintracht Frankfurt",1,4,33,1968,1969-05-31 10:30:00
+"1690","TSV 1860 Muenchen","MSV Duisburg",2,1,33,1968,1969-05-31 10:30:00
+"1691","Hannover 96","VfB Stuttgart",1,0,33,1968,1969-05-31 10:30:00
+"1692","Borussia Moenchengladbach","Bayern Muenchen",1,1,33,1968,1969-05-31 10:30:00
+"1693","Kickers Offenbach","Werder Bremen",0,3,33,1968,1969-05-31 10:30:00
+"1694","1. FC Nuernberg","Borussia Dortmund",2,2,33,1968,1969-05-31 10:30:00
+"1695","Alemannia Aachen","1. FC Koeln",2,1,33,1968,1969-05-31 10:30:00
+"1696","1. FC Koeln","1. FC Nuernberg",3,0,34,1968,1969-06-07 10:30:00
+"1697","Borussia Dortmund","Kickers Offenbach",3,0,34,1968,1969-06-07 10:30:00
+"1698","Werder Bremen","Borussia Moenchengladbach",6,5,34,1968,1969-06-07 10:30:00
+"1699","Bayern Muenchen","Hannover 96",2,1,34,1968,1969-06-07 10:30:00
+"1700","VfB Stuttgart","1. FC Kaiserslautern",4,3,34,1968,1969-06-07 10:30:00
+"1701","Eintracht Braunschweig","TSV 1860 Muenchen",2,1,34,1968,1969-06-07 10:30:00
+"1702","MSV Duisburg","Hamburger SV",0,0,34,1968,1969-06-07 10:30:00
+"1703","Eintracht Frankfurt","Schalke 04",1,0,34,1968,1969-06-07 10:30:00
+"1704","Hertha BSC Berlin","Alemannia Aachen",0,1,34,1968,1969-06-07 10:30:00
+"1705","Schalke 04","Borussia Moenchengladbach",2,0,1,1969,1969-08-16 10:30:00
+"1706","Rot-Weiss Oberhausen","Eintracht Frankfurt",3,1,1,1969,1969-08-16 10:30:00
+"1707","Hamburger SV","1. FC Kaiserslautern",2,1,1,1969,1969-08-16 10:30:00
+"1708","Hannover 96","Borussia Dortmund",4,2,1,1969,1969-08-16 10:30:00
+"1709","1. FC Koeln","Eintracht Braunschweig",3,2,1,1969,1969-08-16 10:30:00
+"1710","VfB Stuttgart","Werder Bremen",1,1,1,1969,1969-08-16 10:30:00
+"1711","Hertha BSC Berlin","MSV Duisburg",1,0,1,1969,1969-08-16 10:30:00
+"1712","Alemannia Aachen","TSV 1860 Muenchen",0,0,1,1969,1969-08-16 10:30:00
+"1713","Bayern Muenchen","Rot-Weiss Essen",4,0,1,1969,1969-08-16 10:30:00
+"1714","Eintracht Frankfurt","Schalke 04",2,1,2,1969,1969-08-22 15:00:00
+"1715","TSV 1860 Muenchen","Hertha BSC Berlin",2,0,2,1969,1969-08-23 10:30:00
+"1716","MSV Duisburg","VfB Stuttgart",1,1,2,1969,1969-08-23 10:30:00
+"1717","Werder Bremen","1. FC Koeln",2,1,2,1969,1969-08-23 10:30:00
+"1718","Eintracht Braunschweig","Hannover 96",1,1,2,1969,1969-08-23 10:30:00
+"1719","Borussia Dortmund","Hamburger SV",2,1,2,1969,1969-08-23 10:30:00
+"1720","1. FC Kaiserslautern","Rot-Weiss Oberhausen",0,0,2,1969,1969-08-23 10:30:00
+"1721","Borussia Moenchengladbach","Bayern Muenchen",2,1,2,1969,1969-08-23 10:30:00
+"1722","Rot-Weiss Essen","Alemannia Aachen",2,0,2,1969,1969-08-23 10:30:00
+"1723","Bayern Muenchen","Eintracht Frankfurt",2,1,3,1969,1969-08-27 15:00:00
+"1724","1. FC Koeln","MSV Duisburg",6,2,3,1969,1969-08-29 15:00:00
+"1725","Schalke 04","1. FC Kaiserslautern",4,2,3,1969,1969-08-30 10:30:00
+"1726","Rot-Weiss Oberhausen","Borussia Dortmund",2,1,3,1969,1969-08-30 10:30:00
+"1727","Hamburger SV","Eintracht Braunschweig",3,3,3,1969,1969-08-30 10:30:00
+"1728","Hannover 96","Werder Bremen",3,2,3,1969,1969-08-30 10:30:00
+"1729","VfB Stuttgart","TSV 1860 Muenchen",3,1,3,1969,1969-08-30 10:30:00
+"1730","Hertha BSC Berlin","Alemannia Aachen",2,1,3,1969,1969-08-30 10:30:00
+"1731","Borussia Moenchengladbach","Rot-Weiss Essen",2,1,3,1969,1969-08-30 10:30:00
+"1732","MSV Duisburg","Hannover 96",1,0,4,1969,1969-09-05 15:00:00
+"1733","Eintracht Frankfurt","Borussia Moenchengladbach",1,2,4,1969,1969-09-05 15:00:00
+"1734","Alemannia Aachen","VfB Stuttgart",4,2,4,1969,1969-09-06 10:30:00
+"1735","TSV 1860 Muenchen","1. FC Koeln",1,0,4,1969,1969-09-06 10:30:00
+"1736","Werder Bremen","Hamburger SV",1,1,4,1969,1969-09-06 10:30:00
+"1737","Eintracht Braunschweig","Rot-Weiss Oberhausen",0,4,4,1969,1969-09-06 10:30:00
+"1738","Borussia Dortmund","Schalke 04",1,1,4,1969,1969-09-06 10:30:00
+"1739","1. FC Kaiserslautern","Bayern Muenchen",0,0,4,1969,1969-09-06 10:30:00
+"1740","Rot-Weiss Essen","Hertha BSC Berlin",5,2,4,1969,1969-09-06 10:30:00
+"1741","Eintracht Frankfurt","Rot-Weiss Essen",2,1,5,1969,1969-09-12 15:00:00
+"1742","Borussia Moenchengladbach","1. FC Kaiserslautern",1,1,5,1969,1969-09-12 15:00:00
+"1743","Bayern Muenchen","Borussia Dortmund",3,0,5,1969,1969-09-12 15:00:00
+"1744","Schalke 04","Eintracht Braunschweig",1,1,5,1969,1969-09-13 10:30:00
+"1745","Rot-Weiss Oberhausen","Werder Bremen",3,1,5,1969,1969-09-13 10:30:00
+"1746","Hamburger SV","MSV Duisburg",4,1,5,1969,1969-09-13 10:30:00
+"1747","Hannover 96","TSV 1860 Muenchen",3,1,5,1969,1969-09-13 10:30:00
+"1748","1. FC Koeln","Alemannia Aachen",3,0,5,1969,1969-09-13 10:30:00
+"1749","VfB Stuttgart","Hertha BSC Berlin",1,4,5,1969,1969-09-13 10:30:00
+"1750","Hertha BSC Berlin","1. FC Koeln",1,0,6,1969,1969-09-26 15:00:00
+"1751","MSV Duisburg","Rot-Weiss Oberhausen",2,1,6,1969,1969-09-26 15:00:00
+"1752","Alemannia Aachen","Hannover 96",1,1,6,1969,1969-09-27 10:30:00
+"1753","TSV 1860 Muenchen","Hamburger SV",0,2,6,1969,1969-09-27 10:30:00
+"1754","Werder Bremen","Schalke 04",0,1,6,1969,1969-09-27 10:30:00
+"1755","Eintracht Braunschweig","Bayern Muenchen",0,4,6,1969,1969-09-27 10:30:00
+"1756","Borussia Dortmund","Borussia Moenchengladbach",2,1,6,1969,1969-09-27 10:30:00
+"1757","1. FC Kaiserslautern","Eintracht Frankfurt",2,0,6,1969,1969-09-27 10:30:00
+"1758","Rot-Weiss Essen","VfB Stuttgart",3,3,6,1969,1969-09-27 10:30:00
+"1759","Eintracht Frankfurt","Borussia Dortmund",2,0,7,1969,1969-10-03 15:00:00
+"1760","Schalke 04","MSV Duisburg",0,0,7,1969,1969-10-04 10:30:00
+"1761","Rot-Weiss Oberhausen","TSV 1860 Muenchen",3,0,7,1969,1969-10-04 10:30:00
+"1762","Hamburger SV","Alemannia Aachen",4,1,7,1969,1969-10-04 10:30:00
+"1763","Hannover 96","Hertha BSC Berlin",2,1,7,1969,1969-10-04 10:30:00
+"1764","1. FC Koeln","VfB Stuttgart",3,1,7,1969,1969-10-04 10:30:00
+"1765","1. FC Kaiserslautern","Rot-Weiss Essen",0,0,7,1969,1969-10-04 10:30:00
+"1766","Borussia Moenchengladbach","Eintracht Braunschweig",1,0,7,1969,1969-10-04 10:30:00
+"1767","Bayern Muenchen","Werder Bremen",4,1,7,1969,1969-10-04 10:30:00
+"1768","TSV 1860 Muenchen","Schalke 04",0,2,8,1969,1969-10-10 15:00:00
+"1769","MSV Duisburg","Bayern Muenchen",4,2,8,1969,1969-10-10 15:00:00
+"1770","VfB Stuttgart","Hannover 96",2,1,8,1969,1969-10-11 10:30:00
+"1771","Hertha BSC Berlin","Hamburger SV",1,0,8,1969,1969-10-11 10:30:00
+"1772","Alemannia Aachen","Rot-Weiss Oberhausen",2,0,8,1969,1969-10-11 10:30:00
+"1773","Werder Bremen","Borussia Moenchengladbach",0,0,8,1969,1969-10-11 10:30:00
+"1774","Eintracht Braunschweig","Eintracht Frankfurt",3,1,8,1969,1969-10-11 10:30:00
+"1775","Borussia Dortmund","1. FC Kaiserslautern",5,1,8,1969,1969-10-11 10:30:00
+"1776","Rot-Weiss Essen","1. FC Koeln",0,0,8,1969,1969-10-11 10:30:00
+"1777","Schalke 04","Alemannia Aachen",3,0,9,1969,1969-10-15 15:00:00
+"1778","Hamburger SV","VfB Stuttgart",1,3,9,1969,1969-10-15 15:00:00
+"1779","Hannover 96","1. FC Koeln",3,4,9,1969,1969-10-15 15:00:00
+"1780","Borussia Dortmund","Rot-Weiss Essen",4,1,9,1969,1969-10-15 15:00:00
+"1781","1. FC Kaiserslautern","Eintracht Braunschweig",2,0,9,1969,1969-10-15 15:00:00
+"1782","Eintracht Frankfurt","Werder Bremen",2,1,9,1969,1969-10-15 15:00:00
+"1783","Borussia Moenchengladbach","MSV Duisburg",4,1,9,1969,1969-10-15 15:00:00
+"1784","Bayern Muenchen","TSV 1860 Muenchen",2,0,9,1969,1969-10-15 15:00:00
+"1785","Rot-Weiss Oberhausen","Hertha BSC Berlin",3,1,9,1969,1969-10-18 15:00:00
+"1786","MSV Duisburg","Eintracht Frankfurt",1,1,10,1969,1969-10-24 15:00:00
+"1787","1. FC Koeln","Hamburger SV",3,0,10,1969,1969-10-25 10:30:00
+"1788","VfB Stuttgart","Rot-Weiss Oberhausen",4,2,10,1969,1969-10-25 10:30:00
+"1789","Hertha BSC Berlin","Schalke 04",3,0,10,1969,1969-10-25 10:30:00
+"1790","Alemannia Aachen","Bayern Muenchen",1,3,10,1969,1969-10-25 10:30:00
+"1791","TSV 1860 Muenchen","Borussia Moenchengladbach",0,3,10,1969,1969-10-25 10:30:00
+"1792","Werder Bremen","1. FC Kaiserslautern",3,2,10,1969,1969-10-25 10:30:00
+"1793","Eintracht Braunschweig","Borussia Dortmund",1,1,10,1969,1969-10-25 10:30:00
+"1794","Rot-Weiss Essen","Hannover 96",1,0,10,1969,1969-10-25 10:30:00
 "1795","Bayern Muenchen","Hertha BSC Berlin",1,2,11,1969,1969-10-30 14:00:00
 "1796","Schalke 04","VfB Stuttgart",1,2,11,1969,1969-10-31 14:00:00
 "1797","Borussia Dortmund","Werder Bremen",2,1,11,1969,1969-10-31 14:00:00
@@ -1918,7 +1918,7 @@
 "1917","Alemannia Aachen","Hamburger SV",0,2,24,1969,1970-04-07 14:00:00
 "1918","Borussia Dortmund","Eintracht Frankfurt",2,1,24,1969,1970-04-15 14:00:00
 "1919","Werder Bremen","Bayern Muenchen",1,0,24,1969,1970-04-21 14:00:00
-"1920","Rot-Weiss Essen","1. FC Kaiserslautern",1,1,24,1969,1970-04-30 09:30:00
+"1920","Rot-Weiss Essen","1. FC Kaiserslautern",1,1,24,1969,1970-04-30 10:30:00
 "1921","Schalke 04","TSV 1860 Muenchen",3,1,25,1969,1970-02-28 09:30:00
 "1922","Rot-Weiss Oberhausen","Alemannia Aachen",1,0,25,1969,1970-02-28 09:30:00
 "1923","Hannover 96","VfB Stuttgart",2,0,25,1969,1970-02-28 09:30:00
@@ -1972,7 +1972,7 @@
 "1971","MSV Duisburg","Eintracht Braunschweig",1,0,30,1969,1970-04-04 09:30:00
 "1972","TSV 1860 Muenchen","Borussia Dortmund",3,0,30,1969,1970-04-08 14:00:00
 "1973","Alemannia Aachen","1. FC Kaiserslautern",1,1,30,1969,1970-04-15 09:30:00
-"1974","Rot-Weiss Essen","Werder Bremen",3,2,30,1969,1970-04-27 14:00:00
+"1974","Rot-Weiss Essen","Werder Bremen",3,2,30,1969,1970-04-27 15:00:00
 "1975","Schalke 04","Hamburger SV",1,1,31,1969,1970-04-11 09:30:00
 "1976","Rot-Weiss Oberhausen","Rot-Weiss Essen",1,1,31,1969,1970-04-11 09:30:00
 "1977","Werder Bremen","MSV Duisburg",0,0,31,1969,1970-04-11 09:30:00
@@ -1993,130 +1993,130 @@
 "1992","MSV Duisburg","Rot-Weiss Essen",0,1,32,1969,1970-04-18 09:30:00
 "1993","Rot-Weiss Essen","Schalke 04",1,1,33,1969,1970-04-24 14:00:00
 "1994","1. FC Kaiserslautern","1. FC Koeln",3,2,33,1969,1970-04-25 09:30:00
-"1995","MSV Duisburg","TSV 1860 Muenchen",2,1,33,1969,1970-04-30 14:00:00
-"1996","Werder Bremen","Alemannia Aachen",4,1,33,1969,1970-04-30 14:00:00
-"1997","Eintracht Braunschweig","Hertha BSC Berlin",1,2,33,1969,1970-04-30 14:00:00
-"1998","Borussia Dortmund","VfB Stuttgart",0,0,33,1969,1970-04-30 14:00:00
-"1999","Eintracht Frankfurt","Hannover 96",3,3,33,1969,1970-04-30 14:00:00
-"2000","Borussia Moenchengladbach","Hamburger SV",4,3,33,1969,1970-04-30 14:00:00
-"2001","Bayern Muenchen","Rot-Weiss Oberhausen",6,2,33,1969,1970-04-30 14:00:00
-"2002","Schalke 04","Bayern Muenchen",2,2,34,1969,1970-05-03 09:30:00
-"2003","Rot-Weiss Oberhausen","Borussia Moenchengladbach",3,4,34,1969,1970-05-03 09:30:00
-"2004","Hamburger SV","Eintracht Frankfurt",5,1,34,1969,1970-05-03 09:30:00
-"2005","Hannover 96","1. FC Kaiserslautern",4,2,34,1969,1970-05-03 09:30:00
-"2006","1. FC Koeln","Borussia Dortmund",5,2,34,1969,1970-05-03 09:30:00
-"2007","VfB Stuttgart","Eintracht Braunschweig",3,2,34,1969,1970-05-03 09:30:00
-"2008","Hertha BSC Berlin","Werder Bremen",4,1,34,1969,1970-05-03 09:30:00
-"2009","Alemannia Aachen","MSV Duisburg",3,2,34,1969,1970-05-03 09:30:00
-"2010","TSV 1860 Muenchen","Rot-Weiss Essen",0,0,34,1969,1970-05-03 09:30:00
-"2011","Eintracht Frankfurt","Hamburger SV",0,0,1,1970,1970-08-15 09:30:00
-"2012","Rot-Weiss Essen","Hannover 96",2,0,1,1970,1970-08-15 09:30:00
-"2013","Borussia Dortmund","Arminia Bielefeld",3,0,1,1970,1970-08-15 09:30:00
-"2014","Hertha BSC Berlin","1. FC Kaiserslautern",5,3,1,1970,1970-08-15 09:30:00
-"2015","VfB Stuttgart","Bayern Muenchen",1,1,1,1970,1970-08-15 09:30:00
-"2016","MSV Duisburg","Rot-Weiss Oberhausen",2,2,1,1970,1970-08-15 09:30:00
-"2017","Eintracht Braunschweig","Schalke 04",3,3,1,1970,1970-08-15 09:30:00
-"2018","Werder Bremen","1. FC Koeln",1,1,1,1970,1970-08-15 09:30:00
-"2019","Borussia Moenchengladbach","Kickers Offenbach",2,0,1,1970,1970-08-15 09:30:00
-"2020","1. FC Koeln","Eintracht Braunschweig",3,1,2,1970,1970-08-22 09:30:00
-"2021","Schalke 04","MSV Duisburg",1,0,2,1970,1970-08-22 09:30:00
-"2022","Rot-Weiss Oberhausen","VfB Stuttgart",1,2,2,1970,1970-08-22 09:30:00
-"2023","Bayern Muenchen","Hertha BSC Berlin",1,0,2,1970,1970-08-22 09:30:00
-"2024","1. FC Kaiserslautern","Borussia Dortmund",1,0,2,1970,1970-08-22 09:30:00
-"2025","Arminia Bielefeld","Rot-Weiss Essen",0,0,2,1970,1970-08-22 09:30:00
-"2026","Hannover 96","Eintracht Frankfurt",1,2,2,1970,1970-08-22 09:30:00
-"2027","Hamburger SV","Borussia Moenchengladbach",2,2,2,1970,1970-08-22 09:30:00
-"2028","Kickers Offenbach","Werder Bremen",2,1,2,1970,1970-08-22 09:30:00
-"2029","Eintracht Frankfurt","Arminia Bielefeld",1,1,3,1970,1970-08-28 09:30:00
-"2030","Borussia Dortmund","Bayern Muenchen",0,0,3,1970,1970-08-28 09:30:00
-"2031","Hertha BSC Berlin","Rot-Weiss Oberhausen",3,1,3,1970,1970-08-28 09:30:00
-"2032","VfB Stuttgart","Schalke 04",1,1,3,1970,1970-08-28 09:30:00
-"2033","Eintracht Braunschweig","Werder Bremen",1,0,3,1970,1970-08-28 09:30:00
-"2034","Borussia Moenchengladbach","Hannover 96",0,0,3,1970,1970-08-28 09:30:00
-"2035","Rot-Weiss Essen","1. FC Kaiserslautern",4,0,3,1970,1970-08-29 09:30:00
+"1995","MSV Duisburg","TSV 1860 Muenchen",2,1,33,1969,1970-04-30 15:00:00
+"1996","Werder Bremen","Alemannia Aachen",4,1,33,1969,1970-04-30 15:00:00
+"1997","Eintracht Braunschweig","Hertha BSC Berlin",1,2,33,1969,1970-04-30 15:00:00
+"1998","Borussia Dortmund","VfB Stuttgart",0,0,33,1969,1970-04-30 15:00:00
+"1999","Eintracht Frankfurt","Hannover 96",3,3,33,1969,1970-04-30 15:00:00
+"2000","Borussia Moenchengladbach","Hamburger SV",4,3,33,1969,1970-04-30 15:00:00
+"2001","Bayern Muenchen","Rot-Weiss Oberhausen",6,2,33,1969,1970-04-30 15:00:00
+"2002","Schalke 04","Bayern Muenchen",2,2,34,1969,1970-05-03 10:30:00
+"2003","Rot-Weiss Oberhausen","Borussia Moenchengladbach",3,4,34,1969,1970-05-03 10:30:00
+"2004","Hamburger SV","Eintracht Frankfurt",5,1,34,1969,1970-05-03 10:30:00
+"2005","Hannover 96","1. FC Kaiserslautern",4,2,34,1969,1970-05-03 10:30:00
+"2006","1. FC Koeln","Borussia Dortmund",5,2,34,1969,1970-05-03 10:30:00
+"2007","VfB Stuttgart","Eintracht Braunschweig",3,2,34,1969,1970-05-03 10:30:00
+"2008","Hertha BSC Berlin","Werder Bremen",4,1,34,1969,1970-05-03 10:30:00
+"2009","Alemannia Aachen","MSV Duisburg",3,2,34,1969,1970-05-03 10:30:00
+"2010","TSV 1860 Muenchen","Rot-Weiss Essen",0,0,34,1969,1970-05-03 10:30:00
+"2011","Eintracht Frankfurt","Hamburger SV",0,0,1,1970,1970-08-15 10:30:00
+"2012","Rot-Weiss Essen","Hannover 96",2,0,1,1970,1970-08-15 10:30:00
+"2013","Borussia Dortmund","Arminia Bielefeld",3,0,1,1970,1970-08-15 10:30:00
+"2014","Hertha BSC Berlin","1. FC Kaiserslautern",5,3,1,1970,1970-08-15 10:30:00
+"2015","VfB Stuttgart","Bayern Muenchen",1,1,1,1970,1970-08-15 10:30:00
+"2016","MSV Duisburg","Rot-Weiss Oberhausen",2,2,1,1970,1970-08-15 10:30:00
+"2017","Eintracht Braunschweig","Schalke 04",3,3,1,1970,1970-08-15 10:30:00
+"2018","Werder Bremen","1. FC Koeln",1,1,1,1970,1970-08-15 10:30:00
+"2019","Borussia Moenchengladbach","Kickers Offenbach",2,0,1,1970,1970-08-15 10:30:00
+"2020","1. FC Koeln","Eintracht Braunschweig",3,1,2,1970,1970-08-22 10:30:00
+"2021","Schalke 04","MSV Duisburg",1,0,2,1970,1970-08-22 10:30:00
+"2022","Rot-Weiss Oberhausen","VfB Stuttgart",1,2,2,1970,1970-08-22 10:30:00
+"2023","Bayern Muenchen","Hertha BSC Berlin",1,0,2,1970,1970-08-22 10:30:00
+"2024","1. FC Kaiserslautern","Borussia Dortmund",1,0,2,1970,1970-08-22 10:30:00
+"2025","Arminia Bielefeld","Rot-Weiss Essen",0,0,2,1970,1970-08-22 10:30:00
+"2026","Hannover 96","Eintracht Frankfurt",1,2,2,1970,1970-08-22 10:30:00
+"2027","Hamburger SV","Borussia Moenchengladbach",2,2,2,1970,1970-08-22 10:30:00
+"2028","Kickers Offenbach","Werder Bremen",2,1,2,1970,1970-08-22 10:30:00
+"2029","Eintracht Frankfurt","Arminia Bielefeld",1,1,3,1970,1970-08-28 10:30:00
+"2030","Borussia Dortmund","Bayern Muenchen",0,0,3,1970,1970-08-28 10:30:00
+"2031","Hertha BSC Berlin","Rot-Weiss Oberhausen",3,1,3,1970,1970-08-28 10:30:00
+"2032","VfB Stuttgart","Schalke 04",1,1,3,1970,1970-08-28 10:30:00
+"2033","Eintracht Braunschweig","Werder Bremen",1,0,3,1970,1970-08-28 10:30:00
+"2034","Borussia Moenchengladbach","Hannover 96",0,0,3,1970,1970-08-28 10:30:00
+"2035","Rot-Weiss Essen","1. FC Kaiserslautern",4,0,3,1970,1970-08-29 10:30:00
 "2036","Hamburger SV","Kickers Offenbach",3,2,3,1970,1970-10-28 09:30:00
 "2037","MSV Duisburg","1. FC Koeln",0,0,3,1970,1970-10-28 14:00:00
-"2038","1. FC Kaiserslautern","Eintracht Frankfurt",2,0,4,1970,1970-09-04 14:00:00
-"2039","Kickers Offenbach","Eintracht Braunschweig",0,2,4,1970,1970-09-04 14:00:00
-"2040","Werder Bremen","MSV Duisburg",0,2,4,1970,1970-09-05 09:30:00
-"2041","1. FC Koeln","VfB Stuttgart",2,1,4,1970,1970-09-05 09:30:00
-"2042","Schalke 04","Hertha BSC Berlin",0,1,4,1970,1970-09-05 09:30:00
-"2043","Rot-Weiss Oberhausen","Borussia Dortmund",0,1,4,1970,1970-09-05 09:30:00
-"2044","Bayern Muenchen","Rot-Weiss Essen",2,2,4,1970,1970-09-05 09:30:00
-"2045","Arminia Bielefeld","Borussia Moenchengladbach",0,2,4,1970,1970-09-05 09:30:00
-"2046","Hannover 96","Hamburger SV",0,3,4,1970,1970-09-05 09:30:00
-"2047","VfB Stuttgart","Werder Bremen",3,0,5,1970,1970-09-11 14:00:00
-"2048","MSV Duisburg","Eintracht Braunschweig",0,0,5,1970,1970-09-11 14:00:00
-"2049","Eintracht Frankfurt","Bayern Muenchen",0,1,5,1970,1970-09-12 09:30:00
-"2050","Rot-Weiss Essen","Rot-Weiss Oberhausen",3,3,5,1970,1970-09-12 09:30:00
-"2051","Borussia Dortmund","Schalke 04",1,2,5,1970,1970-09-12 09:30:00
-"2052","Hertha BSC Berlin","1. FC Koeln",3,2,5,1970,1970-09-12 09:30:00
-"2053","Hannover 96","Kickers Offenbach",1,1,5,1970,1970-09-12 09:30:00
-"2054","Hamburger SV","Arminia Bielefeld",3,2,5,1970,1970-09-12 09:30:00
-"2055","Borussia Moenchengladbach","1. FC Kaiserslautern",5,0,5,1970,1970-09-12 09:30:00
-"2056","Eintracht Braunschweig","VfB Stuttgart",4,0,6,1970,1970-09-19 09:30:00
-"2057","Werder Bremen","Hertha BSC Berlin",0,0,6,1970,1970-09-19 09:30:00
-"2058","1. FC Koeln","Borussia Dortmund",2,2,6,1970,1970-09-19 09:30:00
-"2059","Schalke 04","Rot-Weiss Essen",4,1,6,1970,1970-09-19 09:30:00
-"2060","Rot-Weiss Oberhausen","Eintracht Frankfurt",0,0,6,1970,1970-09-19 09:30:00
-"2061","Bayern Muenchen","Borussia Moenchengladbach",2,2,6,1970,1970-09-19 09:30:00
-"2062","1. FC Kaiserslautern","Hamburger SV",2,0,6,1970,1970-09-19 09:30:00
-"2063","Arminia Bielefeld","Hannover 96",3,1,6,1970,1970-09-19 09:30:00
-"2064","Kickers Offenbach","MSV Duisburg",2,0,6,1970,1970-09-19 09:30:00
-"2065","Eintracht Frankfurt","Schalke 04",1,0,7,1970,1970-09-23 14:00:00
-"2066","Rot-Weiss Essen","1. FC Koeln",2,0,7,1970,1970-09-23 14:00:00
-"2067","Hertha BSC Berlin","Eintracht Braunschweig",1,0,7,1970,1970-09-23 14:00:00
-"2068","VfB Stuttgart","MSV Duisburg",1,0,7,1970,1970-09-23 14:00:00
-"2069","Arminia Bielefeld","Kickers Offenbach",2,0,7,1970,1970-09-23 14:00:00
-"2070","Hannover 96","1. FC Kaiserslautern",2,1,7,1970,1970-09-23 14:00:00
-"2071","Hamburger SV","Bayern Muenchen",1,5,7,1970,1970-09-23 14:00:00
-"2072","Borussia Moenchengladbach","Rot-Weiss Oberhausen",6,0,7,1970,1970-09-30 14:00:00
+"2038","1. FC Kaiserslautern","Eintracht Frankfurt",2,0,4,1970,1970-09-04 15:00:00
+"2039","Kickers Offenbach","Eintracht Braunschweig",0,2,4,1970,1970-09-04 15:00:00
+"2040","Werder Bremen","MSV Duisburg",0,2,4,1970,1970-09-05 10:30:00
+"2041","1. FC Koeln","VfB Stuttgart",2,1,4,1970,1970-09-05 10:30:00
+"2042","Schalke 04","Hertha BSC Berlin",0,1,4,1970,1970-09-05 10:30:00
+"2043","Rot-Weiss Oberhausen","Borussia Dortmund",0,1,4,1970,1970-09-05 10:30:00
+"2044","Bayern Muenchen","Rot-Weiss Essen",2,2,4,1970,1970-09-05 10:30:00
+"2045","Arminia Bielefeld","Borussia Moenchengladbach",0,2,4,1970,1970-09-05 10:30:00
+"2046","Hannover 96","Hamburger SV",0,3,4,1970,1970-09-05 10:30:00
+"2047","VfB Stuttgart","Werder Bremen",3,0,5,1970,1970-09-11 15:00:00
+"2048","MSV Duisburg","Eintracht Braunschweig",0,0,5,1970,1970-09-11 15:00:00
+"2049","Eintracht Frankfurt","Bayern Muenchen",0,1,5,1970,1970-09-12 10:30:00
+"2050","Rot-Weiss Essen","Rot-Weiss Oberhausen",3,3,5,1970,1970-09-12 10:30:00
+"2051","Borussia Dortmund","Schalke 04",1,2,5,1970,1970-09-12 10:30:00
+"2052","Hertha BSC Berlin","1. FC Koeln",3,2,5,1970,1970-09-12 10:30:00
+"2053","Hannover 96","Kickers Offenbach",1,1,5,1970,1970-09-12 10:30:00
+"2054","Hamburger SV","Arminia Bielefeld",3,2,5,1970,1970-09-12 10:30:00
+"2055","Borussia Moenchengladbach","1. FC Kaiserslautern",5,0,5,1970,1970-09-12 10:30:00
+"2056","Eintracht Braunschweig","VfB Stuttgart",4,0,6,1970,1970-09-19 10:30:00
+"2057","Werder Bremen","Hertha BSC Berlin",0,0,6,1970,1970-09-19 10:30:00
+"2058","1. FC Koeln","Borussia Dortmund",2,2,6,1970,1970-09-19 10:30:00
+"2059","Schalke 04","Rot-Weiss Essen",4,1,6,1970,1970-09-19 10:30:00
+"2060","Rot-Weiss Oberhausen","Eintracht Frankfurt",0,0,6,1970,1970-09-19 10:30:00
+"2061","Bayern Muenchen","Borussia Moenchengladbach",2,2,6,1970,1970-09-19 10:30:00
+"2062","1. FC Kaiserslautern","Hamburger SV",2,0,6,1970,1970-09-19 10:30:00
+"2063","Arminia Bielefeld","Hannover 96",3,1,6,1970,1970-09-19 10:30:00
+"2064","Kickers Offenbach","MSV Duisburg",2,0,6,1970,1970-09-19 10:30:00
+"2065","Eintracht Frankfurt","Schalke 04",1,0,7,1970,1970-09-23 15:00:00
+"2066","Rot-Weiss Essen","1. FC Koeln",2,0,7,1970,1970-09-23 15:00:00
+"2067","Hertha BSC Berlin","Eintracht Braunschweig",1,0,7,1970,1970-09-23 15:00:00
+"2068","VfB Stuttgart","MSV Duisburg",1,0,7,1970,1970-09-23 15:00:00
+"2069","Arminia Bielefeld","Kickers Offenbach",2,0,7,1970,1970-09-23 15:00:00
+"2070","Hannover 96","1. FC Kaiserslautern",2,1,7,1970,1970-09-23 15:00:00
+"2071","Hamburger SV","Bayern Muenchen",1,5,7,1970,1970-09-23 15:00:00
+"2072","Borussia Moenchengladbach","Rot-Weiss Oberhausen",6,0,7,1970,1970-09-30 15:00:00
 "2073","Borussia Dortmund","Werder Bremen",0,1,7,1970,1970-10-27 14:00:00
-"2074","MSV Duisburg","Hertha BSC Berlin",1,0,8,1970,1970-09-26 09:30:00
-"2075","Eintracht Braunschweig","Borussia Dortmund",3,0,8,1970,1970-09-26 09:30:00
-"2076","Werder Bremen","Rot-Weiss Essen",1,1,8,1970,1970-09-26 09:30:00
-"2077","1. FC Koeln","Eintracht Frankfurt",0,0,8,1970,1970-09-26 09:30:00
-"2078","Schalke 04","Borussia Moenchengladbach",0,0,8,1970,1970-09-26 09:30:00
-"2079","Rot-Weiss Oberhausen","Hamburger SV",8,1,8,1970,1970-09-26 09:30:00
-"2080","Bayern Muenchen","Hannover 96",4,1,8,1970,1970-09-26 09:30:00
-"2081","1. FC Kaiserslautern","Arminia Bielefeld",3,0,8,1970,1970-09-26 09:30:00
-"2082","Kickers Offenbach","VfB Stuttgart",3,3,8,1970,1970-09-26 09:30:00
-"2083","Eintracht Frankfurt","Werder Bremen",0,2,9,1970,1970-10-03 09:30:00
-"2084","Rot-Weiss Essen","Eintracht Braunschweig",0,1,9,1970,1970-10-03 09:30:00
-"2085","Borussia Dortmund","MSV Duisburg",5,1,9,1970,1970-10-03 09:30:00
-"2086","Hertha BSC Berlin","VfB Stuttgart",2,0,9,1970,1970-10-03 09:30:00
-"2087","1. FC Kaiserslautern","Kickers Offenbach",4,0,9,1970,1970-10-03 09:30:00
-"2088","Arminia Bielefeld","Bayern Muenchen",1,0,9,1970,1970-10-03 09:30:00
-"2089","Hannover 96","Rot-Weiss Oberhausen",1,2,9,1970,1970-10-03 09:30:00
-"2090","Hamburger SV","Schalke 04",1,2,9,1970,1970-10-03 09:30:00
-"2091","Borussia Moenchengladbach","1. FC Koeln",1,1,9,1970,1970-10-03 09:30:00
-"2092","Rot-Weiss Oberhausen","Arminia Bielefeld",4,2,10,1970,1970-10-06 14:00:00
-"2093","VfB Stuttgart","Borussia Dortmund",6,1,10,1970,1970-10-07 14:00:00
-"2094","MSV Duisburg","Rot-Weiss Essen",1,0,10,1970,1970-10-07 14:00:00
-"2095","Eintracht Braunschweig","Eintracht Frankfurt",2,0,10,1970,1970-10-07 14:00:00
-"2096","Werder Bremen","Borussia Moenchengladbach",1,1,10,1970,1970-10-07 14:00:00
-"2097","1. FC Koeln","Hamburger SV",3,0,10,1970,1970-10-07 14:00:00
-"2098","Schalke 04","Hannover 96",3,0,10,1970,1970-10-07 14:00:00
-"2099","Bayern Muenchen","1. FC Kaiserslautern",3,1,10,1970,1970-10-07 14:00:00
-"2100","Kickers Offenbach","Hertha BSC Berlin",1,0,10,1970,1970-10-07 14:00:00
-"2101","Eintracht Frankfurt","MSV Duisburg",0,0,11,1970,1970-10-10 09:30:00
-"2102","Rot-Weiss Essen","VfB Stuttgart",1,1,11,1970,1970-10-10 09:30:00
-"2103","Borussia Dortmund","Hertha BSC Berlin",3,1,11,1970,1970-10-10 09:30:00
-"2104","Bayern Muenchen","Kickers Offenbach",0,0,11,1970,1970-10-10 09:30:00
-"2105","1. FC Kaiserslautern","Rot-Weiss Oberhausen",4,1,11,1970,1970-10-10 09:30:00
-"2106","Arminia Bielefeld","Schalke 04",0,3,11,1970,1970-10-10 09:30:00
-"2107","Hannover 96","1. FC Koeln",2,0,11,1970,1970-10-10 09:30:00
-"2108","Hamburger SV","Werder Bremen",1,1,11,1970,1970-10-10 09:30:00
-"2109","Borussia Moenchengladbach","Eintracht Braunschweig",3,1,11,1970,1970-10-10 09:30:00
-"2110","Rot-Weiss Oberhausen","Bayern Muenchen",0,4,12,1970,1970-10-23 14:00:00
-"2111","Hertha BSC Berlin","Rot-Weiss Essen",1,1,12,1970,1970-10-24 09:30:00
-"2112","VfB Stuttgart","Eintracht Frankfurt",2,1,12,1970,1970-10-24 09:30:00
-"2113","MSV Duisburg","Borussia Moenchengladbach",1,1,12,1970,1970-10-24 09:30:00
-"2114","Eintracht Braunschweig","Hamburger SV",4,1,12,1970,1970-10-24 09:30:00
-"2115","Werder Bremen","Hannover 96",0,0,12,1970,1970-10-24 09:30:00
-"2116","1. FC Koeln","Arminia Bielefeld",2,0,12,1970,1970-10-24 09:30:00
-"2117","Schalke 04","1. FC Kaiserslautern",2,0,12,1970,1970-10-24 09:30:00
-"2118","Kickers Offenbach","Borussia Dortmund",3,0,12,1970,1970-10-24 09:30:00
+"2074","MSV Duisburg","Hertha BSC Berlin",1,0,8,1970,1970-09-26 10:30:00
+"2075","Eintracht Braunschweig","Borussia Dortmund",3,0,8,1970,1970-09-26 10:30:00
+"2076","Werder Bremen","Rot-Weiss Essen",1,1,8,1970,1970-09-26 10:30:00
+"2077","1. FC Koeln","Eintracht Frankfurt",0,0,8,1970,1970-09-26 10:30:00
+"2078","Schalke 04","Borussia Moenchengladbach",0,0,8,1970,1970-09-26 10:30:00
+"2079","Rot-Weiss Oberhausen","Hamburger SV",8,1,8,1970,1970-09-26 10:30:00
+"2080","Bayern Muenchen","Hannover 96",4,1,8,1970,1970-09-26 10:30:00
+"2081","1. FC Kaiserslautern","Arminia Bielefeld",3,0,8,1970,1970-09-26 10:30:00
+"2082","Kickers Offenbach","VfB Stuttgart",3,3,8,1970,1970-09-26 10:30:00
+"2083","Eintracht Frankfurt","Werder Bremen",0,2,9,1970,1970-10-03 10:30:00
+"2084","Rot-Weiss Essen","Eintracht Braunschweig",0,1,9,1970,1970-10-03 10:30:00
+"2085","Borussia Dortmund","MSV Duisburg",5,1,9,1970,1970-10-03 10:30:00
+"2086","Hertha BSC Berlin","VfB Stuttgart",2,0,9,1970,1970-10-03 10:30:00
+"2087","1. FC Kaiserslautern","Kickers Offenbach",4,0,9,1970,1970-10-03 10:30:00
+"2088","Arminia Bielefeld","Bayern Muenchen",1,0,9,1970,1970-10-03 10:30:00
+"2089","Hannover 96","Rot-Weiss Oberhausen",1,2,9,1970,1970-10-03 10:30:00
+"2090","Hamburger SV","Schalke 04",1,2,9,1970,1970-10-03 10:30:00
+"2091","Borussia Moenchengladbach","1. FC Koeln",1,1,9,1970,1970-10-03 10:30:00
+"2092","Rot-Weiss Oberhausen","Arminia Bielefeld",4,2,10,1970,1970-10-06 15:00:00
+"2093","VfB Stuttgart","Borussia Dortmund",6,1,10,1970,1970-10-07 15:00:00
+"2094","MSV Duisburg","Rot-Weiss Essen",1,0,10,1970,1970-10-07 15:00:00
+"2095","Eintracht Braunschweig","Eintracht Frankfurt",2,0,10,1970,1970-10-07 15:00:00
+"2096","Werder Bremen","Borussia Moenchengladbach",1,1,10,1970,1970-10-07 15:00:00
+"2097","1. FC Koeln","Hamburger SV",3,0,10,1970,1970-10-07 15:00:00
+"2098","Schalke 04","Hannover 96",3,0,10,1970,1970-10-07 15:00:00
+"2099","Bayern Muenchen","1. FC Kaiserslautern",3,1,10,1970,1970-10-07 15:00:00
+"2100","Kickers Offenbach","Hertha BSC Berlin",1,0,10,1970,1970-10-07 15:00:00
+"2101","Eintracht Frankfurt","MSV Duisburg",0,0,11,1970,1970-10-10 10:30:00
+"2102","Rot-Weiss Essen","VfB Stuttgart",1,1,11,1970,1970-10-10 10:30:00
+"2103","Borussia Dortmund","Hertha BSC Berlin",3,1,11,1970,1970-10-10 10:30:00
+"2104","Bayern Muenchen","Kickers Offenbach",0,0,11,1970,1970-10-10 10:30:00
+"2105","1. FC Kaiserslautern","Rot-Weiss Oberhausen",4,1,11,1970,1970-10-10 10:30:00
+"2106","Arminia Bielefeld","Schalke 04",0,3,11,1970,1970-10-10 10:30:00
+"2107","Hannover 96","1. FC Koeln",2,0,11,1970,1970-10-10 10:30:00
+"2108","Hamburger SV","Werder Bremen",1,1,11,1970,1970-10-10 10:30:00
+"2109","Borussia Moenchengladbach","Eintracht Braunschweig",3,1,11,1970,1970-10-10 10:30:00
+"2110","Rot-Weiss Oberhausen","Bayern Muenchen",0,4,12,1970,1970-10-23 15:00:00
+"2111","Hertha BSC Berlin","Rot-Weiss Essen",1,1,12,1970,1970-10-24 10:30:00
+"2112","VfB Stuttgart","Eintracht Frankfurt",2,1,12,1970,1970-10-24 10:30:00
+"2113","MSV Duisburg","Borussia Moenchengladbach",1,1,12,1970,1970-10-24 10:30:00
+"2114","Eintracht Braunschweig","Hamburger SV",4,1,12,1970,1970-10-24 10:30:00
+"2115","Werder Bremen","Hannover 96",0,0,12,1970,1970-10-24 10:30:00
+"2116","1. FC Koeln","Arminia Bielefeld",2,0,12,1970,1970-10-24 10:30:00
+"2117","Schalke 04","1. FC Kaiserslautern",2,0,12,1970,1970-10-24 10:30:00
+"2118","Kickers Offenbach","Borussia Dortmund",3,0,12,1970,1970-10-24 10:30:00
 "2119","Bayern Muenchen","Schalke 04",3,0,13,1970,1970-10-29 14:00:00
 "2120","Eintracht Frankfurt","Hertha BSC Berlin",1,3,13,1970,1970-10-31 09:30:00
 "2121","Rot-Weiss Essen","Borussia Dortmund",0,1,13,1970,1970-10-31 09:30:00
@@ -2188,7 +2188,7 @@
 "2187","Hannover 96","Borussia Moenchengladbach",1,1,20,1970,1971-02-06 09:30:00
 "2188","Kickers Offenbach","Hamburger SV",3,3,20,1970,1971-02-06 09:30:00
 "2189","Rot-Weiss Oberhausen","Hertha BSC Berlin",1,1,20,1970,1971-03-03 14:00:00
-"2190","Bayern Muenchen","Borussia Dortmund",1,1,20,1970,1971-05-04 14:00:00
+"2190","Bayern Muenchen","Borussia Dortmund",1,1,20,1970,1971-05-04 15:00:00
 "2191","Eintracht Frankfurt","1. FC Kaiserslautern",3,2,21,1970,1971-02-13 09:30:00
 "2192","Rot-Weiss Essen","Bayern Muenchen",3,1,21,1970,1971-02-13 09:30:00
 "2193","Borussia Dortmund","Rot-Weiss Oberhausen",2,0,21,1970,1971-02-13 09:30:00
@@ -2206,7 +2206,7 @@
 "2205","1. FC Kaiserslautern","Borussia Moenchengladbach",0,1,22,1970,1971-02-27 09:30:00
 "2206","Arminia Bielefeld","Hamburger SV",1,1,22,1970,1971-02-27 09:30:00
 "2207","Kickers Offenbach","Hannover 96",1,5,22,1970,1971-02-27 09:30:00
-"2208","Bayern Muenchen","Eintracht Frankfurt",2,1,22,1970,1971-05-18 14:00:00
+"2208","Bayern Muenchen","Eintracht Frankfurt",2,1,22,1970,1971-05-18 15:00:00
 "2209","Rot-Weiss Essen","Schalke 04",1,3,23,1970,1971-03-05 14:00:00
 "2210","Borussia Dortmund","1. FC Koeln",0,0,23,1970,1971-03-05 14:00:00
 "2211","Hamburger SV","1. FC Kaiserslautern",5,2,23,1970,1971-03-05 14:00:00
@@ -2223,8 +2223,8 @@
 "2222","Kickers Offenbach","Arminia Bielefeld",5,0,24,1970,1971-03-13 09:30:00
 "2223","1. FC Kaiserslautern","Hannover 96",2,1,24,1970,1971-04-08 14:00:00
 "2224","MSV Duisburg","VfB Stuttgart",1,0,24,1970,1971-04-13 14:00:00
-"2225","Rot-Weiss Oberhausen","Borussia Moenchengladbach",0,2,24,1970,1971-04-28 14:00:00
-"2226","1. FC Koeln","Rot-Weiss Essen",3,2,24,1970,1971-05-05 14:00:00
+"2225","Rot-Weiss Oberhausen","Borussia Moenchengladbach",0,2,24,1970,1971-04-28 15:00:00
+"2226","1. FC Koeln","Rot-Weiss Essen",3,2,24,1970,1971-05-05 15:00:00
 "2227","Rot-Weiss Essen","Werder Bremen",2,2,25,1970,1971-03-19 14:00:00
 "2228","Eintracht Frankfurt","1. FC Koeln",1,1,25,1970,1971-03-20 09:30:00
 "2229","Borussia Dortmund","Eintracht Braunschweig",1,1,25,1970,1971-03-20 09:30:00
@@ -2261,177 +2261,177 @@
 "2260","Schalke 04","Arminia Bielefeld",0,1,28,1970,1971-04-17 09:30:00
 "2261","Rot-Weiss Oberhausen","1. FC Kaiserslautern",4,2,28,1970,1971-04-17 09:30:00
 "2262","Kickers Offenbach","Bayern Muenchen",1,1,28,1970,1971-04-17 09:30:00
-"2263","1. FC Kaiserslautern","Schalke 04",2,0,29,1970,1971-04-30 14:00:00
-"2264","Hannover 96","Werder Bremen",0,3,29,1970,1971-04-30 14:00:00
-"2265","Eintracht Frankfurt","VfB Stuttgart",1,0,29,1970,1971-05-01 09:30:00
-"2266","Rot-Weiss Essen","Hertha BSC Berlin",0,3,29,1970,1971-05-01 09:30:00
-"2267","Borussia Dortmund","Kickers Offenbach",1,1,29,1970,1971-05-01 09:30:00
-"2268","Bayern Muenchen","Rot-Weiss Oberhausen",4,2,29,1970,1971-05-01 09:30:00
-"2269","Arminia Bielefeld","1. FC Koeln",1,0,29,1970,1971-05-01 09:30:00
-"2270","Hamburger SV","Eintracht Braunschweig",2,1,29,1970,1971-05-01 09:30:00
-"2271","Borussia Moenchengladbach","MSV Duisburg",1,0,29,1970,1971-05-01 09:30:00
-"2272","MSV Duisburg","Hamburger SV",2,2,30,1970,1971-05-07 14:00:00
-"2273","Borussia Dortmund","Rot-Weiss Essen",7,2,30,1970,1971-05-08 09:30:00
-"2274","Hertha BSC Berlin","Eintracht Frankfurt",6,2,30,1970,1971-05-08 09:30:00
-"2275","VfB Stuttgart","Borussia Moenchengladbach",1,1,30,1970,1971-05-08 09:30:00
-"2276","Eintracht Braunschweig","Hannover 96",0,4,30,1970,1971-05-08 09:30:00
-"2277","Werder Bremen","Arminia Bielefeld",4,1,30,1970,1971-05-08 09:30:00
-"2278","1. FC Koeln","1. FC Kaiserslautern",1,2,30,1970,1971-05-08 09:30:00
-"2279","Schalke 04","Bayern Muenchen",1,3,30,1970,1971-05-08 09:30:00
-"2280","Kickers Offenbach","Rot-Weiss Oberhausen",3,2,30,1970,1971-05-08 09:30:00
-"2281","1. FC Kaiserslautern","Werder Bremen",2,1,31,1970,1971-05-14 14:00:00
-"2282","Hannover 96","MSV Duisburg",3,3,31,1970,1971-05-14 14:00:00
-"2283","Borussia Moenchengladbach","Hertha BSC Berlin",4,0,31,1970,1971-05-14 14:00:00
-"2284","Eintracht Frankfurt","Borussia Dortmund",2,0,31,1970,1971-05-15 09:30:00
-"2285","Rot-Weiss Essen","Kickers Offenbach",2,3,31,1970,1971-05-15 09:30:00
-"2286","Rot-Weiss Oberhausen","Schalke 04",4,1,31,1970,1971-05-15 09:30:00
-"2287","Bayern Muenchen","1. FC Koeln",7,0,31,1970,1971-05-15 09:30:00
-"2288","Arminia Bielefeld","Eintracht Braunschweig",0,1,31,1970,1971-05-15 09:30:00
-"2289","Hamburger SV","VfB Stuttgart",1,0,31,1970,1971-05-15 09:30:00
-"2290","Eintracht Frankfurt","Rot-Weiss Essen",3,2,32,1970,1971-05-22 09:30:00
-"2291","Borussia Dortmund","Borussia Moenchengladbach",3,4,32,1970,1971-05-22 09:30:00
-"2292","Hertha BSC Berlin","Hamburger SV",2,0,32,1970,1971-05-22 09:30:00
-"2293","VfB Stuttgart","Hannover 96",1,2,32,1970,1971-05-22 09:30:00
-"2294","MSV Duisburg","Arminia Bielefeld",4,1,32,1970,1971-05-22 09:30:00
-"2295","Eintracht Braunschweig","1. FC Kaiserslautern",2,0,32,1970,1971-05-22 09:30:00
-"2296","Werder Bremen","Bayern Muenchen",0,1,32,1970,1971-05-22 09:30:00
-"2297","1. FC Koeln","Rot-Weiss Oberhausen",2,4,32,1970,1971-05-22 09:30:00
-"2298","Schalke 04","Kickers Offenbach",1,2,32,1970,1971-05-22 09:30:00
-"2299","Schalke 04","1. FC Koeln",2,2,33,1970,1971-05-29 09:30:00
-"2300","Rot-Weiss Oberhausen","Werder Bremen",3,0,33,1970,1971-05-29 09:30:00
-"2301","Bayern Muenchen","Eintracht Braunschweig",4,1,33,1970,1971-05-29 09:30:00
-"2302","1. FC Kaiserslautern","MSV Duisburg",3,0,33,1970,1971-05-29 09:30:00
-"2303","Arminia Bielefeld","VfB Stuttgart",1,0,33,1970,1971-05-29 09:30:00
-"2304","Hannover 96","Hertha BSC Berlin",1,1,33,1970,1971-05-29 09:30:00
-"2305","Hamburger SV","Borussia Dortmund",2,1,33,1970,1971-05-29 09:30:00
-"2306","Borussia Moenchengladbach","Rot-Weiss Essen",4,3,33,1970,1971-05-29 09:30:00
-"2307","Kickers Offenbach","Eintracht Frankfurt",0,2,33,1970,1971-05-29 09:30:00
-"2308","Eintracht Frankfurt","Borussia Moenchengladbach",1,4,34,1970,1971-06-05 09:30:00
-"2309","Rot-Weiss Essen","Hamburger SV",1,3,34,1970,1971-06-05 09:30:00
-"2310","Borussia Dortmund","Hannover 96",2,2,34,1970,1971-06-05 09:30:00
-"2311","Hertha BSC Berlin","Arminia Bielefeld",0,1,34,1970,1971-06-05 09:30:00
-"2312","VfB Stuttgart","1. FC Kaiserslautern",2,0,34,1970,1971-06-05 09:30:00
-"2313","MSV Duisburg","Bayern Muenchen",2,0,34,1970,1971-06-05 09:30:00
-"2314","Eintracht Braunschweig","Rot-Weiss Oberhausen",1,1,34,1970,1971-06-05 09:30:00
-"2315","Werder Bremen","Schalke 04",0,1,34,1970,1971-06-05 09:30:00
-"2316","1. FC Koeln","Kickers Offenbach",4,2,34,1970,1971-06-05 09:30:00
-"2317","Hamburger SV","Eintracht Frankfurt",5,1,1,1971,1971-08-14 09:30:00
-"2318","MSV Duisburg","Borussia Dortmund",2,1,1,1971,1971-08-14 09:30:00
-"2319","Hannover 96","Schalke 04",1,5,1,1971,1971-08-14 09:30:00
-"2320","Bayern Muenchen","Fortuna Duesseldorf",3,1,1,1971,1971-08-14 09:30:00
-"2321","VfB Stuttgart","Hertha BSC Berlin",3,0,1,1971,1971-08-14 09:30:00
-"2322","VfL Bochum","Eintracht Braunschweig",1,0,1,1971,1971-08-14 09:30:00
-"2323","Arminia Bielefeld","Rot-Weiss Oberhausen",0,1,1,1971,1971-08-14 09:30:00
-"2324","1. FC Kaiserslautern","Borussia Moenchengladbach",1,0,1,1971,1971-08-14 09:30:00
-"2325","1. FC Koeln","Werder Bremen",0,0,1,1971,1971-08-14 09:30:00
-"2326","Borussia Dortmund","Hamburger SV",1,1,2,1971,1971-08-20 14:00:00
-"2327","Borussia Moenchengladbach","Arminia Bielefeld",5,1,2,1971,1971-08-21 09:30:00
-"2328","Rot-Weiss Oberhausen","VfL Bochum",2,3,2,1971,1971-08-21 09:30:00
-"2329","Eintracht Braunschweig","VfB Stuttgart",1,1,2,1971,1971-08-21 09:30:00
-"2330","Hertha BSC Berlin","Bayern Muenchen",2,2,2,1971,1971-08-21 09:30:00
-"2331","Fortuna Duesseldorf","Hannover 96",2,0,2,1971,1971-08-21 09:30:00
-"2332","Schalke 04","MSV Duisburg",2,0,2,1971,1971-08-21 09:30:00
-"2333","Eintracht Frankfurt","1. FC Koeln",2,2,2,1971,1971-08-21 09:30:00
-"2334","Werder Bremen","1. FC Kaiserslautern",2,2,2,1971,1971-08-21 09:30:00
-"2335","Hamburger SV","Schalke 04",0,1,3,1971,1971-08-28 09:30:00
-"2336","MSV Duisburg","Fortuna Duesseldorf",0,0,3,1971,1971-08-28 09:30:00
-"2337","Hannover 96","Hertha BSC Berlin",1,1,3,1971,1971-08-28 09:30:00
-"2338","Bayern Muenchen","Eintracht Braunschweig",4,1,3,1971,1971-08-28 09:30:00
-"2339","VfB Stuttgart","Rot-Weiss Oberhausen",1,1,3,1971,1971-08-28 09:30:00
-"2340","VfL Bochum","Borussia Moenchengladbach",0,2,3,1971,1971-08-28 09:30:00
-"2341","Arminia Bielefeld","1. FC Kaiserslautern",1,1,3,1971,1971-08-28 09:30:00
-"2342","Eintracht Frankfurt","Werder Bremen",4,0,3,1971,1971-08-28 09:30:00
-"2343","1. FC Koeln","Borussia Dortmund",2,1,3,1971,1971-08-28 09:30:00
-"2344","Borussia Moenchengladbach","VfB Stuttgart",0,0,4,1971,1971-08-31 14:00:00
-"2345","Rot-Weiss Oberhausen","Bayern Muenchen",1,1,4,1971,1971-08-31 14:00:00
-"2346","Borussia Dortmund","Eintracht Frankfurt",3,1,4,1971,1971-08-31 14:00:00
-"2347","1. FC Kaiserslautern","VfL Bochum",4,1,4,1971,1971-09-01 14:00:00
-"2348","Eintracht Braunschweig","Hannover 96",3,0,4,1971,1971-09-01 14:00:00
-"2349","Hertha BSC Berlin","MSV Duisburg",1,0,4,1971,1971-09-01 14:00:00
-"2350","Fortuna Duesseldorf","Hamburger SV",0,0,4,1971,1971-09-01 14:00:00
-"2351","Schalke 04","1. FC Koeln",6,2,4,1971,1971-09-01 14:00:00
-"2352","Werder Bremen","Arminia Bielefeld",4,0,4,1971,1971-09-01 14:00:00
-"2353","Bayern Muenchen","Borussia Moenchengladbach",2,0,5,1971,1971-09-03 14:00:00
-"2354","Hamburger SV","Hertha BSC Berlin",1,2,5,1971,1971-09-04 09:30:00
-"2355","MSV Duisburg","Eintracht Braunschweig",0,0,5,1971,1971-09-04 09:30:00
-"2356","Hannover 96","Rot-Weiss Oberhausen",1,0,5,1971,1971-09-04 09:30:00
-"2357","VfB Stuttgart","1. FC Kaiserslautern",3,1,5,1971,1971-09-04 09:30:00
-"2358","VfL Bochum","Arminia Bielefeld",2,1,5,1971,1971-09-04 09:30:00
-"2359","Borussia Dortmund","Werder Bremen",1,5,5,1971,1971-09-04 09:30:00
-"2360","Eintracht Frankfurt","Schalke 04",2,0,5,1971,1971-09-04 09:30:00
-"2361","1. FC Koeln","Fortuna Duesseldorf",1,2,5,1971,1971-09-04 09:30:00
-"2362","Arminia Bielefeld","VfB Stuttgart",1,0,6,1971,1971-09-11 09:30:00
-"2363","1. FC Kaiserslautern","Bayern Muenchen",0,2,6,1971,1971-09-11 09:30:00
-"2364","Borussia Moenchengladbach","Hannover 96",3,0,6,1971,1971-09-11 09:30:00
-"2365","Rot-Weiss Oberhausen","MSV Duisburg",0,1,6,1971,1971-09-11 09:30:00
-"2366","Eintracht Braunschweig","Hamburger SV",1,1,6,1971,1971-09-11 09:30:00
-"2367","Hertha BSC Berlin","1. FC Koeln",1,1,6,1971,1971-09-11 09:30:00
-"2368","Fortuna Duesseldorf","Eintracht Frankfurt",1,0,6,1971,1971-09-11 09:30:00
-"2369","Schalke 04","Borussia Dortmund",1,0,6,1971,1971-09-11 09:30:00
-"2370","Werder Bremen","VfL Bochum",2,0,6,1971,1971-09-11 09:30:00
-"2371","Hamburger SV","Rot-Weiss Oberhausen",3,0,7,1971,1971-09-18 09:30:00
-"2372","MSV Duisburg","Borussia Moenchengladbach",1,5,7,1971,1971-09-18 09:30:00
-"2373","Hannover 96","1. FC Kaiserslautern",1,2,7,1971,1971-09-18 09:30:00
-"2374","Bayern Muenchen","Arminia Bielefeld",1,1,7,1971,1971-09-18 09:30:00
-"2375","VfB Stuttgart","VfL Bochum",3,2,7,1971,1971-09-18 09:30:00
-"2376","Schalke 04","Werder Bremen",2,0,7,1971,1971-09-18 09:30:00
-"2377","Borussia Dortmund","Fortuna Duesseldorf",1,0,7,1971,1971-09-18 09:30:00
-"2378","Eintracht Frankfurt","Hertha BSC Berlin",1,1,7,1971,1971-09-18 09:30:00
-"2379","1. FC Koeln","Eintracht Braunschweig",2,0,7,1971,1971-09-18 09:30:00
-"2380","1. FC Kaiserslautern","MSV Duisburg",1,0,8,1971,1971-09-24 14:00:00
-"2381","Borussia Moenchengladbach","Hamburger SV",1,0,8,1971,1971-09-24 14:00:00
-"2382","VfL Bochum","Bayern Muenchen",0,2,8,1971,1971-09-25 09:30:00
-"2383","Arminia Bielefeld","Hannover 96",1,0,8,1971,1971-09-25 09:30:00
-"2384","Rot-Weiss Oberhausen","1. FC Koeln",1,1,8,1971,1971-09-25 09:30:00
-"2385","Eintracht Braunschweig","Eintracht Frankfurt",2,0,8,1971,1971-09-25 09:30:00
-"2386","Hertha BSC Berlin","Borussia Dortmund",2,1,8,1971,1971-09-25 09:30:00
-"2387","Fortuna Duesseldorf","Schalke 04",0,2,8,1971,1971-09-25 09:30:00
-"2388","Werder Bremen","VfB Stuttgart",2,3,8,1971,1971-09-25 09:30:00
-"2389","Hamburger SV","1. FC Kaiserslautern",4,0,9,1971,1971-10-02 09:30:00
-"2390","MSV Duisburg","Arminia Bielefeld",4,0,9,1971,1971-10-02 09:30:00
-"2391","Hannover 96","VfL Bochum",4,0,9,1971,1971-10-02 09:30:00
-"2392","Bayern Muenchen","VfB Stuttgart",2,2,9,1971,1971-10-02 09:30:00
-"2393","Fortuna Duesseldorf","Werder Bremen",1,3,9,1971,1971-10-02 09:30:00
-"2394","Schalke 04","Hertha BSC Berlin",4,0,9,1971,1971-10-02 09:30:00
-"2395","Borussia Dortmund","Eintracht Braunschweig",2,2,9,1971,1971-10-02 09:30:00
-"2396","Eintracht Frankfurt","Rot-Weiss Oberhausen",3,0,9,1971,1971-10-02 09:30:00
-"2397","1. FC Koeln","Borussia Moenchengladbach",4,3,9,1971,1971-10-02 09:30:00
-"2398","Rot-Weiss Oberhausen","Borussia Dortmund",1,1,10,1971,1971-10-12 14:00:00
-"2399","VfB Stuttgart","Hannover 96",3,2,10,1971,1971-10-13 14:00:00
-"2400","VfL Bochum","MSV Duisburg",3,1,10,1971,1971-10-13 14:00:00
-"2401","Arminia Bielefeld","Hamburger SV",2,2,10,1971,1971-10-13 14:00:00
-"2402","1. FC Kaiserslautern","1. FC Koeln",2,0,10,1971,1971-10-13 14:00:00
-"2403","Borussia Moenchengladbach","Eintracht Frankfurt",6,2,10,1971,1971-10-13 14:00:00
-"2404","Eintracht Braunschweig","Schalke 04",0,0,10,1971,1971-10-13 14:00:00
-"2405","Hertha BSC Berlin","Fortuna Duesseldorf",1,1,10,1971,1971-10-13 14:00:00
-"2406","Werder Bremen","Bayern Muenchen",1,2,10,1971,1971-10-13 14:00:00
-"2407","Hamburger SV","VfL Bochum",3,2,11,1971,1971-10-16 09:30:00
-"2408","MSV Duisburg","VfB Stuttgart",1,2,11,1971,1971-10-16 09:30:00
-"2409","Hannover 96","Bayern Muenchen",1,3,11,1971,1971-10-16 09:30:00
-"2410","Hertha BSC Berlin","Werder Bremen",2,1,11,1971,1971-10-16 09:30:00
-"2411","Fortuna Duesseldorf","Eintracht Braunschweig",0,0,11,1971,1971-10-16 09:30:00
-"2412","Schalke 04","Rot-Weiss Oberhausen",4,0,11,1971,1971-10-16 09:30:00
-"2413","Borussia Dortmund","Borussia Moenchengladbach",0,0,11,1971,1971-10-16 09:30:00
-"2414","Eintracht Frankfurt","1. FC Kaiserslautern",1,0,11,1971,1971-10-16 09:30:00
-"2415","1. FC Koeln","Arminia Bielefeld",1,0,11,1971,1971-10-16 09:30:00
-"2416","1. FC Kaiserslautern","Borussia Dortmund",6,0,12,1971,1971-10-22 14:00:00
-"2417","Bayern Muenchen","MSV Duisburg",5,1,12,1971,1971-10-23 09:30:00
-"2418","VfB Stuttgart","Hamburger SV",0,3,12,1971,1971-10-23 09:30:00
-"2419","VfL Bochum","1. FC Koeln",1,5,12,1971,1971-10-23 09:30:00
-"2420","Arminia Bielefeld","Eintracht Frankfurt",3,4,12,1971,1971-10-23 09:30:00
-"2421","Borussia Moenchengladbach","Schalke 04",7,0,12,1971,1971-10-23 09:30:00
-"2422","Rot-Weiss Oberhausen","Fortuna Duesseldorf",2,0,12,1971,1971-10-23 09:30:00
-"2423","Eintracht Braunschweig","Hertha BSC Berlin",1,1,12,1971,1971-10-23 09:30:00
-"2424","Werder Bremen","Hannover 96",2,1,12,1971,1971-10-23 09:30:00
-"2425","MSV Duisburg","Hannover 96",2,1,13,1971,1971-10-29 13:30:00
-"2426","Borussia Dortmund","Arminia Bielefeld",1,0,13,1971,1971-10-29 13:30:00
-"2427","Hamburger SV","Bayern Muenchen",1,4,13,1971,1971-10-30 09:30:00
-"2428","Eintracht Braunschweig","Werder Bremen",1,1,13,1971,1971-10-30 09:30:00
-"2429","Hertha BSC Berlin","Rot-Weiss Oberhausen",2,0,13,1971,1971-10-30 09:30:00
-"2430","Fortuna Duesseldorf","Borussia Moenchengladbach",0,2,13,1971,1971-10-30 09:30:00
-"2431","Schalke 04","1. FC Kaiserslautern",3,0,13,1971,1971-10-30 09:30:00
-"2432","Eintracht Frankfurt","VfL Bochum",3,2,13,1971,1971-10-30 09:30:00
-"2433","1. FC Koeln","VfB Stuttgart",4,1,13,1971,1971-10-30 09:30:00
+"2263","1. FC Kaiserslautern","Schalke 04",2,0,29,1970,1971-04-30 15:00:00
+"2264","Hannover 96","Werder Bremen",0,3,29,1970,1971-04-30 15:00:00
+"2265","Eintracht Frankfurt","VfB Stuttgart",1,0,29,1970,1971-05-01 10:30:00
+"2266","Rot-Weiss Essen","Hertha BSC Berlin",0,3,29,1970,1971-05-01 10:30:00
+"2267","Borussia Dortmund","Kickers Offenbach",1,1,29,1970,1971-05-01 10:30:00
+"2268","Bayern Muenchen","Rot-Weiss Oberhausen",4,2,29,1970,1971-05-01 10:30:00
+"2269","Arminia Bielefeld","1. FC Koeln",1,0,29,1970,1971-05-01 10:30:00
+"2270","Hamburger SV","Eintracht Braunschweig",2,1,29,1970,1971-05-01 10:30:00
+"2271","Borussia Moenchengladbach","MSV Duisburg",1,0,29,1970,1971-05-01 10:30:00
+"2272","MSV Duisburg","Hamburger SV",2,2,30,1970,1971-05-07 15:00:00
+"2273","Borussia Dortmund","Rot-Weiss Essen",7,2,30,1970,1971-05-08 10:30:00
+"2274","Hertha BSC Berlin","Eintracht Frankfurt",6,2,30,1970,1971-05-08 10:30:00
+"2275","VfB Stuttgart","Borussia Moenchengladbach",1,1,30,1970,1971-05-08 10:30:00
+"2276","Eintracht Braunschweig","Hannover 96",0,4,30,1970,1971-05-08 10:30:00
+"2277","Werder Bremen","Arminia Bielefeld",4,1,30,1970,1971-05-08 10:30:00
+"2278","1. FC Koeln","1. FC Kaiserslautern",1,2,30,1970,1971-05-08 10:30:00
+"2279","Schalke 04","Bayern Muenchen",1,3,30,1970,1971-05-08 10:30:00
+"2280","Kickers Offenbach","Rot-Weiss Oberhausen",3,2,30,1970,1971-05-08 10:30:00
+"2281","1. FC Kaiserslautern","Werder Bremen",2,1,31,1970,1971-05-14 15:00:00
+"2282","Hannover 96","MSV Duisburg",3,3,31,1970,1971-05-14 15:00:00
+"2283","Borussia Moenchengladbach","Hertha BSC Berlin",4,0,31,1970,1971-05-14 15:00:00
+"2284","Eintracht Frankfurt","Borussia Dortmund",2,0,31,1970,1971-05-15 10:30:00
+"2285","Rot-Weiss Essen","Kickers Offenbach",2,3,31,1970,1971-05-15 10:30:00
+"2286","Rot-Weiss Oberhausen","Schalke 04",4,1,31,1970,1971-05-15 10:30:00
+"2287","Bayern Muenchen","1. FC Koeln",7,0,31,1970,1971-05-15 10:30:00
+"2288","Arminia Bielefeld","Eintracht Braunschweig",0,1,31,1970,1971-05-15 10:30:00
+"2289","Hamburger SV","VfB Stuttgart",1,0,31,1970,1971-05-15 10:30:00
+"2290","Eintracht Frankfurt","Rot-Weiss Essen",3,2,32,1970,1971-05-22 10:30:00
+"2291","Borussia Dortmund","Borussia Moenchengladbach",3,4,32,1970,1971-05-22 10:30:00
+"2292","Hertha BSC Berlin","Hamburger SV",2,0,32,1970,1971-05-22 10:30:00
+"2293","VfB Stuttgart","Hannover 96",1,2,32,1970,1971-05-22 10:30:00
+"2294","MSV Duisburg","Arminia Bielefeld",4,1,32,1970,1971-05-22 10:30:00
+"2295","Eintracht Braunschweig","1. FC Kaiserslautern",2,0,32,1970,1971-05-22 10:30:00
+"2296","Werder Bremen","Bayern Muenchen",0,1,32,1970,1971-05-22 10:30:00
+"2297","1. FC Koeln","Rot-Weiss Oberhausen",2,4,32,1970,1971-05-22 10:30:00
+"2298","Schalke 04","Kickers Offenbach",1,2,32,1970,1971-05-22 10:30:00
+"2299","Schalke 04","1. FC Koeln",2,2,33,1970,1971-05-29 10:30:00
+"2300","Rot-Weiss Oberhausen","Werder Bremen",3,0,33,1970,1971-05-29 10:30:00
+"2301","Bayern Muenchen","Eintracht Braunschweig",4,1,33,1970,1971-05-29 10:30:00
+"2302","1. FC Kaiserslautern","MSV Duisburg",3,0,33,1970,1971-05-29 10:30:00
+"2303","Arminia Bielefeld","VfB Stuttgart",1,0,33,1970,1971-05-29 10:30:00
+"2304","Hannover 96","Hertha BSC Berlin",1,1,33,1970,1971-05-29 10:30:00
+"2305","Hamburger SV","Borussia Dortmund",2,1,33,1970,1971-05-29 10:30:00
+"2306","Borussia Moenchengladbach","Rot-Weiss Essen",4,3,33,1970,1971-05-29 10:30:00
+"2307","Kickers Offenbach","Eintracht Frankfurt",0,2,33,1970,1971-05-29 10:30:00
+"2308","Eintracht Frankfurt","Borussia Moenchengladbach",1,4,34,1970,1971-06-05 10:30:00
+"2309","Rot-Weiss Essen","Hamburger SV",1,3,34,1970,1971-06-05 10:30:00
+"2310","Borussia Dortmund","Hannover 96",2,2,34,1970,1971-06-05 10:30:00
+"2311","Hertha BSC Berlin","Arminia Bielefeld",0,1,34,1970,1971-06-05 10:30:00
+"2312","VfB Stuttgart","1. FC Kaiserslautern",2,0,34,1970,1971-06-05 10:30:00
+"2313","MSV Duisburg","Bayern Muenchen",2,0,34,1970,1971-06-05 10:30:00
+"2314","Eintracht Braunschweig","Rot-Weiss Oberhausen",1,1,34,1970,1971-06-05 10:30:00
+"2315","Werder Bremen","Schalke 04",0,1,34,1970,1971-06-05 10:30:00
+"2316","1. FC Koeln","Kickers Offenbach",4,2,34,1970,1971-06-05 10:30:00
+"2317","Hamburger SV","Eintracht Frankfurt",5,1,1,1971,1971-08-14 10:30:00
+"2318","MSV Duisburg","Borussia Dortmund",2,1,1,1971,1971-08-14 10:30:00
+"2319","Hannover 96","Schalke 04",1,5,1,1971,1971-08-14 10:30:00
+"2320","Bayern Muenchen","Fortuna Duesseldorf",3,1,1,1971,1971-08-14 10:30:00
+"2321","VfB Stuttgart","Hertha BSC Berlin",3,0,1,1971,1971-08-14 10:30:00
+"2322","VfL Bochum","Eintracht Braunschweig",1,0,1,1971,1971-08-14 10:30:00
+"2323","Arminia Bielefeld","Rot-Weiss Oberhausen",0,1,1,1971,1971-08-14 10:30:00
+"2324","1. FC Kaiserslautern","Borussia Moenchengladbach",1,0,1,1971,1971-08-14 10:30:00
+"2325","1. FC Koeln","Werder Bremen",0,0,1,1971,1971-08-14 10:30:00
+"2326","Borussia Dortmund","Hamburger SV",1,1,2,1971,1971-08-20 15:00:00
+"2327","Borussia Moenchengladbach","Arminia Bielefeld",5,1,2,1971,1971-08-21 10:30:00
+"2328","Rot-Weiss Oberhausen","VfL Bochum",2,3,2,1971,1971-08-21 10:30:00
+"2329","Eintracht Braunschweig","VfB Stuttgart",1,1,2,1971,1971-08-21 10:30:00
+"2330","Hertha BSC Berlin","Bayern Muenchen",2,2,2,1971,1971-08-21 10:30:00
+"2331","Fortuna Duesseldorf","Hannover 96",2,0,2,1971,1971-08-21 10:30:00
+"2332","Schalke 04","MSV Duisburg",2,0,2,1971,1971-08-21 10:30:00
+"2333","Eintracht Frankfurt","1. FC Koeln",2,2,2,1971,1971-08-21 10:30:00
+"2334","Werder Bremen","1. FC Kaiserslautern",2,2,2,1971,1971-08-21 10:30:00
+"2335","Hamburger SV","Schalke 04",0,1,3,1971,1971-08-28 10:30:00
+"2336","MSV Duisburg","Fortuna Duesseldorf",0,0,3,1971,1971-08-28 10:30:00
+"2337","Hannover 96","Hertha BSC Berlin",1,1,3,1971,1971-08-28 10:30:00
+"2338","Bayern Muenchen","Eintracht Braunschweig",4,1,3,1971,1971-08-28 10:30:00
+"2339","VfB Stuttgart","Rot-Weiss Oberhausen",1,1,3,1971,1971-08-28 10:30:00
+"2340","VfL Bochum","Borussia Moenchengladbach",0,2,3,1971,1971-08-28 10:30:00
+"2341","Arminia Bielefeld","1. FC Kaiserslautern",1,1,3,1971,1971-08-28 10:30:00
+"2342","Eintracht Frankfurt","Werder Bremen",4,0,3,1971,1971-08-28 10:30:00
+"2343","1. FC Koeln","Borussia Dortmund",2,1,3,1971,1971-08-28 10:30:00
+"2344","Borussia Moenchengladbach","VfB Stuttgart",0,0,4,1971,1971-08-31 15:00:00
+"2345","Rot-Weiss Oberhausen","Bayern Muenchen",1,1,4,1971,1971-08-31 15:00:00
+"2346","Borussia Dortmund","Eintracht Frankfurt",3,1,4,1971,1971-08-31 15:00:00
+"2347","1. FC Kaiserslautern","VfL Bochum",4,1,4,1971,1971-09-01 15:00:00
+"2348","Eintracht Braunschweig","Hannover 96",3,0,4,1971,1971-09-01 15:00:00
+"2349","Hertha BSC Berlin","MSV Duisburg",1,0,4,1971,1971-09-01 15:00:00
+"2350","Fortuna Duesseldorf","Hamburger SV",0,0,4,1971,1971-09-01 15:00:00
+"2351","Schalke 04","1. FC Koeln",6,2,4,1971,1971-09-01 15:00:00
+"2352","Werder Bremen","Arminia Bielefeld",4,0,4,1971,1971-09-01 15:00:00
+"2353","Bayern Muenchen","Borussia Moenchengladbach",2,0,5,1971,1971-09-03 15:00:00
+"2354","Hamburger SV","Hertha BSC Berlin",1,2,5,1971,1971-09-04 10:30:00
+"2355","MSV Duisburg","Eintracht Braunschweig",0,0,5,1971,1971-09-04 10:30:00
+"2356","Hannover 96","Rot-Weiss Oberhausen",1,0,5,1971,1971-09-04 10:30:00
+"2357","VfB Stuttgart","1. FC Kaiserslautern",3,1,5,1971,1971-09-04 10:30:00
+"2358","VfL Bochum","Arminia Bielefeld",2,1,5,1971,1971-09-04 10:30:00
+"2359","Borussia Dortmund","Werder Bremen",1,5,5,1971,1971-09-04 10:30:00
+"2360","Eintracht Frankfurt","Schalke 04",2,0,5,1971,1971-09-04 10:30:00
+"2361","1. FC Koeln","Fortuna Duesseldorf",1,2,5,1971,1971-09-04 10:30:00
+"2362","Arminia Bielefeld","VfB Stuttgart",1,0,6,1971,1971-09-11 10:30:00
+"2363","1. FC Kaiserslautern","Bayern Muenchen",0,2,6,1971,1971-09-11 10:30:00
+"2364","Borussia Moenchengladbach","Hannover 96",3,0,6,1971,1971-09-11 10:30:00
+"2365","Rot-Weiss Oberhausen","MSV Duisburg",0,1,6,1971,1971-09-11 10:30:00
+"2366","Eintracht Braunschweig","Hamburger SV",1,1,6,1971,1971-09-11 10:30:00
+"2367","Hertha BSC Berlin","1. FC Koeln",1,1,6,1971,1971-09-11 10:30:00
+"2368","Fortuna Duesseldorf","Eintracht Frankfurt",1,0,6,1971,1971-09-11 10:30:00
+"2369","Schalke 04","Borussia Dortmund",1,0,6,1971,1971-09-11 10:30:00
+"2370","Werder Bremen","VfL Bochum",2,0,6,1971,1971-09-11 10:30:00
+"2371","Hamburger SV","Rot-Weiss Oberhausen",3,0,7,1971,1971-09-18 10:30:00
+"2372","MSV Duisburg","Borussia Moenchengladbach",1,5,7,1971,1971-09-18 10:30:00
+"2373","Hannover 96","1. FC Kaiserslautern",1,2,7,1971,1971-09-18 10:30:00
+"2374","Bayern Muenchen","Arminia Bielefeld",1,1,7,1971,1971-09-18 10:30:00
+"2375","VfB Stuttgart","VfL Bochum",3,2,7,1971,1971-09-18 10:30:00
+"2376","Schalke 04","Werder Bremen",2,0,7,1971,1971-09-18 10:30:00
+"2377","Borussia Dortmund","Fortuna Duesseldorf",1,0,7,1971,1971-09-18 10:30:00
+"2378","Eintracht Frankfurt","Hertha BSC Berlin",1,1,7,1971,1971-09-18 10:30:00
+"2379","1. FC Koeln","Eintracht Braunschweig",2,0,7,1971,1971-09-18 10:30:00
+"2380","1. FC Kaiserslautern","MSV Duisburg",1,0,8,1971,1971-09-24 15:00:00
+"2381","Borussia Moenchengladbach","Hamburger SV",1,0,8,1971,1971-09-24 15:00:00
+"2382","VfL Bochum","Bayern Muenchen",0,2,8,1971,1971-09-25 10:30:00
+"2383","Arminia Bielefeld","Hannover 96",1,0,8,1971,1971-09-25 10:30:00
+"2384","Rot-Weiss Oberhausen","1. FC Koeln",1,1,8,1971,1971-09-25 10:30:00
+"2385","Eintracht Braunschweig","Eintracht Frankfurt",2,0,8,1971,1971-09-25 10:30:00
+"2386","Hertha BSC Berlin","Borussia Dortmund",2,1,8,1971,1971-09-25 10:30:00
+"2387","Fortuna Duesseldorf","Schalke 04",0,2,8,1971,1971-09-25 10:30:00
+"2388","Werder Bremen","VfB Stuttgart",2,3,8,1971,1971-09-25 10:30:00
+"2389","Hamburger SV","1. FC Kaiserslautern",4,0,9,1971,1971-10-02 10:30:00
+"2390","MSV Duisburg","Arminia Bielefeld",4,0,9,1971,1971-10-02 10:30:00
+"2391","Hannover 96","VfL Bochum",4,0,9,1971,1971-10-02 10:30:00
+"2392","Bayern Muenchen","VfB Stuttgart",2,2,9,1971,1971-10-02 10:30:00
+"2393","Fortuna Duesseldorf","Werder Bremen",1,3,9,1971,1971-10-02 10:30:00
+"2394","Schalke 04","Hertha BSC Berlin",4,0,9,1971,1971-10-02 10:30:00
+"2395","Borussia Dortmund","Eintracht Braunschweig",2,2,9,1971,1971-10-02 10:30:00
+"2396","Eintracht Frankfurt","Rot-Weiss Oberhausen",3,0,9,1971,1971-10-02 10:30:00
+"2397","1. FC Koeln","Borussia Moenchengladbach",4,3,9,1971,1971-10-02 10:30:00
+"2398","Rot-Weiss Oberhausen","Borussia Dortmund",1,1,10,1971,1971-10-12 15:00:00
+"2399","VfB Stuttgart","Hannover 96",3,2,10,1971,1971-10-13 15:00:00
+"2400","VfL Bochum","MSV Duisburg",3,1,10,1971,1971-10-13 15:00:00
+"2401","Arminia Bielefeld","Hamburger SV",2,2,10,1971,1971-10-13 15:00:00
+"2402","1. FC Kaiserslautern","1. FC Koeln",2,0,10,1971,1971-10-13 15:00:00
+"2403","Borussia Moenchengladbach","Eintracht Frankfurt",6,2,10,1971,1971-10-13 15:00:00
+"2404","Eintracht Braunschweig","Schalke 04",0,0,10,1971,1971-10-13 15:00:00
+"2405","Hertha BSC Berlin","Fortuna Duesseldorf",1,1,10,1971,1971-10-13 15:00:00
+"2406","Werder Bremen","Bayern Muenchen",1,2,10,1971,1971-10-13 15:00:00
+"2407","Hamburger SV","VfL Bochum",3,2,11,1971,1971-10-16 10:30:00
+"2408","MSV Duisburg","VfB Stuttgart",1,2,11,1971,1971-10-16 10:30:00
+"2409","Hannover 96","Bayern Muenchen",1,3,11,1971,1971-10-16 10:30:00
+"2410","Hertha BSC Berlin","Werder Bremen",2,1,11,1971,1971-10-16 10:30:00
+"2411","Fortuna Duesseldorf","Eintracht Braunschweig",0,0,11,1971,1971-10-16 10:30:00
+"2412","Schalke 04","Rot-Weiss Oberhausen",4,0,11,1971,1971-10-16 10:30:00
+"2413","Borussia Dortmund","Borussia Moenchengladbach",0,0,11,1971,1971-10-16 10:30:00
+"2414","Eintracht Frankfurt","1. FC Kaiserslautern",1,0,11,1971,1971-10-16 10:30:00
+"2415","1. FC Koeln","Arminia Bielefeld",1,0,11,1971,1971-10-16 10:30:00
+"2416","1. FC Kaiserslautern","Borussia Dortmund",6,0,12,1971,1971-10-22 15:00:00
+"2417","Bayern Muenchen","MSV Duisburg",5,1,12,1971,1971-10-23 10:30:00
+"2418","VfB Stuttgart","Hamburger SV",0,3,12,1971,1971-10-23 10:30:00
+"2419","VfL Bochum","1. FC Koeln",1,5,12,1971,1971-10-23 10:30:00
+"2420","Arminia Bielefeld","Eintracht Frankfurt",3,4,12,1971,1971-10-23 10:30:00
+"2421","Borussia Moenchengladbach","Schalke 04",7,0,12,1971,1971-10-23 10:30:00
+"2422","Rot-Weiss Oberhausen","Fortuna Duesseldorf",2,0,12,1971,1971-10-23 10:30:00
+"2423","Eintracht Braunschweig","Hertha BSC Berlin",1,1,12,1971,1971-10-23 10:30:00
+"2424","Werder Bremen","Hannover 96",2,1,12,1971,1971-10-23 10:30:00
+"2425","MSV Duisburg","Hannover 96",2,1,13,1971,1971-10-29 14:30:00
+"2426","Borussia Dortmund","Arminia Bielefeld",1,0,13,1971,1971-10-29 14:30:00
+"2427","Hamburger SV","Bayern Muenchen",1,4,13,1971,1971-10-30 10:30:00
+"2428","Eintracht Braunschweig","Werder Bremen",1,1,13,1971,1971-10-30 10:30:00
+"2429","Hertha BSC Berlin","Rot-Weiss Oberhausen",2,0,13,1971,1971-10-30 10:30:00
+"2430","Fortuna Duesseldorf","Borussia Moenchengladbach",0,2,13,1971,1971-10-30 10:30:00
+"2431","Schalke 04","1. FC Kaiserslautern",3,0,13,1971,1971-10-30 10:30:00
+"2432","Eintracht Frankfurt","VfL Bochum",3,2,13,1971,1971-10-30 10:30:00
+"2433","1. FC Koeln","VfB Stuttgart",4,1,13,1971,1971-10-30 10:30:00
 "2434","Arminia Bielefeld","Schalke 04",1,1,14,1971,1971-11-05 13:30:00
 "2435","Hannover 96","Hamburger SV",2,3,14,1971,1971-11-06 09:30:00
 "2436","Bayern Muenchen","1. FC Koeln",1,1,14,1971,1971-11-06 09:30:00
@@ -2576,132 +2576,132 @@
 "2575","Schalke 04","Borussia Moenchengladbach",1,1,29,1971,1972-04-22 09:30:00
 "2576","Eintracht Frankfurt","Arminia Bielefeld",5,2,29,1971,1972-04-22 09:30:00
 "2577","1. FC Koeln","VfL Bochum",1,1,29,1971,1972-04-22 09:30:00
-"2578","1. FC Kaiserslautern","Schalke 04",2,2,30,1971,1972-05-05 14:00:00
-"2579","Hannover 96","MSV Duisburg",3,2,30,1971,1972-05-06 09:30:00
-"2580","Bayern Muenchen","Hamburger SV",4,3,30,1971,1972-05-06 09:30:00
-"2581","VfB Stuttgart","1. FC Koeln",1,1,30,1971,1972-05-06 09:30:00
-"2582","VfL Bochum","Eintracht Frankfurt",3,1,30,1971,1972-05-06 09:30:00
-"2583","Arminia Bielefeld","Borussia Dortmund",3,1,30,1971,1972-05-06 09:30:00
-"2584","Borussia Moenchengladbach","Fortuna Duesseldorf",1,2,30,1971,1972-05-06 09:30:00
-"2585","Rot-Weiss Oberhausen","Hertha BSC Berlin",5,2,30,1971,1972-05-06 09:30:00
-"2586","Werder Bremen","Eintracht Braunschweig",2,4,30,1971,1972-05-06 09:30:00
-"2587","Eintracht Braunschweig","Rot-Weiss Oberhausen",0,0,31,1971,1972-05-19 14:00:00
-"2588","Borussia Dortmund","VfL Bochum",1,1,31,1971,1972-05-19 14:00:00
-"2589","Hamburger SV","Hannover 96",2,0,31,1971,1972-05-20 09:30:00
-"2590","MSV Duisburg","Werder Bremen",2,0,31,1971,1972-05-20 09:30:00
-"2591","Fortuna Duesseldorf","1. FC Kaiserslautern",0,3,31,1971,1972-05-20 09:30:00
-"2592","Schalke 04","Arminia Bielefeld",6,2,31,1971,1972-05-20 09:30:00
-"2593","Eintracht Frankfurt","VfB Stuttgart",4,1,31,1971,1972-05-20 09:30:00
-"2594","1. FC Koeln","Bayern Muenchen",1,4,31,1971,1972-05-20 09:30:00
-"2595","Hertha BSC Berlin","Borussia Moenchengladbach",2,1,31,1971,1972-05-20 14:00:00
-"2596","Hamburger SV","MSV Duisburg",2,0,32,1971,1972-06-03 09:30:00
-"2597","Hannover 96","1. FC Koeln",1,4,32,1971,1972-06-03 09:30:00
-"2598","Bayern Muenchen","Eintracht Frankfurt",6,3,32,1971,1972-06-03 09:30:00
-"2599","VfB Stuttgart","Borussia Dortmund",2,0,32,1971,1972-06-03 09:30:00
-"2600","VfL Bochum","Schalke 04",0,2,32,1971,1972-06-03 09:30:00
-"2601","Arminia Bielefeld","Fortuna Duesseldorf",1,3,32,1971,1972-06-03 09:30:00
-"2602","1. FC Kaiserslautern","Hertha BSC Berlin",3,4,32,1971,1972-06-03 09:30:00
-"2603","Borussia Moenchengladbach","Eintracht Braunschweig",4,1,32,1971,1972-06-03 09:30:00
-"2604","Rot-Weiss Oberhausen","Werder Bremen",2,2,32,1971,1972-06-03 09:30:00
-"2605","Rot-Weiss Oberhausen","Borussia Moenchengladbach",0,4,33,1971,1972-06-23 14:00:00
-"2606","1. FC Koeln","MSV Duisburg",4,1,33,1971,1972-06-23 14:00:00
-"2607","Eintracht Braunschweig","1. FC Kaiserslautern",1,1,33,1971,1972-06-24 14:00:00
-"2608","Hertha BSC Berlin","Arminia Bielefeld",1,1,33,1971,1972-06-24 14:00:00
-"2609","Fortuna Duesseldorf","VfL Bochum",3,1,33,1971,1972-06-24 14:00:00
-"2610","Schalke 04","VfB Stuttgart",2,1,33,1971,1972-06-24 14:00:00
-"2611","Borussia Dortmund","Bayern Muenchen",0,1,33,1971,1972-06-24 14:00:00
-"2612","Eintracht Frankfurt","Hannover 96",3,1,33,1971,1972-06-24 14:00:00
-"2613","Werder Bremen","Hamburger SV",4,0,33,1971,1972-06-24 14:00:00
-"2614","Hamburger SV","1. FC Koeln",1,1,34,1971,1972-06-28 09:30:00
-"2615","MSV Duisburg","Eintracht Frankfurt",0,1,34,1971,1972-06-28 09:30:00
-"2616","Hannover 96","Borussia Dortmund",2,3,34,1971,1972-06-28 09:30:00
-"2617","Bayern Muenchen","Schalke 04",5,1,34,1971,1972-06-28 09:30:00
-"2618","VfB Stuttgart","Fortuna Duesseldorf",3,1,34,1971,1972-06-28 09:30:00
-"2619","VfL Bochum","Hertha BSC Berlin",4,2,34,1971,1972-06-28 09:30:00
-"2620","Arminia Bielefeld","Eintracht Braunschweig",1,7,34,1971,1972-06-28 09:30:00
-"2621","1. FC Kaiserslautern","Rot-Weiss Oberhausen",0,0,34,1971,1972-06-28 09:30:00
-"2622","Borussia Moenchengladbach","Werder Bremen",2,2,34,1971,1972-06-28 09:30:00
-"2623","Borussia Moenchengladbach","MSV Duisburg",4,3,1,1972,1972-09-16 09:30:00
-"2624","Eintracht Frankfurt","Hamburger SV",2,1,1,1972,1972-09-16 09:30:00
-"2625","Schalke 04","Hannover 96",3,1,1,1972,1972-09-16 09:30:00
-"2626","Wuppertaler SV","1. FC Kaiserslautern",2,0,1,1972,1972-09-16 09:30:00
-"2627","Hertha BSC Berlin","Fortuna Duesseldorf",2,3,1,1972,1972-09-16 09:30:00
-"2628","Eintracht Braunschweig","VfL Bochum",0,2,1,1972,1972-09-16 09:30:00
-"2629","Werder Bremen","Kickers Offenbach",0,0,1,1972,1972-09-16 09:30:00
-"2630","Rot-Weiss Oberhausen","Bayern Muenchen",0,5,1,1972,1972-09-16 09:30:00
-"2631","VfB Stuttgart","1. FC Koeln",3,1,1,1972,1972-09-16 09:30:00
-"2632","Bayern Muenchen","Werder Bremen",2,1,2,1972,1972-09-20 14:00:00
-"2633","Kickers Offenbach","Eintracht Braunschweig",1,0,2,1972,1972-09-20 14:00:00
-"2634","VfL Bochum","Hertha BSC Berlin",2,1,2,1972,1972-09-20 14:00:00
-"2635","Fortuna Duesseldorf","Wuppertaler SV",2,1,2,1972,1972-09-20 14:00:00
-"2636","1. FC Kaiserslautern","Schalke 04",2,0,2,1972,1972-09-20 14:00:00
-"2637","Hannover 96","Eintracht Frankfurt",2,1,2,1972,1972-09-20 14:00:00
-"2638","Hamburger SV","Borussia Moenchengladbach",1,3,2,1972,1972-09-20 14:00:00
-"2639","MSV Duisburg","VfB Stuttgart",0,1,2,1972,1972-09-20 14:00:00
-"2640","1. FC Koeln","Rot-Weiss Oberhausen",3,1,2,1972,1972-09-20 14:00:00
-"2641","Borussia Moenchengladbach","Hannover 96",3,1,3,1972,1972-09-23 09:30:00
-"2642","Eintracht Frankfurt","1. FC Kaiserslautern",3,1,3,1972,1972-09-23 09:30:00
-"2643","Schalke 04","Fortuna Duesseldorf",3,1,3,1972,1972-09-23 09:30:00
-"2644","Wuppertaler SV","VfL Bochum",3,0,3,1972,1972-09-23 09:30:00
-"2645","Hertha BSC Berlin","Kickers Offenbach",2,5,3,1972,1972-09-23 09:30:00
-"2646","Eintracht Braunschweig","Bayern Muenchen",0,2,3,1972,1972-09-23 09:30:00
-"2647","Werder Bremen","Rot-Weiss Oberhausen",1,0,3,1972,1972-09-23 09:30:00
-"2648","MSV Duisburg","1. FC Koeln",1,1,3,1972,1972-09-23 09:30:00
-"2649","VfB Stuttgart","Hamburger SV",2,1,3,1972,1972-09-23 09:30:00
-"2650","Rot-Weiss Oberhausen","Eintracht Braunschweig",0,1,4,1972,1972-09-29 14:00:00
-"2651","Bayern Muenchen","Hertha BSC Berlin",4,0,4,1972,1972-09-30 09:30:00
-"2652","Kickers Offenbach","Wuppertaler SV",3,1,4,1972,1972-09-30 09:30:00
-"2653","VfL Bochum","Schalke 04",2,0,4,1972,1972-09-30 09:30:00
-"2654","Fortuna Duesseldorf","Eintracht Frankfurt",2,2,4,1972,1972-09-30 09:30:00
-"2655","1. FC Kaiserslautern","Borussia Moenchengladbach",3,1,4,1972,1972-09-30 09:30:00
-"2656","Hannover 96","VfB Stuttgart",3,1,4,1972,1972-09-30 09:30:00
-"2657","Hamburger SV","MSV Duisburg",1,2,4,1972,1972-09-30 09:30:00
-"2658","1. FC Koeln","Werder Bremen",1,0,4,1972,1972-09-30 09:30:00
-"2659","Eintracht Frankfurt","VfL Bochum",4,1,5,1972,1972-10-03 14:00:00
-"2660","Borussia Moenchengladbach","Fortuna Duesseldorf",2,3,5,1972,1972-10-04 14:00:00
-"2661","Schalke 04","Kickers Offenbach",6,1,5,1972,1972-10-04 14:00:00
-"2662","Wuppertaler SV","Bayern Muenchen",1,1,5,1972,1972-10-04 14:00:00
-"2663","Hertha BSC Berlin","Rot-Weiss Oberhausen",3,1,5,1972,1972-10-04 14:00:00
-"2664","Eintracht Braunschweig","Werder Bremen",1,0,5,1972,1972-10-04 14:00:00
-"2665","Hamburger SV","1. FC Koeln",0,0,5,1972,1972-10-04 14:00:00
-"2666","MSV Duisburg","Hannover 96",3,1,5,1972,1972-10-04 14:00:00
-"2667","VfB Stuttgart","1. FC Kaiserslautern",3,1,5,1972,1972-10-04 14:00:00
-"2668","Werder Bremen","Hertha BSC Berlin",1,1,6,1972,1972-10-07 09:30:00
-"2669","Rot-Weiss Oberhausen","Wuppertaler SV",2,1,6,1972,1972-10-07 09:30:00
-"2670","Bayern Muenchen","Schalke 04",5,0,6,1972,1972-10-07 09:30:00
-"2671","Kickers Offenbach","Eintracht Frankfurt",3,2,6,1972,1972-10-07 09:30:00
-"2672","VfL Bochum","Borussia Moenchengladbach",3,0,6,1972,1972-10-07 09:30:00
-"2673","Fortuna Duesseldorf","VfB Stuttgart",6,1,6,1972,1972-10-07 09:30:00
-"2674","1. FC Kaiserslautern","MSV Duisburg",0,0,6,1972,1972-10-07 09:30:00
-"2675","Hannover 96","Hamburger SV",3,2,6,1972,1972-10-07 09:30:00
-"2676","1. FC Koeln","Eintracht Braunschweig",4,3,6,1972,1972-10-07 09:30:00
-"2677","Borussia Moenchengladbach","Kickers Offenbach",3,2,7,1972,1972-10-14 09:30:00
-"2678","Eintracht Frankfurt","Bayern Muenchen",2,1,7,1972,1972-10-14 09:30:00
-"2679","Schalke 04","Rot-Weiss Oberhausen",3,0,7,1972,1972-10-14 09:30:00
-"2680","Wuppertaler SV","Werder Bremen",1,1,7,1972,1972-10-14 09:30:00
-"2681","Hertha BSC Berlin","Eintracht Braunschweig",3,0,7,1972,1972-10-14 09:30:00
-"2682","Hannover 96","1. FC Koeln",0,0,7,1972,1972-10-14 09:30:00
-"2683","Hamburger SV","1. FC Kaiserslautern",2,2,7,1972,1972-10-14 09:30:00
-"2684","MSV Duisburg","Fortuna Duesseldorf",0,0,7,1972,1972-10-14 09:30:00
-"2685","VfB Stuttgart","VfL Bochum",4,0,7,1972,1972-10-14 09:30:00
-"2686","Eintracht Braunschweig","Wuppertaler SV",0,1,8,1972,1972-10-21 09:30:00
-"2687","Werder Bremen","Schalke 04",2,0,8,1972,1972-10-21 09:30:00
-"2688","Rot-Weiss Oberhausen","Eintracht Frankfurt",1,0,8,1972,1972-10-21 09:30:00
-"2689","Bayern Muenchen","Borussia Moenchengladbach",3,0,8,1972,1972-10-21 09:30:00
-"2690","Kickers Offenbach","VfB Stuttgart",1,3,8,1972,1972-10-21 09:30:00
-"2691","VfL Bochum","MSV Duisburg",2,1,8,1972,1972-10-21 09:30:00
-"2692","Fortuna Duesseldorf","Hamburger SV",2,2,8,1972,1972-10-21 09:30:00
-"2693","1. FC Kaiserslautern","Hannover 96",2,1,8,1972,1972-10-21 09:30:00
-"2694","1. FC Koeln","Hertha BSC Berlin",4,0,8,1972,1972-10-21 09:30:00
-"2695","MSV Duisburg","Kickers Offenbach",4,0,9,1972,1972-10-27 13:30:00
-"2696","Borussia Moenchengladbach","Rot-Weiss Oberhausen",4,1,9,1972,1972-10-28 09:30:00
-"2697","Eintracht Frankfurt","Werder Bremen",2,2,9,1972,1972-10-28 09:30:00
-"2698","Schalke 04","Eintracht Braunschweig",0,1,9,1972,1972-10-28 09:30:00
-"2699","Wuppertaler SV","Hertha BSC Berlin",4,1,9,1972,1972-10-28 09:30:00
-"2700","1. FC Kaiserslautern","1. FC Koeln",2,1,9,1972,1972-10-28 09:30:00
-"2701","Hannover 96","Fortuna Duesseldorf",2,2,9,1972,1972-10-28 09:30:00
-"2702","Hamburger SV","VfL Bochum",2,1,9,1972,1972-10-28 09:30:00
-"2703","VfB Stuttgart","Bayern Muenchen",0,1,9,1972,1972-10-28 09:30:00
+"2578","1. FC Kaiserslautern","Schalke 04",2,2,30,1971,1972-05-05 15:00:00
+"2579","Hannover 96","MSV Duisburg",3,2,30,1971,1972-05-06 10:30:00
+"2580","Bayern Muenchen","Hamburger SV",4,3,30,1971,1972-05-06 10:30:00
+"2581","VfB Stuttgart","1. FC Koeln",1,1,30,1971,1972-05-06 10:30:00
+"2582","VfL Bochum","Eintracht Frankfurt",3,1,30,1971,1972-05-06 10:30:00
+"2583","Arminia Bielefeld","Borussia Dortmund",3,1,30,1971,1972-05-06 10:30:00
+"2584","Borussia Moenchengladbach","Fortuna Duesseldorf",1,2,30,1971,1972-05-06 10:30:00
+"2585","Rot-Weiss Oberhausen","Hertha BSC Berlin",5,2,30,1971,1972-05-06 10:30:00
+"2586","Werder Bremen","Eintracht Braunschweig",2,4,30,1971,1972-05-06 10:30:00
+"2587","Eintracht Braunschweig","Rot-Weiss Oberhausen",0,0,31,1971,1972-05-19 15:00:00
+"2588","Borussia Dortmund","VfL Bochum",1,1,31,1971,1972-05-19 15:00:00
+"2589","Hamburger SV","Hannover 96",2,0,31,1971,1972-05-20 10:30:00
+"2590","MSV Duisburg","Werder Bremen",2,0,31,1971,1972-05-20 10:30:00
+"2591","Fortuna Duesseldorf","1. FC Kaiserslautern",0,3,31,1971,1972-05-20 10:30:00
+"2592","Schalke 04","Arminia Bielefeld",6,2,31,1971,1972-05-20 10:30:00
+"2593","Eintracht Frankfurt","VfB Stuttgart",4,1,31,1971,1972-05-20 10:30:00
+"2594","1. FC Koeln","Bayern Muenchen",1,4,31,1971,1972-05-20 10:30:00
+"2595","Hertha BSC Berlin","Borussia Moenchengladbach",2,1,31,1971,1972-05-20 15:00:00
+"2596","Hamburger SV","MSV Duisburg",2,0,32,1971,1972-06-03 10:30:00
+"2597","Hannover 96","1. FC Koeln",1,4,32,1971,1972-06-03 10:30:00
+"2598","Bayern Muenchen","Eintracht Frankfurt",6,3,32,1971,1972-06-03 10:30:00
+"2599","VfB Stuttgart","Borussia Dortmund",2,0,32,1971,1972-06-03 10:30:00
+"2600","VfL Bochum","Schalke 04",0,2,32,1971,1972-06-03 10:30:00
+"2601","Arminia Bielefeld","Fortuna Duesseldorf",1,3,32,1971,1972-06-03 10:30:00
+"2602","1. FC Kaiserslautern","Hertha BSC Berlin",3,4,32,1971,1972-06-03 10:30:00
+"2603","Borussia Moenchengladbach","Eintracht Braunschweig",4,1,32,1971,1972-06-03 10:30:00
+"2604","Rot-Weiss Oberhausen","Werder Bremen",2,2,32,1971,1972-06-03 10:30:00
+"2605","Rot-Weiss Oberhausen","Borussia Moenchengladbach",0,4,33,1971,1972-06-23 15:00:00
+"2606","1. FC Koeln","MSV Duisburg",4,1,33,1971,1972-06-23 15:00:00
+"2607","Eintracht Braunschweig","1. FC Kaiserslautern",1,1,33,1971,1972-06-24 15:00:00
+"2608","Hertha BSC Berlin","Arminia Bielefeld",1,1,33,1971,1972-06-24 15:00:00
+"2609","Fortuna Duesseldorf","VfL Bochum",3,1,33,1971,1972-06-24 15:00:00
+"2610","Schalke 04","VfB Stuttgart",2,1,33,1971,1972-06-24 15:00:00
+"2611","Borussia Dortmund","Bayern Muenchen",0,1,33,1971,1972-06-24 15:00:00
+"2612","Eintracht Frankfurt","Hannover 96",3,1,33,1971,1972-06-24 15:00:00
+"2613","Werder Bremen","Hamburger SV",4,0,33,1971,1972-06-24 15:00:00
+"2614","Hamburger SV","1. FC Koeln",1,1,34,1971,1972-06-28 10:30:00
+"2615","MSV Duisburg","Eintracht Frankfurt",0,1,34,1971,1972-06-28 10:30:00
+"2616","Hannover 96","Borussia Dortmund",2,3,34,1971,1972-06-28 10:30:00
+"2617","Bayern Muenchen","Schalke 04",5,1,34,1971,1972-06-28 10:30:00
+"2618","VfB Stuttgart","Fortuna Duesseldorf",3,1,34,1971,1972-06-28 10:30:00
+"2619","VfL Bochum","Hertha BSC Berlin",4,2,34,1971,1972-06-28 10:30:00
+"2620","Arminia Bielefeld","Eintracht Braunschweig",1,7,34,1971,1972-06-28 10:30:00
+"2621","1. FC Kaiserslautern","Rot-Weiss Oberhausen",0,0,34,1971,1972-06-28 10:30:00
+"2622","Borussia Moenchengladbach","Werder Bremen",2,2,34,1971,1972-06-28 10:30:00
+"2623","Borussia Moenchengladbach","MSV Duisburg",4,3,1,1972,1972-09-16 10:30:00
+"2624","Eintracht Frankfurt","Hamburger SV",2,1,1,1972,1972-09-16 10:30:00
+"2625","Schalke 04","Hannover 96",3,1,1,1972,1972-09-16 10:30:00
+"2626","Wuppertaler SV","1. FC Kaiserslautern",2,0,1,1972,1972-09-16 10:30:00
+"2627","Hertha BSC Berlin","Fortuna Duesseldorf",2,3,1,1972,1972-09-16 10:30:00
+"2628","Eintracht Braunschweig","VfL Bochum",0,2,1,1972,1972-09-16 10:30:00
+"2629","Werder Bremen","Kickers Offenbach",0,0,1,1972,1972-09-16 10:30:00
+"2630","Rot-Weiss Oberhausen","Bayern Muenchen",0,5,1,1972,1972-09-16 10:30:00
+"2631","VfB Stuttgart","1. FC Koeln",3,1,1,1972,1972-09-16 10:30:00
+"2632","Bayern Muenchen","Werder Bremen",2,1,2,1972,1972-09-20 15:00:00
+"2633","Kickers Offenbach","Eintracht Braunschweig",1,0,2,1972,1972-09-20 15:00:00
+"2634","VfL Bochum","Hertha BSC Berlin",2,1,2,1972,1972-09-20 15:00:00
+"2635","Fortuna Duesseldorf","Wuppertaler SV",2,1,2,1972,1972-09-20 15:00:00
+"2636","1. FC Kaiserslautern","Schalke 04",2,0,2,1972,1972-09-20 15:00:00
+"2637","Hannover 96","Eintracht Frankfurt",2,1,2,1972,1972-09-20 15:00:00
+"2638","Hamburger SV","Borussia Moenchengladbach",1,3,2,1972,1972-09-20 15:00:00
+"2639","MSV Duisburg","VfB Stuttgart",0,1,2,1972,1972-09-20 15:00:00
+"2640","1. FC Koeln","Rot-Weiss Oberhausen",3,1,2,1972,1972-09-20 15:00:00
+"2641","Borussia Moenchengladbach","Hannover 96",3,1,3,1972,1972-09-23 10:30:00
+"2642","Eintracht Frankfurt","1. FC Kaiserslautern",3,1,3,1972,1972-09-23 10:30:00
+"2643","Schalke 04","Fortuna Duesseldorf",3,1,3,1972,1972-09-23 10:30:00
+"2644","Wuppertaler SV","VfL Bochum",3,0,3,1972,1972-09-23 10:30:00
+"2645","Hertha BSC Berlin","Kickers Offenbach",2,5,3,1972,1972-09-23 10:30:00
+"2646","Eintracht Braunschweig","Bayern Muenchen",0,2,3,1972,1972-09-23 10:30:00
+"2647","Werder Bremen","Rot-Weiss Oberhausen",1,0,3,1972,1972-09-23 10:30:00
+"2648","MSV Duisburg","1. FC Koeln",1,1,3,1972,1972-09-23 10:30:00
+"2649","VfB Stuttgart","Hamburger SV",2,1,3,1972,1972-09-23 10:30:00
+"2650","Rot-Weiss Oberhausen","Eintracht Braunschweig",0,1,4,1972,1972-09-29 15:00:00
+"2651","Bayern Muenchen","Hertha BSC Berlin",4,0,4,1972,1972-09-30 10:30:00
+"2652","Kickers Offenbach","Wuppertaler SV",3,1,4,1972,1972-09-30 10:30:00
+"2653","VfL Bochum","Schalke 04",2,0,4,1972,1972-09-30 10:30:00
+"2654","Fortuna Duesseldorf","Eintracht Frankfurt",2,2,4,1972,1972-09-30 10:30:00
+"2655","1. FC Kaiserslautern","Borussia Moenchengladbach",3,1,4,1972,1972-09-30 10:30:00
+"2656","Hannover 96","VfB Stuttgart",3,1,4,1972,1972-09-30 10:30:00
+"2657","Hamburger SV","MSV Duisburg",1,2,4,1972,1972-09-30 10:30:00
+"2658","1. FC Koeln","Werder Bremen",1,0,4,1972,1972-09-30 10:30:00
+"2659","Eintracht Frankfurt","VfL Bochum",4,1,5,1972,1972-10-03 15:00:00
+"2660","Borussia Moenchengladbach","Fortuna Duesseldorf",2,3,5,1972,1972-10-04 15:00:00
+"2661","Schalke 04","Kickers Offenbach",6,1,5,1972,1972-10-04 15:00:00
+"2662","Wuppertaler SV","Bayern Muenchen",1,1,5,1972,1972-10-04 15:00:00
+"2663","Hertha BSC Berlin","Rot-Weiss Oberhausen",3,1,5,1972,1972-10-04 15:00:00
+"2664","Eintracht Braunschweig","Werder Bremen",1,0,5,1972,1972-10-04 15:00:00
+"2665","Hamburger SV","1. FC Koeln",0,0,5,1972,1972-10-04 15:00:00
+"2666","MSV Duisburg","Hannover 96",3,1,5,1972,1972-10-04 15:00:00
+"2667","VfB Stuttgart","1. FC Kaiserslautern",3,1,5,1972,1972-10-04 15:00:00
+"2668","Werder Bremen","Hertha BSC Berlin",1,1,6,1972,1972-10-07 10:30:00
+"2669","Rot-Weiss Oberhausen","Wuppertaler SV",2,1,6,1972,1972-10-07 10:30:00
+"2670","Bayern Muenchen","Schalke 04",5,0,6,1972,1972-10-07 10:30:00
+"2671","Kickers Offenbach","Eintracht Frankfurt",3,2,6,1972,1972-10-07 10:30:00
+"2672","VfL Bochum","Borussia Moenchengladbach",3,0,6,1972,1972-10-07 10:30:00
+"2673","Fortuna Duesseldorf","VfB Stuttgart",6,1,6,1972,1972-10-07 10:30:00
+"2674","1. FC Kaiserslautern","MSV Duisburg",0,0,6,1972,1972-10-07 10:30:00
+"2675","Hannover 96","Hamburger SV",3,2,6,1972,1972-10-07 10:30:00
+"2676","1. FC Koeln","Eintracht Braunschweig",4,3,6,1972,1972-10-07 10:30:00
+"2677","Borussia Moenchengladbach","Kickers Offenbach",3,2,7,1972,1972-10-14 10:30:00
+"2678","Eintracht Frankfurt","Bayern Muenchen",2,1,7,1972,1972-10-14 10:30:00
+"2679","Schalke 04","Rot-Weiss Oberhausen",3,0,7,1972,1972-10-14 10:30:00
+"2680","Wuppertaler SV","Werder Bremen",1,1,7,1972,1972-10-14 10:30:00
+"2681","Hertha BSC Berlin","Eintracht Braunschweig",3,0,7,1972,1972-10-14 10:30:00
+"2682","Hannover 96","1. FC Koeln",0,0,7,1972,1972-10-14 10:30:00
+"2683","Hamburger SV","1. FC Kaiserslautern",2,2,7,1972,1972-10-14 10:30:00
+"2684","MSV Duisburg","Fortuna Duesseldorf",0,0,7,1972,1972-10-14 10:30:00
+"2685","VfB Stuttgart","VfL Bochum",4,0,7,1972,1972-10-14 10:30:00
+"2686","Eintracht Braunschweig","Wuppertaler SV",0,1,8,1972,1972-10-21 10:30:00
+"2687","Werder Bremen","Schalke 04",2,0,8,1972,1972-10-21 10:30:00
+"2688","Rot-Weiss Oberhausen","Eintracht Frankfurt",1,0,8,1972,1972-10-21 10:30:00
+"2689","Bayern Muenchen","Borussia Moenchengladbach",3,0,8,1972,1972-10-21 10:30:00
+"2690","Kickers Offenbach","VfB Stuttgart",1,3,8,1972,1972-10-21 10:30:00
+"2691","VfL Bochum","MSV Duisburg",2,1,8,1972,1972-10-21 10:30:00
+"2692","Fortuna Duesseldorf","Hamburger SV",2,2,8,1972,1972-10-21 10:30:00
+"2693","1. FC Kaiserslautern","Hannover 96",2,1,8,1972,1972-10-21 10:30:00
+"2694","1. FC Koeln","Hertha BSC Berlin",4,0,8,1972,1972-10-21 10:30:00
+"2695","MSV Duisburg","Kickers Offenbach",4,0,9,1972,1972-10-27 14:30:00
+"2696","Borussia Moenchengladbach","Rot-Weiss Oberhausen",4,1,9,1972,1972-10-28 10:30:00
+"2697","Eintracht Frankfurt","Werder Bremen",2,2,9,1972,1972-10-28 10:30:00
+"2698","Schalke 04","Eintracht Braunschweig",0,1,9,1972,1972-10-28 10:30:00
+"2699","Wuppertaler SV","Hertha BSC Berlin",4,1,9,1972,1972-10-28 10:30:00
+"2700","1. FC Kaiserslautern","1. FC Koeln",2,1,9,1972,1972-10-28 10:30:00
+"2701","Hannover 96","Fortuna Duesseldorf",2,2,9,1972,1972-10-28 10:30:00
+"2702","Hamburger SV","VfL Bochum",2,1,9,1972,1972-10-28 10:30:00
+"2703","VfB Stuttgart","Bayern Muenchen",0,1,9,1972,1972-10-28 10:30:00
 "2704","Rot-Weiss Oberhausen","VfB Stuttgart",2,2,10,1972,1972-10-31 14:00:00
 "2705","Kickers Offenbach","Hamburger SV",2,1,10,1972,1972-10-31 14:00:00
 "2706","Fortuna Duesseldorf","1. FC Kaiserslautern",2,1,10,1972,1972-10-31 14:00:00
@@ -3422,69 +3422,69 @@
 "3421","Hertha BSC Berlin","Hamburger SV",1,0,21,1974,1975-02-22 09:30:00
 "3422","Eintracht Frankfurt","Tennis Borussia Berlin",7,1,21,1974,1975-02-22 09:30:00
 "3423","Borussia Moenchengladbach","1. FC Kaiserslautern",3,0,21,1974,1975-02-22 09:30:00
-"3424","Hamburger SV","Tennis Borussia Berlin",4,0,22,1974,1975-02-28 14:00:00
-"3425","Hertha BSC Berlin","VfB Stuttgart",4,0,22,1974,1975-03-01 09:30:00
-"3426","Kickers Offenbach","1. FC Koeln",1,4,22,1974,1975-03-01 09:30:00
-"3427","Bayern Muenchen","Wuppertaler SV",3,1,22,1974,1975-03-01 09:30:00
-"3428","Fortuna Duesseldorf","Schalke 04",2,1,22,1974,1975-03-01 09:30:00
-"3429","VfL Bochum","Eintracht Braunschweig",1,0,22,1974,1975-03-01 09:30:00
-"3430","Rot-Weiss Essen","Werder Bremen",1,1,22,1974,1975-03-01 09:30:00
-"3431","MSV Duisburg","Borussia Moenchengladbach",1,1,22,1974,1975-03-01 09:30:00
-"3432","1. FC Kaiserslautern","Eintracht Frankfurt",2,2,22,1974,1975-03-01 09:30:00
-"3433","Wuppertaler SV","Kickers Offenbach",0,0,23,1974,1975-03-07 09:30:00
-"3434","Eintracht Frankfurt","MSV Duisburg",4,1,23,1974,1975-03-07 14:00:00
-"3435","Werder Bremen","VfL Bochum",3,0,23,1974,1975-03-08 09:30:00
-"3436","Eintracht Braunschweig","Fortuna Duesseldorf",3,0,23,1974,1975-03-08 09:30:00
-"3437","Schalke 04","Bayern Muenchen",2,2,23,1974,1975-03-08 09:30:00
-"3438","1. FC Koeln","Hertha BSC Berlin",2,1,23,1974,1975-03-08 09:30:00
-"3439","VfB Stuttgart","Hamburger SV",1,2,23,1974,1975-03-08 09:30:00
-"3440","Tennis Borussia Berlin","1. FC Kaiserslautern",3,2,23,1974,1975-03-08 09:30:00
-"3441","Borussia Moenchengladbach","Rot-Weiss Essen",1,1,23,1974,1975-03-08 09:30:00
-"3442","MSV Duisburg","Tennis Borussia Berlin",2,3,24,1974,1975-03-21 14:00:00
-"3443","VfB Stuttgart","1. FC Koeln",2,0,24,1974,1975-03-22 09:30:00
-"3444","Hertha BSC Berlin","Wuppertaler SV",2,0,24,1974,1975-03-22 09:30:00
-"3445","Kickers Offenbach","Schalke 04",3,0,24,1974,1975-03-22 09:30:00
-"3446","Bayern Muenchen","Eintracht Braunschweig",1,0,24,1974,1975-03-22 09:30:00
-"3447","Fortuna Duesseldorf","Werder Bremen",4,1,24,1974,1975-03-22 09:30:00
-"3448","VfL Bochum","Borussia Moenchengladbach",0,0,24,1974,1975-03-22 09:30:00
-"3449","Rot-Weiss Essen","Eintracht Frankfurt",0,5,24,1974,1975-03-22 09:30:00
-"3450","Hamburger SV","1. FC Kaiserslautern",2,0,24,1974,1975-03-22 09:30:00
-"3451","1. FC Koeln","Hamburger SV",4,0,25,1974,1975-03-26 14:00:00
-"3452","Borussia Moenchengladbach","Fortuna Duesseldorf",3,1,25,1974,1975-03-26 14:00:00
-"3453","Werder Bremen","Bayern Muenchen",0,2,25,1974,1975-03-27 14:00:00
-"3454","Schalke 04","Hertha BSC Berlin",1,0,25,1974,1975-03-27 14:00:00
-"3455","1. FC Kaiserslautern","MSV Duisburg",2,0,25,1974,1975-03-27 14:00:00
-"3456","Tennis Borussia Berlin","Rot-Weiss Essen",1,0,25,1974,1975-03-27 14:00:00
-"3457","Eintracht Braunschweig","Kickers Offenbach",1,0,25,1974,1975-04-12 09:30:00
-"3458","Wuppertaler SV","VfB Stuttgart",2,2,25,1974,1975-04-12 09:30:00
-"3459","Eintracht Frankfurt","VfL Bochum",4,1,25,1974,1975-04-22 14:00:00
-"3460","1. FC Koeln","Wuppertaler SV",4,0,26,1974,1975-04-01 14:00:00
-"3461","VfB Stuttgart","Schalke 04",3,1,26,1974,1975-04-01 14:00:00
-"3462","Hertha BSC Berlin","Eintracht Braunschweig",3,1,26,1974,1975-04-01 14:00:00
-"3463","Kickers Offenbach","Werder Bremen",5,1,26,1974,1975-04-01 14:00:00
-"3464","Fortuna Duesseldorf","Eintracht Frankfurt",2,2,26,1974,1975-04-01 14:00:00
-"3465","VfL Bochum","Tennis Borussia Berlin",0,0,26,1974,1975-04-01 14:00:00
-"3466","Rot-Weiss Essen","1. FC Kaiserslautern",3,1,26,1974,1975-04-01 14:00:00
-"3467","Hamburger SV","MSV Duisburg",2,3,26,1974,1975-04-02 14:00:00
-"3468","Bayern Muenchen","Borussia Moenchengladbach",1,1,26,1974,1975-04-13 09:30:00
-"3469","Werder Bremen","Hertha BSC Berlin",4,0,27,1974,1975-04-05 09:30:00
-"3470","Eintracht Braunschweig","VfB Stuttgart",6,0,27,1974,1975-04-05 09:30:00
-"3471","Wuppertaler SV","Hamburger SV",0,4,27,1974,1975-04-05 09:30:00
-"3472","MSV Duisburg","Rot-Weiss Essen",3,3,27,1974,1975-04-05 09:30:00
-"3473","1. FC Kaiserslautern","VfL Bochum",1,0,27,1974,1975-04-05 09:30:00
-"3474","Tennis Borussia Berlin","Fortuna Duesseldorf",1,4,27,1974,1975-04-05 09:30:00
-"3475","Eintracht Frankfurt","Bayern Muenchen",2,0,27,1974,1975-04-05 09:30:00
-"3476","Borussia Moenchengladbach","Kickers Offenbach",5,2,27,1974,1975-04-05 09:30:00
-"3477","Schalke 04","1. FC Koeln",1,1,27,1974,1975-04-15 14:00:00
-"3478","Fortuna Duesseldorf","1. FC Kaiserslautern",2,0,28,1974,1975-04-18 14:00:00
-"3479","Wuppertaler SV","Schalke 04",0,1,28,1974,1975-04-19 09:30:00
-"3480","1. FC Koeln","Eintracht Braunschweig",3,0,28,1974,1975-04-19 09:30:00
-"3481","VfB Stuttgart","Werder Bremen",2,2,28,1974,1975-04-19 09:30:00
-"3482","Hertha BSC Berlin","Borussia Moenchengladbach",2,1,28,1974,1975-04-19 09:30:00
-"3483","Kickers Offenbach","Eintracht Frankfurt",2,1,28,1974,1975-04-19 09:30:00
-"3484","Bayern Muenchen","Tennis Borussia Berlin",3,1,28,1974,1975-04-19 09:30:00
-"3485","VfL Bochum","MSV Duisburg",1,2,28,1974,1975-04-19 09:30:00
-"3486","Hamburger SV","Rot-Weiss Essen",2,2,28,1974,1975-04-19 09:30:00
+"3424","Hamburger SV","Tennis Borussia Berlin",4,0,22,1974,1975-02-28 15:00:00
+"3425","Hertha BSC Berlin","VfB Stuttgart",4,0,22,1974,1975-03-01 10:30:00
+"3426","Kickers Offenbach","1. FC Koeln",1,4,22,1974,1975-03-01 10:30:00
+"3427","Bayern Muenchen","Wuppertaler SV",3,1,22,1974,1975-03-01 10:30:00
+"3428","Fortuna Duesseldorf","Schalke 04",2,1,22,1974,1975-03-01 10:30:00
+"3429","VfL Bochum","Eintracht Braunschweig",1,0,22,1974,1975-03-01 10:30:00
+"3430","Rot-Weiss Essen","Werder Bremen",1,1,22,1974,1975-03-01 10:30:00
+"3431","MSV Duisburg","Borussia Moenchengladbach",1,1,22,1974,1975-03-01 10:30:00
+"3432","1. FC Kaiserslautern","Eintracht Frankfurt",2,2,22,1974,1975-03-01 10:30:00
+"3433","Wuppertaler SV","Kickers Offenbach",0,0,23,1974,1975-03-07 10:30:00
+"3434","Eintracht Frankfurt","MSV Duisburg",4,1,23,1974,1975-03-07 15:00:00
+"3435","Werder Bremen","VfL Bochum",3,0,23,1974,1975-03-08 10:30:00
+"3436","Eintracht Braunschweig","Fortuna Duesseldorf",3,0,23,1974,1975-03-08 10:30:00
+"3437","Schalke 04","Bayern Muenchen",2,2,23,1974,1975-03-08 10:30:00
+"3438","1. FC Koeln","Hertha BSC Berlin",2,1,23,1974,1975-03-08 10:30:00
+"3439","VfB Stuttgart","Hamburger SV",1,2,23,1974,1975-03-08 10:30:00
+"3440","Tennis Borussia Berlin","1. FC Kaiserslautern",3,2,23,1974,1975-03-08 10:30:00
+"3441","Borussia Moenchengladbach","Rot-Weiss Essen",1,1,23,1974,1975-03-08 10:30:00
+"3442","MSV Duisburg","Tennis Borussia Berlin",2,3,24,1974,1975-03-21 15:00:00
+"3443","VfB Stuttgart","1. FC Koeln",2,0,24,1974,1975-03-22 10:30:00
+"3444","Hertha BSC Berlin","Wuppertaler SV",2,0,24,1974,1975-03-22 10:30:00
+"3445","Kickers Offenbach","Schalke 04",3,0,24,1974,1975-03-22 10:30:00
+"3446","Bayern Muenchen","Eintracht Braunschweig",1,0,24,1974,1975-03-22 10:30:00
+"3447","Fortuna Duesseldorf","Werder Bremen",4,1,24,1974,1975-03-22 10:30:00
+"3448","VfL Bochum","Borussia Moenchengladbach",0,0,24,1974,1975-03-22 10:30:00
+"3449","Rot-Weiss Essen","Eintracht Frankfurt",0,5,24,1974,1975-03-22 10:30:00
+"3450","Hamburger SV","1. FC Kaiserslautern",2,0,24,1974,1975-03-22 10:30:00
+"3451","1. FC Koeln","Hamburger SV",4,0,25,1974,1975-03-26 15:00:00
+"3452","Borussia Moenchengladbach","Fortuna Duesseldorf",3,1,25,1974,1975-03-26 15:00:00
+"3453","Werder Bremen","Bayern Muenchen",0,2,25,1974,1975-03-27 15:00:00
+"3454","Schalke 04","Hertha BSC Berlin",1,0,25,1974,1975-03-27 15:00:00
+"3455","1. FC Kaiserslautern","MSV Duisburg",2,0,25,1974,1975-03-27 15:00:00
+"3456","Tennis Borussia Berlin","Rot-Weiss Essen",1,0,25,1974,1975-03-27 15:00:00
+"3457","Eintracht Braunschweig","Kickers Offenbach",1,0,25,1974,1975-04-12 10:30:00
+"3458","Wuppertaler SV","VfB Stuttgart",2,2,25,1974,1975-04-12 10:30:00
+"3459","Eintracht Frankfurt","VfL Bochum",4,1,25,1974,1975-04-22 15:00:00
+"3460","1. FC Koeln","Wuppertaler SV",4,0,26,1974,1975-04-01 15:00:00
+"3461","VfB Stuttgart","Schalke 04",3,1,26,1974,1975-04-01 15:00:00
+"3462","Hertha BSC Berlin","Eintracht Braunschweig",3,1,26,1974,1975-04-01 15:00:00
+"3463","Kickers Offenbach","Werder Bremen",5,1,26,1974,1975-04-01 15:00:00
+"3464","Fortuna Duesseldorf","Eintracht Frankfurt",2,2,26,1974,1975-04-01 15:00:00
+"3465","VfL Bochum","Tennis Borussia Berlin",0,0,26,1974,1975-04-01 15:00:00
+"3466","Rot-Weiss Essen","1. FC Kaiserslautern",3,1,26,1974,1975-04-01 15:00:00
+"3467","Hamburger SV","MSV Duisburg",2,3,26,1974,1975-04-02 15:00:00
+"3468","Bayern Muenchen","Borussia Moenchengladbach",1,1,26,1974,1975-04-13 10:30:00
+"3469","Werder Bremen","Hertha BSC Berlin",4,0,27,1974,1975-04-05 10:30:00
+"3470","Eintracht Braunschweig","VfB Stuttgart",6,0,27,1974,1975-04-05 10:30:00
+"3471","Wuppertaler SV","Hamburger SV",0,4,27,1974,1975-04-05 10:30:00
+"3472","MSV Duisburg","Rot-Weiss Essen",3,3,27,1974,1975-04-05 10:30:00
+"3473","1. FC Kaiserslautern","VfL Bochum",1,0,27,1974,1975-04-05 10:30:00
+"3474","Tennis Borussia Berlin","Fortuna Duesseldorf",1,4,27,1974,1975-04-05 10:30:00
+"3475","Eintracht Frankfurt","Bayern Muenchen",2,0,27,1974,1975-04-05 10:30:00
+"3476","Borussia Moenchengladbach","Kickers Offenbach",5,2,27,1974,1975-04-05 10:30:00
+"3477","Schalke 04","1. FC Koeln",1,1,27,1974,1975-04-15 15:00:00
+"3478","Fortuna Duesseldorf","1. FC Kaiserslautern",2,0,28,1974,1975-04-18 15:00:00
+"3479","Wuppertaler SV","Schalke 04",0,1,28,1974,1975-04-19 10:30:00
+"3480","1. FC Koeln","Eintracht Braunschweig",3,0,28,1974,1975-04-19 10:30:00
+"3481","VfB Stuttgart","Werder Bremen",2,2,28,1974,1975-04-19 10:30:00
+"3482","Hertha BSC Berlin","Borussia Moenchengladbach",2,1,28,1974,1975-04-19 10:30:00
+"3483","Kickers Offenbach","Eintracht Frankfurt",2,1,28,1974,1975-04-19 10:30:00
+"3484","Bayern Muenchen","Tennis Borussia Berlin",3,1,28,1974,1975-04-19 10:30:00
+"3485","VfL Bochum","MSV Duisburg",1,2,28,1974,1975-04-19 10:30:00
+"3486","Hamburger SV","Rot-Weiss Essen",2,2,28,1974,1975-04-19 10:30:00
 "3487","Werder Bremen","1. FC Koeln",4,1,29,1974,1975-05-03 10:30:00
 "3488","Eintracht Braunschweig","Wuppertaler SV",1,1,29,1974,1975-05-03 10:30:00
 "3489","Schalke 04","Hamburger SV",3,1,29,1974,1975-05-03 10:30:00

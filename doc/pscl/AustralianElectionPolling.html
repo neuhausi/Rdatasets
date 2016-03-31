@@ -1,10 +1,9 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
-<html><head><title>R: Political opinion polls in Australia, 2004-07</title>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<link rel="stylesheet" type="text/css" href="R.css">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Political opinion polls in Australia, 2004-07</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
 </head><body>
 
-<table width="100%" summary="page for AustralianElectionPolling"><tr><td>AustralianElectionPolling</td><td align="right">R Documentation</td></tr></table>
+<table width="100%" summary="page for AustralianElectionPolling"><tr><td>AustralianElectionPolling</td><td style="text-align: right;">R Documentation</td></tr></table>
 
 <h2>
 Political opinion polls in Australia, 2004-07
@@ -79,7 +78,7 @@ Political opinion polls in Australia, 2004-07
 
 <h3>References</h3>
 
-<p>Jackman, Simon. 2009.  <EM>Bayesian Analysis for the Social Sciences</EM>.  Wiley: Hoboken, New Jersey.  Example 9.3.
+<p>Jackman, Simon. 2009.  <em>Bayesian Analysis for the Social Sciences</em>.  Wiley: Hoboken, New Jersey.  Example 9.3.
 </p>
 
 
@@ -87,7 +86,7 @@ Political opinion polls in Australia, 2004-07
 
 <pre>
 data(AustralianElectionPolling)
-xyplot(ALP ~ startDate | org, 
+lattice::xyplot(ALP ~ startDate | org, 
        data=AustralianElectionPolling,
        layout=c(1,5),
        type="b",
@@ -95,11 +94,10 @@ xyplot(ALP ~ startDate | org,
        ylab="ALP")
 
 ## test for house effects
-library(gam)
 y &lt;- AustralianElectionPolling$ALP/100
 v &lt;- y*(1-y)/AustralianElectionPolling$sampleSize
 w &lt;- 1/v
-m1 &lt;- gam(y ~ lo(startDate,span=1/10),
+m1 &lt;- mgcv::gam(y ~ s(as.numeric(startDate)),
           weight=w,	      
           data=AustralianElectionPolling)
 m2 &lt;- update(m1, ~ . + org)
