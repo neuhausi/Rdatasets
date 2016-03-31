@@ -61,6 +61,10 @@ sub process_data {
   }
   close FILE;
 
+  open( FILE, ">datasets.json" );
+  print FILE JSON->new->pretty->allow_nonref->encode($sets);
+  close FILE;
+
   foreach $lib ( keys %$sets ) {
     foreach $ds ( keys %{ $sets->{$lib} } ) {
       if ($dataset) {
