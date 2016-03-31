@@ -1,0 +1,84 @@
+{
+   "info" : "<table width=\"100%\" summary=\"page for pilot\"><tr><td>pilot</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\\n<h2>Pilot-Plant Data</h2>\\n<h3>Description</h3>\\n<p>Pilot-Plant data from Daniel and Wood (1971). The response variable\\ncorresponds to the acid content determined by titration and the\\nexplanatory variable is the organic acid content determined by\\nextraction and weighing. This data set was analyzed also by Yale and\\nForsythe (1976).\\n</p>\\n<h3>Usage</h3>\\n<pre>data(pilot)</pre>\\n<h3>Format</h3>\\n<p>A data frame with 20 observations on the following 2 variables.\\n</p>\\n<dl>\\n<dt><code>X</code></dt><dd><p>Organic acid content - extraction</p>\\n</dd>\\n<dt><code>Y</code></dt><dd><p>Acid content - titration </p>\\n</dd>\\n</dl>\\n<h3>Source</h3>\\n<p>P. J. Rousseeuw and A. M. Leroy (1987)\\n<em>Robust Regression and Outlier Detection</em>;\\nWiley, page 21, table 1.\\n</p>\\n<h3>Examples</h3>\\n<pre>\\ndata(pilot)\\nsummary(lm.pilot &lt;- lm(Y ~.,data=pilot))\\n</pre>\\n",
+   "data" : {
+      "y" : {
+         "smps" : [
+            "Smp1",
+            "Smp2",
+            "Smp3",
+            "Smp4",
+            "Smp5",
+            "Smp6",
+            "Smp7",
+            "Smp8",
+            "Smp9",
+            "Smp10",
+            "Smp11",
+            "Smp12",
+            "Smp13",
+            "Smp14",
+            "Smp15",
+            "Smp16",
+            "Smp17",
+            "Smp18",
+            "Smp19",
+            "Smp20"
+         ],
+         "vars" : [
+            "X",
+            "Y"
+         ],
+         "data" : [
+            [
+               123,
+               109,
+               62,
+               104,
+               57,
+               37,
+               44,
+               100,
+               16,
+               28,
+               138,
+               105,
+               159,
+               75,
+               88,
+               164,
+               169,
+               167,
+               149,
+               167
+            ],
+            [
+               76,
+               70,
+               55,
+               71,
+               55,
+               48,
+               50,
+               66,
+               41,
+               43,
+               82,
+               68,
+               88,
+               58,
+               64,
+               88,
+               89,
+               88,
+               84,
+               88
+            ]
+         ]
+      }
+   },
+   "config" : {
+      "graphType" : "Scatter2D",
+      "subtitle" : "robustbase - pilot",
+      "title" : "Pilot-Plant Data"
+   }
+}

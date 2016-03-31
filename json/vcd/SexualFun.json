@@ -1,0 +1,51 @@
+{
+   "info" : "<table width=\"100%\" summary=\"page for SexualFun\"><tr><td>SexualFun</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\\n<h2>Sex is Fun</h2>\\n<h3>Description</h3>\\n<p>Data from Hout et al. (1987) given by Agresti (1990) summarizing the\\nresponses of married couples to the questionnaire item: Sex is fun for\\nme and my partner: (a) never or occasionally, (b) fairly often, (c)\\nvery often, (d) almost always.\\n</p>\\n<h3>Usage</h3>\\n<pre>\\ndata(\"SexualFun\")\\n</pre>\\n<h3>Format</h3>\\n<p>A 2-dimensional array resulting from cross-tabulating the ratings of\\n91 married couples.  The variables and their levels are as follows:\\n</p>\\n<table summary=\"Rd table\">\\n<tr>\\n <td style=\"text-align: right;\">\\n    No </td><td style=\"text-align: left;\"> Name </td><td style=\"text-align: left;\"> Levels </td>\\n</tr>\\n<tr>\\n <td style=\"text-align: right;\">\\n    1 </td><td style=\"text-align: left;\"> Husband </td><td style=\"text-align: left;\"> Never Fun, Fairly Often, Very Often, Always Fun </td>\\n</tr>\\n<tr>\\n <td style=\"text-align: right;\">\\n    2 </td><td style=\"text-align: left;\"> Wife </td><td style=\"text-align: left;\"> Never Fun, Fairly Often, Very Often, Always Fun\\n  </td>\\n</tr>\\n</table>\\n<h3>Source</h3>\\n<p>M. Friendly (2000),\\nVisualizing Categorical Data, page 91.\\n</p>\\n<h3>References</h3>\\n<p>A. Agresti (1990),\\n<em>Categorical Data Analysis</em>.\\nWiley-Interscience, New York.\\n</p>\\n<p>M. Hout, O. D. Duncan, M. E. Sobel (1987),\\nAssociation and heterogeneity: Structural models of similarities and\\ndifferences,\\n<em>Sociological Methodology</em>, <b>17</b>, 145-184.\\n</p>\\n<p>M. Friendly (2000),\\n<em>Visualizing Categorical Data</em>.\\nSAS Institute, Cary, NC.\\n</p>\\n<h3>Examples</h3>\\n<pre>\\ndata(\"SexualFun\")\\n## Kappa statistics\\nKappa(SexualFun)\\n## Agreement Chart\\nagreementplot(t(SexualFun), weights = 1)\\n## Partial Agreement Chart and B-Statistics\\nagreementplot(t(SexualFun),\\n              xlab = \"Husband's Rating\",\\n              ylab = \"Wife's Rating\",\\n              main = \"Husband's and Wife's Sexual Fun\")\\n</pre>\\n",
+   "data" : {
+      "y" : {
+         "smps" : [
+            "Smp1",
+            "Smp2",
+            "Smp3",
+            "Smp4"
+         ],
+         "vars" : [
+            "Never Fun",
+            "Fairly Often",
+            "Very Often",
+            "Always fun"
+         ],
+         "data" : [
+            [
+               7,
+               2,
+               1,
+               2
+            ],
+            [
+               7,
+               8,
+               5,
+               8
+            ],
+            [
+               2,
+               3,
+               4,
+               9
+            ],
+            [
+               3,
+               7,
+               9,
+               14
+            ]
+         ]
+      }
+   },
+   "config" : {
+      "graphType" : "Scatter2D",
+      "subtitle" : "vcd - SexualFun",
+      "scatterPlotMatrix" : 1,
+      "title" : "Sex is Fun"
+   }
+}

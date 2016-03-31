@@ -1,0 +1,64 @@
+{
+   "info" : "<table width=\"100%\" summary=\"page for UKSoccer\"><tr><td>UKSoccer</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\\n<h2>UK Soccer Scores</h2>\\n<h3>Description</h3>\\n<p>Data from Lee (1997), on the goals scored by Home and Away teams in\\nthe Premier Football League, 1995/6 season.\\n</p>\\n<h3>Usage</h3>\\n<pre>\\ndata(\"UKSoccer\")\\n</pre>\\n<h3>Format</h3>\\n<p>A 2-dimensional array resulting from cross-tabulating the number of\\ngoals scored in 380 games.  The variables and their levels are as\\nfollows:\\n</p>\\n<table summary=\"Rd table\">\\n<tr>\\n <td style=\"text-align: right;\">\\n    No </td><td style=\"text-align: left;\"> Name </td><td style=\"text-align: left;\"> Levels </td>\\n</tr>\\n<tr>\\n <td style=\"text-align: right;\">\\n    1 </td><td style=\"text-align: left;\"> Home </td><td style=\"text-align: left;\"> 0, 1, ..., 4 </td>\\n</tr>\\n<tr>\\n <td style=\"text-align: right;\">\\n    2 </td><td style=\"text-align: left;\"> Away </td><td style=\"text-align: left;\"> 0, 1, ..., 4\\n  </td>\\n</tr>\\n</table>\\n<h3>Source</h3>\\n<p>M. Friendly (2000),\\nVisualizing Categorical Data, page 27.\\n</p>\\n<h3>References</h3>\\n<p>A. J. Lee (1997),\\nModelling scores in the Premier League: Is Manchester United really\\nthe best?,\\n<em>Chance</em>, <b>10</b>(1), 15&ndash;19.\\n</p>\\n<p>M. Friendly (2000),\\n<em>Visualizing Categorical Data</em>.\\nSAS Institute, Cary, NC.\\n</p>\\n<h3>See Also</h3>\\n<p><code>Bundesliga</code>\\n</p>\\n<h3>Examples</h3>\\n<pre>\\ndata(\"UKSoccer\")\\nmosaic(UKSoccer, gp = shading_max, main = \"UK Soccer Scores\")\\n</pre>\\n",
+   "data" : {
+      "y" : {
+         "smps" : [
+            "Smp1",
+            "Smp2",
+            "Smp3",
+            "Smp4",
+            "Smp5"
+         ],
+         "vars" : [
+            "0",
+            "1",
+            "2",
+            "3",
+            "4"
+         ],
+         "data" : [
+            [
+               27,
+               59,
+               28,
+               19,
+               7
+            ],
+            [
+               29,
+               53,
+               32,
+               14,
+               8
+            ],
+            [
+               10,
+               14,
+               14,
+               7,
+               10
+            ],
+            [
+               8,
+               12,
+               12,
+               4,
+               2
+            ],
+            [
+               2,
+               4,
+               4,
+               1,
+               0
+            ]
+         ]
+      }
+   },
+   "config" : {
+      "graphType" : "Scatter2D",
+      "subtitle" : "vcd - UKSoccer",
+      "scatterPlotMatrix" : 1,
+      "title" : "UK Soccer Scores"
+   }
+}

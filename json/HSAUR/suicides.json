@@ -1,0 +1,30 @@
+{
+   "info" : "<table width=\"100%\" summary=\"page for suicides\"><tr><td>suicides</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\\n<h2> Crowd Baiting Behaviour and Suicides </h2>\\n<h3>Description</h3>\\n<p>Data from a study carried out to investigate the\\ncauses of jeering or baiting behaviour by a crowd when a person\\nis threatening to commit suicide by jumping from a high building.\\n</p>\\n<h3>Usage</h3>\\n<pre>data(\"suicides\")</pre>\\n<h3>Format</h3>\\n<p>A two-way classification, see <code>table</code>.\\n</p>\\n<h3>Source</h3>\\n<p>L. Mann (1981), The baiting crowd in episodes of threatened suicide.\\n<em>Journal of Personality and Social Psychology</em>, <b>41</b>,  703&ndash;709.\\n</p>\\n<h3>Examples</h3>\\n<pre>\\n  data(\"suicides\", package = \"HSAUR\")\\n  mosaicplot(suicides)\\n</pre>\\n",
+   "data" : {
+      "y" : {
+         "vars" : [
+            "Baiting",
+            "Nonbaiting"
+         ],
+         "smps" : [
+            "Smp1",
+            "Smp2"
+         ],
+         "data" : [
+            [
+               8,
+               2
+            ],
+            [
+               4,
+               7
+            ]
+         ]
+      }
+   },
+   "config" : {
+      "graphType" : "Scatter2D",
+      "subtitle" : "HSAUR - suicides",
+      "title" : "Crowd Baiting Behaviour and Suicides"
+   }
+}

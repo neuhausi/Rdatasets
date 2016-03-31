@@ -1,0 +1,96 @@
+{
+   "info" : "<table width=\"100%\" summary=\"page for airmiles\"><tr><td>airmiles</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\\n<h2>Passenger Miles on Commercial US Airlines, 1937&ndash;1960</h2>\\n<h3>Description</h3>\\n<p>The revenue passenger miles flown by commercial airlines in\\nthe United States for each year from 1937 to 1960.\\n</p>\\n<h3>Usage</h3>\\n<pre>airmiles</pre>\\n<h3>Format</h3>\\n<p>A time series of 24 observations; yearly, 1937&ndash;1960.\\n</p>\\n<h3>Source</h3>\\n<p>F.A.A. Statistical Handbook of Aviation.</p>\\n<h3>References</h3>\\n<p>Brown, R. G. (1963)\\n<em>Smoothing, Forecasting and Prediction of Discrete Time Series</em>.\\nPrentice-Hall.\\n</p>\\n<h3>Examples</h3>\\n<pre>\\nrequire(graphics)\\nplot(airmiles, main = \"airmiles data\",\\n     xlab = \"Passenger-miles flown by U.S. commercial airlines\", col = 4)\\n</pre>\\n",
+   "data" : {
+      "y" : {
+         "vars" : [
+            "time",
+            "airmiles"
+         ],
+         "smps" : [
+            "Smp1",
+            "Smp2",
+            "Smp3",
+            "Smp4",
+            "Smp5",
+            "Smp6",
+            "Smp7",
+            "Smp8",
+            "Smp9",
+            "Smp10",
+            "Smp11",
+            "Smp12",
+            "Smp13",
+            "Smp14",
+            "Smp15",
+            "Smp16",
+            "Smp17",
+            "Smp18",
+            "Smp19",
+            "Smp20",
+            "Smp21",
+            "Smp22",
+            "Smp23",
+            "Smp24"
+         ],
+         "data" : [
+            [
+               1937,
+               1938,
+               1939,
+               1940,
+               1941,
+               1942,
+               1943,
+               1944,
+               1945,
+               1946,
+               1947,
+               1948,
+               1949,
+               1950,
+               1951,
+               1952,
+               1953,
+               1954,
+               1955,
+               1956,
+               1957,
+               1958,
+               1959,
+               1960
+            ],
+            [
+               412,
+               480,
+               683,
+               1052,
+               1385,
+               1418,
+               1634,
+               2178,
+               3362,
+               5948,
+               6109,
+               5981,
+               6753,
+               8003,
+               10566,
+               12528,
+               14760,
+               16769,
+               19819,
+               22362,
+               25340,
+               25343,
+               29269,
+               30514
+            ]
+         ]
+      }
+   },
+   "config" : {
+      "graphType" : "Scatter2D",
+      "subtitle" : "datasets - airmiles",
+      "title" : "Passenger Miles on Commercial US Airlines"
+   }
+}

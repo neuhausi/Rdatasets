@@ -1,0 +1,75 @@
+{
+   "info" : "<table width=\"100%\" summary=\"page for forbes\"><tr><td>forbes</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\\n<h2>\\nForbes' Data on Boiling Points in the Alps\\n</h2>\\n<h3>Description</h3>\\n<p>A data frame with 17 observations on boiling point\\nof water and barometric pressure in inches of mercury.\\n</p>\\n<h3>Usage</h3>\\n<pre>\\nforbes\\n</pre>\\n<h3>Format</h3>\\n<dl>\\n<dt><code>bp</code></dt><dd>\\n<p>boiling point (degrees Farenheit).\\n</p>\\n</dd>\\n<dt><code>pres</code></dt><dd>\\n<p>barometric pressure in inches of mercury.\\n</p>\\n</dd>\\n</dl>\\n<h3>Source</h3>\\n<p>A. C. Atkinson (1985) <em>Plots, Transformations and Regression.</em> Oxford.\\n</p>\\n<p>S. Weisberg (1980) <em>Applied Linear Regression.</em> Wiley.\\n</p>\\n",
+   "data" : {
+      "y" : {
+         "vars" : [
+            "bp",
+            "pres"
+         ],
+         "smps" : [
+            "Smp1",
+            "Smp2",
+            "Smp3",
+            "Smp4",
+            "Smp5",
+            "Smp6",
+            "Smp7",
+            "Smp8",
+            "Smp9",
+            "Smp10",
+            "Smp11",
+            "Smp12",
+            "Smp13",
+            "Smp14",
+            "Smp15",
+            "Smp16",
+            "Smp17"
+         ],
+         "data" : [
+            [
+               194.5,
+               194.3,
+               197.9,
+               198.4,
+               199.4,
+               199.9,
+               200.9,
+               201.1,
+               201.4,
+               201.3,
+               203.6,
+               204.6,
+               209.5,
+               208.6,
+               210.7,
+               211.9,
+               212.2
+            ],
+            [
+               20.79,
+               20.79,
+               22.4,
+               22.67,
+               23.15,
+               23.35,
+               23.89,
+               23.99,
+               24.02,
+               24.01,
+               25.14,
+               26.57,
+               28.49,
+               27.76,
+               29.04,
+               29.88,
+               30.06
+            ]
+         ]
+      }
+   },
+   "config" : {
+      "graphType" : "Scatter2D",
+      "subtitle" : "MASS - forbes",
+      "title" : "Forbes' Data on Boiling Points in the Alps"
+   }
+}

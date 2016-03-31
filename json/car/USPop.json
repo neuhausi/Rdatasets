@@ -1,0 +1,90 @@
+{
+   "info" : "<table width=\"100%\" summary=\"page for USPop\"><tr><td>USPop</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\\n<h2>Population of the United States</h2>\\n<h3>Description</h3>\\n<p>The <code>USPop</code> data frame has 22 rows and 1 columns.\\nThis is a decennial time-series, from 1790 to 2000.\\n</p>\\n<h3>Usage</h3>\\n<pre>\\nUSPop\\n</pre>\\n<h3>Format</h3>\\n<p>This data frame contains the following columns:\\n</p>\\n<dl>\\n<dt>year</dt><dd>\\n<p>census year.\\n</p>\\n</dd>\\n<dt>population</dt><dd>\\n<p>Population in millions.\\n</p>\\n</dd>\\n</dl>\\n<h3>Source</h3>\\n<p>U.S.~Census Bureau: <a href=\"http://www.census-charts.com/Population/pop-us-1790-2000.html\">http://www.census-charts.com/Population/pop-us-1790-2000.html</a>, downloaded 1 May 2008.\\n</p>\\n<h3>References</h3>\\n<p>Fox, J. (2008)\\n<em>Applied Regression Analysis and Generalized Linear Models</em>,\\nSecond Edition. Sage.  \\n</p>\\n",
+   "data" : {
+      "y" : {
+         "vars" : [
+            "year",
+            "population"
+         ],
+         "smps" : [
+            "Smp1",
+            "Smp2",
+            "Smp3",
+            "Smp4",
+            "Smp5",
+            "Smp6",
+            "Smp7",
+            "Smp8",
+            "Smp9",
+            "Smp10",
+            "Smp11",
+            "Smp12",
+            "Smp13",
+            "Smp14",
+            "Smp15",
+            "Smp16",
+            "Smp17",
+            "Smp18",
+            "Smp19",
+            "Smp20",
+            "Smp21",
+            "Smp22"
+         ],
+         "data" : [
+            [
+               1790,
+               1800,
+               1810,
+               1820,
+               1830,
+               1840,
+               1850,
+               1860,
+               1870,
+               1880,
+               1890,
+               1900,
+               1910,
+               1920,
+               1930,
+               1940,
+               1950,
+               1960,
+               1970,
+               1980,
+               1990,
+               2000
+            ],
+            [
+               3.929214,
+               5.308483,
+               7.239881,
+               9.638453,
+               12.860702,
+               17.063353,
+               23.191876,
+               31.443321,
+               38.558371,
+               50.189209,
+               62.979766,
+               76.212168,
+               92.228496,
+               106.021537,
+               123.202624,
+               132.164569,
+               151.325798,
+               179.323175,
+               203.302031,
+               226.542199,
+               248.709873,
+               281.421906
+            ]
+         ]
+      }
+   },
+   "config" : {
+      "graphType" : "Scatter2D",
+      "subtitle" : "car - USPop",
+      "title" : "Population of the United States"
+   }
+}

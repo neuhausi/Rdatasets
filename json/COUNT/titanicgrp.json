@@ -1,0 +1,105 @@
+{
+   "info" : "<table width=\"100%\" summary=\"page for titanicgrp\"><tr><td>titanicgrp</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\\n<h2>titanicgrp</h2>\\n<h3>Description</h3>\\n<p>The data is an grouped version of the 1912 Titanic passenger survival \\nlog, \\n</p>\\n<h3>Usage</h3>\\n<pre>data(titanicgrp)</pre>\\n<h3>Format</h3>\\n<p>A data frame with 12 observations on the following 5 variables.\\n</p>\\n<dl>\\n<dt><code>survive</code></dt><dd><p>number of passengers who survived</p>\\n</dd>\\n<dt><code>cases</code></dt><dd><p>number of passengers with same pattern of covariates</p>\\n</dd>\\n<dt><code>age</code></dt><dd><p>1=adult; 0=child</p>\\n</dd>\\n<dt><code>sex</code></dt><dd><p>1=Male; 0=female</p>\\n</dd>\\n<dt><code>class</code></dt><dd><p>ticket class 1= 1st class; 2= second class; 3= third class</p>\\n</dd>\\n</dl>\\n<h3>Details</h3>\\n<p>titanicgrp is saved as a data frame.\\nUsed to assess risk ratios   \\n</p>\\n<h3>Source</h3>\\n<p>Found in many other texts\\n</p>\\n<h3>References</h3>\\n<p>Hilbe, Joseph M (2014), Modeling Count Data, Cambridge University Press\\nHilbe, Joseph M (2007, 2011), Negative Binomial Regression, Cambridge University Press\\nHilbe, Joseph M (2009), Logistic Regression Models, Chapman &amp; Hall/CRC\\n</p>\\n<h3>Examples</h3>\\n<pre>\\nlibrary(MASS)\\nlibrary(msme)\\ndata(titanicgrp)\\nglmlr &lt;- glm(survive ~ age + sex + factor(class) + offset(log(cases)),\\n             family=poisson, data=titanicgrp)\\nsummary(glmlr)\\nexp(coef(glmlr))\\nlcases &lt;- titanicgrp$cases\\nnb2o &lt;- nbinomial(survive ~ age + sex + factor(class), \\n                                        formula2 =~ age + sex,\\n                                        offset = lcases,\\n                                        mean.link=\"log\",\\n                                        scale.link=\"log_s\",\\n                                        data=titanicgrp)\\nsummary(nb2o)\\nexp(coef(nb2o))\\n</pre>\\n",
+   "data" : {
+      "y" : {
+         "vars" : [
+            "survive",
+            "cases",
+            "age",
+            "sex",
+            "class"
+         ],
+         "smps" : [
+            "Smp1",
+            "Smp2",
+            "Smp3",
+            "Smp4",
+            "Smp5",
+            "Smp6",
+            "Smp7",
+            "Smp8",
+            "Smp9",
+            "Smp10",
+            "Smp11",
+            "Smp12"
+         ],
+         "data" : [
+            [
+               1,
+               13,
+               14,
+               5,
+               11,
+               13,
+               140,
+               80,
+               76,
+               57,
+               14,
+               75
+            ],
+            [
+               1,
+               13,
+               31,
+               5,
+               11,
+               48,
+               144,
+               93,
+               165,
+               175,
+               168,
+               462
+            ],
+            [
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               1,
+               1,
+               1,
+               1,
+               1,
+               1
+            ],
+            [
+               0,
+               0,
+               0,
+               1,
+               1,
+               1,
+               0,
+               0,
+               0,
+               1,
+               1,
+               1
+            ],
+            [
+               1,
+               2,
+               3,
+               1,
+               2,
+               3,
+               1,
+               2,
+               3,
+               1,
+               2,
+               3
+            ]
+         ]
+      }
+   },
+   "config" : {
+      "graphType" : "Scatter2D",
+      "subtitle" : "COUNT - titanicgrp",
+      "title" : "titanicgrp"
+   }
+}

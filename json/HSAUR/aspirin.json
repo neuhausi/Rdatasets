@@ -1,0 +1,65 @@
+{
+   "info" : "<table width=\"100%\" summary=\"page for aspirin\"><tr><td>aspirin</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\\n<h2> Aspirin Data </h2>\\n<h3>Description</h3>\\n<p>Efficacy of Aspirin in preventing death after a myocardial infarct.\\n</p>\\n<h3>Usage</h3>\\n<pre>data(\"aspirin\")</pre>\\n<h3>Format</h3>\\n<p>A data frame with 7 observations on the following 4 variables.\\n</p>\\n<dl>\\n<dt><code>dp</code></dt><dd><p>number of deaths after placebo.</p>\\n</dd>\\n<dt><code>tp</code></dt><dd><p>total number subjects treated with placebo.</p>\\n</dd>\\n<dt><code>da</code></dt><dd><p>number of deaths after Aspirin.</p>\\n</dd>\\n<dt><code>ta</code></dt><dd><p>total number of subjects treated with Aspirin.</p>\\n</dd>\\n</dl>\\n<h3>Details</h3>\\n<p>The data were collected for a meta-analysis\\nof the effectiveness of Aspirin (versus placebo) in preventing \\ndeath after a myocardial infarction. \\n</p>\\n<h3>Source</h3>\\n<p>J. L. Fleiss (1993), The statistical basis of meta-analysis.\\n<em>Statistical Methods in Medical Research</em> <b>2</b>, \\n121&ndash;145.\\n</p>\\n<h3>Examples</h3>\\n<pre>\\n  data(\"aspirin\", package = \"HSAUR\")\\n  aspirin\\n</pre>\\n",
+   "data" : {
+      "y" : {
+         "vars" : [
+            "dp",
+            "tp",
+            "da",
+            "ta"
+         ],
+         "smps" : [
+            "Smp1",
+            "Smp2",
+            "Smp3",
+            "Smp4",
+            "Smp5",
+            "Smp6",
+            "Smp7"
+         ],
+         "data" : [
+            [
+               67,
+               64,
+               126,
+               38,
+               52,
+               219,
+               1720
+            ],
+            [
+               624,
+               77,
+               850,
+               309,
+               406,
+               2257,
+               8600
+            ],
+            [
+               49,
+               44,
+               102,
+               32,
+               85,
+               346,
+               1570
+            ],
+            [
+               615,
+               757,
+               832,
+               317,
+               810,
+               2267,
+               8587
+            ]
+         ]
+      }
+   },
+   "config" : {
+      "graphType" : "Scatter2D",
+      "subtitle" : "HSAUR - aspirin",
+      "title" : "Aspirin Data"
+   }
+}

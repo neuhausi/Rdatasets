@@ -1,0 +1,99 @@
+{
+   "info" : "<table width=\"100%\" summary=\"page for phosphor\"><tr><td>phosphor</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\\n<h2>Phosphorus Content Data</h2>\\n<h3>Description</h3>\\n<p>This dataset investigates the effect from inorganic and organic\\nPhosphorus in the soil upon the phosphorus content of the corn grown\\nin this soil, from Prescott (1975).\\n</p>\\n<h3>Usage</h3>\\n<pre>data(phosphor)</pre>\\n<h3>Format</h3>\\n<p>A data frame with 18 observations on the following 3 variables.\\n</p>\\n<dl>\\n<dt><code>inorg</code></dt><dd><p>Inorganic soil Phosphorus</p>\\n</dd>\\n<dt><code>organic</code></dt><dd><p>Organic soil Phosphorus</p>\\n</dd>\\n<dt><code>plant</code></dt><dd><p>Plant Phosphorus content</p>\\n</dd>\\n</dl>\\n<h3>Source</h3>\\n<p>P. J. Rousseeuw and A. M. Leroy (1987)\\n<em>Robust Regression and Outlier Detection.</em> Wiley, p.156, table 24.\\n</p>\\n<h3>Examples</h3>\\n<pre>\\ndata(phosphor)\\nplot(phosphor)\\nsummary(lm.phosphor &lt;- lm(plant ~ ., data = phosphor))\\nsummary(lts.phosphor &lt;- ltsReg(plant ~ ., data = phosphor))\\nphosphor.x &lt;- data.matrix(phosphor[, 1:2])\\ncPh &lt;- covMcd(phosphor.x)\\nplot(cPh, \"dd\")\\n</pre>\\n",
+   "data" : {
+      "y" : {
+         "smps" : [
+            "Smp1",
+            "Smp2",
+            "Smp3",
+            "Smp4",
+            "Smp5",
+            "Smp6",
+            "Smp7",
+            "Smp8",
+            "Smp9",
+            "Smp10",
+            "Smp11",
+            "Smp12",
+            "Smp13",
+            "Smp14",
+            "Smp15",
+            "Smp16",
+            "Smp17",
+            "Smp18"
+         ],
+         "vars" : [
+            "inorg",
+            "organic",
+            "plant"
+         ],
+         "data" : [
+            [
+               0.4,
+               0.4,
+               3.1,
+               0.6,
+               4.7,
+               1.7,
+               9.4,
+               10.1,
+               11.6,
+               12.6,
+               10.9,
+               23.1,
+               23.1,
+               21.6,
+               23.1,
+               1.9,
+               26.8,
+               29.9
+            ],
+            [
+               53,
+               23,
+               19,
+               34,
+               24,
+               65,
+               44,
+               31,
+               29,
+               58,
+               37,
+               46,
+               50,
+               44,
+               56,
+               36,
+               58,
+               51
+            ],
+            [
+               64,
+               60,
+               71,
+               61,
+               54,
+               77,
+               81,
+               93,
+               93,
+               51,
+               76,
+               96,
+               77,
+               93,
+               95,
+               54,
+               168,
+               99
+            ]
+         ]
+      }
+   },
+   "config" : {
+      "graphType" : "Scatter2D",
+      "subtitle" : "robustbase - phosphor",
+      "title" : "Phosphorus Content Data"
+   }
+}

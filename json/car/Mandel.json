@@ -1,0 +1,59 @@
+{
+   "info" : "<table width=\"100%\" summary=\"page for Mandel\"><tr><td>Mandel</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\\n<h2>Contrived Collinear Data</h2>\\n<h3>Description</h3>\\n<p>The <code>Mandel</code> data frame has 8 rows and 3 columns.\\n</p>\\n<h3>Usage</h3>\\n<pre>\\nMandel\\n</pre>\\n<h3>Format</h3>\\n<p>This data frame contains the following columns:\\n</p>\\n<dl>\\n<dt>x1</dt><dd>\\n<p>first predictor.\\n</p>\\n</dd>\\n<dt>x2</dt><dd>\\n<p>second predictor.\\n</p>\\n</dd>\\n<dt>y</dt><dd>\\n<p>response.\\n</p>\\n</dd>\\n</dl>\\n<h3>Source</h3>\\n<p>Mandel, J. (1982)\\nUse of the singular value decomposition in regression analysis.\\n<em>The American Statistician</em> <b>36</b>, 15&ndash;24.\\n</p>\\n<h3>References</h3>\\n<p>Fox, J. (2008)\\n<em>Applied Regression Analysis and Generalized Linear Models</em>,\\nSecond Edition. Sage.  \\n</p>\\n",
+   "data" : {
+      "y" : {
+         "vars" : [
+            "x1",
+            "x2",
+            "y"
+         ],
+         "smps" : [
+            "Smp1",
+            "Smp2",
+            "Smp3",
+            "Smp4",
+            "Smp5",
+            "Smp6",
+            "Smp7",
+            "Smp8"
+         ],
+         "data" : [
+            [
+               16.85,
+               24.81,
+               18.85,
+               12.63,
+               21.38,
+               18.78,
+               15.58,
+               16.3
+            ],
+            [
+               1.46,
+               -4.61,
+               -0.21,
+               4.93,
+               -1.36,
+               -0.08,
+               2.98,
+               1.73
+            ],
+            [
+               41.38,
+               31.01,
+               37.41,
+               50.05,
+               39.17,
+               38.86,
+               46.14,
+               44.47
+            ]
+         ]
+      }
+   },
+   "config" : {
+      "graphType" : "Scatter2D",
+      "subtitle" : "car - Mandel",
+      "title" : "Contrived Collinear Data"
+   }
+}

@@ -1,0 +1,35 @@
+{
+   "info" : "<table width=\"100%\" summary=\"page for simpledat\"><tr><td>simpledat</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\\n<h2>Simple example data set</h2>\\n<h3>Description</h3>\\n<p>This data set is for examples of R graphics.\\n</p>\\n<h3>See Also</h3>\\n<p>This data frame is in &quot;wide&quot; format. See\\n<code>simpledat_long</code> for the same data in &quot;long&quot;\\nformat.\\n</p>\\n",
+   "data" : {
+      "y" : {
+         "smps" : [
+            "Smp1",
+            "Smp2"
+         ],
+         "vars" : [
+            "A1",
+            "A2",
+            "A3"
+         ],
+         "data" : [
+            [
+               10,
+               9
+            ],
+            [
+               7,
+               11
+            ],
+            [
+               12,
+               6
+            ]
+         ]
+      }
+   },
+   "config" : {
+      "graphType" : "Scatter2D",
+      "subtitle" : "gcookbook - simpledat",
+      "title" : "Simple example data set"
+   }
+}

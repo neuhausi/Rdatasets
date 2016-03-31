@@ -1,0 +1,81 @@
+{
+   "info" : "<table width=\"100%\" summary=\"page for uspop\"><tr><td>uspop</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\\n<h2>Populations Recorded by the US Census</h2>\\n<h3>Description</h3>\\n<p>This data set gives the population of the United States (in millions)\\nas recorded by the decennial census for the period 1790&ndash;1970.\\n</p>\\n<h3>Usage</h3>\\n<pre>uspop</pre>\\n<h3>Format</h3>\\n<p>A time series of 19 values.</p>\\n<h3>Source</h3>\\n<p>McNeil, D. R. (1977)\\n<em>Interactive Data Analysis</em>.\\nNew York: Wiley.\\n</p>\\n<h3>Examples</h3>\\n<pre>\\nrequire(graphics)\\nplot(uspop, log = \"y\", main = \"uspop data\", xlab = \"Year\",\\n     ylab = \"U.S. Population (millions)\")\\n</pre>\\n",
+   "data" : {
+      "y" : {
+         "vars" : [
+            "time",
+            "uspop"
+         ],
+         "smps" : [
+            "Smp1",
+            "Smp2",
+            "Smp3",
+            "Smp4",
+            "Smp5",
+            "Smp6",
+            "Smp7",
+            "Smp8",
+            "Smp9",
+            "Smp10",
+            "Smp11",
+            "Smp12",
+            "Smp13",
+            "Smp14",
+            "Smp15",
+            "Smp16",
+            "Smp17",
+            "Smp18",
+            "Smp19"
+         ],
+         "data" : [
+            [
+               1790,
+               1800,
+               1810,
+               1820,
+               1830,
+               1840,
+               1850,
+               1860,
+               1870,
+               1880,
+               1890,
+               1900,
+               1910,
+               1920,
+               1930,
+               1940,
+               1950,
+               1960,
+               1970
+            ],
+            [
+               3.93,
+               5.31,
+               7.24,
+               9.64,
+               12.9,
+               17.1,
+               23.2,
+               31.4,
+               39.8,
+               50.2,
+               62.9,
+               76,
+               92,
+               105.7,
+               122.8,
+               131.7,
+               151.3,
+               179.3,
+               203.2
+            ]
+         ]
+      }
+   },
+   "config" : {
+      "graphType" : "Scatter2D",
+      "subtitle" : "datasets - uspop",
+      "title" : "Populations Recorded by the US Census"
+   }
+}

@@ -1,0 +1,72 @@
+{
+   "info" : "<table width=\"100%\" summary=\"page for ChestSizes\"><tr><td>ChestSizes</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\\n<h2>\\nChest measurements of 5738 Scottish Militiamen\\n</h2>\\n<h3>Description</h3>\\n<p>Quetelet's data on chest measurements of 5738 Scottish Militiamen. Quetelet (1846) used this\\ndata as a demonstration of the normal distribution of physical characteristics.\\n</p>\\n<h3>Usage</h3>\\n<pre>data(ChestSizes)</pre>\\n<h3>Format</h3>\\n<p>A data frame with 16 observations on the following 2 variables.\\n</p>\\n<dl>\\n<dt><code>chest</code></dt><dd><p>Chest size (in inches)</p>\\n</dd>\\n<dt><code>count</code></dt><dd><p>Number of soldiers with this chest size</p>\\n</dd>\\n</dl>\\n<h3>Source</h3>\\n<p>Velleman, P. F. and Hoaglin, D. C. (1981). \\n<em>Applications, Basics, and Computing of Exploratory Data Analysis</em>. Belmont. CA: Wadsworth.\\n</p>\\n<p>Statlib: <a href=\"http://lib.stat.cmu.edu/DASL/Datafiles/MilitiamenChests.html\">http://lib.stat.cmu.edu/DASL/Datafiles/MilitiamenChests.html</a>\\n</p>\\n<h3>References</h3>\\n<p>A. Quetelet, <em>Lettres a S.A.R. le Duc Regnant de Saxe-Cobourg et Gotha, sur la Theorie des Probabilites, \\nAppliquee aux Sciences Morales et Politiques</em>. Brussels: M. Hayes, 1846, p. 400.\\n</p>\\n<h3>Examples</h3>\\n<pre>\\ndata(ChestSizes)\\n## maybe str(ChestSizes) ; plot(ChestSizes) ...\\n# frequency polygon\\nplot(ChestSizes, type='b')\\n#barplot\\nbarplot(ChestSizes[,2], ylab=\"Frequency\", xlab=\"Chest size\")\\n</pre>\\n",
+   "data" : {
+      "y" : {
+         "vars" : [
+            "chest",
+            "count"
+         ],
+         "smps" : [
+            "Smp1",
+            "Smp2",
+            "Smp3",
+            "Smp4",
+            "Smp5",
+            "Smp6",
+            "Smp7",
+            "Smp8",
+            "Smp9",
+            "Smp10",
+            "Smp11",
+            "Smp12",
+            "Smp13",
+            "Smp14",
+            "Smp15",
+            "Smp16"
+         ],
+         "data" : [
+            [
+               33,
+               34,
+               35,
+               36,
+               37,
+               38,
+               39,
+               40,
+               41,
+               42,
+               43,
+               44,
+               45,
+               46,
+               47,
+               48
+            ],
+            [
+               3,
+               18,
+               81,
+               185,
+               420,
+               749,
+               1073,
+               1079,
+               934,
+               658,
+               370,
+               92,
+               50,
+               21,
+               4,
+               1
+            ]
+         ]
+      }
+   },
+   "config" : {
+      "graphType" : "Scatter2D",
+      "subtitle" : "HistData - ChestSizes",
+      "title" : "Chest measurements of 5738 Scottish Militiamen"
+   }
+}

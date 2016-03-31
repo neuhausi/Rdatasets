@@ -1,0 +1,59 @@
+{
+   "info" : "<table width=\"100%\" summary=\"page for orallesions\"><tr><td>orallesions</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\\n<h2> Oral Lesions in Rural India </h2>\\n<h3>Description</h3>\\n<p>The distribution of the oral\\nlesion site found in house-to-house surveys in three geographic\\nregions of rural India.\\n</p>\\n<h3>Usage</h3>\\n<pre>data(\"orallesions\")</pre>\\n<h3>Format</h3>\\n<p>A two-way classification, see <code>table</code>.\\n</p>\\n<h3>Source</h3>\\n<p>Cyrus R. Mehta and Nitin R. Patel (2003), \\n<em>StatXact-6: Statistical Software for Exact Nonparametric\\nInference</em>, Cytel Software Cooperation, Cambridge, USA.\\n</p>\\n<h3>Examples</h3>\\n<pre>\\n  data(\"orallesions\", package = \"HSAUR\")\\n  mosaicplot(orallesions)\\n</pre>\\n",
+   "data" : {
+      "y" : {
+         "vars" : [
+            "Kerala",
+            "Gujarat",
+            "Andhra"
+         ],
+         "smps" : [
+            "Smp1",
+            "Smp2",
+            "Smp3",
+            "Smp4",
+            "Smp5",
+            "Smp6",
+            "Smp7",
+            "Smp8"
+         ],
+         "data" : [
+            [
+               8,
+               0,
+               0,
+               0,
+               0,
+               0,
+               1,
+               1
+            ],
+            [
+               1,
+               1,
+               1,
+               1,
+               1,
+               1,
+               0,
+               0
+            ],
+            [
+               8,
+               0,
+               0,
+               0,
+               0,
+               0,
+               1,
+               1
+            ]
+         ]
+      }
+   },
+   "config" : {
+      "graphType" : "Scatter2D",
+      "subtitle" : "HSAUR - orallesions",
+      "title" : "Oral Lesions in Rural India"
+   }
+}

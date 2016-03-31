@@ -1,0 +1,84 @@
+{
+   "info" : "<table width=\"100%\" summary=\"page for Sahlins\"><tr><td>Sahlins</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\\n<h2>Agricultural Production in Mazulu Village</h2>\\n<h3>Description</h3>\\n<p>The <code>Sahlins</code> data frame has 20 rows and 2 columns.\\nThe observations are households in a Central African village.\\n</p>\\n<h3>Usage</h3>\\n<pre>\\nSahlins\\n</pre>\\n<h3>Format</h3>\\n<p>This data frame contains the following columns:\\n</p>\\n<dl>\\n<dt>consumers</dt><dd>\\n<p>Consumers/Gardener, ratio of consumers to productive individuals.\\n</p>\\n</dd>\\n<dt>acres</dt><dd>\\n<p>Acres/Gardener, amount of land cultivated per gardener.\\n</p>\\n</dd>\\n</dl>\\n<h3>Source</h3>\\n<p>Sahlins, M. (1972)\\n<em>Stone Age Economics.</em> \\nAldine\\n[Table 3.1]. \\n</p>\\n<h3>References</h3>\\n<p>Fox, J. (2008)\\n<em>Applied Regression Analysis and Generalized Linear Models</em>,\\nSecond Edition. Sage.  \\n</p>\\n",
+   "data" : {
+      "y" : {
+         "vars" : [
+            "consumers",
+            "acres"
+         ],
+         "smps" : [
+            "Smp1",
+            "Smp2",
+            "Smp3",
+            "Smp4",
+            "Smp5",
+            "Smp6",
+            "Smp7",
+            "Smp8",
+            "Smp9",
+            "Smp10",
+            "Smp11",
+            "Smp12",
+            "Smp13",
+            "Smp14",
+            "Smp15",
+            "Smp16",
+            "Smp17",
+            "Smp18",
+            "Smp19",
+            "Smp20"
+         ],
+         "data" : [
+            [
+               1,
+               1.08,
+               1.15,
+               1.15,
+               1.2,
+               1.3,
+               1.37,
+               1.37,
+               1.43,
+               1.46,
+               1.52,
+               1.57,
+               1.65,
+               1.65,
+               1.65,
+               1.66,
+               1.87,
+               2.03,
+               2.05,
+               2.3
+            ],
+            [
+               1.71,
+               1.52,
+               1.29,
+               3.09,
+               2.21,
+               2.26,
+               2.4,
+               2.1,
+               1.96,
+               2.09,
+               2.02,
+               1.31,
+               2.17,
+               2.28,
+               2.41,
+               2.23,
+               3.04,
+               2.06,
+               2.73,
+               2.36
+            ]
+         ]
+      }
+   },
+   "config" : {
+      "graphType" : "Scatter2D",
+      "subtitle" : "car - Sahlins",
+      "title" : "Agricultural Production in Mazulu Village"
+   }
+}

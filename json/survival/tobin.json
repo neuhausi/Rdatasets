@@ -1,0 +1,107 @@
+{
+   "info" : "<table width=\"100%\" summary=\"page for tobin\"><tr><td>tobin</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\\n<h2>Tobin's Tobit data</h2>\\n<h3>Description</h3>\\n<p>Economists fit a parametric censored data model called the\\n&lsquo;tobit&rsquo;.  These data are from Tobin's original paper. \\n</p>\\n<h3>Usage</h3>\\n<pre>tobin</pre>\\n<h3>Format</h3>\\n<p>A data frame with 20 observations on the following 3 variables.\\n</p>\\n<dl>\\n<dt>durable</dt><dd><p>Durable goods purchase</p>\\n</dd>\\n<dt>age</dt><dd><p>Age in years</p>\\n</dd>\\n<dt>quant</dt><dd><p>Liquidity ratio (x 1000)</p>\\n</dd>\\n</dl>\\n<h3>Source</h3>\\n<p>J Tobin (1958),\\nEstimation of relationships for limited dependent variables.\\n<em>Econometrica</em> <b>26</b>, 24&ndash;36.\\n</p>\\n<h3>Examples</h3>\\n<pre>\\ntfit &lt;- survreg(Surv(durable, durable&gt;0, type='left') ~age + quant,\\n                data=tobin, dist='gaussian')\\npredict(tfit,type=\"response\")\\n</pre>\\n",
+   "data" : {
+      "y" : {
+         "vars" : [
+            "durable",
+            "age",
+            "quant"
+         ],
+         "smps" : [
+            "Smp1",
+            "Smp2",
+            "Smp3",
+            "Smp4",
+            "Smp5",
+            "Smp6",
+            "Smp7",
+            "Smp8",
+            "Smp9",
+            "Smp10",
+            "Smp11",
+            "Smp12",
+            "Smp13",
+            "Smp14",
+            "Smp15",
+            "Smp16",
+            "Smp17",
+            "Smp18",
+            "Smp19",
+            "Smp20"
+         ],
+         "data" : [
+            [
+               0,
+               0.7,
+               0,
+               0,
+               0,
+               0,
+               0,
+               3.7,
+               0,
+               3,
+               10.4,
+               0,
+               0,
+               0,
+               1.5,
+               0,
+               0,
+               3.5,
+               6.1,
+               0
+            ],
+            [
+               57.7,
+               50.9,
+               48.5,
+               41.7,
+               47.7,
+               59.8,
+               44.3,
+               45.1,
+               51.7,
+               50,
+               46.8,
+               58,
+               58.9,
+               40,
+               34.1,
+               39.9,
+               33.4,
+               48.1,
+               46.6,
+               53.1
+            ],
+            [
+               236,
+               283,
+               207,
+               220,
+               238,
+               216,
+               284,
+               221,
+               275,
+               269,
+               207,
+               249,
+               246,
+               277,
+               231,
+               219,
+               240,
+               266,
+               214,
+               251
+            ]
+         ]
+      }
+   },
+   "config" : {
+      "graphType" : "Scatter2D",
+      "subtitle" : "survival - tobin",
+      "title" : "Tobin's Tobit data"
+   }
+}

@@ -1,0 +1,107 @@
+{
+   "info" : "<table width=\"100%\" summary=\"page for Guyer\"><tr><td>Guyer</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\\n<h2>Anonymity and Cooperation</h2>\\n<h3>Description</h3>\\n<p>The <code>Guyer</code> data frame has 20 rows and 3 columns.\\nThe data are from an experiment in which four-person groups\\nplayed a prisoner's dilemma game for 30 trails, each person\\nmaking either a cooperative or competitive choice on each\\ntrial. Choices were made either anonymously or in public;\\ngroups were composed either of females or of males.\\nThe observations are 20 groups.\\n</p>\\n<h3>Usage</h3>\\n<pre>\\nGuyer\\n</pre>\\n<h3>Format</h3>\\n<p>This data frame contains the following columns:\\n</p>\\n<dl>\\n<dt>cooperation</dt><dd>\\n<p>Number of cooperative choices (out of 120 in all).\\n</p>\\n</dd>\\n<dt>condition</dt><dd>\\n<p>A factor with levels:\\n<code>A</code>, Anonymous;\\n<code>P</code>, Public-Choice.\\n</p>\\n</dd>\\n<dt>sex</dt><dd>\\n<p>Sex.  A factor with levels:\\n<code>F</code>, Female;\\n<code>M</code>, Male.\\n</p>\\n</dd>\\n</dl>\\n<h3>Source</h3>\\n<p>Fox, J. and Guyer, M. (1978)\\nPublic choice and cooperation in n-person prisoner's dilemma.\\n<em>Journal of Conflict Resolution</em> <b>22</b>, 469&ndash;481.\\n</p>\\n<h3>References</h3>\\n<p>Fox, J. (2008)\\n<em>Applied Regression Analysis and Generalized Linear Models</em>,\\nSecond Edition. Sage.  \\n</p>\\n<p>Fox, J. and Weisberg, S. (2011) \\n<em>An R Companion to Applied Regression</em>, Second Edition, Sage.\\n</p>\\n",
+   "data" : {
+      "y" : {
+         "vars" : [
+            "cooperation"
+         ],
+         "smps" : [
+            "Smp1",
+            "Smp2",
+            "Smp3",
+            "Smp4",
+            "Smp5",
+            "Smp6",
+            "Smp7",
+            "Smp8",
+            "Smp9",
+            "Smp10",
+            "Smp11",
+            "Smp12",
+            "Smp13",
+            "Smp14",
+            "Smp15",
+            "Smp16",
+            "Smp17",
+            "Smp18",
+            "Smp19",
+            "Smp20"
+         ],
+         "data" : [
+            [
+               49,
+               64,
+               37,
+               52,
+               68,
+               54,
+               61,
+               79,
+               64,
+               29,
+               27,
+               58,
+               52,
+               41,
+               30,
+               40,
+               39,
+               44,
+               34,
+               44
+            ]
+         ]
+      },
+      "x" : {
+         "sex" : [
+            "M",
+            "M",
+            "M",
+            "M",
+            "M",
+            "F",
+            "F",
+            "F",
+            "F",
+            "F",
+            "M",
+            "M",
+            "M",
+            "M",
+            "M",
+            "F",
+            "F",
+            "F",
+            "F",
+            "F"
+         ],
+         "condition" : [
+            "P",
+            "P",
+            "P",
+            "P",
+            "P",
+            "P",
+            "P",
+            "P",
+            "P",
+            "P",
+            "A",
+            "A",
+            "A",
+            "A",
+            "A",
+            "A",
+            "A",
+            "A",
+            "A",
+            "A"
+         ]
+      }
+   },
+   "config" : {
+      "graphType" : "Pie",
+      "subtitle" : "car - Guyer",
+      "title" : "Anonymity and Cooperation"
+   }
+}

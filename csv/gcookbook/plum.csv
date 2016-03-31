@@ -1,0 +1,9 @@
+"","length","time","survival","count"
+"1","long","at_once","dead",84
+"2","long","in_spring","dead",156
+"3","short","at_once","dead",133
+"4","short","in_spring","dead",209
+"5","long","at_once","alive",156
+"6","long","in_spring","alive",84
+"7","short","at_once","alive",107
+"8","short","in_spring","alive",31

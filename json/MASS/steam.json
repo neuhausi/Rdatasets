@@ -1,0 +1,66 @@
+{
+   "info" : "<table width=\"100%\" summary=\"page for steam\"><tr><td>steam</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\\n<h2>\\nThe Saturated Steam Pressure Data\\n</h2>\\n<h3>Description</h3>\\n<p>Temperature and pressure in a saturated steam driven experimental device.\\n</p>\\n<h3>Usage</h3>\\n<pre>\\nsteam\\n</pre>\\n<h3>Format</h3>\\n<p>The data frame contains the following components:\\n</p>\\n<dl>\\n<dt><code>Temp</code></dt><dd>\\n<p>temperature, in degrees Celsius.\\n</p>\\n</dd>\\n<dt><code>Press</code></dt><dd>\\n<p>pressure, in Pascals.\\n</p>\\n</dd>\\n</dl>\\n<h3>Source</h3>\\n<p>N.R. Draper  and H. Smith (1981)\\n<em>Applied Regression Analysis.</em> Wiley, pp. 518&ndash;9.\\n</p>\\n<h3>References</h3>\\n<p>Venables, W. N. and Ripley, B. D. (1999)\\n<em>Modern Applied Statistics with S-PLUS.</em> Third\\nEdition. Springer.\\n</p>\\n",
+   "data" : {
+      "y" : {
+         "vars" : [
+            "Temp",
+            "Press"
+         ],
+         "smps" : [
+            "Smp1",
+            "Smp2",
+            "Smp3",
+            "Smp4",
+            "Smp5",
+            "Smp6",
+            "Smp7",
+            "Smp8",
+            "Smp9",
+            "Smp10",
+            "Smp11",
+            "Smp12",
+            "Smp13",
+            "Smp14"
+         ],
+         "data" : [
+            [
+               0,
+               10,
+               20,
+               30,
+               40,
+               50,
+               60,
+               70,
+               80,
+               85,
+               90,
+               95,
+               100,
+               105
+            ],
+            [
+               4.14,
+               8.52,
+               16.31,
+               32.18,
+               64.62,
+               98.76,
+               151.13,
+               224.74,
+               341.35,
+               423.36,
+               522.78,
+               674.32,
+               782.04,
+               920.01
+            ]
+         ]
+      }
+   },
+   "config" : {
+      "graphType" : "Scatter2D",
+      "subtitle" : "MASS - steam",
+      "title" : "The Saturated Steam Pressure Data"
+   }
+}

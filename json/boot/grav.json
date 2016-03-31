@@ -1,0 +1,102 @@
+{
+   "info" : "<table width=\"100%\" summary=\"page for gravity\"><tr><td>gravity</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\\n<h2>\\nAcceleration Due to Gravity\\n</h2>\\n<h3>Description</h3>\\n<p>The <code>gravity</code> data frame has 81 rows and 2 columns.\\n</p>\\n<p>The <code>grav</code> data set has 26 rows and 2 columns.\\n</p>\\n<p>Between May 1934 and July 1935, the National Bureau of Standards in\\nWashington D.C. conducted a series of experiments to estimate the\\nacceleration due to gravity, <em>g</em>, at Washington.  Each experiment\\nproduced a number of replicate estimates of <em>g</em> using the same\\nmethodology.  Although the basic method remained the same for all\\nexperiments, that of the reversible pendulum, there were changes in\\nconfiguration.\\n</p>\\n<p>The <code>gravity</code> data frame contains the data from all eight\\nexperiments.  The <code>grav</code> data frame contains the data from the\\nexperiments 7 and 8.  The data are expressed as deviations from 980.000\\nin centimetres per second squared.\\n</p>\\n<h3>Usage</h3>\\n<pre>\\ngravity\\n</pre>\\n<h3>Format</h3>\\n<p>This data frame contains the following columns:\\n</p>\\n<dl>\\n<dt><code>g</code></dt><dd>\\n<p>The deviation of the estimate from 980.000 centimetres per second squared.\\n</p>\\n</dd>\\n<dt><code>series</code></dt><dd>\\n<p>A factor describing from which experiment the estimate was derived.\\n</p>\\n</dd></dl>\\n<h3>Source</h3>\\n<p>The data were obtained from\\n</p>\\n<p>Cressie, N. (1982) Playing safe with misweighted means. \\n<em>Journal of the American Statistical Association</em>, <b>77</b>, 754&ndash;759.\\n</p>\\n<h3>References</h3>\\n<p>Davison, A.C. and Hinkley, D.V. (1997) \\n<em>Bootstrap Methods and Their Application</em>. Cambridge University Press.\\n</p>\\n",
+   "data" : {
+      "y" : {
+         "vars" : [
+            "g",
+            "series"
+         ],
+         "smps" : [
+            "Smp1",
+            "Smp2",
+            "Smp3",
+            "Smp4",
+            "Smp5",
+            "Smp6",
+            "Smp7",
+            "Smp8",
+            "Smp9",
+            "Smp10",
+            "Smp11",
+            "Smp12",
+            "Smp13",
+            "Smp14",
+            "Smp15",
+            "Smp16",
+            "Smp17",
+            "Smp18",
+            "Smp19",
+            "Smp20",
+            "Smp21",
+            "Smp22",
+            "Smp23",
+            "Smp24",
+            "Smp25",
+            "Smp26"
+         ],
+         "data" : [
+            [
+               82,
+               79,
+               81,
+               79,
+               77,
+               79,
+               79,
+               78,
+               79,
+               82,
+               76,
+               73,
+               64,
+               84,
+               86,
+               85,
+               82,
+               77,
+               76,
+               77,
+               80,
+               83,
+               81,
+               78,
+               78,
+               78
+            ],
+            [
+               7,
+               7,
+               7,
+               7,
+               7,
+               7,
+               7,
+               7,
+               7,
+               7,
+               7,
+               7,
+               7,
+               8,
+               8,
+               8,
+               8,
+               8,
+               8,
+               8,
+               8,
+               8,
+               8,
+               8,
+               8,
+               8
+            ]
+         ]
+      }
+   },
+   "config" : {
+      "graphType" : "Scatter2D",
+      "subtitle" : "boot - grav",
+      "title" : "Acceleration Due to Gravity"
+   }
+}

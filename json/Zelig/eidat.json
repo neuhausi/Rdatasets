@@ -1,0 +1,80 @@
+{
+   "info" : "<table width=\"100%\" summary=\"page for eidat\"><tr><td>eidat</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\\n<h2>Simulation Data for Ecological Inference</h2>\\n<h3>Description</h3>\\n<p>This dataframe contains a simulated data set to illustrate the models\\nfor ecological inference.  \\n</p>\\n<h3>Usage</h3>\\n<pre>data(eidat)</pre>\\n<h3>Format</h3>\\n<p>A table containing 4 variables (&quot;t0&quot;, &quot;t1&quot;, &quot;x0&quot;, &quot;x1&quot;) and 10 \\nobservations.\\n</p>\\n",
+   "data" : {
+      "y" : {
+         "smps" : [
+            "Smp1",
+            "Smp2",
+            "Smp3",
+            "Smp4",
+            "Smp5",
+            "Smp6",
+            "Smp7",
+            "Smp8",
+            "Smp9",
+            "Smp10"
+         ],
+         "vars" : [
+            "x0",
+            "x1",
+            "t0",
+            "t1"
+         ],
+         "data" : [
+            [
+               200,
+               162,
+               206,
+               213,
+               209,
+               190,
+               206,
+               190,
+               183,
+               189
+            ],
+            [
+               3911,
+               2636,
+               2460,
+               1654,
+               637,
+               1911,
+               3460,
+               715,
+               2058,
+               2658
+            ],
+            [
+               2850,
+               1541,
+               1091,
+               517,
+               163,
+               216,
+               226,
+               102,
+               126,
+               138
+            ],
+            [
+               1261,
+               1257,
+               1575,
+               1350,
+               683,
+               1885,
+               3440,
+               803,
+               2115,
+               2709
+            ]
+         ]
+      }
+   },
+   "config" : {
+      "graphType" : "Scatter2D",
+      "subtitle" : "Zelig - eidat",
+      "title" : "Simulation Data for Ecological Inference"
+   }
+}

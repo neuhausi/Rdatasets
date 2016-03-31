@@ -1,0 +1,111 @@
+{
+   "info" : "<table width=\"100%\" summary=\"page for cement\"><tr><td>cement</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\\n<h2>\\nHeat Evolved by Setting Cements\\n</h2>\\n<h3>Description</h3>\\n<p>Experiment on the heat evolved in the setting of each of 13 cements.\\n</p>\\n<h3>Usage</h3>\\n<pre>\\ncement\\n</pre>\\n<h3>Format</h3>\\n<dl>\\n<dt><code>x1, x2, x3, x4</code></dt><dd>\\n<p>Proportions (%) of active ingredients.\\n</p>\\n</dd>\\n<dt><code>y</code></dt><dd>\\n<p>heat evolved in cals/gm.\\n</p>\\n</dd>\\n</dl>\\n<h3>Details</h3>\\n<p>Thirteen samples of Portland cement were set. For each sample, the\\npercentages of the four main chemical ingredients was accurately\\nmeasured.  While the cement was setting the amount of heat evolved was\\nalso measured.\\n</p>\\n<h3>Source</h3>\\n<p>Woods, H., Steinour, H.H. and Starke, H.R. (1932) Effect of composition of \\nPortland cement on heat evolved during hardening. \\n<em>Industrial Engineering and Chemistry</em>, <b>24</b>, 1207&ndash;1214.\\n</p>\\n<h3>References</h3>\\n<p>Hald, A. (1957) <em>Statistical Theory with Engineering\\nApplications.</em> Wiley, New York.\\n</p>\\n<h3>Examples</h3>\\n<pre>\\nlm(y ~ x1 + x2 + x3 + x4, cement)\\n</pre>\\n",
+   "data" : {
+      "y" : {
+         "vars" : [
+            "x1",
+            "x2",
+            "x3",
+            "x4",
+            "y"
+         ],
+         "smps" : [
+            "Smp1",
+            "Smp2",
+            "Smp3",
+            "Smp4",
+            "Smp5",
+            "Smp6",
+            "Smp7",
+            "Smp8",
+            "Smp9",
+            "Smp10",
+            "Smp11",
+            "Smp12",
+            "Smp13"
+         ],
+         "data" : [
+            [
+               7,
+               1,
+               11,
+               11,
+               7,
+               11,
+               3,
+               1,
+               2,
+               21,
+               1,
+               11,
+               10
+            ],
+            [
+               26,
+               29,
+               56,
+               31,
+               52,
+               55,
+               71,
+               31,
+               54,
+               47,
+               40,
+               66,
+               68
+            ],
+            [
+               6,
+               15,
+               8,
+               8,
+               6,
+               9,
+               17,
+               22,
+               18,
+               4,
+               23,
+               9,
+               8
+            ],
+            [
+               60,
+               52,
+               20,
+               47,
+               33,
+               22,
+               6,
+               44,
+               22,
+               26,
+               34,
+               12,
+               12
+            ],
+            [
+               78.5,
+               74.3,
+               104.3,
+               87.6,
+               95.9,
+               109.2,
+               102.7,
+               72.5,
+               93.1,
+               115.9,
+               83.8,
+               113.3,
+               109.4
+            ]
+         ]
+      }
+   },
+   "config" : {
+      "graphType" : "Scatter2D",
+      "subtitle" : "MASS - cement",
+      "title" : "Heat Evolved by Setting Cements"
+   }
+}

@@ -1,0 +1,57 @@
+{
+   "info" : "<table width=\"100%\" summary=\"page for shrimp\"><tr><td>shrimp</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\\n<h2>\\nPercentage of Shrimp in Shrimp Cocktail\\n</h2>\\n<h3>Description</h3>\\n<p>A numeric vector with 18 determinations by different laboratories\\nof the amount (percentage of the declared total weight) of shrimp\\nin shrimp cocktail.\\n</p>\\n<h3>Usage</h3>\\n<pre>\\nshrimp\\n</pre>\\n<h3>Source</h3>\\n<p>F. J. King and J. J. Ryan (1976)\\nCollaborative study of the determination of the amount of shrimp in\\nshrimp cocktail. <em>J. Off. Anal. Chem.</em> <b>59</b>, 644&ndash;649.\\n</p>\\n<p>R. G. Staudte and S. J. Sheather (1990)\\n<em>Robust Estimation and Testing.</em> Wiley.\\n</p>\\n",
+   "data" : {
+      "y" : {
+         "vars" : [
+            "x"
+         ],
+         "smps" : [
+            "Smp1",
+            "Smp2",
+            "Smp3",
+            "Smp4",
+            "Smp5",
+            "Smp6",
+            "Smp7",
+            "Smp8",
+            "Smp9",
+            "Smp10",
+            "Smp11",
+            "Smp12",
+            "Smp13",
+            "Smp14",
+            "Smp15",
+            "Smp16",
+            "Smp17",
+            "Smp18"
+         ],
+         "data" : [
+            [
+               32.2,
+               33,
+               30.8,
+               33.8,
+               32.2,
+               33.3,
+               31.7,
+               35.7,
+               32.4,
+               31.2,
+               26.6,
+               30.7,
+               32.5,
+               30.7,
+               31.2,
+               30.3,
+               32.3,
+               31.7
+            ]
+         ]
+      }
+   },
+   "config" : {
+      "graphType" : "Pie",
+      "subtitle" : "MASS - shrimp",
+      "title" : "Percentage of Shrimp in Shrimp Cocktail"
+   }
+}

@@ -1,0 +1,45 @@
+{
+   "info" : "<table width=\"100%\" summary=\"page for co.transfer\"><tr><td>co.transfer</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\\n<h2>\\nCarbon Monoxide Transfer\\n</h2>\\n<h3>Description</h3>\\n<p>The <code>co.transfer</code> data frame has 7 rows and 2 columns.  Seven smokers with\\nchickenpox had their levels of carbon monoxide transfer measured on entry\\nto hospital and then again after 1 week.  The main question being whether\\none week of hospitalization  has changed the carbon monoxide transfer factor.\\n</p>\\n<h3>Usage</h3>\\n<pre>\\nco.transfer\\n</pre>\\n<h3>Format</h3>\\n<p>This data frame contains the following columns:\\n</p>\\n<dl>\\n<dt><code>entry</code></dt><dd>\\n<p>Carbon monoxide transfer factor on entry to hospital.\\n</p>\\n</dd>\\n<dt><code>week</code></dt><dd>\\n<p>Carbon monoxide transfer one week after admittance to hospital.\\n</p>\\n</dd></dl>\\n<h3>Source</h3>\\n<p>The data were obtained from\\n</p>\\n<p>Hand, D.J., Daly, F., Lunn, A.D., McConway, K.J. and Ostrowski, E (1994)\\n<em>A Handbook of Small Data Sets</em>. Chapman and Hall.\\n</p>\\n<h3>References</h3>\\n<p>Davison, A.C. and Hinkley, D.V. (1997) \\n<em>Bootstrap Methods and Their Application</em>. Cambridge University Press.\\n</p>\\n<p>Ellis, M.E., Neal, K.R. and Webb, A.K. (1987) Is smoking a risk factor for\\npneumonia in patients with chickenpox? <em>British Medical Journal</em>,\\n<b>294</b>, 1002.\\n</p>\\n",
+   "data" : {
+      "y" : {
+         "vars" : [
+            "entry",
+            "week"
+         ],
+         "smps" : [
+            "Smp1",
+            "Smp2",
+            "Smp3",
+            "Smp4",
+            "Smp5",
+            "Smp6",
+            "Smp7"
+         ],
+         "data" : [
+            [
+               40,
+               50,
+               56,
+               58,
+               60,
+               62,
+               66
+            ],
+            [
+               73,
+               52,
+               80,
+               85,
+               64,
+               63,
+               60
+            ]
+         ]
+      }
+   },
+   "config" : {
+      "graphType" : "Scatter2D",
+      "subtitle" : "boot - co.transfer",
+      "title" : "Carbon Monoxide Transfer"
+   }
+}
