@@ -32,8 +32,7 @@ my ( $dataset, $help );
 GetOptions(
   "dataset=s" => \$dataset,
   "help!"     => \$help
-  )
-  or die $DESCRIPTION;
+) or die $DESCRIPTION;
 
 die $DESCRIPTION if $help;
 
@@ -49,7 +48,7 @@ sub process_data {
 
   my $main = "datasets.csv";
 
-  my ( $sets, $lib, $ds, $title );
+  my ( $sets, $lib, $ds, $title, $cont );
 
   open( FILE, "$main" ) or die "Couldn't open $main: $!\n";
   $_ = <FILE>;
@@ -65,12 +64,18 @@ sub process_data {
   print FILE JSON->new->pretty->allow_nonref->encode($sets);
   close FILE;
 
-  foreach $lib ( keys %$sets ) {
-    foreach $ds ( keys %{ $sets->{$lib} } ) {
+  foreach $lib ( sort { lc($a) cmp lc($b) } keys %$sets ) {
+    foreach $ds ( sort { lc($a) cmp lc($b) } keys %{ $sets->{$lib} } ) {
       if ($dataset) {
         next unless $dataset eq $ds;
       }
+      push @{$cont}, [ $ds, "json/$lib/$ds.json" ];
       &create_json( $lib, $ds, $sets->{$lib}{$ds} );
+    }
+    if ( !$dataset ) {
+      open( FILE, ">json/$lib/datasets.json" );
+      print FILE JSON->new->pretty->allow_nonref->encode($cont);
+      close FILE;
     }
   }
 
@@ -85,7 +90,7 @@ sub create_json {
   my $csv = "csv/$lib/$ds.csv";
   my $doc = "doc/$lib/$ds.html";
 
-  print "Processing dataset $ds\n";
+  print "Processing dataset $ds in $lib\n";
   open( FILE, "$csv" ) or die "Couldn't open $csv: $!\n";
   $_ = <FILE>;
   chomp;
@@ -132,7 +137,7 @@ sub create_json {
   close FILE;
 
   ## Create Object
-  if ($t > 3) {
+  if ( $t > 3 ) {
     for ( $i = 0 ; $i < scalar @$data ; $i++ ) {
       push @{ $json->{y}{smps} }, 'Smp' . ( $i + 1 );
     }
