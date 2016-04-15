@@ -1,5 +1,10 @@
 {
    "info" : "<table width=\"100%\" summary=\"page for summer and winter data\"><tr><td>summer and winter data</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\\n<h2> Air pollution data, separately for summer and winter months</h2>\\n<h3>Description</h3>\\n<p>Air pollution data from Leeds (U.K.) city centre, collected from 1994\\nto 1998. The <code>summer</code> data set corresponds to the months\\nof April to July inclusive. The <code>winter</code> data set corresponds to the months\\nof November to February inclusive. Some outliers have been\\nremoved, as discussed by Heffernan and Tawn, 2004.\\n</p>\\n<h3>Usage</h3>\\n<pre>\\ndata(summer)\\ndata(winter)\\n</pre>\\n<h3>Format</h3>\\n<p>Data frames with 578 (summer) and 532 (winter) observations on the following 5 variables.\\n</p>\\n<dl>\\n<dt><code>O3</code></dt><dd><p>Daily maximum ozone in parts per billion.</p>\\n</dd>\\n<dt><code>NO2</code></dt><dd><p>Daily maximum NO2 in parts per billion.</p>\\n</dd>\\n<dt><code>NO</code></dt><dd><p>Daily maximum NO in parts per billion.</p>\\n</dd>\\n<dt><code>SO2</code></dt><dd><p>Daily maximum SO2 in parts per billion.</p>\\n</dd>\\n<dt><code>PM10</code></dt><dd><p>Daily maximum PM10 in micrograms/metre^3</p>\\n</dd>\\n</dl>\\n<h3>Source</h3>\\n<p>Provided as online supplementary material to Heffernan and Tawn, 2004:\\n</p>\\n<p>http://www.blackwellpublishing.com/rss/Readmefiles/heffernan.htm\\n</p>\\n<h3>References</h3>\\n<p> J. E. Heffernan and J. A. Tawn, A conditional approach\\nfor multivariate extreme values, Journal of the Royal Statistical\\nsociety B, 66, 497 &ndash; 546, 2004</p>\\n<h3>Examples</h3>\\n<pre>\\ndata(summer)\\ndata(winter)\\n</pre>\\n",
+   "config" : {
+      "subtitle" : "texmex - summer",
+      "graphType" : "Scatter2D",
+      "title" : "Air pollution data"
+   },
    "data" : {
       "y" : {
          "smps" : [
@@ -581,13 +586,6 @@
             "Smp576",
             "Smp577",
             "Smp578"
-         ],
-         "vars" : [
-            "O3",
-            "NO2",
-            "NO",
-            "SO2",
-            "PM10"
          ],
          "data" : [
             [
@@ -3490,12 +3488,14 @@
                29,
                26
             ]
+         ],
+         "vars" : [
+            "O3",
+            "NO2",
+            "NO",
+            "SO2",
+            "PM10"
          ]
       }
-   },
-   "config" : {
-      "graphType" : "Scatter2D",
-      "subtitle" : "texmex - summer",
-      "title" : "Air pollution data"
    }
 }

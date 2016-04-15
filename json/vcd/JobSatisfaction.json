@@ -1,44 +1,53 @@
 {
    "info" : "<table width=\"100%\" summary=\"page for JobSatisfaction\"><tr><td>JobSatisfaction</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\\n<h2>Job Satisfaction Data</h2>\\n<h3>Description</h3>\\n<p>Data from Petersen (1968) about the job satisfaction of 715 blue\\ncollar workers, selected from Danish Industry in 1968.\\n</p>\\n<h3>Usage</h3>\\n<pre>\\ndata(\"JobSatisfaction\")\\n</pre>\\n<h3>Format</h3>\\n<p>A data frame with 8 observations and 4 variables.\\n</p>\\n<dl>\\n<dt>Freq</dt><dd><p>frequency.</p>\\n</dd>\\n<dt>management</dt><dd><p>factor indicating quality of management (bad,\\ngood).</p>\\n</dd> \\n<dt>supervisor</dt><dd><p>factor indicating supervisor's job satisfaction\\n(low, high).</p>\\n</dd>\\n<dt>own</dt><dd><p>factor indicating worker's own job satisfaction (low,\\nhigh).</p>\\n</dd>\\n</dl>\\n<h3>Source</h3>\\n<p>E. B. Andersen (1991),\\nThe Statistical Analysis of Categorical Data, Table 5.4.\\n</p>\\n<h3>References</h3>\\n<p>E. B. Andersen (1991),\\n<em>The Statistical Analysis of Categorical Data</em>.\\n2nd edition.\\nSpringer-Verlag, Berlin.\\n</p>\\n<p>E. Petersen (1968),\\n<em>Job Satisfaction in Denmark</em>.\\n(In Danish).\\nMentalhygiejnisk Forlag, Copenhagen.\\n</p>\\n<h3>Examples</h3>\\n<pre>\\ndata(\"JobSatisfaction\")\\nstructable(~ ., data = JobSatisfaction)\\nmantelhaen.test(xtabs(Freq ~ own + supervisor + management,\\n                      data = JobSatisfaction))\\n</pre>\\n",
+   "config" : {
+      "subtitle" : "vcd - JobSatisfaction",
+      "graphType" : "Bar",
+      "title" : "Job Satisfaction Data"
+   },
    "data" : {
       "y" : {
          "smps" : [
-            "Smp1",
-            "Smp2",
-            "Smp3",
-            "Smp4",
-            "Smp5",
-            "Smp6",
-            "Smp7",
-            "Smp8"
-         ],
-         "vars" : [
             "Freq"
          ],
          "data" : [
             [
-               103,
-               87,
-               32,
-               42,
-               59,
-               109,
-               78,
+               103
+            ],
+            [
+               87
+            ],
+            [
+               32
+            ],
+            [
+               42
+            ],
+            [
+               59
+            ],
+            [
+               109
+            ],
+            [
+               78
+            ],
+            [
                205
             ]
+         ],
+         "vars" : [
+            "Var1",
+            "Var2",
+            "Var3",
+            "Var4",
+            "Var5",
+            "Var6",
+            "Var7",
+            "Var8"
          ]
       },
-      "x" : {
-         "own" : [
-            "low",
-            "high",
-            "low",
-            "high",
-            "low",
-            "high",
-            "low",
-            "high"
-         ],
+      "z" : {
          "supervisor" : [
             "low",
             "low",
@@ -47,6 +56,16 @@
             "low",
             "low",
             "high",
+            "high"
+         ],
+         "own" : [
+            "low",
+            "high",
+            "low",
+            "high",
+            "low",
+            "high",
+            "low",
             "high"
          ],
          "management" : [
@@ -60,10 +79,5 @@
             "good"
          ]
       }
-   },
-   "config" : {
-      "graphType" : "Bar",
-      "subtitle" : "vcd - JobSatisfaction",
-      "title" : "Job Satisfaction Data"
    }
 }

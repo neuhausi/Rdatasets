@@ -1,81 +1,122 @@
 {
    "info" : "<table width=\"100%\" summary=\"page for polyps\"><tr><td>polyps</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\\n<h2> Familial Andenomatous Polyposis </h2>\\n<h3>Description</h3>\\n<p>Data from a placebo-controlled trial of a non-steroidal anti-inflammatory  \\ndrug in the treatment of familial andenomatous polyposis (FAP).\\n</p>\\n<h3>Usage</h3>\\n<pre>data(\"polyps\")</pre>\\n<h3>Format</h3>\\n<p>A data frame with 20 observations on the following 3 variables.\\n</p>\\n<dl>\\n<dt><code>number</code></dt><dd><p>number of colonic polyps at 12 months.</p>\\n</dd>\\n<dt><code>treat</code></dt><dd><p>treatment arms of the trail, a factor with \\nlevels <code>placebo</code> and <code>drug</code>.</p>\\n</dd>\\n<dt><code>age</code></dt><dd><p>the age of the patient.</p>\\n</dd>\\n</dl>\\n<h3>Details</h3>\\n<p>Giardiello et al. (1993) and Piantadosi (1997) describe the\\nresults of a placebo-controlled trial of a non-steroidal anti-inflammatory  \\ndrug in the treatment of familial andenomatous polyposis (FAP). \\nThe trial was halted after a planned interim analysis had suggested\\ncompelling evidence in favour of the treatment. \\nHere we are interested in assessing whether the number of colonic polyps at \\n12 months is related to treatment and age of patient.\\n</p>\\n<h3>Source</h3>\\n<p>F. M. Giardiello, S. R. Hamilton, A. J. Krush, S. Piantadosi, L. M. Hylind,\\nP. Celano, S. V. Booker, C. R. Robinson and G. J. A. Offerhaus (1993), \\nTreatment of colonic and rectal adenomas with sulindac \\nin familial adenomatous polyposis. <em>New England Journal of Medicine</em>,\\n<b>328</b>(18), 1313&ndash;1316.\\n</p>\\n<p>S. Piantadosi (1997), <em>Clinical Trials: A Methodologic Perspective</em>.\\nJohn Wiley \\&amp; Sons, New York.\\n</p>\\n<h3>Examples</h3>\\n<pre>\\n  data(\"polyps\", package = \"HSAUR\")\\n  plot(number ~ age, data = polyps, pch = as.numeric(polyps$treat))\\n  legend(40, 40, legend = levels(polyps$treat), pch = 1:2, bty = \"n\")\\n</pre>\\n",
+   "config" : {
+      "subtitle" : "HSAUR - polyps",
+      "graphType" : "Scatter2D",
+      "title" : "Familial Andenomatous Polyposis"
+   },
    "data" : {
       "y" : {
-         "vars" : [
+         "smps" : [
             "number",
             "age"
-         ],
-         "smps" : [
-            "Smp1",
-            "Smp2",
-            "Smp3",
-            "Smp4",
-            "Smp5",
-            "Smp6",
-            "Smp7",
-            "Smp8",
-            "Smp9",
-            "Smp10",
-            "Smp11",
-            "Smp12",
-            "Smp13",
-            "Smp14",
-            "Smp15",
-            "Smp16",
-            "Smp17",
-            "Smp18",
-            "Smp19",
-            "Smp20"
          ],
          "data" : [
             [
                63,
-               2,
-               28,
-               17,
-               61,
-               1,
-               7,
-               15,
-               44,
-               25,
-               3,
-               28,
-               10,
-               40,
-               33,
-               46,
-               50,
-               3,
-               1,
-               4
+               20
             ],
             [
-               20,
-               16,
-               18,
-               22,
-               13,
-               23,
-               34,
-               50,
-               19,
+               2,
+               16
+            ],
+            [
+               28,
+               18
+            ],
+            [
                17,
-               23,
-               22,
-               30,
-               27,
-               23,
-               22,
-               34,
-               23,
-               22,
+               22
+            ],
+            [
+               61,
+               13
+            ],
+            [
+               1,
+               23
+            ],
+            [
+               7,
+               34
+            ],
+            [
+               15,
+               50
+            ],
+            [
+               44,
+               19
+            ],
+            [
+               25,
+               17
+            ],
+            [
+               3,
+               23
+            ],
+            [
+               28,
+               22
+            ],
+            [
+               10,
+               30
+            ],
+            [
+               40,
+               27
+            ],
+            [
+               33,
+               23
+            ],
+            [
+               46,
+               22
+            ],
+            [
+               50,
+               34
+            ],
+            [
+               3,
+               23
+            ],
+            [
+               1,
+               22
+            ],
+            [
+               4,
                42
             ]
+         ],
+         "vars" : [
+            "Var1",
+            "Var2",
+            "Var3",
+            "Var4",
+            "Var5",
+            "Var6",
+            "Var7",
+            "Var8",
+            "Var9",
+            "Var10",
+            "Var11",
+            "Var12",
+            "Var13",
+            "Var14",
+            "Var15",
+            "Var16",
+            "Var17",
+            "Var18",
+            "Var19",
+            "Var20"
          ]
       },
-      "x" : {
+      "z" : {
          "treat" : [
             "placebo",
             "drug",
@@ -99,10 +140,5 @@
             "drug"
          ]
       }
-   },
-   "config" : {
-      "graphType" : "Scatter2D",
-      "subtitle" : "HSAUR - polyps",
-      "title" : "Familial Andenomatous Polyposis"
    }
 }

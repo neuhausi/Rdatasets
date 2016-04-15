@@ -1,69 +1,95 @@
 {
    "info" : "<table width=\"100%\" summary=\"page for women\"><tr><td>women</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\\n<h2>Average Heights and Weights for American Women</h2>\\n<h3>Description</h3>\\n<p>This data set gives the average heights and weights for American women\\naged 30&ndash;39.\\n</p>\\n<h3>Usage</h3>\\n<pre>women</pre>\\n<h3>Format</h3>\\n<p>A data frame with 15 observations on 2 variables.\\n</p>\\n<table summary=\"Rd table\">\\n<tr>\\n <td style=\"text-align: right;\">\\n    <code>[,1]</code>  </td><td style=\"text-align: left;\"> <code>height</code>  </td><td style=\"text-align: left;\"> numeric  </td><td style=\"text-align: left;\"> Height (in)</td>\\n</tr>\\n<tr>\\n <td style=\"text-align: right;\">\\n    <code>[,2]</code>  </td><td style=\"text-align: left;\"> <code>weight</code>  </td><td style=\"text-align: left;\"> numeric  </td><td style=\"text-align: left;\"> Weight (lbs)\\n  </td>\\n</tr>\\n</table>\\n<h3>Details</h3>\\n<p>The data set appears to have been taken from the American Society of\\nActuaries <em>Build and Blood Pressure Study</em> for some (unknown to\\nus) earlier year.\\n</p>\\n<p>The World Almanac notes: &ldquo;The figures represent weights in\\nordinary indoor clothing and shoes, and heights with shoes&rdquo;.\\n</p>\\n<h3>Source</h3>\\n<p>The World Almanac and Book of Facts, 1975.</p>\\n<h3>References</h3>\\n<p>McNeil, D. R. (1977)\\n<em>Interactive Data Analysis</em>.\\nWiley.\\n</p>\\n<h3>Examples</h3>\\n<pre>\\nrequire(graphics)\\nplot(women, xlab = \"Height (in)\", ylab = \"Weight (lb)\",\\n     main = \"women data: American women aged 30-39\")\\n</pre>\\n",
+   "config" : {
+      "subtitle" : "datasets - women",
+      "graphType" : "Scatter2D",
+      "title" : "Average Heights and Weights for American Women"
+   },
    "data" : {
       "y" : {
-         "vars" : [
+         "smps" : [
             "height",
             "weight"
-         ],
-         "smps" : [
-            "Smp1",
-            "Smp2",
-            "Smp3",
-            "Smp4",
-            "Smp5",
-            "Smp6",
-            "Smp7",
-            "Smp8",
-            "Smp9",
-            "Smp10",
-            "Smp11",
-            "Smp12",
-            "Smp13",
-            "Smp14",
-            "Smp15"
          ],
          "data" : [
             [
                58,
-               59,
-               60,
-               61,
-               62,
-               63,
-               64,
-               65,
-               66,
-               67,
-               68,
-               69,
-               70,
-               71,
-               72
+               115
             ],
             [
-               115,
-               117,
-               120,
-               123,
-               126,
-               129,
-               132,
-               135,
-               139,
-               142,
-               146,
-               150,
-               154,
-               159,
+               59,
+               117
+            ],
+            [
+               60,
+               120
+            ],
+            [
+               61,
+               123
+            ],
+            [
+               62,
+               126
+            ],
+            [
+               63,
+               129
+            ],
+            [
+               64,
+               132
+            ],
+            [
+               65,
+               135
+            ],
+            [
+               66,
+               139
+            ],
+            [
+               67,
+               142
+            ],
+            [
+               68,
+               146
+            ],
+            [
+               69,
+               150
+            ],
+            [
+               70,
+               154
+            ],
+            [
+               71,
+               159
+            ],
+            [
+               72,
                164
             ]
+         ],
+         "vars" : [
+            "Var1",
+            "Var2",
+            "Var3",
+            "Var4",
+            "Var5",
+            "Var6",
+            "Var7",
+            "Var8",
+            "Var9",
+            "Var10",
+            "Var11",
+            "Var12",
+            "Var13",
+            "Var14",
+            "Var15"
          ]
       }
-   },
-   "config" : {
-      "graphType" : "Scatter2D",
-      "subtitle" : "datasets - women",
-      "title" : "Average Heights and Weights for American Women"
    }
 }

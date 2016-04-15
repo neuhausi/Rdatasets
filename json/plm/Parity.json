@@ -1,17 +1,12 @@
 {
    "info" : "<table width=\"100%\" summary=\"page for Parity\"><tr><td>Parity</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\\n<h2>Purchasing Power Parity and other parity relationships</h2>\\n<h3>Description</h3>\\n<p>A panel of 104 quarterly observations from 1973Q1 to 1998Q4\\n</p>\\n<p><em>total number of observations</em> : 1768\\n</p>\\n<p><em>observation</em> :  country\\n</p>\\n<p><em>country</em> :  OECD\\n</p>\\n<h3>Usage</h3>\\n<pre>data(Parity)</pre>\\n<h3>Format</h3>\\n<p>A data frame containing :\\n</p>\\n<dl>\\n<dt>country</dt><dd><p>country codes: a factor with 17 levels</p>\\n</dd>\\n<dt>time</dt><dd><p>the quarter index, 1973Q1-1998Q4</p>\\n</dd>\\n<dt>ls</dt><dd><p>log spot exchange rate vs. USD</p>\\n</dd>\\n<dt>lp</dt><dd><p>log price level</p>\\n</dd>\\n<dt>is</dt><dd><p>short term interest rate</p>\\n</dd>\\n<dt>il</dt><dd><p>long term interest rate</p>\\n</dd>\\n<dt>ld</dt><dd><p>log price differential vs. USA</p>\\n</dd>\\n<dt>uis</dt><dd><p>U.S. short term interest rate</p>\\n</dd>\\n<dt>uil</dt><dd><p>U.S. long term interest rate</p>\\n</dd>\\n</dl>\\n<h3>Source</h3>\\n<p>Coakley, J., Fuertes, A. M., and Smith, R. (2006) &ldquo;Unobserved\\nheterogeneity in panel time series models&rdquo;, <em>Computational\\nStatistics &amp; Data Analysis</em>, <b>50</b>(9), 2361&ndash;2380.\\n</p>\\n<h3>References</h3>\\n<p>Coakley, J., Fuertes, A. M., and Smith, R. (2006) &ldquo;Unobserved\\nheterogeneity in panel time series models&rdquo;, <em>Computational\\nStatistics &amp; Data Analysis</em>, <b>50</b>(9), 2361&ndash;2380.\\n</p>\\n<p>Driscoll, J. C., and Kraay, A. C. (1998). &ldquo;Consistent\\ncovariance matrix estimation with spatially dependent panel data&rdquo;,\\n<em>Review of economics and statistics</em>, <b>80</b>(4), 549&ndash;560.\\n</p>\\n",
+   "config" : {
+      "subtitle" : "plm - Parity",
+      "graphType" : "Scatter2D",
+      "title" : "Purchasing Power Parity and other parity relationships"
+   },
    "data" : {
       "y" : {
-         "vars" : [
-            "time",
-            "ls",
-            "lp",
-            "is",
-            "il",
-            "ld",
-            "uis",
-            "uil"
-         ],
          "smps" : [
             "Smp1",
             "Smp2",
@@ -15943,6 +15938,16 @@
                0.0513,
                0.0533
             ]
+         ],
+         "vars" : [
+            "time",
+            "ls",
+            "lp",
+            "is",
+            "il",
+            "ld",
+            "uis",
+            "uil"
          ]
       },
       "x" : {
@@ -17717,10 +17722,5 @@
             "GBR"
          ]
       }
-   },
-   "config" : {
-      "graphType" : "Scatter2D",
-      "subtitle" : "plm - Parity",
-      "title" : "Purchasing Power Parity and other parity relationships"
    }
 }

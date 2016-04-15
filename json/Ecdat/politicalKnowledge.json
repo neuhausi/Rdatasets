@@ -1,5 +1,11 @@
 {
    "info" : "<table width=\"100%\" summary=\"page for politicalKnowledge\"><tr><td>politicalKnowledge</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\\n<h2> \\nPolitical knowledge in the US and Europe \\n</h2>\\n<h3>Description</h3>\\n<p>Data from McChesney and Nichols (2010) on domestic and international \\nknowledge in Denmark, Finland, the UK and the US among college \\ngraduates, people with some college, and roughly 12th grade only.  \\n</p>\\n<h3>Usage</h3>\\n<pre>\\ndata(politicalKnowledge)\\n</pre>\\n<h3>Format</h3>\\n<p>A <code>data.frame</code> containing 12 columns and 4 rows.\\n</p>\\n<dl>\\n<dt>country</dt><dd>\\n<p>a character vector of Denmark, Finland, UK, and \\nUS, being the four countries comparied in this data set.  \\n</p>\\n</dd>\\n<dt>DomesticKnowledge.hs, DomesticKnowledge.sc, \\nDomesticKnowledge.c</dt><dd>\\n<p>percent correct answers to calibrated questions regarding \\nknowledge of prominent items in domestic news in a \\nsurvey of residents of the four countries among college \\ngraduates (ending &quot;.c&quot;), some college (&quot;.sc&quot;) and \\nhigh school (&quot;hs&quot;).  Source:  McChesney and Nichols\\n(2010, chapter 1, chart 8).  \\n</p>\\n</dd>\\n<dt>InternationalKnowledge.hs, InternationalKnowledge.sc, \\nInternationalKnowledge.c</dt><dd>\\n<p>percent correct answers to calibrated questions regarding\\nknowledge of prominent items in international news in a \\nsurvey of residents of the four countries by education \\nlevel as for DomesticKnowledge.  Source:  McChesney and \\nNichols (2010, chapter 1, chart 7).  \\n</p>\\n</dd>\\n<dt>PoliticalKnowledge.hs, PoliticalKnowledge.sc, \\nPoliticalKnowledge.c</dt><dd>\\n<p>average of domestic and international knowledge\\n</p>\\n</dd>\\n<dt>PublicMediaPerCapita</dt><dd>\\n<p>Per capital spending on public media in 2007 \\nin US dollars from McChesney and Nichols (2010, \\nchapter 4, chart 1)\\n</p>\\n</dd>\\n<dt>PublicMediaRel2US</dt><dd>\\n<p>Spending on public media relative to the US, being \\n<code>PublicMediaPerCapita / PublicMediaPerCapita[4]</code>.  \\n</p>\\n</dd>\\n</dl>\\n<h3>Author(s)</h3>\\n<p>Spencer Graves</p>\\n<h3>Source</h3>\\n<p>Robert W. McChesney and John Nichols (2010) <em>The Death and \\nLife of American Journalism</em> (Nation Books)\\n</p>\\n<h3>Examples</h3>\\n<pre>\\n## 1. Combine first 2 rows \\ndata(politicalKnowledge)\\npk &lt;- politicalKnowledge[-1,]\\npk[1, -1] &lt;- ((politicalKnowledge[1, -1] + \\n                 politicalKnowledge[2, -1])/2)\\npk[1, 'country'] &lt;- 'DK-FI'\\n## 2.  plot\\nxlim &lt;- range(pk[, 'PublicMediaPerCapita'])\\nylim &lt;- 100*range(pk[2:7])\\ntext.cex &lt;- 2\\n# to label the lines \\n(US.UK &lt;- (pk[2, -1]+pk[3, -1])/2)\\n#png('Knowledge v. public media.png')\\nop &lt;- par(mar=c(5, 7, 4, 2)+.1)\\nplot(c(0, 110), 100*ylim, type='n', axes=FALSE,\\n     xlab='public media $ per capita',\\n     ylab='Political Knowledge\\n(% of standard questions)',\\n     cex.lab=2)\\naxis(1, cex.axis=2)\\naxis(2, las=2, cex.axis=2)\\nwith(pk, text(PublicMediaPerCapita, 100*PoliticalKnowledge.hs,\\n              country, cex=text.cex, xpd=NA, \\n              col=c('forestgreen', 'orange', 'red')))\\nwith(pk, text(PublicMediaPerCapita, 100*PoliticalKnowledge.sc,\\n              country, cex=text.cex, xpd=NA, \\n              col=c('forestgreen', 'orange', 'red')))\\nwith(pk, text(PublicMediaPerCapita, 100*PoliticalKnowledge.c,\\n              country, cex=text.cex, xpd=NA, \\n              col=c('forestgreen', 'orange', 'red')))\\nwith(pk, lines(PublicMediaPerCapita, 100*PoliticalKnowledge.hs,\\n               type='b', pch=' '))\\nwith(pk, lines(PublicMediaPerCapita, 100*PoliticalKnowledge.sc,\\n               type='b', pch=' '))\\nwith(pk, lines(PublicMediaPerCapita, 100*PoliticalKnowledge.c,\\n               type='b', pch=' '))\\nwith(US.UK, text(PublicMediaPerCapita, 100*PoliticalKnowledge.hs,\\n                 'High School\\nor less', srt=37, cex=1.5))\\nwith(US.UK, text(PublicMediaPerCapita, 100*PoliticalKnowledge.sc,\\n                 'some\\ncollege', srt=10.5, cex=1.5))\\nwith(US.UK, text(PublicMediaPerCapita, 100*PoliticalKnowledge.c,\\n                 \"Bachelor's\\nor more\", srt=-1, cex=1.5))\\npar(op)\\n#dev.off()\\n## redo for Wikimedia commons\\n## without English axis labels \\n## to facilitate multilingual use \\n#svg('Knowledge v. public media.svg')\\nop &lt;- par(mar=c(3,3,2,2)+.1)\\nplot(c(0, 110), 100*ylim, type='n', axes=FALSE,\\n     xlab='', ylab='', cex.lab=2)\\naxis(1, cex.axis=2)\\naxis(2, las=2, cex.axis=2)\\nwith(pk, text(PublicMediaPerCapita, 100*PoliticalKnowledge.hs,\\n              country, cex=text.cex, xpd=NA, \\n              col=c('forestgreen', 'orange', 'red')))\\nwith(pk, text(PublicMediaPerCapita, 100*PoliticalKnowledge.sc,\\n              country, cex=text.cex, xpd=NA, \\n              col=c('forestgreen', 'orange', 'red')))\\nwith(pk, text(PublicMediaPerCapita, 100*PoliticalKnowledge.c,\\n              country, cex=text.cex, xpd=NA, \\n              col=c('forestgreen', 'orange', 'red')))\\nwith(pk, lines(PublicMediaPerCapita, 100*PoliticalKnowledge.hs,\\n               type='b', pch=' '))\\nwith(pk, lines(PublicMediaPerCapita, 100*PoliticalKnowledge.sc,\\n               type='b', pch=' '))\\nwith(pk, lines(PublicMediaPerCapita, 100*PoliticalKnowledge.c,\\n               type='b', pch=' '))\\npar(op)\\n#dev.off()\\n</pre>\\n",
+   "config" : {
+      "subtitle" : "Ecdat - politicalKnowledge",
+      "graphType" : "Scatter2D",
+      "scatterPlotMatrix" : 1,
+      "title" : "Political knowledge in the US and Europe"
+   },
    "data" : {
       "y" : {
          "smps" : [
@@ -7,19 +13,6 @@
             "Smp2",
             "Smp3",
             "Smp4"
-         ],
-         "vars" : [
-            "DomesticKnowledge.hs",
-            "DomesticKnowledge.sc",
-            "DomesticKnowledge.c",
-            "InternationalKnowledge.hs",
-            "InternationalKnowledge.sc",
-            "InternationalKnowledge.c",
-            "PoliticalKnowledge.hs",
-            "PoliticalKnowledge.sc",
-            "PoliticalKnowledge.c",
-            "PublicMediaPerCapita",
-            "PublicMediaRel2US"
          ],
          "data" : [
             [
@@ -88,6 +81,19 @@
                59.26,
                1
             ]
+         ],
+         "vars" : [
+            "DomesticKnowledge.hs",
+            "DomesticKnowledge.sc",
+            "DomesticKnowledge.c",
+            "InternationalKnowledge.hs",
+            "InternationalKnowledge.sc",
+            "InternationalKnowledge.c",
+            "PoliticalKnowledge.hs",
+            "PoliticalKnowledge.sc",
+            "PoliticalKnowledge.c",
+            "PublicMediaPerCapita",
+            "PublicMediaRel2US"
          ]
       },
       "x" : {
@@ -98,11 +104,5 @@
             "US"
          ]
       }
-   },
-   "config" : {
-      "graphType" : "Scatter2D",
-      "subtitle" : "Ecdat - politicalKnowledge",
-      "scatterPlotMatrix" : 1,
-      "title" : "Political knowledge in the US and Europe"
    }
 }

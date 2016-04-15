@@ -1,83 +1,143 @@
 {
    "info" : "<table width=\"100%\" summary=\"page for abbey\"><tr><td>abbey</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\\n<h2>\\nDeterminations of Nickel Content\\n</h2>\\n<h3>Description</h3>\\n<p>A numeric vector of 31 determinations of nickel content (ppm) in\\na Canadian syenite rock.\\n</p>\\n<h3>Usage</h3>\\n<pre>\\nabbey\\n</pre>\\n<h3>Source</h3>\\n<p>S. Abbey (1988) <em>Geostandards Newsletter</em> <b>12</b>, 241.\\n</p>\\n<h3>References</h3>\\n<p>Venables, W. N. and Ripley, B. D. (2002)\\n<em>Modern Applied Statistics with S.</em> Fourth edition.  Springer.\\n</p>\\n",
+   "config" : {
+      "subtitle" : "MASS - abbey",
+      "graphType" : "Treemap",
+      "title" : "Determinations of Nickel Content"
+   },
    "data" : {
       "y" : {
-         "vars" : [
-            "x"
-         ],
          "smps" : [
-            "Smp1",
-            "Smp2",
-            "Smp3",
-            "Smp4",
-            "Smp5",
-            "Smp6",
-            "Smp7",
-            "Smp8",
-            "Smp9",
-            "Smp10",
-            "Smp11",
-            "Smp12",
-            "Smp13",
-            "Smp14",
-            "Smp15",
-            "Smp16",
-            "Smp17",
-            "Smp18",
-            "Smp19",
-            "Smp20",
-            "Smp21",
-            "Smp22",
-            "Smp23",
-            "Smp24",
-            "Smp25",
-            "Smp26",
-            "Smp27",
-            "Smp28",
-            "Smp29",
-            "Smp30",
-            "Smp31"
+            "x"
          ],
          "data" : [
             [
-               5.2,
-               6.5,
-               6.9,
-               7,
-               7,
-               7,
-               7.4,
-               8,
-               8,
-               8,
-               8,
-               8.5,
-               9,
-               9,
-               10,
-               11,
-               11,
-               12,
-               12,
-               13.7,
-               14,
-               14,
-               14,
-               16,
-               17,
-               17,
-               18,
-               24,
-               28,
-               34,
+               5.2
+            ],
+            [
+               6.5
+            ],
+            [
+               6.9
+            ],
+            [
+               7
+            ],
+            [
+               7
+            ],
+            [
+               7
+            ],
+            [
+               7.4
+            ],
+            [
+               8
+            ],
+            [
+               8
+            ],
+            [
+               8
+            ],
+            [
+               8
+            ],
+            [
+               8.5
+            ],
+            [
+               9
+            ],
+            [
+               9
+            ],
+            [
+               10
+            ],
+            [
+               11
+            ],
+            [
+               11
+            ],
+            [
+               12
+            ],
+            [
+               12
+            ],
+            [
+               13.7
+            ],
+            [
+               14
+            ],
+            [
+               14
+            ],
+            [
+               14
+            ],
+            [
+               16
+            ],
+            [
+               17
+            ],
+            [
+               17
+            ],
+            [
+               18
+            ],
+            [
+               24
+            ],
+            [
+               28
+            ],
+            [
+               34
+            ],
+            [
                125
             ]
+         ],
+         "vars" : [
+            "Var1",
+            "Var2",
+            "Var3",
+            "Var4",
+            "Var5",
+            "Var6",
+            "Var7",
+            "Var8",
+            "Var9",
+            "Var10",
+            "Var11",
+            "Var12",
+            "Var13",
+            "Var14",
+            "Var15",
+            "Var16",
+            "Var17",
+            "Var18",
+            "Var19",
+            "Var20",
+            "Var21",
+            "Var22",
+            "Var23",
+            "Var24",
+            "Var25",
+            "Var26",
+            "Var27",
+            "Var28",
+            "Var29",
+            "Var30",
+            "Var31"
          ]
       }
-   },
-   "config" : {
-      "graphType" : "Treemap",
-      "subtitle" : "MASS - abbey",
-      "title" : "Determinations of Nickel Content"
    }
 }

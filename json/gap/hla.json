@@ -1,5 +1,10 @@
 {
    "info" : "<table width=\"100%\" summary=\"page for hla\"><tr><td>hla</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\\n<h2>The HLA data</h2>\\n<h3>Description</h3>\\n<p>This data set contains HLA markers DRB, DQA, DQB and phenotypes\\nof 271 Schizophrenia patients (y=1) and controls (y=0). Genotypes for 3 HLA\\nloci have prefixes name (e.g., &quot;DQB&quot;) and a suffix for each of two alleles \\n(&quot;.a1&quot; and &quot;.a2&quot;).\\n</p>\\n<h3>Usage</h3>\\n<pre>data(hla)</pre>\\n<h3>Format</h3>\\n<p>A data frame containing 271 rows and 8 columns</p>\\n<h3>Source</h3>\\n<p>Dr Padraig Wright of Pfizer</p>\\n",
+   "config" : {
+      "subtitle" : "gap - hla",
+      "graphType" : "Scatter2D",
+      "title" : "The HLA data"
+   },
    "data" : {
       "y" : {
          "smps" : [
@@ -274,15 +279,6 @@
             "Smp269",
             "Smp270",
             "Smp271"
-         ],
-         "vars" : [
-            "y",
-            "DQR.a1",
-            "DQR.a2",
-            "DQA.a1",
-            "DQA.a2",
-            "DQB.a1",
-            "DQB.a2"
          ],
          "data" : [
             [
@@ -2196,6 +2192,15 @@
                13,
                13
             ]
+         ],
+         "vars" : [
+            "y",
+            "DQR.a1",
+            "DQR.a2",
+            "DQA.a1",
+            "DQA.a2",
+            "DQB.a1",
+            "DQB.a2"
          ]
       },
       "x" : {
@@ -2473,10 +2478,5 @@
             "SCZ"
          ]
       }
-   },
-   "config" : {
-      "graphType" : "Scatter2D",
-      "subtitle" : "gap - hla",
-      "title" : "The HLA data"
    }
 }

@@ -1,20 +1,12 @@
 {
    "info" : "<table width=\"100%\" summary=\"page for mtcars\"><tr><td>mtcars</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\\n<h2>Motor Trend Car Road Tests</h2>\\n<h3>Description</h3>\\n<p>The data was extracted from the 1974 <em>Motor Trend</em> US magazine,\\nand comprises fuel consumption and 10 aspects of\\nautomobile design and performance for 32 automobiles (1973&ndash;74\\nmodels).\\n</p>\\n<h3>Usage</h3>\\n<pre>mtcars</pre>\\n<h3>Format</h3>\\n<p>A data frame with 32 observations on 11 variables.\\n</p>\\n<table summary=\"Rd table\">\\n<tr>\\n <td style=\"text-align: right;\">\\n    [, 1] </td><td style=\"text-align: left;\"> mpg  </td><td style=\"text-align: left;\"> Miles/(US) gallon </td>\\n</tr>\\n<tr>\\n <td style=\"text-align: right;\">\\n    [, 2] </td><td style=\"text-align: left;\"> cyl  </td><td style=\"text-align: left;\"> Number of cylinders </td>\\n</tr>\\n<tr>\\n <td style=\"text-align: right;\">\\n    [, 3] </td><td style=\"text-align: left;\"> disp </td><td style=\"text-align: left;\"> Displacement (cu.in.) </td>\\n</tr>\\n<tr>\\n <td style=\"text-align: right;\">\\n    [, 4] </td><td style=\"text-align: left;\"> hp   </td><td style=\"text-align: left;\"> Gross horsepower </td>\\n</tr>\\n<tr>\\n <td style=\"text-align: right;\">\\n    [, 5] </td><td style=\"text-align: left;\"> drat </td><td style=\"text-align: left;\"> Rear axle ratio </td>\\n</tr>\\n<tr>\\n <td style=\"text-align: right;\">\\n    [, 6] </td><td style=\"text-align: left;\"> wt   </td><td style=\"text-align: left;\"> Weight (1000 lbs) </td>\\n</tr>\\n<tr>\\n <td style=\"text-align: right;\">\\n    [, 7] </td><td style=\"text-align: left;\"> qsec </td><td style=\"text-align: left;\"> 1/4 mile time </td>\\n</tr>\\n<tr>\\n <td style=\"text-align: right;\">\\n    [, 8] </td><td style=\"text-align: left;\"> vs   </td><td style=\"text-align: left;\"> V/S </td>\\n</tr>\\n<tr>\\n <td style=\"text-align: right;\">\\n    [, 9] </td><td style=\"text-align: left;\"> am   </td><td style=\"text-align: left;\"> Transmission (0 = automatic, 1 = manual) </td>\\n</tr>\\n<tr>\\n <td style=\"text-align: right;\">\\n    [,10] </td><td style=\"text-align: left;\"> gear </td><td style=\"text-align: left;\"> Number of forward gears </td>\\n</tr>\\n<tr>\\n <td style=\"text-align: right;\">\\n    [,11] </td><td style=\"text-align: left;\"> carb </td><td style=\"text-align: left;\"> Number of carburetors\\n  </td>\\n</tr>\\n</table>\\n<h3>Source</h3>\\n<p>Henderson and Velleman (1981),\\nBuilding multiple regression models interactively.\\n<em>Biometrics</em>, <b>37</b>, 391&ndash;411.\\n</p>\\n<h3>Examples</h3>\\n<pre>\\nrequire(graphics)\\npairs(mtcars, main = \"mtcars data\")\\ncoplot(mpg ~ disp | as.factor(cyl), data = mtcars,\\n       panel = panel.smooth, rows = 1)\\n</pre>\\n",
+   "config" : {
+      "subtitle" : "datasets - mtcars",
+      "graphType" : "Scatter2D",
+      "title" : "Motor Trend Car Road Tests"
+   },
    "data" : {
       "y" : {
-         "vars" : [
-            "mpg",
-            "cyl",
-            "disp",
-            "hp",
-            "drat",
-            "wt",
-            "qsec",
-            "vs",
-            "am",
-            "gear",
-            "carb"
-         ],
          "smps" : [
             "Smp1",
             "Smp2",
@@ -424,12 +416,20 @@
                8,
                2
             ]
+         ],
+         "vars" : [
+            "mpg",
+            "cyl",
+            "disp",
+            "hp",
+            "drat",
+            "wt",
+            "qsec",
+            "vs",
+            "am",
+            "gear",
+            "carb"
          ]
       }
-   },
-   "config" : {
-      "graphType" : "Scatter2D",
-      "subtitle" : "datasets - mtcars",
-      "title" : "Motor Trend Car Road Tests"
    }
 }

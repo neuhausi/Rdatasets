@@ -1,51 +1,54 @@
 {
    "info" : "<table width=\"100%\" summary=\"page for plum_wide\"><tr><td>plum_wide</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\\n<h2>Plum root cuttings (wide format)</h2>\\n<h3>Description</h3>\\n<p>This is data from an experiment to investigate the effect\\nof cutting length and planting time on the survival of\\nplum root cuttings.\\n</p>\\n<h3>Variables</h3>\\n <ul>\\n<li><p> length: Cutting length.  </p>\\n</li>\\n<li><p> time:\\nPlanting time.  </p>\\n</li>\\n<li><p> dead: Number of dead plants in this\\ncondition.  </p>\\n</li>\\n<li><p> alive: Number of alive plants in this\\ncondition. </p>\\n</li></ul>\\n<h3>Source</h3>\\n<p>Hand, D.J., Daly, F., Lunn, A.D., McConway, K.J. &amp;\\nOstrowski, E. (1994), <em>A Handbook of Small Data\\nSets</em>, Chapman &amp; Hall.\\n</p>\\n<p>Bartlett, M.S. (1935), Contingency table interactions,\\n<em>Journal of the Royal Statistical Society\\nSupplement</em>, <b>2</b>, 248-252.\\n</p>\\n<h3>See Also</h3>\\n<p>This data frame is in &quot;wide&quot; format. See\\n<code>plum</code> for the same data in &quot;long&quot; format.\\n</p>\\n",
+   "config" : {
+      "subtitle" : "gcookbook - plum_wide",
+      "graphType" : "Scatter2D",
+      "title" : "Plum root cuttings (wide format)"
+   },
    "data" : {
       "y" : {
          "smps" : [
-            "Smp1",
-            "Smp2",
-            "Smp3",
-            "Smp4"
-         ],
-         "vars" : [
             "dead",
             "alive"
          ],
          "data" : [
             [
                84,
-               156,
-               133,
-               209
+               156
             ],
             [
                156,
-               84,
-               107,
+               84
+            ],
+            [
+               133,
+               107
+            ],
+            [
+               209,
                31
             ]
+         ],
+         "vars" : [
+            "Var1",
+            "Var2",
+            "Var3",
+            "Var4"
          ]
       },
-      "x" : {
-         "time" : [
-            "at_once",
-            "in_spring",
-            "at_once",
-            "in_spring"
-         ],
+      "z" : {
          "length" : [
             "long",
             "long",
             "short",
             "short"
+         ],
+         "time" : [
+            "at_once",
+            "in_spring",
+            "at_once",
+            "in_spring"
          ]
       }
-   },
-   "config" : {
-      "graphType" : "Scatter2D",
-      "subtitle" : "gcookbook - plum_wide",
-      "scatterPlotMatrix" : 1,
-      "title" : "Plum root cuttings (wide format)"
    }
 }

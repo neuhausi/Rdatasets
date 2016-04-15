@@ -1,93 +1,142 @@
 {
    "info" : "<table width=\"100%\" summary=\"page for AMSsurvey\"><tr><td>AMSsurvey</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\\n<h2>\\nAmerican Math Society Survey Data\\n</h2>\\n<h3>Description</h3>\\n<p>Counts of new PhDs in the mathematical sciences for 2008-09 and 2011-12\\ncategorized by type of institution, gender, and US citizenship status.\\n</p>\\n<h3>Usage</h3>\\n<pre>AMSsurvey</pre>\\n<h3>Format</h3>\\n<p>A data frame with 24 observations on the following 5 variables.\\n</p>\\n<dl>\\n<dt>type</dt><dd><p>a factor with levels <code>I(Pu)</code> for group I\\npublic universities, <code>I(Pr)</code> for group I private universities, <code>II</code>\\nand <code>III</code> for groups II and III, <code>IV</code> for statistics and\\nbiostatistics programs, and <code>Va</code> for applied mathemeatics programs.</p>\\n</dd>\\n<dt>sex</dt><dd><p>a factor with levels <code>Female</code>, <code>Male</code> of the\\nrecipient</p>\\n</dd>\\n<dt>citizen</dt><dd><p>a factor with levels <code>Non-US</code>, <code>US</code> giving\\ncitizenship status</p>\\n</dd>\\n<dt>count</dt><dd><p>The number of individuals of each type in 2008-09</p>\\n</dd>\\n<dt>count11</dt><dd><p>The number of individuals of each type in 2011-12</p>\\n</dd>\\n</dl>\\n<h3>Details</h3>\\n<p>These data are produced yearly by the American Math Society.\\n</p>\\n<h3>Source</h3>\\n<p><a href=\"http://www.ams.org/employment/surveyreports.html\">http://www.ams.org/employment/surveyreports.html</a>\\nSupplementary Table 4 in the 2008-09 data.  See <a href=\"http://www.ams.org/profession/data/annual-survey/docsgrtd\">http://www.ams.org/profession/data/annual-survey/docsgrtd</a> for more recent data.\\n</p>\\n<h3>References</h3>\\n<p>Fox, J. and Weisberg, S. (2011) \\n<em>An R Companion to Applied Regression</em>, Second Edition, Sage.\\n</p>\\n<p>Phipps, Polly, Maxwell, James W. and Rose, Colleen\\n(2009), <em>2009 Annual Survey of the Mathematical Sciences</em>,\\n57, 250&ndash;259, Supplementary Table 4,\\n<a href=\"http://www.ams.org/employment/2009Survey-First-Report-Supp-Table4.pdf\">http://www.ams.org/employment/2009Survey-First-Report-Supp-Table4.pdf</a>\\n</p>\\n",
+   "config" : {
+      "subtitle" : "car - AMSsurvey",
+      "graphType" : "Scatter2D",
+      "title" : "American Math Society Survey Data"
+   },
    "data" : {
       "y" : {
-         "vars" : [
+         "smps" : [
             "count",
             "count11"
-         ],
-         "smps" : [
-            "Smp1",
-            "Smp2",
-            "Smp3",
-            "Smp4",
-            "Smp5",
-            "Smp6",
-            "Smp7",
-            "Smp8",
-            "Smp9",
-            "Smp10",
-            "Smp11",
-            "Smp12",
-            "Smp13",
-            "Smp14",
-            "Smp15",
-            "Smp16",
-            "Smp17",
-            "Smp18",
-            "Smp19",
-            "Smp20",
-            "Smp21",
-            "Smp22",
-            "Smp23",
-            "Smp24"
          ],
          "data" : [
             [
                132,
-               35,
-               87,
-               20,
-               96,
-               47,
-               47,
-               32,
-               71,
-               54,
-               34,
-               14,
-               130,
-               29,
-               79,
-               25,
-               89,
-               50,
-               53,
-               39,
-               122,
-               105,
-               28,
-               12
+               148
             ],
             [
-               148,
-               40,
-               63,
-               22,
-               161,
-               53,
-               71,
-               28,
-               89,
-               55,
-               42,
-               21,
-               136,
+               35,
+               40
+            ],
+            [
+               87,
+               63
+            ],
+            [
+               20,
+               22
+            ],
+            [
+               96,
+               161
+            ],
+            [
+               47,
+               53
+            ],
+            [
+               47,
+               71
+            ],
+            [
                32,
-               82,
-               26,
-               116,
-               56,
-               61,
-               30,
-               153,
-               115,
-               27,
+               28
+            ],
+            [
+               71,
+               89
+            ],
+            [
+               54,
+               55
+            ],
+            [
+               34,
+               42
+            ],
+            [
+               14,
+               21
+            ],
+            [
+               130,
+               136
+            ],
+            [
+               29,
+               32
+            ],
+            [
+               79,
+               82
+            ],
+            [
+               25,
+               26
+            ],
+            [
+               89,
+               116
+            ],
+            [
+               50,
+               56
+            ],
+            [
+               53,
+               61
+            ],
+            [
+               39,
+               30
+            ],
+            [
+               122,
+               153
+            ],
+            [
+               105,
+               115
+            ],
+            [
+               28,
+               27
+            ],
+            [
+               12,
                17
             ]
+         ],
+         "vars" : [
+            "Var1",
+            "Var2",
+            "Var3",
+            "Var4",
+            "Var5",
+            "Var6",
+            "Var7",
+            "Var8",
+            "Var9",
+            "Var10",
+            "Var11",
+            "Var12",
+            "Var13",
+            "Var14",
+            "Var15",
+            "Var16",
+            "Var17",
+            "Var18",
+            "Var19",
+            "Var20",
+            "Var21",
+            "Var22",
+            "Var23",
+            "Var24"
          ]
       },
-      "x" : {
+      "z" : {
          "type" : [
             "I(Pu)",
             "I(Pu)",
@@ -167,10 +216,5 @@
             "Non-US"
          ]
       }
-   },
-   "config" : {
-      "graphType" : "Scatter2D",
-      "subtitle" : "car - AMSsurvey",
-      "title" : "American Math Society Survey Data"
    }
 }

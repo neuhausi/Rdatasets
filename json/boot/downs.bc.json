@@ -1,147 +1,201 @@
 {
    "info" : "<table width=\"100%\" summary=\"page for downs.bc\"><tr><td>downs.bc</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\\n<h2>\\nIncidence of Down's Syndrome in British Columbia\\n</h2>\\n<h3>Description</h3>\\n<p>The <code>downs.bc</code> data frame has 30 rows and 3 columns.\\n</p>\\n<p>Down's syndrome is a genetic disorder caused by an extra chromosome 21 or\\na part of chromosome 21 being translocated to another chromosome.  The \\nincidence of Down's syndrome is highly dependent on the mother's age and rises\\nsharply after age 30.  In the 1960's a large scale study of the effect of\\nmaternal age on the incidence of Down's syndrome was conducted at the\\nBritish Columbia Health Surveillance Registry.  These are the data which was\\ncollected in that study. \\n</p>\\n<p>Mothers were classified by age. Most groups correspond to the age in years but\\nthe first group comprises all mothers with ages in the range 15-17 and the \\nlast is those with ages 46-49.  No data for\\nmothers over 50 or below 15 were collected. \\n</p>\\n<h3>Usage</h3>\\n<pre>\\ndowns.bc\\n</pre>\\n<h3>Format</h3>\\n<p>This data frame contains the following columns:\\n</p>\\n<dl>\\n<dt><code>age</code></dt><dd>\\n<p>The average age of all mothers in the age category.\\n</p>\\n</dd>\\n<dt><code>m</code></dt><dd>\\n<p>The total number of live births to mothers in the age category.\\n</p>\\n</dd>\\n<dt><code>r</code></dt><dd>\\n<p>The number of cases of Down's syndrome.\\n</p>\\n</dd></dl>\\n<h3>Source</h3>\\n<p>The data were obtained from\\n</p>\\n<p>Geyer, C.J. (1991) Constrained maximum likelihood exemplified by isotonic \\nconvex logistic regression. \\n<em>Journal of the American Statistical Association</em>, <b>86</b>, 717&ndash;724.\\n</p>\\n<h3>References</h3>\\n<p>Davison, A.C. and Hinkley, D.V. (1997) \\n<em>Bootstrap Methods and Their Application</em>. Cambridge University Press.\\n</p>\\n",
+   "config" : {
+      "subtitle" : "boot - downs.bc",
+      "graphType" : "Scatter3D",
+      "title" : "Incidence of Down's Syndrome in British Columbia"
+   },
    "data" : {
       "y" : {
-         "vars" : [
+         "smps" : [
             "age",
             "m",
             "r"
          ],
-         "smps" : [
-            "Smp1",
-            "Smp2",
-            "Smp3",
-            "Smp4",
-            "Smp5",
-            "Smp6",
-            "Smp7",
-            "Smp8",
-            "Smp9",
-            "Smp10",
-            "Smp11",
-            "Smp12",
-            "Smp13",
-            "Smp14",
-            "Smp15",
-            "Smp16",
-            "Smp17",
-            "Smp18",
-            "Smp19",
-            "Smp20",
-            "Smp21",
-            "Smp22",
-            "Smp23",
-            "Smp24",
-            "Smp25",
-            "Smp26",
-            "Smp27",
-            "Smp28",
-            "Smp29",
-            "Smp30"
-         ],
          "data" : [
             [
                17,
-               18.5,
-               19.5,
-               20.5,
-               21.5,
-               22.5,
-               23.5,
-               24.5,
-               25.5,
-               26.5,
-               27.5,
-               28.5,
-               29.5,
-               30.5,
-               31.5,
-               32.5,
-               33.5,
-               34.5,
-               35.5,
-               36.5,
-               37.5,
-               38.5,
-               39.5,
-               40.5,
-               41.5,
-               42.4,
-               43.5,
-               44.5,
-               45.5,
-               47
-            ],
-            [
                13555,
-               13675,
-               18752,
-               22005,
-               23896,
-               24667,
-               24807,
-               23986,
-               22860,
-               21450,
-               19202,
-               17450,
-               15685,
-               13954,
-               11987,
-               10983,
-               9825,
-               8483,
-               7448,
-               6628,
-               5780,
-               4834,
-               3961,
-               2952,
-               2276,
-               1589,
-               1018,
-               596,
-               327,
-               249
+               16
             ],
             [
-               16,
-               15,
-               16,
-               22,
-               16,
-               12,
-               17,
-               22,
-               15,
-               14,
-               27,
-               14,
-               9,
-               12,
-               12,
-               18,
-               13,
-               11,
-               23,
-               13,
-               17,
-               15,
-               30,
-               31,
-               33,
-               20,
-               16,
-               22,
-               11,
+               18.5,
+               13675,
+               15
+            ],
+            [
+               19.5,
+               18752,
+               16
+            ],
+            [
+               20.5,
+               22005,
+               22
+            ],
+            [
+               21.5,
+               23896,
+               16
+            ],
+            [
+               22.5,
+               24667,
+               12
+            ],
+            [
+               23.5,
+               24807,
+               17
+            ],
+            [
+               24.5,
+               23986,
+               22
+            ],
+            [
+               25.5,
+               22860,
+               15
+            ],
+            [
+               26.5,
+               21450,
+               14
+            ],
+            [
+               27.5,
+               19202,
+               27
+            ],
+            [
+               28.5,
+               17450,
+               14
+            ],
+            [
+               29.5,
+               15685,
+               9
+            ],
+            [
+               30.5,
+               13954,
+               12
+            ],
+            [
+               31.5,
+               11987,
+               12
+            ],
+            [
+               32.5,
+               10983,
+               18
+            ],
+            [
+               33.5,
+               9825,
+               13
+            ],
+            [
+               34.5,
+               8483,
+               11
+            ],
+            [
+               35.5,
+               7448,
+               23
+            ],
+            [
+               36.5,
+               6628,
+               13
+            ],
+            [
+               37.5,
+               5780,
+               17
+            ],
+            [
+               38.5,
+               4834,
+               15
+            ],
+            [
+               39.5,
+               3961,
+               30
+            ],
+            [
+               40.5,
+               2952,
+               31
+            ],
+            [
+               41.5,
+               2276,
+               33
+            ],
+            [
+               42.4,
+               1589,
+               20
+            ],
+            [
+               43.5,
+               1018,
+               16
+            ],
+            [
+               44.5,
+               596,
+               22
+            ],
+            [
+               45.5,
+               327,
+               11
+            ],
+            [
+               47,
+               249,
                7
             ]
+         ],
+         "vars" : [
+            "Var1",
+            "Var2",
+            "Var3",
+            "Var4",
+            "Var5",
+            "Var6",
+            "Var7",
+            "Var8",
+            "Var9",
+            "Var10",
+            "Var11",
+            "Var12",
+            "Var13",
+            "Var14",
+            "Var15",
+            "Var16",
+            "Var17",
+            "Var18",
+            "Var19",
+            "Var20",
+            "Var21",
+            "Var22",
+            "Var23",
+            "Var24",
+            "Var25",
+            "Var26",
+            "Var27",
+            "Var28",
+            "Var29",
+            "Var30"
          ]
       }
-   },
-   "config" : {
-      "graphType" : "Scatter2D",
-      "subtitle" : "boot - downs.bc",
-      "title" : "Incidence of Down's Syndrome in British Columbia"
    }
 }

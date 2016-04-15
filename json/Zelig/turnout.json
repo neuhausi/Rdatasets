@@ -1,5 +1,10 @@
 {
    "info" : "<table width=\"100%\" summary=\"page for turnout\"><tr><td>turnout</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\\n<h2>Turnout Data Set from the National Election Survey</h2>\\n<h3>Description</h3>\\n<p>This data set contains individual-level turnout data. It pools several\\nAmerican National Election Surveys conducted during the 1992 presidential\\nelection year.  Only the first 2,000 observations (from a total of 15,837 \\nobservations) are included in the sample data.  \\n</p>\\n<h3>Usage</h3>\\n<pre>data(turnout)</pre>\\n<h3>Format</h3>\\n<p>A table containing 5 variables (&quot;race&quot;, &quot;age&quot;, &quot;educate&quot;, \\n&quot;income&quot;, and &quot;vote&quot;) and 2,000 observations.</p>\\n<h3>Source</h3>\\n<p>National Election Survey</p>\\n<h3>References</h3>\\n<p>King, Gary, Michael Tomz, Jason Wittenberg (2000).\\n&ldquo;Making the Most of Statistical Analyses: Improving Interpretation and \\nPresentation,&rdquo; <em>American Journal of Political Science</em>, vol. 44,\\npp.341&ndash;355.\\n</p>\\n",
+   "config" : {
+      "subtitle" : "Zelig - turnout",
+      "graphType" : "Scatter2D",
+      "title" : "Turnout Data Set from the National Election Survey"
+   },
    "data" : {
       "y" : {
          "smps" : [
@@ -2003,12 +2008,6 @@
             "Smp1998",
             "Smp1999",
             "Smp2000"
-         ],
-         "vars" : [
-            "age",
-            "educate",
-            "income",
-            "vote"
          ],
          "data" : [
             [
@@ -10019,6 +10018,12 @@
                0,
                0
             ]
+         ],
+         "vars" : [
+            "age",
+            "educate",
+            "income",
+            "vote"
          ]
       },
       "x" : {
@@ -12025,10 +12030,5 @@
             "white"
          ]
       }
-   },
-   "config" : {
-      "graphType" : "Scatter2D",
-      "subtitle" : "Zelig - turnout",
-      "title" : "Turnout Data Set from the National Election Survey"
    }
 }

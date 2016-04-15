@@ -1,5 +1,10 @@
 {
    "info" : "<table width=\"100%\" summary=\"page for Icecream\"><tr><td>Icecream</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\\n<h2>Ice Cream Consumption </h2>\\n<h3>Description</h3>\\n<p>four&ndash;weekly observations from 1951&ndash;03&ndash;18 to 1953&ndash;07&ndash;11\\n</p>\\n<p><em>number of observations</em> :  30\\n</p>\\n<p><em>observation</em> :  country\\n</p>\\n<p><em>country</em> :  United States\\n</p>\\n<h3>Usage</h3>\\n<pre>data(Icecream)</pre>\\n<h3>Format</h3>\\n<p>A time serie containing :\\n</p>\\n<dl>\\n<dt>cons</dt><dd><p>consumption of ice cream per head (in pints);</p>\\n</dd>\\n<dt>income</dt><dd><p>average family income per week (in US Dollars);</p>\\n</dd>\\n<dt>price</dt><dd><p>price of ice cream (per pint);</p>\\n</dd>\\n<dt>temp</dt><dd><p>average temperature (in Fahrenheit);</p>\\n</dd>\\n</dl>\\n<h3>Source</h3>\\n<p>Hildreth, C.  and  J.  Lu (1960) <em>Demand relations with autocorrelated disturbances</em>, Technical Bulletin No 2765, Michigan State University.\\n</p>\\n<h3>References</h3>\\n<p>Verbeek, Marno (2004) <em>A guide to modern econometrics</em>, John Wiley and Sons, <a href=\"https://feb.kuleuven.be/GME/\">https://feb.kuleuven.be/GME/</a>, chapter 4.\\n</p>\\n<h3>See Also</h3>\\n<p><code>Index.Source</code>, <code>Index.Economics</code>, <code>Index.Econometrics</code>, <code>Index.Observations</code>,\\n</p>\\n<p><code>Index.Time.Series</code></p>\\n",
+   "config" : {
+      "subtitle" : "Ecdat - Icecream",
+      "graphType" : "Scatter2D",
+      "title" : "Ice Cream Consumption"
+   },
    "data" : {
       "y" : {
          "smps" : [
@@ -33,12 +38,6 @@
             "Smp28",
             "Smp29",
             "Smp30"
-         ],
-         "vars" : [
-            "cons",
-            "income",
-            "price",
-            "temp"
          ],
          "data" : [
             [
@@ -169,12 +168,13 @@
                64,
                71
             ]
+         ],
+         "vars" : [
+            "cons",
+            "income",
+            "price",
+            "temp"
          ]
       }
-   },
-   "config" : {
-      "graphType" : "Scatter2D",
-      "subtitle" : "Ecdat - Icecream",
-      "title" : "Ice Cream Consumption"
    }
 }

@@ -1,44 +1,45 @@
 {
    "info" : "<table width=\"100%\" summary=\"page for pistonrings\"><tr><td>pistonrings</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\\n<h2> Piston Rings Failures </h2>\\n<h3>Description</h3>\\n<p>Number of failures of piston rings in three legs of four steam-driven\\ncompressors. \\n</p>\\n<h3>Usage</h3>\\n<pre>data(\"pistonrings\")</pre>\\n<h3>Format</h3>\\n<p>A two-way classification, see <code>table</code>.\\n</p>\\n<h3>Details</h3>\\n<p>The data are given in form of a <code>table</code>. \\nThe table gives the number of piston-ring failures in each\\nof three legs of four steam-driven compressors located in the\\nsame building. The compressors have identical design and are\\noriented in the same way. The question of interest is whether\\nthe two classification variables (compressor and leg) are independent.\\n</p>\\n<h3>Source</h3>\\n<p>S. J. Haberman (1973), The analysis of residuals in cross-classificed\\ntables. <em>Biometrics</em> <b>29</b>, 205&ndash;220.\\n</p>\\n<h3>Examples</h3>\\n<pre>\\n  data(\"pistonrings\", package = \"HSAUR\")\\n  mosaicplot(pistonrings)\\n</pre>\\n",
+   "config" : {
+      "subtitle" : "HSAUR - pistonrings",
+      "graphType" : "Scatter3D",
+      "title" : "Piston Rings Failures"
+   },
    "data" : {
       "y" : {
-         "vars" : [
+         "smps" : [
             "North",
             "Centre",
             "South"
          ],
-         "smps" : [
-            "Smp1",
-            "Smp2",
-            "Smp3",
-            "Smp4"
-         ],
          "data" : [
             [
                17,
-               11,
-               11,
-               14
-            ],
-            [
                17,
-               9,
-               8,
-               7
+               12
             ],
             [
-               12,
-               13,
-               19,
+               11,
+               9,
+               13
+            ],
+            [
+               11,
+               8,
+               19
+            ],
+            [
+               14,
+               7,
                28
             ]
+         ],
+         "vars" : [
+            "Var1",
+            "Var2",
+            "Var3",
+            "Var4"
          ]
       }
-   },
-   "config" : {
-      "graphType" : "Scatter2D",
-      "subtitle" : "HSAUR - pistonrings",
-      "scatterPlotMatrix" : 1,
-      "title" : "Piston Rings Failures"
    }
 }

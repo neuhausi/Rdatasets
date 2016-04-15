@@ -1,17 +1,12 @@
 {
    "info" : "<table width=\"100%\" summary=\"page for cpus\"><tr><td>cpus</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\\n<h2>\\nPerformance of Computer CPUs\\n</h2>\\n<h3>Description</h3>\\n<p>A relative performance measure and characteristics of 209 CPUs.\\n</p>\\n<h3>Usage</h3>\\n<pre>\\ncpus\\n</pre>\\n<h3>Format</h3>\\n<p>The components are:\\n</p>\\n<dl>\\n<dt><code>name</code></dt><dd>\\n<p>manufacturer and model.\\n</p>\\n</dd>\\n<dt><code>syct</code></dt><dd>\\n<p>cycle time in nanoseconds.\\n</p>\\n</dd>\\n<dt><code>mmin</code></dt><dd>\\n<p>minimum main memory in kilobytes.\\n</p>\\n</dd>\\n<dt><code>mmax</code></dt><dd>\\n<p>maximum main memory in kilobytes.\\n</p>\\n</dd>\\n<dt><code>cach</code></dt><dd>\\n<p>cache size in kilobytes.\\n</p>\\n</dd>\\n<dt><code>chmin</code></dt><dd>\\n<p>minimum number of channels.\\n</p>\\n</dd>\\n<dt><code>chmax</code></dt><dd>\\n<p>maximum number of channels.\\n</p>\\n</dd>\\n<dt><code>perf</code></dt><dd>\\n<p>published performance on a benchmark mix relative to an IBM 370/158-3.\\n</p>\\n</dd>\\n<dt><code>estperf</code></dt><dd>\\n<p>estimated performance (by Ein-Dor &amp; Feldmesser).\\n</p>\\n</dd>\\n</dl>\\n<h3>Source</h3>\\n<p>P. Ein-Dor and J. Feldmesser (1987)\\nAttributes of the performance of central processing units: a relative\\nperformance prediction model.\\n<em>Comm. ACM.</em> <b>30</b>, 308&ndash;317.\\n</p>\\n<h3>References</h3>\\n<p>Venables, W. N. and Ripley, B. D. (2002)\\n<em>Modern Applied Statistics with S.</em> Fourth edition.  Springer.\\n</p>\\n",
+   "config" : {
+      "subtitle" : "MASS - cpus",
+      "graphType" : "Scatter2D",
+      "title" : "Performance of Computer CPUs"
+   },
    "data" : {
       "y" : {
-         "vars" : [
-            "syct",
-            "mmin",
-            "mmax",
-            "cach",
-            "chmin",
-            "chmax",
-            "perf",
-            "estperf"
-         ],
          "smps" : [
             "Smp1",
             "Smp2",
@@ -1912,6 +1907,16 @@
                47,
                25
             ]
+         ],
+         "vars" : [
+            "syct",
+            "mmin",
+            "mmax",
+            "cach",
+            "chmin",
+            "chmax",
+            "perf",
+            "estperf"
          ]
       },
       "x" : {
@@ -2127,10 +2132,5 @@
             "WANG VS 90"
          ]
       }
-   },
-   "config" : {
-      "graphType" : "Scatter2D",
-      "subtitle" : "MASS - cpus",
-      "title" : "Performance of Computer CPUs"
    }
 }

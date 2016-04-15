@@ -1,13 +1,12 @@
 {
    "info" : "<table width=\"100%\" summary=\"page for pluton\"><tr><td>pluton</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\\n<h2>Isotopic Composition Plutonium Batches</h2>\\n<h3>Description</h3>\\n<p>The <code>pluton</code> data frame has 45 rows and 4 columns,\\ncontaining percentages of isotopic composition of 45 Plutonium\\nbatches.\\n</p>\\n<h3>Usage</h3>\\n<pre>data(pluton)</pre>\\n<h3>Format</h3>\\n<p>This data frame contains the following columns:\\n</p>\\n<dl>\\n<dt>Pu238</dt><dd><p>the percentages of <i>(238)Pu</i>,\\nalways less than 2 percent.</p>\\n</dd>\\n<dt>Pu239</dt><dd><p>the percentages of <i>(239)Pu</i>,\\ntypically between 60 and 80 percent (from neutron capture of Uranium,\\n<i>(238)U</i>).</p>\\n</dd>\\n<dt>Pu240</dt><dd><p>percentage of the plutonium 240 isotope.</p>\\n</dd>\\n<dt>Pu241</dt><dd><p>percentage of the plutonium 241 isotope.</p>\\n</dd>\\n</dl>\\n<h3>Details</h3>\\n<p>Note that the percentage of plutonium~242 can be computed from the\\nother four percentages, see the examples.\\n</p>\\n<p>In the reference below it is explained why it is very desirable to\\ncombine these plutonium patches in three groups of similar size.\\n</p>\\n<h3>Source</h3>\\n<p>Available as &lsquo;<span class=\"file\">pluton.dat</span>&rsquo; from the archive of the University of Antwerpen,\\n&lsquo;<span class=\"file\">..../datasets/clusplot-examples.tar.gz</span>&rsquo;, no longer available.\\n</p>\\n<h3>References</h3>\\n<p>Rousseeuw, P.J. and Kaufman, L and Trauwaert, E. (1996)\\nFuzzy clustering using scatter matrices,\\n<em>Computational Statistics and Data Analysis</em> <b>23</b>(1), 135&ndash;151.\\n</p>\\n<h3>Examples</h3>\\n<pre>\\ndata(pluton)\\nhist(apply(pluton,1,sum), col = \"gray\") # between 94% and 100%\\npu5 &lt;- pluton\\npu5$Pu242 &lt;- 100 - apply(pluton,1,sum) # the remaining isotope.\\npairs(pu5)\\n</pre>\\n",
+   "config" : {
+      "subtitle" : "cluster - pluton",
+      "graphType" : "Scatter2D",
+      "title" : "Isotopic Composition Plutonium Batches"
+   },
    "data" : {
       "y" : {
-         "vars" : [
-            "Pu238",
-            "Pu239",
-            "Pu240",
-            "Pu241"
-         ],
          "smps" : [
             "Smp1",
             "Smp2",
@@ -244,12 +243,13 @@
                2.875,
                9.839
             ]
+         ],
+         "vars" : [
+            "Pu238",
+            "Pu239",
+            "Pu240",
+            "Pu241"
          ]
       }
-   },
-   "config" : {
-      "graphType" : "Scatter2D",
-      "subtitle" : "cluster - pluton",
-      "title" : "Isotopic Composition Plutonium Batches"
    }
 }

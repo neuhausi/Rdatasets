@@ -1,17 +1,12 @@
 {
    "info" : "<table width=\"100%\" summary=\"page for nwtco\"><tr><td>nwtco</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\\n<h2>Data from the National Wilm's Tumor Study</h2>\\n<h3>Description</h3>\\n<p>Missing data/masurement error example. Tumor histology predicts\\nsurvival, but prediction is stronger with central lab histology than\\nwith the local institution determination.\\n</p>\\n<h3>Usage</h3>\\n<pre>nwtco</pre>\\n<h3>Format</h3>\\n<p>A data frame with 4028 observations on the following 9 variables.\\n</p>\\n<dl>\\n<dt><code>seqno</code></dt><dd><p>id number</p>\\n</dd>\\n<dt><code>instit</code></dt><dd><p>Histology from local institution</p>\\n</dd>\\n<dt><code>histol</code></dt><dd><p>Histology from central lab</p>\\n</dd>\\n<dt><code>stage</code></dt><dd><p>Disease stage</p>\\n</dd>\\n<dt><code>study</code></dt><dd><p>study</p>\\n</dd>\\n<dt><code>rel</code></dt><dd><p>indicator for relapse</p>\\n</dd>\\n<dt><code>edrel</code></dt><dd><p>time to relapse</p>\\n</dd>\\n<dt><code>age</code></dt><dd><p>age in months</p>\\n</dd>\\n<dt><code>in.subcohort</code></dt><dd><p>Included in the subcohort for the example in the\\npaper</p>\\n</dd>\\n</dl>\\n<h3>Source</h3>\\n<p><a href=\"http://faculty.washington.edu/norm/software.html\">http://faculty.washington.edu/norm/software.html</a>\\n</p>\\n<h3>References</h3>\\n<p>NE Breslow and N Chatterjee (1999),\\nDesign and analysis of two-phase studies with binary outcome applied\\nto Wilms tumour prognosis.\\n<em>Applied Statistics</em> <b>48</b>, 457&ndash;68.\\n</p>\\n<h3>Examples</h3>\\n<pre>\\nwith(nwtco, table(instit,histol))\\nanova(coxph(Surv(edrel,rel)~histol+instit,data=nwtco))\\nanova(coxph(Surv(edrel,rel)~instit+histol,data=nwtco))\\n</pre>\\n",
+   "config" : {
+      "subtitle" : "survival - nwtco",
+      "graphType" : "Scatter2D",
+      "title" : "Data from the National Wilm's Tumor Study"
+   },
    "data" : {
       "y" : {
-         "vars" : [
-            "seqno",
-            "instit",
-            "histol",
-            "stage",
-            "study",
-            "rel",
-            "edrel",
-            "age"
-         ],
          "smps" : [
             "Smp1",
             "Smp2",
@@ -36283,6 +36278,16 @@
                70,
                28
             ]
+         ],
+         "vars" : [
+            "seqno",
+            "instit",
+            "histol",
+            "stage",
+            "study",
+            "rel",
+            "edrel",
+            "age"
          ]
       },
       "x" : {
@@ -40317,10 +40322,5 @@
             "FALSE"
          ]
       }
-   },
-   "config" : {
-      "graphType" : "Scatter2D",
-      "subtitle" : "survival - nwtco",
-      "title" : "Data from the National Wilm's Tumor Study"
    }
 }

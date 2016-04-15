@@ -1,14 +1,12 @@
 {
    "info" : "<table width=\"100%\" summary=\"page for quakes\"><tr><td>quakes</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\\n<h2>Locations of Earthquakes off Fiji</h2>\\n<h3>Description</h3>\\n<p>The data set give the locations of 1000 seismic events of MB &gt; 4.0.\\nThe events occurred in a cube near Fiji since 1964.\\n</p>\\n<h3>Usage</h3>\\n<pre>quakes</pre>\\n<h3>Format</h3>\\n<p>A data frame with 1000 observations on 5 variables.\\n</p>\\n<table summary=\"Rd table\">\\n<tr>\\n <td style=\"text-align: right;\">\\n    [,1] </td><td style=\"text-align: left;\"> lat      </td><td style=\"text-align: left;\"> numeric </td><td style=\"text-align: left;\"> Latitude of event</td>\\n</tr>\\n<tr>\\n <td style=\"text-align: right;\">\\n    [,2] </td><td style=\"text-align: left;\"> long     </td><td style=\"text-align: left;\"> numeric </td><td style=\"text-align: left;\"> Longitude</td>\\n</tr>\\n<tr>\\n <td style=\"text-align: right;\">\\n    [,3] </td><td style=\"text-align: left;\"> depth    </td><td style=\"text-align: left;\"> numeric </td><td style=\"text-align: left;\"> Depth (km)</td>\\n</tr>\\n<tr>\\n <td style=\"text-align: right;\">\\n    [,4] </td><td style=\"text-align: left;\"> mag      </td><td style=\"text-align: left;\"> numeric </td><td style=\"text-align: left;\"> Richter Magnitude</td>\\n</tr>\\n<tr>\\n <td style=\"text-align: right;\">\\n    [,5] </td><td style=\"text-align: left;\"> stations </td><td style=\"text-align: left;\"> numeric </td><td style=\"text-align: left;\"> Number of stations reporting\\n  </td>\\n</tr>\\n</table>\\n<h3>Details</h3>\\n<p>There are two clear planes of seismic activity.  One is a major plate\\njunction; the other is the Tonga trench off New Zealand.  These data\\nconstitute a subsample from a larger dataset of containing 5000\\nobservations.\\n</p>\\n<h3>Source</h3>\\n<p>This is one of the Harvard PRIM-H project data sets.  They in turn\\nobtained it from Dr. John Woodhouse, Dept. of Geophysics, Harvard\\nUniversity.\\n</p>\\n<h3>Examples</h3>\\n<pre>\\nrequire(graphics)\\npairs(quakes, main = \"Fiji Earthquakes, N = 1000\", cex.main = 1.2, pch = \".\")\\n</pre>\\n",
+   "config" : {
+      "subtitle" : "datasets - quakes",
+      "graphType" : "Scatter2D",
+      "title" : "Locations of Earthquakes off Fiji"
+   },
    "data" : {
       "y" : {
-         "vars" : [
-            "lat",
-            "long",
-            "depth",
-            "mag",
-            "stations"
-         ],
          "smps" : [
             "Smp1",
             "Smp2",
@@ -6022,12 +6020,14 @@
                14,
                119
             ]
+         ],
+         "vars" : [
+            "lat",
+            "long",
+            "depth",
+            "mag",
+            "stations"
          ]
       }
-   },
-   "config" : {
-      "graphType" : "Scatter2D",
-      "subtitle" : "datasets - quakes",
-      "title" : "Locations of Earthquakes off Fiji"
    }
 }

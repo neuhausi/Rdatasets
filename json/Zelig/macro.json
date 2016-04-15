@@ -1,5 +1,10 @@
 {
    "info" : "<table width=\"100%\" summary=\"page for macro\"><tr><td>macro</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\\n<h2>Macroeconomic Data</h2>\\n<h3>Description</h3>\\n<p>Selected macroeconomic indicators for Austria, Belgium, Canada,\\nDenmark, Finland, France, Italy, Japan, the Netherlands, Norway,\\nSweden, the United Kingdom, the United States, and West Germany for\\nthe period 1966-1990.  \\n</p>\\n<h3>Usage</h3>\\n<pre>data(macro)</pre>\\n<h3>Format</h3>\\n<p>A table containing 6 variables (&quot;country&quot;, &quot;year&quot;, &quot;gdp&quot;, \\n&quot;unem&quot;, &quot;capmob&quot;, and &quot;trade&quot;) and 350 observations.\\n</p>\\n<h3>Source</h3>\\n<p>ICPSR</p>\\n<h3>References</h3>\\n<p>King, Gary, Michael Tomz and Jason Wittenberg. ICPSR Publication\\nRelated Archive, 1225.\\n</p>\\n<p>King, Gary, Michael Tomz and Jason Wittenberg (2000).\\n&ldquo;Making the Most of Statistical Analyses: Improving Interpretation and \\nPresentation,&rdquo; <em>American Journal of Political Science</em>, vol. 44,\\npp. 341-355.\\n</p>\\n",
+   "config" : {
+      "subtitle" : "Zelig - macro",
+      "graphType" : "Scatter2D",
+      "title" : "Macroeconomic Data"
+   },
    "data" : {
       "y" : {
          "smps" : [
@@ -353,13 +358,6 @@
             "Smp348",
             "Smp349",
             "Smp350"
-         ],
-         "vars" : [
-            "year",
-            "gdp",
-            "unem",
-            "capmob",
-            "trade"
          ],
          "data" : [
             [
@@ -2122,6 +2120,13 @@
                23.128797,
                20.000304
             ]
+         ],
+         "vars" : [
+            "year",
+            "gdp",
+            "unem",
+            "capmob",
+            "trade"
          ]
       },
       "x" : {
@@ -2478,10 +2483,5 @@
             "Japan"
          ]
       }
-   },
-   "config" : {
-      "graphType" : "Scatter2D",
-      "subtitle" : "Zelig - macro",
-      "title" : "Macroeconomic Data"
    }
 }

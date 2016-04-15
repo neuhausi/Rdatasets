@@ -1,51 +1,79 @@
 {
    "info" : "<table width=\"100%\" summary=\"page for DDT\"><tr><td>DDT</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\\n<h2>\\nDDT in Kale\\n</h2>\\n<h3>Description</h3>\\n<p>A numeric vector of 15 measurements by different laboratories of the\\npesticide DDT in kale, in ppm (parts per million) using the multiple\\npesticide residue measurement.\\n</p>\\n<h3>Usage</h3>\\n<pre>\\nDDT\\n</pre>\\n<h3>Source</h3>\\n<p>C. E. Finsterwalder (1976)\\nCollaborative study of an extension of the Mills <em>et al</em>\\nmethod for the determination of pesticide residues in food.\\n<em>J. Off. Anal. Chem.</em> <b>59</b>, 169&ndash;171\\n</p>\\n<p>R. G. Staudte and S. J. Sheather (1990)\\n<em>Robust Estimation and Testing.</em>\\nWiley\\n</p>\\n",
+   "config" : {
+      "subtitle" : "MASS - DDT",
+      "graphType" : "Pie",
+      "title" : "DDT in Kale"
+   },
    "data" : {
       "y" : {
-         "vars" : [
-            "x"
-         ],
          "smps" : [
-            "Smp1",
-            "Smp2",
-            "Smp3",
-            "Smp4",
-            "Smp5",
-            "Smp6",
-            "Smp7",
-            "Smp8",
-            "Smp9",
-            "Smp10",
-            "Smp11",
-            "Smp12",
-            "Smp13",
-            "Smp14",
-            "Smp15"
+            "x"
          ],
          "data" : [
             [
-               2.79,
-               2.93,
-               3.22,
-               3.78,
-               3.22,
-               3.38,
-               3.18,
-               3.33,
-               3.34,
-               3.06,
-               3.07,
-               3.56,
-               3.08,
-               4.64,
+               2.79
+            ],
+            [
+               2.93
+            ],
+            [
+               3.22
+            ],
+            [
+               3.78
+            ],
+            [
+               3.22
+            ],
+            [
+               3.38
+            ],
+            [
+               3.18
+            ],
+            [
+               3.33
+            ],
+            [
+               3.34
+            ],
+            [
+               3.06
+            ],
+            [
+               3.07
+            ],
+            [
+               3.56
+            ],
+            [
+               3.08
+            ],
+            [
+               4.64
+            ],
+            [
                3.34
             ]
+         ],
+         "vars" : [
+            "Var1",
+            "Var2",
+            "Var3",
+            "Var4",
+            "Var5",
+            "Var6",
+            "Var7",
+            "Var8",
+            "Var9",
+            "Var10",
+            "Var11",
+            "Var12",
+            "Var13",
+            "Var14",
+            "Var15"
          ]
       }
-   },
-   "config" : {
-      "graphType" : "Pie",
-      "subtitle" : "MASS - DDT",
-      "title" : "DDT in Kale"
    }
 }

@@ -1,5 +1,10 @@
 {
    "info" : "<table width=\"100%\" summary=\"page for cf\"><tr><td>cf</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\\n<h2>Cystic fibrosis data</h2>\\n<h3>Description</h3>\\n<p>This data set contains a case-control indicator and 23 SNPs.\\n</p>\\n<p>The inter-marker distances (Morgan) are as follows\\n</p>\\n<p>0.000090, 0.000158, 0.005000, 0.000100, 0.000200, 0.000150, 0.000250, \\n0.000200, 0.000050, 0.000350, 0.000300, 0.000250, 0.000350, 0.000350, 0.000800,\\n0.000100, 0.000200, 0.000150, 0.000550, 0.006000, 0.000700, 0.001000\\n</p>\\n<h3>Usage</h3>\\n<pre>data(cf)</pre>\\n<h3>Format</h3>\\n<p>A data frame containing 186 rows and 24 columns</p>\\n<h3>Note</h3>\\n<p>This can be used as an example of converting PL-EM to matrix format,\\n</p>\\n<pre>\\ncfdata &lt;- vector(\"numeric\")\\ncfname &lt;- vector(\"character\")\\nfor (i in 2:dim(cf)[2])\\n    tmp &lt;- plem2m(cf[,i])\\n    a1 &lt;- tmp[[1]]\\n    a2 &lt;- tmp[[2]]\\n    cfdata &lt;- cbind(cfdata,a1,a2)\\n    a1name &lt;- paste(\"loc\",i-1,\".a1\",sep=\"\")\\n    a2name &lt;- paste(\"loc\",i-1,\".a2\",sep=\"\")\\n    cfname &lt;- cbind(cfname,a1name,a2name)\\ncfdata &lt;- as.data.frame(cfdata)\\nnames(cfdata) &lt;- cfname\\n</pre>\\n<h3>Source</h3>\\n<p>Liu JS, Sabatti C, Teng J, Keats BJB, Risch N (2001). Bayesian Analysis of Haplotypes for Linkage\\nDisequilibrium Mapping. Genome Research 11:1716-1724</p>\\n",
+   "config" : {
+      "subtitle" : "gap - cf",
+      "graphType" : "Heatmap",
+      "title" : "Cystic fibrosis data"
+   },
    "data" : {
       "y" : {
          "smps" : [
@@ -189,32 +194,6 @@
             "Smp184",
             "Smp185",
             "Smp186"
-         ],
-         "vars" : [
-            "y",
-            "loc1",
-            "loc2",
-            "loc3",
-            "loc4",
-            "loc5",
-            "loc6",
-            "loc7",
-            "loc8",
-            "loc9",
-            "loc10",
-            "loc11",
-            "loc12",
-            "loc13",
-            "loc14",
-            "loc15",
-            "loc16",
-            "loc17",
-            "loc18",
-            "loc19",
-            "loc20",
-            "loc21",
-            "loc22",
-            "loc23"
          ],
          "data" : [
             [
@@ -4729,12 +4708,33 @@
                0,
                1
             ]
+         ],
+         "vars" : [
+            "y",
+            "loc1",
+            "loc2",
+            "loc3",
+            "loc4",
+            "loc5",
+            "loc6",
+            "loc7",
+            "loc8",
+            "loc9",
+            "loc10",
+            "loc11",
+            "loc12",
+            "loc13",
+            "loc14",
+            "loc15",
+            "loc16",
+            "loc17",
+            "loc18",
+            "loc19",
+            "loc20",
+            "loc21",
+            "loc22",
+            "loc23"
          ]
       }
-   },
-   "config" : {
-      "graphType" : "Heatmap",
-      "subtitle" : "gap - cf",
-      "title" : "Cystic fibrosis data"
    }
 }

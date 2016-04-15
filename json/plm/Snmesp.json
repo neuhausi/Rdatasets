@@ -1,17 +1,12 @@
 {
    "info" : "<table width=\"100%\" summary=\"page for Snmesp\"><tr><td>Snmesp</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\\n<h2>Employment and Wages in Spain</h2>\\n<h3>Description</h3>\\n<p>A panel of 738 observations from 1983 to 1990\\n</p>\\n<p><em>total number of observations</em>:  5904\\n</p>\\n<p><em>observation</em>:  firms\\n</p>\\n<p><em>country</em>:  Spain\\n</p>\\n<h3>Usage</h3>\\n<pre>data(Snmesp)</pre>\\n<h3>Format</h3>\\n<p>A data frame containing:\\n</p>\\n<dl>\\n<dt>firm</dt><dd><p>firm index</p>\\n</dd>\\n<dt>year</dt><dd><p>year</p>\\n</dd>\\n<dt>n</dt><dd><p>log of employment</p>\\n</dd>\\n<dt>w</dt><dd><p>log of wages</p>\\n</dd>\\n<dt>y</dt><dd><p>log of real output</p>\\n</dd>\\n<dt>i</dt><dd><p>log of intermediate inputs</p>\\n</dd>\\n<dt>k</dt><dd><p>log of real capital stock</p>\\n</dd>\\n<dt>f</dt><dd><p>real cash flow</p>\\n</dd>\\n</dl>\\n<h3>Source</h3>\\n<p>Journal of Business Economics and Statistics data archive:\\n</p>\\n<p><a href=\"http://www.amstat.org/publications/jbes/\">http://www.amstat.org/publications/jbes/</a>.\\n</p>\\n<h3>References</h3>\\n<p>Alonso&ndash;Borrego, C. and Arellano, M. (1999). Symmetrically\\nNormalized Instrumental-Variable Estimation Using Panel Data,\\n<em>Journal of Business and Economic Statistics</em>, <b>17(1)</b>,\\npp. 36&ndash;49.\\n</p>\\n",
+   "config" : {
+      "subtitle" : "plm - Snmesp",
+      "graphType" : "Scatter2D",
+      "title" : "Employment and Wages in Spain"
+   },
    "data" : {
       "y" : {
-         "vars" : [
-            "firm",
-            "year",
-            "n",
-            "w",
-            "y",
-            "i",
-            "k",
-            "f"
-         ],
          "smps" : [
             "Smp1",
             "Smp2",
@@ -53167,12 +53162,17 @@
                233.8857,
                238.5042
             ]
+         ],
+         "vars" : [
+            "firm",
+            "year",
+            "n",
+            "w",
+            "y",
+            "i",
+            "k",
+            "f"
          ]
       }
-   },
-   "config" : {
-      "graphType" : "Scatter2D",
-      "subtitle" : "plm - Snmesp",
-      "title" : "Employment and Wages in Spain"
    }
 }

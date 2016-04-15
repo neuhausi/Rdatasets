@@ -1,14 +1,12 @@
 {
    "info" : "<table width=\"100%\" summary=\"page for Pottery\"><tr><td>Pottery</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\\n<h2>Chemical Composition of Pottery</h2>\\n<h3>Description</h3>\\n<p>The data give the chemical composition of ancient pottery found at four sites in Great Britain. They \\nappear in Hand, et al. (1994), and are used to illustrate MANOVA in the SAS Manual. (Suggested by Michael\\nFriendly.)\\n</p>\\n<h3>Usage</h3>\\n<pre>\\nPottery\\n</pre>\\n<h3>Format</h3>\\n<p>A data frame with 26 observations on the following 6 variables.\\n</p>\\n<dl>\\n<dt><code>Site</code></dt><dd><p>a factor with levels <code>AshleyRails</code> <code>Caldicot</code> <code>IsleThorns</code> <code>Llanedyrn</code></p>\\n</dd>\\n<dt><code>Al</code></dt><dd><p>Aluminum</p>\\n</dd>\\n<dt><code>Fe</code></dt><dd><p>Iron</p>\\n</dd>\\n<dt><code>Mg</code></dt><dd><p>Magnesium</p>\\n</dd>\\n<dt><code>Ca</code></dt><dd><p>Calcium</p>\\n</dd>\\n<dt><code>Na</code></dt><dd><p>Sodium</p>\\n</dd>\\n</dl>\\n<h3>Source</h3>\\n<p>Hand, D. J., Daly, F., Lunn, A. D., McConway, K. J., and E., O. (1994)\\n<em>A Handbook of Small Data Sets</em>. Chapman and Hall.\\n</p>\\n<h3>Examples</h3>\\n<pre>\\nPottery\\n</pre>\\n",
+   "config" : {
+      "subtitle" : "car - Pottery",
+      "graphType" : "Scatter2D",
+      "title" : "Chemical Composition of Pottery"
+   },
    "data" : {
       "y" : {
-         "vars" : [
-            "Al",
-            "Fe",
-            "Mg",
-            "Ca",
-            "Na"
-         ],
          "smps" : [
             "Smp1",
             "Smp2",
@@ -178,6 +176,13 @@
                0.05,
                0.03
             ]
+         ],
+         "vars" : [
+            "Al",
+            "Fe",
+            "Mg",
+            "Ca",
+            "Na"
          ]
       },
       "x" : {
@@ -210,10 +215,5 @@
             "AshleyRails"
          ]
       }
-   },
-   "config" : {
-      "graphType" : "Scatter2D",
-      "subtitle" : "car - Pottery",
-      "title" : "Chemical Composition of Pottery"
    }
 }

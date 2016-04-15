@@ -1,5 +1,10 @@
 {
    "info" : "<table width=\"100%\" summary=\"page for grunfeld\"><tr><td>grunfeld</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\\n<h2>Simulation Data for model Seemingly Unrelated Regression (sur) that corresponds to method SUR of systemfit</h2>\\n<h3>Description</h3>\\n<p>Dataframe contains 20 annual observations from 1935 to\\n1954 of 7 variables for two firms General Electric  and Westinghouse.\\nColumns are Year; Ige and Iw = Gross investment for GE and\\nW,respectively; Fge and Fw=Market value of Firm as of\\nbegin of the year; Cge and Cw= Capital stock measure as of begin of\\nthe year.  \\n</p>\\n<h3>Usage</h3>\\n<pre>data(grunfeld)</pre>\\n<h3>Format</h3>\\n<p>A table containing 7 variables (&quot;Year&quot;, &quot;Ige&quot;, &quot;Fge&quot;, &quot;Cge&quot;,&quot;Iw&quot;, &quot;Fw&quot;,&quot;Cw&quot;)\\nand 20 observations.  \\n</p>\\n",
+   "config" : {
+      "subtitle" : "Zelig - grunfeld",
+      "graphType" : "Scatter2D",
+      "title" : "Simulation Data for model Seemingly Unrelated Regression (sur) that corresponds to method SUR of systemfit"
+   },
    "data" : {
       "y" : {
          "smps" : [
@@ -23,15 +28,6 @@
             "Smp18",
             "Smp19",
             "Smp20"
-         ],
-         "vars" : [
-            "Year",
-            "Ige",
-            "Fge",
-            "Cge",
-            "Iw",
-            "Fw",
-            "Cw"
          ],
          "data" : [
             [
@@ -188,12 +184,16 @@
                174.8,
                213.5
             ]
+         ],
+         "vars" : [
+            "Year",
+            "Ige",
+            "Fge",
+            "Cge",
+            "Iw",
+            "Fw",
+            "Cw"
          ]
       }
-   },
-   "config" : {
-      "graphType" : "Scatter2D",
-      "subtitle" : "Zelig - grunfeld",
-      "title" : "Simulation Data for model Seemingly Unrelated Regression (sur) that corresponds to method SUR of systemfit"
    }
 }

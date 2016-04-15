@@ -1,57 +1,75 @@
 {
    "info" : "<table width=\"100%\" summary=\"page for WomenQueue\"><tr><td>WomenQueue</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\\n<h2>Women in Queues</h2>\\n<h3>Description</h3>\\n<p>Data from Jinkinson \\&amp; Slater (1981) and Hoaglin \\&amp; Tukey (1985)\\nreporting the frequency distribution of females in 100 queues of\\nlength 10 in a London Underground station.\\n</p>\\n<h3>Usage</h3>\\n<pre>\\ndata(\"WomenQueue\")\\n</pre>\\n<h3>Format</h3>\\n<p>A 1-way table giving the number of women in 100 queues of length\\n10.  The variable and its levels are \\n</p>\\n<table summary=\"Rd table\">\\n<tr>\\n <td style=\"text-align: right;\">\\n    No </td><td style=\"text-align: left;\"> Name </td><td style=\"text-align: left;\"> Levels </td>\\n</tr>\\n<tr>\\n <td style=\"text-align: right;\">\\n    1 </td><td style=\"text-align: left;\"> nWomen </td><td style=\"text-align: left;\"> 0, 1, ..., 10 </td>\\n</tr>\\n<tr>\\n <td style=\"text-align: right;\">\\n  </td>\\n</tr>\\n</table>\\n<h3>Source</h3>\\n<p>M. Friendly (2000),\\nVisualizing Categorical Data,\\npages 19&ndash;20.\\n</p>\\n<h3>References</h3>\\n<p>D. C. Hoaglin \\&amp; J. W. Tukey (1985),\\nChecking the shape of discrete distributions.\\nIn D. C. Hoaglin, F. Mosteller, J. W. Tukey (eds.),\\n<em>Exploring Data Tables, Trends and Shapes</em>, chapter 9.\\nJohn Wiley \\&amp; Sons, New York.\\n</p>\\n<p>R. A. Jinkinson \\&amp; M. Slater (1981),\\nCritical discussion of a graphical method for identifying discrete\\ndistributions,\\n<em>The Statistician</em>, <b>30</b>, 239&ndash;248.\\n</p>\\n<p>M. Friendly (2000),\\n<em>Visualizing Categorical Data</em>.\\nSAS Institute, Cary, NC.\\n</p>\\n<h3>Examples</h3>\\n<pre>\\ndata(\"WomenQueue\")\\ngf &lt;- goodfit(WomenQueue, type = \"binomial\")\\nsummary(gf)\\nplot(gf)\\n</pre>\\n",
+   "config" : {
+      "subtitle" : "vcd - WomenQueue",
+      "graphType" : "Scatter2D",
+      "title" : "Women in Queues"
+   },
    "data" : {
       "y" : {
          "smps" : [
-            "Smp1",
-            "Smp2",
-            "Smp3",
-            "Smp4",
-            "Smp5",
-            "Smp6",
-            "Smp7",
-            "Smp8",
-            "Smp9",
-            "Smp10",
-            "Smp11"
-         ],
-         "vars" : [
             "nWomen",
             "Freq"
          ],
          "data" : [
             [
                0,
-               1,
-               2,
-               3,
-               4,
-               5,
-               6,
-               7,
-               8,
-               9,
-               10
+               1
             ],
             [
                1,
+               3
+            ],
+            [
+               2,
+               4
+            ],
+            [
                3,
+               23
+            ],
+            [
                4,
-               23,
-               25,
-               19,
-               18,
+               25
+            ],
+            [
                5,
-               1,
-               1,
+               19
+            ],
+            [
+               6,
+               18
+            ],
+            [
+               7,
+               5
+            ],
+            [
+               8,
+               1
+            ],
+            [
+               9,
+               1
+            ],
+            [
+               10,
                0
             ]
+         ],
+         "vars" : [
+            "Var1",
+            "Var2",
+            "Var3",
+            "Var4",
+            "Var5",
+            "Var6",
+            "Var7",
+            "Var8",
+            "Var9",
+            "Var10",
+            "Var11"
          ]
       }
-   },
-   "config" : {
-      "graphType" : "Scatter2D",
-      "subtitle" : "vcd - WomenQueue",
-      "title" : "Women in Queues"
    }
 }

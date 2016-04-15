@@ -1,14 +1,12 @@
 {
    "info" : "<table width=\"100%\" summary=\"page for urine\"><tr><td>urine</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\\n<h2>\\nUrine Analysis Data\\n</h2>\\n<h3>Description</h3>\\n<p>The <code>urine</code> data frame has 79 rows and 7 columns.\\n</p>\\n<p>79 urine specimens were analyzed in an effort to determine if certain physical\\ncharacteristics of the urine might be related to the formation of calcium\\noxalate crystals.  \\n</p>\\n<h3>Usage</h3>\\n<pre>\\nurine\\n</pre>\\n<h3>Format</h3>\\n<p>This data frame contains the following columns:\\n</p>\\n<dl>\\n<dt><code>r</code></dt><dd>\\n<p>Indicator of the presence of calcium oxalate crystals.\\n</p>\\n</dd>\\n<dt><code>gravity</code></dt><dd>\\n<p>The specific gravity of the urine.\\n</p>\\n</dd>\\n<dt><code>ph</code></dt><dd>\\n<p>The pH reading of the urine.\\n</p>\\n</dd>\\n<dt><code>osmo</code></dt><dd>\\n<p>The osmolarity of the urine. Osmolarity is proportional to the concentration\\nof molecules in solution.\\n</p>\\n</dd>\\n<dt><code>cond</code></dt><dd>\\n<p>The conductivity of the urine.  Conductivity is proportional to the \\nconcentration of charged ions in solution.\\n</p>\\n</dd>\\n<dt><code>urea</code></dt><dd>\\n<p>The urea concentration in millimoles per litre.\\n</p>\\n</dd>\\n<dt><code>calc</code></dt><dd>\\n<p>The calcium concentration in millimoles per litre.\\n</p>\\n</dd></dl>\\n<h3>Source</h3>\\n<p>The data were obtained from\\n</p>\\n<p>Andrews, D.F. and Herzberg, A.M. (1985) \\n<em>Data: A Collection of Problems from Many Fields for the Student and Research Worker</em>. Springer-Verlag.\\n</p>\\n<h3>References</h3>\\n<p>Davison, A.C. and Hinkley, D.V. (1997) \\n<em>Bootstrap Methods and Their Application</em>. Cambridge University Press.\\n</p>\\n",
+   "config" : {
+      "subtitle" : "boot - urine",
+      "graphType" : "Scatter2D",
+      "title" : "Urine Analysis Data"
+   },
    "data" : {
       "y" : {
-         "vars" : [
-            "r",
-            "gravity",
-            "ph",
-            "urea",
-            "calc"
-         ],
          "smps" : [
             "Smp1",
             "Smp2",
@@ -496,6 +494,13 @@
                12.2,
                9.39
             ]
+         ],
+         "vars" : [
+            "r",
+            "gravity",
+            "ph",
+            "urea",
+            "calc"
          ]
       },
       "x" : {
@@ -662,10 +667,5 @@
             "416"
          ]
       }
-   },
-   "config" : {
-      "graphType" : "Scatter2D",
-      "subtitle" : "boot - urine",
-      "title" : "Urine Analysis Data"
    }
 }

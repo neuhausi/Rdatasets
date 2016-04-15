@@ -1,5 +1,10 @@
 {
    "info" : "<table width=\"100%\" summary=\"page for heart\"><tr><td>heart</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\\n<h2>Heart Catherization Data</h2>\\n<h3>Description</h3>\\n<p>This data set was analyzed by Weisberg (1980) and Chambers et\\nal. (1983).  A catheter is passed into a major vein or artery at the\\nfemoral region and moved into the heart.  The proper length of the\\nintroduced catheter has to be guessed by the physician. The aim of the\\ndata set is to describe the relation between the catheter length and\\nthe patient's height (X1) and weight (X2).\\n</p>\\n<p>This data sets is used to demonstrate the effects caused by collinearity.\\nThe correlation between height and weight is so high that either\\nvariable almost completely determines the other.\\n</p>\\n<h3>Usage</h3>\\n<pre>\\ndata(heart)\\n</pre>\\n<h3>Format</h3>\\n<p>A data frame with 12 observations on the following 3 variables.\\n</p>\\n<dl>\\n<dt><code>height</code></dt><dd><p>Patient's height in inches</p>\\n</dd>\\n<dt><code>weight</code></dt><dd><p>Patient's weights in pounds</p>\\n</dd>\\n<dt><code>clength</code></dt><dd><p>Y: Catheter Length (in centimeters)</p>\\n</dd>\\n</dl>\\n<h3>Note</h3>\\n<p>There are other <code>heart</code> datasets in other <span style=\"font-family: Courier New, Courier; color: #666666;\"><b>R</b></span> packages,\\nnotably <span class=\"pkg\">survival</span>, hence considering using\\n<code>package = \"robustbase\"</code>, see examples.\\n</p>\\n<h3>Source</h3>\\n<p>Weisberg (1980)\\n</p>\\n<p>Chambers et al. (1983)\\n</p>\\n<p>P. J. Rousseeuw and A. M. Leroy (1987)\\n<em>Robust Regression and Outlier Detection</em>;\\nWiley, p.103, table 13.\\n</p>\\n<h3>Examples</h3>\\n<pre>\\ndata(heart, package=\"robustbase\")\\nheart.x &lt;- data.matrix(heart[, 1:2]) # the X-variables\\nplot(heart.x)\\ncovMcd(heart.x)\\nsummary( lm.heart &lt;-     lm(clength ~ . , data = heart))\\nsummary(lts.heart &lt;- ltsReg(clength ~ . , data = heart))\\n</pre>\\n",
+   "config" : {
+      "subtitle" : "robustbase - heart",
+      "graphType" : "Scatter2D",
+      "title" : "Heart Catherization Data"
+   },
    "data" : {
       "y" : {
          "smps" : [
@@ -175,16 +180,6 @@
             "Smp170",
             "Smp171",
             "Smp172"
-         ],
-         "vars" : [
-            "start",
-            "stop",
-            "event",
-            "age",
-            "year",
-            "surgery",
-            "transplant",
-            "id"
          ],
          "data" : [
             [
@@ -1579,12 +1574,17 @@
                102,
                103
             ]
+         ],
+         "vars" : [
+            "start",
+            "stop",
+            "event",
+            "age",
+            "year",
+            "surgery",
+            "transplant",
+            "id"
          ]
       }
-   },
-   "config" : {
-      "graphType" : "Scatter2D",
-      "subtitle" : "robustbase - heart",
-      "title" : "Heart Catherization Data"
    }
 }

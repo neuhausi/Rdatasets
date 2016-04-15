@@ -1,5 +1,10 @@
 {
    "info" : "<table width=\"100%\" summary=\"page for nep499\"><tr><td>nep499</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\\n<h2>A study of Alzheimer's disease with eight SNPs and APOE</h2>\\n<h3>Description</h3>\\n<p>This is a study of the neprilysin gene and sporadic Alzheimer's disease\\nin Chinese. There are 257 cases and 242 controls, each with eight SNPs\\ndetecting through denaturing high-performance liquid chromatography\\n(DHPLC).\\n</p>\\n<h3>Usage</h3>\\n<pre>data(nep499)</pre>\\n<h3>Format</h3>\\n<p>A data frame</p>\\n<h3>Source</h3>\\n<p>Shi J, Zhang S, Tang M, Ma C, Zhao J, Li T, Liu X, Sun Y, Guo Y, Han H, Ma Y, Zhao Z.\\nMutation Screening and Association Study of the Neprilysin Gene in Sporadic Alzheimer's Disease in Chinese Persons.\\nJ Gerontol A: Bio Sci Med Sci 60:301-306, 2005</p>\\n",
+   "config" : {
+      "subtitle" : "gap - nep499",
+      "graphType" : "Heatmap",
+      "title" : "A study of Alzheimer's disease with eight SNPs and APOE"
+   },
    "data" : {
       "y" : {
          "smps" : [
@@ -502,31 +507,6 @@
             "Smp497",
             "Smp498",
             "Smp499"
-         ],
-         "vars" : [
-            "id",
-            "sex",
-            "age",
-            "APOE.a1",
-            "APOE.a2",
-            "apoe4",
-            "status",
-            "R6.a1",
-            "R6.a2",
-            "N4.a1",
-            "N4.a2",
-            "N6.a1",
-            "N6.a2",
-            "N11.a1",
-            "N11.a2",
-            "N15.a1",
-            "N15.a2",
-            "N18.a1",
-            "N18.a2",
-            "N22.a1",
-            "N22.a2",
-            "N24.a1",
-            "N24.a2"
          ],
          "data" : [
             [
@@ -12052,12 +12032,32 @@
                2,
                2
             ]
+         ],
+         "vars" : [
+            "id",
+            "sex",
+            "age",
+            "APOE.a1",
+            "APOE.a2",
+            "apoe4",
+            "status",
+            "R6.a1",
+            "R6.a2",
+            "N4.a1",
+            "N4.a2",
+            "N6.a1",
+            "N6.a2",
+            "N11.a1",
+            "N11.a2",
+            "N15.a1",
+            "N15.a2",
+            "N18.a1",
+            "N18.a2",
+            "N22.a1",
+            "N22.a2",
+            "N24.a1",
+            "N24.a2"
          ]
       }
-   },
-   "config" : {
-      "graphType" : "Heatmap",
-      "subtitle" : "gap - nep499",
-      "title" : "A study of Alzheimer's disease with eight SNPs and APOE"
    }
 }

@@ -1,44 +1,12 @@
 {
    "info" : "<table width=\"100%\" summary=\"page for blot\"><tr><td>blot</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\\n<h2>Bond's Logical Operations Test &ndash; BLOT\\n</h2>\\n<h3>Description</h3>\\n<p>35 items for 150 subjects from Bond's Logical Operations Test.  A good example of Item Response Theory analysis using the Rasch model.  One parameter (Rasch) analysis and two parameter IRT analyses produce somewhat different results. \\n</p>\\n<h3>Usage</h3>\\n<pre>data(blot)</pre>\\n<h3>Format</h3>\\n<p>A data frame with 150 observations on  35 variables. The BLOT was developed as a paper and pencil test for children to measure Logical Thinking as discussed by Piaget and Inhelder. \\n</p>\\n<h3>Details</h3>\\n<p>Bond and Fox apply Rasch modeling to a variety of data sets.  This one, Bond's Logical Operations Test, is used as an example of Rasch modeling for dichotomous items.  In their text (p 56), Bond and Fox report the results using WINSTEPS.  Those results are consistent (up to a scaling parameter) with those found by the rasch function in the ltm package. The WINSTEPS seem to produce difficulty estimates with a mean item difficulty of 0, whereas rasch from ltm has a mean difficulty of -1.52.  In addition, rasch seems to reverse the signs of the difficulty estimates when reporting the coefficients and is effectively reporting &quot;easiness&quot;.   \\n</p>\\n<p>However, when using a two parameter model, one of the items (V12) behaves very differently.\\n</p>\\n<p>This data set is useful when comparing 1PL, 2PL and 2PN IRT models.  \\n</p>\\n<h3>Source</h3>\\n<p>The data are taken (with kind permission from Trevor Bond) from the webpage http://homes.jcu.edu.au/~edtgb/book/data/Bond87.txt and read using read.fwf.  \\n</p>\\n<h3>References</h3>\\n<p>T.G. Bond. BLOT:Bond's Logical Operations Test. Townsville, Australia: James Cook Univer- sity. (Original work\\npublished 1976), 1995.\\n</p>\\n<p>T. Bond and C. Fox. (2007)  Applying the Rasch model: Fundamental measurement in the human sciences. Lawrence Erlbaum, Mahwah, NJ, US, 2 edition.\\n</p>\\n<h3>See Also</h3>\\n<p> See also the <code>irt.fa</code> and associated plot functions. </p>\\n<h3>Examples</h3>\\n<pre>\\ndata(blot)\\n#not run\\n#library(ltm)\\n#bblot.rasch &lt;- rasch(blot, constraint = cbind(ncol(blot) + 1, 1))  #a 1PL model\\n#blot.2pl &lt;- ltm(blot~z1)  #a 2PL model\\n#do the same thing with functions in psych\\n#blot.fa &lt;- irt.fa(blot)  # a 2PN model\\n#plot(blot.fa)\\n</pre>\\n",
+   "config" : {
+      "subtitle" : "psych - blot",
+      "graphType" : "Heatmap",
+      "title" : "Bond's Logical Operations Test - BLOT"
+   },
    "data" : {
       "y" : {
-         "vars" : [
-            "V 1",
-            "V 2",
-            "V 3",
-            "V 4",
-            "V 5",
-            "V 6",
-            "V 7",
-            "V 8",
-            "V 9",
-            "V 10",
-            "V 11",
-            "V 12",
-            "V 13",
-            "V 14",
-            "V 15",
-            "V 16",
-            "V 17",
-            "V 18",
-            "V 19",
-            "V 20",
-            "V 21",
-            "V 22",
-            "V 23",
-            "V 24",
-            "V 25",
-            "V 26",
-            "V 27",
-            "V 28",
-            "V 29",
-            "V 30",
-            "V 31",
-            "V 32",
-            "V 33",
-            "V 34",
-            "V 35"
-         ],
          "smps" : [
             "Smp1",
             "Smp2",
@@ -5512,12 +5480,44 @@
                1,
                1
             ]
+         ],
+         "vars" : [
+            "V 1",
+            "V 2",
+            "V 3",
+            "V 4",
+            "V 5",
+            "V 6",
+            "V 7",
+            "V 8",
+            "V 9",
+            "V 10",
+            "V 11",
+            "V 12",
+            "V 13",
+            "V 14",
+            "V 15",
+            "V 16",
+            "V 17",
+            "V 18",
+            "V 19",
+            "V 20",
+            "V 21",
+            "V 22",
+            "V 23",
+            "V 24",
+            "V 25",
+            "V 26",
+            "V 27",
+            "V 28",
+            "V 29",
+            "V 30",
+            "V 31",
+            "V 32",
+            "V 33",
+            "V 34",
+            "V 35"
          ]
       }
-   },
-   "config" : {
-      "graphType" : "Heatmap",
-      "subtitle" : "psych - blot",
-      "title" : "Bond's Logical Operations Test - BLOT"
    }
 }

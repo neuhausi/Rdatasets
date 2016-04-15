@@ -1,14 +1,12 @@
 {
    "info" : "<table width=\"100%\" summary=\"page for Chirot\"><tr><td>Chirot</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\\n<h2>The 1907 Romanian Peasant Rebellion</h2>\\n<h3>Description</h3>\\n<p>The <code>Chirot</code> data frame has 32 rows and 5 columns.\\nThe observations are counties in Romania.\\n</p>\\n<h3>Usage</h3>\\n<pre>\\nChirot\\n</pre>\\n<h3>Format</h3>\\n<p>This data frame contains the following columns:\\n</p>\\n<dl>\\n<dt>intensity</dt><dd>\\n<p>Intensity of the rebellion\\n</p>\\n</dd>\\n<dt>commerce</dt><dd>\\n<p>Commercialization of agriculture\\n</p>\\n</dd>\\n<dt>tradition</dt><dd>\\n<p>Traditionalism\\n</p>\\n</dd>\\n<dt>midpeasant</dt><dd>\\n<p>Strength of middle peasantry\\n</p>\\n</dd>\\n<dt>inequality</dt><dd>\\n<p>Inequality of land tenure\\n</p>\\n</dd>\\n</dl>\\n<h3>Source</h3>\\n<p>Chirot, D. and C. Ragin (1975)\\nThe market, tradition and peasant rebellion: The case of Romania.\\n<em>American Sociological Review</em> <b>40</b>, 428&ndash;444 [Table 1].\\n</p>\\n<h3>References</h3>\\n<p>Fox, J. (2008)\\n<em>Applied Regression Analysis and Generalized Linear Models</em>,\\nSecond Edition. Sage.  \\n</p>\\n",
+   "config" : {
+      "subtitle" : "car - Chirot",
+      "graphType" : "Scatter2D",
+      "title" : "The 1907 Romanian Peasant Rebellion"
+   },
    "data" : {
       "y" : {
-         "vars" : [
-            "intensity",
-            "commerce",
-            "tradition",
-            "midpeasant",
-            "inequality"
-         ],
          "smps" : [
             "Smp1",
             "Smp2",
@@ -214,12 +212,14 @@
                0.42,
                0.26
             ]
+         ],
+         "vars" : [
+            "intensity",
+            "commerce",
+            "tradition",
+            "midpeasant",
+            "inequality"
          ]
       }
-   },
-   "config" : {
-      "graphType" : "Scatter2D",
-      "subtitle" : "car - Chirot",
-      "title" : "The 1907 Romanian Peasant Rebellion"
    }
 }

@@ -1,15 +1,12 @@
 {
    "info" : "<table width=\"100%\" summary=\"page for dietox\"><tr><td>dietox</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\\n<h2>Growth curves of pigs in a 3x3 factorial experiment</h2>\\n<h3>Description</h3>\\n<p>The <code>dietox</code> data frame has 861 rows and 7 columns.\\n</p>\\n<h3>Usage</h3>\\n<pre>data(dietox)</pre>\\n<h3>Format</h3>\\n<p>This data frame contains the following columns:\\n</p>\\n<dl>\\n<dt>Weight</dt><dd><p>a numeric vector</p>\\n</dd>\\n<dt>Feed</dt><dd><p>a numeric vector</p>\\n</dd>\\n<dt>Time</dt><dd><p>a numeric vector</p>\\n</dd>\\n<dt>Pig</dt><dd><p>a numeric vector</p>\\n</dd>\\n<dt>Evit</dt><dd><p>a numeric vector</p>\\n</dd>\\n<dt>Cu</dt><dd><p>a numeric vector</p>\\n</dd>\\n<dt>Litter</dt><dd><p>a numeric vector</p>\\n</dd>\\n</dl>\\n<h3>Source</h3>\\n<p>Lauridsen, C., Højsgaard, S.,Sørensen, M.T. C. (1999) Influence of\\nDietary Rapeseed Oli, Vitamin E, and Copper on Performance and\\nAntioxidant and Oxidative Status of Pigs. J. Anim. Sci.77:906-916\\n</p>\\n<h3>Examples</h3>\\n<pre>\\ndata(dietox)\\ndietox$Cu     &lt;- as.factor(dietox$Cu)\\ngee01 &lt;- geeglm (Weight ~ Time + Cu + Cu * Time, id =Pig, data = dietox,\\n         family=gaussian,corstr=\"ex\")\\nmf &lt;- formula(Weight~Cu*(Time+I(Time^2)+I(Time^3)))\\ngee1 &lt;- geeglm(mf, data=dietox, id=Pig, family=poisson(\"identity\"),corstr=\"ar1\")\\nsummary(gee1)\\nanova(gee1)\\n</pre>\\n",
+   "config" : {
+      "subtitle" : "geepack - dietox",
+      "graphType" : "Scatter2D",
+      "title" : "Growth curves of pigs in a 3x3 factorial experiment"
+   },
    "data" : {
       "y" : {
-         "vars" : [
-            "Weight",
-            "Time",
-            "Pig",
-            "Evit",
-            "Cu",
-            "Litter"
-         ],
          "smps" : [
             "Smp1",
             "Smp2",
@@ -6052,6 +6049,14 @@
                24,
                24
             ]
+         ],
+         "vars" : [
+            "Weight",
+            "Time",
+            "Pig",
+            "Evit",
+            "Cu",
+            "Litter"
          ]
       },
       "x" : {
@@ -6919,10 +6924,5 @@
             "151.400002"
          ]
       }
-   },
-   "config" : {
-      "graphType" : "Scatter2D",
-      "subtitle" : "geepack - dietox",
-      "title" : "Growth curves of pigs in a 3x3 factorial experiment"
    }
 }

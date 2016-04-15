@@ -1,108 +1,160 @@
 {
    "info" : "<table width=\"100%\" summary=\"page for Animals\"><tr><td>Animals</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\\n<h2>\\nBrain and Body Weights for 28 Species\\n</h2>\\n<h3>Description</h3>\\n<p>Average brain and body weights for 28 species of land animals.\\n</p>\\n<h3>Usage</h3>\\n<pre>\\nAnimals\\n</pre>\\n<h3>Format</h3>\\n<dl>\\n<dt><code>body</code></dt><dd>\\n<p>body weight in kg.\\n</p>\\n</dd>\\n<dt><code>brain</code></dt><dd>\\n<p>brain weight in g.\\n</p>\\n</dd>\\n</dl>\\n<h3>Note</h3>\\n<p>The name <code>Animals</code> avoids conflicts with a system dataset\\n<code>animals</code> in S-PLUS 4.5 and later.\\n</p>\\n<h3>Source</h3>\\n<p>P. J. Rousseeuw  and A. M. Leroy (1987)\\n<em>Robust Regression and Outlier Detection.</em>\\nWiley, p. 57.\\n</p>\\n<h3>References</h3>\\n<p>Venables, W. N. and Ripley, B. D. (1999)\\n<em>Modern Applied Statistics with S-PLUS.</em> Third\\nEdition. Springer.\\n</p>\\n",
+   "config" : {
+      "subtitle" : "MASS - Animals",
+      "graphType" : "Scatter2D",
+      "title" : "Brain and Body Weights for 28 Species"
+   },
    "data" : {
       "y" : {
-         "vars" : [
+         "smps" : [
             "body",
             "brain"
-         ],
-         "smps" : [
-            "Smp1",
-            "Smp2",
-            "Smp3",
-            "Smp4",
-            "Smp5",
-            "Smp6",
-            "Smp7",
-            "Smp8",
-            "Smp9",
-            "Smp10",
-            "Smp11",
-            "Smp12",
-            "Smp13",
-            "Smp14",
-            "Smp15",
-            "Smp16",
-            "Smp17",
-            "Smp18",
-            "Smp19",
-            "Smp20",
-            "Smp21",
-            "Smp22",
-            "Smp23",
-            "Smp24",
-            "Smp25",
-            "Smp26",
-            "Smp27",
-            "Smp28"
          ],
          "data" : [
             [
                1.35,
-               465,
-               36.33,
-               27.66,
-               1.04,
-               11700,
-               2547,
-               187.1,
-               521,
-               10,
-               3.3,
-               529,
-               207,
-               62,
-               6654,
-               9400,
-               6.8,
-               35,
-               0.12,
-               0.023,
-               2.5,
-               55.5,
-               100,
-               52.16,
-               0.28,
-               87000,
-               0.122,
-               192
+               8.1
             ],
             [
-               8.1,
-               423,
-               119.5,
-               115,
-               5.5,
-               50,
-               4603,
-               419,
-               655,
-               115,
-               25.6,
-               680,
-               406,
-               1320,
-               5712,
-               70,
-               179,
-               56,
-               1,
-               0.4,
-               12.1,
-               175,
-               157,
-               440,
-               1.9,
-               154.5,
-               3,
+               465,
+               423
+            ],
+            [
+               36.33,
+               119.5
+            ],
+            [
+               27.66,
+               115
+            ],
+            [
+               1.04,
+               5.5
+            ],
+            [
+               11700,
+               50
+            ],
+            [
+               2547,
+               4603
+            ],
+            [
+               187.1,
+               419
+            ],
+            [
+               521,
+               655
+            ],
+            [
+               10,
+               115
+            ],
+            [
+               3.3,
+               25.6
+            ],
+            [
+               529,
+               680
+            ],
+            [
+               207,
+               406
+            ],
+            [
+               62,
+               1320
+            ],
+            [
+               6654,
+               5712
+            ],
+            [
+               9400,
+               70
+            ],
+            [
+               6.8,
+               179
+            ],
+            [
+               35,
+               56
+            ],
+            [
+               0.12,
+               1
+            ],
+            [
+               0.023,
+               0.4
+            ],
+            [
+               2.5,
+               12.1
+            ],
+            [
+               55.5,
+               175
+            ],
+            [
+               100,
+               157
+            ],
+            [
+               52.16,
+               440
+            ],
+            [
+               0.28,
+               1.9
+            ],
+            [
+               87000,
+               154.5
+            ],
+            [
+               0.122,
+               3
+            ],
+            [
+               192,
                180
             ]
+         ],
+         "vars" : [
+            "Var1",
+            "Var2",
+            "Var3",
+            "Var4",
+            "Var5",
+            "Var6",
+            "Var7",
+            "Var8",
+            "Var9",
+            "Var10",
+            "Var11",
+            "Var12",
+            "Var13",
+            "Var14",
+            "Var15",
+            "Var16",
+            "Var17",
+            "Var18",
+            "Var19",
+            "Var20",
+            "Var21",
+            "Var22",
+            "Var23",
+            "Var24",
+            "Var25",
+            "Var26",
+            "Var27",
+            "Var28"
          ]
       }
-   },
-   "config" : {
-      "graphType" : "Scatter2D",
-      "subtitle" : "MASS - Animals",
-      "title" : "Brain and Body Weights for 28 Species"
    }
 }

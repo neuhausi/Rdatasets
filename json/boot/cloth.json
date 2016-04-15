@@ -1,120 +1,180 @@
 {
    "info" : "<table width=\"100%\" summary=\"page for cloth\"><tr><td>cloth</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\\n<h2>\\nNumber of Flaws in Cloth\\n</h2>\\n<h3>Description</h3>\\n<p>The <code>cloth</code> data frame has 32 rows and 2 columns.\\n</p>\\n<h3>Usage</h3>\\n<pre>\\ncloth\\n</pre>\\n<h3>Format</h3>\\n<p>This data frame contains the following columns:\\n</p>\\n<dl>\\n<dt><code>x</code></dt><dd>\\n<p>The length of the roll of cloth.\\n</p>\\n</dd>\\n<dt><code>y</code></dt><dd>\\n<p>The number of flaws found in the roll.\\n</p>\\n</dd></dl>\\n<h3>Source</h3>\\n<p>The data were obtained from\\n</p>\\n<p>Bissell, A.F. (1972) A negative binomial model with varying element size.\\n<em>Biometrika</em>, <b>59</b>, 435&ndash;441.\\n</p>\\n<h3>References</h3>\\n<p>Davison, A.C. and Hinkley, D.V. (1997) \\n<em>Bootstrap Methods and Their Application</em>. Cambridge University Press.\\n</p>\\n",
+   "config" : {
+      "subtitle" : "boot - cloth",
+      "graphType" : "Scatter2D",
+      "title" : "Number of Flaws in Cloth"
+   },
    "data" : {
       "y" : {
-         "vars" : [
+         "smps" : [
             "x",
             "y"
-         ],
-         "smps" : [
-            "Smp1",
-            "Smp2",
-            "Smp3",
-            "Smp4",
-            "Smp5",
-            "Smp6",
-            "Smp7",
-            "Smp8",
-            "Smp9",
-            "Smp10",
-            "Smp11",
-            "Smp12",
-            "Smp13",
-            "Smp14",
-            "Smp15",
-            "Smp16",
-            "Smp17",
-            "Smp18",
-            "Smp19",
-            "Smp20",
-            "Smp21",
-            "Smp22",
-            "Smp23",
-            "Smp24",
-            "Smp25",
-            "Smp26",
-            "Smp27",
-            "Smp28",
-            "Smp29",
-            "Smp30",
-            "Smp31",
-            "Smp32"
          ],
          "data" : [
             [
                1.22,
-               1.7,
-               2.71,
-               3.71,
-               3.72,
-               3.75,
-               4.17,
-               4.41,
-               4.58,
-               4.91,
-               4.92,
-               4.95,
-               5.22,
-               5.42,
-               5.43,
-               5.51,
-               6.3,
-               6.42,
-               6.45,
-               6.51,
-               6.57,
-               7.15,
-               7.16,
-               7.35,
-               7.38,
-               7.49,
-               8.32,
-               8.42,
-               8.68,
-               8.95,
-               9.05,
-               9.52
+               1
             ],
             [
-               1,
-               4,
-               5,
-               14,
-               7,
-               9,
-               2,
-               8,
-               4,
-               7,
-               4,
-               7,
-               6,
-               9,
-               8,
-               6,
-               7,
-               10,
-               6,
-               4,
-               9,
-               14,
-               3,
-               17,
-               9,
-               10,
-               17,
-               9,
-               8,
-               28,
-               23,
+               1.7,
+               4
+            ],
+            [
+               2.71,
+               5
+            ],
+            [
+               3.71,
+               14
+            ],
+            [
+               3.72,
+               7
+            ],
+            [
+               3.75,
+               9
+            ],
+            [
+               4.17,
+               2
+            ],
+            [
+               4.41,
+               8
+            ],
+            [
+               4.58,
+               4
+            ],
+            [
+               4.91,
+               7
+            ],
+            [
+               4.92,
+               4
+            ],
+            [
+               4.95,
+               7
+            ],
+            [
+               5.22,
+               6
+            ],
+            [
+               5.42,
+               9
+            ],
+            [
+               5.43,
+               8
+            ],
+            [
+               5.51,
+               6
+            ],
+            [
+               6.3,
+               7
+            ],
+            [
+               6.42,
+               10
+            ],
+            [
+               6.45,
+               6
+            ],
+            [
+               6.51,
+               4
+            ],
+            [
+               6.57,
+               9
+            ],
+            [
+               7.15,
+               14
+            ],
+            [
+               7.16,
+               3
+            ],
+            [
+               7.35,
+               17
+            ],
+            [
+               7.38,
+               9
+            ],
+            [
+               7.49,
+               10
+            ],
+            [
+               8.32,
+               17
+            ],
+            [
+               8.42,
+               9
+            ],
+            [
+               8.68,
+               8
+            ],
+            [
+               8.95,
+               28
+            ],
+            [
+               9.05,
+               23
+            ],
+            [
+               9.52,
                9
             ]
+         ],
+         "vars" : [
+            "Var1",
+            "Var2",
+            "Var3",
+            "Var4",
+            "Var5",
+            "Var6",
+            "Var7",
+            "Var8",
+            "Var9",
+            "Var10",
+            "Var11",
+            "Var12",
+            "Var13",
+            "Var14",
+            "Var15",
+            "Var16",
+            "Var17",
+            "Var18",
+            "Var19",
+            "Var20",
+            "Var21",
+            "Var22",
+            "Var23",
+            "Var24",
+            "Var25",
+            "Var26",
+            "Var27",
+            "Var28",
+            "Var29",
+            "Var30",
+            "Var31",
+            "Var32"
          ]
       }
-   },
-   "config" : {
-      "graphType" : "Scatter2D",
-      "subtitle" : "boot - cloth",
-      "title" : "Number of Flaws in Cloth"
    }
 }

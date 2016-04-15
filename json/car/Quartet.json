@@ -1,15 +1,12 @@
 {
    "info" : "<table width=\"100%\" summary=\"page for Quartet\"><tr><td>Quartet</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\\n<h2>Four Regression Datasets</h2>\\n<h3>Description</h3>\\n<p>The <code>Quartet</code> data frame has 11 rows and 5 columns.\\nThese are contrived data.\\n</p>\\n<h3>Usage</h3>\\n<pre>\\nQuartet\\n</pre>\\n<h3>Format</h3>\\n<p>This data frame contains the following columns:\\n</p>\\n<dl>\\n<dt>x</dt><dd>\\n<p>X-values for datasets 1&ndash;3.\\n</p>\\n</dd>\\n<dt>y1</dt><dd>\\n<p>Y-values for dataset 1.\\n</p>\\n</dd>\\n<dt>y2</dt><dd>\\n<p>Y-values for dataset 2.\\n</p>\\n</dd>\\n<dt>y3</dt><dd>\\n<p>Y-values for dataset 3.\\n</p>\\n</dd>\\n<dt>x4</dt><dd>\\n<p>X-values for dataset 4.\\n</p>\\n</dd>\\n<dt>y4</dt><dd>\\n<p>Y-values for dataset 4.\\n</p>\\n</dd>\\n</dl>\\n<h3>Source</h3>\\n<p>Anscombe, F. J. (1973)\\nGraphs in statistical analysis.\\n<em>American Statistician</em> <b>27</b>, 17&ndash;21.\\n</p>\\n",
+   "config" : {
+      "subtitle" : "car - Quartet",
+      "graphType" : "Scatter2D",
+      "title" : "Four Regression Datasets"
+   },
    "data" : {
       "y" : {
-         "vars" : [
-            "x",
-            "y1",
-            "y2",
-            "y3",
-            "x4",
-            "y4"
-         ],
          "smps" : [
             "Smp1",
             "Smp2",
@@ -102,12 +99,15 @@
                7.91,
                6.89
             ]
+         ],
+         "vars" : [
+            "x",
+            "y1",
+            "y2",
+            "y3",
+            "x4",
+            "y4"
          ]
       }
-   },
-   "config" : {
-      "graphType" : "Scatter2D",
-      "subtitle" : "car - Quartet",
-      "title" : "Four Regression Datasets"
    }
 }

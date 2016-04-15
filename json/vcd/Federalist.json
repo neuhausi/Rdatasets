@@ -1,45 +1,55 @@
 {
    "info" : "<table width=\"100%\" summary=\"page for Federalist\"><tr><td>Federalist</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\\n<h2>&lsquo;May&rsquo; in Federalist Papers</h2>\\n<h3>Description</h3>\\n<p>Data from Mosteller &amp; Wallace (1984) investigating the use of certain\\nkeywords (&lsquo;may&rsquo; in this data set) to identify the author of 12\\ndisputed &lsquo;Federalist Papers&rsquo; by Alexander Hamilton, John Jay\\nand James Madison.\\n</p>\\n<h3>Usage</h3>\\n<pre>\\ndata(\"Federalist\")\\n</pre>\\n<h3>Format</h3>\\n<p>A 1-way table giving the number of occurrences of &lsquo;may&rsquo; in 262\\nblocks of text.  The variable and its levels are\\n</p>\\n<table summary=\"Rd table\">\\n<tr>\\n <td style=\"text-align: right;\">\\n    No </td><td style=\"text-align: left;\"> Name </td><td style=\"text-align: left;\"> Levels </td>\\n</tr>\\n<tr>\\n <td style=\"text-align: right;\">\\n    1 </td><td style=\"text-align: left;\"> nMay </td><td style=\"text-align: left;\"> 0, 1, ..., 6 </td>\\n</tr>\\n<tr>\\n <td style=\"text-align: right;\">\\n  </td>\\n</tr>\\n</table>\\n<h3>Source</h3>\\n<p>Michael Friendly (2000),\\nVisualizing Categorical Data, page 19.\\n</p>\\n<h3>References</h3>\\n<p>F. Mosteller &amp; D. L. Wallace (1984),\\n<em>Applied Bayesian and Classical Inference: The Case of the\\nFederalist Papers</em>.\\nSpringer-Verlag, New York, NY. \\n</p>\\n<p>M. Friendly (2000),\\n<em>Visualizing Categorical Data</em>.\\nSAS Institute, Cary, NC.\\n</p>\\n<h3>Examples</h3>\\n<pre>\\ndata(\"Federalist\")\\ngf &lt;- goodfit(Federalist, type = \"nbinomial\")\\nsummary(gf)\\nplot(gf)\\n</pre>\\n",
+   "config" : {
+      "subtitle" : "vcd - Federalist",
+      "graphType" : "Scatter2D",
+      "title" : "'May' in Federalist Papers"
+   },
    "data" : {
       "y" : {
          "smps" : [
-            "Smp1",
-            "Smp2",
-            "Smp3",
-            "Smp4",
-            "Smp5",
-            "Smp6",
-            "Smp7"
-         ],
-         "vars" : [
             "nMay",
             "Freq"
          ],
          "data" : [
             [
                0,
-               1,
-               2,
-               3,
-               4,
-               5,
-               6
+               156
             ],
             [
-               156,
-               63,
-               29,
-               8,
-               4,
                1,
+               63
+            ],
+            [
+               2,
+               29
+            ],
+            [
+               3,
+               8
+            ],
+            [
+               4,
+               4
+            ],
+            [
+               5,
+               1
+            ],
+            [
+               6,
                1
             ]
+         ],
+         "vars" : [
+            "Var1",
+            "Var2",
+            "Var3",
+            "Var4",
+            "Var5",
+            "Var6",
+            "Var7"
          ]
       }
-   },
-   "config" : {
-      "graphType" : "Scatter2D",
-      "subtitle" : "vcd - Federalist",
-      "title" : "'May' in Federalist Papers"
    }
 }

@@ -1,5 +1,10 @@
 {
    "info" : "<table width=\"100%\" summary=\"page for newpainters\"><tr><td>newpainters</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\\n<h2>The Discretized Painter's Data of de Piles</h2>\\n<h3>Description</h3>\\n<p>The original painters data contain the subjective assessment, \\non a 0 to 20 integer scale, of 54 classical painters. The\\nnewpainters data discretizes the subjective assessment by\\nquartiles with thresholds 25%, 50%, 75%. The painters were \\nassessed on four characteristics: composition, drawing, \\ncolour and expression.  The data is due to the Eighteenth century \\nart critic, de Piles.\\n</p>\\n<h3>Usage</h3>\\n<pre>data(newpainters)</pre>\\n<h3>Format</h3>\\n<p>A table containing 5 variables (&quot;Composition&quot;, &quot;Drawing&quot;, &quot;Colour&quot;, \\n&quot;Expression&quot;, and &quot;School&quot;) and 54 observations.</p>\\n<h3>Source</h3>\\n<p>A. J. Weekes (1986).&ldquo;A Genstat Primer&rdquo;. Edward Arnold.\\n</p>\\n<p>M. Davenport and G. Studdert-Kennedy (1972). &ldquo;The statistical\\nanalysis of aesthetic judgement: an exploration.&rdquo; <em>Applied\\nStatistics</em>, vol. 21,  pp. 324&ndash;333.\\n</p>\\n<p>I. T. Jolliffe (1986) &ldquo;Principal Component Analysis.&rdquo; Springer.\\n</p>\\n<h3>References</h3>\\n<p>Venables, W. N. and Ripley, B. D. (2002) &ldquo;Modern Applied\\nStatistics with S,&rdquo; Fourth edition.  Springer.\\n</p>\\n",
+   "config" : {
+      "subtitle" : "Zelig - newpainters",
+      "graphType" : "Scatter2D",
+      "title" : "The Discretized Painter's Data of de Piles"
+   },
    "data" : {
       "y" : {
          "smps" : [
@@ -57,12 +62,6 @@
             "Smp52",
             "Smp53",
             "Smp54"
-         ],
-         "vars" : [
-            "Composition",
-            "Drawing",
-            "Colour",
-            "Expression"
          ],
          "data" : [
             [
@@ -289,12 +288,13 @@
                400,
                400
             ]
+         ],
+         "vars" : [
+            "Composition",
+            "Drawing",
+            "Colour",
+            "Expression"
          ]
       }
-   },
-   "config" : {
-      "graphType" : "Scatter2D",
-      "subtitle" : "Zelig - newpainters",
-      "title" : "The Discretized Painter's Data of de Piles"
    }
 }

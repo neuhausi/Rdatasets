@@ -1,5 +1,10 @@
 {
    "info" : "<table width=\"100%\" summary=\"page for cabbage_exp\"><tr><td>cabbage_exp</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\\n<h2>Summary of cabbages data set</h2>\\n<h3>Description</h3>\\n<p>This data set has groupwise means, standard deviations,\\ncounts, and standard error of the mean for the\\n<code>cabbages</code> data set from the MASS package.\\nThe purpose of this summarized data set is to make it\\neasy to use for example graphs.\\n</p>\\n<h3>See Also</h3>\\n<p>The source data set in the MASS package,\\n<code>cabbages</code>.\\n</p>\\n",
+   "config" : {
+      "subtitle" : "gcookbook - cabbage_exp",
+      "graphType" : "Scatter2D",
+      "title" : "Summary of cabbages data set"
+   },
    "data" : {
       "y" : {
          "smps" : [
@@ -9,12 +14,6 @@
             "Smp4",
             "Smp5",
             "Smp6"
-         ],
-         "vars" : [
-            "Weight",
-            "sd",
-            "n",
-            "se"
          ],
          "data" : [
             [
@@ -49,6 +48,12 @@
                0.250088873092036,
                0.0667499479816693
             ]
+         ],
+         "vars" : [
+            "Weight",
+            "sd",
+            "n",
+            "se"
          ]
       },
       "x" : {
@@ -69,10 +74,5 @@
             "d21"
          ]
       }
-   },
-   "config" : {
-      "graphType" : "Scatter2D",
-      "subtitle" : "gcookbook - cabbage_exp",
-      "title" : "Summary of cabbages data set"
    }
 }

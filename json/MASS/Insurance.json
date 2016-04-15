@@ -1,280 +1,407 @@
 {
    "info" : "<table width=\"100%\" summary=\"page for Insurance\"><tr><td>Insurance</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\\n<h2>\\nNumbers of Car Insurance claims\\n</h2>\\n<h3>Description</h3>\\n<p>The data given in data frame <code>Insurance</code> consist of the\\nnumbers of policyholders of an insurance company who were\\nexposed to risk, and the numbers of car insurance claims made by\\nthose policyholders in the third quarter of 1973.\\n</p>\\n<h3>Usage</h3>\\n<pre>\\nInsurance\\n</pre>\\n<h3>Format</h3>\\n<p>This data frame contains the following columns:\\n</p>\\n<dl>\\n<dt><code>District</code></dt><dd>\\n<p>factor: district of residence of policyholder (1 to 4): 4 is major cities.\\n</p>\\n</dd>\\n<dt><code>Group</code></dt><dd>\\n<p>an ordered factor: group of car with levels  &lt;1 litre, 1&ndash;1.5 litre,\\n1.5&ndash;2 litre, &gt;2 litre.\\n</p>\\n</dd>\\n<dt><code>Age</code></dt><dd>\\n<p>an ordered factor: the age of the insured in 4 groups labelled\\n&lt;25, 25&ndash;29, 30&ndash;35, &gt;35.\\n</p>\\n</dd>\\n<dt><code>Holders</code></dt><dd>\\n<p>numbers of policyholders.\\n</p>\\n</dd>\\n<dt><code>Claims</code></dt><dd>\\n<p>numbers of claims\\n</p>\\n</dd>\\n</dl>\\n<h3>Source</h3>\\n<p>L. A. Baxter, S. M. Coutts and G. A. F. Ross (1980) Applications of\\nlinear models in motor insurance.\\n<em>Proceedings of the 21st International Congress of Actuaries, Zurich</em>\\npp. 11&ndash;29.\\n</p>\\n<p>M. Aitkin, D. Anderson, B. Francis and J. Hinde (1989)\\n<em>Statistical Modelling in GLIM.</em>\\nOxford University Press.\\n</p>\\n<h3>References</h3>\\n<p>Venables, W. N. and Ripley, B. D. (1999)\\n<em>Modern Applied Statistics with S-PLUS.</em> Third\\nEdition. Springer.\\n</p>\\n<h3>Examples</h3>\\n<pre>\\n## main-effects fit as Poisson GLM with offset\\nglm(Claims ~ District + Group + Age + offset(log(Holders)),\\n    data = Insurance, family = poisson)\\n# same via loglm\\nloglm(Claims ~ District + Group + Age + offset(log(Holders)),\\n      data = Insurance)\\n</pre>\\n",
+   "config" : {
+      "subtitle" : "MASS - Insurance",
+      "graphType" : "Scatter3D",
+      "title" : "Numbers of Car Insurance claims"
+   },
    "data" : {
       "y" : {
-         "vars" : [
+         "smps" : [
             "District",
             "Holders",
             "Claims"
          ],
-         "smps" : [
-            "Smp1",
-            "Smp2",
-            "Smp3",
-            "Smp4",
-            "Smp5",
-            "Smp6",
-            "Smp7",
-            "Smp8",
-            "Smp9",
-            "Smp10",
-            "Smp11",
-            "Smp12",
-            "Smp13",
-            "Smp14",
-            "Smp15",
-            "Smp16",
-            "Smp17",
-            "Smp18",
-            "Smp19",
-            "Smp20",
-            "Smp21",
-            "Smp22",
-            "Smp23",
-            "Smp24",
-            "Smp25",
-            "Smp26",
-            "Smp27",
-            "Smp28",
-            "Smp29",
-            "Smp30",
-            "Smp31",
-            "Smp32",
-            "Smp33",
-            "Smp34",
-            "Smp35",
-            "Smp36",
-            "Smp37",
-            "Smp38",
-            "Smp39",
-            "Smp40",
-            "Smp41",
-            "Smp42",
-            "Smp43",
-            "Smp44",
-            "Smp45",
-            "Smp46",
-            "Smp47",
-            "Smp48",
-            "Smp49",
-            "Smp50",
-            "Smp51",
-            "Smp52",
-            "Smp53",
-            "Smp54",
-            "Smp55",
-            "Smp56",
-            "Smp57",
-            "Smp58",
-            "Smp59",
-            "Smp60",
-            "Smp61",
-            "Smp62",
-            "Smp63",
-            "Smp64"
-         ],
          "data" : [
             [
                1,
+               197,
+               38
+            ],
+            [
                1,
+               264,
+               35
+            ],
+            [
                1,
+               246,
+               20
+            ],
+            [
                1,
+               1680,
+               156
+            ],
+            [
                1,
+               284,
+               63
+            ],
+            [
                1,
+               536,
+               84
+            ],
+            [
                1,
+               696,
+               89
+            ],
+            [
                1,
+               3582,
+               400
+            ],
+            [
                1,
+               133,
+               19
+            ],
+            [
                1,
+               286,
+               52
+            ],
+            [
                1,
+               355,
+               74
+            ],
+            [
                1,
+               1640,
+               233
+            ],
+            [
                1,
-               1,
-               1,
-               1,
-               2,
-               2,
-               2,
-               2,
-               2,
-               2,
-               2,
-               2,
-               2,
-               2,
-               2,
-               2,
-               2,
-               2,
-               2,
-               2,
-               3,
-               3,
-               3,
-               3,
-               3,
-               3,
-               3,
-               3,
-               3,
-               3,
-               3,
-               3,
-               3,
-               3,
-               3,
-               3,
-               4,
-               4,
-               4,
-               4,
-               4,
-               4,
-               4,
-               4,
-               4,
-               4,
-               4,
-               4,
-               4,
-               4,
-               4,
+               24,
                4
             ],
             [
-               197,
-               264,
-               246,
-               1680,
-               284,
-               536,
-               696,
-               3582,
-               133,
-               286,
-               355,
-               1640,
-               24,
+               1,
                71,
-               99,
-               452,
-               85,
-               139,
-               151,
-               931,
-               149,
-               313,
-               419,
-               2443,
-               66,
-               175,
-               221,
-               1110,
-               9,
-               48,
-               72,
-               322,
-               35,
-               73,
-               89,
-               648,
-               53,
-               155,
-               240,
-               1635,
-               24,
-               78,
-               121,
-               692,
-               7,
-               29,
-               43,
-               245,
-               20,
-               33,
-               40,
-               316,
-               31,
-               81,
-               122,
-               724,
-               18,
-               39,
-               68,
-               344,
-               3,
-               16,
-               25,
-               114
+               18
             ],
             [
-               38,
+               1,
+               99,
+               19
+            ],
+            [
+               1,
+               452,
+               77
+            ],
+            [
+               2,
+               85,
+               22
+            ],
+            [
+               2,
+               139,
+               19
+            ],
+            [
+               2,
+               151,
+               22
+            ],
+            [
+               2,
+               931,
+               87
+            ],
+            [
+               2,
+               149,
+               25
+            ],
+            [
+               2,
+               313,
+               51
+            ],
+            [
+               2,
+               419,
+               49
+            ],
+            [
+               2,
+               2443,
+               290
+            ],
+            [
+               2,
+               66,
+               14
+            ],
+            [
+               2,
+               175,
+               46
+            ],
+            [
+               2,
+               221,
+               39
+            ],
+            [
+               2,
+               1110,
+               143
+            ],
+            [
+               2,
+               9,
+               4
+            ],
+            [
+               2,
+               48,
+               15
+            ],
+            [
+               2,
+               72,
+               12
+            ],
+            [
+               2,
+               322,
+               53
+            ],
+            [
+               3,
                35,
-               20,
-               156,
-               63,
-               84,
+               5
+            ],
+            [
+               3,
+               73,
+               11
+            ],
+            [
+               3,
                89,
-               400,
-               19,
-               52,
-               74,
-               233,
+               10
+            ],
+            [
+               3,
+               648,
+               67
+            ],
+            [
+               3,
+               53,
+               10
+            ],
+            [
+               3,
+               155,
+               24
+            ],
+            [
+               3,
+               240,
+               37
+            ],
+            [
+               3,
+               1635,
+               187
+            ],
+            [
+               3,
+               24,
+               8
+            ],
+            [
+               3,
+               78,
+               19
+            ],
+            [
+               3,
+               121,
+               24
+            ],
+            [
+               3,
+               692,
+               101
+            ],
+            [
+               3,
+               7,
+               3
+            ],
+            [
+               3,
+               29,
+               2
+            ],
+            [
+               3,
+               43,
+               8
+            ],
+            [
+               3,
+               245,
+               37
+            ],
+            [
+               4,
+               20,
+               2
+            ],
+            [
+               4,
+               33,
+               5
+            ],
+            [
+               4,
+               40,
+               4
+            ],
+            [
+               4,
+               316,
+               36
+            ],
+            [
+               4,
+               31,
+               7
+            ],
+            [
+               4,
+               81,
+               10
+            ],
+            [
+               4,
+               122,
+               22
+            ],
+            [
+               4,
+               724,
+               102
+            ],
+            [
                4,
                18,
-               19,
-               77,
-               22,
-               19,
-               22,
-               87,
-               25,
-               51,
-               49,
-               290,
-               14,
-               46,
+               5
+            ],
+            [
+               4,
                39,
-               143,
+               7
+            ],
+            [
                4,
-               15,
-               12,
-               53,
-               5,
-               11,
-               10,
-               67,
-               10,
-               24,
-               37,
-               187,
-               8,
-               19,
-               24,
-               101,
+               68,
+               16
+            ],
+            [
+               4,
+               344,
+               63
+            ],
+            [
+               4,
                3,
-               2,
-               8,
-               37,
-               2,
-               5,
+               0
+            ],
+            [
                4,
-               36,
-               7,
-               10,
-               22,
-               102,
-               5,
-               7,
                16,
-               63,
-               0,
-               6,
-               8,
+               6
+            ],
+            [
+               4,
+               25,
+               8
+            ],
+            [
+               4,
+               114,
                33
             ]
+         ],
+         "vars" : [
+            "Var1",
+            "Var2",
+            "Var3",
+            "Var4",
+            "Var5",
+            "Var6",
+            "Var7",
+            "Var8",
+            "Var9",
+            "Var10",
+            "Var11",
+            "Var12",
+            "Var13",
+            "Var14",
+            "Var15",
+            "Var16",
+            "Var17",
+            "Var18",
+            "Var19",
+            "Var20",
+            "Var21",
+            "Var22",
+            "Var23",
+            "Var24",
+            "Var25",
+            "Var26",
+            "Var27",
+            "Var28",
+            "Var29",
+            "Var30",
+            "Var31",
+            "Var32",
+            "Var33",
+            "Var34",
+            "Var35",
+            "Var36",
+            "Var37",
+            "Var38",
+            "Var39",
+            "Var40",
+            "Var41",
+            "Var42",
+            "Var43",
+            "Var44",
+            "Var45",
+            "Var46",
+            "Var47",
+            "Var48",
+            "Var49",
+            "Var50",
+            "Var51",
+            "Var52",
+            "Var53",
+            "Var54",
+            "Var55",
+            "Var56",
+            "Var57",
+            "Var58",
+            "Var59",
+            "Var60",
+            "Var61",
+            "Var62",
+            "Var63",
+            "Var64"
          ]
       },
-      "x" : {
+      "z" : {
          "Age" : [
             "<25",
             "25-29",
@@ -408,10 +535,5 @@
             ">2l"
          ]
       }
-   },
-   "config" : {
-      "graphType" : "Scatter2D",
-      "subtitle" : "MASS - Insurance",
-      "title" : "Numbers of Car Insurance claims"
    }
 }

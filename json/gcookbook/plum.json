@@ -1,34 +1,63 @@
 {
    "info" : "<table width=\"100%\" summary=\"page for plum\"><tr><td>plum</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\\n<h2>Plum root cuttings (long format)</h2>\\n<h3>Description</h3>\\n<p>This is data from an experiment to investigate the effect\\nof cutting length and planting time on the survival of\\nplum root cuttings.\\n</p>\\n<h3>Variables</h3>\\n <ul>\\n<li><p> length: Cutting length.  </p>\\n</li>\\n<li><p> time:\\nPlanting time.  </p>\\n</li>\\n<li><p> survival: Survival status.  </p>\\n</li>\\n<li>\\n<p>count: Number of plants. </p>\\n</li></ul>\\n<h3>Source</h3>\\n<p>Hand, D.J., Daly, F., Lunn, A.D., McConway, K.J. &amp;\\nOstrowski, E. (1994), <em>A Handbook of Small Data\\nSets</em>, Chapman &amp; Hall.\\n</p>\\n<p>Bartlett, M.S. (1935), Contingency table interactions,\\n<em>Journal of the Royal Statistical Society\\nSupplement</em>, <b>2</b>, 248-252.\\n</p>\\n<h3>See Also</h3>\\n<p>This data frame is in &quot;long&quot; format. See\\n<code>plum_wide</code> for the same data in &quot;wide&quot;\\nformat.\\n</p>\\n",
+   "config" : {
+      "subtitle" : "gcookbook - plum",
+      "graphType" : "Bar",
+      "title" : "Plum root cuttings (long format)"
+   },
    "data" : {
       "y" : {
          "smps" : [
-            "Smp1",
-            "Smp2",
-            "Smp3",
-            "Smp4",
-            "Smp5",
-            "Smp6",
-            "Smp7",
-            "Smp8"
-         ],
-         "vars" : [
             "count"
          ],
          "data" : [
             [
-               84,
-               156,
-               133,
-               209,
-               156,
-               84,
-               107,
+               84
+            ],
+            [
+               156
+            ],
+            [
+               133
+            ],
+            [
+               209
+            ],
+            [
+               156
+            ],
+            [
+               84
+            ],
+            [
+               107
+            ],
+            [
                31
             ]
+         ],
+         "vars" : [
+            "Var1",
+            "Var2",
+            "Var3",
+            "Var4",
+            "Var5",
+            "Var6",
+            "Var7",
+            "Var8"
          ]
       },
-      "x" : {
+      "z" : {
+         "length" : [
+            "long",
+            "long",
+            "short",
+            "short",
+            "long",
+            "long",
+            "short",
+            "short"
+         ],
          "time" : [
             "at_once",
             "in_spring",
@@ -48,22 +77,7 @@
             "alive",
             "alive",
             "alive"
-         ],
-         "length" : [
-            "long",
-            "long",
-            "short",
-            "short",
-            "long",
-            "long",
-            "short",
-            "short"
          ]
       }
-   },
-   "config" : {
-      "graphType" : "Bar",
-      "subtitle" : "gcookbook - plum",
-      "title" : "Plum root cuttings (long format)"
    }
 }

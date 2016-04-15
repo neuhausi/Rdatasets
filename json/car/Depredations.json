@@ -1,14 +1,12 @@
 {
    "info" : "<table width=\"100%\" summary=\"page for Depredations\"><tr><td>Depredations</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\\n<h2>\\nMinnesota Wolf Depredation Data\\n</h2>\\n<h3>Description</h3>\\n<p>Wolf depredations of livestock on Minnesota farms, 1976-1998.\\n</p>\\n<h3>Usage</h3>\\n<pre>Depredations</pre>\\n<h3>Format</h3>\\n<p>A data frame with 434 observations on the following 5 variables.\\n</p>\\n<dl>\\n<dt><code>longitude</code></dt><dd><p>longitude of the farm</p>\\n</dd>\\n<dt><code>latitude</code></dt><dd><p>latitude of the farm</p>\\n</dd>\\n<dt><code>number</code></dt><dd><p>number of depredations 1976-1998</p>\\n</dd>\\n<dt><code>early</code></dt><dd><p>number of depredations 1991 or before</p>\\n</dd>\\n<dt><code>late</code></dt><dd><p>number of depredations 1992 or later</p>\\n</dd>\\n</dl>\\n<h3>References</h3>\\n<p>Fox, J. and Weisberg, S. (2011) \\n<em>An R Companion to Applied Regression</em>, Second Edition, Sage.\\n</p>\\n<p>Harper, Elizabeth K. and Paul, William J. and Mech, L. David and Weisberg, Sanford (2008),\\nEffectiveness of Lethal, Directed Wolf-Depredation Control in Minnesota,\\n<em>Journal of Wildlife Management</em>, 72, 3, 778-784.\\n<a href=\"http://dx.doi.org/10.2193/2007-273\">http://dx.doi.org/10.2193/2007-273</a>\\n</p>\\n",
+   "config" : {
+      "subtitle" : "car - Depredations",
+      "graphType" : "Scatter2D",
+      "title" : "Minnesota Wolf Depredation Data"
+   },
    "data" : {
       "y" : {
-         "vars" : [
-            "longitude",
-            "latitude",
-            "number",
-            "early",
-            "late"
-         ],
          "smps" : [
             "Smp1",
             "Smp2",
@@ -2626,12 +2624,14 @@
                1,
                1
             ]
+         ],
+         "vars" : [
+            "longitude",
+            "latitude",
+            "number",
+            "early",
+            "late"
          ]
       }
-   },
-   "config" : {
-      "graphType" : "Scatter2D",
-      "subtitle" : "car - Depredations",
-      "title" : "Minnesota Wolf Depredation Data"
    }
 }

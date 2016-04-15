@@ -1,42 +1,50 @@
 {
    "info" : "<table width=\"100%\" summary=\"page for BOD\"><tr><td>BOD</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\\n<h2> Biochemical Oxygen Demand </h2>\\n<h3>Description</h3>\\n<p>The <code>BOD</code> data frame has 6 rows and 2 columns giving the\\nbiochemical oxygen demand versus time in an evaluation of water\\nquality.\\n</p>\\n<h3>Usage</h3>\\n<pre>BOD</pre>\\n<h3>Format</h3>\\n<p>This data frame contains the following columns:\\n</p>\\n<dl>\\n<dt><code>Time</code></dt><dd>\\n<p>A numeric vector giving the time of the measurement (days).\\n</p>\\n</dd>\\n<dt><code>demand</code></dt><dd>\\n<p>A numeric vector giving the biochemical oxygen demand (mg/l).\\n</p>\\n</dd>\\n</dl>\\n<h3>Source</h3>\\n<p>Bates, D.M. and Watts, D.G. (1988),\\n<em>Nonlinear Regression Analysis and Its Applications</em>,\\nWiley, Appendix A1.4.\\n</p>\\n<p>Originally from Marske (1967), <em>Biochemical\\nOxygen Demand Data Interpretation Using Sum of Squares Surface</em>\\nM.Sc. Thesis, University of Wisconsin &ndash; Madison.\\n</p>\\n<h3>Examples</h3>\\n<pre>\\nrequire(stats)\\n# simplest form of fitting a first-order model to these data\\nfm1 &lt;- nls(demand ~ A*(1-exp(-exp(lrc)*Time)), data = BOD,\\n   start = c(A = 20, lrc = log(.35)))\\ncoef(fm1)\\nfm1\\n# using the plinear algorithm\\nfm2 &lt;- nls(demand ~ (1-exp(-exp(lrc)*Time)), data = BOD,\\n   start = c(lrc = log(.35)), algorithm = \"plinear\", trace = TRUE)\\n# using a self-starting model\\nfm3 &lt;- nls(demand ~ SSasympOrig(Time, A, lrc), data = BOD)\\nsummary(fm3)\\n</pre>\\n",
+   "config" : {
+      "subtitle" : "datasets - BOD",
+      "graphType" : "Scatter2D",
+      "title" : "Biochemical Oxygen Demand"
+   },
    "data" : {
       "y" : {
-         "vars" : [
+         "smps" : [
             "Time",
             "demand"
-         ],
-         "smps" : [
-            "Smp1",
-            "Smp2",
-            "Smp3",
-            "Smp4",
-            "Smp5",
-            "Smp6"
          ],
          "data" : [
             [
                1,
-               2,
-               3,
-               4,
-               5,
-               7
+               8.3
             ],
             [
-               8.3,
-               10.3,
-               19,
-               16,
-               15.6,
+               2,
+               10.3
+            ],
+            [
+               3,
+               19
+            ],
+            [
+               4,
+               16
+            ],
+            [
+               5,
+               15.6
+            ],
+            [
+               7,
                19.8
             ]
+         ],
+         "vars" : [
+            "Var1",
+            "Var2",
+            "Var3",
+            "Var4",
+            "Var5",
+            "Var6"
          ]
       }
-   },
-   "config" : {
-      "graphType" : "Scatter2D",
-      "subtitle" : "datasets - BOD",
-      "title" : "Biochemical Oxygen Demand"
    }
 }

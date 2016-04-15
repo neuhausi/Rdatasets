@@ -1,13 +1,12 @@
 {
    "info" : "<table width=\"100%\" summary=\"page for psych\"><tr><td>psych</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\\n<h2>data from Section 1.15</h2>\\n<h3>Description</h3>\\n<p>The <code>psych</code> data frame has 927 rows and 10 columns.\\n</p>\\n<h3>Format</h3>\\n<p>This data frame contains the following columns:\\n</p>\\n<dl>\\n<dt>sex</dt><dd>\\n<p>Patient sex (1=male, 2=female)\\n</p>\\n</dd>\\n<dt>age</dt><dd>\\n<p>Patient age\\n</p>\\n</dd>\\n<dt>time</dt><dd>\\n<p>Time to death or on-study time\\n</p>\\n</dd>\\n<dt>death</dt><dd>\\n<p>Death indicator (0=alive, 1=dead)\\n</p>\\n</dd>\\n</dl>\\n<h3>Source</h3>\\n<p>Klein and Moeschberger (1997) <em>Survival Analysis Techniques for Censored\\nand truncated data</em>, Springer.\\nWoolsen Biometrics 37 (1981): 687-696.\\n</p>\\n<h3>Examples</h3>\\n<pre>\\ndata(psych)\\n</pre>\\n",
+   "config" : {
+      "subtitle" : "KMsurv - psych",
+      "graphType" : "Scatter2D",
+      "title" : "data from Section 1.15"
+   },
    "data" : {
       "y" : {
-         "vars" : [
-            "sex",
-            "age",
-            "time",
-            "death"
-         ],
          "smps" : [
             "Smp1",
             "Smp2",
@@ -149,12 +148,13 @@
                1,
                0
             ]
+         ],
+         "vars" : [
+            "sex",
+            "age",
+            "time",
+            "death"
          ]
       }
-   },
-   "config" : {
-      "graphType" : "Scatter2D",
-      "subtitle" : "KMsurv - psych",
-      "title" : "data from Section 1.15"
    }
 }

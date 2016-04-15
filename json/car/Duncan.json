@@ -1,204 +1,293 @@
 {
    "info" : "<table width=\"100%\" summary=\"page for Duncan\"><tr><td>Duncan</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\\n<h2>Duncan's Occupational Prestige Data</h2>\\n<h3>Description</h3>\\n<p>The <code>Duncan</code> data frame has 45 rows and 4 columns.\\nData on the prestige and other characteristics of 45 U. S. occupations in 1950.\\n</p>\\n<h3>Usage</h3>\\n<pre>\\nDuncan\\n</pre>\\n<h3>Format</h3>\\n<p>This data frame contains the following columns:\\n</p>\\n<dl>\\n<dt>type</dt><dd><p> Type of occupation.\\nA factor with the following levels:\\n<code>prof</code>, professional and managerial;\\n<code>wc</code>, white-collar;\\n<code>bc</code>, blue-collar.\\n</p>\\n</dd>\\n<dt>income</dt><dd>\\n<p>Percent of males in occupation earning $3500 or more in 1950.\\n</p>\\n</dd>\\n<dt>education</dt><dd>\\n<p>Percent of males in occupation in 1950 who were high-school graduates.\\n</p>\\n</dd>\\n<dt>prestige</dt><dd>\\n<p>Percent of raters in NORC study rating occupation as excellent or good in prestige.\\n</p>\\n</dd>\\n</dl>\\n<h3>Source</h3>\\n<p>Duncan, O. D. (1961) \\nA socioeconomic index for all occupations.\\nIn Reiss, A. J., Jr. (Ed.)\\n<em>Occupations and Social Status.</em> Free Press \\n[Table VI-1].\\n</p>\\n<h3>References</h3>\\n<p>Fox, J. (2008)\\n<em>Applied Regression Analysis and Generalized Linear Models</em>,\\nSecond Edition. Sage.  \\n</p>\\n<p>Fox, J. and Weisberg, S. (2011) \\n<em>An R Companion to Applied Regression</em>, Second Edition, Sage.\\n</p>\\n",
+   "config" : {
+      "subtitle" : "car - Duncan",
+      "graphType" : "Scatter3D",
+      "title" : "Duncan's Occupational Prestige Data"
+   },
    "data" : {
       "y" : {
-         "vars" : [
+         "smps" : [
             "income",
             "education",
             "prestige"
          ],
-         "smps" : [
-            "Smp1",
-            "Smp2",
-            "Smp3",
-            "Smp4",
-            "Smp5",
-            "Smp6",
-            "Smp7",
-            "Smp8",
-            "Smp9",
-            "Smp10",
-            "Smp11",
-            "Smp12",
-            "Smp13",
-            "Smp14",
-            "Smp15",
-            "Smp16",
-            "Smp17",
-            "Smp18",
-            "Smp19",
-            "Smp20",
-            "Smp21",
-            "Smp22",
-            "Smp23",
-            "Smp24",
-            "Smp25",
-            "Smp26",
-            "Smp27",
-            "Smp28",
-            "Smp29",
-            "Smp30",
-            "Smp31",
-            "Smp32",
-            "Smp33",
-            "Smp34",
-            "Smp35",
-            "Smp36",
-            "Smp37",
-            "Smp38",
-            "Smp39",
-            "Smp40",
-            "Smp41",
-            "Smp42",
-            "Smp43",
-            "Smp44",
-            "Smp45"
-         ],
          "data" : [
             [
                62,
+               86,
+               82
+            ],
+            [
                72,
+               76,
+               83
+            ],
+            [
                75,
+               92,
+               90
+            ],
+            [
                55,
+               90,
+               76
+            ],
+            [
                64,
+               86,
+               90
+            ],
+            [
                21,
+               84,
+               87
+            ],
+            [
                64,
+               93,
+               93
+            ],
+            [
                80,
+               100,
+               90
+            ],
+            [
                67,
+               87,
+               52
+            ],
+            [
                72,
+               86,
+               88
+            ],
+            [
                42,
+               74,
+               57
+            ],
+            [
                76,
+               98,
+               89
+            ],
+            [
                76,
+               97,
+               97
+            ],
+            [
                41,
+               84,
+               59
+            ],
+            [
                48,
+               91,
+               73
+            ],
+            [
                76,
+               34,
+               38
+            ],
+            [
                53,
+               45,
+               76
+            ],
+            [
                60,
+               56,
+               81
+            ],
+            [
                42,
+               44,
+               45
+            ],
+            [
                78,
+               82,
+               92
+            ],
+            [
                29,
+               72,
+               39
+            ],
+            [
                48,
                55,
+               34
+            ],
+            [
+               55,
+               71,
+               41
+            ],
+            [
                29,
+               50,
+               16
+            ],
+            [
                21,
+               23,
+               33
+            ],
+            [
                47,
+               39,
+               53
+            ],
+            [
                81,
+               28,
+               67
+            ],
+            [
                36,
+               32,
+               57
+            ],
+            [
                22,
+               22,
+               26
+            ],
+            [
                44,
+               25,
+               29
+            ],
+            [
                15,
+               29,
+               10
+            ],
+            [
                7,
+               7,
+               15
+            ],
+            [
                42,
+               26,
+               19
+            ],
+            [
                9,
+               19,
+               10
+            ],
+            [
                21,
+               15,
+               13
+            ],
+            [
                21,
+               20,
+               24
+            ],
+            [
                16,
+               26,
+               20
+            ],
+            [
                16,
+               28,
+               7
+            ],
+            [
                9,
-               14,
-               12,
                17,
+               3
+            ],
+            [
+               14,
+               22,
+               16
+            ],
+            [
+               12,
+               30,
+               6
+            ],
+            [
+               17,
+               25,
+               11
+            ],
+            [
                7,
-               34,
+               20,
                8
             ],
             [
-               86,
-               76,
-               92,
-               90,
-               86,
-               84,
-               93,
-               100,
-               87,
-               86,
-               74,
-               98,
-               97,
-               84,
-               91,
                34,
-               45,
-               56,
-               44,
-               82,
-               72,
-               55,
-               71,
-               50,
-               23,
-               39,
-               28,
-               32,
-               22,
-               25,
-               29,
-               7,
-               26,
-               19,
-               15,
-               20,
-               26,
-               28,
-               17,
-               22,
-               30,
-               25,
-               20,
                47,
-               32
+               41
             ],
             [
-               82,
-               83,
-               90,
-               76,
-               90,
-               87,
-               93,
-               90,
-               52,
-               88,
-               57,
-               89,
-               97,
-               59,
-               73,
-               38,
-               76,
-               81,
-               45,
-               92,
-               39,
-               34,
-               41,
-               16,
-               33,
-               53,
-               67,
-               57,
-               26,
-               29,
-               10,
-               15,
-               19,
-               10,
-               13,
-               24,
-               20,
-               7,
-               3,
-               16,
-               6,
-               11,
                8,
-               41,
+               32,
                10
             ]
+         ],
+         "vars" : [
+            "Var1",
+            "Var2",
+            "Var3",
+            "Var4",
+            "Var5",
+            "Var6",
+            "Var7",
+            "Var8",
+            "Var9",
+            "Var10",
+            "Var11",
+            "Var12",
+            "Var13",
+            "Var14",
+            "Var15",
+            "Var16",
+            "Var17",
+            "Var18",
+            "Var19",
+            "Var20",
+            "Var21",
+            "Var22",
+            "Var23",
+            "Var24",
+            "Var25",
+            "Var26",
+            "Var27",
+            "Var28",
+            "Var29",
+            "Var30",
+            "Var31",
+            "Var32",
+            "Var33",
+            "Var34",
+            "Var35",
+            "Var36",
+            "Var37",
+            "Var38",
+            "Var39",
+            "Var40",
+            "Var41",
+            "Var42",
+            "Var43",
+            "Var44",
+            "Var45"
          ]
       },
-      "x" : {
+      "z" : {
          "type" : [
             "prof",
             "prof",
@@ -247,10 +336,5 @@
             "bc"
          ]
       }
-   },
-   "config" : {
-      "graphType" : "Scatter2D",
-      "subtitle" : "car - Duncan",
-      "title" : "Duncan's Occupational Prestige Data"
    }
 }

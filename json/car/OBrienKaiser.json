@@ -1,24 +1,12 @@
 {
    "info" : "<table width=\"100%\" summary=\"page for OBrienKaiser\"><tr><td>OBrienKaiser</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\\n<h2>O'Brien and Kaiser's Repeated-Measures Data</h2>\\n<h3>Description</h3>\\n<p>These contrived repeated-measures data are taken from \\nO'Brien and Kaiser (1985). The data are from an imaginary study in which\\n16 female and male subjects, who are divided into three treatments, are measured\\nat a pretest, postest, and a follow-up session; during each session, they are\\nmeasured at five occasions at intervals of one hour. The design, therefore, has\\ntwo between-subject and two within-subject factors.\\n</p>\\n<p>The contrasts for the <code>treatment</code> factor are set to <i>-2, 1, 1</i> and\\n<i>0, -1, 1</i>. The contrasts for the <code>gender</code> factor are set to\\n<code>contr.sum</code>.\\n</p>\\n<h3>Usage</h3>\\n<pre>OBrienKaiser</pre>\\n<h3>Format</h3>\\n<p>A data frame with 16 observations on the following 17 variables.\\n</p>\\n<dl>\\n<dt><code>treatment</code></dt><dd><p>a factor with levels <code>control</code> <code>A</code> <code>B</code></p>\\n</dd>\\n<dt><code>gender</code></dt><dd><p>a factor with levels <code>F</code> <code>M</code></p>\\n</dd>\\n<dt><code>pre.1</code></dt><dd><p>pretest, hour 1</p>\\n</dd>\\n<dt><code>pre.2</code></dt><dd><p>pretest, hour 2</p>\\n</dd>\\n<dt><code>pre.3</code></dt><dd><p>pretest, hour 3</p>\\n</dd>\\n<dt><code>pre.4</code></dt><dd><p>pretest, hour 4</p>\\n</dd>\\n<dt><code>pre.5</code></dt><dd><p>pretest, hour 5</p>\\n</dd>\\n<dt><code>post.1</code></dt><dd><p>posttest, hour 1</p>\\n</dd>\\n<dt><code>post.2</code></dt><dd><p>posttest, hour 2</p>\\n</dd>\\n<dt><code>post.3</code></dt><dd><p>posttest, hour 3</p>\\n</dd>\\n<dt><code>post.4</code></dt><dd><p>posttest, hour 4</p>\\n</dd>\\n<dt><code>post.5</code></dt><dd><p>posttest, hour 5</p>\\n</dd>\\n<dt><code>fup.1</code></dt><dd><p>follow-up, hour 1</p>\\n</dd>\\n<dt><code>fup.2</code></dt><dd><p>follow-up, hour 2</p>\\n</dd>\\n<dt><code>fup.3</code></dt><dd><p>follow-up, hour 3</p>\\n</dd>\\n<dt><code>fup.4</code></dt><dd><p>follow-up, hour 4</p>\\n</dd>\\n<dt><code>fup.5</code></dt><dd><p>follow-up, hour 5</p>\\n</dd>\\n</dl>\\n<h3>Source</h3>\\n<p>O'Brien, R. G., and Kaiser, M. K. (1985)\\nMANOVA method for analyzing repeated measures designs: An extensive primer.\\n<em>Psychological Bulletin</em> <b>97</b>, 316&ndash;333, Table 7.\\n</p>\\n<h3>Examples</h3>\\n<pre>\\nOBrienKaiser\\ncontrasts(OBrienKaiser$treatment)\\ncontrasts(OBrienKaiser$gender)\\n</pre>\\n",
+   "config" : {
+      "subtitle" : "car - OBrienKaiser",
+      "graphType" : "Scatter2D",
+      "title" : "O'Brien and Kaiser's Repeated-Measures Data"
+   },
    "data" : {
       "y" : {
-         "vars" : [
-            "pre.1",
-            "pre.2",
-            "pre.3",
-            "pre.4",
-            "pre.5",
-            "post.1",
-            "post.2",
-            "post.3",
-            "post.4",
-            "post.5",
-            "fup.1",
-            "fup.2",
-            "fup.3",
-            "fup.4",
-            "fup.5"
-         ],
          "smps" : [
             "Smp1",
             "Smp2",
@@ -308,27 +296,26 @@
                7,
                7
             ]
+         ],
+         "vars" : [
+            "pre.1",
+            "pre.2",
+            "pre.3",
+            "pre.4",
+            "pre.5",
+            "post.1",
+            "post.2",
+            "post.3",
+            "post.4",
+            "post.5",
+            "fup.1",
+            "fup.2",
+            "fup.3",
+            "fup.4",
+            "fup.5"
          ]
       },
       "x" : {
-         "gender" : [
-            "M",
-            "M",
-            "M",
-            "F",
-            "F",
-            "M",
-            "M",
-            "F",
-            "F",
-            "M",
-            "M",
-            "M",
-            "F",
-            "F",
-            "F",
-            "F"
-         ],
          "treatment" : [
             "control",
             "control",
@@ -346,12 +333,25 @@
             "B",
             "B",
             "B"
+         ],
+         "gender" : [
+            "M",
+            "M",
+            "M",
+            "F",
+            "F",
+            "M",
+            "M",
+            "F",
+            "F",
+            "M",
+            "M",
+            "M",
+            "F",
+            "F",
+            "F",
+            "F"
          ]
       }
-   },
-   "config" : {
-      "graphType" : "Scatter2D",
-      "subtitle" : "car - OBrienKaiser",
-      "title" : "O'Brien and Kaiser's Repeated-Measures Data"
    }
 }

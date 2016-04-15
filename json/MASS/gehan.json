@@ -1,192 +1,275 @@
 {
    "info" : "<table width=\"100%\" summary=\"page for gehan\"><tr><td>gehan</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\\n<h2>\\nRemission Times of Leukaemia Patients\\n</h2>\\n<h3>Description</h3>\\n<p>A data frame from a trial of 42 leukaemia patients. Some were\\ntreated with the drug <em>6-mercaptopurine</em>\\nand the rest are controls.  The trial was designed as matched pairs,\\nboth withdrawn from the trial when either came out of remission.\\n</p>\\n<h3>Usage</h3>\\n<pre>\\ngehan\\n</pre>\\n<h3>Format</h3>\\n<p>This data frame contains the following columns:\\n</p>\\n<dl>\\n<dt><code>pair</code></dt><dd>\\n<p>label for pair.\\n</p>\\n</dd>\\n<dt><code>time</code></dt><dd>\\n<p>remission time in weeks.\\n</p>\\n</dd>\\n<dt><code>cens</code></dt><dd>\\n<p>censoring, 0/1.\\n</p>\\n</dd>\\n<dt><code>treat</code></dt><dd>\\n<p>treatment, control or 6-MP.\\n</p>\\n</dd>\\n</dl>\\n<h3>Source</h3>\\n<p>Cox, D. R. and Oakes, D. (1984) <em>Analysis of Survival Data.</em>\\nChapman &amp; Hall, p. 7. Taken from\\n</p>\\n<p>Gehan, E.A. (1965) A generalized Wilcoxon test for comparing\\narbitrarily single-censored samples.\\n<em>Biometrika</em> <b>52</b>, 203&ndash;233.\\n</p>\\n<h3>References</h3>\\n<p>Venables, W. N. and Ripley, B. D. (2002)\\n<em>Modern Applied Statistics with S.</em> Fourth edition.  Springer.\\n</p>\\n<h3>Examples</h3>\\n<pre>\\nlibrary(survival)\\ngehan.surv &lt;- survfit(Surv(time, cens) ~ treat, data = gehan,\\n     conf.type = \"log-log\")\\nsummary(gehan.surv)\\nsurvreg(Surv(time, cens) ~ factor(pair) + treat, gehan, dist = \"exponential\")\\nsummary(survreg(Surv(time, cens) ~ treat, gehan, dist = \"exponential\"))\\nsummary(survreg(Surv(time, cens) ~ treat, gehan))\\ngehan.cox &lt;- coxph(Surv(time, cens) ~ treat, gehan)\\nsummary(gehan.cox)\\n</pre>\\n",
+   "config" : {
+      "subtitle" : "MASS - gehan",
+      "graphType" : "Scatter3D",
+      "title" : "Remission Times of Leukaemia Patients"
+   },
    "data" : {
       "y" : {
-         "vars" : [
+         "smps" : [
             "pair",
             "time",
             "cens"
-         ],
-         "smps" : [
-            "Smp1",
-            "Smp2",
-            "Smp3",
-            "Smp4",
-            "Smp5",
-            "Smp6",
-            "Smp7",
-            "Smp8",
-            "Smp9",
-            "Smp10",
-            "Smp11",
-            "Smp12",
-            "Smp13",
-            "Smp14",
-            "Smp15",
-            "Smp16",
-            "Smp17",
-            "Smp18",
-            "Smp19",
-            "Smp20",
-            "Smp21",
-            "Smp22",
-            "Smp23",
-            "Smp24",
-            "Smp25",
-            "Smp26",
-            "Smp27",
-            "Smp28",
-            "Smp29",
-            "Smp30",
-            "Smp31",
-            "Smp32",
-            "Smp33",
-            "Smp34",
-            "Smp35",
-            "Smp36",
-            "Smp37",
-            "Smp38",
-            "Smp39",
-            "Smp40",
-            "Smp41",
-            "Smp42"
          ],
          "data" : [
             [
                1,
                1,
-               2,
-               2,
-               3,
-               3,
-               4,
-               4,
-               5,
-               5,
-               6,
-               6,
-               7,
-               7,
-               8,
-               8,
-               9,
-               9,
-               10,
-               10,
-               11,
-               11,
-               12,
-               12,
-               13,
-               13,
-               14,
-               14,
-               15,
-               15,
-               16,
-               16,
-               17,
-               17,
-               18,
-               18,
-               19,
-               19,
-               20,
-               20,
-               21,
-               21
+               1
             ],
             [
                1,
                10,
+               1
+            ],
+            [
+               2,
                22,
+               1
+            ],
+            [
+               2,
                7,
+               1
+            ],
+            [
+               3,
+               3,
+               1
+            ],
+            [
                3,
                32,
+               0
+            ],
+            [
+               4,
                12,
+               1
+            ],
+            [
+               4,
                23,
+               1
+            ],
+            [
+               5,
                8,
+               1
+            ],
+            [
+               5,
                22,
-               17,
+               1
+            ],
+            [
                6,
+               17,
+               1
+            ],
+            [
+               6,
+               6,
+               1
+            ],
+            [
+               7,
                2,
+               1
+            ],
+            [
+               7,
                16,
+               1
+            ],
+            [
+               8,
                11,
+               1
+            ],
+            [
+               8,
                34,
-               8,
-               32,
-               12,
-               25,
-               2,
-               11,
-               5,
-               20,
-               4,
-               19,
-               15,
-               6,
-               8,
-               17,
-               23,
-               35,
-               5,
-               6,
-               11,
-               13,
-               4,
-               9,
-               1,
-               6,
-               8,
-               10
+               0
             ],
             [
+               9,
+               8,
+               1
+            ],
+            [
+               9,
+               32,
+               0
+            ],
+            [
+               10,
+               12,
+               1
+            ],
+            [
+               10,
+               25,
+               0
+            ],
+            [
+               11,
+               2,
+               1
+            ],
+            [
+               11,
+               11,
+               0
+            ],
+            [
+               12,
+               5,
+               1
+            ],
+            [
+               12,
+               20,
+               0
+            ],
+            [
+               13,
+               4,
+               1
+            ],
+            [
+               13,
+               19,
+               0
+            ],
+            [
+               14,
+               15,
+               1
+            ],
+            [
+               14,
+               6,
+               1
+            ],
+            [
+               15,
+               8,
+               1
+            ],
+            [
+               15,
+               17,
+               0
+            ],
+            [
+               16,
+               23,
+               1
+            ],
+            [
+               16,
+               35,
+               0
+            ],
+            [
+               17,
+               5,
+               1
+            ],
+            [
+               17,
+               6,
+               1
+            ],
+            [
+               18,
+               11,
+               1
+            ],
+            [
+               18,
+               13,
+               1
+            ],
+            [
+               19,
+               4,
+               1
+            ],
+            [
+               19,
+               9,
+               0
+            ],
+            [
+               20,
                1,
-               1,
-               1,
-               1,
-               1,
-               0,
-               1,
-               1,
-               1,
-               1,
-               1,
-               1,
-               1,
-               1,
-               1,
-               0,
-               1,
-               0,
-               1,
-               0,
-               1,
-               0,
-               1,
-               0,
-               1,
-               0,
-               1,
-               1,
-               1,
-               0,
-               1,
-               0,
-               1,
-               1,
-               1,
-               1,
-               1,
-               0,
-               1,
-               0,
-               1,
+               1
+            ],
+            [
+               20,
+               6,
+               0
+            ],
+            [
+               21,
+               8,
+               1
+            ],
+            [
+               21,
+               10,
                0
             ]
+         ],
+         "vars" : [
+            "Var1",
+            "Var2",
+            "Var3",
+            "Var4",
+            "Var5",
+            "Var6",
+            "Var7",
+            "Var8",
+            "Var9",
+            "Var10",
+            "Var11",
+            "Var12",
+            "Var13",
+            "Var14",
+            "Var15",
+            "Var16",
+            "Var17",
+            "Var18",
+            "Var19",
+            "Var20",
+            "Var21",
+            "Var22",
+            "Var23",
+            "Var24",
+            "Var25",
+            "Var26",
+            "Var27",
+            "Var28",
+            "Var29",
+            "Var30",
+            "Var31",
+            "Var32",
+            "Var33",
+            "Var34",
+            "Var35",
+            "Var36",
+            "Var37",
+            "Var38",
+            "Var39",
+            "Var40",
+            "Var41",
+            "Var42"
          ]
       },
-      "x" : {
+      "z" : {
          "treat" : [
             "control",
             "6-MP",
@@ -232,10 +315,5 @@
             "6-MP"
          ]
       }
-   },
-   "config" : {
-      "graphType" : "Scatter2D",
-      "subtitle" : "MASS - gehan",
-      "title" : "Remission Times of Leukaemia Patients"
    }
 }

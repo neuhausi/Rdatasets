@@ -1,5 +1,10 @@
 {
    "info" : "<table width=\"100%\" summary=\"page for heightweight\"><tr><td>heightweight</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\\n<h2>Height and weight of schoolchildren</h2>\\n<h3>Description</h3>\\n<p>Height and weight of schoolchildren\\n</p>\\n<h3>Variables</h3>\\n <ul>\\n<li><p> sex </p>\\n</li>\\n<li><p> ageYear: Age in years.  </p>\\n</li>\\n<li>\\n<p>ageMonth: Age in months.  </p>\\n</li>\\n<li><p> heightIn: Height in\\ninches.  </p>\\n</li>\\n<li><p> weightLb: Weight in pounds. </p>\\n</li></ul>\\n<h3>Source</h3>\\n<p>Lewis, T., &amp; Taylor, L.R. (1967), <em>Introduction to\\nExperimental Ecology</em>, Academic Press.\\n</p>\\n",
+   "config" : {
+      "subtitle" : "gcookbook - heightweight",
+      "graphType" : "Scatter2D",
+      "title" : "Height and weight of schoolchildren"
+   },
    "data" : {
       "y" : {
          "smps" : [
@@ -239,12 +244,6 @@
             "Smp234",
             "Smp235",
             "Smp236"
-         ],
-         "vars" : [
-            "ageYear",
-            "ageMonth",
-            "heightIn",
-            "weightLb"
          ],
          "data" : [
             [
@@ -1199,6 +1198,12 @@
                107.5,
                87
             ]
+         ],
+         "vars" : [
+            "ageYear",
+            "ageMonth",
+            "heightIn",
+            "weightLb"
          ]
       },
       "x" : {
@@ -1441,10 +1446,5 @@
             "m"
          ]
       }
-   },
-   "config" : {
-      "graphType" : "Scatter2D",
-      "subtitle" : "gcookbook - heightweight",
-      "title" : "Height and weight of schoolchildren"
    }
 }

@@ -1,66 +1,90 @@
 {
    "info" : "<table width=\"100%\" summary=\"page for survival\"><tr><td>survival</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\\n<h2>\\nSurvival of Rats after Radiation Doses\\n</h2>\\n<h3>Description</h3>\\n<p>The <code>survival</code> data frame has 14 rows and 2 columns.\\n</p>\\n<p>The data measured the survival percentages of batches of rats who were given \\nvarying doses of radiation.  At each of 6 doses there were two or three\\nreplications of the experiment.\\n</p>\\n<h3>Usage</h3>\\n<pre>\\nsurvival\\n</pre>\\n<h3>Format</h3>\\n<p>This data frame contains the following columns:\\n</p>\\n<dl>\\n<dt><code>dose</code></dt><dd>\\n<p>The dose of radiation administered (rads).\\n</p>\\n</dd>\\n<dt><code>surv</code></dt><dd>\\n<p>The survival rate of the batches expressed as a percentage.\\n</p>\\n</dd></dl>\\n<h3>Source</h3>\\n<p>The data were obtained from\\n</p>\\n<p>Efron, B. (1988) Computer-intensive methods in statistical regression.\\n<em>SIAM Review</em>, <b>30</b>, 421&ndash;449.\\n</p>\\n<h3>References</h3>\\n<p>Davison, A.C. and Hinkley, D.V. (1997) \\n<em>Bootstrap Methods and Their Application</em>. Cambridge University Press.\\n</p>\\n",
+   "config" : {
+      "subtitle" : "boot - survival",
+      "graphType" : "Scatter2D",
+      "title" : "Survival of Rats after Radiation Doses"
+   },
    "data" : {
       "y" : {
-         "vars" : [
+         "smps" : [
             "dose",
             "surv"
-         ],
-         "smps" : [
-            "Smp1",
-            "Smp2",
-            "Smp3",
-            "Smp4",
-            "Smp5",
-            "Smp6",
-            "Smp7",
-            "Smp8",
-            "Smp9",
-            "Smp10",
-            "Smp11",
-            "Smp12",
-            "Smp13",
-            "Smp14"
          ],
          "data" : [
             [
                117.5,
-               117.5,
-               235,
-               235,
-               470,
-               470,
-               470,
-               705,
-               705,
-               940,
-               940,
-               940,
-               1410,
-               1410
+               44
             ],
             [
-               44,
-               55,
-               16,
-               13,
-               4,
-               1.96,
-               6.12,
-               0.5,
-               0.32,
-               0.11,
-               0.015,
-               0.019,
-               0.7,
+               117.5,
+               55
+            ],
+            [
+               235,
+               16
+            ],
+            [
+               235,
+               13
+            ],
+            [
+               470,
+               4
+            ],
+            [
+               470,
+               1.96
+            ],
+            [
+               470,
+               6.12
+            ],
+            [
+               705,
+               0.5
+            ],
+            [
+               705,
+               0.32
+            ],
+            [
+               940,
+               0.11
+            ],
+            [
+               940,
+               0.015
+            ],
+            [
+               940,
+               0.019
+            ],
+            [
+               1410,
+               0.7
+            ],
+            [
+               1410,
                0.006
             ]
+         ],
+         "vars" : [
+            "Var1",
+            "Var2",
+            "Var3",
+            "Var4",
+            "Var5",
+            "Var6",
+            "Var7",
+            "Var8",
+            "Var9",
+            "Var10",
+            "Var11",
+            "Var12",
+            "Var13",
+            "Var14"
          ]
       }
-   },
-   "config" : {
-      "graphType" : "Scatter2D",
-      "subtitle" : "boot - survival",
-      "title" : "Survival of Rats after Radiation Doses"
    }
 }

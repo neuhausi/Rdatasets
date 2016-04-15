@@ -1,78 +1,141 @@
 {
    "info" : "<table width=\"100%\" summary=\"page for Dyestuff\"><tr><td>Dyestuff</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\\n<h2>Yield of dyestuff by batch</h2>\\n<h3>Description</h3>\\n<p>The <code>Dyestuff</code> data frame provides the yield of\\ndyestuff (Naphthalene Black 12B) from 5 different\\npreparations from each of 6 different batchs of an\\nintermediate product (H-acid).  The <code>Dyestuff2</code> data\\nwere generated data in the same structure but with a\\nlarge residual variance relative to the batch variance.\\n</p>\\n<h3>Format</h3>\\n<p>Data frames, each with 30 observations on the following 2 variables.\\n</p>\\n<dl>\\n<dt><code>Batch</code></dt><dd><p>a factor indicating the batch of the\\nintermediate product from which the preparation was created.</p>\\n</dd>\\n<dt><code>Yield</code></dt><dd><p>the yield of dyestuff from the preparation\\n(grams of standard color).</p>\\n</dd>\\n</dl>\\n<h3>Details</h3>\\n<p>The <code>Dyestuff</code> data are described in Davies and\\nGoldsmith (1972) as coming from &ldquo;an investigation\\nto find out how much the variation from batch to batch in\\nthe quality of an intermediate product (H-acid)\\ncontributes to the variation in the yield of the dyestuff\\n(Naphthalene Black 12B) made from it.  In the experiment\\nsix samples of the intermediate, representing different\\nbatches of works manufacture, were obtained, and five\\npreparations of the dyestuff were made in the laboratory\\nfrom each sample. The equivalent yield of each\\npreparation as grams of standard colour was determined by\\ndye-trial.&rdquo;\\n</p>\\n<p>The <code>Dyestuff2</code> data are described in Box and Tiao\\n(1973) as illustrating &ldquo; the case where\\nbetween-batches mean square is less than the\\nwithin-batches mean square.  These data had to be\\nconstructed for although examples of this sort\\nundoubtably occur in practice, they seem to be rarely\\npublished.&rdquo;\\n</p>\\n<h3>Source</h3>\\n<p>O.L. Davies and P.L. Goldsmith (eds), <em>Statistical\\nMethods in Research and Production, 4th ed.</em>, Oliver and\\nBoyd, (1972), section 6.4\\n</p>\\n<p>G.E.P. Box and G.C. Tiao, <em>Bayesian Inference in\\nStatistical Analysis</em>, Addison-Wesley, (1973), section\\n5.1.2\\n</p>\\n<h3>Examples</h3>\\n<pre>\\nrequire(lattice)\\nstr(Dyestuff)\\ndotplot(reorder(Batch, Yield) ~ Yield, Dyestuff,\\n        ylab = \"Batch\", jitter.y = TRUE, aspect = 0.3,\\n        type = c(\"p\", \"a\"))\\ndotplot(reorder(Batch, Yield) ~ Yield, Dyestuff2,\\n        ylab = \"Batch\", jitter.y = TRUE, aspect = 0.3,\\n        type = c(\"p\", \"a\"))\\n(fm1 &lt;- lmer(Yield ~ 1|Batch, Dyestuff))\\n(fm2 &lt;- lmer(Yield ~ 1|Batch, Dyestuff2))\\n</pre>\\n",
+   "config" : {
+      "subtitle" : "lme4 - Dyestuff",
+      "graphType" : "Treemap",
+      "title" : "Yield of dyestuff by batch"
+   },
    "data" : {
       "y" : {
-         "vars" : [
-            "Yield"
-         ],
          "smps" : [
-            "Smp1",
-            "Smp2",
-            "Smp3",
-            "Smp4",
-            "Smp5",
-            "Smp6",
-            "Smp7",
-            "Smp8",
-            "Smp9",
-            "Smp10",
-            "Smp11",
-            "Smp12",
-            "Smp13",
-            "Smp14",
-            "Smp15",
-            "Smp16",
-            "Smp17",
-            "Smp18",
-            "Smp19",
-            "Smp20",
-            "Smp21",
-            "Smp22",
-            "Smp23",
-            "Smp24",
-            "Smp25",
-            "Smp26",
-            "Smp27",
-            "Smp28",
-            "Smp29",
-            "Smp30"
+            "Yield"
          ],
          "data" : [
             [
-               1545,
-               1440,
-               1440,
-               1520,
-               1580,
-               1540,
-               1555,
-               1490,
-               1560,
-               1495,
-               1595,
-               1550,
-               1605,
-               1510,
-               1560,
-               1445,
-               1440,
-               1595,
-               1465,
-               1545,
-               1595,
-               1630,
-               1515,
-               1635,
-               1625,
-               1520,
-               1455,
-               1450,
-               1480,
+               1545
+            ],
+            [
+               1440
+            ],
+            [
+               1440
+            ],
+            [
+               1520
+            ],
+            [
+               1580
+            ],
+            [
+               1540
+            ],
+            [
+               1555
+            ],
+            [
+               1490
+            ],
+            [
+               1560
+            ],
+            [
+               1495
+            ],
+            [
+               1595
+            ],
+            [
+               1550
+            ],
+            [
+               1605
+            ],
+            [
+               1510
+            ],
+            [
+               1560
+            ],
+            [
+               1445
+            ],
+            [
+               1440
+            ],
+            [
+               1595
+            ],
+            [
+               1465
+            ],
+            [
+               1545
+            ],
+            [
+               1595
+            ],
+            [
+               1630
+            ],
+            [
+               1515
+            ],
+            [
+               1635
+            ],
+            [
+               1625
+            ],
+            [
+               1520
+            ],
+            [
+               1455
+            ],
+            [
+               1450
+            ],
+            [
+               1480
+            ],
+            [
                1445
             ]
+         ],
+         "vars" : [
+            "Var1",
+            "Var2",
+            "Var3",
+            "Var4",
+            "Var5",
+            "Var6",
+            "Var7",
+            "Var8",
+            "Var9",
+            "Var10",
+            "Var11",
+            "Var12",
+            "Var13",
+            "Var14",
+            "Var15",
+            "Var16",
+            "Var17",
+            "Var18",
+            "Var19",
+            "Var20",
+            "Var21",
+            "Var22",
+            "Var23",
+            "Var24",
+            "Var25",
+            "Var26",
+            "Var27",
+            "Var28",
+            "Var29",
+            "Var30"
          ]
       },
-      "x" : {
+      "z" : {
          "Batch" : [
             "A",
             "A",
@@ -106,10 +169,5 @@
             "F"
          ]
       }
-   },
-   "config" : {
-      "graphType" : "Treemap",
-      "subtitle" : "lme4 - Dyestuff",
-      "title" : "Yield of dyestuff by batch"
    }
 }

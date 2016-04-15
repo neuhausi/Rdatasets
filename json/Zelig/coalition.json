@@ -1,5 +1,10 @@
 {
    "info" : "<table width=\"100%\" summary=\"page for coalition\"><tr><td>coalition</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\\n<h2>Coalition Dissolution in Parliamentary Democracies</h2>\\n<h3>Description</h3>\\n<p>This data set contains survival data on government coalitions in\\nparliamentary democracies (Belgium, Canada, Denmark, Finland, France,\\nIceland, Ireland, Israel, Italy, Netherlands, Norway, Portugal, Spain,\\nSweden, and the United Kingdom) for the period 1945-1987.  For\\nparsimony, country indicator variables are omitted in the sample data.  \\n</p>\\n<h3>Usage</h3>\\n<pre>data(coalition)</pre>\\n<h3>Format</h3>\\n<p>A table containing 7 variables (&quot;duration&quot;, &quot;ciep12&quot;, &quot;invest&quot;,\\n&quot;fract&quot;, &quot;polar&quot;, &quot;numst2&quot;, &quot;crisis&quot;) and 314 observations.  For\\nvariable descriptions, please refer to King, Alt, Burns and Laver\\n(1990).  \\n</p>\\n<h3>Source</h3>\\n<p>ICPSR</p>\\n<h3>References</h3>\\n<p>King, Gary, James E. Alt, Nancy Elizabeth Burns and Michael Laver (1990).\\n&ldquo;A Unified Model  of Cabinet Dissolution in Parliamentary\\nDemocracies,&rdquo; <em>American Journal of Political Science</em>, vol. 34,\\nno. 3, pp. 846-870.  \\n</p>\\n<p>Gary King, James E. Alt, Nancy Burns, and Michael Laver.  ICPSR\\nPublication Related Archive, 1115.\\n</p>\\n",
+   "config" : {
+      "subtitle" : "Zelig - coalition",
+      "graphType" : "Scatter2D",
+      "title" : "Coalition Dissolution in Parliamentary Democracies"
+   },
    "data" : {
       "y" : {
          "smps" : [
@@ -317,15 +322,6 @@
             "Smp312",
             "Smp313",
             "Smp314"
-         ],
-         "vars" : [
-            "duration",
-            "ciep12",
-            "invest",
-            "fract",
-            "polar",
-            "numst2",
-            "crisis"
          ],
          "data" : [
             [
@@ -2540,12 +2536,16 @@
                0,
                6
             ]
+         ],
+         "vars" : [
+            "duration",
+            "ciep12",
+            "invest",
+            "fract",
+            "polar",
+            "numst2",
+            "crisis"
          ]
       }
-   },
-   "config" : {
-      "graphType" : "Scatter2D",
-      "subtitle" : "Zelig - coalition",
-      "title" : "Coalition Dissolution in Parliamentary Democracies"
    }
 }

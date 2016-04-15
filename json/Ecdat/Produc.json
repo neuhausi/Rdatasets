@@ -1,5 +1,10 @@
 {
    "info" : "<table width=\"100%\" summary=\"page for Produc\"><tr><td>Produc</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\\n<h2>Us States Production </h2>\\n<h3>Description</h3>\\n<p>a panel of 48 observations  from 1970   to 1986\\n</p>\\n<p><em>number of observations</em> :  816\\n</p>\\n<p><em>observation</em> :  regional\\n</p>\\n<p><em>country</em> :  United States\\n</p>\\n<h3>Usage</h3>\\n<pre>data(Produc)</pre>\\n<h3>Format</h3>\\n<p>A dataframe containing :\\n</p>\\n<dl>\\n<dt>state</dt><dd><p>the state</p>\\n</dd>\\n<dt>year</dt><dd><p>the year</p>\\n</dd>\\n<dt>pcap</dt><dd><p>private capital stock</p>\\n</dd>\\n<dt>hwy</dt><dd><p>highway and streets</p>\\n</dd>\\n<dt>water</dt><dd><p>water and sewer facilities</p>\\n</dd>\\n<dt>util</dt><dd><p>other public buildings and structures</p>\\n</dd>\\n<dt>pc</dt><dd><p>public capital</p>\\n</dd>\\n<dt>gsp</dt><dd><p>gross state products</p>\\n</dd>\\n<dt>emp</dt><dd><p>labor input measured by the employement in non&ndash;agricultural payrolls</p>\\n</dd>\\n<dt>unemp</dt><dd><p>state unemployment rate</p>\\n</dd>\\n</dl>\\n<h3>Source</h3>\\n<p>Munnel, A. (1990) &ldquo;Why has productivity growth declined? Productivity and public investment&rdquo;, <em>New England Economic Review</em>, 3&ndash;22.\\n</p>\\n<p>Baltagi, B. H.  and  N.  Pinnoi (1995) &ldquo;Public capital stock and state productivity growth: further evidence&rdquo;, <em>Empirical Economics</em>, <b>20</b>, 351&ndash;359.\\n</p>\\n<h3>References</h3>\\n<p>Baltagi, Badi H. (2003) <em>Econometric analysis of panel data</em>, John Wiley and sons, <a href=\"http://www.wiley.com/legacy/wileychi/baltagi/\">http://www.wiley.com/legacy/wileychi/baltagi/</a>.\\n</p>\\n<h3>See Also</h3>\\n<p><code>Index.Source</code>, <code>Index.Economics</code>, <code>Index.Econometrics</code>, <code>Index.Observations</code>,\\n</p>\\n<p><code>Index.Time.Series</code></p>\\n",
+   "config" : {
+      "subtitle" : "Ecdat - Produc",
+      "graphType" : "Scatter2D",
+      "title" : "Us States Production"
+   },
    "data" : {
       "y" : {
          "smps" : [
@@ -819,18 +824,6 @@
             "Smp814",
             "Smp815",
             "Smp816"
-         ],
-         "vars" : [
-            "year",
-            "region",
-            "pcap",
-            "hwy",
-            "water",
-            "util",
-            "pc",
-            "gsp",
-            "emp",
-            "unemp"
          ],
          "data" : [
             [
@@ -9013,6 +9006,18 @@
                7.1,
                9
             ]
+         ],
+         "vars" : [
+            "year",
+            "region",
+            "pcap",
+            "hwy",
+            "water",
+            "util",
+            "pc",
+            "gsp",
+            "emp",
+            "unemp"
          ]
       },
       "x" : {
@@ -9835,10 +9840,5 @@
             "WYOMING"
          ]
       }
-   },
-   "config" : {
-      "graphType" : "Scatter2D",
-      "subtitle" : "Ecdat - Produc",
-      "title" : "Us States Production"
    }
 }

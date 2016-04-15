@@ -1,108 +1,167 @@
 {
    "info" : "<table width=\"100%\" summary=\"page for CRANpackages\"><tr><td>CRANpackages</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\\n<h2> Growth of CRAN </h2>\\n<h3>Description</h3>\\n<p>Data casually collected on the number of packages on the Comprehensive\\nR Archive Network (CRAN) at different dates.\\n</p>\\n<p>NOTE:  This could change in the future.  See Details below.  \\n</p>\\n<h3>Usage</h3>\\n<pre>\\ndata(CRANpackages)\\n</pre>\\n<h3>Format</h3>\\n<p>A <code>data.frame</code> containing:\\n</p>\\n<dl>\\n<dt>Version</dt><dd>\\n<p>an ordered factor of the R version number primarily in use at the\\ntime.  This was taken from archives of the major releases at\\n<a href=\"https://svn.r-project.org/R/branches/R-1-3-patches/tests/internet.Rout.save\">https://svn.r-project.org/R/branches/R-1-3-patches/tests/internet.Rout.save</a>,\\n<a href=\"https://svn.r-project.org/R/branches/R-3-1-branch/tests/internet.Rout.save\">https://svn.r-project.org/R/branches/R-3-1-branch/tests/internet.Rout.save</a>\\n</p>\\n</dd>\\n<dt>Date</dt><dd>\\n<p>an object of class <code>Date</code> giving the date on which the count\\nof the number of CRAN packages was determined.\\n</p>\\n</dd>\\n<dt>Packages</dt><dd>\\n<p>an integer number of packages on the CRAN mirror checked on the\\nindicated <code>Date</code>.\\n</p>\\n</dd>\\n<dt>Source</dt><dd>\\n<p>A factor giving the source (person) who collected the data.\\n</p>\\n</dd>\\n</dl>\\n<h3>Details</h3>\\n<p>This seems to provide the most widely available source for data on the\\ngrowth of CRAN, manually recorded by John Fox and Spencer Graves.  For\\na discussion of these and related data, see Fox (2009).\\n</p>\\n<p>For more detail, see the \\n<a href=\"https://github.com/hadley/cran-packages\">CRAN packages</a> data on \\nGithub maintained by Hadley Wickham.  This contains the description\\nfile of every package uploaded to CRAN prior to the date of Hadley's\\nmost recent update.  The current maintainer of the <code>Ecdat</code> and \\n<code>Ecfun</code> packages would consider contributions along the \\nfollowing lines:  \\n</p>\\n<p>1.  It might be nice to have a more complete dataset or datasets \\nshowing CRAN growth.  This might include code fitting multiple \\nmodels and predicting future growth with error bounds computed \\nusing Bayesian Model Averaging.  These model fits might make an \\ninteresting addition to the examples in this help file.  With a \\nlittle more effort, it might make an interesting note for \\n<em>R Journal</em>.  Functions written to fit those models might \\nbe added to the <code>Ecfun</code> package.  \\n</p>\\n<p>2.  It might be nice to have a function in <code>Ecfun</code> to \\ndownload the \\n<a href=\"https://github.com/hadley/cran-packages\">CRAN packages</a>  \\ndata from Github and convert it to a format suitable for \\nupdating this dataset.  \\n</p>\\n<p>The current maintainer for <code>Ecdat</code> and <code>Ecfun</code> \\n(Spencer Graves) might be willing to accept code and \\ndocumentation for this but is not ready to do it himself at \\nthe present time.  \\n</p>\\n<h3>Source</h3>\\n<p>John Fox, &quot;Aspects of the Social Organization and Trajectory of the R\\nProject&quot;, <em>R Journal</em>, 1(2), Dec. 2009, 5-13.\\n<a href=\"http://journal.r-project.org/archive/2009-2/RJournal_2009-2_Fox.pdf\">http://journal.r-project.org/archive/2009-2/RJournal_2009-2_Fox.pdf</a>,\\naccessed 2014-04-13.\\n</p>\\n<h3>Examples</h3>\\n<pre>\\nplot(Packages~Date, CRANpackages, log='y')\\n# almost exponential growth\\n</pre>\\n",
+   "config" : {
+      "subtitle" : "Ecdat - CRANpackages",
+      "graphType" : "Scatter2D",
+      "title" : "Growth of CRAN"
+   },
    "data" : {
       "y" : {
          "smps" : [
-            "Smp1",
-            "Smp2",
-            "Smp3",
-            "Smp4",
-            "Smp5",
-            "Smp6",
-            "Smp7",
-            "Smp8",
-            "Smp9",
-            "Smp10",
-            "Smp11",
-            "Smp12",
-            "Smp13",
-            "Smp14",
-            "Smp15",
-            "Smp16",
-            "Smp17",
-            "Smp18",
-            "Smp19",
-            "Smp20",
-            "Smp21",
-            "Smp22",
-            "Smp23",
-            "Smp24",
-            "Smp25",
-            "Smp26",
-            "Smp27",
-            "Smp28",
-            "Smp29"
-         ],
-         "vars" : [
             "Version",
             "Packages"
          ],
          "data" : [
             [
                1.3,
-               1.4,
-               1.5,
-               1.6,
-               1.7,
-               1.8,
-               1.9,
-               2,
-               2.1,
-               2.2,
-               2.3,
-               2.4,
-               2.5,
-               2.6,
-               2.7,
-               2.8,
-               2.9,
-               2.1,
-               2.11,
-               2.12,
-               2.13,
-               2.14,
-               2.14,
-               2.15,
-               2.15,
-               2.15,
-               2.15,
-               2.15,
-               3.1
+               110
             ],
             [
-               110,
-               129,
-               162,
-               163,
-               219,
-               273,
-               357,
-               406,
-               548,
-               647,
-               739,
-               911,
-               1000,
-               1300,
-               1427,
-               1614,
-               1952,
-               2088,
-               2445,
-               2837,
-               3286,
-               3618,
-               3786,
-               4000,
-               4082,
-               4210,
-               4960,
-               5000,
+               1.4,
+               129
+            ],
+            [
+               1.5,
+               162
+            ],
+            [
+               1.6,
+               163
+            ],
+            [
+               1.7,
+               219
+            ],
+            [
+               1.8,
+               273
+            ],
+            [
+               1.9,
+               357
+            ],
+            [
+               2,
+               406
+            ],
+            [
+               2.1,
+               548
+            ],
+            [
+               2.2,
+               647
+            ],
+            [
+               2.3,
+               739
+            ],
+            [
+               2.4,
+               911
+            ],
+            [
+               2.5,
+               1000
+            ],
+            [
+               2.6,
+               1300
+            ],
+            [
+               2.7,
+               1427
+            ],
+            [
+               2.8,
+               1614
+            ],
+            [
+               2.9,
+               1952
+            ],
+            [
+               2.1,
+               2088
+            ],
+            [
+               2.11,
+               2445
+            ],
+            [
+               2.12,
+               2837
+            ],
+            [
+               2.13,
+               3286
+            ],
+            [
+               2.14,
+               3618
+            ],
+            [
+               2.14,
+               3786
+            ],
+            [
+               2.15,
+               4000
+            ],
+            [
+               2.15,
+               4082
+            ],
+            [
+               2.15,
+               4210
+            ],
+            [
+               2.15,
+               4960
+            ],
+            [
+               2.15,
+               5000
+            ],
+            [
+               3.1,
                5428
             ]
+         ],
+         "vars" : [
+            "Var1",
+            "Var2",
+            "Var3",
+            "Var4",
+            "Var5",
+            "Var6",
+            "Var7",
+            "Var8",
+            "Var9",
+            "Var10",
+            "Var11",
+            "Var12",
+            "Var13",
+            "Var14",
+            "Var15",
+            "Var16",
+            "Var17",
+            "Var18",
+            "Var19",
+            "Var20",
+            "Var21",
+            "Var22",
+            "Var23",
+            "Var24",
+            "Var25",
+            "Var26",
+            "Var27",
+            "Var28",
+            "Var29"
          ]
       },
-      "x" : {
+      "z" : {
          "Source" : [
             "John Fox ",
             "John Fox ",
@@ -166,10 +225,5 @@
             "2014-04-13"
          ]
       }
-   },
-   "config" : {
-      "graphType" : "Scatter2D",
-      "subtitle" : "Ecdat - CRANpackages",
-      "title" : "Growth of CRAN"
    }
 }

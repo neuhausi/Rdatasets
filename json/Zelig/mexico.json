@@ -1,5 +1,10 @@
 {
    "info" : "<table width=\"100%\" summary=\"page for mexico\"><tr><td>mexico</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\\n<h2>Voting Data from the 1988 Mexican Presidental Election</h2>\\n<h3>Description</h3>\\n<p>This dataset contains voting data for the 1988 Mexican presidential\\nelection.  \\n</p>\\n<h3>Usage</h3>\\n<pre>data(mexico)</pre>\\n<h3>Format</h3>\\n<p>A table containing 33 variables and 1,359 observations.</p>\\n<h3>Source</h3>\\n<p>ICPSR</p>\\n<h3>References</h3>\\n<p>King, Gary, Michael Tomz and Jason Wittenberg (2000).\\n&ldquo;Making the Most of Statistical Analyses: Improving Interpretation and \\nPresentation,&rdquo; <em>American Journal of Political Science</em>, vol. 44,\\npp. 341-355.\\n</p>\\n<p>King, Tomz and Wittenberg.  ICPSR Publication Related Archive, 1255.  \\n</p>\\n",
+   "config" : {
+      "subtitle" : "Zelig - mexico",
+      "graphType" : "Heatmap",
+      "title" : "Voting Data from the 1988 Mexican Presidental Election"
+   },
    "data" : {
       "y" : {
          "smps" : [
@@ -1362,41 +1367,6 @@
             "Smp1357",
             "Smp1358",
             "Smp1359"
-         ],
-         "vars" : [
-            "vote88",
-            "pri82",
-            "pan82",
-            "novote82",
-            "deathok",
-            "forinvok",
-            "limimp",
-            "paydebt",
-            "keepind",
-            "polint",
-            "auth",
-            "natecon",
-            "futecok",
-            "persecon",
-            "futperok",
-            "school",
-            "age",
-            "female",
-            "prof",
-            "working",
-            "union",
-            "townsize",
-            "north",
-            "south",
-            "zmgm",
-            "religion",
-            "pristr",
-            "othcok",
-            "othsocok",
-            "ratemdm",
-            "traitmjc",
-            "traitccs",
-            "one"
          ],
          "data" : [
             [
@@ -46312,12 +46282,42 @@
                1,
                1
             ]
+         ],
+         "vars" : [
+            "vote88",
+            "pri82",
+            "pan82",
+            "novote82",
+            "deathok",
+            "forinvok",
+            "limimp",
+            "paydebt",
+            "keepind",
+            "polint",
+            "auth",
+            "natecon",
+            "futecok",
+            "persecon",
+            "futperok",
+            "school",
+            "age",
+            "female",
+            "prof",
+            "working",
+            "union",
+            "townsize",
+            "north",
+            "south",
+            "zmgm",
+            "religion",
+            "pristr",
+            "othcok",
+            "othsocok",
+            "ratemdm",
+            "traitmjc",
+            "traitccs",
+            "one"
          ]
       }
-   },
-   "config" : {
-      "graphType" : "Heatmap",
-      "subtitle" : "Zelig - mexico",
-      "title" : "Voting Data from the 1988 Mexican Presidental Election"
    }
 }

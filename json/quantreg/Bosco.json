@@ -1,40 +1,45 @@
 {
    "info" : "<table width=\"100%\" summary=\"page for Bosco\"><tr><td>Bosco</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\\n<h2>Boscovich Data</h2>\\n<h3>Description</h3>\\n<p>Boscovich data used to estimate the ellipticity of the earth.\\nThere are five measurements of the arc length of one degree of \\nlatitude taken at 5 different latitudes.  See Koenker (2005) for\\nfurther details and references.\\n</p>\\n<h3>Usage</h3>\\n<pre>data(Bosco)</pre>\\n<h3>Format</h3>\\n<p>A data frame containing 5 observations on 2 variables\\n</p>\\n<dl>\\n<dt>x</dt><dd><p>sine squared of latitude measured in degrees</p>\\n</dd>\\n<dt>y</dt><dd><p>arc length of one degree of latitude measured in toise - 56,700,\\none toise approximately equals 1.95 meters. </p>\\n</dd>\\n</dl>\\n<h3>References</h3>\\n<p>Koenker, R. (2005), &quot;Quantile Regression&quot;, Cambridge.\\n</p>\\n<h3>Examples</h3>\\n<pre>\\ndata(Bosco)\\nplot(0:10/10,0:10*100,xlab=\"sin^2(latitude)\",\\n        ylab=\"arc-length of 1 degree of latitude\",type=\"n\")\\npoints(Bosco)\\ntext(Bosco, pos = 3, rownames(Bosco))\\nz &lt;- rq(y ~ x, tau = -1, data = Bosco)\\ntitle(\"Boscovitch Ellipticity of the Earth Example\")\\nxb &lt;- c(.85,.9,.6,.6)\\nyb &lt;- c(400,600,450,600)\\nfor(i in 1:4){\\n        abline(c(z$sol[4:5,i]))\\n        interval &lt;- paste(\"t=(\",format(round(z$sol[1,i],2)),\",\",\\n                format(round(z$sol[1,i+1],2)),\")\",delim=\"\")\\n        text(xb[i],yb[i],interval)\\n</pre>\\n",
+   "config" : {
+      "subtitle" : "quantreg - Bosco",
+      "graphType" : "Scatter2D",
+      "title" : "Boscovich Data"
+   },
    "data" : {
       "y" : {
          "smps" : [
-            "Smp1",
-            "Smp2",
-            "Smp3",
-            "Smp4",
-            "Smp5"
-         ],
-         "vars" : [
             "x",
             "y"
          ],
          "data" : [
             [
                0,
-               0.2987,
-               0.4648,
-               0.5762,
-               0.8386
+               51
             ],
             [
-               51,
-               337,
-               279,
-               374,
+               0.2987,
+               337
+            ],
+            [
+               0.4648,
+               279
+            ],
+            [
+               0.5762,
+               374
+            ],
+            [
+               0.8386,
                722
             ]
+         ],
+         "vars" : [
+            "Var1",
+            "Var2",
+            "Var3",
+            "Var4",
+            "Var5"
          ]
       }
-   },
-   "config" : {
-      "graphType" : "Scatter2D",
-      "subtitle" : "quantreg - Bosco",
-      "scatterPlotMatrix" : 1,
-      "title" : "Boscovich Data"
    }
 }

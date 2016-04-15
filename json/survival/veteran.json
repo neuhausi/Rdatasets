@@ -1,16 +1,12 @@
 {
    "info" : "<table width=\"100%\" summary=\"page for veteran\"><tr><td>veteran</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\\n<h2>Veterans' Administration Lung Cancer study</h2>\\n<h3>Description</h3>\\n<p>Randomised trial of two treatment regimens for lung cancer.\\nThis is a standard survival analysis data set.</p>\\n<h3>Usage</h3>\\n<pre>veteran</pre>\\n<h3>Format</h3>\\n<table summary=\"Rd table\">\\n<tr>\\n <td style=\"text-align: left;\">\\n    trt:</td><td style=\"text-align: left;\"> 1=standard 2=test</td>\\n</tr>\\n<tr>\\n <td style=\"text-align: left;\">\\n    celltype:</td><td style=\"text-align: left;\"> 1=squamous,  2=smallcell,  3=adeno,  4=large</td>\\n</tr>\\n<tr>\\n <td style=\"text-align: left;\">\\n    time:</td><td style=\"text-align: left;\"> survival time</td>\\n</tr>\\n<tr>\\n <td style=\"text-align: left;\">\\n    status:</td><td style=\"text-align: left;\"> censoring status</td>\\n</tr>\\n<tr>\\n <td style=\"text-align: left;\">\\n    karno:</td><td style=\"text-align: left;\"> Karnofsky performance score (100=good)</td>\\n</tr>\\n<tr>\\n <td style=\"text-align: left;\">\\n    diagtime:</td><td style=\"text-align: left;\"> months from diagnosis to randomisation</td>\\n</tr>\\n<tr>\\n <td style=\"text-align: left;\">\\n    age:</td><td style=\"text-align: left;\"> in years</td>\\n</tr>\\n<tr>\\n <td style=\"text-align: left;\">\\n    prior:</td><td style=\"text-align: left;\"> prior therapy 0=no, 1=yes</td>\\n</tr>\\n<tr>\\n <td style=\"text-align: left;\">\\n  </td>\\n</tr>\\n</table>\\n<h3>Source</h3>\\n<p>D Kalbfleisch and RL Prentice (1980),\\n<em>The Statistical Analysis of Failure Time Data</em>.\\nWiley, New York.\\n</p>\\n",
+   "config" : {
+      "subtitle" : "survival - veteran",
+      "graphType" : "Scatter2D",
+      "title" : "Veterans' Administration Lung Cancer study"
+   },
    "data" : {
       "y" : {
-         "vars" : [
-            "trt",
-            "time",
-            "status",
-            "karno",
-            "diagtime",
-            "age",
-            "prior"
-         ],
          "smps" : [
             "Smp1",
             "Smp2",
@@ -1124,6 +1120,15 @@
                0,
                0
             ]
+         ],
+         "vars" : [
+            "trt",
+            "time",
+            "status",
+            "karno",
+            "diagtime",
+            "age",
+            "prior"
          ]
       },
       "x" : {
@@ -1267,10 +1272,5 @@
             "large"
          ]
       }
-   },
-   "config" : {
-      "graphType" : "Scatter2D",
-      "subtitle" : "survival - veteran",
-      "title" : "Veterans' Administration Lung Cancer study"
    }
 }

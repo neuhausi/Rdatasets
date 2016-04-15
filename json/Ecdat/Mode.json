@@ -1,5 +1,10 @@
 {
    "info" : "<table width=\"100%\" summary=\"page for Mode\"><tr><td>Mode</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\\n<h2>Mode Choice </h2>\\n<h3>Description</h3>\\n<p>a cross-section\\n</p>\\n<p><em>number of observations</em> :  453\\n</p>\\n<p><em>observation</em> :  individuals\\n</p>\\n<h3>Usage</h3>\\n<pre>data(Mode)</pre>\\n<h3>Format</h3>\\n<p>A dataframe containing :\\n</p>\\n<dl>\\n<dt>choice</dt><dd><p>one of car, carpool, bus or rail</p>\\n</dd>\\n<dt>cost.z</dt><dd><p>cost of mode z</p>\\n</dd>\\n<dt>time.z</dt><dd><p>time of mode z</p>\\n</dd>\\n</dl>\\n<h3>References</h3>\\n<p>Kenneth Train's home page :  <a href=\"http://elsa.berkeley.edu/~train/\">http://elsa.berkeley.edu/~train/</a>.\\n</p>\\n<h3>See Also</h3>\\n<p><code>Index.Source</code>, <code>Index.Economics</code>, <code>Index.Econometrics</code>, <code>Index.Observations</code></p>\\n",
+   "config" : {
+      "subtitle" : "Ecdat - Mode",
+      "graphType" : "Scatter2D",
+      "title" : "Mode Choice"
+   },
    "data" : {
       "y" : {
          "smps" : [
@@ -456,16 +461,6 @@
             "Smp451",
             "Smp452",
             "Smp453"
-         ],
-         "vars" : [
-            "cost.car",
-            "cost.carpool",
-            "cost.bus",
-            "cost.rail",
-            "time.car",
-            "time.carpool",
-            "time.bus",
-            "time.rail"
          ],
          "data" : [
             [
@@ -4108,6 +4103,16 @@
                48.370662,
                73.447286
             ]
+         ],
+         "vars" : [
+            "cost.car",
+            "cost.carpool",
+            "cost.bus",
+            "cost.rail",
+            "time.car",
+            "time.carpool",
+            "time.bus",
+            "time.rail"
          ]
       },
       "x" : {
@@ -4567,10 +4572,5 @@
             "carpool"
          ]
       }
-   },
-   "config" : {
-      "graphType" : "Scatter2D",
-      "subtitle" : "Ecdat - Mode",
-      "title" : "Mode Choice"
    }
 }

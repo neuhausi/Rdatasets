@@ -1,379 +1,549 @@
 {
    "info" : "<table width=\"100%\" summary=\"page for H_ethanol\"><tr><td>H_ethanol</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\\n<h2> Engine exhaust fumes from burning ethanol </h2>\\n<h3>Description</h3>\\n<p>Ethanol fuel was burned in a single-cylinder engine.  For various\\nsettings of the engine compression and equivalence ratio, the\\nemissions of nitrogen oxides were recorded.\\n</p>\\n<h3>Usage</h3>\\n<pre>ethanol</pre>\\n<h3>Format</h3>\\n<p>A data frame with 88 observations on the following 3 variables.\\n</p>\\n<dl>\\n<dt>NOx</dt><dd><p>Concentration of nitrogen oxides (NO and NO2) in\\nmicrograms/J.</p>\\n</dd>\\n<dt>C</dt><dd><p>Compression ratio of the engine.</p>\\n</dd>\\n<dt>E</dt><dd><p>Equivalence ratio&ndash;a measure of the richness of the air and\\nethanol fuel mixture.</p>\\n</dd>\\n</dl>\\n<h3>Author(s)</h3>\\n<p>Documentation contributed by Kevin Wright.\\n</p>\\n<h3>Source</h3>\\n<p>Brinkman, N.D. (1981) Ethanol Fuel&mdash;A Single-Cylinder Engine Study of\\nEfficiency and Exhaust Emissions. <em>SAE transactions</em>,\\n<b>90</b>, 1410&ndash;1424.\\n</p>\\n<h3>References</h3>\\n<p>Cleveland, William S. (1993) <em>Visualizing Data</em>.  Hobart Press,\\nSummit, New Jersey.\\n</p>\\n<h3>Examples</h3>\\n<pre>\\n## Constructing panel functions on the fly\\nEE &lt;- equal.count(ethanol$E, number=9, overlap=1/4)\\nxyplot(NOx ~ C | EE, data = ethanol,\\n       prepanel = function(x, y) prepanel.loess(x, y, span = 1),\\n       xlab = \"Compression ratio\", ylab = \"NOx (micrograms/J)\",\\n       panel = function(x, y) {\\n           panel.grid(h=-1, v= 2)\\n           panel.xyplot(x, y)\\n           panel.loess(x,y, span=1)\\n       aspect = \"xy\")\\n# Wireframe loess surface fit.  See Figure 4.61 from Cleveland.\\nrequire(stats)\\nwith(ethanol, {\\n  eth.lo &lt;- loess(NOx ~ C * E, span = 1/3, parametric = \"C\", \\n                  drop.square = \"C\", family=\"symmetric\")\\n  eth.marginal &lt;- list(C = seq(min(C), max(C), length.out = 25), \\n                       E = seq(min(E), max(E), length.out = 25))\\n  eth.grid &lt;- expand.grid(eth.marginal)\\n  eth.fit &lt;- predict(eth.lo, eth.grid)\\n  wireframe(eth.fit ~ eth.grid$C * eth.grid$E,\\n            shade=TRUE,\\n\t    screen = list(z = 40, x = -60, y=0),\\n\t    distance = .1,\\n\t    xlab = \"C\", ylab = \"E\", zlab = \"NOx\")\\n</pre>\\n",
+   "config" : {
+      "subtitle" : "lattice - ethanol",
+      "graphType" : "Scatter3D",
+      "title" : "Engine exhaust fumes from burning ethanol"
+   },
    "data" : {
       "y" : {
-         "vars" : [
+         "smps" : [
             "NOx",
             "C",
             "E"
          ],
-         "smps" : [
-            "Smp1",
-            "Smp2",
-            "Smp3",
-            "Smp4",
-            "Smp5",
-            "Smp6",
-            "Smp7",
-            "Smp8",
-            "Smp9",
-            "Smp10",
-            "Smp11",
-            "Smp12",
-            "Smp13",
-            "Smp14",
-            "Smp15",
-            "Smp16",
-            "Smp17",
-            "Smp18",
-            "Smp19",
-            "Smp20",
-            "Smp21",
-            "Smp22",
-            "Smp23",
-            "Smp24",
-            "Smp25",
-            "Smp26",
-            "Smp27",
-            "Smp28",
-            "Smp29",
-            "Smp30",
-            "Smp31",
-            "Smp32",
-            "Smp33",
-            "Smp34",
-            "Smp35",
-            "Smp36",
-            "Smp37",
-            "Smp38",
-            "Smp39",
-            "Smp40",
-            "Smp41",
-            "Smp42",
-            "Smp43",
-            "Smp44",
-            "Smp45",
-            "Smp46",
-            "Smp47",
-            "Smp48",
-            "Smp49",
-            "Smp50",
-            "Smp51",
-            "Smp52",
-            "Smp53",
-            "Smp54",
-            "Smp55",
-            "Smp56",
-            "Smp57",
-            "Smp58",
-            "Smp59",
-            "Smp60",
-            "Smp61",
-            "Smp62",
-            "Smp63",
-            "Smp64",
-            "Smp65",
-            "Smp66",
-            "Smp67",
-            "Smp68",
-            "Smp69",
-            "Smp70",
-            "Smp71",
-            "Smp72",
-            "Smp73",
-            "Smp74",
-            "Smp75",
-            "Smp76",
-            "Smp77",
-            "Smp78",
-            "Smp79",
-            "Smp80",
-            "Smp81",
-            "Smp82",
-            "Smp83",
-            "Smp84",
-            "Smp85",
-            "Smp86",
-            "Smp87",
-            "Smp88"
-         ],
          "data" : [
             [
                3.741,
+               12,
+               0.907
+            ],
+            [
                2.295,
+               12,
+               0.761
+            ],
+            [
                1.498,
+               12,
+               1.108
+            ],
+            [
                2.881,
+               12,
+               1.016
+            ],
+            [
                0.76,
+               12,
+               1.189
+            ],
+            [
                3.12,
+               9,
+               1.001
+            ],
+            [
                0.638,
+               9,
+               1.231
+            ],
+            [
                1.17,
+               9,
+               1.123
+            ],
+            [
                2.358,
+               12,
+               1.042
+            ],
+            [
                0.606,
+               12,
+               1.215
+            ],
+            [
                3.669,
+               12,
+               0.93
+            ],
+            [
                1,
+               12,
+               1.152
+            ],
+            [
                0.981,
+               15,
+               1.138
+            ],
+            [
                1.192,
+               18,
+               0.601
+            ],
+            [
                0.926,
+               7.5,
+               0.696
+            ],
+            [
                1.59,
+               12,
+               0.686
+            ],
+            [
                1.806,
+               12,
+               1.072
+            ],
+            [
                1.962,
+               15,
+               1.074
+            ],
+            [
                4.028,
+               15,
+               0.934
+            ],
+            [
                3.148,
+               9,
+               0.808
+            ],
+            [
                1.836,
+               9,
+               1.071
+            ],
+            [
                2.845,
+               7.5,
+               1.009
+            ],
+            [
                1.013,
+               7.5,
+               1.142
+            ],
+            [
                0.414,
+               18,
+               1.229
+            ],
+            [
                0.812,
+               18,
+               1.175
+            ],
+            [
                0.374,
+               15,
+               0.568
+            ],
+            [
                3.623,
+               15,
+               0.977
+            ],
+            [
                1.869,
+               7.5,
+               0.767
+            ],
+            [
                2.836,
+               7.5,
+               1.006
+            ],
+            [
                3.567,
+               9,
+               0.893
+            ],
+            [
                0.866,
+               15,
+               1.152
+            ],
+            [
                1.369,
+               15,
+               0.693
+            ],
+            [
                0.542,
+               15,
+               1.232
+            ],
+            [
                2.739,
+               15,
+               1.036
+            ],
+            [
                1.2,
+               15,
+               1.125
+            ],
+            [
                1.719,
+               9,
+               1.081
+            ],
+            [
                3.423,
+               9,
+               0.868
+            ],
+            [
                1.634,
+               7.5,
+               0.762
+            ],
+            [
                1.021,
+               7.5,
+               1.144
+            ],
+            [
                2.157,
+               7.5,
+               1.045
+            ],
+            [
                3.361,
+               18,
+               0.797
+            ],
+            [
                1.39,
+               18,
+               1.115
+            ],
+            [
                1.947,
+               18,
+               1.07
+            ],
+            [
                0.962,
+               18,
+               1.219
+            ],
+            [
                0.571,
+               9,
+               0.637
+            ],
+            [
                2.219,
+               9,
+               0.733
+            ],
+            [
                1.419,
+               9,
+               0.715
+            ],
+            [
                3.519,
+               9,
+               0.872
+            ],
+            [
                1.732,
+               7.5,
+               0.765
+            ],
+            [
                3.206,
+               7.5,
+               0.878
+            ],
+            [
                2.471,
+               7.5,
+               0.811
+            ],
+            [
                1.777,
+               15,
+               0.676
+            ],
+            [
                2.571,
+               18,
+               1.045
+            ],
+            [
                3.952,
+               18,
+               0.968
+            ],
+            [
                3.931,
+               15,
+               0.846
+            ],
+            [
                1.587,
+               15,
+               0.684
+            ],
+            [
                1.397,
+               7.5,
+               0.729
+            ],
+            [
                3.536,
+               7.5,
+               0.911
+            ],
+            [
                2.202,
+               7.5,
+               0.808
+            ],
+            [
                0.756,
+               7.5,
+               1.168
+            ],
+            [
                1.62,
+               7.5,
+               0.749
+            ],
+            [
                3.656,
+               7.5,
+               0.892
+            ],
+            [
                2.964,
+               7.5,
+               1.002
+            ],
+            [
                3.76,
+               18,
+               0.812
+            ],
+            [
                0.672,
+               18,
+               1.23
+            ],
+            [
                3.677,
+               18,
+               0.804
+            ],
+            [
                3.517,
+               12,
+               0.813
+            ],
+            [
                3.29,
+               12,
+               1.002
+            ],
+            [
                1.139,
+               9,
+               0.696
+            ],
+            [
                0.727,
+               9,
+               1.199
+            ],
+            [
                2.581,
+               9,
+               1.03
+            ],
+            [
                0.923,
+               15,
+               0.602
+            ],
+            [
                1.527,
+               15,
+               0.694
+            ],
+            [
                3.388,
+               15,
+               0.816
+            ],
+            [
                2.085,
+               15,
+               1.037
+            ],
+            [
                0.966,
+               15,
+               1.181
+            ],
+            [
                3.488,
+               7.5,
+               0.899
+            ],
+            [
                0.754,
+               7.5,
+               1.227
+            ],
+            [
                0.797,
+               9,
+               1.18
+            ],
+            [
                2.064,
+               7.5,
+               0.795
+            ],
+            [
                3.732,
+               18,
+               0.99
+            ],
+            [
                0.586,
+               18,
+               1.201
+            ],
+            [
                0.561,
+               7.5,
+               0.629
+            ],
+            [
                0.563,
+               9,
+               0.608
+            ],
+            [
                0.678,
+               12,
+               0.584
+            ],
+            [
                0.37,
+               15,
+               0.562
+            ],
+            [
                0.53,
-               1.9
+               18,
+               0.535
             ],
             [
-               12,
-               12,
-               12,
-               12,
-               12,
-               9,
-               9,
-               9,
-               12,
-               12,
-               12,
-               12,
-               15,
+               1.9,
                18,
-               7.5,
-               12,
-               12,
-               15,
-               15,
-               9,
-               9,
-               7.5,
-               7.5,
-               18,
-               18,
-               15,
-               15,
-               7.5,
-               7.5,
-               9,
-               15,
-               15,
-               15,
-               15,
-               15,
-               9,
-               9,
-               7.5,
-               7.5,
-               7.5,
-               18,
-               18,
-               18,
-               18,
-               9,
-               9,
-               9,
-               9,
-               7.5,
-               7.5,
-               7.5,
-               15,
-               18,
-               18,
-               15,
-               15,
-               7.5,
-               7.5,
-               7.5,
-               7.5,
-               7.5,
-               7.5,
-               7.5,
-               18,
-               18,
-               18,
-               12,
-               12,
-               9,
-               9,
-               9,
-               15,
-               15,
-               15,
-               15,
-               15,
-               7.5,
-               7.5,
-               9,
-               7.5,
-               18,
-               18,
-               7.5,
-               9,
-               12,
-               15,
-               18,
-               18
-            ],
-            [
-               0.907,
-               0.761,
-               1.108,
-               1.016,
-               1.189,
-               1.001,
-               1.231,
-               1.123,
-               1.042,
-               1.215,
-               0.93,
-               1.152,
-               1.138,
-               0.601,
-               0.696,
-               0.686,
-               1.072,
-               1.074,
-               0.934,
-               0.808,
-               1.071,
-               1.009,
-               1.142,
-               1.229,
-               1.175,
-               0.568,
-               0.977,
-               0.767,
-               1.006,
-               0.893,
-               1.152,
-               0.693,
-               1.232,
-               1.036,
-               1.125,
-               1.081,
-               0.868,
-               0.762,
-               1.144,
-               1.045,
-               0.797,
-               1.115,
-               1.07,
-               1.219,
-               0.637,
-               0.733,
-               0.715,
-               0.872,
-               0.765,
-               0.878,
-               0.811,
-               0.676,
-               1.045,
-               0.968,
-               0.846,
-               0.684,
-               0.729,
-               0.911,
-               0.808,
-               1.168,
-               0.749,
-               0.892,
-               1.002,
-               0.812,
-               1.23,
-               0.804,
-               0.813,
-               1.002,
-               0.696,
-               1.199,
-               1.03,
-               0.602,
-               0.694,
-               0.816,
-               1.037,
-               1.181,
-               0.899,
-               1.227,
-               1.18,
-               0.795,
-               0.99,
-               1.201,
-               0.629,
-               0.608,
-               0.584,
-               0.562,
-               0.535,
                0.655
             ]
+         ],
+         "vars" : [
+            "Var1",
+            "Var2",
+            "Var3",
+            "Var4",
+            "Var5",
+            "Var6",
+            "Var7",
+            "Var8",
+            "Var9",
+            "Var10",
+            "Var11",
+            "Var12",
+            "Var13",
+            "Var14",
+            "Var15",
+            "Var16",
+            "Var17",
+            "Var18",
+            "Var19",
+            "Var20",
+            "Var21",
+            "Var22",
+            "Var23",
+            "Var24",
+            "Var25",
+            "Var26",
+            "Var27",
+            "Var28",
+            "Var29",
+            "Var30",
+            "Var31",
+            "Var32",
+            "Var33",
+            "Var34",
+            "Var35",
+            "Var36",
+            "Var37",
+            "Var38",
+            "Var39",
+            "Var40",
+            "Var41",
+            "Var42",
+            "Var43",
+            "Var44",
+            "Var45",
+            "Var46",
+            "Var47",
+            "Var48",
+            "Var49",
+            "Var50",
+            "Var51",
+            "Var52",
+            "Var53",
+            "Var54",
+            "Var55",
+            "Var56",
+            "Var57",
+            "Var58",
+            "Var59",
+            "Var60",
+            "Var61",
+            "Var62",
+            "Var63",
+            "Var64",
+            "Var65",
+            "Var66",
+            "Var67",
+            "Var68",
+            "Var69",
+            "Var70",
+            "Var71",
+            "Var72",
+            "Var73",
+            "Var74",
+            "Var75",
+            "Var76",
+            "Var77",
+            "Var78",
+            "Var79",
+            "Var80",
+            "Var81",
+            "Var82",
+            "Var83",
+            "Var84",
+            "Var85",
+            "Var86",
+            "Var87",
+            "Var88"
          ]
       }
-   },
-   "config" : {
-      "graphType" : "Scatter2D",
-      "subtitle" : "lattice - ethanol",
-      "title" : "Engine exhaust fumes from burning ethanol"
    }
 }

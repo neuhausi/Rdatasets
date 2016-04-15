@@ -1,14 +1,12 @@
 {
    "info" : "<table width=\"100%\" summary=\"page for rotifer\"><tr><td>rotifer</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\\n<h2>\\nNumbers of Rotifers by Fluid Density\\n</h2>\\n<h3>Description</h3>\\n<p>The data give the numbers of rotifers falling out of suspension for\\ndifferent fluid densities. There are two species, <code>pm</code>\\n<em>Polyartha major</em> and <code>kc</code>, <em>Keratella cochlearis</em> and\\nfor each species the number falling out and the total number are\\ngiven.\\n</p>\\n<h3>Usage</h3>\\n<pre>\\nrotifer\\n</pre>\\n<h3>Format</h3>\\n<dl>\\n<dt><code>density</code></dt><dd>\\n<p>specific density of fluid.\\n</p>\\n</dd>\\n<dt><code>pm.y</code></dt><dd>\\n<p>number falling out for <em>P. major</em>.\\n</p>\\n</dd>\\n<dt><code>pm.total</code></dt><dd>\\n<p>total number of <em>P. major</em>.\\n</p>\\n</dd>\\n<dt><code>kc.y</code></dt><dd>\\n<p>number falling out for <em>K. cochlearis</em>.\\n</p>\\n</dd>\\n<dt><code>kc.tot</code></dt><dd>\\n<p>total number of <em>K. cochlearis</em>.\\n</p>\\n</dd>\\n</dl>\\n<h3>Source</h3>\\n<p>D. Collett (1991) <em>Modelling Binary Data.</em> Chapman &amp; Hall. p. 217\\n</p>\\n",
+   "config" : {
+      "subtitle" : "MASS - rotifer",
+      "graphType" : "Scatter2D",
+      "title" : "Numbers of Rotifers by Fluid Density"
+   },
    "data" : {
       "y" : {
-         "vars" : [
-            "density",
-            "pm.y",
-            "pm.tot",
-            "kc.y",
-            "kc.tot"
-         ],
          "smps" : [
             "Smp1",
             "Smp2",
@@ -142,12 +140,14 @@
                190,
                154
             ]
+         ],
+         "vars" : [
+            "density",
+            "pm.y",
+            "pm.tot",
+            "kc.y",
+            "kc.tot"
          ]
       }
-   },
-   "config" : {
-      "graphType" : "Scatter2D",
-      "subtitle" : "MASS - rotifer",
-      "title" : "Numbers of Rotifers by Fluid Density"
    }
 }

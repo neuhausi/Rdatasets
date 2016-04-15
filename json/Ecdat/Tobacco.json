@@ -1,5 +1,10 @@
 {
    "info" : "<table width=\"100%\" summary=\"page for Tobacco\"><tr><td>Tobacco</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\\n<h2>Households Tobacco Budget Share </h2>\\n<h3>Description</h3>\\n<p>a cross-section from 1995-96\\n</p>\\n<p><em>number of observations</em> :  2724\\n</p>\\n<p><em>observation</em> :  individuals\\n</p>\\n<p><em>country</em> :  Belgium\\n</p>\\n<h3>Usage</h3>\\n<pre>data(Tobacco)</pre>\\n<h3>Format</h3>\\n<p>A dataframe containing :\\n</p>\\n<dl>\\n<dt>occupation</dt><dd><p>a factor with levels (bluecol,whitecol,inactself), the last level being inactive and self-employed</p>\\n</dd>\\n<dt>region</dt><dd><p>a factor with levels (flanders,wallon,brussels)</p>\\n</dd>\\n<dt>nkids</dt><dd><p>number of kids of more than two years old</p>\\n</dd>\\n<dt>nkids2</dt><dd><p>number of kids of less than two years old</p>\\n</dd>\\n<dt>nadults</dt><dd><p>number of adults in household</p>\\n</dd>\\n<dt>lnx</dt><dd><p>log of total expenditures</p>\\n</dd>\\n<dt>stobacco</dt><dd><p>budgetshare of tobacco</p>\\n</dd>\\n<dt>salcohol</dt><dd><p>budgetshare of alcohol</p>\\n</dd>\\n<dt>age</dt><dd><p>age in brackets (0-4)</p>\\n</dd>\\n</dl>\\n<h3>Source</h3>\\n<p>National Institute of Statistics (NIS), Belgium.\\n</p>\\n<h3>References</h3>\\n<p>Verbeek, Marno (2004) <em>A guide to modern econometrics</em>, John Wiley and Sons, <a href=\"https://feb.kuleuven.be/GME/\">https://feb.kuleuven.be/GME/</a>, chapter 7.\\n</p>\\n<h3>See Also</h3>\\n<p><code>Index.Source</code>, <code>Index.Economics</code>, <code>Index.Econometrics</code>, <code>Index.Observations</code></p>\\n",
+   "config" : {
+      "subtitle" : "Ecdat - Tobacco",
+      "graphType" : "Scatter2D",
+      "title" : "Households Tobacco Budget Share"
+   },
    "data" : {
       "y" : {
          "smps" : [
@@ -2727,15 +2732,6 @@
             "Smp2722",
             "Smp2723",
             "Smp2724"
-         ],
-         "vars" : [
-            "nkids",
-            "nkids2",
-            "nadults",
-            "lnx",
-            "stobacco",
-            "salcohol",
-            "age"
          ],
          "data" : [
             [
@@ -21820,6 +21816,15 @@
                4,
                2
             ]
+         ],
+         "vars" : [
+            "nkids",
+            "nkids2",
+            "nadults",
+            "lnx",
+            "stobacco",
+            "salcohol",
+            "age"
          ]
       },
       "x" : {
@@ -27276,10 +27281,5 @@
             "whitecol"
          ]
       }
-   },
-   "config" : {
-      "graphType" : "Scatter2D",
-      "subtitle" : "Ecdat - Tobacco",
-      "title" : "Households Tobacco Budget Share"
    }
 }

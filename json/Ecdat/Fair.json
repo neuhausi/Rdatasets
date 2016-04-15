@@ -1,5 +1,10 @@
 {
    "info" : "<table width=\"100%\" summary=\"page for Fair\"><tr><td>Fair</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\\n<h2>Extramarital Affairs Data </h2>\\n<h3>Description</h3>\\n<p>a cross-section\\n</p>\\n<p><em>number of observations</em> :  601\\n</p>\\n<p><em>observation</em> :  individuals\\n</p>\\n<p><em>country</em> :  United States\\n</p>\\n<h3>Usage</h3>\\n<pre>data(Fair)</pre>\\n<h3>Format</h3>\\n<p>A dataframe containing :\\n</p>\\n<dl>\\n<dt>sex</dt><dd><p>a factor with levels (male,female)</p>\\n</dd>\\n<dt>age</dt><dd><p>age</p>\\n</dd>\\n<dt>ym</dt><dd><p>number of years married</p>\\n</dd>\\n<dt>child</dt><dd><p>children ? a factor </p>\\n</dd>\\n<dt>religious</dt><dd><p>how religious, from 1 (anti) to 5 (very)</p>\\n</dd>\\n<dt>education</dt><dd><p>education</p>\\n</dd>\\n<dt>occupation</dt><dd><p>occupation, from 1 to 7, according to hollingshead classification (reverse numbering)</p>\\n</dd>\\n<dt>rate</dt><dd><p>self rating of mariage, from 1 (very unhappy) to 5 (very happy)</p>\\n</dd>\\n<dt>nbaffairs</dt><dd><p>number of affairs in past year</p>\\n</dd>\\n</dl>\\n<h3>Source</h3>\\n<p>Fair, R. (1977) &ldquo;A note on the computation of the tobit estimator&rdquo;, <em>Econometrica</em>, <b>45</b>, 1723-1727.\\n</p>\\n<p><a href=\"http://fairmodel.econ.yale.edu/rayfair/pdf/1978A200.PDF\">http://fairmodel.econ.yale.edu/rayfair/pdf/1978A200.PDF</a>.\\n</p>\\n<h3>References</h3>\\n<p>Greene, W.H. (2003) <em>Econometric Analysis</em>, Prentice Hall, <a href=\"http://www.prenhall.com/greene/greene1.html\">http://www.prenhall.com/greene/greene1.html</a>,  Table F22.2.\\n</p>\\n<h3>See Also</h3>\\n<p><code>Index.Source</code>, <code>Index.Economics</code>, <code>Index.Econometrics</code>, <code>Index.Observations</code></p>\\n",
+   "config" : {
+      "subtitle" : "Ecdat - Fair",
+      "graphType" : "Scatter2D",
+      "title" : "Extramarital Affairs Data"
+   },
    "data" : {
       "y" : {
          "smps" : [
@@ -604,15 +609,6 @@
             "Smp599",
             "Smp600",
             "Smp601"
-         ],
-         "vars" : [
-            "age",
-            "ym",
-            "religious",
-            "education",
-            "occupation",
-            "rate",
-            "nbaffairs"
          ],
          "data" : [
             [
@@ -4836,6 +4832,15 @@
                2,
                1
             ]
+         ],
+         "vars" : [
+            "age",
+            "ym",
+            "religious",
+            "education",
+            "occupation",
+            "rate",
+            "nbaffairs"
          ]
       },
       "x" : {
@@ -6046,10 +6051,5 @@
             "female"
          ]
       }
-   },
-   "config" : {
-      "graphType" : "Scatter2D",
-      "subtitle" : "Ecdat - Fair",
-      "title" : "Extramarital Affairs Data"
    }
 }

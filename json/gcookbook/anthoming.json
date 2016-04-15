@@ -1,15 +1,13 @@
 {
    "info" : "<table width=\"100%\" summary=\"page for anthoming\"><tr><td>anthoming</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\\n<h2>Homing in desert ants</h2>\\n<h3>Description</h3>\\n<p>Data from an experiment on the homing performance of a\\ndesert ant, <em>Cataglyphis bicolor</em>.\\n</p>\\n<h3>Variables</h3>\\n <ul>\\n<li><p> angle: Angle between true home direction\\nand the direction that the ant went in (positive is\\nclockwise).  </p>\\n</li>\\n<li><p> expt: Number of ants in the\\nexperimental condition that went in this direction.\\n</p>\\n</li>\\n<li><p> ctrl: Number of ants in the control condition that\\nwent in this direction. </p>\\n</li></ul>\\n<h3>Source</h3>\\n<p>Hand, D.J., Daly, F., Lunn, A.D., McConway, K.J. &amp;\\nOstrowski, E. (1994), <em>A Handbook of Small Data\\nSets</em>, Chapman &amp; Hall.\\n</p>\\n<p>Duelli, P. and Wehner, R. (1973), The spectal sensitivity\\nof polarized light orientation in <em>Cataglyphis\\nbicolor</em> (Formicidae, Hymenoptera).  <em>Journal of\\nComparative Physiology</em>, <b>86</b>, 36-53.\\n</p>\\n",
+   "config" : {
+      "subtitle" : "gcookbook - anthoming",
+      "graphType" : "Scatter3D",
+      "title" : "Homing in desert ants"
+   },
    "data" : {
       "y" : {
          "smps" : [
-            "Smp1",
-            "Smp2",
-            "Smp3",
-            "Smp4",
-            "Smp5"
-         ],
-         "vars" : [
             "angle",
             "expt",
             "ctrl"
@@ -17,32 +15,37 @@
          "data" : [
             [
                -20,
-               -10,
-               0,
-               10,
-               20
-            ],
-            [
                1,
-               7,
-               2,
-               0,
                0
             ],
             [
+               -10,
+               7,
+               3
+            ],
+            [
                0,
-               3,
-               3,
-               3,
+               2,
+               3
+            ],
+            [
+               10,
+               0,
+               3
+            ],
+            [
+               20,
+               0,
                1
             ]
+         ],
+         "vars" : [
+            "Var1",
+            "Var2",
+            "Var3",
+            "Var4",
+            "Var5"
          ]
       }
-   },
-   "config" : {
-      "graphType" : "Scatter2D",
-      "subtitle" : "gcookbook - anthoming",
-      "scatterPlotMatrix" : 1,
-      "title" : "Homing in desert ants"
    }
 }

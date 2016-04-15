@@ -1,96 +1,140 @@
 {
    "info" : "<table width=\"100%\" summary=\"page for telef\"><tr><td>telef</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\\n<h2>Number of International Calls from Belgium</h2>\\n<h3>Description</h3>\\n<p>Number of international calls from Belgium, taken from the Belgian\\nStatistical Survey, published by the Ministry of Economy.\\n</p>\\n<h3>Usage</h3>\\n<pre>data(telef)</pre>\\n<h3>Format</h3>\\n<p>A data frame with 24 observations on the following 2 variables.\\n</p>\\n<dl>\\n<dt><code>Calls</code></dt><dd><p>Number of Calls (in tens of millions) </p>\\n</dd>\\n<dt><code>Year</code></dt><dd><p>Year (1950 - 1973)</p>\\n</dd>\\n</dl>\\n<h3>Source</h3>\\n<p>P. J. Rousseeuw and A. M. Leroy (1987)\\n<em>Robust Regression and Outlier Detection</em>;\\nWiley, page 26, table 2.\\n</p>\\n<h3>Examples</h3>\\n<pre>\\ndata(telef)\\nsummary(lm.telef &lt;- lm(Year~., data=telef))\\n</pre>\\n",
+   "config" : {
+      "subtitle" : "robustbase - telef",
+      "graphType" : "Scatter2D",
+      "title" : "Number of International Calls from Belgium"
+   },
    "data" : {
       "y" : {
          "smps" : [
-            "Smp1",
-            "Smp2",
-            "Smp3",
-            "Smp4",
-            "Smp5",
-            "Smp6",
-            "Smp7",
-            "Smp8",
-            "Smp9",
-            "Smp10",
-            "Smp11",
-            "Smp12",
-            "Smp13",
-            "Smp14",
-            "Smp15",
-            "Smp16",
-            "Smp17",
-            "Smp18",
-            "Smp19",
-            "Smp20",
-            "Smp21",
-            "Smp22",
-            "Smp23",
-            "Smp24"
-         ],
-         "vars" : [
             "Year",
             "Calls"
          ],
          "data" : [
             [
                50,
-               51,
-               52,
-               53,
-               54,
-               55,
-               56,
-               57,
-               58,
-               59,
-               60,
-               61,
-               62,
-               63,
-               64,
-               65,
-               66,
-               67,
-               68,
-               69,
-               70,
-               71,
-               72,
-               73
+               0.44
             ],
             [
-               0.44,
-               0.47,
-               0.47,
-               0.59,
-               0.66,
-               0.73,
-               0.81,
-               0.88,
-               1.06,
-               1.2,
-               1.35,
-               1.49,
-               1.61,
-               2.12,
-               11.9,
-               12.4,
-               14.2,
-               15.9,
-               18.2,
-               21.2,
-               4.3,
-               2.4,
-               2.7,
+               51,
+               0.47
+            ],
+            [
+               52,
+               0.47
+            ],
+            [
+               53,
+               0.59
+            ],
+            [
+               54,
+               0.66
+            ],
+            [
+               55,
+               0.73
+            ],
+            [
+               56,
+               0.81
+            ],
+            [
+               57,
+               0.88
+            ],
+            [
+               58,
+               1.06
+            ],
+            [
+               59,
+               1.2
+            ],
+            [
+               60,
+               1.35
+            ],
+            [
+               61,
+               1.49
+            ],
+            [
+               62,
+               1.61
+            ],
+            [
+               63,
+               2.12
+            ],
+            [
+               64,
+               11.9
+            ],
+            [
+               65,
+               12.4
+            ],
+            [
+               66,
+               14.2
+            ],
+            [
+               67,
+               15.9
+            ],
+            [
+               68,
+               18.2
+            ],
+            [
+               69,
+               21.2
+            ],
+            [
+               70,
+               4.3
+            ],
+            [
+               71,
+               2.4
+            ],
+            [
+               72,
+               2.7
+            ],
+            [
+               73,
                2.9
             ]
+         ],
+         "vars" : [
+            "Var1",
+            "Var2",
+            "Var3",
+            "Var4",
+            "Var5",
+            "Var6",
+            "Var7",
+            "Var8",
+            "Var9",
+            "Var10",
+            "Var11",
+            "Var12",
+            "Var13",
+            "Var14",
+            "Var15",
+            "Var16",
+            "Var17",
+            "Var18",
+            "Var19",
+            "Var20",
+            "Var21",
+            "Var22",
+            "Var23",
+            "Var24"
          ]
       }
-   },
-   "config" : {
-      "graphType" : "Scatter2D",
-      "subtitle" : "robustbase - telef",
-      "title" : "Number of International Calls from Belgium"
    }
 }

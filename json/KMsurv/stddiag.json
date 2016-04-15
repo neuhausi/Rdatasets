@@ -1,99 +1,145 @@
 {
    "info" : "<table width=\"100%\" summary=\"page for stddiag\"><tr><td>stddiag</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\\n<h2>data from Exercise 5.6, p146</h2>\\n<h3>Description</h3>\\n<p>The <code>stddiag</code> data frame has 25 rows and 2 columns.\\n</p>\\n<h3>Format</h3>\\n<p>This data frame contains the following columns:\\n</p>\\n<dl>\\n<dt>encounter</dt><dd>\\n<p>Months from 1/93 to encounter\\n</p>\\n</dd>\\n<dt>diagnosed</dt><dd>\\n<p>Months until STD diagnosed in the clinic\\n</p>\\n</dd>\\n</dl>\\n<h3>Source</h3>\\n<p>Klein and Moeschberger (1997) <em>Survival Analysis Techniques for Censored\\nand truncated data</em>, Springer.\\n</p>\\n<h3>Examples</h3>\\n<pre>\\ndata(stddiag)\\n</pre>\\n",
+   "config" : {
+      "subtitle" : "KMsurv - stddiag",
+      "graphType" : "Scatter2D",
+      "title" : "data from Exercise 5.6"
+   },
    "data" : {
       "y" : {
-         "vars" : [
+         "smps" : [
             "encounter",
             "diagnosed"
-         ],
-         "smps" : [
-            "Smp1",
-            "Smp2",
-            "Smp3",
-            "Smp4",
-            "Smp5",
-            "Smp6",
-            "Smp7",
-            "Smp8",
-            "Smp9",
-            "Smp10",
-            "Smp11",
-            "Smp12",
-            "Smp13",
-            "Smp14",
-            "Smp15",
-            "Smp16",
-            "Smp17",
-            "Smp18",
-            "Smp19",
-            "Smp20",
-            "Smp21",
-            "Smp22",
-            "Smp23",
-            "Smp24",
-            "Smp25"
          ],
          "data" : [
             [
                15,
-               8,
-               11,
-               13,
-               14,
-               4,
-               2,
-               8,
-               20,
-               7,
-               18,
-               4,
-               6,
-               15,
-               35,
-               17,
-               16,
-               26,
-               33,
-               20,
-               23,
-               36,
-               10,
-               5,
-               25
+               2.73
             ],
             [
-               2.73,
-               1.67,
-               0.53,
-               0.77,
-               1.37,
-               0.83,
-               1.27,
-               1.2,
-               1.93,
-               0.6,
-               0.77,
-               0.9,
-               1.27,
-               1.77,
-               1.07,
-               1.2,
-               0.33,
-               0.53,
-               0.8,
-               1.53,
-               1.4,
-               0.43,
-               0.9,
-               1.93,
+               8,
+               1.67
+            ],
+            [
+               11,
+               0.53
+            ],
+            [
+               13,
+               0.77
+            ],
+            [
+               14,
+               1.37
+            ],
+            [
+               4,
+               0.83
+            ],
+            [
+               2,
+               1.27
+            ],
+            [
+               8,
+               1.2
+            ],
+            [
+               20,
+               1.93
+            ],
+            [
+               7,
+               0.6
+            ],
+            [
+               18,
+               0.77
+            ],
+            [
+               4,
+               0.9
+            ],
+            [
+               6,
+               1.27
+            ],
+            [
+               15,
+               1.77
+            ],
+            [
+               35,
+               1.07
+            ],
+            [
+               17,
+               1.2
+            ],
+            [
+               16,
+               0.33
+            ],
+            [
+               26,
+               0.53
+            ],
+            [
+               33,
+               0.8
+            ],
+            [
+               20,
+               1.53
+            ],
+            [
+               23,
+               1.4
+            ],
+            [
+               36,
+               0.43
+            ],
+            [
+               10,
+               0.9
+            ],
+            [
+               5,
+               1.93
+            ],
+            [
+               25,
                0.57
             ]
+         ],
+         "vars" : [
+            "Var1",
+            "Var2",
+            "Var3",
+            "Var4",
+            "Var5",
+            "Var6",
+            "Var7",
+            "Var8",
+            "Var9",
+            "Var10",
+            "Var11",
+            "Var12",
+            "Var13",
+            "Var14",
+            "Var15",
+            "Var16",
+            "Var17",
+            "Var18",
+            "Var19",
+            "Var20",
+            "Var21",
+            "Var22",
+            "Var23",
+            "Var24",
+            "Var25"
          ]
       }
-   },
-   "config" : {
-      "graphType" : "Scatter2D",
-      "subtitle" : "KMsurv - stddiag",
-      "title" : "data from Exercise 5.6"
    }
 }

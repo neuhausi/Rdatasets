@@ -1,5 +1,10 @@
 {
    "info" : "<table width=\"100%\" summary=\"page for economics\"><tr><td>economics</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\\n<h2>US economic time series.</h2>\\n<h3>Description</h3>\\n<p>This dataset was produced from US economic time series data available from <a href=\"http://research.stlouisfed.org/fred2\">http://research.stlouisfed.org/fred2</a>.\\n</p>\\n<h3>Usage</h3>\\n<pre>\\ndata(economics)\\n</pre>\\n<h3>Format</h3>\\n<p>A data frame with 478 rows and 6 variables</p>\\n<h3>Details</h3>\\n<ul>\\n<li><p> date.  Month of data collection\\n</p>\\n</li>\\n<li><p> psavert, personal savings rate, <a href=\"http://research.stlouisfed.org/fred2/series/PSAVERT/\">http://research.stlouisfed.org/fred2/series/PSAVERT/</a>\\n</p>\\n</li>\\n<li><p> pce, personal consumption expenditures, in billions of dollars, <a href=\"http://research.stlouisfed.org/fred2/series/PCE\">http://research.stlouisfed.org/fred2/series/PCE</a>\\n</p>\\n</li>\\n<li><p> unemploy, number of unemployed in thousands, <a href=\"http://research.stlouisfed.org/fred2/series/UNEMPLOY\">http://research.stlouisfed.org/fred2/series/UNEMPLOY</a>\\n</p>\\n</li>\\n<li><p> uempmed, median duration of unemployment, in week, <a href=\"http://research.stlouisfed.org/fred2/series/UEMPMED\">http://research.stlouisfed.org/fred2/series/UEMPMED</a>\\n</p>\\n</li>\\n<li><p> pop, total population, in thousands, <a href=\"http://research.stlouisfed.org/fred2/series/POP\">http://research.stlouisfed.org/fred2/series/POP</a>\\n</p>\\n</li></ul>\\n",
+   "config" : {
+      "subtitle" : "ggplot2 - economics",
+      "graphType" : "Scatter2D",
+      "title" : "US economic time series."
+   },
    "data" : {
       "y" : {
          "smps" : [
@@ -481,13 +486,6 @@
             "Smp476",
             "Smp477",
             "Smp478"
-         ],
-         "vars" : [
-            "pce",
-            "pop",
-            "psavert",
-            "uempmed",
-            "unemploy"
          ],
          "data" : [
             [
@@ -2890,6 +2888,13 @@
                6724,
                6801
             ]
+         ],
+         "vars" : [
+            "pce",
+            "pop",
+            "psavert",
+            "uempmed",
+            "unemploy"
          ]
       },
       "x" : {
@@ -3374,10 +3379,5 @@
             "2007-03-31"
          ]
       }
-   },
-   "config" : {
-      "graphType" : "Scatter2D",
-      "subtitle" : "ggplot2 - economics",
-      "title" : "US economic time series."
    }
 }

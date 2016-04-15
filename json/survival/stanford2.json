@@ -1,13 +1,12 @@
 {
    "info" : "<table width=\"100%\" summary=\"page for stanford2\"><tr><td>stanford2</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\\n<h2>More Stanford Heart Transplant data</h2>\\n<h3>Description</h3>\\n<p>This contains the Stanford Heart Transplant data in a different\\nformat.  The main data set is in <code>heart</code>.\\n</p>\\n<h3>Usage</h3>\\n<pre>stanford2</pre>\\n<h3>Format</h3>\\n<table summary=\"Rd table\">\\n<tr>\\n <td style=\"text-align: left;\">\\n    id:  </td><td style=\"text-align: left;\"> ID number</td>\\n</tr>\\n<tr>\\n <td style=\"text-align: left;\">\\n    time:</td><td style=\"text-align: left;\"> survival or censoring time</td>\\n</tr>\\n<tr>\\n <td style=\"text-align: left;\">\\n    status:</td><td style=\"text-align: left;\"> censoring status</td>\\n</tr>\\n<tr>\\n <td style=\"text-align: left;\">\\n    age: </td><td style=\"text-align: left;\"> in years</td>\\n</tr>\\n<tr>\\n <td style=\"text-align: left;\">\\n    t5: </td><td style=\"text-align: left;\"> T5 mismatch score</td>\\n</tr>\\n<tr>\\n <td style=\"text-align: left;\">\\n  </td>\\n</tr>\\n</table>\\n<h3>Source</h3>\\n<p>LA Escobar and WQ Meeker Jr (1992),\\nAssessing influence in regression analysis with censored data.\\n<em>Biometrics</em> <b>48</b>, 507&ndash;528.\\nPage 519.\\n</p>\\n<h3>See Also</h3>\\n<p><code>predict.survreg</code>,\\n<code>heart</code>\\n</p>\\n",
+   "config" : {
+      "subtitle" : "survival - stanford2",
+      "graphType" : "Scatter2D",
+      "title" : "More Stanford Heart Transplant data"
+   },
    "data" : {
       "y" : {
-         "vars" : [
-            "id",
-            "time",
-            "status",
-            "age"
-         ],
          "smps" : [
             "Smp1",
             "Smp2",
@@ -939,6 +938,12 @@
                62,
                64
             ]
+         ],
+         "vars" : [
+            "id",
+            "time",
+            "status",
+            "age"
          ]
       },
       "x" : {
@@ -1129,10 +1134,5 @@
             "0.69"
          ]
       }
-   },
-   "config" : {
-      "graphType" : "Scatter2D",
-      "subtitle" : "survival - stanford2",
-      "title" : "More Stanford Heart Transplant data"
    }
 }

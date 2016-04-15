@@ -1,18 +1,12 @@
 {
    "info" : "<table width=\"100%\" summary=\"page for fgl\"><tr><td>fgl</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\\n<h2>\\nMeasurements of Forensic Glass Fragments\\n</h2>\\n<h3>Description</h3>\\n<p>The <code>fgl</code> data frame has 214 rows and 10 columns.\\nIt was collected by B. German on fragments of glass\\ncollected in forensic work.\\n</p>\\n<h3>Usage</h3>\\n<pre>\\nfgl\\n</pre>\\n<h3>Format</h3>\\n<p>This data frame contains the following columns:\\n</p>\\n<dl>\\n<dt><code>RI</code></dt><dd>\\n<p>refractive index; more precisely the refractive index is 1.518xxxx.\\n</p>\\n<p>The next 8 measurements are percentages by weight of oxides.\\n</p>\\n</dd>\\n<dt><code>Na</code></dt><dd><p>sodium.</p>\\n</dd>\\n<dt><code>Mg</code></dt><dd><p>manganese.</p>\\n</dd>\\n<dt><code>Al</code></dt><dd><p>aluminium.</p>\\n</dd>\\n<dt><code>Si</code></dt><dd><p>silicon.</p>\\n</dd>\\n<dt><code>K</code></dt><dd><p>potassium.</p>\\n</dd>\\n<dt><code>Ca</code></dt><dd><p>calcium.</p>\\n</dd>\\n<dt><code>Ba</code></dt><dd><p>barium.</p>\\n</dd>\\n<dt><code>Fe</code></dt><dd><p>iron.</p>\\n</dd>\\n<dt><code>type</code></dt><dd>\\n<p>The fragments were originally classed into seven types, one of which\\nwas absent in this dataset.  The categories which occur are\\nwindow float glass (<code>WinF</code>: 70),\\nwindow non-float glass (<code>WinNF</code>: 76),\\nvehicle window glass (<code>Veh</code>: 17),\\ncontainers (<code>Con</code>: 13),\\ntableware (<code>Tabl</code>: 9) and\\nvehicle headlamps (<code>Head</code>: 29).\\n</p>\\n</dd>\\n</dl>\\n<h3>References</h3>\\n<p>Venables, W. N. and Ripley, B. D. (2002)\\n<em>Modern Applied Statistics with S.</em> Fourth edition.  Springer.\\n</p>\\n",
+   "config" : {
+      "subtitle" : "MASS - fgl",
+      "graphType" : "Scatter2D",
+      "title" : "Measurements of Forensic Glass Fragments"
+   },
    "data" : {
       "y" : {
-         "vars" : [
-            "RI",
-            "Na",
-            "Mg",
-            "Al",
-            "Si",
-            "K",
-            "Ca",
-            "Ba",
-            "Fe"
-         ],
          "smps" : [
             "Smp1",
             "Smp2",
@@ -2174,6 +2168,17 @@
                0,
                0
             ]
+         ],
+         "vars" : [
+            "RI",
+            "Na",
+            "Mg",
+            "Al",
+            "Si",
+            "K",
+            "Ca",
+            "Ba",
+            "Fe"
          ]
       },
       "x" : {
@@ -2394,10 +2399,5 @@
             "Head"
          ]
       }
-   },
-   "config" : {
-      "graphType" : "Scatter2D",
-      "subtitle" : "MASS - fgl",
-      "title" : "Measurements of Forensic Glass Fragments"
    }
 }

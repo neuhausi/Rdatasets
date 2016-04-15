@@ -1,5 +1,10 @@
 {
    "info" : "<table width=\"100%\" summary=\"page for Cigarette\"><tr><td>Cigarette</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\\n<h2>The Cigarette Consumption Panel Data Set </h2>\\n<h3>Description</h3>\\n<p>a panel of 48 observations  from 1985  to 1995\\n</p>\\n<p><em>number of observations</em> :  528\\n</p>\\n<p><em>observation</em> :  regional\\n</p>\\n<p><em>country</em> :  United States\\n</p>\\n<h3>Usage</h3>\\n<pre>data(Cigarette)</pre>\\n<h3>Format</h3>\\n<p>A dataframe containing :\\n</p>\\n<dl>\\n<dt>state</dt><dd><p>state</p>\\n</dd>\\n<dt>year</dt><dd><p>year</p>\\n</dd>\\n<dt>cpi</dt><dd><p>consummer price index</p>\\n</dd>\\n<dt>pop</dt><dd><p>state population</p>\\n</dd>\\n<dt>packpc</dt><dd><p>number of packs per capita</p>\\n</dd>\\n<dt>income</dt><dd><p>state personal income (total, nominal)</p>\\n</dd>\\n<dt>tax</dt><dd><p>average state, federal, and average local excise taxes for fiscal year</p>\\n</dd>\\n<dt>avgprs</dt><dd><p>average price during fiscal year, including sales taxes</p>\\n</dd>\\n<dt>taxs</dt><dd><p>average excise taxes for fiscal year, including sales taxes</p>\\n</dd>\\n</dl>\\n<h3>Source</h3>\\n<p>Professor Jonhatan Gruber, MIT.\\n</p>\\n<h3>References</h3>\\n<p>Stock, James H.  and  Mark W.  Watson (2003) <em>Introduction to Econometrics</em>, Addison-Wesley Educational Publishers, <a href=\"http://wps.aw.com/aw_stockwatsn_economtrcs_1\">http://wps.aw.com/aw_stockwatsn_economtrcs_1</a>, chapter 10.\\n</p>\\n<h3>See Also</h3>\\n<p><code>Index.Source</code>, <code>Index.Economics</code>, <code>Index.Econometrics</code>, <code>Index.Observations</code>,\\n</p>\\n<p><code>Index.Time.Series</code></p>\\n",
+   "config" : {
+      "subtitle" : "Ecdat - Cigarette",
+      "graphType" : "Scatter2D",
+      "title" : "The Cigarette Consumption Panel Data Set"
+   },
    "data" : {
       "y" : {
          "smps" : [
@@ -531,16 +536,6 @@
             "Smp526",
             "Smp527",
             "Smp528"
-         ],
-         "vars" : [
-            "year",
-            "cpi",
-            "pop",
-            "packpc",
-            "income",
-            "tax",
-            "avgprs",
-            "taxs"
          ],
          "data" : [
             [
@@ -4783,6 +4778,16 @@
                50.4254989624023,
                36
             ]
+         ],
+         "vars" : [
+            "year",
+            "cpi",
+            "pop",
+            "packpc",
+            "income",
+            "tax",
+            "avgprs",
+            "taxs"
          ]
       },
       "x" : {
@@ -5317,10 +5322,5 @@
             "WY"
          ]
       }
-   },
-   "config" : {
-      "graphType" : "Scatter2D",
-      "subtitle" : "Ecdat - Cigarette",
-      "title" : "The Cigarette Consumption Panel Data Set"
    }
 }

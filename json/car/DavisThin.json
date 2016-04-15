@@ -1,16 +1,12 @@
 {
    "info" : "<table width=\"100%\" summary=\"page for DavisThin\"><tr><td>DavisThin</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\\n<h2>Davis's Data on Drive for Thinness</h2>\\n<h3>Description</h3>\\n<p>The <code>DavisThin</code> data frame has 191 rows and 7 columns.\\nThis is part of a larger dataset for a study of eating disorders.\\nThe seven variables in the data frame comprise a &quot;drive for thinness&quot;\\nscale, to be formed by summing the items.\\n</p>\\n<h3>Usage</h3>\\n<pre>DavisThin</pre>\\n<h3>Format</h3>\\n<p>This data frame contains the following columns:\\n</p>\\n<dl>\\n<dt>DT1</dt><dd><p>a numeric vector</p>\\n</dd>\\n<dt>DT2</dt><dd><p>a numeric vector</p>\\n</dd>\\n<dt>DT3</dt><dd><p>a numeric vector</p>\\n</dd>\\n<dt>DT4</dt><dd><p>a numeric vector</p>\\n</dd>\\n<dt>DT5</dt><dd><p>a numeric vector</p>\\n</dd>\\n<dt>DT6</dt><dd><p>a numeric vector</p>\\n</dd>\\n<dt>DT7</dt><dd><p>a numeric vector</p>\\n</dd>\\n</dl>\\n<h3>Source</h3>\\n<p>Davis, C., G. Claridge, and D. Cerullo (1997) \\nPersonality factors \\npredisposing to weight preoccupation: A continuum approach to the \\nassociation between eating disorders and personality disorders. \\n<em>Journal of Psychiatric Research</em> <b>31</b>, 467&ndash;480. [personal communication from the authors.]\\n</p>\\n<h3>References</h3>\\n<p>Fox, J. and Weisberg, S. (2011) \\n<em>An R Companion to Applied Regression</em>, Second Edition, Sage.\\n</p>\\n",
+   "config" : {
+      "subtitle" : "car - DavisThin",
+      "graphType" : "Scatter2D",
+      "title" : "Davis's Data on Drive for Thinness"
+   },
    "data" : {
       "y" : {
-         "vars" : [
-            "DT1",
-            "DT2",
-            "DT3",
-            "DT4",
-            "DT5",
-            "DT6",
-            "DT7"
-         ],
          "smps" : [
             "Smp1",
             "Smp2",
@@ -1556,12 +1552,16 @@
                0,
                0
             ]
+         ],
+         "vars" : [
+            "DT1",
+            "DT2",
+            "DT3",
+            "DT4",
+            "DT5",
+            "DT6",
+            "DT7"
          ]
       }
-   },
-   "config" : {
-      "graphType" : "Scatter2D",
-      "subtitle" : "car - DavisThin",
-      "title" : "Davis's Data on Drive for Thinness"
    }
 }

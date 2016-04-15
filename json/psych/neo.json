@@ -1,39 +1,12 @@
 {
    "info" : "<table width=\"100%\" summary=\"page for neo\"><tr><td>neo</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\\n<h2>NEO correlation matrix from the NEO_PI_R manual</h2>\\n<h3>Description</h3>\\n<p>The NEO.PI.R is a widely used personality test to assess 5 broad factors (Neuroticism, Extraversion, Openness, Agreeableness and Conscientiousness) with six facet scales for each factor.  The correlation matrix of the facets is reported in the NEO.PI.R manual for 1000 subjects. \\n</p>\\n<h3>Usage</h3>\\n<pre>data(neo)</pre>\\n<h3>Format</h3>\\n<p>A data frame of a 30 x 30 correlation matrix with the following 30 variables.\\n</p>\\n<dl>\\n<dt>N1</dt><dd><p>Anxiety</p>\\n</dd>\\n<dt>N2</dt><dd><p>AngryHostility</p>\\n</dd>\\n<dt> N3</dt><dd><p>Depression </p>\\n</dd>\\n<dt> N4</dt><dd><p>Self-Consciousness </p>\\n</dd>\\n<dt> N5</dt><dd><p>Impulsiveness </p>\\n</dd>\\n<dt> N6</dt><dd><p>Vulnerability </p>\\n</dd>\\n<dt> E1</dt><dd><p>Warmth </p>\\n</dd>\\n<dt> E2</dt><dd><p>Gregariousness </p>\\n</dd>\\n<dt> E3</dt><dd><p>Assertiveness </p>\\n</dd>\\n<dt> E4</dt><dd><p>Activity </p>\\n</dd>\\n<dt> E5</dt><dd><p>Excitement-Seeking </p>\\n</dd>\\n<dt> E6</dt><dd><p>PositiveEmotions </p>\\n</dd>\\n<dt> O1</dt><dd><p>Fantasy </p>\\n</dd>\\n<dt> O2</dt><dd><p>Aesthetics </p>\\n</dd>\\n<dt> O3</dt><dd><p>Feelings </p>\\n</dd>\\n<dt> O4</dt><dd><p>Ideas </p>\\n</dd>\\n<dt> O5</dt><dd><p>Actions </p>\\n</dd>\\n<dt> O6</dt><dd><p>Values </p>\\n</dd>\\n<dt> A1</dt><dd><p>Trust </p>\\n</dd>\\n<dt> A2</dt><dd><p>Straightforwardness </p>\\n</dd>\\n<dt> A3</dt><dd><p>Altruism </p>\\n</dd>\\n<dt> A4</dt><dd><p>Compliance </p>\\n</dd>\\n<dt> A5</dt><dd><p>Modesty </p>\\n</dd>\\n<dt> A6</dt><dd><p>Tender-Mindedness </p>\\n</dd>\\n<dt> C1</dt><dd><p>Competence </p>\\n</dd>\\n<dt> C2</dt><dd><p>Order </p>\\n</dd>\\n<dt> C3</dt><dd><p>Dutifulness </p>\\n</dd>\\n<dt> C4</dt><dd><p>AchievementStriving </p>\\n</dd>\\n<dt> C5</dt><dd><p>Self-Discipline </p>\\n</dd>\\n<dt> C6</dt><dd><p>Deliberation </p>\\n</dd>\\n</dl>\\n<h3>Details</h3>\\n<p>The past thirty years of personality research has led to a general consensus on the identification of major dimensions of personality. Variously known as the &ldquo;Big 5&quot; or the &ldquo;Five Factor Model&quot;, the general solution represents 5 broad domains of personal and interpersonal experience.  Neuroticism and Extraversion are thought to reflect sensitivity to negative and positive cues from the environment and the tendency to withdraw or approach.  Openness is sometimes labeled as Intellect and reflects an interest in new ideas and experiences.  Agreeableness and Conscientiousness reflect tendencies to get along with others and to want to get ahead.\\n</p>\\n<p>The factor structure of the NEO suggests five correlated factors as well as two higher level factors.  The NEO was constructed with 6 &ldquo;facets&quot; for each of the five broad factors.  \\n</p>\\n<h3>Source</h3>\\n<p>Costa, Paul T. and McCrae, Robert R. (1992) (NEO PI-R) professional manual. Psychological Assessment Resources, Inc. Odessa, FL. (with permission of the author and the publisher)\t\\n</p>\\n<h3>References</h3>\\n<p>Digman, John M. (1990) Personality structure: Emergence of the five-factor model. Annual Review of Psychology. 41, 417-440.\\n</p>\\n<p>John M. Digman (1997) Higher-order factors of the Big Five. Journal of Personality and Social Psychology, 73, 1246-1256. \\n</p>\\n<p>McCrae, Robert R. and Costa, Paul T., Jr. (1999) A Five-Factor theory of personality. In Pervin, Lawrence A. and John, Oliver P. (eds)  Handbook of personality: Theory and research (2nd ed.) 139-153.  Guilford Press, New York. N.Y.\\n</p>\\n<p>Revelle, William (1995), Personality processes, Annual Review of Psychology, 46, \\n295-328.\\n</p>\\n<p>Joshua Wilt and William Revelle (2009) Extraversion and Emotional Reactivity. In Mark Leary and Rick H. Hoyle (eds). Handbook of Individual Differences in Social Behavior. Guilford Press, New York, N.Y. \\n</p>\\n<h3>Examples</h3>\\n<pre>\\ndata(neo)\\nn5 &lt;- fa(neo,5)\\nneo.keys &lt;- make.keys(30,list(N=c(1:6),E=c(7:12),O=c(13:18),A=c(19:24),C=c(25:30)))\\nn5p &lt;- target.rot(n5,neo.keys) #show a targeted rotation for simple structure\\nn5p\\n</pre>\\n",
+   "config" : {
+      "subtitle" : "psych - neo",
+      "graphType" : "Heatmap",
+      "title" : "NEO correlation matrix from the NEO_PI_R manual"
+   },
    "data" : {
       "y" : {
-         "vars" : [
-            "N1",
-            "N2",
-            "N3",
-            "N4",
-            "N5",
-            "N6",
-            "E1",
-            "E2",
-            "E3",
-            "E4",
-            "E5",
-            "E6",
-            "O1",
-            "O2",
-            "O3",
-            "O4",
-            "O5",
-            "O6",
-            "A1",
-            "A2",
-            "A3",
-            "A4",
-            "A5",
-            "A6",
-            "C1",
-            "C2",
-            "C3",
-            "C4",
-            "C5",
-            "C6"
-         ],
          "smps" : [
             "Smp1",
             "Smp2",
@@ -1027,12 +1000,39 @@
                0.39,
                1
             ]
+         ],
+         "vars" : [
+            "N1",
+            "N2",
+            "N3",
+            "N4",
+            "N5",
+            "N6",
+            "E1",
+            "E2",
+            "E3",
+            "E4",
+            "E5",
+            "E6",
+            "O1",
+            "O2",
+            "O3",
+            "O4",
+            "O5",
+            "O6",
+            "A1",
+            "A2",
+            "A3",
+            "A4",
+            "A5",
+            "A6",
+            "C1",
+            "C2",
+            "C3",
+            "C4",
+            "C5",
+            "C6"
          ]
       }
-   },
-   "config" : {
-      "graphType" : "Heatmap",
-      "subtitle" : "psych - neo",
-      "title" : "NEO correlation matrix from the NEO_PI_R manual"
    }
 }

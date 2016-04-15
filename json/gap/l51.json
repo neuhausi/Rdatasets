@@ -1,5 +1,10 @@
 {
    "info" : "<table width=\"100%\" summary=\"page for l51\"><tr><td>l51</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\\n<h2>An example pedigree data</h2>\\n<h3>Description</h3>\\n<p>The data contains data on 51 individuals in a pedigree. Below it is used for comparing results from various packages.\\n</p>\\n<h3>Usage</h3>\\n<pre>data(l51)</pre>\\n<h3>Format</h3>\\n<p>A data frame</p>\\n<h3>Source</h3>\\n<p>Morgan v3.</p>\\n<h3>References</h3>\\n<p>Morgan v3. <a href=\"http://www.stat.washington.edu/thompson/Genepi/MORGAN/Morgan.shtml\">http://www.stat.washington.edu/thompson/Genepi/MORGAN/Morgan.shtml</a>\\n</p>\\n<h3>Examples</h3>\\n<pre>## Not run: \\nkm &lt;- kin.morgan(l51)\\nk2 &lt;- km$kin.matrix*2\\n# quantitative trait\\nlibrary(regress)\\nr &lt;- regress(qt ~ 1, ~k2, data=l51)\\nnames(r)\\nr\\n# qualitative trait\\nN &lt;- dim(l51)[1]\\nw &lt;- with(l51,quantile(qt,probs=0.75,na.rm=TRUE))\\nped51 &lt;- within(l51, bt &lt;- ifelse(qt&lt;=w,0,1))\\nd &lt;- regress(bt ~ 1, ~k2, data=ped51)\\nd\\n# for other tests not shown here\\nset.seed(12345)\\nped51 &lt;- within(ped51,{r &lt;- rnorm(N); bt[is.na(bt)] &lt;- 0})\\nlibrary(foreign)\\nwrite.dta(ped51,\"ped51.dta\")\\n## End(Not run)\\n</pre>\\n",
+   "config" : {
+      "subtitle" : "gap - l51",
+      "graphType" : "Scatter2D",
+      "title" : "An example pedigree data"
+   },
    "data" : {
       "y" : {
          "smps" : [
@@ -54,13 +59,6 @@
             "Smp49",
             "Smp50",
             "Smp51"
-         ],
-         "vars" : [
-            "id",
-            "fid",
-            "mid",
-            "sex",
-            "aff"
          ],
          "data" : [
             [
@@ -328,6 +326,13 @@
                4,
                4
             ]
+         ],
+         "vars" : [
+            "id",
+            "fid",
+            "mid",
+            "sex",
+            "aff"
          ]
       },
       "x" : {
@@ -385,10 +390,5 @@
             "0.7723"
          ]
       }
-   },
-   "config" : {
-      "graphType" : "Scatter2D",
-      "subtitle" : "gap - l51",
-      "title" : "An example pedigree data"
    }
 }

@@ -1,5 +1,10 @@
 {
    "info" : "<table width=\"100%\" summary=\"page for Forward\"><tr><td>Forward</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\\n<h2>Exchange Rates of US Dollar Against Other Currencies </h2>\\n<h3>Description</h3>\\n<p>monthly observations from 1979&ndash;01 to 2001&ndash;12\\n</p>\\n<p><em>number of observations</em> :  276\\n</p>\\n<h3>Usage</h3>\\n<pre>data(Forward)</pre>\\n<h3>Format</h3>\\n<p>A time serie containing :\\n</p>\\n<dl>\\n<dt>usdbp</dt><dd><p> exchange rate USD/British Pound Sterling</p>\\n</dd>\\n<dt>usdeuro</dt><dd><p> exchange rate US D/Euro </p>\\n</dd>\\n<dt>eurobp</dt><dd><p> exchange rate Euro/Pound</p>\\n</dd>\\n<dt>usdbp1</dt><dd><p>1 month forward rate USD/Pound</p>\\n</dd>\\n<dt>usdeuro1</dt><dd><p>1 month forward rate USD/Euro</p>\\n</dd>\\n<dt>eurobp1</dt><dd><p>1 month forward rate Euro/Pound</p>\\n</dd>\\n<dt>usdbp3</dt><dd><p>3 month forward rate USD/Pound</p>\\n</dd>\\n<dt>usdeuro3</dt><dd><p>month forward rate USD/Euro</p>\\n</dd>\\n<dt>eurobp3</dt><dd><p>month forward rate Euro/Pound</p>\\n</dd>\\n</dl>\\n<h3>Source</h3>\\n<p>Datastream                                                                   .\\n</p>\\n<h3>References</h3>\\n<p>Verbeek, Marno (2004) <em>A guide to modern econometrics</em>, John Wiley and Sons, <a href=\"https://feb.kuleuven.be/GME/\">https://feb.kuleuven.be/GME/</a>, chapter 4.\\n</p>\\n<h3>See Also</h3>\\n<p><code>Index.Source</code>, <code>Index.Economics</code>, <code>Index.Econometrics</code>, <code>Index.Observations</code>,\\n</p>\\n<p><code>Index.Time.Series</code></p>\\n",
+   "config" : {
+      "subtitle" : "Ecdat - Forward",
+      "graphType" : "Scatter2D",
+      "title" : "Exchange Rates of US Dollar Against Other Currencies"
+   },
    "data" : {
       "y" : {
          "smps" : [
@@ -279,17 +284,6 @@
             "Smp274",
             "Smp275",
             "Smp276"
-         ],
-         "vars" : [
-            "usdbp",
-            "usdeuro",
-            "eurobp",
-            "usdbp1",
-            "usdeuro1",
-            "eurobp1",
-            "usdbp3",
-            "usdeuro3",
-            "eurobp3"
          ],
          "data" : [
             [
@@ -2794,12 +2788,18 @@
                0.769780190003,
                0.789211701909
             ]
+         ],
+         "vars" : [
+            "usdbp",
+            "usdeuro",
+            "eurobp",
+            "usdbp1",
+            "usdeuro1",
+            "eurobp1",
+            "usdbp3",
+            "usdeuro3",
+            "eurobp3"
          ]
       }
-   },
-   "config" : {
-      "graphType" : "Scatter2D",
-      "subtitle" : "Ecdat - Forward",
-      "title" : "Exchange Rates of US Dollar Against Other Currencies"
    }
 }

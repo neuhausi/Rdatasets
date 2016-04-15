@@ -1,5 +1,10 @@
 {
    "info" : "<table width=\"100%\" summary=\"page for Electricity\"><tr><td>Electricity</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\\n<h2>Cost Function for Electricity Producers </h2>\\n<h3>Description</h3>\\n<p>a cross-section from 1970 to 1970\\n</p>\\n<p><em>number of observations</em> :  158\\n</p>\\n<p><em>observation</em> :  production units\\n</p>\\n<p><em>country</em> :  United States\\n</p>\\n<h3>Usage</h3>\\n<pre>data(Electricity)</pre>\\n<h3>Format</h3>\\n<p>A dataframe containing :\\n</p>\\n<dl>\\n<dt>cost</dt><dd><p>total cost</p>\\n</dd>\\n<dt>q</dt><dd><p>total output</p>\\n</dd>\\n<dt>pl</dt><dd><p>wage rate</p>\\n</dd>\\n<dt>sl</dt><dd><p>cost share for labor</p>\\n</dd>\\n<dt>pk</dt><dd><p>capital price index</p>\\n</dd>\\n<dt>sk</dt><dd><p>cost share for capital</p>\\n</dd>\\n<dt>pf</dt><dd><p>fuel price</p>\\n</dd>\\n<dt>sf</dt><dd><p>cost share for fuel</p>\\n</dd>\\n</dl>\\n<h3>Source</h3>\\n<p>Christensen, L.  and  W. H.  Greene (1976) &ldquo;Economies of scale in U.S. electric power generation&rdquo;, <em>Journal of Political Economy</em>, <b>84</b>, 655-676.\\n</p>\\n<h3>References</h3>\\n<p>Greene, W.H. (2003) <em>Econometric Analysis</em>, Prentice Hall, <a href=\"http://www.prenhall.com/greene/greene1.html\">http://www.prenhall.com/greene/greene1.html</a>, chapter 4, 317-320.\\n</p>\\n<p>Hayashi, F. (2000) <em>Econometrics</em>, Princeton University Press, <a href=\"http://fhayashi.fc2web.com/hayashi_econometrics.htm\">http://fhayashi.fc2web.com/hayashi_econometrics.htm</a>, chapter 1, 76-84.\\n</p>\\n<h3>See Also</h3>\\n<p><code>Index.Source</code>, <code>Index.Economics</code>, <code>Index.Econometrics</code>, <code>Index.Observations</code></p>\\n",
+   "config" : {
+      "subtitle" : "Ecdat - Electricity",
+      "graphType" : "Scatter2D",
+      "title" : "Cost Function for Electricity Producers"
+   },
    "data" : {
       "y" : {
          "smps" : [
@@ -161,16 +166,6 @@
             "Smp156",
             "Smp157",
             "Smp158"
-         ],
-         "vars" : [
-            "cost",
-            "q",
-            "pl",
-            "sl",
-            "pk",
-            "sk",
-            "pf",
-            "sf"
          ],
          "data" : [
             [
@@ -1453,12 +1448,17 @@
                0.7147,
                0.5945
             ]
+         ],
+         "vars" : [
+            "cost",
+            "q",
+            "pl",
+            "sl",
+            "pk",
+            "sk",
+            "pf",
+            "sf"
          ]
       }
-   },
-   "config" : {
-      "graphType" : "Scatter2D",
-      "subtitle" : "Ecdat - Electricity",
-      "title" : "Cost Function for Electricity Producers"
    }
 }

@@ -1,14 +1,12 @@
 {
    "info" : "<table width=\"100%\" summary=\"page for sat.act\"><tr><td>sat.act</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\\n<h2>3 Measures of ability: SATV, SATQ, ACT</h2>\\n<h3>Description</h3>\\n<p>Self reported scores on the SAT Verbal, SAT Quantitative and ACT   were collected as part of the Synthetic Aperture Personality Assessment (SAPA) web based personality assessment project.  Age, gender, and education are also reported. The data from 700 subjects are included here as a demonstration set for correlation and analysis.\\n</p>\\n<h3>Usage</h3>\\n<pre>data(sat.act)</pre>\\n<h3>Format</h3>\\n<p>A data frame with 700 observations on the following 6 variables.\\n</p>\\n<dl>\\n<dt><code>gender</code></dt><dd><p>males = 1, females = 2</p>\\n</dd>\\n<dt><code>education</code></dt><dd><p>self reported education 1 = high school ... 5 = graduate work</p>\\n</dd>\\n<dt><code>age</code></dt><dd><p>age</p>\\n</dd>\\n<dt><code>ACT</code></dt><dd><p>ACT composite scores may range from 1 - 36.  National norms have a mean of 20. </p>\\n</dd>\\n<dt><code>SATV</code></dt><dd><p>SAT Verbal scores may range from 200 - 800. </p>\\n</dd>\\n<dt><code>SATQ</code></dt><dd><p>SAT Quantitative scores may range from 200 - 800</p>\\n</dd>\\n</dl>\\n<h3>Details</h3>\\n<p>hese items were collected as part of the  SAPA  project  (<a href=\"http://sapa-project.org\">http://sapa-project.org</a>)to develop online measures of ability (Revelle, Wilt and Rosenthal, 2009).  The score means are higher than national norms suggesting both self selection for people taking on line personality and ability tests and a self reporting bias in scores.\\n</p>\\n<p>See also the iq.items data set.  \\n</p>\\n<h3>Source</h3>\\n<p><a href=\"http://personality-project.org\">http://personality-project.org</a> \\n</p>\\n<h3>References</h3>\\n<p>Revelle, William, Wilt, Joshua,  and Rosenthal, Allen (2009)  Personality and Cognition: The Personality-Cognition Link. In Gruszka, Alexandra  and Matthews, Gerald   and Szymura, Blazej (Eds.) Handbook of Individual Differences in Cognition: Attention, Memory and Executive Control,\\nSpringer. \\n</p>\\n<h3>Examples</h3>\\n<pre>\\ndata(sat.act)\\ndescribe(sat.act)\\npairs.panels(sat.act)\\n</pre>\\n",
+   "config" : {
+      "subtitle" : "psych - sat.act",
+      "graphType" : "Scatter2D",
+      "title" : "3 Measures of ability: SATV"
+   },
    "data" : {
       "y" : {
-         "vars" : [
-            "gender",
-            "education",
-            "age",
-            "ACT",
-            "SATV"
-         ],
          "smps" : [
             "Smp1",
             "Smp2",
@@ -4222,6 +4220,13 @@
                700,
                600
             ]
+         ],
+         "vars" : [
+            "gender",
+            "education",
+            "age",
+            "ACT",
+            "SATV"
          ]
       },
       "x" : {
@@ -4928,10 +4933,5 @@
             "600"
          ]
       }
-   },
-   "config" : {
-      "graphType" : "Scatter2D",
-      "subtitle" : "psych - sat.act",
-      "title" : "3 Measures of ability: SATV"
    }
 }

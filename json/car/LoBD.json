@@ -1,17 +1,12 @@
 {
    "info" : "<table width=\"100%\" summary=\"page for LoBD\"><tr><td>LoBD</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\\n<h2>\\nCancer drug data use to provide an example of the use of the skew power distributions.\\n</h2>\\n<h3>Description</h3>\\n<p>A portion of an experiment to determine the limit of blank/limit of detection in a biochemical assay.\\n</p>\\n<h3>Usage</h3>\\n<pre>LoBD</pre>\\n<h3>Format</h3>\\n<p>A data frame with 84 observations on the following 9 variables.\\n</p>\\n<dl>\\n<dt><code>pool</code></dt><dd><p>a factor with levels <code>1</code> <code>2</code> <code>3</code> <code>4</code> \\n<code>5</code> <code>6</code> <code>7</code> <code>8</code> <code>9</code> <code>10</code> <code>11</code> <code>12</code> \\ndenoting the 12 pools used in the experiment; \\neach pool had a different level of drug.</p>\\n</dd>\\n<dt><code>I1L1</code></dt><dd><p>a numeric vector giving the measured concentration in pmol/L of drug in the assay</p>\\n</dd>\\n<dt><code>I1L2</code></dt><dd><p>a numeric vector giving the measured concentration in pmol/L of drug in the assay</p>\\n</dd>\\n<dt><code>I2L1</code></dt><dd><p>a numeric vector giving the measured concentration in pmol/L of drug in the assay</p>\\n</dd>\\n<dt><code>I2L2</code></dt><dd><p>a numeric vector giving the measured concentration in pmol/L of drug in the assay</p>\\n</dd>\\n<dt><code>I3L1</code></dt><dd><p>a numeric vector giving the measured concentration in pmol/L of drug in the assay</p>\\n</dd>\\n<dt><code>I3L2</code></dt><dd><p>a numeric vector giving the measured concentration in pmol/L of drug in the assay</p>\\n</dd>\\n<dt><code>I4L1</code></dt><dd><p>a numeric vector giving the measured concentration in pmol/L of drug in the assay</p>\\n</dd>\\n<dt><code>I4L2</code></dt><dd><p>a numeric vector giving the measured concentration in pmol/L of drug in the assay</p>\\n</dd>\\n</dl>\\n<h3>Details</h3>\\n<p>Important characteristics of a clinical chemistry assay are its \\nlimit of blank (LoB), and its limit of detection (LoD).  \\nThe LoB, conceptually the highest reading likely to be obtained from\\na zero-concentration sample, is defined operationally by the upper 95% \\npoint of readings obtained from samples that do not contain the analyte.\\nThe LoD, conceptually the lowest level of analyte that can be reliably \\ndetermined not to be blank, is defined operationally as true value at \\nwhich there is a 95% chance of the reading being above the LoB. \\n</p>\\n<p>These data are from a portion of a  LoB/D study \\nof an assay for a drug used to treat certain cancers.  \\nTwelve pools were used, four of them blanks of different types,\\nand eight with successively increasing drug levels.  The 8 columns\\nof the data set refer to measurements made using different instruments I\\nand reagent lots L.\\n</p>\\n<h3>Source</h3>\\n<p>Used as an illustrative example for Box-Cox type transformations with \\nnegative readings in Hawkins and Weisberg (2015).  \\nFor examples of its use, see <code>skewPower</code>.\\n</p>\\n<h3>References</h3>\\n<p>Hawkins, D. and Weisberg, S. (2015)\\nCombining the Box-Cox Power and Generalized Log Transformations to \\nAccommodate Negative Responses,\\nsubmitted for publication.\\n</p>\\n<h3>Examples</h3>\\n<pre>\\nLoBD\\n</pre>\\n",
+   "config" : {
+      "subtitle" : "car - LoBD",
+      "graphType" : "Scatter2D",
+      "title" : "Cancer drug data use to provide an example of the use of the skew power distributions."
+   },
    "data" : {
       "y" : {
-         "vars" : [
-            "I1L1",
-            "I1L2",
-            "I2L1",
-            "I2L2",
-            "I3L1",
-            "I3L2",
-            "I4L1",
-            "I4L2"
-         ],
          "smps" : [
             "Smp1",
             "Smp2",
@@ -787,6 +782,16 @@
                200,
                201
             ]
+         ],
+         "vars" : [
+            "I1L1",
+            "I1L2",
+            "I2L1",
+            "I2L2",
+            "I3L1",
+            "I3L2",
+            "I4L1",
+            "I4L2"
          ]
       },
       "x" : {
@@ -877,10 +882,5 @@
             "Panel_8"
          ]
       }
-   },
-   "config" : {
-      "graphType" : "Scatter2D",
-      "subtitle" : "car - LoBD",
-      "title" : "Cancer drug data use to provide an example of the use of the skew power distributions."
    }
 }

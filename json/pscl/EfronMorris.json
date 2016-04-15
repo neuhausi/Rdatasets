@@ -1,13 +1,12 @@
 {
    "info" : "<table width=\"100%\" summary=\"page for EfronMorris\"><tr><td>EfronMorris</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\\n<h2>Batting Averages for 18 major league baseball players, 1970</h2>\\n<h3>Description</h3>\\n<p>Batting averages for 18 major league baseball players,\\nfirst 45 at bats of the 1970 season.</p>\\n<h3>Usage</h3>\\n<pre>data(EfronMorris)</pre>\\n<h3>Format</h3>\\n<dl>\\n<dt><code>name</code></dt><dd><p>character, name of player</p>\\n</dd>\\n<dt><code>team</code></dt><dd><p>character, team of player, abbreviated</p>\\n</dd>\\n<dt><code>league</code></dt><dd><p>character, National League or American League</p>\\n</dd>\\n<dt><code>r</code></dt><dd><p>numeric, hits in 1st 45 at bats</p>\\n</dd>\\n<dt><code>y</code></dt><dd><p>numeric, <code>r</code>/45, batting average over 1st\\n45 at bats</p>\\n</dd>\\n<dt><code>n</code></dt><dd><p>numeric, number of at bats, remainder of 1970\\nseason</p>\\n</dd>\\n<dt><code>p</code></dt><dd><p>numeric, batting average over remainder of 1970 season</p>\\n</dd>\\n</dl>\\n<h3>Source</h3>\\n<p>Efron, Bradley and Carl Morris. 1975. Data Analysis Using\\nStein's Estimator and Its Generalizations.  <em>Journal of the American\\nStatistical Association</em>. 70:311-319.\\n</p>\\n<h3>Examples</h3>\\n<pre>\\ndata(EfronMorris)\\nattach(EfronMorris)\\nplot(p~y,\\n     xlim=range(p,y),\\n     ylim=range(p,y),\\n     xlab=\"Batting Average, 1st 45 at bats\",\\n     ylab=\"Batting Average, Remainder of Season\")\\nabline(0,1)\\n</pre>\\n",
+   "config" : {
+      "subtitle" : "pscl - EfronMorris",
+      "graphType" : "Scatter2D",
+      "title" : "Batting Averages for 18 major league baseball players"
+   },
    "data" : {
       "y" : {
-         "vars" : [
-            "r",
-            "y",
-            "n",
-            "p"
-         ],
          "smps" : [
             "Smp1",
             "Smp2",
@@ -109,6 +108,12 @@
                0.316,
                0.2
             ]
+         ],
+         "vars" : [
+            "r",
+            "y",
+            "n",
+            "p"
          ]
       },
       "x" : {
@@ -132,26 +137,6 @@
             "Thurman Munson",
             "Max Alvis"
          ],
-         "team" : [
-            "Pitts",
-            "Balt",
-            "Wash",
-            "Cal",
-            "Chi",
-            "Cal",
-            "Chi",
-            "Bos",
-            "Chi",
-            "NY",
-            "Wash",
-            "Chi",
-            "Bos",
-            "Bos",
-            "KC",
-            "Oak",
-            "NY",
-            "Mil"
-         ],
          "league" : [
             "NL",
             "AL",
@@ -171,12 +156,27 @@
             "AL",
             "AL",
             "NL"
+         ],
+         "team" : [
+            "Pitts",
+            "Balt",
+            "Wash",
+            "Cal",
+            "Chi",
+            "Cal",
+            "Chi",
+            "Bos",
+            "Chi",
+            "NY",
+            "Wash",
+            "Chi",
+            "Bos",
+            "Bos",
+            "KC",
+            "Oak",
+            "NY",
+            "Mil"
          ]
       }
-   },
-   "config" : {
-      "graphType" : "Scatter2D",
-      "subtitle" : "pscl - EfronMorris",
-      "title" : "Batting Averages for 18 major league baseball players"
    }
 }

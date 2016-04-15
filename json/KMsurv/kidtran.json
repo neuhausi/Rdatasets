@@ -1,15 +1,12 @@
 {
    "info" : "<table width=\"100%\" summary=\"page for kidtran\"><tr><td>kidtran</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\\n<h2>data from Section 1.7</h2>\\n<h3>Description</h3>\\n<p>The <code>kidtran</code> data frame has 863 rows and 6 columns.\\n</p>\\n<h3>Format</h3>\\n<p>This data frame contains the following columns:\\n</p>\\n<dl>\\n<dt>obs</dt><dd>\\n<p>Observation number\\n</p>\\n</dd>\\n<dt>time</dt><dd>\\n<p>Time to death or on-study time\\n</p>\\n</dd>\\n<dt>delta</dt><dd>\\n<p>Death indicator (0=alive, 1=dead)\\n</p>\\n</dd>\\n<dt>gender</dt><dd>\\n<p>1=male, 2=female\\n</p>\\n</dd>\\n<dt>race</dt><dd>\\n<p>1=white, 2=black\\n</p>\\n</dd>\\n<dt>age</dt><dd>\\n<p>Age in years\\n</p>\\n</dd>\\n</dl>\\n<h3>Source</h3>\\n<p>Klein and Moeschberger (1997) <em>Survival Analysis Techniques for Censored\\nand truncated data</em>, Springer.\\n</p>\\n<h3>Examples</h3>\\n<pre>\\ndata(kidtran)\\n</pre>\\n",
+   "config" : {
+      "subtitle" : "KMsurv - kidtran",
+      "graphType" : "Scatter2D",
+      "title" : "data from Section 1.7"
+   },
    "data" : {
       "y" : {
-         "vars" : [
-            "obs",
-            "time",
-            "delta",
-            "gender",
-            "race",
-            "age"
-         ],
          "smps" : [
             "Smp1",
             "Smp2",
@@ -6066,12 +6063,15 @@
                43,
                52
             ]
+         ],
+         "vars" : [
+            "obs",
+            "time",
+            "delta",
+            "gender",
+            "race",
+            "age"
          ]
       }
-   },
-   "config" : {
-      "graphType" : "Scatter2D",
-      "subtitle" : "KMsurv - kidtran",
-      "title" : "data from Section 1.7"
    }
 }

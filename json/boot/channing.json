@@ -1,15 +1,12 @@
 {
    "info" : "<table width=\"100%\" summary=\"page for channing\"><tr><td>channing</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\\n<h2>\\nChanning House Data\\n</h2>\\n<h3>Description</h3>\\n<p>The <code>channing</code> data frame has 462 rows and 5 columns.\\n</p>\\n<p>Channing House is a retirement centre in Palo Alto, California.  These data \\nwere\\ncollected between the opening of the house in 1964 until July 1, 1975.  In that\\ntime 97 men and 365 women passed through the centre.  For each of these, their\\nage on entry and also on leaving or death was recorded.  A large number of the\\nobservations were censored mainly due to the resident being alive on July 1,\\n1975 when the data was collected.  Over the time of the study 130 women and\\n46 men died at Channing House.  Differences between the survival of the sexes,\\ntaking age into account, was one of the primary concerns of this study.\\n</p>\\n<h3>Usage</h3>\\n<pre>\\nchanning\\n</pre>\\n<h3>Format</h3>\\n<p>This data frame contains the following columns:\\n</p>\\n<dl>\\n<dt><code>sex</code></dt><dd>\\n<p>A factor for the sex of each resident (<code>\"Male\"</code> or <code>\"Female\"</code>).\\n</p>\\n</dd>\\n<dt><code>entry</code></dt><dd>\\n<p>The residents age (in months) on entry to the centre\\n</p>\\n</dd>\\n<dt><code>exit</code></dt><dd>\\n<p>The age (in months) of the resident on death, leaving the centre or July 1, \\n1975 whichever event occurred first.\\n</p>\\n</dd>\\n<dt><code>time</code></dt><dd>\\n<p>The length of time (in months) that the resident spent at Channing House.\\n(<code>time=exit-entry</code>)\\n</p>\\n</dd>\\n<dt><code>cens</code></dt><dd>\\n<p>The indicator of right censoring.  1 indicates that the resident died at\\nChanning House, 0 indicates that they left the house prior to July 1, 1975 or\\nthat they were still alive and living in the centre at that date.\\n</p>\\n</dd></dl>\\n<h3>Source</h3>\\n<p>The data were obtained from\\n</p>\\n<p>Hyde, J. (1980) Testing survival with incomplete observations. \\n<em>Biostatistics Casebook</em>.  \\nR.G. Miller, B. Efron, B.W. Brown and L.E. Moses (editors), \\n31&ndash;46. John Wiley.\\n</p>\\n<h3>References</h3>\\n<p>Davison, A.C. and Hinkley, D.V. (1997) \\n<em>Bootstrap Methods and Their Application</em>. Cambridge University Press.\\n</p>\\n",
+   "config" : {
+      "subtitle" : "boot - channing",
+      "graphType" : "Scatter2D",
+      "title" : "Channing House Data"
+   },
    "data" : {
       "y" : {
-         "vars" : [
-            "obs",
-            "death",
-            "ageentry",
-            "age",
-            "time",
-            "gender"
-         ],
          "smps" : [
             "Smp1",
             "Smp2",
@@ -3259,12 +3256,15 @@
                1,
                1
             ]
+         ],
+         "vars" : [
+            "obs",
+            "death",
+            "ageentry",
+            "age",
+            "time",
+            "gender"
          ]
       }
-   },
-   "config" : {
-      "graphType" : "Scatter2D",
-      "subtitle" : "boot - channing",
-      "title" : "Channing House Data"
    }
 }

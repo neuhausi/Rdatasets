@@ -1,5 +1,10 @@
 {
    "info" : "<table width=\"100%\" summary=\"page for toxicity\"><tr><td>toxicity</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\\n<h2>Toxicity of Carboxylic Acids Data</h2>\\n<h3>Description</h3>\\n<p>The aim of the experiment was to predict the toxicity of carboxylic acids on\\nthe basis of several molecular descriptors.\\n</p>\\n<h3>Usage</h3>\\n<pre>data(toxicity)</pre>\\n<h3>Format</h3>\\n<p>A data frame with 38 observations on the following 10 variables which are\\nattributes for carboxylic acids:\\n</p>\\n<dl>\\n<dt><code>toxicity</code></dt><dd><p>aquatic toxicity, defined as\\n<i>log(IGC50^(-1))</i>; typically the &ldquo;response&rdquo;.</p>\\n</dd>\\n<dt><code>logKow</code></dt><dd><p><i>log Kow</i>, the partition coefficient</p>\\n</dd>\\n<dt><code>pKa</code></dt><dd><p>pKa: the dissociation constant</p>\\n</dd>\\n<dt><code>ELUMO</code></dt><dd><p><b>E</b>nergy of the <b>l</b>owest\\n<b>u</b>noccupied <b>m</b>olecular <b>o</b>rbital</p>\\n</dd>\\n<dt><code>Ecarb</code></dt><dd><p>Electrotopological state of the <b>carb</b>oxylic group</p>\\n</dd>\\n<dt><code>Emet</code></dt><dd><p>Electrotopological state of the <b>met</b>hyl group</p>\\n</dd>\\n<dt><code>RM</code></dt><dd><p>Molar refractivity</p>\\n</dd>\\n<dt><code>IR</code></dt><dd><p>Refraction index</p>\\n</dd>\\n<dt><code>Ts</code></dt><dd><p>Surface tension</p>\\n</dd>\\n<dt><code>P</code></dt><dd><p>Polarizability</p>\\n</dd>\\n</dl>\\n<h3>Source</h3>\\n<p>The website accompanying the MMY-book:\\n<a href=\"http://www.wiley.com/legacy/wileychi/robust_statistics\">http://www.wiley.com/legacy/wileychi/robust_statistics</a>\\n</p>\\n<h3>References</h3>\\n<p>Maguna, F.P., Núñez, M.B., Okulik, N.B. and Castro, E.A. (2003)\\nImproved QSAR analysis of the toxicity of aliphatic carboxylic acids;\\n<em>Russian Journal of General Chemistry</em> <b>73</b>, 1792&ndash;1798.\\n</p>\\n<h3>Examples</h3>\\n<pre>\\ndata(toxicity)\\nsummary(toxicity)\\nplot(toxicity)\\nplot(toxicity ~ pKa, data = toxicity)\\n## robustly scale the data (to scale 1) using Qn\\n(scQ.tox &lt;- sapply(toxicity, Qn))\\nscTox &lt;- scale(toxicity, center = FALSE, scale = scQ.tox)\\ncsT &lt;- covOGK(scTox, n.iter = 2,\\n              sigmamu = s_Qn, weight.fn = hard.rejection)\\nas.dist(round(cov2cor(csT$cov), 2))\\n</pre>\\n",
+   "config" : {
+      "subtitle" : "robustbase - toxicity",
+      "graphType" : "Scatter2D",
+      "title" : "Toxicity of Carboxylic Acids Data"
+   },
    "data" : {
       "y" : {
          "smps" : [
@@ -41,18 +46,6 @@
             "Smp36",
             "Smp37",
             "Smp38"
-         ],
-         "vars" : [
-            "toxicity",
-            "logKow",
-            "pKa",
-            "ELUMO",
-            "Ecarb",
-            "Emet",
-            "RM",
-            "IR",
-            "Ts",
-            "P"
          ],
          "data" : [
             [
@@ -455,12 +448,19 @@
                1.46,
                1.432
             ]
+         ],
+         "vars" : [
+            "toxicity",
+            "logKow",
+            "pKa",
+            "ELUMO",
+            "Ecarb",
+            "Emet",
+            "RM",
+            "IR",
+            "Ts",
+            "P"
          ]
       }
-   },
-   "config" : {
-      "graphType" : "Scatter2D",
-      "subtitle" : "robustbase - toxicity",
-      "title" : "Toxicity of Carboxylic Acids Data"
    }
 }

@@ -1,15 +1,12 @@
 {
    "info" : "<table width=\"100%\" summary=\"page for swiss\"><tr><td>swiss</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\\n<h2>Swiss Fertility and Socioeconomic Indicators (1888) Data</h2>\\n<h3>Description</h3>\\n<p>Standardized fertility measure and socio-economic indicators for each\\nof 47 French-speaking provinces of Switzerland at about 1888.\\n</p>\\n<h3>Usage</h3>\\n<pre>swiss</pre>\\n<h3>Format</h3>\\n<p>A data frame with 47 observations on 6 variables, <em>each</em> of which\\nis in percent, i.e., in <i>[0, 100]</i>.\\n</p>\\n<table summary=\"Rd table\">\\n<tr>\\n <td style=\"text-align: right;\">\\n    [,1] </td><td style=\"text-align: left;\"> Fertility </td><td style=\"text-align: left;\"> <i>Ig</i>, &lsquo;common standardized\\nfertility measure&rsquo;</td>\\n</tr>\\n<tr>\\n <td style=\"text-align: right;\">\\n    [,2] </td><td style=\"text-align: left;\"> Agriculture</td><td style=\"text-align: left;\"> % of males involved in agriculture\\n    as occupation</td>\\n</tr>\\n<tr>\\n <td style=\"text-align: right;\">\\n    [,3] </td><td style=\"text-align: left;\"> Examination</td><td style=\"text-align: left;\"> % draftees receiving highest mark\\n    on army examination</td>\\n</tr>\\n<tr>\\n <td style=\"text-align: right;\">\\n    [,4] </td><td style=\"text-align: left;\"> Education </td><td style=\"text-align: left;\"> % education beyond primary school for draftees.</td>\\n</tr>\\n<tr>\\n <td style=\"text-align: right;\">\\n    [,5] </td><td style=\"text-align: left;\"> Catholic </td><td style=\"text-align: left;\"> % &lsquo;catholic&rsquo; (as opposed to &lsquo;protestant&rsquo;).</td>\\n</tr>\\n<tr>\\n <td style=\"text-align: right;\">\\n    [,6] </td><td style=\"text-align: left;\"> Infant.Mortality</td><td style=\"text-align: left;\"> live births who live less than 1\\n    year.\\n  </td>\\n</tr>\\n</table>\\n<p>All variables but &lsquo;Fertility&rsquo; give proportions of the\\npopulation.\\n</p>\\n<h3>Details</h3>\\n<p>(paraphrasing Mosteller and Tukey):\\n</p>\\n<p>Switzerland, in 1888, was entering a period known as the\\n<em>demographic transition</em>; i.e., its fertility was beginning to\\nfall from the high level typical of underdeveloped countries.\\n</p>\\n<p>The data collected are for 47 French-speaking &ldquo;provinces&rdquo; at\\nabout 1888.\\n</p>\\n<p>Here, all variables are scaled to <i>[0, 100]</i>, where in the\\noriginal, all but <code>\"Catholic\"</code> were scaled to <i>[0, 1]</i>.\\n</p>\\n<h3>Note</h3>\\n<p>Files for all 182 districts in 1888 and other years have been available at\\n<a href=\"https://opr.princeton.edu/archive/pefp/switz.aspx\">https://opr.princeton.edu/archive/pefp/switz.aspx</a>.\\n</p>\\n<p>They state that variables <code>Examination</code> and <code>Education</code>\\nare averages for 1887, 1888 and 1889.\\n</p>\\n<h3>Source</h3>\\n<p>Project &ldquo;16P5&rdquo;, pages 549&ndash;551 in\\n</p>\\n<p>Mosteller, F. and Tukey, J. W. (1977)\\n<em>Data Analysis and Regression: A Second Course in Statistics</em>.\\nAddison-Wesley, Reading Mass.\\n</p>\\n<p>indicating their source as\\n&ldquo;Data used by permission of Franice van de Walle. Office of\\nPopulation Research, Princeton University, 1976.  Unpublished data\\nassembled under NICHD contract number No 1-HD-O-2077.&rdquo;\\n</p>\\n<h3>References</h3>\\n<p>Becker, R. A., Chambers, J. M. and Wilks, A. R. (1988)\\n<em>The New S Language</em>.\\nWadsworth &amp; Brooks/Cole.\\n</p>\\n<h3>Examples</h3>\\n<pre>\\nrequire(stats); require(graphics)\\npairs(swiss, panel = panel.smooth, main = \"swiss data\",\\n      col = 3 + (swiss$Catholic &gt; 50))\\nsummary(lm(Fertility ~ . , data = swiss))\\n</pre>\\n",
+   "config" : {
+      "subtitle" : "datasets - swiss",
+      "graphType" : "Scatter2D",
+      "title" : "Swiss Fertility and Socioeconomic Indicators (1888) Data"
+   },
    "data" : {
       "y" : {
-         "vars" : [
-            "Fertility",
-            "Agriculture",
-            "Examination",
-            "Education",
-            "Catholic",
-            "Infant.Mortality"
-         ],
          "smps" : [
             "Smp1",
             "Smp2",
@@ -354,12 +351,15 @@
                18.2,
                19.3
             ]
+         ],
+         "vars" : [
+            "Fertility",
+            "Agriculture",
+            "Examination",
+            "Education",
+            "Catholic",
+            "Infant.Mortality"
          ]
       }
-   },
-   "config" : {
-      "graphType" : "Scatter2D",
-      "subtitle" : "datasets - swiss",
-      "title" : "Swiss Fertility and Socioeconomic Indicators (1888) Data"
    }
 }

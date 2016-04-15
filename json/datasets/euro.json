@@ -1,43 +1,63 @@
 {
    "info" : "<table width=\"100%\" summary=\"page for euro\"><tr><td>euro</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\\n<h2>Conversion Rates of Euro Currencies</h2>\\n<h3>Description</h3>\\n<p>Conversion rates between the various Euro currencies.</p>\\n<h3>Usage</h3>\\n<pre>\\neuro\\neuro.cross\\n</pre>\\n<h3>Format</h3>\\n<p><code>euro</code> is a named vector of length 11, <code>euro.cross</code> a\\nmatrix of size 11 by 11, with dimnames.\\n</p>\\n<h3>Details</h3>\\n<p>The data set <code>euro</code> contains the value of 1 Euro in all\\ncurrencies participating in the European monetary union (Austrian\\nSchilling ATS, Belgian Franc BEF, German Mark DEM, Spanish Peseta ESP,\\nFinnish Markka FIM, French Franc FRF, Irish Punt IEP, Italian Lira\\nITL, Luxembourg Franc LUF, Dutch Guilder NLG and Portuguese Escudo\\nPTE).  These conversion rates were fixed by the European Union on\\nDecember 31, 1998.  To convert old prices to Euro prices, divide by\\nthe respective rate and round to 2 digits.\\n</p>\\n<p>The data set <code>euro.cross</code> contains conversion rates between the\\nvarious Euro currencies, i.e., the result of\\n<code>outer(1 / euro, euro)</code>.\\n</p>\\n<h3>Examples</h3>\\n<pre>\\ncbind(euro)\\n## These relations hold:\\neuro == signif(euro, 6) # [6 digit precision in Euro's definition]\\nall(euro.cross == outer(1/euro, euro))\\n## Convert 20 Euro to Belgian Franc\\n20 * euro[\"BEF\"]\\n## Convert 20 Austrian Schilling to Euro\\n20 / euro[\"ATS\"]\\n## Convert 20 Spanish Pesetas to Italian Lira\\n20 * euro.cross[\"ESP\", \"ITL\"]\\nrequire(graphics)\\ndotchart(euro,\\n         main = \"euro data: 1 Euro in currency unit\")\\ndotchart(1/euro,\\n         main = \"euro data: 1 currency unit in Euros\")\\ndotchart(log(euro, 10),\\n         main = \"euro data: log10(1 Euro in currency unit)\")\\n</pre>\\n",
+   "config" : {
+      "subtitle" : "datasets - euro",
+      "graphType" : "Pie",
+      "title" : "Conversion Rates of Euro Currencies"
+   },
    "data" : {
       "y" : {
-         "vars" : [
-            "x"
-         ],
          "smps" : [
-            "Smp1",
-            "Smp2",
-            "Smp3",
-            "Smp4",
-            "Smp5",
-            "Smp6",
-            "Smp7",
-            "Smp8",
-            "Smp9",
-            "Smp10",
-            "Smp11"
+            "x"
          ],
          "data" : [
             [
-               13.7603,
-               40.3399,
-               1.95583,
-               166.386,
-               5.94573,
-               6.55957,
-               0.787564,
-               1936.27,
-               40.3399,
-               2.20371,
+               13.7603
+            ],
+            [
+               40.3399
+            ],
+            [
+               1.95583
+            ],
+            [
+               166.386
+            ],
+            [
+               5.94573
+            ],
+            [
+               6.55957
+            ],
+            [
+               0.787564
+            ],
+            [
+               1936.27
+            ],
+            [
+               40.3399
+            ],
+            [
+               2.20371
+            ],
+            [
                200.482
             ]
+         ],
+         "vars" : [
+            "Var1",
+            "Var2",
+            "Var3",
+            "Var4",
+            "Var5",
+            "Var6",
+            "Var7",
+            "Var8",
+            "Var9",
+            "Var10",
+            "Var11"
          ]
       }
-   },
-   "config" : {
-      "graphType" : "Pie",
-      "subtitle" : "datasets - euro",
-      "title" : "Conversion Rates of Euro Currencies"
    }
 }

@@ -132,7 +132,7 @@ sub create_json {
   close FILE;
 
   ## Create Object
-  if ($t) {
+  if ($t > 3) {
     for ( $i = 0 ; $i < scalar @$data ; $i++ ) {
       push @{ $json->{y}{smps} }, 'Smp' . ( $i + 1 );
     }

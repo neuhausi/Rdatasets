@@ -1,5 +1,10 @@
 {
    "info" : "<table width=\"100%\" summary=\"page for mid\"><tr><td>mid</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\\n<h2>Militarized Interstate Disputes</h2>\\n<h3>Description</h3>\\n<p>A small sample from the militarized interstate disputes (MID) database.\\n</p>\\n<h3>Usage</h3>\\n<pre>data(mid)</pre>\\n<h3>Format</h3>\\n<p>A table containing 6 variables (&quot;conflict&quot;, &quot;major&quot;, &quot;contig&quot;, \\n&quot;power&quot;, &quot;maxdem&quot;, &quot;mindem&quot;, and &quot;years&quot;) and 3,126 observations.  For\\nfull variable descriptions, please see King and Zeng, 2001.  \\n</p>\\n<h3>Source</h3>\\n<p>Militarized Interstate Disputes database</p>\\n<h3>References</h3>\\n<p>King, Gary, and Lanche Zeng (2001).  &ldquo;Explaining Rare Events in\\nInternational Relations,&rdquo; <em>International Organization</em>, vol. 55,\\nno. 3, pp. 693-715.  \\n</p>\\n<p>Jones, Daniel M., Stuart A. Bremer and David Singer (1996).  &ldquo;Militarized\\nInterstate Disputes, 1816-1992: Rationale, Coding Rules, and Empirical\\nPatterns,&rdquo; <em>Conflict Management and Peace Science</em>, vol. 15,\\nno. 2, pp. 163-213.  \\n</p>\\n",
+   "config" : {
+      "subtitle" : "Zelig - mid",
+      "graphType" : "Scatter2D",
+      "title" : "Militarized Interstate Disputes"
+   },
    "data" : {
       "y" : {
          "smps" : [
@@ -3129,15 +3134,6 @@
             "Smp3124",
             "Smp3125",
             "Smp3126"
-         ],
-         "vars" : [
-            "conflict",
-            "major",
-            "contig",
-            "power",
-            "maxdem",
-            "mindem",
-            "years"
          ],
          "data" : [
             [
@@ -25036,12 +25032,16 @@
                15,
                12
             ]
+         ],
+         "vars" : [
+            "conflict",
+            "major",
+            "contig",
+            "power",
+            "maxdem",
+            "mindem",
+            "years"
          ]
       }
-   },
-   "config" : {
-      "graphType" : "Scatter2D",
-      "subtitle" : "Zelig - mid",
-      "title" : "Militarized Interstate Disputes"
    }
 }

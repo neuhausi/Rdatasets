@@ -1,45 +1,55 @@
 {
    "info" : "<table width=\"100%\" summary=\"page for dogs\"><tr><td>dogs</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\\n<h2> Cardiac Data for Domestic Dogs </h2>\\n<h3>Description</h3>\\n<p>The <code>dogs</code> data frame has 7 rows and 2 columns.\\n</p>\\n<p>Data on the cardiac oxygen consumption and left ventricular\\npressure were gathered on 7 domestic dogs.\\n</p>\\n<h3>Usage</h3>\\n<pre>dogs</pre>\\n<h3>Format</h3>\\n<p>This data frame contains the following columns:\\n</p>\\n<dl>\\n<dt>mvo</dt><dd><p>Cardiac Oxygen Consumption</p>\\n</dd>\\n<dt>lvp</dt><dd><p>Left Ventricular Pressure</p>\\n</dd>\\n</dl>\\n<h3>References</h3>\\n<p>Davison, A. C. and Hinkley, D. V. (1997)\\n<em>Bootstrap Methods and Their Application</em>. Cambridge University\\nPress.\\n</p>\\n",
+   "config" : {
+      "subtitle" : "boot - dogs",
+      "graphType" : "Scatter2D",
+      "title" : "Cardiac Data for Domestic Dogs"
+   },
    "data" : {
       "y" : {
-         "vars" : [
+         "smps" : [
             "mvo",
             "lvp"
-         ],
-         "smps" : [
-            "Smp1",
-            "Smp2",
-            "Smp3",
-            "Smp4",
-            "Smp5",
-            "Smp6",
-            "Smp7"
          ],
          "data" : [
             [
                78,
-               92,
-               116,
-               90,
-               106,
-               78,
-               99
+               32
             ],
             [
-               32,
-               33,
-               45,
-               30,
-               38,
-               24,
+               92,
+               33
+            ],
+            [
+               116,
+               45
+            ],
+            [
+               90,
+               30
+            ],
+            [
+               106,
+               38
+            ],
+            [
+               78,
+               24
+            ],
+            [
+               99,
                44
             ]
+         ],
+         "vars" : [
+            "Var1",
+            "Var2",
+            "Var3",
+            "Var4",
+            "Var5",
+            "Var6",
+            "Var7"
          ]
       }
-   },
-   "config" : {
-      "graphType" : "Scatter2D",
-      "subtitle" : "boot - dogs",
-      "title" : "Cardiac Data for Domestic Dogs"
    }
 }

@@ -1,5 +1,10 @@
 {
    "info" : "<table width=\"100%\" summary=\"page for barro\"><tr><td>barro</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\\n<h2>Barro Data</h2>\\n<h3>Description</h3>\\n<p>Version of the Barro Growth Data used in Koenker and Machado(1999).\\nThis is a regression data set consisting of 161 observations on determinants\\nof cross country GDP growth rates. There are 13 covariates with dimnames\\ncorresponding to the original Barro and Lee source.  See\\nhttp://www.nber.org/pub/barro.lee/.  The first 71 observations are on\\nthe period 1965-75, remainder on 1987-85.  \\n</p>\\n<h3>Usage</h3>\\n<pre>data(barro)</pre>\\n<h3>Format</h3>\\n<p>A data frame containing 161 observations on 14 variables:\\n</p>\\n<table summary=\"Rd table\">\\n<tr>\\n <td style=\"text-align: right;\">\\n        [,1] </td><td style=\"text-align: left;\"> \"Annual Change Per Capita GDP\"</td>\\n</tr>\\n<tr>\\n <td style=\"text-align: right;\">\\n        [,2] </td><td style=\"text-align: left;\"> \"Initial Per Capita GDP\"</td>\\n</tr>\\n<tr>\\n <td style=\"text-align: right;\">\\n        [,3] </td><td style=\"text-align: left;\"> \"Male Secondary Education\"</td>\\n</tr>\\n<tr>\\n <td style=\"text-align: right;\">\\n        [,4] </td><td style=\"text-align: left;\"> \"Female Secondary Education\"</td>\\n</tr>\\n<tr>\\n <td style=\"text-align: right;\">\\n        [,5] </td><td style=\"text-align: left;\"> \"Female Higher Education\"</td>\\n</tr>\\n<tr>\\n <td style=\"text-align: right;\">\\n        [,6] </td><td style=\"text-align: left;\"> \"Male Higher Education\"</td>\\n</tr>\\n<tr>\\n <td style=\"text-align: right;\">\\n        [,7] </td><td style=\"text-align: left;\"> \"Life Expectancy\"</td>\\n</tr>\\n<tr>\\n <td style=\"text-align: right;\">\\n        [,8] </td><td style=\"text-align: left;\"> \"Human Capital\"</td>\\n</tr>\\n<tr>\\n <td style=\"text-align: right;\">\\n        [,9] </td><td style=\"text-align: left;\"> \"Education/GDP\"</td>\\n</tr>\\n<tr>\\n <td style=\"text-align: right;\">\\n        [,10] </td><td style=\"text-align: left;\"> \"Investment/GDP\"</td>\\n</tr>\\n<tr>\\n <td style=\"text-align: right;\">\\n        [,11] </td><td style=\"text-align: left;\"> \"Public Consumption/GDP\"</td>\\n</tr>\\n<tr>\\n <td style=\"text-align: right;\">\\n        [,12] </td><td style=\"text-align: left;\"> \"Black Market Premium\"</td>\\n</tr>\\n<tr>\\n <td style=\"text-align: right;\">\\n        [,13] </td><td style=\"text-align: left;\"> \"Political Instability\"</td>\\n</tr>\\n<tr>\\n <td style=\"text-align: right;\">\\n        [,14] </td><td style=\"text-align: left;\"> \"Growth Rate Terms Trade\"</td>\\n</tr>\\n</table>\\n<h3>References</h3>\\n<p>Koenker, R. and J.A.F. Machado (1999) Goodness of Fit and Related Inference Processes for Quantile Regression, JASA, 1296-1310.</p>\\n",
+   "config" : {
+      "subtitle" : "quantreg - barro",
+      "graphType" : "Scatter2D",
+      "title" : "Barro Data"
+   },
    "data" : {
       "y" : {
          "smps" : [
@@ -164,22 +169,6 @@
             "Smp159",
             "Smp160",
             "Smp161"
-         ],
-         "vars" : [
-            "y.net",
-            "lgdp2",
-            "mse2",
-            "fse2",
-            "fhe2",
-            "mhe2",
-            "lexp2",
-            "lintr2",
-            "gedy2",
-            "Iy2",
-            "gcony2",
-            "lblakp2",
-            "pol2",
-            "ttrad2"
          ],
          "data" : [
             [
@@ -2464,12 +2453,23 @@
                0.003371,
                -0.001275
             ]
+         ],
+         "vars" : [
+            "y.net",
+            "lgdp2",
+            "mse2",
+            "fse2",
+            "fhe2",
+            "mhe2",
+            "lexp2",
+            "lintr2",
+            "gedy2",
+            "Iy2",
+            "gcony2",
+            "lblakp2",
+            "pol2",
+            "ttrad2"
          ]
       }
-   },
-   "config" : {
-      "graphType" : "Scatter2D",
-      "subtitle" : "quantreg - barro",
-      "title" : "Barro Data"
    }
 }
