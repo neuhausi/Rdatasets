@@ -65,6 +65,7 @@ sub process_data {
   close FILE;
 
   foreach $lib ( sort { lc($a) cmp lc($b) } keys %$sets ) {
+    undef $cont;
     foreach $ds ( sort { lc($a) cmp lc($b) } keys %{ $sets->{$lib} } ) {
       if ($dataset) {
         next unless $dataset eq $ds;
