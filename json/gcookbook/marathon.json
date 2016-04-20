@@ -1,5 +1,5 @@
 {
-   "info" : "<table width=\"100%\" summary=\"page for marathon\"><tr><td>marathon</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\\n<h2>Marathon and half-marathon times</h2>\\n<h3>Description</h3>\\n<p>This data set contains mrathon and half-marathon running\\ntimes for 520 people. Each row represents one person's\\ntimes.\\n</p>\\n<h3>Variables</h3>\\n <ul>\\n<li><p> Half: Time in minutes, for half marathon.\\n</p>\\n</li>\\n<li><p> Full: Time in minutes, for full marathon. </p>\\n</li></ul>\\n<h3>Source</h3>\\n<p>Downey, A.B. (2011), <em>Think Stats</em>, O'Reilly Media.\\n</p>\\n",
+   "info" : "<table width=\"100%\" summary=\"page for marathon\"><tr><td>marathon</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Marathon and half-marathon times</h2>\n<h3>Description</h3>\n<p>This data set contains mrathon and half-marathon running\ntimes for 520 people. Each row represents one person's\ntimes.\n</p>\n<h3>Variables</h3>\n <ul>\n<li><p> Half: Time in minutes, for half marathon.\n</p>\n</li>\n<li><p> Full: Time in minutes, for full marathon. </p>\n</li></ul>\n<h3>Source</h3>\n<p>Downey, A.B. (2011), <em>Think Stats</em>, O'Reilly Media.\n</p>\n",
    "config" : {
       "subtitle" : "gcookbook - marathon",
       "graphType" : "Scatter2D",

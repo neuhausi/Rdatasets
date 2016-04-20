@@ -1,5 +1,5 @@
 {
-   "info" : "<table width=\"100%\" summary=\"page for pg_mean\"><tr><td>pg_mean</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\\n<h2>Means of results from an experiment on plant growth</h2>\\n<h3>Description</h3>\\n<p>This data set simply has groupwise means of the\\n<code>PlantGrowth</code> data set. The purpose of this\\nsummarized data set is to make it easy to use for example\\ngraphs.\\n</p>\\n<h3>Source</h3>\\n<p>Dobson, A. J. (1983) <em>An Introduction to Statistical\\nModelling</em>, Chapman &amp; Hall.\\n</p>\\n<h3>See Also</h3>\\n<p>The source data set, <code>PlantGrowth</code>.\\n</p>\\n",
+   "info" : "<table width=\"100%\" summary=\"page for pg_mean\"><tr><td>pg_mean</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Means of results from an experiment on plant growth</h2>\n<h3>Description</h3>\n<p>This data set simply has groupwise means of the\n<code>PlantGrowth</code> data set. The purpose of this\nsummarized data set is to make it easy to use for example\ngraphs.\n</p>\n<h3>Source</h3>\n<p>Dobson, A. J. (1983) <em>An Introduction to Statistical\nModelling</em>, Chapman &amp; Hall.\n</p>\n<h3>See Also</h3>\n<p>The source data set, <code>PlantGrowth</code>.\n</p>\n",
    "config" : {
       "subtitle" : "gcookbook - pg_mean",
       "graphType" : "Bar",

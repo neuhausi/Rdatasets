@@ -1,5 +1,5 @@
 {
-   "info" : "<table width=\"100%\" summary=\"page for nidd.annual\"><tr><td>nidd.annual</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\\n<h2>The River Nidd Data</h2>\\n<h3>Description</h3>\\n<p>These data represent annual maximal levels of the \\nRiver Nidd in Yorkshire. \\nThese data are suitable for analysis with <code>gev</code>. \\n</p>\\n<h3>Usage</h3>\\n<pre>data(nidd.annual)</pre>\\n<h3>Format</h3>\\n<p>A numeric vector containing 35 observations.</p>\\n",
+   "info" : "<table width=\"100%\" summary=\"page for nidd.annual\"><tr><td>nidd.annual</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>The River Nidd Data</h2>\n<h3>Description</h3>\n<p>These data represent annual maximal levels of the \nRiver Nidd in Yorkshire. \nThese data are suitable for analysis with <code>gev</code>. \n</p>\n<h3>Usage</h3>\n<pre>data(nidd.annual)</pre>\n<h3>Format</h3>\n<p>A numeric vector containing 35 observations.</p>\n",
    "config" : {
       "subtitle" : "evir - nidd.annual",
       "graphType" : "Treemap",

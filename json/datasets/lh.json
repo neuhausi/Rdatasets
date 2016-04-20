@@ -1,5 +1,5 @@
 {
-   "info" : "<table width=\"100%\" summary=\"page for lh\"><tr><td>lh</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\\n<h2>\\nLuteinizing Hormone in Blood Samples\\n</h2>\\n<h3>Description</h3>\\n<p>A regular time series giving the luteinizing hormone in blood\\nsamples at 10 mins intervals from a human female, 48 samples.\\n</p>\\n<h3>Usage</h3>\\n<pre>lh</pre>\\n<h3>Source</h3>\\n<p>P.J. Diggle (1990)\\n<em>Time Series: A Biostatistical Introduction.</em>\\nOxford, table A.1, series 3\\n</p>\\n",
+   "info" : "<table width=\"100%\" summary=\"page for lh\"><tr><td>lh</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>\nLuteinizing Hormone in Blood Samples\n</h2>\n<h3>Description</h3>\n<p>A regular time series giving the luteinizing hormone in blood\nsamples at 10 mins intervals from a human female, 48 samples.\n</p>\n<h3>Usage</h3>\n<pre>lh</pre>\n<h3>Source</h3>\n<p>P.J. Diggle (1990)\n<em>Time Series: A Biostatistical Introduction.</em>\nOxford, table A.1, series 3\n</p>\n",
    "config" : {
       "subtitle" : "datasets - lh",
       "graphType" : "Scatter2D",

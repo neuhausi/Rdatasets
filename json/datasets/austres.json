@@ -1,5 +1,5 @@
 {
-   "info" : "<table width=\"100%\" summary=\"page for austres\"><tr><td>austres</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\\n<h2>\\nQuarterly Time Series of the Number of Australian Residents\\n</h2>\\n<h3>Description</h3>\\n<p>Numbers (in thousands) of Australian residents measured quarterly from\\nMarch 1971 to March 1994.  The object is of class <code>\"ts\"</code>.\\n</p>\\n<h3>Usage</h3>\\n<pre>austres</pre>\\n<h3>Source</h3>\\n<p>P. J. Brockwell and R. A. Davis (1996)\\n<em>Introduction to Time Series and Forecasting.</em>\\nSpringer\\n</p>\\n",
+   "info" : "<table width=\"100%\" summary=\"page for austres\"><tr><td>austres</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>\nQuarterly Time Series of the Number of Australian Residents\n</h2>\n<h3>Description</h3>\n<p>Numbers (in thousands) of Australian residents measured quarterly from\nMarch 1971 to March 1994.  The object is of class <code>\"ts\"</code>.\n</p>\n<h3>Usage</h3>\n<pre>austres</pre>\n<h3>Source</h3>\n<p>P. J. Brockwell and R. A. Davis (1996)\n<em>Introduction to Time Series and Forecasting.</em>\nSpringer\n</p>\n",
    "config" : {
       "subtitle" : "datasets - austres",
       "graphType" : "Scatter2D",

@@ -1,5 +1,5 @@
 {
-   "info" : "<table width=\"100%\" summary=\"page for fsnps\"><tr><td>fsnps</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\\n<h2>A case-control data involving four SNPs with missing genotype</h2>\\n<h3>Description</h3>\\n<p>This is a simulated data of four SNPs with their alleles coded in characters.\\nThe variable y contains phenotypes (1=case, 0=control).\\n</p>\\n<h3>Usage</h3>\\n<pre>data(fsnps)</pre>\\n<h3>Format</h3>\\n<p>A data frame</p>\\n<h3>Source</h3>\\n<p>Dr Sebastien Lissarrague of Genset</p>\\n",
+   "info" : "<table width=\"100%\" summary=\"page for fsnps\"><tr><td>fsnps</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>A case-control data involving four SNPs with missing genotype</h2>\n<h3>Description</h3>\n<p>This is a simulated data of four SNPs with their alleles coded in characters.\nThe variable y contains phenotypes (1=case, 0=control).\n</p>\n<h3>Usage</h3>\n<pre>data(fsnps)</pre>\n<h3>Format</h3>\n<p>A data frame</p>\n<h3>Source</h3>\n<p>Dr Sebastien Lissarrague of Genset</p>\n",
    "config" : {
       "subtitle" : "gap - fsnps",
       "graphType" : "Scatter2D",

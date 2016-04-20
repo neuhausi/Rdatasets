@@ -1,5 +1,5 @@
 {
-   "info" : "<table width=\"100%\" summary=\"page for smiths\"><tr><td>smiths</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\\n<h2>Demo data describing the Smiths.</h2>\\n<h3>Description</h3>\\n<p>A small demo dataset describing John and Mary Smith.  Used in the\\nintroductory vignette.\\n</p>\\n<h3>Usage</h3>\\n<pre>\\nsmiths\\n</pre>\\n<h3>Format</h3>\\n<p>A data frame with 2 rows and 5 variables</p>\\n",
+   "info" : "<table width=\"100%\" summary=\"page for smiths\"><tr><td>smiths</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Demo data describing the Smiths.</h2>\n<h3>Description</h3>\n<p>A small demo dataset describing John and Mary Smith.  Used in the\nintroductory vignette.\n</p>\n<h3>Usage</h3>\n<pre>\nsmiths\n</pre>\n<h3>Format</h3>\n<p>A data frame with 2 rows and 5 variables</p>\n",
    "config" : {
       "subtitle" : "reshape2 - smiths",
       "graphType" : "Scatter2D",

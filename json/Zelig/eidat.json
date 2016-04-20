@@ -1,5 +1,5 @@
 {
-   "info" : "<table width=\"100%\" summary=\"page for eidat\"><tr><td>eidat</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\\n<h2>Simulation Data for Ecological Inference</h2>\\n<h3>Description</h3>\\n<p>This dataframe contains a simulated data set to illustrate the models\\nfor ecological inference.  \\n</p>\\n<h3>Usage</h3>\\n<pre>data(eidat)</pre>\\n<h3>Format</h3>\\n<p>A table containing 4 variables (&quot;t0&quot;, &quot;t1&quot;, &quot;x0&quot;, &quot;x1&quot;) and 10 \\nobservations.\\n</p>\\n",
+   "info" : "<table width=\"100%\" summary=\"page for eidat\"><tr><td>eidat</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Simulation Data for Ecological Inference</h2>\n<h3>Description</h3>\n<p>This dataframe contains a simulated data set to illustrate the models\nfor ecological inference.  \n</p>\n<h3>Usage</h3>\n<pre>data(eidat)</pre>\n<h3>Format</h3>\n<p>A table containing 4 variables (&quot;t0&quot;, &quot;t1&quot;, &quot;x0&quot;, &quot;x1&quot;) and 10 \nobservations.\n</p>\n",
    "config" : {
       "subtitle" : "Zelig - eidat",
       "graphType" : "Scatter2D",

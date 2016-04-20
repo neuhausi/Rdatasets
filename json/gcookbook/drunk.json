@@ -1,5 +1,5 @@
 {
-   "info" : "<table width=\"100%\" summary=\"page for drunk\"><tr><td>drunk</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\\n<h2>Convictions for drunkenness</h2>\\n<h3>Description</h3>\\n<p>Number of people convicted for drunkenness at Tower\\nBridge and Lambeth Magistrates' Courts from January 1 to\\nJune 27, 1970, classified by age and sex.\\n</p>\\n<h3>Source</h3>\\n<p>Hand, D.J., Daly, F., Lunn, A.D., McConway, K.J. &amp;\\nOstrowski, E. (1994), <em>A Handbook of Small Data\\nSets</em>, Chapman &amp; Hall.\\n</p>\\n<p>Cook, T. (1971). <em>New Society</em>, 20 May, 1971.\\n</p>\\n",
+   "info" : "<table width=\"100%\" summary=\"page for drunk\"><tr><td>drunk</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Convictions for drunkenness</h2>\n<h3>Description</h3>\n<p>Number of people convicted for drunkenness at Tower\nBridge and Lambeth Magistrates' Courts from January 1 to\nJune 27, 1970, classified by age and sex.\n</p>\n<h3>Source</h3>\n<p>Hand, D.J., Daly, F., Lunn, A.D., McConway, K.J. &amp;\nOstrowski, E. (1994), <em>A Handbook of Small Data\nSets</em>, Chapman &amp; Hall.\n</p>\n<p>Cook, T. (1971). <em>New Society</em>, 20 May, 1971.\n</p>\n",
    "config" : {
       "subtitle" : "gcookbook - drunk",
       "graphType" : "Scatter2D",

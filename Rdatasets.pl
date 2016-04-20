@@ -132,7 +132,6 @@ sub create_json {
     next if /\<\/head\>\<body\>/;
     next if /\<\/body\>\<\/html\>/;
     next unless /\w/;
-    s/\n/\\n/;
     $info .= $_;
   }
   close FILE;

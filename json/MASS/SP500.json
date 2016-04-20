@@ -1,5 +1,5 @@
 {
-   "info" : "<table width=\"100%\" summary=\"page for SP500\"><tr><td>SP500</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\\n<h2>\\nReturns of the Standard and Poors 500\\n</h2>\\n<h3>Description</h3>\\n<p>Returns of the Standard and Poors 500 Index in the 1990's\\n</p>\\n<h3>Usage</h3>\\n<pre>\\nSP500\\n</pre>\\n<h3>Format</h3>\\n<p>A vector of returns of the Standard and Poors 500 index for all\\nthe trading days in 1990, 1991, ..., 1999.\\n</p>\\n<h3>References</h3>\\n<p>Venables, W. N. and Ripley, B. D. (2002)\\n<em>Modern Applied Statistics with S.</em> Fourth edition.  Springer.\\n</p>\\n",
+   "info" : "<table width=\"100%\" summary=\"page for SP500\"><tr><td>SP500</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>\nReturns of the Standard and Poors 500\n</h2>\n<h3>Description</h3>\n<p>Returns of the Standard and Poors 500 Index in the 1990's\n</p>\n<h3>Usage</h3>\n<pre>\nSP500\n</pre>\n<h3>Format</h3>\n<p>A vector of returns of the Standard and Poors 500 index for all\nthe trading days in 1990, 1991, ..., 1999.\n</p>\n<h3>References</h3>\n<p>Venables, W. N. and Ripley, B. D. (2002)\n<em>Modern Applied Statistics with S.</em> Fourth edition.  Springer.\n</p>\n",
    "config" : {
       "subtitle" : "MASS - SP500",
       "graphType" : "Treemap",

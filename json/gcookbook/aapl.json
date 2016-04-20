@@ -1,5 +1,5 @@
 {
-   "info" : "<table width=\"100%\" summary=\"page for aapl\"><tr><td>aapl</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\\n<h2>Apple stock data</h2>\\n<h3>Description</h3>\\n<p>Weekly stock data for AAPL (Apple, Inc.) from 1984 to\\n2012.\\n</p>\\n<h3>Variables</h3>\\n <ul>\\n<li><p> date </p>\\n</li>\\n<li><p> adj_price: Price, adjusted for\\nsplits and dividends. </p>\\n</li></ul>\\n",
+   "info" : "<table width=\"100%\" summary=\"page for aapl\"><tr><td>aapl</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Apple stock data</h2>\n<h3>Description</h3>\n<p>Weekly stock data for AAPL (Apple, Inc.) from 1984 to\n2012.\n</p>\n<h3>Variables</h3>\n <ul>\n<li><p> date </p>\n</li>\n<li><p> adj_price: Price, adjusted for\nsplits and dividends. </p>\n</li></ul>\n",
    "config" : {
       "subtitle" : "gcookbook - aapl",
       "graphType" : "Treemap",

@@ -1,5 +1,5 @@
 {
-   "info" : "<table width=\"100%\" summary=\"page for lukas\"><tr><td>lukas</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\\n<h2>An example pedigree</h2>\\n<h3>Description</h3>\\n<p>A multi-generational pedigree containing individual, father, mother IDs and sex.\\n</p>\\n<h3>Usage</h3>\\n<pre>data(lukas)</pre>\\n<h3>Format</h3>\\n<p>An example pedigree</p>\\n<h3>Source</h3>\\n<p>Lukas Keller</p>\\n",
+   "info" : "<table width=\"100%\" summary=\"page for lukas\"><tr><td>lukas</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>An example pedigree</h2>\n<h3>Description</h3>\n<p>A multi-generational pedigree containing individual, father, mother IDs and sex.\n</p>\n<h3>Usage</h3>\n<pre>data(lukas)</pre>\n<h3>Format</h3>\n<p>An example pedigree</p>\n<h3>Source</h3>\n<p>Lukas Keller</p>\n",
    "config" : {
       "subtitle" : "gap - lukas",
       "graphType" : "Scatter3D",

@@ -1,5 +1,5 @@
 {
-   "info" : "<table width=\"100%\" summary=\"page for worldpop\"><tr><td>worldpop</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\\n<h2>World population estimates from 10,000 B.C. to 2,000 A.D.</h2>\\n<h3>Description</h3>\\n<p>World population estimates from 10,000 B.C. to 2,000 A.D.\\n</p>\\n<h3>Variables</h3>\\n <ul>\\n<li><p> Year </p>\\n</li>\\n<li><p> Population: Estimated\\npopulation, in thousands </p>\\n</li></ul>\\n",
+   "info" : "<table width=\"100%\" summary=\"page for worldpop\"><tr><td>worldpop</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>World population estimates from 10,000 B.C. to 2,000 A.D.</h2>\n<h3>Description</h3>\n<p>World population estimates from 10,000 B.C. to 2,000 A.D.\n</p>\n<h3>Variables</h3>\n <ul>\n<li><p> Year </p>\n</li>\n<li><p> Population: Estimated\npopulation, in thousands </p>\n</li></ul>\n",
    "config" : {
       "subtitle" : "gcookbook - worldpop",
       "graphType" : "Scatter2D",
