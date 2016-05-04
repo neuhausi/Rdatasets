@@ -1,154 +1,154 @@
 [
    [
       "aircraft",
-      "json/robustbase/aircraft.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/robustbase/aircraft.json"
    ],
    [
       "airmay",
-      "json/robustbase/airmay.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/robustbase/airmay.json"
    ],
    [
       "alcohol",
-      "json/robustbase/alcohol.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/robustbase/alcohol.json"
    ],
    [
       "ambientNOxCH",
-      "json/robustbase/ambientNOxCH.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/robustbase/ambientNOxCH.json"
    ],
    [
       "Animals2",
-      "json/robustbase/Animals2.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/robustbase/Animals2.json"
    ],
    [
       "biomassTill",
-      "json/robustbase/biomassTill.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/robustbase/biomassTill.json"
    ],
    [
       "bushfire",
-      "json/robustbase/bushfire.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/robustbase/bushfire.json"
    ],
    [
       "carrots",
-      "json/robustbase/carrots.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/robustbase/carrots.json"
    ],
    [
       "cloud",
-      "json/robustbase/cloud.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/robustbase/cloud.json"
    ],
    [
       "coleman",
-      "json/robustbase/coleman.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/robustbase/coleman.json"
    ],
    [
       "condroz",
-      "json/robustbase/condroz.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/robustbase/condroz.json"
    ],
    [
       "CrohnD",
-      "json/robustbase/CrohnD.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/robustbase/CrohnD.json"
    ],
    [
       "cushny",
-      "json/robustbase/cushny.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/robustbase/cushny.json"
    ],
    [
       "delivery",
-      "json/robustbase/delivery.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/robustbase/delivery.json"
    ],
    [
       "education",
-      "json/robustbase/education.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/robustbase/education.json"
    ],
    [
       "epilepsy",
-      "json/robustbase/epilepsy.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/robustbase/epilepsy.json"
    ],
    [
       "exAM",
-      "json/robustbase/exAM.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/robustbase/exAM.json"
    ],
    [
       "foodstamp",
-      "json/robustbase/foodstamp.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/robustbase/foodstamp.json"
    ],
    [
       "hbk",
-      "json/robustbase/hbk.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/robustbase/hbk.json"
    ],
    [
       "heart",
-      "json/robustbase/heart.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/robustbase/heart.json"
    ],
    [
       "kootenay",
-      "json/robustbase/kootenay.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/robustbase/kootenay.json"
    ],
    [
       "lactic",
-      "json/robustbase/lactic.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/robustbase/lactic.json"
    ],
    [
       "milk",
-      "json/robustbase/milk.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/robustbase/milk.json"
    ],
    [
       "NOxEmissions",
-      "json/robustbase/NOxEmissions.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/robustbase/NOxEmissions.json"
    ],
    [
       "pension",
-      "json/robustbase/pension.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/robustbase/pension.json"
    ],
    [
       "phosphor",
-      "json/robustbase/phosphor.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/robustbase/phosphor.json"
    ],
    [
       "pilot",
-      "json/robustbase/pilot.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/robustbase/pilot.json"
    ],
    [
       "possumDiv",
-      "json/robustbase/possumDiv.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/robustbase/possumDiv.json"
    ],
    [
       "pulpfiber",
-      "json/robustbase/pulpfiber.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/robustbase/pulpfiber.json"
    ],
    [
       "radarImage",
-      "json/robustbase/radarImage.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/robustbase/radarImage.json"
    ],
    [
       "salinity",
-      "json/robustbase/salinity.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/robustbase/salinity.json"
    ],
    [
       "SiegelsEx",
-      "json/robustbase/SiegelsEx.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/robustbase/SiegelsEx.json"
    ],
    [
       "starsCYG",
-      "json/robustbase/starsCYG.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/robustbase/starsCYG.json"
    ],
    [
       "telef",
-      "json/robustbase/telef.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/robustbase/telef.json"
    ],
    [
       "toxicity",
-      "json/robustbase/toxicity.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/robustbase/toxicity.json"
    ],
    [
       "vaso",
-      "json/robustbase/vaso.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/robustbase/vaso.json"
    ],
    [
       "wagnerGrowth",
-      "json/robustbase/wagnerGrowth.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/robustbase/wagnerGrowth.json"
    ],
    [
       "wood",
-      "json/robustbase/wood.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/robustbase/wood.json"
    ]
 ]

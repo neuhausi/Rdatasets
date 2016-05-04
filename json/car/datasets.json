@@ -1,206 +1,206 @@
 [
    [
       "Adler",
-      "json/car/Adler.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/car/Adler.json"
    ],
    [
       "AMSsurvey",
-      "json/car/AMSsurvey.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/car/AMSsurvey.json"
    ],
    [
       "Angell",
-      "json/car/Angell.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/car/Angell.json"
    ],
    [
       "Anscombe",
-      "json/car/Anscombe.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/car/Anscombe.json"
    ],
    [
       "Baumann",
-      "json/car/Baumann.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/car/Baumann.json"
    ],
    [
       "Bfox",
-      "json/car/Bfox.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/car/Bfox.json"
    ],
    [
       "Blackmore",
-      "json/car/Blackmore.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/car/Blackmore.json"
    ],
    [
       "Burt",
-      "json/car/Burt.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/car/Burt.json"
    ],
    [
       "CanPop",
-      "json/car/CanPop.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/car/CanPop.json"
    ],
    [
       "Chile",
-      "json/car/Chile.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/car/Chile.json"
    ],
    [
       "Chirot",
-      "json/car/Chirot.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/car/Chirot.json"
    ],
    [
       "Cowles",
-      "json/car/Cowles.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/car/Cowles.json"
    ],
    [
       "Davis",
-      "json/car/Davis.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/car/Davis.json"
    ],
    [
       "DavisThin",
-      "json/car/DavisThin.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/car/DavisThin.json"
    ],
    [
       "Depredations",
-      "json/car/Depredations.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/car/Depredations.json"
    ],
    [
       "Duncan",
-      "json/car/Duncan.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/car/Duncan.json"
    ],
    [
       "Ericksen",
-      "json/car/Ericksen.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/car/Ericksen.json"
    ],
    [
       "Florida",
-      "json/car/Florida.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/car/Florida.json"
    ],
    [
       "Freedman",
-      "json/car/Freedman.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/car/Freedman.json"
    ],
    [
       "Friendly",
-      "json/car/Friendly.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/car/Friendly.json"
    ],
    [
       "Ginzberg",
-      "json/car/Ginzberg.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/car/Ginzberg.json"
    ],
    [
       "Greene",
-      "json/car/Greene.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/car/Greene.json"
    ],
    [
       "Guyer",
-      "json/car/Guyer.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/car/Guyer.json"
    ],
    [
       "Hartnagel",
-      "json/car/Hartnagel.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/car/Hartnagel.json"
    ],
    [
       "Highway1",
-      "json/car/Highway1.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/car/Highway1.json"
    ],
    [
       "KosteckiDillon",
-      "json/car/KosteckiDillon.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/car/KosteckiDillon.json"
    ],
    [
       "Leinhardt",
-      "json/car/Leinhardt.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/car/Leinhardt.json"
    ],
    [
       "LoBD",
-      "json/car/LoBD.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/car/LoBD.json"
    ],
    [
       "Mandel",
-      "json/car/Mandel.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/car/Mandel.json"
    ],
    [
       "Migration",
-      "json/car/Migration.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/car/Migration.json"
    ],
    [
       "Moore",
-      "json/car/Moore.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/car/Moore.json"
    ],
    [
       "Mroz",
-      "json/car/Mroz.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/car/Mroz.json"
    ],
    [
       "OBrienKaiser",
-      "json/car/OBrienKaiser.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/car/OBrienKaiser.json"
    ],
    [
       "Ornstein",
-      "json/car/Ornstein.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/car/Ornstein.json"
    ],
    [
       "Pottery",
-      "json/car/Pottery.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/car/Pottery.json"
    ],
    [
       "Prestige",
-      "json/car/Prestige.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/car/Prestige.json"
    ],
    [
       "Quartet",
-      "json/car/Quartet.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/car/Quartet.json"
    ],
    [
       "Robey",
-      "json/car/Robey.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/car/Robey.json"
    ],
    [
       "Sahlins",
-      "json/car/Sahlins.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/car/Sahlins.json"
    ],
    [
       "Salaries",
-      "json/car/Salaries.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/car/Salaries.json"
    ],
    [
       "SLID",
-      "json/car/SLID.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/car/SLID.json"
    ],
    [
       "Soils",
-      "json/car/Soils.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/car/Soils.json"
    ],
    [
       "States",
-      "json/car/States.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/car/States.json"
    ],
    [
       "Transact",
-      "json/car/Transact.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/car/Transact.json"
    ],
    [
       "UN",
-      "json/car/UN.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/car/UN.json"
    ],
    [
       "USPop",
-      "json/car/USPop.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/car/USPop.json"
    ],
    [
       "Vocab",
-      "json/car/Vocab.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/car/Vocab.json"
    ],
    [
       "WeightLoss",
-      "json/car/WeightLoss.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/car/WeightLoss.json"
    ],
    [
       "Womenlf",
-      "json/car/Womenlf.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/car/Womenlf.json"
    ],
    [
       "Wong",
-      "json/car/Wong.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/car/Wong.json"
    ],
    [
       "Wool",
-      "json/car/Wool.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/car/Wool.json"
    ]
 ]

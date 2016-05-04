@@ -1,194 +1,194 @@
 [
    [
       "acme",
-      "json/boot/acme.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/boot/acme.json"
    ],
    [
       "aids",
-      "json/boot/aids.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/boot/aids.json"
    ],
    [
       "aircondit",
-      "json/boot/aircondit.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/boot/aircondit.json"
    ],
    [
       "aircondit7",
-      "json/boot/aircondit7.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/boot/aircondit7.json"
    ],
    [
       "amis",
-      "json/boot/amis.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/boot/amis.json"
    ],
    [
       "aml",
-      "json/boot/aml.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/boot/aml.json"
    ],
    [
       "bigcity",
-      "json/boot/bigcity.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/boot/bigcity.json"
    ],
    [
       "brambles",
-      "json/boot/brambles.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/boot/brambles.json"
    ],
    [
       "breslow",
-      "json/boot/breslow.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/boot/breslow.json"
    ],
    [
       "calcium",
-      "json/boot/calcium.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/boot/calcium.json"
    ],
    [
       "cane",
-      "json/boot/cane.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/boot/cane.json"
    ],
    [
       "capability",
-      "json/boot/capability.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/boot/capability.json"
    ],
    [
       "catsM",
-      "json/boot/catsM.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/boot/catsM.json"
    ],
    [
       "cav",
-      "json/boot/cav.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/boot/cav.json"
    ],
    [
       "cd4",
-      "json/boot/cd4.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/boot/cd4.json"
    ],
    [
       "channing",
-      "json/boot/channing.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/boot/channing.json"
    ],
    [
       "city",
-      "json/boot/city.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/boot/city.json"
    ],
    [
       "claridge",
-      "json/boot/claridge.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/boot/claridge.json"
    ],
    [
       "cloth",
-      "json/boot/cloth.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/boot/cloth.json"
    ],
    [
       "co.transfer",
-      "json/boot/co.transfer.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/boot/co.transfer.json"
    ],
    [
       "coal",
-      "json/boot/coal.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/boot/coal.json"
    ],
    [
       "darwin",
-      "json/boot/darwin.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/boot/darwin.json"
    ],
    [
       "dogs",
-      "json/boot/dogs.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/boot/dogs.json"
    ],
    [
       "downs.bc",
-      "json/boot/downs.bc.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/boot/downs.bc.json"
    ],
    [
       "ducks",
-      "json/boot/ducks.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/boot/ducks.json"
    ],
    [
       "fir",
-      "json/boot/fir.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/boot/fir.json"
    ],
    [
       "frets",
-      "json/boot/frets.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/boot/frets.json"
    ],
    [
       "grav",
-      "json/boot/grav.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/boot/grav.json"
    ],
    [
       "gravity",
-      "json/boot/gravity.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/boot/gravity.json"
    ],
    [
       "hirose",
-      "json/boot/hirose.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/boot/hirose.json"
    ],
    [
       "islay",
-      "json/boot/islay.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/boot/islay.json"
    ],
    [
       "manaus",
-      "json/boot/manaus.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/boot/manaus.json"
    ],
    [
       "melanoma",
-      "json/boot/melanoma.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/boot/melanoma.json"
    ],
    [
       "motor",
-      "json/boot/motor.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/boot/motor.json"
    ],
    [
       "neuro",
-      "json/boot/neuro.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/boot/neuro.json"
    ],
    [
       "nitrofen",
-      "json/boot/nitrofen.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/boot/nitrofen.json"
    ],
    [
       "nodal",
-      "json/boot/nodal.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/boot/nodal.json"
    ],
    [
       "nuclear",
-      "json/boot/nuclear.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/boot/nuclear.json"
    ],
    [
       "paulsen",
-      "json/boot/paulsen.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/boot/paulsen.json"
    ],
    [
       "poisons",
-      "json/boot/poisons.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/boot/poisons.json"
    ],
    [
       "polar",
-      "json/boot/polar.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/boot/polar.json"
    ],
    [
       "remission",
-      "json/boot/remission.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/boot/remission.json"
    ],
    [
       "salinity",
-      "json/boot/salinity.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/boot/salinity.json"
    ],
    [
       "survival",
-      "json/boot/survival.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/boot/survival.json"
    ],
    [
       "tau",
-      "json/boot/tau.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/boot/tau.json"
    ],
    [
       "tuna",
-      "json/boot/tuna.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/boot/tuna.json"
    ],
    [
       "urine",
-      "json/boot/urine.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/boot/urine.json"
    ],
    [
       "wool",
-      "json/boot/wool.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/boot/wool.json"
    ]
 ]

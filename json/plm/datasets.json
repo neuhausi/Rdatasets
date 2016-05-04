@@ -1,58 +1,58 @@
 [
    [
       "Cigar",
-      "json/plm/Cigar.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/plm/Cigar.json"
    ],
    [
       "Crime",
-      "json/plm/Crime.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/plm/Crime.json"
    ],
    [
       "EmplUK",
-      "json/plm/EmplUK.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/plm/EmplUK.json"
    ],
    [
       "Gasoline",
-      "json/plm/Gasoline.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/plm/Gasoline.json"
    ],
    [
       "Grunfeld",
-      "json/plm/Grunfeld.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/plm/Grunfeld.json"
    ],
    [
       "Hedonic",
-      "json/plm/Hedonic.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/plm/Hedonic.json"
    ],
    [
       "LaborSupply",
-      "json/plm/LaborSupply.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/plm/LaborSupply.json"
    ],
    [
       "Males",
-      "json/plm/Males.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/plm/Males.json"
    ],
    [
       "Parity",
-      "json/plm/Parity.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/plm/Parity.json"
    ],
    [
       "Produc",
-      "json/plm/Produc.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/plm/Produc.json"
    ],
    [
       "RiceFarms",
-      "json/plm/RiceFarms.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/plm/RiceFarms.json"
    ],
    [
       "Snmesp",
-      "json/plm/Snmesp.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/plm/Snmesp.json"
    ],
    [
       "SumHes",
-      "json/plm/SumHes.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/plm/SumHes.json"
    ],
    [
       "Wages",
-      "json/plm/Wages.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/plm/Wages.json"
    ]
 ]

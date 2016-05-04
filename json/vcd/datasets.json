@@ -1,126 +1,126 @@
 [
    [
       "Arthritis",
-      "json/vcd/Arthritis.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/vcd/Arthritis.json"
    ],
    [
       "Baseball",
-      "json/vcd/Baseball.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/vcd/Baseball.json"
    ],
    [
       "BrokenMarriage",
-      "json/vcd/BrokenMarriage.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/vcd/BrokenMarriage.json"
    ],
    [
       "Bundesliga",
-      "json/vcd/Bundesliga.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/vcd/Bundesliga.json"
    ],
    [
       "Bundestag2005",
-      "json/vcd/Bundestag2005.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/vcd/Bundestag2005.json"
    ],
    [
       "Butterfly",
-      "json/vcd/Butterfly.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/vcd/Butterfly.json"
    ],
    [
       "CoalMiners",
-      "json/vcd/CoalMiners.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/vcd/CoalMiners.json"
    ],
    [
       "DanishWelfare",
-      "json/vcd/DanishWelfare.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/vcd/DanishWelfare.json"
    ],
    [
       "Employment",
-      "json/vcd/Employment.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/vcd/Employment.json"
    ],
    [
       "Federalist",
-      "json/vcd/Federalist.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/vcd/Federalist.json"
    ],
    [
       "Hitters",
-      "json/vcd/Hitters.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/vcd/Hitters.json"
    ],
    [
       "HorseKicks",
-      "json/vcd/HorseKicks.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/vcd/HorseKicks.json"
    ],
    [
       "Hospital",
-      "json/vcd/Hospital.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/vcd/Hospital.json"
    ],
    [
       "JobSatisfaction",
-      "json/vcd/JobSatisfaction.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/vcd/JobSatisfaction.json"
    ],
    [
       "JointSports",
-      "json/vcd/JointSports.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/vcd/JointSports.json"
    ],
    [
       "Lifeboats",
-      "json/vcd/Lifeboats.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/vcd/Lifeboats.json"
    ],
    [
       "NonResponse",
-      "json/vcd/NonResponse.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/vcd/NonResponse.json"
    ],
    [
       "OvaryCancer",
-      "json/vcd/OvaryCancer.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/vcd/OvaryCancer.json"
    ],
    [
       "PreSex",
-      "json/vcd/PreSex.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/vcd/PreSex.json"
    ],
    [
       "Punishment",
-      "json/vcd/Punishment.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/vcd/Punishment.json"
    ],
    [
       "RepVict",
-      "json/vcd/RepVict.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/vcd/RepVict.json"
    ],
    [
       "Saxony",
-      "json/vcd/Saxony.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/vcd/Saxony.json"
    ],
    [
       "SexualFun",
-      "json/vcd/SexualFun.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/vcd/SexualFun.json"
    ],
    [
       "SpaceShuttle",
-      "json/vcd/SpaceShuttle.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/vcd/SpaceShuttle.json"
    ],
    [
       "Suicide",
-      "json/vcd/Suicide.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/vcd/Suicide.json"
    ],
    [
       "Trucks",
-      "json/vcd/Trucks.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/vcd/Trucks.json"
    ],
    [
       "UKSoccer",
-      "json/vcd/UKSoccer.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/vcd/UKSoccer.json"
    ],
    [
       "VisualAcuity",
-      "json/vcd/VisualAcuity.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/vcd/VisualAcuity.json"
    ],
    [
       "VonBort",
-      "json/vcd/VonBort.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/vcd/VonBort.json"
    ],
    [
       "WeldonDice",
-      "json/vcd/WeldonDice.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/vcd/WeldonDice.json"
    ],
    [
       "WomenQueue",
-      "json/vcd/WomenQueue.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/vcd/WomenQueue.json"
    ]
 ]

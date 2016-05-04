@@ -1,150 +1,150 @@
 [
    [
       "ability",
-      "json/psych/ability.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/psych/ability.json"
    ],
    [
       "affect",
-      "json/psych/affect.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/psych/affect.json"
    ],
    [
       "Bechtoldt",
-      "json/psych/Bechtoldt.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/psych/Bechtoldt.json"
    ],
    [
       "Bechtoldt.1",
-      "json/psych/Bechtoldt.1.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/psych/Bechtoldt.1.json"
    ],
    [
       "Bechtoldt.2",
-      "json/psych/Bechtoldt.2.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/psych/Bechtoldt.2.json"
    ],
    [
       "bfi",
-      "json/psych/bfi.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/psych/bfi.json"
    ],
    [
       "bfi.dictionary",
-      "json/psych/bfi.dictionary.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/psych/bfi.dictionary.json"
    ],
    [
       "blot",
-      "json/psych/blot.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/psych/blot.json"
    ],
    [
       "burt",
-      "json/psych/burt.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/psych/burt.json"
    ],
    [
       "cities",
-      "json/psych/cities.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/psych/cities.json"
    ],
    [
       "cubits",
-      "json/psych/cubits.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/psych/cubits.json"
    ],
    [
       "cushny",
-      "json/psych/cushny.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/psych/cushny.json"
    ],
    [
       "Dwyer",
-      "json/psych/Dwyer.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/psych/Dwyer.json"
    ],
    [
       "epi",
-      "json/psych/epi.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/psych/epi.json"
    ],
    [
       "epi.bfi",
-      "json/psych/epi.bfi.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/psych/epi.bfi.json"
    ],
    [
       "epi.dictionary",
-      "json/psych/epi.dictionary.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/psych/epi.dictionary.json"
    ],
    [
       "galton",
-      "json/psych/galton.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/psych/galton.json"
    ],
    [
       "Gleser",
-      "json/psych/Gleser.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/psych/Gleser.json"
    ],
    [
       "Gorsuch",
-      "json/psych/Gorsuch.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/psych/Gorsuch.json"
    ],
    [
       "Harman.5",
-      "json/psych/Harman.5.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/psych/Harman.5.json"
    ],
    [
       "Harman.8",
-      "json/psych/Harman.8.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/psych/Harman.8.json"
    ],
    [
       "Harman.political",
-      "json/psych/Harman.political.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/psych/Harman.political.json"
    ],
    [
       "heights",
-      "json/psych/heights.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/psych/heights.json"
    ],
    [
       "Holzinger",
-      "json/psych/Holzinger.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/psych/Holzinger.json"
    ],
    [
       "Holzinger.9",
-      "json/psych/Holzinger.9.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/psych/Holzinger.9.json"
    ],
    [
       "income",
-      "json/psych/income.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/psych/income.json"
    ],
    [
       "iqitems",
-      "json/psych/iqitems.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/psych/iqitems.json"
    ],
    [
       "msq",
-      "json/psych/msq.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/psych/msq.json"
    ],
    [
       "neo",
-      "json/psych/neo.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/psych/neo.json"
    ],
    [
       "peas",
-      "json/psych/peas.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/psych/peas.json"
    ],
    [
       "Reise",
-      "json/psych/Reise.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/psych/Reise.json"
    ],
    [
       "sat.act",
-      "json/psych/sat.act.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/psych/sat.act.json"
    ],
    [
       "Schmid",
-      "json/psych/Schmid.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/psych/Schmid.json"
    ],
    [
       "Thurstone",
-      "json/psych/Thurstone.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/psych/Thurstone.json"
    ],
    [
       "Thurstone.33",
-      "json/psych/Thurstone.33.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/psych/Thurstone.33.json"
    ],
    [
       "Tucker",
-      "json/psych/Tucker.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/psych/Tucker.json"
    ],
    [
       "withinBetween",
-      "json/psych/withinBetween.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/psych/withinBetween.json"
    ]
 ]

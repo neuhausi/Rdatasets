@@ -1,286 +1,286 @@
 [
    [
       "airmiles",
-      "json/datasets/airmiles.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/datasets/airmiles.json"
    ],
    [
       "AirPassengers",
-      "json/datasets/AirPassengers.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/datasets/AirPassengers.json"
    ],
    [
       "airquality",
-      "json/datasets/airquality.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/datasets/airquality.json"
    ],
    [
       "anscombe",
-      "json/datasets/anscombe.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/datasets/anscombe.json"
    ],
    [
       "attenu",
-      "json/datasets/attenu.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/datasets/attenu.json"
    ],
    [
       "attitude",
-      "json/datasets/attitude.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/datasets/attitude.json"
    ],
    [
       "austres",
-      "json/datasets/austres.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/datasets/austres.json"
    ],
    [
       "BJsales",
-      "json/datasets/BJsales.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/datasets/BJsales.json"
    ],
    [
       "BOD",
-      "json/datasets/BOD.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/datasets/BOD.json"
    ],
    [
       "cars",
-      "json/datasets/cars.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/datasets/cars.json"
    ],
    [
       "chickwts",
-      "json/datasets/chickwts.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/datasets/chickwts.json"
    ],
    [
       "co2",
-      "json/datasets/co2.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/datasets/co2.json"
    ],
    [
       "crimtab",
-      "json/datasets/crimtab.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/datasets/crimtab.json"
    ],
    [
       "discoveries",
-      "json/datasets/discoveries.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/datasets/discoveries.json"
    ],
    [
       "esoph",
-      "json/datasets/esoph.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/datasets/esoph.json"
    ],
    [
       "euro",
-      "json/datasets/euro.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/datasets/euro.json"
    ],
    [
       "faithful",
-      "json/datasets/faithful.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/datasets/faithful.json"
    ],
    [
       "Formaldehyde",
-      "json/datasets/Formaldehyde.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/datasets/Formaldehyde.json"
    ],
    [
       "freeny",
-      "json/datasets/freeny.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/datasets/freeny.json"
    ],
    [
       "HairEyeColor",
-      "json/datasets/HairEyeColor.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/datasets/HairEyeColor.json"
    ],
    [
       "infert",
-      "json/datasets/infert.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/datasets/infert.json"
    ],
    [
       "InsectSprays",
-      "json/datasets/InsectSprays.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/datasets/InsectSprays.json"
    ],
    [
       "iris",
-      "json/datasets/iris.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/datasets/iris.json"
    ],
    [
       "islands",
-      "json/datasets/islands.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/datasets/islands.json"
    ],
    [
       "JohnsonJohnson",
-      "json/datasets/JohnsonJohnson.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/datasets/JohnsonJohnson.json"
    ],
    [
       "LakeHuron",
-      "json/datasets/LakeHuron.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/datasets/LakeHuron.json"
    ],
    [
       "lh",
-      "json/datasets/lh.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/datasets/lh.json"
    ],
    [
       "LifeCycleSavings",
-      "json/datasets/LifeCycleSavings.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/datasets/LifeCycleSavings.json"
    ],
    [
       "longley",
-      "json/datasets/longley.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/datasets/longley.json"
    ],
    [
       "lynx",
-      "json/datasets/lynx.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/datasets/lynx.json"
    ],
    [
       "morley",
-      "json/datasets/morley.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/datasets/morley.json"
    ],
    [
       "mtcars",
-      "json/datasets/mtcars.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/datasets/mtcars.json"
    ],
    [
       "nhtemp",
-      "json/datasets/nhtemp.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/datasets/nhtemp.json"
    ],
    [
       "Nile",
-      "json/datasets/Nile.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/datasets/Nile.json"
    ],
    [
       "nottem",
-      "json/datasets/nottem.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/datasets/nottem.json"
    ],
    [
       "npk",
-      "json/datasets/npk.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/datasets/npk.json"
    ],
    [
       "occupationalStatus",
-      "json/datasets/occupationalStatus.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/datasets/occupationalStatus.json"
    ],
    [
       "OrchardSprays",
-      "json/datasets/OrchardSprays.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/datasets/OrchardSprays.json"
    ],
    [
       "PlantGrowth",
-      "json/datasets/PlantGrowth.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/datasets/PlantGrowth.json"
    ],
    [
       "precip",
-      "json/datasets/precip.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/datasets/precip.json"
    ],
    [
       "presidents",
-      "json/datasets/presidents.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/datasets/presidents.json"
    ],
    [
       "pressure",
-      "json/datasets/pressure.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/datasets/pressure.json"
    ],
    [
       "Puromycin",
-      "json/datasets/Puromycin.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/datasets/Puromycin.json"
    ],
    [
       "quakes",
-      "json/datasets/quakes.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/datasets/quakes.json"
    ],
    [
       "randu",
-      "json/datasets/randu.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/datasets/randu.json"
    ],
    [
       "rivers",
-      "json/datasets/rivers.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/datasets/rivers.json"
    ],
    [
       "rock",
-      "json/datasets/rock.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/datasets/rock.json"
    ],
    [
       "sleep",
-      "json/datasets/sleep.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/datasets/sleep.json"
    ],
    [
       "stackloss",
-      "json/datasets/stackloss.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/datasets/stackloss.json"
    ],
    [
       "sunspot.month",
-      "json/datasets/sunspot.month.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/datasets/sunspot.month.json"
    ],
    [
       "sunspot.year",
-      "json/datasets/sunspot.year.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/datasets/sunspot.year.json"
    ],
    [
       "sunspots",
-      "json/datasets/sunspots.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/datasets/sunspots.json"
    ],
    [
       "swiss",
-      "json/datasets/swiss.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/datasets/swiss.json"
    ],
    [
       "Titanic",
-      "json/datasets/Titanic.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/datasets/Titanic.json"
    ],
    [
       "ToothGrowth",
-      "json/datasets/ToothGrowth.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/datasets/ToothGrowth.json"
    ],
    [
       "treering",
-      "json/datasets/treering.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/datasets/treering.json"
    ],
    [
       "trees",
-      "json/datasets/trees.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/datasets/trees.json"
    ],
    [
       "UCBAdmissions",
-      "json/datasets/UCBAdmissions.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/datasets/UCBAdmissions.json"
    ],
    [
       "UKDriverDeaths",
-      "json/datasets/UKDriverDeaths.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/datasets/UKDriverDeaths.json"
    ],
    [
       "UKgas",
-      "json/datasets/UKgas.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/datasets/UKgas.json"
    ],
    [
       "USAccDeaths",
-      "json/datasets/USAccDeaths.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/datasets/USAccDeaths.json"
    ],
    [
       "USArrests",
-      "json/datasets/USArrests.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/datasets/USArrests.json"
    ],
    [
       "USJudgeRatings",
-      "json/datasets/USJudgeRatings.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/datasets/USJudgeRatings.json"
    ],
    [
       "USPersonalExpenditure",
-      "json/datasets/USPersonalExpenditure.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/datasets/USPersonalExpenditure.json"
    ],
    [
       "uspop",
-      "json/datasets/uspop.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/datasets/uspop.json"
    ],
    [
       "VADeaths",
-      "json/datasets/VADeaths.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/datasets/VADeaths.json"
    ],
    [
       "volcano",
-      "json/datasets/volcano.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/datasets/volcano.json"
    ],
    [
       "warpbreaks",
-      "json/datasets/warpbreaks.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/datasets/warpbreaks.json"
    ],
    [
       "women",
-      "json/datasets/women.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/datasets/women.json"
    ],
    [
       "WorldPhones",
-      "json/datasets/WorldPhones.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/datasets/WorldPhones.json"
    ],
    [
       "WWWusage",
-      "json/datasets/WWWusage.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/datasets/WWWusage.json"
    ]
 ]

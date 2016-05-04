@@ -1,90 +1,90 @@
 [
    [
       "aapl",
-      "json/gcookbook/aapl.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/gcookbook/aapl.json"
    ],
    [
       "anthoming",
-      "json/gcookbook/anthoming.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/gcookbook/anthoming.json"
    ],
    [
       "cabbage_exp",
-      "json/gcookbook/cabbage_exp.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/gcookbook/cabbage_exp.json"
    ],
    [
       "climate",
-      "json/gcookbook/climate.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/gcookbook/climate.json"
    ],
    [
       "corneas",
-      "json/gcookbook/corneas.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/gcookbook/corneas.json"
    ],
    [
       "countries",
-      "json/gcookbook/countries.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/gcookbook/countries.json"
    ],
    [
       "drunk",
-      "json/gcookbook/drunk.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/gcookbook/drunk.json"
    ],
    [
       "heightweight",
-      "json/gcookbook/heightweight.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/gcookbook/heightweight.json"
    ],
    [
       "isabel",
-      "json/gcookbook/isabel.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/gcookbook/isabel.json"
    ],
    [
       "madmen",
-      "json/gcookbook/madmen.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/gcookbook/madmen.json"
    ],
    [
       "madmen2",
-      "json/gcookbook/madmen2.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/gcookbook/madmen2.json"
    ],
    [
       "marathon",
-      "json/gcookbook/marathon.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/gcookbook/marathon.json"
    ],
    [
       "pg_mean",
-      "json/gcookbook/pg_mean.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/gcookbook/pg_mean.json"
    ],
    [
       "plum",
-      "json/gcookbook/plum.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/gcookbook/plum.json"
    ],
    [
       "plum_wide",
-      "json/gcookbook/plum_wide.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/gcookbook/plum_wide.json"
    ],
    [
       "simpledat",
-      "json/gcookbook/simpledat.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/gcookbook/simpledat.json"
    ],
    [
       "simpledat_long",
-      "json/gcookbook/simpledat_long.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/gcookbook/simpledat_long.json"
    ],
    [
       "tophitters2001",
-      "json/gcookbook/tophitters2001.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/gcookbook/tophitters2001.json"
    ],
    [
       "uspopage",
-      "json/gcookbook/uspopage.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/gcookbook/uspopage.json"
    ],
    [
       "uspopchange",
-      "json/gcookbook/uspopchange.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/gcookbook/uspopchange.json"
    ],
    [
       "wind",
-      "json/gcookbook/wind.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/gcookbook/wind.json"
    ],
    [
       "worldpop",
-      "json/gcookbook/worldpop.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/gcookbook/worldpop.json"
    ]
 ]

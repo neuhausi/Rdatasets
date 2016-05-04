@@ -1,26 +1,26 @@
 [
    [
       "liver",
-      "json/texmex/liver.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/texmex/liver.json"
    ],
    [
       "portpirie",
-      "json/texmex/portpirie.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/texmex/portpirie.json"
    ],
    [
       "rain",
-      "json/texmex/rain.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/texmex/rain.json"
    ],
    [
       "summer",
-      "json/texmex/summer.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/texmex/summer.json"
    ],
    [
       "wavesurge",
-      "json/texmex/wavesurge.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/texmex/wavesurge.json"
    ],
    [
       "winter",
-      "json/texmex/winter.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/texmex/winter.json"
    ]
 ]

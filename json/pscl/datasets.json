@@ -1,62 +1,62 @@
 [
    [
       "absentee",
-      "json/pscl/absentee.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/pscl/absentee.json"
    ],
    [
       "admit",
-      "json/pscl/admit.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/pscl/admit.json"
    ],
    [
       "AustralianElectionPolling",
-      "json/pscl/AustralianElectionPolling.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/pscl/AustralianElectionPolling.json"
    ],
    [
       "AustralianElections",
-      "json/pscl/AustralianElections.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/pscl/AustralianElections.json"
    ],
    [
       "bioChemists",
-      "json/pscl/bioChemists.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/pscl/bioChemists.json"
    ],
    [
       "ca2006",
-      "json/pscl/ca2006.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/pscl/ca2006.json"
    ],
    [
       "EfronMorris",
-      "json/pscl/EfronMorris.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/pscl/EfronMorris.json"
    ],
    [
       "iraqVote",
-      "json/pscl/iraqVote.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/pscl/iraqVote.json"
    ],
    [
       "politicalInformation",
-      "json/pscl/politicalInformation.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/pscl/politicalInformation.json"
    ],
    [
       "presidentialElections",
-      "json/pscl/presidentialElections.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/pscl/presidentialElections.json"
    ],
    [
       "prussian",
-      "json/pscl/prussian.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/pscl/prussian.json"
    ],
    [
       "RockTheVote",
-      "json/pscl/RockTheVote.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/pscl/RockTheVote.json"
    ],
    [
       "UKHouseOfCommons",
-      "json/pscl/UKHouseOfCommons.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/pscl/UKHouseOfCommons.json"
    ],
    [
       "unionDensity",
-      "json/pscl/unionDensity.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/pscl/unionDensity.json"
    ],
    [
       "vote92",
-      "json/pscl/vote92.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/pscl/vote92.json"
    ]
 ]

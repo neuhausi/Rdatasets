@@ -1,82 +1,82 @@
 [
    [
       "bladder",
-      "json/survival/bladder.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/survival/bladder.json"
    ],
    [
       "cancer",
-      "json/survival/cancer.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/survival/cancer.json"
    ],
    [
       "cgd",
-      "json/survival/cgd.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/survival/cgd.json"
    ],
    [
       "colon",
-      "json/survival/colon.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/survival/colon.json"
    ],
    [
       "flchain",
-      "json/survival/flchain.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/survival/flchain.json"
    ],
    [
       "heart",
-      "json/survival/heart.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/survival/heart.json"
    ],
    [
       "kidney",
-      "json/survival/kidney.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/survival/kidney.json"
    ],
    [
       "leukemia",
-      "json/survival/leukemia.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/survival/leukemia.json"
    ],
    [
       "logan",
-      "json/survival/logan.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/survival/logan.json"
    ],
    [
       "lung",
-      "json/survival/lung.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/survival/lung.json"
    ],
    [
       "mgus",
-      "json/survival/mgus.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/survival/mgus.json"
    ],
    [
       "mgus2",
-      "json/survival/mgus2.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/survival/mgus2.json"
    ],
    [
       "nwtco",
-      "json/survival/nwtco.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/survival/nwtco.json"
    ],
    [
       "ovarian",
-      "json/survival/ovarian.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/survival/ovarian.json"
    ],
    [
       "pbc",
-      "json/survival/pbc.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/survival/pbc.json"
    ],
    [
       "rats",
-      "json/survival/rats.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/survival/rats.json"
    ],
    [
       "stanford2",
-      "json/survival/stanford2.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/survival/stanford2.json"
    ],
    [
       "tobin",
-      "json/survival/tobin.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/survival/tobin.json"
    ],
    [
       "transplant",
-      "json/survival/transplant.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/survival/transplant.json"
    ],
    [
       "veteran",
-      "json/survival/veteran.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/survival/veteran.json"
    ]
 ]

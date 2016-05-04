@@ -1,38 +1,38 @@
 [
    [
       "agriculture",
-      "json/cluster/agriculture.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/cluster/agriculture.json"
    ],
    [
       "animals",
-      "json/cluster/animals.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/cluster/animals.json"
    ],
    [
       "chorSub",
-      "json/cluster/chorSub.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/cluster/chorSub.json"
    ],
    [
       "flower",
-      "json/cluster/flower.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/cluster/flower.json"
    ],
    [
       "plantTraits",
-      "json/cluster/plantTraits.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/cluster/plantTraits.json"
    ],
    [
       "pluton",
-      "json/cluster/pluton.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/cluster/pluton.json"
    ],
    [
       "ruspini",
-      "json/cluster/ruspini.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/cluster/ruspini.json"
    ],
    [
       "votes.repub",
-      "json/cluster/votes.repub.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/cluster/votes.repub.json"
    ],
    [
       "xclara",
-      "json/cluster/xclara.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/cluster/xclara.json"
    ]
 ]

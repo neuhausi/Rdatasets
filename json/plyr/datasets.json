@@ -1,6 +1,6 @@
 [
    [
       "baseball",
-      "json/plyr/baseball.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/plyr/baseball.json"
    ]
 ]

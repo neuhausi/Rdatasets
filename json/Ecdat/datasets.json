@@ -1,418 +1,418 @@
 [
    [
       "Accident",
-      "json/Ecdat/Accident.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/Ecdat/Accident.json"
    ],
    [
       "Airline",
-      "json/Ecdat/Airline.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/Ecdat/Airline.json"
    ],
    [
       "Airq",
-      "json/Ecdat/Airq.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/Ecdat/Airq.json"
    ],
    [
       "bankingCrises",
-      "json/Ecdat/bankingCrises.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/Ecdat/bankingCrises.json"
    ],
    [
       "Benefits",
-      "json/Ecdat/Benefits.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/Ecdat/Benefits.json"
    ],
    [
       "Bids",
-      "json/Ecdat/Bids.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/Ecdat/Bids.json"
    ],
    [
       "breaches",
-      "json/Ecdat/breaches.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/Ecdat/breaches.json"
    ],
    [
       "BudgetFood",
-      "json/Ecdat/BudgetFood.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/Ecdat/BudgetFood.json"
    ],
    [
       "BudgetItaly",
-      "json/Ecdat/BudgetItaly.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/Ecdat/BudgetItaly.json"
    ],
    [
       "BudgetUK",
-      "json/Ecdat/BudgetUK.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/Ecdat/BudgetUK.json"
    ],
    [
       "Bwages",
-      "json/Ecdat/Bwages.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/Ecdat/Bwages.json"
    ],
    [
       "Capm",
-      "json/Ecdat/Capm.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/Ecdat/Capm.json"
    ],
    [
       "Car",
-      "json/Ecdat/Car.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/Ecdat/Car.json"
    ],
    [
       "Caschool",
-      "json/Ecdat/Caschool.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/Ecdat/Caschool.json"
    ],
    [
       "Catsup",
-      "json/Ecdat/Catsup.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/Ecdat/Catsup.json"
    ],
    [
       "Cigar",
-      "json/Ecdat/Cigar.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/Ecdat/Cigar.json"
    ],
    [
       "Cigarette",
-      "json/Ecdat/Cigarette.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/Ecdat/Cigarette.json"
    ],
    [
       "Clothing",
-      "json/Ecdat/Clothing.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/Ecdat/Clothing.json"
    ],
    [
       "Computers",
-      "json/Ecdat/Computers.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/Ecdat/Computers.json"
    ],
    [
       "CPSch3",
-      "json/Ecdat/CPSch3.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/Ecdat/CPSch3.json"
    ],
    [
       "Cracker",
-      "json/Ecdat/Cracker.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/Ecdat/Cracker.json"
    ],
    [
       "CRANpackages",
-      "json/Ecdat/CRANpackages.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/Ecdat/CRANpackages.json"
    ],
    [
       "Crime",
-      "json/Ecdat/Crime.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/Ecdat/Crime.json"
    ],
    [
       "Diamond",
-      "json/Ecdat/Diamond.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/Ecdat/Diamond.json"
    ],
    [
       "DM",
-      "json/Ecdat/DM.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/Ecdat/DM.json"
    ],
    [
       "Doctor",
-      "json/Ecdat/Doctor.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/Ecdat/Doctor.json"
    ],
    [
       "DoctorAUS",
-      "json/Ecdat/DoctorAUS.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/Ecdat/DoctorAUS.json"
    ],
    [
       "DoctorContacts",
-      "json/Ecdat/DoctorContacts.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/Ecdat/DoctorContacts.json"
    ],
    [
       "Earnings",
-      "json/Ecdat/Earnings.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/Ecdat/Earnings.json"
    ],
    [
       "Electricity",
-      "json/Ecdat/Electricity.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/Ecdat/Electricity.json"
    ],
    [
       "Fair",
-      "json/Ecdat/Fair.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/Ecdat/Fair.json"
    ],
    [
       "Fatality",
-      "json/Ecdat/Fatality.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/Ecdat/Fatality.json"
    ],
    [
       "Fishing",
-      "json/Ecdat/Fishing.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/Ecdat/Fishing.json"
    ],
    [
       "Forward",
-      "json/Ecdat/Forward.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/Ecdat/Forward.json"
    ],
    [
       "FriendFoe",
-      "json/Ecdat/FriendFoe.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/Ecdat/FriendFoe.json"
    ],
    [
       "Garch",
-      "json/Ecdat/Garch.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/Ecdat/Garch.json"
    ],
    [
       "Gasoline",
-      "json/Ecdat/Gasoline.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/Ecdat/Gasoline.json"
    ],
    [
       "Griliches",
-      "json/Ecdat/Griliches.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/Ecdat/Griliches.json"
    ],
    [
       "Grunfeld",
-      "json/Ecdat/Grunfeld.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/Ecdat/Grunfeld.json"
    ],
    [
       "HC",
-      "json/Ecdat/HC.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/Ecdat/HC.json"
    ],
    [
       "Hdma",
-      "json/Ecdat/Hdma.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/Ecdat/Hdma.json"
    ],
    [
       "Heating",
-      "json/Ecdat/Heating.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/Ecdat/Heating.json"
    ],
    [
       "Hedonic",
-      "json/Ecdat/Hedonic.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/Ecdat/Hedonic.json"
    ],
    [
       "HHSCyberSecurityBreaches",
-      "json/Ecdat/HHSCyberSecurityBreaches.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/Ecdat/HHSCyberSecurityBreaches.json"
    ],
    [
       "HI",
-      "json/Ecdat/HI.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/Ecdat/HI.json"
    ],
    [
       "Housing",
-      "json/Ecdat/Housing.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/Ecdat/Housing.json"
    ],
    [
       "Icecream",
-      "json/Ecdat/Icecream.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/Ecdat/Icecream.json"
    ],
    [
       "incomeInequality",
-      "json/Ecdat/incomeInequality.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/Ecdat/incomeInequality.json"
    ],
    [
       "Journals",
-      "json/Ecdat/Journals.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/Ecdat/Journals.json"
    ],
    [
       "Kakadu",
-      "json/Ecdat/Kakadu.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/Ecdat/Kakadu.json"
    ],
    [
       "Ketchup",
-      "json/Ecdat/Ketchup.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/Ecdat/Ketchup.json"
    ],
    [
       "Klein",
-      "json/Ecdat/Klein.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/Ecdat/Klein.json"
    ],
    [
       "LaborSupply",
-      "json/Ecdat/LaborSupply.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/Ecdat/LaborSupply.json"
    ],
    [
       "Labour",
-      "json/Ecdat/Labour.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/Ecdat/Labour.json"
    ],
    [
       "Males",
-      "json/Ecdat/Males.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/Ecdat/Males.json"
    ],
    [
       "Mathlevel",
-      "json/Ecdat/Mathlevel.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/Ecdat/Mathlevel.json"
    ],
    [
       "MCAS",
-      "json/Ecdat/MCAS.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/Ecdat/MCAS.json"
    ],
    [
       "MedExp",
-      "json/Ecdat/MedExp.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/Ecdat/MedExp.json"
    ],
    [
       "Metal",
-      "json/Ecdat/Metal.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/Ecdat/Metal.json"
    ],
    [
       "Mode",
-      "json/Ecdat/Mode.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/Ecdat/Mode.json"
    ],
    [
       "ModeChoice",
-      "json/Ecdat/ModeChoice.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/Ecdat/ModeChoice.json"
    ],
    [
       "Mofa",
-      "json/Ecdat/Mofa.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/Ecdat/Mofa.json"
    ],
    [
       "Mroz",
-      "json/Ecdat/Mroz.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/Ecdat/Mroz.json"
    ],
    [
       "MunExp",
-      "json/Ecdat/MunExp.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/Ecdat/MunExp.json"
    ],
    [
       "NaturalPark",
-      "json/Ecdat/NaturalPark.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/Ecdat/NaturalPark.json"
    ],
    [
       "Nerlove",
-      "json/Ecdat/Nerlove.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/Ecdat/Nerlove.json"
    ],
    [
       "nonEnglishNames",
-      "json/Ecdat/nonEnglishNames.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/Ecdat/nonEnglishNames.json"
    ],
    [
       "OFP",
-      "json/Ecdat/OFP.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/Ecdat/OFP.json"
    ],
    [
       "Oil",
-      "json/Ecdat/Oil.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/Ecdat/Oil.json"
    ],
    [
       "Participation",
-      "json/Ecdat/Participation.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/Ecdat/Participation.json"
    ],
    [
       "PatentsHGH",
-      "json/Ecdat/PatentsHGH.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/Ecdat/PatentsHGH.json"
    ],
    [
       "PatentsRD",
-      "json/Ecdat/PatentsRD.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/Ecdat/PatentsRD.json"
    ],
    [
       "politicalKnowledge",
-      "json/Ecdat/politicalKnowledge.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/Ecdat/politicalKnowledge.json"
    ],
    [
       "Pound",
-      "json/Ecdat/Pound.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/Ecdat/Pound.json"
    ],
    [
       "Produc",
-      "json/Ecdat/Produc.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/Ecdat/Produc.json"
    ],
    [
       "PSID",
-      "json/Ecdat/PSID.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/Ecdat/PSID.json"
    ],
    [
       "RetSchool",
-      "json/Ecdat/RetSchool.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/Ecdat/RetSchool.json"
    ],
    [
       "Schooling",
-      "json/Ecdat/Schooling.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/Ecdat/Schooling.json"
    ],
    [
       "Somerville",
-      "json/Ecdat/Somerville.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/Ecdat/Somerville.json"
    ],
    [
       "SP500",
-      "json/Ecdat/SP500.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/Ecdat/SP500.json"
    ],
    [
       "Star",
-      "json/Ecdat/Star.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/Ecdat/Star.json"
    ],
    [
       "Strike",
-      "json/Ecdat/Strike.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/Ecdat/Strike.json"
    ],
    [
       "StrikeDur",
-      "json/Ecdat/StrikeDur.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/Ecdat/StrikeDur.json"
    ],
    [
       "StrikeNb",
-      "json/Ecdat/StrikeNb.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/Ecdat/StrikeNb.json"
    ],
    [
       "SumHes",
-      "json/Ecdat/SumHes.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/Ecdat/SumHes.json"
    ],
    [
       "Tobacco",
-      "json/Ecdat/Tobacco.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/Ecdat/Tobacco.json"
    ],
    [
       "Train",
-      "json/Ecdat/Train.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/Ecdat/Train.json"
    ],
    [
       "TranspEq",
-      "json/Ecdat/TranspEq.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/Ecdat/TranspEq.json"
    ],
    [
       "Treatment",
-      "json/Ecdat/Treatment.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/Ecdat/Treatment.json"
    ],
    [
       "Tuna",
-      "json/Ecdat/Tuna.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/Ecdat/Tuna.json"
    ],
    [
       "UnempDur",
-      "json/Ecdat/UnempDur.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/Ecdat/UnempDur.json"
    ],
    [
       "Unemployment",
-      "json/Ecdat/Unemployment.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/Ecdat/Unemployment.json"
    ],
    [
       "University",
-      "json/Ecdat/University.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/Ecdat/University.json"
    ],
    [
       "USclassifiedDocuments",
-      "json/Ecdat/USclassifiedDocuments.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/Ecdat/USclassifiedDocuments.json"
    ],
    [
       "USFinanceIndustry",
-      "json/Ecdat/USFinanceIndustry.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/Ecdat/USFinanceIndustry.json"
    ],
    [
       "USstateAbbreviations",
-      "json/Ecdat/USstateAbbreviations.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/Ecdat/USstateAbbreviations.json"
    ],
    [
       "UStaxWords",
-      "json/Ecdat/UStaxWords.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/Ecdat/UStaxWords.json"
    ],
    [
       "VietNamH",
-      "json/Ecdat/VietNamH.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/Ecdat/VietNamH.json"
    ],
    [
       "VietNamI",
-      "json/Ecdat/VietNamI.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/Ecdat/VietNamI.json"
    ],
    [
       "Wages",
-      "json/Ecdat/Wages.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/Ecdat/Wages.json"
    ],
    [
       "Wages1",
-      "json/Ecdat/Wages1.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/Ecdat/Wages1.json"
    ],
    [
       "Workinghours",
-      "json/Ecdat/Workinghours.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/Ecdat/Workinghours.json"
    ],
    [
       "Yen",
-      "json/Ecdat/Yen.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/Ecdat/Yen.json"
    ],
    [
       "Yogurt",
-      "json/Ecdat/Yogurt.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/Ecdat/Yogurt.json"
    ]
 ]

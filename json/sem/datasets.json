@@ -1,22 +1,22 @@
 [
    [
       "Bollen",
-      "json/sem/Bollen.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/sem/Bollen.json"
    ],
    [
       "CNES",
-      "json/sem/CNES.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/sem/CNES.json"
    ],
    [
       "Klein",
-      "json/sem/Klein.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/sem/Klein.json"
    ],
    [
       "Kmenta",
-      "json/sem/Kmenta.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/sem/Kmenta.json"
    ],
    [
       "Tests",
-      "json/sem/Tests.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/sem/Tests.json"
    ]
 ]

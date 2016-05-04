@@ -1,22 +1,22 @@
 [
    [
       "barley",
-      "json/lattice/barley.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/lattice/barley.json"
    ],
    [
       "environmental",
-      "json/lattice/environmental.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/lattice/environmental.json"
    ],
    [
       "ethanol",
-      "json/lattice/ethanol.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/lattice/ethanol.json"
    ],
    [
       "melanoma",
-      "json/lattice/melanoma.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/lattice/melanoma.json"
    ],
    [
       "singer",
-      "json/lattice/singer.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/lattice/singer.json"
    ]
 ]

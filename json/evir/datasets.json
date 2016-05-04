@@ -1,30 +1,30 @@
 [
    [
       "bmw",
-      "json/evir/bmw.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/evir/bmw.json"
    ],
    [
       "danish",
-      "json/evir/danish.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/evir/danish.json"
    ],
    [
       "nidd.annual",
-      "json/evir/nidd.annual.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/evir/nidd.annual.json"
    ],
    [
       "nidd.thresh",
-      "json/evir/nidd.thresh.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/evir/nidd.thresh.json"
    ],
    [
       "siemens",
-      "json/evir/siemens.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/evir/siemens.json"
    ],
    [
       "sp.raw",
-      "json/evir/sp.raw.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/evir/sp.raw.json"
    ],
    [
       "spto87",
-      "json/evir/spto87.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/evir/spto87.json"
    ]
 ]

@@ -1,66 +1,66 @@
 [
    [
       "aldh2",
-      "json/gap/aldh2.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/gap/aldh2.json"
    ],
    [
       "apoeapoc",
-      "json/gap/apoeapoc.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/gap/apoeapoc.json"
    ],
    [
       "cf",
-      "json/gap/cf.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/gap/cf.json"
    ],
    [
       "crohn",
-      "json/gap/crohn.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/gap/crohn.json"
    ],
    [
       "fa",
-      "json/gap/fa.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/gap/fa.json"
    ],
    [
       "fsnps",
-      "json/gap/fsnps.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/gap/fsnps.json"
    ],
    [
       "hla",
-      "json/gap/hla.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/gap/hla.json"
    ],
    [
       "hr1420",
-      "json/gap/hr1420.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/gap/hr1420.json"
    ],
    [
       "l51",
-      "json/gap/l51.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/gap/l51.json"
    ],
    [
       "lukas",
-      "json/gap/lukas.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/gap/lukas.json"
    ],
    [
       "mao",
-      "json/gap/mao.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/gap/mao.json"
    ],
    [
       "meyer",
-      "json/gap/meyer.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/gap/meyer.json"
    ],
    [
       "mfblong",
-      "json/gap/mfblong.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/gap/mfblong.json"
    ],
    [
       "mhtdata",
-      "json/gap/mhtdata.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/gap/mhtdata.json"
    ],
    [
       "nep499",
-      "json/gap/nep499.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/gap/nep499.json"
    ],
    [
       "PD",
-      "json/gap/PD.json"
+      "https://github.com/neuhausi/Rdatasets/blob/master/json/gap/PD.json"
    ]
 ]
