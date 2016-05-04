@@ -1,34 +1,34 @@
 [
    [
       "dietox",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/geepack/dietox.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/geepack/dietox.json"
    ],
    [
       "koch",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/geepack/koch.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/geepack/koch.json"
    ],
    [
       "ohio",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/geepack/ohio.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/geepack/ohio.json"
    ],
    [
       "respdis",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/geepack/respdis.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/geepack/respdis.json"
    ],
    [
       "respiratory",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/geepack/respiratory.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/geepack/respiratory.json"
    ],
    [
       "seizure",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/geepack/seizure.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/geepack/seizure.json"
    ],
    [
       "sitka89",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/geepack/sitka89.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/geepack/sitka89.json"
    ],
    [
       "spruce",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/geepack/spruce.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/geepack/spruce.json"
    ]
 ]

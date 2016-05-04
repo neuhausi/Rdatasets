@@ -1,46 +1,46 @@
 [
    [
       "Arabidopsis",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/lme4/Arabidopsis.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/lme4/Arabidopsis.json"
    ],
    [
       "cake",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/lme4/cake.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/lme4/cake.json"
    ],
    [
       "cbpp",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/lme4/cbpp.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/lme4/cbpp.json"
    ],
    [
       "Dyestuff",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/lme4/Dyestuff.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/lme4/Dyestuff.json"
    ],
    [
       "Dyestuff2",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/lme4/Dyestuff2.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/lme4/Dyestuff2.json"
    ],
    [
       "grouseticks",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/lme4/grouseticks.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/lme4/grouseticks.json"
    ],
    [
       "InstEval",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/lme4/InstEval.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/lme4/InstEval.json"
    ],
    [
       "Pastes",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/lme4/Pastes.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/lme4/Pastes.json"
    ],
    [
       "Penicillin",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/lme4/Penicillin.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/lme4/Penicillin.json"
    ],
    [
       "sleepstudy",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/lme4/sleepstudy.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/lme4/sleepstudy.json"
    ],
    [
       "VerbAgg",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/lme4/VerbAgg.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/lme4/VerbAgg.json"
    ]
 ]

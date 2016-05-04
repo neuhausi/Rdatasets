@@ -70,7 +70,7 @@ sub process_data {
       if ($dataset) {
         next unless $dataset eq $ds;
       }
-      push @{$cont}, [ $ds, "https://github.com/neuhausi/Rdatasets/blob/master/json/$lib/$ds.json" ];
+      push @{$cont}, [ $ds, "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/$lib/$ds.json" ];
       &create_json( $lib, $ds, $sets->{$lib}{$ds} );
     }
     if ( !$dataset ) {

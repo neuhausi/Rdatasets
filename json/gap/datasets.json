@@ -1,66 +1,66 @@
 [
    [
       "aldh2",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/gap/aldh2.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/gap/aldh2.json"
    ],
    [
       "apoeapoc",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/gap/apoeapoc.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/gap/apoeapoc.json"
    ],
    [
       "cf",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/gap/cf.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/gap/cf.json"
    ],
    [
       "crohn",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/gap/crohn.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/gap/crohn.json"
    ],
    [
       "fa",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/gap/fa.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/gap/fa.json"
    ],
    [
       "fsnps",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/gap/fsnps.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/gap/fsnps.json"
    ],
    [
       "hla",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/gap/hla.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/gap/hla.json"
    ],
    [
       "hr1420",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/gap/hr1420.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/gap/hr1420.json"
    ],
    [
       "l51",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/gap/l51.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/gap/l51.json"
    ],
    [
       "lukas",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/gap/lukas.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/gap/lukas.json"
    ],
    [
       "mao",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/gap/mao.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/gap/mao.json"
    ],
    [
       "meyer",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/gap/meyer.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/gap/meyer.json"
    ],
    [
       "mfblong",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/gap/mfblong.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/gap/mfblong.json"
    ],
    [
       "mhtdata",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/gap/mhtdata.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/gap/mhtdata.json"
    ],
    [
       "nep499",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/gap/nep499.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/gap/nep499.json"
    ],
    [
       "PD",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/gap/PD.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/gap/PD.json"
    ]
 ]

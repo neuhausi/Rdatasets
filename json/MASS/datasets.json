@@ -1,342 +1,342 @@
 [
    [
       "abbey",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/MASS/abbey.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/MASS/abbey.json"
    ],
    [
       "accdeaths",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/MASS/accdeaths.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/MASS/accdeaths.json"
    ],
    [
       "Aids2",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/MASS/Aids2.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/MASS/Aids2.json"
    ],
    [
       "Animals",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/MASS/Animals.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/MASS/Animals.json"
    ],
    [
       "anorexia",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/MASS/anorexia.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/MASS/anorexia.json"
    ],
    [
       "bacteria",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/MASS/bacteria.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/MASS/bacteria.json"
    ],
    [
       "beav1",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/MASS/beav1.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/MASS/beav1.json"
    ],
    [
       "beav2",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/MASS/beav2.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/MASS/beav2.json"
    ],
    [
       "biopsy",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/MASS/biopsy.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/MASS/biopsy.json"
    ],
    [
       "birthwt",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/MASS/birthwt.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/MASS/birthwt.json"
    ],
    [
       "Boston",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/MASS/Boston.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/MASS/Boston.json"
    ],
    [
       "cabbages",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/MASS/cabbages.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/MASS/cabbages.json"
    ],
    [
       "caith",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/MASS/caith.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/MASS/caith.json"
    ],
    [
       "Cars93",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/MASS/Cars93.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/MASS/Cars93.json"
    ],
    [
       "cats",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/MASS/cats.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/MASS/cats.json"
    ],
    [
       "cement",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/MASS/cement.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/MASS/cement.json"
    ],
    [
       "chem",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/MASS/chem.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/MASS/chem.json"
    ],
    [
       "coop",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/MASS/coop.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/MASS/coop.json"
    ],
    [
       "cpus",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/MASS/cpus.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/MASS/cpus.json"
    ],
    [
       "crabs",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/MASS/crabs.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/MASS/crabs.json"
    ],
    [
       "Cushings",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/MASS/Cushings.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/MASS/Cushings.json"
    ],
    [
       "DDT",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/MASS/DDT.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/MASS/DDT.json"
    ],
    [
       "deaths",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/MASS/deaths.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/MASS/deaths.json"
    ],
    [
       "drivers",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/MASS/drivers.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/MASS/drivers.json"
    ],
    [
       "eagles",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/MASS/eagles.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/MASS/eagles.json"
    ],
    [
       "epil",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/MASS/epil.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/MASS/epil.json"
    ],
    [
       "farms",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/MASS/farms.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/MASS/farms.json"
    ],
    [
       "fgl",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/MASS/fgl.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/MASS/fgl.json"
    ],
    [
       "forbes",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/MASS/forbes.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/MASS/forbes.json"
    ],
    [
       "GAGurine",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/MASS/GAGurine.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/MASS/GAGurine.json"
    ],
    [
       "galaxies",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/MASS/galaxies.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/MASS/galaxies.json"
    ],
    [
       "gehan",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/MASS/gehan.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/MASS/gehan.json"
    ],
    [
       "genotype",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/MASS/genotype.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/MASS/genotype.json"
    ],
    [
       "geyser",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/MASS/geyser.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/MASS/geyser.json"
    ],
    [
       "gilgais",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/MASS/gilgais.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/MASS/gilgais.json"
    ],
    [
       "hills",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/MASS/hills.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/MASS/hills.json"
    ],
    [
       "housing",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/MASS/housing.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/MASS/housing.json"
    ],
    [
       "immer",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/MASS/immer.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/MASS/immer.json"
    ],
    [
       "Insurance",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/MASS/Insurance.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/MASS/Insurance.json"
    ],
    [
       "leuk",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/MASS/leuk.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/MASS/leuk.json"
    ],
    [
       "mammals",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/MASS/mammals.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/MASS/mammals.json"
    ],
    [
       "mcycle",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/MASS/mcycle.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/MASS/mcycle.json"
    ],
    [
       "Melanoma",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/MASS/Melanoma.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/MASS/Melanoma.json"
    ],
    [
       "menarche",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/MASS/menarche.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/MASS/menarche.json"
    ],
    [
       "michelson",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/MASS/michelson.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/MASS/michelson.json"
    ],
    [
       "minn38",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/MASS/minn38.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/MASS/minn38.json"
    ],
    [
       "motors",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/MASS/motors.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/MASS/motors.json"
    ],
    [
       "muscle",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/MASS/muscle.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/MASS/muscle.json"
    ],
    [
       "newcomb",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/MASS/newcomb.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/MASS/newcomb.json"
    ],
    [
       "nlschools",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/MASS/nlschools.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/MASS/nlschools.json"
    ],
    [
       "npk",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/MASS/npk.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/MASS/npk.json"
    ],
    [
       "npr1",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/MASS/npr1.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/MASS/npr1.json"
    ],
    [
       "oats",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/MASS/oats.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/MASS/oats.json"
    ],
    [
       "OME",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/MASS/OME.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/MASS/OME.json"
    ],
    [
       "painters",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/MASS/painters.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/MASS/painters.json"
    ],
    [
       "petrol",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/MASS/petrol.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/MASS/petrol.json"
    ],
    [
       "Pima.te",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/MASS/Pima.te.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/MASS/Pima.te.json"
    ],
    [
       "Pima.tr",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/MASS/Pima.tr.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/MASS/Pima.tr.json"
    ],
    [
       "Pima.tr2",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/MASS/Pima.tr2.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/MASS/Pima.tr2.json"
    ],
    [
       "quine",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/MASS/quine.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/MASS/quine.json"
    ],
    [
       "Rabbit",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/MASS/Rabbit.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/MASS/Rabbit.json"
    ],
    [
       "road",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/MASS/road.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/MASS/road.json"
    ],
    [
       "rotifer",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/MASS/rotifer.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/MASS/rotifer.json"
    ],
    [
       "Rubber",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/MASS/Rubber.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/MASS/Rubber.json"
    ],
    [
       "ships",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/MASS/ships.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/MASS/ships.json"
    ],
    [
       "shrimp",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/MASS/shrimp.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/MASS/shrimp.json"
    ],
    [
       "shuttle",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/MASS/shuttle.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/MASS/shuttle.json"
    ],
    [
       "Sitka",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/MASS/Sitka.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/MASS/Sitka.json"
    ],
    [
       "Sitka89",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/MASS/Sitka89.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/MASS/Sitka89.json"
    ],
    [
       "Skye",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/MASS/Skye.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/MASS/Skye.json"
    ],
    [
       "snails",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/MASS/snails.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/MASS/snails.json"
    ],
    [
       "SP500",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/MASS/SP500.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/MASS/SP500.json"
    ],
    [
       "steam",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/MASS/steam.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/MASS/steam.json"
    ],
    [
       "stormer",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/MASS/stormer.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/MASS/stormer.json"
    ],
    [
       "survey",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/MASS/survey.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/MASS/survey.json"
    ],
    [
       "synth.te",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/MASS/synth.te.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/MASS/synth.te.json"
    ],
    [
       "synth.tr",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/MASS/synth.tr.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/MASS/synth.tr.json"
    ],
    [
       "topo",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/MASS/topo.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/MASS/topo.json"
    ],
    [
       "Traffic",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/MASS/Traffic.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/MASS/Traffic.json"
    ],
    [
       "UScereal",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/MASS/UScereal.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/MASS/UScereal.json"
    ],
    [
       "UScrime",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/MASS/UScrime.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/MASS/UScrime.json"
    ],
    [
       "VA",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/MASS/VA.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/MASS/VA.json"
    ],
    [
       "waders",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/MASS/waders.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/MASS/waders.json"
    ],
    [
       "whiteside",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/MASS/whiteside.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/MASS/whiteside.json"
    ],
    [
       "wtloss",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/MASS/wtloss.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/MASS/wtloss.json"
    ]
 ]

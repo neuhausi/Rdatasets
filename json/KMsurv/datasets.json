@@ -1,110 +1,110 @@
 [
    [
       "aids",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/KMsurv/aids.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/KMsurv/aids.json"
    ],
    [
       "alloauto",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/KMsurv/alloauto.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/KMsurv/alloauto.json"
    ],
    [
       "allograft",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/KMsurv/allograft.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/KMsurv/allograft.json"
    ],
    [
       "azt",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/KMsurv/azt.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/KMsurv/azt.json"
    ],
    [
       "baboon",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/KMsurv/baboon.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/KMsurv/baboon.json"
    ],
    [
       "bcdeter",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/KMsurv/bcdeter.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/KMsurv/bcdeter.json"
    ],
    [
       "bfeed",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/KMsurv/bfeed.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/KMsurv/bfeed.json"
    ],
    [
       "bmt",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/KMsurv/bmt.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/KMsurv/bmt.json"
    ],
    [
       "bnct",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/KMsurv/bnct.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/KMsurv/bnct.json"
    ],
    [
       "btrial",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/KMsurv/btrial.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/KMsurv/btrial.json"
    ],
    [
       "burn",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/KMsurv/burn.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/KMsurv/burn.json"
    ],
    [
       "channing",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/KMsurv/channing.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/KMsurv/channing.json"
    ],
    [
       "drug6mp",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/KMsurv/drug6mp.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/KMsurv/drug6mp.json"
    ],
    [
       "drughiv",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/KMsurv/drughiv.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/KMsurv/drughiv.json"
    ],
    [
       "hodg",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/KMsurv/hodg.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/KMsurv/hodg.json"
    ],
    [
       "kidney",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/KMsurv/kidney.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/KMsurv/kidney.json"
    ],
    [
       "kidrecurr",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/KMsurv/kidrecurr.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/KMsurv/kidrecurr.json"
    ],
    [
       "kidtran",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/KMsurv/kidtran.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/KMsurv/kidtran.json"
    ],
    [
       "larynx",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/KMsurv/larynx.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/KMsurv/larynx.json"
    ],
    [
       "lung",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/KMsurv/lung.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/KMsurv/lung.json"
    ],
    [
       "pneumon",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/KMsurv/pneumon.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/KMsurv/pneumon.json"
    ],
    [
       "psych",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/KMsurv/psych.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/KMsurv/psych.json"
    ],
    [
       "rats",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/KMsurv/rats.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/KMsurv/rats.json"
    ],
    [
       "std",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/KMsurv/std.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/KMsurv/std.json"
    ],
    [
       "stddiag",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/KMsurv/stddiag.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/KMsurv/stddiag.json"
    ],
    [
       "tongue",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/KMsurv/tongue.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/KMsurv/tongue.json"
    ],
    [
       "twins",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/KMsurv/twins.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/KMsurv/twins.json"
    ]
 ]

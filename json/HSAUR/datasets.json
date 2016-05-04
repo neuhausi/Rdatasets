@@ -1,166 +1,166 @@
 [
    [
       "agefat",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/HSAUR/agefat.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/HSAUR/agefat.json"
    ],
    [
       "aspirin",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/HSAUR/aspirin.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/HSAUR/aspirin.json"
    ],
    [
       "BCG",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/HSAUR/BCG.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/HSAUR/BCG.json"
    ],
    [
       "birthdeathrates",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/HSAUR/birthdeathrates.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/HSAUR/birthdeathrates.json"
    ],
    [
       "bladdercancer",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/HSAUR/bladdercancer.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/HSAUR/bladdercancer.json"
    ],
    [
       "BtheB",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/HSAUR/BtheB.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/HSAUR/BtheB.json"
    ],
    [
       "clouds",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/HSAUR/clouds.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/HSAUR/clouds.json"
    ],
    [
       "CYGOB1",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/HSAUR/CYGOB1.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/HSAUR/CYGOB1.json"
    ],
    [
       "epilepsy",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/HSAUR/epilepsy.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/HSAUR/epilepsy.json"
    ],
    [
       "Forbes2000",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/HSAUR/Forbes2000.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/HSAUR/Forbes2000.json"
    ],
    [
       "foster",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/HSAUR/foster.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/HSAUR/foster.json"
    ],
    [
       "GHQ",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/HSAUR/GHQ.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/HSAUR/GHQ.json"
    ],
    [
       "heptathlon",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/HSAUR/heptathlon.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/HSAUR/heptathlon.json"
    ],
    [
       "Lanza",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/HSAUR/Lanza.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/HSAUR/Lanza.json"
    ],
    [
       "mastectomy",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/HSAUR/mastectomy.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/HSAUR/mastectomy.json"
    ],
    [
       "meteo",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/HSAUR/meteo.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/HSAUR/meteo.json"
    ],
    [
       "orallesions",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/HSAUR/orallesions.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/HSAUR/orallesions.json"
    ],
    [
       "phosphate",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/HSAUR/phosphate.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/HSAUR/phosphate.json"
    ],
    [
       "pistonrings",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/HSAUR/pistonrings.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/HSAUR/pistonrings.json"
    ],
    [
       "planets",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/HSAUR/planets.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/HSAUR/planets.json"
    ],
    [
       "plasma",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/HSAUR/plasma.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/HSAUR/plasma.json"
    ],
    [
       "polyps",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/HSAUR/polyps.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/HSAUR/polyps.json"
    ],
    [
       "polyps3",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/HSAUR/polyps3.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/HSAUR/polyps3.json"
    ],
    [
       "pottery",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/HSAUR/pottery.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/HSAUR/pottery.json"
    ],
    [
       "rearrests",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/HSAUR/rearrests.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/HSAUR/rearrests.json"
    ],
    [
       "respiratory",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/HSAUR/respiratory.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/HSAUR/respiratory.json"
    ],
    [
       "roomwidth",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/HSAUR/roomwidth.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/HSAUR/roomwidth.json"
    ],
    [
       "schizophrenia",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/HSAUR/schizophrenia.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/HSAUR/schizophrenia.json"
    ],
    [
       "schizophrenia2",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/HSAUR/schizophrenia2.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/HSAUR/schizophrenia2.json"
    ],
    [
       "schooldays",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/HSAUR/schooldays.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/HSAUR/schooldays.json"
    ],
    [
       "skulls",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/HSAUR/skulls.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/HSAUR/skulls.json"
    ],
    [
       "smoking",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/HSAUR/smoking.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/HSAUR/smoking.json"
    ],
    [
       "students",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/HSAUR/students.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/HSAUR/students.json"
    ],
    [
       "suicides",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/HSAUR/suicides.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/HSAUR/suicides.json"
    ],
    [
       "toothpaste",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/HSAUR/toothpaste.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/HSAUR/toothpaste.json"
    ],
    [
       "voting",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/HSAUR/voting.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/HSAUR/voting.json"
    ],
    [
       "water",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/HSAUR/water.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/HSAUR/water.json"
    ],
    [
       "watervoles",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/HSAUR/watervoles.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/HSAUR/watervoles.json"
    ],
    [
       "waves",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/HSAUR/waves.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/HSAUR/waves.json"
    ],
    [
       "weightgain",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/HSAUR/weightgain.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/HSAUR/weightgain.json"
    ],
    [
       "womensrole",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/HSAUR/womensrole.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/HSAUR/womensrole.json"
    ]
 ]

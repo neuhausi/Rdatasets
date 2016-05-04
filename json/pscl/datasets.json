@@ -1,62 +1,62 @@
 [
    [
       "absentee",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/pscl/absentee.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/pscl/absentee.json"
    ],
    [
       "admit",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/pscl/admit.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/pscl/admit.json"
    ],
    [
       "AustralianElectionPolling",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/pscl/AustralianElectionPolling.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/pscl/AustralianElectionPolling.json"
    ],
    [
       "AustralianElections",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/pscl/AustralianElections.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/pscl/AustralianElections.json"
    ],
    [
       "bioChemists",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/pscl/bioChemists.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/pscl/bioChemists.json"
    ],
    [
       "ca2006",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/pscl/ca2006.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/pscl/ca2006.json"
    ],
    [
       "EfronMorris",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/pscl/EfronMorris.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/pscl/EfronMorris.json"
    ],
    [
       "iraqVote",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/pscl/iraqVote.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/pscl/iraqVote.json"
    ],
    [
       "politicalInformation",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/pscl/politicalInformation.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/pscl/politicalInformation.json"
    ],
    [
       "presidentialElections",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/pscl/presidentialElections.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/pscl/presidentialElections.json"
    ],
    [
       "prussian",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/pscl/prussian.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/pscl/prussian.json"
    ],
    [
       "RockTheVote",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/pscl/RockTheVote.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/pscl/RockTheVote.json"
    ],
    [
       "UKHouseOfCommons",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/pscl/UKHouseOfCommons.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/pscl/UKHouseOfCommons.json"
    ],
    [
       "unionDensity",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/pscl/unionDensity.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/pscl/unionDensity.json"
    ],
    [
       "vote92",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/pscl/vote92.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/pscl/vote92.json"
    ]
 ]

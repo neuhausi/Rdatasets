@@ -1,86 +1,86 @@
 [
    [
       "affairs",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/COUNT/affairs.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/COUNT/affairs.json"
    ],
    [
       "azcabgptca",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/COUNT/azcabgptca.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/COUNT/azcabgptca.json"
    ],
    [
       "azdrg112",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/COUNT/azdrg112.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/COUNT/azdrg112.json"
    ],
    [
       "azpro",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/COUNT/azpro.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/COUNT/azpro.json"
    ],
    [
       "azprocedure",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/COUNT/azprocedure.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/COUNT/azprocedure.json"
    ],
    [
       "badhealth",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/COUNT/badhealth.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/COUNT/badhealth.json"
    ],
    [
       "fasttrakg",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/COUNT/fasttrakg.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/COUNT/fasttrakg.json"
    ],
    [
       "fishing",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/COUNT/fishing.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/COUNT/fishing.json"
    ],
    [
       "lbw",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/COUNT/lbw.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/COUNT/lbw.json"
    ],
    [
       "lbwgrp",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/COUNT/lbwgrp.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/COUNT/lbwgrp.json"
    ],
    [
       "loomis",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/COUNT/loomis.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/COUNT/loomis.json"
    ],
    [
       "mdvis",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/COUNT/mdvis.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/COUNT/mdvis.json"
    ],
    [
       "medpar",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/COUNT/medpar.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/COUNT/medpar.json"
    ],
    [
       "nuts",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/COUNT/nuts.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/COUNT/nuts.json"
    ],
    [
       "rwm",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/COUNT/rwm.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/COUNT/rwm.json"
    ],
    [
       "rwm1984",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/COUNT/rwm1984.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/COUNT/rwm1984.json"
    ],
    [
       "rwm5yr",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/COUNT/rwm5yr.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/COUNT/rwm5yr.json"
    ],
    [
       "ships",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/COUNT/ships.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/COUNT/ships.json"
    ],
    [
       "smoking",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/COUNT/smoking.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/COUNT/smoking.json"
    ],
    [
       "titanic",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/COUNT/titanic.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/COUNT/titanic.json"
    ],
    [
       "titanicgrp",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/COUNT/titanicgrp.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/COUNT/titanicgrp.json"
    ]
 ]

@@ -1,138 +1,138 @@
 [
    [
       "approval",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/Zelig/approval.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/Zelig/approval.json"
    ],
    [
       "bivariate",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/Zelig/bivariate.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/Zelig/bivariate.json"
    ],
    [
       "coalition",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/Zelig/coalition.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/Zelig/coalition.json"
    ],
    [
       "coalition2",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/Zelig/coalition2.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/Zelig/coalition2.json"
    ],
    [
       "eidat",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/Zelig/eidat.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/Zelig/eidat.json"
    ],
    [
       "free1",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/Zelig/free1.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/Zelig/free1.json"
    ],
    [
       "free2",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/Zelig/free2.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/Zelig/free2.json"
    ],
    [
       "friendship",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/Zelig/friendship.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/Zelig/friendship.json"
    ],
    [
       "grunfeld",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/Zelig/grunfeld.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/Zelig/grunfeld.json"
    ],
    [
       "hoff",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/Zelig/hoff.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/Zelig/hoff.json"
    ],
    [
       "homerun",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/Zelig/homerun.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/Zelig/homerun.json"
    ],
    [
       "immi1",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/Zelig/immi1.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/Zelig/immi1.json"
    ],
    [
       "immi2",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/Zelig/immi2.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/Zelig/immi2.json"
    ],
    [
       "immi3",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/Zelig/immi3.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/Zelig/immi3.json"
    ],
    [
       "immi4",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/Zelig/immi4.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/Zelig/immi4.json"
    ],
    [
       "immi5",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/Zelig/immi5.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/Zelig/immi5.json"
    ],
    [
       "immigration",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/Zelig/immigration.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/Zelig/immigration.json"
    ],
    [
       "klein",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/Zelig/klein.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/Zelig/klein.json"
    ],
    [
       "kmenta",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/Zelig/kmenta.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/Zelig/kmenta.json"
    ],
    [
       "macro",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/Zelig/macro.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/Zelig/macro.json"
    ],
    [
       "MatchIt.url",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/Zelig/MatchIt.url.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/Zelig/MatchIt.url.json"
    ],
    [
       "mexico",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/Zelig/mexico.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/Zelig/mexico.json"
    ],
    [
       "mid",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/Zelig/mid.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/Zelig/mid.json"
    ],
    [
       "newpainters",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/Zelig/newpainters.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/Zelig/newpainters.json"
    ],
    [
       "PErisk",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/Zelig/PErisk.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/Zelig/PErisk.json"
    ],
    [
       "sanction",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/Zelig/sanction.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/Zelig/sanction.json"
    ],
    [
       "sna.ex",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/Zelig/sna.ex.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/Zelig/sna.ex.json"
    ],
    [
       "SupremeCourt",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/Zelig/SupremeCourt.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/Zelig/SupremeCourt.json"
    ],
    [
       "swiss",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/Zelig/swiss.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/Zelig/swiss.json"
    ],
    [
       "tobin",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/Zelig/tobin.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/Zelig/tobin.json"
    ],
    [
       "turnout",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/Zelig/turnout.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/Zelig/turnout.json"
    ],
    [
       "voteincome",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/Zelig/voteincome.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/Zelig/voteincome.json"
    ],
    [
       "Weimar",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/Zelig/Weimar.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/Zelig/Weimar.json"
    ],
    [
       "Zelig.url",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/Zelig/Zelig.url.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/Zelig/Zelig.url.json"
    ]
 ]

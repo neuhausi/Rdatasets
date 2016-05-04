@@ -1,26 +1,26 @@
 [
    [
       "car.test.frame",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/rpart/car.test.frame.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/rpart/car.test.frame.json"
    ],
    [
       "car90",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/rpart/car90.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/rpart/car90.json"
    ],
    [
       "cu.summary",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/rpart/cu.summary.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/rpart/cu.summary.json"
    ],
    [
       "kyphosis",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/rpart/kyphosis.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/rpart/kyphosis.json"
    ],
    [
       "solder",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/rpart/solder.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/rpart/solder.json"
    ],
    [
       "stagec",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/rpart/stagec.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/rpart/stagec.json"
    ]
 ]

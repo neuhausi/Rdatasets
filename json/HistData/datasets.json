@@ -1,158 +1,158 @@
 [
    [
       "Arbuthnot",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/HistData/Arbuthnot.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/HistData/Arbuthnot.json"
    ],
    [
       "Armada",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/HistData/Armada.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/HistData/Armada.json"
    ],
    [
       "Bowley",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/HistData/Bowley.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/HistData/Bowley.json"
    ],
    [
       "Cavendish",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/HistData/Cavendish.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/HistData/Cavendish.json"
    ],
    [
       "ChestSizes",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/HistData/ChestSizes.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/HistData/ChestSizes.json"
    ],
    [
       "CushnyPeebles",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/HistData/CushnyPeebles.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/HistData/CushnyPeebles.json"
    ],
    [
       "CushnyPeeblesN",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/HistData/CushnyPeeblesN.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/HistData/CushnyPeeblesN.json"
    ],
    [
       "Dactyl",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/HistData/Dactyl.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/HistData/Dactyl.json"
    ],
    [
       "DrinksWages",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/HistData/DrinksWages.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/HistData/DrinksWages.json"
    ],
    [
       "Fingerprints",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/HistData/Fingerprints.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/HistData/Fingerprints.json"
    ],
    [
       "Galton",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/HistData/Galton.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/HistData/Galton.json"
    ],
    [
       "GaltonFamilies",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/HistData/GaltonFamilies.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/HistData/GaltonFamilies.json"
    ],
    [
       "Guerry",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/HistData/Guerry.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/HistData/Guerry.json"
    ],
    [
       "Jevons",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/HistData/Jevons.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/HistData/Jevons.json"
    ],
    [
       "Langren.all",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/HistData/Langren.all.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/HistData/Langren.all.json"
    ],
    [
       "Langren1644",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/HistData/Langren1644.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/HistData/Langren1644.json"
    ],
    [
       "Macdonell",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/HistData/Macdonell.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/HistData/Macdonell.json"
    ],
    [
       "MacdonellDF",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/HistData/MacdonellDF.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/HistData/MacdonellDF.json"
    ],
    [
       "Michelson",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/HistData/Michelson.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/HistData/Michelson.json"
    ],
    [
       "MichelsonSets",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/HistData/MichelsonSets.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/HistData/MichelsonSets.json"
    ],
    [
       "Minard.cities",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/HistData/Minard.cities.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/HistData/Minard.cities.json"
    ],
    [
       "Minard.temp",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/HistData/Minard.temp.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/HistData/Minard.temp.json"
    ],
    [
       "Minard.troops",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/HistData/Minard.troops.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/HistData/Minard.troops.json"
    ],
    [
       "Nightingale",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/HistData/Nightingale.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/HistData/Nightingale.json"
    ],
    [
       "OldMaps",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/HistData/OldMaps.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/HistData/OldMaps.json"
    ],
    [
       "PearsonLee",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/HistData/PearsonLee.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/HistData/PearsonLee.json"
    ],
    [
       "PolioTrials",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/HistData/PolioTrials.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/HistData/PolioTrials.json"
    ],
    [
       "Prostitutes",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/HistData/Prostitutes.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/HistData/Prostitutes.json"
    ],
    [
       "Pyx",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/HistData/Pyx.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/HistData/Pyx.json"
    ],
    [
       "Quarrels",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/HistData/Quarrels.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/HistData/Quarrels.json"
    ],
    [
       "Snow.deaths",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/HistData/Snow.deaths.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/HistData/Snow.deaths.json"
    ],
    [
       "Snow.polygons",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/HistData/Snow.polygons.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/HistData/Snow.polygons.json"
    ],
    [
       "Snow.pumps",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/HistData/Snow.pumps.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/HistData/Snow.pumps.json"
    ],
    [
       "Snow.streets",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/HistData/Snow.streets.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/HistData/Snow.streets.json"
    ],
    [
       "Wheat",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/HistData/Wheat.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/HistData/Wheat.json"
    ],
    [
       "Wheat.monarchs",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/HistData/Wheat.monarchs.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/HistData/Wheat.monarchs.json"
    ],
    [
       "Yeast",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/HistData/Yeast.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/HistData/Yeast.json"
    ],
    [
       "YeastD.mat",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/HistData/YeastD.mat.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/HistData/YeastD.mat.json"
    ],
    [
       "ZeaMays",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/HistData/ZeaMays.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/HistData/ZeaMays.json"
    ]
 ]

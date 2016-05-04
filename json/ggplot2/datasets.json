@@ -1,34 +1,34 @@
 [
    [
       "diamonds",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/ggplot2/diamonds.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/ggplot2/diamonds.json"
    ],
    [
       "economics",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/ggplot2/economics.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/ggplot2/economics.json"
    ],
    [
       "midwest",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/ggplot2/midwest.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/ggplot2/midwest.json"
    ],
    [
       "movies",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/ggplot2/movies.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/ggplot2/movies.json"
    ],
    [
       "mpg",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/ggplot2/mpg.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/ggplot2/mpg.json"
    ],
    [
       "msleep",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/ggplot2/msleep.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/ggplot2/msleep.json"
    ],
    [
       "presidential",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/ggplot2/presidential.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/ggplot2/presidential.json"
    ],
    [
       "seals",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/ggplot2/seals.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/ggplot2/seals.json"
    ]
 ]

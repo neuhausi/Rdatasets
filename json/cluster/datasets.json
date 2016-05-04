@@ -1,38 +1,38 @@
 [
    [
       "agriculture",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/cluster/agriculture.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/cluster/agriculture.json"
    ],
    [
       "animals",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/cluster/animals.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/cluster/animals.json"
    ],
    [
       "chorSub",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/cluster/chorSub.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/cluster/chorSub.json"
    ],
    [
       "flower",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/cluster/flower.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/cluster/flower.json"
    ],
    [
       "plantTraits",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/cluster/plantTraits.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/cluster/plantTraits.json"
    ],
    [
       "pluton",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/cluster/pluton.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/cluster/pluton.json"
    ],
    [
       "ruspini",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/cluster/ruspini.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/cluster/ruspini.json"
    ],
    [
       "votes.repub",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/cluster/votes.repub.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/cluster/votes.repub.json"
    ],
    [
       "xclara",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/cluster/xclara.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/cluster/xclara.json"
    ]
 ]

@@ -1,82 +1,82 @@
 [
    [
       "bladder",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/survival/bladder.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/survival/bladder.json"
    ],
    [
       "cancer",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/survival/cancer.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/survival/cancer.json"
    ],
    [
       "cgd",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/survival/cgd.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/survival/cgd.json"
    ],
    [
       "colon",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/survival/colon.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/survival/colon.json"
    ],
    [
       "flchain",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/survival/flchain.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/survival/flchain.json"
    ],
    [
       "heart",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/survival/heart.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/survival/heart.json"
    ],
    [
       "kidney",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/survival/kidney.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/survival/kidney.json"
    ],
    [
       "leukemia",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/survival/leukemia.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/survival/leukemia.json"
    ],
    [
       "logan",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/survival/logan.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/survival/logan.json"
    ],
    [
       "lung",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/survival/lung.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/survival/lung.json"
    ],
    [
       "mgus",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/survival/mgus.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/survival/mgus.json"
    ],
    [
       "mgus2",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/survival/mgus2.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/survival/mgus2.json"
    ],
    [
       "nwtco",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/survival/nwtco.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/survival/nwtco.json"
    ],
    [
       "ovarian",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/survival/ovarian.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/survival/ovarian.json"
    ],
    [
       "pbc",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/survival/pbc.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/survival/pbc.json"
    ],
    [
       "rats",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/survival/rats.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/survival/rats.json"
    ],
    [
       "stanford2",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/survival/stanford2.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/survival/stanford2.json"
    ],
    [
       "tobin",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/survival/tobin.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/survival/tobin.json"
    ],
    [
       "transplant",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/survival/transplant.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/survival/transplant.json"
    ],
    [
       "veteran",
-      "https://github.com/neuhausi/Rdatasets/blob/master/json/survival/veteran.json"
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/survival/veteran.json"
    ]
 ]
