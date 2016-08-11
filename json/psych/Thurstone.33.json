@@ -8,15 +8,15 @@
    "data" : {
       "y" : {
          "smps" : [
-            "Smp1",
-            "Smp2",
-            "Smp3",
-            "Smp4",
-            "Smp5",
-            "Smp6",
-            "Smp7",
-            "Smp8",
-            "Smp9"
+            "Definitions",
+            "Arithmetical_Problems",
+            "Classification",
+            "Artificial_Languange",
+            "Antonyms",
+            "Number_Series_Completion",
+            "Analogies",
+            "Logical_Inference",
+            "Paragraph_Reading"
          ],
          "data" : [
             [

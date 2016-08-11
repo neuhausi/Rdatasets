@@ -8,14 +8,14 @@
    "data" : {
       "y" : {
          "smps" : [
-            "Smp1",
-            "Smp2",
-            "Smp3",
-            "Smp4",
-            "Smp5",
-            "Smp6",
-            "Smp7",
-            "Smp8"
+            "Lewis",
+            "Roosevelt",
+            "Party Voting",
+            "Median Rental",
+            "Homeownership",
+            "Unemployment",
+            "Mobility",
+            "Education"
          ],
          "data" : [
             [

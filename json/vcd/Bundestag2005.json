@@ -8,22 +8,22 @@
    "data" : {
       "y" : {
          "smps" : [
-            "Smp1",
-            "Smp2",
-            "Smp3",
-            "Smp4",
-            "Smp5",
-            "Smp6",
-            "Smp7",
-            "Smp8",
-            "Smp9",
-            "Smp10",
-            "Smp11",
-            "Smp12",
-            "Smp13",
-            "Smp14",
-            "Smp15",
-            "Smp16"
+            "Schleswig-Holstein",
+            "Mecklenburg-Vorpommern",
+            "Hamburg",
+            "Niedersachsen",
+            "Bremen",
+            "Brandenburg",
+            "Sachsen-Anhalt",
+            "Berlin",
+            "Nordrhein-Westfalen",
+            "Sachsen",
+            "Hessen",
+            "Thueringen",
+            "Rheinland-Pfalz",
+            "Bayern",
+            "Baden-Wuerttemberg",
+            "Saarland"
          ],
          "data" : [
             [

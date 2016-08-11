@@ -2,276 +2,273 @@
    "info" : "<table width=\"100%\" summary=\"page for PublicSchools\"><tr><td>PublicSchools</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>US Expenditures for Public Schools</h2>\n<h3>Description</h3>\n<p>Per capita expenditure on public schools and per capita income\nby state in 1979.\n</p>\n<h3>Usage</h3>\n<pre>data(PublicSchools)</pre>\n<h3>Format</h3>\n<p>A data frame containing 51 observations of 2 variables.\n</p>\n<dl>\n<dt>Expenditure</dt><dd><p>per capita expenditure on public schools,</p>\n</dd>\n<dt>Income</dt><dd><p>per capita income.</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>Table 14.1 in Greene (1993)</p>\n<h3>References</h3>\n<p>Cribari-Neto F. (2004), Asymptotic Inference Under Heteroskedasticity\nof Unknown Form, <em>Computational Statistics \\&amp; Data Analysis</em>,\n<b>45</b>, 215-233.\n</p>\n<p>Greene W.H. (1993), <em>Econometric Analysis</em>, 2nd edition.\nMacmillan Publishing Company, New York.\n</p>\n<p>US Department of Commerce (1979), <em>Statistical Abstract of the\nUnited States</em>. US Government Printing Office, Washington, DC.\n</p>\n<h3>Examples</h3>\n<pre>\n## Willam H. Greene, Econometric Analysis, 2nd Ed.\n## Chapter 14\n## load data set, p. 385, Table 14.1\ndata(PublicSchools)\n## omit NA in Wisconsin and scale income\nps &lt;- na.omit(PublicSchools)\nps$Income &lt;- ps$Income * 0.0001\n## fit quadratic regression, p. 385, Table 14.2\nfmq &lt;- lm(Expenditure ~ Income + I(Income^2), data = ps)\nsummary(fmq)\n## compare standard and HC0 standard errors\n## p. 391, Table 14.3\nlibrary(sandwich)\ncoef(fmq)\nsqrt(diag(vcovHC(fmq, type = \"const\")))\nsqrt(diag(vcovHC(fmq, type = \"HC0\")))\nif(require(lmtest)) {\n## compare t ratio\ncoeftest(fmq, vcov = vcovHC(fmq, type = \"HC0\"))\n## White test, p. 393, Example 14.5\nwt &lt;- lm(residuals(fmq)^2 ~ poly(Income, 4), data = ps)\nwt.stat &lt;- summary(wt)$r.squared * nrow(ps)\nc(wt.stat, pchisq(wt.stat, df = 3, lower = FALSE))\n## Bresch-Pagan test, p. 395, Example 14.7\nbptest(fmq, studentize = FALSE)\nbptest(fmq)\n## Francisco Cribari-Neto, Asymptotic Inference, CSDA 45\n## quasi z-tests, p. 229, Table 8\n## with Alaska\ncoeftest(fmq, df = Inf)[3,4]\ncoeftest(fmq, df = Inf, vcov = vcovHC(fmq, type = \"HC0\"))[3,4]\ncoeftest(fmq, df = Inf, vcov = vcovHC(fmq, type = \"HC3\"))[3,4]\ncoeftest(fmq, df = Inf, vcov = vcovHC(fmq, type = \"HC4\"))[3,4]\n## without Alaska (observation 2)\nfmq1 &lt;- lm(Expenditure ~ Income + I(Income^2), data = ps[-2,])\ncoeftest(fmq1, df = Inf)[3,4]\ncoeftest(fmq1, df = Inf, vcov = vcovHC(fmq1, type = \"HC0\"))[3,4]\ncoeftest(fmq1, df = Inf, vcov = vcovHC(fmq1, type = \"HC3\"))[3,4]\ncoeftest(fmq1, df = Inf, vcov = vcovHC(fmq1, type = \"HC4\"))[3,4]\n## visualization, p. 230, Figure 1\nplot(Expenditure ~ Income, data = ps,\n  xlab = \"per capita income\",\n  ylab = \"per capita spending on public schools\")\ninc &lt;- seq(0.5, 1.2, by = 0.001)\nlines(inc, predict(fmq, data.frame(Income = inc)), col = 4)\nfml &lt;- lm(Expenditure ~ Income, data = ps)\nabline(fml)\ntext(ps[2,2], ps[2,1], rownames(ps)[2], pos = 2)\n</pre>\n",
    "config" : {
       "subtitle" : "sandwich - PublicSchools",
-      "graphType" : "Treemap",
+      "graphType" : "Scatter2D",
       "title" : "US Expenditures for Public Schools"
    },
    "data" : {
       "y" : {
          "smps" : [
+            "Expenditure",
             "Income"
          ],
          "data" : [
             [
+               275,
                6247
             ],
             [
+               821,
                10851
             ],
             [
+               339,
                7374
             ],
             [
+               275,
                6183
             ],
             [
+               387,
                8850
             ],
             [
+               452,
                8001
             ],
             [
+               531,
                8914
             ],
             [
+               424,
                8604
             ],
             [
+               316,
                7505
             ],
             [
+               265,
                6700
             ],
             [
+               403,
                8380
             ],
             [
+               304,
                6813
             ],
             [
+               437,
                8745
             ],
             [
+               345,
                7696
             ],
             [
+               431,
                7873
             ],
             [
+               355,
                8001
             ],
             [
+               260,
                6615
             ],
             [
+               316,
                6640
             ],
             [
+               327,
                6333
             ],
             [
+               427,
                8306
             ],
             [
+               427,
                8063
             ],
             [
+               466,
                8442
             ],
             [
+               477,
                7847
             ],
             [
+               259,
                5736
             ],
             [
+               274,
                7342
             ],
             [
+               433,
                7051
             ],
             [
+               294,
                7391
             ],
             [
+               359,
                9032
             ],
             [
+               279,
                7277
             ],
             [
+               423,
                8818
             ],
             [
+               388,
                6505
             ],
             [
+               447,
                8267
             ],
             [
+               335,
                6607
             ],
             [
+               311,
                7478
             ],
             [
+               322,
                7812
             ],
             [
+               320,
                6951
             ],
             [
+               397,
                7839
             ],
             [
+               412,
                7733
             ],
             [
+               342,
                7526
             ],
             [
+               315,
                6242
             ],
             [
+               321,
                6841
             ],
             [
+               268,
                6489
             ],
             [
+               315,
                7697
             ],
             [
+               417,
                6622
             ],
             [
+               353,
                6541
             ],
             [
+               356,
                7624
             ],
             [
+               415,
                8450
             ],
             [
+               428,
                10022
             ],
             [
+               320,
                6456
             ],
             [
+               "",
                7597
             ],
             [
+               500,
                9096
             ]
          ],
          "vars" : [
-            "Var1",
-            "Var2",
-            "Var3",
-            "Var4",
-            "Var5",
-            "Var6",
-            "Var7",
-            "Var8",
-            "Var9",
-            "Var10",
-            "Var11",
-            "Var12",
-            "Var13",
-            "Var14",
-            "Var15",
-            "Var16",
-            "Var17",
-            "Var18",
-            "Var19",
-            "Var20",
-            "Var21",
-            "Var22",
-            "Var23",
-            "Var24",
-            "Var25",
-            "Var26",
-            "Var27",
-            "Var28",
-            "Var29",
-            "Var30",
-            "Var31",
-            "Var32",
-            "Var33",
-            "Var34",
-            "Var35",
-            "Var36",
-            "Var37",
-            "Var38",
-            "Var39",
-            "Var40",
-            "Var41",
-            "Var42",
-            "Var43",
-            "Var44",
-            "Var45",
-            "Var46",
-            "Var47",
-            "Var48",
-            "Var49",
-            "Var50",
-            "Var51"
-         ]
-      },
-      "z" : {
-         "Expenditure" : [
-            "275",
-            "821",
-            "339",
-            "275",
-            "387",
-            "452",
-            "531",
-            "424",
-            "316",
-            "265",
-            "403",
-            "304",
-            "437",
-            "345",
-            "431",
-            "355",
-            "260",
-            "316",
-            "327",
-            "427",
-            "427",
-            "466",
-            "477",
-            "259",
-            "274",
-            "433",
-            "294",
-            "359",
-            "279",
-            "423",
-            "388",
-            "447",
-            "335",
-            "311",
-            "322",
-            "320",
-            "397",
-            "412",
-            "342",
-            "315",
-            "321",
-            "268",
-            "315",
-            "417",
-            "353",
-            "356",
-            "415",
-            "428",
-            "320",
-            "NA",
-            "500"
+            "Alabama",
+            "Alaska",
+            "Arizona",
+            "Arkansas",
+            "California",
+            "Colorado",
+            "Connecticut",
+            "Delaware",
+            "Florida",
+            "Georgia",
+            "Hawaii",
+            "Idaho",
+            "Illinois",
+            "Indiana",
+            "Iowa",
+            "Kansas",
+            "Kentucky",
+            "Louisiana",
+            "Maine",
+            "Maryland",
+            "Massachusetts",
+            "Michigan",
+            "Minnesota",
+            "Mississippi",
+            "Missouri",
+            "Montana",
+            "Nebraska",
+            "Nevada",
+            "New Hampshire",
+            "New Jersey",
+            "New Mexico",
+            "New York",
+            "North Carolina",
+            "North Dakota",
+            "Ohio",
+            "Oklahoma",
+            "Oregon",
+            "Pennsylvania",
+            "Rhode Island",
+            "South Carolina",
+            "South Dakota",
+            "Tennessee",
+            "Texas",
+            "Utah",
+            "Vermont",
+            "Virginia",
+            "Washington",
+            "Washington DC",
+            "West Virginia",
+            "Wisconsin",
+            "Wyoming"
          ]
       }
    }

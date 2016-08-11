@@ -8,15 +8,15 @@
    "data" : {
       "y" : {
          "smps" : [
-            "Smp1",
-            "Smp2",
-            "Smp3",
-            "Smp4",
-            "Smp5",
-            "Smp6",
-            "Smp7",
-            "Smp8",
-            "Smp9"
+            "vis_perc",
+            "cubes",
+            "lozenges",
+            "par_comp",
+            "sen_comp",
+            "wordmean",
+            "addition",
+            "count_dot",
+            "s_c_caps"
          ],
          "data" : [
             [

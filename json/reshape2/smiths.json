@@ -8,36 +8,38 @@
    "data" : {
       "y" : {
          "smps" : [
-            "time",
-            "height"
+            "Smp1",
+            "Smp2"
          ],
          "data" : [
             [
                1,
-               1.87
+               1
             ],
             [
-               1,
+               33,
+               ""
+            ],
+            [
+               90,
+               ""
+            ],
+            [
+               1.87,
                1.54
             ]
          ],
          "vars" : [
-            "Var1",
-            "Var2"
+            "time",
+            "age",
+            "weight",
+            "height"
          ]
       },
-      "z" : {
+      "x" : {
          "subject" : [
             "John Smith",
             "Mary Smith"
-         ],
-         "weight" : [
-            "90",
-            "NA"
-         ],
-         "age" : [
-            "33",
-            "NA"
          ]
       }
    }

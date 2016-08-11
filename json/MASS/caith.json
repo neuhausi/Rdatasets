@@ -9,10 +9,10 @@
    "data" : {
       "y" : {
          "smps" : [
-            "Smp1",
-            "Smp2",
-            "Smp3",
-            "Smp4"
+            "blue",
+            "light",
+            "medium",
+            "dark"
          ],
          "data" : [
             [

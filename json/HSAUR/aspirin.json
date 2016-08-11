@@ -8,13 +8,13 @@
    "data" : {
       "y" : {
          "smps" : [
-            "Smp1",
-            "Smp2",
-            "Smp3",
-            "Smp4",
-            "Smp5",
-            "Smp6",
-            "Smp7"
+            "\\cite{HSAuR:Elwoodetal1974}",
+            "\\cite{HSAuR:Coronary1976}",
+            "\\cite{HSAuR:ElwoodSweetman1979}",
+            "\\cite{HSAuR:Breddinetal1979}",
+            "\\cite{HSAuR:Persantine1980}",
+            "\\cite{HSAuR:Aspirin1980}",
+            "\\cite{HSAuR:ISIS21988}"
          ],
          "data" : [
             [

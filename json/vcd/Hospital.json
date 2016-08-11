@@ -30,9 +30,9 @@
             ]
          ],
          "vars" : [
-            "Var1",
-            "Var2",
-            "Var3"
+            "Regular",
+            "Less than monthly",
+            "Never"
          ]
       }
    }

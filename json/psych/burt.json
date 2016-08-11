@@ -8,17 +8,17 @@
    "data" : {
       "y" : {
          "smps" : [
-            "Smp1",
-            "Smp2",
-            "Smp3",
-            "Smp4",
-            "Smp5",
-            "Smp6",
-            "Smp7",
-            "Smp8",
-            "Smp9",
-            "Smp10",
-            "Smp11"
+            "Sociality",
+            "Sorrow",
+            "Tenderness",
+            "Joy",
+            "Wonder",
+            "Elation",
+            "Disgust",
+            "Anger",
+            "Sex",
+            "Fear",
+            "Subjection"
          ],
          "data" : [
             [

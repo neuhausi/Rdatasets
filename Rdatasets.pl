@@ -86,7 +86,7 @@ sub create_json {
 
   my ( $lib, $ds, $title ) = @_;
 
-  my ( @header, $i, $ii, $j, @line, $data, $json, $type, $config, $after, $t, $n, $info );
+  my ( @header, $i, $ii, $j, @line, $data, $unique, @rows, $json, $type, $config, $after, $t, $s, $n, $u, $info );
 
   my $csv = "csv/$lib/$ds.csv";
   my $doc = "doc/$lib/$ds.html";
@@ -97,12 +97,17 @@ sub create_json {
   chomp;
   s/"//g;
   @header = split( ",", $_ );
-  shift @header;
+  $header[0] = 'Rows';
+  $u = 1;
   while (<FILE>) {
     chomp;
     s/"//g;
     next unless /\w/;
-    ( undef, @line ) = split( ",", $_ );
+    (@line) = split( ",", $_ );
+    if ( $unique->{ $line[0] } ) {
+      $u = 0;
+    }
+    $unique->{ $line[0] }++;
     push @$data, [@line];
     $n++;
   }
@@ -115,6 +120,9 @@ sub create_json {
   for ( $i = 0 ; $i < scalar @header ; $i++ ) {
     $type->[$i] = 'Numeric';
     for ( $j = 0 ; $j < scalar @$data ; $j++ ) {
+      if ( defined $data->[$j][$i] && $data->[$j][$i] eq 'NA' ) {
+        undef $data->[$j][$i];
+      }
       if ( defined $data->[$j][$i] && !looks_like_number( $data->[$j][$i] ) ) {
         $type->[$i] = 'String';
       }
@@ -122,7 +130,42 @@ sub create_json {
     $t++ if $type->[$i] eq 'Numeric';
   }
 
-  return unless $t;
+  ## Check if first column is just a sequence
+  if ( $type->[0] eq 'Numeric' ) {
+    for ( $i = 0 ; $i < scalar @{$data} ; $i++ ) {
+      if ( $data->[$i][0] eq ( $i + 1 ) ) {
+        $s++;
+      } else {
+        undef $s;
+        last;
+      }
+    }
+  }
+  if ($s) {
+    $t--;
+    shift @header;
+    shift @{$type};
+    $u = 0;
+    for ( $i = 0 ; $i < scalar @{$data} ; $i++ ) {
+      shift @{ $data->[$i] };
+    }
+  } elsif ($u) {
+    $t-- if $type->[0] eq 'Numeric';
+    shift @header;
+    shift @{$type};
+    for ( $i = 0 ; $i < scalar @{$data} ; $i++ ) {
+      push @rows, shift @{ $data->[$i] };
+    }
+  }
+
+  if ($t < 1) {
+    $t++;
+    push @{$type}, 'Numeric';
+    push @header, 'Row';
+    for ( $i = 0 ; $i < scalar @{$data} ; $i++ ) {
+      push @{ $data->[$i] }, $i + 1;
+    }
+  }
 
   open( FILE, "$doc" ) or die "Couldn't open $doc: $!\n";
   while (<FILE>) {
@@ -138,8 +181,12 @@ sub create_json {
 
   ## Create Object
   if ( $t > 3 ) {
-    for ( $i = 0 ; $i < scalar @$data ; $i++ ) {
-      push @{ $json->{y}{smps} }, 'Smp' . ( $i + 1 );
+    if ( @rows && scalar @rows == scalar @$data ) {
+      @{ $json->{y}{smps} } = @rows;
+    } else {
+      for ( $i = 0 ; $i < scalar @$data ; $i++ ) {
+        push @{ $json->{y}{smps} }, 'Smp' . ( $i + 1 );
+      }
     }
     $ii = 0;
     for ( $i = 0 ; $i < scalar @header ; $i++ ) {
@@ -156,8 +203,12 @@ sub create_json {
       }
     }
   } else {
-    for ( $i = 0 ; $i < scalar @$data ; $i++ ) {
-      push @{ $json->{y}{vars} }, 'Var' . ( $i + 1 );
+    if ( @rows && scalar @rows == scalar @$data ) {
+      @{ $json->{y}{vars} } = @rows;
+    } else {
+      for ( $i = 0 ; $i < scalar @$data ; $i++ ) {
+        push @{ $json->{y}{vars} }, 'Var' . ( $i + 1 );
+      }
     }
     $ii = 0;
     for ( $i = 0 ; $i < scalar @header ; $i++ ) {
@@ -175,56 +226,73 @@ sub create_json {
     }
   }
 
-  if ( scalar @{ $json->{y}{smps} } == 1 ) {
-    if ( scalar @{ $json->{y}{vars} } > 20 ) {
-      $config->{graphType} = 'Treemap';
-    } elsif ( scalar @{ $json->{y}{vars} } > 10 ) {
-      $config->{graphType} = 'Pie';
-    } else {
-      $config->{graphType} = 'Bar';
-    }
-  } elsif ( scalar @{ $json->{y}{vars} } == 1 ) {
-    if ( scalar @{ $json->{y}{smps} } > 20 ) {
-      $config->{graphType} = 'Treemap';
-    } elsif ( scalar @{ $json->{y}{smps} } > 10 ) {
-      $config->{graphType} = 'Pie';
-    } else {
-      $config->{graphType} = 'Bar';
-    }
-  } elsif ( scalar @{ $json->{y}{smps} } == 2 ) {
-    $config->{graphType} = 'Scatter2D';
-  } elsif ( scalar @{ $json->{y}{smps} } == 3 ) {
-    $config->{graphType} = 'Scatter3D';
-  } elsif ( scalar @{ $json->{y}{smps} } > 3 && scalar @{ $json->{y}{smps} } < 6 ) {
-    $config->{graphType}         = 'Scatter2D';
-    $config->{scatterPlotMatrix} = 1;
-  } elsif ( scalar @{ $json->{y}{vars} } > 20 && scalar @{ $json->{y}{smps} } > 20 ) {
-    $config->{graphType} = 'Heatmap';
+  if ( !$json->{y}{smps} || !$json->{y}{vars} ) {
+    print "$lib -> $ds\n";
+    print "Header:\n";
+    print Dumper( \@header );
+    print "Type:\n";
+    print Dumper($type);
+    print "Data:\n";
+    print Dumper($data);
+    print "Rows:\n";
+    print Dumper( \@rows );
+    print "Numeric = $t\n";
+    print "Sequence = $s\n";
+    print "Unique = $u\n";
+    print "$lib -> $ds\n";
+    exit;
   } else {
-    $config->{graphType} = 'Scatter2D';
+    if ( scalar @{ $json->{y}{smps} } == 1 ) {
+      if ( scalar @{ $json->{y}{vars} } > 20 ) {
+        $config->{graphType} = 'Treemap';
+      } elsif ( scalar @{ $json->{y}{vars} } > 10 ) {
+        $config->{graphType} = 'Pie';
+      } else {
+        $config->{graphType} = 'Bar';
+      }
+    } elsif ( scalar @{ $json->{y}{vars} } == 1 ) {
+      if ( scalar @{ $json->{y}{smps} } > 20 ) {
+        $config->{graphType} = 'Treemap';
+      } elsif ( scalar @{ $json->{y}{smps} } > 10 ) {
+        $config->{graphType} = 'Pie';
+      } else {
+        $config->{graphType} = 'Bar';
+      }
+    } elsif ( scalar @{ $json->{y}{smps} } == 2 ) {
+      $config->{graphType} = 'Scatter2D';
+    } elsif ( scalar @{ $json->{y}{smps} } == 3 ) {
+      $config->{graphType} = 'Scatter3D';
+    } elsif ( scalar @{ $json->{y}{smps} } > 3 && scalar @{ $json->{y}{smps} } < 6 ) {
+      $config->{graphType}         = 'Scatter2D';
+      $config->{scatterPlotMatrix} = 1;
+    } elsif ( scalar @{ $json->{y}{vars} } > 20 && scalar @{ $json->{y}{smps} } > 20 ) {
+      $config->{graphType} = 'Heatmap';
+    } else {
+      $config->{graphType} = 'Scatter2D';
+    }
+    $config->{title}    = $title;
+    $config->{subtitle} = "$lib - $ds";
+
+    if ($after) {
+      $data = {
+        data   => $json,
+        config => $config,
+        after  => $after,
+        info   => $info
+      };
+    } else {
+      $data = {
+        data   => $json,
+        config => $config,
+        info   => $info
+      };
+    }
+
+    mkpath("json/$lib") unless -d "json/$lib";
+
+    open( FILE, ">json/$lib/$ds.json" );
+    print FILE JSON->new->pretty->allow_nonref->encode($data);
+    close FILE;
   }
-  $config->{title}    = $title;
-  $config->{subtitle} = "$lib - $ds";
-
-  if ($after) {
-    $data = {
-      data   => $json,
-      config => $config,
-      after  => $after,
-      info   => $info
-    };
-  } else {
-    $data = {
-      data   => $json,
-      config => $config,
-      info   => $info
-    };
-  }
-
-  mkpath("json/$lib") unless -d "json/$lib";
-
-  open( FILE, ">json/$lib/$ds.json" );
-  print FILE JSON->new->pretty->allow_nonref->encode($data);
-  close FILE;
 
 }

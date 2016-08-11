@@ -8,22 +8,22 @@
    "data" : {
       "y" : {
          "smps" : [
-            "Smp1",
-            "Smp2",
-            "Smp3",
-            "Smp4",
-            "Smp5",
-            "Smp6",
-            "Smp7",
-            "Smp8",
-            "Smp9",
-            "Smp10",
-            "Smp11",
-            "Smp12",
-            "Smp13",
-            "Smp14",
-            "Smp15",
-            "Smp16"
+            "phone",
+            "routine",
+            "illness",
+            "listen",
+            "explain",
+            "respect",
+            "time",
+            "courtesy",
+            "helpful",
+            "happy",
+            "referral",
+            "necessary",
+            "delay",
+            "problem",
+            "help",
+            "paperwork"
          ],
          "data" : [
             [

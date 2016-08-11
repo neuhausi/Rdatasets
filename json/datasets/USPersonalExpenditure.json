@@ -9,11 +9,11 @@
    "data" : {
       "y" : {
          "smps" : [
-            "Smp1",
-            "Smp2",
-            "Smp3",
-            "Smp4",
-            "Smp5"
+            "Food and Tobacco",
+            "Household Operation",
+            "Medical and Health",
+            "Personal Care",
+            "Private Education"
          ],
          "data" : [
             [

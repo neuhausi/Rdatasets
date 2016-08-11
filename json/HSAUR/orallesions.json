@@ -55,14 +55,14 @@
             ]
          ],
          "vars" : [
-            "Var1",
-            "Var2",
-            "Var3",
-            "Var4",
-            "Var5",
-            "Var6",
-            "Var7",
-            "Var8"
+            "Buccal mucosa",
+            "Commissure",
+            "Gingiva",
+            "Hard palate",
+            "Soft palate",
+            "Tongue",
+            "Floor of mouth",
+            "Alveolar ridge"
          ]
       }
    }

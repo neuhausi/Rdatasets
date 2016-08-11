@@ -8,23 +8,23 @@
    "data" : {
       "y" : {
          "smps" : [
-            "Smp1",
-            "Smp2",
-            "Smp3",
-            "Smp4",
-            "Smp5",
-            "Smp6",
-            "Smp7",
-            "Smp8",
-            "Smp9",
-            "Smp10",
-            "Smp11",
-            "Smp12",
-            "Smp13",
-            "Smp14",
-            "Smp15",
-            "Smp16",
-            "Smp17"
+            "First_Names",
+            "Word_Number",
+            "Sentences",
+            "Vocabulary",
+            "Completion",
+            "First_Letters",
+            "Four_letter_words",
+            "Suffixes",
+            "Flags",
+            "Figures",
+            "Cards",
+            "Addition",
+            "Multiplication",
+            "Three_Higher",
+            "Letter_Series",
+            "Pedigrees",
+            "Letter_Grouping"
          ],
          "data" : [
             [

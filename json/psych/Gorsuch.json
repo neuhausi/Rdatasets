@@ -8,16 +8,16 @@
    "data" : {
       "y" : {
          "smps" : [
-            "Smp1",
-            "Smp2",
-            "Smp3",
-            "Smp4",
-            "Smp5",
-            "Smp6",
-            "Smp7",
-            "Smp8",
-            "Smp9",
-            "Smp10"
+            "info",
+            "verbal",
+            "analogies",
+            "ego",
+            "guilt",
+            "tension",
+            "info2",
+            "tension2",
+            "v123",
+            "v564"
          ],
          "data" : [
             [
