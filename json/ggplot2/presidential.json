@@ -1,0 +1,109 @@
+{
+   "info" : "<table width=\"100%\" summary=\"page for presidential\"><tr><td>presidential</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Terms of 10 presidents from Eisenhower to Bush W.</h2>\n<h3>Description</h3>\n<p>The names of each president, the start and end date of their term, and\ntheir party of 10 US presidents from Eisenhower to Bush W.\n</p>\n<h3>Usage</h3>\n<pre>\ndata(presidential)\n</pre>\n<h3>Format</h3>\n<p>A data frame with 10 rows and 4 variables</p>\n",
+   "config" : {
+      "subtitle" : "ggplot2 - presidential",
+      "graphType" : "Bar",
+      "title" : "Terms of 10 presidents from Eisenhower to Bush W."
+   },
+   "data" : {
+      "y" : {
+         "smps" : [
+            "Row"
+         ],
+         "data" : [
+            [
+               1
+            ],
+            [
+               2
+            ],
+            [
+               3
+            ],
+            [
+               4
+            ],
+            [
+               5
+            ],
+            [
+               6
+            ],
+            [
+               7
+            ],
+            [
+               8
+            ],
+            [
+               9
+            ],
+            [
+               10
+            ]
+         ],
+         "vars" : [
+            "Var1",
+            "Var2",
+            "Var3",
+            "Var4",
+            "Var5",
+            "Var6",
+            "Var7",
+            "Var8",
+            "Var9",
+            "Var10"
+         ]
+      },
+      "z" : {
+         "name" : [
+            "Eisenhower",
+            "Kennedy",
+            "Johson",
+            "Nixon",
+            "Ford",
+            "Carter",
+            "Reagan",
+            "Bush",
+            "Clinton",
+            "Bush"
+         ],
+         "party" : [
+            "Republican",
+            "Democratic",
+            "Democratic",
+            "Republican",
+            "Republican",
+            "Democratic",
+            "Republican",
+            "Republican",
+            "Democratic",
+            "Republican"
+         ],
+         "end" : [
+            "1961-01-20",
+            "1963-11-22",
+            "1969-01-20",
+            "1974-08-09",
+            "1977-01-20",
+            "1981-01-20",
+            "1989-01-20",
+            "1993-01-20",
+            "2001-01-20",
+            "2009-01-20"
+         ],
+         "start" : [
+            "1953-01-20",
+            "1961-01-20",
+            "1963-11-22",
+            "1969-01-20",
+            "1974-08-09",
+            "1977-01-20",
+            "1981-01-20",
+            "1989-01-20",
+            "1993-01-20",
+            "2001-01-20"
+         ]
+      }
+   }
+}

@@ -1,0 +1,308 @@
+{
+   "info" : "<table width=\"100%\" summary=\"page for epi\"><tr><td>epi</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Eysenck Personality Inventory (EPI) data for 3570 participants</h2>\n<h3>Description</h3>\n<p>The EPI is and has been a very frequently administered personality test with 57 measuring two broad dimensions, Extraversion-Introversion and Stability-Neuroticism, with an additional Lie scale. Developed by Eysenck and Eysenck, 1964.  Eventually replaced with the EPQ which measures three broad dimensions.  This data set represents 3570 observations collected in the early 1990s at the Personality, Motivation and Cognition lab at Northwestern.  The data are included here as demonstration of scale construction.\n</p>\n<h3>Usage</h3>\n<pre>data(epi)\ndata(epi.dictionary)</pre>\n<h3>Format</h3>\n<p>A data frame with 3570 observations on the following 57 variables.\n</p>\n<dl>\n<dt><code>V1</code></dt><dd><p>a numeric vector</p>\n</dd>\n<dt><code>V2</code></dt><dd><p>a numeric vector</p>\n</dd>\n<dt><code>V3</code></dt><dd><p>a numeric vector</p>\n</dd>\n<dt><code>V4</code></dt><dd><p>a numeric vector</p>\n</dd>\n<dt><code>V5</code></dt><dd><p>a numeric vector</p>\n</dd>\n<dt><code>V6</code></dt><dd><p>a numeric vector</p>\n</dd>\n<dt><code>V7</code></dt><dd><p>a numeric vector</p>\n</dd>\n<dt><code>V8</code></dt><dd><p>a numeric vector</p>\n</dd>\n<dt><code>V9</code></dt><dd><p>a numeric vector</p>\n</dd>\n<dt><code>V10</code></dt><dd><p>a numeric vector</p>\n</dd>\n<dt><code>V11</code></dt><dd><p>a numeric vector</p>\n</dd>\n<dt><code>V12</code></dt><dd><p>a numeric vector</p>\n</dd>\n<dt><code>V13</code></dt><dd><p>a numeric vector</p>\n</dd>\n<dt><code>V14</code></dt><dd><p>a numeric vector</p>\n</dd>\n<dt><code>V15</code></dt><dd><p>a numeric vector</p>\n</dd>\n<dt><code>V16</code></dt><dd><p>a numeric vector</p>\n</dd>\n<dt><code>V17</code></dt><dd><p>a numeric vector</p>\n</dd>\n<dt><code>V18</code></dt><dd><p>a numeric vector</p>\n</dd>\n<dt><code>V19</code></dt><dd><p>a numeric vector</p>\n</dd>\n<dt><code>V20</code></dt><dd><p>a numeric vector</p>\n</dd>\n<dt><code>V21</code></dt><dd><p>a numeric vector</p>\n</dd>\n<dt><code>V22</code></dt><dd><p>a numeric vector</p>\n</dd>\n<dt><code>V23</code></dt><dd><p>a numeric vector</p>\n</dd>\n<dt><code>V24</code></dt><dd><p>a numeric vector</p>\n</dd>\n<dt><code>V25</code></dt><dd><p>a numeric vector</p>\n</dd>\n<dt><code>V26</code></dt><dd><p>a numeric vector</p>\n</dd>\n<dt><code>V27</code></dt><dd><p>a numeric vector</p>\n</dd>\n<dt><code>V28</code></dt><dd><p>a numeric vector</p>\n</dd>\n<dt><code>V29</code></dt><dd><p>a numeric vector</p>\n</dd>\n<dt><code>V30</code></dt><dd><p>a numeric vector</p>\n</dd>\n<dt><code>V31</code></dt><dd><p>a numeric vector</p>\n</dd>\n<dt><code>V32</code></dt><dd><p>a numeric vector</p>\n</dd>\n<dt><code>V33</code></dt><dd><p>a numeric vector</p>\n</dd>\n<dt><code>V34</code></dt><dd><p>a numeric vector</p>\n</dd>\n<dt><code>V35</code></dt><dd><p>a numeric vector</p>\n</dd>\n<dt><code>V36</code></dt><dd><p>a numeric vector</p>\n</dd>\n<dt><code>V37</code></dt><dd><p>a numeric vector</p>\n</dd>\n<dt><code>V38</code></dt><dd><p>a numeric vector</p>\n</dd>\n<dt><code>V39</code></dt><dd><p>a numeric vector</p>\n</dd>\n<dt><code>V40</code></dt><dd><p>a numeric vector</p>\n</dd>\n<dt><code>V41</code></dt><dd><p>a numeric vector</p>\n</dd>\n<dt><code>V42</code></dt><dd><p>a numeric vector</p>\n</dd>\n<dt><code>V43</code></dt><dd><p>a numeric vector</p>\n</dd>\n<dt><code>V44</code></dt><dd><p>a numeric vector</p>\n</dd>\n<dt><code>V45</code></dt><dd><p>a numeric vector</p>\n</dd>\n<dt><code>V46</code></dt><dd><p>a numeric vector</p>\n</dd>\n<dt><code>V47</code></dt><dd><p>a numeric vector</p>\n</dd>\n<dt><code>V48</code></dt><dd><p>a numeric vector</p>\n</dd>\n<dt><code>V49</code></dt><dd><p>a numeric vector</p>\n</dd>\n<dt><code>V50</code></dt><dd><p>a numeric vector</p>\n</dd>\n<dt><code>V51</code></dt><dd><p>a numeric vector</p>\n</dd>\n<dt><code>V52</code></dt><dd><p>a numeric vector</p>\n</dd>\n<dt><code>V53</code></dt><dd><p>a numeric vector</p>\n</dd>\n<dt><code>V54</code></dt><dd><p>a numeric vector</p>\n</dd>\n<dt><code>V55</code></dt><dd><p>a numeric vector</p>\n</dd>\n<dt><code>V56</code></dt><dd><p>a numeric vector</p>\n</dd>\n<dt><code>V57</code></dt><dd><p>a numeric vector</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>The original data were collected in a group testing framework for screening participants for subsequent studies.  The participants were enrolled in an introductory psychology class between Fall, 1991 and Spring, 1995. \n</p>\n<p>The structure of the E scale has been shown by  Rocklin and Revelle (1981) to have two subcomponents, Impulsivity and Sociability. These were subsequently used by Revelle, Humphreys, Simon and Gilliland to examine the relationship between personality, caffeine induced arousal, and cognitive performance. \n</p>\n<h3>Source</h3>\n<p>Data from the PMC laboratory at Northwestern.  \n</p>\n<h3>References</h3>\n<p>Eysenck, H.J. and Eysenck, S. B.G. (1968). Manual for the Eysenck Personality Inventory.Educational and Industrial Testing Service, San Diego, CA.\n</p>\n<p>Rocklin, T. and Revelle, W. (1981). The measurement of extraversion: A comparison of the Eysenck Personality Inventory and the Eysenck Personality Questionnaire.  British Journal of Social Psychology, 20(4):279-284.\n</p>\n<h3>Examples</h3>\n<pre>\ndata(epi)\nepi.keys &lt;- make.keys(epi,list(E = c(1, 3, -5, 8, 10, 13, -15, 17, -20, 22, 25, 27,\n                -29, -32, -34, -37, 39, -41, 44, 46, 49, -51, 53, 56),\n   N=c(2, 4, 7, 9, 11, 14, 16, 19, 21, 23, 26, 28, 31, 33, 35, 38, 40,\n     43, 45, 47, 50, 52, 55, 57),\n   L = c(6, -12, -18, 24, -30, 36, -42, -48, -54),\n   I =c(1, 3, -5, 8, 10, 13, 22, 39, -41), \n   S = c(-11, -15, 17, -20, 25, 27, -29, -32, -37, 44, 46, -51, 53)))\nscores &lt;- scoreItems(epi.keys,epi)\n  N &lt;- epi[abs(epi.keys[,\"N\"]) &gt;0]\n  E &lt;- epi[abs(epi.keys[,\"E\"]) &gt;0]\n  fa.lookup(epi.keys[,1:3],epi.dictionary) #show the items and keying information\n</pre>\n",
+   "config" : {
+      "subtitle" : "psych - epi.dictionary",
+      "graphType" : "Treemap",
+      "title" : "Eysenck Personality Inventory (EPI) data for 3570 participants"
+   },
+   "data" : {
+      "y" : {
+         "smps" : [
+            "Row"
+         ],
+         "data" : [
+            [
+               1
+            ],
+            [
+               2
+            ],
+            [
+               3
+            ],
+            [
+               4
+            ],
+            [
+               5
+            ],
+            [
+               0
+            ],
+            [
+               7
+            ],
+            [
+               8
+            ],
+            [
+               9
+            ],
+            [
+               10
+            ],
+            [
+               11
+            ],
+            [
+               12
+            ],
+            [
+               13
+            ],
+            [
+               14
+            ],
+            [
+               15
+            ],
+            [
+               16
+            ],
+            [
+               17
+            ],
+            [
+               18
+            ],
+            [
+               19
+            ],
+            [
+               20
+            ],
+            [
+               21
+            ],
+            [
+               22
+            ],
+            [
+               23
+            ],
+            [
+               24
+            ],
+            [
+               25
+            ],
+            [
+               26
+            ],
+            [
+               27
+            ],
+            [
+               0
+            ],
+            [
+               29
+            ],
+            [
+               30
+            ],
+            [
+               31
+            ],
+            [
+               0
+            ],
+            [
+               33
+            ],
+            [
+               34
+            ],
+            [
+               35
+            ],
+            [
+               0
+            ],
+            [
+               37
+            ],
+            [
+               38
+            ],
+            [
+               39
+            ],
+            [
+               40
+            ],
+            [
+               41
+            ],
+            [
+               42
+            ],
+            [
+               43
+            ],
+            [
+               44
+            ],
+            [
+               45
+            ],
+            [
+               46
+            ],
+            [
+               47
+            ],
+            [
+               0
+            ],
+            [
+               49
+            ],
+            [
+               50
+            ],
+            [
+               51
+            ],
+            [
+               52
+            ],
+            [
+               53
+            ],
+            [
+               54
+            ],
+            [
+               55
+            ],
+            [
+               56
+            ],
+            [
+               57
+            ]
+         ],
+         "vars" : [
+            "V1",
+            "V2",
+            "V3",
+            "V4",
+            "V5",
+            "V6",
+            "V7",
+            "V8",
+            "V9",
+            "V10",
+            "V11",
+            "V12",
+            "V13",
+            "V14",
+            "V15",
+            "V16",
+            "V17",
+            "V18",
+            "V19",
+            "V20",
+            "V21",
+            "V22",
+            "V23",
+            "V24",
+            "V25",
+            "V26",
+            "V27",
+            "V28",
+            "V29",
+            "V30",
+            "V31",
+            "V32",
+            "V33",
+            "V34",
+            "V35",
+            "V36",
+            "V37",
+            "V38",
+            "V39",
+            "V40",
+            "V41",
+            "V42",
+            "V43",
+            "V44",
+            "V45",
+            "V46",
+            "V47",
+            "V48",
+            "V49",
+            "V50",
+            "V51",
+            "V52",
+            "V53",
+            "V54",
+            "V55",
+            "V56",
+            "V57"
+         ]
+      },
+      "z" : {
+         "Content" : [
+            "Do you often long for excitement?",
+            "Do you often need understanding friends to cheer you up?",
+            "Are you usually carefree?",
+            "Do you find it very hard to take no for an answer?",
+            "Do you stop and think things over before doing anything?",
+            "If you say you will do something do you always keep your promise",
+            "Do your moods go up and down?",
+            "Do you generally do and say things quickly without stopping to think?",
+            "Do you ever feel just miserable for no good reason?",
+            "Would you do almost anything for a dare?",
+            "Do you suddenly feel shy when you want to talk to an attractive stranger?",
+            "Once in a while do you lose your temper and get angry?",
+            "Do you often do things on the spur of the moment?",
+            "Do you often worry about things you should have done or said?",
+            "Generally do you prefer reading to meeting people?",
+            "Are your feelings rather easily hurt?",
+            "Do you like going out a lot?",
+            "Do you occasionally have thoughts and ideas that you would not like otherpeople to know about?",
+            "Are you sometimes bubbling over with energy and sometimes very sluggish?",
+            "Do you prefer to have few but special friends?",
+            "Do you daydream a lot?",
+            "When people shout at you do you shout back?",
+            "Are you often troubled about feelings of guilt?",
+            "Are all your habits good and desirable ones?",
+            "Can you usually let yourself go and enjoy yourself a lot at a lively party?",
+            "Would you call yourself tense or highly strung?",
+            "Do other people think of you as being very lively?",
+            "After you have done something important",
+            "Are you mostly quiet when you are with other people?",
+            "Do you sometimes gossip?",
+            "Do ideas run through your head so that you cannot sleep?",
+            "If there is something you want to know about",
+            "Do you get palpitations or thumping in your hear?",
+            "Do you like the kind of work that you need to pay close attention to?",
+            "Do you get attacks of shaking or trembling?",
+            "Would you always declare everything at customs",
+            "Do you hate being with a crowd who play jokes on one another?",
+            "Are you an irritable person?",
+            "Do you like doing things in which you have to act quickly?",
+            "Do you worry about awful things that might happen?",
+            "Are you slow and unhurried in the way you move?",
+            "Have you ever been late for an appointment or work?",
+            "Do you have many nightmares?",
+            "Do you like talking to people so much that you never miss a chance of talking to a stranger?",
+            "Are you troubled by aches and pains?",
+            "Would you be very unhappy if you could not see lots of people most of the time?",
+            "Would you call yourself a nervous person?",
+            "Of all the people you know",
+            "Would you say that you were fairly self-confident?",
+            "Are you easily hurt when people find fault with you or your work?",
+            "Do you find it hard to really enjoy yourself at a lively party?",
+            "Are you troubled by feelings of inferiority?",
+            "Can you easily get some life into a dull party?",
+            "Do you sometimes talk about things you know nothing about?",
+            "Do you worry about your health?",
+            "Do you like playing pranks on others?",
+            "Do you suffer from sleeplessness?"
+         ]
+      }
+   }
+}

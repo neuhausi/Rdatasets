@@ -86,7 +86,7 @@ sub create_json {
 
   my ( $lib, $ds, $title ) = @_;
 
-  my ( @header, $i, $ii, $j, @line, $data, $unique, @rows, $json, $type, $config, $after, $t, $s, $n, $u, $info );
+  my ( @header, $i, $ii, $j, @line, $data, $unique, @rows, $json, $type, $config, $after, $t, $s, $n, $u, $c, $info, @keys );
 
   my $csv = "csv/$lib/$ds.csv";
   my $doc = "doc/$lib/$ds.html";
@@ -116,6 +116,7 @@ sub create_json {
   return unless $n;
 
   $t = 0;
+  $c = 0;
   ## Find Types
   for ( $i = 0 ; $i < scalar @header ; $i++ ) {
     $type->[$i] = 'Numeric';
@@ -128,6 +129,7 @@ sub create_json {
       }
     }
     $t++ if $type->[$i] eq 'Numeric';
+    $c++ if $type->[$i] eq 'String';
   }
 
   ## Check if first column is just a sequence
@@ -180,7 +182,7 @@ sub create_json {
   close FILE;
 
   ## Create Object
-  if ( $t > 3 ) {
+  if ( $t > 3 || $t == 1) {
     if ( @rows && scalar @rows == scalar @$data ) {
       @{ $json->{y}{smps} } = @rows;
     } else {
@@ -251,7 +253,19 @@ sub create_json {
         $config->{graphType} = 'Bar';
       }
     } elsif ( scalar @{ $json->{y}{vars} } == 1 ) {
-      if ( scalar @{ $json->{y}{smps} } > 20 ) {
+      if ($json->{x}) {
+        @keys = keys %{$json->{x}};
+        if (scalar @keys == 1) {
+          $config->{graphType} = 'Boxplot';
+          $config->{groupingFactors} = [$keys[0]];
+        } elsif (scalar @keys == 2) {
+          $config->{graphType} = 'Bar';
+          $config->{segregateSamplesBy} = [$keys[0], $keys[1]];          
+        } else {
+          $config->{graphType} = 'Boxplot';
+          $config->{groupingFactors} = [$keys[0]];          
+        }
+      } elsif ( scalar @{ $json->{y}{smps} } > 20 ) {
         $config->{graphType} = 'Treemap';
       } elsif ( scalar @{ $json->{y}{smps} } > 10 ) {
         $config->{graphType} = 'Pie';

@@ -1,0 +1,259 @@
+{
+   "info" : "<table width=\"100%\" summary=\"page for madmen\"><tr><td>madmen</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Successful sexual relations in Mad Men (TV show)</h2>\n<h3>Description</h3>\n<p>Each row of this data frame represents a pair of\ncharacters who had a sexual relationship on the TV show\nMad Men, as of the end of season 4. This data can be\ndisplayed with an undirected graph.\n</p>\n<h3>Variables</h3>\n<p>The placement of names in column Name1 as opposed to\nName2 is arbitrary, and not meaningful. In other words,\nfor any row, you can swap the values of Name1 and Name2,\nand it will represent the same information.\n</p>\n <ul>\n<li><p> Name1: Name of one sexual partner.  </p>\n</li>\n<li>\n<p>Name2: Name of another sexual partner. </p>\n</li></ul>\n<h3>Source</h3>\n<p>Wired Magazine 20.02, February 2012\n</p>\n<h3>See Also</h3>\n<p>For a list of attempted sexual pairings, see\n<code>madmen2</code>.\n</p>\n",
+   "config" : {
+      "subtitle" : "gcookbook - madmen",
+      "graphType" : "Treemap",
+      "title" : "Successful sexual relations in Mad Men (TV show)"
+   },
+   "data" : {
+      "y" : {
+         "smps" : [
+            "Row"
+         ],
+         "data" : [
+            [
+               1
+            ],
+            [
+               2
+            ],
+            [
+               3
+            ],
+            [
+               4
+            ],
+            [
+               5
+            ],
+            [
+               6
+            ],
+            [
+               7
+            ],
+            [
+               8
+            ],
+            [
+               9
+            ],
+            [
+               10
+            ],
+            [
+               11
+            ],
+            [
+               12
+            ],
+            [
+               13
+            ],
+            [
+               14
+            ],
+            [
+               15
+            ],
+            [
+               16
+            ],
+            [
+               17
+            ],
+            [
+               18
+            ],
+            [
+               19
+            ],
+            [
+               20
+            ],
+            [
+               21
+            ],
+            [
+               22
+            ],
+            [
+               23
+            ],
+            [
+               24
+            ],
+            [
+               25
+            ],
+            [
+               26
+            ],
+            [
+               27
+            ],
+            [
+               28
+            ],
+            [
+               29
+            ],
+            [
+               30
+            ],
+            [
+               31
+            ],
+            [
+               32
+            ],
+            [
+               33
+            ],
+            [
+               34
+            ],
+            [
+               35
+            ],
+            [
+               36
+            ],
+            [
+               37
+            ],
+            [
+               38
+            ],
+            [
+               39
+            ]
+         ],
+         "vars" : [
+            "Var1",
+            "Var2",
+            "Var3",
+            "Var4",
+            "Var5",
+            "Var6",
+            "Var7",
+            "Var8",
+            "Var9",
+            "Var10",
+            "Var11",
+            "Var12",
+            "Var13",
+            "Var14",
+            "Var15",
+            "Var16",
+            "Var17",
+            "Var18",
+            "Var19",
+            "Var20",
+            "Var21",
+            "Var22",
+            "Var23",
+            "Var24",
+            "Var25",
+            "Var26",
+            "Var27",
+            "Var28",
+            "Var29",
+            "Var30",
+            "Var31",
+            "Var32",
+            "Var33",
+            "Var34",
+            "Var35",
+            "Var36",
+            "Var37",
+            "Var38",
+            "Var39"
+         ]
+      },
+      "z" : {
+         "Name1" : [
+            "Betty Draper",
+            "Betty Draper",
+            "Don Draper",
+            "Don Draper",
+            "Don Draper",
+            "Don Draper",
+            "Don Draper",
+            "Don Draper",
+            "Don Draper",
+            "Don Draper",
+            "Don Draper",
+            "Don Draper",
+            "Don Draper",
+            "Don Draper",
+            "Don Draper",
+            "Don Draper",
+            "Harry Crane",
+            "Harry Crane",
+            "Joan Holloway",
+            "Joan Holloway",
+            "Joan Holloway",
+            "Lane Pryce",
+            "Lane Pryce",
+            "Lane Pryce",
+            "Peggy Olson",
+            "Peggy Olson",
+            "Peggy Olson",
+            "Peggy Olson",
+            "Peggy Olson",
+            "Pete Campbell",
+            "Pete Campbell",
+            "Pete Campbell",
+            "Roger Sterling",
+            "Roger Sterling",
+            "Roger Sterling",
+            "Roger Sterling",
+            "Roger Sterling",
+            "Sal Romano",
+            "Sal Romano"
+         ],
+         "Name2" : [
+            "Henry Francis",
+            "Random guy",
+            "Allison",
+            "Bethany Van Nuys",
+            "Betty Draper",
+            "Bobbie Barrett",
+            "Candace",
+            "Doris",
+            "Faye Miller",
+            "Joy",
+            "Megan Calvet",
+            "Midge Daniels",
+            "Rachel Menken",
+            "Shelly",
+            "Suzanne Farrell",
+            "Woman at the Clios party",
+            "Hildy",
+            "Jennifer Crane",
+            "Franklin",
+            "Greg Harris",
+            "Roger Sterling",
+            "Janine",
+            "Rebecca Pryce",
+            "Toni",
+            "Abe Drexler",
+            "Brooklyn College Student",
+            "Duck Phillips",
+            "Mark",
+            "Pete Campbell",
+            "Gudrun",
+            "Playtex bra model",
+            "Trudy Campbell",
+            "Ida Blankenship",
+            "Jane Siegel",
+            "Mirabelle Ames",
+            "Mona Sterling",
+            "Vicky",
+            "Bellhop in Baltimore",
+            "Kitty Romano"
+         ]
+      }
+   }
+}

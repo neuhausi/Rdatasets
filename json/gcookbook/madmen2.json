@@ -1,0 +1,547 @@
+{
+   "info" : "<table width=\"100%\" summary=\"page for madmen2\"><tr><td>madmen2</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Attempted sexual relations in Mad Men (TV show)</h2>\n<h3>Description</h3>\n<p>Each row of this data frame represents a pair of\ncharacters on the TV show Mad Men, as of the end of\nseason 4. Each row represents an attempted sexual\nrelation: the character in the first column, Name1,\nattempted to have sex with the character in the second\ncolumn, Name2. If the relationship goes in both\ndirections (the characters had sex with each other), then\nthere will be two rows, representing each direction. This\ndata can be displayed with a directed graph.\n</p>\n<h3>Variables</h3>\n <ul>\n<li><p> Name1: Character who made sexual\nadvances.  </p>\n</li>\n<li><p> Name2: Character who was the target of\nsexual advances. </p>\n</li></ul>\n<h3>Source</h3>\n<p>Wired Magazine 20.02, February 2012\n</p>\n<h3>See Also</h3>\n<p>For a list of successful sexual pairings, see\n<code>madmen</code>.\n</p>\n",
+   "config" : {
+      "subtitle" : "gcookbook - madmen2",
+      "graphType" : "Treemap",
+      "title" : "Attempted sexual relations in Mad Men (TV show)"
+   },
+   "data" : {
+      "y" : {
+         "smps" : [
+            "Row"
+         ],
+         "data" : [
+            [
+               1
+            ],
+            [
+               2
+            ],
+            [
+               3
+            ],
+            [
+               4
+            ],
+            [
+               5
+            ],
+            [
+               6
+            ],
+            [
+               7
+            ],
+            [
+               8
+            ],
+            [
+               9
+            ],
+            [
+               10
+            ],
+            [
+               11
+            ],
+            [
+               12
+            ],
+            [
+               13
+            ],
+            [
+               14
+            ],
+            [
+               15
+            ],
+            [
+               16
+            ],
+            [
+               17
+            ],
+            [
+               18
+            ],
+            [
+               19
+            ],
+            [
+               20
+            ],
+            [
+               21
+            ],
+            [
+               22
+            ],
+            [
+               23
+            ],
+            [
+               24
+            ],
+            [
+               25
+            ],
+            [
+               26
+            ],
+            [
+               27
+            ],
+            [
+               28
+            ],
+            [
+               29
+            ],
+            [
+               30
+            ],
+            [
+               31
+            ],
+            [
+               32
+            ],
+            [
+               33
+            ],
+            [
+               34
+            ],
+            [
+               35
+            ],
+            [
+               36
+            ],
+            [
+               37
+            ],
+            [
+               38
+            ],
+            [
+               39
+            ],
+            [
+               40
+            ],
+            [
+               41
+            ],
+            [
+               42
+            ],
+            [
+               43
+            ],
+            [
+               44
+            ],
+            [
+               45
+            ],
+            [
+               46
+            ],
+            [
+               47
+            ],
+            [
+               48
+            ],
+            [
+               49
+            ],
+            [
+               50
+            ],
+            [
+               51
+            ],
+            [
+               52
+            ],
+            [
+               53
+            ],
+            [
+               54
+            ],
+            [
+               55
+            ],
+            [
+               56
+            ],
+            [
+               57
+            ],
+            [
+               58
+            ],
+            [
+               59
+            ],
+            [
+               60
+            ],
+            [
+               61
+            ],
+            [
+               62
+            ],
+            [
+               63
+            ],
+            [
+               64
+            ],
+            [
+               65
+            ],
+            [
+               66
+            ],
+            [
+               67
+            ],
+            [
+               68
+            ],
+            [
+               69
+            ],
+            [
+               70
+            ],
+            [
+               71
+            ],
+            [
+               72
+            ],
+            [
+               73
+            ],
+            [
+               74
+            ],
+            [
+               75
+            ],
+            [
+               76
+            ],
+            [
+               77
+            ],
+            [
+               78
+            ],
+            [
+               79
+            ],
+            [
+               80
+            ],
+            [
+               81
+            ],
+            [
+               82
+            ],
+            [
+               83
+            ],
+            [
+               84
+            ],
+            [
+               85
+            ],
+            [
+               86
+            ],
+            [
+               87
+            ]
+         ],
+         "vars" : [
+            "Var1",
+            "Var2",
+            "Var3",
+            "Var4",
+            "Var5",
+            "Var6",
+            "Var7",
+            "Var8",
+            "Var9",
+            "Var10",
+            "Var11",
+            "Var12",
+            "Var13",
+            "Var14",
+            "Var15",
+            "Var16",
+            "Var17",
+            "Var18",
+            "Var19",
+            "Var20",
+            "Var21",
+            "Var22",
+            "Var23",
+            "Var24",
+            "Var25",
+            "Var26",
+            "Var27",
+            "Var28",
+            "Var29",
+            "Var30",
+            "Var31",
+            "Var32",
+            "Var33",
+            "Var34",
+            "Var35",
+            "Var36",
+            "Var37",
+            "Var38",
+            "Var39",
+            "Var40",
+            "Var41",
+            "Var42",
+            "Var43",
+            "Var44",
+            "Var45",
+            "Var46",
+            "Var47",
+            "Var48",
+            "Var49",
+            "Var50",
+            "Var51",
+            "Var52",
+            "Var53",
+            "Var54",
+            "Var55",
+            "Var56",
+            "Var57",
+            "Var58",
+            "Var59",
+            "Var60",
+            "Var61",
+            "Var62",
+            "Var63",
+            "Var64",
+            "Var65",
+            "Var66",
+            "Var67",
+            "Var68",
+            "Var69",
+            "Var70",
+            "Var71",
+            "Var72",
+            "Var73",
+            "Var74",
+            "Var75",
+            "Var76",
+            "Var77",
+            "Var78",
+            "Var79",
+            "Var80",
+            "Var81",
+            "Var82",
+            "Var83",
+            "Var84",
+            "Var85",
+            "Var86",
+            "Var87"
+         ]
+      },
+      "z" : {
+         "Name1" : [
+            "Abe Drexler",
+            "Allison",
+            "Arthur Case",
+            "Bellhop in Baltimore",
+            "Bethany Van Nuys",
+            "Betty Draper",
+            "Betty Draper",
+            "Betty Draper",
+            "Bobbie Barrett",
+            "Brooklyn College Student",
+            "Candace",
+            "Don Draper",
+            "Don Draper",
+            "Don Draper",
+            "Don Draper",
+            "Don Draper",
+            "Don Draper",
+            "Don Draper",
+            "Don Draper",
+            "Don Draper",
+            "Don Draper",
+            "Don Draper",
+            "Don Draper",
+            "Don Draper",
+            "Don Draper",
+            "Doris",
+            "Duck Phillips",
+            "Elliot",
+            "Faye Miller",
+            "Franklin",
+            "Greg Harris",
+            "Gudrun",
+            "Harry Crane",
+            "Harry Crane",
+            "Henry Francis",
+            "Hildy",
+            "Ida Blankenship",
+            "Jane Siegel",
+            "Janine",
+            "Jennifer Crane",
+            "Joan Holloway",
+            "Joan Holloway",
+            "Joan Holloway",
+            "Joy",
+            "Joyce Ramsay",
+            "Kitty Romano",
+            "Lane Pryce",
+            "Lane Pryce",
+            "Lane Pryce",
+            "Lee Garner Jr.",
+            "Mark",
+            "Megan Calvet",
+            "Midge Daniels",
+            "Mirabelle Ames",
+            "Mona Sterling",
+            "Paul Kinsey",
+            "Peggy Olson",
+            "Peggy Olson",
+            "Peggy Olson",
+            "Peggy Olson",
+            "Peggy Olson",
+            "Peggy Olson",
+            "Pete Campbell",
+            "Pete Campbell",
+            "Pete Campbell",
+            "Pete Campbell",
+            "Playtex bra model",
+            "Rachel Menken",
+            "Random guy",
+            "Rebecca Pryce",
+            "Roger Sterling",
+            "Roger Sterling",
+            "Roger Sterling",
+            "Roger Sterling",
+            "Roger Sterling",
+            "Roger Sterling",
+            "Roger Sterling",
+            "Sal Romano",
+            "Sal Romano",
+            "Shelly",
+            "Stan Rizzo",
+            "Suzanne Farrell",
+            "Toni",
+            "Trudy Campbell",
+            "Vicky",
+            "Waitress",
+            "Woman at the Clios party"
+         ],
+         "Name2" : [
+            "Peggy Olson",
+            "Don Draper",
+            "Betty Draper",
+            "Sal Romano",
+            "Don Draper",
+            "Don Draper",
+            "Henry Francis",
+            "Random guy",
+            "Don Draper",
+            "Peggy Olson",
+            "Don Draper",
+            "Allison",
+            "Bethany Van Nuys",
+            "Betty Draper",
+            "Bobbie Barrett",
+            "Candace",
+            "Doris",
+            "Faye Miller",
+            "Joy",
+            "Megan Calvet",
+            "Midge Daniels",
+            "Rachel Menken",
+            "Shelly",
+            "Suzanne Farrell",
+            "Woman at the Clios party",
+            "Don Draper",
+            "Peggy Olson",
+            "Sal Romano",
+            "Don Draper",
+            "Joan Holloway",
+            "Joan Holloway",
+            "Pete Campbell",
+            "Hildy",
+            "Jennifer Crane",
+            "Betty Draper",
+            "Harry Crane",
+            "Roger Sterling",
+            "Roger Sterling",
+            "Lane Pryce",
+            "Harry Crane",
+            "Franklin",
+            "Greg Harris",
+            "Roger Sterling",
+            "Don Draper",
+            "Peggy Olson",
+            "Sal Romano",
+            "Janine",
+            "Rebecca Pryce",
+            "Toni",
+            "Sal Romano",
+            "Peggy Olson",
+            "Don Draper",
+            "Don Draper",
+            "Roger Sterling",
+            "Roger Sterling",
+            "Peggy Olson",
+            "Abe Drexler",
+            "Brooklyn College Student",
+            "Don Draper",
+            "Duck Phillips",
+            "Mark",
+            "Pete Campbell",
+            "Gudrun",
+            "Peggy Olson",
+            "Playtex bra model",
+            "Trudy Campbell",
+            "Pete Campbell",
+            "Don Draper",
+            "Betty Draper",
+            "Lane Pryce",
+            "Betty Draper",
+            "Ida Blankenship",
+            "Jane Siegel",
+            "Joan Holloway",
+            "Mirabelle Ames",
+            "Mona Sterling",
+            "Vicky",
+            "Bellhop in Baltimore",
+            "Kitty Romano",
+            "Don Draper",
+            "Peggy Olson",
+            "Don Draper",
+            "Lane Pryce",
+            "Pete Campbell",
+            "Roger Sterling",
+            "Don Draper",
+            "Don Draper"
+         ]
+      }
+   }
+}

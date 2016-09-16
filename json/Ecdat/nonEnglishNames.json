@@ -1,0 +1,91 @@
+{
+   "info" : "<table width=\"100%\" summary=\"page for nonEnglishNames\"><tr><td>nonEnglishNames</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>\nNames with Character Set Problems\n</h2>\n<h3>Description</h3>\n<p>A <code>data.frame</code> describing names containing character codes\nrare or non-existent in standard English text, e.g., with various\naccent marks that may not be coded consistenty in different locales or\nby different software.\n</p>\n<h3>Usage</h3>\n<pre>data(nonEnglishNames)</pre>\n<h3>Format</h3>\n<p>A <code>data.frame</code> with two columns:\n</p>\n<dl>\n<dt>nonEnglish</dt><dd>\n<p>a character vector containing names that often have non-standard\ncharacters with the non-standard characters replaced by &quot;_&quot;\n</p>\n</dd>\n<dt>English</dt><dd>\n<p>a character vector containing a standard English-character\ntranslation of <code>nonEnglish</code>\n</p>\n</dd>\n</dl>\n<h3>See Also</h3>\n<p><code>grepNonStandardCharacters</code>,\n<code>subNonStandardCharacters</code>\n</p>\n<h3>Examples</h3>\n<pre>\ndata(nonEnglishNames)\nall.equal(ncol(nonEnglishNames), 2)\n</pre>\n",
+   "config" : {
+      "subtitle" : "Ecdat - nonEnglishNames",
+      "graphType" : "Pie",
+      "title" : "Names with Character Set Problems"
+   },
+   "data" : {
+      "y" : {
+         "smps" : [
+            "Row"
+         ],
+         "data" : [
+            [
+               1
+            ],
+            [
+               2
+            ],
+            [
+               3
+            ],
+            [
+               4
+            ],
+            [
+               5
+            ],
+            [
+               6
+            ],
+            [
+               7
+            ],
+            [
+               8
+            ],
+            [
+               9
+            ],
+            [
+               10
+            ],
+            [
+               11
+            ]
+         ],
+         "vars" : [
+            "Var1",
+            "Var2",
+            "Var3",
+            "Var4",
+            "Var5",
+            "Var6",
+            "Var7",
+            "Var8",
+            "Var9",
+            "Var10",
+            "Var11"
+         ]
+      },
+      "z" : {
+         "English" : [
+            "Andre",
+            "Cardenas",
+            "Cuellar",
+            "Gutierrez",
+            "Jose",
+            "Lujan",
+            "Menendez",
+            "Raul",
+            "Ruben",
+            "Sanchez",
+            "Velazquez"
+         ],
+         "nonEnglish" : [
+            "Andr_",
+            "C_rdenas",
+            "Cu_llar",
+            "Guti_rrez",
+            "Jos_",
+            "Luj_n",
+            "Men_ndez",
+            "Ra_l",
+            "Rub_n",
+            "S_nchez",
+            "Vel_zquez"
+         ]
+      }
+   }
+}

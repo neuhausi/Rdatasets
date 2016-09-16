@@ -1,0 +1,37 @@
+{
+   "info" : "<table width=\"100%\" summary=\"page for MatchIt.url\"><tr><td>MatchIt.url</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Table of links for Zelig</h2>\n<h3>Description</h3>\n<p>Table of linds for <code>help.zelig</code> for the companion MatchIt package.  \n</p>\n",
+   "config" : {
+      "subtitle" : "Zelig - MatchIt.url",
+      "graphType" : "Bar",
+      "title" : "Table of links for Zelig"
+   },
+   "data" : {
+      "y" : {
+         "smps" : [
+            "Row"
+         ],
+         "data" : [
+            [
+               1
+            ],
+            [
+               2
+            ]
+         ],
+         "vars" : [
+            "Var1",
+            "Var2"
+         ]
+      },
+      "z" : {
+         "MatchIt" : [
+            "matchit",
+            "match.data"
+         ],
+         "http...gking.harvard.edu.matchit" : [
+            "http://gking.harvard.edu/matchit/docs/_TT_matchit_TT__Implem.html",
+            "http://gking.harvard.edu/matchit/docs/_TT_match_data_TT__Ext.html"
+         ]
+      }
+   }
+}
