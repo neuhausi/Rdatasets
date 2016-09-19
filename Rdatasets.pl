@@ -86,7 +86,7 @@ sub create_json {
 
   my ( $lib, $ds, $title ) = @_;
 
-  my ( @header, $i, $ii, $j, @line, $data, $unique, @rows, $json, $type, $config, $after, $t, $s, $n, $u, $c, $info, @keys );
+  my ( @header, $i, $ii, $j, @line, $data, $unique, @rows, $json, $type, $config, $after, $t, $s, $n, $u, $c, $info, @keys, $ts );
 
   my $csv = "csv/$lib/$ds.csv";
   my $doc = "doc/$lib/$ds.html";
@@ -182,6 +182,34 @@ sub create_json {
   close FILE;
 
   ## Create Object
+  if ($t == 1) {
+    if ($c) {
+      $config->{graphType} = 'Boxplot';              
+    } else {
+      if (scalar @$data > 20) {
+        $config->{graphType} = 'Treemap';
+        $ts++;
+      } else {
+        $config->{graphType} = 'Bar';        
+      }
+    } 
+  } elsif ($t == 2) {
+    $config->{graphType} = 'Scatter2D';    
+    $ts++;
+  } elsif ($t == 3) {
+    $config->{graphType} = 'Scatter3D';
+    $ts++;
+  } elsif ( $t > 3 && $t < 6 ) {
+    $config->{graphType}         = 'Scatter2D';
+    $config->{scatterPlotMatrix} = 1;
+    $ts++;
+  } elsif ( $t > 10 && scalar @$data > 10 ) {
+    $config->{graphType} = 'Heatmap';
+  } else {
+    $config->{graphType} = 'Scatter2D';    
+    $ts++;
+  }
+
   if ( $t > 3 || $t == 1) {
     if ( @rows && scalar @rows == scalar @$data ) {
       @{ $json->{y}{smps} } = @rows;
