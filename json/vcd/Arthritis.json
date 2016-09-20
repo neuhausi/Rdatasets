@@ -1,8 +1,11 @@
 {
    "info" : "<table width=\"100%\" summary=\"page for Arthritis\"><tr><td>Arthritis</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Arthritis Treatment Data</h2>\n<h3>Description</h3>\n<p>Data from Koch \\&amp; Edwards (1988) from a double-blind clinical trial\ninvestigating a new treatment for rheumatoid arthritis.\n</p>\n<h3>Usage</h3>\n<pre>data(\"Arthritis\")</pre>\n<h3>Format</h3>\n<p>A data frame with 84 observations and 5 variables.\n</p>\n<dl>\n<dt>ID</dt><dd><p>patient ID.</p>\n</dd>\n<dt>Treatment</dt><dd><p>factor indicating treatment (Placebo, Treated).</p>\n</dd>\n<dt>Sex</dt><dd><p>factor indicating sex (Female, Male).</p>\n</dd>\n<dt>Age</dt><dd><p>age of patient.</p>\n</dd>\n<dt>Improved</dt><dd><p>ordered factor indicating treatment outcome (None,\nSome, Marked).</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>Michael Friendly (2000),\nVisualizing Categorical Data:\n<a href=\"http://euclid.psych.yorku.ca/ftp/sas/vcd/catdata/arthrit.sas\">http://euclid.psych.yorku.ca/ftp/sas/vcd/catdata/arthrit.sas</a>\n</p>\n<h3>References</h3>\n<p>G. Koch \\&amp; S. Edwards (1988),\nClinical efficiency trials with categorical data.\nIn K. E. Peace (ed.), <em>Biopharmaceutical Statistics for Drug\nDevelopment</em>, 403&ndash;451.\nMarcel Dekker, New York.\n</p>\n<p>M. Friendly (2000),\n<em>Visualizing Categorical Data</em>.\nSAS Institute, Cary, NC.\n</p>\n<h3>Examples</h3>\n<pre>\ndata(\"Arthritis\")\nart &lt;- xtabs(~ Treatment + Improved, data = Arthritis, subset = Sex == \"Female\")\nart\nmosaic(art, gp = shading_Friendly)\nmosaic(art, gp = shading_max)\n</pre>\n",
    "config" : {
+      "sizeBy" : "Improved",
       "subtitle" : "vcd - Arthritis",
       "graphType" : "Scatter2D",
+      "shapeBy" : "Sex",
+      "colorBy" : "Treatment",
       "title" : "Arthritis Treatment Data"
    },
    "data" : {

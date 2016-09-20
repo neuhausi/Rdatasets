@@ -2,8 +2,11 @@
    "info" : "<table width=\"100%\" summary=\"page for kidney\"><tr><td>kidney</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>data from Section 1.4</h2>\n<h3>Description</h3>\n<p>The <code>kidney</code> data frame has 119 rows and 3 columns.\n</p>\n<h3>Format</h3>\n<p>This data frame contains the following columns:\n</p>\n<dl>\n<dt>time</dt><dd>\n<p>Time to infection, months \n</p>\n</dd>\n<dt>delta</dt><dd>\n<p>Infection indicator (0=no, 1=yes)\n</p>\n</dd>\n<dt>type</dt><dd>\n<p>Catheter placement (1=surgically, 2=percutaneously)\n</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>Klein and Moeschberger (1997) <em>Survival Analysis Techniques for Censored\nand truncated data</em>, Springer.\nNahman el at. J. Am Soc. Nephrology 3 (1992): 103-107.\n</p>\n<h3>Examples</h3>\n<pre>\ndata(kidney)\n</pre>\n",
    "config" : {
       "subtitle" : "KMsurv - kidney",
-      "graphType" : "Scatter2D",
-      "title" : "data from Section 1.4"
+      "graphType" : "Heatmap",
+      "title" : "data from Section 1.4",
+      "smpOverlays" : [
+         "disease"
+      ]
    },
    "data" : {
       "y" : {

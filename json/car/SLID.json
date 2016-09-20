@@ -3,6 +3,8 @@
    "config" : {
       "subtitle" : "car - SLID",
       "graphType" : "Scatter3D",
+      "shapeBy" : "sex",
+      "colorBy" : "language",
       "title" : "Survey of Labour and Income Dynamics"
    },
    "data" : {

@@ -24,10 +24,6 @@
       "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/Ecdat/Bids.json"
    ],
    [
-      "breaches",
-      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/Ecdat/breaches.json"
-   ],
-   [
       "BudgetFood",
       "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/Ecdat/BudgetFood.json"
    ],
@@ -170,10 +166,6 @@
    [
       "Hedonic",
       "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/Ecdat/Hedonic.json"
-   ],
-   [
-      "HHSCyberSecurityBreaches",
-      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/Ecdat/HHSCyberSecurityBreaches.json"
    ],
    [
       "HI",
@@ -378,10 +370,6 @@
    [
       "USFinanceIndustry",
       "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/Ecdat/USFinanceIndustry.json"
-   ],
-   [
-      "USstateAbbreviations",
-      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/Ecdat/USstateAbbreviations.json"
    ],
    [
       "UStaxWords",

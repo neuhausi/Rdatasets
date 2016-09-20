@@ -3,11 +3,63 @@
    "config" : {
       "subtitle" : "HSAUR - aspirin",
       "graphType" : "Scatter2D",
+      "scatterPlotMatrix" : 1,
+      "colorBy" : null,
       "title" : "Aspirin Data"
    },
    "data" : {
       "y" : {
          "smps" : [
+            "dp",
+            "tp",
+            "da",
+            "ta"
+         ],
+         "data" : [
+            [
+               67,
+               624,
+               49,
+               615
+            ],
+            [
+               64,
+               77,
+               44,
+               757
+            ],
+            [
+               126,
+               850,
+               102,
+               832
+            ],
+            [
+               38,
+               309,
+               32,
+               317
+            ],
+            [
+               52,
+               406,
+               85,
+               810
+            ],
+            [
+               219,
+               2257,
+               346,
+               2267
+            ],
+            [
+               1720,
+               8600,
+               1570,
+               8587
+            ]
+         ],
+         "vars" : [
             "\\cite{HSAuR:Elwoodetal1974}",
             "\\cite{HSAuR:Coronary1976}",
             "\\cite{HSAuR:ElwoodSweetman1979}",
@@ -15,50 +67,6 @@
             "\\cite{HSAuR:Persantine1980}",
             "\\cite{HSAuR:Aspirin1980}",
             "\\cite{HSAuR:ISIS21988}"
-         ],
-         "data" : [
-            [
-               67,
-               64,
-               126,
-               38,
-               52,
-               219,
-               1720
-            ],
-            [
-               624,
-               77,
-               850,
-               309,
-               406,
-               2257,
-               8600
-            ],
-            [
-               49,
-               44,
-               102,
-               32,
-               85,
-               346,
-               1570
-            ],
-            [
-               615,
-               757,
-               832,
-               317,
-               810,
-               2267,
-               8587
-            ]
-         ],
-         "vars" : [
-            "dp",
-            "tp",
-            "da",
-            "ta"
          ]
       }
    }

@@ -3,6 +3,7 @@
    "config" : {
       "subtitle" : "HSAUR - bladdercancer",
       "graphType" : "Scatter2D",
+      "colorBy" : "tumorsize",
       "title" : "Bladder Cancer Data"
    },
    "data" : {

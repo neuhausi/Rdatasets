@@ -3,6 +3,7 @@
    "config" : {
       "subtitle" : "gap - lukas",
       "graphType" : "Scatter3D",
+      "colorBy" : "sex",
       "title" : "An example pedigree"
    },
    "data" : {

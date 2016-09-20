@@ -3,45 +3,41 @@
    "config" : {
       "subtitle" : "gcookbook - drunk",
       "graphType" : "Scatter2D",
+      "scatterPlotMatrix" : 1,
+      "colorBy" : "sex",
       "title" : "Convictions for drunkenness"
    },
    "data" : {
       "y" : {
          "smps" : [
-            "Smp1",
-            "Smp2"
-         ],
-         "data" : [
-            [
-               185,
-               4
-            ],
-            [
-               207,
-               13
-            ],
-            [
-               260,
-               10
-            ],
-            [
-               180,
-               7
-            ],
-            [
-               71,
-               10
-            ]
-         ],
-         "vars" : [
             "0-29",
             "30-39",
             "40-49",
             "50-59",
             "60+"
+         ],
+         "data" : [
+            [
+               185,
+               207,
+               260,
+               180,
+               71
+            ],
+            [
+               4,
+               13,
+               10,
+               7,
+               10
+            ]
+         ],
+         "vars" : [
+            "Var1",
+            "Var2"
          ]
       },
-      "x" : {
+      "z" : {
          "sex" : [
             "male",
             "female"

@@ -2,8 +2,13 @@
    "info" : "<table width=\"100%\" summary=\"page for msleep\"><tr><td>msleep</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>An updated and expanded version of the mammals sleep dataset.</h2>\n<h3>Description</h3>\n<p>This is an updated and expanded version of the mammals sleep dataset.\nUpdated sleep times and weights were taken from V. M. Savage and G. B.\nWest. A quantitative, theoretical framework for understanding mammalian\nsleep. Proceedings of the National Academy of Sciences, 104 (3):1051-1056,\n2007.\n</p>\n<h3>Usage</h3>\n<pre>\ndata(msleep)\n</pre>\n<h3>Format</h3>\n<p>A data frame with 83 rows and 11 variables</p>\n<h3>Details</h3>\n<p>Additional variables order, conservation status and vore were added from\nwikipedia.\n</p>\n<ul>\n<li><p> name. common name\n</p>\n</li>\n<li><p> genus.\n</p>\n</li>\n<li><p> vore. carnivore, omnivore or herbivore?\n</p>\n</li>\n<li><p> order.\n</p>\n</li>\n<li><p> conservation. the conservation status of the animal\n</p>\n</li>\n<li><p> sleep\\_total. total amount of sleep, in hours\n</p>\n</li>\n<li><p> sleep\\_rem. rem sleep, in hours\n</p>\n</li>\n<li><p> sleep\\_cycle. length of sleep cycle, in hours\n</p>\n</li>\n<li><p> awake. amount of time spent awake, in hours\n</p>\n</li>\n<li><p> brainwt. brain weight in kilograms\n</p>\n</li>\n<li><p> bodywt. body weight in kilograms\n</p>\n</li></ul>\n",
    "config" : {
       "subtitle" : "ggplot2 - msleep",
-      "graphType" : "Scatter2D",
-      "title" : "An updated and expanded version of the mammals sleep dataset."
+      "graphType" : "Heatmap",
+      "title" : "An updated and expanded version of the mammals sleep dataset.",
+      "smpOverlays" : [
+         "conservation",
+         "vore",
+         "order"
+      ]
    },
    "data" : {
       "y" : {

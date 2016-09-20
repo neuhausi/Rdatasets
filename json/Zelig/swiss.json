@@ -2,8 +2,11 @@
    "info" : "<table width=\"100%\" summary=\"page for swiss\"><tr><td>swiss</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Swiss Fertility and Socioeconomic Indicators (1888) Data</h2>\n<h3>Description</h3>\n<p>Standardized fertility measure and socio-economic indicators for\neach of 47 French-speaking provinces of Switzerland at about 1888.\n</p>\n<h3>Usage</h3>\n<pre>data(swiss)</pre>\n<h3>Format</h3>\n<p>A data frame with 47 observations on 6 variables, each of which\nis in percent, i.e., in [0,100].\n</p>\n<p>[,1]  Fertility         Ig, &quot;common standardized fertility measure&quot;\n[,2]  Agriculture       \n[,3]  Examination       \nnation\n[,4]  Education         \n[,5]  Catholic          \n[,6]  Infant.Mortality  live births who live less than 1 year.\n</p>\n<p>All variables but 'Fert' give proportions of the population.\n</p>\n<h3>Source</h3>\n<p>Project &quot;16P5&quot;, pages 549-551 in\n</p>\n<p>Mosteller, F. and Tukey, J. W. (1977) &ldquo;Data Analysis and\nRegression: A Second Course in Statistics&rdquo;. Addison-Wesley,\nReading Mass.\n</p>\n<p>indicating their source as &quot;Data used by permission of Franice van\nde Walle. Office of Population Research, Princeton University,\n1976.  Unpublished data assembled under NICHD contract number No\n1-HD-O-2077.&quot;\n</p>\n<h3>References</h3>\n<p>Becker, R. A., Chambers, J. M. and Wilks, A. R. (1988) &ldquo;The New S\nLanguage&rdquo;. Wadsworth &amp; Brooks/Cole.\n</p>\n",
    "config" : {
       "subtitle" : "Zelig - swiss",
-      "graphType" : "Scatter2D",
-      "title" : "Swiss Fertility and Socioeconomic Indicators (1888) Data"
+      "graphType" : "Heatmap",
+      "title" : "Swiss Fertility and Socioeconomic Indicators (1888) Data",
+      "smpOverlays" : [
+         null
+      ]
    },
    "data" : {
       "y" : {

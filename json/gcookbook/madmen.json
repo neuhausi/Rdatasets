@@ -1,177 +1,107 @@
 {
    "info" : "<table width=\"100%\" summary=\"page for madmen\"><tr><td>madmen</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Successful sexual relations in Mad Men (TV show)</h2>\n<h3>Description</h3>\n<p>Each row of this data frame represents a pair of\ncharacters who had a sexual relationship on the TV show\nMad Men, as of the end of season 4. This data can be\ndisplayed with an undirected graph.\n</p>\n<h3>Variables</h3>\n<p>The placement of names in column Name1 as opposed to\nName2 is arbitrary, and not meaningful. In other words,\nfor any row, you can swap the values of Name1 and Name2,\nand it will represent the same information.\n</p>\n <ul>\n<li><p> Name1: Name of one sexual partner.  </p>\n</li>\n<li>\n<p>Name2: Name of another sexual partner. </p>\n</li></ul>\n<h3>Source</h3>\n<p>Wired Magazine 20.02, February 2012\n</p>\n<h3>See Also</h3>\n<p>For a list of attempted sexual pairings, see\n<code>madmen2</code>.\n</p>\n",
    "config" : {
+      "groupingFactors" : [
+         "Name1"
+      ],
       "subtitle" : "gcookbook - madmen",
-      "graphType" : "Treemap",
+      "graphType" : "Boxplot",
+      "segregateSamplesBy" : [
+         "Name2"
+      ],
       "title" : "Successful sexual relations in Mad Men (TV show)"
    },
    "data" : {
       "y" : {
          "smps" : [
-            "Row"
+            "Smp1",
+            "Smp2",
+            "Smp3",
+            "Smp4",
+            "Smp5",
+            "Smp6",
+            "Smp7",
+            "Smp8",
+            "Smp9",
+            "Smp10",
+            "Smp11",
+            "Smp12",
+            "Smp13",
+            "Smp14",
+            "Smp15",
+            "Smp16",
+            "Smp17",
+            "Smp18",
+            "Smp19",
+            "Smp20",
+            "Smp21",
+            "Smp22",
+            "Smp23",
+            "Smp24",
+            "Smp25",
+            "Smp26",
+            "Smp27",
+            "Smp28",
+            "Smp29",
+            "Smp30",
+            "Smp31",
+            "Smp32",
+            "Smp33",
+            "Smp34",
+            "Smp35",
+            "Smp36",
+            "Smp37",
+            "Smp38",
+            "Smp39"
          ],
          "data" : [
             [
-               1
-            ],
-            [
-               2
-            ],
-            [
-               3
-            ],
-            [
-               4
-            ],
-            [
-               5
-            ],
-            [
-               6
-            ],
-            [
-               7
-            ],
-            [
-               8
-            ],
-            [
-               9
-            ],
-            [
-               10
-            ],
-            [
-               11
-            ],
-            [
-               12
-            ],
-            [
-               13
-            ],
-            [
-               14
-            ],
-            [
-               15
-            ],
-            [
-               16
-            ],
-            [
-               17
-            ],
-            [
-               18
-            ],
-            [
-               19
-            ],
-            [
-               20
-            ],
-            [
-               21
-            ],
-            [
-               22
-            ],
-            [
-               23
-            ],
-            [
-               24
-            ],
-            [
-               25
-            ],
-            [
-               26
-            ],
-            [
-               27
-            ],
-            [
-               28
-            ],
-            [
-               29
-            ],
-            [
-               30
-            ],
-            [
-               31
-            ],
-            [
-               32
-            ],
-            [
-               33
-            ],
-            [
-               34
-            ],
-            [
-               35
-            ],
-            [
-               36
-            ],
-            [
-               37
-            ],
-            [
-               38
-            ],
-            [
+               1,
+               2,
+               3,
+               4,
+               5,
+               6,
+               7,
+               8,
+               9,
+               10,
+               11,
+               12,
+               13,
+               14,
+               15,
+               16,
+               17,
+               18,
+               19,
+               20,
+               21,
+               22,
+               23,
+               24,
+               25,
+               26,
+               27,
+               28,
+               29,
+               30,
+               31,
+               32,
+               33,
+               34,
+               35,
+               36,
+               37,
+               38,
                39
             ]
          ],
          "vars" : [
-            "Var1",
-            "Var2",
-            "Var3",
-            "Var4",
-            "Var5",
-            "Var6",
-            "Var7",
-            "Var8",
-            "Var9",
-            "Var10",
-            "Var11",
-            "Var12",
-            "Var13",
-            "Var14",
-            "Var15",
-            "Var16",
-            "Var17",
-            "Var18",
-            "Var19",
-            "Var20",
-            "Var21",
-            "Var22",
-            "Var23",
-            "Var24",
-            "Var25",
-            "Var26",
-            "Var27",
-            "Var28",
-            "Var29",
-            "Var30",
-            "Var31",
-            "Var32",
-            "Var33",
-            "Var34",
-            "Var35",
-            "Var36",
-            "Var37",
-            "Var38",
-            "Var39"
+            "Row"
          ]
       },
-      "z" : {
+      "x" : {
          "Name1" : [
             "Betty Draper",
             "Betty Draper",

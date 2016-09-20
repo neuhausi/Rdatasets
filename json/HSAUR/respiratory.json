@@ -2,8 +2,12 @@
    "info" : "<table width=\"100%\" summary=\"page for respiratory\"><tr><td>respiratory</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2> Respiratory Illness Data </h2>\n<h3>Description</h3>\n<p>The respiratory status of patients recruited for a randomised clinical\nmulticenter trial.\n</p>\n<h3>Usage</h3>\n<pre>data(\"respiratory\")</pre>\n<h3>Format</h3>\n<p>A data frame with 555 observations on the following 7 variables.\n</p>\n<dl>\n<dt><code>centre</code></dt><dd><p>the study center, a factor with levels <code>1</code> and\n<code>2</code>.</p>\n</dd>\n<dt><code>treatment</code></dt><dd><p>the treatment arm, a factor with levels <code>placebo</code>\nand <code>treatment</code>.</p>\n</dd>\n<dt><code>sex</code></dt><dd><p>a factor with levels <code>female</code> and <code>male</code>.</p>\n</dd>\n<dt><code>age</code></dt><dd><p>the age of the patient.</p>\n</dd>\n<dt><code>status</code></dt><dd><p>the respiratory status (response variable), \na factor with levels <code>poor</code> and <code>good</code>.</p>\n</dd>\n<dt><code>month</code></dt><dd><p>the month, each patient was examined at months \n<code>0</code>, <code>1</code>, <code>2</code>, <code>3</code> and <code>4</code>.</p>\n</dd>\n<dt><code>subject</code></dt><dd><p>the patient ID, a factor with levels <code>1</code> to\n<code>111</code>.</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>In each of two centres, eligible patients were randomly assigned \nto active treatment or placebo. During the treatment, the respiratory\nstatus (categorised <code>poor</code> or <code>good</code>) was determined at each\nof four, monthly visits. The trial recruited 111 participants\n(54 in the active group, 57 in the placebo group) and there were\nno missing data for either the responses or the covariates. The\nquestion of interest is to assess whether the treatment is effective\nand to estimate its effect.\n</p>\n<p>Note that the data are in long form, i.e, repeated measurments are\nstored as additional rows in the data frame.\n</p>\n<h3>Source</h3>\n<p>C. S. Davis (1991), Semi-parametric and non-parametric methods\nfor the analysis of repeated measurements with applications to\nclinical trials. <em>Statistics in Medicine</em>, <b>10</b>, \n1959&ndash;1980.\n</p>\n<h3>Examples</h3>\n<pre>\n  data(\"respiratory\", package = \"HSAUR\")\n  mosaicplot(xtabs( ~ treatment + month + status, data = respiratory))\n</pre>\n",
    "config" : {
       "subtitle" : "HSAUR - respiratory",
-      "graphType" : "Scatter2D",
-      "title" : "Respiratory Illness Data"
+      "graphType" : "Heatmap",
+      "title" : "Respiratory Illness Data",
+      "smpOverlays" : [
+         "treat",
+         "sex"
+      ]
    },
    "data" : {
       "y" : {

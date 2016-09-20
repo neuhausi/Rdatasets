@@ -1,8 +1,11 @@
 {
    "info" : "<table width=\"100%\" summary=\"page for Accident\"><tr><td>Accident</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Ship Accidents </h2>\n<h3>Description</h3>\n<p>a cross-section\n</p>\n<p><em>number of observations</em> :  40\n</p>\n<h3>Usage</h3>\n<pre>data(Accident)</pre>\n<h3>Format</h3>\n<p>A dataframe containing :\n</p>\n<dl>\n<dt>type</dt><dd><p>ship type, a factor with levels (A,B,C,D,E)</p>\n</dd>\n<dt>constr</dt><dd><p>year constructed, a factor with levels (C6064,C6569,C7074,C7579)</p>\n</dd>\n<dt>operate</dt><dd><p>year operated, a factor with levels (O6074,O7579)</p>\n</dd>\n<dt>months</dt><dd><p>measure of service amount</p>\n</dd>\n<dt>acc</dt><dd><p>accidents</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>McCullagh, P.  and  J.  Nelder (1983) <em>Generalized linear methods</em>, New York:Chapman and Hall.\n</p>\n<h3>References</h3>\n<p>Greene, W.H. (2003) <em>Econometric Analysis</em>, Prentice Hall, <a href=\"http://www.prenhall.com/greene/greene1.html\">http://www.prenhall.com/greene/greene1.html</a>, Table F21.3.\n</p>\n<h3>See Also</h3>\n<p><code>Index.Source</code>, <code>Index.Economics</code>, <code>Index.Econometrics</code>, <code>Index.Observations</code></p>\n",
    "config" : {
+      "sizeBy" : "constr",
       "subtitle" : "Ecdat - Accident",
       "graphType" : "Scatter2D",
+      "shapeBy" : "type",
+      "colorBy" : "operate",
       "title" : "Ship Accidents"
    },
    "data" : {

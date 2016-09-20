@@ -3,6 +3,7 @@
    "config" : {
       "subtitle" : "car - Vocab",
       "graphType" : "Scatter3D",
+      "colorBy" : "sex",
       "title" : "Vocabulary and Education"
    },
    "data" : {

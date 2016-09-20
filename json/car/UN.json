@@ -3,6 +3,7 @@
    "config" : {
       "subtitle" : "car - UN",
       "graphType" : "Scatter2D",
+      "colorBy" : null,
       "title" : "GDP and Infant Mortality"
    },
    "data" : {

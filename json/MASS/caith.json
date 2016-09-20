@@ -4,54 +4,53 @@
       "subtitle" : "MASS - caith",
       "graphType" : "Scatter2D",
       "scatterPlotMatrix" : 1,
+      "colorBy" : null,
       "title" : "Colours of Eyes and Hair of People in Caithness"
    },
    "data" : {
       "y" : {
          "smps" : [
-            "blue",
-            "light",
-            "medium",
-            "dark"
-         ],
-         "data" : [
-            [
-               326,
-               688,
-               343,
-               98
-            ],
-            [
-               38,
-               116,
-               84,
-               48
-            ],
-            [
-               241,
-               584,
-               909,
-               403
-            ],
-            [
-               110,
-               188,
-               412,
-               681
-            ],
-            [
-               3,
-               4,
-               26,
-               85
-            ]
-         ],
-         "vars" : [
             "fair",
             "red",
             "medium",
             "dark",
             "black"
+         ],
+         "data" : [
+            [
+               326,
+               38,
+               241,
+               110,
+               3
+            ],
+            [
+               688,
+               116,
+               584,
+               188,
+               4
+            ],
+            [
+               343,
+               84,
+               909,
+               412,
+               26
+            ],
+            [
+               98,
+               48,
+               403,
+               681,
+               85
+            ]
+         ],
+         "vars" : [
+            "blue",
+            "light",
+            "medium",
+            "dark"
          ]
       }
    }

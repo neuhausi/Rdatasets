@@ -24,10 +24,6 @@
       "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/psych/bfi.json"
    ],
    [
-      "bfi.dictionary",
-      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/psych/bfi.dictionary.json"
-   ],
-   [
       "blot",
       "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/psych/blot.json"
    ],
@@ -58,10 +54,6 @@
    [
       "epi.bfi",
       "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/psych/epi.bfi.json"
-   ],
-   [
-      "epi.dictionary",
-      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/psych/epi.dictionary.json"
    ],
    [
       "galton",

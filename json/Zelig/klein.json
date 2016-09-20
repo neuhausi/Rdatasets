@@ -2,7 +2,7 @@
    "info" : "<table width=\"100%\" summary=\"page for klein\"><tr><td>klein</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Simulation Data for model Two-Stage Least Square (twosls) that corresponds to method 2SLS of systemfit</h2>\n<h3>Description</h3>\n<p>Dataframe contains annual observations of US economy from 1920 to\n1940. The columns are, Year, C=Consumption, P=Corporate profits,\nP1=Previous year corporate profit,Wtot=Total wage, Wp=Private wage\nbill, Wg=Government wage bill,I=Investment,\nK1=Previous year capital stock,X=GNP,G=Government spending, T=Taxes,\nX1=Previous year GNP, Tm=Year-1931.\n</p>\n<h3>Usage</h3>\n<pre>data(klein)</pre>\n<h3>Format</h3>\n<p>A table containing 14 variables (&quot;year&quot;, &quot;C&quot;, &quot;P&quot;, &quot;P1&quot;,&quot;Wtot&quot;, &quot;Wp&quot;,\n&quot;Wg&quot;, &quot;I&quot;, &quot;K1&quot;,&quot;X&quot;, &quot;G&quot;, &quot;T&quot;, &quot;X1&quot;, &quot;Tm&quot;) and 21 observations.  \n</p>\n<h3>Source</h3>\n<p>http://pages.stern.nyu.edu/~wgreene/Text/econometricanalysis.htm</p>\n",
    "config" : {
       "subtitle" : "Zelig - klein",
-      "graphType" : "Scatter2D",
+      "graphType" : "Heatmap",
       "title" : "Simulation Data for model Two-Stage Least Square (twosls) that corresponds to method 2SLS of systemfit"
    },
    "data" : {

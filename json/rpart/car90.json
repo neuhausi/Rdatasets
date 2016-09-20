@@ -3,7 +3,12 @@
    "config" : {
       "subtitle" : "rpart - car90",
       "graphType" : "Heatmap",
-      "title" : "Automobile Data from 'Consumer Reports' 1990"
+      "title" : "Automobile Data from 'Consumer Reports' 1990",
+      "smpOverlays" : [
+         "Reliability",
+         "Trans1",
+         "Steering"
+      ]
    },
    "data" : {
       "y" : {

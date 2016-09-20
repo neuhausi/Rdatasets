@@ -2,7 +2,7 @@
    "info" : "<table width=\"100%\" summary=\"page for SupremeCourt\"><tr><td>SupremeCourt</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>U.S. Supreme Court Vote Matrix</h2>\n<h3>Description</h3>\n<p>This dataframe contains a matrix votes cast by U.S. Supreme Court\njustices in all cases in the 2000 term.\n</p>\n<h3>Usage</h3>\n<pre>data(SupremeCourt)</pre>\n<h3>Format</h3>\n<p> The dataframe has contains data for justices Rehnquist, Stevens,\nO'Connor, Scalia, Kennedy, Souter, Thomas, Ginsburg, and Breyer\nfor the 2000 term of the U.S. Supreme Court.  It contains data\nfrom 43 non-unanimous cases. The votes are coded liberal (1) and\nconservative (0) using the protocol of Spaeth (2003).   The unit\nof analysis is the case citation (ANALU=0).  We are concerned with\nformally decided cases issued with written opinions, after full\noral argument and cases decided by an equally divided vote\n(DECTYPE=1,5,6,7).</p>\n<h3>Source</h3>\n<p>Harold J. Spaeth (2005). &ldquo;Original United States Supreme Court\nDatabase:  1953-2004 Terms.&rdquo; \n&lt;URL:http://www.as.uky.edu/polisci/ulmerproject/sctdata.htm&gt;.\n</p>\n",
    "config" : {
       "subtitle" : "Zelig - SupremeCourt",
-      "graphType" : "Scatter2D",
+      "graphType" : "Heatmap",
       "title" : "U.S. Supreme Court Vote Matrix"
    },
    "data" : {

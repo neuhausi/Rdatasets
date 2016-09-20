@@ -3,6 +3,8 @@
    "config" : {
       "subtitle" : "MASS - immer",
       "graphType" : "Scatter2D",
+      "shapeBy" : "Var",
+      "colorBy" : "Loc",
       "title" : "Yields from a Barley Field Trial"
    },
    "data" : {

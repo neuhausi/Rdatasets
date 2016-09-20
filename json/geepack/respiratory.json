@@ -2,8 +2,12 @@
    "info" : "<table width=\"100%\" summary=\"page for respiratory\"><tr><td>respiratory</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Data from a clinical trial comparing two treatments for a respiratory illness</h2>\n<h3>Description</h3>\n<p>The data are from a clinical trial of patients with respiratory\nillness, where 111 patients from two different clinics were randomized\nto receive either placebo or an active treatment. Patients were\nexamined at baseline and at four visits during treatment. At each\nexamination, respiratory status (categorized as 1 = good, 0 = poor) \nwas determined. \n</p>\n<h3>Usage</h3>\n<pre>data(respiratory)</pre>\n<h3>Format</h3>\n<p>A data frame with 111 observations on the following 7 variables.\n</p>\n<dl>\n<dt>center</dt><dd><p>a numeric vector</p>\n</dd>\n<dt>id</dt><dd><p>a numeric vector</p>\n</dd>\n<dt>age</dt><dd><p>a numeric vector</p>\n</dd>\n<dt>baseline</dt><dd><p>a numeric vector</p>\n</dd>\n<dt>active</dt><dd><p>a numeric vector</p>\n</dd>\n<dt>center2</dt><dd><p>a numeric vector</p>\n</dd>\n<dt>female</dt><dd><p>a numeric vector</p>\n</dd>\n</dl>\n<h3>Examples</h3>\n<pre>\ndata(respiratory)\n## maybe str(respiratory) ; plot(respiratory) ...\n</pre>\n",
    "config" : {
       "subtitle" : "geepack - respiratory",
-      "graphType" : "Scatter2D",
-      "title" : "Data from a clinical trial comparing two treatments for a respiratory illness"
+      "graphType" : "Heatmap",
+      "title" : "Data from a clinical trial comparing two treatments for a respiratory illness",
+      "smpOverlays" : [
+         "treat",
+         "sex"
+      ]
    },
    "data" : {
       "y" : {

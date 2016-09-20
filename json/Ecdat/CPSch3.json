@@ -3,6 +3,7 @@
    "config" : {
       "subtitle" : "Ecdat - CPSch3",
       "graphType" : "Scatter2D",
+      "colorBy" : "sex",
       "title" : "Earnings from the Current Population Survey"
    },
    "data" : {

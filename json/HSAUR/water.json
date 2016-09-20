@@ -3,6 +3,8 @@
    "config" : {
       "subtitle" : "HSAUR - water",
       "graphType" : "Scatter2D",
+      "shapeBy" : "town",
+      "colorBy" : "location",
       "title" : "Mortality and Water Hardness"
    },
    "data" : {

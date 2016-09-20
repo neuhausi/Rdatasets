@@ -3,7 +3,10 @@
    "config" : {
       "subtitle" : "cluster - plantTraits",
       "graphType" : "Heatmap",
-      "title" : "Plant Species Traits Data"
+      "title" : "Plant Species Traits Data",
+      "smpOverlays" : [
+         null
+      ]
    },
    "data" : {
       "y" : {

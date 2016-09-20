@@ -1,8 +1,11 @@
 {
    "info" : "<table width=\"100%\" summary=\"page for Salaries\"><tr><td>Salaries</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>\nSalaries for Professors\n</h2>\n<h3>Description</h3>\n<p>The 2008-09 nine-month academic\nsalary for Assistant Professors, Associate Professors and Professors in a\ncollege in the U.S. The data were collected as part of the\non-going effort of the college's administration to monitor salary differences\nbetween male and female faculty members. \n</p>\n<h3>Usage</h3>\n<pre>Salaries</pre>\n<h3>Format</h3>\n<p>A data frame with 397 observations on the following 6 variables.\n</p>\n<dl>\n<dt><code>rank</code></dt><dd><p>a factor with levels <code>AssocProf</code> <code>AsstProf</code> <code>Prof</code></p>\n</dd>\n<dt><code>discipline</code></dt><dd><p>a factor with levels <code>A</code> (&ldquo;theoretical&rdquo; departments) \nor <code>B</code> (&ldquo;applied&rdquo; departments).</p>\n</dd>\n<dt><code>yrs.since.phd</code></dt><dd><p>years since PhD.</p>\n</dd>\n<dt><code>yrs.service</code></dt><dd><p>years of service.</p>\n</dd>\n<dt><code>sex</code></dt><dd><p>a factor with levels <code>Female</code> <code>Male</code></p>\n</dd>\n<dt><code>salary</code></dt><dd><p>nine-month salary, in dollars.</p>\n</dd>\n</dl>\n<h3>References</h3>\n<p>Fox J. and Weisberg, S. (2011)\n<em>An R Companion to Applied Regression</em>, Second Edition\nSage.\n</p>\n",
    "config" : {
+      "sizeBy" : "discipline",
       "subtitle" : "car - Salaries",
       "graphType" : "Scatter3D",
+      "shapeBy" : "rank",
+      "colorBy" : "sex",
       "title" : "Salaries for Professors"
    },
    "data" : {

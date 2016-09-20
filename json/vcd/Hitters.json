@@ -3,6 +3,7 @@
    "config" : {
       "subtitle" : "vcd - Hitters",
       "graphType" : "Scatter3D",
+      "colorBy" : "Positions",
       "title" : "Hitters Data"
    },
    "data" : {

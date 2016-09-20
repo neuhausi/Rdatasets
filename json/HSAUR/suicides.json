@@ -3,6 +3,7 @@
    "config" : {
       "subtitle" : "HSAUR - suicides",
       "graphType" : "Scatter2D",
+      "colorBy" : null,
       "title" : "Crowd Baiting Behaviour and Suicides"
    },
    "data" : {

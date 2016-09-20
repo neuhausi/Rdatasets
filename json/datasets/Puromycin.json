@@ -3,6 +3,7 @@
    "config" : {
       "subtitle" : "datasets - Puromycin",
       "graphType" : "Scatter2D",
+      "colorBy" : "state",
       "title" : "Reaction Velocity of an Enzymatic Reaction"
    },
    "data" : {

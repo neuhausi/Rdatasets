@@ -1,61 +1,51 @@
 {
    "info" : "<table width=\"100%\" summary=\"page for presidential\"><tr><td>presidential</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Terms of 10 presidents from Eisenhower to Bush W.</h2>\n<h3>Description</h3>\n<p>The names of each president, the start and end date of their term, and\ntheir party of 10 US presidents from Eisenhower to Bush W.\n</p>\n<h3>Usage</h3>\n<pre>\ndata(presidential)\n</pre>\n<h3>Format</h3>\n<p>A data frame with 10 rows and 4 variables</p>\n",
    "config" : {
+      "groupingFactors" : [
+         "name"
+      ],
       "subtitle" : "ggplot2 - presidential",
-      "graphType" : "Bar",
+      "graphType" : "Dotplot",
+      "colorBy" : "start",
+      "segregateSamplesBy" : [
+         "party",
+         "end"
+      ],
       "title" : "Terms of 10 presidents from Eisenhower to Bush W."
    },
    "data" : {
       "y" : {
          "smps" : [
-            "Row"
+            "Smp1",
+            "Smp2",
+            "Smp3",
+            "Smp4",
+            "Smp5",
+            "Smp6",
+            "Smp7",
+            "Smp8",
+            "Smp9",
+            "Smp10"
          ],
          "data" : [
             [
-               1
-            ],
-            [
-               2
-            ],
-            [
-               3
-            ],
-            [
-               4
-            ],
-            [
-               5
-            ],
-            [
-               6
-            ],
-            [
-               7
-            ],
-            [
-               8
-            ],
-            [
-               9
-            ],
-            [
+               1,
+               2,
+               3,
+               4,
+               5,
+               6,
+               7,
+               8,
+               9,
                10
             ]
          ],
          "vars" : [
-            "Var1",
-            "Var2",
-            "Var3",
-            "Var4",
-            "Var5",
-            "Var6",
-            "Var7",
-            "Var8",
-            "Var9",
-            "Var10"
+            "Row"
          ]
       },
-      "z" : {
+      "x" : {
          "name" : [
             "Eisenhower",
             "Kennedy",

@@ -3,7 +3,10 @@
    "config" : {
       "subtitle" : "psych - neo",
       "graphType" : "Heatmap",
-      "title" : "NEO correlation matrix from the NEO_PI_R manual"
+      "title" : "NEO correlation matrix from the NEO_PI_R manual",
+      "smpOverlays" : [
+         null
+      ]
    },
    "data" : {
       "y" : {

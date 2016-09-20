@@ -3,6 +3,7 @@
    "config" : {
       "subtitle" : "HistData - Dactyl",
       "graphType" : "Scatter2D",
+      "colorBy" : "Lines",
       "title" : "Edgeworth's counts of dactyls in Virgil's Aeneid"
    },
    "data" : {

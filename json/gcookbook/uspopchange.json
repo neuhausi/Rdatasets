@@ -1,168 +1,20 @@
 {
    "info" : "<table width=\"100%\" summary=\"page for uspopchange\"><tr><td>uspopchange</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Change in population of states in the U.S. between 2000 and 2010</h2>\n<h3>Description</h3>\n<p>This data set represents the percent change in population\nof states in the U.S. from 2000 to 2010.\n</p>\n<h3>Variables</h3>\n <ul>\n<li><p> State </p>\n</li>\n<li><p> Abb: Abbreviated state name.\n</p>\n</li>\n<li><p> Region: Region of country that the state is in.\n</p>\n</li>\n<li><p> Change: Percent change in population. </p>\n</li></ul>\n<h3>Source</h3>\n<p>U.S. Census Bureau, Statistical Abstract of the United\nStates, 2012, Table 14.\n<a href=\"http://www.census.gov/compendia/statab/2012/tables/12s0014.pdf\">http://www.census.gov/compendia/statab/2012/tables/12s0014.pdf</a>\n</p>\n",
    "config" : {
+      "groupingFactors" : [
+         "Region"
+      ],
       "subtitle" : "gcookbook - uspopchange",
-      "graphType" : "Treemap",
+      "graphType" : "Boxplot",
+      "segregateSamplesBy" : [
+         "State",
+         "Abb"
+      ],
       "title" : "Change in population of states in the U.S. between 2000 and 2010"
    },
    "data" : {
       "y" : {
          "smps" : [
-            "Change"
-         ],
-         "data" : [
-            [
-               7.5
-            ],
-            [
-               13.3
-            ],
-            [
-               24.6
-            ],
-            [
-               9.1
-            ],
-            [
-               10
-            ],
-            [
-               16.9
-            ],
-            [
-               4.9
-            ],
-            [
-               14.6
-            ],
-            [
-               17.6
-            ],
-            [
-               18.3
-            ],
-            [
-               12.3
-            ],
-            [
-               21.1
-            ],
-            [
-               3.3
-            ],
-            [
-               6.6
-            ],
-            [
-               4.1
-            ],
-            [
-               6.1
-            ],
-            [
-               7.4
-            ],
-            [
-               1.4
-            ],
-            [
-               4.2
-            ],
-            [
-               9
-            ],
-            [
-               3.1
-            ],
-            [
-               -0.6
-            ],
-            [
-               7.8
-            ],
-            [
-               4.3
-            ],
-            [
-               7
-            ],
-            [
-               9.7
-            ],
-            [
-               6.7
-            ],
-            [
-               35.1
-            ],
-            [
-               6.5
-            ],
-            [
-               4.5
-            ],
-            [
-               13.2
-            ],
-            [
-               2.1
-            ],
-            [
-               18.5
-            ],
-            [
-               4.7
-            ],
-            [
-               1.6
-            ],
-            [
-               8.7
-            ],
-            [
-               12
-            ],
-            [
-               3.4
-            ],
-            [
-               0.4
-            ],
-            [
-               15.3
-            ],
-            [
-               7.9
-            ],
-            [
-               11.5
-            ],
-            [
-               20.6
-            ],
-            [
-               23.8
-            ],
-            [
-               2.8
-            ],
-            [
-               13
-            ],
-            [
-               14.1
-            ],
-            [
-               2.5
-            ],
-            [
-               6
-            ],
-            [
-               14.1
-            ]
-         ],
-         "vars" : [
             "1",
             "2",
             "3",
@@ -213,9 +65,66 @@
             "49",
             "50",
             "51"
+         ],
+         "data" : [
+            [
+               7.5,
+               13.3,
+               24.6,
+               9.1,
+               10,
+               16.9,
+               4.9,
+               14.6,
+               17.6,
+               18.3,
+               12.3,
+               21.1,
+               3.3,
+               6.6,
+               4.1,
+               6.1,
+               7.4,
+               1.4,
+               4.2,
+               9,
+               3.1,
+               -0.6,
+               7.8,
+               4.3,
+               7,
+               9.7,
+               6.7,
+               35.1,
+               6.5,
+               4.5,
+               13.2,
+               2.1,
+               18.5,
+               4.7,
+               1.6,
+               8.7,
+               12,
+               3.4,
+               0.4,
+               15.3,
+               7.9,
+               11.5,
+               20.6,
+               23.8,
+               2.8,
+               13,
+               14.1,
+               2.5,
+               6,
+               14.1
+            ]
+         ],
+         "vars" : [
+            "Change"
          ]
       },
-      "z" : {
+      "x" : {
          "Region" : [
             "South",
             "West",

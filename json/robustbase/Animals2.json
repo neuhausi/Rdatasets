@@ -3,6 +3,7 @@
    "config" : {
       "subtitle" : "robustbase - Animals2",
       "graphType" : "Scatter2D",
+      "colorBy" : null,
       "title" : "Brain and Body Weights for 65 Species of Land Animals"
    },
    "data" : {

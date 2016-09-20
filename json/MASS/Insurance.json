@@ -3,6 +3,8 @@
    "config" : {
       "subtitle" : "MASS - Insurance",
       "graphType" : "Scatter3D",
+      "shapeBy" : "Group",
+      "colorBy" : "Age",
       "title" : "Numbers of Car Insurance claims"
    },
    "data" : {

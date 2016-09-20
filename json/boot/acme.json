@@ -3,6 +3,7 @@
    "config" : {
       "subtitle" : "boot - acme",
       "graphType" : "Scatter2D",
+      "colorBy" : "month",
       "title" : "Monthly Excess Returns"
    },
    "data" : {

@@ -3,7 +3,12 @@
    "config" : {
       "subtitle" : "ggplot2 - midwest",
       "graphType" : "Heatmap",
-      "title" : "Midwest demographics."
+      "title" : "Midwest demographics.",
+      "smpOverlays" : [
+         "category",
+         "county",
+         "state"
+      ]
    },
    "data" : {
       "y" : {

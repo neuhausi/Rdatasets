@@ -2,7 +2,7 @@
    "info" : "<table width=\"100%\" summary=\"page for Airline\"><tr><td>Airline</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Cost for U.S. Airlines </h2>\n<h3>Description</h3>\n<p>a panel of 6 observations  from 1970  to 1984\n</p>\n<p><em>number of observations</em> :  90\n</p>\n<p><em>observation</em> :  production units\n</p>\n<p><em>country</em> :  United States\n</p>\n<h3>Usage</h3>\n<pre>data(Airline)</pre>\n<h3>Format</h3>\n<p>A dataframe containing :\n</p>\n<dl>\n<dt>airline</dt><dd><p>airline</p>\n</dd>\n<dt>year</dt><dd><p>year</p>\n</dd>\n<dt>cost</dt><dd><p>total cost, in \\$1,000</p>\n</dd>\n<dt>output</dt><dd><p>output, in revenue passenger miles, index number</p>\n</dd>\n<dt>pf</dt><dd><p>fuel price</p>\n</dd>\n<dt>lf</dt><dd><p>load factor, the average capacity utilization of the fleet</p>\n</dd>\n</dl>\n<h3>References</h3>\n<p>Greene, W.H. (2003) <em>Econometric Analysis</em>, Prentice Hall, <a href=\"http://www.prenhall.com/greene/greene1.html\">http://www.prenhall.com/greene/greene1.html</a>, Table F7.1.\n</p>\n<h3>See Also</h3>\n<p><code>Index.Source</code>, <code>Index.Economics</code>, <code>Index.Econometrics</code>, <code>Index.Observations</code>,\n</p>\n<p><code>Index.Time.Series</code></p>\n",
    "config" : {
       "subtitle" : "Ecdat - Airline",
-      "graphType" : "Scatter2D",
+      "graphType" : "Heatmap",
       "title" : "Cost for U.S. Airlines"
    },
    "data" : {

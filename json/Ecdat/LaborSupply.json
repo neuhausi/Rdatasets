@@ -2,7 +2,7 @@
    "info" : "<table width=\"100%\" summary=\"page for LaborSupply\"><tr><td>LaborSupply</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Wages and Hours Worked </h2>\n<h3>Description</h3>\n<p>a panel of 532  observations  from 1979  to 1988\n</p>\n<p><em>number of observations</em> :  5320\n</p>\n<h3>Usage</h3>\n<pre>data(LaborSupply)</pre>\n<h3>Format</h3>\n<p>A dataframe containing :\n</p>\n<dl>\n<dt>lnhr</dt><dd><p>log of annual hours worked</p>\n</dd>\n<dt>lnwg</dt><dd><p>log of hourly wage</p>\n</dd>\n<dt>kids</dt><dd><p>number of children</p>\n</dd>\n<dt>age</dt><dd><p>age</p>\n</dd>\n<dt>disab</dt><dd><p>bad health</p>\n</dd>\n<dt>id</dt><dd><p>id</p>\n</dd>\n<dt>year</dt><dd><p>year</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>Ziliak, Jim (1997) &ldquo;Efficient Estimation With Panel Data when Instruments are Predetermined: An Empirical Comparison of Moment-Condition Estimators&rdquo;, <em>Journal of Business and Economic Statistics</em>, <b>419&ndash;431</b>.\n</p>\n<h3>References</h3>\n<p>Cameron, A.C.  and  P.K.  Trivedi (2005) <em>Microeconometrics : methods and applications</em>, Cambridge, pp. 708&ndash;15, 754&ndash;6.\n</p>\n<p>Journal of Business Economics and Statistics web site : <a href=\"http://www.amstat.org/publications/jbes/\">http://www.amstat.org/publications/jbes/</a>.\n</p>\n<h3>See Also</h3>\n<p><code>Index.Source</code>, <code>Index.Economics</code>, <code>Index.Econometrics</code>, <code>Index.Observations</code>,\n</p>\n<p><code>Index.Time.Series</code></p>\n",
    "config" : {
       "subtitle" : "Ecdat - LaborSupply",
-      "graphType" : "Scatter2D",
+      "graphType" : "Heatmap",
       "title" : "Wages and Hours Worked"
    },
    "data" : {

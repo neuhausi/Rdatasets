@@ -3,6 +3,7 @@
    "config" : {
       "subtitle" : "boot - poisons",
       "graphType" : "Scatter2D",
+      "colorBy" : "treat",
       "title" : "Animal Survival Times"
    },
    "data" : {

@@ -3,6 +3,7 @@
    "config" : {
       "subtitle" : "gcookbook - simpledat",
       "graphType" : "Scatter3D",
+      "colorBy" : null,
       "title" : "Simple example data set"
    },
    "data" : {

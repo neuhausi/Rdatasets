@@ -2,8 +2,12 @@
    "info" : "<table width=\"100%\" summary=\"page for Ericksen\"><tr><td>Ericksen</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>The 1980 U.S. Census Undercount</h2>\n<h3>Description</h3>\n<p>The <code>Ericksen</code> data frame has 66 rows and 9 columns.\nThe observations are 16 large cities, the remaining parts of\nthe states in which these cities are located, and the other\nU. S. states.\n</p>\n<h3>Usage</h3>\n<pre>\nEricksen\n</pre>\n<h3>Format</h3>\n<p>This data frame contains the following columns:\n</p>\n<dl>\n<dt>minority</dt><dd>\n<p>Percentage black or Hispanic.\n</p>\n</dd>\n<dt>crime</dt><dd>\n<p>Rate of serious crimes per 1000 population.\n</p>\n</dd>\n<dt>poverty</dt><dd>\n<p>Percentage poor.\n</p>\n</dd>\n<dt>language</dt><dd>\n<p>Percentage having difficulty speaking or writing English.\n</p>\n</dd>\n<dt>highschool</dt><dd>\n<p>Percentage age 25 or older who had not finished highschool.\n</p>\n</dd>\n<dt>housing</dt><dd>\n<p>Percentage of housing in small, multiunit buildings.\n</p>\n</dd>\n<dt>city</dt><dd><p>A factor with levels: \n<code>city</code>, major city; \n<code>state</code>, state or state-remainder.\n</p>\n</dd>\n<dt>conventional</dt><dd>\n<p>Percentage of households counted by conventional personal enumeration.\n</p>\n</dd>\n<dt>undercount</dt><dd>\n<p>Preliminary estimate of percentage undercount.\n</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>Ericksen, E. P., Kadane, J. B. and Tukey, J. W. (1989)\nAdjusting the 1980 Census of Population and Housing. \n<em>Journal of the American Statistical Association</em> <b>84</b>, 927&ndash;944 [Tables 7 and 8].\n</p>\n<h3>References</h3>\n<p>Fox, J. (2008)\n<em>Applied Regression Analysis and Generalized Linear Models</em>,\nSecond Edition. Sage.  \n</p>\n<p>Fox, J. and Weisberg, S. (2011) \n<em>An R Companion to Applied Regression</em>, Second Edition, Sage.\n</p>\n",
    "config" : {
       "subtitle" : "car - Ericksen",
-      "graphType" : "Scatter2D",
-      "title" : "The 1980 U.S. Census Undercount"
+      "graphType" : "Heatmap",
+      "title" : "The 1980 U.S. Census Undercount",
+      "smpOverlays" : [
+         "city",
+         null
+      ]
    },
    "data" : {
       "y" : {

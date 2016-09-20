@@ -3,6 +3,7 @@
    "config" : {
       "subtitle" : "quantreg - Bosco",
       "graphType" : "Scatter2D",
+      "colorBy" : null,
       "title" : "Boscovich Data"
    },
    "data" : {

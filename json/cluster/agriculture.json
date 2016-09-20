@@ -3,6 +3,7 @@
    "config" : {
       "subtitle" : "cluster - agriculture",
       "graphType" : "Scatter2D",
+      "colorBy" : null,
       "title" : "European Union Agricultural Workforces"
    },
    "data" : {

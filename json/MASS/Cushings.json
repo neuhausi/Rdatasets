@@ -3,6 +3,8 @@
    "config" : {
       "subtitle" : "MASS - Cushings",
       "graphType" : "Scatter2D",
+      "shapeBy" : null,
+      "colorBy" : "Type",
       "title" : "Diagnostic Tests on Patients with Cushing's Syndrome"
    },
    "data" : {

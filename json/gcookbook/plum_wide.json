@@ -3,6 +3,8 @@
    "config" : {
       "subtitle" : "gcookbook - plum_wide",
       "graphType" : "Scatter2D",
+      "shapeBy" : "time",
+      "colorBy" : "length",
       "title" : "Plum root cuttings (wide format)"
    },
    "data" : {

@@ -3,6 +3,8 @@
    "config" : {
       "subtitle" : "HistData - Prostitutes",
       "graphType" : "Scatter3D",
+      "shapeBy" : "month",
+      "colorBy" : "date",
       "title" : "Parent-Duchatelet's time-series data on the number of prostitutes in Paris"
    },
    "data" : {

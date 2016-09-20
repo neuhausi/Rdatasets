@@ -2,7 +2,7 @@
    "info" : "<table width=\"100%\" summary=\"page for EmplUK\"><tr><td>EmplUK</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Employment and Wages in the United Kingdom</h2>\n<h3>Description</h3>\n<p>An unbalanced panel of 140 observations from 1976 to 1984\n</p>\n<p><em>total number of observations</em> :  1031\n</p>\n<p><em>observation</em> :  firms\n</p>\n<p><em>country</em> :  United Kingdom\n</p>\n<h3>Usage</h3>\n<pre>data(EmplUK)</pre>\n<h3>Format</h3>\n<p>A data frame containing :\n</p>\n<dl>\n<dt>firm</dt><dd><p>firm index</p>\n</dd>\n<dt>year</dt><dd><p>year</p>\n</dd>\n<dt>sector</dt><dd><p>the sector of activity</p>\n</dd>\n<dt>emp</dt><dd><p>employment</p>\n</dd>\n<dt>wage</dt><dd><p>wages</p>\n</dd>\n<dt>capital</dt><dd><p>capital</p>\n</dd>\n<dt>output</dt><dd><p>output</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>Arellano, M. and Bond, S. (1991), Some Tests of Specification\nfor Panel Data: Monte Carlo Evidence and an Application to Employment Equations, <em>The Review of Economic Studies</em>, vol. <b>58</b>(2), 1991, pp.227&ndash;297.\n</p>\n",
    "config" : {
       "subtitle" : "plm - EmplUK",
-      "graphType" : "Scatter2D",
+      "graphType" : "Heatmap",
       "title" : "Employment and Wages in the United Kingdom"
    },
    "data" : {

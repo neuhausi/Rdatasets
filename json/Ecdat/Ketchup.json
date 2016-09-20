@@ -2,8 +2,11 @@
    "info" : "<table width=\"100%\" summary=\"page for Ketchup\"><tr><td>Ketchup</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Choice of Brand for Ketchup </h2>\n<h3>Description</h3>\n<p>a cross-section\n</p>\n<p><em>number of observations</em> :  4956\n</p>\n<p><em>observation</em> :  individuals\n</p>\n<p><em>country</em> :  United States\n</p>\n<h3>Usage</h3>\n<pre>data(Ketchup)</pre>\n<h3>Format</h3>\n<p>A dataframe containing :\n</p>\n<dl>\n<dt>hid</dt><dd><p>individuals identifiers</p>\n</dd>\n<dt>id</dt><dd><p>purchase identifiers</p>\n</dd>\n<dt>choice</dt><dd><p>one of heinz, hunts, delmonte, stb (store brand)</p>\n</dd>\n<dt>price.z</dt><dd><p>price of brand z</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>Kim, Byong&ndash;Do,  Robert C.   Blattberg and  Peter E.  Rossi (1995) &ldquo;Modeling the distribution of price sensitivity and implications for optimal retail pricing&rdquo;, <em>Journal of Business Economics and Statistics</em>, <b>13(3)</b>, 291.\n</p>\n<h3>References</h3>\n<p>Journal of Business Economics and Statistics web site : <a href=\"http://www.amstat.org/publications/jbes/\">http://www.amstat.org/publications/jbes/</a>.\n</p>\n<h3>See Also</h3>\n<p><code>Index.Source</code>, <code>Index.Economics</code>, <code>Index.Econometrics</code>, <code>Index.Observations</code></p>\n",
    "config" : {
       "subtitle" : "Ecdat - Ketchup",
-      "graphType" : "Scatter2D",
-      "title" : "Choice of Brand for Ketchup"
+      "graphType" : "Heatmap",
+      "title" : "Choice of Brand for Ketchup",
+      "smpOverlays" : [
+         "Ketchup.choice"
+      ]
    },
    "data" : {
       "y" : {

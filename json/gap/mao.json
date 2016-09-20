@@ -2,8 +2,13 @@
    "info" : "<table width=\"100%\" summary=\"page for mao\"><tr><td>mao</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>A study of Parkinson's disease and MAO gene</h2>\n<h3>Description</h3>\n<p>The markers are both with actual allele sizes and allele numbers. The\ndataset is distributed with the GENECOUNTING version 2.0 illustrating\ngene counting method involving chromosome X. A total of 183 patients and 157\ncontrols (150 males, 190 females) were available, together with five markers\nin MAOA (monoamine oxidase A) region with alleles 12, 9, 6, 5, 3, and the\nfirst three markers were genotyped in all individuals while the fourth and\nfifth were genotyped for 294 and 304 individuals.\n</p>\n<h3>Usage</h3>\n<pre>data(mao)</pre>\n<h3>Format</h3>\n<p>A data frame</p>\n<h3>Source</h3>\n<p>Dr Helen Latsoudis of Institute of Psychiatry, KCL</p>\n<h3>References</h3>\n<p>Zhao JH (2004). 2LD, GENECOUNTING and HAP: computer programs for linkage\ndisequilibrium analysis. Bioinformatics 20:1325-1326\n</p>\n",
    "config" : {
       "subtitle" : "gap - mao",
-      "graphType" : "Scatter2D",
-      "title" : "A study of Parkinson's disease and MAO gene"
+      "graphType" : "Heatmap",
+      "title" : "A study of Parkinson's disease and MAO gene",
+      "smpOverlays" : [
+         "gtbex3",
+         "maobi2",
+         "bi2code"
+      ]
    },
    "data" : {
       "y" : {

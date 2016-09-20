@@ -3,6 +3,8 @@
    "config" : {
       "subtitle" : "HistData - Langren.all",
       "graphType" : "Scatter2D",
+      "shapeBy" : "Author",
+      "colorBy" : "Name",
       "title" : "van Langren's Data on Longitude Distance between Toledo and Rome"
    },
    "data" : {

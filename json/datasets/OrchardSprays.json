@@ -3,6 +3,7 @@
    "config" : {
       "subtitle" : "datasets - OrchardSprays",
       "graphType" : "Scatter3D",
+      "colorBy" : "treatment",
       "title" : "Potency of Orchard Sprays"
    },
    "data" : {

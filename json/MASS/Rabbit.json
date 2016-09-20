@@ -1,8 +1,11 @@
 {
    "info" : "<table width=\"100%\" summary=\"page for Rabbit\"><tr><td>Rabbit</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>\nBlood Pressure in Rabbits\n</h2>\n<h3>Description</h3>\n<p>Five rabbits were studied on two occasions, after treatment with\nsaline (control) and after treatment with the <i>5-HT_3</i> antagonist MDL\n72222.  After each treatment ascending doses of phenylbiguanide were\ninjected intravenously at 10 minute intervals and the responses of\nmean blood pressure measured.  The goal was to test whether the\ncardiogenic chemoreflex elicited by phenylbiguanide depends on the\nactivation of <i>5-HT_3</i> receptors.\n</p>\n<h3>Usage</h3>\n<pre>\nRabbit\n</pre>\n<h3>Format</h3>\n<p>This data frame contains 60 rows and the following variables:\n</p>\n<dl>\n<dt><code>BPchange</code></dt><dd>\n<p>change in blood pressure relative to the start of the experiment.\n</p>\n</dd>\n<dt><code>Dose</code></dt><dd>\n<p>dose of Phenylbiguanide in micrograms.\n</p>\n</dd>\n<dt><code>Run</code></dt><dd>\n<p>label of run (<code>\"C1\"</code> to <code>\"C5\"</code>, then <code>\"M1\"</code> to <code>\"M5\"</code>).\n</p>\n</dd>\n<dt><code>Treatment</code></dt><dd>\n<p>placebo or the <i>5-HT_3</i> antagonist MDL 72222.\n</p>\n</dd>\n<dt><code>Animal</code></dt><dd>\n<p>label of animal used (<code>\"R1\"</code> to <code>\"R5\"</code>).\n</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>J. Ludbrook (1994)\nRepeated measurements and multiple comparisons in cardiovascular research.\n<em>Cardiovascular Research</em>\n<b>28</b>, 303&ndash;311.<br />\n[The numerical data are not in the paper but were supplied by\nProfessor Ludbrook]\n</p>\n<h3>References</h3>\n<p>Venables, W. N. and Ripley, B. D. (2002)\n<em>Modern Applied Statistics with S.</em> Fourth edition.  Springer.\n</p>\n",
    "config" : {
+      "sizeBy" : "Animal",
       "subtitle" : "MASS - Rabbit",
       "graphType" : "Scatter2D",
+      "shapeBy" : "Run",
+      "colorBy" : "Treatment",
       "title" : "Blood Pressure in Rabbits"
    },
    "data" : {

@@ -27,7 +27,7 @@ my $DESCRIPTION = <<DESCRIPTION;
 
 DESCRIPTION
 
-my ( $dataset, $help );
+my ( $dataset, $help, $blacklist );
 
 GetOptions(
   "dataset=s" => \$dataset,
@@ -35,6 +35,12 @@ GetOptions(
 ) or die $DESCRIPTION;
 
 die $DESCRIPTION if $help;
+
+$blacklist->{'HHSCyberSecurityBreaches'}++;
+$blacklist->{'breaches'}++;
+$blacklist->{'USstateAbbreviations'}++;
+$blacklist->{'bfi.dictionary'}++;
+$blacklist->{'epi.dictionary'}++;
 
 &main;
 
@@ -68,8 +74,9 @@ sub process_data {
     undef $cont;
     foreach $ds ( sort { lc($a) cmp lc($b) } keys %{ $sets->{$lib} } ) {
       if ($dataset) {
-        next unless $dataset eq $ds;
+        next unless $dataset eq $ds || $dataset eq $lib;
       }
+      next if $blacklist->{$ds};
       push @{$cont}, [ $ds, "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/$lib/$ds.json" ];
       &create_json( $lib, $ds, $sets->{$lib}{$ds} );
     }
@@ -86,7 +93,7 @@ sub create_json {
 
   my ( $lib, $ds, $title ) = @_;
 
-  my ( @header, $i, $ii, $j, @line, $data, $unique, @rows, $json, $type, $config, $after, $t, $s, $n, $u, $c, $info, @keys, $ts );
+  my ( @header, $i, $ii, $j, @line, $data, $unique, @rows, $json, $type, $config, $after, $t, $s, $n, $u, $c, $info, @keys, $l, $ts );
 
   my $csv = "csv/$lib/$ds.csv";
   my $doc = "doc/$lib/$ds.html";
@@ -160,7 +167,7 @@ sub create_json {
     }
   }
 
-  if ($t < 1) {
+  if ( $t < 1 ) {
     $t++;
     push @{$type}, 'Numeric';
     push @header, 'Row';
@@ -181,36 +188,55 @@ sub create_json {
   }
   close FILE;
 
-  ## Create Object
-  if ($t == 1) {
+  ## Assign Graph Type
+  $l = scalar @$data;
+  if ( $t == 1 ) {
     if ($c) {
-      $config->{graphType} = 'Boxplot';              
+      $config->{graphType} = 'Boxplot';
+      $ts++;
     } else {
-      if (scalar @$data > 20) {
+      if ( $l > 20 ) {
         $config->{graphType} = 'Treemap';
         $ts++;
+      } elsif ( $l > 10 ) {
+        $config->{graphType} = 'Pie';
       } else {
-        $config->{graphType} = 'Bar';        
+        $config->{graphType} = 'Bar';
+        $ts++;
       }
-    } 
-  } elsif ($t == 2) {
-    $config->{graphType} = 'Scatter2D';    
-    $ts++;
-  } elsif ($t == 3) {
+    }
+  } elsif ( $t == 2 ) {
+    $config->{graphType} = 'Scatter2D';
+  } elsif ( $t == 3 ) {
     $config->{graphType} = 'Scatter3D';
-    $ts++;
   } elsif ( $t > 3 && $t < 6 ) {
     $config->{graphType}         = 'Scatter2D';
     $config->{scatterPlotMatrix} = 1;
-    $ts++;
-  } elsif ( $t > 10 && scalar @$data > 10 ) {
+  } elsif ( $t > 10 && $l > 10 ) {
     $config->{graphType} = 'Heatmap';
-  } else {
-    $config->{graphType} = 'Scatter2D';    
     $ts++;
+  } else {
+    if ( $l == 2 ) {
+      $config->{graphType} = 'Scatter2D';
+      $ts++;
+    } elsif ( $l == 3 ) {
+      $config->{graphType} = 'Scatter3D';
+      $ts++;
+    } elsif ( $l > 3 && $l < 6 ) {
+      $config->{graphType}         = 'Scatter2D';
+      $config->{scatterPlotMatrix} = 1;
+      $ts++;
+    } elsif ( $l > $t ) {
+      $config->{graphType} = 'Heatmap';
+      $ts++;
+    } else {
+      $config->{graphType} = 'Scatter2D';
+      $ts++;
+    }
   }
-
-  if ( $t > 3 || $t == 1) {
+  
+  ## Create object
+  if ($ts) {
     if ( @rows && scalar @rows == scalar @$data ) {
       @{ $json->{y}{smps} } = @rows;
     } else {
@@ -255,7 +281,6 @@ sub create_json {
       }
     }
   }
-
   if ( !$json->{y}{smps} || !$json->{y}{vars} ) {
     print "$lib -> $ds\n";
     print "Header:\n";
@@ -271,70 +296,100 @@ sub create_json {
     print "Unique = $u\n";
     print "$lib -> $ds\n";
     exit;
-  } else {
-    if ( scalar @{ $json->{y}{smps} } == 1 ) {
-      if ( scalar @{ $json->{y}{vars} } > 20 ) {
-        $config->{graphType} = 'Treemap';
-      } elsif ( scalar @{ $json->{y}{vars} } > 10 ) {
-        $config->{graphType} = 'Pie';
-      } else {
-        $config->{graphType} = 'Bar';
-      }
-    } elsif ( scalar @{ $json->{y}{vars} } == 1 ) {
-      if ($json->{x}) {
-        @keys = keys %{$json->{x}};
-        if (scalar @keys == 1) {
-          $config->{graphType} = 'Boxplot';
-          $config->{groupingFactors} = [$keys[0]];
-        } elsif (scalar @keys == 2) {
-          $config->{graphType} = 'Bar';
-          $config->{segregateSamplesBy} = [$keys[0], $keys[1]];          
-        } else {
-          $config->{graphType} = 'Boxplot';
-          $config->{groupingFactors} = [$keys[0]];          
-        }
-      } elsif ( scalar @{ $json->{y}{smps} } > 20 ) {
-        $config->{graphType} = 'Treemap';
-      } elsif ( scalar @{ $json->{y}{smps} } > 10 ) {
-        $config->{graphType} = 'Pie';
-      } else {
-        $config->{graphType} = 'Bar';
-      }
-    } elsif ( scalar @{ $json->{y}{smps} } == 2 ) {
-      $config->{graphType} = 'Scatter2D';
-    } elsif ( scalar @{ $json->{y}{smps} } == 3 ) {
-      $config->{graphType} = 'Scatter3D';
-    } elsif ( scalar @{ $json->{y}{smps} } > 3 && scalar @{ $json->{y}{smps} } < 6 ) {
-      $config->{graphType}         = 'Scatter2D';
-      $config->{scatterPlotMatrix} = 1;
-    } elsif ( scalar @{ $json->{y}{vars} } > 20 && scalar @{ $json->{y}{smps} } > 20 ) {
-      $config->{graphType} = 'Heatmap';
-    } else {
-      $config->{graphType} = 'Scatter2D';
-    }
-    $config->{title}    = $title;
-    $config->{subtitle} = "$lib - $ds";
-
-    if ($after) {
-      $data = {
-        data   => $json,
-        config => $config,
-        after  => $after,
-        info   => $info
-      };
-    } else {
-      $data = {
-        data   => $json,
-        config => $config,
-        info   => $info
-      };
-    }
-
-    mkpath("json/$lib") unless -d "json/$lib";
-
-    open( FILE, ">json/$lib/$ds.json" );
-    print FILE JSON->new->pretty->allow_nonref->encode($data);
-    close FILE;
   }
+
+  ## Collect metadata
+  if ( $json->{x} ) {
+    @keys = keys %{ $json->{x} };
+  } elsif ( $json->{z} ) {
+    @keys = keys %{ $json->{z} };
+  } else {
+    @keys = ();
+  }
+  ## Add additional configuration
+  $config->{title}    = $title;
+  $config->{subtitle} = "$lib - $ds";
+  if ( $config->{graphType} eq 'Bar' ) {
+    ## Nothing to do
+  } elsif ( $config->{graphType} eq 'Boxplot' ) {
+    if ( $c == 1 ) {
+      $config->{groupingFactors} = [ $keys[0] ];
+    } elsif ( $c == 2 ) {
+      $config->{groupingFactors}    = [ $keys[0] ];
+      $config->{segregateSamplesBy} = [ $keys[1] ];
+    } elsif ( $c == 3 ) {
+      $config->{groupingFactors} = [ $keys[0] ];
+      $config->{segregateSamplesBy} = [ $keys[1], $keys[2] ];
+    } else {
+      $config->{graphType}          = 'Dotplot';
+      $config->{groupingFactors}    = [ $keys[0] ];
+      $config->{segregateSamplesBy} = [ $keys[1], $keys[2] ];
+      $config->{colorBy}            = $keys[3];
+    }
+  } elsif ( $config->{graphType} eq 'Treemap' ) {
+    ## Nothing to do
+  } elsif ( $config->{graphType} eq 'Pie' ) {
+    ## Nothing to do
+  } elsif ( $config->{graphType} eq 'Scatter2D' && !$ts ) {
+    if ($c) {
+      if ( $c == 1 ) {
+        $config->{colorBy} = $keys[0];
+      } elsif ( $c == 2 ) {
+        $config->{colorBy} = $keys[0];
+        $config->{shapeBy} = $keys[1];
+      } else {
+        $config->{colorBy} = $keys[0];
+        $config->{shapeBy} = $keys[1];
+        $config->{sizeBy}  = $keys[2];
+      }
+    }
+  } elsif ( $config->{graphType} eq 'Scatter3D' && !$ts ) {
+    if ($c) {
+      if ( $c == 1 ) {
+        $config->{colorBy} = $keys[0];
+      } elsif ( $c == 2 ) {
+        $config->{colorBy} = $keys[0];
+        $config->{shapeBy} = $keys[1];
+      } else {
+        $config->{colorBy} = $keys[0];
+        $config->{shapeBy} = $keys[1];
+        $config->{sizeBy}  = $keys[2];
+      }
+    }
+  } elsif ( $config->{graphType} eq 'Heatmap' ) {
+    if ($c) {
+      if ( $c == 1 ) {
+        $config->{smpOverlays} = [ $keys[0] ];
+      } elsif ( $c == 2 ) {
+        $config->{smpOverlays} = [ $keys[0], $keys[1] ];
+      } else {
+        $config->{smpOverlays} = [ $keys[0], $keys[1], $keys[2] ];
+      }
+    }
+  } else {
+    $config->{graphType} = 'Stacked';
+    if ($c) {
+      if ( $c == 1 ) {
+        $config->{smpOverlays} = [ $keys[0] ];
+      } elsif ( $c == 2 ) {
+        $config->{smpOverlays} = [ $keys[0], $keys[1] ];
+      } else {
+        $config->{smpOverlays} = [ $keys[0], $keys[1], $keys[2] ];
+      }
+    }
+  }
+
+  ## Write data object
+  $data = {
+    data   => $json,
+    config => $config,
+    info   => $info
+  };
+
+  mkpath("json/$lib") unless -d "json/$lib";
+
+  open( FILE, ">json/$lib/$ds.json" );
+  print FILE JSON->new->pretty->allow_nonref->encode($data);
+  close FILE;
 
 }

@@ -3,6 +3,7 @@
    "config" : {
       "subtitle" : "Ecdat - Wages1",
       "graphType" : "Scatter3D",
+      "colorBy" : "sex",
       "title" : "Wages"
    },
    "data" : {

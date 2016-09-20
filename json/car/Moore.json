@@ -3,6 +3,8 @@
    "config" : {
       "subtitle" : "car - Moore",
       "graphType" : "Scatter2D",
+      "shapeBy" : "partner.status",
+      "colorBy" : "fcategory",
       "title" : "Status"
    },
    "data" : {

@@ -3,6 +3,7 @@
    "config" : {
       "subtitle" : "HSAUR - plasma",
       "graphType" : "Scatter2D",
+      "colorBy" : "ESR",
       "title" : "Blood Screening Data"
    },
    "data" : {

@@ -3,40 +3,38 @@
    "config" : {
       "subtitle" : "reshape2 - smiths",
       "graphType" : "Scatter2D",
+      "scatterPlotMatrix" : 1,
+      "colorBy" : "subject",
       "title" : "Demo data describing the Smiths."
    },
    "data" : {
       "y" : {
          "smps" : [
-            "Smp1",
-            "Smp2"
-         ],
-         "data" : [
-            [
-               1,
-               1
-            ],
-            [
-               33,
-               ""
-            ],
-            [
-               90,
-               ""
-            ],
-            [
-               1.87,
-               1.54
-            ]
-         ],
-         "vars" : [
             "time",
             "age",
             "weight",
             "height"
+         ],
+         "data" : [
+            [
+               1,
+               33,
+               90,
+               1.87
+            ],
+            [
+               1,
+               "",
+               "",
+               1.54
+            ]
+         ],
+         "vars" : [
+            "Var1",
+            "Var2"
          ]
       },
-      "x" : {
+      "z" : {
          "subject" : [
             "John Smith",
             "Mary Smith"

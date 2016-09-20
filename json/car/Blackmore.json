@@ -3,6 +3,8 @@
    "config" : {
       "subtitle" : "car - Blackmore",
       "graphType" : "Scatter2D",
+      "shapeBy" : "subject",
+      "colorBy" : "group",
       "title" : "Exercise Histories of Eating-Disordered and Control Subjects"
    },
    "data" : {

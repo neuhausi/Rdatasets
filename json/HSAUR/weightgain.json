@@ -1,181 +1,109 @@
 {
    "info" : "<table width=\"100%\" summary=\"page for weightgain\"><tr><td>weightgain</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2> Gain in Weight of Rats </h2>\n<h3>Description</h3>\n<p>The data arise from an experiment to study the\ngain in weight of rats fed on four different diets, distinguished\nby amount of protein (low and high) and by source of protein\n(beef and cereal).\n</p>\n<h3>Usage</h3>\n<pre>data(\"weightgain\")</pre>\n<h3>Format</h3>\n<p>A data frame with 40 observations on the following 3 variables.\n</p>\n<dl>\n<dt><code>source</code></dt><dd><p>source of protein given, a factor with levels <code>Beef</code>\nand <code>Cereal</code>.</p>\n</dd>\n<dt><code>type</code></dt><dd><p>amount of protein given, a factor with levels <code>High</code>\nand <code>Low</code>.</p>\n</dd>\n<dt><code>weightgain</code></dt><dd><p>weigt gain in grams.</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>Ten rats are randomized to each of the four\ntreatments. The question\nof interest is how diet affects weight gain.\n</p>\n<h3>Source</h3>\n<p>D. J. Hand, F. Daly, A. D. Lunn, K. J. McConway and E. Ostrowski (1994).\n<em>A Handbook of Small Datasets</em>, Chapman and Hall/CRC, London.\n</p>\n<h3>Examples</h3>\n<pre>\n  data(\"weightgain\", package = \"HSAUR\")\n  interaction.plot(weightgain$type, weightgain$source, \n                   weightgain$weightgain)\n</pre>\n",
    "config" : {
+      "groupingFactors" : [
+         "source"
+      ],
       "subtitle" : "HSAUR - weightgain",
-      "graphType" : "Treemap",
+      "graphType" : "Boxplot",
+      "segregateSamplesBy" : [
+         "type"
+      ],
       "title" : "Gain in Weight of Rats"
    },
    "data" : {
       "y" : {
          "smps" : [
-            "weightgain"
+            "Smp1",
+            "Smp2",
+            "Smp3",
+            "Smp4",
+            "Smp5",
+            "Smp6",
+            "Smp7",
+            "Smp8",
+            "Smp9",
+            "Smp10",
+            "Smp11",
+            "Smp12",
+            "Smp13",
+            "Smp14",
+            "Smp15",
+            "Smp16",
+            "Smp17",
+            "Smp18",
+            "Smp19",
+            "Smp20",
+            "Smp21",
+            "Smp22",
+            "Smp23",
+            "Smp24",
+            "Smp25",
+            "Smp26",
+            "Smp27",
+            "Smp28",
+            "Smp29",
+            "Smp30",
+            "Smp31",
+            "Smp32",
+            "Smp33",
+            "Smp34",
+            "Smp35",
+            "Smp36",
+            "Smp37",
+            "Smp38",
+            "Smp39",
+            "Smp40"
          ],
          "data" : [
             [
-               90
-            ],
-            [
-               76
-            ],
-            [
-               90
-            ],
-            [
-               64
-            ],
-            [
-               86
-            ],
-            [
-               51
-            ],
-            [
-               72
-            ],
-            [
-               90
-            ],
-            [
-               95
-            ],
-            [
-               78
-            ],
-            [
-               73
-            ],
-            [
-               102
-            ],
-            [
-               118
-            ],
-            [
-               104
-            ],
-            [
-               81
-            ],
-            [
-               107
-            ],
-            [
-               100
-            ],
-            [
-               87
-            ],
-            [
-               117
-            ],
-            [
-               111
-            ],
-            [
-               107
-            ],
-            [
-               95
-            ],
-            [
-               97
-            ],
-            [
-               80
-            ],
-            [
-               98
-            ],
-            [
-               74
-            ],
-            [
-               74
-            ],
-            [
-               67
-            ],
-            [
-               89
-            ],
-            [
-               58
-            ],
-            [
-               98
-            ],
-            [
-               74
-            ],
-            [
-               56
-            ],
-            [
-               111
-            ],
-            [
-               95
-            ],
-            [
-               88
-            ],
-            [
-               82
-            ],
-            [
-               77
-            ],
-            [
-               86
-            ],
-            [
+               90,
+               76,
+               90,
+               64,
+               86,
+               51,
+               72,
+               90,
+               95,
+               78,
+               73,
+               102,
+               118,
+               104,
+               81,
+               107,
+               100,
+               87,
+               117,
+               111,
+               107,
+               95,
+               97,
+               80,
+               98,
+               74,
+               74,
+               67,
+               89,
+               58,
+               98,
+               74,
+               56,
+               111,
+               95,
+               88,
+               82,
+               77,
+               86,
                92
             ]
          ],
          "vars" : [
-            "Var1",
-            "Var2",
-            "Var3",
-            "Var4",
-            "Var5",
-            "Var6",
-            "Var7",
-            "Var8",
-            "Var9",
-            "Var10",
-            "Var11",
-            "Var12",
-            "Var13",
-            "Var14",
-            "Var15",
-            "Var16",
-            "Var17",
-            "Var18",
-            "Var19",
-            "Var20",
-            "Var21",
-            "Var22",
-            "Var23",
-            "Var24",
-            "Var25",
-            "Var26",
-            "Var27",
-            "Var28",
-            "Var29",
-            "Var30",
-            "Var31",
-            "Var32",
-            "Var33",
-            "Var34",
-            "Var35",
-            "Var36",
-            "Var37",
-            "Var38",
-            "Var39",
-            "Var40"
+            "weightgain"
          ]
       },
-      "z" : {
+      "x" : {
          "source" : [
             "Beef",
             "Beef",

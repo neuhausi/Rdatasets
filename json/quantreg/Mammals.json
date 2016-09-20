@@ -3,6 +3,8 @@
    "config" : {
       "subtitle" : "quantreg - Mammals",
       "graphType" : "Scatter2D",
+      "shapeBy" : "hoppers",
+      "colorBy" : "specials",
       "title" : "Garland(1983) Data on Running Speed of Mammals"
    },
    "data" : {

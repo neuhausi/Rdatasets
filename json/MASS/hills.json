@@ -3,6 +3,7 @@
    "config" : {
       "subtitle" : "MASS - hills",
       "graphType" : "Scatter3D",
+      "colorBy" : null,
       "title" : "Record Times in Scottish Hill Races"
    },
    "data" : {

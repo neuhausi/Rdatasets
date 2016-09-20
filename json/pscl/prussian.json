@@ -3,6 +3,7 @@
    "config" : {
       "subtitle" : "pscl - prussian",
       "graphType" : "Scatter2D",
+      "colorBy" : "corp",
       "title" : "Prussian army horse kick data"
    },
    "data" : {

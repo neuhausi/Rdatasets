@@ -2,8 +2,11 @@
    "info" : "<table width=\"100%\" summary=\"page for RepVict\"><tr><td>RepVict</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Repeat Victimization Data</h2>\n<h3>Description</h3>\n<p>Data from Reiss (1980) given by Fienberg (1980) about instances of\nrepeat victimization for households in the U.S. National Crime\nSurvey.\n</p>\n<h3>Usage</h3>\n<pre>\ndata(\"RepVict\")\n</pre>\n<h3>Format</h3>\n<p>A 2-dimensional array resulting from cross-tabulating victimization.\nThe variables and their levels are as follows:\n</p>\n<table summary=\"Rd table\">\n<tr>\n <td style=\"text-align: right;\">\n    No </td><td style=\"text-align: left;\"> Name </td><td style=\"text-align: left;\"> Levels </td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    1 </td><td style=\"text-align: left;\"> First Victimization </td><td style=\"text-align: left;\"> Rape, Assault, Robbery, Pickpocket,\n    Personal Larceny, </td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    </td><td style=\"text-align: left;\"> </td><td style=\"text-align: left;\"> Burglary, Household Larceny, Auto Theft </td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    2 </td><td style=\"text-align: left;\"> Second Victimization </td><td style=\"text-align: left;\"> Rape, Assault, Robbery, Pickpocket,\n    Personal Larceny,</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    </td><td style=\"text-align: left;\"> </td><td style=\"text-align: left;\"> Burglary, Household Larceny, Auto Theft\n  </td>\n</tr>\n</table>\n<h3>Source</h3>\n<p>Michael Friendly (2000),\nVisualizing Categorical Data, page 113.\n</p>\n<h3>References</h3>\n<p>S. E. Fienberg (1980),\n<em>The Analysis of Cross-Classified Categorical Data</em>,\nMIT Press, Cambridge, 2nd edition.\n</p>\n<p>A. J. J. Reiss (1980),\nVictim proneness by type of crime in repeat victimization.\nIn S. E. Fienberg &amp; A. J. J. Reiss (eds.),\n<em>Indicators of Crime and Criminal Justice</em>.\nU.S. Government Printing Office, Washington, DC.\n</p>\n<p>M. Friendly (2000),\n<em>Visualizing Categorical Data</em>.\nSAS Institute, Cary, NC.\n</p>\n<h3>Examples</h3>\n<pre>\ndata(\"RepVict\")\nmosaic(RepVict[-c(4,7),-c(4,7)], gp = shading_max,\n       main = \"Repeat Victimization Data\")\n</pre>\n",
    "config" : {
       "subtitle" : "vcd - RepVict",
-      "graphType" : "Scatter2D",
-      "title" : "Repeat Victimization Data"
+      "graphType" : "Stacked",
+      "title" : "Repeat Victimization Data",
+      "smpOverlays" : [
+         null
+      ]
    },
    "data" : {
       "y" : {

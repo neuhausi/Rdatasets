@@ -3,6 +3,7 @@
    "config" : {
       "subtitle" : "MASS - whiteside",
       "graphType" : "Scatter2D",
+      "colorBy" : "Insul",
       "title" : "House Insulation: Whiteside's Data"
    },
    "data" : {

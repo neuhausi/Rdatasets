@@ -3,6 +3,8 @@
    "config" : {
       "subtitle" : "car - Ornstein",
       "graphType" : "Scatter2D",
+      "shapeBy" : "sector",
+      "colorBy" : "nation",
       "title" : "Interlocking Directorates Among Major Canadian Firms"
    },
    "data" : {

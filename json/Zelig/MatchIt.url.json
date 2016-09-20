@@ -1,29 +1,33 @@
 {
    "info" : "<table width=\"100%\" summary=\"page for MatchIt.url\"><tr><td>MatchIt.url</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Table of links for Zelig</h2>\n<h3>Description</h3>\n<p>Table of linds for <code>help.zelig</code> for the companion MatchIt package.  \n</p>\n",
    "config" : {
+      "groupingFactors" : [
+         "MatchIt"
+      ],
       "subtitle" : "Zelig - MatchIt.url",
-      "graphType" : "Bar",
+      "graphType" : "Boxplot",
+      "segregateSamplesBy" : [
+         "http...gking.harvard.edu.matchit"
+      ],
       "title" : "Table of links for Zelig"
    },
    "data" : {
       "y" : {
          "smps" : [
-            "Row"
+            "Smp1",
+            "Smp2"
          ],
          "data" : [
             [
-               1
-            ],
-            [
+               1,
                2
             ]
          ],
          "vars" : [
-            "Var1",
-            "Var2"
+            "Row"
          ]
       },
-      "z" : {
+      "x" : {
          "MatchIt" : [
             "matchit",
             "match.data"

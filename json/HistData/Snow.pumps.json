@@ -3,6 +3,7 @@
    "config" : {
       "subtitle" : "HistData - Snow.pumps",
       "graphType" : "Scatter3D",
+      "colorBy" : "label",
       "title" : "John Snow's map and data on the 1854 London Cholera outbreak"
    },
    "data" : {

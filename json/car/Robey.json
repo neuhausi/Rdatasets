@@ -3,6 +3,8 @@
    "config" : {
       "subtitle" : "car - Robey",
       "graphType" : "Scatter2D",
+      "shapeBy" : null,
+      "colorBy" : "region",
       "title" : "Fertility and Contraception"
    },
    "data" : {

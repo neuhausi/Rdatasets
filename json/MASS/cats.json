@@ -3,6 +3,7 @@
    "config" : {
       "subtitle" : "MASS - cats",
       "graphType" : "Scatter2D",
+      "colorBy" : "Sex",
       "title" : "Anatomical Data from Domestic Cats"
    },
    "data" : {

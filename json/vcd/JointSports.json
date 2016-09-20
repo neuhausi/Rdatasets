@@ -1,8 +1,11 @@
 {
    "info" : "<table width=\"100%\" summary=\"page for JointSports\"><tr><td>JointSports</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Opinions About Joint Sports</h2>\n<h3>Description</h3>\n<p>Data from a Danish study in 1983 and 1985 about sports activities and\nthe opinion about joint sports with the other gender among 16&ndash;19 year\nold high school students.\n</p>\n<h3>Usage</h3>\n<pre>\ndata(\"JointSports\")\n</pre>\n<h3>Format</h3>\n<p>A data frame with 40 observations and 5 variables.\n</p>\n<dl>\n<dt>Freq</dt><dd><p>frequency.</p>\n</dd>\n<dt>opinion</dt><dd><p>factor indicating opinion about sports joint with the\nother gender (very good, good, indifferent, bad, very bad).</p>\n</dd>\n<dt>year</dt><dd><p>factor indicating year of study (1983, 1985).</p>\n</dd>\n<dt>grade</dt><dd><p>factor indicating school grade (1st, 3rd).</p>\n</dd>\n<dt>gender</dt><dd><p>factor indicating gender (Boy, Girl).</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>E. B. Andersen (1991),\nThe Statistical Analysis of Categorical Data, page 210.\n</p>\n<h3>References</h3>\n<p>E. B. Andersen (1991),\n<em>The Statistical Analysis of Categorical Data</em>.\n2nd edition.\nSpringer-Verlag, Berlin.\n</p>\n<h3>Examples</h3>\n<pre>\nlibrary(MASS)\ndata(\"JointSports\")\ntab &lt;- xtabs(Freq ~ gender + opinion + grade + year, data = JointSports)\ndoubledecker(opinion ~ gender + year + grade, data = tab)\nloglm(~ opinion* (gender + grade+ year) + gender*year*grade, data = tab)\n</pre>\n",
    "config" : {
+      "sizeBy" : "gender",
       "subtitle" : "vcd - JointSports",
       "graphType" : "Scatter2D",
+      "shapeBy" : "grade",
+      "colorBy" : "opinion",
       "title" : "Opinions About Joint Sports"
    },
    "data" : {

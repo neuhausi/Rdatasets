@@ -3,6 +3,8 @@
    "config" : {
       "subtitle" : "pscl - presidentialElections",
       "graphType" : "Scatter2D",
+      "shapeBy" : "state",
+      "colorBy" : "south",
       "title" : "elections for U.S. President"
    },
    "data" : {

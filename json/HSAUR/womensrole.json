@@ -3,6 +3,7 @@
    "config" : {
       "subtitle" : "HSAUR - womensrole",
       "graphType" : "Scatter3D",
+      "colorBy" : "sex",
       "title" : "Womens Role in Society"
    },
    "data" : {

@@ -3,6 +3,7 @@
    "config" : {
       "subtitle" : "HistData - Minard.cities",
       "graphType" : "Scatter2D",
+      "colorBy" : "city",
       "title" : "Data from Minard's famous graphic map of Napoleon's march on Moscow"
    },
    "data" : {

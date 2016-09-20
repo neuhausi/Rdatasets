@@ -3,6 +3,7 @@
    "config" : {
       "subtitle" : "survival - leukemia",
       "graphType" : "Scatter2D",
+      "colorBy" : "x",
       "title" : "Acute Myelogenous Leukemia survival data"
    },
    "data" : {

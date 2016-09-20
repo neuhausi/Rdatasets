@@ -3,6 +3,7 @@
    "config" : {
       "subtitle" : "HSAUR - pistonrings",
       "graphType" : "Scatter3D",
+      "colorBy" : null,
       "title" : "Piston Rings Failures"
    },
    "data" : {

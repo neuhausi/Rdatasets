@@ -3,6 +3,7 @@
    "config" : {
       "subtitle" : "MASS - mammals",
       "graphType" : "Scatter2D",
+      "colorBy" : null,
       "title" : "Brain and Body Weights for 62 Species of Land Mammals"
    },
    "data" : {

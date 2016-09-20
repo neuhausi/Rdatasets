@@ -3,70 +3,81 @@
    "config" : {
       "subtitle" : "HistData - PolioTrials",
       "graphType" : "Scatter2D",
+      "shapeBy" : "Group",
+      "scatterPlotMatrix" : 1,
+      "colorBy" : "Experiment",
       "title" : "Polio Field Trials Data"
    },
    "data" : {
       "y" : {
          "smps" : [
-            "Smp1",
-            "Smp2",
-            "Smp3",
-            "Smp4",
-            "Smp5",
-            "Smp6",
-            "Smp7",
-            "Smp8"
-         ],
-         "data" : [
-            [
-               200745,
-               201229,
-               338778,
-               8484,
-               221998,
-               725173,
-               123605,
-               9904
-            ],
-            [
-               33,
-               115,
-               121,
-               1,
-               38,
-               330,
-               43,
-               4
-            ],
-            [
-               24,
-               27,
-               36,
-               1,
-               18,
-               61,
-               11,
-               0
-            ],
-            [
-               25,
-               20,
-               25,
-               0,
-               20,
-               48,
-               12,
-               0
-            ]
-         ],
-         "vars" : [
             "Population",
             "Paralytic",
             "NonParalytic",
             "FalseReports"
+         ],
+         "data" : [
+            [
+               200745,
+               33,
+               24,
+               25
+            ],
+            [
+               201229,
+               115,
+               27,
+               20
+            ],
+            [
+               338778,
+               121,
+               36,
+               25
+            ],
+            [
+               8484,
+               1,
+               1,
+               0
+            ],
+            [
+               221998,
+               38,
+               18,
+               20
+            ],
+            [
+               725173,
+               330,
+               61,
+               48
+            ],
+            [
+               123605,
+               43,
+               11,
+               12
+            ],
+            [
+               9904,
+               4,
+               0,
+               0
+            ]
+         ],
+         "vars" : [
+            "Var1",
+            "Var2",
+            "Var3",
+            "Var4",
+            "Var5",
+            "Var6",
+            "Var7",
+            "Var8"
          ]
       },
-      "x" : {
+      "z" : {
          "Experiment" : [
             "RandomizedControl",
             "RandomizedControl",

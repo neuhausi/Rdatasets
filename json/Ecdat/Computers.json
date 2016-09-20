@@ -2,8 +2,13 @@
    "info" : "<table width=\"100%\" summary=\"page for Computers\"><tr><td>Computers</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Prices of Personal Computers </h2>\n<h3>Description</h3>\n<p>a cross-section from 1993 to 1995\n</p>\n<p><em>number of observations</em> :  6259\n</p>\n<p><em>observation</em> :  goods\n</p>\n<p><em>country</em> :  United States\n</p>\n<h3>Usage</h3>\n<pre>data(Computers)</pre>\n<h3>Format</h3>\n<p>A dataframe containing :\n</p>\n<dl>\n<dt>price</dt><dd><p>price in US dollars of 486 PCs</p>\n</dd>\n<dt>speed</dt><dd><p>clock speed in MHz</p>\n</dd>\n<dt>hd</dt><dd><p>size of hard drive in MB</p>\n</dd>\n<dt>ram</dt><dd><p>size of Ram in in MB</p>\n</dd>\n<dt>screen</dt><dd><p>size of screen in inches </p>\n</dd>\n<dt>cd</dt><dd><p>is a CD-ROM present  ?</p>\n</dd>\n<dt>multi</dt><dd><p>is a multimedia kit (speakers, sound card) included ?</p>\n</dd>\n<dt>premium</dt><dd><p>is the manufacturer was a &quot;premium&quot; firm (IBM, COMPAQ) ?</p>\n</dd>\n<dt>ads</dt><dd><p>number of 486 price listings for each month</p>\n</dd>\n<dt>trend</dt><dd><p>time trend indicating month starting from January of 1993 to November of 1995.</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>Stengos, T.  and  E.  Zacharias (2005) &ldquo;Intertemporal pricing and price discrimination : a semiparametric hedonic analysis of the personal computer market&rdquo;, <em>Journal of Applied Econometrics</em>, <b>forthcoming</b>.\n</p>\n<h3>References</h3>\n<p>Journal of Applied Econometrics data archive : <a href=\"http://jae.wiley.com/jae/\">http://jae.wiley.com/jae/</a>.\n</p>\n<h3>See Also</h3>\n<p><code>Index.Source</code>, <code>Index.Economics</code>, <code>Index.Econometrics</code>, <code>Index.Observations</code></p>\n",
    "config" : {
       "subtitle" : "Ecdat - Computers",
-      "graphType" : "Scatter2D",
-      "title" : "Prices of Personal Computers"
+      "graphType" : "Heatmap",
+      "title" : "Prices of Personal Computers",
+      "smpOverlays" : [
+         "cd",
+         "premium",
+         "multi"
+      ]
    },
    "data" : {
       "y" : {

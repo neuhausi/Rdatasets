@@ -3,6 +3,7 @@
    "config" : {
       "subtitle" : "HSAUR - birthdeathrates",
       "graphType" : "Scatter2D",
+      "colorBy" : null,
       "title" : "Birth and Death Rates Data"
    },
    "data" : {

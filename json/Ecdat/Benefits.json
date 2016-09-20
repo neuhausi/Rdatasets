@@ -2,8 +2,13 @@
    "info" : "<table width=\"100%\" summary=\"page for Benefits\"><tr><td>Benefits</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Unemployement of Blue Collar Workers </h2>\n<h3>Description</h3>\n<p>a cross-section from 1972\n</p>\n<p><em>number of observations</em> :  4877\n</p>\n<p><em>observation</em> :  individuals\n</p>\n<p><em>country</em> :  United States\n</p>\n<h3>Usage</h3>\n<pre>data(Benefits)</pre>\n<h3>Format</h3>\n<p>A time serie containing :\n</p>\n<dl>\n<dt>stateur</dt><dd><p>state unemployment rate (in %)</p>\n</dd>\n<dt>statemb</dt><dd><p>state maximum benefit level</p>\n</dd>\n<dt>state</dt><dd><p>state of residence code</p>\n</dd>\n<dt>age</dt><dd><p>age in years</p>\n</dd>\n<dt>tenure</dt><dd><p>  years of tenure in job lost</p>\n</dd>\n<dt>joblost</dt><dd><p>a factor with levels (slack\\_work,position\\_abolished,seasonal\\_job\\_ended,other)</p>\n</dd>\n<dt>nwhite</dt><dd><p>non-white ?</p>\n</dd>\n<dt>school12</dt><dd><p>more than 12 years of school ?</p>\n</dd>\n<dt>sex</dt><dd><p>a factor with levels (male,female) </p>\n</dd>\n<dt>bluecol</dt><dd><p>blue collar worker ?</p>\n</dd>\n<dt>smsa</dt><dd><p>lives is smsa ?</p>\n</dd>\n<dt>married</dt><dd><p>married ?</p>\n</dd>\n<dt>dkids</dt><dd><p>has kids ?</p>\n</dd>\n<dt>dykids</dt><dd><p>has young kids (0-5 yrs) ?</p>\n</dd>\n<dt>yrdispl</dt><dd><p> year of job displacement (1982=1,..., 1991=10)</p>\n</dd>\n<dt>rr</dt><dd><p>replacement rate</p>\n</dd>\n<dt>head</dt><dd><p>is  head of household ?</p>\n</dd>\n<dt>ui</dt><dd><p> applied for (and received) UI benefits ?</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>McCall, B.P. (1995) &ldquo;The impact of unemployment insurance benefit levels on recipiency&rdquo;, <em>Journal of Business and Economic Statistics</em>, <b>13</b>, 189&ndash;198.\n</p>\n<h3>References</h3>\n<p>Verbeek, Marno (2004) <em>A guide to modern econometrics</em>, John Wiley and Sons, <a href=\"https://feb.kuleuven.be/GME/\">https://feb.kuleuven.be/GME/</a>, chapter 7.\n</p>\n<p>Journal of Business Economics and Statistics web site : <a href=\"http://www.amstat.org/publications/jbes/\">http://www.amstat.org/publications/jbes/</a>.\n</p>\n<h3>See Also</h3>\n<p><code>Index.Source</code>, <code>Index.Economics</code>, <code>Index.Econometrics</code>, <code>Index.Observations</code>,\n</p>\n<p><code>Index.Time.Series</code></p>\n",
    "config" : {
       "subtitle" : "Ecdat - Benefits",
-      "graphType" : "Scatter2D",
-      "title" : "Unemployement of Blue Collar Workers"
+      "graphType" : "Heatmap",
+      "title" : "Unemployement of Blue Collar Workers",
+      "smpOverlays" : [
+         "head",
+         "dkids",
+         "joblost"
+      ]
    },
    "data" : {
       "y" : {

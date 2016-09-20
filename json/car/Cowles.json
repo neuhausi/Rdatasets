@@ -3,6 +3,8 @@
    "config" : {
       "subtitle" : "car - Cowles",
       "graphType" : "Scatter2D",
+      "shapeBy" : "volunteer",
+      "colorBy" : "sex",
       "title" : "Cowles and Davis's Data on Volunteering"
    },
    "data" : {

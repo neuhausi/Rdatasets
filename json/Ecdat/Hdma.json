@@ -2,8 +2,13 @@
    "info" : "<table width=\"100%\" summary=\"page for Hdma\"><tr><td>Hdma</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>The Boston HDMA Data Set </h2>\n<h3>Description</h3>\n<p>a cross-section from 1997-1998\n</p>\n<p><em>number of observations</em> :  2381\n</p>\n<p><em>observation</em> :  individuals\n</p>\n<p><em>country</em> :  United States\n</p>\n<h3>Usage</h3>\n<pre>data(Hdma)</pre>\n<h3>Format</h3>\n<p>A dataframe containing :\n</p>\n<dl>\n<dt>dir</dt><dd><p>debt payments to total income ratio</p>\n</dd>\n<dt>hir</dt><dd><p>housing expenses to income ratio</p>\n</dd>\n<dt>lvr</dt><dd><p>ratio of size of loan to assessed value of property</p>\n</dd>\n<dt>ccs</dt><dd><p>consumer credit score from 1 to 6 (a low value being a good score) </p>\n</dd>\n<dt>mcs</dt><dd><p>mortgage credit score from 1 to 4 (a low value being a good score) </p>\n</dd>\n<dt>pbcr</dt><dd><p>public bad credit record ? </p>\n</dd>\n<dt>dmi</dt><dd><p>denied mortgage insurance ?</p>\n</dd>\n<dt>self</dt><dd><p>self employed ?</p>\n</dd>\n<dt>single</dt><dd><p>is the applicant  single ?</p>\n</dd>\n<dt>uria</dt><dd><p>1989 Massachusetts unemployment rate in the applicant's industry</p>\n</dd>\n<dt>comdominiom</dt><dd><p> is  unit  condominium ?</p>\n</dd>\n<dt>black</dt><dd><p>is the applicant black ?</p>\n</dd>\n<dt>deny</dt><dd><p>mortgage application denied ?</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>Federal Reserve Bank of Boston.\n</p>\n<p>Munnell, Alicia H.,  Geoffrey M.B.   Tootell,  Lynne E.   Browne and  James  McEneaney (1996) &ldquo;Mortgage lending in Boston: Interpreting HDMA data&rdquo;, <em>American Economic Review</em>, 25-53.\n</p>\n<h3>References</h3>\n<p>Stock, James H.  and  Mark W.  Watson (2003) <em>Introduction to Econometrics</em>, Addison-Wesley Educational Publishers, <a href=\"http://wps.aw.com/aw_stockwatsn_economtrcs_1\">http://wps.aw.com/aw_stockwatsn_economtrcs_1</a>, chapter 9.\n</p>\n<h3>See Also</h3>\n<p><code>Index.Source</code>, <code>Index.Economics</code>, <code>Index.Econometrics</code>, <code>Index.Observations</code></p>\n",
    "config" : {
       "subtitle" : "Ecdat - Hdma",
-      "graphType" : "Scatter2D",
-      "title" : "The Boston HDMA Data Set"
+      "graphType" : "Heatmap",
+      "title" : "The Boston HDMA Data Set",
+      "smpOverlays" : [
+         "single",
+         "black",
+         "deny"
+      ]
    },
    "data" : {
       "y" : {

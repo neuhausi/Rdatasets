@@ -3,6 +3,7 @@
    "config" : {
       "subtitle" : "sandwich - PublicSchools",
       "graphType" : "Scatter2D",
+      "colorBy" : null,
       "title" : "US Expenditures for Public Schools"
    },
    "data" : {

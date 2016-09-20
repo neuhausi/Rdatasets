@@ -4,6 +4,7 @@
       "subtitle" : "vcd - SexualFun",
       "graphType" : "Scatter2D",
       "scatterPlotMatrix" : 1,
+      "colorBy" : null,
       "title" : "Sex is Fun"
    },
    "data" : {
@@ -17,25 +18,25 @@
          "data" : [
             [
                7,
-               2,
-               1,
-               2
-            ],
-            [
                7,
-               8,
-               5,
-               8
+               2,
+               3
             ],
             [
                2,
+               8,
                3,
+               7
+            ],
+            [
+               1,
+               5,
                4,
                9
             ],
             [
-               3,
-               7,
+               2,
+               8,
                9,
                14
             ]

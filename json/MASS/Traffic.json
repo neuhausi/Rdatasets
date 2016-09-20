@@ -3,6 +3,7 @@
    "config" : {
       "subtitle" : "MASS - Traffic",
       "graphType" : "Scatter3D",
+      "colorBy" : "limit",
       "title" : "Effect of Swedish Speed Limits on Accidents"
    },
    "data" : {

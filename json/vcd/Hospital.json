@@ -3,6 +3,7 @@
    "config" : {
       "subtitle" : "vcd - Hospital",
       "graphType" : "Scatter3D",
+      "colorBy" : null,
       "title" : "Hospital data"
    },
    "data" : {

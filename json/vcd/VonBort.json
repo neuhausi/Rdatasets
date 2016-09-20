@@ -3,6 +3,8 @@
    "config" : {
       "subtitle" : "vcd - VonBort",
       "graphType" : "Scatter2D",
+      "shapeBy" : "fisher",
+      "colorBy" : "corps",
       "title" : "Von Bortkiewicz Horse Kicks Data"
    },
    "data" : {

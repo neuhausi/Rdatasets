@@ -3,6 +3,7 @@
    "config" : {
       "subtitle" : "car - Burt",
       "graphType" : "Scatter2D",
+      "colorBy" : "class",
       "title" : "Fraudulent Data on IQs of Twins Raised Apart"
    },
    "data" : {

@@ -2,8 +2,11 @@
    "info" : "<table width=\"100%\" summary=\"page for Cracker\"><tr><td>Cracker</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Choice of Brand for Crakers </h2>\n<h3>Description</h3>\n<p>a cross-section\n</p>\n<p><em>number of observations</em> :  3292\n</p>\n<p><em>observation</em> :  individuals\n</p>\n<p><em>country</em> :  United States\n</p>\n<h3>Usage</h3>\n<pre>data(Cracker)</pre>\n<h3>Format</h3>\n<p>A dataframe containing :\n</p>\n<dl>\n<dt>id</dt><dd><p>individuals identifiers</p>\n</dd>\n<dt>choice</dt><dd><p>one of sunshine, kleebler, nabisco, private</p>\n</dd>\n<dt>disp.z</dt><dd><p>is there a display for brand z ?</p>\n</dd>\n<dt>feat.z</dt><dd><p>is there a newspaper feature advertisement for brand z ?</p>\n</dd>\n<dt>price.z</dt><dd><p>price of brand z</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>Jain, Dipak C.,  Naufel J.    Vilcassim and  Pradeep K.  Chintagunta (1994) &ldquo;A random&ndash;coefficients logit brand&ndash;choice model applied to panel data&rdquo;, <em>Journal of Business and Economics Statistics</em>, <b>12(3)</b>, 317.\n</p>\n<p>Paap, R.  and  Philip Hans  Frances (2000) &ldquo;A dynamic multinomial probit model for brand choices with different short&ndash;run effects of marketing mix variables&rdquo;, <em>Journal of Applied Econometrics</em>, <b>15(6)</b>, 717&ndash;744.\n</p>\n<h3>References</h3>\n<p>Journal of Business Economics and Statistics web site : <a href=\"http://www.amstat.org/publications/jbes/\">http://www.amstat.org/publications/jbes/</a>.\n</p>\n<h3>See Also</h3>\n<p><code>Index.Source</code>, <code>Index.Economics</code>, <code>Index.Econometrics</code>, <code>Index.Observations</code></p>\n",
    "config" : {
       "subtitle" : "Ecdat - Cracker",
-      "graphType" : "Scatter2D",
-      "title" : "Choice of Brand for Crakers"
+      "graphType" : "Heatmap",
+      "title" : "Choice of Brand for Crakers",
+      "smpOverlays" : [
+         "choice"
+      ]
    },
    "data" : {
       "y" : {

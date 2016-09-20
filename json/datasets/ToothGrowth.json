@@ -3,6 +3,7 @@
    "config" : {
       "subtitle" : "datasets - ToothGrowth",
       "graphType" : "Scatter2D",
+      "colorBy" : "supp",
       "title" : "The Effect of Vitamin C on Tooth Growth in Guinea Pigs"
    },
    "data" : {

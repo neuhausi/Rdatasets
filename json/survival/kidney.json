@@ -2,8 +2,11 @@
    "info" : "<table width=\"100%\" summary=\"page for kidney\"><tr><td>kidney</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Kidney catheter data</h2>\n<h3>Description</h3>\n<p>Data on the recurrence times to infection, at the point of insertion of\nthe catheter, for kidney patients using portable dialysis equipment.\nCatheters may be removed for reasons other than infection, in which case\nthe observation is censored.  Each patient has exactly 2 observations.\n</p>\n<p>This data has often been used to illustrate the use of random effects\n(frailty) in a survival model.  However, one of the males (id 21) is a\nlarge outlier, with much longer survival than his peers.  If this\nobservation is removed no evidence remains for a random subject effect.\n</p>\n<h3>Format</h3>\n<table summary=\"Rd table\">\n<tr>\n <td style=\"text-align: left;\">\npatient:</td><td style=\"text-align: left;\"> id</td>\n</tr>\n<tr>\n <td style=\"text-align: left;\">\ntime:</td><td style=\"text-align: left;\"> time</td>\n</tr>\n<tr>\n <td style=\"text-align: left;\">\nstatus:</td><td style=\"text-align: left;\"> event status</td>\n</tr>\n<tr>\n <td style=\"text-align: left;\">\nage:</td><td style=\"text-align: left;\"> in years</td>\n</tr>\n<tr>\n <td style=\"text-align: left;\">\nsex:</td><td style=\"text-align: left;\"> 1=male, 2=female</td>\n</tr>\n<tr>\n <td style=\"text-align: left;\">\ndisease:</td><td style=\"text-align: left;\">  disease type (0=GN, 1=AN, 2=PKD, 3=Other)</td>\n</tr>\n<tr>\n <td style=\"text-align: left;\">\nfrail:</td><td style=\"text-align: left;\"> frailty estimate from original paper</td>\n</tr>\n<tr>\n <td style=\"text-align: left;\">\n</td>\n</tr>\n</table>\n<h3>Note</h3>\n<p>The original paper ignored the issue of tied times and so is not\nexactly reproduced by the survival package.\n</p>\n<h3>Source</h3>\n<p>CA McGilchrist, CW Aisbett (1991),\nRegression with frailty in survival analysis. \n<em>Biometrics</em> <b>47</b>, 461&ndash;66.\n</p>\n<h3>Examples</h3>\n<pre>\nkfit &lt;- coxph(Surv(time, status)~ age + sex + disease + frailty(id), kidney)\nkfit0 &lt;- coxph(Surv(time, status)~ age + sex + disease, kidney)\nkfitm1 &lt;- coxph(Surv(time,status) ~ age + sex + disease + \n\t\tfrailty(id, dist='gauss'), kidney)\n</pre>\n",
    "config" : {
       "subtitle" : "survival - kidney",
-      "graphType" : "Scatter2D",
-      "title" : "Kidney catheter data"
+      "graphType" : "Heatmap",
+      "title" : "Kidney catheter data",
+      "smpOverlays" : [
+         "disease"
+      ]
    },
    "data" : {
       "y" : {

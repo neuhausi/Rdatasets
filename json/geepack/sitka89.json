@@ -3,6 +3,7 @@
    "config" : {
       "subtitle" : "geepack - sitka89",
       "graphType" : "Scatter3D",
+      "colorBy" : "treat",
       "title" : "Growth of Sitka Spruce Trees"
    },
    "data" : {

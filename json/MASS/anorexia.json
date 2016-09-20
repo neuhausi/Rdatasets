@@ -3,6 +3,7 @@
    "config" : {
       "subtitle" : "MASS - anorexia",
       "graphType" : "Scatter2D",
+      "colorBy" : "Treat",
       "title" : "Anorexia Data on Weight Change"
    },
    "data" : {

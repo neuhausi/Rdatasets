@@ -3,6 +3,8 @@
    "config" : {
       "subtitle" : "MASS - cabbages",
       "graphType" : "Scatter2D",
+      "shapeBy" : "Date",
+      "colorBy" : "Cult",
       "title" : "Data from a cabbage field trial"
    },
    "data" : {

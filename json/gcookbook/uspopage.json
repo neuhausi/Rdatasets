@@ -3,6 +3,7 @@
    "config" : {
       "subtitle" : "gcookbook - uspopage",
       "graphType" : "Scatter2D",
+      "colorBy" : "AgeGroup",
       "title" : "Age distribution of population in the United States"
    },
    "data" : {

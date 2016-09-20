@@ -2,8 +2,12 @@
    "info" : "<table width=\"100%\" summary=\"page for MCAS\"><tr><td>MCAS</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>The Massashusets Test Score Data Set </h2>\n<h3>Description</h3>\n<p>a cross-section from 1997-1998\n</p>\n<p><em>number of observations</em> :  220\n</p>\n<p><em>observation</em> :  schools\n</p>\n<p><em>country</em> :  United States\n</p>\n<h3>Usage</h3>\n<pre>data(MCAS)</pre>\n<h3>Format</h3>\n<p>A dataframe containing :\n</p>\n<dl>\n<dt>code</dt><dd><p>district code (numerical)</p>\n</dd>\n<dt>municipa</dt><dd><p>municipality (name)</p>\n</dd>\n<dt>district</dt><dd><p>district name</p>\n</dd>\n<dt>regday</dt><dd><p>spending per pupil, regular</p>\n</dd>\n<dt>specneed</dt><dd><p>spending per pupil, special needs</p>\n</dd>\n<dt>bilingua</dt><dd><p>spending per pupil, bilingual</p>\n</dd>\n<dt>occupday</dt><dd><p>spending per pupil, occupational</p>\n</dd>\n<dt>totday</dt><dd><p>spending per pupil, total</p>\n</dd>\n<dt>spc</dt><dd><p>students per computer</p>\n</dd>\n<dt>speced</dt><dd><p>special education students</p>\n</dd>\n<dt>lnchpct</dt><dd><p>eligible for free or reduced price lunch</p>\n</dd>\n<dt>tchratio</dt><dd><p>students per teacher</p>\n</dd>\n<dt>percap</dt><dd><p>per capita income</p>\n</dd>\n<dt>totsc4</dt><dd><p>4th grade score (math+english+science)</p>\n</dd>\n<dt>totsc8</dt><dd><p>8th grade score (math+english+science)</p>\n</dd>\n<dt>avgsalary</dt><dd><p>average teacher salary</p>\n</dd>\n<dt>pctel</dt><dd><p>percent english learnersh</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>Massachusetts Comprehensive Assessment System (MCAS), Massachusets Department of Education, 1990 U.S. Census.\n</p>\n<h3>References</h3>\n<p>Stock, James H.  and  Mark W.  Watson (2003) <em>Introduction to Econometrics</em>, Addison-Wesley Educational Publishers, <a href=\"http://wps.aw.com/aw_stockwatsn_economtrcs_1\">http://wps.aw.com/aw_stockwatsn_economtrcs_1</a>, chapter 7.\n</p>\n<h3>See Also</h3>\n<p><code>Index.Source</code>, <code>Index.Economics</code>, <code>Index.Econometrics</code>, <code>Index.Observations</code></p>\n",
    "config" : {
       "subtitle" : "Ecdat - MCAS",
-      "graphType" : "Scatter2D",
-      "title" : "The Massashusets Test Score Data Set"
+      "graphType" : "Heatmap",
+      "title" : "The Massashusets Test Score Data Set",
+      "smpOverlays" : [
+         "district",
+         "municipa"
+      ]
    },
    "data" : {
       "y" : {

@@ -3,6 +3,7 @@
    "config" : {
       "subtitle" : "robustbase - carrots",
       "graphType" : "Scatter3D",
+      "colorBy" : "block",
       "title" : "Insect Damages on Carrots"
    },
    "data" : {

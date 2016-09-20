@@ -3,6 +3,7 @@
    "config" : {
       "subtitle" : "MASS - Sitka",
       "graphType" : "Scatter3D",
+      "colorBy" : "treat",
       "title" : "Growth Curves for Sitka Spruce Trees in 1988"
    },
    "data" : {

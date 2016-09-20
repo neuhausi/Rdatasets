@@ -1,8 +1,11 @@
 {
    "info" : "<table width=\"100%\" summary=\"page for iraqVote\"><tr><td>iraqVote</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>\nU.S. Senate vote on the use of force against Iraq, 2002.\t\n</h2>\n<h3>Description</h3>\n<p>On October 11, 2002, the United States Senate\nvoted 77-23 to authorize the use of military force against Iraq.  This data set lists the &ldquo;Ayes&rdquo; and &ldquo;Nays&rdquo; for each Senator and some covariates.\n</p>\n<h3>Usage</h3>\n<pre>data(iraqVote)</pre>\n<h3>Format</h3>\n<p>A data frame with 100 observations on the following 6 variables.\n</p>\n<dl>\n<dt><code>y</code></dt><dd><p>a numeric vector, the recorded vote (1 if Aye, 0 if Nay)</p>\n</dd>\n<dt><code>state.abb</code></dt><dd><p>two letter abbreviation for each state</p>\n</dd>\n<dt><code>name</code></dt><dd><p>senator name, party and state, e.g., <code>AKAKA (D HI)</code></p>\n</dd>\n<dt><code>rep</code></dt><dd><p>logical, <code>TRUE</code> for Republican senators</p>\n</dd>\n<dt><code>state.name</code></dt><dd><p>name of state</p>\n</dd>\n<dt><code>gorevote</code></dt><dd><p>numeric, the vote share recorded by Al Gore in the corresponding state in the 2000 Presidential election</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>The only Republican to vote against the resolution was Lincoln\nChafee (Rhode Island); Democrats split 29-22 in favor of the\nresolution.\n</p>\n<h3>Source</h3>\n<p>Keith Poole, 107th Senate Roll Call Data. <a href=\"ftp://voteview.com/sen107kh.ord\">ftp://voteview.com/sen107kh.ord</a>  The Iraq vote is vote number 617.\n</p>\n<p>David Leip's Atlas of U.S. Presidential Elections.  <a href=\"http://uselectionatlas.org\">http://uselectionatlas.org</a> \n</p>\n<h3>References</h3>\n<p>Jackman, Simon. 2009.  <em>Bayesian Analysis for the Social Sciences</em>.  Wiley: Chichester.  Example 8.3.\n</p>\n<h3>Examples</h3>\n<pre>\ndata(iraqVote)\n## probit model\nglm1 &lt;- glm(y ~ gorevote + rep,\n            data=iraqVote,\n            family=binomial(link=probit))\n</pre>\n",
    "config" : {
+      "sizeBy" : "state.name",
       "subtitle" : "pscl - iraqVote",
       "graphType" : "Scatter2D",
+      "shapeBy" : "name",
+      "colorBy" : "state.abb",
       "title" : "U.S. Senate vote on the use of force against Iraq"
    },
    "data" : {

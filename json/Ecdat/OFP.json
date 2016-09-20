@@ -2,8 +2,13 @@
    "info" : "<table width=\"100%\" summary=\"page for OFP\"><tr><td>OFP</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Visits to Physician Office </h2>\n<h3>Description</h3>\n<p>a cross-section\n</p>\n<p><em>number of observations</em> :  4406\n</p>\n<p><em>observation</em> :  individuals\n</p>\n<p><em>country</em> :  United States\n</p>\n<h3>Usage</h3>\n<pre>data(OFP)</pre>\n<h3>Format</h3>\n<p>A dataframe containing :\n</p>\n<dl>\n<dt>ofp</dt><dd><p>number of physician office visits</p>\n</dd>\n<dt>ofnp</dt><dd><p>number of nonphysician office visits</p>\n</dd>\n<dt>opp</dt><dd><p>number of physician outpatient visits</p>\n</dd>\n<dt>opnp</dt><dd><p>number of nonphysician outpatient visits</p>\n</dd>\n<dt>emr</dt><dd><p>number of emergency room visits</p>\n</dd>\n<dt>hosp</dt><dd><p>number of hospitalizations</p>\n</dd>\n<dt>numchron</dt><dd><p>number of chronic conditions</p>\n</dd>\n<dt>adldiff</dt><dd><p>the person has a condition that limits activities of daily living ?</p>\n</dd>\n<dt>age</dt><dd><p>age in years (divided by 10)</p>\n</dd>\n<dt>black</dt><dd><p>is the person african&ndash;american ?</p>\n</dd>\n<dt>sex</dt><dd><p>is the person male ?</p>\n</dd>\n<dt>maried</dt><dd><p>is the person maried ?</p>\n</dd>\n<dt>school</dt><dd><p>number of years of education</p>\n</dd>\n<dt>faminc</dt><dd><p>family income in 10000\\$</p>\n</dd>\n<dt>employed</dt><dd><p>is the person employed ?</p>\n</dd>\n<dt>privins</dt><dd><p>is the person covered by private health insurance ?</p>\n</dd>\n<dt>medicaid</dt><dd><p>is the person covered by medicaid ?</p>\n</dd>\n<dt>region</dt><dd><p>the region (noreast, midwest,west)</p>\n</dd>\n<dt>hlth</dt><dd><p>self-perceived health (excellent, poor, other)</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>Deb, P.  and  P.K.  Trivedi (1997) &ldquo;Demand for Medical Care by the Elderly: A Finite Mixture Approach&rdquo;, <em>Journal of Applied Econometrics</em>, <b>12</b>, 313-326..\n</p>\n<h3>References</h3>\n<p>Cameron, A.C.  and   Trivedi P.K. (1998) <em>Regression analysis of count data</em>, Cambridge University Press, <a href=\"http://cameron.econ.ucdavis.edu/racd/racddata.html\">http://cameron.econ.ucdavis.edu/racd/racddata.html</a>, chapter 6.\n</p>\n<p>Journal of Applied Econometrics data archive : <a href=\"http://jae.wiley.com/jae/\">http://jae.wiley.com/jae/</a>.\n</p>\n<h3>See Also</h3>\n<p><code>Index.Source</code>, <code>Index.Economics</code>, <code>Index.Econometrics</code>, <code>Index.Observations</code></p>\n",
    "config" : {
       "subtitle" : "Ecdat - OFP",
-      "graphType" : "Scatter2D",
-      "title" : "Visits to Physician Office"
+      "graphType" : "Heatmap",
+      "title" : "Visits to Physician Office",
+      "smpOverlays" : [
+         "region",
+         "employed",
+         "sex"
+      ]
    },
    "data" : {
       "y" : {

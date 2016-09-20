@@ -2,7 +2,7 @@
    "info" : "<table width=\"100%\" summary=\"page for Tests\"><tr><td>Tests</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>\nSix Mental Tests\n</h2>\n<h3>Description</h3>\n<p>These data are from the SAS manual and consist of six mental tests for 32 students,\nwith some missing data. The three <code>x</code> variables are intended to load on a verbal\nfactor, and the three <code>y</code> variables on a math factor. The data can be used to\nillustrate the estimation of a confirmatory factor analysis model by multinormal full-information\nmaximum-likelihood in the presence of missing data.\n</p>\n<h3>Usage</h3>\n<pre>Tests</pre>\n<h3>Format</h3>\n<p>A data frame with 32 observations on the following 6 variables.\n</p>\n<dl>\n<dt><code>x1</code></dt><dd><p>score on verbal test 1.</p>\n</dd>\n<dt><code>x2</code></dt><dd><p>score on verbal test 2.</p>\n</dd>\n<dt><code>x3</code></dt><dd><p>score on verbal test 3.</p>\n</dd>\n<dt><code>y1</code></dt><dd><p>score on math test 1.</p>\n</dd>\n<dt><code>y2</code></dt><dd><p>score on math test 2.</p>\n</dd>\n<dt><code>y3</code></dt><dd><p>score on math test 3.</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>Example 25.13 from <em>SAS/STAT 9.22 User's Guide</em>, SAS Institute, 2010.\n</p>\n",
    "config" : {
       "subtitle" : "sem - Tests",
-      "graphType" : "Scatter2D",
+      "graphType" : "Heatmap",
       "title" : "Six Mental Tests"
    },
    "data" : {

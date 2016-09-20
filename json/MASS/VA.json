@@ -2,7 +2,7 @@
    "info" : "<table width=\"100%\" summary=\"page for VA\"><tr><td>VA</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>\nVeteran's Administration Lung Cancer Trial\n</h2>\n<h3>Description</h3>\n<p>Veteran's Administration lung cancer trial from Kalbfleisch &amp; Prentice.\n</p>\n<h3>Usage</h3>\n<pre>\nVA\n</pre>\n<h3>Format</h3>\n<p>A data frame with columns:\n</p>\n<dl>\n<dt><code>stime</code></dt><dd>\n<p>survival or follow-up time in days.\n</p>\n</dd>\n<dt><code>status</code></dt><dd>\n<p>dead or censored.\n</p>\n</dd>\n<dt><code>treat</code></dt><dd>\n<p>treatment: standard or test.\n</p>\n</dd>\n<dt><code>age</code></dt><dd>\n<p>patient's age in years.\n</p>\n</dd>\n<dt><code>Karn</code></dt><dd>\n<p>Karnofsky score of patient's performance on a scale of 0 to 100.\n</p>\n</dd>\n<dt><code>diag.time</code></dt><dd>\n<p>times since diagnosis in months at entry to trial.\n</p>\n</dd>\n<dt><code>cell</code></dt><dd>\n<p>one of four cell types.\n</p>\n</dd>\n<dt><code>prior</code></dt><dd>\n<p>prior therapy?\n</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>Kalbfleisch, J.D. and Prentice R.L. (1980)\n<em>The Statistical Analysis of Failure Time Data.</em>\nWiley.\n</p>\n<h3>References</h3>\n<p>Venables, W. N. and Ripley, B. D. (2002)\n<em>Modern Applied Statistics with S.</em> Fourth edition.  Springer.\n</p>\n",
    "config" : {
       "subtitle" : "MASS - VA",
-      "graphType" : "Scatter2D",
+      "graphType" : "Heatmap",
       "title" : "Veteran's Administration Lung Cancer Trial"
    },
    "data" : {

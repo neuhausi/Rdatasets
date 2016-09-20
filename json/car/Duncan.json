@@ -3,6 +3,8 @@
    "config" : {
       "subtitle" : "car - Duncan",
       "graphType" : "Scatter3D",
+      "shapeBy" : null,
+      "colorBy" : "type",
       "title" : "Duncan's Occupational Prestige Data"
    },
    "data" : {

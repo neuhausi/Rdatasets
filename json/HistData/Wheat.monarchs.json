@@ -3,6 +3,7 @@
    "config" : {
       "subtitle" : "HistData - Wheat.monarchs",
       "graphType" : "Scatter3D",
+      "colorBy" : "name",
       "title" : "Playfair's Data on Wages and the Price of Wheat"
    },
    "data" : {

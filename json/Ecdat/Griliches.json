@@ -2,8 +2,13 @@
    "info" : "<table width=\"100%\" summary=\"page for Griliches\"><tr><td>Griliches</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Wage Datas </h2>\n<h3>Description</h3>\n<p>a cross-section from 1980\n</p>\n<p><em>number of observations</em> :  758\n</p>\n<p><em>observation</em> :  individuals\n</p>\n<p><em>country</em> :  United States\n</p>\n<h3>Usage</h3>\n<pre>data(Griliches)</pre>\n<h3>Format</h3>\n<p>A dataframe containing :\n</p>\n<dl>\n<dt>rns</dt><dd><p>residency in the southern states (first observation) ?</p>\n</dd>\n<dt>rns80</dt><dd><p>same variable for 1980</p>\n</dd>\n<dt>mrt</dt><dd><p>married  (first observation) ?</p>\n</dd>\n<dt>mrt80</dt><dd><p>same variable for 1980</p>\n</dd>\n<dt>smsa</dt><dd><p>residency in metropolan areas (first observation) ?</p>\n</dd>\n<dt>smsa80</dt><dd><p>same variable for 1980</p>\n</dd>\n<dt>med</dt><dd><p>mother's education in years</p>\n</dd>\n<dt>iq</dt><dd><p>IQ score</p>\n</dd>\n<dt>kww</dt><dd><p>score on the &ldquo;knowledge of the world of work&rdquo; test</p>\n</dd>\n<dt>year</dt><dd><p>year of the observation</p>\n</dd>\n<dt>age</dt><dd><p>age (first observation)</p>\n</dd>\n<dt>age80</dt><dd><p>same variable for 1980</p>\n</dd>\n<dt>school</dt><dd><p>completed years of schooling (first observation)</p>\n</dd>\n<dt>school80</dt><dd><p>same variable for 1980</p>\n</dd>\n<dt>expr</dt><dd><p>experience in years (first observation)</p>\n</dd>\n<dt>expr80</dt><dd><p>same variable for 1980</p>\n</dd>\n<dt>tenure</dt><dd><p>tenure in years (first observation)</p>\n</dd>\n<dt>tenure80</dt><dd><p>same variable for 1980</p>\n</dd>\n<dt>lw</dt><dd><p>log wage (first observation)</p>\n</dd>\n<dt>lw80</dt><dd><p>same variable for 1980</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>Blackburn, M.  and   Neumark D. (1992) &ldquo;Unobserved ability, efficiency wages, and interindustry wage differentials&rdquo;, <em>Quarterly Journal of Economics</em>, <b>107</b>, 1421-1436.\n</p>\n<h3>References</h3>\n<p>Hayashi, F. (2000) <em>Econometrics</em>, Princeton University Press, <a href=\"http://fhayashi.fc2web.com/hayashi_econometrics.htm\">http://fhayashi.fc2web.com/hayashi_econometrics.htm</a>, chapter 3, 250-256.\n</p>\n<h3>See Also</h3>\n<p><code>Index.Source</code>, <code>Index.Economics</code>, <code>Index.Econometrics</code>, <code>Index.Observations</code></p>\n",
    "config" : {
       "subtitle" : "Ecdat - Griliches",
-      "graphType" : "Scatter2D",
-      "title" : "Wage Datas"
+      "graphType" : "Heatmap",
+      "title" : "Wage Datas",
+      "smpOverlays" : [
+         "mrt",
+         "rns80",
+         "rns"
+      ]
    },
    "data" : {
       "y" : {

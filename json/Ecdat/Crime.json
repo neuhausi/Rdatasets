@@ -3,7 +3,11 @@
    "config" : {
       "subtitle" : "Ecdat - Crime",
       "graphType" : "Heatmap",
-      "title" : "Crime in North Carolina"
+      "title" : "Crime in North Carolina",
+      "smpOverlays" : [
+         "smsa",
+         "region"
+      ]
    },
    "data" : {
       "y" : {

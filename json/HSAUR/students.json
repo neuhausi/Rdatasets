@@ -3,6 +3,7 @@
    "config" : {
       "subtitle" : "HSAUR - students",
       "graphType" : "Scatter2D",
+      "colorBy" : "treatment",
       "title" : "Student Risk Taking"
    },
    "data" : {

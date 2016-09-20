@@ -3,6 +3,7 @@
    "config" : {
       "subtitle" : "HSAUR - GHQ",
       "graphType" : "Scatter3D",
+      "colorBy" : "sex",
       "title" : "General Health Questionnaire"
    },
    "data" : {

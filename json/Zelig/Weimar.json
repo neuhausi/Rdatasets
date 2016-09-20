@@ -2,7 +2,7 @@
    "info" : "<table width=\"100%\" summary=\"page for Weimar\"><tr><td>Weimar</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>1932 Weimar election data</h2>\n<h3>Description</h3>\n<p> This data set contains election results for 10 kreise (equivalent to precincts) from the 1932 Weimar (German) election.  \n</p>\n<h3>Usage</h3>\n<pre>data(Weimar)</pre>\n<h3>Format</h3>\n<p>A table containing 11 variables and 10 observations.  The variables are\n</p>\n<dl>\n<dt>Nazi</dt><dd><p>Number of votes for the Nazi party</p>\n</dd>\n<dt>Government</dt><dd><p>Number of votes for the Government</p>\n</dd>\n<dt>Communists</dt><dd><p>Number of votes for the Communist party</p>\n</dd>\n<dt>FarRight</dt><dd><p>Number of votes for far right parties</p>\n</dd>\n<dt>Other</dt><dd><p>Number of votes for other parties, and non-voters</p>\n</dd>\n<dt>shareunemployed</dt><dd><p>Proportion unemployed</p>\n</dd>\n<dt>shareblue</dt><dd><p>Proportion working class</p>\n</dd>\n<dt>sharewhite</dt><dd><p>Proportion white-collar workers</p>\n</dd>\n<dt>sharedomestic</dt><dd><p>Proportion domestic servants</p>\n</dd>\n<dt>shareprotestants</dt><dd><p>Proportion Protestant</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>ICPSR</p>\n",
    "config" : {
       "subtitle" : "Zelig - Weimar",
-      "graphType" : "Scatter2D",
+      "graphType" : "Stacked",
       "title" : "1932 Weimar election data"
    },
    "data" : {

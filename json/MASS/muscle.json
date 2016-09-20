@@ -3,6 +3,7 @@
    "config" : {
       "subtitle" : "MASS - muscle",
       "graphType" : "Scatter2D",
+      "colorBy" : "Strip",
       "title" : "Effect of Calcium Chloride on Muscle Contraction in Rat Hearts"
    },
    "data" : {

@@ -2,8 +2,13 @@
    "info" : "<table width=\"100%\" summary=\"page for VietNamH\"><tr><td>VietNamH</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Medical Expenses in Viet&ndash;nam (household Level) </h2>\n<h3>Description</h3>\n<p>a cross-section from 1997\n</p>\n<p><em>number of observations</em> :  5999\n</p>\n<p><em>observation</em> :  households\n</p>\n<p><em>country</em> :  Vietnam\n</p>\n<h3>Usage</h3>\n<pre>data(VietNamH)</pre>\n<h3>Format</h3>\n<p>A dataframe containing :\n</p>\n<dl>\n<dt>sex</dt><dd><p>gender of household head (male,female)</p>\n</dd>\n<dt>age</dt><dd><p>age of household head</p>\n</dd>\n<dt>educyr</dt><dd><p> schooling year of household head</p>\n</dd>\n<dt>farm</dt><dd><p>farm household ?</p>\n</dd>\n<dt>urban</dt><dd><p>urban household ?</p>\n</dd>\n<dt>hhsize</dt><dd><p>  household size</p>\n</dd>\n<dt>lntotal</dt><dd><p>log household total expenditure</p>\n</dd>\n<dt>lnmed</dt><dd><p> log household medical expenditure</p>\n</dd>\n<dt>lnrlfood</dt><dd><p>log household food expenditure</p>\n</dd>\n<dt>lnexp12m</dt><dd><p>log of total household health care expenditure for 12 months</p>\n</dd>\n<dt>commune</dt><dd><p>commune</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>Vietnam World Bank Livings Standards Survey.\n</p>\n<h3>References</h3>\n<p>Cameron, A.C.  and  P.K.  Trivedi (2005) <em>Microeconometrics : methods and applications</em>, Cambridge, pp.88&ndash;90.\n</p>\n<h3>See Also</h3>\n<p><code>Index.Source</code>, <code>Index.Economics</code>, <code>Index.Econometrics</code>, <code>Index.Observations</code></p>\n",
    "config" : {
       "subtitle" : "Ecdat - VietNamH",
-      "graphType" : "Scatter2D",
-      "title" : "Medical Expenses in Viet-nam (household Level)"
+      "graphType" : "Heatmap",
+      "title" : "Medical Expenses in Viet-nam (household Level)",
+      "smpOverlays" : [
+         "farm",
+         "sex",
+         "urban"
+      ]
    },
    "data" : {
       "y" : {

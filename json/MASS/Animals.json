@@ -3,6 +3,7 @@
    "config" : {
       "subtitle" : "MASS - Animals",
       "graphType" : "Scatter2D",
+      "colorBy" : null,
       "title" : "Brain and Body Weights for 28 Species"
    },
    "data" : {

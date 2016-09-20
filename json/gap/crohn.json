@@ -3,7 +3,10 @@
    "config" : {
       "subtitle" : "gap - crohn",
       "graphType" : "Heatmap",
-      "title" : "Crohn's disease data"
+      "title" : "Crohn's disease data",
+      "smpOverlays" : [
+         "pid"
+      ]
    },
    "data" : {
       "y" : {

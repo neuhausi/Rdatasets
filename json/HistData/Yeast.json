@@ -3,6 +3,7 @@
    "config" : {
       "subtitle" : "HistData - Yeast",
       "graphType" : "Scatter2D",
+      "colorBy" : "sample",
       "title" : "Student's (1906) Yeast Cell Counts"
    },
    "data" : {

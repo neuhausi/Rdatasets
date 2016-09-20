@@ -3,6 +3,7 @@
    "config" : {
       "subtitle" : "boot - catsM",
       "graphType" : "Scatter2D",
+      "colorBy" : "Sex",
       "title" : "Weight Data for Domestic Cats"
    },
    "data" : {

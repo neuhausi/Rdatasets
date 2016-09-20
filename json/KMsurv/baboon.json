@@ -3,6 +3,7 @@
    "config" : {
       "subtitle" : "KMsurv - baboon",
       "graphType" : "Scatter2D",
+      "colorBy" : "date",
       "title" : "data from Exercise 5.8"
    },
    "data" : {

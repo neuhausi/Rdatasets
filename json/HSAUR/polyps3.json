@@ -3,6 +3,8 @@
    "config" : {
       "subtitle" : "HSAUR - polyps3",
       "graphType" : "Scatter3D",
+      "shapeBy" : "sex",
+      "colorBy" : "treatment",
       "title" : "Familial Andenomatous Polyposis"
    },
    "data" : {

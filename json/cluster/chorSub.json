@@ -2,7 +2,7 @@
    "info" : "<table width=\"100%\" summary=\"page for chorSub\"><tr><td>chorSub</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Subset of C-horizon of Kola Data</h2>\n<h3>Description</h3>\n<p>This is a small rounded subset of the C-horizon data\n<code>chorizon</code> from package <span class=\"pkg\">mvoutlier</span>.\n</p>\n<h3>Usage</h3>\n<pre>data(chorSub)</pre>\n<h3>Format</h3>\n<p>A data frame with 61 observations on 10 variables.  The variables\ncontain scaled concentrations of chemical elements.\n</p>\n<h3>Details</h3>\n<p>This data set was produced from <code>chorizon</code> via these statements:\n</p>\n<pre>\n    data(chorizon, package = \"mvoutlier\")\n    chorSub &lt;- round(100*scale(chorizon[,101:110]))[190:250,]\n    storage.mode(chorSub) &lt;- \"integer\"\n    colnames(chorSub) &lt;- gsub(\"_.*\", '', colnames(chorSub))\n  </pre>\n<h3>Source</h3>\n<p>Kola Project (1993-1998)\n</p>\n<h3>See Also</h3>\n<p><code>chorizon</code> in package <span class=\"pkg\">mvoutlier</span> and other\nKola data in the same package.\n</p>\n<h3>Examples</h3>\n<pre>\ndata(chorSub)\nsummary(chorSub)\npairs(chorSub, gap= .1)# some outliers\n</pre>\n",
    "config" : {
       "subtitle" : "cluster - chorSub",
-      "graphType" : "Scatter2D",
+      "graphType" : "Heatmap",
       "title" : "Subset of C-horizon of Kola Data"
    },
    "data" : {

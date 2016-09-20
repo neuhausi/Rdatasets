@@ -3,7 +3,10 @@
    "config" : {
       "subtitle" : "cluster - votes.repub",
       "graphType" : "Heatmap",
-      "title" : "Votes for Republican Candidate in Presidential Elections"
+      "title" : "Votes for Republican Candidate in Presidential Elections",
+      "smpOverlays" : [
+         null
+      ]
    },
    "data" : {
       "y" : {

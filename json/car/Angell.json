@@ -3,6 +3,8 @@
    "config" : {
       "subtitle" : "car - Angell",
       "graphType" : "Scatter3D",
+      "shapeBy" : null,
+      "colorBy" : "region",
       "title" : "Moral Integration of American Cities"
    },
    "data" : {

@@ -2,8 +2,13 @@
    "info" : "<table width=\"100%\" summary=\"page for car.test.frame\"><tr><td>car.test.frame</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Automobile Data from 'Consumer Reports' 1990</h2>\n<h3>Description</h3>\n<p>The <code>car.test.frame</code> data frame has 60 rows and 8 columns,\ngiving data on makes of cars taken from the April, 1990 issue of\n<em>Consumer Reports</em>. This is part of a larger dataset, some\ncolumns of which are given in <code>cu.summary</code>.\n</p>\n<h3>Usage</h3>\n<pre>\ncar.test.frame\n</pre>\n<h3>Format</h3>\n<p>This data frame contains the following columns:\n</p>\n<dl>\n<dt><code>Price</code></dt><dd>\n<p>a numeric vector giving the list price in US dollars of a standard model\n</p>\n</dd>\n<dt><code>Country</code></dt><dd>\n<p>of origin, a factor with levels\n<span class=\"samp\">France</span>, \n<span class=\"samp\">Germany</span>, \n<span class=\"samp\">Japan</span> ,\n<span class=\"samp\">Japan/USA</span>, \n<span class=\"samp\">Korea</span>,\n<span class=\"samp\">Mexico</span>,\n<span class=\"samp\">Sweden</span> and\n<span class=\"samp\">USA</span> \n</p>\n</dd>\n<dt><code>Reliability</code></dt><dd>\n<p>a numeric vector coded <code>1</code> to <code>5</code>.\n</p>\n</dd>\n<dt><code>Mileage</code></dt><dd>\n<p>fuel consumption miles per US gallon, as tested. \n</p>\n</dd>\n<dt><code>Type</code></dt><dd>\n<p>a factor with levels\n<code>Compact</code> \n<code>Large</code> \n<code>Medium</code> \n<code>Small</code> \n<code>Sporty</code> \n<code>Van</code> \n</p>\n</dd>\n<dt><code>Weight</code></dt><dd>\n<p>kerb weight in pounds.\n</p>\n</dd>\n<dt><code>Disp.</code></dt><dd>\n<p>the engine capacity (displacement) in litres.\n</p>\n</dd>\n<dt><code>HP</code></dt><dd>\n<p>the net horsepower of the vehicle.\n</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p><em>Consumer Reports</em>, April, 1990, pp. 235&ndash;288 quoted in\n</p>\n<p>John M. Chambers and Trevor J. Hastie eds. (1992)\n<em>Statistical Models in S</em>, Wadsworth and Brooks/Cole,\nPacific Grove, CA, pp. 46&ndash;47.\n</p>\n<h3>See Also</h3>\n<p><code>car90</code>,\n<code>cu.summary</code>\n</p>\n<h3>Examples</h3>\n<pre>\nz.auto &lt;- rpart(Mileage ~ Weight, car.test.frame)\nsummary(z.auto)\n</pre>\n",
    "config" : {
       "subtitle" : "rpart - car.test.frame",
-      "graphType" : "Scatter2D",
-      "title" : "Automobile Data from 'Consumer Reports' 1990"
+      "graphType" : "Heatmap",
+      "title" : "Automobile Data from 'Consumer Reports' 1990",
+      "smpOverlays" : [
+         "Type",
+         "Country",
+         null
+      ]
    },
    "data" : {
       "y" : {

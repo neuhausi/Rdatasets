@@ -3,6 +3,7 @@
    "config" : {
       "subtitle" : "HSAUR - orallesions",
       "graphType" : "Scatter3D",
+      "colorBy" : null,
       "title" : "Oral Lesions in Rural India"
    },
    "data" : {

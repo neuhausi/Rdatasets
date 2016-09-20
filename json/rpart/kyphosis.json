@@ -3,6 +3,7 @@
    "config" : {
       "subtitle" : "rpart - kyphosis",
       "graphType" : "Scatter3D",
+      "colorBy" : "Kyphosis",
       "title" : "Data on Children who have had Corrective Spinal Surgery"
    },
    "data" : {

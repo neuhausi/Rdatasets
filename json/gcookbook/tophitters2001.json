@@ -2,8 +2,13 @@
    "info" : "<table width=\"100%\" summary=\"page for tophitters2001\"><tr><td>tophitters2001</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Batting averages of the top hitters in Major League Baseball in 2001</h2>\n<h3>Description</h3>\n<p>Batting statistics for the top 144 hitters in Major\nLeague Baseball in 2001.\n</p>\n<h3>Variables</h3>\n<p>Variables: </p>\n <ul>\n<li><p> id: Unique player id </p>\n</li>\n<li>\n<p>first: First name </p>\n</li>\n<li><p> last: Last name </p>\n</li>\n<li><p> name: Full\nname (first and last) </p>\n</li>\n<li><p> year: Year of data </p>\n</li>\n<li>\n<p>stint </p>\n</li>\n<li><p> team: Abbreviation of team played for </p>\n</li>\n<li>\n<p>lg: League (American League or National League) </p>\n</li>\n<li><p> g:\nNumber of games </p>\n</li>\n<li><p> ab: Number of times at bat </p>\n</li>\n<li><p> r:\nNumber of runs </p>\n</li>\n<li><p> h: Number of hits (times reached\nbase because of a batted, fair ball without error by the\ndefense) </p>\n</li>\n<li><p> 2b: Hits on which the batter reached\nsecond base safely </p>\n</li>\n<li><p> 3b: Hits on which the batter\nreached third base safely </p>\n</li>\n<li><p> hr: Number of home runs\n</p>\n</li>\n<li><p> rbi: Runs batted in </p>\n</li>\n<li><p> sb: Stolen bases </p>\n</li>\n<li>\n<p>cs: Caught stealing </p>\n</li>\n<li><p> bb: Base on balls (walk) </p>\n</li>\n<li>\n<p>so: Strike outs </p>\n</li>\n<li><p> ibb: Intentional base on balls\n</p>\n</li>\n<li><p> hbp: Hits by pitch </p>\n</li>\n<li><p> sh: Sacrifice hits </p>\n</li>\n<li>\n<p>sf: Sacrifice flies </p>\n</li>\n<li><p> gidp: Ground into double-play\n</p>\n</li>\n<li><p> avg: Batting average (hits divided by at-bats) </p>\n</li></ul>\n<h3>Source</h3>\n<p><a href=\"http://www.baseball-databank.org/\">http://www.baseball-databank.org/</a>.\n</p>\n",
    "config" : {
       "subtitle" : "gcookbook - tophitters2001",
-      "graphType" : "Scatter2D",
-      "title" : "Batting averages of the top hitters in Major League Baseball in 2001"
+      "graphType" : "Heatmap",
+      "title" : "Batting averages of the top hitters in Major League Baseball in 2001",
+      "smpOverlays" : [
+         "first",
+         "name",
+         "last"
+      ]
    },
    "data" : {
       "y" : {

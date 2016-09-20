@@ -3,6 +3,7 @@
    "config" : {
       "subtitle" : "MASS - leuk",
       "graphType" : "Scatter2D",
+      "colorBy" : "ag",
       "title" : "Survival Times and White Blood Counts for Leukaemia Patients"
    },
    "data" : {

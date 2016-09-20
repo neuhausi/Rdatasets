@@ -2,7 +2,7 @@
    "info" : "<table width=\"100%\" summary=\"page for Ginzberg\"><tr><td>Ginzberg</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Data on Depression</h2>\n<h3>Description</h3>\n<p>The <code>Ginzberg</code> data frame has 82 rows and 6 columns.\nThe data are for psychiatric patients hospitalized for depression.\n</p>\n<h3>Usage</h3>\n<pre>\nGinzberg\n</pre>\n<h3>Format</h3>\n<p>This data frame contains the following columns:\n</p>\n<dl>\n<dt>simplicity</dt><dd>\n<p>Measures subject's need to see the world in black and white.\n</p>\n</dd>\n<dt>fatalism</dt><dd>\n<p>Fatalism scale.\n</p>\n</dd>\n<dt>depression</dt><dd>\n<p>Beck self-report depression scale.\n</p>\n</dd>\n<dt>adjsimp</dt><dd>\n<p>Adjusted Simplicity: Simplicity adjusted (by regression) for other\nvariables thought to influence depression.\n</p>\n</dd>\n<dt>adjfatal</dt><dd>\n<p>Adjusted Fatalism.\n</p>\n</dd>\n<dt>adjdep</dt><dd>\n<p>Adjusted Depression.\n</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>Personal communication from Georges Monette, Department of\nMathematics and Statistics, York University, with the permission\nof the original investigator.\n</p>\n<h3>References</h3>\n<p>Fox, J. (2008)\n<em>Applied Regression Analysis and Generalized Linear Models</em>,\nSecond Edition. Sage.  \n</p>\n",
    "config" : {
       "subtitle" : "car - Ginzberg",
-      "graphType" : "Scatter2D",
+      "graphType" : "Heatmap",
       "title" : "Data on Depression"
    },
    "data" : {

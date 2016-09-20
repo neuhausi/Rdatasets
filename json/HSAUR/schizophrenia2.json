@@ -3,6 +3,8 @@
    "config" : {
       "subtitle" : "HSAUR - schizophrenia2",
       "graphType" : "Scatter2D",
+      "shapeBy" : "disorder",
+      "colorBy" : "onset",
       "title" : "Schizophrenia Data"
    },
    "data" : {

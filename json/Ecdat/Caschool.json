@@ -2,8 +2,13 @@
    "info" : "<table width=\"100%\" summary=\"page for Caschool\"><tr><td>Caschool</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>The California Test Score Data Set </h2>\n<h3>Description</h3>\n<p>a cross-section from 1998-1999\n</p>\n<p><em>number of observations</em> :  420\n</p>\n<p><em>observation</em> :  schools\n</p>\n<p><em>country</em> :  United States\n</p>\n<h3>Usage</h3>\n<pre>data(Caschool)</pre>\n<h3>Format</h3>\n<p>A dataframe containing :\n</p>\n<dl>\n<dt>distcod</dt><dd><p>disctric code</p>\n</dd>\n<dt>county</dt><dd><p>county</p>\n</dd>\n<dt>district</dt><dd><p>district</p>\n</dd>\n<dt>grspan</dt><dd><p>grade span of district</p>\n</dd>\n<dt>enrltot</dt><dd><p>total enrollment</p>\n</dd>\n<dt>teachers</dt><dd><p>number of teachers</p>\n</dd>\n<dt>calwpct</dt><dd><p>percent qualifying for CalWorks</p>\n</dd>\n<dt>mealpct</dt><dd><p>percent qualifying for reduced-price lunch</p>\n</dd>\n<dt>computer</dt><dd><p>number of computers</p>\n</dd>\n<dt>testscr</dt><dd><p>average test score (read.scr+math.scr)/2</p>\n</dd>\n<dt>compstu</dt><dd><p>computer per student</p>\n</dd>\n<dt>expnstu</dt><dd><p>expenditure per student</p>\n</dd>\n<dt>str</dt><dd><p>student teacher ratio</p>\n</dd>\n<dt>avginc</dt><dd><p>district average income</p>\n</dd>\n<dt>elpct</dt><dd><p>percent of English learners</p>\n</dd>\n<dt>readscr</dt><dd><p>average reading score</p>\n</dd>\n<dt>mathscr</dt><dd><p>average math score</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>California Department of Education <a href=\"http://www.cde.ca.gov\">http://www.cde.ca.gov</a>.\n</p>\n<h3>References</h3>\n<p>Stock, James H.  and  Mark W.  Watson (2003) <em>Introduction to Econometrics</em>, Addison-Wesley Educational Publishers, <a href=\"http://wps.aw.com/aw_stockwatsn_economtrcs_1\">http://wps.aw.com/aw_stockwatsn_economtrcs_1</a>, chapter 4&ndash;7.\n</p>\n<h3>See Also</h3>\n<p><code>Index.Source</code>, <code>Index.Economics</code>, <code>Index.Econometrics</code>, <code>Index.Observations</code></p>\n",
    "config" : {
       "subtitle" : "Ecdat - Caschool",
-      "graphType" : "Scatter2D",
-      "title" : "The California Test Score Data Set"
+      "graphType" : "Heatmap",
+      "title" : "The California Test Score Data Set",
+      "smpOverlays" : [
+         "district",
+         "county",
+         "grspan"
+      ]
    },
    "data" : {
       "y" : {

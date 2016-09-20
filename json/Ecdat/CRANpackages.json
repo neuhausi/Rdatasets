@@ -3,6 +3,8 @@
    "config" : {
       "subtitle" : "Ecdat - CRANpackages",
       "graphType" : "Scatter2D",
+      "shapeBy" : "Date",
+      "colorBy" : "Source",
       "title" : "Growth of CRAN"
    },
    "data" : {

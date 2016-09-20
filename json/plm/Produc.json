@@ -2,8 +2,11 @@
    "info" : "<table width=\"100%\" summary=\"page for Produc\"><tr><td>Produc</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>US States Production</h2>\n<h3>Description</h3>\n<p>A panel of 48 observations from 1970 to 1986\n</p>\n<p><em>total number of observations</em> :  816\n</p>\n<p><em>observation</em> :  regional\n</p>\n<p><em>country</em> :  United States\n</p>\n<h3>Usage</h3>\n<pre>data(Produc)</pre>\n<h3>Format</h3>\n<p>A data frame containing :\n</p>\n<dl>\n<dt>state</dt><dd><p>the state</p>\n</dd>\n<dt>year</dt><dd><p>the year</p>\n</dd>\n<dt>region</dt><dd><p>the region</p>\n</dd>\n<dt>pcap</dt><dd><p>public capital stock</p>\n</dd>\n<dt>hwy</dt><dd><p>highway and streets</p>\n</dd>\n<dt>water</dt><dd><p>water and sewer facilities</p>\n</dd>\n<dt>util</dt><dd><p>other public buildings and structures</p>\n</dd>\n<dt>pc</dt><dd><p>private capital stock</p>\n</dd>\n<dt>gsp</dt><dd><p>gross state products</p>\n</dd>\n<dt>emp</dt><dd><p>labor input measured by the employement in non&ndash;agricultural payrolls</p>\n</dd>\n<dt>unemp</dt><dd><p>state unemployment rate</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>Online complements to Baltagi (2001):\n</p>\n<p><a href=\"http://www.wiley.com/legacy/wileychi/baltagi/\">http://www.wiley.com/legacy/wileychi/baltagi/</a>\n</p>\n<p>Online complements to Baltagi (2013):\n</p>\n<p><a href=\"http://bcs.wiley.com/he-bcs/Books?action=resource&amp;bcsId=4338&amp;itemId=1118672321&amp;resourceId=13452\">http://bcs.wiley.com/he-bcs/Books?action=resource&amp;bcsId=4338&amp;itemId=1118672321&amp;resourceId=13452</a>\n</p>\n<h3>References</h3>\n<p>Baltagi, Badi H. (2001) <em>Econometric Analysis of Panel Data</em>, 2nd ed., John Wiley and Sons.\n</p>\n<p>Baltagi, Badi H. (2013) <em>Econometric Analysis of Panel Data</em>, 5th ed., John Wiley and Sons.\n</p>\n<p>Baltagi, B. H.  and  N.  Pinnoi (1995) &ldquo;Public capital stock and state productivity growth: further evidence&rdquo;, <em>Empirical Economics</em>, <b>20</b>, 351&ndash;359.\n</p>\n<p>Munnell, A.H. (1990) &ldquo;Why has productivity growth declined? Productivity and public investment&rdquo;, <em>New England Economic Review</em>, 3&ndash;22.\n</p>\n",
    "config" : {
       "subtitle" : "plm - Produc",
-      "graphType" : "Scatter2D",
-      "title" : "US States Production"
+      "graphType" : "Heatmap",
+      "title" : "US States Production",
+      "smpOverlays" : [
+         "state"
+      ]
    },
    "data" : {
       "y" : {

@@ -3,6 +3,8 @@
    "config" : {
       "subtitle" : "Zelig - homerun",
       "graphType" : "Scatter3D",
+      "shapeBy" : "player",
+      "colorBy" : "month",
       "title" : "Sample Data on Home Runs Hit By Mark McGwire and Sammy Sosa in 1998."
    },
    "data" : {

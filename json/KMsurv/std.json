@@ -3,7 +3,11 @@
    "config" : {
       "subtitle" : "KMsurv - std",
       "graphType" : "Heatmap",
-      "title" : "data from Section 1.12"
+      "title" : "data from Section 1.12",
+      "smpOverlays" : [
+         "marital",
+         "race"
+      ]
    },
    "data" : {
       "y" : {

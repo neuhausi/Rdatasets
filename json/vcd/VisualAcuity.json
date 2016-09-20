@@ -3,6 +3,7 @@
    "config" : {
       "subtitle" : "vcd - VisualAcuity",
       "graphType" : "Scatter3D",
+      "colorBy" : "gender",
       "title" : "Visual Acuity in Left and Right Eyes"
    },
    "data" : {

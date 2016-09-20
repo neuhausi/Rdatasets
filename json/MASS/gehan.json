@@ -3,6 +3,7 @@
    "config" : {
       "subtitle" : "MASS - gehan",
       "graphType" : "Scatter3D",
+      "colorBy" : "treat",
       "title" : "Remission Times of Leukaemia Patients"
    },
    "data" : {
