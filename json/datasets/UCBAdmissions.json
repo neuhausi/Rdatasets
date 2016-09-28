@@ -5,7 +5,7 @@
          "Dept"
       ],
       "subtitle" : "datasets - UCBAdmissions",
-      "graphType" : "Boxplot",
+      "graphType" : "Dotplot",
       "segregateSamplesBy" : [
          "Admit",
          "Gender"
