@@ -6,6 +6,7 @@
       ],
       "subtitle" : "survival - logan",
       "graphType" : "Boxplot",
+      "colorBy" : "variable",
       "segregateSamplesBy" : [
          "focc",
          "occupation"

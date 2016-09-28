@@ -6,6 +6,7 @@
       ],
       "subtitle" : "HSAUR - weightgain",
       "graphType" : "Boxplot",
+      "colorBy" : "variable",
       "segregateSamplesBy" : [
          "type"
       ],

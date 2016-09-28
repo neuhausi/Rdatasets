@@ -6,6 +6,7 @@
       ],
       "subtitle" : "lattice - singer",
       "graphType" : "Boxplot",
+      "colorBy" : "variable",
       "title" : "Heights of New York Choral Society singers"
    },
    "data" : {

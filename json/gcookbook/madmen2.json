@@ -6,6 +6,7 @@
       ],
       "subtitle" : "gcookbook - madmen2",
       "graphType" : "Boxplot",
+      "colorBy" : "variable",
       "segregateSamplesBy" : [
          "Name2"
       ],

@@ -6,6 +6,7 @@
       ],
       "subtitle" : "datasets - warpbreaks",
       "graphType" : "Boxplot",
+      "colorBy" : "variable",
       "segregateSamplesBy" : [
          "wool"
       ],

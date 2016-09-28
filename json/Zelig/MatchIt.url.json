@@ -6,6 +6,7 @@
       ],
       "subtitle" : "Zelig - MatchIt.url",
       "graphType" : "Boxplot",
+      "colorBy" : "variable",
       "segregateSamplesBy" : [
          "http...gking.harvard.edu.matchit"
       ],

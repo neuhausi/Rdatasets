@@ -6,6 +6,7 @@
       ],
       "subtitle" : "datasets - HairEyeColor",
       "graphType" : "Boxplot",
+      "colorBy" : "variable",
       "segregateSamplesBy" : [
          "Sex",
          "Eye"

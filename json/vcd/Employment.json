@@ -6,6 +6,7 @@
       ],
       "subtitle" : "vcd - Employment",
       "graphType" : "Boxplot",
+      "colorBy" : "variable",
       "segregateSamplesBy" : [
          "EmploymentStatus",
          "LayoffCause"

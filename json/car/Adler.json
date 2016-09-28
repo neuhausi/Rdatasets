@@ -6,6 +6,7 @@
       ],
       "subtitle" : "car - Adler",
       "graphType" : "Boxplot",
+      "colorBy" : "variable",
       "segregateSamplesBy" : [
          "expectation"
       ],

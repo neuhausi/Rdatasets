@@ -6,6 +6,7 @@
       ],
       "subtitle" : "Zelig - Zelig.url",
       "graphType" : "Boxplot",
+      "colorBy" : "variable",
       "segregateSamplesBy" : [
          "command"
       ],

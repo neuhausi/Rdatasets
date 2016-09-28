@@ -6,6 +6,7 @@
       ],
       "subtitle" : "HSAUR - CYGOB1",
       "graphType" : "Boxplot",
+      "colorBy" : "variable",
       "segregateSamplesBy" : [
          null
       ],

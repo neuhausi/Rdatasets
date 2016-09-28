@@ -6,6 +6,7 @@
       ],
       "subtitle" : "datasets - PlantGrowth",
       "graphType" : "Boxplot",
+      "colorBy" : "variable",
       "title" : "Results from an Experiment on Plant Growth"
    },
    "data" : {

@@ -6,6 +6,7 @@
       ],
       "subtitle" : "datasets - InsectSprays",
       "graphType" : "Boxplot",
+      "colorBy" : "variable",
       "title" : "Effectiveness of Insect Sprays"
    },
    "data" : {

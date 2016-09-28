@@ -6,6 +6,7 @@
       ],
       "subtitle" : "vcd - NonResponse",
       "graphType" : "Boxplot",
+      "colorBy" : "variable",
       "segregateSamplesBy" : [
          "residence",
          "gender"

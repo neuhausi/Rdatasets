@@ -6,6 +6,7 @@
       ],
       "subtitle" : "Ecdat - nonEnglishNames",
       "graphType" : "Boxplot",
+      "colorBy" : "variable",
       "segregateSamplesBy" : [
          "nonEnglish"
       ],

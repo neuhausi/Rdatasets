@@ -6,6 +6,7 @@
       ],
       "subtitle" : "datasets - euro",
       "graphType" : "Boxplot",
+      "colorBy" : "variable",
       "title" : "Conversion Rates of Euro Currencies"
    },
    "data" : {

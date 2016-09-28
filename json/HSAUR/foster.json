@@ -6,6 +6,7 @@
       ],
       "subtitle" : "HSAUR - foster",
       "graphType" : "Boxplot",
+      "colorBy" : "variable",
       "segregateSamplesBy" : [
          "motgen"
       ],

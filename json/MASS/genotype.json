@@ -6,6 +6,7 @@
       ],
       "subtitle" : "MASS - genotype",
       "graphType" : "Boxplot",
+      "colorBy" : "variable",
       "segregateSamplesBy" : [
          "Litter"
       ],

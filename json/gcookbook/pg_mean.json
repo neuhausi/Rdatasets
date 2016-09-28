@@ -6,6 +6,7 @@
       ],
       "subtitle" : "gcookbook - pg_mean",
       "graphType" : "Boxplot",
+      "colorBy" : "variable",
       "title" : "Means of results from an experiment on plant growth"
    },
    "data" : {

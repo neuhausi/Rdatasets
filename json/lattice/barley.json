@@ -6,6 +6,7 @@
       ],
       "subtitle" : "lattice - barley",
       "graphType" : "Boxplot",
+      "colorBy" : "variable",
       "segregateSamplesBy" : [
          "site"
       ],

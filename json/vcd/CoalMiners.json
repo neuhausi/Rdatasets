@@ -6,6 +6,7 @@
       ],
       "subtitle" : "vcd - CoalMiners",
       "graphType" : "Boxplot",
+      "colorBy" : "variable",
       "segregateSamplesBy" : [
          "Age",
          "Wheeze"

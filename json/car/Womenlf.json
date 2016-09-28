@@ -6,6 +6,7 @@
       ],
       "subtitle" : "car - Womenlf",
       "graphType" : "Boxplot",
+      "colorBy" : "variable",
       "segregateSamplesBy" : [
          "region",
          "children"

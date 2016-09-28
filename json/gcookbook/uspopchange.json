@@ -6,6 +6,7 @@
       ],
       "subtitle" : "gcookbook - uspopchange",
       "graphType" : "Boxplot",
+      "colorBy" : "variable",
       "segregateSamplesBy" : [
          "State",
          "Abb"

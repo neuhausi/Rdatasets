@@ -6,6 +6,7 @@
       ],
       "subtitle" : "HistData - Pyx",
       "graphType" : "Boxplot",
+      "colorBy" : "variable",
       "segregateSamplesBy" : [
          "Deviation",
          "Group"

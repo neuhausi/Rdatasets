@@ -6,6 +6,7 @@
       ],
       "subtitle" : "lme4 - Pastes",
       "graphType" : "Boxplot",
+      "colorBy" : "variable",
       "segregateSamplesBy" : [
          "batch",
          "sample"

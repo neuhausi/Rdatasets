@@ -6,6 +6,7 @@
       ],
       "subtitle" : "HSAUR - roomwidth",
       "graphType" : "Boxplot",
+      "colorBy" : "variable",
       "title" : "Students Estimates of Lecture Room Width"
    },
    "data" : {

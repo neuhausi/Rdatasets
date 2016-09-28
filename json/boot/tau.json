@@ -6,6 +6,7 @@
       ],
       "subtitle" : "boot - tau",
       "graphType" : "Boxplot",
+      "colorBy" : "variable",
       "title" : "Tau Particle Decay Modes"
    },
    "data" : {

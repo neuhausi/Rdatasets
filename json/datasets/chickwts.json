@@ -6,6 +6,7 @@
       ],
       "subtitle" : "datasets - chickwts",
       "graphType" : "Boxplot",
+      "colorBy" : "variable",
       "title" : "Chicken Weights by Feed Type"
    },
    "data" : {

@@ -6,6 +6,7 @@
       ],
       "subtitle" : "HSAUR - schizophrenia",
       "graphType" : "Boxplot",
+      "colorBy" : "variable",
       "title" : "Age of Onset of Schizophrenia Data"
    },
    "data" : {

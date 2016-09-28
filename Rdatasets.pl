@@ -234,7 +234,7 @@ sub create_json {
       $ts++;
     }
   }
-  
+
   ## Create object
   if ($ts) {
     if ( @rows && scalar @rows == scalar @$data ) {
@@ -314,12 +314,15 @@ sub create_json {
   } elsif ( $config->{graphType} eq 'Boxplot' ) {
     if ( $c == 1 ) {
       $config->{groupingFactors} = [ $keys[0] ];
+      $config->{colorBy}         = "variable";
     } elsif ( $c == 2 ) {
       $config->{groupingFactors}    = [ $keys[0] ];
       $config->{segregateSamplesBy} = [ $keys[1] ];
+      $config->{colorBy}            = "variable";
     } elsif ( $c == 3 ) {
-      $config->{groupingFactors} = [ $keys[0] ];
+      $config->{groupingFactors}    = [ $keys[0] ];
       $config->{segregateSamplesBy} = [ $keys[1], $keys[2] ];
+      $config->{colorBy}            = "variable";
     } else {
       $config->{graphType}          = 'Dotplot';
       $config->{groupingFactors}    = [ $keys[0] ];

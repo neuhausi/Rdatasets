@@ -6,6 +6,7 @@
       ],
       "subtitle" : "gcookbook - aapl",
       "graphType" : "Boxplot",
+      "colorBy" : "variable",
       "title" : "Apple stock data"
    },
    "data" : {

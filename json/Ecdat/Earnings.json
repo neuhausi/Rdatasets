@@ -6,6 +6,7 @@
       ],
       "subtitle" : "Ecdat - Earnings",
       "graphType" : "Boxplot",
+      "colorBy" : "variable",
       "title" : "Earnings for Three Age Groups"
    },
    "data" : {

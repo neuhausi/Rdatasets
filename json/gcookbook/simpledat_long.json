@@ -6,6 +6,7 @@
       ],
       "subtitle" : "gcookbook - simpledat_long",
       "graphType" : "Boxplot",
+      "colorBy" : "variable",
       "segregateSamplesBy" : [
          "Aval"
       ],

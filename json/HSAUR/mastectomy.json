@@ -6,6 +6,7 @@
       ],
       "subtitle" : "HSAUR - mastectomy",
       "graphType" : "Boxplot",
+      "colorBy" : "variable",
       "segregateSamplesBy" : [
          "event"
       ],

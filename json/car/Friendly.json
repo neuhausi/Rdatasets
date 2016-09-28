@@ -6,6 +6,7 @@
       ],
       "subtitle" : "car - Friendly",
       "graphType" : "Boxplot",
+      "colorBy" : "variable",
       "title" : "Format Effects on Recall"
    },
    "data" : {

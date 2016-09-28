@@ -6,6 +6,7 @@
       ],
       "subtitle" : "gcookbook - plum",
       "graphType" : "Boxplot",
+      "colorBy" : "variable",
       "segregateSamplesBy" : [
          "time",
          "survival"

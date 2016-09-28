@@ -6,6 +6,7 @@
       ],
       "subtitle" : "lme4 - Penicillin",
       "graphType" : "Boxplot",
+      "colorBy" : "variable",
       "segregateSamplesBy" : [
          "plate"
       ],

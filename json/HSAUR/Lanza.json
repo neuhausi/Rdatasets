@@ -6,6 +6,7 @@
       ],
       "subtitle" : "HSAUR - Lanza",
       "graphType" : "Boxplot",
+      "colorBy" : "variable",
       "segregateSamplesBy" : [
          "study"
       ],

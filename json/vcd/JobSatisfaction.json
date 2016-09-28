@@ -6,6 +6,7 @@
       ],
       "subtitle" : "vcd - JobSatisfaction",
       "graphType" : "Boxplot",
+      "colorBy" : "variable",
       "segregateSamplesBy" : [
          "own",
          "management"

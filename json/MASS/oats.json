@@ -6,6 +6,7 @@
       ],
       "subtitle" : "MASS - oats",
       "graphType" : "Boxplot",
+      "colorBy" : "variable",
       "segregateSamplesBy" : [
          "B",
          "V"

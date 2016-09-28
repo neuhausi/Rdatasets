@@ -6,6 +6,7 @@
       ],
       "subtitle" : "lme4 - Dyestuff2",
       "graphType" : "Boxplot",
+      "colorBy" : "variable",
       "title" : "Yield of dyestuff by batch"
    },
    "data" : {

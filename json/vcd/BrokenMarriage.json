@@ -6,6 +6,7 @@
       ],
       "subtitle" : "vcd - BrokenMarriage",
       "graphType" : "Boxplot",
+      "colorBy" : "variable",
       "segregateSamplesBy" : [
          "rank",
          "gender"

@@ -6,6 +6,7 @@
       ],
       "subtitle" : "MASS - coop",
       "graphType" : "Boxplot",
+      "colorBy" : "variable",
       "segregateSamplesBy" : [
          "Bat",
          "Spc"

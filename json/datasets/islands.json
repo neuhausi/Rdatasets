@@ -6,6 +6,7 @@
       ],
       "subtitle" : "datasets - islands",
       "graphType" : "Boxplot",
+      "colorBy" : "variable",
       "title" : "Areas of the World's Major Landmasses"
    },
    "data" : {
