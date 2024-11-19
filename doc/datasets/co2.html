@@ -1,4 +1,4 @@
-<!DOCTYPE html><html><head><title>R: Mauna Loa Atmospheric CO2 Concentration</title>
+<!DOCTYPE html><html><head><title>R: Carbon Dioxide Uptake in Grass Plants</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.css">
@@ -14,66 +14,105 @@ function processMathHTML() {
 <link rel="stylesheet" type="text/css" href="R.css" />
 </head><body><div class="container"><main>
 
-<table style="width: 100%;"><tr><td>co2</td><td style="text-align: right;">R Documentation</td></tr></table>
+<table style="width: 100%;"><tr><td>CO2</td><td style="text-align: right;">R Documentation</td></tr></table>
 
-<h2>Mauna Loa Atmospheric CO2 Concentration</h2>
+<h2>Carbon Dioxide Uptake in Grass Plants</h2>
 
 <h3>Description</h3>
 
-<p>Atmospheric concentrations of CO<code class="reqn">_2</code> are expressed in parts per
-million (ppm) and reported in the preliminary 1997 <abbr>SIO</abbr> manometric mole
-fraction scale.
+<p>The <code>CO2</code> data frame has 84 rows and 5 columns of data from an
+experiment on the cold tolerance of the grass species
+<em>Echinochloa crus-galli</em>.
 </p>
 
 
 <h3>Usage</h3>
 
-<pre><code class='language-R'>co2</code></pre>
+<pre><code class='language-R'>CO2</code></pre>
 
 
 <h3>Format</h3>
 
-<p>A time series of 468 observations; monthly from 1959 to 1997.
+<p>An object of class
+<code>c("nfnGroupedData", "nfGroupedData", "groupedData", "data.frame")</code>
+containing the following columns:
 </p>
+
+<dl>
+<dt>Plant</dt><dd>
+<p>an ordered factor with levels
+<code>Qn1</code> &lt; <code>Qn2</code> &lt; <code>Qn3</code> &lt; ... &lt; <code>Mc1</code>
+giving a unique identifier for each plant.
+</p>
+</dd>
+<dt>Type</dt><dd>
+<p>a factor with levels
+<code>Quebec</code>
+<code>Mississippi</code>
+giving the origin of the plant
+</p>
+</dd>
+<dt>Treatment</dt><dd>
+<p>a factor with levels
+<code>nonchilled</code>
+<code>chilled</code>
+</p>
+</dd>
+<dt>conc</dt><dd>
+<p>a numeric vector of ambient carbon dioxide concentrations (<abbr>mL</abbr>/L).
+</p>
+</dd>
+<dt>uptake</dt><dd>
+<p>a numeric vector of carbon dioxide uptake rates
+(<code class="reqn">\mu\mbox{mol}/m^2</code> sec).
+</p>
+</dd>
+</dl>
+
 
 
 <h3>Details</h3>
 
-<p>The values for February, March and April of 1964 were missing and have
-been obtained by interpolating linearly between the values for January
-and May of 1964.
+<p>The <code class="reqn">CO_2</code> uptake of six plants from Quebec and six plants
+from Mississippi was measured at several levels of ambient
+<code class="reqn">CO_2</code> concentration.  Half the plants of each type were
+chilled overnight before the experiment was conducted.
+</p>
+<p>This dataset was originally part of package <code>nlme</code>, and that has
+methods (including for <code>[</code>, <code>as.data.frame</code>, <code>plot</code> and
+<code>print</code>) for its grouped-data classes.
 </p>
 
 
 <h3>Source</h3>
 
-<p>Keeling, C. D. and  Whorf, T. P.,
-Scripps Institution of Oceanography (<abbr>SIO</abbr>),
-University of California,
-La Jolla, California USA 92093-0220.
+<p>Potvin, C., Lechowicz, M. J. and Tardif, S. (1990)
+&ldquo;The statistical analysis of ecophysiological response curves
+obtained from experiments involving repeated measures&rdquo;, <em>Ecology</em>,
+<b>71</b>, 1389&ndash;1400.
 </p>
-<p><a href="https://scrippsco2.ucsd.edu/data/atmospheric_co2/">https://scrippsco2.ucsd.edu/data/atmospheric_co2/</a>.
-</p>
-<p>Note that the data are subject to revision (based on recalibration of
-standard gases) by the Scripps institute, and hence may not agree
-exactly with the data provided by <span class="rlang"><b>R</b></span>.
-</p>
-
-
-<h3>References</h3>
-
-<p>Cleveland, W. S. (1993)
-<em>Visualizing Data</em>.
-New Jersey: Summit Press.
+<p>Pinheiro, J. C. and Bates, D. M. (2000)
+<em>Mixed-effects Models in S and S-PLUS</em>, Springer.
 </p>
 
 
 <h3>Examples</h3>
 
-<pre><code class='language-R'>require(graphics)
-plot(co2, ylab = expression("Atmospheric concentration of CO"[2]),
-     las = 1)
-title(main = "co2 data set")
+<pre><code class='language-R'>require(stats); require(graphics)
+
+coplot(uptake ~ conc | Plant, data = CO2, show.given = FALSE, type = "b")
+## fit the data for the first plant
+fm1 &lt;- nls(uptake ~ SSasymp(conc, Asym, lrc, c0),
+   data = CO2, subset = Plant == "Qn1")
+summary(fm1)
+## fit each plant separately
+fmlist &lt;- list()
+for (pp in levels(CO2$Plant)) {
+  fmlist[[pp]] &lt;- nls(uptake ~ SSasymp(conc, Asym, lrc, c0),
+      data = CO2, subset = Plant == pp)
+}
+## check the coefficients by plant
+print(sapply(fmlist, coef), digits = 3)
 </code></pre>
 
 </main>
