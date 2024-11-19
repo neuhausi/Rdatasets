@@ -2,3 +2,14 @@ README.html
 docs/
 docs
 inst/doc
+js/openintro/military.js
+json/nycflights13/flights.json
+json/modeldata/grants_other.json
+json/openintro/military.json
+js/modeldata/grants_other.js
+csv/datasets/CO2.csv
+doc/datasets/CO2.html
+doc/datasets/rst/CO2.rst
+csv/datasets/co2.csv
+doc/datasets/co2.html
+doc/datasets/rst/co2.rst
