@@ -1,0 +1,22 @@
+[
+   [
+      "complete",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/ratdat/complete.json"
+   ],
+   [
+      "complete_old",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/ratdat/complete_old.json"
+   ],
+   [
+      "plots",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/ratdat/plots.json"
+   ],
+   [
+      "species",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/ratdat/species.json"
+   ],
+   [
+      "surveys",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/ratdat/surveys.json"
+   ]
+]

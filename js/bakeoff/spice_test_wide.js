@@ -1,0 +1,47 @@
+var spice_test_wide = [
+   [
+      "baker",
+      "guess_1",
+      "guess_2",
+      "guess_3",
+      "correct_1",
+      "correct_2",
+      "correct_3"
+   ],
+   [
+      "Emma",
+      "Cinnamon",
+      "Cloves",
+      "Nutmeg",
+      "1",
+      "0",
+      "1"
+   ],
+   [
+      "Harry",
+      "Cinnamon",
+      "Cardamom",
+      "Nutmeg",
+      "1",
+      "1",
+      "1"
+   ],
+   [
+      "Ruby",
+      "Cinnamon",
+      "Cumin",
+      "Nutmeg",
+      "1",
+      "0",
+      "1"
+   ],
+   [
+      "Zainab",
+      "Cardamom",
+      "Couldn't remember the name",
+      "Cinnamon",
+      "0",
+      "0",
+      "0"
+   ]
+]

@@ -1,0 +1,111 @@
+{
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>houseprices</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Aranda House Prices</h2>\n<h3>Description</h3>\n<p>The <code>houseprices</code> data frame consists of the floor\narea, price, and the number\nof bedrooms for a sample of houses sold in Aranda in 1999. \nAranda is a suburb of Canberra, Australia.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>houseprices</code></pre>\n<h3>Format</h3>\n<p>This data frame contains the following columns:\n</p>\n<dl>\n<dt>area</dt><dd><p>a numeric vector giving the floor area</p>\n</dd>\n<dt>bedrooms</dt><dd><p>a numeric vector giving the number of bedrooms</p>\n</dd>\n<dt>sale.price</dt><dd><p>a numeric vector giving the sale price\nin thousands of Australian dollars</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>J.H. Maindonald\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>plot(sale.price~area, data=houseprices)\npause()\ncoplot(sale.price~area|bedrooms, data=houseprices)\npause()\nprint(\"Cross-Validation - Example 5.5.2\")\nhouseprices.lm &lt;- lm(sale.price ~ area, data=houseprices)\nsummary(houseprices.lm)$sigma^2\npause()\nCVlm()\npause()\nprint(\"Bootstrapping - Example 5.5.3\")\nhouseprices.fn &lt;- function (houseprices, index){\nhouse.resample &lt;- houseprices[index,]\nhouse.lm &lt;- lm(sale.price ~ area, data=house.resample)\ncoef(house.lm)[2]    # slope estimate for resampled data\nrequire(boot)       # ensure that the boot package is loaded\nhouseprices.boot &lt;- boot(houseprices, R=999, statistic=houseprices.fn)\nhouseprices1.fn &lt;- function (houseprices, index){\nhouse.resample &lt;- houseprices[index,]\nhouse.lm &lt;- lm(sale.price ~ area, data=house.resample)\npredict(house.lm, newdata=data.frame(area=1200))\nhouseprices1.boot &lt;- boot(houseprices, R=999, statistic=houseprices1.fn)\nboot.ci(houseprices1.boot, type=\"perc\") # \"basic\" is an alternative to \"perc\"\nhouseprices2.fn &lt;- function (houseprices, index){\nhouse.resample &lt;- houseprices[index,]\nhouse.lm &lt;- lm(sale.price ~ area, data=house.resample)\nhouseprices$sale.price-predict(house.lm, houseprices)  # resampled prediction errors\nn &lt;- length(houseprices$area)\nR &lt;- 200   \nhouseprices2.boot &lt;- boot(houseprices, R=R, statistic=houseprices2.fn)\nhouse.fac &lt;- factor(rep(1:n, rep(R, n)))\nplot(house.fac, as.vector(houseprices2.boot$t), ylab=\"Prediction Errors\", \nxlab=\"House\")\npause()\nplot(apply(houseprices2.boot$t,2, sd)/predict.lm(houseprices.lm, se.fit=TRUE)$se.fit,\n     ylab=\"Ratio of Bootstrap SE's to Model-Based SE's\", xlab=\"House\", pch=16)\nabline(1,0)\n</code></pre>\n</main>\n</div>\n",
+   "data" : {
+      "y" : {
+         "smps" : [
+            "area",
+            "bedrooms",
+            "sale.price"
+         ],
+         "data" : [
+            [
+               694,
+               4,
+               192
+            ],
+            [
+               905,
+               4,
+               215
+            ],
+            [
+               802,
+               4,
+               215
+            ],
+            [
+               1366,
+               4,
+               274
+            ],
+            [
+               716,
+               4,
+               112.7
+            ],
+            [
+               963,
+               4,
+               185
+            ],
+            [
+               821,
+               4,
+               212
+            ],
+            [
+               714,
+               4,
+               220
+            ],
+            [
+               1018,
+               4,
+               276
+            ],
+            [
+               887,
+               4,
+               260
+            ],
+            [
+               790,
+               4,
+               221.5
+            ],
+            [
+               696,
+               5,
+               255
+            ],
+            [
+               771,
+               5,
+               260
+            ],
+            [
+               1006,
+               5,
+               293
+            ],
+            [
+               1191,
+               6,
+               375
+            ]
+         ],
+         "vars" : [
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15",
+            "16",
+            "17",
+            "18",
+            "19",
+            "20",
+            "21",
+            "22",
+            "23"
+         ]
+      }
+   },
+   "config" : {
+      "title" : "Aranda House Prices",
+      "subtitle" : "DAAG - houseprices",
+      "graphType" : "Scatter3D"
+   }
+}

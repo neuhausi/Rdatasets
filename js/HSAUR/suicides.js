@@ -1,0 +1,27 @@
+var suicides = [
+   [
+      "Var1",
+      "Var2",
+      "Freq"
+   ],
+   [
+      "June--September",
+      "Baiting",
+      "8"
+   ],
+   [
+      "October--May",
+      "Baiting",
+      "2"
+   ],
+   [
+      "June--September",
+      "Nonbaiting",
+      "4"
+   ],
+   [
+      "October--May",
+      "Nonbaiting",
+      "7"
+   ]
+]

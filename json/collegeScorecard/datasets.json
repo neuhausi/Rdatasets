@@ -1,0 +1,10 @@
+[
+   [
+      "school",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/collegeScorecard/school.json"
+   ],
+   [
+      "scorecard",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/collegeScorecard/scorecard.json"
+   ]
+]

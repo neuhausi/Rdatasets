@@ -1,0 +1,65 @@
+{
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>pair65</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Heated Elastic Bands</h2>\n<h3>Description</h3>\n<p>The <code>pair65</code> data frame has 9 rows and 2 columns.\nEighteen elastic bands were divided into nine pairs, with bands\nof similar stretchiness placed in the same pair. One member of\neach pair was placed in hot water (60-65 degrees C) for four\nminutes, while the other was left at ambient temperature.  After\na wait of about ten minutes, the amounts of stretch, under a 1.35 kg\nweight, were recorded.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>pair65</code></pre>\n<h3>Format</h3>\n<p>This data frame contains the following columns:\n</p>\n<dl>\n<dt>heated</dt><dd><p>a numeric vector giving the stretch lengths for\nthe heated bands</p>\n</dd>\n<dt>ambient</dt><dd><p>a numeric vector giving the stretch lengths for\nthe unheated bands</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>J.H. Maindonald\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>mean(pair65$heated - pair65$ambient)\nsd(pair65$heated - pair65$ambient)\n</code></pre>\n</main>\n</div>\n",
+   "data" : {
+      "y" : {
+         "vars" : [
+            "Var1",
+            "Var2",
+            "Var3",
+            "Var4",
+            "Var5",
+            "Var6",
+            "Var7",
+            "Var8",
+            "Var9"
+         ],
+         "smps" : [
+            "heated",
+            "ambient"
+         ],
+         "data" : [
+            [
+               244,
+               225
+            ],
+            [
+               255,
+               247
+            ],
+            [
+               253,
+               249
+            ],
+            [
+               254,
+               253
+            ],
+            [
+               251,
+               245
+            ],
+            [
+               269,
+               259
+            ],
+            [
+               248,
+               242
+            ],
+            [
+               252,
+               255
+            ],
+            [
+               292,
+               286
+            ]
+         ]
+      }
+   },
+   "config" : {
+      "title" : "Heated Elastic Bands",
+      "graphType" : "Scatter2D",
+      "subtitle" : "DAAG - pair65"
+   }
+}

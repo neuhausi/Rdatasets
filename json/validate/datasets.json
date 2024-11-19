@@ -1,0 +1,14 @@
+[
+   [
+      "retailers",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/validate/retailers.json"
+   ],
+   [
+      "samplonomy",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/validate/samplonomy.json"
+   ],
+   [
+      "SBS2000",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/validate/SBS2000.json"
+   ]
+]

@@ -1,0 +1,195 @@
+{
+   "data" : {
+      "z" : {
+         "posangle" : [
+            "160.8666667",
+            "160.8666667",
+            "139.1166667",
+            "144.3666667",
+            "",
+            "130.7333333",
+            "120.25",
+            "",
+            "105.25",
+            "103.4",
+            "102.4",
+            "96.88333333",
+            "97.96666667",
+            "90.5",
+            "",
+            "87.71666667",
+            "",
+            "82.08333333"
+         ],
+         "authority" : [
+            "Pound",
+            "Bradley",
+            "Cassini",
+            "Mayer",
+            "H",
+            "H",
+            "H",
+            "Sigma",
+            "Sigma",
+            "Sh",
+            "Sigma",
+            "S",
+            "Sigma",
+            "h",
+            "h",
+            "h",
+            "h",
+            "h"
+         ],
+         "distance" : [
+            "",
+            "",
+            "7.49",
+            "6.5",
+            "5.7",
+            "",
+            "",
+            "3.56",
+            "",
+            "3.79",
+            "",
+            "3.26",
+            "2.38",
+            "",
+            "1.79",
+            "",
+            "2.22",
+            ""
+         ],
+         "notes" : [
+            "Pound",
+            "Bradley",
+            "Cassini  very uncertain",
+            "Mayer",
+            "H. Catal. 1782",
+            "H. Catal  1782",
+            "H. Mean of 8 measures",
+            "Sigma  Descriptio Tubi Fraunhof., p. 17",
+            "Sigma. Addit. Dorp. Obs., ii 178",
+            "Sh. Phil Trans 1824",
+            "Sigma  Descriptio Tubi Fraunhof., p. 17",
+            "S. Phil Trans",
+            "Sigma DTF & Mem Ast Soc; mean of dates ",
+            "h. One night measure. No reliance",
+            "h. 2 nights obs",
+            "h. 2 nights obs",
+            "h. 6 nights obs",
+            "h. 6 nights obs"
+         ]
+      },
+      "y" : {
+         "data" : [
+            [
+               1718.19,
+               4
+            ],
+            [
+               1718.2,
+               4
+            ],
+            [
+               1720.31,
+               0.1
+            ],
+            [
+               1756,
+               4
+            ],
+            [
+               1780.06,
+               4
+            ],
+            [
+               1781.89,
+               4
+            ],
+            [
+               1803.2,
+               8
+            ],
+            [
+               1819.4,
+               4
+            ],
+            [
+               1820.2,
+               4
+            ],
+            [
+               1822.25,
+               4
+            ],
+            [
+               1822.5,
+               4
+            ],
+            [
+               1825.32,
+               4
+            ],
+            [
+               1825.35,
+               4
+            ],
+            [
+               1828.35,
+               1
+            ],
+            [
+               1829.16,
+               2
+            ],
+            [
+               1829.22,
+               2
+            ],
+            [
+               1830.24,
+               6
+            ],
+            [
+               1830.38,
+               6
+            ]
+         ],
+         "smps" : [
+            "year",
+            "weight"
+         ],
+         "vars" : [
+            "Var1",
+            "Var2",
+            "Var3",
+            "Var4",
+            "Var5",
+            "Var6",
+            "Var7",
+            "Var8",
+            "Var9",
+            "Var10",
+            "Var11",
+            "Var12",
+            "Var13",
+            "Var14",
+            "Var15",
+            "Var16",
+            "Var17",
+            "Var18"
+         ]
+      }
+   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>Virginis</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>\nJohn F. W. Herschel's Data on the Orbit of the Twin Stars <code class=\"reqn\">\\gamma</code> <em>Virginis</em>\n</h2>\n<h3>Description</h3>\n<p>In 1833 J. F. W. Herschel published two papers in the <em>Memoirs of the Royal Astronomical Society</em>\ndetailing his investigations of calculating the orbits of twin stars from observations of\ntheir relative position angle and angular distance.  \n</p>\n<p>In the process, he invented the scatterplot, and the use of visual smoothing to obtain a reliable\ncurve that surpassed the accuracy of individual observations (Friendly &amp; Denis, 2005).\nHis data on the recordings of the twin stars <code class=\"reqn\">\\gamma</code> <em>Virginis</em> provide an\naccessible example of his methods.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>\tdata(\"Virginis\")\n\tdata(\"Virginis.interp\")\n</code></pre>\n<h3>Format</h3>\n<p><code>Virgins</code>: A data frame with 18 observations on the following 6 variables giving\nthe measurements of position angle and angular distance between the central (brightest)\nstar and its twin, recorded by various observers over more than 100 years. \n</p>\n<dl>\n<dt><code>year</code></dt><dd><p>year (&quot;epoch&quot;) of the observation, a decimal numeric vector</p>\n</dd>\n<dt><code>posangle</code></dt><dd><p>recorded position angle between the two stars, a numeric vector</p>\n</dd>\n<dt><code>distance</code></dt><dd><p>separation distance between the two stars, a numeric vector</p>\n</dd>\n<dt><code>weight</code></dt><dd><p>a subjective weight attributed to the accuracy of this observation, a numeric vector</p>\n</dd>\n<dt><code>notes</code></dt><dd><p>Herschel's notes on this observation, a character vector</p>\n</dd>\n<dt><code>authority</code></dt><dd><p>A simplified version of the notes giving just the attribution of authority of the observation, a character vector</p>\n</dd>\n</dl>\n<p><code>Virgins.interp</code>: A data frame with 14 observations on the following 4 variables, giving the\nposition angles and angular distance that Herschel interpolated from his smoothed curve.\n</p>\n<dl>\n<dt><code>year</code></dt><dd><p>year (&quot;epoch&quot;) of the observation, a decimal numeric vector</p>\n</dd>\n<dt><code>posangle</code></dt><dd><p>recorded position angle between the two stars, a numeric vector</p>\n</dd>\n<dt><code>distance</code></dt><dd><p>separation distance, calculated <code class=\"reqn\">1/sqrt(velocity)</code></p>\n</dd>\n<dt><code>velocity</code></dt><dd><p>angular velocity, calculated as the instantaneous slopes of \ntangents to the smoothed curve, a numeric vector</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>The data in <code>Virginis</code> come from the table on p. 35 of the &ldquo;Micrometrical Measures&rdquo;\npaper.  \n</p>\n<p>The <code>weight</code> variable was assigned by the package author, reflecting Herschel's comments\nand for use in any weighted analysis.\n</p>\n<p>In the <code>notes</code> and <code>authority</code> variables, <code>\"H\"</code> refers to William Herschel\n(John's farther, the discoverer of the planet Uranus), <code>\"h\"</code> refers to John Herschel\nhimself, and <code>\"Sigma\"</code>, rendered <code class=\"reqn\">\\Sigma</code> in the table on p. 35 refers to\nJoseph Fraunhofer.\n</p>\n<p>The data in <code>Virginis.interp</code> come from Table 1 on p. 190 of the supplementary\npaper.\n</p>\n<h3>Source</h3>\n<p>Herschel, J. F. W. \nIII. Micrometrical Measures of 364 Double Stars with a 7-feet Equatorial Acromatic Telescope, taken at Slough, in the years 1828, 1829, and 1830 \n<em>Memoirs of the Royal Astronomical Society</em>, 1833, 5, 13-91.\n</p>\n<p>Herschel, J. F. W. \nOn the Investigation of the Orbits of Revolving Double Stars: Being a Supplement to a Paper Entitled &quot;Micrometrical Measures of 364 Double Stars&quot; \n<em>Memoirs of the Royal Astronomical Society</em>, 1833, 5, 171-222.\n</p>\n<h3>References</h3>\n<p>Friendly, M. &amp; Denis, D. \nThe early origins and development of the scatterplot.\n<em>Journal of the History of the Behavioral Sciences</em>, \n2005, 41, 103-130.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>data(Virginis)\ndata(Virginis.interp)\n# Herschel's interpolated curve\nplot(posangle ~ year, data=Virginis.interp, \n\tpch=15, type=\"b\", col=\"red\", cex=0.8, lwd=2,\n\txlim=c(1710,1840), ylim=c(80, 170),\n\tylab=\"Position angle (deg.)\", xlab=\"Year\",\n\tcex.lab=1.5)\n# The data points, and indication of their uncertainty\npoints(posangle ~ year, data=Virginis, pch=16)\npoints(posangle ~ year, data=Virginis, cex=weight/2)\n</code></pre>\n</main>\n</div>\n",
+   "config" : {
+      "subtitle" : "HistData - Virginis",
+      "graphType" : "Scatter2D",
+      "shapeBy" : "authority",
+      "sizeBy" : "distance",
+      "colorBy" : "posangle",
+      "title" : "John F. W. Herschel's Data on the Orbit of the Twin Stars gamma _Virginis_"
+   }
+}

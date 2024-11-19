@@ -1,0 +1,107 @@
+{
+   "config" : {
+      "title" : "Measurements on 12 books",
+      "graphType" : "Scatter2D",
+      "subtitle" : "DAAG - oddbooks",
+      "scatterPlotMatrix" : 1
+   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>oddbooks</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Measurements on 12 books</h2>\n<h3>Description</h3>\n<p>Data giving thickness (mm), height (cm), width (cm)\nand weight (g), of 12 books.  Books were selected so that thickness\ndecreased as page area increased\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(oddbooks)</code></pre>\n<h3>Format</h3>\n<p>A data frame with 12 observations on the following 4 variables.\n</p>\n<dl>\n<dt>thick</dt><dd><p>a numeric vector</p>\n</dd>\n<dt>height</dt><dd><p>a numeric vector</p>\n</dd>\n<dt>breadth</dt><dd><p>a numeric vector</p>\n</dd>\n<dt>weight</dt><dd><p>a numeric vector</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>JM took books from his library.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>data(oddbooks)\nstr(oddbooks)\nplot(oddbooks) \n</code></pre>\n</main>\n</div>\n",
+   "data" : {
+      "y" : {
+         "smps" : [
+            "thick",
+            "height",
+            "breadth",
+            "weight"
+         ],
+         "data" : [
+            [
+               14,
+               30.5,
+               23,
+               1075
+            ],
+            [
+               15,
+               29.1,
+               20.5,
+               940
+            ],
+            [
+               18,
+               27.5,
+               18.5,
+               625
+            ],
+            [
+               23,
+               23.2,
+               15.2,
+               400
+            ],
+            [
+               24,
+               21.6,
+               14,
+               550
+            ],
+            [
+               25,
+               23.5,
+               15.5,
+               600
+            ],
+            [
+               28,
+               19.7,
+               12.6,
+               450
+            ],
+            [
+               28,
+               19.8,
+               12.6,
+               450
+            ],
+            [
+               29,
+               17.3,
+               10.5,
+               300
+            ],
+            [
+               30,
+               22.8,
+               15.4,
+               690
+            ],
+            [
+               36,
+               17.8,
+               11,
+               400
+            ],
+            [
+               44,
+               13.5,
+               9.2,
+               250
+            ]
+         ],
+         "vars" : [
+            "Var1",
+            "Var2",
+            "Var3",
+            "Var4",
+            "Var5",
+            "Var6",
+            "Var7",
+            "Var8",
+            "Var9",
+            "Var10",
+            "Var11",
+            "Var12"
+         ]
+      }
+   }
+}

@@ -1,0 +1,99 @@
+{
+   "data" : {
+      "y" : {
+         "vars" : [
+            "cov.general",
+            "cov.picture",
+            "cov.blocks",
+            "cov.maze",
+            "cov.reading",
+            "cov.vocab",
+            "center",
+            "n.obs"
+         ],
+         "smps" : [
+            "general",
+            "picture",
+            "blocks",
+            "maze",
+            "reading",
+            "vocab"
+         ],
+         "data" : [
+            [
+               24.641,
+               5.991,
+               33.52,
+               6.023,
+               20.755,
+               29.701
+            ],
+            [
+               5.991,
+               6.7,
+               18.137,
+               1.782,
+               4.936,
+               7.204
+            ],
+            [
+               33.52,
+               18.137,
+               149.831,
+               19.424,
+               31.43,
+               50.753
+            ],
+            [
+               6.023,
+               1.782,
+               19.424,
+               12.711,
+               4.757,
+               9.075
+            ],
+            [
+               20.755,
+               4.936,
+               31.43,
+               4.757,
+               52.604,
+               66.762
+            ],
+            [
+               29.701,
+               7.204,
+               50.753,
+               9.075,
+               66.762,
+               135.292
+            ],
+            [
+               0,
+               0,
+               0,
+               0,
+               0,
+               0
+            ],
+            [
+               112,
+               112,
+               112,
+               112,
+               112,
+               112
+            ]
+         ]
+      }
+   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>ability.cov</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Ability and Intelligence Tests</h2>\n<h3>Description</h3>\n<p>Six tests were given to 112 individuals. The covariance matrix is\ngiven in this object.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>ability.cov</code></pre>\n<h3>Details</h3>\n<p>The tests are described as\n</p>\n<dl>\n<dt>general:</dt><dd><p>a non-verbal measure of general intelligence using\nCattell's culture-fair test.</p>\n</dd>\n<dt>picture:</dt><dd><p>a picture-completion test</p>\n</dd>\n<dt>blocks:</dt><dd><p>block design</p>\n</dd>\n<dt>maze:</dt><dd><p>mazes</p>\n</dd>\n<dt>reading:</dt><dd><p>reading comprehension</p>\n</dd>\n<dt>vocab:</dt><dd><p>vocabulary</p>\n</dd>\n</dl>\n<p>Bartholomew gives both covariance and correlation matrices,\nbut these are inconsistent.  Neither are in the original paper.\n</p>\n<h3>Source</h3>\n<p>Bartholomew, D. J. (1987).\n<em>Latent Variable Analysis and Factor Analysis</em>.\nGriffin.\n</p>\n<p>Bartholomew, D. J. and Knott, M. (1990).\n<em>Latent Variable Analysis and Factor Analysis</em>.\nSecond Edition, Arnold.\n</p>\n<h3>References</h3>\n<p>Smith, G. A. and Stanley G. (1983).\nClocking <code class=\"reqn\">g</code>: relating intelligence and measures of timed\nperformance.\n<em>Intelligence</em>, <b>7</b>, 353&ndash;368.\n<a href=\"https://doi.org/10.1016/0160-2896%2883%2990010-7\">doi:10.1016/0160-2896(83)90010-7</a>.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>\nrequire(stats)\n(ability.FA &lt;- factanal(factors = 1, covmat = ability.cov))\nupdate(ability.FA, factors = 2)\n## The signs of factors and hence the signs of correlations are\n## arbitrary with promax rotation.\nupdate(ability.FA, factors = 2, rotation = \"promax\")\n</code></pre>\n</main>\n</div>\n",
+   "config" : {
+      "graphType" : "Stacked",
+      "subtitle" : "datasets - ability.cov",
+      "title" : "Ability and Intelligence Tests",
+      "smpOverlays" : [
+         null
+      ]
+   }
+}

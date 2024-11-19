@@ -1,0 +1,10 @@
+[
+   [
+      "baseball",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/plyr/baseball.json"
+   ],
+   [
+      "ozone",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/plyr/ozone.json"
+   ]
+]

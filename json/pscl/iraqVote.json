@@ -1,0 +1,933 @@
+{
+   "data" : {
+      "y" : {
+         "data" : [
+            [
+               1,
+               41.59
+            ],
+            [
+               1,
+               41.59
+            ],
+            [
+               1,
+               27.67
+            ],
+            [
+               1,
+               27.67
+            ],
+            [
+               1,
+               44.67
+            ],
+            [
+               1,
+               44.67
+            ],
+            [
+               1,
+               45.86
+            ],
+            [
+               1,
+               45.86
+            ],
+            [
+               0,
+               53.45
+            ],
+            [
+               1,
+               53.45
+            ],
+            [
+               1,
+               42.39
+            ],
+            [
+               1,
+               42.39
+            ],
+            [
+               1,
+               55.91
+            ],
+            [
+               1,
+               55.91
+            ],
+            [
+               1,
+               54.96
+            ],
+            [
+               1,
+               54.96
+            ],
+            [
+               0,
+               48.84
+            ],
+            [
+               1,
+               48.84
+            ],
+            [
+               1,
+               42.98
+            ],
+            [
+               1,
+               42.98
+            ],
+            [
+               0,
+               55.79
+            ],
+            [
+               0,
+               55.79
+            ],
+            [
+               1,
+               27.64
+            ],
+            [
+               1,
+               27.64
+            ],
+            [
+               0,
+               54.6
+            ],
+            [
+               1,
+               54.6
+            ],
+            [
+               1,
+               41.01
+            ],
+            [
+               1,
+               41.01
+            ],
+            [
+               1,
+               48.54
+            ],
+            [
+               1,
+               48.54
+            ],
+            [
+               1,
+               37.24
+            ],
+            [
+               1,
+               37.24
+            ],
+            [
+               1,
+               41.37
+            ],
+            [
+               1,
+               41.37
+            ],
+            [
+               1,
+               44.88
+            ],
+            [
+               1,
+               44.88
+            ],
+            [
+               1,
+               49.09
+            ],
+            [
+               1,
+               49.09
+            ],
+            [
+               0,
+               56.57
+            ],
+            [
+               0,
+               56.57
+            ],
+            [
+               0,
+               59.8
+            ],
+            [
+               1,
+               59.8
+            ],
+            [
+               0,
+               51.28
+            ],
+            [
+               0,
+               51.28
+            ],
+            [
+               0,
+               47.91
+            ],
+            [
+               0,
+               47.91
+            ],
+            [
+               1,
+               40.7
+            ],
+            [
+               1,
+               40.7
+            ],
+            [
+               1,
+               47.08
+            ],
+            [
+               1,
+               47.08
+            ],
+            [
+               1,
+               33.36
+            ],
+            [
+               1,
+               33.36
+            ],
+            [
+               1,
+               33.25
+            ],
+            [
+               1,
+               33.25
+            ],
+            [
+               1,
+               45.98
+            ],
+            [
+               1,
+               45.98
+            ],
+            [
+               1,
+               46.8
+            ],
+            [
+               1,
+               46.8
+            ],
+            [
+               0,
+               56.13
+            ],
+            [
+               1,
+               56.13
+            ],
+            [
+               0,
+               47.91
+            ],
+            [
+               1,
+               47.91
+            ],
+            [
+               1,
+               60.21
+            ],
+            [
+               1,
+               60.21
+            ],
+            [
+               1,
+               43.2
+            ],
+            [
+               1,
+               43.2
+            ],
+            [
+               0,
+               33.05
+            ],
+            [
+               1,
+               33.05
+            ],
+            [
+               1,
+               46.46
+            ],
+            [
+               1,
+               46.46
+            ],
+            [
+               1,
+               38.43
+            ],
+            [
+               1,
+               38.43
+            ],
+            [
+               1,
+               46.96
+            ],
+            [
+               0,
+               46.96
+            ],
+            [
+               1,
+               50.6
+            ],
+            [
+               1,
+               50.6
+            ],
+            [
+               0,
+               60.99
+            ],
+            [
+               0,
+               60.99
+            ],
+            [
+               1,
+               40.91
+            ],
+            [
+               1,
+               40.91
+            ],
+            [
+               1,
+               37.56
+            ],
+            [
+               1,
+               37.56
+            ],
+            [
+               1,
+               47.28
+            ],
+            [
+               1,
+               47.28
+            ],
+            [
+               1,
+               37.98
+            ],
+            [
+               1,
+               37.98
+            ],
+            [
+               1,
+               26.34
+            ],
+            [
+               1,
+               26.34
+            ],
+            [
+               0,
+               50.63
+            ],
+            [
+               0,
+               50.63
+            ],
+            [
+               1,
+               44.44
+            ],
+            [
+               1,
+               44.44
+            ],
+            [
+               1,
+               50.13
+            ],
+            [
+               0,
+               50.13
+            ],
+            [
+               0,
+               45.59
+            ],
+            [
+               1,
+               45.59
+            ],
+            [
+               0,
+               47.83
+            ],
+            [
+               1,
+               47.83
+            ],
+            [
+               1,
+               27.7
+            ],
+            [
+               1,
+               27.7
+            ]
+         ],
+         "smps" : [
+            "y",
+            "gorevote"
+         ],
+         "vars" : [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15",
+            "16",
+            "17",
+            "18",
+            "19",
+            "20",
+            "21",
+            "22",
+            "23",
+            "24",
+            "25",
+            "26",
+            "27",
+            "28",
+            "29",
+            "30",
+            "31",
+            "32",
+            "33",
+            "34",
+            "35",
+            "36",
+            "37",
+            "38",
+            "39",
+            "40",
+            "41",
+            "42",
+            "43",
+            "44",
+            "45",
+            "46",
+            "48",
+            "49",
+            "50",
+            "51",
+            "52",
+            "53",
+            "54",
+            "55",
+            "56",
+            "57",
+            "58",
+            "59",
+            "60",
+            "61",
+            "62",
+            "63",
+            "64",
+            "65",
+            "66",
+            "67",
+            "68",
+            "69",
+            "70",
+            "71",
+            "72",
+            "73",
+            "74",
+            "75",
+            "76",
+            "77",
+            "78",
+            "79",
+            "80",
+            "81",
+            "82",
+            "83",
+            "84",
+            "85",
+            "86",
+            "87",
+            "88",
+            "89",
+            "91",
+            "92",
+            "93",
+            "94",
+            "95",
+            "96",
+            "97",
+            "98",
+            "99",
+            "100",
+            "101",
+            "102"
+         ]
+      },
+      "z" : {
+         "state.name" : [
+            "Alabama",
+            "Alabama",
+            "Alaska",
+            "Alaska",
+            "Arizona",
+            "Arizona",
+            "Arkansas",
+            "Arkansas",
+            "California",
+            "California",
+            "Colorado",
+            "Colorado",
+            "Connecticut",
+            "Connecticut",
+            "Delaware",
+            "Delaware",
+            "Florida",
+            "Florida",
+            "Georgia",
+            "Georgia",
+            "Hawaii",
+            "Hawaii",
+            "Idaho",
+            "Idaho",
+            "Illinois",
+            "Illinois",
+            "Indiana",
+            "Indiana",
+            "Iowa",
+            "Iowa",
+            "Kansas",
+            "Kansas",
+            "Kentucky",
+            "Kentucky",
+            "Louisiana",
+            "Louisiana",
+            "Maine",
+            "Maine",
+            "Maryland",
+            "Maryland",
+            "Massachusetts",
+            "Massachusetts",
+            "Michigan",
+            "Michigan",
+            "Minnesota",
+            "Minnesota",
+            "Mississippi",
+            "Mississippi",
+            "Missouri",
+            "Missouri",
+            "Montana",
+            "Montana",
+            "Nebraska",
+            "Nebraska",
+            "Nevada",
+            "Nevada",
+            "New Hampshire",
+            "New Hampshire",
+            "New Jersey",
+            "New Jersey",
+            "New Mexico",
+            "New Mexico",
+            "New York",
+            "New York",
+            "North Carolina",
+            "North Carolina",
+            "North Dakota",
+            "North Dakota",
+            "Ohio",
+            "Ohio",
+            "Oklahoma",
+            "Oklahoma",
+            "Oregon",
+            "Oregon",
+            "Pennsylvania",
+            "Pennsylvania",
+            "Rhode Island",
+            "Rhode Island",
+            "South Carolina",
+            "South Carolina",
+            "South Dakota",
+            "South Dakota",
+            "Tennessee",
+            "Tennessee",
+            "Texas",
+            "Texas",
+            "Utah",
+            "Utah",
+            "Vermont",
+            "Vermont",
+            "Virginia",
+            "Virginia",
+            "Washington",
+            "Washington",
+            "West Virginia",
+            "West Virginia",
+            "Wisconsin",
+            "Wisconsin",
+            "Wyoming",
+            "Wyoming"
+         ],
+         "state.abb" : [
+            "AL",
+            "AL",
+            "AK",
+            "AK",
+            "AZ",
+            "AZ",
+            "AR",
+            "AR",
+            "CA",
+            "CA",
+            "CO",
+            "CO",
+            "CT",
+            "CT",
+            "DE",
+            "DE",
+            "FL",
+            "FL",
+            "GA",
+            "GA",
+            "HI",
+            "HI",
+            "ID",
+            "ID",
+            "IL",
+            "IL",
+            "IN",
+            "IN",
+            "IA",
+            "IA",
+            "KS",
+            "KS",
+            "KY",
+            "KY",
+            "LA",
+            "LA",
+            "ME",
+            "ME",
+            "MD",
+            "MD",
+            "MA",
+            "MA",
+            "MI",
+            "MI",
+            "MN",
+            "MN",
+            "MS",
+            "MS",
+            "MO",
+            "MO",
+            "MT",
+            "MT",
+            "NE",
+            "NE",
+            "NV",
+            "NV",
+            "NH",
+            "NH",
+            "NJ",
+            "NJ",
+            "NM",
+            "NM",
+            "NY",
+            "NY",
+            "NC",
+            "NC",
+            "ND",
+            "ND",
+            "OH",
+            "OH",
+            "OK",
+            "OK",
+            "OR",
+            "OR",
+            "PA",
+            "PA",
+            "RI",
+            "RI",
+            "SC",
+            "SC",
+            "SD",
+            "SD",
+            "TN",
+            "TN",
+            "TX",
+            "TX",
+            "UT",
+            "UT",
+            "VT",
+            "VT",
+            "VA",
+            "VA",
+            "WA",
+            "WA",
+            "WV",
+            "WV",
+            "WI",
+            "WI",
+            "WY",
+            "WY"
+         ],
+         "name" : [
+            "SESSIONS (R AL)",
+            "SHELBY (R AL)",
+            "MURKOWSKI (R AK)",
+            "STEVENS (R AK)",
+            "KYL (R AZ)",
+            "MCCAIN (R AZ)",
+            "HUTCHINSON (R AR)",
+            "LINCOLN (D AR)",
+            "BOXER (D CA)",
+            "FEINSTEIN (D CA)",
+            "ALLARD (R CO)",
+            "CAMPBELL (R CO)",
+            "DODD (D CT)",
+            "LIEBERMAN (D CT)",
+            "BIDEN (D DE)",
+            "CARPER (D DE)",
+            "GRAHAM (D FL)",
+            "NELSON (D FL)",
+            "CLELAND (D GA)",
+            "MILLER (D GA)",
+            "AKAKA (D HI)",
+            "INOUYE (D HI)",
+            "CRAIG (R ID)",
+            "CRAPO (R ID)",
+            "DURBIN (D IL)",
+            "FITZGERALD (R IL)",
+            "BAYH (D IN)",
+            "LUGAR (R IN)",
+            "GRASSLEY (R IA)",
+            "HARKIN (D IA)",
+            "BROWNBACK (R KS)",
+            "ROBERTS (R KS)",
+            "BUNNING (R KY)",
+            "MCCONNELL (R KY)",
+            "BREAUX (D LA)",
+            "LANDRIEU (D LA)",
+            "COLLINS (R ME)",
+            "SNOWE (R ME)",
+            "MIKULSKI (D MD)",
+            "SARBANES (D MD)",
+            "KENNEDY (D MA)",
+            "KERRY (D MA)",
+            "STABENOW (D MI)",
+            "LEVIN (D MI)",
+            "DAYTON (D MN)",
+            "WELLSTONE (D MN)",
+            "COCHRAN (R MS)",
+            "LOTT (R MS)",
+            "CARNAHAN (D MO)",
+            "BOND (R MO)",
+            "BAUCUS (D MT)",
+            "BURNS (R MT)",
+            "HAGEL (R NE)",
+            "NELSON (D NE)",
+            "ENSIGN (R NV)",
+            "REID (D NV)",
+            "GREGG (R NH)",
+            "SMITH (R NH)",
+            "CORZINE (D NJ)",
+            "TORRICELLI (D NJ)",
+            "BINGAMAN (D NM)",
+            "DOMENICI (R NM)",
+            "CLINTON (D NY)",
+            "SCHUMER (D NY)",
+            "EDWARDS (D NC)",
+            "HELMS (R NC)",
+            "CONRAD (D ND)",
+            "DORGAN (D ND)",
+            "DEWINE (R OH)",
+            "VOINOVICH (R OH)",
+            "INHOFE (R OK)",
+            "NICKLES (R OK)",
+            "SMITH (R OR)",
+            "WYDEN (D OR)",
+            "SANTORUM (R PA)",
+            "SPECTER (R PA)",
+            "CHAFEE (R RI)",
+            "REED (D RI)",
+            "HOLLINGS (D SC)",
+            "THURMOND (R SC)",
+            "DASCHLE (D SD)",
+            "JOHNSON (D SD)",
+            "FRIST (R TN)",
+            "THOMPSON (R TN)",
+            "GRAMM (R TX)",
+            "HUTCHISON (R TX)",
+            "BENNETT (R UT)",
+            "HATCH (R UT)",
+            "JEFFORDS (Indep VT)",
+            "LEAHY (D VT)",
+            "ALLEN (R VA)",
+            "WARNER (R VA)",
+            "CANTWELL (D WA)",
+            "MURRAY (D WA)",
+            "BYRD (D WV)",
+            "ROCKEFELLER (D WV)",
+            "FEINGOLD (D WI)",
+            "KOHL (D WI)",
+            "ENZI (R WY)",
+            "THOMAS (R WY)"
+         ],
+         "rep" : [
+            "TRUE",
+            "TRUE",
+            "TRUE",
+            "TRUE",
+            "TRUE",
+            "TRUE",
+            "TRUE",
+            "FALSE",
+            "FALSE",
+            "FALSE",
+            "TRUE",
+            "TRUE",
+            "FALSE",
+            "FALSE",
+            "FALSE",
+            "FALSE",
+            "FALSE",
+            "FALSE",
+            "FALSE",
+            "FALSE",
+            "FALSE",
+            "FALSE",
+            "TRUE",
+            "TRUE",
+            "FALSE",
+            "TRUE",
+            "FALSE",
+            "TRUE",
+            "TRUE",
+            "FALSE",
+            "TRUE",
+            "TRUE",
+            "TRUE",
+            "TRUE",
+            "FALSE",
+            "FALSE",
+            "TRUE",
+            "TRUE",
+            "FALSE",
+            "FALSE",
+            "FALSE",
+            "FALSE",
+            "FALSE",
+            "FALSE",
+            "FALSE",
+            "FALSE",
+            "TRUE",
+            "TRUE",
+            "FALSE",
+            "TRUE",
+            "FALSE",
+            "TRUE",
+            "TRUE",
+            "FALSE",
+            "TRUE",
+            "FALSE",
+            "TRUE",
+            "TRUE",
+            "FALSE",
+            "FALSE",
+            "FALSE",
+            "TRUE",
+            "FALSE",
+            "FALSE",
+            "FALSE",
+            "TRUE",
+            "FALSE",
+            "FALSE",
+            "TRUE",
+            "TRUE",
+            "TRUE",
+            "TRUE",
+            "TRUE",
+            "FALSE",
+            "TRUE",
+            "TRUE",
+            "TRUE",
+            "FALSE",
+            "FALSE",
+            "TRUE",
+            "FALSE",
+            "FALSE",
+            "TRUE",
+            "TRUE",
+            "TRUE",
+            "TRUE",
+            "TRUE",
+            "TRUE",
+            "FALSE",
+            "FALSE",
+            "TRUE",
+            "TRUE",
+            "FALSE",
+            "FALSE",
+            "FALSE",
+            "FALSE",
+            "FALSE",
+            "FALSE",
+            "TRUE",
+            "TRUE"
+         ]
+      }
+   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>iraqVote</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>\nU.S. Senate vote on the use of force against Iraq, 2002.\t\n</h2>\n<h3>Description</h3>\n<p>On October 11, 2002, the United States Senate\nvoted 77-23 to authorize the use of military force against Iraq.  This data set lists the &ldquo;Ayes&rdquo; and &ldquo;Nays&rdquo; for each Senator and some covariates.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(iraqVote)</code></pre>\n<h3>Format</h3>\n<p>A data frame with 100 observations on the following 6 variables.\n</p>\n<dl>\n<dt><code>y</code></dt><dd><p>a numeric vector, the recorded vote (1 if Aye, 0 if Nay)</p>\n</dd>\n<dt><code>state.abb</code></dt><dd><p>two letter abbreviation for each state</p>\n</dd>\n<dt><code>name</code></dt><dd><p>senator name, party and state, e.g., <code>AKAKA (D HI)</code></p>\n</dd>\n<dt><code>rep</code></dt><dd><p>logical, <code>TRUE</code> for Republican senators</p>\n</dd>\n<dt><code>state.name</code></dt><dd><p>name of state</p>\n</dd>\n<dt><code>gorevote</code></dt><dd><p>numeric, the vote share recorded by Al Gore in the corresponding state in the 2000 Presidential election</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>The only Republican to vote against the resolution was Lincoln\nChafee (Rhode Island); Democrats split 29-22 in favor of the\nresolution.\n</p>\n<h3>Source</h3>\n<p>Keith Poole, 107th Senate Roll Call Data. <a href=\"https://voteview.com/static/data/out/votes/S107_votes.ord\">https://voteview.com/static/data/out/votes/S107_votes.ord</a>  The Iraq vote is vote number 617.\n</p>\n<p>David Leip's Atlas of U.S. Presidential Elections.  <a href=\"https://uselectionatlas.org\">https://uselectionatlas.org</a> \n</p>\n<h3>References</h3>\n<p>Jackman, Simon. 2009.  <em>Bayesian Analysis for the Social Sciences</em>.  Wiley: Chichester.  Example 8.3.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>data(iraqVote)\n## probit model\nglm1 &lt;- glm(y ~ gorevote + rep,\n            data=iraqVote,\n            family=binomial(link=probit))\n</code></pre>\n</main>\n</div>\n",
+   "config" : {
+      "shapeBy" : "state.abb",
+      "sizeBy" : "name",
+      "colorBy" : "state.name",
+      "title" : "U.S. Senate vote on the use of force against Iraq",
+      "subtitle" : "pscl - iraqVote",
+      "graphType" : "Scatter2D"
+   }
+}

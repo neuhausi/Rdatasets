@@ -1,0 +1,130 @@
+{
+   "data" : {
+      "x" : {
+         "regress" : [
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "no"
+         ],
+         "treatment" : [
+            "pure_ethanol_16x",
+            "pure_ethanol_16x",
+            "pure_ethanol_16x",
+            "pure_ethanol_16x",
+            "pure_ethanol_16x",
+            "pure_ethanol_16x",
+            "pure_ethanol_16x",
+            "pure_ethanol_16x",
+            "pure_ethanol_16x",
+            "pure_ethanol_16x",
+            "pure_ethanol_16x",
+            "pure_ethanol_16x",
+            "pure_ethanol",
+            "pure_ethanol",
+            "pure_ethanol",
+            "pure_ethanol",
+            "pure_ethanol",
+            "ethyl_cellulose",
+            "ethyl_cellulose",
+            "ethyl_cellulose",
+            "ethyl_cellulose",
+            "ethyl_cellulose",
+            "ethyl_cellulose",
+            "ethyl_cellulose"
+         ]
+      },
+      "y" : {
+         "vars" : [
+            "Row"
+         ],
+         "smps" : [
+            "Smp1",
+            "Smp2",
+            "Smp3",
+            "Smp4",
+            "Smp5",
+            "Smp6",
+            "Smp7",
+            "Smp8",
+            "Smp9",
+            "Smp10",
+            "Smp11",
+            "Smp12",
+            "Smp13",
+            "Smp14",
+            "Smp15",
+            "Smp16",
+            "Smp17",
+            "Smp18",
+            "Smp19",
+            "Smp20",
+            "Smp21",
+            "Smp22",
+            "Smp23",
+            "Smp24"
+         ],
+         "data" : [
+            [
+               1,
+               2,
+               3,
+               4,
+               5,
+               6,
+               7,
+               8,
+               9,
+               10,
+               11,
+               12,
+               13,
+               14,
+               15,
+               16,
+               17,
+               18,
+               19,
+               20,
+               21,
+               22,
+               23,
+               24
+            ]
+         ]
+      }
+   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>ethanol</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Ethanol Treatment for Tumors Experiment</h2>\n<h3>Description</h3>\n<p>Experiment where 3 different treatments of ethanol were tested on the\ntreatment of oral cancer tumors in hamsters.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>ethanol\n</code></pre>\n<h3>Format</h3>\n<p>A data frame with 24 observations, each representing one hamster, on\nthe following 2 variables. </p>\n<dl>\n<dt>treatment</dt><dd><p>Treatment\nthe hamster received.</p>\n</dd> <dt>regress</dt><dd><p>a factor with levels <code>no</code>\n<code>yes</code></p>\n</dd> </dl>\n<h3>Details</h3>\n<p>The <code>ethyl_cellulose</code> and <code>pure_ethanol</code> treatments consisted of\nabout a quarter of the volume of the tumors, while the\n<code>pure_ethanol_16x</code> treatment was 16x that, so about 4 times the size of\nthe tumors.\n</p>\n<h3>Source</h3>\n<p>Morhard R, et al. 2017. Development of enhanced ethanol ablation as\nan alternative to surgery in treatment of superficial solid tumors.\nScientific Reports 7:8750.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>\ntable(ethanol)\nfisher.test(table(ethanol))\n</code></pre>\n</main>\n</div>\n",
+   "config" : {
+      "groupingFactors" : [
+         "regress"
+      ],
+      "colorBy" : "variable",
+      "title" : "Ethanol Treatment for Tumors Experiment",
+      "segregateSamplesBy" : [
+         "treatment"
+      ],
+      "subtitle" : "openintro - ethanol",
+      "graphType" : "Boxplot"
+   }
+}

@@ -1,0 +1,57 @@
+{
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>finney71</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Example from Finney (1971)</h2>\n<h3>Description</h3>\n<p>For each of six concentration of an insecticid the number of insects affected (out of the number of insects)\nwas recorded.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(finney71)</code></pre>\n<h3>Format</h3>\n<p>A data frame with 6 observations on the following 3 variables.\n</p>\n<dl>\n<dt><code>dose</code></dt><dd><p>a numeric vector</p>\n</dd>\n<dt><code>total</code></dt><dd><p>a numeric vector</p>\n</dd>\n<dt><code>affected</code></dt><dd><p>a numeric vector</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>Finney, D. J. (1971) <em>Probit Analysis</em>, Cambridge: Cambridge University Press.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>\n## Model with ED50 as a parameter\nfinney71.m1 &lt;- drm(affected/total ~ dose, weights = total,\ndata = finney71, fct = LL.2(), type = \"binomial\")\nsummary(finney71.m1)\nplot(finney71.m1, broken = TRUE, bp = 0.1, lwd = 2)\nED(finney71.m1, c(10, 20, 50), interval = \"delta\", reference = \"control\")\n## Model fitted with 'glm'\n#fitl.glm &lt;- glm(cbind(affected, total-affected) ~ log(dose),\n#family=binomial(link = logit), data=finney71[finney71$dose != 0, ])\n#summary(fitl.glm)  # p-value almost agree for the b parameter\n#xp &lt;- dose.p(fitl.glm, p=c(0.50, 0.90, 0.95))  # from MASS\n#xp.ci &lt;- xp + attr(xp, \"SE\") %*% matrix(qnorm(1 - 0.05/2)*c(-1,1), nrow=1)\n#zp.est &lt;- exp(cbind(xp.ci[,1],xp,xp.ci[,2]))\n#dimnames(zp.est)[[2]] &lt;- c(\"zp.lcl\",\"zp\",\"zp.ucl\")\n#zp.est  # not far from above results with 'ED'\n## Model with log(ED50) as a parameter\nfinney71.m2 &lt;- drm(affected/total ~ dose, weights = total,\ndata = finney71, fct = LL2.2(), type = \"binomial\")\n## Confidence intervals based on back-transformation\n##  complete agreement with results based on 'glm'\nED(finney71.m2, c(10, 20, 50), interval = \"fls\", reference = \"control\")\n</code></pre>\n</main>\n</div>\n",
+   "data" : {
+      "y" : {
+         "data" : [
+            [
+               10.2,
+               50,
+               44
+            ],
+            [
+               7.7,
+               49,
+               42
+            ],
+            [
+               5.1,
+               46,
+               24
+            ],
+            [
+               3.8,
+               48,
+               16
+            ],
+            [
+               2.6,
+               50,
+               6
+            ],
+            [
+               0,
+               49,
+               0
+            ]
+         ],
+         "smps" : [
+            "dose",
+            "total",
+            "affected"
+         ],
+         "vars" : [
+            "Var1",
+            "Var2",
+            "Var3",
+            "Var4",
+            "Var5",
+            "Var6"
+         ]
+      }
+   },
+   "config" : {
+      "subtitle" : "drc - finney71",
+      "graphType" : "Scatter3D",
+      "title" : "Example from Finney (1971)"
+   }
+}

@@ -1,0 +1,120 @@
+{
+   "data" : {
+      "y" : {
+         "vars" : [
+            "Var1",
+            "Var2",
+            "Var3",
+            "Var4",
+            "Var5",
+            "Var6",
+            "Var7",
+            "Var8",
+            "Var9",
+            "Var10",
+            "Var11",
+            "Var12",
+            "Var13",
+            "Var14",
+            "Var15",
+            "Var16",
+            "Var17",
+            "Var18",
+            "Var19",
+            "Var20"
+         ],
+         "smps" : [
+            "baseline",
+            "oneyear"
+         ],
+         "data" : [
+            [
+               2.12,
+               2.47
+            ],
+            [
+               4.35,
+               4.61
+            ],
+            [
+               3.39,
+               5.26
+            ],
+            [
+               2.51,
+               3.02
+            ],
+            [
+               4.04,
+               6.36
+            ],
+            [
+               5.1,
+               5.93
+            ],
+            [
+               3.77,
+               3.93
+            ],
+            [
+               3.35,
+               4.09
+            ],
+            [
+               4.1,
+               4.88
+            ],
+            [
+               3.35,
+               3.81
+            ],
+            [
+               4.15,
+               4.74
+            ],
+            [
+               3.56,
+               3.29
+            ],
+            [
+               3.39,
+               5.55
+            ],
+            [
+               1.88,
+               2.82
+            ],
+            [
+               2.56,
+               4.23
+            ],
+            [
+               2.96,
+               3.23
+            ],
+            [
+               2.49,
+               2.56
+            ],
+            [
+               3.03,
+               4.31
+            ],
+            [
+               2.66,
+               4.37
+            ],
+            [
+               3,
+               2.4
+            ]
+         ]
+      }
+   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>cd4</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>\nCD4 Counts for HIV-Positive Patients\n</h2>\n<h3>Description</h3>\n<p>The <code>cd4</code> data frame has 20 rows and 2 columns.\n</p>\n<p>CD4 cells are carried in the blood as part of the human immune system.  One of\nthe effects of the HIV virus is that these cells die.  The count of CD4 cells is\nused in determining the onset of full-blown AIDS in a patient.  In this study of\nthe effectiveness of a new anti-viral drug on HIV, 20 HIV-positive patients had\ntheir CD4 counts recorded and then were put on a course of treatment with this\ndrug.  After using the drug for one year, their CD4 counts were again recorded.\nThe aim of the experiment was to show that patients taking the drug had\nincreased CD4 counts which is not generally seen in HIV-positive patients.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>cd4\n</code></pre>\n<h3>Format</h3>\n<p>This data frame contains the following columns:\n</p>\n<dl>\n<dt><code>baseline</code></dt><dd>\n<p>The CD4 counts (in 100's) on admission to the trial.\n</p>\n</dd>\n<dt><code>oneyear </code></dt><dd>\n<p>The CD4 counts (in 100's) after one year of treatment with the new drug.\n</p>\n</dd></dl>\n<h3>Source</h3>\n<p>The data were obtained from\n</p>\n<p>DiCiccio, T.J. and Efron  B. (1996) Bootstrap confidence intervals (with \nDiscussion). <em>Statistical Science</em>, <b>11</b>, 189&ndash;228.\n</p>\n<h3>References</h3>\n<p>Davison, A.C. and Hinkley, D.V. (1997) \n<em>Bootstrap Methods and Their Application</em>. Cambridge University Press.\n</p>\n</main>\n</div>\n",
+   "config" : {
+      "subtitle" : "boot - cd4",
+      "graphType" : "Scatter2D",
+      "title" : "CD4 Counts for HIV-Positive Patients"
+   }
+}

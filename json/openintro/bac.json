@@ -1,0 +1,117 @@
+{
+   "data" : {
+      "y" : {
+         "vars" : [
+            "Var1",
+            "Var2",
+            "Var3",
+            "Var4",
+            "Var5",
+            "Var6",
+            "Var7",
+            "Var8",
+            "Var9",
+            "Var10",
+            "Var11",
+            "Var12",
+            "Var13",
+            "Var14",
+            "Var15",
+            "Var16"
+         ],
+         "smps" : [
+            "student",
+            "beers",
+            "bac"
+         ],
+         "data" : [
+            [
+               1,
+               5,
+               0.1
+            ],
+            [
+               2,
+               2,
+               0.03
+            ],
+            [
+               3,
+               9,
+               0.19
+            ],
+            [
+               4,
+               8,
+               0.12
+            ],
+            [
+               5,
+               3,
+               0.04
+            ],
+            [
+               6,
+               7,
+               0.095
+            ],
+            [
+               7,
+               3,
+               0.07
+            ],
+            [
+               8,
+               5,
+               0.06
+            ],
+            [
+               9,
+               3,
+               0.02
+            ],
+            [
+               10,
+               5,
+               0.05
+            ],
+            [
+               11,
+               4,
+               0.07
+            ],
+            [
+               12,
+               6,
+               0.1
+            ],
+            [
+               13,
+               5,
+               0.085
+            ],
+            [
+               14,
+               7,
+               0.09
+            ],
+            [
+               15,
+               1,
+               0.01
+            ],
+            [
+               16,
+               4,
+               0.05
+            ]
+         ]
+      }
+   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>bac</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Beer and blood alcohol content</h2>\n<h3>Description</h3>\n<p>Here we examine data from sixteen student volunteers at Ohio State\nUniversity who each drank a randomly assigned number of cans of beer.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>bac\n</code></pre>\n<h3>Format</h3>\n<p>A data frame with 16 observations on the following 3 variables.\n</p>\n<dl>\n<dt>student</dt><dd><p>a numeric vector</p>\n</dd>\n<dt>beers</dt><dd><p>a numeric vector</p>\n</dd>\n<dt>bac</dt><dd><p>a numeric vector</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>J. Malkevitch and L.M. Lesser. For All Practical Purposes:\nMathematical Literacy in Today's World. WH Freeman &amp; Co, 2008.  The data\norigin is given in the <a href=\"https://bcs.whfreeman.com/WebPub/Statistics/shared_resources/EESEE/BloodAlcoholContent/index.html\">Electronic Encyclopedia of Statistical Examples and Exercises</a>, 1992.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>\nlibrary(ggplot2)\nggplot(bac, aes(x = beers, y = bac)) +\n  geom_point() +\n  labs(x = \"Number of beers\", y = \"Blood alcohol content\")\n</code></pre>\n</main>\n</div>\n",
+   "config" : {
+      "graphType" : "Scatter3D",
+      "subtitle" : "openintro - bac",
+      "title" : "Beer and blood alcohol content"
+   }
+}

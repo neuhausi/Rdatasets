@@ -1,0 +1,22 @@
+[
+   [
+      "airlines",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/nycflights13/airlines.json"
+   ],
+   [
+      "airports",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/nycflights13/airports.json"
+   ],
+   [
+      "flights",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/nycflights13/flights.json"
+   ],
+   [
+      "planes",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/nycflights13/planes.json"
+   ],
+   [
+      "weather",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/nycflights13/weather.json"
+   ]
+]

@@ -1,0 +1,100 @@
+{
+   "config" : {
+      "title" : "Canadian Population Data",
+      "subtitle" : "carData - CanPop",
+      "graphType" : "Scatter2D"
+   },
+   "data" : {
+      "y" : {
+         "vars" : [
+            "Var1",
+            "Var2",
+            "Var3",
+            "Var4",
+            "Var5",
+            "Var6",
+            "Var7",
+            "Var8",
+            "Var9",
+            "Var10",
+            "Var11",
+            "Var12",
+            "Var13",
+            "Var14",
+            "Var15",
+            "Var16"
+         ],
+         "smps" : [
+            "year",
+            "population"
+         ],
+         "data" : [
+            [
+               1851,
+               2.436
+            ],
+            [
+               1861,
+               3.23
+            ],
+            [
+               1871,
+               3.689
+            ],
+            [
+               1881,
+               4.325
+            ],
+            [
+               1891,
+               4.833
+            ],
+            [
+               1901,
+               5.371
+            ],
+            [
+               1911,
+               7.207
+            ],
+            [
+               1921,
+               8.788
+            ],
+            [
+               1931,
+               10.377
+            ],
+            [
+               1941,
+               11.507
+            ],
+            [
+               1951,
+               13.648
+            ],
+            [
+               1961,
+               17.78
+            ],
+            [
+               1971,
+               21.046
+            ],
+            [
+               1981,
+               23.774
+            ],
+            [
+               1991,
+               26.429
+            ],
+            [
+               2001,
+               30.007
+            ]
+         ]
+      }
+   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>CanPop</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Canadian Population Data</h2>\n<h3>Description</h3>\n<p>The <code>CanPop</code> data frame has 16 rows and 2 columns.\nDecennial time-series of Canadian population, 1851&ndash;2001.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>CanPop\n</code></pre>\n<h3>Format</h3>\n<p>This data frame contains the following columns:\n</p>\n<dl>\n<dt>year</dt><dd>\n<p>census year.\n</p>\n</dd>\n<dt>population</dt><dd>\n<p>Population, in millions\n</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>Urquhart, M. C. and Buckley, K. A. H. (Eds.) (1965)\n<em>Historical Statistics of Canada</em>. Macmillan, p. 1369.\n</p>\n<p>Canada (1994)\n<em>Canada Year Book</em>. Statistics Canada, Table 3.2.\n</p>\n<p>Statistics Canada: from the now defunct\nhttp://www12.statcan.ca/english/census01/products/standard/popdwell/Table-PR.cfm.\n</p>\n<h3>References</h3>\n<p>Fox, J. (2016)\n<em>Applied Regression Analysis and Generalized Linear Models</em>,\nThird Edition. Sage.  \n</p>\n</main>\n</div>\n"
+}

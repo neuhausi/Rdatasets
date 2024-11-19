@@ -1,0 +1,99 @@
+{
+   "config" : {
+      "title" : "Final exam scores for twenty students",
+      "graphType" : "Pie",
+      "subtitle" : "openintro - stats_scores"
+   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>stats_scores</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Final exam scores for twenty students</h2>\n<h3>Description</h3>\n<p>Scores range from 57 to 94.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>stats_scores\n</code></pre>\n<h3>Format</h3>\n<p>A data frame with 20 observations on the following variable.\n</p>\n<dl>\n<dt>scores</dt><dd><p>a numeric vector</p>\n</dd>\n</dl>\n<h3>Examples</h3>\n<pre><code class='language-R'>\nstats_scores\n</code></pre>\n</main>\n</div>\n",
+   "data" : {
+      "y" : {
+         "vars" : [
+            "Var1",
+            "Var2",
+            "Var3",
+            "Var4",
+            "Var5",
+            "Var6",
+            "Var7",
+            "Var8",
+            "Var9",
+            "Var10",
+            "Var11",
+            "Var12",
+            "Var13",
+            "Var14",
+            "Var15",
+            "Var16",
+            "Var17",
+            "Var18",
+            "Var19",
+            "Var20"
+         ],
+         "smps" : [
+            "scores"
+         ],
+         "data" : [
+            [
+               79
+            ],
+            [
+               83
+            ],
+            [
+               57
+            ],
+            [
+               82
+            ],
+            [
+               94
+            ],
+            [
+               83
+            ],
+            [
+               72
+            ],
+            [
+               74
+            ],
+            [
+               73
+            ],
+            [
+               71
+            ],
+            [
+               66
+            ],
+            [
+               89
+            ],
+            [
+               78
+            ],
+            [
+               81
+            ],
+            [
+               78
+            ],
+            [
+               81
+            ],
+            [
+               88
+            ],
+            [
+               69
+            ],
+            [
+               77
+            ],
+            [
+               79
+            ]
+         ]
+      }
+   }
+}

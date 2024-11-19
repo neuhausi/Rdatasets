@@ -1,0 +1,65 @@
+{
+   "config" : {
+      "title" : "Elastic Band Data Replicated",
+      "subtitle" : "DAAG - elastic2",
+      "graphType" : "Scatter2D"
+   },
+   "data" : {
+      "y" : {
+         "vars" : [
+            "Var1",
+            "Var2",
+            "Var3",
+            "Var4",
+            "Var5",
+            "Var6",
+            "Var7",
+            "Var8",
+            "Var9"
+         ],
+         "data" : [
+            [
+               30,
+               71
+            ],
+            [
+               50,
+               196
+            ],
+            [
+               40,
+               127
+            ],
+            [
+               45,
+               187
+            ],
+            [
+               60,
+               249
+            ],
+            [
+               55,
+               217
+            ],
+            [
+               35,
+               114
+            ],
+            [
+               55,
+               228
+            ],
+            [
+               65,
+               291
+            ]
+         ],
+         "smps" : [
+            "stretch",
+            "distance"
+         ]
+      }
+   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>elastic1</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Elastic Band Data Replicated</h2>\n<h3>Description</h3>\n<p>Both datasets\ngive, for each amount by which an elastic band is stretched\nover the end of a ruler, the distance that the band traveled when\nreleased.  The <code>elastic1</code> data frame has 7 rows.\nThe <code>elastic2</code> data frame, whose data span a wider range\nof stretches and distances, has 9 rows.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>  data(elastic1)\n  data(elastic2)\n  </code></pre>\n<h3>Format</h3>\n<p>These data frames contains the following columns:\n</p>\n<dl>\n<dt>stretch</dt><dd><p>the amount by which the\nelastic band was stretched</p>\n</dd>\n<dt>distance</dt><dd><p>the distance traveled</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>J. H. Maindonald\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>plot(elastic1)\nsapply(elastic1, mean)\npause()\nsapply(elastic1, function(x)mean(x))\npause()\nsapply(elastic1, function(x)sum(log(x)))\npause()\nyrange &lt;- range(c(elastic1$distance, elastic2$distance))\nxrange &lt;- range(c(elastic1$stretch, elastic2$stretch))\nplot(distance ~ stretch, data = elastic1, pch = 16, ylim = yrange, xlim = \nxrange)\npoints(distance ~ stretch, data = elastic2, pch = 15, col = 2)\nlegend(xrange[1], yrange[2], legend = c(\"Data set 1\", \"Data set 2\"), pch = \nc(16, 15), col = c(1, 2))\nelastic1.lm &lt;- lm(distance ~ stretch, data = elastic1)\nelastic2.lm &lt;- lm(distance ~ stretch, data = elastic2)\nabline(elastic1.lm)\nabline(elastic2.lm, col = 2)\nsummary(elastic1.lm)\nsummary(elastic2.lm)\npause()\npredict(elastic1.lm, se.fit=TRUE)\npredict(elastic2.lm, se.fit=TRUE)\n</code></pre>\n</main>\n</div>\n"
+}

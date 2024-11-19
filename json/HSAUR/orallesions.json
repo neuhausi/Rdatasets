@@ -1,0 +1,130 @@
+{
+   "config" : {
+      "graphType" : "Boxplot",
+      "subtitle" : "HSAUR - orallesions",
+      "segregateSamplesBy" : [
+         "region"
+      ],
+      "title" : "Oral Lesions in Rural India",
+      "colorBy" : "variable",
+      "groupingFactors" : [
+         "site.of.lesion"
+      ]
+   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>orallesions</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2> Oral Lesions in Rural India </h2>\n<h3>Description</h3>\n<p>The distribution of the oral\nlesion site found in house-to-house surveys in three geographic\nregions of rural India.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(\"orallesions\")</code></pre>\n<h3>Format</h3>\n<p>A two-way classification, see <code>table</code>.\n</p>\n<h3>Source</h3>\n<p>Cyrus R. Mehta and Nitin R. Patel (2003), \n<em>StatXact-6: Statistical Software for Exact Nonparametric\nInference</em>, Cytel Software Cooperation, Cambridge, USA.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>\n  data(\"orallesions\", package = \"HSAUR\")\n  mosaicplot(orallesions)\n</code></pre>\n</main>\n</div>\n",
+   "data" : {
+      "x" : {
+         "site.of.lesion" : [
+            "Buccal mucosa",
+            "Commissure",
+            "Gingiva",
+            "Hard palate",
+            "Soft palate",
+            "Tongue",
+            "Floor of mouth",
+            "Alveolar ridge",
+            "Buccal mucosa",
+            "Commissure",
+            "Gingiva",
+            "Hard palate",
+            "Soft palate",
+            "Tongue",
+            "Floor of mouth",
+            "Alveolar ridge",
+            "Buccal mucosa",
+            "Commissure",
+            "Gingiva",
+            "Hard palate",
+            "Soft palate",
+            "Tongue",
+            "Floor of mouth",
+            "Alveolar ridge"
+         ],
+         "region" : [
+            "Kerala",
+            "Kerala",
+            "Kerala",
+            "Kerala",
+            "Kerala",
+            "Kerala",
+            "Kerala",
+            "Kerala",
+            "Gujarat",
+            "Gujarat",
+            "Gujarat",
+            "Gujarat",
+            "Gujarat",
+            "Gujarat",
+            "Gujarat",
+            "Gujarat",
+            "Andhra",
+            "Andhra",
+            "Andhra",
+            "Andhra",
+            "Andhra",
+            "Andhra",
+            "Andhra",
+            "Andhra"
+         ]
+      },
+      "y" : {
+         "smps" : [
+            "Smp1",
+            "Smp2",
+            "Smp3",
+            "Smp4",
+            "Smp5",
+            "Smp6",
+            "Smp7",
+            "Smp8",
+            "Smp9",
+            "Smp10",
+            "Smp11",
+            "Smp12",
+            "Smp13",
+            "Smp14",
+            "Smp15",
+            "Smp16",
+            "Smp17",
+            "Smp18",
+            "Smp19",
+            "Smp20",
+            "Smp21",
+            "Smp22",
+            "Smp23",
+            "Smp24"
+         ],
+         "data" : [
+            [
+               8,
+               0,
+               0,
+               0,
+               0,
+               0,
+               1,
+               1,
+               1,
+               1,
+               1,
+               1,
+               1,
+               1,
+               0,
+               0,
+               8,
+               0,
+               0,
+               0,
+               0,
+               0,
+               1,
+               1
+            ]
+         ],
+         "vars" : [
+            "Freq"
+         ]
+      }
+   }
+}

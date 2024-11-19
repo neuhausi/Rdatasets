@@ -1,0 +1,22 @@
+[
+   [
+      "gas",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/forecast/gas.json"
+   ],
+   [
+      "gold",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/forecast/gold.json"
+   ],
+   [
+      "taylor",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/forecast/taylor.json"
+   ],
+   [
+      "wineind",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/forecast/wineind.json"
+   ],
+   [
+      "woolyrnq",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/forecast/woolyrnq.json"
+   ]
+]

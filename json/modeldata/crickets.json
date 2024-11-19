@@ -1,0 +1,211 @@
+{
+   "config" : {
+      "title" : "Rates of Cricket Chirps",
+      "colorBy" : "species",
+      "graphType" : "Scatter2D",
+      "subtitle" : "modeldata - crickets"
+   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>crickets</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Rates of Cricket Chirps</h2>\n<h3>Description</h3>\n<p>These data are from from McDonald (2009), by way of Mangiafico (2015), on\nthe relationship between the ambient temperature and the rate of cricket\nchirps per minute. Data were collected for two species of the genus <em>Oecanthus</em>: <em>O. exclamationis</em>\nand <em>O. niveus</em>. The data are contained in a data frame called <code>crickets</code> with\na total of 31 data points.\n</p>\n<h3>Value</h3>\n<table>\n<tr><td><code>crickets</code></td>\n<td>\n<p>a tibble</p>\n</td></tr>\n</table>\n<h3>Source</h3>\n<p>Mangiafico, S. 2015. &quot;An R Companion for the Handbook of Biological\nStatistics.&quot; <a href=\"https://rcompanion.org/handbook/\">https://rcompanion.org/handbook/</a>.\n</p>\n<p>McDonald, J. 2009. <em>Handbook of Biological Statistics</em>. Sparky House Publishing.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>data(crickets)\nstr(crickets)\n</code></pre>\n</main>\n</div>\n",
+   "data" : {
+      "y" : {
+         "data" : [
+            [
+               20.8,
+               67.9
+            ],
+            [
+               20.8,
+               65.1
+            ],
+            [
+               24,
+               77.3
+            ],
+            [
+               24,
+               78.7
+            ],
+            [
+               24,
+               79.4
+            ],
+            [
+               24,
+               80.4
+            ],
+            [
+               26.2,
+               85.8
+            ],
+            [
+               26.2,
+               86.6
+            ],
+            [
+               26.2,
+               87.5
+            ],
+            [
+               26.2,
+               89.1
+            ],
+            [
+               28.4,
+               98.6
+            ],
+            [
+               29,
+               100.8
+            ],
+            [
+               30.4,
+               99.3
+            ],
+            [
+               30.4,
+               101.7
+            ],
+            [
+               17.2,
+               44.3
+            ],
+            [
+               18.3,
+               47.2
+            ],
+            [
+               18.3,
+               47.6
+            ],
+            [
+               18.3,
+               49.6
+            ],
+            [
+               18.9,
+               50.3
+            ],
+            [
+               18.9,
+               51.8
+            ],
+            [
+               20.4,
+               60
+            ],
+            [
+               21,
+               58.5
+            ],
+            [
+               21,
+               58.9
+            ],
+            [
+               22.1,
+               60.7
+            ],
+            [
+               23.5,
+               69.8
+            ],
+            [
+               24.2,
+               70.9
+            ],
+            [
+               25.9,
+               76.2
+            ],
+            [
+               26.5,
+               76.1
+            ],
+            [
+               26.5,
+               77
+            ],
+            [
+               26.5,
+               77.7
+            ],
+            [
+               28.6,
+               84.7
+            ]
+         ],
+         "smps" : [
+            "temp",
+            "rate"
+         ],
+         "vars" : [
+            "Var1",
+            "Var2",
+            "Var3",
+            "Var4",
+            "Var5",
+            "Var6",
+            "Var7",
+            "Var8",
+            "Var9",
+            "Var10",
+            "Var11",
+            "Var12",
+            "Var13",
+            "Var14",
+            "Var15",
+            "Var16",
+            "Var17",
+            "Var18",
+            "Var19",
+            "Var20",
+            "Var21",
+            "Var22",
+            "Var23",
+            "Var24",
+            "Var25",
+            "Var26",
+            "Var27",
+            "Var28",
+            "Var29",
+            "Var30",
+            "Var31"
+         ]
+      },
+      "z" : {
+         "species" : [
+            "O. exclamationis",
+            "O. exclamationis",
+            "O. exclamationis",
+            "O. exclamationis",
+            "O. exclamationis",
+            "O. exclamationis",
+            "O. exclamationis",
+            "O. exclamationis",
+            "O. exclamationis",
+            "O. exclamationis",
+            "O. exclamationis",
+            "O. exclamationis",
+            "O. exclamationis",
+            "O. exclamationis",
+            "O. niveus",
+            "O. niveus",
+            "O. niveus",
+            "O. niveus",
+            "O. niveus",
+            "O. niveus",
+            "O. niveus",
+            "O. niveus",
+            "O. niveus",
+            "O. niveus",
+            "O. niveus",
+            "O. niveus",
+            "O. niveus",
+            "O. niveus",
+            "O. niveus",
+            "O. niveus",
+            "O. niveus"
+         ]
+      }
+   }
+}

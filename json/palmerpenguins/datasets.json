@@ -1,0 +1,10 @@
+[
+   [
+      "penguins",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/palmerpenguins/penguins.json"
+   ],
+   [
+      "penguins_raw (penguins)",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/palmerpenguins/penguins_raw (penguins).json"
+   ]
+]

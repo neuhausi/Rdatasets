@@ -1,0 +1,97 @@
+{
+   "config" : {
+      "title" : "Sex",
+      "groupingFactors" : [
+         "Gender"
+      ],
+      "colorBy" : "variable",
+      "graphType" : "Boxplot",
+      "segregateSamplesBy" : [
+         "Disease",
+         "Occup"
+      ],
+      "subtitle" : "vcdExtra - Heart"
+   },
+   "data" : {
+      "x" : {
+         "Gender" : [
+            "Male",
+            "Male",
+            "Female",
+            "Female",
+            "Male",
+            "Male",
+            "Female",
+            "Female",
+            "Male",
+            "Male",
+            "Female",
+            "Female"
+         ],
+         "Disease" : [
+            "Disease",
+            "None",
+            "Disease",
+            "None",
+            "Disease",
+            "None",
+            "Disease",
+            "None",
+            "Disease",
+            "None",
+            "Disease",
+            "None"
+         ],
+         "Occup" : [
+            "Unempl",
+            "Unempl",
+            "Unempl",
+            "Unempl",
+            "WhiteCol",
+            "WhiteCol",
+            "WhiteCol",
+            "WhiteCol",
+            "BlueCol",
+            "BlueCol",
+            "BlueCol",
+            "BlueCol"
+         ]
+      },
+      "y" : {
+         "smps" : [
+            "Smp1",
+            "Smp2",
+            "Smp3",
+            "Smp4",
+            "Smp5",
+            "Smp6",
+            "Smp7",
+            "Smp8",
+            "Smp9",
+            "Smp10",
+            "Smp11",
+            "Smp12"
+         ],
+         "data" : [
+            [
+               254,
+               759,
+               431,
+               10283,
+               158,
+               3155,
+               52,
+               3082,
+               87,
+               2829,
+               16,
+               416
+            ]
+         ],
+         "vars" : [
+            "Freq"
+         ]
+      }
+   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>Heart</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Sex, Occupation and Heart Disease</h2>\n<h3>Description</h3>\n<p>Classification of individuals by gender, occupational category and occurrence of heart disease</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(Heart)</code></pre>\n<h3>Format</h3>\n<p>A 3-dimensional array resulting from cross-tabulating 3 variables for 21522 observations. The variable names and their levels are:\n</p>\n<table>\n<tr>\n <td style=\"text-align: right;\">\n    No </td><td style=\"text-align: left;\"> Name </td><td style=\"text-align: left;\"> Levels </td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    1</td><td style=\"text-align: left;\"> <code>Disease</code></td><td style=\"text-align: left;\"> <code>\"Disease\", \"None\"</code></td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    2</td><td style=\"text-align: left;\"> <code>Gender</code></td><td style=\"text-align: left;\"> <code>\"Male\", \"Female\"</code></td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    3</td><td style=\"text-align: left;\"> <code>Occup</code></td><td style=\"text-align: left;\"> <code>\"Unempl\", \"WhiteCol\", \"BlueCol\"</code></td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n  </td>\n</tr>\n</table>\n<h3>Source</h3>\n<p>Karger, (1980).\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>data(Heart)\nstr(Heart)\n# Display the frequencies for occupational categories.\n# Each row is a 2 x 2 table\nvcd::structable(Disease + Gender ~ Occup, data=Heart)\n# display as fourfold plots\nvcd::cotabplot(~ Disease + Gender | Occup, data=Heart, panel = cotab_fourfold)\n</code></pre>\n</main>\n</div>\n"
+}

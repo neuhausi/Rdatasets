@@ -1,0 +1,74 @@
+{
+   "config" : {
+      "subtitle" : "bakeoff - spice_test_wide",
+      "graphType" : "Scatter3D",
+      "colorBy" : "guess_3",
+      "title" : "Spice Test",
+      "sizeBy" : "guess_2",
+      "shapeBy" : "guess_1"
+   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>spice_test_wide</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Spice Test</h2>\n<h3>Description</h3>\n<p>Results of a knowledge test from Junior Bake Off (Series 2, Episode 14).\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>spice_test_wide\n</code></pre>\n<h3>Format</h3>\n<p>A data frame with 4 rows representing baker results from the\nspice-based knowledge test and 7 variables:\n</p>\n<dl>\n<dt>baker</dt><dd><p>A character string with a given name or nickname.</p>\n</dd>\n<dt>guess_1,guess_2,guess_3</dt><dd><p>The different guesses (in order) for what\nthe mystery spice was.</p>\n</dd>\n<dt>correct_1,correct_2,correct_3</dt><dd><p>An integer whether the guess was\ncorrect (<code>1</code>) or wrong (<code>0</code>).</p>\n</dd>\n</dl>\n<h3>Examples</h3>\n<pre><code class='language-R'>if (require('tibble')) {\n  spice_test_wide\nhead(spice_test_wide)\n</code></pre>\n</main>\n</div>\n",
+   "data" : {
+      "y" : {
+         "vars" : [
+            "Var1",
+            "Var2",
+            "Var3",
+            "Var4"
+         ],
+         "smps" : [
+            "correct_1",
+            "correct_2",
+            "correct_3"
+         ],
+         "data" : [
+            [
+               1,
+               0,
+               1
+            ],
+            [
+               1,
+               1,
+               1
+            ],
+            [
+               1,
+               0,
+               1
+            ],
+            [
+               0,
+               0,
+               0
+            ]
+         ]
+      },
+      "z" : {
+         "guess_3" : [
+            "Nutmeg",
+            "Nutmeg",
+            "Nutmeg",
+            "Cinnamon"
+         ],
+         "guess_1" : [
+            "Cinnamon",
+            "Cinnamon",
+            "Cinnamon",
+            "Cardamom"
+         ],
+         "guess_2" : [
+            "Cloves",
+            "Cardamom",
+            "Cumin",
+            "Couldn't remember the name"
+         ],
+         "baker" : [
+            "Emma",
+            "Harry",
+            "Ruby",
+            "Zainab"
+         ]
+      }
+   }
+}

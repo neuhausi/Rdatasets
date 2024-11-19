@@ -1,0 +1,87 @@
+{
+   "config" : {
+      "title" : "Goose Permit Study",
+      "subtitle" : "mosaicData - GoosePermits",
+      "graphType" : "Scatter3D"
+   },
+   "data" : {
+      "y" : {
+         "vars" : [
+            "Var1",
+            "Var2",
+            "Var3",
+            "Var4",
+            "Var5",
+            "Var6",
+            "Var7",
+            "Var8",
+            "Var9",
+            "Var10",
+            "Var11"
+         ],
+         "smps" : [
+            "bid",
+            "keep",
+            "sell"
+         ],
+         "data" : [
+            [
+               1,
+               31,
+               0
+            ],
+            [
+               5,
+               29,
+               3
+            ],
+            [
+               10,
+               27,
+               6
+            ],
+            [
+               20,
+               25,
+               7
+            ],
+            [
+               30,
+               23,
+               9
+            ],
+            [
+               40,
+               21,
+               13
+            ],
+            [
+               50,
+               19,
+               17
+            ],
+            [
+               75,
+               17,
+               12
+            ],
+            [
+               100,
+               15,
+               11
+            ],
+            [
+               150,
+               15,
+               14
+            ],
+            [
+               200,
+               15,
+               13
+            ]
+         ]
+      }
+   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>GoosePermits</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Goose Permit Study</h2>\n<h3>Description</h3>\n<p>237 hunters were each offered one of 11 cash amounts (bids) ranging from\n$1 to $200 in return for their goose permits.  Hunters returned either their\npermit or the cash.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(GoosePermits)\n</code></pre>\n<h3>Format</h3>\n<p>A data.frame with 11 observations on the following 3 variables.\n</p>\n<dl>\n<dt><code>bid </code></dt><dd><p>amount offered for permit (US $) (numeric)</p>\n</dd>\n<dt><code>keep </code></dt><dd><p>number of hunters who kept the permit and returned the cash (numeric)</p>\n</dd>\n<dt><code>sell </code></dt><dd><p>number of hunters who kept the cash and returned the permit (numeric)</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>Bishop and Heberlein.\n&quot;Measuring values of extramarket goods: are indirect measures biased?&quot;.\nAmer. J. Agr. Econ. 61, 1979. Available at\n<a href=\"https://onlinelibrary.wiley.com/doi/abs/10.2307/3180348\">https://onlinelibrary.wiley.com/doi/abs/10.2307/3180348</a>\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>data(GoosePermits)\ngoose.model &lt;-\n  glm( cbind(keep, sell) ~ log(bid), data = GoosePermits, family = binomial())\nif (require(ggformula)) {\n  y.hat &lt;- makeFun(goose.model)\n  gf_point( (keep/(keep+sell)) ~ bid, data = GoosePermits, ylim = c(0,1.05)) |&gt;\n  gf_fun(y.hat(b) ~ b, add = TRUE, color = \"red\", alpha = 0.5)\n</code></pre>\n</main>\n</div>\n"
+}

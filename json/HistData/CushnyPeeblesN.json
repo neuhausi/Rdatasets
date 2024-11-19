@@ -1,0 +1,100 @@
+{
+   "config" : {
+      "title" : "Cushny-Peebles Data: Soporific Effects of Scopolamine Derivatives",
+      "graphType" : "Scatter2D",
+      "scatterPlotMatrix" : 1,
+      "subtitle" : "HistData - CushnyPeeblesN"
+   },
+   "data" : {
+      "y" : {
+         "vars" : [
+            "Var1",
+            "Var2",
+            "Var3",
+            "Var4",
+            "Var5",
+            "Var6",
+            "Var7",
+            "Var8",
+            "Var9",
+            "Var10",
+            "Var11"
+         ],
+         "data" : [
+            [
+               9,
+               6,
+               6,
+               6
+            ],
+            [
+               9,
+               6,
+               6,
+               6
+            ],
+            [
+               8,
+               6,
+               6,
+               6
+            ],
+            [
+               9,
+               3,
+               3,
+               3
+            ],
+            [
+               9,
+               3,
+               3,
+               3
+            ],
+            [
+               8,
+               4,
+               3,
+               3
+            ],
+            [
+               8,
+               3,
+               3,
+               3
+            ],
+            [
+               7,
+               6,
+               6,
+               5
+            ],
+            [
+               8,
+               5,
+               6,
+               5
+            ],
+            [
+               9,
+               5,
+               5,
+               6
+            ],
+            [
+               0,
+               2,
+               2,
+               2
+            ]
+         ],
+         "smps" : [
+            "Control",
+            "L_hyoscyamine",
+            "L_hyoscine",
+            "DL_hyoscine"
+         ]
+      }
+   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>CushnyPeebles</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>\nCushny-Peebles Data: Soporific Effects of Scopolamine Derivatives\n</h2>\n<h3>Description</h3>\n<p>Cushny and Peebles (1905) studied the effects of hydrobromides\nrelated to scopolamine and atropine\nin producing sleep. The sleep of mental patients was\nmeasured without hypnotic (<code>Control</code>) and after treatment \nwith one of three drugs: L. hyoscyamine hydrobromide (<code>L_hyoscyamine</code>),\nL. hyoscine hydrobromide (<code>L_hyoscyine</code>), and\na mixture (racemic) form, <code>DL_hyoscine</code>, called atropine.  \nThe L (levo) and D (detro)\nform of a given molecule are optical isomers (mirror images).\n</p>\n<p>The drugs were given on alternate evenings, and the hours\nof sleep were compared with the intervening control night.\nEach of the drugs was tested in this manner a varying number of times in each subject.\nThe average number of hours of sleep for each treatment is the response.\n</p>\n<p>Student (1908) used these data to illustrate the paired-sample t-test\nin small samples, testing the hypothesis that the mean difference between\na given drug and the control condition was zero.  \nThis data set became well known when used by Fisher (1925).  Both Student\nand Fisher had problems labeling the drugs correctly (see Senn &amp; Richardson (1994)),\nand consequently came to wrong conclusions.\n</p>\n<p>But as well, the sample sizes (number of nights) for each mean differed widely,\nranging from 3-9, and this was not taken into account in their analyses.\nTo allow weighted analyses, the number of observations for each mean\nis contained in the data frame <code>CushnyPeeblesN</code>.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(CushnyPeebles)\ndata(CushnyPeeblesN)\n\t</code></pre>\n<h3>Format</h3>\n<p><code>CushnyPeebles</code>: A data frame with 11 observations on the following 4 variables.\n</p>\n<dl>\n<dt><code>Control</code></dt><dd><p>a numeric vector: mean hours of sleep</p>\n</dd>\n<dt><code>L_hyoscyamine</code></dt><dd><p>a numeric vector: mean hours of sleep</p>\n</dd>\n<dt><code>L_hyoscine</code></dt><dd><p>a numeric vector: mean hours of sleep</p>\n</dd>\n<dt><code>D_hyoscine</code></dt><dd><p>a numeric vector: mean hours of sleep</p>\n</dd>\n</dl>\n<p><code>CushnyPeeblesN</code>:   A data frame with 11 observations on the following 4 variables.\n</p>\n<dl>\n<dt><code>Control</code></dt><dd><p>a numeric vector: number of observations</p>\n</dd>\n<dt><code>L_hyoscyamine</code></dt><dd><p>a numeric vector: number of observations</p>\n</dd>\n<dt><code>L_hyoscine</code></dt><dd><p>a numeric vector: number of observations</p>\n</dd>\n<dt><code>DL_hyoscine</code></dt><dd><p>a numeric vector: number of observations</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>The last patient (11) has no <code>Control</code> observations, and so is often excluded\nin analyses or other versions of this data set.\n</p>\n<h3>Source</h3>\n<p>Cushny, A. R., and Peebles, A. R. (1905), &quot;The Action of Optical Isomers. II:\nHyoscines,&quot; <em>Journal of Physiology</em>, 32, 501-510.\n</p>\n<h3>References</h3>\n<p>Fisher, R. A. (1925), <em>Statistical Methods for Research Workers</em>, Edinburgh and London:\nOliver &amp; Boyd.\n</p>\n<p>Student (1908), &quot;The Probable Error of a Mean,&quot; <em>Biometrika</em>, 6, 1-25.\n</p>\n<p>Senn, S.J. and Richardson, W. (1994), &quot;The first t-test&quot;, <em>Statistics in Medicine</em>, 13, 785-803.\n</p>\n<h3>See Also</h3>\n<p><code>sleep</code> for an alternative form of this data set.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>data(CushnyPeebles)\n# quick looks at the data\nplot(CushnyPeebles)\nboxplot(CushnyPeebles, ylab=\"Hours of Sleep\", xlab=\"Treatment\")\n# Repeated measures MANOVA\nCPmod &lt;- lm(cbind(Control, L_hyoscyamine, L_hyoscine, DL_hyoscine) ~ 1, data=CushnyPeebles)\n# Assign within-S factor and contrasts\nTreatment &lt;- factor(colnames(CushnyPeebles), levels=colnames(CushnyPeebles))\ncontrasts(Treatment) &lt;- matrix(\n\tc(-3, 1, 1, 1,\n\t   0,-2, 1, 1,\n\t   0, 0,-1, 1), ncol=3)\ncolnames(contrasts(Treatment)) &lt;- c(\"Control.Drug\", \"L.DL\", \"L_hy.DL_hy\")\nTreats &lt;- data.frame(Treatment)\nif (require(car)) {\n(CPaov &lt;- Anova(CPmod, idata=Treats, idesign= ~Treatment))\nsummary(CPaov, univariate=FALSE)\nif (require(heplots)) {\n  heplot(CPmod, idata=Treats, idesign= ~Treatment, iterm=\"Treatment\", \n\txlab=\"Control vs Drugs\", ylab=\"L vs DL drug\")\n  pairs(CPmod, idata=Treats, idesign= ~Treatment, iterm=\"Treatment\")\n# reshape to long format, add Ns\nCPlong &lt;- stack(CushnyPeebles)[,2:1]\ncolnames(CPlong) &lt;- c(\"treatment\", \"sleep\")\nCPN &lt;- stack(CushnyPeeblesN)\nCPlong &lt;- data.frame(patient=rep(1:11,4), CPlong, n=CPN$values)\nstr(CPlong)\n</code></pre>\n</main>\n</div>\n"
+}

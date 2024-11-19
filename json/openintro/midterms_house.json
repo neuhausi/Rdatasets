@@ -1,0 +1,277 @@
+{
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>midterms_house</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>President's party performance and unemployment rate</h2>\n<h3>Description</h3>\n<p>Covers midterm elections.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>midterms_house\n</code></pre>\n<h3>Format</h3>\n<p>A data frame with 29 observations on the following 5 variables.\n</p>\n<dl>\n<dt>year</dt><dd><p>Year.</p>\n</dd>\n<dt>potus</dt><dd><p>The president in office.</p>\n</dd>\n<dt>party</dt><dd><p>President's party: Democrat or Republican.</p>\n</dd>\n<dt>unemp</dt><dd><p>Unemployment rate.</p>\n</dd>\n<dt>house_change</dt><dd><p>Change in House seats for the President's party.</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>An older version of this data is at <code>unemploy_pres</code>.\n</p>\n<h3>Source</h3>\n<p>Wikipedia.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>\nlibrary(ggplot2)\nggplot(midterms_house, aes(x = unemp, y = house_change)) +\n  geom_point()\n</code></pre>\n</main>\n</div>\n",
+   "data" : {
+      "z" : {
+         "party" : [
+            "Republican",
+            "Republican",
+            "Republican",
+            "Republican",
+            "Democrat",
+            "Democrat",
+            "Republican",
+            "Republican",
+            "Republican",
+            "Democrat",
+            "Democrat",
+            "Democrat",
+            "Democrat",
+            "Democrat",
+            "Republican",
+            "Republican",
+            "Democrat",
+            "Democrat",
+            "Republican",
+            "Republican",
+            "Democrat",
+            "Republican",
+            "Republican",
+            "Republican",
+            "Democrat",
+            "Democrat",
+            "Republican",
+            "Republican",
+            "Democrat",
+            "Democrat",
+            "Republican"
+         ],
+         "potus" : [
+            "William McKinley",
+            "Theodore Roosevelt",
+            "Theodore Roosevelt",
+            "William Howard Taft",
+            "Woodrow Wilson",
+            "Woodrow Wilson",
+            "Calvin Coolidge",
+            "Calvin Coolidge",
+            "Herbert Clark Hoover",
+            "Franklin Delano Roosevelt",
+            "Franklin Delano Roosevelt",
+            "Franklin Delano Roosevelt",
+            "Harry S. Truman",
+            "Harry S. Truman",
+            "Dwight David Eisenhower",
+            "Dwight David Eisenhower",
+            "Lyndon Baines Johnson",
+            "Lyndon Baines Johnson",
+            "Richard Milhous Nixon",
+            "Gerald Rudolph Ford",
+            "Jimmy Carter",
+            "Ronald Wilson Reagan",
+            "Ronald Wilson Reagan",
+            "George Herbert Walker Bush",
+            "Bill Clinton",
+            "Bill Clinton",
+            "George Walker Bush",
+            "George Walker Bush",
+            "Barack Obama",
+            "Barack Obama",
+            "Donald Trump"
+         ]
+      },
+      "y" : {
+         "vars" : [
+            "Var1",
+            "Var2",
+            "Var3",
+            "Var4",
+            "Var5",
+            "Var6",
+            "Var7",
+            "Var8",
+            "Var9",
+            "Var10",
+            "Var11",
+            "Var12",
+            "Var13",
+            "Var14",
+            "Var15",
+            "Var16",
+            "Var17",
+            "Var18",
+            "Var19",
+            "Var20",
+            "Var21",
+            "Var22",
+            "Var23",
+            "Var24",
+            "Var25",
+            "Var26",
+            "Var27",
+            "Var28",
+            "Var29",
+            "Var30",
+            "Var31"
+         ],
+         "smps" : [
+            "year",
+            "unemp",
+            "house_change"
+         ],
+         "data" : [
+            [
+               1899,
+               11.62,
+               -9.22330097087377
+            ],
+            [
+               1903,
+               4.3,
+               -4.27590673575129
+            ],
+            [
+               1907,
+               3.29,
+               -12.2914989657737
+            ],
+            [
+               1911,
+               5.86,
+               -26.5906404283429
+            ],
+            [
+               1915,
+               6.63,
+               -20.9621993127148
+            ],
+            [
+               1919,
+               3.38,
+               -10.2803738317757
+            ],
+            [
+               1923,
+               6.93,
+               -25.4966887417219
+            ],
+            [
+               1927,
+               4.02,
+               -3.64372469635626
+            ],
+            [
+               1931,
+               8.94,
+               -19.2592592592593
+            ],
+            [
+               1935,
+               21.3,
+               2.87539936102235
+            ],
+            [
+               1939,
+               17.8,
+               -21.5568862275449
+            ],
+            [
+               1943,
+               4.7,
+               -16.8539325842697
+            ],
+            [
+               1947,
+               3.9,
+               -22.3140495867769
+            ],
+            [
+               1951,
+               5.3,
+               -10.6463878326996
+            ],
+            [
+               1955,
+               5.5,
+               -8.14479638009049
+            ],
+            [
+               1959,
+               6.8,
+               -24.2289695686328
+            ],
+            [
+               1963,
+               5.5,
+               -1.06813513395393
+            ],
+            [
+               1967,
+               3.8,
+               -16.271186440678
+            ],
+            [
+               1971,
+               4.9,
+               -6.25
+            ],
+            [
+               1975,
+               5.6,
+               -25
+            ],
+            [
+               1979,
+               6.1,
+               -5.13698630136987
+            ],
+            [
+               1983,
+               9.7,
+               -13.5416666666667
+            ],
+            [
+               1987,
+               7,
+               -2.74725274725276
+            ],
+            [
+               1991,
+               5.6,
+               -4.57142857142857
+            ],
+            [
+               1995,
+               6.1,
+               -20.9302325581395
+            ],
+            [
+               1999,
+               4.5,
+               2.42718446601941
+            ],
+            [
+               2003,
+               5.8,
+               3.61990950226244
+            ],
+            [
+               2007,
+               4.6,
+               -12.9310344827586
+            ],
+            [
+               2011,
+               9.7,
+               -24.9027237354086
+            ],
+            [
+               2015,
+               5.8,
+               -6.467662
+            ],
+            [
+               2019,
+               3.7,
+               -16.4557
+            ]
+         ]
+      }
+   },
+   "config" : {
+      "title" : "President's party performance and unemployment rate",
+      "colorBy" : "party",
+      "shapeBy" : "potus",
+      "graphType" : "Scatter3D",
+      "subtitle" : "openintro - midterms_house"
+   }
+}

@@ -1,0 +1,70 @@
+{
+   "config" : {
+      "title" : "Infant Mortality Rates",
+      "graphType" : "Scatter2D",
+      "subtitle" : "Stat2Data - InfantMortality2010"
+   },
+   "data" : {
+      "y" : {
+         "smps" : [
+            "Mortality",
+            "Year"
+         ],
+         "data" : [
+            [
+               85.8,
+               1920
+            ],
+            [
+               64.6,
+               1930
+            ],
+            [
+               47,
+               1940
+            ],
+            [
+               29.2,
+               1950
+            ],
+            [
+               26,
+               1960
+            ],
+            [
+               20,
+               1970
+            ],
+            [
+               12.6,
+               1980
+            ],
+            [
+               9.2,
+               1990
+            ],
+            [
+               6.9,
+               2000
+            ],
+            [
+               6.2,
+               2010
+            ]
+         ],
+         "vars" : [
+            "Var1",
+            "Var2",
+            "Var3",
+            "Var4",
+            "Var5",
+            "Var6",
+            "Var7",
+            "Var8",
+            "Var9",
+            "Var10"
+         ]
+      }
+   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>InfantMortality2010</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Infant Mortality Rates</h2>\n<h3>Description</h3>\n<p>Infant mortality rates in the United States by decade (1920-2010)\n</p>\n<h3>Format</h3>\n<p>A data frame with 10 observations on the following 2 variables.\n</p>\n<dl>\n<dt><code>Mortality</code></dt><dd><p>Deaths within one year of birth (per 1000 births)</p>\n</dd>\n<dt><code>Year</code></dt><dd><p>Year (1920-2010 by decades)</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>Infant mortality (deaths within one year of birth per 1,000 births) in the US from 1920 - 2010 (by decade).\n</p>\n<h3>Source</h3>\n<p>CDC National Vital Statistics Reports at http://www.cdc.gov/nchs/data/nvsr/nvsr57/nvsr57_14.pdf and\nhttps://www.cdc.gov/nchs/data/nvsr/nvsr64/nvsr64_09.pdf\n</p>\n</main>\n</div>\n"
+}

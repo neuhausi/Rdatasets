@@ -1,0 +1,14 @@
+[
+   [
+      "rpdr_contep",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/dragracer/rpdr_contep.json"
+   ],
+   [
+      "rpdr_contestants",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/dragracer/rpdr_contestants.json"
+   ],
+   [
+      "rpdr_ep",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/dragracer/rpdr_ep.json"
+   ]
+]

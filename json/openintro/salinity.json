@@ -1,0 +1,119 @@
+{
+   "config" : {
+      "groupingFactors" : [
+         "site_number"
+      ],
+      "colorBy" : "variable",
+      "title" : "Salinity in Bimini Lagoon",
+      "subtitle" : "openintro - salinity",
+      "graphType" : "Boxplot"
+   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>salinity</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Salinity in Bimini Lagoon, Bahamas</h2>\n<h3>Description</h3>\n<p>Data collected at three different water masses in the Bimini Lagoon, Bahamas.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>salinity\n</code></pre>\n<h3>Format</h3>\n<p>A data frame with 30 rows and 2 variables.\n</p>\n<dl>\n<dt>site_number</dt><dd><p>Location where measurements were taken.</p>\n</dd>\n<dt>salinity_ppt</dt><dd><p>Salinity value in parts per thousand.</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>Till, R. (1974) Statistical Methods for the Earth Scientist: An Introduction. London: Macmillon, 104.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>library(ggplot2)\nlibrary(broom)\nggplot(salinity, aes(x = salinity_ppt)) +\n  geom_dotplot() +\n  facet_wrap(~site_number, ncol = 1)\ntidy(aov(salinity_ppt ~ site_number, data = salinity))\n</code></pre>\n</main>\n</div>\n",
+   "data" : {
+      "x" : {
+         "site_number" : [
+            "I",
+            "I",
+            "I",
+            "I",
+            "I",
+            "I",
+            "I",
+            "I",
+            "I",
+            "I",
+            "I",
+            "I",
+            "II",
+            "II",
+            "II",
+            "II",
+            "II",
+            "II",
+            "II",
+            "II",
+            "III",
+            "III",
+            "III",
+            "III",
+            "III",
+            "III",
+            "III",
+            "III",
+            "III",
+            "III"
+         ]
+      },
+      "y" : {
+         "vars" : [
+            "salinity_ppt"
+         ],
+         "data" : [
+            [
+               37.54,
+               37.01,
+               36.71,
+               37.03,
+               37.32,
+               37.01,
+               37.03,
+               37.7,
+               37.36,
+               36.75,
+               37.45,
+               38.85,
+               40.17,
+               40.8,
+               39.76,
+               39.7,
+               40.79,
+               40.44,
+               39.79,
+               39.38,
+               39.04,
+               39.21,
+               39.05,
+               38.24,
+               38.53,
+               38.71,
+               38.89,
+               38.66,
+               38.51,
+               40.58
+            ]
+         ],
+         "smps" : [
+            "Smp1",
+            "Smp2",
+            "Smp3",
+            "Smp4",
+            "Smp5",
+            "Smp6",
+            "Smp7",
+            "Smp8",
+            "Smp9",
+            "Smp10",
+            "Smp11",
+            "Smp12",
+            "Smp13",
+            "Smp14",
+            "Smp15",
+            "Smp16",
+            "Smp17",
+            "Smp18",
+            "Smp19",
+            "Smp20",
+            "Smp21",
+            "Smp22",
+            "Smp23",
+            "Smp24",
+            "Smp25",
+            "Smp26",
+            "Smp27",
+            "Smp28",
+            "Smp29",
+            "Smp30"
+         ]
+      }
+   }
+}

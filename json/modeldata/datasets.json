@@ -1,0 +1,206 @@
+[
+   [
+      "ad_data",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/modeldata/ad_data.json"
+   ],
+   [
+      "ames",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/modeldata/ames.json"
+   ],
+   [
+      "attrition",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/modeldata/attrition.json"
+   ],
+   [
+      "biomass",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/modeldata/biomass.json"
+   ],
+   [
+      "bivariate_test (bivariate)",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/modeldata/bivariate_test (bivariate).json"
+   ],
+   [
+      "bivariate_train (bivariate)",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/modeldata/bivariate_train (bivariate).json"
+   ],
+   [
+      "bivariate_val (bivariate)",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/modeldata/bivariate_val (bivariate).json"
+   ],
+   [
+      "car_prices",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/modeldata/car_prices.json"
+   ],
+   [
+      "cat_adoption",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/modeldata/cat_adoption.json"
+   ],
+   [
+      "cells",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/modeldata/cells.json"
+   ],
+   [
+      "check_times",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/modeldata/check_times.json"
+   ],
+   [
+      "chem_proc_yield",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/modeldata/chem_proc_yield.json"
+   ],
+   [
+      "Chicago",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/modeldata/Chicago.json"
+   ],
+   [
+      "concrete",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/modeldata/concrete.json"
+   ],
+   [
+      "covers",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/modeldata/covers.json"
+   ],
+   [
+      "credit_data",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/modeldata/credit_data.json"
+   ],
+   [
+      "crickets",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/modeldata/crickets.json"
+   ],
+   [
+      "deliveries",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/modeldata/deliveries.json"
+   ],
+   [
+      "drinks",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/modeldata/drinks.json"
+   ],
+   [
+      "grants_2008 (grants)",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/modeldata/grants_2008 (grants).json"
+   ],
+   [
+      "grants_other (grants)",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/modeldata/grants_other (grants).json"
+   ],
+   [
+      "grants_test (grants)",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/modeldata/grants_test (grants).json"
+   ],
+   [
+      "hepatic_injury_qsar",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/modeldata/hepatic_injury_qsar.json"
+   ],
+   [
+      "hotel_rates",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/modeldata/hotel_rates.json"
+   ],
+   [
+      "hpc_cv",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/modeldata/hpc_cv.json"
+   ],
+   [
+      "hpc_data",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/modeldata/hpc_data.json"
+   ],
+   [
+      "ischemic_stroke",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/modeldata/ischemic_stroke.json"
+   ],
+   [
+      "leaf_id_flavia",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/modeldata/leaf_id_flavia.json"
+   ],
+   [
+      "lending_club",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/modeldata/lending_club.json"
+   ],
+   [
+      "meats",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/modeldata/meats.json"
+   ],
+   [
+      "mlc_churn",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/modeldata/mlc_churn.json"
+   ],
+   [
+      "oils",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/modeldata/oils.json"
+   ],
+   [
+      "parabolic",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/modeldata/parabolic.json"
+   ],
+   [
+      "pathology",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/modeldata/pathology.json"
+   ],
+   [
+      "pd_speech",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/modeldata/pd_speech.json"
+   ],
+   [
+      "penguins",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/modeldata/penguins.json"
+   ],
+   [
+      "permeability_qsar",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/modeldata/permeability_qsar.json"
+   ],
+   [
+      "Sacramento",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/modeldata/Sacramento.json"
+   ],
+   [
+      "scat",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/modeldata/scat.json"
+   ],
+   [
+      "Smithsonian",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/modeldata/Smithsonian.json"
+   ],
+   [
+      "solubility_test",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/modeldata/solubility_test.json"
+   ],
+   [
+      "stackoverflow",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/modeldata/stackoverflow.json"
+   ],
+   [
+      "stations (Chicago)",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/modeldata/stations (Chicago).json"
+   ],
+   [
+      "steroidogenic_toxicity",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/modeldata/steroidogenic_toxicity.json"
+   ],
+   [
+      "tate_text",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/modeldata/tate_text.json"
+   ],
+   [
+      "taxi",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/modeldata/taxi.json"
+   ],
+   [
+      "testing_data (small_fine_foods)",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/modeldata/testing_data (small_fine_foods).json"
+   ],
+   [
+      "training_data (small_fine_foods)",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/modeldata/training_data (small_fine_foods).json"
+   ],
+   [
+      "two_class_dat",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/modeldata/two_class_dat.json"
+   ],
+   [
+      "two_class_example",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/modeldata/two_class_example.json"
+   ],
+   [
+      "wa_churn",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/modeldata/wa_churn.json"
+   ]
+]

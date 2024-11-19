@@ -1,0 +1,154 @@
+{
+   "data" : {
+      "z" : {
+         "Phase" : [
+            "LSW",
+            "LSW",
+            "LSW",
+            "LSW",
+            "LSW",
+            "LSW",
+            "DSW",
+            "DSW",
+            "DSW",
+            "DSW",
+            "DSW",
+            "DSW",
+            "REM",
+            "REM",
+            "REM",
+            "REM",
+            "REM",
+            "REM"
+         ],
+         "Shrew" : [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+         ]
+      },
+      "y" : {
+         "vars" : [
+            "Var1",
+            "Var2",
+            "Var3",
+            "Var4",
+            "Var5",
+            "Var6",
+            "Var7",
+            "Var8",
+            "Var9",
+            "Var10",
+            "Var11",
+            "Var12",
+            "Var13",
+            "Var14",
+            "Var15",
+            "Var16",
+            "Var17",
+            "Var18"
+         ],
+         "smps" : [
+            "ID",
+            "Rate"
+         ],
+         "data" : [
+            [
+               1,
+               14
+            ],
+            [
+               2,
+               25.8
+            ],
+            [
+               3,
+               20.8
+            ],
+            [
+               4,
+               19
+            ],
+            [
+               5,
+               26
+            ],
+            [
+               6,
+               20.4
+            ],
+            [
+               7,
+               11.7
+            ],
+            [
+               8,
+               21.1
+            ],
+            [
+               9,
+               19.7
+            ],
+            [
+               10,
+               18.2
+            ],
+            [
+               11,
+               23.2
+            ],
+            [
+               12,
+               20.7
+            ],
+            [
+               13,
+               15.7
+            ],
+            [
+               14,
+               21.5
+            ],
+            [
+               15,
+               18.3
+            ],
+            [
+               16,
+               17.1
+            ],
+            [
+               17,
+               22.5
+            ],
+            [
+               18,
+               18.9
+            ]
+         ]
+      }
+   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>SleepingShrews</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Shrew Heart Rates at Stages of Sleep</h2>\n<h3>Description</h3>\n<p>Heart rates for a sample of six tree shrews at each of three stages of sleep.\n</p>\n<h3>Format</h3>\n<p>A data frame with 18 observations on the following 4 variables.\n</p>\n<dl>\n<dt><code>ID</code></dt><dd><p>Row ID</p>\n</dd>\n<dt><code>Shrew</code></dt><dd><p>Shrew ID (<code>A</code> through <code>F</code>)</p>\n</dd>\n<dt><code>Phase</code></dt><dd><p>Phase of sleep  (<code>DSW</code>=deep wave, <code>LSW</code>=light wave, or <code>REM</code>=dreaming)</p>\n</dd>\n<dt><code>Rate</code></dt><dd><p>Heart rate (beats per minute)</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>Heart rates were recorded for a sample of six tree shrews at each of three stages of sleep.\n</p>\n<h3>Source</h3>\n<p>Berger, R. J. and Walker, J. M. (1972) &quot;The Polygraphic Study of Sleep in the Tree Shrew,&quot; Brain, Behavior, and Evolution, v. 5, pp. 62\n</p>\n</main>\n</div>\n",
+   "config" : {
+      "graphType" : "Scatter2D",
+      "shapeBy" : "Shrew",
+      "subtitle" : "Stat2Data - SleepingShrews",
+      "title" : "Shrew Heart Rates at Stages of Sleep",
+      "colorBy" : "Phase"
+   }
+}

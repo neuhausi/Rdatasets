@@ -1,0 +1,18 @@
+[
+   [
+      "ahd",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/HLMdiag/ahd.json"
+   ],
+   [
+      "autism",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/HLMdiag/autism.json"
+   ],
+   [
+      "radon",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/HLMdiag/radon.json"
+   ],
+   [
+      "wages",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/HLMdiag/wages.json"
+   ]
+]

@@ -1,0 +1,69 @@
+{
+   "data" : {
+      "z" : {
+         "abbrev" : [
+            "C",
+            "L",
+            "M",
+            "Sm",
+            "Sp",
+            "V"
+         ]
+      },
+      "y" : {
+         "vars" : [
+            "Compact",
+            "Large",
+            "Midsize",
+            "Small",
+            "Sporty",
+            "Van"
+         ],
+         "smps" : [
+            "Min.passengers",
+            "Max.passengers",
+            "No.of.cars"
+         ],
+         "data" : [
+            [
+               4,
+               6,
+               16
+            ],
+            [
+               6,
+               6,
+               11
+            ],
+            [
+               4,
+               6,
+               22
+            ],
+            [
+               4,
+               5,
+               21
+            ],
+            [
+               2,
+               4,
+               14
+            ],
+            [
+               7,
+               8,
+               9
+            ]
+         ]
+      }
+   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>Cars93.summary</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>A Summary of the Cars93 Data set</h2>\n<h3>Description</h3>\n<p>The <code>Cars93.summary</code> data frame has 6 rows and 4 columns\ncreated from information in the <code>Cars93</code> data set in the Venables \nand Ripley MASS package. Each row corresponds to a different\nclass of car (e.g. Compact, Large, etc.).\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>Cars93.summary</code></pre>\n<h3>Format</h3>\n<p>This data frame contains the following columns:\n</p>\n<dl>\n<dt>Min.passengers</dt><dd><p>minimum\npassenger capacity for each class of car</p>\n</dd>\n<dt>Max.passengers</dt><dd><p>maximum\npassenger capacity for each class of car</p>\n</dd>\n<dt>No.of.cars</dt><dd><p>number of\ncars in each class</p>\n</dd>\n<dt>abbrev</dt><dd><p>a factor with levels\n<code>C</code> Compact, <code>L</code> Large, \n<code>M</code> Mid-Size, <code>Sm</code> Small, \n<code>Sp</code> Sporty, <code>V</code> Van</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>Lock, R. H. (1993) 1993 New Car Data. Journal of Statistics\nEducation 1(1)\n</p>\n<h3>References</h3>\n<p>MASS library\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>type &lt;- Cars93.summary$abbrev\ntype &lt;- Cars93.summary[,4]\ntype &lt;- Cars93.summary[,\"abbrev\"]\ntype &lt;- Cars93.summary[[4]] # Take the object that is stored\n                            # in the fourth list element.\ntype\npause()\nattach(Cars93.summary)\n  # R can now access the columns of Cars93.summary directly\nabbrev\ndetach(\"Cars93.summary\")\npause()\n#  To change the name of the \\verb!abbrev! variable (the fourth column)\nnames(Cars93.summary)[4] &lt;- \"code\"\npause()\n#  To change all of the names, try\nnames(Cars93.summary) &lt;- c(\"minpass\",\"maxpass\",\"number\",\"code\")\n</code></pre>\n</main>\n</div>\n",
+   "config" : {
+      "subtitle" : "DAAG - Cars93.summary",
+      "graphType" : "Scatter3D",
+      "shapeBy" : null,
+      "colorBy" : "abbrev",
+      "title" : "A Summary of the Cars93 Data set"
+   }
+}

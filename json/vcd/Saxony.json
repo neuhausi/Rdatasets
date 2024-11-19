@@ -1,0 +1,85 @@
+{
+   "data" : {
+      "y" : {
+         "data" : [
+            [
+               0,
+               3
+            ],
+            [
+               1,
+               24
+            ],
+            [
+               2,
+               104
+            ],
+            [
+               3,
+               286
+            ],
+            [
+               4,
+               670
+            ],
+            [
+               5,
+               1033
+            ],
+            [
+               6,
+               1343
+            ],
+            [
+               7,
+               1112
+            ],
+            [
+               8,
+               829
+            ],
+            [
+               9,
+               478
+            ],
+            [
+               10,
+               181
+            ],
+            [
+               11,
+               45
+            ],
+            [
+               12,
+               7
+            ]
+         ],
+         "smps" : [
+            "nMales",
+            "Freq"
+         ],
+         "vars" : [
+            "Var1",
+            "Var2",
+            "Var3",
+            "Var4",
+            "Var5",
+            "Var6",
+            "Var7",
+            "Var8",
+            "Var9",
+            "Var10",
+            "Var11",
+            "Var12",
+            "Var13"
+         ]
+      }
+   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>Saxony</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Families in Saxony</h2>\n<h3>Description</h3>\n<p>Data from Geissler, cited in Sokal &amp; Rohlf (1969) and Lindsey (1995)\non gender distributions in families in Saxony in the 19th century.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(\"Saxony\")\n</code></pre>\n<h3>Format</h3>\n<p>A 1-way table giving the number of male children in 6115 families of\nsize 12.  The variable and its levels are\n</p>\n<table>\n<tr>\n <td style=\"text-align: right;\">\n    No </td><td style=\"text-align: left;\"> Name </td><td style=\"text-align: left;\"> Levels </td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    1 </td><td style=\"text-align: left;\"> nMales </td><td style=\"text-align: left;\"> 0, 1, ..., 12 </td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n  </td>\n</tr>\n</table>\n<h3>Source</h3>\n<p>M. Friendly (2000),\nVisualizing Categorical Data, pages 40&ndash;42.\n</p>\n<h3>References</h3>\n<p>J. K. Lindsey (1995),\n<em>Analysis of Frequency and Count Data</em>.\nOxford University Press, Oxford, UK.\n</p>\n<p>R. R. Sokal &amp; F. J. Rohlf (1969),\n<em>Biometry. The Principles and Practice of Statistics</em>.\nW. H. Freeman, San Francisco, CA.\n</p>\n<p>M. Friendly (2000),\n<em>Visualizing Categorical Data</em>.\nSAS Institute, Cary, NC.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>data(\"Saxony\")\ngf &lt;- goodfit(Saxony, type = \"binomial\")\nsummary(gf)\nplot(gf)\n</code></pre>\n</main>\n</div>\n",
+   "config" : {
+      "title" : "Families in Saxony",
+      "graphType" : "Scatter2D",
+      "subtitle" : "vcd - Saxony"
+   }
+}

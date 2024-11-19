@@ -1,0 +1,10 @@
+[
+   [
+      "pedestrian",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/tsibble/pedestrian.json"
+   ],
+   [
+      "tourism",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/tsibble/tourism.json"
+   ]
+]

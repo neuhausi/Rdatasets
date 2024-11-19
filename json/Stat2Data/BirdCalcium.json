@@ -1,0 +1,191 @@
+{
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>BirdCalcium</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Effect of a Hormone on Bird Calcium Levels</h2>\n<h3>Description</h3>\n<p>An experiment on the effects of a hormone on blood calcium levels in robins\n</p>\n<h3>Format</h3>\n<p>A data frame with 20 observations on the following 5 variables.\n</p>\n<dl>\n<dt><code>Bird</code></dt><dd><p>ID number for each bird (1 to 20)</p>\n</dd>\n<dt><code>Sex</code></dt><dd><p><code>female</code> or <code>male</code></p>\n</dd>\n<dt><code>Hormone</code></dt><dd><p>Treated with hormone (<code>no</code> or <code>yes</code>)</p>\n</dd>\n<dt><code>Group</code></dt><dd><p>Combined Sex and Hormone (<code>F No</code>, <code>F Yes</code>, <code>M No</code>, or <code>M Yes</code>)</p>\n</dd>\n<dt><code>Ca</code></dt><dd><p>Blood calcium level (mg per 100 ml)</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>An experiment looked at the effects of treatment with a hormone for increasing the concentration of calcium in birds.  Twenty birds (robins) were used in the study, ten male and ten female, equally divided between the hormone and no hormone treatments.\n</p>\n<h3>Source</h3>\n<p>Bliss, Chester (1970), Statistics in Biology, McGraw-Hill\n</p>\n</main>\n</div>\n",
+   "data" : {
+      "y" : {
+         "data" : [
+            [
+               1,
+               14.5
+            ],
+            [
+               2,
+               11
+            ],
+            [
+               3,
+               10.8
+            ],
+            [
+               4,
+               14.3
+            ],
+            [
+               5,
+               10
+            ],
+            [
+               6,
+               32
+            ],
+            [
+               7,
+               23.8
+            ],
+            [
+               8,
+               28.8
+            ],
+            [
+               9,
+               25
+            ],
+            [
+               10,
+               29.3
+            ],
+            [
+               11,
+               16.5
+            ],
+            [
+               12,
+               18.4
+            ],
+            [
+               13,
+               12.7
+            ],
+            [
+               14,
+               14
+            ],
+            [
+               15,
+               12.8
+            ],
+            [
+               16,
+               31.9
+            ],
+            [
+               17,
+               26.2
+            ],
+            [
+               18,
+               21.3
+            ],
+            [
+               19,
+               35.8
+            ],
+            [
+               20,
+               40.2
+            ]
+         ],
+         "smps" : [
+            "Bird",
+            "Ca"
+         ],
+         "vars" : [
+            "Var1",
+            "Var2",
+            "Var3",
+            "Var4",
+            "Var5",
+            "Var6",
+            "Var7",
+            "Var8",
+            "Var9",
+            "Var10",
+            "Var11",
+            "Var12",
+            "Var13",
+            "Var14",
+            "Var15",
+            "Var16",
+            "Var17",
+            "Var18",
+            "Var19",
+            "Var20"
+         ]
+      },
+      "z" : {
+         "Sex" : [
+            "male",
+            "male",
+            "male",
+            "male",
+            "male",
+            "male",
+            "male",
+            "male",
+            "male",
+            "male",
+            "female",
+            "female",
+            "female",
+            "female",
+            "female",
+            "female",
+            "female",
+            "female",
+            "female",
+            "female"
+         ],
+         "Group" : [
+            "M No",
+            "M No",
+            "M No",
+            "M No",
+            "M No",
+            "M Yes",
+            "M Yes",
+            "M Yes",
+            "M Yes",
+            "M Yes",
+            "F No",
+            "F No",
+            "F No",
+            "F No",
+            "F No",
+            "F Yes",
+            "F Yes",
+            "F Yes",
+            "F Yes",
+            "F Yes"
+         ],
+         "Hormone" : [
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes"
+         ]
+      }
+   },
+   "config" : {
+      "graphType" : "Scatter2D",
+      "subtitle" : "Stat2Data - BirdCalcium",
+      "title" : "Effect of a Hormone on Bird Calcium Levels",
+      "colorBy" : "Sex",
+      "sizeBy" : "Hormone",
+      "shapeBy" : "Group"
+   }
+}

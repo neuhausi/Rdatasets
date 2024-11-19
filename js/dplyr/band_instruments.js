@@ -1,0 +1,22 @@
+var band_instruments = [
+   [
+      "name",
+      "plays",
+      "Row"
+   ],
+   [
+      "John",
+      "guitar",
+      1
+   ],
+   [
+      "Paul",
+      "bass",
+      2
+   ],
+   [
+      "Keith",
+      "guitar",
+      3
+   ]
+]

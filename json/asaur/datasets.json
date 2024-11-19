@@ -1,0 +1,34 @@
+[
+   [
+      "ashkenazi",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/asaur/ashkenazi.json"
+   ],
+   [
+      "ChanningHouse",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/asaur/ChanningHouse.json"
+   ],
+   [
+      "gastricXelox",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/asaur/gastricXelox.json"
+   ],
+   [
+      "hepatoCellular",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/asaur/hepatoCellular.json"
+   ],
+   [
+      "pancreatic",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/asaur/pancreatic.json"
+   ],
+   [
+      "pancreatic2",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/asaur/pancreatic2.json"
+   ],
+   [
+      "pharmacoSmoking",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/asaur/pharmacoSmoking.json"
+   ],
+   [
+      "prostateSurvival",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/asaur/prostateSurvival.json"
+   ]
+]

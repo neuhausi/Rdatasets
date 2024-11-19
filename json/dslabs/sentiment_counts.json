@@ -1,0 +1,91 @@
+{
+   "config" : {
+      "title" : "Trump Tweets from2009 to 2017",
+      "colorBy" : "sentiment",
+      "graphType" : "Scatter2D",
+      "subtitle" : "dslabs - sentiment_counts"
+   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>trump_tweets</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Trump Tweets from2009 to 2017</h2>\n<h3>Description</h3>\n<p>This dataset contains all tweets from Donald Trump's Twitter account from 2009 to 2017. Additionally, the results of a sentiment analysis, conducted on tweets from the campaign period (2015-06-17 to 2016-11-08), are included in <code>sentiment_counts</code>.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>trump_tweets\n</code></pre>\n<h3>Format</h3>\n<p>An object of class <code>\"data.frame\"</code>.\n</p>\n<h3>Details</h3>\n<ul>\n<li><p> source. Device or service used to compose tweet.\n</p>\n</li>\n<li><p> id_str. Tweet ID.\n</p>\n</li>\n<li><p> text. Tweet.\n</p>\n</li>\n<li><p> created_at. Data and time tweet was tweeted.\n</p>\n</li>\n<li><p> retweet_count. How many times tweet had been retweeted at time dataset was created.\n</p>\n</li>\n<li><p> in_reply_to_user_id_str. If a reply, the user id of person being replied to.\n</p>\n</li>\n<li><p> favorite_count. Number of times tweet had been favored at time dataset was created.\n</p>\n</li>\n<li><p> is_retweet. A logical telling us if it is a retweet or not.\n</p>\n</li></ul>\n<h3>Source</h3>\n<p>The Trump Twitter Archive: <a href=\"https://www.thetrumparchive.com/\">https://www.thetrumparchive.com/</a>\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>head(trump_tweets)\n</code></pre>\n</main>\n</div>\n",
+   "data" : {
+      "z" : {
+         "sentiment" : [
+            "anger",
+            "anticipation",
+            "disgust",
+            "fear",
+            "joy",
+            "negative",
+            "positive",
+            "sadness",
+            "surprise",
+            "trust",
+            "none"
+         ]
+      },
+      "y" : {
+         "vars" : [
+            "Var1",
+            "Var2",
+            "Var3",
+            "Var4",
+            "Var5",
+            "Var6",
+            "Var7",
+            "Var8",
+            "Var9",
+            "Var10",
+            "Var11"
+         ],
+         "smps" : [
+            "Android",
+            "iPhone"
+         ],
+         "data" : [
+            [
+               962,
+               527
+            ],
+            [
+               917,
+               707
+            ],
+            [
+               639,
+               314
+            ],
+            [
+               799,
+               486
+            ],
+            [
+               695,
+               536
+            ],
+            [
+               1657,
+               931
+            ],
+            [
+               1827,
+               1494
+            ],
+            [
+               901,
+               514
+            ],
+            [
+               530,
+               365
+            ],
+            [
+               1248,
+               1001
+            ],
+            [
+               11834,
+               10793
+            ]
+         ]
+      }
+   }
+}

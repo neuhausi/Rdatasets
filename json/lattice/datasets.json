@@ -1,0 +1,30 @@
+[
+   [
+      "barley",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/lattice/barley.json"
+   ],
+   [
+      "environmental",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/lattice/environmental.json"
+   ],
+   [
+      "ethanol",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/lattice/ethanol.json"
+   ],
+   [
+      "melanoma",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/lattice/melanoma.json"
+   ],
+   [
+      "singer",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/lattice/singer.json"
+   ],
+   [
+      "USMortality",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/lattice/USMortality.json"
+   ],
+   [
+      "USRegionalMortality",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/lattice/USRegionalMortality.json"
+   ]
+]

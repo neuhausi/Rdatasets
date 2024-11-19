@@ -1,0 +1,79 @@
+{
+   "config" : {
+      "colorBy" : "product",
+      "title" : "Weight gain for different methionine sources",
+      "subtitle" : "drc - methionine",
+      "graphType" : "Scatter2D"
+   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>methionine</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Weight gain for different methionine sources</h2>\n<h3>Description</h3>\n<p>Data consist of average body weight gain of chickens being treated \nwith one of the two methionine sources DLM and HMTBA.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(methionine)</code></pre>\n<h3>Format</h3>\n<p>A data frame with 9 observations on the following 3 variables:\n</p>\n<dl>\n<dt><code>product</code></dt><dd><p>a factor with levels <code>control</code>, <code>DLM</code> and <code>MHA</code> denoting the treatments</p>\n</dd>\n<dt><code>dose</code></dt><dd><p>a numeric vector of methionine dose</p>\n</dd>\n<dt><code>gain</code></dt><dd><p>a numeric vector of average body weight gain</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>The dataset contains a common control measurement for the two treatments. More examples using this\ndataset are found under <code>AR.2</code> and <code>MM.2</code>.\n</p>\n<h3>Source</h3>\n<p>Kratzer. D. D. and Littell, R. C. (2006) Appropriate Statistical Methods to Compare \nDose Responses of Methionine Sources, <em>Poultry Science</em>, <b>85</b>, 947&ndash;954.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>\n## Fitting model with constraint on one parameter \nmet.ar.m1 &lt;- drm(gain~dose, product, data = methionine, \nfct = AR.3(), pmodels = list(~1, ~factor(product), ~factor(product)), \nupperl = c(Inf, Inf, 1700, Inf, Inf)) \nplot(met.ar.m1, xlim=c(0,0.3), ylim=c(1450, 1800))\nabline(h=1700, lty=1)\nsummary(met.ar.m1)\n</code></pre>\n</main>\n</div>\n",
+   "data" : {
+      "z" : {
+         "product" : [
+            "control",
+            "DLM",
+            "DLM",
+            "DLM",
+            "DLM",
+            "MHA",
+            "MHA",
+            "MHA",
+            "MHA"
+         ]
+      },
+      "y" : {
+         "vars" : [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "7",
+            "8",
+            "9",
+            "10"
+         ],
+         "data" : [
+            [
+               0,
+               1453
+            ],
+            [
+               0.04,
+               1593
+            ],
+            [
+               0.09,
+               1660
+            ],
+            [
+               0.15,
+               1666
+            ],
+            [
+               0.22,
+               1698
+            ],
+            [
+               0.04,
+               1561
+            ],
+            [
+               0.09,
+               1633
+            ],
+            [
+               0.15,
+               1704
+            ],
+            [
+               0.22,
+               1722
+            ]
+         ],
+         "smps" : [
+            "dose",
+            "gain"
+         ]
+      }
+   }
+}

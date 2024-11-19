@@ -1,0 +1,175 @@
+{
+   "config" : {
+      "subtitle" : "aod - orob2",
+      "shapeBy" : "seed",
+      "graphType" : "Scatter2D",
+      "colorBy" : "root",
+      "title" : "Germination Data"
+   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>orob2</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2> Germination Data </h2>\n<h3>Description</h3>\n<p>&ldquo;A 2 x 2 factorial experiment comparing 2 types of seed and 2 root extracts. There are 5 or 6 replicates in each \nof the 4 treatment groups, and each replicate comprises a number of seeds varying between 4 and 81. The response \nvariable is the proportion of seeds germinating in each replicate.&rdquo; (Crowder, 1978, Table 3).\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(orob2)</code></pre>\n<h3>Format</h3>\n<p>A data frame with 21 observations on the following 4 variables.\n</p>\n<dl>\n<dt>seed</dt><dd><p>a factor with 2 levels: <code>O73</code> and <code>O75</code>.</p>\n</dd>\n<dt>root</dt><dd><p>a factor with 2 levels <code>BEAN</code> and <code>CUCUMBER</code>.</p>\n</dd>\n<dt>n</dt><dd><p>a numeric vector: the number of seeds exposed to germination.</p>\n</dd>\n<dt>y</dt><dd><p>a numeric vector: the number of seeds which actually germinated.</p>\n</dd>\n</dl>\n<h3>References</h3>\n<p>Crowder, M.J., 1978. <em>Beta-binomial anova for proportions</em>. Appl. Statist. 27, 34-37.\n</p>\n</main>\n</div>\n",
+   "data" : {
+      "z" : {
+         "root" : [
+            "BEAN",
+            "BEAN",
+            "BEAN",
+            "BEAN",
+            "BEAN",
+            "CUCUMBER",
+            "CUCUMBER",
+            "CUCUMBER",
+            "CUCUMBER",
+            "CUCUMBER",
+            "CUCUMBER",
+            "BEAN",
+            "BEAN",
+            "BEAN",
+            "BEAN",
+            "BEAN",
+            "CUCUMBER",
+            "CUCUMBER",
+            "CUCUMBER",
+            "CUCUMBER",
+            "CUCUMBER"
+         ],
+         "seed" : [
+            "O75",
+            "O75",
+            "O75",
+            "O75",
+            "O75",
+            "O75",
+            "O75",
+            "O75",
+            "O75",
+            "O75",
+            "O75",
+            "O73",
+            "O73",
+            "O73",
+            "O73",
+            "O73",
+            "O73",
+            "O73",
+            "O73",
+            "O73",
+            "O73"
+         ]
+      },
+      "y" : {
+         "vars" : [
+            "Var1",
+            "Var2",
+            "Var3",
+            "Var4",
+            "Var5",
+            "Var6",
+            "Var7",
+            "Var8",
+            "Var9",
+            "Var10",
+            "Var11",
+            "Var12",
+            "Var13",
+            "Var14",
+            "Var15",
+            "Var16",
+            "Var17",
+            "Var18",
+            "Var19",
+            "Var20",
+            "Var21"
+         ],
+         "smps" : [
+            "n",
+            "y"
+         ],
+         "data" : [
+            [
+               39,
+               10
+            ],
+            [
+               62,
+               23
+            ],
+            [
+               81,
+               23
+            ],
+            [
+               51,
+               26
+            ],
+            [
+               39,
+               17
+            ],
+            [
+               6,
+               5
+            ],
+            [
+               74,
+               53
+            ],
+            [
+               72,
+               55
+            ],
+            [
+               51,
+               32
+            ],
+            [
+               79,
+               46
+            ],
+            [
+               13,
+               10
+            ],
+            [
+               16,
+               8
+            ],
+            [
+               30,
+               10
+            ],
+            [
+               28,
+               8
+            ],
+            [
+               45,
+               23
+            ],
+            [
+               4,
+               0
+            ],
+            [
+               12,
+               3
+            ],
+            [
+               41,
+               22
+            ],
+            [
+               30,
+               15
+            ],
+            [
+               51,
+               32
+            ],
+            [
+               7,
+               3
+            ]
+         ]
+      }
+   }
+}

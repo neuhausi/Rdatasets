@@ -1,0 +1,284 @@
+{
+   "config" : {
+      "title" : "Data on 19th century English Poverty from Yule (1899)",
+      "colorBy" : "location",
+      "graphType" : "Scatter2D",
+      "scatterPlotMatrix" : 1,
+      "subtitle" : "causaldata - yule"
+   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>yule</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Data on 19th century English Poverty from Yule (1899)</h2>\n<h3>Description</h3>\n<p><code>yule</code> allows for a look at the correlation between poverty relief and poverty rates in England in the 19th century.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>yule\n</code></pre>\n<h3>Format</h3>\n<p>A data frame with 32 rows and 5 variables\n</p>\n<dl>\n<dt>location</dt><dd><p>Location in England</p>\n</dd>\n<dt>paup</dt><dd><p>Pauperism Growth</p>\n</dd>\n<dt>outrelief</dt><dd><p>Poverty Relief Growth</p>\n</dd>\n<dt>old</dt><dd><p>Annual growth in aged population</p>\n</dd>\n<dt>pop</dt><dd><p>Annual growth in population</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>This data is used in the Potential Outcomes Causal Model chapter of Causal Inference: The Mixtape by Cunningham.\n</p>\n<h3>Source</h3>\n<p>Yule, G. Udny. 1899. 'An Investigation into the Causes of Changes in Pauperism in England, Chiefly During the Last Two Interensal Decades.' Journal of Royal Statistical Society 62: 249â95.\n</p>\n<h3>References</h3>\n<p>Cunningham. 2021. Causal Inference: The Mixtape. Yale Press. <a href=\"https://mixtape.scunning.com/index.html\">https://mixtape.scunning.com/index.html</a>.\n</p>\n</main>\n</div>\n",
+   "data" : {
+      "y" : {
+         "smps" : [
+            "paup",
+            "outrelief",
+            "old",
+            "pop"
+         ],
+         "data" : [
+            [
+               27,
+               5,
+               104,
+               136
+            ],
+            [
+               47,
+               12,
+               115,
+               111
+            ],
+            [
+               31,
+               21,
+               85,
+               174
+            ],
+            [
+               64,
+               21,
+               81,
+               124
+            ],
+            [
+               46,
+               18,
+               113,
+               96
+            ],
+            [
+               52,
+               27,
+               105,
+               91
+            ],
+            [
+               81,
+               36,
+               100,
+               97
+            ],
+            [
+               61,
+               39,
+               103,
+               141
+            ],
+            [
+               61,
+               35,
+               101,
+               107
+            ],
+            [
+               59,
+               35,
+               101,
+               132
+            ],
+            [
+               33,
+               22,
+               91,
+               150
+            ],
+            [
+               76,
+               30,
+               103,
+               85
+            ],
+            [
+               64,
+               27,
+               97,
+               81
+            ],
+            [
+               79,
+               33,
+               95,
+               93
+            ],
+            [
+               79,
+               64,
+               113,
+               68
+            ],
+            [
+               52,
+               21,
+               108,
+               100
+            ],
+            [
+               46,
+               19,
+               102,
+               106
+            ],
+            [
+               35,
+               6,
+               93,
+               93
+            ],
+            [
+               37,
+               6,
+               98,
+               98
+            ],
+            [
+               34,
+               10,
+               87,
+               101
+            ],
+            [
+               43,
+               15,
+               102,
+               113
+            ],
+            [
+               37,
+               20,
+               102,
+               135
+            ],
+            [
+               52,
+               22,
+               100,
+               111
+            ],
+            [
+               57,
+               32,
+               102,
+               110
+            ],
+            [
+               57,
+               38,
+               99,
+               122
+            ],
+            [
+               23,
+               18,
+               91,
+               168
+            ],
+            [
+               30,
+               14,
+               83,
+               168
+            ],
+            [
+               55,
+               37,
+               94,
+               131
+            ],
+            [
+               41,
+               24,
+               100,
+               142
+            ],
+            [
+               76,
+               20,
+               119,
+               110
+            ],
+            [
+               38,
+               29,
+               101,
+               142
+            ],
+            [
+               38,
+               49,
+               86,
+               203
+            ]
+         ],
+         "vars" : [
+            "Var1",
+            "Var2",
+            "Var3",
+            "Var4",
+            "Var5",
+            "Var6",
+            "Var7",
+            "Var8",
+            "Var9",
+            "Var10",
+            "Var11",
+            "Var12",
+            "Var13",
+            "Var14",
+            "Var15",
+            "Var16",
+            "Var17",
+            "Var18",
+            "Var19",
+            "Var20",
+            "Var21",
+            "Var22",
+            "Var23",
+            "Var24",
+            "Var25",
+            "Var26",
+            "Var27",
+            "Var28",
+            "Var29",
+            "Var30",
+            "Var31",
+            "Var32"
+         ]
+      },
+      "z" : {
+         "location" : [
+            "Kensington ",
+            "Paddington ",
+            "Fulham ",
+            "Chelsea ",
+            "St. George’s ",
+            "Westminster ",
+            "Marylebone ",
+            "St. John, Hampstead ",
+            "St. Pancras ",
+            "Islington ",
+            "Hackney ",
+            "St. Giles’ ",
+            "Strand ",
+            "Holborn ",
+            "City ",
+            "Shoreditch ",
+            "Bethnal Green ",
+            "Whitechapel ",
+            "St. George’s East ",
+            "Stepney ",
+            "Mile End ",
+            "Poplar ",
+            "St. Saviour’s ",
+            "St. Olave’s ",
+            "Lambeth ",
+            "Wandsworth ",
+            "Camberwell ",
+            "Greenwich ",
+            "Lewisham ",
+            "Woolwich ",
+            "Croydon ",
+            "West Ham "
+         ]
+      }
+   }
+}

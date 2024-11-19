@@ -1,0 +1,142 @@
+[
+   [
+      "Bechtoldt",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/psych/Bechtoldt.json"
+   ],
+   [
+      "Bechtoldt.1",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/psych/Bechtoldt.1.json"
+   ],
+   [
+      "Bechtoldt.2",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/psych/Bechtoldt.2.json"
+   ],
+   [
+      "bfi",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/psych/bfi.json"
+   ],
+   [
+      "bfi.keys (bfi)",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/psych/bfi.keys (bfi).json"
+   ],
+   [
+      "bock.table (bock)",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/psych/bock.table (bock).json"
+   ],
+   [
+      "cattell",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/psych/cattell.json"
+   ],
+   [
+      "Chen (Schmid)",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/psych/Chen (Schmid).json"
+   ],
+   [
+      "Dwyer",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/psych/Dwyer.json"
+   ],
+   [
+      "Garcia (GSBE)",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/psych/Garcia (GSBE).json"
+   ],
+   [
+      "Gleser",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/psych/Gleser.json"
+   ],
+   [
+      "Gorsuch",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/psych/Gorsuch.json"
+   ],
+   [
+      "Harman.5",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/psych/Harman.5.json"
+   ],
+   [
+      "Harman.8",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/psych/Harman.8.json"
+   ],
+   [
+      "Harman.Burt (Harman)",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/psych/Harman.Burt (Harman).json"
+   ],
+   [
+      "Harman.Holzinger (Harman)",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/psych/Harman.Holzinger (Harman).json"
+   ],
+   [
+      "Harman.political",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/psych/Harman.political.json"
+   ],
+   [
+      "Holzinger",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/psych/Holzinger.json"
+   ],
+   [
+      "Holzinger.9",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/psych/Holzinger.9.json"
+   ],
+   [
+      "lsat6 (bock)",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/psych/lsat6 (bock).json"
+   ],
+   [
+      "lsat7 (bock)",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/psych/lsat7 (bock).json"
+   ],
+   [
+      "Reise",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/psych/Reise.json"
+   ],
+   [
+      "sat.act",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/psych/sat.act.json"
+   ],
+   [
+      "Schmid",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/psych/Schmid.json"
+   ],
+   [
+      "schmid.leiman (Schmid)",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/psych/schmid.leiman (Schmid).json"
+   ],
+   [
+      "small.msq",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/psych/small.msq.json"
+   ],
+   [
+      "Tal.Or",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/psych/Tal.Or.json"
+   ],
+   [
+      "Tal_Or (tal_or)",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/psych/Tal_Or (tal_or).json"
+   ],
+   [
+      "Thurstone",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/psych/Thurstone.json"
+   ],
+   [
+      "Thurstone.33",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/psych/Thurstone.33.json"
+   ],
+   [
+      "Thurstone.33G",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/psych/Thurstone.33G.json"
+   ],
+   [
+      "Thurstone.9",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/psych/Thurstone.9.json"
+   ],
+   [
+      "Tucker",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/psych/Tucker.json"
+   ],
+   [
+      "West (Schmid)",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/psych/West (Schmid).json"
+   ],
+   [
+      "withinBetween",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/psych/withinBetween.json"
+   ]
+]

@@ -1,0 +1,120 @@
+{
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>titanicgrp</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>titanicgrp</h2>\n<h3>Description</h3>\n<p>The data is an grouped version of the 1912 Titanic passenger survival \nlog, \n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(titanicgrp)</code></pre>\n<h3>Format</h3>\n<p>A data frame with 12 observations on the following 5 variables.\n</p>\n<dl>\n<dt><code>survive</code></dt><dd><p>number of passengers who survived</p>\n</dd>\n<dt><code>cases</code></dt><dd><p>number of passengers with same pattern of covariates</p>\n</dd>\n<dt><code>age</code></dt><dd><p>1=adult; 0=child</p>\n</dd>\n<dt><code>sex</code></dt><dd><p>1=Male; 0=female</p>\n</dd>\n<dt><code>class</code></dt><dd><p>ticket class 1= 1st class; 2= second class; 3= third class</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>titanicgrp is saved as a data frame.\nUsed to assess risk ratios   \n</p>\n<h3>Source</h3>\n<p>Found in many other texts\n</p>\n<h3>References</h3>\n<p>Hilbe, Joseph M (2014), Modeling Count Data, Cambridge University Press\nHilbe, Joseph M (2007, 2011), Negative Binomial Regression, Cambridge University Press\nHilbe, Joseph M (2009), Logistic Regression Models, Chapman &amp; Hall/CRC\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>library(MASS)\nlibrary(msme)\ndata(titanicgrp)\nglmlr &lt;- glm(survive ~ age + sex + factor(class) + offset(log(cases)),\n             family=poisson, data=titanicgrp)\nsummary(glmlr)\nexp(coef(glmlr))\nlcases &lt;- titanicgrp$cases\nnb2o &lt;- nbinomial(survive ~ age + sex + factor(class), \n                                        formula2 =~ age + sex,\n                                        offset = lcases,\n                                        mean.link=\"log\",\n                                        scale.link=\"log_s\",\n                                        data=titanicgrp)\nsummary(nb2o)\nexp(coef(nb2o))\n</code></pre>\n</main>\n</div>\n",
+   "data" : {
+      "y" : {
+         "vars" : [
+            "Var1",
+            "Var2",
+            "Var3",
+            "Var4",
+            "Var5",
+            "Var6",
+            "Var7",
+            "Var8",
+            "Var9",
+            "Var10",
+            "Var11",
+            "Var12"
+         ],
+         "smps" : [
+            "survive",
+            "cases",
+            "age",
+            "sex",
+            "class"
+         ],
+         "data" : [
+            [
+               1,
+               1,
+               0,
+               0,
+               1
+            ],
+            [
+               13,
+               13,
+               0,
+               0,
+               2
+            ],
+            [
+               14,
+               31,
+               0,
+               0,
+               3
+            ],
+            [
+               5,
+               5,
+               0,
+               1,
+               1
+            ],
+            [
+               11,
+               11,
+               0,
+               1,
+               2
+            ],
+            [
+               13,
+               48,
+               0,
+               1,
+               3
+            ],
+            [
+               140,
+               144,
+               1,
+               0,
+               1
+            ],
+            [
+               80,
+               93,
+               1,
+               0,
+               2
+            ],
+            [
+               76,
+               165,
+               1,
+               0,
+               3
+            ],
+            [
+               57,
+               175,
+               1,
+               1,
+               1
+            ],
+            [
+               14,
+               168,
+               1,
+               1,
+               2
+            ],
+            [
+               75,
+               462,
+               1,
+               1,
+               3
+            ]
+         ]
+      }
+   },
+   "config" : {
+      "title" : "titanicgrp",
+      "graphType" : "Scatter2D",
+      "subtitle" : "COUNT - titanicgrp",
+      "scatterPlotMatrix" : 1
+   }
+}

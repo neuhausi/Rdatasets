@@ -1,0 +1,77 @@
+{
+   "config" : {
+      "graphType" : "Boxplot",
+      "segregateSamplesBy" : [
+         "Grade",
+         "Center"
+      ],
+      "subtitle" : "vcdExtra - Cancer",
+      "title" : "Survival of Breast Cancer Patients",
+      "groupingFactors" : [
+         "Survival"
+      ],
+      "colorBy" : "variable"
+   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>Cancer</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Survival of Breast Cancer Patients</h2>\n<h3>Description</h3>\n<p>Three year survival of 474 breast cancer patients according to nuclear grade and diagnostic center.</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(Cancer)\n</code></pre>\n<h3>Format</h3>\n<p>A 3-dimensional array resulting from cross-tabulating 3 variables for   474 observations. The variable names and their levels are:\n</p>\n<table>\n<tr>\n <td style=\"text-align: right;\">\n    No </td><td style=\"text-align: left;\"> Name </td><td style=\"text-align: left;\"> Levels </td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    1</td><td style=\"text-align: left;\"> <code>Survival</code></td><td style=\"text-align: left;\"> <code>\"Died\", \"Surv\"</code></td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    2</td><td style=\"text-align: left;\"> <code>Grade</code></td><td style=\"text-align: left;\"> <code>\"Malignant\", \"Benign\"</code></td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    3</td><td style=\"text-align: left;\"> <code>Center</code></td><td style=\"text-align: left;\"> <code>\"Boston\", \"Glamorgan\"</code></td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n  </td>\n</tr>\n</table>\n<h3>Source</h3>\n<p>Lindsey, J. K. (1995). \nAnalysis of Frequency and Count Data \nOxford, UK: Oxford University Press. p. 38, Table 2.5.\n</p>\n<p>Whittaker, J. (1990)\nGraphical Models in Applied Multivariate Statistics\nNew York: John Wiley and Sons, p. 220.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>data(Cancer)\nMASS::loglm(~Survival + Grade + Center, data = Cancer)\nvcd::mosaic(Cancer, shade=TRUE)\n</code></pre>\n</main>\n</div>\n",
+   "data" : {
+      "x" : {
+         "Survival" : [
+            "Died",
+            "Surv",
+            "Died",
+            "Surv",
+            "Died",
+            "Surv",
+            "Died",
+            "Surv"
+         ],
+         "Grade" : [
+            "Malignant",
+            "Malignant",
+            "Benign",
+            "Benign",
+            "Malignant",
+            "Malignant",
+            "Benign",
+            "Benign"
+         ],
+         "Center" : [
+            "Boston",
+            "Boston",
+            "Boston",
+            "Boston",
+            "Glamorgan",
+            "Glamorgan",
+            "Glamorgan",
+            "Glamorgan"
+         ]
+      },
+      "y" : {
+         "smps" : [
+            "Smp1",
+            "Smp2",
+            "Smp3",
+            "Smp4",
+            "Smp5",
+            "Smp6",
+            "Smp7",
+            "Smp8"
+         ],
+         "data" : [
+            [
+               35,
+               59,
+               47,
+               112,
+               42,
+               77,
+               26,
+               76
+            ]
+         ],
+         "vars" : [
+            "Freq"
+         ]
+      }
+   }
+}

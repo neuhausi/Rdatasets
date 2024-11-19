@@ -1,0 +1,87 @@
+{
+   "data" : {
+      "y" : {
+         "smps" : [
+            "Smp1",
+            "Smp2",
+            "Smp3",
+            "Smp4",
+            "Smp5",
+            "Smp6"
+         ],
+         "data" : [
+            [
+               60,
+               15,
+               12,
+               15,
+               18,
+               57
+            ],
+            [
+               165,
+               48,
+               132,
+               36,
+               30,
+               156
+            ],
+            [
+               0,
+               0,
+               0,
+               1,
+               1,
+               1
+            ],
+            [
+               0,
+               0,
+               1,
+               0,
+               0,
+               1
+            ],
+            [
+               0,
+               1,
+               0,
+               0,
+               1,
+               0
+            ],
+            [
+               1,
+               0,
+               0,
+               1,
+               0,
+               0
+            ],
+            [
+               0,
+               0,
+               0,
+               1,
+               1,
+               1
+            ]
+         ],
+         "vars" : [
+            "lowbw",
+            "cases",
+            "smoke",
+            "race1",
+            "race2",
+            "race3",
+            "low"
+         ]
+      }
+   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>lbwgrp</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>lbwgrp</h2>\n<h3>Description</h3>\n<p>grouped format of the lbw data. The observation level data come to us form \nHosmer and Lemeshow (2000). Grouping is such that lowbw is the numerator, and \ncases the denominator of a binomial model, or cases may be an offset to the count\nvariable, lowbw.  Birthweights under 2500g classifies a low birthweight baby.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(lbwgrp)</code></pre>\n<h3>Format</h3>\n<p>A data frame with 6 observations on the following 7 variables.\n</p>\n<dl>\n<dt><code>lowbw</code></dt><dd><p>Number of low weight babies per covariate pattern: 12-60</p>\n</dd>\n<dt><code>cases</code></dt><dd><p>Number of observations with same covariate pattern: 30-165</p>\n</dd>\n<dt><code>smoke</code></dt><dd><p>1=history of mother smoking; 0=mother nonsmoker</p>\n</dd>\n<dt><code>race1</code></dt><dd><p>(1/0): Caucasian</p>\n</dd>\n<dt><code>race2</code></dt><dd><p>(1/0): Black</p>\n</dd>\n<dt><code>race3</code></dt><dd><p>(1/0): Other</p>\n</dd>\n<dt><code>low</code></dt><dd><p>low birth weight (not valid variable in grouped format)</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>lbwgrp is saved as a data frame.\nCount models: count response=lowbt; offset=log(cases); \nBinary: binomial numerator= lowbt; binomial denominator=cases\n</p>\n<h3>Source</h3>\n<p>Hosmer, D and S. Lemeshow (2000), Applied Logistic Regression, Wiley \n</p>\n<h3>References</h3>\n<p>Hilbe, Joseph M (2007, 2011), Negative Binomial Regression, Cambridge University Press\nHilbe, Joseph M (2009), Logistic Regression Models, Chapman &amp; Hall/CRC\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>data(lbwgrp)\nglmgp &lt;- glm(lowbw ~ smoke + race2 + race3 + offset(log(cases)), family=poisson, data=lbwgrp)\nsummary(glmgp)\nexp(coef(glmgp))\nlibrary(MASS)\nglmgnb &lt;- glm.nb(lowbw ~  smoke + race2 + race3, data=lbwgrp)\nsummary(glmgnb)\nexp(coef(glmgnb))\n</code></pre>\n</main>\n</div>\n",
+   "config" : {
+      "title" : "lbwgrp",
+      "graphType" : "Stacked",
+      "subtitle" : "COUNT - lbwgrp"
+   }
+}

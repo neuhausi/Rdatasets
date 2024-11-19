@@ -1,0 +1,101 @@
+{
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>plots</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Plots data.</h2>\n<h3>Description</h3>\n<p>Data on the plots at the Portal Project\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>plots\n</code></pre>\n<h3>Format</h3>\n<p>A data frame with columns:\n</p>\n<dl>\n<dt>plot_id</dt><dd><p>Numeric identifier for the plot</p>\n</dd>\n<dt>plot_type</dt><dd><p>Type of experimental manipulation conducted on the plot</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>Portal Project Teaching Database,\n<a href=\"https://doi.org/10.6084/m9.figshare.1314459\">doi:10.6084/m9.figshare.1314459</a>\n</p>\n</main>\n</div>\n",
+   "data" : {
+      "x" : {
+         "plot_type" : [
+            "Spectab exclosure",
+            "Control",
+            "Long-term Krat Exclosure",
+            "Control",
+            "Rodent Exclosure",
+            "Short-term Krat Exclosure",
+            "Rodent Exclosure",
+            "Control",
+            "Spectab exclosure",
+            "Rodent Exclosure",
+            "Control",
+            "Control",
+            "Short-term Krat Exclosure",
+            "Control",
+            "Long-term Krat Exclosure",
+            "Rodent Exclosure",
+            "Control",
+            "Short-term Krat Exclosure",
+            "Long-term Krat Exclosure",
+            "Short-term Krat Exclosure",
+            "Long-term Krat Exclosure",
+            "Control",
+            "Rodent Exclosure",
+            "Rodent Exclosure"
+         ]
+      },
+      "y" : {
+         "data" : [
+            [
+               1,
+               2,
+               3,
+               4,
+               5,
+               6,
+               7,
+               8,
+               9,
+               10,
+               11,
+               12,
+               13,
+               14,
+               15,
+               16,
+               17,
+               18,
+               19,
+               20,
+               21,
+               22,
+               23,
+               24
+            ]
+         ],
+         "smps" : [
+            "Smp1",
+            "Smp2",
+            "Smp3",
+            "Smp4",
+            "Smp5",
+            "Smp6",
+            "Smp7",
+            "Smp8",
+            "Smp9",
+            "Smp10",
+            "Smp11",
+            "Smp12",
+            "Smp13",
+            "Smp14",
+            "Smp15",
+            "Smp16",
+            "Smp17",
+            "Smp18",
+            "Smp19",
+            "Smp20",
+            "Smp21",
+            "Smp22",
+            "Smp23",
+            "Smp24"
+         ],
+         "vars" : [
+            "plot_id"
+         ]
+      }
+   },
+   "config" : {
+      "subtitle" : "ratdat - plots",
+      "graphType" : "Boxplot",
+      "colorBy" : "variable",
+      "groupingFactors" : [
+         "plot_type"
+      ],
+      "title" : "Plots data."
+   }
+}

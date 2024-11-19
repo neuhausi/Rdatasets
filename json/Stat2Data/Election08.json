@@ -1,0 +1,542 @@
+{
+   "config" : {
+      "title" : "2008 U.S. Presidential Election",
+      "colorBy" : "State",
+      "shapeBy" : "Abr",
+      "graphType" : "Scatter2D",
+      "scatterPlotMatrix" : 1,
+      "subtitle" : "Stat2Data - Election08"
+   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>Election08</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>2008 U.S. Presidential Election</h2>\n<h3>Description</h3>\n<p>State-by-state information from the 2008 U.S. presidential election\n</p>\n<h3>Format</h3>\n<p>A dataframe with 51 observations on the following 7 variables.\n</p>\n<table>\n<tr>\n <td style=\"text-align: right;\">\n    <code>State</code> </td><td style=\"text-align: left;\"> Name of the state</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Abr</code> </td><td style=\"text-align: left;\"> Abbreviation for the state</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Income</code> </td><td style=\"text-align: left;\"> Per capita income in the state as of 2007 (in dollars)</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>HS</code> </td><td style=\"text-align: left;\"> Percentage of adults with at least a high school education</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>BA</code> </td><td style=\"text-align: left;\"> Percentage of adults with at least a college education</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Dem.Rep</code> </td><td style=\"text-align: left;\"> Difference in %Democrat and %Republican (according to 2008 Gallup survey)</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>ObamaWin</code> </td><td style=\"text-align: left;\"> <code>1</code>= Obama (Democrat) wins state in 2008 or <code>0</code>=McCain (Republican) wins</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n  </td>\n</tr>\n</table>\n<h3>Details</h3>\n<p>This dataset contains information from all 50 states and the District of Columbia for the 2008 U.S. presidential election.\n</p>\n<h3>Source</h3>\n<p>State income data from: Census Bureau Table 659. Personal Income Per Capita (in 2007)<br />\nHigh school data from: U.S. Census Bureau, 1990 Census of Population, <br />\nhttp://nces.ed.gov/programs/digest/d08/tables/dt08_011.asp <br />\nCollege data from: Census Bureau Table 225. Educational Attainment by State (in 2007)<br />\n% Democrat and %Republican: <br />\nhttp://www.gallup.com/poll/114016/state-states-political-party-affiliation.aspx#1\n</p>\n</main>\n</div>\n",
+   "data" : {
+      "y" : {
+         "smps" : [
+            "Income",
+            "HS",
+            "BA",
+            "Dem.Rep",
+            "ObamaWin"
+         ],
+         "data" : [
+            [
+               32404,
+               80.4,
+               21.4,
+               -1,
+               0
+            ],
+            [
+               40352,
+               90.5,
+               26,
+               -11,
+               0
+            ],
+            [
+               33029,
+               83.5,
+               25.3,
+               0,
+               0
+            ],
+            [
+               30060,
+               81.1,
+               19.3,
+               12,
+               0
+            ],
+            [
+               41571,
+               80.2,
+               29.5,
+               19,
+               1
+            ],
+            [
+               41042,
+               88.9,
+               35,
+               11,
+               1
+            ],
+            [
+               54117,
+               88,
+               34.7,
+               26,
+               1
+            ],
+            [
+               40608,
+               87.4,
+               26.1,
+               23,
+               1
+            ],
+            [
+               61092,
+               85.7,
+               47.5,
+               75,
+               1
+            ],
+            [
+               38444,
+               84.9,
+               25.8,
+               9,
+               1
+            ],
+            [
+               33457,
+               82.9,
+               27.1,
+               4,
+               0
+            ],
+            [
+               39239,
+               89.4,
+               29.2,
+               34,
+               1
+            ],
+            [
+               31197,
+               88.4,
+               24.5,
+               -15,
+               0
+            ],
+            [
+               40322,
+               85.7,
+               29.5,
+               24,
+               1
+            ],
+            [
+               33616,
+               85.8,
+               22.1,
+               9,
+               1
+            ],
+            [
+               35023,
+               89.6,
+               24.3,
+               18,
+               1
+            ],
+            [
+               36768,
+               89.1,
+               28.8,
+               -2,
+               0
+            ],
+            [
+               31111,
+               80.1,
+               20,
+               13,
+               0
+            ],
+            [
+               34756,
+               79.9,
+               20.4,
+               9,
+               0
+            ],
+            [
+               33722,
+               89.4,
+               26.7,
+               19,
+               1
+            ],
+            [
+               46021,
+               87.4,
+               35.2,
+               26,
+               1
+            ],
+            [
+               49082,
+               88.4,
+               37.9,
+               34,
+               1
+            ],
+            [
+               35086,
+               87.4,
+               24.7,
+               17,
+               1
+            ],
+            [
+               41034,
+               91,
+               31,
+               15,
+               1
+            ],
+            [
+               28845,
+               78.5,
+               18.9,
+               1,
+               0
+            ],
+            [
+               34389,
+               85.6,
+               24.5,
+               11,
+               0
+            ],
+            [
+               32458,
+               90,
+               27,
+               4,
+               0
+            ],
+            [
+               36471,
+               89.6,
+               27.5,
+               -7,
+               0
+            ],
+            [
+               40480,
+               83.7,
+               21.8,
+               11,
+               1
+            ],
+            [
+               41512,
+               90.5,
+               32.5,
+               13,
+               1
+            ],
+            [
+               49194,
+               87,
+               33.9,
+               19,
+               1
+            ],
+            [
+               31474,
+               82.3,
+               24.8,
+               14,
+               1
+            ],
+            [
+               47385,
+               84.1,
+               31.7,
+               27,
+               1
+            ],
+            [
+               33636,
+               83,
+               25.6,
+               11,
+               1
+            ],
+            [
+               34846,
+               89,
+               25.7,
+               1,
+               0
+            ],
+            [
+               34874,
+               87.1,
+               24.1,
+               18,
+               1
+            ],
+            [
+               34153,
+               84.8,
+               22.8,
+               6,
+               0
+            ],
+            [
+               34784,
+               88,
+               28.3,
+               17,
+               1
+            ],
+            [
+               38788,
+               86.8,
+               25.8,
+               16,
+               1
+            ],
+            [
+               39463,
+               83,
+               29.8,
+               37,
+               1
+            ],
+            [
+               31013,
+               82.1,
+               23.5,
+               0,
+               0
+            ],
+            [
+               33905,
+               88.2,
+               25,
+               1,
+               0
+            ],
+            [
+               33280,
+               81.4,
+               21.8,
+               5,
+               0
+            ],
+            [
+               37187,
+               79.1,
+               25.2,
+               2,
+               0
+            ],
+            [
+               31189,
+               90.2,
+               28.7,
+               -23,
+               0
+            ],
+            [
+               36670,
+               90.3,
+               33.6,
+               33,
+               1
+            ],
+            [
+               41347,
+               85.9,
+               33.6,
+               9,
+               1
+            ],
+            [
+               40414,
+               89.3,
+               30.3,
+               17,
+               1
+            ],
+            [
+               29537,
+               81.2,
+               17.3,
+               19,
+               0
+            ],
+            [
+               36047,
+               89,
+               25.4,
+               18,
+               1
+            ],
+            [
+               43226,
+               91.2,
+               23.4,
+               -20,
+               0
+            ]
+         ],
+         "vars" : [
+            "Var1",
+            "Var2",
+            "Var3",
+            "Var4",
+            "Var5",
+            "Var6",
+            "Var7",
+            "Var8",
+            "Var9",
+            "Var10",
+            "Var11",
+            "Var12",
+            "Var13",
+            "Var14",
+            "Var15",
+            "Var16",
+            "Var17",
+            "Var18",
+            "Var19",
+            "Var20",
+            "Var21",
+            "Var22",
+            "Var23",
+            "Var24",
+            "Var25",
+            "Var26",
+            "Var27",
+            "Var28",
+            "Var29",
+            "Var30",
+            "Var31",
+            "Var32",
+            "Var33",
+            "Var34",
+            "Var35",
+            "Var36",
+            "Var37",
+            "Var38",
+            "Var39",
+            "Var40",
+            "Var41",
+            "Var42",
+            "Var43",
+            "Var44",
+            "Var45",
+            "Var46",
+            "Var47",
+            "Var48",
+            "Var49",
+            "Var50",
+            "Var51"
+         ]
+      },
+      "z" : {
+         "State" : [
+            "Alabama ",
+            "Alaska ",
+            "Arizona ",
+            "Arkansas ",
+            "California ",
+            "Colorado ",
+            "Connecticut ",
+            "Delaware ",
+            "District of Columbia",
+            "Florida ",
+            "Georgia ",
+            "Hawaii ",
+            "Idaho ",
+            "Illinois ",
+            "Indiana ",
+            "Iowa ",
+            "Kansas ",
+            "Kentucky ",
+            "Louisiana ",
+            "Maine ",
+            "Maryland ",
+            "Massachusetts ",
+            "Michigan ",
+            "Minnesota ",
+            "Mississippi ",
+            "Missouri ",
+            "Montana ",
+            "Nebraska ",
+            "Nevada ",
+            "New Hampshire ",
+            "New Jersey ",
+            "New Mexico ",
+            "New York ",
+            "North Carolina ",
+            "North Dakota ",
+            "Ohio ",
+            "Oklahoma ",
+            "Oregon ",
+            "Pennsylvania ",
+            "Rhode Island ",
+            "South Carolina ",
+            "South Dakota ",
+            "Tennessee ",
+            "Texas ",
+            "Utah ",
+            "Vermont ",
+            "Virginia ",
+            "Washington ",
+            "West Virginia ",
+            "Wisconsin ",
+            "Wyoming "
+         ],
+         "Abr" : [
+            "AL",
+            "AK",
+            "AZ",
+            "AR",
+            "CA",
+            "CO",
+            "CT",
+            "DE",
+            "DC",
+            "FL",
+            "GA",
+            "HI",
+            "ID",
+            "IL",
+            "IN",
+            "IA",
+            "KS",
+            "KY",
+            "LA",
+            "ME",
+            "MD",
+            "MA",
+            "MI",
+            "MN",
+            "MS",
+            "MO",
+            "MT",
+            "NE",
+            "NV",
+            "NH",
+            "NJ",
+            "NM",
+            "NY",
+            "NC",
+            "ND",
+            "OH",
+            "OK",
+            "OR",
+            "PA",
+            "RI",
+            "SC",
+            "SD",
+            "TN",
+            "TX",
+            "UT",
+            "VT",
+            "VA",
+            "WA",
+            "WV",
+            "WI",
+            "WY"
+         ]
+      }
+   }
+}

@@ -1,0 +1,121 @@
+{
+   "data" : {
+      "z" : {
+         "dilution" : [
+            "1/1",
+            "1/1",
+            "1/1",
+            "1/1",
+            "1/1",
+            "1/1",
+            "1/25",
+            "1/25",
+            "1/25",
+            "1/25",
+            "1/25",
+            "1/625",
+            "1/625",
+            "1/625",
+            "1/625",
+            "1/625"
+         ]
+      },
+      "y" : {
+         "vars" : [
+            "Var1",
+            "Var2",
+            "Var3",
+            "Var4",
+            "Var5",
+            "Var6",
+            "Var7",
+            "Var8",
+            "Var9",
+            "Var10",
+            "Var11",
+            "Var12",
+            "Var13",
+            "Var14",
+            "Var15",
+            "Var16"
+         ],
+         "smps" : [
+            "n",
+            "y"
+         ],
+         "data" : [
+            [
+               43,
+               2
+            ],
+            [
+               51,
+               9
+            ],
+            [
+               44,
+               5
+            ],
+            [
+               71,
+               16
+            ],
+            [
+               24,
+               2
+            ],
+            [
+               7,
+               0
+            ],
+            [
+               19,
+               17
+            ],
+            [
+               56,
+               43
+            ],
+            [
+               87,
+               79
+            ],
+            [
+               55,
+               50
+            ],
+            [
+               10,
+               9
+            ],
+            [
+               13,
+               11
+            ],
+            [
+               62,
+               47
+            ],
+            [
+               104,
+               90
+            ],
+            [
+               51,
+               46
+            ],
+            [
+               11,
+               9
+            ]
+         ]
+      }
+   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>orob1</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2> Germination Data </h2>\n<h3>Description</h3>\n<p>[Data describing the germination] &ldquo;for seed <em>Orobanche cernua</em> cultivated in three dilutions of a bean \nroot extract. The mean proportions of the three sets are 0.142, 0.872 and 0.842, and the overall mean is 0.614.&rdquo;\n(Crowder, 1978, Table 1). \n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(orob1)</code></pre>\n<h3>Format</h3>\n<p>A data frame with 16 observations on the following 3 variables.\n</p>\n<dl>\n<dt>dilution</dt><dd><p>a factor with 3 levels: <code>1/1</code>, <code>1/25</code> and <code>1/625</code></p>\n</dd></dl>\n<p>.\n</p>\n<dl>\n<dt>n</dt><dd><p>a numeric vector: the number of seeds exposed to germination.</p>\n</dd>\n<dt>y</dt><dd><p>a numeric vector: the number of seeds which actually germinated.</p>\n</dd>\n</dl>\n<h3>References</h3>\n<p>Crowder, M.J., 1978. <em>Beta-binomial anova for proportions</em>. Appl. Statist. 27, 34-37.\n</p>\n</main>\n</div>\n",
+   "config" : {
+      "graphType" : "Scatter2D",
+      "subtitle" : "aod - orob1",
+      "title" : "Germination Data",
+      "colorBy" : "dilution"
+   }
+}

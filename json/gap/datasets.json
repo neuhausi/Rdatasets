@@ -1,0 +1,14 @@
+[
+   [
+      "hg18",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/gap/hg18.json"
+   ],
+   [
+      "hg19",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/gap/hg19.json"
+   ],
+   [
+      "hg38",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/gap/hg38.json"
+   ]
+]

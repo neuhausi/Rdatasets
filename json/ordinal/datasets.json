@@ -1,0 +1,14 @@
+[
+   [
+      "income",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/ordinal/income.json"
+   ],
+   [
+      "soup",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/ordinal/soup.json"
+   ],
+   [
+      "wine",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/ordinal/wine.json"
+   ]
+]

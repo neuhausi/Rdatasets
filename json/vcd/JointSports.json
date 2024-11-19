@@ -1,0 +1,351 @@
+{
+   "config" : {
+      "sizeBy" : "opinion",
+      "shapeBy" : "grade",
+      "title" : "Opinions About Joint Sports",
+      "colorBy" : "gender",
+      "graphType" : "Scatter2D",
+      "subtitle" : "vcd - JointSports"
+   },
+   "data" : {
+      "y" : {
+         "vars" : [
+            "Var1",
+            "Var2",
+            "Var3",
+            "Var4",
+            "Var5",
+            "Var6",
+            "Var7",
+            "Var8",
+            "Var9",
+            "Var10",
+            "Var11",
+            "Var12",
+            "Var13",
+            "Var14",
+            "Var15",
+            "Var16",
+            "Var17",
+            "Var18",
+            "Var19",
+            "Var20",
+            "Var21",
+            "Var22",
+            "Var23",
+            "Var24",
+            "Var25",
+            "Var26",
+            "Var27",
+            "Var28",
+            "Var29",
+            "Var30",
+            "Var31",
+            "Var32",
+            "Var33",
+            "Var34",
+            "Var35",
+            "Var36",
+            "Var37",
+            "Var38",
+            "Var39",
+            "Var40"
+         ],
+         "data" : [
+            [
+               31,
+               1983
+            ],
+            [
+               103,
+               1983
+            ],
+            [
+               23,
+               1983
+            ],
+            [
+               61,
+               1983
+            ],
+            [
+               41,
+               1985
+            ],
+            [
+               77,
+               1985
+            ],
+            [
+               31,
+               1985
+            ],
+            [
+               52,
+               1985
+            ],
+            [
+               51,
+               1983
+            ],
+            [
+               67,
+               1983
+            ],
+            [
+               39,
+               1983
+            ],
+            [
+               72,
+               1983
+            ],
+            [
+               67,
+               1985
+            ],
+            [
+               80,
+               1985
+            ],
+            [
+               31,
+               1985
+            ],
+            [
+               70,
+               1985
+            ],
+            [
+               38,
+               1983
+            ],
+            [
+               29,
+               1983
+            ],
+            [
+               36,
+               1983
+            ],
+            [
+               39,
+               1983
+            ],
+            [
+               35,
+               1985
+            ],
+            [
+               27,
+               1985
+            ],
+            [
+               31,
+               1985
+            ],
+            [
+               28,
+               1985
+            ],
+            [
+               10,
+               1983
+            ],
+            [
+               15,
+               1983
+            ],
+            [
+               15,
+               1983
+            ],
+            [
+               16,
+               1983
+            ],
+            [
+               12,
+               1985
+            ],
+            [
+               10,
+               1985
+            ],
+            [
+               4,
+               1985
+            ],
+            [
+               4,
+               1985
+            ],
+            [
+               4,
+               1983
+            ],
+            [
+               2,
+               1983
+            ],
+            [
+               2,
+               1983
+            ],
+            [
+               3,
+               1983
+            ],
+            [
+               2,
+               1985
+            ],
+            [
+               3,
+               1985
+            ],
+            [
+               7,
+               1985
+            ],
+            [
+               3,
+               1985
+            ]
+         ],
+         "smps" : [
+            "Freq",
+            "year"
+         ]
+      },
+      "z" : {
+         "gender" : [
+            "Boy",
+            "Girl",
+            "Boy",
+            "Girl",
+            "Boy",
+            "Girl",
+            "Boy",
+            "Girl",
+            "Boy",
+            "Girl",
+            "Boy",
+            "Girl",
+            "Boy",
+            "Girl",
+            "Boy",
+            "Girl",
+            "Boy",
+            "Girl",
+            "Boy",
+            "Girl",
+            "Boy",
+            "Girl",
+            "Boy",
+            "Girl",
+            "Boy",
+            "Girl",
+            "Boy",
+            "Girl",
+            "Boy",
+            "Girl",
+            "Boy",
+            "Girl",
+            "Boy",
+            "Girl",
+            "Boy",
+            "Girl",
+            "Boy",
+            "Girl",
+            "Boy",
+            "Girl"
+         ],
+         "grade" : [
+            "1st",
+            "1st",
+            "3rd",
+            "3rd",
+            "1st",
+            "1st",
+            "3rd",
+            "3rd",
+            "1st",
+            "1st",
+            "3rd",
+            "3rd",
+            "1st",
+            "1st",
+            "3rd",
+            "3rd",
+            "1st",
+            "1st",
+            "3rd",
+            "3rd",
+            "1st",
+            "1st",
+            "3rd",
+            "3rd",
+            "1st",
+            "1st",
+            "3rd",
+            "3rd",
+            "1st",
+            "1st",
+            "3rd",
+            "3rd",
+            "1st",
+            "1st",
+            "3rd",
+            "3rd",
+            "1st",
+            "1st",
+            "3rd",
+            "3rd"
+         ],
+         "opinion" : [
+            "very good",
+            "very good",
+            "very good",
+            "very good",
+            "very good",
+            "very good",
+            "very good",
+            "very good",
+            "good",
+            "good",
+            "good",
+            "good",
+            "good",
+            "good",
+            "good",
+            "good",
+            "indifferent",
+            "indifferent",
+            "indifferent",
+            "indifferent",
+            "indifferent",
+            "indifferent",
+            "indifferent",
+            "indifferent",
+            "bad",
+            "bad",
+            "bad",
+            "bad",
+            "bad",
+            "bad",
+            "bad",
+            "bad",
+            "very bad",
+            "very bad",
+            "very bad",
+            "very bad",
+            "very bad",
+            "very bad",
+            "very bad",
+            "very bad"
+         ]
+      }
+   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>JointSports</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Opinions About Joint Sports</h2>\n<h3>Description</h3>\n<p>Data from a Danish study in 1983 and 1985 about sports activities and\nthe opinion about joint sports with the other gender among 16&ndash;19 year\nold high school students.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(\"JointSports\")\n</code></pre>\n<h3>Format</h3>\n<p>A data frame with 40 observations and 5 variables.\n</p>\n<dl>\n<dt>Freq</dt><dd><p>frequency.</p>\n</dd>\n<dt>opinion</dt><dd><p>factor indicating opinion about sports joint with the\nother gender (very good, good, indifferent, bad, very bad).</p>\n</dd>\n<dt>year</dt><dd><p>factor indicating year of study (1983, 1985).</p>\n</dd>\n<dt>grade</dt><dd><p>factor indicating school grade (1st, 3rd).</p>\n</dd>\n<dt>gender</dt><dd><p>factor indicating gender (Boy, Girl).</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>E. B. Andersen (1991),\nThe Statistical Analysis of Categorical Data, page 210.\n</p>\n<h3>References</h3>\n<p>E. B. Andersen (1991),\n<em>The Statistical Analysis of Categorical Data</em>.\n2nd edition.\nSpringer-Verlag, Berlin.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>library(MASS)\ndata(\"JointSports\")\ntab &lt;- xtabs(Freq ~ gender + opinion + grade + year, data = JointSports)\ndoubledecker(opinion ~ gender + year + grade, data = tab)\nloglm(~ opinion* (gender + grade+ year) + gender*year*grade, data = tab)\n</code></pre>\n</main>\n</div>\n"
+}

@@ -1,0 +1,137 @@
+{
+   "config" : {
+      "groupingFactors" : [
+         "rank"
+      ],
+      "colorBy" : "variable",
+      "title" : "Broken Marriage Data",
+      "segregateSamplesBy" : [
+         "broken",
+         "gender"
+      ],
+      "subtitle" : "vcd - BrokenMarriage",
+      "graphType" : "Boxplot"
+   },
+   "data" : {
+      "x" : {
+         "rank" : [
+            "I",
+            "I",
+            "II",
+            "II",
+            "III",
+            "III",
+            "IV",
+            "IV",
+            "V",
+            "V",
+            "I",
+            "I",
+            "II",
+            "II",
+            "III",
+            "III",
+            "IV",
+            "IV",
+            "V",
+            "V"
+         ],
+         "broken" : [
+            "yes",
+            "no",
+            "yes",
+            "no",
+            "yes",
+            "no",
+            "yes",
+            "no",
+            "yes",
+            "no",
+            "yes",
+            "no",
+            "yes",
+            "no",
+            "yes",
+            "no",
+            "yes",
+            "no",
+            "yes",
+            "no"
+         ],
+         "gender" : [
+            "male",
+            "male",
+            "male",
+            "male",
+            "male",
+            "male",
+            "male",
+            "male",
+            "male",
+            "male",
+            "female",
+            "female",
+            "female",
+            "female",
+            "female",
+            "female",
+            "female",
+            "female",
+            "female",
+            "female"
+         ]
+      },
+      "y" : {
+         "vars" : [
+            "Freq"
+         ],
+         "data" : [
+            [
+               14,
+               102,
+               39,
+               151,
+               42,
+               292,
+               79,
+               293,
+               66,
+               261,
+               12,
+               25,
+               23,
+               79,
+               37,
+               151,
+               102,
+               557,
+               58,
+               321
+            ]
+         ],
+         "smps" : [
+            "Smp1",
+            "Smp2",
+            "Smp3",
+            "Smp4",
+            "Smp5",
+            "Smp6",
+            "Smp7",
+            "Smp8",
+            "Smp9",
+            "Smp10",
+            "Smp11",
+            "Smp12",
+            "Smp13",
+            "Smp14",
+            "Smp15",
+            "Smp16",
+            "Smp17",
+            "Smp18",
+            "Smp19",
+            "Smp20"
+         ]
+      }
+   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>BrokenMarriage</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Broken Marriage Data</h2>\n<h3>Description</h3>\n<p>Data from the Danish Welfare Study about broken marriages or permanent\nrelationships depending on gender and social rank.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(\"BrokenMarriage\")\n</code></pre>\n<h3>Format</h3>\n<p>A data frame with 20 observations and 4 variables.\n</p>\n<dl>\n<dt>Freq</dt><dd><p>frequency.</p>\n</dd>\n<dt>gender</dt><dd><p>factor indicating gender (male, female).</p>\n</dd>\n<dt>rank</dt><dd><p>factor indicating social rank (I, II, III, IV, V).</p>\n</dd>\n<dt>broken</dt><dd><p>factor indicating whether the marriage or permanent\nrelationship was broken (yes, no).</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>E. B. Andersen (1991),\nThe Statistical Analysis of Categorical Data, page 177.\n</p>\n<h3>References</h3>\n<p>E. B. Andersen (1991),\n<em>The Statistical Analysis of Categorical Data</em>.\n2nd edition.\nSpringer-Verlag, Berlin.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>data(\"BrokenMarriage\")\nstructable(~ ., data = BrokenMarriage)\n</code></pre>\n</main>\n</div>\n"
+}

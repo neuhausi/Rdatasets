@@ -1,0 +1,96 @@
+{
+   "config" : {
+      "graphType" : "Stacked",
+      "subtitle" : "vcdExtra - HairEyePlace",
+      "scatterPlotMatrix" : 1,
+      "title" : "Hair Color and Eye Color in Caithness and Aberdeen",
+      "smpOverlays" : [
+         null
+      ]
+   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>HairEyePlace</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>\nHair Color and Eye Color in Caithness and Aberdeen\n</h2>\n<h3>Description</h3>\n<p>A three-way frequency table crossing eye color and hair color in two places, Caithness and Aberdeen,\nScotland.\nThese data were of interest to Fisher (1940) and others because\nthere are mixtures of people of Nordic, Celtic and Anglo-Saxon origin.\n</p>\n<p>One or both tables have been widely analyzed in conjunction with\nRC and canonical correlation models for categorical data, e.g.,\nBecker and Clogg (1989).\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(HairEyePlace)</code></pre>\n<h3>Format</h3>\n<p>The format is:\nnum [1:4, 1:5, 1:2] 326 688 343 98 38 116 84 48 241 584 ...\n- attr(*, &quot;dimnames&quot;)=List of 3\n..$ Eye  : chr [1:4] &quot;Blue&quot; &quot;Light&quot; &quot;Medium&quot; &quot;Dark&quot;\n..$ Hair : chr [1:5] &quot;Fair&quot; &quot;Red&quot; &quot;Medium&quot; &quot;Dark&quot; ...\n..$ Place: chr [1:2] &quot;Caithness&quot; &quot;Aberdeen&quot;\n</p>\n<h3>Details</h3>\n<p>The hair and eye colors are ordered as in the original source,\nsuggesting that they form ordered categories.\n</p>\n<h3>Source</h3>\n<p>This data was taken from the <code>colors</code> data in <span class=\"pkg\">logmult</span>.\n</p>\n<h3>References</h3>\n<p>Becker, M. P., and Clogg, C. C. (1989). \nAnalysis of Sets of Two-Way Contingency Tables Using Association Models. \n<em>Journal of the American Statistical Association</em>, 84(405), 142-151. \n</p>\n<p>Fisher, R.A. (1940) The precision of discriminant functions. \n<em>Annals of Eugenics</em>, 10, 422-429.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>data(HairEyePlace)\n# separate mosaics\nmosaic(HairEyePlace[,,1], shade=TRUE, main=\"Caithness\")\nmosaic(HairEyePlace[,,2], shade=TRUE, main=\"Aberdeen\")\n# condition on Place\nmosaic(~Hair + Eye |Place, data=HairEyePlace, shade=TRUE, legend=FALSE)\ncotabplot(~Hair+Eye|Place, data=HairEyePlace, shade=TRUE, legend=FALSE)\n</code></pre>\n</main>\n</div>\n",
+   "data" : {
+      "y" : {
+         "data" : [
+            [
+               326,
+               688,
+               343,
+               98
+            ],
+            [
+               38,
+               116,
+               84,
+               48
+            ],
+            [
+               241,
+               584,
+               909,
+               403
+            ],
+            [
+               110,
+               188,
+               412,
+               681
+            ],
+            [
+               3,
+               4,
+               26,
+               85
+            ],
+            [
+               1368,
+               2577,
+               1390,
+               454
+            ],
+            [
+               170,
+               474,
+               420,
+               255
+            ],
+            [
+               1041,
+               2703,
+               3826,
+               1848
+            ],
+            [
+               398,
+               932,
+               1842,
+               2506
+            ],
+            [
+               1,
+               11,
+               33,
+               112
+            ]
+         ],
+         "smps" : [
+            "Blue",
+            "Light",
+            "Medium",
+            "Dark"
+         ],
+         "vars" : [
+            "Fair.Caithness",
+            "Red.Caithness",
+            "Medium.Caithness",
+            "Dark.Caithness",
+            "Black.Caithness",
+            "Fair.Aberdeen",
+            "Red.Aberdeen",
+            "Medium.Aberdeen",
+            "Dark.Aberdeen",
+            "Black.Aberdeen"
+         ]
+      }
+   }
+}

@@ -1,0 +1,14 @@
+[
+   [
+      "french_fries",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/reshape2/french_fries.json"
+   ],
+   [
+      "smiths",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/reshape2/smiths.json"
+   ],
+   [
+      "tips",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/reshape2/tips.json"
+   ]
+]

@@ -1,0 +1,443 @@
+{
+   "config" : {
+      "graphType" : "Scatter2D",
+      "scatterPlotMatrix" : 1,
+      "subtitle" : "Stat2Data - HighPeaks",
+      "title" : "Characteristics of Adirondack Hiking Trails",
+      "colorBy" : "Peak"
+   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>HighPeaks</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Characteristics of Adirondack Hiking Trails</h2>\n<h3>Description</h3>\n<p>Data on hiking trails for each of the 46 &quot;High Peaks&quot; in the Adirondack mountains\n</p>\n<h3>Format</h3>\n<p>A data frame with 46 observations on the following 6 variables.\n</p>\n<table>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Peak</code> </td><td style=\"text-align: left;\"> Name of the mountain</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Elevation</code> </td><td style=\"text-align: left;\"> Elevation at the highest point (in feet)</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Difficulty</code> </td><td style=\"text-align: left;\"> Rating of difficulty of the hike: <code>1</code> (easy) to <code>7</code> (most difficult) </td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Ascent</code> </td><td style=\"text-align: left;\"> Vertical ascent (in feet)</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Length</code> </td><td style=\"text-align: left;\"> Length of hike (in miles)</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Time</code> </td><td style=\"text-align: left;\"> Expected trip time (in hours)</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n  </td>\n</tr>\n</table>\n<h3>Details</h3>\n<p>Forty-six mountains in the Adirondacks of upstate New York are\nknown as the High Peaks with elevations near or above 4000 feet (although modern measurements\nshow a couple of the peaks are actually slightly under 4000 feet). A goal for hikers in the region is\nto become a &quot;46er&quot; by scaling each of these peaks.\nThis dataset gives information about the hiking trails up each of these peaks.\n</p>\n<h3>Source</h3>\n<p>High Peaks data avaialble at http://www.adirondack.net/tour/hike/highpeaks.cfm.\nThanks to Jessica Chapman at St. Lawrence University for recommending this dataset.\n</p>\n</main>\n</div>\n",
+   "data" : {
+      "y" : {
+         "vars" : [
+            "Var1",
+            "Var2",
+            "Var3",
+            "Var4",
+            "Var5",
+            "Var6",
+            "Var7",
+            "Var8",
+            "Var9",
+            "Var10",
+            "Var11",
+            "Var12",
+            "Var13",
+            "Var14",
+            "Var15",
+            "Var16",
+            "Var17",
+            "Var18",
+            "Var19",
+            "Var20",
+            "Var21",
+            "Var22",
+            "Var23",
+            "Var24",
+            "Var25",
+            "Var26",
+            "Var27",
+            "Var28",
+            "Var29",
+            "Var30",
+            "Var31",
+            "Var32",
+            "Var33",
+            "Var34",
+            "Var35",
+            "Var36",
+            "Var37",
+            "Var38",
+            "Var39",
+            "Var40",
+            "Var41",
+            "Var42",
+            "Var43",
+            "Var44",
+            "Var45",
+            "Var46"
+         ],
+         "smps" : [
+            "Elevation",
+            "Difficulty",
+            "Ascent",
+            "Length",
+            "Time"
+         ],
+         "data" : [
+            [
+               5344,
+               5,
+               3166,
+               14.8,
+               10
+            ],
+            [
+               5114,
+               5,
+               2936,
+               9.6,
+               9
+            ],
+            [
+               4960,
+               7,
+               3570,
+               17.8,
+               12
+            ],
+            [
+               4926,
+               7,
+               4265,
+               17.9,
+               15
+            ],
+            [
+               4867,
+               4,
+               2535,
+               10.4,
+               8.5
+            ],
+            [
+               4857,
+               5,
+               2800,
+               13.2,
+               10
+            ],
+            [
+               4840,
+               7,
+               4178,
+               16,
+               14
+            ],
+            [
+               4840,
+               6,
+               3250,
+               11.6,
+               8.5
+            ],
+            [
+               4827,
+               6,
+               3650,
+               16.5,
+               11
+            ],
+            [
+               4736,
+               5,
+               4070,
+               10,
+               9
+            ],
+            [
+               4714,
+               5,
+               2850,
+               15.2,
+               10
+            ],
+            [
+               4627,
+               4,
+               3050,
+               6,
+               7.5
+            ],
+            [
+               4620,
+               5,
+               4050,
+               12.6,
+               10
+            ],
+            [
+               4607,
+               5,
+               2860,
+               11.4,
+               10
+            ],
+            [
+               4606,
+               7,
+               3225,
+               17.5,
+               14
+            ],
+            [
+               4580,
+               4,
+               2400,
+               7,
+               7
+            ],
+            [
+               4515,
+               5,
+               2990,
+               13.4,
+               10
+            ],
+            [
+               4442,
+               6,
+               3762,
+               17.6,
+               13.5
+            ],
+            [
+               4427,
+               5,
+               3660,
+               15.2,
+               13
+            ],
+            [
+               4420,
+               6,
+               4500,
+               13.4,
+               11
+            ],
+            [
+               4405,
+               5,
+               2344,
+               8.4,
+               8
+            ],
+            [
+               4400,
+               5,
+               3734,
+               12.7,
+               11
+            ],
+            [
+               4400,
+               6,
+               3200,
+               13.7,
+               11
+            ],
+            [
+               4361,
+               7,
+               3490,
+               16,
+               17
+            ],
+            [
+               4360,
+               6,
+               2575,
+               14,
+               11
+            ],
+            [
+               4340,
+               7,
+               2540,
+               16.2,
+               13
+            ],
+            [
+               4240,
+               4,
+               2800,
+               9.4,
+               8
+            ],
+            [
+               4240,
+               4,
+               3020,
+               9.4,
+               7.5
+            ],
+            [
+               4185,
+               5,
+               3619,
+               12.7,
+               11
+            ],
+            [
+               4175,
+               4,
+               2825,
+               8.7,
+               8
+            ],
+            [
+               4166,
+               6,
+               2115,
+               8.8,
+               9.5
+            ],
+            [
+               4161,
+               5,
+               3394,
+               10,
+               9
+            ],
+            [
+               4140,
+               7,
+               3490,
+               17,
+               17
+            ],
+            [
+               4120,
+               6,
+               2370,
+               14,
+               11
+            ],
+            [
+               4100,
+               4,
+               2975,
+               11.8,
+               9
+            ],
+            [
+               4098,
+               2,
+               1940,
+               4.8,
+               5
+            ],
+            [
+               4060,
+               6,
+               3050,
+               11.5,
+               12
+            ],
+            [
+               4059,
+               3,
+               2700,
+               7.6,
+               5.5
+            ],
+            [
+               4057,
+               4,
+               2130,
+               10.8,
+               10
+            ],
+            [
+               4040,
+               7,
+               3490,
+               18,
+               18
+            ],
+            [
+               4020,
+               5,
+               3450,
+               10,
+               9
+            ],
+            [
+               4012,
+               6,
+               3002,
+               12.5,
+               12
+            ],
+            [
+               3960,
+               4,
+               3270,
+               13.6,
+               12
+            ],
+            [
+               3960,
+               6,
+               2160,
+               17.2,
+               12
+            ],
+            [
+               3895,
+               6,
+               1844,
+               7.5,
+               8.5
+            ],
+            [
+               3820,
+               6,
+               3140,
+               15,
+               12
+            ]
+         ]
+      },
+      "z" : {
+         "Peak" : [
+            "Mt. Marcy  ",
+            "Algonquin Peak ",
+            "Mt. Haystack ",
+            "Mt. Skylight ",
+            "Whiteface Mtn. ",
+            "Dix Mtn. ",
+            "Gray Peak ",
+            "Iroquois Peak ",
+            "Basin Mtn. ",
+            "Gothics ",
+            "Mt. Colden ",
+            "Giant Mtn. ",
+            "Nippletop ",
+            "Santanoni Peak ",
+            "Mt. Redfield ",
+            "Wright Peak ",
+            "Saddleback Mtn. ",
+            "Panther Peak ",
+            "Tabletop Mtn. ",
+            "Rocky Peak Ridge ",
+            "Macomb Mtn. ",
+            "Armstrong Mtn. ",
+            "Hough Peak ",
+            "Seward Mtn. ",
+            "Mt. Marshall ",
+            "Allen Mtn. ",
+            "Big Slide Mtn. ",
+            "Esther Mtn. ",
+            "Upper Wolfjaw ",
+            "Lower Wolfjaw ",
+            "Street Mtn. ",
+            "Phelps Mtn. ",
+            "Mt. Donaldson ",
+            "Seymour Mtn. ",
+            "Sawteeth ",
+            "Cascade Mtn. ",
+            "South Dix ",
+            "Porter Mtn. ",
+            "Mt. Colvin ",
+            "Mt. Emmons ",
+            "Dial Mtn. ",
+            "East Dix ",
+            "Blake ",
+            "Cliff Mtn. ",
+            "Nye Mtn. ",
+            "Couchsachraga Peak "
+         ]
+      }
+   }
+}

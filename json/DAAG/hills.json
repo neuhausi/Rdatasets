@@ -1,0 +1,232 @@
+{
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>hills</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Scottish Hill Races Data</h2>\n<h3>Description</h3>\n<p>The record times in 1984 (<code>hills</code>) for 35 Scottish hill races,\nor in 2000 (<code>hills2000</code>) for 56 hill races.  The <code>hills2000</code>\ndataset is the subset of <code>races2000</code> for which <code>type</code>\nis <code>hill</code>.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>  data(hills)\n  data(hills2000)\n  </code></pre>\n<h3>Format</h3>\n<dl>\n<dt>dist</dt><dd><p>distance, in miles (on the map)</p>\n</dd>\n<dt>climb</dt><dd><p>total height gained during the route, in feet</p>\n</dd>\n<dt>time</dt><dd><p>record time in hours</p>\n</dd>\n<dt>timef</dt><dd><p>record time in hours for females, in the\n<code>hills2000</code> dataset.\n</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>A.C. Atkinson (1986) Comment: Aspects of diagnostic regression\nanalysis. Statistical Science  1, 397-402.\n</p>\n<p>Also, in MASS library, with time in minutes.\n</p>\n<p>The Scottish Running Resource, http://www.hillrunning.co.uk\n</p>\n<h3>References</h3>\n<p>A.C. Atkinson (1988) Transformations unmasked. Technometrics 30,\n311-318. [ &quot;corrects&quot; the time for Knock Hill, in the <code>hills</code>\ndataset, from 78.65 to 18.65. It   \nis unclear if this based on the original records.]\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>print(\"Transformation - Example 6.4.3\")\npairs(hills, labels=c(\"dist\\n\\n(miles)\", \"climb\\n\\n(feet)\", \n\"time\\n\\n(hours)\"))\npause()\npairs(log(hills), labels=c(\"dist\\n\\n(log(miles))\", \"climb\\n\\n(log(feet))\",\n  \"time\\n\\n(log(hours))\"))\npause()\nhills0.loglm &lt;- lm(log(time) ~ log(dist) + log(climb), data = hills)  \noldpar &lt;- par(mfrow=c(2,2))\nplot(hills0.loglm)\npause()\nhills.loglm &lt;- lm(log(time) ~ log(dist) + log(climb), data = hills[-18,])\nsummary(hills.loglm) \nplot(hills.loglm)\npause()\nhills2.loglm &lt;- lm(log(time) ~ log(dist)+log(climb)+log(dist):log(climb), \ndata=hills[-18,])\nanova(hills.loglm, hills2.loglm)\npause()\nstep(hills2.loglm)\npause()\nsummary(hills.loglm, corr=TRUE)$coef\npause()\nsummary(hills2.loglm, corr=TRUE)$coef\npar(oldpar)\npause()\nprint(\"Nonlinear - Example 6.9.4\")\nhills.nls0 &lt;- nls(time ~ (dist^alpha)*(climb^beta), start =\n   c(alpha = .909, beta = .260), data = hills[-18,])\nsummary(hills.nls0)\nplot(residuals(hills.nls0) ~ predict(hills.nls0)) # residual plot\npause()\nhills$climb.mi &lt;- hills$climb/5280\nhills.nls &lt;- nls(time ~ alpha + beta*dist + gamma*(climb.mi^delta),\n  start=c(alpha = 1, beta = 1, gamma = 1, delta = 1), data=hills[-18,])\nsummary(hills.nls)\nplot(residuals(hills.nls) ~ predict(hills.nls)) # residual plot\n</code></pre>\n</main>\n</div>\n",
+   "data" : {
+      "y" : {
+         "vars" : [
+            "Greenmantle",
+            "Carnethy",
+            "Craig Dunain",
+            "Ben Rha",
+            "Ben Lomond",
+            "Goatfell",
+            "Bens of Jura",
+            "Cairnpapple",
+            "Scolty",
+            "Traprain",
+            "Lairig Ghru",
+            "Dollar",
+            "Lomonds",
+            "Cairn Table",
+            "Eildon Two",
+            "Cairngorm",
+            "Seven Hills",
+            "Knock Hill",
+            "Black Hill",
+            "Creag Beag",
+            "Kildcon Hill",
+            "Meall Ant-Suidhe",
+            "Half Ben Nevis",
+            "Cow Hill",
+            "N Berwick Law",
+            "Creag Dubh",
+            "Burnswark",
+            "Largo Law",
+            "Criffel",
+            "Acmony",
+            "Ben Nevis",
+            "Knockfarrel",
+            "Two Breweries",
+            "Cockleroi",
+            "Moffat Chase"
+         ],
+         "data" : [
+            [
+               2.4,
+               650,
+               0.268055555555556
+            ],
+            [
+               6,
+               2500,
+               0.805833333333333
+            ],
+            [
+               6,
+               900,
+               0.560833333333333
+            ],
+            [
+               7.5,
+               800,
+               0.76
+            ],
+            [
+               8,
+               3070,
+               1.03777777777778
+            ],
+            [
+               8,
+               2866,
+               1.22027777777778
+            ],
+            [
+               16,
+               7500,
+               3.41027777777778
+            ],
+            [
+               6,
+               800,
+               0.606111111111111
+            ],
+            [
+               5,
+               800,
+               0.495833333333333
+            ],
+            [
+               6,
+               650,
+               0.6625
+            ],
+            [
+               28,
+               2100,
+               3.21111111111111
+            ],
+            [
+               5,
+               2000,
+               0.7175
+            ],
+            [
+               9.5,
+               2200,
+               1.08333333333333
+            ],
+            [
+               6,
+               500,
+               0.735555555555556
+            ],
+            [
+               4.5,
+               1500,
+               0.448888888888889
+            ],
+            [
+               10,
+               3000,
+               1.20416666666667
+            ],
+            [
+               14,
+               2200,
+               1.64027777777778
+            ],
+            [
+               3,
+               350,
+               1.31083333333333
+            ],
+            [
+               4.5,
+               1000,
+               0.290277777777778
+            ],
+            [
+               5.5,
+               600,
+               0.542777777777778
+            ],
+            [
+               3,
+               300,
+               0.265833333333333
+            ],
+            [
+               3.5,
+               1500,
+               0.465
+            ],
+            [
+               6,
+               2200,
+               0.794166666666667
+            ],
+            [
+               2,
+               900,
+               0.298888888888889
+            ],
+            [
+               3,
+               600,
+               0.311388888888889
+            ],
+            [
+               4,
+               2000,
+               0.436944444444444
+            ],
+            [
+               6,
+               800,
+               0.573888888888889
+            ],
+            [
+               5,
+               950,
+               0.476111111111111
+            ],
+            [
+               6.5,
+               1750,
+               0.841666666666667
+            ],
+            [
+               5,
+               500,
+               0.349166666666667
+            ],
+            [
+               10,
+               4400,
+               1.42638888888889
+            ],
+            [
+               6,
+               600,
+               0.539722222222222
+            ],
+            [
+               18,
+               5200,
+               2.8375
+            ],
+            [
+               4.5,
+               850,
+               0.468333333333333
+            ],
+            [
+               20,
+               5000,
+               2.66388888888889
+            ]
+         ],
+         "smps" : [
+            "dist",
+            "climb",
+            "time"
+         ]
+      }
+   },
+   "config" : {
+      "colorBy" : null,
+      "title" : "Scottish Hill Races Data",
+      "subtitle" : "DAAG - hills",
+      "graphType" : "Scatter3D"
+   }
+}

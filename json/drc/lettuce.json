@@ -1,0 +1,90 @@
+{
+   "config" : {
+      "title" : "Hormesis in lettuce plants",
+      "graphType" : "Scatter2D",
+      "subtitle" : "drc - lettuce"
+   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>lettuce</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Hormesis in lettuce plants</h2>\n<h3>Description</h3>\n<p>Data are from an experiment where isobutylalcohol was dissolved in a nutrient solution in which lettuce\n(<em>Lactuca sativa</em>) plants were grown. The plant biomass of the shoot was determined af 21 days.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(lettuce)</code></pre>\n<h3>Format</h3>\n<p>A data frame with 14 observations on the following 2 variables.\n</p>\n<dl>\n<dt>conc</dt><dd><p>a numeric vector of concentrations of isobutylalcohol (mg/l)</p>\n</dd>\n<dt>weight</dt><dd><p>a numeric vector of biomass of shoot (g)</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>The data set illustrates hormesis, presence of a subtoxic stimulus at low concentrations.\n</p>\n<h3>Source</h3>\n<p>van Ewijk, P. H. and Hoekstra, J. A. (1993) \nCalculation of the EC50 and its Confidence Interval When Subtoxic Stimulus Is Present,\n<em>ECOTOXICOLOGY AND ENVIRONMENTAL SAFETY</em>, <b>25</b>, 25&ndash;32.\n</p>\n<h3>References</h3>\n<p>van Ewijk, P. H. and Hoekstra, J. A. (1994) \nCurvature Measures and Confidence Intervals for the Linear Logistic Model,\n<em>Appl. Statist.</em>, <b>43</b>, 477&ndash;487.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>\n## Look at data\nlettuce\n## Monotonous dose-response model\nlettuce.m1 &lt;- drm(weight~conc, data=lettuce, fct=LL.3())\nplot(lettuce.m1, broken = TRUE)\n## Model fit in van Ewijk and Hoekstra (1994)\nlettuce.m2 &lt;- drm(weight~conc, data=lettuce, fct=BC.4())\nmodelFit(lettuce.m2)\nplot(lettuce.m2, add = TRUE, broken = TRUE, type = \"none\", lty = 2)\n## Hormesis effect only slightly significant\nsummary(lettuce.m2)\n## Hormesis effect highly significant\n##  compare with t-test for the \"f\" parameter in the summary output)\nanova(lettuce.m1, lettuce.m2)\n</code></pre>\n</main>\n</div>\n",
+   "data" : {
+      "y" : {
+         "vars" : [
+            "Var1",
+            "Var2",
+            "Var3",
+            "Var4",
+            "Var5",
+            "Var6",
+            "Var7",
+            "Var8",
+            "Var9",
+            "Var10",
+            "Var11",
+            "Var12",
+            "Var13",
+            "Var14"
+         ],
+         "smps" : [
+            "conc",
+            "weight"
+         ],
+         "data" : [
+            [
+               0,
+               1.126
+            ],
+            [
+               0,
+               0.833
+            ],
+            [
+               0.32,
+               1.096
+            ],
+            [
+               0.32,
+               1.106
+            ],
+            [
+               1,
+               1.163
+            ],
+            [
+               1,
+               1.336
+            ],
+            [
+               3.2,
+               0.985
+            ],
+            [
+               3.2,
+               0.754
+            ],
+            [
+               10,
+               0.716
+            ],
+            [
+               10,
+               0.683
+            ],
+            [
+               32,
+               0.56
+            ],
+            [
+               32,
+               0.488
+            ],
+            [
+               100,
+               0.375
+            ],
+            [
+               100,
+               0.344
+            ]
+         ]
+      }
+   }
+}

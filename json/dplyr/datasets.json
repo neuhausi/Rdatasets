@@ -1,0 +1,22 @@
+[
+   [
+      "band_instruments",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/dplyr/band_instruments.json"
+   ],
+   [
+      "band_instruments2",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/dplyr/band_instruments2.json"
+   ],
+   [
+      "band_members",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/dplyr/band_members.json"
+   ],
+   [
+      "starwars",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/dplyr/starwars.json"
+   ],
+   [
+      "storms",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/dplyr/storms.json"
+   ]
+]

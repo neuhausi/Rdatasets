@@ -1,0 +1,172 @@
+{
+   "config" : {
+      "title" : "Alcohol consumption in Australia and New Zealand",
+      "colorBy" : "Country",
+      "graphType" : "Scatter2D",
+      "subtitle" : "DAAG - grog",
+      "scatterPlotMatrix" : 1
+   },
+   "data" : {
+      "y" : {
+         "data" : [
+            [
+               5.24,
+               2.86,
+               1.81,
+               1998
+            ],
+            [
+               5.15,
+               2.87,
+               1.77,
+               1999
+            ],
+            [
+               5.06,
+               2.94,
+               1.88,
+               2000
+            ],
+            [
+               5.07,
+               2.95,
+               2.07,
+               2001
+            ],
+            [
+               4.8,
+               2.91,
+               1.81,
+               2002
+            ],
+            [
+               4.97,
+               3.01,
+               1.86,
+               2003
+            ],
+            [
+               4.68,
+               3.07,
+               2.06,
+               2004
+            ],
+            [
+               4.58,
+               3.13,
+               2.12,
+               2005
+            ],
+            [
+               4.57,
+               3.11,
+               2.15,
+               2006
+            ],
+            [
+               4.49995484047518,
+               2.59259649909302,
+               1.7714486604318,
+               1998
+            ],
+            [
+               4.28379433107245,
+               2.65169387971947,
+               1.64051178920809,
+               1999
+            ],
+            [
+               4.38780862118929,
+               2.74667996149141,
+               1.80251141731929,
+               2000
+            ],
+            [
+               4.25076364384841,
+               2.62968684202698,
+               2.04354951412461,
+               2001
+            ],
+            [
+               4.23134594904052,
+               2.77336529499246,
+               1.88528875596702,
+               2002
+            ],
+            [
+               4.21786562098825,
+               2.87833204197447,
+               2.04480233703727,
+               2003
+            ],
+            [
+               4.1996066148245,
+               2.87904802569341,
+               2.00834535948209,
+               2004
+            ],
+            [
+               4.1623257976577,
+               2.99934081900903,
+               2.22233338333326,
+               2005
+            ],
+            [
+               3.9594093294588,
+               3.08942254209033,
+               2.20116812845087,
+               2006
+            ]
+         ],
+         "smps" : [
+            "Beer",
+            "Wine",
+            "Spirit",
+            "Year"
+         ],
+         "vars" : [
+            "Var1",
+            "Var2",
+            "Var3",
+            "Var4",
+            "Var5",
+            "Var6",
+            "Var7",
+            "Var8",
+            "Var9",
+            "Var10",
+            "Var11",
+            "Var12",
+            "Var13",
+            "Var14",
+            "Var15",
+            "Var16",
+            "Var17",
+            "Var18"
+         ]
+      },
+      "z" : {
+         "Country" : [
+            "Australia",
+            "Australia",
+            "Australia",
+            "Australia",
+            "Australia",
+            "Australia",
+            "Australia",
+            "Australia",
+            "Australia",
+            "NewZealand",
+            "NewZealand",
+            "NewZealand",
+            "NewZealand",
+            "NewZealand",
+            "NewZealand",
+            "NewZealand",
+            "NewZealand",
+            "NewZealand"
+         ]
+      }
+   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>grog</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Alcohol consumption in Australia and New Zealand</h2>\n<h3>Description</h3>\n<p>Data are annual apparent alcohol consumption in  Australia and New\nZealand, in liters of pure alcohol content per annum, separately for\nbeer, wine, and spirits (including spirit-based products).\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(grog)</code></pre>\n<h3>Format</h3>\n<p>A data frame with 18 observations on the following 5 variables.\n</p>\n<dl>\n<dt><code>Beer</code></dt><dd><p>liters per annum</p>\n</dd>\n<dt><code>Wine</code></dt><dd><p>liters per annum</p>\n</dd>\n<dt><code>Spirit</code></dt><dd><p>liters per annum</p>\n</dd>\n<dt><code>Country</code></dt><dd><p>a factor with levels <code>Australia</code>\n<code>NewZealand</code></p>\n</dd>\n<dt><code>Year</code></dt><dd><p>Year ending in June of the given year</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>Data are total available pure alcohol content, for the three\ncategories, divided by numbers of persons aged 15 years or more.  The\nsource data for New Zealand included quarterly figures from December\n1997, and annual data to December for all years.  The annual New\nZealand figure to June 1998 required an estimate for September\n1997 that was obtained by extrapolating back the third quarter trend\nline from later years.\n</p>\n<h3>Source</h3>\n<p>Australian data are from <a href=\"https://www.abs.gov.au\">https://www.abs.gov.au</a>.\nFor the most recent data, go to\n<a href=\"https://www.abs.gov.au/statistics/health/health-conditions-and-risks/apparent-consumption-alcohol-australia\">https://www.abs.gov.au/statistics/health/health-conditions-and-risks/apparent-consumption-alcohol-australia</a>\nFor New Zealand data, go to\n<a href=\"https://infoshare.stats.govt.nz/\">https://infoshare.stats.govt.nz/</a> Click on 'Industry sectors'\nand then on 'Alcohol Available for Consumption - ALC'.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>data(grog)\nlibrary(lattice)\nxyplot(Beer+Wine+Spirit ~ Year | Country, data=grog)\nxyplot(Beer+Wine+Spirit ~ Year, groups=Country, data=grog, outer=TRUE)\n</code></pre>\n</main>\n</div>\n"
+}

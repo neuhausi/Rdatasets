@@ -1,0 +1,94 @@
+{
+   "config" : {
+      "subtitle" : "Stat2Data - Alfalfa",
+      "segregateSamplesBy" : [
+         "Row"
+      ],
+      "graphType" : "Boxplot",
+      "colorBy" : "variable",
+      "groupingFactors" : [
+         "Acid"
+      ],
+      "title" : "Alfalfa Growth"
+   },
+   "data" : {
+      "y" : {
+         "smps" : [
+            "Smp1",
+            "Smp2",
+            "Smp3",
+            "Smp4",
+            "Smp5",
+            "Smp6",
+            "Smp7",
+            "Smp8",
+            "Smp9",
+            "Smp10",
+            "Smp11",
+            "Smp12",
+            "Smp13",
+            "Smp14",
+            "Smp15"
+         ],
+         "data" : [
+            [
+               1.45,
+               2.79,
+               1.93,
+               2.33,
+               4.85,
+               1,
+               0.7,
+               1.37,
+               2.8,
+               1.46,
+               1.03,
+               1.22,
+               0.45,
+               1.65,
+               1.07
+            ]
+         ],
+         "vars" : [
+            "Ht4"
+         ]
+      },
+      "x" : {
+         "Acid" : [
+            "water",
+            "water",
+            "water",
+            "water",
+            "water",
+            "1.5HCl",
+            "1.5HCl",
+            "1.5HCl",
+            "1.5HCl",
+            "1.5HCl",
+            "3.0HCl",
+            "3.0HCl",
+            "3.0HCl",
+            "3.0HCl",
+            "3.0HCl"
+         ],
+         "Row" : [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "a",
+            "b",
+            "c",
+            "d",
+            "e"
+         ]
+      }
+   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>Alfalfa</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>\nAlfalfa Growth\n</h2>\n<h3>Description</h3>\n<p>Growth of alfalfa sprouts in acidic conditions\n</p>\n<h3>Format</h3>\n<p>A dataset with 15 observations on the following 3 variables.\n</p>\n<table>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Ht4</code> </td><td style=\"text-align: left;\"> Height of alfalfa sprouts after four days</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Acid</code> </td><td style=\"text-align: left;\"> Amount of acid: <code>1.5HCl</code>, <code>3.0HCl</code>, or <code>water</code></td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Row</code> </td><td style=\"text-align: left;\"> <code>a</code> through <code>e</code> with <code>a</code>= closest to window and  <code>e</code>=farthest from window</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n  </td>\n</tr>\n</table>\n<h3>Details</h3>\n<p>Some students were interested in how an acidic environment might affect\nthe growth of plants. They planted alfalfa seeds in 15 cups and randomly chose five to get plain\nwater, five to get a moderate amount of acid (1.5M HCl), and five to get a stronger acid solution\n(3.0M HCl). The plants were grown in an indoor room so the students assumed that the distance\nfrom the main source of daylight (windows) might have an affect on growth rates. For this reason,\nthey arranged the cups in five rows of three with one cup from each Acid level in each row. These\nare labeled in the data set as Row: a=farthest from the window through e=nearest to the window.\n</p>\n<h3>Source</h3>\n<p>Neumann, A., Richards, A. L., and Randa, J. (2001).\nEffects of acid rain on alfalfa plants. Unpublished manuscript, Oberlin College.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>data(Alfalfa)\n</code></pre>\n</main>\n</div>\n"
+}

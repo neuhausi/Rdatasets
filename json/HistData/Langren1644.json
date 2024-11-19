@@ -1,0 +1,182 @@
+{
+   "config" : {
+      "scatterPlotMatrix" : 1,
+      "subtitle" : "HistData - Langren1644",
+      "graphType" : "Scatter2D",
+      "shapeBy" : "Name",
+      "sizeBy" : "Country",
+      "colorBy" : "Longname",
+      "title" : "van Langren's Data on Longitude Distance between Toledo and Rome"
+   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>Langren</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>\nvan Langren's Data on Longitude Distance between Toledo and Rome\n</h2>\n<h3>Description</h3>\n<p>Michael Florent van Langren (1598-1675) was a Dutch mathematician and astronomer, who served\nas a royal mathematician to King Phillip IV of Spain, and who worked on one of the most significant\nproblems of his time&mdash; the accurate determination of longitude, particularly for navigation at sea.\n</p>\n<p>In order to convince the Spanish court of the seriousness of the problem (often resulting in\ngreat losses through ship wrecks), he prepared a 1-dimensional line graph, showing all the \navailable estimates of the distance in longitude between Toledo and Rome, which showed\nlarge errors, for even this modest distance.  This 1D line graph, from Langren (1644), is believed\nto be the first known graph of statistical data (Friendly etal., 2010).\nIt provides a compelling example of the notions of statistical variability and bias.\n</p>\n<p>The data frame <code>Langren1644</code> gives the estimates and other information derived from the\npreviously known 1644 graph.  \nIt turns out that van Langren produced other versions of this graph, as early as 1628.\nThe data frame <code>Langren.all</code> gives the estimates derived\nfrom all known versions of this graph.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>\tdata(Langren1644)\n\tdata(Langren.all)\n\t</code></pre>\n<h3>Format</h3>\n<p><code>Langren1644</code>: A data frame with 12 observations on the following 9 variables,\ngiving determinations of the distance in longitude between Toledo and Rome, from the 1644 graph.\n</p>\n<dl>\n<dt><code>Name</code></dt><dd><p>The name of the person giving a determination, a factor with levels <code>A. Argelius</code> ... <code>T. Brahe</code></p>\n</dd>\n<dt><code>Longitude</code></dt><dd><p>Estimated value of the longitude distance between Toledo and Rome</p>\n</dd>\n<dt><code>Year</code></dt><dd><p>Year associated with this determination</p>\n</dd>\n<dt><code>Longname</code></dt><dd><p>A longer version of the <code>Name</code>, where appropriate; a factor with levels <code>Andrea Argoli</code> <code>Christoph Clavius</code>  <code>Tycho Brahe</code></p>\n</dd>\n<dt><code>City</code></dt><dd><p>The principal city where this person worked; a factor with levels <code>Alexandria</code> <code>Amsterdam</code> <code>Bamberg</code> <code>Bologna</code> <code>Frankfurt</code> <code>Hven</code> <code>Leuven</code> <code>Middelburg</code> <code>Nuremberg</code> <code>Padua</code> <code>Paris</code> <code>Rome</code></p>\n</dd>\n<dt><code>Country</code></dt><dd><p>The country where this person worked; a factor with levels <code>Belgium</code> <code>Denmark</code> <code>Egypt</code> <code>Flanders</code> <code>France</code> <code>Germany</code> <code>Italy</code> <code>Italy </code></p>\n</dd>\n<dt><code>Latitude</code></dt><dd><p>Latitude of this <code>City</code>; a numeric vector</p>\n</dd>\n<dt><code>Source</code></dt><dd><p>Likely source for this determination of Longitude; a factor with levels <code>Astron</code> <code>Map</code></p>\n</dd>\n<dt><code>Gap</code></dt><dd><p>A numeric vector indicating whether the <code>Longitude</code> value is below or above the median</p>\n</dd>\n</dl>\n<p><code>Langren.all</code>: A data frame with 61 observations on the following 4 variables,\ngiving determinations of Longitude between Toledo and Rome from all known versions of van Langren's graph.\n</p>\n<dl>\n<dt><code>Author</code></dt><dd><p>Author of the graph, a factor with levels <code>Langren</code> <code>Lelewel</code></p>\n</dd>\n<dt><code>Year</code></dt><dd><p>Year of publication</p>\n</dd>\n<dt><code>Name</code></dt><dd><p>The name of the  person giving a determination,  a factor\nwith levels  <code>Algunos1</code> <code>Algunos2</code>  <code>Apianus</code> ... <code>Schonerus</code></p>\n</dd>\n<dt><code>Longitude</code></dt><dd><p>Estimated value of the longitude distance between Toledo and Rome</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>In all the graphs, Toledo is implicitly at the origin and Rome is located relatively at the value of <code>Longitude</code>  \nTo judge correspondence with an actual map, the positions in (lat, long) are\n</p>\n<p><code>\n\ttoledo &lt;- c(39.86, -4.03);\n\trome   &lt;- c(41.89, 12.5)\n</code>\n</p>\n<h3>Source</h3>\n<p>The longitude values were digitized from images of the various graphs, which may be\nfound on the Supplementary materials page for Friendly etal. (2009).\n</p>\n<h3>References</h3>\n<p>Friendly, M., Valero-Mora, P. and Ulargui, J. I. (2010).\nThe First (Known) Statistical Graph: Michael Florent van Langren and the &quot;Secret&quot; of Longitude.\n<em>The American Statistician</em>, <b>64</b> (2), 185-191. \nSupplementary materials: <a href=\"http://datavis.ca/gallery/langren/\">http://datavis.ca/gallery/langren/</a>. \n</p>\n<p>Langren, M. F. van. (1644).  <em>La Verdadera Longitud por Mar y Tierra</em>. Antwerp: (n.p.), 1644.\nEnglish translation available at <a href=\"http://datavis.ca/gallery/langren/verdadera.pdf\">http://datavis.ca/gallery/langren/verdadera.pdf</a>.\n</p>\n<p>Lelewel, J. (1851). <em>Geographie du Moyen Age</em>. Paris: Pilliet, 1851.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>data(Langren1644)\n# reproductions of Langren's graph overlaid on a map\nif (require(jpeg, quietly=TRUE)) {\n  gimage &lt;- readJPEG(system.file(\"images\", \"google-toledo-rome3.jpg\", package=\"HistData\"))\n  # NB: dimensions from readJPEG are y, x, colors\n  gdim &lt;- dim(gimage)[1:2]\n  ylim &lt;- c(1,gdim[1])\n  xlim &lt;- c(1,gdim[2])\n  op &lt;- par(bty=\"n\", xaxt=\"n\", yaxt=\"n\", mar=c(2, 1, 1, 1) + 0.1)\n  # NB: necessary to scale the plot to the pixel coordinates, and use asp=1\n  plot(xlim, ylim, xlim=xlim, ylim=ylim, type=\"n\", ann=FALSE, asp=1 )\n  rasterImage(gimage, 1, 1, gdim[2], gdim[1])\n  # pixel coordinates of Toledo and Rome in the image, measured from the bottom left corner\n  toledo.map &lt;- c(131, 59)\n  rome.map &lt;- c(506, 119)\n  # confirm locations of Toledo and Rome\n  points(rbind(toledo.map, rome.map), cex=2)\n  text(131, 95, \"Toledo\", cex=1.5)\n  text(506, 104, \"Roma\", cex=1.5)\n  # set a scale for translation of lat,long to pixel x,y\n  scale &lt;- data.frame(x=c(131, 856), y=c(52,52))\n  rownames(scale)=c(0,30)\n  # translate from degrees longitude to pixels\n  xlate &lt;- function(x) {\n    131+x*726/30\t\n  # draw an axis\n  lines(scale)\n  ticks &lt;- xlate(seq(0,30,5))\n  segments(ticks, 52, ticks, 45)\n  text(ticks, 40, seq(0,30,5))\n  text(xlate(8), 17, \"Grados de la Longitud\", cex=1.7)\n  # label the observations with the names\n  points(x=xlate(Langren1644$Longitude), y=rep(57, nrow(Langren1644)), \n         pch=25, col=\"blue\", bg=\"blue\")\n  text(x=xlate(Langren1644$Longitude), y=rep(57, nrow(Langren1644)), \n       labels=Langren1644$Name, srt=90, adj=c(-.1, .5), cex=0.8)\n  par(op)\n### Original implementation using ReadImages, now deprecated &amp; shortly to be removed\n## Not run: \nif (require(ReadImages)) {\n  gimage &lt;- read.jpeg(system.file(\"images\", \"google-toledo-rome3.jpg\", package=\"HistData\"))\n  plot(gimage)\n  # pixel coordinates of Toledo and Rome in the image, measured from the bottom left corner\n  toledo.map &lt;- c(130, 59)\n  rome.map &lt;- c(505, 119)\n  # confirm locations of Toledo and Rome\n  points(rbind(toledo.map, rome.map), cex=2)\n  # set a scale for translation of lat,long to pixel x,y\n  scale &lt;- data.frame(x=c(130, 856), y=c(52,52))\n  rownames(scale)=c(0,30)\n  lines(scale)\n  xlate &lt;- function(x) {\n    130+x*726/30\t\n  points(x=xlate(Langren1644$Longitude), y=rep(57, nrow(Langren1644)), \n         pch=25, col=\"blue\")\n  text(x=xlate(Langren1644$Longitude), y=rep(57, nrow(Langren1644)), \n         labels=Langren1644$Name, srt=90, adj=c(0, 0.5), cex=0.8)\n## End(Not run)\n### First attempt using ggplot2; temporarily abandonned.\n## Not run: \nrequire(maps)\nrequire(ggplot2)\nrequire(reshape)\nrequire(plyr)\nrequire(scales)\n# set latitude to that of Toledo\nLangren1644$Latitude &lt;- 39.68\n#          x/long   y/lat\nbbox &lt;- c( 38.186, -9.184,\n           43.692, 28.674 )\nbbox &lt;- matrix(bbox, 2, 2, byrow=TRUE)\nborders &lt;- as.data.frame(map(\"world\", plot = FALSE,\n  xlim = expand_range(bbox[,2], 0.2),\n  ylim = expand_range(bbox[,1], 0.2))[c(\"x\", \"y\")])\ndata(world.cities)\n# get actual locations of Toledo &amp; Rome\ncities &lt;- subset(world.cities,\n  name %in% c(\"Rome\", \"Toledo\") &amp; country.etc %in% c(\"Spain\", \"Italy\"))\ncolnames(cities)[4:5]&lt;-c(\"Latitude\", \"Longitude\")\nmplot &lt;- ggplot(Langren1644, aes(Longitude, Latitude) ) +\n  geom_path(aes(x, y), borders, colour = \"grey60\") +\n  geom_point(y = 40) +\n  geom_text(aes(label = Name), y = 40.1, angle = 90, hjust = 0, size = 3)\nmplot &lt;- mplot +\n\tgeom_segment(aes(x=-4.03, y=40, xend=30, yend=40))\nmplot &lt;- mplot +\n  geom_point(data = cities, colour = \"red\", size = 2) +\n  geom_text(data=cities, aes(label=name), color=\"red\", size=3, vjust=-0.5) +\n  coord_cartesian(xlim=bbox[,2], ylim=bbox[,1])\n# make the plot have approximately aspect ratio = 1\nwindows(width=10, height=2)\nmplot\n## End(Not run)\n# show variation in estimates across graphs\nlibrary(lattice)\ngraph &lt;- paste(Langren.all$Author, Langren.all$Year)\ndotplot(Name ~ Longitude, data=Langren.all)\ndotplot( as.factor(Year) ~ Longitude, data=Langren.all, groups=Name, type=\"o\")\ndotplot(Name ~ Longitude|graph, data=Langren.all, groups=graph)\n# why the gap?\ngap.mod &lt;- glm(Gap ~ Year + Source + Latitude, family=binomial, data=Langren1644)\nanova(gap.mod, test=\"Chisq\")\n</code></pre>\n</main>\n</div>\n",
+   "data" : {
+      "z" : {
+         "Longname" : [
+            "Jan Jansson",
+            "Gerardus Mercator",
+            "Johann Schoner",
+            "Phillip van Lansberge",
+            "Tycho Brahe",
+            "Johann Muller",
+            "Oronce Fine",
+            "Christoph Clavius",
+            "Claudius Ptolemaeus",
+            "Andrea Argoli",
+            "Giovanni Antonio Magini",
+            "David Origanus"
+         ],
+         "Name" : [
+            "G. Jansonius",
+            "G. Mercator",
+            "I. Schonerus",
+            "P. Lantsbergius",
+            "T. Brahe",
+            "I. Regiomontanus",
+            "Orontius",
+            "C. Clavius",
+            "C. Ptolomeus",
+            "A. Argelius",
+            "A. Maginus",
+            "D. Origanus"
+         ],
+         "Country" : [
+            "Flanders",
+            "Flanders",
+            "Germany",
+            "Belgium",
+            "Denmark",
+            "Germany",
+            "France",
+            "Italy",
+            "Egypt",
+            "Italy ",
+            "Italy",
+            "Germany"
+         ],
+         "Source" : [
+            "Map",
+            "Map",
+            "Astron",
+            "Astron",
+            "Astron",
+            "Astron",
+            "Astron",
+            "Astron",
+            "Astron",
+            "Astron",
+            "Astron",
+            "Astron"
+         ],
+         "City" : [
+            "Amsterdam",
+            "Leuven",
+            "Bamberg",
+            "Middelburg",
+            "Hven",
+            "Nuremberg",
+            "Paris",
+            "Rome",
+            "Alexandria",
+            "Padua",
+            "Bologna",
+            "Frankfurt"
+         ]
+      },
+      "y" : {
+         "smps" : [
+            "Longitude",
+            "Year",
+            "Latitude",
+            "Gap"
+         ],
+         "data" : [
+            [
+               17.736,
+               1605,
+               52.373056,
+               0
+            ],
+            [
+               19.872,
+               1567,
+               50.883333,
+               0
+            ],
+            [
+               20.638,
+               1536,
+               49.891667,
+               0
+            ],
+            [
+               21.106,
+               1530,
+               51.5,
+               0
+            ],
+            [
+               21.447,
+               1578,
+               55.866667,
+               0
+            ],
+            [
+               25.617,
+               1463,
+               49.45,
+               1
+            ],
+            [
+               26,
+               1542,
+               48.866667,
+               1
+            ],
+            [
+               26.34,
+               1567,
+               41.9,
+               1
+            ],
+            [
+               27.787,
+               150,
+               31.1980556,
+               1
+            ],
+            [
+               28.17,
+               1610,
+               45.4166667,
+               1
+            ],
+            [
+               29.787,
+               1582,
+               44.4833333,
+               1
+            ],
+            [
+               30.128,
+               1601,
+               52.3471,
+               1
+            ]
+         ],
+         "vars" : [
+            "Var1",
+            "Var2",
+            "Var3",
+            "Var4",
+            "Var5",
+            "Var6",
+            "Var7",
+            "Var8",
+            "Var9",
+            "Var10",
+            "Var11",
+            "Var12"
+         ]
+      }
+   }
+}

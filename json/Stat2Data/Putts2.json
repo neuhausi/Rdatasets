@@ -1,0 +1,58 @@
+{
+   "data" : {
+      "y" : {
+         "data" : [
+            [
+               3,
+               84,
+               17,
+               101
+            ],
+            [
+               4,
+               88,
+               31,
+               119
+            ],
+            [
+               5,
+               61,
+               47,
+               108
+            ],
+            [
+               6,
+               61,
+               64,
+               125
+            ],
+            [
+               7,
+               44,
+               90,
+               134
+            ]
+         ],
+         "smps" : [
+            "Length",
+            "Made",
+            "Missed",
+            "Trials"
+         ],
+         "vars" : [
+            "Var1",
+            "Var2",
+            "Var3",
+            "Var4",
+            "Var5"
+         ]
+      }
+   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>Putts2</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Putting Success by Length (Short Form)</h2>\n<h3>Description</h3>\n<p>Putting results for a golfing statistician (by length of the putts)\n</p>\n<h3>Format</h3>\n<p>A dataset with 5 observations on the following 4 variables.\n</p>\n<table>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Length</code> </td><td style=\"text-align: left;\"> Length of the attempted putt (in feet)</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Made</code> </td><td style=\"text-align: left;\"> Number of putts made at this length</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Missed</code> </td><td style=\"text-align: left;\"> Number of putts missed at this length</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Trials</code> </td><td style=\"text-align: left;\"> Total number of putts attempted at this length</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n  </td>\n</tr>\n</table>\n<h3>Details</h3>\n<p>A statistician golfer kept careful records of every putt he attempted when playing golf,\nrecording the length of the putt and whether or not he was successful in making the putt.\nFor each different length, this dataset records the number of putts made, missed, and the total number\nof attempts from that length. A similar dataset, Putts1, has one case for each of the 587 attempted putts,\nshowing the length and outcome.\n</p>\n<h3>Source</h3>\n<p>Personal observations by one of the Stat2 authors\n</p>\n</main>\n</div>\n",
+   "config" : {
+      "graphType" : "Scatter2D",
+      "scatterPlotMatrix" : 1,
+      "subtitle" : "Stat2Data - Putts2",
+      "title" : "Putting Success by Length (Short Form)"
+   }
+}

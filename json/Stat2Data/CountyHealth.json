@@ -1,0 +1,397 @@
+{
+   "data" : {
+      "y" : {
+         "vars" : [
+            "Var1",
+            "Var2",
+            "Var3",
+            "Var4",
+            "Var5",
+            "Var6",
+            "Var7",
+            "Var8",
+            "Var9",
+            "Var10",
+            "Var11",
+            "Var12",
+            "Var13",
+            "Var14",
+            "Var15",
+            "Var16",
+            "Var17",
+            "Var18",
+            "Var19",
+            "Var20",
+            "Var21",
+            "Var22",
+            "Var23",
+            "Var24",
+            "Var25",
+            "Var26",
+            "Var27",
+            "Var28",
+            "Var29",
+            "Var30",
+            "Var31",
+            "Var32",
+            "Var33",
+            "Var34",
+            "Var35",
+            "Var36",
+            "Var37",
+            "Var38",
+            "Var39",
+            "Var40",
+            "Var41",
+            "Var42",
+            "Var43",
+            "Var44",
+            "Var45",
+            "Var46",
+            "Var47",
+            "Var48",
+            "Var49",
+            "Var50",
+            "Var51",
+            "Var52",
+            "Var53"
+         ],
+         "data" : [
+            [
+               351,
+               3,
+               605
+            ],
+            [
+               95,
+               2,
+               134
+            ],
+            [
+               260,
+               2,
+               567
+            ],
+            [
+               2797,
+               11,
+               1435
+            ],
+            [
+               769,
+               5,
+               976
+            ],
+            [
+               42,
+               2,
+               245
+            ],
+            [
+               13,
+               2,
+               33
+            ],
+            [
+               20,
+               2,
+               65
+            ],
+            [
+               2981,
+               7,
+               1462
+            ],
+            [
+               83,
+               3,
+               100
+            ],
+            [
+               56,
+               2,
+               179
+            ],
+            [
+               37,
+               2,
+               42
+            ],
+            [
+               320,
+               2,
+               350
+            ],
+            [
+               224,
+               2,
+               202
+            ],
+            [
+               1339,
+               8,
+               1675
+            ],
+            [
+               44,
+               2,
+               109
+            ],
+            [
+               973,
+               3,
+               1280
+            ],
+            [
+               3686,
+               6,
+               1715
+            ],
+            [
+               4485,
+               12,
+               3351
+            ],
+            [
+               383,
+               5,
+               474
+            ],
+            [
+               5338,
+               9,
+               3261
+            ],
+            [
+               51,
+               2,
+               106
+            ],
+            [
+               81,
+               3,
+               96
+            ],
+            [
+               379,
+               2,
+               295
+            ],
+            [
+               1752,
+               5,
+               1887
+            ],
+            [
+               39,
+               2,
+               82
+            ],
+            [
+               453,
+               2,
+               805
+            ],
+            [
+               159,
+               2,
+               112
+            ],
+            [
+               101,
+               2,
+               163
+            ],
+            [
+               217,
+               3,
+               550
+            ],
+            [
+               176,
+               4,
+               537
+            ],
+            [
+               2459,
+               6,
+               1463
+            ],
+            [
+               25,
+               2,
+               151
+            ],
+            [
+               11,
+               2,
+               44
+            ],
+            [
+               8908,
+               13,
+               5034
+            ],
+            [
+               4497,
+               10,
+               2707
+            ],
+            [
+               1108,
+               4,
+               1079
+            ],
+            [
+               502,
+               3,
+               422
+            ],
+            [
+               611,
+               3,
+               815
+            ],
+            [
+               355,
+               3,
+               280
+            ],
+            [
+               1145,
+               5,
+               1403
+            ],
+            [
+               5,
+               2,
+               37
+            ],
+            [
+               9,
+               2,
+               36
+            ],
+            [
+               6224,
+               11,
+               4918
+            ],
+            [
+               1540,
+               4,
+               1389
+            ],
+            [
+               50,
+               2,
+               205
+            ],
+            [
+               55,
+               2,
+               304
+            ],
+            [
+               1387,
+               7,
+               1607
+            ],
+            [
+               205,
+               2,
+               311
+            ],
+            [
+               219,
+               2,
+               145
+            ],
+            [
+               394,
+               2,
+               466
+            ],
+            [
+               75,
+               2,
+               188
+            ],
+            [
+               160,
+               2,
+               147
+            ]
+         ],
+         "smps" : [
+            "MDs",
+            "Hospitals",
+            "Beds"
+         ]
+      },
+      "z" : {
+         "County" : [
+            "Bay, FL                             ",
+            "Beaufort, NC                        ",
+            "Beaver, PA                          ",
+            "Bernalillo, NM                      ",
+            "Bibb, GA                            ",
+            "Clinton, PA                         ",
+            "Comanche, TX                        ",
+            "Concordia, LA                       ",
+            "Contra Costa, CA                    ",
+            "Coos, NH                            ",
+            "Crawford, KS                        ",
+            "Creek, OK                           ",
+            "Dona Ana, NM                        ",
+            "Douglas, OR                         ",
+            "El Paso, TX                         ",
+            "Elmore, AL                          ",
+            "Escambia, FL                        ",
+            "Fairfield, CT                       ",
+            "Hamilton, OH                        ",
+            "Hawaii, HI                          ",
+            "Hennepin, MN                        ",
+            "Jefferson, PA                       ",
+            "Kenai Peninsula, AK                 ",
+            "Kennebec, ME                        ",
+            "Kent, MI                            ",
+            "Labette, KS                         ",
+            "Linn, IA                            ",
+            "Linn, OR                            ",
+            "Macon, NC                           ",
+            "Mercer, PA                          ",
+            "Mercer, WV                          ",
+            "Monmouth, NJ                        ",
+            "Montgomery, IL                      ",
+            "Montgomery, MS                      ",
+            "Nassau, NY                          ",
+            "New Haven, CT                       ",
+            "Norfolk, VA                         ",
+            "Okaloosa, FL                        ",
+            "Oneida, NY                          ",
+            "Ottawa, MI                          ",
+            "Passaic, NJ ",
+            "Pawnee, OK                          ",
+            "Pecos, TX                           ",
+            "Queens, NY                          ",
+            "Richland, SC                        ",
+            "Richmond, NC                        ",
+            "Sandusky, OH                        ",
+            "Sedgwick, KS                        ",
+            "Sheboygan, WI                       ",
+            "Walla Walla, WA                     ",
+            "Weber, UT                           ",
+            "Whiteside, IL                       ",
+            "Windham, CT                         "
+         ]
+      }
+   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>CountyHealth</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>County Health Resources</h2>\n<h3>Description</h3>\n<p>Medical facilities and doctors in a sample of counties.\n</p>\n<h3>Format</h3>\n<p>A data frame with 53 observations on the following 4 variables.\n</p>\n<dl>\n<dt><code>County</code></dt><dd><p>County name, state</p>\n</dd>\n<dt><code>MDs</code></dt><dd><p>Number of medical doctors</p>\n</dd>\n<dt><code>Hospitals</code></dt><dd><p>Number of community hospitals</p>\n</dd>\n<dt><code>Beds</code></dt><dd><p>Number of beds in the hospitals</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>Data compiled from information provided by the American Medical Association on the availability of health care in counties in the United States. A random sample of 53 counties  was chosen from among counties with at least two community hospitals.\n</p>\n<h3>Source</h3>\n<p>Physicians&ndash;American Medical Association, Chicago, IL, Physician Characteristics and Distribution in the U.S., annual (copyright), accessed May 17, 2006. Community hospitals&ndash;Health Forum LLC, an American Hospital Association (AHA) Company, Chicago, IL, Hospital Statistics, and unpublished data (copyright), e-mail accessed May 4, 2006 (related Internet site http://www.healthforum.com).\n</p>\n<p>Other web sources: <br />\nhttp://www.ama-assn.org/\nhttp://www.healthforum.com/healthforum/html/data_statistics/data_statistics.html\nhttp://www.cms.hhs.gov http://www.ssa.gov\n</p>\n</main>\n</div>\n",
+   "config" : {
+      "graphType" : "Scatter3D",
+      "subtitle" : "Stat2Data - CountyHealth",
+      "title" : "County Health Resources",
+      "colorBy" : "County"
+   }
+}

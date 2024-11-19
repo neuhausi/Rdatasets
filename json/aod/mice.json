@@ -1,0 +1,145 @@
+{
+   "data" : {
+      "y" : {
+         "data" : [
+            [
+               5,
+               0
+            ],
+            [
+               6,
+               2
+            ],
+            [
+               7,
+               0
+            ],
+            [
+               7,
+               0
+            ],
+            [
+               8,
+               0
+            ],
+            [
+               8,
+               0
+            ],
+            [
+               8,
+               0
+            ],
+            [
+               9,
+               1
+            ],
+            [
+               9,
+               2
+            ],
+            [
+               10,
+               1
+            ],
+            [
+               5,
+               0
+            ],
+            [
+               5,
+               2
+            ],
+            [
+               7,
+               1
+            ],
+            [
+               8,
+               0
+            ],
+            [
+               8,
+               2
+            ],
+            [
+               8,
+               3
+            ],
+            [
+               9,
+               0
+            ],
+            [
+               9,
+               4
+            ],
+            [
+               10,
+               1
+            ],
+            [
+               10,
+               6
+            ]
+         ],
+         "smps" : [
+            "n",
+            "y"
+         ],
+         "vars" : [
+            "Var1",
+            "Var2",
+            "Var3",
+            "Var4",
+            "Var5",
+            "Var6",
+            "Var7",
+            "Var8",
+            "Var9",
+            "Var10",
+            "Var11",
+            "Var12",
+            "Var13",
+            "Var14",
+            "Var15",
+            "Var16",
+            "Var17",
+            "Var18",
+            "Var19",
+            "Var20"
+         ]
+      },
+      "z" : {
+         "group" : [
+            "CTRL",
+            "CTRL",
+            "CTRL",
+            "CTRL",
+            "CTRL",
+            "CTRL",
+            "CTRL",
+            "CTRL",
+            "CTRL",
+            "CTRL",
+            "TREAT",
+            "TREAT",
+            "TREAT",
+            "TREAT",
+            "TREAT",
+            "TREAT",
+            "TREAT",
+            "TREAT",
+            "TREAT",
+            "TREAT"
+         ]
+      }
+   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>mice</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2> Pregnant Female Mice Experiment </h2>\n<h3>Description</h3>\n<p>Unpublished laboratory data on the proportion of affected foetuses in two groups (control and treatment) of 10 \npregnant female mice (Kupper and Haseman, 1978, p. 75).\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(mice)</code></pre>\n<h3>Format</h3>\n<p>A data frame with 20 observations on the following 3 variables.\n</p>\n<dl>\n<dt>group</dt><dd><p>a factor with levels <code>CTRL</code> and <code>TREAT</code></p>\n</dd>\n<dt>n</dt><dd><p>a numeric vector: the total number of foetuses.</p>\n</dd>\n<dt>y</dt><dd><p>a numeric vector: the number of affected foetuses.</p>\n</dd>\n</dl>\n<h3>References</h3>\n<p>Kupper, L.L., Haseman, J.K., 1978. <em>The use of a correlated binomial model for the analysis of a certain \ntoxicological experiments.</em> Biometrics 34, 69-76.\n</p>\n</main>\n</div>\n",
+   "config" : {
+      "colorBy" : "group",
+      "title" : "Pregnant Female Mice Experiment",
+      "subtitle" : "aod - mice",
+      "graphType" : "Scatter2D"
+   }
+}

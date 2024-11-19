@@ -1,0 +1,110 @@
+{
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>S.capricornutum</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Effect of cadmium on growth of green alga</h2>\n<h3>Description</h3>\n<p>Green alga (<em>Selenastrum capricornutum</em>) was exposed to cadmium chloride concentrations\nranging from 5 to 80 micro g/L in geometric progression in 4-day population growth test.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(S.capricornutum)</code></pre>\n<h3>Format</h3>\n<p>A data frame with 18 observations on the following 2 variables.\n</p>\n<dl>\n<dt><code>conc</code></dt><dd><p>a numeric vector of cadmium chloride concentrations (micro g/L)</p>\n</dd>\n<dt><code>count</code></dt><dd><p>a numeric vector of algal counts (10000 x cells /ml)</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>The data are analysed in Bruce and Versteeg (1992) using a log-normal \ndose-response model (using the logarithm with base 10).\n</p>\n<h3>Source</h3>\n<p>Bruce, R. D. and Versteeg, D. J. (1992) A statistical procedure for modeling continuous toxicity data,\n<em>Environ. Toxicol. Chem.</em>, <b>11</b>, 1485&ndash;1494.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>\n## Fitting 3-parameter log-normal model\ns.cap.m1 &lt;- drm(count ~ conc, data = S.capricornutum, fct = LN.3())\n## Residual plot\nplot(fitted(s.cap.m1), residuals(s.cap.m1))\n## Fitting model with transform-both-sides approach\ns.cap.m2 &lt;- boxcox(s.cap.m1, method = \"anova\")\nsummary(s.cap.m2)\n## Residual plot after transformation (looks better)\nplot(fitted(s.cap.m2), residuals(s.cap.m2))\n## Calculating ED values on log scale\nED(s.cap.m2, c(10, 20, 50), interval=\"delta\")\n## Fitting model with ED50 as parameter\n## (for comparison)\ns.cap.m3 &lt;- drm(count ~ conc, data = S.capricornutum, fct = LN.3(loge=TRUE))\ns.cap.m4 &lt;- boxcox(s.cap.m3, method = \"anova\")\nsummary(s.cap.m4)\nED(s.cap.m4, c(10, 20, 50), interval = \"fls\")\n</code></pre>\n</main>\n</div>\n",
+   "data" : {
+      "y" : {
+         "data" : [
+            [
+               0,
+               120.9
+            ],
+            [
+               0,
+               118
+            ],
+            [
+               0,
+               134
+            ],
+            [
+               5,
+               121.2
+            ],
+            [
+               5,
+               118.6
+            ],
+            [
+               5,
+               120.4
+            ],
+            [
+               10,
+               82.6
+            ],
+            [
+               10,
+               62.8
+            ],
+            [
+               10,
+               81.6
+            ],
+            [
+               20,
+               49.3
+            ],
+            [
+               20,
+               41.6
+            ],
+            [
+               20,
+               41.3
+            ],
+            [
+               40,
+               12.7
+            ],
+            [
+               40,
+               14.7
+            ],
+            [
+               40,
+               14.7
+            ],
+            [
+               80,
+               4.93
+            ],
+            [
+               80,
+               4
+            ],
+            [
+               80,
+               4.4
+            ]
+         ],
+         "smps" : [
+            "conc",
+            "count"
+         ],
+         "vars" : [
+            "Var1",
+            "Var2",
+            "Var3",
+            "Var4",
+            "Var5",
+            "Var6",
+            "Var7",
+            "Var8",
+            "Var9",
+            "Var10",
+            "Var11",
+            "Var12",
+            "Var13",
+            "Var14",
+            "Var15",
+            "Var16",
+            "Var17",
+            "Var18"
+         ]
+      }
+   },
+   "config" : {
+      "title" : "Effect of cadmium on growth of green alga",
+      "graphType" : "Scatter2D",
+      "subtitle" : "drc - S.capricornutum"
+   }
+}

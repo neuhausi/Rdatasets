@@ -1,0 +1,145 @@
+{
+   "config" : {
+      "title" : "Lewy Bodies and Dimentia with Alzheimer's",
+      "colorBy" : "group",
+      "graphType" : "Scatter2D",
+      "subtitle" : "Stat2Data - LewyDLBad"
+   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>LewyDLBad</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Lewy Bodies and Dimentia with Alzheimer's</h2>\n<h3>Description</h3>\n<p>Dementia Study with Lewy Bodies\n</p>\n<h3>Format</h3>\n<p>A data frame with 20 observations on the following 3 variables.\n</p>\n<dl>\n<dt><code>group</code></dt><dd><p><code>DLB/AD</code>=DLB and Alzheimer's Disease</p>\n</dd>\n<dt><code>APC</code></dt><dd><p>Annualized Percentage Change from baseline volume of the brain</p>\n</dd>\n<dt><code>MMSE</code></dt><dd><p>Change in functional performance on the Mini Mental State Examination</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>Brain MRIs were used to study the brains of patients with Dementia with Lewy Bodies. These are the cases that were also diagnosed with Alzheimer's Disease.  This is a subset of LewBody2Groups\n</p>\n<h3>Source</h3>\n<p>Z. Nedelksa et al. (2015), &quot;Pattern of brain atrophy rates in autopsy-confirmed dementia with Lewy bodies,&quot; Neurobiology of Aging, 36: 452-461.\n</p>\n</main>\n</div>\n",
+   "data" : {
+      "z" : {
+         "group" : [
+            "DLB/AD",
+            "DLB/AD",
+            "DLB/AD",
+            "DLB/AD",
+            "DLB/AD",
+            "DLB/AD",
+            "DLB/AD",
+            "DLB/AD",
+            "DLB/AD",
+            "DLB/AD",
+            "DLB/AD",
+            "DLB/AD",
+            "DLB/AD",
+            "DLB/AD",
+            "DLB/AD",
+            "DLB/AD",
+            "DLB/AD",
+            "DLB/AD",
+            "DLB/AD",
+            "DLB/AD"
+         ]
+      },
+      "y" : {
+         "data" : [
+            [
+               1.26,
+               -2.21
+            ],
+            [
+               0.53,
+               -4.18
+            ],
+            [
+               0.49,
+               -0.14
+            ],
+            [
+               0.38,
+               -2.04
+            ],
+            [
+               0.13,
+               0.62
+            ],
+            [
+               -0.63,
+               -1.88
+            ],
+            [
+               -0.85,
+               -3.68
+            ],
+            [
+               -0.92,
+               -1.58
+            ],
+            [
+               -1.02,
+               -5.48
+            ],
+            [
+               -1.16,
+               -3.73
+            ],
+            [
+               -1.39,
+               -5.8
+            ],
+            [
+               -1.58,
+               -6.82
+            ],
+            [
+               -1.63,
+               -2.67
+            ],
+            [
+               -1.81,
+               -6.03
+            ],
+            [
+               -2.15,
+               -1.93
+            ],
+            [
+               -2.28,
+               -8.33
+            ],
+            [
+               -2.37,
+               -7.4
+            ],
+            [
+               -2.58,
+               -3.18
+            ],
+            [
+               -2.57,
+               -9.07
+            ],
+            [
+               -2.65,
+               -3.84
+            ]
+         ],
+         "smps" : [
+            "APC",
+            "MMSE"
+         ],
+         "vars" : [
+            "Var1",
+            "Var2",
+            "Var3",
+            "Var4",
+            "Var5",
+            "Var6",
+            "Var7",
+            "Var8",
+            "Var9",
+            "Var10",
+            "Var11",
+            "Var12",
+            "Var13",
+            "Var14",
+            "Var15",
+            "Var16",
+            "Var17",
+            "Var18",
+            "Var19",
+            "Var20"
+         ]
+      }
+   }
+}

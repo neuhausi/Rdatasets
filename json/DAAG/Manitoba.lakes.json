@@ -1,0 +1,66 @@
+{
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>Manitoba.lakes</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>The Nine Largest Lakes in Manitoba</h2>\n<h3>Description</h3>\n<p>The <code>Manitoba.lakes</code> data frame has 9 rows and 2 columns.\nThe areas and elevations of the nine largest lakes in\nManitoba, Canada.  The geography of Manitoba (a relatively\nflat province) can be divided crudely into three main\nareas: a very flat prairie in the south which is at a \nrelatively high elevation, a middle region consisting\nof mainly of forest and Precambrian rock, and a northern\nregion which drains more rapidly into Hudson\nBay.  All water in Manitoba, which does not evaporate, eventually drains \ninto Hudson Bay.  \n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>Manitoba.lakes</code></pre>\n<h3>Format</h3>\n<p>This data frame contains the following columns:\n</p>\n<dl>\n<dt>elevation</dt><dd><p>a numeric vector consisting of the elevations\nof the lakes (in meters)</p>\n</dd>\n<dt>area</dt><dd><p>a numeric vector consisting of the areas of\nthe lakes (in square kilometers)</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>The CANSIM data base at Statistics Canada.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>plot(Manitoba.lakes)\nplot(Manitoba.lakes[-1,])\n</code></pre>\n</main>\n</div>\n",
+   "data" : {
+      "y" : {
+         "vars" : [
+            "Winnipeg",
+            "Winnipegosis",
+            "Manitoba",
+            "SouthernIndian",
+            "Cedar",
+            "Island",
+            "Gods",
+            "Cross",
+            "Playgreen"
+         ],
+         "smps" : [
+            "elevation",
+            "area"
+         ],
+         "data" : [
+            [
+               217,
+               24387
+            ],
+            [
+               254,
+               5374
+            ],
+            [
+               248,
+               4624
+            ],
+            [
+               254,
+               2247
+            ],
+            [
+               253,
+               1353
+            ],
+            [
+               227,
+               1223
+            ],
+            [
+               178,
+               1151
+            ],
+            [
+               207,
+               755
+            ],
+            [
+               217,
+               657
+            ]
+         ]
+      }
+   },
+   "config" : {
+      "title" : "The Nine Largest Lakes in Manitoba",
+      "colorBy" : null,
+      "graphType" : "Scatter2D",
+      "subtitle" : "DAAG - Manitoba.lakes"
+   }
+}

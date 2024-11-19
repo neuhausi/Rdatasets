@@ -1,0 +1,110 @@
+{
+   "config" : {
+      "subtitle" : "HSAUR - waves",
+      "graphType" : "Scatter2D",
+      "title" : "Electricity from Wave Power at Sea"
+   },
+   "data" : {
+      "y" : {
+         "vars" : [
+            "Var1",
+            "Var2",
+            "Var3",
+            "Var4",
+            "Var5",
+            "Var6",
+            "Var7",
+            "Var8",
+            "Var9",
+            "Var10",
+            "Var11",
+            "Var12",
+            "Var13",
+            "Var14",
+            "Var15",
+            "Var16",
+            "Var17",
+            "Var18"
+         ],
+         "smps" : [
+            "method1",
+            "method2"
+         ],
+         "data" : [
+            [
+               2.23,
+               1.82
+            ],
+            [
+               2.55,
+               2.42
+            ],
+            [
+               7.99,
+               8.26
+            ],
+            [
+               4.09,
+               3.46
+            ],
+            [
+               9.62,
+               9.77
+            ],
+            [
+               1.59,
+               1.4
+            ],
+            [
+               8.98,
+               8.88
+            ],
+            [
+               0.82,
+               0.87
+            ],
+            [
+               10.83,
+               11.2
+            ],
+            [
+               1.54,
+               1.33
+            ],
+            [
+               10.75,
+               10.32
+            ],
+            [
+               5.79,
+               5.87
+            ],
+            [
+               5.91,
+               6.44
+            ],
+            [
+               5.79,
+               5.87
+            ],
+            [
+               5.5,
+               5.3
+            ],
+            [
+               9.96,
+               9.82
+            ],
+            [
+               1.92,
+               1.69
+            ],
+            [
+               7.38,
+               7.41
+            ]
+         ]
+      }
+   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>waves</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2> Electricity from Wave Power at Sea </h2>\n<h3>Description</h3>\n<p>Measurements of root mean square bending moment by two different mooring\nmethods.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(\"waves\")</code></pre>\n<h3>Format</h3>\n<p>A data frame with 18 observations on the following 2 variables.\n</p>\n<dl>\n<dt>method1</dt><dd><p>Root mean square bending moment in Newton metres, mooring method 1</p>\n</dd>\n<dt>method2</dt><dd><p>Root mean square bending moment in Newton metres, mooring method 2</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>In a design study for a device to generate electricity from\nwave power at sea, experiments were carried out on scale models\nin a wave tank to establish how the choice of mooring method\nfor the system affected the bending stress produced in part of\nthe device. The wave tank could simulate a wide range of sea\nstates and the model system was subjected to the same sample \nof sea states with each of two mooring methods, one of which    \nwas considerably cheaper than the other.\nThe question of interest is whether bending stress differs\nfor the two mooring methods.\n</p>\n<h3>Source</h3>\n<p>D. J. Hand, F. Daly, A. D. Lunn, K. J. McConway and E. Ostrowski (1994).\n<em>A Handbook of Small Datasets</em>, Chapman and Hall/CRC, London.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>\n  data(\"waves\", package = \"HSAUR\")\n  plot(method1 ~ method2, data = waves)\n</code></pre>\n</main>\n</div>\n"
+}

@@ -1,0 +1,26 @@
+[
+   [
+      "boundsdata",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/mediation/boundsdata.json"
+   ],
+   [
+      "CEDdata",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/mediation/CEDdata.json"
+   ],
+   [
+      "framing",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/mediation/framing.json"
+   ],
+   [
+      "jobs",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/mediation/jobs.json"
+   ],
+   [
+      "school",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/mediation/school.json"
+   ],
+   [
+      "student",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/mediation/student.json"
+   ]
+]

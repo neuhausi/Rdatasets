@@ -1,0 +1,83 @@
+{
+   "config" : {
+      "title" : "Accountants and Auditors in the US 1850-2016",
+      "subtitle" : "Ecdat - AccountantsAuditorsPct",
+      "graphType" : "Treemap"
+   },
+   "data" : {
+      "y" : {
+         "data" : [
+            [
+               0.000133,
+               0.000147,
+               0.000142,
+               0.000150011161864291,
+               0.000414364881578247,
+               0.000908139107044129,
+               0.00292153392810213,
+               0.00397084991881992,
+               0.0046,
+               0.00636307252123799,
+               0.00615245117668448,
+               0.00748596894404834,
+               0.00867188369997672,
+               0.011991941957154,
+               0.0123934609661169,
+               0.0118763621287234,
+               0.0119669907984773,
+               0.0129184619563634,
+               0.0129548827470725,
+               0.0129514567946085,
+               0.012954391227946,
+               0.013397870714756,
+               0.0136234812841253,
+               0.0135411890204282,
+               0.0133575871760173,
+               0.0133815221061123,
+               0.0136867740694952,
+               0.0132528292109052,
+               0.0125421958871872,
+               0.0126517169680452,
+               0.0125179879574004
+            ]
+         ],
+         "smps" : [
+            "1850",
+            "1860",
+            "1870",
+            "1880",
+            "1900",
+            "1910",
+            "1920",
+            "1930",
+            "1940",
+            "1950",
+            "1960",
+            "1970",
+            "1980",
+            "1990",
+            "2000",
+            "2001",
+            "2002",
+            "2003",
+            "2004",
+            "2005",
+            "2006",
+            "2007",
+            "2008",
+            "2009",
+            "2010",
+            "2011",
+            "2012",
+            "2013",
+            "2014",
+            "2015",
+            "2016"
+         ],
+         "vars" : [
+            "dat"
+         ]
+      }
+   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>AccountantsAuditorsPct</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Accountants and Auditors in the US 1850-2016</h2>\n<h3>Description</h3>\n<p>Accountants and auditors as a percent of the US\nlabor force 1850 to 2016 updating the analysis in\nWyatt and Hecker (2006).  \n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(AccountantsAuditorsPct)</code></pre>\n<h3>Format</h3>\n<p>a numeric vector of length 30 giving the percent \nof the US labor force in &quot;Accounting and Auditing&quot;\neach decade from 1850 to 2010 except for 1940 plus\neach year between 2011 and 2016.  \n</p>\n<h3>Source</h3>\n<p>This is based primarily on data extracted from the \n<a href=\"https://en.wikipedia.org/wiki/IPUMS\">Integrated \nPublic Use Microdata Series</a> on 2018-09-01 with \nthe computations documented in a vignette by this \ntitle in the <code>Ecfun</code> package.  \n</p>\n<p>This updates the data on Accountants and Auditors \nin Wyatt and Hecker (2006).  They relied \nprimarily on data extracted from the \n<a href=\"https://en.wikipedia.org/wiki/IPUMS\">Integrated \nPublic Use Microdata Series</a>.  This follows the \nsame methodology with two modifications:  \n</p>\n<p>1.  IPUMS provided no data for 1940.  Wyatt and \nHecker (2006) used \n<a href=\"https://www.census.gov/library/publications/1975/compendia/hist_stats_colonial-1970.html\">Historical Statistics of the United \nStates, Colonial Times to 1970, Bicentennial \nEdition, part 1 (U.S. Department of Commerce, \nBureau of the Census, 1975)</a> for 1910-1940.  \nThe current data set uses that source only for \n1040.  \n</p>\n<p>2.  The IPUMS numbers showed an extreme jump from \n1850 to 1860 followed by an even more extreme \ndrop to 1870.  The numbers in Sobek (2006) showed\nessentially the same behavior.  Specifically, \nSobek (2006) estimated the number of accountants \nand auditors in the US in those three years as 700, \n1700, and 1200, and the labor force as 5277000, \n8160800, and 12004200.  These numbers give \naccountants and auditors as 0.013, 0.021, and 0.010 \npercent of the labor force, respectively for those \nthree years.  These numbers portray an incredible \nincrease in the employment of accountants and\nauditors between 1850 and 1860 followed by a\nshocking decline the following decade. If, however,\nwe swap the 1700 and 1200 between 1860 and 1870, \nthe percentages become quite stable: 0.013, 0.015,\nand 0.014 percent, respectively.  \n</p>\n<p>We use these latter numbers, even though the \nuncorrected numbers seem more consistent with \nthe numbers obtained from IPUMS.  \n</p>\n<h3>References</h3>\n<p><a href=\"https://www.census.gov/library/publications/1975/compendia/hist_stats_colonial-1970.html\">Historical Statistics of the United \nStates, Colonial Times to 1970, Bicentennial \nEdition, part 1 (U.S. Department of Commerce, \nBureau of the Census, 1975)</a>\n</p>\n<p>Steven Ruggles, Sarah Flood, Ronald Goeken, \nJosiah Grover, Erin Meyer, Jose Pacas, and \nMatthew Sobek (2018) IPUMS USA: Version 8.0 \n[dataset]. Minneapolis, MN: IPUMS. \n<a href=\"https://doi.org/10.18128/D010.V8.0\">doi:10.18128/D010.V8.0</a>\n</p>\n<p>Matthew Sobek (2006) Chapter Ba. &quot;Labor Occupations&quot; \nin Susan B. Carter, ed., \n<a href=\"https://en.wikipedia.org/wiki/Historical_Statistics_of_the_United_States\">\nHistorical Statistics of the United States, \nCambridge U. Pr.</a>\n</p>\n<p>Ian D. Wyatt and Daniel E. Hecker (2006) \n<a href=\"https://www.bls.gov/mlr/2006/03/art3full.pdf\">\n&quot;Occupational changes during the 20th century&quot;, \nMonthly Labor Review, March 2006, pp. 35-57</a>\n</p>\n<h3>See Also</h3>\n<p><code>Index.Source</code>, <code>Index.Economics</code>, <code>Index.Econometrics</code>, <code>Index.Observations</code></p>\n<h3>Examples</h3>\n<pre><code class='language-R'>data(AccountantsAuditorsPct)\nplot(names(AccountantsAuditorsPct), AccountantsAuditorsPct, \n  type='l', log='y', cex.axis=1.8)\n# for the version of this contributed to Wikimedia Commons  \n</code></pre>\n</main>\n</div>\n"
+}

@@ -1,0 +1,34 @@
+[
+   [
+      "barro",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/quantreg/barro.json"
+   ],
+   [
+      "Bosco",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/quantreg/Bosco.json"
+   ],
+   [
+      "CobarOre",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/quantreg/CobarOre.json"
+   ],
+   [
+      "engel",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/quantreg/engel.json"
+   ],
+   [
+      "gasprice",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/quantreg/gasprice.json"
+   ],
+   [
+      "Mammals",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/quantreg/Mammals.json"
+   ],
+   [
+      "MelTemp",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/quantreg/MelTemp.json"
+   ],
+   [
+      "uis",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/quantreg/uis.json"
+   ]
+]

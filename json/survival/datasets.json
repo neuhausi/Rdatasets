@@ -1,0 +1,222 @@
+[
+   [
+      "aml (cancer)",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/survival/aml (cancer).json"
+   ],
+   [
+      "bladder (cancer)",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/survival/bladder (cancer).json"
+   ],
+   [
+      "bladder1 (cancer)",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/survival/bladder1 (cancer).json"
+   ],
+   [
+      "bladder2 (cancer)",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/survival/bladder2 (cancer).json"
+   ],
+   [
+      "cancer",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/survival/cancer.json"
+   ],
+   [
+      "capacitor (reliability)",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/survival/capacitor (reliability).json"
+   ],
+   [
+      "cgd",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/survival/cgd.json"
+   ],
+   [
+      "cgd0 (cgd)",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/survival/cgd0 (cgd).json"
+   ],
+   [
+      "colon (cancer)",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/survival/colon (cancer).json"
+   ],
+   [
+      "cracks (reliability)",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/survival/cracks (reliability).json"
+   ],
+   [
+      "diabetic",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/survival/diabetic.json"
+   ],
+   [
+      "flchain",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/survival/flchain.json"
+   ],
+   [
+      "gbsg (cancer)",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/survival/gbsg (cancer).json"
+   ],
+   [
+      "genfan (reliability)",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/survival/genfan (reliability).json"
+   ],
+   [
+      "heart",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/survival/heart.json"
+   ],
+   [
+      "hoel (cancer)",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/survival/hoel (cancer).json"
+   ],
+   [
+      "ifluid (reliability)",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/survival/ifluid (reliability).json"
+   ],
+   [
+      "imotor (reliability)",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/survival/imotor (reliability).json"
+   ],
+   [
+      "jasa (heart)",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/survival/jasa (heart).json"
+   ],
+   [
+      "jasa1 (heart)",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/survival/jasa1 (heart).json"
+   ],
+   [
+      "kidney (cancer)",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/survival/kidney (cancer).json"
+   ],
+   [
+      "leukemia (cancer)",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/survival/leukemia (cancer).json"
+   ],
+   [
+      "logan",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/survival/logan.json"
+   ],
+   [
+      "lung (cancer)",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/survival/lung (cancer).json"
+   ],
+   [
+      "mgus (cancer)",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/survival/mgus (cancer).json"
+   ],
+   [
+      "mgus1 (cancer)",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/survival/mgus1 (cancer).json"
+   ],
+   [
+      "mgus2 (cancer)",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/survival/mgus2 (cancer).json"
+   ],
+   [
+      "myeloid (cancer)",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/survival/myeloid (cancer).json"
+   ],
+   [
+      "myeloma (cancer)",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/survival/myeloma (cancer).json"
+   ],
+   [
+      "nafld1 (nafld)",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/survival/nafld1 (nafld).json"
+   ],
+   [
+      "nafld2 (nafld)",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/survival/nafld2 (nafld).json"
+   ],
+   [
+      "nafld3 (nafld)",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/survival/nafld3 (nafld).json"
+   ],
+   [
+      "nwtco",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/survival/nwtco.json"
+   ],
+   [
+      "ovarian (cancer)",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/survival/ovarian (cancer).json"
+   ],
+   [
+      "pbc",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/survival/pbc.json"
+   ],
+   [
+      "pbcseq (pbc)",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/survival/pbcseq (pbc).json"
+   ],
+   [
+      "rats (cancer)",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/survival/rats (cancer).json"
+   ],
+   [
+      "rats2 (cancer)",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/survival/rats2 (cancer).json"
+   ],
+   [
+      "retinopathy",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/survival/retinopathy.json"
+   ],
+   [
+      "rhDNase",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/survival/rhDNase.json"
+   ],
+   [
+      "rotterdam (cancer)",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/survival/rotterdam (cancer).json"
+   ],
+   [
+      "solder",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/survival/solder.json"
+   ],
+   [
+      "stanford2 (heart)",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/survival/stanford2 (heart).json"
+   ],
+   [
+      "survexp.mn (survexp)",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/survival/survexp.mn (survexp).json"
+   ],
+   [
+      "survexp.us (survexp)",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/survival/survexp.us (survexp).json"
+   ],
+   [
+      "survexp.usr (survexp)",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/survival/survexp.usr (survexp).json"
+   ],
+   [
+      "tobin",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/survival/tobin.json"
+   ],
+   [
+      "transplant",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/survival/transplant.json"
+   ],
+   [
+      "turbine (reliability)",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/survival/turbine (reliability).json"
+   ],
+   [
+      "udca",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/survival/udca.json"
+   ],
+   [
+      "udca1 (udca)",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/survival/udca1 (udca).json"
+   ],
+   [
+      "udca2 (udca)",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/survival/udca2 (udca).json"
+   ],
+   [
+      "uspop2 (survexp)",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/survival/uspop2 (survexp).json"
+   ],
+   [
+      "valveSeat (reliability)",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/survival/valveSeat (reliability).json"
+   ],
+   [
+      "veteran (cancer)",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/survival/veteran (cancer).json"
+   ]
+]

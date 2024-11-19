@@ -1,0 +1,121 @@
+{
+   "data" : {
+      "y" : {
+         "vars" : [
+            "Var1",
+            "Var2",
+            "Var3",
+            "Var4",
+            "Var5",
+            "Var6",
+            "Var7",
+            "Var8",
+            "Var9",
+            "Var10",
+            "Var11",
+            "Var12",
+            "Var13",
+            "Var14"
+         ],
+         "data" : [
+            [
+               1720,
+               160,
+               17.2,
+               -0.32
+            ],
+            [
+               1730,
+               156.6666667,
+               16.81,
+               -0.354
+            ],
+            [
+               1740,
+               153,
+               16.31,
+               -0.376
+            ],
+            [
+               1750,
+               148.9166667,
+               15.5,
+               -0.416
+            ],
+            [
+               1760,
+               144.4166667,
+               14.46,
+               -0.478
+            ],
+            [
+               1770,
+               139.75,
+               13.7,
+               -0.533
+            ],
+            [
+               1780,
+               134.5,
+               13.52,
+               -0.547
+            ],
+            [
+               1790,
+               128.5833333,
+               12.94,
+               -0.597
+            ],
+            [
+               1800,
+               122.4166667,
+               12.58,
+               -0.632
+            ],
+            [
+               1810,
+               115.5,
+               11.18,
+               -0.8
+            ],
+            [
+               1815,
+               111.3333333,
+               10.37,
+               -0.929
+            ],
+            [
+               1820,
+               106.25,
+               9.57,
+               -1.092
+            ],
+            [
+               1825,
+               98.33333333,
+               7.09,
+               -1.987
+            ],
+            [
+               1830,
+               84.33333333,
+               4.9,
+               -4.165
+            ]
+         ],
+         "smps" : [
+            "year",
+            "posangle",
+            "distance",
+            "velocity"
+         ]
+      }
+   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>Virginis</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>\nJohn F. W. Herschel's Data on the Orbit of the Twin Stars <code class=\"reqn\">\\gamma</code> <em>Virginis</em>\n</h2>\n<h3>Description</h3>\n<p>In 1833 J. F. W. Herschel published two papers in the <em>Memoirs of the Royal Astronomical Society</em>\ndetailing his investigations of calculating the orbits of twin stars from observations of\ntheir relative position angle and angular distance.  \n</p>\n<p>In the process, he invented the scatterplot, and the use of visual smoothing to obtain a reliable\ncurve that surpassed the accuracy of individual observations (Friendly &amp; Denis, 2005).\nHis data on the recordings of the twin stars <code class=\"reqn\">\\gamma</code> <em>Virginis</em> provide an\naccessible example of his methods.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>\tdata(\"Virginis\")\n\tdata(\"Virginis.interp\")\n</code></pre>\n<h3>Format</h3>\n<p><code>Virgins</code>: A data frame with 18 observations on the following 6 variables giving\nthe measurements of position angle and angular distance between the central (brightest)\nstar and its twin, recorded by various observers over more than 100 years. \n</p>\n<dl>\n<dt><code>year</code></dt><dd><p>year (&quot;epoch&quot;) of the observation, a decimal numeric vector</p>\n</dd>\n<dt><code>posangle</code></dt><dd><p>recorded position angle between the two stars, a numeric vector</p>\n</dd>\n<dt><code>distance</code></dt><dd><p>separation distance between the two stars, a numeric vector</p>\n</dd>\n<dt><code>weight</code></dt><dd><p>a subjective weight attributed to the accuracy of this observation, a numeric vector</p>\n</dd>\n<dt><code>notes</code></dt><dd><p>Herschel's notes on this observation, a character vector</p>\n</dd>\n<dt><code>authority</code></dt><dd><p>A simplified version of the notes giving just the attribution of authority of the observation, a character vector</p>\n</dd>\n</dl>\n<p><code>Virgins.interp</code>: A data frame with 14 observations on the following 4 variables, giving the\nposition angles and angular distance that Herschel interpolated from his smoothed curve.\n</p>\n<dl>\n<dt><code>year</code></dt><dd><p>year (&quot;epoch&quot;) of the observation, a decimal numeric vector</p>\n</dd>\n<dt><code>posangle</code></dt><dd><p>recorded position angle between the two stars, a numeric vector</p>\n</dd>\n<dt><code>distance</code></dt><dd><p>separation distance, calculated <code class=\"reqn\">1/sqrt(velocity)</code></p>\n</dd>\n<dt><code>velocity</code></dt><dd><p>angular velocity, calculated as the instantaneous slopes of \ntangents to the smoothed curve, a numeric vector</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>The data in <code>Virginis</code> come from the table on p. 35 of the &ldquo;Micrometrical Measures&rdquo;\npaper.  \n</p>\n<p>The <code>weight</code> variable was assigned by the package author, reflecting Herschel's comments\nand for use in any weighted analysis.\n</p>\n<p>In the <code>notes</code> and <code>authority</code> variables, <code>\"H\"</code> refers to William Herschel\n(John's farther, the discoverer of the planet Uranus), <code>\"h\"</code> refers to John Herschel\nhimself, and <code>\"Sigma\"</code>, rendered <code class=\"reqn\">\\Sigma</code> in the table on p. 35 refers to\nJoseph Fraunhofer.\n</p>\n<p>The data in <code>Virginis.interp</code> come from Table 1 on p. 190 of the supplementary\npaper.\n</p>\n<h3>Source</h3>\n<p>Herschel, J. F. W. \nIII. Micrometrical Measures of 364 Double Stars with a 7-feet Equatorial Acromatic Telescope, taken at Slough, in the years 1828, 1829, and 1830 \n<em>Memoirs of the Royal Astronomical Society</em>, 1833, 5, 13-91.\n</p>\n<p>Herschel, J. F. W. \nOn the Investigation of the Orbits of Revolving Double Stars: Being a Supplement to a Paper Entitled &quot;Micrometrical Measures of 364 Double Stars&quot; \n<em>Memoirs of the Royal Astronomical Society</em>, 1833, 5, 171-222.\n</p>\n<h3>References</h3>\n<p>Friendly, M. &amp; Denis, D. \nThe early origins and development of the scatterplot.\n<em>Journal of the History of the Behavioral Sciences</em>, \n2005, 41, 103-130.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>data(Virginis)\ndata(Virginis.interp)\n# Herschel's interpolated curve\nplot(posangle ~ year, data=Virginis.interp, \n\tpch=15, type=\"b\", col=\"red\", cex=0.8, lwd=2,\n\txlim=c(1710,1840), ylim=c(80, 170),\n\tylab=\"Position angle (deg.)\", xlab=\"Year\",\n\tcex.lab=1.5)\n# The data points, and indication of their uncertainty\npoints(posangle ~ year, data=Virginis, pch=16)\npoints(posangle ~ year, data=Virginis, cex=weight/2)\n</code></pre>\n</main>\n</div>\n",
+   "config" : {
+      "scatterPlotMatrix" : 1,
+      "subtitle" : "HistData - Virginis.interp",
+      "graphType" : "Scatter2D",
+      "title" : "John F. W. Herschel's Data on the Orbit of the Twin Stars gamma _Virginis_"
+   }
+}

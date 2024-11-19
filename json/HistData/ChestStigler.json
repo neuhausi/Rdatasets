@@ -1,0 +1,100 @@
+{
+   "config" : {
+      "title" : "Chest measurements of Scottish Militiamen",
+      "graphType" : "Scatter2D",
+      "subtitle" : "HistData - ChestStigler"
+   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>ChestSizes</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>\nChest measurements of Scottish Militiamen\n</h2>\n<h3>Description</h3>\n<p>Quetelet's data on chest measurements of 5738 Scottish Militiamen. Quetelet (1846) used this\ndata as a demonstration of the normal distribution of physical characteristics and the\nconcept of <em>l'homme moyen</em>.\n</p>\n<p>Stigler (1986) compared this table to the original 1817 source, and discovered some transcription\nerrors, which he corrected (p. 208).  These data are given separately in\n<code>ChestStigler</code>.\nGallagher (2020) used these data sets to re-consider the question of normality in these distributions.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(ChestSizes)</code></pre>\n<h3>Format</h3>\n<p>A data frame with 16 observations on the following 2 variables. Total count=5738.\n</p>\n<dl>\n<dt><code>chest</code></dt><dd><p>Chest size (in inches)</p>\n</dd>\n<dt><code>count</code></dt><dd><p>Number of soldiers with this chest size</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>Velleman, P. F. and Hoaglin, D. C. (1981). \n<em>Applications, Basics, and Computing of Exploratory Data Analysis</em>. Belmont. CA: Wadsworth.\nRetrieved from Statlib: <code>https://www.stat.cmu.edu/StatDat/Datafiles/MilitiamenChests.html</code>\n</p>\n<h3>References</h3>\n<p>A. Quetelet, <em>Lettres a S.A.R. le Duc Regnant de Saxe-Cobourg et Gotha, sur la Theorie des Probabilites, \nAppliquee aux Sciences Morales et Politiques</em>. Brussels: M. Hayes, 1846, p. 400.\n</p>\n<p>Eugene D. Gallagher (2020). Was Quetelet's Average Man Normal?, <em>The American Statistician</em>, 74:3, 301-306, \nDOI: 10.1080/00031305.2019.1706635 \n</p>\n<p>Stephen M. Stigler (1986). <em>The History of Statistics: The Measurement of Uncertainty before 1900</em>. Cambridge, MA: Harvard University Press, 1986, p. 208.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>data(ChestSizes)\n# frequency polygon\nplot(ChestSizes, type='b')\n# barplot\nbarplot(ChestSizes[,2], ylab=\"Frequency\", xlab=\"Chest size\")\n# calculate expected frequencies under normality, chest ~ N(xbar, std)\nn_obs &lt;- sum(ChestSizes$count)\nxbar  &lt;- with(ChestSizes, weighted.mean(chest, count))\nstd   &lt;- with(ChestSizes, sd(rep(chest, count)))\nexpected &lt;- \nwith(ChestSizes, diff(pnorm(c(32, chest) + .5, xbar, std)) * sum(count))\n</code></pre>\n</main>\n</div>\n",
+   "data" : {
+      "y" : {
+         "data" : [
+            [
+               33,
+               3
+            ],
+            [
+               34,
+               19
+            ],
+            [
+               35,
+               81
+            ],
+            [
+               36,
+               189
+            ],
+            [
+               37,
+               409
+            ],
+            [
+               38,
+               753
+            ],
+            [
+               39,
+               1062
+            ],
+            [
+               40,
+               1082
+            ],
+            [
+               41,
+               935
+            ],
+            [
+               42,
+               646
+            ],
+            [
+               43,
+               313
+            ],
+            [
+               44,
+               168
+            ],
+            [
+               45,
+               50
+            ],
+            [
+               46,
+               18
+            ],
+            [
+               47,
+               3
+            ],
+            [
+               48,
+               1
+            ]
+         ],
+         "smps" : [
+            "chest",
+            "count"
+         ],
+         "vars" : [
+            "Var1",
+            "Var2",
+            "Var3",
+            "Var4",
+            "Var5",
+            "Var6",
+            "Var7",
+            "Var8",
+            "Var9",
+            "Var10",
+            "Var11",
+            "Var12",
+            "Var13",
+            "Var14",
+            "Var15",
+            "Var16"
+         ]
+      }
+   }
+}

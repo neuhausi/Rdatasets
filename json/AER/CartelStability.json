@@ -1,0 +1,2655 @@
+{
+   "config" : {
+      "subtitle" : "AER - CartelStability",
+      "graphType" : "Scatter2D",
+      "colorBy" : "cartel",
+      "title" : "CartelStability",
+      "shapeBy" : "ice",
+      "sizeBy" : "season"
+   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>CartelStability</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>CartelStability</h2>\n<h3>Description</h3>\n<p>Weekly observations on prices and other factors from 1880&ndash;1886, for a total of 326 weeks.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(\"CartelStability\")</code></pre>\n<h3>Format</h3>\n<p>A data frame containing 328 observations on 5 variables.\n</p>\n<dl>\n<dt>price</dt><dd><p>weekly index of price of shipping a ton of grain by rail.</p>\n</dd>\n<dt>cartel</dt><dd><p>factor. Is a railroad cartel operative?</p>\n</dd>\n<dt>quantity</dt><dd><p>total tonnage of grain shipped in the week.</p>\n</dd>\n<dt>season</dt><dd><p>factor indicating season of year. To match the weekly data,\nthe calendar has been divided into 13 periods, each approximately 4 weeks long.</p>\n</dd>\n<dt>ice</dt><dd><p>factor. Are the Great Lakes innavigable because of ice?</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>Online complements to Stock and Watson (2007). \n</p>\n<h3>References</h3>\n<p>Porter, R. H. (1983). A Study of Cartel Stability: The Joint Executive Committee, 1880&ndash;1886. <em>The Bell Journal of Economics</em>, <b>14</b>, 301&ndash;314.\n</p>\n<p>Stock, J.H. and Watson, M.W. (2007). <em>Introduction to Econometrics</em>, 2nd ed. Boston: Addison Wesley.\n</p>\n<h3>See Also</h3>\n<p><code>StockWatson2007</code></p>\n<h3>Examples</h3>\n<pre><code class='language-R'>data(\"CartelStability\")\nsummary(CartelStability)\n</code></pre>\n</main>\n</div>\n",
+   "data" : {
+      "z" : {
+         "cartel" : [
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "no",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "no",
+            "no",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "no",
+            "no",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "no",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "no",
+            "no",
+            "no",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes"
+         ],
+         "ice" : [
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes"
+         ],
+         "season" : [
+            "Jan  1 - Jan 28",
+            "Jan  1 - Jan 28",
+            "Jan  1 - Jan 28",
+            "Jan  1 - Jan 28",
+            "Jan 29 - Feb 25",
+            "Jan 29 - Feb 25",
+            "Jan 29 - Feb 25",
+            "Jan 29 - Feb 25",
+            "Feb 26 - Mar 26",
+            "Feb 26 - Mar 26",
+            "Feb 26 - Mar 26",
+            "Feb 26 - Mar 26",
+            "Mar 27 - Apr 23",
+            "Mar 27 - Apr 23",
+            "Mar 27 - Apr 23",
+            "Mar 27 - Apr 23",
+            "Apr 24 - May 21",
+            "Apr 24 - May 21",
+            "Apr 24 - May 21",
+            "Apr 24 - May 21",
+            "May 22 - Jun 18",
+            "May 22 - Jun 18",
+            "May 22 - Jun 18",
+            "May 22 - Jun 18",
+            "Jun 19 - Jul 16",
+            "Jun 19 - Jul 16",
+            "Jun 19 - Jul 16",
+            "Jun 19 - Jul 16",
+            "Jul 17 - Aug 13",
+            "Jul 17 - Aug 13",
+            "Jul 17 - Aug 13",
+            "Jul 17 - Aug 13",
+            "Aug 14 - Sep 10",
+            "Aug 14 - Sep 10",
+            "Aug 14 - Sep 10",
+            "Aug 14 - Sep 10",
+            "Sep 11 - Oct  8",
+            "Sep 11 - Oct  8",
+            "Sep 11 - Oct  8",
+            "Sep 11 - Oct  8",
+            "Oct  9 - Nov  5",
+            "Oct  9 - Nov  5",
+            "Oct  9 - Nov  5",
+            "Oct  9 - Nov  5",
+            "Nov  6 - Dec  3",
+            "Nov  6 - Dec  3",
+            "Nov  6 - Dec  3",
+            "Nov  6 - Dec  3",
+            "Dec  4 - Dec 31",
+            "Dec  4 - Dec 31",
+            "Dec  4 - Dec 31",
+            "Dec  4 - Dec 31",
+            "Jan  1 - Jan 28",
+            "Jan  1 - Jan 28",
+            "Jan  1 - Jan 28",
+            "Jan  1 - Jan 28",
+            "Jan 29 - Feb 25",
+            "Jan 29 - Feb 25",
+            "Jan 29 - Feb 25",
+            "Jan 29 - Feb 25",
+            "Feb 26 - Mar 26",
+            "Feb 26 - Mar 26",
+            "Feb 26 - Mar 26",
+            "Feb 26 - Mar 26",
+            "Mar 27 - Apr 23",
+            "Mar 27 - Apr 23",
+            "Mar 27 - Apr 23",
+            "Mar 27 - Apr 23",
+            "Apr 24 - May 21",
+            "Apr 24 - May 21",
+            "Apr 24 - May 21",
+            "Apr 24 - May 21",
+            "May 22 - Jun 18",
+            "May 22 - Jun 18",
+            "May 22 - Jun 18",
+            "May 22 - Jun 18",
+            "Jun 19 - Jul 16",
+            "Jun 19 - Jul 16",
+            "Jun 19 - Jul 16",
+            "Jun 19 - Jul 16",
+            "Jul 17 - Aug 13",
+            "Jul 17 - Aug 13",
+            "Jul 17 - Aug 13",
+            "Jul 17 - Aug 13",
+            "Aug 14 - Sep 10",
+            "Aug 14 - Sep 10",
+            "Aug 14 - Sep 10",
+            "Aug 14 - Sep 10",
+            "Sep 11 - Oct  8",
+            "Sep 11 - Oct  8",
+            "Sep 11 - Oct  8",
+            "Sep 11 - Oct  8",
+            "Oct  9 - Nov  5",
+            "Oct  9 - Nov  5",
+            "Oct  9 - Nov  5",
+            "Oct  9 - Nov  5",
+            "Nov  6 - Dec  3",
+            "Nov  6 - Dec  3",
+            "Nov  6 - Dec  3",
+            "Nov  6 - Dec  3",
+            "Dec  4 - Dec 31",
+            "Dec  4 - Dec 31",
+            "Dec  4 - Dec 31",
+            "Dec  4 - Dec 31",
+            "Jan  1 - Jan 28",
+            "Jan  1 - Jan 28",
+            "Jan  1 - Jan 28",
+            "Jan  1 - Jan 28",
+            "Jan 29 - Feb 25",
+            "Jan 29 - Feb 25",
+            "Jan 29 - Feb 25",
+            "Jan 29 - Feb 25",
+            "Feb 26 - Mar 26",
+            "Feb 26 - Mar 26",
+            "Feb 26 - Mar 26",
+            "Feb 26 - Mar 26",
+            "Mar 27 - Apr 23",
+            "Mar 27 - Apr 23",
+            "Mar 27 - Apr 23",
+            "Mar 27 - Apr 23",
+            "Apr 24 - May 21",
+            "Apr 24 - May 21",
+            "Apr 24 - May 21",
+            "Apr 24 - May 21",
+            "May 22 - Jun 18",
+            "May 22 - Jun 18",
+            "May 22 - Jun 18",
+            "May 22 - Jun 18",
+            "Jun 19 - Jul 16",
+            "Jun 19 - Jul 16",
+            "Jun 19 - Jul 16",
+            "Jun 19 - Jul 16",
+            "Jul 17 - Aug 13",
+            "Jul 17 - Aug 13",
+            "Jul 17 - Aug 13",
+            "Jul 17 - Aug 13",
+            "Aug 14 - Sep 10",
+            "Aug 14 - Sep 10",
+            "Aug 14 - Sep 10",
+            "Aug 14 - Sep 10",
+            "Sep 11 - Oct  8",
+            "Sep 11 - Oct  8",
+            "Sep 11 - Oct  8",
+            "Sep 11 - Oct  8",
+            "Oct  9 - Nov  5",
+            "Oct  9 - Nov  5",
+            "Oct  9 - Nov  5",
+            "Oct  9 - Nov  5",
+            "Nov  6 - Dec  3",
+            "Nov  6 - Dec  3",
+            "Nov  6 - Dec  3",
+            "Nov  6 - Dec  3",
+            "Dec  4 - Dec 31",
+            "Dec  4 - Dec 31",
+            "Dec  4 - Dec 31",
+            "Dec  4 - Dec 31",
+            "Jan  1 - Jan 28",
+            "Jan  1 - Jan 28",
+            "Jan  1 - Jan 28",
+            "Jan  1 - Jan 28",
+            "Jan 29 - Feb 25",
+            "Jan 29 - Feb 25",
+            "Jan 29 - Feb 25",
+            "Jan 29 - Feb 25",
+            "Feb 26 - Mar 26",
+            "Feb 26 - Mar 26",
+            "Feb 26 - Mar 26",
+            "Feb 26 - Mar 26",
+            "Mar 27 - Apr 23",
+            "Mar 27 - Apr 23",
+            "Mar 27 - Apr 23",
+            "Mar 27 - Apr 23",
+            "Apr 24 - May 21",
+            "Apr 24 - May 21",
+            "Apr 24 - May 21",
+            "Apr 24 - May 21",
+            "May 22 - Jun 18",
+            "May 22 - Jun 18",
+            "May 22 - Jun 18",
+            "May 22 - Jun 18",
+            "Jun 19 - Jul 16",
+            "Jun 19 - Jul 16",
+            "Jun 19 - Jul 16",
+            "Jun 19 - Jul 16",
+            "Jul 17 - Aug 13",
+            "Jul 17 - Aug 13",
+            "Jul 17 - Aug 13",
+            "Jul 17 - Aug 13",
+            "Aug 14 - Sep 10",
+            "Aug 14 - Sep 10",
+            "Aug 14 - Sep 10",
+            "Aug 14 - Sep 10",
+            "Sep 11 - Oct  8",
+            "Sep 11 - Oct  8",
+            "Sep 11 - Oct  8",
+            "Sep 11 - Oct  8",
+            "Oct  9 - Nov  5",
+            "Oct  9 - Nov  5",
+            "Oct  9 - Nov  5",
+            "Oct  9 - Nov  5",
+            "Nov  6 - Dec  3",
+            "Nov  6 - Dec  3",
+            "Nov  6 - Dec  3",
+            "Nov  6 - Dec  3",
+            "Dec  4 - Dec 31",
+            "Dec  4 - Dec 31",
+            "Dec  4 - Dec 31",
+            "Dec  4 - Dec 31",
+            "Jan  1 - Jan 28",
+            "Jan  1 - Jan 28",
+            "Jan  1 - Jan 28",
+            "Jan  1 - Jan 28",
+            "Jan 29 - Feb 25",
+            "Jan 29 - Feb 25",
+            "Jan 29 - Feb 25",
+            "Jan 29 - Feb 25",
+            "Feb 26 - Mar 26",
+            "Feb 26 - Mar 26",
+            "Feb 26 - Mar 26",
+            "Feb 26 - Mar 26",
+            "Mar 27 - Apr 23",
+            "Mar 27 - Apr 23",
+            "Mar 27 - Apr 23",
+            "Mar 27 - Apr 23",
+            "Apr 24 - May 21",
+            "Apr 24 - May 21",
+            "Apr 24 - May 21",
+            "Apr 24 - May 21",
+            "May 22 - Jun 18",
+            "May 22 - Jun 18",
+            "May 22 - Jun 18",
+            "May 22 - Jun 18",
+            "Jun 19 - Jul 16",
+            "Jun 19 - Jul 16",
+            "Jun 19 - Jul 16",
+            "Jun 19 - Jul 16",
+            "Jul 17 - Aug 13",
+            "Jul 17 - Aug 13",
+            "Jul 17 - Aug 13",
+            "Jul 17 - Aug 13",
+            "Aug 14 - Sep 10",
+            "Aug 14 - Sep 10",
+            "Aug 14 - Sep 10",
+            "Aug 14 - Sep 10",
+            "Sep 11 - Oct  8",
+            "Sep 11 - Oct  8",
+            "Sep 11 - Oct  8",
+            "Sep 11 - Oct  8",
+            "Oct  9 - Nov  5",
+            "Oct  9 - Nov  5",
+            "Oct  9 - Nov  5",
+            "Oct  9 - Nov  5",
+            "Nov  6 - Dec  3",
+            "Nov  6 - Dec  3",
+            "Nov  6 - Dec  3",
+            "Nov  6 - Dec  3",
+            "Dec  4 - Dec 31",
+            "Dec  4 - Dec 31",
+            "Dec  4 - Dec 31",
+            "Dec  4 - Dec 31",
+            "Jan  1 - Jan 28",
+            "Jan  1 - Jan 28",
+            "Jan  1 - Jan 28",
+            "Jan  1 - Jan 28",
+            "Jan 29 - Feb 25",
+            "Jan 29 - Feb 25",
+            "Jan 29 - Feb 25",
+            "Jan 29 - Feb 25",
+            "Feb 26 - Mar 26",
+            "Feb 26 - Mar 26",
+            "Feb 26 - Mar 26",
+            "Feb 26 - Mar 26",
+            "Mar 27 - Apr 23",
+            "Mar 27 - Apr 23",
+            "Mar 27 - Apr 23",
+            "Mar 27 - Apr 23",
+            "Apr 24 - May 21",
+            "Apr 24 - May 21",
+            "Apr 24 - May 21",
+            "Apr 24 - May 21",
+            "May 22 - Jun 18",
+            "May 22 - Jun 18",
+            "May 22 - Jun 18",
+            "May 22 - Jun 18",
+            "Jun 19 - Jul 16",
+            "Jun 19 - Jul 16",
+            "Jun 19 - Jul 16",
+            "Jun 19 - Jul 16",
+            "Jul 17 - Aug 13",
+            "Jul 17 - Aug 13",
+            "Jul 17 - Aug 13",
+            "Jul 17 - Aug 13",
+            "Aug 14 - Sep 10",
+            "Aug 14 - Sep 10",
+            "Aug 14 - Sep 10",
+            "Aug 14 - Sep 10",
+            "Sep 11 - Oct  8",
+            "Sep 11 - Oct  8",
+            "Sep 11 - Oct  8",
+            "Sep 11 - Oct  8",
+            "Oct  9 - Nov  5",
+            "Oct  9 - Nov  5",
+            "Oct  9 - Nov  5",
+            "Oct  9 - Nov  5",
+            "Nov  6 - Dec  3",
+            "Nov  6 - Dec  3",
+            "Nov  6 - Dec  3",
+            "Nov  6 - Dec  3",
+            "Dec  4 - Dec 31",
+            "Dec  4 - Dec 31",
+            "Dec  4 - Dec 31",
+            "Dec  4 - Dec 31",
+            "Jan  1 - Jan 28",
+            "Jan  1 - Jan 28",
+            "Jan  1 - Jan 28",
+            "Jan  1 - Jan 28",
+            "Jan 29 - Feb 25",
+            "Jan 29 - Feb 25",
+            "Jan 29 - Feb 25",
+            "Jan 29 - Feb 25",
+            "Feb 26 - Mar 26",
+            "Feb 26 - Mar 26",
+            "Feb 26 - Mar 26",
+            "Feb 26 - Mar 26",
+            "Mar 27 - Apr 23",
+            "Mar 27 - Apr 23",
+            "Mar 27 - Apr 23",
+            "Mar 27 - Apr 23"
+         ]
+      },
+      "y" : {
+         "data" : [
+            [
+               0.4,
+               13632
+            ],
+            [
+               0.4,
+               20035
+            ],
+            [
+               0.4,
+               16319
+            ],
+            [
+               0.4,
+               12603
+            ],
+            [
+               0.4,
+               23079
+            ],
+            [
+               0.4,
+               19652
+            ],
+            [
+               0.4,
+               16211
+            ],
+            [
+               0.4,
+               22914
+            ],
+            [
+               0.4,
+               23710
+            ],
+            [
+               0.35,
+               23036
+            ],
+            [
+               0.35,
+               38414
+            ],
+            [
+               0.35,
+               46906
+            ],
+            [
+               0.35,
+               58608
+            ],
+            [
+               0.35,
+               51225
+            ],
+            [
+               0.35,
+               37339
+            ],
+            [
+               0.3,
+               20298
+            ],
+            [
+               0.3,
+               13699
+            ],
+            [
+               0.3,
+               11944
+            ],
+            [
+               0.3,
+               10658
+            ],
+            [
+               0.3,
+               9756
+            ],
+            [
+               0.3,
+               9546
+            ],
+            [
+               0.3,
+               16713
+            ],
+            [
+               0.3,
+               16389
+            ],
+            [
+               0.3,
+               23179
+            ],
+            [
+               0.3,
+               34999
+            ],
+            [
+               0.3,
+               35267
+            ],
+            [
+               0.3,
+               20402
+            ],
+            [
+               0.3,
+               21020
+            ],
+            [
+               0.3,
+               16612
+            ],
+            [
+               0.3,
+               14834
+            ],
+            [
+               0.3,
+               11149
+            ],
+            [
+               0.3,
+               16035
+            ],
+            [
+               0.3,
+               18555
+            ],
+            [
+               0.3,
+               17413
+            ],
+            [
+               0.3,
+               19412
+            ],
+            [
+               0.3,
+               20240
+            ],
+            [
+               0.3,
+               11824
+            ],
+            [
+               0.3,
+               17793
+            ],
+            [
+               0.3,
+               20157
+            ],
+            [
+               0.3,
+               18623
+            ],
+            [
+               0.3,
+               19062
+            ],
+            [
+               0.3,
+               20840
+            ],
+            [
+               0.3,
+               18972
+            ],
+            [
+               0.3,
+               19690
+            ],
+            [
+               0.3,
+               20206
+            ],
+            [
+               0.3,
+               23081
+            ],
+            [
+               0.3,
+               21209
+            ],
+            [
+               0.35,
+               13753
+            ],
+            [
+               0.35,
+               14956
+            ],
+            [
+               0.35,
+               13295
+            ],
+            [
+               0.35,
+               16935
+            ],
+            [
+               0.35,
+               24499
+            ],
+            [
+               0.35,
+               20078
+            ],
+            [
+               0.35,
+               24144
+            ],
+            [
+               0.35,
+               26157
+            ],
+            [
+               0.35,
+               22055
+            ],
+            [
+               0.35,
+               21973
+            ],
+            [
+               0.35,
+               23794
+            ],
+            [
+               0.35,
+               23116
+            ],
+            [
+               0.35,
+               23578
+            ],
+            [
+               0.35,
+               21568
+            ],
+            [
+               0.35,
+               17494
+            ],
+            [
+               0.35,
+               16260
+            ],
+            [
+               0.35,
+               26690
+            ],
+            [
+               0.35,
+               21723
+            ],
+            [
+               0.35,
+               30625
+            ],
+            [
+               0.35,
+               36618
+            ],
+            [
+               0.3,
+               42182
+            ],
+            [
+               0.25,
+               47432
+            ],
+            [
+               0.3,
+               43822
+            ],
+            [
+               0.3,
+               36457
+            ],
+            [
+               0.3,
+               29093
+            ],
+            [
+               0.3,
+               21729
+            ],
+            [
+               0.3,
+               21265
+            ],
+            [
+               0.3,
+               18505
+            ],
+            [
+               0.3,
+               14540
+            ],
+            [
+               0.3,
+               19366
+            ],
+            [
+               0.25,
+               55732
+            ],
+            [
+               0.15,
+               42346
+            ],
+            [
+               0.15,
+               28960
+            ],
+            [
+               0.15,
+               30434
+            ],
+            [
+               0.15,
+               26139
+            ],
+            [
+               0.15,
+               31075
+            ],
+            [
+               0.15,
+               29433
+            ],
+            [
+               0.15,
+               29136
+            ],
+            [
+               0.15,
+               31126
+            ],
+            [
+               0.15,
+               35384
+            ],
+            [
+               0.15,
+               36701
+            ],
+            [
+               0.15,
+               37771
+            ],
+            [
+               0.15,
+               38247
+            ],
+            [
+               0.15,
+               39518
+            ],
+            [
+               0.15,
+               30603
+            ],
+            [
+               0.125,
+               28383
+            ],
+            [
+               0.125,
+               24678
+            ],
+            [
+               0.125,
+               27839
+            ],
+            [
+               0.125,
+               26767
+            ],
+            [
+               0.125,
+               24041
+            ],
+            [
+               0.2,
+               23355
+            ],
+            [
+               0.2,
+               26491
+            ],
+            [
+               0.2,
+               20900
+            ],
+            [
+               0.2,
+               26410
+            ],
+            [
+               0.2,
+               26195
+            ],
+            [
+               0.2,
+               22427
+            ],
+            [
+               0.125,
+               27535
+            ],
+            [
+               0.125,
+               25738
+            ],
+            [
+               0.125,
+               23429
+            ],
+            [
+               0.125,
+               32745
+            ],
+            [
+               0.125,
+               37950
+            ],
+            [
+               0.2,
+               41466
+            ],
+            [
+               0.2,
+               49276
+            ],
+            [
+               0.2,
+               37850
+            ],
+            [
+               0.2,
+               32893
+            ],
+            [
+               0.2,
+               24410
+            ],
+            [
+               0.2,
+               15104
+            ],
+            [
+               0.2,
+               13819
+            ],
+            [
+               0.25,
+               22959
+            ],
+            [
+               0.25,
+               14486
+            ],
+            [
+               0.25,
+               15254
+            ],
+            [
+               0.25,
+               16607
+            ],
+            [
+               0.25,
+               17475
+            ],
+            [
+               0.25,
+               12704
+            ],
+            [
+               0.25,
+               14399
+            ],
+            [
+               0.25,
+               12023
+            ],
+            [
+               0.25,
+               9626
+            ],
+            [
+               0.25,
+               6482
+            ],
+            [
+               0.25,
+               10520
+            ],
+            [
+               0.25,
+               12588
+            ],
+            [
+               0.25,
+               12468
+            ],
+            [
+               0.25,
+               10930
+            ],
+            [
+               0.25,
+               10997
+            ],
+            [
+               0.25,
+               8618
+            ],
+            [
+               0.25,
+               4810
+            ],
+            [
+               0.25,
+               5832
+            ],
+            [
+               0.25,
+               8536
+            ],
+            [
+               0.25,
+               11204
+            ],
+            [
+               0.25,
+               10591
+            ],
+            [
+               0.25,
+               9978
+            ],
+            [
+               0.25,
+               9374
+            ],
+            [
+               0.25,
+               19466
+            ],
+            [
+               0.25,
+               23085
+            ],
+            [
+               0.25,
+               18981
+            ],
+            [
+               0.25,
+               16595
+            ],
+            [
+               0.25,
+               13182
+            ],
+            [
+               0.25,
+               11626
+            ],
+            [
+               0.25,
+               12996
+            ],
+            [
+               0.25,
+               14852
+            ],
+            [
+               0.25,
+               11508
+            ],
+            [
+               0.25,
+               12996
+            ],
+            [
+               0.25,
+               17942
+            ],
+            [
+               0.25,
+               15498
+            ],
+            [
+               0.25,
+               18121
+            ],
+            [
+               0.25,
+               17914
+            ],
+            [
+               0.3,
+               21217
+            ],
+            [
+               0.3,
+               22418
+            ],
+            [
+               0.3,
+               26230
+            ],
+            [
+               0.3,
+               26458
+            ],
+            [
+               0.3,
+               36168
+            ],
+            [
+               0.3,
+               30721
+            ],
+            [
+               0.3,
+               41071
+            ],
+            [
+               0.3,
+               28865
+            ],
+            [
+               0.3,
+               29221
+            ],
+            [
+               0.3,
+               22245
+            ],
+            [
+               0.3,
+               20377
+            ],
+            [
+               0.3,
+               36343
+            ],
+            [
+               0.3,
+               33227
+            ],
+            [
+               0.3,
+               33806
+            ],
+            [
+               0.3,
+               43998
+            ],
+            [
+               0.3,
+               45342
+            ],
+            [
+               0.3,
+               45659
+            ],
+            [
+               0.3,
+               30864
+            ],
+            [
+               0.3,
+               16522
+            ],
+            [
+               0.3,
+               20085
+            ],
+            [
+               0.25,
+               18262
+            ],
+            [
+               0.25,
+               19415
+            ],
+            [
+               0.25,
+               22792
+            ],
+            [
+               0.25,
+               23903
+            ],
+            [
+               0.25,
+               14761
+            ],
+            [
+               0.25,
+               10901
+            ],
+            [
+               0.25,
+               14868
+            ],
+            [
+               0.25,
+               17271
+            ],
+            [
+               0.25,
+               16179
+            ],
+            [
+               0.25,
+               15576
+            ],
+            [
+               0.25,
+               12292
+            ],
+            [
+               0.25,
+               7627
+            ],
+            [
+               0.25,
+               9888
+            ],
+            [
+               0.25,
+               11080
+            ],
+            [
+               0.25,
+               13782
+            ],
+            [
+               0.25,
+               15181
+            ],
+            [
+               0.25,
+               11906
+            ],
+            [
+               0.25,
+               14763
+            ],
+            [
+               0.25,
+               22934
+            ],
+            [
+               0.25,
+               23252
+            ],
+            [
+               0.2,
+               25164
+            ],
+            [
+               0.2,
+               33879
+            ],
+            [
+               0.25,
+               32428
+            ],
+            [
+               0.25,
+               31256
+            ],
+            [
+               0.25,
+               27805
+            ],
+            [
+               0.25,
+               34663
+            ],
+            [
+               0.25,
+               30187
+            ],
+            [
+               0.25,
+               27277
+            ],
+            [
+               0.25,
+               29521
+            ],
+            [
+               0.25,
+               31280
+            ],
+            [
+               0.25,
+               30601
+            ],
+            [
+               0.25,
+               31553
+            ],
+            [
+               0.3,
+               42735
+            ],
+            [
+               0.3,
+               28241
+            ],
+            [
+               0.3,
+               29221
+            ],
+            [
+               0.3,
+               27894
+            ],
+            [
+               0.3,
+               21911
+            ],
+            [
+               0.3,
+               16685
+            ],
+            [
+               0.2,
+               23504
+            ],
+            [
+               0.3,
+               41210
+            ],
+            [
+               0.3,
+               35058
+            ],
+            [
+               0.3,
+               27065
+            ],
+            [
+               0.3,
+               29404
+            ],
+            [
+               0.3,
+               25269
+            ],
+            [
+               0.3,
+               29219
+            ],
+            [
+               0.3,
+               29291
+            ],
+            [
+               0.3,
+               29217
+            ],
+            [
+               0.3,
+               32643
+            ],
+            [
+               0.2,
+               37902
+            ],
+            [
+               0.15,
+               53282
+            ],
+            [
+               0.15,
+               70793
+            ],
+            [
+               0.15,
+               76407
+            ],
+            [
+               0.15,
+               65944
+            ],
+            [
+               0.15,
+               51242
+            ],
+            [
+               0.15,
+               42464
+            ],
+            [
+               0.15,
+               36603
+            ],
+            [
+               0.15,
+               32376
+            ],
+            [
+               0.15,
+               37927
+            ],
+            [
+               0.15,
+               37905
+            ],
+            [
+               0.15,
+               34782
+            ],
+            [
+               0.15,
+               43146
+            ],
+            [
+               0.15,
+               38104
+            ],
+            [
+               0.2,
+               41901
+            ],
+            [
+               0.2,
+               25829
+            ],
+            [
+               0.2,
+               15480
+            ],
+            [
+               0.2,
+               18461
+            ],
+            [
+               0.25,
+               20716
+            ],
+            [
+               0.25,
+               14492
+            ],
+            [
+               0.25,
+               13004
+            ],
+            [
+               0.25,
+               16754
+            ],
+            [
+               0.25,
+               23268
+            ],
+            [
+               0.15,
+               18972
+            ],
+            [
+               0.15,
+               15531
+            ],
+            [
+               0.15,
+               17154
+            ],
+            [
+               0.15,
+               23416
+            ],
+            [
+               0.15,
+               26541
+            ],
+            [
+               0.15,
+               33592
+            ],
+            [
+               0.25,
+               36235
+            ],
+            [
+               0.25,
+               22372
+            ],
+            [
+               0.25,
+               23876
+            ],
+            [
+               0.25,
+               31600
+            ],
+            [
+               0.25,
+               31419
+            ],
+            [
+               0.25,
+               27814
+            ],
+            [
+               0.25,
+               32530
+            ],
+            [
+               0.25,
+               33624
+            ],
+            [
+               0.25,
+               34718
+            ],
+            [
+               0.25,
+               35812
+            ],
+            [
+               0.25,
+               26844
+            ],
+            [
+               0.25,
+               16938
+            ],
+            [
+               0.2,
+               19362
+            ],
+            [
+               0.2,
+               29761
+            ],
+            [
+               0.2,
+               43777
+            ],
+            [
+               0.2,
+               32995
+            ],
+            [
+               0.2,
+               50340
+            ],
+            [
+               0.25,
+               52131
+            ],
+            [
+               0.25,
+               30913
+            ],
+            [
+               0.25,
+               22887
+            ],
+            [
+               0.25,
+               30911
+            ],
+            [
+               0.25,
+               36354
+            ],
+            [
+               0.2,
+               38989
+            ],
+            [
+               0.2,
+               47087
+            ],
+            [
+               0.2,
+               44805
+            ],
+            [
+               0.2,
+               46694
+            ],
+            [
+               0.2,
+               54188
+            ],
+            [
+               0.2,
+               40650
+            ],
+            [
+               0.2,
+               34674
+            ],
+            [
+               0.2,
+               27430
+            ],
+            [
+               0.15,
+               53360
+            ],
+            [
+               0.15,
+               43018
+            ],
+            [
+               0.15,
+               33691
+            ],
+            [
+               0.15,
+               27424
+            ],
+            [
+               0.15,
+               30120
+            ],
+            [
+               0.15,
+               30488
+            ],
+            [
+               0.15,
+               31223
+            ],
+            [
+               0.15,
+               21562
+            ],
+            [
+               0.15,
+               24892
+            ],
+            [
+               0.15,
+               20864
+            ],
+            [
+               0.15,
+               19128
+            ],
+            [
+               0.2,
+               9778
+            ],
+            [
+               0.2,
+               7528
+            ],
+            [
+               0.2,
+               15773
+            ],
+            [
+               0.15,
+               10737
+            ],
+            [
+               0.15,
+               20881
+            ],
+            [
+               0.15,
+               20970
+            ],
+            [
+               0.15,
+               22835
+            ],
+            [
+               0.15,
+               30986
+            ],
+            [
+               0.15,
+               35308
+            ],
+            [
+               0.15,
+               40034
+            ],
+            [
+               0.15,
+               44776
+            ],
+            [
+               0.2,
+               36288
+            ],
+            [
+               0.2,
+               27158
+            ],
+            [
+               0.2,
+               14622
+            ],
+            [
+               0.2,
+               15259
+            ],
+            [
+               0.2,
+               14680
+            ],
+            [
+               0.2,
+               15114
+            ],
+            [
+               0.2,
+               17686
+            ],
+            [
+               0.2,
+               36336
+            ],
+            [
+               0.2,
+               22569
+            ],
+            [
+               0.2,
+               23342
+            ],
+            [
+               0.2,
+               21269
+            ],
+            [
+               0.2,
+               18340
+            ],
+            [
+               0.25,
+               19440
+            ],
+            [
+               0.25,
+               17056
+            ],
+            [
+               0.25,
+               10713
+            ],
+            [
+               0.25,
+               12836
+            ],
+            [
+               0.25,
+               12344
+            ],
+            [
+               0.25,
+               17868
+            ],
+            [
+               0.25,
+               22789
+            ],
+            [
+               0.25,
+               34851
+            ],
+            [
+               0.25,
+               29997
+            ],
+            [
+               0.25,
+               34010
+            ],
+            [
+               0.25,
+               19686
+            ],
+            [
+               0.25,
+               14757
+            ],
+            [
+               0.25,
+               16502
+            ],
+            [
+               0.25,
+               11490
+            ],
+            [
+               0.25,
+               7843
+            ]
+         ],
+         "smps" : [
+            "price",
+            "quantity"
+         ],
+         "vars" : [
+            "Var1",
+            "Var2",
+            "Var3",
+            "Var4",
+            "Var5",
+            "Var6",
+            "Var7",
+            "Var8",
+            "Var9",
+            "Var10",
+            "Var11",
+            "Var12",
+            "Var13",
+            "Var14",
+            "Var15",
+            "Var16",
+            "Var17",
+            "Var18",
+            "Var19",
+            "Var20",
+            "Var21",
+            "Var22",
+            "Var23",
+            "Var24",
+            "Var25",
+            "Var26",
+            "Var27",
+            "Var28",
+            "Var29",
+            "Var30",
+            "Var31",
+            "Var32",
+            "Var33",
+            "Var34",
+            "Var35",
+            "Var36",
+            "Var37",
+            "Var38",
+            "Var39",
+            "Var40",
+            "Var41",
+            "Var42",
+            "Var43",
+            "Var44",
+            "Var45",
+            "Var46",
+            "Var47",
+            "Var48",
+            "Var49",
+            "Var50",
+            "Var51",
+            "Var52",
+            "Var53",
+            "Var54",
+            "Var55",
+            "Var56",
+            "Var57",
+            "Var58",
+            "Var59",
+            "Var60",
+            "Var61",
+            "Var62",
+            "Var63",
+            "Var64",
+            "Var65",
+            "Var66",
+            "Var67",
+            "Var68",
+            "Var69",
+            "Var70",
+            "Var71",
+            "Var72",
+            "Var73",
+            "Var74",
+            "Var75",
+            "Var76",
+            "Var77",
+            "Var78",
+            "Var79",
+            "Var80",
+            "Var81",
+            "Var82",
+            "Var83",
+            "Var84",
+            "Var85",
+            "Var86",
+            "Var87",
+            "Var88",
+            "Var89",
+            "Var90",
+            "Var91",
+            "Var92",
+            "Var93",
+            "Var94",
+            "Var95",
+            "Var96",
+            "Var97",
+            "Var98",
+            "Var99",
+            "Var100",
+            "Var101",
+            "Var102",
+            "Var103",
+            "Var104",
+            "Var105",
+            "Var106",
+            "Var107",
+            "Var108",
+            "Var109",
+            "Var110",
+            "Var111",
+            "Var112",
+            "Var113",
+            "Var114",
+            "Var115",
+            "Var116",
+            "Var117",
+            "Var118",
+            "Var119",
+            "Var120",
+            "Var121",
+            "Var122",
+            "Var123",
+            "Var124",
+            "Var125",
+            "Var126",
+            "Var127",
+            "Var128",
+            "Var129",
+            "Var130",
+            "Var131",
+            "Var132",
+            "Var133",
+            "Var134",
+            "Var135",
+            "Var136",
+            "Var137",
+            "Var138",
+            "Var139",
+            "Var140",
+            "Var141",
+            "Var142",
+            "Var143",
+            "Var144",
+            "Var145",
+            "Var146",
+            "Var147",
+            "Var148",
+            "Var149",
+            "Var150",
+            "Var151",
+            "Var152",
+            "Var153",
+            "Var154",
+            "Var155",
+            "Var156",
+            "Var157",
+            "Var158",
+            "Var159",
+            "Var160",
+            "Var161",
+            "Var162",
+            "Var163",
+            "Var164",
+            "Var165",
+            "Var166",
+            "Var167",
+            "Var168",
+            "Var169",
+            "Var170",
+            "Var171",
+            "Var172",
+            "Var173",
+            "Var174",
+            "Var175",
+            "Var176",
+            "Var177",
+            "Var178",
+            "Var179",
+            "Var180",
+            "Var181",
+            "Var182",
+            "Var183",
+            "Var184",
+            "Var185",
+            "Var186",
+            "Var187",
+            "Var188",
+            "Var189",
+            "Var190",
+            "Var191",
+            "Var192",
+            "Var193",
+            "Var194",
+            "Var195",
+            "Var196",
+            "Var197",
+            "Var198",
+            "Var199",
+            "Var200",
+            "Var201",
+            "Var202",
+            "Var203",
+            "Var204",
+            "Var205",
+            "Var206",
+            "Var207",
+            "Var208",
+            "Var209",
+            "Var210",
+            "Var211",
+            "Var212",
+            "Var213",
+            "Var214",
+            "Var215",
+            "Var216",
+            "Var217",
+            "Var218",
+            "Var219",
+            "Var220",
+            "Var221",
+            "Var222",
+            "Var223",
+            "Var224",
+            "Var225",
+            "Var226",
+            "Var227",
+            "Var228",
+            "Var229",
+            "Var230",
+            "Var231",
+            "Var232",
+            "Var233",
+            "Var234",
+            "Var235",
+            "Var236",
+            "Var237",
+            "Var238",
+            "Var239",
+            "Var240",
+            "Var241",
+            "Var242",
+            "Var243",
+            "Var244",
+            "Var245",
+            "Var246",
+            "Var247",
+            "Var248",
+            "Var249",
+            "Var250",
+            "Var251",
+            "Var252",
+            "Var253",
+            "Var254",
+            "Var255",
+            "Var256",
+            "Var257",
+            "Var258",
+            "Var259",
+            "Var260",
+            "Var261",
+            "Var262",
+            "Var263",
+            "Var264",
+            "Var265",
+            "Var266",
+            "Var267",
+            "Var268",
+            "Var269",
+            "Var270",
+            "Var271",
+            "Var272",
+            "Var273",
+            "Var274",
+            "Var275",
+            "Var276",
+            "Var277",
+            "Var278",
+            "Var279",
+            "Var280",
+            "Var281",
+            "Var282",
+            "Var283",
+            "Var284",
+            "Var285",
+            "Var286",
+            "Var287",
+            "Var288",
+            "Var289",
+            "Var290",
+            "Var291",
+            "Var292",
+            "Var293",
+            "Var294",
+            "Var295",
+            "Var296",
+            "Var297",
+            "Var298",
+            "Var299",
+            "Var300",
+            "Var301",
+            "Var302",
+            "Var303",
+            "Var304",
+            "Var305",
+            "Var306",
+            "Var307",
+            "Var308",
+            "Var309",
+            "Var310",
+            "Var311",
+            "Var312",
+            "Var313",
+            "Var314",
+            "Var315",
+            "Var316",
+            "Var317",
+            "Var318",
+            "Var319",
+            "Var320",
+            "Var321",
+            "Var322",
+            "Var323",
+            "Var324",
+            "Var325",
+            "Var326",
+            "Var327",
+            "Var328"
+         ]
+      }
+   }
+}

@@ -1,0 +1,90 @@
+{
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>algae</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Volume of algae as function of increasing concentrations of a herbicide</h2>\n<h3>Description</h3>\n<p>Dataset from an experiment exploring the effect of increasing concentrations of a herbicide on \nthe volume of the treated algae.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(algae)</code></pre>\n<h3>Format</h3>\n<p>A data frame with 14 observations on the following 2 variables.\n</p>\n<dl>\n<dt><code>conc</code></dt><dd><p>a numeric vector of concentrations.</p>\n</dd>\n<dt><code>vol</code></dt><dd><p>a numeric vector of response values, that is relative change in volume.</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>This datasets requires a cubic root transformation in order to stabilise the variance.\n</p>\n<h3>Source</h3>\n<p>Meister, R. and van den Brink, P. (2000)\n<em>The Analysis of Laboratory Toxicity Experiments</em>,  \nChapter 4 in <em>Statistics in Ecotoxicology</em>, Editor: T. Sparks, \nNew York: John Wiley \\&amp; Sons, (pp. 114&ndash;116). \n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>\nalgae.m1 &lt;- drm(vol~conc, data=algae, fct=LL.3())\nsummary(algae.m1)\nalgae.m2 &lt;- boxcox(algae.m1)\nsummary(algae.m2)\n</code></pre>\n</main>\n</div>\n",
+   "data" : {
+      "y" : {
+         "vars" : [
+            "Var1",
+            "Var2",
+            "Var3",
+            "Var4",
+            "Var5",
+            "Var6",
+            "Var7",
+            "Var8",
+            "Var9",
+            "Var10",
+            "Var11",
+            "Var12",
+            "Var13",
+            "Var14"
+         ],
+         "smps" : [
+            "conc",
+            "vol"
+         ],
+         "data" : [
+            [
+               0,
+               100.91
+            ],
+            [
+               0,
+               111.22
+            ],
+            [
+               0.89,
+               101.48
+            ],
+            [
+               0.89,
+               90.78
+            ],
+            [
+               8.94,
+               43.72
+            ],
+            [
+               8.94,
+               35.84
+            ],
+            [
+               40,
+               3.81
+            ],
+            [
+               40,
+               7.01
+            ],
+            [
+               78.61,
+               3.81
+            ],
+            [
+               78.61,
+               3.61
+            ],
+            [
+               98.11,
+               0.91
+            ],
+            [
+               98.11,
+               1.54
+            ],
+            [
+               196.22,
+               0.65
+            ],
+            [
+               196.22,
+               0.19
+            ]
+         ]
+      }
+   },
+   "config" : {
+      "subtitle" : "drc - algae",
+      "graphType" : "Scatter2D",
+      "title" : "Volume of algae as function of increasing concentrations of a herbicide"
+   }
+}

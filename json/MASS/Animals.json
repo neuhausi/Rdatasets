@@ -1,0 +1,161 @@
+{
+   "config" : {
+      "colorBy" : null,
+      "title" : "Brain and Body Weights for 28 Species",
+      "subtitle" : "MASS - Animals",
+      "graphType" : "Scatter2D"
+   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>Animals</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>\nBrain and Body Weights for 28 Species\n</h2>\n<h3>Description</h3>\n<p>Average brain and body weights for 28 species of land animals.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>Animals\n</code></pre>\n<h3>Format</h3>\n<dl>\n<dt><code>body</code></dt><dd>\n<p>body weight in kg.\n</p>\n</dd>\n<dt><code>brain</code></dt><dd>\n<p>brain weight in g.\n</p>\n</dd>\n</dl>\n<h3>Note</h3>\n<p>The name <code>Animals</code> avoided conflicts with a system dataset\n<code>animals</code> in S-PLUS 4.5 and later.\n</p>\n<h3>Source</h3>\n<p>P. J. Rousseeuw  and A. M. Leroy (1987)\n<em>Robust Regression and Outlier Detection.</em>\nWiley, p. 57.\n</p>\n<h3>References</h3>\n<p>Venables, W. N. and Ripley, B. D. (2002)\n<em>Modern Applied Statistics with S-PLUS.</em> Fourth Edition. Springer.\n</p>\n</main>\n</div>\n",
+   "data" : {
+      "y" : {
+         "vars" : [
+            "Mountain beaver",
+            "Cow",
+            "Grey wolf",
+            "Goat",
+            "Guinea pig",
+            "Dipliodocus",
+            "Asian elephant",
+            "Donkey",
+            "Horse",
+            "Potar monkey",
+            "Cat",
+            "Giraffe",
+            "Gorilla",
+            "Human",
+            "African elephant",
+            "Triceratops",
+            "Rhesus monkey",
+            "Kangaroo",
+            "Golden hamster",
+            "Mouse",
+            "Rabbit",
+            "Sheep",
+            "Jaguar",
+            "Chimpanzee",
+            "Rat",
+            "Brachiosaurus",
+            "Mole",
+            "Pig"
+         ],
+         "smps" : [
+            "body",
+            "brain"
+         ],
+         "data" : [
+            [
+               1.35,
+               8.1
+            ],
+            [
+               465,
+               423
+            ],
+            [
+               36.33,
+               119.5
+            ],
+            [
+               27.66,
+               115
+            ],
+            [
+               1.04,
+               5.5
+            ],
+            [
+               11700,
+               50
+            ],
+            [
+               2547,
+               4603
+            ],
+            [
+               187.1,
+               419
+            ],
+            [
+               521,
+               655
+            ],
+            [
+               10,
+               115
+            ],
+            [
+               3.3,
+               25.6
+            ],
+            [
+               529,
+               680
+            ],
+            [
+               207,
+               406
+            ],
+            [
+               62,
+               1320
+            ],
+            [
+               6654,
+               5712
+            ],
+            [
+               9400,
+               70
+            ],
+            [
+               6.8,
+               179
+            ],
+            [
+               35,
+               56
+            ],
+            [
+               0.12,
+               1
+            ],
+            [
+               0.023,
+               0.4
+            ],
+            [
+               2.5,
+               12.1
+            ],
+            [
+               55.5,
+               175
+            ],
+            [
+               100,
+               157
+            ],
+            [
+               52.16,
+               440
+            ],
+            [
+               0.28,
+               1.9
+            ],
+            [
+               87000,
+               154.5
+            ],
+            [
+               0.122,
+               3
+            ],
+            [
+               192,
+               180
+            ]
+         ]
+      }
+   }
+}

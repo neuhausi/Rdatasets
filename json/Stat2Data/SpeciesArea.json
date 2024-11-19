@@ -1,0 +1,140 @@
+{
+   "data" : {
+      "z" : {
+         "Name" : [
+            "Borneo",
+            "Sumatra",
+            "Java",
+            "Bangka",
+            "Bunguran",
+            "Banggi",
+            "Jemaja",
+            "Karimata Besar",
+            "Tioman",
+            "Siantan",
+            "Sirhassan",
+            "Redang",
+            "Penebangan",
+            "Perhentian Besar"
+         ]
+      },
+      "y" : {
+         "smps" : [
+            "Area",
+            "Species",
+            "logArea",
+            "logSpecies"
+         ],
+         "data" : [
+            [
+               743244,
+               129,
+               13.5188,
+               4.85981
+            ],
+            [
+               473607,
+               126,
+               13.0681,
+               4.83628
+            ],
+            [
+               125628,
+               78,
+               11.7411,
+               4.35671
+            ],
+            [
+               11964,
+               38,
+               9.38966,
+               3.63759
+            ],
+            [
+               1594,
+               24,
+               7.374,
+               3.17805
+            ],
+            [
+               450,
+               18,
+               6.10925,
+               2.89037
+            ],
+            [
+               194,
+               15,
+               5.26786,
+               2.70805
+            ],
+            [
+               130,
+               19,
+               4.86753,
+               2.94444
+            ],
+            [
+               114,
+               23,
+               4.7362,
+               3.13549
+            ],
+            [
+               113,
+               16,
+               4.72739,
+               2.77259
+            ],
+            [
+               46,
+               16,
+               3.82864,
+               2.77259
+            ],
+            [
+               25,
+               8,
+               3.21888,
+               2.07944
+            ],
+            [
+               13,
+               13,
+               2.56495,
+               2.56495
+            ],
+            [
+               8,
+               6,
+               2.07944,
+               1.79176
+            ]
+         ],
+         "vars" : [
+            "Var1",
+            "Var2",
+            "Var3",
+            "Var4",
+            "Var5",
+            "Var6",
+            "Var7",
+            "Var8",
+            "Var9",
+            "Var10",
+            "Var11",
+            "Var12",
+            "Var13",
+            "Var14"
+         ]
+      }
+   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>SpeciesArea</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Land Area and Mammal Species</h2>\n<h3>Description</h3>\n<p>Land area and number of mammal species for islands in Southeast Asia\n</p>\n<h3>Format</h3>\n<p>A dataset with 14 observations on the following 5 variables.\n</p>\n<table>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Name</code> </td><td style=\"text-align: left;\"> Name of the island</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Area</code> </td><td style=\"text-align: left;\"> Area (in sq. km)</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Species</code> </td><td style=\"text-align: left;\"> Number of mammal species</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>logArea</code> </td><td style=\"text-align: left;\"> Natural logarithm (base e) of Area</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>logSpecies</code> </td><td style=\"text-align: left;\"> Natural logarithm (base e) of Species</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n  </td>\n</tr>\n</table>\n<h3>Details</h3>\n<p>This dataset shows the number of mammal species and the\narea for 13 islands in Southeast Asia. Biologists have speculated that the number of species is\nrelated to the size of an island and would like to be able to predict the number of species given the\nsize of an island.\n</p>\n<h3>Source</h3>\n<p>Heaney, Lawrence R. (1984) &quot;Mammalian species richness on islands on the Sunda Shelf, Southeast Asia,&quot;\nOecologia, 61:11 17.\n</p>\n</main>\n</div>\n",
+   "config" : {
+      "title" : "Land Area and Mammal Species",
+      "colorBy" : "Name",
+      "graphType" : "Scatter2D",
+      "scatterPlotMatrix" : 1,
+      "subtitle" : "Stat2Data - SpeciesArea"
+   }
+}

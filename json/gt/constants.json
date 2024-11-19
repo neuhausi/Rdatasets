@@ -1,0 +1,3219 @@
+{
+   "config" : {
+      "colorBy" : "name",
+      "title" : "The fundamental physical constants",
+      "sizeBy" : "sf_uncert",
+      "shapeBy" : "units",
+      "subtitle" : "gt - constants",
+      "graphType" : "Scatter2D"
+   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>constants</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>The fundamental physical constants</h2>\n<h3>Description</h3>\n<p>This dataset contains values for over 300 basic fundamental constants in\nnature. The values originate from the 2018 adjustment which is based on the\nlatest relevant precision measurements and improvements of theoretical\ncalculations. Such work has been carried out under the authority of the\n<em>Task Group on Fundamental Constants</em> (TGFC) of the\n<em>Committee on Data of the International Science Council</em> (CODATA). These\nupdated values became available on May 20, 2019. They are published at\n<a href=\"http://physics.nist.gov/constants\">http://physics.nist.gov/constants</a>, a website of the\n<em>Fundamental Constants Data Center</em> of the\n<em>National Institute of Standards and Technology</em> (NIST), Gaithersburg,\nMaryland, USA.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>constants\n</code></pre>\n<h3>Format</h3>\n<p>A tibble with 354 rows and 4 variables:\n</p>\n<dl>\n<dt>name</dt><dd><p>The name of the constant.</p>\n</dd>\n<dt>value</dt><dd><p>The value of the constant.</p>\n</dd>\n<dt>uncert</dt><dd><p>The uncertainty associated with the value. If <code>NA</code> then the\nvalue is seen as an 'exact' value (e.g., an electron volt has the exact value\nof 1.602 176 634 e-19 J).</p>\n</dd>\n<dt>sf_value,sf_uncert</dt><dd><p>The number of significant figures associated with\nthe value and any uncertainty value.</p>\n</dd>\n<dt>units</dt><dd><p>The units associated with the constant.</p>\n</dd>\n</dl>\n<h3>Examples</h3>\n<p>Here is a glimpse at the data available in <code>constants</code>.\n</p>\n<div class=\"sourceCode r\"><pre>dplyr::glimpse(constants)\n#&gt; Rows: 354\n#&gt; Columns: 6\n#&gt; $ name      &lt;chr&gt; \"alpha particle-electron mass ratio\", \"alpha particle mass\",~\n#&gt; $ value     &lt;dbl&gt; 7.294300e+03, 6.644657e-27, 5.971920e-10, 3.727379e+03, 4.00~\n#&gt; $ uncert    &lt;dbl&gt; 2.4e-07, 2.0e-36, 1.8e-19, 1.1e-06, 6.3e-11, 1.2e-12, 2.2e-1~\n#&gt; $ sf_value  &lt;dbl&gt; 12, 11, 11, 11, 13, 11, 12, 13, 9, 12, 12, 11, 11, 11, 12, 1~\n#&gt; $ sf_uncert &lt;dbl&gt; 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, ~\n#&gt; $ units     &lt;chr&gt; NA, \"kg\", \"J\", \"MeV\", \"u\", \"kg mol^-1\", NA, NA, \"m\", \"kg\", \"~\n</pre></div>\n<h3>Dataset ID and Badge</h3>\n<p>DATA-12\n</p>\n<div style=\"text-align:center;\"><img src=\"https://raw.githubusercontent.com/rstudio/gt/master/images/dataset_constants.png\" alt=\"This image of that of a dataset badge.\" style=\"width:50%;padding-bottom:20px;\"></div>\n<h3>Dataset Introduced</h3>\n<p><code>v0.10.0</code> (October 7, 2023)\n</p>\n<h3>See Also</h3>\n<p>Other datasets: \n<code>countrypops</code>,\n<code>exibble</code>,\n<code>films</code>,\n<code>gibraltar</code>,\n<code>gtcars</code>,\n<code>illness</code>,\n<code>metro</code>,\n<code>nuclides</code>,\n<code>peeps</code>,\n<code>photolysis</code>,\n<code>pizzaplace</code>,\n<code>reactions</code>,\n<code>rx_addv</code>,\n<code>rx_adsl</code>,\n<code>sp500</code>,\n<code>sza</code>,\n<code>towny</code>\n</p>\n</main>\n</div>\n",
+   "data" : {
+      "z" : {
+         "name" : [
+            "alpha particle-electron mass ratio",
+            "alpha particle mass",
+            "alpha particle mass energy equivalent",
+            "alpha particle mass energy equivalent in MeV",
+            "alpha particle mass in u",
+            "alpha particle molar mass",
+            "alpha particle-proton mass ratio",
+            "alpha particle relative atomic mass",
+            "Angstrom star",
+            "atomic mass constant",
+            "atomic mass constant energy equivalent",
+            "atomic mass constant energy equivalent in MeV",
+            "atomic mass unit-electron volt relationship",
+            "atomic mass unit-hartree relationship",
+            "atomic mass unit-hertz relationship",
+            "atomic mass unit-inverse meter relationship",
+            "atomic mass unit-joule relationship",
+            "atomic mass unit-kelvin relationship",
+            "atomic mass unit-kilogram relationship",
+            "atomic unit of 1st hyperpolarizability",
+            "atomic unit of 2nd hyperpolarizability",
+            "atomic unit of action",
+            "atomic unit of charge",
+            "atomic unit of charge density",
+            "atomic unit of current",
+            "atomic unit of electric dipole mom.",
+            "atomic unit of electric field",
+            "atomic unit of electric field gradient",
+            "atomic unit of electric polarizability",
+            "atomic unit of electric potential",
+            "atomic unit of electric quadrupole mom.",
+            "atomic unit of energy",
+            "atomic unit of force",
+            "atomic unit of length",
+            "atomic unit of mag. dipole mom.",
+            "atomic unit of mag. flux density",
+            "atomic unit of magnetizability",
+            "atomic unit of mass",
+            "atomic unit of momentum",
+            "atomic unit of permittivity",
+            "atomic unit of time",
+            "atomic unit of velocity",
+            "Avogadro constant",
+            "Bohr magneton",
+            "Bohr magneton in eV/T",
+            "Bohr magneton in Hz/T",
+            "Bohr magneton in inverse meter per tesla",
+            "Bohr magneton in K/T",
+            "Bohr radius",
+            "Boltzmann constant",
+            "Boltzmann constant in eV/K",
+            "Boltzmann constant in Hz/K",
+            "Boltzmann constant in inverse meter per kelvin",
+            "characteristic impedance of vacuum",
+            "classical electron radius",
+            "Compton wavelength",
+            "conductance quantum",
+            "conventional value of ampere-90",
+            "conventional value of coulomb-90",
+            "conventional value of farad-90",
+            "conventional value of henry-90",
+            "conventional value of Josephson constant",
+            "conventional value of ohm-90",
+            "conventional value of volt-90",
+            "conventional value of von Klitzing constant",
+            "conventional value of watt-90",
+            "Copper x unit",
+            "deuteron-electron mag. mom. ratio",
+            "deuteron-electron mass ratio",
+            "deuteron g factor",
+            "deuteron mag. mom.",
+            "deuteron mag. mom. to Bohr magneton ratio",
+            "deuteron mag. mom. to nuclear magneton ratio",
+            "deuteron mass",
+            "deuteron mass energy equivalent",
+            "deuteron mass energy equivalent in MeV",
+            "deuteron mass in u",
+            "deuteron molar mass",
+            "deuteron-neutron mag. mom. ratio",
+            "deuteron-proton mag. mom. ratio",
+            "deuteron-proton mass ratio",
+            "deuteron relative atomic mass",
+            "deuteron rms charge radius",
+            "electron charge to mass quotient",
+            "electron-deuteron mag. mom. ratio",
+            "electron-deuteron mass ratio",
+            "electron g factor",
+            "electron gyromag. ratio",
+            "electron gyromag. ratio in MHz/T",
+            "electron-helion mass ratio",
+            "electron mag. mom.",
+            "electron mag. mom. anomaly",
+            "electron mag. mom. to Bohr magneton ratio",
+            "electron mag. mom. to nuclear magneton ratio",
+            "electron mass",
+            "electron mass energy equivalent",
+            "electron mass energy equivalent in MeV",
+            "electron mass in u",
+            "electron molar mass",
+            "electron-muon mag. mom. ratio",
+            "electron-muon mass ratio",
+            "electron-neutron mag. mom. ratio",
+            "electron-neutron mass ratio",
+            "electron-proton mag. mom. ratio",
+            "electron-proton mass ratio",
+            "electron relative atomic mass",
+            "electron-tau mass ratio",
+            "electron to alpha particle mass ratio",
+            "electron to shielded helion mag. mom. ratio",
+            "electron to shielded proton mag. mom. ratio",
+            "electron-triton mass ratio",
+            "electron volt",
+            "electron volt-atomic mass unit relationship",
+            "electron volt-hartree relationship",
+            "electron volt-hertz relationship",
+            "electron volt-inverse meter relationship",
+            "electron volt-joule relationship",
+            "electron volt-kelvin relationship",
+            "electron volt-kilogram relationship",
+            "elementary charge",
+            "elementary charge over h-bar",
+            "Faraday constant",
+            "Fermi coupling constant",
+            "fine-structure constant",
+            "first radiation constant",
+            "first radiation constant for spectral radiance",
+            "hartree-atomic mass unit relationship",
+            "hartree-electron volt relationship",
+            "Hartree energy",
+            "Hartree energy in eV",
+            "hartree-hertz relationship",
+            "hartree-inverse meter relationship",
+            "hartree-joule relationship",
+            "hartree-kelvin relationship",
+            "hartree-kilogram relationship",
+            "helion-electron mass ratio",
+            "helion g factor",
+            "helion mag. mom.",
+            "helion mag. mom. to Bohr magneton ratio",
+            "helion mag. mom. to nuclear magneton ratio",
+            "helion mass",
+            "helion mass energy equivalent",
+            "helion mass energy equivalent in MeV",
+            "helion mass in u",
+            "helion molar mass",
+            "helion-proton mass ratio",
+            "helion relative atomic mass",
+            "helion shielding shift",
+            "hertz-atomic mass unit relationship",
+            "hertz-electron volt relationship",
+            "hertz-hartree relationship",
+            "hertz-inverse meter relationship",
+            "hertz-joule relationship",
+            "hertz-kelvin relationship",
+            "hertz-kilogram relationship",
+            "hyperfine transition frequency of Cs-133",
+            "inverse fine-structure constant",
+            "inverse meter-atomic mass unit relationship",
+            "inverse meter-electron volt relationship",
+            "inverse meter-hartree relationship",
+            "inverse meter-hertz relationship",
+            "inverse meter-joule relationship",
+            "inverse meter-kelvin relationship",
+            "inverse meter-kilogram relationship",
+            "inverse of conductance quantum",
+            "Josephson constant",
+            "joule-atomic mass unit relationship",
+            "joule-electron volt relationship",
+            "joule-hartree relationship",
+            "joule-hertz relationship",
+            "joule-inverse meter relationship",
+            "joule-kelvin relationship",
+            "joule-kilogram relationship",
+            "kelvin-atomic mass unit relationship",
+            "kelvin-electron volt relationship",
+            "kelvin-hartree relationship",
+            "kelvin-hertz relationship",
+            "kelvin-inverse meter relationship",
+            "kelvin-joule relationship",
+            "kelvin-kilogram relationship",
+            "kilogram-atomic mass unit relationship",
+            "kilogram-electron volt relationship",
+            "kilogram-hartree relationship",
+            "kilogram-hertz relationship",
+            "kilogram-inverse meter relationship",
+            "kilogram-joule relationship",
+            "kilogram-kelvin relationship",
+            "lattice parameter of silicon",
+            "lattice spacing of ideal Si (220)",
+            "Loschmidt constant (273.15 K, 100 kPa)",
+            "Loschmidt constant (273.15 K, 101.325 kPa)",
+            "luminous efficacy",
+            "mag. flux quantum",
+            "molar gas constant",
+            "molar mass constant",
+            "molar mass of carbon-12",
+            "molar Planck constant",
+            "molar volume of ideal gas (273.15 K, 100 kPa)",
+            "molar volume of ideal gas (273.15 K, 101.325 kPa)",
+            "molar volume of silicon",
+            "Molybdenum x unit",
+            "muon Compton wavelength",
+            "muon-electron mass ratio",
+            "muon g factor",
+            "muon mag. mom.",
+            "muon mag. mom. anomaly",
+            "muon mag. mom. to Bohr magneton ratio",
+            "muon mag. mom. to nuclear magneton ratio",
+            "muon mass",
+            "muon mass energy equivalent",
+            "muon mass energy equivalent in MeV",
+            "muon mass in u",
+            "muon molar mass",
+            "muon-neutron mass ratio",
+            "muon-proton mag. mom. ratio",
+            "muon-proton mass ratio",
+            "muon-tau mass ratio",
+            "natural unit of action",
+            "natural unit of action in eV s",
+            "natural unit of energy",
+            "natural unit of energy in MeV",
+            "natural unit of length",
+            "natural unit of mass",
+            "natural unit of momentum",
+            "natural unit of momentum in MeV/c",
+            "natural unit of time",
+            "natural unit of velocity",
+            "neutron Compton wavelength",
+            "neutron-electron mag. mom. ratio",
+            "neutron-electron mass ratio",
+            "neutron g factor",
+            "neutron gyromag. ratio",
+            "neutron gyromag. ratio in MHz/T",
+            "neutron mag. mom.",
+            "neutron mag. mom. to Bohr magneton ratio",
+            "neutron mag. mom. to nuclear magneton ratio",
+            "neutron mass",
+            "neutron mass energy equivalent",
+            "neutron mass energy equivalent in MeV",
+            "neutron mass in u",
+            "neutron molar mass",
+            "neutron-muon mass ratio",
+            "neutron-proton mag. mom. ratio",
+            "neutron-proton mass difference",
+            "neutron-proton mass difference energy equivalent",
+            "neutron-proton mass difference energy equivalent in MeV",
+            "neutron-proton mass difference in u",
+            "neutron-proton mass ratio",
+            "neutron relative atomic mass",
+            "neutron-tau mass ratio",
+            "neutron to shielded proton mag. mom. ratio",
+            "Newtonian constant of gravitation",
+            "Newtonian constant of gravitation over h-bar c",
+            "nuclear magneton",
+            "nuclear magneton in eV/T",
+            "nuclear magneton in inverse meter per tesla",
+            "nuclear magneton in K/T",
+            "nuclear magneton in MHz/T",
+            "Planck constant",
+            "Planck constant in eV/Hz",
+            "Planck length",
+            "Planck mass",
+            "Planck mass energy equivalent in GeV",
+            "Planck temperature",
+            "Planck time",
+            "proton charge to mass quotient",
+            "proton Compton wavelength",
+            "proton-electron mass ratio",
+            "proton g factor",
+            "proton gyromag. ratio",
+            "proton gyromag. ratio in MHz/T",
+            "proton mag. mom.",
+            "proton mag. mom. to Bohr magneton ratio",
+            "proton mag. mom. to nuclear magneton ratio",
+            "proton mag. shielding correction",
+            "proton mass",
+            "proton mass energy equivalent",
+            "proton mass energy equivalent in MeV",
+            "proton mass in u",
+            "proton molar mass",
+            "proton-muon mass ratio",
+            "proton-neutron mag. mom. ratio",
+            "proton-neutron mass ratio",
+            "proton relative atomic mass",
+            "proton rms charge radius",
+            "proton-tau mass ratio",
+            "quantum of circulation",
+            "quantum of circulation times 2",
+            "reduced Compton wavelength",
+            "reduced muon Compton wavelength",
+            "reduced neutron Compton wavelength",
+            "reduced Planck constant",
+            "reduced Planck constant in eV s",
+            "reduced Planck constant times c in MeV fm",
+            "reduced proton Compton wavelength",
+            "reduced tau Compton wavelength",
+            "Rydberg constant",
+            "Rydberg constant times c in Hz",
+            "Rydberg constant times hc in eV",
+            "Rydberg constant times hc in J",
+            "Sackur-Tetrode constant (1 K, 100 kPa)",
+            "Sackur-Tetrode constant (1 K, 101.325 kPa)",
+            "second radiation constant",
+            "shielded helion gyromag. ratio",
+            "shielded helion gyromag. ratio in MHz/T",
+            "shielded helion mag. mom.",
+            "shielded helion mag. mom. to Bohr magneton ratio",
+            "shielded helion mag. mom. to nuclear magneton ratio",
+            "shielded helion to proton mag. mom. ratio",
+            "shielded helion to shielded proton mag. mom. ratio",
+            "shielded proton gyromag. ratio",
+            "shielded proton gyromag. ratio in MHz/T",
+            "shielded proton mag. mom.",
+            "shielded proton mag. mom. to Bohr magneton ratio",
+            "shielded proton mag. mom. to nuclear magneton ratio",
+            "shielding difference of d and p in HD",
+            "shielding difference of t and p in HT",
+            "speed of light in vacuum",
+            "standard acceleration of gravity",
+            "standard atmosphere",
+            "standard-state pressure",
+            "Stefan-Boltzmann constant",
+            "tau Compton wavelength",
+            "tau-electron mass ratio",
+            "tau energy equivalent",
+            "tau mass",
+            "tau mass energy equivalent",
+            "tau mass in u",
+            "tau molar mass",
+            "tau-muon mass ratio",
+            "tau-neutron mass ratio",
+            "tau-proton mass ratio",
+            "Thomson cross section",
+            "triton-electron mass ratio",
+            "triton g factor",
+            "triton mag. mom.",
+            "triton mag. mom. to Bohr magneton ratio",
+            "triton mag. mom. to nuclear magneton ratio",
+            "triton mass",
+            "triton mass energy equivalent",
+            "triton mass energy equivalent in MeV",
+            "triton mass in u",
+            "triton molar mass",
+            "triton-proton mass ratio",
+            "triton relative atomic mass",
+            "triton to proton mag. mom. ratio",
+            "unified atomic mass unit",
+            "vacuum electric permittivity",
+            "vacuum mag. permeability",
+            "von Klitzing constant",
+            "weak mixing angle",
+            "Wien frequency displacement law constant",
+            "Wien wavelength displacement law constant",
+            "W to Z mass ratio"
+         ],
+         "units" : [
+            "",
+            "kg",
+            "J",
+            "MeV",
+            "u",
+            "kg mol^-1",
+            "",
+            "",
+            "m",
+            "kg",
+            "J",
+            "MeV",
+            "eV",
+            "E_h",
+            "Hz",
+            "m^-1",
+            "J",
+            "K",
+            "kg",
+            "C^3 m^3 J^-2",
+            "C^4 m^4 J^-3",
+            "J s",
+            "C",
+            "C m^-3",
+            "A",
+            "C m",
+            "V m^-1",
+            "V m^-2",
+            "C^2 m^2 J^-1",
+            "V",
+            "C m^2",
+            "J",
+            "N",
+            "m",
+            "J T^-1",
+            "T",
+            "J T^-2",
+            "kg",
+            "kg m s^-1",
+            "F m^-1",
+            "s",
+            "m s^-1",
+            "mol^-1",
+            "J T^-1",
+            "eV T^-1",
+            "Hz T^-1",
+            "m^-1 T^-1",
+            "K T^-1",
+            "m",
+            "J K^-1",
+            "eV K^-1",
+            "Hz K^-1",
+            "m^-1 K^-1",
+            "ohm",
+            "m",
+            "m",
+            "S",
+            "A",
+            "C",
+            "F",
+            "H",
+            "Hz V^-1",
+            "ohm",
+            "V",
+            "ohm",
+            "W",
+            "m",
+            "",
+            "",
+            "",
+            "J T^-1",
+            "",
+            "",
+            "kg",
+            "J",
+            "MeV",
+            "u",
+            "kg mol^-1",
+            "",
+            "",
+            "",
+            "",
+            "m",
+            "C kg^-1",
+            "",
+            "",
+            "",
+            "s^-1 T^-1",
+            "MHz T^-1",
+            "",
+            "J T^-1",
+            "",
+            "",
+            "",
+            "kg",
+            "J",
+            "MeV",
+            "u",
+            "kg mol^-1",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "J",
+            "u",
+            "E_h",
+            "Hz",
+            "m^-1",
+            "J",
+            "K",
+            "kg",
+            "C",
+            "A J^-1",
+            "C mol^-1",
+            "GeV^-2",
+            "",
+            "W m^2",
+            "W m^2 sr^-1",
+            "u",
+            "eV",
+            "J",
+            "eV",
+            "Hz",
+            "m^-1",
+            "J",
+            "K",
+            "kg",
+            "",
+            "",
+            "J T^-1",
+            "",
+            "",
+            "kg",
+            "J",
+            "MeV",
+            "u",
+            "kg mol^-1",
+            "",
+            "",
+            "",
+            "u",
+            "eV",
+            "E_h",
+            "m^-1",
+            "J",
+            "K",
+            "kg",
+            "Hz",
+            "",
+            "u",
+            "eV",
+            "E_h",
+            "Hz",
+            "J",
+            "K",
+            "kg",
+            "ohm",
+            "Hz V^-1",
+            "u",
+            "eV",
+            "E_h",
+            "Hz",
+            "m^-1",
+            "K",
+            "kg",
+            "u",
+            "eV",
+            "E_h",
+            "Hz",
+            "m^-1",
+            "J",
+            "kg",
+            "u",
+            "eV",
+            "E_h",
+            "Hz",
+            "m^-1",
+            "J",
+            "K",
+            "m",
+            "m",
+            "m^-3",
+            "m^-3",
+            "lm W^-1",
+            "Wb",
+            "J mol^-1 K^-1",
+            "kg mol^-1",
+            "kg mol^-1",
+            "J Hz^-1 mol^-1",
+            "m^3 mol^-1",
+            "m^3 mol^-1",
+            "m^3 mol^-1",
+            "m",
+            "m",
+            "",
+            "",
+            "J T^-1",
+            "",
+            "",
+            "",
+            "kg",
+            "J",
+            "MeV",
+            "u",
+            "kg mol^-1",
+            "",
+            "",
+            "",
+            "",
+            "J s",
+            "eV s",
+            "J",
+            "MeV",
+            "m",
+            "kg",
+            "kg m s^-1",
+            "MeV / c",
+            "s",
+            "m s^-1",
+            "m",
+            "",
+            "",
+            "",
+            "s^-1 T^-1",
+            "MHz T^-1",
+            "J T^-1",
+            "",
+            "",
+            "kg",
+            "J",
+            "MeV",
+            "u",
+            "kg mol^-1",
+            "",
+            "",
+            "kg",
+            "J",
+            "MeV",
+            "u",
+            "",
+            "",
+            "",
+            "",
+            "m^3 kg^-1 s^-2",
+            "( GeV / c^2 )^-2",
+            "J T^-1",
+            "eV T^-1",
+            "m^-1 T^-1",
+            "K T^-1",
+            "MHz T^-1",
+            "J Hz^-1",
+            "eV Hz^-1",
+            "m",
+            "kg",
+            "GeV",
+            "K",
+            "s",
+            "C kg^-1",
+            "m",
+            "",
+            "",
+            "s^-1 T^-1",
+            "MHz T^-1",
+            "J T^-1",
+            "",
+            "",
+            "",
+            "kg",
+            "J",
+            "MeV",
+            "u",
+            "kg mol^-1",
+            "",
+            "",
+            "",
+            "",
+            "m",
+            "",
+            "m^2 s^-1",
+            "m^2 s^-1",
+            "m",
+            "m",
+            "m",
+            "J s",
+            "eV s",
+            "MeV fm",
+            "m",
+            "m",
+            "m^-1",
+            "Hz",
+            "eV",
+            "J",
+            "",
+            "",
+            "m K",
+            "s^-1 T^-1",
+            "MHz T^-1",
+            "J T^-1",
+            "",
+            "",
+            "",
+            "",
+            "s^-1 T^-1",
+            "MHz T^-1",
+            "J T^-1",
+            "",
+            "",
+            "",
+            "",
+            "m s^-1",
+            "m s^-2",
+            "Pa",
+            "Pa",
+            "W m^-2 K^-4",
+            "m",
+            "",
+            "MeV",
+            "kg",
+            "J",
+            "u",
+            "kg mol^-1",
+            "",
+            "",
+            "",
+            "m^2",
+            "",
+            "",
+            "J T^-1",
+            "",
+            "",
+            "kg",
+            "J",
+            "MeV",
+            "u",
+            "kg mol^-1",
+            "",
+            "",
+            "",
+            "kg",
+            "F m^-1",
+            "N A^-2",
+            "ohm",
+            "",
+            "Hz K^-1",
+            "m K",
+            ""
+         ],
+         "sf_uncert" : [
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "",
+            "",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "",
+            "",
+            "",
+            "",
+            "2",
+            "2",
+            "2",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "",
+            "2",
+            "2",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "1",
+            "2",
+            "",
+            "",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "",
+            "2",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "2",
+            "2",
+            "",
+            "2",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "2",
+            "",
+            "2",
+            "",
+            "",
+            "",
+            "",
+            "2",
+            "",
+            "2",
+            "",
+            "",
+            "",
+            "",
+            "2",
+            "",
+            "2",
+            "",
+            "",
+            "",
+            "",
+            "2",
+            "2",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "2",
+            "2",
+            "",
+            "",
+            "",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "",
+            "",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "",
+            "",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "",
+            "",
+            "",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "",
+            "2",
+            "",
+            "",
+            "2"
+         ],
+         "uncert" : [
+            "2.4e-7",
+            "2e-36",
+            "1.8e-19",
+            "1.1e-6",
+            "6.3e-11",
+            "1.2e-12",
+            "2.2e-10",
+            "6.3e-11",
+            "9e-17",
+            "5e-37",
+            "4.5e-20",
+            "2.8e-7",
+            "0.28",
+            "0.01",
+            "68000000000000",
+            "230000",
+            "4.5e-20",
+            "3300",
+            "5e-37",
+            "1.4999999999999998e-62",
+            "3.8e-74",
+            "",
+            "",
+            "490",
+            "1.3e-14",
+            "1.3e-39",
+            "78",
+            "2900000000000",
+            "5e-51",
+            "5.3e-11",
+            "1.4e-49",
+            "8.500000000000001e-30",
+            "1.2e-17",
+            "8e-21",
+            "5.6e-33",
+            "7.1e-5",
+            "4.799999999999999e-38",
+            "2.8e-40",
+            "3e-34",
+            "1.7e-20",
+            "4.7e-29",
+            "3.3e-4",
+            "",
+            "2.8e-33",
+            "1.7e-14",
+            "4.2",
+            "1.4e-8",
+            "2e-10",
+            "8e-21",
+            "",
+            "",
+            "",
+            "",
+            "5.7e-8",
+            "1.2999999999999998e-24",
+            "7.3e-22",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "2.8e-20",
+            "1.2e-12",
+            "1.3e-7",
+            "2.2e-9",
+            "1.1e-35",
+            "1.2e-12",
+            "2.2e-9",
+            "1e-36",
+            "9.1e-20",
+            "5.7e-7",
+            "4e-11",
+            "6.1e-13",
+            "1.1e-7",
+            "7.9e-10",
+            "1.1e-10",
+            "4e-11",
+            "7.4e-19",
+            "53",
+            "5.6e-6",
+            "9.6e-15",
+            "3.5e-13",
+            "53",
+            "8.5e-6",
+            "7.9e-15",
+            "2.8e-33",
+            "1.8e-13",
+            "1.8e-13",
+            "1.1e-7",
+            "2.8e-40",
+            "2.5e-23",
+            "1.5e-10",
+            "1.6e-14",
+            "1.7e-16",
+            "4.6e-6",
+            "1.1e-10",
+            "2.3e-4",
+            "2.6e-13",
+            "2e-7",
+            "3.3e-14",
+            "1.6e-14",
+            "1.9e-8",
+            "4.5e-15",
+            "1e-5",
+            "7.2e-6",
+            "9e-15",
+            "",
+            "3.2e-19",
+            "7.1e-14",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "6e-12",
+            "1.1e-12",
+            "",
+            "",
+            "8.8e-18",
+            "5.3e-11",
+            "8.500000000000001e-30",
+            "5.3e-11",
+            "13000",
+            "4.3e-5",
+            "8.500000000000001e-30",
+            "6.1e-7",
+            "9.4e-47",
+            "2.4e-7",
+            "5e-8",
+            "1.3e-34",
+            "1.4e-11",
+            "2.5e-8",
+            "1.4999999999999999e-36",
+            "1.4e-19",
+            "8.5e-7",
+            "9.7e-11",
+            "9.1e-13",
+            "1.3e-10",
+            "9.7e-11",
+            "1e-10",
+            "1.3e-33",
+            "",
+            "2.9e-28",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "2.1e-8",
+            "3.9999999999999997e-25",
+            "",
+            "8.8e-20",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "2",
+            "",
+            "450000",
+            "",
+            "",
+            "",
+            "",
+            "2.8000000000000003e-23",
+            "",
+            "6.1e-18",
+            "",
+            "",
+            "",
+            "",
+            "18e16",
+            "",
+            "4e22",
+            "",
+            "",
+            "",
+            "",
+            "8.9e-18",
+            "3.2e-18",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "3e-13",
+            "3.6e-12",
+            "",
+            "",
+            "",
+            "6e-13",
+            "5.3e-20",
+            "2.6e-22",
+            "4.6e-6",
+            "1.3e-9",
+            "9.999999999999999e-34",
+            "6.3e-10",
+            "1.1e-10",
+            "2e-7",
+            "4.2e-36",
+            "3.8e-19",
+            "2.3e-6",
+            "2.5e-9",
+            "2.5e-12",
+            "2.5e-9",
+            "7.1e-8",
+            "2.5e-9",
+            "4e-6",
+            "",
+            "",
+            "2.5e-23",
+            "1.5e-10",
+            "1.2e-22",
+            "2.8e-40",
+            "8.2e-32",
+            "1.5e-10",
+            "3.8999999999999997e-31",
+            "",
+            "7.5e-25",
+            "2.5e-10",
+            "8.9e-7",
+            "9e-7",
+            "43",
+            "6.9e-6",
+            "2.3e-33",
+            "2.5e-10",
+            "4.5e-7",
+            "9.500000000000001e-37",
+            "8.6e-20",
+            "5.4e-7",
+            "4.9e-10",
+            "5.7e-13",
+            "2e-7",
+            "1.6e-7",
+            "8.2e-37",
+            "7.4e-20",
+            "4.6e-7",
+            "4.9e-10",
+            "4.9e-10",
+            "4.9e-10",
+            "3.6e-5",
+            "1.6e-7",
+            "1.5e-15",
+            "1.4999999999999998e-43",
+            "1.4999999999999999e-36",
+            "9.6e-18",
+            "7.8e-12",
+            "1.1e-13",
+            "2.3e-9",
+            "",
+            "",
+            "1.8e-40",
+            "2.4e-13",
+            "140000000000000",
+            "16e26",
+            "5.999999999999999e-49",
+            "0.029",
+            "3.9999999999999997e-25",
+            "1.1e-7",
+            "1.6e-9",
+            "0.11",
+            "1.8e-8",
+            "5.9999999999999996e-36",
+            "4.6e-13",
+            "8.2e-10",
+            "1.1e-8",
+            "5.1e-37",
+            "4.6e-20",
+            "2.9e-7",
+            "5.3e-11",
+            "3.1e-13",
+            "2e-7",
+            "3.4e-7",
+            "4.9e-10",
+            "5.3e-11",
+            "1.9e-18",
+            "3.6e-5",
+            "1.1e-13",
+            "2.2e-13",
+            "1.2e-22",
+            "4.2e-23",
+            "1.2e-25",
+            "",
+            "",
+            "",
+            "6.4e-26",
+            "7.5e-21",
+            "2.1e-5",
+            "6400",
+            "2.6e-11",
+            "4.2000000000000004e-30",
+            "4.5e-10",
+            "4.5e-10",
+            "",
+            "2.4",
+            "3.8e-7",
+            "1.3e-34",
+            "1.4e-11",
+            "2.5e-8",
+            "8.9e-9",
+            "3.3e-9",
+            "2.9",
+            "4.6e-7",
+            "1.5e-34",
+            "1.7e-11",
+            "3e-8",
+            "2e-11",
+            "2e-11",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "4.7e-20",
+            "0.23",
+            "0.12",
+            "2.1e-31",
+            "1.9e-14",
+            "1.3e-4",
+            "1.3e-7",
+            "0.0011",
+            "1.3e-4",
+            "1.3e-4",
+            "6e-38",
+            "2.7e-7",
+            "1.2e-8",
+            "3e-35",
+            "3.2e-12",
+            "5.9e-9",
+            "1.4999999999999999e-36",
+            "1.4e-19",
+            "8.5e-7",
+            "1.2e-10",
+            "9.2e-13",
+            "1.5e-10",
+            "1.2e-10",
+            "2.1e-9",
+            "5e-37",
+            "1.3e-21",
+            "1.9e-16",
+            "",
+            "3e-4",
+            "",
+            "",
+            "1.7e-4"
+         ]
+      },
+      "y" : {
+         "vars" : [
+            "Var1",
+            "Var2",
+            "Var3",
+            "Var4",
+            "Var5",
+            "Var6",
+            "Var7",
+            "Var8",
+            "Var9",
+            "Var10",
+            "Var11",
+            "Var12",
+            "Var13",
+            "Var14",
+            "Var15",
+            "Var16",
+            "Var17",
+            "Var18",
+            "Var19",
+            "Var20",
+            "Var21",
+            "Var22",
+            "Var23",
+            "Var24",
+            "Var25",
+            "Var26",
+            "Var27",
+            "Var28",
+            "Var29",
+            "Var30",
+            "Var31",
+            "Var32",
+            "Var33",
+            "Var34",
+            "Var35",
+            "Var36",
+            "Var37",
+            "Var38",
+            "Var39",
+            "Var40",
+            "Var41",
+            "Var42",
+            "Var43",
+            "Var44",
+            "Var45",
+            "Var46",
+            "Var47",
+            "Var48",
+            "Var49",
+            "Var50",
+            "Var51",
+            "Var52",
+            "Var53",
+            "Var54",
+            "Var55",
+            "Var56",
+            "Var57",
+            "Var58",
+            "Var59",
+            "Var60",
+            "Var61",
+            "Var62",
+            "Var63",
+            "Var64",
+            "Var65",
+            "Var66",
+            "Var67",
+            "Var68",
+            "Var69",
+            "Var70",
+            "Var71",
+            "Var72",
+            "Var73",
+            "Var74",
+            "Var75",
+            "Var76",
+            "Var77",
+            "Var78",
+            "Var79",
+            "Var80",
+            "Var81",
+            "Var82",
+            "Var83",
+            "Var84",
+            "Var85",
+            "Var86",
+            "Var87",
+            "Var88",
+            "Var89",
+            "Var90",
+            "Var91",
+            "Var92",
+            "Var93",
+            "Var94",
+            "Var95",
+            "Var96",
+            "Var97",
+            "Var98",
+            "Var99",
+            "Var100",
+            "Var101",
+            "Var102",
+            "Var103",
+            "Var104",
+            "Var105",
+            "Var106",
+            "Var107",
+            "Var108",
+            "Var109",
+            "Var110",
+            "Var111",
+            "Var112",
+            "Var113",
+            "Var114",
+            "Var115",
+            "Var116",
+            "Var117",
+            "Var118",
+            "Var119",
+            "Var120",
+            "Var121",
+            "Var122",
+            "Var123",
+            "Var124",
+            "Var125",
+            "Var126",
+            "Var127",
+            "Var128",
+            "Var129",
+            "Var130",
+            "Var131",
+            "Var132",
+            "Var133",
+            "Var134",
+            "Var135",
+            "Var136",
+            "Var137",
+            "Var138",
+            "Var139",
+            "Var140",
+            "Var141",
+            "Var142",
+            "Var143",
+            "Var144",
+            "Var145",
+            "Var146",
+            "Var147",
+            "Var148",
+            "Var149",
+            "Var150",
+            "Var151",
+            "Var152",
+            "Var153",
+            "Var154",
+            "Var155",
+            "Var156",
+            "Var157",
+            "Var158",
+            "Var159",
+            "Var160",
+            "Var161",
+            "Var162",
+            "Var163",
+            "Var164",
+            "Var165",
+            "Var166",
+            "Var167",
+            "Var168",
+            "Var169",
+            "Var170",
+            "Var171",
+            "Var172",
+            "Var173",
+            "Var174",
+            "Var175",
+            "Var176",
+            "Var177",
+            "Var178",
+            "Var179",
+            "Var180",
+            "Var181",
+            "Var182",
+            "Var183",
+            "Var184",
+            "Var185",
+            "Var186",
+            "Var187",
+            "Var188",
+            "Var189",
+            "Var190",
+            "Var191",
+            "Var192",
+            "Var193",
+            "Var194",
+            "Var195",
+            "Var196",
+            "Var197",
+            "Var198",
+            "Var199",
+            "Var200",
+            "Var201",
+            "Var202",
+            "Var203",
+            "Var204",
+            "Var205",
+            "Var206",
+            "Var207",
+            "Var208",
+            "Var209",
+            "Var210",
+            "Var211",
+            "Var212",
+            "Var213",
+            "Var214",
+            "Var215",
+            "Var216",
+            "Var217",
+            "Var218",
+            "Var219",
+            "Var220",
+            "Var221",
+            "Var222",
+            "Var223",
+            "Var224",
+            "Var225",
+            "Var226",
+            "Var227",
+            "Var228",
+            "Var229",
+            "Var230",
+            "Var231",
+            "Var232",
+            "Var233",
+            "Var234",
+            "Var235",
+            "Var236",
+            "Var237",
+            "Var238",
+            "Var239",
+            "Var240",
+            "Var241",
+            "Var242",
+            "Var243",
+            "Var244",
+            "Var245",
+            "Var246",
+            "Var247",
+            "Var248",
+            "Var249",
+            "Var250",
+            "Var251",
+            "Var252",
+            "Var253",
+            "Var254",
+            "Var255",
+            "Var256",
+            "Var257",
+            "Var258",
+            "Var259",
+            "Var260",
+            "Var261",
+            "Var262",
+            "Var263",
+            "Var264",
+            "Var265",
+            "Var266",
+            "Var267",
+            "Var268",
+            "Var269",
+            "Var270",
+            "Var271",
+            "Var272",
+            "Var273",
+            "Var274",
+            "Var275",
+            "Var276",
+            "Var277",
+            "Var278",
+            "Var279",
+            "Var280",
+            "Var281",
+            "Var282",
+            "Var283",
+            "Var284",
+            "Var285",
+            "Var286",
+            "Var287",
+            "Var288",
+            "Var289",
+            "Var290",
+            "Var291",
+            "Var292",
+            "Var293",
+            "Var294",
+            "Var295",
+            "Var296",
+            "Var297",
+            "Var298",
+            "Var299",
+            "Var300",
+            "Var301",
+            "Var302",
+            "Var303",
+            "Var304",
+            "Var305",
+            "Var306",
+            "Var307",
+            "Var308",
+            "Var309",
+            "Var310",
+            "Var311",
+            "Var312",
+            "Var313",
+            "Var314",
+            "Var315",
+            "Var316",
+            "Var317",
+            "Var318",
+            "Var319",
+            "Var320",
+            "Var321",
+            "Var322",
+            "Var323",
+            "Var324",
+            "Var325",
+            "Var326",
+            "Var327",
+            "Var328",
+            "Var329",
+            "Var330",
+            "Var331",
+            "Var332",
+            "Var333",
+            "Var334",
+            "Var335",
+            "Var336",
+            "Var337",
+            "Var338",
+            "Var339",
+            "Var340",
+            "Var341",
+            "Var342",
+            "Var343",
+            "Var344",
+            "Var345",
+            "Var346",
+            "Var347",
+            "Var348",
+            "Var349",
+            "Var350",
+            "Var351",
+            "Var352",
+            "Var353",
+            "Var354"
+         ],
+         "smps" : [
+            "value",
+            "sf_value"
+         ],
+         "data" : [
+            [
+               7294.29954142,
+               12
+            ],
+            [
+               6.6446573357e-27,
+               11
+            ],
+            [
+               5.9719201914e-10,
+               11
+            ],
+            [
+               3727.3794066,
+               11
+            ],
+            [
+               4.001506179127,
+               13
+            ],
+            [
+               0.0040015061777,
+               11
+            ],
+            [
+               3.97259969009,
+               12
+            ],
+            [
+               4.001506179127,
+               13
+            ],
+            [
+               1.00001495e-10,
+               9
+            ],
+            [
+               1.6605390666e-27,
+               12
+            ],
+            [
+               1.4924180856e-10,
+               12
+            ],
+            [
+               931.49410242,
+               11
+            ],
+            [
+               931494102.42,
+               11
+            ],
+            [
+               34231776.874,
+               11
+            ],
+            [
+               2.25234271871e+23,
+               12
+            ],
+            [
+               751300661040000,
+               11
+            ],
+            [
+               1.4924180856e-10,
+               12
+            ],
+            [
+               10809540191600,
+               12
+            ],
+            [
+               1.6605390666e-27,
+               12
+            ],
+            [
+               3.2063613061e-53,
+               11
+            ],
+            [
+               6.2353799905e-65,
+               11
+            ],
+            [
+               1.054571817e-34,
+               10
+            ],
+            [
+               1.602176634e-19,
+               10
+            ],
+            [
+               1081202384570,
+               12
+            ],
+            [
+               0.00662361823751,
+               13
+            ],
+            [
+               8.4783536255e-30,
+               11
+            ],
+            [
+               514220674763,
+               12
+            ],
+            [
+               9.7173624292e+21,
+               11
+            ],
+            [
+               1.64877727436e-41,
+               12
+            ],
+            [
+               27.211386245988,
+               14
+            ],
+            [
+               4.4865515246e-40,
+               11
+            ],
+            [
+               4.3597447222071e-18,
+               14
+            ],
+            [
+               8.2387234983e-08,
+               11
+            ],
+            [
+               5.29177210903e-11,
+               12
+            ],
+            [
+               1.85480201566e-23,
+               12
+            ],
+            [
+               235051.756758,
+               12
+            ],
+            [
+               7.8910366008e-29,
+               11
+            ],
+            [
+               9.1093837015e-31,
+               11
+            ],
+            [
+               1.9928519141e-24,
+               12
+            ],
+            [
+               1.11265005545e-10,
+               12
+            ],
+            [
+               2.4188843265857e-17,
+               14
+            ],
+            [
+               2187691.26364,
+               12
+            ],
+            [
+               6.02214076e+23,
+               9
+            ],
+            [
+               9.2740100783e-24,
+               11
+            ],
+            [
+               5.788381806e-05,
+               11
+            ],
+            [
+               13996244936.1,
+               12
+            ],
+            [
+               46.686447783,
+               11
+            ],
+            [
+               0.67171381563,
+               11
+            ],
+            [
+               5.29177210903e-11,
+               12
+            ],
+            [
+               1.380649e-23,
+               7
+            ],
+            [
+               8.617333262e-05,
+               10
+            ],
+            [
+               20836619120,
+               10
+            ],
+            [
+               69.50348004,
+               10
+            ],
+            [
+               376.730313668,
+               12
+            ],
+            [
+               2.8179403262e-15,
+               11
+            ],
+            [
+               2.42631023867e-12,
+               12
+            ],
+            [
+               7.748091729e-05,
+               10
+            ],
+            [
+               1.00000008887,
+               12
+            ],
+            [
+               1.00000008887,
+               12
+            ],
+            [
+               0.9999999822,
+               11
+            ],
+            [
+               1.00000001779,
+               12
+            ],
+            [
+               483597900000000,
+               7
+            ],
+            [
+               1.00000001779,
+               12
+            ],
+            [
+               1.00000010666,
+               12
+            ],
+            [
+               25812.807,
+               8
+            ],
+            [
+               1.00000019553,
+               12
+            ],
+            [
+               1.00207697e-13,
+               9
+            ],
+            [
+               -0.0004664345551,
+               10
+            ],
+            [
+               3670.48296788,
+               12
+            ],
+            [
+               0.8574382338,
+               10
+            ],
+            [
+               4.330735094e-27,
+               10
+            ],
+            [
+               0.000466975457,
+               10
+            ],
+            [
+               0.8574382338,
+               10
+            ],
+            [
+               3.3435837724e-27,
+               11
+            ],
+            [
+               3.00506323102e-10,
+               12
+            ],
+            [
+               1875.61294257,
+               12
+            ],
+            [
+               2.013553212745,
+               13
+            ],
+            [
+               0.00201355321205,
+               12
+            ],
+            [
+               -0.44820653,
+               8
+            ],
+            [
+               0.30701220939,
+               11
+            ],
+            [
+               1.99900750139,
+               12
+            ],
+            [
+               2.013553212745,
+               13
+            ],
+            [
+               2.12799e-15,
+               6
+            ],
+            [
+               -175882001076,
+               12
+            ],
+            [
+               -2143.9234915,
+               11
+            ],
+            [
+               0.0002724437107462,
+               13
+            ],
+            [
+               -2.00231930436256,
+               15
+            ],
+            [
+               176085963023,
+               12
+            ],
+            [
+               28024.9514242,
+               12
+            ],
+            [
+               0.0001819543074573,
+               13
+            ],
+            [
+               -9.2847647043e-24,
+               11
+            ],
+            [
+               0.00115965218128,
+               12
+            ],
+            [
+               -1.00115965218128,
+               15
+            ],
+            [
+               -1838.28197188,
+               12
+            ],
+            [
+               9.1093837015e-31,
+               11
+            ],
+            [
+               8.1871057769e-14,
+               11
+            ],
+            [
+               0.51099895,
+               11
+            ],
+            [
+               0.000548579909065,
+               12
+            ],
+            [
+               5.4857990888e-07,
+               11
+            ],
+            [
+               206.7669883,
+               10
+            ],
+            [
+               0.00483633169,
+               9
+            ],
+            [
+               960.9205,
+               8
+            ],
+            [
+               0.00054386734424,
+               11
+            ],
+            [
+               -658.21068789,
+               11
+            ],
+            [
+               0.000544617021487,
+               12
+            ],
+            [
+               0.000548579909065,
+               12
+            ],
+            [
+               0.000287585,
+               6
+            ],
+            [
+               0.0001370933554787,
+               13
+            ],
+            [
+               864.058257,
+               9
+            ],
+            [
+               -658.2275971,
+               10
+            ],
+            [
+               0.0001819200062251,
+               13
+            ],
+            [
+               1.602176634e-19,
+               10
+            ],
+            [
+               1.07354410233e-09,
+               12
+            ],
+            [
+               0.036749322175655,
+               14
+            ],
+            [
+               241798924200000,
+               10
+            ],
+            [
+               806554.3937,
+               10
+            ],
+            [
+               1.602176634e-19,
+               10
+            ],
+            [
+               11604.51812,
+               10
+            ],
+            [
+               1.782661921e-36,
+               10
+            ],
+            [
+               1.602176634e-19,
+               10
+            ],
+            [
+               1519267447000000,
+               10
+            ],
+            [
+               96485.33212,
+               10
+            ],
+            [
+               1.1663787e-05,
+               8
+            ],
+            [
+               0.0072973525693,
+               11
+            ],
+            [
+               3.741771852e-16,
+               10
+            ],
+            [
+               1.191042972e-16,
+               10
+            ],
+            [
+               2.92126232205e-08,
+               12
+            ],
+            [
+               27.211386245988,
+               14
+            ],
+            [
+               4.3597447222071e-18,
+               14
+            ],
+            [
+               27.211386245988,
+               14
+            ],
+            [
+               6579683920502000,
+               13
+            ],
+            [
+               21947463.13632,
+               14
+            ],
+            [
+               4.3597447222071e-18,
+               14
+            ],
+            [
+               315775.02480407,
+               14
+            ],
+            [
+               4.8508702095432e-35,
+               14
+            ],
+            [
+               5495.88528007,
+               12
+            ],
+            [
+               -4.255250615,
+               10
+            ],
+            [
+               -1.074617532e-26,
+               10
+            ],
+            [
+               -0.001158740958,
+               10
+            ],
+            [
+               -2.127625307,
+               10
+            ],
+            [
+               5.0064127796e-27,
+               11
+            ],
+            [
+               4.4995394125e-10,
+               11
+            ],
+            [
+               2808.39160743,
+               12
+            ],
+            [
+               3.014932247175,
+               13
+            ],
+            [
+               0.00301493224613,
+               12
+            ],
+            [
+               2.99315267167,
+               12
+            ],
+            [
+               3.014932247175,
+               13
+            ],
+            [
+               5.996743e-05,
+               7
+            ],
+            [
+               4.4398216652e-24,
+               11
+            ],
+            [
+               4.135667696e-15,
+               10
+            ],
+            [
+               1.519829846057e-16,
+               14
+            ],
+            [
+               3.335640951e-09,
+               10
+            ],
+            [
+               6.62607015e-34,
+               9
+            ],
+            [
+               4.799243073e-11,
+               10
+            ],
+            [
+               7.372497323e-51,
+               10
+            ],
+            [
+               9192631770,
+               10
+            ],
+            [
+               137.035999084,
+               12
+            ],
+            [
+               1.3310250501e-15,
+               12
+            ],
+            [
+               1.239841984e-06,
+               10
+            ],
+            [
+               4.556335252912e-08,
+               14
+            ],
+            [
+               299792458,
+               9
+            ],
+            [
+               1.986445857e-25,
+               10
+            ],
+            [
+               0.01438776877,
+               10
+            ],
+            [
+               2.210219094e-42,
+               10
+            ],
+            [
+               12906.40372,
+               10
+            ],
+            [
+               483597848400000,
+               10
+            ],
+            [
+               6700535256.5,
+               11
+            ],
+            [
+               6241509074000000000,
+               10
+            ],
+            [
+               229371227839630016,
+               14
+            ],
+            [
+               1.509190179e+33,
+               10
+            ],
+            [
+               5.034116567e+24,
+               10
+            ],
+            [
+               7.242970516e+22,
+               10
+            ],
+            [
+               1.112650056e-17,
+               10
+            ],
+            [
+               9.2510873014e-14,
+               11
+            ],
+            [
+               8.617333262e-05,
+               10
+            ],
+            [
+               3.1668115634556e-06,
+               14
+            ],
+            [
+               20836619120,
+               10
+            ],
+            [
+               69.50348004,
+               10
+            ],
+            [
+               1.380649e-23,
+               7
+            ],
+            [
+               1.536179187e-40,
+               10
+            ],
+            [
+               6.0221407621e+26,
+               11
+            ],
+            [
+               5.609588603e+35,
+               10
+            ],
+            [
+               2.0614857887409e+34,
+               14
+            ],
+            [
+               1.356392489e+50,
+               10
+            ],
+            [
+               4.524438335e+41,
+               10
+            ],
+            [
+               89875517870000000,
+               10
+            ],
+            [
+               6.50965726e+39,
+               10
+            ],
+            [
+               5.431020511e-10,
+               10
+            ],
+            [
+               1.920155716e-10,
+               10
+            ],
+            [
+               2.651645804e+25,
+               10
+            ],
+            [
+               2.686780111e+25,
+               10
+            ],
+            [
+               683,
+               3
+            ],
+            [
+               2.067833848e-15,
+               10
+            ],
+            [
+               8.314462618,
+               10
+            ],
+            [
+               0.00099999999965,
+               11
+            ],
+            [
+               0.0119999999958,
+               12
+            ],
+            [
+               3.990312712e-10,
+               10
+            ],
+            [
+               0.02271095464,
+               10
+            ],
+            [
+               0.02241396954,
+               10
+            ],
+            [
+               1.205883199e-05,
+               10
+            ],
+            [
+               1.00209952e-13,
+               9
+            ],
+            [
+               1.17344411e-14,
+               10
+            ],
+            [
+               206.768283,
+               10
+            ],
+            [
+               -2.0023318418,
+               11
+            ],
+            [
+               -4.4904483e-26,
+               9
+            ],
+            [
+               0.00116592089,
+               9
+            ],
+            [
+               -0.00484197047,
+               9
+            ],
+            [
+               -8.89059703,
+               9
+            ],
+            [
+               1.883531627e-28,
+               10
+            ],
+            [
+               1.692833804e-11,
+               10
+            ],
+            [
+               105.6583755,
+               10
+            ],
+            [
+               0.1134289259,
+               10
+            ],
+            [
+               0.0001134289259,
+               10
+            ],
+            [
+               0.112454517,
+               10
+            ],
+            [
+               -3.183345142,
+               10
+            ],
+            [
+               0.1126095264,
+               10
+            ],
+            [
+               0.0594635,
+               6
+            ],
+            [
+               1.054571817e-34,
+               10
+            ],
+            [
+               6.582119569e-16,
+               10
+            ],
+            [
+               8.1871057769e-14,
+               11
+            ],
+            [
+               0.51099895,
+               11
+            ],
+            [
+               3.8615926796e-13,
+               11
+            ],
+            [
+               9.1093837015e-31,
+               11
+            ],
+            [
+               2.73092453075e-22,
+               12
+            ],
+            [
+               0.51099895,
+               11
+            ],
+            [
+               1.28808866819e-21,
+               12
+            ],
+            [
+               299792458,
+               9
+            ],
+            [
+               1.31959090581e-15,
+               12
+            ],
+            [
+               0.00104066882,
+               9
+            ],
+            [
+               1838.68366173,
+               12
+            ],
+            [
+               -3.82608545,
+               9
+            ],
+            [
+               183247171,
+               9
+            ],
+            [
+               29.1646931,
+               9
+            ],
+            [
+               -9.6623651e-27,
+               8
+            ],
+            [
+               -0.00104187563,
+               9
+            ],
+            [
+               -1.91304273,
+               9
+            ],
+            [
+               1.67492749804e-27,
+               12
+            ],
+            [
+               1.50534976287e-10,
+               12
+            ],
+            [
+               939.56542052,
+               11
+            ],
+            [
+               1.00866491595,
+               12
+            ],
+            [
+               0.0010086649156,
+               12
+            ],
+            [
+               8.89248406,
+               9
+            ],
+            [
+               -0.68497934,
+               8
+            ],
+            [
+               2.30557435e-30,
+               9
+            ],
+            [
+               2.07214689e-13,
+               9
+            ],
+            [
+               1.29333236,
+               9
+            ],
+            [
+               0.00138844933,
+               9
+            ],
+            [
+               1.00137841931,
+               12
+            ],
+            [
+               1.00866491595,
+               12
+            ],
+            [
+               0.528779,
+               6
+            ],
+            [
+               -0.68499694,
+               8
+            ],
+            [
+               6.6743e-11,
+               6
+            ],
+            [
+               6.70883e-39,
+               6
+            ],
+            [
+               5.0507837461e-27,
+               11
+            ],
+            [
+               3.15245125844e-08,
+               12
+            ],
+            [
+               0.0254262341353,
+               12
+            ],
+            [
+               0.00036582677756,
+               11
+            ],
+            [
+               7.6225932291,
+               11
+            ],
+            [
+               6.62607015e-34,
+               9
+            ],
+            [
+               4.135667696e-15,
+               10
+            ],
+            [
+               1.616255e-35,
+               7
+            ],
+            [
+               2.176434e-08,
+               7
+            ],
+            [
+               12208900000000000000,
+               7
+            ],
+            [
+               1.416784e+32,
+               7
+            ],
+            [
+               5.391247e-44,
+               7
+            ],
+            [
+               95788331.56,
+               11
+            ],
+            [
+               1.32140985539e-15,
+               12
+            ],
+            [
+               1836.15267343,
+               12
+            ],
+            [
+               5.5856946893,
+               11
+            ],
+            [
+               267522187.44,
+               11
+            ],
+            [
+               42.577478518,
+               11
+            ],
+            [
+               1.41060679736e-26,
+               12
+            ],
+            [
+               0.0015210322023,
+               12
+            ],
+            [
+               2.79284734463,
+               12
+            ],
+            [
+               2.5689e-05,
+               5
+            ],
+            [
+               1.67262192369e-27,
+               12
+            ],
+            [
+               1.50327761598e-10,
+               12
+            ],
+            [
+               938.27208816,
+               11
+            ],
+            [
+               1.007276466621,
+               13
+            ],
+            [
+               0.00100727646627,
+               12
+            ],
+            [
+               8.88024337,
+               9
+            ],
+            [
+               -1.45989805,
+               9
+            ],
+            [
+               0.99862347812,
+               11
+            ],
+            [
+               1.007276466621,
+               13
+            ],
+            [
+               8.414e-16,
+               4
+            ],
+            [
+               0.528051,
+               6
+            ],
+            [
+               0.00036369475516,
+               11
+            ],
+            [
+               0.00072738951032,
+               11
+            ],
+            [
+               3.8615926796e-13,
+               11
+            ],
+            [
+               1.867594306e-15,
+               10
+            ],
+            [
+               2.1001941552e-16,
+               11
+            ],
+            [
+               1.054571817e-34,
+               10
+            ],
+            [
+               6.582119569e-16,
+               10
+            ],
+            [
+               197.3269804,
+               10
+            ],
+            [
+               2.10308910336e-16,
+               12
+            ],
+            [
+               1.110538e-16,
+               7
+            ],
+            [
+               10973731.56816,
+               14
+            ],
+            [
+               3289841960250800,
+               14
+            ],
+            [
+               13.605693122994,
+               14
+            ],
+            [
+               2.1798723611035e-18,
+               14
+            ],
+            [
+               -1.15170753706,
+               12
+            ],
+            [
+               -1.16487052358,
+               12
+            ],
+            [
+               0.01438776877,
+               10
+            ],
+            [
+               203789456.9,
+               10
+            ],
+            [
+               32.43409942,
+               10
+            ],
+            [
+               -1.07455309e-26,
+               10
+            ],
+            [
+               -0.001158671471,
+               10
+            ],
+            [
+               -2.127497719,
+               10
+            ],
+            [
+               -0.7617665618,
+               10
+            ],
+            [
+               -0.7617861313,
+               10
+            ],
+            [
+               267515315.1,
+               10
+            ],
+            [
+               42.57638474,
+               10
+            ],
+            [
+               1.41057056e-26,
+               10
+            ],
+            [
+               0.001520993128,
+               10
+            ],
+            [
+               2.792775599,
+               10
+            ],
+            [
+               2.02e-08,
+               5
+            ],
+            [
+               2.414e-08,
+               5
+            ],
+            [
+               299792458,
+               9
+            ],
+            [
+               9.80665,
+               6
+            ],
+            [
+               101325,
+               6
+            ],
+            [
+               100000,
+               6
+            ],
+            [
+               5.670374419e-08,
+               10
+            ],
+            [
+               6.97771e-16,
+               6
+            ],
+            [
+               3477.23,
+               6
+            ],
+            [
+               1776.86,
+               6
+            ],
+            [
+               3.16754e-27,
+               6
+            ],
+            [
+               2.84684e-10,
+               6
+            ],
+            [
+               1.90754,
+               6
+            ],
+            [
+               0.00190754,
+               6
+            ],
+            [
+               16.817,
+               6
+            ],
+            [
+               1.89115,
+               6
+            ],
+            [
+               1.89376,
+               6
+            ],
+            [
+               6.6524587321e-29,
+               11
+            ],
+            [
+               5496.92153573,
+               12
+            ],
+            [
+               5.957924931,
+               10
+            ],
+            [
+               1.5046095202e-26,
+               11
+            ],
+            [
+               0.0016223936651,
+               11
+            ],
+            [
+               2.9789624656,
+               11
+            ],
+            [
+               5.0073567446e-27,
+               11
+            ],
+            [
+               4.500387806e-10,
+               11
+            ],
+            [
+               2808.92113298,
+               12
+            ],
+            [
+               3.01550071621,
+               12
+            ],
+            [
+               0.00301550071517,
+               12
+            ],
+            [
+               2.99371703414,
+               12
+            ],
+            [
+               3.01550071621,
+               12
+            ],
+            [
+               1.0666399191,
+               11
+            ],
+            [
+               1.6605390666e-27,
+               12
+            ],
+            [
+               8.8541878128e-12,
+               11
+            ],
+            [
+               1.25663706212e-06,
+               12
+            ],
+            [
+               25812.80745,
+               10
+            ],
+            [
+               0.2229,
+               5
+            ],
+            [
+               58789257570,
+               10
+            ],
+            [
+               0.002897771955,
+               10
+            ],
+            [
+               0.88153,
+               5
+            ]
+         ]
+      }
+   }
+}

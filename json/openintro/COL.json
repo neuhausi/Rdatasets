@@ -1,0 +1,162 @@
+{
+   "data" : {
+      "y" : {
+         "vars" : [
+            "Row"
+         ],
+         "smps" : [
+            "blue",
+            "green",
+            "yellow",
+            "red",
+            "black",
+            "gray",
+            "lgray"
+         ],
+         "data" : [
+            [
+               1,
+               2,
+               3,
+               4,
+               5,
+               6,
+               7
+            ]
+         ]
+      },
+      "x" : {
+         "f6" : [
+            "#569BBD18",
+            "#4C721D18",
+            "#F4DC0018",
+            "#F0513318",
+            "#00000018",
+            "#80808018",
+            "#D9D9D918"
+         ],
+         "f4" : [
+            "#569BBD30",
+            "#4C721D30",
+            "#F4DC0030",
+            "#F0513330",
+            "#00000030",
+            "#80808030",
+            "#D9D9D930"
+         ],
+         "f7" : [
+            "#569BBD10",
+            "#4C721D10",
+            "#F4DC0010",
+            "#F0513310",
+            "#00000010",
+            "#80808010",
+            "#D9D9D910"
+         ],
+         "f3" : [
+            "#569BBD40",
+            "#4C721D40",
+            "#F4DC0040",
+            "#F0513340",
+            "#00000040",
+            "#80808040",
+            "#D9D9D940"
+         ],
+         "f8" : [
+            "#569BBD0A",
+            "#4C721D0A",
+            "#F4DC000A",
+            "#F051330A",
+            "#0000000A",
+            "#8080800A",
+            "#D9D9D90A"
+         ],
+         "f5" : [
+            "#569BBD20",
+            "#4C721D20",
+            "#F4DC0020",
+            "#F0513320",
+            "#00000020",
+            "#80808020",
+            "#D9D9D920"
+         ],
+         "f12" : [
+            "#569BBD02",
+            "#4C721D02",
+            "#F4DC0002",
+            "#F0513302",
+            "#00000002",
+            "#80808002",
+            "#D9D9D902"
+         ],
+         "full" : [
+            "#569BBD",
+            "#4C721D",
+            "#F4DC00",
+            "#F05133",
+            "#000000",
+            "#808080",
+            "#D9D9D9"
+         ],
+         "f10" : [
+            "#569BBD06",
+            "#4C721D06",
+            "#F4DC0006",
+            "#F0513306",
+            "#00000006",
+            "#80808006",
+            "#D9D9D906"
+         ],
+         "f9" : [
+            "#569BBD08",
+            "#4C721D08",
+            "#F4DC0008",
+            "#F0513308",
+            "#00000008",
+            "#80808008",
+            "#D9D9D908"
+         ],
+         "f11" : [
+            "#569BBD04",
+            "#4C721D04",
+            "#F4DC0004",
+            "#F0513304",
+            "#00000004",
+            "#80808004",
+            "#D9D9D904"
+         ],
+         "f2" : [
+            "#569BBD80",
+            "#4C721D80",
+            "#F4DC0080",
+            "#F0513380",
+            "#00000080",
+            "#80808080",
+            "#D9D9D980"
+         ],
+         "f1" : [
+            "#569BBDC0",
+            "#4C721DC0",
+            "#F4DC00C0",
+            "#F05133C0",
+            "#000000C0",
+            "#808080C0",
+            "#D9D9D9C0"
+         ]
+      }
+   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>COL</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>OpenIntro Statistics colors</h2>\n<h3>Description</h3>\n<p>These are the core colors used for the OpenIntro Statistics textbook. The\nblue, green, yellow, and red colors are also gray-scaled, meaning no changes\nare required when printing black and white copies.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>COL\n</code></pre>\n<h3>Format</h3>\n<p>A 7-by-13 matrix of 7 colors with thirteen fading scales: blue,\ngreen, yellow, red, black, gray, and light gray.\n</p>\n<h3>Source</h3>\n<p>Colors selected by OpenIntro's in-house graphic designer,\n<a href=\"http://www.meenalpatel.com\">Meenal Patel</a>.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>\nplot(1:7, 7:1,\n  col = COL, pch = 19, cex = 6, xlab = \"\", ylab = \"\",\n  xlim = c(0.5, 7.5), ylim = c(-2.5, 8), axes = FALSE\ntext(1:7, 7:1 + 0.7, paste(\"COL[\", 1:7, \"]\", sep = \"\"), cex = 0.9)\npoints(1:7, 7:1 - 0.7, col = COL[, 2], pch = 19, cex = 6)\npoints(1:7, 7:1 - 1.4, col = COL[, 3], pch = 19, cex = 6)\npoints(1:7, 7:1 - 2.1, col = COL[, 4], pch = 19, cex = 6)\n</code></pre>\n</main>\n</div>\n",
+   "config" : {
+      "groupingFactors" : [
+         "f6"
+      ],
+      "colorBy" : "f3",
+      "title" : "OpenIntro Statistics colors",
+      "segregateSamplesBy" : [
+         "f4",
+         "f7"
+      ],
+      "subtitle" : "openintro - COL",
+      "graphType" : "Dotplot"
+   }
+}

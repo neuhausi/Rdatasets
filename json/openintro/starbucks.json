@@ -1,0 +1,802 @@
+{
+   "config" : {
+      "scatterPlotMatrix" : 1,
+      "subtitle" : "openintro - starbucks",
+      "shapeBy" : "item",
+      "graphType" : "Scatter2D",
+      "colorBy" : "type",
+      "title" : "Starbucks nutrition"
+   },
+   "data" : {
+      "z" : {
+         "type" : [
+            "bakery",
+            "bakery",
+            "bakery",
+            "bakery",
+            "bakery",
+            "bakery",
+            "bakery",
+            "bakery",
+            "bakery",
+            "bakery",
+            "bakery",
+            "bakery",
+            "bakery",
+            "bakery",
+            "bakery",
+            "bakery",
+            "bakery",
+            "bakery",
+            "bakery",
+            "bakery",
+            "bakery",
+            "bakery",
+            "bakery",
+            "bakery",
+            "bakery",
+            "bakery",
+            "bakery",
+            "bakery",
+            "bakery",
+            "bakery",
+            "bakery",
+            "bakery",
+            "bakery",
+            "bakery",
+            "bakery",
+            "bakery",
+            "bakery",
+            "bakery",
+            "bakery",
+            "bakery",
+            "bakery",
+            "bistro box",
+            "bistro box",
+            "bistro box",
+            "bistro box",
+            "bistro box",
+            "bistro box",
+            "bistro box",
+            "bistro box",
+            "petite",
+            "petite",
+            "petite",
+            "petite",
+            "petite",
+            "petite",
+            "petite",
+            "petite",
+            "petite",
+            "hot breakfast",
+            "hot breakfast",
+            "hot breakfast",
+            "hot breakfast",
+            "hot breakfast",
+            "hot breakfast",
+            "hot breakfast",
+            "hot breakfast",
+            "salad",
+            "sandwich",
+            "sandwich",
+            "sandwich",
+            "sandwich",
+            "sandwich",
+            "sandwich",
+            "sandwich",
+            "parfait",
+            "parfait",
+            "parfait"
+         ],
+         "item" : [
+            "8-Grain Roll",
+            "Apple Bran Muffin",
+            "Apple Fritter",
+            "Banana Nut Loaf",
+            "Birthday Cake Mini Doughnut",
+            "Blueberry Oat Bar",
+            "Blueberry Scone",
+            "Bountiful Blueberry Muffin",
+            "Butter Croissant ",
+            "Cheese Danish",
+            "Chocolate Chunk Cookie",
+            "Chocolate Cinnamon Bread",
+            "Chocolate Croissant",
+            "Chocolate Old-Fashioned Doughnut",
+            "Chonga Bagel",
+            "Cinnamon Chip Scone",
+            "Cranberry Orange Scone",
+            "Double Chocolate Brownie",
+            "Double Fudge Mini Doughnut",
+            "Everything with Cheese Bagel",
+            "Ginger Molasses Cookie",
+            "Iced Lemon Pound Cake",
+            "Mallorca Sweet Bread",
+            "Maple Oat Pecan Scone ",
+            "Marble Pound Cake",
+            "Marshmallow Dream Bar",
+            "Morning Bun",
+            "Multigrain Bagel",
+            "Old-Fashioned Glazed Doughnut",
+            "Outrageous Oatmeal Cookie",
+            "Petite Vanilla Bean Scone",
+            "Plain Bagel",
+            "Pumpkin Bread",
+            "Pumpkin Scone ",
+            "Raspberry Scone",
+            "Raspberry Swirl Pound Cake",
+            "Reduced-Fat Banana Chocolate Chip Coffee Cake",
+            "Reduced-Fat Cinnamon Swirl Coffee Cake",
+            "Reduced-Fat Very Berry Coffee Cake ",
+            "Starbucks Classic Coffee Cake",
+            "Zucchini Walnut Muffin ",
+            "Cheese & Fruit",
+            "Chicken & Hummus",
+            "Chicken Lettuce Wraps",
+            "Chipotle Chicken Wraps",
+            "Protein",
+            "Salumi & Cheese",
+            "Sesame Noodles",
+            "Tuna Salad",
+            "Apple Pie",
+            "Birthday Cake Pop",
+            "Brown Sugar Walnut Tart",
+            "Cherry Pie",
+            "Chocolate Creme Whoopie Pie",
+            "Chocolate Hazelnut Tart",
+            "Raspberry Truffle Cake Pop",
+            "Red Velvet Whoopie Pie",
+            "Tiramisu Cake Pop",
+            "Bacon & Gouda Artisan Breakfast Sandwich",
+            "Chicken Sausage Breakfast Wrap",
+            "Ham & Cheddar Artisan Breakfast Sandwich",
+            "Sausage & Cheddar Classic Breakfast Sandwich",
+            "Spinach & Feta Breakfast Wrap",
+            "Starbucks Perfect Oatmeal",
+            "Turkey Bacon & White Cheddar Classic Breakfast Sandwich",
+            "Veggie & Monterey Jack Artisan Breakfast Sandwich",
+            "Deluxe Fruit Blend",
+            "Chicken Santa Fe Panini",
+            "Egg Salad Sandwich ",
+            "Ham & Swiss Panini",
+            "Roasted Tomato & Mozzarella Panini",
+            "Roasted Vegetable Panini",
+            "Tarragon Chicken Salad Sandwich",
+            "Turkey & Swiss Sandwich",
+            "Greek Yogurt Honey Parfait",
+            "Peach Raspberry Yogurt Parfait",
+            "Strawberry & Blueberry Yogurt Parfait"
+         ]
+      },
+      "y" : {
+         "vars" : [
+            "Var1",
+            "Var2",
+            "Var3",
+            "Var4",
+            "Var5",
+            "Var6",
+            "Var7",
+            "Var8",
+            "Var9",
+            "Var10",
+            "Var11",
+            "Var12",
+            "Var13",
+            "Var14",
+            "Var15",
+            "Var16",
+            "Var17",
+            "Var18",
+            "Var19",
+            "Var20",
+            "Var21",
+            "Var22",
+            "Var23",
+            "Var24",
+            "Var25",
+            "Var26",
+            "Var27",
+            "Var28",
+            "Var29",
+            "Var30",
+            "Var31",
+            "Var32",
+            "Var33",
+            "Var34",
+            "Var35",
+            "Var36",
+            "Var37",
+            "Var38",
+            "Var39",
+            "Var40",
+            "Var41",
+            "Var42",
+            "Var43",
+            "Var44",
+            "Var45",
+            "Var46",
+            "Var47",
+            "Var48",
+            "Var49",
+            "Var50",
+            "Var51",
+            "Var52",
+            "Var53",
+            "Var54",
+            "Var55",
+            "Var56",
+            "Var57",
+            "Var58",
+            "Var59",
+            "Var60",
+            "Var61",
+            "Var62",
+            "Var63",
+            "Var64",
+            "Var65",
+            "Var66",
+            "Var67",
+            "Var68",
+            "Var69",
+            "Var70",
+            "Var71",
+            "Var72",
+            "Var73",
+            "Var74",
+            "Var75",
+            "Var76",
+            "Var77"
+         ],
+         "smps" : [
+            "calories",
+            "fat",
+            "carb",
+            "fiber",
+            "protein"
+         ],
+         "data" : [
+            [
+               350,
+               8,
+               67,
+               5,
+               10
+            ],
+            [
+               350,
+               9,
+               64,
+               7,
+               6
+            ],
+            [
+               420,
+               20,
+               59,
+               0,
+               5
+            ],
+            [
+               490,
+               19,
+               75,
+               4,
+               7
+            ],
+            [
+               130,
+               6,
+               17,
+               0,
+               0
+            ],
+            [
+               370,
+               14,
+               47,
+               5,
+               6
+            ],
+            [
+               460,
+               22,
+               61,
+               2,
+               7
+            ],
+            [
+               370,
+               14,
+               55,
+               0,
+               6
+            ],
+            [
+               310,
+               18,
+               32,
+               0,
+               5
+            ],
+            [
+               420,
+               25,
+               39,
+               0,
+               7
+            ],
+            [
+               380,
+               17,
+               51,
+               2,
+               4
+            ],
+            [
+               320,
+               12,
+               53,
+               3,
+               6
+            ],
+            [
+               300,
+               17,
+               34,
+               2,
+               5
+            ],
+            [
+               420,
+               21,
+               57,
+               2,
+               5
+            ],
+            [
+               310,
+               5,
+               52,
+               3,
+               12
+            ],
+            [
+               480,
+               18,
+               70,
+               3,
+               7
+            ],
+            [
+               490,
+               18,
+               73,
+               2,
+               8
+            ],
+            [
+               410,
+               24,
+               46,
+               3,
+               6
+            ],
+            [
+               130,
+               7,
+               16,
+               0,
+               0
+            ],
+            [
+               280,
+               2,
+               56,
+               2,
+               10
+            ],
+            [
+               360,
+               12,
+               58,
+               0,
+               3
+            ],
+            [
+               490,
+               23,
+               67,
+               0,
+               5
+            ],
+            [
+               420,
+               25,
+               42,
+               0,
+               7
+            ],
+            [
+               440,
+               18,
+               59,
+               3,
+               8
+            ],
+            [
+               350,
+               13,
+               54,
+               0,
+               6
+            ],
+            [
+               210,
+               4,
+               43,
+               0,
+               0
+            ],
+            [
+               350,
+               16,
+               45,
+               2,
+               6
+            ],
+            [
+               300,
+               3,
+               60,
+               6,
+               15
+            ],
+            [
+               420,
+               21,
+               57,
+               0,
+               4
+            ],
+            [
+               370,
+               14,
+               56,
+               3,
+               5
+            ],
+            [
+               140,
+               5,
+               21,
+               0,
+               0
+            ],
+            [
+               280,
+               1,
+               59,
+               2,
+               9
+            ],
+            [
+               390,
+               14,
+               61,
+               2,
+               6
+            ],
+            [
+               480,
+               17,
+               78,
+               2,
+               6
+            ],
+            [
+               480,
+               25,
+               59,
+               3,
+               8
+            ],
+            [
+               430,
+               16,
+               69,
+               0,
+               4
+            ],
+            [
+               400,
+               8,
+               80,
+               4,
+               5
+            ],
+            [
+               340,
+               9,
+               62,
+               2,
+               4
+            ],
+            [
+               350,
+               10,
+               59,
+               4,
+               7
+            ],
+            [
+               440,
+               19,
+               63,
+               0,
+               6
+            ],
+            [
+               490,
+               28,
+               52,
+               2,
+               7
+            ],
+            [
+               480,
+               28,
+               39,
+               6,
+               18
+            ],
+            [
+               270,
+               8,
+               29,
+               6,
+               16
+            ],
+            [
+               360,
+               19,
+               32,
+               4,
+               17
+            ],
+            [
+               380,
+               15,
+               35,
+               6,
+               26
+            ],
+            [
+               380,
+               19,
+               37,
+               5,
+               13
+            ],
+            [
+               420,
+               26,
+               22,
+               3,
+               25
+            ],
+            [
+               350,
+               11,
+               50,
+               6,
+               15
+            ],
+            [
+               380,
+               21,
+               25,
+               5,
+               23
+            ],
+            [
+               180,
+               7,
+               27,
+               0,
+               2
+            ],
+            [
+               170,
+               9,
+               22,
+               0,
+               0
+            ],
+            [
+               190,
+               12,
+               24,
+               0,
+               2
+            ],
+            [
+               170,
+               7,
+               24,
+               0,
+               2
+            ],
+            [
+               190,
+               11,
+               23,
+               0,
+               0
+            ],
+            [
+               180,
+               10,
+               23,
+               0,
+               2
+            ],
+            [
+               160,
+               8,
+               24,
+               0,
+               2
+            ],
+            [
+               190,
+               11,
+               21,
+               0,
+               0
+            ],
+            [
+               170,
+               9,
+               22,
+               0,
+               0
+            ],
+            [
+               350,
+               18,
+               30,
+               0,
+               17
+            ],
+            [
+               300,
+               10,
+               33,
+               5,
+               14
+            ],
+            [
+               350,
+               16,
+               31,
+               0,
+               20
+            ],
+            [
+               500,
+               28,
+               41,
+               0,
+               19
+            ],
+            [
+               290,
+               10,
+               33,
+               6,
+               19
+            ],
+            [
+               140,
+               2.5,
+               25,
+               4,
+               5
+            ],
+            [
+               320,
+               7,
+               43,
+               3,
+               18
+            ],
+            [
+               350,
+               18,
+               30,
+               0,
+               17
+            ],
+            [
+               80,
+               0,
+               20,
+               2,
+               0
+            ],
+            [
+               400,
+               11,
+               47,
+               2,
+               26
+            ],
+            [
+               460,
+               27,
+               37,
+               5,
+               22
+            ],
+            [
+               360,
+               9,
+               43,
+               2,
+               28
+            ],
+            [
+               390,
+               18,
+               44,
+               3,
+               15
+            ],
+            [
+               350,
+               12,
+               48,
+               4,
+               13
+            ],
+            [
+               420,
+               13,
+               46,
+               6,
+               32
+            ],
+            [
+               390,
+               13,
+               36,
+               2,
+               34
+            ],
+            [
+               300,
+               12,
+               44,
+               0,
+               8
+            ],
+            [
+               300,
+               4,
+               57,
+               3,
+               10
+            ],
+            [
+               300,
+               3.5,
+               60,
+               3,
+               7
+            ]
+         ]
+      }
+   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>starbucks</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Starbucks nutrition</h2>\n<h3>Description</h3>\n<p>Nutrition facts for several Starbucks food items\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>starbucks\n</code></pre>\n<h3>Format</h3>\n<p>A data frame with 77 observations on the following 7 variables.\n</p>\n<dl>\n<dt>item</dt><dd><p>Food item.</p>\n</dd>\n<dt>calories</dt><dd><p>Calories.</p>\n</dd>\n<dt>fat</dt><dd><p>a numeric vector</p>\n</dd>\n<dt>carb</dt><dd><p>a numeric vector</p>\n</dd>\n<dt>fiber</dt><dd><p>a numeric vector</p>\n</dd>\n<dt>protein</dt><dd><p>a numeric vector</p>\n</dd>\n<dt>type</dt><dd><p>a factor with levels <code>bakery</code>, <code>bistro box</code>, <code>hot breakfast</code>, <code>parfait</code>, <code>petite</code>, <code>salad</code>, and <code>sandwich</code></p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p><a href=\"https://www.starbucks.com/menu\">https://www.starbucks.com/menu</a>, retrieved 2011-03-10.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>\nstarbucks\n</code></pre>\n</main>\n</div>\n"
+}

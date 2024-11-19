@@ -1,0 +1,59 @@
+{
+   "data" : {
+      "y" : {
+         "smps" : [
+            "Rural Male",
+            "Rural Female",
+            "Urban Male",
+            "Urban Female"
+         ],
+         "data" : [
+            [
+               11.7,
+               8.7,
+               15.4,
+               8.4
+            ],
+            [
+               18.1,
+               11.7,
+               24.3,
+               13.6
+            ],
+            [
+               26.9,
+               20.3,
+               37,
+               19.3
+            ],
+            [
+               41,
+               30.9,
+               54.6,
+               35.1
+            ],
+            [
+               66,
+               54.3,
+               71.1,
+               50
+            ]
+         ],
+         "vars" : [
+            "50-54",
+            "55-59",
+            "60-64",
+            "65-69",
+            "70-74"
+         ]
+      }
+   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>VADeaths</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Death Rates in Virginia (1940)</h2>\n<h3>Description</h3>\n<p>Death rates per 1000 in Virginia in 1940.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>VADeaths</code></pre>\n<h3>Format</h3>\n<p>A matrix with 5 rows and 4 columns.</p>\n<h3>Details</h3>\n<p>The death rates are measured per 1000 population per year.  They\nare cross-classified by age group (rows) and\npopulation group (columns).  The age groups are: 50&ndash;54, 55&ndash;59,\n60&ndash;64, 65&ndash;69, 70&ndash;74 and the population groups are Rural/Male,\nRural/Female, Urban/Male and Urban/Female.\n</p>\n<p>This provides a rather nice 3-way analysis of variance example.\n</p>\n<h3>Source</h3>\n<p>Molyneaux, L.,  Gilliam, S. K., and  Florant, L. C.(1947)\nDifferences in Virginia death rates by color, sex, age,\nand rural or urban residence.\n<em>American Sociological Review</em>, <b>12</b>, 525&ndash;535.\n</p>\n<h3>References</h3>\n<p>McNeil, D. R. (1977)\n<em>Interactive Data Analysis</em>.\nWiley.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>require(stats); require(graphics)\nn &lt;- length(dr &lt;- c(VADeaths))\nnam &lt;- names(VADeaths)\nd.VAD &lt;- data.frame(\n Drate = dr,\n age = rep(ordered(rownames(VADeaths)), length.out = n),\n gender = gl(2, 5, n, labels = c(\"M\", \"F\")),\n site =  gl(2, 10, labels = c(\"rural\", \"urban\")))\ncoplot(Drate ~ as.numeric(age) | gender * site, data = d.VAD,\n       panel = panel.smooth, xlab = \"VADeaths data - Given: gender\")\nsummary(aov.VAD &lt;- aov(Drate ~ .^2, data = d.VAD))\nopar &lt;- par(mfrow = c(2, 2), oma = c(0, 0, 1.1, 0))\nplot(aov.VAD)\npar(opar)\n</code></pre>\n</main>\n</div>\n",
+   "config" : {
+      "subtitle" : "datasets - VADeaths",
+      "scatterPlotMatrix" : 1,
+      "graphType" : "Scatter2D",
+      "colorBy" : null,
+      "title" : "Death Rates in Virginia (1940)"
+   }
+}

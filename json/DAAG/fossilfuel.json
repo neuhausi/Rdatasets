@@ -1,0 +1,45 @@
+{
+   "config" : {
+      "subtitle" : "DAAG - fossilfuel",
+      "graphType" : "Scatter2D",
+      "title" : "Fossil Fuel Data"
+   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>fossilfuel</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Fossil Fuel Data</h2>\n<h3>Description</h3>\n<p>Estimates of total worldwide carbon emissions from\nfossil fuel use.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>fossilfuel</code></pre>\n<h3>Format</h3>\n<p>This data frame contains the following columns:\n</p>\n<dl>\n<dt>year</dt><dd><p>a numeric vector giving the year the measurement\nwas taken.</p>\n</dd>\n<dt>carbon</dt><dd><p>a numeric vector giving the total worldwide\ncarbon emissions from fossil fuel use, in millions of tonnes.</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>Data for the years 1751 through to 2014 is available\nfrom Data for the years 2014\n<a href=\"https://data.ess-dive.lbl.gov/portals/CDIAC\">https://data.ess-dive.lbl.gov/portals/CDIAC</a></p>\n<h3>Source</h3>\n<p>Boden T A; Marland G; Andres R J (1999): Global, Regional, and National Fossil-Fuel CO2 Emissions (1751 - 2014) (V. 2017). Carbon Dioxide Information Analysis Center (CDIAC), Oak Ridge National Laboratory (ORNL), Oak Ridge, TN (United States), ESS-DIVE repository. Dataset. doi:10.3334/CDIAC/00001_V2017\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>plot(fossilfuel)\n</code></pre>\n</main>\n</div>\n",
+   "data" : {
+      "y" : {
+         "data" : [
+            [
+               1800,
+               8
+            ],
+            [
+               1850,
+               54
+            ],
+            [
+               1900,
+               534
+            ],
+            [
+               1950,
+               1630
+            ],
+            [
+               2000,
+               6611
+            ]
+         ],
+         "smps" : [
+            "year",
+            "carbon"
+         ],
+         "vars" : [
+            "Var1",
+            "Var2",
+            "Var3",
+            "Var4",
+            "Var5"
+         ]
+      }
+   }
+}

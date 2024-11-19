@@ -1,0 +1,18 @@
+[
+   [
+      "InstInnovation",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/sandwich/InstInnovation.json"
+   ],
+   [
+      "Investment",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/sandwich/Investment.json"
+   ],
+   [
+      "PetersenCL",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/sandwich/PetersenCL.json"
+   ],
+   [
+      "PublicSchools",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/sandwich/PublicSchools.json"
+   ]
+]

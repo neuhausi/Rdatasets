@@ -1,0 +1,10 @@
+[
+   [
+      "eeg",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/itsadug/eeg.json"
+   ],
+   [
+      "simdat",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/itsadug/simdat.json"
+   ]
+]

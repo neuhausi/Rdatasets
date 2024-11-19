@@ -1,0 +1,172 @@
+{
+   "config" : {
+      "colorBy" : "League",
+      "title" : "Baseball Game Times of One Day in 2017",
+      "subtitle" : "Stat2Data - BaseballTimes2017",
+      "scatterPlotMatrix" : 1,
+      "graphType" : "Scatter2D",
+      "shapeBy" : "Game"
+   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>BaseballTimes2017</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Baseball Game Times of One Day in 2017</h2>\n<h3>Description</h3>\n<p>Times for one day's major league baseball games\n</p>\n<h3>Format</h3>\n<p>A data frame with 14 observations on the following 7 variables.\n</p>\n<dl>\n<dt><code>Game</code></dt><dd><p>MLB teams that played</p>\n</dd>\n<dt><code>League</code></dt><dd><p><code>AL</code>=American League, <code>IL</code>=Interleague, or <code>NL</code>=National League</p>\n</dd>\n<dt><code>Runs</code></dt><dd><p>Runs scored by the two teams combined</p>\n</dd>\n<dt><code>Margin</code></dt><dd><p>Winning margin</p>\n</dd>\n<dt><code>Pitchers</code></dt><dd><p>Number of pitchers used total for two teams</p>\n</dd>\n<dt><code>Attendance</code></dt><dd><p>Announced attendance</p>\n</dd>\n<dt><code>Time</code></dt><dd><p>Time in minutes to play the game</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>Data from all MLB games played on August 11, 2017. There were no extra-innings game nor any rain delays.\n</p>\n<h3>Source</h3>\n<p>https://www.baseball-reference.com/boxes/?month=8&amp;day=11&amp;year=2017\n</p>\n</main>\n</div>\n",
+   "data" : {
+      "y" : {
+         "vars" : [
+            "Var1",
+            "Var2",
+            "Var3",
+            "Var4",
+            "Var5",
+            "Var6",
+            "Var7",
+            "Var8",
+            "Var9",
+            "Var10",
+            "Var11",
+            "Var12",
+            "Var13",
+            "Var14"
+         ],
+         "smps" : [
+            "Runs",
+            "Margin",
+            "Pitchers",
+            "Attendance",
+            "Time"
+         ],
+         "data" : [
+            [
+               11,
+               5,
+               10,
+               39131,
+               203
+            ],
+            [
+               9,
+               3,
+               7,
+               18137,
+               169
+            ],
+            [
+               13,
+               5,
+               10,
+               29733,
+               201
+            ],
+            [
+               7,
+               1,
+               6,
+               52898,
+               179
+            ],
+            [
+               9,
+               3,
+               10,
+               20096,
+               204
+            ],
+            [
+               21,
+               1,
+               10,
+               34517,
+               235
+            ],
+            [
+               9,
+               1,
+               8,
+               46509,
+               220
+            ],
+            [
+               9,
+               1,
+               8,
+               14330,
+               168
+            ],
+            [
+               13,
+               1,
+               11,
+               26925,
+               205
+            ],
+            [
+               11,
+               1,
+               9,
+               38206,
+               184
+            ],
+            [
+               13,
+               3,
+               10,
+               41928,
+               188
+            ],
+            [
+               5,
+               5,
+               6,
+               16794,
+               164
+            ],
+            [
+               10,
+               2,
+               7,
+               33897,
+               202
+            ],
+            [
+               6,
+               2,
+               6,
+               35965,
+               161
+            ]
+         ]
+      },
+      "z" : {
+         "League" : [
+            "NL",
+            "AL",
+            "AL",
+            "NL",
+            "NL",
+            "NL",
+            "AL",
+            "AL",
+            "NL",
+            "AL",
+            "NL",
+            "AL",
+            "AL",
+            "IL"
+         ],
+         "Game" : [
+            "CHC-ARI",
+            "KCR-CHW",
+            "MIN-DET",
+            "SDP-LAD",
+            "COL-MIA",
+            "CIN-MIL",
+            "BOS-NYY",
+            "BAL-OAK",
+            "NYM-PHI",
+            "LAA-SEA",
+            "ATL-STL",
+            "CLE-TBR",
+            "HOU-TEX",
+            "PIT-TOR"
+         ]
+      }
+   }
+}

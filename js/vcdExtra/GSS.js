@@ -1,0 +1,37 @@
+var GSS = [
+   [
+      "sex",
+      "party",
+      "count"
+   ],
+   [
+      "female",
+      "dem",
+      "279"
+   ],
+   [
+      "male",
+      "dem",
+      "165"
+   ],
+   [
+      "female",
+      "indep",
+      "73"
+   ],
+   [
+      "male",
+      "indep",
+      "47"
+   ],
+   [
+      "female",
+      "rep",
+      "225"
+   ],
+   [
+      "male",
+      "rep",
+      "191"
+   ]
+]

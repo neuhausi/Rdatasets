@@ -1,0 +1,126 @@
+[
+   [
+      "admissions",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/dslabs/admissions.json"
+   ],
+   [
+      "brca",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/dslabs/brca.json"
+   ],
+   [
+      "brexit_polls",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/dslabs/brexit_polls.json"
+   ],
+   [
+      "death_prob",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/dslabs/death_prob.json"
+   ],
+   [
+      "divorce_margarine",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/dslabs/divorce_margarine.json"
+   ],
+   [
+      "gapminder",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/dslabs/gapminder.json"
+   ],
+   [
+      "greenhouse_gases",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/dslabs/greenhouse_gases.json"
+   ],
+   [
+      "heights",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/dslabs/heights.json"
+   ],
+   [
+      "historic_co2",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/dslabs/historic_co2.json"
+   ],
+   [
+      "mice_weights (mice_weigths)",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/dslabs/mice_weights (mice_weigths).json"
+   ],
+   [
+      "movielens",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/dslabs/movielens.json"
+   ],
+   [
+      "murders",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/dslabs/murders.json"
+   ],
+   [
+      "na_example",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/dslabs/na_example.json"
+   ],
+   [
+      "nyc_regents_scores",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/dslabs/nyc_regents_scores.json"
+   ],
+   [
+      "oecd (gapminder)",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/dslabs/oecd (gapminder).json"
+   ],
+   [
+      "olive",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/dslabs/olive.json"
+   ],
+   [
+      "opec (gapminder)",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/dslabs/opec (gapminder).json"
+   ],
+   [
+      "outlier_example",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/dslabs/outlier_example.json"
+   ],
+   [
+      "polls_2008",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/dslabs/polls_2008.json"
+   ],
+   [
+      "polls_us_election_2016",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/dslabs/polls_us_election_2016.json"
+   ],
+   [
+      "pr_death_counts (pr-death-counts)",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/dslabs/pr_death_counts (pr-death-counts).json"
+   ],
+   [
+      "raw_data_research_funding_rates",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/dslabs/raw_data_research_funding_rates.json"
+   ],
+   [
+      "reported_heights",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/dslabs/reported_heights.json"
+   ],
+   [
+      "research_funding_rates",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/dslabs/research_funding_rates.json"
+   ],
+   [
+      "results_us_election_2016 (polls_us_election_2016)",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/dslabs/results_us_election_2016 (polls_us_election_2016).json"
+   ],
+   [
+      "sentiment_counts (trump_tweets)",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/dslabs/sentiment_counts (trump_tweets).json"
+   ],
+   [
+      "stars",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/dslabs/stars.json"
+   ],
+   [
+      "temp_carbon",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/dslabs/temp_carbon.json"
+   ],
+   [
+      "tissue_gene_expression",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/dslabs/tissue_gene_expression.json"
+   ],
+   [
+      "trump_tweets",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/dslabs/trump_tweets.json"
+   ],
+   [
+      "us_contagious_diseases",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/dslabs/us_contagious_diseases.json"
+   ]
+]

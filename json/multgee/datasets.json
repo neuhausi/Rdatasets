@@ -1,0 +1,10 @@
+[
+   [
+      "arthritis",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/multgee/arthritis.json"
+   ],
+   [
+      "housing",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/multgee/housing.json"
+   ]
+]

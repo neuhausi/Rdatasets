@@ -1,0 +1,1568 @@
+{
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>schizophrenia2</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2> Schizophrenia Data </h2>\n<h3>Description</h3>\n<p>Though disorder and early onset of schizophrenia.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(\"schizophrenia2\")</code></pre>\n<h3>Format</h3>\n<p>A data frame with 220 observations on the following 4 variables.\n</p>\n<dl>\n<dt><code>subject</code></dt><dd><p>the patient ID, a factor with levels <code>1</code> to\n<code>44</code>.</p>\n</dd>\n<dt><code>onset</code></dt><dd><p>the time of onset of the disease, \na factor with levels <code>&lt; 20 yrs</code> and \n<code>&gt; 20 yrs</code>.</p>\n</dd>\n<dt><code>disorder</code></dt><dd><p>whether thought disorder was <code>absent</code> or\n<code>present</code>, the response variable.</p>\n</dd>\n<dt><code>month</code></dt><dd><p>month after hospitalisation.</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>The data were collected in a follow-up study\nof women patients with schizophrenia. The binary response recorded\nat 0, 2, 6, 8 and 10 months after hospitalisation was thought\ndisorder (absent or present). The single covariate is the factor \nindicating whether a patient had suffered early or late\nonset of her condition (age of onset less than 20 years or\nage of onset 20 years or above). The question of interest is\nwhether the course of the illness differs between patients with\nearly and late onset?\n</p>\n<h3>Source</h3>\n<p>Davis (2002), <em>Statistical Methods for the Analysis of \nRepeated Measurements</em>, Springer, New York.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>\n  data(\"schizophrenia2\", package = \"HSAUR\")\n  mosaicplot(xtabs( ~ onset + month + disorder, data = schizophrenia2))\n</code></pre>\n</main>\n</div>\n",
+   "data" : {
+      "z" : {
+         "disorder" : [
+            "present",
+            "present",
+            "absent",
+            "absent",
+            "absent",
+            "absent",
+            "absent",
+            "absent",
+            "absent",
+            "absent",
+            "present",
+            "present",
+            "absent",
+            "absent",
+            "absent",
+            "absent",
+            "absent",
+            "absent",
+            "absent",
+            "absent",
+            "present",
+            "present",
+            "present",
+            "present",
+            "present",
+            "present",
+            "present",
+            "absent",
+            "absent",
+            "absent",
+            "present",
+            "absent",
+            "present",
+            "absent",
+            "absent",
+            "present",
+            "present",
+            "absent",
+            "absent",
+            "absent",
+            "absent",
+            "absent",
+            "present",
+            "absent",
+            "absent",
+            "absent",
+            "absent",
+            "absent",
+            "absent",
+            "absent",
+            "present",
+            "present",
+            "present",
+            "absent",
+            "present",
+            "absent",
+            "absent",
+            "",
+            "",
+            "",
+            "present",
+            "present",
+            "absent",
+            "absent",
+            "absent",
+            "present",
+            "present",
+            "absent",
+            "absent",
+            "absent",
+            "present",
+            "present",
+            "absent",
+            "absent",
+            "absent",
+            "present",
+            "present",
+            "present",
+            "absent",
+            "absent",
+            "absent",
+            "present",
+            "absent",
+            "absent",
+            "absent",
+            "present",
+            "present",
+            "absent",
+            "present",
+            "absent",
+            "present",
+            "present",
+            "present",
+            "absent",
+            "absent",
+            "absent",
+            "absent",
+            "absent",
+            "absent",
+            "absent",
+            "absent",
+            "absent",
+            "present",
+            "present",
+            "present",
+            "absent",
+            "present",
+            "present",
+            "absent",
+            "absent",
+            "present",
+            "present",
+            "absent",
+            "present",
+            "absent",
+            "present",
+            "absent",
+            "absent",
+            "absent",
+            "absent",
+            "present",
+            "absent",
+            "absent",
+            "absent",
+            "absent",
+            "absent",
+            "absent",
+            "absent",
+            "absent",
+            "absent",
+            "present",
+            "present",
+            "absent",
+            "absent",
+            "absent",
+            "absent",
+            "absent",
+            "absent",
+            "absent",
+            "absent",
+            "present",
+            "present",
+            "absent",
+            "absent",
+            "absent",
+            "absent",
+            "absent",
+            "absent",
+            "absent",
+            "absent",
+            "absent",
+            "absent",
+            "absent",
+            "absent",
+            "absent",
+            "absent",
+            "present",
+            "absent",
+            "absent",
+            "absent",
+            "present",
+            "present",
+            "present",
+            "present",
+            "present",
+            "present",
+            "present",
+            "present",
+            "absent",
+            "absent",
+            "present",
+            "absent",
+            "absent",
+            "absent",
+            "absent",
+            "present",
+            "absent",
+            "absent",
+            "",
+            "",
+            "absent",
+            "present",
+            "",
+            "",
+            "",
+            "absent",
+            "absent",
+            "absent",
+            "absent",
+            "absent",
+            "present",
+            "",
+            "",
+            "",
+            "",
+            "present",
+            "present",
+            "absent",
+            "absent",
+            "absent",
+            "present",
+            "present",
+            "present",
+            "absent",
+            "absent",
+            "absent",
+            "present",
+            "",
+            "",
+            "",
+            "present",
+            "absent",
+            "absent",
+            "absent",
+            "",
+            "present",
+            "present",
+            "absent",
+            "absent",
+            "absent"
+         ],
+         "onset" : [
+            "< 20 yrs",
+            "< 20 yrs",
+            "< 20 yrs",
+            "< 20 yrs",
+            "< 20 yrs",
+            "> 20 yrs",
+            "> 20 yrs",
+            "> 20 yrs",
+            "> 20 yrs",
+            "> 20 yrs",
+            "< 20 yrs",
+            "< 20 yrs",
+            "< 20 yrs",
+            "< 20 yrs",
+            "< 20 yrs",
+            "< 20 yrs",
+            "< 20 yrs",
+            "< 20 yrs",
+            "< 20 yrs",
+            "< 20 yrs",
+            "< 20 yrs",
+            "< 20 yrs",
+            "< 20 yrs",
+            "< 20 yrs",
+            "< 20 yrs",
+            "< 20 yrs",
+            "< 20 yrs",
+            "< 20 yrs",
+            "< 20 yrs",
+            "< 20 yrs",
+            "< 20 yrs",
+            "< 20 yrs",
+            "< 20 yrs",
+            "< 20 yrs",
+            "< 20 yrs",
+            "< 20 yrs",
+            "< 20 yrs",
+            "< 20 yrs",
+            "< 20 yrs",
+            "< 20 yrs",
+            "< 20 yrs",
+            "< 20 yrs",
+            "< 20 yrs",
+            "< 20 yrs",
+            "< 20 yrs",
+            "> 20 yrs",
+            "> 20 yrs",
+            "> 20 yrs",
+            "> 20 yrs",
+            "> 20 yrs",
+            "> 20 yrs",
+            "> 20 yrs",
+            "> 20 yrs",
+            "> 20 yrs",
+            "> 20 yrs",
+            "< 20 yrs",
+            "< 20 yrs",
+            "< 20 yrs",
+            "< 20 yrs",
+            "< 20 yrs",
+            "> 20 yrs",
+            "> 20 yrs",
+            "> 20 yrs",
+            "> 20 yrs",
+            "> 20 yrs",
+            "< 20 yrs",
+            "< 20 yrs",
+            "< 20 yrs",
+            "< 20 yrs",
+            "< 20 yrs",
+            "> 20 yrs",
+            "> 20 yrs",
+            "> 20 yrs",
+            "> 20 yrs",
+            "> 20 yrs",
+            "< 20 yrs",
+            "< 20 yrs",
+            "< 20 yrs",
+            "< 20 yrs",
+            "< 20 yrs",
+            "< 20 yrs",
+            "< 20 yrs",
+            "< 20 yrs",
+            "< 20 yrs",
+            "< 20 yrs",
+            "< 20 yrs",
+            "< 20 yrs",
+            "< 20 yrs",
+            "< 20 yrs",
+            "< 20 yrs",
+            "< 20 yrs",
+            "< 20 yrs",
+            "< 20 yrs",
+            "< 20 yrs",
+            "< 20 yrs",
+            "< 20 yrs",
+            "< 20 yrs",
+            "< 20 yrs",
+            "< 20 yrs",
+            "< 20 yrs",
+            "< 20 yrs",
+            "< 20 yrs",
+            "< 20 yrs",
+            "< 20 yrs",
+            "< 20 yrs",
+            "> 20 yrs",
+            "> 20 yrs",
+            "> 20 yrs",
+            "> 20 yrs",
+            "> 20 yrs",
+            "< 20 yrs",
+            "< 20 yrs",
+            "< 20 yrs",
+            "< 20 yrs",
+            "< 20 yrs",
+            "< 20 yrs",
+            "< 20 yrs",
+            "< 20 yrs",
+            "< 20 yrs",
+            "< 20 yrs",
+            "> 20 yrs",
+            "> 20 yrs",
+            "> 20 yrs",
+            "> 20 yrs",
+            "> 20 yrs",
+            "< 20 yrs",
+            "< 20 yrs",
+            "< 20 yrs",
+            "< 20 yrs",
+            "< 20 yrs",
+            "< 20 yrs",
+            "< 20 yrs",
+            "< 20 yrs",
+            "< 20 yrs",
+            "< 20 yrs",
+            "< 20 yrs",
+            "< 20 yrs",
+            "< 20 yrs",
+            "< 20 yrs",
+            "< 20 yrs",
+            "> 20 yrs",
+            "> 20 yrs",
+            "> 20 yrs",
+            "> 20 yrs",
+            "> 20 yrs",
+            "> 20 yrs",
+            "> 20 yrs",
+            "> 20 yrs",
+            "> 20 yrs",
+            "> 20 yrs",
+            "< 20 yrs",
+            "< 20 yrs",
+            "< 20 yrs",
+            "< 20 yrs",
+            "< 20 yrs",
+            "< 20 yrs",
+            "< 20 yrs",
+            "< 20 yrs",
+            "< 20 yrs",
+            "< 20 yrs",
+            "< 20 yrs",
+            "< 20 yrs",
+            "< 20 yrs",
+            "< 20 yrs",
+            "< 20 yrs",
+            "< 20 yrs",
+            "< 20 yrs",
+            "< 20 yrs",
+            "< 20 yrs",
+            "< 20 yrs",
+            "< 20 yrs",
+            "< 20 yrs",
+            "< 20 yrs",
+            "< 20 yrs",
+            "< 20 yrs",
+            "> 20 yrs",
+            "> 20 yrs",
+            "> 20 yrs",
+            "> 20 yrs",
+            "> 20 yrs",
+            "< 20 yrs",
+            "< 20 yrs",
+            "< 20 yrs",
+            "< 20 yrs",
+            "< 20 yrs",
+            "> 20 yrs",
+            "> 20 yrs",
+            "> 20 yrs",
+            "> 20 yrs",
+            "> 20 yrs",
+            "< 20 yrs",
+            "< 20 yrs",
+            "< 20 yrs",
+            "< 20 yrs",
+            "< 20 yrs",
+            "< 20 yrs",
+            "< 20 yrs",
+            "< 20 yrs",
+            "< 20 yrs",
+            "< 20 yrs",
+            "> 20 yrs",
+            "> 20 yrs",
+            "> 20 yrs",
+            "> 20 yrs",
+            "> 20 yrs",
+            "< 20 yrs",
+            "< 20 yrs",
+            "< 20 yrs",
+            "< 20 yrs",
+            "< 20 yrs",
+            "< 20 yrs",
+            "< 20 yrs",
+            "< 20 yrs",
+            "< 20 yrs",
+            "< 20 yrs",
+            "< 20 yrs",
+            "< 20 yrs",
+            "< 20 yrs",
+            "< 20 yrs",
+            "< 20 yrs"
+         ]
+      },
+      "y" : {
+         "smps" : [
+            "subject",
+            "month"
+         ],
+         "data" : [
+            [
+               1,
+               0
+            ],
+            [
+               1,
+               2
+            ],
+            [
+               1,
+               6
+            ],
+            [
+               1,
+               8
+            ],
+            [
+               1,
+               10
+            ],
+            [
+               2,
+               0
+            ],
+            [
+               2,
+               2
+            ],
+            [
+               2,
+               6
+            ],
+            [
+               2,
+               8
+            ],
+            [
+               2,
+               10
+            ],
+            [
+               3,
+               0
+            ],
+            [
+               3,
+               2
+            ],
+            [
+               3,
+               6
+            ],
+            [
+               3,
+               8
+            ],
+            [
+               3,
+               10
+            ],
+            [
+               4,
+               0
+            ],
+            [
+               4,
+               2
+            ],
+            [
+               4,
+               6
+            ],
+            [
+               4,
+               8
+            ],
+            [
+               4,
+               10
+            ],
+            [
+               5,
+               0
+            ],
+            [
+               5,
+               2
+            ],
+            [
+               5,
+               6
+            ],
+            [
+               5,
+               8
+            ],
+            [
+               5,
+               10
+            ],
+            [
+               6,
+               0
+            ],
+            [
+               6,
+               2
+            ],
+            [
+               6,
+               6
+            ],
+            [
+               6,
+               8
+            ],
+            [
+               6,
+               10
+            ],
+            [
+               7,
+               0
+            ],
+            [
+               7,
+               2
+            ],
+            [
+               7,
+               6
+            ],
+            [
+               7,
+               8
+            ],
+            [
+               7,
+               10
+            ],
+            [
+               8,
+               0
+            ],
+            [
+               8,
+               2
+            ],
+            [
+               8,
+               6
+            ],
+            [
+               8,
+               8
+            ],
+            [
+               8,
+               10
+            ],
+            [
+               9,
+               0
+            ],
+            [
+               9,
+               2
+            ],
+            [
+               9,
+               6
+            ],
+            [
+               9,
+               8
+            ],
+            [
+               9,
+               10
+            ],
+            [
+               10,
+               0
+            ],
+            [
+               10,
+               2
+            ],
+            [
+               10,
+               6
+            ],
+            [
+               10,
+               8
+            ],
+            [
+               10,
+               10
+            ],
+            [
+               11,
+               0
+            ],
+            [
+               11,
+               2
+            ],
+            [
+               11,
+               6
+            ],
+            [
+               11,
+               8
+            ],
+            [
+               11,
+               10
+            ],
+            [
+               12,
+               0
+            ],
+            [
+               12,
+               2
+            ],
+            [
+               12,
+               6
+            ],
+            [
+               12,
+               8
+            ],
+            [
+               12,
+               10
+            ],
+            [
+               13,
+               0
+            ],
+            [
+               13,
+               2
+            ],
+            [
+               13,
+               6
+            ],
+            [
+               13,
+               8
+            ],
+            [
+               13,
+               10
+            ],
+            [
+               14,
+               0
+            ],
+            [
+               14,
+               2
+            ],
+            [
+               14,
+               6
+            ],
+            [
+               14,
+               8
+            ],
+            [
+               14,
+               10
+            ],
+            [
+               15,
+               0
+            ],
+            [
+               15,
+               2
+            ],
+            [
+               15,
+               6
+            ],
+            [
+               15,
+               8
+            ],
+            [
+               15,
+               10
+            ],
+            [
+               16,
+               0
+            ],
+            [
+               16,
+               2
+            ],
+            [
+               16,
+               6
+            ],
+            [
+               16,
+               8
+            ],
+            [
+               16,
+               10
+            ],
+            [
+               17,
+               0
+            ],
+            [
+               17,
+               2
+            ],
+            [
+               17,
+               6
+            ],
+            [
+               17,
+               8
+            ],
+            [
+               17,
+               10
+            ],
+            [
+               18,
+               0
+            ],
+            [
+               18,
+               2
+            ],
+            [
+               18,
+               6
+            ],
+            [
+               18,
+               8
+            ],
+            [
+               18,
+               10
+            ],
+            [
+               19,
+               0
+            ],
+            [
+               19,
+               2
+            ],
+            [
+               19,
+               6
+            ],
+            [
+               19,
+               8
+            ],
+            [
+               19,
+               10
+            ],
+            [
+               20,
+               0
+            ],
+            [
+               20,
+               2
+            ],
+            [
+               20,
+               6
+            ],
+            [
+               20,
+               8
+            ],
+            [
+               20,
+               10
+            ],
+            [
+               21,
+               0
+            ],
+            [
+               21,
+               2
+            ],
+            [
+               21,
+               6
+            ],
+            [
+               21,
+               8
+            ],
+            [
+               21,
+               10
+            ],
+            [
+               22,
+               0
+            ],
+            [
+               22,
+               2
+            ],
+            [
+               22,
+               6
+            ],
+            [
+               22,
+               8
+            ],
+            [
+               22,
+               10
+            ],
+            [
+               23,
+               0
+            ],
+            [
+               23,
+               2
+            ],
+            [
+               23,
+               6
+            ],
+            [
+               23,
+               8
+            ],
+            [
+               23,
+               10
+            ],
+            [
+               24,
+               0
+            ],
+            [
+               24,
+               2
+            ],
+            [
+               24,
+               6
+            ],
+            [
+               24,
+               8
+            ],
+            [
+               24,
+               10
+            ],
+            [
+               25,
+               0
+            ],
+            [
+               25,
+               2
+            ],
+            [
+               25,
+               6
+            ],
+            [
+               25,
+               8
+            ],
+            [
+               25,
+               10
+            ],
+            [
+               26,
+               0
+            ],
+            [
+               26,
+               2
+            ],
+            [
+               26,
+               6
+            ],
+            [
+               26,
+               8
+            ],
+            [
+               26,
+               10
+            ],
+            [
+               27,
+               0
+            ],
+            [
+               27,
+               2
+            ],
+            [
+               27,
+               6
+            ],
+            [
+               27,
+               8
+            ],
+            [
+               27,
+               10
+            ],
+            [
+               28,
+               0
+            ],
+            [
+               28,
+               2
+            ],
+            [
+               28,
+               6
+            ],
+            [
+               28,
+               8
+            ],
+            [
+               28,
+               10
+            ],
+            [
+               29,
+               0
+            ],
+            [
+               29,
+               2
+            ],
+            [
+               29,
+               6
+            ],
+            [
+               29,
+               8
+            ],
+            [
+               29,
+               10
+            ],
+            [
+               30,
+               0
+            ],
+            [
+               30,
+               2
+            ],
+            [
+               30,
+               6
+            ],
+            [
+               30,
+               8
+            ],
+            [
+               30,
+               10
+            ],
+            [
+               31,
+               0
+            ],
+            [
+               31,
+               2
+            ],
+            [
+               31,
+               6
+            ],
+            [
+               31,
+               8
+            ],
+            [
+               31,
+               10
+            ],
+            [
+               32,
+               0
+            ],
+            [
+               32,
+               2
+            ],
+            [
+               32,
+               6
+            ],
+            [
+               32,
+               8
+            ],
+            [
+               32,
+               10
+            ],
+            [
+               33,
+               0
+            ],
+            [
+               33,
+               2
+            ],
+            [
+               33,
+               6
+            ],
+            [
+               33,
+               8
+            ],
+            [
+               33,
+               10
+            ],
+            [
+               34,
+               0
+            ],
+            [
+               34,
+               2
+            ],
+            [
+               34,
+               6
+            ],
+            [
+               34,
+               8
+            ],
+            [
+               34,
+               10
+            ],
+            [
+               35,
+               0
+            ],
+            [
+               35,
+               2
+            ],
+            [
+               35,
+               6
+            ],
+            [
+               35,
+               8
+            ],
+            [
+               35,
+               10
+            ],
+            [
+               36,
+               0
+            ],
+            [
+               36,
+               2
+            ],
+            [
+               36,
+               6
+            ],
+            [
+               36,
+               8
+            ],
+            [
+               36,
+               10
+            ],
+            [
+               37,
+               0
+            ],
+            [
+               37,
+               2
+            ],
+            [
+               37,
+               6
+            ],
+            [
+               37,
+               8
+            ],
+            [
+               37,
+               10
+            ],
+            [
+               38,
+               0
+            ],
+            [
+               38,
+               2
+            ],
+            [
+               38,
+               6
+            ],
+            [
+               38,
+               8
+            ],
+            [
+               38,
+               10
+            ],
+            [
+               39,
+               0
+            ],
+            [
+               39,
+               2
+            ],
+            [
+               39,
+               6
+            ],
+            [
+               39,
+               8
+            ],
+            [
+               39,
+               10
+            ],
+            [
+               40,
+               0
+            ],
+            [
+               40,
+               2
+            ],
+            [
+               40,
+               6
+            ],
+            [
+               40,
+               8
+            ],
+            [
+               40,
+               10
+            ],
+            [
+               41,
+               0
+            ],
+            [
+               41,
+               2
+            ],
+            [
+               41,
+               6
+            ],
+            [
+               41,
+               8
+            ],
+            [
+               41,
+               10
+            ],
+            [
+               42,
+               0
+            ],
+            [
+               42,
+               2
+            ],
+            [
+               42,
+               6
+            ],
+            [
+               42,
+               8
+            ],
+            [
+               42,
+               10
+            ],
+            [
+               43,
+               0
+            ],
+            [
+               43,
+               2
+            ],
+            [
+               43,
+               6
+            ],
+            [
+               43,
+               8
+            ],
+            [
+               43,
+               10
+            ],
+            [
+               44,
+               0
+            ],
+            [
+               44,
+               2
+            ],
+            [
+               44,
+               6
+            ],
+            [
+               44,
+               8
+            ],
+            [
+               44,
+               10
+            ]
+         ],
+         "vars" : [
+            "1",
+            "45",
+            "89",
+            "133",
+            "177",
+            "2",
+            "46",
+            "90",
+            "134",
+            "178",
+            "3",
+            "47",
+            "91",
+            "135",
+            "179",
+            "4",
+            "48",
+            "92",
+            "136",
+            "180",
+            "5",
+            "49",
+            "93",
+            "137",
+            "181",
+            "6",
+            "50",
+            "94",
+            "138",
+            "182",
+            "7",
+            "51",
+            "95",
+            "139",
+            "183",
+            "8",
+            "52",
+            "96",
+            "140",
+            "184",
+            "9",
+            "53",
+            "97",
+            "141",
+            "185",
+            "10",
+            "54",
+            "98",
+            "142",
+            "186",
+            "11",
+            "55",
+            "99",
+            "143",
+            "187",
+            "12",
+            "56",
+            "100",
+            "144",
+            "188",
+            "13",
+            "57",
+            "101",
+            "145",
+            "189",
+            "14",
+            "58",
+            "102",
+            "146",
+            "190",
+            "15",
+            "59",
+            "103",
+            "147",
+            "191",
+            "16",
+            "60",
+            "104",
+            "148",
+            "192",
+            "17",
+            "61",
+            "105",
+            "149",
+            "193",
+            "18",
+            "62",
+            "106",
+            "150",
+            "194",
+            "19",
+            "63",
+            "107",
+            "151",
+            "195",
+            "20",
+            "64",
+            "108",
+            "152",
+            "196",
+            "21",
+            "65",
+            "109",
+            "153",
+            "197",
+            "22",
+            "66",
+            "110",
+            "154",
+            "198",
+            "23",
+            "67",
+            "111",
+            "155",
+            "199",
+            "24",
+            "68",
+            "112",
+            "156",
+            "200",
+            "25",
+            "69",
+            "113",
+            "157",
+            "201",
+            "26",
+            "70",
+            "114",
+            "158",
+            "202",
+            "27",
+            "71",
+            "115",
+            "159",
+            "203",
+            "28",
+            "72",
+            "116",
+            "160",
+            "204",
+            "29",
+            "73",
+            "117",
+            "161",
+            "205",
+            "30",
+            "74",
+            "118",
+            "162",
+            "206",
+            "31",
+            "75",
+            "119",
+            "163",
+            "207",
+            "32",
+            "76",
+            "120",
+            "164",
+            "208",
+            "33",
+            "77",
+            "121",
+            "165",
+            "209",
+            "34",
+            "78",
+            "122",
+            "166",
+            "210",
+            "35",
+            "79",
+            "123",
+            "167",
+            "211",
+            "36",
+            "80",
+            "124",
+            "168",
+            "212",
+            "37",
+            "81",
+            "125",
+            "169",
+            "213",
+            "38",
+            "82",
+            "126",
+            "170",
+            "214",
+            "39",
+            "83",
+            "127",
+            "171",
+            "215",
+            "40",
+            "84",
+            "128",
+            "172",
+            "216",
+            "41",
+            "85",
+            "129",
+            "173",
+            "217",
+            "42",
+            "86",
+            "130",
+            "174",
+            "218",
+            "43",
+            "87",
+            "131",
+            "175",
+            "219",
+            "44",
+            "88",
+            "132",
+            "176",
+            "220"
+         ]
+      }
+   },
+   "config" : {
+      "title" : "Schizophrenia Data",
+      "colorBy" : "disorder",
+      "graphType" : "Scatter2D",
+      "shapeBy" : "onset",
+      "subtitle" : "HSAUR - schizophrenia2"
+   }
+}

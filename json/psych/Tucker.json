@@ -1,0 +1,138 @@
+{
+   "config" : {
+      "title" : "9 Cognitive variables discussed by Tucker and Lewis (1973)",
+      "smpOverlays" : [
+         null
+      ],
+      "graphType" : "Stacked",
+      "subtitle" : "psych - Tucker"
+   },
+   "data" : {
+      "y" : {
+         "vars" : [
+            "t42",
+            "t54",
+            "t45",
+            "t46",
+            "t23",
+            "t24",
+            "t27",
+            "t10",
+            "t51"
+         ],
+         "data" : [
+            [
+               1,
+               0.554,
+               0.227,
+               0.189,
+               0.461,
+               0.506,
+               0.408,
+               0.28,
+               0.241
+            ],
+            [
+               0.554,
+               1,
+               0.296,
+               0.219,
+               0.479,
+               0.53,
+               0.425,
+               0.311,
+               0.311
+            ],
+            [
+               0.227,
+               0.296,
+               1,
+               0.769,
+               0.237,
+               0.243,
+               0.304,
+               0.718,
+               0.73
+            ],
+            [
+               0.189,
+               0.219,
+               0.769,
+               1,
+               0.212,
+               0.226,
+               0.291,
+               0.681,
+               0.661
+            ],
+            [
+               0.461,
+               0.479,
+               0.237,
+               0.212,
+               1,
+               0.52,
+               0.514,
+               0.313,
+               0.245
+            ],
+            [
+               0.506,
+               0.53,
+               0.243,
+               0.226,
+               0.52,
+               1,
+               0.473,
+               0.348,
+               0.29
+            ],
+            [
+               0.408,
+               0.425,
+               0.304,
+               0.291,
+               0.514,
+               0.473,
+               1,
+               0.374,
+               0.306
+            ],
+            [
+               0.28,
+               0.311,
+               0.718,
+               0.681,
+               0.313,
+               0.348,
+               0.374,
+               1,
+               0.672
+            ],
+            [
+               0.241,
+               0.311,
+               0.73,
+               0.661,
+               0.245,
+               0.29,
+               0.306,
+               0.672,
+               1
+            ]
+         ],
+         "smps" : [
+            "t42",
+            "t54",
+            "t45",
+            "t46",
+            "t23",
+            "t24",
+            "t27",
+            "t10",
+            "t51"
+         ]
+      }
+   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>Tucker</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>\n9 Cognitive variables discussed by Tucker and Lewis (1973)\n</h2>\n<h3>Description</h3>\n<p>Tucker and Lewis (1973) introduced a reliability coefficient for ML factor analysis.  Their example data set was previously reported by Tucker (1958) and taken from Thurstone and Thurstone (1941).  The correlation matrix is a 9 x 9 for 710 subjects and has two correlated factors of ability: Word Fluency and Verbal.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(Tucker)</code></pre>\n<h3>Format</h3>\n<p>A data frame with 9 observations on the following 9 variables.\n</p>\n<dl>\n<dt><code>t42</code></dt><dd><p>Prefixes</p>\n</dd>\n<dt><code>t54</code></dt><dd><p>Suffixes</p>\n</dd>\n<dt><code>t45</code></dt><dd><p>Chicago Reading Test: Vocabulary</p>\n</dd>\n<dt><code>t46</code></dt><dd><p>Chicago Reading Test: Sentences</p>\n</dd>\n<dt><code>t23</code></dt><dd><p>First and last letters</p>\n</dd>\n<dt><code>t24</code></dt><dd><p>First letters</p>\n</dd>\n<dt><code>t27</code></dt><dd><p>Four letter words</p>\n</dd>\n<dt><code>t10</code></dt><dd><p>Completion</p>\n</dd>\n<dt><code>t51</code></dt><dd><p>Same or Opposite</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>The correlation matrix from Tucker (1958) was used in Tucker and Lewis (1973) for the Tucker-Lewis Index of factoring reliability.\n</p>\n<h3>Source</h3>\n<p>Tucker, Ledyard (1958) An inter-battery method of factor analysis, Psychometrika, 23, 111-136.\n</p>\n<h3>References</h3>\n<p>L.~Tucker and C.~Lewis. (1973) A reliability coefficient for maximum likelihood factor analysis.\nPsychometrika, 38(1):1&ndash;10.\n</p>\n<p>F.~J. Floyd and K.~F. Widaman. (1995)  Factor analysis in the development and refinement of clinical\nassessment instruments., Psychological Assessment, 7(3):286 &ndash; 299.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>data(Tucker)\nfa(Tucker,2,n.obs=710)\nomega(Tucker,2)\n</code></pre>\n</main>\n</div>\n"
+}

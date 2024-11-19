@@ -1,0 +1,868 @@
+{
+   "config" : {
+      "graphType" : "Scatter2D",
+      "shapeBy" : "variety",
+      "subtitle" : "lattice - barley",
+      "title" : "Yield data from a Minnesota barley trial",
+      "colorBy" : "site"
+   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>H_barley</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2> Yield data from a Minnesota barley trial </h2>\n<h3>Description</h3>\n<p>Total yield in bushels per acre for 10 varieties at 6 sites in each of\ntwo years.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>barley</code></pre>\n<h3>Format</h3>\n<p>A data frame with 120 observations on the following 4 variables.\n</p>\n<dl>\n<dt>yield</dt><dd><p>Yield (averaged across three blocks) in bushels/acre.</p>\n</dd>\n<dt>variety</dt><dd><p>Factor with levels <code>\"Svansota\"</code>, <code>\"No. 462\"</code>,\n<code>\"Manchuria\"</code>, <code>\"No. 475\"</code>, <code>\"Velvet\"</code>,\n<code>\"Peatland\"</code>, <code>\"Glabron\"</code>, <code>\"No. 457\"</code>,\n<code>\"Wisconsin No. 38\"</code>, <code>\"Trebi\"</code>.</p>\n</dd>\n<dt>year</dt><dd><p>Factor with levels <code>1932</code>, <code>1931</code></p>\n</dd>\n<dt>site</dt><dd><p>Factor with 6 levels:  <code>\"Grand Rapids\"</code>,\n<code>\"Duluth\"</code>, <code>\"University Farm\"</code>, <code>\"Morris\"</code>,\n<code>\"Crookston\"</code>, <code>\"Waseca\"</code></p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>These data are yields in bushels per acre, of 10 varieties of barley\ngrown in 1/40 acre plots at University Farm, St. Paul, and at the five\nbranch experiment stations located at Waseca, Morris, Crookston, Grand\nRapids, and Duluth (all in Minnesota).  The varieties were grown in\nthree randomized blocks at each of the six  stations during 1931 and\n1932, different land being used each year of the test.\n</p>\n<p>Immer et al. (1934) present the data for each Year*Site*Variety*Block.\nThe data here is the average yield across the three blocks.\n</p>\n<p>Immer et al. (1934) refer (once) to the experiment as being conducted\nin 1930 and 1931, then later refer to it (repeatedly) as being\nconducted in 1931 and 1932.  Later authors have continued the\nconfusion.\n</p>\n<p>Cleveland (1993) suggests that the data for the Morris site may have\nhad the years switched.\n</p>\n<h3>Author(s)</h3>\n<p>Documentation contributed by Kevin Wright.\n</p>\n<h3>Source</h3>\n<p>Immer, R. F., H. K. Hayes, and LeRoy Powers. (1934).  Statistical\nDetermination of Barley Varietal Adaptation.  <em>Journal of the\nAmerican Society of Agronomy</em>, <b>26</b>, 403&ndash;419.\n</p>\n<p>Wright, Kevin (2013). Revisiting Immer's Barley Data. <em>The\nAmerican Statistician</em>, <b>67(3)</b>, 129&ndash;133.\n</p>\n<h3>References</h3>\n<p>Cleveland, William S. (1993) <em>Visualizing Data</em>.  Hobart Press,\nSummit, New Jersey.\n</p>\n<p>Fisher, R. A. (1971) <em>The Design of Experiments</em>.  Hafner, New\nYork, 9th edition.\n</p>\n<h3>See Also</h3>\n<p><code>immer</code> in the MASS package for data from the\nsame experiment \n(expressed as total yield for 3 blocks) for a subset of varieties.</p>\n<h3>Examples</h3>\n<pre><code class='language-R'># Graphic suggesting the Morris data switched the years 1931 and 1932\n# Figure 1.1 from Cleveland\ndotplot(variety ~ yield | site, data = barley, groups = year,\n        key = simpleKey(levels(barley$year), space = \"right\"),\n        xlab = \"Barley Yield (bushels/acre) \",\n        aspect=0.5, layout = c(1,6), ylab=NULL)\n</code></pre>\n</main>\n</div>\n",
+   "data" : {
+      "y" : {
+         "vars" : [
+            "Var1",
+            "Var2",
+            "Var3",
+            "Var4",
+            "Var5",
+            "Var6",
+            "Var7",
+            "Var8",
+            "Var9",
+            "Var10",
+            "Var11",
+            "Var12",
+            "Var13",
+            "Var14",
+            "Var15",
+            "Var16",
+            "Var17",
+            "Var18",
+            "Var19",
+            "Var20",
+            "Var21",
+            "Var22",
+            "Var23",
+            "Var24",
+            "Var25",
+            "Var26",
+            "Var27",
+            "Var28",
+            "Var29",
+            "Var30",
+            "Var31",
+            "Var32",
+            "Var33",
+            "Var34",
+            "Var35",
+            "Var36",
+            "Var37",
+            "Var38",
+            "Var39",
+            "Var40",
+            "Var41",
+            "Var42",
+            "Var43",
+            "Var44",
+            "Var45",
+            "Var46",
+            "Var47",
+            "Var48",
+            "Var49",
+            "Var50",
+            "Var51",
+            "Var52",
+            "Var53",
+            "Var54",
+            "Var55",
+            "Var56",
+            "Var57",
+            "Var58",
+            "Var59",
+            "Var60",
+            "Var61",
+            "Var62",
+            "Var63",
+            "Var64",
+            "Var65",
+            "Var66",
+            "Var67",
+            "Var68",
+            "Var69",
+            "Var70",
+            "Var71",
+            "Var72",
+            "Var73",
+            "Var74",
+            "Var75",
+            "Var76",
+            "Var77",
+            "Var78",
+            "Var79",
+            "Var80",
+            "Var81",
+            "Var82",
+            "Var83",
+            "Var84",
+            "Var85",
+            "Var86",
+            "Var87",
+            "Var88",
+            "Var89",
+            "Var90",
+            "Var91",
+            "Var92",
+            "Var93",
+            "Var94",
+            "Var95",
+            "Var96",
+            "Var97",
+            "Var98",
+            "Var99",
+            "Var100",
+            "Var101",
+            "Var102",
+            "Var103",
+            "Var104",
+            "Var105",
+            "Var106",
+            "Var107",
+            "Var108",
+            "Var109",
+            "Var110",
+            "Var111",
+            "Var112",
+            "Var113",
+            "Var114",
+            "Var115",
+            "Var116",
+            "Var117",
+            "Var118",
+            "Var119",
+            "Var120"
+         ],
+         "smps" : [
+            "yield",
+            "year"
+         ],
+         "data" : [
+            [
+               27,
+               1931
+            ],
+            [
+               48.86667,
+               1931
+            ],
+            [
+               27.43334,
+               1931
+            ],
+            [
+               39.93333,
+               1931
+            ],
+            [
+               32.96667,
+               1931
+            ],
+            [
+               28.96667,
+               1931
+            ],
+            [
+               43.06666,
+               1931
+            ],
+            [
+               55.2,
+               1931
+            ],
+            [
+               28.76667,
+               1931
+            ],
+            [
+               38.13333,
+               1931
+            ],
+            [
+               29.13333,
+               1931
+            ],
+            [
+               29.66667,
+               1931
+            ],
+            [
+               35.13333,
+               1931
+            ],
+            [
+               47.33333,
+               1931
+            ],
+            [
+               25.76667,
+               1931
+            ],
+            [
+               40.46667,
+               1931
+            ],
+            [
+               29.66667,
+               1931
+            ],
+            [
+               25.7,
+               1931
+            ],
+            [
+               39.9,
+               1931
+            ],
+            [
+               50.23333,
+               1931
+            ],
+            [
+               26.13333,
+               1931
+            ],
+            [
+               41.33333,
+               1931
+            ],
+            [
+               23.03333,
+               1931
+            ],
+            [
+               26.3,
+               1931
+            ],
+            [
+               36.56666,
+               1931
+            ],
+            [
+               63.8333,
+               1931
+            ],
+            [
+               43.76667,
+               1931
+            ],
+            [
+               46.93333,
+               1931
+            ],
+            [
+               29.76667,
+               1931
+            ],
+            [
+               33.93333,
+               1931
+            ],
+            [
+               43.26667,
+               1931
+            ],
+            [
+               58.1,
+               1931
+            ],
+            [
+               28.7,
+               1931
+            ],
+            [
+               45.66667,
+               1931
+            ],
+            [
+               32.16667,
+               1931
+            ],
+            [
+               33.6,
+               1931
+            ],
+            [
+               36.6,
+               1931
+            ],
+            [
+               65.7667,
+               1931
+            ],
+            [
+               30.36667,
+               1931
+            ],
+            [
+               48.56666,
+               1931
+            ],
+            [
+               24.93334,
+               1931
+            ],
+            [
+               28.1,
+               1931
+            ],
+            [
+               32.76667,
+               1931
+            ],
+            [
+               48.56666,
+               1931
+            ],
+            [
+               29.86667,
+               1931
+            ],
+            [
+               41.6,
+               1931
+            ],
+            [
+               34.7,
+               1931
+            ],
+            [
+               32,
+               1931
+            ],
+            [
+               24.66667,
+               1931
+            ],
+            [
+               46.76667,
+               1931
+            ],
+            [
+               22.6,
+               1931
+            ],
+            [
+               44.1,
+               1931
+            ],
+            [
+               19.7,
+               1931
+            ],
+            [
+               33.06666,
+               1931
+            ],
+            [
+               39.3,
+               1931
+            ],
+            [
+               58.8,
+               1931
+            ],
+            [
+               29.46667,
+               1931
+            ],
+            [
+               49.86667,
+               1931
+            ],
+            [
+               34.46667,
+               1931
+            ],
+            [
+               31.6,
+               1931
+            ],
+            [
+               26.9,
+               1932
+            ],
+            [
+               33.46667,
+               1932
+            ],
+            [
+               34.36666,
+               1932
+            ],
+            [
+               32.96667,
+               1932
+            ],
+            [
+               22.13333,
+               1932
+            ],
+            [
+               22.56667,
+               1932
+            ],
+            [
+               36.8,
+               1932
+            ],
+            [
+               37.73333,
+               1932
+            ],
+            [
+               35.13333,
+               1932
+            ],
+            [
+               26.16667,
+               1932
+            ],
+            [
+               14.43333,
+               1932
+            ],
+            [
+               25.86667,
+               1932
+            ],
+            [
+               27.43334,
+               1932
+            ],
+            [
+               38.5,
+               1932
+            ],
+            [
+               35.03333,
+               1932
+            ],
+            [
+               20.63333,
+               1932
+            ],
+            [
+               16.63333,
+               1932
+            ],
+            [
+               22.23333,
+               1932
+            ],
+            [
+               26.8,
+               1932
+            ],
+            [
+               37.4,
+               1932
+            ],
+            [
+               38.83333,
+               1932
+            ],
+            [
+               32.06666,
+               1932
+            ],
+            [
+               32.23333,
+               1932
+            ],
+            [
+               22.46667,
+               1932
+            ],
+            [
+               29.06667,
+               1932
+            ],
+            [
+               49.2333,
+               1932
+            ],
+            [
+               46.63333,
+               1932
+            ],
+            [
+               41.83333,
+               1932
+            ],
+            [
+               20.63333,
+               1932
+            ],
+            [
+               30.6,
+               1932
+            ],
+            [
+               26.43334,
+               1932
+            ],
+            [
+               42.2,
+               1932
+            ],
+            [
+               43.53334,
+               1932
+            ],
+            [
+               34.33333,
+               1932
+            ],
+            [
+               19.46667,
+               1932
+            ],
+            [
+               22.7,
+               1932
+            ],
+            [
+               25.56667,
+               1932
+            ],
+            [
+               44.7,
+               1932
+            ],
+            [
+               47,
+               1932
+            ],
+            [
+               30.53333,
+               1932
+            ],
+            [
+               19.9,
+               1932
+            ],
+            [
+               22.5,
+               1932
+            ],
+            [
+               28.06667,
+               1932
+            ],
+            [
+               36.03333,
+               1932
+            ],
+            [
+               43.2,
+               1932
+            ],
+            [
+               25.23333,
+               1932
+            ],
+            [
+               26.76667,
+               1932
+            ],
+            [
+               31.36667,
+               1932
+            ],
+            [
+               30,
+               1932
+            ],
+            [
+               41.26667,
+               1932
+            ],
+            [
+               44.23333,
+               1932
+            ],
+            [
+               32.13333,
+               1932
+            ],
+            [
+               15.23333,
+               1932
+            ],
+            [
+               27.36667,
+               1932
+            ],
+            [
+               38,
+               1932
+            ],
+            [
+               58.16667,
+               1932
+            ],
+            [
+               47.16667,
+               1932
+            ],
+            [
+               35.9,
+               1932
+            ],
+            [
+               20.66667,
+               1932
+            ],
+            [
+               29.33333,
+               1932
+            ]
+         ]
+      },
+      "z" : {
+         "site" : [
+            "University Farm",
+            "Waseca",
+            "Morris",
+            "Crookston",
+            "Grand Rapids",
+            "Duluth",
+            "University Farm",
+            "Waseca",
+            "Morris",
+            "Crookston",
+            "Grand Rapids",
+            "Duluth",
+            "University Farm",
+            "Waseca",
+            "Morris",
+            "Crookston",
+            "Grand Rapids",
+            "Duluth",
+            "University Farm",
+            "Waseca",
+            "Morris",
+            "Crookston",
+            "Grand Rapids",
+            "Duluth",
+            "University Farm",
+            "Waseca",
+            "Morris",
+            "Crookston",
+            "Grand Rapids",
+            "Duluth",
+            "University Farm",
+            "Waseca",
+            "Morris",
+            "Crookston",
+            "Grand Rapids",
+            "Duluth",
+            "University Farm",
+            "Waseca",
+            "Morris",
+            "Crookston",
+            "Grand Rapids",
+            "Duluth",
+            "University Farm",
+            "Waseca",
+            "Morris",
+            "Crookston",
+            "Grand Rapids",
+            "Duluth",
+            "University Farm",
+            "Waseca",
+            "Morris",
+            "Crookston",
+            "Grand Rapids",
+            "Duluth",
+            "University Farm",
+            "Waseca",
+            "Morris",
+            "Crookston",
+            "Grand Rapids",
+            "Duluth",
+            "University Farm",
+            "Waseca",
+            "Morris",
+            "Crookston",
+            "Grand Rapids",
+            "Duluth",
+            "University Farm",
+            "Waseca",
+            "Morris",
+            "Crookston",
+            "Grand Rapids",
+            "Duluth",
+            "University Farm",
+            "Waseca",
+            "Morris",
+            "Crookston",
+            "Grand Rapids",
+            "Duluth",
+            "University Farm",
+            "Waseca",
+            "Morris",
+            "Crookston",
+            "Grand Rapids",
+            "Duluth",
+            "University Farm",
+            "Waseca",
+            "Morris",
+            "Crookston",
+            "Grand Rapids",
+            "Duluth",
+            "University Farm",
+            "Waseca",
+            "Morris",
+            "Crookston",
+            "Grand Rapids",
+            "Duluth",
+            "University Farm",
+            "Waseca",
+            "Morris",
+            "Crookston",
+            "Grand Rapids",
+            "Duluth",
+            "University Farm",
+            "Waseca",
+            "Morris",
+            "Crookston",
+            "Grand Rapids",
+            "Duluth",
+            "University Farm",
+            "Waseca",
+            "Morris",
+            "Crookston",
+            "Grand Rapids",
+            "Duluth",
+            "University Farm",
+            "Waseca",
+            "Morris",
+            "Crookston",
+            "Grand Rapids",
+            "Duluth"
+         ],
+         "variety" : [
+            "Manchuria",
+            "Manchuria",
+            "Manchuria",
+            "Manchuria",
+            "Manchuria",
+            "Manchuria",
+            "Glabron",
+            "Glabron",
+            "Glabron",
+            "Glabron",
+            "Glabron",
+            "Glabron",
+            "Svansota",
+            "Svansota",
+            "Svansota",
+            "Svansota",
+            "Svansota",
+            "Svansota",
+            "Velvet",
+            "Velvet",
+            "Velvet",
+            "Velvet",
+            "Velvet",
+            "Velvet",
+            "Trebi",
+            "Trebi",
+            "Trebi",
+            "Trebi",
+            "Trebi",
+            "Trebi",
+            "No. 457",
+            "No. 457",
+            "No. 457",
+            "No. 457",
+            "No. 457",
+            "No. 457",
+            "No. 462",
+            "No. 462",
+            "No. 462",
+            "No. 462",
+            "No. 462",
+            "No. 462",
+            "Peatland",
+            "Peatland",
+            "Peatland",
+            "Peatland",
+            "Peatland",
+            "Peatland",
+            "No. 475",
+            "No. 475",
+            "No. 475",
+            "No. 475",
+            "No. 475",
+            "No. 475",
+            "Wisconsin No. 38",
+            "Wisconsin No. 38",
+            "Wisconsin No. 38",
+            "Wisconsin No. 38",
+            "Wisconsin No. 38",
+            "Wisconsin No. 38",
+            "Manchuria",
+            "Manchuria",
+            "Manchuria",
+            "Manchuria",
+            "Manchuria",
+            "Manchuria",
+            "Glabron",
+            "Glabron",
+            "Glabron",
+            "Glabron",
+            "Glabron",
+            "Glabron",
+            "Svansota",
+            "Svansota",
+            "Svansota",
+            "Svansota",
+            "Svansota",
+            "Svansota",
+            "Velvet",
+            "Velvet",
+            "Velvet",
+            "Velvet",
+            "Velvet",
+            "Velvet",
+            "Trebi",
+            "Trebi",
+            "Trebi",
+            "Trebi",
+            "Trebi",
+            "Trebi",
+            "No. 457",
+            "No. 457",
+            "No. 457",
+            "No. 457",
+            "No. 457",
+            "No. 457",
+            "No. 462",
+            "No. 462",
+            "No. 462",
+            "No. 462",
+            "No. 462",
+            "No. 462",
+            "Peatland",
+            "Peatland",
+            "Peatland",
+            "Peatland",
+            "Peatland",
+            "Peatland",
+            "No. 475",
+            "No. 475",
+            "No. 475",
+            "No. 475",
+            "No. 475",
+            "No. 475",
+            "Wisconsin No. 38",
+            "Wisconsin No. 38",
+            "Wisconsin No. 38",
+            "Wisconsin No. 38",
+            "Wisconsin No. 38",
+            "Wisconsin No. 38"
+         ]
+      }
+   }
+}

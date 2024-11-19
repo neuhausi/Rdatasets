@@ -1,0 +1,34 @@
+[
+   [
+      "aidssi",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/mstate/aidssi.json"
+   ],
+   [
+      "aidssi2",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/mstate/aidssi2.json"
+   ],
+   [
+      "bmt",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/mstate/bmt.json"
+   ],
+   [
+      "ebmt1",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/mstate/ebmt1.json"
+   ],
+   [
+      "ebmt2",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/mstate/ebmt2.json"
+   ],
+   [
+      "ebmt3",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/mstate/ebmt3.json"
+   ],
+   [
+      "ebmt4",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/mstate/ebmt4.json"
+   ],
+   [
+      "prothr",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/mstate/prothr.json"
+   ]
+]

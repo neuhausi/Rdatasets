@@ -1,0 +1,91 @@
+{
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>nidd.annual</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>The River Nidd Data</h2>\n<h3>Description</h3>\n<p>These data represent annual maximal levels of the \nRiver Nidd in Yorkshire. \nThese data are suitable for analysis with <code>gev</code>. \n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(nidd.annual)</code></pre>\n<h3>Format</h3>\n<p>A numeric vector containing 35 observations.</p>\n</main>\n</div>\n",
+   "data" : {
+      "y" : {
+         "vars" : [
+            "dat"
+         ],
+         "data" : [
+            [
+               65.08,
+               65.6,
+               75.06,
+               76.22,
+               78.55,
+               81.27,
+               86.93,
+               87.76,
+               88.89,
+               90.28,
+               91.8,
+               91.8,
+               92.82,
+               95.47,
+               100.4,
+               111.54,
+               111.74,
+               115.52,
+               131.82,
+               138.72,
+               148.63,
+               149.3,
+               151.79,
+               153.04,
+               158.01,
+               162.99,
+               172.92,
+               179.12,
+               181.59,
+               189.04,
+               213.7,
+               226.48,
+               251.96,
+               261.82,
+               305.75
+            ]
+         ],
+         "smps" : [
+            "Smp1",
+            "Smp2",
+            "Smp3",
+            "Smp4",
+            "Smp5",
+            "Smp6",
+            "Smp7",
+            "Smp8",
+            "Smp9",
+            "Smp10",
+            "Smp11",
+            "Smp12",
+            "Smp13",
+            "Smp14",
+            "Smp15",
+            "Smp16",
+            "Smp17",
+            "Smp18",
+            "Smp19",
+            "Smp20",
+            "Smp21",
+            "Smp22",
+            "Smp23",
+            "Smp24",
+            "Smp25",
+            "Smp26",
+            "Smp27",
+            "Smp28",
+            "Smp29",
+            "Smp30",
+            "Smp31",
+            "Smp32",
+            "Smp33",
+            "Smp34",
+            "Smp35"
+         ]
+      }
+   },
+   "config" : {
+      "title" : "The River Nidd Data",
+      "graphType" : "Treemap",
+      "subtitle" : "evir - nidd.annual"
+   }
+}

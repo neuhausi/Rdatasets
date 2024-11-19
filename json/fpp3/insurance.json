@@ -1,0 +1,265 @@
+{
+   "config" : {
+      "subtitle" : "fpp3 - insurance",
+      "graphType" : "Scatter2D",
+      "colorBy" : "Month",
+      "title" : "Insurance quotations and advertising expenditure"
+   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>insurance</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Insurance quotations and advertising expenditure</h2>\n<h3>Description</h3>\n<p>Monthly quotations and monthly television advertising expenditure for a US insurance company.\nJanuary 2002 to April 2005\n</p>\n<h3>Format</h3>\n<p>Monthly time series of class 'tsibble'.\n</p>\n<h3>Source</h3>\n<p>Kindly provided by Dave Reilly, Automatic Forecasting Systems.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>\ninsurance |&gt;\n  ggplot(aes(x=TVadverts, y=Quotes)) + geom_point()\n</code></pre>\n</main>\n</div>\n",
+   "data" : {
+      "y" : {
+         "data" : [
+            [
+               12.97065,
+               7.212725
+            ],
+            [
+               15.38714,
+               9.44357
+            ],
+            [
+               13.22957,
+               7.53425
+            ],
+            [
+               12.97065,
+               7.212725
+            ],
+            [
+               15.38714,
+               9.44357
+            ],
+            [
+               11.72288,
+               6.415215
+            ],
+            [
+               10.06177,
+               5.80699
+            ],
+            [
+               10.82279,
+               6.2036
+            ],
+            [
+               13.28707,
+               7.58643
+            ],
+            [
+               14.57832,
+               8.004935
+            ],
+            [
+               15.60542,
+               8.83498
+            ],
+            [
+               15.93515,
+               8.957255
+            ],
+            [
+               16.99486,
+               9.53299
+            ],
+            [
+               16.87821,
+               9.39295
+            ],
+            [
+               16.45128,
+               8.91856
+            ],
+            [
+               15.28118,
+               8.37412
+            ],
+            [
+               15.88901,
+               9.844505
+            ],
+            [
+               15.67747,
+               9.84939
+            ],
+            [
+               13.2878,
+               8.40273
+            ],
+            [
+               12.64484,
+               7.920675
+            ],
+            [
+               11.82771,
+               7.436085
+            ],
+            [
+               9.69184,
+               6.34049
+            ],
+            [
+               10.30415,
+               6.939995
+            ],
+            [
+               11.38253,
+               6.9771
+            ],
+            [
+               12.95149,
+               8.010201
+            ],
+            [
+               13.63092,
+               9.56546
+            ],
+            [
+               9.12098,
+               6.27251
+            ],
+            [
+               8.39468,
+               5.707495
+            ],
+            [
+               12.30076,
+               7.96354
+            ],
+            [
+               13.84831,
+               8.494221
+            ],
+            [
+               15.96246,
+               9.789085
+            ],
+            [
+               14.19738,
+               8.692825
+            ],
+            [
+               12.85922,
+               8.05723
+            ],
+            [
+               12.08837,
+               7.588995
+            ],
+            [
+               12.93375,
+               8.244881
+            ],
+            [
+               11.72235,
+               6.67554
+            ],
+            [
+               15.47126,
+               9.219604
+            ],
+            [
+               18.43898,
+               10.9638
+            ],
+            [
+               17.49186,
+               10.45629
+            ],
+            [
+               14.49168,
+               8.7286
+            ]
+         ],
+         "smps" : [
+            "Quotes",
+            "TVadverts"
+         ],
+         "vars" : [
+            "Var1",
+            "Var2",
+            "Var3",
+            "Var4",
+            "Var5",
+            "Var6",
+            "Var7",
+            "Var8",
+            "Var9",
+            "Var10",
+            "Var11",
+            "Var12",
+            "Var13",
+            "Var14",
+            "Var15",
+            "Var16",
+            "Var17",
+            "Var18",
+            "Var19",
+            "Var20",
+            "Var21",
+            "Var22",
+            "Var23",
+            "Var24",
+            "Var25",
+            "Var26",
+            "Var27",
+            "Var28",
+            "Var29",
+            "Var30",
+            "Var31",
+            "Var32",
+            "Var33",
+            "Var34",
+            "Var35",
+            "Var36",
+            "Var37",
+            "Var38",
+            "Var39",
+            "Var40"
+         ]
+      },
+      "z" : {
+         "Month" : [
+            "2002 Jan",
+            "2002 Feb",
+            "2002 Mar",
+            "2002 Apr",
+            "2002 May",
+            "2002 Jun",
+            "2002 Jul",
+            "2002 Aug",
+            "2002 Sep",
+            "2002 Oct",
+            "2002 Nov",
+            "2002 Dec",
+            "2003 Jan",
+            "2003 Feb",
+            "2003 Mar",
+            "2003 Apr",
+            "2003 May",
+            "2003 Jun",
+            "2003 Jul",
+            "2003 Aug",
+            "2003 Sep",
+            "2003 Oct",
+            "2003 Nov",
+            "2003 Dec",
+            "2004 Jan",
+            "2004 Feb",
+            "2004 Mar",
+            "2004 Apr",
+            "2004 May",
+            "2004 Jun",
+            "2004 Jul",
+            "2004 Aug",
+            "2004 Sep",
+            "2004 Oct",
+            "2004 Nov",
+            "2004 Dec",
+            "2005 Jan",
+            "2005 Feb",
+            "2005 Mar",
+            "2005 Apr"
+         ]
+      }
+   }
+}

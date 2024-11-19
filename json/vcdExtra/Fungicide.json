@@ -1,0 +1,63 @@
+{
+   "config" : {
+      "subtitle" : "vcdExtra - Fungicide",
+      "graphType" : "Stacked",
+      "smpOverlays" : [
+         null
+      ],
+      "title" : "Carcinogenic Effects of a Fungicide"
+   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>Fungicide</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>\nCarcinogenic Effects of a Fungicide\n</h2>\n<h3>Description</h3>\n<p>Data from Gart (1971) on the carcinogenic effects of a certain fungicide\nin two strains of mice.\nOf interest is how the association between <code>group</code> (Control, Treated)\nand <code>outcome</code> (Tumor, No Tumor) varies with <code>sex</code> and\n<code>strain</code> of the mice.\n</p>\n<p>Breslow (1976) used this data to illustrate the application of linear models\nto log odds ratios.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(Fungicide)</code></pre>\n<h3>Format</h3>\n<p>The data comprise a set of four 2 x 2 tables classifying 403 mice, either\nControl or Treated and whether or not a tumor was later observed.  \nThe four groups represent the combinations of sex and strain of mice.\nThe format is:\nnum [1:2, 1:2, 1:2, 1:2] 5 4 74 12 3 2 84 14 10 4 ...\n- attr(*, &quot;dimnames&quot;)=List of 4\n..$ group  : chr [1:2] &quot;Control&quot; &quot;Treated&quot;\n..$ outcome: chr [1:2] &quot;Tumor&quot; &quot;NoTumor&quot;\n..$ sex    : chr [1:2] &quot;M&quot; &quot;F&quot;\n..$ strain : chr [1:2] &quot;1&quot; &quot;2&quot;\n</p>\n<h3>Details</h3>\n<p>All tables have some small cells, so a continuity correction is recommended.\n</p>\n<h3>Source</h3>\n<p>Gart, J. J. (1971). The comparison of proportions: a review of significance tests,\nconfidence intervals and adjustments for stratification. \n<em>International Statistical Review</em>,\n39, 148-169.\n</p>\n<h3>References</h3>\n<p>Breslow, N. (1976), Regression analysis of the log odds ratio:\nA method for retrospective studies, <em>Biometrics</em>, 32(3), 409-416.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>data(Fungicide)\n# loddsratio was moved to vcd; requires vcd_1.3-3+\n## Not run: \nfung.lor &lt;- loddsratio(Fungicide, correct=TRUE)\nfung.lor\nconfint(fung.lor)\n## End(Not run)\n# visualize odds ratios in fourfold plots\ncotabplot(Fungicide, panel=cotab_fourfold)\n#  -- fourfold() requires vcd &gt;= 1.2-10\nfourfold(Fungicide, p_adjust_method=\"none\")\n</code></pre>\n</main>\n</div>\n",
+   "data" : {
+      "y" : {
+         "data" : [
+            [
+               5,
+               4
+            ],
+            [
+               74,
+               12
+            ],
+            [
+               3,
+               2
+            ],
+            [
+               84,
+               14
+            ],
+            [
+               10,
+               4
+            ],
+            [
+               80,
+               14
+            ],
+            [
+               3,
+               1
+            ],
+            [
+               79,
+               14
+            ]
+         ],
+         "smps" : [
+            "Control",
+            "Treated"
+         ],
+         "vars" : [
+            "Tumor.M.1",
+            "NoTumor.M.1",
+            "Tumor.F.1",
+            "NoTumor.F.1",
+            "Tumor.M.2",
+            "NoTumor.M.2",
+            "Tumor.F.2",
+            "NoTumor.F.2"
+         ]
+      }
+   }
+}

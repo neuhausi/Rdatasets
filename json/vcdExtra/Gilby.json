@@ -1,0 +1,130 @@
+{
+   "config" : {
+      "groupingFactors" : [
+         "Clothing"
+      ],
+      "colorBy" : "variable",
+      "title" : "Clothing and Intelligence Rating of Children",
+      "segregateSamplesBy" : [
+         "Dullness"
+      ],
+      "subtitle" : "vcdExtra - Gilby",
+      "graphType" : "Boxplot"
+   },
+   "data" : {
+      "y" : {
+         "vars" : [
+            "Freq"
+         ],
+         "smps" : [
+            "Smp1",
+            "Smp2",
+            "Smp3",
+            "Smp4",
+            "Smp5",
+            "Smp6",
+            "Smp7",
+            "Smp8",
+            "Smp9",
+            "Smp10",
+            "Smp11",
+            "Smp12",
+            "Smp13",
+            "Smp14",
+            "Smp15",
+            "Smp16",
+            "Smp17",
+            "Smp18",
+            "Smp19",
+            "Smp20",
+            "Smp21",
+            "Smp22",
+            "Smp23",
+            "Smp24"
+         ],
+         "data" : [
+            [
+               33,
+               48,
+               113,
+               209,
+               194,
+               39,
+               41,
+               100,
+               202,
+               255,
+               138,
+               15,
+               39,
+               58,
+               70,
+               61,
+               33,
+               4,
+               17,
+               13,
+               22,
+               10,
+               10,
+               1
+            ]
+         ]
+      },
+      "x" : {
+         "Clothing" : [
+            "V.Well clad",
+            "V.Well clad",
+            "V.Well clad",
+            "V.Well clad",
+            "V.Well clad",
+            "V.Well clad",
+            "Well clad",
+            "Well clad",
+            "Well clad",
+            "Well clad",
+            "Well clad",
+            "Well clad",
+            "Passable",
+            "Passable",
+            "Passable",
+            "Passable",
+            "Passable",
+            "Passable",
+            "Insufficient",
+            "Insufficient",
+            "Insufficient",
+            "Insufficient",
+            "Insufficient",
+            "Insufficient"
+         ],
+         "Dullness" : [
+            "Ment. defective",
+            "Slow",
+            "Slow Intell",
+            "Fairly Intell",
+            "Capable",
+            "V.Able",
+            "Ment. defective",
+            "Slow",
+            "Slow Intell",
+            "Fairly Intell",
+            "Capable",
+            "V.Able",
+            "Ment. defective",
+            "Slow",
+            "Slow Intell",
+            "Fairly Intell",
+            "Capable",
+            "V.Able",
+            "Ment. defective",
+            "Slow",
+            "Slow Intell",
+            "Fairly Intell",
+            "Capable",
+            "V.Able"
+         ]
+      }
+   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>Gilby</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Clothing and Intelligence Rating of Children</h2>\n<h3>Description</h3>\n<p>Schoolboys were classified according to their clothing and to their teachers rating of &quot;dullness&quot;\n(lack of intelligence), in a 5 x 7 table originally from \nGilby (1911).\nAnscombe (1981) presents a slightly collapsed 4 x 6 table, used here, where \nthe last two categories of clothing were pooled as were the first two categories of dullness due to small counts.\n</p>\n<p>Both <code>Dullness</code> and <code>Clothing</code> are ordered categories, so models and methods\nthat examine their association in terms of ordinal categories are profitable.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(Gilby)\n</code></pre>\n<h3>Format</h3>\n<p>A 2-dimensional array resulting from cross-tabulating 2 variables for  1725 observations. The variable names and their levels are:\n</p>\n<table>\n<tr>\n <td style=\"text-align: right;\">\n    No </td><td style=\"text-align: left;\"> Name </td><td style=\"text-align: left;\"> Levels </td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    1</td><td style=\"text-align: left;\"> <code>Dullness</code></td><td style=\"text-align: left;\"> <code>\"Ment. defective\", \"Slow\", \"Slow Intell\", \"Fairly Intell\", \"Capable\", \"V.Able\"</code></td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    2</td><td style=\"text-align: left;\"> <code>Clothing</code></td><td style=\"text-align: left;\"> <code>\"V.Well clad\", \"Well clad\", \"Passable\", \"Insufficient\"</code></td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n  </td>\n</tr>\n</table>\n<h3>Source</h3>\n<p>Anscombe, F. J. (1981).\n<em>Computing in Statistical Science Through APL</em>.\nNew York: Springer-Verlag, p. 302\n</p>\n<h3>References</h3>\n<p>Gilby, W. H. (1911).\nOn the significance of the teacher's appreciation of\ngeneral intelligence.  <em>Biometrika</em>, 8, 93-108 (esp. p. 94).\n[Quoted by Kendall (1943,..., 1953) Table 13.1, p 320.]\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>data(Gilby)\n# CMH tests treating row/column variables as ordinal\nCMHtest(Gilby)\nmosaic(Gilby, shade=TRUE)\n# correspondence analysis to see relations among categories\nif(require(ca)){\n\tca(Gilby)\n\tplot(ca(Gilby), lines=TRUE)\n</code></pre>\n</main>\n</div>\n"
+}

@@ -1,0 +1,73 @@
+{
+   "config" : {
+      "graphType" : "Scatter2D",
+      "scatterPlotMatrix" : 1,
+      "subtitle" : "HSAUR - aspirin",
+      "title" : "Aspirin Data",
+      "colorBy" : null
+   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>aspirin</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2> Aspirin Data </h2>\n<h3>Description</h3>\n<p>Efficacy of Aspirin in preventing death after a myocardial infarct.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(\"aspirin\")</code></pre>\n<h3>Format</h3>\n<p>A data frame with 7 observations on the following 4 variables.\n</p>\n<dl>\n<dt><code>dp</code></dt><dd><p>number of deaths after placebo.</p>\n</dd>\n<dt><code>tp</code></dt><dd><p>total number subjects treated with placebo.</p>\n</dd>\n<dt><code>da</code></dt><dd><p>number of deaths after Aspirin.</p>\n</dd>\n<dt><code>ta</code></dt><dd><p>total number of subjects treated with Aspirin.</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>The data were collected for a meta-analysis\nof the effectiveness of Aspirin (versus placebo) in preventing \ndeath after a myocardial infarction. \n</p>\n<h3>Source</h3>\n<p>J. L. Fleiss (1993), The statistical basis of meta-analysis.\n<em>Statistical Methods in Medical Research</em> <b>2</b>, \n121&ndash;145.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>\n  data(\"aspirin\", package = \"HSAUR\")\n  aspirin\n</code></pre>\n</main>\n</div>\n",
+   "data" : {
+      "y" : {
+         "smps" : [
+            "dp",
+            "tp",
+            "da",
+            "ta"
+         ],
+         "data" : [
+            [
+               67,
+               624,
+               49,
+               615
+            ],
+            [
+               64,
+               77,
+               44,
+               757
+            ],
+            [
+               126,
+               850,
+               102,
+               832
+            ],
+            [
+               38,
+               309,
+               32,
+               317
+            ],
+            [
+               52,
+               406,
+               85,
+               810
+            ],
+            [
+               219,
+               2257,
+               346,
+               2267
+            ],
+            [
+               1720,
+               8600,
+               1570,
+               8587
+            ]
+         ],
+         "vars" : [
+            "\\cite{HSAuR:Elwoodetal1974}",
+            "\\cite{HSAuR:Coronary1976}",
+            "\\cite{HSAuR:ElwoodSweetman1979}",
+            "\\cite{HSAuR:Breddinetal1979}",
+            "\\cite{HSAuR:Persantine1980}",
+            "\\cite{HSAuR:Aspirin1980}",
+            "\\cite{HSAuR:ISIS21988}"
+         ]
+      }
+   }
+}

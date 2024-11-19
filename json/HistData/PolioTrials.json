@@ -1,0 +1,103 @@
+{
+   "config" : {
+      "colorBy" : "Experiment",
+      "title" : "Polio Field Trials Data",
+      "scatterPlotMatrix" : 1,
+      "subtitle" : "HistData - PolioTrials",
+      "shapeBy" : "Group",
+      "graphType" : "Scatter2D"
+   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>PolioTrials</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>\nPolio Field Trials Data\n</h2>\n<h3>Description</h3>\n<p>The data frame <code>PolioTrials</code> gives the results of the 1954 field trials to test the Salk polio vaccine \n(named for the developer, Jonas Salk), conducted by the National Foundation for Infantile Paralysis (NFIP). \nIt is adapted from data in the article by Francis et al. (1955).  \nThere were actually two clinical trials, corresponding to two statistical designs (<code>Experiment</code>),\ndiscussed by Brownlee (1955).  The comparison of designs and results represented a\nmilestone in the development of randomized clinical trials. \n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(PolioTrials)</code></pre>\n<h3>Format</h3>\n<p>A data frame with 8 observations on the following 6 variables.\n</p>\n<dl>\n<dt><code>Experiment</code></dt><dd><p>a factor with levels <code>ObservedControl</code> <code>RandomizedControl</code></p>\n</dd>\n<dt><code>Group</code></dt><dd><p>a factor with levels <code>Controls</code> <code>Grade2NotInoculated</code> <code>IncompleteVaccinations</code> <code>NotInoculated</code> <code>Placebo</code> <code>Vaccinated</code></p>\n</dd>\n<dt><code>Population</code></dt><dd><p>the size of the population in each group in each experiment</p>\n</dd>\n<dt><code>Paralytic</code></dt><dd><p>the number of cases of paralytic polio observed in that group</p>\n</dd>\n<dt><code>NonParalytic</code></dt><dd><p>the number of cases of paralytic polio observed in that group</p>\n</dd>\n<dt><code>FalseReports</code></dt><dd><p>the number of cases initially reported as polio, but later determined\nnot to be polio in that group</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>The data frame is in the form of a single table, but actually comprises the results of two separate\nfield trials, given by <code>Experiment</code>.  Each should be analyzed separately, because the designs\ndiffer markedly.\n</p>\n<p>The original design (<code>Experiment == \"ObservedControl\"</code>)\ncalled for vaccination of second-graders at selected schools in selected areas  \nof the country (with the consent of the children's parents, of course). \nThe <code>Vaccinated</code> second-graders  formed the treatment group. \nThe first and third-graders at the schools were not given the vaccination, and formed the \n<code>Controls</code> group. \n</p>\n<p>In the second design  (<code>Experiment == \"RandomizedControl\"</code>)\nchildren were selected (again in various schools in various areas), \nall of whose parents consented to vaccination. \nThe sample was randomly divided into treatment (<code>Group == \"Vaccinated\"</code>),\ngiven the real polio vaccination, \nand control groups (<code>Group == \"Placebo\"</code>), \na placebo dose that looked just like the real vaccine.   \nThe experiment was also double blind:  neither the parents of a child in the study nor the doctors treating the child knew which group the child belonged to.  \n</p>\n<p>In both experiments, <code>NotInnoculated</code> refers to children who did not participate in the experiment.\n<code>IncompleteVaccinations</code> refers to children who received one or two, but not all three\nadministrations of the vaccine.\n</p>\n<h3>Source</h3>\n<p>Kyle Siegrist, &quot;Virtual Laboratories in Probability and Statistics&quot;, <a href=\"http://www.math.uah.edu/stat/data/Polio.html\">http://www.math.uah.edu/stat/data/Polio.html</a>\n</p>\n<p>Thomas Francis, Robert Korn, et al. (1955). &quot;An Evaluation of the 1954 Poliomyelitis Vaccine Trials&quot;, \n<em>American Journal of Public Health</em>,  45, (50 page supplement with a 63 page appendix).\n</p>\n<h3>References</h3>\n<p>K. A.  Brownlee (1955). &quot;Statistics of the 1954 Polio Vaccine Trials&quot;,  \n<em>Journal of the American Statistical Association</em>,  50, 1005-1013.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>data(PolioTrials)\n## maybe str(PolioTrials) ; plot(PolioTrials) ...\n</code></pre>\n</main>\n</div>\n",
+   "data" : {
+      "y" : {
+         "data" : [
+            [
+               200745,
+               33,
+               24,
+               25
+            ],
+            [
+               201229,
+               115,
+               27,
+               20
+            ],
+            [
+               338778,
+               121,
+               36,
+               25
+            ],
+            [
+               8484,
+               1,
+               1,
+               0
+            ],
+            [
+               221998,
+               38,
+               18,
+               20
+            ],
+            [
+               725173,
+               330,
+               61,
+               48
+            ],
+            [
+               123605,
+               43,
+               11,
+               12
+            ],
+            [
+               9904,
+               4,
+               0,
+               0
+            ]
+         ],
+         "smps" : [
+            "Population",
+            "Paralytic",
+            "NonParalytic",
+            "FalseReports"
+         ],
+         "vars" : [
+            "Var1",
+            "Var2",
+            "Var3",
+            "Var4",
+            "Var5",
+            "Var6",
+            "Var7",
+            "Var8"
+         ]
+      },
+      "z" : {
+         "Experiment" : [
+            "RandomizedControl",
+            "RandomizedControl",
+            "RandomizedControl",
+            "RandomizedControl",
+            "ObservedControl",
+            "ObservedControl",
+            "ObservedControl",
+            "ObservedControl"
+         ],
+         "Group" : [
+            "Vaccinated",
+            "Placebo",
+            "NotInoculated",
+            "IncompleteVaccinations",
+            "Vaccinated",
+            "Controls",
+            "Grade2NotInoculated",
+            "IncompleteVaccinations"
+         ]
+      }
+   }
+}

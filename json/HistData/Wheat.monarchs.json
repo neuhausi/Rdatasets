@@ -1,0 +1,110 @@
+{
+   "config" : {
+      "graphType" : "Scatter3D",
+      "subtitle" : "HistData - Wheat.monarchs",
+      "title" : "Playfair's Data on Wages and the Price of Wheat",
+      "colorBy" : "name"
+   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>Wheat</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>\nPlayfair's Data on Wages and the Price of Wheat\n</h2>\n<h3>Description</h3>\n<p>Playfair (1821) used a graph, showing parallel time-series of the price of wheat\nand the typical weekly wage for a &quot;good mechanic&quot; from 1565 to 1821 to argue\nthat working men had never been as well-off in terms of purchasing power as\nthey had become toward the end of this period. \n</p>\n<p>His graph is a classic in the history of data visualization, but commits the\nsin of showing two non-commensurable Y variables on different axes.\nScatterplots of wages vs. price or plots of ratios (e.g., wages/price) \nare in some ways better, but both of these ideas were unknown in 1821.\n</p>\n<p>In this version, information on the reigns of British monarchs is provided\nin a separate data.frame, <code>Wheat.monarch</code>.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(Wheat)\ndata(Wheat.monarchs)\n</code></pre>\n<h3>Format</h3>\n<p><code>Wheat</code>\nA data frame with 53 observations on the following 3 variables.\n</p>\n<dl>\n<dt><code>Year</code></dt><dd><p>Year, in intervals of 5 from 1565 to 1821: a numeric vector</p>\n</dd>\n<dt><code>Wheat</code></dt><dd><p>Price of Wheat (Shillings/Quarter bushel): a numeric vector</p>\n</dd>\n<dt><code>Wages</code></dt><dd><p>Weekly wage (Shillings): a numeric vector</p>\n</dd>\n</dl>\n<p><code>Wheat.monarchs</code>\nA data frame with 12 observations on the following 4 variables.\n</p>\n<dl>\n<dt><code>name</code></dt><dd><p>Reigning monarch, a factor with levels <code>Anne</code> <code>Charles I</code> <code>Charles II</code> <code>Cromwell</code> <code>Elizabeth</code> <code>George I</code> <code>George II</code> <code>George III</code> <code>George IV</code> <code>James I</code> <code>James II</code> <code>W&amp;M</code></p>\n</dd>\n<dt><code>start</code></dt><dd><p>Starting year of reign, a numeric vector</p>\n</dd>\n<dt><code>end</code></dt><dd><p>Starting year of reign, a numeric vector</p>\n</dd>\n<dt><code>commonwealth</code></dt><dd><p>A binary variable indicating the period of the Commonwealth under Cromwell</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>Playfair, W. (1821). <em>Letter on our Agricultural Distresses, Their Causes and Remedies</em>. London: W. Sams, 1821\n</p>\n<p>Data values:\noriginally digitized from <a href=\"http://datavis.ca/gallery/images/playfair-wheat1.gif\">http://datavis.ca/gallery/images/playfair-wheat1.gif</a>\nnow taken from <a href=\"http://mbostock.github.io/protovis/ex/wheat.js\">http://mbostock.github.io/protovis/ex/wheat.js</a>\n</p>\n<h3>References</h3>\n<p>Friendly, M. &amp; Denis, D. (2005). The early origins and development of the scatterplot \n<em>Journal of the History of the Behavioral Sciences</em>, \n41, 103-130.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>data(Wheat)\ndata(Wheat)\n# Playfair's graph, largely reproduced\n# convenience function to fill area under a curve down to a minimum value\nfillpoly &lt;- function(x,y, low=min(y),  ...) {\n    n &lt;- length(x)\n    polygon( c(x, x[n], x[1]), c(y, low, low), ...)\n# For best results, this graph should be viewed with width ~ 2 * height\n# Note use of type='s' to plot a step function for Wheat\n#   and panel.first to provide a background grid()\n#     The curve for Wages is plotted after the polygon below it is filled\nwith(Wheat, {\n    plot(Year, Wheat, type=\"s\", ylim=c(0,105), \n        ylab=\"Price of the Quarter of Wheat (shillings)\", \n        panel.first=grid(col=gray(.9), lty=1))\n    fillpoly(Year, Wages, low=0, col=\"lightskyblue\", border=NA)\n    lines(Year, Wages, lwd=3, col=\"red\")\n# add some annotations\ntext(1625,10, \"Weekly wages of a good mechanic\", cex=0.8, srt=3, col=\"red\")\n# cartouche\ntext(1650, 85, \"Chart\", cex=2, font=2)\ntext(1650, 70, \n\tpaste(\"Shewing at One View\", \n        \"The Price of the Quarter of Wheat\", \n        \"&amp; Wages of Labor by the Week\", \n        \"from the Year 1565 to 1821\",\n        \"by William Playfair\",\n        sep=\"\\n\"), font=3)\n# add the time series bars to show reigning monarchs\n# distinguish Cromwell visually, as Playfair did\nwith(Wheat.monarchs, {\n\ty &lt;- ifelse( !commonwealth &amp; (!seq_along(start) %% 2), 102, 104)\n\tsegments(start, y, end, y, col=\"black\", lwd=7, lend=1)\n\tsegments(start, y, end, y, col=ifelse(commonwealth, \"white\", NA), lwd=4, lend=1)\n\ttext((start+end)/2, y-2, name, cex=0.5)\n# plot the labor cost of a quarter of wheat\nWheat1 &lt;- within(na.omit(Wheat), {Labor=Wheat/Wages})\nwith(Wheat1, {\n\tplot(Year, Labor, type='b', pch=16, cex=1.5, lwd=1.5, \n\t     ylab=\"Labor cost of a Quarter of Wheat (weeks)\",\n\t     ylim=c(1,12.5));\n\tlines(lowess(Year, Labor), col=\"red\", lwd=2)\n# cartouche\ntext(1740, 10, \"Chart\", cex=2, font=2)\ntext(1740, 8.5, \n\tpaste(\"Shewing at One View\", \n        \"The Work Required to Purchase\", \n        \"One Quarter of Wheat\", \n        sep=\"\\n\"), cex=1.5, font=3)\nwith(Wheat.monarchs, {\n\ty &lt;- ifelse( !commonwealth &amp; (!seq_along(start) %% 2), 12.3, 12.5)\n\tsegments(start, y, end, y, col=\"black\", lwd=7, lend=1)\n\tsegments(start, y, end, y, col=ifelse(commonwealth, \"white\", NA), lwd=4, lend=1)\n\ttext((start+end)/2, y-0.2, name, cex=0.5)\n</code></pre>\n</main>\n</div>\n",
+   "data" : {
+      "z" : {
+         "name" : [
+            "Elizabeth",
+            "James I",
+            "Charles I",
+            "Cromwell",
+            "Charles II",
+            "James II",
+            "W&M",
+            "Anne",
+            "George I",
+            "George II",
+            "George III",
+            "George IV"
+         ]
+      },
+      "y" : {
+         "vars" : [
+            "Var1",
+            "Var2",
+            "Var3",
+            "Var4",
+            "Var5",
+            "Var6",
+            "Var7",
+            "Var8",
+            "Var9",
+            "Var10",
+            "Var11",
+            "Var12"
+         ],
+         "data" : [
+            [
+               1565,
+               1603,
+               0
+            ],
+            [
+               1603,
+               1625,
+               0
+            ],
+            [
+               1625,
+               1649,
+               0
+            ],
+            [
+               1649,
+               1660,
+               1
+            ],
+            [
+               1660,
+               1685,
+               0
+            ],
+            [
+               1685,
+               1689,
+               0
+            ],
+            [
+               1689,
+               1702,
+               0
+            ],
+            [
+               1702,
+               1714,
+               0
+            ],
+            [
+               1714,
+               1727,
+               0
+            ],
+            [
+               1727,
+               1760,
+               0
+            ],
+            [
+               1760,
+               1820,
+               0
+            ],
+            [
+               1820,
+               1821,
+               0
+            ]
+         ],
+         "smps" : [
+            "start",
+            "end",
+            "commonwealth"
+         ]
+      }
+   }
+}

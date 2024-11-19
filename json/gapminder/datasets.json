@@ -1,0 +1,22 @@
+[
+   [
+      "continent_colors",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/gapminder/continent_colors.json"
+   ],
+   [
+      "country_codes",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/gapminder/country_codes.json"
+   ],
+   [
+      "country_colors",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/gapminder/country_colors.json"
+   ],
+   [
+      "gapminder",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/gapminder/gapminder.json"
+   ],
+   [
+      "gapminder_unfiltered",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/gapminder/gapminder_unfiltered.json"
+   ]
+]

@@ -1,0 +1,69 @@
+{
+   "data" : {
+      "y" : {
+         "data" : [
+            [
+               16.85,
+               1.46,
+               41.38
+            ],
+            [
+               24.81,
+               -4.61,
+               31.01
+            ],
+            [
+               18.85,
+               -0.21,
+               37.41
+            ],
+            [
+               12.63,
+               4.93,
+               50.05
+            ],
+            [
+               21.38,
+               -1.36,
+               39.17
+            ],
+            [
+               18.78,
+               -0.08,
+               38.86
+            ],
+            [
+               15.58,
+               2.98,
+               46.14
+            ],
+            [
+               16.3,
+               1.73,
+               44.47
+            ]
+         ],
+         "smps" : [
+            "x1",
+            "x2",
+            "y"
+         ],
+         "vars" : [
+            "Var1",
+            "Var2",
+            "Var3",
+            "Var4",
+            "Var5",
+            "Var6",
+            "Var7",
+            "Var8"
+         ]
+      }
+   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>Mandel</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Contrived Collinear Data</h2>\n<h3>Description</h3>\n<p>The <code>Mandel</code> data frame has 8 rows and 3 columns.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>Mandel\n</code></pre>\n<h3>Format</h3>\n<p>This data frame contains the following columns:\n</p>\n<dl>\n<dt>x1</dt><dd>\n<p>first predictor.\n</p>\n</dd>\n<dt>x2</dt><dd>\n<p>second predictor.\n</p>\n</dd>\n<dt>y</dt><dd>\n<p>response.\n</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>Mandel, J. (1982)\nUse of the singular value decomposition in regression analysis.\n<em>The American Statistician</em> <b>36</b>, 15&ndash;24.\n</p>\n<h3>References</h3>\n<p>Fox, J. (2016)\n<em>Applied Regression Analysis and Generalized Linear Models</em>,\nThird Edition. Sage.  \n</p>\n</main>\n</div>\n",
+   "config" : {
+      "subtitle" : "carData - Mandel",
+      "graphType" : "Scatter3D",
+      "title" : "Contrived Collinear Data"
+   }
+}

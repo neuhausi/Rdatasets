@@ -1,0 +1,127 @@
+{
+   "config" : {
+      "subtitle" : "hwde - IndianIrish",
+      "segregateSamplesBy" : [
+         "locus2",
+         "locus1"
+      ],
+      "graphType" : "Boxplot",
+      "colorBy" : "variable",
+      "groupingFactors" : [
+         "Population"
+      ],
+      "title" : "Observed genotype frequencies at MN and S loci"
+   },
+   "data" : {
+      "x" : {
+         "Population" : [
+            "Indian",
+            "Indian",
+            "Indian",
+            "Indian",
+            "Indian",
+            "Indian",
+            "Indian",
+            "Indian",
+            "Indian",
+            "Irish",
+            "Irish",
+            "Irish",
+            "Irish",
+            "Irish",
+            "Irish",
+            "Irish",
+            "Irish",
+            "Irish"
+         ],
+         "locus2" : [
+            "SS",
+            "Ss",
+            "ss",
+            "SS",
+            "Ss",
+            "ss",
+            "SS",
+            "Ss",
+            "ss",
+            "SS",
+            "Ss",
+            "ss",
+            "SS",
+            "Ss",
+            "ss",
+            "SS",
+            "Ss",
+            "ss"
+         ],
+         "locus1" : [
+            "MM",
+            "MM",
+            "MM",
+            "MN",
+            "MN",
+            "MN",
+            "NN",
+            "NN",
+            "NN",
+            "MM",
+            "MM",
+            "MM",
+            "MN",
+            "MN",
+            "MN",
+            "NN",
+            "NN",
+            "NN"
+         ]
+      },
+      "y" : {
+         "data" : [
+            [
+               91,
+               147,
+               85,
+               32,
+               78,
+               75,
+               5,
+               17,
+               7,
+               121,
+               248,
+               164,
+               53,
+               422,
+               375,
+               9,
+               65,
+               241
+            ]
+         ],
+         "smps" : [
+            "Smp1",
+            "Smp2",
+            "Smp3",
+            "Smp4",
+            "Smp5",
+            "Smp6",
+            "Smp7",
+            "Smp8",
+            "Smp9",
+            "Smp10",
+            "Smp11",
+            "Smp12",
+            "Smp13",
+            "Smp14",
+            "Smp15",
+            "Smp16",
+            "Smp17",
+            "Smp18"
+         ],
+         "vars" : [
+            "Observed"
+         ]
+      }
+   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>IndianIrish</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Observed genotype frequencies at MN and S loci, for 2 populations</h2>\n<h3>Description</h3>\n<p>The <code>IndianIrish</code> data frame has 18 rows and 4 columns.\nThe data are genotype frequencies for two locations, for\nXavante Indian and Irish populations respectively\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(IndianIrish)</code></pre>\n<h3>Format</h3>\n<p>This data frame contains the following columns:\n</p>\n<dl>\n<dt>Population</dt><dd><p>Factor with levels:\n<code>Indian</code> and <code>Irish</code> </p>\n</dd>\n<dt>locus1</dt><dd><p>Factor with levels:\n<code>MM</code>, <code>MN</code> and <code>NN</code></p>\n</dd>\n<dt>locus2</dt><dd><p>Factor with levels:\n<code>SS</code>, <code>Ss</code> and <code>ss</code></p>\n</dd>\n<dt>Observed</dt><dd><p>a numeric vector giving the frequency for each\ncategory of the tale</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>Mourant et al (1977) and Huttley and Wilson (2000).\n</p>\n<h3>References</h3>\n<p>1. Huttley, G.A. and Wilson, S.R. 2000. Testing for concordant\nequilibria between population samples. <em>Genetics</em> <b>156</b>, 2127-2135. <br />\n2. Mourant, A.E., Kopec, A.C. and Domaniewska-Sobczak, K. 1976.\n<em>The Distribution of the Human Blood Groups and Other Polymorphisms.</em>\nOxford University Press.<br />\n3. Weir, B.S. 1996.  <em>Genetic Data Analysis II.</em> Sinauer.\n</p>\n<h3>See Also</h3>\n<p><code>hwde</code></p>\n<h3>Examples</h3>\n<pre><code class='language-R'>data(IndianIrish)\nhwde(data=IndianIrish)\n</code></pre>\n</main>\n</div>\n"
+}

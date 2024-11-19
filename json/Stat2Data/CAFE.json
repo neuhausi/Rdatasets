@@ -1,0 +1,1034 @@
+{
+   "config" : {
+      "subtitle" : "Stat2Data - CAFE",
+      "scatterPlotMatrix" : 1,
+      "graphType" : "Scatter2D",
+      "sizeBy" : "Senator",
+      "shapeBy" : "Party",
+      "colorBy" : "State",
+      "title" : "US Senate Votes on Corporate Average Fuel Economy Bill"
+   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>CAFE</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>US Senate Votes on Corporate Average Fuel Economy Bill</h2>\n<h3>Description</h3>\n<p>Senate votes for Corporate Average Fuel Economy (CAFE) bill\n</p>\n<h3>Format</h3>\n<p>A data frame with 100 observations on the following 7 variables.\n</p>\n<table>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Senator</code> </td><td style=\"text-align: left;\"> Senator's name</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>State</code> </td><td style=\"text-align: left;\"> Code for senator's state</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Party</code> </td><td style=\"text-align: left;\"> party affiliation: <code>D</code>=Democrat, <code>I</code>=Independent, <code>R</code>=Republican</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Contribution</code> </td><td style=\"text-align: left;\"> Contributions from car manufactures (dollars)</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>LogContr</code> </td><td style=\"text-align: left;\"> Log of (Contribution+1)</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Dem</code> </td><td style=\"text-align: left;\"> <code>1</code>=Democrat/Independent <code>0</code>=Republican</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Vote</code> </td><td style=\"text-align: left;\"> <code>1</code>=yes  or <code>0</code>=no</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n  </td>\n</tr>\n</table>\n<h3>Details</h3>\n<p>The Corporate Average Fuel Economy (CAFE) Bill was proposed by Senators John McCain and\nJohn Kerry to improve the fuel economy of cars and light trucks sold in the United States.\nHowever a critical vote on an amendment in March of 2002 threatened to indefinitely postpone CAFE.\nThe amendment charged the National Highway Traffic Safety Administration to develop a new standard,\nthe effect being to put on indefinite hold the McCain-Kerry bill. It passed by a vote of 62-38.\nA political question of interest is whether there is evidence of monetary influence on a senator's\nvote. Scott Preston, a professor of statistics at SUNY, Oswego, collected data on this vote which\nincludes the vote of each senator (1=Yes or 0=No) and\nmonetary contributions that each of the 100 senators received over his or her lifetime from the car\nmanufacturers.\n</p>\n<h3>Source</h3>\n<p>Thanks to Prof. Scott Preston from SUNY Oswego for the data.\n</p>\n</main>\n</div>\n",
+   "data" : {
+      "z" : {
+         "State" : [
+            "AK",
+            "AK",
+            "AL",
+            "AL",
+            "AR",
+            "AR",
+            "AZ",
+            "AZ",
+            "CA",
+            "CA",
+            "CO",
+            "CO",
+            "CT",
+            "CT",
+            "DE",
+            "DE",
+            "FL",
+            "FL",
+            "GA",
+            "GA",
+            "HI",
+            "HI",
+            "IA",
+            "IA",
+            "ID",
+            "ID",
+            "IL",
+            "IL",
+            "IN",
+            "IN",
+            "KS",
+            "KS",
+            "KY",
+            "KY",
+            "LA",
+            "LA",
+            "MA",
+            "MA",
+            "MD",
+            "MD",
+            "ME",
+            "ME",
+            "MI",
+            "MI",
+            "MN",
+            "MN",
+            "MO",
+            "MO",
+            "MS",
+            "MS",
+            "MT",
+            "MT",
+            "NC",
+            "NC",
+            "ND",
+            "ND",
+            "NE",
+            "NE",
+            "NH",
+            "NH",
+            "NJ",
+            "NJ",
+            "NM",
+            "NM",
+            "NV",
+            "NV",
+            "NY",
+            "NY",
+            "OH",
+            "OH",
+            "OK",
+            "OK",
+            "OR",
+            "OR",
+            "PA",
+            "PA",
+            "RI",
+            "RI",
+            "SC",
+            "SC",
+            "SD",
+            "SD",
+            "TN",
+            "TN",
+            "TX",
+            "TX",
+            "UT",
+            "UT",
+            "VA",
+            "VA",
+            "VT",
+            "VT",
+            "WA",
+            "WA",
+            "WI",
+            "WI",
+            "WV",
+            "WV",
+            "WY",
+            "WY"
+         ],
+         "Party" : [
+            "R",
+            "R",
+            "R",
+            "R",
+            "R",
+            "D",
+            "R",
+            "R",
+            "D",
+            "D",
+            "R",
+            "R",
+            "D",
+            "D",
+            "D",
+            "D",
+            "D",
+            "D",
+            "D",
+            "D",
+            "D",
+            "D",
+            "D",
+            "R",
+            "R",
+            "R",
+            "D",
+            "R",
+            "D",
+            "R",
+            "R",
+            "R",
+            "R",
+            "R",
+            "D",
+            "D",
+            "D",
+            "D",
+            "D",
+            "D",
+            "R",
+            "R",
+            "D",
+            "D",
+            "D",
+            "D",
+            "R",
+            "D",
+            "R",
+            "R",
+            "D",
+            "R",
+            "D",
+            "R",
+            "D",
+            "D",
+            "R",
+            "D",
+            "R",
+            "R",
+            "D",
+            "D",
+            "D",
+            "R",
+            "D",
+            "R",
+            "D",
+            "D",
+            "R",
+            "R",
+            "R",
+            "R",
+            "R",
+            "D",
+            "R",
+            "R",
+            "R",
+            "D",
+            "D",
+            "R",
+            "D",
+            "D",
+            "R",
+            "R",
+            "R",
+            "R",
+            "R",
+            "R",
+            "R",
+            "R",
+            "I",
+            "D",
+            "D",
+            "D",
+            "D",
+            "D",
+            "D",
+            "D",
+            "R",
+            "R"
+         ],
+         "Senator" : [
+            "Murkowski, Frank",
+            "Stevens, Ted",
+            "Sessions, Jeff",
+            "Shelby, Richard",
+            "Hutchinson, Tim",
+            "Lincoln, Blanche",
+            "McCain, John",
+            "Kyl, Jon",
+            "Boxer, Barbara",
+            "Feinstein, Dianne",
+            "Allard, Wayne",
+            "Campbell, Ben N.",
+            "Dodd, Christopher",
+            "Lieberman, Joseph",
+            "Carper, Thomas",
+            "Biden Jr, Joseph",
+            "Graham, Bob",
+            "Nelson, Bill",
+            "Cleland, Max",
+            "Miller, Zell",
+            "Akaka, Daniel",
+            "Inouye, Daniel",
+            "Harkin, Tom",
+            "Grassley, Chuck",
+            "Craig, Larry",
+            "Crapo, Mike",
+            "Durbin, Richard",
+            "Fitzgerald, Peter",
+            "Bayh, Evan",
+            "Lugar, Richard",
+            "Brownback, Sam",
+            "Roberts, Pat",
+            "Bunning, Jim",
+            "McConnell, Mitch",
+            "Breaux, John",
+            "Landrieu, Mary",
+            "Kennedy, Edward",
+            "Kerry, John",
+            "Sarbanes, Paul",
+            "Mikulski, Barbara",
+            "Collins, Susan",
+            "Snowe, Olympia",
+            "Levin, Carl",
+            "Stabenow, Debbie",
+            "Dayton, Mark",
+            "Wellstone, Paul",
+            "Bond, Christopher",
+            "Carnahan, Jean",
+            "Cochran, Thad",
+            "Lott, Trent",
+            "Baucus, Max",
+            "Burns, Conrad",
+            "Edwards, John",
+            "Helms, Jesse",
+            "Conrad, Kent",
+            "Dorgan, Byron",
+            "Hagel, Charles",
+            "Nelson, Ben",
+            "Gregg, Judd",
+            "Smith, Bob",
+            "Corzine, Jon",
+            "Torricelli, Robert",
+            "Bingaman, Jeff",
+            "Domenici, Pete",
+            "Reid, Harry",
+            "Ensign, John",
+            "Clinton, Hillary",
+            "Schumer, Charles",
+            "DeWine, Mike",
+            "Voinovich, George",
+            "Inhofe, James",
+            "Nickles, Don",
+            "Smith, Gordon",
+            "Wyden, Ron",
+            "Santorum, Rick",
+            "Specter, Arlen",
+            "Chafee, Lincoln",
+            "Reed, Jack",
+            "Hollings, Ernest",
+            "Thurmond, Strom",
+            "Daschle, Thomas",
+            "Johnson, Tim",
+            "Frist, William",
+            "Thompson, Fred",
+            "Gramm, Phil",
+            "Hutchison, Kay B.",
+            "Bennett, Robert",
+            "Hatch, Orrin",
+            "Allen, George",
+            "Warner, John",
+            "Jeffords, James",
+            "Leahy, Patrick",
+            "Cantwell, Maria",
+            "Murray, Patty",
+            "Feingold, Russell",
+            "Kohl, Herb",
+            "Rockefeller, John",
+            "Byrd, Robert",
+            "Enzi, Mike",
+            "Thomas, Craig"
+         ]
+      },
+      "y" : {
+         "vars" : [
+            "Var1",
+            "Var2",
+            "Var3",
+            "Var4",
+            "Var5",
+            "Var6",
+            "Var7",
+            "Var8",
+            "Var9",
+            "Var10",
+            "Var11",
+            "Var12",
+            "Var13",
+            "Var14",
+            "Var15",
+            "Var16",
+            "Var17",
+            "Var18",
+            "Var19",
+            "Var20",
+            "Var21",
+            "Var22",
+            "Var23",
+            "Var24",
+            "Var25",
+            "Var26",
+            "Var27",
+            "Var28",
+            "Var29",
+            "Var30",
+            "Var31",
+            "Var32",
+            "Var33",
+            "Var34",
+            "Var35",
+            "Var36",
+            "Var37",
+            "Var38",
+            "Var39",
+            "Var40",
+            "Var41",
+            "Var42",
+            "Var43",
+            "Var44",
+            "Var45",
+            "Var46",
+            "Var47",
+            "Var48",
+            "Var49",
+            "Var50",
+            "Var51",
+            "Var52",
+            "Var53",
+            "Var54",
+            "Var55",
+            "Var56",
+            "Var57",
+            "Var58",
+            "Var59",
+            "Var60",
+            "Var61",
+            "Var62",
+            "Var63",
+            "Var64",
+            "Var65",
+            "Var66",
+            "Var67",
+            "Var68",
+            "Var69",
+            "Var70",
+            "Var71",
+            "Var72",
+            "Var73",
+            "Var74",
+            "Var75",
+            "Var76",
+            "Var77",
+            "Var78",
+            "Var79",
+            "Var80",
+            "Var81",
+            "Var82",
+            "Var83",
+            "Var84",
+            "Var85",
+            "Var86",
+            "Var87",
+            "Var88",
+            "Var89",
+            "Var90",
+            "Var91",
+            "Var92",
+            "Var93",
+            "Var94",
+            "Var95",
+            "Var96",
+            "Var97",
+            "Var98",
+            "Var99",
+            "Var100"
+         ],
+         "smps" : [
+            "Contribution",
+            "LogContr",
+            "Dem",
+            "Vote"
+         ],
+         "data" : [
+            [
+               19700,
+               4.305351369,
+               0,
+               1
+            ],
+            [
+               13000,
+               4.130333768,
+               0,
+               1
+            ],
+            [
+               9500,
+               4,
+               0,
+               1
+            ],
+            [
+               25000,
+               4.40654018,
+               0,
+               1
+            ],
+            [
+               4900,
+               3.73239376,
+               0,
+               1
+            ],
+            [
+               5500,
+               3.77815125,
+               1,
+               1
+            ],
+            [
+               29350,
+               4.474944335,
+               0,
+               0
+            ],
+            [
+               14500,
+               4.176091259,
+               0,
+               1
+            ],
+            [
+               1500,
+               3.301029996,
+               1,
+               0
+            ],
+            [
+               9750,
+               4.010723865,
+               1,
+               0
+            ],
+            [
+               7500,
+               3.903089987,
+               0,
+               1
+            ],
+            [
+               4000,
+               3.653212514,
+               0,
+               1
+            ],
+            [
+               500,
+               3,
+               1,
+               0
+            ],
+            [
+               3000,
+               3.544068044,
+               1,
+               0
+            ],
+            [
+               17640,
+               4.258637283,
+               1,
+               1
+            ],
+            [
+               5125,
+               3.750122527,
+               1,
+               0
+            ],
+            [
+               7000,
+               3.875061263,
+               1,
+               0
+            ],
+            [
+               300,
+               2.903089987,
+               1,
+               0
+            ],
+            [
+               4500,
+               3.698970004,
+               1,
+               1
+            ],
+            [
+               1000,
+               3.176091259,
+               1,
+               1
+            ],
+            [
+               2350,
+               3.45484486,
+               1,
+               0
+            ],
+            [
+               7000,
+               3.875061263,
+               1,
+               0
+            ],
+            [
+               4000,
+               3.653212514,
+               1,
+               0
+            ],
+            [
+               22500,
+               4.361727836,
+               0,
+               1
+            ],
+            [
+               26800,
+               4.436162647,
+               0,
+               1
+            ],
+            [
+               10000,
+               4.021189299,
+               0,
+               1
+            ],
+            [
+               15600,
+               4.206825876,
+               1,
+               0
+            ],
+            [
+               13450,
+               4.144574208,
+               0,
+               1
+            ],
+            [
+               21000,
+               4.33243846,
+               1,
+               1
+            ],
+            [
+               23500,
+               4.380211242,
+               0,
+               1
+            ],
+            [
+               13500,
+               4.146128036,
+               0,
+               1
+            ],
+            [
+               9750,
+               4.010723865,
+               0,
+               1
+            ],
+            [
+               28850,
+               4.467608106,
+               0,
+               1
+            ],
+            [
+               25000,
+               4.40654018,
+               0,
+               1
+            ],
+            [
+               18150,
+               4.270678836,
+               1,
+               1
+            ],
+            [
+               5000,
+               3.740362689,
+               1,
+               1
+            ],
+            [
+               3150,
+               3.562292864,
+               1,
+               0
+            ],
+            [
+               750,
+               3.096910013,
+               1,
+               0
+            ],
+            [
+               1500,
+               3.301029996,
+               1,
+               0
+            ],
+            [
+               18600,
+               4.281033367,
+               1,
+               1
+            ],
+            [
+               4000,
+               3.653212514,
+               0,
+               0
+            ],
+            [
+               6100,
+               3.819543936,
+               0,
+               0
+            ],
+            [
+               133250,
+               5.126293791,
+               1,
+               1
+            ],
+            [
+               51668,
+               4.717404187,
+               1,
+               1
+            ],
+            [
+               0,
+               2.698970004,
+               1,
+               0
+            ],
+            [
+               800,
+               3.113943352,
+               1,
+               0
+            ],
+            [
+               48939,
+               4.694069678,
+               0,
+               1
+            ],
+            [
+               4250,
+               3.67669361,
+               1,
+               1
+            ],
+            [
+               9000,
+               3.977723605,
+               0,
+               1
+            ],
+            [
+               24000,
+               4.389166084,
+               0,
+               1
+            ],
+            [
+               18500,
+               4.278753601,
+               1,
+               1
+            ],
+            [
+               25000,
+               4.40654018,
+               0,
+               1
+            ],
+            [
+               0,
+               2.698970004,
+               1,
+               0
+            ],
+            [
+               10500,
+               4.041392685,
+               0,
+               1
+            ],
+            [
+               21125,
+               4.334956116,
+               1,
+               1
+            ],
+            [
+               15000,
+               4.190331698,
+               1,
+               1
+            ],
+            [
+               10400,
+               4.037426498,
+               0,
+               1
+            ],
+            [
+               5000,
+               3.740362689,
+               1,
+               1
+            ],
+            [
+               5000,
+               3.740362689,
+               0,
+               0
+            ],
+            [
+               15500,
+               4.204119983,
+               0,
+               1
+            ],
+            [
+               0,
+               2.698970004,
+               1,
+               0
+            ],
+            [
+               6150,
+               3.822821645,
+               1,
+               0
+            ],
+            [
+               1000,
+               3.176091259,
+               1,
+               0
+            ],
+            [
+               15000,
+               4.190331698,
+               0,
+               1
+            ],
+            [
+               1000,
+               3.176091259,
+               1,
+               0
+            ],
+            [
+               27500,
+               4.447158031,
+               0,
+               1
+            ],
+            [
+               6530,
+               3.846955325,
+               1,
+               0
+            ],
+            [
+               2000,
+               3.397940009,
+               1,
+               0
+            ],
+            [
+               48350,
+               4.688864568,
+               0,
+               1
+            ],
+            [
+               41224,
+               4.620385937,
+               0,
+               1
+            ],
+            [
+               28600,
+               4.463892989,
+               0,
+               1
+            ],
+            [
+               35500,
+               4.556302501,
+               0,
+               1
+            ],
+            [
+               18500,
+               4.278753601,
+               0,
+               0
+            ],
+            [
+               2000,
+               3.397940009,
+               1,
+               0
+            ],
+            [
+               18000,
+               4.267171728,
+               0,
+               1
+            ],
+            [
+               25500,
+               4.414973348,
+               0,
+               1
+            ],
+            [
+               250,
+               2.875061263,
+               0,
+               0
+            ],
+            [
+               3000,
+               3.544068044,
+               1,
+               0
+            ],
+            [
+               10500,
+               4.041392685,
+               1,
+               0
+            ],
+            [
+               7350,
+               3.894869657,
+               0,
+               1
+            ],
+            [
+               20000,
+               4.311753861,
+               1,
+               0
+            ],
+            [
+               4500,
+               3.698970004,
+               1,
+               1
+            ],
+            [
+               22250,
+               4.356981401,
+               0,
+               1
+            ],
+            [
+               13250,
+               4.138302698,
+               0,
+               1
+            ],
+            [
+               18550,
+               4.27989498,
+               0,
+               1
+            ],
+            [
+               12000,
+               4.096910013,
+               0,
+               1
+            ],
+            [
+               6000,
+               3.812913357,
+               0,
+               1
+            ],
+            [
+               22400,
+               4.359835482,
+               0,
+               1
+            ],
+            [
+               14500,
+               4.176091259,
+               0,
+               1
+            ],
+            [
+               26800,
+               4.436162647,
+               0,
+               1
+            ],
+            [
+               8000,
+               3.929418926,
+               1,
+               0
+            ],
+            [
+               750,
+               3.096910013,
+               1,
+               0
+            ],
+            [
+               0,
+               2.698970004,
+               1,
+               0
+            ],
+            [
+               0,
+               2.698970004,
+               1,
+               0
+            ],
+            [
+               1326,
+               3.261500773,
+               1,
+               1
+            ],
+            [
+               0,
+               2.698970004,
+               1,
+               1
+            ],
+            [
+               26000,
+               4.423245874,
+               1,
+               0
+            ],
+            [
+               14000,
+               4.161368002,
+               1,
+               1
+            ],
+            [
+               2000,
+               3.397940009,
+               0,
+               1
+            ],
+            [
+               8600,
+               3.959041392,
+               0,
+               1
+            ]
+         ]
+      }
+   }
+}

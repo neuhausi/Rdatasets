@@ -1,0 +1,106 @@
+{
+   "config" : {
+      "graphType" : "Scatter3D",
+      "subtitle" : "DAAG - cottonworkers",
+      "title" : "Occupation and wage profiles of British cotton workers",
+      "colorBy" : null
+   },
+   "data" : {
+      "y" : {
+         "smps" : [
+            "census1886",
+            "survey1889",
+            "avwage"
+         ],
+         "data" : [
+            [
+               5902,
+               2,
+               233.59
+            ],
+            [
+               375,
+               1,
+               328.98
+            ],
+            [
+               909,
+               12,
+               388.47
+            ],
+            [
+               2883,
+               37,
+               466.54
+            ],
+            [
+               1983,
+               17,
+               399.9
+            ],
+            [
+               208,
+               17,
+               269.73
+            ],
+            [
+               669,
+               4,
+               440.82
+            ],
+            [
+               2966,
+               44,
+               311.64
+            ],
+            [
+               597,
+               6,
+               469.62
+            ],
+            [
+               6951,
+               156,
+               408.97
+            ],
+            [
+               865,
+               5,
+               357.2
+            ],
+            [
+               1586,
+               14,
+               308.73
+            ],
+            [
+               0,
+               4,
+               456.23
+            ],
+            [
+               8577,
+               21,
+               273.97
+            ]
+         ],
+         "vars" : [
+            "Big piecer",
+            "Drawer in",
+            "Engineman",
+            "Foreman",
+            "Grinders",
+            "Labourer",
+            "Mechanic",
+            "Others",
+            "Sizer",
+            "Spinner",
+            "Twister in",
+            "Warehouseman",
+            "Warp dresser",
+            "Weaver"
+         ]
+      }
+   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>cottonworkers</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Occupation and wage profiles of British cotton workers</h2>\n<h3>Description</h3>\n<p>Numbers are given in different categories of worker, in each of\ntwo investigations.  The first source of information is the\nBoard of Trade Census that was conducted on 1886.  The second\nis a relatively informal survey conducted by US Bureau of\nLabor representatives in 1889, for use in official reports.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(cottonworkers)</code></pre>\n<h3>Format</h3>\n<p>A data frame with 14 observations on the following 3 variables.\n</p>\n<dl>\n<dt>census1886</dt><dd><p>Numbers of workers in each of 14 different\ncategories, according to the Board of Trade wage census that\nwas conducted in 1886</p>\n</dd>\n<dt>survey1889</dt><dd><p>Numbers of workers in each of 14 different\ncategories, according to data collected in 1889 by the US Bureau\nof Labor, for use in a report to the US Congress and House of\nRepresentatives</p>\n</dd>\n<dt>avwage</dt><dd><p>Average wage, in pence, as estimated in the US Bureau\nof Labor survey</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>The data in <code>survey1889</code> were collected in a relatively informal\nmanner, by approaching individuals on the street.  Biases might\ntherefore be expected.\n</p>\n<h3>Source</h3>\n<p>United States congress, House of Representatives, Sixth Annual Report\nof the Commissioner of Labor, 1890, Part III, Cost of Living\n(Washington D.C. 1891); idem.,  Seventh Annual Report\nof the Commissioner of Labor, 1891, Part III, Cost of Living\n(Washington D.C. 1892)\n</p>\n<p>Return of wages in the principal textile trades of the United Kingdom,\nwith report therein. (P.P. 1889, LXX). United Kingdom Official\nPublication.\n</p>\n<h3>References</h3>\n<p>Boot, H. M. and Maindonald, J. H. 2007. New estimates of age- and sex-\nspecific earnings and the male-female earnings gap in the British\ncotton industry, 1833-1906. <em>Economic History Review</em>. Published\nonline 28-Aug-2007 doi: 10.1111/j.1468-0289.2007.00398.x\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>data(cottonworkers)\nstr(cottonworkers)\nplot(survey1889 ~ census1886, data=cottonworkers)\nplot(I(avwage*survey1889) ~ I(avwage*census1886), data=cottonworkers)\n</code></pre>\n</main>\n</div>\n"
+}

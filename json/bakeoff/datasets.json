@@ -1,0 +1,50 @@
+[
+   [
+      "bakers (data)",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/bakeoff/bakers (data).json"
+   ],
+   [
+      "bakers_raw (data)",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/bakeoff/bakers_raw (data).json"
+   ],
+   [
+      "bakes_raw (data)",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/bakeoff/bakes_raw (data).json"
+   ],
+   [
+      "challenges (data)",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/bakeoff/challenges (data).json"
+   ],
+   [
+      "episodes (data)",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/bakeoff/episodes (data).json"
+   ],
+   [
+      "episodes_raw (data)",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/bakeoff/episodes_raw (data).json"
+   ],
+   [
+      "ratings (data)",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/bakeoff/ratings (data).json"
+   ],
+   [
+      "ratings_raw (data)",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/bakeoff/ratings_raw (data).json"
+   ],
+   [
+      "results_raw (data)",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/bakeoff/results_raw (data).json"
+   ],
+   [
+      "seasons_raw (data)",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/bakeoff/seasons_raw (data).json"
+   ],
+   [
+      "series_raw (data)",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/bakeoff/series_raw (data).json"
+   ],
+   [
+      "spice_test_wide (data)",
+      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/bakeoff/spice_test_wide (data).json"
+   ]
+]

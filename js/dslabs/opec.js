@@ -1,0 +1,54 @@
+var opec = [
+   [
+      "dat",
+      "Row"
+   ],
+   [
+      "Algeria",
+      1
+   ],
+   [
+      "Angola",
+      2
+   ],
+   [
+      "Ecuador",
+      3
+   ],
+   [
+      "Iran",
+      4
+   ],
+   [
+      "Iraq",
+      5
+   ],
+   [
+      "Kuwait",
+      6
+   ],
+   [
+      "Libya",
+      7
+   ],
+   [
+      "Nigeria",
+      8
+   ],
+   [
+      "Qatar",
+      9
+   ],
+   [
+      "Saudi Arabia",
+      10
+   ],
+   [
+      "United Arab Emirates",
+      11
+   ],
+   [
+      "Venezuela",
+      12
+   ]
+]

@@ -1,0 +1,574 @@
+{
+   "config" : {
+      "colorBy" : "form_factor",
+      "title" : "SSD read and write speeds",
+      "sizeBy" : "model",
+      "shapeBy" : "brand",
+      "subtitle" : "openintro - ssd_speed",
+      "scatterPlotMatrix" : 1,
+      "graphType" : "Scatter2D"
+   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>ssd_speed</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>SSD read and write speeds</h2>\n<h3>Description</h3>\n<p>User submitted data on 1TB solid state drives (SSD).\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>ssd_speed\n</code></pre>\n<h3>Format</h3>\n<p>A data frame with 54 rows and 7 variables.\n</p>\n<dl>\n<dt>brand</dt><dd><p>Brand name of the drive.</p>\n</dd>\n<dt>model</dt><dd><p>Model name of the drive.</p>\n</dd>\n<dt>samples</dt><dd><p>Number of user submitted benchmarks.</p>\n</dd>\n<dt>form_factor</dt><dd><p>Physical form of the drive with levels <code>2.5</code>, <code>m.2</code>, and <code>mSATA</code>.</p>\n</dd>\n<dt>nvme</dt><dd><p>If a drive uses the <em>nvme</em> protocol this value is 1, 0 if it does not.</p>\n</dd>\n<dt>read</dt><dd><p>Average read speed from user benchmarks in MB/s.</p>\n</dd>\n<dt>write</dt><dd><p>Average write speed from user benchmarks in MB/s.</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p><a href=\"https://ssd.userbenchmark.com/\">UserBenchmark</a>, retrieved September 1, 2020.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>\nlibrary(ggplot2)\nlibrary(dplyr)\nssd_speed |&gt;\n  count(form_factor)\nssd_speed |&gt;\n  filter(form_factor != \"mSATA\") |&gt;\n  ggplot(aes(x = read, y = write, color = form_factor)) +\n  geom_point() +\n  labs(\n    title = \"Average read vs. write speed of SSDs\",\n    x = \"Read speed (MB/s)\",\n    y = \"Write speed (MB/s)\"\n  facet_wrap(~form_factor, ncol = 1, scales = \"free\") +\n  guides(color = FALSE)\n</code></pre>\n</main>\n</div>\n",
+   "data" : {
+      "z" : {
+         "form_factor" : [
+            "m.2",
+            "2.5",
+            "m.2",
+            "2.5",
+            "m.2",
+            "2.5",
+            "2.5",
+            "m.2",
+            "m.2",
+            "2.5",
+            "2.5",
+            "m.2",
+            "mSATA",
+            "m.2",
+            "m.2",
+            "m.2",
+            "m.2",
+            "2.5",
+            "m.2",
+            "m.2",
+            "m.2",
+            "2.5",
+            "m.2",
+            "m.2",
+            "2.5",
+            "m.2",
+            "2.5",
+            "2.5",
+            "2.5",
+            "2.5",
+            "2.5",
+            "m.2",
+            "m.2",
+            "m.2",
+            "m.2",
+            "m.2",
+            "m.2",
+            "2.5",
+            "2.5",
+            "m.2",
+            "2.5",
+            "m.2",
+            "2.5",
+            "m.2",
+            "m.2",
+            "m.2",
+            "m.2",
+            "m.2",
+            "2.5",
+            "2.5",
+            "m.2",
+            "m.2",
+            "m.2",
+            "2.5"
+         ],
+         "brand" : [
+            "Corsair",
+            "Samsung",
+            "Samsung",
+            "Samsung",
+            "Samsung",
+            "Samsung",
+            "Samsung",
+            "Samsung",
+            "Samsung",
+            "Samsung",
+            "Samsung",
+            "Samsung",
+            "Samsung",
+            "Samsung",
+            "Samsung",
+            "Samsung",
+            "Western Digital",
+            "Western Digital",
+            "Western Digital",
+            "Western Digital",
+            "Western Digital",
+            "Western Digital",
+            "Western Digital",
+            "Crucial",
+            "Crucial",
+            "Crucial",
+            "Crucial",
+            "Crucial",
+            "Crucial",
+            "Adata",
+            "Adata",
+            "Adata",
+            "Adata",
+            "Adata",
+            "HP",
+            "HP",
+            "HP",
+            "HP",
+            "SanDisk",
+            "SanDisk",
+            "SanDisk",
+            "Intel",
+            "Intel",
+            "Sabrent",
+            "Sabrent",
+            "Plextor",
+            "Plextor",
+            "Gigabyte",
+            "Kingston",
+            "Mushkin",
+            "MyDigitalSSD",
+            "Seagate",
+            "Toshiba",
+            "Transcend"
+         ],
+         "model" : [
+            "Force MP600",
+            "840 Evo",
+            "960 Evo",
+            "850 Pro",
+            "970 Pro",
+            "860 Pro",
+            "850 Evo",
+            "970 Evo Plus",
+            "970 Evo",
+            "860 Evo",
+            "860 QVO",
+            "PM951",
+            "840 Evo",
+            "PM961",
+            "PM981",
+            "960 Pro",
+            "Black SN750",
+            "Blue",
+            "Blue",
+            "Blue SN550",
+            "Blue 3D",
+            "Blue 3d",
+            "Black",
+            "P5 3D",
+            "MX500",
+            "P1 3D",
+            "M550",
+            "BX100",
+            "MX200",
+            "Ultimate SU800",
+            "Premier SP610",
+            "XPG SX6000",
+            "XPG SX6000 Pro",
+            "XPG SX8200 Pro",
+            "EX900",
+            "EX950",
+            "EX920",
+            "S700 Pro",
+            "X400",
+            "Extreme Pro",
+            "Ultra 3D",
+            "660p",
+            "540s",
+            "Rocket 4",
+            "Rocket",
+            "M8Se",
+            "M8Pe",
+            "Aorus",
+            "KC400",
+            "Reactor",
+            "SBX",
+            "FireCuda 510",
+            "XG5",
+            "SSD370"
+         ]
+      },
+      "y" : {
+         "smps" : [
+            "samples",
+            "nvme",
+            "read",
+            "write"
+         ],
+         "data" : [
+            [
+               11526,
+               1,
+               1958,
+               3144
+            ],
+            [
+               16888,
+               0,
+               470,
+               389
+            ],
+            [
+               25990,
+               1,
+               1798,
+               1562
+            ],
+            [
+               14690,
+               0,
+               476,
+               418
+            ],
+            [
+               21981,
+               1,
+               2327,
+               2056
+            ],
+            [
+               2785,
+               0,
+               481,
+               437
+            ],
+            [
+               92620,
+               0,
+               471,
+               433
+            ],
+            [
+               101848,
+               1,
+               2381,
+               2170
+            ],
+            [
+               121774,
+               1,
+               2342,
+               2126
+            ],
+            [
+               255164,
+               0,
+               485,
+               444
+            ],
+            [
+               71901,
+               0,
+               478,
+               400
+            ],
+            [
+               1938,
+               1,
+               968,
+               641
+            ],
+            [
+               462,
+               0,
+               469,
+               359
+            ],
+            [
+               4374,
+               1,
+               1538,
+               1280
+            ],
+            [
+               18364,
+               1,
+               1573,
+               1710
+            ],
+            [
+               11872,
+               1,
+               2079,
+               1462
+            ],
+            [
+               16269,
+               1,
+               1851,
+               2069
+            ],
+            [
+               4444,
+               0,
+               448,
+               390
+            ],
+            [
+               1714,
+               0,
+               442,
+               385
+            ],
+            [
+               13225,
+               1,
+               1499,
+               1665
+            ],
+            [
+               6898,
+               0,
+               463,
+               428
+            ],
+            [
+               10067,
+               0,
+               459,
+               420
+            ],
+            [
+               4158,
+               1,
+               1765,
+               1944
+            ],
+            [
+               151,
+               1,
+               1911,
+               1795
+            ],
+            [
+               71026,
+               0,
+               477,
+               424
+            ],
+            [
+               62766,
+               1,
+               1511,
+               1425
+            ],
+            [
+               1211,
+               0,
+               408,
+               419
+            ],
+            [
+               1010,
+               0,
+               474,
+               401
+            ],
+            [
+               2472,
+               0,
+               376,
+               361
+            ],
+            [
+               10959,
+               0,
+               484,
+               425
+            ],
+            [
+               116,
+               0,
+               483,
+               405
+            ],
+            [
+               133,
+               1,
+               561,
+               695
+            ],
+            [
+               2969,
+               1,
+               1759,
+               944
+            ],
+            [
+               33430,
+               1,
+               2277,
+               1719
+            ],
+            [
+               80,
+               1,
+               1363,
+               1134
+            ],
+            [
+               1692,
+               1,
+               2281,
+               1817
+            ],
+            [
+               7532,
+               1,
+               2225,
+               1423
+            ],
+            [
+               53,
+               0,
+               488,
+               380
+            ],
+            [
+               1549,
+               0,
+               443,
+               381
+            ],
+            [
+               899,
+               1,
+               1761,
+               1958
+            ],
+            [
+               3753,
+               0,
+               456,
+               418
+            ],
+            [
+               88237,
+               1,
+               1372,
+               1362
+            ],
+            [
+               1152,
+               0,
+               445,
+               389
+            ],
+            [
+               12240,
+               1,
+               1948,
+               3103
+            ],
+            [
+               396,
+               1,
+               1171,
+               1891
+            ],
+            [
+               96,
+               1,
+               1223,
+               623
+            ],
+            [
+               306,
+               1,
+               1457,
+               994
+            ],
+            [
+               5490,
+               1,
+               1953,
+               3064
+            ],
+            [
+               485,
+               0,
+               465,
+               407
+            ],
+            [
+               6572,
+               0,
+               470,
+               391
+            ],
+            [
+               29,
+               1,
+               670,
+               681
+            ],
+            [
+               840,
+               1,
+               1213,
+               2020
+            ],
+            [
+               6387,
+               1,
+               1146,
+               737
+            ],
+            [
+               182,
+               0,
+               472,
+               394
+            ]
+         ],
+         "vars" : [
+            "Var1",
+            "Var2",
+            "Var3",
+            "Var4",
+            "Var5",
+            "Var6",
+            "Var7",
+            "Var8",
+            "Var9",
+            "Var10",
+            "Var11",
+            "Var12",
+            "Var13",
+            "Var14",
+            "Var15",
+            "Var16",
+            "Var17",
+            "Var18",
+            "Var19",
+            "Var20",
+            "Var21",
+            "Var22",
+            "Var23",
+            "Var24",
+            "Var25",
+            "Var26",
+            "Var27",
+            "Var28",
+            "Var29",
+            "Var30",
+            "Var31",
+            "Var32",
+            "Var33",
+            "Var34",
+            "Var35",
+            "Var36",
+            "Var37",
+            "Var38",
+            "Var39",
+            "Var40",
+            "Var41",
+            "Var42",
+            "Var43",
+            "Var44",
+            "Var45",
+            "Var46",
+            "Var47",
+            "Var48",
+            "Var49",
+            "Var50",
+            "Var51",
+            "Var52",
+            "Var53",
+            "Var54"
+         ]
+      }
+   }
+}
