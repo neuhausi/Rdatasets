@@ -1,3 +1,17 @@
+var BrokenMarriageInfo ={
+   "usage" : "data(\"BrokenMarriage\")",
+   "description" : "Description\nData from the Danish Welfare Study about broken marriages or permanent\nrelationships depending on gender and social rank.",
+   "title" : "Broken Marriage Data",
+   "format" : "A data frame with 20 observations and 4 variables.",
+   "reference" : "E. B. Andersen (1991),\nThe Statistical Analysis of Categorical Data, page 177.",
+   "parameters" : {
+      "Freq" : "frequency.",
+      "broken" : "factor indicating whether the marriage or permanent\nrelationship was broken (yes, no).",
+      "rank" : "factor indicating social rank (I, II, III, IV, V).",
+      "gender" : "factor indicating gender (male, female)."
+   }
+}
+
 var BrokenMarriage = [
    [
       "Freq",

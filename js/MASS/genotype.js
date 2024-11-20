@@ -1,3 +1,16 @@
+var genotypeInfo ={
+   "description" : "Description\nData from a foster feeding experiment with rat mothers and litters of\nfour different genotypes: A, B, I and J.\nRat litters were separated from their natural mothers at birth and\ngiven to foster mothers to rear.",
+   "usage" : "genotype",
+   "parameters" : {
+      "Mother" : "genotype of the foster mother.",
+      "Litter" : "genotype of the litter.",
+      "Wt" : "Litter average weight gain of the litter, in grams at age 28 days.\n(The source states that the within-litter variability is negligible.)"
+   },
+   "title" : "Rat Genotype Data",
+   "reference" : "Scheffe, H. (1959) The Analysis of Variance Wiley p. 140.",
+   "format" : "The data frame has the following components:"
+}
+
 var genotype = [
    [
       "Litter",

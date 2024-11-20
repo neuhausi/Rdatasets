@@ -1,3 +1,16 @@
+var ucb_admitInfo ={
+   "parameters" : {
+      "gender" : "Whether the applicant identified as male or female.",
+      "department" : "What department did the applicant apply to, noted as A through F for confidentiality.",
+      "admit" : "Was the applicant admitted to the university?"
+   },
+   "format" : "A data frame with 4526 observations on the following 3 variables.",
+   "title" : "ucb_admit",
+   "reference" : "library(ggplot2)\nlibrary(dplyr)\n\nplot_data <- ucb_admit |>\n  count(dept, gender, admit)\n\nggplot(plot_data, aes(dept, n, fill = gender)) +\n  geom_col(position = \"dodge\") +\n  facet_wrap(~admit) +\n  theme_minimal() +\n  labs(\n    title = \"Does gender discrimination play a role in college admittance?\",\n    x = \"Department\",\n    y = \"Number of Students\",\n    fill = \"Gender\",\n    caption = \"Source: UC Berkeley, 1970's\"\n  )",
+   "description" : "Description\nData from a study carried out by the graduate Division of the University of California, Berkeley in the early 1970's to evaluate whether there was a sex bias in graduate admissions.",
+   "usage" : "ucb_admit"
+}
+
 var ucb_admit = [
    [
       "admit",

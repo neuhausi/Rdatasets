@@ -1,3 +1,18 @@
+var BenderlyZwickInfo ={
+   "description" : "Description\nTime series data, 1952&ndash;1982.",
+   "usage" : "data(\"BenderlyZwick\")",
+   "parameters" : {
+      "inflation" : "inflation rate, measured as growth of price\nrate (from December of the previous year to December of the present year).",
+      "growth" : "annual growth rate of output, measured by real GNP\n(from the given year to the next year).",
+      "returns" : "real annual returns on stocks, measured using\nthe Ibbotson-Sinquefeld data base.",
+      "growth2" : "annual growth rate of real GNP as given by Baltagi.",
+      "inflation2" : "inflation rate as given by Baltagi"
+   },
+   "title" : "Benderly and Zwick Data: Inflation, Growth and Stock Returns",
+   "format" : "An annual multiple time series from 1952 to 1982 with 5 variables.",
+   "reference" : "The first three columns of the data are from Table 1 in Benderly and Zwick (1985).\nThe remaining columns are taken from the online complements of Baltagi (2002).\nThe first column is identical in both sources, the other two variables differ\nin their numeric values and additionally the growth series seems to be lagged\ndifferently. Baltagi (2002) states Lott and Ray (1992) as the source for his\nversion of the data set."
+}
+
 var BenderlyZwick = [
    [
       "returns",

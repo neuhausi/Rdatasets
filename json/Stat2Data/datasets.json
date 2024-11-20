@@ -144,10 +144,6 @@
       "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/Stat2Data/CloudSeeding2.json"
    ],
    [
-      "CO2",
-      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/Stat2Data/CO2.json"
-   ],
-   [
       "CO2Germany",
       "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/Stat2Data/CO2Germany.json"
    ],

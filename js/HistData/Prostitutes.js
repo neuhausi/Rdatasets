@@ -1,3 +1,18 @@
+var ProstitutesInfo ={
+   "usage" : "data(Prostitutes)",
+   "description" : "Description\nA table indicating month by month, for the years 1812-1854, the number of prostitutes on the \nregisters of the administration of the city of Paris.",
+   "format" : "A data frame with 516 observations on the following 5 variables.",
+   "reference" : "The data table was digitally scanned with OCR, and errors were corrected by comparing the\nyearly totals recorded in the table to the row sums of the scanned data.",
+   "title" : "Parent-Duchatelet's time-series data on the number of prostitutes in Paris",
+   "parameters" : {
+      "count" : "a numeric vector: number of prostitutes",
+      "month" : "a factor with levels Apr Aug Dec Feb Jan Jul Jun Mar May Nov Oct Sep",
+      "date" : "a Date",
+      "Year" : "a numeric vector",
+      "mon" : "a numeric vector: numeric month"
+   }
+}
+
 var Prostitutes = [
    [
       "Year",

@@ -1,13 +1,12 @@
 {
    "config" : {
-      "title" : "Personality Traits of Cultural Groups",
       "smpOverlays" : [
          "Group"
       ],
+      "title" : "Personality Traits of Cultural Groups",
       "graphType" : "Heatmap",
       "subtitle" : "heplots - Iwasaki_Big_Five"
    },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>Iwasaki_Big_Five</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Personality Traits of Cultural Groups</h2>\n<h3>Description</h3>\n<p>This dataset, from Grice &amp; Iwasaki (2007), gives scores on the five\npersonality scales of the NEO PI-r (Costa &amp; McCrae, 1992), called the &quot;Big\nFive&quot; personality traits: Neuroticism, Extraversion, Openness-to-Experience,\nAgreeableness, and Conscientiousness.\n</p>\n<h3>Format</h3>\n<p>A data frame with 203 observations on the following 7 variables.\n</p>\n<dl>\n<dt><code>ID</code></dt><dd><p>ID number</p>\n</dd> \n<dt><code>Group</code></dt><dd><p>a factor with\nlevels <code>Eur</code> <code>Asian_Amer</code> <code>Asian_Intl</code></p>\n</dd>\n<dt><code>N</code></dt><dd><p>Neuroticism score</p>\n</dd> \n<dt><code>E</code></dt><dd><p>Extraversion score</p>\n</dd>\n<dt><code>O</code></dt><dd><p>Openness score</p>\n</dd> \n<dt><code>A</code></dt><dd><p>Agreeableness score</p>\n</dd>\n<dt><code>C</code></dt><dd><p>Conscientiousness score</p>\n</dd> \n</dl>\n<h3>Details</h3>\n<p>The groups are: \n</p>\n<dl>\n<dt>Eur</dt><dd><p>European Americans (Caucasians living in the United States their entire lives)</p>\n</dd> \n<dt>Asian_Amer</dt><dd><p>Asian Americans (Asians living in the United States since before the age of 6 years)</p>\n</dd>\n<dt>Asian_Intl</dt><dd><p>Asian Internationals (Asians who moved to the United States after their 6th birthday)</p>\n</dd> \n</dl>\n<p>The factor <code>Group</code> is set up to compare E vs. Asian and the two Asian\ngroups\n</p>\n<h3>Source</h3>\n<p>Grice, J., &amp; Iwasaki, M. (2007). A truly multivariate approach to\nMANOVA.  <em>Applied Multivariate Research</em>, <b>12</b>, 199-226.\nhttps://doi.org/10.22329/amr.v12i3.660.\n</p>\n<h3>References</h3>\n<p>Costa Jr, P. T., &amp; McCrae, R. R. (1992).  <em>Revised NEO\nPersonality Inventory (NEO PI-R) and NEO Five-Factor Inventory (NEOFFI)\nprofessional manual</em>.  Psychological Assessment Resources.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>\ndata(Iwasaki_Big_Five)\n# use Helmert contrasts for groups\ncontrasts(Iwasaki_Big_Five$Group) &lt;- \n   matrix(c(2, -1, -1,\n            0, -1,  1), ncol=2)\nstr(Iwasaki_Big_Five)\nBig5.mod &lt;- lm(cbind(N, E, O, A, C) ~ Group, data=Iwasaki_Big_Five)\ncoef(Big5.mod)\ncar::Anova(Big5.mod)\n# test contrasts\ncar::linearHypothesis(Big5.mod, \"Group1\", title = \"Eur vs Asian\")\ncar::linearHypothesis(Big5.mod, \"Group2\", title = \"Asian: Amer vs Inter\")\n# heplots\nlabs &lt;- c(\"Neuroticism\", \"Extraversion\", \"Openness\", \"Agreeableness\", \"Conscientiousness\" )\nheplot(Big5.mod,\n       fill = TRUE, fill.alpha = 0.2, \n       cex.lab = 1.5,\n       xlab = labs[1], ylab = labs[2])\nheplot(Big5.mod, variables = c(2,5),\n       fill = TRUE, fill.alpha = 0.2,\n       cex.lab = 1.5,\n       xlab = labs[2], ylab = labs[5])\npairs(Big5.mod, \n      fill = TRUE, fill.alpha = 0.2, var.labels = labs)\n# canonical discriminant analysis\nif (require(candisc)) { \nlibrary(candisc)\nBig5.can &lt;- candisc(Big5.mod)\nBig5.can\nheplot(Big5.can, fill = TRUE, fill.alpha = 0.1)\n</code></pre>\n</main>\n</div>\n",
    "data" : {
       "x" : {
          "Group" : [
@@ -217,14 +216,6 @@
          ]
       },
       "y" : {
-         "vars" : [
-            "ID",
-            "N",
-            "E",
-            "O",
-            "A",
-            "C"
-         ],
          "smps" : [
             "Smp1",
             "Smp2",
@@ -429,6 +420,14 @@
             "Smp201",
             "Smp202",
             "Smp203"
+         ],
+         "vars" : [
+            "ID",
+            "N",
+            "E",
+            "O",
+            "A",
+            "C"
          ],
          "data" : [
             [
@@ -1663,5 +1662,6 @@
             ]
          ]
       }
-   }
+   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>Iwasaki_Big_Five</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Personality Traits of Cultural Groups</h2>\n<h3>Description</h3>\n<p>This dataset, from Grice &amp; Iwasaki (2007), gives scores on the five\npersonality scales of the NEO PI-r (Costa &amp; McCrae, 1992), called the &quot;Big\nFive&quot; personality traits: Neuroticism, Extraversion, Openness-to-Experience,\nAgreeableness, and Conscientiousness.\n</p>\n<h3>Format</h3>\n<p>A data frame with 203 observations on the following 7 variables.\n</p>\n<dl>\n<dt><code>ID</code></dt><dd><p>ID number</p>\n</dd> \n<dt><code>Group</code></dt><dd><p>a factor with\nlevels <code>Eur</code> <code>Asian_Amer</code> <code>Asian_Intl</code></p>\n</dd>\n<dt><code>N</code></dt><dd><p>Neuroticism score</p>\n</dd> \n<dt><code>E</code></dt><dd><p>Extraversion score</p>\n</dd>\n<dt><code>O</code></dt><dd><p>Openness score</p>\n</dd> \n<dt><code>A</code></dt><dd><p>Agreeableness score</p>\n</dd>\n<dt><code>C</code></dt><dd><p>Conscientiousness score</p>\n</dd> \n</dl>\n<h3>Details</h3>\n<p>The groups are: \n</p>\n<dl>\n<dt>Eur</dt><dd><p>European Americans (Caucasians living in the United States their entire lives)</p>\n</dd> \n<dt>Asian_Amer</dt><dd><p>Asian Americans (Asians living in the United States since before the age of 6 years)</p>\n</dd>\n<dt>Asian_Intl</dt><dd><p>Asian Internationals (Asians who moved to the United States after their 6th birthday)</p>\n</dd> \n</dl>\n<p>The factor <code>Group</code> is set up to compare E vs. Asian and the two Asian\ngroups\n</p>\n<h3>Source</h3>\n<p>Grice, J., &amp; Iwasaki, M. (2007). A truly multivariate approach to\nMANOVA.  <em>Applied Multivariate Research</em>, <b>12</b>, 199-226.\nhttps://doi.org/10.22329/amr.v12i3.660.\n</p>\n<h3>References</h3>\n<p>Costa Jr, P. T., &amp; McCrae, R. R. (1992).  <em>Revised NEO\nPersonality Inventory (NEO PI-R) and NEO Five-Factor Inventory (NEOFFI)\nprofessional manual</em>.  Psychological Assessment Resources.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>\ndata(Iwasaki_Big_Five)\n# use Helmert contrasts for groups\ncontrasts(Iwasaki_Big_Five$Group) &lt;- \n   matrix(c(2, -1, -1,\n            0, -1,  1), ncol=2)\nstr(Iwasaki_Big_Five)\nBig5.mod &lt;- lm(cbind(N, E, O, A, C) ~ Group, data=Iwasaki_Big_Five)\ncoef(Big5.mod)\ncar::Anova(Big5.mod)\n# test contrasts\ncar::linearHypothesis(Big5.mod, \"Group1\", title = \"Eur vs Asian\")\ncar::linearHypothesis(Big5.mod, \"Group2\", title = \"Asian: Amer vs Inter\")\n# heplots\nlabs &lt;- c(\"Neuroticism\", \"Extraversion\", \"Openness\", \"Agreeableness\", \"Conscientiousness\" )\nheplot(Big5.mod,\n       fill = TRUE, fill.alpha = 0.2, \n       cex.lab = 1.5,\n       xlab = labs[1], ylab = labs[2])\nheplot(Big5.mod, variables = c(2,5),\n       fill = TRUE, fill.alpha = 0.2,\n       cex.lab = 1.5,\n       xlab = labs[2], ylab = labs[5])\npairs(Big5.mod, \n      fill = TRUE, fill.alpha = 0.2, var.labels = labs)\n# canonical discriminant analysis\nif (require(candisc)) { \nlibrary(candisc)\nBig5.can &lt;- candisc(Big5.mod)\nBig5.can\nheplot(Big5.can, fill = TRUE, fill.alpha = 0.1)\n</code></pre>\n</main>\n</div>\n"
 }

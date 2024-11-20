@@ -1,3 +1,24 @@
+var OilInfo ={
+   "parameters" : {
+      "p" : "real after&ndash;tax oil price measured at time \nof annex B approval",
+      "vardp" : "volatility of the real oil price process\nmeasured as the squared recursive standard\nerrors of the regression of \ncodept-pt-1 on a constant",
+      "varp98" : "volatility of the adaptive expectations \n(with parameter theta=0.98) for real after \ntax oil prices measured as the squared \nrecursive standard errors of the regression \nof pt on pte(theta)",
+      "p98" : "adaptive expectations (with parameter \ntheta=0.98) for the real after&ndash;tax oil \nprices formed at the time of annex B approval",
+      "operator" : "equity market value (in 1991 million pounds) \nof the company operating the oil field",
+      "gasres" : "size of recoverable gas reserves in billions \nof cubic feet",
+      "size" : "size of recoverable reserves in millions \nof barrels",
+      "varp97" : "volatility of the adaptive expectations \n(with parameter theta=0.97) for real after \ntax oil prices measured as the squared \nrecursive standard errors of the regression \nof pt on pte(theta)",
+      "dur" : "duration of the appraisal lag in months (time\nspan between discovery of an oil field and\nbeginning of development, i.e. approval of \nannex B).",
+      "waterd" : "depth of the sea in metres",
+      "p97" : "adaptive expectations (with parameter \ntheta=0.97) for the real after&ndash;tax oil \nprices formed at the time of annex B approval"
+   },
+   "format" : "A dataframe containing :",
+   "title" : "Oil Investment",
+   "reference" : "Favero, Carlo A., M. Hashem Pesaran and Sunil \nSharma (1994) &ldquo;A duration model of irreversible oil investment : theory and empirical evidence&rdquo;, Journal of Applied Econometrics, 9(S), S95&ndash;S112.",
+   "description" : "Description\na cross-section from 1969 to 1992\nnumber of observations :  53\nobservation :  production units\ncountry :  United Kingdom",
+   "usage" : "data(Oil)"
+}
+
 var Oil = [
    [
       "dur",

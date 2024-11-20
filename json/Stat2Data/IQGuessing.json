@@ -1,58 +1,7 @@
 {
-   "config" : {
-      "title" : "Guess IQ from a Photo?",
-      "subtitle" : "Stat2Data - IQGuessing",
-      "graphType" : "Scatter3D"
-   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>IQGuessing</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Guess IQ from a Photo?</h2>\n<h3>Description</h3>\n<p>True IQ and guessed IQ (from a photo) for 40 women\n</p>\n<h3>Format</h3>\n<p>A data frame with 40 observations on the following 3 variables.\n</p>\n<dl>\n<dt><code>Age</code></dt><dd><p>Age of woman</p>\n</dd>\n<dt><code>GuessIQ</code></dt><dd><p>Guessed IQ</p>\n</dd>\n<dt><code>TrueIQ</code></dt><dd><p>Actual IQ</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>One hundred sixty raters (75 men and 85 women) took part in judging intelligence (on a 1=high to 7=low scale) based on photographs of students. The ratings were converted to z-scores and then put on an IQ scale to compare to actual measured IQ. There were photos of 80 students, 40 men and 40 women.  This data set contains data for the 40 women.\n</p>\n<h3>Source</h3>\n<p>Kleisner K, Chvatalova V, Flegr J (2014), &quot;Perceived Intelligence Is Associated with Measured Intelligence in Men but Not Women,&quot; PLoS ONE 9(3): e81237. doi:10.1371/journal.pone.0081237.\n</p>\n</main>\n</div>\n",
    "data" : {
       "y" : {
-         "vars" : [
-            "Var1",
-            "Var2",
-            "Var3",
-            "Var4",
-            "Var5",
-            "Var6",
-            "Var7",
-            "Var8",
-            "Var9",
-            "Var10",
-            "Var11",
-            "Var12",
-            "Var13",
-            "Var14",
-            "Var15",
-            "Var16",
-            "Var17",
-            "Var18",
-            "Var19",
-            "Var20",
-            "Var21",
-            "Var22",
-            "Var23",
-            "Var24",
-            "Var25",
-            "Var26",
-            "Var27",
-            "Var28",
-            "Var29",
-            "Var30",
-            "Var31",
-            "Var32",
-            "Var33",
-            "Var34",
-            "Var35",
-            "Var36",
-            "Var37",
-            "Var38",
-            "Var39",
-            "Var40"
-         ],
-         "smps" : [
-            "Age",
-            "GuessIQ",
-            "TrueIQ"
-         ],
          "data" : [
             [
                20,
@@ -254,8 +203,59 @@
                135,
                115
             ]
+         ],
+         "smps" : [
+            "Age",
+            "GuessIQ",
+            "TrueIQ"
+         ],
+         "vars" : [
+            "Var1",
+            "Var2",
+            "Var3",
+            "Var4",
+            "Var5",
+            "Var6",
+            "Var7",
+            "Var8",
+            "Var9",
+            "Var10",
+            "Var11",
+            "Var12",
+            "Var13",
+            "Var14",
+            "Var15",
+            "Var16",
+            "Var17",
+            "Var18",
+            "Var19",
+            "Var20",
+            "Var21",
+            "Var22",
+            "Var23",
+            "Var24",
+            "Var25",
+            "Var26",
+            "Var27",
+            "Var28",
+            "Var29",
+            "Var30",
+            "Var31",
+            "Var32",
+            "Var33",
+            "Var34",
+            "Var35",
+            "Var36",
+            "Var37",
+            "Var38",
+            "Var39",
+            "Var40"
          ]
       }
    },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>IQGuessing</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Guess IQ from a Photo?</h2>\n<h3>Description</h3>\n<p>True IQ and guessed IQ (from a photo) for 40 women\n</p>\n<h3>Format</h3>\n<p>A data frame with 40 observations on the following 3 variables.\n</p>\n<dl>\n<dt><code>Age</code></dt><dd><p>Age of woman</p>\n</dd>\n<dt><code>GuessIQ</code></dt><dd><p>Guessed IQ</p>\n</dd>\n<dt><code>TrueIQ</code></dt><dd><p>Actual IQ</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>One hundred sixty raters (75 men and 85 women) took part in judging intelligence (on a 1=high to 7=low scale) based on photographs of students. The ratings were converted to z-scores and then put on an IQ scale to compare to actual measured IQ. There were photos of 80 students, 40 men and 40 women.  This data set contains data for the 40 women.\n</p>\n<h3>Source</h3>\n<p>Kleisner K, Chvatalova V, Flegr J (2014), &quot;Perceived Intelligence Is Associated with Measured Intelligence in Men but Not Women,&quot; PLoS ONE 9(3): e81237. doi:10.1371/journal.pone.0081237.\n</p>\n</main>\n</div>\n"
+   "config" : {
+      "subtitle" : "Stat2Data - IQGuessing",
+      "graphType" : "Scatter3D",
+      "title" : "Guess IQ from a Photo?"
+   }
 }

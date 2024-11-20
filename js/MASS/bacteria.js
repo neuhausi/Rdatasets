@@ -1,3 +1,19 @@
+var bacteriaInfo ={
+   "usage" : "bacteria",
+   "description" : "Description\nTests of the presence of the bacteria H. influenzae\nin children with otitis media in the Northern Territory of Australia.",
+   "format" : "This data frame has 220 rows and the following columns:",
+   "reference" : "Dr A. Leach tested the effects of a drug on 50 children with a history of\notitis media in the Northern Territory of Australia.  The children\nwere randomized to the drug or the a placebo, and also to receive\nactive encouragement to comply with taking the drug.",
+   "title" : "Presence of Bacteria after Drug Treatments",
+   "parameters" : {
+      "week" : "numeric: week of test.",
+      "trt" : "a factor with levels placebo, drug and\ndrug+, a re-coding of ap and hilo.",
+      "ap" : "active/placebo: a factor with levels a and p.",
+      "ID" : "subject ID: a factor.",
+      "y" : "presence or absence: a factor with levels\nn and y.",
+      "hilo" : "hi/low compliance: a factor with levels hi amd\nlo."
+   }
+}
+
 var bacteria = [
    [
       "y",

@@ -1,3 +1,20 @@
+var nba_finals_teamsInfo ={
+   "description" : "Description\nA dataset with individual team summaries for the NBA Finals series from 1950 to 2022. To win the Finals, a team must win 4 games. The maximum number of games in a series is 7.",
+   "usage" : "nba_finals_teams",
+   "parameters" : {
+      "years_lost" : "Years in which the team lost a Championship.",
+      "years_won" : "Years in which the team won a Championship.",
+      "team" : "Team name.",
+      "win" : "Number of NBA Championships won.",
+      "pct" : "Win percentage.",
+      "apps" : "Number of NBA Finals appearances.",
+      "loss" : "Number of NBA Championships lost."
+   },
+   "title" : "NBA Finals Team Summary",
+   "reference" : "Notes:",
+   "format" : "A data frame with 33 rows and 7 variables:"
+}
+
 var nba_finals_teams = [
    [
       "team",

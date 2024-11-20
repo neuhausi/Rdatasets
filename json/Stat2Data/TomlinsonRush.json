@@ -1,35 +1,32 @@
 {
    "config" : {
-      "subtitle" : "Stat2Data - TomlinsonRush",
-      "graphType" : "Scatter3D",
+      "title" : "LaDainian Tomlinson Rushing Yards",
       "colorBy" : "Opponent",
-      "title" : "LaDainian Tomlinson Rushing Yards"
+      "graphType" : "Scatter3D",
+      "subtitle" : "Stat2Data - TomlinsonRush"
    },
    "data" : {
+      "z" : {
+         "Opponent" : [
+            "Raiders",
+            "Titans",
+            "Ravens",
+            "Steelers",
+            "49ers",
+            "Chiefs",
+            "Rams",
+            "Browns",
+            "Bengals",
+            "Broncos",
+            "Raiders",
+            "Bills",
+            "Broncos",
+            "Chiefs",
+            "Seahawks",
+            "Cardinals"
+         ]
+      },
       "y" : {
-         "vars" : [
-            "Var1",
-            "Var2",
-            "Var3",
-            "Var4",
-            "Var5",
-            "Var6",
-            "Var7",
-            "Var8",
-            "Var9",
-            "Var10",
-            "Var11",
-            "Var12",
-            "Var13",
-            "Var14",
-            "Var15",
-            "Var16"
-         ],
-         "smps" : [
-            "Game",
-            "Attempts",
-            "Yards"
-         ],
          "data" : [
             [
                1,
@@ -111,26 +108,29 @@
                16,
                66
             ]
-         ]
-      },
-      "z" : {
-         "Opponent" : [
-            "Raiders",
-            "Titans",
-            "Ravens",
-            "Steelers",
-            "49ers",
-            "Chiefs",
-            "Rams",
-            "Browns",
-            "Bengals",
-            "Broncos",
-            "Raiders",
-            "Bills",
-            "Broncos",
-            "Chiefs",
-            "Seahawks",
-            "Cardinals"
+         ],
+         "vars" : [
+            "Var1",
+            "Var2",
+            "Var3",
+            "Var4",
+            "Var5",
+            "Var6",
+            "Var7",
+            "Var8",
+            "Var9",
+            "Var10",
+            "Var11",
+            "Var12",
+            "Var13",
+            "Var14",
+            "Var15",
+            "Var16"
+         ],
+         "smps" : [
+            "Game",
+            "Attempts",
+            "Yards"
          ]
       }
    },

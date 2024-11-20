@@ -396,6 +396,16 @@
             "396",
             "397"
          ],
+         "vars" : [
+            "mpg",
+            "cylinders",
+            "displacement",
+            "horsepower",
+            "weight",
+            "acceleration",
+            "year",
+            "origin"
+         ],
          "data" : [
             [
                18,
@@ -3549,16 +3559,6 @@
                1,
                1
             ]
-         ],
-         "vars" : [
-            "mpg",
-            "cylinders",
-            "displacement",
-            "horsepower",
-            "weight",
-            "acceleration",
-            "year",
-            "origin"
          ]
       },
       "x" : {
@@ -3960,10 +3960,10 @@
    },
    "config" : {
       "subtitle" : "ISLR - Auto",
+      "title" : "Auto Data Set",
       "graphType" : "Heatmap",
       "smpOverlays" : [
          "name"
-      ],
-      "title" : "Auto Data Set"
+      ]
    }
 }

@@ -1,3 +1,22 @@
+var SakeInfo ={
+   "parameters" : {
+      "tsugar" : "total sugar content",
+      "alcohol" : "alcohol content",
+      "acidity2" : "another measure of acidity",
+      "taste" : "mean taste rating",
+      "acidity1" : "one measure of acidity",
+      "rsugar" : "direct reducing sugar content",
+      "pH" : "pH measurement",
+      "smell" : "mean smell rating",
+      "sake" : "Sake-meter score",
+      "nitrogen" : "formol-nitrogen content"
+   },
+   "description" : "Description\nSiotani et al. (1985) describe a study of Japanese rice wine (sake) used to\ninvestigate the relationship between two subjective ratings (taste\nand smell) and a number of physical measurements on 30 brands of\nsake.",
+   "title" : "Taste Ratings of Japanese Rice Wine (Sake)",
+   "reference" : "These data provide one example of a case where a multivariate regression\ndoesn't benefit from having multiple outcome measures, using the standard\ntests.  Barrett (2003) uses this data to illustrate influence measures for\nmultivariate regression models.",
+   "usage" : "A data frame with 30 observations on the following 10 variables."
+}
+
 var Sake = [
    [
       "taste",

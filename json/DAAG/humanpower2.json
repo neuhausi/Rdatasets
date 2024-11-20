@@ -1,39 +1,11 @@
 {
+   "config" : {
+      "graphType" : "Scatter3D",
+      "title" : "Oxygen uptake versus mechanical power",
+      "subtitle" : "DAAG - humanpower2"
+   },
    "data" : {
       "y" : {
-         "vars" : [
-            "1",
-            "2",
-            "3",
-            "4",
-            "5",
-            "6",
-            "7",
-            "8",
-            "9",
-            "10",
-            "11",
-            "12",
-            "13",
-            "14",
-            "21",
-            "31",
-            "41",
-            "51",
-            "61",
-            "71",
-            "15",
-            "22",
-            "32",
-            "42",
-            "52",
-            "62"
-         ],
-         "smps" : [
-            "wattsPerKg",
-            "o2",
-            "id"
-         ],
          "data" : [
             [
                2.72,
@@ -165,13 +137,41 @@
                67.63,
                4
             ]
+         ],
+         "smps" : [
+            "wattsPerKg",
+            "o2",
+            "id"
+         ],
+         "vars" : [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "21",
+            "31",
+            "41",
+            "51",
+            "61",
+            "71",
+            "15",
+            "22",
+            "32",
+            "42",
+            "52",
+            "62"
          ]
       }
    },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>humanpower</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Oxygen uptake versus mechanical power, for humans</h2>\n<h3>Description</h3>\n<p>Data are from Daedalus project; see the reference below.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(humanpower1)</code></pre>\n<h3>Format</h3>\n<p>A data frame with 28 observations on the following 3 variables.\n</p>\n<dl>\n<dt>wattsPerKg</dt><dd><p>a numeric vector: watts per kilogram of body weight</p>\n</dd>\n<dt>o2</dt><dd><p>a numeric vector: ml/min/kg</p>\n</dd>\n<dt>id</dt><dd><p>a factor with levels 1 - 5 (<code>humanpower1</code>)\nor 1 - 4 (<code>humanpower2</code>), identifying the different athletes</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>Data in <code>humanpower1</code> are from investigations (Bussolari 1987)\ndesigned to assess the feasibility of a proposed 119 kilometer human\npowered flight from the island of Crete &ndash; in the initial phase of the\nDaedalus project.  Data are for five athletes\n&ndash; a female hockey player, a male amateur tri-athlete, a female\namateur triathlete, a male wrestler and a male cyclist &ndash; who were\nselected from volunteers who were recruited through the news media,\nData in <code>humanpower2) are for four out of the 25 applicants who\n    were selected for further testing, in the lead-up to the eventual\n    selection of a pilot for the Daedalus project (Nadel and Bussolari 1988).\n</code>\n</p>\n<h3>Source</h3>\n<p>Bussolari, S.R.(1987). Human factors of long-distance human-powered\naircraft flights.  Human Power 5: 8-12.\n</p>\n<p>Nadel and Bussolari, S.R.(1988). The Daedalus project: physiological\nproblems and solutions.  American Scientist 76: 351-360.\n</p>\n<h3>References</h3>\n<p>Nadel and Bussolari, S.R.(1989). The physiological limits of\nlong-duration human-power production &ndash; lessons learned from\nthe Daedalus project.  Human Power 7: 7-10.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>str(humanpower1)\nplot(humanpower1)\nlm(o2 ~ id + wattsPerKg:id, data=humanpower1)\nlm(o2 ~ id + wattsPerKg:id, data=humanpower2)\n</code></pre>\n</main>\n</div>\n",
-   "config" : {
-      "title" : "Oxygen uptake versus mechanical power",
-      "subtitle" : "DAAG - humanpower2",
-      "graphType" : "Scatter3D"
-   }
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>humanpower</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Oxygen uptake versus mechanical power, for humans</h2>\n<h3>Description</h3>\n<p>Data are from Daedalus project; see the reference below.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(humanpower1)</code></pre>\n<h3>Format</h3>\n<p>A data frame with 28 observations on the following 3 variables.\n</p>\n<dl>\n<dt>wattsPerKg</dt><dd><p>a numeric vector: watts per kilogram of body weight</p>\n</dd>\n<dt>o2</dt><dd><p>a numeric vector: ml/min/kg</p>\n</dd>\n<dt>id</dt><dd><p>a factor with levels 1 - 5 (<code>humanpower1</code>)\nor 1 - 4 (<code>humanpower2</code>), identifying the different athletes</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>Data in <code>humanpower1</code> are from investigations (Bussolari 1987)\ndesigned to assess the feasibility of a proposed 119 kilometer human\npowered flight from the island of Crete &ndash; in the initial phase of the\nDaedalus project.  Data are for five athletes\n&ndash; a female hockey player, a male amateur tri-athlete, a female\namateur triathlete, a male wrestler and a male cyclist &ndash; who were\nselected from volunteers who were recruited through the news media,\nData in <code>humanpower2) are for four out of the 25 applicants who\n    were selected for further testing, in the lead-up to the eventual\n    selection of a pilot for the Daedalus project (Nadel and Bussolari 1988).\n</code>\n</p>\n<h3>Source</h3>\n<p>Bussolari, S.R.(1987). Human factors of long-distance human-powered\naircraft flights.  Human Power 5: 8-12.\n</p>\n<p>Nadel and Bussolari, S.R.(1988). The Daedalus project: physiological\nproblems and solutions.  American Scientist 76: 351-360.\n</p>\n<h3>References</h3>\n<p>Nadel and Bussolari, S.R.(1989). The physiological limits of\nlong-duration human-power production &ndash; lessons learned from\nthe Daedalus project.  Human Power 7: 7-10.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>str(humanpower1)\nplot(humanpower1)\nlm(o2 ~ id + wattsPerKg:id, data=humanpower1)\nlm(o2 ~ id + wattsPerKg:id, data=humanpower2)\n</code></pre>\n</main>\n</div>\n"
 }

@@ -1,9 +1,4 @@
 {
-   "config" : {
-      "title" : "Australian Relative Wool Prices",
-      "graphType" : "Scatter2D",
-      "subtitle" : "boot - wool"
-   },
    "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>wool</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>\nAustralian Relative Wool Prices\n</h2>\n<h3>Description</h3>\n<p><code>wool</code> is a time series of class <code>\"ts\"</code> and contains 309 observations.\n</p>\n<p>Each week that the market is open the Australian Wool Corporation set a floor\nprice which determines their policy on intervention and is therefore a \nreflection of the overall price of wool for the week in question.  Actual prices\npaid can vary considerably about the floor price.  The series here is the log\nof the ratio between the price for fine grade wool and the floor price, each\nmarket week between July 1976 and Jun 1984.\n</p>\n<h3>Source</h3>\n<p>The data were obtained from\n</p>\n<p>Diggle, P.J. (1990) <em>Time Series: A Biostatistical Introduction</em>.\nOxford University Press.\n</p>\n<h3>References</h3>\n<p>Davison, A.C. and Hinkley, D.V. (1997) <em>Bootstrap Methods and Their Application</em>. Cambridge University Press.\n</p>\n</main>\n</div>\n",
    "data" : {
       "y" : {
@@ -317,6 +312,10 @@
             "Var307",
             "Var308",
             "Var309"
+         ],
+         "smps" : [
+            "time",
+            "value"
          ],
          "data" : [
             [
@@ -1555,11 +1554,12 @@
                309,
                0.4544
             ]
-         ],
-         "smps" : [
-            "time",
-            "value"
          ]
       }
+   },
+   "config" : {
+      "subtitle" : "boot - wool",
+      "graphType" : "Scatter2D",
+      "title" : "Australian Relative Wool Prices"
    }
 }

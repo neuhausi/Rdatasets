@@ -1,3 +1,16 @@
+var bramblesInfo ={
+   "usage" : "brambles",
+   "description" : "Description\nThe brambles data frame has 823 rows and 3 columns.\nThe location of living bramble canes in a 9m square plot was recorded.  \nWe take 9m to be the unit of distance so that the plot can be thought of\nas a unit square. The bramble canes were also classified by their age.",
+   "title" : "Spatial Location of Bramble Canes",
+   "reference" : "The data were obtained from",
+   "format" : "This data frame contains the following columns:",
+   "parameters" : {
+      "x" : "The x coordinate of the position of the cane in the plot.",
+      "age" : "The age classification of the canes; 0 indicates a newly emerged cane,\n1 indicates a one year old cane and 2 indicates a two year old cane.",
+      "y" : "The y coordinate of the position of the cane in the plot."
+   }
+}
+
 var brambles = [
    [
       "x",

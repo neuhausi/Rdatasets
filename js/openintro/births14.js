@@ -1,3 +1,26 @@
+var births14Info ={
+   "description" : "Description\nEvery year, the US releases to the public a large dataset containing\ninformation on births recorded in the country. This dataset has been of\ninterest to medical researchers who are studying the relation between habits\nand practices of expectant mothers and the birth of their children. This is a\nrandom sample of 1,000 cases from the dataset released in 2014.",
+   "usage" : "births14",
+   "parameters" : {
+      "premie" : "Whether the birth was classified as premature (premie) or full-term.",
+      "habit" : "Status of the mother as a nonsmoker or a smoker.",
+      "sex" : "Sex of the baby, female or male.",
+      "weeks" : "Length of pregnancy in weeks.",
+      "mature" : "Maturity status of mother.",
+      "weight" : "Weight of the baby at birth in pounds.",
+      "visits" : "Number of hospital visits during pregnancy.",
+      "fage" : "Father's age in years.",
+      "mage" : "Mother's age in years.",
+      "gained" : "Weight gained by mother during pregnancy in pounds.",
+      "whitemom" : "Whether mom is white or &#8288;not white&#8288;.",
+      "marital" : "Whether mother is married or &#8288;not married&#8288; at birth.",
+      "lowbirthweight" : "Whether baby was classified as low birthweight (low) or not (&#8288;not low&#8288;)."
+   },
+   "title" : "US births",
+   "format" : "A data frame with 1,000 observations on the following 13 variables.",
+   "reference" : "United States Department of Health and Human Services.\nCenters for Disease Control and Prevention.\nNational Center for Health Statistics.\nNatality Detail File, 2014 United States.\nInter-university Consortium for Political and Social Research, 2016-10-07.\ndoi:10.3886/ICPSR36461.v1."
+}
+
 var births14 = [
    [
       "fage",

@@ -1,3 +1,9 @@
+var PoliticalInfo ={
+   "title" : "Political Behavior of College Students",
+   "usage" : "A dataset with 59 observations on the following 9 variables.",
+   "description" : "Description\nSurvey of political activity for Grinnell College students"
+}
+
 var Political = [
    [
       "Year",

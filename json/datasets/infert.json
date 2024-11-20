@@ -1,14 +1,24 @@
 {
    "config" : {
+      "subtitle" : "datasets - infert",
       "smpOverlays" : [
          "education"
       ],
-      "title" : "Infertility after Spontaneous and Induced Abortion",
-      "subtitle" : "datasets - infert",
-      "graphType" : "Heatmap"
+      "graphType" : "Heatmap",
+      "title" : "Infertility after Spontaneous and Induced Abortion"
    },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>infert</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Infertility after Spontaneous and Induced Abortion</h2>\n<h3>Description</h3>\n<p>This is a matched case-control study dating from before the\navailability of conditional logistic regression.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>infert</code></pre>\n<h3>Format</h3>\n<table>\n<tr>\n <td style=\"text-align: right;\">\n    1.  </td><td style=\"text-align: left;\"> Education  </td><td style=\"text-align: left;\"> 0 = 0-5  years </td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n        </td><td style=\"text-align: left;\">            </td><td style=\"text-align: left;\"> 1 = 6-11 years </td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n        </td><td style=\"text-align: left;\">            </td><td style=\"text-align: left;\"> 2 = 12+  years  </td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    2.  </td><td style=\"text-align: left;\"> age        </td><td style=\"text-align: left;\"> age in years of case </td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    3.  </td><td style=\"text-align: left;\"> parity     </td><td style=\"text-align: left;\"> count </td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    4.  </td><td style=\"text-align: left;\"> number of prior </td><td style=\"text-align: left;\"> 0 = 0 </td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n        </td><td style=\"text-align: left;\"> induced abortions </td><td style=\"text-align: left;\"> 1 = 1 </td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n        </td><td style=\"text-align: left;\">            </td><td style=\"text-align: left;\"> 2 = 2 or more </td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    5.  </td><td style=\"text-align: left;\"> case status</td><td style=\"text-align: left;\"> 1 = case </td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n        </td><td style=\"text-align: left;\">            </td><td style=\"text-align: left;\"> 0 = control </td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    6.  </td><td style=\"text-align: left;\"> number of prior </td><td style=\"text-align: left;\"> 0 = 0 </td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n        </td><td style=\"text-align: left;\"> spontaneous abortions </td><td style=\"text-align: left;\"> 1 = 1 </td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n        </td><td style=\"text-align: left;\">            </td><td style=\"text-align: left;\"> 2 = 2 or more </td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    7.  </td><td style=\"text-align: left;\"> matched set number </td><td style=\"text-align: left;\"> 1-83 </td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    8.  </td><td style=\"text-align: left;\"> stratum number </td><td style=\"text-align: left;\"> 1-63</td>\n</tr>\n</table>\n<h3>Note</h3>\n<p>One case with two prior spontaneous abortions and two prior induced\nabortions is omitted.\n</p>\n<h3>Source</h3>\n<p>Trichopoulos, D., Handanos, N., Danezis, J., Kalandidi, A., &amp;\nKalapothaki, V. (1976).\nInduced abortion and secondary infertility.\n<em>British Journal of Obstetrics and Gynaecology</em>,\n<b>83</b>, 645&ndash;650.  \n<a href=\"https://doi.org/10.1111/j.1471-0528.1976.tb00904.x\">doi:10.1111/j.1471-0528.1976.tb00904.x</a>.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>require(stats)\nmodel1 &lt;- glm(case ~ spontaneous+induced, data = infert, family = binomial())\nsummary(model1)\n## adjusted for other potential confounders:\nsummary(model2 &lt;- glm(case ~ age+parity+education+spontaneous+induced,\n                     data = infert, family = binomial()))\n## Really should be analysed by conditional logistic regression\n## which is in the survival package\nif(require(survival)){\n  model3 &lt;- clogit(case ~ spontaneous+induced+strata(stratum), data = infert)\n  print(summary(model3))\n  detach()  # survival (conflicts)\n</code></pre>\n</main>\n</div>\n",
    "data" : {
       "y" : {
+         "vars" : [
+            "age",
+            "parity",
+            "induced",
+            "case",
+            "spontaneous",
+            "stratum",
+            "pooled.stratum"
+         ],
          "smps" : [
             "Smp1",
             "Smp2",
@@ -2010,15 +2020,6 @@
                43,
                40
             ]
-         ],
-         "vars" : [
-            "age",
-            "parity",
-            "induced",
-            "case",
-            "spontaneous",
-            "stratum",
-            "pooled.stratum"
          ]
       },
       "x" : {
@@ -2273,6 +2274,5 @@
             "12+ yrs"
          ]
       }
-   },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>infert</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Infertility after Spontaneous and Induced Abortion</h2>\n<h3>Description</h3>\n<p>This is a matched case-control study dating from before the\navailability of conditional logistic regression.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>infert</code></pre>\n<h3>Format</h3>\n<table>\n<tr>\n <td style=\"text-align: right;\">\n    1.  </td><td style=\"text-align: left;\"> Education  </td><td style=\"text-align: left;\"> 0 = 0-5  years </td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n        </td><td style=\"text-align: left;\">            </td><td style=\"text-align: left;\"> 1 = 6-11 years </td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n        </td><td style=\"text-align: left;\">            </td><td style=\"text-align: left;\"> 2 = 12+  years  </td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    2.  </td><td style=\"text-align: left;\"> age        </td><td style=\"text-align: left;\"> age in years of case </td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    3.  </td><td style=\"text-align: left;\"> parity     </td><td style=\"text-align: left;\"> count </td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    4.  </td><td style=\"text-align: left;\"> number of prior </td><td style=\"text-align: left;\"> 0 = 0 </td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n        </td><td style=\"text-align: left;\"> induced abortions </td><td style=\"text-align: left;\"> 1 = 1 </td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n        </td><td style=\"text-align: left;\">            </td><td style=\"text-align: left;\"> 2 = 2 or more </td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    5.  </td><td style=\"text-align: left;\"> case status</td><td style=\"text-align: left;\"> 1 = case </td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n        </td><td style=\"text-align: left;\">            </td><td style=\"text-align: left;\"> 0 = control </td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    6.  </td><td style=\"text-align: left;\"> number of prior </td><td style=\"text-align: left;\"> 0 = 0 </td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n        </td><td style=\"text-align: left;\"> spontaneous abortions </td><td style=\"text-align: left;\"> 1 = 1 </td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n        </td><td style=\"text-align: left;\">            </td><td style=\"text-align: left;\"> 2 = 2 or more </td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    7.  </td><td style=\"text-align: left;\"> matched set number </td><td style=\"text-align: left;\"> 1-83 </td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    8.  </td><td style=\"text-align: left;\"> stratum number </td><td style=\"text-align: left;\"> 1-63</td>\n</tr>\n</table>\n<h3>Note</h3>\n<p>One case with two prior spontaneous abortions and two prior induced\nabortions is omitted.\n</p>\n<h3>Source</h3>\n<p>Trichopoulos, D., Handanos, N., Danezis, J., Kalandidi, A., &amp;\nKalapothaki, V. (1976).\nInduced abortion and secondary infertility.\n<em>British Journal of Obstetrics and Gynaecology</em>,\n<b>83</b>, 645&ndash;650.  \n<a href=\"https://doi.org/10.1111/j.1471-0528.1976.tb00904.x\">doi:10.1111/j.1471-0528.1976.tb00904.x</a>.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>require(stats)\nmodel1 &lt;- glm(case ~ spontaneous+induced, data = infert, family = binomial())\nsummary(model1)\n## adjusted for other potential confounders:\nsummary(model2 &lt;- glm(case ~ age+parity+education+spontaneous+induced,\n                     data = infert, family = binomial()))\n## Really should be analysed by conditional logistic regression\n## which is in the survival package\nif(require(survival)){\n  model3 &lt;- clogit(case ~ spontaneous+induced+strata(stratum), data = infert)\n  print(summary(model3))\n  detach()  # survival (conflicts)\n</code></pre>\n</main>\n</div>\n"
+   }
 }

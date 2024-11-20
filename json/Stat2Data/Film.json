@@ -1,4 +1,14 @@
 {
+   "config" : {
+      "subtitle" : "Stat2Data - Film",
+      "smpOverlays" : [
+         "Time_code",
+         "Title"
+      ],
+      "title" : "Film Data from Leonard Maltin's Guide",
+      "graphType" : "Heatmap"
+   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>Film</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Film Data from Leonard Maltin's Guide</h2>\n<h3>Description</h3>\n<p>Film data from Maltin's Movie and Video Guide\n</p>\n<h3>Format</h3>\n<p>A data frame with 100 observations on the following 9 variables.\n</p>\n<table>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Title</code> </td><td style=\"text-align: left;\"> Movie title</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Year</code> </td><td style=\"text-align: left;\"> Year the movie was released</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Time</code> </td><td style=\"text-align: left;\"> Running time (in minutes)</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Cast</code> </td><td style=\"text-align: left;\"> Number of cast members listed in the guide</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Rating</code> </td><td style=\"text-align: left;\"> Maltin rating (range is 1 to 4, in steps of 0.5)</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Description</code> </td><td style=\"text-align: left;\"> Number of lines of text Maltin uses to describe the movie</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Origin</code> </td><td style=\"text-align: left;\"> Country: 0 = USA, 1 = Great Britain, 2 = France, 3 = Italy, 4 = Canada</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Time_code</code> </td><td style=\"text-align: left;\"> <code>long</code>=90 minutes or longer <code>short</code>=under 90 minutes</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Good</code> </td><td style=\"text-align: left;\"> <code>1</code>=rating of 3 stars or better <code>0</code>=any lower rating</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n  </td>\n</tr>\n</table>\n<h3>Details</h3>\n<p>One statistician movie fan decided to use statistics to study the movie ratings in his favorite movie guide, Movie and\nVideo Guide (1996), by Leonard Maltin. Maltin rates movies on a one-star to four-star\nsystem, in increments of half-stars, with higher numbers being better. The guide also includes additional information on each film.\nThe statistician used a random number generator to select a simple random sample\nof 100 movies rated by the Guide.\n</p>\n<h3>Source</h3>\n<p>Data from Leonard Maltin's Movie and Video Guide (1996)\n</p>\n</main>\n</div>\n",
    "data" : {
       "x" : {
          "Time_code" : [
@@ -207,6 +217,15 @@
          ]
       },
       "y" : {
+         "vars" : [
+            "Year",
+            "Time",
+            "Cast",
+            "Rating",
+            "Description",
+            "Origin",
+            "Good"
+         ],
          "smps" : [
             "Smp1",
             "Smp2",
@@ -1024,26 +1043,7 @@
                0,
                0
             ]
-         ],
-         "vars" : [
-            "Year",
-            "Time",
-            "Cast",
-            "Rating",
-            "Description",
-            "Origin",
-            "Good"
          ]
       }
-   },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>Film</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Film Data from Leonard Maltin's Guide</h2>\n<h3>Description</h3>\n<p>Film data from Maltin's Movie and Video Guide\n</p>\n<h3>Format</h3>\n<p>A data frame with 100 observations on the following 9 variables.\n</p>\n<table>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Title</code> </td><td style=\"text-align: left;\"> Movie title</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Year</code> </td><td style=\"text-align: left;\"> Year the movie was released</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Time</code> </td><td style=\"text-align: left;\"> Running time (in minutes)</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Cast</code> </td><td style=\"text-align: left;\"> Number of cast members listed in the guide</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Rating</code> </td><td style=\"text-align: left;\"> Maltin rating (range is 1 to 4, in steps of 0.5)</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Description</code> </td><td style=\"text-align: left;\"> Number of lines of text Maltin uses to describe the movie</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Origin</code> </td><td style=\"text-align: left;\"> Country: 0 = USA, 1 = Great Britain, 2 = France, 3 = Italy, 4 = Canada</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Time_code</code> </td><td style=\"text-align: left;\"> <code>long</code>=90 minutes or longer <code>short</code>=under 90 minutes</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Good</code> </td><td style=\"text-align: left;\"> <code>1</code>=rating of 3 stars or better <code>0</code>=any lower rating</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n  </td>\n</tr>\n</table>\n<h3>Details</h3>\n<p>One statistician movie fan decided to use statistics to study the movie ratings in his favorite movie guide, Movie and\nVideo Guide (1996), by Leonard Maltin. Maltin rates movies on a one-star to four-star\nsystem, in increments of half-stars, with higher numbers being better. The guide also includes additional information on each film.\nThe statistician used a random number generator to select a simple random sample\nof 100 movies rated by the Guide.\n</p>\n<h3>Source</h3>\n<p>Data from Leonard Maltin's Movie and Video Guide (1996)\n</p>\n</main>\n</div>\n",
-   "config" : {
-      "subtitle" : "Stat2Data - Film",
-      "graphType" : "Heatmap",
-      "smpOverlays" : [
-         "Time_code",
-         "Title"
-      ],
-      "title" : "Film Data from Leonard Maltin's Guide"
    }
 }

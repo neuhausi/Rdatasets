@@ -1,3 +1,17 @@
+var nba_heightsInfo ={
+   "description" : "Description\nHeights of all NBA players from the 2008-9 season.",
+   "usage" : "nba_heights",
+   "parameters" : {
+      "h_in" : "Height, in inches.",
+      "first_name" : "First name.",
+      "h_meters" : "Height, in meters.",
+      "last_name" : "Last name."
+   },
+   "format" : "A data frame with 435 observations (players) on the following 4\nvariables.",
+   "title" : "NBA Player heights from 2008-9",
+   "reference" : "Collected from NBA."
+}
+
 var nba_heights = [
    [
       "last_name",

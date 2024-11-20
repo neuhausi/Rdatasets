@@ -1,3 +1,16 @@
+var phosphorInfo ={
+   "format" : "A data frame with 18 observations on the following 3 variables.",
+   "reference" : "P. J. Rousseeuw and A. M. Leroy (1987)\nRobust Regression and Outlier Detection. Wiley, p.156, table 24.",
+   "title" : "Phosphorus Content Data",
+   "parameters" : {
+      "inorg" : "Inorganic soil Phosphorus",
+      "plant" : "Plant Phosphorus content",
+      "organic" : "Organic soil Phosphorus"
+   },
+   "usage" : "data(phosphor, package=\"robustbase\")",
+   "description" : "Description\nThis dataset investigates the effect from inorganic and organic\nPhosphorus in the soil upon the phosphorus content of the corn grown\nin this soil, from Prescott (1975)."
+}
+
 var phosphor = [
    [
       "inorg",

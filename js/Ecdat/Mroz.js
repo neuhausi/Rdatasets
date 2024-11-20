@@ -1,3 +1,31 @@
+var MrozInfo ={
+   "usage" : "data(Mroz)",
+   "description" : "Description\na cross-section\nnumber of observations :  753\nobservation :  individuals\ncountry :  United States",
+   "format" : "A dataframe containing :",
+   "title" : "Labor Supply Data",
+   "reference" : "These data seem to have come from the same source \nas carData::Mroz, though each data set has\nvariables not in the other.  The variables that\nare shared have different names.",
+   "parameters" : {
+      "educwf" : "wife's father's educational attainment, in\nyears",
+      "educh" : "husband's educational attainment, in years",
+      "child6" : "number of children less than 6 years old \nin household (Same as \ncarData::Mroz['k5'].)",
+      "agew" : "wife's age",
+      "experience" : "actual years of wife's previous labor market \nexperience",
+      "child618" : "number of children between ages 6 and 18 \nin household (Same as \ncarData::Mroz['k618'])",
+      "wageh" : "husband's wage, in 1975 dollars",
+      "work" : "work at home in 1975? \n(Same carData::Mroz[['lfp']] = \nlabor force participation.)",
+      "hoursh" : "husband's hours worked in 1975",
+      "educwm" : "wife's mother's educational attainment, in\nyears",
+      "unemprate" : "unemployment rate in county of residence, in \npercentage points",
+      "hearnw" : "wife's average hourly earnings, in 1975 \ndollars",
+      "income" : "family income, in 1975 dollars",
+      "ageh" : "husband's age",
+      "city" : "lives in large city (SMSA) ?",
+      "wagew" : "wife's wage reported at the time of the 1976 \ninterview  (not= 1975 estimated wage)",
+      "hoursw" : "wife's hours of work in 1975",
+      "educw" : "wife's educational attainment, in years"
+   }
+}
+
 var Mroz = [
    [
       "work",

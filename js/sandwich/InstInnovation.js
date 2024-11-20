@@ -1,3 +1,38 @@
+var InstInnovationInfo ={
+   "description" : "Description\nFirm-level panel data on innovation and institutional ownership from 1991 to\n1999 over 803 firms. The observations refer to different firms over different years.",
+   "usage" : "data(\"InstInnovation\")",
+   "parameters" : {
+      "tobinq" : "numeric. Tobin's q.",
+      "transient" : "numeric. Share of \"transient\" institutional owners.",
+      "industry" : "factor. Four-digit industry code.",
+      "institutions" : "numeric. Proportion of stock owned by institutions.",
+      "drandd" : "factor. Indicates a zero R&D stock.",
+      "value" : "numeric. Stock market value.",
+      "patents" : "integer. Granted patents.",
+      "acompetition" : "numeric. Constant inverse Lerner index.",
+      "sp500" : "factor. Membership of firms in the S&P500 index.",
+      "subsample" : "factor. Subsample for the replication of columns\n1&ndash;5 from Table 4 in Aghion et al. (2013).",
+      "capital" : "numeric. Net stock of property, plant, and equipment.",
+      "company" : "factor. Company names.",
+      "randd" : "numeric. R&D stock (in millions of dollars).",
+      "sales" : "numeric. Sales (in millions of dollars).",
+      "nonquasiindexed" : "numeric. Share of \"non-quasi-indexed\"\ninstitutional owners.",
+      "cites" : "integer. Future cite-weighted patents.",
+      "competition" : "numeric. Varying inverse Lerner index.",
+      "quasiindexed" : "numeric. Share of \"quasi-indexed\" institutional owners.",
+      "dedicated" : "numeric. Share of \"dedicated\" institutional owners.",
+      "precites" : "numeric. Presample average of cite-weighted patents.",
+      "top1" : "numeric. Share of the largest institution.",
+      "employment" : "numeric. Employment (in 1000s).",
+      "year" : "factor. Estimation period.",
+      "dprecites" : "factor. Indicates zero precites.",
+      "competition4" : "numeric. Varying inverse Lerner index in the firm's four-digit industry."
+   },
+   "title" : "Innovation and Institutional Ownership",
+   "format" : "A data frame containing 6208 observations on 25 variables.",
+   "reference" : "Aghion et al. (2013) combine several firm level panel datasets (e.g.,\nUSPTO, SEC and Compustat) to examine the role of institutional investors\nin the governance of innovation. Their baseline to model innovation is the Poisson model,\nbut they also consider negative binomial models.\nBerger et al. (2017) argue that nonlinearities in the innovation process emerge in case that the first\ninnovation is especially hard to obtain in comparison to succeeding innovations.\nThen, hurdle models offer a useful way that allows for a distinction between these two processes.\nBerger et al. (2017) show that an extended analysis with negative binomial hurdle models\ndiffers materially from the outcomes of the single-equation Poisson\napproach of Aghion et al. (2013)."
+}
+
 var InstInnovation = [
    [
       "company",

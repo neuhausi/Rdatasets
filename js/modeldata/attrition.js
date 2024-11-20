@@ -1,3 +1,10 @@
+var attritionInfo ={
+   "usage" : "These data are from the IBM Watson Analytics Lab.\nThe website describes the data with &ldquo;Uncover the\nfactors that lead to employee attrition and explore important\nquestions such as &lsquo;show me a breakdown of distance\nfrom home by job role and attrition&rsquo; or &lsquo;compare\naverage monthly income by education and attrition&rsquo;. This is a\nfictional data set created by IBM data scientists.&rdquo;. There\nare 1470 rows.",
+   "format" : "attrition\n\na data frame",
+   "title" : "Job attrition",
+   "description" : "Description\nJob attrition"
+}
+
 var attrition = [
    [
       "Age",

@@ -1,33 +1,20 @@
 {
+   "config" : {
+      "groupingFactors" : [
+         "LayoffCause"
+      ],
+      "graphType" : "Boxplot",
+      "colorBy" : "variable",
+      "segregateSamplesBy" : [
+         "EmploymentLength",
+         "EmploymentStatus"
+      ],
+      "subtitle" : "vcd - Employment",
+      "title" : "Employment Status"
+   },
    "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>Employment</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Employment Status</h2>\n<h3>Description</h3>\n<p>Data from a 1974 Danish study given by Andersen (1991) on the\nemployees who had been laid off.  The workers are classified by \ntheir employment status on 1975-01-01, the cause of their layoff\nand the length of employment before they were laid off.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(\"Employment\")\n</code></pre>\n<h3>Format</h3>\n<p>A 3-dimensional array resulting from cross-tabulating variables for\n1314 employees.  The variables and their levels are as follows:\n</p>\n<table>\n<tr>\n <td style=\"text-align: right;\">\n    No </td><td style=\"text-align: left;\"> Name </td><td style=\"text-align: left;\"> Levels </td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    1 </td><td style=\"text-align: left;\"> EmploymentStatus </td><td style=\"text-align: left;\"> NewJob, Unemployed </td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    2 </td><td style=\"text-align: left;\"> EmploymentLength </td><td style=\"text-align: left;\"> &lt;1Mo, 1-3Mo, 3-12Mo, 1-2Yr, 2-5Yr, &gt;5Yr </td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    3 </td><td style=\"text-align: left;\"> LayoffCause </td><td style=\"text-align: left;\"> Closure, Replaced\n  </td>\n</tr>\n</table>\n<h3>Source</h3>\n<p>Michael Friendly (2000),\nVisualizing Categorical Data, pages 126&ndash;129.\n</p>\n<h3>References</h3>\n<p>E. B. Andersen (1991),\n<em>The Statistical Analysis of Categorical Data</em>.\nSpringer-Verlag, Berlin.\n</p>\n<p>M. Friendly (2000),\n<em>Visualizing Categorical Data</em>.\nSAS Institute, Cary, NC.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>data(\"Employment\")\n## Employment Status\nmosaic(Employment,\n       expected = ~ LayoffCause * EmploymentLength + EmploymentStatus,\n       main = \"Layoff*EmployLength + EmployStatus\")\nmosaic(Employment,\n       expected = ~ LayoffCause * EmploymentLength + LayoffCause * EmploymentStatus,\n       main = \"Layoff*EmployLength + Layoff*EmployStatus\")\n## Stratified view\ngrid.newpage()\npushViewport(viewport(layout = grid.layout(ncol = 2)))\npushViewport(viewport(layout.pos.col = 1))\n## Closure\nmosaic(Employment[,,1], main = \"Layoff: Closure\", newpage = FALSE)\npopViewport(1)\npushViewport(viewport(layout.pos.col = 2))\n## Replaced\nmosaic(Employment[,,2], main = \"Layoff: Replaced\", newpage = FALSE)\npopViewport(2)\n</code></pre>\n</main>\n</div>\n",
    "data" : {
       "y" : {
-         "smps" : [
-            "Smp1",
-            "Smp2",
-            "Smp3",
-            "Smp4",
-            "Smp5",
-            "Smp6",
-            "Smp7",
-            "Smp8",
-            "Smp9",
-            "Smp10",
-            "Smp11",
-            "Smp12",
-            "Smp13",
-            "Smp14",
-            "Smp15",
-            "Smp16",
-            "Smp17",
-            "Smp18",
-            "Smp19",
-            "Smp20",
-            "Smp21",
-            "Smp22",
-            "Smp23",
-            "Smp24"
-         ],
          "data" : [
             [
                8,
@@ -58,35 +45,35 @@
          ],
          "vars" : [
             "Freq"
+         ],
+         "smps" : [
+            "Smp1",
+            "Smp2",
+            "Smp3",
+            "Smp4",
+            "Smp5",
+            "Smp6",
+            "Smp7",
+            "Smp8",
+            "Smp9",
+            "Smp10",
+            "Smp11",
+            "Smp12",
+            "Smp13",
+            "Smp14",
+            "Smp15",
+            "Smp16",
+            "Smp17",
+            "Smp18",
+            "Smp19",
+            "Smp20",
+            "Smp21",
+            "Smp22",
+            "Smp23",
+            "Smp24"
          ]
       },
       "x" : {
-         "EmploymentLength" : [
-            "<1Mo",
-            "<1Mo",
-            "1-3Mo",
-            "1-3Mo",
-            "3-12Mo",
-            "3-12Mo",
-            "1-2Yr",
-            "1-2Yr",
-            "2-5Yr",
-            "2-5Yr",
-            ">5Yr",
-            ">5Yr",
-            "<1Mo",
-            "<1Mo",
-            "1-3Mo",
-            "1-3Mo",
-            "3-12Mo",
-            "3-12Mo",
-            "1-2Yr",
-            "1-2Yr",
-            "2-5Yr",
-            "2-5Yr",
-            ">5Yr",
-            ">5Yr"
-         ],
          "LayoffCause" : [
             "Closure",
             "Closure",
@@ -112,6 +99,32 @@
             "Replaced",
             "Replaced",
             "Replaced"
+         ],
+         "EmploymentLength" : [
+            "<1Mo",
+            "<1Mo",
+            "1-3Mo",
+            "1-3Mo",
+            "3-12Mo",
+            "3-12Mo",
+            "1-2Yr",
+            "1-2Yr",
+            "2-5Yr",
+            "2-5Yr",
+            ">5Yr",
+            ">5Yr",
+            "<1Mo",
+            "<1Mo",
+            "1-3Mo",
+            "1-3Mo",
+            "3-12Mo",
+            "3-12Mo",
+            "1-2Yr",
+            "1-2Yr",
+            "2-5Yr",
+            "2-5Yr",
+            ">5Yr",
+            ">5Yr"
          ],
          "EmploymentStatus" : [
             "NewJob",
@@ -140,18 +153,5 @@
             "Unemployed"
          ]
       }
-   },
-   "config" : {
-      "colorBy" : "variable",
-      "groupingFactors" : [
-         "EmploymentLength"
-      ],
-      "title" : "Employment Status",
-      "subtitle" : "vcd - Employment",
-      "segregateSamplesBy" : [
-         "LayoffCause",
-         "EmploymentStatus"
-      ],
-      "graphType" : "Boxplot"
    }
 }

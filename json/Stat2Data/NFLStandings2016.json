@@ -3,47 +3,11 @@
       "smpOverlays" : [
          "Team"
       ],
+      "graphType" : "Heatmap",
       "title" : "NFL Standings for 2016 Regular Season",
-      "subtitle" : "Stat2Data - NFLStandings2016",
-      "graphType" : "Heatmap"
+      "subtitle" : "Stat2Data - NFLStandings2016"
    },
    "data" : {
-      "x" : {
-         "Team" : [
-            "New England Patriots",
-            "Dallas Cowboys",
-            "Kansas City Chiefs",
-            "Oakland Raiders",
-            "Atlanta Falcons",
-            "New York Giants",
-            "Pittsburgh Steelers",
-            "Seattle Seahawks",
-            "Green Bay Packers",
-            "Miami Dolphins",
-            "Denver Broncos",
-            "Detroit Lions",
-            "Houston Texans",
-            "Tampa Bay Buccaneers",
-            "Tennessee Titans",
-            "Washington Redskins",
-            "Baltimore Ravens",
-            "Indianapolis Colts",
-            "Minnesota Vikings",
-            "Arizona Cardinals",
-            "Buffalo Bills",
-            "New Orleans Saints",
-            "Philadelphia Eagles",
-            "Cincinnati Bengals",
-            "Carolina Panthers",
-            "New York Jets",
-            "San Diego Chargers",
-            "Los Angeles Rams",
-            "Chicago Bears",
-            "Jacksonville Jaguars",
-            "San Francisco 49ers",
-            "Cleveland Browns"
-         ]
-      },
       "y" : {
          "vars" : [
             "Wins",
@@ -432,6 +396,42 @@
                36,
                29
             ]
+         ]
+      },
+      "x" : {
+         "Team" : [
+            "New England Patriots",
+            "Dallas Cowboys",
+            "Kansas City Chiefs",
+            "Oakland Raiders",
+            "Atlanta Falcons",
+            "New York Giants",
+            "Pittsburgh Steelers",
+            "Seattle Seahawks",
+            "Green Bay Packers",
+            "Miami Dolphins",
+            "Denver Broncos",
+            "Detroit Lions",
+            "Houston Texans",
+            "Tampa Bay Buccaneers",
+            "Tennessee Titans",
+            "Washington Redskins",
+            "Baltimore Ravens",
+            "Indianapolis Colts",
+            "Minnesota Vikings",
+            "Arizona Cardinals",
+            "Buffalo Bills",
+            "New Orleans Saints",
+            "Philadelphia Eagles",
+            "Cincinnati Bengals",
+            "Carolina Panthers",
+            "New York Jets",
+            "San Diego Chargers",
+            "Los Angeles Rams",
+            "Chicago Bears",
+            "Jacksonville Jaguars",
+            "San Francisco 49ers",
+            "Cleveland Browns"
          ]
       }
    },

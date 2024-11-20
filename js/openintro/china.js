@@ -1,3 +1,16 @@
+var chinaInfo ={
+   "usage" : "china",
+   "description" : "Description\nThe China Health and Nutrition Survey aims to examine the effects of the\nhealth, nutrition, and family planning policies and programs implemented by\nnational and local governments.",
+   "title" : "Child care hours",
+   "reference" : "UNC Carolina Population Center, China Health and Nutrition Survey,\n2006.",
+   "format" : "A data frame with 9788 observations on the following 3 variables.",
+   "parameters" : {
+      "child_care" : "a numeric vector",
+      "gender" : "a numeric vector",
+      "edu" : "a numeric vector"
+   }
+}
+
 var china = [
    [
       "gender",

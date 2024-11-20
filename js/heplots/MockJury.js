@@ -1,3 +1,29 @@
+var MockJuryInfo ={
+   "description" : "Description\nMale participants were shown a picture of one of three young women.  Pilot\nwork had indicated that the one woman was beautiful, another of average\nphysical attractiveness, and the third unattractive.  Participants rated the\nwoman they saw on each of twelve attributes.  These measures were used to\ncheck on the manipulation by the photo.",
+   "parameters" : {
+      "happy" : "rating of the photo for 'happy'",
+      "ownPA" : "self-rating of the subject for 'physical attractiveness'",
+      "Crime" : "Type of crime, a factor with levels Burglary (theft of items from victim's room) Swindle (conned a male victim)",
+      "Serious" : "a rating of how serious the subject thought the defendant's crime was",
+      "calm" : "rating of the photo for 'calm'",
+      "kind" : "rating of the photo for 'kind'",
+      "sociable" : "rating of the photo for 'exciting'",
+      "sophisticated" : "rating of the photo for 'sophisticated'",
+      "intelligent" : "rating of the photo for 'intelligent'",
+      "strong" : "rating of the photo for 'strong'",
+      "sincere" : "rating of the photo for 'sincere'",
+      "phyattr" : "rating of the photo for 'physical attractiveness'",
+      "Attr" : "Attractiveness of the photo, a factor with levels Beautiful Average Unattractive",
+      "warm" : "rating of the photo for 'warm'",
+      "Years" : "length of sentence given the defendant by the mock juror subject",
+      "independent" : "rating of the photo for 'independent'",
+      "exciting" : "rating of the photo for 'exciting'"
+   },
+   "usage" : "A data frame with 114 observations on the following 17 variables.",
+   "reference" : "Then the participants were told that the person in the photo had committed a\nCrime, and asked to rate the seriousness of the crime and recommend a prison\nsentence, in Years.",
+   "title" : "Effects Of Physical Attractiveness Upon Mock Jury Decisions"
+}
+
 var MockJury = [
    [
       "Attr",

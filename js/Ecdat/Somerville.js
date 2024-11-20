@@ -1,3 +1,21 @@
+var SomervilleInfo ={
+   "reference" : "Seller, Christine, John R. Stoll and Jean&ndash;Paul Chavas (1985) &ldquo;Valuation of empirical measures of welfare change : a comparison of nonmarket techniques&rdquo;, Land Economics, 61(2), May, 156&ndash;175.",
+   "title" : "Visits to Lake Somerville",
+   "format" : "A dataframe containing :",
+   "parameters" : {
+      "costCon" : "expenditures when visiting lake Conroe",
+      "income" : "annual household income",
+      "ski" : "engaged in water&ndash;skiing at the lake ?",
+      "feeSom" : "annual user fee paid at lake Somerville ?",
+      "quality" : "quality ranking score for lake Somerville",
+      "costSom" : "expenditures when visiting lake Somerville",
+      "costHoust" : "expenditures when visiting lake Houston",
+      "visits" : "annual number of visits to lake Somerville"
+   },
+   "usage" : "data(Somerville)",
+   "description" : "Description\na cross-section from 1980\nnumber of observations :  659\nobservation :  individuals\ncountry :  United States"
+}
+
 var Somerville = [
    [
       "visits",

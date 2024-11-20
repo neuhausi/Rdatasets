@@ -1,3 +1,17 @@
+var WoolInfo ={
+   "description" : "Description\nThis is a three-factor experiment with each factor at three levels, for\na total of 27 runs.  Samples of worsted yarn were with different levels of\nthe three factors were given a cyclic load until the sample failed.  The\ngoal is to understand how cycles to failure depends on the factors.",
+   "usage" : "Wool",
+   "parameters" : {
+      "len" : "length of specimen (250, 300, 350 mm)",
+      "cycles" : "number of cycles until failure",
+      "load" : "load (40, 45, 50g)",
+      "amp" : "amplitude of loading cycle (8, 9, 10 min)"
+   },
+   "title" : "Wool data",
+   "format" : "This data frame contains the following columns:",
+   "reference" : "Box, G. E. P. and Cox, D. R. (1964).  An analysis of transformations (with\ndiscussion).  J. Royal Statist. Soc., B26, 211-46."
+}
+
 var Wool = [
    [
       "len",

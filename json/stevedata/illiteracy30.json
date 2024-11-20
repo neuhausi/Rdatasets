@@ -1,19 +1,60 @@
 {
    "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>illiteracy30</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Illiteracy in the Population 10 Years Old and Over, 1930</h2>\n<h3>Description</h3>\n<p>This is perhaps the canonical data set for illustrating the ecological fallacy.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>illiteracy30\n</code></pre>\n<h3>Format</h3>\n<p>A data frame with 40 observations on the following 11 variables.\n</p>\n<dl>\n<dt><code>state</code></dt><dd><p>a character for the state</p>\n</dd>\n<dt><code>pop</code></dt><dd><p>a numeric vector for the total population</p>\n</dd>\n<dt><code>pop_il</code></dt><dd><p>a numeric vector for the total population that is illiterate</p>\n</dd>\n<dt><code>nwhite</code></dt><dd><p>a numeric vector for the total native white population</p>\n</dd>\n<dt><code>nwhite_il</code></dt><dd><p>a numeric vector for the total native white population that is illiterate</p>\n</dd>\n<dt><code>fpwhite</code></dt><dd><p>a numeric vector for the total white population with &quot;foreign or mixed parentage&quot;</p>\n</dd>\n<dt><code>fpwhite_il</code></dt><dd><p>a numeric vector for the total white population with &quot;foreign or mixed parentage&quot; that is illiterate</p>\n</dd>\n<dt><code>fbwhite</code></dt><dd><p>a numeric vector for the total foreign-born white population</p>\n</dd>\n<dt><code>fbwhite_il</code></dt><dd><p>a numeric vector for the total foreign-born white population that is illiterate</p>\n</dd>\n<dt><code>black</code></dt><dd><p>a numeric vector for the total black population.</p>\n</dd>\n<dt><code>black_il</code></dt><dd><p>a numeric vector for the total black population that is illiterate</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>All population totals reflect those 10 years or older. The 1930 Census (along with Robinson (1950))\nuses &quot;negro&quot; in lieu of black, but the variable names here eschew that older label. Note that some states\nare not yet states in the 1930 Census.\n</p>\n<h3>Source</h3>\n<p>U.S. Census Bureau (1933). Fifteenth Census of the United States: 1930. Population, Volume II.\n</p>\n<h3>References</h3>\n<p>Grotenhuis, Manfred Te, Rob Eisinga, and SV Subramanian. 2011. &quot;Robinson's Ecological Correlations and the Behavior of Individuals: methodological corrections.&quot; <em>Internatoinal Journal of Epidemiology</em> 40(4): 1123-25.\n</p>\n<p>Robinson, WS. 1950. &quot;Ecological Correlations and the Behavior of Individuals.&quot; <em>American Sociological Review</em> 15(3): 351&ndash;57.\n</p>\n</main>\n</div>\n",
    "data" : {
+      "x" : {
+         "state" : [
+            "Maine",
+            "New Hampshire",
+            "Vermont",
+            "Massachusetts",
+            "Rhode Island",
+            "Connecticut",
+            "New York",
+            "New Jersey",
+            "Pennsylvania",
+            "Ohio",
+            "Indiana",
+            "Illinois",
+            "Michigan",
+            "Wisconsin",
+            "Minnesota",
+            "Iowa",
+            "Missouri",
+            "North Dakota",
+            "South Dakota",
+            "Nebraska",
+            "Kansas",
+            "Delaware",
+            "Maryland",
+            "District of Columbia",
+            "Virginia",
+            "West Virginia",
+            "North Carolina",
+            "South Carolina",
+            "Georgia",
+            "Florida",
+            "Kentucky",
+            "Tennessee",
+            "Alabama",
+            "Mississippi",
+            "Arkansas",
+            "Louisiana",
+            "Oklahoma",
+            "Texas",
+            "Montana",
+            "Idaho",
+            "Wyoming",
+            "Colorado",
+            "New Mexico",
+            "Arizona",
+            "Utah",
+            "Nevada",
+            "Washington",
+            "Oregon",
+            "California"
+         ]
+      },
       "y" : {
-         "vars" : [
-            "pop",
-            "pop_il",
-            "nwhite",
-            "nwhite_il",
-            "fpwhite",
-            "fpwhite_il",
-            "fbwhite",
-            "fbwhite_il",
-            "black",
-            "black_il"
-         ],
          "smps" : [
             "Smp1",
             "Smp2",
@@ -64,6 +105,18 @@
             "Smp47",
             "Smp48",
             "Smp49"
+         ],
+         "vars" : [
+            "pop",
+            "pop_il",
+            "nwhite",
+            "nwhite_il",
+            "fpwhite",
+            "fpwhite_il",
+            "fbwhite",
+            "fbwhite_il",
+            "black",
+            "black_il"
          ],
          "data" : [
             [
@@ -577,67 +630,14 @@
                2148
             ]
          ]
-      },
-      "x" : {
-         "state" : [
-            "Maine",
-            "New Hampshire",
-            "Vermont",
-            "Massachusetts",
-            "Rhode Island",
-            "Connecticut",
-            "New York",
-            "New Jersey",
-            "Pennsylvania",
-            "Ohio",
-            "Indiana",
-            "Illinois",
-            "Michigan",
-            "Wisconsin",
-            "Minnesota",
-            "Iowa",
-            "Missouri",
-            "North Dakota",
-            "South Dakota",
-            "Nebraska",
-            "Kansas",
-            "Delaware",
-            "Maryland",
-            "District of Columbia",
-            "Virginia",
-            "West Virginia",
-            "North Carolina",
-            "South Carolina",
-            "Georgia",
-            "Florida",
-            "Kentucky",
-            "Tennessee",
-            "Alabama",
-            "Mississippi",
-            "Arkansas",
-            "Louisiana",
-            "Oklahoma",
-            "Texas",
-            "Montana",
-            "Idaho",
-            "Wyoming",
-            "Colorado",
-            "New Mexico",
-            "Arizona",
-            "Utah",
-            "Nevada",
-            "Washington",
-            "Oregon",
-            "California"
-         ]
       }
    },
    "config" : {
-      "title" : "Illiteracy in the Population 10 Years Old and Over",
       "smpOverlays" : [
          "state"
       ],
       "graphType" : "Heatmap",
+      "title" : "Illiteracy in the Population 10 Years Old and Over",
       "subtitle" : "stevedata - illiteracy30"
    }
 }

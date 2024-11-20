@@ -1,3 +1,37 @@
+var fertil3Info ={
+   "description" : "Description\nWooldridge Source: L.A. Whittington, J. Alm, and H.E. Peters (1990), âFertility and the Personal Exemption: Implicit Pronatalist Policy in the United States,â American Economic Review 80, 545-556. The data are given in the article. Data loads lazily.",
+   "usage" : "data('fertil3')",
+   "parameters" : {
+      "tcu" : " t^3",
+      "cgfr_2" : " cgfr[_n-2]",
+      "t" : " time trend, t=1,...,72",
+      "cgfr_3" : " cgfr[_n-3]",
+      "cpe_4" : " cpe[_n-4]",
+      "pe_2" : " pe[_n-2]",
+      "ww2" : " =1, 1941 to 1945",
+      "pill" : " =1 if year >= 1963",
+      "cgfr_1" : " cgfr[_n-1]",
+      "pe" : " real value pers. exemption, $",
+      "cgfr_4" : " cgfr[_n-4]",
+      "cpe_1" : " cpe[_n-1]",
+      "cgfr" : " change in gfr",
+      "gfr" : " births per 1000 women 15-44",
+      "year" : " 1913 to 1984",
+      "gfr_2" : " gfr[_n-2]",
+      "cpe_3" : " cpe[_n-3]",
+      "pe_4" : " pe[_n-4]",
+      "pe_3" : " pe[_n-3]",
+      "gfr_1" : " gfr[_n-1]",
+      "pe_1" : " pe[_n-1]",
+      "cpe" : " pe - pe_1",
+      "cpe_2" : " cpe[_n-2]",
+      "tsq" : " t^2"
+   },
+   "format" : "A data.frame with 72 observations on 24 variables:",
+   "title" : "fertil3",
+   "reference" : "pages 358, 377, 378, 397-398, 401, 408, 441, 649, 664-665, 673"
+}
+
 var fertil3 = [
    [
       "gfr",

@@ -1,14 +1,13 @@
 {
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>petrol</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>\nN. L. Prater's Petrol Refinery Data\n</h2>\n<h3>Description</h3>\n<p>The yield of a petroleum refining process with four covariates.\nThe crude oil appears to come from only 10 distinct samples.\n</p>\n<p>These data were originally used by Prater (1956) to\nbuild an estimation equation for the yield of the refining\nprocess of crude oil to gasoline.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>petrol\n</code></pre>\n<h3>Format</h3>\n<p>The variables are as follows\n</p>\n<dl>\n<dt><code>No</code></dt><dd>\n<p>crude oil sample identification label. (Factor.)\n</p>\n</dd>\n<dt><code>SG</code></dt><dd>\n<p>specific gravity, degrees API.  (Constant within sample.)\n</p>\n</dd>\n<dt><code>VP</code></dt><dd>\n<p>vapour pressure in pounds per square inch. (Constant within sample.)\n</p>\n</dd>\n<dt><code>V10</code></dt><dd>\n<p>volatility of crude; ASTM 10% point. (Constant within sample.)\n</p>\n</dd>\n<dt><code>EP</code></dt><dd>\n<p>desired volatility of gasoline. (The end point.  Varies within sample.)\n</p>\n</dd>\n<dt><code>Y</code></dt><dd>\n<p>yield as a percentage of crude.\n</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>N. H. Prater (1956) Estimate gasoline yields from\ncrudes. <em>Petroleum Refiner</em> <b>35</b>, 236&ndash;238.\n</p>\n<p>This dataset is also given in\nD. J. Hand, F. Daly, K. McConway, D. Lunn and E. Ostrowski (eds) (1994)\n<em>A Handbook of Small Data Sets.</em> Chapman &amp; Hall.\n</p>\n<h3>References</h3>\n<p>Venables, W. N. and Ripley, B. D. (2002)\n<em>Modern Applied Statistics with S.</em> Fourth edition.  Springer.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>library(nlme)\nPetrol &lt;- petrol\nPetrol[, 2:5] &lt;- scale(as.matrix(Petrol[, 2:5]), scale = FALSE)\npet3.lme &lt;- lme(Y ~ SG + VP + V10 + EP,\n                random = ~ 1 | No, data = Petrol)\npet3.lme &lt;- update(pet3.lme, method = \"ML\")\npet4.lme &lt;- update(pet3.lme, fixed. = Y ~ V10 + EP)\nanova(pet4.lme, pet3.lme)\n</code></pre>\n</main>\n</div>\n",
+   "config" : {
+      "subtitle" : "MASS - petrol",
+      "graphType" : "Scatter2D",
+      "title" : "N. L. Prater's Petrol Refinery Data",
+      "colorBy" : "No",
+      "scatterPlotMatrix" : 1
+   },
    "data" : {
       "y" : {
-         "smps" : [
-            "SG",
-            "VP",
-            "V10",
-            "EP",
-            "Y"
-         ],
          "data" : [
             [
                50.8,
@@ -235,6 +234,13 @@
                18
             ]
          ],
+         "smps" : [
+            "SG",
+            "VP",
+            "V10",
+            "EP",
+            "Y"
+         ],
          "vars" : [
             "Var1",
             "Var2",
@@ -307,11 +313,5 @@
          ]
       }
    },
-   "config" : {
-      "scatterPlotMatrix" : 1,
-      "subtitle" : "MASS - petrol",
-      "graphType" : "Scatter2D",
-      "colorBy" : "No",
-      "title" : "N. L. Prater's Petrol Refinery Data"
-   }
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>petrol</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>\nN. L. Prater's Petrol Refinery Data\n</h2>\n<h3>Description</h3>\n<p>The yield of a petroleum refining process with four covariates.\nThe crude oil appears to come from only 10 distinct samples.\n</p>\n<p>These data were originally used by Prater (1956) to\nbuild an estimation equation for the yield of the refining\nprocess of crude oil to gasoline.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>petrol\n</code></pre>\n<h3>Format</h3>\n<p>The variables are as follows\n</p>\n<dl>\n<dt><code>No</code></dt><dd>\n<p>crude oil sample identification label. (Factor.)\n</p>\n</dd>\n<dt><code>SG</code></dt><dd>\n<p>specific gravity, degrees API.  (Constant within sample.)\n</p>\n</dd>\n<dt><code>VP</code></dt><dd>\n<p>vapour pressure in pounds per square inch. (Constant within sample.)\n</p>\n</dd>\n<dt><code>V10</code></dt><dd>\n<p>volatility of crude; ASTM 10% point. (Constant within sample.)\n</p>\n</dd>\n<dt><code>EP</code></dt><dd>\n<p>desired volatility of gasoline. (The end point.  Varies within sample.)\n</p>\n</dd>\n<dt><code>Y</code></dt><dd>\n<p>yield as a percentage of crude.\n</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>N. H. Prater (1956) Estimate gasoline yields from\ncrudes. <em>Petroleum Refiner</em> <b>35</b>, 236&ndash;238.\n</p>\n<p>This dataset is also given in\nD. J. Hand, F. Daly, K. McConway, D. Lunn and E. Ostrowski (eds) (1994)\n<em>A Handbook of Small Data Sets.</em> Chapman &amp; Hall.\n</p>\n<h3>References</h3>\n<p>Venables, W. N. and Ripley, B. D. (2002)\n<em>Modern Applied Statistics with S.</em> Fourth edition.  Springer.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>library(nlme)\nPetrol &lt;- petrol\nPetrol[, 2:5] &lt;- scale(as.matrix(Petrol[, 2:5]), scale = FALSE)\npet3.lme &lt;- lme(Y ~ SG + VP + V10 + EP,\n                random = ~ 1 | No, data = Petrol)\npet3.lme &lt;- update(pet3.lme, method = \"ML\")\npet4.lme &lt;- update(pet3.lme, fixed. = Y ~ V10 + EP)\nanova(pet4.lme, pet3.lme)\n</code></pre>\n</main>\n</div>\n"
 }

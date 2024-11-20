@@ -1,9 +1,4 @@
 {
-   "config" : {
-      "title" : "Fake Data on Happiness",
-      "subtitle" : "stevedata - fakeHappiness",
-      "graphType" : "Heatmap"
-   },
    "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>fakeHappiness</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Fake Data on Happiness</h2>\n<h3>Description</h3>\n<p>This is a toy (&quot;fake&quot;) data set I might use to illustrate the so-called\ncurvilinear effect of age on happiness.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>fakeHappiness\n</code></pre>\n<h3>Format</h3>\n<p>A data frame with 1000 observations on the following 8 variables.\n</p>\n<dl>\n<dt><code>age</code></dt><dd><p>a numeric vector for age.</p>\n</dd>\n<dt><code>female</code></dt><dd><p>a numeric that equals 1 if the respondent is a woman</p>\n</dd>\n<dt><code>collegeed</code></dt><dd><p>a numeric vector that equals 1 if the respondent says s/he has a college degree</p>\n</dd>\n<dt><code>famincr</code></dt><dd><p>a numeric vector for the respondent's household income. Ranges from 1 to 12.</p>\n</dd>\n<dt><code>bornagain</code></dt><dd><p>a numeric vector for whether the respondent self-identifies as a born-again Christian.</p>\n</dd>\n<dt><code>e</code></dt><dd><p>random noise, generated from a normal distribution with a mean of 0 and a standard deviation of 3</p>\n</dd>\n<dt><code>happy</code></dt><dd><p>an arbitrary happiness variable. See details for its construction</p>\n</dd>\n<dt><code>z_happy</code></dt><dd><p>the same arbitrary happiness variable, scaled to have a mean of 0 and a standard deviation of 1. This makes it seem more &quot;latent&quot;.</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>Data are randomly sampled from the <code>TV16</code> data set in the same package\nfor the age, female, college education, family income, and born-again variables.\nThereafter, I created an arbitrary &quot;happiness&quot; variable that is equal to\n<code>100 -  .95*age + .01*(age^2) + .25*female + .05*famincr + .1*bornagain + e</code>. The\ndata are not supposed to be realistic, per se. They're supposed to be functional for this\npurpose.\n</p>\n</main>\n</div>\n",
    "data" : {
       "y" : {
@@ -1008,6 +1003,16 @@
             "Smp998",
             "Smp999",
             "Smp1000"
+         ],
+         "vars" : [
+            "age",
+            "female",
+            "collegeed",
+            "famincr",
+            "bornagain",
+            "e",
+            "happy",
+            "z_happy"
          ],
          "data" : [
             [
@@ -9026,17 +9031,12 @@
                -0.609364051790516,
                -0.674246981915599
             ]
-         ],
-         "vars" : [
-            "age",
-            "female",
-            "collegeed",
-            "famincr",
-            "bornagain",
-            "e",
-            "happy",
-            "z_happy"
          ]
       }
+   },
+   "config" : {
+      "graphType" : "Heatmap",
+      "title" : "Fake Data on Happiness",
+      "subtitle" : "stevedata - fakeHappiness"
    }
 }

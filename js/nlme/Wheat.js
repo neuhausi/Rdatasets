@@ -1,3 +1,16 @@
+var WheatInfo ={
+   "description" : "Description\nThe Wheat data frame has 48 rows and 4 columns.",
+   "parameters" : {
+      "Tray" : "an ordered factor with levels\n3 < 1 < 2 < 4 < 5 < 6 < 8 < 9 < 7 < 12 < 11 < 10",
+      "DryMatter" : "a numeric vector",
+      "fertilizer" : "a numeric vector",
+      "Moisture" : "a numeric vector"
+   },
+   "usage" : "This data frame contains the following columns:",
+   "title" : "Yields by growing conditions",
+   "reference" : "Pinheiro, J. C. and Bates, D. M. (2000), Mixed-Effects Models in S\nand S-PLUS, Springer, New York."
+}
+
 var Wheat = [
    [
       "Tray",

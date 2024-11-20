@@ -1,3 +1,28 @@
+var cps78_85Info ={
+   "description" : "Description\nWooldridge Source: Professor Henry Farber, now at Princeton University, compiled these data from the 1978 and 1985 Current Population Surveys. Professor Farber kindly provided these data when we were colleagues at MIT. Data loads lazily.",
+   "usage" : "data('cps78_85')",
+   "parameters" : {
+      "y85union" : " y85*union",
+      "y85educ" : " y85*educ",
+      "year" : " 78 or 85",
+      "exper" : " age - educ - 6",
+      "south" : " =1 if live in south",
+      "age" : " in years",
+      "educ" : " years of schooling",
+      "y85" : " =1 if year == 85",
+      "union" : " =1 if belong to union",
+      "married" : " =1 if married",
+      "nonwhite" : " =1 if nonwhite",
+      "y85fem" : " y85*female",
+      "lwage" : " log hourly wage",
+      "expersq" : " exper^2",
+      "female" : " =1 if female"
+   },
+   "title" : "cps78_85",
+   "reference" : "Obtaining more recent data from the CPS allows one to track, over a long period of time, the changes in the return to education, the gender gap, black-white wage differentials, and the union wage premium.",
+   "format" : "A data.frame with 1084 observations on 15 variables:"
+}
+
 var cps78_85 = [
    [
       "educ",

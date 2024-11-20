@@ -1,3 +1,28 @@
+var rwm1984Info ={
+   "parameters" : {
+      "edlevel2" : "(1/0) high school graduate",
+      "self" : "self-employed=1; not self employed=0",
+      "docvis" : "number of visits to doctor during year (0-121)",
+      "kids" : "have children=1; no children=0",
+      "edlevel1" : "(1/0) not high school graduate",
+      "age" : "age: 25-64",
+      "educ" : "years of formal education (7-18)",
+      "married" : "married=1; 0=not married",
+      "edlevel" : "educational level (categorical: 1-4)",
+      "edlevel4" : "(1/0) graduate school",
+      "edlevel3" : "(1/0) university/college",
+      "outwork" : "out of work=1; 0=working",
+      "hospvis" : "number of days in hospital during year (0-51)",
+      "hhninc" : "household yearly income in marks (in Marks)",
+      "female" : "female=1; 0=male"
+   },
+   "title" : "rwm1984",
+   "format" : "A data frame with 3,874 observations on the following 17 variables.",
+   "reference" : "rwm1984 is saved as a data frame.\nCount models typically use docvis as response variable. 0 counts are included",
+   "description" : "Description\nGerman health registry for the year 1984.",
+   "usage" : "data(rwm1984)"
+}
+
 var rwm1984 = [
    [
       "docvis",

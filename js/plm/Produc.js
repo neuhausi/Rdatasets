@@ -1,3 +1,23 @@
+var ProducInfo ={
+   "description" : "Description\nA panel of 48 observations from 1970 to 1986",
+   "parameters" : {
+      "pcap" : "public capital stock",
+      "state" : "the state",
+      "unemp" : "state unemployment rate",
+      "gsp" : "gross state product",
+      "hwy" : "highway and streets",
+      "pc" : "private capital stock",
+      "emp" : "labor input measured by the employment in non&ndash;agricultural payrolls",
+      "util" : "other public buildings and structures",
+      "region" : "the region",
+      "water" : "water and sewer facilities",
+      "year" : "the year"
+   },
+   "usage" : "A data frame containing :",
+   "reference" : "total number of observations : 816",
+   "title" : "US States Production"
+}
+
 var Produc = [
    [
       "state",

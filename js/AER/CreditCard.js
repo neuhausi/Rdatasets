@@ -1,3 +1,25 @@
+var CreditCardInfo ={
+   "parameters" : {
+      "selfemp" : "Factor. Is the individual self-employed?",
+      "expenditure" : "Average monthly credit card expenditure.",
+      "months" : "Months living at current address.",
+      "active" : "Number of active credit accounts.",
+      "share" : "Ratio of monthly credit card expenditure to yearly income.",
+      "reports" : "Number of major derogatory reports.",
+      "owner" : "Factor. Does the individual own their home?",
+      "age" : "Age in years plus twelfths of a year.",
+      "income" : "Yearly income (in USD 10,000).",
+      "dependents" : "Number of dependents.",
+      "majorcards" : "Number of major credit cards held.",
+      "card" : "Factor. Was the application for a credit card accepted?"
+   },
+   "format" : "A data frame containing 1,319 observations on 12 variables.",
+   "title" : "Expenditure and Default Data",
+   "reference" : "According to Greene (2003, p. 952) dependents equals 1 + number of dependents, \nour calculations suggest that it equals number of dependents.",
+   "description" : "Description\nCross-section data on the credit history for a sample of applicants for a type of credit card.",
+   "usage" : "data(\"CreditCard\")"
+}
+
 var CreditCard = [
    [
       "card",

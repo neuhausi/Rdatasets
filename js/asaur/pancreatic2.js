@@ -1,3 +1,16 @@
+var pancreatic2Info ={
+   "usage" : "data(\"pancreatic2\")",
+   "title" : "pancreatic2",
+   "format" : "A data frame with 41 observations on the following 4 variables.",
+   "parameters" : {
+      "pfs" : "Progression-free survival: Time from entry until disease progression. \nIf no progression was observed, before death, the time to death is used.",
+      "os" : "Overall survival: Time from entry until death",
+      "stage" : "a factor with levels LA (locally advanced) or M (metastatic)",
+      "status" : "This censoring indicator is 1 for all patients, since all patients died."
+   },
+   "description" : "Description\nThis is the same data as in 'pancreatic', with overall and progression-free survival calculated. Dates have been removed."
+}
+
 var pancreatic2 = [
    [
       "pfs",

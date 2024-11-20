@@ -1,3 +1,9 @@
+var FinalFourLongInfo ={
+   "description" : "Description\nNCAA Final Four by seed with individual cases for each team each year",
+   "title" : "NCAA Final Four by Seed (Long Version through 2010)",
+   "usage" : "A data frame with 2048 observations on the following 3 variables."
+}
+
 var FinalFourLong = [
    [
       "Year",

@@ -1,3 +1,15 @@
+var dreamInfo ={
+   "usage" : "dream",
+   "description" : "Description\nA SurveyUSA poll.",
+   "format" : "A data frame with 910 observations on the following 2 variables.",
+   "title" : "Survey on views of the DREAM Act",
+   "reference" : "SurveyUSA, News Poll #18927, data collected Jan 27-29, 2012.",
+   "parameters" : {
+      "ideology" : "a factor with levels Conservative Liberal Moderate",
+      "stance" : "a factor with levels No Not sure Yes"
+   }
+}
+
 var dream = [
    [
       "ideology",

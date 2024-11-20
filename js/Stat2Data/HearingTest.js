@@ -1,3 +1,9 @@
+var HearingTestInfo ={
+   "description" : "Description\nPercentaged of correctly identified words in a hearing test",
+   "usage" : "A data frame with 96 observations on the following 3 variables.",
+   "title" : "Correctly Identified Words in a Hearing Test"
+}
+
 var HearingTest = [
    [
       "Subj",

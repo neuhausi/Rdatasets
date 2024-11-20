@@ -1,3 +1,10 @@
+var sunspot.yearInfo ={
+   "usage" : "sunspot.year",
+   "title" : "Yearly Sunspot Data, 1700&ndash;1988",
+   "format" : "The univariate time series sunspot.year contains 289\nobservations, and is of class \"ts\".",
+   "description" : "Description\nYearly numbers of sunspots from 1700 to 1988 (rounded to one digit).\nNote that monthly numbers are available as\nsunspot.month, though starting slightly later."
+}
+
 var sunspot.year = [
    [
       "time",

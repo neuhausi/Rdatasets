@@ -1,3 +1,21 @@
+var prothrInfo ={
+   "description" : "Description\nA data frame of 488 liver cirrhosis patients from a randomized clinical\ntrial concerning prednisone treatment in these patients. The dataset is in\nlong format. The included variables are\nidPatient\nidentification number\n fromStarting state\n toReceiving\nstate\n transTransition number\n TstartStarting time\n\nTstopTransition time\n statusStatus variable; 1=transition,\n0=censored\n treatTreatment; factor with levels \"Placebo\",\n\"Prednisone\"",
+   "usage" : "A data frame, see data.frame.",
+   "parameters" : {
+      "id" : "Patient\nidentification number",
+      "from" : "Starting state",
+      "Tstop" : "Transition time",
+      "treat" : "Treatment; factor with levels \"Placebo\",\n\"Prednisone\"",
+      "Tstart" : "Starting time",
+      "to" : "Receiving\nstate",
+      "trans" : "Transition number",
+      "status" : "Status variable; 1=transition,\n0=censored"
+   },
+   "reference" : "A data frame, see data.frame.",
+   "format" : "This data was kindly provided by Per Kragh Andersen. It was introduced in\nAndersen, Borgan, Gill & Keiding (1993), Example 1.3.12, and used as\nillustration for computation of transition probabilities in multi-state\nmodels, see Sections IV.4 (Example IV.4.4) and VII.2 (Example VII.2.10).",
+   "title" : "Abnormal prothrombin levels in liver cirrhosis"
+}
+
 var prothr = [
    [
       "id",

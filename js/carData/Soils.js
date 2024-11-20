@@ -1,3 +1,27 @@
+var SoilsInfo ={
+   "usage" : "Soils",
+   "description" : "Description\nSoil characteristics were measured on samples from three types of\ncontours (Top, Slope, and Depression) and at four depths (0-10cm,\n10-30cm, 30-60cm, and 60-90cm).  The area was divided into 4 \nblocks, in a randomized block design. (Suggested by Michael Friendly.)",
+   "format" : "A data frame with 48 observations on the following 14 variables.  There are 3 factors and 9 response variables.",
+   "title" : "Soil Compositions of Physical and Chemical Characteristics",
+   "reference" : "These data provide good examples of MANOVA and canonical discriminant analysis in a somewhat\ncomplex multivariate setting.  They may be treated as a one-way design (ignoring Block),\nby using either Group or Gp as the factor, or a two-way randomized block\ndesign using Block, Contour and Depth (quantitative, so orthogonal\npolynomial contrasts are useful).",
+   "parameters" : {
+      "Conduc" : "conductivity",
+      "K" : "phosphorous in me/100 gm.",
+      "Group" : "a factor with 12 levels, corresponding to the combinations of Contour and Depth",
+      "Gp" : "a factor with 12 levels, giving abbreviations for the groups: \nD0 D1 D3 D6 S0 S1 S3 S6 T0 T1 T3 T6",
+      "Ca" : "calcium in me/100 gm.",
+      "Na" : "sodium in me/100 gm.",
+      "Depth" : "a factor with 4 levels: 0-10 10-30 30-60 60-90",
+      "Contour" : "a factor with 3 levels: Depression Slope Top",
+      "P" : "total phosphorous in ppm",
+      "N" : "total nitrogen in %",
+      "pH" : "soil pH",
+      "Mg" : "magnesium in me/100 gm.",
+      "Dens" : "bulk density in gm/cm$^3$",
+      "Block" : "a factor with levels 1 2 3 4"
+   }
+}
+
 var Soils = [
    [
       "Group",

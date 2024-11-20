@@ -1,3 +1,22 @@
+var AutoInfo ={
+   "usage" : "Auto",
+   "description" : "Description\nGas mileage, horsepower, and other information for 392 vehicles.",
+   "format" : "A data frame with 392 observations on the following 9 variables.",
+   "reference" : "This dataset was taken from the StatLib library which is maintained at Carnegie Mellon University. The dataset was used in the 1983 American Statistical Association Exposition.",
+   "title" : "Auto Data Set",
+   "parameters" : {
+      "displacement" : "Engine displacement (cu. inches)",
+      "year" : "Model year (modulo 100)",
+      "weight" : "Vehicle weight (lbs.)",
+      "acceleration" : "Time to accelerate from 0 to 60 mph (sec.)",
+      "horsepower" : "Engine horsepower",
+      "mpg" : "miles per gallon",
+      "name" : "Vehicle name",
+      "origin" : "Origin of car (1. American, 2. European, 3. Japanese)",
+      "cylinders" : "Number of cylinders between 4 and 8"
+   }
+}
+
 var Auto = [
    [
       "mpg",

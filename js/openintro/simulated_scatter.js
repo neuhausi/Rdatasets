@@ -1,3 +1,16 @@
+var simulated_scatterInfo ={
+   "description" : "Description\nFake data.",
+   "usage" : "simulated_scatter",
+   "parameters" : {
+      "group" : "Group, representing data for a specific plot.",
+      "y" : "y-value.",
+      "x" : "x-value."
+   },
+   "title" : "Simulated data for sample scatterplots",
+   "format" : "A data frame with 500 observations on the following 3 variables.",
+   "reference" : "library(ggplot2)\n\nggplot(simulated_scatter, aes(x = x, y = y)) +\n  geom_point() +\n  facet_wrap(~group)"
+}
+
 var simulated_scatter = [
    [
       "group",

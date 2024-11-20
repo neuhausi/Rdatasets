@@ -1,3 +1,10 @@
+var audistsInfo ={
+   "usage" : "audists",
+   "title" : "Road distances between 10 Australian cities",
+   "format" : "The format is:\nClass 'dist', i.e., a distance matrix.",
+   "description" : "Description\nDistances between the Australian cities of\nAdelaide, Alice, Brisbane, Broome, Cairns, Canberra, \nDarwin, Melbourne, Perth and Sydney"
+}
+
 var audists = [
    [
       "x"

@@ -1,5 +1,4 @@
 {
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>ukdemo</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>United Kingdom Demographic Data</h2>\n<h3>Description</h3>\n<p>This dataset comes from the Guardian's Data Blog and includes five\nfinancial demographic variables.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>ukdemo\n</code></pre>\n<h3>Format</h3>\n<p>A data frame with 12 observations on the following 6 variables.\n</p>\n<dl>\n<dt>region</dt><dd><p>Region in the United Kingdom</p>\n</dd>\n<dt>debt</dt><dd><p>Average regional debt, not including mortgages, in pounds</p>\n</dd>\n<dt>unemployment</dt><dd><p>Percent unemployment</p>\n</dd>\n<dt>house</dt><dd><p>Average house price, in pounds</p>\n</dd>\n<dt>pay</dt><dd><p>Average hourly pay, in pounds</p>\n</dd>\n<dt>rpi</dt><dd><p>Retail price index, which is standardized to 100 for the entire UK,\nand lower index scores correspond to lower prices</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>The data was described in the Guardian Data Blog:\n<a href=\"https://www.theguardian.com/news/datablog/interactive/2011/oct/27/debt-money-expert-facts\">https://www.theguardian.com/news/datablog/interactive/2011/oct/27/debt-money-expert-facts</a>,\nretrieved 2011-11-01.\n</p>\n<h3>References</h3>\n<p>Guardian Data Blog\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>\nlibrary(ggplot2)\nggplot(ukdemo, aes(x = pay, y = rpi)) +\n  geom_point() +\n  labs(x = \"Average hourly pay\", y = \"Retail price index\")\n</code></pre>\n</main>\n</div>\n",
    "data" : {
       "z" : {
          "region" : [
@@ -31,6 +30,13 @@
             "Var10",
             "Var11",
             "Var12"
+         ],
+         "smps" : [
+            "debt",
+            "unemployment",
+            "house",
+            "pay",
+            "rpi"
          ],
          "data" : [
             [
@@ -117,21 +123,15 @@
                12.57,
                100
             ]
-         ],
-         "smps" : [
-            "debt",
-            "unemployment",
-            "house",
-            "pay",
-            "rpi"
          ]
       }
    },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>ukdemo</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>United Kingdom Demographic Data</h2>\n<h3>Description</h3>\n<p>This dataset comes from the Guardian's Data Blog and includes five\nfinancial demographic variables.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>ukdemo\n</code></pre>\n<h3>Format</h3>\n<p>A data frame with 12 observations on the following 6 variables.\n</p>\n<dl>\n<dt>region</dt><dd><p>Region in the United Kingdom</p>\n</dd>\n<dt>debt</dt><dd><p>Average regional debt, not including mortgages, in pounds</p>\n</dd>\n<dt>unemployment</dt><dd><p>Percent unemployment</p>\n</dd>\n<dt>house</dt><dd><p>Average house price, in pounds</p>\n</dd>\n<dt>pay</dt><dd><p>Average hourly pay, in pounds</p>\n</dd>\n<dt>rpi</dt><dd><p>Retail price index, which is standardized to 100 for the entire UK,\nand lower index scores correspond to lower prices</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>The data was described in the Guardian Data Blog:\n<a href=\"https://www.theguardian.com/news/datablog/interactive/2011/oct/27/debt-money-expert-facts\">https://www.theguardian.com/news/datablog/interactive/2011/oct/27/debt-money-expert-facts</a>,\nretrieved 2011-11-01.\n</p>\n<h3>References</h3>\n<p>Guardian Data Blog\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>\nlibrary(ggplot2)\nggplot(ukdemo, aes(x = pay, y = rpi)) +\n  geom_point() +\n  labs(x = \"Average hourly pay\", y = \"Retail price index\")\n</code></pre>\n</main>\n</div>\n",
    "config" : {
-      "title" : "United Kingdom Demographic Data",
-      "colorBy" : "region",
       "graphType" : "Scatter2D",
-      "subtitle" : "openintro - ukdemo",
-      "scatterPlotMatrix" : 1
+      "colorBy" : "region",
+      "title" : "United Kingdom Demographic Data",
+      "scatterPlotMatrix" : 1,
+      "subtitle" : "openintro - ukdemo"
    }
 }

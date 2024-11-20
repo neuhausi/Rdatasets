@@ -1,15 +1,11 @@
 {
    "config" : {
       "graphType" : "Scatter2D",
-      "subtitle" : "drc - secalonic",
-      "title" : "Root length measurements"
+      "title" : "Root length measurements",
+      "subtitle" : "drc - secalonic"
    },
    "data" : {
       "y" : {
-         "smps" : [
-            "dose",
-            "rootl"
-         ],
          "data" : [
             [
                0,
@@ -48,6 +44,10 @@
             "Var5",
             "Var6",
             "Var7"
+         ],
+         "smps" : [
+            "dose",
+            "rootl"
          ]
       }
    },

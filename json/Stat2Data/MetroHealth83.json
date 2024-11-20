@@ -1,12 +1,4 @@
 {
-   "config" : {
-      "graphType" : "Heatmap",
-      "subtitle" : "Stat2Data - MetroHealth83",
-      "title" : "Health Services in Metropolitan Areas",
-      "smpOverlays" : [
-         "City"
-      ]
-   },
    "data" : {
       "x" : {
          "City" : [
@@ -96,6 +88,23 @@
          ]
       },
       "y" : {
+         "vars" : [
+            "NumMDs",
+            "RateMDs",
+            "NumHospitals",
+            "NumBeds",
+            "RateBeds",
+            "NumMedicare",
+            "PctChangeMedicare",
+            "MedicareRate",
+            "SSBNum",
+            "SSBRate",
+            "SSBChange",
+            "NumRetired",
+            "SSINum",
+            "SSIRate",
+            "SqrtMDs"
+         ],
          "smps" : [
             "Smp1",
             "Smp2",
@@ -1457,25 +1466,16 @@
                38.923,
                47.8853
             ]
-         ],
-         "vars" : [
-            "NumMDs",
-            "RateMDs",
-            "NumHospitals",
-            "NumBeds",
-            "RateBeds",
-            "NumMedicare",
-            "PctChangeMedicare",
-            "MedicareRate",
-            "SSBNum",
-            "SSBRate",
-            "SSBChange",
-            "NumRetired",
-            "SSINum",
-            "SSIRate",
-            "SqrtMDs"
          ]
       }
    },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>MetroHealth83</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Health Services in Metropolitan Areas</h2>\n<h3>Description</h3>\n<p>Health services data for 83 metropolitan areas\n</p>\n<h3>Format</h3>\n<p>A dataset with 83 observations on the following 16 variables.\n</p>\n<table>\n<tr>\n <td style=\"text-align: right;\">\n    <code>City</code> </td><td style=\"text-align: left;\"> Name of the metropolitan area</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>NumMDs</code> </td><td style=\"text-align: left;\"> Number of physicians</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>RateMDs</code> </td><td style=\"text-align: left;\"> Number of physicians per 100,000 people</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>NumHospitals</code> </td><td style=\"text-align: left;\"> Number of community hospitals</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>NumBeds</code> </td><td style=\"text-align: left;\"> Number of hospital beds</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>RateBeds</code> </td><td style=\"text-align: left;\"> Number of hospital beds per 100,000 people</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>NumMedicare</code> </td><td style=\"text-align: left;\"> Number of Medicare recipients in 2003</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>PctChangeMedicare</code> </td><td style=\"text-align: left;\"> Percent change in Medicare recipients (2000 to 2003)</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>MedicareRate</code> </td><td style=\"text-align: left;\"> Number of Medicare recipients per 100,000 people</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>SSBNum</code> </td><td style=\"text-align: left;\"> Number of Social Security recipients in 2004</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>SSBRate</code> </td><td style=\"text-align: left;\"> Number of Social Security recipients per 100,000 people</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>SSBChange</code> </td><td style=\"text-align: left;\"> Percent change in Social Security recipients (2000 to 2004)</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>NumRetired</code> </td><td style=\"text-align: left;\"> Number of retired workers</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>SSINum</code> </td><td style=\"text-align: left;\"> Number of Supplemental Security Income recipients in 2004</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>SSIRate</code> </td><td style=\"text-align: left;\"> Number of Supplemental Security Income recipients per 100,000 people</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>SqrtMDs</code> </td><td style=\"text-align: left;\"> Square root of number of physicians</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n  </td>\n</tr>\n</table>\n<h3>Details</h3>\n<p>The U.S. Census Bureau regularly collects information for many metropolitan areas in the United\nStates, including data on number of physicians and number (and size) of hospitals.\nThis dataset has such information for 83 different metropolitan areas.\n</p>\n<p>This dataset is in the first edition, but replaced by CountyHealth in the second edition.\n</p>\n<h3>Source</h3>\n<p>U.S. Census Bureau: 2006 State and Metropolitan Area Data Book (Table B-6) <br />\nhttp://www.census.gov/prod/2006pubs/smadb/smadb-06.pdf\n</p>\n</main>\n</div>\n"
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>MetroHealth83</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Health Services in Metropolitan Areas</h2>\n<h3>Description</h3>\n<p>Health services data for 83 metropolitan areas\n</p>\n<h3>Format</h3>\n<p>A dataset with 83 observations on the following 16 variables.\n</p>\n<table>\n<tr>\n <td style=\"text-align: right;\">\n    <code>City</code> </td><td style=\"text-align: left;\"> Name of the metropolitan area</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>NumMDs</code> </td><td style=\"text-align: left;\"> Number of physicians</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>RateMDs</code> </td><td style=\"text-align: left;\"> Number of physicians per 100,000 people</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>NumHospitals</code> </td><td style=\"text-align: left;\"> Number of community hospitals</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>NumBeds</code> </td><td style=\"text-align: left;\"> Number of hospital beds</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>RateBeds</code> </td><td style=\"text-align: left;\"> Number of hospital beds per 100,000 people</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>NumMedicare</code> </td><td style=\"text-align: left;\"> Number of Medicare recipients in 2003</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>PctChangeMedicare</code> </td><td style=\"text-align: left;\"> Percent change in Medicare recipients (2000 to 2003)</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>MedicareRate</code> </td><td style=\"text-align: left;\"> Number of Medicare recipients per 100,000 people</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>SSBNum</code> </td><td style=\"text-align: left;\"> Number of Social Security recipients in 2004</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>SSBRate</code> </td><td style=\"text-align: left;\"> Number of Social Security recipients per 100,000 people</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>SSBChange</code> </td><td style=\"text-align: left;\"> Percent change in Social Security recipients (2000 to 2004)</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>NumRetired</code> </td><td style=\"text-align: left;\"> Number of retired workers</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>SSINum</code> </td><td style=\"text-align: left;\"> Number of Supplemental Security Income recipients in 2004</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>SSIRate</code> </td><td style=\"text-align: left;\"> Number of Supplemental Security Income recipients per 100,000 people</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>SqrtMDs</code> </td><td style=\"text-align: left;\"> Square root of number of physicians</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n  </td>\n</tr>\n</table>\n<h3>Details</h3>\n<p>The U.S. Census Bureau regularly collects information for many metropolitan areas in the United\nStates, including data on number of physicians and number (and size) of hospitals.\nThis dataset has such information for 83 different metropolitan areas.\n</p>\n<p>This dataset is in the first edition, but replaced by CountyHealth in the second edition.\n</p>\n<h3>Source</h3>\n<p>U.S. Census Bureau: 2006 State and Metropolitan Area Data Book (Table B-6) <br />\nhttp://www.census.gov/prod/2006pubs/smadb/smadb-06.pdf\n</p>\n</main>\n</div>\n",
+   "config" : {
+      "smpOverlays" : [
+         "City"
+      ],
+      "graphType" : "Heatmap",
+      "title" : "Health Services in Metropolitan Areas",
+      "subtitle" : "Stat2Data - MetroHealth83"
+   }
 }

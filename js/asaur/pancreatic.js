@@ -1,3 +1,17 @@
+var pancreaticInfo ={
+   "usage" : "data(\"pancreatic\")",
+   "description" : "Description\nData from a Phase II clinical trial of patients with locally advanced or metastatic pancreatic cancer.",
+   "format" : "A data frame with 41 observations on the following 4 variables.",
+   "title" : "pancreatic",
+   "reference" : "Since all patients in this study have known death dates, there is no censoring.",
+   "parameters" : {
+      "stage" : "a factor with levels LA (locally advanced) or M (metastatic)",
+      "death" : "date of death, in month/day/year format",
+      "progression" : "date of progression, in month/day/year format",
+      "onstudy" : "date of enrollment into the clinical trial, in month/day/year format"
+   }
+}
+
 var pancreatic = [
    [
       "stage",

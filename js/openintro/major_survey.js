@@ -1,3 +1,15 @@
+var major_surveyInfo ={
+   "format" : "A data frame with 218 observations on the following 2 variables.",
+   "reference" : "library(ggplot2)\n\nggplot(major_survey, aes(x = major, y = gpa)) +\n  geom_boxplot()",
+   "title" : "Survey of Duke students and the area of their major",
+   "parameters" : {
+      "major" : "Area of\nacademic major.",
+      "gpa" : "Grade point average (GPA)."
+   },
+   "usage" : "major_survey",
+   "description" : "Description\nSurvey of 218 students, collecting information on their GPAs and their\nacademic major."
+}
+
 var major_survey = [
    [
       "gpa",

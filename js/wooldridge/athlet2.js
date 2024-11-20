@@ -1,3 +1,23 @@
+var athlet2Info ={
+   "usage" : "data('athlet2')",
+   "description" : "Description\nWooldridge Sources: Peterson's Guide to Four Year Colleges, 1995 (25th edition). Princeton University Press. 1995 Information Please Sports Almanac (6th edition). Houghton Mifflin. New York, NY Data loads lazily.",
+   "title" : "athlet2",
+   "format" : "A data.frame with 30 observations on 10 variables:",
+   "reference" : "These data were collected by Paul Anderson, an MSU economics major, for a term project. The score from football outcomes for natural rivals (Michigan-Michigan State, California-Stanford, Florida-Florida State, to name a few) is matched with application and academic data. The application and tuition data are for Fall 1994. Football records and scores are from 1993 football season. Extended these data to obtain a long stretch of panel data and other ânaturalâ rivals could be very interesting.",
+   "parameters" : {
+      "dinstt" : " diff. in-state tuit., 1994",
+      "dpriv" : " htpriv - vtpriv",
+      "dapps" : " diff. in applications, 1994",
+      "dwinrec" : " htwrd - vtwrd",
+      "dscore" : " home scr. - vist. scr., 1993",
+      "vtpriv" : " =1 if vist. team priv. sch.",
+      "htwrd" : " =1 if home win. record, 1993",
+      "doutstt" : " diff. out-state tuit., 1994",
+      "vtwrd" : " =1 if vist. win. record, 1993",
+      "htpriv" : " =1 if home team priv. sch."
+   }
+}
+
 var athlet2 = [
    [
       "dscore",

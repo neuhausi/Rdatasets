@@ -1,3 +1,35 @@
+var nbasalInfo ={
+   "usage" : "data('nbasal')",
+   "description" : "Description\nWooldridge Source: Collected by Christopher Torrente, a former MSU undergraduate, for a term project. He obtained the salary data and the career statistics from The Complete Handbook of Pro Basketball, 1995, edited by Zander Hollander. New York: Signet. The demographic information (marital status, number of children, and so on) was obtained from the teamsâ 1994-1995 media guides. Data loads lazily.",
+   "format" : "A data.frame with 269 observations on 22 variables:",
+   "title" : "nbasal",
+   "reference" : "A panel version of this data set could be useful for further isolating productivity effects of marital status. One would need to obtain information on enough different players in at least two years, where some players who were not married in the initial year are married in later years. Fixed effects (or first differencing, for two years) is the natural estimation method.",
+   "parameters" : {
+      "draft" : " draft number",
+      "avgmin" : " minutes per game",
+      "black" : " =1 if black",
+      "assists" : " assists per game",
+      "games" : " average games per year",
+      "exper" : " years as professional player",
+      "points" : " points per game",
+      "children" : " =1 if has children",
+      "forward" : " =1 if forward",
+      "marrblck" : " marr*black",
+      "allstar" : " =1 if ever all star",
+      "minutes" : " average minutes per year",
+      "age" : " age in years",
+      "center" : " =1 if center",
+      "expersq" : " exper^2",
+      "lwage" : " log(wage)",
+      "marr" : " =1 if married",
+      "rebounds" : " rebounds per game",
+      "agesq" : " age^2",
+      "wage" : " annual salary, thousands $",
+      "guard" : " =1 if guard",
+      "coll" : " years played in college"
+   }
+}
+
 var nbasal = [
    [
       "marr",

@@ -1,3 +1,15 @@
+var CavsShootingInfo ={
+   "description" : "Description\nShooting percentages for two Cav players",
+   "parameters" : {
+      "ShotType" : "Two or Three",
+      "Hit" : "1=made or 0=missed",
+      "Player" : "Frye or Irving"
+   },
+   "title" : "Cleveland Cavalier's Shooting (2016-2017)",
+   "reference" : "Shooting success on 2-point shots and 3-point shots for the 2016-17 NBA season for two Cleveland Cavalier basketball players, Kyrie Irving and Channing Frye. Each case is a shot attempt.  These data show Simpson's Paradox.",
+   "usage" : "A data frame with 1940 observations on the following 3 variables."
+}
+
 var CavsShooting = [
    [
       "Player",

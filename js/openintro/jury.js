@@ -1,3 +1,14 @@
+var juryInfo ={
+   "parameters" : {
+      "race" : "a factor with levels black hispanic\nother white"
+   },
+   "title" : "Simulated juror dataset",
+   "format" : "A data frame with 275 observations on the following variable.",
+   "reference" : "jury",
+   "description" : "Description\nSimulated dataset of registered voters proportions and representation on\njuries.",
+   "usage" : "jury"
+}
+
 var jury = [
    [
       "race",

@@ -1,3 +1,10 @@
+var SP500W90Info ={
+   "description" : "Description\nClosing numbers for S and P 500 Index, Jan. 1, 1990 through\nearly 2000.",
+   "usage" : "SP500W90",
+   "format" : "Derived from SP500 in the MASS library.",
+   "title" : "Closing Numbers for S and P 500 Index - First 100 Days of 1990"
+}
+
 var SP500W90 = [
    [
       "day",

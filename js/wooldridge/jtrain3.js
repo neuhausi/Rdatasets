@@ -1,3 +1,33 @@
+var jtrain3Info ={
+   "description" : "Description\nWooldridge Source: R.H. Dehejia and S. Wahba (1999), âCausal Effects in Nonexperimental Studies: Reevaluating the Evaluation of Training Programs,â Journal of the American Statistical Association 94, 1053-1062. Professor Sergio Firpo, at the University of British Columbia, has used this data set in his recent work, and he kindly provided it to me. This data set is a subset of that originally used by Lalonde in the study cited for JTRAIN2.RAW. Data loads lazily.",
+   "usage" : "data('jtrain3')",
+   "parameters" : {
+      "educ" : " years of schooling",
+      "trre74" : " train*re74",
+      "age" : " in years, 1977",
+      "unem78" : " =1 if unem. all of '78",
+      "unem75" : " =1 if unem. all of '75",
+      "avgre" : " (re74 + re75)/2",
+      "married" : " =1 if married",
+      "trun75" : " train*unem75",
+      "re74" : " '74 earnings, $1000s '82",
+      "agesq" : " age^2",
+      "em78" : " 1 - unem78",
+      "hisp" : " =1 if Hispanic",
+      "trre75" : " train*re75",
+      "re75" : " '75 earnings, $1000s '82",
+      "unem74" : " =1 if unem. all of '74",
+      "trun74" : " train*unem74",
+      "train" : " =1 if in job training",
+      "black" : " =1 if black",
+      "re78" : " '78 earnings, $1000s '82",
+      "travgre" : " train*avgre"
+   },
+   "reference" : "pages 340-341, 480-481",
+   "title" : "jtrain3",
+   "format" : "A data.frame with 2675 observations on 20 variables:"
+}
+
 var jtrain3 = [
    [
       "train",

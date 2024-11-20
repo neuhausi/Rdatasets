@@ -1,5 +1,11 @@
 {
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>Cushings</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>\nDiagnostic Tests on Patients with Cushing's Syndrome\n</h2>\n<h3>Description</h3>\n<p>Cushing's syndrome is a hypertensive disorder associated with\nover-secretion of cortisol by the adrenal gland. The observations\nare urinary excretion rates of two steroid metabolites.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>Cushings\n</code></pre>\n<h3>Format</h3>\n<p>The <code>Cushings</code> data frame has 27 rows and 3 columns:\n</p>\n<dl>\n<dt><code>Tetrahydrocortisone</code></dt><dd>\n<p>urinary excretion rate (mg/24hr) of Tetrahydrocortisone.\n</p>\n</dd>\n<dt><code>Pregnanetriol</code></dt><dd>\n<p>urinary excretion rate (mg/24hr) of Pregnanetriol.\n</p>\n</dd>\n<dt><code>Type</code></dt><dd>\n<p>underlying type of syndrome, coded <code>a</code> (adenoma) , <code>b</code>\n(bilateral hyperplasia), <code>c</code> (carcinoma) or <code>u</code> for unknown.\n</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>J. Aitchison and I. R. Dunsmore (1975)\n<em>Statistical Prediction Analysis.</em>\nCambridge University Press, Tables 11.1&ndash;3.\n</p>\n<h3>References</h3>\n<p>Venables, W. N. and Ripley, B. D. (2002)\n<em>Modern Applied Statistics with S.</em> Fourth edition.  Springer.\n</p>\n</main>\n</div>\n",
+   "config" : {
+      "shapeBy" : null,
+      "title" : "Diagnostic Tests on Patients with Cushing's Syndrome",
+      "colorBy" : "Type",
+      "graphType" : "Scatter2D",
+      "subtitle" : "MASS - Cushings"
+   },
    "data" : {
       "z" : {
          "Type" : [
@@ -33,6 +39,39 @@
          ]
       },
       "y" : {
+         "vars" : [
+            "a1",
+            "a2",
+            "a3",
+            "a4",
+            "a5",
+            "a6",
+            "b1",
+            "b2",
+            "b3",
+            "b4",
+            "b5",
+            "b6",
+            "b7",
+            "b8",
+            "b9",
+            "b10",
+            "c1",
+            "c2",
+            "c3",
+            "c4",
+            "c5",
+            "u1",
+            "u2",
+            "u3",
+            "u4",
+            "u5",
+            "u6"
+         ],
+         "smps" : [
+            "Tetrahydrocortisone",
+            "Pregnanetriol"
+         ],
          "data" : [
             [
                3.1,
@@ -142,47 +181,8 @@
                20.5,
                0.8
             ]
-         ],
-         "smps" : [
-            "Tetrahydrocortisone",
-            "Pregnanetriol"
-         ],
-         "vars" : [
-            "a1",
-            "a2",
-            "a3",
-            "a4",
-            "a5",
-            "a6",
-            "b1",
-            "b2",
-            "b3",
-            "b4",
-            "b5",
-            "b6",
-            "b7",
-            "b8",
-            "b9",
-            "b10",
-            "c1",
-            "c2",
-            "c3",
-            "c4",
-            "c5",
-            "u1",
-            "u2",
-            "u3",
-            "u4",
-            "u5",
-            "u6"
          ]
       }
    },
-   "config" : {
-      "colorBy" : "Type",
-      "title" : "Diagnostic Tests on Patients with Cushing's Syndrome",
-      "subtitle" : "MASS - Cushings",
-      "shapeBy" : null,
-      "graphType" : "Scatter2D"
-   }
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>Cushings</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>\nDiagnostic Tests on Patients with Cushing's Syndrome\n</h2>\n<h3>Description</h3>\n<p>Cushing's syndrome is a hypertensive disorder associated with\nover-secretion of cortisol by the adrenal gland. The observations\nare urinary excretion rates of two steroid metabolites.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>Cushings\n</code></pre>\n<h3>Format</h3>\n<p>The <code>Cushings</code> data frame has 27 rows and 3 columns:\n</p>\n<dl>\n<dt><code>Tetrahydrocortisone</code></dt><dd>\n<p>urinary excretion rate (mg/24hr) of Tetrahydrocortisone.\n</p>\n</dd>\n<dt><code>Pregnanetriol</code></dt><dd>\n<p>urinary excretion rate (mg/24hr) of Pregnanetriol.\n</p>\n</dd>\n<dt><code>Type</code></dt><dd>\n<p>underlying type of syndrome, coded <code>a</code> (adenoma) , <code>b</code>\n(bilateral hyperplasia), <code>c</code> (carcinoma) or <code>u</code> for unknown.\n</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>J. Aitchison and I. R. Dunsmore (1975)\n<em>Statistical Prediction Analysis.</em>\nCambridge University Press, Tables 11.1&ndash;3.\n</p>\n<h3>References</h3>\n<p>Venables, W. N. and Ripley, B. D. (2002)\n<em>Modern Applied Statistics with S.</em> Fourth edition.  Springer.\n</p>\n</main>\n</div>\n"
 }

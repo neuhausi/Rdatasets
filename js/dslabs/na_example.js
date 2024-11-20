@@ -1,3 +1,10 @@
+var na_exampleInfo ={
+   "usage" : "na_example",
+   "title" : "Count data with some missing values",
+   "format" : "An object of class \"integer\".",
+   "description" : "Description\nThis dataset was randomly generated."
+}
+
 var na_example = [
    [
       "dat",

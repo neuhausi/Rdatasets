@@ -1,3 +1,17 @@
+var azdrg112Info ={
+   "description" : "Description\nThe data set relates to the hospital length of stay for patients having \na CABG or PTCA (typel) heart procedure. The data comes from the 1995 \nArizona Medicare data for DRG (Diagnostic Related Group) 112. Other predictors \ninclude gender(1=female) and age75 (1-age 75+). Type is labeled as 1=emergency \nor urgent admission; 0= elective. Length of stay (los) ranges from 1 to 53 days.",
+   "usage" : "data(azdrg112)",
+   "parameters" : {
+      "los" : "hospital length of stay: 1-53 days",
+      "gender" : "1=male; 0=female",
+      "age75" : "1=age>75; 0=age<=75",
+      "type1" : "1=emergency/urgent admission; 0=elective admission"
+   },
+   "format" : "A data frame with 1,798 observations on the following 4 variables.",
+   "title" : "azdrg112",
+   "reference" : "azdrg112 is saved as a data frame.\nCount models typically use los as response variable. 0 counts are not included"
+}
+
 var azdrg112 = [
    [
       "los",

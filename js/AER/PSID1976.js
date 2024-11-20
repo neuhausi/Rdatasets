@@ -1,3 +1,34 @@
+var PSID1976Info ={
+   "reference" : "This data set is also known as the Mroz (1987) data.",
+   "title" : "Labor Force Participation Data",
+   "format" : "A data frame containing 753 observations on 21 variables.",
+   "parameters" : {
+      "oldkids" : "Number of children between ages 6 and 18 in household.",
+      "youngkids" : "Number of children less than 6 years old in household.",
+      "tax" : "Marginal tax rate facing the wife, and is taken from published federal \ntax tables (state and local income taxes are excluded). The taxable income on \nwhich this tax rate is calculated includes Social Security, if applicable to wife.",
+      "hwage" : "Husband's wage, in 1975 dollars.",
+      "college" : "Factor. Did the individual attend college?",
+      "heducation" : "Husband's education in years.",
+      "city" : "Factor. Does the individual live in a large city?",
+      "age" : "Wife's age in years.",
+      "unemp" : "Unemployment rate in county of residence, in percentage points.\n(This is taken from bracketed ranges.)",
+      "repwage" : "Wife's wage reported at the time of the 1976 interview \n(not the same as the 1975 estimated wage). To use the subsample with this wage,\none needs to select 1975 workers with participation == \"yes\", then select only those\nwomen with non-zero wage. Only 325 women work in 1975 and have a non-zero wage in 1976.",
+      "fincome" : "Family income, in 1975 dollars. (This variable is used to construct the\nproperty income variable.)",
+      "hours" : "Wife's hours of work in 1975.",
+      "hcollege" : "Factor. Did the individual's husband attend college?",
+      "meducation" : "Wife's mother's educational attainment, in years.",
+      "experience" : "Actual years of wife's previous labor market experience.",
+      "hhours" : "Husband's hours worked in 1975.",
+      "feducation" : "Wife's father's educational attainment, in years.",
+      "education" : "Wife's education in years.",
+      "participation" : "Factor. Did the individual participate in the labor force in 1975?\n(This is essentially wage > 0 or hours > 0.)",
+      "wage" : "Wife's average hourly wage, in 1975 dollars.",
+      "hage" : "Husband's age in years."
+   },
+   "usage" : "data(\"PSID1976\")",
+   "description" : "Description\nCross-section data originating from the 1976 Panel Study of Income Dynamics (PSID),\nbased on data for the previous year, 1975."
+}
+
 var PSID1976 = [
    [
       "participation",

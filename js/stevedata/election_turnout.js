@@ -1,3 +1,27 @@
+var election_turnoutInfo ={
+   "usage" : "election_turnout",
+   "description" : "Description\nA simple data set on education and state-level (+ DC) turnout in the 2016\npresidential election. This is inspired by what Pollock (2012) does in his book.",
+   "reference" : "Data were created in early 2017 for an upper-division course on\nquantitative methods. Educational attainment and division/region data come from the\nCensus. Voter turnout/share data come from the Elections Project at George Mason University.\nGDP per capita estimates come from Bureau of Economic Analysis. Unemployment data come from\nthe Bureau of Labor Statistics and code to generate it was derived from a forthcoming\npublication of mine.",
+   "title" : "State-Level Education and Voter Turnout in 2016",
+   "format" : "A data frame with 51 observations on the following 13 variables.",
+   "parameters" : {
+      "perhsed" : "the percentage of the state that completed high school",
+      "gdp" : "an estimate of the state's GDP",
+      "ss" : "is it a &ldquo;swing state?&rdquo;",
+      "division" : "the state's Census division",
+      "sunempr" : "the state-level unemployment rate entering Nov. 2016",
+      "state" : "the state abbreviation",
+      "trumpshare" : "the share of the vote Trump received",
+      "year" : "the year of the presidential election (2016)",
+      "gdppercap" : "an estimate of the state's GDP per capita",
+      "turnoutho" : "voter turnout for the highest office as percent of voting-eligible population (VEP)",
+      "sunempr12md" : "the state-level unemployment rate (12-month difference) entering Nov. 2016. Higher values indicate the unemployment rate is increasing entering Nov. 2016 relative to what it was entering Nov. 2015.",
+      "region" : "the state's Census region",
+      "trumpw" : "did Trump win the state?",
+      "percoled" : "the percentage of the state that completed college"
+   }
+}
+
 var election_turnout = [
    [
       "year",

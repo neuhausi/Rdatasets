@@ -1,3 +1,37 @@
+var wage1Info ={
+   "parameters" : {
+      "female" : " =1 if female",
+      "expersq" : " exper^2",
+      "lwage" : " log(wage)",
+      "wage" : " average hourly earnings",
+      "construc" : " =1 if work in construc. indus.",
+      "tenure" : " years with current employer",
+      "nonwhite" : " =1 if nonwhite",
+      "married" : " =1 if married",
+      "profserv" : " =1 if in prof. serv. indus.",
+      "educ" : " years of education",
+      "clerocc" : " =1 if in clerical occupation",
+      "northcen" : " =1 if live in north central U.S",
+      "numdep" : " number of dependents",
+      "ndurman" : " =1 if in nondur. manuf. indus.",
+      "south" : " =1 if live in southern region",
+      "exper" : " years potential experience",
+      "tenursq" : " tenure^2",
+      "trade" : " =1 if in wholesale or retail",
+      "servocc" : " =1 if in service occupation",
+      "services" : " =1 if in services indus.",
+      "smsa" : " =1 if live in SMSA",
+      "west" : " =1 if live in western region",
+      "profocc" : " =1 if in profess. occupation",
+      "trcommpu" : " =1 if in trans, commun, pub ut"
+   },
+   "title" : "wage1",
+   "reference" : "Barry Murphy, of the University of Portsmouth in the UK, has pointed out that for several observations the values for exper and tenure are in logical conflict. In particular, for some workers the number of years with current employer (tenure) is greater than overall work experience (exper). At least some of these conflicts are due to the definition of exper as âpotentialâ work experience, but probably not all. Nevertheless, I am using the data set as it was supplied to me.",
+   "format" : "A data.frame with 526 observations on 24 variables:",
+   "description" : "Description\nWooldridge Source: These are data from the 1976 Current Population Survey, collected by Henry Farber when he and I were colleagues at MIT in 1988. Data loads lazily.",
+   "usage" : "data('wage1')"
+}
+
 var wage1 = [
    [
       "wage",

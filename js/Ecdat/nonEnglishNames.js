@@ -1,3 +1,15 @@
+var nonEnglishNamesInfo ={
+   "description" : "Description\nA data.frame describing \nnames containing character codes rare or \nnon-existent in standard English text, \ne.g., with various accent marks that may \nnot be coded consistently in different \nlocales or by different software.",
+   "usage" : "data(nonEnglishNames)",
+   "parameters" : {
+      "English" : "a character vector containing a standard English-character\ntranslation of nonEnglish",
+      "nonEnglish" : "a character vector containing names that often have non-standard\ncharacters with the non-standard characters replaced by \"_\""
+   },
+   "format" : "A data.frame with two columns:",
+   "title" : "Names with Character Set Problems",
+   "reference" : "grepNonStandardCharacters,\nsubNonStandardCharacters"
+}
+
 var nonEnglishNames = [
    [
       "nonEnglish",

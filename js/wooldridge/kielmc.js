@@ -1,3 +1,38 @@
+var kielmcInfo ={
+   "description" : "Description\nWooldridge Source: K.A. Kiel and K.T. McClain (1995), âHouse Prices During Siting Decision Stages: The Case of an Incinerator from Rumor Through Operation,â Journal of Environmental Economics and Management 28, 241-255. Professor McClain kindly provided the data, of which I used only a subset. Data loads lazily.",
+   "usage" : "data('kielmc')",
+   "parameters" : {
+      "y81" : " =1 if year == 1981",
+      "rprice" : " price, 1978 dollars",
+      "ldist" : " log(dist)",
+      "price" : " selling price",
+      "lintst" : " log(intst)",
+      "lland" : " log(land)",
+      "y81ldist" : " y81*ldist",
+      "y81nrinc" : " y81*nearinc",
+      "rooms" : " # rooms in house",
+      "wind" : " prc. time wind incin. to house",
+      "dist" : " dist. from house to incin., ft.",
+      "lprice" : " log(price)",
+      "lintstsq" : " lintst^2",
+      "cbd" : " dist. to cent. bus. dstrct, ft.",
+      "baths" : " # bathrooms",
+      "age" : " age of house",
+      "larea" : " log(area)",
+      "lrprice" : " log(rprice)",
+      "nearinc" : " =1 if dist <= 15840",
+      "agesq" : " age^2",
+      "intst" : " dist. to interstate, ft.",
+      "area" : " square footage of house",
+      "nbh" : " neighborhood, 1-6",
+      "land" : " square footage lot",
+      "year" : " 1978 or 1981"
+   },
+   "reference" : "pages 220, 454-457, 475, 477",
+   "format" : "A data.frame with 321 observations on 25 variables:",
+   "title" : "kielmc"
+}
+
 var kielmc = [
    [
       "year",

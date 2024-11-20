@@ -1,3 +1,25 @@
+var soupInfo ={
+   "reference" : "Data are produced by Unilever Research. Permission to publish\nthe data is granted.",
+   "format" : "RESP\nfactor with 185 levels: the respondents in the study.\n\n\nPROD\nfactor with 2 levels: index reference and test products.\n\n\nPRODID\nfactor with 6 levels: index reference and the five test product\nvariants.\n\n\nSURENESS\nordered factor with 6 levels: the respondents ratings of soup\nsamples.\n\n\nDAY\nfactor with two levels: experimentation was split over two days.\n\n\nSOUPTYPE\nfactor with three levels: the type of soup regularly consumed by the\nrespondent.\n\n\nSOUPFREQ\nfactor with 3 levels: the frequency with which the respondent\nconsumes soup.\n\n\nCOLD\nfactor with two levels: does the respondent have a cold?\n\n\nEASY\nfactor with ten levels: How easy did the respondent find the\ndiscrimation test? 1 = difficult, 10 = easy.\n\n\nGENDER\nfactor with two levels: gender of the respondent.\n\n\nAGEGROUP\nfactor with four levels: the age of the respondent.\n\n\nLOCATION\nfactor with three levels: three different locations where\nexperimentation took place.",
+   "title" : "Discrimination study of packet soup",
+   "parameters" : {
+      "EASY" : "factor with ten levels: How easy did the respondent find the\ndiscrimation test? 1 = difficult, 10 = easy.",
+      "GENDER" : "factor with two levels: gender of the respondent.",
+      "PRODID" : "factor with 6 levels: index reference and the five test product\nvariants.",
+      "SOUPTYPE" : "factor with three levels: the type of soup regularly consumed by the\nrespondent.",
+      "RESP" : "factor with 185 levels: the respondents in the study.",
+      "PROD" : "factor with 2 levels: index reference and test products.",
+      "LOCATION" : "factor with three levels: three different locations where\nexperimentation took place.",
+      "DAY" : "factor with two levels: experimentation was split over two days.",
+      "SOUPFREQ" : "factor with 3 levels: the frequency with which the respondent\nconsumes soup.",
+      "SURENESS" : "ordered factor with 6 levels: the respondents ratings of soup\nsamples.",
+      "COLD" : "factor with two levels: does the respondent have a cold?",
+      "AGEGROUP" : "factor with four levels: the age of the respondent."
+   },
+   "usage" : "soup",
+   "description" : "Description\nThe soup data frame has 1847 rows and 13 variables. 185\nrespondents participated in an A-not A discrimination test with\nsureness. Before experimentation the respondents were familiarized\nwith the reference product and during experimentation, the respondents\nwere asked to rate samples on an ordered scale with six categories\ngiven by combinations of (reference, not reference) and (sure, not\nsure, guess) from 'referene, sure' = 1 to 'not reference, sure' = 6."
+}
+
 var soup = [
    [
       "RESP",

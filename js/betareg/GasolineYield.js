@@ -1,3 +1,19 @@
+var GasolineYieldInfo ={
+   "parameters" : {
+      "batch" : "factor indicating unique batch of conditions gravity,\npressure, and temp10.",
+      "pressure" : "vapor pressure of crude oil (lbf/in2).",
+      "temp10" : "temperature (degrees F) at which 10 percent of crude oil has vaporized.",
+      "gravity" : "crude oil gravity (degrees API).",
+      "temp" : "temperature (degrees F) at which all gasoline has vaporized.",
+      "yield" : "proportion of crude oil converted to gasoline after distillation and fractionation."
+   },
+   "reference" : "This dataset was collected by Prater (1956), its dependent variable is the\nproportion of crude oil after distillation and fractionation. This dataset was\nanalyzed by Atkinson (1985), who used the linear regression model and noted that\nthere is &ldquo;indication that the error distribution is not quite symmetrical,\ngiving rise to some unduly large and small residuals&rdquo; (p. 60).",
+   "title" : "Estimation of Gasoline Yields from Crude Oil",
+   "format" : "A data frame containing 32 observations on 6 variables.",
+   "description" : "Description\nOperational data of the proportion of crude oil converted to gasoline after\ndistillation and fractionation.",
+   "usage" : "data(\"GasolineYield\", package = \"betareg\")"
+}
+
 var GasolineYield = [
    [
       "yield",

@@ -1,3 +1,14 @@
+var tooheyInfo ={
+   "parameters" : {
+      "vote_for" : "a factor with levels no yes"
+   },
+   "reference" : "toohey",
+   "format" : "A data frame with 500 observations on the following variable.",
+   "title" : "Simulated polling dataset",
+   "description" : "Description\nSimulated data for a fake political candidate.",
+   "usage" : "toohey"
+}
+
 var toohey = [
    [
       "vote_for",

@@ -1,10 +1,5 @@
 {
-   "config" : {
-      "graphType" : "Scatter2D",
-      "scatterPlotMatrix" : 1,
-      "subtitle" : "sem - Kmenta",
-      "title" : "Partly Artificial Data on the U. S. Economy"
-   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>Kmenta</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Partly Artificial Data on the U. S. Economy</h2>\n<h3>Description</h3>\n<p>These are partly contrived data from Kmenta (1986), constructed\nto illustrate estimation of a simultaneous-equation model.\n</p>\n<p>The <code>Kmenta</code> data frame has 20 rows and 5 columns.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>Kmenta</code></pre>\n<h3>Format</h3>\n<p>This data frame contains the following columns:\n</p>\n<dl>\n<dt>Q</dt><dd>\n<p>food consumption per capita.\n</p>\n</dd>\n<dt>P</dt><dd>\n<p>ratio of food prices to general consumer prices.\n</p>\n</dd>\n<dt>D</dt><dd>\n<p>disposable income in constant dollars.\n</p>\n</dd>\n<dt>F</dt><dd>\n<p>ratio of preceding year's prices received by farmers\nto general consumer prices.\n</p>\n</dd>\n<dt>A</dt><dd>\n<p>time in years.\n</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>The exogenous variables <code>D</code>, <code>F</code>, and <code>A</code> are based on\nreal data; the endogenous variables <code>P</code> and <code>Q</code> were generated\nby simulation.\n</p>\n<h3>Source</h3>\n<p>Kmenta, J. (1986)\n<em>Elements of Econometrics, Second Edition</em>, Macmillan.\n</p>\n</main>\n</div>\n",
    "data" : {
       "y" : {
          "vars" : [
@@ -28,6 +23,13 @@
             "Var18",
             "Var19",
             "Var20"
+         ],
+         "smps" : [
+            "Q",
+            "P",
+            "D",
+            "F",
+            "A"
          ],
          "data" : [
             [
@@ -170,15 +172,13 @@
                93,
                20
             ]
-         ],
-         "smps" : [
-            "Q",
-            "P",
-            "D",
-            "F",
-            "A"
          ]
       }
    },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>Kmenta</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Partly Artificial Data on the U. S. Economy</h2>\n<h3>Description</h3>\n<p>These are partly contrived data from Kmenta (1986), constructed\nto illustrate estimation of a simultaneous-equation model.\n</p>\n<p>The <code>Kmenta</code> data frame has 20 rows and 5 columns.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>Kmenta</code></pre>\n<h3>Format</h3>\n<p>This data frame contains the following columns:\n</p>\n<dl>\n<dt>Q</dt><dd>\n<p>food consumption per capita.\n</p>\n</dd>\n<dt>P</dt><dd>\n<p>ratio of food prices to general consumer prices.\n</p>\n</dd>\n<dt>D</dt><dd>\n<p>disposable income in constant dollars.\n</p>\n</dd>\n<dt>F</dt><dd>\n<p>ratio of preceding year's prices received by farmers\nto general consumer prices.\n</p>\n</dd>\n<dt>A</dt><dd>\n<p>time in years.\n</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>The exogenous variables <code>D</code>, <code>F</code>, and <code>A</code> are based on\nreal data; the endogenous variables <code>P</code> and <code>Q</code> were generated\nby simulation.\n</p>\n<h3>Source</h3>\n<p>Kmenta, J. (1986)\n<em>Elements of Econometrics, Second Edition</em>, Macmillan.\n</p>\n</main>\n</div>\n"
+   "config" : {
+      "scatterPlotMatrix" : 1,
+      "graphType" : "Scatter2D",
+      "title" : "Partly Artificial Data on the U. S. Economy",
+      "subtitle" : "sem - Kmenta"
+   }
 }

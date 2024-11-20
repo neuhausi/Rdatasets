@@ -1,3 +1,22 @@
+var gdp_countriesInfo ={
+   "usage" : "gdp_countries",
+   "description" : "Description\nFrom World Bank, GDP in current U.S. dollars 1960-2020 by decade",
+   "title" : "GDP Countries Data.",
+   "format" : "A data frame with 659 rows and 9 variables.",
+   "reference" : "World Bank",
+   "parameters" : {
+      "year_2000" : "value in 2000",
+      "description" : "description of data: GDP (in current US$),\nGDP growth (annual %), GDP per capita (in current US$)",
+      "year_2010" : "value in 2010",
+      "year_1960" : "value in 1960",
+      "country" : "Name of country.",
+      "year_2020" : "value in 2020",
+      "year_1990" : "value in 1990",
+      "year_1980" : "value in 1980",
+      "year_1970" : "value in 1970"
+   }
+}
+
 var gdp_countries = [
    [
       "country",

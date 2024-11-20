@@ -1,3 +1,28 @@
+var SnowGRInfo ={
+   "description" : "Description\nOfficial snowfall data by month and season for Grand Rapids, MI, going back to 1893.",
+   "usage" : "data(SnowGR)",
+   "parameters" : {
+      "SeasonEnd" : "Year in which season ended (June is end of season)",
+      "Oct" : "Inches of snow in October",
+      "Apr" : "Inches of snow in April",
+      "Jun" : "Inches of snow in June",
+      "Sep" : "Inches of snow in September",
+      "May" : "Inches of snow in May",
+      "SeasonStart" : "Year in which season started (July is start of season)",
+      "Aug" : "Inches of snow in August",
+      "Feb" : "Inches of snow in February",
+      "Jul" : "Inches of snow in July",
+      "Jan" : "Inches of snow in January",
+      "Total" : "Inches of snow for entire season (July-June)",
+      "Dec" : "Inches of snow in December",
+      "Nov" : "Inches of snow in November",
+      "Mar" : "Inches of snow in March"
+   },
+   "reference" : "These data were compiled by Laura Kapitula from data available\nfrom NOAA. The original URL used\n(http://www.crh.noaa.gov/grr/climate/data/grr/snowfall/)\nis no longer in service.",
+   "format" : "A data frame with 119 observations of the following variables.",
+   "title" : "Snowfall data for Grand Rapids, MI"
+}
+
 var SnowGR = [
    [
       "SeasonStart",

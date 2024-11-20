@@ -1,3 +1,27 @@
+var ambientNOxCHInfo ={
+   "description" : "Description\nThis dataset contains daily means (from midnight to midnight) of NOx,\ni.e., mono-nitrogen oxides, in [ppb] at 13 sites in central\nSwitzerland and Aarau for the year 2004.",
+   "usage" : "data(ambientNOxCH, package=\"robustbase\")",
+   "parameters" : {
+      "su" : "Site is located in the center of Suhr (8700\ninhabitants), 10 m from the main road (648.49, 246.985; 403; inLuft).",
+      "ef" : "Site is located 6 km south of altdorf and 800 m\nnorth of the village of Erstfeld. The motorway A2 passes 5 m west\nof the measuring site. Over 8 million vehicles have passed\nErstfeld in 2004 where 13% of the counts were\nattributed to trucks (691.43, 187.69; 457; MFM-U).",
+      "re" : "Site is located 1 km west of Reiden on the Swiss\nplateau. The motorway A2 passes 5 m west of the measuring site\n(639.56, 232.11; 462; MFM-U).",
+      "sz" : "Site is located in Schwyz (14'200 inhabitants) near\na shopping center (691.92, 208.03; 470; inLuft).",
+      "zg" : "Site is located in the centre of Zug with 22'000\ninhabitants, 24 m from the main road (681.625, 224.625; 420;\ninLuft).",
+      "ba" : "Site is located in the centre of the little town of\nBaden in a residential area.  Baden has 34'000\ninhabitants and is situated on the swiss plateau (666.075,\n257.972; 377; inLuft).",
+      "lu" : "Site is located in the center of town of Lucerne,\nwhich has 57'000 inhabitants (666.19, 211.975; 460; inLuft).",
+      "si" : "Site is located at the border of a small industrial\narea in Sisseln, 300 m east of a main road (640.725, 266.25; 305;\ninLuft).",
+      "la" : "Site is located on a wooded hill in a rural area\ncalled Laegern, about 190 m above Baden, which is about 5 km away\n(669.8, 259; 690; NABEL).",
+      "ri" : "Site is located at Rigi Seebodenalp, 649 m above\nthe lake of Lucerne on an alp with half a dozen small houses\n(677.9, 213.5; 1030; NABEL).",
+      "st" : "Site is located at the south east border of Stans\nwith 7'000 inhabitants (670.85, 201.025; 438; inLuft).",
+      "ad" : "Site is located north of Altdorf 100 meters east of\nmotorway A2, on an open field at the beginning of a more than\n2000m deep valley (690.175, 193.55; 438; inLuft)",
+      "se" : "Site is located in Sedel next to town of Lucerne\n35m above and 250m south of motorway A14 from Zug to Lucerne on a\nlow hill with free 360Â° panorama (665.5, 213.41; 484; inLuft).",
+      "date" : "date of day, of class \"Date\"."
+   },
+   "format" : "A data frame with 366 observations on the following 14 variables.",
+   "title" : "Daily Means of NOx (mono-nitrogen oxides) in air",
+   "reference" : "The 13 sites are part of one of the three air quality monitoring networks:\ninLuft (regional authorities of central Switzerland and canton Aargau)\n\nNABEL (Swiss federal network)\n\nMFM-U (Monitoring flankierende Massnahmen Umwelt), special Swiss\nfederal network along transit motorways A2 and A13 from Germany to\nItaly through Switzerland\n\nThe information within the brackets means: Swiss\ncoordinates km east, km north; m above sea level; network"
+}
+
 var ambientNOxCH = [
    [
       "date",

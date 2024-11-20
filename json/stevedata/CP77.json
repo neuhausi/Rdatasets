@@ -1,11 +1,11 @@
 {
    "config" : {
-      "title" : "Education Expenditure Data (Chatterjee and Price",
-      "colorBy" : "region",
-      "shapeBy" : "state",
-      "graphType" : "Scatter2D",
       "scatterPlotMatrix" : 1,
-      "subtitle" : "stevedata - CP77"
+      "graphType" : "Scatter2D",
+      "shapeBy" : "state",
+      "colorBy" : "region",
+      "subtitle" : "stevedata - CP77",
+      "title" : "Education Expenditure Data (Chatterjee and Price"
    },
    "data" : {
       "z" : {
@@ -115,6 +115,12 @@
          ]
       },
       "y" : {
+         "smps" : [
+            "urbanpop",
+            "incpc",
+            "pop",
+            "edexppc"
+         ],
          "vars" : [
             "Var1",
             "Var2",
@@ -468,12 +474,6 @@
                331,
                323
             ]
-         ],
-         "smps" : [
-            "urbanpop",
-            "incpc",
-            "pop",
-            "edexppc"
          ]
       }
    },

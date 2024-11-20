@@ -1,3 +1,10 @@
+var wa_churnInfo ={
+   "format" : "wa_churn\n\na data frame",
+   "title" : "Watson churn data",
+   "usage" : "These data were downloaded from the IBM Watson site\n(see below) in September 2018. The data contain a factor for\nwhether a customer churned or not. Alternatively, the tenure\ncolumn presumably contains information on how long the customer\nhas had an account. A survival analysis can be done on this\ncolumn using the churn outcome as the censoring information. A\ndata dictionary can be found on the source website.",
+   "description" : "Description\nWatson churn data"
+}
+
 var wa_churn = [
    [
       "churn",

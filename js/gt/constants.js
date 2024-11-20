@@ -1,3 +1,18 @@
+var constantsInfo ={
+   "format" : "A tibble with 354 rows and 4 variables:",
+   "title" : "The fundamental physical constants",
+   "reference" : "Here is a glimpse at the data available in constants.",
+   "parameters" : {
+      "value" : "The value of the constant.",
+      "units" : "The units associated with the constant.",
+      "name" : "The name of the constant.",
+      "sf_value,sf_uncert" : "The number of significant figures associated with\nthe value and any uncertainty value.",
+      "uncert" : "The uncertainty associated with the value. If NA then the\nvalue is seen as an 'exact' value (e.g., an electron volt has the exact value\nof 1.602 176 634 e-19 J)."
+   },
+   "usage" : "constants",
+   "description" : "Description\nThis dataset contains values for over 300 basic fundamental constants in\nnature. The values originate from the 2018 adjustment which is based on the\nlatest relevant precision measurements and improvements of theoretical\ncalculations. Such work has been carried out under the authority of the\nTask Group on Fundamental Constants (TGFC) of the\nCommittee on Data of the International Science Council (CODATA). These\nupdated values became available on May 20, 2019. They are published at\nhttp://physics.nist.gov/constants, a website of the\nFundamental Constants Data Center of the\nNational Institute of Standards and Technology (NIST), Gaithersburg,\nMaryland, USA."
+}
+
 var constants = [
    [
       "name",

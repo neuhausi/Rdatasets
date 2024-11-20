@@ -1,3 +1,20 @@
+var challengesInfo ={
+   "usage" : "challenges",
+   "description" : "Description\nDetails about the three challenges (\"signature\", \"technical\", and\n\"showstopper\") for each baker/episode across all GBBO series. Who was\neliminated? Who won star baker? In the finale, who won and who was runner up?",
+   "title" : "Challenges",
+   "reference" : "See\nhttps://en.wikipedia.org/wiki/The_Great_British_Bake_Off#Format",
+   "format" : "A data frame with 1,136 rows representing individual bakers per episode\nand 7 variables:",
+   "parameters" : {
+      "baker" : "A character string with a given name or nickname.",
+      "episode" : "An integer denoting episode number within a series.",
+      "showstopper" : "A character string containing the bake for the\nshowstopper challenge for that baker/episode. If NA, the baker did not\nappear in episode.",
+      "result" : "A character string denoting if the baker was IN, OUT,\n&#8288;STAR BAKER&#8288;, or SICK for a given episode. For finale episodes, values\nare either WINNER or Runner-up. If NA, the baker did not appear in\nepisode.",
+      "technical" : "An integer denoting the rank on the technical challenge\nfor that baker/episode. A value of 1 means the baker was the winner of\nthe technical challenge. If NA, the baker did not appear in the\nepisode.",
+      "signature" : "A character string containing the bake for the signature\nchallenge for that baker/episode. If NA, the baker did not appear in\nepisode.",
+      "series" : "An integer denoting the UK series number (1-10)."
+   }
+}
+
 var challenges = [
    [
       "series",

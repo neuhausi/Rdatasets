@@ -1,3 +1,10 @@
+var x30o50Info ={
+   "description" : "Description\nx30o50, called &lsquo;'XX'&rsquo; in the thesis, has been a running\ncase for which mc() had failed to converge.\nA numeric vector of 50 values, 30 of which are very close to zero,\nspecifically, their absolute values are less than 1.5e-15.\nThe remaining 20 values (11 negative, 9 positive) have absolute values\nbetween 0.0022 and 1.66.",
+   "usage" : "data(x30o50, package=\"robustbase\")",
+   "format" : "A summary is",
+   "title" : "Extreme Data examples"
+}
+
 var x30o50 = [
    [
       "dat"

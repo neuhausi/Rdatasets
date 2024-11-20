@@ -1,3 +1,36 @@
+var gpa3Info ={
+   "title" : "gpa3",
+   "reference" : "pages 246-248, 273, 297-298, 478",
+   "format" : "A data.frame with 732 observations on 23 variables:",
+   "parameters" : {
+      "sat" : " SAT score",
+      "ccrspop" : " change in crspop",
+      "black" : " =1 if black",
+      "ctothrs" : " change in total hours",
+      "season" : " =1 if in season",
+      "id" : " student identifier",
+      "frstsem" : " =1 if student's 1st semester",
+      "football" : " =1 if football player",
+      "hssize" : " size h.s. grad. class",
+      "verbmath" : " verbal SAT to math SAT ratio",
+      "ccrsgpa" : " change in crsgpa",
+      "female" : " =1 if female",
+      "cseason" : " change in season",
+      "white" : " =1 if white",
+      "tothrs" : " total hours prior to term",
+      "ctrmgpa" : " change in trmgpa",
+      "term" : " fall = 1, spring = 2",
+      "hsrank" : " rank in h.s. class",
+      "trmgpa" : " term GPA",
+      "cumgpa" : " cumulative GPA",
+      "hsperc" : " percentile in h.s.",
+      "spring" : " =1 if spring term",
+      "crsgpa" : " weighted course GPA"
+   },
+   "usage" : "data('gpa3')",
+   "description" : "Description\nWooldridge Source: See GPA2.RAW Data loads lazily."
+}
+
 var gpa3 = [
    [
       "term",

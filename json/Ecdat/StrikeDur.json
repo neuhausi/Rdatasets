@@ -570,6 +570,10 @@
             "Var565",
             "Var566"
          ],
+         "smps" : [
+            "dur",
+            "gdp"
+         ],
          "data" : [
             [
                5,
@@ -2835,16 +2839,12 @@
                27,
                -3e-05
             ]
-         ],
-         "smps" : [
-            "dur",
-            "gdp"
          ]
       }
    },
    "config" : {
+      "graphType" : "Scatter2D",
       "title" : "Strikes Duration",
-      "subtitle" : "Ecdat - StrikeDur",
-      "graphType" : "Scatter2D"
+      "subtitle" : "Ecdat - StrikeDur"
    }
 }

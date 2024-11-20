@@ -1,4 +1,11 @@
 {
+   "config" : {
+      "scatterPlotMatrix" : 1,
+      "title" : "Air pollution data",
+      "graphType" : "Scatter2D",
+      "subtitle" : "texmex - summer"
+   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>summer and winter data</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Air pollution data, separately for summer and winter months</h2>\n<h3>Description</h3>\n<p>Air pollution data from Leeds (U.K.) city centre, collected from 1994 to\n1998. The <code>summer</code> data set corresponds to the months of April to July\ninclusive. The <code>winter</code> data set corresponds to the months of November\nto February inclusive. Some outliers have been removed, as discussed by\nHeffernan and Tawn, 2004.\n</p>\n<h3>Format</h3>\n<p>Data frames with 578 (summer) and 532 (winter) observations on the\nfollowing 5 variables.\n</p>\n<dl>\n<dt>O3</dt><dd><p>Daily maximum ozone in\nparts per billion.</p>\n</dd>\n<dt>NO2</dt><dd><p>Daily maximum NO2 in parts per\nbillion.</p>\n</dd>\n<dt>NO</dt><dd><p>Daily maximum NO in parts per billion.</p>\n</dd>\n<dt>SO2</dt><dd><p>Daily maximum SO2 in parts per billion.</p>\n</dd>\n<dt>PM10</dt><dd><p>Daily maximum PM10 in micrograms/metre^3</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>Provided as online supplementary material to Heffernan and Tawn,\n2004:\n</p>\n<p>http://www.blackwellpublishing.com/rss/Readmefiles/heffernan.htm\n</p>\n<h3>References</h3>\n<p>J. E. Heffernan and J. A. Tawn, A conditional approach for\nmultivariate extreme values, Journal of the Royal Statistical society B, 66,\n497 &ndash; 546, 2004\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>\ndata(summer)\ndata(winter)\n</code></pre>\n</main>\n</div>\n",
    "data" : {
       "y" : {
          "data" : [
@@ -4049,13 +4056,6 @@
                26
             ]
          ],
-         "smps" : [
-            "O3",
-            "NO2",
-            "NO",
-            "SO2",
-            "PM10"
-         ],
          "vars" : [
             "Var1",
             "Var2",
@@ -4635,14 +4635,14 @@
             "Var576",
             "Var577",
             "Var578"
+         ],
+         "smps" : [
+            "O3",
+            "NO2",
+            "NO",
+            "SO2",
+            "PM10"
          ]
       }
-   },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>summer and winter data</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Air pollution data, separately for summer and winter months</h2>\n<h3>Description</h3>\n<p>Air pollution data from Leeds (U.K.) city centre, collected from 1994 to\n1998. The <code>summer</code> data set corresponds to the months of April to July\ninclusive. The <code>winter</code> data set corresponds to the months of November\nto February inclusive. Some outliers have been removed, as discussed by\nHeffernan and Tawn, 2004.\n</p>\n<h3>Format</h3>\n<p>Data frames with 578 (summer) and 532 (winter) observations on the\nfollowing 5 variables.\n</p>\n<dl>\n<dt>O3</dt><dd><p>Daily maximum ozone in\nparts per billion.</p>\n</dd>\n<dt>NO2</dt><dd><p>Daily maximum NO2 in parts per\nbillion.</p>\n</dd>\n<dt>NO</dt><dd><p>Daily maximum NO in parts per billion.</p>\n</dd>\n<dt>SO2</dt><dd><p>Daily maximum SO2 in parts per billion.</p>\n</dd>\n<dt>PM10</dt><dd><p>Daily maximum PM10 in micrograms/metre^3</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>Provided as online supplementary material to Heffernan and Tawn,\n2004:\n</p>\n<p>http://www.blackwellpublishing.com/rss/Readmefiles/heffernan.htm\n</p>\n<h3>References</h3>\n<p>J. E. Heffernan and J. A. Tawn, A conditional approach for\nmultivariate extreme values, Journal of the Royal Statistical society B, 66,\n497 &ndash; 546, 2004\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>\ndata(summer)\ndata(winter)\n</code></pre>\n</main>\n</div>\n",
-   "config" : {
-      "title" : "Air pollution data",
-      "graphType" : "Scatter2D",
-      "scatterPlotMatrix" : 1,
-      "subtitle" : "texmex - summer"
    }
 }

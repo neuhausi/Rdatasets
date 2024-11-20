@@ -1,3 +1,10 @@
+var AbortionInfo ={
+   "title" : "Abortion Opinion Data",
+   "format" : "A 3-dimensional array resulting from cross-tabulating 3 variables for  1100 observations. The variable names and their levels are:",
+   "usage" : "data(Abortion)",
+   "description" : "Description\nOpinions about abortion classified by gender and SES"
+}
+
 var Abortion = [
    [
       "Sex",

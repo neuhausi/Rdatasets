@@ -1,3 +1,16 @@
+var decontaminantsInfo ={
+   "description" : "Description\nThe two decontaminants 1-hexadecylpyridium chloride and oxalic acid were used. Additionally there was a control group (coded as concentration 0 and only included under oxalic acid).",
+   "usage" : "data(\"decontaminants\")",
+   "parameters" : {
+      "group" : "a factor with levels hpc and oxalic of the decontaminants used",
+      "count" : "a numeric vector of numbers of M. bovis colonies at stationarity",
+      "conc" : "a numeric vector of percentage weight per volume"
+   },
+   "reference" : "These data examplify Wadley's problem: counts where the maximum number is not known. The data were analyzed by Trajstman (1989) using a three-parameter logistic model and then re-analyzed by Morgan and Smith (1992) using a three-parameter Weibull type II model. In both cases the authors adjusted for overdispersion (in different ways).",
+   "title" : "Performance of decontaminants used in the culturing of a micro-organism",
+   "format" : "A data frame with 128 observations on the following 3 variables."
+}
+
 var decontaminants = [
    [
       "conc",

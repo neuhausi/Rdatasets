@@ -1,3 +1,18 @@
+var OvaryCancerInfo ={
+   "usage" : "data(\"OvaryCancer\")",
+   "description" : "Description\nData from Obel (1975) about a retrospective study of ovary cancer\ncarried out in 1973.  Information was obtained from 299 women, who\nwere operated for ovary cancer 10 years before.",
+   "format" : "A data frame with 16 observations and 5 variables.",
+   "title" : "Ovary Cancer Data",
+   "reference" : "E. B. Andersen (1991),\nThe Statistical Analysis of Categorical Data, Table 6.4.",
+   "parameters" : {
+      "Freq" : "frequency.",
+      "operation" : "factor indicating type of operation (radical,\nlimited).",
+      "survival" : "factor indicating survival status after 10 years\n(yes, no).",
+      "xray" : "factor indicating whether X-ray treatment was received\n(yes, no).",
+      "stage" : "factor indicating the stage of the cancer at the\ntime of operation (early, advanced)."
+   }
+}
+
 var OvaryCancer = [
    [
       "Freq",

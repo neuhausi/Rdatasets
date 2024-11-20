@@ -1,15 +1,6 @@
 {
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>GrowthSW</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Determinants of Economic Growth</h2>\n<h3>Description</h3>\n<p>Data on average growth rates over 1960&ndash;1995 for 65 countries, along with\nvariables that are potentially related to growth.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(\"GrowthSW\")</code></pre>\n<h3>Format</h3>\n<p>A data frame containing 65 observations on 6 variables.\n</p>\n<dl>\n<dt>growth</dt><dd><p>average annual percentage growth of real GDP from 1960 to 1995.</p>\n</dd>\n<dt>rgdp60</dt><dd><p>value of GDP per capita in 1960, converted to 1960 US dollars.</p>\n</dd>\n<dt>tradeshare</dt><dd><p>average share of trade in the economy from 1960 to 1995, \nmeasured as the sum of exports (X) plus imports (M), divided by GDP;\nthat is, the average value of (X + M)/GDP from 1960 to 1995.</p>\n</dd>\n<dt>education</dt><dd><p>average number of years of schooling of adult residents in that country in 1960.</p>\n</dd>\n<dt>revolutions</dt><dd><p>average annual number of revolutions, \ninsurrections (successful or not) and coup d'etats in that country from 1960 to 1995.</p>\n</dd>\n<dt>assassinations</dt><dd><p>average annual number of political assassinations \nin that country from 1960 to 1995 (in per million population).</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>Online complements to Stock and Watson (2007). \n</p>\n<h3>References</h3>\n<p>Beck, T., Levine, R., and Loayza, N. (2000). Finance and the Sources of Growth.\n<em>Journal of Financial Economics</em>, <b>58</b>, 261&ndash;300.\n</p>\n<p>Stock, J. H. and Watson, M. W. (2007). <em>Introduction to Econometrics</em>, 2nd ed. Boston: Addison Wesley.\n</p>\n<h3>See Also</h3>\n<p><code>StockWatson2007</code>, <code>GrowthDJ</code>, <code>OECDGrowth</code></p>\n<h3>Examples</h3>\n<pre><code class='language-R'>data(\"GrowthSW\")\nsummary(GrowthSW)\n</code></pre>\n</main>\n</div>\n",
    "data" : {
       "y" : {
-         "vars" : [
-            "growth",
-            "rgdp60",
-            "tradeshare",
-            "education",
-            "revolutions",
-            "assassinations"
-         ],
          "smps" : [
             "India",
             "Argentina",
@@ -76,6 +67,14 @@
             "Belgium",
             "Mauritius",
             "Malta"
+         ],
+         "vars" : [
+            "growth",
+            "rgdp60",
+            "tradeshare",
+            "education",
+            "revolutions",
+            "assassinations"
          ],
          "data" : [
             [
@@ -483,12 +482,13 @@
          ]
       }
    },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>GrowthSW</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Determinants of Economic Growth</h2>\n<h3>Description</h3>\n<p>Data on average growth rates over 1960&ndash;1995 for 65 countries, along with\nvariables that are potentially related to growth.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(\"GrowthSW\")</code></pre>\n<h3>Format</h3>\n<p>A data frame containing 65 observations on 6 variables.\n</p>\n<dl>\n<dt>growth</dt><dd><p>average annual percentage growth of real GDP from 1960 to 1995.</p>\n</dd>\n<dt>rgdp60</dt><dd><p>value of GDP per capita in 1960, converted to 1960 US dollars.</p>\n</dd>\n<dt>tradeshare</dt><dd><p>average share of trade in the economy from 1960 to 1995, \nmeasured as the sum of exports (X) plus imports (M), divided by GDP;\nthat is, the average value of (X + M)/GDP from 1960 to 1995.</p>\n</dd>\n<dt>education</dt><dd><p>average number of years of schooling of adult residents in that country in 1960.</p>\n</dd>\n<dt>revolutions</dt><dd><p>average annual number of revolutions, \ninsurrections (successful or not) and coup d'etats in that country from 1960 to 1995.</p>\n</dd>\n<dt>assassinations</dt><dd><p>average annual number of political assassinations \nin that country from 1960 to 1995 (in per million population).</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>Online complements to Stock and Watson (2007). \n</p>\n<h3>References</h3>\n<p>Beck, T., Levine, R., and Loayza, N. (2000). Finance and the Sources of Growth.\n<em>Journal of Financial Economics</em>, <b>58</b>, 261&ndash;300.\n</p>\n<p>Stock, J. H. and Watson, M. W. (2007). <em>Introduction to Econometrics</em>, 2nd ed. Boston: Addison Wesley.\n</p>\n<h3>See Also</h3>\n<p><code>StockWatson2007</code>, <code>GrowthDJ</code>, <code>OECDGrowth</code></p>\n<h3>Examples</h3>\n<pre><code class='language-R'>data(\"GrowthSW\")\nsummary(GrowthSW)\n</code></pre>\n</main>\n</div>\n",
    "config" : {
-      "title" : "Determinants of Economic Growth",
+      "subtitle" : "AER - GrowthSW",
       "smpOverlays" : [
          null
       ],
       "graphType" : "Heatmap",
-      "subtitle" : "AER - GrowthSW"
+      "title" : "Determinants of Economic Growth"
    }
 }

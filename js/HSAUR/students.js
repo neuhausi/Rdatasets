@@ -1,3 +1,16 @@
+var studentsInfo ={
+   "description" : "Description\nStudents were administered two parallel forms of a test after a random\nassignment to three different treatments.",
+   "usage" : "data(\"students\")",
+   "parameters" : {
+      "high" : "the result of the second test.",
+      "treatment" : "a factor with levels AA, C, and\nNC.",
+      "low" : "the result of the first test."
+   },
+   "reference" : "The data arise from a large study of risk taking (Timm, 2002).\nStudents were randomly assigned to three different\ntreatments labelled AA, C and NC. Students were administered two   \nparallel forms of a test called low and high. The aim is to \ncarry out a test of the equality of the bivariate means of each treatment\npopulation.",
+   "title" : "Student Risk Taking",
+   "format" : "A data frame with 35 observations on the following 3 variables."
+}
+
 var students = [
    [
       "treatment",

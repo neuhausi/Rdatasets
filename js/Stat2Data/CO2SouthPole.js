@@ -1,3 +1,16 @@
+var CO2SouthPoleInfo ={
+   "usage" : "A data frame with 348 observations on the following 4 variables.",
+   "reference" : "Monthly average carbon dioxide readings (1988 - 2016) at the South Pole.  Data collected and disseminated by ERSL (Earth System Research Laboratory) of the U.S. NOAA (National Oceanic and Atmospheric Administration.",
+   "title" : "CO2 Readings at the South Pole",
+   "parameters" : {
+      "t" : "Time interval (t=1 to 348)",
+      "CO2" : "Atmospheric carbon dioxide level (ppm)",
+      "Year" : "Year (1988 - 2016)",
+      "Month" : "Month (1=Jan. to 12=Dec.)"
+   },
+   "description" : "Description\nMonthly carbon dioxide readings at the South Pole"
+}
+
 var CO2SouthPole = [
    [
       "Year",

@@ -1,12 +1,12 @@
 {
-   "config" : {
-      "title" : "Weight versus age of chicks on different diets",
-      "graphType" : "Scatter2D",
-      "scatterPlotMatrix" : 1,
-      "subtitle" : "datasets - ChickWeight"
-   },
    "data" : {
       "y" : {
+         "smps" : [
+            "weight",
+            "Time",
+            "Chick",
+            "Diet"
+         ],
          "vars" : [
             "Var1",
             "Var2",
@@ -4056,14 +4056,14 @@
                50,
                4
             ]
-         ],
-         "smps" : [
-            "weight",
-            "Time",
-            "Chick",
-            "Diet"
          ]
       }
    },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>ChickWeight</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Weight versus age of chicks on different diets</h2>\n<h3>Description</h3>\n<p>The <code>ChickWeight</code> data frame has 578 rows and 4 columns from an\nexperiment on the effect of diet on early growth of chicks.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>ChickWeight</code></pre>\n<h3>Format</h3>\n<p>An object of class\n<code>c(\"nfnGroupedData\", \"nfGroupedData\", \"groupedData\", \"data.frame\")</code>\ncontaining the following columns:\n</p>\n<dl>\n<dt>weight</dt><dd>\n<p>a numeric vector giving the body weight of the chick (gm).\n</p>\n</dd>\n<dt>Time</dt><dd>\n<p>a numeric vector giving the number of days since birth when\nthe measurement was made.\n</p>\n</dd>\n<dt>Chick</dt><dd>\n<p>an ordered factor with levels\n<code>18</code> &lt; ... &lt; <code>48</code>\ngiving a unique identifier for the chick.  The ordering of\nthe levels groups chicks on the same diet together and\norders them according to their final weight (lightest to\nheaviest) within diet.\n</p>\n</dd>\n<dt>Diet</dt><dd>\n<p>a factor with levels 1, ..., 4 indicating which\nexperimental diet the chick received.\n</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>The body weights of the chicks were measured at birth and every\nsecond day thereafter until day 20.  They were also measured on day\n21.  There were four groups on chicks on different protein diets.\n</p>\n<p>This dataset was originally part of package <code>nlme</code>, and that has\nmethods (including for <code>[</code>, <code>as.data.frame</code>, <code>plot</code> and\n<code>print</code>) for its grouped-data classes.\n</p>\n<h3>Source</h3>\n<p>Crowder, M. and Hand, D. (1990), <em>Analysis of Repeated Measures</em>,\nChapman and Hall (example 5.3)\n</p>\n<p>Hand, D. and Crowder, M. (1996), <em>Practical Longitudinal Data\nAnalysis</em>, Chapman and Hall (table A.2)\n</p>\n<p>Pinheiro, J. C. and Bates, D. M. (2000) <em>Mixed-effects Models in\nS and S-PLUS</em>, Springer.\n</p>\n<h3>See Also</h3>\n<p><code>SSlogis</code> for models fitted to this dataset.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>require(graphics)\ncoplot(weight ~ Time | Chick, data = ChickWeight,\n       type = \"b\", show.given = FALSE)\n</code></pre>\n</main>\n</div>\n"
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>ChickWeight</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Weight versus age of chicks on different diets</h2>\n<h3>Description</h3>\n<p>The <code>ChickWeight</code> data frame has 578 rows and 4 columns from an\nexperiment on the effect of diet on early growth of chicks.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>ChickWeight</code></pre>\n<h3>Format</h3>\n<p>An object of class\n<code>c(\"nfnGroupedData\", \"nfGroupedData\", \"groupedData\", \"data.frame\")</code>\ncontaining the following columns:\n</p>\n<dl>\n<dt>weight</dt><dd>\n<p>a numeric vector giving the body weight of the chick (gm).\n</p>\n</dd>\n<dt>Time</dt><dd>\n<p>a numeric vector giving the number of days since birth when\nthe measurement was made.\n</p>\n</dd>\n<dt>Chick</dt><dd>\n<p>an ordered factor with levels\n<code>18</code> &lt; ... &lt; <code>48</code>\ngiving a unique identifier for the chick.  The ordering of\nthe levels groups chicks on the same diet together and\norders them according to their final weight (lightest to\nheaviest) within diet.\n</p>\n</dd>\n<dt>Diet</dt><dd>\n<p>a factor with levels 1, ..., 4 indicating which\nexperimental diet the chick received.\n</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>The body weights of the chicks were measured at birth and every\nsecond day thereafter until day 20.  They were also measured on day\n21.  There were four groups on chicks on different protein diets.\n</p>\n<p>This dataset was originally part of package <code>nlme</code>, and that has\nmethods (including for <code>[</code>, <code>as.data.frame</code>, <code>plot</code> and\n<code>print</code>) for its grouped-data classes.\n</p>\n<h3>Source</h3>\n<p>Crowder, M. and Hand, D. (1990), <em>Analysis of Repeated Measures</em>,\nChapman and Hall (example 5.3)\n</p>\n<p>Hand, D. and Crowder, M. (1996), <em>Practical Longitudinal Data\nAnalysis</em>, Chapman and Hall (table A.2)\n</p>\n<p>Pinheiro, J. C. and Bates, D. M. (2000) <em>Mixed-effects Models in\nS and S-PLUS</em>, Springer.\n</p>\n<h3>See Also</h3>\n<p><code>SSlogis</code> for models fitted to this dataset.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>require(graphics)\ncoplot(weight ~ Time | Chick, data = ChickWeight,\n       type = \"b\", show.given = FALSE)\n</code></pre>\n</main>\n</div>\n",
+   "config" : {
+      "scatterPlotMatrix" : 1,
+      "graphType" : "Scatter2D",
+      "title" : "Weight versus age of chicks on different diets",
+      "subtitle" : "datasets - ChickWeight"
+   }
 }

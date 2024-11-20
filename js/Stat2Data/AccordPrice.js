@@ -1,3 +1,15 @@
+var AccordPriceInfo ={
+   "usage" : "A data frame with 30 observations on the following 3 variables.",
+   "title" : "Prices of Used Honda Accords (in 2017)",
+   "reference" : "Information on used Honda Accords obtained from cars.com.",
+   "parameters" : {
+      "Mileage" : "Mileage (in 1,000's of miles)",
+      "Age" : "Age of used Honda Accord car",
+      "Price" : "Price (in $1,000's)"
+   },
+   "description" : "Description\nAge, price, and mileage of used Honda Accords in 2017"
+}
+
 var AccordPrice = [
    [
       "Age",

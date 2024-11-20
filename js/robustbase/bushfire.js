@@ -1,3 +1,10 @@
+var bushfireInfo ={
+   "format" : "A data frame with 38 observations on 5 variables.",
+   "title" : "Campbell Bushfire Data",
+   "usage" : "data(bushfire, package=\"robustbase\")",
+   "description" : "Description\nThis data set was used by Campbell (1984) to locate bushfire scars.\nThe dataset contains satelite measurements on five frequency bands,\ncorresponding to each of 38 pixels."
+}
+
 var bushfire = [
    [
       "V1",

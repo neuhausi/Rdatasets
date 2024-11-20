@@ -1,3 +1,9 @@
+var CreditRiskInfo ={
+   "title" : "Overdrawn Checking Account?",
+   "usage" : "A data frame with 450 observations on the following 4 variables.",
+   "description" : "Description\nVariables that might be related to whether students overdraw a checking account."
+}
+
 var CreditRisk = [
    [
       "Age",

@@ -1,3 +1,18 @@
+var JointSportsInfo ={
+   "format" : "A data frame with 40 observations and 5 variables.",
+   "title" : "Opinions About Joint Sports",
+   "reference" : "E. B. Andersen (1991),\nThe Statistical Analysis of Categorical Data, page 210.",
+   "parameters" : {
+      "year" : "factor indicating year of study (1983, 1985).",
+      "opinion" : "factor indicating opinion about sports joint with the\nother gender (very good, good, indifferent, bad, very bad).",
+      "Freq" : "frequency.",
+      "gender" : "factor indicating gender (Boy, Girl).",
+      "grade" : "factor indicating school grade (1st, 3rd)."
+   },
+   "usage" : "data(\"JointSports\")",
+   "description" : "Description\nData from a Danish study in 1983 and 1985 about sports activities and\nthe opinion about joint sports with the other gender among 16&ndash;19 year\nold high school students."
+}
+
 var JointSports = [
    [
       "Freq",

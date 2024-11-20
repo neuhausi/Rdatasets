@@ -1,3 +1,10 @@
+var Harman74.corInfo ={
+   "description" : "Description\nA correlation matrix of 24 psychological tests given to 145 seventh and\neight-grade children in a Chicago suburb by Holzinger and Swineford.",
+   "usage" : "Harman74.cor",
+   "title" : "Harman Example 7.4",
+   "format" : "Harman, H. H. (1976)\nModern Factor Analysis, Third Edition Revised,\nUniversity of Chicago Press, Table 7.4."
+}
+
 var Harman74.cor = [
    [
       "cov.VisualPerception",

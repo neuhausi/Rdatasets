@@ -1,3 +1,15 @@
+var brcaInfo ={
+   "format" : "An object of class list.",
+   "title" : "Breast Cancer Wisconsin Diagnostic Dataset from UCI Machine Learning Repository",
+   "reference" : "UCI Machine Learning Repository",
+   "parameters" : {
+      "x. The predictors. A matrix with the mean, standard error and worst value of each of 10 nuclear measurements on the slide, for 30 total features per biopsy" : "\n\n\n\n radius. Nucleus radius (mean of distances from center to points on perimeter).\n\n\n texture. Nucleus texture (standard deviation of grayscale values).\n\n\n perimeter. Nucleus perimeter.\n\n\n area. Nucleus area.\n\n\n smoothness. Nucleus smoothness (local variation in radius lengths).\n\n\n compactness. Nucleus compactness (perimeter^2/area - 1).\n\n\n concavity, Nucleus concavity (severity of concave portions of the contour).\n\n\n concave_pts. Number of concave portions of the nucleus contour.\n\n\n symmetry. Nucleus symmetry.\n\n\n fractal_dim. Nucleus fractal dimension (\"coastline approximation\" -1).",
+      "y. The outcomes. A factor with two levels denoting whether a mass is malignant (\"M\") or benign (\"B\")." : null
+   },
+   "usage" : "brca",
+   "description" : "Description\nBiopsy features for classification of 569 malignant (cancer) and benign (not cancer) breast masses."
+}
+
 var brca = [
    [
       "x.radius_mean",

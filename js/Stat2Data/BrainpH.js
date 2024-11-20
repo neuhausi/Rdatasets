@@ -1,3 +1,17 @@
+var BrainpHInfo ={
+   "description" : "Description\nBrain tissue pH at time of death",
+   "parameters" : {
+      "Sex" : "F or M",
+      "Age" : "Age at death",
+      "DeathType" : "Cause of death (Cardiac, Other, or Suicide)",
+      "Ethnicity" : "AfricanAmerican, Asian, Caucasian, or PacificIslander",
+      "pH" : "Brain tissue pH"
+   },
+   "title" : "Brain pH Measurements",
+   "reference" : "These are data from a PNAS article (supplemental file) on pH in brain tissue samples for controls and for people who had Major Depressive Disorder. We extracted just the controls (roughly 3/4 of whom died of cardiac arrest).",
+   "usage" : "A data frame with 54 observations on the following 5 variables."
+}
+
 var BrainpH = [
    [
       "pH",

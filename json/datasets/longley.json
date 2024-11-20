@@ -1,16 +1,11 @@
 {
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>longley</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Longley's Economic Regression Data</h2>\n<h3>Description</h3>\n<p>A macroeconomic data set which provides a well-known example for a\nhighly collinear regression.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>longley</code></pre>\n<h3>Format</h3>\n<p>A data frame with 7 economical variables, observed yearly from 1947 to\n1962 (<code class=\"reqn\">n=16</code>).\n</p>\n<dl>\n<dt><code>GNP.deflator</code></dt><dd><p>GNP implicit price deflator (<code class=\"reqn\">1954=100</code>)</p>\n</dd>\n<dt><code>GNP</code></dt><dd><p>Gross National Product.</p>\n</dd>\n<dt><code>Unemployed</code></dt><dd><p>number of unemployed.</p>\n</dd>\n<dt><code>Armed.Forces</code></dt><dd><p>number of people in the armed forces.</p>\n</dd>\n<dt><code>Population</code></dt><dd><p>&lsquo;noninstitutionalized&rsquo; population\n<code class=\"reqn\">\\ge</code> 14 years of age.</p>\n</dd>\n<dt><code>Year</code></dt><dd><p>the year (time).</p>\n</dd>\n<dt><code>Employed</code></dt><dd><p>number of people employed.</p>\n</dd>\n</dl>\n<p>The regression <code>lm(Employed ~ .)</code> is known to be highly\ncollinear.\n</p>\n<h3>Source</h3>\n<p>J. W. Longley (1967)\nAn appraisal of least-squares programs from the point of view of the\nuser.\n<em>Journal of the American Statistical Association</em> <b>62</b>,\n819&ndash;841.\n</p>\n<h3>References</h3>\n<p>Becker, R. A., Chambers, J. M. and Wilks, A. R. (1988)\n<em>The New S Language</em>.\nWadsworth &amp; Brooks/Cole.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>require(stats); require(graphics)\n## give the data set in the form it was used in S-PLUS:\nlongley.x &lt;- data.matrix(longley[, 1:6])\nlongley.y &lt;- longley[, \"Employed\"]\npairs(longley, main = \"longley data\")\nsummary(fm1 &lt;- lm(Employed ~ ., data = longley))\nopar &lt;- par(mfrow = c(2, 2), oma = c(0, 0, 1.1, 0),\n            mar = c(4.1, 4.1, 2.1, 1.1))\nplot(fm1)\npar(opar)\n</code></pre>\n</main>\n</div>\n",
+   "config" : {
+      "subtitle" : "datasets - longley",
+      "graphType" : "Heatmap",
+      "title" : "Longley's Economic Regression Data"
+   },
    "data" : {
       "y" : {
-         "vars" : [
-            "GNP.deflator",
-            "GNP",
-            "Unemployed",
-            "Armed.Forces",
-            "Population",
-            "Year",
-            "Employed"
-         ],
          "data" : [
             [
                83,
@@ -156,12 +151,17 @@
             "1960",
             "1961",
             "1962"
+         ],
+         "vars" : [
+            "GNP.deflator",
+            "GNP",
+            "Unemployed",
+            "Armed.Forces",
+            "Population",
+            "Year",
+            "Employed"
          ]
       }
    },
-   "config" : {
-      "graphType" : "Heatmap",
-      "subtitle" : "datasets - longley",
-      "title" : "Longley's Economic Regression Data"
-   }
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>longley</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Longley's Economic Regression Data</h2>\n<h3>Description</h3>\n<p>A macroeconomic data set which provides a well-known example for a\nhighly collinear regression.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>longley</code></pre>\n<h3>Format</h3>\n<p>A data frame with 7 economical variables, observed yearly from 1947 to\n1962 (<code class=\"reqn\">n=16</code>).\n</p>\n<dl>\n<dt><code>GNP.deflator</code></dt><dd><p>GNP implicit price deflator (<code class=\"reqn\">1954=100</code>)</p>\n</dd>\n<dt><code>GNP</code></dt><dd><p>Gross National Product.</p>\n</dd>\n<dt><code>Unemployed</code></dt><dd><p>number of unemployed.</p>\n</dd>\n<dt><code>Armed.Forces</code></dt><dd><p>number of people in the armed forces.</p>\n</dd>\n<dt><code>Population</code></dt><dd><p>&lsquo;noninstitutionalized&rsquo; population\n<code class=\"reqn\">\\ge</code> 14 years of age.</p>\n</dd>\n<dt><code>Year</code></dt><dd><p>the year (time).</p>\n</dd>\n<dt><code>Employed</code></dt><dd><p>number of people employed.</p>\n</dd>\n</dl>\n<p>The regression <code>lm(Employed ~ .)</code> is known to be highly\ncollinear.\n</p>\n<h3>Source</h3>\n<p>J. W. Longley (1967)\nAn appraisal of least-squares programs from the point of view of the\nuser.\n<em>Journal of the American Statistical Association</em> <b>62</b>,\n819&ndash;841.\n</p>\n<h3>References</h3>\n<p>Becker, R. A., Chambers, J. M. and Wilks, A. R. (1988)\n<em>The New S Language</em>.\nWadsworth &amp; Brooks/Cole.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>require(stats); require(graphics)\n## give the data set in the form it was used in S-PLUS:\nlongley.x &lt;- data.matrix(longley[, 1:6])\nlongley.y &lt;- longley[, \"Employed\"]\npairs(longley, main = \"longley data\")\nsummary(fm1 &lt;- lm(Employed ~ ., data = longley))\nopar &lt;- par(mfrow = c(2, 2), oma = c(0, 0, 1.1, 0),\n            mar = c(4.1, 4.1, 2.1, 1.1))\nplot(fm1)\npar(opar)\n</code></pre>\n</main>\n</div>\n"
 }

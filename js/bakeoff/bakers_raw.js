@@ -1,3 +1,21 @@
+var bakers_rawInfo ={
+   "description" : "Description\nInformation about each baker who has appeared on the show.",
+   "usage" : "bakers_raw",
+   "parameters" : {
+      "baker_full" : "A character string giving full name.",
+      "hometown" : "A character string giving hometown.",
+      "baker_last" : "A character string giving family name.",
+      "baker" : "A character string with a given name or nickname.",
+      "series" : "A factor denoting UK series (1-10).",
+      "age" : "An integer denoting age in years at first episode appeared.",
+      "occupation" : "A character string giving occupation.",
+      "baker_first" : "A character string giving given name."
+   },
+   "title" : "Bakers (raw)",
+   "format" : "A data frame with 120 rows representing individual bakers and 8\nvariables:",
+   "reference" : "See\nhttps://en.wikipedia.org/wiki/The_Great_British_Bake_Off_(series_1)#The_Bakers,\nfor example, for series 1 bakers."
+}
+
 var bakers_raw = [
    [
       "series",

@@ -1,3 +1,15 @@
+var edcCO2Info ={
+   "title" : "EPICA Dome C Ice Core 800KYr Carbon Dioxide Data",
+   "reference" : "Data are a composite series.",
+   "format" : "A data frame with 1096 observations on the following 2 variables.",
+   "parameters" : {
+      "co2" : "CO2 level (ppmv)",
+      "age" : "Age in years before present (BP)"
+   },
+   "usage" : "data(edcCO2)",
+   "description" : "Description\nCarbon dioxide record from the EPICA (European Project for Ice Coring \nin Antarctica) Dome C ice core covering 0 to 800 kyr BP."
+}
+
 var edcCO2 = [
    [
       "age",

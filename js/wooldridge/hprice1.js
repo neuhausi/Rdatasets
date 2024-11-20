@@ -1,3 +1,23 @@
+var hprice1Info ={
+   "parameters" : {
+      "lassess" : " log(assess",
+      "bdrms" : " number of bdrms",
+      "assess" : " assessed value, $1000s",
+      "price" : " house price, $1000s",
+      "lotsize" : " size of lot in square feet",
+      "lsqrft" : " log(sqrft)",
+      "sqrft" : " size of house in square feet",
+      "lprice" : " log(price)",
+      "colonial" : " =1 if home is colonial style",
+      "llotsize" : " log(lotsize)"
+   },
+   "format" : "A data.frame with 88 observations on 10 variables:",
+   "title" : "hprice1",
+   "reference" : "Typically, it is very easy to obtain data on selling prices and characteristics of homes, using publicly available data bases. It is interesting to match the information on houses with other information â such as local crime rates, quality of the local schools, pollution levels, and so on â and estimate the effects of such variables on housing prices.",
+   "description" : "Description\nWooldridge Source: Collected from the real estate pages of the Boston Globe during 1990. These are homes that sold in the Boston, MA area. Data loads lazily.",
+   "usage" : "data('hprice1')"
+}
+
 var hprice1 = [
    [
       "price",

@@ -1,3 +1,18 @@
+var CapmInfo ={
+   "format" : "A time series containing :",
+   "reference" : "most of the above data are from Kenneth French's data library\nat http://mba.tuck.dartmouth.edu/pages/faculty/ken.french/data_library.html.",
+   "title" : "Stock Market Data",
+   "parameters" : {
+      "rcon" : "excess returns construction industry",
+      "rmrf" : "excess returns market portfolio",
+      "rf" : "risk-free return",
+      "rdur" : "excess returns durables industry",
+      "rfood" : "excess returns food industry"
+   },
+   "usage" : "data(Capm)",
+   "description" : "Description\nmonthly observations from 1960&ndash;01 to 2002&ndash;12\nnumber of observations :  516"
+}
+
 var Capm = [
    [
       "rfood",

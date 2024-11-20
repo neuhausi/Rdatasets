@@ -1,3 +1,18 @@
+var cu.summaryInfo ={
+   "parameters" : {
+      "Mileage" : "fuel consumption miles per US gallon, as tested.",
+      "Country" : "of origin, a factor with levels\n&lsquo;&#8288;Brazil&#8288;&rsquo;,\n&lsquo;&#8288;England&#8288;&rsquo;,\n&lsquo;&#8288;France&#8288;&rsquo;,\n&lsquo;&#8288;Germany&#8288;&rsquo;,\n&lsquo;&#8288;Japan&#8288;&rsquo;,\n&lsquo;&#8288;Japan/USA&#8288;&rsquo;,\n&lsquo;&#8288;Korea&#8288;&rsquo;,\n&lsquo;&#8288;Mexico&#8288;&rsquo;,\n&lsquo;&#8288;Sweden&#8288;&rsquo; and\n&lsquo;&#8288;USA&#8288;&rsquo;",
+      "Price" : "a numeric vector giving the list price in US dollars of a standard model",
+      "Reliability" : "an ordered factor with levels\n&lsquo;&#8288;Much worse&#8288;&rsquo; < &lsquo;&#8288;worse&#8288;&rsquo; < &lsquo;&#8288;average&#8288;&rsquo; < &lsquo;&#8288;better&#8288;&rsquo; < &lsquo;&#8288;Much better&#8288;&rsquo;",
+      "Type" : "a factor with levels\nCompact\nLarge\nMedium\nSmall\nSporty\nVan"
+   },
+   "format" : "This data frame contains the following columns:",
+   "title" : "Automobile Data from 'Consumer Reports' 1990",
+   "reference" : "Consumer Reports, April, 1990, pp. 235&ndash;288 quoted in",
+   "description" : "Description\nThe cu.summary data frame has 117 rows and 5 columns,\ngiving data on makes of cars taken from the April, 1990 issue of\nConsumer Reports.",
+   "usage" : "cu.summary"
+}
+
 var cu.summary = [
    [
       "Price",

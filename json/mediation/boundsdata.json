@@ -1,15 +1,12 @@
 {
+   "config" : {
+      "subtitle" : "mediation - boundsdata",
+      "title" : "Example Data for the Design Functions",
+      "graphType" : "Heatmap"
+   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>boundsdata</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Example Data for the Design Functions</h2>\n<h3>Description</h3>\n<p>A random subsample of the simulated data used in Imai, Tingley, and\nYamamoto (2012). The data contains 1000 rows and 7 columns with no missing \nvalues.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>boundsdata\n</code></pre>\n<h3>Format</h3>\n<p>A data frame containing the following variables, which are \ninterpreted as results from a hypothetical randomized trial. See the source \nfor a full description.\n</p>\n<dl>\n<dt>out:</dt><dd><p> The binary outcome variable under the parallel design.</p>\n</dd>\n<dt>out.enc:</dt><dd><p> The binary outcome variable under the parallel \nencouragement design.</p>\n</dd>\n<dt>med:</dt><dd><p> The binary mediator under the parallel design.</p>\n</dd>\n<dt>med.enc:</dt><dd><p> The binary mediator under the parallel encouragement \ndesign.</p>\n</dd>\n<dt>ttt:</dt><dd><p> The binary treatment variable.</p>\n</dd>\n<dt>manip:</dt><dd><p> The design indicator, or the variable indicating whether the \nmediator is manipulated under the parallel design.</p>\n</dd>\n<dt>enc:</dt><dd><p> The trichotomous encouragement variable under the parallel \nencouragement design. Equals 0 if subject received no encouragement; 1 if \nencouraged for the mediator value of 1; and -1 if encouraged for the \nmediator value of 0.</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>Conditioning on 'manip' = 0 will simulate a randomized trial under \nthe single experiment design, where 'out' and 'med' equal observed outcome \nand mediator values, respectively.\n</p>\n<p>Unconditionally, using 'out', 'med', 'ttt' and 'manip' will simulate an \nexperiment under the parallel design.\n</p>\n<p>The 'out.enc' and 'med.enc' variables represent the outcome and mediator \nvalues observed when subjects received the encouragement indicated in \n'enc'. Therefore, using 'out.enc', 'med.enc', 'ttt' and 'enc' will simulate \nan experiment under the parallel encouragement design.\n</p>\n<p>Note that all the observed responses are generated from an underlying \ndistribution of potential outcomes and mediators (not shown in this \ndataset) satisfying the assumptions described in Imai, Tingley and \nYamamoto (2012). The full simulation code is available as a companion \nreplication archive for the article.\n</p>\n<h3>Source</h3>\n<p>Imai, K., Tingley, D. and Yamamoto, T. (2012) Experimental Designs \nfor Identifying Causal Mechanisms. Journal of the Royal Statistical \nSociety, Series A (Statistics in Society).\n</p>\n</main>\n</div>\n",
    "data" : {
       "y" : {
-         "vars" : [
-            "out",
-            "out.enc",
-            "med",
-            "med.enc",
-            "ttt",
-            "manip",
-            "enc"
-         ],
          "data" : [
             [
                1,
@@ -8027,13 +8024,16 @@
             "Smp998",
             "Smp999",
             "Smp1000"
+         ],
+         "vars" : [
+            "out",
+            "out.enc",
+            "med",
+            "med.enc",
+            "ttt",
+            "manip",
+            "enc"
          ]
       }
-   },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>boundsdata</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Example Data for the Design Functions</h2>\n<h3>Description</h3>\n<p>A random subsample of the simulated data used in Imai, Tingley, and\nYamamoto (2012). The data contains 1000 rows and 7 columns with no missing \nvalues.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>boundsdata\n</code></pre>\n<h3>Format</h3>\n<p>A data frame containing the following variables, which are \ninterpreted as results from a hypothetical randomized trial. See the source \nfor a full description.\n</p>\n<dl>\n<dt>out:</dt><dd><p> The binary outcome variable under the parallel design.</p>\n</dd>\n<dt>out.enc:</dt><dd><p> The binary outcome variable under the parallel \nencouragement design.</p>\n</dd>\n<dt>med:</dt><dd><p> The binary mediator under the parallel design.</p>\n</dd>\n<dt>med.enc:</dt><dd><p> The binary mediator under the parallel encouragement \ndesign.</p>\n</dd>\n<dt>ttt:</dt><dd><p> The binary treatment variable.</p>\n</dd>\n<dt>manip:</dt><dd><p> The design indicator, or the variable indicating whether the \nmediator is manipulated under the parallel design.</p>\n</dd>\n<dt>enc:</dt><dd><p> The trichotomous encouragement variable under the parallel \nencouragement design. Equals 0 if subject received no encouragement; 1 if \nencouraged for the mediator value of 1; and -1 if encouraged for the \nmediator value of 0.</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>Conditioning on 'manip' = 0 will simulate a randomized trial under \nthe single experiment design, where 'out' and 'med' equal observed outcome \nand mediator values, respectively.\n</p>\n<p>Unconditionally, using 'out', 'med', 'ttt' and 'manip' will simulate an \nexperiment under the parallel design.\n</p>\n<p>The 'out.enc' and 'med.enc' variables represent the outcome and mediator \nvalues observed when subjects received the encouragement indicated in \n'enc'. Therefore, using 'out.enc', 'med.enc', 'ttt' and 'enc' will simulate \nan experiment under the parallel encouragement design.\n</p>\n<p>Note that all the observed responses are generated from an underlying \ndistribution of potential outcomes and mediators (not shown in this \ndataset) satisfying the assumptions described in Imai, Tingley and \nYamamoto (2012). The full simulation code is available as a companion \nreplication archive for the article.\n</p>\n<h3>Source</h3>\n<p>Imai, K., Tingley, D. and Yamamoto, T. (2012) Experimental Designs \nfor Identifying Causal Mechanisms. Journal of the Royal Statistical \nSociety, Series A (Statistics in Society).\n</p>\n</main>\n</div>\n",
-   "config" : {
-      "subtitle" : "mediation - boundsdata",
-      "graphType" : "Heatmap",
-      "title" : "Example Data for the Design Functions"
    }
 }

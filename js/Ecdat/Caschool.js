@@ -1,3 +1,30 @@
+var CaschoolInfo ={
+   "parameters" : {
+      "expnstu" : "expenditure per student",
+      "str" : "student teacher ratio",
+      "district" : "district",
+      "elpct" : "percent of English learners",
+      "teachers" : "number of teachers",
+      "computer" : "number of computers",
+      "compstu" : "computer per student",
+      "mealpct" : "percent qualifying for reduced-price lunch",
+      "avginc" : "district average income",
+      "readscr" : "average reading score",
+      "mathscr" : "average math score",
+      "enrltot" : "total enrollment",
+      "calwpct" : "percent qualifying for CalWORKS",
+      "grspan" : "grade span of district",
+      "distcod" : "district code",
+      "testscr" : "average test score \n(read.scr+math.scr)/2",
+      "county" : "county"
+   },
+   "format" : "A dataframe containing :",
+   "title" : "The California Test Score Data Set",
+   "reference" : "California Department of Education https://www.cde.ca.gov.",
+   "description" : "Description\na cross-section from 1998-1999\nnumber of observations :  420\nobservation :  schools\ncountry :  United States",
+   "usage" : "data(Caschool)"
+}
+
 var Caschool = [
    [
       "distcod",

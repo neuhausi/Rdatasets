@@ -1,3 +1,19 @@
+var gapminderInfo ={
+   "parameters" : {
+      "lifeExp" : "Life expectancy at birth, in years",
+      "country" : "The country",
+      "gdpPercap" : "GDP per capita (US$, inflation-adjusted)",
+      "continent" : "The continent the country is in",
+      "year" : "The year data was collected. Ranges from 1952 to 2007 in increments of 5 years",
+      "pop" : "Population"
+   },
+   "reference" : "This data set is the same one found in the gapminder package in R as of 2020. This data set is used in the Fixed Effects chapter of The Effect.",
+   "title" : "Gapminder data",
+   "format" : "A data frame with 1704 rows and 6 variables",
+   "description" : "Description\nThe gapminder data contains data on life expectancy and GDP per capita by country and year.",
+   "usage" : "gapminder"
+}
+
 var gapminder = [
    [
       "country",

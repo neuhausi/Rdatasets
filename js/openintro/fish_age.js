@@ -1,3 +1,16 @@
+var fish_ageInfo ={
+   "description" : "Description\nSamples of 50 Tobis fish, or Sand Eels, were collected at three different locations in the North Sea and the number of one-year-old fish were counted.",
+   "usage" : "fish_age",
+   "parameters" : {
+      "year" : "Year the fish was caught with levels 1997 and 1998.",
+      "location" : "Site the fish was caught with levels A, B and C.",
+      "one_year_old" : "Is the fish one-year-old, yes or no?"
+   },
+   "title" : "Young fish in the North Sea.",
+   "reference" : "Henrik Madsen, Paul Thyregod.\n2011.\nIntroduction to General and Generalized Linear Models\nCRC Press.\nBoca Raton, FL.\nISBN: 978-1-4200-9155-7\nWebsite",
+   "format" : "A data frame with 300 rows and 3 variables:"
+}
+
 var fish_age = [
    [
       "year",

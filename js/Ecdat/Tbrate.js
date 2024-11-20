@@ -1,3 +1,16 @@
+var TbrateInfo ={
+   "usage" : "data(Tbrate)",
+   "description" : "Description\nquarterly observations from 1950-1 to 1996-4\nnumber of observations :  188\nobservation :  country\ncountry :  Canada",
+   "format" : "A time series containing :",
+   "title" : "Interest Rate, GDP and Inflation",
+   "reference" : "CANSIM database of Statistics Canada.",
+   "parameters" : {
+      "pi" : "the inflation rate",
+      "y" : "the log of real GDP",
+      "r" : "the 91-day treasury bill rate"
+   }
+}
+
 var Tbrate = [
    [
       "r",

@@ -1,3 +1,10 @@
+var AirPassengersInfo ={
+   "description" : "Description\nThe classic Box & Jenkins airline data.  Monthly totals of\ninternational airline passengers, 1949 to 1960.",
+   "usage" : "AirPassengers",
+   "format" : "A monthly time series, in thousands.",
+   "title" : "Monthly Airline Passenger Numbers 1949-1960"
+}
+
 var AirPassengers = [
    [
       "time",

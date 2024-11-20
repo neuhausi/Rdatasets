@@ -1,3 +1,23 @@
+var ExamInfo ={
+   "description" : "Description\nExam scores of 4,059 students from 65 schools in Inner London.",
+   "usage" : "data(Exam)",
+   "parameters" : {
+      "school" : "School ID - a factor.",
+      "type" : "School type - levels are Mxd and Sngl.",
+      "student" : "Student id (within school) - a factor",
+      "normexam" : "Normalized exam score.",
+      "sex" : "Sex of the student - levels are F and M.",
+      "schavg" : "School average of intake score.",
+      "schgend" : "School gender - a factor.  Levels are mixed,\nboys, and girls.",
+      "vr" : "Student level Verbal Reasoning (VR) score band at intake -\na factor.  Levels are bottom 25%, mid 50%, and\ntop 25%.",
+      "intake" : "Band of student's intake score - a factor.\nLevels are bottom 25%, mid 50% and top\n\t25%./",
+      "standLRT" : "Standardised LR test score."
+   },
+   "title" : "Exam scores from inner London",
+   "reference" : "http://www.bristol.ac.uk/cmm/learning/mmsoftware/data-rev.html",
+   "format" : "A data frame with 4059 observations on the following 9 variables."
+}
+
 var Exam = [
    [
       "school",

@@ -1,3 +1,27 @@
+var HMDAInfo ={
+   "format" : "A data frame containing 2,380 observations on 14 variables.",
+   "reference" : "Only includes variables used by Stock and Watson (2007), \nsome of which had to be generated from the raw data.",
+   "title" : "Home Mortgage Disclosure Act Data",
+   "parameters" : {
+      "mhist" : "Factor. Credit history: mortgage payments.",
+      "pirat" : "Payments to income ratio.",
+      "lvrat" : "Loan to value ratio.",
+      "phist" : "Factor. Public bad credit record?",
+      "selfemp" : "Factor. Is the individual self-employed?",
+      "single" : "Factor. Is the individual single?",
+      "afam" : "Factor. Is the individual African-American?",
+      "hschool" : "Factor. Does the individual have a high-school diploma?",
+      "deny" : "Factor. Was the mortgage denied?",
+      "hirat" : "Housing expense to income ratio.",
+      "unemp" : "1989 Massachusetts unemployment rate in applicant's industry.",
+      "chist" : "Factor. Credit history: consumer payments.",
+      "insurance" : "Factor. Was the individual denied mortgage insurance?",
+      "condomin" : "Factor. Is the unit a condominium?"
+   },
+   "usage" : "data(\"HMDA\")",
+   "description" : "Description\nCross-section data on the Home Mortgage Disclosure Act (HMDA)."
+}
+
 var HMDA = [
    [
       "deny",

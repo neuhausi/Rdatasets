@@ -1,3 +1,15 @@
+var kidneyInfo ={
+   "reference" : "Klein and Moeschberger (1997) Survival Analysis Techniques for Censored\nand truncated data, Springer.\nNahman el at. J. Am Soc. Nephrology 3 (1992): 103-107.",
+   "title" : "data from Section 1.4",
+   "usage" : "This data frame contains the following columns:",
+   "parameters" : {
+      "delta" : "Infection indicator (0=no, 1=yes)",
+      "type" : "Catheter placement (1=surgically, 2=percutaneously)",
+      "time" : "Time to infection, months"
+   },
+   "description" : "Description\nThe kidney data frame has 119 rows and 3 columns."
+}
+
 var kidney = [
    [
       "time",

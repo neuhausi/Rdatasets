@@ -1,3 +1,25 @@
+var PricingInfo ={
+   "title" : "Returns of Size-based Portfolios",
+   "reference" : "Center for research in security prices.",
+   "format" : "A time series containing :",
+   "parameters" : {
+      "r2" : "monthly return on portfolio 2",
+      "r1" : "monthly return on portfolio 1 (small firms)",
+      "r4" : "monthly return on portfolio 4",
+      "r8" : "monthly return on portfolio 8",
+      "cons" : "real per capita consumption growth based on total US personal consumption expenditures (nondurables and services)",
+      "r10" : "monthly return on portfolio 10 (large firms)",
+      "r9" : "monthly return on portfolio 9",
+      "r6" : "monthly return on portfolio 6",
+      "r5" : "monthly return on portfolio 5",
+      "r7" : "monthly return on portfolio 7",
+      "r3" : "monthly return on portfolio 3",
+      "rf" : "risk free rate (return on 3-month T-bill)"
+   },
+   "usage" : "data(Pricing)",
+   "description" : "Description\nmonthly observations from 1959&ndash;02 to 1993&ndash;11\nnumber of observations :  418"
+}
+
 var Pricing = [
    [
       "r1",

@@ -1,3 +1,20 @@
+var USFinanceIndustryInfo ={
+   "parameters" : {
+      "restOfWorld" : "Profits of the \"Rest of the world\" in their contribution to US\nGross Domestic Product in billions",
+      "FinanceProportion" : "= Financial/Domestic",
+      "CorporateProfitsAdj" : "Corporate profits with inventory valuation and capital\nconsumption adjustments in billions of current (not adjusted for\ninflation) US dollars",
+      "Nonfinancial" : "Nonfinancial industries profits in billions",
+      "Domestic" : "Domestic industries profits in billions",
+      "year" : "integer year starting with 1929",
+      "Financial" : "Financial industries profits in billions"
+   },
+   "reference" : "This is extracted from Table 6.16 of the \nNational Income and Product Accounts (NIPA) \ncompiled by the Bureau of Economic Analysis \nof the United States federal government.  \nThis table comes in four parts, A (1929-1947), \nB (1948-1987), C (1987-2000), and D \n(1998-present).  Parts A, B, C and D contain \ndifferent numbers of data elements, but the\nfirst five have the same names and are the \nonly ones used here.  The overlap between \nparts C and D (1998-2000) have a root mean \nsquare relative difference of 0.7 percent;  \nthere were no differences between the numbers \nin the overlap period between parts B and C \n(1987).",
+   "title" : "US Finance Industry Profits",
+   "format" : "A data.frame with the following columns:",
+   "description" : "Description\nA data.frame giving the profits of \nthe finance industry in the United States \nas a proportion of total corporate domestic \nprofits.",
+   "usage" : "data(USFinanceIndustry)"
+}
+
 var USFinanceIndustry = [
    [
       "rownames",

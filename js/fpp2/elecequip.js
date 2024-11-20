@@ -1,3 +1,10 @@
+var elecequipInfo ={
+   "title" : "Electrical equipment manufactured in the Euro area.",
+   "format" : "Eurostat.",
+   "usage" : "Time series object of class ts.",
+   "description" : "Description\nMonthly manufacture of electrical equipment: computer, electronic and\noptical products. January 1996 - March 2012. Data adjusted by working days;\nEuro area (17 countries). Industry new orders index. 2005=100."
+}
+
 var elecequip = [
    [
       "time",

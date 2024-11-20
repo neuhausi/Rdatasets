@@ -1,3 +1,17 @@
+var PBGInfo ={
+   "usage" : "This data frame contains the following columns:",
+   "reference" : "Data on an experiment to examine the effect of a antagonist MDL 72222\non the change in blood pressure experienced with increasing dosage of\nphenylbiguanide are described in Ludbrook (1994) and analyzed\nin Venables and Ripley (2002, section 10.3).  Each of five rabbits was exposed to\nincreasing doses of phenylbiguanide after having either a placebo or\nthe HD5-antagonist MDL 72222 administered.",
+   "title" : "Effect of Phenylbiguanide on Blood Pressure",
+   "parameters" : {
+      "Rabbit" : "an ordered factor with levels\n5 < 3 < 2 < 4 < 1",
+      "Treatment" : "a factor with levels\nMDL 72222 \nPlacebo",
+      "dose" : "a numeric vector",
+      "deltaBP" : "a numeric vector",
+      "Run" : "an ordered factor with levels\nT5 < T4 < T3 < T2 < T1 < P5 < P3 < P2 < P4 < P1"
+   },
+   "description" : "Description\nThe PBG data frame has 60 rows and 5 columns."
+}
+
 var PBG = [
    [
       "deltaBP",

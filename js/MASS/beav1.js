@@ -1,3 +1,17 @@
+var beav1Info ={
+   "parameters" : {
+      "activ" : "Indicator of activity outside the retreat.",
+      "day" : "Day of observation (in days since the beginning of 1990),\nDecember 12&ndash;13.",
+      "temp" : "Measured body temperature in degrees Celsius.",
+      "time" : "Time of observation, in the form 0330 for 3.30am."
+   },
+   "title" : "Body Temperature Series of Beaver 1",
+   "reference" : "The observation at 22:20 is missing.",
+   "format" : "The beav1 data frame has 114 rows and 4 columns.\nThis data frame contains the following columns:",
+   "description" : "Description\nReynolds (1994) describes a small part of a study of the long-term\ntemperature dynamics of beaver Castor canadensis in\nnorth-central Wisconsin.  Body temperature was measured by telemetry\nevery 10 minutes for four females, but data from a one period of less\nthan a day for each of two animals is used there.",
+   "usage" : "beav1"
+}
+
 var beav1 = [
    [
       "day",

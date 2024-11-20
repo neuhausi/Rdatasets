@@ -1,3 +1,17 @@
+var BreesPassInfo ={
+   "description" : "Description\nPassing statistics for football quarterback Drew Brees in 2016",
+   "parameters" : {
+      "Attempts" : "Pass attempts",
+      "Yards" : "Passing yards",
+      "Completed" : "Number of completed passes",
+      "Game" : "Game number (1 is the first game of the regular season)",
+      "Opponent" : "Opponent abbreviation"
+   },
+   "title" : "Drew Brees Passing Statistics (2016)",
+   "reference" : "Drew Brees was the quarterback for the NFL's New Orleans Saints football team in 2016.  This dataset shows some of his passing statistics for each of the 16 regular season games.",
+   "usage" : "A data frame with 16 observations on the following 5 variables."
+}
+
 var BreesPass = [
    [
       "Game",

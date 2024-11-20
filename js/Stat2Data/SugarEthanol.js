@@ -1,3 +1,15 @@
+var SugarEthanolInfo ={
+   "title" : "Effects of Oxygen on Sugar Metabolism",
+   "reference" : "Many biochemical reactions are slowed or prevented by the presence of oxygen. For example, there are two simple forms of fermentation, one which converts each molecule of sugar to two molecules of lactic acid, and a second which converts each molecule of sugar to one each of lactic acid, ethanol, and carbon dioxide. This experiment was designed to compare the inhibiting effect of oxygen on the metabolism of two different sugars, glucose and galactose, by Streptococcus bacteria. In this case there were four levels of oxygen that were applied to the two kinds of sugar.",
+   "usage" : "A data frame with 16 observations on the following 3 variables.",
+   "description" : "Description\nExperiment on the effects of oxygen on sugar metabolism by bacteria",
+   "parameters" : {
+      "Ethanol" : "Ethanol concentration",
+      "Sugar" : "Type of sugar  (Galactose or Glucose)",
+      "Oxygen" : "Oxygen concentration"
+   }
+}
+
 var SugarEthanol = [
    [
       "Sugar",

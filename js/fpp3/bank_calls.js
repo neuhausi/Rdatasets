@@ -1,3 +1,10 @@
+var bank_callsInfo ={
+   "description" : "Description\nFive-minute call volume handled on weekdays between 7:00am and 9:05pm, beginning 3 March and 24 October 2003 (164 days).",
+   "format" : "Jonathan Weinberg",
+   "title" : "Call volume for a large North American commercial bank",
+   "usage" : "Time series of class 'tsibble' at 5 minute intervals."
+}
+
 var bank_calls = [
    [
       "DateTime",

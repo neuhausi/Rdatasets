@@ -1,12 +1,19 @@
 {
    "config" : {
+      "scatterPlotMatrix" : 1,
       "title" : "Body Temperature Series of Beaver 2",
       "graphType" : "Scatter2D",
-      "scatterPlotMatrix" : 1,
       "subtitle" : "MASS - beav2"
    },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>beav2</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>\nBody Temperature Series of Beaver 2\n</h2>\n<h3>Description</h3>\n<p>Reynolds (1994) describes a small part of a study of the long-term\ntemperature dynamics of beaver <em>Castor canadensis</em> in\nnorth-central Wisconsin.  Body temperature was measured by telemetry\nevery 10 minutes for four females, but data from a one period of less\nthan a day for each of two animals is used there.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>beav2\n</code></pre>\n<h3>Format</h3>\n<p>The <code>beav2</code> data frame has 100 rows and 4 columns.\nThis data frame contains the following columns:\n</p>\n<dl>\n<dt><code>day</code></dt><dd>\n<p>Day of observation (in days since the beginning of 1990),\nNovember 3&ndash;4.\n</p>\n</dd>\n<dt><code>time</code></dt><dd>\n<p>Time of observation, in the form <code>0330</code> for 3.30am.\n</p>\n</dd>\n<dt><code>temp</code></dt><dd>\n<p>Measured body temperature in degrees Celsius.\n</p>\n</dd>\n<dt><code>activ</code></dt><dd>\n<p>Indicator of activity outside the retreat.\n</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>P. S. Reynolds (1994) Time-series analyses of beaver body temperatures.\nChapter 11 of\nLange, N., Ryan, L., Billard, L., Brillinger, D., Conquest, L.\nand Greenhouse, J. eds (1994)\n<em>Case Studies in Biometry.</em> New York: John Wiley and Sons.\n</p>\n<h3>References</h3>\n<p>Venables, W. N. and Ripley, B. D. (2002)\n<em>Modern Applied Statistics with S.</em> Fourth edition.  Springer.\n</p>\n<h3>See Also</h3>\n<p><code>beav1</code>\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>attach(beav2)\nbeav2$hours &lt;- 24*(day-307) + trunc(time/100) + (time%%100)/60\nplot(beav2$hours, beav2$temp, type = \"l\", xlab = \"time\",\n   ylab = \"temperature\", main = \"Beaver 2\")\nusr &lt;- par(\"usr\"); usr[3:4] &lt;- c(-0.2, 8); par(usr = usr)\nlines(beav2$hours, beav2$activ, type = \"s\", lty = 2)\ntemp &lt;- ts(temp, start = 8+2/3, frequency = 6)\nactiv &lt;- ts(activ, start = 8+2/3, frequency = 6)\nacf(temp[activ == 0]); acf(temp[activ == 1]) # also look at PACFs\nar(temp[activ == 0]); ar(temp[activ == 1])\narima(temp, order = c(1,0,0), xreg = activ)\ndreg &lt;- cbind(sin = sin(2*pi*beav2$hours/24), cos = cos(2*pi*beav2$hours/24))\narima(temp, order = c(1,0,0), xreg = cbind(active=activ, dreg))\n## IGNORE_RDIFF_BEGIN\nlibrary(nlme) # for gls and corAR1\nbeav2.gls &lt;- gls(temp ~ activ, data = beav2, correlation = corAR1(0.8),\n                 method = \"ML\")\nsummary(beav2.gls)\nsummary(update(beav2.gls, subset = 6:100))\ndetach(\"beav2\"); rm(temp, activ)\n## IGNORE_RDIFF_END\n</code></pre>\n</main>\n</div>\n",
    "data" : {
       "y" : {
+         "smps" : [
+            "day",
+            "time",
+            "temp",
+            "activ"
+         ],
          "vars" : [
             "Var1",
             "Var2",
@@ -710,14 +717,7 @@
                38.07,
                1
             ]
-         ],
-         "smps" : [
-            "day",
-            "time",
-            "temp",
-            "activ"
          ]
       }
-   },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>beav2</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>\nBody Temperature Series of Beaver 2\n</h2>\n<h3>Description</h3>\n<p>Reynolds (1994) describes a small part of a study of the long-term\ntemperature dynamics of beaver <em>Castor canadensis</em> in\nnorth-central Wisconsin.  Body temperature was measured by telemetry\nevery 10 minutes for four females, but data from a one period of less\nthan a day for each of two animals is used there.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>beav2\n</code></pre>\n<h3>Format</h3>\n<p>The <code>beav2</code> data frame has 100 rows and 4 columns.\nThis data frame contains the following columns:\n</p>\n<dl>\n<dt><code>day</code></dt><dd>\n<p>Day of observation (in days since the beginning of 1990),\nNovember 3&ndash;4.\n</p>\n</dd>\n<dt><code>time</code></dt><dd>\n<p>Time of observation, in the form <code>0330</code> for 3.30am.\n</p>\n</dd>\n<dt><code>temp</code></dt><dd>\n<p>Measured body temperature in degrees Celsius.\n</p>\n</dd>\n<dt><code>activ</code></dt><dd>\n<p>Indicator of activity outside the retreat.\n</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>P. S. Reynolds (1994) Time-series analyses of beaver body temperatures.\nChapter 11 of\nLange, N., Ryan, L., Billard, L., Brillinger, D., Conquest, L.\nand Greenhouse, J. eds (1994)\n<em>Case Studies in Biometry.</em> New York: John Wiley and Sons.\n</p>\n<h3>References</h3>\n<p>Venables, W. N. and Ripley, B. D. (2002)\n<em>Modern Applied Statistics with S.</em> Fourth edition.  Springer.\n</p>\n<h3>See Also</h3>\n<p><code>beav1</code>\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>attach(beav2)\nbeav2$hours &lt;- 24*(day-307) + trunc(time/100) + (time%%100)/60\nplot(beav2$hours, beav2$temp, type = \"l\", xlab = \"time\",\n   ylab = \"temperature\", main = \"Beaver 2\")\nusr &lt;- par(\"usr\"); usr[3:4] &lt;- c(-0.2, 8); par(usr = usr)\nlines(beav2$hours, beav2$activ, type = \"s\", lty = 2)\ntemp &lt;- ts(temp, start = 8+2/3, frequency = 6)\nactiv &lt;- ts(activ, start = 8+2/3, frequency = 6)\nacf(temp[activ == 0]); acf(temp[activ == 1]) # also look at PACFs\nar(temp[activ == 0]); ar(temp[activ == 1])\narima(temp, order = c(1,0,0), xreg = activ)\ndreg &lt;- cbind(sin = sin(2*pi*beav2$hours/24), cos = cos(2*pi*beav2$hours/24))\narima(temp, order = c(1,0,0), xreg = cbind(active=activ, dreg))\n## IGNORE_RDIFF_BEGIN\nlibrary(nlme) # for gls and corAR1\nbeav2.gls &lt;- gls(temp ~ activ, data = beav2, correlation = corAR1(0.8),\n                 method = \"ML\")\nsummary(beav2.gls)\nsummary(update(beav2.gls, subset = 6:100))\ndetach(\"beav2\"); rm(temp, activ)\n## IGNORE_RDIFF_END\n</code></pre>\n</main>\n</div>\n"
+   }
 }

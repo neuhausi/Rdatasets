@@ -1,5 +1,4 @@
 {
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>ACF1</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Aberrant Crypt Foci in Rat Colons</h2>\n<h3>Description</h3>\n<p>Numbers of aberrant crypt foci (ACF) in the \nsection 1 of the colons of 22 rats subjected to a single\ndose of the carcinogen azoxymethane (AOM), sacrificed\nat 3 different times. \n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>ACF1</code></pre>\n<h3>Format</h3>\n<p>This data frame contains the following columns:\n</p>\n<dl>\n<dt>count</dt><dd><p>Observed number of ACF in section 1 of\neach rat colon</p>\n</dd>\n<dt>endtime</dt><dd><p>Time of sacrifice, in weeks following injection\nof AOM</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>Ranjana P. Bird, Faculty of Human Ecology, University of Manitoba,\nWinnipeg, Canada.\n</p>\n<h3>References</h3>\n<p>E.A. McLellan, A. Medline and R.P. Bird.  Dose response and\nproliferative characteristics of aberrant crypt foci: putative\npreneoplastic lesions in rat colon.  Carcinogenesis, 12(11): 2093-2098, \n1991.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>sapply(split(ACF1$count,ACF1$endtime),var)\nplot(count ~ endtime, data=ACF1, pch=16)\npause()\nprint(\"Poisson Regression - Example 8.3\")\nACF.glm0 &lt;- glm(formula = count ~ endtime, family = poisson, data = ACF1)\nsummary(ACF.glm0)\n# Is there a quadratic effect?\npause()\nACF.glm &lt;- glm(formula = count ~ endtime + I(endtime^2),\n  family = poisson, data = ACF1)\nsummary(ACF.glm)\n# But is the data really Poisson?  If not, try quasipoisson:\npause()\nACF.glm &lt;- glm(formula = count ~ endtime + I(endtime^2),\n  family = quasipoisson, data = ACF1)\nsummary(ACF.glm)\n</code></pre>\n</main>\n</div>\n",
    "data" : {
       "y" : {
          "data" : [
@@ -92,10 +91,6 @@
                18
             ]
          ],
-         "smps" : [
-            "count",
-            "endtime"
-         ],
          "vars" : [
             "Var1",
             "Var2",
@@ -119,12 +114,17 @@
             "Var20",
             "Var21",
             "Var22"
+         ],
+         "smps" : [
+            "count",
+            "endtime"
          ]
       }
    },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>ACF1</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Aberrant Crypt Foci in Rat Colons</h2>\n<h3>Description</h3>\n<p>Numbers of aberrant crypt foci (ACF) in the \nsection 1 of the colons of 22 rats subjected to a single\ndose of the carcinogen azoxymethane (AOM), sacrificed\nat 3 different times. \n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>ACF1</code></pre>\n<h3>Format</h3>\n<p>This data frame contains the following columns:\n</p>\n<dl>\n<dt>count</dt><dd><p>Observed number of ACF in section 1 of\neach rat colon</p>\n</dd>\n<dt>endtime</dt><dd><p>Time of sacrifice, in weeks following injection\nof AOM</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>Ranjana P. Bird, Faculty of Human Ecology, University of Manitoba,\nWinnipeg, Canada.\n</p>\n<h3>References</h3>\n<p>E.A. McLellan, A. Medline and R.P. Bird.  Dose response and\nproliferative characteristics of aberrant crypt foci: putative\npreneoplastic lesions in rat colon.  Carcinogenesis, 12(11): 2093-2098, \n1991.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>sapply(split(ACF1$count,ACF1$endtime),var)\nplot(count ~ endtime, data=ACF1, pch=16)\npause()\nprint(\"Poisson Regression - Example 8.3\")\nACF.glm0 &lt;- glm(formula = count ~ endtime, family = poisson, data = ACF1)\nsummary(ACF.glm0)\n# Is there a quadratic effect?\npause()\nACF.glm &lt;- glm(formula = count ~ endtime + I(endtime^2),\n  family = poisson, data = ACF1)\nsummary(ACF.glm)\n# But is the data really Poisson?  If not, try quasipoisson:\npause()\nACF.glm &lt;- glm(formula = count ~ endtime + I(endtime^2),\n  family = quasipoisson, data = ACF1)\nsummary(ACF.glm)\n</code></pre>\n</main>\n</div>\n",
    "config" : {
-      "title" : "Aberrant Crypt Foci in Rat Colons",
       "graphType" : "Scatter2D",
+      "title" : "Aberrant Crypt Foci in Rat Colons",
       "subtitle" : "DAAG - ACF1"
    }
 }

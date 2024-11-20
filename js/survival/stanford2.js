@@ -1,3 +1,10 @@
+var stanford2Info ={
+   "usage" : "stanford2",
+   "format" : "id:   ID number\n\n\n \n    time: survival or censoring time\n\n\n \n    status: censoring status\n\n\n \n    age:  in years\n\n\n \n    t5:  T5 mismatch score",
+   "title" : "More Stanford Heart Transplant data",
+   "description" : "Description\nThis contains the Stanford Heart Transplant data in a different\nformat.  The main data set is in heart."
+}
+
 var stanford2 = [
    [
       "id",

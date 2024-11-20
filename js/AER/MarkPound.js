@@ -1,3 +1,10 @@
+var MarkPoundInfo ={
+   "description" : "Description\nA daily time series of percentage returns of Deutsche mark/British pound (DEM/GBP)\nexchange rates from 1984-01-03 through 1991-12-31.",
+   "title" : "DEM/GBP Exchange Rate Returns",
+   "format" : "A univariate time series of 1974 returns (exact dates unknown) for the DEM/GBP exchange rate.",
+   "usage" : "data(\"MarkPound\")"
+}
+
 var MarkPound = [
    [
       "time",

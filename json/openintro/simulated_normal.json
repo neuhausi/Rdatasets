@@ -4,6 +4,7 @@
       "graphType" : "Scatter3D",
       "title" : "Simulated datasets"
    },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>simulated_normal</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Simulated datasets, drawn from a normal distribution.</h2>\n<h3>Description</h3>\n<p>Data were simulated using <code>rnorm</code>.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>simulated_normal\n</code></pre>\n<h3>Format</h3>\n<p>The format is: List of 3 $ n40 : 40 observations from a standard\nnormal distribution.  $ n100: 100 observations from a standard normal\ndistribution.  $ n400: 400 observations from a standard normal distribution.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>\ndata(simulated_normal)\nlapply(simulated_normal, qqnorm)\n</code></pre>\n</main>\n</div>\n",
    "data" : {
       "y" : {
          "data" : [
@@ -2008,11 +2009,6 @@
                0.975
             ]
          ],
-         "smps" : [
-            "n40",
-            "n100",
-            "n400"
-         ],
          "vars" : [
             "Var1",
             "Var2",
@@ -2414,8 +2410,12 @@
             "Var398",
             "Var399",
             "Var400"
+         ],
+         "smps" : [
+            "n40",
+            "n100",
+            "n400"
          ]
       }
-   },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>simulated_normal</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Simulated datasets, drawn from a normal distribution.</h2>\n<h3>Description</h3>\n<p>Data were simulated using <code>rnorm</code>.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>simulated_normal\n</code></pre>\n<h3>Format</h3>\n<p>The format is: List of 3 $ n40 : 40 observations from a standard\nnormal distribution.  $ n100: 100 observations from a standard normal\ndistribution.  $ n400: 400 observations from a standard normal distribution.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>\ndata(simulated_normal)\nlapply(simulated_normal, qqnorm)\n</code></pre>\n</main>\n</div>\n"
+   }
 }

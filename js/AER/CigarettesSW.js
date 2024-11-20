@@ -1,3 +1,22 @@
+var CigarettesSWInfo ={
+   "title" : "Cigarette Consumption Panel Data",
+   "format" : "A data frame containing 48 observations on 7 variables for 2 periods.",
+   "reference" : "Online complements to Stock and Watson (2007).",
+   "parameters" : {
+      "tax" : "Average state, federal and average local excise taxes for fiscal year.",
+      "state" : "Factor indicating state.",
+      "income" : "State personal income (total, nominal).",
+      "packs" : "Number of packs per capita.",
+      "price" : "Average price during fiscal year, including sales tax.",
+      "taxs" : "Average excise taxes for fiscal year, including sales tax.",
+      "cpi" : "Consumer price index.",
+      "year" : "Factor indicating year.",
+      "population" : "State population."
+   },
+   "usage" : "data(\"CigarettesSW\")",
+   "description" : "Description\nPanel data on cigarette consumption for the 48 continental US States from 1985&ndash;1995."
+}
+
 var CigarettesSW = [
    [
       "state",

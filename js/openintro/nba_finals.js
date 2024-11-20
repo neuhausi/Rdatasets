@@ -1,3 +1,22 @@
+var nba_finalsInfo ={
+   "usage" : "nba_finals",
+   "description" : "Description\nThis dataset contains information about the teams who played in the NBA Finals from 1950 - 2022.",
+   "format" : "A data frame with 73 rows and 9 variables:",
+   "title" : "NBA Finals History",
+   "reference" : "Wikipedia: List of NBA Champions",
+   "parameters" : {
+      "western_coach" : "Coach of the Western Conference champions.",
+      "eastern_wins" : "Number of series wins by the Eastern Conference Champions.",
+      "home_court" : "Which conference held home court advantage for the series.",
+      "eastern_champions" : "Team that won the Eastern Conference title and played in the Finals.",
+      "western_champions" : "Team that won the Western Conference title and played in the Finals.",
+      "year" : "The year in which the Finals took place.",
+      "western_wins" : "Number of series wins by the Western Conference Champions.",
+      "winner" : "The team who won the series.",
+      "eastern_coach" : "Coach of the Eastern Conference champions."
+   }
+}
+
 var nba_finals = [
    [
       "year",

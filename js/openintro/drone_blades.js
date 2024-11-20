@@ -1,3 +1,14 @@
+var drone_bladesInfo ={
+   "description" : "Description\nQuality control dataset for quadcopter drone blades, where this data has\nbeen made up for an example.",
+   "parameters" : {
+      "inspection" : "The inspection conclusion.",
+      "supplier" : "The supplier for the blade."
+   },
+   "usage" : "drone_blades",
+   "title" : "Quadcopter Drone Blades",
+   "format" : "A data frame with 2000 observations on the following 2 variables."
+}
+
 var drone_blades = [
    [
       "supplier",

@@ -1,3 +1,16 @@
+var CO2HawaiiInfo ={
+   "usage" : "A data frame with 360 observations on the following 4 variables.",
+   "reference" : "Monthly average carbon dioxide readings (1988 - 2017) at the Mauna Loa Observatory in Hawaii.  Data collected and disseminated by ERSL (Earth System Research Laboratory) of the U.S. NOAA (National Oceanic and Atmospheric Administration.",
+   "title" : "CO2 Readings in Hawaii",
+   "description" : "Description\nMonthly carbon dioxide readings at Mauna Loa, Hawaii",
+   "parameters" : {
+      "t" : "Time interval (t=1 to 360)",
+      "Year" : "Year (1988 - 2017)",
+      "CO2" : "Atmospheric carbon dioxide level (ppm)",
+      "Month" : "Month (1=Jan. to 12=Dec.)"
+   }
+}
+
 var CO2Hawaii = [
    [
       "Year",

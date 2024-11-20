@@ -1,40 +1,12 @@
 {
+   "config" : {
+      "title" : "Evolution of occupational distribution in the US",
+      "graphType" : "Heatmap",
+      "subtitle" : "Ecdat - OCC1950"
+   },
    "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>OCC1950</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>\nEvolution of occupational distribution in the US \n</h2>\n<h3>Description</h3>\n<p>Proportion of the US population in each of the \n283 <code>OCC1950</code> occupation codes for each year \nin the \n<a href=\"https://en.wikipedia.org/wiki/IPUMS\">Integrated Public Use Microdata Series (IPUMS) - US database</a>.  \n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(\"OCC1950\")</code></pre>\n<h3>Format</h3>\n<p>A <code>matrix</code> with one row for each of \n281 OCC1950 occupation codes in IPUMS-US and one\ncolumn for each year in their dataset as of \n2020-03-17, being \n<code>c(1850:1880, 1900:2000, 2001:2016)</code>.\n</p>\n<h3>Details</h3>\n<p>This dataset was created using the code in the \nIPUMS vignette in the <code>Ecfun</code> package using\n<code>tapply(HHWT, IPUMSdata[c(\"OCC1950\", \"YEAR\")], sum)</code>, \nthen normalizing so the total for each year was 1.\n</p>\n<p>In fact a plot of the sums for each year of\n<code>HHWT</code> were close to the \n<code>USGDPpresidents$population.K*1000</code> except \nfor 1970, when they were double.  \n</p>\n<p>Universe Note from the IPUMS documentation for \ntheir variable <code>OCC1950</code>: &quot;New Workers&quot; are\npersons seeking employment for the first time, who \nhad not yet secured their first job.\n</p>\n<p>OCC1950 applies the 1950 Census Bureau occupational \nclassification system to occupational data, to \nenhance comparability across years. For pre-1940 \nsamples created at the University of Minnesota, \nthe alphabetic responses supplied by enumerators \nwere directly coded into the 1950 classification. \nFor other samples, the information in the variable \nOCC was recoded into the 1950 classification. Codes above 970 are non-occupational responses retained \nin the historical census samples or blank/unknown. \nThe design of OCC1950 is described at length in\n&quot;Integrated Occupation and Industry Codes and\nOccupational Standing Variables in the IPUMS.&quot;. \nThe composition of the 1950 occupation categories \nis described in detail in U.S. Bureau of the \nCensus, Alphabetic Index of Occupations and \nIndustries: 1950 (Washington D.C., 1950). \n</p>\n<p>In 1850-1880, any laborer with no specified industry in a household with a farmer is recoded into farm labor. In 1860-1900, any woman with an occupational response of &quot;housekeeper&quot; enters the non-occupational category &quot;keeping house&quot; if she is related to the head of household. Cases affected by these imputation procedures are identified by an appropriate data quality flag (present in the raw IPUMS data but ignored for this summary). \n</p>\n<p>A parallel variable called OCC1990, available for the samples from 1950 onward, codes occupations into a simplified version of the 1990 occupational coding scheme.&quot; [OCC1990 was ignored for the present purposes, because it is not coded for data prior to 1950.]\n</p>\n<p>NOTE:  In the 2020-03-17 extraction, there were 283 OCC1950 codes documented, but only 291 of them were actually in the data I got.  The codes for &quot;Not yet classified&quot; and &quot;New Workers&quot; were not used.  \n</p>\n<h3>Source</h3>\n<p>Steven Ruggles, Sarah Flood, Ronald Goeken, \nJosiah Grover, Erin Meyer, Jose Pacas, and \nMatthew Sobek (2020) \n<a href=\"https://doi.org/10.18128/D010.V10.0\">doi:10.18128/D010.V10.0</a>IPUMS USA: Version 10.0 [dataset]. Minneapolis, MN: IPUMS. \n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>data(OCC1950)\n</code></pre>\n</main>\n</div>\n",
    "data" : {
       "y" : {
-         "vars" : [
-            "1850",
-            "1860",
-            "1870",
-            "1880",
-            "1900",
-            "1910",
-            "1920",
-            "1930",
-            "1940",
-            "1950",
-            "1960",
-            "1970",
-            "1980",
-            "1990",
-            "2000",
-            "2001",
-            "2002",
-            "2003",
-            "2004",
-            "2005",
-            "2006",
-            "2007",
-            "2008",
-            "2009",
-            "2010",
-            "2011",
-            "2012",
-            "2013",
-            "2014",
-            "2015",
-            "2016"
-         ],
          "data" : [
             [
                3.82528274428119e-05,
@@ -8810,6 +8782,39 @@
                0.417116294958388
             ]
          ],
+         "vars" : [
+            "1850",
+            "1860",
+            "1870",
+            "1880",
+            "1900",
+            "1910",
+            "1920",
+            "1930",
+            "1940",
+            "1950",
+            "1960",
+            "1970",
+            "1980",
+            "1990",
+            "2000",
+            "2001",
+            "2002",
+            "2003",
+            "2004",
+            "2005",
+            "2006",
+            "2007",
+            "2008",
+            "2009",
+            "2010",
+            "2011",
+            "2012",
+            "2013",
+            "2014",
+            "2015",
+            "2016"
+         ],
          "smps" : [
             "0",
             "1",
@@ -9094,10 +9099,5 @@
             "999"
          ]
       }
-   },
-   "config" : {
-      "subtitle" : "Ecdat - OCC1950",
-      "graphType" : "Heatmap",
-      "title" : "Evolution of occupational distribution in the US"
    }
 }

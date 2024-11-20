@@ -1,4 +1,16 @@
 {
+   "config" : {
+      "title" : "Poll about use of full-body airport scanners",
+      "subtitle" : "openintro - full_body_scan",
+      "segregateSamplesBy" : [
+         "answer"
+      ],
+      "graphType" : "Boxplot",
+      "colorBy" : "variable",
+      "groupingFactors" : [
+         "party_affiliation"
+      ]
+   },
    "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>full_body_scan</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Poll about use of full-body airport scanners</h2>\n<h3>Description</h3>\n<p>Poll about use of full-body airport scanners, where about 4-in-5 people\nsupported the use of the scanners.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>full_body_scan\n</code></pre>\n<h3>Format</h3>\n<p>A data frame with 1137 observations on the following 2 variables.\n</p>\n<dl>\n<dt>answer</dt><dd><p>a factor with levels <code>do not know / no\nanswer</code> <code>should</code> <code>should not</code></p>\n</dd> <dt>party.affiliation</dt><dd><p>a\nfactor with levels <code>Democrat</code> <code>Independent</code> <code>Republican</code></p>\n</dd> </dl>\n<h3>Source</h3>\n<p>S. Condon. Poll: 4 in 5 Support Full-Body Airport Scanners. In: CBS\nNews (2010).\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>\nfull_body_scan\n</code></pre>\n</main>\n</div>\n",
    "data" : {
       "x" : {
@@ -2282,9 +2294,6 @@
          ]
       },
       "y" : {
-         "vars" : [
-            "Row"
-         ],
          "data" : [
             [
                1,
@@ -3426,6 +3435,9 @@
                1137
             ]
          ],
+         "vars" : [
+            "Row"
+         ],
          "smps" : [
             "Smp1",
             "Smp2",
@@ -4566,17 +4578,5 @@
             "Smp1137"
          ]
       }
-   },
-   "config" : {
-      "subtitle" : "openintro - full_body_scan",
-      "segregateSamplesBy" : [
-         "answer"
-      ],
-      "graphType" : "Boxplot",
-      "colorBy" : "variable",
-      "groupingFactors" : [
-         "party_affiliation"
-      ],
-      "title" : "Poll about use of full-body airport scanners"
    }
 }

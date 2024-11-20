@@ -1,3 +1,26 @@
+var complete_oldInfo ={
+   "format" : "A data frame with columns:",
+   "title" : "Complete survey data from 1977 to 1989.",
+   "reference" : "Portal Project Teaching Database,\ndoi:10.6084/m9.figshare.1314459",
+   "parameters" : {
+      "weight" : "Weight of the individual in g' Species data.",
+      "genus" : "The genus of the species",
+      "taxa" : "General taxonomic category of the species",
+      "record_id" : "Unique record identifier",
+      "hindfoot_length" : "Length of a back foot in mm",
+      "sex" : "Sex of the individual",
+      "plot_type" : "Type of experimental manipulation conducted on the plot",
+      "year" : "Year captured",
+      "month" : "Month captured",
+      "species" : "The latin species name",
+      "species_id" : "Species identifier",
+      "plot_id" : "Plot individual was captured on",
+      "day" : "Day captured"
+   },
+   "usage" : "complete_old",
+   "description" : "Description\nData on individual rodents captured at the Portal Project and the plots they were captured in. This data.frame is the same as 'complete', but only containing data from 1977 to 1989. This is so that instructors can have learners begin working with a clean, older dataset, and later introduce a messy version of the newer years of data, in whatever format fits their needs."
+}
+
 var complete_old = [
    [
       "record_id",

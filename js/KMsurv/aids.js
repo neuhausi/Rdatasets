@@ -1,3 +1,15 @@
+var aidsInfo ={
+   "reference" : "Klein and Moeschberger (1997) Survival Analysis Techniques for Censored\nand truncated data, Springer.\nLagakos et al. Biometrika 68 (1981): 515-523.",
+   "title" : "data from Section 1.19",
+   "usage" : "This data frame contains the following columns:",
+   "description" : "Description\nThe aids data frame has 295 rows and 3 columns.",
+   "parameters" : {
+      "infect" : "Infection time for AIDS, years",
+      "induct" : "Induction time for AIDS, years",
+      "adult" : "Indicator of adult (1=adult, 0=child)"
+   }
+}
+
 var aids = [
    [
       "infect",

@@ -1,3 +1,9 @@
+var AutoPollutionInfo ={
+   "description" : "Description\nMeasurements of noise levels for different filters to reduce pollution levels of automobiles.",
+   "title" : "Noise Levels of Filters to Reduce Automobile Pollution",
+   "usage" : "A dataset with 36 observations on the following 4 variables."
+}
+
 var AutoPollution = [
    [
       "Noise",

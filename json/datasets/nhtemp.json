@@ -1,8 +1,8 @@
 {
    "config" : {
-      "title" : "Average Yearly Temperatures in New Haven",
       "subtitle" : "datasets - nhtemp",
-      "graphType" : "Scatter2D"
+      "graphType" : "Scatter2D",
+      "title" : "Average Yearly Temperatures in New Haven"
    },
    "data" : {
       "y" : {
@@ -67,6 +67,10 @@
             "Var58",
             "Var59",
             "Var60"
+         ],
+         "smps" : [
+            "time",
+            "value"
          ],
          "data" : [
             [
@@ -309,10 +313,6 @@
                1971,
                53
             ]
-         ],
-         "smps" : [
-            "time",
-            "value"
          ]
       }
    },

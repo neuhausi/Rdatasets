@@ -1,3 +1,17 @@
+var NOxEmissionsInfo ={
+   "description" : "Description\nA typical medium sized environmental data set with hourly measurements\nof NOx pollution content in the ambient air.",
+   "usage" : "data(NOxEmissions, package=\"robustbase\")",
+   "parameters" : {
+      "sqrtWS" : "Square root of wind speed [m/s].",
+      "LNOx" : "\\log of hourly mean of NOx concentration in\nambient air [ppb] next to a highly frequented motorway.",
+      "LNOxEm" : "\\log of hourly sum of NOx emission of\ncars on this motorway in arbitrary units.",
+      "julday" : "day number, a factor with levels 373\n... 730, typically with 24 hourly measurements."
+   },
+   "reference" : "The original data set had more observations, but with missing values.\nHere, all cases with missing values were omitted\n(na.omit(.)), and then only those were retained that\nbelonged to days with at least 20 (fully) observed hourly\nmeasurements.",
+   "title" : "NOx Air Pollution Data",
+   "format" : "A data frame with 8088 observations on the following 4 variables."
+}
+
 var NOxEmissions = [
    [
       "julday",

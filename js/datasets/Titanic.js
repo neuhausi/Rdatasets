@@ -1,3 +1,10 @@
+var TitanicInfo ={
+   "description" : "Description\nThis data set provides information on the fate of passengers on the\nfatal maiden voyage of the ocean liner &lsquo;Titanic&rsquo;, summarized according\nto economic status (class), sex, age and survival.",
+   "usage" : "Titanic",
+   "title" : "Survival of passengers on the Titanic",
+   "format" : "A 4-dimensional array resulting from cross-tabulating 2201\nobservations on 4 variables.  The variables and their levels are as\nfollows:"
+}
+
 var Titanic = [
    [
       "Class",

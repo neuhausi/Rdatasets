@@ -1,3 +1,19 @@
+var fridayInfo ={
+   "description" : "Description\nThis dataset addresses issues of how superstitions regarding Friday the\n13th affect human behavior, and whether Friday the 13th is an unlucky day.\nScanlon, et al. collected data on traffic and shopping patterns and accident\nfrequency for Fridays the 6th and 13th between October of 1989 and November\nof 1992.",
+   "usage" : "friday",
+   "parameters" : {
+      "date" : "Year and month of observation.",
+      "diff" : "Difference between the sixth and the thirteenth.",
+      "location" : "Location where data is collected.",
+      "sixth" : "Counts on the 6th of the month.",
+      "type" : "Type of observation, traffic, shopping, or accident.",
+      "thirteenth" : "Counts on the 13th of the month."
+   },
+   "reference" : "There are three types of observations: traffic, shopping, and accident. For\ntraffic, the researchers obtained information from the British Department of\nTransport regarding the traffic flows between junctions 7 to 8 and junctions\n9 to 10 of the M25 motorway. For shopping, they collected the numbers of\nshoppers in nine different supermarkets in southeast England. For accidents,\nthey collected numbers of emergency admissions to hospitals due to transport\naccidents.",
+   "format" : "A data frame with 61 observations and 6 variables.",
+   "title" : "Friday the 13th"
+}
+
 var friday = [
    [
       "type",

@@ -1,3 +1,17 @@
+var mail_meInfo ={
+   "usage" : "mail_me",
+   "description" : "Description\nThis study investigated whether finding a coin influenced a person's\nlikelihood of mailing a sealed but addressed letter that appeared to have\nbeen accidentally left in a conspicuous place. Several variables were\ncollected during the experiment, including two randomized variables of\nwhether there was a coin to be found and whether the letter already had a\nstamp on it.",
+   "title" : "Influence of a Good Mood on Helpfulness",
+   "reference" : "The precise context was in a phone booth (this study is from the 1970s!),\nwhere a person who entered a phone booth would find a dime in the phone\ntray, which would be sufficient to pay for their phone call. There was also\na letter next to the phone, which sometimes had a stamp on it.",
+   "format" : "A data frame with 42 observations on the following 4 variables.",
+   "parameters" : {
+      "gender" : "a factor with levels female male",
+      "mailed_letter" : "a factor with levels no yes",
+      "stamped" : "a factor with levels no yes",
+      "found_coin" : "a factor with levels coin no_coin"
+   }
+}
+
 var mail_me = [
    [
       "stamped",

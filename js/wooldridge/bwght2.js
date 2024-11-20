@@ -1,3 +1,36 @@
+var bwght2Info ={
+   "usage" : "data('bwght2')",
+   "description" : "Description\nWooldridge Source: Dr. Zhehui Luo, a recent MSU Ph.D. in economics and Visiting Research Associate in the Department of Epidemiology at MSU, kindly provided these data. She obtained them from state files linking birth and infant death certificates, and from the National Center for Health Statistics natality and mortality data. Data loads lazily.",
+   "reference" : "There are many possibilities with this data set. In addition to number of prenatal visits, smoking and alcohol consumption (during pregnancy) are included as explanatory variables. These can be added to equations of the kind found in Exercise C6.10. In addition, the one- and five-minute APGAR scores are included. These are measures of the well being of infants just after birth. An interesting feature of the score is that it is bounded between zero and 10, making a linear model less than ideal. Still, a linear model would be informative, and you might ask students about predicted values less than zero or greater than 10.",
+   "format" : "A data.frame with 1832 observations on 23 variables:",
+   "title" : "bwght2",
+   "parameters" : {
+      "mwhte" : " =1 if mother white",
+      "fblck" : " =1 if father black",
+      "fwhte" : " =1 if father white",
+      "mblck" : " =1 if mother black",
+      "cigs" : " avg cigarettes per day",
+      "npvissq" : " npvis^2",
+      "drink" : " avg drinks per week",
+      "lbwght" : " log(bwght)",
+      "feduc" : " father's educ, years",
+      "fage" : " father's age, years",
+      "meduc" : " mother's educ, years",
+      "mage" : " mother's age, years",
+      "monpre" : " month prenatal care began",
+      "npvis" : " total number of prenatal visits",
+      "magesq" : " mage^2",
+      "fmaps" : " five minute apgar score",
+      "male" : " =1 if baby male",
+      "bwght" : " birth weight, grams",
+      "moth" : " =1 if mother is other",
+      "lbw" : " =1 if bwght <= 2000",
+      "foth" : " =1 if father is other",
+      "vlbw" : " =1 if bwght <= 1500",
+      "omaps" : " one minute apgar score"
+   }
+}
+
 var bwght2 = [
    [
       "mage",

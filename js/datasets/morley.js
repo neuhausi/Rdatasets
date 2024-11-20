@@ -1,3 +1,16 @@
+var morleyInfo ={
+   "description" : "Description\nA classical data of Michelson (but not this one with Morley) on\nmeasurements done in 1879 on the speed of light.  The data consists of\nfive experiments, each consisting of 20 consecutive &lsquo;runs&rsquo;.\nThe response is the speed of light measurement, suitably coded\n(km/sec, with 299000 subtracted).",
+   "usage" : "morley",
+   "parameters" : {
+      "Speed" : "Speed-of-light measurement.",
+      "Expt" : "The experiment number, from 1 to 5.",
+      "Run" : "The run number within each experiment."
+   },
+   "title" : "Michelson Speed of Light Data",
+   "format" : "A data frame with 100 observations on the following 3 variables.",
+   "reference" : "The data is here viewed as a randomized block experiment with\n&lsquo;experiment&rsquo; and &lsquo;run&rsquo; as the factors.  &lsquo;run&rsquo; may\nalso be considered a quantitative variate to account for linear (or\npolynomial) changes in the measurement over the course of a single\nexperiment."
+}
+
 var morley = [
    [
       "Expt",

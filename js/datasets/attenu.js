@@ -1,3 +1,10 @@
+var attenuInfo ={
+   "usage" : "attenu",
+   "title" : "The Joyner&ndash;Boore Attenuation Data",
+   "format" : "A data frame with 182 observations on 5 variables.",
+   "description" : "Description\nThis data gives peak accelerations measured at various observation\nstations for 23 earthquakes in California.  The data have been used\nby various workers to estimate the attenuating affect of distance\non ground acceleration."
+}
+
 var attenu = [
    [
       "event",

@@ -1,13 +1,4 @@
 {
-   "config" : {
-      "colorBy" : "country",
-      "title" : "Gapminder data",
-      "subtitle" : "gapminder - gapminder_unfiltered",
-      "scatterPlotMatrix" : 1,
-      "graphType" : "Scatter2D",
-      "shapeBy" : "continent"
-   },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>gapminder_unfiltered</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Gapminder data, unfiltered.</h2>\n<h3>Description</h3>\n<p>The supplemental data frame <code>gapminder_unfiltered</code> was not filtered on\n<code>year</code> or for complete data and has 3313 rows. Everything else is as\ndocumented in <code>gapminder</code>.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>gapminder_unfiltered\n</code></pre>\n<h3>Format</h3>\n<p>An object of class <code>tbl_df</code> (inherits from <code>tbl</code>, <code>data.frame</code>) with 3313 rows and 6 columns.\n</p>\n</main>\n</div>\n",
    "data" : {
       "z" : {
          "country" : [
@@ -6642,6 +6633,12 @@
          ]
       },
       "y" : {
+         "smps" : [
+            "year",
+            "lifeExp",
+            "pop",
+            "gdpPercap"
+         ],
          "vars" : [
             "Var1",
             "Var2",
@@ -9956,12 +9953,6 @@
             "Var3311",
             "Var3312",
             "Var3313"
-         ],
-         "smps" : [
-            "year",
-            "lifeExp",
-            "pop",
-            "gdpPercap"
          ],
          "data" : [
             [
@@ -29844,5 +29835,14 @@
             ]
          ]
       }
+   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>gapminder_unfiltered</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Gapminder data, unfiltered.</h2>\n<h3>Description</h3>\n<p>The supplemental data frame <code>gapminder_unfiltered</code> was not filtered on\n<code>year</code> or for complete data and has 3313 rows. Everything else is as\ndocumented in <code>gapminder</code>.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>gapminder_unfiltered\n</code></pre>\n<h3>Format</h3>\n<p>An object of class <code>tbl_df</code> (inherits from <code>tbl</code>, <code>data.frame</code>) with 3313 rows and 6 columns.\n</p>\n</main>\n</div>\n",
+   "config" : {
+      "scatterPlotMatrix" : 1,
+      "shapeBy" : "continent",
+      "colorBy" : "country",
+      "graphType" : "Scatter2D",
+      "subtitle" : "gapminder - gapminder_unfiltered",
+      "title" : "Gapminder data"
    }
 }

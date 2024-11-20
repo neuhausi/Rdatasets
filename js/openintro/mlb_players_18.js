@@ -1,3 +1,32 @@
+var mlb_players_18Info ={
+   "parameters" : {
+      "stolen_bases" : "Stolen bases.",
+      "team" : "Team abbreviation",
+      "name" : "Player name",
+      "RBI" : "Runs batted in.",
+      "walks" : "Walks.",
+      "OPS" : "On-base percentage plus slugging percentage.",
+      "position" : "Position abbreviation: 1B = first base,\n2B = second base, 3B = third base, C = catcher,\nCF = center field (outfield), DH = designated hitter,\nLF = left field (outfield), P = pitcher,\nRF = right field (outfield), SS = shortstop.",
+      "SLG" : "Slugging percentage.",
+      "doubles" : "Doubles.",
+      "AB" : "At bats.",
+      "OBP" : "On-base percentage.",
+      "strike_outs" : "Strike outs.",
+      "triples" : "Triples.",
+      "H" : "Hits.",
+      "games" : "Number of games played.",
+      "HR" : "Home runs.",
+      "R" : "Runs.",
+      "caught_stealing_base" : "Number of times caught stealing a base.",
+      "AVG" : "Batting average."
+   },
+   "format" : "A data frame with 1270 observations on the following 19 variables.",
+   "title" : "Batter Statistics for 2018 Major League Baseball (MLB) Season",
+   "reference" : "https://www.mlb.com/stats",
+   "description" : "Description\nBatter statistics for 2018 Major League Baseball season.",
+   "usage" : "mlb_players_18"
+}
+
 var mlb_players_18 = [
    [
       "name",

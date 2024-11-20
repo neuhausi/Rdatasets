@@ -25,6 +25,15 @@
             "Smp15",
             "Smp16"
          ],
+         "vars" : [
+            "year",
+            "access_elec",
+            "startup",
+            "co2",
+            "gdp",
+            "gni",
+            "co2_kg_ppp"
+         ],
          "data" : [
             [
                2003,
@@ -152,15 +161,6 @@
                0.60093848264135,
                0.593655946391848
             ]
-         ],
-         "vars" : [
-            "year",
-            "access_elec",
-            "startup",
-            "co2",
-            "gdp",
-            "gni",
-            "co2_kg_ppp"
          ]
       }
    }

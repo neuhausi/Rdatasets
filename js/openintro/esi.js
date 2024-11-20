@@ -1,3 +1,42 @@
+var esiInfo ={
+   "parameters" : {
+      "vulner" : "ESI core component: vulnerability",
+      "system" : "ESI core component: systems",
+      "glo_col" : "Participation in international collaboration efforts.",
+      "cap_gov" : "Environmental governance.",
+      "country" : "Country.",
+      "str_pop" : "Reducing population pressure.",
+      "stress" : "ESI core component: stresses",
+      "cap_pri" : "Private sector responsiveness.",
+      "sys_wql" : "Water quality.",
+      "cap_eff" : "Eco-efficiency.",
+      "esi" : "Environmental Sustainability Index.",
+      "code" : "ISO3 country code.",
+      "str_was" : "Reducing waste and consumption pressures.",
+      "vul_hea" : "Environmental health.",
+      "sys_lan" : "Land.",
+      "sys_air" : "Air quality.",
+      "glo_tbp" : "Reducing transboundary environmental pressures.",
+      "glo_ghg" : "Greenhouse gas emissions.",
+      "cap" : "ESI core component: capacity",
+      "str_eco" : "Reducing ecosystem stress.",
+      "vul_sus" : "Basic human sustenance.",
+      "global" : "ESI core component: global stewardship",
+      "str_nrm" : "Natural resource management.",
+      "sys_bio" : "Biodiversity.",
+      "str_wat" : "Reducing water stress.",
+      "sys_wqn" : "Water quantity.",
+      "str_air" : "Reducing air pollution.",
+      "cap_st" : "Science and technology.",
+      "vul_dis" : "Exposure to natural disasters."
+   },
+   "title" : "Environmental Sustainability Index 2005",
+   "format" : "A data frame with 146 observations on the following 29 variables.",
+   "reference" : "ESI and Component scores are presented as standard normal percentiles.\nIndicator scores are in the form of z-scores. See Appendix A of the report\nfor information on the methodology and Appendix C for more detail on\noriginal data sources.",
+   "description" : "Description\nThis dataset comes from the 2005 Environmental Sustainability Index:\nBenchmarking National Environmental Stewardship.  Countries are given an\noverall sustainability score as well as scores in each of several different\nenvironmental areas.",
+   "usage" : "esi"
+}
+
 var esi = [
    [
       "code",

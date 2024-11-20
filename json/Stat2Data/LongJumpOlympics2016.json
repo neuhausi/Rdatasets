@@ -1,4 +1,5 @@
 {
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>LongJumpOlympics2016</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Olympic Men's Long Jump Gold Medal Distance (1900 - 2016)</h2>\n<h3>Description</h3>\n<p>Gold medal distance for Olympic men's long jump\n</p>\n<h3>Format</h3>\n<p>A data frame with 28 observations on the following 2 variables.\n</p>\n<dl>\n<dt><code>Year</code></dt><dd><p>Olympic Year (1900-2016)</p>\n</dd>\n<dt><code>Gold</code></dt><dd><p>Gold medal distance (in meters)</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>Gold medal winning distances for the men's long jump at the Olympics from 1900 to 2016.\n</p>\n<h3>Source</h3>\n<p>Historical Olympic long jump results at http://trackandfield.about.com/od/longjump/qt/olymlongjumpmen.htm\n</p>\n</main>\n</div>\n",
    "data" : {
       "y" : {
          "vars" : [
@@ -30,6 +31,10 @@
             "Var26",
             "Var27",
             "Var28"
+         ],
+         "smps" : [
+            "Year",
+            "Gold"
          ],
          "data" : [
             [
@@ -144,17 +149,12 @@
                2016,
                8.38
             ]
-         ],
-         "smps" : [
-            "Year",
-            "Gold"
          ]
       }
    },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>LongJumpOlympics2016</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Olympic Men's Long Jump Gold Medal Distance (1900 - 2016)</h2>\n<h3>Description</h3>\n<p>Gold medal distance for Olympic men's long jump\n</p>\n<h3>Format</h3>\n<p>A data frame with 28 observations on the following 2 variables.\n</p>\n<dl>\n<dt><code>Year</code></dt><dd><p>Olympic Year (1900-2016)</p>\n</dd>\n<dt><code>Gold</code></dt><dd><p>Gold medal distance (in meters)</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>Gold medal winning distances for the men's long jump at the Olympics from 1900 to 2016.\n</p>\n<h3>Source</h3>\n<p>Historical Olympic long jump results at http://trackandfield.about.com/od/longjump/qt/olymlongjumpmen.htm\n</p>\n</main>\n</div>\n",
    "config" : {
+      "subtitle" : "Stat2Data - LongJumpOlympics2016",
       "title" : "Olympic Men's Long Jump Gold Medal Distance (1900 - 2016)",
-      "graphType" : "Scatter2D",
-      "subtitle" : "Stat2Data - LongJumpOlympics2016"
+      "graphType" : "Scatter2D"
    }
 }

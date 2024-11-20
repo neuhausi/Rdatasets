@@ -1,11 +1,7 @@
 {
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>Blood1</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Blood Pressure, Weight, and Smoking Status</h2>\n<h3>Description</h3>\n<p>Systolic blood pressure, weight and smoking status for a sample of 500 adults\n</p>\n<h3>Format</h3>\n<p>A data frame with 500 observations on the following 3 variables.\n</p>\n<table>\n<tr>\n <td style=\"text-align: right;\">\n    <code>SystolicBP</code> </td><td style=\"text-align: left;\"> Systolic blood pressure (mm of Hg)</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Smoke</code> </td><td style=\"text-align: left;\"> <code>Y</code>=smoker or <code>N</code>=non-smoker</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Overwt</code> </td><td style=\"text-align: left;\"> <code>1</code>=normal, <code>2</code>=overweight, or <code>3</code>=obese</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n  </td>\n</tr>\n</table>\n<h3>Details</h3>\n<p>Data on systolic blood pressure, along with smoker status and weight status, for a sample of 500 adults.\n</p>\n<h3>Source</h3>\n<p>Data are part of a larger case study for the 2003 Annual Meeting of the Statistical Society of Canada. <br />\nhttp://www.ssc.ca/en/education/archived-case-studies/case-studies-for-the-2003-annual-meeting-blood-pressure.\n</p>\n</main>\n</div>\n",
    "data" : {
       "y" : {
-         "smps" : [
-            "SystolicBP",
-            "Smoke",
-            "Overwt"
-         ],
          "data" : [
             [
                133,
@@ -3009,13 +3005,17 @@
             "Var498",
             "Var499",
             "Var500"
+         ],
+         "smps" : [
+            "SystolicBP",
+            "Smoke",
+            "Overwt"
          ]
       }
    },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>Blood1</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Blood Pressure, Weight, and Smoking Status</h2>\n<h3>Description</h3>\n<p>Systolic blood pressure, weight and smoking status for a sample of 500 adults\n</p>\n<h3>Format</h3>\n<p>A data frame with 500 observations on the following 3 variables.\n</p>\n<table>\n<tr>\n <td style=\"text-align: right;\">\n    <code>SystolicBP</code> </td><td style=\"text-align: left;\"> Systolic blood pressure (mm of Hg)</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Smoke</code> </td><td style=\"text-align: left;\"> <code>Y</code>=smoker or <code>N</code>=non-smoker</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Overwt</code> </td><td style=\"text-align: left;\"> <code>1</code>=normal, <code>2</code>=overweight, or <code>3</code>=obese</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n  </td>\n</tr>\n</table>\n<h3>Details</h3>\n<p>Data on systolic blood pressure, along with smoker status and weight status, for a sample of 500 adults.\n</p>\n<h3>Source</h3>\n<p>Data are part of a larger case study for the 2003 Annual Meeting of the Statistical Society of Canada. <br />\nhttp://www.ssc.ca/en/education/archived-case-studies/case-studies-for-the-2003-annual-meeting-blood-pressure.\n</p>\n</main>\n</div>\n",
    "config" : {
+      "title" : "Blood Pressure",
       "graphType" : "Scatter3D",
-      "subtitle" : "Stat2Data - Blood1",
-      "title" : "Blood Pressure"
+      "subtitle" : "Stat2Data - Blood1"
    }
 }

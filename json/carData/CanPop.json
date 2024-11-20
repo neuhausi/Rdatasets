@@ -1,8 +1,8 @@
 {
    "config" : {
+      "graphType" : "Scatter2D",
       "title" : "Canadian Population Data",
-      "subtitle" : "carData - CanPop",
-      "graphType" : "Scatter2D"
+      "subtitle" : "carData - CanPop"
    },
    "data" : {
       "y" : {

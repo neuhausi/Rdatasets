@@ -1,3 +1,16 @@
+var GunInfo ={
+   "description" : "Description\nThe Gun data frame has 36 rows and 4 columns.",
+   "parameters" : {
+      "Team" : "an ordered factor with levels\nT1S < T3S < T2S < T1A <\nT2A < T3A < T1H < T3H <\nT2H",
+      "Physique" : "an ordered factor with levels\nSlight < Average < Heavy",
+      "Method" : "a factor with levels\nM1 \nM2",
+      "rounds" : "a numeric vector"
+   },
+   "usage" : "This data frame contains the following columns:",
+   "title" : "Methods for firing naval guns",
+   "reference" : "Hicks (p.180, 1993) reports data from an experiment on\nmethods for firing naval guns. Gunners of three different physiques\n(slight, average, and heavy) tested two firing methods. Both methods\nwere tested twice by each of nine teams of three gunners with\nidentical physique. The response was the number of rounds fired per\nminute."
+}
+
 var Gun = [
    [
       "rounds",

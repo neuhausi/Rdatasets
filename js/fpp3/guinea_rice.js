@@ -1,3 +1,10 @@
+var guinea_riceInfo ={
+   "description" : "Description\nTotal annual rice production (million metric tons) for Guinea. 1970-2011.",
+   "usage" : "Annual time series of class 'tsibble'.",
+   "title" : "Rice production (Guinea)",
+   "format" : "World Bank."
+}
+
 var guinea_rice = [
    [
       "Year",

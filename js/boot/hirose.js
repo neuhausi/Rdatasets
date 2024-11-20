@@ -1,3 +1,16 @@
+var hiroseInfo ={
+   "description" : "Description\nThe hirose data frame has 44 rows and 3 columns.\nPET film is used in electrical insulation.  In this accelerated life test\nthe failure times for 44 samples in gas insulated transformers.  4 different\nvoltage levels were used.",
+   "usage" : "hirose",
+   "parameters" : {
+      "cens" : "The censoring indicator; 1 means right-censored data.",
+      "volt" : "The voltage (in kV).",
+      "time" : "The failure or censoring time in hours."
+   },
+   "title" : "Failure Time of PET Film",
+   "format" : "This data frame contains the following columns:",
+   "reference" : "The data were obtained from"
+}
+
 var hirose = [
    [
       "volt",

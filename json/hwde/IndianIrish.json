@@ -1,80 +1,18 @@
 {
    "config" : {
-      "subtitle" : "hwde - IndianIrish",
+      "title" : "Observed genotype frequencies at MN and S loci",
       "segregateSamplesBy" : [
-         "locus2",
-         "locus1"
+         "locus1",
+         "locus2"
       ],
-      "graphType" : "Boxplot",
+      "subtitle" : "hwde - IndianIrish",
       "colorBy" : "variable",
+      "graphType" : "Boxplot",
       "groupingFactors" : [
          "Population"
-      ],
-      "title" : "Observed genotype frequencies at MN and S loci"
+      ]
    },
    "data" : {
-      "x" : {
-         "Population" : [
-            "Indian",
-            "Indian",
-            "Indian",
-            "Indian",
-            "Indian",
-            "Indian",
-            "Indian",
-            "Indian",
-            "Indian",
-            "Irish",
-            "Irish",
-            "Irish",
-            "Irish",
-            "Irish",
-            "Irish",
-            "Irish",
-            "Irish",
-            "Irish"
-         ],
-         "locus2" : [
-            "SS",
-            "Ss",
-            "ss",
-            "SS",
-            "Ss",
-            "ss",
-            "SS",
-            "Ss",
-            "ss",
-            "SS",
-            "Ss",
-            "ss",
-            "SS",
-            "Ss",
-            "ss",
-            "SS",
-            "Ss",
-            "ss"
-         ],
-         "locus1" : [
-            "MM",
-            "MM",
-            "MM",
-            "MN",
-            "MN",
-            "MN",
-            "NN",
-            "NN",
-            "NN",
-            "MM",
-            "MM",
-            "MM",
-            "MN",
-            "MN",
-            "MN",
-            "NN",
-            "NN",
-            "NN"
-         ]
-      },
       "y" : {
          "data" : [
             [
@@ -98,6 +36,9 @@
                241
             ]
          ],
+         "vars" : [
+            "Observed"
+         ],
          "smps" : [
             "Smp1",
             "Smp2",
@@ -117,9 +58,68 @@
             "Smp16",
             "Smp17",
             "Smp18"
+         ]
+      },
+      "x" : {
+         "Population" : [
+            "Indian",
+            "Indian",
+            "Indian",
+            "Indian",
+            "Indian",
+            "Indian",
+            "Indian",
+            "Indian",
+            "Indian",
+            "Irish",
+            "Irish",
+            "Irish",
+            "Irish",
+            "Irish",
+            "Irish",
+            "Irish",
+            "Irish",
+            "Irish"
          ],
-         "vars" : [
-            "Observed"
+         "locus1" : [
+            "MM",
+            "MM",
+            "MM",
+            "MN",
+            "MN",
+            "MN",
+            "NN",
+            "NN",
+            "NN",
+            "MM",
+            "MM",
+            "MM",
+            "MN",
+            "MN",
+            "MN",
+            "NN",
+            "NN",
+            "NN"
+         ],
+         "locus2" : [
+            "SS",
+            "Ss",
+            "ss",
+            "SS",
+            "Ss",
+            "ss",
+            "SS",
+            "Ss",
+            "ss",
+            "SS",
+            "Ss",
+            "ss",
+            "SS",
+            "Ss",
+            "ss",
+            "SS",
+            "Ss",
+            "ss"
          ]
       }
    },

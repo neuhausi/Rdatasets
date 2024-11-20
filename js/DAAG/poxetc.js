@@ -1,3 +1,10 @@
+var poxetcInfo ={
+   "description" : "Description\nDeaths from \"flux\" or smallpox, measles, all causes, and ratios\nof the the first two categories to total deaths.",
+   "usage" : "data(poxetc)",
+   "format" : "This is a multiple time series consisting of 5 series:\nfpox, measles, all, fpox2all, measles2all.",
+   "title" : "Deaths from various causes, in London from 1629 till 1881, with gaps"
+}
+
 var poxetc = [
    [
       "fpox",

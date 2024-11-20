@@ -1,3 +1,10 @@
+var TVInfo ={
+   "description" : "Description\nThis data set TV comprises a 5 x 11 x 3 contingency table based on\naudience viewing data from Neilsen Media Research for the week starting\nNovember 6, 1995.",
+   "usage" : "data(TV)",
+   "title" : "TV Viewing Data",
+   "format" : "A 5 x 11 x 3 array of cell frequencies with the following structure:"
+}
+
 var TV = [
    [
       "8:00.ABC",

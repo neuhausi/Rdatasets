@@ -1,4 +1,5 @@
 {
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>tomato</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Root weights of tomato plants exposed to 4 different treatments</h2>\n<h3>Description</h3>\n<p>The <code>tomato</code> data frame has 24 rows and 2 columns.\nThey are from an experiment that exposed tomato plants\nto four different 'nutrients'.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(tomato)</code></pre>\n<h3>Format</h3>\n<p>This data frame contains the following columns:\n</p>\n<dl>\n<dt>weight</dt><dd><p>weight, in g</p>\n</dd>\n<dt>trt</dt><dd><p>a factor with levels\n<code>water only</code>,\n<code>conc nutrient</code>,\n<code>2-4-D + conc nutrient</code>,\n<code>3x conc nutrient</code></p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>Dr Ron Balham, Victoria University of Wellington NZ, sometime\nin 1971 - 1976.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>tomato.aov &lt;- aov(log(weight) ~ trt, data=tomato)\nfitted.values(tomato.aov)\nsummary.lm(tomato.aov)\ntomato.aov &lt;- aov(formula = weight ~ trt, data = tomato)\nsummary.lm(tomato.aov)\n</code></pre>\n</main>\n</div>\n",
    "data" : {
       "x" : {
          "trt" : [
@@ -29,32 +30,6 @@
          ]
       },
       "y" : {
-         "smps" : [
-            "Smp1",
-            "Smp2",
-            "Smp3",
-            "Smp4",
-            "Smp5",
-            "Smp6",
-            "Smp7",
-            "Smp8",
-            "Smp9",
-            "Smp10",
-            "Smp11",
-            "Smp12",
-            "Smp13",
-            "Smp14",
-            "Smp15",
-            "Smp16",
-            "Smp17",
-            "Smp18",
-            "Smp19",
-            "Smp20",
-            "Smp21",
-            "Smp22",
-            "Smp23",
-            "Smp24"
-         ],
          "data" : [
             [
                1.5,
@@ -85,15 +60,40 @@
          ],
          "vars" : [
             "weight"
+         ],
+         "smps" : [
+            "Smp1",
+            "Smp2",
+            "Smp3",
+            "Smp4",
+            "Smp5",
+            "Smp6",
+            "Smp7",
+            "Smp8",
+            "Smp9",
+            "Smp10",
+            "Smp11",
+            "Smp12",
+            "Smp13",
+            "Smp14",
+            "Smp15",
+            "Smp16",
+            "Smp17",
+            "Smp18",
+            "Smp19",
+            "Smp20",
+            "Smp21",
+            "Smp22",
+            "Smp23",
+            "Smp24"
          ]
       }
    },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>tomato</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Root weights of tomato plants exposed to 4 different treatments</h2>\n<h3>Description</h3>\n<p>The <code>tomato</code> data frame has 24 rows and 2 columns.\nThey are from an experiment that exposed tomato plants\nto four different 'nutrients'.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(tomato)</code></pre>\n<h3>Format</h3>\n<p>This data frame contains the following columns:\n</p>\n<dl>\n<dt>weight</dt><dd><p>weight, in g</p>\n</dd>\n<dt>trt</dt><dd><p>a factor with levels\n<code>water only</code>,\n<code>conc nutrient</code>,\n<code>2-4-D + conc nutrient</code>,\n<code>3x conc nutrient</code></p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>Dr Ron Balham, Victoria University of Wellington NZ, sometime\nin 1971 - 1976.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>tomato.aov &lt;- aov(log(weight) ~ trt, data=tomato)\nfitted.values(tomato.aov)\nsummary.lm(tomato.aov)\ntomato.aov &lt;- aov(formula = weight ~ trt, data = tomato)\nsummary.lm(tomato.aov)\n</code></pre>\n</main>\n</div>\n",
    "config" : {
+      "colorBy" : "variable",
+      "title" : "Root weights of tomato plants exposed to 4 different treatments",
       "graphType" : "Boxplot",
       "subtitle" : "DAAG - tomato",
-      "title" : "Root weights of tomato plants exposed to 4 different treatments",
-      "colorBy" : "variable",
       "groupingFactors" : [
          "trt"
       ]

@@ -1,3 +1,17 @@
+var chickweedInfo ={
+   "description" : "Description\nGermination data from tests of chickweed seeds from chlorsulfuron resistant and sensitive biotypes",
+   "usage" : "data(chickweed)",
+   "parameters" : {
+      "start" : "a numeric vector of left endpoints of the monitoring intervals",
+      "time" : "a numeric vector of the non-zero left endpoints of the monitoring intervals (often used for recording in practice)",
+      "count" : "a numeric vector of the number of seeds germinated in the interval between start and end",
+      "end" : "a numeric vector of right endpoints of the monitoring intervals"
+   },
+   "title" : "Germination of common chickweed (Stellaria media)",
+   "format" : "A data frame with 35 observations on the following 3 variables.",
+   "reference" : "The germination tests of chickweed seeds from chlorsulfuron resistant and sensitive biotypes in central Zealand were \ndone in petri dishes (diameter: 9.0cm) in a dark growth cabinet at a temperature of 5 degrees Celsius. The seeds were incubated for \n24 hours in a 0.3% solution of potassium nitrate in order to imbibe seeds prior to the test. A total of 200 seeds were placed on filter plate. \nAfter initialization of the tests, the number of germinated seeds was recorded and removed at 34 consecutive inspection times. \nDefinition of a germinated seed was the breakthrough of the seed testa by the radicle."
+}
+
 var chickweed = [
    [
       "start",

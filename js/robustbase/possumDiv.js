@@ -1,3 +1,20 @@
+var possumDivInfo ={
+   "parameters" : {
+      "Shrubs" : "the number of shrubs.",
+      "Stumps" : "the number of cut stumps from past logging operations.",
+      "Diversity" : "main variable of interest is the number of\ndifferent species of arboreal marsupial (possum) observed, with\nvalues in 0:5.",
+      "BAcacia" : "a numeric vector giving the basal area of acacia species.",
+      "Bark" : "bark index (integer) vector reflecting the quantity of\ndecorticating bark.",
+      "Habitat" : "an integer score indicating the suitability of\nnesting and foraging habitat for Leadbeater's possum.",
+      "Stags" : "the number of stags (hollow-bearing trees)."
+   },
+   "title" : "Possum Diversity Data",
+   "format" : "Two different representations of the same data are available:",
+   "reference" : "Eva Cantoni (2004)\nAnalysis of Robust Quasi-deviances for Generalized Linear Models.\nJournal of Statistical Software 10, 04,\nhttps://www.jstatsoft.org/article/view/v010i04",
+   "description" : "Description\nPossum diversity data: As issued from a study of the diversity\nof possum (arboreal marsupials) in the Montane ash forest (Australia),\nthis dataset was collected in view of the management of hardwood\nforest to take conservation and recreation values, as well as wood\nproduction, into account.\nThe study is fully described in the two references.\nThe number of different species of arboreal marsupials (possum) was\nobserved on 151 different 3ha sites with uniform vegetation. For each\nsite the nine variable measures (see below) were recorded.\nThe problem is to model the relationship between diversity and these\nother variables.",
+   "usage" : "data(possumDiv, package=\"robustbase\")"
+}
+
 var possumDiv = [
    [
       "Diversity",

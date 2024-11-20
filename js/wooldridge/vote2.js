@@ -1,3 +1,39 @@
+var vote2Info ={
+   "parameters" : {
+      "democ" : " =1 if incumbent democrat",
+      "clinexp" : " linexp90 - linexp88",
+      "linexp90" : " log(inexp90)",
+      "incshr90" : " 100*(inexp90/(inexp90+chexp90))",
+      "vote90" : " inc. share two-party vote, 1990",
+      "cwin" : " win90 - win88",
+      "linexp88" : " log(inexp88)",
+      "vote88" : " inc. share two-party vote, 1988",
+      "incshr88" : " 100*(inexp88/(inexp88+chexp88))",
+      "win88" : " =1 by definition",
+      "clchexp" : " lchexp90 - lchexp88",
+      "lawyer" : " =1 if law degree",
+      "win90" : " =1 if inc. wins, 1990",
+      "district" : " U.S. Congressional district",
+      "state" : " state postal code",
+      "rptchall" : " =1 if a repeat challenger",
+      "chexp90" : " chl. camp. expends., 1990",
+      "inexp88" : " inc. camp. expends., 1988",
+      "prtystr" : " percent vote pres., same party, 1988",
+      "tenure" : " years in H.R.",
+      "lchexp88" : " log(chexp88)",
+      "chexp88" : " chl. camp. expends., 1988",
+      "cincshr" : " incshr90 - incshr88",
+      "cvote" : " vote90 - vote88",
+      "lchexp90" : " log(chexp90)",
+      "inexp90" : " inc. camp. expends., 1990"
+   },
+   "title" : "vote2",
+   "reference" : "These are panel data, at the Congressional district level, collected for the 1988 and 1990 U.S. House of Representative elections. Of course, much more recent data are available, possibly even in electronic form.",
+   "format" : "A data.frame with 186 observations on 26 variables:",
+   "description" : "Description\nWooldridge Source: See VOTE1.RAW Data loads lazily.",
+   "usage" : "data('vote2')"
+}
+
 var vote2 = [
    [
       "state",

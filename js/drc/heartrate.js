@@ -1,3 +1,15 @@
+var heartrateInfo ={
+   "format" : "A data frame with 18 observations on the following 2 variables.",
+   "title" : "Heart rate baroreflexes for rabbits",
+   "reference" : "The dataset is an example of an asymmetric dose-response curve, that is not\neasily handled using the log-logistic or Weibull models (LL.4, LL.5, \nW1.4 and W2.4), whereas the baro5 model provides a nice fit.",
+   "parameters" : {
+      "pressure" : "a numeric vector containing measurements of arterial pressure.",
+      "rate" : "a numeric vector containing measurements of heart rate."
+   },
+   "usage" : "data(heartrate)",
+   "description" : "Description\nThe dataset contains measurements of mean arterial pressure (mmHG) and heart rate (b/min) for a baroreflex curve."
+}
+
 var heartrate = [
    [
       "pressure",

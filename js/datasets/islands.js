@@ -1,3 +1,10 @@
+var islandsInfo ={
+   "format" : "A named vector of length 48.",
+   "title" : "Areas of the World's Major Landmasses",
+   "usage" : "islands",
+   "description" : "Description\nThe areas in thousands of square miles of the landmasses which exceed\n10,000 square miles."
+}
+
 var islands = [
    [
       "dat"

@@ -1,3 +1,10 @@
+var veteranInfo ={
+   "description" : "Description\nRandomised trial of two treatment regimens for lung cancer.\nThis is a standard survival analysis data set.",
+   "format" : "trt: 1=standard 2=test\n\n\n \n    celltype: 1=squamous,  2=smallcell,  3=adeno,  4=large\n\n\n \n    time: survival time\n\n\n \n    status: censoring status\n\n\n \n    karno: Karnofsky performance score (100=good)\n\n\n \n    diagtime: months from diagnosis to randomisation\n\n\n \n    age: in years\n\n\n \n    prior: prior therapy 0=no, 10=yes",
+   "title" : "Veterans' Administration Lung Cancer study",
+   "usage" : "veteran\ndata(cancer, package=\"survival\")"
+}
+
 var veteran = [
    [
       "trt",

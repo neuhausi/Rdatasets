@@ -1,3 +1,17 @@
+var AirlinesInfo ={
+   "usage" : "A data frame with 10333 observations on the following 5 variables.",
+   "title" : "Ontime Records for Two Airlines at Two Airports",
+   "reference" : "Ontime/late data for individual flights to LaGuardia and O'Hare airports by American and Delta airlines.",
+   "parameters" : {
+      "IndDelta" : "Is the airline Delta? (1=yes or 0=no)",
+      "airport" : "LGA=LaGuardia ORD=O'Hare",
+      "IndOHare" : "Is the airport ORD? (1=yes or 0=no)",
+      "airline" : "American or Delta",
+      "OnTime" : "no or yes"
+   },
+   "description" : "Description\nOntime arrivals for American and Delta airlines at LaGuardia and O'Hare airports"
+}
+
 var Airlines = [
    [
       "airline",

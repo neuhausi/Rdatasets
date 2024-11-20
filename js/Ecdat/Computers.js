@@ -1,3 +1,23 @@
+var ComputersInfo ={
+   "title" : "Prices of Personal Computers",
+   "reference" : "Stengos, T.  and  E.  Zacharias (2005) &ldquo;Intertemporal pricing and price discrimination : a semiparametric hedonic analysis of the personal computer market&rdquo;, Journal of Applied Econometrics, forthcoming.",
+   "format" : "A dataframe containing :",
+   "parameters" : {
+      "price" : "price in US dollars of 486 PCs",
+      "speed" : "clock speed in MHz",
+      "hd" : "size of hard drive in MB",
+      "ads" : "number of 486 price listings for each month",
+      "ram" : "size of Ram in in MB",
+      "premium" : "is the manufacturer was a \"premium\" firm (IBM, COMPAQ) ?",
+      "trend" : "time trend indicating month starting from January of 1993 to November of 1995.",
+      "cd" : "is a CD-ROM present  ?",
+      "multi" : "is a multimedia kit (speakers, sound card) included ?",
+      "screen" : "size of screen in inches"
+   },
+   "usage" : "data(Computers)",
+   "description" : "Description\na cross-section from 1993 to 1995\nnumber of observations :  6259\nobservation :  goods\ncountry :  United States"
+}
+
 var Computers = [
    [
       "price",

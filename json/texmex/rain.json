@@ -1,8 +1,8 @@
 {
    "config" : {
       "title" : "Rain",
-      "subtitle" : "texmex - rain",
-      "graphType" : "Treemap"
+      "graphType" : "Treemap",
+      "subtitle" : "texmex - rain"
    },
    "data" : {
       "y" : {

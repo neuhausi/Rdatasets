@@ -1,3 +1,15 @@
+var Animals2Info ={
+   "description" : "Description\nA data frame with average brain and body weights for 62 species\nof land mammals and three others.\nNote that this is simply the union of Animals\nand mammals.",
+   "usage" : "Animals2",
+   "parameters" : {
+      "brain" : "brain weight in g",
+      "body" : "body weight in kg"
+   },
+   "reference" : "After loading the MASS package, the data set is simply constructed by\nAnimals2 <- local({D <- rbind(Animals, mammals);\n      unique(D[order(D$body,D$brain),])}).",
+   "title" : "Brain and Body Weights for 65 Species of Land Animals",
+   "format" : "bodybody weight in kg\n\nbrainbrain weight in g"
+}
+
 var Animals2 = [
    [
       "body",

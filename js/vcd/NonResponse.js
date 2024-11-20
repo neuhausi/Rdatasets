@@ -1,3 +1,17 @@
+var NonResponseInfo ={
+   "parameters" : {
+      "response" : "factor indicating whether a response was given (yes,\nno).",
+      "gender" : "factor indicating gender (male, female).",
+      "Freq" : "frequency.",
+      "residence" : "factor indicating whether residence was in\nCopenhagen, in a city outside Copenhagen or at the countryside\n(Copenhagen, City, Country)."
+   },
+   "title" : "Non-Response Survey Data",
+   "format" : "A data frame with 12 observations and 4 variables.",
+   "reference" : "E. B. Andersen (1991),\nThe Statistical Analysis of Categorical Data, Table 5.17.",
+   "description" : "Description\nData about non-response for a Danish survey in 1965.",
+   "usage" : "data(\"NonResponse\")"
+}
+
 var NonResponse = [
    [
       "Freq",

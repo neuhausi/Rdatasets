@@ -1,3 +1,15 @@
+var PublicSchoolsInfo ={
+   "description" : "Description\nPer capita expenditure on public schools and per capita income\nby state in 1979.",
+   "usage" : "data(\"PublicSchools\")",
+   "parameters" : {
+      "Income" : "per capita income.",
+      "Expenditure" : "per capita expenditure on public schools,"
+   },
+   "format" : "A data frame containing 51 observations of 2 variables.",
+   "title" : "US Expenditures for Public Schools",
+   "reference" : "Table 14.1 in Greene (1993)"
+}
+
 var PublicSchools = [
    [
       "Expenditure",

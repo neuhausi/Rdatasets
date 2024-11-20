@@ -1,3 +1,16 @@
+var muscleInfo ={
+   "reference" : "Linder, A., Chakravarti, I. M. and Vuagnat, P. (1964)\nFitting asymptotic regression curves with different asymptotes.  In\nContributions to Statistics. Presented to Professor P. C. Mahalanobis\non the occasion of his 70th birthday,\ned. C. R. Rao, pp. 221&ndash;228. Oxford: Pergamon Press.",
+   "format" : "This data frame contains the following columns:",
+   "title" : "Effect of Calcium Chloride on Muscle Contraction in Rat Hearts",
+   "parameters" : {
+      "Length" : "the change in length (shortening) of the strip, (allegedly) in mm.",
+      "Conc" : "concentration of calcium chloride solution, in multiples of 2.2 mM.",
+      "Strip" : "which heart muscle strip was used?"
+   },
+   "usage" : "muscle",
+   "description" : "Description\nThe purpose of this experiment was to assess the influence of\ncalcium in solution on the contraction of heart muscle in rats.\nThe left auricle of 21 rat hearts was isolated and on several\noccasions a constant-length strip of tissue was electrically\nstimulated and dipped into various concentrations of calcium\nchloride solution, after which the shortening of the strip was\naccurately measured as the response."
+}
+
 var muscle = [
    [
       "Strip",

@@ -1,3 +1,10 @@
+var HeckmanInfo ={
+   "usage" : "data(Heckman)",
+   "format" : "A 5-dimensional 2^5 array resulting from cross-tabulating 5 binary variables for 1583 observations. The variable names and their levels are:",
+   "title" : "Labour Force Participation of Married Women 1967-1971",
+   "description" : "Description\n1583 married women were surveyed over the years 1967-1971, \nrecording whether or not they were employed in the labor force.\nThe data, originally from Heckman & Willis (1977) provide an example\nof modeling longitudinal categorical data, e.g., with markov chain\nmodels for dependence over time."
+}
+
 var Heckman = [
    [
       "e1971",

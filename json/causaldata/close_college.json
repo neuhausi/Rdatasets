@@ -1,5 +1,12 @@
 {
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>close_college</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Data from Card (1995) to estimate the effect of college education on earnings</h2>\n<h3>Description</h3>\n<p>Data from the National Longitudinal Survey Young Men Cohort. This data is used to estimate the effect of college education on earnings, using the presence of a nearby (in-county) college as an instrument for college attendance.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>close_college\n</code></pre>\n<h3>Format</h3>\n<p>A data frame with 3010 rows and 8 variables\n</p>\n<dl>\n<dt>lwage</dt><dd><p>Log wages</p>\n</dd>\n<dt>educ</dt><dd><p>Years of education</p>\n</dd>\n<dt>exper</dt><dd><p>Years of work experience</p>\n</dd>\n<dt>black</dt><dd><p>Race: Black</p>\n</dd>\n<dt>south</dt><dd><p>In the southern United States</p>\n</dd>\n<dt>married</dt><dd><p>Is married</p>\n</dd>\n<dt>smsa</dt><dd><p>In a Standard Metropolitan Statistical Area (urban)</p>\n</dd>\n<dt>nearc4</dt><dd><p>There is a four-year college in the county</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>This data is used in the <em>Instrumental Variables</em> chapter of <em>Causal Inference: The Mixtape</em> by Cunningham.\n</p>\n<h3>Source</h3>\n<p>Card, David. 1995. âAspects of Labour Economics: Essays in Honour of John Vanderkamp.â In. University of Toronto Press.\n</p>\n<h3>References</h3>\n<p>Cunningham. 2021. Causal Inference: The Mixtape. Yale Press. <a href=\"https://mixtape.scunning.com/index.html\">https://mixtape.scunning.com/index.html</a>.\n</p>\n</main>\n</div>\n",
+   "config" : {
+      "smpOverlays" : [
+         "married"
+      ],
+      "title" : "Data from Card (1995) to estimate the effect of college education on earnings",
+      "graphType" : "Heatmap",
+      "subtitle" : "causaldata - close_college"
+   },
    "data" : {
       "x" : {
          "married" : [
@@ -27125,12 +27132,5 @@
          ]
       }
    },
-   "config" : {
-      "subtitle" : "causaldata - close_college",
-      "graphType" : "Heatmap",
-      "smpOverlays" : [
-         "married"
-      ],
-      "title" : "Data from Card (1995) to estimate the effect of college education on earnings"
-   }
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>close_college</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Data from Card (1995) to estimate the effect of college education on earnings</h2>\n<h3>Description</h3>\n<p>Data from the National Longitudinal Survey Young Men Cohort. This data is used to estimate the effect of college education on earnings, using the presence of a nearby (in-county) college as an instrument for college attendance.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>close_college\n</code></pre>\n<h3>Format</h3>\n<p>A data frame with 3010 rows and 8 variables\n</p>\n<dl>\n<dt>lwage</dt><dd><p>Log wages</p>\n</dd>\n<dt>educ</dt><dd><p>Years of education</p>\n</dd>\n<dt>exper</dt><dd><p>Years of work experience</p>\n</dd>\n<dt>black</dt><dd><p>Race: Black</p>\n</dd>\n<dt>south</dt><dd><p>In the southern United States</p>\n</dd>\n<dt>married</dt><dd><p>Is married</p>\n</dd>\n<dt>smsa</dt><dd><p>In a Standard Metropolitan Statistical Area (urban)</p>\n</dd>\n<dt>nearc4</dt><dd><p>There is a four-year college in the county</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>This data is used in the <em>Instrumental Variables</em> chapter of <em>Causal Inference: The Mixtape</em> by Cunningham.\n</p>\n<h3>Source</h3>\n<p>Card, David. 1995. âAspects of Labour Economics: Essays in Honour of John Vanderkamp.â In. University of Toronto Press.\n</p>\n<h3>References</h3>\n<p>Cunningham. 2021. Causal Inference: The Mixtape. Yale Press. <a href=\"https://mixtape.scunning.com/index.html\">https://mixtape.scunning.com/index.html</a>.\n</p>\n</main>\n</div>\n"
 }

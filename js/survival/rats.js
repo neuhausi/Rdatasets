@@ -1,3 +1,10 @@
+var ratsInfo ={
+   "description" : "Description\nRat treatment data from Mantel et al.\nThree rats were chosen from each of 100 litters, one of which was\ntreated with a drug, and then all followed for tumor incidence.",
+   "usage" : "rats\ndata(cancer, package=\"survival\")",
+   "format" : "litter: litter number from 1 to 100\n\n\n \n    rx: treatment,(1=drug, 0=control) \n\n\n \n    time: time to tumor or last follow-up\n\n\n \n    status: event status, 1=tumor and 0=censored\n\n\n \n    sex: male or female",
+   "title" : "Rat treatment data from Mantel et al"
+}
+
 var rats = [
    [
       "group",

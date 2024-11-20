@@ -1,3 +1,21 @@
+var BreslauInfo ={
+   "parameters" : {
+      "year1690" : "a numeric vector",
+      "age" : "a numeric vector",
+      "year1691" : "a numeric vector",
+      "year1689" : "a numeric vector",
+      "year1687" : "a numeric vector",
+      "year1688" : "a numeric vector",
+      "average" : "a numeric vector",
+      "total" : "a numeric vector"
+   },
+   "format" : "A data frame with 100 observations on the following 8 variables. The yearXXXX variables give the number of deaths for persons of a given age recorded in that year.",
+   "reference" : "This dataset was kindly provided by David Bellhouse.",
+   "title" : "Halley's Breslau Life Table",
+   "description" : "Description\nEdmond Halley published his Breslau life table in 1693, which was arguably the first\nin the world based on population data. David Bellhouse (2011) resurrected the original\nsources of these data, collected by Caspar Neumann in the city of Breslau (now called Wroclaw),\nand then reconstructed in the 1880s by Jonas Graetzer, the medical officer\nin Breslau at that time.\nThe dataset here follows Graetzer, and gives the number of deaths\nat ages 1:100 recorded in each of the years 1687:1691. Halley's analysis was based on the total\nover those years.",
+   "usage" : "data(\"Breslau\")"
+}
+
 var Breslau = [
    [
       "age",

@@ -1,3 +1,43 @@
+var cementInfo ={
+   "reference" : "Compared with Sheaâs analysis, the producer price index (PPI) for fuels and power has been replaced with the PPI for petroleum. The data are monthly and have not been seasonally adjusted.",
+   "format" : "A data.frame with 312 observations on 30 variables:",
+   "title" : "cement",
+   "parameters" : {
+      "mar" : " =1 if month == 3",
+      "rnonc" : " real nonres. construction",
+      "gprcpet" : " log(prcpet) - log(prcpet[_n-1])",
+      "dec" : " =1 if month == 12",
+      "rdefs" : " real defense spending",
+      "ip" : " aggregate index of indus. prod.",
+      "ipcem" : " industrial prod. index, cement",
+      "prccem" : " BLS ppi for cement",
+      "milemp" : " military employment",
+      "jul" : " =1 if month == 7",
+      "jan" : " =1 if month == 1",
+      "apr" : " =1 if month == 4",
+      "may" : " =1 if month == 5",
+      "oct" : " =1 if month == 10",
+      "gres" : " log(rresc) - log(rresc[_n-1])",
+      "prcpet" : " ppi for crude petroleum",
+      "gnon" : " log(rnonc) - log(rnonc[_n-1])",
+      "jun" : " =1 if month == 6",
+      "sep" : " =1 if month == 9",
+      "gprc" : " log(prccem) - log(prccem[_n-1])",
+      "feb" : " =1 if month == 2",
+      "gmilemp" : " log(milemp) - log(milemp[_n-1])",
+      "gcem" : " log(ipcem) - log(ipcem[_n-1])",
+      "nov" : " =1 if month == 11",
+      "gdefs" : " log(rdefs) - log(rdefs[_n-1])",
+      "month" : " 1-12",
+      "year" : " 1964-1989",
+      "aug" : " =1 if month == 8",
+      "gip" : " log(ip) - log(ip[_n-1])",
+      "rresc" : " real residential construction"
+   },
+   "usage" : "data('cement')",
+   "description" : "Description\nWooldridge Source: J. Shea (1993), âThe Input-Output Approach to Instrument Selection,â Journal of Business and Economic Statistics 11, 145-156. Professor Shea kindly provided these data. Data loads lazily."
+}
+
 var cement = [
    [
       "year",

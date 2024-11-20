@@ -1,3 +1,17 @@
+var SBCDInfo ={
+   "usage" : "SBCD",
+   "description" : "Description\nA data set on banking, currency, debt, and debt-restructuring crises from\n1970 to 2017.",
+   "title" : "Systemic Banking Crises Database II",
+   "format" : "A data frame with 574 observations on the following 4 variables.",
+   "reference" : "Data are cobbled from the second and third sheets of the spreadsheet\nthe authors provide. Country names are as entered in their spreadsheet.\nLiberia has an \"NA\" in the raw data for sovereign debt restructuring and I\ndon't know why. I elect to keep it.",
+   "parameters" : {
+      "country" : "the country, as it appears in the data",
+      "month" : "the month the crisis started, if known",
+      "type" : "the type of crisis, entered here as \"banking\", \"currency\", \"debt\", or \"debtrestructuring\"",
+      "year" : "the year of the crisis"
+   }
+}
+
 var SBCD = [
    [
       "country",

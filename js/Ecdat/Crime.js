@@ -1,3 +1,37 @@
+var CrimeInfo ={
+   "reference" : "Thanks to Yungfong \"Frank\" Tang for identifying \nan error in the description of \"density\", \npreviously documented erroneously as only \"people \nper square mile\".",
+   "title" : "Crime in North Carolina",
+   "format" : "A dataframe containing :",
+   "parameters" : {
+      "wmfg" : "weekly wage in manufacturing",
+      "wser" : "weekly wage in service industry",
+      "polpc" : "police per capita",
+      "wcon" : "weekly wage in construction",
+      "county" : "county identifier",
+      "year" : "year from 1981 to 1987",
+      "prbconv" : "'probability' of conviction",
+      "smsa" : "'yes' or 'no' if in SMSA",
+      "region" : "one of 'other', 'west' or 'central'",
+      "avgsen" : "average sentence, days",
+      "wsta" : "weekly wage of state employees",
+      "mix" : "offense mix: face-to-face/other",
+      "pctmin" : "percentage minority in 1980",
+      "wtuc" : "weekly wage in trns, util, commun",
+      "wloc" : "weekly wage of local governments employees",
+      "density" : "hundreds of people per square mile",
+      "wfed" : "weekly wage of federal employees",
+      "wtrd" : "weekly wage in whole sales and retail trade",
+      "wfir" : "weekly wage in finance, insurance and real\nestate",
+      "pctymle" : "percentage of young males",
+      "prbarr" : "'probability' of arrest",
+      "crmrte" : "crimes committed per person",
+      "taxpc" : "tax revenue per capita",
+      "prbpris" : "'probability' of prison sentence"
+   },
+   "usage" : "data(Crime)",
+   "description" : "Description\na panel of 90 observations  from 1981  to 1987\nnumber of observations :  630\nobservation :  regional\ncountry :  United States"
+}
+
 var Crime = [
    [
       "county",

@@ -1,3 +1,14 @@
+var ConsumptionInfo ={
+   "format" : "A time series containing :",
+   "title" : "Quarterly Data on Consumption and Expenditure",
+   "usage" : "data(Consumption)",
+   "parameters" : {
+      "ce" : "personal consumption expenditure, 1986 dollars",
+      "yd" : "personal disposable income, 1986 dollars"
+   },
+   "description" : "Description\nquarterly observations from 1947-1 to 1996-4\nnumber of observations :  200\nobservation :  country\ncountry :  Canada"
+}
+
 var Consumption = [
    [
       "yd",

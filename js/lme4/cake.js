@@ -1,3 +1,17 @@
+var cakeInfo ={
+   "usage" : "A data frame with 270 observations on the following 5 variables.",
+   "reference" : "The replicate factor is nested within the\nrecipe factor, and temperature is nested\nwithin replicate.",
+   "title" : "Breakage Angle of Chocolate Cakes",
+   "parameters" : {
+      "replicate" : "a factor with levels 1 to 15",
+      "angle" : "a numeric vector giving the angle at which the\ncake broke.",
+      "recipe" : "a factor with levels A, B and C",
+      "temp" : "numeric value of the baking temperature (degrees F).",
+      "temperature" : "an ordered factor with levels 175\n< 185 < 195 < 205 < 215 < 225"
+   },
+   "description" : "Description\nData on the breakage angle of chocolate cakes made with\nthree different recipes and baked at six different\ntemperatures.  This is a split-plot design with the\nrecipes being whole-units and the different temperatures\nbeing applied to sub-units (within replicates). The\nexperimental notes suggest that the replicate numbering\nrepresents temporal ordering."
+}
+
 var cake = [
    [
       "replicate",

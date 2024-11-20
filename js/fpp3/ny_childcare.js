@@ -1,3 +1,10 @@
+var ny_childcareInfo ={
+   "format" : "ny_childcare contains monthly data with two columns:",
+   "title" : "New York childcare data",
+   "usage" : "Time series of class 'tsibble'",
+   "description" : "Description\nThe number of employees (in thousands) in child day care services in\nNew York City over the period the period from January 1990 to April 2024."
+}
+
 var ny_childcare = [
    [
       "Month",

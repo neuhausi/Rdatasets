@@ -1,11 +1,4 @@
 {
-   "config" : {
-      "colorBy" : "Dx",
-      "title" : "Social Cognitive Measures in Psychiatric Groups",
-      "scatterPlotMatrix" : 1,
-      "subtitle" : "heplots - SocialCog",
-      "graphType" : "Scatter2D"
-   },
    "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>SocialCog</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Social Cognitive Measures in Psychiatric Groups</h2>\n<h3>Description</h3>\n<p>The general purpose of the study (Hartman, 2016, Heinrichs et al. (2015))\nwas to evaluate patterns and levels of performance on neurocognitive\nmeasures among individuals with schizophrenia and schizoaffective disorder\nusing a well-validated, comprehensive neurocognitive battery specifically\ndesigned for individuals with psychosis (Heinrichs et al. (2008))\n</p>\n<h3>Format</h3>\n<p>A data frame with 139 observations on the following 5 variables.\n</p>\n<dl>\n<dt><code>Dx</code></dt><dd><p>Diagnostic group, a factor with levels\n<code>Schizophrenia</code>, <code>Schizoaffective</code>, <code>Control</code></p>\n</dd>\n<dt><code>MgeEmotions</code></dt><dd><p>Score on the Managing emotions test, a numeric vector</p>\n</dd> \n<dt><code>ToM</code></dt><dd><p>Score on the The Reading the Mind in the Eyes test (theory of mind), a numeric vector</p>\n</dd>\n<dt><code>ExtBias</code></dt><dd><p>Externalizing Bias score, a numeric vector</p>\n</dd>\n<dt><code>PersBias</code></dt><dd><p>Personal Bias score, a numeric vector</p>\n</dd> \n</dl>\n<h3>Details</h3>\n<p>The data here are for a subset of the observations in <code>NeuroCog</code>\nfor which measures on various scales of social cognition were also\navailable. Interest here is on whether the schizophrenia group can be\ndistinguished from the schizoaffective group on these measures.\n</p>\n<p>The Social Cognitive measures were designed to tap various aspects of the\nperception and cognitive procession of emotions of others.  Emotion\nperception was assessed using a Managing Emotions (<code>MgeEmotions</code>) score\nfrom the MCCB.  A &quot;theory of mind&quot; (<code>ToM</code>) score assessed ability to\nread the emotions of others from photographs of the eye region of male and\nfemale faces. Two other measures, externalizing bias (<code>ExtBias</code>) and\npersonalizing bias (<code>PersBias</code>) were calculated from a scale measuring\nthe degree to which individuals attribute internal, personal or situational\ncausal attributions to positive and negative social events.\n</p>\n<p>See <code>NeuroCog</code> for a description of the sample. Only those with\ncomplete data on all the social cognitive measures are included in this data\nset.\n</p>\n<p>There is one extreme outlier in the schizophrenia group and other possible\noutliers in the control group, left in here for tutorial purposes.\n</p>\n<h3>Source</h3>\n<p>Hartman, L. I. (2016). Schizophrenia and Schizoaffective Disorder:\nOne Condition or Two? Unpublished PhD dissertation, York University.\n</p>\n<p>Heinrichs, R.W., Pinnock, F., Muharib, E., Hartman, L.I., Goldberg, J.O., &amp;\nMcDermid Vaz, S. (2015).  Neurocognitive normality in schizophrenia\nrevisited.  <em>Schizophrenia Research: Cognition</em>, <b>2</b> (4), 227-232.\ndoi: 10.1016/j.scog.2015.09.001\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>\nlibrary(car)\ndata(SocialCog)\nSC.mod &lt;- lm(cbind(MgeEmotions, ToM, ExtBias, PersBias) ~ Dx, data=SocialCog)\nSC.mod\ncar::Anova(SC.mod)\n# test hypotheses of interest in terms of contrasts\nprint(linearHypothesis(SC.mod, \"Dx1\"), SSP=FALSE)\nprint(linearHypothesis(SC.mod, \"Dx2\"), SSP=FALSE)\n#' ## HE plots\nheplot(SC.mod, hypotheses=list(\"Dx1\"=\"Dx1\", \"Dx2\"=\"Dx2\"),\n\tfill=TRUE, fill.alpha=.1)\npairs(SC.mod, fill=c(TRUE,FALSE), fill.alpha=.1) \n</code></pre>\n</main>\n</div>\n",
    "data" : {
       "z" : {
@@ -152,6 +145,12 @@
          ]
       },
       "y" : {
+         "smps" : [
+            "MgeEmotions",
+            "ToM",
+            "ExtBias",
+            "PersBias"
+         ],
          "vars" : [
             "14",
             "15",
@@ -292,12 +291,6 @@
             "258",
             "259",
             "262"
-         ],
-         "smps" : [
-            "MgeEmotions",
-            "ToM",
-            "ExtBias",
-            "PersBias"
          ],
          "data" : [
             [
@@ -1136,5 +1129,12 @@
             ]
          ]
       }
+   },
+   "config" : {
+      "subtitle" : "heplots - SocialCog",
+      "scatterPlotMatrix" : 1,
+      "graphType" : "Scatter2D",
+      "colorBy" : "Dx",
+      "title" : "Social Cognitive Measures in Psychiatric Groups"
    }
 }

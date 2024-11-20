@@ -1,3 +1,16 @@
+var planetsInfo ={
+   "description" : "Description\nData on planets outside the Solar System.",
+   "usage" : "data(\"planets\")",
+   "parameters" : {
+      "eccen" : "the radial eccentricity of the planet.",
+      "mass" : "Jupiter mass of the planet.",
+      "period" : "period in earth days."
+   },
+   "format" : "A data frame with 101 observations from 101 exoplanets \non the following 3 variables.",
+   "title" : "Exoplanets Data",
+   "reference" : "From the properties of the exoplanets found up to now it        \nappears that the theory of planetary development constructed    \nfor the planets of the Solar System may need to be reformulated.\nThe exoplanets are not at all like the nine local planets that\nwe know so well. A first step in the process of understanding\nthe exoplanets might be to try to classify them with respect \nto their known properties."
+}
+
 var planets = [
    [
       "mass",

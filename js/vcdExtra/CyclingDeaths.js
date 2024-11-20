@@ -1,3 +1,15 @@
+var CyclingDeathsInfo ={
+   "parameters" : {
+      "deaths" : "number of deaths, a numeric vector",
+      "date" : "a Date"
+   },
+   "title" : "London Cycling Deaths",
+   "format" : "A data frame with 208 observations on the following 2 variables.",
+   "reference" : "https://www.data.gov.uk/dataset/cb7ae6f0-4be6-4935-9277-47e5ce24a11f/road-safety-data,\nSTATS 19 data, 2005-2012, using the files\nCasualty0512.csv and \nAccidents0512.csv",
+   "description" : "Description\nA data frame containing the number of deaths of cyclists in London from 2005 through\n2012 in each fortnightly period.  Aberdein & Spiegelhalter (2013)\ndiscuss these data in relation to the observation that six cyclists\ndied in London between Nov. 5 and Nov. 13, 2013.",
+   "usage" : "data(CyclingDeaths)"
+}
+
 var CyclingDeaths = [
    [
       "date",

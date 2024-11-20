@@ -1,3 +1,10 @@
+var nsw_offencesInfo ={
+   "description" : "Description\nnsw_offences contains monthly data with one measured variable:\nCount:  Number of offences reported",
+   "format" : "Each series is uniquely identified using one key:",
+   "title" : "Monthly offences in NSW",
+   "usage" : "Time series of class 'tsibble'"
+}
+
 var nsw_offences = [
    [
       "Month",

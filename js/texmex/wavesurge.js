@@ -1,3 +1,9 @@
+var wavesurgeInfo ={
+   "description" : "Description\nRainfall, wave-surge, Port Pirie and River Nidd data sets.",
+   "usage" : "The format of the rain data is: num [1:17531] 0 2.3 1.3 6.9 4.6 0 1\n1.5 1.8 1.8 ...",
+   "title" : "Rain, wavesurge, portpirie and nidd datasets."
+}
+
 var wavesurge = [
    [
       "wave",

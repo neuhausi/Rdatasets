@@ -1,12 +1,11 @@
 {
-   "config" : {
-      "title" : "Bioassay on Cell Culture Plate",
-      "colorBy" : "sample",
-      "graphType" : "Scatter3D",
-      "subtitle" : "nlme - Assay"
-   },
    "data" : {
       "y" : {
+         "smps" : [
+            "Block",
+            "dilut",
+            "logDens"
+         ],
          "vars" : [
             "Var1",
             "Var2",
@@ -370,11 +369,6 @@
                5,
                0.60922195
             ]
-         ],
-         "smps" : [
-            "Block",
-            "dilut",
-            "logDens"
          ]
       },
       "z" : {
@@ -442,5 +436,11 @@
          ]
       }
    },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>Assay</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Bioassay on Cell Culture Plate</h2>\n<h3>Description</h3>\n<p>The <code>Assay</code> data frame has 60 rows and 4 columns.\n</p>\n<h3>Format</h3>\n<p>This data frame contains the following columns:\n</p>\n<dl>\n<dt>Block</dt><dd>\n<p>an ordered factor with levels\n<code>2</code> &lt; <code>1</code> identifying the block where the wells\nare measured.\n</p>\n</dd>\n<dt>sample</dt><dd>\n<p>a factor with levels <code>a</code> to <code>f</code> identifying the\nsample corresponding to the well.\n</p>\n</dd>\n<dt>dilut</dt><dd>\n<p>a factor with levels\n<code>1</code> to <code>5</code>\nindicating the dilution applied to the well\n</p>\n</dd>\n<dt>logDens</dt><dd>\n<p>a numeric vector of the log-optical density\n</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>These data, courtesy of Rich Wolfe and David Lansky from Searle,\nInc., come from a bioassay run on a 96-well cell culture plate.  The\nassay is performed using a split-block design.  The 8 rows on the\nplate are labeled A&ndash;H from top to bottom and the 12 columns on the\nplate are labeled 1&ndash;12 from left to right.  Only the central 60 wells\nof the plate are used for the bioassay (the intersection of rows B&ndash;G\nand columns 2&ndash;11).  There are two blocks in the design: Block 1\ncontains columns 2&ndash;6 and Block 2 contains columns 7&ndash;11. Within each\nblock, six samples are assigned randomly to rows and five (serial)\ndilutions are assigned randomly to columns. The response variable is\nthe logarithm of the optical density. The cells are treated with a\ncompound that they metabolize to produce the stain.  Only live cells\ncan make the stain, so the optical density is a measure of the number\nof cells that are alive and healthy.</p>\n<h3>Source</h3>\n<p>Pinheiro, J. C. and Bates, D. M. (2000), <em>Mixed-Effects Models in S\nand S-PLUS</em>, Springer, New York. (Appendix A.2)\n</p>\n</main>\n</div>\n"
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>Assay</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Bioassay on Cell Culture Plate</h2>\n<h3>Description</h3>\n<p>The <code>Assay</code> data frame has 60 rows and 4 columns.\n</p>\n<h3>Format</h3>\n<p>This data frame contains the following columns:\n</p>\n<dl>\n<dt>Block</dt><dd>\n<p>an ordered factor with levels\n<code>2</code> &lt; <code>1</code> identifying the block where the wells\nare measured.\n</p>\n</dd>\n<dt>sample</dt><dd>\n<p>a factor with levels <code>a</code> to <code>f</code> identifying the\nsample corresponding to the well.\n</p>\n</dd>\n<dt>dilut</dt><dd>\n<p>a factor with levels\n<code>1</code> to <code>5</code>\nindicating the dilution applied to the well\n</p>\n</dd>\n<dt>logDens</dt><dd>\n<p>a numeric vector of the log-optical density\n</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>These data, courtesy of Rich Wolfe and David Lansky from Searle,\nInc., come from a bioassay run on a 96-well cell culture plate.  The\nassay is performed using a split-block design.  The 8 rows on the\nplate are labeled A&ndash;H from top to bottom and the 12 columns on the\nplate are labeled 1&ndash;12 from left to right.  Only the central 60 wells\nof the plate are used for the bioassay (the intersection of rows B&ndash;G\nand columns 2&ndash;11).  There are two blocks in the design: Block 1\ncontains columns 2&ndash;6 and Block 2 contains columns 7&ndash;11. Within each\nblock, six samples are assigned randomly to rows and five (serial)\ndilutions are assigned randomly to columns. The response variable is\nthe logarithm of the optical density. The cells are treated with a\ncompound that they metabolize to produce the stain.  Only live cells\ncan make the stain, so the optical density is a measure of the number\nof cells that are alive and healthy.</p>\n<h3>Source</h3>\n<p>Pinheiro, J. C. and Bates, D. M. (2000), <em>Mixed-Effects Models in S\nand S-PLUS</em>, Springer, New York. (Appendix A.2)\n</p>\n</main>\n</div>\n",
+   "config" : {
+      "subtitle" : "nlme - Assay",
+      "graphType" : "Scatter3D",
+      "title" : "Bioassay on Cell Culture Plate",
+      "colorBy" : "sample"
+   }
 }

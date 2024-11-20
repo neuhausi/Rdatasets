@@ -1,3 +1,14 @@
+var scotus_healthcareInfo ={
+   "parameters" : {
+      "response" : "Response values reported are agree and other."
+   },
+   "reference" : "Gallup, Americans Issue Split Decision on Healthcare Ruling,\nretrieved 2012-06-28.",
+   "format" : "A data frame with 1012 observations on the following variable.",
+   "title" : "Public Opinion with SCOTUS ruling on American Healthcare Act",
+   "description" : "Description\nOn June 28, 2012 the U.S. Supreme Court upheld the much debated 2010\nhealthcare law, declaring it constitutional. A Gallup poll released the day\nafter this decision indicates that 46% of 1,012 Americans agree with this\ndecision.",
+   "usage" : "scotus_healthcare"
+}
+
 var scotus_healthcare = [
    [
       "response",

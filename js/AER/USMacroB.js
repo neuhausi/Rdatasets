@@ -1,3 +1,16 @@
+var USMacroBInfo ={
+   "parameters" : {
+      "gnp" : "Gross national product.",
+      "mbase" : "Average of the seasonally adjusted monetary base.",
+      "tbill" : "Average of 3 month treasury-bill rate (per annum)."
+   },
+   "title" : "US Macroeconomic Data (1959&ndash;1995, Baltagi)",
+   "format" : "A quarterly multiple time series from 1959(1) to 1995(2) with 3 variables.",
+   "reference" : "The data is from Baltagi (2002).",
+   "description" : "Description\nTime series data on 3 US macroeconomic variables for 1959&ndash;1995,\nextracted from the Citibank data base.",
+   "usage" : "data(\"USMacroB\")"
+}
+
 var USMacroB = [
    [
       "gnp",

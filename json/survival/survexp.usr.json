@@ -1,5 +1,4 @@
 {
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>ratetables</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2 id='ratetables'>\nCensus Data Sets for the Expected Survival and Person Years Functions\n</h2>\n<h3>Description</h3>\n<p>Census data sets for the expected survival and person years functions.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(survexp, package=\"survival\")\n</code></pre>\n<h3>Details</h3>\n<dl>\n<dt>survexp.us</dt><dd>\n<p>total United States population, by age and sex, 1940 to 2012.\n</p>\n</dd>\n<dt>survexp.usr</dt><dd>\n<p>United States population, by age, sex and race, 1940 to 2014.\nRace is white or black.  For 1960 and 1970 the black\npopulation values were not reported separately, so the nonwhite\nvalues were used.  (Over the years, the reported tables have\ndiffered wrt reporting non-white and/or black.)\n</p>\n</dd>\n<dt>survexp.mn</dt><dd>\n<p>total Minnesota population, by age and sex, 1970 to 2013.\n</p>\n</dd>\n</dl>\n<p>Each of these tables contains the daily hazard rate for a matched\nsubject from the population, defined as <code class=\"reqn\">-\\log(1-q)/365.25</code> where\n<code class=\"reqn\">q</code> is the 1 year probability of death as reported in the original\ntables from the US Census.  For age 25 in 1970, for instance,\n<code class=\"reqn\">p = 1-q</code> is is the\nprobability that a subject who becomes 25 years of age in 1970 will\nachieve his/her 26th birthday.  The tables are recast in terms of\nhazard per day for computational convenience.\n</p>\n<p>Each table is stored as an array, with additional attributes, and\ncan be subset and manipulated as standard R arrays.\nSee the help page for <code>ratetable</code> for details.\n</p>\n<p>All numeric dimensions of a rate table must be in the same units.\nThe <code>survexp.us</code> rate table contains daily hazard rates, the age\ncutpoints are in days, and the calendar year cutpoints are a Date.\n</p>\n<h3>See Also</h3>\n<p><code>ratetable</code>, <code>survexp</code>,\n<code>pyears</code>\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>survexp.uswhite &lt;- survexp.usr[,,\"white\",]\n</code></pre>\n</div>\n",
    "data" : {
       "y" : {
          "smps" : [
@@ -33004,6 +33003,9 @@
             "Smp32999",
             "Smp33000"
          ],
+         "vars" : [
+            "x"
+         ],
          "data" : [
             [
                0.000135020677771285,
@@ -66007,15 +66009,13 @@
                0.0015709486851947,
                0.00170179108079313
             ]
-         ],
-         "vars" : [
-            "x"
          ]
       }
    },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>ratetables</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2 id='ratetables'>\nCensus Data Sets for the Expected Survival and Person Years Functions\n</h2>\n<h3>Description</h3>\n<p>Census data sets for the expected survival and person years functions.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(survexp, package=\"survival\")\n</code></pre>\n<h3>Details</h3>\n<dl>\n<dt>survexp.us</dt><dd>\n<p>total United States population, by age and sex, 1940 to 2012.\n</p>\n</dd>\n<dt>survexp.usr</dt><dd>\n<p>United States population, by age, sex and race, 1940 to 2014.\nRace is white or black.  For 1960 and 1970 the black\npopulation values were not reported separately, so the nonwhite\nvalues were used.  (Over the years, the reported tables have\ndiffered wrt reporting non-white and/or black.)\n</p>\n</dd>\n<dt>survexp.mn</dt><dd>\n<p>total Minnesota population, by age and sex, 1970 to 2013.\n</p>\n</dd>\n</dl>\n<p>Each of these tables contains the daily hazard rate for a matched\nsubject from the population, defined as <code class=\"reqn\">-\\log(1-q)/365.25</code> where\n<code class=\"reqn\">q</code> is the 1 year probability of death as reported in the original\ntables from the US Census.  For age 25 in 1970, for instance,\n<code class=\"reqn\">p = 1-q</code> is is the\nprobability that a subject who becomes 25 years of age in 1970 will\nachieve his/her 26th birthday.  The tables are recast in terms of\nhazard per day for computational convenience.\n</p>\n<p>Each table is stored as an array, with additional attributes, and\ncan be subset and manipulated as standard R arrays.\nSee the help page for <code>ratetable</code> for details.\n</p>\n<p>All numeric dimensions of a rate table must be in the same units.\nThe <code>survexp.us</code> rate table contains daily hazard rates, the age\ncutpoints are in days, and the calendar year cutpoints are a Date.\n</p>\n<h3>See Also</h3>\n<p><code>ratetable</code>, <code>survexp</code>,\n<code>pyears</code>\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>survexp.uswhite &lt;- survexp.usr[,,\"white\",]\n</code></pre>\n</div>\n",
    "config" : {
-      "subtitle" : "survival - survexp.usr",
       "graphType" : "Treemap",
-      "title" : "Census Data Sets for the Expected Survival and Person Years Functions"
+      "title" : "Census Data Sets for the Expected Survival and Person Years Functions",
+      "subtitle" : "survival - survexp.usr"
    }
 }

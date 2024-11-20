@@ -1,3 +1,16 @@
+var OatsInfo ={
+   "parameters" : {
+      "nitro" : "a numeric vector",
+      "yield" : "a numeric vector",
+      "Variety" : "a factor with levels\nGolden Rain \nMarvellous \nVictory",
+      "Block" : "an ordered factor with levels\nVI < V < III < IV < II < I"
+   },
+   "description" : "Description\nThe Oats data frame has 72 rows and 4 columns.",
+   "title" : "Split-plot Experiment on Varieties of Oats",
+   "reference" : "These data have been introduced by Yates (1935) as an example of a\nsplit-plot design. The treatment structure used in the experiment was\na 3 \\times 4 full factorial, with three varieties of oats\nand four concentrations of nitrogen. The experimental units were\narranged into six blocks, each with three whole-plots subdivided into\nfour subplots. The varieties of oats were assigned randomly to the\nwhole-plots and the concentrations of nitrogen to the subplots.  All\nfour concentrations of nitrogen were used on each whole-plot.",
+   "usage" : "This data frame contains the following columns:"
+}
+
 var Oats = [
    [
       "Block",

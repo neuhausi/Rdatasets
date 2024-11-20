@@ -1,3 +1,15 @@
+var socialexpInfo ={
+   "usage" : "socialexp",
+   "description" : "Description\nA \"social experiment\" conducted by a TV program questioned what people do\nwhen they see a very obviously bruised woman getting picked on by her\nboyfriend. On two different occasions at the same restaurant, the same\ncouple was depicted. In one scenario the woman was dressed \"provocatively\"\nand in the other scenario the woman was dressed \"conservatively\". The table\nbelow shows how many restaurant diners were present under each scenario, and\nwhether or not they intervened.",
+   "title" : "Social experiment",
+   "reference" : "table(socialexp)",
+   "format" : "A data frame with 45 observations on the following 2 variables.",
+   "parameters" : {
+      "scenario" : "How the woman was dressed.",
+      "intervene" : "Whether other diners intervened or not."
+   }
+}
+
 var socialexp = [
    [
       "intervene",

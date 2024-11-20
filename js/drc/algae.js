@@ -1,3 +1,15 @@
+var algaeInfo ={
+   "usage" : "data(algae)",
+   "description" : "Description\nDataset from an experiment exploring the effect of increasing concentrations of a herbicide on \nthe volume of the treated algae.",
+   "format" : "A data frame with 14 observations on the following 2 variables.",
+   "title" : "Volume of algae as function of increasing concentrations of a herbicide",
+   "reference" : "This datasets requires a cubic root transformation in order to stabilise the variance.",
+   "parameters" : {
+      "vol" : "a numeric vector of response values, that is relative change in volume.",
+      "conc" : "a numeric vector of concentrations."
+   }
+}
+
 var algae = [
    [
       "conc",

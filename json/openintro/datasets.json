@@ -544,10 +544,6 @@
       "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/openintro/migraine.json"
    ],
    [
-      "military",
-      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/openintro/military.json"
-   ],
-   [
       "mlb",
       "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/openintro/mlb.json"
    ],

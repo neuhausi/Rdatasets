@@ -1,3 +1,10 @@
+var ausbeerInfo ={
+   "usage" : "Quarterly time series of class ts.",
+   "title" : "Quarterly Australian Beer production",
+   "format" : "Australian Bureau of Statistics. Cat. 8301.0.55.001.",
+   "description" : "Description\nTotal quarterly beer production in Australia (in megalitres) from 1956:Q1 to\n2010:Q2."
+}
+
 var ausbeer = [
    [
       "time",

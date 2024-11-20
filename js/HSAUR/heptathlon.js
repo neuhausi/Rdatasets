@@ -1,3 +1,21 @@
+var heptathlonInfo ={
+   "parameters" : {
+      "shot" : "results shot.",
+      "run800m" : "results 800m race.",
+      "score" : "total score.",
+      "hurdles" : "results 100m hurdles.",
+      "longjump" : "results long jump.",
+      "run200m" : "results 200m race.",
+      "highjump" : "results high jump.",
+      "javelin" : "results javelin."
+   },
+   "reference" : "The first combined Olympic event for women was the pentathlon,\nfirst held in Germany in 1928. Initially this consisted of the\nshot putt, long jump, 100m, high jump and javelin events held\nover two days. The pentathlon was first introduced into the Olympic\nGames in 1964, when it consisted of the 80m hurdles, shot, high\njump, long jump and 200m. In 1977 the 200m was replaced by the\n800m and from 1981 the IAAF brought in the seven-event heptathlon\nin place of the pentathlon, with day one containing the events-100m\nhurdles, shot, high jump, 200m and day two, the long jump, javelin\nand 800m. A scoring system is used to assign points to the results\nfrom each event and the winner is the woman who accumulates the\nmost points over the two days. The event made its first Olympic\nappearance in 1984.",
+   "format" : "A data frame with 25 observations on the following 8 variables.",
+   "title" : "Olympic Heptathlon Seoul 1988",
+   "description" : "Description\nResults of the olympic heptathlon competition, Seoul, 1988.",
+   "usage" : "data(\"heptathlon\")"
+}
+
 var heptathlon = [
    [
       "hurdles",

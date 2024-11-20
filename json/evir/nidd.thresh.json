@@ -1,9 +1,5 @@
 {
-   "config" : {
-      "graphType" : "Treemap",
-      "subtitle" : "evir - nidd.thresh",
-      "title" : "The River Nidd Data"
-   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>nidd.thresh</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>The River Nidd Data</h2>\n<h3>Description</h3>\n<p>These data represent high river levels of the \nRiver Nidd in Yorkshire above a threshold value \nof 65. These data are suitable for analysis with \n<code>gpd</code>.  \n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(nidd.thresh)</code></pre>\n<h3>Format</h3>\n<p>A numeric vector containing 154 observations.</p>\n</main>\n</div>\n",
    "data" : {
       "y" : {
          "smps" : [
@@ -162,6 +158,9 @@
             "Smp153",
             "Smp154"
          ],
+         "vars" : [
+            "dat"
+         ],
          "data" : [
             [
                97.24,
@@ -319,11 +318,12 @@
                226.48,
                110.98
             ]
-         ],
-         "vars" : [
-            "dat"
          ]
       }
    },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>nidd.thresh</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>The River Nidd Data</h2>\n<h3>Description</h3>\n<p>These data represent high river levels of the \nRiver Nidd in Yorkshire above a threshold value \nof 65. These data are suitable for analysis with \n<code>gpd</code>.  \n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(nidd.thresh)</code></pre>\n<h3>Format</h3>\n<p>A numeric vector containing 154 observations.</p>\n</main>\n</div>\n"
+   "config" : {
+      "subtitle" : "evir - nidd.thresh",
+      "title" : "The River Nidd Data",
+      "graphType" : "Treemap"
+   }
 }

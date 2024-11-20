@@ -1,3 +1,25 @@
+var EBJInfo ={
+   "parameters" : {
+      "econ_size" : "GDP, as an estimate of economic size",
+      "kaopen" : "KAOPEN index score, as an estimate of capital openness",
+      "econ_devel" : "GDP per capita, as an estimate of economic development",
+      "econ_growth" : "GDP per capita change, as an estimate of economic growth",
+      "fdi" : "a variable on net FDI inflows over a 10-year period after a conflict (in millions USD)",
+      "ccode" : "a Correlates of War(?) state code for the location of a conflict",
+      "lf" : "labor force size",
+      "lifeexp" : "average life expectancy for women, in years",
+      "xr" : "exchange rate fluctuations, as an indicator of exchange rate instability",
+      "testnewid_lag" : "an apparent identifier variable, of some description",
+      "id" : "an apparent identifier variable, of some description",
+      "pcj" : "a dummy variable for whether there was some kind of post-conflict justice institution created after a conflict"
+   },
+   "reference" : "Data are taken Appell and Loyle's (2012) replication data set. Users should\nread their article in Journal of Peace Research for more information about\nthe topic, the stake, and how the data were collected. This is just a simple,\nreduced form of the data they make available that is minimally sufficient for\nreproducing the first model of their Table I.",
+   "format" : "A data frame with 95 observations on the following 12 variables.",
+   "title" : "The Economic Benefits of Justice",
+   "description" : "Description\nA data set on the apparent economic benefits of post-conflict justice",
+   "usage" : "EBJ"
+}
+
 var EBJ = [
    [
       "testnewid_lag",

@@ -1,14 +1,11 @@
 {
    "config" : {
       "subtitle" : "survival - survexp.mn",
-      "graphType" : "Treemap",
-      "title" : "Census Data Sets for the Expected Survival and Person Years Functions"
+      "title" : "Census Data Sets for the Expected Survival and Person Years Functions",
+      "graphType" : "Treemap"
    },
    "data" : {
       "y" : {
-         "vars" : [
-            "x"
-         ],
          "smps" : [
             "Smp1",
             "Smp2",
@@ -9690,6 +9687,9 @@
             "Smp9678",
             "Smp9679",
             "Smp9680"
+         ],
+         "vars" : [
+            "x"
          ],
          "data" : [
             [

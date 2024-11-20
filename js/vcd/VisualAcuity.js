@@ -1,3 +1,17 @@
+var VisualAcuityInfo ={
+   "parameters" : {
+      "Freq" : "frequency of visual acuity measurements.",
+      "left" : "visual acuity on left eye.",
+      "right" : "visual acuity on right eye.",
+      "gender" : "factor indicating gender of patient."
+   },
+   "format" : "A data frame with 32 observations and 4 variables.",
+   "reference" : "M. Friendly (2000),\nVisualizing Categorical Data:\nhttp://euclid.psych.yorku.ca/ftp/sas/vcd/catdata/vision.sas",
+   "title" : "Visual Acuity in Left and Right Eyes",
+   "description" : "Description\nData from Kendall & Stuart (1961) on unaided vision among 3,242 men\nand 7,477 women, all aged 30-39 and employed in the U.K. Royal\nOrdnance factories 1943-1946.",
+   "usage" : "data(\"VisualAcuity\")"
+}
+
 var VisualAcuity = [
    [
       "Freq",

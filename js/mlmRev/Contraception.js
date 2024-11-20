@@ -1,3 +1,19 @@
+var ContraceptionInfo ={
+   "title" : "Contraceptive use in Bangladesh",
+   "reference" : "http://www.bristol.ac.uk/cmm/learning/mmsoftware/data-rev.html",
+   "format" : "A data frame with 1934 observations on the following 6 variables.",
+   "parameters" : {
+      "use" : "Contraceptive use at time of survey",
+      "livch" : "Number of living children at time of survey - an\nordered factor.  Levels are 0, 1, 2, 3+",
+      "woman" : "Identifying code for each woman - a factor",
+      "urban" : "Type of region of residence - a factor.  Levels are\nurban and rural",
+      "age" : "Age of woman at time of survey (in years), centred around\nmean.",
+      "district" : "Identifying code for each district - a factor"
+   },
+   "usage" : "data(Contraception)",
+   "description" : "Description\nThese data on the use of contraception by women in urban and rural\nareas come from the 1988 Bangladesh Fertility Survey."
+}
+
 var Contraception = [
    [
       "woman",

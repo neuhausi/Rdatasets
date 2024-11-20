@@ -1,3 +1,10 @@
+var aus_mortalityInfo ={
+   "title" : "Australian mortality data",
+   "format" : "aus_mortality contains weekly data with two measured variables:",
+   "usage" : "Time series of class 'tsibble'",
+   "description" : "Description\nWeekly death counts and mortality rates in Australia."
+}
+
 var aus_mortality = [
    [
       "Week",

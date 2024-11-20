@@ -1,3 +1,16 @@
+var speed_gender_heightInfo ={
+   "usage" : "speed_gender_height",
+   "description" : "Description\n1,325 UCLA students were asked to fill out a survey where they were asked\nabout their height, fastest speed they have ever driven, and gender.",
+   "reference" : "speed_gender_height",
+   "title" : "Speed, gender, and height of 1325 students",
+   "format" : "A data frame with 1325 observations on the following 3 variables.",
+   "parameters" : {
+      "height" : "a numeric vector",
+      "gender" : "a factor with levels female and male",
+      "speed" : "a numeric vector"
+   }
+}
+
 var speed_gender_height = [
    [
       "speed",

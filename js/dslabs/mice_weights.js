@@ -1,3 +1,20 @@
+var mice_weightsInfo ={
+   "parameters" : {
+      "sex. The sex of the mice." : null,
+      "percent_fat. Percent fat." : null,
+      "diet. The diet of the mice" : " chow or high fat.",
+      "bone_density. Body density." : null,
+      "litter. Which of two litters mice belong to." : null,
+      "body_weight. Body weight in grams at 19 weeks." : null,
+      "gen. These are outbread mice. This variable denotes the generation." : null
+   },
+   "title" : "Mice weights",
+   "format" : "An object of class \"data.frame\".",
+   "reference" : "Karen Svenson, Daniel M. Gatti, and Gary Churchill from Jackson Laboratories.",
+   "description" : "Description\nBody weights, bone density, and percent fat for mice under two diets: chow and high fat. Data provided by Karen Svenson from Jackson Laboratories. Funding to generate these data came from NIH grant P50 GM070683 awarded to Gary Churchill.",
+   "usage" : "mice_weights"
+}
+
 var mice_weights = [
    [
       "body_weight",

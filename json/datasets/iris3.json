@@ -1,9 +1,10 @@
 {
    "config" : {
+      "subtitle" : "datasets - iris3",
       "title" : "Edgar Anderson's Iris Data",
-      "graphType" : "Heatmap",
-      "subtitle" : "datasets - iris3"
+      "graphType" : "Heatmap"
    },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>iris</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Edgar Anderson's Iris Data</h2>\n<h3>Description</h3>\n<p>This famous (Fisher's or Anderson's) iris data set gives the\nmeasurements in centimeters of the variables sepal length and width\nand petal length and width, respectively, for 50 flowers from each\nof 3 species of iris.  The species are <em>Iris setosa</em>,\n<em>versicolor</em>, and <em>virginica</em>.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>iris\niris3\n</code></pre>\n<h3>Format</h3>\n<p><code>iris</code> is a data frame with 150 cases (rows) and 5 variables\n(columns) named <code>Sepal.Length</code>, <code>Sepal.Width</code>,\n<code>Petal.Length</code>, <code>Petal.Width</code>, and <code>Species</code>.\n</p>\n<p><code>iris3</code> gives the same data arranged as a 3-dimensional array\nof size 50 by 4 by 3, as once provided by S-PLUS.  The first dimension\ngives the case number within the species subsample, the second the\nmeasurements with names <code>Sepal L.</code>, <code>Sepal W.</code>,\n<code>Petal L.</code>, and <code>Petal W.</code>, and the third the species.\n</p>\n<h3>Source</h3>\n<p>Fisher, R. A. (1936)\nThe use of multiple measurements in taxonomic problems.\n<em>Annals of Eugenics</em>,\n<b>7</b>, Part II, 179&ndash;188.\n<a href=\"https://doi.org/10.1111/j.1469-1809.1936.tb02137.x\">doi:10.1111/j.1469-1809.1936.tb02137.x</a>.\n</p>\n<p>The data were collected by\nAnderson, Edgar (1935).\nThe irises of the Gaspe Peninsula,\n<em>Bulletin of the American Iris Society</em>,\n<b>59</b>, 2&ndash;5.\n</p>\n<h3>References</h3>\n<p>Becker, R. A., Chambers, J. M. and Wilks, A. R. (1988)\n<em>The New S Language</em>.\nWadsworth &amp; Brooks/Cole. (has <code>iris3</code> as <code>iris</code>.)\n</p>\n<h3>See Also</h3>\n<p><code>matplot</code> some examples of which use\n<code>iris</code>.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>summary(iris)\n## Fisher's (1936) research question: whether (compound measurements of)\n## Iris versicolor \"differs twice as much from I. setosa as from I. virginica\"\npairs(iris[1:4], col = iris$Species)\nlegend(0.5, 1, levels(iris$Species), fill = 1:3, bty = \"n\",\n       horiz = TRUE, xjust = 0.5, yjust = 0, xpd = TRUE)\n## equivalence of legacy array (iris3) and data.frame (iris) representation\ndni3 &lt;- dimnames(iris3)\nii &lt;- data.frame(matrix(aperm(iris3, c(1,3,2)), ncol = 4,\n                        dimnames = list(NULL, sub(\" L.\",\".Length\",\n                                        sub(\" W.\",\".Width\", dni3[[2]])))),\n    Species = gl(3, 50, labels = sub(\"S\", \"s\", sub(\"V\", \"v\", dni3[[3]]))))\nstopifnot(all.equal(ii, iris))\n</code></pre>\n</main>\n</div>\n",
    "data" : {
       "y" : {
          "smps" : [
@@ -57,6 +58,20 @@
             "Smp48",
             "Smp49",
             "Smp50"
+         ],
+         "vars" : [
+            "Sepal L..Setosa",
+            "Sepal W..Setosa",
+            "Petal L..Setosa",
+            "Petal W..Setosa",
+            "Sepal L..Versicolor",
+            "Sepal W..Versicolor",
+            "Petal L..Versicolor",
+            "Petal W..Versicolor",
+            "Sepal L..Virginica",
+            "Sepal W..Virginica",
+            "Petal L..Virginica",
+            "Petal W..Virginica"
          ],
          "data" : [
             [
@@ -683,22 +698,7 @@
                2.3,
                1.8
             ]
-         ],
-         "vars" : [
-            "Sepal L..Setosa",
-            "Sepal W..Setosa",
-            "Petal L..Setosa",
-            "Petal W..Setosa",
-            "Sepal L..Versicolor",
-            "Sepal W..Versicolor",
-            "Petal L..Versicolor",
-            "Petal W..Versicolor",
-            "Sepal L..Virginica",
-            "Sepal W..Virginica",
-            "Petal L..Virginica",
-            "Petal W..Virginica"
          ]
       }
-   },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>iris</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Edgar Anderson's Iris Data</h2>\n<h3>Description</h3>\n<p>This famous (Fisher's or Anderson's) iris data set gives the\nmeasurements in centimeters of the variables sepal length and width\nand petal length and width, respectively, for 50 flowers from each\nof 3 species of iris.  The species are <em>Iris setosa</em>,\n<em>versicolor</em>, and <em>virginica</em>.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>iris\niris3\n</code></pre>\n<h3>Format</h3>\n<p><code>iris</code> is a data frame with 150 cases (rows) and 5 variables\n(columns) named <code>Sepal.Length</code>, <code>Sepal.Width</code>,\n<code>Petal.Length</code>, <code>Petal.Width</code>, and <code>Species</code>.\n</p>\n<p><code>iris3</code> gives the same data arranged as a 3-dimensional array\nof size 50 by 4 by 3, as once provided by S-PLUS.  The first dimension\ngives the case number within the species subsample, the second the\nmeasurements with names <code>Sepal L.</code>, <code>Sepal W.</code>,\n<code>Petal L.</code>, and <code>Petal W.</code>, and the third the species.\n</p>\n<h3>Source</h3>\n<p>Fisher, R. A. (1936)\nThe use of multiple measurements in taxonomic problems.\n<em>Annals of Eugenics</em>,\n<b>7</b>, Part II, 179&ndash;188.\n<a href=\"https://doi.org/10.1111/j.1469-1809.1936.tb02137.x\">doi:10.1111/j.1469-1809.1936.tb02137.x</a>.\n</p>\n<p>The data were collected by\nAnderson, Edgar (1935).\nThe irises of the Gaspe Peninsula,\n<em>Bulletin of the American Iris Society</em>,\n<b>59</b>, 2&ndash;5.\n</p>\n<h3>References</h3>\n<p>Becker, R. A., Chambers, J. M. and Wilks, A. R. (1988)\n<em>The New S Language</em>.\nWadsworth &amp; Brooks/Cole. (has <code>iris3</code> as <code>iris</code>.)\n</p>\n<h3>See Also</h3>\n<p><code>matplot</code> some examples of which use\n<code>iris</code>.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>summary(iris)\n## Fisher's (1936) research question: whether (compound measurements of)\n## Iris versicolor \"differs twice as much from I. setosa as from I. virginica\"\npairs(iris[1:4], col = iris$Species)\nlegend(0.5, 1, levels(iris$Species), fill = 1:3, bty = \"n\",\n       horiz = TRUE, xjust = 0.5, yjust = 0, xpd = TRUE)\n## equivalence of legacy array (iris3) and data.frame (iris) representation\ndni3 &lt;- dimnames(iris3)\nii &lt;- data.frame(matrix(aperm(iris3, c(1,3,2)), ncol = 4,\n                        dimnames = list(NULL, sub(\" L.\",\".Length\",\n                                        sub(\" W.\",\".Width\", dni3[[2]])))),\n    Species = gl(3, 50, labels = sub(\"S\", \"s\", sub(\"V\", \"v\", dni3[[3]]))))\nstopifnot(all.equal(ii, iris))\n</code></pre>\n</main>\n</div>\n"
+   }
 }

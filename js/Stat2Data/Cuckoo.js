@@ -1,3 +1,9 @@
+var CuckooInfo ={
+   "usage" : "A data frame with 120 observations on the following 2 variables.",
+   "title" : "Measurements of Cuckoo Eggs",
+   "description" : "Description\nLengths of cuckoo eggs laid in other birds' nests"
+}
+
 var Cuckoo = [
    [
       "Bird",

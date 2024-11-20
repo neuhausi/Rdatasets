@@ -203,6 +203,14 @@
             "Smp199",
             "Smp200"
          ],
+         "vars" : [
+            "index",
+            "FL",
+            "RW",
+            "CL",
+            "CW",
+            "BD"
+         ],
          "data" : [
             [
                1,
@@ -1416,14 +1424,6 @@
                19.8,
                21.1
             ]
-         ],
-         "vars" : [
-            "index",
-            "FL",
-            "RW",
-            "CL",
-            "CW",
-            "BD"
          ]
       },
       "x" : {
@@ -1835,8 +1835,8 @@
    },
    "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>crabs</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>\nMorphological Measurements on Leptograpsus Crabs\n</h2>\n<h3>Description</h3>\n<p>The <code>crabs</code> data frame has 200 rows and 8 columns, describing 5\nmorphological measurements on 50 crabs each of two colour forms and\nboth sexes, of the species <em>Leptograpsus variegatus</em> collected at\nFremantle, W. Australia.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>crabs\n</code></pre>\n<h3>Format</h3>\n<p>This data frame contains the following columns:\n</p>\n<dl>\n<dt><code>sp</code></dt><dd>\n<p><code>species</code> - <code>\"B\"</code> or <code>\"O\"</code> for blue or orange.\n</p>\n</dd>\n<dt><code>sex</code></dt><dd>\n<p>as it says.\n</p>\n</dd>\n<dt><code>index</code></dt><dd>\n<p>index <code>1:50</code> within each of the four groups.\n</p>\n</dd>\n<dt><code>FL</code></dt><dd>\n<p>frontal lobe size (mm).\n</p>\n</dd>\n<dt><code>RW</code></dt><dd>\n<p>rear width (mm).\n</p>\n</dd>\n<dt><code>CL</code></dt><dd>\n<p>carapace length (mm).\n</p>\n</dd>\n<dt><code>CW</code></dt><dd>\n<p>carapace width (mm).\n</p>\n</dd>\n<dt><code>BD</code></dt><dd>\n<p>body depth (mm).\n</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>Campbell, N.A. and Mahon, R.J. (1974) A multivariate\nstudy of variation in two species of rock crab of genus\n<em>Leptograpsus.</em>\n<em>Australian Journal of  Zoology</em> <b>22</b>, 417&ndash;425.\n</p>\n<h3>References</h3>\n<p>Venables, W. N. and Ripley, B. D. (2002)\n<em>Modern Applied Statistics with S.</em> Fourth edition.  Springer.\n</p>\n</main>\n</div>\n",
    "config" : {
-      "graphType" : "Heatmap",
       "subtitle" : "MASS - crabs",
+      "graphType" : "Heatmap",
       "title" : "Morphological Measurements on Leptograpsus Crabs",
       "smpOverlays" : [
          "sex",

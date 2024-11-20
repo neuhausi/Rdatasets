@@ -1,3 +1,10 @@
+var MobilityInfo ={
+   "format" : "A 2-dimensional array resulting from cross-tabulating 2 variables for 19912 observations. The variable names and their levels are:",
+   "title" : "Social Mobility data",
+   "usage" : "data(Mobility)",
+   "description" : "Description\nData on social mobility, recording the occupational category of fathers and their sons."
+}
+
 var Mobility = [
    [
       "Son_Occupation",

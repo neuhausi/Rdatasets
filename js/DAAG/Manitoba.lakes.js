@@ -1,3 +1,15 @@
+var Manitoba.lakesInfo ={
+   "parameters" : {
+      "elevation" : "a numeric vector consisting of the elevations\nof the lakes (in meters)",
+      "area" : "a numeric vector consisting of the areas of\nthe lakes (in square kilometers)"
+   },
+   "format" : "This data frame contains the following columns:",
+   "reference" : "The CANSIM data base at Statistics Canada.",
+   "title" : "The Nine Largest Lakes in Manitoba",
+   "description" : "Description\nThe Manitoba.lakes data frame has 9 rows and 2 columns.\nThe areas and elevations of the nine largest lakes in\nManitoba, Canada.  The geography of Manitoba (a relatively\nflat province) can be divided crudely into three main\nareas: a very flat prairie in the south which is at a \nrelatively high elevation, a middle region consisting\nof mainly of forest and Precambrian rock, and a northern\nregion which drains more rapidly into Hudson\nBay.  All water in Manitoba, which does not evaporate, eventually drains \ninto Hudson Bay.",
+   "usage" : "Manitoba.lakes"
+}
+
 var Manitoba.lakes = [
    [
       "elevation",

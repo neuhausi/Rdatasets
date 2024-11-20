@@ -1,3 +1,20 @@
+var roadInfo ={
+   "usage" : "road",
+   "description" : "Description\nA data frame with the annual deaths in road accidents for half\nthe US states.",
+   "format" : "Columns are:",
+   "title" : "Road Accident Deaths in US States",
+   "reference" : "Imperial College, London M.Sc. exercise",
+   "parameters" : {
+      "drivers" : "number of drivers (in 10,000s).",
+      "state" : "name.",
+      "rural" : "length of rural roads, in 1000s of miles.",
+      "fuel" : "fuel consumption in 10,000,000 US gallons per year.",
+      "temp" : "average daily maximum temperature in January.",
+      "popden" : "population density in people per square mile.",
+      "deaths" : "number of deaths."
+   }
+}
+
 var road = [
    [
       "deaths",

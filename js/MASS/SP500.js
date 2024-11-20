@@ -1,3 +1,10 @@
+var SP500Info ={
+   "description" : "Description\nReturns of the Standard and Poors 500 Index in the 1990's",
+   "usage" : "SP500",
+   "format" : "A vector of returns of the Standard and Poors 500 index for all\nthe trading days in 1990, 1991, ..., 1999.",
+   "title" : "Returns of the Standard and Poors 500"
+}
+
 var SP500 = [
    [
       "dat"

@@ -1,3 +1,28 @@
+var associationInfo ={
+   "parameters" : {
+      "y6" : "a numeric vector",
+      "y5" : "a numeric vector",
+      "y7" : "a numeric vector",
+      "x3" : "a numeric vector",
+      "y3" : "a numeric vector",
+      "y9" : "a numeric vector",
+      "y10" : "a numeric vector",
+      "x2" : "a numeric vector",
+      "y2" : "a numeric vector",
+      "y11" : "a numeric vector",
+      "y1" : "a numeric vector",
+      "y12" : "a numeric vector",
+      "y4" : "a numeric vector",
+      "y8" : "a numeric vector",
+      "x1" : "a numeric vector"
+   },
+   "title" : "Simulated data for association plots",
+   "reference" : "library(ggplot2)\n\nggplot(association, aes(x = x1, y = y1)) +\n  geom_point()\n\nggplot(association, aes(x = x2, y = y4)) +\n  geom_point()\n\nggplot(association, aes(x = x3, y = y7)) +\n  geom_point()",
+   "format" : "A data frame with 121 observations on the following 4 variables.",
+   "description" : "Description\nSimulated dataset.",
+   "usage" : "association"
+}
+
 var association = [
    [
       "x1",

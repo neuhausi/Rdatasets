@@ -1,59 +1,7 @@
 {
-   "config" : {
-      "groupingFactors" : [
-         "Wife"
-      ],
-      "colorBy" : "variable",
-      "title" : "Sex is Fun",
-      "segregateSamplesBy" : [
-         "Husband"
-      ],
-      "subtitle" : "vcd - SexualFun",
-      "graphType" : "Boxplot"
-   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>SexualFun</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Sex is Fun</h2>\n<h3>Description</h3>\n<p>Data from Hout et al. (1987) given by Agresti (1990) summarizing the\nresponses of married couples to the questionnaire item: Sex is fun for\nme and my partner: (a) never or occasionally, (b) fairly often, (c)\nvery often, (d) almost always.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(\"SexualFun\")\n</code></pre>\n<h3>Format</h3>\n<p>A 2-dimensional array resulting from cross-tabulating the ratings of\n91 married couples.  The variables and their levels are as follows:\n</p>\n<table>\n<tr>\n <td style=\"text-align: right;\">\n    No </td><td style=\"text-align: left;\"> Name </td><td style=\"text-align: left;\"> Levels </td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    1 </td><td style=\"text-align: left;\"> Husband </td><td style=\"text-align: left;\"> Never Fun, Fairly Often, Very Often, Always Fun </td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    2 </td><td style=\"text-align: left;\"> Wife </td><td style=\"text-align: left;\"> Never Fun, Fairly Often, Very Often, Always Fun\n  </td>\n</tr>\n</table>\n<h3>Source</h3>\n<p>M. Friendly (2000),\nVisualizing Categorical Data, page 91.\n</p>\n<h3>References</h3>\n<p>A. Agresti (1990),\n<em>Categorical Data Analysis</em>.\nWiley-Interscience, New York.\n</p>\n<p>M. Hout, O. D. Duncan, M. E. Sobel (1987),\nAssociation and heterogeneity: Structural models of similarities and\ndifferences,\n<em>Sociological Methodology</em>, <b>17</b>, 145-184.\n</p>\n<p>M. Friendly (2000),\n<em>Visualizing Categorical Data</em>.\nSAS Institute, Cary, NC.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>data(\"SexualFun\")\n## Kappa statistics\nKappa(SexualFun)\n## Agreement Chart\nagreementplot(t(SexualFun), weights = 1)\n## Partial Agreement Chart and B-Statistics\nagreementplot(t(SexualFun),\n              xlab = \"Husband's Rating\",\n              ylab = \"Wife's Rating\",\n              main = \"Husband's and Wife's Sexual Fun\")\n</code></pre>\n</main>\n</div>\n",
    "data" : {
-      "x" : {
-         "Wife" : [
-            "Never Fun",
-            "Never Fun",
-            "Never Fun",
-            "Never Fun",
-            "Fairly Often",
-            "Fairly Often",
-            "Fairly Often",
-            "Fairly Often",
-            "Very Often",
-            "Very Often",
-            "Very Often",
-            "Very Often",
-            "Always fun",
-            "Always fun",
-            "Always fun",
-            "Always fun"
-         ],
-         "Husband" : [
-            "Never Fun",
-            "Fairly Often",
-            "Very Often",
-            "Always fun",
-            "Never Fun",
-            "Fairly Often",
-            "Very Often",
-            "Always fun",
-            "Never Fun",
-            "Fairly Often",
-            "Very Often",
-            "Always fun",
-            "Never Fun",
-            "Fairly Often",
-            "Very Often",
-            "Always fun"
-         ]
-      },
       "y" : {
-         "vars" : [
-            "Freq"
-         ],
          "data" : [
             [
                7,
@@ -74,6 +22,9 @@
                14
             ]
          ],
+         "vars" : [
+            "Freq"
+         ],
          "smps" : [
             "Smp1",
             "Smp2",
@@ -92,7 +43,56 @@
             "Smp15",
             "Smp16"
          ]
+      },
+      "x" : {
+         "Husband" : [
+            "Never Fun",
+            "Fairly Often",
+            "Very Often",
+            "Always fun",
+            "Never Fun",
+            "Fairly Often",
+            "Very Often",
+            "Always fun",
+            "Never Fun",
+            "Fairly Often",
+            "Very Often",
+            "Always fun",
+            "Never Fun",
+            "Fairly Often",
+            "Very Often",
+            "Always fun"
+         ],
+         "Wife" : [
+            "Never Fun",
+            "Never Fun",
+            "Never Fun",
+            "Never Fun",
+            "Fairly Often",
+            "Fairly Often",
+            "Fairly Often",
+            "Fairly Often",
+            "Very Often",
+            "Very Often",
+            "Very Often",
+            "Very Often",
+            "Always fun",
+            "Always fun",
+            "Always fun",
+            "Always fun"
+         ]
       }
    },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>SexualFun</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Sex is Fun</h2>\n<h3>Description</h3>\n<p>Data from Hout et al. (1987) given by Agresti (1990) summarizing the\nresponses of married couples to the questionnaire item: Sex is fun for\nme and my partner: (a) never or occasionally, (b) fairly often, (c)\nvery often, (d) almost always.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(\"SexualFun\")\n</code></pre>\n<h3>Format</h3>\n<p>A 2-dimensional array resulting from cross-tabulating the ratings of\n91 married couples.  The variables and their levels are as follows:\n</p>\n<table>\n<tr>\n <td style=\"text-align: right;\">\n    No </td><td style=\"text-align: left;\"> Name </td><td style=\"text-align: left;\"> Levels </td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    1 </td><td style=\"text-align: left;\"> Husband </td><td style=\"text-align: left;\"> Never Fun, Fairly Often, Very Often, Always Fun </td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    2 </td><td style=\"text-align: left;\"> Wife </td><td style=\"text-align: left;\"> Never Fun, Fairly Often, Very Often, Always Fun\n  </td>\n</tr>\n</table>\n<h3>Source</h3>\n<p>M. Friendly (2000),\nVisualizing Categorical Data, page 91.\n</p>\n<h3>References</h3>\n<p>A. Agresti (1990),\n<em>Categorical Data Analysis</em>.\nWiley-Interscience, New York.\n</p>\n<p>M. Hout, O. D. Duncan, M. E. Sobel (1987),\nAssociation and heterogeneity: Structural models of similarities and\ndifferences,\n<em>Sociological Methodology</em>, <b>17</b>, 145-184.\n</p>\n<p>M. Friendly (2000),\n<em>Visualizing Categorical Data</em>.\nSAS Institute, Cary, NC.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>data(\"SexualFun\")\n## Kappa statistics\nKappa(SexualFun)\n## Agreement Chart\nagreementplot(t(SexualFun), weights = 1)\n## Partial Agreement Chart and B-Statistics\nagreementplot(t(SexualFun),\n              xlab = \"Husband's Rating\",\n              ylab = \"Wife's Rating\",\n              main = \"Husband's and Wife's Sexual Fun\")\n</code></pre>\n</main>\n</div>\n"
+   "config" : {
+      "segregateSamplesBy" : [
+         "Wife"
+      ],
+      "subtitle" : "vcd - SexualFun",
+      "title" : "Sex is Fun",
+      "groupingFactors" : [
+         "Husband"
+      ],
+      "colorBy" : "variable",
+      "graphType" : "Boxplot"
+   }
 }

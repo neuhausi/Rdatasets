@@ -1,3 +1,9 @@
+var NFL2007StandingsInfo ={
+   "description" : "Description\nStandings for National Football League teams in 2007",
+   "title" : "NFL Standings for 2007 Regular Season",
+   "usage" : "A dataset with 32 observations on the following 10 variables."
+}
+
 var NFL2007Standings = [
    [
       "Team",

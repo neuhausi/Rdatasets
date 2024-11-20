@@ -1,3 +1,14 @@
+var antibioticsInfo ={
+   "title" : "Pre-existing conditions in 92 children",
+   "format" : "A data frame with 92 observations, each representing a child, on the\nfollowing variable.",
+   "reference" : "library(ggplot2)\n\nggplot(antibiotics, aes(x = condition)) +\n  geom_bar() +\n  labs(\n    x = \"Conidition\", y = \"Count\",\n    title = \"Pre-existing coniditions of children\",\n    subtitle = \"in antibiotic use study\"\n  ) +\n  coord_flip()",
+   "parameters" : {
+      "condition" : "Pre-existing medical condition."
+   },
+   "usage" : "antibiotics",
+   "description" : "Description\nPre-existing medical conditions of 92 children involved in a study on the\noptimal duration of antibiotic use in treatment of tracheitis, which is an\nupper respiratory infection."
+}
+
 var antibiotics = [
    [
       "condition",

@@ -1,12 +1,11 @@
 {
-   "config" : {
-      "subtitle" : "datasets - Indometh",
-      "graphType" : "Scatter3D",
-      "title" : "Pharmacokinetics of Indomethacin"
-   },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>Indometh</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Pharmacokinetics of Indomethacin</h2>\n<h3>Description</h3>\n<p>The <code>Indometh</code> data frame has 66 rows and 3 columns of data on\nthe pharmacokinetics of indometacin (or, older spelling,\n&lsquo;indomethacin&rsquo;).\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>Indometh</code></pre>\n<h3>Format</h3>\n<p>An object of class\n<code>c(\"nfnGroupedData\", \"nfGroupedData\", \"groupedData\", \"data.frame\")</code>\ncontaining the following columns:\n</p>\n<dl>\n<dt>Subject</dt><dd>\n<p>an ordered factor with containing the subject codes.  The\nordering is according to increasing maximum response.\n</p>\n</dd>\n<dt>time</dt><dd>\n<p>a numeric vector of times at which blood samples were drawn (hr).\n</p>\n</dd>\n<dt>conc</dt><dd>\n<p>a numeric vector of plasma concentrations of indometacin (<abbr>mcg</abbr>/ml).\n</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>Each of the six subjects were given an intravenous injection of\nindometacin.\n</p>\n<p>This dataset was originally part of package <code>nlme</code>, and that has\nmethods (including for <code>[</code>, <code>as.data.frame</code>, <code>plot</code> and\n<code>print</code>) for its grouped-data classes.\n</p>\n<h3>Source</h3>\n<p>Kwan, Breault, Umbenhauer, McMahon and Duggan (1976)\nKinetics of Indomethacin absorption, elimination, and\nenterohepatic circulation in man.\n<em>Journal of Pharmacokinetics and Biopharmaceutics</em> <b>4</b>,\n255&ndash;280.\n</p>\n<p>Davidian, M. and Giltinan, D. M. (1995)\n<em>Nonlinear Models for Repeated Measurement Data</em>,\nChapman &amp; Hall (section 5.2.4, p. 129)\n</p>\n<p>Pinheiro, J. C. and Bates, D. M. (2000) <em>Mixed-effects Models in\nS and S-PLUS</em>, Springer.\n</p>\n<h3>See Also</h3>\n<p><code>SSbiexp</code> for models fitted to this dataset.\n</p>\n</main>\n</div>\n",
    "data" : {
       "y" : {
+         "smps" : [
+            "Subject",
+            "time",
+            "conc"
+         ],
          "vars" : [
             "Var1",
             "Var2",
@@ -406,12 +405,13 @@
                8,
                0.09
             ]
-         ],
-         "smps" : [
-            "Subject",
-            "time",
-            "conc"
          ]
       }
+   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>Indometh</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Pharmacokinetics of Indomethacin</h2>\n<h3>Description</h3>\n<p>The <code>Indometh</code> data frame has 66 rows and 3 columns of data on\nthe pharmacokinetics of indometacin (or, older spelling,\n&lsquo;indomethacin&rsquo;).\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>Indometh</code></pre>\n<h3>Format</h3>\n<p>An object of class\n<code>c(\"nfnGroupedData\", \"nfGroupedData\", \"groupedData\", \"data.frame\")</code>\ncontaining the following columns:\n</p>\n<dl>\n<dt>Subject</dt><dd>\n<p>an ordered factor with containing the subject codes.  The\nordering is according to increasing maximum response.\n</p>\n</dd>\n<dt>time</dt><dd>\n<p>a numeric vector of times at which blood samples were drawn (hr).\n</p>\n</dd>\n<dt>conc</dt><dd>\n<p>a numeric vector of plasma concentrations of indometacin (<abbr>mcg</abbr>/ml).\n</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>Each of the six subjects were given an intravenous injection of\nindometacin.\n</p>\n<p>This dataset was originally part of package <code>nlme</code>, and that has\nmethods (including for <code>[</code>, <code>as.data.frame</code>, <code>plot</code> and\n<code>print</code>) for its grouped-data classes.\n</p>\n<h3>Source</h3>\n<p>Kwan, Breault, Umbenhauer, McMahon and Duggan (1976)\nKinetics of Indomethacin absorption, elimination, and\nenterohepatic circulation in man.\n<em>Journal of Pharmacokinetics and Biopharmaceutics</em> <b>4</b>,\n255&ndash;280.\n</p>\n<p>Davidian, M. and Giltinan, D. M. (1995)\n<em>Nonlinear Models for Repeated Measurement Data</em>,\nChapman &amp; Hall (section 5.2.4, p. 129)\n</p>\n<p>Pinheiro, J. C. and Bates, D. M. (2000) <em>Mixed-effects Models in\nS and S-PLUS</em>, Springer.\n</p>\n<h3>See Also</h3>\n<p><code>SSbiexp</code> for models fitted to this dataset.\n</p>\n</main>\n</div>\n",
+   "config" : {
+      "graphType" : "Scatter3D",
+      "title" : "Pharmacokinetics of Indomethacin",
+      "subtitle" : "datasets - Indometh"
    }
 }

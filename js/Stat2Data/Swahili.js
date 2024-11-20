@@ -1,3 +1,9 @@
+var SwahiliInfo ={
+   "description" : "Description\nAttitudes towards the Swahili language among Kenyan school children",
+   "title" : "Attitudes Towards Swahili in Kenyan Schools",
+   "usage" : "A dataset with 480 observations on the following 4 variables."
+}
+
 var Swahili = [
    [
       "Province",

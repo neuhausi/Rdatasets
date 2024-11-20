@@ -1,3 +1,10 @@
+var arrivalsInfo ={
+   "usage" : "Quarterly time series of class ts.",
+   "format" : "Tourism Research Australia.",
+   "title" : "International Arrivals to Australia",
+   "description" : "Description\nQuarterly international arrivals (in thousands) to Australia from Japan, New\nZealand, UK and the US.  1981Q1 - 2012Q3."
+}
+
 var arrivals = [
    [
       "Japan",

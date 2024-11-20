@@ -1,24 +1,71 @@
 {
    "config" : {
-      "title" : "Education and Related Statistics for the U.S. States",
       "smpOverlays" : [
          "region",
          null
       ],
       "graphType" : "Heatmap",
+      "title" : "Education and Related Statistics for the U.S. States",
       "subtitle" : "carData - States"
    },
    "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>States</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Education and Related Statistics for the U.S. States</h2>\n<h3>Description</h3>\n<p>The <code>States</code> data frame has 51 rows and 8 columns.\nThe observations are the U. S. states and Washington, D. C.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>States\n</code></pre>\n<h3>Format</h3>\n<p>This data frame contains the following columns:\n</p>\n<dl>\n<dt>region</dt><dd>\n<p>U. S. Census regions.\nA factor with levels:\n<code>ENC</code>, East North Central;\n<code>ESC</code>, East South Central;\n<code>MA</code>, Mid-Atlantic;\n<code>MTN</code>, Mountain; \n<code>NE</code>, New England;\n<code>PAC</code>, Pacific; \n<code>SA</code>, South Atlantic;\n<code>WNC</code>, West North Central; \n<code>WSC</code>, West South Central. \n</p>\n</dd>\n<dt>pop</dt><dd>\n<p>Population: in 1,000s.\n</p>\n</dd>\n<dt>SATV</dt><dd>\n<p>Average score of graduating high-school \nstudents in the state on the <em>verbal</em> component of the \nScholastic Aptitude Test \n(a standard university admission exam).\n</p>\n</dd>\n<dt>SATM</dt><dd>\n<p>Average score of graduating high-school \nstudents in the state on the <em>math</em> component of the \nScholastic Aptitude Test.\n</p>\n</dd>\n<dt>percent</dt><dd>\n<p>Percentage of graduating high-school \nstudents in the state who took the SAT exam.\n</p>\n</dd>\n<dt>dollars</dt><dd>\n<p>State spending on public education, \nin \\$1000s per student.\n</p>\n</dd>\n<dt>pay</dt><dd>\n<p>Average teacher's salary in the state, \nin $1000s.\n</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>United States (1992)\n<em>Statistical Abstract of the United States.</em> Bureau of the Census.\n</p>\n<h3>References</h3>\n<p>Moore, D. (1995)\n<em>The Basic Practice of Statistics</em>. Freeman, Table 2.1.\n</p>\n</main>\n</div>\n",
    "data" : {
+      "x" : {
+         "region" : [
+            "ESC",
+            "PAC",
+            "MTN",
+            "WSC",
+            "PAC",
+            "MTN",
+            "NE",
+            "SA",
+            "SA",
+            "SA",
+            "SA",
+            "PAC",
+            "MTN",
+            "ENC",
+            "ENC",
+            "WNC",
+            "WNC",
+            "ESC",
+            "WSC",
+            "NE",
+            "SA",
+            "NE",
+            "ENC",
+            "WNC",
+            "ESC",
+            "WNC",
+            "MTN",
+            "WNC",
+            "MTN",
+            "NE",
+            "MA",
+            "MTN",
+            "MA",
+            "SA",
+            "WNC",
+            "ENC",
+            "WSC",
+            "PAC",
+            "MA",
+            "NE",
+            "SA",
+            "WNC",
+            "ESC",
+            "WSC",
+            "MTN",
+            "NE",
+            "SA",
+            "PAC",
+            "SA",
+            "ENC",
+            "MTN"
+         ]
+      },
       "y" : {
-         "vars" : [
-            "pop",
-            "SATV",
-            "SATM",
-            "percent",
-            "dollars",
-            "pay"
-         ],
          "smps" : [
             "AL",
             "AK",
@@ -71,6 +118,14 @@
             "WV",
             "WI",
             "WY"
+         ],
+         "vars" : [
+            "pop",
+            "SATV",
+            "SATM",
+            "percent",
+            "dollars",
+            "pay"
          ],
          "data" : [
             [
@@ -391,61 +446,6 @@
                33,
                29
             ]
-         ]
-      },
-      "x" : {
-         "region" : [
-            "ESC",
-            "PAC",
-            "MTN",
-            "WSC",
-            "PAC",
-            "MTN",
-            "NE",
-            "SA",
-            "SA",
-            "SA",
-            "SA",
-            "PAC",
-            "MTN",
-            "ENC",
-            "ENC",
-            "WNC",
-            "WNC",
-            "ESC",
-            "WSC",
-            "NE",
-            "SA",
-            "NE",
-            "ENC",
-            "WNC",
-            "ESC",
-            "WNC",
-            "MTN",
-            "WNC",
-            "MTN",
-            "NE",
-            "MA",
-            "MTN",
-            "MA",
-            "SA",
-            "WNC",
-            "ENC",
-            "WSC",
-            "PAC",
-            "MA",
-            "NE",
-            "SA",
-            "WNC",
-            "ESC",
-            "WSC",
-            "MTN",
-            "NE",
-            "SA",
-            "PAC",
-            "SA",
-            "ENC",
-            "MTN"
          ]
       }
    }

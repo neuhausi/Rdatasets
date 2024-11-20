@@ -1,3 +1,10 @@
+var hpc_cvInfo ={
+   "format" : "hpc_cv\n\na data frame",
+   "title" : "Class probability predictions",
+   "usage" : "This data frame contains the predicted classes and\nclass probabilities for a linear discriminant analysis model fit\nto the HPC data set from Kuhn and Johnson (2013). These data are\nthe assessment sets from a 10-fold cross-validation scheme. The\ndata column columns for the true class (obs), the class\nprediction (pred) and columns for each class probability\n(columns VF, F, M, and L). Additionally, a column for\nthe resample indicator is included.",
+   "description" : "Description\nClass probability predictions"
+}
+
 var hpc_cv = [
    [
       "obs",

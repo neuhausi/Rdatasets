@@ -1,3 +1,14 @@
+var classdataInfo ={
+   "usage" : "classdata",
+   "title" : "Simulated class data",
+   "format" : "A data frame with 164 observations on the following 2 variables.",
+   "description" : "Description\nThis data is simulated and is meant to represent students scores from three\ndifferent lectures who were all given the same exam.",
+   "parameters" : {
+      "m1" : "Represents a first midterm score.",
+      "lecture" : "Three classes: a, b, and c."
+   }
+}
+
 var classdata = [
    [
       "m1",

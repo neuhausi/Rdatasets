@@ -1,3 +1,17 @@
+var housingInfo ={
+   "format" : "A data frame with 1448 observations on the following 4 variables:",
+   "reference" : "Hulrburt M.S., Wood, P.A. and Hough, R.L. (1996) Providing\nindependent housing for the homeless mentally ill: a novel approach to\nevaluating longitudinal housing patterns. Journal of Community\nPsychology, 24, 291&ndash;310.",
+   "title" : "Homeless Data",
+   "parameters" : {
+      "sec" : "Section 8\nrent certificate indicator.",
+      "id" : "Subject identifier variable.",
+      "time" : "Time recorded in months.",
+      "y" : "Housing status response, coded as (1) for street living,\n(2) for community living and (3) for independent housing."
+   },
+   "usage" : "housing",
+   "description" : "Description\nHousing status for 362 severely mentally ill homeless subjects measured at\nbaseline and at three follow-up times."
+}
+
 var housing = [
    [
       "id",

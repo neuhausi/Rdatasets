@@ -1,3 +1,29 @@
+var ODGIInfo ={
+   "parameters" : {
+      "halons" : "aggregate concentration in parts per trillion of H-1211, H-1301 and H-2402",
+      "year" : "the year",
+      "wmo_minor" : "aggregate concentration in parts per trillion of CFC-114, CFC-115, halon 2402 and halon 1201",
+      "cfc11" : "CFC-11 concentration in parts per trillion",
+      "sum" : "the sum of all greenhouse gas concentration measurements",
+      "ch3ccl3" : "methyl chloroform concentration in parts per trillion",
+      "cfc12" : "CFC-12 concentration in parts per trillion",
+      "ccl4" : "carbon tetrachloride concentration in parts per trillion",
+      "odgi_old" : "old greenhouse gas index, no longer supported as of 2012",
+      "ch3br" : "bromomethane concentration in parts per trillion",
+      "eesc" : "includes consideration of lag times for transport and mixing associated with transport. New as of 2012",
+      "hcfcs" : "aggregate concentration in parts per trillion of HCFC-22, HCFC-141b, and HCFC-142b",
+      "ch3cl" : "chloromethane concentration in parts per trillion",
+      "cfc113" : "trichlorotrifluoroethane concentration in parts per trillion",
+      "cat" : "categorical variable for the Antarctic or Mid-Latitudes measurements",
+      "odgi_new" : "new greenhouse gas index, as of 2012"
+   },
+   "title" : "Ozone Depleting Gas Index Data, 1992-2022",
+   "format" : "A data frame with 62 observations on the following 16 variables.",
+   "reference" : "https://gml.noaa.gov/odgi/",
+   "description" : "Description\nThe NOAA Earth System Research Laboratory has an \"ozone depleting gas index\"\n(ODGI) data set from 1992 to 2018. This dataset summarizes Table 1 and Table 2 from its website.\nThe primary interest here (for my purposes) is the ODGI indices\n(including the new 2012 measure). The data set includes constituent greenhouse\ngases/chlorines as well in parts per trillion. The primary use here is for\nin-class illustration.",
+   "usage" : "ODGI"
+}
+
 var ODGI = [
    [
       "year",

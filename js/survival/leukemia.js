@@ -1,3 +1,10 @@
+var leukemiaInfo ={
+   "description" : "Description\nSurvival in patients with Acute Myelogenous Leukemia.\nThe question at the time was whether the standard course of\nchemotherapy should be extended ('maintainance') for additional\ncycles.",
+   "title" : "Acute Myelogenous Leukemia survival data",
+   "format" : "time: survival or censoring time\n\n\n \n    status: censoring status\n\n\n \n    x:  maintenance chemotherapy given? (factor)",
+   "usage" : "aml\nleukemia\ndata(cancer, package=\"survival\")"
+}
+
 var leukemia = [
    [
       "time",

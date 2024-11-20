@@ -1,3 +1,22 @@
+var birthsInfo ={
+   "usage" : "births",
+   "description" : "Description\nData on a random sample of 100 births for babies in North Carolina where the\nmother was not a smoker and another 50 where the mother was a smoker.",
+   "format" : "A data frame with 150 observations on the following 14 variables.",
+   "reference" : "Birth records released by North Carolina in 2004.",
+   "title" : "North Carolina births, 100 cases",
+   "parameters" : {
+      "m_age" : "Mother's age.",
+      "f_age" : "Father's age.",
+      "weight" : "Birth weight of the baby.",
+      "gained" : "Weight gained by mother.",
+      "weeks" : "Weeks at which the mother gave birth.",
+      "premature" : "Indicates whether the baby was premature or not.",
+      "smoke" : "Whether or not the mother was a smoker.",
+      "sex_baby" : "Gender of the baby.",
+      "visits" : "Number of hospital visits."
+   }
+}
+
 var births = [
    [
       "f_age",

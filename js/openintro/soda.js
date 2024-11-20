@@ -1,3 +1,15 @@
+var sodaInfo ={
+   "format" : "A data frame with 60 observations on the following 2 variables.",
+   "reference" : "library(dplyr)\n\nsoda |>\n  count(location, drink)",
+   "title" : "soda",
+   "parameters" : {
+      "location" : "Is the person from the West coast or East coast?",
+      "drink" : "Soda preference, cola or orange."
+   },
+   "usage" : "soda",
+   "description" : "Description\nA randomly generated dataset of soda preference (cola or orange) based on location."
+}
+
 var soda = [
    [
       "drink",

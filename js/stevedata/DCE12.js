@@ -1,3 +1,32 @@
+var DCE12Info ={
+   "description" : "Description\nA data set on domestic conflict events in 2012 as recorded by the Cross-National\nTime Series Database. Data exist for teaching about count models.",
+   "usage" : "DCE12",
+   "parameters" : {
+      "strikes" : "the count of general strikes in 2012",
+      "agd" : "the count of anti-government demonstrations in 2012",
+      "adultpop" : "the adult (15+) population (in 1000s)",
+      "govtcrises" : "the count of government crises in 2012",
+      "tpop" : "total population (in 1000s)",
+      "purges" : "the count of purges in 2012",
+      "revolutions" : "the count of revolutions in 2012",
+      "gdppc" : "GDP per capita (in constant 2015 USD)",
+      "polyarchy" : "electoral democracy index, an estimate of democracy",
+      "assassinations" : "the count of assassinations in 2012",
+      "urbanshare" : "urban population over total population (as percentage)",
+      "area" : "the land area in square kilometers",
+      "riots" : "the count of riots in 2012",
+      "country" : "a character name for the country corresponding with the ISO code",
+      "guerwar" : "the count of guerilla warfare events in 2012",
+      "perctser" : "percentage of tertiary school-aged population enrolled in tertiary school",
+      "youthpop" : "the youth (15-29) population (in 1000s)",
+      "wci" : "the weighted conflict index in 2012",
+      "iso2c" : "a two-character ISO code"
+   },
+   "title" : "Domestic Conflict Events, 2012",
+   "reference" : "Conflict events data come from the Cross-National Time Series Database. I've\nused these data before for published papers, but the relative opacity of a\ndata set for yearly purchase comes with a bit of a caveat emptor for the\nimportant question of real-world inference.",
+   "format" : "A data frame with 198 observations on the following 19 variables."
+}
+
 var DCE12 = [
    [
       "iso2c",

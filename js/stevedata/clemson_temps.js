@@ -1,3 +1,16 @@
+var clemson_tempsInfo ={
+   "title" : "Daily Clemson Temperature Data",
+   "reference" : "Data obtained from NOAA, via the rnoaa package. The station identifier is GHCND:USC00381770 for added context.\nThe call from rnoaa returns these values initially as Celsius*10. I don't know why NOAA does it this way, but there you go.",
+   "format" : "A data frame with 33,148 observations on the following 3 variables.",
+   "parameters" : {
+      "tmax" : "the daily high, adjusted to Fahrenheit",
+      "date" : "the date",
+      "tmin" : "the daily low, adjusted to Fahrenheit"
+   },
+   "usage" : "clemson_temps",
+   "description" : "Description\nThis data set contains daily temperatures (highs and lows) for Clemson, South Carolina\nfrom Jan. 1, 1930 to the end of the most recent calendar year.\nThe goal is to update this periodically with new data for\nas long as I live in this town."
+}
+
 var clemson_temps = [
    [
       "date",

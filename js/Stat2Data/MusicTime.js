@@ -1,3 +1,18 @@
+var MusicTimeInfo ={
+   "description" : "Description\nEstimates of 45 seconds with different music playing",
+   "parameters" : {
+      "Accuracy" : "Absolute value of TimeGuess minus 45",
+      "TimeGuess" : "Subject's time estimating 45 seconds (in seconds)",
+      "MusicBg" : "Music playing in the background (no or yes)",
+      "Sex" : "Subject's sex (f=female or m=male)",
+      "Music" : "Type of music (calm, control, or upbeat)",
+      "Subject" : "Code for each subject (subj1 through subj20)"
+   },
+   "reference" : "Participants were asked to judge when 45 seconds had passed in silence (control), while listening to an upbeat song (Metropolis, by David Guetta and Nicky Romero), and while listening to a calm song (Bach's Das Wohltemperierte Klavier, Prelude in C Major). The order in which the three conditions were experienced was randomized for each participant.  Time until subject guessed 45 seconds had elapsed (TimeGuess) and the magnitude of the difference from 45 (Accuracy) were recorded.",
+   "title" : "Estimating Time with Different Music Playing",
+   "usage" : "A data frame with 60 observations on the following 6 variables."
+}
+
 var MusicTime = [
    [
       "MusicBg",

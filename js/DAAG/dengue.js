@@ -1,3 +1,26 @@
+var dengueInfo ={
+   "reference" : "This is derived from a data set in which the climate and tree cover\ninformation were given for each half degree of latitude by half\ndegreee of longitude pixel.\nThe variable NoYes was given by administrative region.\nThe climate data and tree cover data given here are 50th or 90th\npercentiles, where percetiles were calculates across pixels for an\nadministrative region.",
+   "title" : "Dengue prevalence, by administrative region",
+   "format" : "A data frame with 2000 observations on the following 13 variables.",
+   "parameters" : {
+      "h10pix" : "maximum of humid, within a 10 pixel radius",
+      "temp90" : "90th percentile of temp",
+      "trees" : "Percent tree cover, from satellite data",
+      "Xmin" : "minimum longitude",
+      "temp" : "Average temperature: 1961-1990",
+      "trees90" : "90th percentile of trees",
+      "Ymin" : "minimum latitude",
+      "humid" : "Average vapour density: 1961-1990",
+      "humid90" : "90th percentile of humid",
+      "NoYes" : "Was dengue observed? (1=yes)",
+      "Xmax" : "maximum longitude",
+      "h10pix90" : "maximum of humid90, within a 10 pixel radius",
+      "Ymax" : "maximum latitude"
+   },
+   "usage" : "data(dengue)",
+   "description" : "Description\nData record, for each of 2000 administrative regions,\nwhether or not dengue was recorded at any time between 1961 and 1990."
+}
+
 var dengue = [
    [
       "humid",

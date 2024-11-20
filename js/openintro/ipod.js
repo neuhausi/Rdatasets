@@ -1,3 +1,14 @@
+var ipodInfo ={
+   "parameters" : {
+      "song_length" : "Length of song (in minutes)."
+   },
+   "format" : "A data frame with 3000 observations on the following variable.",
+   "reference" : "Simulated data.",
+   "title" : "Length of songs on an iPod",
+   "description" : "Description\nA simulated dataset on lengths of songs on an iPod.",
+   "usage" : "ipod"
+}
+
 var ipod = [
    [
       "song_length"

@@ -1,3 +1,14 @@
+var BoscoInfo ={
+   "description" : "Description\nBoscovich data used to estimate the ellipticity of the earth.\nThere are five measurements of the arc length of one degree of \nlatitude taken at 5 different latitudes.  See Koenker (2005) for\nfurther details and references.",
+   "parameters" : {
+      "x" : "sine squared of latitude measured in degrees",
+      "y" : "arc length of one degree of latitude measured in toise - 56,700,\none toise approximately equals 1.95 meters."
+   },
+   "title" : "Boscovich Data",
+   "format" : "A data frame containing 5 observations on 2 variables",
+   "usage" : "data(Bosco)"
+}
+
 var Bosco = [
    [
       "x",

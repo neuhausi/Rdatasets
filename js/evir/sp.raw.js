@@ -1,3 +1,10 @@
+var sp.rawInfo ={
+   "description" : "Description\nThe daily closing values of the S&P index from\nMonday 4th January 1960 until Friday 11th June 1993.\nThe data are contained in a numeric vector.\nThe dates of each observation are contained in a times\nattribute, which is an object of class \"POSIXct\" (see\nDateTimeClasses).",
+   "usage" : "data(sp.raw)",
+   "title" : "SP Data to June 1993",
+   "format" : "A numeric vector containing 8415 observations, with a\ntimes attribute which is a POSIXct object\nof the same length."
+}
+
 var sp.raw = [
    [
       "dat"

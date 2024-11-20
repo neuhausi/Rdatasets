@@ -1,3 +1,15 @@
+var winery_carsInfo ={
+   "parameters" : {
+      "obs_number" : "The observation number, e.g. observation 3 was immediately\npreceded by observation 2.",
+      "time_until_next" : "Time until this gondola car arrived since the last\ncar had left."
+   },
+   "format" : "A data frame with 52 observations on the following 2 variables.",
+   "title" : "Time Between Gondola Cars at Sterling Winery",
+   "reference" : "Important context: there was a sufficient line that people were leaving the\nwinery.",
+   "description" : "Description\nThese times represent times between gondolas at Sterling Winery. The main\ntake-away: there are 7 cars, as evidenced by the somewhat regular increases\nin splits between every 7 cars. The reason the times are slightly\nnon-constant is that the gondolas come off the tracks, so times will change\na little between each period.",
+   "usage" : "winery_cars"
+}
+
 var winery_cars = [
    [
       "obs_number",

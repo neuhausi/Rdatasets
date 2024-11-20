@@ -1,3 +1,20 @@
+var Aids2Info ={
+   "parameters" : {
+      "state" : "Grouped state of origin: \"NSW \"includes ACT and\n\"other\" is WA, SA, NT and TAS.",
+      "diag" : "(Julian) date of diagnosis.",
+      "T.categ" : "Reported transmission category.",
+      "age" : "Age (years) at diagnosis.",
+      "death" : "(Julian) date of death or end of observation.",
+      "sex" : "Sex of patient.",
+      "status" : "\"A\" (alive) or \"D\" (dead) at end of observation."
+   },
+   "title" : "Australian AIDS Survival Data",
+   "reference" : "This data set has been slightly jittered as a\ncondition of its release, to ensure patient confidentiality.",
+   "format" : "This data frame contains 2843 rows and the following columns:",
+   "description" : "Description\nData on patients diagnosed with AIDS in Australia before 1 July 1991.",
+   "usage" : "Aids2"
+}
+
 var Aids2 = [
    [
       "state",

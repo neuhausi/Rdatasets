@@ -1,3 +1,10 @@
+var UKSoccerInfo ={
+   "description" : "Description\nData from Lee (1997), on the goals scored by Home and Away teams in\nthe Premier Football League, 1995/6 season.",
+   "usage" : "data(\"UKSoccer\")",
+   "format" : "A 2-dimensional array resulting from cross-tabulating the number of\ngoals scored in 380 games.  The variables and their levels are as\nfollows:",
+   "title" : "UK Soccer Scores"
+}
+
 var UKSoccer = [
    [
       "Home",

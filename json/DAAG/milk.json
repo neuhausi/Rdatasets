@@ -1,10 +1,9 @@
 {
    "config" : {
       "title" : "Milk Sweetness Study",
-      "subtitle" : "DAAG - milk",
-      "graphType" : "Scatter2D"
+      "graphType" : "Scatter2D",
+      "subtitle" : "DAAG - milk"
    },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>milk</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Milk Sweetness Study</h2>\n<h3>Description</h3>\n<p>The <code>milk</code> data frame has 17 rows and 2 columns.\nEach of 17 panelists compared two milk samples\nfor sweetness. \n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>milk</code></pre>\n<h3>Format</h3>\n<p>This data frame contains the following columns:\n</p>\n<dl>\n<dt>four</dt><dd><p>a numeric vector consisting of the assessments for four units\nof additive</p>\n</dd>\n<dt>one</dt><dd><p>a numeric vector  while the is the assessment for one unit\nof additive</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>J.H. Maindonald\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>print(\"Rug Plot - Example 1.8.1\")\nxyrange &lt;- range(milk)\nplot(four ~ one, data = milk, xlim = xyrange, ylim = xyrange, pch = 16)\nrug(milk$one)\nrug(milk$four, side = 2)\nabline(0, 1)\n</code></pre>\n</main>\n</div>\n",
    "data" : {
       "y" : {
          "vars" : [
@@ -25,6 +24,10 @@
             "Var15",
             "Var16",
             "Var17"
+         ],
+         "smps" : [
+            "four",
+            "one"
          ],
          "data" : [
             [
@@ -95,11 +98,8 @@
                5.6,
                3.6
             ]
-         ],
-         "smps" : [
-            "four",
-            "one"
          ]
       }
-   }
+   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>milk</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Milk Sweetness Study</h2>\n<h3>Description</h3>\n<p>The <code>milk</code> data frame has 17 rows and 2 columns.\nEach of 17 panelists compared two milk samples\nfor sweetness. \n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>milk</code></pre>\n<h3>Format</h3>\n<p>This data frame contains the following columns:\n</p>\n<dl>\n<dt>four</dt><dd><p>a numeric vector consisting of the assessments for four units\nof additive</p>\n</dd>\n<dt>one</dt><dd><p>a numeric vector  while the is the assessment for one unit\nof additive</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>J.H. Maindonald\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>print(\"Rug Plot - Example 1.8.1\")\nxyrange &lt;- range(milk)\nplot(four ~ one, data = milk, xlim = xyrange, ylim = xyrange, pch = 16)\nrug(milk$one)\nrug(milk$four, side = 2)\nabline(0, 1)\n</code></pre>\n</main>\n</div>\n"
 }

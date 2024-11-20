@@ -1,13 +1,10 @@
 {
-   "config" : {
-      "title" : "Garland(1983) Data on Running Speed of Mammals",
-      "colorBy" : "hoppers",
-      "graphType" : "Scatter2D",
-      "shapeBy" : "specials",
-      "subtitle" : "quantreg - Mammals"
-   },
    "data" : {
       "y" : {
+         "smps" : [
+            "weight",
+            "speed"
+         ],
          "vars" : [
             "Var1",
             "Var2",
@@ -546,10 +543,6 @@
                4,
                1.6
             ]
-         ],
-         "smps" : [
-            "weight",
-            "speed"
          ]
       },
       "z" : {
@@ -773,5 +766,12 @@
          ]
       }
    },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>Mammals</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Garland(1983) Data on Running Speed of Mammals</h2>\n<h3>Description</h3>\n<p>Observations on the maximal running speed of mammal species\nand their body mass.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(Mammals)</code></pre>\n<h3>Format</h3>\n<p>A data frame with 107 observations on the following 4 variables.\n</p>\n<dl>\n<dt>weight</dt><dd><p>Body mass in Kg for &quot;typical adult sizes&quot;</p>\n</dd>\n<dt>speed</dt><dd><p>Maximal running speed (fastest sprint velocity on record)</p>\n</dd>\n<dt>hoppers</dt><dd><p>logical variable indicating animals that ambulate\nby hopping, e.g. kangaroos</p>\n</dd>\n<dt>specials</dt><dd><p>logical variable indicating special animals with\n&quot;lifestyles in which speed does not figure as an important\nfactor&quot;:  Hippopotamus, raccoon (Procyon), badger (Meles),\ncoati (Nasua), skunk (Mephitis), man (Homo), porcupine\n(Erithizon), oppossum (didelphis), and sloth (Bradypus)\n</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>Used by Chappell (1989) and Koenker, Ng and Portnoy (1994) to\nillustrate the fitting of piecewise linear curves.\n</p>\n<h3>Source</h3>\n<p>Garland, T. (1983) The relation between maximal running speed and body \nmass in terrestrial mammals, <em>J. Zoology</em>, 199, 1557-1570.\n</p>\n<h3>References</h3>\n<p>Koenker, R., P. Ng and S. Portnoy, (1994)  Quantile Smoothing Splines&rdquo; \n<em>Biometrika</em>, 81, 673-680.\n</p>\n<p>Chappell, R. (1989) Fitting Bent Lines to Data, with Applications ot\nAllometry,  <em>J. Theo. Biology</em>, 138, 235-256.\n</p>\n<h3>See Also</h3>\n<p><code>rqss</code></p>\n<h3>Examples</h3>\n<pre><code class='language-R'>data(Mammals)\nattach(Mammals)\nx &lt;- log(weight)\ny &lt;- log(speed)\nplot(x,y, xlab=\"Weight in log(Kg)\", ylab=\"Speed in log(Km/hour)\",type=\"n\")\npoints(x[hoppers],y[hoppers],pch = \"h\", col=\"red\")\npoints(x[specials],y[specials],pch = \"s\", col=\"blue\")\nothers &lt;- (!hoppers &amp; !specials)\npoints(x[others],y[others], col=\"black\",cex = .75)\nfit &lt;- rqss(y ~ qss(x, lambda = 1),tau = .9)\nplot(fit)\n</code></pre>\n</main>\n</div>\n"
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>Mammals</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Garland(1983) Data on Running Speed of Mammals</h2>\n<h3>Description</h3>\n<p>Observations on the maximal running speed of mammal species\nand their body mass.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(Mammals)</code></pre>\n<h3>Format</h3>\n<p>A data frame with 107 observations on the following 4 variables.\n</p>\n<dl>\n<dt>weight</dt><dd><p>Body mass in Kg for &quot;typical adult sizes&quot;</p>\n</dd>\n<dt>speed</dt><dd><p>Maximal running speed (fastest sprint velocity on record)</p>\n</dd>\n<dt>hoppers</dt><dd><p>logical variable indicating animals that ambulate\nby hopping, e.g. kangaroos</p>\n</dd>\n<dt>specials</dt><dd><p>logical variable indicating special animals with\n&quot;lifestyles in which speed does not figure as an important\nfactor&quot;:  Hippopotamus, raccoon (Procyon), badger (Meles),\ncoati (Nasua), skunk (Mephitis), man (Homo), porcupine\n(Erithizon), oppossum (didelphis), and sloth (Bradypus)\n</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>Used by Chappell (1989) and Koenker, Ng and Portnoy (1994) to\nillustrate the fitting of piecewise linear curves.\n</p>\n<h3>Source</h3>\n<p>Garland, T. (1983) The relation between maximal running speed and body \nmass in terrestrial mammals, <em>J. Zoology</em>, 199, 1557-1570.\n</p>\n<h3>References</h3>\n<p>Koenker, R., P. Ng and S. Portnoy, (1994)  Quantile Smoothing Splines&rdquo; \n<em>Biometrika</em>, 81, 673-680.\n</p>\n<p>Chappell, R. (1989) Fitting Bent Lines to Data, with Applications ot\nAllometry,  <em>J. Theo. Biology</em>, 138, 235-256.\n</p>\n<h3>See Also</h3>\n<p><code>rqss</code></p>\n<h3>Examples</h3>\n<pre><code class='language-R'>data(Mammals)\nattach(Mammals)\nx &lt;- log(weight)\ny &lt;- log(speed)\nplot(x,y, xlab=\"Weight in log(Kg)\", ylab=\"Speed in log(Km/hour)\",type=\"n\")\npoints(x[hoppers],y[hoppers],pch = \"h\", col=\"red\")\npoints(x[specials],y[specials],pch = \"s\", col=\"blue\")\nothers &lt;- (!hoppers &amp; !specials)\npoints(x[others],y[others], col=\"black\",cex = .75)\nfit &lt;- rqss(y ~ qss(x, lambda = 1),tau = .9)\nplot(fit)\n</code></pre>\n</main>\n</div>\n",
+   "config" : {
+      "title" : "Garland(1983) Data on Running Speed of Mammals",
+      "shapeBy" : "specials",
+      "colorBy" : "hoppers",
+      "graphType" : "Scatter2D",
+      "subtitle" : "quantreg - Mammals"
+   }
 }

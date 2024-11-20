@@ -1,3 +1,23 @@
+var vote1Info ={
+   "parameters" : {
+      "voteA" : " percent vote for A",
+      "expendA" : " camp. expends. by A, $1000s",
+      "state" : " state postal code",
+      "prtystrA" : " percent vote for president",
+      "shareA" : " 100*(expendA/(expendA+expendB))",
+      "district" : " congressional district",
+      "democA" : " =1 if A is democrat",
+      "lexpendB" : " log(expendB)",
+      "lexpendA" : " log(expendA)",
+      "expendB" : " camp. expends. by B, $1000s"
+   },
+   "title" : "vote1",
+   "format" : "A data.frame with 173 observations on 10 variables:",
+   "reference" : "pages 34, 39, 164, 221-222, 299, 699",
+   "description" : "Description\nWooldridge Source: From M. Barone and G. Ujifusa, The Almanac of American Politics, 1992. Washington, DC: National Journal. Data loads lazily.",
+   "usage" : "data('vote1')"
+}
+
 var vote1 = [
    [
       "state",

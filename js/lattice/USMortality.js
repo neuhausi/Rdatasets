@@ -1,3 +1,19 @@
+var USMortalityInfo ={
+   "title" : "Mortality Rates in US by Cause and Gender",
+   "format" : "USRegionalMortality is a data frame with 400 observations on\nthe following 6 variables.",
+   "reference" : "The region-wise data give estimated rates separately for each\nof 10 HHS regions. The location of the regional offices and their\ncoverage area, available from\nhttps://www.hhs.gov/about/agencies/iea/regional-offices/index.html,\nis given below.",
+   "parameters" : {
+      "SE" : "Standard error for the rate",
+      "Rate" : "Age-adjusted death rate per 100,000 population",
+      "Region" : "A factor specifying HHS Region. See details.",
+      "Sex" : "A factor with levels Female and Male",
+      "Cause" : "Cause of death. A factor with levels\nAlzheimers, Cancer, Cerebrovascular diseases,\nDiabetes, Flu and pneumonia, Heart disease,\nLower respiratory, Nephritis, Suicide, and\nUnintentional injuries",
+      "Status" : "A factor with levels Rural and Urban"
+   },
+   "usage" : "USMortality\nUSRegionalMortality",
+   "description" : "Description\nThese datasets record mortality rates across all ages in the USA by\ncause of death, sex, and rural/urban status, 2011&ndash;2013. The two\ndatasets represent the national aggregate rates and the region-wise\nrates for each administrative region under the Department of Health\nand Human Services (HHS)."
+}
+
 var USMortality = [
    [
       "Status",

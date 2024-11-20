@@ -1,3 +1,25 @@
+var USSeatBeltsInfo ={
+   "parameters" : {
+      "speed70" : "factor. Is there a 70 (or higher) mile per hour speed limit?",
+      "miles" : "millions of traffic miles per year.",
+      "drinkage" : "factor. Is there a minimum drinking age of 21 years?",
+      "enforce" : "factor indicating seat belt law enforcement\n(\"no\", \"primary\", \"secondary\").",
+      "year" : "factor indicating year.",
+      "alcohol" : "factor. Is there a maximum of 0.08 blood alcohol content?",
+      "age" : "mean age.",
+      "income" : "median per capita income (in current US dollar).",
+      "state" : "factor indicating US state (abbreviation).",
+      "seatbelt" : "seat belt usage rate, as self-reported by state population surveyed.",
+      "speed65" : "factor. Is there a 65 mile per hour speed limit?",
+      "fatalities" : "number of fatalities per million of traffic miles\n(absolute frequencies of fatalities = fatalities times miles)."
+   },
+   "format" : "A data frame containing 765 observations on 12 variables.",
+   "reference" : "Some data series from Cohen and Einav (2003) have not been included in the data frame.",
+   "title" : "Effects of Mandatory Seat Belt Laws in the US",
+   "description" : "Description\nBalanced panel data for the years 1983&ndash;1997 from 50 US States, plus the District of Columbia,\nfor assessing traffic fatalities and seat belt usage.",
+   "usage" : "data(\"USSeatBelts\")"
+}
+
 var USSeatBelts = [
    [
       "state",

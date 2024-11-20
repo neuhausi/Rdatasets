@@ -1,3 +1,18 @@
+var radarImageInfo ={
+   "parameters" : {
+      "Y.coord" : "a numeric vector",
+      "X.coord" : "a numeric vector",
+      "Band.1" : "a numeric vector",
+      "Band.3" : "a numeric vector",
+      "Band.2" : "a numeric vector"
+   },
+   "title" : "Satellite Radar Image Data from near Munich",
+   "format" : "A data frame with 1573 observations on the following 5 variables.",
+   "reference" : "The website accompanying the MMY-book:\nhttps://www.wiley.com/legacy/wileychi/robust_statistics/",
+   "description" : "Description\nThe data were supplied by A. Frery.  They are a part of a synthetic aperture\nsatellite radar image corresponding to a suburb of Munich.  Provided\nare coordinates and values corresponding to three frequency bands for\neach of 1573 pixels.",
+   "usage" : "data(radarImage, package=\"robustbase\")"
+}
+
 var radarImage = [
    [
       "X.coord",

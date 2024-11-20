@@ -1,4 +1,9 @@
 {
+   "config" : {
+      "graphType" : "Scatter2D",
+      "title" : "Annual female murder rate (per 100",
+      "subtitle" : "fpp2 - wmurders"
+   },
    "data" : {
       "y" : {
          "vars" : [
@@ -57,6 +62,10 @@
             "Var53",
             "Var54",
             "Var55"
+         ],
+         "smps" : [
+            "time",
+            "value"
          ],
          "data" : [
             [
@@ -279,17 +288,8 @@
                2004,
                2.589383
             ]
-         ],
-         "smps" : [
-            "time",
-            "value"
          ]
       }
    },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>wmurders</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Annual female murder rate (per 100,000 standard population) in the USA.\n1950-2004.</h2>\n<h3>Description</h3>\n<p>Total Murdered women, per 100 000 standard population.\n</p>\n<h3>Format</h3>\n<p>Annual time series of class <code>ts</code>.\n</p>\n<h3>Source</h3>\n<p>Gapminder Foundation.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>\nautoplot(wmurders)\n</code></pre>\n</main>\n</div>\n",
-   "config" : {
-      "title" : "Annual female murder rate (per 100",
-      "subtitle" : "fpp2 - wmurders",
-      "graphType" : "Scatter2D"
-   }
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>wmurders</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Annual female murder rate (per 100,000 standard population) in the USA.\n1950-2004.</h2>\n<h3>Description</h3>\n<p>Total Murdered women, per 100 000 standard population.\n</p>\n<h3>Format</h3>\n<p>Annual time series of class <code>ts</code>.\n</p>\n<h3>Source</h3>\n<p>Gapminder Foundation.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>\nautoplot(wmurders)\n</code></pre>\n</main>\n</div>\n"
 }

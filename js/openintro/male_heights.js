@@ -1,3 +1,13 @@
+var male_heightsInfo ={
+   "format" : "A data frame with 100 observations on the following variable.",
+   "title" : "Sample of 100 male heights",
+   "usage" : "male_heights",
+   "description" : "Description\nRandom sample based on Food Commodity Intake Database distribution",
+   "parameters" : {
+      "heights" : "a numeric vector"
+   }
+}
+
 var male_heights = [
    [
       "heights"

@@ -1,3 +1,25 @@
+var hprice2Info ={
+   "description" : "Description\nWooldridge Source: D. Harrison and D.L. Rubinfeld (1978), âHedonic Housing Prices and the Demand for Clean Air,â by Harrison, D. and D.L.Rubinfeld, Journal of Environmental Economics and Management 5, 81-102. Diego Garcia, a former Ph.D. student in economics at MIT, kindly provided these data, which he obtained from the book Regression Diagnostics: Identifying Influential Data and Sources of Collinearity, by D.A. Belsey, E. Kuh, and R. Welsch, 1990. New York: Wiley. Data loads lazily.",
+   "usage" : "data('hprice2')",
+   "parameters" : {
+      "crime" : " crimes committed per capita",
+      "rooms" : " avg number of rooms",
+      "proptax" : " property tax per $1000",
+      "stratio" : " average student-teacher ratio",
+      "radial" : " access. index to rad. hghwys",
+      "lprice" : " log(price)",
+      "dist" : " wght dist to 5 employ centers",
+      "price" : " median housing price, $",
+      "lnox" : " log(nox)",
+      "lproptax" : " log(proptax)",
+      "nox" : " nit ox concen; parts per 100m",
+      "lowstat" : " perc of people 'lower status'"
+   },
+   "title" : "hprice2",
+   "format" : "A data.frame with 506 observations on 12 variables:",
+   "reference" : "The census contains rich information on variables such as median housing prices, median income levels, average family size, and so on, for fairly small geographical areas. If such data can be merged with pollution data, one can update the Harrison and Rubinfeld study. Presumably, this has been done in academic journals."
+}
+
 var hprice2 = [
    [
       "price",

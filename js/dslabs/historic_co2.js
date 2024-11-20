@@ -1,3 +1,16 @@
+var historic_co2Info ={
+   "description" : "Description\nConcentration of carbon dioxide in ppm by volume from direct measurements at Mauna Loa (1959-2018 CE) and indirect measurements from a series of Antarctic ice cores (approx. -800,000-2001 CE).",
+   "usage" : "historic_co2",
+   "parameters" : {
+      "source. Source of carbon dioxide measurement" : " direct CO2 annual mean concentrations from Mauna Loa ('Mauna Loa') or indirect CO2 concentrations from air trapped in ice cores ('Ice Cores').",
+      "year. Year (CE)." : null,
+      "co2. Carbon dioxide concentration in ppm by volume." : null
+   },
+   "format" : "An object of class \"data.frame\".",
+   "title" : "Atmospheric carbon dioxide concentration over 800,000 years",
+   "reference" : "Mauna Loa data from NOAA. Ice core data from Bereiter et al. 2015 via NOAA."
+}
+
 var historic_co2 = [
    [
       "year",

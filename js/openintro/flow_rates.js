@@ -1,3 +1,16 @@
+var flow_ratesInfo ={
+   "parameters" : {
+      "date" : "Date measurements were taken.",
+      "flow" : "Flow rate of the river in cubic feet per second.",
+      "site" : "Location where measurements were taken."
+   },
+   "title" : "River flow data",
+   "format" : "A data frame with 31 rows and 3 variables.",
+   "reference" : "Pierce County Water Data Viewer.",
+   "description" : "Description\nFlow rates (mesured in cubic feet per second) of Clarks Creek, Leach Creek,\nSilver Creek, and Wildwood Creek Spring collected by volunteers of the\nPierce Conservation District in the State of Washington in the US.",
+   "usage" : "flow_rates"
+}
+
 var flow_rates = [
    [
       "site",

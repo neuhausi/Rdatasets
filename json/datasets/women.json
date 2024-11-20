@@ -1,32 +1,7 @@
 {
-   "config" : {
-      "graphType" : "Scatter2D",
-      "subtitle" : "datasets - women",
-      "title" : "Average Heights and Weights for American Women"
-   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>women</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Average Heights and Weights for American Women</h2>\n<h3>Description</h3>\n<p>This data set gives the average heights and weights for American women\naged 30&ndash;39.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>women</code></pre>\n<h3>Format</h3>\n<p>A data frame with 15 observations on 2 variables.\n</p>\n<table>\n<tr>\n <td style=\"text-align: right;\">\n    <code>[,1]</code>  </td><td style=\"text-align: left;\"> <code>height</code>  </td><td style=\"text-align: left;\"> numeric  </td><td style=\"text-align: left;\"> Height (in)</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>[,2]</code>  </td><td style=\"text-align: left;\"> <code>weight</code>  </td><td style=\"text-align: left;\"> numeric  </td><td style=\"text-align: left;\"> Weight (lbs)\n  </td>\n</tr>\n</table>\n<h3>Details</h3>\n<p>The data set appears to have been taken from the American Society of\nActuaries <em>Build and Blood Pressure Study</em> for some (unknown to\nus) earlier year.\n</p>\n<p>The World Almanac notes: &ldquo;The figures represent weights in\nordinary indoor clothing and shoes, and heights with shoes&rdquo;.\n</p>\n<h3>Source</h3>\n<p>The World Almanac and Book of Facts, 1975.</p>\n<h3>References</h3>\n<p>McNeil, D. R. (1977)\n<em>Interactive Data Analysis</em>.\nWiley.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>require(graphics)\nplot(women, xlab = \"Height (in)\", ylab = \"Weight (lb)\",\n     main = \"women data: American women aged 30-39\")\n</code></pre>\n</main>\n</div>\n",
    "data" : {
       "y" : {
-         "vars" : [
-            "Var1",
-            "Var2",
-            "Var3",
-            "Var4",
-            "Var5",
-            "Var6",
-            "Var7",
-            "Var8",
-            "Var9",
-            "Var10",
-            "Var11",
-            "Var12",
-            "Var13",
-            "Var14",
-            "Var15"
-         ],
-         "smps" : [
-            "height",
-            "weight"
-         ],
          "data" : [
             [
                58,
@@ -88,8 +63,33 @@
                72,
                164
             ]
+         ],
+         "vars" : [
+            "Var1",
+            "Var2",
+            "Var3",
+            "Var4",
+            "Var5",
+            "Var6",
+            "Var7",
+            "Var8",
+            "Var9",
+            "Var10",
+            "Var11",
+            "Var12",
+            "Var13",
+            "Var14",
+            "Var15"
+         ],
+         "smps" : [
+            "height",
+            "weight"
          ]
       }
    },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>women</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Average Heights and Weights for American Women</h2>\n<h3>Description</h3>\n<p>This data set gives the average heights and weights for American women\naged 30&ndash;39.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>women</code></pre>\n<h3>Format</h3>\n<p>A data frame with 15 observations on 2 variables.\n</p>\n<table>\n<tr>\n <td style=\"text-align: right;\">\n    <code>[,1]</code>  </td><td style=\"text-align: left;\"> <code>height</code>  </td><td style=\"text-align: left;\"> numeric  </td><td style=\"text-align: left;\"> Height (in)</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>[,2]</code>  </td><td style=\"text-align: left;\"> <code>weight</code>  </td><td style=\"text-align: left;\"> numeric  </td><td style=\"text-align: left;\"> Weight (lbs)\n  </td>\n</tr>\n</table>\n<h3>Details</h3>\n<p>The data set appears to have been taken from the American Society of\nActuaries <em>Build and Blood Pressure Study</em> for some (unknown to\nus) earlier year.\n</p>\n<p>The World Almanac notes: &ldquo;The figures represent weights in\nordinary indoor clothing and shoes, and heights with shoes&rdquo;.\n</p>\n<h3>Source</h3>\n<p>The World Almanac and Book of Facts, 1975.</p>\n<h3>References</h3>\n<p>McNeil, D. R. (1977)\n<em>Interactive Data Analysis</em>.\nWiley.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>require(graphics)\nplot(women, xlab = \"Height (in)\", ylab = \"Weight (lb)\",\n     main = \"women data: American women aged 30-39\")\n</code></pre>\n</main>\n</div>\n"
+   "config" : {
+      "title" : "Average Heights and Weights for American Women",
+      "graphType" : "Scatter2D",
+      "subtitle" : "datasets - women"
+   }
 }

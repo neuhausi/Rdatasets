@@ -1,3 +1,20 @@
+var airportsInfo ={
+   "description" : "Description\nUseful metadata about airports.",
+   "usage" : "airports",
+   "parameters" : {
+      "tzone" : "IANA time zone, as determined by GeoNames webservice.",
+      "dst" : "Daylight savings time zone. A = Standard US DST: starts on the\nsecond Sunday of March, ends on the first Sunday of November.\nU = unknown. N = no dst.",
+      "lat, lon" : "Location of airport.",
+      "alt" : "Altitude, in feet.",
+      "tz" : "Timezone offset from GMT.",
+      "faa" : "FAA airport code.",
+      "name" : "Usual name of the aiport."
+   },
+   "title" : "Airport metadata",
+   "format" : "A data frame with columns:",
+   "reference" : "https://openflights.org/data.html, downloaded 2014-06-27"
+}
+
 var airports = [
    [
       "faa",

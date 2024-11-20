@@ -1,3 +1,20 @@
+var BundesligaInfo ={
+   "parameters" : {
+      "Date" : "starting time of the game (in \"POSIXct\" format).",
+      "HomeGoals" : "number of goals scored by the home team.",
+      "AwayTeam" : "factor. Name of the away team.",
+      "Year" : "year in which the season started.",
+      "HomeTeam" : "factor. Name of the home team.",
+      "Round" : "round of the game.",
+      "AwayGoals" : "number of goals scored by the away team."
+   },
+   "format" : "A data frame with 14018 observations and 7 variables.",
+   "reference" : "The data comprises all games in the first German soccer league since\nits foundation in 1963. The data have been queried online from the \nofficial Web page of the DFB and prepared as a data frame in R by\nDaniel Dekic, Torsten Hothorn, and Achim Zeileis (replacing earlier versions of the\ndata in the package containing only subsets of years).",
+   "title" : "Ergebnisse der Fussball-Bundesliga",
+   "description" : "Description\nResults from the first German soccer league (1963-2008).",
+   "usage" : "data(\"Bundesliga\")"
+}
+
 var Bundesliga = [
    [
       "HomeTeam",

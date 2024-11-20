@@ -1,3 +1,21 @@
+var UKDriverDeathsInfo ={
+   "format" : "Seatbelts is a multiple time series, with columns",
+   "title" : "Road Casualties in Great Britain 1969&ndash;84",
+   "reference" : "Harvey, A.C. (1989).\nForecasting, Structural Time Series Models and the Kalman Filter.\nCambridge University Press, pp. 519&ndash;523.",
+   "parameters" : {
+      "DriversKilled" : "car drivers killed.",
+      "VanKilled" : "number of van (&lsquo;light goods vehicle&rsquo;)\ndrivers.",
+      "front" : "front-seat passengers killed or seriously injured.",
+      "rear" : "rear-seat passengers killed or seriously injured.",
+      "drivers" : "same as UKDriverDeaths.",
+      "PetrolPrice" : "petrol price.",
+      "law" : "0/1: was the law in effect that month?",
+      "kms" : "distance driven."
+   },
+   "usage" : "UKDriverDeaths\nSeatbelts",
+   "description" : "Description\nUKDriverDeaths is a time series giving the monthly totals\nof car drivers in\nGreat Britain killed or seriously injured Jan 1969 to Dec 1984.\nCompulsory wearing of seat belts was introduced on 31 Jan 1983.\nSeatbelts is more information on the same problem."
+}
+
 var UKDriverDeaths = [
    [
       "time",

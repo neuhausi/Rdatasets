@@ -1,3 +1,25 @@
+var egsingleInfo ={
+   "parameters" : {
+      "math" : "a numeric vector of test scores on the IRT scale score metric",
+      "year" : "a numeric vector indicating the year of the test",
+      "female" : "a factor with levels Female Male\nindicating the student's sex",
+      "retained" : "a factor with levels 0 1 indicating if\nthe student has been retained in a grade.",
+      "hispanic" : "a factor with levels 0 1 indicating if\nthe student is Hispanic",
+      "black" : "a factor with levels 0 1 indicating if\nthe student is Black",
+      "size" : "a numeric vector indicating the number of students\nenrolled in the school",
+      "childid" : "a factor of student identifiers",
+      "mobility" : "a numeric vector",
+      "lowinc" : "a numeric vector giving the percentage of low-income\nstudents in the school",
+      "schoolid" : "a factor of school identifiers",
+      "grade" : "a numeric vector indicating the student's grade"
+   },
+   "reference" : "These data are distributed with the HLM software package (Bryk,\nRaudenbush and Congdon, 1996).  Conversion to the R format is\ndescribed in Doran and Lockwood (2004).",
+   "title" : "US Sustaining Effects study",
+   "format" : "A data frame with 7230 observations on the following 12 variables.",
+   "description" : "Description\nA subset of the mathematics scores from the U.S. Sustaining Effects\nStudy.  The subset consists of information on 1721 students from 60 schools",
+   "usage" : "data(egsingle)"
+}
+
 var egsingle = [
    [
       "schoolid",

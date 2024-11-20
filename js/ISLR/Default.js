@@ -1,3 +1,17 @@
+var DefaultInfo ={
+   "reference" : "Simulated data",
+   "format" : "A data frame with 10000 observations on the following 4 variables.",
+   "title" : "Credit Card Default Data",
+   "parameters" : {
+      "student" : "A factor with levels No and Yes\nindicating whether the customer is a student",
+      "balance" : "The average balance that the customer\nhas remaining on their credit card after making their monthly payment",
+      "income" : "Income of customer",
+      "default" : "A factor with levels No and Yes\nindicating whether the customer defaulted on their debt"
+   },
+   "usage" : "Default",
+   "description" : "Description\nA simulated data set containing information on ten thousand\ncustomers. The aim here is to predict which customers will default on\ntheir credit card debt."
+}
+
 var Default = [
    [
       "default",

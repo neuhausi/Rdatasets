@@ -1,3 +1,10 @@
+var freeny.yInfo ={
+   "format" : "There are three &lsquo;freeny&rsquo; data sets.",
+   "title" : "Freeny's Revenue Data",
+   "usage" : "freeny\nfreeny.x\nfreeny.y",
+   "description" : "Description\nFreeny's data on quarterly revenue and explanatory variables."
+}
+
 var freeny.y = [
    [
       "time",

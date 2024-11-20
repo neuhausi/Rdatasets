@@ -1,3 +1,14 @@
+var russian_influence_on_us_election_2016Info ={
+   "usage" : "russian_influence_on_us_election_2016",
+   "description" : "Description\nSurvey of Russian citizens on whether they believed their government tried\nto influence the 2016 US election. The survey was taken in Spring 2018 by\nPew Research.",
+   "format" : "A data frame with 506 observations on the following variable.",
+   "title" : "Russians' Opinions on US Election Influence in 2016",
+   "reference" : "The actual sample size was 1000. However, the original data were not from a\nsimple random sample; after accounting for the design, the equivalent sample\nsize was 506, which was what was used for the dataset here to keep things\nsimpler for intro stat analyses.",
+   "parameters" : {
+      "influence_2016" : "Response of the Russian survey participant to the question\nof whether their government tried to influence the 2016 election in the\nUnited States."
+   }
+}
+
 var russian_influence_on_us_election_2016 = [
    [
       "influence_2016",

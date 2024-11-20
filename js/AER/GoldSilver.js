@@ -1,3 +1,15 @@
+var GoldSilverInfo ={
+   "usage" : "data(\"GoldSilver\")",
+   "description" : "Description\nTime series of gold and silver prices.",
+   "format" : "A daily multiple time series from 1977-12-30 to 2012-12-31 (of class \"zoo\" with \"Date\" index).",
+   "title" : "Gold and Silver Prices",
+   "reference" : "Online complements to Franses, van Dijk and Opschoor (2014).",
+   "parameters" : {
+      "silver" : "spot price for silver.",
+      "gold" : "spot price for gold,"
+   }
+}
+
 var GoldSilver = [
    [
       "gold",

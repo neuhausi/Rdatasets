@@ -1,15 +1,12 @@
 {
+   "config" : {
+      "subtitle" : "carData - Bfox",
+      "title" : "Canadian Women's Labour-Force Participation",
+      "graphType" : "Heatmap"
+   },
    "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>Bfox</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Canadian Women's Labour-Force Participation</h2>\n<h3>Description</h3>\n<p>The <code>Bfox</code> data frame has 30 rows and 7 columns.\nTime-series data on Canadian women's labor-force participation,\n1946&ndash;1975.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>Bfox\n</code></pre>\n<h3>Format</h3>\n<p>This data frame contains the following columns:\n</p>\n<dl>\n<dt>partic</dt><dd>\n<p>Percent of adult women in the workforce.\n</p>\n</dd>\n<dt>tfr</dt><dd>\n<p>Total fertility rate: expected births to a cohort of 1000\nwomen at current age-specific fertility rates.\n</p>\n</dd>\n<dt>menwage</dt><dd>\n<p>Men's average weekly wages, in constant 1935 dollars and\nadjusted for current tax rates.\n</p>\n</dd>\n<dt>womwage</dt><dd>\n<p>Women's average weekly wages.\n</p>\n</dd>\n<dt>debt</dt><dd>\n<p>Per-capita consumer debt, in constant dollars.\n</p>\n</dd>\n<dt>parttime</dt><dd>\n<p>Percent of the active workforce working 34 hours per week or\nless.\n</p>\n</dd>\n</dl>\n<h3>Warning</h3>\n<p>The value of <code>tfr</code> for 1973 is misrecorded as 2931; it should be 1931.\n</p>\n<h3>Source</h3>\n<p>Fox, B. (1980) \n<em>Women's Domestic Labour and their Involvement \nin Wage Work.</em> Unpublished doctoral dissertation, p. 449.\n</p>\n<h3>References</h3>\n<p>Fox, J. (2016)\n<em>Applied Regression Analysis and Generalized Linear Models</em>,\nThird Edition. Sage.  \n</p>\n</main>\n</div>\n",
    "data" : {
       "y" : {
-         "vars" : [
-            "partic",
-            "tfr",
-            "menwage",
-            "womwage",
-            "debt",
-            "parttime"
-         ],
          "data" : [
             [
                25.3,
@@ -204,6 +201,14 @@
                16.71
             ]
          ],
+         "vars" : [
+            "partic",
+            "tfr",
+            "menwage",
+            "womwage",
+            "debt",
+            "parttime"
+         ],
          "smps" : [
             "1946",
             "1947",
@@ -237,10 +242,5 @@
             "1975"
          ]
       }
-   },
-   "config" : {
-      "title" : "Canadian Women's Labour-Force Participation",
-      "subtitle" : "carData - Bfox",
-      "graphType" : "Heatmap"
    }
 }

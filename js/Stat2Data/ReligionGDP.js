@@ -1,3 +1,9 @@
+var ReligionGDPInfo ={
+   "title" : "Religion and GDP for Countries",
+   "usage" : "A dataset with 44 observations on the following 9 variables.",
+   "description" : "Description\nData on religiosity of countries from the Pew Global Attitudes Project"
+}
+
 var ReligionGDP = [
    [
       "Country",

@@ -1,4 +1,10 @@
 {
+   "config" : {
+      "subtitle" : "MASS - npk",
+      "graphType" : "Scatter2D",
+      "title" : "Classical N",
+      "scatterPlotMatrix" : 1
+   },
    "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>npk</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>\nClassical N, P, K Factorial Experiment\n</h2>\n<h3>Description</h3>\n<p>A classical N, P, K (nitrogen, phosphate, potassium) factorial\nexperiment on the growth of peas conducted on 6 blocks. Each half of a\nfractional factorial design confounding the NPK interaction was used\non 3 of the plots.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>npk\n</code></pre>\n<h3>Format</h3>\n<p>The <code>npk</code> data frame has 24 rows and 5 columns:\n</p>\n<dl>\n<dt><code>block</code></dt><dd>\n<p>which block (label 1 to 6).\n</p>\n</dd>\n<dt><code>N</code></dt><dd>\n<p>indicator (0/1) for the application of nitrogen.\n</p>\n</dd>\n<dt><code>P</code></dt><dd>\n<p>indicator (0/1) for the application of phosphate.\n</p>\n</dd>\n<dt><code>K</code></dt><dd>\n<p>indicator (0/1) for the application of potassium.\n</p>\n</dd>\n<dt><code>yield</code></dt><dd>\n<p>Yield of peas, in pounds/plot (the plots were (1/70) acre).\n</p>\n</dd>\n</dl>\n<h3>Note</h3>\n<p>This dataset is also contained in <span class=\"rlang\"><b>R</b></span> 3.0.2 and later.\n</p>\n<h3>Source</h3>\n<p>Imperial College, London, M.Sc. exercise sheet.\n</p>\n<h3>References</h3>\n<p>Venables, W. N. and Ripley, B. D. (2002)\n<em>Modern Applied Statistics with S.</em> Fourth edition.  Springer.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>options(contrasts = c(\"contr.sum\", \"contr.poly\"))\nnpk.aov &lt;- aov(yield ~ block + N*P*K, npk)\n## IGNORE_RDIFF_BEGIN\nnpk.aov\nsummary(npk.aov)\nalias(npk.aov)\ncoef(npk.aov)\noptions(contrasts = c(\"contr.treatment\", \"contr.poly\"))\nnpk.aov1 &lt;- aov(yield ~ block + N + K, data = npk)\nsummary.lm(npk.aov1)\nse.contrast(npk.aov1, list(N==\"0\", N==\"1\"), data = npk)\nmodel.tables(npk.aov1, type = \"means\", se = TRUE)\n## IGNORE_RDIFF_END</code></pre>\n</main>\n</div>\n",
    "data" : {
       "y" : {
@@ -8,6 +14,32 @@
             "P",
             "K",
             "yield"
+         ],
+         "vars" : [
+            "Var1",
+            "Var2",
+            "Var3",
+            "Var4",
+            "Var5",
+            "Var6",
+            "Var7",
+            "Var8",
+            "Var9",
+            "Var10",
+            "Var11",
+            "Var12",
+            "Var13",
+            "Var14",
+            "Var15",
+            "Var16",
+            "Var17",
+            "Var18",
+            "Var19",
+            "Var20",
+            "Var21",
+            "Var22",
+            "Var23",
+            "Var24"
          ],
          "data" : [
             [
@@ -178,39 +210,7 @@
                0,
                56
             ]
-         ],
-         "vars" : [
-            "Var1",
-            "Var2",
-            "Var3",
-            "Var4",
-            "Var5",
-            "Var6",
-            "Var7",
-            "Var8",
-            "Var9",
-            "Var10",
-            "Var11",
-            "Var12",
-            "Var13",
-            "Var14",
-            "Var15",
-            "Var16",
-            "Var17",
-            "Var18",
-            "Var19",
-            "Var20",
-            "Var21",
-            "Var22",
-            "Var23",
-            "Var24"
          ]
       }
-   },
-   "config" : {
-      "subtitle" : "MASS - npk",
-      "scatterPlotMatrix" : 1,
-      "graphType" : "Scatter2D",
-      "title" : "Classical N"
    }
 }

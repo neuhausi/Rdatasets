@@ -1,4 +1,9 @@
 {
+   "config" : {
+      "title" : "Old Faithful Geyser Data",
+      "graphType" : "Scatter2D",
+      "subtitle" : "datasets - faithful"
+   },
    "data" : {
       "y" : {
          "data" : [
@@ -1091,10 +1096,6 @@
                74
             ]
          ],
-         "smps" : [
-            "eruptions",
-            "waiting"
-         ],
          "vars" : [
             "Var1",
             "Var2",
@@ -1368,13 +1369,12 @@
             "Var270",
             "Var271",
             "Var272"
+         ],
+         "smps" : [
+            "eruptions",
+            "waiting"
          ]
       }
    },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>faithful</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Old Faithful Geyser Data</h2>\n<h3>Description</h3>\n<p>Waiting time between eruptions and the duration of the eruption for\nthe Old Faithful geyser in Yellowstone National Park, Wyoming, USA.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>faithful</code></pre>\n<h3>Format</h3>\n<p>A data frame with 272 observations on 2 variables.\n</p>\n<table>\n<tr>\n <td style=\"text-align: right;\">\n    [,1]  </td><td style=\"text-align: left;\"> <code>eruptions</code>  </td><td style=\"text-align: left;\"> numeric  </td><td style=\"text-align: left;\"> Eruption time in <abbr>min</abbr>s </td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    [,2]  </td><td style=\"text-align: left;\"> <code>waiting</code>    </td><td style=\"text-align: left;\"> numeric  </td><td style=\"text-align: left;\"> Waiting time to next\n    eruption (in <abbr>min</abbr>s)</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n  </td>\n</tr>\n</table>\n<h3>Details</h3>\n<p>A closer look at <code>faithful$eruptions</code> reveals that these are\nheavily rounded times originally in seconds, where multiples of 5 are\nmore frequent than expected under non-human measurement.  For a\nbetter version of the eruption times, see the example below.\n</p>\n<p>There are many versions of this dataset around:\nAzzalini and Bowman (1990) use a more complete version.\n</p>\n<h3>Source</h3>\n<p>W. HÃ¤rdle.</p>\n<h3>References</h3>\n<p>HÃ¤rdle, W. (1991).\n<em>Smoothing Techniques with Implementation in S</em>.\nNew York: Springer.\n</p>\n<p>Azzalini, A. and Bowman, A. W. (1990).\nA look at some data on the Old Faithful geyser.\n<em>Applied Statistics</em>, <b>39</b>, 357&ndash;365.\n<a href=\"https://doi.org/10.2307/2347385\">doi:10.2307/2347385</a>.\n</p>\n<h3>See Also</h3>\n<p><code>geyser</code> in package <a href=\"https://CRAN.R-project.org/package=MASS\"><span class=\"pkg\">MASS</span></a> for the Azzalini&ndash;Bowman version.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>require(stats); require(graphics)\nf.tit &lt;-  \"faithful data: Eruptions of Old Faithful\"\nne60 &lt;- round(e60 &lt;- 60 * faithful$eruptions)\nall.equal(e60, ne60)             # relative diff. ~ 1/10000\ntable(zapsmall(abs(e60 - ne60))) # 0, 0.02 or 0.04\nfaithful$better.eruptions &lt;- ne60 / 60\nte &lt;- table(ne60)\nte[te &gt;= 4]                      # (too) many multiples of 5 !\nplot(names(te), te, type = \"h\", main = f.tit, xlab = \"Eruption time (sec)\")\nplot(faithful[, -3], main = f.tit,\n     xlab = \"Eruption time (min)\",\n     ylab = \"Waiting time to next eruption (min)\")\nlines(lowess(faithful$eruptions, faithful$waiting, f = 2/3, iter = 3),\n      col = \"red\")\n</code></pre>\n</main>\n</div>\n",
-   "config" : {
-      "title" : "Old Faithful Geyser Data",
-      "graphType" : "Scatter2D",
-      "subtitle" : "datasets - faithful"
-   }
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>faithful</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Old Faithful Geyser Data</h2>\n<h3>Description</h3>\n<p>Waiting time between eruptions and the duration of the eruption for\nthe Old Faithful geyser in Yellowstone National Park, Wyoming, USA.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>faithful</code></pre>\n<h3>Format</h3>\n<p>A data frame with 272 observations on 2 variables.\n</p>\n<table>\n<tr>\n <td style=\"text-align: right;\">\n    [,1]  </td><td style=\"text-align: left;\"> <code>eruptions</code>  </td><td style=\"text-align: left;\"> numeric  </td><td style=\"text-align: left;\"> Eruption time in <abbr>min</abbr>s </td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    [,2]  </td><td style=\"text-align: left;\"> <code>waiting</code>    </td><td style=\"text-align: left;\"> numeric  </td><td style=\"text-align: left;\"> Waiting time to next\n    eruption (in <abbr>min</abbr>s)</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n  </td>\n</tr>\n</table>\n<h3>Details</h3>\n<p>A closer look at <code>faithful$eruptions</code> reveals that these are\nheavily rounded times originally in seconds, where multiples of 5 are\nmore frequent than expected under non-human measurement.  For a\nbetter version of the eruption times, see the example below.\n</p>\n<p>There are many versions of this dataset around:\nAzzalini and Bowman (1990) use a more complete version.\n</p>\n<h3>Source</h3>\n<p>W. HÃ¤rdle.</p>\n<h3>References</h3>\n<p>HÃ¤rdle, W. (1991).\n<em>Smoothing Techniques with Implementation in S</em>.\nNew York: Springer.\n</p>\n<p>Azzalini, A. and Bowman, A. W. (1990).\nA look at some data on the Old Faithful geyser.\n<em>Applied Statistics</em>, <b>39</b>, 357&ndash;365.\n<a href=\"https://doi.org/10.2307/2347385\">doi:10.2307/2347385</a>.\n</p>\n<h3>See Also</h3>\n<p><code>geyser</code> in package <a href=\"https://CRAN.R-project.org/package=MASS\"><span class=\"pkg\">MASS</span></a> for the Azzalini&ndash;Bowman version.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>require(stats); require(graphics)\nf.tit &lt;-  \"faithful data: Eruptions of Old Faithful\"\nne60 &lt;- round(e60 &lt;- 60 * faithful$eruptions)\nall.equal(e60, ne60)             # relative diff. ~ 1/10000\ntable(zapsmall(abs(e60 - ne60))) # 0, 0.02 or 0.04\nfaithful$better.eruptions &lt;- ne60 / 60\nte &lt;- table(ne60)\nte[te &gt;= 4]                      # (too) many multiples of 5 !\nplot(names(te), te, type = \"h\", main = f.tit, xlab = \"Eruption time (sec)\")\nplot(faithful[, -3], main = f.tit,\n     xlab = \"Eruption time (min)\",\n     ylab = \"Waiting time to next eruption (min)\")\nlines(lowess(faithful$eruptions, faithful$waiting, f = 2/3, iter = 3),\n      col = \"red\")\n</code></pre>\n</main>\n</div>\n"
 }

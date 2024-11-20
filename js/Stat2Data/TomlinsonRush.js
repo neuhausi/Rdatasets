@@ -1,3 +1,9 @@
+var TomlinsonRushInfo ={
+   "description" : "Description\nRushing yards for each game LaDainian Tomlinson played in the 2006 National Football League (NFL regular) season.",
+   "title" : "LaDainian Tomlinson Rushing Yards",
+   "usage" : "A dataset with 16 observations on the following 4 variables."
+}
+
 var TomlinsonRush = [
    [
       "Game",

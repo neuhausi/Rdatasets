@@ -1,3 +1,14 @@
+var IncomeUKInfo ={
+   "description" : "Description\nquarterly observations from 1971&ndash;1 to 1985&ndash;2\nnumber of observations :  58\nobservation :  country\ncountry :  United Kingdom",
+   "parameters" : {
+      "income" : "total disposable income  (million Pounds, current prices)",
+      "consumption" : "consumer expenditure (million Pounds, current prices)"
+   },
+   "usage" : "data(IncomeUK)",
+   "title" : "Seasonally Unadjusted Quarterly Data on Disposable Income and Expenditure",
+   "format" : "A time series containing :"
+}
+
 var IncomeUK = [
    [
       "income",

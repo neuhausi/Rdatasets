@@ -1,3 +1,9 @@
+var WeightLossIncentive4Info ={
+   "description" : "Description\nWeight loss after four months with/without a financial incentive",
+   "usage" : "A dataset with 36 observations on the following 2 variables.",
+   "title" : "Do Financial Incentives Improve Weight Loss? (4 Months)"
+}
+
 var WeightLossIncentive4 = [
    [
       "WeightLoss",

@@ -1,3 +1,24 @@
+var hsb2Info ={
+   "description" : "Description\nTwo hundred observations were randomly sampled from the High School and\nBeyond survey, a survey conducted on high school seniors by the National\nCenter of Education Statistics.",
+   "usage" : "hsb2",
+   "parameters" : {
+      "schtyp" : "Type of school,\nwith levels public and private.",
+      "science" : "Standardized\nscience score.",
+      "socst" : "Standardized social studies score.",
+      "math" : "Standardized math score.",
+      "write" : "Standardized writing\nscore.",
+      "read" : "Standardized reading score.",
+      "prog" : "Type of program,\nwith levels general, academic, and vocational.",
+      "gender" : "Student's gender, with levels\nfemale and male.",
+      "id" : "Student ID.",
+      "race" : "Student's race, with levels\nafrican american, asian, hispanic, and white.",
+      "ses" : "Socio economic status of student's family, with levels\nlow, middle, and high."
+   },
+   "title" : "High School and Beyond survey",
+   "format" : "A data frame with 200 observations and 11 variables.",
+   "reference" : "UCLA Institute for Digital Research & Education - Statistical Consulting."
+}
+
 var hsb2 = [
    [
       "id",

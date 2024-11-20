@@ -1,3 +1,15 @@
+var sleep_deprivationInfo ={
+   "parameters" : {
+      "sleep" : "a factor with levels <6, 6-8, and >8",
+      "profession" : "a factor with levels bus / taxi / limo drivers,\ncontrol, pilots, train operators, truck drivers"
+   },
+   "format" : "A data frame with 1087 observations on the following 2 variables.",
+   "reference" : "National Sleep Foundation, 2012 Sleep in America Poll:\nTransportation Workers' Sleep, 2012.\nhttps://www.sleepfoundation.org/professionals/sleep-americar-polls/2012-sleep-america-poll-transportation-workers-sleep",
+   "title" : "Survey on sleep deprivation and transportation workers",
+   "description" : "Description\nThe National Sleep Foundation conducted a survey on the sleep habits of\nrandomly sampled transportation workers and a control sample of\nnon-transportation workers.",
+   "usage" : "sleep_deprivation"
+}
+
 var sleep_deprivation = [
    [
       "sleep",

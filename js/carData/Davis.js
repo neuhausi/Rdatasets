@@ -1,3 +1,18 @@
+var DavisInfo ={
+   "description" : "Description\nThe Davis data frame has 200 rows and 5 columns.\nThe subjects were men and women engaged in regular exercise.\nThere are some missing data.",
+   "usage" : "Davis",
+   "parameters" : {
+      "weight" : "Measured weight in kg.",
+      "sex" : "A factor with levels:\nF, female;\nM, male.",
+      "repwt" : "Reported weight in kg.",
+      "height" : "Measured height in cm.",
+      "repht" : "Reported height in cm."
+   },
+   "format" : "This data frame contains the following columns:",
+   "title" : "Self-Reports of Height and Weight",
+   "reference" : "Personal communication from C. Davis, Departments of\nPhysical Education and Psychology, York University."
+}
+
 var Davis = [
    [
       "sex",

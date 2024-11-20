@@ -1,29 +1,11 @@
 {
    "config" : {
       "graphType" : "Scatter2D",
-      "subtitle" : "HistData - ChestSizes",
-      "title" : "Chest measurements of Scottish Militiamen"
+      "title" : "Chest measurements of Scottish Militiamen",
+      "subtitle" : "HistData - ChestSizes"
    },
    "data" : {
       "y" : {
-         "vars" : [
-            "Var1",
-            "Var2",
-            "Var3",
-            "Var4",
-            "Var5",
-            "Var6",
-            "Var7",
-            "Var8",
-            "Var9",
-            "Var10",
-            "Var11",
-            "Var12",
-            "Var13",
-            "Var14",
-            "Var15",
-            "Var16"
-         ],
          "data" : [
             [
                33,
@@ -93,6 +75,24 @@
          "smps" : [
             "chest",
             "count"
+         ],
+         "vars" : [
+            "Var1",
+            "Var2",
+            "Var3",
+            "Var4",
+            "Var5",
+            "Var6",
+            "Var7",
+            "Var8",
+            "Var9",
+            "Var10",
+            "Var11",
+            "Var12",
+            "Var13",
+            "Var14",
+            "Var15",
+            "Var16"
          ]
       }
    },

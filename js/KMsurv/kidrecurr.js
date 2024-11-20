@@ -1,3 +1,23 @@
+var kidrecurrInfo ={
+   "title" : "Data on 38 individuals using a kidney dialysis machine",
+   "format" : "A data frame with 38 observations on the following 10 variables.",
+   "reference" : "Klein and Moeschberger (1997) Survival Analysis Techniques for Censored\nand truncated data, Springer.\nMcGilchrist and Aisbett 47 (1991):461-466.",
+   "parameters" : {
+      "gender" : "Patient's gender",
+      "gn" : "Disease type GN (1=yes, 0=no)",
+      "time2" : "Time two of recurrence of infection, days",
+      "patient" : "Patient number",
+      "infect1" : "Indicator infection one (1=yes, 0=no)",
+      "pkd" : "Disease type PKD (1=yes, 0=no)",
+      "an" : "Disease type AN (1=yes, 0=no)",
+      "time1" : "Time one of recurrence of infection, days",
+      "age" : "Patient's age",
+      "infect2" : "Indicator infection two (1=yes, 0=no)"
+   },
+   "usage" : "data(kidrecurr)",
+   "description" : "Description\nData on 38 individuals using a kidney dialysis machine See Problem 13.5.2"
+}
+
 var kidrecurr = [
    [
       "patient",

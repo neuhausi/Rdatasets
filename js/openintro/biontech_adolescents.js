@@ -1,3 +1,15 @@
+var biontech_adolescentsInfo ={
+   "usage" : "biontech_adolescents",
+   "description" : "Description\nOn March 31, 2021, Pfizer and BioNTech announced that \"in a Phase 3 trial in\nadolescents 12 to 15 years of age with or without prior evidence of SARS-CoV-2\ninfection, the Pfizer-BioNTech COVID-19 vaccine BNT162b2 demonstrated\n100% efficacy and robust antibody responses, exceeding those recorded earlier\nin vaccinated participants aged 16 to 25 years old, and was well tolerated.\"\nThese results are from a Phase 3 trial in 2,260 adolescents 12 to 15 years of\nage in the United States. In the trial, 18 cases of COVID-19 were observed\nin the placebo group (n = 1,129) versus none in the vaccinated group (n = 1,131).",
+   "format" : "A data frame with 2260 observations on the following 2 variables.",
+   "title" : "Efficacy of Pfizer-BioNTech COVID-19 vaccine on adolescents",
+   "reference" : "\"Pfizer-Biontech Announce Positive Topline Results Of Pivotal Covid-19 Vaccine Study In Adolescents\".\nMarch 21, 2021. (Retrieved April 25, 2021.)",
+   "parameters" : {
+      "outcome" : "Study outcome: COVID-19 or &#8288;no COVID-19&#8288;.",
+      "group" : "Study group: vaccine (Pfizer-BioNTech COVID-19 vaccine administered)\nor placebo."
+   }
+}
+
 var biontech_adolescents = [
    [
       "group",

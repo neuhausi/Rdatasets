@@ -1,12 +1,12 @@
 {
    "config" : {
-      "graphType" : "Stacked",
-      "scatterPlotMatrix" : 1,
       "subtitle" : "vcdExtra - TV",
-      "title" : "TV Viewing Data",
+      "scatterPlotMatrix" : 1,
       "smpOverlays" : [
          null
-      ]
+      ],
+      "graphType" : "Stacked",
+      "title" : "TV Viewing Data"
    },
    "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>TV</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>TV Viewing Data</h2>\n<h3>Description</h3>\n<p>This data set <code>TV</code> comprises a 5 x 11 x 3 contingency table based on\naudience viewing data from Neilsen Media Research for the week starting\nNovember 6, 1995.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(TV)</code></pre>\n<h3>Format</h3>\n<p>A 5 x 11 x 3 array of cell frequencies with the following structure:\n</p>\n<pre>\n int [1:5, 1:11, 1:3] 146 244 233 174 294 151 181 161 183 281 ...\n - attr(*, \"dimnames\")=List of 3\n  ..$ Day    : chr [1:5] \"Monday\" \"Tuesday\" \"Wednesday\" \"Thursday\" ...\n  ..$ Time   : chr [1:11] \"8:00\" \"8:15\" \"8:30\" \"8:45\" ...\n  ..$ Network: chr [1:3] \"ABC\" \"CBS\" \"NBC\"\n</pre>\n<h3>Details</h3>\n<p>The original data, <code>tv.dat</code>, contains two additional networks: &quot;Fox&quot; and &quot;Other&quot;, with small\nfrequencies. These levels were removed in the current version.\nThere is also a fourth factor, transition State\ntransition (turn the television Off, Switch channels, or Persist in viewing the current channel).\nThe <code>TV</code> data here includes only the Persist observations.\n</p>\n<h3>Source</h3>\n<p>The original data, <code>tv.dat</code>, came from the initial implementation of \nmosaic displays in R by Jay Emerson (1998). Similar data had been used by\nHartigan and Kleiner (1984) as an illustration.\n</p>\n<h3>References</h3>\n<p>Friendly, M. and Meyer, D. (2016). \n<em>Discrete Data Analysis with R: Visualization and Modeling Techniques for Categorical and Count Data</em>. \nBoca Raton, FL: Chapman &amp; Hall/CRC. <a href=\"http://ddar.datavis.ca\">http://ddar.datavis.ca</a>.\n</p>\n<p>Emerson, John W. Mosaic Displays in S-PLUS: A General Implementation and a Case Study.\n<em>Statistical Graphics and Computing Newsletter</em>, 1998, 9(1), 17&ndash;23, \n<a href=\"http://www.stat.yale.edu/~jay/R/mosaic/v91.pdf\">http://www.stat.yale.edu/~jay/R/mosaic/v91.pdf</a>\n</p>\n<p>Hartigan, J. A. &amp; Kleiner, B. A Mosaic of Television Ratings. <em>The American Statistician</em>, 1984, 38, 32-35.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>data(TV)\nstructable(TV)\ndoubledecker(TV)\n# reduce number of levels of Time\nTV.df &lt;- as.data.frame.table(TV)\nlevels(TV.df$Time) &lt;- rep(c(\"8:00-8:59\", \"9:00-9:59\", \"10:00-10:44\"), \n                          c(4, 4, 3))\nTV2 &lt;- xtabs(Freq ~ Day + Time + Network, TV.df)\n# re-label for mosaic display\nlevels(TV.df$Time) &lt;- c(\"8\", \"9\", \"10\")\n# fit mode of joint independence, showing association of Network with Day*Time\nmosaic(~ Day + Network + Time, \n  data = TV.df, \n  expected = ~ Day:Time + Network, \n  legend = FALSE)\n# with doubledecker arrangement\nmosaic(~ Day + Network + Time, \n  data = TV.df, \n  expected = ~ Day:Time + Network,\n  split = c(TRUE, TRUE, FALSE), \n  spacing = spacing_highlighting, \n  legend = FALSE)\n</code></pre>\n</main>\n</div>\n",
    "data" : {
@@ -17,6 +17,41 @@
             "Wednesday",
             "Thursday",
             "Friday"
+         ],
+         "vars" : [
+            "8:00.ABC",
+            "8:15.ABC",
+            "8:30.ABC",
+            "8:45.ABC",
+            "9:00.ABC",
+            "9:15.ABC",
+            "9:30.ABC",
+            "9:45.ABC",
+            "10:00.ABC",
+            "10:15.ABC",
+            "10:30.ABC",
+            "8:00.CBS",
+            "8:15.CBS",
+            "8:30.CBS",
+            "8:45.CBS",
+            "9:00.CBS",
+            "9:15.CBS",
+            "9:30.CBS",
+            "9:45.CBS",
+            "10:00.CBS",
+            "10:15.CBS",
+            "10:30.CBS",
+            "8:00.NBC",
+            "8:15.NBC",
+            "8:30.NBC",
+            "8:45.NBC",
+            "9:00.NBC",
+            "9:15.NBC",
+            "9:30.NBC",
+            "9:45.NBC",
+            "10:00.NBC",
+            "10:15.NBC",
+            "10:30.NBC"
          ],
          "data" : [
             [
@@ -250,41 +285,6 @@
                747,
                204
             ]
-         ],
-         "vars" : [
-            "8:00.ABC",
-            "8:15.ABC",
-            "8:30.ABC",
-            "8:45.ABC",
-            "9:00.ABC",
-            "9:15.ABC",
-            "9:30.ABC",
-            "9:45.ABC",
-            "10:00.ABC",
-            "10:15.ABC",
-            "10:30.ABC",
-            "8:00.CBS",
-            "8:15.CBS",
-            "8:30.CBS",
-            "8:45.CBS",
-            "9:00.CBS",
-            "9:15.CBS",
-            "9:30.CBS",
-            "9:45.CBS",
-            "10:00.CBS",
-            "10:15.CBS",
-            "10:30.CBS",
-            "8:00.NBC",
-            "8:15.NBC",
-            "8:30.NBC",
-            "8:45.NBC",
-            "9:00.NBC",
-            "9:15.NBC",
-            "9:30.NBC",
-            "9:45.NBC",
-            "10:00.NBC",
-            "10:15.NBC",
-            "10:30.NBC"
          ]
       }
    }

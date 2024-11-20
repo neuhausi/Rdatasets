@@ -1,3 +1,19 @@
+var LaborSupplyInfo ={
+   "parameters" : {
+      "lnwg" : "log of hourly wage",
+      "id" : "id",
+      "lnhr" : "log of annual hours worked",
+      "age" : "age",
+      "disab" : "bad health",
+      "year" : "year",
+      "kids" : "number of children"
+   },
+   "description" : "Description\nA panel of 532 observations from 1979 to 1988",
+   "title" : "Wages and Hours Worked",
+   "reference" : "number of observations : 5320",
+   "usage" : "A data frame containing :"
+}
+
 var LaborSupply = [
    [
       "lnhr",

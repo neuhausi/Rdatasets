@@ -1,3 +1,41 @@
+var midwestInfo ={
+   "description" : "Description\nDemographic information of midwest counties from 2000 US census",
+   "usage" : "midwest",
+   "parameters" : {
+      "percblack" : "Percent black.",
+      "inmetro" : "County considered in a metro area.",
+      "popasian" : "Number of Asians.",
+      "popblack" : "Number of blacks.",
+      "state" : "State to which county belongs to.",
+      "perchsd" : "Percent with high school diploma.",
+      "poppovertyknown" : "Population with known poverty status.",
+      "percchildbelowpovert" : "Percent of children below poverty line.",
+      "percbelowpoverty" : "Percent of people below poverty line.",
+      "percollege" : "Percent college educated.",
+      "popdensity" : "Population density (person/unit area).",
+      "percpovertyknown" : "Percent of population with known poverty status.",
+      "area" : "Area of county (units unknown).",
+      "percamerindan" : "Percent American Indian.",
+      "popwhite" : "Number of whites.",
+      "popadults" : "Number of adults.",
+      "category" : "Miscellaneous.",
+      "percasian" : "Percent Asian.",
+      "county" : "County name.",
+      "popamerindian" : "Number of American Indians.",
+      "poptotal" : "Total population.",
+      "percprof" : "Percent with professional degree.",
+      "percwhite" : "Percent white.",
+      "percother" : "Percent other races.",
+      "percelderlypoverty" : "Percent of elderly below poverty line.",
+      "popother" : "Number of other races.",
+      "PID" : "Unique county identifier.",
+      "percadultpoverty" : "Percent of adults below poverty line."
+   },
+   "title" : "Midwest demographics",
+   "format" : "A data frame with 437 rows and 28 variables:",
+   "reference" : "Note: this dataset is included for illustrative purposes. The original\ndescriptions were not documented and the current descriptions here are based\non speculation. For more accurate and up-to-date US census data, see the\nacs package."
+}
+
 var midwest = [
    [
       "PID",

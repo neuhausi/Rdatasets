@@ -1,3 +1,10 @@
+var eurodistInfo ={
+   "usage" : "eurodist\nUScitiesD",
+   "format" : "dist objects based on 21 and 10 objects, respectively.\n(You must have the stats package loaded to have the methods for this\nkind of object available).",
+   "title" : "Distances Between European Cities and Between US Cities",
+   "description" : "Description\nThe eurodist gives the road distances (in km) between 21\ncities in Europe.  The data are taken from a table in The\nCambridge Encyclopaedia.\nUScitiesD gives &ldquo;straight line&rdquo; distances between 10\ncities in the US."
+}
+
 var eurodist = [
    [
       "x"

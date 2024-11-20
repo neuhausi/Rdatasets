@@ -1,11 +1,16 @@
 {
    "config" : {
-      "subtitle" : "datasets - DNase",
+      "title" : "Elisa assay of DNase",
       "graphType" : "Scatter3D",
-      "title" : "Elisa assay of DNase"
+      "subtitle" : "datasets - DNase"
    },
    "data" : {
       "y" : {
+         "smps" : [
+            "Run",
+            "conc",
+            "density"
+         ],
          "vars" : [
             "Var1",
             "Var2",
@@ -1065,11 +1070,6 @@
                12.5,
                1.721
             ]
-         ],
-         "smps" : [
-            "Run",
-            "conc",
-            "density"
          ]
       }
    },

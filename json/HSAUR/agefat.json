@@ -1,39 +1,36 @@
 {
-   "config" : {
-      "subtitle" : "HSAUR - agefat",
-      "graphType" : "Scatter2D",
-      "colorBy" : "sex",
-      "title" : "Total Body Composision Data"
-   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>agefat</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2> Total Body Composision Data </h2>\n<h3>Description</h3>\n<p>Age and body fat percentage of 25 normal adults.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(\"agefat\")</code></pre>\n<h3>Format</h3>\n<p>A data frame with 25 observations on the following 3 variables.\n</p>\n<dl>\n<dt><code>age</code></dt><dd><p>the age of the subject.</p>\n</dd>\n<dt><code>fat</code></dt><dd><p>the body fat percentage.</p>\n</dd>\n<dt><code>sex</code></dt><dd><p>a factor with levels <code>female</code> and <code>male</code>.</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>The data come from a study investigating a new methods of measuring body \ncomposition (see Mazess et al, 1984), and give the body fat percentage \n(percent fat), age and sex for 25 normal adults aged between 23 and 61 years.  \nThe questions of interest are how are age and percent fat related, and is \nthere any evidence that the relationship is different for males and females.\n</p>\n<h3>Source</h3>\n<p>R. B. Mazess, W. W. Peppler and M. Gibbons (1984), Total body composition by \ndual-photon (153Gd) absorptiometry. <em>American Journal of Clinical Nutrition</em>, \n<b>40</b>, 834&ndash;839.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>\n  data(\"agefat\", package = \"HSAUR\")\n  plot(fat ~ age, data = agefat)\n</code></pre>\n</main>\n</div>\n",
    "data" : {
+      "z" : {
+         "sex" : [
+            "male",
+            "male",
+            "male",
+            "male",
+            "female",
+            "female",
+            "male",
+            "male",
+            "female",
+            "male",
+            "male",
+            "female",
+            "male",
+            "male",
+            "female",
+            "female",
+            "female",
+            "female",
+            "female",
+            "female",
+            "female",
+            "female",
+            "female",
+            "female",
+            "female"
+         ]
+      },
       "y" : {
-         "vars" : [
-            "Var1",
-            "Var2",
-            "Var3",
-            "Var4",
-            "Var5",
-            "Var6",
-            "Var7",
-            "Var8",
-            "Var9",
-            "Var10",
-            "Var11",
-            "Var12",
-            "Var13",
-            "Var14",
-            "Var15",
-            "Var16",
-            "Var17",
-            "Var18",
-            "Var19",
-            "Var20",
-            "Var21",
-            "Var22",
-            "Var23",
-            "Var24",
-            "Var25"
-         ],
          "data" : [
             [
                24,
@@ -139,37 +136,40 @@
          "smps" : [
             "age",
             "fat"
-         ]
-      },
-      "z" : {
-         "sex" : [
-            "male",
-            "male",
-            "male",
-            "male",
-            "female",
-            "female",
-            "male",
-            "male",
-            "female",
-            "male",
-            "male",
-            "female",
-            "male",
-            "male",
-            "female",
-            "female",
-            "female",
-            "female",
-            "female",
-            "female",
-            "female",
-            "female",
-            "female",
-            "female",
-            "female"
+         ],
+         "vars" : [
+            "Var1",
+            "Var2",
+            "Var3",
+            "Var4",
+            "Var5",
+            "Var6",
+            "Var7",
+            "Var8",
+            "Var9",
+            "Var10",
+            "Var11",
+            "Var12",
+            "Var13",
+            "Var14",
+            "Var15",
+            "Var16",
+            "Var17",
+            "Var18",
+            "Var19",
+            "Var20",
+            "Var21",
+            "Var22",
+            "Var23",
+            "Var24",
+            "Var25"
          ]
       }
    },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>agefat</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2> Total Body Composision Data </h2>\n<h3>Description</h3>\n<p>Age and body fat percentage of 25 normal adults.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(\"agefat\")</code></pre>\n<h3>Format</h3>\n<p>A data frame with 25 observations on the following 3 variables.\n</p>\n<dl>\n<dt><code>age</code></dt><dd><p>the age of the subject.</p>\n</dd>\n<dt><code>fat</code></dt><dd><p>the body fat percentage.</p>\n</dd>\n<dt><code>sex</code></dt><dd><p>a factor with levels <code>female</code> and <code>male</code>.</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>The data come from a study investigating a new methods of measuring body \ncomposition (see Mazess et al, 1984), and give the body fat percentage \n(percent fat), age and sex for 25 normal adults aged between 23 and 61 years.  \nThe questions of interest are how are age and percent fat related, and is \nthere any evidence that the relationship is different for males and females.\n</p>\n<h3>Source</h3>\n<p>R. B. Mazess, W. W. Peppler and M. Gibbons (1984), Total body composition by \ndual-photon (153Gd) absorptiometry. <em>American Journal of Clinical Nutrition</em>, \n<b>40</b>, 834&ndash;839.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>\n  data(\"agefat\", package = \"HSAUR\")\n  plot(fat ~ age, data = agefat)\n</code></pre>\n</main>\n</div>\n"
+   "config" : {
+      "graphType" : "Scatter2D",
+      "colorBy" : "sex",
+      "title" : "Total Body Composision Data",
+      "subtitle" : "HSAUR - agefat"
+   }
 }

@@ -1,7 +1,7 @@
 {
    "config" : {
-      "title" : "Comparing Twins Ability to Clear Radioactive Particles",
       "colorBy" : "Env",
+      "title" : "Comparing Twins Ability to Clear Radioactive Particles",
       "graphType" : "Scatter2D",
       "subtitle" : "Stat2Data - RadioactiveTwins"
    },

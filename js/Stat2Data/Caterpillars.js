@@ -1,3 +1,9 @@
+var CaterpillarsInfo ={
+   "description" : "Description\nMeasurements on a sample of Manduca Sexta caterpillars",
+   "usage" : "A data frame with 267 observations on the following 18 variables.",
+   "title" : "Measurements of Manduca Sexta Caterpillars"
+}
+
 var Caterpillars = [
    [
       "Instar",

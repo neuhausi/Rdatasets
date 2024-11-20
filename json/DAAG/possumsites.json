@@ -1,12 +1,21 @@
 {
    "config" : {
-      "colorBy" : null,
-      "title" : "Possum Sites",
       "subtitle" : "DAAG - possumsites",
-      "graphType" : "Scatter3D"
+      "graphType" : "Scatter3D",
+      "title" : "Possum Sites",
+      "colorBy" : null
    },
    "data" : {
       "y" : {
+         "vars" : [
+            "Cambarville",
+            "Bellbird",
+            "Allyn River",
+            "Whian Whian",
+            "Byrangery",
+            "Conondale",
+            "Bulburin"
+         ],
          "smps" : [
             "Longitude",
             "Latitude",
@@ -48,15 +57,6 @@
                -24.55,
                600
             ]
-         ],
-         "vars" : [
-            "Cambarville",
-            "Bellbird",
-            "Allyn River",
-            "Whian Whian",
-            "Byrangery",
-            "Conondale",
-            "Bulburin"
          ]
       }
    },

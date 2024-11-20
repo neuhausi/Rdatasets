@@ -1,3 +1,15 @@
+var polarInfo ={
+   "parameters" : {
+      "lat" : "The latitude (in degrees) of the pole position.  Note that all latitudes\nare negative as the axis is taken to be in the lower hemisphere.",
+      "long" : "The longitude (in degrees) of the pole position."
+   },
+   "format" : "This data frame contains the following columns:",
+   "reference" : "The data were obtained from",
+   "title" : "Pole Positions of New Caledonian Laterites",
+   "description" : "Description\nThe polar data frame has 50 rows and 2 columns.\nThe data are the pole positions from a paleomagnetic study of New Caledonian\nlaterites.",
+   "usage" : "polar"
+}
+
 var polar = [
    [
       "lat",

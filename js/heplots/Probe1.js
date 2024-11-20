@@ -1,3 +1,17 @@
+var Probe1Info ={
+   "title" : "Response Speed in a Probe Experiment",
+   "reference" : "Procedure: Subjects listened to tape-recorded sentences.  Each sentence was\nfollowed by a \"probe word\" from one of 5 positions within the sentence.  The\nsubject had to respond with the word which immediately followed the probe\nword in the sentence.  The dependent measure is response speed =\nk(1/reaction time).",
+   "usage" : "Probe1: A data frame with 11 observations on the following 5 variables.",
+   "description" : "Description\nData from a probe experiment testing whether immediate memory for sentences\nis influenced by the phrase structure of the sentence.  The data sets come\nfrom Timm (1975), Ex. 3.14 and Ex. 3.16 (p.244)",
+   "parameters" : {
+      "p3" : "speed at position 3",
+      "p4" : "speed at position 4",
+      "p5" : "speed at position 5",
+      "p1" : "speed at position 1",
+      "p2" : "speed at position 2"
+   }
+}
+
 var Probe1 = [
    [
       "p1",

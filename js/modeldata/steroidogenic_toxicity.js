@@ -1,3 +1,25 @@
+var steroidogenic_toxicityInfo ={
+   "usage" : "H295R cells were used to measure the effect with two sets of assay results.\nThe first includes a set of protein measurements on: cytochrome P450 enzymes\n(\"cyp\"s), STAR, and 3BHSD2. The second include hormone measurements for\nDHEA, progesterone, testosterone, and cortisol.",
+   "title" : "Predicting steroidogenic toxicity with assay data",
+   "reference" : "A tibble with columns",
+   "parameters" : {
+      "cyp_21a1" : " numeric",
+      "progesterone" : " numeric",
+      "cyp_11b2" : " numeric",
+      "cortisol" : " numeric",
+      "star" : " numeric",
+      "cyp_11b1" : " numeric",
+      "dhea" : " numeric",
+      "cyp_11a1" : " numeric",
+      "class" : " factor (levels",
+      "hsd3b2" : " numeric",
+      "testosterone" : " numeric",
+      "cyp_19a1" : " numeric",
+      "cyp_17a1" : " numeric"
+   },
+   "description" : "Description\nA set of in vitro assays are used to quantify the risk of reproductive\ntoxicity via the disruption of steroidogenic pathways."
+}
+
 var steroidogenic_toxicity = [
    [
       "class",

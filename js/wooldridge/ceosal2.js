@@ -1,3 +1,28 @@
+var ceosal2Info ={
+   "parameters" : {
+      "college" : " =1 if attended college",
+      "comten" : " years with company",
+      "lsalary" : " log(salary)",
+      "lmktval" : " log(mktval)",
+      "ceoten" : " years as ceo with company",
+      "grad" : " =1 if attended graduate school",
+      "mktval" : " market value, end 1990, mills.",
+      "lsales" : " log(sales)",
+      "comtensq" : " comten^2",
+      "profmarg" : " profits as percent of sales",
+      "profits" : " 1990 profits, millions",
+      "ceotensq" : " ceoten^2",
+      "sales" : " 1990 firm sales, millions",
+      "age" : " in years",
+      "salary" : " 1990 compensation, $1000s"
+   },
+   "format" : "A data.frame with 177 observations on 15 variables:",
+   "reference" : "Compared with CEOSAL1.RAW, in this CEO data set more information about the CEO, rather than about the company, is included.",
+   "title" : "ceosal2",
+   "description" : "Description\nWooldridge Source: See CEOSAL1.RAW Data loads lazily.",
+   "usage" : "data('ceosal2')"
+}
+
 var ceosal2 = [
    [
       "salary",

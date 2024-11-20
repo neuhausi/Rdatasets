@@ -1,3 +1,15 @@
+var clothInfo ={
+   "parameters" : {
+      "y" : "The number of flaws found in the roll.",
+      "x" : "The length of the roll of cloth."
+   },
+   "format" : "This data frame contains the following columns:",
+   "reference" : "The data were obtained from",
+   "title" : "Number of Flaws in Cloth",
+   "description" : "Description\nThe cloth data frame has 32 rows and 2 columns.",
+   "usage" : "cloth"
+}
+
 var cloth = [
    [
       "x",

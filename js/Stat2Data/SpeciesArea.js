@@ -1,3 +1,9 @@
+var SpeciesAreaInfo ={
+   "usage" : "A dataset with 14 observations on the following 5 variables.",
+   "title" : "Land Area and Mammal Species",
+   "description" : "Description\nLand area and number of mammal species for islands in Southeast Asia"
+}
+
 var SpeciesArea = [
    [
       "Name",

@@ -1,3 +1,24 @@
+var WagesInfo ={
+   "parameters" : {
+      "sex" : "a factor with levels \"male\" and \"female\"",
+      "bluecol" : "blue collar?",
+      "black" : "is the individual black?",
+      "lwage" : "logarithm of wage.",
+      "south" : "resides in the south?",
+      "smsa" : "resides in a standard metropolitan statistical area?",
+      "ed" : "years of education.",
+      "exp" : "years of full-time work experience.",
+      "wks" : "weeks  worked.",
+      "ind" : "works in a manufacturing industry?",
+      "married" : "married?",
+      "union" : "individual's wage set by a union contract?"
+   },
+   "description" : "Description\nA panel of 595 individuals from 1976 to 1982, taken from the Panel Study of\nIncome Dynamics (PSID). The data are organized as a stacked time\nseries/balanced panel, see Examples on how to convert to a\npdata.frame.",
+   "title" : "Panel Data of Individual Wages",
+   "reference" : "total number of observations : 4165",
+   "usage" : "A data frame containing:"
+}
+
 var Wages = [
    [
       "exp",

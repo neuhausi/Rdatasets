@@ -1,3 +1,27 @@
+var earnsInfo ={
+   "usage" : "data('earns')",
+   "description" : "Description\nWooldridge Source: Economic Report of the President, 1989, Table B-47. The data are for the non-farm business sector. Data loads lazily.",
+   "reference" : "These data could be usefully updated, but changes in reporting conventions in more recent ERPs may make that difficult.",
+   "format" : "A data.frame with 41 observations on 14 variables:",
+   "title" : "earns",
+   "parameters" : {
+      "year" : " 1947 to 1987",
+      "outphr" : " output per labor hour",
+      "ghrwge_1" : " ghrwage[_n-1]",
+      "loutphr" : " log(outphr)",
+      "t" : " time trend",
+      "goutphr" : " loutphr - loutphr[_n-1]",
+      "wkearns" : " avg. real weekly earnings",
+      "lhrwage" : " log(hrwage)",
+      "goutph_1" : " goutphr[_n-1]",
+      "ghrwage" : " lhrwage - lhrwage[_n-1]",
+      "wkhours" : " avg. weekly hours",
+      "goutph_2" : " goutphr[_n-2]",
+      "lwkhours" : " log(wkhours)",
+      "hrwage" : " wkearns/wkhours"
+   }
+}
+
 var earns = [
    [
       "year",

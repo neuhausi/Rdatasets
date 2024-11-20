@@ -1,3 +1,33 @@
+var ucla_textbooks_f18Info ={
+   "reference" : "A past dataset was collected from UCLA courses in Spring 2010, and Amazon\nat that time was found to be almost uniformly lower than those of the UCLA\nbookstore's.  Now in 2018, the UCLA bookstore is about even with Amazon on\nthe vast majority of titles, and there is no statistical difference in the\nsample data.",
+   "title" : "Sample of UCLA course textbooks for Fall 2018",
+   "format" : "A data frame with 201 observations on the following 20 variables.",
+   "parameters" : {
+      "internship" : "Boolean for if this is an internship",
+      "apprenticeship" : "Boolean for if this is an apprenticeship",
+      "seminar" : "Boolean for if this is a seminar course.",
+      "subject_abbr" : "Subject abbreviation, if any",
+      "notes" : "Any relevant notes",
+      "honors_contracts" : "Boolean for if this is an honors contracts course",
+      "laboratory" : "Boolean for if this is a lab",
+      "bookstore_used" : "Used price at the UCLA bookstore",
+      "course" : "Course name",
+      "subject" : "Subject",
+      "bookstore_new" : "New price at the UCLA bookstore",
+      "course_numeric" : "Course number, numeric only",
+      "year" : "Year the course was offered",
+      "term" : "Term the course was offered",
+      "course_num" : "Course number, complete",
+      "amazon_new" : "New price sold by Amazon",
+      "ind_study" : "Boolean for if this is some form of independent study",
+      "textbook_isbn" : "Textbook ISBN",
+      "amazon_used" : "Used price sold by Amazon",
+      "special_topic" : "Boolean for if this is any of the special types of courses listed"
+   },
+   "usage" : "ucla_textbooks_f18",
+   "description" : "Description\nA sample of courses were collected from UCLA from Fall 2018, and the\ncorresponding textbook prices were collected from the UCLA bookstore and\nalso from Amazon."
+}
+
 var ucla_textbooks_f18 = [
    [
       "year",

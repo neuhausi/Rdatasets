@@ -1,3 +1,19 @@
+var ThreeCars2017Info ={
+   "usage" : "A data frame with 90 observations on the following 7 variables.",
+   "reference" : "Data for a sample of cars from three models (Mazda6, Honda Accord, Toyota Maxima) from a website. The dataset AccordPrice is a subset of this file.",
+   "title" : "Price, Age, and Mileage of Three Used Car Models",
+   "parameters" : {
+      "Maxima" : "Is the car a Maxima? (1=yes or 0=no)",
+      "CarType" : "Model (Accord, Maxima, or Mazda6)",
+      "Accord" : "Is the car an Accord? (1=yes or 0=no)",
+      "Mileage" : "Mileage (in thousands of miles)",
+      "Age" : "Age of used car (years)",
+      "Mazda6" : "Is the car a Mazda6? (1=yes or 0=no)",
+      "Price" : "Price (in thousands of dollars)"
+   },
+   "description" : "Description\nData from cars.com for a sample of three different models of used cars in 2017"
+}
+
 var ThreeCars2017 = [
    [
       "CarType",

@@ -1,46 +1,5 @@
 {
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>Cereal</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Nutrition Content of Breakfast Cereals</h2>\n<h3>Description</h3>\n<p>Nutrition content for a sample of 36 different brands of breakfast cereals\n</p>\n<h3>Format</h3>\n<p>A data frame with 36 observations on the following 4 variables.\n</p>\n<table>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Cereal</code> </td><td style=\"text-align: left;\"> Brandname of cereal</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Calories</code> </td><td style=\"text-align: left;\"> Calories per serving</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Sugar</code> </td><td style=\"text-align: left;\"> Grams of sugar per serving</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Fiber</code> </td><td style=\"text-align: left;\"> Grams of fiber per serving</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n  </td>\n</tr>\n</table>\n<h3>Details</h3>\n<p>Data give nutrition contents (per serving) for 36 breakfast cereals.\n</p>\n<h3>Source</h3>\n<p>These data were collected by Patricia Benedict, Ronald Brahler, and\nKenneth Motz, who read the nutritional labels on the boxes,\nin an attempt to learn whether cereals high in fiber are\nalso high in sugar and calories.\nThe cereals are all of those that were sold at Russo Stop\n&amp; Shop in University Heights, OH, in July, 1990.\n</p>\n</main>\n</div>\n",
    "data" : {
-      "z" : {
-         "Cereal" : [
-            "Common Sense Oat Bran",
-            "Product 19",
-            "All Bran Xtra Fiber",
-            "Just Right",
-            "Original Oat Bran",
-            "Heartwise",
-            "Special K",
-            "Oatbake Raisin Nut",
-            "Kenmei Rice Bran",
-            "Nutri Grain",
-            "Shredded Wheat Squares",
-            "Oatmeal raisin Crisp",
-            "hole Wheat Total",
-            "Cheerios",
-            "Total Raisin Bran",
-            "Wheaties",
-            "Raisin Nut Bran",
-            "Wheat Chex",
-            "Batman",
-            "Ninja Turtles",
-            "Capt. Crunch",
-            "Trix",
-            "Frosted Flakes",
-            "Honey Smacks",
-            "Froot Loops",
-            "Puffed Rice",
-            "Mueslix Crispy Blend",
-            "Uncle Sam",
-            "100% Bran",
-            "Fruit & Fiber",
-            "Bran Flakes",
-            "Bran Buds",
-            "Fruit'n Oat Bran",
-            "Fruit'n Oat Bran Crunch",
-            "Hodgson's Mill Wheat",
-            "Hodgson's Mill Oat Bran"
-         ]
-      },
       "y" : {
          "vars" : [
             "Var1",
@@ -79,6 +38,11 @@
             "Var34",
             "Var35",
             "Var36"
+         ],
+         "smps" : [
+            "Calories",
+            "Sugar",
+            "Fiber"
          ],
          "data" : [
             [
@@ -261,18 +225,54 @@
                0,
                6
             ]
-         ],
-         "smps" : [
-            "Calories",
-            "Sugar",
-            "Fiber"
+         ]
+      },
+      "z" : {
+         "Cereal" : [
+            "Common Sense Oat Bran",
+            "Product 19",
+            "All Bran Xtra Fiber",
+            "Just Right",
+            "Original Oat Bran",
+            "Heartwise",
+            "Special K",
+            "Oatbake Raisin Nut",
+            "Kenmei Rice Bran",
+            "Nutri Grain",
+            "Shredded Wheat Squares",
+            "Oatmeal raisin Crisp",
+            "hole Wheat Total",
+            "Cheerios",
+            "Total Raisin Bran",
+            "Wheaties",
+            "Raisin Nut Bran",
+            "Wheat Chex",
+            "Batman",
+            "Ninja Turtles",
+            "Capt. Crunch",
+            "Trix",
+            "Frosted Flakes",
+            "Honey Smacks",
+            "Froot Loops",
+            "Puffed Rice",
+            "Mueslix Crispy Blend",
+            "Uncle Sam",
+            "100% Bran",
+            "Fruit & Fiber",
+            "Bran Flakes",
+            "Bran Buds",
+            "Fruit'n Oat Bran",
+            "Fruit'n Oat Bran Crunch",
+            "Hodgson's Mill Wheat",
+            "Hodgson's Mill Oat Bran"
          ]
       }
    },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>Cereal</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Nutrition Content of Breakfast Cereals</h2>\n<h3>Description</h3>\n<p>Nutrition content for a sample of 36 different brands of breakfast cereals\n</p>\n<h3>Format</h3>\n<p>A data frame with 36 observations on the following 4 variables.\n</p>\n<table>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Cereal</code> </td><td style=\"text-align: left;\"> Brandname of cereal</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Calories</code> </td><td style=\"text-align: left;\"> Calories per serving</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Sugar</code> </td><td style=\"text-align: left;\"> Grams of sugar per serving</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Fiber</code> </td><td style=\"text-align: left;\"> Grams of fiber per serving</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n  </td>\n</tr>\n</table>\n<h3>Details</h3>\n<p>Data give nutrition contents (per serving) for 36 breakfast cereals.\n</p>\n<h3>Source</h3>\n<p>These data were collected by Patricia Benedict, Ronald Brahler, and\nKenneth Motz, who read the nutritional labels on the boxes,\nin an attempt to learn whether cereals high in fiber are\nalso high in sugar and calories.\nThe cereals are all of those that were sold at Russo Stop\n&amp; Shop in University Heights, OH, in July, 1990.\n</p>\n</main>\n</div>\n",
    "config" : {
       "subtitle" : "Stat2Data - Cereal",
       "graphType" : "Scatter3D",
-      "colorBy" : "Cereal",
-      "title" : "Nutrition Content of Breakfast Cereals"
+      "title" : "Nutrition Content of Breakfast Cereals",
+      "colorBy" : "Cereal"
    }
 }

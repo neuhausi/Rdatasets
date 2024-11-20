@@ -1,15 +1,19 @@
 {
    "config" : {
-      "graphType" : "Boxplot",
-      "subtitle" : "HSAUR - schizophrenia",
+      "colorBy" : "variable",
       "title" : "Age of Onset of Schizophrenia Data",
+      "graphType" : "Boxplot",
       "groupingFactors" : [
          "gender"
       ],
-      "colorBy" : "variable"
+      "subtitle" : "HSAUR - schizophrenia"
    },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>schizophrenia</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2> Age of Onset of Schizophrenia Data </h2>\n<h3>Description</h3>\n<p>Data on sex differences in the age of onset of schizophrenia.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(\"schizophrenia\")</code></pre>\n<h3>Format</h3>\n<p>A data frame with 251 observations on the following 2 variables.\n</p>\n<dl>\n<dt><code>age</code></dt><dd><p>age at the time of diagnosis.</p>\n</dd>\n<dt><code>gender</code></dt><dd><p>a factor with levels <code>female</code> and <code>male</code></p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>A sex difference in the age of onset of schizophrenia was\nnoted by Kraepelin (1919). Subsequently epidemiological studies\nof the disorder have consistently shown an earlier onset in men \nthan in women. One model that has been suggested to explain this\nobserved difference is know as the subtype model\nwhich postulates two type of schizophrenia, one characterised by early\nonset, typical symptoms and poor premorbid competence, and the\nother by late onset, atypical symptoms, and good premorbid competence.\nThe early onset type is assumed to be largely a disorder of men  \nand the late onset largely a disorder of women.\n</p>\n<h3>Source</h3>\n<p>E. Kraepelin (1919), <em>Dementia Praecox and Paraphrenia</em>.\nLivingstone, Edinburgh.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>\n  data(\"schizophrenia\", package = \"HSAUR\")\n  boxplot(age ~ gender, data = schizophrenia)\n</code></pre>\n</main>\n</div>\n",
    "data" : {
       "y" : {
+         "vars" : [
+            "age"
+         ],
          "smps" : [
             "Smp1",
             "Smp2",
@@ -517,9 +521,6 @@
                41,
                31
             ]
-         ],
-         "vars" : [
-            "age"
          ]
       },
       "x" : {
@@ -777,6 +778,5 @@
             "male"
          ]
       }
-   },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>schizophrenia</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2> Age of Onset of Schizophrenia Data </h2>\n<h3>Description</h3>\n<p>Data on sex differences in the age of onset of schizophrenia.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(\"schizophrenia\")</code></pre>\n<h3>Format</h3>\n<p>A data frame with 251 observations on the following 2 variables.\n</p>\n<dl>\n<dt><code>age</code></dt><dd><p>age at the time of diagnosis.</p>\n</dd>\n<dt><code>gender</code></dt><dd><p>a factor with levels <code>female</code> and <code>male</code></p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>A sex difference in the age of onset of schizophrenia was\nnoted by Kraepelin (1919). Subsequently epidemiological studies\nof the disorder have consistently shown an earlier onset in men \nthan in women. One model that has been suggested to explain this\nobserved difference is know as the subtype model\nwhich postulates two type of schizophrenia, one characterised by early\nonset, typical symptoms and poor premorbid competence, and the\nother by late onset, atypical symptoms, and good premorbid competence.\nThe early onset type is assumed to be largely a disorder of men  \nand the late onset largely a disorder of women.\n</p>\n<h3>Source</h3>\n<p>E. Kraepelin (1919), <em>Dementia Praecox and Paraphrenia</em>.\nLivingstone, Edinburgh.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>\n  data(\"schizophrenia\", package = \"HSAUR\")\n  boxplot(age ~ gender, data = schizophrenia)\n</code></pre>\n</main>\n</div>\n"
+   }
 }

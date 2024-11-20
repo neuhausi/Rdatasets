@@ -1,3 +1,9 @@
+var NCbirthsInfo ={
+   "description" : "Description\nData from births in North Carolina in 2001",
+   "usage" : "A dataset with 1450 observations on the following 15 variables.",
+   "title" : "North Carolina Birth Records"
+}
+
 var NCbirths = [
    [
       "ID",

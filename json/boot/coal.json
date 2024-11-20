@@ -1,8 +1,8 @@
 {
    "config" : {
       "graphType" : "Treemap",
-      "subtitle" : "boot - coal",
-      "title" : "Dates of Coal Mining Disasters"
+      "title" : "Dates of Coal Mining Disasters",
+      "subtitle" : "boot - coal"
    },
    "data" : {
       "y" : {
@@ -201,6 +201,9 @@
                1962.21971252567
             ]
          ],
+         "vars" : [
+            "date"
+         ],
          "smps" : [
             "Smp1",
             "Smp2",
@@ -393,9 +396,6 @@
             "Smp189",
             "Smp190",
             "Smp191"
-         ],
-         "vars" : [
-            "date"
          ]
       }
    },

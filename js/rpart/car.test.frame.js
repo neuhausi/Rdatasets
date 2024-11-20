@@ -1,3 +1,21 @@
+var car.test.frameInfo ={
+   "parameters" : {
+      "Price" : "a numeric vector giving the list price in US dollars of a standard model",
+      "Country" : "of origin, a factor with levels\n&lsquo;&#8288;France&#8288;&rsquo;, \n&lsquo;&#8288;Germany&#8288;&rsquo;, \n&lsquo;&#8288;Japan&#8288;&rsquo; ,\n&lsquo;&#8288;Japan/USA&#8288;&rsquo;, \n&lsquo;&#8288;Korea&#8288;&rsquo;,\n&lsquo;&#8288;Mexico&#8288;&rsquo;,\n&lsquo;&#8288;Sweden&#8288;&rsquo; and\n&lsquo;&#8288;USA&#8288;&rsquo;",
+      "Type" : "a factor with levels\nCompact \nLarge \nMedium \nSmall \nSporty \nVan",
+      "Mileage" : "fuel consumption miles per US gallon, as tested.",
+      "Weight" : "kerb weight in pounds.",
+      "HP" : "the net horsepower of the vehicle.",
+      "Disp." : "the engine capacity (displacement) in litres.",
+      "Reliability" : "a numeric vector coded 1 to 5."
+   },
+   "format" : "This data frame contains the following columns:",
+   "title" : "Automobile Data from 'Consumer Reports' 1990",
+   "reference" : "Consumer Reports, April, 1990, pp. 235&ndash;288 quoted in",
+   "description" : "Description\nThe car.test.frame data frame has 60 rows and 8 columns,\ngiving data on makes of cars taken from the April, 1990 issue of\nConsumer Reports. This is part of a larger dataset, some\ncolumns of which are given in cu.summary.",
+   "usage" : "car.test.frame"
+}
+
 var car.test.frame = [
    [
       "Price",

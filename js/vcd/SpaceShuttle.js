@@ -1,3 +1,19 @@
+var SpaceShuttleInfo ={
+   "parameters" : {
+      "Temperature" : "temperature during start (in degrees F).",
+      "Fail" : "did any O-ring failures occur? (no, yes).",
+      "Pressure" : "pressure.",
+      "FlightNumber" : "Number of space shuttle flight.",
+      "nFailures" : "how many (of six) 0-rings failed?.",
+      "Damage" : "damage index."
+   },
+   "reference" : "Michael Friendly (2000),\nVisualizing Categorical Data:\nhttp://euclid.psych.yorku.ca/ftp/sas/vcd/catdata/orings.sas",
+   "format" : "A data frame with 24 observations and 6 variables.",
+   "title" : "Space Shuttle O-ring Failures",
+   "description" : "Description\nData from Dalal et al. (1989) about O-ring failures in the NASA space\nshuttle program.  The damage index comes from a discussion of the data\nby Tufte (1997).",
+   "usage" : "data(\"SpaceShuttle\")"
+}
+
 var SpaceShuttle = [
    [
       "FlightNumber",

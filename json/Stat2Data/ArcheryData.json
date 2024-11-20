@@ -1,26 +1,29 @@
 {
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>ArcheryData</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Scores in an Archery Class</h2>\n<h3>Description</h3>\n<p>Score results from an archery class\n</p>\n<h3>Format</h3>\n<p>A dataset with 18 observations on the following 7 variables.\n</p>\n<table>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Attendance</code> </td><td style=\"text-align: left;\"> Number of days in class</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Average</code> </td><td style=\"text-align: left;\"> Average score over all days</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Sex</code> </td><td style=\"text-align: left;\"> Coded as <code>f</code> or <code>m</code></td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Day1</code> </td><td style=\"text-align: left;\"> Archery score on first day</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>LastDay</code> </td><td style=\"text-align: left;\"> Archery score on last day</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Improvement</code> </td><td style=\"text-align: left;\"> Last day - first day score</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Improve</code> </td><td style=\"text-align: left;\"> 1=improved or 0=did not improve</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n  </td>\n</tr>\n</table>\n<h3>Details</h3>\n<p>In 2002, Heather Tollerud, a Saint Olaf College student, undertook a study of the archery scores of\nstudents at the college who were enrolled in an archery course. Students taking the course record a\nscore for each day they attend class from the first until the last day. Hopefully the instruction they\nreceive helps them to improve their game.\n</p>\n<h3>Source</h3>\n<p>Student project\n</p>\n</main>\n</div>\n",
    "data" : {
+      "x" : {
+         "Sex" : [
+            "m",
+            "m",
+            "f",
+            "m",
+            "m",
+            "m",
+            "m",
+            "f",
+            "m",
+            "f",
+            "f",
+            "f",
+            "f",
+            "m",
+            "m",
+            "f",
+            "m",
+            "f"
+         ]
+      },
       "y" : {
-         "smps" : [
-            "Smp1",
-            "Smp2",
-            "Smp3",
-            "Smp4",
-            "Smp5",
-            "Smp6",
-            "Smp7",
-            "Smp8",
-            "Smp9",
-            "Smp10",
-            "Smp11",
-            "Smp12",
-            "Smp13",
-            "Smp14",
-            "Smp15",
-            "Smp16",
-            "Smp17",
-            "Smp18"
-         ],
          "data" : [
             [
                21,
@@ -150,38 +153,35 @@
             "LastDay",
             "Improvement",
             "Improve"
-         ]
-      },
-      "x" : {
-         "Sex" : [
-            "m",
-            "m",
-            "f",
-            "m",
-            "m",
-            "m",
-            "m",
-            "f",
-            "m",
-            "f",
-            "f",
-            "f",
-            "f",
-            "m",
-            "m",
-            "f",
-            "m",
-            "f"
+         ],
+         "smps" : [
+            "Smp1",
+            "Smp2",
+            "Smp3",
+            "Smp4",
+            "Smp5",
+            "Smp6",
+            "Smp7",
+            "Smp8",
+            "Smp9",
+            "Smp10",
+            "Smp11",
+            "Smp12",
+            "Smp13",
+            "Smp14",
+            "Smp15",
+            "Smp16",
+            "Smp17",
+            "Smp18"
          ]
       }
    },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>ArcheryData</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Scores in an Archery Class</h2>\n<h3>Description</h3>\n<p>Score results from an archery class\n</p>\n<h3>Format</h3>\n<p>A dataset with 18 observations on the following 7 variables.\n</p>\n<table>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Attendance</code> </td><td style=\"text-align: left;\"> Number of days in class</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Average</code> </td><td style=\"text-align: left;\"> Average score over all days</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Sex</code> </td><td style=\"text-align: left;\"> Coded as <code>f</code> or <code>m</code></td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Day1</code> </td><td style=\"text-align: left;\"> Archery score on first day</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>LastDay</code> </td><td style=\"text-align: left;\"> Archery score on last day</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Improvement</code> </td><td style=\"text-align: left;\"> Last day - first day score</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Improve</code> </td><td style=\"text-align: left;\"> 1=improved or 0=did not improve</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n  </td>\n</tr>\n</table>\n<h3>Details</h3>\n<p>In 2002, Heather Tollerud, a Saint Olaf College student, undertook a study of the archery scores of\nstudents at the college who were enrolled in an archery course. Students taking the course record a\nscore for each day they attend class from the first until the last day. Hopefully the instruction they\nreceive helps them to improve their game.\n</p>\n<h3>Source</h3>\n<p>Student project\n</p>\n</main>\n</div>\n",
    "config" : {
-      "graphType" : "Heatmap",
       "subtitle" : "Stat2Data - ArcheryData",
-      "title" : "Scores in an Archery Class",
       "smpOverlays" : [
          "Sex"
-      ]
+      ],
+      "graphType" : "Heatmap",
+      "title" : "Scores in an Archery Class"
    }
 }

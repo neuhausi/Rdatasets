@@ -1,3 +1,15 @@
+var gravInfo ={
+   "description" : "Description\nThe gravity data frame has 81 rows and 2 columns.\nThe grav data set has 26 rows and 2 columns.\nBetween May 1934 and July 1935, the National Bureau of Standards in\nWashington D.C. conducted a series of experiments to estimate the\nacceleration due to gravity, g, at Washington.  Each experiment\nproduced a number of replicate estimates of g using the same\nmethodology.  Although the basic method remained the same for all\nexperiments, that of the reversible pendulum, there were changes in\nconfiguration.\nThe gravity data frame contains the data from all eight\nexperiments.  The grav data frame contains the data from the\nexperiments 7 and 8.  The data are expressed as deviations from 980.000\nin centimetres per second squared.",
+   "usage" : "gravity",
+   "parameters" : {
+      "series" : "A factor describing from which experiment the estimate was derived.",
+      "g" : "The deviation of the estimate from 980.000 centimetres per second squared."
+   },
+   "format" : "This data frame contains the following columns:",
+   "title" : "Acceleration Due to Gravity",
+   "reference" : "The data were obtained from"
+}
+
 var grav = [
    [
       "g",

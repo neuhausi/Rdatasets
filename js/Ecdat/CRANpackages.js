@@ -1,3 +1,17 @@
+var CRANpackagesInfo ={
+   "title" : "Growth of CRAN",
+   "format" : "A data.frame containing:",
+   "reference" : "This seems to provide the most widely \navailable source for data on the growth of \nCRAN, manually recorded by John Fox and \nSpencer Graves.  For a discussion of these \nand related data, see Fox (2009).",
+   "parameters" : {
+      "Date" : "an object of class Date giving \nthe date on which the count of the \nnumber of CRAN packages was determined.",
+      "Version" : "an ordered factor of the R version \nnumber primarily in use at the time.  \nThis was taken from archives of the \nmajor releases at\nhttps://svn.r-project.org/R/branches/R-1-3-patches/tests/internet.Rout.save,\n...\nhttps://svn.r-project.org/R/branches/R-3-1-branch/tests/internet.Rout.save",
+      "Packages" : "an integer number of packages on the \nCRAN mirror checked on the indicated \nDate.",
+      "Source" : "A factor giving the source (person) who \ncollected the data."
+   },
+   "usage" : "data(CRANpackages)",
+   "description" : "Description\nData casually collected on the number of \npackages on the Comprehensive R Archive \nNetwork (CRAN) at different dates.\nNOTE:  This could change in the future.  \nSee Details below."
+}
+
 var CRANpackages = [
    [
       "Version",

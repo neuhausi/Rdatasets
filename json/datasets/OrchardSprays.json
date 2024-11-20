@@ -1,10 +1,11 @@
 {
    "config" : {
-      "colorBy" : "treatment",
       "title" : "Potency of Orchard Sprays",
-      "subtitle" : "datasets - OrchardSprays",
-      "graphType" : "Scatter3D"
+      "colorBy" : "treatment",
+      "graphType" : "Scatter3D",
+      "subtitle" : "datasets - OrchardSprays"
    },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>OrchardSprays</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Potency of Orchard Sprays</h2>\n<h3>Description</h3>\n<p>An experiment was conducted to assess the potency of various\nconstituents of orchard sprays in repelling honeybees, using a\nLatin square design.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>OrchardSprays</code></pre>\n<h3>Format</h3>\n<p>A data frame with 64 observations on 4 variables.\n</p>\n<table>\n<tr>\n <td style=\"text-align: right;\">\n    [,1]  </td><td style=\"text-align: left;\"> <code>rowpos</code>    </td><td style=\"text-align: left;\"> numeric </td><td style=\"text-align: left;\"> Row of the design</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    [,2]  </td><td style=\"text-align: left;\"> <code>colpos</code>    </td><td style=\"text-align: left;\"> numeric </td><td style=\"text-align: left;\"> Column of the design</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    [,3]  </td><td style=\"text-align: left;\"> <code>treatment</code> </td><td style=\"text-align: left;\"> factor  </td><td style=\"text-align: left;\"> Treatment level</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    [,4]  </td><td style=\"text-align: left;\"> <code>decrease</code>  </td><td style=\"text-align: left;\"> numeric </td><td style=\"text-align: left;\"> Response\n  </td>\n</tr>\n</table>\n<h3>Details</h3>\n<p>Individual cells of dry comb were filled with measured amounts of lime\nsulphur emulsion in sucrose solution.  Seven different concentrations\nof lime sulphur ranging from a concentration of 1/100 to 1/1,562,500\nin successive factors of 1/5 were used as well as a solution\ncontaining no lime sulphur.\n</p>\n<p>The responses for the different solutions were obtained by releasing\n100 bees into the chamber for two hours, and then measuring the\ndecrease in volume of the solutions in the various cells.\n</p>\n<p>An <code class=\"reqn\">8 \\times 8</code> Latin square design was used and the\ntreatments were coded as follows:\n</p>\n<table>\n<tr>\n <td style=\"text-align: right;\">\n    A </td><td style=\"text-align: left;\"> highest level of lime sulphur</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    B </td><td style=\"text-align: left;\"> next highest level of lime sulphur</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    . </td><td style=\"text-align: left;\"> </td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    . </td><td style=\"text-align: left;\"> </td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    . </td><td style=\"text-align: left;\"> </td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    G </td><td style=\"text-align: left;\"> lowest level of lime sulphur</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    H </td><td style=\"text-align: left;\"> no lime sulphur\n  </td>\n</tr>\n</table>\n<h3>Source</h3>\n<p>Finney, D. J. (1947)\n<em>Probit Analysis</em>.\nCambridge.\n</p>\n<h3>References</h3>\n<p>McNeil, D. R. (1977)\n<em>Interactive Data Analysis</em>.\nNew York: Wiley.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>require(graphics)\npairs(OrchardSprays, main = \"OrchardSprays data\")\n</code></pre>\n</main>\n</div>\n",
    "data" : {
       "z" : {
          "treatment" : [
@@ -75,6 +76,11 @@
          ]
       },
       "y" : {
+         "smps" : [
+            "decrease",
+            "rowpos",
+            "colpos"
+         ],
          "vars" : [
             "Var1",
             "Var2",
@@ -140,11 +146,6 @@
             "Var62",
             "Var63",
             "Var64"
-         ],
-         "smps" : [
-            "decrease",
-            "rowpos",
-            "colpos"
          ],
          "data" : [
             [
@@ -469,6 +470,5 @@
             ]
          ]
       }
-   },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>OrchardSprays</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Potency of Orchard Sprays</h2>\n<h3>Description</h3>\n<p>An experiment was conducted to assess the potency of various\nconstituents of orchard sprays in repelling honeybees, using a\nLatin square design.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>OrchardSprays</code></pre>\n<h3>Format</h3>\n<p>A data frame with 64 observations on 4 variables.\n</p>\n<table>\n<tr>\n <td style=\"text-align: right;\">\n    [,1]  </td><td style=\"text-align: left;\"> <code>rowpos</code>    </td><td style=\"text-align: left;\"> numeric </td><td style=\"text-align: left;\"> Row of the design</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    [,2]  </td><td style=\"text-align: left;\"> <code>colpos</code>    </td><td style=\"text-align: left;\"> numeric </td><td style=\"text-align: left;\"> Column of the design</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    [,3]  </td><td style=\"text-align: left;\"> <code>treatment</code> </td><td style=\"text-align: left;\"> factor  </td><td style=\"text-align: left;\"> Treatment level</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    [,4]  </td><td style=\"text-align: left;\"> <code>decrease</code>  </td><td style=\"text-align: left;\"> numeric </td><td style=\"text-align: left;\"> Response\n  </td>\n</tr>\n</table>\n<h3>Details</h3>\n<p>Individual cells of dry comb were filled with measured amounts of lime\nsulphur emulsion in sucrose solution.  Seven different concentrations\nof lime sulphur ranging from a concentration of 1/100 to 1/1,562,500\nin successive factors of 1/5 were used as well as a solution\ncontaining no lime sulphur.\n</p>\n<p>The responses for the different solutions were obtained by releasing\n100 bees into the chamber for two hours, and then measuring the\ndecrease in volume of the solutions in the various cells.\n</p>\n<p>An <code class=\"reqn\">8 \\times 8</code> Latin square design was used and the\ntreatments were coded as follows:\n</p>\n<table>\n<tr>\n <td style=\"text-align: right;\">\n    A </td><td style=\"text-align: left;\"> highest level of lime sulphur</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    B </td><td style=\"text-align: left;\"> next highest level of lime sulphur</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    . </td><td style=\"text-align: left;\"> </td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    . </td><td style=\"text-align: left;\"> </td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    . </td><td style=\"text-align: left;\"> </td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    G </td><td style=\"text-align: left;\"> lowest level of lime sulphur</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    H </td><td style=\"text-align: left;\"> no lime sulphur\n  </td>\n</tr>\n</table>\n<h3>Source</h3>\n<p>Finney, D. J. (1947)\n<em>Probit Analysis</em>.\nCambridge.\n</p>\n<h3>References</h3>\n<p>McNeil, D. R. (1977)\n<em>Interactive Data Analysis</em>.\nNew York: Wiley.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>require(graphics)\npairs(OrchardSprays, main = \"OrchardSprays data\")\n</code></pre>\n</main>\n</div>\n"
+   }
 }

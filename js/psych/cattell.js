@@ -1,3 +1,25 @@
+var cattellInfo ={
+   "parameters" : {
+      "Reason1" : "A reasoning test from Thurstone",
+      "IPATMatr" : "A \"culture fair\" matrix reasoning  test from the IPAT",
+      "Reason2" : "A reasoning  test from Thurstone",
+      "Space2" : "A Spatial ability test from Thurstone",
+      "IPATSer" : "A \"culture fair\"  series from the IPAT",
+      "Verbal" : "A verbal ability test from Thurstone",
+      "Space1" : "A Spatial ability test from Thurstone",
+      "IPATCLAS" : "A \"culture fair\" classification test from the IPAT",
+      "Number1" : "A Numerical ability test from Thurstone",
+      "Verbal2" : "A verbal ability test from Thurstone",
+      "IPATTop" : "A \"culture fair\" topology test from the IPAT",
+      "Number2" : "A Numerical ability test from Thurstone"
+   },
+   "title" : "12 cognitive variables from Cattell (1963)",
+   "format" : "A correlation matrix of the following 12 variables from 277 7th and 8th graders",
+   "reference" : "Cattell (1963) reported on 8 cognitive variables from Thurstone and four from the Institute for Personality Assessment Test (IPAT).  Rindskopf and Rose (1988) use this data set as an example of second order factor analysis. It is thus a nice set for examining alternative solutions such as bifactor rotation, omega hierarchical, as well as esem and interbattery factor analysis.",
+   "description" : "Description\nRindskopf and Rose (1988) use this data set to demonstrate confirmatory second order factor models.  It is a nice example data set to explore hierarchical structure and alternative factor solutions. It contains measures of fluid and crystallized intelligence.",
+   "usage" : "data(\"cattell\")"
+}
+
 var cattell = [
    [
       "Verbal",

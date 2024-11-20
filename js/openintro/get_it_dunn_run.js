@@ -1,3 +1,23 @@
+var get_it_dunn_runInfo ={
+   "title" : "Get it Dunn Run, Race Times",
+   "format" : "A data frame with 978 observations on the following 10 variables.",
+   "reference" : "Data were collected from GSE Timing:\n2018 data,\n2017 race data.",
+   "parameters" : {
+      "run_time_minutes" : "Run time, in minutes.",
+      "city" : "City of residence.",
+      "sex" : "Sex of the runner.",
+      "bib_num" : "Bib number of the runner.",
+      "race" : "Run distance.",
+      "state" : "State of residence.",
+      "first_name" : "First name of the runner.",
+      "date" : "Date of the run.",
+      "last_initial" : "Initial of the runner's last name.",
+      "age" : "Age of the runner."
+   },
+   "usage" : "get_it_dunn_run",
+   "description" : "Description\nGet it Dunn is a small regional run that got extra attention when a runner,\nNichole Porath, made the Guiness Book of World Records for the fastest time\npushing a double stroller in a half marathon. This dataset contains results\nfrom the 2017 and 2018 races."
+}
+
 var get_it_dunn_run = [
    [
       "date",

@@ -1,3 +1,15 @@
+var ElephantsMFInfo ={
+   "usage" : "A data frame with 288 observations on the following 3 variables.",
+   "reference" : "Data on 288 African elephants that lived through droughts in the first two years of life.",
+   "title" : "Measurements of African Elephants",
+   "parameters" : {
+      "Age" : "Age (in years)",
+      "Height" : "Shoulder height (in cm)",
+      "Sex" : "F=female or M=male"
+   },
+   "description" : "Description\nAge and height of African elephants"
+}
+
 var ElephantsMF = [
    [
       "Age",

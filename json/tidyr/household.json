@@ -1,27 +1,20 @@
 {
    "config" : {
-      "graphType" : "Dotplot",
       "segregateSamplesBy" : [
-         "name_child1",
-         "dob_child1"
+         "dob_child1",
+         "dob_child2"
       ],
       "subtitle" : "tidyr - household",
       "title" : "Household data",
       "groupingFactors" : [
-         "name_child2"
+         "name_child1"
       ],
-      "colorBy" : "dob_child2"
+      "graphType" : "Dotplot",
+      "colorBy" : "name_child2"
    },
    "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>household</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Household data</h2>\n<h3>Description</h3>\n<p>This dataset is based on an example in\n<code>vignette(\"datatable-reshape\", package = \"data.table\")</code>\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>household\n</code></pre>\n<h3>Format</h3>\n<p>A data frame with 5 rows and 5 columns:\n</p>\n<dl>\n<dt>family</dt><dd><p>Family identifier</p>\n</dd>\n<dt>dob_child1</dt><dd><p>Date of birth of first child</p>\n</dd>\n<dt>dob_child2</dt><dd><p>Date of birth of second child</p>\n</dd>\n<dt>name_child1</dt><dd><p>Name of first child</p>\n</dd></dl>\n<p>?\n</p>\n<dl>\n<dt>name_child2</dt><dd><p>Name of second child</p>\n</dd>\n</dl>\n</main>\n</div>\n",
    "data" : {
       "y" : {
-         "smps" : [
-            "Smp1",
-            "Smp2",
-            "Smp3",
-            "Smp4",
-            "Smp5"
-         ],
          "data" : [
             [
                1,
@@ -33,16 +26,16 @@
          ],
          "vars" : [
             "family"
+         ],
+         "smps" : [
+            "Smp1",
+            "Smp2",
+            "Smp3",
+            "Smp4",
+            "Smp5"
          ]
       },
       "x" : {
-         "name_child2" : [
-            "Jose",
-            "",
-            "Seth",
-            "Khai",
-            "Gracie"
-         ],
          "name_child1" : [
             "Susan",
             "Mark",
@@ -63,6 +56,13 @@
             "2004-04-05",
             "2009-08-27",
             "2005-02-28"
+         ],
+         "name_child2" : [
+            "Jose",
+            "",
+            "Seth",
+            "Khai",
+            "Gracie"
          ]
       }
    }

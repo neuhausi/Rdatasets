@@ -1,3 +1,10 @@
+var austaInfo ={
+   "usage" : "Annual time series of class ts.",
+   "title" : "International visitors to Australia",
+   "format" : "International Visitor Survey, Tourism Research Australia.",
+   "description" : "Description\nTotal international visitors to Australia (in millions). 1980-2015."
+}
+
 var austa = [
    [
       "time",

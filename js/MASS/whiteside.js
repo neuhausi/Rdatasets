@@ -1,3 +1,16 @@
+var whitesideInfo ={
+   "description" : "Description\nMr Derek Whiteside of the UK Building Research Station recorded the\nweekly gas consumption and average external temperature at his own\nhouse in south-east England for two heating seasons, one of 26 weeks\nbefore, and one of 30 weeks after cavity-wall insulation was\ninstalled. The object of the exercise was to assess the effect of the\ninsulation on gas consumption.",
+   "usage" : "whiteside",
+   "parameters" : {
+      "Temp" : "Purportedly the average outside temperature in degrees Celsius. (These\nvalues is far too low for any 56-week period in the 1960s in\nSouth-East England. It might be the weekly average of daily minima.)",
+      "Gas" : "The weekly gas consumption in 1000s of cubic feet.",
+      "Insul" : "A factor, before or after insulation."
+   },
+   "format" : "The whiteside data frame has 56 rows and 3 columns.:",
+   "reference" : "A data set collected in the 1960s by Mr Derek Whiteside of the\nUK Building Research Station. Reported by",
+   "title" : "House Insulation: Whiteside's Data"
+}
+
 var whiteside = [
    [
       "Insul",

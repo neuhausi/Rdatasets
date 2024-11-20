@@ -1,3 +1,16 @@
+var lizard_runInfo ={
+   "reference" : "Adolph, S. C. 1987.  Physiological and behavioral ecology of the lizards\nSceloporus occidentalis and Sceloporus graciosus. Dissertation.\nUniversity of Washington, Seattle, Washington, USA.",
+   "title" : "Lizard speeds",
+   "format" : "A data frame with 48 observations on the following 3 variables.",
+   "parameters" : {
+      "scientific_name" : "Scientific name (Genus and species): &#8288;Sceloporus occidentalis&#8288; and &#8288;Sceloporus graciosus&#8288;.",
+      "common_name" : "Common name: &#8288;Western fence lizard&#8288; and &#8288;Sagebrush lizard&#8288;.",
+      "top_speed" : "Top speed of lizard, meters per second."
+   },
+   "usage" : "lizard_run",
+   "description" : "Description\nData on top speeds measured on a laboratory race track for two species\nof lizards: Western fence lizard (Sceloporus occidentalis) and\nSagebrush lizard (Sceloporus graciosus)."
+}
+
 var lizard_run = [
    [
       "top_speed",

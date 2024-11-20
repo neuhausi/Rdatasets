@@ -1,3 +1,24 @@
+var series_rawInfo ={
+   "format" : "A data frame with 10 rows representing individual series and 11 variables:",
+   "title" : "Data about each series aired in the UK (raw)",
+   "reference" : "See\nhttps://en.wikipedia.org/wiki/The_Great_British_Bake_Off#Series_overview",
+   "parameters" : {
+      "day_of_week" : "A character string denoting weekday that series'\nepisodes aired in UK.",
+      "finale" : "A date denoting original airdate of series finale episode in\nthe UK.",
+      "episodes" : "An integer denoting total number of episodes within\nseries.",
+      "premiere" : "A date denoting original airdate of series premiere episode\nin the UK.",
+      "avg_uk_viewers" : "Average UK viewers in millions. Also see\nratings.",
+      "runner_up_1" : "A character string denoting the name of one of the\nbakers who was a series runner-up. The number is not meaningful.",
+      "series" : "A factor denoting UK series (1-10).",
+      "runner_up_2" : "A character string denoting the name of one of the\nbakers who was a series runner-up. The number is not meaningful.",
+      "winner" : "A character string denoting name of series winner.",
+      "channel" : "A character string denoting channel that series aired on:\none of &#8288;BBC One&#8288;, &#8288;BBC Two&#8288;, or &#8288;Channel 4&#8288;.",
+      "timeslot" : "time of day that series' episodes aired in UK (24-hour\nclock)."
+   },
+   "usage" : "series_raw",
+   "description" : "Description\nThis dataset has one row per series aired in the UK as 'The Great British\nBake Off'. When did a series premiere in the UK? When was the finale episode?\nHow many viewers on average  did a series have?"
+}
+
 var series_raw = [
    [
       "series",

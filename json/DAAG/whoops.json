@@ -1,10 +1,9 @@
 {
    "config" : {
-      "graphType" : "Scatter3D",
       "subtitle" : "DAAG - whoops",
-      "title" : "Deaths from whooping cough"
+      "title" : "Deaths from whooping cough",
+      "graphType" : "Scatter3D"
    },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>whoops</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Deaths from whooping cough, in London</h2>\n<h3>Description</h3>\n<p>Deaths from whooping cough, in London from 1740 to 1881.  \n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(whoops)</code></pre>\n<h3>Format</h3>\n<p>This is a multiple time series consisting of 3 series:\n<code>wcough</code>, <code>ratio</code>, and <code>alldeaths</code>.\n</p>\n<h3>Source</h3>\n<p>Guy, W. A. 1882. Two hundred and fifty years of small pox in London.\nJournal of the Royal Statistical Society 399-443.\n</p>\n<h3>References</h3>\n<p>Lancaster, H. O. 1990. Expectations of Life. Springer.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>data(whoops)\nstr(whoops)\nplot(whoops) \n</code></pre>\n</main>\n</div>\n",
    "data" : {
       "y" : {
          "vars" : [
@@ -869,5 +868,6 @@
             ]
          ]
       }
-   }
+   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>whoops</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Deaths from whooping cough, in London</h2>\n<h3>Description</h3>\n<p>Deaths from whooping cough, in London from 1740 to 1881.  \n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(whoops)</code></pre>\n<h3>Format</h3>\n<p>This is a multiple time series consisting of 3 series:\n<code>wcough</code>, <code>ratio</code>, and <code>alldeaths</code>.\n</p>\n<h3>Source</h3>\n<p>Guy, W. A. 1882. Two hundred and fifty years of small pox in London.\nJournal of the Royal Statistical Society 399-443.\n</p>\n<h3>References</h3>\n<p>Lancaster, H. O. 1990. Expectations of Life. Springer.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>data(whoops)\nstr(whoops)\nplot(whoops) \n</code></pre>\n</main>\n</div>\n"
 }

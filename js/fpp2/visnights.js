@@ -1,3 +1,10 @@
+var visnightsInfo ={
+   "usage" : "Time series object of class mts.",
+   "format" : "Tourism Research Australia.",
+   "title" : "Quarterly visitor nights for various regions of Australia.",
+   "description" : "Description\nTotal quarterly visitor nights (in millions) from 1998-2016 for twenty\nregions of Australia within six states. The states are:\nNew South Wales, Queensland, South Australia, Victoria, Western Australia,\nand Other."
+}
+
 var visnights = [
    [
       "NSWMetro",

@@ -1,3 +1,15 @@
+var singerInfo ={
+   "usage" : "singer",
+   "description" : "Description\nHeights in inches of the singers in the New York Choral Society in\n1979.  The data are grouped according to voice part.  The vocal range\nfor each voice part increases in pitch according to the following\norder: Bass 2, Bass 1, Tenor 2, Tenor 1, Alto 2, Alto 1, Soprano 2,\nSoprano 1.",
+   "reference" : "Documentation contributed by Kevin Wright.",
+   "format" : "A data frame with 235 observations on the following 2 variables.",
+   "title" : "Heights of New York Choral Society singers",
+   "parameters" : {
+      "voice.part" : "(Unordered) factor with levels \"Bass 2\",\n\"Bass 1\", \"Tenor 2\", \"Tenor 1\", \"Alto 2\",\n\"Alto 1\", \"Soprano 2\", \"Soprano 1\".",
+      "height" : "Height in inches of the singers."
+   }
+}
+
 var singer = [
    [
       "height",

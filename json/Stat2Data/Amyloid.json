@@ -1,10 +1,77 @@
 {
+   "config" : {
+      "subtitle" : "Stat2Data - Amyloid",
+      "groupingFactors" : [
+         "Group"
+      ],
+      "colorBy" : "variable",
+      "title" : "Amyloid-beta and Cognitive Impairment",
+      "graphType" : "Boxplot"
+   },
    "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>Amyloid</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Amyloid-beta and Cognitive Impairment</h2>\n<h3>Description</h3>\n<p>Amyloid-beta and cognitive impairment for a sample of Catholic priests\n</p>\n<h3>Format</h3>\n<p>A data frame with 57 observations on the following 2 variables.\n</p>\n<dl>\n<dt><code>Group</code></dt><dd> <p><code>mAD</code>=Alzheimer's, <code>MCI</code>=mild impairment, <code>NCI</code>=no impairment</p>\n</dd>\n<dt><code>Abeta</code></dt><dd><p>Amount of Abeta from the posterior cingulate cortex (pmol/g tissue)</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>Amyloid-beta (Abeta) is a protein fragment that has been linked to Alzheimer's disease. Autopsies from a sample of Catholic priests included measurements of Abeta (pmol/g tissue from the posterior cingulate cortex) from three groups: subjects who had exhibited no cognitive impairment before death, subjects who had exhibited mild cognitive impairment, and subjects who had mild to moderate Alzheimer's disease.\n</p>\n<h3>Source</h3>\n<p>Violetta N. Pivtoraiko, Eric E. Abrahamson, Sue E. Leurgans, Steven T. DeKosky,\nElliott J. Mufson,, Milos D. Ikonomovic (2015)  Cortical pyroglutamate amyloid-beta levels and cognitive decline in Alzheimer's disease.  Neurobiology of Aging (36) 12-19.\nData are read from Figure 1, panel d.\n</p>\n</main>\n</div>\n",
    "data" : {
+      "x" : {
+         "Group" : [
+            "NCI",
+            "NCI",
+            "NCI",
+            "NCI",
+            "NCI",
+            "NCI",
+            "NCI",
+            "NCI",
+            "NCI",
+            "NCI",
+            "NCI",
+            "NCI",
+            "NCI",
+            "NCI",
+            "NCI",
+            "NCI",
+            "NCI",
+            "NCI",
+            "NCI",
+            "MCI",
+            "MCI",
+            "MCI",
+            "MCI",
+            "MCI",
+            "MCI",
+            "MCI",
+            "MCI",
+            "MCI",
+            "MCI",
+            "MCI",
+            "MCI",
+            "MCI",
+            "MCI",
+            "MCI",
+            "MCI",
+            "MCI",
+            "MCI",
+            "MCI",
+            "MCI",
+            "MCI",
+            "mAD",
+            "mAD",
+            "mAD",
+            "mAD",
+            "mAD",
+            "mAD",
+            "mAD",
+            "mAD",
+            "mAD",
+            "mAD",
+            "mAD",
+            "mAD",
+            "mAD",
+            "mAD",
+            "mAD",
+            "mAD",
+            "mAD"
+         ]
+      },
       "y" : {
-         "vars" : [
-            "Abeta"
-         ],
          "data" : [
             [
                114,
@@ -66,6 +133,9 @@
                894
             ]
          ],
+         "vars" : [
+            "Abeta"
+         ],
          "smps" : [
             "Smp1",
             "Smp2",
@@ -125,76 +195,6 @@
             "Smp56",
             "Smp57"
          ]
-      },
-      "x" : {
-         "Group" : [
-            "NCI",
-            "NCI",
-            "NCI",
-            "NCI",
-            "NCI",
-            "NCI",
-            "NCI",
-            "NCI",
-            "NCI",
-            "NCI",
-            "NCI",
-            "NCI",
-            "NCI",
-            "NCI",
-            "NCI",
-            "NCI",
-            "NCI",
-            "NCI",
-            "NCI",
-            "MCI",
-            "MCI",
-            "MCI",
-            "MCI",
-            "MCI",
-            "MCI",
-            "MCI",
-            "MCI",
-            "MCI",
-            "MCI",
-            "MCI",
-            "MCI",
-            "MCI",
-            "MCI",
-            "MCI",
-            "MCI",
-            "MCI",
-            "MCI",
-            "MCI",
-            "MCI",
-            "MCI",
-            "mAD",
-            "mAD",
-            "mAD",
-            "mAD",
-            "mAD",
-            "mAD",
-            "mAD",
-            "mAD",
-            "mAD",
-            "mAD",
-            "mAD",
-            "mAD",
-            "mAD",
-            "mAD",
-            "mAD",
-            "mAD",
-            "mAD"
-         ]
       }
-   },
-   "config" : {
-      "title" : "Amyloid-beta and Cognitive Impairment",
-      "groupingFactors" : [
-         "Group"
-      ],
-      "colorBy" : "variable",
-      "graphType" : "Boxplot",
-      "subtitle" : "Stat2Data - Amyloid"
    }
 }

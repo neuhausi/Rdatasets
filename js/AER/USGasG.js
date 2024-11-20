@@ -1,3 +1,23 @@
+var USGasGInfo ={
+   "parameters" : {
+      "durable" : "Aggregate price index for consumer durables.",
+      "price" : "Price index for gasoline.",
+      "usedcar" : "Price index for used cars.",
+      "income" : "Per capita disposable income.",
+      "gas" : "Total US gasoline consumption (computed as\ntotal expenditure divided by price index).",
+      "nondurable" : "Aggregate price index for consumer nondurables.",
+      "newcar" : "Price index for new cars.",
+      "transport" : "Price index for public transportation.",
+      "service" : "Aggregate price index for consumer services.",
+      "population" : "US total population in millions."
+   },
+   "format" : "An annual multiple time series from 1960 to 1995 with 10 variables.",
+   "title" : "US Gasoline Market Data (1960&ndash;1995, Greene)",
+   "reference" : "Online complements to Greene (2003). Table F2.2.",
+   "description" : "Description\nTime series data on the US gasoline market.",
+   "usage" : "data(\"USGasG\")"
+}
+
 var USGasG = [
    [
       "gas",

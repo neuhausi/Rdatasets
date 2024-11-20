@@ -1,3 +1,15 @@
+var O.mykissInfo ={
+   "description" : "Description\nTest data from a 21 day fish test following the guidelines OECD GL204, \nusing the test organism Rainbow trout Oncorhynchus mykiss.",
+   "usage" : "data(O.mykiss)",
+   "parameters" : {
+      "conc" : "a numeric vector of concentrations (mg/l)",
+      "weight" : "a numeric vector of wet weights (g)"
+   },
+   "reference" : "Weights are measured after 28 days.",
+   "format" : "A data frame with 70 observations on the following 2 variables.",
+   "title" : "Test data from a 21 day fish test"
+}
+
 var O.mykiss = [
    [
       "conc",

@@ -1,3 +1,35 @@
+var bmtInfo ={
+   "usage" : "A data frame, see data.frame.",
+   "description" : "Description\nA data frame of 137 rows (patients) and 22 columns. The included variables\nare\ngroup Disease group; 1 = ALL, 2 = AML Low Risk, 3 =\nAML High Risk \n t1 Time in days to death or last follow-up \n\nt2 Disease-free survival time in days (time to relapse, death or\nlast follow-up) \n d1 Death indicator; 1 = dead, 0 = alive \n\nd2 Relapse indicator; 1 = relapsed, 0 = disease-free \n d3\nDisease-free survival indicator; 1 = dead or relapsed, 0 = alive and\ndisease-free) \n ta Time in days to Acute Graft-versus-Host Disease\n(AGVHD) \n da Acute GVHD indicator; 1 = Acute GVHD, 0 = No Acute GVHD\n\n tc Time (days) to Chronic Graft-vrsus-Host Disease (CGVHD) \n\ndc Chronic GVHD indicator; 1 = Chronic GVHD, 0 = No Chronic GVHD \n\ntp Time (days) to platelet recovery \n dp Platelet recovery\nindicator; 1 = platelets returned to normal, 0 = platelets never returned to\nnormal \n z1 Patient age in years \n z2 Donor age in years \n\nz3 Patient sex; 1 = male, 0 = female \n z4 Donor sex; 1 =\nmale, 0 = female \n z5 Patient CMV status; 1 = CMV positive, 0 = CMV\nnegative \n z6 Donor CMV status; 1 = CMV positive, 0 = CMV negative \n\nz7 Waiting time to transplant in days \n z8 FAB; 1 = FAB\ngrade 4 or 5 and AML, 0 = Otherwise \n z9 Hospital; 1 = The Ohio\nState University, 2 = Alferd , 3 = St. Vincent, 4 = Hahnemann \n z10\nMTX used as a Graft-versus-Host prophylactic; 1 = yes, 0 = no",
+   "title" : "BMT data from Klein and Moeschberger",
+   "format" : "Klein and Moeschberger (1997). Survival Analysis\nTechniques for Censored and Truncated Data, Springer, New York.",
+   "reference" : "A data frame, see data.frame.",
+   "parameters" : {
+      "d2" : "Relapse indicator; 1 = relapsed, 0 = disease-free",
+      "z2" : "Donor age in years",
+      "z1" : "Patient age in years",
+      "dc" : "Chronic GVHD indicator; 1 = Chronic GVHD, 0 = No Chronic GVHD",
+      "da" : "Acute GVHD indicator; 1 = Acute GVHD, 0 = No Acute GVHD",
+      "d1" : "Death indicator; 1 = dead, 0 = alive",
+      "z4" : "Donor sex; 1 =\nmale, 0 = female",
+      "z8" : "FAB; 1 = FAB\ngrade 4 or 5 and AML, 0 = Otherwise",
+      "tp" : "Time (days) to platelet recovery",
+      "z10" : "MTX used as a Graft-versus-Host prophylactic; 1 = yes, 0 = no",
+      "z9" : "Hospital; 1 = The Ohio\nState University, 2 = Alferd , 3 = St. Vincent, 4 = Hahnemann",
+      "tc" : "Time (days) to Chronic Graft-vrsus-Host Disease (CGVHD)",
+      "t1" : "Time in days to death or last follow-up",
+      "ta" : "Time in days to Acute Graft-versus-Host Disease\n(AGVHD)",
+      "t2" : "Disease-free survival time in days (time to relapse, death or\nlast follow-up)",
+      "z6" : "Donor CMV status; 1 = CMV positive, 0 = CMV negative",
+      "z5" : "Patient CMV status; 1 = CMV positive, 0 = CMV\nnegative",
+      "z7" : "Waiting time to transplant in days",
+      "group" : "Disease group; 1 = ALL, 2 = AML Low Risk, 3 =\nAML High Risk",
+      "d3" : "Disease-free survival indicator; 1 = dead or relapsed, 0 = alive and\ndisease-free)",
+      "z3" : "Patient sex; 1 = male, 0 = female",
+      "dp" : "Platelet recovery\nindicator; 1 = platelets returned to normal, 0 = platelets never returned to\nnormal"
+   }
+}
+
 var bmt = [
    [
       "group",

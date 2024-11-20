@@ -1,9 +1,4 @@
 {
-   "config" : {
-      "title" : "Anscombe's Quartet of 'Identical' Simple Linear Regressions",
-      "graphType" : "Heatmap",
-      "subtitle" : "datasets - anscombe"
-   },
    "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>anscombe</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Anscombe's Quartet of &lsquo;Identical&rsquo; Simple Linear Regressions</h2>\n<h3>Description</h3>\n<p>Four <code class=\"reqn\">x</code>-<code class=\"reqn\">y</code> datasets which have the same traditional\nstatistical properties (mean, variance, correlation, regression line,\netc.), yet are quite different.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>anscombe</code></pre>\n<h3>Format</h3>\n<p>A data frame with 11 observations on 8 variables.\n</p>\n<table>\n<tr>\n <td style=\"text-align: right;\">\n    <code>x1</code> == <code>x2</code> == <code>x3</code> </td><td style=\"text-align: left;\"> the integers 4:14, specially arranged </td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>x4</code>             </td><td style=\"text-align: left;\"> values 8 and 19 </td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>y1</code>, <code>y2</code>, <code>y3</code>, <code>y4</code> </td><td style=\"text-align: left;\"> numbers in (3, 12.5)\n    with mean 7.5 and standard deviation 2.03</td>\n</tr>\n</table>\n<h3>Source</h3>\n<p>Tufte, Edward R. (1989).\n<em>The Visual Display of Quantitative Information</em>, 13&ndash;14.\nGraphics Press.\n</p>\n<h3>References</h3>\n<p>Anscombe, Francis J. (1973).\nGraphs in statistical analysis.\n<em>The American Statistician</em>, <b>27</b>, 17&ndash;21.\n<a href=\"https://doi.org/10.2307/2682899\">doi:10.2307/2682899</a>.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>require(stats); require(graphics)\nsummary(anscombe)\n##-- now some \"magic\" to do the 4 regressions in a loop:\nff &lt;- y ~ x\nmods &lt;- setNames(as.list(1:4), paste0(\"lm\", 1:4))\nfor(i in 1:4) {\n  ff[2:3] &lt;- lapply(paste0(c(\"y\",\"x\"), i), as.name)\n  ## or   ff[[2]] &lt;- as.name(paste0(\"y\", i))\n  ##      ff[[3]] &lt;- as.name(paste0(\"x\", i))\n  mods[[i]] &lt;- lmi &lt;- lm(ff, data = anscombe)\n  print(anova(lmi))\n## See how close they are (numerically!)\nsapply(mods, coef)\nlapply(mods, function(fm) coef(summary(fm)))\n## Now, do what you should have done in the first place: PLOTS\nop &lt;- par(mfrow = c(2, 2), mar = 0.1+c(4,4,1,1), oma =  c(0, 0, 2, 0))\nfor(i in 1:4) {\n  ff[2:3] &lt;- lapply(paste0(c(\"y\",\"x\"), i), as.name)\n  plot(ff, data = anscombe, col = \"red\", pch = 21, bg = \"orange\", cex = 1.2,\n       xlim = c(3, 19), ylim = c(3, 13))\n  abline(mods[[i]], col = \"blue\")\nmtext(\"Anscombe's 4 Regression data sets\", outer = TRUE, cex = 1.5)\npar(op)\n</code></pre>\n</main>\n</div>\n",
    "data" : {
       "y" : {
@@ -137,5 +132,10 @@
             ]
          ]
       }
+   },
+   "config" : {
+      "title" : "Anscombe's Quartet of 'Identical' Simple Linear Regressions",
+      "graphType" : "Heatmap",
+      "subtitle" : "datasets - anscombe"
    }
 }

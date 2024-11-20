@@ -1,3 +1,10 @@
+var AccountantsAuditorsPctInfo ={
+   "description" : "Description\nAccountants and auditors as a percent of the US\nlabor force 1850 to 2016 updating the analysis in\nWyatt and Hecker (2006).",
+   "usage" : "data(AccountantsAuditorsPct)",
+   "title" : "Accountants and Auditors in the US 1850-2016",
+   "format" : "a numeric vector of length 30 giving the percent \nof the US labor force in \"Accounting and Auditing\"\neach decade from 1850 to 2010 except for 1940 plus\neach year between 2011 and 2016."
+}
+
 var AccountantsAuditorsPct = [
    [
       "dat"

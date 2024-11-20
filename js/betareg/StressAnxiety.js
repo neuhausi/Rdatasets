@@ -1,3 +1,15 @@
+var StressAnxietyInfo ={
+   "reference" : "Both variables were assess on the Depression Anxiety Stress Scales, ranging\nfrom 0 to 42. Smithson and Verkuilen (2006) transformed these to the open\nunit interval (without providing details about this transformation).",
+   "format" : "A data frame containing 166 observations on 2 variables.",
+   "title" : "Dependency of Anxiety on Stress",
+   "parameters" : {
+      "stress" : "score, linearly transformed to the open unit\ninterval (see below).",
+      "anxiety" : "score, linearly transformed to the open unit\ninterval (see below)."
+   },
+   "usage" : "data(\"StressAnxiety\", package = \"betareg\")",
+   "description" : "Description\nStress and anxiety among nonclinical women in Townsville, Queensland, Australia."
+}
+
 var StressAnxiety = [
    [
       "stress",

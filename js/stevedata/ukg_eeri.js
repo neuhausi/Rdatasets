@@ -1,3 +1,15 @@
+var ukg_eeriInfo ={
+   "description" : "Description\nThis is a (near) daily data set on the effective exchange rate index for\nthe United Kingdom's pound sterling from 1990 onward. The data are\nindexed, such that 100 equals the monthly average in January 2005. This\nis useful for illustrating devaluations of the pound after Black Wednesday,\nthe financial crisis, and, more recently, the UK's separation from the\nEuropean Union.",
+   "usage" : "ukg_eeri",
+   "parameters" : {
+      "value" : "a numeric vector for the effective exchange rate index (Jan. 2005 = 100)",
+      "date" : "a date"
+   },
+   "format" : "A data frame with 8318 observations on the following 2 variables.",
+   "reference" : "Credit to the Bank of England for making these data readily available and\naccessible. The Bank of England's website (https://www.bankofengland.co.uk/) has\nthese data with a code of XUDLBK67.",
+   "title" : "United Kingdom Effective Exchange Rate Index Data, 1990-2022"
+}
+
 var ukg_eeri = [
    [
       "date",

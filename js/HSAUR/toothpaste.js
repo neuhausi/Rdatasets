@@ -1,3 +1,20 @@
+var toothpasteInfo ={
+   "parameters" : {
+      "sdB" : "standard deviation of DMFS index of subjects \nusing toothpaste B.",
+      "sdA" : "standard deviation of DMFS index of subjects \nusing toothpaste A.",
+      "nB" : "number of subjects using toothpaste B.",
+      "meanB" : "mean DMFS index of subjects using toothpaste B.",
+      "nA" : "number of subjects using toothpaste A.",
+      "meanA" : "mean DMFS index of subjects using toothpaste A.",
+      "Study" : "the identifier of the study."
+   },
+   "reference" : "The data are the results of nine randomised trials comparing\ntwo different toothpastes for the prevention of caries development.\nThe outcomes in each trial was the change, from baseline, in\nthe decayed, missing (due to caries) and filled surface dental\nindex (DMFS).",
+   "title" : "Toothpaste Data",
+   "format" : "A data frame with 9 observations on the following 7 variables.",
+   "description" : "Description\nMeta-analysis of studies comparing two different toothpastes.",
+   "usage" : "data(\"toothpaste\")"
+}
+
 var toothpaste = [
    [
       "Study",

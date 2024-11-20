@@ -80,6 +80,9 @@
                5.69
             ]
          ],
+         "vars" : [
+            "y"
+         ],
          "smps" : [
             "Smp1",
             "Smp2",
@@ -156,16 +159,13 @@
             "Smp73",
             "Smp74",
             "Smp75"
-         ],
-         "vars" : [
-            "y"
          ]
       }
    },
    "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>capability</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>\nSimulated Manufacturing Process Data\n</h2>\n<h3>Description</h3>\n<p>The <code>capability</code> data frame has 75 rows and 1 columns.\n</p>\n<p>The data are simulated successive observations from a process in equilibrium.\nThe process is assumed to have specification limits (5.49, 5.79).\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>capability\n</code></pre>\n<h3>Format</h3>\n<p>This data frame contains the following column:\n</p>\n<dl>\n<dt><code>y</code></dt><dd>\n<p>The simulated measurements.\n</p>\n</dd></dl>\n<h3>Source</h3>\n<p>The data were obtained from\n</p>\n<p>Bissell, A.F. (1990) How reliable is your capability index?\n<em>Applied Statistics</em>, <b>39</b>, 331&ndash;340.\n</p>\n<h3>References</h3>\n<p>Canty, A.J. and Davison, A.C. (1996) Implementation of saddlepoint \napproximations to resampling distributions. To appear in \n<em>Computing Science and Statistics; Proceedings of the 28th Symposium on the Interface</em>.\n</p>\n<p>Davison, A.C. and Hinkley, D.V. (1997) \n<em>Bootstrap Methods and Their Application</em>. Cambridge University Press.\n</p>\n</main>\n</div>\n",
    "config" : {
+      "subtitle" : "boot - capability",
       "title" : "Simulated Manufacturing Process Data",
-      "graphType" : "Treemap",
-      "subtitle" : "boot - capability"
+      "graphType" : "Treemap"
    }
 }

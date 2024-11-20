@@ -1,3 +1,21 @@
+var possumInfo ={
+   "description" : "Description\nData representing possums in Australia and New Guinea. This is a copy of the\ndataset by the same name in the DAAG package, however, the dataset\nincluded here includes fewer variables.",
+   "usage" : "possum",
+   "parameters" : {
+      "skull_w" : "Skull width, in mm.",
+      "total_l" : "Total length, in cm.",
+      "age" : "Age.",
+      "tail_l" : "Tail length, in cm.",
+      "sex" : "Gender, either m (male) or f (female).",
+      "site" : "The site number where the possum was trapped.",
+      "head_l" : "Head length, in mm.",
+      "pop" : "Population, either Vic (Victoria) or other\n(New South Wales or Queensland)."
+   },
+   "format" : "A data frame with 104 observations on the following 8 variables.",
+   "title" : "Possums in Australia and New Guinea",
+   "reference" : "Lindenmayer, D. B., Viggers, K. L., Cunningham, R. B., and Donnelly,\nC. F. 1995. Morphological variation among columns of the mountain brushtail\npossum, Trichosurus caninus Ogilby (Phalangeridae: Marsupiala). Australian\nJournal of Zoology 43: 449-458."
+}
+
 var possum = [
    [
       "site",

@@ -1,3 +1,20 @@
+var urineInfo ={
+   "title" : "Urine Analysis Data",
+   "format" : "This data frame contains the following columns:",
+   "reference" : "The data were obtained from",
+   "parameters" : {
+      "gravity" : "The specific gravity of the urine.",
+      "osmo" : "The osmolarity of the urine. Osmolarity is proportional to the concentration\nof molecules in solution.",
+      "ph" : "The pH reading of the urine.",
+      "urea" : "The urea concentration in millimoles per litre.",
+      "cond" : "The conductivity of the urine.  Conductivity is proportional to the \nconcentration of charged ions in solution.",
+      "r" : "Indicator of the presence of calcium oxalate crystals.",
+      "calc" : "The calcium concentration in millimoles per litre."
+   },
+   "usage" : "urine",
+   "description" : "Description\nThe urine data frame has 79 rows and 7 columns.\n79 urine specimens were analyzed in an effort to determine if certain physical\ncharacteristics of the urine might be related to the formation of calcium\noxalate crystals."
+}
+
 var urine = [
    [
       "r",

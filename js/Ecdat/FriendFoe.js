@@ -1,3 +1,26 @@
+var FriendFoeInfo ={
+   "format" : "A dataframe containing :",
+   "title" : "Data from the Television Game Show Friend Or Foe ?",
+   "reference" : "Kalist, David E. (2004) &ldquo;Data from the Television Game Show \"Friend or Foe?\"&rdquo;, Journal of Statistics Education, 12(3).",
+   "parameters" : {
+      "white" : "is contestant white ?",
+      "sex1" : "partner's sex",
+      "cash" : "the amount of cash in the trust box",
+      "age1" : "partner's age in years",
+      "white1" : "is partner white ?",
+      "season" : "season show, a factor with levels (\"1\",\"2\")",
+      "win1" : "money won by partner",
+      "round" : "round in which contestant is eliminated, a\nfactor with levels (\"1\",\"2\",\"3\")",
+      "win" : "money won by contestant",
+      "age" : "contestant's age in years",
+      "play1" : "partner's choice : a factor with levels \n\"foe\" and \"friend\"",
+      "sex" : "contestant's sex",
+      "play" : "contestant's choice : a factor with levels \n\"foe\" and \"friend\". If both players play\n\"friend\", they share the trust box, if both \nplay \"foe\", both players receive zero prize, \nif one of them play \"foe\" and the other one\n\"friend\", the \"foe\" player receive the \nentire trust box and the \"friend\" player\nnothing"
+   },
+   "usage" : "data(FriendFoe)",
+   "description" : "Description\na cross-section from 2002&ndash;03\nnumber of observations :  227\nobservation :  individuals\ncountry :  United States"
+}
+
 var FriendFoe = [
    [
       "sex",

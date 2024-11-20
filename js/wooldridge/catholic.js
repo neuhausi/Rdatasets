@@ -1,3 +1,26 @@
+var catholicInfo ={
+   "usage" : "data('catholic')",
+   "description" : "Description\nWooldridge Source: Altonji, J.G., T.E. Elder, and C.R. Taber (2005), âAn Evaluation of Instrumental Variable Strategies for Estimating the Effects of Catholic Schooling,â Journal of Human Resources 40, 791-821. Professor Elder kindly provided a subset of the data, with some variables stripped away for confidentiality reasons. Data loads lazily.",
+   "reference" : "pages 267, 551",
+   "format" : "A data.frame with 7430 observations on 13 variables:",
+   "title" : "catholic",
+   "parameters" : {
+      "parcath" : " =1 if a parent reports being Catholic",
+      "motheduc" : " mother's years of education",
+      "black" : " =1 if black",
+      "hsgrad" : " =1 if graduated from high school by 1994",
+      "lfaminc" : " log of family income",
+      "cathhs" : " =1 if attended Catholic HS",
+      "asian" : " =1 if Asian",
+      "read12" : " reading standardized score",
+      "id" : " person identifier",
+      "fatheduc" : " father's years of education",
+      "hispan" : " =1 if Hispanic",
+      "female" : " =1 if female",
+      "math12" : " mathematics standardized score"
+   }
+}
+
 var catholic = [
    [
       "id",

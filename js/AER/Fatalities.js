@@ -1,3 +1,47 @@
+var FatalitiesInfo ={
+   "format" : "A data frame containing 336 observations on 34 variables.",
+   "title" : "US Traffic Fatalities",
+   "reference" : "Traffic fatalities are from the US Department of \nTransportation Fatal Accident Reporting System.  The beer tax is the \ntax on a case of beer, which is an available measure of state \nalcohol taxes more generally. The drinking age variable is a factor \nindicating whether the legal drinking age is 18, 19, or 20.  \nThe two binary punishment variables  describe the state's minimum \nsentencing requirements for an initial drunk driving conviction.",
+   "parameters" : {
+      "nfatal2124" : "numeric. Number of night-time vehicle fatalities, 21&ndash;24 year olds.",
+      "baptist" : "numeric. Percent of southern baptist.",
+      "income" : "numeric. Per capita personal income in 1987 dollars.",
+      "unemp" : "numeric. Unemployment rate.",
+      "jail" : "factor. Mandatory jail sentence?",
+      "youngdrivers" : "numeric. Percent of drivers aged 15&ndash;24.",
+      "pop1517" : "numeric. Population, 15&ndash;17 year olds.",
+      "fatal1517" : "numeric. Number of vehicle fatalities, 15&ndash;17 year olds.",
+      "dry" : "numeric. Percent residing in &ldquo;dry&rdquo; countries.",
+      "pop1820" : "numeric. Population, 18&ndash;20 year olds.",
+      "spirits" : "numeric. Spirits consumption.",
+      "service" : "factor. Mandatory community service?",
+      "year" : "factor indicating year.",
+      "pop2124" : "numeric. Population, 21&ndash;24 year olds.",
+      "fatal1820" : "numeric. Number of vehicle fatalities, 18&ndash;20 year olds.",
+      "nfatal1820" : "numeric. Number of night-time vehicle fatalities, 18&ndash;20 year olds.",
+      "state" : "factor indicating state.",
+      "sfatal" : "numeric. Number of single vehicle fatalities.",
+      "gsp" : "numeric. GSP rate of change.",
+      "emppopus" : "numeric. US employment/population ratio.",
+      "nfatal1517" : "numeric. Number of night-time vehicle fatalities, 15&ndash;17 year olds.",
+      "milestot" : "numeric. Total vehicle miles (millions).",
+      "beertax" : "numeric. Tax on case of beer.",
+      "afatal" : "numeric. Number of alcohol-involved vehicle fatalities.",
+      "mormon" : "numeric. Percent of mormon.",
+      "miles" : "numeric. Average miles per driver.",
+      "fatal" : "numeric. Number of vehicle fatalities.",
+      "breath" : "factor. Preliminary breath test law?",
+      "emppop" : "numeric. Employment/population ratio.",
+      "nfatal" : "numeric. Number of night-time vehicle fatalities.",
+      "pop" : "numeric. Population.",
+      "unempus" : "numeric. US unemployment rate.",
+      "drinkage" : "numeric. Minimum legal drinking age.",
+      "fatal2124" : "numeric. Number of vehicle fatalities, 21&ndash;24 year olds."
+   },
+   "usage" : "data(\"Fatalities\")",
+   "description" : "Description\nUS traffic fatalities panel data for the &ldquo;lower 48&rdquo; US states \n(i.e., excluding Alaska and Hawaii), annually for 1982 through 1988."
+}
+
 var Fatalities = [
    [
       "state",

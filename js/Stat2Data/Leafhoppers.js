@@ -1,3 +1,9 @@
+var LeafhoppersInfo ={
+   "description" : "Description\nLifetimes for potato leafhoppers on various sugar diets",
+   "title" : "Leafhopper Diet and Longevity",
+   "usage" : "A data frame with 8 observations on the following 2 variables."
+}
+
 var Leafhoppers = [
    [
       "Dish",

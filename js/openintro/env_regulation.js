@@ -1,3 +1,14 @@
+var env_regulationInfo ={
+   "parameters" : {
+      "statement" : "There were three possible outcomes for each person:\n\"Regulations necessary\", \"Private marketplace will ensure\",\nand \"Don't know\"."
+   },
+   "reference" : "The exact statements being selected were: (1) Government\nregulations are necessary to encourage businesses and consumers to rely more\non renewable energy sources. (2) The private marketplace will ensure that\nbusinesses and consumers rely more on renewable energy sources, even without\ngovernment regulations.",
+   "title" : "American Adults on Regulation and Renewable Energy",
+   "format" : "A data frame with 705 observations on the following variable.",
+   "description" : "Description\nPew Research conducted a poll to find whether American adults support\nregulation or believe the private market will move the American economy\ntowards renewable energy.",
+   "usage" : "env_regulation"
+}
+
 var env_regulation = [
    [
       "statement",

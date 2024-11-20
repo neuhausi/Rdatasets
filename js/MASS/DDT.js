@@ -1,3 +1,10 @@
+var DDTInfo ={
+   "usage" : "DDT",
+   "title" : "DDT in Kale",
+   "format" : "C. E. Finsterwalder (1976)\nCollaborative study of an extension of the Mills et al\nmethod for the determination of pesticide residues in food.\nJ. Off. Anal. Chem. 59, 169&ndash;171",
+   "description" : "Description\nA numeric vector of 15 measurements by different laboratories of the\npesticide DDT in kale, in ppm (parts per million) using the multiple\npesticide residue measurement."
+}
+
 var DDT = [
    [
       "dat"

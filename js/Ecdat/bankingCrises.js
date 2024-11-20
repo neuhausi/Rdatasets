@@ -1,3 +1,10 @@
+var bankingCrisesInfo ={
+   "format" : "A data.frame",
+   "title" : "Countries in Banking Crises",
+   "usage" : "data(bankingCrises)",
+   "description" : "Description\nA data.frame identifying which of 70 \ncountries had a banking crisis each year \n1800:2010. The first column is year.  \nThe remaining columns carry the names of the\ncountries;  those columns are 1 for years \nwith banking crises and 0 otherwise."
+}
+
 var bankingCrises = [
    [
       "year",

@@ -1,3 +1,24 @@
+var CPS1985Info ={
+   "format" : "A data frame containing 534 observations on 11 variables.",
+   "reference" : "StatLib.",
+   "title" : "Determinants of Wages Data (CPS 1985)",
+   "parameters" : {
+      "experience" : "Number of years of potential work experience\n(age - education - 6).",
+      "education" : "Number of years of education.",
+      "wage" : "Wage (in dollars per hour).",
+      "gender" : "Factor indicating gender.",
+      "ethnicity" : "Factor with levels \"cauc\", \"hispanic\",\n\"other\".",
+      "age" : "Age in years.",
+      "occupation" : "Factor with levels \"worker\" (tradesperson or assembly line worker),\n\"technical\" (technical or professional worker), \"services\" (service\nworker), \"office\" (office and clerical worker), \"sales\" (sales worker),\n\"management\" (management and administration).",
+      "union" : "Factor. Does the individual work on a union job?",
+      "married" : "Factor. Is the individual married?",
+      "sector" : "Factor with levels \"manufacturing\" (manufacturing or mining),\n\"construction\", \"other\".",
+      "region" : "Factor. Does the individual live in the South?"
+   },
+   "usage" : "data(\"CPS1985\")",
+   "description" : "Description\nCross-section data originating from the May 1985 Current Population Survey\nby the US Census Bureau (random sample drawn for Berndt 1991)."
+}
+
 var CPS1985 = [
    [
       "wage",

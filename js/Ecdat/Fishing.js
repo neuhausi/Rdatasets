@@ -1,3 +1,25 @@
+var FishingInfo ={
+   "parameters" : {
+      "mode" : "recreation mode choice, on of : beach, pier, boat and charter",
+      "cpier" : "catch rate for pier mode",
+      "ccharter" : "catch rate for charter boat mode",
+      "pbeach" : "price for beach mode",
+      "pboat" : "price for private boat mode",
+      "pcharter" : "price for charter boat mode",
+      "ppier" : "price for pier mode",
+      "price" : "price for chosen alternative",
+      "income" : "monthly income",
+      "cboat" : "catch rate for private boat mode",
+      "cbeach" : "catch rate for beach mode",
+      "catch" : "catch rate for chosen alternative"
+   },
+   "reference" : "Herriges, J. A.  and  C. L.   Kling (1999) &ldquo;Nonlinear Income Effects in Random Utility Models&rdquo;, Review of Economics and Statistics, 81, 62-72.",
+   "format" : "A dataframe containing :",
+   "title" : "Choice of Fishing Mode",
+   "description" : "Description\na cross-section\nnumber of observations :  1182\nobservation :  individuals\ncountry :  United States",
+   "usage" : "data(Fishing)"
+}
+
 var Fishing = [
    [
       "mode",

@@ -1,19 +1,11 @@
 {
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>USGasG</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>US Gasoline Market Data (1960&ndash;1995, Greene)</h2>\n<h3>Description</h3>\n<p>Time series data on the US gasoline market.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(\"USGasG\")</code></pre>\n<h3>Format</h3>\n<p>An annual multiple time series from 1960 to 1995 with 10 variables.\n</p>\n<dl>\n<dt>gas</dt><dd><p>Total US gasoline consumption (computed as\ntotal expenditure divided by price index).</p>\n</dd>\n<dt>price</dt><dd><p>Price index for gasoline.</p>\n</dd>\n<dt>income</dt><dd><p>Per capita disposable income.</p>\n</dd>\n<dt>newcar</dt><dd><p>Price index for new cars.</p>\n</dd>\n<dt>usedcar</dt><dd><p>Price index for used cars.</p>\n</dd>\n<dt>transport</dt><dd><p>Price index for public transportation.</p>\n</dd>\n<dt>durable</dt><dd><p>Aggregate price index for consumer durables.</p>\n</dd>\n<dt>nondurable</dt><dd><p>Aggregate price index for consumer nondurables.</p>\n</dd>\n<dt>service</dt><dd><p>Aggregate price index for consumer services.</p>\n</dd>\n<dt>population</dt><dd><p>US total population in millions.</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>Online complements to Greene (2003). Table F2.2.\n</p>\n<p><a href=\"https://pages.stern.nyu.edu/~wgreene/Text/tables/tablelist5.htm\">https://pages.stern.nyu.edu/~wgreene/Text/tables/tablelist5.htm</a>\n</p>\n<h3>References</h3>\n<p>Greene, W.H. (2003). <em>Econometric Analysis</em>, 5th edition. Upper Saddle River, NJ: Prentice Hall.\n</p>\n<h3>See Also</h3>\n<p><code>Greene2003</code>, <code>USGasB</code></p>\n<h3>Examples</h3>\n<pre><code class='language-R'>\ndata(\"USGasG\", package = \"AER\")\nplot(USGasG)\n## Greene (2003)\n## Example 2.3\nfm &lt;- lm(log(gas/population) ~ log(price) + log(income) + log(newcar) + log(usedcar),\n  data = as.data.frame(USGasG))\nsummary(fm)\n## Example 4.4\n## estimates and standard errors (note different offset for intercept)\ncoef(fm)\nsqrt(diag(vcov(fm)))\n## confidence interval\nconfint(fm, parm = \"log(income)\")\n## test linear hypothesis\nlinearHypothesis(fm, \"log(income) = 1\")\n## Example 7.6\n## re-used in Example 8.3\ntrend &lt;- 1:nrow(USGasG)\nshock &lt;- factor(time(USGasG) &gt; 1973, levels = c(FALSE, TRUE),\n  labels = c(\"before\", \"after\"))\n## 1960-1995\nfm1 &lt;- lm(log(gas/population) ~ log(income) + log(price) + log(newcar) +\n  log(usedcar) + trend, data = as.data.frame(USGasG))\nsummary(fm1)\n## pooled\nfm2 &lt;- lm(log(gas/population) ~ shock + log(income) + log(price) + log(newcar) +\n  log(usedcar) + trend, data = as.data.frame(USGasG))\nsummary(fm2)\n## segmented\nfm3 &lt;- lm(log(gas/population) ~ shock/(log(income) + log(price) + log(newcar) +\n  log(usedcar) + trend), data = as.data.frame(USGasG))\nsummary(fm3)\n## Chow test\nanova(fm3, fm1)\nlibrary(\"strucchange\")\nsctest(log(gas/population) ~ log(income) + log(price) + log(newcar) +\n  log(usedcar) + trend, data = USGasG, point = c(1973, 1), type = \"Chow\")\n## Recursive CUSUM test\nrcus &lt;- efp(log(gas/population) ~ log(income) + log(price) + log(newcar) +\n  log(usedcar) + trend, data = USGasG, type = \"Rec-CUSUM\")\nplot(rcus)\nsctest(rcus)\n## Note: Greene's remark that the break is in 1984 (where the process crosses its\n## boundary) is wrong. The break appears to be no later than 1976.\n## More examples can be found in:\n## help(\"Greene2003\")\n</code></pre>\n</main>\n</div>\n",
+   "config" : {
+      "subtitle" : "AER - USGasG",
+      "graphType" : "Heatmap",
+      "title" : "US Gasoline Market Data (1960-1995"
+   },
    "data" : {
       "y" : {
-         "vars" : [
-            "gas",
-            "price",
-            "income",
-            "newcar",
-            "usedcar",
-            "transport",
-            "durable",
-            "nondurable",
-            "service",
-            "population"
-         ],
          "smps" : [
             "Smp1",
             "Smp2",
@@ -51,6 +43,18 @@
             "Smp34",
             "Smp35",
             "Smp36"
+         ],
+         "vars" : [
+            "gas",
+            "price",
+            "income",
+            "newcar",
+            "usedcar",
+            "transport",
+            "durable",
+            "nondurable",
+            "service",
+            "population"
          ],
          "data" : [
             [
@@ -436,9 +440,5 @@
          ]
       }
    },
-   "config" : {
-      "graphType" : "Heatmap",
-      "subtitle" : "AER - USGasG",
-      "title" : "US Gasoline Market Data (1960-1995"
-   }
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>USGasG</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>US Gasoline Market Data (1960&ndash;1995, Greene)</h2>\n<h3>Description</h3>\n<p>Time series data on the US gasoline market.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(\"USGasG\")</code></pre>\n<h3>Format</h3>\n<p>An annual multiple time series from 1960 to 1995 with 10 variables.\n</p>\n<dl>\n<dt>gas</dt><dd><p>Total US gasoline consumption (computed as\ntotal expenditure divided by price index).</p>\n</dd>\n<dt>price</dt><dd><p>Price index for gasoline.</p>\n</dd>\n<dt>income</dt><dd><p>Per capita disposable income.</p>\n</dd>\n<dt>newcar</dt><dd><p>Price index for new cars.</p>\n</dd>\n<dt>usedcar</dt><dd><p>Price index for used cars.</p>\n</dd>\n<dt>transport</dt><dd><p>Price index for public transportation.</p>\n</dd>\n<dt>durable</dt><dd><p>Aggregate price index for consumer durables.</p>\n</dd>\n<dt>nondurable</dt><dd><p>Aggregate price index for consumer nondurables.</p>\n</dd>\n<dt>service</dt><dd><p>Aggregate price index for consumer services.</p>\n</dd>\n<dt>population</dt><dd><p>US total population in millions.</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>Online complements to Greene (2003). Table F2.2.\n</p>\n<p><a href=\"https://pages.stern.nyu.edu/~wgreene/Text/tables/tablelist5.htm\">https://pages.stern.nyu.edu/~wgreene/Text/tables/tablelist5.htm</a>\n</p>\n<h3>References</h3>\n<p>Greene, W.H. (2003). <em>Econometric Analysis</em>, 5th edition. Upper Saddle River, NJ: Prentice Hall.\n</p>\n<h3>See Also</h3>\n<p><code>Greene2003</code>, <code>USGasB</code></p>\n<h3>Examples</h3>\n<pre><code class='language-R'>\ndata(\"USGasG\", package = \"AER\")\nplot(USGasG)\n## Greene (2003)\n## Example 2.3\nfm &lt;- lm(log(gas/population) ~ log(price) + log(income) + log(newcar) + log(usedcar),\n  data = as.data.frame(USGasG))\nsummary(fm)\n## Example 4.4\n## estimates and standard errors (note different offset for intercept)\ncoef(fm)\nsqrt(diag(vcov(fm)))\n## confidence interval\nconfint(fm, parm = \"log(income)\")\n## test linear hypothesis\nlinearHypothesis(fm, \"log(income) = 1\")\n## Example 7.6\n## re-used in Example 8.3\ntrend &lt;- 1:nrow(USGasG)\nshock &lt;- factor(time(USGasG) &gt; 1973, levels = c(FALSE, TRUE),\n  labels = c(\"before\", \"after\"))\n## 1960-1995\nfm1 &lt;- lm(log(gas/population) ~ log(income) + log(price) + log(newcar) +\n  log(usedcar) + trend, data = as.data.frame(USGasG))\nsummary(fm1)\n## pooled\nfm2 &lt;- lm(log(gas/population) ~ shock + log(income) + log(price) + log(newcar) +\n  log(usedcar) + trend, data = as.data.frame(USGasG))\nsummary(fm2)\n## segmented\nfm3 &lt;- lm(log(gas/population) ~ shock/(log(income) + log(price) + log(newcar) +\n  log(usedcar) + trend), data = as.data.frame(USGasG))\nsummary(fm3)\n## Chow test\nanova(fm3, fm1)\nlibrary(\"strucchange\")\nsctest(log(gas/population) ~ log(income) + log(price) + log(newcar) +\n  log(usedcar) + trend, data = USGasG, point = c(1973, 1), type = \"Chow\")\n## Recursive CUSUM test\nrcus &lt;- efp(log(gas/population) ~ log(income) + log(price) + log(newcar) +\n  log(usedcar) + trend, data = USGasG, type = \"Rec-CUSUM\")\nplot(rcus)\nsctest(rcus)\n## Note: Greene's remark that the break is in 1984 (where the process crosses its\n## boundary) is wrong. The break appears to be no later than 1976.\n## More examples can be found in:\n## help(\"Greene2003\")\n</code></pre>\n</main>\n</div>\n"
 }

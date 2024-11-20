@@ -1,9 +1,4 @@
 {
-   "config" : {
-      "graphType" : "Scatter2D",
-      "subtitle" : "ISLR - Portfolio",
-      "title" : "Portfolio Data"
-   },
    "data" : {
       "y" : {
          "data" : [
@@ -516,5 +511,10 @@
          ]
       }
    },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>Portfolio</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Portfolio Data\n</h2>\n<h3>Description</h3>\n<p>A simple simulated data set containing 100 returns for each\nof two assets, X and Y. The data is used to estimate the optimal\nfraction to invest in each asset to minimize investment risk of the\ncombined portfolio. One can then use the Bootstrap to estimate the\nstandard error of this estimate.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>Portfolio</code></pre>\n<h3>Format</h3>\n<p>A data frame with 100 observations on the following 2 variables.\n</p>\n<dl>\n<dt><code>X</code></dt><dd><p>Returns for Asset X</p>\n</dd>\n<dt><code>Y</code></dt><dd><p>Returns for Asset Y</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>Simulated data\n</p>\n<h3>References</h3>\n<p>James, G., Witten, D., Hastie, T., and Tibshirani, R. (2013)\n<em>An Introduction to Statistical Learning with applications in R</em>,\n<a href=\"https://www.statlearning.com\">https://www.statlearning.com</a>,\nSpringer-Verlag, New York\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>summary(Portfolio)\nattach(Portfolio)\nplot(X,Y)\n</code></pre>\n</main>\n</div>\n"
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>Portfolio</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Portfolio Data\n</h2>\n<h3>Description</h3>\n<p>A simple simulated data set containing 100 returns for each\nof two assets, X and Y. The data is used to estimate the optimal\nfraction to invest in each asset to minimize investment risk of the\ncombined portfolio. One can then use the Bootstrap to estimate the\nstandard error of this estimate.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>Portfolio</code></pre>\n<h3>Format</h3>\n<p>A data frame with 100 observations on the following 2 variables.\n</p>\n<dl>\n<dt><code>X</code></dt><dd><p>Returns for Asset X</p>\n</dd>\n<dt><code>Y</code></dt><dd><p>Returns for Asset Y</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>Simulated data\n</p>\n<h3>References</h3>\n<p>James, G., Witten, D., Hastie, T., and Tibshirani, R. (2013)\n<em>An Introduction to Statistical Learning with applications in R</em>,\n<a href=\"https://www.statlearning.com\">https://www.statlearning.com</a>,\nSpringer-Verlag, New York\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>summary(Portfolio)\nattach(Portfolio)\nplot(X,Y)\n</code></pre>\n</main>\n</div>\n",
+   "config" : {
+      "graphType" : "Scatter2D",
+      "title" : "Portfolio Data",
+      "subtitle" : "ISLR - Portfolio"
+   }
 }

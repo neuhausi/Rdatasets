@@ -1,3 +1,27 @@
+var nuclidesInfo ={
+   "usage" : "nuclides",
+   "description" : "Description\nThe nuclides dataset contains information on all known nuclides, providing\ndata on nuclear structure and decay modes across 118 elements. There is data\nhere on natural abundances, atomic mass, spin, half-life, and more. The\ntypical users for such a dataset include researchers in fields such as\nnuclear physics, radiochemistry, and nuclear medicine.",
+   "title" : "Nuclide data",
+   "format" : "A tibble with 3,383 rows and 29 variables:",
+   "reference" : "Here is a glimpse at the data available in nuclides.",
+   "parameters" : {
+      "mass_excess, mass_excess_uncert" : "The mass excess and its associated\nuncertainty. In units of keV.",
+      "abundance, abundance_uncert" : "The abundance of the stable isotope as\na mole fraction (in relation to other stable isotopes of the same element).\nValues are provided for the nuclide only if is_stable is TRUE.",
+      "radius, radius_uncert" : "The charge radius and its associated\nuncertainty. In units of fm.",
+      "is_stable" : "Is the nuclide a stable isotope?",
+      "decay_1_pct, decay_1_pct_uncert, decay_2_pct, decay_2_pct_uncert,\ndecay_3_pct, decay_3_pct_uncert" : "The branching proportions for the 1st, 2nd,\nand 3rd decays (along with uncertainty values).",
+      "atomic_mass, atomic_mass_uncert" : "The atomic mass and its associated\nuncertainty. In units of micro AMU.",
+      "decay_1, decay_2, decay_3" : "The 1st, 2nd, and 3rd decay modes.",
+      "electric_quadrupole, electric_quadrupole_uncert" : "The electric\nquadrupole and its associated uncertainty. In units of barn (b).",
+      "isospin" : "The isospin, or the quantum number related to the up and down\nquark content of the particle.",
+      "magnetic_dipole, magnetic_dipole_uncert" : "The magnetic dipole and its\nassociated uncertainty. Expressed in units of micro N, or nuclear\nmagneton values.",
+      "z, n" : "The number of protons and neutrons.",
+      "element" : "The element symbol.",
+      "half_life, half_life_uncert" : "The nuclide's half life represented as\nseconds.",
+      "nuclide" : "The symbol for the nuclide."
+   }
+}
+
 var nuclides = [
    [
       "nuclide",

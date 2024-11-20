@@ -1,3 +1,10 @@
+var airmilesInfo ={
+   "description" : "Description\nThe revenue passenger miles flown by commercial airlines in\nthe United States for each year from 1937 to 1960.",
+   "usage" : "airmiles",
+   "format" : "A time series of 24 observations; yearly, 1937&ndash;1960.",
+   "title" : "Passenger Miles on Commercial US Airlines, 1937&ndash;1960"
+}
+
 var airmiles = [
    [
       "time",

@@ -1,3 +1,23 @@
+var toxicityInfo ={
+   "title" : "Toxicity of Carboxylic Acids Data",
+   "format" : "A data frame with 38 observations on the following 10 variables which are\nattributes for carboxylic acids:",
+   "reference" : "The website accompanying the MMY-book:\nhttps://www.wiley.com/legacy/wileychi/robust_statistics/",
+   "parameters" : {
+      "toxicity" : "aquatic toxicity, defined as\n\\log(IGC_{50}^{-1}); typically the &ldquo;response&rdquo;.",
+      "RM" : "Molar refractivity",
+      "logKow" : "log Kow, the partition coefficient",
+      "Ts" : "Surface tension",
+      "IR" : "Refraction index",
+      "ELUMO" : "Energy of the lowest\nunoccupied molecular orbital",
+      "pKa" : "pKa: the dissociation constant",
+      "Emet" : "Electrotopological state of the methyl group",
+      "Ecarb" : "Electrotopological state of the carboxylic group",
+      "P" : "Polarizability"
+   },
+   "usage" : "data(toxicity, package=\"robustbase\")",
+   "description" : "Description\nThe aim of the experiment was to predict the toxicity of carboxylic acids on\nthe basis of several molecular descriptors."
+}
+
 var toxicity = [
    [
       "toxicity",

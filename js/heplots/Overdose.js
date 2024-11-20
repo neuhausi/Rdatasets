@@ -1,3 +1,20 @@
+var OverdoseInfo ={
+   "usage" : "data(\"Overdose\")",
+   "description" : "Description\nData on overdoses of the drug amitriptyline.\nAmitriptyline is a drug prescribed by physicians as an antidepressant. However, there are also \nconjectured side effects that seem to be related to the use of the drug: irregular heart beat,\nabnormal blood pressure and irregular waves on the electrocardiogram (ECG).\nThis dataset (originally from Rudorfer, 1982) gives data on 17 patients admitted to hospital after an overdose \nof amitriptyline.\nThe two response variables are: TCAD and AMI. The other variables are predictors.",
+   "title" : "Overdose of Amitriptyline",
+   "format" : "A data frame with 17 observations on the following 7 variables.",
+   "reference" : "Johnson & Wichern (2005), Applied Multivariate Statistical Analysis,\nExercise 7.25, p. 426.",
+   "parameters" : {
+      "ECG_QRS" : "ECG QRS wave measurement, a numeric vector",
+      "TCAD" : "total TCAD plasma level, a numeric vector",
+      "BP" : "diastolic blood pressure, a numeric vector",
+      "AMI" : "amount of amitriptyline present in the TCAD plasma level, a numeric vector",
+      "Gender" : "a factor with levels Male Female",
+      "ECG_PR" : "ECG PR wave measurement, a numeric vector",
+      "amount" : "amount of drug taken at time of overdose, a numeric vector"
+   }
+}
+
 var Overdose = [
    [
       "TCAD",

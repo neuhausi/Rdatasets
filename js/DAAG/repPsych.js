@@ -1,3 +1,24 @@
+var repPsychInfo ={
+   "description" : "Description\nThe chief interest, in collating this dataset, was in the\nmeasures of effect size, for the originl study and for the\nreplication.",
+   "usage" : "data(\"repPsych\")",
+   "parameters" : {
+      "tlike" : "Was test statistic t or F(1, m). Logical.",
+      "effSizeO" : "Original effect size. Character.",
+      "reportedP.O" : "Reported p-value. Character.",
+      "Journal" : "Where published. Character.",
+      "T_r.O" : "Original effect size, as correlation. Numeric.",
+      "stat" : "Test statistic. Character",
+      "T_r.R" : "Replication effect size, as correlation. Numeric.",
+      "Discipline" : "Cognitive or Social. Character.",
+      "efftype" : "a character vector",
+      "d_R" : "Replication effect size, on Cohen's d scale. Numeric.",
+      "d_O" : "Original effect size, on Cohen's d scale. Numeric."
+   },
+   "format" : "A data frame with 97 observations on the following 12 variables.",
+   "reference" : "Effect estimates on a correlation scale were converted to a Cohen's\nd scale using d = 2r/sqrt(1-r^2).",
+   "title" : "Summary results from Reproducibility Study: Psychology"
+}
+
 var repPsych = [
    [
       "stat",

@@ -1,3 +1,16 @@
+var snowfallInfo ={
+   "title" : "Snowfall at Paradise, Mt. Rainier National Park",
+   "reference" : "National Parks Services.",
+   "format" : "A data frame with 100 rows and 3 variables.",
+   "parameters" : {
+      "year_end" : "The year snowfall measurement ended on June 30.",
+      "total_snow" : "Snowfall measured in inches.",
+      "year_start" : "The year snowfall measurement began on July 1."
+   },
+   "usage" : "snowfall",
+   "description" : "Description\nAnnual snowfall data for Paradise, Mt. Rainier National Park.\nTo include a full winter season, snowfall is recorded from July 1\nto June 30. Data from 1943-1946 not available due to road closure\nduring World War II. Records also unavailable from 1948-1954."
+}
+
 var snowfall = [
    [
       "year_start",

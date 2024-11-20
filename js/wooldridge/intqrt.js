@@ -1,3 +1,36 @@
+var intqrtInfo ={
+   "usage" : "data('intqrt')",
+   "description" : "Description\nWooldridge Source: From Salomon Brothers, Analytical Record of Yields and Yield Spreads, 1990. The folks at Salomon Brothers kindly provided the Record at no charge when I was an assistant professor at MIT. Data loads lazily.",
+   "title" : "intqrt",
+   "format" : "A data.frame with 124 observations on 23 variables:",
+   "reference" : "A nice feature of the Salomon Brothers data is that the interest rates are not averaged over a month or quarter â they are end-of-month or end-of-quarter rates. Asset pricing theories apply to such âpoint-sampledâ data, and not to averages over a period. Most other sources report monthly or quarterly averages. This is a good data set to update and test whether current data are more or less supportive of basic asset pricing theories.",
+   "parameters" : {
+      "hy3_1" : " hy3[_n-1]",
+      "spr63_1" : " spr63[_n-1]",
+      "cr6" : " r6 - r6_1",
+      "r3_1" : " r3[_n-1]",
+      "cr6_1" : " cr6[_n-1]",
+      "p6" : " price of 6 mo. T-bill",
+      "hy3" : " r3*(91/365)",
+      "r6" : " bond equiv. yield, 6 mo T-bill",
+      "cspr63" : " spr63 - spr63_1",
+      "spr63" : " r6 - r3",
+      "chy3" : " hy3 - hy3_1",
+      "chy6" : " hy6 - hy6_1",
+      "cr3" : " r3 - r3_1",
+      "hy6_1" : " hy6[_n-1]",
+      "r6_1" : " r6[_n-1]",
+      "chy3_1" : " chy3[_n-1]",
+      "chy6_1" : " chy6[_n-1]",
+      "hy6hy3_1" : " hy6 - hy3_1",
+      "p3" : " price of 3 mo. T-bill",
+      "hy6" : " 100*(p3 - p6[_n-1])/p6[_n-1])",
+      "cr3_1" : " cr3[_n-1]",
+      "r12" : " yield on 1 yr. bond",
+      "r3" : " bond equiv. yield, 3 mo T-bill"
+   }
+}
+
 var intqrt = [
    [
       "r3",

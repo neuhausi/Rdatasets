@@ -1,3 +1,9 @@
+var MLB2007StandingsInfo ={
+   "description" : "Description\nData for Major League Baseball teams from the 2007 regular season",
+   "title" : "Standings and Team Statistics from the 2007 Baseball Season",
+   "usage" : "A dataset with 30 observations on the following 21 variables."
+}
+
 var MLB2007Standings = [
    [
       "Team",

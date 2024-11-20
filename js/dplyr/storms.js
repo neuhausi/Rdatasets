@@ -1,3 +1,23 @@
+var stormsInfo ={
+   "usage" : "storms",
+   "description" : "Description\nThis dataset is the NOAA Atlantic hurricane database best track data,\nhttps://www.nhc.noaa.gov/data/#hurdat. The data includes the positions and\nattributes of storms from 1975-2022. Storms\nfrom 1979 onward are measured every six hours during the lifetime of the\nstorm. Storms in earlier years have some missing data.",
+   "title" : "Storm tracks data",
+   "format" : "A tibble with 19,537 observations\nand 13 variables:",
+   "reference" : "The script to create the storms data set:\nhttps://github.com/tidyverse/dplyr/blob/main/data-raw/storms.R",
+   "parameters" : {
+      "name" : "Storm Name",
+      "year,month,day" : "Date of report",
+      "hour" : "Hour of report (in UTC)",
+      "hurricane_force_diameter" : "Diameter (in nautical miles) of the area\nexperiencing hurricane strength winds (64 knots or above). Only available\nstarting in 2004.",
+      "tropicalstorm_force_diameter" : "Diameter (in nautical miles) of the\narea experiencing tropical storm strength winds (34 knots or above).\nOnly available starting in 2004.",
+      "wind" : "storm's maximum sustained wind speed (in knots)",
+      "pressure" : "Air pressure at the storm's center (in millibars)",
+      "category" : "Saffir-Simpson hurricane category calculated from wind speed.\n\n\n\n NA: Not a hurricane\n\n\n 1: 64+ knots\n\n\n 2: 83+ knots\n\n\n 3: 96+ knots\n\n\n 4: 113+ knots\n\n\n 5: 137+ knots",
+      "status" : "Storm classification (Tropical Depression, Tropical Storm,\nor Hurricane)",
+      "lat,long" : "Location of storm center"
+   }
+}
+
 var storms = [
    [
       "name",

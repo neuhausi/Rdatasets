@@ -1,3 +1,15 @@
+var stent365Info ={
+   "description" : "Description\nAn experiment that studies effectiveness of stents in treating patients at\nrisk of stroke with some unexpected results. stent30 represents\nthe results 30 days after stroke and stent365 represents the results\n365 days after stroke.",
+   "usage" : "stent30",
+   "parameters" : {
+      "group" : "a factor with levels control and treatment",
+      "outcome" : "a factor with levels no event and stroke"
+   },
+   "format" : "A data frame with 451 observations on the following 2 variables.",
+   "title" : "Stents for the treatment of stroke",
+   "reference" : "Chimowitz MI, Lynn MJ, Derdeyn CP, et al. 2011. Stenting versus\nAggressive Med- ical Therapy for Intracranial Arterial Stenosis. New England\nJournal of Medicine 365:993- 1003.\ndoi:10.1056/NEJMoa1105335.\nNY Times article reporting on the study: https://www.nytimes.com/2011/09/08/health/research/08stent.html."
+}
+
 var stent365 = [
    [
       "group",

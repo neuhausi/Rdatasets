@@ -1,5 +1,9 @@
 {
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>wagepan</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>wagepan</h2>\n<h3>Description</h3>\n<p>Wooldridge Source: F. Vella and M. Verbeek (1998), âWhose Wages Do Unions Raise? A Dynamic Model of Unionism and Wage Rate Determination for Young Men,â Journal of Applied Econometrics 13, 163-183. I obtained the data from the Journal of Applied Econometrics data archive at http://qed.econ.queensu.ca/jae/. This is generally a nice resource for undergraduates looking to replicate or extend a published study. Data loads lazily.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data('wagepan')\n</code></pre>\n<h3>Format</h3>\n<p>A data.frame with 4360 observations on 44 variables:\n</p>\n<ul>\n<li> <p><strong>nr:</strong> person identifier\n</p>\n</li>\n<li> <p><strong>year:</strong> 1980 to 1987\n</p>\n</li>\n<li> <p><strong>agric:</strong> =1 if in agriculture\n</p>\n</li>\n<li> <p><strong>black:</strong> =1 if black\n</p>\n</li>\n<li> <p><strong>bus:</strong> \n</p>\n</li>\n<li> <p><strong>construc:</strong> =1 if in construction\n</p>\n</li>\n<li> <p><strong>ent:</strong> \n</p>\n</li>\n<li> <p><strong>exper:</strong> labor mkt experience\n</p>\n</li>\n<li> <p><strong>fin:</strong> \n</p>\n</li>\n<li> <p><strong>hisp:</strong> =1 if Hispanic\n</p>\n</li>\n<li> <p><strong>poorhlth:</strong> =1 if in poor health\n</p>\n</li>\n<li> <p><strong>hours:</strong> annual hours worked\n</p>\n</li>\n<li> <p><strong>manuf:</strong> =1 if in manufacturing\n</p>\n</li>\n<li> <p><strong>married:</strong> =1 if married\n</p>\n</li>\n<li> <p><strong>min:</strong> \n</p>\n</li>\n<li> <p><strong>nrthcen:</strong> =1 if north central\n</p>\n</li>\n<li> <p><strong>nrtheast:</strong> =1 if north east\n</p>\n</li>\n<li> <p><strong>occ1:</strong> \n</p>\n</li>\n<li> <p><strong>occ2:</strong> \n</p>\n</li>\n<li> <p><strong>occ3:</strong> \n</p>\n</li>\n<li> <p><strong>occ4:</strong> \n</p>\n</li>\n<li> <p><strong>occ5:</strong> \n</p>\n</li>\n<li> <p><strong>occ6:</strong> \n</p>\n</li>\n<li> <p><strong>occ7:</strong> \n</p>\n</li>\n<li> <p><strong>occ8:</strong> \n</p>\n</li>\n<li> <p><strong>occ9:</strong> \n</p>\n</li>\n<li> <p><strong>per:</strong> \n</p>\n</li>\n<li> <p><strong>pro:</strong> \n</p>\n</li>\n<li> <p><strong>pub:</strong> \n</p>\n</li>\n<li> <p><strong>rur:</strong> \n</p>\n</li>\n<li> <p><strong>south:</strong> =1 if south\n</p>\n</li>\n<li> <p><strong>educ:</strong> years of schooling\n</p>\n</li>\n<li> <p><strong>tra:</strong> \n</p>\n</li>\n<li> <p><strong>trad:</strong> \n</p>\n</li>\n<li> <p><strong>union:</strong> =1 if in union\n</p>\n</li>\n<li> <p><strong>lwage:</strong> log(wage)\n</p>\n</li>\n<li> <p><strong>d81:</strong> =1 if year == 1981\n</p>\n</li>\n<li> <p><strong>d82:</strong> \n</p>\n</li>\n<li> <p><strong>d83:</strong> \n</p>\n</li>\n<li> <p><strong>d84:</strong> \n</p>\n</li>\n<li> <p><strong>d85:</strong> \n</p>\n</li>\n<li> <p><strong>d86:</strong> \n</p>\n</li>\n<li> <p><strong>d87:</strong> \n</p>\n</li>\n<li> <p><strong>expersq:</strong> exper^2\n</p>\n</li></ul>\n<h3>Used in Text</h3>\n<p>pages 480, 494-495, 505\n</p>\n<h3>Source</h3>\n<p><a href=\"https://www.cengage.com/cgi-wadsworth/course_products_wp.pl?fid=M20b&amp;product_isbn_issn=9781111531041\">https://www.cengage.com/cgi-wadsworth/course_products_wp.pl?fid=M20b&amp;product_isbn_issn=9781111531041</a>\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'> str(wagepan)\n</code></pre>\n</main>\n</div>\n",
+   "config" : {
+      "subtitle" : "wooldridge - wagepan",
+      "title" : "wagepan",
+      "graphType" : "Heatmap"
+   },
    "data" : {
       "y" : {
          "smps" : [
@@ -4363,6 +4367,52 @@
             "Smp4358",
             "Smp4359",
             "Smp4360"
+         ],
+         "vars" : [
+            "nr",
+            "year",
+            "agric",
+            "black",
+            "bus",
+            "construc",
+            "ent",
+            "exper",
+            "fin",
+            "hisp",
+            "poorhlth",
+            "hours",
+            "manuf",
+            "married",
+            "min",
+            "nrthcen",
+            "nrtheast",
+            "occ1",
+            "occ2",
+            "occ3",
+            "occ4",
+            "occ5",
+            "occ6",
+            "occ7",
+            "occ8",
+            "occ9",
+            "per",
+            "pro",
+            "pub",
+            "rur",
+            "south",
+            "educ",
+            "tra",
+            "trad",
+            "union",
+            "lwage",
+            "d81",
+            "d82",
+            "d83",
+            "d84",
+            "d85",
+            "d86",
+            "d87",
+            "expersq"
          ],
          "data" : [
             [
@@ -196293,58 +196343,8 @@
                121,
                144
             ]
-         ],
-         "vars" : [
-            "nr",
-            "year",
-            "agric",
-            "black",
-            "bus",
-            "construc",
-            "ent",
-            "exper",
-            "fin",
-            "hisp",
-            "poorhlth",
-            "hours",
-            "manuf",
-            "married",
-            "min",
-            "nrthcen",
-            "nrtheast",
-            "occ1",
-            "occ2",
-            "occ3",
-            "occ4",
-            "occ5",
-            "occ6",
-            "occ7",
-            "occ8",
-            "occ9",
-            "per",
-            "pro",
-            "pub",
-            "rur",
-            "south",
-            "educ",
-            "tra",
-            "trad",
-            "union",
-            "lwage",
-            "d81",
-            "d82",
-            "d83",
-            "d84",
-            "d85",
-            "d86",
-            "d87",
-            "expersq"
          ]
       }
    },
-   "config" : {
-      "subtitle" : "wooldridge - wagepan",
-      "graphType" : "Heatmap",
-      "title" : "wagepan"
-   }
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>wagepan</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>wagepan</h2>\n<h3>Description</h3>\n<p>Wooldridge Source: F. Vella and M. Verbeek (1998), âWhose Wages Do Unions Raise? A Dynamic Model of Unionism and Wage Rate Determination for Young Men,â Journal of Applied Econometrics 13, 163-183. I obtained the data from the Journal of Applied Econometrics data archive at http://qed.econ.queensu.ca/jae/. This is generally a nice resource for undergraduates looking to replicate or extend a published study. Data loads lazily.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data('wagepan')\n</code></pre>\n<h3>Format</h3>\n<p>A data.frame with 4360 observations on 44 variables:\n</p>\n<ul>\n<li> <p><strong>nr:</strong> person identifier\n</p>\n</li>\n<li> <p><strong>year:</strong> 1980 to 1987\n</p>\n</li>\n<li> <p><strong>agric:</strong> =1 if in agriculture\n</p>\n</li>\n<li> <p><strong>black:</strong> =1 if black\n</p>\n</li>\n<li> <p><strong>bus:</strong> \n</p>\n</li>\n<li> <p><strong>construc:</strong> =1 if in construction\n</p>\n</li>\n<li> <p><strong>ent:</strong> \n</p>\n</li>\n<li> <p><strong>exper:</strong> labor mkt experience\n</p>\n</li>\n<li> <p><strong>fin:</strong> \n</p>\n</li>\n<li> <p><strong>hisp:</strong> =1 if Hispanic\n</p>\n</li>\n<li> <p><strong>poorhlth:</strong> =1 if in poor health\n</p>\n</li>\n<li> <p><strong>hours:</strong> annual hours worked\n</p>\n</li>\n<li> <p><strong>manuf:</strong> =1 if in manufacturing\n</p>\n</li>\n<li> <p><strong>married:</strong> =1 if married\n</p>\n</li>\n<li> <p><strong>min:</strong> \n</p>\n</li>\n<li> <p><strong>nrthcen:</strong> =1 if north central\n</p>\n</li>\n<li> <p><strong>nrtheast:</strong> =1 if north east\n</p>\n</li>\n<li> <p><strong>occ1:</strong> \n</p>\n</li>\n<li> <p><strong>occ2:</strong> \n</p>\n</li>\n<li> <p><strong>occ3:</strong> \n</p>\n</li>\n<li> <p><strong>occ4:</strong> \n</p>\n</li>\n<li> <p><strong>occ5:</strong> \n</p>\n</li>\n<li> <p><strong>occ6:</strong> \n</p>\n</li>\n<li> <p><strong>occ7:</strong> \n</p>\n</li>\n<li> <p><strong>occ8:</strong> \n</p>\n</li>\n<li> <p><strong>occ9:</strong> \n</p>\n</li>\n<li> <p><strong>per:</strong> \n</p>\n</li>\n<li> <p><strong>pro:</strong> \n</p>\n</li>\n<li> <p><strong>pub:</strong> \n</p>\n</li>\n<li> <p><strong>rur:</strong> \n</p>\n</li>\n<li> <p><strong>south:</strong> =1 if south\n</p>\n</li>\n<li> <p><strong>educ:</strong> years of schooling\n</p>\n</li>\n<li> <p><strong>tra:</strong> \n</p>\n</li>\n<li> <p><strong>trad:</strong> \n</p>\n</li>\n<li> <p><strong>union:</strong> =1 if in union\n</p>\n</li>\n<li> <p><strong>lwage:</strong> log(wage)\n</p>\n</li>\n<li> <p><strong>d81:</strong> =1 if year == 1981\n</p>\n</li>\n<li> <p><strong>d82:</strong> \n</p>\n</li>\n<li> <p><strong>d83:</strong> \n</p>\n</li>\n<li> <p><strong>d84:</strong> \n</p>\n</li>\n<li> <p><strong>d85:</strong> \n</p>\n</li>\n<li> <p><strong>d86:</strong> \n</p>\n</li>\n<li> <p><strong>d87:</strong> \n</p>\n</li>\n<li> <p><strong>expersq:</strong> exper^2\n</p>\n</li></ul>\n<h3>Used in Text</h3>\n<p>pages 480, 494-495, 505\n</p>\n<h3>Source</h3>\n<p><a href=\"https://www.cengage.com/cgi-wadsworth/course_products_wp.pl?fid=M20b&amp;product_isbn_issn=9781111531041\">https://www.cengage.com/cgi-wadsworth/course_products_wp.pl?fid=M20b&amp;product_isbn_issn=9781111531041</a>\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'> str(wagepan)\n</code></pre>\n</main>\n</div>\n"
 }

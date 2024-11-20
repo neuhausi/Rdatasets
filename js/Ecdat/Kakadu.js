@@ -1,3 +1,35 @@
+var KakaduInfo ={
+   "usage" : "data(Kakadu)",
+   "description" : "Description\na cross-section\nnumber of observations :  1827\nobservation :  individuals\ncountry :  Australia",
+   "reference" : "Werner, Megan (1999) &ldquo;Allowing for zeros in dichotomous&ndash;choice contingent&ndash;valuation models&rdquo;, Journal of Business and Economic Statistics, 17(4), October, 479&ndash;486.",
+   "title" : "Willingness to Pay for the Preservation of the Kakadu National Park",
+   "format" : "A dataframe containing :",
+   "parameters" : {
+      "answer" : "an ordered factor with levels \nnn (respondent answers no, no),\nny (respondent answers no, yes or yes, no), \nyy (respondent answers yes, yes)",
+      "lowrisk" : "development should be allowed to proceed \nwhere environmental damage from activities \nsuch as mining is possible but very \nunlikely  (from 1 to 5)",
+      "gov" : "the government pays little attention to \nthe people in making decisions  (from 1 to 4)",
+      "jobs" : "jobs are the most important thing in \ndeciding how to use our natural resources \n(from 1 to 5)",
+      "tvenv" : "the respondent watches TV programs about the \nenvironment?  (from 1 to 9)",
+      "sex" : "male,female",
+      "lower" : "lower bound of willingness to pay, 0 if \nobservation is left censored",
+      "envcon" : "the respondent recycles things such as paper \nor glass and regularly buys unbleached \ntoilet paper or environmentally friendly\nproducts?",
+      "major" : "the respondent received the major&ndash;impact\nscenario of the Kakadu conservation zone \nsurvey ?",
+      "mineparks" : "if areas within natural parks are set \naside for development projects such as \nmining, the value of the parks is greatly\nreduced  (from 1 to 5)",
+      "income" : "respondent's income in thousands of dollars",
+      "age" : "age",
+      "vparks" : "the respondent has visited a national park \nor bushland recreation area in the previous \n12 months?",
+      "recparks" : "the greatest value of national parks and \nnature reserves is in recreation activities\n(from 1 to 5)",
+      "upper" : "upper bound of willingness to pay, 999 if \nobservation is right censored",
+      "schooling" : "years of schooling",
+      "aboriginal" : "in deciding how to use areas such as \nKakadu national park, their importance to \nthe local aboriginal people should be a \nmajor factor  (from 1 to 5)",
+      "finben" : "in deciding how to use our natural \nresources such as mineral deposits and \nforests, the most important thing is the\nfinancial benefits for Australia  (from \n1 to 5)",
+      "conservation" : "the respondent is member of a conservation \norganization?",
+      "moreparks" : "there should be more national parks \ncreated from state forests  (from 1 to 5)",
+      "wildlife" : "it's important to have places where \nwildlife is preserved  (from 1 to 5)",
+      "future" : "it's important to consider future \ngenerations  (from 1 to 5)"
+   }
+}
+
 var Kakadu = [
    [
       "lower",

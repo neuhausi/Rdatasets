@@ -1,3 +1,17 @@
+var H.virescensInfo ={
+   "parameters" : {
+      "sex" : "a factor with levels F M denoting a grouping according to sex",
+      "dose" : "a numeric vector of dose values (\\mu g)",
+      "total" : "a numeric vector of total number of moths",
+      "numdead" : "a numeric vector of dead or knocked-down moths"
+   },
+   "format" : "A data frame with 12 observations on the following 4 variables.",
+   "title" : "Mortality of tobacco budworms",
+   "reference" : "In Venables and Ripley (2002), these data are analysed using a logistic regression with base-2 logarithm of dose \nas explanatory variable.",
+   "description" : "Description\nFor three days, moths of the tobacco budworm (Heliothis virescens) were exposed \nto doses of the pyrethroid trans-cypermethrin.",
+   "usage" : "data(H.virescens)"
+}
+
 var H.virescens = [
    [
       "dose",

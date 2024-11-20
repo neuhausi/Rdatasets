@@ -1,3 +1,9 @@
+var ICUInfo ={
+   "description" : "Description\nData for a sample of 200 patients at an Intensive Care Unit (ICU)",
+   "title" : "Intensive Care Unit Patients",
+   "usage" : "A data frame with 200 observations on the following 9 variables."
+}
+
 var ICU = [
    [
       "ID",

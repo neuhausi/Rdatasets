@@ -1,3 +1,27 @@
+var possumInfo ={
+   "parameters" : {
+      "totlngth" : "total length",
+      "eye" : "distance from medial canthus to lateral canthus of\nright eye",
+      "age" : "age",
+      "footlgth" : "foot length",
+      "sex" : "a factor with levels\nf female,\nm male",
+      "earconch" : "ear conch length",
+      "case" : "observation number",
+      "taill" : "tail length",
+      "belly" : "belly girth (in cm)",
+      "Pop" : "a factor which classifies the sites as Vic Victoria,\nother New South Wales or Queensland",
+      "hdlngth" : "head length",
+      "skullw" : "skull width",
+      "chest" : "chest girth (in cm)",
+      "site" : "one of seven locations where possums were\ntrapped. The sites were, in order,Cambarville, Bellbird, Whian Whian,\nByrangery, Conondale, Allyn River and Bulburin"
+   },
+   "title" : "Possum Measurements",
+   "reference" : "Lindenmayer, D. B., Viggers, K. L., Cunningham, R. B., and\nDonnelly, C. F. 1995. Morphological variation among columns of the\nmountain brushtail possum, Trichosurus caninus Ogilby\n(Phalangeridae: Marsupiala). Australian Journal of Zoology 43:\n449-458.",
+   "format" : "This data frame contains the following columns:",
+   "description" : "Description\nThe possum data frame consists of nine morphometric\nmeasurements on each of 104 mountain brushtail possums, trapped\nat seven Australian sites from Southern Victoria to central Queensland.\nSee possumsites for further details.\nThe fossum data frame is the subset of possum that has\nmeasurements for the 43 females.",
+   "usage" : "data(possum)\n  data(fossum)"
+}
+
 var possum = [
    [
       "case",

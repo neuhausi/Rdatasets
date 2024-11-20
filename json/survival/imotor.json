@@ -1,54 +1,7 @@
 {
-   "config" : {
-      "graphType" : "Scatter3D",
-      "subtitle" : "survival - imotor",
-      "title" : "Reliability data sets"
-   },
    "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>reliability</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Reliability data sets</h2>\n<h3>Description</h3>\n<p>A set of data for simple reliablility analyses, taken from the book by\nMeeker and Escobar.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(reliability, package=\"survival\")\n</code></pre>\n<h3>Details</h3>\n<ul>\n<li> <p><code>capacitor</code>:\nData from a factorial experiment on the life of glass capacitors as a\nfunction of voltage and operating temperature.  There were 8 capacitors\nat each combination of temperature and voltage.\nTesting at each combination was terminated after the fourth failure.\n</p>\n<ul>\n<li> <p><code>temperature</code>: temperature in degrees celcius\n</p>\n</li>\n<li> <p><code>voltage</code>: applied voltage\n</p>\n</li>\n<li> <p><code>time</code>: time to failure\n</p>\n</li>\n<li> <p><code>status</code>: 1=failed, 0=censored\n</p>\n</li></ul>\n</li>\n<li> <p><code>cracks</code>: Data on the time until the development of cracks\nin a set of 167 identical turbine parts.\nThe parts were inspected at 8 selected times.\n</p>\n<ul>\n<li><p> day: time of inspection\n</p>\n</li>\n<li><p> fail: number of fans found to have cracks, at this inspection\n</p>\n</li></ul>\n</li>\n<li><p> Data set <code>genfan</code>: Time to failure of 70 diesel engine fans.\n</p>\n<ul>\n<li> <p><code>hours</code>: hours of service\n</p>\n</li>\n<li> <p><code>status</code>: 1=failure, 0=censored\n</p>\n</li></ul>\n<p>Data set <code>ifluid</code>:\nA data frame with two variables describing the time to electrical\nbreakdown of an insulating fluid.\n</p>\n<ul>\n<li> <p><code>time</code>: hours to breakdown\n</p>\n</li>\n<li> <p><code>voltage</code>: test voltage in kV\n</p>\n</li></ul>\n</li>\n<li><p> Data set <code>imotor</code>: Breakdown of motor insulation as a function of\ntemperature.\n</p>\n<ul>\n<li><p> temp: temperature of the test\n</p>\n</li>\n<li><p> time: time to failure or censoring\n</p>\n</li>\n<li><p> status: 0=censored, 1=failed\n</p>\n</li></ul>\n</li>\n<li><p> Data set <code>turbine</code>:\nEach of 432 turbine wheels was inspected\nonce to determine whether a crack had developed in the wheel or not.\n</p>\n<ul>\n<li><p> hours: time of inspection (100s of hours)\n</p>\n</li>\n<li><p> inspected: number that were inspected\n</p>\n</li>\n<li><p> failed: number that failed\n</p>\n</li></ul>\n</li>\n<li><p> Data set <code>valveSeat</code>:\nTime to replacement of valve seats for 41 diesel engines.  More than\none seat may be replaced at a particular service, leading to duplicate\ntimes in the data set.  The final inspection time for each engine will\nhave status=0.\n</p>\n<ul>\n<li><p> id: engine identifier\n</p>\n</li>\n<li><p> time: time of the inspection, in days\n</p>\n</li>\n<li><p> status: 1=replacement occured, 0= not\n</p>\n</li></ul>\n</li></ul>\n<h3>References</h3>\n<p>Meeker and Escobar, Statistical Methods for Reliability Data, 1998.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>survreg(Surv(time, status) ~ temperature + voltage, capacitor)\n# Replacement of valve seats.  In this case the cumulative hazard is the \n#  natural target, an estimate of the number of replacements by a given time\n#  (known as the cumulative mean function = CMF in relability).\n# When two valve seats failed at the same inspection, we need to jitter one\n#  of the times, to avoid a (time1, time2) interval of length 0\nties &lt;- which(with(valveSeat, diff(id)==0 &amp; diff(time)==0))  #first of a tie\ntemp &lt;- valveSeat$time\ntemp[ties] &lt;- temp[ties] - .1 # jittered time\nvdata &lt;- valveSeat\nvdata$time1 &lt;- ifelse(!duplicated(vdata$id), 0, c(0, temp[-length(temp)]))\nvdata$time2 &lt;- temp\nfit2 &lt;- survfit(Surv(time1, time2, status) ~1, vdata, id=id)\n## Not run: \nplot(fit2, cumhaz= TRUE, xscale= 365.25, \n      xlab=\"Years in service\", ylab = \"Expected number of repairs\")\n## End(Not run)\n</code></pre>\n</main>\n</div>\n",
    "data" : {
       "y" : {
-         "vars" : [
-            "Var1",
-            "Var2",
-            "Var3",
-            "Var4",
-            "Var5",
-            "Var6",
-            "Var7",
-            "Var8",
-            "Var9",
-            "Var10",
-            "Var11",
-            "Var12",
-            "Var13",
-            "Var14",
-            "Var15",
-            "Var16",
-            "Var17",
-            "Var18",
-            "Var19",
-            "Var20",
-            "Var21",
-            "Var22",
-            "Var23",
-            "Var24",
-            "Var25",
-            "Var26",
-            "Var27",
-            "Var28",
-            "Var29",
-            "Var30",
-            "Var31",
-            "Var32",
-            "Var33",
-            "Var34",
-            "Var35",
-            "Var36",
-            "Var37",
-            "Var38",
-            "Var39",
-            "Var40"
-         ],
          "data" : [
             [
                150,
@@ -251,11 +204,58 @@
                0
             ]
          ],
+         "vars" : [
+            "Var1",
+            "Var2",
+            "Var3",
+            "Var4",
+            "Var5",
+            "Var6",
+            "Var7",
+            "Var8",
+            "Var9",
+            "Var10",
+            "Var11",
+            "Var12",
+            "Var13",
+            "Var14",
+            "Var15",
+            "Var16",
+            "Var17",
+            "Var18",
+            "Var19",
+            "Var20",
+            "Var21",
+            "Var22",
+            "Var23",
+            "Var24",
+            "Var25",
+            "Var26",
+            "Var27",
+            "Var28",
+            "Var29",
+            "Var30",
+            "Var31",
+            "Var32",
+            "Var33",
+            "Var34",
+            "Var35",
+            "Var36",
+            "Var37",
+            "Var38",
+            "Var39",
+            "Var40"
+         ],
          "smps" : [
             "temp",
             "time",
             "status"
          ]
       }
+   },
+   "config" : {
+      "graphType" : "Scatter3D",
+      "title" : "Reliability data sets",
+      "subtitle" : "survival - imotor"
    }
 }

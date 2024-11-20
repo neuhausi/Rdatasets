@@ -1,14 +1,15 @@
 {
-   "config" : {
-      "subtitle" : "carData - WeightLoss",
-      "graphType" : "Heatmap",
-      "smpOverlays" : [
-         "group"
-      ],
-      "title" : "Weight Loss Data"
-   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>WeightLoss</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>\nWeight Loss Data\n</h2>\n<h3>Description</h3>\n<p>Contrived data on weight loss and self esteem over three months,\nfor three groups of individuals: Control, Diet and Diet + Exercise.\nThe data constitute a double-multivariate design.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>WeightLoss</code></pre>\n<h3>Format</h3>\n<p>A data frame with 34 observations on the following 7 variables.\n</p>\n<dl>\n<dt><code>group</code></dt><dd><p>a factor with levels <code>Control</code> <code>Diet</code> <code>DietEx</code>.</p>\n</dd>\n<dt><code>wl1</code></dt><dd><p>Weight loss at 1 month</p>\n</dd>\n<dt><code>wl2</code></dt><dd><p>Weight loss at 2 months</p>\n</dd>\n<dt><code>wl3</code></dt><dd><p>Weight loss at 3 months</p>\n</dd>\n<dt><code>se1</code></dt><dd><p>Self esteem at 1 month</p>\n</dd>\n<dt><code>se2</code></dt><dd><p>Self esteem at 2 months</p>\n</dd>\n<dt><code>se3</code></dt><dd><p>Self esteem at 3 months</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>Helmert contrasts are assigned to <code>group</code>, comparing <code>Control</code> vs. (<code>Diet</code> <code>DietEx</code>)\nand <code>Diet</code> vs. <code>DietEx</code>.\n</p>\n<h3>Source</h3>\n<p>Originally taken from <a href=\"http://www.csun.edu/~ata20315/psy524/main.htm\">http://www.csun.edu/~ata20315/psy524/main.htm</a>,\nbut modified slightly. Courtesy of Michael Friendly.\n</p>\n</main>\n</div>\n",
    "data" : {
       "y" : {
+         "vars" : [
+            "wl1",
+            "wl2",
+            "wl3",
+            "se1",
+            "se2",
+            "se3"
+         ],
          "smps" : [
             "Smp1",
             "Smp2",
@@ -262,14 +263,6 @@
                19,
                17
             ]
-         ],
-         "vars" : [
-            "wl1",
-            "wl2",
-            "wl3",
-            "se1",
-            "se2",
-            "se3"
          ]
       },
       "x" : {
@@ -311,5 +304,12 @@
          ]
       }
    },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>WeightLoss</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>\nWeight Loss Data\n</h2>\n<h3>Description</h3>\n<p>Contrived data on weight loss and self esteem over three months,\nfor three groups of individuals: Control, Diet and Diet + Exercise.\nThe data constitute a double-multivariate design.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>WeightLoss</code></pre>\n<h3>Format</h3>\n<p>A data frame with 34 observations on the following 7 variables.\n</p>\n<dl>\n<dt><code>group</code></dt><dd><p>a factor with levels <code>Control</code> <code>Diet</code> <code>DietEx</code>.</p>\n</dd>\n<dt><code>wl1</code></dt><dd><p>Weight loss at 1 month</p>\n</dd>\n<dt><code>wl2</code></dt><dd><p>Weight loss at 2 months</p>\n</dd>\n<dt><code>wl3</code></dt><dd><p>Weight loss at 3 months</p>\n</dd>\n<dt><code>se1</code></dt><dd><p>Self esteem at 1 month</p>\n</dd>\n<dt><code>se2</code></dt><dd><p>Self esteem at 2 months</p>\n</dd>\n<dt><code>se3</code></dt><dd><p>Self esteem at 3 months</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>Helmert contrasts are assigned to <code>group</code>, comparing <code>Control</code> vs. (<code>Diet</code> <code>DietEx</code>)\nand <code>Diet</code> vs. <code>DietEx</code>.\n</p>\n<h3>Source</h3>\n<p>Originally taken from <a href=\"http://www.csun.edu/~ata20315/psy524/main.htm\">http://www.csun.edu/~ata20315/psy524/main.htm</a>,\nbut modified slightly. Courtesy of Michael Friendly.\n</p>\n</main>\n</div>\n"
+   "config" : {
+      "title" : "Weight Loss Data",
+      "graphType" : "Heatmap",
+      "smpOverlays" : [
+         "group"
+      ],
+      "subtitle" : "carData - WeightLoss"
+   }
 }

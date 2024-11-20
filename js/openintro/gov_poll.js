@@ -1,3 +1,15 @@
+var gov_pollInfo ={
+   "description" : "Description\nThe poll's focus is on Obama and then Democrats and Republicans in Congress.",
+   "usage" : "gov_poll",
+   "parameters" : {
+      "eval" : "a factor with levels Democrats\nObama Republicans",
+      "poll" : "a factor with levels approve\ndisapprove"
+   },
+   "title" : "Pew Research poll on government approval ratings",
+   "format" : "A data frame with 4223 observations on the following 2 variables.",
+   "reference" : "See the Pew Research website:\nwww.people-press.org/2012/03/14/romney-leads-gop-contest-trails-in-\nmatchup-with-obama. The counts in Table 6.19 are approximate."
+}
+
 var gov_poll = [
    [
       "poll",

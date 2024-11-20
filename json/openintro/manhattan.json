@@ -1,7 +1,31 @@
 {
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>manhattan</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>manhattan</h2>\n<h3>Description</h3>\n<p>A data frame containing data on apartment rentals in Manhattan.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>manhattan\n</code></pre>\n<h3>Format</h3>\n<p>A data frame with 20 observations on the following 1 variable.\n</p>\n<dl>\n<dt>rent</dt><dd><p>Monthly rent for a 1 bedroom apartment listed as &quot;For rent by owner&quot;.</p>\n</dd>\n</dl>\n<h3>Examples</h3>\n<pre><code class='language-R'>\nlibrary(ggplot2)\nggplot(manhattan, aes(rent)) +\n  geom_histogram(color = \"white\", binwidth = 300) +\n  theme_minimal() +\n  labs(\n    title = \"Rent in Manhattan\",\n    subtitle = \"1 Bedroom Apartments\",\n    x = \"Rent (in US$)\",\n    caption = \"Source: Craigslist\"\n</code></pre>\n</main>\n</div>\n",
    "data" : {
       "y" : {
+         "vars" : [
+            "Var1",
+            "Var2",
+            "Var3",
+            "Var4",
+            "Var5",
+            "Var6",
+            "Var7",
+            "Var8",
+            "Var9",
+            "Var10",
+            "Var11",
+            "Var12",
+            "Var13",
+            "Var14",
+            "Var15",
+            "Var16",
+            "Var17",
+            "Var18",
+            "Var19",
+            "Var20"
+         ],
+         "smps" : [
+            "rent"
+         ],
          "data" : [
             [
                3850
@@ -63,37 +87,13 @@
             [
                2350
             ]
-         ],
-         "smps" : [
-            "rent"
-         ],
-         "vars" : [
-            "Var1",
-            "Var2",
-            "Var3",
-            "Var4",
-            "Var5",
-            "Var6",
-            "Var7",
-            "Var8",
-            "Var9",
-            "Var10",
-            "Var11",
-            "Var12",
-            "Var13",
-            "Var14",
-            "Var15",
-            "Var16",
-            "Var17",
-            "Var18",
-            "Var19",
-            "Var20"
          ]
       }
    },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>manhattan</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>manhattan</h2>\n<h3>Description</h3>\n<p>A data frame containing data on apartment rentals in Manhattan.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>manhattan\n</code></pre>\n<h3>Format</h3>\n<p>A data frame with 20 observations on the following 1 variable.\n</p>\n<dl>\n<dt>rent</dt><dd><p>Monthly rent for a 1 bedroom apartment listed as &quot;For rent by owner&quot;.</p>\n</dd>\n</dl>\n<h3>Examples</h3>\n<pre><code class='language-R'>\nlibrary(ggplot2)\nggplot(manhattan, aes(rent)) +\n  geom_histogram(color = \"white\", binwidth = 300) +\n  theme_minimal() +\n  labs(\n    title = \"Rent in Manhattan\",\n    subtitle = \"1 Bedroom Apartments\",\n    x = \"Rent (in US$)\",\n    caption = \"Source: Craigslist\"\n</code></pre>\n</main>\n</div>\n",
    "config" : {
-      "title" : "manhattan",
       "subtitle" : "openintro - manhattan",
-      "graphType" : "Pie"
+      "graphType" : "Pie",
+      "title" : "manhattan"
    }
 }

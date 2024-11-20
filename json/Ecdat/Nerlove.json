@@ -1,21 +1,12 @@
 {
    "config" : {
-      "graphType" : "Heatmap",
       "subtitle" : "Ecdat - Nerlove",
-      "title" : "Cost Function for Electricity Producers"
+      "title" : "Cost Function for Electricity Producers",
+      "graphType" : "Heatmap"
    },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>Nerlove</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Cost Function for Electricity Producers, 1955 </h2>\n<h3>Description</h3>\n<p>a cross-section from 1955 to 1955\n</p>\n<p><em>number of observations</em> :  159\n</p>\n<p><em>observation</em> :  production units\n</p>\n<p><em>country</em> :  United States\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(Nerlove)</code></pre>\n<h3>Format</h3>\n<p>A dataframe containing :\n</p>\n<dl>\n<dt>cost</dt><dd><p>total cost</p>\n</dd>\n<dt>output</dt><dd><p>total output</p>\n</dd>\n<dt>pl</dt><dd><p>wage rate</p>\n</dd>\n<dt>sl</dt><dd><p>cost share for labor</p>\n</dd>\n<dt>pk</dt><dd><p>capital price index</p>\n</dd>\n<dt>sk</dt><dd><p>cost share for capital</p>\n</dd>\n<dt>pf</dt><dd><p>fuel price</p>\n</dd>\n<dt>sf</dt><dd><p>cost share for fuel</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>Nerlove, M. (1963) <em>Returns to scale in electricity industry</em> <em>in</em>  Christ, C. ed. (1963) <em>Measurement in Economics: Studies in Mathematical Economics and Econometrics in Memory of Yehuda Grunfeld </em>, Stanford, California, Stanford University Press .\n</p>\n<p>Christensen, L.  and  W. H.  Greene (1976) &ldquo;Economies of scale in U.S. electric power generation&rdquo;, <em>Journal of Political Economy</em>, <b>84</b>, 655-676.\n</p>\n<h3>References</h3>\n<p>Greene, W.H. (2003) <em>Econometric Analysis</em>, Prentice Hall, <a href=\"https://archive.org/details/econometricanaly0000gree_f4x3\">https://archive.org/details/econometricanaly0000gree_f4x3</a>, Table F14.2.\n</p>\n<p>Hayashi, F. (2000) <em>Econometrics</em>, Princeton University Press, <a href=\"https://archive.org/details/econometrics0000haya\">https://archive.org/details/econometrics0000haya</a>, chapter 1, 76-84.\n</p>\n<h3>See Also</h3>\n<p><code>Index.Source</code>, <code>Index.Economics</code>, <code>Index.Econometrics</code>, <code>Index.Observations</code></p>\n</main>\n</div>\n",
    "data" : {
       "y" : {
-         "vars" : [
-            "cost",
-            "output",
-            "pl",
-            "sl",
-            "pk",
-            "sk",
-            "pf",
-            "sf"
-         ],
          "smps" : [
             "Smp1",
             "Smp2",
@@ -176,6 +167,16 @@
             "Smp157",
             "Smp158",
             "Smp159"
+         ],
+         "vars" : [
+            "cost",
+            "output",
+            "pl",
+            "sl",
+            "pk",
+            "sk",
+            "pf",
+            "sf"
          ],
          "data" : [
             [
@@ -1468,6 +1469,5 @@
             ]
          ]
       }
-   },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>Nerlove</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Cost Function for Electricity Producers, 1955 </h2>\n<h3>Description</h3>\n<p>a cross-section from 1955 to 1955\n</p>\n<p><em>number of observations</em> :  159\n</p>\n<p><em>observation</em> :  production units\n</p>\n<p><em>country</em> :  United States\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(Nerlove)</code></pre>\n<h3>Format</h3>\n<p>A dataframe containing :\n</p>\n<dl>\n<dt>cost</dt><dd><p>total cost</p>\n</dd>\n<dt>output</dt><dd><p>total output</p>\n</dd>\n<dt>pl</dt><dd><p>wage rate</p>\n</dd>\n<dt>sl</dt><dd><p>cost share for labor</p>\n</dd>\n<dt>pk</dt><dd><p>capital price index</p>\n</dd>\n<dt>sk</dt><dd><p>cost share for capital</p>\n</dd>\n<dt>pf</dt><dd><p>fuel price</p>\n</dd>\n<dt>sf</dt><dd><p>cost share for fuel</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>Nerlove, M. (1963) <em>Returns to scale in electricity industry</em> <em>in</em>  Christ, C. ed. (1963) <em>Measurement in Economics: Studies in Mathematical Economics and Econometrics in Memory of Yehuda Grunfeld </em>, Stanford, California, Stanford University Press .\n</p>\n<p>Christensen, L.  and  W. H.  Greene (1976) &ldquo;Economies of scale in U.S. electric power generation&rdquo;, <em>Journal of Political Economy</em>, <b>84</b>, 655-676.\n</p>\n<h3>References</h3>\n<p>Greene, W.H. (2003) <em>Econometric Analysis</em>, Prentice Hall, <a href=\"https://archive.org/details/econometricanaly0000gree_f4x3\">https://archive.org/details/econometricanaly0000gree_f4x3</a>, Table F14.2.\n</p>\n<p>Hayashi, F. (2000) <em>Econometrics</em>, Princeton University Press, <a href=\"https://archive.org/details/econometrics0000haya\">https://archive.org/details/econometrics0000haya</a>, chapter 1, 76-84.\n</p>\n<h3>See Also</h3>\n<p><code>Index.Source</code>, <code>Index.Economics</code>, <code>Index.Econometrics</code>, <code>Index.Observations</code></p>\n</main>\n</div>\n"
+   }
 }

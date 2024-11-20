@@ -1,3 +1,28 @@
+var udcaInfo ={
+   "description" : "Description\nData from a trial of ursodeoxycholic acid (UDCA) in patients with primary\nbiliary cirrohosis (PBC).",
+   "usage" : "udca\nudca2\ndata(udca, package=\"survival\")",
+   "parameters" : {
+      "death.dt" : "date of death",
+      "hprogress.dt" : "date of histologic progression",
+      "riskscore" : "the Mayo PBC risk score at entry",
+      "trt" : "treatment of 0=placebo, 1=UDCA",
+      "ascites.dt" : "appearance of ascites",
+      "double.dt" : "doubling of initial bilirubin",
+      "varices.dt" : "appearance of esphogeal varices",
+      "stage" : "stage of disease",
+      "tx.dt" : "date of liver transplant",
+      "bili" : "bilirubin value at entry",
+      "worsen.dt" : "worsening of symptoms by two stages",
+      "entry.dt" : "date of entry into the study",
+      "last.dt" : "date of last on-study visit",
+      "enceph.dt" : "appearance of encephalopathy",
+      "id" : "subject identifier"
+   },
+   "title" : "Data from a trial of usrodeoxycholic acid",
+   "reference" : "This data set is used in the Therneau and Grambsh.  The udca1\ndata set contains the baseline variables along with the time until the\nfirst endpoint (any of death, transplant, ..., worsening).\nThe udca2 data set treats all of the endpoints as parallel\nevents and has a stratum for each.",
+   "format" : "A data frame with 170 observations on the following 15 variables."
+}
+
 var udca = [
    [
       "id",

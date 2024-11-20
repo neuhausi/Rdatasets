@@ -1,4 +1,12 @@
 {
+   "config" : {
+      "subtitle" : "tsibbledata - olympic_running",
+      "shapeBy" : "Time",
+      "title" : "Fastest running times for Olympic races",
+      "colorBy" : "Sex",
+      "graphType" : "Scatter2D"
+   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>olympic_running</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Fastest running times for Olympic races</h2>\n<h3>Description</h3>\n<p><code>olympic_running</code> is a quadrennial <code>tsibble</code> with one value:\n</p>\n<table>\n<tr>\n <td style=\"text-align: left;\">\nTime:      </td><td style=\"text-align: left;\"> Fastest running time for the event (seconds)</td>\n</tr>\n<tr>\n <td style=\"text-align: left;\">\n</td>\n</tr>\n</table>\n<h3>Format</h3>\n<p>Time series of class <code>tsibble</code>\n</p>\n<h3>Details</h3>\n<p>The event is identified using two keys:\n</p>\n<table>\n<tr>\n <td style=\"text-align: left;\">\nLength:     </td><td style=\"text-align: left;\"> The length of the race (meters)</td>\n</tr>\n<tr>\n <td style=\"text-align: left;\">\nSex:     </td><td style=\"text-align: left;\"> The sex of the event</td>\n</tr>\n<tr>\n <td style=\"text-align: left;\">\n</td>\n</tr>\n</table>\n<p>The data contains missing values in 1916, 1940 and 1944 due to the World Wars.\n</p>\n<h3>Source</h3>\n<p><a href=\"https://olympics.com/en/sports/athletics/\">https://olympics.com/en/sports/athletics/</a>\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>library(tsibble)\nolympic_running\nif(requireNamespace(\"ggplot2\")){\nlibrary(ggplot2)\nolympic_running %&gt;% as_tibble %&gt;%\n  ggplot(aes(x=Year, y = Time, colour = Sex)) +\n  geom_line() +\n  facet_wrap(~ Length, scales = \"free_y\")\n</code></pre>\n</main>\n</div>\n",
    "data" : {
       "y" : {
          "vars" : [
@@ -314,6 +322,10 @@
             "Var310",
             "Var311",
             "Var312"
+         ],
+         "smps" : [
+            "Year",
+            "Length"
          ],
          "data" : [
             [
@@ -1564,10 +1576,6 @@
                2016,
                10000
             ]
-         ],
-         "smps" : [
-            "Year",
-            "Length"
          ]
       },
       "z" : {
@@ -2200,13 +2208,5 @@
             "1757.45"
          ]
       }
-   },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>olympic_running</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Fastest running times for Olympic races</h2>\n<h3>Description</h3>\n<p><code>olympic_running</code> is a quadrennial <code>tsibble</code> with one value:\n</p>\n<table>\n<tr>\n <td style=\"text-align: left;\">\nTime:      </td><td style=\"text-align: left;\"> Fastest running time for the event (seconds)</td>\n</tr>\n<tr>\n <td style=\"text-align: left;\">\n</td>\n</tr>\n</table>\n<h3>Format</h3>\n<p>Time series of class <code>tsibble</code>\n</p>\n<h3>Details</h3>\n<p>The event is identified using two keys:\n</p>\n<table>\n<tr>\n <td style=\"text-align: left;\">\nLength:     </td><td style=\"text-align: left;\"> The length of the race (meters)</td>\n</tr>\n<tr>\n <td style=\"text-align: left;\">\nSex:     </td><td style=\"text-align: left;\"> The sex of the event</td>\n</tr>\n<tr>\n <td style=\"text-align: left;\">\n</td>\n</tr>\n</table>\n<p>The data contains missing values in 1916, 1940 and 1944 due to the World Wars.\n</p>\n<h3>Source</h3>\n<p><a href=\"https://olympics.com/en/sports/athletics/\">https://olympics.com/en/sports/athletics/</a>\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>library(tsibble)\nolympic_running\nif(requireNamespace(\"ggplot2\")){\nlibrary(ggplot2)\nolympic_running %&gt;% as_tibble %&gt;%\n  ggplot(aes(x=Year, y = Time, colour = Sex)) +\n  geom_line() +\n  facet_wrap(~ Length, scales = \"free_y\")\n</code></pre>\n</main>\n</div>\n",
-   "config" : {
-      "subtitle" : "tsibbledata - olympic_running",
-      "graphType" : "Scatter2D",
-      "shapeBy" : "Time",
-      "colorBy" : "Sex",
-      "title" : "Fastest running times for Olympic races"
    }
 }

@@ -1,3 +1,15 @@
+var ergoStoolInfo ={
+   "description" : "Description\nThe ergoStool data frame has 36 rows and 3 columns.",
+   "parameters" : {
+      "effort" : "a numeric vector giving the effort (Borg scale) required to\narise from a stool.",
+      "Subject" : "an ordered factor giving a unique identifier for the subject\nin the experiment.",
+      "Type" : "a factor with levels\nT1, \nT2, \nT3, and \nT4 giving the stool type."
+   },
+   "usage" : "This data frame contains the following columns:",
+   "title" : "Ergometrics experiment with stool types",
+   "reference" : "Devore (2000) cites data from an article in Ergometrics (1993,\npp. 519-535) on &ldquo;The Effects of a Pneumatic Stool and a One-Legged\nStool on Lower Limb Joint Load and Muscular Activity.&rdquo;"
+}
+
 var ergoStool = [
    [
       "effort",

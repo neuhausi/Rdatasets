@@ -1,3 +1,20 @@
+var ReiseInfo ={
+   "description" : "Description\nHolzinger-Swineford (1937) introduced the bifactor model of a general factor and uncorrelated group factors. The Holzinger data sets are   original 14 * 14 matrix from their paper as well as a 9 *9 matrix used as an example by Joreskog. The Thurstone correlation matrix is a 9 * 9 matrix of correlations of ability items.  The Reise data set is 16 * 16 correlation matrix of mental health items. The Bechtholdt data sets are both 17 x 17 correlation matrices of ability tests.",
+   "usage" : "data(Thurstone)\ndata(Thurstone.33)\ndata(Thurstone.33G)\ndata(Thurstone.9)\ndata(Holzinger)\ndata(Holzinger.9)\ndata(Bechtoldt)\ndata(Bechtoldt.1)\ndata(Bechtoldt.2)\ndata(Reise)",
+   "parameters" : {
+      "Thurstone.33" : " Another 9 x 9 correlation matrix of ability tests, N=4175",
+      "Bechtoldt.1" : " 17 x 17 correlation matrix of ability tests, N = 212.",
+      "Thurstone" : "9",
+      "Bechtoldt.2" : " 17 x 17 correlation matrix of ability tests, N = 213.",
+      "Reise" : " 16 x 16 correlation matrix of health satisfaction items.  N = 35,000",
+      "Holzinger.9" : " 9 x 9 correlation matrix of ability tests, N = 145",
+      "Holzinger" : " 14 x 14 correlation matrix of ability tests, N = 355"
+   },
+   "title" : "Seven data sets showing a bifactor solution.",
+   "format" : "Holzinger and Swineford (1937) introduced the bifactor model (one general factor and several group factors) for mental abilities.  This is a nice demonstration data set of a hierarchical factor structure that can be analyzed using the omega function or using sem. The bifactor model is typically used in measures of cognitive ability.",
+   "reference" : "Note that these are tests, not items. Thus, it was possible to find the reliabilities of each test."
+}
+
 var Reise = [
    [
       "phone",

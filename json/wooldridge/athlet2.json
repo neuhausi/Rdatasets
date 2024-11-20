@@ -1,12 +1,4 @@
 {
-   "config" : {
-      "title" : "athlet2",
-      "smpOverlays" : [
-         "dinstt"
-      ],
-      "graphType" : "Heatmap",
-      "subtitle" : "wooldridge - athlet2"
-   },
    "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>athlet2</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>athlet2</h2>\n<h3>Description</h3>\n<p>Wooldridge Sources: Peterson's Guide to Four Year Colleges, 1995 (25th edition). Princeton University Press. 1995 Information Please Sports Almanac (6th edition). Houghton Mifflin. New York, NY Data loads lazily.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data('athlet2')\n</code></pre>\n<h3>Format</h3>\n<p>A data.frame with 30 observations on 10 variables:\n</p>\n<ul>\n<li> <p><strong>dscore:</strong> home scr. - vist. scr., 1993\n</p>\n</li>\n<li> <p><strong>dinstt:</strong> diff. in-state tuit., 1994\n</p>\n</li>\n<li> <p><strong>doutstt:</strong> diff. out-state tuit., 1994\n</p>\n</li>\n<li> <p><strong>htpriv:</strong> =1 if home team priv. sch.\n</p>\n</li>\n<li> <p><strong>vtpriv:</strong> =1 if vist. team priv. sch.\n</p>\n</li>\n<li> <p><strong>dapps:</strong> diff. in applications, 1994\n</p>\n</li>\n<li> <p><strong>htwrd:</strong> =1 if home win. record, 1993\n</p>\n</li>\n<li> <p><strong>vtwrd:</strong> =1 if vist. win. record, 1993\n</p>\n</li>\n<li> <p><strong>dwinrec:</strong> htwrd - vtwrd\n</p>\n</li>\n<li> <p><strong>dpriv:</strong> htpriv - vtpriv\n</p>\n</li></ul>\n<h3>Notes</h3>\n<p>These data were collected by Paul Anderson, an MSU economics major, for a term project. The score from football outcomes for natural rivals (Michigan-Michigan State, California-Stanford, Florida-Florida State, to name a few) is matched with application and academic data. The application and tuition data are for Fall 1994. Football records and scores are from 1993 football season. Extended these data to obtain a long stretch of panel data and other ânaturalâ rivals could be very interesting.\n</p>\n<p>Used in Text: page 697\n</p>\n<h3>Source</h3>\n<p><a href=\"https://www.cengage.com/cgi-wadsworth/course_products_wp.pl?fid=M20b&amp;product_isbn_issn=9781111531041\">https://www.cengage.com/cgi-wadsworth/course_products_wp.pl?fid=M20b&amp;product_isbn_issn=9781111531041</a>\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'> str(athlet2)\n</code></pre>\n</main>\n</div>\n",
    "data" : {
       "x" : {
@@ -44,6 +36,17 @@
          ]
       },
       "y" : {
+         "vars" : [
+            "dscore",
+            "doutstt",
+            "htpriv",
+            "vtpriv",
+            "dapps",
+            "htwrd",
+            "vtwrd",
+            "dwinrec",
+            "dpriv"
+         ],
          "smps" : [
             "Smp1",
             "Smp2",
@@ -365,18 +368,15 @@
                1,
                -1
             ]
-         ],
-         "vars" : [
-            "dscore",
-            "doutstt",
-            "htpriv",
-            "vtpriv",
-            "dapps",
-            "htwrd",
-            "vtwrd",
-            "dwinrec",
-            "dpriv"
          ]
       }
+   },
+   "config" : {
+      "subtitle" : "wooldridge - athlet2",
+      "title" : "athlet2",
+      "graphType" : "Heatmap",
+      "smpOverlays" : [
+         "dinstt"
+      ]
    }
 }

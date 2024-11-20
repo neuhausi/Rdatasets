@@ -1,16 +1,17 @@
 {
    "config" : {
-      "segregateSamplesBy" : [
-         "group"
-      ],
-      "subtitle" : "stevedata - aluminum_premiums",
+      "colorBy" : "variable",
       "graphType" : "Boxplot",
       "groupingFactors" : [
          "date"
       ],
-      "colorBy" : "variable",
-      "title" : "LME Aluminum Premiums Data"
+      "title" : "LME Aluminum Premiums Data",
+      "segregateSamplesBy" : [
+         "group"
+      ],
+      "subtitle" : "stevedata - aluminum_premiums"
    },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>aluminum_premiums</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>LME Aluminum Premiums Data</h2>\n<h3>Description</h3>\n<p>A near daily data set on the price of aluminum premiums (USD/MT) for LME\nin the U.S., Western Europe, East Asia, and Southeast Asia. I like these\ndata as illustrative of some of the shortsightedness of the aluminum tariffs\nthat Donald Trump announced in March 2018. The tariffs had no discernible\neffect on manufacturing employment or earnings, but they created a supply shock\nthat made aluminum more expensive.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>aluminum_premiums\n</code></pre>\n<h3>Format</h3>\n<p>A data frame with 2,812 observations on the following 3 variables.\n</p>\n<dl>\n<dt><code>date</code></dt><dd><p>a date</p>\n</dd>\n<dt><code>group</code></dt><dd><p>a factor with levels of <code>East Asia</code>, <code>Southeast Asia</code>,\n<code>United States</code>, and <code>Western Europe</code></p>\n</dd>\n<dt><code>price</code></dt><dd><p>a numeric vector for the price of the LME aluminum premium</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>LME aluminum premiums (monthly contracts going out to 15 months) work\nalongside LME aluminum contracts to allow market participants to hedge the all-in\nprice and physically deliver or receive premium aluminum warrants in\nnon-queued LME premium warehouses.\n</p>\n</main>\n</div>\n",
    "data" : {
       "y" : {
          "smps" : [
@@ -3679,6 +3680,9 @@
             "Smp3663",
             "Smp3664"
          ],
+         "vars" : [
+            "price"
+         ],
          "data" : [
             [
                200,
@@ -7346,9 +7350,6 @@
                15,
                15
             ]
-         ],
-         "vars" : [
-            "price"
          ]
       },
       "x" : {
@@ -14685,6 +14686,5 @@
             "Southeast Asia"
          ]
       }
-   },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>aluminum_premiums</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>LME Aluminum Premiums Data</h2>\n<h3>Description</h3>\n<p>A near daily data set on the price of aluminum premiums (USD/MT) for LME\nin the U.S., Western Europe, East Asia, and Southeast Asia. I like these\ndata as illustrative of some of the shortsightedness of the aluminum tariffs\nthat Donald Trump announced in March 2018. The tariffs had no discernible\neffect on manufacturing employment or earnings, but they created a supply shock\nthat made aluminum more expensive.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>aluminum_premiums\n</code></pre>\n<h3>Format</h3>\n<p>A data frame with 2,812 observations on the following 3 variables.\n</p>\n<dl>\n<dt><code>date</code></dt><dd><p>a date</p>\n</dd>\n<dt><code>group</code></dt><dd><p>a factor with levels of <code>East Asia</code>, <code>Southeast Asia</code>,\n<code>United States</code>, and <code>Western Europe</code></p>\n</dd>\n<dt><code>price</code></dt><dd><p>a numeric vector for the price of the LME aluminum premium</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>LME aluminum premiums (monthly contracts going out to 15 months) work\nalongside LME aluminum contracts to allow market participants to hedge the all-in\nprice and physically deliver or receive premium aluminum warrants in\nnon-queued LME premium warehouses.\n</p>\n</main>\n</div>\n"
+   }
 }

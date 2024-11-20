@@ -1,3 +1,17 @@
+var organ_donationsInfo ={
+   "parameters" : {
+      "Rate" : "Organ donation rate",
+      "Quarter_Num" : "Quarter of observation in numerical format. 1 = Quarter 4, 2010",
+      "Quarter" : "Quarter of observation, in \"Q\"QYYYY format",
+      "State" : "The state, where California is the Treated group"
+   },
+   "title" : "Organ Donation Data",
+   "format" : "A data frame with 162 rows and 3 variables",
+   "reference" : "This data is used in the Difference-in-Differences chapter of The Effect.",
+   "description" : "Description\nThe organ_donation data contains data from Kessler and Roth (2014) on organ donation rates by state and quarter. The state of California enacted an active-choice phrasing for their organ donation sign-up questoin in Q32011. The only states included in the data are California and those that can serve as valid controls; see Kessler and Roth (2014).",
+   "usage" : "organ_donations"
+}
+
 var organ_donations = [
    [
       "State",

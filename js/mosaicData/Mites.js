@@ -1,3 +1,15 @@
+var MitesInfo ={
+   "parameters" : {
+      "outcome" : "a factor with levels wilt and no wilt",
+      "treatment" : "a factor with levels mites and no mites"
+   },
+   "format" : "A data frame with 47 observations on the following variables.",
+   "title" : "Mites and Wilt Disease",
+   "reference" : "Researchers suspected that attack of a plant by one organism induced\nresistance to subsequent attack by a different organism.  Individually potted\ncotton plants were randomly allocated to two groups: infestation by spider\nmites or no infestation.  After two weeks the mites were dutifully removed by\na conscientious research assistant, and both groups were inoculated with\nVerticillium, a fungus that causes Wilt disease.  More information can be\nfound at https://www.causeweb.org/cause/webinar/activity/2010-01/.",
+   "description" : "Description\nData from an experiment to test whether exposure to mites protects against Wilt Disease in\ncotton plants.",
+   "usage" : "data(Mites)"
+}
+
 var Mites = [
    [
       "treatment",

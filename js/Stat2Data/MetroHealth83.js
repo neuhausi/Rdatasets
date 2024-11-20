@@ -1,3 +1,9 @@
+var MetroHealth83Info ={
+   "title" : "Health Services in Metropolitan Areas",
+   "usage" : "A dataset with 83 observations on the following 16 variables.",
+   "description" : "Description\nHealth services data for 83 metropolitan areas"
+}
+
 var MetroHealth83 = [
    [
       "City",

@@ -1,3 +1,9 @@
+var LostLetterInfo ={
+   "description" : "Description\nWhich \"lost\" letters will be returned by the public?",
+   "usage" : "A data frame with 140 observations on the following 8 variables.",
+   "title" : "Return Rates for \"Lost\" Letters"
+}
+
 var LostLetter = [
    [
       "Location",

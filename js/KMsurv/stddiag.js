@@ -1,3 +1,14 @@
+var stddiagInfo ={
+   "parameters" : {
+      "encounter" : "Months from 1/93 to encounter",
+      "diagnosed" : "Months until STD diagnosed in the clinic"
+   },
+   "description" : "Description\nThe stddiag data frame has 25 rows and 2 columns.",
+   "title" : "data from Exercise 5.6, p146",
+   "reference" : "Klein and Moeschberger (1997) Survival Analysis Techniques for Censored\nand truncated data, Springer.",
+   "usage" : "This data frame contains the following columns:"
+}
+
 var stddiag = [
    [
       "encounter",

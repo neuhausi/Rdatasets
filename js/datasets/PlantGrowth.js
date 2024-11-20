@@ -1,3 +1,10 @@
+var PlantGrowthInfo ={
+   "format" : "A data frame of 30 cases on 2 variables.",
+   "title" : "Results from an Experiment on Plant Growth",
+   "usage" : "PlantGrowth",
+   "description" : "Description\nResults from an experiment to compare yields (as measured by dried\nweight of plants) obtained under a control and two different treatment\nconditions."
+}
+
 var PlantGrowth = [
    [
       "weight",

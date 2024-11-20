@@ -1,3 +1,18 @@
+var fasttrakgInfo ={
+   "usage" : "data(fasttrakg)",
+   "description" : "Description\nData are from the Canadian National Cardiovascular Disease registry \ncalled, FASTRAK. years covered at 1996-1998. They have been grouped \nby covariate patterns from individual observations.",
+   "format" : "A data frame with 15 observations on the following 9 variables.",
+   "title" : "fasttrakg",
+   "reference" : "fasttrakg is saved as a data frame.\nCount models use died as response numerator and cases as the demoninator",
+   "parameters" : {
+      "die" : "number died from MI",
+      "hcabg" : "1=history of CABG; 0=no history of CABG",
+      "cases" : "number of cases with same covariate pattern",
+      "anterior" : "1=anterior site MI; 0=inferior site MI",
+      "killip" : "Killip level of cardiac event severity (1-4)age75"
+   }
+}
+
 var fasttrakg = [
    [
       "die",

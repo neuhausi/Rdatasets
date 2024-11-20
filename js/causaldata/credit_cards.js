@@ -1,3 +1,17 @@
+var credit_cardsInfo ={
+   "parameters" : {
+      "LateApril" : "Credit card payment is late in April 2005",
+      "LateSept" : "Credit card payment is late in Sept 2005",
+      "AGE" : "Age of card-holder",
+      "BillApril" : "Total bill in April 2005 in thousands of New Taiwan Dollars"
+   },
+   "format" : "A data frame with 30000 rows and 4 variables",
+   "title" : "Data on Taiwanese Credit Card Holders",
+   "reference" : "This data is used in the Matching chapter of The Effect by Huntington-Klein.",
+   "description" : "Description\nData from the UCI Machine Learning Repository on Taiwanese credit card holders, the amount of their credit card bill, and whether their payment was late.",
+   "usage" : "credit_cards"
+}
+
 var credit_cards = [
    [
       "LateSept",

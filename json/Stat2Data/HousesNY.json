@@ -57,6 +57,13 @@
             "Var52",
             "Var53"
          ],
+         "smps" : [
+            "Price",
+            "Beds",
+            "Baths",
+            "Size",
+            "Lot"
+         ],
          "data" : [
             [
                57.6,
@@ -429,20 +436,13 @@
                1.74,
                0.25
             ]
-         ],
-         "smps" : [
-            "Price",
-            "Beds",
-            "Baths",
-            "Size",
-            "Lot"
          ]
       }
    },
    "config" : {
+      "graphType" : "Scatter2D",
       "title" : "House Prices in Rural NY",
       "scatterPlotMatrix" : 1,
-      "subtitle" : "Stat2Data - HousesNY",
-      "graphType" : "Scatter2D"
+      "subtitle" : "Stat2Data - HousesNY"
    }
 }

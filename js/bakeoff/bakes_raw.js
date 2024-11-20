@@ -1,3 +1,19 @@
+var bakes_rawInfo ={
+   "description" : "Description\nBakes for both the signature and showstopper challenges for each baker\nacross all 10 GBBO series.",
+   "usage" : "bakes_raw",
+   "parameters" : {
+      "showstopper" : "A character string containing the bake for the\nshowstopper challenge for that baker/episode.",
+      "baker" : "A character string with a given name or nickname.",
+      "episode" : "An integer denoting episode number within a series.",
+      "series" : "An integer denoting UK series (1-10).",
+      "signature" : "A character string containing the bake for the signature\nchallenge for that baker/episode.",
+      "technical" : "An integer denoting the rank on the technical challenge\nfor that baker/episode. A value of 1 means the baker was the winner of\nthe technical challenge. If NA, the baker did not appear in the\nepisode."
+   },
+   "format" : "A data frame with 548 rows representing individual signatures and\nshowstoppers for each baker and 6 variables:",
+   "title" : "Bakes (raw)",
+   "reference" : "if (require('tibble')) {\n  bakes_raw\n }\nhead(bakes_raw)"
+}
+
 var bakes_raw = [
    [
       "series",

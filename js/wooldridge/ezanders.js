@@ -1,3 +1,38 @@
+var ezandersInfo ={
+   "description" : "Description\nWooldridge Source: L.E. Papke (1994), âTax Policy and Urban Development: Evidence from the Indiana Enterprise Zone Program,â Journal of Public Economics 54, 37-49. Professor Papke kindly provided these data. Data loads lazily.",
+   "usage" : "data('ezanders')",
+   "parameters" : {
+      "feb" : "",
+      "aug" : "",
+      "month" : " name of month",
+      "nov" : "",
+      "year" : " 1980 through 1988",
+      "y83" : "",
+      "ez" : " =1 if enterprise zone",
+      "y88" : "",
+      "y82" : "",
+      "jun" : "",
+      "y85" : "",
+      "sep" : "",
+      "uclms" : " unemployment claims",
+      "luclms" : " log(uclms)",
+      "jul" : "",
+      "may" : "",
+      "apr" : "",
+      "y86" : "",
+      "jan" : " =1 if month == JAN",
+      "oct" : "",
+      "y84" : "",
+      "mar" : "",
+      "dec" : "",
+      "y81" : " =1 if year == 1981",
+      "y87" : ""
+   },
+   "title" : "ezanders",
+   "format" : "A data.frame with 108 observations on 25 variables:",
+   "reference" : "These are actually monthly unemployment claims for the Anderson enterprise zone. Papke used annualized data, across many zones and non-zones, in her original analysis."
+}
+
 var ezanders = [
    [
       "month",

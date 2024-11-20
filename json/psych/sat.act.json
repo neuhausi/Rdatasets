@@ -706,6 +706,13 @@
          ]
       },
       "y" : {
+         "smps" : [
+            "gender",
+            "education",
+            "age",
+            "ACT",
+            "SATV"
+         ],
          "vars" : [
             "29442",
             "29457",
@@ -1407,13 +1414,6 @@
             "39951",
             "39961",
             "39985"
-         ],
-         "smps" : [
-            "gender",
-            "education",
-            "age",
-            "ACT",
-            "SATV"
          ],
          "data" : [
             [
@@ -6320,10 +6320,10 @@
       }
    },
    "config" : {
-      "colorBy" : "SATQ",
-      "title" : "3 Measures of ability: SATV",
-      "scatterPlotMatrix" : 1,
       "subtitle" : "psych - sat.act",
+      "scatterPlotMatrix" : 1,
+      "title" : "3 Measures of ability: SATV",
+      "colorBy" : "SATQ",
       "graphType" : "Scatter2D"
    }
 }

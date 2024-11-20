@@ -1,3 +1,15 @@
+var USStocksSWInfo ={
+   "title" : "Monthly US Stock Returns (1931&ndash;2002, Stock & Watson)",
+   "format" : "A monthly multiple time series from 1931(1) to 2002(12) with 2 variables.",
+   "reference" : "Online complements to Stock and Watson (2007).",
+   "parameters" : {
+      "returns" : "monthly excess returns. The monthly return on stocks\n(in percentage terms) minus the return on a safe asset (in this case:\nUS treasury bill). The return on the stocks includes the price changes\nplus any dividends you receive during the month.",
+      "dividend" : "100 times log(dividend yield). (Multiplication by 100\nmeans the changes are interpreted as percentage points). It is calculated \nas the dividends over the past 12 months, divided by the price in the current month."
+   },
+   "usage" : "data(\"USStocksSW\")",
+   "description" : "Description\nMonthly data from 1931&ndash;2002 for US stock prices, measured by the\nbroad-based (NYSE and AMEX) value-weighted index of stock prices as\nconstructed by the Center for Research in Security Prices (CRSP)."
+}
+
 var USStocksSW = [
    [
       "returns",

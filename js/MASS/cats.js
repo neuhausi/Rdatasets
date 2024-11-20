@@ -1,3 +1,16 @@
+var catsInfo ={
+   "title" : "Anatomical Data from Domestic Cats",
+   "format" : "This data frame contains the following columns:",
+   "reference" : "R. A. Fisher (1947) The analysis of covariance method for the relation\nbetween a part and the whole, Biometrics 3, 65&ndash;68.",
+   "parameters" : {
+      "Sex" : "sex: Factor with levels \"F\" and \"M\".",
+      "Hwt" : "heart weight in g.",
+      "Bwt" : "body weight in kg."
+   },
+   "usage" : "cats",
+   "description" : "Description\nThe heart and body weights of samples of male and female cats used for\ndigitalis experiments.  The cats were all adult, over 2 kg body weight."
+}
+
 var cats = [
    [
       "Sex",

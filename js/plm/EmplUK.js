@@ -1,3 +1,19 @@
+var EmplUKInfo ={
+   "description" : "Description\nAn unbalanced panel of 140 observations from 1976 to 1984",
+   "parameters" : {
+      "year" : "year",
+      "wage" : "wages",
+      "emp" : "employment",
+      "sector" : "the sector of activity",
+      "capital" : "capital",
+      "firm" : "firm index",
+      "output" : "output"
+   },
+   "reference" : "total number of observations : 1031",
+   "title" : "Employment and Wages in the United Kingdom",
+   "usage" : "A data frame containing :"
+}
+
 var EmplUK = [
    [
       "firm",

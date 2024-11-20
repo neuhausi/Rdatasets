@@ -1,7 +1,32 @@
 {
+   "config" : {
+      "title" : "UIS Drug Treatment study data",
+      "graphType" : "Heatmap",
+      "subtitle" : "quantreg - uis"
+   },
    "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>uis</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>UIS Drug Treatment study data</h2>\n<h3>Description</h3>\n<p>There are 628 data points in the original data, 575 of which have no missing values.\n</p>\n<p>Variable descriptions:\n</p>\n<table>\n<tr>\n <td style=\"text-align: left;\">\nVariable  </td><td style=\"text-align: left;\"> Description                     </td><td style=\"text-align: left;\"> Codes/Values                   </td>\n</tr>\n<tr>\n <td style=\"text-align: left;\">\nID        </td><td style=\"text-align: left;\"> Identification Code             </td><td style=\"text-align: left;\"> 1 - 628                        </td>\n</tr>\n<tr>\n <td style=\"text-align: left;\">\nAGE       </td><td style=\"text-align: left;\"> Age at Enrollment               </td><td style=\"text-align: left;\"> Years                          </td>\n</tr>\n<tr>\n <td style=\"text-align: left;\">\nBECK      </td><td style=\"text-align: left;\"> Beck DepressionScore            </td><td style=\"text-align: left;\"> 0.000 - 54.000                 </td>\n</tr>\n<tr>\n <td style=\"text-align: left;\">\nHC        </td><td style=\"text-align: left;\"> Heroin/Cocaine Use During       </td><td style=\"text-align: left;\"> 1 = Heroin &amp; Cocaine           </td>\n</tr>\n<tr>\n <td style=\"text-align: left;\">\n          </td><td style=\"text-align: left;\"> 3 Months Prior to Admission     </td><td style=\"text-align: left;\"> 2 = Heroin Only                </td>\n</tr>\n<tr>\n <td style=\"text-align: left;\"> \n          </td><td style=\"text-align: left;\">                                 </td><td style=\"text-align: left;\"> 3 = Cocaine Only               </td>\n</tr>\n<tr>\n <td style=\"text-align: left;\">\n          </td><td style=\"text-align: left;\">                                 </td><td style=\"text-align: left;\"> 4 = Neither Heroin nor Cocaine </td>\n</tr>\n<tr>\n <td style=\"text-align: left;\">\nIV        </td><td style=\"text-align: left;\"> History of IV Drug Use          </td><td style=\"text-align: left;\"> 1 = Never                      </td>\n</tr>\n<tr>\n <td style=\"text-align: left;\"> \n          </td><td style=\"text-align: left;\">                                 </td><td style=\"text-align: left;\"> 2 = Previous                   </td>\n</tr>\n<tr>\n <td style=\"text-align: left;\">\n          </td><td style=\"text-align: left;\">                                 </td><td style=\"text-align: left;\"> 3 = Recent                     </td>\n</tr>\n<tr>\n <td style=\"text-align: left;\">\nNDT       </td><td style=\"text-align: left;\"> Number of Prior Drug Treatments </td><td style=\"text-align: left;\"> 0 - 40                         </td>\n</tr>\n<tr>\n <td style=\"text-align: left;\">\nRACE      </td><td style=\"text-align: left;\"> Subject's Race                  </td><td style=\"text-align: left;\"> 0 = White                      </td>\n</tr>\n<tr>\n <td style=\"text-align: left;\">\n          </td><td style=\"text-align: left;\">                                 </td><td style=\"text-align: left;\"> 1 = Non-White                  </td>\n</tr>\n<tr>\n <td style=\"text-align: left;\">\nTREAT     </td><td style=\"text-align: left;\"> Treatment Randomization         </td><td style=\"text-align: left;\"> 0 = Short                      </td>\n</tr>\n<tr>\n <td style=\"text-align: left;\">\n          </td><td style=\"text-align: left;\"> Assignment                      </td><td style=\"text-align: left;\"> 1 = Long                       </td>\n</tr>\n<tr>\n <td style=\"text-align: left;\">\nSITE      </td><td style=\"text-align: left;\"> Treatment Site                  </td><td style=\"text-align: left;\"> 0 = A                          </td>\n</tr>\n<tr>\n <td style=\"text-align: left;\">\n          </td><td style=\"text-align: left;\">                                 </td><td style=\"text-align: left;\"> 1 = B                          </td>\n</tr>\n<tr>\n <td style=\"text-align: left;\">\nLEN.T     </td><td style=\"text-align: left;\"> Length of Stay in Treatment     </td><td style=\"text-align: left;\"> Days                           </td>\n</tr>\n<tr>\n <td style=\"text-align: left;\">\n          </td><td style=\"text-align: left;\"> (Admission Date to Exit Date)   </td><td style=\"text-align: left;\">                                </td>\n</tr>\n<tr>\n <td style=\"text-align: left;\"> \nTIME      </td><td style=\"text-align: left;\"> Time to Drug Relapse            </td><td style=\"text-align: left;\"> Days                           </td>\n</tr>\n<tr>\n <td style=\"text-align: left;\">\n          </td><td style=\"text-align: left;\"> (Measured from Admission Date)  </td><td style=\"text-align: left;\">                                </td>\n</tr>\n<tr>\n <td style=\"text-align: left;\">\nCENSOR    </td><td style=\"text-align: left;\"> Event for Treating Lost to      </td><td style=\"text-align: left;\"> 1 = Returned to Drugs          </td>\n</tr>\n<tr>\n <td style=\"text-align: left;\">\n          </td><td style=\"text-align: left;\"> Follow-Up as Returned to Drugs  </td><td style=\"text-align: left;\">     or Lost to Follow-Up       </td>\n</tr>\n<tr>\n <td style=\"text-align: left;\">\n          </td><td style=\"text-align: left;\">                                 </td><td style=\"text-align: left;\"> 0 = Otherwise                  </td>\n</tr>\n<tr>\n <td style=\"text-align: left;\">\nY         </td><td style=\"text-align: left;\"> log of TIME                     </td><td style=\"text-align: left;\">                                </td>\n</tr>\n<tr>\n <td style=\"text-align: left;\">  \nND1       </td><td style=\"text-align: left;\"> Component of NDT                </td><td style=\"text-align: left;\">                                </td>\n</tr>\n<tr>\n <td style=\"text-align: left;\">  \nND2       </td><td style=\"text-align: left;\"> Component of NDT                </td><td style=\"text-align: left;\">                                </td>\n</tr>\n<tr>\n <td style=\"text-align: left;\">\nLNDT      </td><td style=\"text-align: left;\">                                 </td><td style=\"text-align: left;\">                                </td>\n</tr>\n<tr>\n <td style=\"text-align: left;\"> \nFRAC      </td><td style=\"text-align: left;\"> Compliance fraction             </td><td style=\"text-align: left;\"> LEN.T/90 for short trt         </td>\n</tr>\n<tr>\n <td style=\"text-align: left;\">\n          </td><td style=\"text-align: left;\">                                 </td><td style=\"text-align: left;\"> LEN.T/180 for long trt         </td>\n</tr>\n<tr>\n <td style=\"text-align: left;\">\nIV3       </td><td style=\"text-align: left;\"> Recent IV use                   </td><td style=\"text-align: left;\"> 1 = Yes                        </td>\n</tr>\n<tr>\n <td style=\"text-align: left;\">\n          </td><td style=\"text-align: left;\">                                 </td><td style=\"text-align: left;\"> 0 = No \n</td>\n</tr>\n</table>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(uis)</code></pre>\n<h3>Format</h3>\n<p>A data frame with dimension 575 by 18.</p>\n<h3>Source</h3>\n<p>Table 1.3 of Hosmer,D.W. and Lemeshow, S. (1998) </p>\n<h3>References</h3>\n<p>Hosmer,D.W. and Lemeshow, S. (1998) Applied Survival\nAnalysis: Regression Modeling of Time to Event Data, John Wiley and Sons Inc.,\nNew York, NY</p>\n</main>\n</div>\n",
    "data" : {
       "y" : {
+         "vars" : [
+            "ID",
+            "AGE",
+            "BECK",
+            "HC",
+            "IV",
+            "NDT",
+            "RACE",
+            "TREAT",
+            "SITE",
+            "LEN.T",
+            "TIME",
+            "CENSOR",
+            "Y",
+            "ND1",
+            "ND2",
+            "LNDT",
+            "FRAC",
+            "IV3"
+         ],
          "smps" : [
             "Smp1",
             "Smp2",
@@ -10966,32 +10991,7 @@
                1,
                1
             ]
-         ],
-         "vars" : [
-            "ID",
-            "AGE",
-            "BECK",
-            "HC",
-            "IV",
-            "NDT",
-            "RACE",
-            "TREAT",
-            "SITE",
-            "LEN.T",
-            "TIME",
-            "CENSOR",
-            "Y",
-            "ND1",
-            "ND2",
-            "LNDT",
-            "FRAC",
-            "IV3"
          ]
       }
-   },
-   "config" : {
-      "subtitle" : "quantreg - uis",
-      "graphType" : "Heatmap",
-      "title" : "UIS Drug Treatment study data"
    }
 }

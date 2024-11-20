@@ -1,3 +1,19 @@
+var gibraltarInfo ={
+   "usage" : "gibraltar",
+   "description" : "Description\nThe gibraltar dataset has meteorological data for the Gibraltar Airport\nStation from May 1 to May 31, 2023. Gibraltar is a British Overseas Territory\nand city located at the southern end of the Iberian Peninsula, on the Bay of\nGibraltar. This weather station is located at the airport (GIB), where it's\nat an elevation of 5 meters above mean sea level (AMSL).",
+   "title" : "Weather conditions in Gibraltar, May 2023",
+   "reference" : "Here is a glimpse at the data available in gibraltar.",
+   "format" : "A tibble with 1,431 rows and 10 variables:",
+   "parameters" : {
+      "condition" : "The weather condition.",
+      "temp, dew_point" : "The air temperature and dew point values, both in\ndegrees Celsius.",
+      "pressure" : "The atmospheric pressure in hectopascals (hPa).",
+      "humidity" : "The relative humidity as a value between 0 and 1",
+      "wind_dir, wind_speed, wind_gust" : "Observations related to wind. The wind\ndirection is given as the typical 'blowing from' value, simplified to one of\n16 compass directions. The wind speed is provided in units of meters per\nsecond. If there was a measurable wind gust, the maximum gust speed is\nrecorded as m/s values (otherwise the value is 0).",
+      "date, time" : "The date and time of the observation."
+   }
+}
+
 var gibraltar = [
    [
       "date",

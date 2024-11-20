@@ -1,3 +1,10 @@
+var us_gasolineInfo ={
+   "usage" : "Time series object of class 'tsibble'.",
+   "format" : "US Energy Information Administration.",
+   "title" : "US finished motor gasoline product supplied.",
+   "description" : "Description\nWeekly data beginning Week 6, 1991, and ending Week 3, 2017.\nUnits are \"million barrels per day\"."
+}
+
 var us_gasoline = [
    [
       "Week",

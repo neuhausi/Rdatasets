@@ -1,3 +1,15 @@
+var wtlossInfo ={
+   "title" : "Weight Loss Data from an Obese Patient",
+   "format" : "This data frame contains the following columns:",
+   "reference" : "Dr T. Davies, Adelaide.",
+   "parameters" : {
+      "Days" : "time in days since the start of the programme.",
+      "Weight" : "weight in kilograms of the patient."
+   },
+   "usage" : "wtloss",
+   "description" : "Description\nThe data frame gives the weight, in kilograms, of an obese patient at 52\ntime points over an 8 month period of a weight rehabilitation programme."
+}
+
 var wtloss = [
    [
       "Days",

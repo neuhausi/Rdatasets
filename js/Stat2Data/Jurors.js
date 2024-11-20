@@ -1,3 +1,9 @@
+var JurorsInfo ={
+   "description" : "Description\nReporting rates for bi-weekly jury pools in Franklin County Court (Columbus, OH).",
+   "title" : "Reporting Rates for Jurors",
+   "usage" : "A data frame with 52 observations on the following 4 variables."
+}
+
 var Jurors = [
    [
       "Period",

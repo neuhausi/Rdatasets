@@ -1,3 +1,20 @@
+var polypsInfo ={
+   "parameters" : {
+      "sex" : "participant sex, levels: female, male; type: factor",
+      "baseline" : "number of colonic polyps at baseline; type: numeric",
+      "treatment" : "treatment assignment, levels: sulindac, placebo; type: factor",
+      "number12m" : "number of colonic polyps at 12 months; type: numeric",
+      "participant_id" : "id number for each participant; type: character",
+      "age" : "age in years; type: numeric",
+      "number3m" : "number of colonic polyps at 3 months; type: numeric"
+   },
+   "format" : "A data frame with 22 observations and 7 variables",
+   "title" : "RCT of Sulindac for Polyp Prevention in Familial Adenomatous Polyposis",
+   "reference" : "FAP is an inherited condition caused by mutations in the APC  (Adenomatous Polyposis Coli) gene that leads to early and frequent formation of precancerous polyps of the colon at a young age, and invariably leads to the development of colon cancer at a young age.  \nEarly, frequent surveillance colonoscopy and polyp removal is helpful, but this study examined whether there is a beneficial effect of preventive medical therapy with the nonsteroidal pain reliever, sulindac, versus placebo in a RCT vs placebo in 22 participants, with polyp number measured (via colonoscopy) at baseline, 3 months, and 12 months after starting the study drug. Note that one subject did not return for the 12 month colonoscopy.",
+   "description" : "Description\nResults of a randomized, placebo-controlled trial of sulindac in the reduction of colonic polyps in Familial Adenomatous Polyposis  (FAP) (more details available below the variable definitions).",
+   "usage" : "polyps"
+}
+
 var polyps = [
    [
       "participant_id",

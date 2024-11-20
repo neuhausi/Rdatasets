@@ -1,4 +1,14 @@
 {
+   "config" : {
+      "title" : "Batting Averages for 18 major league baseball players",
+      "subtitle" : "pscl - EfronMorris",
+      "scatterPlotMatrix" : 1,
+      "graphType" : "Scatter2D",
+      "shapeBy" : "team",
+      "colorBy" : "name",
+      "sizeBy" : "league"
+   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>EfronMorris</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Batting Averages for 18 major league baseball players, 1970</h2>\n<h3>Description</h3>\n<p>Batting averages for 18 major league baseball players,\nfirst 45 at bats of the 1970 season.</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(EfronMorris)</code></pre>\n<h3>Format</h3>\n<dl>\n<dt><code>name</code></dt><dd><p>character, name of player</p>\n</dd>\n<dt><code>team</code></dt><dd><p>character, team of player, abbreviated</p>\n</dd>\n<dt><code>league</code></dt><dd><p>character, National League or American League</p>\n</dd>\n<dt><code>r</code></dt><dd><p>numeric, hits in 1st 45 at bats</p>\n</dd>\n<dt><code>y</code></dt><dd><p>numeric, <code>r</code>/45, batting average over 1st\n45 at bats</p>\n</dd>\n<dt><code>n</code></dt><dd><p>numeric, number of at bats, remainder of 1970\nseason</p>\n</dd>\n<dt><code>p</code></dt><dd><p>numeric, batting average over remainder of 1970 season</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>Efron, Bradley and Carl Morris. 1975. Data Analysis Using\nStein's Estimator and Its Generalizations.  <em>Journal of the American\nStatistical Association</em>. 70:311-319.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>data(EfronMorris)\nattach(EfronMorris)\nplot(p~y,\n     xlim=range(p,y),\n     ylim=range(p,y),\n     xlab=\"Batting Average, 1st 45 at bats\",\n     ylab=\"Batting Average, Remainder of Season\")\nabline(0,1)\n</code></pre>\n</main>\n</div>\n",
    "data" : {
       "y" : {
          "data" : [
@@ -111,12 +121,6 @@
                0.2
             ]
          ],
-         "smps" : [
-            "r",
-            "y",
-            "n",
-            "p"
-         ],
          "vars" : [
             "Var1",
             "Var2",
@@ -136,6 +140,12 @@
             "Var16",
             "Var17",
             "Var18"
+         ],
+         "smps" : [
+            "r",
+            "y",
+            "n",
+            "p"
          ]
       },
       "z" : {
@@ -200,15 +210,5 @@
             "NL"
          ]
       }
-   },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>EfronMorris</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Batting Averages for 18 major league baseball players, 1970</h2>\n<h3>Description</h3>\n<p>Batting averages for 18 major league baseball players,\nfirst 45 at bats of the 1970 season.</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(EfronMorris)</code></pre>\n<h3>Format</h3>\n<dl>\n<dt><code>name</code></dt><dd><p>character, name of player</p>\n</dd>\n<dt><code>team</code></dt><dd><p>character, team of player, abbreviated</p>\n</dd>\n<dt><code>league</code></dt><dd><p>character, National League or American League</p>\n</dd>\n<dt><code>r</code></dt><dd><p>numeric, hits in 1st 45 at bats</p>\n</dd>\n<dt><code>y</code></dt><dd><p>numeric, <code>r</code>/45, batting average over 1st\n45 at bats</p>\n</dd>\n<dt><code>n</code></dt><dd><p>numeric, number of at bats, remainder of 1970\nseason</p>\n</dd>\n<dt><code>p</code></dt><dd><p>numeric, batting average over remainder of 1970 season</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>Efron, Bradley and Carl Morris. 1975. Data Analysis Using\nStein's Estimator and Its Generalizations.  <em>Journal of the American\nStatistical Association</em>. 70:311-319.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>data(EfronMorris)\nattach(EfronMorris)\nplot(p~y,\n     xlim=range(p,y),\n     ylim=range(p,y),\n     xlab=\"Batting Average, 1st 45 at bats\",\n     ylab=\"Batting Average, Remainder of Season\")\nabline(0,1)\n</code></pre>\n</main>\n</div>\n",
-   "config" : {
-      "graphType" : "Scatter2D",
-      "scatterPlotMatrix" : 1,
-      "subtitle" : "pscl - EfronMorris",
-      "title" : "Batting Averages for 18 major league baseball players",
-      "colorBy" : "name",
-      "shapeBy" : "team",
-      "sizeBy" : "league"
    }
 }

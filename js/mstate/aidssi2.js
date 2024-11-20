@@ -1,3 +1,9 @@
+var aidssi2Info ={
+   "usage" : "aidssi",
+   "title" : "Data from the Amsterdam Cohort Studies on HIV infection and AIDS",
+   "description" : "Description\nThese data sets give the times (in years) from HIV infection to AIDS, SI\nswitch and death in 329 men who have sex with men (MSM). Data are from the\nperiod until combination anti-retroviral therapy became available (1996).\nFor more background information on the cohort, ccr5 and SI, see Geskus\net al. (2000, 2003)"
+}
+
 var aidssi2 = [
    [
       "patnr",

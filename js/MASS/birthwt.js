@@ -1,3 +1,23 @@
+var birthwtInfo ={
+   "usage" : "birthwt",
+   "description" : "Description\nThe birthwt data frame has 189 rows and 10 columns.\nThe data were collected at Baystate Medical Center, Springfield, Mass\nduring 1986.",
+   "format" : "This data frame contains the following columns:",
+   "title" : "Risk Factors Associated with Low Infant Birth Weight",
+   "reference" : "Hosmer, D.W. and Lemeshow, S. (1989)\nApplied Logistic Regression. New York: Wiley",
+   "parameters" : {
+      "age" : "mother's age in years.",
+      "bwt" : "birth weight in grams.",
+      "ht" : "history of hypertension.",
+      "lwt" : "mother's weight in pounds at last menstrual period.",
+      "ptl" : "number of previous premature labours.",
+      "race" : "mother's race (1 = white, 2 = black,\n3 = other).",
+      "low" : "indicator of birth weight less than 2.5 kg.",
+      "ui" : "presence of uterine irritability.",
+      "ftv" : "number of physician visits during the first trimester.",
+      "smoke" : "smoking status during pregnancy."
+   }
+}
+
 var birthwt = [
    [
       "low",

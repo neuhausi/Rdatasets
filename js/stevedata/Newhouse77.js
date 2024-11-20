@@ -1,3 +1,18 @@
+var Newhouse77Info ={
+   "parameters" : {
+      "medexppc" : "a numeric vector for per capita medical care expenditure (in USD)",
+      "year" : "a numeric vector for the year",
+      "medsharegdp" : "a numeric vector for the medical care share as percentage of GDP",
+      "country" : "a character vector for the country",
+      "gdppc" : "a numeric vector for the per capita GDP in USD"
+   },
+   "format" : "A data frame with 13 observations on the following 5 variables.",
+   "title" : "Medical-Care Expenditure: A Cross-National Survey (Newhouse, 1977)",
+   "reference" : "Table 1 in Newhouse (1977) is well-annotated with background information.",
+   "description" : "Description\nThese are the data in Newhouse's (1977) simple OLS model from 1977. In\nhis case, he's trying to explain medical care expenditures as a function of GDP\nper capita for these countries. It's probably the easiest OLS model I can find\nin print because Newhouse helpfully provides all the data in one simple table.",
+   "usage" : "Newhouse77"
+}
+
 var Newhouse77 = [
    [
       "country",

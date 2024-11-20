@@ -1,3 +1,14 @@
+var ami_occurrencesInfo ={
+   "parameters" : {
+      "ami" : "Number of daily occurrences of heart attacks in NY City."
+   },
+   "reference" : "library(ggplot2)\n\nggplot(ami_occurrences, mapping = aes(x = ami)) +\n  geom_bar() +\n  labs(\n    x = \"Acute Myocardial Infarction events\",\n    y = \"Count\",\n    title = \"Acute Myocardial Infarction events in NYC\"\n  )",
+   "format" : "A data frame with 365 observations on the following variable.",
+   "title" : "Acute Myocardial Infarction (Heart Attack) Events",
+   "description" : "Description\nThis dataset is simulated but contains realistic occurrences of AMI in NY\nCity.",
+   "usage" : "ami_occurrences"
+}
+
 var ami_occurrences = [
    [
       "ami"

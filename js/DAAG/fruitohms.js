@@ -1,3 +1,15 @@
+var fruitohmsInfo ={
+   "description" : "Description\nData are from a study that examined how the electrical\nresistance of a slab of kiwifruit changed with the apparent\njuice content.",
+   "usage" : "fruitohms",
+   "parameters" : {
+      "ohms" : "electrical resistance (in ohms)",
+      "juice" : "apparent juice content (percent)"
+   },
+   "format" : "This data frame contains the following columns:",
+   "title" : "Electrical Resistance of Kiwi Fruit",
+   "reference" : "Harker, F. R. and Maindonald J.H. 1994. Ripening of nectarine\nfruit. Plant Physiology 106: 165 - 171."
+}
+
 var fruitohms = [
    [
       "juice",

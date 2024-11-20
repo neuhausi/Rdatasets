@@ -1,3 +1,9 @@
+var FirstYearGPAInfo ={
+   "usage" : "A data frame with 219 observations on the following 10 variables.",
+   "title" : "First Year GPA for College Students",
+   "description" : "Description\nPredicting first-year college GPA"
+}
+
 var FirstYearGPA = [
    [
       "GPA",

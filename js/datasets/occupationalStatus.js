@@ -1,3 +1,10 @@
+var occupationalStatusInfo ={
+   "description" : "Description\nCross-classification of a sample of British males according to each\nsubject's occupational status and his father's occupational status.",
+   "usage" : "occupationalStatus",
+   "format" : "A table of counts, with classifying factors\norigin (father's occupational status; levels 1:8)\nand destination (son's occupational status; levels 1:8).",
+   "title" : "Occupational Status of Fathers and their Sons"
+}
+
 var occupationalStatus = [
    [
       "origin",

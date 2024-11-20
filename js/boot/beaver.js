@@ -1,3 +1,17 @@
+var beaverInfo ={
+   "description" : "Description\nThe beaver data frame has 100 rows and 4 columns.  It is a multivariate\ntime series of class \"ts\" and also inherits from class \"data.frame\".\nThis data set is part of a long study into body temperature regulation in\nbeavers.  Four adult female beavers were live-trapped and had a \ntemperature-sensitive radio transmitter surgically implanted.  Readings were\ntaken every 10 minutes.  The location of the beaver was also recorded and\nher activity level was dichotomized by whether she was in the retreat or \noutside of it since high-intensity activities only occur outside of the \nretreat.\nThe data in this data frame are those readings for one of the beavers on a day\nin autumn.",
+   "usage" : "beaver",
+   "parameters" : {
+      "day" : "The day number.  The data includes only data from day 307 and early 308.",
+      "activ" : "The dichotomized activity indicator. 1 indicates that the beaver is outside\nof the retreat and therefore engaged in high-intensity activity.",
+      "temp" : "The body temperature in degrees Celsius.",
+      "time" : "The time of day formatted as hour-minute."
+   },
+   "reference" : "The data were obtained from",
+   "title" : "Beaver Body Temperature Data",
+   "format" : "This data frame contains the following columns:"
+}
+
 var beaver = [
    [
       "day",

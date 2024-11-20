@@ -1,27 +1,7 @@
 {
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>stackoverflow</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Annual Stack Overflow Developer Survey Data</h2>\n<h3>Description</h3>\n<p>Annual Stack Overflow Developer Survey Data\n</p>\n<h3>Details</h3>\n<p>These data are a collection of 5,594 data points collected on\ndevelopers. These data could be used to try to predict who works remotely\n(as used in the source listed below).\n</p>\n<h3>Value</h3>\n<table>\n<tr><td><code>stackoverflow</code></td>\n<td>\n<p>a tibble</p>\n</td></tr>\n</table>\n<h3>Source</h3>\n<p>Julia Silge, <em>Supervised Machine Learning Case Studies in R</em>\n</p>\n<p><code style=\"white-space: pre;\">&#8288;https://supervised-ml-course.netlify.com/chapter2&#8288;</code>\n</p>\n<p>Raw data: <code style=\"white-space: pre;\">&#8288;https://insights.stackoverflow.com/survey/&#8288;</code>\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>data(stackoverflow)\nstr(stackoverflow)\n</code></pre>\n</main>\n</div>\n",
    "data" : {
       "y" : {
-         "vars" : [
-            "Salary",
-            "YearsCodedJob",
-            "OpenSource",
-            "Hobby",
-            "CompanySizeNumber",
-            "CareerSatisfaction",
-            "Data_scientist",
-            "Database_administrator",
-            "Desktop_applications_developer",
-            "Developer_with_stats_math_background",
-            "DevOps",
-            "Embedded_developer",
-            "Graphic_designer",
-            "Graphics_programming",
-            "Machine_learning_specialist",
-            "Mobile_developer",
-            "Quality_assurance_engineer",
-            "Systems_administrator",
-            "Web_developer"
-         ],
          "smps" : [
             "Smp1",
             "Smp2",
@@ -5617,6 +5597,27 @@
             "Smp5592",
             "Smp5593",
             "Smp5594"
+         ],
+         "vars" : [
+            "Salary",
+            "YearsCodedJob",
+            "OpenSource",
+            "Hobby",
+            "CompanySizeNumber",
+            "CareerSatisfaction",
+            "Data_scientist",
+            "Database_administrator",
+            "Desktop_applications_developer",
+            "Developer_with_stats_math_background",
+            "DevOps",
+            "Embedded_developer",
+            "Graphic_designer",
+            "Graphics_programming",
+            "Machine_learning_specialist",
+            "Mobile_developer",
+            "Quality_assurance_engineer",
+            "Systems_administrator",
+            "Web_developer"
          ],
          "data" : [
             [
@@ -123140,14 +123141,13 @@
          ]
       }
    },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>stackoverflow</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Annual Stack Overflow Developer Survey Data</h2>\n<h3>Description</h3>\n<p>Annual Stack Overflow Developer Survey Data\n</p>\n<h3>Details</h3>\n<p>These data are a collection of 5,594 data points collected on\ndevelopers. These data could be used to try to predict who works remotely\n(as used in the source listed below).\n</p>\n<h3>Value</h3>\n<table>\n<tr><td><code>stackoverflow</code></td>\n<td>\n<p>a tibble</p>\n</td></tr>\n</table>\n<h3>Source</h3>\n<p>Julia Silge, <em>Supervised Machine Learning Case Studies in R</em>\n</p>\n<p><code style=\"white-space: pre;\">&#8288;https://supervised-ml-course.netlify.com/chapter2&#8288;</code>\n</p>\n<p>Raw data: <code style=\"white-space: pre;\">&#8288;https://insights.stackoverflow.com/survey/&#8288;</code>\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>data(stackoverflow)\nstr(stackoverflow)\n</code></pre>\n</main>\n</div>\n",
    "config" : {
-      "subtitle" : "modeldata - stackoverflow",
       "graphType" : "Heatmap",
+      "title" : "Annual Stack Overflow Developer Survey Data",
       "smpOverlays" : [
          "Country",
          "Remote"
       ],
-      "title" : "Annual Stack Overflow Developer Survey Data"
+      "subtitle" : "modeldata - stackoverflow"
    }
 }

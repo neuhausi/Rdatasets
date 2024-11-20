@@ -1,3 +1,15 @@
+var USPopInfo ={
+   "format" : "This data frame contains the following columns:",
+   "title" : "Population of the United States",
+   "reference" : "U.S.~Census Bureau: https://www.census-charts.com/Population/pop-us-1790-2000.html, downloaded 1 May 2008.",
+   "parameters" : {
+      "year" : "census year.",
+      "population" : "Population in millions."
+   },
+   "usage" : "USPop",
+   "description" : "Description\nThe USPop data frame has 22 rows and 1 columns.\nThis is a decennial time-series, from 1790 to 2000."
+}
+
 var USPop = [
    [
       "year",

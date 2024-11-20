@@ -1,3 +1,30 @@
+var wage2Info ={
+   "reference" : "As with WAGE1.RAW, there are some clear inconsistencies among the variables tenure, exper, and age. I have not been able to track down the causes, and so any changes would be effectively arbitrary. Instead, I am using the data as provided by the authors of the above QJE article.",
+   "format" : "A data.frame with 935 observations on 17 variables:",
+   "title" : "wage2",
+   "parameters" : {
+      "KWW" : " knowledge of world work score",
+      "lwage" : " natural log of wage",
+      "wage" : " monthly earnings",
+      "IQ" : " IQ score",
+      "brthord" : " birth order",
+      "married" : " =1 if married",
+      "hours" : " average weekly hours",
+      "tenure" : " years with current employer",
+      "age" : " age in years",
+      "urban" : " =1 if live in SMSA",
+      "educ" : " years of education",
+      "south" : " =1 if live in south",
+      "sibs" : " number of siblings",
+      "black" : " =1 if black",
+      "meduc" : " mother's education",
+      "feduc" : " father's education",
+      "exper" : " years of work experience"
+   },
+   "usage" : "data('wage2')",
+   "description" : "Description\nWooldridge Source: M. Blackburn and D. Neumark (1992), âUnobserved Ability, Efficiency Wages, and Interindustry Wage Differentials,â Quarterly Journal of Economics 107, 1421-1436. Professor Neumark kindly provided the data, of which I used just the data for 1980. Data loads lazily."
+}
+
 var wage2 = [
    [
       "wage",

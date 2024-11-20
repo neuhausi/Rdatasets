@@ -1,3 +1,26 @@
+var LeveeFailuresInfo ={
+   "parameters" : {
+      "Sinuosity" : "River length divided by valley length for 10 miles up- and down-valley from levee site",
+      "ChannelWidth" : "Width of the river channel (in meters)",
+      "BorrowPit" : "Borrow pit present? (1=yes or 0=no)",
+      "Failure" : "Did the levee fail? (1=yes or 0=no)",
+      "Sediments" : "Sediments present? (1=yes or 0=no)",
+      "FloodwayWidth" : "Width of floodway (in meters, levee to levee, levee to bluff, or bluff to bluff, as appropriate)",
+      "RiverMile" : "Location along the river (mile marker)",
+      "ConstrictionFactor" : "Constriction of the floodway over time (1880s to present)",
+      "Meander" : "Type of meander (1=inside bend, 2=outside bend, 3=chute, 4=straight)",
+      "LandCover" : "1=open water, 2=grassy, 3=agricultural, 4=forest",
+      "Revetement" : "Is there a stone structure (wall) meant to hold up the bank?  (1=yes or 0=no)",
+      "Year" : "Year",
+      "Dredging" : "Dredging intensity",
+      "VegWidth" : "Vegative buffer width (in meters)"
+   },
+   "description" : "Description\nFactors relating to Mississippi River levee failure",
+   "usage" : "A data frame with 82 observations on the following 14 variables.",
+   "reference" : "The goal of this investigation was to test the relative importance of geologic, geomorphic, and other physical factors that have led to levee failures through the past century along much of the Mississippi River.",
+   "title" : "Levee Failures along the Mississippi River"
+}
+
 var LeveeFailures = [
    [
       "Failure",

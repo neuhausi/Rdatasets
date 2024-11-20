@@ -1,3 +1,16 @@
+var agefatInfo ={
+   "description" : "Description\nAge and body fat percentage of 25 normal adults.",
+   "usage" : "data(\"agefat\")",
+   "parameters" : {
+      "age" : "the age of the subject.",
+      "fat" : "the body fat percentage.",
+      "sex" : "a factor with levels female and male."
+   },
+   "title" : "Total Body Composision Data",
+   "reference" : "The data come from a study investigating a new methods of measuring body \ncomposition (see Mazess et al, 1984), and give the body fat percentage \n(percent fat), age and sex for 25 normal adults aged between 23 and 61 years.  \nThe questions of interest are how are age and percent fat related, and is \nthere any evidence that the relationship is different for males and females.",
+   "format" : "A data frame with 25 observations on the following 3 variables."
+}
+
 var agefat = [
    [
       "age",

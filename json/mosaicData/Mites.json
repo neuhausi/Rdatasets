@@ -1,4 +1,17 @@
 {
+   "config" : {
+      "subtitle" : "mosaicData - Mites",
+      "segregateSamplesBy" : [
+         "treatment"
+      ],
+      "title" : "Mites and Wilt Disease",
+      "groupingFactors" : [
+         "outcome"
+      ],
+      "graphType" : "Boxplot",
+      "colorBy" : "variable"
+   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>Mites</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Mites and Wilt Disease</h2>\n<h3>Description</h3>\n<p>Data from an experiment to test whether exposure to mites protects against Wilt Disease in\ncotton plants.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(Mites)\n</code></pre>\n<h3>Format</h3>\n<p>A data frame with 47 observations on the following variables.\n</p>\n<dl>\n<dt><code>treatment</code></dt><dd><p>a factor with levels <code>mites</code> and <code>no mites</code></p>\n</dd>\n<dt><code>outcome</code></dt><dd><p>a factor with levels <code>wilt</code> and <code>no wilt</code></p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>Researchers suspected that attack of a plant by one organism induced\nresistance to subsequent attack by a different organism.  Individually potted\ncotton plants were randomly allocated to two groups: infestation by spider\nmites or no infestation.  After two weeks the mites were dutifully removed by\na conscientious research assistant, and both groups were inoculated with\nVerticillium, a fungus that causes Wilt disease.  More information can be\nfound at <a href=\"https://www.causeweb.org/cause/webinar/activity/2010-01/\">https://www.causeweb.org/cause/webinar/activity/2010-01/</a>.\n</p>\n<h3>Source</h3>\n<p>Statistics for the Life Sciences, Third Edition; Myra Samuels &amp; Jeffrey Witmer (2003), page 409.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>data(Mites)\nif (require(mosaic)) {\n  tally(~ treatment + outcome, data=Mites)\n  tally(~ outcome | treatment, format=\"percent\", data=Mites)\n</code></pre>\n</main>\n</div>\n",
    "data" : {
       "y" : {
          "data" : [
@@ -52,6 +65,9 @@
                47
             ]
          ],
+         "vars" : [
+            "Row"
+         ],
          "smps" : [
             "Smp1",
             "Smp2",
@@ -100,61 +116,9 @@
             "Smp45",
             "Smp46",
             "Smp47"
-         ],
-         "vars" : [
-            "Row"
          ]
       },
       "x" : {
-         "treatment" : [
-            "mites",
-            "mites",
-            "mites",
-            "mites",
-            "mites",
-            "mites",
-            "mites",
-            "mites",
-            "mites",
-            "mites",
-            "mites",
-            "no mites",
-            "no mites",
-            "no mites",
-            "no mites",
-            "no mites",
-            "no mites",
-            "no mites",
-            "no mites",
-            "no mites",
-            "no mites",
-            "no mites",
-            "no mites",
-            "no mites",
-            "no mites",
-            "no mites",
-            "no mites",
-            "no mites",
-            "mites",
-            "mites",
-            "mites",
-            "mites",
-            "mites",
-            "mites",
-            "mites",
-            "mites",
-            "mites",
-            "mites",
-            "mites",
-            "mites",
-            "mites",
-            "mites",
-            "mites",
-            "no mites",
-            "no mites",
-            "no mites",
-            "no mites"
-         ],
          "outcome" : [
             "wilt",
             "wilt",
@@ -203,20 +167,56 @@
             "no wilt",
             "no wilt",
             "no wilt"
+         ],
+         "treatment" : [
+            "mites",
+            "mites",
+            "mites",
+            "mites",
+            "mites",
+            "mites",
+            "mites",
+            "mites",
+            "mites",
+            "mites",
+            "mites",
+            "no mites",
+            "no mites",
+            "no mites",
+            "no mites",
+            "no mites",
+            "no mites",
+            "no mites",
+            "no mites",
+            "no mites",
+            "no mites",
+            "no mites",
+            "no mites",
+            "no mites",
+            "no mites",
+            "no mites",
+            "no mites",
+            "no mites",
+            "mites",
+            "mites",
+            "mites",
+            "mites",
+            "mites",
+            "mites",
+            "mites",
+            "mites",
+            "mites",
+            "mites",
+            "mites",
+            "mites",
+            "mites",
+            "mites",
+            "mites",
+            "no mites",
+            "no mites",
+            "no mites",
+            "no mites"
          ]
       }
-   },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>Mites</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Mites and Wilt Disease</h2>\n<h3>Description</h3>\n<p>Data from an experiment to test whether exposure to mites protects against Wilt Disease in\ncotton plants.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(Mites)\n</code></pre>\n<h3>Format</h3>\n<p>A data frame with 47 observations on the following variables.\n</p>\n<dl>\n<dt><code>treatment</code></dt><dd><p>a factor with levels <code>mites</code> and <code>no mites</code></p>\n</dd>\n<dt><code>outcome</code></dt><dd><p>a factor with levels <code>wilt</code> and <code>no wilt</code></p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>Researchers suspected that attack of a plant by one organism induced\nresistance to subsequent attack by a different organism.  Individually potted\ncotton plants were randomly allocated to two groups: infestation by spider\nmites or no infestation.  After two weeks the mites were dutifully removed by\na conscientious research assistant, and both groups were inoculated with\nVerticillium, a fungus that causes Wilt disease.  More information can be\nfound at <a href=\"https://www.causeweb.org/cause/webinar/activity/2010-01/\">https://www.causeweb.org/cause/webinar/activity/2010-01/</a>.\n</p>\n<h3>Source</h3>\n<p>Statistics for the Life Sciences, Third Edition; Myra Samuels &amp; Jeffrey Witmer (2003), page 409.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>data(Mites)\nif (require(mosaic)) {\n  tally(~ treatment + outcome, data=Mites)\n  tally(~ outcome | treatment, format=\"percent\", data=Mites)\n</code></pre>\n</main>\n</div>\n",
-   "config" : {
-      "subtitle" : "mosaicData - Mites",
-      "segregateSamplesBy" : [
-         "outcome"
-      ],
-      "graphType" : "Boxplot",
-      "colorBy" : "variable",
-      "groupingFactors" : [
-         "treatment"
-      ],
-      "title" : "Mites and Wilt Disease"
    }
 }

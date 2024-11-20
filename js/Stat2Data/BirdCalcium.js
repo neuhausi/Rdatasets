@@ -1,3 +1,17 @@
+var BirdCalciumInfo ={
+   "usage" : "A data frame with 20 observations on the following 5 variables.",
+   "reference" : "An experiment looked at the effects of treatment with a hormone for increasing the concentration of calcium in birds.  Twenty birds (robins) were used in the study, ten male and ten female, equally divided between the hormone and no hormone treatments.",
+   "title" : "Effect of a Hormone on Bird Calcium Levels",
+   "parameters" : {
+      "Sex" : "female or male",
+      "Ca" : "Blood calcium level (mg per 100 ml)",
+      "Hormone" : "Treated with hormone (no or yes)",
+      "Group" : "Combined Sex and Hormone (F No, F Yes, M No, or M Yes)",
+      "Bird" : "ID number for each bird (1 to 20)"
+   },
+   "description" : "Description\nAn experiment on the effects of a hormone on blood calcium levels in robins"
+}
+
 var BirdCalcium = [
    [
       "Bird",

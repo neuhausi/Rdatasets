@@ -1,15 +1,129 @@
 {
    "config" : {
-      "colorBy" : "winner",
-      "title" : "Data about each series aired in the UK (raw)",
-      "sizeBy" : "runner_up_2",
-      "shapeBy" : "timeslot",
       "subtitle" : "bakeoff - series_raw",
+      "title" : "Data about each series aired in the UK (raw)",
+      "sizeBy" : "winner",
+      "shapeBy" : "channel",
+      "colorBy" : "timeslot",
       "graphType" : "Scatter3D"
    },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>series_raw</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Data about each series aired in the UK (raw)</h2>\n<h3>Description</h3>\n<p>This dataset has one row per series aired in the UK as 'The Great British\nBake Off'. When did a series premiere in the UK? When was the finale episode?\nHow many viewers on average  did a series have?\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>series_raw\n</code></pre>\n<h3>Format</h3>\n<p>A data frame with 10 rows representing individual series and 11 variables:\n</p>\n<dl>\n<dt>series</dt><dd><p>A factor denoting UK series (<code>1</code>-<code>10</code>).</p>\n</dd>\n<dt>episodes</dt><dd><p>An integer denoting total number of episodes within\nseries.</p>\n</dd>\n<dt>premiere</dt><dd><p>A date denoting original airdate of series premiere episode\nin the UK.</p>\n</dd>\n<dt>finale</dt><dd><p>A date denoting original airdate of series finale episode in\nthe UK.</p>\n</dd>\n<dt>winner</dt><dd><p>A character string denoting name of series winner.</p>\n</dd>\n<dt>avg_uk_viewers</dt><dd><p>Average UK viewers in millions. Also see\n<code>ratings</code>.</p>\n</dd>\n<dt>day_of_week</dt><dd><p>A character string denoting weekday that series'\nepisodes aired in UK.</p>\n</dd>\n<dt>timeslot</dt><dd><p>time of day that series' episodes aired in UK (24-hour\nclock).</p>\n</dd>\n<dt>channel</dt><dd><p>A character string denoting channel that series aired on:\none of <code style=\"white-space: pre;\">&#8288;BBC One&#8288;</code>, <code style=\"white-space: pre;\">&#8288;BBC Two&#8288;</code>, or <code style=\"white-space: pre;\">&#8288;Channel 4&#8288;</code>.</p>\n</dd>\n<dt>runner_up_1</dt><dd><p>A character string denoting the name of one of the\nbakers who was a series runner-up. The number is not meaningful.</p>\n</dd>\n<dt>runner_up_2</dt><dd><p>A character string denoting the name of one of the\nbakers who was a series runner-up. The number is not meaningful.</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>See\n<a href=\"https://en.wikipedia.org/wiki/The_Great_British_Bake_Off#Series_overview\">https://en.wikipedia.org/wiki/The_Great_British_Bake_Off#Series_overview</a>\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>if (require('tibble')) {\n  series_raw\nhead(series_raw)\n</code></pre>\n</main>\n</div>\n",
    "data" : {
+      "z" : {
+         "timeslot" : [
+            "8:00pm",
+            "8:00pm",
+            "8:00pm",
+            "8:00pm",
+            "8:00pm",
+            "8:00pm",
+            "8:00pm",
+            "8:00pm",
+            "8:00pm",
+            "8:00pm"
+         ],
+         "channel" : [
+            "BBC Two",
+            "BBC Two",
+            "BBC Two",
+            "BBC Two",
+            "BBC One",
+            "BBC One",
+            "BBC One",
+            "Channel 4",
+            "Channel 4",
+            "Channel 4"
+         ],
+         "winner" : [
+            "Edd Kimber",
+            "Joanne Wheatley",
+            "John Whaite",
+            "Frances Quinn",
+            "Nancy Birtwhistle",
+            "Nadiya Hussain",
+            "Candice Brown",
+            "Sophie Faldo",
+            "Rahul Mandal",
+            "David Atherton"
+         ],
+         "runner_up_2" : [
+            "Ruth Clemens",
+            "Mary-Anne Boermans",
+            "James Morton",
+            "Ruby Tandoh",
+            "Richard Burr",
+            "Tamal Ray",
+            "Jane Beedle",
+            "Steven Carter-Bailey",
+            "Ruby Bhogal",
+            "Steph Blackwell"
+         ],
+         "runner_up_1" : [
+            "Miranda Gore Browne",
+            "Holly Bell",
+            "Brendan Lynch",
+            "Kimberley Wilson",
+            "Luis Troyano",
+            "Ian Cumming",
+            "Andrew Smyth",
+            "Kate Lyon",
+            "Kim-Joy Hewlett",
+            "Alice Fevronia"
+         ],
+         "premiere" : [
+            "2010-08-17",
+            "2011-08-14",
+            "2012-08-14",
+            "2013-08-20",
+            "2014-08-06",
+            "2015-08-05",
+            "2016-08-24",
+            "2017-08-29",
+            "2018-08-28",
+            "2019-08-27"
+         ],
+         "finale" : [
+            "2010-09-21",
+            "2011-10-04",
+            "2012-10-16",
+            "2013-10-22",
+            "2014-10-08",
+            "2015-10-07",
+            "2016-10-26",
+            "2017-10-31",
+            "2018-10-30",
+            "2019-10-29"
+         ],
+         "day_of_week" : [
+            "Tuesday",
+            "Tuesday",
+            "Tuesday",
+            "Tuesday",
+            "Wednesday",
+            "Wednesday",
+            "Wednesday",
+            "Tuesday",
+            "Tuesday",
+            "Tuesday"
+         ]
+      },
       "y" : {
+         "vars" : [
+            "Var1",
+            "Var2",
+            "Var3",
+            "Var4",
+            "Var5",
+            "Var6",
+            "Var7",
+            "Var8",
+            "Var9",
+            "Var10"
+         ],
+         "smps" : [
+            "series",
+            "episodes",
+            "avg_uk_viewers"
+         ],
          "data" : [
             [
                1,
@@ -61,122 +175,8 @@
                10,
                9.24
             ]
-         ],
-         "smps" : [
-            "series",
-            "episodes",
-            "avg_uk_viewers"
-         ],
-         "vars" : [
-            "Var1",
-            "Var2",
-            "Var3",
-            "Var4",
-            "Var5",
-            "Var6",
-            "Var7",
-            "Var8",
-            "Var9",
-            "Var10"
-         ]
-      },
-      "z" : {
-         "winner" : [
-            "Edd Kimber",
-            "Joanne Wheatley",
-            "John Whaite",
-            "Frances Quinn",
-            "Nancy Birtwhistle",
-            "Nadiya Hussain",
-            "Candice Brown",
-            "Sophie Faldo",
-            "Rahul Mandal",
-            "David Atherton"
-         ],
-         "timeslot" : [
-            "8:00pm",
-            "8:00pm",
-            "8:00pm",
-            "8:00pm",
-            "8:00pm",
-            "8:00pm",
-            "8:00pm",
-            "8:00pm",
-            "8:00pm",
-            "8:00pm"
-         ],
-         "runner_up_2" : [
-            "Ruth Clemens",
-            "Mary-Anne Boermans",
-            "James Morton",
-            "Ruby Tandoh",
-            "Richard Burr",
-            "Tamal Ray",
-            "Jane Beedle",
-            "Steven Carter-Bailey",
-            "Ruby Bhogal",
-            "Steph Blackwell"
-         ],
-         "finale" : [
-            "2010-09-21",
-            "2011-10-04",
-            "2012-10-16",
-            "2013-10-22",
-            "2014-10-08",
-            "2015-10-07",
-            "2016-10-26",
-            "2017-10-31",
-            "2018-10-30",
-            "2019-10-29"
-         ],
-         "premiere" : [
-            "2010-08-17",
-            "2011-08-14",
-            "2012-08-14",
-            "2013-08-20",
-            "2014-08-06",
-            "2015-08-05",
-            "2016-08-24",
-            "2017-08-29",
-            "2018-08-28",
-            "2019-08-27"
-         ],
-         "channel" : [
-            "BBC Two",
-            "BBC Two",
-            "BBC Two",
-            "BBC Two",
-            "BBC One",
-            "BBC One",
-            "BBC One",
-            "Channel 4",
-            "Channel 4",
-            "Channel 4"
-         ],
-         "day_of_week" : [
-            "Tuesday",
-            "Tuesday",
-            "Tuesday",
-            "Tuesday",
-            "Wednesday",
-            "Wednesday",
-            "Wednesday",
-            "Tuesday",
-            "Tuesday",
-            "Tuesday"
-         ],
-         "runner_up_1" : [
-            "Miranda Gore Browne",
-            "Holly Bell",
-            "Brendan Lynch",
-            "Kimberley Wilson",
-            "Luis Troyano",
-            "Ian Cumming",
-            "Andrew Smyth",
-            "Kate Lyon",
-            "Kim-Joy Hewlett",
-            "Alice Fevronia"
          ]
       }
-   }
+   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>series_raw</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Data about each series aired in the UK (raw)</h2>\n<h3>Description</h3>\n<p>This dataset has one row per series aired in the UK as 'The Great British\nBake Off'. When did a series premiere in the UK? When was the finale episode?\nHow many viewers on average  did a series have?\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>series_raw\n</code></pre>\n<h3>Format</h3>\n<p>A data frame with 10 rows representing individual series and 11 variables:\n</p>\n<dl>\n<dt>series</dt><dd><p>A factor denoting UK series (<code>1</code>-<code>10</code>).</p>\n</dd>\n<dt>episodes</dt><dd><p>An integer denoting total number of episodes within\nseries.</p>\n</dd>\n<dt>premiere</dt><dd><p>A date denoting original airdate of series premiere episode\nin the UK.</p>\n</dd>\n<dt>finale</dt><dd><p>A date denoting original airdate of series finale episode in\nthe UK.</p>\n</dd>\n<dt>winner</dt><dd><p>A character string denoting name of series winner.</p>\n</dd>\n<dt>avg_uk_viewers</dt><dd><p>Average UK viewers in millions. Also see\n<code>ratings</code>.</p>\n</dd>\n<dt>day_of_week</dt><dd><p>A character string denoting weekday that series'\nepisodes aired in UK.</p>\n</dd>\n<dt>timeslot</dt><dd><p>time of day that series' episodes aired in UK (24-hour\nclock).</p>\n</dd>\n<dt>channel</dt><dd><p>A character string denoting channel that series aired on:\none of <code style=\"white-space: pre;\">&#8288;BBC One&#8288;</code>, <code style=\"white-space: pre;\">&#8288;BBC Two&#8288;</code>, or <code style=\"white-space: pre;\">&#8288;Channel 4&#8288;</code>.</p>\n</dd>\n<dt>runner_up_1</dt><dd><p>A character string denoting the name of one of the\nbakers who was a series runner-up. The number is not meaningful.</p>\n</dd>\n<dt>runner_up_2</dt><dd><p>A character string denoting the name of one of the\nbakers who was a series runner-up. The number is not meaningful.</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>See\n<a href=\"https://en.wikipedia.org/wiki/The_Great_British_Bake_Off#Series_overview\">https://en.wikipedia.org/wiki/The_Great_British_Bake_Off#Series_overview</a>\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>if (require('tibble')) {\n  series_raw\nhead(series_raw)\n</code></pre>\n</main>\n</div>\n"
 }

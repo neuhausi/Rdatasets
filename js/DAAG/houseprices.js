@@ -1,3 +1,16 @@
+var housepricesInfo ={
+   "usage" : "houseprices",
+   "description" : "Description\nThe houseprices data frame consists of the floor\narea, price, and the number\nof bedrooms for a sample of houses sold in Aranda in 1999. \nAranda is a suburb of Canberra, Australia.",
+   "format" : "This data frame contains the following columns:",
+   "title" : "Aranda House Prices",
+   "reference" : "J.H. Maindonald",
+   "parameters" : {
+      "bedrooms" : "a numeric vector giving the number of bedrooms",
+      "area" : "a numeric vector giving the floor area",
+      "sale.price" : "a numeric vector giving the sale price\nin thousands of Australian dollars"
+   }
+}
+
 var houseprices = [
    [
       "area",

@@ -1,3 +1,25 @@
+var ClothingInfo ={
+   "parameters" : {
+      "inv1" : "investment in shop-premises",
+      "inv2" : "investment in automation.",
+      "ssize" : "sales floor space of the store (in m$^2$).",
+      "naux" : "number of helpers (temporary workers)",
+      "hoursw" : "total number of hours worked",
+      "hourspw" : "number of hours worked per worker",
+      "start" : "year start of business",
+      "sales" : "sales per square meter",
+      "tsales" : "annual sales in Dutch guilders",
+      "npart" : "number of part-timers",
+      "nfull" : "number of full-timers",
+      "nown" : "number of owners (managers)",
+      "margin" : "gross-profit-margin"
+   },
+   "description" : "Description\na cross-section from 1990\nnumber of observations :  400\nobservation :  production units\ncountry :  Netherland",
+   "usage" : "data(Clothing)",
+   "format" : "A dataframe containing :",
+   "title" : "Sales Data of Men's Fashion Stores"
+}
+
 var Clothing = [
    [
       "tsales",

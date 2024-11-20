@@ -1,3 +1,15 @@
+var fcidInfo ={
+   "usage" : "fcid",
+   "description" : "Description\nSample of heights based on the weighted sample in the survey.",
+   "title" : "Summary of male heights from USDA Food Commodity Intake Database",
+   "reference" : "fcid",
+   "format" : "A data frame with 100 observations on the following 2 variables.",
+   "parameters" : {
+      "num_of_adults" : "a numeric vector",
+      "height" : "a numeric vector"
+   }
+}
+
 var fcid = [
    [
       "height",

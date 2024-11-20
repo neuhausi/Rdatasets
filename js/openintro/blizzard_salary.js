@@ -1,3 +1,22 @@
+var blizzard_salaryInfo ={
+   "parameters" : {
+      "performance_rating" : "Most recent review performance rating.",
+      "percent_incr" : "Raise given July 2020.",
+      "timestamp" : "Time data was entered",
+      "other_info" : "Other information submitted by employee.",
+      "current_title" : "Current job title.",
+      "location" : "Current office of employment.",
+      "current_salary" : "Current salary (in USD).",
+      "salary_type" : "Frequency with levels year, hour, week.",
+      "status" : "Specifies employment status."
+   },
+   "title" : "Blizzard Employee Voluntary Salary Info.",
+   "reference" : "Bloomberg - Blizzard workers share salaries in revolt over wage disparities.",
+   "format" : "A data frame with 466 rows and 9 variables.",
+   "description" : "Description\nEmployee generated anonymous survey of salary information.",
+   "usage" : "blizzard_salary"
+}
+
 var blizzard_salary = [
    [
       "timestamp",

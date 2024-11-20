@@ -1,3 +1,13 @@
+var SP500Info ={
+   "format" : "A dataframe containing :",
+   "title" : "Returns on Standard & Poor's 500 Index",
+   "usage" : "data(SP500)",
+   "description" : "Description\ndaily observations from 1981&ndash;01 to 1991&ndash;04\nnumber of observations :  2783",
+   "parameters" : {
+      "r500" : "daily return S&P500 (change in log index)"
+   }
+}
+
 var SP500 = [
    [
       "r500"

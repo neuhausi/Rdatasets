@@ -1,3 +1,22 @@
+var retinopathyInfo ={
+   "parameters" : {
+      "status" : "0 = censored, 1 = loss of vision in this eye",
+      "type" : "type of diabetes: juvenile adult,\n(diagnosis before age 20)",
+      "futime" : "time to loss of vision or last follow-up",
+      "age" : "age at diagnosis of diabetes",
+      "trt" : "0 = control eye, 1 = treated eye",
+      "eye" : "which eye was treated: right left",
+      "id" : "numeric subject id",
+      "risk" : "a risk score for the eye.  This high risk\nsubset is defined as a score of 6 or greater in at least one eye.",
+      "laser" : "type of laser used: xenon argon"
+   },
+   "title" : "Diabetic Retinopathy",
+   "reference" : "The 197 patients in this dataset were a 50% random sample of the\npatients with \"high-risk\" diabetic retinopathy as defined by the\nDiabetic Retinopathy Study (DRS).  Each patient had one eye randomized\nto laser treatment and the other eye received no treatment,\nand has two observations in the data set.\nFor each\neye, the event of interest was the time from initiation of treatment\nto the time when visual acuity dropped below 5/200 two visits in a row.\nThus there is a built-in lag time of\napproximately 6 months (visits were every 3 months).  Survival times\nin this dataset are the actual time to vision loss in months,\nminus the minimum possible time to event (6.5 months).  Censoring was\ncaused by death, dropout, or end of the study.",
+   "format" : "A data frame with 394 observations on the following 9 variables.",
+   "description" : "Description\nA trial of laser coagulation as a treatment to delay\ndiabetic retinopathy.",
+   "usage" : "retinopathy\ndata(retinopathy, package=\"survival\")"
+}
+
 var retinopathy = [
    [
       "id",

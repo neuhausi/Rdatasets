@@ -1,3 +1,15 @@
+var OvaryInfo ={
+   "description" : "Description\nThe Ovary data frame has 308 rows and 3 columns.",
+   "parameters" : {
+      "Mare" : "an ordered factor indicating the mare on which the\nmeasurement is made.",
+      "follicles" : "the number of ovarian follicles greater than 10 mm in diameter.",
+      "Time" : "time in the estrus cycle.  The data were recorded daily from 3\ndays before ovulation until 3 days after the next ovulation. The\nmeasurement times for each mare are scaled so that the ovulations for\neach mare occur at times 0 and 1."
+   },
+   "usage" : "This data frame contains the following columns:",
+   "title" : "Counts of Ovarian Follicles",
+   "reference" : "Pierson and Ginther (1987) report on a study of the number of large\novarian follicles detected in different mares at several times in\ntheir estrus cycles."
+}
+
 var Ovary = [
    [
       "Mare",

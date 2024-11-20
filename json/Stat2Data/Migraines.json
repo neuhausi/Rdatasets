@@ -1,12 +1,6 @@
 {
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>Migraines</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Migraines and TMS</h2>\n<h3>Description</h3>\n<p>Effects of transcranial magnetic stimulation (TMS) on migraine headaches\n</p>\n<h3>Format</h3>\n<p>A data frame with 2 observations on the following 4 variables.\n</p>\n<dl>\n<dt><code>Group</code></dt><dd><p>Treatment group (<code>Placebo</code> or <code>TMS</code>)</p>\n</dd>\n<dt><code>Yes</code></dt><dd><p>Count of number of patients that were pain-free in each group</p>\n</dd>\n<dt><code>No</code></dt><dd><p>Count of number of patients that had pain in each group</p>\n</dd>\n<dt><code>Trials</code></dt><dd><p>Number of patients in each group</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>A study investigated whether a handheld device that sends a magnetic pulse into a person's head\nmight be an effective treatment for migraine headaches. Researchers recruited 200 subjects who\nsuffered from migraines and randomly assigned them to receive either the TMS (transcranial magnetic\nstimulation) treatment or a sham (placebo) treatment from a device that did not deliver any\nstimulation. Subjects were instructed to apply the device at the onset of migraine symptoms and\nthen assess how they felt two hours later. This dataset is a two-way table of the results.\n</p>\n<p>This dataset was called TMS in the first edition.\n</p>\n<h3>Source</h3>\n<p>Based on results in R. B. Lipton, et al, (2010) &quot;Single-pulse Transcranial Magnetic Stimulation\nfor Acute Treatment of Migraine with Aura: A Randomised, Double-blind, Parallel-group, Shamcontrolled\nTrial,&quot; Lancet Neurology, 9(4):373-380.\n</p>\n</main>\n</div>\n",
    "data" : {
       "y" : {
-         "smps" : [
-            "Yes",
-            "No",
-            "Trials"
-         ],
          "data" : [
             [
                39,
@@ -18,6 +12,11 @@
                78,
                100
             ]
+         ],
+         "smps" : [
+            "Yes",
+            "No",
+            "Trials"
          ],
          "vars" : [
             "Var1",
@@ -31,6 +30,7 @@
          ]
       }
    },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>Migraines</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Migraines and TMS</h2>\n<h3>Description</h3>\n<p>Effects of transcranial magnetic stimulation (TMS) on migraine headaches\n</p>\n<h3>Format</h3>\n<p>A data frame with 2 observations on the following 4 variables.\n</p>\n<dl>\n<dt><code>Group</code></dt><dd><p>Treatment group (<code>Placebo</code> or <code>TMS</code>)</p>\n</dd>\n<dt><code>Yes</code></dt><dd><p>Count of number of patients that were pain-free in each group</p>\n</dd>\n<dt><code>No</code></dt><dd><p>Count of number of patients that had pain in each group</p>\n</dd>\n<dt><code>Trials</code></dt><dd><p>Number of patients in each group</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>A study investigated whether a handheld device that sends a magnetic pulse into a person's head\nmight be an effective treatment for migraine headaches. Researchers recruited 200 subjects who\nsuffered from migraines and randomly assigned them to receive either the TMS (transcranial magnetic\nstimulation) treatment or a sham (placebo) treatment from a device that did not deliver any\nstimulation. Subjects were instructed to apply the device at the onset of migraine symptoms and\nthen assess how they felt two hours later. This dataset is a two-way table of the results.\n</p>\n<p>This dataset was called TMS in the first edition.\n</p>\n<h3>Source</h3>\n<p>Based on results in R. B. Lipton, et al, (2010) &quot;Single-pulse Transcranial Magnetic Stimulation\nfor Acute Treatment of Migraine with Aura: A Randomised, Double-blind, Parallel-group, Shamcontrolled\nTrial,&quot; Lancet Neurology, 9(4):373-380.\n</p>\n</main>\n</div>\n",
    "config" : {
       "title" : "Migraines and TMS",
       "colorBy" : "Group",

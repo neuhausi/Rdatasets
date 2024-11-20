@@ -1,12 +1,12 @@
 {
    "config" : {
       "graphType" : "Boxplot",
-      "subtitle" : "Ecdat - Hstarts",
       "title" : "Housing Starts",
+      "colorBy" : "variable",
+      "subtitle" : "Ecdat - Hstarts",
       "groupingFactors" : [
          "hssa"
-      ],
-      "colorBy" : "variable"
+      ]
    },
    "data" : {
       "x" : {
@@ -352,6 +352,9 @@
             "Smp167",
             "Smp168"
          ],
+         "vars" : [
+            "hs"
+         ],
          "data" : [
             [
                7.98933,
@@ -523,9 +526,6 @@
                9.43065,
                9.44894
             ]
-         ],
-         "vars" : [
-            "hs"
          ]
       }
    },

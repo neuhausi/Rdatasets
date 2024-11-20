@@ -1,3 +1,20 @@
+var NaturalParkInfo ={
+   "usage" : "data(NaturalPark)",
+   "description" : "Description\na cross-section from 1987\nnumber of observations :  312\nobservation :  individuals\ncountry :  Portugal",
+   "reference" : "Nunes, Paulo (2000) Contingent Valuation of the Benefits of natural areas and its warmglow component, PhD thesis 133, FETEW, KU Leuven.",
+   "title" : "Willingness to Pay for the Preservation of the Alentejo Natural Park",
+   "format" : "A dataframe containing :",
+   "parameters" : {
+      "income" : "income in 8 classes",
+      "age" : "age in 6 classes",
+      "bidh" : "higher bid",
+      "bid1" : "initial bid, in euro",
+      "bidl" : "lower bid",
+      "answers" : "a factor with levels (nn, \nny, yn, yy)",
+      "sex" : "a factor with levels (male,female)"
+   }
+}
+
 var NaturalPark = [
    [
       "bid1",

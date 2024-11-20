@@ -1,4 +1,11 @@
 {
+   "config" : {
+      "subtitle" : "drc - daphnids",
+      "graphType" : "Scatter3D",
+      "colorBy" : "time",
+      "title" : "Daphnia test"
+   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>daphnids</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Daphnia test</h2>\n<h3>Description</h3>\n<p>The number of immobile daphnids &ndash;in contrast to mobile daphnids&ndash; out of a total of 20 daphnids was counted \nfor several concentrations of a toxic substance.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(daphnids)</code></pre>\n<h3>Format</h3>\n<p>A data frame with 16 observations on the following 4 variables.\n</p>\n<dl>\n<dt><code>dose</code></dt><dd><p>a numeric vector</p>\n</dd>\n<dt><code>no</code></dt><dd><p>a numeric vector</p>\n</dd>\n<dt><code>total</code></dt><dd><p>a numeric vector</p>\n</dd>\n<dt><code>time</code></dt><dd><p>a factor with levels <code>24h</code> <code>48h</code></p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>The same daphnids were counted at 24h and later again at 48h.\n</p>\n<h3>Source</h3>\n<p>Nina Cedergreen, Faculty of Life Sciences, University of Copenhagen, Denmark.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>\n## Fitting a model with different parameters\n## for different curves\ndaphnids.m1 &lt;- drm(no/total~dose, time, weights = total, \ndata = daphnids, fct = LL.2(), type = \"binomial\")\n## Goodness-of-fit test\nmodelFit(daphnids.m1)\n## Summary of the data\nsummary(daphnids.m1)\n## Fitting a model with a common intercept parameter\ndaphnids.m2 &lt;- drm(no/total~dose, time, weights = total, \ndata = daphnids, fct = LL.2(), type = \"binomial\", \npmodels = list(~1, ~time))\n</code></pre>\n</main>\n</div>\n",
    "data" : {
       "z" : {
          "time" : [
@@ -38,6 +45,11 @@
             "Var14",
             "Var15",
             "Var16"
+         ],
+         "smps" : [
+            "dose",
+            "no",
+            "total"
          ],
          "data" : [
             [
@@ -120,19 +132,7 @@
                20,
                20
             ]
-         ],
-         "smps" : [
-            "dose",
-            "no",
-            "total"
          ]
       }
-   },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>daphnids</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Daphnia test</h2>\n<h3>Description</h3>\n<p>The number of immobile daphnids &ndash;in contrast to mobile daphnids&ndash; out of a total of 20 daphnids was counted \nfor several concentrations of a toxic substance.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(daphnids)</code></pre>\n<h3>Format</h3>\n<p>A data frame with 16 observations on the following 4 variables.\n</p>\n<dl>\n<dt><code>dose</code></dt><dd><p>a numeric vector</p>\n</dd>\n<dt><code>no</code></dt><dd><p>a numeric vector</p>\n</dd>\n<dt><code>total</code></dt><dd><p>a numeric vector</p>\n</dd>\n<dt><code>time</code></dt><dd><p>a factor with levels <code>24h</code> <code>48h</code></p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>The same daphnids were counted at 24h and later again at 48h.\n</p>\n<h3>Source</h3>\n<p>Nina Cedergreen, Faculty of Life Sciences, University of Copenhagen, Denmark.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>\n## Fitting a model with different parameters\n## for different curves\ndaphnids.m1 &lt;- drm(no/total~dose, time, weights = total, \ndata = daphnids, fct = LL.2(), type = \"binomial\")\n## Goodness-of-fit test\nmodelFit(daphnids.m1)\n## Summary of the data\nsummary(daphnids.m1)\n## Fitting a model with a common intercept parameter\ndaphnids.m2 &lt;- drm(no/total~dose, time, weights = total, \ndata = daphnids, fct = LL.2(), type = \"binomial\", \npmodels = list(~1, ~time))\n</code></pre>\n</main>\n</div>\n",
-   "config" : {
-      "title" : "Daphnia test",
-      "colorBy" : "time",
-      "graphType" : "Scatter3D",
-      "subtitle" : "drc - daphnids"
    }
 }

@@ -1,3 +1,17 @@
+var OxideInfo ={
+   "usage" : "This data frame contains the following columns:",
+   "title" : "Variability in Semiconductor Manufacturing",
+   "reference" : "These data are described in Littell et al. (1996, p. 155) as coming\n&ldquo;from a passive data collection study in the semiconductor industry\nwhere the objective is to estimate the variance components to\ndetermine the assignable causes of the observed variability.&rdquo; The\nobserved response is the thickness of the oxide layer on silicon\nwafers, measured at three different sites of each of three wafers\nselected from each of eight lots sampled from the population of\nlots.",
+   "description" : "Description\nThe Oxide data frame has 72 rows and 5 columns.",
+   "parameters" : {
+      "Wafer" : "a factor giving a unique identifier for each wafer within a lot.",
+      "Lot" : "a factor giving a unique identifier for each lot.",
+      "Thickness" : "a numeric vector giving the thickness of the oxide layer.",
+      "Source" : "a factor with levels\n1 and\n2",
+      "Site" : "a factor with levels\n1, \n2, and \n3"
+   }
+}
+
 var Oxide = [
    [
       "Source",

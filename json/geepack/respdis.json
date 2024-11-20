@@ -1,13 +1,14 @@
 {
-   "config" : {
-      "title" : "Clustered Ordinal Respiratory Disorder",
-      "graphType" : "Scatter2D",
-      "subtitle" : "geepack - respdis",
-      "scatterPlotMatrix" : 1
-   },
    "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>respdis</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Clustered Ordinal Respiratory Disorder</h2>\n<h3>Description</h3>\n<p>The <code>respdis</code> data frame has 111 rows and 3 columns. The study described\nin Miller et. al. (1993) is a randomized clinical trial of a new treatment of\nrespiratory disorder. The study was conducted in 111 patients who were\nrandomly assigned to one of two treatments (active, placebo). At each of four\nvisits during the follow-up period, the response status of each patients was\nclassified on an ordinal scale.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>respdis\n</code></pre>\n<h3>Format</h3>\n<p>This data frame contains the following columns:\n</p>\n<dl>\n<dt>y1, y2, y3, y4</dt><dd><p>ordered factor measured at 4 visits for the response with\nlevels, <code>1</code> &lt; <code>2</code> &lt; <code>3</code>, 1 = poor, 2 = good, and 3 =\nexcellent</p>\n</dd>\n<dt>trt</dt><dd><p>a factor for treatment with levels, 1 = active, 0 =\nplacebo.</p>\n</dd>\n</dl>\n<h3>References</h3>\n<p>Miller, M.E., David, C.S., and Landis, R.J. (1993) The analysis\nof longitudinal polytomous data: Generalized estimating equation and\nconnections with weighted least squares, <em>Biometrics</em> <b>49</b>:\n1033-1048.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>\ndata(respdis)\nresp.l &lt;- reshape(respdis, varying = list(c(\"y1\", \"y2\", \"y3\", \"y4\")),\n                  v.names = \"resp\", direction = \"long\")\nresp.l &lt;- resp.l[order(resp.l$id, resp.l$time),]\nfit &lt;- ordgee(ordered(resp) ~ trt, id = id, data = resp.l, int.const = FALSE)\nsummary(fit)\nz &lt;- model.matrix( ~ trt - 1, data = respdis)\nind &lt;- rep(1:111, 4*3/2 * 2^2)\nzmat &lt;- z[ind,,drop=FALSE]\nfit &lt;- ordgee(ordered(resp) ~ trt, id = id, data = resp.l, int.const = FALSE,\n              z = zmat, corstr = \"exchangeable\")\nsummary(fit)\n</code></pre>\n</main>\n</div>\n",
    "data" : {
       "y" : {
+         "smps" : [
+            "y1",
+            "y2",
+            "y3",
+            "y4",
+            "trt"
+         ],
          "vars" : [
             "Var1",
             "Var2",
@@ -899,14 +900,13 @@
                3,
                0
             ]
-         ],
-         "smps" : [
-            "y1",
-            "y2",
-            "y3",
-            "y4",
-            "trt"
          ]
       }
+   },
+   "config" : {
+      "graphType" : "Scatter2D",
+      "title" : "Clustered Ordinal Respiratory Disorder",
+      "scatterPlotMatrix" : 1,
+      "subtitle" : "geepack - respdis"
    }
 }

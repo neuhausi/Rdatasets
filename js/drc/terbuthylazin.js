@@ -1,3 +1,15 @@
+var terbuthylazinInfo ={
+   "description" : "Description\nTest on the effect of terbuthylazin on  Lemna minor, performed on an aseptic\nculture according to the OECD-guidelines.",
+   "usage" : "data(terbuthylazin)",
+   "parameters" : {
+      "dose" : "a numeric vector of dose values.",
+      "rgr" : "a numeric vector of relative growth rates."
+   },
+   "format" : "A data frame with 30 observations on the following 2 variables.",
+   "reference" : "Dose is",
+   "title" : "The effect of terbuthylazin on growth rate"
+}
+
 var terbuthylazin = [
    [
       "dose",

@@ -1,3 +1,14 @@
+var cchousingInfo ={
+   "parameters" : {
+      "price" : "Monthly housing price, simulated."
+   },
+   "reference" : "hist(cchousing$price)",
+   "format" : "A data frame with 75 observations on the following variable.",
+   "title" : "Community college housing (simulated data)",
+   "description" : "Description\nThese are simulated data and intended to represent housing prices of\nstudents at a community college.",
+   "usage" : "cchousing"
+}
+
 var cchousing = [
    [
       "price"

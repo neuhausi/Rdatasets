@@ -1,8 +1,8 @@
 {
    "config" : {
-      "graphType" : "Scatter2D",
       "subtitle" : "Stat2Data - Fluorescence",
-      "title" : "Measuring Calcium Binding to Proteins"
+      "title" : "Measuring Calcium Binding to Proteins",
+      "graphType" : "Scatter2D"
    },
    "data" : {
       "y" : {
@@ -212,10 +212,6 @@
                0.98589626
             ]
          ],
-         "smps" : [
-            "Calcium",
-            "ProteinProp"
-         ],
          "vars" : [
             "Var1",
             "Var2",
@@ -268,6 +264,10 @@
             "Var49",
             "Var50",
             "Var51"
+         ],
+         "smps" : [
+            "Calcium",
+            "ProteinProp"
          ]
       }
    },

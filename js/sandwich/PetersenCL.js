@@ -1,3 +1,17 @@
+var PetersenCLInfo ={
+   "parameters" : {
+      "y" : "numeric. Dependent response variable.",
+      "year" : "integer. Time variable (10 years per firm).",
+      "x" : "numeric. Independent regressor variable.",
+      "firm" : "integer. Firm identifier (500 firms)."
+   },
+   "reference" : "This simulated data set was created to illustrate and benchmark clustered standard errors.\nThe residual and the regressor variable both contain a firm effect, but no year effect.\nThus, standard errors clustered by firm are different from the OLS standard errors\nand similarly double-clustered standard errors (by firm and year) are different from\nthe standard errors clustered by year.",
+   "title" : "Petersen's Simulated Data for Assessing Clustered Standard Errors",
+   "format" : "A data frame containing 5000 observations on 4 variables.",
+   "description" : "Description\nArtificial balanced panel data set from Petersen (2009) for\nillustrating and benchmarking clustered standard errors.",
+   "usage" : "data(\"PetersenCL\")"
+}
+
 var PetersenCL = [
    [
       "firm",

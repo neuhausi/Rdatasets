@@ -1,13 +1,27 @@
 {
    "config" : {
-      "title" : "smoking",
-      "subtitle" : "COUNT - smoking",
       "scatterPlotMatrix" : 1,
-      "graphType" : "Scatter2D"
+      "graphType" : "Scatter2D",
+      "title" : "smoking",
+      "subtitle" : "COUNT - smoking"
    },
    "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>smoking</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>smoking</h2>\n<h3>Description</h3>\n<p>A simple data set with only 6 observations. \n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(smoking)</code></pre>\n<h3>Format</h3>\n<p>A data frame with 6 observations on the following 4 variables.\n</p>\n<dl>\n<dt><code>sbp</code></dt><dd><p>systolic blood pressure of subject</p>\n</dd>\n<dt><code>male</code></dt><dd><p>1=male; 0=female</p>\n</dd>\n<dt><code>smoker</code></dt><dd><p>1=hist of smoking; 0= no hist of smoking</p>\n</dd>\n<dt><code>age</code></dt><dd><p>age of subject</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>smoking is saved as a data frame.\n</p>\n<h3>Source</h3>\n<p>none \n</p>\n<h3>References</h3>\n<p>Hilbe, Joseph M (2014), Modeling Count Data, Cambridge University Press\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>sbp    &lt;- c(131,132,122,119,123,115)\nmale   &lt;- c(1,1,1,0,0,0)\nsmoker &lt;- c(1,1,0,0,1,0)\nage    &lt;- c(34,36,30,32,26,23)\nsummary(reg1 &lt;- lm(sbp~ male+smoker+age))\n</code></pre>\n</main>\n</div>\n",
    "data" : {
       "y" : {
+         "smps" : [
+            "sbp",
+            "male",
+            "smoker",
+            "age"
+         ],
+         "vars" : [
+            "Var1",
+            "Var2",
+            "Var3",
+            "Var4",
+            "Var5",
+            "Var6"
+         ],
          "data" : [
             [
                131,
@@ -45,20 +59,6 @@
                0,
                23
             ]
-         ],
-         "smps" : [
-            "sbp",
-            "male",
-            "smoker",
-            "age"
-         ],
-         "vars" : [
-            "Var1",
-            "Var2",
-            "Var3",
-            "Var4",
-            "Var5",
-            "Var6"
          ]
       }
    }

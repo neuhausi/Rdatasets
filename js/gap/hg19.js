@@ -1,3 +1,10 @@
+var hg19Info ={
+   "description" : "Description\nData are used in other functions.",
+   "format" : "A vector containing lengths of chromosomes.",
+   "title" : "Chromosomal lengths for build 37",
+   "usage" : "hg19"
+}
+
 var hg19 = [
    [
       "dat"

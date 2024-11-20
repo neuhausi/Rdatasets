@@ -1,3 +1,18 @@
+var DanishWelfareInfo ={
+   "description" : "Description\nData from the Danish Welfare Study.",
+   "usage" : "data(\"DanishWelfare\")",
+   "parameters" : {
+      "Income" : "factor indicating income group in 1000 DKK (0-50,\n50-100, 100-150, >150).",
+      "Urban" : "factor indicating urbanization: Copenhagen\n(Copenhagen), Suburbian Copenhagen (SubCopenhagen), three largest\ncities (LargeCity), other cities (City), countryside (Country).",
+      "Freq" : "frequency.",
+      "Status" : "factor indicating marriage status (Widow, Married,\nUnmarried).",
+      "Alcohol" : "factor indicating daily alcohol consumption: less\nthan 1 unit (<1), 1-2 units (1-2) or more than 2 units (>2).\n1 unit is approximately 1 bottle of beer or 4cl 40% alcohol."
+   },
+   "title" : "Danish Welfare Study Data",
+   "format" : "A data frame with 180 observations and 5 variables.",
+   "reference" : "E. B. Andersen (1991),\nThe Statistical Analysis of Categorical Data, page 205."
+}
+
 var DanishWelfare = [
    [
       "Freq",

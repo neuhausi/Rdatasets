@@ -1,3 +1,18 @@
+var NLSYInfo ={
+   "usage" : "A data frame with 243 observations on the following 6 variables.",
+   "reference" : "In this dataset, math and read scores are taken at the outcome\nvariables. Among the remaining predictors, income and educ\nmight be considered as background variables necessary to control for.\nInterest might then be focused on whether the behavioural variables\nantisoc and hyperact contribute beyond that.",
+   "title" : "National Longitudinal Survey of Youth Data",
+   "parameters" : {
+      "educ" : "years of education of child's father",
+      "hyperact" : "score on a measure of child's\nhyperactive behavior, 0:5",
+      "read" : "Reading achievement test score",
+      "income" : "yearly income of child's father",
+      "antisoc" : "score on a measure of child's antisocial behavior, 0:6",
+      "math" : "Math achievement test score"
+   },
+   "description" : "Description\nThe dataset come from a small random sample of the U.S. National\nLongitudinal Survey of Youth."
+}
+
 var NLSY = [
    [
       "math",

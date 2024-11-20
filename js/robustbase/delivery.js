@@ -1,3 +1,16 @@
+var deliveryInfo ={
+   "title" : "Delivery Time Data",
+   "reference" : "Montgomery and Peck (1982, p.116)",
+   "format" : "A data frame with 25 observations on the following 3 variables.",
+   "parameters" : {
+      "n.prod" : "Number of Products",
+      "delTime" : "Delivery time",
+      "distance" : "Distance"
+   },
+   "usage" : "data(delivery, package=\"robustbase\")",
+   "description" : "Description\nDelivery Time Data, from Montgomery and Peck (1982).\nThe aim is to explain the time required to service a vending\nmachine (Y) by means of the number of products stocked (X1) and the\ndistance walked by the route driver (X2)."
+}
+
 var delivery = [
    [
       "n.prod",

@@ -1,3 +1,14 @@
+var appletasteInfo ={
+   "title" : "Tasting experiment that compared four apple varieties",
+   "format" : "A data frame with 60 observations on the following 3 variables.",
+   "reference" : "data(appletaste)\nappletaste.aov <- aov(aftertaste ~ panelist + product, data=appletaste)\ntermplot(appletaste.aov)",
+   "parameters" : {
+      "aftertaste" : "a numeric vector"
+   },
+   "usage" : "data(appletaste)",
+   "description" : "Description\nEach of 20 tasters each assessed three out of the four varieties.\nThe experiment was conducted according to a balanced incomplete\nblock design."
+}
+
 var appletaste = [
    [
       "aftertaste",

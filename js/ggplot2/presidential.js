@@ -1,3 +1,16 @@
+var presidentialInfo ={
+   "description" : "Description\nThe names of each president, the start and end date of their term, and\ntheir party of 12 US presidents from Eisenhower to Trump.  This data is\nin the public domain.",
+   "parameters" : {
+      "end" : "Presidency end date",
+      "party" : "Party of president",
+      "start" : "Presidency start date",
+      "name" : "Last name of president"
+   },
+   "title" : "Terms of 12 presidents from Eisenhower to Trump",
+   "format" : "A data frame with 12 rows and 4 variables:",
+   "usage" : "presidential"
+}
+
 var presidential = [
    [
       "name",

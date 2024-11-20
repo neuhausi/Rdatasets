@@ -1,10 +1,4 @@
 {
-   "config" : {
-      "scatterPlotMatrix" : 1,
-      "subtitle" : "Ecdat - Mishkin",
-      "graphType" : "Scatter2D",
-      "title" : "Inflation and Interest Rates"
-   },
    "data" : {
       "y" : {
          "data" : [
@@ -3446,13 +3440,6 @@
                133.8
             ]
          ],
-         "smps" : [
-            "pai1",
-            "pai3",
-            "tb1",
-            "tb3",
-            "cpi"
-         ],
          "vars" : [
             "Var1",
             "Var2",
@@ -3945,8 +3932,21 @@
             "Var489",
             "Var490",
             "Var491"
+         ],
+         "smps" : [
+            "pai1",
+            "pai3",
+            "tb1",
+            "tb3",
+            "cpi"
          ]
       }
    },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>Mishkin</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Inflation and Interest Rates </h2>\n<h3>Description</h3>\n<p>monthly observations from 1950-2 to 1990-12\n</p>\n<p><em>number of observations</em> :  491\n</p>\n<p><em>observation</em> :  country\n</p>\n<p><em>country</em> :  United States\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(Mishkin)</code></pre>\n<h3>Format</h3>\n<p>A time series containing :\n</p>\n<dl>\n<dt>pai1</dt><dd><p>one-month inflation rate (in percent, annual rate)</p>\n</dd>\n<dt>pai3</dt><dd><p>three-month inflation rate (in percent, annual rate)</p>\n</dd>\n<dt>tb1</dt><dd><p>one-month T-bill rate (in percent, annual rate)</p>\n</dd>\n<dt>tb3</dt><dd><p>three-month T-bill rate (in percent, annual rate)</p>\n</dd>\n<dt>cpi</dt><dd><p>CPI for urban consumers, all items (the 1982-1984 average is set to 100)</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>Mishkin, F. (1992) &ldquo;Is the Fisher effect for real ?&rdquo;, <em>Journal of Monetary Economics</em>, <b>30</b>, 195-215.\n</p>\n<h3>References</h3>\n<p>Hayashi, F. (2000) <em>Econometrics</em>, Princeton University Press, <a href=\"http://fhayashi.fc2web.com/hayashi_econometrics.htm\">http://fhayashi.fc2web.com/hayashi_econometrics.htm</a>, chapter 2, 176-184.\n</p>\n<h3>See Also</h3>\n<p><code>Index.Source</code>, <code>Index.Economics</code>, <code>Index.Econometrics</code>, <code>Index.Observations</code>,\n</p>\n<p><code>Index.Time.Series</code></p>\n</main>\n</div>\n"
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>Mishkin</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Inflation and Interest Rates </h2>\n<h3>Description</h3>\n<p>monthly observations from 1950-2 to 1990-12\n</p>\n<p><em>number of observations</em> :  491\n</p>\n<p><em>observation</em> :  country\n</p>\n<p><em>country</em> :  United States\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(Mishkin)</code></pre>\n<h3>Format</h3>\n<p>A time series containing :\n</p>\n<dl>\n<dt>pai1</dt><dd><p>one-month inflation rate (in percent, annual rate)</p>\n</dd>\n<dt>pai3</dt><dd><p>three-month inflation rate (in percent, annual rate)</p>\n</dd>\n<dt>tb1</dt><dd><p>one-month T-bill rate (in percent, annual rate)</p>\n</dd>\n<dt>tb3</dt><dd><p>three-month T-bill rate (in percent, annual rate)</p>\n</dd>\n<dt>cpi</dt><dd><p>CPI for urban consumers, all items (the 1982-1984 average is set to 100)</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>Mishkin, F. (1992) &ldquo;Is the Fisher effect for real ?&rdquo;, <em>Journal of Monetary Economics</em>, <b>30</b>, 195-215.\n</p>\n<h3>References</h3>\n<p>Hayashi, F. (2000) <em>Econometrics</em>, Princeton University Press, <a href=\"http://fhayashi.fc2web.com/hayashi_econometrics.htm\">http://fhayashi.fc2web.com/hayashi_econometrics.htm</a>, chapter 2, 176-184.\n</p>\n<h3>See Also</h3>\n<p><code>Index.Source</code>, <code>Index.Economics</code>, <code>Index.Econometrics</code>, <code>Index.Observations</code>,\n</p>\n<p><code>Index.Time.Series</code></p>\n</main>\n</div>\n",
+   "config" : {
+      "subtitle" : "Ecdat - Mishkin",
+      "scatterPlotMatrix" : 1,
+      "title" : "Inflation and Interest Rates",
+      "graphType" : "Scatter2D"
+   }
 }

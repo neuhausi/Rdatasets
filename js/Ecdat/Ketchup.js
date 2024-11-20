@@ -1,3 +1,17 @@
+var KetchupInfo ={
+   "description" : "Description\na cross-section\nnumber of observations :  4956\nobservation :  individuals\ncountry :  United States",
+   "usage" : "data(Ketchup)",
+   "parameters" : {
+      "id" : "purchase identifiers",
+      "hid" : "individuals identifiers",
+      "price.z" : "price of brand z",
+      "choice" : "one of heinz, hunts, \ndelmonte, stb (store \nbrand)"
+   },
+   "title" : "Choice of Brand for Ketchup",
+   "format" : "A dataframe containing :",
+   "reference" : "Kim, Byong&ndash;Do,  Robert C.   Blattberg and  Peter E.  Rossi (1995) &ldquo;Modeling the distribution of price sensitivity and implications for optimal retail pricing&rdquo;, Journal of Business Economics and Statistics, 13(3), 291."
+}
+
 var Ketchup = [
    [
       "Ketchup.hid",

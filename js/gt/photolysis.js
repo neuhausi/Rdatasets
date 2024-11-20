@@ -1,3 +1,20 @@
+var photolysisInfo ={
+   "parameters" : {
+      "quantum_yield" : "In the context of photolysis reactions, this is the\nefficiency of a given photolytic reaction. In other words, it's the number of\nproduct molecules formed over the number of photons absorbed.",
+      "compd_name" : "The name of the primary compound undergoing photolysis.",
+      "l, m, n" : "The parameter values given in the l, m, and n columns\ncan be used to calculate the photolysis rate (J) as a function of the\nsolar zenith angle (X, in radians) through the expression:\nJ = l * cos(X)^m * exp(-n * sec(X)).",
+      "type" : "The type of organic compound undergoing photolysis.",
+      "cmpd_formula" : "The chemical formula of the compound.",
+      "wavelength_nm, sigma_298_cm2" : "The wavelength_nm and sigma_298_cm2\ncolumns provide photoabsorption data for the compound undergoing photolysis.\nThe values in wavelength_nm provide the wavelength of light in nanometer\nunits; the sigma_298_cm2 values are paired with the wavelength_nm values\nand they are in units of &#8288;cm^2 molecule^-1&#8288;.",
+      "products" : "A product pathway for the photolysis of the compound."
+   },
+   "format" : "A tibble with 34 rows and 10 variables:",
+   "title" : "Data on photolysis rates for gas-phase organic compounds",
+   "reference" : "Here is a glimpse at the data available in photolysis.",
+   "description" : "Description\nThe photolysis dataset contains numerical values for describing the\nphotolytic degradation pathways of 25 compounds of relevance in atmospheric\nchemistry. Many volatile organic compounds (VOCs) are emitted in substantial\nquantities from both biogenic and anthropogenic sources, and they can have a\nmajor influence on the chemistry of the lower atmosphere. A portion of these\ncan be transformed into other VOCs via the energy provided from light.\nIn order to realistically predict the composition of the atmosphere and how\nit evolves over time, we need accurate estimates of photolysis rates. The\ndata provided here in photolysis allows for computations of photolysis\nrates (J, having units of s^-1) as a function of the solar zenith angle\n(SZA). Having such values is essential when deploying atmospheric chemistry\nmodels.",
+   "usage" : "photolysis"
+}
+
 var photolysis = [
    [
       "cmpd_name",

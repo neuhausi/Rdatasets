@@ -1,39 +1,7 @@
 {
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>clouds</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2> Cloud Seeding Data </h2>\n<h3>Description</h3>\n<p>Data from an experiment investigating the use of massive \namounts of silver iodide (100 to 1000 grams per cloud) in cloud\nseeding to increase rainfall.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(\"clouds\")</code></pre>\n<h3>Format</h3>\n<p>A data frame with 24 observations on the following 7 variables.\n</p>\n<dl>\n<dt>seeding</dt><dd><p>a factor indicating whether seeding action occured (<code>no</code>\nor <code>yes</code>).</p>\n</dd>\n<dt>time</dt><dd><p>number of days after the first day of the experiment.</p>\n</dd>\n<dt>sne</dt><dd><p>suitability criterion.</p>\n</dd>\n<dt>cloudcover</dt><dd><p>the percentage cloud cover in the experimental area,\nmeasured using radar.</p>\n</dd>\n<dt>prewetness</dt><dd><p>the total rainfall in the target area one hour before\nseeding (in cubic metres times <code>1e+8</code>).</p>\n</dd>\n<dt>echomotion</dt><dd><p>a factor showing whether the radar echo was\n<code>moving</code> or <code>stationary</code>.</p>\n</dd>\n<dt>rainfall</dt><dd><p>the amount of rain in cubic metres times <code>1e+8</code>.</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>Weather modification, or cloud seeding, is the treatment of individual\nclouds or storm systems with various inorganic and organic materials\nin the hope of achieving an increase in rainfall. Introduction\nof such material into a cloud that contains supercooled water,\nthat is, liquid water colder than zero Celsius, has the aim of \ninducing freezing, with the consequent ice particles growing  \nat the expense of liquid droplets and becoming heavy enough to\nfall as rain from clouds that otherwise would produce none.\n</p>\n<p>The data available in <code>cloud</code> were collected in the summer\nof 1975 from an experiment to investigate the use of massive \namounts of silver iodide 100 to 1000 grams per cloud) in cloud\nseeding to increase rainfall. \nIn the experiment, which was conducted \nin an area of Florida, 24 days were judged suitable for seeding \non the basis that a measured suitability criterion (<code>SNE</code>).\n</p>\n<h3>Source</h3>\n<p>W. L. Woodley, J. Simpson, R. Biondini and J. Berkeley (1977),\nRainfall results 1970-75: Florida area cumulus experiment.\n<em>Science</em> <b>195</b>, 735&ndash;742.\n</p>\n<p>R. D. Cook and S. Weisberg (1980), Characterizations of an \nempirical influence function for detecting influential cases in \nregression. <em>Technometrics</em> <b>22</b>, 495&ndash;508.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>\n  data(\"clouds\", package = \"HSAUR\")\n  layout(matrix(1:2, nrow = 2))\n  boxplot(rainfall ~ seeding, data = clouds, ylab = \"Rainfall\")\n  boxplot(rainfall ~ echomotion, data = clouds, ylab = \"Rainfall\")    \n</code></pre>\n</main>\n</div>\n",
    "data" : {
       "y" : {
-         "vars" : [
-            "Var1",
-            "Var2",
-            "Var3",
-            "Var4",
-            "Var5",
-            "Var6",
-            "Var7",
-            "Var8",
-            "Var9",
-            "Var10",
-            "Var11",
-            "Var12",
-            "Var13",
-            "Var14",
-            "Var15",
-            "Var16",
-            "Var17",
-            "Var18",
-            "Var19",
-            "Var20",
-            "Var21",
-            "Var22",
-            "Var23",
-            "Var24"
-         ],
-         "smps" : [
-            "time",
-            "sne",
-            "cloudcover",
-            "prewetness",
-            "rainfall"
-         ],
          "data" : [
             [
                0,
@@ -203,35 +171,42 @@
                0.168,
                0.28
             ]
+         ],
+         "smps" : [
+            "time",
+            "sne",
+            "cloudcover",
+            "prewetness",
+            "rainfall"
+         ],
+         "vars" : [
+            "Var1",
+            "Var2",
+            "Var3",
+            "Var4",
+            "Var5",
+            "Var6",
+            "Var7",
+            "Var8",
+            "Var9",
+            "Var10",
+            "Var11",
+            "Var12",
+            "Var13",
+            "Var14",
+            "Var15",
+            "Var16",
+            "Var17",
+            "Var18",
+            "Var19",
+            "Var20",
+            "Var21",
+            "Var22",
+            "Var23",
+            "Var24"
          ]
       },
       "z" : {
-         "seeding" : [
-            "no",
-            "yes",
-            "yes",
-            "no",
-            "yes",
-            "no",
-            "no",
-            "no",
-            "no",
-            "yes",
-            "yes",
-            "yes",
-            "no",
-            "yes",
-            "yes",
-            "no",
-            "no",
-            "yes",
-            "no",
-            "yes",
-            "yes",
-            "no",
-            "yes",
-            "no"
-         ],
          "echomotion" : [
             "stationary",
             "moving",
@@ -257,16 +232,41 @@
             "moving",
             "moving",
             "moving"
+         ],
+         "seeding" : [
+            "no",
+            "yes",
+            "yes",
+            "no",
+            "yes",
+            "no",
+            "no",
+            "no",
+            "no",
+            "yes",
+            "yes",
+            "yes",
+            "no",
+            "yes",
+            "yes",
+            "no",
+            "no",
+            "yes",
+            "no",
+            "yes",
+            "yes",
+            "no",
+            "yes",
+            "no"
          ]
       }
    },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>clouds</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2> Cloud Seeding Data </h2>\n<h3>Description</h3>\n<p>Data from an experiment investigating the use of massive \namounts of silver iodide (100 to 1000 grams per cloud) in cloud\nseeding to increase rainfall.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(\"clouds\")</code></pre>\n<h3>Format</h3>\n<p>A data frame with 24 observations on the following 7 variables.\n</p>\n<dl>\n<dt>seeding</dt><dd><p>a factor indicating whether seeding action occured (<code>no</code>\nor <code>yes</code>).</p>\n</dd>\n<dt>time</dt><dd><p>number of days after the first day of the experiment.</p>\n</dd>\n<dt>sne</dt><dd><p>suitability criterion.</p>\n</dd>\n<dt>cloudcover</dt><dd><p>the percentage cloud cover in the experimental area,\nmeasured using radar.</p>\n</dd>\n<dt>prewetness</dt><dd><p>the total rainfall in the target area one hour before\nseeding (in cubic metres times <code>1e+8</code>).</p>\n</dd>\n<dt>echomotion</dt><dd><p>a factor showing whether the radar echo was\n<code>moving</code> or <code>stationary</code>.</p>\n</dd>\n<dt>rainfall</dt><dd><p>the amount of rain in cubic metres times <code>1e+8</code>.</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>Weather modification, or cloud seeding, is the treatment of individual\nclouds or storm systems with various inorganic and organic materials\nin the hope of achieving an increase in rainfall. Introduction\nof such material into a cloud that contains supercooled water,\nthat is, liquid water colder than zero Celsius, has the aim of \ninducing freezing, with the consequent ice particles growing  \nat the expense of liquid droplets and becoming heavy enough to\nfall as rain from clouds that otherwise would produce none.\n</p>\n<p>The data available in <code>cloud</code> were collected in the summer\nof 1975 from an experiment to investigate the use of massive \namounts of silver iodide 100 to 1000 grams per cloud) in cloud\nseeding to increase rainfall. \nIn the experiment, which was conducted \nin an area of Florida, 24 days were judged suitable for seeding \non the basis that a measured suitability criterion (<code>SNE</code>).\n</p>\n<h3>Source</h3>\n<p>W. L. Woodley, J. Simpson, R. Biondini and J. Berkeley (1977),\nRainfall results 1970-75: Florida area cumulus experiment.\n<em>Science</em> <b>195</b>, 735&ndash;742.\n</p>\n<p>R. D. Cook and S. Weisberg (1980), Characterizations of an \nempirical influence function for detecting influential cases in \nregression. <em>Technometrics</em> <b>22</b>, 495&ndash;508.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>\n  data(\"clouds\", package = \"HSAUR\")\n  layout(matrix(1:2, nrow = 2))\n  boxplot(rainfall ~ seeding, data = clouds, ylab = \"Rainfall\")\n  boxplot(rainfall ~ echomotion, data = clouds, ylab = \"Rainfall\")    \n</code></pre>\n</main>\n</div>\n",
    "config" : {
-      "colorBy" : "seeding",
-      "title" : "Cloud Seeding Data",
+      "graphType" : "Scatter2D",
+      "shapeBy" : "seeding",
+      "colorBy" : "echomotion",
       "scatterPlotMatrix" : 1,
       "subtitle" : "HSAUR - clouds",
-      "shapeBy" : "echomotion",
-      "graphType" : "Scatter2D"
+      "title" : "Cloud Seeding Data"
    }
 }

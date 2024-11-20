@@ -1,3 +1,10 @@
+var marathonInfo ={
+   "usage" : "Annual time series of class ts.",
+   "format" : "Boston Athletic Association.\nhttps://www.baa.org/races/boston-marathon/results/champions",
+   "title" : "Boston marathon winning times since 1897",
+   "description" : "Description\nWinning times (in minutes) for the Boston Marathon Men's Open Division.\n1897-2016."
+}
+
 var marathon = [
    [
       "time",

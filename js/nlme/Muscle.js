@@ -1,3 +1,15 @@
+var MuscleInfo ={
+   "parameters" : {
+      "Strip" : "an ordered factor indicating the strip of muscle being measured.",
+      "length" : "a numeric vector giving the shortening of the heart muscle strip.",
+      "conc" : "a numeric vector giving the concentration of CaCl2"
+   },
+   "description" : "Description\nThe Muscle data frame has 60 rows and 3 columns.",
+   "usage" : "This data frame contains the following columns:",
+   "title" : "Contraction of heart muscle sections",
+   "reference" : "Baumann and Waldvogel (1963) describe data on the shortening of heart\nmuscle strips dipped in a \\mbox{CaCl}{}_2 solution.\nThe muscle strips are taken from the left auricle of a rat's heart."
+}
+
 var Muscle = [
    [
       "Strip",

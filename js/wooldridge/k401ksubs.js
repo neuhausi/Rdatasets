@@ -1,3 +1,24 @@
+var k401ksubsInfo ={
+   "usage" : "data('k401ksubs')",
+   "description" : "Description\nWooldridge Source: A. Abadie (2003), âSemiparametric Instrumental Variable Estimation of Treatment Response Models,â Journal of Econometrics 113, 231-263. Professor Abadie kindly provided these data. He obtained them from the 1991 Survey of Income and Program Participation (SIPP). Data loads lazily.",
+   "format" : "A data.frame with 9275 observations on 11 variables:",
+   "title" : "k401ksubs",
+   "reference" : "This data set can also be used to illustrate the binary response models, probit and logit, in Chapter 17, where, say, pira (an indicator for having an individual retirement account) is the dependent variable, and e401k [the 401(k) eligibility indicator] is the key explanatory variable.",
+   "parameters" : {
+      "male" : " =1 if male respondent",
+      "pira" : " =1 if have IRA",
+      "agesq" : " age^2",
+      "marr" : " =1 if married",
+      "age" : " in years",
+      "p401k" : " =1 if participate in 401(k)",
+      "incsq" : " inc^2",
+      "fsize" : " family size",
+      "nettfa" : " net total fin. assets, $1000",
+      "e401k" : " =1 if eligble for 401(k)",
+      "inc" : " annual income, $1000s"
+   }
+}
+
 var k401ksubs = [
    [
       "e401k",

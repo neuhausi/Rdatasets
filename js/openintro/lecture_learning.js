@@ -1,3 +1,21 @@
+var lecture_learningInfo ={
+   "parameters" : {
+      "motivation_both" : "After experiencing both lecture delivery methods,\nstudents were asked about which method they were most motivated to remain\nattentive.",
+      "interest" : "A Likert scale that gauged student interest level concerning\nthe lecture.",
+      "memory" : "An indicator of recall of information provided during the\nlecture. It is the proportion of correct answers in a six question assessment\ngiven at the end of the lecture presentation.",
+      "motivation_single" : "After a single lecture delivery experience, this\nLikert scale was used to gauge motivation to remain attentive during the\nlecture.",
+      "mindwander" : "An indicator of distraction during the lecture. It is a\nproportion of six mind wandering probes during the lecture when a student\nanswered yes that mind wandering had just occurred.",
+      "student" : "Identification number of a specific student.\nEach identification appears twice because same student heard both lecture\ndelivery methods.",
+      "method" : "Delivery method of lecture was either in-person(Live) or\npre-recorded(Video).",
+      "gender" : "Gender of student. Recored a binary variable with levels\nMale and Female in the study."
+   },
+   "title" : "Lecture Delivery Method and Learning Outcomes",
+   "reference" : "PLOS One",
+   "format" : "A data frame with 552 rows and 8 variables.",
+   "description" : "Description\nData was collected from 276 students in a university psychology course\nto determine the effect of lecture delivery method on learning. Students were\npresented a live lecture by the professor on one day and a pre-recorded\nlecture on a different topic by the same professor on a different day.\nSurvey data was collected during the lectures to determine mind wandering,\ninterest, and motivation.  Students were also ultimately asked about the\npreferred lecture delivery method. Finally, students completed an assessment\nat the end of the lecture to determine memory recall.",
+   "usage" : "lecture_learning"
+}
+
 var lecture_learning = [
    [
       "student",

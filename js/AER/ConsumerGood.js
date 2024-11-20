@@ -1,3 +1,16 @@
+var ConsumerGoodInfo ={
+   "title" : "Properties of a Fast-Moving Consumer Good",
+   "reference" : "Online complements to Franses (1998).",
+   "format" : "A weekly multiple time series from 1989(11) to 1991(9) with 3 variables.",
+   "parameters" : {
+      "price" : "Price.",
+      "share" : "Market share.",
+      "distribution" : "Distribution."
+   },
+   "usage" : "data(\"ConsumerGood\")",
+   "description" : "Description\nTime series of distribution, market share and price of a fast-moving\nconsumer good."
+}
+
 var ConsumerGood = [
    [
       "distribution",

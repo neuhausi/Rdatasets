@@ -1,3 +1,19 @@
+var ukdemoInfo ={
+   "format" : "A data frame with 12 observations on the following 6 variables.",
+   "title" : "United Kingdom Demographic Data",
+   "reference" : "The data was described in the Guardian Data Blog:\nhttps://www.theguardian.com/news/datablog/interactive/2011/oct/27/debt-money-expert-facts,\nretrieved 2011-11-01.",
+   "parameters" : {
+      "region" : "Region in the United Kingdom",
+      "rpi" : "Retail price index, which is standardized to 100 for the entire UK,\nand lower index scores correspond to lower prices",
+      "pay" : "Average hourly pay, in pounds",
+      "house" : "Average house price, in pounds",
+      "unemployment" : "Percent unemployment",
+      "debt" : "Average regional debt, not including mortgages, in pounds"
+   },
+   "usage" : "ukdemo",
+   "description" : "Description\nThis dataset comes from the Guardian's Data Blog and includes five\nfinancial demographic variables."
+}
+
 var ukdemo = [
    [
       "region",

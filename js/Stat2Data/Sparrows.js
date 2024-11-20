@@ -1,3 +1,9 @@
+var SparrowsInfo ={
+   "description" : "Description\nWeight and wing length for a sample of Savannah sparrows",
+   "title" : "Sparrow Measurements",
+   "usage" : "A dataset with 116 observations on the following 3 variables."
+}
+
 var Sparrows = [
    [
       "Treatment",

@@ -1,3 +1,9 @@
+var FGByDistanceInfo ={
+   "title" : "Results of NFL Field Goal Attempts",
+   "usage" : "A data frame with 51 observations on the following 7 variables.",
+   "description" : "Description\nField goal results in the National Football League (NFL) by distance"
+}
+
 var FGByDistance = [
    [
       "Row",

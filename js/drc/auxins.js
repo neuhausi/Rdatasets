@@ -1,3 +1,18 @@
+var auxinsInfo ={
+   "parameters" : {
+      "y" : "a numeric vector",
+      "r" : "a numeric vector",
+      "h" : "a numeric vector",
+      "dose" : "a numeric vector",
+      "w" : "a numeric vector"
+   },
+   "title" : "Effect of technical grade and commercially formulated auxin herbicides",
+   "format" : "A data frame with 150 observations on the following 5 variables.",
+   "reference" : "Data are parts of a larger joint action experiment with various herbicides.",
+   "description" : "Description\nMCPA, 2,4-D, mecorprop and dichorlprop were applied either as technical grades\nmaterials  (h = 1, 2, 3, 4) or as commercial formulations (herb = 5, 6, 7, 8). \nEach experimental unit consisted of five 1-week old seedlings grown together\nin a pot of nutrient solution during 14 days.",
+   "usage" : "data(auxins)"
+}
+
 var auxins = [
    [
       "r",

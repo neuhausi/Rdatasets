@@ -1,3 +1,18 @@
+var bioChemistsInfo ={
+   "description" : "Description\nA sample of 915 biochemistry graduate students.",
+   "parameters" : {
+      "art" : "count of articles produced during last 3 years of Ph.D.",
+      "phd" : "prestige of Ph.D. department",
+      "fem" : "factor indicating gender of student, with levels Men and Women",
+      "kid5" : "number of children aged 5 or younger",
+      "mar" : "factor indicating marital status of student, with levels\nSingle and Married",
+      "ment" : "count of articles produced by Ph.D. mentor during last 3 years"
+   },
+   "title" : "article production by graduate students in biochemistry Ph.D. programs",
+   "format" : "artcount of articles produced during last 3 years of Ph.D.\n\nfemfactor indicating gender of student, with levels Men and Women\n\nmarfactor indicating marital status of student, with levels\nSingle and Married\n\nkid5number of children aged 5 or younger\n\nphdprestige of Ph.D. department\n\nmentcount of articles produced by Ph.D. mentor during last 3 years",
+   "usage" : "data(bioChemists)"
+}
+
 var bioChemists = [
    [
       "art",

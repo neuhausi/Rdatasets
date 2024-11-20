@@ -1,3 +1,19 @@
+var BaumannInfo ={
+   "description" : "Description\nThe Baumann data frame has 66 rows and 6 columns.\nThe data are from an experimental study conducted by Baumann and Jones, as reported\nby Moore and McCabe (1993) Students were randomly assigned to one of three\nexperimental groups.",
+   "usage" : "Baumann",
+   "parameters" : {
+      "post.test.2" : "Second post-test.",
+      "pretest.2" : "Second pretest.",
+      "post.test.1" : "First post-test.",
+      "pretest.1" : "First pretest.",
+      "group" : "Experimental group;\na factor with levels:\nBasal, traditional method of teaching;\nDRTA, an innovative method;\nStrat, another innovative method.",
+      "post.test.3" : "Third post-test."
+   },
+   "format" : "This data frame contains the following columns:",
+   "title" : "Methods of Teaching Reading Comprehension",
+   "reference" : "Moore, D. S. and McCabe, G. P. (1993)\nIntroduction to the Practice of Statistics, Second Edition.\nFreeman, p. 794&ndash;795."
+}
+
 var Baumann = [
    [
       "group",

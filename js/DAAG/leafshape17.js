@@ -1,3 +1,22 @@
+var leafshape17Info ={
+   "description" : "Description\nLeaf length, width and petiole measurements taken at various\nsites worldwide.  The leafshape17 data frame is the\nsubset that has data for North Queensland sites.",
+   "usage" : "data(leafshape)\ndata(leafshape17)",
+   "parameters" : {
+      "bladelen" : "leaf length (in mm)",
+      "latitude" : "latitude",
+      "location" : "a factor with levels\nSabah, Panama, Costa Rica,\nN Queensland, S Queensland, \nTasmania",
+      "bladewid" : "leaf width (in mm)",
+      "logpet" : "logarithm of petiole",
+      "logwid" : "natural logarithm of width",
+      "arch" : "leaf architecture (0 = plagiotropic, 1 = orthotropic",
+      "loglen" : "logarithm of length",
+      "petiole" : "a numeric vector"
+   },
+   "reference" : "King, D.A. and Maindonald, J.H. 1999. Tree architecture in relation to\nleaf dimensions and tree stature in temperate and tropical rain\nforests. Journal of Ecology 87: 1012-1024.",
+   "title" : "Full Leaf Shape Data Set",
+   "format" : "This data frame contains the following columns:"
+}
+
 var leafshape17 = [
    [
       "bladelen",

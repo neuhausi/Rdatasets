@@ -1,3 +1,27 @@
+var wagesInfo ={
+   "parameters" : {
+      "lnw" : "natural log of wages expressed in 1990 dollars.",
+      "ue.mean" : "",
+      "ged" : "equals 1 if\nrespondent has obtained a GED as of the time of survey, 0 otherwise",
+      "ue.7" : "",
+      "black" : "factor - equals 1 if subject is black, 0 otherwise",
+      "exper" : "years of experience in the work force",
+      "hgc.9" : "hgc - 9, a centered version of hgc",
+      "uerate" : "local area\nunemployment rate for that year",
+      "id" : "respondent id - a factor with 888 levels.",
+      "hgc" : "highest grade completed - takes integers 6 through 12",
+      "postexp" : "labor force participation since obtaining a GED (in years) -\nbefore a GED is earned postexp = 0, and on the day a GED is earned postexp =\n0",
+      "hispanic" : "factor - equals 1 if subject is hispanic, 0 otherwise",
+      "ue1" : "",
+      "ue.person.cen" : "",
+      "ue.centert1" : ""
+   },
+   "description" : "Description\nData on the labor-market experience of male high school\ndropouts.",
+   "usage" : "A data frame with 6402 observations on the following 15 variables.",
+   "title" : "Wages for male high school dropouts",
+   "reference" : "These data are originally from the 1979 National\nLongitudinal Survey on Youth (NLSY79)."
+}
+
 var wages = [
    [
       "id",

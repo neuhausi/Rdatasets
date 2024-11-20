@@ -1,3 +1,19 @@
+var TestsInfo ={
+   "parameters" : {
+      "y2" : "score on math test 2.",
+      "x2" : "score on verbal test 2.",
+      "y3" : "score on math test 3.",
+      "x1" : "score on verbal test 1.",
+      "y1" : "score on math test 1.",
+      "x3" : "score on verbal test 3."
+   },
+   "reference" : "Example 25.13 from SAS/STAT 9.22 User's Guide, SAS Institute, 2010.",
+   "title" : "Six Mental Tests",
+   "format" : "A data frame with 32 observations on the following 6 variables.",
+   "description" : "Description\nThese data are from the SAS manual and consist of six mental tests for 32 students,\nwith some missing data. The three x variables are intended to load on a verbal\nfactor, and the three y variables on a math factor. The data can be used to\nillustrate the estimation of a confirmatory factor analysis model by multinormal full-information\nmaximum-likelihood in the presence of missing data.",
+   "usage" : "Tests"
+}
+
 var Tests = [
    [
       "x1",

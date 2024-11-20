@@ -1,3 +1,24 @@
+var msleepInfo ={
+   "usage" : "msleep",
+   "description" : "Description\nThis is an updated and expanded version of the mammals sleep dataset.\nUpdated sleep times and weights were taken from V. M. Savage and G. B.\nWest. A quantitative, theoretical framework for understanding mammalian\nsleep. Proceedings of the National Academy of Sciences, 104 (3):1051-1056,\n2007.",
+   "title" : "An updated and expanded version of the mammals sleep dataset",
+   "reference" : "Additional variables order, conservation status and vore were added from\nwikipedia.",
+   "format" : "A data frame with 83 rows and 11 variables:",
+   "parameters" : {
+      "name" : "common name",
+      "brainwt" : "brain weight in kilograms",
+      "bodywt" : "body weight in kilograms",
+      "sleep_total" : "total amount of sleep, in hours",
+      "order" : "",
+      "genus" : "",
+      "conservation" : "the conservation status of the animal",
+      "sleep_cycle" : "length of sleep cycle, in hours",
+      "sleep_rem" : "rem sleep, in hours",
+      "vore" : "carnivore, omnivore or herbivore?",
+      "awake" : "amount of time spent awake, in hours"
+   }
+}
+
 var msleep = [
    [
       "name",

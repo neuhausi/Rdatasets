@@ -1,3 +1,18 @@
+var ToxaemiaInfo ={
+   "usage" : "data(Toxaemia)",
+   "description" : "Description\nBrown et al (1983) gave these data on two signs of toxaemia,\nan abnormal condition during pregnancy characterized by\nhigh blood pressure (hypertension) and high levels of protein\nin the urine.  If untreated, both the mother and baby are\nat risk of complications or death.\nThe data frame Toxaemia represents 13384 expectant\nmothers in Bradford, England in their first pregnancy, who\nwere also classified according to social class and the number\nof cigarettes smoked per day.",
+   "title" : "Toxaemia Symptoms in Pregnancy",
+   "reference" : "Brown, P. J., Stone, J. and Ord-Smith, C. (1983), \nToxaemic signs during pregnancy.\nJRSS, Series C, Applied Statistics, 32, 69-72",
+   "format" : "A data frame in frequency form representing a 5 x 3 x 2 x 2 contingency table,\nwith 60 observations on the following 5 variables.",
+   "parameters" : {
+      "smoke" : "Cigarettes smoked per day during pregnancy, a factor with levels 0 1-19 20+",
+      "Freq" : "frequency in each cell, a numeric vector",
+      "class" : "Social class of mother, a factor with levels 1 2 3 4 5",
+      "urea" : "Protein urea level, a factor with levels Low High",
+      "hyper" : "Hypertension level, a factor with levels Low High"
+   }
+}
+
 var Toxaemia = [
    [
       "class",

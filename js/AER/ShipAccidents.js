@@ -1,3 +1,18 @@
+var ShipAccidentsInfo ={
+   "description" : "Description\nData on ship accidents.",
+   "usage" : "data(\"ShipAccidents\")",
+   "parameters" : {
+      "type" : "factor with levels \"A\" to \"E\" for the different ship types,",
+      "operation" : "factor with levels \"1960-74\", \"1975-79\" for the periods of\noperation,",
+      "incidents" : "number of damage incidents.",
+      "service" : "aggregate months of service,",
+      "construction" : "factor with levels \"1960-64\", \"1965-69\", \"1970-74\", \n\"1975-79\" for the periods of construction,"
+   },
+   "format" : "A data frame containing 40 observations on 5 ship types in 4 vintages and 2 service periods.",
+   "title" : "Ship Accidents",
+   "reference" : "The data are from McCullagh and Nelder (1989, p. 205, Table 6.2) and were\nalso used by Greene (2003, Ch. 21), see below."
+}
+
 var ShipAccidents = [
    [
       "type",

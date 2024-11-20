@@ -1,3 +1,27 @@
+var PSID7682Info ={
+   "title" : "PSID Earnings Panel Data (1976&ndash;1982)",
+   "format" : "A data frame containing 7 annual observations on 12 variables for 595 individuals.",
+   "reference" : "The data were originally analyzed by Cornwell and Rupert (1988) and employed\nfor assessing various instrumental-variable estimators for panel models\n(including the Hausman-Taylor model). Baltagi and Khanti-Akom (1990) reanalyzed\nthe data, made corrections to the data and also suggest modeling with a different\nset of instruments.",
+   "parameters" : {
+      "year" : "factor indicating year.",
+      "south" : "factor. Does the individual reside in the South?",
+      "smsa" : "factor. Does the individual reside in a SMSA (standard\nmetropolitan statistical area)?",
+      "education" : "Years of education.",
+      "wage" : "Wage.",
+      "experience" : "Years of full-time work experience.",
+      "industry" : "factor. Does the individual work in a manufacturing industry?",
+      "gender" : "factor indicating gender.",
+      "ethnicity" : "factor indicating ethnicity.\nIs the individual African-American (\"afam\") or not (\"other\")?",
+      "id" : "factor indicating individual subject ID.",
+      "union" : "factor. Is the individual's wage set by a union contract?",
+      "married" : "factor. Is the individual married?",
+      "weeks" : "Weeks worked.",
+      "occupation" : "factor. Is the individual a white-collar (\"white\")\nor blue-collar (\"blue\") worker?"
+   },
+   "usage" : "data(\"PSID7682\")",
+   "description" : "Description\nPanel data on earnings of 595 individuals for the years 1976&ndash;1982,\noriginating from the Panel Study of Income Dynamics."
+}
+
 var PSID7682 = [
    [
       "experience",

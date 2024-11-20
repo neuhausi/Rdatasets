@@ -1,3 +1,10 @@
+var CaesarInfo ={
+   "description" : "Description\nData from infection from birth by Caesarian section, classified by Risk (two levels), \nwhether Antibiotics were used (two levels) and whether the Caesarian section was Planned or not.  \nThe outcome is Infection (three levels).",
+   "title" : "Risk Factors for Infection in Caesarian Births",
+   "format" : "A 4-dimensional array resulting from cross-tabulating 4 variables for   251 observations. The variable names and their levels are:",
+   "usage" : "data(Caesar)"
+}
+
 var Caesar = [
    [
       "Infection",

@@ -1,11 +1,11 @@
 {
    "config" : {
-      "title" : "Labour Training Evaluation Data",
+      "subtitle" : "DAAG - nswpsid1",
       "smpOverlays" : [
          "re74"
       ],
       "graphType" : "Heatmap",
-      "subtitle" : "DAAG - nswpsid1"
+      "title" : "Labour Training Evaluation Data"
    },
    "data" : {
       "x" : {
@@ -2800,17 +2800,6 @@
          ]
       },
       "y" : {
-         "vars" : [
-            "trt",
-            "age",
-            "educ",
-            "black",
-            "hisp",
-            "marr",
-            "nodeg",
-            "re75",
-            "re78"
-         ],
          "smps" : [
             "1",
             "2",
@@ -5599,6 +5588,17 @@
             "2951",
             "2961",
             "2971"
+         ],
+         "vars" : [
+            "trt",
+            "age",
+            "educ",
+            "black",
+            "hisp",
+            "marr",
+            "nodeg",
+            "re75",
+            "re78"
          ],
          "data" : [
             [

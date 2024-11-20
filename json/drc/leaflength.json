@@ -2,10 +2,6 @@
    "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>leaflength</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Leaf length of barley</h2>\n<h3>Description</h3>\n<p>In an experiment barley was grown in a hydroponic solution with a herbicide.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(leaflength)</code></pre>\n<h3>Format</h3>\n<p>A data frame with 42 observations on the following 2 variables.\n</p>\n<dl>\n<dt><code>Dose</code></dt><dd><p>a numeric vector</p>\n</dd>\n<dt><code>DW</code></dt><dd><p>a numeric vector</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>The dataset exhibits a large hormetical effect.\n</p>\n<h3>Source</h3>\n<p>Nina Cedergreen, Royal Veterinary and Agricultural University, Denmark.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>\n## Fitting a hormesis model\nleaflength.crs4c1 &lt;- drm(DW ~ Dose, data = leaflength, fct = CRS.4c())\nplot(fitted(leaflength.crs4c1), residuals(leaflength.crs4c1))\nleaflength.crs4c2 &lt;- boxcox(drm(DW ~ Dose, data = leaflength, fct = CRS.4c()), \nmethod = \"anova\", plotit = FALSE)\nsummary(leaflength.crs4c2)\n## Plottinf fitted curve and original data\nplot(leaflength.crs4c2, broken = TRUE, conLevel = 0.001, type = \"all\", legend = FALSE, \nylab = \"Produced leaf length (cm)\", xlab = \"Metsulfuron-methyl (mg/l)\",\nmain = \"Hormesis: leaf length of barley\")\n</code></pre>\n</main>\n</div>\n",
    "data" : {
       "y" : {
-         "smps" : [
-            "Dose",
-            "DW"
-         ],
          "data" : [
             [
                0,
@@ -176,6 +172,10 @@
                2
             ]
          ],
+         "smps" : [
+            "Dose",
+            "DW"
+         ],
          "vars" : [
             "Var1",
             "Var2",
@@ -223,8 +223,8 @@
       }
    },
    "config" : {
-      "title" : "Leaf length of barley",
       "graphType" : "Scatter2D",
+      "title" : "Leaf length of barley",
       "subtitle" : "drc - leaflength"
    }
 }

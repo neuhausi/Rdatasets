@@ -1,3 +1,10 @@
+var ToothGrowthInfo ={
+   "format" : "A data frame with 60 observations on 3 variables.",
+   "title" : "The Effect of Vitamin C on Tooth Growth in Guinea Pigs",
+   "usage" : "ToothGrowth",
+   "description" : "Description\nThe response is the length of odontoblasts (cells responsible for\ntooth growth) in 60 guinea pigs.  Each animal received one of three\ndose levels of vitamin C (0.5, 1, and 2 mg/day) by one of two delivery\nmethods, orange juice or ascorbic acid (a form of vitamin C and coded\nas VC)."
+}
+
 var ToothGrowth = [
    [
       "len",

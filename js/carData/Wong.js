@@ -1,3 +1,20 @@
+var WongInfo ={
+   "format" : "This data frame contains the following columns:",
+   "title" : "Post-Coma Recovery of IQ",
+   "reference" : "The data are from Wong, Monette, and Weiner (2001) and are for 200 patients who sustained traumatic brain\ninjuries resulting in comas of varying duration. After\nawakening from their comas, patients were periodically administered a standard IQ test, but the average\nnumber of measurements per patient is small (331/200 = 1.7).",
+   "parameters" : {
+      "piq" : "performance (i.e., mathematical) IQ.",
+      "sex" : "a factor with levels Female and Male.",
+      "id" : "patient ID number.",
+      "days" : "number of days post coma at which IQs were measured.",
+      "age" : "in years at the time of injury.",
+      "viq" : "verbal IQ.",
+      "duration" : "duration of the coma in days."
+   },
+   "usage" : "Wong",
+   "description" : "Description\nThe Wong data frame has 331 row and 7 columns. The observations are longitudinal\ndata on recovery of IQ after comas of varying duration for 200 subjects."
+}
+
 var Wong = [
    [
       "id",

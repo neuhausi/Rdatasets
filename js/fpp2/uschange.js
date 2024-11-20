@@ -1,3 +1,10 @@
+var uschangeInfo ={
+   "description" : "Description\nPercentage changes in quarterly personal consumption expenditure, personal\ndisposable income, production, savings and the unemployment rate for the US,\n1960 to 2016.",
+   "usage" : "Time series object of class ts.",
+   "title" : "Growth rates of personal consumption and personal income in the USA.",
+   "format" : "Federal Reserve Bank of St Louis."
+}
+
 var uschange = [
    [
       "Consumption",

@@ -1,3 +1,22 @@
+var CES11Info ={
+   "format" : "A data frame with 2231 observations on the following 9 variables.",
+   "title" : "2011 Canadian National Election Study, With Attitude Toward Abortion",
+   "reference" : "This is an extract from the data set for the 2011 Canadian National Election Study distributed by the Institute for Social Research, York University.",
+   "parameters" : {
+      "id" : "Household ID number.",
+      "province" : "a factor with (alphabetical) levels AB, BC, MB, NB, NL, NS, ON, PE, QC, SK; the sample was stratified by province.",
+      "importance" : "importance of religion, a factor with (alphabetical) levels not, notvery, somewhat, very; answer to the question, \"In your life, would you say that religion is very important, somewhat important, not very important, or not important at all?\"",
+      "urban" : "place of residence, a factor with levels rural, urban.",
+      "weight" : "weight sample to size of population, taking into account unequal sampling probabilities by province and household size.",
+      "gender" : "a factor with levels Female, Male.",
+      "education" : "a factor with (alphabetical) levels bachelors (Bachelors degree), college (community college or technical school), higher (graduate degree), HS (high-school graduate), lessHS (less than high-school graduate), somePS (some post-secondary).",
+      "abortion" : "attitude toward abortion, a factor with levels No, Yes; answer to the question \"Should abortion be banned?\"",
+      "population" : "population of the respondent's province, number over age 17."
+   },
+   "usage" : "data(\"CES11\")",
+   "description" : "Description\nData are drawn from the 2011 Canadian National Election Study, including a question on banning abortion and variables related to the sampling design."
+}
+
 var CES11 = [
    [
       "id",

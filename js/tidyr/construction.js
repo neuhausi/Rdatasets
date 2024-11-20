@@ -1,3 +1,16 @@
+var constructionInfo ={
+   "usage" : "construction",
+   "description" : "Description\nCompleted construction in the US in 2018",
+   "format" : "A dataset with variables:",
+   "title" : "Completed construction in the US in 2018",
+   "reference" : "Completions of \"New Residential Construction\" found in Table 5 at\nhttps://www.census.gov/construction/nrc/xls/newresconst.xls\n(downloaded March 2019)",
+   "parameters" : {
+      "Year,Month" : "Record date",
+      "Northeast,Midwest,South,West" : "Number of completed units in each region",
+      "&#8288;1 unit&#8288;, &#8288;2 to 4 units&#8288;, &#8288;5 units or mote&#8288;" : "Number of completed\nunits of each size"
+   }
+}
+
 var construction = [
    [
       "Year",

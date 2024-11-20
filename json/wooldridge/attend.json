@@ -1,18 +1,14 @@
 {
+   "config" : {
+      "subtitle" : "wooldridge - attend",
+      "title" : "attend",
+      "graphType" : "Heatmap",
+      "smpOverlays" : [
+         "hwrte"
+      ]
+   },
    "data" : {
       "y" : {
-         "vars" : [
-            "attend",
-            "termGPA",
-            "priGPA",
-            "ACT",
-            "final",
-            "atndrte",
-            "frosh",
-            "soph",
-            "missed",
-            "stndfnl"
-         ],
          "data" : [
             [
                27,
@@ -6835,6 +6831,18 @@
                0.682773113250732
             ]
          ],
+         "vars" : [
+            "attend",
+            "termGPA",
+            "priGPA",
+            "ACT",
+            "final",
+            "atndrte",
+            "frosh",
+            "soph",
+            "missed",
+            "stndfnl"
+         ],
          "smps" : [
             "Smp1",
             "Smp2",
@@ -8203,13 +8211,5 @@
          ]
       }
    },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>attend</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>attend</h2>\n<h3>Description</h3>\n<p>Wooldridge Source: These data were collected by Professors Ronald Fisher and Carl Liedholm during a term in which they both taught principles of microeconomics at Michigan State University. Professors Fisher and Liedholm kindly gave me permission to use a random subset of their data, and their research assistant at the time, Jeffrey Guilfoyle, who completed his Ph.D. in economics at MSU, provided helpful hints. Data loads lazily.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data('attend')\n</code></pre>\n<h3>Format</h3>\n<p>A data.frame with 680 observations on 11 variables:\n</p>\n<ul>\n<li> <p><strong>attend:</strong> classes attended out of 32\n</p>\n</li>\n<li> <p><strong>termGPA:</strong> GPA for term\n</p>\n</li>\n<li> <p><strong>priGPA:</strong> cumulative GPA prior to term\n</p>\n</li>\n<li> <p><strong>ACT:</strong> ACT score\n</p>\n</li>\n<li> <p><strong>final:</strong> final exam score\n</p>\n</li>\n<li> <p><strong>atndrte:</strong> percent classes attended\n</p>\n</li>\n<li> <p><strong>hwrte:</strong> percent homework turned in\n</p>\n</li>\n<li> <p><strong>frosh:</strong> =1 if freshman\n</p>\n</li>\n<li> <p><strong>soph:</strong> =1 if sophomore\n</p>\n</li>\n<li> <p><strong>missed:</strong> number of classes missed\n</p>\n</li>\n<li> <p><strong>stndfnl:</strong> (final - mean)/sd\n</p>\n</li></ul>\n<h3>Notes</h3>\n<p>The attendance figures were obtained by requiring students to slide their ID cards through a magnetic card reader, under the supervision of a teaching assistant. You might have the students use final, rather than the standardized variable, so that they can see the statistical significance of each variable remains exactly the same. The standardized variable is used only so that the coefficients measure effects in terms of standard deviations from the average score.\n</p>\n<p>Used in Text: pages 111, 152, 199-200, 222\n</p>\n<h3>Source</h3>\n<p><a href=\"https://www.cengage.com/cgi-wadsworth/course_products_wp.pl?fid=M20b&amp;product_isbn_issn=9781111531041\">https://www.cengage.com/cgi-wadsworth/course_products_wp.pl?fid=M20b&amp;product_isbn_issn=9781111531041</a>\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'> str(attend)\n</code></pre>\n</main>\n</div>\n",
-   "config" : {
-      "title" : "attend",
-      "smpOverlays" : [
-         "hwrte"
-      ],
-      "graphType" : "Heatmap",
-      "subtitle" : "wooldridge - attend"
-   }
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>attend</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>attend</h2>\n<h3>Description</h3>\n<p>Wooldridge Source: These data were collected by Professors Ronald Fisher and Carl Liedholm during a term in which they both taught principles of microeconomics at Michigan State University. Professors Fisher and Liedholm kindly gave me permission to use a random subset of their data, and their research assistant at the time, Jeffrey Guilfoyle, who completed his Ph.D. in economics at MSU, provided helpful hints. Data loads lazily.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data('attend')\n</code></pre>\n<h3>Format</h3>\n<p>A data.frame with 680 observations on 11 variables:\n</p>\n<ul>\n<li> <p><strong>attend:</strong> classes attended out of 32\n</p>\n</li>\n<li> <p><strong>termGPA:</strong> GPA for term\n</p>\n</li>\n<li> <p><strong>priGPA:</strong> cumulative GPA prior to term\n</p>\n</li>\n<li> <p><strong>ACT:</strong> ACT score\n</p>\n</li>\n<li> <p><strong>final:</strong> final exam score\n</p>\n</li>\n<li> <p><strong>atndrte:</strong> percent classes attended\n</p>\n</li>\n<li> <p><strong>hwrte:</strong> percent homework turned in\n</p>\n</li>\n<li> <p><strong>frosh:</strong> =1 if freshman\n</p>\n</li>\n<li> <p><strong>soph:</strong> =1 if sophomore\n</p>\n</li>\n<li> <p><strong>missed:</strong> number of classes missed\n</p>\n</li>\n<li> <p><strong>stndfnl:</strong> (final - mean)/sd\n</p>\n</li></ul>\n<h3>Notes</h3>\n<p>The attendance figures were obtained by requiring students to slide their ID cards through a magnetic card reader, under the supervision of a teaching assistant. You might have the students use final, rather than the standardized variable, so that they can see the statistical significance of each variable remains exactly the same. The standardized variable is used only so that the coefficients measure effects in terms of standard deviations from the average score.\n</p>\n<p>Used in Text: pages 111, 152, 199-200, 222\n</p>\n<h3>Source</h3>\n<p><a href=\"https://www.cengage.com/cgi-wadsworth/course_products_wp.pl?fid=M20b&amp;product_isbn_issn=9781111531041\">https://www.cengage.com/cgi-wadsworth/course_products_wp.pl?fid=M20b&amp;product_isbn_issn=9781111531041</a>\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'> str(attend)\n</code></pre>\n</main>\n</div>\n"
 }

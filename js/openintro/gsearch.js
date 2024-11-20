@@ -1,3 +1,15 @@
+var gsearchInfo ={
+   "format" : "A data frame with 10000 observations on the following 2 variables.",
+   "reference" : "library(ggplot2)\n\ntable(gsearch$type, gsearch$outcome)\n\nggplot(gsearch, aes(x = type, fill = outcome)) +\n  geom_bar(position = \"fill\") +\n  labs(y = \"proportion\")",
+   "title" : "Simulated Google search experiment",
+   "parameters" : {
+      "outcome" : "a factor with levels current test 1 test 2",
+      "type" : "a factor with levels new search no new search"
+   },
+   "usage" : "gsearch",
+   "description" : "Description\nThe data were simulated to look like sample results from a Google search\nexperiment."
+}
+
 var gsearch = [
    [
       "type",

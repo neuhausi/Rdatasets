@@ -1,3 +1,9 @@
+var YouthRisk2007Info ={
+   "usage" : "A dataset with 13387 observations on the following 6 variables.",
+   "title" : "Riding with a Driver Who Has Been Drinking",
+   "description" : "Description\nRisky behavior (riding with a drinking driver) in youths"
+}
+
 var YouthRisk2007 = [
    [
       "ride.alc.driver",

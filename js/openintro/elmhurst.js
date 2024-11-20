@@ -1,3 +1,16 @@
+var elmhurstInfo ={
+   "usage" : "elmhurst",
+   "description" : "Description\nA random sample of 50 students gift aid for students at Elmhurst College.",
+   "title" : "Elmhurst College gift aid",
+   "reference" : "These data were sampled from a table of data for all freshman from\nthe 2011 class at Elmhurst College that accompanied an article titled What\nStudents Really Pay to Go to College published online by The Chronicle of\nHigher Education:\nhttps://www.chronicle.com/article/what-students-really-pay-to-go-to-college/?sra=true.",
+   "format" : "A data frame with 50 observations on the following 3 variables.",
+   "parameters" : {
+      "gift_aid" : "Gift aid, in $1000s.",
+      "price_paid" : "Price paid by the student (tuition - gift aid).",
+      "family_income" : "Family income of the student."
+   }
+}
+
 var elmhurst = [
    [
       "family_income",

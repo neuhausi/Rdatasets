@@ -1,11 +1,35 @@
 {
    "config" : {
-      "title" : "Population of the United States",
+      "subtitle" : "carData - USPop",
       "graphType" : "Scatter2D",
-      "subtitle" : "carData - USPop"
+      "title" : "Population of the United States"
    },
    "data" : {
       "y" : {
+         "vars" : [
+            "Var1",
+            "Var2",
+            "Var3",
+            "Var4",
+            "Var5",
+            "Var6",
+            "Var7",
+            "Var8",
+            "Var9",
+            "Var10",
+            "Var11",
+            "Var12",
+            "Var13",
+            "Var14",
+            "Var15",
+            "Var16",
+            "Var17",
+            "Var18",
+            "Var19",
+            "Var20",
+            "Var21",
+            "Var22"
+         ],
          "smps" : [
             "year",
             "population"
@@ -99,30 +123,6 @@
                2000,
                281.421906
             ]
-         ],
-         "vars" : [
-            "Var1",
-            "Var2",
-            "Var3",
-            "Var4",
-            "Var5",
-            "Var6",
-            "Var7",
-            "Var8",
-            "Var9",
-            "Var10",
-            "Var11",
-            "Var12",
-            "Var13",
-            "Var14",
-            "Var15",
-            "Var16",
-            "Var17",
-            "Var18",
-            "Var19",
-            "Var20",
-            "Var21",
-            "Var22"
          ]
       }
    },

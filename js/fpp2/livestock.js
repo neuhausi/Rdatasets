@@ -1,3 +1,10 @@
+var livestockInfo ={
+   "description" : "Description\nAnnual sheep livestock numbers in Asia (in million head).",
+   "usage" : "Annual time series of class ts.",
+   "format" : "United Nations.",
+   "title" : "Livestock (sheep) in Asia, 1961-2007."
+}
+
 var livestock = [
    [
       "time",

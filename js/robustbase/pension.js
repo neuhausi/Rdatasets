@@ -1,3 +1,15 @@
+var pensionInfo ={
+   "parameters" : {
+      "Income" : "Premium Income (in millions of guilders)",
+      "Reserves" : "Premium Reserves (in millions of guilders)"
+   },
+   "format" : "A data frame with 18 observations on the following 2 variables.",
+   "reference" : "P. J. Rousseeuw and A. M. Leroy (1987)\nRobust Regression and Outlier Detection;\nWiley, p.76, table 13.",
+   "title" : "Pension Funds Data",
+   "description" : "Description\nThe total 1981 premium income of pension funds of Dutch firms,\nfor 18 Professional Branches, from de Wit (1982).",
+   "usage" : "data(pension, package=\"robustbase\")"
+}
+
 var pension = [
    [
       "Income",

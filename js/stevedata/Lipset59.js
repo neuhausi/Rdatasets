@@ -1,3 +1,24 @@
+var Lipset59Info ={
+   "description" : "Description\nA data set on democracy and economic development for 48 countries that Lipset\n(1959) first described.",
+   "usage" : "Lipset59",
+   "parameters" : {
+      "iso3c" : "a three-character ISO code",
+      "unpop" : "a population size (in thousands)",
+      "wbgdp2011est" : "an estimated gross domestic product in 2011 USD",
+      "cat" : "a category for the country by their region and level of democracy",
+      "xm_qudsest" : "a \"Quick UDS\" estimate of democracy on a latent scale (see details)",
+      "unincpc" : "a national income per capita",
+      "v2x_polyarchy" : "the Varieties of Democracy \"polyarchy\" estimate (see details)",
+      "wbpopest" : "an estimated population size",
+      "country" : "a character country for an English country name",
+      "polity2" : "the polity2 score from the Polity project (see details)",
+      "uninc" : "a national income (in millions)"
+   },
+   "title" : "Democracy and Economic Development (Around) 1949-50",
+   "format" : "A data frame with 48 observations on the following 11 variables.",
+   "reference" : "The three variables with the prefix of un nominally come from the\nUnited Nations Statistical Division for 1949/1950, but are actually retrieved\nfrom Andic and Peacock (1961). Andic and Peacock (1961) note you should be\nskeptical of Soviet-style calculations of national income and thus don't\ninclude it in the data they make available."
+}
+
 var Lipset59 = [
    [
       "country",

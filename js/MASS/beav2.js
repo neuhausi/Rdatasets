@@ -1,3 +1,17 @@
+var beav2Info ={
+   "format" : "The beav2 data frame has 100 rows and 4 columns.\nThis data frame contains the following columns:",
+   "title" : "Body Temperature Series of Beaver 2",
+   "reference" : "P. S. Reynolds (1994) Time-series analyses of beaver body temperatures.\nChapter 11 of\nLange, N., Ryan, L., Billard, L., Brillinger, D., Conquest, L.\nand Greenhouse, J. eds (1994)\nCase Studies in Biometry. New York: John Wiley and Sons.",
+   "parameters" : {
+      "day" : "Day of observation (in days since the beginning of 1990),\nNovember 3&ndash;4.",
+      "activ" : "Indicator of activity outside the retreat.",
+      "time" : "Time of observation, in the form 0330 for 3.30am.",
+      "temp" : "Measured body temperature in degrees Celsius."
+   },
+   "usage" : "beav2",
+   "description" : "Description\nReynolds (1994) describes a small part of a study of the long-term\ntemperature dynamics of beaver Castor canadensis in\nnorth-central Wisconsin.  Body temperature was measured by telemetry\nevery 10 minutes for four females, but data from a one period of less\nthan a day for each of two animals is used there."
+}
+
 var beav2 = [
    [
       "day",

@@ -1,3 +1,15 @@
+var StrikeDurationInfo ={
+   "parameters" : {
+      "duration" : "strike duration in days.",
+      "uoutput" : "unanticipated output (a measure of unanticipated aggregate\nindustrial production net of seasonal and trend components)."
+   },
+   "title" : "Strike Durations",
+   "format" : "A data frame containing 62 observations on 2 variables for the period 1968&ndash;1976.",
+   "reference" : "The original data provided by Kennan (1985) are on a monthly basis, for the period 1968(1) through 1976(12). Greene (2003) only provides the June data for each year. Also, the duration for observation 36 is given as 3 by Greene while Kennan has 2. Here we use Greene's version.",
+   "description" : "Description\nData on the duration of strikes in US manufacturing industries, 1968&ndash;1976.",
+   "usage" : "data(\"StrikeDuration\")"
+}
+
 var StrikeDuration = [
    [
       "duration",

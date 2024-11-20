@@ -1,3 +1,10 @@
+var nyc_bikesInfo ={
+   "description" : "Description\nA sample from NYC Citi Bike usage of 10 bikes throughout 2018. The data\nincludes event data on each trip, including the trip's start and end times\nand locations. The customer's gender, birth year and bike usage type is\nalso available.",
+   "usage" : "Time series of class tsibble",
+   "title" : "NYC Citi Bike trips",
+   "format" : "nyc_bikes is a tsibble containing event data, the events include\nthese details:"
+}
+
 var nyc_bikes = [
    [
       "bike_id",

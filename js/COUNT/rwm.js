@@ -1,3 +1,17 @@
+var rwmInfo ={
+   "parameters" : {
+      "hhninc" : "household yearly income in DM/1000)",
+      "educ" : "years of formal education (7-18)",
+      "docvis" : "number of visits to doctor during year (0-121)",
+      "age" : "age: 25-64"
+   },
+   "format" : "A data frame with 27,326 observations on the following 4 variables.",
+   "title" : "rwm",
+   "reference" : "rwm is saved as a data frame.\nCount models typically use docvis as response variable. 0 counts are included",
+   "description" : "Description\nGerman health registry for the years 1984-1988. Health information for \nyears prior to health reform.",
+   "usage" : "data(rwm)"
+}
+
 var rwm = [
    [
       "docvis",

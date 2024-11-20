@@ -1,3 +1,9 @@
+var SeaSlugsInfo ={
+   "usage" : "A dataset with 36 observations on the following 2 variables.",
+   "title" : "Sea Slug Larvae",
+   "description" : "Description\nMetamorphose rates for sea slugs exposed to different water samples"
+}
+
 var SeaSlugs = [
    [
       "Time",

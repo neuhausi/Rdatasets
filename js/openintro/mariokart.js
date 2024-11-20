@@ -1,3 +1,25 @@
+var mariokartInfo ={
+   "usage" : "mariokart",
+   "description" : "Description\nAuction data from Ebay for the game Mario Kart for the Nintendo Wii. This\ndata was collected in early October 2009.",
+   "title" : "Wii Mario Kart auctions from Ebay",
+   "format" : "A data frame with 143 observations on the following 12 variables.\nAll prices are in US dollars.",
+   "reference" : "There are several interesting features in the data. First off, note that\nthere are two outliers in the data. These serve as a nice example of what\none should do when encountering an outlier: examine the data point and\nremove it only if there is a good reason. In these two cases, we can see\nfrom the auction titles that they included other items in their auctions\nbesides the game, which justifies removing them from the dataset.",
+   "parameters" : {
+      "wheels" : "Number of Wii wheels included in the auction. These are steering\nwheel attachments to make it seem as though you are actually driving in the\ngame. When used with the controller, turning the wheel actually causes the\ncharacter on screen to turn.",
+      "start_pr" : "Start price of the auction.",
+      "title" : "The title of the auctions.",
+      "cond" : "Game condition, either new or used.",
+      "ship_sp" : "Shipping speed or method.",
+      "n_bids" : "Number of bids.",
+      "seller_rate" : "The seller's rating on Ebay. This is the number\nof positive ratings minus the number of negative ratings for the seller.",
+      "duration" : "Auction length, in days.",
+      "id" : "Auction ID assigned by Ebay.",
+      "total_pr" : "Total price, which equals the auction price plus the\nshipping price.",
+      "ship_pr" : "Shipping price.",
+      "stock_photo" : "Whether the auction feature photo was a stock\nphoto or not. If the picture was used in many auctions, then it was called a\nstock photo."
+   }
+}
+
 var mariokart = [
    [
       "id",

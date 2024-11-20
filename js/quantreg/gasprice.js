@@ -1,3 +1,10 @@
+var gaspriceInfo ={
+   "description" : "Description\nTime Series of Weekly US Gasoline Prices: 1990:8 &ndash; 2003:26",
+   "usage" : "data(\"gasprice\")",
+   "title" : "Time Series of US Gasoline Prices",
+   "format" : "data(gasprice)"
+}
+
 var gasprice = [
    [
       "time",

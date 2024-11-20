@@ -1,3 +1,14 @@
+var HstartsInfo ={
+   "description" : "Description\nquarterly observations from 1960-1 to 2001-4\nnumber of observations :  168\nobservation :  country\ncountry :  Canada",
+   "parameters" : {
+      "hssa" : "the log of urban housing starts \nin Canada, seasonally adjusted, CANSIM \nseries J9001, converted to quarterly.\nObservations prior to 1966:1 are missing",
+      "hs" : "the log of urban housing starts \nin Canada, not seasonally adjusted, CANSIM\nseries J6001, converted to quarterly"
+   },
+   "usage" : "data(Hstarts)",
+   "format" : "A time series containing :",
+   "title" : "Housing Starts"
+}
+
 var Hstarts = [
    [
       "hs",

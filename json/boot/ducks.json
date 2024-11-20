@@ -1,16 +1,12 @@
 {
    "config" : {
-      "subtitle" : "boot - ducks",
       "graphType" : "Scatter2D",
-      "title" : "Behavioral and Plumage Characteristics of Hybrid Ducks"
+      "title" : "Behavioral and Plumage Characteristics of Hybrid Ducks",
+      "subtitle" : "boot - ducks"
    },
    "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>ducks</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>\nBehavioral and Plumage Characteristics of Hybrid Ducks\n</h2>\n<h3>Description</h3>\n<p>The <code>ducks</code> data frame has 11 rows and 2 columns.\n</p>\n<p>Each row of the data frame represents a male duck who is a second\ngeneration cross of mallard and pintail ducks.  For 11 such ducks a\nbehavioural and plumage index were calculated.  These were measured on\nscales devised for this experiment which was to examine whether there\nwas any link between which species the ducks resembled physically and\nwhich they resembled in behaviour.  The scale for the physical\nappearance ranged from 0 (identical in appearance to a mallard) to 20\n(identical to a pintail).  The behavioural traits of the ducks were on\na scale from 0 to 15 with lower numbers indicating closer to\nmallard-like in behaviour.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>ducks\n</code></pre>\n<h3>Format</h3>\n<p>This data frame contains the following columns:\n</p>\n<dl>\n<dt><code>plumage</code></dt><dd>\n<p>The index of physical appearance based on the plumage of individual ducks.\n</p>\n</dd>\n<dt><code>behaviour</code></dt><dd>\n<p>The index of behavioural characteristics of the ducks.\n</p>\n</dd></dl>\n<h3>Source</h3>\n<p>The data were obtained from\n</p>\n<p>Larsen, R.J. and Marx, M.L. (1986) \n<em>An Introduction to Mathematical Statistics and its Applications</em> \n(Second Edition). Prentice-Hall.\n</p>\n<h3>References</h3>\n<p>Davison, A.C. and Hinkley, D.V. (1997) \n<em>Bootstrap Methods and Their Application</em>. Cambridge University Press.\n</p>\n<p>Sharpe, R.S., and Johnsgard, P.A. (1966)\nInheritance of behavioral characters in\n<code class=\"reqn\">F_2</code> mallard  x  pintail\n(<em>Anas Platyrhynchos L.  x  Anas Acuta L.</em>) \nhybrids. <em>Behaviour</em>, <b>27</b>, 259-272.\n</p>\n</main>\n</div>\n",
    "data" : {
       "y" : {
-         "smps" : [
-            "plumage",
-            "behaviour"
-         ],
          "data" : [
             [
                7,
@@ -69,6 +65,10 @@
             "Var9",
             "Var10",
             "Var11"
+         ],
+         "smps" : [
+            "plumage",
+            "behaviour"
          ]
       }
    }

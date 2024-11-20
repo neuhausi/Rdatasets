@@ -1,10 +1,16 @@
 {
+   "config" : {
+      "graphType" : "Boxplot",
+      "title" : "US finished motor gasoline product supplied.",
+      "colorBy" : "variable",
+      "subtitle" : "fpp3 - us_gasoline",
+      "groupingFactors" : [
+         "Week"
+      ]
+   },
    "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>us_gasoline</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>US finished motor gasoline product supplied.</h2>\n<h3>Description</h3>\n<p>Weekly data beginning Week 6, 1991, and ending Week 3, 2017.\nUnits are &quot;million barrels per day&quot;.\n</p>\n<h3>Format</h3>\n<p>Time series object of class 'tsibble'.\n</p>\n<h3>Source</h3>\n<p>US Energy Information Administration.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>\nus_gasoline\n</code></pre>\n</main>\n</div>\n",
    "data" : {
       "y" : {
-         "vars" : [
-            "Barrels"
-         ],
          "data" : [
             [
                6.621,
@@ -2720,6 +2726,9 @@
             "Smp1353",
             "Smp1354",
             "Smp1355"
+         ],
+         "vars" : [
+            "Barrels"
          ]
       },
       "x" : {
@@ -4081,14 +4090,5 @@
             "2017 W03"
          ]
       }
-   },
-   "config" : {
-      "graphType" : "Boxplot",
-      "subtitle" : "fpp3 - us_gasoline",
-      "title" : "US finished motor gasoline product supplied.",
-      "colorBy" : "variable",
-      "groupingFactors" : [
-         "Week"
-      ]
    }
 }

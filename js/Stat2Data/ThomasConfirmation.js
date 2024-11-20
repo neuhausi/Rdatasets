@@ -1,3 +1,18 @@
+var ThomasConfirmationInfo ={
+   "description" : "Description\nVotes in the US Senate on Clarence Thomas nomination for the US Supreme Court",
+   "parameters" : {
+      "Vote" : "Numeric coding for vote (1=for or 0=against)",
+      "ConfVote" : "Confirmation vote (Nay or Yea)",
+      "StateOpinion" : "Percentage of state residents supporting the choice",
+      "Party" : "Party affiliation (D=Democrat or R=Republican)",
+      "Senator" : "Senator name",
+      "State" : "State name"
+   },
+   "reference" : "Data from the U.S. Senate vote on October 15, 1991 to confirm Clarence Thomas to a position on the Supreme Court.",
+   "title" : "US Senate Votes on Clarence Thomas Confirmation",
+   "usage" : "A data frame with 100 observations on the following 6 variables."
+}
+
 var ThomasConfirmation = [
    [
       "State",

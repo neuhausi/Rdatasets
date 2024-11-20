@@ -1,3 +1,15 @@
+var steamInfo ={
+   "title" : "The Saturated Steam Pressure Data",
+   "reference" : "N.R. Draper  and H. Smith (1981)\nApplied Regression Analysis. Wiley, pp. 518&ndash;9.",
+   "format" : "The data frame contains the following components:",
+   "parameters" : {
+      "Temp" : "temperature, in degrees Celsius.",
+      "Press" : "pressure, in Pascals."
+   },
+   "usage" : "steam",
+   "description" : "Description\nTemperature and pressure in a saturated steam driven experimental device."
+}
+
 var steam = [
    [
       "Temp",

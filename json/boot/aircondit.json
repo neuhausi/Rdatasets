@@ -1,10 +1,12 @@
 {
+   "config" : {
+      "subtitle" : "boot - aircondit",
+      "graphType" : "Pie",
+      "title" : "Failures of Air-conditioning Equipment"
+   },
    "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>aircondit</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>\nFailures of Air-conditioning Equipment\n</h2>\n<h3>Description</h3>\n<p>Proschan (1963) reported on the times between failures of the air-conditioning\nequipment in 10 Boeing 720 aircraft. The <code>aircondit</code> data frame contains \nthe intervals for the ninth aircraft while <code>aircondit7</code> contains those for the\nseventh aircraft. \n</p>\n<p>Both data frames have just one column.  Note that the data have been sorted \ninto increasing order.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>aircondit\n</code></pre>\n<h3>Format</h3>\n<p>The data frames contain the following column:\n</p>\n<dl>\n<dt><code>hours</code></dt><dd>\n<p>The time interval in hours between successive failures of the air-conditioning\nequipment\n</p>\n</dd></dl>\n<h3>Source</h3>\n<p>The data were taken from\n</p>\n<p>Cox, D.R. and Snell, E.J. (1981) \n<em>Applied Statistics: Principles and Examples</em>. Chapman and Hall.\n</p>\n<h3>References</h3>\n<p>Davison, A.C. and Hinkley, D.V. (1997) \n<em>Bootstrap Methods and Their Application</em>. Cambridge University Press.\n</p>\n<p>Proschan, F. (1963) Theoretical explanation of observed decreasing failure \nrate. <em>Technometrics</em>, <b>5</b>, 375-383.\n</p>\n</main>\n</div>\n",
    "data" : {
       "y" : {
-         "smps" : [
-            "hours"
-         ],
          "data" : [
             [
                3
@@ -56,12 +58,10 @@
             "Var10",
             "Var11",
             "Var12"
+         ],
+         "smps" : [
+            "hours"
          ]
       }
-   },
-   "config" : {
-      "subtitle" : "boot - aircondit",
-      "graphType" : "Pie",
-      "title" : "Failures of Air-conditioning Equipment"
    }
 }

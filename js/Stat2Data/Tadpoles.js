@@ -1,3 +1,16 @@
+var TadpolesInfo ={
+   "description" : "Description\nComparing intestine lengths for tadpoles with and without exposure to Bd fugus",
+   "parameters" : {
+      "GutLength" : "Length of intestine (in mm)",
+      "Body" : "Length of body  (in mm)",
+      "Treatment" : "Exposed to fungus (Bd=yes or Control=no)",
+      "MouthpartDamage" : "Measure of damage to the mouth (e.g. missing teeth)"
+   },
+   "usage" : "A data frame with 27 observations on the following 4 variables.",
+   "reference" : "Biologists wondered whether tadpoles can adjust the relative length of their intestines if they are exposed to a fungus called Batrachochytrium dendrobatidis (Bd).",
+   "title" : "Effects of a Fungus on Tadpoles"
+}
+
 var Tadpoles = [
    [
       "Treatment",

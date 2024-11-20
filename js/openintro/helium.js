@@ -1,3 +1,16 @@
+var heliumInfo ={
+   "format" : "A data frame with 39 observations on the following 3 variables.",
+   "reference" : "Lafferty, M. B. (1993), \"OSU scientists get a kick out of sports\ncontroversy, \"The Columbus Dispatch (November, 21, 1993), B7.",
+   "title" : "Helium football",
+   "parameters" : {
+      "helium" : "Distance in years for helium-filled\nfootball.",
+      "air" : "Distance in years for\nair-filled football.",
+      "trial" : "Trial number."
+   },
+   "usage" : "helium",
+   "description" : "Description\nAt the 1976 Pro Bowl, Ray Guy, a punter for the Oakland Raiders, punted a\nball that hung mid-air long enough for officials to question whether the\npigskin was filled with helium. The ball was found to be filled with air,\nbut since then many have tossed around the idea that a helium-filled\nfootball would outdistance an air-filled one. Students at Ohio State\nUniversity conducted an experiment to test this myth. They used two\nidentical footballs, one air filled with air and one filled with helium.\nEach football was kicked 39 times and the two footballs were alternated with\neach kick."
+}
+
 var helium = [
    [
       "trial",

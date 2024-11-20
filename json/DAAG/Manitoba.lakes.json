@@ -58,9 +58,9 @@
       }
    },
    "config" : {
-      "title" : "The Nine Largest Lakes in Manitoba",
-      "colorBy" : null,
+      "subtitle" : "DAAG - Manitoba.lakes",
       "graphType" : "Scatter2D",
-      "subtitle" : "DAAG - Manitoba.lakes"
+      "title" : "The Nine Largest Lakes in Manitoba",
+      "colorBy" : null
    }
 }

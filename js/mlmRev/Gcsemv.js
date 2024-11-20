@@ -1,3 +1,18 @@
+var GcsemvInfo ={
+   "description" : "Description\nThe GCSE exam scores on a science subject. Two components of the exam\nwere chosen as outcome variables: written paper and course work. There\nare 1,905 students from 73 schools in England.",
+   "usage" : "data(Gcsemv)",
+   "parameters" : {
+      "student" : "Student ID - a factor",
+      "school" : "School ID - a factor",
+      "written" : "Total score on written paper",
+      "course" : "Total score on coursework paper",
+      "gender" : "Gender of student"
+   },
+   "format" : "A data frame with 1905 observations on the following 5 variables.",
+   "reference" : "http://www.bristol.ac.uk/cmm/learning/mmsoftware/data-rev.html",
+   "title" : "GCSE exam score"
+}
+
 var Gcsemv = [
    [
       "school",

@@ -1,3 +1,10 @@
+var mtcarsInfo ={
+   "description" : "Description\nThe data was extracted from the 1974 Motor Trend US magazine,\nand comprises fuel consumption and 10 aspects of\nautomobile design and performance for 32 automobiles (1973&ndash;74\nmodels).",
+   "format" : "A data frame with 32 observations on 11 (numeric) variables.",
+   "title" : "Motor Trend Car Road Tests",
+   "usage" : "mtcars"
+}
+
 var mtcars = [
    [
       "mpg",

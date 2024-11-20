@@ -1,3 +1,15 @@
+var LOTIInfo ={
+   "parameters" : {
+      "value" : "the mean temperature anomaly as deviation from corresponding 1951-1980 mean",
+      "date" : "a date, mostly to contain information for the year and month"
+   },
+   "reference" : "Data are updated through most recent month, at least for last time I updated it.\nData represent combined land-surface air and sea-surface water temperature anomalies.\nOf note: the day value in the date column has no real value.\nIt was just a way of combining data that are aggregated by year and month.",
+   "format" : "A data frame with 1,716 observations on the following 2 variables.",
+   "title" : "Land-Ocean Temperature Index, 1880-2022",
+   "description" : "Description\nThese data contain monthly mean temperature anomalies expressed as deviations\nfrom the corresponding 1951-1980 means. They are useful for showing\nhow we can measure climate change.",
+   "usage" : "LOTI"
+}
+
 var LOTI = [
    [
       "date",

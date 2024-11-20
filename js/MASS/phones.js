@@ -1,3 +1,15 @@
+var phonesInfo ={
+   "usage" : "phones",
+   "description" : "Description\nA list object with the annual numbers of telephone calls, in\nBelgium.  The components are:\nyear\nlast two digits of the year.\n\n\ncalls\nnumber of telephone calls made (in millions of calls).",
+   "title" : "Belgium Phone Calls 1950-1973",
+   "reference" : "phones",
+   "format" : "P. J. Rousseeuw and A. M. Leroy (1987)\nRobust Regression & Outlier Detection. Wiley.",
+   "parameters" : {
+      "calls" : "number of telephone calls made (in millions of calls).",
+      "year" : "last two digits of the year."
+   }
+}
+
 var phones = [
    [
       "year",

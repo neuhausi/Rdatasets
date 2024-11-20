@@ -1,3 +1,19 @@
+var WeightLossInfo ={
+   "parameters" : {
+      "wl2" : "Weight loss at 2 months",
+      "se3" : "Self esteem at 3 months",
+      "se2" : "Self esteem at 2 months",
+      "wl3" : "Weight loss at 3 months",
+      "group" : "a factor with levels Control\nDiet DietEx.",
+      "se1" : "Self esteem at 1 month",
+      "wl1" : "Weight loss at 1 month"
+   },
+   "description" : "Description\nContrived data on weight loss and self esteem over three months, for three\ngroups of individuals: Control, Diet and Diet + Exercise. The data\nconstitute a double-multivariate design.",
+   "title" : "Weight Loss Data",
+   "reference" : "Helmert contrasts are assigned to group, comparing Control vs.\n(Diet DietEx) and Diet vs. DietEx.",
+   "usage" : "A data frame with 34 observations on the following 7 variables."
+}
+
 var WeightLoss = [
    [
       "group",

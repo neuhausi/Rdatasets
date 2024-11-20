@@ -1,3 +1,15 @@
+var drughivInfo ={
+   "title" : "data from Exercise 7.6, p222",
+   "reference" : "Klein and Moeschberger (1997) Survival Analysis Techniques for Censored\nand truncated data, Springer.",
+   "usage" : "This data frame contains the following columns:",
+   "description" : "Description\nThe drughiv data frame has 34 rows and 3 columns.",
+   "parameters" : {
+      "drug" : "Drug combination (1=AZT + zalcitabine, 2=AZT + zalcitabine +\nsaquinavir)",
+      "time" : "Time after drug administration to CD4 count at a specified level,\ndays",
+      "delta" : "Indicator of CD4 count reaching specified level (1=yes, 0=no)"
+   }
+}
+
 var drughiv = [
    [
       "drug",

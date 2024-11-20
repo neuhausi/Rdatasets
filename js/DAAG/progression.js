@@ -1,3 +1,17 @@
+var progressionInfo ={
+   "usage" : "data(progression)",
+   "description" : "Description\nProgression in world record times for track and road races.",
+   "title" : "Progression of Record times for track races, 1912 - 2008",
+   "format" : "A data frame with 227 observations on the following 4 columns.",
+   "reference" : "Record times for men's track events, from 1912 onwards.  The\nseries starts with times that were recognized as record times in 1912,\nwhere available.",
+   "parameters" : {
+      "year" : "Year that time was first recorded",
+      "Time" : "time in minutes",
+      "race" : "character; descriptor for event (100m, mile, ...)",
+      "Distance" : "distance in kilometers"
+   }
+}
+
 var progression = [
    [
       "year",

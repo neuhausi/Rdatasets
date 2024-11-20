@@ -1,10 +1,9 @@
 {
    "config" : {
+      "subtitle" : "datasets - pressure",
       "title" : "Vapor Pressure of Mercury as a Function of Temperature",
-      "graphType" : "Scatter2D",
-      "subtitle" : "datasets - pressure"
+      "graphType" : "Scatter2D"
    },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>pressure</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Vapor Pressure of Mercury as a Function of Temperature</h2>\n<h3>Description</h3>\n<p>Data on the relation between temperature in degrees Celsius and vapor\npressure of mercury in millimeters (of mercury).\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>pressure</code></pre>\n<h3>Format</h3>\n<p>A data frame with 19 observations on 2 variables.\n</p>\n<table>\n<tr>\n <td style=\"text-align: right;\">\n    [, 1] </td><td style=\"text-align: left;\"> <code>temperature</code> </td><td style=\"text-align: left;\"> numeric </td><td style=\"text-align: left;\"> temperature (deg C)</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    [, 2] </td><td style=\"text-align: left;\"> <code>pressure</code>    </td><td style=\"text-align: left;\"> numeric </td><td style=\"text-align: left;\"> pressure (mm)\n  </td>\n</tr>\n</table>\n<h3>Source</h3>\n<p>Weast, R. C., ed. (1973)\n<em>Handbook of Chemistry and Physics</em>.\nCRC Press.\n</p>\n<h3>References</h3>\n<p>McNeil, D. R. (1977)\n<em>Interactive Data Analysis</em>.\nNew York: Wiley.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>require(graphics)\nplot(pressure, xlab = \"Temperature (deg C)\",\n     ylab = \"Pressure (mm of Hg)\",\n     main = \"pressure data: Vapor Pressure of Mercury\")\nplot(pressure, xlab = \"Temperature (deg C)\",  log = \"y\",\n     ylab = \"Pressure (mm of Hg)\",\n     main = \"pressure data: Vapor Pressure of Mercury\")\n</code></pre>\n</main>\n</div>\n",
    "data" : {
       "y" : {
          "vars" : [
@@ -27,6 +26,10 @@
             "Var17",
             "Var18",
             "Var19"
+         ],
+         "smps" : [
+            "temperature",
+            "pressure"
          ],
          "data" : [
             [
@@ -105,11 +108,8 @@
                360,
                806
             ]
-         ],
-         "smps" : [
-            "temperature",
-            "pressure"
          ]
       }
-   }
+   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>pressure</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Vapor Pressure of Mercury as a Function of Temperature</h2>\n<h3>Description</h3>\n<p>Data on the relation between temperature in degrees Celsius and vapor\npressure of mercury in millimeters (of mercury).\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>pressure</code></pre>\n<h3>Format</h3>\n<p>A data frame with 19 observations on 2 variables.\n</p>\n<table>\n<tr>\n <td style=\"text-align: right;\">\n    [, 1] </td><td style=\"text-align: left;\"> <code>temperature</code> </td><td style=\"text-align: left;\"> numeric </td><td style=\"text-align: left;\"> temperature (deg C)</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    [, 2] </td><td style=\"text-align: left;\"> <code>pressure</code>    </td><td style=\"text-align: left;\"> numeric </td><td style=\"text-align: left;\"> pressure (mm)\n  </td>\n</tr>\n</table>\n<h3>Source</h3>\n<p>Weast, R. C., ed. (1973)\n<em>Handbook of Chemistry and Physics</em>.\nCRC Press.\n</p>\n<h3>References</h3>\n<p>McNeil, D. R. (1977)\n<em>Interactive Data Analysis</em>.\nNew York: Wiley.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>require(graphics)\nplot(pressure, xlab = \"Temperature (deg C)\",\n     ylab = \"Pressure (mm of Hg)\",\n     main = \"pressure data: Vapor Pressure of Mercury\")\nplot(pressure, xlab = \"Temperature (deg C)\",  log = \"y\",\n     ylab = \"Pressure (mm of Hg)\",\n     main = \"pressure data: Vapor Pressure of Mercury\")\n</code></pre>\n</main>\n</div>\n"
 }

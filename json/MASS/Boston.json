@@ -1,23 +1,6 @@
 {
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>Boston</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>\nHousing Values in Suburbs of Boston\n</h2>\n<h3>Description</h3>\n<p>The <code>Boston</code> data frame has 506 rows and 14 columns.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>Boston\n</code></pre>\n<h3>Format</h3>\n<p>This data frame contains the following columns:\n</p>\n<dl>\n<dt><code>crim</code></dt><dd>\n<p>per capita crime rate by town.\n</p>\n</dd>\n<dt><code>zn</code></dt><dd>\n<p>proportion of residential land zoned for lots over 25,000 sq.ft.\n</p>\n</dd>\n<dt><code>indus</code></dt><dd>\n<p>proportion of non-retail business acres per town.\n</p>\n</dd>\n<dt><code>chas</code></dt><dd>\n<p>Charles River dummy variable (= 1 if tract bounds river; 0 otherwise).\n</p>\n</dd>\n<dt><code>nox</code></dt><dd>\n<p>nitrogen oxides concentration (parts per 10 million).\n</p>\n</dd>\n<dt><code>rm</code></dt><dd>\n<p>average number of rooms per dwelling.\n</p>\n</dd>\n<dt><code>age</code></dt><dd>\n<p>proportion of owner-occupied units built prior to 1940.\n</p>\n</dd>\n<dt><code>dis</code></dt><dd>\n<p>weighted mean of distances to five Boston employment centres.\n</p>\n</dd>\n<dt><code>rad</code></dt><dd>\n<p>index of accessibility to radial highways.\n</p>\n</dd>\n<dt><code>tax</code></dt><dd>\n<p>full-value property-tax rate per $10,000.\n</p>\n</dd>\n<dt><code>ptratio</code></dt><dd>\n<p>pupil-teacher ratio by town.\n</p>\n</dd>\n<dt><code>black</code></dt><dd>\n<p><code class=\"reqn\">1000(Bk - 0.63)^2</code> where <code class=\"reqn\">Bk</code> is the proportion of blacks\nby town.\n</p>\n</dd>\n<dt><code>lstat</code></dt><dd>\n<p>lower status of the population (percent).\n</p>\n</dd>\n<dt><code>medv</code></dt><dd>\n<p>median value of owner-occupied homes in $1000s.\n</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>Harrison, D. and Rubinfeld, D.L. (1978)\nHedonic prices and the demand for clean air.\n<em>J. Environ. Economics and Management</em>\n<b>5</b>, 81&ndash;102.\n</p>\n<p>Belsley D.A., Kuh, E.  and Welsch, R.E. (1980)\n<em>Regression Diagnostics. Identifying Influential Data and Sources\nof Collinearity.</em>\nNew York: Wiley.\n</p>\n</main>\n</div>\n",
    "data" : {
       "y" : {
-         "vars" : [
-            "crim",
-            "zn",
-            "indus",
-            "chas",
-            "nox",
-            "rm",
-            "age",
-            "dis",
-            "rad",
-            "tax",
-            "ptratio",
-            "black",
-            "lstat",
-            "medv"
-         ],
          "data" : [
             [
                0.00632,
@@ -7639,12 +7622,29 @@
             "Smp504",
             "Smp505",
             "Smp506"
+         ],
+         "vars" : [
+            "crim",
+            "zn",
+            "indus",
+            "chas",
+            "nox",
+            "rm",
+            "age",
+            "dis",
+            "rad",
+            "tax",
+            "ptratio",
+            "black",
+            "lstat",
+            "medv"
          ]
       }
    },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>Boston</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>\nHousing Values in Suburbs of Boston\n</h2>\n<h3>Description</h3>\n<p>The <code>Boston</code> data frame has 506 rows and 14 columns.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>Boston\n</code></pre>\n<h3>Format</h3>\n<p>This data frame contains the following columns:\n</p>\n<dl>\n<dt><code>crim</code></dt><dd>\n<p>per capita crime rate by town.\n</p>\n</dd>\n<dt><code>zn</code></dt><dd>\n<p>proportion of residential land zoned for lots over 25,000 sq.ft.\n</p>\n</dd>\n<dt><code>indus</code></dt><dd>\n<p>proportion of non-retail business acres per town.\n</p>\n</dd>\n<dt><code>chas</code></dt><dd>\n<p>Charles River dummy variable (= 1 if tract bounds river; 0 otherwise).\n</p>\n</dd>\n<dt><code>nox</code></dt><dd>\n<p>nitrogen oxides concentration (parts per 10 million).\n</p>\n</dd>\n<dt><code>rm</code></dt><dd>\n<p>average number of rooms per dwelling.\n</p>\n</dd>\n<dt><code>age</code></dt><dd>\n<p>proportion of owner-occupied units built prior to 1940.\n</p>\n</dd>\n<dt><code>dis</code></dt><dd>\n<p>weighted mean of distances to five Boston employment centres.\n</p>\n</dd>\n<dt><code>rad</code></dt><dd>\n<p>index of accessibility to radial highways.\n</p>\n</dd>\n<dt><code>tax</code></dt><dd>\n<p>full-value property-tax rate per $10,000.\n</p>\n</dd>\n<dt><code>ptratio</code></dt><dd>\n<p>pupil-teacher ratio by town.\n</p>\n</dd>\n<dt><code>black</code></dt><dd>\n<p><code class=\"reqn\">1000(Bk - 0.63)^2</code> where <code class=\"reqn\">Bk</code> is the proportion of blacks\nby town.\n</p>\n</dd>\n<dt><code>lstat</code></dt><dd>\n<p>lower status of the population (percent).\n</p>\n</dd>\n<dt><code>medv</code></dt><dd>\n<p>median value of owner-occupied homes in $1000s.\n</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>Harrison, D. and Rubinfeld, D.L. (1978)\nHedonic prices and the demand for clean air.\n<em>J. Environ. Economics and Management</em>\n<b>5</b>, 81&ndash;102.\n</p>\n<p>Belsley D.A., Kuh, E.  and Welsch, R.E. (1980)\n<em>Regression Diagnostics. Identifying Influential Data and Sources\nof Collinearity.</em>\nNew York: Wiley.\n</p>\n</main>\n</div>\n",
    "config" : {
-      "subtitle" : "MASS - Boston",
+      "title" : "Housing Values in Suburbs of Boston",
       "graphType" : "Heatmap",
-      "title" : "Housing Values in Suburbs of Boston"
+      "subtitle" : "MASS - Boston"
    }
 }

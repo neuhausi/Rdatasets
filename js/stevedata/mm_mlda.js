@@ -1,3 +1,32 @@
+var mm_mldaInfo ={
+   "format" : "A data frame with 50 observations on the following 19 variables.",
+   "title" : "Minimum Legal Drinking Age Fatalities Data",
+   "reference" : "These data are not well-documented. You guys are on your own here. Good luck.",
+   "parameters" : {
+      "internalfitted" : "a numeric",
+      "externalotherfitted" : "a numeric",
+      "external" : "a numeric",
+      "drugs" : "a numeric",
+      "homicide" : "a numeric",
+      "alcohol" : "a numeric",
+      "agecell" : "a numeric",
+      "alcoholfitted" : "a numeric",
+      "externalfitted" : "a numeric",
+      "drugsfitted" : "a numeric",
+      "internal" : "a numeric",
+      "externalother" : "a numeric",
+      "suicidefitted" : "a numeric",
+      "homicidefitted" : "a numeric",
+      "mva" : "a numeric",
+      "all" : "a numeric",
+      "allfitted" : "a numeric",
+      "mvafitted" : "a numeric",
+      "suicide" : "a numeric"
+   },
+   "usage" : "mm_mlda",
+   "description" : "Description\nThese are data you can use to replicate the regression discontinuity design\nanalyses throughout Chapter 4 of Mastering 'Metrics.\nOriginal analyses come from Carpenter and Dobkin (2009, 2011)."
+}
+
 var mm_mlda = [
    [
       "agecell",

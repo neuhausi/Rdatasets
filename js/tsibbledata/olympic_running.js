@@ -1,3 +1,10 @@
+var olympic_runningInfo ={
+   "description" : "Description\nolympic_running is a quadrennial tsibble with one value:\nTime:       Fastest running time for the event (seconds)",
+   "format" : "The event is identified using two keys:",
+   "title" : "Fastest running times for Olympic races",
+   "usage" : "Time series of class tsibble"
+}
+
 var olympic_running = [
    [
       "Year",

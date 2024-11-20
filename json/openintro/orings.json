@@ -1,12 +1,32 @@
 {
-   "config" : {
-      "scatterPlotMatrix" : 1,
-      "subtitle" : "openintro - orings",
-      "graphType" : "Scatter2D",
-      "title" : "1986 Challenger disaster and O-rings"
-   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>orings</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>1986 Challenger disaster and O-rings</h2>\n<h3>Description</h3>\n<p>On January 28, 1986, a routine launch was anticipated for the Challenger\nspace shuttle. Seventy-three seconds into the flight, disaster happened: the\nshuttle broke apart, killing all seven crew members on board. An\ninvestigation into the cause of the disaster focused on a critical seal\ncalled an O-ring, and it is believed that damage to these O-rings during a\nshuttle launch may be related to the ambient temperature during the launch.\nThe table below summarizes observational data on O-rings for 23 shuttle\nmissions, where the mission order is based on the temperature at the time of\nthe launch.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>orings\n</code></pre>\n<h3>Format</h3>\n<p>A data frame with 23 observations on the following 4 variables.\n</p>\n<dl>\n<dt>mission</dt><dd><p>Shuttle mission number.</p>\n</dd>\n<dt>temperature</dt><dd><p>Temperature, in Fahrenheit.</p>\n</dd>\n<dt>damaged</dt><dd><p>Number of damaged O-rings (out of 6).</p>\n</dd>\n<dt>undamaged</dt><dd><p>Number of undamaged O-rings (out of 6).</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p><a href=\"https://archive.ics.uci.edu/dataset/92/challenger+usa+space+shuttle+o+ring\">https://archive.ics.uci.edu/dataset/92/challenger+usa+space+shuttle+o+ring</a>\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>\nlibrary(dplyr)\nlibrary(forcats)\nlibrary(tidyr)\nlibrary(broom)\n# This is a wide data frame. You can convert it to a long\n# data frame to predict probability of O-ring damage based\n# on temperature using logistic regression.\norings_long &lt;- orings |&gt;\n  pivot_longer(cols = c(damaged, undamaged), names_to = \"outcome\", values_to = \"n\") |&gt;\n  uncount(n) |&gt;\n  mutate(outcome = fct_relevel(outcome, \"undamaged\", \"damaged\"))\norings_mod &lt;- glm(outcome ~ temperature, data = orings_long, family = \"binomial\")\ntidy(orings_mod)\n</code></pre>\n</main>\n</div>\n",
    "data" : {
       "y" : {
+         "vars" : [
+            "Var1",
+            "Var2",
+            "Var3",
+            "Var4",
+            "Var5",
+            "Var6",
+            "Var7",
+            "Var8",
+            "Var9",
+            "Var10",
+            "Var11",
+            "Var12",
+            "Var13",
+            "Var14",
+            "Var15",
+            "Var16",
+            "Var17",
+            "Var18",
+            "Var19",
+            "Var20",
+            "Var21",
+            "Var22",
+            "Var23"
+         ],
          "smps" : [
             "mission",
             "temperature",
@@ -152,33 +172,13 @@
                0,
                6
             ]
-         ],
-         "vars" : [
-            "Var1",
-            "Var2",
-            "Var3",
-            "Var4",
-            "Var5",
-            "Var6",
-            "Var7",
-            "Var8",
-            "Var9",
-            "Var10",
-            "Var11",
-            "Var12",
-            "Var13",
-            "Var14",
-            "Var15",
-            "Var16",
-            "Var17",
-            "Var18",
-            "Var19",
-            "Var20",
-            "Var21",
-            "Var22",
-            "Var23"
          ]
       }
    },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>orings</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>1986 Challenger disaster and O-rings</h2>\n<h3>Description</h3>\n<p>On January 28, 1986, a routine launch was anticipated for the Challenger\nspace shuttle. Seventy-three seconds into the flight, disaster happened: the\nshuttle broke apart, killing all seven crew members on board. An\ninvestigation into the cause of the disaster focused on a critical seal\ncalled an O-ring, and it is believed that damage to these O-rings during a\nshuttle launch may be related to the ambient temperature during the launch.\nThe table below summarizes observational data on O-rings for 23 shuttle\nmissions, where the mission order is based on the temperature at the time of\nthe launch.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>orings\n</code></pre>\n<h3>Format</h3>\n<p>A data frame with 23 observations on the following 4 variables.\n</p>\n<dl>\n<dt>mission</dt><dd><p>Shuttle mission number.</p>\n</dd>\n<dt>temperature</dt><dd><p>Temperature, in Fahrenheit.</p>\n</dd>\n<dt>damaged</dt><dd><p>Number of damaged O-rings (out of 6).</p>\n</dd>\n<dt>undamaged</dt><dd><p>Number of undamaged O-rings (out of 6).</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p><a href=\"https://archive.ics.uci.edu/dataset/92/challenger+usa+space+shuttle+o+ring\">https://archive.ics.uci.edu/dataset/92/challenger+usa+space+shuttle+o+ring</a>\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>\nlibrary(dplyr)\nlibrary(forcats)\nlibrary(tidyr)\nlibrary(broom)\n# This is a wide data frame. You can convert it to a long\n# data frame to predict probability of O-ring damage based\n# on temperature using logistic regression.\norings_long &lt;- orings |&gt;\n  pivot_longer(cols = c(damaged, undamaged), names_to = \"outcome\", values_to = \"n\") |&gt;\n  uncount(n) |&gt;\n  mutate(outcome = fct_relevel(outcome, \"undamaged\", \"damaged\"))\norings_mod &lt;- glm(outcome ~ temperature, data = orings_long, family = \"binomial\")\ntidy(orings_mod)\n</code></pre>\n</main>\n</div>\n"
+   "config" : {
+      "scatterPlotMatrix" : 1,
+      "graphType" : "Scatter2D",
+      "title" : "1986 Challenger disaster and O-rings",
+      "subtitle" : "openintro - orings"
+   }
 }

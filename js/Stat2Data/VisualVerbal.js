@@ -1,3 +1,17 @@
+var VisualVerbalInfo ={
+   "parameters" : {
+      "Subject" : "Subject number (s1 to s20)",
+      "Report" : "Point response (Visual) or say response (Verbal)",
+      "Task" : "Follow a letter (Visual) or a sentence (Verbal)",
+      "Group" : "Combination of Task+Report (Letter Point, Letter Say, Sentence Point, or Sentence Say)",
+      "Time" : "Response time (in seconds)"
+   },
+   "description" : "Description\nExperiment to compare visual and verbal performance",
+   "usage" : "A data frame with 80 observations on the following 5 variables.",
+   "reference" : "Subjects carried out two kinds of tasks, one visual (identify letters), one verbal (identify sentences); and to report the results in either of two ways, one visual (pointing at a response), one verbal (speaking a response).  Time to complete each task was recorded in seconds.",
+   "title" : "Visual versus Verbal Performance"
+}
+
 var VisualVerbal = [
    [
       "Subject",

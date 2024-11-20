@@ -1,3 +1,18 @@
+var RatWeightInfo ={
+   "title" : "Weight Gain in Rats Exposed to Thiouracil and Thyroxin",
+   "reference" : "The trt factor comes supplied with contrasts comparing Control\nto each of Thiouracil and Thyroxin.",
+   "usage" : "A data frame with 27 observations on the following 6 variables.",
+   "description" : "Description\nThe data are from a study of weight gain, where investigators randomly\nassigned 30 rats to three treatment groups: treatment 1 was a control (no\nadditive); treatments 2 and 3 consisted of two different additives\n(thiouracil and thyroxin respectively) to the rats drinking water. Weight\nwas measured at baseline (week 0) and at weeks 1, 2, 3, and 4. Due to an\naccident at the beginning of the study, data on 3 rats from the thyroxin\ngroup are unavailable.",
+   "parameters" : {
+      "wt0" : "Weight at Week 0 (baseline weight)",
+      "wt4" : "Weight at Week 4",
+      "wt3" : "Weight at Week 3",
+      "wt2" : "Weight at Week 2",
+      "wt1" : "Weight at Week 1",
+      "trt" : "a factor with levels Control Thiouracil Thyroxin"
+   }
+}
+
 var RatWeight = [
    [
       "trt",

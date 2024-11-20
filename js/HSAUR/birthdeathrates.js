@@ -1,3 +1,15 @@
+var birthdeathratesInfo ={
+   "title" : "Birth and Death Rates Data",
+   "format" : "A data frame with 69 observations on the following 2 variables.",
+   "reference" : "J. A. Hartigan (1975), Clustering Algorithms.\nJohn Wiley & Sons, New York.",
+   "parameters" : {
+      "death" : "death rate.",
+      "birth" : "birth rate."
+   },
+   "usage" : "data(\"birthdeathrates\")",
+   "description" : "Description\nBirth and death rates for 69 countries."
+}
+
 var birthdeathrates = [
    [
       "birth",

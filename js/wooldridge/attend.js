@@ -1,3 +1,24 @@
+var attendInfo ={
+   "parameters" : {
+      "attend" : " classes attended out of 32",
+      "atndrte" : " percent classes attended",
+      "stndfnl" : " (final - mean)/sd",
+      "final" : " final exam score",
+      "priGPA" : " cumulative GPA prior to term",
+      "soph" : " =1 if sophomore",
+      "hwrte" : " percent homework turned in",
+      "frosh" : " =1 if freshman",
+      "termGPA" : " GPA for term",
+      "ACT" : " ACT score",
+      "missed" : " number of classes missed"
+   },
+   "format" : "A data.frame with 680 observations on 11 variables:",
+   "title" : "attend",
+   "reference" : "The attendance figures were obtained by requiring students to slide their ID cards through a magnetic card reader, under the supervision of a teaching assistant. You might have the students use final, rather than the standardized variable, so that they can see the statistical significance of each variable remains exactly the same. The standardized variable is used only so that the coefficients measure effects in terms of standard deviations from the average score.",
+   "description" : "Description\nWooldridge Source: These data were collected by Professors Ronald Fisher and Carl Liedholm during a term in which they both taught principles of microeconomics at Michigan State University. Professors Fisher and Liedholm kindly gave me permission to use a random subset of their data, and their research assistant at the time, Jeffrey Guilfoyle, who completed his Ph.D. in economics at MSU, provided helpful hints. Data loads lazily.",
+   "usage" : "data('attend')"
+}
+
 var attend = [
    [
       "attend",

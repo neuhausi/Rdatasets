@@ -3064,11 +3064,6 @@
                0
             ]
          ],
-         "smps" : [
-            "price",
-            "ppi",
-            "fdd"
-         ],
          "vars" : [
             "Var1",
             "Var2",
@@ -3682,12 +3677,17 @@
             "Var610",
             "Var611",
             "Var612"
+         ],
+         "smps" : [
+            "price",
+            "ppi",
+            "fdd"
          ]
       }
    },
    "config" : {
       "graphType" : "Scatter3D",
-      "subtitle" : "AER - FrozenJuice",
-      "title" : "Price of Frozen Orange Juice"
+      "title" : "Price of Frozen Orange Juice",
+      "subtitle" : "AER - FrozenJuice"
    }
 }

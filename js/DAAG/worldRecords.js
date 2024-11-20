@@ -1,3 +1,18 @@
+var worldRecordsInfo ={
+   "reference" : "For further details, and some additional details, see the web site\nthat is the source of the data.",
+   "format" : "A data frame with 40 observations on the following 9 variables.",
+   "title" : "Record times for track and road races, at August 9th 2006",
+   "parameters" : {
+      "Distance" : "distance in kilometers",
+      "Time" : "time in minutes",
+      "Date" : "a Date",
+      "roadORtrack" : "a factor with levels road track",
+      "Place" : "place; a character vector"
+   },
+   "usage" : "data(worldRecords)",
+   "description" : "Description\nRecord times for track and road races, at August 9th 2006"
+}
+
 var worldRecords = [
    [
       "Distance",

@@ -1,3 +1,17 @@
+var ChickWeightInfo ={
+   "description" : "Description\nThe ChickWeight data frame has 578 rows and 4 columns from an\nexperiment on the effect of diet on early growth of chicks.",
+   "usage" : "ChickWeight",
+   "parameters" : {
+      "Time" : "a numeric vector giving the number of days since birth when\nthe measurement was made.",
+      "Diet" : "a factor with levels 1, ..., 4 indicating which\nexperimental diet the chick received.",
+      "weight" : "a numeric vector giving the body weight of the chick (gm).",
+      "Chick" : "an ordered factor with levels\n18 < ... < 48\ngiving a unique identifier for the chick.  The ordering of\nthe levels groups chicks on the same diet together and\norders them according to their final weight (lightest to\nheaviest) within diet."
+   },
+   "format" : "An object of class\nc(\"nfnGroupedData\", \"nfGroupedData\", \"groupedData\", \"data.frame\")\ncontaining the following columns:",
+   "title" : "Weight versus age of chicks on different diets",
+   "reference" : "The body weights of the chicks were measured at birth and every\nsecond day thereafter until day 20.  They were also measured on day\n21.  There were four groups on chicks on different protein diets."
+}
+
 var ChickWeight = [
    [
       "weight",

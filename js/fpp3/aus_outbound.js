@@ -1,3 +1,10 @@
+var aus_outboundInfo ={
+   "description" : "Description\naus_outbound contains monthly data with one measured variable:\nCount:  Number of individuals departing Australia",
+   "format" : "Each series is uniquely identified using two keys:",
+   "title" : "Monthly short term (<1 year) resident departures in Australia",
+   "usage" : "Time series of class 'tsibble'"
+}
+
 var aus_outbound = [
    [
       "Month",

@@ -1,3 +1,16 @@
+var CobarOreInfo ={
+   "usage" : "data(CobarOre)",
+   "description" : "Description\nCobar Ore data from Green and Silverman (1994). \nThe data consists of measurements on the \"true width\"\nof an ore-bearing rock layer from a mine in Cobar, Australia.",
+   "format" : "A data frame with 38 observations on the following 3 variables.",
+   "title" : "Cobar Ore data",
+   "reference" : "Green, P.J. and B.W. Silverman (1994) Nonparametric Regression Generalized Linear Models:\nA roughness penalty approach, Chapman Hall.",
+   "parameters" : {
+      "z" : "ore thickness",
+      "x" : "x-coordinate of location of mine site",
+      "y" : "y-coordinate of location of mine site"
+   }
+}
+
 var CobarOre = [
    [
       "x",

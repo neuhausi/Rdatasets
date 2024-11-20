@@ -1,15 +1,6 @@
 {
-   "config" : {
-      "title" : "Number of Flaws in Cloth",
-      "graphType" : "Scatter2D",
-      "subtitle" : "boot - cloth"
-   },
    "data" : {
       "y" : {
-         "smps" : [
-            "x",
-            "y"
-         ],
          "data" : [
             [
                1.22,
@@ -173,8 +164,17 @@
             "Var30",
             "Var31",
             "Var32"
+         ],
+         "smps" : [
+            "x",
+            "y"
          ]
       }
    },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>cloth</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>\nNumber of Flaws in Cloth\n</h2>\n<h3>Description</h3>\n<p>The <code>cloth</code> data frame has 32 rows and 2 columns.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>cloth\n</code></pre>\n<h3>Format</h3>\n<p>This data frame contains the following columns:\n</p>\n<dl>\n<dt><code>x</code></dt><dd>\n<p>The length of the roll of cloth.\n</p>\n</dd>\n<dt><code>y</code></dt><dd>\n<p>The number of flaws found in the roll.\n</p>\n</dd></dl>\n<h3>Source</h3>\n<p>The data were obtained from\n</p>\n<p>Bissell, A.F. (1972) A negative binomial model with varying element size.\n<em>Biometrika</em>, <b>59</b>, 435&ndash;441.\n</p>\n<h3>References</h3>\n<p>Davison, A.C. and Hinkley, D.V. (1997) \n<em>Bootstrap Methods and Their Application</em>. Cambridge University Press.\n</p>\n</main>\n</div>\n"
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>cloth</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>\nNumber of Flaws in Cloth\n</h2>\n<h3>Description</h3>\n<p>The <code>cloth</code> data frame has 32 rows and 2 columns.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>cloth\n</code></pre>\n<h3>Format</h3>\n<p>This data frame contains the following columns:\n</p>\n<dl>\n<dt><code>x</code></dt><dd>\n<p>The length of the roll of cloth.\n</p>\n</dd>\n<dt><code>y</code></dt><dd>\n<p>The number of flaws found in the roll.\n</p>\n</dd></dl>\n<h3>Source</h3>\n<p>The data were obtained from\n</p>\n<p>Bissell, A.F. (1972) A negative binomial model with varying element size.\n<em>Biometrika</em>, <b>59</b>, 435&ndash;441.\n</p>\n<h3>References</h3>\n<p>Davison, A.C. and Hinkley, D.V. (1997) \n<em>Bootstrap Methods and Their Application</em>. Cambridge University Press.\n</p>\n</main>\n</div>\n",
+   "config" : {
+      "graphType" : "Scatter2D",
+      "title" : "Number of Flaws in Cloth",
+      "subtitle" : "boot - cloth"
+   }
 }

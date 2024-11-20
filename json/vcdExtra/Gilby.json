@@ -1,21 +1,72 @@
 {
    "config" : {
-      "groupingFactors" : [
+      "segregateSamplesBy" : [
          "Clothing"
       ],
-      "colorBy" : "variable",
+      "subtitle" : "vcdExtra - Gilby",
       "title" : "Clothing and Intelligence Rating of Children",
-      "segregateSamplesBy" : [
+      "groupingFactors" : [
          "Dullness"
       ],
-      "subtitle" : "vcdExtra - Gilby",
-      "graphType" : "Boxplot"
+      "graphType" : "Boxplot",
+      "colorBy" : "variable"
    },
    "data" : {
-      "y" : {
-         "vars" : [
-            "Freq"
+      "x" : {
+         "Dullness" : [
+            "Ment. defective",
+            "Slow",
+            "Slow Intell",
+            "Fairly Intell",
+            "Capable",
+            "V.Able",
+            "Ment. defective",
+            "Slow",
+            "Slow Intell",
+            "Fairly Intell",
+            "Capable",
+            "V.Able",
+            "Ment. defective",
+            "Slow",
+            "Slow Intell",
+            "Fairly Intell",
+            "Capable",
+            "V.Able",
+            "Ment. defective",
+            "Slow",
+            "Slow Intell",
+            "Fairly Intell",
+            "Capable",
+            "V.Able"
          ],
+         "Clothing" : [
+            "V.Well clad",
+            "V.Well clad",
+            "V.Well clad",
+            "V.Well clad",
+            "V.Well clad",
+            "V.Well clad",
+            "Well clad",
+            "Well clad",
+            "Well clad",
+            "Well clad",
+            "Well clad",
+            "Well clad",
+            "Passable",
+            "Passable",
+            "Passable",
+            "Passable",
+            "Passable",
+            "Passable",
+            "Insufficient",
+            "Insufficient",
+            "Insufficient",
+            "Insufficient",
+            "Insufficient",
+            "Insufficient"
+         ]
+      },
+      "y" : {
          "smps" : [
             "Smp1",
             "Smp2",
@@ -41,6 +92,9 @@
             "Smp22",
             "Smp23",
             "Smp24"
+         ],
+         "vars" : [
+            "Freq"
          ],
          "data" : [
             [
@@ -69,60 +123,6 @@
                10,
                1
             ]
-         ]
-      },
-      "x" : {
-         "Clothing" : [
-            "V.Well clad",
-            "V.Well clad",
-            "V.Well clad",
-            "V.Well clad",
-            "V.Well clad",
-            "V.Well clad",
-            "Well clad",
-            "Well clad",
-            "Well clad",
-            "Well clad",
-            "Well clad",
-            "Well clad",
-            "Passable",
-            "Passable",
-            "Passable",
-            "Passable",
-            "Passable",
-            "Passable",
-            "Insufficient",
-            "Insufficient",
-            "Insufficient",
-            "Insufficient",
-            "Insufficient",
-            "Insufficient"
-         ],
-         "Dullness" : [
-            "Ment. defective",
-            "Slow",
-            "Slow Intell",
-            "Fairly Intell",
-            "Capable",
-            "V.Able",
-            "Ment. defective",
-            "Slow",
-            "Slow Intell",
-            "Fairly Intell",
-            "Capable",
-            "V.Able",
-            "Ment. defective",
-            "Slow",
-            "Slow Intell",
-            "Fairly Intell",
-            "Capable",
-            "V.Able",
-            "Ment. defective",
-            "Slow",
-            "Slow Intell",
-            "Fairly Intell",
-            "Capable",
-            "V.Able"
          ]
       }
    },

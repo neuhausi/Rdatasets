@@ -1,11 +1,11 @@
 {
    "config" : {
-      "colorBy" : "centre",
       "title" : "The Counties of Sweden",
-      "sizeBy" : "nuts",
-      "shapeBy" : "county",
       "subtitle" : "stevedata - sweden_counties",
-      "graphType" : "Scatter2D"
+      "graphType" : "Scatter2D",
+      "shapeBy" : "iso",
+      "colorBy" : "centre",
+      "sizeBy" : "county"
    },
    "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>sweden_counties</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>The Counties of Sweden</h2>\n<h3>Description</h3>\n<p>A simple data set on Sweden's counties.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>sweden_counties\n</code></pre>\n<h3>Format</h3>\n<p>A data frame with 21 observations on the following 6 variables.\n</p>\n<dl>\n<dt><code>iso</code></dt><dd><p>the ISO 3166-2 code for the county</p>\n</dd>\n<dt><code>nuts</code></dt><dd><p>the Nomenclature of Territorial Units for Statistics (NUTS) code for the county</p>\n</dd>\n<dt><code>county</code></dt><dd><p>the name of the county, in Swedish</p>\n</dd>\n<dt><code>centre</code></dt><dd><p>the administrative centre, or centres, of the county</p>\n</dd>\n<dt><code>area</code></dt><dd><p>the size of the county in square kilometers</p>\n</dd>\n<dt><code>pop2019</code></dt><dd><p>the size of the county in 2019</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>This is a simple Wikipedia scrape job from 7 November 2022.\n</p>\n</main>\n</div>\n",
    "data" : {
@@ -32,6 +32,29 @@
             "Gävle",
             "Härnösand",
             "Östersund"
+         ],
+         "iso" : [
+            "SE-AB",
+            "SE-AC",
+            "SE-BD",
+            "SE-C",
+            "SE-D",
+            "SE-E",
+            "SE-F",
+            "SE-G",
+            "SE-H",
+            "SE-I",
+            "SE-K",
+            "SE-M",
+            "SE-N",
+            "SE-O",
+            "SE-S",
+            "SE-T",
+            "SE-U",
+            "SE-W",
+            "SE-X",
+            "SE-Y",
+            "SE-Z"
          ],
          "county" : [
             "Stockholm",
@@ -78,55 +101,9 @@
             "SE313",
             "SE321",
             "SE322"
-         ],
-         "iso" : [
-            "SE-AB",
-            "SE-AC",
-            "SE-BD",
-            "SE-C",
-            "SE-D",
-            "SE-E",
-            "SE-F",
-            "SE-G",
-            "SE-H",
-            "SE-I",
-            "SE-K",
-            "SE-M",
-            "SE-N",
-            "SE-O",
-            "SE-S",
-            "SE-T",
-            "SE-U",
-            "SE-W",
-            "SE-X",
-            "SE-Y",
-            "SE-Z"
          ]
       },
       "y" : {
-         "vars" : [
-            "Var1",
-            "Var2",
-            "Var3",
-            "Var4",
-            "Var5",
-            "Var6",
-            "Var7",
-            "Var8",
-            "Var9",
-            "Var10",
-            "Var11",
-            "Var12",
-            "Var13",
-            "Var14",
-            "Var15",
-            "Var16",
-            "Var17",
-            "Var18",
-            "Var19",
-            "Var20",
-            "Var21"
-         ],
          "data" : [
             [
                6519.3,
@@ -216,6 +193,29 @@
          "smps" : [
             "area",
             "pop2019"
+         ],
+         "vars" : [
+            "Var1",
+            "Var2",
+            "Var3",
+            "Var4",
+            "Var5",
+            "Var6",
+            "Var7",
+            "Var8",
+            "Var9",
+            "Var10",
+            "Var11",
+            "Var12",
+            "Var13",
+            "Var14",
+            "Var15",
+            "Var16",
+            "Var17",
+            "Var18",
+            "Var19",
+            "Var20",
+            "Var21"
          ]
       }
    }

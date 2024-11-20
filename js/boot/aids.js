@@ -1,3 +1,19 @@
+var aidsInfo ={
+   "usage" : "aids",
+   "description" : "Description\nThe aids data frame has 570 rows and 6 columns.\nAlthough all cases of AIDS in England and Wales must be reported to the\nCommunicable Disease Surveillance Centre, there is often a considerable delay\nbetween the time of diagnosis and the time that it is reported.  In estimating\nthe prevalence of AIDS, account must be taken of the unknown number of cases\nwhich have been diagnosed but not reported.  The data set here records the\nreported cases of AIDS diagnosed from July 1983 and until the end of 1992.  \nThe data are cross-classified by the date of diagnosis and the time delay in \nthe reporting of the cases.",
+   "format" : "This data frame contains the following columns:",
+   "title" : "Delay in AIDS Reporting in England and Wales",
+   "reference" : "The data were obtained from",
+   "parameters" : {
+      "time" : "The time interval of the diagnosis. That is the number of quarters from July\n1983 until the end of the quarter in which these cases were diagnosed.",
+      "quarter" : "The quarter of the year in which diagnosis was made.",
+      "y" : "The number of AIDS cases reported.",
+      "year" : "The year of the diagnosis.",
+      "delay" : "The time delay (in months) between diagnosis and reporting. 0 means that the\ncase was reported within one month.  Longer delays are grouped in 3 month\nintervals and the value of delay is the midpoint of the interval (therefore\na value of 2 indicates that reporting was delayed for between 1 and 3 \nmonths).",
+      "dud" : "An indicator of censoring. These are categories for which full information is\nnot yet available and the number recorded is a lower bound only."
+   }
+}
+
 var aids = [
    [
       "year",

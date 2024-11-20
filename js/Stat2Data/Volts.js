@@ -1,3 +1,9 @@
+var VoltsInfo ={
+   "description" : "Description\nVoltage drop over time as a capacitor discharges",
+   "usage" : "A dataset with 50 observations on the following 2 variables.",
+   "title" : "Voltage Drop for a Discharging Capacitor"
+}
+
 var Volts = [
    [
       "Voltage",

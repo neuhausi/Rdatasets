@@ -96393,12 +96393,12 @@
       }
    },
    "config" : {
-      "title" : "Gene expression profiles for 189 biological samples taken from seven different tissue types.",
+      "subtitle" : "dslabs - tissue_gene_expression",
       "smpOverlays" : [
          "y",
          null
       ],
       "graphType" : "Heatmap",
-      "subtitle" : "dslabs - tissue_gene_expression"
+      "title" : "Gene expression profiles for 189 biological samples taken from seven different tissue types."
    }
 }

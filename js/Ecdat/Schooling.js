@@ -1,3 +1,41 @@
+var SchoolingInfo ={
+   "title" : "Wages and Schooling",
+   "reference" : "National Longitudinal Survey of Young Men \n(NLSYM).",
+   "format" : "A dataframe containing :",
+   "parameters" : {
+      "nearc4" : "grew up near 4-yr college ?",
+      "black" : "black ?",
+      "enroll76" : "enrolled in 1976 ?",
+      "iqscore" : "a normed IQ score",
+      "libcrd14" : "library card in home at age 14 ?",
+      "lwage76" : "log wage in 1976 (outliers trimmed)",
+      "nearc4b" : "grew up near 4-year private college ?",
+      "step14" : "step parent at age 14 ?",
+      "smsa66" : "lived in SMSA in 1966 ?",
+      "daded" : "dad's education (imputed avg if missing)",
+      "sinmom14" : "single mom at age 14 ?",
+      "wage76" : "wage in 1976 (raw, cents per hour)",
+      "nearc2" : "grew up near 2-yr college ?",
+      "momed" : "mother's education",
+      "momdad14" : "lived with mom and dad at age 14 ?",
+      "mar76" : "married in 1976 ?",
+      "smsa76" : "lived in SMSA in 1976 ?",
+      "ed76" : "education in 1976",
+      "nomomed" : "mom's education imputed ?",
+      "nearc4a" : "grew up near 4-year public college ?",
+      "famed" : "mom-dad education class (1-9)",
+      "south66" : "lived in south in 1966 ?",
+      "age76" : "age in 1976",
+      "exp76" : "experience in 1976",
+      "ed66" : "education in 1966",
+      "south76" : "lived in south in 1976 ?",
+      "kww" : "the kww score",
+      "nodaded" : "dad's education imputed ?"
+   },
+   "usage" : "data(Schooling)",
+   "description" : "Description\na cross-section from 1976\nnumber of observations :  3010\nobservation :  individuals\ncountry :  United States"
+}
+
 var Schooling = [
    [
       "smsa66",

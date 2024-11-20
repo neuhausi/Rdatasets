@@ -1,3 +1,16 @@
+var MilkInfo ={
+   "description" : "Description\nThe Milk data frame has 1337 rows and 4 columns.",
+   "parameters" : {
+      "Cow" : "an ordered factor giving a unique identifier for each cow.",
+      "Time" : "a numeric vector giving the time since calving (weeks).",
+      "Diet" : "a factor with levels\nbarley, \nbarley+lupins, and \nlupins identifying the diet for each cow.",
+      "protein" : "a numeric vector giving the protein content of the milk."
+   },
+   "usage" : "This data frame contains the following columns:",
+   "reference" : "Diggle, Liang, and Zeger (1994) describe data on the protein content\nof cows' milk in the weeks following calving.  The cattle are grouped\naccording to whether they are fed a diet with barley alone, with\nbarley and lupins, or with lupins alone.",
+   "title" : "Protein content of cows' milk"
+}
+
 var Milk = [
    [
       "protein",

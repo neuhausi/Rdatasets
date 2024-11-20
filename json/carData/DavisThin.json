@@ -1,20 +1,11 @@
 {
    "config" : {
+      "title" : "Davis's Data on Drive for Thinness",
       "graphType" : "Heatmap",
-      "subtitle" : "carData - DavisThin",
-      "title" : "Davis's Data on Drive for Thinness"
+      "subtitle" : "carData - DavisThin"
    },
    "data" : {
       "y" : {
-         "vars" : [
-            "DT1",
-            "DT2",
-            "DT3",
-            "DT4",
-            "DT5",
-            "DT6",
-            "DT7"
-         ],
          "smps" : [
             "Smp1",
             "Smp2",
@@ -207,6 +198,15 @@
             "Smp189",
             "Smp190",
             "Smp191"
+         ],
+         "vars" : [
+            "DT1",
+            "DT2",
+            "DT3",
+            "DT4",
+            "DT5",
+            "DT6",
+            "DT7"
          ],
          "data" : [
             [

@@ -1,3 +1,32 @@
+var pensionInfo ={
+   "usage" : "data('pension')",
+   "description" : "Description\nWooldridge Source: L.E. Papke (2004), âIndividual Financial Decisions in Retirement Saving: The Role of Participant-Direction,â Journal of Public Economics 88, 39-61. Professor Papke kindly provided the data. She collected them from the National Longitudinal Survey of Mature Women, 1991. Data loads lazily.",
+   "title" : "pension",
+   "reference" : "page 506",
+   "format" : "A data.frame with 194 observations on 19 variables:",
+   "parameters" : {
+      "stckin89" : " =1 if owned stock in 1989",
+      "married" : " =1 if married",
+      "id" : " family identifier",
+      "educ" : " highest grade completed",
+      "prftshr" : " =1 if profit sharing plan",
+      "finc25" : " $15,000 < faminc92 <= $25,000",
+      "age" : " age in years",
+      "pctstck" : " 0=mstbnds,50=mixed,100=mststcks",
+      "female" : " =1 if female",
+      "finc100" : " $75,000 < faminc92 <= $100,000",
+      "finc101" : " $100,000 < faminc92",
+      "irain89" : " =1 if had IRA in 1989",
+      "finc35" : " $25,000 < faminc92 <= $35,000",
+      "wealth89" : " net worth, 1989, $1000",
+      "finc75" : " $50,000 < faminc92 <= $75,000",
+      "finc50" : " $35,000 < faminc92 <= $50,000",
+      "choice" : " =1 if can choose method invest",
+      "black" : " =1 if black",
+      "pyears" : " years in pension plan"
+   }
+}
+
 var pension = [
    [
       "id",

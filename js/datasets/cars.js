@@ -1,3 +1,10 @@
+var carsInfo ={
+   "format" : "A data frame with 50 observations on 2 variables.",
+   "title" : "Speed and Stopping Distances of Cars",
+   "usage" : "cars",
+   "description" : "Description\nThe data give the speed of cars and the distances taken to stop.\nNote that the data were recorded in the 1920s."
+}
+
 var cars = [
    [
       "speed",

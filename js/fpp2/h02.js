@@ -1,3 +1,10 @@
+var h02Info ={
+   "description" : "Description\nMonthly government expenditure (millions of dollars) as part of the\nPharmaceutical Benefit Scheme for products falling under ATC code H02\nas recorded by the Australian Health Insurance Commission.\nJuly 1991 - June 2008.",
+   "usage" : "Monthly time series of class ts.",
+   "format" : "Medicare Australia",
+   "title" : "Monthly corticosteroid drug subsidy in Australia from 1991 to 2008."
+}
+
 var h02 = [
    [
       "time",

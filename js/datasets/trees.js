@@ -1,3 +1,10 @@
+var treesInfo ={
+   "title" : "Diameter, Height and Volume for Black Cherry Trees",
+   "format" : "A data frame with 31 observations on 3 variables.",
+   "usage" : "trees",
+   "description" : "Description\nThis data set provides measurements of the diameter, height and volume\nof timber in 31 felled black cherry trees.  Note that the diameter (in inches) is erroneously\nlabelled Girth in the data. It is measured at 4 ft 6 in above the ground."
+}
+
 var trees = [
    [
       "Girth",

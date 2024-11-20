@@ -1,3 +1,10 @@
+var ovarianInfo ={
+   "description" : "Description\nSurvival in a randomised trial comparing two treatments for\novarian cancer",
+   "usage" : "ovarian\ndata(cancer, package=\"survival\")",
+   "title" : "Ovarian Cancer Survival Data",
+   "format" : "futime: survival or censoring time\n\n\n \n    fustat: censoring status\n\n\n \n    age:  in years\n\n\n \n    resid.ds: residual disease present (1=no,2=yes)\n\n\n \n    rx: treatment group\n\n\n \n    ecog.ps: ECOG performance status (1 is better, see reference)"
+}
+
 var ovarian = [
    [
       "futime",

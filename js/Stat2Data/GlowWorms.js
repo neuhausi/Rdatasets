@@ -1,3 +1,14 @@
+var GlowWormsInfo ={
+   "parameters" : {
+      "Eggs" : "Number of eggs laid",
+      "Lantern" : "Length of glow lantern (in mm)"
+   },
+   "description" : "Description\nBrightness and fecundity of female glow-worms",
+   "usage" : "A data frame with 26 observations on the following 2 variables.",
+   "title" : "Female Glow-worms",
+   "reference" : "Data on 26 female glow-worms captured in Finland. Female glow-worms attract males by glowing with part of their abdomen (lantern). Researchers believe the brightness of glow might be related to mating success."
+}
+
 var GlowWorms = [
    [
       "Lantern",

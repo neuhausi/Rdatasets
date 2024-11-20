@@ -1,3 +1,15 @@
+var milkInfo ={
+   "title" : "Milk Sweetness Study",
+   "format" : "This data frame contains the following columns:",
+   "reference" : "J.H. Maindonald",
+   "parameters" : {
+      "four" : "a numeric vector consisting of the assessments for four units\nof additive",
+      "one" : "a numeric vector  while the is the assessment for one unit\nof additive"
+   },
+   "usage" : "milk",
+   "description" : "Description\nThe milk data frame has 17 rows and 2 columns.\nEach of 17 panelists compared two milk samples\nfor sweetness."
+}
+
 var milk = [
    [
       "four",

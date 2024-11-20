@@ -1,3 +1,32 @@
+var GestationInfo ={
+   "parameters" : {
+      "dht" : "father's height in inches to the last completed inch",
+      "parity" : "total number of previous pregnancies (including fetal deaths\nand still births)",
+      "ed" : "mother's education",
+      "age" : "mother's age in years at termination of pregnancy",
+      "race" : "mother's race: \"asian\", \"black\", \"mex\",  \"mixed\", or \"white\"",
+      "id" : "identification number",
+      "date" : "birth date where 1096=January 1, 1961",
+      "gestation" : "length of gestation (in days)",
+      "sex" : "\"male\"",
+      "marital" : "marital status",
+      "dwt" : "father's weight (in pounds)",
+      "dage" : "father's age (in years)",
+      "ht" : "mother's height in inches to the last completed inch",
+      "plurality" : "all \"single fetus\" in this data set",
+      "ded" : "father's education",
+      "wt" : "birth weight (in ounces)",
+      "outcome" : "all \"live birth\" (survived at least 28 days) in this data set",
+      "drace" : "father's race",
+      "wt.1" : "mother's prepregnancy weight (in pounds)"
+   },
+   "reference" : "The data were presented by Nolan and Speed to address the question of whether there is a link between maternal smoking and the baby's health for male births.",
+   "title" : "Data from the Child Health and Development Studies",
+   "format" : "A data frame with 1236 observations on the following variables.",
+   "description" : "Description\nBirth weight, date, and gestational period collected as part of the Child\nHealth and Development Studies in 1961 and 1962.  Information about the baby's\nparents &mdash; age, education, height, weight, and whether the mother smoked is\nalso recorded.",
+   "usage" : "data(Gestation)"
+}
+
 var Gestation = [
    [
       "id",

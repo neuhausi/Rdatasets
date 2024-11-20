@@ -1,4 +1,12 @@
 {
+   "config" : {
+      "subtitle" : "HSAUR - smoking",
+      "graphType" : "Scatter2D",
+      "title" : "Nicotine Gum and Smoking Cessation",
+      "colorBy" : null,
+      "scatterPlotMatrix" : 1
+   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>smoking</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2> Nicotine Gum and Smoking Cessation </h2>\n<h3>Description</h3>\n<p>Data from a meta-analysis on nicotine gum and smoking cessation\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(\"smoking\")</code></pre>\n<h3>Format</h3>\n<p>A data frame with 26 observations (studies) on the following 4 variables.\n</p>\n<dl>\n<dt><code>qt</code></dt><dd><p>the number of treated subjetcs who stopped\nsmoking.</p>\n</dd> \n<dt><code>tt</code></dt><dd><p>the totla number of treated subjects.</p>\n</dd>\n<dt><code>qc</code></dt><dd><p>the number of  subjetcs who stopped\nsmoking without being treated.</p>\n</dd> \n<dt><code>tc</code></dt><dd><p>the total number of subject not being treated.</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>Cigarette smoking is the leading cause of preventable death in\nthe United States and kills more Americans than AIDS, alcohol,\nillegal drug use, car accidents, fires, murders and suicides\ncombined. It has been estimated that 430,000 Americans die from\nsmoking every year. Fighting tobacco use is, consequently, one\nof the major public health goals of our time and there are now\nmany programs available designed to help smokers quit. One of\nthe major aids used in these programs is nicotine chewing gum,\nwhich acts as a substitute oral activity and provides a source\nof nicotine that reduces the withdrawal symptoms experienced\nwhen smoking is stopped. But separate randomized clinical trials\nof nicotine gum have been largely inconclusive, leading\nSilagy (2003) to consider combining the results studies\nfound from an extensive literature search. The results of these\ntrials in terms of numbers of people in the treatment arm and\nthe control arm who stopped smoking for at least 6 months after\ntreatment are given here. \n</p>\n<h3>Source</h3>\n<p>C. Silagy (2003), Nicotine replacement therapy for smoking\ncessation (Cochrane Review). <em>The Cochrane Library</em>,\n<b>4</b>, John Wiley &amp; Sons, Chichester.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>\n  data(\"smoking\", package = \"HSAUR\")\n  boxplot(smoking$qt/smoking$tt,\n          smoking$qc/smoking$tc,\n          names = c(\"Treated\", \"Control\"), ylab = \"Percent Quitters\")\n</code></pre>\n</main>\n</div>\n",
    "data" : {
       "y" : {
          "smps" : [
@@ -6,6 +14,34 @@
             "tt",
             "qc",
             "tc"
+         ],
+         "vars" : [
+            "Blondal89",
+            "Campbell91",
+            "Fagerstrom82",
+            "Fee82",
+            "Garcia89",
+            "Garvey00",
+            "Gross95",
+            "Hall85",
+            "Hall87",
+            "Hall96",
+            "Hjalmarson84",
+            "Huber88",
+            "Jarvis82",
+            "Jensen91",
+            "Killen84",
+            "Killen90",
+            "Malcolm80",
+            "McGovern92",
+            "Nakamura90",
+            "Niaura94",
+            "Pirie92",
+            "Puska79",
+            "Schneider85",
+            "Tonnesen88",
+            "Villa99",
+            "Zelman92"
          ],
          "data" : [
             [
@@ -164,43 +200,7 @@
                18,
                58
             ]
-         ],
-         "vars" : [
-            "Blondal89",
-            "Campbell91",
-            "Fagerstrom82",
-            "Fee82",
-            "Garcia89",
-            "Garvey00",
-            "Gross95",
-            "Hall85",
-            "Hall87",
-            "Hall96",
-            "Hjalmarson84",
-            "Huber88",
-            "Jarvis82",
-            "Jensen91",
-            "Killen84",
-            "Killen90",
-            "Malcolm80",
-            "McGovern92",
-            "Nakamura90",
-            "Niaura94",
-            "Pirie92",
-            "Puska79",
-            "Schneider85",
-            "Tonnesen88",
-            "Villa99",
-            "Zelman92"
          ]
       }
-   },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>smoking</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2> Nicotine Gum and Smoking Cessation </h2>\n<h3>Description</h3>\n<p>Data from a meta-analysis on nicotine gum and smoking cessation\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(\"smoking\")</code></pre>\n<h3>Format</h3>\n<p>A data frame with 26 observations (studies) on the following 4 variables.\n</p>\n<dl>\n<dt><code>qt</code></dt><dd><p>the number of treated subjetcs who stopped\nsmoking.</p>\n</dd> \n<dt><code>tt</code></dt><dd><p>the totla number of treated subjects.</p>\n</dd>\n<dt><code>qc</code></dt><dd><p>the number of  subjetcs who stopped\nsmoking without being treated.</p>\n</dd> \n<dt><code>tc</code></dt><dd><p>the total number of subject not being treated.</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>Cigarette smoking is the leading cause of preventable death in\nthe United States and kills more Americans than AIDS, alcohol,\nillegal drug use, car accidents, fires, murders and suicides\ncombined. It has been estimated that 430,000 Americans die from\nsmoking every year. Fighting tobacco use is, consequently, one\nof the major public health goals of our time and there are now\nmany programs available designed to help smokers quit. One of\nthe major aids used in these programs is nicotine chewing gum,\nwhich acts as a substitute oral activity and provides a source\nof nicotine that reduces the withdrawal symptoms experienced\nwhen smoking is stopped. But separate randomized clinical trials\nof nicotine gum have been largely inconclusive, leading\nSilagy (2003) to consider combining the results studies\nfound from an extensive literature search. The results of these\ntrials in terms of numbers of people in the treatment arm and\nthe control arm who stopped smoking for at least 6 months after\ntreatment are given here. \n</p>\n<h3>Source</h3>\n<p>C. Silagy (2003), Nicotine replacement therapy for smoking\ncessation (Cochrane Review). <em>The Cochrane Library</em>,\n<b>4</b>, John Wiley &amp; Sons, Chichester.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>\n  data(\"smoking\", package = \"HSAUR\")\n  boxplot(smoking$qt/smoking$tt,\n          smoking$qc/smoking$tc,\n          names = c(\"Treated\", \"Control\"), ylab = \"Percent Quitters\")\n</code></pre>\n</main>\n</div>\n",
-   "config" : {
-      "scatterPlotMatrix" : 1,
-      "subtitle" : "HSAUR - smoking",
-      "graphType" : "Scatter2D",
-      "colorBy" : null,
-      "title" : "Nicotine Gum and Smoking Cessation"
    }
 }

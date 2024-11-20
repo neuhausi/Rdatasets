@@ -1,3 +1,19 @@
+var Iwasaki_Big_FiveInfo ={
+   "reference" : "The groups are:",
+   "title" : "Personality Traits of Cultural Groups",
+   "usage" : "A data frame with 203 observations on the following 7 variables.",
+   "description" : "Description\nThis dataset, from Grice & Iwasaki (2007), gives scores on the five\npersonality scales of the NEO PI-r (Costa & McCrae, 1992), called the \"Big\nFive\" personality traits: Neuroticism, Extraversion, Openness-to-Experience,\nAgreeableness, and Conscientiousness.",
+   "parameters" : {
+      "ID" : "ID number",
+      "C" : "Conscientiousness score",
+      "A" : "Agreeableness score",
+      "N" : "Neuroticism score",
+      "Group" : "a factor with\nlevels Eur Asian_Amer Asian_Intl",
+      "E" : "Extraversion score",
+      "O" : "Openness score"
+   }
+}
+
 var Iwasaki_Big_Five = [
    [
       "ID",

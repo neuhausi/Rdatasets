@@ -1,3 +1,18 @@
+var sealevelsInfo ={
+   "usage" : "sealevels",
+   "description" : "Description\nThese data describe how sea level has changed over time, in both\nrelative and absolute terms. Absolute sea level change refers to\nthe height of the ocean surface regardless of whether nearby\nland is rising or falling.",
+   "format" : "A data frame with 136 observations on the following 5 variables.",
+   "reference" : "Environmental Protection Agency (\"Climate Change Indicators: Sea Level\")",
+   "title" : "Global Average Absolute Sea Level Change, 1880â2015",
+   "parameters" : {
+      "ub" : "the upper bound of the estimate (in inches)",
+      "year" : "the year",
+      "lb" : "the lower bound of the estimate (in inches)",
+      "adjlev" : "adjusted sea level (in inches)",
+      "adjlev_noaa" : "NOAA's adjusted sea level (in inches)"
+   }
+}
+
 var sealevels = [
    [
       "year",

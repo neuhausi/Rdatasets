@@ -1,3 +1,9 @@
+var ChildSpeaksInfo ={
+   "description" : "Description\nAge at first speaking and aptitude test scores",
+   "usage" : "A data frame with 21 observations on the following 3 variables.",
+   "title" : "Age at First Speaking"
+}
+
 var ChildSpeaks = [
    [
       "Child",

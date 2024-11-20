@@ -1,3 +1,43 @@
+var big9salaryInfo ={
+   "format" : "A data.frame with 786 observations on 30 variables:",
+   "title" : "big9salary",
+   "reference" : "This is an unbalanced panel data set in the sense that as many as three years of data are available for each faculty member but where some have fewer than three years. It is not clear that something like a fixed effects or first differencing analysis makes sense: in effect, approaches that remove the heterogeneity control for too much by controlling for unobserved heterogeneity which, in this case, includes faculty intelligence, talent, and motivation. Presumably these factors enter into the publication index. It is hard to think we want to hold the main factors driving productivity fixed when trying to measure the effect of productivity on salary. Pooled OLS regression with âcluster robustâ standard errors seems more natural. On the other hand, if we want to measure the return to having a degree from a top 20 Ph.D. program then we would want to control for factors that cause selection into a top 20 program. Unfortunately, this variable does not change over time, and so FD and FE are not applicable.",
+   "parameters" : {
+      "minn" : " =1 if U. Minnesota",
+      "yearphd" : " year Ph.D. obtained",
+      "pubindx" : " publication index",
+      "mich" : " =1 if U. Michigan",
+      "y99" : " =1 if year == 99",
+      "year" : " 92, 95, or 99",
+      "top20phd" : " =1 if Ph.D. from top 20 dept.",
+      "pubindx0" : " =1 if pubindx == 0",
+      "chair" : " =1 if department chair",
+      "salary" : " annual salary, $",
+      "purdue" : " =1 if Purdue U.",
+      "assist" : " =1 if assistant professor",
+      "indiana" : " =1 if Indiana U.",
+      "msu" : " =1 if Michigan State U.",
+      "wisc" : " =1 if U. Wisconsin",
+      "y95" : " =1 if year == 95",
+      "totpge" : " standardized total article pages",
+      "y92" : " =1 if year == 92",
+      "assoc" : " =1 if associate professor",
+      "pubindxsq" : " pubindx^2",
+      "exper" : " years since first teaching job",
+      "lsalary" : " log(salary)",
+      "osu" : " =1 if Ohio State U.",
+      "lpubindx" : " log(pubindx) if pubindx > 0",
+      "id" : " person identifier",
+      "iowa" : " =1 if U. Iowa",
+      "illinois" : " =1 if U. Illinois",
+      "expersq" : " exper^2",
+      "female" : " =1 if female",
+      "prof" : " =1 if full professor"
+   },
+   "usage" : "data('big9salary')",
+   "description" : "Description\nWooldridge Source: O. Baser and E. Pema (2003), âThe Return of Publications for Economics Faculty,â Economics Bulletin 1, 1-13. Professors Baser and Pema kindly provided the data. Data loads lazily."
+}
+
 var big9salary = [
    [
       "id",

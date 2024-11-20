@@ -1,3 +1,17 @@
+var VietnamInfo ={
+   "usage" : "data(Vietnam)",
+   "description" : "Description\nA survey of student opinion on the Vietnam War was taken at the\nUniversity of North Carolina at Chapel Hill in May 1967 and published\nin the student newspaper. Students were asked to fill in ballot\npapers stating which policy out of A,B,C or D they supported.\nResponses were cross-classified by gender/year.\nThe response categories were:\nADefeat North Vietnam by widespread bombing and land invasion\n\nBMaintain the present policy\n\nCDe-escalate military activity, stop bombing and begin negotiations\n\nDWithdraw military forces Immediately",
+   "format" : "A frequency data frame with 40 observations representing a 2 x 5 x 4 contingency table\non the following 4 variables.",
+   "title" : "Student Opinion about the Vietnam War",
+   "reference" : "data(Vietnam)",
+   "parameters" : {
+      "B" : "Maintain the present policy",
+      "C" : "De-escalate military activity, stop bombing and begin negotiations",
+      "A" : "Defeat North Vietnam by widespread bombing and land invasion",
+      "D" : "Withdraw military forces Immediately"
+   }
+}
+
 var Vietnam = [
    [
       "sex",

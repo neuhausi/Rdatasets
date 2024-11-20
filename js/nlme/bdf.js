@@ -1,3 +1,38 @@
+var bdfInfo ={
+   "reference" : "&lsquo;&#8288;http://stat.gamma.rug.nl/snijders/multilevel.htm&#8288;&rsquo;, the first\nedition of http://www.stats.ox.ac.uk/~snijders/mlbook.htm.",
+   "format" : "schoolNRa factor denoting the school.\n\npupilNRa factor denoting the pupil.\n\nIQ.verba numeric vector of verbal IQ scores\n\nIQ.perfa numeric vector of IQ scores.\n\nsexSex of the student.\n\nMinoritya factor indicating if the student is a member of a\nminority group.\n\nrepeatgran ordered factor indicating if one or more grades\nhave been repeated.\n\naritPRETa numeric vector\n\nclassNRa numeric vector\n\naritPOSTa numeric vector\n\nlangPRETa numeric vector\n\nlangPOSTa numeric vector\n\nsesa numeric vector of socioeconomic status indicators.\n\ndenominaa factor indicating of the school is a public\nschool, a Protestant private school, a Catholic private school, or\na non-denominational private school.\n\nschoolSESa numeric vector\n\nsatiprina numeric vector\n\nnatitesta factor with levels 0 and 1\n\nmeetingsa numeric vector\n\ncurrmeeta numeric vector\n\nmixedgraa factor indicating if the class is a mixed-grade class.\n\npercminoa numeric vector\n\naritdiffa numeric vector\n\nhomeworka numeric vector\n\nclasssiza numeric vector\n\ngroupsiza numeric vector",
+   "title" : "Language scores",
+   "parameters" : {
+      "classNR" : "a numeric vector",
+      "classsiz" : "a numeric vector",
+      "satiprin" : "a numeric vector",
+      "natitest" : "a factor with levels 0 and 1",
+      "aritPRET" : "a numeric vector",
+      "meetings" : "a numeric vector",
+      "IQ.verb" : "a numeric vector of verbal IQ scores",
+      "schoolSES" : "a numeric vector",
+      "pupilNR" : "a factor denoting the pupil.",
+      "aritPOST" : "a numeric vector",
+      "mixedgra" : "a factor indicating if the class is a mixed-grade class.",
+      "percmino" : "a numeric vector",
+      "homework" : "a numeric vector",
+      "IQ.perf" : "a numeric vector of IQ scores.",
+      "Minority" : "a factor indicating if the student is a member of a\nminority group.",
+      "aritdiff" : "a numeric vector",
+      "langPOST" : "a numeric vector",
+      "repeatgr" : "an ordered factor indicating if one or more grades\nhave been repeated.",
+      "sex" : "Sex of the student.",
+      "groupsiz" : "a numeric vector",
+      "ses" : "a numeric vector of socioeconomic status indicators.",
+      "langPRET" : "a numeric vector",
+      "schoolNR" : "a factor denoting the school.",
+      "currmeet" : "a numeric vector",
+      "denomina" : "a factor indicating of the school is a public\nschool, a Protestant private school, a Catholic private school, or\na non-denominational private school."
+   },
+   "usage" : "data(bdf)",
+   "description" : "Description\nThe bdf data frame has 2287 rows and 25 columns of language\nscores from grade 8 pupils in elementary schools in The Netherlands."
+}
+
 var bdf = [
    [
       "schoolNR",

@@ -1,3 +1,44 @@
+var adult_servicesInfo ={
+   "usage" : "adult_services",
+   "description" : "Description\nThis data comes from a survey of 700 internet-mediated sex workers in 2008 and 2009, asking the same sex workers standard labor market information over several time periods.",
+   "title" : "Data from a survey of internet-mediated sex workers",
+   "format" : "A data frame with 1787 rows and 31 variables",
+   "reference" : "This data is used in the Panel Data chapter of Causal Inference: The Mixtape by Cunningham.",
+   "parameters" : {
+      "massage_cl" : "Gave Client a Massage",
+      "session" : "Client session identifier",
+      "asq" : "Age of provider squared",
+      "white" : "race==5. White",
+      "cohab" : "ms==Cohabitating (living with a partner) but unmarried",
+      "hot" : "Met Client in Hotel",
+      "unsafe" : "Unprotected sex with client of any kind",
+      "nevermarried" : "ms==Single and never married",
+      "asq_cl" : "Age of Client Squared",
+      "widowed" : "ms==Widowed and not remarried",
+      "age" : "Age of provider",
+      "black_cl" : "Black Client",
+      "married" : "ms==Currently married and living with your spouse",
+      "schooling" : "Imputed Years of Schooling",
+      "asian" : "race==1. Asian",
+      "provider_second" : "Second Provider Involved",
+      "appearance_cl" : "Client Attractiveness (Scale of 1 to 10)",
+      "age_cl" : "Age of Client",
+      "separated" : "ms==Married but not currently living with your spouse",
+      "hispanic" : "race==3. Hispanic",
+      "reg" : "Client was a Regular",
+      "lnw" : "Log of Hourly Wage",
+      "divorced" : "ms==Divorced and not remarried",
+      "llength" : "Ln(Length)",
+      "othrace_cl" : "Other Ethnicity Client",
+      "asian_cl" : "Asian Client",
+      "other" : "race==4. Other",
+      "bmi" : "Body Mass Index",
+      "black" : "race==2. Black",
+      "id" : "Provider identifier",
+      "hispanic_cl" : "Hispanic Client"
+   }
+}
+
 var adult_services = [
    [
       "id",

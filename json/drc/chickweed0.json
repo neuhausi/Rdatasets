@@ -1,11 +1,47 @@
 {
    "config" : {
+      "subtitle" : "drc - chickweed0",
       "title" : "Germination of common chickweed (_Stellaria media_)",
-      "graphType" : "Scatter2D",
-      "subtitle" : "drc - chickweed0"
+      "graphType" : "Scatter2D"
    },
    "data" : {
       "y" : {
+         "vars" : [
+            "Var1",
+            "Var2",
+            "Var3",
+            "Var4",
+            "Var5",
+            "Var6",
+            "Var7",
+            "Var8",
+            "Var9",
+            "Var10",
+            "Var11",
+            "Var12",
+            "Var13",
+            "Var14",
+            "Var15",
+            "Var16",
+            "Var17",
+            "Var18",
+            "Var19",
+            "Var20",
+            "Var21",
+            "Var22",
+            "Var23",
+            "Var24",
+            "Var25",
+            "Var26",
+            "Var27",
+            "Var28",
+            "Var29",
+            "Var30",
+            "Var31",
+            "Var32",
+            "Var33",
+            "Var34"
+         ],
          "smps" : [
             "time",
             "count"
@@ -147,42 +183,6 @@
                281.5,
                40
             ]
-         ],
-         "vars" : [
-            "Var1",
-            "Var2",
-            "Var3",
-            "Var4",
-            "Var5",
-            "Var6",
-            "Var7",
-            "Var8",
-            "Var9",
-            "Var10",
-            "Var11",
-            "Var12",
-            "Var13",
-            "Var14",
-            "Var15",
-            "Var16",
-            "Var17",
-            "Var18",
-            "Var19",
-            "Var20",
-            "Var21",
-            "Var22",
-            "Var23",
-            "Var24",
-            "Var25",
-            "Var26",
-            "Var27",
-            "Var28",
-            "Var29",
-            "Var30",
-            "Var31",
-            "Var32",
-            "Var33",
-            "Var34"
          ]
       }
    },

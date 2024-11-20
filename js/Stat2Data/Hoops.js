@@ -1,3 +1,9 @@
+var HoopsInfo ={
+   "title" : "Grinnell College Basketball Games",
+   "usage" : "A data frame with 147 observations on the following 22 variables.",
+   "description" : "Description\nData from games played by the Grinnell College men's basketball team between 1997 and 2006"
+}
+
 var Hoops = [
    [
       "Game",

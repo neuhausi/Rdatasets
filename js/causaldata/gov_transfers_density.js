@@ -1,3 +1,14 @@
+var gov_transfers_densityInfo ={
+   "description" : "Description\nThe gov_transfers_density data contains data from Manacorda, Miguel, and Vigorito (2011) on government transfer program that was administered based on an income cutoff. As opposed to the gov_transfers data set, this data set only contains income information, but has a wider range of it, for use with density discontinuity tests.",
+   "usage" : "gov_transfers_density",
+   "parameters" : {
+      "Income_Centered" : "Income measure, centered around program cutoff (negative value = eligible)"
+   },
+   "format" : "A data frame with 52549 rows and 1 variable:",
+   "title" : "Data from \"Government Transfers and Political Support\" for Density Tests",
+   "reference" : "This data is used in the Regression Discontinuity chapter of The Effect."
+}
+
 var gov_transfers_density = [
    [
       "Income_Centered"

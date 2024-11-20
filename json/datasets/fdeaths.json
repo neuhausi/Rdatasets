@@ -373,8 +373,8 @@
       }
    },
    "config" : {
+      "title" : "Monthly Deaths from Lung Diseases in the UK",
       "graphType" : "Scatter2D",
-      "subtitle" : "datasets - fdeaths",
-      "title" : "Monthly Deaths from Lung Diseases in the UK"
+      "subtitle" : "datasets - fdeaths"
    }
 }

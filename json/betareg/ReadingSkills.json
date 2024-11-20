@@ -1,13 +1,63 @@
 {
    "config" : {
-      "colorBy" : "dyslexia",
-      "title" : "Dyslexia and IQ Predicting Reading Accuracy",
       "subtitle" : "betareg - ReadingSkills",
+      "title" : "Dyslexia and IQ Predicting Reading Accuracy",
+      "colorBy" : "dyslexia",
       "graphType" : "Scatter3D"
    },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>ReadingSkills</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Dyslexia and IQ Predicting Reading Accuracy</h2>\n<h3>Description</h3>\n<p>Data for assessing the contribution of non-verbal IQ to\nchildren's reading skills in dyslexic and non-dyslexic children.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(\"ReadingSkills\", package = \"betareg\")</code></pre>\n<h3>Format</h3>\n<p>A data frame containing 44 observations on 3 variables.\n</p>\n<dl>\n<dt>accuracy</dt><dd><p>numeric. Reading score with maximum restricted to be\n0.99 rather than 1 (see below).</p>\n</dd>\n<dt>dyslexia</dt><dd><p>factor. Is the child dyslexic? (A sum contrast rather\nthan treatment contrast is employed.)</p>\n</dd>\n<dt>iq</dt><dd><p>numeric. Non-verbal intelligence quotient transformed to z-scores.</p>\n</dd>\n<dt>accuracy1</dt><dd><p>numeric. Unrestricted reading score with a maximum of 1\n(see below).</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>The data were collected by Pammer and Kevan (2004) and employed by\nSmithson and Verkuilen (2006). The original reading accuracy score was transformed\nby Smithson and Verkuilen (2006) so that <code>accuracy</code> is in the open unit\ninterval (0, 1) and beta regression can be employed. First, the original accuracy\nwas scaled using the minimal and maximal score (<code>a</code> and <code>b</code>, respectively)\nthat can be obtained in the test: <code>accuracy1 = (original_accuracy - a) / (b - a)</code>\n(<code>a</code> and <code>b</code> are not provided). Subsequently, <code>accuracy</code> was obtained\nfrom <code>accuracy1</code> by replacing all observations with a value of 1 with 0.99.\n</p>\n<p>Kosmidis and Zeileis (2024) propose to investigate the original unrestricted\n<code>accuracy1</code> variable using their extended-support beta mixture regression.\n</p>\n<h3>Source</h3>\n<p>Example 3 from Smithson and Verkuilen (2006) supplements.\n</p>\n<h3>References</h3>\n<p>Cribari-Neto, F., and Zeileis, A. (2010). Beta Regression in R.\n<em>Journal of Statistical Software</em>, <b>34</b>(2), 1&ndash;24.\n<a href=\"https://doi.org/10.18637/jss.v034.i02\">doi:10.18637/jss.v034.i02</a>\n</p>\n<p>GrÃ¼n, B., Kosmidis, I., and Zeileis, A. (2012).\nExtended Beta Regression in R: Shaken, Stirred, Mixed, and Partitioned.\n<em>Journal of Statistical Software</em>, <b>48</b>(11), 1&ndash;25.\n<a href=\"https://doi.org/10.18637/jss.v048.i11\">doi:10.18637/jss.v048.i11</a>\n</p>\n<p>Kosmidis I, Zeileis A (2024).\nExtended-Support Beta Regression for [0, 1] Responses.\n<em>Unpublished manuscript</em>.\n</p>\n<p>Pammer, K., and Kevan, A. (2004).\nThe Contribution of Visual Sensitivity, Phonological Processing\nand Non-Verbal IQ to Children's Reading.\n<em>Unpublished manuscript</em>, The Australian National University, Canberra.\n</p>\n<p>Smithson, M., and Verkuilen, J. (2006).\nA Better Lemon Squeezer? Maximum-Likelihood Regression with\nBeta-Distributed Dependent Variables.\n<em>Psychological Methods</em>, <b>11</b>(7), 54&ndash;71.\n</p>\n<h3>See Also</h3>\n<p><code>betareg</code>, <code>MockJurors</code>, <code>StressAnxiety</code></p>\n<h3>Examples</h3>\n<pre><code class='language-R'>options(digits = 4)\ndata(\"ReadingSkills\", package = \"betareg\")\n## Smithson &amp; Verkuilen (2006, Table 5)\n## OLS regression\n## (Note: typo in iq coefficient: 0.3954 instead of 0.3594)\nrs_ols &lt;- lm(qlogis(accuracy) ~ dyslexia * iq, data = ReadingSkills)\nsummary(rs_ols)\n## Beta regression (with numerical rather than analytic standard errors)\n## (Note: Smithson &amp; Verkuilen erroneously compute one-sided p-values)\nrs_beta &lt;- betareg(accuracy ~ dyslexia * iq | dyslexia + iq,\n  data = ReadingSkills, hessian = TRUE)\nsummary(rs_beta)\n## Extended-support beta mixture regression (Kosmidis &amp; Zeileis 2024)\nrs_xbx &lt;- betareg(accuracy1 ~ dyslexia * iq | dyslexia + iq, data = ReadingSkills)\nsummary(rs_xbx)\n## Coefficients in XBX are typically somewhat shrunken compared to beta\ncbind(XBX = coef(rs_xbx), Beta = c(coef(rs_beta), NA))\n## Visualization\nplot(accuracy1 ~ iq, data = ReadingSkills, col = c(4, 2)[dyslexia], pch = 19)\nnd &lt;- data.frame(dyslexia = \"no\", iq = -30:30/10)\nlines(nd$iq, predict(rs_xbx, nd), col = 4)\nlines(nd$iq, predict(rs_beta, nd), col = 4, lty = 5)\nlines(nd$iq, plogis(predict(rs_ols, nd)), col = 4, lty = 3)\nnd &lt;- data.frame(dyslexia = \"yes\", iq = -30:30/10)\nlines(nd$iq, predict(rs_xbx, nd), col = 2)\nlines(nd$iq, predict(rs_beta, nd), col = 2, lty = 5)\nlines(nd$iq, plogis(predict(rs_ols, nd)), col = 2, lty = 3)\nlegend(\"topleft\", c(\"Dyslexia: no\", \"Dyslexia: yes\", \"OLS\", \"XBX\", \"Beta\"),\n  lty = c(0, 0, 3, 1, 5), pch = c(19, 19, NA, NA, NA), col = c(4, 2, 1, 1, 1), bty = \"n\")\n## see demo(\"SmithsonVerkuilen2006\", package = \"betareg\") for further details\n</code></pre>\n</main>\n</div>\n",
    "data" : {
       "y" : {
+         "vars" : [
+            "Var1",
+            "Var2",
+            "Var3",
+            "Var4",
+            "Var5",
+            "Var6",
+            "Var7",
+            "Var8",
+            "Var9",
+            "Var10",
+            "Var11",
+            "Var12",
+            "Var13",
+            "Var14",
+            "Var15",
+            "Var16",
+            "Var17",
+            "Var18",
+            "Var19",
+            "Var20",
+            "Var21",
+            "Var22",
+            "Var23",
+            "Var24",
+            "Var25",
+            "Var26",
+            "Var27",
+            "Var28",
+            "Var29",
+            "Var30",
+            "Var31",
+            "Var32",
+            "Var33",
+            "Var34",
+            "Var35",
+            "Var36",
+            "Var37",
+            "Var38",
+            "Var39",
+            "Var40",
+            "Var41",
+            "Var42",
+            "Var43",
+            "Var44"
+         ],
+         "smps" : [
+            "accuracy",
+            "iq",
+            "accuracy1"
+         ],
          "data" : [
             [
                0.88386,
@@ -229,57 +279,6 @@
                -1.27,
                0.66535
             ]
-         ],
-         "smps" : [
-            "accuracy",
-            "iq",
-            "accuracy1"
-         ],
-         "vars" : [
-            "Var1",
-            "Var2",
-            "Var3",
-            "Var4",
-            "Var5",
-            "Var6",
-            "Var7",
-            "Var8",
-            "Var9",
-            "Var10",
-            "Var11",
-            "Var12",
-            "Var13",
-            "Var14",
-            "Var15",
-            "Var16",
-            "Var17",
-            "Var18",
-            "Var19",
-            "Var20",
-            "Var21",
-            "Var22",
-            "Var23",
-            "Var24",
-            "Var25",
-            "Var26",
-            "Var27",
-            "Var28",
-            "Var29",
-            "Var30",
-            "Var31",
-            "Var32",
-            "Var33",
-            "Var34",
-            "Var35",
-            "Var36",
-            "Var37",
-            "Var38",
-            "Var39",
-            "Var40",
-            "Var41",
-            "Var42",
-            "Var43",
-            "Var44"
          ]
       },
       "z" : {
@@ -330,5 +329,6 @@
             "yes"
          ]
       }
-   }
+   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>ReadingSkills</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Dyslexia and IQ Predicting Reading Accuracy</h2>\n<h3>Description</h3>\n<p>Data for assessing the contribution of non-verbal IQ to\nchildren's reading skills in dyslexic and non-dyslexic children.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(\"ReadingSkills\", package = \"betareg\")</code></pre>\n<h3>Format</h3>\n<p>A data frame containing 44 observations on 3 variables.\n</p>\n<dl>\n<dt>accuracy</dt><dd><p>numeric. Reading score with maximum restricted to be\n0.99 rather than 1 (see below).</p>\n</dd>\n<dt>dyslexia</dt><dd><p>factor. Is the child dyslexic? (A sum contrast rather\nthan treatment contrast is employed.)</p>\n</dd>\n<dt>iq</dt><dd><p>numeric. Non-verbal intelligence quotient transformed to z-scores.</p>\n</dd>\n<dt>accuracy1</dt><dd><p>numeric. Unrestricted reading score with a maximum of 1\n(see below).</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>The data were collected by Pammer and Kevan (2004) and employed by\nSmithson and Verkuilen (2006). The original reading accuracy score was transformed\nby Smithson and Verkuilen (2006) so that <code>accuracy</code> is in the open unit\ninterval (0, 1) and beta regression can be employed. First, the original accuracy\nwas scaled using the minimal and maximal score (<code>a</code> and <code>b</code>, respectively)\nthat can be obtained in the test: <code>accuracy1 = (original_accuracy - a) / (b - a)</code>\n(<code>a</code> and <code>b</code> are not provided). Subsequently, <code>accuracy</code> was obtained\nfrom <code>accuracy1</code> by replacing all observations with a value of 1 with 0.99.\n</p>\n<p>Kosmidis and Zeileis (2024) propose to investigate the original unrestricted\n<code>accuracy1</code> variable using their extended-support beta mixture regression.\n</p>\n<h3>Source</h3>\n<p>Example 3 from Smithson and Verkuilen (2006) supplements.\n</p>\n<h3>References</h3>\n<p>Cribari-Neto, F., and Zeileis, A. (2010). Beta Regression in R.\n<em>Journal of Statistical Software</em>, <b>34</b>(2), 1&ndash;24.\n<a href=\"https://doi.org/10.18637/jss.v034.i02\">doi:10.18637/jss.v034.i02</a>\n</p>\n<p>GrÃ¼n, B., Kosmidis, I., and Zeileis, A. (2012).\nExtended Beta Regression in R: Shaken, Stirred, Mixed, and Partitioned.\n<em>Journal of Statistical Software</em>, <b>48</b>(11), 1&ndash;25.\n<a href=\"https://doi.org/10.18637/jss.v048.i11\">doi:10.18637/jss.v048.i11</a>\n</p>\n<p>Kosmidis I, Zeileis A (2024).\nExtended-Support Beta Regression for [0, 1] Responses.\n<em>Unpublished manuscript</em>.\n</p>\n<p>Pammer, K., and Kevan, A. (2004).\nThe Contribution of Visual Sensitivity, Phonological Processing\nand Non-Verbal IQ to Children's Reading.\n<em>Unpublished manuscript</em>, The Australian National University, Canberra.\n</p>\n<p>Smithson, M., and Verkuilen, J. (2006).\nA Better Lemon Squeezer? Maximum-Likelihood Regression with\nBeta-Distributed Dependent Variables.\n<em>Psychological Methods</em>, <b>11</b>(7), 54&ndash;71.\n</p>\n<h3>See Also</h3>\n<p><code>betareg</code>, <code>MockJurors</code>, <code>StressAnxiety</code></p>\n<h3>Examples</h3>\n<pre><code class='language-R'>options(digits = 4)\ndata(\"ReadingSkills\", package = \"betareg\")\n## Smithson &amp; Verkuilen (2006, Table 5)\n## OLS regression\n## (Note: typo in iq coefficient: 0.3954 instead of 0.3594)\nrs_ols &lt;- lm(qlogis(accuracy) ~ dyslexia * iq, data = ReadingSkills)\nsummary(rs_ols)\n## Beta regression (with numerical rather than analytic standard errors)\n## (Note: Smithson &amp; Verkuilen erroneously compute one-sided p-values)\nrs_beta &lt;- betareg(accuracy ~ dyslexia * iq | dyslexia + iq,\n  data = ReadingSkills, hessian = TRUE)\nsummary(rs_beta)\n## Extended-support beta mixture regression (Kosmidis &amp; Zeileis 2024)\nrs_xbx &lt;- betareg(accuracy1 ~ dyslexia * iq | dyslexia + iq, data = ReadingSkills)\nsummary(rs_xbx)\n## Coefficients in XBX are typically somewhat shrunken compared to beta\ncbind(XBX = coef(rs_xbx), Beta = c(coef(rs_beta), NA))\n## Visualization\nplot(accuracy1 ~ iq, data = ReadingSkills, col = c(4, 2)[dyslexia], pch = 19)\nnd &lt;- data.frame(dyslexia = \"no\", iq = -30:30/10)\nlines(nd$iq, predict(rs_xbx, nd), col = 4)\nlines(nd$iq, predict(rs_beta, nd), col = 4, lty = 5)\nlines(nd$iq, plogis(predict(rs_ols, nd)), col = 4, lty = 3)\nnd &lt;- data.frame(dyslexia = \"yes\", iq = -30:30/10)\nlines(nd$iq, predict(rs_xbx, nd), col = 2)\nlines(nd$iq, predict(rs_beta, nd), col = 2, lty = 5)\nlines(nd$iq, plogis(predict(rs_ols, nd)), col = 2, lty = 3)\nlegend(\"topleft\", c(\"Dyslexia: no\", \"Dyslexia: yes\", \"OLS\", \"XBX\", \"Beta\"),\n  lty = c(0, 0, 3, 1, 5), pch = c(19, 19, NA, NA, NA), col = c(4, 2, 1, 1, 1), bty = \"n\")\n## see demo(\"SmithsonVerkuilen2006\", package = \"betareg\") for further details\n</code></pre>\n</main>\n</div>\n"
 }

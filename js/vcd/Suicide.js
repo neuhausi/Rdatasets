@@ -1,3 +1,19 @@
+var SuicideInfo ={
+   "usage" : "data(\"Suicide\")",
+   "description" : "Description\nData from Heuer (1979) on suicide rates in West Germany classified by\nage, sex, and method of suicide.",
+   "format" : "A data frame with 306 observations and 6 variables.",
+   "title" : "Suicide Rates in Germany",
+   "reference" : "Michael Friendly (2000),\nVisualizing Categorical Data:\nhttp://euclid.psych.yorku.ca/ftp/sas/vcd/catdata/suicide.sas",
+   "parameters" : {
+      "Freq" : "frequency of suicides.",
+      "sex" : "factor indicating sex (male, female).",
+      "method" : "factor indicating method used.",
+      "method2" : "factor indicating method used (same as method\nbut some levels are merged).",
+      "age" : "age (rounded).",
+      "age.group" : "factor.  Age classified into 5 groups."
+   }
+}
+
 var Suicide = [
    [
       "Freq",

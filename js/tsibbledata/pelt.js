@@ -1,3 +1,10 @@
+var peltInfo ={
+   "description" : "Description\nHudson Bay Company trading records for Snowshoe Hare and Canadian Lynx furs\nfrom 1845 to 1935. This data contains trade records for all areas of the company.",
+   "format" : "pelt is an annual tsibble with two values:",
+   "title" : "Pelt trading records",
+   "usage" : "Time series of class tsibble"
+}
+
 var pelt = [
    [
       "Year",

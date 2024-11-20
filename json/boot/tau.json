@@ -1,4 +1,13 @@
 {
+   "config" : {
+      "colorBy" : "variable",
+      "title" : "Tau Particle Decay Modes",
+      "graphType" : "Boxplot",
+      "groupingFactors" : [
+         "decay"
+      ],
+      "subtitle" : "boot - tau"
+   },
    "data" : {
       "x" : {
          "decay" : [
@@ -65,6 +74,9 @@
          ]
       },
       "y" : {
+         "vars" : [
+            "rate"
+         ],
          "smps" : [
             "Smp1",
             "Smp2",
@@ -190,20 +202,8 @@
                22.4,
                35
             ]
-         ],
-         "vars" : [
-            "rate"
          ]
       }
    },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>tau</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>\nTau Particle Decay Modes\n</h2>\n<h3>Description</h3>\n<p>The <code>tau</code> data frame has 60 rows and 2 columns.\n</p>\n<p>The tau particle is a heavy electron-like particle discovered in the 1970's\nby Martin Perl at the Stanford Linear Accelerator Center.  Soon after its\nproduction the tau particle decays into various collections of more stable\nparticles.  About 86% of the time the decay involves just one charged particle.\nThis rate has been measured independently 13 times.  \n</p>\n<p>The one-charged-particle event is made up of four major modes of decay as well\nas a collection of other events.  The four main types of decay are denoted\nrho, pi, e and mu.  These rates have been measured independently 6, 7, 14 and\n19 times respectively.  Due to physical constraints each experiment can only\nestimate the composite one-charged-particle decay rate or the rate of one of\nthe major modes of decay.  \n</p>\n<p>Each experiment consists of a major research project involving many years work.\nOne of the goals of the experiments was to estimate the rate of decay due to \nevents other than the four main modes of decay.  These are uncertain events and\nso cannot themselves be observed directly.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>tau\n</code></pre>\n<h3>Format</h3>\n<p>This data frame contains the following columns:\n</p>\n<dl>\n<dt><code>rate</code></dt><dd>\n<p>The decay rate expressed as a percentage.\n</p>\n</dd>\n<dt><code>decay</code></dt><dd>\n<p>The type of decay measured in the experiment.  It is a factor with levels\n<code>1</code>, <code>rho</code>, <code>pi</code>, <code>e</code> and <code>mu</code>.\n</p>\n</dd></dl>\n<h3>Source</h3>\n<p>The data were obtained from\n</p>\n<p>Efron, B. (1992) Jackknife-after-bootstrap standard errors and influence \nfunctions (with Discussion). \n<em>Journal of the Royal Statistical Society, B</em>, <b>54</b>, 83&ndash;127.\n</p>\n<h3>References</h3>\n<p>Davison, A.C. and Hinkley, D.V. (1997) \n<em>Bootstrap Methods and Their Application</em>. Cambridge University Press.\n</p>\n<p>Hayes, K.G., Perl, M.L. and Efron, B. (1989) Application of the bootstrap\nstatistical method to the tau-decay-mode problem. \n<em>Physical Review, D</em>, <b>39</b>,\n274-279.\n</p>\n</main>\n</div>\n",
-   "config" : {
-      "subtitle" : "boot - tau",
-      "graphType" : "Boxplot",
-      "colorBy" : "variable",
-      "groupingFactors" : [
-         "decay"
-      ],
-      "title" : "Tau Particle Decay Modes"
-   }
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>tau</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>\nTau Particle Decay Modes\n</h2>\n<h3>Description</h3>\n<p>The <code>tau</code> data frame has 60 rows and 2 columns.\n</p>\n<p>The tau particle is a heavy electron-like particle discovered in the 1970's\nby Martin Perl at the Stanford Linear Accelerator Center.  Soon after its\nproduction the tau particle decays into various collections of more stable\nparticles.  About 86% of the time the decay involves just one charged particle.\nThis rate has been measured independently 13 times.  \n</p>\n<p>The one-charged-particle event is made up of four major modes of decay as well\nas a collection of other events.  The four main types of decay are denoted\nrho, pi, e and mu.  These rates have been measured independently 6, 7, 14 and\n19 times respectively.  Due to physical constraints each experiment can only\nestimate the composite one-charged-particle decay rate or the rate of one of\nthe major modes of decay.  \n</p>\n<p>Each experiment consists of a major research project involving many years work.\nOne of the goals of the experiments was to estimate the rate of decay due to \nevents other than the four main modes of decay.  These are uncertain events and\nso cannot themselves be observed directly.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>tau\n</code></pre>\n<h3>Format</h3>\n<p>This data frame contains the following columns:\n</p>\n<dl>\n<dt><code>rate</code></dt><dd>\n<p>The decay rate expressed as a percentage.\n</p>\n</dd>\n<dt><code>decay</code></dt><dd>\n<p>The type of decay measured in the experiment.  It is a factor with levels\n<code>1</code>, <code>rho</code>, <code>pi</code>, <code>e</code> and <code>mu</code>.\n</p>\n</dd></dl>\n<h3>Source</h3>\n<p>The data were obtained from\n</p>\n<p>Efron, B. (1992) Jackknife-after-bootstrap standard errors and influence \nfunctions (with Discussion). \n<em>Journal of the Royal Statistical Society, B</em>, <b>54</b>, 83&ndash;127.\n</p>\n<h3>References</h3>\n<p>Davison, A.C. and Hinkley, D.V. (1997) \n<em>Bootstrap Methods and Their Application</em>. Cambridge University Press.\n</p>\n<p>Hayes, K.G., Perl, M.L. and Efron, B. (1989) Application of the bootstrap\nstatistical method to the tau-decay-mode problem. \n<em>Physical Review, D</em>, <b>39</b>,\n274-279.\n</p>\n</main>\n</div>\n"
 }

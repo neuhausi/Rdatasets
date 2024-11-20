@@ -1,3 +1,10 @@
+var ButterflyInfo ={
+   "description" : "Description\nData from Fisher et al. (1943) giving the number of tokens found for\neach of 501 species of butterflies collected in Malaya.",
+   "format" : "A 1-way table giving the number of tokens for 501 species of\nbutterflies. The variable and its levels are",
+   "title" : "Butterfly Species in Malaya",
+   "usage" : "data(\"Butterfly\")"
+}
+
 var Butterfly = [
    [
       "nTokens",

@@ -1,3 +1,20 @@
+var citiesInfo ={
+   "description" : "Description\nPopulation estimates for several Canadian cities.",
+   "usage" : "cities",
+   "parameters" : {
+      "POP1993" : "a numeric vector giving population in 1000's for 1993",
+      "POP1992" : "a numeric vector giving population in 1000's for 1992",
+      "REGION" : "a factor with 5 levels (ATL=Atlantic, ON=Ontario,\nQC=Quebec, PR=Prairies, WEST=Alberta and British Columbia) representing the location\nof the cities",
+      "POP1996" : "a numeric vector giving population in 1000's for 1996",
+      "POP1994" : "a numeric vector giving population in 1000's for 1994",
+      "POP1995" : "a numeric vector giving population in 1000's for 1995",
+      "CITY" : "a factor, consisting of the city names"
+   },
+   "title" : "Populations of Major Canadian Cities (1992-96)",
+   "format" : "This data frame contains the following columns:",
+   "reference" : "Statistics Canada"
+}
+
 var cities = [
    [
       "CITY",

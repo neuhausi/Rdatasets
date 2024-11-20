@@ -1,3 +1,16 @@
+var WeatherTaskInfo ={
+   "title" : "Weather Task With Priming and Precise and Imprecise Probabilities",
+   "format" : "A data frame with 345 observations on the following 3 variables.",
+   "reference" : "All participants in the study were either first- or second-year\nundergraduate students in psychology, none of whom had a strong\nbackground in probability or were familiar with imprecise probability\ntheories.",
+   "parameters" : {
+      "eliciting" : "a factor with levels precise and\nimprecise (lower and upper limit).",
+      "priming" : "a factor with levels two-fold (case\nprime) and seven-fold (class prime).",
+      "agreement" : "a numeric vector, probability indicated by\nparticipants or the average between minimum and maximum\nprobability indicated."
+   },
+   "usage" : "data(\"WeatherTask\", package = \"betareg\")",
+   "description" : "Description\nIn this study participants were asked to judge how likely Sunday is to\nbe the hottest day of the week."
+}
+
 var WeatherTask = [
    [
       "priming",

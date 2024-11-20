@@ -59,14 +59,6 @@
                5
             ]
          ],
-         "smps" : [
-            "Smp1",
-            "Smp2",
-            "Smp3",
-            "Smp4",
-            "Smp5",
-            "Smp6"
-         ],
          "vars" : [
             "trial",
             "T.cold.in",
@@ -75,13 +67,21 @@
             "T.hot.out",
             "m.cold",
             "m.hot"
+         ],
+         "smps" : [
+            "Smp1",
+            "Smp2",
+            "Smp3",
+            "Smp4",
+            "Smp5",
+            "Smp6"
          ]
       }
    },
    "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>HeatX</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Data from a heat exchanger laboratory</h2>\n<h3>Description</h3>\n<p>These data were collected by engineering students at Calvin College.\nThe apparatus consists of concentric pipes insulated from the environment so that\nas nearly as can be managed the only heat exchange is between the hot and cold water.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(HeatX)\n</code></pre>\n<h3>Format</h3>\n<p>A data frame with 6 observations on the following variables.\n</p>\n<dl>\n<dt><code>trial</code></dt><dd><p>trial number</p>\n</dd>\n<dt><code>T.cold.in</code></dt><dd><p>temperature (C) of the cold water as it enters the apparatus</p>\n</dd>\n<dt><code>T.cold.out</code></dt><dd><p>temperature (C) of the cold water as it leaves the apparatus</p>\n</dd>\n<dt><code>m.cold</code></dt><dd><p>flow rate (L/min) of the cold water</p>\n</dd>\n<dt><code>T.hot.in</code></dt><dd><p>temperature (C) of the hot water as it enters the apparatus</p>\n</dd>\n<dt><code>T.hot.out</code></dt><dd><p>temperature (C) of the hot water as it leaves the apparatus</p>\n</dd>\n<dt><code>m.hot</code></dt><dd><p>flow rate (L/min) of the hot water</p>\n</dd>\n</dl>\n<h3>Examples</h3>\n<pre><code class='language-R'># We can test for heat exchange with the environment by checking to see if the\n# heat gained by the cold water matches the heat lost by the hot water.\nC_p &lt;- 4.182 / 60  # / 60 because measuring m in L/min\nHeatX2 &lt;-\n  dplyr::mutate(HeatX,\n    Q.cold = m.cold * C_p * (T.cold.out - T.cold.in),\n    Q.hot  = m.hot * C_p * (T.hot.out- T.hot.in),\n    Q.env  = Q.cold + Q.hot\nif (require(ggformula)) {\n  gf_jitter( \"\" ~ Q.env, data = HeatX2, alpha = 0.6, size = 4,\n    width = 0, height = 0.1, seed = 123) |&gt;\n  gf_labs(y = \"\")\nif (require(mosaic)) {\n  t.test( ~Q.env, data = HeatX2 )\n</code></pre>\n</main>\n</div>\n",
    "config" : {
-      "subtitle" : "mosaicData - HeatX",
+      "title" : "Data from a heat exchanger laboratory",
       "graphType" : "Stacked",
-      "title" : "Data from a heat exchanger laboratory"
+      "subtitle" : "mosaicData - HeatX"
    }
 }

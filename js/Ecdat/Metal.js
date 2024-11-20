@@ -1,3 +1,16 @@
+var MetalInfo ={
+   "description" : "Description\na cross-section\nnumber of observations :  27\nobservation :  regional\ncountry :  United States",
+   "usage" : "data(Metal)",
+   "parameters" : {
+      "capital" : "capital input",
+      "va" : "output",
+      "labor" : "labor input"
+   },
+   "format" : "A dataframe containing :",
+   "title" : "Production for SIC 33",
+   "reference" : "Aigner, D.,  K.   Lovell and  P.  Schmidt (1977) &ldquo;Formulation and estimation of stochastic frontier production models&rdquo;, Journal of Econometrics, 6, 21-37."
+}
+
 var Metal = [
    [
       "va",

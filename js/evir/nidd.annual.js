@@ -1,3 +1,10 @@
+var nidd.annualInfo ={
+   "description" : "Description\nThese data represent annual maximal levels of the \nRiver Nidd in Yorkshire. \nThese data are suitable for analysis with gev.",
+   "format" : "A numeric vector containing 35 observations.",
+   "title" : "The River Nidd Data",
+   "usage" : "data(nidd.annual)"
+}
+
 var nidd.annual = [
    [
       "dat"

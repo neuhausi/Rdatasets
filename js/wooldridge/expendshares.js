@@ -1,3 +1,26 @@
+var expendsharesInfo ={
+   "description" : "Description\nWooldridge Source: Blundell, R., A. Duncan, and K. Pendakur (1998), âSemiparametric Estimation and Consumer Demand,â Journal of Applied Econometrics 13, 435-461. I obtained these data from the Journal of Applied Econometrics data archive at http://qed.econ.queensu.ca/jae/. Data loads lazily.",
+   "usage" : "data('expendshares')",
+   "parameters" : {
+      "totexpend" : " total expenditure, British pounds per week",
+      "salcohol" : " share of alcohol expenditures",
+      "sclothes" : " share of clothing expenditures",
+      "ltotexpend" : " log(totexpend)",
+      "sother" : " share of other expenditures",
+      "sfuel" : " share of fuel expenditures",
+      "kids" : " number of children",
+      "stransport" : " share of transportation expenditures",
+      "age" : " age of household head",
+      "income" : " family income, British pounds per week",
+      "sfood" : " share of food expenditures (out of total)",
+      "lincome" : " log(income)",
+      "agesq" : " age^2"
+   },
+   "title" : "expendshares",
+   "format" : "A data.frame with 1519 observations on 13 variables:",
+   "reference" : "The dependent variables in this data set â the expenditure shares â are necessarily bounded between zero and one. The linear model is at best an approximation, but the usual IV estimator likely gives good estimates of the average partial effects."
+}
+
 var expendshares = [
    [
       "sfood",

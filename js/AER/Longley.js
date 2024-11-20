@@ -1,3 +1,17 @@
+var LongleyInfo ={
+   "parameters" : {
+      "price" : "GNP deflator.",
+      "employment" : "Number of people employed (in 1000s).",
+      "gnp" : "Gross national product.",
+      "armedforces" : "Number of people in the armed forces."
+   },
+   "title" : "Longley's Regression Data",
+   "reference" : "An extended version of this data set, formatted as a \"data.frame\"\nis available as longley in base R.",
+   "format" : "An annual multiple time series from 1947 to 1962 with 4 variables.",
+   "description" : "Description\nUS macroeconomic time series, 1947&ndash;1962.",
+   "usage" : "data(\"Longley\")"
+}
+
 var Longley = [
    [
       "employment",

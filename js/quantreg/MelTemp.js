@@ -1,3 +1,10 @@
+var MelTempInfo ={
+   "usage" : "data(MelTemp)",
+   "format" : "Time series of frequency 365",
+   "title" : "Daily maximum temperatures in Melbourne, Australia",
+   "description" : "Description\nDaily maximum temperatures in Melbourne, Australia, from\n1981-1990. Leap days have been omitted."
+}
+
 var MelTemp = [
    [
       "time",

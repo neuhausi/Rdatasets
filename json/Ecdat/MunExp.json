@@ -1,4 +1,11 @@
 {
+   "config" : {
+      "scatterPlotMatrix" : 1,
+      "title" : "Municipal Expenditure Data",
+      "graphType" : "Scatter2D",
+      "subtitle" : "Ecdat - MunExp"
+   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>MunExp</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Municipal Expenditure Data </h2>\n<h3>Description</h3>\n<p>a panel of 265 observations  from 1979  to 1987\n</p>\n<p><em>number of observations</em> :  2385\n</p>\n<p><em>observation</em> :  regional\n</p>\n<p><em>country</em> :  Sweden\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(MunExp)</code></pre>\n<h3>Format</h3>\n<p>A dataframe containing :\n</p>\n<dl>\n<dt>id</dt><dd><p>identification</p>\n</dd>\n<dt>year</dt><dd><p>date</p>\n</dd>\n<dt>expend</dt><dd><p>expenditure</p>\n</dd>\n<dt>revenue</dt><dd><p>revenue from taxes and fees</p>\n</dd>\n<dt>grants</dt><dd><p>grants from Central Government</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>Dahlberg, M. and E. Johansson (2000) &ldquo;An examination of the dynamic behavior of local government using <code>GMM</code> boot-strapping methods&rdquo;, <em>Journal of Applied Econometrics</em>, <b>21</b>, 333-355.\n</p>\n<h3>References</h3>\n<p>Greene, W.H. (2003) <em>Econometric Analysis</em>, Prentice Hall, <a href=\"https://archive.org/details/econometricanaly0000gree_f4x3\">https://archive.org/details/econometricanaly0000gree_f4x3</a>, Table F18.1.\n</p>\n<p>Journal of Applied Econometrics data archive : <a href=\"http://qed.econ.queensu.ca/jae/\">http://qed.econ.queensu.ca/jae/</a>.\n</p>\n<h3>See Also</h3>\n<p><code>Index.Source</code>, <code>Index.Economics</code>, <code>Index.Econometrics</code>, <code>Index.Observations</code>,\n</p>\n<p><code>Index.Time.Series</code></p>\n</main>\n</div>\n",
    "data" : {
       "y" : {
          "vars" : [
@@ -2387,6 +2394,13 @@
             "Var2383",
             "Var2384",
             "Var2385"
+         ],
+         "smps" : [
+            "id",
+            "year",
+            "expend",
+            "revenue",
+            "grants"
          ],
          "data" : [
             [
@@ -19084,21 +19098,7 @@
                0.0147043,
                0.0087224
             ]
-         ],
-         "smps" : [
-            "id",
-            "year",
-            "expend",
-            "revenue",
-            "grants"
          ]
       }
-   },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>MunExp</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Municipal Expenditure Data </h2>\n<h3>Description</h3>\n<p>a panel of 265 observations  from 1979  to 1987\n</p>\n<p><em>number of observations</em> :  2385\n</p>\n<p><em>observation</em> :  regional\n</p>\n<p><em>country</em> :  Sweden\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(MunExp)</code></pre>\n<h3>Format</h3>\n<p>A dataframe containing :\n</p>\n<dl>\n<dt>id</dt><dd><p>identification</p>\n</dd>\n<dt>year</dt><dd><p>date</p>\n</dd>\n<dt>expend</dt><dd><p>expenditure</p>\n</dd>\n<dt>revenue</dt><dd><p>revenue from taxes and fees</p>\n</dd>\n<dt>grants</dt><dd><p>grants from Central Government</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>Dahlberg, M. and E. Johansson (2000) &ldquo;An examination of the dynamic behavior of local government using <code>GMM</code> boot-strapping methods&rdquo;, <em>Journal of Applied Econometrics</em>, <b>21</b>, 333-355.\n</p>\n<h3>References</h3>\n<p>Greene, W.H. (2003) <em>Econometric Analysis</em>, Prentice Hall, <a href=\"https://archive.org/details/econometricanaly0000gree_f4x3\">https://archive.org/details/econometricanaly0000gree_f4x3</a>, Table F18.1.\n</p>\n<p>Journal of Applied Econometrics data archive : <a href=\"http://qed.econ.queensu.ca/jae/\">http://qed.econ.queensu.ca/jae/</a>.\n</p>\n<h3>See Also</h3>\n<p><code>Index.Source</code>, <code>Index.Economics</code>, <code>Index.Econometrics</code>, <code>Index.Observations</code>,\n</p>\n<p><code>Index.Time.Series</code></p>\n</main>\n</div>\n",
-   "config" : {
-      "scatterPlotMatrix" : 1,
-      "subtitle" : "Ecdat - MunExp",
-      "graphType" : "Scatter2D",
-      "title" : "Municipal Expenditure Data"
    }
 }

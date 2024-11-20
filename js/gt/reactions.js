@@ -1,3 +1,40 @@
+var reactionsInfo ={
+   "usage" : "reactions",
+   "description" : "Description\nThe reactions dataset contains kinetic data for second-order (two body)\ngas-phase chemical reactions for 1,683 organic compounds. The reaction-rate\nvalues and parameters within this dataset are useful for studies of the\natmospheric environment. Organic pollutants, which are present in trace\namounts in the atmosphere, have been extensively studied by research groups\nsince their persistence in the atmosphere requires specific attention. Many\nresearchers have reported kinetic data on specific gas-phase reactions and\nthese mainly involve oxidation reactions with OH, nitrate radicals, ozone,\nand chlorine atoms.\nThis compilation of rate constant (k) data as contains the values for rate\nconstants at 298 K (in units of &#8288;cm^3 molecules^-1 s^-1&#8288;) as well as\nparameters that allow for the calculation of rate constants at different\ntemperatures (the temperature dependence parameters: A, B, and n).\nUncertainty values/factors and temperature limits are also provided here\nwhere information is available.",
+   "reference" : "Here is a glimpse at the data available in reactions.",
+   "title" : "Reaction rates for gas-phase atmospheric reactions of organic compounds",
+   "format" : "A tibble with 1,683 rows and 39 variables:",
+   "parameters" : {
+      "OH_uncert" : "Uncertainty as a percentage for certain OH reactions.",
+      "O3_k298" : "Rate constant at 298 K for ozone reactions.",
+      "NO3_a, NO3_b, NO3_n" : "Extended temperature dependence parameters for\nbimolecular NO3 reactions, to be used in the Arrhenius expression:\n&#8288;k(T)=A exp(-B/T) (T/300)^n&#8288;. In that, A is expressed as\ncm^3 molecules^-1 s^-1, B is in units of K, and n is dimensionless. Any\nNA values indicate that data is not available.",
+      "Cl_k298" : "Rate constant at 298 K for Cl reactions.",
+      "cmpd_mwt" : "The molecular weight of the compound in units of g/mol.",
+      "OH_t_low, OH_t_high" : "The low and high temperature boundaries (in units\nof K) for which the OH_a, OH_b, and OH_n parameters are valid.",
+      "NO3_t_low, NO3_t_high" : "The low and high temperature boundaries (in\nunits of K) for which the NO3_a, NO3_b, and NO3_n parameters are\nvalid.",
+      "O3_a, O3_b, O3_n" : "Extended temperature dependence parameters for\nbimolecular ozone reactions, to be used in the Arrhenius expression:\n&#8288;k(T)=A exp(-B/T) (T/300)^n&#8288;. In that, A is expressed as\ncm^3 molecules^-1 s^-1, B is in units of K, and n is dimensionless. Any\nNA values indicate that data is not available.",
+      "cmpd_formula" : "The chemical formula of the compound.",
+      "OH_a, OH_b, OH_n" : "Extended temperature dependence parameters for\nbimolecular OH reactions, to be used in the Arrhenius expression:\n&#8288;k(T)=A exp(-B/T) (T/300)^n&#8288;. In that, A is expressed as\ncm^3 molecules^-1 s^-1, B is in units of K, and n is dimensionless. Any\nNA values indicate that data is not available.",
+      "Cl_t_low, Cl_t_high" : "The low and high temperature boundaries (in units\nof K) for which the Cl_a, Cl_b, and Cl_n parameters are valid.",
+      "OH_u_fac" : "Uncertainty as a plus/minus difference for certain OH\nreactions.",
+      "cmpd_inchi" : "The InChI (International Chemical Identifier)\nrepresentation for the compound.",
+      "NO3_uncert" : "Uncertainty as a percentage for certain NO3 reactions.",
+      "Cl_a, Cl_b, Cl_n" : "Extended temperature dependence parameters for\nbimolecular Cl reactions, to be used in the Arrhenius expression:\n&#8288;k(T)=A exp(-B/T) (T/300)^n&#8288;. In that, A is expressed as\ncm^3 molecules^-1 s^-1, B is in units of K, and n is dimensionless. Any\nNA values indicate that data is not available.",
+      "NO3_u_fac" : "Uncertainty as a plus/minus difference for certain NO3\nreactions.",
+      "O3_uncert" : "Uncertainty as a percentage for certain ozone reactions.",
+      "Cl_uncert" : "Uncertainty as a percentage for certain Cl reactions.",
+      "OH_k298" : "Rate constant at 298 K for OH reactions.",
+      "cmpd_smiles" : "The SMILES (simplified molecular-input line-entry system)\nrepresentation for the compound.",
+      "cmpd_inchikey" : "The InChIKey, which is a hashed InChI value, has a fixed\nlength of 27 characters. These values can be used to more easily perform\ndatabase searches of chemical compounds.",
+      "O3_u_fac" : "Uncertainty as a plus/minus difference for certain ozone\nreactions.",
+      "Cl_u_fac" : "Uncertainty as a plus/minus difference for certain Cl\nreactions.",
+      "cmpd_type" : "The category of compounds that the compd_name falls\nunder.",
+      "O3_t_low, O3_t_high" : "The low and high temperature boundaries (in units\nof K) for which the O3_a, O3_b, and O3_n parameters are valid.",
+      "compd_name" : "The name of the primary compound undergoing\nreaction with OH, ozone, NO3, or Cl.",
+      "NO3_k298" : "Rate constant at 298 K for NO3 reactions."
+   }
+}
+
 var reactions = [
    [
       "cmpd_name",

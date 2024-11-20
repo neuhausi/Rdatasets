@@ -1,9 +1,4 @@
 {
-   "config" : {
-      "subtitle" : "causaldata - black_politicians",
-      "graphType" : "Heatmap",
-      "title" : "Data from Black Politicians are More Intrinsically Motivated to Advance Blacks' Interests"
-   },
    "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>black_politicians</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Data from &quot;Black Politicians are More Intrinsically Motivated to Advance Blacks' Interests&quot;</h2>\n<h3>Description</h3>\n<p>The <code>black_politicians</code> data contains data from Broockman (2013) on a field experiment where the author sent fictional emails purportedly sent by Black people to legislators in the United States. The experiment sought to determine whether the effect of the email being from &quot;out-of-district&quot; (someone who can't vote for you and so provides no extrinsic motivation to reply) would have a smaller effect on response rates for Black legislators than for non-Black ones, providing evidence of additional intrinsic motivation on the part of Black legislators to help Black people.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>black_politicians\n</code></pre>\n<h3>Format</h3>\n<p>A data frame with 5593 rows and 14 variables\n</p>\n<dl>\n<dt>leg_black</dt><dd><p>Legislator receiving email is Black</p>\n</dd>\n<dt>treat_out</dt><dd><p>Email is from out-of-district</p>\n</dd>\n<dt>responded</dt><dd><p>Legislator responded to email</p>\n</dd>\n<dt>totalpop</dt><dd><p>District population</p>\n</dd>\n<dt>medianhhincom</dt><dd><p>District median household income</p>\n</dd>\n<dt>black_medianhh</dt><dd><p>District median household income among Black people</p>\n</dd>\n<dt>white_medianhh</dt><dd><p>District median household income among White people</p>\n</dd>\n<dt>blackpercent</dt><dd><p>Percentage of district that is Black</p>\n</dd>\n<dt>statessquireindex</dt><dd><p>State's Squire index</p>\n</dd>\n<dt>nonblacknonwhite</dt><dd><p>Legislator receiving email is neither Black nor White</p>\n</dd>\n<dt>urbanpercent</dt><dd><p>Percentage of district that is urban</p>\n</dd>\n<dt>leg_senator</dt><dd><p>Legislator receiving email is a senator</p>\n</dd>\n<dt>leg_democrat</dt><dd><p>Legislator receiving email is in the Democratic party</p>\n</dd>\n<dt>south</dt><dd><p>Legislator receiving email is in the Southern United States</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>This data is used in the <em>Matching</em> chapter of <em>The Effect</em>.\n</p>\n<h3>Source</h3>\n<p>Broockman, D.E., 2013. Black politicians are more intrinsically motivated to advance blacksâ interests: A field experiment manipulating political incentives. <em>American Journal of Political Science</em>, 57(3), pp.521-536.\n</p>\n<h3>References</h3>\n<p>Huntington-Klein. 2021. The Effect: An Introduction to Research Design and Causality. <a href=\"https://theeffectbook.net\">https://theeffectbook.net</a>.\n</p>\n</main>\n</div>\n",
    "data" : {
       "y" : {
@@ -78339,6 +78334,22 @@
                0
             ]
          ],
+         "vars" : [
+            "leg_black",
+            "treat_out",
+            "responded",
+            "totalpop",
+            "medianhhincom",
+            "black_medianhh",
+            "white_medianhh",
+            "blackpercent",
+            "statessquireindex",
+            "nonblacknonwhite",
+            "urbanpercent",
+            "leg_senator",
+            "leg_democrat",
+            "south"
+         ],
          "smps" : [
             "Smp1",
             "Smp2",
@@ -83933,23 +83944,12 @@
             "Smp5591",
             "Smp5592",
             "Smp5593"
-         ],
-         "vars" : [
-            "leg_black",
-            "treat_out",
-            "responded",
-            "totalpop",
-            "medianhhincom",
-            "black_medianhh",
-            "white_medianhh",
-            "blackpercent",
-            "statessquireindex",
-            "nonblacknonwhite",
-            "urbanpercent",
-            "leg_senator",
-            "leg_democrat",
-            "south"
          ]
       }
+   },
+   "config" : {
+      "title" : "Data from Black Politicians are More Intrinsically Motivated to Advance Blacks' Interests",
+      "graphType" : "Heatmap",
+      "subtitle" : "causaldata - black_politicians"
    }
 }

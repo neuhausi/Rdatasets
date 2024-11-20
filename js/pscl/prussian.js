@@ -1,3 +1,16 @@
+var prussianInfo ={
+   "usage" : "data(prussian)",
+   "description" : "Description\nDeaths by year, by corp, from horse kicks.",
+   "format" : "A data frame with 280 observations on the following 3 variables.",
+   "title" : "Prussian army horse kick data",
+   "reference" : "von Bortkiewicz, L. 1898. Das Gesetz der Kleinen Zahlen. Leipzig: Teubner.",
+   "parameters" : {
+      "corp" : "a factor, corp of Prussian Army generating\nobservation",
+      "y" : "a numeric vector, count of deaths",
+      "year" : "a numeric vector, 18XX, year of observation"
+   }
+}
+
 var prussian = [
    [
       "y",

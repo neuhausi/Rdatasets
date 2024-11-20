@@ -1,12 +1,44 @@
 {
    "config" : {
       "subtitle" : "HistData - Mayer",
-      "scatterPlotMatrix" : 1,
-      "graphType" : "Scatter2D",
       "colorBy" : "Group",
-      "title" : "Mayer's Data on the Libration of the Moon."
+      "title" : "Mayer's Data on the Libration of the Moon.",
+      "graphType" : "Scatter2D",
+      "scatterPlotMatrix" : 1
    },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>Mayer</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>\nMayer's Data on the Libration of the Moon.\n</h2>\n<h3>Description</h3>\n<p>Mayer had twenty-seven days' observations of Manilius and only three unknowns.\nThe form of Mayer's problem is almost the same as that of Legendre, who\ndeveloped later the least squares method.\n</p>\n<p>&quot;How did Mayer address his overdetermined system of equations? His approach was\na simple and straightforward one, so simple and straightforward that a\ntwentieth-century reader might arrive at the very mistaken opinion that the\nprocedure was not remarkable at all. Mayer divided his equations into three\ngroups of nine equations each, added each of the three groups separately, and\nsolved the resulting three linear equations for <code class=\"reqn\">\\alpha</code>, <code class=\"reqn\">\\beta</code> and\n<code class=\"reqn\">\\alpha sin\\theta</code> (and then solved for <code class=\"reqn\">\\theta</code>). His choice of which\nequations belonged in which groups was based upon the coefficients of\n<code class=\"reqn\">\\alpha</code> and <code class=\"reqn\">\\alpha sin \\theta</code>.\nThe first group consisted of the nine equations with the largest positive\nvalues for the coefficient of a, namely, equations 1,2, 3, 6, 9, 10, 11,12,\nand 27. The second group were those with the nine largest negative values\nfor this coefficient: equations 8, 18, 19, 21, 22, 23, 24, 25, and 26. The\nremaining nine equations formed the third group, which he described as\nhaving the largest values for the coefficient of <code class=\"reqn\">\\alpha sin \\theta</code>.&quot;\n</p>\n<p>Stigler (1986, p.21)\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(Mayer)</code></pre>\n<h3>Format</h3>\n<p>A data frame with 27 observations on the following 4 variables.\n</p>\n<dl>\n<dt><code>Equation</code></dt><dd><p>an integer vector, id of the Equation</p>\n</dd>\n<dt><code>Y</code></dt><dd><p>a numeric vector, representing the term <code class=\"reqn\">(h-90)</code> (see details)</p>\n</dd>\n<dt><code>X1</code></dt><dd><p>a numeric vector, representing <code class=\"reqn\">\\beta</code></p>\n</dd>\n<dt><code>X2</code></dt><dd><p>a numeric vector, representing <code class=\"reqn\">\\alpha</code></p>\n</dd>\n<dt><code>X3</code></dt><dd><p>a numeric vector, representing the term <code class=\"reqn\">\\alpha sin\\theta</code></p>\n</dd>\n<dt><code>Group</code></dt><dd><p>a character vector, representing the Mayer grouping</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>Stigler (1986):\n</p>\n<p>&quot;The development of the method of least squares was closely associated with three\nof the major scientific problems of the eighteenth century: (1) to determine and\nrepresent mathematically the motions of the moon; (2) to account for an\napparently secular (that is, nonperiodic) inequality that had been observed in\nthe motions of the planets Jupiter and Saturn; and (3) to determine the shape or\nfigure of the earth. These problems all involved astronomical observations and\nthe theory of gravitational attraction, and they all presented intellectual\nchallenges that engaged the attention of many of the ablest mathematical\nscientists of the period.\n</p>\n<p>Over the period from April 1748 to March 1749, Mayer made numerous observations\nof the positions of several prominent lunar features; and in his 1750 memoir he\nshowed how these data could be used to determine various characteristics of the\nmoon's orbit. His method of handling the data was novel, and it is well worth\nconsidering this method in detail, both for the light it sheds on his\npioneering, if limited, understanding of the problem and because his approach\nwas widely circulated in the major contemporary treatise on astronomy, having\nsignal influence upon later work.&quot;\n</p>\n<p>His analysis led to this equation:\n</p>\n<p style=\"text-align: center;\"><code class=\"reqn\">\\beta - (90-h) = \\alpha sin(g-k) - \\alpha sin\\theta cos(g-k)</code>\n</p>\n<p>According to Stigler (1986, p. 21), this &quot;equation would hold if no errors were\npresent. The modern tendency would be to write, say&quot;:\n</p>\n<p style=\"text-align: center;\"><code class=\"reqn\">(h - 90) = - \\beta + \\alpha sin (g - k) - \\alpha sin\\theta cos(g - k) + E</code>\n</p>\n<p>treating <code class=\"reqn\">(h - 90)</code> as the dependent variable and  <code class=\"reqn\">-\\beta</code>, <code class=\"reqn\">\\alpha</code>,\nand <code class=\"reqn\">-\\alpha sin \\theta</code> as the parameters in a linear regression model.\n</p>\n<h3>Author(s)</h3>\n<p>Luiz Fernando Palin Droubi</p>\n<h3>Source</h3>\n<p>Stigler, Stephen M. (1986).\n<em>The History of Statistics: The Measurement of Uncertainty before 1900</em>.\nCambridge, MA: Harvard University Press, 1986, Table 1.1, p. 22.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>library(sp)\nlibrary(effects)\ndata(Mayer)\n# some scatterplots\nplot(Y ~ X2, pch=(15:17)[as.factor(Group)], \n             col=c(\"red\", \"blue\", \"darkgreen\")[as.factor(Group)], data=Mayer)\nabline(lm(Y ~ X2, data=Mayer), lwd=2)\nplot(Y ~ X3, pch=(15:17)[as.factor(Group)], \n             col=c(\"red\", \"blue\", \"darkgreen\")[as.factor(Group)], data=Mayer)\nabline(lm(Y ~ X3, data=Mayer), lwd=2)\nfit &lt;- lm(Y ~ X2 + X3, data=Mayer)\nplot(predictorEffects(fit, residuals=TRUE))\nAvg_Method &lt;- aggregate(Mayer[, 2:5], by = list(Group = Mayer$Group), FUN=sum)\nfit_Mayer &lt;- lm(Y ~ X1 + X2 + X3 - 1, Avg_Method)\n## See Stigler (1986, p. 23)\n## W means that the angle found is negative.\ncoeffs &lt;- coef(fit_Mayer)\n(alpha &lt;- dd2dms(coeffs[2]))\n(beta &lt;- dd2dms(coeffs[1]))\n(theta &lt;- dd2dms(asin(coeffs[3]/coeffs[2])*180/pi))\n</code></pre>\n</main>\n</div>\n",
    "data" : {
+      "z" : {
+         "Group" : [
+            "I",
+            "I",
+            "I",
+            "III",
+            "III",
+            "I",
+            "III",
+            "II",
+            "I",
+            "I",
+            "I",
+            "I",
+            "III",
+            "III",
+            "III",
+            "III",
+            "III",
+            "II",
+            "II",
+            "III",
+            "II",
+            "II",
+            "II",
+            "II",
+            "II",
+            "II",
+            "I"
+         ]
+      },
       "y" : {
          "data" : [
             [
@@ -199,13 +231,6 @@
                -0.3716
             ]
          ],
-         "smps" : [
-            "Equation",
-            "Y",
-            "X1",
-            "X2",
-            "X3"
-         ],
          "vars" : [
             "Var1",
             "Var2",
@@ -234,39 +259,14 @@
             "Var25",
             "Var26",
             "Var27"
-         ]
-      },
-      "z" : {
-         "Group" : [
-            "I",
-            "I",
-            "I",
-            "III",
-            "III",
-            "I",
-            "III",
-            "II",
-            "I",
-            "I",
-            "I",
-            "I",
-            "III",
-            "III",
-            "III",
-            "III",
-            "III",
-            "II",
-            "II",
-            "III",
-            "II",
-            "II",
-            "II",
-            "II",
-            "II",
-            "II",
-            "I"
+         ],
+         "smps" : [
+            "Equation",
+            "Y",
+            "X1",
+            "X2",
+            "X3"
          ]
       }
-   },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>Mayer</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>\nMayer's Data on the Libration of the Moon.\n</h2>\n<h3>Description</h3>\n<p>Mayer had twenty-seven days' observations of Manilius and only three unknowns.\nThe form of Mayer's problem is almost the same as that of Legendre, who\ndeveloped later the least squares method.\n</p>\n<p>&quot;How did Mayer address his overdetermined system of equations? His approach was\na simple and straightforward one, so simple and straightforward that a\ntwentieth-century reader might arrive at the very mistaken opinion that the\nprocedure was not remarkable at all. Mayer divided his equations into three\ngroups of nine equations each, added each of the three groups separately, and\nsolved the resulting three linear equations for <code class=\"reqn\">\\alpha</code>, <code class=\"reqn\">\\beta</code> and\n<code class=\"reqn\">\\alpha sin\\theta</code> (and then solved for <code class=\"reqn\">\\theta</code>). His choice of which\nequations belonged in which groups was based upon the coefficients of\n<code class=\"reqn\">\\alpha</code> and <code class=\"reqn\">\\alpha sin \\theta</code>.\nThe first group consisted of the nine equations with the largest positive\nvalues for the coefficient of a, namely, equations 1,2, 3, 6, 9, 10, 11,12,\nand 27. The second group were those with the nine largest negative values\nfor this coefficient: equations 8, 18, 19, 21, 22, 23, 24, 25, and 26. The\nremaining nine equations formed the third group, which he described as\nhaving the largest values for the coefficient of <code class=\"reqn\">\\alpha sin \\theta</code>.&quot;\n</p>\n<p>Stigler (1986, p.21)\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(Mayer)</code></pre>\n<h3>Format</h3>\n<p>A data frame with 27 observations on the following 4 variables.\n</p>\n<dl>\n<dt><code>Equation</code></dt><dd><p>an integer vector, id of the Equation</p>\n</dd>\n<dt><code>Y</code></dt><dd><p>a numeric vector, representing the term <code class=\"reqn\">(h-90)</code> (see details)</p>\n</dd>\n<dt><code>X1</code></dt><dd><p>a numeric vector, representing <code class=\"reqn\">\\beta</code></p>\n</dd>\n<dt><code>X2</code></dt><dd><p>a numeric vector, representing <code class=\"reqn\">\\alpha</code></p>\n</dd>\n<dt><code>X3</code></dt><dd><p>a numeric vector, representing the term <code class=\"reqn\">\\alpha sin\\theta</code></p>\n</dd>\n<dt><code>Group</code></dt><dd><p>a character vector, representing the Mayer grouping</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>Stigler (1986):\n</p>\n<p>&quot;The development of the method of least squares was closely associated with three\nof the major scientific problems of the eighteenth century: (1) to determine and\nrepresent mathematically the motions of the moon; (2) to account for an\napparently secular (that is, nonperiodic) inequality that had been observed in\nthe motions of the planets Jupiter and Saturn; and (3) to determine the shape or\nfigure of the earth. These problems all involved astronomical observations and\nthe theory of gravitational attraction, and they all presented intellectual\nchallenges that engaged the attention of many of the ablest mathematical\nscientists of the period.\n</p>\n<p>Over the period from April 1748 to March 1749, Mayer made numerous observations\nof the positions of several prominent lunar features; and in his 1750 memoir he\nshowed how these data could be used to determine various characteristics of the\nmoon's orbit. His method of handling the data was novel, and it is well worth\nconsidering this method in detail, both for the light it sheds on his\npioneering, if limited, understanding of the problem and because his approach\nwas widely circulated in the major contemporary treatise on astronomy, having\nsignal influence upon later work.&quot;\n</p>\n<p>His analysis led to this equation:\n</p>\n<p style=\"text-align: center;\"><code class=\"reqn\">\\beta - (90-h) = \\alpha sin(g-k) - \\alpha sin\\theta cos(g-k)</code>\n</p>\n<p>According to Stigler (1986, p. 21), this &quot;equation would hold if no errors were\npresent. The modern tendency would be to write, say&quot;:\n</p>\n<p style=\"text-align: center;\"><code class=\"reqn\">(h - 90) = - \\beta + \\alpha sin (g - k) - \\alpha sin\\theta cos(g - k) + E</code>\n</p>\n<p>treating <code class=\"reqn\">(h - 90)</code> as the dependent variable and  <code class=\"reqn\">-\\beta</code>, <code class=\"reqn\">\\alpha</code>,\nand <code class=\"reqn\">-\\alpha sin \\theta</code> as the parameters in a linear regression model.\n</p>\n<h3>Author(s)</h3>\n<p>Luiz Fernando Palin Droubi</p>\n<h3>Source</h3>\n<p>Stigler, Stephen M. (1986).\n<em>The History of Statistics: The Measurement of Uncertainty before 1900</em>.\nCambridge, MA: Harvard University Press, 1986, Table 1.1, p. 22.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>library(sp)\nlibrary(effects)\ndata(Mayer)\n# some scatterplots\nplot(Y ~ X2, pch=(15:17)[as.factor(Group)], \n             col=c(\"red\", \"blue\", \"darkgreen\")[as.factor(Group)], data=Mayer)\nabline(lm(Y ~ X2, data=Mayer), lwd=2)\nplot(Y ~ X3, pch=(15:17)[as.factor(Group)], \n             col=c(\"red\", \"blue\", \"darkgreen\")[as.factor(Group)], data=Mayer)\nabline(lm(Y ~ X3, data=Mayer), lwd=2)\nfit &lt;- lm(Y ~ X2 + X3, data=Mayer)\nplot(predictorEffects(fit, residuals=TRUE))\nAvg_Method &lt;- aggregate(Mayer[, 2:5], by = list(Group = Mayer$Group), FUN=sum)\nfit_Mayer &lt;- lm(Y ~ X1 + X2 + X3 - 1, Avg_Method)\n## See Stigler (1986, p. 23)\n## W means that the angle found is negative.\ncoeffs &lt;- coef(fit_Mayer)\n(alpha &lt;- dd2dms(coeffs[2]))\n(beta &lt;- dd2dms(coeffs[1]))\n(theta &lt;- dd2dms(asin(coeffs[3]/coeffs[2])*180/pi))\n</code></pre>\n</main>\n</div>\n"
+   }
 }

@@ -1,3 +1,20 @@
+var earthquakesInfo ={
+   "parameters" : {
+      "area" : "City or geographic location of earthquakes.",
+      "region" : "Country or countries if the earthquake occurred on a border.",
+      "day" : "Day the earthquake took place",
+      "richter" : "Magnitude of earthquake using the Richter Scale.",
+      "year" : "Year the earthquake took place.",
+      "month" : "Month the earthquake took place.",
+      "deaths" : "Approximate number of deaths caused by earthquake"
+   },
+   "format" : "A data frame with 123 rows and 7 variables.",
+   "reference" : "World Almanac and Book of Facts: 2011.",
+   "title" : "Earthquakes",
+   "description" : "Description\nSelect set of notable earthquakes from 1900 to 1999.",
+   "usage" : "earthquakes"
+}
+
 var earthquakes = [
    [
       "year",

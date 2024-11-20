@@ -64,14 +64,6 @@
       "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/datasets/chickwts.json"
    ],
    [
-      "co2",
-      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/datasets/co2.json"
-   ],
-   [
-      "CO2",
-      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/datasets/CO2.json"
-   ],
-   [
       "crimtab",
       "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/datasets/crimtab.json"
    ],

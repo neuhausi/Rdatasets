@@ -1,3 +1,47 @@
+var sleep75Info ={
+   "parameters" : {
+      "male" : " =1 if male",
+      "construc" : " =1 if construction worker",
+      "selfe" : " =1 if self employed",
+      "hrwage" : " hourly wage",
+      "clerical" : " =1 if clerical worker",
+      "gdhlth" : " =1 if in good or excel. health",
+      "exper" : " age - educ - 6",
+      "yngkid" : " =1 if children < 3 present",
+      "earns74" : " total earnings, 1974",
+      "leis2" : " slpnaps - totwrk",
+      "black" : " =1 if black",
+      "rlxall" : " slpnaps + personal activs",
+      "leis3" : " rlxall - totwrk",
+      "workscnd" : " mins work second job",
+      "leis1" : " sleep - totwrk",
+      "worknrm" : " mins work main job",
+      "case" : " identifier",
+      "agesq" : " age^2",
+      "lhrwage" : " log hourly wage",
+      "inlf" : " =1 if in labor force",
+      "spwrk75" : " =1 if spouse works",
+      "yrsmarr" : " years married",
+      "marr" : " =1 if married",
+      "educ" : " years of schooling",
+      "slpnaps" : " minutes sleep, inc. naps",
+      "age" : " in years",
+      "prot" : " =1 if Protestant",
+      "lothinc" : " log othinc, unless othinc < 0",
+      "union" : " =1 if belong to union",
+      "spsepay" : " spousal wage income",
+      "sleep" : " mins sleep at night, per wk",
+      "totwrk" : " mins worked per week",
+      "south" : " =1 if live in south",
+      "smsa" : " =1 if live in smsa"
+   },
+   "title" : "sleep75",
+   "format" : "A data.frame with 706 observations on 34 variables:",
+   "reference" : "In their article, Biddle and Hamermesh include an hourly wage measure in the sleep equation. An econometric problem that arises is that the hourly wage is missing for those who do not work. Plus, the wage offer may be endogenous (even if it were always observed). Biddle and Hamermesh employ extensions of the sample selection methods in Section 17.5. See their article for details.",
+   "description" : "Description\nWooldridge Source: J.E. Biddle and D.S. Hamermesh (1990), âSleep and the Allocation of Time,â Journal of Political Economy 98, 922-943. Professor Biddle kindly provided the data. Data loads lazily.",
+   "usage" : "data('sleep75')"
+}
+
 var sleep75 = [
    [
       "age",

@@ -1,3 +1,20 @@
+var CEDdataInfo ={
+   "description" : "Description\nA randomly generated dataset containing 2000 rows and 7 columns with no \nmissing values.",
+   "usage" : "CEDdata",
+   "parameters" : {
+      "Y1:" : "The binary outcome variable recorded in the first stage.",
+      "T1:" : "The binary treatment indicator in the first stage.",
+      "T2:" : "The binary treatment in the second stage. Equal to 1 - T1 by \ndesign.",
+      "Y2:" : "The binary outcome recorded in the second stage.",
+      "Z:" : "The binary encouragement indicator for the second stage.",
+      "M2:" : "The binary mediator recorded in the second stage.",
+      "M1:" : "The binary mediator variable recorded in the first stage."
+   },
+   "reference" : "Note that all the observed responses are generated from an \nunderlying distribution of potential outcomes and mediators (not shown in \nthis dataset) satisfying the assumptions described in Imai, Tingley and \nYamamoto (2012).",
+   "format" : "A data frame containing the following variables, which are \ninterpreted as results from a hypothetical randomized trial employing the \ncrossover encouragement design.",
+   "title" : "Example Data for the Crossover Encouragement Design"
+}
+
 var CEDdata = [
    [
       "T1",

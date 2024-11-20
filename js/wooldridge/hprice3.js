@@ -1,3 +1,32 @@
+var hprice3Info ={
+   "format" : "A data.frame with 321 observations on 19 variables:",
+   "title" : "hprice3",
+   "reference" : "NA",
+   "parameters" : {
+      "price" : " selling price",
+      "larea" : " log(area)",
+      "baths" : " # bathrooms",
+      "ldist" : " log(dist)",
+      "age" : " age of house",
+      "y81" : " =1 if year = 1981",
+      "cbd" : " dist. to cent. bus. dstrct, ft.",
+      "agesq" : " age^2",
+      "lland" : " log(land)",
+      "linstsq" : " linst^2",
+      "rooms" : " # rooms in house",
+      "nbh" : " neighborhood, 1-6",
+      "area" : " square footage of house",
+      "inst" : " dist. to interstate, ft.",
+      "year" : " 1978, 1981",
+      "linst" : " log(inst)",
+      "dist" : " dist. from house to incin., ft.",
+      "lprice" : " log(price)",
+      "land" : " square footage lot"
+   },
+   "usage" : "data('hprice3')",
+   "description" : "Description\nWooldridge  Data loads lazily."
+}
+
 var hprice3 = [
    [
       "year",

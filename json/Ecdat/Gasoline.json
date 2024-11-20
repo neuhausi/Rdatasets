@@ -1,14 +1,21 @@
 {
    "config" : {
-      "graphType" : "Scatter2D",
-      "scatterPlotMatrix" : 1,
       "subtitle" : "Ecdat - Gasoline",
       "title" : "Gasoline Consumption",
-      "colorBy" : "country"
+      "colorBy" : "country",
+      "graphType" : "Scatter2D",
+      "scatterPlotMatrix" : 1
    },
    "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>Gasoline</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Gasoline Consumption </h2>\n<h3>Description</h3>\n<p>a panel of 18 observations  from 1960  to 1978\n</p>\n<p><em>number of observations</em> :  342\n</p>\n<p><em>observation</em> :  country\n</p>\n<p><em>country</em> :  OECD\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(Gasoline)</code></pre>\n<h3>Format</h3>\n<p>A dataframe containing :\n</p>\n<dl>\n<dt>country</dt><dd><p>a factor with 18 levels</p>\n</dd>\n<dt>year</dt><dd><p>the year</p>\n</dd>\n<dt>lgaspcar</dt><dd><p>logarithm of motor gasoline consumption per auto</p>\n</dd>\n<dt>lincomep</dt><dd><p>logarithm of real per-capita income</p>\n</dd>\n<dt>lrpmg</dt><dd><p>logarithm of real motor gasoline price</p>\n</dd>\n<dt>lcarpcap</dt><dd><p>logarithm of the stock of cars per capita</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>Baltagi, B.H.  and  Y.J.  Griggin (1983) &ldquo;Gasoline demand in the OECD: an application of pooling and testing procedures&rdquo;, <em>European Economic Review</em>, <b>22</b>.\n</p>\n<h3>References</h3>\n<p>Baltagi, Badi H. (2003) <em>Econometric analysis of panel data</em>, John Wiley and sons, <a href=\"https://www.wiley.com/legacy/wileychi/baltagi/\">https://www.wiley.com/legacy/wileychi/baltagi/</a>.\n</p>\n<h3>See Also</h3>\n<p><code>Index.Source</code>, <code>Index.Economics</code>, <code>Index.Econometrics</code>, <code>Index.Observations</code>,\n</p>\n<p><code>Index.Time.Series</code></p>\n</main>\n</div>\n",
    "data" : {
       "y" : {
+         "smps" : [
+            "year",
+            "lgaspcar",
+            "lincomep",
+            "lrpmg",
+            "lcarpcap"
+         ],
          "vars" : [
             "Var1",
             "Var2",
@@ -2748,13 +2755,6 @@
                -1.212061827,
                -7.536176385
             ]
-         ],
-         "smps" : [
-            "year",
-            "lgaspcar",
-            "lincomep",
-            "lrpmg",
-            "lcarpcap"
          ]
       },
       "z" : {

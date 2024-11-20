@@ -1,3 +1,15 @@
+var family_collegeInfo ={
+   "parameters" : {
+      "teen" : "Whether the teen goes to college or not.",
+      "parents" : "Whether the parent holds a college degree or not."
+   },
+   "reference" : "Simulation based off of summary information provided at\nhttps://eric.ed.gov/?id=ED460660.",
+   "title" : "Simulated sample of parent / teen college attendance",
+   "format" : "A data frame with 792 observations on the following 2 variables.",
+   "description" : "Description\nA simulated dataset based on real population summaries.",
+   "usage" : "family_college"
+}
+
 var family_college = [
    [
       "teen",

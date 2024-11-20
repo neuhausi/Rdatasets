@@ -1,3 +1,17 @@
+var larynxInfo ={
+   "description" : "Description\nThe larynx data frame has 90 rows and 5 columns.",
+   "parameters" : {
+      "stage" : "Stage of disease (1=stage 1, 2=stage2, 3=stage 3, 4=stage 4)",
+      "delta" : "Death indicator (0=alive, 1=dead)",
+      "diagyr" : "Year of diagnosis of larynx cancer",
+      "age" : "Age at diagnosis of larynx cancer",
+      "time" : "Time to death or on-study time, months"
+   },
+   "title" : "data from Section 1.8",
+   "reference" : "Klein and Moeschberger (1997) Survival Analysis Techniques for Censored\nand truncated data, Springer.\nKardaun Stat. Nederlandica 37 (1983), 103-126.",
+   "usage" : "This data frame contains the following columns:"
+}
+
 var larynx = [
    [
       "stage",

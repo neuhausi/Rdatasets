@@ -1,3 +1,19 @@
+var PhdPubsInfo ={
+   "format" : "A data frame with 915 observations on the following 6 variables.",
+   "title" : "Publications of PhD Candidates",
+   "reference" : "In this version of the data set, phdprestige had been rounded to the nearest integer.\nA Stata version with the continuous values was subsequently found at\nhttps://www.stata-press.com/data/lf2/couart2.dta",
+   "parameters" : {
+      "articles" : "number of articles published in the final three years of PhD studies",
+      "female" : "dummy variable for gender, coded 1 for female",
+      "kid5" : "number of young children, age 5 and under",
+      "married" : "dummy variable for marital status, coded 1 for married",
+      "mentor" : "number of publications by the mentor in the preceeding three years",
+      "phdprestige" : "prestige of the PhD department.  The higher the number the more prestigious the program."
+   },
+   "usage" : "data(PhdPubs)",
+   "description" : "Description\nA data set giving the number of publications by doctoral candidates in biochemistry\nin relation to various predictors, originally from Long (1997).\nThere is a large number of zero counts. Is there evidence for\na separate group of non-publishers?"
+}
+
 var PhdPubs = [
    [
       "articles",

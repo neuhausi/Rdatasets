@@ -1,3 +1,17 @@
+var sp500Info ={
+   "usage" : "sp500",
+   "description" : "Description\nThis dataset provides daily price indicators for the S&P 500 index from the\nbeginning of 1950 to the end of 2015. The index includes 500 leading\ncompanies and captures about 80 percent coverage of available market\ncapitalization.",
+   "format" : "A tibble with 16,607 rows and 7 variables:",
+   "title" : "Daily S&P 500 Index data from 1950 to 2015",
+   "reference" : "Here is a glimpse at the data available in sp500.",
+   "parameters" : {
+      "open, high, low, close" : "The day's opening, high, low, and closing\nprices in USD. The close price is adjusted for splits.",
+      "volume" : "The number of trades for the given date.",
+      "adj_close" : "The close price adjusted for both dividends and splits.",
+      "date" : "The date expressed as Date values."
+   }
+}
+
 var sp500 = [
    [
       "date",

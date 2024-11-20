@@ -1,3 +1,15 @@
+var StrikeDurInfo ={
+   "usage" : "data(StrikeDur)",
+   "description" : "Description\na cross-section from 1968 to 1976\nnumber of observations :  566\ncountry :  United States",
+   "format" : "A dataframe containing :",
+   "title" : "Strikes Duration",
+   "reference" : "Kennan, J. (1985) &ldquo;The Duration of Contract strikes in U.S. Manufacturing&rdquo;, Journal of Econometrics, 28, 5-28.",
+   "parameters" : {
+      "gdp" : "measure of stage of business cycle (deviation of monthly log industrial production in manufacturing from prediction from OLS on time, time-squared and monthly dummies)",
+      "dur" : "duration of the strike in days"
+   }
+}
+
 var StrikeDur = [
    [
       "dur",

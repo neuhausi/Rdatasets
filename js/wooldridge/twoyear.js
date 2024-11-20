@@ -1,3 +1,36 @@
+var twoyearInfo ={
+   "description" : "Description\nWooldridge Source: T.J. Kane and C.E. Rouse (1995), Labor-Market Returns to Two- and Four-Year Colleges, American Economic Review 85, 600-614. With Professor Rouseâs kind assistance, I obtained the data from her web site at Princeton University. Data loads lazily.",
+   "usage" : "data('twoyear')",
+   "parameters" : {
+      "smcity" : " =1 if small city, 1972",
+      "medcity" : " =1 if med. city, 1972",
+      "vlgcity" : " =1 if very large city, 1972",
+      "sublg" : " =1 if suburb large city, 1972",
+      "AA" : " =1 if Associate's degree",
+      "id" : " ID Number",
+      "totcoll" : " jc + univ",
+      "female" : " =1 if female",
+      "subvlg" : " =1 if sub. very lge. city, 1972",
+      "hispanic" : " =1 if Hispanic",
+      "lwage" : " log hourly wage",
+      "nc" : " =1 if north central",
+      "phsrank" : " percent high school rank; 100 = best",
+      "submed" : " =1 if suburb med. city, 1972",
+      "exper" : " total (actual) work experience",
+      "stotal" : " total standardized test score",
+      "jc" : " total 2-year credits",
+      "univ" : " total 4-year credits",
+      "ne" : " =1 if northeast",
+      "lgcity" : " =1 if large city, 1972",
+      "BA" : " =1 if Bachelor's degree",
+      "black" : " =1 if African-American",
+      "south" : " =1 if south"
+   },
+   "format" : "A data.frame with 6763 observations on 23 variables:",
+   "title" : "twoyear",
+   "reference" : "As possible extensions, students can explore whether the returns to two-year or four-year colleges depend on race or gender. This is partly done in Problem 7.9 but where college is aggregated into one number. Also, should experience appear as a quadratic in the wage specification?"
+}
+
 var twoyear = [
    [
       "female",

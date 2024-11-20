@@ -1,3 +1,10 @@
+var aus_accommodationInfo ={
+   "title" : "Australian accommodation data",
+   "format" : "Australian Bureau of Statistics, Cat No 8635.0, Table 10, and Cat No 6401.0, Table 1.",
+   "usage" : "Time series of class 'tsibble'",
+   "description" : "Description\naus_accommodation contains quarterly data on Australian tourist accommodation\nfrom short-term non-residential accommodation with 15 or more rooms, 1998 Q1 - 2016 Q2.\nThe data set also contains the Australian Consumer Price Index (CPI) for the same period.\nTakings are in millions of Australian dollars,\nOccupancy is a percentage of rooms occupied,\nCPI is an index with value 100 in 2012 Q1."
+}
+
 var aus_accommodation = [
    [
       "Date",

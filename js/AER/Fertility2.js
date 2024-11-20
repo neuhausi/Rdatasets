@@ -1,3 +1,21 @@
+var Fertility2Info ={
+   "format" : "A data frame containing 254,654 (and 30,000, respectively) observations on 8 variables.",
+   "reference" : "Fertility2 is a random subset of Fertility with 30,000 observations.",
+   "title" : "Fertility and Women's Labor Supply",
+   "parameters" : {
+      "other" : "factor. Is the mother's ethnicity neither African-American nor\nHispanic, nor Caucasian? (see below)",
+      "gender1" : "factor indicating gender of first child.",
+      "afam" : "factor. Is the mother African-American?",
+      "gender2" : "factor indicating gender of second child.",
+      "age" : "age of mother at census.",
+      "morekids" : "factor. Does the mother have more than 2 children?",
+      "hispanic" : "factor. Is the mother Hispanic?",
+      "work" : "number of weeks in which the mother worked in 1979."
+   },
+   "usage" : "data(\"Fertility\")\ndata(\"Fertility2\")",
+   "description" : "Description\nCross-section data from the 1980 US Census on married women\naged 21&ndash;35 with two or more children."
+}
+
 var Fertility2 = [
    [
       "morekids",

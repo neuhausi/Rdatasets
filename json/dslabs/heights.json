@@ -1,5 +1,4 @@
 {
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>heights</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Self-reported Heights in Inches</h2>\n<h3>Description</h3>\n<p>Self-reported heights and sex. The heights were converted to inches from the original data included in <code>reported_heights</code>.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>heights\n</code></pre>\n<h3>Format</h3>\n<p>An object of class <code>\"data.frame\"</code>.\n</p>\n<h3>Details</h3>\n<ul>\n<li><p> sex. A factor with the self-reported sex. \n</p>\n</li>\n<li><p> height. A numeric vector with self-reported heights in inches. \n</p>\n</li></ul>\n<h3>See Also</h3>\n<p><code>reported_heights</code> for the original data source.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>head(heights)\n</code></pre>\n</main>\n</div>\n",
    "data" : {
       "y" : {
          "smps" : [
@@ -1054,6 +1053,9 @@
             "Smp1049",
             "Smp1050"
          ],
+         "vars" : [
+            "height"
+         ],
          "data" : [
             [
                75,
@@ -2107,9 +2109,6 @@
                66,
                66
             ]
-         ],
-         "vars" : [
-            "height"
          ]
       },
       "x" : {
@@ -3167,11 +3166,12 @@
          ]
       }
    },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>heights</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Self-reported Heights in Inches</h2>\n<h3>Description</h3>\n<p>Self-reported heights and sex. The heights were converted to inches from the original data included in <code>reported_heights</code>.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>heights\n</code></pre>\n<h3>Format</h3>\n<p>An object of class <code>\"data.frame\"</code>.\n</p>\n<h3>Details</h3>\n<ul>\n<li><p> sex. A factor with the self-reported sex. \n</p>\n</li>\n<li><p> height. A numeric vector with self-reported heights in inches. \n</p>\n</li></ul>\n<h3>See Also</h3>\n<p><code>reported_heights</code> for the original data source.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>head(heights)\n</code></pre>\n</main>\n</div>\n",
    "config" : {
       "graphType" : "Boxplot",
-      "subtitle" : "dslabs - heights",
-      "title" : "Self-reported Heights in Inches",
       "colorBy" : "variable",
+      "title" : "Self-reported Heights in Inches",
+      "subtitle" : "dslabs - heights",
       "groupingFactors" : [
          "sex"
       ]

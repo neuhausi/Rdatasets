@@ -1,3 +1,26 @@
+var HmdaInfo ={
+   "usage" : "data(Hmda)",
+   "description" : "Description\na cross-section from 1997-1998\nnumber of observations : 2381\nobservation : individuals\ncountry : United States\nIn package version 0.2-9 and earlier this dataset was called Hdma.",
+   "reference" : "Federal Reserve Bank of Boston.",
+   "format" : "A dataframe containing :",
+   "title" : "The Boston HMDA Data Set",
+   "parameters" : {
+      "dir" : "debt payments to total income ratio",
+      "lvr" : "ratio of size of loan to assessed value of\nproperty",
+      "self" : "self employed ?",
+      "black" : "is the applicant black ?",
+      "ccs" : "consumer credit score from 1 to 6 (a low \nvalue being a good score)",
+      "mcs" : "mortgage credit score from 1 to 4 (a low \nvalue being a good score)",
+      "pbcr" : "public bad credit record ?",
+      "hir" : "housing expenses to income ratio",
+      "uria" : "1989 Massachusetts unemployment rate in \nthe applicant's industry",
+      "single" : "is the applicant  single ?",
+      "dmi" : "denied mortgage insurance ?",
+      "deny" : "mortgage application denied ?",
+      "condominium" : "is unit a condominium ? (was called \ncomdominiom in version 0.2-9 and \nearlier versions of the package)"
+   }
+}
+
 var Hmda = [
    [
       "dir",

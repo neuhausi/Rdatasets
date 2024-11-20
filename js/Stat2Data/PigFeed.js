@@ -1,3 +1,9 @@
+var PigFeedInfo ={
+   "description" : "Description\nEffects of additives to pig feed on weight gain",
+   "usage" : "A dataset with 12 observations on the following 3 variables.",
+   "title" : "Additives in Pig Feed"
+}
+
 var PigFeed = [
    [
       "WgtGain",

@@ -1,3 +1,17 @@
+var LeafWidthInfo ={
+   "description" : "Description\nMeasurements of Dodonaea viscosa leaves",
+   "parameters" : {
+      "Year" : "Year the leaves were collected",
+      "LWRatio" : "Length divided by Width",
+      "Width" : "Average width (in mm)",
+      "Length" : "Average length  (in mm)",
+      "Area" : "Area (in sq. mm)"
+   },
+   "reference" : "Data on samples of leaves from the species Dodonaea viscosa subsp. angustissima (common name hopbush), which have been collected in a certain region of South Australia for many years.",
+   "title" : "Leaf Measurements",
+   "usage" : "A data frame with 252 observations on the following 5 variables."
+}
+
 var LeafWidth = [
    [
       "Width",

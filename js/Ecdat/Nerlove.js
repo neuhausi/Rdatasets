@@ -1,3 +1,21 @@
+var NerloveInfo ={
+   "usage" : "data(Nerlove)",
+   "description" : "Description\na cross-section from 1955 to 1955\nnumber of observations :  159\nobservation :  production units\ncountry :  United States",
+   "format" : "A dataframe containing :",
+   "reference" : "Nerlove, M. (1963) Returns to scale in electricity industry in  Christ, C. ed. (1963) Measurement in Economics: Studies in Mathematical Economics and Econometrics in Memory of Yehuda Grunfeld , Stanford, California, Stanford University Press .",
+   "title" : "Cost Function for Electricity Producers, 1955",
+   "parameters" : {
+      "sl" : "cost share for labor",
+      "pl" : "wage rate",
+      "sk" : "cost share for capital",
+      "pk" : "capital price index",
+      "sf" : "cost share for fuel",
+      "output" : "total output",
+      "pf" : "fuel price",
+      "cost" : "total cost"
+   }
+}
+
 var Nerlove = [
    [
       "cost",

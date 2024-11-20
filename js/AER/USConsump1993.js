@@ -1,3 +1,15 @@
+var USConsump1993Info ={
+   "usage" : "data(\"USConsump1993\")",
+   "description" : "Description\nTime series data on US income and consumption expenditure, 1950&ndash;1993.",
+   "title" : "US Consumption Data (1950&ndash;1993)",
+   "format" : "An annual multiple time series from 1950 to 1993 with 2 variables.",
+   "reference" : "The data is from Baltagi (2002).",
+   "parameters" : {
+      "expenditure" : "Personal consumption expenditures (in 1987 USD).",
+      "income" : "Disposable personal income (in 1987 USD)."
+   }
+}
+
 var USConsump1993 = [
    [
       "income",

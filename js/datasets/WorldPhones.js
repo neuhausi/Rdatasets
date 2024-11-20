@@ -1,3 +1,10 @@
+var WorldPhonesInfo ={
+   "title" : "The World's Telephones",
+   "format" : "A matrix with 7 rows and 8 columns.  The columns of the matrix give\nthe figures for a given region, and the rows the figures for a year.",
+   "usage" : "WorldPhones",
+   "description" : "Description\nThe number of telephones in various regions of the world (in\nthousands)."
+}
+
 var WorldPhones = [
    [
       "N.Amer",

@@ -1,3 +1,14 @@
+var coalInfo ={
+   "usage" : "coal",
+   "description" : "Description\nThe coal data frame has 191 rows and 1 columns.\nThis data frame gives the dates of 191 explosions in coal mines which\nresulted in 10 or more fatalities.  The time span of the data is from March 15,\n1851 until March 22 1962.",
+   "title" : "Dates of Coal Mining Disasters",
+   "format" : "This data frame contains the following column:",
+   "reference" : "The data were obtained from",
+   "parameters" : {
+      "date" : "The date of the disaster.  The integer part of date gives the year.  The day\nis represented as the fraction of the year that had elapsed on that day."
+   }
+}
+
 var coal = [
    [
       "date"

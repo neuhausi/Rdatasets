@@ -1,3 +1,15 @@
+var CrabShipInfo ={
+   "usage" : "A data frame with 34 observations on the following 3 variables.",
+   "reference" : "Animals that are stressed might increase their oxygen consumption. Biologists measured oxygen consumption of shore crabs that were either exposed to 7.5 minutes of ship noise or 7.5 minutes of ambient harbor noise.",
+   "title" : "Crab Oxygen Intake",
+   "description" : "Description\nOxygen intake of crabs with different noise sources",
+   "parameters" : {
+      "Noise" : "Source of noise (ambient or ship)",
+      "Oxygen" : "Rate of oxygen consumption  (mu moles h^-1)",
+      "Mass" : "Oxygen intake of crabs with different noise sources"
+   }
+}
+
 var CrabShip = [
    [
       "Mass",

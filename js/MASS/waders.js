@@ -1,3 +1,32 @@
+var wadersInfo ={
+   "description" : "Description\nThe waders data frame has 15 rows and 19 columns.\nThe entries are counts of waders in summer.",
+   "usage" : "waders",
+   "parameters" : {
+      "S8" : "Whimbrel",
+      "S4" : "Three-banded Plover",
+      "S15" : "Little Stint",
+      "S1" : "Oystercatcher",
+      "S12" : "Turnstone",
+      "S2" : "White-fronted Plover",
+      "S17" : "Ruff",
+      "S11" : "Common Sandpiper",
+      "S10" : "Greenshank",
+      "S18" : "Avocet",
+      "S19" : "Black-winged Stilt",
+      "S13" : "Knot",
+      "S14" : "Sanderling",
+      "S16" : "Curlew Sandpiper",
+      "S9" : "Marsh Sandpiper",
+      "S3" : "Kitt Lutz's Plover",
+      "S6" : "Ringed Plover",
+      "S7" : "Bar-tailed Godwit",
+      "S5" : "Grey Plover"
+   },
+   "format" : "This data frame contains the following columns (species)",
+   "reference" : "J.C. Gower and D.J. Hand (1996) Biplots\nChapman & Hall Table 9.1. Quoted as from:",
+   "title" : "Counts of Waders at 15 Sites in South Africa"
+}
+
 var waders = [
    [
       "S1",

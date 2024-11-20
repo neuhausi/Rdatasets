@@ -1,3 +1,22 @@
+var ebmt3Info ={
+   "usage" : "A data frame, see data.frame.",
+   "description" : "Description\nA data frame of 2204 patients transplanted at the EBMT between 1995 and\n1998. These data were used in Section 4 of the tutorial on competing risks\nand multi-state models (Putter, Fiocco & Geskus, 2007). The included\nvariables are\nidPatient identification number\n\nprtimeTime in days from transplantation to platelet recovery or last\nfollow-up\n prstatPlatelet recovery status; 1 = platelet recovery, 0\n= censored\n rfstimeTime in days from transplantation to relapse or\ndeath or last follow-up (relapse-free survival time)\n\nrfsstatRelapse-free survival status; 1 = relapsed or dead, 0 =\ncensored\n dissubDisease subclassification; factor with levels \"AML\",\n\"ALL\", \"CML\"\n agePatient age at transplant; factor with levels\n\"<=20\", \"20-40\", \">40\"\n drmatchDonor-recipient gender match; factor\nwith levels \"No gender mismatch\", \"Gender mismatch\"\n tcdT-cell\ndepletion; factor with levels \"No TCD\", \"TCD\"",
+   "title" : "Data from the European Society for Blood and Marrow Transplantation (EBMT)",
+   "format" : "We acknowledge the European Society for Blood and Marrow\nTransplantation (EBMT) for making available these data. Disclaimer: these\ndata were simplified for the purpose of illustration of the analysis of\ncompeting risks and multi-state models and do not reflect any real life\nsituation. No clinical conclusions should be drawn from these data.",
+   "reference" : "A data frame, see data.frame.",
+   "parameters" : {
+      "prtime" : "Time in days from transplantation to platelet recovery or last\nfollow-up",
+      "tcd" : "T-cell\ndepletion; factor with levels \"No TCD\", \"TCD\"",
+      "prstat" : "Platelet recovery status; 1 = platelet recovery, 0\n= censored",
+      "age" : "Patient age at transplant; factor with levels\n\"<=20\", \"20-40\", \">40\"",
+      "rfstime" : "Time in days from transplantation to relapse or\ndeath or last follow-up (relapse-free survival time)",
+      "id" : "Patient identification number",
+      "rfsstat" : "Relapse-free survival status; 1 = relapsed or dead, 0 =\ncensored",
+      "dissub" : "Disease subclassification; factor with levels \"AML\",\n\"ALL\", \"CML\"",
+      "drmatch" : "Donor-recipient gender match; factor\nwith levels \"No gender mismatch\", \"Gender mismatch\""
+   }
+}
+
 var ebmt3 = [
    [
       "id",

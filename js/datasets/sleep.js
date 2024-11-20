@@ -1,3 +1,10 @@
+var sleepInfo ={
+   "title" : "Student's Sleep Data",
+   "format" : "A data frame with 20 observations on 3 variables.",
+   "usage" : "sleep",
+   "description" : "Description\nData which show the effect of two soporific drugs (increase in hours\nof sleep compared to control) on 10 patients."
+}
+
 var sleep = [
    [
       "extra",

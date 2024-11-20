@@ -1,3 +1,9 @@
+var FantasyBaseballInfo ={
+   "description" : "Description\nDraft selection times for a fantasy baseball league",
+   "usage" : "A data frame with 24 observations on the following 9 variables.",
+   "title" : "Selection Times in a Fantasy Baseball Draft"
+}
+
 var FantasyBaseball = [
    [
       "Round",

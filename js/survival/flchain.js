@@ -1,3 +1,24 @@
+var flchainInfo ={
+   "usage" : "flchain\ndata(flchain, package=\"survival\")",
+   "description" : "Description\nThis is a stratified random sample containing 1/2 of the subjects from\na study of the relationship between serum free light chain (FLC)\nand mortality.  The original sample contains samples on\napproximately 2/3 of the residents of Olmsted County aged 50 or greater.",
+   "title" : "Assay of serum free light chain for 7874 subjects.",
+   "reference" : "In 1995 Dr. Robert Kyle embarked on a study to determine the\nprevalence of monoclonal gammopathy of undetermined significance\n(MGUS) in Olmsted County, Minnesota, a condition which is\nnormally only found by chance from a test (serum electrophoresis)\nwhich is ordered for other causes.  Later work suggested that one\ncomponent of immunoglobulin production, the serum free light chain,\nmight be a possible marker for immune disregulation.  In 2010\nDr. Angela Dispenzieri and colleagues assayed FLC levels on those\nsamples from the original study for which they had patient permission and from\nwhich sufficient material remained for further testing.  They found\nthat elevated FLC levels were indeed associated with higher death\nrates.",
+   "format" : "A data frame with 7874 persons containing the following variables.",
+   "parameters" : {
+      "sex" : "F=female, M=male",
+      "mgus" : "1 if the subject had been diagnosed with\nmonoclonal gammapothy (MGUS)",
+      "futime" : "days from enrollment until death.  Note that\nthere are 3 subjects whose sample was obtained on their death date.",
+      "age" : "age in years",
+      "sample.yr" : "the calendar year in which a blood sample\nwas obtained",
+      "kappa" : "serum free light chain, kappa portion",
+      "creatinine" : "serum creatinine",
+      "lambda" : "serum free light chain, lambda portion",
+      "death" : "0=alive at last contact date, 1=dead",
+      "chapter" : "for those who died, a grouping of their\nprimary cause of death by chapter headings of the International\nCode of Diseases ICD-9",
+      "flc.grp" : "the FLC group for the subject, as used in the\noriginal analysis"
+   }
+}
+
 var flchain = [
    [
       "age",

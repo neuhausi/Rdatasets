@@ -1,3 +1,16 @@
+var CPSch3Info ={
+   "description" : "Description\na cross-section from 1998\nnumber of observations :  11130\nobservation :  individuals\ncountry :  United States",
+   "usage" : "data(CPSch3)",
+   "parameters" : {
+      "year" : "survey year",
+      "ahe" : "average hourly earnings",
+      "sex" : "a factor with levels (male,female)"
+   },
+   "reference" : "Bureau of labor statistics, U.S. Department of Labor https://www.bls.gov.",
+   "title" : "Earnings from the Current Population Survey",
+   "format" : "A dataframe containing :"
+}
+
 var CPSch3 = [
    [
       "year",

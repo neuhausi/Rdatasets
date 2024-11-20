@@ -1,11 +1,15 @@
 {
    "config" : {
-      "graphType" : "Scatter2D",
       "subtitle" : "boot - survival",
-      "title" : "Survival of Rats after Radiation Doses"
+      "title" : "Survival of Rats after Radiation Doses",
+      "graphType" : "Scatter2D"
    },
    "data" : {
       "y" : {
+         "smps" : [
+            "dose",
+            "surv"
+         ],
          "vars" : [
             "Var1",
             "Var2",
@@ -79,10 +83,6 @@
                1410,
                0.006
             ]
-         ],
-         "smps" : [
-            "dose",
-            "surv"
          ]
       }
    },

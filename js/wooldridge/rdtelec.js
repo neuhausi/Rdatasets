@@ -1,3 +1,19 @@
+var rdtelecInfo ={
+   "parameters" : {
+      "sales" : " firm sales, millions $",
+      "rd" : " R&D spending, millions $",
+      "lsales" : " log(sales)",
+      "rdintens" : " rd as percent of sales",
+      "lrd" : " log(rd)",
+      "salessq" : " sales^2"
+   },
+   "format" : "A data.frame with 29 observations on 6 variables:",
+   "title" : "rdtelec",
+   "reference" : "According to these data, the R&D/firm size relationship is different in the telecommunications industry than in the chemical industry: there is pretty strong evidence that R&D intensity decreases with firm size in telecommunications. Of course, that was in 1991. The data could easily be updated, and a panel data set could be constructed.",
+   "description" : "Description\nWooldridge Source: See RDCHEM.RAW Data loads lazily.",
+   "usage" : "data('rdtelec')"
+}
+
 var rdtelec = [
    [
       "rd",

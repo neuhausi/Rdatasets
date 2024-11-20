@@ -1,3 +1,16 @@
+var unemplInfo ={
+   "usage" : "unempl",
+   "description" : "Description\nA compilation of two datasets that provides an estimate of unemployment\nfrom 1890 to 2010.",
+   "reference" : "The data are from Wikipedia at the following URL accessed on\nNovember 1st, 2010:",
+   "format" : "A data frame with 121 observations on the following 3 variables.",
+   "title" : "Annual unemployment since 1890",
+   "parameters" : {
+      "year" : "Year",
+      "unemp" : "Unemployment rate, in percent",
+      "us_data" : "1 if from the Bureau of Labor Statistics, 0\notherwise"
+   }
+}
+
 var unempl = [
    [
       "year",

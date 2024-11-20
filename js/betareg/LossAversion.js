@@ -1,3 +1,20 @@
+var LossAversionInfo ={
+   "usage" : "data(\"LossAversion\", package = \"betareg\")",
+   "description" : "Description\nData for assessing the extent of myopic loss aversion among\nadolescents (mostly aged 11 to 19).",
+   "reference" : "Myopic loss aversion is a phenomenon in behavioral economics,\nwhere individuals do not behave economically rationally when making short-term\ndecisions under uncertainty. Example: In lotteries with positive expected payouts\ninvestments are lower than the maximum possible (loss aversion). This effect\nis enhanced for short-term investments (myopia or short-sightedness).",
+   "title" : "(No) Myopic Loss Aversion in Adolescents",
+   "format" : "A data frame containing 570 observations on 7 variables.",
+   "parameters" : {
+      "grade" : "factor. School grades: 6-8 (11-14 years) vs. 10-12 (15-18 years).",
+      "age" : "numeric. Age in years (averaged for teams).",
+      "invest" : "numeric. Average proportion of points invested across\nall 9 rounds.",
+      "arrangement" : "factor. Is the player a single player or team of two?",
+      "treatment" : "factor. Type of treatment: long vs. short.",
+      "gender" : "factor. Gender of the player (or team of players).",
+      "male" : "factor. Was (at least one of) the player(s) male (in the team)?"
+   }
+}
+
 var LossAversion = [
    [
       "invest",

@@ -1,3 +1,21 @@
+var k401kInfo ={
+   "parameters" : {
+      "prate" : " participation rate, percent",
+      "age" : " age of 401k plan",
+      "totelg" : " total eligible for 401k plan",
+      "totpart" : " total 401k participants",
+      "totemp" : " total number of firm employees",
+      "sole" : " = 1 if 401k is firm's sole plan",
+      "mrate" : " 401k plan match rate",
+      "ltotemp" : " log of totemp"
+   },
+   "title" : "k401k",
+   "format" : "A data.frame with 1534 observations on 8 variables:",
+   "reference" : "This data set is used in a variety of ways in the text. One additional possibility is to investigate whether the coefficients from the regression of prate on mrate, log(totemp) differ by whether the plan is a sole plan. The Chow test (see Section 7.4), and the less restrictive version that allows different intercepts, can be used.",
+   "description" : "Description\nWooldridge Source: L.E. Papke (1995), âParticipation in and Contributions to 401(k) Pension Plans:Evidence from Plan Data,â Journal of Human Resources 30, 311-325. Professor Papke kindly provided these data. She gathered them from the Internal Revenue Serviceâs Form 5500 tapes. Data loads lazily.",
+   "usage" : "data('k401k')"
+}
+
 var k401k = [
    [
       "prate",

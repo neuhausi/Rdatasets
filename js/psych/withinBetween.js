@@ -1,3 +1,23 @@
+var withinBetweenInfo ={
+   "usage" : "data(withinBetween)",
+   "description" : "Description\nA demonstration that a correlation may be decomposed to a within group correlation  and a between group correlations and these two correlations are independent.  Between group correlations are sometimes called ecological correlations, the decomposition into  within and between group correlations is a basic concept in multilevel modeling.  This data set shows the composite correlations between 9 variables, representing 16 cases with four groups.",
+   "title" : "An example of the distinction between within group and between group correlations",
+   "format" : "A data frame with 16 observations on the following 10 variables.",
+   "reference" : "Correlations between individuals who belong to different natural groups (based upon e.g., ethnicity, age, gender, college major,or country) reflect an unknown mixture of the pooled correlation within each group as well as the correlation of the means of these groups. These two correlations are independent and do not allow inferences from one level (the group) to the other level (the individual).  This data set shows this independence.  The within group correlations between 9 variables are set to be 1, 0, and -1 while those between groups are also set to be 1, 0, -1.  These two sets of correlations are crossed such that V1, V4, and V7 have within group correlations of 1, as do V2, V5 and V8, and V3, V6 and V9.  V1 has a within group correlation of 0 with V2, V5, and V8, and a -1 within group correlation with V3, V6 and V9.  V1, V2, and V3 share a between group correlation of 1, as do V4, V5 and V6, and V7, V8 and V9.  The first group has a 0 between group correlation with the second and a -1 with the third group.",
+   "parameters" : {
+      "V4" : "A column of 16 observations",
+      "V8" : "A column of 16 observations",
+      "Group" : "An example grouping factor.",
+      "V1" : "A column of 16 observations",
+      "V2" : "A column of 16 observations",
+      "V9" : "A column of 16 observations",
+      "V3" : "A column of 16 observations",
+      "V7" : "A column of 16 observations",
+      "V5" : "A column of 16 observations",
+      "V6" : "A column of 16 observations"
+   }
+}
+
 var withinBetween = [
    [
       "Group",

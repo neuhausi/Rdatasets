@@ -1,12 +1,4 @@
 {
-   "config" : {
-      "title" : "Scottish secondary school scores",
-      "colorBy" : "sex",
-      "graphType" : "Scatter2D",
-      "scatterPlotMatrix" : 1,
-      "subtitle" : "mlmRev - ScotsSec"
-   },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>ScotsSec</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Scottish secondary school scores</h2>\n<h3>Description</h3>\n<p>Scores attained by 3435 Scottish secondary school students on a\nstandardized test taken at age 16.  Both the primary school and the\nsecondary school that the student attended have been recorded.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(ScotsSec)</code></pre>\n<h3>Format</h3>\n<p>A data frame with 3435 observations on the following 6 variables.\n</p>\n<dl>\n<dt>verbal</dt><dd><p>The verbal reasoning score on a test taken by the\nstudents on entry to secondary school.</p>\n</dd>\n<dt>attain</dt><dd><p>The score attained on the standardized test taken at\nage 16.</p>\n</dd>\n<dt>primary</dt><dd><p>A factor indicating the primary school that the\nstudent attended.</p>\n</dd>\n<dt>sex</dt><dd><p>A factor with levels <code>M</code> and <code>F</code></p>\n</dd>\n<dt>social</dt><dd><p>The student's social class on a numeric scale from low\nto high social class.</p>\n</dd>\n<dt>second</dt><dd><p>A factor indicating the secondary school that the\nstudent attended.</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>These data are an example of cross-classified grouping factors.\n</p>\n<h3>Source</h3>\n<p><a href=\"http://www.bristol.ac.uk/cmm/learning/mmsoftware/data-rev.html\">http://www.bristol.ac.uk/cmm/learning/mmsoftware/data-rev.html</a>\n</p>\n<h3>References</h3>\n<p>Paterson, L. (1991). Socio economic status and educational attainment:\na multidimensional and multilevel study. <em>Evaluation and Research\nin Education</em> <b>5</b>: 97-121.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>str(ScotsSec)\n</code></pre>\n</main>\n</div>\n",
    "data" : {
       "z" : {
          "sex" : [
@@ -3448,6 +3440,13 @@
          ]
       },
       "y" : {
+         "smps" : [
+            "verbal",
+            "attain",
+            "primary",
+            "social",
+            "second"
+         ],
          "vars" : [
             "Var1",
             "Var2",
@@ -6884,13 +6883,6 @@
             "Var3433",
             "Var3434",
             "Var3435"
-         ],
-         "smps" : [
-            "verbal",
-            "attain",
-            "primary",
-            "social",
-            "second"
          ],
          "data" : [
             [
@@ -30940,5 +30932,13 @@
             ]
          ]
       }
+   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>ScotsSec</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Scottish secondary school scores</h2>\n<h3>Description</h3>\n<p>Scores attained by 3435 Scottish secondary school students on a\nstandardized test taken at age 16.  Both the primary school and the\nsecondary school that the student attended have been recorded.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(ScotsSec)</code></pre>\n<h3>Format</h3>\n<p>A data frame with 3435 observations on the following 6 variables.\n</p>\n<dl>\n<dt>verbal</dt><dd><p>The verbal reasoning score on a test taken by the\nstudents on entry to secondary school.</p>\n</dd>\n<dt>attain</dt><dd><p>The score attained on the standardized test taken at\nage 16.</p>\n</dd>\n<dt>primary</dt><dd><p>A factor indicating the primary school that the\nstudent attended.</p>\n</dd>\n<dt>sex</dt><dd><p>A factor with levels <code>M</code> and <code>F</code></p>\n</dd>\n<dt>social</dt><dd><p>The student's social class on a numeric scale from low\nto high social class.</p>\n</dd>\n<dt>second</dt><dd><p>A factor indicating the secondary school that the\nstudent attended.</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>These data are an example of cross-classified grouping factors.\n</p>\n<h3>Source</h3>\n<p><a href=\"http://www.bristol.ac.uk/cmm/learning/mmsoftware/data-rev.html\">http://www.bristol.ac.uk/cmm/learning/mmsoftware/data-rev.html</a>\n</p>\n<h3>References</h3>\n<p>Paterson, L. (1991). Socio economic status and educational attainment:\na multidimensional and multilevel study. <em>Evaluation and Research\nin Education</em> <b>5</b>: 97-121.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>str(ScotsSec)\n</code></pre>\n</main>\n</div>\n",
+   "config" : {
+      "title" : "Scottish secondary school scores",
+      "colorBy" : "sex",
+      "graphType" : "Scatter2D",
+      "scatterPlotMatrix" : 1,
+      "subtitle" : "mlmRev - ScotsSec"
    }
 }

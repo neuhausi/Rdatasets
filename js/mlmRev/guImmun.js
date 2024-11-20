@@ -1,3 +1,26 @@
+var guImmunInfo ={
+   "description" : "Description\nImmunizations received by children in Guatemala.",
+   "usage" : "data(guImmun)",
+   "parameters" : {
+      "mom" : "a factor identifying the family.",
+      "pcInd81" : "the percentage of indigenous population in the\ncommunity at the 1981 census.",
+      "kid2p" : "a factor indicating if the child was 2 years or older\nat the time of the survey.",
+      "husEd" : "a factor describing the husband's level of education.\nLevels are the same as for momEd plus U - unknown.",
+      "mom25p" : "a factor indicating if the mother was 25 years or older.",
+      "kid" : "a factor identifying the child",
+      "immun" : "a factor indicating if the child received a\ncomplete set of immunizations. All children in this data frame\nreceived at least one immunization.",
+      "rural" : "a factor indicating if the family's location is\nconsidered rural or urban.",
+      "ethn" : "a factor indicating the mother's ethnicity.  Levels are\nL - Ladino, N - indigenous not speaking Spanish, and\nS - indigenous speaking Spanish.",
+      "ord" : "an factor indicating the child's birth's order within the\nfamily.  Levels are 01 - first child, 23 - second or\nthird child, 46 - fourth to sixth child, 7p -\nseventh or later child.",
+      "momWork" : "a factor indicating if the mother had ever\nworked outside the home.",
+      "momEd" : "a factor describing the mother's level of eduation.\nLevels are N - not finished primary, P - finished\nprimary, S - finished secondary",
+      "comm" : "a factor identifying the community."
+   },
+   "reference" : "These data are available at\nhttp://data.princeton.edu/multilevel/guImmun.dat.  Multiple\nindicator columns in the original data table have been collapsed to\nfactors for this data frame.",
+   "title" : "Immunization in Guatemala",
+   "format" : "A data frame with 2159 observations on the following 13 variables."
+}
+
 var guImmun = [
    [
       "kid",

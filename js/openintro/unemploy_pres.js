@@ -1,3 +1,18 @@
+var unemploy_presInfo ={
+   "format" : "A data frame with 29 observations on the following 5 variables.",
+   "reference" : "Wikipedia.",
+   "title" : "President's party performance and unemployment rate",
+   "parameters" : {
+      "change" : "Change in House seats for the president's party.",
+      "party" : "President's party.",
+      "potus" : "The president in office.",
+      "year" : "Year.",
+      "unemp" : "Unemployment rate."
+   },
+   "usage" : "unemploy_pres",
+   "description" : "Description\nCovers midterm elections."
+}
+
 var unemploy_pres = [
    [
       "year",

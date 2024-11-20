@@ -1,3 +1,9 @@
+var FlightResponseInfo ={
+   "description" : "Description\nFlight response of Pacific Brant to overflights of helicopters",
+   "usage" : "A dataset with 464 observations on the following 7 variables.",
+   "title" : "Response of Migratory Geese to Helicopter Overflights"
+}
+
 var FlightResponse = [
    [
       "FlockID",

@@ -1,3 +1,9 @@
+var TipJokeInfo ={
+   "description" : "Description\nEffect of a waiter leaving a joke or an advertisement on getting a tip",
+   "title" : "Improve Chances of Getting a Tip?",
+   "usage" : "A dataset with 211 observations on the following 5 variables."
+}
+
 var TipJoke = [
    [
       "Card",

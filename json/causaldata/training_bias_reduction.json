@@ -1,17 +1,13 @@
 {
+   "config" : {
+      "subtitle" : "causaldata - training_bias_reduction",
+      "scatterPlotMatrix" : 1,
+      "title" : "Simulated data from a job training program for a bias reduction method",
+      "graphType" : "Scatter2D"
+   },
    "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>training_bias_reduction</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Simulated data from a job training program for a bias reduction method</h2>\n<h3>Description</h3>\n<p>This simulated data is used to demonstrate the bias-reduction method in matching as per Abadie and Imbens (2011).\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>training_bias_reduction\n</code></pre>\n<h3>Format</h3>\n<p>A data frame with 8 rows and 4 variables\n</p>\n<dl>\n<dt>Unit</dt><dd><p>Unit ID</p>\n</dd>\n<dt>Y</dt><dd><p>Outcome</p>\n</dd>\n<dt>D</dt><dd><p>Treatment</p>\n</dd>\n<dt>X</dt><dd><p>Matching variable</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>This data is used in the <em>Matching and Subclassification</em> chapter of <em>Causal Inference: The Mixtape</em> by Cunningham.\n</p>\n<h3>Source</h3>\n<p>Cunningham. 2021. Causal Inference: The Mixtape. Yale Press. <a href=\"https://mixtape.scunning.com/index.html\">https://mixtape.scunning.com/index.html</a>.\n</p>\n<h3>References</h3>\n<p>Cunningham. 2021. Causal Inference: The Mixtape. Yale Press. <a href=\"https://mixtape.scunning.com/index.html\">https://mixtape.scunning.com/index.html</a>.\n</p>\n</main>\n</div>\n",
    "data" : {
       "y" : {
-         "vars" : [
-            "Var1",
-            "Var2",
-            "Var3",
-            "Var4",
-            "Var5",
-            "Var6",
-            "Var7",
-            "Var8"
-         ],
          "data" : [
             [
                1,
@@ -62,6 +58,16 @@
                1
             ]
          ],
+         "vars" : [
+            "Var1",
+            "Var2",
+            "Var3",
+            "Var4",
+            "Var5",
+            "Var6",
+            "Var7",
+            "Var8"
+         ],
          "smps" : [
             "Unit",
             "Y",
@@ -69,11 +75,5 @@
             "X"
          ]
       }
-   },
-   "config" : {
-      "subtitle" : "causaldata - training_bias_reduction",
-      "scatterPlotMatrix" : 1,
-      "graphType" : "Scatter2D",
-      "title" : "Simulated data from a job training program for a bias reduction method"
    }
 }

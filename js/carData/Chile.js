@@ -1,3 +1,21 @@
+var ChileInfo ={
+   "format" : "This data frame contains the following columns:",
+   "reference" : "Personal communication from FLACSO/Chile.",
+   "title" : "Voting Intentions in the 1988 Chilean Plebiscite",
+   "parameters" : {
+      "age" : "in years.",
+      "income" : "Monthly income, in Pesos.",
+      "region" : "A factor with levels:\nC, Central;\nM, Metropolitan Santiago area;\nN, North;\nS, South;\nSA, city of Santiago.",
+      "vote" : "a factor with levels:\nA, will abstain; \nN, will vote no (against Pinochet);\nU, undecided;\nY, will vote yes (for Pinochet).",
+      "statusquo" : "Scale of support for the status-quo.",
+      "education" : "A factor with levels (note: out of order):\nP, Primary;\nPS, Post-secondary;\nS, Secondary.",
+      "sex" : "A factor with levels:\nF, female;\nM, male.",
+      "population" : "Population size of respondent's community."
+   },
+   "usage" : "Chile",
+   "description" : "Description\nThe Chile data frame has 2700 rows and 8 columns.\nThe data are from a national survey conducted in April and May of 1988\nby FLACSO/Chile. There are some missing data."
+}
+
 var Chile = [
    [
       "region",

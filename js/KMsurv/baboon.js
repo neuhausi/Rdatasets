@@ -1,3 +1,15 @@
+var baboonInfo ={
+   "usage" : "This data frame contains the following columns:",
+   "reference" : "Klein and Moeschberger (1997) Survival Analysis Techniques for Censored\nand truncated data, Springer.",
+   "title" : "data from Exercise 5.8, p147",
+   "parameters" : {
+      "date" : "Date (day/month/year)",
+      "time" : "Descent time (military time)",
+      "observed" : "Indicator of observed or not (1=observed, 0=not observed)"
+   },
+   "description" : "Description\nThe baboon data frame has 25 rows and 2 columns."
+}
+
 var baboon = [
    [
       "date",

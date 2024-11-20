@@ -1,3 +1,9 @@
+var MetabolicRateInfo ={
+   "description" : "Description\nBody size and metabolic rate of Manduca Sexta caterpillars",
+   "title" : "Metabolic Rate of Caterpillars",
+   "usage" : "A dataset with 305 observations on the following 7 variables."
+}
+
 var MetabolicRate = [
    [
       "Computer",

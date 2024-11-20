@@ -1,3 +1,36 @@
+var mtlInfo ={
+   "parameters" : {
+      "ipa_qgrp" : "Classification of METminwk into Low or High.",
+      "a_ph_cort" : "Thickness of the perirhinal cortex subregion of the MTL.",
+      "delay_vp" : "We (the authors of this R package) are unsure as to the meaning\nof this variable.",
+      "mmse" : "Score from the Mini-Mental State Examination, which is a global\ncognition evaluation.",
+      "ham_d" : "Score on the Hamilton Rating Scale for depression.",
+      "asubic" : "Thickness of the subiculum subregion of the MTL.",
+      "total" : "Total MTL thickness.",
+      "subject" : "ID for the individual.",
+      "ethnic" : "Ethnicity, simplified to Caucasian and Other.",
+      "age" : "Age, in years.",
+      "ae_cort" : "Thickness of a subregion of the MTL.",
+      "aca23dg" : "Thickness of the CA23DG subregion of the MTL.",
+      "a_pe_cort" : "Thickness of the entorhinal cortex subregion of the MTL.",
+      "educ" : "Years of educational.",
+      "ham_a" : "Score on the Hamilton Rating Scale for anxiety.",
+      "bfr_selective_reminding_delayed" : "We (the authors of this R package) are\nunsure as to the meaning of this variable.",
+      "sitting" : "Self-reported time sitting per day, averaged to the\nnearest hour.",
+      "e4grp" : "APOE-4 status, taking a value of E4 or Non-E4.",
+      "met_minwk" : "Metabolic equivalent units score (activity level). A score of\n0 means \"no activity\" while 3000 is considered \"high activity\".",
+      "a_fusi_cort" : "Thickness of the fusiform gyrus subregion of the MTL.",
+      "sex" : "Gender, which takes values F (female) or M (male).",
+      "aca1" : "Thickness of the CA1 subregion of the MTL.",
+      "dig_sym" : "We (the authors of this R package) are unsure as to the meaning\nof this variable."
+   },
+   "title" : "Medial temporal lobe (MTL) and other data for 26 participants",
+   "format" : "A data frame with 35 observations on the following 23 variables.",
+   "reference" : "Siddarth P, Burggren AC, Eyre HA, Small GW, Merrill DA. 2018.\nSedentary behavior associated with reduced medial temporal lobe thickness in\nmiddle-aged and older adults. PLoS ONE 13(4): e0195549.\ndoi:10.1371/journal.pone.0195549.",
+   "description" : "Description\nThe data are from a convenience sample of 25 women and 10 men who were\nmiddle-aged or older. The purpose of the study was to understand the\nrelationship between sedentary behavior and thickness of the medial temporal\nlobe (MTL) in the brain.",
+   "usage" : "mtl"
+}
+
 var mtl = [
    [
       "subject",

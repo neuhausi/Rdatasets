@@ -1,3 +1,21 @@
+var PSIDInfo ={
+   "description" : "Description\na cross-section from 1993\nnumber of observations :  4856\nobservation :  individuals\ncountry :  United States",
+   "usage" : "data(PSID)",
+   "parameters" : {
+      "earnings" : "total labor income",
+      "kids" : "live births to this individual",
+      "intnum" : "1968 interview number",
+      "educatn" : "highest grade completed",
+      "persnum" : "person number",
+      "age" : "age of individual",
+      "hours" : "annual work hours",
+      "married" : "last known marital status (married, never\nmarried, windowed, divorced, separated, \nNA/DF, no histories)"
+   },
+   "reference" : "Panel Survey of Income Dynamics.",
+   "title" : "Panel Survey of Income Dynamics",
+   "format" : "A dataframe containing :"
+}
+
 var PSID = [
    [
       "intnum",

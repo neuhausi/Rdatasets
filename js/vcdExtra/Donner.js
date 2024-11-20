@@ -1,3 +1,18 @@
+var DonnerInfo ={
+   "title" : "Survival in the Donner Party",
+   "reference" : "This data frame uses the person's name as row labels.\nfamily reflects a recoding of the last names of individuals\nto reduce the number of factor levels.\nThe main families in the Donner party were: Donner, Graves, Breen and Reed.\nThe families of Murphy, Foster and Pike are grouped as 'MurFosPik',\nthose of Fosdick and Wolfinger are coded as 'FosdWolf', and\nall others as 'Other'.",
+   "format" : "A data frame with 90 observations on the following 5 variables.",
+   "parameters" : {
+      "sex" : "a factor with levels Female Male",
+      "age" : "age of person, a numeric vector",
+      "death" : "date of death for those who died before rescue, a POSIXct",
+      "family" : "family name, a factor with 10 levels",
+      "survived" : "a numeric vector, 0 or 1"
+   },
+   "usage" : "data(Donner)",
+   "description" : "Description\nThis data frame contains information on the members of the Donner Party,\na group of people who attempted to migrate to California in 1846.\nThey were trapped by an early blizzard on the eastern side of the\nSierra Nevada mountains, and before they could be rescued, \nnearly half of the party had died.\nWhat factors affected who lived and who died?"
+}
+
 var Donner = [
    [
       "family",

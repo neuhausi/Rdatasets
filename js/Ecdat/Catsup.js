@@ -1,3 +1,18 @@
+var CatsupInfo ={
+   "usage" : "data(Catsup)",
+   "description" : "Description\na cross-section\nnumber of observations :  2798\nobservation :  individuals\ncountry :  United States",
+   "format" : "A dataframe containing :",
+   "title" : "Choice of Brand for Catsup",
+   "reference" : "Jain, Dipak C., Naufel J. Vilcassim and Pradeep \nK.  Chintagunta (1994) &ldquo;A \nrandom&ndash;coefficients logit brand&ndash;choice model\napplied to panel data&rdquo;, Journal of \nBusiness and Economics Statistics, \n12(3), 317.",
+   "parameters" : {
+      "choice" : "one of heinz41, heinz32, \nheinz28, hunts32",
+      "price.z" : "price of brand z",
+      "id" : "individuals identifiers",
+      "disp.z" : "is there a display for brand z ?",
+      "feat.z" : "is there a newspaper feature advertisement \nfor brand z ?"
+   }
+}
+
 var Catsup = [
    [
       "id",

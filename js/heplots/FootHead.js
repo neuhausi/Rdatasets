@@ -1,3 +1,19 @@
+var FootHeadInfo ={
+   "description" : "Description\nData collected as part of a preliminary study examining the relation between\nfootball helmet design and neck injuries. There are 30 subjects in each of\nthree groups: High school football players, college players and non-football\nplayers.",
+   "parameters" : {
+      "jaw" : "a numeric vector: jaw width",
+      "eye.top" : "a numeric vector: eye to top of head",
+      "group" : "a factor with levels High school College Non-football",
+      "front.back" : "a numeric vector: front to back distance at eye level",
+      "circum" : "a numeric vector: head circumference",
+      "ear.top" : "a numeric vector:ear to top of head",
+      "width" : "a numeric vector: head width at widest dimension"
+   },
+   "title" : "Head measurements of football players",
+   "reference" : "Rencher, A. C. (1995), Methods of Multivariate Analysis, New\nYork: Wiley, Table 8.3.",
+   "usage" : "A data frame with 90 observations on the following 7 variables."
+}
+
 var FootHead = [
    [
       "group",

@@ -1,3 +1,17 @@
+var hills2000Info ={
+   "format" : "distdistance, in miles (on the map)\n\nclimbtotal height gained during the route, in feet\n\ntimerecord time in hours\n\ntimefrecord time in hours for females, in the\nhills2000 dataset.",
+   "title" : "Scottish Hill Races Data",
+   "reference" : "A.C. Atkinson (1986) Comment: Aspects of diagnostic regression\nanalysis. Statistical Science  1, 397-402.",
+   "parameters" : {
+      "climb" : "total height gained during the route, in feet",
+      "time" : "record time in hours",
+      "timef" : "record time in hours for females, in the\nhills2000 dataset.",
+      "dist" : "distance, in miles (on the map)"
+   },
+   "usage" : "data(hills)\n  data(hills2000)",
+   "description" : "Description\nThe record times in 1984 (hills) for 35 Scottish hill races,\nor in 2000 (hills2000) for 56 hill races.  The hills2000\ndataset is the subset of races2000 for which type\nis hill."
+}
+
 var hills2000 = [
    [
       "dist",

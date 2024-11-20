@@ -1,14 +1,55 @@
 {
-   "config" : {
-      "smpOverlays" : [
-         "county"
-      ],
-      "title" : "South Carolina County GOP/Democratic Primary Data",
-      "subtitle" : "stevedata - SCP16",
-      "graphType" : "Heatmap"
-   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>SCP16</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>South Carolina County GOP/Democratic Primary Data, 2016</h2>\n<h3>Description</h3>\n<p>County-level data on vote share and various background/demographic\ninformation for the 2016 South Carolina GOP/Democratic primaries.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>SCP16\n</code></pre>\n<h3>Format</h3>\n<p>A data frame with 46 observations on the following 15 variables.\n</p>\n<dl>\n<dt><code>county</code></dt><dd><p>the county</p>\n</dd>\n<dt><code>clinton</code></dt><dd><p>Hillary Clinton's county-level vote share in the 2016 party primary</p>\n</dd>\n<dt><code>sanders</code></dt><dd><p>Bernie Sanders' county-level vote share in the 2016 party primary</p>\n</dd>\n<dt><code>trump</code></dt><dd><p>Donald Trump's county-level vote share in the 2016 party primary</p>\n</dd>\n<dt><code>cruz</code></dt><dd><p>Ted Cruz' county-level vote share in the 2016 party primary</p>\n</dd>\n<dt><code>rubio</code></dt><dd><p>Marco Rubio's county-level vote share in the 2016 party primary</p>\n</dd>\n<dt><code>percapinc</code></dt><dd><p>A county-level estimate for per capita income</p>\n</dd>\n<dt><code>medhouseinc</code></dt><dd><p>A county-level estimate for the median household income</p>\n</dd>\n<dt><code>medfaminc</code></dt><dd><p>A county-level estimate for the median family income</p>\n</dd>\n<dt><code>illiteracy</code></dt><dd><p>An estimate of the percent of the county lacking &quot;basic&quot; prose literacy skills</p>\n</dd>\n<dt><code>perblack</code></dt><dd><p>Percentage of the county that is black</p>\n</dd>\n<dt><code>population</code></dt><dd><p>An estimate of the county-level population</p>\n</dd>\n<dt><code>romneyshare2012</code></dt><dd><p>Mitt Romney's vote share at the county-level from the 2012 general election</p>\n</dd>\n<dt><code>perhsgrad</code></dt><dd><p>Percentage of the county whose residents 25 years and older have at least a high school education</p>\n</dd>\n<dt><code>unemployment</code></dt><dd><p>Unemployment rate for the county for January 2016</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>The illiteracy estimate comes from a Department of Education report from 2003.\nThe unemployment rate data come from the Bureau of Labor Statistics. A Github repository contains\nmore information: <a href=\"https://github.com/svmiller/sc-primary-2016\">https://github.com/svmiller/sc-primary-2016</a>.\n</p>\n</main>\n</div>\n",
    "data" : {
       "y" : {
+         "smps" : [
+            "Smp1",
+            "Smp2",
+            "Smp3",
+            "Smp4",
+            "Smp5",
+            "Smp6",
+            "Smp7",
+            "Smp8",
+            "Smp9",
+            "Smp10",
+            "Smp11",
+            "Smp12",
+            "Smp13",
+            "Smp14",
+            "Smp15",
+            "Smp16",
+            "Smp17",
+            "Smp18",
+            "Smp19",
+            "Smp20",
+            "Smp21",
+            "Smp22",
+            "Smp23",
+            "Smp24",
+            "Smp25",
+            "Smp26",
+            "Smp27",
+            "Smp28",
+            "Smp29",
+            "Smp30",
+            "Smp31",
+            "Smp32",
+            "Smp33",
+            "Smp34",
+            "Smp35",
+            "Smp36",
+            "Smp37",
+            "Smp38",
+            "Smp39",
+            "Smp40",
+            "Smp41",
+            "Smp42",
+            "Smp43",
+            "Smp44",
+            "Smp45",
+            "Smp46"
+         ],
          "vars" : [
             "clinton",
             "sanders",
@@ -698,54 +739,6 @@
                9,
                5.1
             ]
-         ],
-         "smps" : [
-            "Smp1",
-            "Smp2",
-            "Smp3",
-            "Smp4",
-            "Smp5",
-            "Smp6",
-            "Smp7",
-            "Smp8",
-            "Smp9",
-            "Smp10",
-            "Smp11",
-            "Smp12",
-            "Smp13",
-            "Smp14",
-            "Smp15",
-            "Smp16",
-            "Smp17",
-            "Smp18",
-            "Smp19",
-            "Smp20",
-            "Smp21",
-            "Smp22",
-            "Smp23",
-            "Smp24",
-            "Smp25",
-            "Smp26",
-            "Smp27",
-            "Smp28",
-            "Smp29",
-            "Smp30",
-            "Smp31",
-            "Smp32",
-            "Smp33",
-            "Smp34",
-            "Smp35",
-            "Smp36",
-            "Smp37",
-            "Smp38",
-            "Smp39",
-            "Smp40",
-            "Smp41",
-            "Smp42",
-            "Smp43",
-            "Smp44",
-            "Smp45",
-            "Smp46"
          ]
       },
       "x" : {
@@ -799,5 +792,12 @@
          ]
       }
    },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>SCP16</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>South Carolina County GOP/Democratic Primary Data, 2016</h2>\n<h3>Description</h3>\n<p>County-level data on vote share and various background/demographic\ninformation for the 2016 South Carolina GOP/Democratic primaries.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>SCP16\n</code></pre>\n<h3>Format</h3>\n<p>A data frame with 46 observations on the following 15 variables.\n</p>\n<dl>\n<dt><code>county</code></dt><dd><p>the county</p>\n</dd>\n<dt><code>clinton</code></dt><dd><p>Hillary Clinton's county-level vote share in the 2016 party primary</p>\n</dd>\n<dt><code>sanders</code></dt><dd><p>Bernie Sanders' county-level vote share in the 2016 party primary</p>\n</dd>\n<dt><code>trump</code></dt><dd><p>Donald Trump's county-level vote share in the 2016 party primary</p>\n</dd>\n<dt><code>cruz</code></dt><dd><p>Ted Cruz' county-level vote share in the 2016 party primary</p>\n</dd>\n<dt><code>rubio</code></dt><dd><p>Marco Rubio's county-level vote share in the 2016 party primary</p>\n</dd>\n<dt><code>percapinc</code></dt><dd><p>A county-level estimate for per capita income</p>\n</dd>\n<dt><code>medhouseinc</code></dt><dd><p>A county-level estimate for the median household income</p>\n</dd>\n<dt><code>medfaminc</code></dt><dd><p>A county-level estimate for the median family income</p>\n</dd>\n<dt><code>illiteracy</code></dt><dd><p>An estimate of the percent of the county lacking &quot;basic&quot; prose literacy skills</p>\n</dd>\n<dt><code>perblack</code></dt><dd><p>Percentage of the county that is black</p>\n</dd>\n<dt><code>population</code></dt><dd><p>An estimate of the county-level population</p>\n</dd>\n<dt><code>romneyshare2012</code></dt><dd><p>Mitt Romney's vote share at the county-level from the 2012 general election</p>\n</dd>\n<dt><code>perhsgrad</code></dt><dd><p>Percentage of the county whose residents 25 years and older have at least a high school education</p>\n</dd>\n<dt><code>unemployment</code></dt><dd><p>Unemployment rate for the county for January 2016</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>The illiteracy estimate comes from a Department of Education report from 2003.\nThe unemployment rate data come from the Bureau of Labor Statistics. A Github repository contains\nmore information: <a href=\"https://github.com/svmiller/sc-primary-2016\">https://github.com/svmiller/sc-primary-2016</a>.\n</p>\n</main>\n</div>\n"
+   "config" : {
+      "smpOverlays" : [
+         "county"
+      ],
+      "graphType" : "Heatmap",
+      "title" : "South Carolina County GOP/Democratic Primary Data",
+      "subtitle" : "stevedata - SCP16"
+   }
 }

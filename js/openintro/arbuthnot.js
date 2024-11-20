@@ -1,3 +1,16 @@
+var arbuthnotInfo ={
+   "usage" : "arbuthnot",
+   "description" : "Description\nArbuthnot's data describes male and female christenings (births) for\nLondon from 1629-1710.",
+   "title" : "Male and female births in London",
+   "reference" : "John Arbuthnot (1710) used these time series data to carry out the first\nknown significance test. During every one of the 82 years, there were more\nmale christenings than female christenings. As Arbuthnot wondered,\nwe might also wonder if this could be due to chance, or whether it meant\nthe birth ratio was not actually 1:1.",
+   "format" : "A tbl_df with with 82 rows and 3 variables:",
+   "parameters" : {
+      "girls" : "number of female christenings (births)",
+      "year" : "year, ranging from 1629 to 1710",
+      "boys" : "number of male christenings (births)"
+   }
+}
+
 var arbuthnot = [
    [
       "year",

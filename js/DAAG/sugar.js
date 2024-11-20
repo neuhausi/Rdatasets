@@ -1,3 +1,15 @@
+var sugarInfo ={
+   "description" : "Description\nThe sugar data frame has 12 rows and 2 columns.\nThey are from an experiment that\ncompared an unmodified wild type plant with three different\ngenetically modified forms.  The measurements are\nweights  of sugar that were obtained by breaking down the\ncellulose.",
+   "usage" : "sugar",
+   "parameters" : {
+      "trt" : "a factor with levels\nControl i.e. unmodified Wild form,  \nA Modified 1,\nB Modified 2,\nC Modified 3",
+      "weight" : "weight, in mg"
+   },
+   "title" : "Sugar Data",
+   "reference" : "Anonymous",
+   "format" : "This data frame contains the following columns:"
+}
+
 var sugar = [
    [
       "weight",

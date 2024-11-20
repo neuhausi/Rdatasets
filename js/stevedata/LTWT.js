@@ -1,3 +1,16 @@
+var LTWTInfo ={
+   "usage" : "LTWT",
+   "description" : "Description\n\"Let Them Watch TV\": These data contain price indices for various items for the general\nurban consumer. Categories include medical services, college tuition, college textbooks,\nchild care, housing, food and beverages, all items (i.e. general CPI),\nnew vehicles, apparel, and televisions. The base period in value was originally\nthe 1982-4 average, but I converted the base period to January 2000. I use these\ndata for in-class discussion about how liberalized trade has made consumer\nelectronics (like TVs) fractions of their past prices. Yet, young adults face\nmounting costs for college, child-raising, and health care that government\npolicy has failed to address.",
+   "format" : "A data frame with 2377 observations on the following 3 variables.",
+   "title" : "\"Let Them Watch TV\"",
+   "reference" : "Inspiration comes from a blog post titled \"Chart of the day (century?): Price changes 1997 to 2017\", which was published by the American Enterprise Institute on Feb. 2, 2018.",
+   "parameters" : {
+      "value" : "the price index. Base: January 2000",
+      "date" : "a date",
+      "category" : "a factor for the particular category"
+   }
+}
+
 var LTWT = [
    [
       "date",

@@ -1,3 +1,10 @@
+var concreteInfo ={
+   "title" : "Compressive strength of concrete mixtures",
+   "format" : "Yeh I (2006). \"Analysis of Strength of Concrete Using Design of Experiments\nand Neural Networks.\" Journal of Materials in Civil Engineering, 18, 597-604.",
+   "usage" : "concrete\n\na tibble",
+   "description" : "Description\nYeh (2006) describes an aggregated data set for experimental designs used to\ntest the compressive strength of concrete mixtures. The data are used by\nKuhn and Johnson (2013)."
+}
+
 var concrete = [
    [
       "cement",

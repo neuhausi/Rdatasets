@@ -1,3 +1,18 @@
+var schooldaysInfo ={
+   "parameters" : {
+      "race" : "race of the child, a factor with levels \naboriginal and non-aboriginal.",
+      "school" : "the school type, a factor with levels \nF0 (primary), F1 (first), F2 (second) and  \nF3 (third form).",
+      "sex" : "the sex of the child, a factor with levels \nfemale and male.",
+      "absent" : "number of days absent from school.",
+      "learner" : "how good is the child in learning things, \na factor with levels average and\nslow."
+   },
+   "title" : "Days not Spent at School",
+   "format" : "A data frame with 154 observations on the following 5 variables.",
+   "reference" : "The data arise from a sociological study\nof Australian Aboriginal and white children reported by\nQuine (1975).",
+   "description" : "Description\nData from a sociological study, the number of days absent from school is\nthe response variable.",
+   "usage" : "data(\"schooldays\")"
+}
+
 var schooldays = [
    [
       "race",

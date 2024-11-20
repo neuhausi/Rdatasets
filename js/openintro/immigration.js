@@ -1,3 +1,15 @@
+var immigrationInfo ={
+   "parameters" : {
+      "political" : "a factor with levels conservative liberal\nmoderate",
+      "response" : "a factor with levels Apply for citizenship\nGuest worker Leave the country Not sure"
+   },
+   "format" : "A data frame with 910 observations on the following 2 variables.",
+   "title" : "Poll on illegal workers in the US",
+   "reference" : "SurveyUSA, News Poll #18927, data collected Jan 27-29, 2012.",
+   "description" : "Description\n910 randomly sampled registered voters in Tampa, FL were asked if they\nthought workers who have illegally entered the US should be (i) allowed to\nkeep their jobs and apply for US citizenship, (ii) allowed to keep their\njobs as temporary guest workers but not allowed to apply for US citizenship,\nor (iii) lose their jobs and have to leave the country as well as their\npolitical ideology.",
+   "usage" : "immigration"
+}
+
 var immigration = [
    [
       "response",

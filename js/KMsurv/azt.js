@@ -1,3 +1,16 @@
+var aztInfo ={
+   "description" : "Description\nThe azt data frame has 45 rows and 4 columns.",
+   "parameters" : {
+      "ageentry" : "Age at entry into AZT study, months",
+      "patient" : "Patient number",
+      "death" : "Death indicator (1=dead, 0=alive)",
+      "age" : "Age at death or censoring time, months"
+   },
+   "reference" : "Klein and Moeschberger (1997) Survival Analysis Techniques for Censored\nand truncated data, Springer.",
+   "title" : "data from Exercise 4.7, p122",
+   "usage" : "This data frame contains the following columns:"
+}
+
 var azt = [
    [
       "patient",

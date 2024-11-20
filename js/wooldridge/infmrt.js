@@ -1,3 +1,25 @@
+var infmrtInfo ={
+   "parameters" : {
+      "physic" : " drs. per 100,000 civilian pop.",
+      "popul" : " population, 1000s",
+      "pcinc" : " per capita income",
+      "year" : " 1987 or 1990",
+      "d90" : " =1 if year == 1990",
+      "afdcprt" : " afdc partic., 1000s",
+      "DC" : " =1 for Washington DC",
+      "lpcinc" : " log(pcinc)",
+      "lphysic" : " log(physic)",
+      "lpopul" : " log(popul)",
+      "afdcper" : " percent on AFDC",
+      "infmort" : " deaths per 1,000 live births"
+   },
+   "format" : "A data.frame with 102 observations on 12 variables:",
+   "title" : "infmrt",
+   "reference" : "An interesting exercise is to add the percentage of the population on AFDC (afdcper) to the infant mortality equation. Pooled OLS and first differencing can give very different estimates. Adding the years 1998 and 2002 and applying fixed effects seems natural. Intervening years can be added, too, although variation in the key variables from year to year might be minimal.",
+   "description" : "Description\nWooldridge Source: Statistical Abstract of the United States, 1990 and 1994. (For example, the infant mortality rates come from Table 113 in 1990 and Table 123 in 1994.) Data loads lazily.",
+   "usage" : "data('infmrt')"
+}
+
 var infmrt = [
    [
       "year",

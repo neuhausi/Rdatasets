@@ -1,11 +1,17 @@
 {
    "config" : {
-      "title" : "Competition between two biotypes",
       "graphType" : "Scatter3D",
+      "title" : "Competition between two biotypes",
       "subtitle" : "drc - RScompetition"
    },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>RScompetition</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Competition between two biotypes</h2>\n<h3>Description</h3>\n<p>To assess the competitive ability between two biotypes of <em>Lolium rigidum</em>, one resistant to glyphosate\nand the other a sensitive wild type, the density of resistant and sensitive biotypes was counted after\ngermination.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(RScompetition)</code></pre>\n<h3>Format</h3>\n<p>A data frame with 49 observations on the following 3 variables.\n</p>\n<dl>\n<dt><code>z</code></dt><dd><p>a numeric vector with densities of the resistant biotype (plants/m2)</p>\n</dd>\n<dt><code>x</code></dt><dd><p>a numeric vector with densities of the sensitive biotype (plants/m2)</p>\n</dd>\n<dt><code>biomass</code></dt><dd><p>a numeric vector of biomass weight (g/plant)</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>A hyperbolic model (Jensen, 1993) is describing the data reasonably well.\n</p>\n<h3>Source</h3>\n<p>The dataset is from Pedersen et al (2007).\n</p>\n<h3>References</h3>\n<p>Jensen, J. E. (1993) Fitness of herbicide-resistant weed biotypes described by competition models, \n<em>Proceedings of the 8th EWRS Symposium, 14-16 June, Braunschweig, Germany</em>, \n<b>1</b>, 25&ndash;32.\n</p>\n<p>Pedersen, B. P. and Neve, P. and Andreasen, C. and Powles, S. (2007) Ecological fitness of a glyphosate \nresistant <em>Lolium rigidum</em> population: Growth and seed production along a competition gradient,\n<em>Basic and Applied Ecology</em>, <b>8</b>, 258&ndash;268.\n</p>\n</main>\n</div>\n",
    "data" : {
       "y" : {
+         "smps" : [
+            "z",
+            "x",
+            "biomass"
+         ],
          "vars" : [
             "Var1",
             "Var2",
@@ -303,13 +309,7 @@
                64,
                2.3578125
             ]
-         ],
-         "smps" : [
-            "z",
-            "x",
-            "biomass"
          ]
       }
-   },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>RScompetition</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Competition between two biotypes</h2>\n<h3>Description</h3>\n<p>To assess the competitive ability between two biotypes of <em>Lolium rigidum</em>, one resistant to glyphosate\nand the other a sensitive wild type, the density of resistant and sensitive biotypes was counted after\ngermination.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(RScompetition)</code></pre>\n<h3>Format</h3>\n<p>A data frame with 49 observations on the following 3 variables.\n</p>\n<dl>\n<dt><code>z</code></dt><dd><p>a numeric vector with densities of the resistant biotype (plants/m2)</p>\n</dd>\n<dt><code>x</code></dt><dd><p>a numeric vector with densities of the sensitive biotype (plants/m2)</p>\n</dd>\n<dt><code>biomass</code></dt><dd><p>a numeric vector of biomass weight (g/plant)</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>A hyperbolic model (Jensen, 1993) is describing the data reasonably well.\n</p>\n<h3>Source</h3>\n<p>The dataset is from Pedersen et al (2007).\n</p>\n<h3>References</h3>\n<p>Jensen, J. E. (1993) Fitness of herbicide-resistant weed biotypes described by competition models, \n<em>Proceedings of the 8th EWRS Symposium, 14-16 June, Braunschweig, Germany</em>, \n<b>1</b>, 25&ndash;32.\n</p>\n<p>Pedersen, B. P. and Neve, P. and Andreasen, C. and Powles, S. (2007) Ecological fitness of a glyphosate \nresistant <em>Lolium rigidum</em> population: Growth and seed production along a competition gradient,\n<em>Basic and Applied Ecology</em>, <b>8</b>, 258&ndash;268.\n</p>\n</main>\n</div>\n"
+   }
 }

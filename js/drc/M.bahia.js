@@ -1,3 +1,15 @@
+var M.bahiaInfo ={
+   "description" : "Description\nJuvenile mysid shrimp (Mysidopsis bahia) were exposed to up to 32% effluent\nin a 7-day survival and growth test. The average weight per treatment replicate of\nsurviving organisms was measured.",
+   "usage" : "data(M.bahia)",
+   "parameters" : {
+      "conc" : "a numeric vector of effluent concentrations (%)",
+      "dryweight" : "a numeric vector of average dry weights (mg)"
+   },
+   "format" : "A data frame with 40 observations on the following 2 variables.",
+   "title" : "Effect of an effluent on the growth of mysid shrimp",
+   "reference" : "The data are analysed in Bruce and Versteeg (1992) using a log-normal \ndose-response model (using the logarithm with base 10)."
+}
+
 var M.bahia = [
    [
       "conc",

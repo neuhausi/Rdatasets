@@ -1,3 +1,17 @@
+var starsInfo ={
+   "parameters" : {
+      "temp. Surface temperature in degrees Kelvin (K)." : null,
+      "magnitude. Absolute magnitude of the star, which is a function of the star's luminosity and distance to the star." : null,
+      "type. Spectral class of star in the OBAFGKM system." : null,
+      "star. Name of star." : null
+   },
+   "format" : "An object of class \"data.frame\".",
+   "reference" : "Compiled from multiple open-access references on VizieR.",
+   "title" : "Physical Properties of Stars",
+   "description" : "Description\nPhysical properties of selected stars, including luminosity, temperature, and spectral class.",
+   "usage" : "stars"
+}
+
 var stars = [
    [
       "star",

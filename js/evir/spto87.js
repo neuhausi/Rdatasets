@@ -1,3 +1,10 @@
+var spto87Info ={
+   "description" : "Description\nThe daily log returns on the S&P index value from\nTuesday 5th January 1960 until Friday 16 October 1987.\nThe data are contained in a numeric vector.\nThe dates of each observation are contained in a times\nattribute, which is an object of class \"POSIXct\" (see\nDateTimeClasses).",
+   "usage" : "data(spto87)",
+   "format" : "A numeric vector containing 6985 observations, with a\ntimes attribute which is a POSIXct object\nof the same length.",
+   "title" : "SP Return Data to October 1987"
+}
+
 var spto87 = [
    [
       "dat"

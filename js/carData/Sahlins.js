@@ -1,3 +1,15 @@
+var SahlinsInfo ={
+   "usage" : "Sahlins",
+   "description" : "Description\nThe Sahlins data frame has 20 rows and 2 columns.\nThe observations are households in a Central African village.",
+   "title" : "Agricultural Production in Mazulu Village",
+   "reference" : "Sahlins, M. (1972)\nStone Age Economics. \nAldine\n[Table 3.1].",
+   "format" : "This data frame contains the following columns:",
+   "parameters" : {
+      "acres" : "Acres/Gardener, amount of land cultivated per gardener.",
+      "consumers" : "Consumers/Gardener, ratio of consumers to productive individuals."
+   }
+}
+
 var Sahlins = [
    [
       "consumers",

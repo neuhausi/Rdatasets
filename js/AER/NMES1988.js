@@ -1,3 +1,32 @@
+var NMES1988Info ={
+   "parameters" : {
+      "region" : "Factor indicating region, levels are northeast,\nmidwest, west, other (reference category).",
+      "nvisits" : "Number of non-physician office visits.",
+      "emergency" : "Emergency room visits.",
+      "employed" : "Factor. Is the individual employed?",
+      "visits" : "Number of physician office visits.",
+      "adl" : "Factor indicating whether the individual has a condition that\nlimits activities of daily living (\"limited\") or not (\"normal\").",
+      "hospital" : "Number of hospital stays.",
+      "medicaid" : "Factor. Is the individual covered by Medicaid?",
+      "income" : "Family income in USD 10,000.",
+      "age" : "Age in years (divided by 10).",
+      "insurance" : "Factor. Is the individual covered by private insurance?",
+      "novisits" : "Number of non-physician hospital outpatient visits.",
+      "married" : "Factor. is the individual married?",
+      "afam" : "Factor. Is the individual African-American?",
+      "health" : "Factor indicating self-perceived health status, levels are\n\"poor\", \"average\" (reference category), \"excellent\".",
+      "chronic" : "Number of chronic conditions.",
+      "gender" : "Factor indicating gender.",
+      "ovisits" : "Number of physician hospital outpatient visits.",
+      "school" : "Number of years of education."
+   },
+   "format" : "A data frame containing 4,406 observations on 19 variables.",
+   "title" : "Demand for Medical Care in NMES 1988",
+   "reference" : "Journal of Applied Econometrics Data Archive for Deb and Trivedi (1997).",
+   "description" : "Description\nCross-section data originating from the US National Medical Expenditure Survey (NMES) \nconducted in 1987 and 1988. The NMES is based upon a representative, national \nprobability sample of the civilian non-institutionalized population and individuals \nadmitted to long-term care facilities during 1987. The data are a subsample of \nindividuals ages 66 and over all of whom are covered by Medicare \n(a public insurance program providing substantial protection against health-care costs).",
+   "usage" : "data(\"NMES1988\")"
+}
+
 var NMES1988 = [
    [
       "visits",

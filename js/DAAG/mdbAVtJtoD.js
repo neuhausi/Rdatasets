@@ -1,3 +1,10 @@
+var mdbAVtJtoDInfo ={
+   "usage" : "data(\"mdbAVtJtoD\")",
+   "format" : "The format is:\nTime-Series [1:867] from 1950 to 2022: 27.44 26.84 24.4 22.27 8.41 ...",
+   "title" : "Murray-Darling basin monthly temperatures",
+   "description" : "Description\nAustralian Murray-Darling basin monthly temperatures"
+}
+
 var mdbAVtJtoD = [
    [
       "time",

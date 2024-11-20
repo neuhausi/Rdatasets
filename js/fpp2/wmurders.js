@@ -1,3 +1,10 @@
+var wmurdersInfo ={
+   "description" : "Description\nTotal Murdered women, per 100 000 standard population.",
+   "usage" : "Annual time series of class ts.",
+   "title" : "Annual female murder rate (per 100,000 standard population) in the USA.\n1950-2004.",
+   "format" : "Gapminder Foundation."
+}
+
 var wmurders = [
    [
       "time",

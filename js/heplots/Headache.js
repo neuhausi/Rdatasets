@@ -1,3 +1,18 @@
+var HeadacheInfo ={
+   "usage" : "A data frame with 98 observations on the following 6 variables.",
+   "title" : "Treatment of Headache Sufferers for Sensitivity to Noise",
+   "reference" : "In a pre-post design, 98 patients were first assessed for the volume of\nnoise which they found uncomfortable (U) and definitely uncomfortable (DU).\nThey were then given relaxation training, where they listened to the noise\nat the DU level and given instruction breathing techniques and the use of\nvisual imagery to distract them from discomfort.  One of four treatments was\nthen applied, and all patients were reassessed for the noise volume they\nconsidered uncomfortable (U) and definitely uncomfortable (DU).",
+   "parameters" : {
+      "u1" : "Noise level rated as Uncomfortable, initial measure",
+      "treatment" : "Treatment group, a factor with levels T1 T2 T3 \nControl.  See Details",
+      "du1" : "Noise level rated as Definitely Uncomfortable, initial measure",
+      "du2" : "Noise level rated as Definitely Uncomfortable, final measure",
+      "type" : "Type of headache, a factor with levels Migrane Tension",
+      "u2" : "Noise level rated as Uncomfortable, final measure"
+   },
+   "description" : "Description\nA study was conducted investigating the effectiveness of different kinds of\npsychological treatment on the sensitivity of headache sufferers to noise,\ndescribed in Hand and Taylor (1987), Study E."
+}
+
 var Headache = [
    [
       "type",

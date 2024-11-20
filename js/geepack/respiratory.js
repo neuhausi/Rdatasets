@@ -1,3 +1,21 @@
+var respiratoryInfo ={
+   "parameters" : {
+      "baseline" : "resporatory status at baseline",
+      "sex" : "M or F",
+      "center" : "a numeric vector",
+      "age" : "in years at baseline",
+      "treat" : "treatment or placebo",
+      "id" : "a numeric vector",
+      "outcome" : "respiratory status at each visit",
+      "visit" : "id of each of four visits"
+   },
+   "format" : "A data frame with 444 observations on the following 8 variables.",
+   "title" : "Data from a clinical trial comparing two treatments for a respiratory\nillness",
+   "reference" : "data(respiratory)\ndata(respiratory, package=\"geepack\")\nrespiratory$center <- factor(respiratory$center)\nhead(respiratory)\n\nm1 <- glm(outcome ~ center + treat + age + baseline, data=respiratory,                \n          family=binomial())                                                          \ngee.ind <- geeglm(outcome ~ center + treat + age + baseline, data=respiratory, id=id, \n          family=binomial(), corstr=\"independence\")                                   \ngee.exc <- geeglm(outcome ~ center + treat + age + baseline, data=respiratory, id=id, \n             family=binomial(), corstr=\"exchangeable\")                                \ngee.uns <- geeglm(outcome ~ center + treat + age + baseline, data=respiratory, id=id, \n             family=binomial(), corstr=\"unstructured\")                                \ngee.ar1 <- geeglm(outcome ~ center + treat + age + baseline, data=respiratory, id=id, \n             family=binomial(), corstr=\"ar1\")                                         \n\nmlist <- list(gee.ind, gee.exc, gee.uns, gee.ar1)\ndo.call(rbind, lapply(mlist, QIC))\nlapply(mlist, tidy)",
+   "description" : "Description\nThe data are from a clinical trial of patients with respiratory illness,\nwhere 111 patients from two different clinics were randomized to receive\neither placebo or an active treatment. Patients were examined at baseline\nand at four visits during treatment. The respiratory\nstatus (categorized as 1 = good, 0 = poor) was determined at each\nvisit.",
+   "usage" : "respiratory"
+}
+
 var respiratory = [
    [
       "center",

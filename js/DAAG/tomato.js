@@ -1,3 +1,15 @@
+var tomatoInfo ={
+   "parameters" : {
+      "trt" : "a factor with levels\nwater only,\nconc nutrient,\n2-4-D + conc nutrient,\n3x conc nutrient",
+      "weight" : "weight, in g"
+   },
+   "title" : "Root weights of tomato plants exposed to 4 different treatments",
+   "format" : "This data frame contains the following columns:",
+   "reference" : "Dr Ron Balham, Victoria University of Wellington NZ, sometime\nin 1971 - 1976.",
+   "description" : "Description\nThe tomato data frame has 24 rows and 2 columns.\nThey are from an experiment that exposed tomato plants\nto four different 'nutrients'.",
+   "usage" : "data(tomato)"
+}
+
 var tomato = [
    [
       "weight",

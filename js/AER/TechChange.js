@@ -1,3 +1,16 @@
+var TechChangeInfo ={
+   "usage" : "data(\"TechChange\")",
+   "description" : "Description\nUS time series data, 1909&ndash;1949.",
+   "format" : "An annual multiple time series from 1909 to 1949 with 3 variables.",
+   "reference" : "Online complements to Greene (2003), Table F7.2.",
+   "title" : "Technological Change Data",
+   "parameters" : {
+      "clr" : "Capital/labor ratio.",
+      "output" : "Output.",
+      "technology" : "Index of technology."
+   }
+}
+
 var TechChange = [
    [
       "output",

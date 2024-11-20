@@ -1,3 +1,25 @@
+var rx_adslInfo ={
+   "reference" : "Here is a glimpse at the data available in rx_adsl.",
+   "title" : "An ADSL-flavored clinical trial toy dataset",
+   "format" : "A tibble with 182 rows and 14 variables:",
+   "parameters" : {
+      "AGE" : "The age of a subject at baseline in years.",
+      "ITTFL" : "Intent-to-Treat (ITT) population flag, where \"Y\" indicates\na subject belongs to the ITT population and \"N\" indicates a subject is not\nin the ITT population.",
+      "AAGEGR1" : "The analysis age group, indicating if a subject was strictly\nyounger than 40 years at baseline or older.",
+      "EVNTFL" : "Event Flag. Indicates whether the subject experienced a\nspecific event during the course of the study or not. Can be either \"Y\" (if\nif the subject had the event) or \"N\".",
+      "SCRFREAS" : "The reason for screen failure. This is either missing\n(\"\") for non-screen failure subjects or indicates the reason for screen\nfailure",
+      "SEX" : "Sex of a subject. Can be either \"Male\", \"Female\" or\n\"Undifferentiated\".",
+      "USUBJID" : "The unique subject identifier.",
+      "ETHNIC" : "Ethnicity of a subject. Can be either \"Hispanic or Latino\",\n\"Not Hispanic or Latino\" or missing (\"\").",
+      "BLBMI" : "Body Mass Index (BMI) of a subject at baseline in kg/m2.",
+      "TRTA, TRTAN" : "The study intervention and its numeric version, which is\neither \"Placebo\" (1), \"Drug 1\" (2) or NA (3), missing for\nscreen failures).",
+      "RANDFL" : "Randomization flag, where \"Y\" indicates a subject was\nrandomized to receive either \"Placebo\" or \"Drug 1\" and \"N\" indicates\na subject was not randomized at all.",
+      "STUDYID, STUDYIDN" : "The unique study identifier and its numeric\nversion."
+   },
+   "usage" : "rx_adsl",
+   "description" : "Description\nThis tibble contains artificial data for 182 subjects of the GT01 study.\nEach row corresponds to demographic characteristics of a single trial\nparticipant. Two out of 182 study participants were screen failures and\nthus not treated, the rest of the study population was randomized with a\n1:1 ratio to receive either \"Placebo\" (as comparator) or \"Drug 1\". The\ndataset entails subject level demographics such as age, age group, sex,\nethnicity, and body mass index (BMI) at baseline, as well as an event\nflag, indicating whether the subject experienced a specific event\nthroughout the course of the study or not.\nAlthough the data was intentionally created to mimic a typical clinical\ntrial dataset following the CDISC format, it might not strictly comply\nwith CDISC ADaM rules. The intent is to showcase the workflow for clinical\ntable creation rather than creating a fully CDISC-compliant ADaM dataset."
+}
+
 var rx_adsl = [
    [
       "STUDYID",

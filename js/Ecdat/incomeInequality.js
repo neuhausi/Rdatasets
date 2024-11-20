@@ -1,3 +1,22 @@
+var incomeInequalityInfo ={
+   "title" : "Income Inequality in the US",
+   "format" : "A data.frame containing:",
+   "reference" : "For details on how this data.frame was\ncreated, see \"F1.PikettySaez.R\" in\nsystem.file('scripts', package='fda').\nThis provides links for files to download and R\ncommands to read those files and convert them \ninto an updated version of incomeInequality.\nThis is a reasonable thing to do if it is more \nthan 2 years since \nmax(incomeInequality$year).  All data\nare in constant 2012 dollars.",
+   "parameters" : {
+      "P90, P95, P99, P99.5, P99.9, P99.99" : "The indicated quantiles of family income per Piketty and Saez",
+      "realGDPperFamily" : "personsPerFamily * realGDPperCap",
+      "mean.median" : "ratio of realGDPperFamily to the \nmedian.  This is a measure of skewness and\nincome inequality.",
+      "Year" : "numeric year 1947:2012",
+      "personsPerFamily" : "average number of persons per family using \nthe number of families from US Census Table \nF-1 and the population from MeasuringWorth.\n(Note:  The web site for Measuring Worth, \nhttps://MeasuringWorth.com, often gives \nsecurity warnings.  It still seems to work.  \nIt seems that the web site is not maintained \nto current internet security standards.)",
+      "quintile1, quintile2, median, quintile3, quintile4, p95" : "quintile1, quintile2, quintile3, quintile4, and p95 are the\nindicated quantiles of the distribution of family income from US\nCensus Table F-1.  The media is computed as the geometric mean of\nquintile2 and quintile3.  This is accurate to the extent that the\nlognormal distribution adequately approximates the central 20\npercent of the income distribution, which it should for most\npractical purposes.",
+      "P95IRSvsCensus" : "ratio of the estimates of the 95th \npercentile of distributions of family \nincome from the Piketty and Saez analysis \nof data from the Internal Revenue Service \n(IRS) and from the US Census Bureau.\n\nThe IRS has ranged between 72 and 98 percent \nof the Census Bureau figures for the 95th\npercentile of the distribution, with this\nratio averaging around 75 percent since the\nlate 1980s.  However, this systematic bias \nis modest relative to the differences between\nthe different quantiles of interest in this\ncombined dataset.",
+      "Number.thousands" : "number of families in the US",
+      "realGDP.M, GDP.Deflator, PopulationK, realGDPperCap" : "real GDP in millions, GDP implicit price \ndeflators, US population in thousands, and \nreal GDP per capita, according to\nMeasuringWorth.com.  (NOTE:  The web\naddress for this, \nhttps://MeasuringWorth.com, seems \nto be functional but may not be maintained \nto current internet security standards.  It \nis therefore given here as text rather than \na hot link.)"
+   },
+   "usage" : "data(incomeInequality)",
+   "description" : "Description\nData on quantiles of the distributions of family\nincomes in the United States. This combines three\ndata sources:\n(1) US Census Table F-1 for the central quantiles\n(2) Piketty and Saez for the 95th and higher\nquantiles\n(3) Gross Domestic Product and implicit price\ndeflators from Measuring Worth.  (NOTE:  The\nMeasuring Worth Web site, \nhttps://MeasuringWorth.com, often gives \nsecurity warnings.  The desired data still seems \nto be available and not corrupted, however.)"
+}
+
 var incomeInequality = [
    [
       "Year",

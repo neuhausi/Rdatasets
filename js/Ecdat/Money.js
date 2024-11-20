@@ -1,3 +1,17 @@
+var MoneyInfo ={
+   "usage" : "data(Money)",
+   "description" : "Description\nquarterly observations from 1967-1 to 1998-4\nnumber of observations :  128\nobservation :  country\ncountry :  Canada",
+   "title" : "Money, GDP and Interest Rate in Canada",
+   "reference" : "CANSIM Database of Statistics Canada.",
+   "format" : "A time series containing :",
+   "parameters" : {
+      "m" : "log of the real money supply",
+      "p" : "the log of the price level",
+      "y" : "the log of GDP, in 1992 dollars, seasonally adjusted",
+      "r" : "the 3-month treasury till rate"
+   }
+}
+
 var Money = [
    [
       "m",

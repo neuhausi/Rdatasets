@@ -1,3 +1,20 @@
+var UNInfo ={
+   "parameters" : {
+      "fertility" : "Total fertility rate, number of children per woman.",
+      "ppgdp" : "Per capita gross domestic product in US dollars.",
+      "pctUrban" : "Percent urban.",
+      "region" : "Region of the world: Africa, Asia, Caribbean, Europe, \nLatin Amer, North America, NorthAtlantic, Oceania.",
+      "lifeExpF" : "Female life expectancy, years.",
+      "group" : "A factor with levels oecd for countries that\nare members of the OECD, the Organization for Economic Co-operation and\nDevelopment, as of May 2012, africa for countries on the African\ncontinent, and other for all other countries.  No OECD countries are\nlocated in Africa.",
+      "infantMortality" : "Infant deaths by age 1 year per 1000 live births"
+   },
+   "reference" : "Similar data, from the period 2000-2003, appear in the alr3 package\nunder the name UN3. \nThis data set was formerly named UNlla and replaces the older dataset named UN.",
+   "title" : "National Statistics from the United Nations, Mostly From 2009&ndash;2011",
+   "format" : "A data frame with 213 rows on the following 7 variables.",
+   "description" : "Description\nNational health, welfare, and education statistics for 213\nplaces, mostly UN members, but also other areas like Hong Kong that are not\nindependent countries.",
+   "usage" : "data(UN)"
+}
+
 var UN = [
    [
       "region",

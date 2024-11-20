@@ -1,3 +1,25 @@
+var pntsprdInfo ={
+   "usage" : "data('pntsprd')",
+   "description" : "Description\nWooldridge Source: Collected by Scott Resnick, a former MSU undergraduate, from various newspaper sources. Data loads lazily.",
+   "title" : "pntsprd",
+   "reference" : "The data are for the 1994-1995 menâs college basketball seasons. The spread is for the day before the game was played. One might collect more recent data and determine whether the spread has become a less accurate predictor of the actual outcome in more recent years. In other words, in the simple regression of the actual score differential on the spread, is the variance larger in more recent years. (We should fully expect the slope coefficient not to be statistically different from one.)",
+   "format" : "A data.frame with 553 observations on 12 variables:",
+   "parameters" : {
+      "spread" : " las vegas spread",
+      "und25" : " =1 if underdog in top 25",
+      "scrdiff" : " favscr - undscr",
+      "favwin" : " =1 if favored team wins",
+      "favscr" : " favored team's score",
+      "sprdcvr" : " =1 if spread covered",
+      "neutral" : " =1 if neutral site",
+      "undscr" : " underdog's score",
+      "uregion" : " underdog's region of country",
+      "fregion" : " favorite's region of country",
+      "favhome" : " =1 if favored team at home",
+      "fav25" : " =1 if favored team in top 25"
+   }
+}
+
 var pntsprd = [
    [
       "favscr",

@@ -1,5 +1,10 @@
 {
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>Sitka89</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>\nGrowth Curves for Sitka Spruce Trees in 1989\n</h2>\n<h3>Description</h3>\n<p>The <code>Sitka89</code> data frame has 632 rows and 4 columns.  It gives repeated\nmeasurements on the log-size of 79 Sitka spruce trees, 54 of which\nwere grown in ozone-enriched chambers and 25 were controls.  The size\nwas measured eight times in 1989, at roughly monthly intervals.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>Sitka89\n</code></pre>\n<h3>Format</h3>\n<p>This data frame contains the following columns:\n</p>\n<dl>\n<dt><code>size</code></dt><dd><p>measured size (height times diameter squared) of\ntree, on log scale.</p>\n</dd>\n<dt><code>Time</code></dt><dd><p>time of measurement in  days since 1 January 1988.</p>\n</dd>\n<dt><code>tree</code></dt><dd><p>number of tree.</p>\n</dd>\n<dt><code>treat</code></dt><dd><p>either <code>\"ozone\"</code> for an ozone-enriched\nchamber or <code>\"control\"</code>.</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>P. J. Diggle, K.-Y. Liang and S. L. Zeger (1994)\n<em>Analysis of Longitudinal Data.</em>\nClarendon Press, Oxford\n</p>\n<h3>See Also</h3>\n<p><code>Sitka</code>\n</p>\n</main>\n</div>\n",
+   "config" : {
+      "subtitle" : "MASS - Sitka89",
+      "colorBy" : "treat",
+      "title" : "Growth Curves for Sitka Spruce Trees in 1989",
+      "graphType" : "Scatter3D"
+   },
    "data" : {
       "y" : {
          "data" : [
@@ -3164,11 +3169,6 @@
                79
             ]
          ],
-         "smps" : [
-            "size",
-            "Time",
-            "tree"
-         ],
          "vars" : [
             "Var1",
             "Var2",
@@ -3802,6 +3802,11 @@
             "Var630",
             "Var631",
             "Var632"
+         ],
+         "smps" : [
+            "size",
+            "Time",
+            "tree"
          ]
       },
       "z" : {
@@ -4441,10 +4446,5 @@
          ]
       }
    },
-   "config" : {
-      "graphType" : "Scatter3D",
-      "subtitle" : "MASS - Sitka89",
-      "title" : "Growth Curves for Sitka Spruce Trees in 1989",
-      "colorBy" : "treat"
-   }
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>Sitka89</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>\nGrowth Curves for Sitka Spruce Trees in 1989\n</h2>\n<h3>Description</h3>\n<p>The <code>Sitka89</code> data frame has 632 rows and 4 columns.  It gives repeated\nmeasurements on the log-size of 79 Sitka spruce trees, 54 of which\nwere grown in ozone-enriched chambers and 25 were controls.  The size\nwas measured eight times in 1989, at roughly monthly intervals.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>Sitka89\n</code></pre>\n<h3>Format</h3>\n<p>This data frame contains the following columns:\n</p>\n<dl>\n<dt><code>size</code></dt><dd><p>measured size (height times diameter squared) of\ntree, on log scale.</p>\n</dd>\n<dt><code>Time</code></dt><dd><p>time of measurement in  days since 1 January 1988.</p>\n</dd>\n<dt><code>tree</code></dt><dd><p>number of tree.</p>\n</dd>\n<dt><code>treat</code></dt><dd><p>either <code>\"ozone\"</code> for an ozone-enriched\nchamber or <code>\"control\"</code>.</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>P. J. Diggle, K.-Y. Liang and S. L. Zeger (1994)\n<em>Analysis of Longitudinal Data.</em>\nClarendon Press, Oxford\n</p>\n<h3>See Also</h3>\n<p><code>Sitka</code>\n</p>\n</main>\n</div>\n"
 }

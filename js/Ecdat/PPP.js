@@ -1,3 +1,18 @@
+var PPPInfo ={
+   "parameters" : {
+      "cpiit" : "consumer price index Italy",
+      "lnx" : "log exchange rate France/Italy",
+      "lnfr" : "log price index France",
+      "cpifr" : "consumer price index France",
+      "lnit" : "log price index Italy"
+   },
+   "format" : "A time series containing :",
+   "title" : "Exchange Rates and Price Indices for France and Italy",
+   "reference" : "Datastream.",
+   "description" : "Description\nmonthly observations from 1981&ndash;01 to 1996&ndash;06\nnumber of observations :  186\nobservation :  country\ncountry :  France and Italy",
+   "usage" : "data(PPP)"
+}
+
 var PPP = [
    [
       "lnit",

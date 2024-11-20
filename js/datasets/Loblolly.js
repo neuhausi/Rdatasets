@@ -1,3 +1,16 @@
+var LoblollyInfo ={
+   "description" : "Description\nThe Loblolly data frame has 84 rows and 3 columns of records of\nthe growth of Loblolly pine trees.",
+   "usage" : "Loblolly",
+   "parameters" : {
+      "Seed" : "an ordered factor indicating the seed source for the tree.\nThe ordering is according to increasing maximum height.",
+      "age" : "a numeric vector of tree ages (yr).",
+      "height" : "a numeric vector of tree heights (ft)."
+   },
+   "title" : "Growth of Loblolly Pine Trees",
+   "reference" : "This dataset was originally part of package nlme, and that has\nmethods (including for [, as.data.frame, plot and\nprint) for its grouped-data classes.",
+   "format" : "An object of class\nc(\"nfnGroupedData\", \"nfGroupedData\", \"groupedData\", \"data.frame\")\ncontaining the following columns:"
+}
+
 var Loblolly = [
    [
       "height",

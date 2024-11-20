@@ -1,3 +1,10 @@
+var animalsInfo ={
+   "title" : "Attributes of Animals",
+   "format" : "A data frame with 20 observations on 6 variables:",
+   "usage" : "data(animals)",
+   "description" : "Description\nThis data set considers 6 binary attributes for 20 animals."
+}
+
 var animals = [
    [
       "war",

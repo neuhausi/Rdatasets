@@ -1,3 +1,21 @@
+var piracyInfo ={
+   "format" : "A data frame with 534 observations on the following 8 variables.",
+   "title" : "Piracy and PIPA/SOPA",
+   "reference" : "The Stop Online Piracy Act (SOPA) and the Protect Intellectual Property Act\n(PIPA) were two bills introduced in the US House of Representatives and the\nUS Senate, respectively, to curtail copyright infringement.  The bill was\ncontroversial because there were concerns the bill limited free speech\nrights.  ProPublica, the independent and non-profit news organization,\ncompiled this dataset to compare the stance of legislators towards the\nbills with the amount of campaign funds that they received from groups\nconsidered to be supportive of or in opposition to the legislation.",
+   "parameters" : {
+      "chamber" : "Whether the legislator is a member of either the house or senate.",
+      "state" : "Two letter state abbreviation.",
+      "name" : "Name of legislator.",
+      "money_con" : "Amount of money in dollars contributed to the legislator's campaign in 2010 by groups generally thought to be opposed to PIPA/SOPA: computer and internet companies.",
+      "stance" : "Degree of support for PIPA/SOPA with levels Leaning No, No, Undecided, Unknown, Yes",
+      "money_pro" : "Amount of money in dollars contributed to the legislator's campaign in 2010 by groups generally thought to be supportive of PIPA/SOPA: movie and TV studios, record labels.",
+      "party" : "Party affiliation as democrat (D), Republican (R), or Independent (I).",
+      "years" : "Number of years of service in Congress."
+   },
+   "usage" : "piracy",
+   "description" : "Description\nThis dataset contains observations on all 100 US Senators and 434 of the\n325 US Congressional Representatives related to their support of anti-piracy\nlegislation that was introduced at the end of 2011."
+}
+
 var piracy = [
    [
       "name",

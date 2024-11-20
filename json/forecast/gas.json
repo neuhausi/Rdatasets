@@ -1,9 +1,4 @@
 {
-   "config" : {
-      "title" : "Australian monthly gas production",
-      "subtitle" : "forecast - gas",
-      "graphType" : "Scatter2D"
-   },
    "data" : {
       "y" : {
          "data" : [
@@ -1912,10 +1907,6 @@
                60054
             ]
          ],
-         "smps" : [
-            "time",
-            "value"
-         ],
          "vars" : [
             "Var1",
             "Var2",
@@ -2393,8 +2384,17 @@
             "Var474",
             "Var475",
             "Var476"
+         ],
+         "smps" : [
+            "time",
+            "value"
          ]
       }
    },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>gas</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Australian monthly gas production</h2>\n<h3>Description</h3>\n<p>Australian monthly gas production: 1956&ndash;1995.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>gas\n</code></pre>\n<h3>Format</h3>\n<p>Time series data\n</p>\n<h3>Source</h3>\n<p>Australian Bureau of Statistics.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>plot(gas)\nseasonplot(gas)\ntsdisplay(gas)\n</code></pre>\n</main>\n</div>\n"
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>gas</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Australian monthly gas production</h2>\n<h3>Description</h3>\n<p>Australian monthly gas production: 1956&ndash;1995.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>gas\n</code></pre>\n<h3>Format</h3>\n<p>Time series data\n</p>\n<h3>Source</h3>\n<p>Australian Bureau of Statistics.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>plot(gas)\nseasonplot(gas)\ntsdisplay(gas)\n</code></pre>\n</main>\n</div>\n",
+   "config" : {
+      "graphType" : "Scatter2D",
+      "title" : "Australian monthly gas production",
+      "subtitle" : "forecast - gas"
+   }
 }

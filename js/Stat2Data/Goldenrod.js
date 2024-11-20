@@ -1,3 +1,9 @@
+var GoldenrodInfo ={
+   "description" : "Description\nMeasurements for a sample of goldenrod galls",
+   "title" : "Goldenrod Galls",
+   "usage" : "A data frame with 1055 observations on the following 9 variables."
+}
+
 var Goldenrod = [
    [
       "Gdiam03",

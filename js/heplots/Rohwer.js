@@ -1,3 +1,22 @@
+var RohwerInfo ={
+   "reference" : "The variables SAT, PPVT and Raven are responses to be\npotentially explained by performance on the paired-associate (PA) learning\ntaskn, s, ns, na, and ss.",
+   "title" : "Rohwer Data Set",
+   "usage" : "A data frame with 69 observations on the following 10 variables.",
+   "parameters" : {
+      "n" : "a numeric vector: performance on a 'named' PA task",
+      "Raven" : "a numeric vector: score on the Raven Progressive Matrices Test",
+      "SAT" : "a numeric vector: score on a Student Achievement Test",
+      "ns" : "a numeric vector: performance on a 'named still' PA task",
+      "na" : "a numeric vector: performance on a 'named action' PA task",
+      "ss" : "a numeric vector: performance on a 'sentence still' PA task",
+      "PPVT" : "a numeric vector: score on the Peabody Picture Vocabulary Test",
+      "s" : "a numeric vector: performance on a 'still' PA task",
+      "group" : "a numeric vector, corresponding to SES",
+      "SES" : "Socioeconomic status, a factor with levels Hi Lo"
+   },
+   "description" : "Description\nData from an experiment by William D. Rohwer on kindergarten children\ndesigned to examine how well performance on a set of paired-associate (PA)\ntasks can predict performance on some measures of aptitude and achievement."
+}
+
 var Rohwer = [
    [
       "group",

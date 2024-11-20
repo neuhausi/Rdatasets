@@ -1,3 +1,15 @@
+var geophonesInfo ={
+   "usage" : "geophones",
+   "description" : "Description\nThe geophones data frame has 56 rows and 2 columns.\nThickness of a layer of Alberta substratum as measured by\na line of geophones.",
+   "format" : "This data frame contains the following columns:",
+   "title" : "Seismic Timing Data",
+   "reference" : "plot(geophones)\nlines(lowess(geophones, f=.25))",
+   "parameters" : {
+      "thickness" : "time for signal to pass through substratum.",
+      "distance" : "location of geophone."
+   }
+}
+
 var geophones = [
    [
       "distance",

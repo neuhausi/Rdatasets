@@ -1,3 +1,17 @@
+var DoctorInfo ={
+   "description" : "Description\na cross-section from 1986\nnumber of observations :  485\nobservation :  individuals\ncountry :  United States",
+   "usage" : "data(Doctor)",
+   "parameters" : {
+      "children" : "the number of children in the household",
+      "health" : "a measure of health status (larger positive numbers are  associated with poorer health)",
+      "access" : "is a measure of access to health care",
+      "doctor" : "the number of doctor visits"
+   },
+   "format" : "A dataframe containing :",
+   "title" : "Number of Doctor Visits",
+   "reference" : "Gurmu, Shiferaw (1997) &ldquo;Semiparametric estimation of hurdle regression models with an application to medicaid utilization&rdquo;, Journal of Applied Econometrics, 12(3), 225-242."
+}
+
 var Doctor = [
    [
       "doctor",

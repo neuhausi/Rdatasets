@@ -1,3 +1,19 @@
+var epilepsyInfo ={
+   "format" : "A data frame with 236 observations on the following 6 variables.",
+   "reference" : "In this clinical trial, 59\npatients suffering from epilepsy were randomized to groups receiving either \nthe anti-epileptic drug Progabide or a placebo in addition to \nstandard chemotherapy. The numbers of seizures suffered in each \nof four, two-week periods were recorded for each patient along \nwith a baseline seizure count for the 8 weeks prior to being \nrandomized to treatment and age. The main question of interest \nis whether taking progabide reduced the number of epileptic seizures  \ncompared with placebo.",
+   "title" : "Epilepsy Data",
+   "parameters" : {
+      "base" : "the number of seizures before the trial.",
+      "seizure.rate" : "the number of seizures (response variable).",
+      "treatment" : "the treatment group, a factor with levels placebo\nand Progabide.",
+      "period" : "treatment period, an ordered factor with levels\n1 to 4.",
+      "age" : "the age of the patient.",
+      "subject" : "the patient ID, a factor with levels 1 to\n59."
+   },
+   "usage" : "data(\"epilepsy\")",
+   "description" : "Description\nA randomised clinical trial investigating the effect of an anti-epileptic\ndrug."
+}
+
 var epilepsy = [
    [
       "treatment",

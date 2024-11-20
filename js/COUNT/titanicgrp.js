@@ -1,3 +1,18 @@
+var titanicgrpInfo ={
+   "description" : "Description\nThe data is an grouped version of the 1912 Titanic passenger survival \nlog,",
+   "usage" : "data(titanicgrp)",
+   "parameters" : {
+      "class" : "ticket class 1= 1st class; 2= second class; 3= third class",
+      "cases" : "number of passengers with same pattern of covariates",
+      "age" : "1=adult; 0=child",
+      "sex" : "1=Male; 0=female",
+      "survive" : "number of passengers who survived"
+   },
+   "title" : "titanicgrp",
+   "reference" : "titanicgrp is saved as a data frame.\nUsed to assess risk ratios",
+   "format" : "A data frame with 12 observations on the following 5 variables."
+}
+
 var titanicgrp = [
    [
       "survive",

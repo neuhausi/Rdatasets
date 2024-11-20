@@ -1,3 +1,15 @@
+var AnimalsInfo ={
+   "usage" : "Animals",
+   "description" : "Description\nAverage brain and body weights for 28 species of land animals.",
+   "title" : "Brain and Body Weights for 28 Species",
+   "format" : "body\nbody weight in kg.\n\n\nbrain\nbrain weight in g.",
+   "reference" : "The name Animals avoided conflicts with a system dataset\nanimals in S-PLUS 4.5 and later.",
+   "parameters" : {
+      "body" : "body weight in kg.",
+      "brain" : "brain weight in g."
+   }
+}
+
 var Animals = [
    [
       "body",

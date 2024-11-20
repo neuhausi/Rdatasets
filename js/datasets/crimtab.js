@@ -1,3 +1,10 @@
+var crimtabInfo ={
+   "description" : "Description\nData of 3000 male criminals over 20 years old undergoing their\nsentences in the chief prisons of England and Wales.",
+   "title" : "Student's 3000 Criminals Data",
+   "format" : "A table object of  integer counts, of dimension\n42 \\times 22 with a total count, sum(crimtab) of\n3000.",
+   "usage" : "crimtab"
+}
+
 var crimtab = [
    [
       "Var1",

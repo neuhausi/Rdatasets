@@ -1,3 +1,17 @@
+var results_rawInfo ={
+   "description" : "Description\nThis data has one row per baker for every episode,\nincluding episodes they did not appear in.",
+   "usage" : "results_raw",
+   "parameters" : {
+      "series" : "A factor denoting UK series (1-10)",
+      "episode" : "A factor denoting episode number within a series",
+      "result" : "A factor denoting if the baker was \"IN\", \"OUT\",\n\"STAR BAKER\", or \"SICK\" for a given episode. For finale episodes,\nvalues are either \"WINNER\" or \"RUNNER-UP\". If NA, baker did not\nappear in episode.",
+      "baker" : "A character string giving given or nickname only (note: see\nbakers for full baker names)"
+   },
+   "title" : "Each baker's results by episode (raw)",
+   "format" : "A data frame with 1,136 rows representing individual bakers per\nepisode and 4 variables:",
+   "reference" : "See\nhttps://en.wikipedia.org/wiki/The_Great_British_Bake_Off_(series_1)#Results_summary,\nfor example, for series 1 results summary."
+}
+
 var results_raw = [
    [
       "series",

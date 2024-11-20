@@ -1,3 +1,20 @@
+var MelanomaInfo ={
+   "title" : "Survival from Malignant Melanoma",
+   "reference" : "P. K. Andersen, O. Borgan, R. D. Gill and N. Keiding (1993)\nStatistical Models based on Counting Processes.\nSpringer.",
+   "format" : "This data frame contains the following columns:",
+   "parameters" : {
+      "time" : "survival time in days, possibly censored.",
+      "age" : "age in years.",
+      "thickness" : "tumour thickness in mm.",
+      "sex" : "1 = male, 0 = female.",
+      "status" : "1 died from melanoma, 2 alive, 3 dead from\nother causes.",
+      "year" : "of operation.",
+      "ulcer" : "1 = presence, 0 = absence."
+   },
+   "usage" : "Melanoma",
+   "description" : "Description\nThe Melanoma data frame has data on 205 patients in Denmark\nwith malignant melanoma."
+}
+
 var Melanoma = [
    [
       "time",

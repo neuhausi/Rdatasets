@@ -1,3 +1,48 @@
+var bomregionsInfo ={
+   "parameters" : {
+      "Year" : "Year",
+      "ntAVt" : "temperature",
+      "waAVt" : "temperature",
+      "swRain" : "Southwest rainfall",
+      "southRain" : "Southern rainfall",
+      "co2law" : "Moana Loa CO2 concentrations, 1900 to 1978",
+      "vicRain" : "Victorian rainfall",
+      "ausAVt" : "Australian average temperature, area-weighted mean",
+      "seAVt" : "Southeastern region average temperature (degrees C)",
+      "mdbAVt" : "Murray-Darling basin temperature",
+      "southAVt" : "Southern temperature",
+      "ausRain" : "Australian average rainfall, area weighted",
+      "vicAVt" : "temperature",
+      "mdbRain" : "Murray-Darling basin rainfall",
+      "saAVt" : "temperature",
+      "eastAVt" : "Eastern temperature",
+      "qldAVt" : "temperature",
+      "northAVt" : "Northern temperature",
+      "saRain" : "South Australian rainfall",
+      "eastRain" : "Eastern rainfall",
+      "CO2" : "CO2 concentrations, composite series",
+      "SOI" : "Annual average Southern Oscillation Index",
+      "qldRain" : "Queensland rainfall",
+      "seRain" : "Southeast Australian annual rainfall (mm)",
+      "tasRain" : "Tasmanian rainfall",
+      "northRain" : "Northern rainfall",
+      "nswAVt" : "temperature",
+      "avDMI" : "Annual average Dipole Mode Index, for the Indian Ocean Dipole,\nfrom 1950",
+      "co2mlo" : "Moana Loa CO2 concentrations, from 1959",
+      "ntRain" : "Northern Territory rainfall",
+      "tasAVt" : "temperature",
+      "nswRain" : "NSW rainfall",
+      "swAVt" : "Southwestern temperature",
+      "waRain" : "West Australian rainfall",
+      "sunspot" : "Yearly mean sunspot number"
+   },
+   "format" : "These data frames contains the following columns:",
+   "title" : "Australian and Related Historical Annual Climate Data, by Region",
+   "reference" : "Australian Bureau of Meteorology web pages:",
+   "description" : "Description\nAustralian regional temperature data, Australian regional rainfall\ndata, and Annual SOI, are given for the years 1900-2021.  The regional\nrainfall and temperature data are area-weighted averages for the \nrespective regions.  The Southern Oscillation Index (SOI) is the \ndifference in barometric pressure at sea level between Tahiti and Darwin.",
+   "usage" : "data(\"bomregions2021\")"
+}
+
 var bomregions = [
    [
       "Year",

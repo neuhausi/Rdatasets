@@ -1,3 +1,9 @@
+var InsuranceVoteInfo ={
+   "usage" : "A dataset with 435 observations on the following 9 variables.",
+   "title" : "Congressional Votes on a Health Insurance Bill",
+   "description" : "Description\nCongressional votes on an ObamaCare health insurance bill in 2009"
+}
+
 var InsuranceVote = [
    [
       "Party",

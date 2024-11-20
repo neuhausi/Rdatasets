@@ -1,3 +1,16 @@
+var SolowInfo ={
+   "usage" : "data(Solow)",
+   "description" : "Description\nannual observations from 1909 to 1949\nnumber of observations :  41\nobservation :  country\ncountry :  United States",
+   "title" : "Solow's Technological Change Data",
+   "format" : "A time series containing :",
+   "reference" : "Solow, R. (1957) &ldquo;Technical change and the aggregate production function&rdquo;, Review of Economics and Statistics, 39, 312-320.",
+   "parameters" : {
+      "q" : "output",
+      "k" : "capital/labor ratio",
+      "A" : "index of technology"
+   }
+}
+
 var Solow = [
    [
       "q",

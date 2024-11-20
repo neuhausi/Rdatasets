@@ -1,24 +1,6 @@
 {
    "data" : {
       "y" : {
-         "vars" : [
-            "M",
-            "So",
-            "Ed",
-            "Po1",
-            "Po2",
-            "LF",
-            "M.F",
-            "Pop",
-            "NW",
-            "U1",
-            "U2",
-            "GDP",
-            "Ineq",
-            "Prob",
-            "Time",
-            "y"
-         ],
          "data" : [
             [
                151,
@@ -804,6 +786,24 @@
                508,
                849
             ]
+         ],
+         "vars" : [
+            "M",
+            "So",
+            "Ed",
+            "Po1",
+            "Po2",
+            "LF",
+            "M.F",
+            "Pop",
+            "NW",
+            "U1",
+            "U2",
+            "GDP",
+            "Ineq",
+            "Prob",
+            "Time",
+            "y"
          ],
          "smps" : [
             "Smp1",

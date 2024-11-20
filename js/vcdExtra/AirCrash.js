@@ -1,3 +1,18 @@
+var AirCrashInfo ={
+   "description" : "Description\nData on all fatal commercial airplane crashes from 1993&ndash;2015.\nExcludes small planes (less than 6 passengers) and non-commercial (cargo, military, private) aircraft.",
+   "usage" : "data(\"AirCrash\")",
+   "parameters" : {
+      "Fatalities" : "number of fatalities, a numeric vector",
+      "Year" : "year, a numeric vector",
+      "date" : "date of crash, a Date",
+      "Phase" : "phase of the flight, a factor with levels en route landing standing take-off unknown",
+      "Cause" : "a factor with levels criminal human error mechanical unknown weather"
+   },
+   "reference" : "Phase of the flight was cleaned by combining related variants, spelling, etc.",
+   "title" : "Air Crash Data",
+   "format" : "A data frame with 439 observations on the following 5 variables."
+}
+
 var AirCrash = [
    [
       "Phase",

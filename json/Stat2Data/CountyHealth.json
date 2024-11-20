@@ -1,5 +1,62 @@
 {
    "data" : {
+      "z" : {
+         "County" : [
+            "Bay, FL                             ",
+            "Beaufort, NC                        ",
+            "Beaver, PA                          ",
+            "Bernalillo, NM                      ",
+            "Bibb, GA                            ",
+            "Clinton, PA                         ",
+            "Comanche, TX                        ",
+            "Concordia, LA                       ",
+            "Contra Costa, CA                    ",
+            "Coos, NH                            ",
+            "Crawford, KS                        ",
+            "Creek, OK                           ",
+            "Dona Ana, NM                        ",
+            "Douglas, OR                         ",
+            "El Paso, TX                         ",
+            "Elmore, AL                          ",
+            "Escambia, FL                        ",
+            "Fairfield, CT                       ",
+            "Hamilton, OH                        ",
+            "Hawaii, HI                          ",
+            "Hennepin, MN                        ",
+            "Jefferson, PA                       ",
+            "Kenai Peninsula, AK                 ",
+            "Kennebec, ME                        ",
+            "Kent, MI                            ",
+            "Labette, KS                         ",
+            "Linn, IA                            ",
+            "Linn, OR                            ",
+            "Macon, NC                           ",
+            "Mercer, PA                          ",
+            "Mercer, WV                          ",
+            "Monmouth, NJ                        ",
+            "Montgomery, IL                      ",
+            "Montgomery, MS                      ",
+            "Nassau, NY                          ",
+            "New Haven, CT                       ",
+            "Norfolk, VA                         ",
+            "Okaloosa, FL                        ",
+            "Oneida, NY                          ",
+            "Ottawa, MI                          ",
+            "Passaic, NJ ",
+            "Pawnee, OK                          ",
+            "Pecos, TX                           ",
+            "Queens, NY                          ",
+            "Richland, SC                        ",
+            "Richmond, NC                        ",
+            "Sandusky, OH                        ",
+            "Sedgwick, KS                        ",
+            "Sheboygan, WI                       ",
+            "Walla Walla, WA                     ",
+            "Weber, UT                           ",
+            "Whiteside, IL                       ",
+            "Windham, CT                         "
+         ]
+      },
       "y" : {
          "vars" : [
             "Var1",
@@ -55,6 +112,11 @@
             "Var51",
             "Var52",
             "Var53"
+         ],
+         "smps" : [
+            "MDs",
+            "Hospitals",
+            "Beds"
          ],
          "data" : [
             [
@@ -322,76 +384,14 @@
                2,
                147
             ]
-         ],
-         "smps" : [
-            "MDs",
-            "Hospitals",
-            "Beds"
-         ]
-      },
-      "z" : {
-         "County" : [
-            "Bay, FL                             ",
-            "Beaufort, NC                        ",
-            "Beaver, PA                          ",
-            "Bernalillo, NM                      ",
-            "Bibb, GA                            ",
-            "Clinton, PA                         ",
-            "Comanche, TX                        ",
-            "Concordia, LA                       ",
-            "Contra Costa, CA                    ",
-            "Coos, NH                            ",
-            "Crawford, KS                        ",
-            "Creek, OK                           ",
-            "Dona Ana, NM                        ",
-            "Douglas, OR                         ",
-            "El Paso, TX                         ",
-            "Elmore, AL                          ",
-            "Escambia, FL                        ",
-            "Fairfield, CT                       ",
-            "Hamilton, OH                        ",
-            "Hawaii, HI                          ",
-            "Hennepin, MN                        ",
-            "Jefferson, PA                       ",
-            "Kenai Peninsula, AK                 ",
-            "Kennebec, ME                        ",
-            "Kent, MI                            ",
-            "Labette, KS                         ",
-            "Linn, IA                            ",
-            "Linn, OR                            ",
-            "Macon, NC                           ",
-            "Mercer, PA                          ",
-            "Mercer, WV                          ",
-            "Monmouth, NJ                        ",
-            "Montgomery, IL                      ",
-            "Montgomery, MS                      ",
-            "Nassau, NY                          ",
-            "New Haven, CT                       ",
-            "Norfolk, VA                         ",
-            "Okaloosa, FL                        ",
-            "Oneida, NY                          ",
-            "Ottawa, MI                          ",
-            "Passaic, NJ ",
-            "Pawnee, OK                          ",
-            "Pecos, TX                           ",
-            "Queens, NY                          ",
-            "Richland, SC                        ",
-            "Richmond, NC                        ",
-            "Sandusky, OH                        ",
-            "Sedgwick, KS                        ",
-            "Sheboygan, WI                       ",
-            "Walla Walla, WA                     ",
-            "Weber, UT                           ",
-            "Whiteside, IL                       ",
-            "Windham, CT                         "
          ]
       }
    },
    "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>CountyHealth</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>County Health Resources</h2>\n<h3>Description</h3>\n<p>Medical facilities and doctors in a sample of counties.\n</p>\n<h3>Format</h3>\n<p>A data frame with 53 observations on the following 4 variables.\n</p>\n<dl>\n<dt><code>County</code></dt><dd><p>County name, state</p>\n</dd>\n<dt><code>MDs</code></dt><dd><p>Number of medical doctors</p>\n</dd>\n<dt><code>Hospitals</code></dt><dd><p>Number of community hospitals</p>\n</dd>\n<dt><code>Beds</code></dt><dd><p>Number of beds in the hospitals</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>Data compiled from information provided by the American Medical Association on the availability of health care in counties in the United States. A random sample of 53 counties  was chosen from among counties with at least two community hospitals.\n</p>\n<h3>Source</h3>\n<p>Physicians&ndash;American Medical Association, Chicago, IL, Physician Characteristics and Distribution in the U.S., annual (copyright), accessed May 17, 2006. Community hospitals&ndash;Health Forum LLC, an American Hospital Association (AHA) Company, Chicago, IL, Hospital Statistics, and unpublished data (copyright), e-mail accessed May 4, 2006 (related Internet site http://www.healthforum.com).\n</p>\n<p>Other web sources: <br />\nhttp://www.ama-assn.org/\nhttp://www.healthforum.com/healthforum/html/data_statistics/data_statistics.html\nhttp://www.cms.hhs.gov http://www.ssa.gov\n</p>\n</main>\n</div>\n",
    "config" : {
       "graphType" : "Scatter3D",
-      "subtitle" : "Stat2Data - CountyHealth",
+      "colorBy" : "County",
       "title" : "County Health Resources",
-      "colorBy" : "County"
+      "subtitle" : "Stat2Data - CountyHealth"
    }
 }

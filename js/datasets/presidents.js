@@ -1,3 +1,10 @@
+var presidentsInfo ={
+   "description" : "Description\nThe (approximately) quarterly approval rating for the President of the\nUnited States from the first quarter of 1945 to the last quarter of\n1974.",
+   "title" : "Quarterly Approval Ratings of US Presidents",
+   "format" : "A time series of 120 values.",
+   "usage" : "presidents"
+}
+
 var presidents = [
    [
       "time",

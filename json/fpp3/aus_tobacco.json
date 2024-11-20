@@ -1,15 +1,15 @@
 {
    "config" : {
+      "groupingFactors" : [
+         "Quarter"
+      ],
+      "colorBy" : "variable",
       "graphType" : "Boxplot",
-      "subtitle" : "fpp3 - aus_tobacco",
       "segregateSamplesBy" : [
          "State"
       ],
-      "title" : "Australian cigarette and tobacco expenditure",
-      "colorBy" : "variable",
-      "groupingFactors" : [
-         "Quarter"
-      ]
+      "subtitle" : "fpp3 - aus_tobacco",
+      "title" : "Australian cigarette and tobacco expenditure"
    },
    "data" : {
       "y" : {
@@ -1247,6 +1247,9 @@
             "Smp1231",
             "Smp1232"
          ],
+         "vars" : [
+            "Expenditure"
+         ],
          "data" : [
             [
                0.294,
@@ -2482,9 +2485,6 @@
                0.504,
                0.49
             ]
-         ],
-         "vars" : [
-            "Expenditure"
          ]
       },
       "x" : {

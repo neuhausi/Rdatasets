@@ -1,3 +1,32 @@
+var pm25_2022_durhamInfo ={
+   "parameters" : {
+      "county_code" : "A numeric vector.",
+      "site_longitude" : "A numeric vector of the longitude.",
+      "daily_obs_count" : "A numeric vector.",
+      "aqs_site_id" : "The numeric site ID.",
+      "date" : "Date.",
+      "state" : "A character vector with value North Carolina.",
+      "cbsa_name" : "A character vector with value Durham-Chapel Hill, NC.",
+      "percent_complete" : "A numeric vector.",
+      "daily_aqi_value" : "A numeric vector with the daily air quality index.",
+      "aqs_parameter_code" : "A numeric vector.",
+      "poc" : "A numeric vector, the Parameter Occurance Code.",
+      "county" : "A character vector with value Durham.",
+      "aqs_parameter_desc" : "A factor vector with level PM2.5 - Local Conditions.",
+      "site_name" : "A character vector with value Durham Armory.",
+      "units" : "A character vector with value ug/m3 LC.",
+      "cbsa_code" : "A numeric vector.",
+      "state_code" : "A numeric vector.",
+      "site_latitude" : "A numeric vector of the latitude.",
+      "daily_mean_pm2_5_concentration" : "A numeric vector with the average daily concentration of fine particulates, or particulate matter 2.5."
+   },
+   "format" : "A data frame with 356 observations on the following 20 variables.",
+   "title" : "Air quality for Durham, NC",
+   "reference" : "US Environmental Protection Agency, AirData, 2022.\nhttp://www3.epa.gov/airdata/ad_data_daily.html",
+   "description" : "Description\nDaily air quality is measured by the air quality index (AQI) reported by the\nEnvironmental Protection Agency in 2022.",
+   "usage" : "pm25_2022_durham"
+}
+
 var pm25_2022_durham = [
    [
       "date",

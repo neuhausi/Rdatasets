@@ -1,3 +1,17 @@
+var EquipmentInfo ={
+   "format" : "A data frame containing 25 observations on 4 variables.",
+   "title" : "Transportation Equipment Manufacturing Data",
+   "reference" : "Journal of Applied Econometrics Data Archive.",
+   "parameters" : {
+      "labor" : "Aggregate labor input, in millions of man hours.",
+      "firms" : "Number of firms.",
+      "valueadded" : "Aggregate output, in millions of 1957 dollars.",
+      "capital" : "Capital input, in millions of 1957 dollars."
+   },
+   "usage" : "data(\"Equipment\")",
+   "description" : "Description\nStatewide data on transportation equipment manufacturing for 25 US states."
+}
+
 var Equipment = [
    [
       "valueadded",

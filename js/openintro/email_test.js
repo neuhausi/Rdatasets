@@ -1,3 +1,34 @@
+var email_testInfo ={
+   "parameters" : {
+      "line_breaks" : "The number of line breaks in the email (does not count text wrapping).",
+      "re_subj" : "Whether the subject started with &ldquo;Re:&rdquo;, &ldquo;RE:&rdquo;, &ldquo;re:&rdquo;, or &ldquo;rE:&rdquo;",
+      "cc" : "Number of people cc'ed.",
+      "winner" : "Indicates whether &ldquo;winner&rdquo; appeared in the email.",
+      "exclaim_subj" : "Whether there was an exclamation point in the subject.",
+      "attach" : "The number of attached files.",
+      "password" : "The number of times &ldquo;password&rdquo; appeared in the email.",
+      "format" : "Indicates whether the email was written using HTML (e.g. may have included bolding or active links).",
+      "to_multiple" : "Indicator for whether the email was addressed to more than one recipient.",
+      "time" : "Time at which email was sent.",
+      "viagra" : "The number of times &ldquo;viagra&rdquo; appeared in the email.",
+      "urgent_subj" : "Whether the word &ldquo;urgent&rdquo; was in the email subject.",
+      "exclaim_mess" : "The number of exclamation points in the email message.",
+      "image" : "The number of images attached.",
+      "sent_email" : "Indicator for whether the sender had been sent an email in the last 30 days.",
+      "number" : "Factor variable saying whether there was no number, a small number (under 1 million), or a big number.",
+      "from" : "Whether the message was listed as from anyone (this is usually set by default for regular outgoing email).",
+      "inherit" : "The number of times &ldquo;inherit&rdquo; (or an extension, such as &ldquo;inheritance&rdquo;) appeared in the email.",
+      "dollar" : "The number of times a dollar sign or the word &ldquo;dollar&rdquo; appeared in the email.",
+      "num_char" : "The number of characters in the email, in thousands.",
+      "spam" : "Indicator for whether the email was spam."
+   },
+   "reference" : "David Diez's Gmail Account, early months of 2012. All personally identifiable information has been removed.",
+   "format" : "A email (email_sent) data frame has 3921 (1252)\nobservations on the following 21 variables.",
+   "title" : "Data frame representing information about a collection of emails",
+   "description" : "Description\nThese data represent incoming emails for the first three months of 2012 for\nan email account (see Source).",
+   "usage" : "email"
+}
+
 var email_test = [
    [
       "spam",

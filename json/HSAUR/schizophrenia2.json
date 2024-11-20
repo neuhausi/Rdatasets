@@ -448,10 +448,6 @@
          ]
       },
       "y" : {
-         "smps" : [
-            "subject",
-            "month"
-         ],
          "data" : [
             [
                1,
@@ -1334,6 +1330,10 @@
                10
             ]
          ],
+         "smps" : [
+            "subject",
+            "month"
+         ],
          "vars" : [
             "1",
             "45",
@@ -1559,10 +1559,10 @@
       }
    },
    "config" : {
-      "title" : "Schizophrenia Data",
-      "colorBy" : "disorder",
+      "subtitle" : "HSAUR - schizophrenia2",
       "graphType" : "Scatter2D",
       "shapeBy" : "onset",
-      "subtitle" : "HSAUR - schizophrenia2"
+      "colorBy" : "disorder",
+      "title" : "Schizophrenia Data"
    }
 }

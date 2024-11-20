@@ -1,12 +1,17 @@
 {
    "config" : {
-      "title" : "Cracks caused by metal fatigue",
       "subtitle" : "nlme - Fatigue",
-      "graphType" : "Scatter3D"
+      "graphType" : "Scatter3D",
+      "title" : "Cracks caused by metal fatigue"
    },
    "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>Fatigue</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Cracks caused by metal fatigue</h2>\n<h3>Description</h3>\n<p>The <code>Fatigue</code> data frame has 262 rows and 3 columns.\n</p>\n<h3>Format</h3>\n<p>This data frame contains the following columns:\n</p>\n<dl>\n<dt>Path</dt><dd>\n<p>an ordered factor with levels\n<code>1</code> &lt; <code>2</code> &lt; <code>3</code> &lt; <code>4</code> &lt; <code>5</code> &lt;\n<code>6</code> &lt; <code>7</code> &lt; <code>8</code> &lt; <code>9</code> &lt; <code>10</code> &lt;\n<code>11</code> &lt; <code>12</code> &lt; <code>13</code> &lt; <code>14</code> &lt; <code>15</code> &lt;\n<code>16</code> &lt; <code>17</code> &lt; <code>18</code> &lt; <code>19</code> &lt; <code>20</code> &lt;\n<code>21</code> giving the test path (or test unit) number.  The\norder is in terms of increasing failure time or decreasing\nterminal crack length.\n</p>\n</dd>\n<dt>cycles</dt><dd>\n<p>number of test cycles at which the measurement is made\n(millions of cycles).\n</p>\n</dd>\n<dt>relLength</dt><dd>\n<p>relative crack length (dimensionless).\n</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>These data are given in Lu and Meeker (1993) where they state\n&ldquo;We obtained the data in Table 1 visually from figure 4.5.2 on page 242\nof Bogdanoff and Kozin (1985).&rdquo;\nThe data represent the growth of cracks in metal for 21 test units.\nAn initial notch of length 0.90 inches was made on each unit which then\nwas subjected to several thousand test cycles.  After every 10,000\ntest cycles the crack length was measured.  Testing was stopped if the\ncrack length exceeded 1.60 inches, defined as a failure, or at 120,000\ncycles.\n</p>\n<h3>Source</h3>\n<p>Lu, C. JosÃ©ph , and Meeker, William Q. (1993), Using degradation\nmeasures to estimate a time-to-failure distribution,\n<em>Technometrics</em>, <b>35</b>, 161-174 \n</p>\n</main>\n</div>\n",
    "data" : {
       "y" : {
+         "smps" : [
+            "Path",
+            "cycles",
+            "relLength"
+         ],
          "vars" : [
             "Var1",
             "Var2",
@@ -270,11 +275,6 @@
             "Var260",
             "Var261",
             "Var262"
-         ],
-         "smps" : [
-            "Path",
-            "cycles",
-            "relLength"
          ],
          "data" : [
             [

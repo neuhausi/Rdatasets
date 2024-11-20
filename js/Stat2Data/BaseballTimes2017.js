@@ -1,3 +1,19 @@
+var BaseballTimes2017Info ={
+   "usage" : "A data frame with 14 observations on the following 7 variables.",
+   "reference" : "Data from all MLB games played on August 11, 2017. There were no extra-innings game nor any rain delays.",
+   "title" : "Baseball Game Times of One Day in 2017",
+   "parameters" : {
+      "Pitchers" : "Number of pitchers used total for two teams",
+      "Attendance" : "Announced attendance",
+      "Margin" : "Winning margin",
+      "Game" : "MLB teams that played",
+      "League" : "AL=American League, IL=Interleague, or NL=National League",
+      "Runs" : "Runs scored by the two teams combined",
+      "Time" : "Time in minutes to play the game"
+   },
+   "description" : "Description\nTimes for one day's major league baseball games"
+}
+
 var BaseballTimes2017 = [
    [
       "Game",

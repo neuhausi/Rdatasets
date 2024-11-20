@@ -1,6 +1,28 @@
 {
    "data" : {
       "y" : {
+         "smps" : [
+            "Smp1",
+            "Smp2",
+            "Smp3",
+            "Smp4",
+            "Smp5",
+            "Smp6",
+            "Smp7",
+            "Smp8",
+            "Smp9",
+            "Smp10",
+            "Smp11",
+            "Smp12",
+            "Smp13",
+            "Smp14",
+            "Smp15",
+            "Smp16",
+            "Smp17",
+            "Smp18",
+            "Smp19",
+            "Smp20"
+         ],
          "vars" : [
             "Row"
          ],
@@ -27,28 +49,6 @@
                19,
                20
             ]
-         ],
-         "smps" : [
-            "Smp1",
-            "Smp2",
-            "Smp3",
-            "Smp4",
-            "Smp5",
-            "Smp6",
-            "Smp7",
-            "Smp8",
-            "Smp9",
-            "Smp10",
-            "Smp11",
-            "Smp12",
-            "Smp13",
-            "Smp14",
-            "Smp15",
-            "Smp16",
-            "Smp17",
-            "Smp18",
-            "Smp19",
-            "Smp20"
          ]
       },
       "x" : {
@@ -96,28 +96,6 @@
             "C0",
             "C0"
          ],
-         "Manag" : [
-            "SF",
-            "BF",
-            "SF",
-            "SF",
-            "HF",
-            "HF",
-            "HF",
-            "HF",
-            "HF",
-            "BF",
-            "BF",
-            "SF",
-            "SF",
-            "NM",
-            "NM",
-            "SF",
-            "NM",
-            "NM",
-            "NM",
-            "NM"
-         ],
          "Use" : [
             "U2",
             "U2",
@@ -139,19 +117,41 @@
             "U1",
             "U1",
             "U1"
+         ],
+         "Manag" : [
+            "SF",
+            "BF",
+            "SF",
+            "SF",
+            "HF",
+            "HF",
+            "HF",
+            "HF",
+            "HF",
+            "BF",
+            "BF",
+            "SF",
+            "SF",
+            "NM",
+            "NM",
+            "SF",
+            "NM",
+            "NM",
+            "NM",
+            "NM"
          ]
       }
    },
    "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>farms</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>\nEcological Factors in Farm Management\n</h2>\n<h3>Description</h3>\n<p>The <code>farms</code> data frame has 20 rows and 4 columns. The rows are farms\non the Dutch island of Terschelling and the columns are factors\ndescribing the management of grassland.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>farms\n</code></pre>\n<h3>Format</h3>\n<p>This data frame contains the following columns:\n</p>\n<dl>\n<dt><code>Mois</code></dt><dd>\n<p>Five levels of soil moisture &ndash; level 3 does not occur at these 20 farms.\n</p>\n</dd>\n<dt><code>Manag</code></dt><dd>\n<p>Grassland management type (<code>SF</code> = standard,\n<code>BF</code> = biological, <code>HF</code> = hobby farming,\n<code>NM</code> = nature conservation).\n</p>\n</dd>\n<dt><code>Use</code></dt><dd>\n<p>Grassland use (<code>U1</code> = hay production, <code>U2</code> =\nintermediate, <code>U3</code> = grazing).\n</p>\n</dd>\n<dt><code>Manure</code></dt><dd>\n<p>Manure usage &ndash; classes <code>C0</code> to <code>C4</code>.\n</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>J.C. Gower and D.J. Hand (1996) <em>Biplots</em>. Chapman &amp; Hall, Table 4.6.\n</p>\n<p>Quoted as from:<br />\nR.H.G. Jongman, C.J.F. ter Braak and O.F.R. van Tongeren (1987)\n<em>Data Analysis in Community and Landscape Ecology.</em>\nPUDOC, Wageningen.\n</p>\n<h3>References</h3>\n<p>Venables, W. N. and Ripley, B. D. (2002)\n<em>Modern Applied Statistics with S.</em> Fourth edition.  Springer.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>farms.mca &lt;- mca(farms, abbrev = TRUE)  # Use levels as names\neqscplot(farms.mca$cs, type = \"n\")\ntext(farms.mca$rs, cex = 0.7)\ntext(farms.mca$cs, labels = dimnames(farms.mca$cs)[[1]], cex = 0.7)\n</code></pre>\n</main>\n</div>\n",
    "config" : {
-      "graphType" : "Dotplot",
-      "subtitle" : "MASS - farms",
+      "title" : "Ecological Factors in Farm Management",
       "segregateSamplesBy" : [
          "Manure",
-         "Manag"
+         "Use"
       ],
-      "title" : "Ecological Factors in Farm Management",
-      "colorBy" : "Use",
+      "subtitle" : "MASS - farms",
+      "colorBy" : "Manag",
+      "graphType" : "Dotplot",
       "groupingFactors" : [
          "Mois"
       ]

@@ -1,3 +1,20 @@
+var SwissLaborInfo ={
+   "title" : "Swiss Labor Market Participation Data",
+   "format" : "A data frame containing 872 observations on 7 variables.",
+   "reference" : "Journal of Applied Econometrics Data Archive.",
+   "parameters" : {
+      "participation" : "Factor. Did the individual participate in the labor force?",
+      "income" : "Logarithm of nonlabor income.",
+      "age" : "Age in decades (years divided by 10).",
+      "education" : "Years of formal education.",
+      "foreign" : "Factor. Is the individual a foreigner (i.e., not Swiss)?",
+      "youngkids" : "Number of young children (under 7 years of age).",
+      "oldkids" : "Number of older children (over 7 years of age)."
+   },
+   "usage" : "data(\"SwissLabor\")",
+   "description" : "Description\nCross-section data originating from the health survey SOMIPOPS\nfor Switzerland in 1981."
+}
+
 var SwissLabor = [
    [
       "participation",

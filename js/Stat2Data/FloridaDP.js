@@ -1,3 +1,16 @@
+var FloridaDPInfo ={
+   "usage" : "A data frame with 326 observations on the following 4 variables.",
+   "reference" : "Mike Radelet's data on imposition of the death penalty for murderers in Florida broken down by race of the victim and defendant.",
+   "title" : "Florida Death Penalty Cases",
+   "parameters" : {
+      "Black.Victim" : "Was the victim black? (1=yes or 0=no)",
+      "White.Victim" : "Was the victim white? (1=yes or 0=no)",
+      "Defendant" : "Race of the defendant (Black or White)",
+      "Penalty" : "Was death penalty given? (No or Yes)"
+   },
+   "description" : "Description\nFlorida death penalty cases by race of defendant and victim"
+}
+
 var FloridaDP = [
    [
       "Penalty",

@@ -1,3 +1,15 @@
+var opportunity_costInfo ={
+   "title" : "Opportunity cost of purchases",
+   "format" : "A data frame with 150 observations on the following 2 variables.",
+   "reference" : "Frederick S, Novemsky N, Wang J, Dhar R, Nowlis S. 2009.\nOpportunity Cost Neglect. Journal of Consumer Research 36: 553-561.",
+   "parameters" : {
+      "decision" : "a factor with levels buy video and not buy video",
+      "group" : "a factor with levels control and treatment"
+   },
+   "usage" : "opportunity_cost",
+   "description" : "Description\nIn a study on opportunity cost, 150 students were given the following statement:\n\"Imagine that you have been saving some extra money on the side to make some\npurchases, and on your most recent visit to the video store you come across\na special sale on a new video. This video is one with your favorite actor or\nactress, and your favorite type of movie (such as a comedy, drama, thriller,\netc.). This particular video that you are considering is one you have been\nthinking about buying for a long time. It is available for a special sale\nprice of $14.99. What would you do in this situation? Please circle one of\nthe options below.\" Half of the students were given the following two options:\n(A) Buy this entertaining video. (B) Not buy this entertaining video. The\nother half were given the following two options (note the modified option B):\n(A) Buy this entertaining video. (B) Not buy this entertaining video.\nKeep the $14.99 for other purchases.\nThe results of this study are in this dataset."
+}
+
 var opportunity_cost = [
    [
       "group",

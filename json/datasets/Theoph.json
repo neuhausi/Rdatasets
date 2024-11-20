@@ -7,13 +7,6 @@
    },
    "data" : {
       "y" : {
-         "smps" : [
-            "Subject",
-            "Wt",
-            "Dose",
-            "Time",
-            "conc"
-         ],
          "data" : [
             [
                1,
@@ -939,6 +932,13 @@
                24.15,
                1.17
             ]
+         ],
+         "smps" : [
+            "Subject",
+            "Wt",
+            "Dose",
+            "Time",
+            "conc"
          ],
          "vars" : [
             "Var1",

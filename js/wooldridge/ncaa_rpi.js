@@ -1,3 +1,27 @@
+var ncaa_rpiInfo ={
+   "description" : "Description\nWooldridge Source: Data on NCAA menâs basketball teams, collected by Weizhao Sun for a senior seminar project in sports economics at Michigan State University, Spring 2017. He used various sources, including www.espn.com and www.teamrankings.com/ncaa-basketball/rpi-ranking/rpi-rating-by-team. Data loads lazily.",
+   "usage" : "data('ncaa_rpi')",
+   "parameters" : {
+      "postrpi_2" : " Post Rank 2 yrs ago",
+      "winperc" : " Winning Percentage",
+      "recruitrank" : " Recruits Rank",
+      "team" : " Name",
+      "year" : " Year",
+      "conference" : " Conference",
+      "losses" : " Number of games lost",
+      "tourney" : " Tournament dummy",
+      "coachexper" : " Coach Experience",
+      "wins" : " Number of games won",
+      "prerpi" : " Preseason Rank",
+      "postrpi_1" : " Post Rank 1 yr ago",
+      "postrpi" : " Post Rank",
+      "power5" : " PowerFive Dummy"
+   },
+   "reference" : "This is a nice example of how multiple regression analysis can be used to determine whether rankings compiled by experts â the so-called pre-season RPI in this case â provide additional information beyond what we can obtain from widely available data bases. A simple and interesting question is whether, once the previous yearâs post-season RPI is controlled for, does the pre-season RPI â which is supposed to add information on recruiting and player development â help to predict performance (such as win percentage or making it to the NCAA menâs basketball tournament). For the binary outcome that indicates making it to the NCAA tournament, a probit or logit model can be used for courses that introduce more advanced methods. There are some other interesting variables, such as coaching experience, that can be included, too.",
+   "format" : "A data.frame with 336 observations on 14 variables:",
+   "title" : "ncaa_rpi"
+}
+
 var ncaa_rpi = [
    [
       "team",

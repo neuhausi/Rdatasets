@@ -1,3 +1,17 @@
+var seleniumInfo ={
+   "usage" : "data(selenium)",
+   "description" : "Description\nComparison of toxicity of four types of selenium by means of dose-response analysis",
+   "format" : "A data frame with 25 observations on the following 4 variables.",
+   "title" : "Data from toxicology experiments with selenium",
+   "reference" : "The experiment is described in more details by Jeske et al. (2009).",
+   "parameters" : {
+      "total" : "a numeric vector containing the total number of flies",
+      "conc" : "a numeric vector of (total) selenium concentrations",
+      "type" : "a numeric vector indicating the form of selenium applied",
+      "dead" : "a numeric vector containing the number of dead flies"
+   }
+}
+
 var selenium = [
    [
       "type",

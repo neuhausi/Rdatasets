@@ -1,22 +1,11 @@
 {
    "config" : {
+      "title" : "Siegel's Exact Fit Example Data",
       "graphType" : "Scatter2D",
-      "subtitle" : "robustbase - SiegelsEx",
-      "title" : "Siegel's Exact Fit Example Data"
+      "subtitle" : "robustbase - SiegelsEx"
    },
    "data" : {
       "y" : {
-         "vars" : [
-            "Var1",
-            "Var2",
-            "Var3",
-            "Var4",
-            "Var5",
-            "Var6",
-            "Var7",
-            "Var8",
-            "Var9"
-         ],
          "data" : [
             [
                -4,
@@ -54,6 +43,17 @@
                12,
                1
             ]
+         ],
+         "vars" : [
+            "Var1",
+            "Var2",
+            "Var3",
+            "Var4",
+            "Var5",
+            "Var6",
+            "Var7",
+            "Var8",
+            "Var9"
          ],
          "smps" : [
             "x",

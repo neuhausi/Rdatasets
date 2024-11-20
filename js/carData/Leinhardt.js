@@ -1,3 +1,17 @@
+var LeinhardtInfo ={
+   "parameters" : {
+      "infant" : "Infant-mortality rate per 1000 live births.",
+      "oil" : "Oil-exporting country. \nA factor with levels:\nno, \nyes.",
+      "region" : "A factor with levels:\nAfrica; \nAmericas;\nAsia, Asia and Oceania;\nEurope.",
+      "income" : "Per-capita income in U. S. dollars."
+   },
+   "format" : "This data frame contains the following columns:",
+   "title" : "Data on Infant-Mortality",
+   "reference" : "The infant-mortality rate for Jamaica is misprinted in\nLeinhardt and Wasserman; the correct value is given here.\nSome of the values given in Leinhardt and Wasserman do not appear\nin the original New York Times table and are of dubious validity.",
+   "description" : "Description\nThe Leinhardt data frame has 105 rows and 4 columns.\nThe observations are nations of the world around 1970.",
+   "usage" : "Leinhardt"
+}
+
 var Leinhardt = [
    [
       "income",

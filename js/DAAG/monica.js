@@ -1,3 +1,25 @@
+var monicaInfo ={
+   "format" : "Columns are:",
+   "title" : "WHO Monica Data",
+   "reference" : "Newcastle (Australia) centre of the Monica\nproject; see the web site http://www.ktl.fi/monica",
+   "parameters" : {
+      "yronset" : "year of onset",
+      "hosp" : "y = hospitalized, n = not hospitalized",
+      "highbp" : "high blood pressure, a factor with levels\ny, n, nk not known",
+      "outcome" : "mortality outcome, a factor with levels live, \ndead",
+      "angina" : "a factor with levels y,\nn, nk not known",
+      "sex" : "m = male, f = female",
+      "hichol" : "high cholesterol, a factor with levels\ny, n nk not known",
+      "smstat" : "smoking status, a factor with levels c \ncurrent, x ex-smoker, n non-smoker, nk not known",
+      "stroke" : "a factor with levels\ny, n, nk not known",
+      "diabetes" : "a factor with levels y, n, nk not \nknown",
+      "age" : "age at onset",
+      "premi" : "previous myocardial infarction event, a \nfactor with levels y, n, nk not known"
+   },
+   "usage" : "data(monica)\n  data(mifem)",
+   "description" : "Description\nThe monica data frame has 6357 rows and 12 columns. The\ndataset mifem (1295 rows) is the subset that has data\nfor females."
+}
+
 var monica = [
    [
       "outcome",

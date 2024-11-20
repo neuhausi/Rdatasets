@@ -1,3 +1,25 @@
+var USMacroGInfo ={
+   "usage" : "data(\"USMacroG\")",
+   "description" : "Description\nTime series data on 12 US macroeconomic variables for 1950&ndash;2000.",
+   "reference" : "Online complements to Greene (2003). Table F5.1.",
+   "title" : "US Macroeconomic Data (1950&ndash;2000, Greene)",
+   "format" : "A quarterly multiple time series from 1950(1) to 2000(4) with 12 variables.",
+   "parameters" : {
+      "interest" : "Ex post real interest rate (essentially, tbill - inflation).",
+      "unemp" : "Unemployment rate,",
+      "invest" : "Real investment by private sector,",
+      "m1" : "Nominal money stock,",
+      "government" : "Real government expenditures,",
+      "cpi" : "Consumer price index,",
+      "population" : "Population (in million), interpolation of year end figures\nusing constant growth rate per quarter,",
+      "gdp" : "Real gross domestic product (in billion USD),",
+      "consumption" : "Real consumption expenditures,",
+      "inflation" : "Inflation rate,",
+      "tbill" : "Quarterly average of month end 90 day treasury bill rate,",
+      "dpi" : "Real disposable personal income,"
+   }
+}
+
 var USMacroG = [
    [
       "gdp",

@@ -1,12 +1,22 @@
 {
    "config" : {
-      "title" : "Responses to Treatment for Leukemia",
       "graphType" : "Heatmap",
+      "title" : "Responses to Treatment for Leukemia",
       "subtitle" : "Stat2Data - Leukemia"
    },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>Leukemia</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Responses to Treatment for Leukemia</h2>\n<h3>Description</h3>\n<p>Treatment results for leukemia patients\n</p>\n<h3>Format</h3>\n<p>A data frame with 51 observations on the following 9 variables.\n</p>\n<table>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Age</code> </td><td style=\"text-align: left;\"> Age at diagnosis (in years)</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Smear</code> </td><td style=\"text-align: left;\"> Differential percentage of blasts</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Infil</code> </td><td style=\"text-align: left;\"> Percentage of absolute marrow leukemia infiltrate</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Index</code> </td><td style=\"text-align: left;\"> Percentage labeling index of the bone marrow leukemia cells</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Blasts</code> </td><td style=\"text-align: left;\"> Absolute number of blasts, in thousands</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Temp</code> </td><td style=\"text-align: left;\"> Highest temperature of the patient prior to treatment, in degrees Fahrenheit</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Resp</code> </td><td style=\"text-align: left;\"> <code>1</code>=responded to treatment or <code>0</code>=failed to respond</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Time</code> </td><td style=\"text-align: left;\"> Survival time from diagnosis (in months)</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Status</code> </td><td style=\"text-align: left;\"> <code>0</code>=dead or <code>1</code>=alive</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n  </td>\n</tr>\n</table>\n<h3>Details</h3>\n<p>A study involved 51 untreated adult patients with acute myeloblastic\nleukemia who were given a course of treatment, after which they were assessed as to their\nresponse.\n</p>\n<h3>Source</h3>\n<p>Data come from Statistical Analysis Using S-Plus (Brian S. Everitt; first edition 1994, Chapman &amp; Hall).\n</p>\n</main>\n</div>\n",
    "data" : {
       "y" : {
+         "vars" : [
+            "Age",
+            "Smear",
+            "Infil",
+            "Index",
+            "Blasts",
+            "Temp",
+            "Resp",
+            "Time",
+            "Status"
+         ],
          "smps" : [
             "Smp1",
             "Smp2",
@@ -538,18 +548,8 @@
                0,
                0
             ]
-         ],
-         "vars" : [
-            "Age",
-            "Smear",
-            "Infil",
-            "Index",
-            "Blasts",
-            "Temp",
-            "Resp",
-            "Time",
-            "Status"
          ]
       }
-   }
+   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>Leukemia</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Responses to Treatment for Leukemia</h2>\n<h3>Description</h3>\n<p>Treatment results for leukemia patients\n</p>\n<h3>Format</h3>\n<p>A data frame with 51 observations on the following 9 variables.\n</p>\n<table>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Age</code> </td><td style=\"text-align: left;\"> Age at diagnosis (in years)</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Smear</code> </td><td style=\"text-align: left;\"> Differential percentage of blasts</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Infil</code> </td><td style=\"text-align: left;\"> Percentage of absolute marrow leukemia infiltrate</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Index</code> </td><td style=\"text-align: left;\"> Percentage labeling index of the bone marrow leukemia cells</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Blasts</code> </td><td style=\"text-align: left;\"> Absolute number of blasts, in thousands</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Temp</code> </td><td style=\"text-align: left;\"> Highest temperature of the patient prior to treatment, in degrees Fahrenheit</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Resp</code> </td><td style=\"text-align: left;\"> <code>1</code>=responded to treatment or <code>0</code>=failed to respond</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Time</code> </td><td style=\"text-align: left;\"> Survival time from diagnosis (in months)</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Status</code> </td><td style=\"text-align: left;\"> <code>0</code>=dead or <code>1</code>=alive</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n  </td>\n</tr>\n</table>\n<h3>Details</h3>\n<p>A study involved 51 untreated adult patients with acute myeloblastic\nleukemia who were given a course of treatment, after which they were assessed as to their\nresponse.\n</p>\n<h3>Source</h3>\n<p>Data come from Statistical Analysis Using S-Plus (Brian S. Everitt; first edition 1994, Chapman &amp; Hall).\n</p>\n</main>\n</div>\n"
 }

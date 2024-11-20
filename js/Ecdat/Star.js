@@ -1,3 +1,21 @@
+var StarInfo ={
+   "title" : "Effects on Learning of Small Class Sizes",
+   "format" : "A dataframe containing :",
+   "reference" : "Project STAR:",
+   "parameters" : {
+      "sex" : "a factor with levels (boy,girl)",
+      "classk" : "type of class, a factor with levels (regular,small.class,regular.with.aide)",
+      "treadssk" : "total reading scaled score",
+      "freelunk" : "qualified for free lunch ?",
+      "schidkn" : "school indicator variable",
+      "tmathssk" : "total math scaled score",
+      "race" : "a factor with levels (white,black,other)",
+      "totexpk" : "years of total teaching experience"
+   },
+   "usage" : "data(Star)",
+   "description" : "Description\na cross-section from 1985-89\nnumber of observations :  5748\nobservation :  individuals\ncountry :  United States"
+}
+
 var Star = [
    [
       "tmathssk",

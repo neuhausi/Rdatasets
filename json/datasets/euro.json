@@ -2,6 +2,19 @@
    "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>euro</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Conversion Rates of Euro Currencies</h2>\n<h3>Description</h3>\n<p>Conversion rates between the various Euro currencies.</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>euro\neuro.cross\n</code></pre>\n<h3>Format</h3>\n<p><code>euro</code> is a named vector of length 11, <code>euro.cross</code> a\nmatrix of size 11 by 11, with dimnames.\n</p>\n<h3>Details</h3>\n<p>The data set <code>euro</code> contains the value of 1 Euro in all\ncurrencies participating in the European monetary union (Austrian\nSchilling <abbr>ATS</abbr>, Belgian Franc <abbr>BEF</abbr>, German Mark\n<abbr>DEM</abbr>, Spanish Peseta <abbr>ESP</abbr>, Finnish Markka <abbr>FIM</abbr>,\nFrench Franc <abbr>FRF</abbr>, Irish Punt <abbr>IEP</abbr>, Italian Lira\n<abbr>ITL</abbr>, Luxembourg Franc <abbr>LUF</abbr>, Dutch Guilder <abbr>NLG</abbr> and\nPortuguese Escudo <abbr>PTE</abbr>).\nThese conversion rates were fixed by the European Union on\nDecember 31, 1998.  To convert old prices to Euro prices, divide by\nthe respective rate and round to 2 digits.\n</p>\n<p>The data set <code>euro.cross</code> contains conversion rates between the\nvarious Euro currencies, i.e., the result of\n<code>outer(1 / euro, euro)</code>.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>cbind(euro)\n## These relations hold:\neuro == signif(euro, 6) # [6 digit precision in Euro's definition]\nall(euro.cross == outer(1/euro, euro))\n## Convert 20 Euro to Belgian Franc\n20 * euro[\"BEF\"]\n## Convert 20 Austrian Schilling to Euro\n20 / euro[\"ATS\"]\n## Convert 20 Spanish Pesetas to Italian Lira\n20 * euro.cross[\"ESP\", \"ITL\"]\nrequire(graphics)\ndotchart(euro,\n         main = \"euro data: 1 Euro in currency unit\")\ndotchart(1/euro,\n         main = \"euro data: 1 currency unit in Euros\")\ndotchart(log(euro, 10),\n         main = \"euro data: log10(1 Euro in currency unit)\")\n</code></pre>\n</main>\n</div>\n",
    "data" : {
       "y" : {
+         "smps" : [
+            "ATS",
+            "BEF",
+            "DEM",
+            "ESP",
+            "FIM",
+            "FRF",
+            "IEP",
+            "ITL",
+            "LUF",
+            "NLG",
+            "PTE"
+         ],
          "vars" : [
             "dat"
          ],
@@ -19,29 +32,16 @@
                2.20371,
                200.482
             ]
-         ],
-         "smps" : [
-            "ATS",
-            "BEF",
-            "DEM",
-            "ESP",
-            "FIM",
-            "FRF",
-            "IEP",
-            "ITL",
-            "LUF",
-            "NLG",
-            "PTE"
          ]
       }
    },
    "config" : {
-      "subtitle" : "datasets - euro",
+      "title" : "Conversion Rates of Euro Currencies",
+      "colorBy" : "variable",
       "graphType" : "Boxplot",
+      "subtitle" : "datasets - euro",
       "groupingFactors" : [
          null
-      ],
-      "colorBy" : "variable",
-      "title" : "Conversion Rates of Euro Currencies"
+      ]
    }
 }

@@ -1,3 +1,16 @@
+var badhealthInfo ={
+   "parameters" : {
+      "age" : "age of patient: 20-60",
+      "badh" : "1=patient claims to be in bad health; 0=not in bad health",
+      "numvisit" : "number of visits to doctor during 1998"
+   },
+   "reference" : "badhealth is saved as a data frame.\nCount models use numvisit as the response variable, 0 counts are included.",
+   "title" : "badhealth",
+   "format" : "A data frame with 1,127 observations on the following 3 variables.",
+   "description" : "Description\nFrom German health survey data for the year 1998 only.",
+   "usage" : "data(badhealth)"
+}
+
 var badhealth = [
    [
       "numvisit",

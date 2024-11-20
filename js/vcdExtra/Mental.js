@@ -1,3 +1,16 @@
+var MentalInfo ={
+   "usage" : "data(Mental)",
+   "description" : "Description\nA 6 x 4 contingency table representing the cross-classification of\nmental health status (mental) of 1660 young New York residents by\ntheir parents' socioeconomic status (ses).",
+   "reference" : "Both ses and mental can be treated as ordered factors or\ninteger scores.  For ses, 1=\"High\" and 6=\"Low\".",
+   "format" : "A data frame frequency table with 24 observations on the following 3 variables.",
+   "title" : "Mental Impairment and Parents SES",
+   "parameters" : {
+      "mental" : "an ordered factor with levels Well < Mild < Moderate < Impaired",
+      "ses" : "an ordered factor with levels 1 < 2 < 3 < 4 < 5 < 6",
+      "Freq" : "cell frequency: a numeric vector"
+   }
+}
+
 var Mental = [
    [
       "ses",

@@ -1,3 +1,17 @@
+var etmotcInfo ={
+   "reference" : "Data stem from an experiment investigating the effect of pharmaceuticals,\nthat are used in human and veterinary medicine and that are being released into the aquatic environment through\nwaste water or through manure used for fertilising agricultural land. The experiment constitutes a typical\ndose-response situation. The dose is concentration of the antibiotic erythromycin (mg/l), which is an antibiotic\nthat can be used by persons or animals showing allergy to penicillin, and the measured response is the relative\ngrowth rate in biomass of mixed sewage microorganisms (per hour), measured as turbidity two hours after exposure\nby means of a spectrophotometer. The experiment was designed in such a way that eight replicates were assigned\nto the control (dose 0), but no replicates were assigned to the 7 non-zero doses. Further details are found in\nChristensen et al (2006).",
+   "format" : "A data frame with 57 observations on the following 4 variables.",
+   "title" : "Effect of erythromycin on mixed sewage microorganisms",
+   "parameters" : {
+      "pct1" : "a numeric vector",
+      "dose1" : "a numeric vector",
+      "rgr1" : "a numeric vector",
+      "cell" : "a numeric vector"
+   },
+   "usage" : "data(etmotc)",
+   "description" : "Description\nRelative growth rate in biomass of mixed sewage microorganisms (per hour) as a function of\nincreasing concentrations of the antibiotic erythromycin (mg/l)."
+}
+
 var etmotc = [
    [
       "cell",

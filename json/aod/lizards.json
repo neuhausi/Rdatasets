@@ -1,6 +1,143 @@
 {
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>lizards</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>A Comparison of Site Preferences of Two Species of Lizard</h2>\n<h3>Description</h3>\n<p>&ldquo;These data describe the daytime habits of two species of lizards, <em>grahami</em> and <em>opalinus</em>. \nThey were collected by observing occupied sites or perches and recording the appropriate description, namely \nspecies involved, time of the day, height and diameter of the perch and whether the site was sunny or shaded. \nTime of the day is recorded as early, mid-day or late.&rdquo; (McCullagh and Nelder, 1989, p.129).\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(lizards)</code></pre>\n<h3>Format</h3>\n<p>A data frame with 24 observations on the following 6 variables.\n</p>\n<dl>\n<dt>Site</dt><dd><p>A factor with levels <code>Sun</code> and <code>Shade</code>.</p>\n</dd>\n<dt>Diameter</dt><dd><p>A factor with levels <code>D &lt;= 2</code> and <code>D &gt; 2</code> (inches). </p>\n</dd>\n<dt>Height</dt><dd><p>A factor with levels <code>H &lt; 5</code> and <code>H &gt;= 5</code> (feet).</p>\n</dd>\n<dt>Time</dt><dd><p>A factor with levels <code>Early</code>, <code>Mid-day</code> and <code>Late</code>.</p>\n</dd>\n<dt>grahami</dt><dd><p>A numeric vector giving the observed sample size for <em>grahami</em> lizards.</p>\n</dd>\n<dt>opalinus</dt><dd><p>A numeric vector giving the observed sample size for <em>opalinus</em> lizards.</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>The data were originally published in Fienberg (1970).</p>\n<h3>Source</h3>\n<p>McCullagh, P., Nelder, J.A., 1989. <em>Generalized linear models</em>. London, Chapman &amp; Hall, 511 p.</p>\n<h3>References</h3>\n<p>Fienberg, S.E., 1970. <em>The analysis of multidimensional contingency tables</em>. Ecology 51: 419-433.</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>data(lizards)</code></pre>\n</main>\n</div>\n",
+   "config" : {
+      "subtitle" : "aod - lizards",
+      "title" : "A Comparison of Site Preferences of Two Species of Lizard",
+      "sizeBy" : "Diameter",
+      "graphType" : "Scatter2D",
+      "shapeBy" : "Time",
+      "colorBy" : "Height"
+   },
    "data" : {
+      "y" : {
+         "vars" : [
+            "Var1",
+            "Var2",
+            "Var3",
+            "Var4",
+            "Var5",
+            "Var6",
+            "Var7",
+            "Var8",
+            "Var9",
+            "Var10",
+            "Var11",
+            "Var12",
+            "Var13",
+            "Var14",
+            "Var15",
+            "Var16",
+            "Var17",
+            "Var18",
+            "Var19",
+            "Var20",
+            "Var21",
+            "Var22",
+            "Var23",
+            "Var24"
+         ],
+         "smps" : [
+            "grahami",
+            "opalinus"
+         ],
+         "data" : [
+            [
+               20,
+               2
+            ],
+            [
+               8,
+               1
+            ],
+            [
+               4,
+               4
+            ],
+            [
+               13,
+               0
+            ],
+            [
+               8,
+               0
+            ],
+            [
+               12,
+               0
+            ],
+            [
+               8,
+               3
+            ],
+            [
+               4,
+               1
+            ],
+            [
+               5,
+               3
+            ],
+            [
+               6,
+               0
+            ],
+            [
+               0,
+               0
+            ],
+            [
+               1,
+               1
+            ],
+            [
+               34,
+               11
+            ],
+            [
+               69,
+               20
+            ],
+            [
+               18,
+               10
+            ],
+            [
+               31,
+               5
+            ],
+            [
+               55,
+               4
+            ],
+            [
+               13,
+               3
+            ],
+            [
+               17,
+               15
+            ],
+            [
+               60,
+               32
+            ],
+            [
+               8,
+               8
+            ],
+            [
+               12,
+               1
+            ],
+            [
+               21,
+               5
+            ],
+            [
+               4,
+               4
+            ]
+         ]
+      },
       "z" : {
          "Height" : [
             "H < 5",
@@ -106,144 +243,7 @@
             "Shade",
             "Shade"
          ]
-      },
-      "y" : {
-         "data" : [
-            [
-               20,
-               2
-            ],
-            [
-               8,
-               1
-            ],
-            [
-               4,
-               4
-            ],
-            [
-               13,
-               0
-            ],
-            [
-               8,
-               0
-            ],
-            [
-               12,
-               0
-            ],
-            [
-               8,
-               3
-            ],
-            [
-               4,
-               1
-            ],
-            [
-               5,
-               3
-            ],
-            [
-               6,
-               0
-            ],
-            [
-               0,
-               0
-            ],
-            [
-               1,
-               1
-            ],
-            [
-               34,
-               11
-            ],
-            [
-               69,
-               20
-            ],
-            [
-               18,
-               10
-            ],
-            [
-               31,
-               5
-            ],
-            [
-               55,
-               4
-            ],
-            [
-               13,
-               3
-            ],
-            [
-               17,
-               15
-            ],
-            [
-               60,
-               32
-            ],
-            [
-               8,
-               8
-            ],
-            [
-               12,
-               1
-            ],
-            [
-               21,
-               5
-            ],
-            [
-               4,
-               4
-            ]
-         ],
-         "smps" : [
-            "grahami",
-            "opalinus"
-         ],
-         "vars" : [
-            "Var1",
-            "Var2",
-            "Var3",
-            "Var4",
-            "Var5",
-            "Var6",
-            "Var7",
-            "Var8",
-            "Var9",
-            "Var10",
-            "Var11",
-            "Var12",
-            "Var13",
-            "Var14",
-            "Var15",
-            "Var16",
-            "Var17",
-            "Var18",
-            "Var19",
-            "Var20",
-            "Var21",
-            "Var22",
-            "Var23",
-            "Var24"
-         ]
       }
    },
-   "config" : {
-      "shapeBy" : "Time",
-      "sizeBy" : "Diameter",
-      "colorBy" : "Height",
-      "title" : "A Comparison of Site Preferences of Two Species of Lizard",
-      "subtitle" : "aod - lizards",
-      "graphType" : "Scatter2D"
-   }
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>lizards</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>A Comparison of Site Preferences of Two Species of Lizard</h2>\n<h3>Description</h3>\n<p>&ldquo;These data describe the daytime habits of two species of lizards, <em>grahami</em> and <em>opalinus</em>. \nThey were collected by observing occupied sites or perches and recording the appropriate description, namely \nspecies involved, time of the day, height and diameter of the perch and whether the site was sunny or shaded. \nTime of the day is recorded as early, mid-day or late.&rdquo; (McCullagh and Nelder, 1989, p.129).\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(lizards)</code></pre>\n<h3>Format</h3>\n<p>A data frame with 24 observations on the following 6 variables.\n</p>\n<dl>\n<dt>Site</dt><dd><p>A factor with levels <code>Sun</code> and <code>Shade</code>.</p>\n</dd>\n<dt>Diameter</dt><dd><p>A factor with levels <code>D &lt;= 2</code> and <code>D &gt; 2</code> (inches). </p>\n</dd>\n<dt>Height</dt><dd><p>A factor with levels <code>H &lt; 5</code> and <code>H &gt;= 5</code> (feet).</p>\n</dd>\n<dt>Time</dt><dd><p>A factor with levels <code>Early</code>, <code>Mid-day</code> and <code>Late</code>.</p>\n</dd>\n<dt>grahami</dt><dd><p>A numeric vector giving the observed sample size for <em>grahami</em> lizards.</p>\n</dd>\n<dt>opalinus</dt><dd><p>A numeric vector giving the observed sample size for <em>opalinus</em> lizards.</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>The data were originally published in Fienberg (1970).</p>\n<h3>Source</h3>\n<p>McCullagh, P., Nelder, J.A., 1989. <em>Generalized linear models</em>. London, Chapman &amp; Hall, 511 p.</p>\n<h3>References</h3>\n<p>Fienberg, S.E., 1970. <em>The analysis of multidimensional contingency tables</em>. Ecology 51: 419-433.</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>data(lizards)</code></pre>\n</main>\n</div>\n"
 }

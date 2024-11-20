@@ -1,3 +1,10 @@
+var aus_inboundInfo ={
+   "description" : "Description\naus_inbound contains monthly data with one measured variable:\nCount:  Number of individuals arriving in Australia",
+   "title" : "Monthly short term (<1 year) visitor arrivals to Australia",
+   "format" : "Each series is uniquely identified using two keys:",
+   "usage" : "Time series of class 'tsibble'"
+}
+
 var aus_inbound = [
    [
       "Month",

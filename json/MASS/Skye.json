@@ -1,37 +1,7 @@
 {
-   "config" : {
-      "graphType" : "Scatter3D",
-      "subtitle" : "MASS - Skye",
-      "title" : "AFM Compositions of Aphyric Skye Lavas"
-   },
    "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>Skye</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>\nAFM Compositions of Aphyric Skye Lavas\n</h2>\n<h3>Description</h3>\n<p>The <code>Skye</code> data frame has 23 rows and 3 columns.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>Skye\n</code></pre>\n<h3>Format</h3>\n<p>This data frame contains the following columns:\n</p>\n<dl>\n<dt><code>A</code></dt><dd>\n<p>Percentage of sodium and potassium oxides.\n</p>\n</dd>\n<dt><code>F</code></dt><dd>\n<p>Percentage of iron oxide.\n</p>\n</dd>\n<dt><code>M</code></dt><dd>\n<p>Percentage of magnesium oxide.\n</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>R. N. Thompson, J. Esson and A. C. Duncan (1972)\nMajor element chemical variation in the Eocene lavas of the Isle of\nSkye. <em>J. Petrology</em>, <b>13</b>, 219&ndash;253.\n</p>\n<h3>References</h3>\n<p>J. Aitchison (1986)\n<em>The Statistical Analysis of Compositional Data.</em>\nChapman and Hall, p.360.\n</p>\n<p>Venables, W. N. and Ripley, B. D. (2002)\n<em>Modern Applied Statistics with S.</em> Fourth edition.  Springer.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'># ternary() is from the on-line answers.\nternary &lt;- function(X, pch = par(\"pch\"), lcex = 1,\n                    add = FALSE, ord = 1:3, ...)\n  X &lt;- as.matrix(X)\n  if(any(X &lt; 0)) stop(\"X must be non-negative\")\n  s &lt;- drop(X %*% rep(1, ncol(X)))\n  if(any(s&lt;=0)) stop(\"each row of X must have a positive sum\")\n  if(max(abs(s-1)) &gt; 1e-6) {\n    warning(\"row(s) of X will be rescaled\")\n    X &lt;- X / s\n  X &lt;- X[, ord]\n  s3 &lt;- sqrt(1/3)\n  if(!add)\n    oldpty &lt;- par(\"pty\")\n    on.exit(par(pty=oldpty))\n    par(pty=\"s\")\n    plot(c(-s3, s3), c(0.5-s3, 0.5+s3), type=\"n\", axes=FALSE,\n         xlab=\"\", ylab=\"\")\n    polygon(c(0, -s3, s3), c(1, 0, 0), density=0)\n    lab &lt;- NULL\n    if(!is.null(dn &lt;- dimnames(X))) lab &lt;- dn[[2]]\n    if(length(lab) &lt; 3) lab &lt;- as.character(1:3)\n    eps &lt;- 0.05 * lcex\n    text(c(0, s3+eps*0.7, -s3-eps*0.7),\n         c(1+eps, -0.1*eps, -0.1*eps), lab, cex=lcex)\n  points((X[,2] - X[,3])*s3, X[,1], ...)\nternary(Skye/100, ord=c(1,3,2))\n</code></pre>\n</main>\n</div>\n",
    "data" : {
       "y" : {
-         "vars" : [
-            "Var1",
-            "Var2",
-            "Var3",
-            "Var4",
-            "Var5",
-            "Var6",
-            "Var7",
-            "Var8",
-            "Var9",
-            "Var10",
-            "Var11",
-            "Var12",
-            "Var13",
-            "Var14",
-            "Var15",
-            "Var16",
-            "Var17",
-            "Var18",
-            "Var19",
-            "Var20",
-            "Var21",
-            "Var22",
-            "Var23"
-         ],
          "data" : [
             [
                52,
@@ -149,11 +119,41 @@
                20
             ]
          ],
+         "vars" : [
+            "Var1",
+            "Var2",
+            "Var3",
+            "Var4",
+            "Var5",
+            "Var6",
+            "Var7",
+            "Var8",
+            "Var9",
+            "Var10",
+            "Var11",
+            "Var12",
+            "Var13",
+            "Var14",
+            "Var15",
+            "Var16",
+            "Var17",
+            "Var18",
+            "Var19",
+            "Var20",
+            "Var21",
+            "Var22",
+            "Var23"
+         ],
          "smps" : [
             "A",
             "F",
             "M"
          ]
       }
+   },
+   "config" : {
+      "subtitle" : "MASS - Skye",
+      "graphType" : "Scatter3D",
+      "title" : "AFM Compositions of Aphyric Skye Lavas"
    }
 }

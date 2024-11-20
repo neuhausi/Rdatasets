@@ -1,3 +1,16 @@
+var stem_cellInfo ={
+   "reference" : "doi:10.1016/S0140-6736(05)67380-1",
+   "title" : "Embryonic stem cells to treat heart attack (in sheep)",
+   "format" : "A data frame with 18 observations on the following 3 variables.",
+   "parameters" : {
+      "trmt" : "a factor with levels ctrl esc",
+      "before" : "a numeric vector",
+      "after" : "a numeric vector"
+   },
+   "usage" : "stem_cell",
+   "description" : "Description\nDoes treatment using embryonic stem cells (ESCs) help improve heart function\nfollowing a heart attack? Each sheep in the study was randomly assigned to\nthe ESC or control group, and the change in their hearts' pumping capacity\nwas measured in the study. A positive value corresponds to increased pumping\ncapacity, which generally suggests a stronger recovery."
+}
+
 var stem_cell = [
    [
       "trmt",

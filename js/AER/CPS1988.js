@@ -1,3 +1,20 @@
+var CPS1988Info ={
+   "usage" : "data(\"CPS1988\")",
+   "description" : "Description\nCross-section data originating from the March 1988 Current Population Survey by the \nUS Census Bureau.",
+   "title" : "Determinants of Wages Data (CPS 1988)",
+   "format" : "A data frame containing 28,155 observations on 7 variables.",
+   "reference" : "A sample of men aged 18 to 70 with positive annual income greater than USD 50 in 1992, \nwho are not self-employed nor working without pay. Wages are deflated by the deflator of \nPersonal Consumption Expenditure for 1992.",
+   "parameters" : {
+      "experience" : "Number of years of potential work experience.",
+      "education" : "Number of years of education.",
+      "wage" : "Wage (in dollars per week).",
+      "parttime" : "Factor. Does the individual work part-time?",
+      "smsa" : "Factor. Does the individual reside in a Standard Metropolitan Statistical Area (SMSA)?",
+      "ethnicity" : "Factor with levels \"cauc\" and \"afam\" (African-American).",
+      "region" : "Factor with levels \"northeast\", \"midwest\", \"south\", \"west\"."
+   }
+}
+
 var CPS1988 = [
    [
       "wage",

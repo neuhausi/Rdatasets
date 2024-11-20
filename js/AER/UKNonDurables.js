@@ -1,3 +1,10 @@
+var UKNonDurablesInfo ={
+   "description" : "Description\nTime series of consumption of non-durables in the UK (in 1985 prices).",
+   "format" : "A quarterly univariate time series from 1955(1) to 1988(4).",
+   "title" : "Consumption of Non-Durables in the UK",
+   "usage" : "data(\"UKNonDurables\")"
+}
+
 var UKNonDurables = [
    [
       "time",

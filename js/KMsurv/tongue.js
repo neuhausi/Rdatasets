@@ -1,3 +1,15 @@
+var tongueInfo ={
+   "parameters" : {
+      "time" : "Time to death or on-study time, weeks",
+      "delta" : "Death indicator (0=alive, 1=dead)",
+      "type" : "Tumor DNA profile (1=Aneuploid Tumor, 2=Diploid Tumor)"
+   },
+   "description" : "Description\nThe tongue data frame has 80 rows and 3 columns.",
+   "title" : "data from Section 1.11",
+   "reference" : "Klein and Moeschberger (1997) Survival Analysis Techniques for Censored\nand truncated data, Springer.\nSickle-Santanello et al. Cytometry 9 (1988): 594-599.",
+   "usage" : "This data frame contains the following columns:"
+}
+
 var tongue = [
    [
       "type",

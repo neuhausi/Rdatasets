@@ -1,3 +1,16 @@
+var OrthodontInfo ={
+   "description" : "Description\nThe Orthodont data frame has 108 rows and 4 columns of the\nchange in an orthdontic measurement over time for several young subjects.",
+   "parameters" : {
+      "age" : "a numeric vector of ages of the subject (yr).",
+      "Sex" : "a factor with levels\nMale and\nFemale",
+      "distance" : "a numeric vector of distances from the pituitary to the\npterygomaxillary fissure (mm).  These distances are measured\non x-ray images of the skull.",
+      "Subject" : "an ordered factor indicating the subject on which the\nmeasurement was made.  The levels are labelled M01\nto M16 for the males and F01 to F13 for\nthe females.  The ordering is by increasing average distance\nwithin sex."
+   },
+   "usage" : "This data frame contains the following columns:",
+   "title" : "Growth curve data on an orthdontic measurement",
+   "reference" : "Investigators at the University of North Carolina Dental School\nfollowed the growth of 27 children (16 males, 11 females) from age 8\nuntil age 14.  Every two years they measured the distance between the\npituitary and the pterygomaxillary fissure, two points that are easily\nidentified on x-ray exposures of the side of the head."
+}
+
 var Orthodont = [
    [
       "distance",

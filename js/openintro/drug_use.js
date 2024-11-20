@@ -1,3 +1,15 @@
+var drug_useInfo ={
+   "usage" : "drug_use",
+   "description" : "Description\nSummary of 445 student-parent pairs.",
+   "format" : "A data frame with 445 observations on the following 2 variables.",
+   "title" : "Drug use of students and parents",
+   "reference" : "Ellis GJ and Stone LH. 1979. Marijuana Use in College: An\nEvaluation of a Modeling Explanation. Youth and Society 10:323-334.",
+   "parameters" : {
+      "student" : "a factor with levels not uses",
+      "parents" : "a factor with levels not used"
+   }
+}
+
 var drug_use = [
    [
       "student",

@@ -1,3 +1,15 @@
+var melanomaInfo ={
+   "parameters" : {
+      "year" : "Years 1936 to 1972.",
+      "incidence" : "Rate of melanoma cancer per 100,000 population."
+   },
+   "format" : "A data frame with 37 observations on the following 2 variables.",
+   "title" : "Melanoma skin cancer incidence",
+   "reference" : "This dataset is not related to the melanoma\ndataset in the boot package with the same name.",
+   "description" : "Description\nThese data from the Connecticut Tumor Registry present\nage-adjusted numbers of melanoma skin-cancer incidences per\n100,000 people in Connectict for the years from 1936 to 1972.",
+   "usage" : "melanoma"
+}
+
 var melanoma = [
    [
       "year",

@@ -1,3 +1,9 @@
+var FinalFourIzzoInfo ={
+   "description" : "Description\nNCAA Final Four by seed with indicator for Tom Izzo's teams from 1985 - 2010.",
+   "usage" : "A dataset with 1664 observations on the following 4 variables.",
+   "title" : "NCAA Final Four by Seed and Tom Izzo (through 2010)"
+}
+
 var FinalFourIzzo = [
    [
       "Year",

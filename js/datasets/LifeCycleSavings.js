@@ -1,3 +1,10 @@
+var LifeCycleSavingsInfo ={
+   "usage" : "LifeCycleSavings",
+   "title" : "Intercountry Life-Cycle Savings Data",
+   "format" : "A data frame with 50 observations on 5 variables.",
+   "description" : "Description\nData on the savings ratio 1960&ndash;1970."
+}
+
 var LifeCycleSavings = [
    [
       "sr",

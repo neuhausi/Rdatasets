@@ -1,3 +1,40 @@
+var Cars93Info ={
+   "title" : "Data from 93 Cars on Sale in the USA in 1993",
+   "format" : "This data frame contains the following columns:",
+   "reference" : "Cars were selected at random from among 1993 passenger car models that\nwere listed in both the Consumer Reports issue and the\nPACE Buying Guide.  Pickup trucks and Sport/Utility vehicles were\neliminated due to incomplete information in the Consumer Reports\nsource.  Duplicate models (e.g., Dodge Shadow and Plymouth Sundance)\nwere listed at most once.",
+   "parameters" : {
+      "Max.Price" : "Maximum Price (in $1,000): price for &ldquo;a premium version&rdquo;.",
+      "Luggage.room" : "Luggage capacity (cubic feet) (missing for vans).",
+      "RPM" : "RPM (revs per minute at maximum horsepower).",
+      "Rev.per.mile" : "Engine revolutions per mile (in highest gear).",
+      "Length" : "Length (inches).",
+      "Cylinders" : "Number of cylinders (missing for Mazda RX-7, which has a rotary engine).",
+      "Width" : "Width (inches).",
+      "Price" : "Midrange Price (in $1,000): average of Min.Price and\nMax.Price.",
+      "Min.Price" : "Minimum Price (in $1,000): price for a basic version.",
+      "Type" : "Type: a factor with levels \"Small\", \"Sporty\",\n\"Compact\", \"Midsize\", \"Large\" and \"Van\".",
+      "Origin" : "Of non-USA or USA company origins? (factor).",
+      "Weight" : "Weight (pounds).",
+      "Man.trans.avail" : "Is a manual transmission version available? (yes or no, Factor).",
+      "DriveTrain" : "Drive train type: rear wheel, front wheel or 4WD; (factor).",
+      "AirBags" : "Air Bags standard. Factor: none, driver only, or driver & passenger.",
+      "Passengers" : "Passenger capacity (persons)",
+      "Fuel.tank.capacity" : "Fuel tank capacity (US gallons).",
+      "Turn.circle" : "U-turn space (feet).",
+      "Manufacturer" : "Manufacturer.",
+      "Rear.seat.room" : "Rear seat room (inches) (missing for 2-seater vehicles).",
+      "MPG.city" : "City MPG (miles per US gallon by EPA rating).",
+      "EngineSize" : "Engine size (litres).",
+      "Wheelbase" : "Wheelbase (inches).",
+      "Horsepower" : "Horsepower (maximum).",
+      "Model" : "Model.",
+      "MPG.highway" : "Highway MPG.",
+      "Make" : "Combination of Manufacturer and Model (character)."
+   },
+   "usage" : "Cars93",
+   "description" : "Description\nThe Cars93 data frame has 93 rows and 27 columns."
+}
+
 var Cars93 = [
    [
       "Manufacturer",

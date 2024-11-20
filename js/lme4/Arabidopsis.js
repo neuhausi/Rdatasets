@@ -1,3 +1,21 @@
+var ArabidopsisInfo ={
+   "description" : "Description\nData on genetic variation in responses to fertilization\nand simulated herbivory in Arabidopsis",
+   "usage" : "data(\"Arabidopsis\")",
+   "parameters" : {
+      "gen" : "genotype: a factor with 24 (numeric-valued) levels",
+      "amd" : "simulated herbivory or \"clipping\" (apical meristem\ndamage): unclipped (baseline) or clipped",
+      "rack" : "a nuisance factor with 2 levels, one for\neach of two greenhouse racks",
+      "nutrient" : "fertilization treatment/nutrient level (1,\nminimal nutrients or 8, added nutrients)",
+      "reg" : "region: a factor with 3 levels NL\n(Netherlands), SP (Spain), SW (Sweden)",
+      "popu" : "population: a factor with the form n.R\nrepresenting a population in region R",
+      "total.fruits" : "total fruit set per plant (integer)",
+      "status" : "a nuisance factor for germination method\n(Normal, Petri.Plate, or Transplant)"
+   },
+   "format" : "A data frame with 625 observations on the following 8 variables.",
+   "title" : "Arabidopsis clipping/fertilization data",
+   "reference" : "From Josh Banta"
+}
+
 var Arabidopsis = [
    [
       "reg",

@@ -1,3 +1,29 @@
+var MASchoolsInfo ={
+   "title" : "Massachusetts Test Score Data",
+   "reference" : "The Massachusetts data are district-wide averages for \npublic elementary school districts in 1998. The test score is taken \nfrom the Massachusetts Comprehensive Assessment System (MCAS) test, \nadministered to all fourth graders in Massachusetts public schools \nin the spring of 1998. The test is sponsored by the Massachusetts \nDepartment of Education and is mandatory for all public schools.  \nThe data analyzed here are the overall total score, which is the sum \nof the scores on the English, Math, and Science portions of the \ntest. Data on the student-teacher ratio, the percent of students \nreceiving a subsidized lunch and on the percent of students still \nlearning english are averages for each elementary school district \nfor the 1997&ndash;1998 school year and were obtained from the \nMassachusetts department of education. Data on average district \nincome are from the 1990 US Census.",
+   "format" : "A data frame containing 220 observations on 16 variables.",
+   "parameters" : {
+      "expbil" : "Expenditures per pupil, bilingual.",
+      "exptot" : "Expenditures per pupil, total.",
+      "expreg" : "Expenditures per pupil, regular.",
+      "expspecial" : "Expenditures per pupil, special needs.",
+      "income" : "Per capita income.",
+      "salary" : "Average teacher salary.",
+      "score4" : "4th grade score (math + English + science).",
+      "district" : "character. District code.",
+      "lunch" : "Percent qualifying for reduced-price lunch.",
+      "special" : "Special education students (per cent).",
+      "municipality" : "character. Municipality name.",
+      "stratio" : "Student-teacher ratio.",
+      "scratio" : "Students per computer.",
+      "expocc" : "Expenditures per pupil, occupational.",
+      "english" : "Percent of English learners.",
+      "score8" : "8th grade score (math + English + science)."
+   },
+   "usage" : "data(\"MASchools\")",
+   "description" : "Description\nThe dataset contains data on test performance, school \ncharacteristics and student demographic backgrounds for school districts \nin Massachusetts."
+}
+
 var MASchools = [
    [
       "district",

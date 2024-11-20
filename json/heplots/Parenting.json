@@ -1,11 +1,4 @@
 {
-   "config" : {
-      "graphType" : "Scatter3D",
-      "subtitle" : "heplots - Parenting",
-      "title" : "Father Parenting Competence",
-      "colorBy" : "group"
-   },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>Parenting</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Father Parenting Competence</h2>\n<h3>Description</h3>\n<p>The data, from an exercise given by Meyers et al. (2006) relates to 60\nfathers assessed on three subscales of a Perceived Parenting Competence\nScale. The fathers were selected from three groups: (a) fathers of a child\nwith no disabilities; (b) fathers with a physically disabled child; (c)\nfathers with a mentally disabled child.\n</p>\n<h3>Format</h3>\n<p>A data frame with 60 observations on the following 4 variables.\n</p>\n<dl>\n<dt><code>group</code></dt><dd><p>a factor with levels <code>Normal</code>\n<code>Physical Disability</code> <code>Mental Disability</code></p>\n</dd>\n<dt><code>caring</code></dt><dd><p>caretaking responsibilities, a numeric vector</p>\n</dd>\n<dt><code>emotion</code></dt><dd><p>emotional support provided to the child, a numeric vector</p>\n</dd> \n<dt><code>play</code></dt><dd><p>recreational time spent with the child, a numeric vector</p>\n</dd> \n</dl>\n<h3>Details</h3>\n<p>The scores on the response variables are discrete.\n</p>\n<h3>Source</h3>\n<p>Meyers, L. S., Gamst, G, &amp; Guarino, A. J. (2006). <em>Applied\nMultivariate Research: Design and Interpretation</em>, Thousand Oaks, CA: Sage\nPublications, <a href=\"https://studysites.sagepub.com/amrStudy/\">https://studysites.sagepub.com/amrStudy/</a>, Exercises 10B.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>\ndata(Parenting)\nrequire(car)\n# fit the MLM\nparenting.mod &lt;- lm(cbind(caring, emotion, play) ~ group, data=Parenting)\ncar::Anova(parenting.mod)\n# Box's M test\nboxM(parenting.mod)\nplot(boxM(parenting.mod))\nparenting.mod &lt;- lm(cbind(caring, emotion, play) ~ group, data=Parenting)\ncar::Anova(parenting.mod)\n# test contrasts\nprint(linearHypothesis(parenting.mod, \"group1\"), SSP=FALSE)\nprint(linearHypothesis(parenting.mod, \"group2\"), SSP=FALSE)\nheplot(parenting.mod)\n# display tests of contrasts\nhyp &lt;- list(\"N:MP\" = \"group1\", \"M:P\" = \"group2\")\nheplot(parenting.mod, hypotheses=hyp)\n# make a prettier plot\nheplot(parenting.mod, hypotheses=hyp, asp=1,\n       fill=TRUE, fill.alpha=c(0.3,0.1), \n       col=c(\"red\", \"blue\"), \n       lty=c(0,0,1,1), label.pos=c(1,1,3,2),\n       cex=1.4, cex.lab=1.4, lwd=3)\npairs(parenting.mod, fill=TRUE, fill.alpha=c(0.3, 0.1))\n## Not run: \nheplot3d(parenting.mod, wire=FALSE)\n## End(Not run)\n</code></pre>\n</main>\n</div>\n",
    "data" : {
       "z" : {
          "group" : [
@@ -133,6 +126,11 @@
             "Var58",
             "Var59",
             "Var60"
+         ],
+         "smps" : [
+            "caring",
+            "emotion",
+            "play"
          ],
          "data" : [
             [
@@ -435,12 +433,14 @@
                8,
                3
             ]
-         ],
-         "smps" : [
-            "caring",
-            "emotion",
-            "play"
          ]
       }
+   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>Parenting</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Father Parenting Competence</h2>\n<h3>Description</h3>\n<p>The data, from an exercise given by Meyers et al. (2006) relates to 60\nfathers assessed on three subscales of a Perceived Parenting Competence\nScale. The fathers were selected from three groups: (a) fathers of a child\nwith no disabilities; (b) fathers with a physically disabled child; (c)\nfathers with a mentally disabled child.\n</p>\n<h3>Format</h3>\n<p>A data frame with 60 observations on the following 4 variables.\n</p>\n<dl>\n<dt><code>group</code></dt><dd><p>a factor with levels <code>Normal</code>\n<code>Physical Disability</code> <code>Mental Disability</code></p>\n</dd>\n<dt><code>caring</code></dt><dd><p>caretaking responsibilities, a numeric vector</p>\n</dd>\n<dt><code>emotion</code></dt><dd><p>emotional support provided to the child, a numeric vector</p>\n</dd> \n<dt><code>play</code></dt><dd><p>recreational time spent with the child, a numeric vector</p>\n</dd> \n</dl>\n<h3>Details</h3>\n<p>The scores on the response variables are discrete.\n</p>\n<h3>Source</h3>\n<p>Meyers, L. S., Gamst, G, &amp; Guarino, A. J. (2006). <em>Applied\nMultivariate Research: Design and Interpretation</em>, Thousand Oaks, CA: Sage\nPublications, <a href=\"https://studysites.sagepub.com/amrStudy/\">https://studysites.sagepub.com/amrStudy/</a>, Exercises 10B.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>\ndata(Parenting)\nrequire(car)\n# fit the MLM\nparenting.mod &lt;- lm(cbind(caring, emotion, play) ~ group, data=Parenting)\ncar::Anova(parenting.mod)\n# Box's M test\nboxM(parenting.mod)\nplot(boxM(parenting.mod))\nparenting.mod &lt;- lm(cbind(caring, emotion, play) ~ group, data=Parenting)\ncar::Anova(parenting.mod)\n# test contrasts\nprint(linearHypothesis(parenting.mod, \"group1\"), SSP=FALSE)\nprint(linearHypothesis(parenting.mod, \"group2\"), SSP=FALSE)\nheplot(parenting.mod)\n# display tests of contrasts\nhyp &lt;- list(\"N:MP\" = \"group1\", \"M:P\" = \"group2\")\nheplot(parenting.mod, hypotheses=hyp)\n# make a prettier plot\nheplot(parenting.mod, hypotheses=hyp, asp=1,\n       fill=TRUE, fill.alpha=c(0.3,0.1), \n       col=c(\"red\", \"blue\"), \n       lty=c(0,0,1,1), label.pos=c(1,1,3,2),\n       cex=1.4, cex.lab=1.4, lwd=3)\npairs(parenting.mod, fill=TRUE, fill.alpha=c(0.3, 0.1))\n## Not run: \nheplot3d(parenting.mod, wire=FALSE)\n## End(Not run)\n</code></pre>\n</main>\n</div>\n",
+   "config" : {
+      "subtitle" : "heplots - Parenting",
+      "title" : "Father Parenting Competence",
+      "colorBy" : "group",
+      "graphType" : "Scatter3D"
    }
 }

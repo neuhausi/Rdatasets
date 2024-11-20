@@ -1,3 +1,43 @@
+var resumeInfo ={
+   "reference" : "Because this is an experiment, where the race and gender attributes are\nbeing randomly assigned to the resumes, we can conclude that any\nstatistically significant difference in callback rates is causally linked to\nthese attributes.",
+   "format" : "A data frame with 4870 observations, representing 4870 resumes, over\n30 different variables that describe the job details, the outcome\n(received_callback), and attributes of the resume.",
+   "title" : "Which resume attributes drive job callbacks?",
+   "parameters" : {
+      "job_ownership" : "The type of\ncompany, e.g. a nonprofit or a private company.",
+      "has_email_address" : "Indicator for if the resume lists an email\naddress.",
+      "job_req_any" : "Indicator for if any job requirements are\nlisted. If so, the other job_req_* fields give more detail.",
+      "computer_skills" : "Indicator for if computer skills were listed on the resume. These skills\nwere adapted for listings, though the skills were assigned independently of\nother details on the resume.",
+      "worked_during_school" : "Indicator for if the resume\nlisted working while in school.",
+      "job_req_computer" : "Indicator\nfor if computer skills are required.",
+      "job_req_education" : "Indicator for if some\nlevel of education is required.",
+      "gender" : "Inferred gender associated with the first\nname on the resume.",
+      "years_experience" : "Years of\nexperience listed on the resume.",
+      "job_city" : "City where the job was located.",
+      "job_type" : "Type of role.",
+      "job_req_school" : "Level of education required.",
+      "years_college" : "Years of college\neducation listed on the resume.",
+      "job_ad_id" : "Unique ID associated with the advertisement.",
+      "job_req_communication" : "Indicator for if communication skills\nare required.",
+      "resume_quality" : "Each resume was generally\nclassified as either lower or higher quality.",
+      "job_equal_opp_employer" : "Indicator for if the employer is an\nEqual Opportunity Employer.",
+      "job_fed_contractor" : "Indicator for if the employer is a federal contractor.",
+      "volunteer" : "Indicator for if volunteering was listed on the\nresume.",
+      "college_degree" : "Indicator\nfor if the resume listed a college degree.",
+      "job_industry" : "Industry of the job.",
+      "military" : "Indicator for if military experience was\nlisted on the resume.",
+      "job_req_organization" : "Indicator for if organization skills are required.",
+      "employment_holes" : "Indicator for if\nthere were holes in the person's employment history.",
+      "received_callback" : "Indicator for if there was a callback from\nthe job posting for the person listed on this resume.",
+      "firstname" : "The first name used on the resume.",
+      "special_skills" : "Indicator for\nif any special skills were listed on the resume.",
+      "job_req_min_experience" : "Amount of experience required.",
+      "honors" : "Indicator for if the resume listed that the candidate has been awarded some\nhonors.",
+      "race" : "Inferred race associated with the first name on the\nresume."
+   },
+   "usage" : "resume",
+   "description" : "Description\nThis experiment data comes from a study that sought to understand the\ninfluence of race and gender on job application callback rates. The study\nmonitored job postings in Boston and Chicago for several months during 2001\nand 2002 and used this to build up a set of test cases. Over this time\nperiod, the researchers randomly generating resumes to go out to a job\nposting, such as years of experience and education details, to create a\nrealistic-looking resume. They then randomly assigned a name to the resume\nthat would communicate the applicant's gender and race. The first names\nchosen for the study were selected so that the names would predominantly be\nrecognized as belonging to black or white individuals. For example, Lakisha\nwas a name that their survey indicated would be interpreted as a black\nwoman, while Greg was a name that would generally be interpreted to be\nassociated with a white male."
+}
+
 var resume = [
    [
       "job_ad_id",

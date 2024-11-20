@@ -1,3 +1,9 @@
+var SpeedInfo ={
+   "usage" : "A dataset with 21 observations on the following 3 variables.",
+   "title" : "Highway Fatality Rates (Yearly)",
+   "description" : "Description\nHighway fatality rates 1987-2007"
+}
+
 var Speed = [
    [
       "Year",

@@ -1,3 +1,34 @@
+var bomsoiInfo ={
+   "usage" : "bomsoi",
+   "description" : "Description\nThe Southern Oscillation Index (SOI) is the difference in barometric  \npressure at sea level between Tahiti and Darwin.  Annual SOI and\nAustralian rainfall data, for the years 1900-2005, are given.\nAustralia's annual mean rainfall is an area-weighted average of the total \nannual precipitation at approximately 370 rainfall stations \naround the country.",
+   "format" : "This data frame contains the following columns:",
+   "title" : "Southern Oscillation Index Data",
+   "reference" : "Australian Bureau of Meteorology web pages:",
+   "parameters" : {
+      "Year" : "a numeric vector",
+      "Oct" : "average October SOI values for each year",
+      "eastRain" : "east rain",
+      "May" : "average May SOI values for each year",
+      "swRain" : "southwest rain",
+      "southRain" : "south rain",
+      "Apr" : "average April SOI values for each year",
+      "Jun" : "average June SOI values for each year",
+      "Sep" : "average September SOI values for each year",
+      "SOI" : "a numeric vector consisting of average annual SOI\nvalues",
+      "NTrain" : "Northern Territory rain",
+      "Aug" : "average August SOI values for each year",
+      "Feb" : "average February SOI values for each year",
+      "seRain" : "southeast rain",
+      "avrain" : "a numeric vector consisting of a weighted average annual\nrainfall at a large number of Australian sites",
+      "Jan" : "average January SOI values for each year",
+      "northRain" : "north rain",
+      "Jul" : "average July SOI values for each year",
+      "Dec" : "average December SOI values for each year",
+      "Nov" : "average November SOI values for each year",
+      "Mar" : "average March SOI values for each year"
+   }
+}
+
 var bomsoi = [
    [
       "Year",

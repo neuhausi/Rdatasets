@@ -1,3 +1,17 @@
+var anestheticInfo ={
+   "description" : "Description\nThirty patients were given an anesthetic agent maintained\nat a predetermined level (conc) for 15 minutes before making\nan incision.  It was then noted whether the patient\nmoved, i.e. jerked or twisted.",
+   "usage" : "anesthetic",
+   "parameters" : {
+      "logconc" : "logarithm of concentration",
+      "nomove" : "the complement of move",
+      "move" : "a binary numeric vector coded for \npatient movement (0 = no movement, 1 = movement)",
+      "conc" : "anesthetic concentration"
+   },
+   "format" : "This data frame contains the following columns:",
+   "title" : "Anesthetic Effectiveness",
+   "reference" : "The interest is in estimating\nhow the probability of jerking or twisting varies with\nincreasing concentration of the anesthetic agent."
+}
+
 var anesthetic = [
    [
       "move",

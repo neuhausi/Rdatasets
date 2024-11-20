@@ -1,4 +1,12 @@
 {
+   "config" : {
+      "smpOverlays" : [
+         null
+      ],
+      "graphType" : "Heatmap",
+      "title" : "Lawyers' Ratings of State Judges in the US Superior Court",
+      "subtitle" : "datasets - USJudgeRatings"
+   },
    "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>USJudgeRatings</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Lawyers' Ratings of State Judges in the US Superior Court</h2>\n<h3>Description</h3>\n<p>Lawyers' ratings of state judges in the US Superior Court.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>USJudgeRatings</code></pre>\n<h3>Format</h3>\n<p>A data frame containing 43 observations on 12 numeric variables.\n</p>\n<table>\n<tr>\n <td style=\"text-align: right;\">\n    [,1] </td><td style=\"text-align: left;\"> <code>CONT</code> </td><td style=\"text-align: left;\"> Number of contacts of lawyer with judge.</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    [,2] </td><td style=\"text-align: left;\"> <code>INTG</code> </td><td style=\"text-align: left;\"> Judicial integrity.</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    [,3] </td><td style=\"text-align: left;\"> <code>DMNR</code> </td><td style=\"text-align: left;\"> Demeanor.</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    [,4] </td><td style=\"text-align: left;\"> <code>DILG</code> </td><td style=\"text-align: left;\"> Diligence.</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    [,5] </td><td style=\"text-align: left;\"> <code>CFMG</code> </td><td style=\"text-align: left;\"> Case flow managing.</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    [,6] </td><td style=\"text-align: left;\"> <code>DECI</code> </td><td style=\"text-align: left;\"> Prompt decisions.</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    [,7] </td><td style=\"text-align: left;\"> <code>PREP</code> </td><td style=\"text-align: left;\"> Preparation for trial.</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    [,8] </td><td style=\"text-align: left;\"> <code>FAMI</code> </td><td style=\"text-align: left;\"> Familiarity with law.</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    [,9] </td><td style=\"text-align: left;\"> <code>ORAL</code> </td><td style=\"text-align: left;\"> Sound oral rulings.</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    [,10] </td><td style=\"text-align: left;\"> <code>WRIT</code> </td><td style=\"text-align: left;\"> Sound written rulings.</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    [,11] </td><td style=\"text-align: left;\"> <code>PHYS</code> </td><td style=\"text-align: left;\"> Physical ability.</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    [,12] </td><td style=\"text-align: left;\"> <code>RTEN</code> </td><td style=\"text-align: left;\"> Worthy of retention.\n  </td>\n</tr>\n</table>\n<h3>Source</h3>\n<p>New Haven Register, 14 January, 1977 (from John Hartigan).\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>require(graphics)\npairs(USJudgeRatings, main = \"USJudgeRatings data\")\n</code></pre>\n</main>\n</div>\n",
    "data" : {
       "y" : {
@@ -15,6 +23,51 @@
             "WRIT",
             "PHYS",
             "RTEN"
+         ],
+         "smps" : [
+            "AARONSON,L.H.",
+            "ALEXANDER,J.M.",
+            "ARMENTANO,A.J.",
+            "BERDON,R.I.",
+            "BRACKEN,J.J.",
+            "BURNS,E.B.",
+            "CALLAHAN,R.J.",
+            "COHEN,S.S.",
+            "DALY,J.J.",
+            "DANNEHY,J.F.",
+            "DEAN,H.H.",
+            "DEVITA,H.J.",
+            "DRISCOLL,P.J.",
+            "GRILLO,A.E.",
+            "HADDEN,W.L.JR.",
+            "HAMILL,E.C.",
+            "HEALEY.A.H.",
+            "HULL,T.C.",
+            "LEVINE,I.",
+            "LEVISTER,R.L.",
+            "MARTIN,L.F.",
+            "MCGRATH,J.F.",
+            "MIGNONE,A.F.",
+            "MISSAL,H.M.",
+            "MULVEY,H.M.",
+            "NARUK,H.J.",
+            "O'BRIEN,F.J.",
+            "O'SULLIVAN,T.J.",
+            "PASKEY,L.",
+            "RUBINOW,J.E.",
+            "SADEN.G.A.",
+            "SATANIELLO,A.G.",
+            "SHEA,D.M.",
+            "SHEA,J.F.JR.",
+            "SIDOR,W.J.",
+            "SPEZIALE,J.A.",
+            "SPONZO,M.J.",
+            "STAPLETON,J.F.",
+            "TESTO,R.J.",
+            "TIERNEY,W.L.JR.",
+            "WALL,R.A.",
+            "WRIGHT,D.B.",
+            "ZARRILLI,K.J."
          ],
          "data" : [
             [
@@ -557,60 +610,7 @@
                8.1,
                7.1
             ]
-         ],
-         "smps" : [
-            "AARONSON,L.H.",
-            "ALEXANDER,J.M.",
-            "ARMENTANO,A.J.",
-            "BERDON,R.I.",
-            "BRACKEN,J.J.",
-            "BURNS,E.B.",
-            "CALLAHAN,R.J.",
-            "COHEN,S.S.",
-            "DALY,J.J.",
-            "DANNEHY,J.F.",
-            "DEAN,H.H.",
-            "DEVITA,H.J.",
-            "DRISCOLL,P.J.",
-            "GRILLO,A.E.",
-            "HADDEN,W.L.JR.",
-            "HAMILL,E.C.",
-            "HEALEY.A.H.",
-            "HULL,T.C.",
-            "LEVINE,I.",
-            "LEVISTER,R.L.",
-            "MARTIN,L.F.",
-            "MCGRATH,J.F.",
-            "MIGNONE,A.F.",
-            "MISSAL,H.M.",
-            "MULVEY,H.M.",
-            "NARUK,H.J.",
-            "O'BRIEN,F.J.",
-            "O'SULLIVAN,T.J.",
-            "PASKEY,L.",
-            "RUBINOW,J.E.",
-            "SADEN.G.A.",
-            "SATANIELLO,A.G.",
-            "SHEA,D.M.",
-            "SHEA,J.F.JR.",
-            "SIDOR,W.J.",
-            "SPEZIALE,J.A.",
-            "SPONZO,M.J.",
-            "STAPLETON,J.F.",
-            "TESTO,R.J.",
-            "TIERNEY,W.L.JR.",
-            "WALL,R.A.",
-            "WRIGHT,D.B.",
-            "ZARRILLI,K.J."
          ]
       }
-   },
-   "config" : {
-      "title" : "Lawyers' Ratings of State Judges in the US Superior Court",
-      "smpOverlays" : [
-         null
-      ],
-      "graphType" : "Heatmap",
-      "subtitle" : "datasets - USJudgeRatings"
    }
 }

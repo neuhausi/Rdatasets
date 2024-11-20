@@ -1,3 +1,24 @@
+var VietNamHInfo ={
+   "usage" : "data(VietNamH)",
+   "description" : "Description\na cross-section from 1997\nnumber of observations :  5999\nobservation :  households\ncountry :  Vietnam",
+   "format" : "A dataframe containing :",
+   "title" : "Medical Expenses in Vietnam (household Level)",
+   "reference" : "Vietnam World Bank Livings Standards Survey.",
+   "parameters" : {
+      "commune" : "commune",
+      "hhsize" : "household size",
+      "lnrlfood" : "log household food expenditure",
+      "lnmed" : "log household medical expenditure",
+      "farm" : "farm household ?",
+      "sex" : "gender of household head (male,female)",
+      "lnexp12m" : "log of total household health care expenditure for 12 months",
+      "educyr" : "schooling year of household head",
+      "urban" : "urban household ?",
+      "age" : "age of household head",
+      "lntotal" : "log household total expenditure"
+   }
+}
+
 var VietNamH = [
    [
       "sex",

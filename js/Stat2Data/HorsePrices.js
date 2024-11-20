@@ -1,3 +1,9 @@
+var HorsePricesInfo ={
+   "description" : "Description\nPrice and related characteristics of horses listed for sale on the internet",
+   "usage" : "A data frame with 50 observations on the following 5 variables.",
+   "title" : "Prices of Horses"
+}
+
 var HorsePrices = [
    [
       "HorseID",

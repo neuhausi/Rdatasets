@@ -1,3 +1,20 @@
+var MplsDemoInfo ={
+   "parameters" : {
+      "white" : "fraction of the population estimated to be white",
+      "hhIncome" : "estimated median household income",
+      "black" : "fraction of the population estimated to be black",
+      "collegeGrad" : "estimated fraction with a college degree",
+      "poverty" : "estimated fraction earning less than twice the poverty level",
+      "foreignBorn" : "fraction of the population estimated to be foreign born",
+      "neighborhood" : "name of the neighborhood",
+      "population" : "total population"
+   },
+   "description" : "Description\nMinneapolis Demographic Data 2015, by Neighborhood, from the 2015 American Community Survey",
+   "usage" : "A data frame with 84 observations on the following 7 variables.",
+   "title" : "Minneapolis Demographic Data 2015, by Neighborhood",
+   "reference" : "The data frame MplsStops contains 2017 Minneapolis Police stop data, using the same neighborhood names as this data file."
+}
+
 var MplsDemo = [
    [
       "neighborhood",

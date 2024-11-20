@@ -1,3 +1,9 @@
+var training_dataInfo ={
+   "usage" : "These data are from Amazon, who describe it as \"This dataset consists of\nreviews of fine foods from amazon. The data span a period of more than 10\nyears, including all ~500,000 reviews up to October 2012. Reviews include\nproduct and user information, ratings, and a plaintext review.\"",
+   "title" : "Fine foods example data",
+   "description" : "Description\nFine foods example data"
+}
+
 var training_data = [
    [
       "product",

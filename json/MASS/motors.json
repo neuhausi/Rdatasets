@@ -1,17 +1,6 @@
 {
-   "config" : {
-      "graphType" : "Scatter3D",
-      "subtitle" : "MASS - motors",
-      "title" : "Accelerated Life Testing of Motorettes"
-   },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>motors</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>\nAccelerated Life Testing of Motorettes\n</h2>\n<h3>Description</h3>\n<p>The <code>motors</code> data frame has 40 rows and 3 columns.  It describes an\naccelerated life test at each of four temperatures of 10 motorettes,\nand has rather discrete times.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>motors\n</code></pre>\n<h3>Format</h3>\n<p>This data frame contains the following columns:\n</p>\n<dl>\n<dt><code>temp</code></dt><dd>\n<p>the temperature (degrees C) of the test.\n</p>\n</dd>\n<dt><code>time</code></dt><dd>\n<p>the time in hours to failure or censoring at 8064 hours (= 336 days).\n</p>\n</dd>\n<dt><code>cens</code></dt><dd>\n<p>an indicator variable for death.\n</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>Kalbfleisch, J. D. and Prentice, R. L. (1980)\n<em>The Statistical Analysis of Failure Time Data.</em>\nNew York: Wiley.\n</p>\n<p>taken from\n</p>\n<p>Nelson, W. D. and Hahn, G. J. (1972)\nLinear regression of a regression relationship from censored data.\nPart 1 &ndash; simple methods and their application.\n<em>Technometrics</em>, <b>14</b>, 247&ndash;276.\n</p>\n<h3>References</h3>\n<p>Venables, W. N. and Ripley, B. D. (2002)\n<em>Modern Applied Statistics with S.</em> Fourth edition.  Springer.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>library(survival)\nplot(survfit(Surv(time, cens) ~ factor(temp), motors), conf.int = FALSE)\n# fit Weibull model\nmotor.wei &lt;- survreg(Surv(time, cens) ~ temp, motors)\nsummary(motor.wei)\n# and predict at 130C\nunlist(predict(motor.wei, data.frame(temp=130), se.fit = TRUE))\nmotor.cox &lt;- coxph(Surv(time, cens) ~ temp, motors)\nsummary(motor.cox)\n# predict at temperature 200\nplot(survfit(motor.cox, newdata = data.frame(temp=200),\n     conf.type = \"log-log\"))\nsummary( survfit(motor.cox, newdata = data.frame(temp=130)) )\n</code></pre>\n</main>\n</div>\n",
    "data" : {
       "y" : {
-         "smps" : [
-            "temp",
-            "time",
-            "cens"
-         ],
          "data" : [
             [
                150,
@@ -214,6 +203,11 @@
                0
             ]
          ],
+         "smps" : [
+            "temp",
+            "time",
+            "cens"
+         ],
          "vars" : [
             "Var1",
             "Var2",
@@ -257,5 +251,11 @@
             "Var40"
          ]
       }
+   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>motors</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>\nAccelerated Life Testing of Motorettes\n</h2>\n<h3>Description</h3>\n<p>The <code>motors</code> data frame has 40 rows and 3 columns.  It describes an\naccelerated life test at each of four temperatures of 10 motorettes,\nand has rather discrete times.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>motors\n</code></pre>\n<h3>Format</h3>\n<p>This data frame contains the following columns:\n</p>\n<dl>\n<dt><code>temp</code></dt><dd>\n<p>the temperature (degrees C) of the test.\n</p>\n</dd>\n<dt><code>time</code></dt><dd>\n<p>the time in hours to failure or censoring at 8064 hours (= 336 days).\n</p>\n</dd>\n<dt><code>cens</code></dt><dd>\n<p>an indicator variable for death.\n</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>Kalbfleisch, J. D. and Prentice, R. L. (1980)\n<em>The Statistical Analysis of Failure Time Data.</em>\nNew York: Wiley.\n</p>\n<p>taken from\n</p>\n<p>Nelson, W. D. and Hahn, G. J. (1972)\nLinear regression of a regression relationship from censored data.\nPart 1 &ndash; simple methods and their application.\n<em>Technometrics</em>, <b>14</b>, 247&ndash;276.\n</p>\n<h3>References</h3>\n<p>Venables, W. N. and Ripley, B. D. (2002)\n<em>Modern Applied Statistics with S.</em> Fourth edition.  Springer.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>library(survival)\nplot(survfit(Surv(time, cens) ~ factor(temp), motors), conf.int = FALSE)\n# fit Weibull model\nmotor.wei &lt;- survreg(Surv(time, cens) ~ temp, motors)\nsummary(motor.wei)\n# and predict at 130C\nunlist(predict(motor.wei, data.frame(temp=130), se.fit = TRUE))\nmotor.cox &lt;- coxph(Surv(time, cens) ~ temp, motors)\nsummary(motor.cox)\n# predict at temperature 200\nplot(survfit(motor.cox, newdata = data.frame(temp=200),\n     conf.type = \"log-log\"))\nsummary( survfit(motor.cox, newdata = data.frame(temp=130)) )\n</code></pre>\n</main>\n</div>\n",
+   "config" : {
+      "subtitle" : "MASS - motors",
+      "title" : "Accelerated Life Testing of Motorettes",
+      "graphType" : "Scatter3D"
    }
 }

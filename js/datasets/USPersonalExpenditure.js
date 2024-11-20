@@ -1,3 +1,10 @@
+var USPersonalExpenditureInfo ={
+   "description" : "Description\nThis data set consists of United States personal expenditures (in\nbillions of dollars) in the categories; food and tobacco, household\noperation, medical and health, personal care, and private education\nfor the years 1940, 1945, 1950, 1955 and 1960.",
+   "usage" : "USPersonalExpenditure",
+   "format" : "A matrix with 5 rows and 5 columns.",
+   "title" : "Personal Expenditure Data"
+}
+
 var USPersonalExpenditure = [
    [
       "1940",

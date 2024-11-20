@@ -1,3 +1,9 @@
+var AlfalfaInfo ={
+   "description" : "Description\nGrowth of alfalfa sprouts in acidic conditions",
+   "title" : "Alfalfa Growth",
+   "usage" : "A dataset with 15 observations on the following 3 variables."
+}
+
 var Alfalfa = [
    [
       "Ht4",

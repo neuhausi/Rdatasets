@@ -1,3 +1,17 @@
+var Whickham2Info ={
+   "title" : "Whickham Health Study",
+   "reference" : "Twenty-year mortality, smoking status, and age for 1314 women in Whickham, England.  We have named this Whickham2 to distinguish it from Whickham, which is a file in the mosaicData package.",
+   "usage" : "A data frame with 1314 observations on the following 5 variables.",
+   "parameters" : {
+      "Outcome" : "Status at 20-year follow-up (Alive or Dead)",
+      "Smoker" : "Smoker at baseline? (No or Yes)",
+      "AgeGroup" : "Age group (18-64 or 65+)",
+      "Alive" : "Numeric code for Outcome (1=alive or 0=dead)",
+      "Age" : "Age (in years at baseline)"
+   },
+   "description" : "Description\nMorality data over 20 years for 1314 women from Whickham, England"
+}
+
 var Whickham2 = [
    [
       "Outcome",

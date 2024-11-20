@@ -1,13 +1,12 @@
 {
    "config" : {
       "title" : "Unemployment Duration",
+      "graphType" : "Heatmap",
       "smpOverlays" : [
          "ui"
       ],
-      "graphType" : "Heatmap",
       "subtitle" : "Ecdat - UnempDur"
    },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>UnempDur</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Unemployment Duration </h2>\n<h3>Description</h3>\n<p>Journal of Business Economics and Statistics web site : <a href=\"https://amstat.tandfonline.com/loi/ubes20\">https://amstat.tandfonline.com/loi/ubes20</a>\n</p>\n<p><em>number of observations</em> :  3343\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(UnempDur)</code></pre>\n<h3>Format</h3>\n<p>A time series containing :\n</p>\n<dl>\n<dt>spell</dt><dd><p>length of spell in number of two-week intervals</p>\n</dd>\n<dt>censor1</dt><dd><p>= 1 if re-employed at full-time job</p>\n</dd>\n<dt>censor2</dt><dd><p>= 1 if re-employed at part-time job</p>\n</dd>\n<dt>censor3</dt><dd><p>1 if re-employed but left job: pt-ft status unknown</p>\n</dd>\n<dt>censor4</dt><dd><p>1 if still jobless</p>\n</dd>\n<dt>age</dt><dd><p>age</p>\n</dd>\n<dt>ui</dt><dd><p>= 1 if filed UI claim</p>\n</dd>\n<dt>reprate</dt><dd><p>eligible replacement rate</p>\n</dd>\n<dt>disrate</dt><dd><p>eligible disregard rate</p>\n</dd>\n<dt>logwage</dt><dd><p>log weekly earnings in lost job (1985$)</p>\n</dd>\n<dt>tenure</dt><dd><p>years tenure in lost job</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>McCall, B.P. (1996) &ldquo;Unemployment Insurance Rules, Joblessness, and Part-time Work&rdquo;, <em>Econometrica</em>, <b>64</b>, 647&ndash;682.\n</p>\n<h3>References</h3>\n<p>Cameron, A.C.  and  P.K.  Trivedi (2005) <em>Microeconometrics : methods and applications</em>, Cambridge, pp. 603&ndash;8, 632&ndash;6, 658&ndash;62, 671&ndash;4 and 692.\n</p>\n<h3>See Also</h3>\n<p><code>Index.Source</code>, <code>Index.Economics</code>, <code>Index.Econometrics</code>, <code>Index.Observations</code>,\n</p>\n<p><code>Index.Time.Series</code></p>\n</main>\n</div>\n",
    "data" : {
       "x" : {
          "ui" : [
@@ -3357,18 +3356,6 @@
          ]
       },
       "y" : {
-         "vars" : [
-            "spell",
-            "censor1",
-            "censor2",
-            "censor3",
-            "censor4",
-            "age",
-            "reprate",
-            "disrate",
-            "logwage",
-            "tenure"
-         ],
          "smps" : [
             "Smp1",
             "Smp2",
@@ -6713,6 +6700,18 @@
             "Smp3341",
             "Smp3342",
             "Smp3343"
+         ],
+         "vars" : [
+            "spell",
+            "censor1",
+            "censor2",
+            "censor3",
+            "censor4",
+            "age",
+            "reprate",
+            "disrate",
+            "logwage",
+            "tenure"
          ],
          "data" : [
             [
@@ -40167,5 +40166,6 @@
             ]
          ]
       }
-   }
+   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>UnempDur</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Unemployment Duration </h2>\n<h3>Description</h3>\n<p>Journal of Business Economics and Statistics web site : <a href=\"https://amstat.tandfonline.com/loi/ubes20\">https://amstat.tandfonline.com/loi/ubes20</a>\n</p>\n<p><em>number of observations</em> :  3343\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(UnempDur)</code></pre>\n<h3>Format</h3>\n<p>A time series containing :\n</p>\n<dl>\n<dt>spell</dt><dd><p>length of spell in number of two-week intervals</p>\n</dd>\n<dt>censor1</dt><dd><p>= 1 if re-employed at full-time job</p>\n</dd>\n<dt>censor2</dt><dd><p>= 1 if re-employed at part-time job</p>\n</dd>\n<dt>censor3</dt><dd><p>1 if re-employed but left job: pt-ft status unknown</p>\n</dd>\n<dt>censor4</dt><dd><p>1 if still jobless</p>\n</dd>\n<dt>age</dt><dd><p>age</p>\n</dd>\n<dt>ui</dt><dd><p>= 1 if filed UI claim</p>\n</dd>\n<dt>reprate</dt><dd><p>eligible replacement rate</p>\n</dd>\n<dt>disrate</dt><dd><p>eligible disregard rate</p>\n</dd>\n<dt>logwage</dt><dd><p>log weekly earnings in lost job (1985$)</p>\n</dd>\n<dt>tenure</dt><dd><p>years tenure in lost job</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>McCall, B.P. (1996) &ldquo;Unemployment Insurance Rules, Joblessness, and Part-time Work&rdquo;, <em>Econometrica</em>, <b>64</b>, 647&ndash;682.\n</p>\n<h3>References</h3>\n<p>Cameron, A.C.  and  P.K.  Trivedi (2005) <em>Microeconometrics : methods and applications</em>, Cambridge, pp. 603&ndash;8, 632&ndash;6, 658&ndash;62, 671&ndash;4 and 692.\n</p>\n<h3>See Also</h3>\n<p><code>Index.Source</code>, <code>Index.Economics</code>, <code>Index.Econometrics</code>, <code>Index.Observations</code>,\n</p>\n<p><code>Index.Time.Series</code></p>\n</main>\n</div>\n"
 }

@@ -1,3 +1,20 @@
+var muscatineInfo ={
+   "description" : "Description\nThe data are from the Muscatine Coronary Risk Factor (MCRF) study,\na longitudinal survey of school-age children in Muscatine, Iowa.\nThe MCRF study had the goal of examining the development and\npersistence of risk factors for coronary disease in children.  In\nthe MCRF study, weight and height measurements of five cohorts of\nchildren, initially aged 5-7, 7-9, 9-11, 11-13, and 13-15 years,\nwere obtained biennially from 1977 to 1981. Data were collected on\n4856 boys and girls. On the basis of a comparison of their weight\nto age-gender specific norms, children were classified as obese or\nnot obese.",
+   "usage" : "muscatine",
+   "parameters" : {
+      "occasion" : "identifier of occasion of recording",
+      "id" : "identifier of child.",
+      "base_age" : "baseline age",
+      "age" : "current age",
+      "numobese" : "obese in numerical form: 1 corresponds to 'yes'\nand 0 corresponds to 'no'.",
+      "obese" : "'yes' or 'no'",
+      "gender" : "gender of child"
+   },
+   "reference" : "https://content.sph.harvard.edu/fitzmaur/ala2e/muscatine.txt",
+   "title" : "Data on Obesity from the Muscatine Coronary Risk Factor Study.",
+   "format" : "A dataframe with 14568 rows and 7 variables:"
+}
+
 var muscatine = [
    [
       "id",

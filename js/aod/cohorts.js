@@ -1,3 +1,16 @@
+var cohortsInfo ={
+   "description" : "Description\nNumber of prostate cancer deaths and midperiod population for nonwhites in the USA by age and period.\nThe cohort index k is related to age and period indices (i and j, respectively) by k = j + I - i, \nwhere I = max(i) (Holford, 1983, Table 2).",
+   "parameters" : {
+      "age" : "A factor with levels 50-, 55-, ..., 80-.",
+      "y" : "Numeric: the number of prostate cancer deaths.",
+      "period" : "A factor with levels 1935-, 1940-, ..., 1965-.",
+      "n" : "Numeric: the midperiod population size."
+   },
+   "usage" : "data(cohorts)",
+   "format" : "A data frame with 49 observations on the following 4 variables.",
+   "title" : "Age, Period and Cohort Effects for Vital Rates"
+}
+
 var cohorts = [
    [
       "period",

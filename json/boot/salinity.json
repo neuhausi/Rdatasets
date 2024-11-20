@@ -2,18 +2,12 @@
    "config" : {
       "subtitle" : "boot - salinity",
       "scatterPlotMatrix" : 1,
-      "graphType" : "Scatter2D",
-      "title" : "Water Salinity and River Discharge"
+      "title" : "Water Salinity and River Discharge",
+      "graphType" : "Scatter2D"
    },
    "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>salinity</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>\nWater Salinity and River Discharge\n</h2>\n<h3>Description</h3>\n<p>The <code>salinity</code> data frame has 28 rows and 4 columns.\n</p>\n<p>Biweekly averages of the water salinity and river discharge in Pamlico\nSound, North Carolina were recorded between the years 1972 and 1977.\nThe data in this set consists only of those measurements in March, April\nand May.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>salinity\n</code></pre>\n<h3>Format</h3>\n<p>This data frame contains the following columns:\n</p>\n<dl>\n<dt><code>sal</code></dt><dd>\n<p>The average salinity of the water over two weeks.\n</p>\n</dd>\n<dt><code>lag</code></dt><dd>\n<p>The average salinity of the water lagged two weeks.  Since only spring is used,\nthe value of <code>lag</code> is not always equal to the previous value of <code>sal</code>.\n</p>\n</dd>\n<dt><code>trend</code></dt><dd>\n<p>A factor indicating in which of the 6 biweekly periods between March and May,\nthe observations were taken. The levels of the factor are from 0 to 5 with\n0 being the first two weeks in March.\n</p>\n</dd>\n<dt><code>dis</code></dt><dd>\n<p>The amount of river discharge during the two weeks for which <code>sal</code> is the\naverage salinity.\n</p>\n</dd></dl>\n<h3>Source</h3>\n<p>The data were obtained from\n</p>\n<p>Ruppert, D. and Carroll, R.J. (1980) Trimmed least squares estimation in the \nlinear model. \n<em>Journal of the American Statistical Association</em>, <b>75</b>, 828&ndash;838.\n</p>\n<h3>References</h3>\n<p>Davison, A.C. and Hinkley, D.V. (1997) \n<em>Bootstrap Methods and Their Application</em>. Cambridge University Press.\n</p>\n</main>\n</div>\n",
    "data" : {
       "y" : {
-         "smps" : [
-            "sal",
-            "lag",
-            "trend",
-            "dis"
-         ],
          "data" : [
             [
                7.6,
@@ -183,6 +177,12 @@
                5,
                21.39
             ]
+         ],
+         "smps" : [
+            "sal",
+            "lag",
+            "trend",
+            "dis"
          ],
          "vars" : [
             "Var1",

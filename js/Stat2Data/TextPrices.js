@@ -1,3 +1,9 @@
+var TextPricesInfo ={
+   "description" : "Description\nPrices and number of pages for a sample of college textbooks",
+   "usage" : "A dataset with 30 observations on the following 2 variables.",
+   "title" : "Textbook Prices"
+}
+
 var TextPrices = [
    [
       "Pages",

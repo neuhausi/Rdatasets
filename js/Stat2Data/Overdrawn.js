@@ -1,3 +1,9 @@
+var OverdrawnInfo ={
+   "description" : "Description\nSurvey of college students to took at factors related to having overdrawn a checking account.",
+   "title" : "Overdrawn Checking Account?",
+   "usage" : "A dataset with 450 observations on the following 4 variables."
+}
+
 var Overdrawn = [
    [
       "Age",

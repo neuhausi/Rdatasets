@@ -1,3 +1,38 @@
+var BaseballInfo ={
+   "description" : "Description\nBaseball data.",
+   "usage" : "data(\"Baseball\")",
+   "parameters" : {
+      "name1" : "player's first name.",
+      "error86" : "number of assists (see Hitters)",
+      "div86" : "player's division.",
+      "homer86" : "home runs.",
+      "walks" : "career walks.",
+      "homeruns" : "career home runs.",
+      "name2" : "player's last name.",
+      "outs86" : "number of putouts (see Hitters)",
+      "runs" : "career runs.",
+      "league86" : "player's league.",
+      "rbi86" : "Runs Batted In: A hitter earns a run batted in when he\ndrives in a run via a hit, walk, sacrifice (bunt or fly) fielder's\nchoice, hit-batsman or on an error (when the official scorer rules\nthat the run would have scored anyway).",
+      "runs86" : "the number of runs scored by a player.  A run is\nscored by an offensive player who advances from batter to runner\nand touches first, second, third and home base in that order\nwithout being put out.",
+      "walks86" : "A &ldquo;walk&rdquo; (or &ldquo;base on balls&rdquo;) is an\naward of first base granted to a batter who receives four pitches\noutside the strike zone.",
+      "hits86" : "hits.",
+      "atbat86" : "times at Bat: number of official plate appearances by\na hitter.  It counts as an official at-bat as long as the batter\ndoes not walk, sacrifice, get hit by a pitch or reach base due to\ncatcher's interference.",
+      "team87" : "team in 1987.",
+      "team86" : "player's team.",
+      "sal87" : "annual salary on opening day (in USD 1000).",
+      "hits" : "career hits.",
+      "assist86" : "number of assists (see Hitters)",
+      "posit86" : "player's position (see Hitters).",
+      "rbi" : "career runs batted in.",
+      "years" : "Years in the Major Leagues.  Seems to count all years a\nplayer has actually played in the Major Leagues, not necessarily\nconsecutive.",
+      "atbat" : "career times at bat.",
+      "league87" : "league in 1987."
+   },
+   "format" : "A data frame with 322 observations and 25 variables.",
+   "title" : "Baseball Data",
+   "reference" : "SAS System for Statistical Graphics, First Edition, page A2.3"
+}
+
 var Baseball = [
    [
       "name1",

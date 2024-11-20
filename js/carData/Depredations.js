@@ -1,3 +1,17 @@
+var DepredationsInfo ={
+   "description" : "Description\nWolf depredations of livestock on Minnesota farms, 1976-1998.",
+   "parameters" : {
+      "longitude" : "longitude of the farm",
+      "number" : "number of depredations 1976-1998",
+      "early" : "number of depredations 1991 or before",
+      "late" : "number of depredations 1992 or later",
+      "latitude" : "latitude of the farm"
+   },
+   "format" : "A data frame with 434 observations on the following 5 variables.",
+   "title" : "Minnesota Wolf Depredation Data",
+   "usage" : "Depredations"
+}
+
 var Depredations = [
    [
       "longitude",

@@ -1,3 +1,25 @@
+var CreditInfo ={
+   "usage" : "Credit",
+   "description" : "Description\nA simulated data set containing information on ten thousand\ncustomers. The aim here is to predict which customers will default on\ntheir credit card debt.",
+   "title" : "Credit Card Balance Data",
+   "format" : "A data frame with 10000 observations on the following 4 variables.",
+   "reference" : "Simulated data, with thanks to Albert Kim for pointing out that\nthis was omitted, and supplying the data and man documentation page on\nOct 19, 2017",
+   "parameters" : {
+      "Income" : "Income in $1,000's",
+      "ID" : "Identification",
+      "Student" : "A factor with levels No and Yes\nindicating whether the individual was a student",
+      "Age" : "Age in years",
+      "Limit" : "Credit limit",
+      "Married" : "A factor with levels No and Yes\nindicating whether the individual was married",
+      "Ethnicity" : "A factor with levels African American, Asian, and Caucasian\nindicating the individual's ethnicity",
+      "Gender" : "A factor with levels Male and Female",
+      "Balance" : "Average credit card balance in $.",
+      "Rating" : "Credit rating",
+      "Education" : "Number of years of education",
+      "Cards" : "Number of credit cards"
+   }
+}
+
 var Credit = [
    [
       "ID",

@@ -1,3 +1,35 @@
+var mrozInfo ={
+   "description" : "Description\nWooldridge Source: T.A. Mroz (1987), âThe Sensitivity of an Empirical Model of Married Womenâs Hours of Work to Economic and Statistical Assumptions,â Econometrica 55, 765-799. Professor Ernst R. Berndt, of MIT, kindly provided the data, which he obtained from Professor Mroz. Data loads lazily.",
+   "usage" : "data('mroz')",
+   "parameters" : {
+      "unem" : " unem. rate in county of resid.",
+      "hours" : " hours worked, 1975",
+      "hushrs" : " hours worked by husband, 1975",
+      "faminc" : " family income, 1975",
+      "repwage" : " rep. wage at interview in 1976",
+      "kidsge6" : " # kids 6-18",
+      "educ" : " years of schooling",
+      "age" : " woman's age in yrs",
+      "expersq" : " exper^2",
+      "lwage" : " log(wage)",
+      "mtr" : " fed. marg. tax rte facing woman",
+      "husage" : " husband's age",
+      "fatheduc" : " father's years of schooling",
+      "inlf" : " =1 if in lab frce, 1975",
+      "wage" : " est. wage from earn, hrs",
+      "huseduc" : " husband's years of schooling",
+      "nwifeinc" : " (faminc - wage*hours)/1000",
+      "city" : " =1 if live in SMSA",
+      "kidslt6" : " # kids < 6 years",
+      "motheduc" : " mother's years of schooling",
+      "exper" : " actual labor mkt exper",
+      "huswage" : " husband's hourly wage, 1975"
+   },
+   "title" : "mroz",
+   "format" : "A data.frame with 753 observations on 22 variables:",
+   "reference" : "pages 249-251, 260, 294, 519-520, 530, 535, 535-536, 565-566, 578-579, 593- 595, 601-603, 619-620, 625"
+}
+
 var mroz = [
    [
       "inlf",

@@ -1,3 +1,10 @@
+var swissInfo ={
+   "description" : "Description\nStandardized fertility measure and socioeconomic indicators for each\nof 47 French-speaking provinces of Switzerland at about 1888.",
+   "title" : "Swiss Fertility and Socioeconomic Indicators (1888) Data",
+   "format" : "A data frame with 47 observations on 6 variables, each of which\nis in percent, i.e., in [0, 100].",
+   "usage" : "swiss"
+}
+
 var swiss = [
    [
       "Fertility",

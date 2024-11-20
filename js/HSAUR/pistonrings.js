@@ -1,3 +1,10 @@
+var pistonringsInfo ={
+   "description" : "Description\nNumber of failures of piston rings in three legs of four steam-driven\ncompressors.",
+   "title" : "Piston Rings Failures",
+   "format" : "A two-way classification, see table.",
+   "usage" : "data(\"pistonrings\")"
+}
+
 var pistonrings = [
    [
       "compressor",

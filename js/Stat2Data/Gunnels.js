@@ -1,3 +1,9 @@
+var GunnelsInfo ={
+   "usage" : "A data frame with 1592 observations on the following 10 variables.",
+   "title" : "Are Gunnels Present at Shoreline?",
+   "description" : "Description\nPresence/absence of gunnels (eels) at shoreline quadrats"
+}
+
 var Gunnels = [
    [
       "Gunnel",

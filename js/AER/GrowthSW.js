@@ -1,3 +1,19 @@
+var GrowthSWInfo ={
+   "description" : "Description\nData on average growth rates over 1960&ndash;1995 for 65 countries, along with\nvariables that are potentially related to growth.",
+   "usage" : "data(\"GrowthSW\")",
+   "parameters" : {
+      "revolutions" : "average annual number of revolutions, \ninsurrections (successful or not) and coup d'etats in that country from 1960 to 1995.",
+      "education" : "average number of years of schooling of adult residents in that country in 1960.",
+      "growth" : "average annual percentage growth of real GDP from 1960 to 1995.",
+      "rgdp60" : "value of GDP per capita in 1960, converted to 1960 US dollars.",
+      "assassinations" : "average annual number of political assassinations \nin that country from 1960 to 1995 (in per million population).",
+      "tradeshare" : "average share of trade in the economy from 1960 to 1995, \nmeasured as the sum of exports (X) plus imports (M), divided by GDP;\nthat is, the average value of (X + M)/GDP from 1960 to 1995."
+   },
+   "format" : "A data frame containing 65 observations on 6 variables.",
+   "title" : "Determinants of Economic Growth",
+   "reference" : "Online complements to Stock and Watson (2007)."
+}
+
 var GrowthSW = [
    [
       "growth",

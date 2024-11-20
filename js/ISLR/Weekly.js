@@ -1,3 +1,22 @@
+var WeeklyInfo ={
+   "description" : "Description\nWeekly percentage returns for the S&P 500 stock index\nbetween 1990 and 2010.",
+   "usage" : "Weekly",
+   "parameters" : {
+      "Lag4" : "Percentage return for 4 weeks previous",
+      "Today" : "Percentage return for this week",
+      "Volume" : "Volume of shares traded (average number of daily shares\ntraded in billions)",
+      "Lag5" : "Percentage return for 5 weeks previous",
+      "Lag2" : "Percentage return for 2 weeks previous",
+      "Direction" : "A factor with levels Down and\nUp indicating whether the market had a positive or negative\nreturn on a given week",
+      "Lag1" : "Percentage return for previous week",
+      "Lag3" : "Percentage return for 3 weeks previous",
+      "Year" : "The year that the observation was recorded"
+   },
+   "title" : "Weekly S&P Stock Market Data",
+   "reference" : "Raw values of the S&P 500 were obtained from Yahoo Finance and\nthen converted to percentages and lagged.",
+   "format" : "A data frame with 1089 observations on the following 9 variables."
+}
+
 var Weekly = [
    [
       "Year",

@@ -1,3 +1,17 @@
+var MammalsInfo ={
+   "parameters" : {
+      "weight" : "Body mass in Kg for \"typical adult sizes\"",
+      "specials" : "logical variable indicating special animals with\n\"lifestyles in which speed does not figure as an important\nfactor\":  Hippopotamus, raccoon (Procyon), badger (Meles),\ncoati (Nasua), skunk (Mephitis), man (Homo), porcupine\n(Erithizon), oppossum (didelphis), and sloth (Bradypus)",
+      "hoppers" : "logical variable indicating animals that ambulate\nby hopping, e.g. kangaroos",
+      "speed" : "Maximal running speed (fastest sprint velocity on record)"
+   },
+   "reference" : "Used by Chappell (1989) and Koenker, Ng and Portnoy (1994) to\nillustrate the fitting of piecewise linear curves.",
+   "format" : "A data frame with 107 observations on the following 4 variables.",
+   "title" : "Garland(1983) Data on Running Speed of Mammals",
+   "description" : "Description\nObservations on the maximal running speed of mammal species\nand their body mass.",
+   "usage" : "data(Mammals)"
+}
+
 var Mammals = [
    [
       "weight",

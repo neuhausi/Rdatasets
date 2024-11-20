@@ -1,3 +1,9 @@
+var Election08Info ={
+   "description" : "Description\nState-by-state information from the 2008 U.S. presidential election",
+   "title" : "2008 U.S. Presidential Election",
+   "usage" : "A dataframe with 51 observations on the following 7 variables."
+}
+
 var Election08 = [
    [
       "State",

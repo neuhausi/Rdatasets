@@ -1,3 +1,22 @@
+var oecdInfo ={
+   "format" : "An object of class \"data.frame\".",
+   "title" : "Gapminder Data",
+   "reference" : "head(gapminder)\nprint(oecd)\nprint(opec)",
+   "parameters" : {
+      "region. Geographical region." : null,
+      "life_expectancy. Life expectancy in years." : null,
+      "fertility. Average number of children per woman." : null,
+      "infant_mortality. Infant deaths per 1000." : null,
+      "year." : null,
+      "population. Country population." : null,
+      "gpd. GDP according to World Bankdev." : null,
+      "country." : null,
+      "continent." : null
+   },
+   "usage" : "gapminder",
+   "description" : "Description\nHealth and income outcomes for 184 countries from 1960 to 2016. Also includes two character vectors, oecd \nand opec, with the names of OECD and OPEC countries from 2016."
+}
+
 var oecd = [
    [
       "dat",

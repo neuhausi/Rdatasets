@@ -1,3 +1,16 @@
+var USMoneyInfo ={
+   "reference" : "Online complements to Greene (2003), Table F20.2.",
+   "format" : "A quarterly multiple time series from 1950 to 1983 with 3 variables.",
+   "title" : "USMoney",
+   "parameters" : {
+      "deflator" : "implicit price deflator for GNP.",
+      "gnp" : "nominal GNP.",
+      "m1" : "M1 measure of money stock."
+   },
+   "usage" : "data(\"USMoney\")",
+   "description" : "Description\nMoney, output and price deflator time series data, 1950&ndash;1983."
+}
+
 var USMoney = [
    [
       "gnp",

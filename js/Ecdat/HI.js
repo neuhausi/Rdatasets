@@ -1,3 +1,26 @@
+var HIInfo ={
+   "format" : "A dataframe containing :",
+   "title" : "Health Insurance and Hours Worked By Wives",
+   "reference" : "Olson, Craig A. (1998) &ldquo;A comparison of parametric and semiparametric estimates of the effect of spousal health insurance coverage on weekly hours worked by wives&rdquo;, Journal of Applied Econometrics, 13(5), September&ndash;October, 543&ndash;565.",
+   "parameters" : {
+      "experience" : "years of potential work experience",
+      "hhi" : "wife covered by husband's HI ?",
+      "education" : "a factor with levels, \"<9years\", \"9-11years\", \"12years\", \"13-15years\", \"16years\", \">16years\"",
+      "whi" : "wife has HI thru her job ?",
+      "hispanic" : "Hispanic ?",
+      "whrswk" : "hours worked per week by wife",
+      "wght" : "sampling weight",
+      "race" : "one of white, black, other",
+      "kidslt6" : "number of kids under age of 6",
+      "kids618" : "number of kids 6&ndash;18 years old",
+      "husby" : "husband's income in thousands of dollars",
+      "region" : "one of other, northcentral, \nsouth, west",
+      "hhi2" : "husband has HI thru own job ?"
+   },
+   "usage" : "data(HI)",
+   "description" : "Description\na cross-section from 1993\nnumber of observations :  22272\nobservation :  individuals\ncountry :  United States"
+}
+
 var HI = [
    [
       "whrswk",

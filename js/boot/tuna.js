@@ -1,3 +1,14 @@
+var tunaInfo ={
+   "title" : "Tuna Sighting Data",
+   "reference" : "The data were obtained from",
+   "format" : "This data frame contains the following column:",
+   "parameters" : {
+      "y" : "The perpendicular distance, in miles, from the transect for 64 independent \nsightings of tuna schools."
+   },
+   "usage" : "tuna",
+   "description" : "Description\nThe tuna data frame has 64 rows and 1 columns.\nThe data come from an aerial\nline transect survey of Southern Bluefin Tuna in the Great Australian Bight.\nAn aircraft with two spotters on board flies randomly allocated line transects.\nEach school of tuna sighted is counted and its perpendicular distance from the\ntransect measured.  The survey was conducted in summer when tuna tend to stay\non the surface."
+}
+
 var tuna = [
    [
       "y"

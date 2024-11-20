@@ -1,3 +1,10 @@
+var credit_dataInfo ={
+   "description" : "Description\nThese data are from the website of Dr. LluÃ­s A. Belanche MuÃ±oz by way of a\ngithub repository of Dr. Gaston Sanchez. One data point is a missing outcome\nwas removed from the original data.",
+   "title" : "Credit data",
+   "format" : "https://github.com/gastonstat/CreditScoring,\nhttp://bit.ly/2kkBFrk",
+   "usage" : "credit_data\n\na data frame"
+}
+
 var credit_data = [
    [
       "Status",

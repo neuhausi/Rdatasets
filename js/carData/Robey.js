@@ -1,3 +1,16 @@
+var RobeyInfo ={
+   "description" : "Description\nThe Robey data frame has 50 rows and 3 columns.\nThe observations are developing nations around 1990.",
+   "usage" : "Robey",
+   "parameters" : {
+      "contraceptors" : "Percent of contraceptors among married women of childbearing age.",
+      "region" : "A factor with levels:\nAfrica;\nAsia, Asia and Pacific;\nLatin.Amer, Latin America and Caribbean;\nNear.East, Near East and North Africa.",
+      "tfr" : "Total fertility rate (children per woman)."
+   },
+   "title" : "Fertility and Contraception",
+   "format" : "This data frame contains the following columns:",
+   "reference" : "Robey, B., Shea, M. A., Rutstein, O. and Morris, L. (1992) \nThe reproductive revolution: New survey findings. \nPopulation Reports. Technical Report M-11."
+}
+
 var Robey = [
    [
       "region",

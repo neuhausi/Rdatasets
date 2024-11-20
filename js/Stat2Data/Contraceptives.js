@@ -1,3 +1,18 @@
+var ContraceptivesInfo ={
+   "parameters" : {
+      "EE" : "Bioavailability of the ethinyl estradiol  component of the oral contraceptive (in pg*hr/ml)",
+      "Residuals" : "Residuals used for a Tukey nonadditivity plot",
+      "StudyPeriod" : "1=first or 2=second",
+      "ComparisonValues" : "Comparison values used for a Tukey nonadditivity plot",
+      "ID" : "ID number for each of the women",
+      "Treatment" : "Drug or Placebo"
+   },
+   "description" : "Description\nDrug interaction study with oral contraceptives",
+   "usage" : "A data frame with 44 observations on the following 6 variables.",
+   "reference" : "Twenty-two female subjects were allocated randomly to one of two treatment sequences in a two period crossover design.  The two treatments were a new Drug D or placebo, both given concomitantly with a standard oral contraceptive which was given in both study periods.  The oral contraceptive has two components, ethinyl estradiol (EE) and norethindrone (NET).  The purpose of the study was to evaluate whether the presence of Drug D affected the bioavailability of each of the oral contraceptive components.  Note that our dataset does not include the NET variable.",
+   "title" : "Drug Interaction with Contraceptives"
+}
+
 var Contraceptives = [
    [
       "ID",

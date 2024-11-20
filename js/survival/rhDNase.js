@@ -1,3 +1,21 @@
+var rhDNaseInfo ={
+   "usage" : "rhDNase\ndata(rhDNase, package=\"survival\")",
+   "description" : "Description\nResults of a randomized trial of rhDNase for the treatment of cystic\nfibrosis.",
+   "format" : "A data frame with 767 observations on the following 8 variables.",
+   "reference" : "In patients with cystic fibrosis, extracellular DNA is released by\nleukocytes that accumulate in the airways in response to chronic bacterial\ninfection.\nThis excess DNA thickens the mucus, which then cannot be cleared from the\nlung by the cilia.  The accumulation leads to exacerbations of\nrespiratory symptoms and progressive deterioration of lung function.\nAt the time of this study \nmore than 90% of cystic fibrosis patients eventually died of lung\ndisease.",
+   "title" : "rhDNASE data set",
+   "parameters" : {
+      "entry.dt" : "date of entry into the study",
+      "trt" : "treatment arm: 0=placebo, 1= rhDNase",
+      "fev" : "forced expriatory volume at enrollment, a measure\nof lung capacity",
+      "id" : "subject id",
+      "inst" : "enrolling institution",
+      "ivstop" : "days from enrollment to the cessation of\nIV antibiotics",
+      "end.dt" : "date of last follow-up",
+      "ivstart" : "days from enrollment to the start of IV antibiotics"
+   }
+}
+
 var rhDNase = [
    [
       "id",

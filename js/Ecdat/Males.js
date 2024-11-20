@@ -1,3 +1,25 @@
+var MalesInfo ={
+   "format" : "A dataframe containing :",
+   "title" : "Wages and Education of Young Males",
+   "reference" : "National Longitudinal Survey (NLS Youth Sample).",
+   "parameters" : {
+      "exper" : "years of experience (=age-6-school)",
+      "year" : "year",
+      "health" : "health problem ?",
+      "maried" : "married ?",
+      "ethn" : "a factor with levels (black, \nhisp, other)",
+      "residence" : "a factor with levels (rural area, \nnorth east, northern central, \nsouth)",
+      "wage" : "log of hourly wage",
+      "school" : "years of schooling",
+      "industry" : "a factor with 12 levels",
+      "occupation" : "a factor with 9 levels",
+      "nr" : "identifier",
+      "union" : "wage set by collective bargaining ?"
+   },
+   "usage" : "data(Males)",
+   "description" : "Description\na panel of 545 observations  from 1980  to 1987\nnumber of observations :  4360\nobservation :  individuals\ncountry :  United States"
+}
+
 var Males = [
    [
       "nr",

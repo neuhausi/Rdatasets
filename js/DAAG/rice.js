@@ -1,3 +1,20 @@
+var riceInfo ={
+   "description" : "Description\nThe rice data frame has 72 rows and 7 columns.\nThe data are from an experiment that compared wild type (wt)\nand genetically modified rice plants (ANU843), each\nwith three different chemical treatments (F10, NH4Cl, and NH4NO3).",
+   "usage" : "rice",
+   "parameters" : {
+      "fert" : "a factor with levels\nF10\nNH4Cl\nNH4NO3",
+      "variety" : "a factor with levels\nwt\nANU843",
+      "Block" : "a numeric vector",
+      "trt" : "a factor with levels\nF10,\nNH4Cl,\nNH4NO3,\nF10 +ANU843,\nNH4Cl +ANU843,\nNH4NO3 +ANU843",
+      "PlantNo" : "a numeric vector",
+      "ShootDryMass" : "a numeric vector",
+      "RootDryMass" : "a numeric vector"
+   },
+   "format" : "This data frame contains the following columns:",
+   "reference" : "Perrine, F.M., Prayitno, J., Weinman, J.J., Dazzo, F.B. and\nRolfe, B. 2001.  Rhizobium plasmids are involved in the inhibition or\nstimulation of rice growth and development.  Australian Journal of\nPlant Physiology 28: 923-927.",
+   "title" : "Genetically Modified and Wild Type Rice Data"
+}
+
 var rice = [
    [
       "PlantNo",

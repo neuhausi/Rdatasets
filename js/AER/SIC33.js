@@ -1,3 +1,16 @@
+var SIC33Info ={
+   "usage" : "data(\"SIC33\")",
+   "description" : "Description\nStatewide production data for primary metals industry (SIC 33).",
+   "reference" : "Online complements to Greene (2003). Table F6.1.",
+   "title" : "SIC33 Production Data",
+   "format" : "A data frame containing 27 observations on 3 variables.",
+   "parameters" : {
+      "capital" : "Capital stock.",
+      "labor" : "Labor input.",
+      "output" : "Value added."
+   }
+}
+
 var SIC33 = [
    [
       "output",

@@ -1,3 +1,17 @@
+var cuckoosInfo ={
+   "parameters" : {
+      "length" : "the egg lengths in millimeters",
+      "id" : "a numeric vector",
+      "species" : "a factor with levels\nhedge.sparrow, \nmeadow.pipit, \npied.wagtail, \nrobin, \ntree.pipit, \nwren",
+      "breadth" : "the egg breadths in millimeters"
+   },
+   "title" : "Cuckoo Eggs Data",
+   "reference" : "Latter, O.H. (1902). The eggs of Cuculus canorus. An\nInquiry into the dimensions of the cuckoo's egg and the relation of the\nvariations to the size of the eggs of the foster-parent, with notes on\ncoloration, &c. Biometrika i, 164.  Tippett (1931) gives summary details\nof the data.",
+   "format" : "This data frame contains the following columns:",
+   "description" : "Description\nLength and breadth measurements of 120 eggs lain in the nests of six \ndifferent species of host bird.",
+   "usage" : "cuckoos"
+}
+
 var cuckoos = [
    [
       "length",

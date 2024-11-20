@@ -1,3 +1,18 @@
+var GasolineInfo ={
+   "usage" : "A data frame containing :",
+   "reference" : "total number of observations : 342",
+   "title" : "Gasoline Consumption",
+   "description" : "Description\nA panel of 18 observations from 1960 to 1978",
+   "parameters" : {
+      "lrpmg" : "logarithm of real motor gasoline price",
+      "lincomep" : "logarithm of real per-capita income",
+      "year" : "the year",
+      "lcarpcap" : "logarithm of the stock of cars per capita",
+      "country" : "a factor with 18 levels",
+      "lgaspcar" : "logarithm of motor gasoline consumption per car"
+   }
+}
+
 var Gasoline = [
    [
       "country",

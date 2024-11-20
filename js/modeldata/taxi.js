@@ -1,3 +1,19 @@
+var taxiInfo ={
+   "reference" : "tibble",
+   "title" : "Chicago taxi data set",
+   "usage" : "The source data are originally described on the linked City of Chicago\ndata portal. The data exported here are a pre-processed subset motivated by\nthe modeling problem of predicting whether a rider will tip or not.",
+   "description" : "Description\nA data set containing information on a subset of taxi trips in the city\nof Chicago in 2022.",
+   "parameters" : {
+      "distance" : "The trip distance, in odometer miles.",
+      "local" : "Whether the trip's starting and ending locations are in the\nsame community. See the source data for community area values.",
+      "hour" : "The hour of the day in which the trip began, as a\nnumeric.",
+      "month" : "The month in which the trip began, as a factor.",
+      "company" : "The taxi company, as a factor. Companies that occurred\nfew times were binned as \"other\".",
+      "tip" : "Whether the rider left a tip. A factor with levels\n\"yes\" and \"no\".",
+      "dow" : "The day of the week in which the trip began, as a\nfactor."
+   }
+}
+
 var taxi = [
    [
       "tip",

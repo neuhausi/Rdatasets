@@ -1,3 +1,23 @@
+var oliveInfo ={
+   "description" : "Description\nComposition in percentage of eight fatty acids found in the lipid fraction of 572 Italian olive oils",
+   "usage" : "olive",
+   "parameters" : {
+      "palmitoleic. Percent palmitoleic of sample." : null,
+      "oleic. Percent oleic acid of sample." : null,
+      "stearic. Percent stearic acid of sample." : null,
+      "region. General region of Italy." : null,
+      "palmitic. Percent palmitic acid of sample." : null,
+      "eicosenoic. Percent eicosenoic acid of sample." : null,
+      "arachidic. Percent arachidic acid of sample." : null,
+      "area. Area of Italy." : null,
+      "linolenic. Percent linolenic acid of sample." : null,
+      "linoleic. Percent linoleic acid of sample." : null
+   },
+   "title" : "Italian olive",
+   "reference" : "J. Zupan, and J. Gasteiger.  Neural Networks in Chemistry and Drug Design.",
+   "format" : "An object of class \"data.frame\"."
+}
+
 var olive = [
    [
       "region",

@@ -1,3 +1,16 @@
+var FrozenJuiceInfo ={
+   "usage" : "data(\"FrozenJuice\")",
+   "description" : "Description\nMonthly data on the price of frozen orange juice concentrate and temperature\nin the orange-growing region of Florida.",
+   "title" : "Price of Frozen Orange Juice",
+   "reference" : "The orange juice price data are the frozen orange juice component of processed foods and\nfeeds group of the Producer Price Index (PPI), collected by the US Bureau of Labor\nStatistics (BLS series wpu02420301). The orange juice price series was divided by the\noverall PPI for finished goods to adjust for general price inflation. The freezing degree\ndays series was constructed from daily minimum temperatures recorded at Orlando area\nairports, obtained from the National Oceanic and Atmospheric Administration (NOAA)\nof the US Department of Commerce.",
+   "format" : "A monthly multiple time series from 1950(1) to 2000(12) with 3 variables.",
+   "parameters" : {
+      "price" : "Average producer price for frozen orange juice.",
+      "ppi" : "Producer price index for finished goods. Used to deflate the\noverall producer price index for finished goods to eliminate the \neffects of overall price inflation.",
+      "fdd" : "Number of freezing degree days at the Orlando, Florida, airport.\nCalculated as the sum of the number of degrees Fahrenheit that the \nminimum temperature falls below freezing (32 degrees Fahrenheit = about 0 degrees Celsius)\nin a given day over all days in the month: fdd = sum(max(0, 32 - minimum daily temperature)),\ne.g. for February fdd is the number of freezing degree days from January 11\nto February 10."
+   }
+}
+
 var FrozenJuice = [
    [
       "price",

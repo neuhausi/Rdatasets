@@ -1,3 +1,16 @@
+var ButterfliesBcInfo ={
+   "description" : "Description\nMeasurements for a sample of butterflies in Greenland",
+   "parameters" : {
+      "Wing" : "Average wing length (mm)",
+      "Sex" : "Female or Male",
+      "Temp" : "Average temperature for preceding summer (Celsius)",
+      "Species" : "all are Bc, Boloria chariclea"
+   },
+   "reference" : "Scientists measured wing length of a species of butterfly, Boloria chariclea (Bc), in Greenland each year from 1996 through 2013. They also recorded summer temperatures.",
+   "title" : "Butterfly (Boloria chariclea) Measurements",
+   "usage" : "A data frame with 32 observations on the following 4 variables."
+}
+
 var ButterfliesBc = [
    [
       "Temp",

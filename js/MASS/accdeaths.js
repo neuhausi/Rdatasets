@@ -1,3 +1,10 @@
+var accdeathsInfo ={
+   "usage" : "accdeaths",
+   "format" : "The values for first six months of 1979 (p. 326) were\n7798 7406 8363 8460 9217 9316.",
+   "title" : "Accidental Deaths in the US 1973-1978",
+   "description" : "Description\nA regular time series giving the monthly totals of accidental\ndeaths in the USA."
+}
+
 var accdeaths = [
    [
       "time",

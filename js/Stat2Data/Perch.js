@@ -1,3 +1,9 @@
+var PerchInfo ={
+   "description" : "Description\nSize of perch caught in a Finnish lake",
+   "title" : "Perch Sizes",
+   "usage" : "A dataset with 56 observations on the following 4 variables."
+}
+
 var Perch = [
    [
       "Obs",

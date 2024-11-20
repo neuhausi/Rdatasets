@@ -1,3 +1,15 @@
+var cementInfo ={
+   "parameters" : {
+      "y" : "heat evolved in cals/gm.",
+      "x1, x2, x3, x4" : "Proportions (%) of active ingredients."
+   },
+   "title" : "Heat Evolved by Setting Cements",
+   "format" : "x1, x2, x3, x4\nProportions (%) of active ingredients.\n\n\ny\nheat evolved in cals/gm.",
+   "reference" : "Thirteen samples of Portland cement were set. For each sample, the\npercentages of the four main chemical ingredients was accurately\nmeasured.  While the cement was setting the amount of heat evolved was\nalso measured.",
+   "description" : "Description\nExperiment on the heat evolved in the setting of each of 13 cements.",
+   "usage" : "cement"
+}
+
 var cement = [
    [
       "x1",

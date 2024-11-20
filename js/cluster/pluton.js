@@ -1,3 +1,17 @@
+var plutonInfo ={
+   "title" : "Isotopic Composition Plutonium Batches",
+   "format" : "This data frame contains the following columns:",
+   "reference" : "Note that the percentage of plutonium~242 can be computed from the\nother four percentages, see the examples.",
+   "parameters" : {
+      "Pu239" : "the percentages of \\ ^{239}Pu,\ntypically between 60 and 80 percent (from neutron capture of Uranium,\n\\ ^{238}U).",
+      "Pu241" : "percentage of the plutonium 241 isotope.",
+      "Pu240" : "percentage of the plutonium 240 isotope.",
+      "Pu238" : "the percentages of \\ ^{238}Pu,\nalways less than 2 percent."
+   },
+   "usage" : "data(pluton)",
+   "description" : "Description\nThe pluton data frame has 45 rows and 4 columns,\ncontaining percentages of isotopic composition of 45 Plutonium\nbatches."
+}
+
 var pluton = [
    [
       "Pu238",

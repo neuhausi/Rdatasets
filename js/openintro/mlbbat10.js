@@ -1,3 +1,32 @@
+var mlbbat10Info ={
+   "description" : "Description\nMajor League Baseball Player Hitting Statistics for 2010.",
+   "usage" : "mlbbat10",
+   "parameters" : {
+      "home_run" : "Number of home runs",
+      "at_bat" : "Number of at bats",
+      "game" : "Number of games",
+      "strike_out" : "Number of strikeouts",
+      "double" : "Number of doubles",
+      "stolen_base" : "Number of stolen bases",
+      "hit" : "Number of hits",
+      "rbi" : "Number of runs batted in",
+      "slg" : "Slugging percentage (total_base / at_bat)",
+      "total_base" : "Total bases, computed as 3HR + 23B + 1*2B + H",
+      "run" : "Number of runs",
+      "position" : "Player position",
+      "caught_stealing" : "Number of times caught stealing",
+      "triple" : "Number of triples",
+      "bat_avg" : "Batting average",
+      "walk" : "Number of walks",
+      "team" : "Team abbreviation",
+      "name" : "Player name",
+      "obp" : "On base percentage"
+   },
+   "title" : "Major League Baseball Player Hitting Statistics for 2010",
+   "format" : "A data frame with 1199 observations on the following 19 variables.",
+   "reference" : "https://www.mlb.com, retrieved 2011-04-22."
+}
+
 var mlbbat10 = [
    [
       "name",

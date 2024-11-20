@@ -1,3 +1,20 @@
+var rainforestInfo ={
+   "parameters" : {
+      "branch" : "a numeric vector",
+      "wood" : "a numeric vector",
+      "bark" : "a numeric vector",
+      "rootsk" : "a numeric vector",
+      "root" : "a numeric vector",
+      "species" : "a factor with levels\nAcacia mabellae,\nC. fraseri,\nAcmena smithii,\nB. myrtifolia",
+      "dbh" : "a numeric vector"
+   },
+   "title" : "Rainforest Data",
+   "format" : "This data frame contains the following columns:",
+   "reference" : "J. Ash, Australian National University",
+   "description" : "Description\nThe rainforest data frame has 65 rows and 7 columns.",
+   "usage" : "rainforest"
+}
+
 var rainforest = [
    [
       "dbh",

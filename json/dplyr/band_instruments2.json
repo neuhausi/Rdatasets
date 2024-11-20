@@ -1,4 +1,5 @@
 {
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>band_members</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Band membership</h2>\n<h3>Description</h3>\n<p>These data sets describe band members of the Beatles and Rolling Stones. They\nare toy data sets that can be displayed in their entirety on a slide (e.g. to\ndemonstrate a join).\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>band_members\nband_instruments\nband_instruments2\n</code></pre>\n<h3>Format</h3>\n<p>Each is a tibble with two variables and three observations\n</p>\n<h3>Details</h3>\n<p><code>band_instruments</code> and <code>band_instruments2</code> contain the same data but use\ndifferent column names for the first column of the data set.\n<code>band_instruments</code> uses <code>name</code>, which matches the name of the key column of\n<code>band_members</code>; <code>band_instruments2</code> uses <code>artist</code>, which does not.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>band_members\nband_instruments\nband_instruments2\n</code></pre>\n</main>\n</div>\n",
    "data" : {
       "x" : {
          "plays" : [
@@ -18,29 +19,28 @@
             "Smp2",
             "Smp3"
          ],
+         "vars" : [
+            "Row"
+         ],
          "data" : [
             [
                1,
                2,
                3
             ]
-         ],
-         "vars" : [
-            "Row"
          ]
       }
    },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>band_members</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Band membership</h2>\n<h3>Description</h3>\n<p>These data sets describe band members of the Beatles and Rolling Stones. They\nare toy data sets that can be displayed in their entirety on a slide (e.g. to\ndemonstrate a join).\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>band_members\nband_instruments\nband_instruments2\n</code></pre>\n<h3>Format</h3>\n<p>Each is a tibble with two variables and three observations\n</p>\n<h3>Details</h3>\n<p><code>band_instruments</code> and <code>band_instruments2</code> contain the same data but use\ndifferent column names for the first column of the data set.\n<code>band_instruments</code> uses <code>name</code>, which matches the name of the key column of\n<code>band_members</code>; <code>band_instruments2</code> uses <code>artist</code>, which does not.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>band_members\nband_instruments\nband_instruments2\n</code></pre>\n</main>\n</div>\n",
    "config" : {
-      "graphType" : "Boxplot",
-      "subtitle" : "dplyr - band_instruments2",
       "segregateSamplesBy" : [
          "artist"
       ],
+      "subtitle" : "dplyr - band_instruments2",
       "title" : "Band membership",
-      "colorBy" : "variable",
       "groupingFactors" : [
          "plays"
-      ]
+      ],
+      "graphType" : "Boxplot",
+      "colorBy" : "variable"
    }
 }

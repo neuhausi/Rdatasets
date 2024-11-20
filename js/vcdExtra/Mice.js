@@ -1,3 +1,17 @@
+var MiceInfo ={
+   "title" : "Mice Depletion Data",
+   "reference" : "Goodman, L. A. (1983)\nThe analysis of dependence in cross-classifications having ordered categories, using log-linear models for frequencies and log-linear models for odds.\nBiometrics, 39, 149-160.",
+   "format" : "A frequency data frame with 30 observations on the following 4 variables, representing a 5 x 2 x 3 contingency table.",
+   "parameters" : {
+      "treatment" : "treatment, a factor with levels A B",
+      "deaths" : "number of depletions, a factor with levels 0 1 2+",
+      "litter" : "litter size, a numeric vector",
+      "Freq" : "cell frequency, a numeric vector"
+   },
+   "usage" : "data(\"Mice\")",
+   "description" : "Description\nData from Kastenbaum and Lamphiear (1959).\nThe table gives the number of depletions (deaths) in 657 litters of mice, classified by\nlitter size and treatment.  This data set has become a classic in the analysis of\ncontingency tables, yet unfortunately little information on the details of the\nexperiment has been published."
+}
+
 var Mice = [
    [
       "litter",

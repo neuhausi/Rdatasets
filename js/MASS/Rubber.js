@@ -1,3 +1,16 @@
+var RubberInfo ={
+   "title" : "Accelerated Testing of Tyre Rubber",
+   "format" : "loss\nthe abrasion loss in gm/hr.\n\n\nhard\nthe hardness in Shore units.\n\n\ntens\ntensile strength in kg/sq m.",
+   "reference" : "O.L. Davies (1947)\nStatistical Methods in Research and Production.\nOliver and Boyd, Table 6.1 p. 119.",
+   "parameters" : {
+      "hard" : "the hardness in Shore units.",
+      "loss" : "the abrasion loss in gm/hr.",
+      "tens" : "tensile strength in kg/sq m."
+   },
+   "usage" : "Rubber",
+   "description" : "Description\nData frame from accelerated testing of tyre rubber."
+}
+
 var Rubber = [
    [
       "loss",

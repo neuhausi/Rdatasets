@@ -1,3 +1,41 @@
+var HELPmissInfo ={
+   "parameters" : {
+      "cesd" : "Center for Epidemiologic Studies Depression measure of depressive symptoms at baseline (higher scores indicate more symptoms)",
+      "indtot" : "Inventory of Drug Use Consequences (InDUC) total score (measured at baseline)",
+      "substance" : "primary substance of abuse: alcohol cocaine heroin",
+      "pcs" : "SF-36 Physical Component Score (measured at baseline, higher scores are better)",
+      "i1" : "average number of drinks (standard units) consumed per day, in the\npast 30 days (measured at baseline)",
+      "i2" : "maximum number of drinks (standard units) consumed per day, in the\npast 30 days (measured at baseline)",
+      "mcs" : "SF-36 Mental Component Score (measured at baseline, higher scores are better)",
+      "age" : "subject age at baseline (in years)",
+      "sexrisk" : "Risk Assessment Battery sex risk score (measured at baseline)",
+      "g1b" : "experienced serious thoughts of suicide in last 30 days (measured at baseline): a factor with levels no yes",
+      "satreat" : "any BSAS substance abuse treatment at baseline: no yes",
+      "anysub" : "use of any substance post-detox: a factor with levels no yes",
+      "racegrp" : "race/ethnicity: levels black hispanic other white",
+      "pss_fr" : "perceived social support by friends (measured at baseline)",
+      "treat" : "randomized to HELP clinic: no yes",
+      "female" : "0 for male, 1 for female",
+      "d1" : "lifetime number of hospitalizations for medical problems (measured at baseline)",
+      "max_drinks" : "maximum number of drinks (standard units) consumed per day, in the\npast 30 days (measured at baseline).  Same as i2.",
+      "dayslink" : "time (in days) to linkage to primary care",
+      "sex" : "a factor with levels male female",
+      "drugrisk" : "Risk Assessment Battery drug risk scale at baseline",
+      "id" : "subject identifier",
+      "daysanysub" : "time (in days) to first use of any substance post-detox",
+      "linkstatus" : "post-detox linkage to primary care (0 = no, 1 = yes)",
+      "homeless" : "housing status: a factor with levels housed homeless",
+      "link" : "post-detox linkage to primary care: no yes",
+      "e2b" : "number of times in past 6 months entered a detox program (measured at baseline)",
+      "avg_drinks" : "average number of drinks (standard units) consumed per day, in the\npast 30 days (measured at baseline). Same as i1."
+   },
+   "reference" : "Eligible subjects were adults, who spoke Spanish or English, reported alcohol,\nheroin or cocaine as their first or second drug of choice, resided in proximity\nto the primary care clinic to which they would be referred or were homeless.\nPatients with established primary care relationships they planned to continue,\nsignificant dementia, specific plans to leave the Boston area that would\nprevent research participation, failure to provide contact information for\ntracking purposes, or pregnancy were excluded.",
+   "format" : "Data frame with 470 observations on the following variables.",
+   "title" : "Health Evaluation and Linkage to Primary Care",
+   "description" : "Description\nThe HELP study was a clinical trial for adult inpatients recruited from a\ndetoxification unit.  Patients with no primary care physician were randomized\nto receive a multidisciplinary assessment and a brief motivational intervention\nor usual care, with the goal of linking them to primary medical care.",
+   "usage" : "data(HELPmiss)"
+}
+
 var HELPmiss = [
    [
       "age",

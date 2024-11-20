@@ -1,3 +1,15 @@
+var btrialInfo ={
+   "reference" : "Klein and Moeschberger (1997) Survival Analysis Techniques for Censored\nand truncated data, Springer.\nSedmak el al. Modern Pathology 2 (1989): 516-520.",
+   "title" : "data from Section 1.5",
+   "usage" : "This data frame contains the following columns:",
+   "parameters" : {
+      "time" : "Time to death or on-study time, months",
+      "death" : "Death indicator (0=alive, 1=dead)",
+      "im" : "Immunohistochemical response (1=negative, 2=positive)"
+   },
+   "description" : "Description\nThe btrial data frame has 45 rows and 3 columns."
+}
+
 var btrial = [
    [
       "time",

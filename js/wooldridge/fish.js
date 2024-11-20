@@ -1,3 +1,33 @@
+var fishInfo ={
+   "parameters" : {
+      "avgprc" : " ((prca*qtya) + (prcw*qtyw))/(qtya + qtyw)",
+      "tues" : " =1 if Tuesday",
+      "speed2" : " min past 2 days wind speeds",
+      "qtya" : " quantity sold to Asians",
+      "prca" : " price for Asian buyers",
+      "speed3" : " 3 day lagged max windspeed",
+      "thurs" : " =1 if Thursday",
+      "lavgp_1" : " lavgprc[_n-1]",
+      "gavgp_1" : " gavgprc[_n-1]",
+      "totqty" : " qtya + qtyw",
+      "wed" : " =1 if Wednesday",
+      "t" : " time trend",
+      "ltotqty" : " log(totqty)",
+      "prcw" : " price for white buyers",
+      "wave2" : " avg max last 2 days wave height",
+      "gavgprc" : " lavgprc - lavgp_1",
+      "lavgprc" : " log(avgprc)",
+      "qtyw" : " quantity sold to whites",
+      "wave3" : " avg max wave hghts of 3 & 4 day lagged hghts",
+      "mon" : " =1 if Monday"
+   },
+   "format" : "A data.frame with 97 observations on 20 variables:",
+   "title" : "fish",
+   "reference" : "This is a nice example of how to go about finding exogenous variables to use as instrumental variables. Often, weather conditions can be assumed to affect supply while having a negligible effect on demand. If so, the weather variables are valid instrumental variables for price in the demand equation. It is a simple matter to test whether prices vary with weather conditions by estimating the reduced form for price.",
+   "description" : "Description\nWooldridge Source: K Graddy (1995), âTesting for Imperfect Competition at the Fulton Fish Market,â RAND Journal of Economics 26, 75-92. Professor Graddy's collaborator on a later paper, Professor Joshua Angrist at MIT, kindly provided me with these data. Data loads lazily.",
+   "usage" : "data('fish')"
+}
+
 var fish = [
    [
       "prca",

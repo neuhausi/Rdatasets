@@ -1,8 +1,8 @@
 {
    "config" : {
       "graphType" : "Scatter2D",
-      "subtitle" : "AER - UKInflation",
-      "title" : "UK Manufacturing Inflation Data"
+      "title" : "UK Manufacturing Inflation Data",
+      "subtitle" : "AER - UKInflation"
    },
    "data" : {
       "y" : {
@@ -224,10 +224,6 @@
                2.7
             ]
          ],
-         "smps" : [
-            "actual",
-            "expected"
-         ],
          "vars" : [
             "Var1",
             "Var2",
@@ -283,6 +279,10 @@
             "Var52",
             "Var53",
             "Var54"
+         ],
+         "smps" : [
+            "actual",
+            "expected"
          ]
       }
    },

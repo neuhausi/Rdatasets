@@ -1,16 +1,11 @@
 {
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>alcohol</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Alcohol Solubility in Water Data</h2>\n<h3>Description</h3>\n<p>The solubility of alcohols in water is important in understanding\nalcohol transport in living organisms.  This dataset from (Romanelli\net al., 2001) contains physicochemical characteristics of 44 aliphatic\nalcohols.  The aim of the experiment was the prediction of the\nsolubility on the basis of molecular descriptors.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(alcohol, package=\"robustbase\")</code></pre>\n<h3>Format</h3>\n<p>A data frame with 44 observations on the following 7 numeric variables.\n</p>\n<dl>\n<dt><code>SAG</code></dt><dd><p>solvent accessible surface-bounded molecular volume.</p>\n</dd>\n<dt><code>V</code></dt><dd><p>volume</p>\n</dd>\n<dt><code>logPC</code></dt><dd><p>Log(PC); PC = octanol-water partitions coefficient</p>\n</dd>\n<dt><code>P</code></dt><dd><p>polarizability</p>\n</dd>\n<dt><code>RM</code></dt><dd><p>molar refractivity</p>\n</dd>\n<dt><code>Mass</code></dt><dd><p>the mass</p>\n</dd>\n<dt><code>logSolubility</code></dt><dd><p>ln(Solubility), the response.</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>The website accompanying the MMY-book:\n<a href=\"https://www.wiley.com/legacy/wileychi/robust_statistics/\">https://www.wiley.com/legacy/wileychi/robust_statistics/</a>\n</p>\n<h3>References</h3>\n<p>Maronna, R.A., Martin, R.D. and Yohai, V.J. (2006)\n<em>Robust Statistics, Theory and Methods</em>, Wiley.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>data(alcohol)\n## version of data set with trivial names, as\ns.alcohol &lt;- alcohol\nnames(s.alcohol) &lt;- paste(\"Col\", 1:7, sep='')\n</code></pre>\n</main>\n</div>\n",
+   "config" : {
+      "graphType" : "Heatmap",
+      "title" : "Alcohol Solubility in Water Data",
+      "subtitle" : "robustbase - alcohol"
+   },
    "data" : {
       "y" : {
-         "vars" : [
-            "SAG",
-            "V",
-            "logPC",
-            "P",
-            "RM",
-            "Mass",
-            "logSolubility"
-         ],
          "data" : [
             [
                251.94,
@@ -335,6 +330,15 @@
                -14.61402
             ]
          ],
+         "vars" : [
+            "SAG",
+            "V",
+            "logPC",
+            "P",
+            "RM",
+            "Mass",
+            "logSolubility"
+         ],
          "smps" : [
             "Smp1",
             "Smp2",
@@ -383,9 +387,5 @@
          ]
       }
    },
-   "config" : {
-      "title" : "Alcohol Solubility in Water Data",
-      "subtitle" : "robustbase - alcohol",
-      "graphType" : "Heatmap"
-   }
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>alcohol</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Alcohol Solubility in Water Data</h2>\n<h3>Description</h3>\n<p>The solubility of alcohols in water is important in understanding\nalcohol transport in living organisms.  This dataset from (Romanelli\net al., 2001) contains physicochemical characteristics of 44 aliphatic\nalcohols.  The aim of the experiment was the prediction of the\nsolubility on the basis of molecular descriptors.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(alcohol, package=\"robustbase\")</code></pre>\n<h3>Format</h3>\n<p>A data frame with 44 observations on the following 7 numeric variables.\n</p>\n<dl>\n<dt><code>SAG</code></dt><dd><p>solvent accessible surface-bounded molecular volume.</p>\n</dd>\n<dt><code>V</code></dt><dd><p>volume</p>\n</dd>\n<dt><code>logPC</code></dt><dd><p>Log(PC); PC = octanol-water partitions coefficient</p>\n</dd>\n<dt><code>P</code></dt><dd><p>polarizability</p>\n</dd>\n<dt><code>RM</code></dt><dd><p>molar refractivity</p>\n</dd>\n<dt><code>Mass</code></dt><dd><p>the mass</p>\n</dd>\n<dt><code>logSolubility</code></dt><dd><p>ln(Solubility), the response.</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>The website accompanying the MMY-book:\n<a href=\"https://www.wiley.com/legacy/wileychi/robust_statistics/\">https://www.wiley.com/legacy/wileychi/robust_statistics/</a>\n</p>\n<h3>References</h3>\n<p>Maronna, R.A., Martin, R.D. and Yohai, V.J. (2006)\n<em>Robust Statistics, Theory and Methods</em>, Wiley.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>data(alcohol)\n## version of data set with trivial names, as\ns.alcohol &lt;- alcohol\nnames(s.alcohol) &lt;- paste(\"Col\", 1:7, sep='')\n</code></pre>\n</main>\n</div>\n"
 }

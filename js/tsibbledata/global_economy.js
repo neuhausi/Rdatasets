@@ -1,3 +1,10 @@
+var global_economyInfo ={
+   "description" : "Description\nEconomic indicators featured by the World Bank from 1960 to 2017.",
+   "usage" : "Time series of class tsibble",
+   "format" : "global_economy is an annual tsibble with six values:",
+   "title" : "Global economic indicators"
+}
+
 var global_economy = [
    [
       "Country",

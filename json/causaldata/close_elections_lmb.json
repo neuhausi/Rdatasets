@@ -1,11 +1,11 @@
 {
    "config" : {
       "subtitle" : "causaldata - close_elections_lmb",
-      "graphType" : "Heatmap",
       "smpOverlays" : [
          "demvoteshare",
          "lagdemvoteshare"
       ],
+      "graphType" : "Heatmap",
       "title" : "A close-elections regression discontinuity study from Lee"
    },
    "data" : {
@@ -27192,6 +27192,15 @@
          ]
       },
       "y" : {
+         "vars" : [
+            "state",
+            "district",
+            "id",
+            "score",
+            "year",
+            "democrat",
+            "lagdemocrat"
+         ],
          "smps" : [
             "Smp1",
             "Smp2",
@@ -135913,15 +135922,6 @@
                1,
                1
             ]
-         ],
-         "vars" : [
-            "state",
-            "district",
-            "id",
-            "score",
-            "year",
-            "democrat",
-            "lagdemocrat"
          ]
       }
    },

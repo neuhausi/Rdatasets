@@ -1,3 +1,10 @@
+var DwyerInfo ={
+   "description" : "Description\nDwyer (1937) introduced a technique for factor extension and used 8 cognitive variables from Thurstone.  This is the example data set used in his paper.",
+   "usage" : "data(Dwyer)",
+   "title" : "8 cognitive variables used by Dwyer for an example.",
+   "format" : "The format is:\nnum [1:8, 1:8] 1 0.58 -0.28 0.01 0.36 0.38 0.61 0.15 0.58 1 ...\n- attr(*, \"dimnames\")=List of 2\n..$ : chr [1:8] \"V1\" \"V2\" \"V3\" \"V4\" ...\n..$ : chr [1:8] \"V1\" \"V2\" \"V3\" \"V4\" ..."
+}
+
 var Dwyer = [
    [
       "V1",

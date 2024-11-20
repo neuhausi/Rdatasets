@@ -1,12 +1,11 @@
 {
    "config" : {
       "subtitle" : "datasets - attenu",
-      "scatterPlotMatrix" : 1,
-      "graphType" : "Scatter2D",
       "colorBy" : "station",
-      "title" : "The Joyner-Boore Attenuation Data"
+      "title" : "The Joyner-Boore Attenuation Data",
+      "graphType" : "Scatter2D",
+      "scatterPlotMatrix" : 1
    },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>attenu</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>The Joyner&ndash;Boore Attenuation Data</h2>\n<h3>Description</h3>\n<p>This data gives peak accelerations measured at various observation\nstations for 23 earthquakes in California.  The data have been used\nby various workers to estimate the attenuating affect of distance\non ground acceleration.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>attenu</code></pre>\n<h3>Format</h3>\n<p>A data frame with 182 observations on 5 variables.\n</p>\n<table>\n<tr>\n <td style=\"text-align: right;\">\n    [,1] </td><td style=\"text-align: left;\"> <code>event</code>   </td><td style=\"text-align: left;\"> numeric </td><td style=\"text-align: left;\"> Event Number</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    [,2] </td><td style=\"text-align: left;\"> <code>mag</code>     </td><td style=\"text-align: left;\"> numeric </td><td style=\"text-align: left;\"> Moment Magnitude</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    [,3] </td><td style=\"text-align: left;\"> <code>station</code> </td><td style=\"text-align: left;\"> factor  </td><td style=\"text-align: left;\"> Station Number</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    [,4] </td><td style=\"text-align: left;\"> <code>dist</code>    </td><td style=\"text-align: left;\"> numeric </td><td style=\"text-align: left;\"> Station-hypocenter distance (km)</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    [,5] </td><td style=\"text-align: left;\"> <code>accel</code>   </td><td style=\"text-align: left;\"> numeric </td><td style=\"text-align: left;\"> Peak acceleration (g)</td>\n</tr>\n</table>\n<h3>Source</h3>\n<p>Joyner, W.B., D.M. Boore and R.D. Porcella (1981).  Peak horizontal\nacceleration and velocity from strong-motion records including\nrecords from the 1979 Imperial Valley, California earthquake.  <abbr>USGS</abbr>\nOpen File report 81-365. Menlo Park, Ca.\n</p>\n<h3>References</h3>\n<p>Boore, D. M. and Joyner, W. B.(1982).\nThe empirical prediction of ground motion,\n<em>Bulletin of the Seismological Society of America</em>, <b>72</b>,\nS269&ndash;S268.\n</p>\n<p>Bolt, B. A. and Abrahamson, N. A. (1982).\nNew attenuation relations for peak and expected accelerations of\nstrong ground motion.\n<em>Bulletin of the Seismological Society of America</em>, <b>72</b>,\n2307&ndash;2321.\n</p>\n<p>Bolt B. A. and Abrahamson, N. A. (1983).\nReply to W. B. Joyner &amp; D. M. Boore's &ldquo;Comments on: New\nattenuation relations for peak and expected accelerations for peak\nand expected accelerations of strong ground motion&rdquo;,\n<em>Bulletin of the Seismological Society of America</em>, <b>73</b>,\n1481&ndash;1483.\n</p>\n<p>Brillinger, D. R. and Preisler, H. K. (1984).\nAn exploratory analysis of the Joyner-Boore attenuation data,\n<em>Bulletin of the Seismological Society of America</em>, <b>74</b>,\n1441&ndash;1449.\n</p>\n<p>Brillinger, D. R. and Preisler, H. K. (1984).\n<em>Further analysis of the Joyner-Boore attenuation data</em>.\nManuscript.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>require(graphics)\n## check the data class of the variables\nsapply(attenu, data.class)\nsummary(attenu)\npairs(attenu, main = \"attenu data\")\ncoplot(accel ~ dist | as.factor(event), data = attenu, show.given = FALSE)\ncoplot(log(accel) ~ log(dist) | as.factor(event),\n       data = attenu, panel = panel.smooth, show.given = FALSE)\n</code></pre>\n</main>\n</div>\n",
    "data" : {
       "z" : {
          "station" : [
@@ -195,12 +194,6 @@
          ]
       },
       "y" : {
-         "smps" : [
-            "event",
-            "mag",
-            "dist",
-            "accel"
-         ],
          "data" : [
             [
                1,
@@ -1295,6 +1288,12 @@
                0.022
             ]
          ],
+         "smps" : [
+            "event",
+            "mag",
+            "dist",
+            "accel"
+         ],
          "vars" : [
             "Var1",
             "Var2",
@@ -1480,5 +1479,6 @@
             "Var182"
          ]
       }
-   }
+   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>attenu</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>The Joyner&ndash;Boore Attenuation Data</h2>\n<h3>Description</h3>\n<p>This data gives peak accelerations measured at various observation\nstations for 23 earthquakes in California.  The data have been used\nby various workers to estimate the attenuating affect of distance\non ground acceleration.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>attenu</code></pre>\n<h3>Format</h3>\n<p>A data frame with 182 observations on 5 variables.\n</p>\n<table>\n<tr>\n <td style=\"text-align: right;\">\n    [,1] </td><td style=\"text-align: left;\"> <code>event</code>   </td><td style=\"text-align: left;\"> numeric </td><td style=\"text-align: left;\"> Event Number</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    [,2] </td><td style=\"text-align: left;\"> <code>mag</code>     </td><td style=\"text-align: left;\"> numeric </td><td style=\"text-align: left;\"> Moment Magnitude</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    [,3] </td><td style=\"text-align: left;\"> <code>station</code> </td><td style=\"text-align: left;\"> factor  </td><td style=\"text-align: left;\"> Station Number</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    [,4] </td><td style=\"text-align: left;\"> <code>dist</code>    </td><td style=\"text-align: left;\"> numeric </td><td style=\"text-align: left;\"> Station-hypocenter distance (km)</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    [,5] </td><td style=\"text-align: left;\"> <code>accel</code>   </td><td style=\"text-align: left;\"> numeric </td><td style=\"text-align: left;\"> Peak acceleration (g)</td>\n</tr>\n</table>\n<h3>Source</h3>\n<p>Joyner, W.B., D.M. Boore and R.D. Porcella (1981).  Peak horizontal\nacceleration and velocity from strong-motion records including\nrecords from the 1979 Imperial Valley, California earthquake.  <abbr>USGS</abbr>\nOpen File report 81-365. Menlo Park, Ca.\n</p>\n<h3>References</h3>\n<p>Boore, D. M. and Joyner, W. B.(1982).\nThe empirical prediction of ground motion,\n<em>Bulletin of the Seismological Society of America</em>, <b>72</b>,\nS269&ndash;S268.\n</p>\n<p>Bolt, B. A. and Abrahamson, N. A. (1982).\nNew attenuation relations for peak and expected accelerations of\nstrong ground motion.\n<em>Bulletin of the Seismological Society of America</em>, <b>72</b>,\n2307&ndash;2321.\n</p>\n<p>Bolt B. A. and Abrahamson, N. A. (1983).\nReply to W. B. Joyner &amp; D. M. Boore's &ldquo;Comments on: New\nattenuation relations for peak and expected accelerations for peak\nand expected accelerations of strong ground motion&rdquo;,\n<em>Bulletin of the Seismological Society of America</em>, <b>73</b>,\n1481&ndash;1483.\n</p>\n<p>Brillinger, D. R. and Preisler, H. K. (1984).\nAn exploratory analysis of the Joyner-Boore attenuation data,\n<em>Bulletin of the Seismological Society of America</em>, <b>74</b>,\n1441&ndash;1449.\n</p>\n<p>Brillinger, D. R. and Preisler, H. K. (1984).\n<em>Further analysis of the Joyner-Boore attenuation data</em>.\nManuscript.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>require(graphics)\n## check the data class of the variables\nsapply(attenu, data.class)\nsummary(attenu)\npairs(attenu, main = \"attenu data\")\ncoplot(accel ~ dist | as.factor(event), data = attenu, show.given = FALSE)\ncoplot(log(accel) ~ log(dist) | as.factor(event),\n       data = attenu, panel = panel.smooth, show.given = FALSE)\n</code></pre>\n</main>\n</div>\n"
 }

@@ -1,4 +1,5 @@
 {
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>spruce</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Log-size of 79 Sitka spruce trees</h2>\n<h3>Description</h3>\n<p>The <code>spruce</code> data frame has 1027 rows and 6 columns. The data consists\nof measurements on 79 sitka spruce trees over two growing seasons. The trees\nwere grown in four controlled environment chambers, of which the first two,\ncontaining 27 trees each, were treated with introduced ozone at 70 ppb whilst\nthe remaining two, containing 12 and 13 trees, were controls.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>spruce\n</code></pre>\n<h3>Format</h3>\n<p>This data frame contains the following columns:\n</p>\n<dl>\n<dt>chamber</dt><dd><p>a numeric vector of chamber numbers</p>\n</dd>\n<dt>ozone</dt><dd><p>a factor with levels <code>enriched</code> and <code>normal</code></p>\n</dd>\n<dt>id</dt><dd><p>a numeric vector of tree id</p>\n</dd>\n<dt>time</dt><dd><p>a numeric vector of the time when the\nmeasurements were taken, measured in days since Jan. 1, 1988</p>\n</dd>\n<dt>wave</dt><dd><p>a numeric vector of the measurement number</p>\n</dd> <dt>logsize</dt><dd><p>a\nnumeric vector of the log-size</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>Diggle, P.J., Liang, K.Y., and Zeger, S.L. (1994) Analysis of\nLongitudinal Data, Clarendon Press.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>\ndata(spruce)\nspruce$contr &lt;- ifelse(spruce$ozone==\"enriched\", 0, 1)\nsitka88 &lt;- spruce[spruce$wave &lt;= 5,]\nsitka89 &lt;- spruce[spruce$wave &gt; 5,]\nfit.88 &lt;- geese(logsize ~ as.factor(wave) + contr +\n                          I(time/100*contr) - 1,\n                id=id, data=sitka88, corstr=\"ar1\")\nsummary(fit.88)\nfit.89 &lt;- geese(logsize ~ as.factor(wave) + contr - 1,\n                id=id, data=sitka89, corstr=\"ar1\")\nsummary(fit.89)\n</code></pre>\n</main>\n</div>\n",
    "data" : {
       "z" : {
          "ozone" : [
@@ -1032,6 +1033,13 @@
          ]
       },
       "y" : {
+         "smps" : [
+            "chamber",
+            "id",
+            "time",
+            "wave",
+            "logsize"
+         ],
          "vars" : [
             "Var1",
             "Var2",
@@ -2060,13 +2068,6 @@
             "Var1025",
             "Var1026",
             "Var1027"
-         ],
-         "smps" : [
-            "chamber",
-            "id",
-            "time",
-            "wave",
-            "logsize"
          ],
          "data" : [
             [
@@ -9261,12 +9262,11 @@
          ]
       }
    },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>spruce</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Log-size of 79 Sitka spruce trees</h2>\n<h3>Description</h3>\n<p>The <code>spruce</code> data frame has 1027 rows and 6 columns. The data consists\nof measurements on 79 sitka spruce trees over two growing seasons. The trees\nwere grown in four controlled environment chambers, of which the first two,\ncontaining 27 trees each, were treated with introduced ozone at 70 ppb whilst\nthe remaining two, containing 12 and 13 trees, were controls.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>spruce\n</code></pre>\n<h3>Format</h3>\n<p>This data frame contains the following columns:\n</p>\n<dl>\n<dt>chamber</dt><dd><p>a numeric vector of chamber numbers</p>\n</dd>\n<dt>ozone</dt><dd><p>a factor with levels <code>enriched</code> and <code>normal</code></p>\n</dd>\n<dt>id</dt><dd><p>a numeric vector of tree id</p>\n</dd>\n<dt>time</dt><dd><p>a numeric vector of the time when the\nmeasurements were taken, measured in days since Jan. 1, 1988</p>\n</dd>\n<dt>wave</dt><dd><p>a numeric vector of the measurement number</p>\n</dd> <dt>logsize</dt><dd><p>a\nnumeric vector of the log-size</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>Diggle, P.J., Liang, K.Y., and Zeger, S.L. (1994) Analysis of\nLongitudinal Data, Clarendon Press.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>\ndata(spruce)\nspruce$contr &lt;- ifelse(spruce$ozone==\"enriched\", 0, 1)\nsitka88 &lt;- spruce[spruce$wave &lt;= 5,]\nsitka89 &lt;- spruce[spruce$wave &gt; 5,]\nfit.88 &lt;- geese(logsize ~ as.factor(wave) + contr +\n                          I(time/100*contr) - 1,\n                id=id, data=sitka88, corstr=\"ar1\")\nsummary(fit.88)\nfit.89 &lt;- geese(logsize ~ as.factor(wave) + contr - 1,\n                id=id, data=sitka89, corstr=\"ar1\")\nsummary(fit.89)\n</code></pre>\n</main>\n</div>\n",
    "config" : {
-      "graphType" : "Scatter2D",
-      "scatterPlotMatrix" : 1,
       "subtitle" : "geepack - spruce",
       "title" : "Log-size of 79 Sitka spruce trees",
-      "colorBy" : "ozone"
+      "colorBy" : "ozone",
+      "graphType" : "Scatter2D",
+      "scatterPlotMatrix" : 1
    }
 }

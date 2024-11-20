@@ -1,3 +1,10 @@
+var cancerInfo ={
+   "usage" : "lung\ndata(cancer, package=\"survival\")",
+   "format" : "inst: Institution code\n\n\n \n    time: Survival time in days\n\n\n \n    status: censoring status 1=censored, 2=dead\n\n\n \n    age: Age in years\n\n\n \n    sex:  Male=1 Female=2\n\n\n \n    ph.ecog: ECOG performance score as rated by the physician.\n    0=asymptomatic, 1= symptomatic but completely ambulatory, 2= in bed\n    <50% of the day, 3= in bed > 50% of the day but not bedbound, 4 =\n    bedbound\n\n\n \n    ph.karno: Karnofsky performance score (bad=0-good=100) rated by physician\n\n\n \n    pat.karno: Karnofsky performance score as rated by patient\n\n\n \n    meal.cal: Calories consumed at meals\n\n\n \n    wt.loss: Weight loss in last six months (pounds)",
+   "title" : "NCCTG Lung Cancer Data",
+   "description" : "Description\nSurvival in patients with advanced lung cancer from the North\nCentral Cancer Treatment Group.  Performance\nscores rate how well the patient can perform usual daily activities."
+}
+
 var cancer = [
    [
       "inst",

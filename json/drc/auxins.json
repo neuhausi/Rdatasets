@@ -1,19 +1,12 @@
 {
    "config" : {
-      "title" : "Effect of technical grade and commercially formulated auxin herbicides",
-      "scatterPlotMatrix" : 1,
       "subtitle" : "drc - auxins",
-      "graphType" : "Scatter2D"
+      "scatterPlotMatrix" : 1,
+      "graphType" : "Scatter2D",
+      "title" : "Effect of technical grade and commercially formulated auxin herbicides"
    },
    "data" : {
       "y" : {
-         "smps" : [
-            "r",
-            "h",
-            "w",
-            "y",
-            "dose"
-         ],
          "data" : [
             [
                1,
@@ -1217,6 +1210,13 @@
             "Var148",
             "Var149",
             "Var150"
+         ],
+         "smps" : [
+            "r",
+            "h",
+            "w",
+            "y",
+            "dose"
          ]
       }
    },

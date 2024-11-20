@@ -1,3 +1,10 @@
+var pathologyInfo ={
+   "description" : "Description\nLiver pathology data",
+   "usage" : "These data have the results of a x-ray examination\nto determine whether liver is abnormal or not (in the scan\ncolumn) versus the more extensive pathology results that\napproximate the truth (in pathology).",
+   "format" : "pathology\n\na data frame",
+   "title" : "Liver pathology data"
+}
+
 var pathology = [
    [
       "pathology",

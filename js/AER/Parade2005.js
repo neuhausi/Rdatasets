@@ -1,3 +1,18 @@
+var Parade2005Info ={
+   "title" : "Parade Magazine 2005 Earnings Data",
+   "reference" : "In addition to the four variables provided by Parade (earnings, age, gender, and state),\na fifth variable was introduced, the &ldquo;celebrity factor&rdquo; (here actors, athletes, \nTV personalities, politicians, and CEOs are considered celebrities). The data are quite \nfar from a simple random sample, there being substantial oversampling of celebrities.",
+   "format" : "A data frame containing 130 observations on 5 variables.",
+   "parameters" : {
+      "celebrity" : "Factor. Is the individual a celebrity?",
+      "state" : "Factor indicating state.",
+      "gender" : "Factor indicating gender.",
+      "age" : "Age in years.",
+      "earnings" : "Annual personal earnings."
+   },
+   "usage" : "data(\"Parade2005\")",
+   "description" : "Description\nUS earnings data, as provided in an annual survey of Parade (here from 2005), the\nSunday newspaper magazine supplementing the Sunday (or Weekend) edition of many\ndaily newspapers in the USA."
+}
+
 var Parade2005 = [
    [
       "earnings",

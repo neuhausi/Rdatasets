@@ -1,3 +1,24 @@
+var surveyInfo ={
+   "usage" : "survey",
+   "format" : "The components of the data frame are:",
+   "title" : "Student Survey Data",
+   "parameters" : {
+      "M.I" : "whether the student expressed height in imperial\n(feet/inches) or metric (centimetres/metres) units. (Factor, levels\n\"Metric\", \"Imperial\".)",
+      "NW.Hnd" : "span of non-writing hand.",
+      "Height" : "height of the student in centimetres.",
+      "Exer" : "how often the student exercises. (Factor, with levels \"Freq\"\n(frequently), \"Some\", \"None\".)",
+      "Age" : "age of the student in years.",
+      "Pulse" : "pulse rate of student (beats per minute).",
+      "Clap" : "&lsquo;Clap your hands!  Which hand is on top?&rsquo; (Factor, with levels\n\"Right\", \"Left\", \"Neither\".)",
+      "Smoke" : "how much the student smokes. (Factor, levels \"Heavy\",\n\"Regul\" (regularly), \"Occas\" (occasionally),\n\"Never\".)",
+      "Wr.Hnd" : "span (distance from tip of thumb to tip of little finger of spread\nhand) of writing hand, in centimetres.",
+      "Sex" : "The sex of the student. (Factor with levels \"Male\" and \"Female\".)",
+      "W.Hnd" : "writing hand of student. (Factor, with levels \"Left\" and \"Right\".)",
+      "Fold" : "&ldquo;Fold your arms! Which is on top&rdquo; (Factor, with levels\n\"R on L\", \"L on R\", \"Neither\".)"
+   },
+   "description" : "Description\nThis data frame contains the responses of 237 Statistics I students at\nthe University of Adelaide to a number of questions."
+}
+
 var survey = [
    [
       "Sex",

@@ -1,24 +1,16 @@
 {
+   "config" : {
+      "subtitle" : "carData - OBrienKaiser",
+      "smpOverlays" : [
+         "gender",
+         "treatment"
+      ],
+      "title" : "O'Brien and Kaiser's Repeated-Measures Data",
+      "graphType" : "Heatmap"
+   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>OBrienKaiser</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>O'Brien and Kaiser's Repeated-Measures Data</h2>\n<h3>Description</h3>\n<p>These contrived repeated-measures data are taken from \nO'Brien and Kaiser (1985). The data are from an imaginary study in which\n16 female and male subjects, who are divided into three treatments, are measured\nat a pretest, postest, and a follow-up session; during each session, they are\nmeasured at five occasions at intervals of one hour. The design, therefore, has\ntwo between-subject and two within-subject factors.\n</p>\n<p>The contrasts for the <code>treatment</code> factor are set to <code class=\"reqn\">-2, 1, 1</code> and\n<code class=\"reqn\">0, -1, 1</code>. The contrasts for the <code>gender</code> factor are set to\n<code>contr.sum</code>.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>OBrienKaiser</code></pre>\n<h3>Format</h3>\n<p>A data frame with 16 observations on the following 17 variables.\n</p>\n<dl>\n<dt><code>treatment</code></dt><dd><p>a factor with levels <code>control</code> <code>A</code> <code>B</code></p>\n</dd>\n<dt><code>gender</code></dt><dd><p>a factor with levels <code>F</code> <code>M</code></p>\n</dd>\n<dt><code>pre.1</code></dt><dd><p>pretest, hour 1</p>\n</dd>\n<dt><code>pre.2</code></dt><dd><p>pretest, hour 2</p>\n</dd>\n<dt><code>pre.3</code></dt><dd><p>pretest, hour 3</p>\n</dd>\n<dt><code>pre.4</code></dt><dd><p>pretest, hour 4</p>\n</dd>\n<dt><code>pre.5</code></dt><dd><p>pretest, hour 5</p>\n</dd>\n<dt><code>post.1</code></dt><dd><p>posttest, hour 1</p>\n</dd>\n<dt><code>post.2</code></dt><dd><p>posttest, hour 2</p>\n</dd>\n<dt><code>post.3</code></dt><dd><p>posttest, hour 3</p>\n</dd>\n<dt><code>post.4</code></dt><dd><p>posttest, hour 4</p>\n</dd>\n<dt><code>post.5</code></dt><dd><p>posttest, hour 5</p>\n</dd>\n<dt><code>fup.1</code></dt><dd><p>follow-up, hour 1</p>\n</dd>\n<dt><code>fup.2</code></dt><dd><p>follow-up, hour 2</p>\n</dd>\n<dt><code>fup.3</code></dt><dd><p>follow-up, hour 3</p>\n</dd>\n<dt><code>fup.4</code></dt><dd><p>follow-up, hour 4</p>\n</dd>\n<dt><code>fup.5</code></dt><dd><p>follow-up, hour 5</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>O'Brien, R. G., and Kaiser, M. K. (1985)\nMANOVA method for analyzing repeated measures designs: An extensive primer.\n<em>Psychological Bulletin</em> <b>97</b>, 316&ndash;333, Table 7.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>OBrienKaiser\ncontrasts(OBrienKaiser$treatment)\ncontrasts(OBrienKaiser$gender)\n</code></pre>\n</main>\n</div>\n",
    "data" : {
       "y" : {
-         "smps" : [
-            "Smp1",
-            "Smp2",
-            "Smp3",
-            "Smp4",
-            "Smp5",
-            "Smp6",
-            "Smp7",
-            "Smp8",
-            "Smp9",
-            "Smp10",
-            "Smp11",
-            "Smp12",
-            "Smp13",
-            "Smp14",
-            "Smp15",
-            "Smp16"
-         ],
          "data" : [
             [
                1,
@@ -291,6 +283,24 @@
                7
             ]
          ],
+         "smps" : [
+            "Smp1",
+            "Smp2",
+            "Smp3",
+            "Smp4",
+            "Smp5",
+            "Smp6",
+            "Smp7",
+            "Smp8",
+            "Smp9",
+            "Smp10",
+            "Smp11",
+            "Smp12",
+            "Smp13",
+            "Smp14",
+            "Smp15",
+            "Smp16"
+         ],
          "vars" : [
             "pre.1",
             "pre.2",
@@ -347,15 +357,5 @@
             "B"
          ]
       }
-   },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>OBrienKaiser</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>O'Brien and Kaiser's Repeated-Measures Data</h2>\n<h3>Description</h3>\n<p>These contrived repeated-measures data are taken from \nO'Brien and Kaiser (1985). The data are from an imaginary study in which\n16 female and male subjects, who are divided into three treatments, are measured\nat a pretest, postest, and a follow-up session; during each session, they are\nmeasured at five occasions at intervals of one hour. The design, therefore, has\ntwo between-subject and two within-subject factors.\n</p>\n<p>The contrasts for the <code>treatment</code> factor are set to <code class=\"reqn\">-2, 1, 1</code> and\n<code class=\"reqn\">0, -1, 1</code>. The contrasts for the <code>gender</code> factor are set to\n<code>contr.sum</code>.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>OBrienKaiser</code></pre>\n<h3>Format</h3>\n<p>A data frame with 16 observations on the following 17 variables.\n</p>\n<dl>\n<dt><code>treatment</code></dt><dd><p>a factor with levels <code>control</code> <code>A</code> <code>B</code></p>\n</dd>\n<dt><code>gender</code></dt><dd><p>a factor with levels <code>F</code> <code>M</code></p>\n</dd>\n<dt><code>pre.1</code></dt><dd><p>pretest, hour 1</p>\n</dd>\n<dt><code>pre.2</code></dt><dd><p>pretest, hour 2</p>\n</dd>\n<dt><code>pre.3</code></dt><dd><p>pretest, hour 3</p>\n</dd>\n<dt><code>pre.4</code></dt><dd><p>pretest, hour 4</p>\n</dd>\n<dt><code>pre.5</code></dt><dd><p>pretest, hour 5</p>\n</dd>\n<dt><code>post.1</code></dt><dd><p>posttest, hour 1</p>\n</dd>\n<dt><code>post.2</code></dt><dd><p>posttest, hour 2</p>\n</dd>\n<dt><code>post.3</code></dt><dd><p>posttest, hour 3</p>\n</dd>\n<dt><code>post.4</code></dt><dd><p>posttest, hour 4</p>\n</dd>\n<dt><code>post.5</code></dt><dd><p>posttest, hour 5</p>\n</dd>\n<dt><code>fup.1</code></dt><dd><p>follow-up, hour 1</p>\n</dd>\n<dt><code>fup.2</code></dt><dd><p>follow-up, hour 2</p>\n</dd>\n<dt><code>fup.3</code></dt><dd><p>follow-up, hour 3</p>\n</dd>\n<dt><code>fup.4</code></dt><dd><p>follow-up, hour 4</p>\n</dd>\n<dt><code>fup.5</code></dt><dd><p>follow-up, hour 5</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>O'Brien, R. G., and Kaiser, M. K. (1985)\nMANOVA method for analyzing repeated measures designs: An extensive primer.\n<em>Psychological Bulletin</em> <b>97</b>, 316&ndash;333, Table 7.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>OBrienKaiser\ncontrasts(OBrienKaiser$treatment)\ncontrasts(OBrienKaiser$gender)\n</code></pre>\n</main>\n</div>\n",
-   "config" : {
-      "subtitle" : "carData - OBrienKaiser",
-      "graphType" : "Heatmap",
-      "smpOverlays" : [
-         "gender",
-         "treatment"
-      ],
-      "title" : "O'Brien and Kaiser's Repeated-Measures Data"
    }
 }

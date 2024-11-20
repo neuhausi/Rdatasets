@@ -1,19 +1,13 @@
 {
    "config" : {
       "scatterPlotMatrix" : 1,
-      "subtitle" : "carData - Anscombe",
-      "graphType" : "Scatter2D",
       "colorBy" : null,
-      "title" : "U. S. State Public-School Expenditures"
+      "title" : "U. S. State Public-School Expenditures",
+      "graphType" : "Scatter2D",
+      "subtitle" : "carData - Anscombe"
    },
    "data" : {
       "y" : {
-         "smps" : [
-            "education",
-            "income",
-            "young",
-            "urban"
-         ],
          "data" : [
             [
                189,
@@ -321,6 +315,12 @@
                382.9,
                831
             ]
+         ],
+         "smps" : [
+            "education",
+            "income",
+            "young",
+            "urban"
          ],
          "vars" : [
             "ME",

@@ -1,3 +1,17 @@
+var unionDensityInfo ={
+   "usage" : "data(unionDensity)",
+   "description" : "Description\nCross-national data on relative size of the trade unions and\npredictors, in 20 countries.  Two of the predictors are highly\ncollinear, and are the source of a debate between Stephens and\nWallerstein (1991), later reviewed by Western and Jackman (1994).",
+   "reference" : "Pryor, Frederic. 1973. Property and Industrial\nOrganization in Communist and Capitalist Countries. Bloomington:\nIndiana University Press.",
+   "format" : "unionnumeric, percentage of the total number of wage\nand salary earners plus the unemployed who are union members,\nmeasured between 1975 and 1980, with most of the data drawn from 1979\n\nleftnumeric, an index tapping the extent to which\nparties of the left have controlled governments since 1919, due to\nWilensky (1981).\n\nsizenumeric, log of labor force size, defined as the\nnumber of wage and salary earners, plus the unemployed\n\nconcennumeric, percentage of employment, shipments, or\nproduction accounted for by the four largest enterprises in a\nparticular industry, averaged over industries (with weights\nproportional to the size of the industry) and the resulting measure\nis normalized such that the United States scores a 1.0, and is due\nto Pryor (1973). Some of the scores on this variable are imputed\nusing procedures described in Stephens and Wallerstein (1991, 945).",
+   "title" : "cross national rates of trade union density",
+   "parameters" : {
+      "union" : "numeric, percentage of the total number of wage\nand salary earners plus the unemployed who are union members,\nmeasured between 1975 and 1980, with most of the data drawn from 1979",
+      "concen" : "numeric, percentage of employment, shipments, or\nproduction accounted for by the four largest enterprises in a\nparticular industry, averaged over industries (with weights\nproportional to the size of the industry) and the resulting measure\nis normalized such that the United States scores a 1.0, and is due\nto Pryor (1973). Some of the scores on this variable are imputed\nusing procedures described in Stephens and Wallerstein (1991, 945).",
+      "size" : "numeric, log of labor force size, defined as the\nnumber of wage and salary earners, plus the unemployed",
+      "left" : "numeric, an index tapping the extent to which\nparties of the left have controlled governments since 1919, due to\nWilensky (1981)."
+   }
+}
+
 var unionDensity = [
    [
       "union",

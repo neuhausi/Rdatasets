@@ -1,3 +1,10 @@
+var aus_tobaccoInfo ={
+   "description" : "Description\nThe total household expenditure for cigarette and tobacco consumption (CTC)\nin Australia.",
+   "usage" : "Time series of class 'tsibble'",
+   "format" : "aus_tobacco contains quarterly data with one measured variable:",
+   "title" : "Australian cigarette and tobacco expenditure"
+}
+
 var aus_tobacco = [
    [
       "Quarter",

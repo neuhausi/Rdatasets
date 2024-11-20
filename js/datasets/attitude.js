@@ -1,3 +1,10 @@
+var attitudeInfo ={
+   "usage" : "attitude",
+   "format" : "A data frame with 30 observations on 7 variables. The first column are\nthe short names from the reference, the second one the variable names\nin the data frame:",
+   "title" : "The Chatterjee&ndash;Price Attitude Data",
+   "description" : "Description\nFrom a survey of the clerical employees of a large financial\norganization, the data are aggregated from the questionnaires of the\napproximately 35 employees for each of 30 (randomly selected)\ndepartments.  The numbers give the percent proportion of favourable\nresponses to seven questions in each department."
+}
+
 var attitude = [
    [
       "rating",

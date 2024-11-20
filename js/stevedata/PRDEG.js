@@ -1,3 +1,23 @@
+var PRDEGInfo ={
+   "description" : "Description\nA data set for replicating David Leblang's (1996) analysis on property rights,\ndemocracy, and economic growth.",
+   "usage" : "PRDEG",
+   "parameters" : {
+      "xcontrol" : "a numeric vector for exchange controls",
+      "rgdp" : "a numeric vector for the initial level of real per capita GDP",
+      "decade" : "a numeric vector for a decade",
+      "country" : "a character vector for the country",
+      "levine" : "a numeric vector that servies as a cross-section identifier",
+      "private" : "a numeric vector for credit allocated to private enterprise",
+      "grow" : "a numeric vector for per capita growth rate",
+      "sec" : "a numeric vector for secondary school attainment",
+      "democ" : "a numeric vector for the level of democracy",
+      "pri" : "a numeric vector for primary school attainment"
+   },
+   "title" : "Property Rights, Democracy, and Economic Growth",
+   "format" : "A data frame with 147 observations on the following 10 variables.",
+   "reference" : "Data come Joshua Alley's Github repository on cross-sectional OLS\nregressions. Please read David Leblang's (1996) article for some more detail\nabout the variables included in the model."
+}
+
 var PRDEG = [
    [
       "levine",

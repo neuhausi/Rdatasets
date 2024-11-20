@@ -1,3 +1,18 @@
+var npkInfo ={
+   "usage" : "npk",
+   "description" : "Description\nA classical N, P, K (nitrogen, phosphate, potassium) factorial\nexperiment on the growth of peas conducted on 6 blocks. Each half of a\nfractional factorial design confounding the NPK interaction was used\non 3 of the plots.",
+   "title" : "Classical N, P, K Factorial Experiment",
+   "reference" : "Imperial College, London, M.Sc. exercise sheet.",
+   "format" : "The npk data frame has 24 rows and 5 columns:",
+   "parameters" : {
+      "P" : "indicator (0/1) for the application of phosphate.",
+      "yield" : "Yield of peas, in pounds/plot (the plots were (1/70) acre).",
+      "N" : "indicator (0/1) for the application of nitrogen.",
+      "K" : "indicator (0/1) for the application of potassium.",
+      "block" : "which block (label 1 to 6)."
+   }
+}
+
 var npk = [
    [
       "block",

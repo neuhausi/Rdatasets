@@ -1,3 +1,20 @@
+var phillipsInfo ={
+   "description" : "Description\nWooldridge Source: Economic Report of the President, 2004, Tables B-42 and B-64. Data loads lazily.",
+   "usage" : "data('phillips')",
+   "parameters" : {
+      "unem" : " civilian unemployment rate, percent",
+      "cunem" : " unem - unem_1",
+      "inf" : " percentage change in CPI",
+      "inf_1" : " inf[_n-1]",
+      "year" : " 1948 through 2003",
+      "unem_1" : " unem[_n-1]",
+      "cinf" : " inf - inf_1"
+   },
+   "format" : "A data.frame with 56 observations on 7 variables:",
+   "title" : "phillips",
+   "reference" : "pages 355-356, 379, 390-391, 408, 409, 409, 418, 428, 443, 548-549, 642, 656, 659, 662, 672, 817."
+}
+
 var phillips = [
    [
       "year",

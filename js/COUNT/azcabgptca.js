@@ -1,3 +1,19 @@
+var azcabgptcaInfo ={
+   "title" : "azcabgptca",
+   "format" : "A data frame with 1959 observations on the following 6 variables.",
+   "reference" : "azcabgptca is saved as a data frame.",
+   "parameters" : {
+      "los" : "hospital length of stay",
+      "type" : "1=emerg/urgent; 0=elective",
+      "procedure" : "1=CABG; 0=PTCA",
+      "died" : "systolic blood pressure of subject",
+      "gender" : "1=male; 0=female",
+      "age" : "age of subject"
+   },
+   "usage" : "data(azcabgptca)",
+   "description" : "Description\nRandom subset of the 1991 Arizona Medicare data for patients hospitalized \nsubsequent to undergoing  a CABG (DRGs 106, 107) or PTCA (DRG 112) \ncardiovascular procedure."
+}
+
 var azcabgptca = [
    [
       "died",

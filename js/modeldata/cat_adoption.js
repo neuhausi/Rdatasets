@@ -1,3 +1,21 @@
+var cat_adoptionInfo ={
+   "parameters" : {
+      "event" : "The event of interest is the cat being homed or returned to\nits original location (i.e., owner or community). The non-event is the cat\nbeing transferred to another shelter or dying. Zero indicates a non-event\n(censored), and one corresponds to the event occurring.",
+      "neutered" : "Whether the cat is neutered.",
+      "time" : "The time the cat spent at the shelter.",
+      "black,brown,brown_tabby,calico,cream,gray,gray_tabby,orange,orange_tabby,tan,tortie,white" : "Indicators for the color/pattern of the cat's fur.",
+      "sex" : "The sex of the cat.",
+      "latitude" : "Latitude of the intersection/cross street of intake or capture.",
+      "intake_condition" : "The intake condition of the cat.",
+      "intake_type" : "The type of intake.",
+      "longitude" : "Longitude of the intersection/cross street of intake or capture."
+   },
+   "description" : "Description\nA subset of the cats at the animal shelter in Long Beach, California, USA.",
+   "usage" : "A data frame with 2257 rows and 19 columns:",
+   "title" : "Cat Adoption",
+   "reference" : "tibble"
+}
+
 var cat_adoption = [
    [
       "time",

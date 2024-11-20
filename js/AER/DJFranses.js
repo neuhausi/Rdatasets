@@ -1,3 +1,10 @@
+var DJFransesInfo ={
+   "description" : "Description\nDow Jones index time series computed at the end of the week where\nweek is assumed to run from Thursday to Wednesday.",
+   "usage" : "data(\"DJFranses\")",
+   "format" : "A weekly univariate time series from 1980(1) to 1994(42).",
+   "title" : "Dow Jones Index Data (Franses)"
+}
+
 var DJFranses = [
    [
       "time",

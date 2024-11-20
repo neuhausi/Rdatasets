@@ -1,3 +1,10 @@
+var qauselecInfo ={
+   "description" : "Description\nTotal quarterly electricity production in Australia (in billion kWh) from\n1956:Q1 to 2010:Q2.",
+   "usage" : "Quarterly time series of class ts.",
+   "title" : "Quarterly Australian Electricity production",
+   "format" : "Australian Bureau of Statistics. Cat. 8301.0.55.001."
+}
+
 var qauselec = [
    [
       "time",

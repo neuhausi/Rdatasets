@@ -1,3 +1,10 @@
+var aus_birthsInfo ={
+   "description" : "Description\nNumber of births in Australia.",
+   "usage" : "Time series of class 'tsibble'",
+   "format" : "aus_births contains monthly data with one measured variable:",
+   "title" : "Australian births data"
+}
+
 var aus_births = [
    [
       "State",

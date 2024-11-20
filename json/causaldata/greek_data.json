@@ -1,30 +1,11 @@
 {
    "data" : {
-      "z" : {
-         "name" : [
-            "Rheia",
-            "Kronos",
-            "Demeter",
-            "Hades",
-            "Hestia",
-            "Poseidon",
-            "Hera",
-            "Zeus",
-            "Artemis",
-            "Apollo",
-            "Leto",
-            "Ares",
-            "Athena",
-            "Hephaestus",
-            "Aphrodite",
-            "Cyclope",
-            "Persephone",
-            "Hermes",
-            "Hebe",
-            "Dionysus"
-         ]
-      },
       "y" : {
+         "smps" : [
+            "l",
+            "a",
+            "y"
+         ],
          "vars" : [
             "Var1",
             "Var2",
@@ -148,19 +129,38 @@
                1,
                0
             ]
-         ],
-         "smps" : [
-            "l",
-            "a",
-            "y"
+         ]
+      },
+      "z" : {
+         "name" : [
+            "Rheia",
+            "Kronos",
+            "Demeter",
+            "Hades",
+            "Hestia",
+            "Poseidon",
+            "Hera",
+            "Zeus",
+            "Artemis",
+            "Apollo",
+            "Leto",
+            "Ares",
+            "Athena",
+            "Hephaestus",
+            "Aphrodite",
+            "Cyclope",
+            "Persephone",
+            "Hermes",
+            "Hebe",
+            "Dionysus"
          ]
       }
    },
    "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>greek_data</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Data from a fictional randomized heart transplant study</h2>\n<h3>Description</h3>\n<p><code>greek_data</code> is a fictional data set from Table 2.2 in Chapter 2 of Causal Inference. From the book: &quot;Table 2.2 shows the data from our heart transplant randomized study. Besides data on treatment A (1 if the individual received a transplant, 0 otherwise) and outcome Y (1 if the individual died, 0 otherwise), Table 2.2 also contains data on the prognostic factor L (1 if the individual was in critical condition, 0 otherwise), which we measured before treatment was assigned.&quot;\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>greek_data\n</code></pre>\n<h3>Format</h3>\n<p>A data frame with 20 rows and 4 variables:\n</p>\n<dl>\n<dt>name</dt><dd><p>The name of a Greek god</p>\n</dd>\n<dt>l</dt><dd><p>A prognostic factor</p>\n</dd>\n<dt>a</dt><dd><p>The treatment, a heart transplant</p>\n</dd>\n<dt>y</dt><dd><p>The outcome, death</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>HernÃ¡n and Robins. Causal Inference. <a href=\"https://www.hsph.harvard.edu/miguel-hernan/causal-inference-book/\">https://www.hsph.harvard.edu/miguel-hernan/causal-inference-book/</a>\n</p>\n</main>\n</div>\n",
    "config" : {
-      "colorBy" : "name",
       "title" : "Data from a fictional randomized heart transplant study",
-      "subtitle" : "causaldata - greek_data",
-      "graphType" : "Scatter3D"
+      "colorBy" : "name",
+      "graphType" : "Scatter3D",
+      "subtitle" : "causaldata - greek_data"
    }
 }

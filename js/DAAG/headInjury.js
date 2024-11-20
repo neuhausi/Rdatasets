@@ -1,3 +1,23 @@
+var headInjuryInfo ={
+   "description" : "Description\nThe headInjury data frame has 3121 rows and 11 columns.\nThe data were simulated according to a simple logistic\nregression model to match roughly the clinical characteristics\nof a sample of individuals who suffered minor head injuries.",
+   "parameters" : {
+      "basal.skull.fracture" : "(0 = no fracture, 1 = fracture).",
+      "clinically.important.brain.injury" : "any acute brain finding\nrevealed on CT (0 = not present, 1 = present).",
+      "high.risk" : "assessed by clinician as high risk for neurological\nintervention (0 = not high risk, 1 = high risk).",
+      "GCS.decrease" : "Glasgow Coma Scale decrease (0 = no \ndeterioration, 1 = deterioration).",
+      "GCS.13" : "initial Glasgow Coma Scale (0 = not &lsquo;13&rsquo;, 1 = &lsquo;13&rsquo;).",
+      "amnesia.before" : "amnesia before impact (less than 30 minutes = 0, \nmore \nthan 30 minutes =1).",
+      "loss.of.consciousness" : "(0 = conscious, 1 = loss of \nconsciousness).",
+      "open.skull.fracture" : "(0 = no fracture, 1 = fracture)",
+      "age.65" : "age factor (0 = under 65, 1 = over 65).",
+      "GCS.15.2hours" : "Glasgow Coma Scale after 2 hours\n(0 = not &lsquo;15&rsquo;, 1 = '15').",
+      "vomiting" : "(0 = no vomiting, 1 = vomiting)"
+   },
+   "format" : "This data frame contains the following columns:",
+   "title" : "Minor Head Injury (Simulated) Data",
+   "usage" : "headInjury"
+}
+
 var headInjury = [
    [
       "age.65",

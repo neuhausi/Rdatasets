@@ -1,3 +1,18 @@
+var temp_carbonInfo ={
+   "usage" : "temp_carbon",
+   "description" : "Description\nAnnual mean global temperature anomaly on land, sea and combined, 1880-2018. Annual global carbon emissions, 1751-2014.",
+   "title" : "Global temperature anomaly and carbon emissions, 1751-2018",
+   "format" : "An object of class \"data.frame\".",
+   "reference" : "NOAA and Boden, T.A., G. Marland, and R.J. Andres (2017) via CDIAC",
+   "parameters" : {
+      "temp_anomaly. Global annual mean temperature anomaly in degrees Celsius relative to the 20th century mean temperature. 1880-2018." : null,
+      "ocean_anomaly. Annual mean temperature anomaly over ocean in degrees Celsius relative to the 20th century mean temperature. 1880-2018." : null,
+      "year. Year (CE)." : null,
+      "land_anomaly. Annual mean temperature anomaly on land in degrees Celsius relative to the 20th century mean temperature. 1880-2018." : null,
+      "carbon_emissions. Annual carbon emissions in millions of metric tons of carbon. 1751-2014." : null
+   }
+}
+
 var temp_carbon = [
    [
       "year",

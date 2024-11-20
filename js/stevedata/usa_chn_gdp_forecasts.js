@@ -1,3 +1,25 @@
+var usa_chn_gdp_forecastsInfo ={
+   "parameters" : {
+      "p_lo80" : "lower bound (80%) of y-hats (forecasted GDP) from a prophet forecast",
+      "f_lo95" : "lower bound (95%) forecasted GDP from 2018 to 2050, from the forecast package",
+      "f_hi80" : "upper bound (80%) forecasted GDP from 2018 to 2050, from the forecast package",
+      "f_lo80" : "lower bound (80%) forecasted GDP from 2018 to 2050, from the forecast package",
+      "f_hi95" : "upper bound (95%) forecasted GDP from 2018 to 2050, from the forecast package",
+      "p_hi80" : "upper bound (80%) of y-hats (forecasted GDP) from a prophet forecast",
+      "gdp" : "observed GDP, made available to the World Bank and OECD national accounts data. Available from 1960 to 2019.",
+      "f_gdp" : "forecasted GDP from 2020 to 2050, from the forecast package",
+      "country" : "a character vector (United States, China)",
+      "year" : "a numeric vector for the year",
+      "p_gdp" : "y-hats (forecasted GDP) from a prophet forecast",
+      "oecd_ltgdpf" : "long-term GDP forecast from the OECD via the OECD Outlook No 95 - May 2014"
+   },
+   "title" : "United States-China GDP and GDP Forecasts, 1960-2050",
+   "format" : "A data frame with 182 observations on the following 12 variables.",
+   "reference" : "Forecasts from the forecast package and prophet\npackage are rudimentary and bare minimum forecasts based on previous values\nto that point. Notice the forecast forecasts have a prefix of\nf_ and the prophet forecasts have a prefix of\np_. Forecasts are not meant to be exhaustive (clearly), only\nillustrative for in-class discussion about the \"Rise of China.\" Forecasts\nmade in R on Nov. 20, 2020.",
+   "description" : "Description\nThis is a toy data set to examine the time in which we should expect China\nto overtake the United States in total gross domestic product (GDP),\ngiven current trends. It includes an OECD long-term GDP forecast from 2014,\nand forecasts from the forecast and prophet packages in R.",
+   "usage" : "usa_chn_gdp_forecasts"
+}
+
 var usa_chn_gdp_forecasts = [
    [
       "country",

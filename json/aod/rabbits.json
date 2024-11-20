@@ -1,9 +1,9 @@
 {
    "config" : {
       "graphType" : "Scatter2D",
-      "subtitle" : "aod - rabbits",
       "title" : "Rabbits Foetuses Survival Experiment",
-      "colorBy" : "group"
+      "colorBy" : "group",
+      "subtitle" : "aod - rabbits"
    },
    "data" : {
       "z" : {
@@ -95,10 +95,6 @@
          ]
       },
       "y" : {
-         "smps" : [
-            "n",
-            "y"
-         ],
          "data" : [
             [
                12,
@@ -522,6 +518,10 @@
             "Var82",
             "Var83",
             "Var84"
+         ],
+         "smps" : [
+            "n",
+            "y"
          ]
       }
    },

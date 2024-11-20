@@ -1,4 +1,12 @@
 {
+   "config" : {
+      "subtitle" : "pscl - vote92",
+      "smpOverlays" : [
+         "vote"
+      ],
+      "title" : "Reports of voting in the 1992 U.S. Presidential election.",
+      "graphType" : "Heatmap"
+   },
    "data" : {
       "x" : {
          "vote" : [
@@ -1824,6 +1832,16 @@
             "Smp907",
             "Smp908",
             "Smp909"
+         ],
+         "vars" : [
+            "dem",
+            "rep",
+            "female",
+            "persfinance",
+            "natlecon",
+            "clintondis",
+            "bushdis",
+            "perotdis"
          ],
          "data" : [
             [
@@ -9114,26 +9132,8 @@
                0.2601,
                0.2401
             ]
-         ],
-         "vars" : [
-            "dem",
-            "rep",
-            "female",
-            "persfinance",
-            "natlecon",
-            "clintondis",
-            "bushdis",
-            "perotdis"
          ]
       }
    },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>vote92</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>\nReports of voting in the 1992 U.S. Presidential election.\n</h2>\n<h3>Description</h3>\n<p>Survey data containing self-reports of vote choice in the 1992 U.S. Presidential election, with numerous covariates, from the 1992 American National Election Studies.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(vote92)</code></pre>\n<h3>Format</h3>\n<p>A data frame with 909 observations on the following 10 variables.\n</p>\n<dl>\n<dt><code>vote</code></dt><dd><p>a factor with levels <code>Perot</code> <code>Clinton</code> <code>Bush</code></p>\n</dd>\n<dt><code>dem</code></dt><dd><p>a numeric vector, 1 if the respondent reports identifying with the Democratic party, 0 otherwise.</p>\n</dd>\n<dt><code>rep</code></dt><dd><p>a numeric vector, 1 if the respondent reports identifying with the Republican party, 0 otherwise</p>\n</dd>\n<dt><code>female</code></dt><dd><p>a numeric vector, 1 if the respondent is female, 0 otherwise</p>\n</dd>\n<dt><code>persfinance</code></dt><dd><p>a numeric vector, -1 if the respondent reports that their personal financial situation has gotten worse over the last 12 months, 0 for no change, 1 if better</p>\n</dd>\n<dt><code>natlecon</code></dt><dd><p>a numeric vector, -1 if the respondent reports that national economic conditions have gotten worse over the last 12 months, 0 for no change, 1 if better</p>\n</dd>\n<dt><code>clintondis</code></dt><dd><p>a numeric vector, squared difference between respondent's self-placement on a scale measure of political ideology and the respondent's placement of the Democratic candidate, Bill Clinton</p>\n</dd>\n<dt><code>bushdis</code></dt><dd><p>a numeric vector, squared ideological distance of the respondent from the Republican candidate, President George H.W. Bush</p>\n</dd>\n<dt><code>perotdis</code></dt><dd><p>a numeric vector, squared ideological distance of the respondent from the Reform Party candidate, Ross Perot</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>These data are unweighted.  Refer to the original data source for weights that purport to correct for non-representativeness and non-response.</p>\n<h3>Source</h3>\n<p>Alvarez, R. Michael and Jonathan Nagler. 1995. Economics, issues and the Perot candidacy: Voter choice in the 1992 Presidential election.  <em>American Journal of Political Science</em>. 39:714-44.\n</p>\n<p>Miller, Warren E., Donald R. Kinder, Steven J. Rosenstone and the National Election Studies.  1999.  <em>National Election Studies, 1992: Pre-/Post-Election Study</em>.  Center for Political Studies, University of Michigan: Ann Arbor, Michigan.\n</p>\n<p>Inter-University Consortium for Political and Social Research.  Study Number 1112.  <a href=\"https://doi.org/10.3886/ICPSR01112\">doi:10.3886/ICPSR01112</a>.   \t\n</p>\n<h3>References</h3>\n<p>Jackman, Simon. 2009.  <em>Bayesian Analysis for the Social Sciences</em>.\nWiley: Hoboken, New Jersey.  Examples 8.7 and 8.8.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>data(vote92)\nsummary(vote92)\n</code></pre>\n</main>\n</div>\n",
-   "config" : {
-      "subtitle" : "pscl - vote92",
-      "graphType" : "Heatmap",
-      "smpOverlays" : [
-         "vote"
-      ],
-      "title" : "Reports of voting in the 1992 U.S. Presidential election."
-   }
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>vote92</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>\nReports of voting in the 1992 U.S. Presidential election.\n</h2>\n<h3>Description</h3>\n<p>Survey data containing self-reports of vote choice in the 1992 U.S. Presidential election, with numerous covariates, from the 1992 American National Election Studies.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(vote92)</code></pre>\n<h3>Format</h3>\n<p>A data frame with 909 observations on the following 10 variables.\n</p>\n<dl>\n<dt><code>vote</code></dt><dd><p>a factor with levels <code>Perot</code> <code>Clinton</code> <code>Bush</code></p>\n</dd>\n<dt><code>dem</code></dt><dd><p>a numeric vector, 1 if the respondent reports identifying with the Democratic party, 0 otherwise.</p>\n</dd>\n<dt><code>rep</code></dt><dd><p>a numeric vector, 1 if the respondent reports identifying with the Republican party, 0 otherwise</p>\n</dd>\n<dt><code>female</code></dt><dd><p>a numeric vector, 1 if the respondent is female, 0 otherwise</p>\n</dd>\n<dt><code>persfinance</code></dt><dd><p>a numeric vector, -1 if the respondent reports that their personal financial situation has gotten worse over the last 12 months, 0 for no change, 1 if better</p>\n</dd>\n<dt><code>natlecon</code></dt><dd><p>a numeric vector, -1 if the respondent reports that national economic conditions have gotten worse over the last 12 months, 0 for no change, 1 if better</p>\n</dd>\n<dt><code>clintondis</code></dt><dd><p>a numeric vector, squared difference between respondent's self-placement on a scale measure of political ideology and the respondent's placement of the Democratic candidate, Bill Clinton</p>\n</dd>\n<dt><code>bushdis</code></dt><dd><p>a numeric vector, squared ideological distance of the respondent from the Republican candidate, President George H.W. Bush</p>\n</dd>\n<dt><code>perotdis</code></dt><dd><p>a numeric vector, squared ideological distance of the respondent from the Reform Party candidate, Ross Perot</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>These data are unweighted.  Refer to the original data source for weights that purport to correct for non-representativeness and non-response.</p>\n<h3>Source</h3>\n<p>Alvarez, R. Michael and Jonathan Nagler. 1995. Economics, issues and the Perot candidacy: Voter choice in the 1992 Presidential election.  <em>American Journal of Political Science</em>. 39:714-44.\n</p>\n<p>Miller, Warren E., Donald R. Kinder, Steven J. Rosenstone and the National Election Studies.  1999.  <em>National Election Studies, 1992: Pre-/Post-Election Study</em>.  Center for Political Studies, University of Michigan: Ann Arbor, Michigan.\n</p>\n<p>Inter-University Consortium for Political and Social Research.  Study Number 1112.  <a href=\"https://doi.org/10.3886/ICPSR01112\">doi:10.3886/ICPSR01112</a>.   \t\n</p>\n<h3>References</h3>\n<p>Jackman, Simon. 2009.  <em>Bayesian Analysis for the Social Sciences</em>.\nWiley: Hoboken, New Jersey.  Examples 8.7 and 8.8.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>data(vote92)\nsummary(vote92)\n</code></pre>\n</main>\n</div>\n"
 }

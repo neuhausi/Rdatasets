@@ -1,3 +1,14 @@
+var engelInfo ={
+   "title" : "Engel Data",
+   "format" : "A data frame containing 235 observations on 2 variables",
+   "usage" : "data(engel)",
+   "description" : "Description\nEngel food expenditure data used in Koenker and Bassett(1982).\nThis is a regression data set consisting of 235 observations on\nincome and expenditure on food for Belgian working class households.",
+   "parameters" : {
+      "foodexp" : "annual household food expenditure in Belgian francs",
+      "income" : "annual household income in Belgian francs"
+   }
+}
+
 var engel = [
    [
       "income",

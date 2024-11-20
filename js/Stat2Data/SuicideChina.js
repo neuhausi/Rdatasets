@@ -1,3 +1,23 @@
+var SuicideChinaInfo ={
+   "title" : "Suicide Attempts in Shandong, China",
+   "reference" : "Data from a study of serious suicide attempts over three years in a predominantly rural population in Shandong, China.",
+   "usage" : "A data frame with 2571 observations on the following 11 variables.",
+   "parameters" : {
+      "method" : "One of nine possible methods",
+      "Hospitalised" : "Hospitalised? (no or yes)",
+      "Age" : "Age (years)",
+      "Occupation" : "One of ten occupation categories",
+      "Month" : "Month (1=Jan through 12=December)",
+      "Sex" : "Sex (female or male)",
+      "Died" : "Died? (no or yes)",
+      "Urban" : "Urban area? (no, unknown, or yes)",
+      "Year" : "Year (2009, 2010, or 2011)",
+      "Education" : "Education level  (iliterate, primary, Secondary, Tertiary, or unknown)",
+      "Person_ID" : "ID number"
+   },
+   "description" : "Description\nData on serious suicide attempts in Shandong, China"
+}
+
 var SuicideChina = [
    [
       "Person_ID",

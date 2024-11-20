@@ -1,3 +1,31 @@
+var sowc_maternal_newbornInfo ={
+   "usage" : "sowc_maternal_newborn",
+   "description" : "Description\nData from UNICEF's State of the World's Children 2019 Statistical Tables.",
+   "reference" : "United Nations Children's Emergency Fund (UNICEF)",
+   "format" : "A data frame with 202 rows and 18 variables.",
+   "title" : "SOWC Maternal and Newborn Health Data.",
+   "parameters" : {
+      "adolescent_birth_rate" : "Adolescent birth rate 2013 to 2018.",
+      "delivery_care_institutional" : "Delivery care (%) 2013 to 2018\nInstitutional delivery.",
+      "c_section" : "Delivery care (%) 2013â2018 C-section.",
+      "births_age_18" : "Births by age 18 (%) 2013 to 2018.",
+      "life_expectancy_female" : "Life expectancy: female in 2018.",
+      "family_planning_1519" : "Demand for family planning satisfied with\nmodern methods (%) 2013â2018 Women aged 15 to 19.",
+      "postnatal_health_newborns" : "Postnatal health check(%) 2013 to 2018\nFor newborns.",
+      "postnatal_health_mothers" : "Postnatal health check(%) 2013 to 2018\nFor mothers.",
+      "antenatal_care_4_1549" : "Antenatal care (%) 2013 to 2018 At least\nfour visits Women aged 15 to 49.",
+      "antenatal_care_1" : "Antenatal care (%) 2013 to 2018 At least\none visit.",
+      "antenatal_care_4_1519" : "Antenatal care (%) 2013 to 2018 At least\nfour visits Women aged 15 to 19.",
+      "delivery_care_attendant_1549" : "Delivery care (%) 2013 to 2018\nSkilled birth attendant Women aged 15 to 49.",
+      "delivery_care_attendant_1519" : "Delivery care (%) 2013 to 2018\nSkilled birth attendant Women aged 15 to 19.",
+      "risk_maternal_death_2017" : "Maternal mortality 2017\nLifetime risk of maternal death (1 in X).",
+      "family_planning_1549" : "Demand for family planning satisfied with\nmodern methods (%) 2013â2018 Women aged 15 to 49.",
+      "maternal_mortality_ratio_2017" : "Maternal mortality 2017 Maternal\nMortality Ratio.",
+      "maternal_deaths_2017" : "Maternal mortality 2017 Number of maternal\ndeaths.",
+      "countries_and_areas" : "Country or area name."
+   }
+}
+
 var sowc_maternal_newborn = [
    [
       "countries_and_areas",

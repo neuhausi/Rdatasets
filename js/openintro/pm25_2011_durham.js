@@ -1,3 +1,33 @@
+var pm25_2011_durhamInfo ={
+   "parameters" : {
+      "daily_mean_pm2_5_concentration" : "A numeric vector with the average daily concentration of fine particulates, or particulate matter 2.5.",
+      "site_latitude" : "A numeric vector of the latitude.",
+      "state_code" : "A numeric vector.",
+      "units" : "A character vector with value ug/m3 LC.",
+      "cbsa_code" : "A numeric vector.",
+      "aqs_parameter_desc" : "A factor with levels PM2.5 - Local Conditions and Acceptable PM2.5 AQI & Speciation Mass.",
+      "county" : "A character vector with value Durham.",
+      "poc" : "A numeric vector, the Parameter Occurance Code.",
+      "aqs_parameter_code" : "A numeric vector.",
+      "daily_aqi_value" : "A numeric vector with the daily air quality index.",
+      "percent_complete" : "A numeric vector.",
+      "cbsa_name" : "A character vector with value Durham, NC.",
+      "csa_code" : "a numeric vector",
+      "state" : "A character vector with value North Carolina.",
+      "date" : "Date",
+      "aqs_site_id" : "The numeric site ID.",
+      "daily_obs_count" : "A numeric vector.",
+      "site_longitude" : "A numeric vector of the longitude.",
+      "csa_name" : "a factor with levels Raleigh-Durham-Cary, NC",
+      "county_code" : "A numeric vector."
+   },
+   "reference" : "US Environmental Protection Agency, AirData, 2011.\nhttp://www3.epa.gov/airdata/ad_data_daily.html",
+   "title" : "Air quality for Durham, NC",
+   "format" : "A data frame with 449 observations on the following 20 variables.",
+   "description" : "Description\nDaily air quality is measured by the air quality index (AQI) reported by the\nEnvironmental Protection Agency in 2011.",
+   "usage" : "pm25_2011_durham"
+}
+
 var pm25_2011_durham = [
    [
       "date",

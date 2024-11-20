@@ -1,3 +1,17 @@
+var leaftempInfo ={
+   "description" : "Description\nData are measurements of vapour pressure and of the \ndifference between leaf and air temperature.",
+   "usage" : "leaftemp",
+   "parameters" : {
+      "tempDiff" : "Difference between leaf and air temperature",
+      "vapPress" : "Vapour pressure",
+      "CO2level" : "Carbon Dioxide level\nlow, medium, high",
+      "BtempDiff" : "a numeric vector"
+   },
+   "format" : "This data frame contains the following columns:",
+   "reference" : "Katharina Siebke and Susan von Cammerer, Australian National University.",
+   "title" : "Leaf and Air Temperature Data"
+}
+
 var leaftemp = [
    [
       "CO2level",

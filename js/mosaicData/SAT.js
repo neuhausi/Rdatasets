@@ -1,3 +1,21 @@
+var SATInfo ={
+   "usage" : "data(SAT)",
+   "description" : "Description\nSAT data assembled for a statistics education journal article on the\nlink between SAT scores and measures of educational expenditures",
+   "format" : "A data frame with 50 observations on the following variables.",
+   "title" : "State by State SAT data",
+   "reference" : "http://www.amstat.org/publications/jse/secure/v7n2/datasets.guber.cfm",
+   "parameters" : {
+      "math" : "average math SAT score, 1994-95",
+      "expend" : "expenditure per pupil in average daily attendance in\npublic elementary and secondary schools, 1994-95 (in thousands of US dollars)",
+      "salary" : "estimated average annual salary of teachers in public elementary\nand secondary schools, 1994-95 (in thousands of US dollars)",
+      "ratio" : "average pupil/teacher ratio in public elementary and secondary\nschools, Fall 1994",
+      "sat" : "average total SAT score, 1994-95",
+      "frac" : "percentage of all eligible students taking the SAT, 1994-95",
+      "state" : "a factor with names of each state",
+      "verbal" : "average verbal SAT score, 1994-95"
+   }
+}
+
 var SAT = [
    [
       "state",

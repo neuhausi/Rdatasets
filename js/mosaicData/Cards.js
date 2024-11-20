@@ -1,3 +1,10 @@
+var CardsInfo ={
+   "usage" : "Cards",
+   "format" : "The 2 of clubs is represented as \"2C\", while the 10 of diamonds is \"10D\".",
+   "title" : "Standard Deck of Cards",
+   "description" : "Description\nA character vector with two or three character representations of\neach card in a standard 52-card deck."
+}
+
 var Cards = [
    [
       "dat",

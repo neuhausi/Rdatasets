@@ -1,3 +1,21 @@
+var MrozInfo ={
+   "reference" : "This data set is a lightly edited version of the one found in the carData package in R. It is used in the Describing Relationships chapter of The Effect.",
+   "format" : "A data frame with 753 rows and 8 variables",
+   "title" : "U.S. Women's Labor-Force Participation",
+   "parameters" : {
+      "k5" : "Number of children 5 years old or younger",
+      "wc" : "Wife attended college",
+      "inc" : "Family income exclusive of wife's income",
+      "lfp" : "Labor-force participation",
+      "age" : "Age in years",
+      "hc" : "Husband attended college",
+      "k618" : "Number of children 6 to 17 years old",
+      "lwg" : "Log expected wage rate. For women in the labor force, the actual wage rate; for women not in the labor force, an imputed value based on the regression of lwg on the other variables."
+   },
+   "usage" : "Mroz",
+   "description" : "Description\nThe Mroz data frame has 753 rows and 8 columns. The observations, from the Panel Study of Income Dynamics (PSID), are married women."
+}
+
 var Mroz = [
    [
       "lfp",

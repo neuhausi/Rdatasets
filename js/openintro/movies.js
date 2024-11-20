@@ -1,3 +1,18 @@
+var moviesInfo ={
+   "parameters" : {
+      "score" : "Critics score of the movie on a 0 to 100 scale.",
+      "genre" : "Genre of the movie.",
+      "box_office" : "Millions of dollars earned at the box office in the US and Canada.",
+      "rating" : "MPAA rating of the film.",
+      "movie" : "Title of the movie."
+   },
+   "format" : "A data frame with 140 observations on the following 5 variables.",
+   "reference" : "Investigating Statistical Concepts, Applications and Methods",
+   "title" : "movies",
+   "description" : "Description\nA dataset with information about movies released in 2003.",
+   "usage" : "movies"
+}
+
 var movies = [
    [
       "movie",

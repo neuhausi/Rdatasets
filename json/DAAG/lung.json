@@ -1,74 +1,9 @@
 {
    "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>lung</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Cape Fur Seal Lung Measurements</h2>\n<h3>Description</h3>\n<p>The <code>lung</code> vector consists  \nof weight measurements of lungs taken from 30 Cape Fur\nSeals that died as an unintended consequence of commercial fishing.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>lung</code></pre>\n</main>\n</div>\n",
    "data" : {
-      "x" : {
-         "dat" : [
-            "605",
-            "436",
-            "380",
-            "493.9",
-            "",
-            "550",
-            "470",
-            "592.5",
-            "605",
-            "799.9",
-            "995",
-            "785",
-            "910",
-            "1115",
-            "1142.6",
-            "1465",
-            "1250",
-            "1580",
-            "2000",
-            "1474.4",
-            "",
-            "1220",
-            "1790",
-            "1510",
-            "",
-            "",
-            "2735",
-            "",
-            "2380",
-            ""
-         ]
-      },
       "y" : {
-         "data" : [
-            [
-               1,
-               2,
-               3,
-               4,
-               5,
-               6,
-               7,
-               8,
-               9,
-               10,
-               11,
-               12,
-               13,
-               14,
-               15,
-               16,
-               17,
-               18,
-               19,
-               20,
-               21,
-               22,
-               23,
-               24,
-               25,
-               26,
-               27,
-               28,
-               29,
-               30
-            ]
+         "vars" : [
+            "Row"
          ],
          "smps" : [
             "Smp1",
@@ -102,18 +37,83 @@
             "Smp29",
             "Smp30"
          ],
-         "vars" : [
-            "Row"
+         "data" : [
+            [
+               1,
+               2,
+               3,
+               4,
+               5,
+               6,
+               7,
+               8,
+               9,
+               10,
+               11,
+               12,
+               13,
+               14,
+               15,
+               16,
+               17,
+               18,
+               19,
+               20,
+               21,
+               22,
+               23,
+               24,
+               25,
+               26,
+               27,
+               28,
+               29,
+               30
+            ]
+         ]
+      },
+      "x" : {
+         "dat" : [
+            "605",
+            "436",
+            "380",
+            "493.9",
+            "",
+            "550",
+            "470",
+            "592.5",
+            "605",
+            "799.9",
+            "995",
+            "785",
+            "910",
+            "1115",
+            "1142.6",
+            "1465",
+            "1250",
+            "1580",
+            "2000",
+            "1474.4",
+            "",
+            "1220",
+            "1790",
+            "1510",
+            "",
+            "",
+            "2735",
+            "",
+            "2380",
+            ""
          ]
       }
    },
    "config" : {
+      "subtitle" : "DAAG - lung",
       "groupingFactors" : [
          "dat"
       ],
+      "graphType" : "Boxplot",
       "colorBy" : "variable",
-      "title" : "Cape Fur Seal Lung Measurements",
-      "subtitle" : "DAAG - lung",
-      "graphType" : "Boxplot"
+      "title" : "Cape Fur Seal Lung Measurements"
    }
 }

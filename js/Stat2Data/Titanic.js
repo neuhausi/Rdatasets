@@ -1,3 +1,9 @@
+var TitanicInfo ={
+   "title" : "Passengers on the Titanic",
+   "usage" : "A dataset with 1313 observations on the following 6 variables.",
+   "description" : "Description\nList and outcomes for passengers on the Titanic"
+}
+
 var Titanic = [
    [
       "Name",

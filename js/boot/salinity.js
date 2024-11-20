@@ -1,3 +1,17 @@
+var salinityInfo ={
+   "parameters" : {
+      "sal" : "The average salinity of the water over two weeks.",
+      "dis" : "The amount of river discharge during the two weeks for which sal is the\naverage salinity.",
+      "trend" : "A factor indicating in which of the 6 biweekly periods between March and May,\nthe observations were taken. The levels of the factor are from 0 to 5 with\n0 being the first two weeks in March.",
+      "lag" : "The average salinity of the water lagged two weeks.  Since only spring is used,\nthe value of lag is not always equal to the previous value of sal."
+   },
+   "title" : "Water Salinity and River Discharge",
+   "format" : "This data frame contains the following columns:",
+   "reference" : "The data were obtained from",
+   "description" : "Description\nThe salinity data frame has 28 rows and 4 columns.\nBiweekly averages of the water salinity and river discharge in Pamlico\nSound, North Carolina were recorded between the years 1972 and 1977.\nThe data in this set consists only of those measurements in March, April\nand May.",
+   "usage" : "salinity"
+}
+
 var salinity = [
    [
       "sal",

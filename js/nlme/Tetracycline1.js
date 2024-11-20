@@ -1,3 +1,16 @@
+var Tetracycline1Info ={
+   "parameters" : {
+      "Time" : "a numeric vector",
+      "Subject" : "an ordered factor with levels\n5 < 3 < 2 < 4 < 1",
+      "Formulation" : "a factor with levels\ntetrachel \ntetracyn",
+      "conc" : "a numeric vector"
+   },
+   "description" : "Description\nThe Tetracycline1 data frame has 40 rows and 4 columns.",
+   "usage" : "This data frame contains the following columns:",
+   "title" : "Pharmacokinetics of tetracycline",
+   "reference" : "Pinheiro, J. C. and Bates, D. M. (2000), Mixed-Effects Models in S\nand S-PLUS, Springer, New York."
+}
+
 var Tetracycline1 = [
    [
       "conc",

@@ -11927,6 +11927,14 @@
          ]
       },
       "y" : {
+         "vars" : [
+            "year",
+            "life",
+            "dead",
+            "acd",
+            "kia",
+            "inbed"
+         ],
          "smps" : [
             "1",
             "2",
@@ -53662,25 +53670,17 @@
                1,
                0
             ]
-         ],
-         "vars" : [
-            "year",
-            "life",
-            "dead",
-            "acd",
-            "kia",
-            "inbed"
          ]
       }
    },
    "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>cricketer</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Lifespans of UK 1st class cricketers born 1840-1960</h2>\n<h3>Description</h3>\n<p>Year and birth, lifespan, etc, of British first class cricketers,\nborn 1840-1960, whose handedness could be determined from\ninformation in the Who's who of cricketers.  The status\n(alive=0, dead =1), and lifetime or lifespan, is for 1992.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(cricketer)</code></pre>\n<h3>Format</h3>\n<p>A data frame with 5960 observations on the following 8 variables.\n</p>\n<dl>\n<dt><code>left</code></dt><dd><p>a factor with levels <code>right</code> <code>left</code></p>\n</dd>\n<dt><code>year</code></dt><dd><p>numeric, year of birth</p>\n</dd>\n<dt><code>life</code></dt><dd><p>numeric, lifetime or lifespan to 1992</p>\n</dd>\n<dt><code>dead</code></dt><dd><p>numeric (0 = alive (censored), 1 = dead, in 1992)</p>\n</dd>\n<dt><code>acd</code></dt><dd><p>numeric (0 = not accidental or not dead, 1\n= accidental death)</p>\n</dd>\n<dt><code>kia</code></dt><dd><p>numeric (0 = not killed in action, 1\n= killed in action)</p>\n</dd>\n<dt><code>inbed</code></dt><dd><p>numeric (0 = did not die in bed, 1\n= died in bed)</p>\n</dd>\n<dt><code>cause</code></dt><dd><p>a factor with levels <code>alive</code> <code>acd</code>\n(accidental death) <code>inbed</code> (died in bed)</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>Note that those 'killed in action' (mostly during World Wars I and II)\nform a subset of those who died by accident.\n</p>\n<h3>Source</h3>\n<p>John Aggleton, Martin Bland.  Data were collated as described in\nAggleton et al.\n</p>\n<h3>References</h3>\n<p>Aggleton JP, Bland JM, Kentridge RW, Neave NJ 1994.  Handedness and\nlongevity: an archival study of cricketers.  British Medical Journal\n309, 1681-1684.\n</p>\n<p>Bailey P, Thorne P, Wynne-Thomas P. 1993. Who's Who of Cricketers.\n2nd ed, London, Hamlyn.\n</p>\n<p>Bland M and Altman D. 2005. Do the left-handed die young?\nSignificance 2, 166-170.\n</p>\n<h3>See Also</h3>\n<p><code>earlycrcktr</code>.</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>data(cricketer)\nnumLH &lt;- xtabs(~ left+year, data=cricketer)\npropLH &lt;- prop.table(numLH, margin=2)[2,]\nyr &lt;- as.numeric(colnames(numLH))\nplot(propLH ~ yr)\ncricketer$lh &lt;- unclass(cricketer$left)-1\nleft2.hat &lt;- fitted(lm(lh ~ poly(year,2), data=cricketer))\nord &lt;- order(cricketer$year)\nlines(left2.hat[ord] ~ cricketer$year[ord])\nlibrary(splines)\nns3.hat &lt;- fitted(lm(lh ~ ns(year,3), data=cricketer))\nlines(ns3.hat[ord] ~ cricketer$year[ord], col=\"red\")\nrequire(survival)\nsummary(coxph(Surv(life, kia) ~ bs(year,3) +left, data=cricketer))\ncricketer$notacdDead &lt;- with(cricketer, {dead[acd==1]&lt;-0; dead})\nsummary(coxph(Surv(life, notacdDead) ~ ns(year,2) +left, data=cricketer))\n</code></pre>\n</main>\n</div>\n",
    "config" : {
+      "subtitle" : "DAAG - cricketer",
+      "graphType" : "Heatmap",
       "title" : "Lifespans of UK 1st class cricketers born 1840-1960",
       "smpOverlays" : [
          "left",
          "cause"
-      ],
-      "graphType" : "Heatmap",
-      "subtitle" : "DAAG - cricketer"
+      ]
    }
 }

@@ -1,56 +1,12 @@
 {
    "config" : {
+      "title" : "Cobar Ore data",
       "graphType" : "Scatter3D",
-      "subtitle" : "quantreg - CobarOre",
-      "title" : "Cobar Ore data"
+      "subtitle" : "quantreg - CobarOre"
    },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>CobarOre</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2> Cobar Ore data </h2>\n<h3>Description</h3>\n<p>Cobar Ore data from Green and Silverman (1994). \nThe data consists of measurements on the &quot;true width&quot;\nof an ore-bearing rock layer from a mine in Cobar, Australia.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(CobarOre)</code></pre>\n<h3>Format</h3>\n<p>A data frame with 38 observations on the following 3 variables.\n</p>\n<dl>\n<dt>x</dt><dd><p>x-coordinate of location of mine site</p>\n</dd>\n<dt>y</dt><dd><p>y-coordinate of location of mine site</p>\n</dd>\n<dt>z</dt><dd><p>ore thickness</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>Green, P.J. and B.W. Silverman (1994) Nonparametric Regression Generalized Linear Models:\nA roughness penalty approach, Chapman Hall.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>data(CobarOre)\nplot(CobarOre)\n</code></pre>\n</main>\n</div>\n",
    "data" : {
       "y" : {
-         "vars" : [
-            "Var1",
-            "Var2",
-            "Var3",
-            "Var4",
-            "Var5",
-            "Var6",
-            "Var7",
-            "Var8",
-            "Var9",
-            "Var10",
-            "Var11",
-            "Var12",
-            "Var13",
-            "Var14",
-            "Var15",
-            "Var16",
-            "Var17",
-            "Var18",
-            "Var19",
-            "Var20",
-            "Var21",
-            "Var22",
-            "Var23",
-            "Var24",
-            "Var25",
-            "Var26",
-            "Var27",
-            "Var28",
-            "Var29",
-            "Var30",
-            "Var31",
-            "Var32",
-            "Var33",
-            "Var34",
-            "Var35",
-            "Var36",
-            "Var37",
-            "Var38"
-         ],
-         "smps" : [
-            "x",
-            "y",
-            "z"
-         ],
          "data" : [
             [
                -16,
@@ -242,8 +198,52 @@
                -16,
                16
             ]
+         ],
+         "vars" : [
+            "Var1",
+            "Var2",
+            "Var3",
+            "Var4",
+            "Var5",
+            "Var6",
+            "Var7",
+            "Var8",
+            "Var9",
+            "Var10",
+            "Var11",
+            "Var12",
+            "Var13",
+            "Var14",
+            "Var15",
+            "Var16",
+            "Var17",
+            "Var18",
+            "Var19",
+            "Var20",
+            "Var21",
+            "Var22",
+            "Var23",
+            "Var24",
+            "Var25",
+            "Var26",
+            "Var27",
+            "Var28",
+            "Var29",
+            "Var30",
+            "Var31",
+            "Var32",
+            "Var33",
+            "Var34",
+            "Var35",
+            "Var36",
+            "Var37",
+            "Var38"
+         ],
+         "smps" : [
+            "x",
+            "y",
+            "z"
          ]
       }
-   },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>CobarOre</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2> Cobar Ore data </h2>\n<h3>Description</h3>\n<p>Cobar Ore data from Green and Silverman (1994). \nThe data consists of measurements on the &quot;true width&quot;\nof an ore-bearing rock layer from a mine in Cobar, Australia.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(CobarOre)</code></pre>\n<h3>Format</h3>\n<p>A data frame with 38 observations on the following 3 variables.\n</p>\n<dl>\n<dt>x</dt><dd><p>x-coordinate of location of mine site</p>\n</dd>\n<dt>y</dt><dd><p>y-coordinate of location of mine site</p>\n</dd>\n<dt>z</dt><dd><p>ore thickness</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>Green, P.J. and B.W. Silverman (1994) Nonparametric Regression Generalized Linear Models:\nA roughness penalty approach, Chapman Hall.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>data(CobarOre)\nplot(CobarOre)\n</code></pre>\n</main>\n</div>\n"
+   }
 }

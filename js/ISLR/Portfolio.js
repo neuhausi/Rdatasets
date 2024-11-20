@@ -1,3 +1,15 @@
+var PortfolioInfo ={
+   "parameters" : {
+      "X" : "Returns for Asset X",
+      "Y" : "Returns for Asset Y"
+   },
+   "format" : "A data frame with 100 observations on the following 2 variables.",
+   "title" : "Portfolio Data",
+   "reference" : "Simulated data",
+   "description" : "Description\nA simple simulated data set containing 100 returns for each\nof two assets, X and Y. The data is used to estimate the optimal\nfraction to invest in each asset to minimize investment risk of the\ncombined portfolio. One can then use the Bootstrap to estimate the\nstandard error of this estimate.",
+   "usage" : "Portfolio"
+}
+
 var Portfolio = [
    [
       "X",

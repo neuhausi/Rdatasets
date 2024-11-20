@@ -1,3 +1,17 @@
+var IndianIrishInfo ={
+   "description" : "Description\nThe IndianIrish data frame has 18 rows and 4 columns.\nThe data are genotype frequencies for two locations, for\nXavante Indian and Irish populations respectively",
+   "usage" : "data(IndianIrish)",
+   "parameters" : {
+      "locus2" : "Factor with levels:\nSS, Ss and ss",
+      "locus1" : "Factor with levels:\nMM, MN and NN",
+      "Population" : "Factor with levels:\nIndian and Irish",
+      "Observed" : "a numeric vector giving the frequency for each\ncategory of the tale"
+   },
+   "title" : "Observed genotype frequencies at MN and S loci, for 2 populations",
+   "format" : "This data frame contains the following columns:",
+   "reference" : "Mourant et al (1977) and Huttley and Wilson (2000)."
+}
+
 var IndianIrish = [
    [
       "Population",

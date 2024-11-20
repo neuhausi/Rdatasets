@@ -1,3 +1,22 @@
+var cpusInfo ={
+   "description" : "Description\nA relative performance measure and characteristics of 209 CPUs.",
+   "usage" : "cpus",
+   "parameters" : {
+      "mmax" : "maximum main memory in kilobytes.",
+      "mmin" : "minimum main memory in kilobytes.",
+      "syct" : "cycle time in nanoseconds.",
+      "name" : "manufacturer and model.",
+      "chmax" : "maximum number of channels.",
+      "cach" : "cache size in kilobytes.",
+      "perf" : "published performance on a benchmark mix relative to an IBM 370/158-3.",
+      "chmin" : "minimum number of channels.",
+      "estperf" : "estimated performance (by Ein-Dor & Feldmesser)."
+   },
+   "format" : "The components are:",
+   "reference" : "P. Ein-Dor and J. Feldmesser (1987)\nAttributes of the performance of central processing units: a relative\nperformance prediction model.\nComm. ACM. 30, 308&ndash;317.",
+   "title" : "Performance of Computer CPUs"
+}
+
 var cpus = [
    [
       "name",

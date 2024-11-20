@@ -1,7 +1,46 @@
 {
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>KleinI</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Klein Model I</h2>\n<h3>Description</h3>\n<p>Klein's Model I for the US economy.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(\"KleinI\")</code></pre>\n<h3>Format</h3>\n<p>An annual multiple time series from 1920 to 1941 with 9 variables.\n</p>\n<dl>\n<dt>consumption</dt><dd><p>Consumption.</p>\n</dd>\n<dt>cprofits</dt><dd><p>Corporate profits.</p>\n</dd>\n<dt>pwage</dt><dd><p>Private wage bill.</p>\n</dd>\n<dt>invest</dt><dd><p>Investment.</p>\n</dd>\n<dt>capital</dt><dd><p>Previous year's capital stock.</p>\n</dd>\n<dt>gnp</dt><dd><p>Gross national product.</p>\n</dd>    \n<dt>gwage</dt><dd><p>Government wage bill.</p>\n</dd>\n<dt>gexpenditure</dt><dd><p>Government spending.</p>\n</dd>\n<dt>taxes</dt><dd><p>Taxes.</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>Online complements to Greene (2003). Table F15.1.\n</p>\n<p><a href=\"https://pages.stern.nyu.edu/~wgreene/Text/tables/tablelist5.htm\">https://pages.stern.nyu.edu/~wgreene/Text/tables/tablelist5.htm</a>\n</p>\n<h3>References</h3>\n<p>Greene, W.H. (2003). <em>Econometric Analysis</em>, 5th edition. Upper Saddle River, NJ: Prentice Hall.\n</p>\n<p>Klein, L. (1950). <em>Economic Fluctuations in the United States, 1921&ndash;1941</em>. New York: John Wiley.\n</p>\n<p>Maddala, G.S. (1977). <em>Econometrics</em>. New York: McGraw-Hill.\n</p>\n<h3>See Also</h3>\n<p><code>Greene2003</code></p>\n<h3>Examples</h3>\n<pre><code class='language-R'>\ndata(\"KleinI\", package = \"AER\")\nplot(KleinI)\n## Greene (2003), Tab. 15.3, OLS\nlibrary(\"dynlm\")\nfm_cons &lt;- dynlm(consumption ~ cprofits + L(cprofits) + I(pwage + gwage), data = KleinI)\nfm_inv &lt;- dynlm(invest ~ cprofits + L(cprofits) + capital, data = KleinI)\nfm_pwage &lt;- dynlm(pwage ~ gnp + L(gnp) + I(time(gnp) - 1931), data = KleinI)\nsummary(fm_cons)\nsummary(fm_inv)\nsummary(fm_pwage)\n## More examples can be found in:\n## help(\"Greene2003\")\n</code></pre>\n</main>\n</div>\n",
+   "config" : {
+      "graphType" : "Heatmap",
+      "title" : "Klein Model I",
+      "subtitle" : "AER - KleinI"
+   },
    "data" : {
       "y" : {
+         "vars" : [
+            "consumption",
+            "cprofits",
+            "pwage",
+            "invest",
+            "capital",
+            "gnp",
+            "gwage",
+            "gexpenditure",
+            "taxes"
+         ],
+         "smps" : [
+            "Smp1",
+            "Smp2",
+            "Smp3",
+            "Smp4",
+            "Smp5",
+            "Smp6",
+            "Smp7",
+            "Smp8",
+            "Smp9",
+            "Smp10",
+            "Smp11",
+            "Smp12",
+            "Smp13",
+            "Smp14",
+            "Smp15",
+            "Smp16",
+            "Smp17",
+            "Smp18",
+            "Smp19",
+            "Smp20",
+            "Smp21",
+            "Smp22"
+         ],
          "data" : [
             [
                39.8,
@@ -219,47 +258,8 @@
                9.6,
                11.6
             ]
-         ],
-         "smps" : [
-            "Smp1",
-            "Smp2",
-            "Smp3",
-            "Smp4",
-            "Smp5",
-            "Smp6",
-            "Smp7",
-            "Smp8",
-            "Smp9",
-            "Smp10",
-            "Smp11",
-            "Smp12",
-            "Smp13",
-            "Smp14",
-            "Smp15",
-            "Smp16",
-            "Smp17",
-            "Smp18",
-            "Smp19",
-            "Smp20",
-            "Smp21",
-            "Smp22"
-         ],
-         "vars" : [
-            "consumption",
-            "cprofits",
-            "pwage",
-            "invest",
-            "capital",
-            "gnp",
-            "gwage",
-            "gexpenditure",
-            "taxes"
          ]
       }
    },
-   "config" : {
-      "title" : "Klein Model I",
-      "graphType" : "Heatmap",
-      "subtitle" : "AER - KleinI"
-   }
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>KleinI</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Klein Model I</h2>\n<h3>Description</h3>\n<p>Klein's Model I for the US economy.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(\"KleinI\")</code></pre>\n<h3>Format</h3>\n<p>An annual multiple time series from 1920 to 1941 with 9 variables.\n</p>\n<dl>\n<dt>consumption</dt><dd><p>Consumption.</p>\n</dd>\n<dt>cprofits</dt><dd><p>Corporate profits.</p>\n</dd>\n<dt>pwage</dt><dd><p>Private wage bill.</p>\n</dd>\n<dt>invest</dt><dd><p>Investment.</p>\n</dd>\n<dt>capital</dt><dd><p>Previous year's capital stock.</p>\n</dd>\n<dt>gnp</dt><dd><p>Gross national product.</p>\n</dd>    \n<dt>gwage</dt><dd><p>Government wage bill.</p>\n</dd>\n<dt>gexpenditure</dt><dd><p>Government spending.</p>\n</dd>\n<dt>taxes</dt><dd><p>Taxes.</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>Online complements to Greene (2003). Table F15.1.\n</p>\n<p><a href=\"https://pages.stern.nyu.edu/~wgreene/Text/tables/tablelist5.htm\">https://pages.stern.nyu.edu/~wgreene/Text/tables/tablelist5.htm</a>\n</p>\n<h3>References</h3>\n<p>Greene, W.H. (2003). <em>Econometric Analysis</em>, 5th edition. Upper Saddle River, NJ: Prentice Hall.\n</p>\n<p>Klein, L. (1950). <em>Economic Fluctuations in the United States, 1921&ndash;1941</em>. New York: John Wiley.\n</p>\n<p>Maddala, G.S. (1977). <em>Econometrics</em>. New York: McGraw-Hill.\n</p>\n<h3>See Also</h3>\n<p><code>Greene2003</code></p>\n<h3>Examples</h3>\n<pre><code class='language-R'>\ndata(\"KleinI\", package = \"AER\")\nplot(KleinI)\n## Greene (2003), Tab. 15.3, OLS\nlibrary(\"dynlm\")\nfm_cons &lt;- dynlm(consumption ~ cprofits + L(cprofits) + I(pwage + gwage), data = KleinI)\nfm_inv &lt;- dynlm(invest ~ cprofits + L(cprofits) + capital, data = KleinI)\nfm_pwage &lt;- dynlm(pwage ~ gnp + L(gnp) + I(time(gnp) - 1931), data = KleinI)\nsummary(fm_cons)\nsummary(fm_inv)\nsummary(fm_pwage)\n## More examples can be found in:\n## help(\"Greene2003\")\n</code></pre>\n</main>\n</div>\n"
 }

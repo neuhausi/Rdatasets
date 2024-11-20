@@ -1,3 +1,10 @@
+var smithsInfo ={
+   "description" : "Description\nA small demo dataset describing John and Mary Smith.",
+   "usage" : "smiths",
+   "format" : "A data frame with 2 rows and 5 columns.",
+   "title" : "Some data about the Smith family"
+}
+
 var smiths = [
    [
       "subject",

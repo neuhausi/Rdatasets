@@ -1,3 +1,27 @@
+var AustralianElectionPollingInfo ={
+   "usage" : "data(AustralianElectionPolling)",
+   "description" : "Description\nThe results of 239 published opinion polls measuring vote intentions (1st preference vote intention in a House of Representatives election) between the 2004 and 2007 Australian Federal elections, from 4 survey houses.",
+   "reference" : "Morgan uses two modes: phone and face-to-face.",
+   "title" : "Political opinion polls in Australia, 2004-07",
+   "format" : "A data frame with 239 observations on the following 14 variables.",
+   "parameters" : {
+      "Lib" : "a numeric vector, percentage of respondents reported as intending to vote for the Liberal Party",
+      "Nat" : "a numeric vector, percentage of respondents reported as intending to vote for the National Party",
+      "Green" : "a numeric vector, percentage of respondents reported as intending to vote for the Greens",
+      "sampleSize" : "a numeric vector, reported sample size of the poll",
+      "DK" : "a numeric vector, percentage of respondents reported as expressing no preference or a &ldquo;don't know&rdquo; response",
+      "Dems" : "a numeric vector, percentage of respondents reported as intending to vote for the Australian Democrats",
+      "ALP" : "a numeric vector, percentage of respondents reported as intending to vote for the Australian Labor Party",
+      "org" : "a factor with levels Galaxy, Morgan, F2F, Newspoll, Nielsen and Morgan, Phone, indicating the survey house and/or mode of the poll",
+      "remark" : "a character vector, remarks noted by author and/or research assistant coders",
+      "startDate" : "a Date, reported start of the field period",
+      "endDate" : "a Date, reported end of the field period",
+      "source" : "a character vector, source of the poll report",
+      "FamilyFirst" : "a numeric vector, percentage of respondents reported as intending to vote for the Family First party",
+      "OneNation" : "a numeric vector, percentage of respondents reported as intending to vote for One Nation"
+   }
+}
+
 var AustralianElectionPolling = [
    [
       "ALP",

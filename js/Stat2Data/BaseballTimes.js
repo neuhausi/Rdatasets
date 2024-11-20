@@ -1,3 +1,9 @@
+var BaseballTimesInfo ={
+   "usage" : "A data frame with 15 observations on the following 7 variables.",
+   "title" : "Baseball Game Times of One Day in 2008",
+   "description" : "Description\nGame times and boxscore information for baseball games"
+}
+
 var BaseballTimes = [
    [
       "Game",

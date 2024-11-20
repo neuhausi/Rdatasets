@@ -2,6 +2,39 @@
    "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>cherry</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Summary information for 31 cherry trees</h2>\n<h3>Description</h3>\n<p>Researchers wanting to understand the relationship between these variables\nfor black cherry trees collected data from 31 trees in the Allegheny\nNational Forest, Pennsylvania.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>cherry\n</code></pre>\n<h3>Format</h3>\n<p>A data frame with 31 observations on the following 3 variables.\n</p>\n<dl>\n<dt>diam</dt><dd><p>diameter in inches (at 54 inches above ground)</p>\n</dd>\n<dt>height</dt><dd><p>height is measured in feet</p>\n</dd>\n<dt>volume</dt><dd><p>volume in cubic feet</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>D.J. Hand. A handbook of small data sets. Chapman &amp; Hall/CRC, 1994.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>\nlibrary(ggplot2)\nlibrary(broom)\nggplot(cherry, aes(x = diam, y = volume)) +\n  geom_point() +\n  geom_smooth(method = \"lm\")\nmod &lt;- lm(volume ~ diam + height, cherry)\ntidy(mod)\n</code></pre>\n</main>\n</div>\n",
    "data" : {
       "y" : {
+         "vars" : [
+            "Var1",
+            "Var2",
+            "Var3",
+            "Var4",
+            "Var5",
+            "Var6",
+            "Var7",
+            "Var8",
+            "Var9",
+            "Var10",
+            "Var11",
+            "Var12",
+            "Var13",
+            "Var14",
+            "Var15",
+            "Var16",
+            "Var17",
+            "Var18",
+            "Var19",
+            "Var20",
+            "Var21",
+            "Var22",
+            "Var23",
+            "Var24",
+            "Var25",
+            "Var26",
+            "Var27",
+            "Var28",
+            "Var29",
+            "Var30",
+            "Var31"
+         ],
          "smps" : [
             "diam",
             "height",
@@ -163,45 +196,12 @@
                87,
                77
             ]
-         ],
-         "vars" : [
-            "Var1",
-            "Var2",
-            "Var3",
-            "Var4",
-            "Var5",
-            "Var6",
-            "Var7",
-            "Var8",
-            "Var9",
-            "Var10",
-            "Var11",
-            "Var12",
-            "Var13",
-            "Var14",
-            "Var15",
-            "Var16",
-            "Var17",
-            "Var18",
-            "Var19",
-            "Var20",
-            "Var21",
-            "Var22",
-            "Var23",
-            "Var24",
-            "Var25",
-            "Var26",
-            "Var27",
-            "Var28",
-            "Var29",
-            "Var30",
-            "Var31"
          ]
       }
    },
    "config" : {
-      "subtitle" : "openintro - cherry",
       "graphType" : "Scatter3D",
-      "title" : "Summary information for 31 cherry trees"
+      "title" : "Summary information for 31 cherry trees",
+      "subtitle" : "openintro - cherry"
    }
 }

@@ -1,3 +1,16 @@
+var tourismInfo ={
+   "description" : "Description\nSummary of tourism in Turkey.",
+   "usage" : "tourism",
+   "parameters" : {
+      "visitor_count_tho" : "a numeric vector",
+      "tourist_spending" : "a numeric vector",
+      "year" : "a numeric vector"
+   },
+   "title" : "Turkey tourism",
+   "format" : "A data frame with 47 observations on the following 3 variables.",
+   "reference" : "Association of Turkish Travel Agencies, Foreign Visitors Figure &\nTourist Spendings By Years.\nhttp://www.tursab.org.tr/en/statistics/foreign-visitors-figure-tourist-spendings-by-years_1083.html"
+}
+
 var tourism = [
    [
       "year",

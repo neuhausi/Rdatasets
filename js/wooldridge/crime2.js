@@ -1,3 +1,47 @@
+var crime2Info ={
+   "usage" : "data('crime2')",
+   "description" : "Description\nWooldridge Source: These data were collected by David Dicicco, a former MSU undergraduate, for a final project. They came from various issues of the County and City Data Book, and are for the years 1982 and 1985. Unfortunately, I do not have the list of cities. Data loads lazily.",
+   "reference" : "Very rich crime data sets, at the county, or even city, level, can be collected using the FBIâs Uniform Crime Reports. These data can be matched up with demographic and economic data, at least for census years. The County and City Data Book contains a variety of statistics, but the years do not always match up. These data sets can be used investigate issues such as the effects of casinos on city or county crime rates.",
+   "title" : "crime2",
+   "format" : "A data.frame with 92 observations on 34 variables:",
+   "parameters" : {
+      "clcrmrte" : " change in lcrmrte",
+      "clpolpc" : " change in lpolpc",
+      "llawexpc" : " log(lawexpc)",
+      "lcrmrt_1" : " lcrmrte lagged",
+      "clpop" : " change in lpop",
+      "loffic" : " log(officers)",
+      "polpc" : " police per 1000 people",
+      "clcrimes" : " change in lcrimes",
+      "lpopden" : " log(popden)",
+      "larea" : " log(area)",
+      "south" : " =1 if city in south",
+      "offarea" : " officers per sq mile",
+      "ccrmrte" : " change in crmrte",
+      "pcinc" : " per capita income",
+      "year" : " 82 or 87",
+      "cllawexp" : " change in llawexp",
+      "lpop" : " log(pop)",
+      "nrtheast" : " =1 if city in NE",
+      "area" : " land area, square miles",
+      "clpopden" : " change in lpopden",
+      "lcrmrte" : " log(crmrte)",
+      "d87" : " =1 if year = 87",
+      "officers" : " number police officers",
+      "cunem" : " change in unem",
+      "unem" : " unemployment rate",
+      "crmrte" : " crimes per 1000 people",
+      "pop" : " population",
+      "lpolpc" : " log(polpc)",
+      "popden" : " people per sq mile",
+      "crimes" : " total number index crimes",
+      "lcrimes" : " log(crimes)",
+      "west" : " =1 if city in west",
+      "lawexpc" : " law enforce. expend. pc, $",
+      "lpcinc" : " log(pcinc)"
+   }
+}
+
 var crime2 = [
    [
       "pop",

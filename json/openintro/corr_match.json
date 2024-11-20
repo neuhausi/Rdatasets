@@ -1,8 +1,8 @@
 {
    "config" : {
-      "subtitle" : "openintro - corr_match",
+      "title" : "Sample datasets for correlation problems",
       "graphType" : "Heatmap",
-      "title" : "Sample datasets for correlation problems"
+      "subtitle" : "openintro - corr_match"
    },
    "data" : {
       "y" : {
@@ -128,6 +128,17 @@
             "Smp119",
             "Smp120",
             "Smp121"
+         ],
+         "vars" : [
+            "x",
+            "y1",
+            "y2",
+            "y3",
+            "y4",
+            "y5",
+            "y6",
+            "y7",
+            "y8"
          ],
          "data" : [
             [
@@ -1237,17 +1248,6 @@
                -45.2475424338714,
                -13.7969415057685
             ]
-         ],
-         "vars" : [
-            "x",
-            "y1",
-            "y2",
-            "y3",
-            "y4",
-            "y5",
-            "y6",
-            "y7",
-            "y8"
          ]
       }
    },

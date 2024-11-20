@@ -1,3 +1,17 @@
+var DuncanInfo ={
+   "description" : "Description\nThe Duncan data frame has 45 rows and 4 columns.\nData on the prestige and other characteristics of 45 U. S. occupations in 1950.",
+   "usage" : "Duncan",
+   "parameters" : {
+      "education" : "Percentage of occupational incumbents in 1950 who were high school graduates (which, were we cynical, we would say is roughly equivalent to a PhD in 2017)",
+      "type" : "Type of occupation.\nA factor with the following levels:\nprof, professional and managerial;\nwc, white-collar;\nbc, blue-collar.",
+      "income" : "Percentage of occupational incumbents in the 1950 US Census who earned $3,500 or more per year (about $36,000 in 2017 US dollars).",
+      "prestige" : "Percentage of respondents in a social survey who rated the occupation as &ldquo;good&rdquo; or better in prestige"
+   },
+   "format" : "This data frame contains the following columns:",
+   "reference" : "Duncan, O. D. (1961)\nA socioeconomic index for all occupations.\nIn Reiss, A. J., Jr. (Ed.)\nOccupations and Social Status. Free Press\n[Table VI-1].",
+   "title" : "Duncan's Occupational Prestige Data"
+}
+
 var Duncan = [
    [
       "type",

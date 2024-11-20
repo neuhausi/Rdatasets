@@ -1,3 +1,10 @@
+var DykeInfo ={
+   "description" : "Description\nObservational data on a sample of 1729 individuals, cross-classified in a 2^5 table according to their sources of \ninformation (read newspapers, listen to the radio, do 'solid' reading, attend lectures) and whether they have\ngood or poor knowledge regarding cancer.  Knowledge of cancer is often treated as the response.",
+   "title" : "Sources of Knowledge of Cancer",
+   "format" : "A 5-dimensional array resulting from cross-tabulating 5 variables for  1729 observations. The variable names and their levels are:",
+   "usage" : "data(Dyke)"
+}
+
 var Dyke = [
    [
       "Knowledge",

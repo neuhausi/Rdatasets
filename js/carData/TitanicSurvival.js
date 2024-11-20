@@ -1,3 +1,17 @@
+var TitanicSurvivalInfo ={
+   "parameters" : {
+      "survived" : "no or yes.",
+      "age" : "in years (and for some children, fractions of a year); age\nis missing for 263 of the passengers.",
+      "sex" : "female or male",
+      "passengerClass" : "1st, 2nd, or 3rd class."
+   },
+   "reference" : "This is part of a larger data set compiled by Thomas Cason. \nMany additional details are given in the sources cited below.",
+   "title" : "Survival of Passengers on the Titanic",
+   "format" : "A data frame with 1309 observations on the following 4 variables.",
+   "description" : "Description\nInformation on the survival status, sex, age, and passenger class of 1309\npassengers in the Titanic disaster of 1912.",
+   "usage" : "TitanicSurvival"
+}
+
 var TitanicSurvival = [
    [
       "survived",

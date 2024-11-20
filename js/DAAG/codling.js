@@ -1,3 +1,23 @@
+var codlingInfo ={
+   "usage" : "data(codling)",
+   "description" : "Description\nData are from trials that studied the mortality response of codling moth\nto fumigation with methyl bromide.",
+   "format" : "A data frame with 99 observations on the following 10 variables.",
+   "title" : "Dose-mortality data, for fumigation of codling moth with methyl bromide",
+   "reference" : "The research that generated these data was in part funded by New Zealand\npipfruit growers.  The published analysis was funded by New Zealand\npipfruit growers. See also sorption.",
+   "parameters" : {
+      "cm" : "Control mortality, i.e., at dose 0",
+      "tot" : "Number of insects in chamber",
+      "gp" : "a factor which has a different level for each different\ncombination of Cultivar, year and rep (replicate).",
+      "pobs" : "Proportion dying",
+      "numcm" : "a numeric vector: total number of control insects",
+      "dose" : "Injected dose of methyl bromide, in gm per cubic meter",
+      "ct" : "Concentration-time sum",
+      "year" : "a factor with levels 1988 1989",
+      "dead" : "Number of insects dying",
+      "Cultivar" : "a factor with levels BRAEBURN FUJI GRANNY Gala ROYAL Red Delicious Splendour"
+   }
+}
+
 var codling = [
    [
       "dose",

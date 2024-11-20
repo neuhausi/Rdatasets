@@ -1,39 +1,11 @@
 {
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>TextPrices</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Textbook Prices</h2>\n<h3>Description</h3>\n<p>Prices and number of pages for a sample of college textbooks\n</p>\n<h3>Format</h3>\n<p>A dataset with 30 observations on the following 2 variables.\n</p>\n<table>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Pages</code> </td><td style=\"text-align: left;\"> Number of pages in the textbook</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Price</code> </td><td style=\"text-align: left;\"> Price of the textbook (in dollars)</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n  </td>\n</tr>\n</table>\n<h3>Details</h3>\n<p>Two undergraduate students at Cal Poly - San Luis Obispo took a random sample of 30\ntextbooks from the campus bookstore in the fall of 2006. They recorded the price and number of\npages in each book, in order to investigate the question of whether number of pages can be used\nto predict price.\n</p>\n<h3>Source</h3>\n<p>Student project\n</p>\n</main>\n</div>\n",
+   "config" : {
+      "graphType" : "Scatter2D",
+      "title" : "Textbook Prices",
+      "subtitle" : "Stat2Data - TextPrices"
+   },
    "data" : {
       "y" : {
-         "vars" : [
-            "Var1",
-            "Var2",
-            "Var3",
-            "Var4",
-            "Var5",
-            "Var6",
-            "Var7",
-            "Var8",
-            "Var9",
-            "Var10",
-            "Var11",
-            "Var12",
-            "Var13",
-            "Var14",
-            "Var15",
-            "Var16",
-            "Var17",
-            "Var18",
-            "Var19",
-            "Var20",
-            "Var21",
-            "Var22",
-            "Var23",
-            "Var24",
-            "Var25",
-            "Var26",
-            "Var27",
-            "Var28",
-            "Var29",
-            "Var30"
-         ],
          "data" : [
             [
                600,
@@ -159,12 +131,40 @@
          "smps" : [
             "Pages",
             "Price"
+         ],
+         "vars" : [
+            "Var1",
+            "Var2",
+            "Var3",
+            "Var4",
+            "Var5",
+            "Var6",
+            "Var7",
+            "Var8",
+            "Var9",
+            "Var10",
+            "Var11",
+            "Var12",
+            "Var13",
+            "Var14",
+            "Var15",
+            "Var16",
+            "Var17",
+            "Var18",
+            "Var19",
+            "Var20",
+            "Var21",
+            "Var22",
+            "Var23",
+            "Var24",
+            "Var25",
+            "Var26",
+            "Var27",
+            "Var28",
+            "Var29",
+            "Var30"
          ]
       }
    },
-   "config" : {
-      "title" : "Textbook Prices",
-      "graphType" : "Scatter2D",
-      "subtitle" : "Stat2Data - TextPrices"
-   }
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>TextPrices</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Textbook Prices</h2>\n<h3>Description</h3>\n<p>Prices and number of pages for a sample of college textbooks\n</p>\n<h3>Format</h3>\n<p>A dataset with 30 observations on the following 2 variables.\n</p>\n<table>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Pages</code> </td><td style=\"text-align: left;\"> Number of pages in the textbook</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Price</code> </td><td style=\"text-align: left;\"> Price of the textbook (in dollars)</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n  </td>\n</tr>\n</table>\n<h3>Details</h3>\n<p>Two undergraduate students at Cal Poly - San Luis Obispo took a random sample of 30\ntextbooks from the campus bookstore in the fall of 2006. They recorded the price and number of\npages in each book, in order to investigate the question of whether number of pages can be used\nto predict price.\n</p>\n<h3>Source</h3>\n<p>Student project\n</p>\n</main>\n</div>\n"
 }

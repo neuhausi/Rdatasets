@@ -1,7 +1,16 @@
 {
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>death_prob</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>2015 US Period Life Table</h2>\n<h3>Description</h3>\n<p>Probability of death within 1 year by age and sex in the United States in 2015.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>death_prob\n</code></pre>\n<h3>Format</h3>\n<p>An object of class <code>\"data.frame\"</code>.\n</p>\n<h3>Details</h3>\n<ul>\n<li><p> age. Age strata, with each year a different stratum.\n</p>\n</li>\n<li><p> sex. Male or Female.\n</p>\n</li>\n<li><p> prob. Probability of death within 1 year given exact age and sex.\n</p>\n</li></ul>\n<h3>Source</h3>\n<p><a href=\"https://www.ssa.gov/oact/STATS/table4c6.html\">Social Security Administraton</a>\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>head(death_prob)\n</code></pre>\n</main>\n</div>\n",
+   "config" : {
+      "subtitle" : "dslabs - death_prob",
+      "colorBy" : "sex",
+      "title" : "2015 US Period Life Table",
+      "graphType" : "Scatter2D"
+   },
    "data" : {
       "y" : {
+         "smps" : [
+            "age",
+            "prob"
+         ],
          "vars" : [
             "Var1",
             "Var2",
@@ -243,10 +252,6 @@
             "Var238",
             "Var239",
             "Var240"
-         ],
-         "smps" : [
-            "age",
-            "prob"
          ],
          "data" : [
             [
@@ -1456,10 +1461,5 @@
          ]
       }
    },
-   "config" : {
-      "graphType" : "Scatter2D",
-      "subtitle" : "dslabs - death_prob",
-      "title" : "2015 US Period Life Table",
-      "colorBy" : "sex"
-   }
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>death_prob</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>2015 US Period Life Table</h2>\n<h3>Description</h3>\n<p>Probability of death within 1 year by age and sex in the United States in 2015.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>death_prob\n</code></pre>\n<h3>Format</h3>\n<p>An object of class <code>\"data.frame\"</code>.\n</p>\n<h3>Details</h3>\n<ul>\n<li><p> age. Age strata, with each year a different stratum.\n</p>\n</li>\n<li><p> sex. Male or Female.\n</p>\n</li>\n<li><p> prob. Probability of death within 1 year given exact age and sex.\n</p>\n</li></ul>\n<h3>Source</h3>\n<p><a href=\"https://www.ssa.gov/oact/STATS/table4c6.html\">Social Security Administraton</a>\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>head(death_prob)\n</code></pre>\n</main>\n</div>\n"
 }

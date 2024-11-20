@@ -1,3 +1,31 @@
+var OJInfo ={
+   "usage" : "OJ",
+   "description" : "Description\nThe data contains 1070 purchases where the customer either\npurchased Citrus Hill or Minute Maid Orange Juice. A number of\ncharacteristics of the customer and product are recorded.",
+   "title" : "Orange Juice Data",
+   "format" : "A data frame with 1070 observations on the following 18 variables.",
+   "reference" : "Stine, Robert A., Foster, Dean P., Waterman, Richard P. Business\nAnalysis Using Regression (1998). Published by Springer.",
+   "parameters" : {
+      "PriceMM" : "Price charged for MM",
+      "PriceCH" : "Price charged for CH",
+      "WeekofPurchase" : "Week of purchase",
+      "SalePriceMM" : "Sale price for MM",
+      "SpecialCH" : "Indicator of special on CH",
+      "DiscCH" : "Discount offered for CH",
+      "PctDiscCH" : "Percentage discount for CH",
+      "STORE" : "Which of 5 possible stores the sale occured at",
+      "PriceDiff" : "Sale price of MM less sale price of CH",
+      "PctDiscMM" : "Percentage discount for MM",
+      "LoyalCH" : "Customer brand loyalty for CH",
+      "DiscMM" : "Discount offered for MM",
+      "ListPriceDiff" : "List price of MM less list price of CH",
+      "Store7" : "A factor with levels No and Yes\nindicating whether the sale is at Store 7",
+      "SpecialMM" : "Indicator of special on MM",
+      "SalePriceCH" : "Sale price for CH",
+      "StoreID" : "Store ID",
+      "Purchase" : "A factor with levels CH and MM\nindicating whether the customer purchased Citrus Hill or Minute\nMaid Orange Juice"
+   }
+}
+
 var OJ = [
    [
       "Purchase",

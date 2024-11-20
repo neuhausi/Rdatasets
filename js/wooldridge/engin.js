@@ -1,3 +1,30 @@
+var enginInfo ={
+   "usage" : "data('engin')",
+   "description" : "Description\nWooldridge Source: Thada Chaisawangwong, a former graduate student at MSU, obtained these data for a term project in applied econometrics. They come from the Material Requirement Planning Survey carried out in Thailand during 1998. Data loads lazily.",
+   "format" : "A data.frame with 403 observations on 17 variables:",
+   "reference" : "This is a nice change of pace from wage data sets for the United States. These data are for engineers in Thailand, and represents a more homogeneous group than data sets that consist of people across a variety of occupations. Plus, the starting salary is also provided in the data set, so factors affecting wage growth â and not just wage levels at a given point in time â can be studied. This is a good data set for a common term project that tests basic understanding of multiple regression and the interpretation of models with a logarithm for a dependent variable.",
+   "title" : "engin",
+   "parameters" : {
+      "exper" : " years on current job",
+      "college" : " =1 if college graduate",
+      "mleeduc0" : " male*(educ - 14)",
+      "pexpersq" : " pexper^2",
+      "highdrop" : " =1 if no high school degree",
+      "grad" : " =1 if some graduate school",
+      "highgrad" : " =1 if high school graduate",
+      "mleeduc" : " male*educ",
+      "male" : " =1 if male",
+      "swage" : " starting wage",
+      "wage" : " monthly salary, Thai baht",
+      "pexper" : " previous experience",
+      "expersq" : " exper^2",
+      "lwage" : " log(wage)",
+      "educ" : " highest grade completed",
+      "polytech" : " =1 if a polytech",
+      "lswage" : " log(swage)"
+   }
+}
+
 var engin = [
    [
       "male",

@@ -1,4 +1,15 @@
 {
+   "config" : {
+      "subtitle" : "openintro - mlbbat10",
+      "smpOverlays" : [
+         "position",
+         "team",
+         "name"
+      ],
+      "graphType" : "Heatmap",
+      "title" : "Major League Baseball Player Hitting Statistics for 2010"
+   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>mlbbat10</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Major League Baseball Player Hitting Statistics for 2010</h2>\n<h3>Description</h3>\n<p>Major League Baseball Player Hitting Statistics for 2010.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>mlbbat10\n</code></pre>\n<h3>Format</h3>\n<p>A data frame with 1199 observations on the following 19 variables.\n</p>\n<dl>\n<dt>name</dt><dd><p>Player name</p>\n</dd>\n<dt>team</dt><dd><p>Team abbreviation</p>\n</dd>\n<dt>position</dt><dd><p>Player position</p>\n</dd>\n<dt>game</dt><dd><p>Number of games</p>\n</dd>\n<dt>at_bat</dt><dd><p>Number of at bats</p>\n</dd>\n<dt>run</dt><dd><p>Number of runs</p>\n</dd>\n<dt>hit</dt><dd><p>Number of hits</p>\n</dd>\n<dt>double</dt><dd><p>Number of doubles</p>\n</dd>\n<dt>triple</dt><dd><p>Number of triples</p>\n</dd>\n<dt>home_run</dt><dd><p>Number of home runs</p>\n</dd>\n<dt>rbi</dt><dd><p>Number of runs batted in</p>\n</dd>\n<dt>total_base</dt><dd><p>Total bases, computed as 3<em>HR + 2</em>3B + 1*2B + H</p>\n</dd>\n<dt>walk</dt><dd><p>Number of walks</p>\n</dd>\n<dt>strike_out</dt><dd><p>Number of strikeouts</p>\n</dd>\n<dt>stolen_base</dt><dd><p>Number of stolen bases</p>\n</dd>\n<dt>caught_stealing</dt><dd><p>Number of times caught stealing</p>\n</dd>\n<dt>obp</dt><dd><p>On base percentage</p>\n</dd>\n<dt>slg</dt><dd><p>Slugging percentage (total_base / at_bat)</p>\n</dd>\n<dt>bat_avg</dt><dd><p>Batting average</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p><a href=\"https://www.mlb.com\">https://www.mlb.com</a>, retrieved 2011-04-22.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>\nlibrary(ggplot2)\nlibrary(dplyr)\nlibrary(scales)\nmlbbat10_200 &lt;- mlbbat10 |&gt;\n  filter(mlbbat10$at_bat &gt; 200)\n# On-base percentage across positions\nggplot(mlbbat10_200, aes(x = position, y = obp, fill = position)) +\n  geom_boxplot(show.legend = FALSE) +\n  scale_y_continuous(labels = label_number(suffix = \"%\", accuracy = 0.01)) +\n  labs(\n    title = \"On-base percentage across positions\",\n    y = \"On-base percentage across positions\",\n    x = \"Position\"\n# Batting average across positions\nggplot(mlbbat10_200, aes(x = bat_avg, fill = position)) +\n  geom_density(alpha = 0.5) +\n  labs(\n    title = \"Batting average across positions\",\n    fill = NULL,\n    y = \"Batting average\",\n    x = \"Position\"\n# Mean number of home runs across positions\nmlbbat10_200 |&gt;\n  group_by(position) |&gt;\n  summarise(mean_home_run = mean(home_run)) |&gt;\n  ggplot(aes(x = position, y = mean_home_run, fill = position)) +\n  geom_col(show.legend = FALSE) +\n  labs(\n    title = \"Mean number of home runs across positions\",\n    y = \"Home runs\",\n    x = \"Position\"\n# Runs batted in across positions\nggplot(mlbbat10_200, aes(x = run, y = obp, fill = position)) +\n  geom_boxplot(show.legend = FALSE) +\n  labs(\n    title = \"Runs batted in across positions\",\n    y = \"Runs\",\n    x = \"Position\"\n</code></pre>\n</main>\n</div>\n",
    "data" : {
       "x" : {
          "position" : [
@@ -3606,24 +3617,6 @@
          ]
       },
       "y" : {
-         "vars" : [
-            "game",
-            "at_bat",
-            "run",
-            "hit",
-            "double",
-            "triple",
-            "home_run",
-            "rbi",
-            "total_base",
-            "walk",
-            "strike_out",
-            "stolen_base",
-            "caught_stealing",
-            "obp",
-            "slg",
-            "bat_avg"
-         ],
          "data" : [
             [
                162,
@@ -22842,6 +22835,24 @@
                0
             ]
          ],
+         "vars" : [
+            "game",
+            "at_bat",
+            "run",
+            "hit",
+            "double",
+            "triple",
+            "home_run",
+            "rbi",
+            "total_base",
+            "walk",
+            "strike_out",
+            "stolen_base",
+            "caught_stealing",
+            "obp",
+            "slg",
+            "bat_avg"
+         ],
          "smps" : [
             "Smp1",
             "Smp2",
@@ -24044,16 +24055,5 @@
             "Smp1199"
          ]
       }
-   },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>mlbbat10</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Major League Baseball Player Hitting Statistics for 2010</h2>\n<h3>Description</h3>\n<p>Major League Baseball Player Hitting Statistics for 2010.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>mlbbat10\n</code></pre>\n<h3>Format</h3>\n<p>A data frame with 1199 observations on the following 19 variables.\n</p>\n<dl>\n<dt>name</dt><dd><p>Player name</p>\n</dd>\n<dt>team</dt><dd><p>Team abbreviation</p>\n</dd>\n<dt>position</dt><dd><p>Player position</p>\n</dd>\n<dt>game</dt><dd><p>Number of games</p>\n</dd>\n<dt>at_bat</dt><dd><p>Number of at bats</p>\n</dd>\n<dt>run</dt><dd><p>Number of runs</p>\n</dd>\n<dt>hit</dt><dd><p>Number of hits</p>\n</dd>\n<dt>double</dt><dd><p>Number of doubles</p>\n</dd>\n<dt>triple</dt><dd><p>Number of triples</p>\n</dd>\n<dt>home_run</dt><dd><p>Number of home runs</p>\n</dd>\n<dt>rbi</dt><dd><p>Number of runs batted in</p>\n</dd>\n<dt>total_base</dt><dd><p>Total bases, computed as 3<em>HR + 2</em>3B + 1*2B + H</p>\n</dd>\n<dt>walk</dt><dd><p>Number of walks</p>\n</dd>\n<dt>strike_out</dt><dd><p>Number of strikeouts</p>\n</dd>\n<dt>stolen_base</dt><dd><p>Number of stolen bases</p>\n</dd>\n<dt>caught_stealing</dt><dd><p>Number of times caught stealing</p>\n</dd>\n<dt>obp</dt><dd><p>On base percentage</p>\n</dd>\n<dt>slg</dt><dd><p>Slugging percentage (total_base / at_bat)</p>\n</dd>\n<dt>bat_avg</dt><dd><p>Batting average</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p><a href=\"https://www.mlb.com\">https://www.mlb.com</a>, retrieved 2011-04-22.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>\nlibrary(ggplot2)\nlibrary(dplyr)\nlibrary(scales)\nmlbbat10_200 &lt;- mlbbat10 |&gt;\n  filter(mlbbat10$at_bat &gt; 200)\n# On-base percentage across positions\nggplot(mlbbat10_200, aes(x = position, y = obp, fill = position)) +\n  geom_boxplot(show.legend = FALSE) +\n  scale_y_continuous(labels = label_number(suffix = \"%\", accuracy = 0.01)) +\n  labs(\n    title = \"On-base percentage across positions\",\n    y = \"On-base percentage across positions\",\n    x = \"Position\"\n# Batting average across positions\nggplot(mlbbat10_200, aes(x = bat_avg, fill = position)) +\n  geom_density(alpha = 0.5) +\n  labs(\n    title = \"Batting average across positions\",\n    fill = NULL,\n    y = \"Batting average\",\n    x = \"Position\"\n# Mean number of home runs across positions\nmlbbat10_200 |&gt;\n  group_by(position) |&gt;\n  summarise(mean_home_run = mean(home_run)) |&gt;\n  ggplot(aes(x = position, y = mean_home_run, fill = position)) +\n  geom_col(show.legend = FALSE) +\n  labs(\n    title = \"Mean number of home runs across positions\",\n    y = \"Home runs\",\n    x = \"Position\"\n# Runs batted in across positions\nggplot(mlbbat10_200, aes(x = run, y = obp, fill = position)) +\n  geom_boxplot(show.legend = FALSE) +\n  labs(\n    title = \"Runs batted in across positions\",\n    y = \"Runs\",\n    x = \"Position\"\n</code></pre>\n</main>\n</div>\n",
-   "config" : {
-      "subtitle" : "openintro - mlbbat10",
-      "graphType" : "Heatmap",
-      "smpOverlays" : [
-         "position",
-         "team",
-         "name"
-      ],
-      "title" : "Major League Baseball Player Hitting Statistics for 2010"
    }
 }

@@ -1,3 +1,10 @@
+var infertInfo ={
+   "description" : "Description\nThis is a matched case-control study dating from before the\navailability of conditional logistic regression.",
+   "format" : "1.   Education   0 = 0-5  years \n\n\n \n                     1 = 6-11 years \n\n\n \n                     2 = 12+  years  \n\n\n \n    2.   age         age in years of case \n\n\n \n    3.   parity      count \n\n\n \n    4.   number of prior  0 = 0 \n\n\n \n         induced abortions  1 = 1 \n\n\n \n                     2 = 2 or more \n\n\n \n    5.   case status 1 = case \n\n\n \n                     0 = control \n\n\n \n    6.   number of prior  0 = 0 \n\n\n \n         spontaneous abortions  1 = 1 \n\n\n \n                     2 = 2 or more \n\n\n \n    7.   matched set number  1-83 \n\n\n \n    8.   stratum number  1-63",
+   "title" : "Infertility after Spontaneous and Induced Abortion",
+   "usage" : "infert"
+}
+
 var infert = [
    [
       "education",

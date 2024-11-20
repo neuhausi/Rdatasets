@@ -1,3 +1,18 @@
+var tipsInfo ={
+   "parameters" : {
+      "tip" : "Total tip from the group.",
+      "n_peop" : "Number of people associated with the group.",
+      "bill" : "Total bill for the group.",
+      "day" : "Day, either Friday or Tuesday.",
+      "week" : "Week number."
+   },
+   "title" : "Tip data",
+   "format" : "A data frame with 95 observations on the following 5 variables.",
+   "reference" : "This dataset was built using simulations of tables, then bills, then tips\nbased on the bills. Large groups were assumed to only pay the gratuity,\nwhich is evident in the data. Tips were set to be plausible round values;\nthey were often (but not always) rounded to dollars, quarters, etc.",
+   "description" : "Description\nA simulated dataset of tips over a few weeks on a couple days per week.\nEach tip is associated with a single group, which may include several bills\nand tables (i.e. groups paid in one lump sum in simulations).",
+   "usage" : "tips"
+}
+
 var tips = [
    [
       "week",

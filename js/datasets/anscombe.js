@@ -1,3 +1,10 @@
+var anscombeInfo ={
+   "usage" : "anscombe",
+   "format" : "A data frame with 11 observations on 8 variables.",
+   "title" : "Anscombe's Quartet of &lsquo;Identical&rsquo; Simple Linear Regressions",
+   "description" : "Description\nFour x-y datasets which have the same traditional\nstatistical properties (mean, variance, correlation, regression line,\netc.), yet are quite different."
+}
+
 var anscombe = [
    [
       "x1",

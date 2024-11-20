@@ -1,3 +1,16 @@
+var GlucoseInfo ={
+   "usage" : "This data frame contains the following columns:",
+   "reference" : "Hand, D. and Crowder, M. (1996), Practical Longitudinal Data\nAnalysis, Chapman and Hall, London.",
+   "title" : "Glucose levels over time",
+   "description" : "Description\nThe Glucose data frame has 378 rows and 4 columns.",
+   "parameters" : {
+      "Subject" : "an ordered factor with levels\n6 < 2 < 3 < 5 < 1 < 4",
+      "Meal" : "an ordered factor with levels\n2am < 6am < 10am < 2pm < 6pm < 10pm",
+      "Time" : "a numeric vector",
+      "conc" : "a numeric vector of glucose levels"
+   }
+}
+
 var Glucose = [
    [
       "Subject",

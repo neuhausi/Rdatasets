@@ -1,3 +1,37 @@
+var ESS10NOInfo ={
+   "usage" : "ESS10NO",
+   "description" : "Description\nThis is a simple data set to illustrate the use of sampling weights from\nthe European Social Survey.",
+   "title" : "Norwegian Attitudes toward European Integration (2021-2022)",
+   "reference" : "You'll want to convert the eu_vote variable into something usable.\nPossible values include \"Remain Outside\", \"Join EU\", \"Don't Know\", \"Not Eligible\",\n\"Blank Ballot\", \"Refuse to Answer\", \"Wouldn't Vote\". Perhaps it's reasonable\nto make this a dummy variable comparing those who want to join versus those\nwho want Norway to remain outside the European Union.",
+   "format" : "A data frame with 1,411 observations on the following 24 variables.",
+   "parameters" : {
+      "imwbcnt" : "a numeric vector for if respondent thinks immigrants make Norway a better place to live. Higher values = better place to live",
+      "inwde" : "a date-time vector for the end of the interview",
+      "region" : "a character for one of six regions recorded by the European Social Survey",
+      "lrscale" : "a numeric vector for the ideology of the respondent on an 11-point scale, from 0 to 10",
+      "pweight" : "a population size weight",
+      "idno" : "a numeric identifier for the individual respondent",
+      "uempla" : "a numeric vector for whether the respondent is currently unemployed but seeking work",
+      "inwds" : "a date-time vector for the start of the interview",
+      "psu" : "the primary sampling unit",
+      "eu_vote" : "a character vector indicating how a respondent would vote if given a vote on joining the European Union",
+      "stratum" : "the sampling stratum",
+      "polint" : "a dummy variable indicating political interest. 1 = very or quite interested. 0 = hardly or not at all interested.",
+      "brnnorge" : "a dummy variable indicating whether respondent was born in Norway or not",
+      "hinctnta" : "a numeric vector for household income in deciles",
+      "cntry" : "a character vector with Norway's two-character ISO code",
+      "agea" : "a numeric vector for the respondent's age in years",
+      "prob" : "the sampling probability",
+      "female" : "a numeric vector for whether the respondent is a woman",
+      "pspwght" : "a post-stratification weight, including the design weight",
+      "dweight" : "a design weight",
+      "imbgeco" : "a numeric vector for if respondent thinks immigrants are generally good or bad for Norway's economy. Higher values = good",
+      "anweight" : "an analysis weight",
+      "imueclt" : "a numeric vector for if respondent thinks immigrants enrich or undermine Norway's culture. Higher values = enrich more than undermine",
+      "eduyrs" : "a numeric vector for total years of education for the respondent"
+   }
+}
+
 var ESS10NO = [
    [
       "cntry",

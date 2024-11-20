@@ -2,6 +2,15 @@
    "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>Melanoma</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>\nSurvival from Malignant Melanoma\n</h2>\n<h3>Description</h3>\n<p>The <code>Melanoma</code> data frame has data on 205 patients in Denmark\nwith malignant melanoma.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>Melanoma\n</code></pre>\n<h3>Format</h3>\n<p>This data frame contains the following columns:\n</p>\n<dl>\n<dt><code>time</code></dt><dd>\n<p>survival time in days, possibly censored.\n</p>\n</dd>\n<dt><code>status</code></dt><dd>\n<p><code>1</code> died from melanoma, <code>2</code> alive, <code>3</code> dead from\nother causes.\n</p>\n</dd>\n<dt><code>sex</code></dt><dd>\n<p><code>1</code> = male, <code>0</code> = female.\n</p>\n</dd>\n<dt><code>age</code></dt><dd>\n<p>age in years.\n</p>\n</dd>\n<dt><code>year</code></dt><dd>\n<p>of operation.\n</p>\n</dd>\n<dt><code>thickness</code></dt><dd>\n<p>tumour thickness in mm.\n</p>\n</dd>\n<dt><code>ulcer</code></dt><dd>\n<p><code>1</code> = presence, <code>0</code> = absence.\n</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>P. K. Andersen, O. Borgan, R. D. Gill and N. Keiding (1993)\n<em>Statistical Models based on Counting Processes.</em>\nSpringer.\n</p>\n</main>\n</div>\n",
    "data" : {
       "y" : {
+         "vars" : [
+            "time",
+            "status",
+            "sex",
+            "age",
+            "year",
+            "thickness",
+            "ulcer"
+         ],
          "smps" : [
             "Smp1",
             "Smp2",
@@ -1659,21 +1668,12 @@
                0,
                0
             ]
-         ],
-         "vars" : [
-            "time",
-            "status",
-            "sex",
-            "age",
-            "year",
-            "thickness",
-            "ulcer"
          ]
       }
    },
    "config" : {
-      "graphType" : "Heatmap",
       "subtitle" : "MASS - Melanoma",
+      "graphType" : "Heatmap",
       "title" : "Survival from Malignant Melanoma"
    }
 }

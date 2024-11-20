@@ -1,3 +1,19 @@
+var eight_schoolsInfo ={
+   "description" : "Description\nYou've all seen these before. These are the \"eight schools\" that everyone gets when\nbeing introduced to Bayesian programming. Here are the full data for your consideration,\nwhich you can use instead of awkwardly searching where the data are and copy-pasting\nthem as a list. Every damn time, Steve.",
+   "usage" : "eight_schools",
+   "parameters" : {
+      "est" : "the estimated treatment effect",
+      "rvar" : "the residual variance",
+      "se" : "the standard error of the effect estimate",
+      "school" : "a letter denoting the school",
+      "num_treat" : "the number of students in the school receiving the treatment",
+      "num_control" : "the number of students in the school in the control group"
+   },
+   "title" : "The Effect of Special Preparation on SAT-V Scores in Eight Randomized Experiments",
+   "format" : "A data frame with 8 observations on the following 6 variables.",
+   "reference" : "Data copy-pasted from Table 1 in Rubin (1981)."
+}
+
 var eight_schools = [
    [
       "school",

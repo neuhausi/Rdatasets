@@ -1,3 +1,10 @@
+var UCBAdmissionsInfo ={
+   "usage" : "UCBAdmissions",
+   "format" : "A 3-dimensional array resulting from cross-tabulating 4526\nobservations on 3 variables.  The variables and their levels are as\nfollows:",
+   "title" : "Student Admissions at UC Berkeley",
+   "description" : "Description\nAggregate data on applicants to graduate school at Berkeley for the\nsix largest departments in 1973 classified by admission and sex."
+}
+
 var UCBAdmissions = [
    [
       "Admit",

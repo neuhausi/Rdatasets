@@ -1,3 +1,9 @@
+var CerealInfo ={
+   "usage" : "A data frame with 36 observations on the following 4 variables.",
+   "title" : "Nutrition Content of Breakfast Cereals",
+   "description" : "Description\nNutrition content for a sample of 36 different brands of breakfast cereals"
+}
+
 var Cereal = [
    [
       "Cereal",

@@ -1,3 +1,20 @@
+var nodalInfo ={
+   "usage" : "nodal",
+   "description" : "Description\nThe nodal data frame has 53 rows and 7 columns.\nThe treatment strategy for a patient diagnosed with cancer of the prostate\ndepend highly on whether the cancer has spread to the surrounding lymph nodes.\nIt is common to operate on the patient to get samples from the nodes which can\nthen be analysed under a microscope but clearly it would be preferable if an\naccurate assessment of nodal involvement could be made without surgery.\nFor a sample of 53 prostate cancer patients, a number of possible predictor\nvariables were measured before surgery.  The patients then had surgery to \ndetermine nodal involvement.  It was required to see if nodal involvement could \nbe accurately predicted from the predictor variables and which ones were\nmost important.",
+   "reference" : "The data were obtained from",
+   "title" : "Nodal Involvement in Prostate Cancer",
+   "format" : "This data frame contains the following columns:",
+   "parameters" : {
+      "acid" : "The level of acid phosphatase in the blood serum.",
+      "grade" : "Another indicator of the seriousness of the cancer, this one is determined by\na pathology reading of a biopsy taken by needle before surgery.\nA value of 1 indicates a more serious case of the cancer.",
+      "xray" : "A third measure of the seriousness of the cancer taken from an X-ray reading.\nA value of 1 indicates a more serious case of the cancer.",
+      "m" : "A column of ones.",
+      "r" : "An indicator of nodal involvement.",
+      "stage" : "A measurement of the size and position of the tumour observed by palpitation\nwith the fingers via the rectum.  A value of 1 indicates a more serious\ncase of the cancer.",
+      "aged" : "The patients age dichotomized into less than 60 (0) and 60 or over 1."
+   }
+}
+
 var nodal = [
    [
       "m",

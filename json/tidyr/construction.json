@@ -2,17 +2,6 @@
    "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>construction</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Completed construction in the US in 2018</h2>\n<h3>Description</h3>\n<p>Completed construction in the US in 2018\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>construction\n</code></pre>\n<h3>Format</h3>\n<p>A dataset with variables:\n</p>\n<dl>\n<dt>Year,Month</dt><dd><p>Record date</p>\n</dd>\n<dt><code style=\"white-space: pre;\">&#8288;1 unit&#8288;</code>, <code style=\"white-space: pre;\">&#8288;2 to 4 units&#8288;</code>, <code style=\"white-space: pre;\">&#8288;5 units or mote&#8288;</code></dt><dd><p>Number of completed\nunits of each size</p>\n</dd>\n<dt>Northeast,Midwest,South,West</dt><dd><p>Number of completed units in each region</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>Completions of &quot;New Residential Construction&quot; found in Table 5 at\n<a href=\"https://www.census.gov/construction/nrc/xls/newresconst.xls\">https://www.census.gov/construction/nrc/xls/newresconst.xls</a>\n(downloaded March 2019)\n</p>\n</main>\n</div>\n",
    "data" : {
       "x" : {
-         "Month" : [
-            "January",
-            "February",
-            "March",
-            "April",
-            "May",
-            "June",
-            "July",
-            "August",
-            "September"
-         ],
          "2 to 4 units" : [
             "",
             "",
@@ -23,20 +12,20 @@
             "",
             "",
             ""
+         ],
+         "Month" : [
+            "January",
+            "February",
+            "March",
+            "April",
+            "May",
+            "June",
+            "July",
+            "August",
+            "September"
          ]
       },
       "y" : {
-         "smps" : [
-            "Smp1",
-            "Smp2",
-            "Smp3",
-            "Smp4",
-            "Smp5",
-            "Smp6",
-            "Smp7",
-            "Smp8",
-            "Smp9"
-         ],
          "data" : [
             [
                2018,
@@ -116,6 +105,17 @@
                296
             ]
          ],
+         "smps" : [
+            "Smp1",
+            "Smp2",
+            "Smp3",
+            "Smp4",
+            "Smp5",
+            "Smp6",
+            "Smp7",
+            "Smp8",
+            "Smp9"
+         ],
          "vars" : [
             "Year",
             "1 unit",
@@ -128,12 +128,12 @@
       }
    },
    "config" : {
-      "smpOverlays" : [
-         "Month",
-         "2 to 4 units"
-      ],
+      "graphType" : "Heatmap",
       "title" : "Completed construction in the US in 2018",
-      "subtitle" : "tidyr - construction",
-      "graphType" : "Heatmap"
+      "smpOverlays" : [
+         "2 to 4 units",
+         "Month"
+      ],
+      "subtitle" : "tidyr - construction"
    }
 }

@@ -1,3 +1,9 @@
+var HawkTailInfo ={
+   "title" : "Tail Lengths of Hawks",
+   "usage" : "A data frame with 838 observations on the following 2 variables.",
+   "description" : "Description\nTail lengths for two hawk species"
+}
+
 var HawkTail = [
    [
       "Species",

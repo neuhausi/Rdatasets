@@ -1,3 +1,20 @@
+var LaborSupplyInfo ={
+   "description" : "Description\na panel of 532  observations  from 1979  to 1988\nnumber of observations :  5320",
+   "usage" : "data(LaborSupply)",
+   "parameters" : {
+      "lnwg" : "log of hourly wage",
+      "id" : "id",
+      "lnhr" : "log of annual hours worked",
+      "age" : "age",
+      "disab" : "bad health",
+      "year" : "year",
+      "kids" : "number of children"
+   },
+   "format" : "A dataframe containing :",
+   "title" : "Wages and Hours Worked",
+   "reference" : "Ziliak, Jim (1997) &ldquo;Efficient Estimation With Panel Data when Instruments are Predetermined: An Empirical Comparison of Moment-Condition Estimators&rdquo;, Journal of Business and Economic Statistics, 419&ndash;431."
+}
+
 var LaborSupply = [
    [
       "lnhr",

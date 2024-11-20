@@ -1,7 +1,10 @@
 {
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>cloud</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Cloud point of a Liquid</h2>\n<h3>Description</h3>\n<p>This data set contains the measurements concerning the\ncloud point of a Liquid, from Draper and Smith (1969).\nThe cloud point is a measure of the degree of crystallization in a\nstock.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(cloud, package=\"robustbase\")</code></pre>\n<h3>Format</h3>\n<p>A data frame with 19 observations on the following 2 variables.\n</p>\n<dl>\n<dt><code>Percentage</code></dt><dd><p>Percentage of I-8</p>\n</dd>\n<dt><code>CloudPoint</code></dt><dd><p>Cloud point</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>P. J. Rousseeuw and A. M. Leroy (1987)\n<em>Robust Regression and Outlier Detection</em>;\nWiley, p.96, table 10.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>data(cloud)\nsummary(lm.cloud &lt;- lm(CloudPoint ~., data=cloud))\n</code></pre>\n</main>\n</div>\n",
    "data" : {
       "y" : {
+         "smps" : [
+            "Percentage",
+            "CloudPoint"
+         ],
          "vars" : [
             "Var1",
             "Var2",
@@ -22,10 +25,6 @@
             "Var17",
             "Var18",
             "Var19"
-         ],
-         "smps" : [
-            "Percentage",
-            "CloudPoint"
          ],
          "data" : [
             [
@@ -107,9 +106,10 @@
          ]
       }
    },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>cloud</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Cloud point of a Liquid</h2>\n<h3>Description</h3>\n<p>This data set contains the measurements concerning the\ncloud point of a Liquid, from Draper and Smith (1969).\nThe cloud point is a measure of the degree of crystallization in a\nstock.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(cloud, package=\"robustbase\")</code></pre>\n<h3>Format</h3>\n<p>A data frame with 19 observations on the following 2 variables.\n</p>\n<dl>\n<dt><code>Percentage</code></dt><dd><p>Percentage of I-8</p>\n</dd>\n<dt><code>CloudPoint</code></dt><dd><p>Cloud point</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>P. J. Rousseeuw and A. M. Leroy (1987)\n<em>Robust Regression and Outlier Detection</em>;\nWiley, p.96, table 10.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>data(cloud)\nsummary(lm.cloud &lt;- lm(CloudPoint ~., data=cloud))\n</code></pre>\n</main>\n</div>\n",
    "config" : {
+      "subtitle" : "robustbase - cloud",
       "title" : "Cloud point of a Liquid",
-      "graphType" : "Scatter2D",
-      "subtitle" : "robustbase - cloud"
+      "graphType" : "Scatter2D"
    }
 }

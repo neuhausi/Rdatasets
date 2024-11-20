@@ -1,3 +1,21 @@
+var bock.tableInfo ={
+   "description" : "Description\nAn example data set used by McDonald (1999) as well as other discussions of Item Response Theory makes use of a data table on 10 items (two sets of 5) from the Law School Admissions Test (LSAT).  Included in this data set is the original table as well as the reponses for 1000 subjects on the first set (Figure Classification) and second set (Debate).",
+   "usage" : "data(bock)",
+   "parameters" : {
+      "Q2" : "Responses to item 2",
+      "Ob6" : "count of observations for the section 6 test",
+      "Ob7" : "count of observations for the section 7 test",
+      "index" : "32 response patterns",
+      "Q4" : "Responses to item 4",
+      "Q1" : "Responses to item 1",
+      "Q3" : "Responses to item 3",
+      "Q5" : "Responses to item 5"
+   },
+   "title" : "Bock and Liberman (1970) data set of 1000 observations of the LSAT",
+   "format" : "A data frame with 32 observations on the following 8 variables.",
+   "reference" : "The lsat6 data set is analyzed in the ltm package as well as by McDonald (1999). lsat7 is another 1000 subjects on part 7 of the LSAT. Both sets are described by Bock and Lieberman (1970). Both sets are useful examples of testing out IRT procedures and showing the use of tetrachoric correlations and item factor analysis using the irt.fa function."
+}
+
 var bock.table = [
    [
       "index",

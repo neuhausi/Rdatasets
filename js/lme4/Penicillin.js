@@ -1,3 +1,15 @@
+var PenicillinInfo ={
+   "reference" : "The data are described in Davies and Goldsmith (1972) as\ncoming from an investigation to &ldquo;assess the\nvariability between samples of penicillin by the B.\nsubtilis method.  In this test method a bulk-inoculated\nnutrient agar medium is poured into a Petri dish of\napproximately 90 mm. diameter, known as a plate.  When\nthe medium has set, six small hollow cylinders or pots\n(about 4 mm. in diameter) are cemented onto the surface\nat equally spaced intervals.  A few drops of the\npenicillin solutions to be compared are placed in the\nrespective cylinders, and the whole plate is placed in an\nincubator for a given time.  Penicillin diffuses from the\npots into the agar, and this produces a clear circular\nzone of inhibition of growth of the organisms, which can\nbe readily measured.  The diameter of the zone is related\nin a known way to the concentration of penicillin in the\nsolution.&rdquo;",
+   "title" : "Variation in penicillin testing",
+   "usage" : "A data frame with 144 observations on the following 3 variables.",
+   "description" : "Description\nSix samples of penicillin were tested using the B.\nsubtilis plate method on each of 24 plates.  The\nresponse is the diameter (mm) of the zone of inhibition\nof growth of the organism.",
+   "parameters" : {
+      "sample" : "penicillin sample.  A factor with levels\n&lsquo;A&rsquo; to &lsquo;F&rsquo;.",
+      "diameter" : "diameter (mm) of the zone of inhibition of\nthe growth of the organism.",
+      "plate" : "assay plate.  A factor with levels &lsquo;a&rsquo; to\n&lsquo;x&rsquo;."
+   }
+}
+
 var Penicillin = [
    [
       "diameter",

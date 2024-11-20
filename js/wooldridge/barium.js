@@ -1,3 +1,44 @@
+var bariumInfo ={
+   "usage" : "data('barium')",
+   "description" : "Description\nWooldridge Source: C.M. Krupp and P.S. Pollard (1999), Market Responses to Antidumpting Laws: Some Evidence from the U.S. Chemical Industry, Canadian Journal of Economics 29, 199-227. Dr. Krupp kindly provided the data. They are monthly data covering February 1978 through December 1988. Data loads lazily.",
+   "reference" : "Rather than just having intercept shifts for the different regimes, one could conduct a full Chow test across the different regimes.",
+   "title" : "barium",
+   "format" : "A data.frame with 131 observations on 31 variables:",
+   "parameters" : {
+      "nov" : "",
+      "aug" : "",
+      "feb" : " =1 if month is feb",
+      "chnimp" : " Chinese imports, bar. chl.",
+      "lgas" : " log(gas)",
+      "lchnimp" : " log(chnimp)",
+      "befile12" : " =1 all 12 mos before filing",
+      "gas" : " gasoline production",
+      "lchempi" : " log(chempi)",
+      "percchn" : " percent imports from china",
+      "befile6" : " =1 for all 6 mos before filing",
+      "sep" : "",
+      "jun" : "",
+      "fall" : " =1 for fall months",
+      "rtwex" : " exchange rate index",
+      "spr" : " =1 for spring months",
+      "bchlimp" : " total imports bar. chl.",
+      "afdec12" : " =1 all 12 mos after decision",
+      "sum" : " =1 for summer months",
+      "apr" : "",
+      "may" : "",
+      "jul" : "",
+      "afdec6" : " =1 for all 6 mos after decision",
+      "lrtwex" : " log(rtwex)",
+      "t" : " time trend",
+      "oct" : "",
+      "mar" : " =1 if month is march",
+      "affile6" : " =1 for all 6 mos after filing",
+      "chempi" : " chemical production index",
+      "dec" : "",
+      "affile12" : " =1 all 12 mos after filing"
+   }
+}
+
 var barium = [
    [
       "chnimp",

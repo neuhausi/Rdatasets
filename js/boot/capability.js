@@ -1,3 +1,14 @@
+var capabilityInfo ={
+   "parameters" : {
+      "y" : "The simulated measurements."
+   },
+   "title" : "Simulated Manufacturing Process Data",
+   "reference" : "The data were obtained from",
+   "format" : "This data frame contains the following column:",
+   "description" : "Description\nThe capability data frame has 75 rows and 1 columns.\nThe data are simulated successive observations from a process in equilibrium.\nThe process is assumed to have specification limits (5.49, 5.79).",
+   "usage" : "capability"
+}
+
 var capability = [
    [
       "y"

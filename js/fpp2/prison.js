@@ -1,3 +1,10 @@
+var prisonInfo ={
+   "description" : "Description\nprison",
+   "format" : "autoplot(prison)\nhead(prisonLF)",
+   "title" : "prison",
+   "usage" : "Quarterly time series of prisoner numbers in Australia from 2005 to\n2016, split by sex, state and legal status. prisonLF is a long-form\nversion of the data of class data.frame, while prison is in\nwide form and of class mts."
+}
+
 var prison = [
    [
       "ACTFRemanded ",

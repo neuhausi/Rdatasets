@@ -1,3 +1,21 @@
+var ArrestsInfo ={
+   "description" : "Description\nData on police treatment of individuals arrested in\nToronto for simple possession of small quantities of marijuana. The data are part of a larger\ndata set featured in a series of articles in the Toronto Star newspaper.",
+   "usage" : "Arrests",
+   "parameters" : {
+      "sex" : "a factor with levels:\nFemale;\nMale.",
+      "employed" : "a factor with levels:\nNo;\nYes.",
+      "year" : "1997 through 2002; a numeric vector.",
+      "colour" : "The arrestee's race; a factor with levels:\nBlack; \nWhite.",
+      "checks" : "Number of police data bases (of previous\narrests, previous convictions, parole status, etc. &ndash; 6 in all) on which\nthe arrestee's name appeared; a numeric vector",
+      "citizen" : "a factor with levels:\nNo;\nYes.",
+      "age" : "in years; a numeric vector.",
+      "released" : "Whether or not the arrestee was released with a summons; \na factor with levels:\nNo;\nYes."
+   },
+   "title" : "Arrests for Marijuana Possession",
+   "format" : "A data frame with 5226 observations on the following 8 variables.",
+   "reference" : "Personal communication from Michael Friendly, York University."
+}
+
 var Arrests = [
    [
       "released",

@@ -1,3 +1,15 @@
+var gender_discriminationInfo ={
+   "format" : "A data frame with 48 observations on the following 2 variables.",
+   "reference" : "Rosen B and Jerdee T. 1974. Influence of sex role stereotypes on\npersonnel decisions. Journal of Applied Psychology 59(1):9-14.",
+   "title" : "Bank manager recommendations based on gender",
+   "parameters" : {
+      "decision" : "a factor with levels not promoted and promoted",
+      "gender" : "a factor with levels female and male"
+   },
+   "usage" : "gender_discrimination",
+   "description" : "Description\nStudy from the 1970s about whether gender influences hiring recommendations."
+}
+
 var gender_discrimination = [
    [
       "gender",

@@ -1,3 +1,20 @@
+var daycare_finesInfo ={
+   "description" : "Description\nResearchers tested the deterrence hypothesis which predicts that the\nintroduction of a penalty will reduce the occurrence of the behavior subject\nto the fine, with the condition that the fine leaves everything else\nunchanged by instituting a fine for late pickup at daycare centers.\nFor this study, they worked with 10 volunteer daycare centers that did not\noriginally impose a fine to parents for picking up their kids late.\nThey randomly selected 6 of these daycare centers and instituted a monetary\nfine (of a considerable amount) for picking up children late and then removed it.\nIn the remaining 4 daycare centers no fine was introduced.\nThe study period was divided into four: before the fine (weeks 1â4), the first\n4 weeks with the fine (weeks 5-8), the entire period with the fine (weeks 5â16),\nand the after fine period (weeks 17-20). Throughout the study, the number of kids\nwho were picked up late was recorded each week for each daycare. The study\nfound that the number of late-coming parents increased significantly when the\nfine was introduced, and no reduction occurred after the fine was removed.",
+   "usage" : "daycare_fines",
+   "parameters" : {
+      "group" : "Study group: test (fine instituted) or control (no fine).",
+      "week" : "Week of study.",
+      "study_period_3" : "Period of study, divided into 4 periods:\n&#8288;before fine&#8288;, &#8288;with fine&#8288;, &#8288;after fine&#8288;",
+      "children" : "Number of children at daycare center.",
+      "late_pickups" : "Number of late pickups for a given week and daycare center.",
+      "study_period_4" : "Period of study, divided into 4 periods:\n&#8288;before fine&#8288;, &#8288;first 4 weeks with fine&#8288;, &#8288;last 8 weeks with fine&#8288;, &#8288;after fine&#8288;",
+      "center" : "Daycare center id."
+   },
+   "title" : "Daycare fines",
+   "reference" : "Gneezy, Uri, and Aldo Rustichini. \"A fine is a price.\"\nThe Journal of Legal Studies 29, no. 1 (2000): 1-17.",
+   "format" : "A data frame with 200 observations on the following 7 variables."
+}
+
 var daycare_fines = [
    [
       "center",

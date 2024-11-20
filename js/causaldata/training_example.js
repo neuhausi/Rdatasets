@@ -1,3 +1,22 @@
+var training_exampleInfo ={
+   "description" : "Description\nThis simulated data, which is presented in the form of a full results, table, is used to demonstrate a matching procedure.",
+   "usage" : "training_example",
+   "parameters" : {
+      "unit_control" : "Unit ID for control observations",
+      "earnings_matched" : "earnings for matched controls",
+      "age_treat" : "age for treated observations",
+      "age_matched" : "age for matched controls",
+      "unit_treat" : "Unit ID for treated observations",
+      "earnings_treat" : "earnings for treated observations",
+      "unit_matched" : "Unit ID for matched controls",
+      "earnings_control" : "earnings for control observations",
+      "age_control" : "age for control observations"
+   },
+   "title" : "Simulated data from a job training program",
+   "format" : "A data frame with 25 rows and 9 variables",
+   "reference" : "This data is used in the Matching and Subclassification chapter of Causal Inference: The Mixtape by Cunningham."
+}
+
 var training_example = [
    [
       "unit_treat",

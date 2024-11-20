@@ -1,3 +1,42 @@
+var RailsTrailsInfo ={
+   "title" : "Homes in Northampton MA Near Rail Trails",
+   "reference" : "This dataset comprises 104 homes in Northampton, MA that were sold in 2007. The authors measured the shortest distance from each home to a railtrail on streets and pathways with Google maps and recorded the Zillow.com estimate of each home's price in 1998 and 2011. Additional attributes such as square footage, number of bedrooms and number of bathrooms are available from a realty database from 2007. We divide the houses into two groups based on distance to the trail (DistGroup).",
+   "usage" : "A data frame with 104 observations on the following 30 variables.",
+   "parameters" : {
+      "NumRooms" : "Number of rooms",
+      "AcreGroup" : "Lot size groups (<= 1/4 acre or > 1/4 acre)",
+      "Adj2007" : "Estimated 2007 price (in thousands of 2014 dollars)",
+      "Price2014" : "Zillow price estimate from 2014 (in thousands of dollars)",
+      "DistGroup" : "Distance groups, compared to 1/2 mile (Closer or Farther Away)",
+      "Latitude" : "Latitude (for mapping)",
+      "HouseNum" : "Unique house number",
+      "Longitude" : "Longitude (for mapping)",
+      "Adj2011" : "Estimated 2011 price (in thousands of 2014 dollars)",
+      "Acre" : "Lot size for the house (in acres)",
+      "NumFullBaths" : "Number of full baths (includes shower or bathtub)",
+      "SquareFeet" : "Square footage of interior finished space (in thousands of sf)",
+      "Price1998" : "Zillow 10 year estimate from 2008 (in thousands of dollars)",
+      "GarageSpaces" : "Number of garage spaces (0-4)",
+      "StreetName" : "Street name",
+      "NumHalfBaths" : "Number of half baths (no shower or bathtub)",
+      "Price2011" : "Zillow price estimate from 2011 (in thousands of dollars)",
+      "BedGroup" : "Bedroom groups (1-2 beds, 3 beds, or 4+ beds)",
+      "Price2007" : "Zillow price estimate from 2007 (in thousands of dollars)",
+      "WalkScore" : "Walk friendliness (0-100 score, higher scores are better)",
+      "Zip" : "Location (1060 = Northampton or 1062 = Florence)",
+      "Distance" : "Distance (in feet) to the nearest entry point to the rail trail network",
+      "SFGroup" : "SquareFeet group (<= 1500 sf or > 1500 sf)",
+      "GarageGroup" : "Any garage spaces? (no or yes)",
+      "BikeScore" : "Bike friendliness (0-100 score, higher scores are better)",
+      "PctChange" : "Percentage change from adjusted 1998 price to 2014 (value of zero means no change)",
+      "Diff2014" : "Difference in price between 2014 estimate and adjusted 1998 estimate (in thousands of dollars)",
+      "StreetNum" : "House number on street",
+      "Bedrooms" : "Number of bedrooms",
+      "Adj1998" : "Estimated 1998 price (in thousands of 2014 dollars)"
+   },
+   "description" : "Description\nSample of homes in Northampton, MA to see whether being close to a bike trail enhances the value of the home"
+}
+
 var RailsTrails = [
    [
       "HouseNum",

@@ -1,3 +1,19 @@
+var census2000Info ={
+   "parameters" : {
+      "lweekinc" : " log(weekly income)",
+      "state" : " State (ICPSR code)",
+      "educ" : " educational attainment",
+      "expersq" : " exper^2",
+      "exper" : " years workforce experience",
+      "puma" : " Public Use Microdata Area"
+   },
+   "reference" : "pages 452-453",
+   "title" : "census2000",
+   "format" : "A data.frame with 29501 observations on 6 variables:",
+   "description" : "Description\nWooldridge Source: Obtained from the United States Census Bureau by Professor Alberto Abadie of the Harvard Kennedy School of Government. Professor Abadie kindly provided the data. Data loads lazily.",
+   "usage" : "data('census2000')"
+}
+
 var census2000 = [
    [
       "state",

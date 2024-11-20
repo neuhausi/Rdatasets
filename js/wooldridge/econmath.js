@@ -1,3 +1,30 @@
+var econmathInfo ={
+   "format" : "A data.frame with 856 observations on 17 variables:",
+   "title" : "econmath",
+   "reference" : "167, 185",
+   "parameters" : {
+      "study" : " hours studying per week",
+      "econhs" : " =1 if economics in high school",
+      "fathcoll" : " =1 if father has BA",
+      "colgpa" : " college GPA, beginning semester",
+      "mathscr" : " math quiz score, 0-10",
+      "attexc" : " =1 if past attndce 'excellent'",
+      "attgood" : " =1 if past attndce 'good'",
+      "hsgpa" : " high school GPA",
+      "act" : " ACT composite",
+      "work" : " hours worked per week",
+      "acteng" : " ACT English score",
+      "mothcoll" : " =1 if mother has BA",
+      "age" : " age in years",
+      "actmth" : " ACT math score",
+      "score" : " course score, in percent",
+      "calculus" : " =1 if taken calculus course",
+      "male" : " =1 if male"
+   },
+   "usage" : "data('econmath')",
+   "description" : "Description\nWooldridge Source: Compiled by Professor Charles Ballard, Michigan State University Department of Economics. Professor Ballard kindly provided the data. Data loads lazily."
+}
+
 var econmath = [
    [
       "age",

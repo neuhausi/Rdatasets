@@ -1,3 +1,15 @@
+var plotsInfo ={
+   "format" : "A data frame with columns:",
+   "title" : "Plots data.",
+   "reference" : "Portal Project Teaching Database,\ndoi:10.6084/m9.figshare.1314459",
+   "parameters" : {
+      "plot_id" : "Numeric identifier for the plot",
+      "plot_type" : "Type of experimental manipulation conducted on the plot"
+   },
+   "usage" : "plots",
+   "description" : "Description\nData on the plots at the Portal Project"
+}
+
 var plots = [
    [
       "plot_id",

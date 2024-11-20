@@ -1,3 +1,21 @@
+var nihillsInfo ={
+   "title" : "Record times for Northern Ireland mountain running events",
+   "format" : "A data frame with 23 observations on the following 4 variables.",
+   "reference" : "These data make an interesting comparison with the dataset\nhills2000 in the DAAG package.",
+   "parameters" : {
+      "timef" : "record time in hours for females",
+      "climb" : "amount of climb in feet",
+      "time" : "record time in hours for males",
+      "logtimef" : "record time for females, log(hours)",
+      "dist" : "distances in miles",
+      "logtime" : "record time for males, log(hours)",
+      "logclimb" : "climb, log(feet)",
+      "logdist" : "distances, log(miles)"
+   },
+   "usage" : "data(nihills)\ndata(lognihills)",
+   "description" : "Description\nData were from the 2007 calendar for the Northern Ireland Mountain\nRunning Association."
+}
+
 var nihills = [
    [
       "dist",

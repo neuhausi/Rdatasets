@@ -1,3 +1,10 @@
+var EmploymentInfo ={
+   "usage" : "data(\"Employment\")",
+   "format" : "A 3-dimensional array resulting from cross-tabulating variables for\n1314 employees.  The variables and their levels are as follows:",
+   "title" : "Employment Status",
+   "description" : "Description\nData from a 1974 Danish study given by Andersen (1991) on the\nemployees who had been laid off.  The workers are classified by \ntheir employment status on 1975-01-01, the cause of their layoff\nand the length of employment before they were laid off."
+}
+
 var Employment = [
    [
       "EmploymentStatus",

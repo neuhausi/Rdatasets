@@ -1,3 +1,9 @@
+var RiverElementsInfo ={
+   "usage" : "A dataset with 12 observations on the following 27 variables.",
+   "title" : "Elements in River Water Samples",
+   "description" : "Description\nConcentrations of elements in river water samples from upstate NY"
+}
+
 var RiverElements = [
    [
       "River",

@@ -1,3 +1,29 @@
+var SaratogaHousesInfo ={
+   "description" : "Description\nData on houses in Saratoga County, New York, USA in 2006",
+   "usage" : "data(SaratogaHouses)",
+   "parameters" : {
+      "centralAir" : "whether the house has central air",
+      "livingArea" : "living are (square feet)",
+      "waterfront" : "whether property includes waterfront",
+      "pctCollege" : "percent of neighborhood that graduated college",
+      "fuel" : "fuel used for heating",
+      "sewer" : "type of sewer system",
+      "lotSize" : "size of lot (acres)",
+      "rooms" : "number of rooms",
+      "bedrooms" : "number of bedrooms",
+      "landValue" : "value of land (US dollars)",
+      "fireplaces" : "number of fireplaces",
+      "heating" : "type of heating system",
+      "bathrooms" : "number of bathrooms (half bathrooms have no shower or tub)",
+      "age" : "age of house (years)",
+      "newConstruction" : "whether the property is a new construction",
+      "price" : "price (US dollars)"
+   },
+   "title" : "Houses in Saratoga County (2006)",
+   "reference" : "Data collected by Candice Corvetti and used in the \"Stat 101\" case study\n\"How much is a Fireplace Worth\".\nSee also\nhttps://www.saratogacountyny.gov/departments/real-property-tax-service-agency/",
+   "format" : "A data frame with 1728 observations on the following 16 variables."
+}
+
 var SaratogaHouses = [
    [
       "price",

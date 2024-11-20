@@ -1,3 +1,17 @@
+var ad_dataInfo ={
+   "description" : "Description\nAlzheimer's disease data",
+   "parameters" : {
+      "Apolipoprotein E genotype" : null,
+      "Protein measurements of 124 exploratory biomarkers, and" : null,
+      "Protein measurements of Abeta, Tau, and a phosphorylated version of Tau (called pTau)" : null,
+      "Demographic characteristics such as age and gender" : null,
+      "Clinical dementia scores" : null
+   },
+   "reference" : "ad_data\n\na tibble",
+   "title" : "Alzheimer's disease data",
+   "usage" : "Craig-Schapiro et al. (2011) describe a clinical study of 333 patients,\nincluding some with mild (but well-characterized) cognitive impairment as\nwell as healthy individuals. CSF samples were taken from all subjects. The\ngoal of the study was to determine if subjects in the early states of\nimpairment could be differentiated from cognitively healthy individuals.\nData collected on each subject included:"
+}
+
 var ad_data = [
    [
       "ACE_CD143_Angiotensin_Converti",

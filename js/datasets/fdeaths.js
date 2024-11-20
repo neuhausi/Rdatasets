@@ -1,3 +1,10 @@
+var fdeathsInfo ={
+   "description" : "Description\nThree time series giving the monthly deaths from bronchitis,\nemphysema and asthma in the UK, 1974&ndash;1979,\nboth sexes (ldeaths), males (mdeaths) and\nfemales (fdeaths).",
+   "format" : "P. J. Diggle (1990)\nTime Series: A Biostatistical Introduction.\nOxford, table A.3",
+   "title" : "Monthly Deaths from Lung Diseases in the UK",
+   "usage" : "ldeaths\nfdeaths\nmdeaths"
+}
+
 var fdeaths = [
    [
       "time",

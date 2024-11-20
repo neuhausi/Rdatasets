@@ -1,3 +1,16 @@
+var possumsitesInfo ={
+   "usage" : "possumsites",
+   "description" : "Description\nThe possumsites data frame consists of Longitudes, Latitudes,\nand altitudes for the seven sites from Southern Victoria to central Queensland\nwhere the possum observations were made.",
+   "title" : "Possum Sites",
+   "format" : "This data frame contains the following columns:",
+   "reference" : "Lindenmayer, D. B., Viggers, K. L., Cunningham, R. B., and\nDonnelly, C. F. 1995. Morphological variation among columns of the\nmountain brushtail possum, Trichosurus caninus Ogilby\n(Phalangeridae: Marsupiala). Australian Journal of Zoology 43:\n449-458.",
+   "parameters" : {
+      "Latitude" : "a numeric vector",
+      "altitude" : "in meters",
+      "Longitude" : "a numeric vector"
+   }
+}
+
 var possumsites = [
    [
       "Longitude",

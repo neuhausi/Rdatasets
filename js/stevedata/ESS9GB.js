@@ -1,3 +1,32 @@
+var ESS9GBInfo ={
+   "usage" : "ESS9GB",
+   "description" : "Description\nThis is a replication data originally set to accompany a blog post and\npresentation to students at the University of Nottingham in March 2020.\nHowever, COVID-19 led to the cancellation of the talk.",
+   "format" : "A data frame with 1,905 observations on the following 19 variables.",
+   "title" : "British Attitudes Toward Immigration (2018-19)",
+   "reference" : "See accompanying blog post at http://svmiller.com/blog/2020/03/what-explains-british-attitudes-toward-immigration-a-pedagogical-example/.",
+   "parameters" : {
+      "agea" : "a numeric vector for the respondent's age in years",
+      "region" : "a character vector for the region of the UK the respondent lives",
+      "cntry" : "a character vector for the country (i.e. the UK)",
+      "endintrvw" : "a Date for the interview end date",
+      "hinctnta" : "a numeric vector for household income in deciles",
+      "imwbcnt" : "a numeric vector for if respondent thinks immigrants make UK a better place to live. Higher values = better place to live",
+      "eduyrs" : "a numeric vector for total years of education for the respondent",
+      "essround" : "a numeric for the ESS round",
+      "name" : "a character for the name of the survey",
+      "idno" : "a numeric/unique identifier",
+      "uempla" : "a numeric vector for whether the respondent is currently unemployed but seeking work",
+      "stintrvw" : "a Date for the interview start date",
+      "brncntr" : "a numeric vector for if the respondent was born in the UK",
+      "immigsent" : "a numeric vector for immigration sentiment (i.e. imbgeco +\nimueclt + imwbcnt). Higher values = more pro-immigration sentiment",
+      "edition" : "a character for the particular edition of the ESS round",
+      "imueclt" : "a numeric vector for if respondent thinks immigrants enrich or undermine UK's culture. Higher values = enrich more than undermine",
+      "female" : "a numeric vector for whether the respondent is a woman",
+      "lrscale" : "a numeric vector for the ideology of the respondent on an 11-point scale, from 0 to 10",
+      "imbgeco" : "a numeric vector for if respondent thinks immigrants are generally good or bad for UK's economy. Higher values = good"
+   }
+}
+
 var ESS9GB = [
    [
       "name",

@@ -1,3 +1,15 @@
+var DutchAdvertInfo ={
+   "parameters" : {
+      "radio" : "Radio advertising expenditures.",
+      "tv" : "Television advertising expenditures."
+   },
+   "format" : "A four-weekly multiple time series from 1978(1) to 1994(13) with 2 variables.",
+   "title" : "TV and Radio Advertising Expenditures Data",
+   "reference" : "Originally available as an online supplement to Franses (1998). Now available via online complements to Franses, van Dijk and Opschoor (2014).",
+   "description" : "Description\nTime series of television and radio advertising expenditures (in real terms)\nin The Netherlands.",
+   "usage" : "data(\"DutchAdvert\")"
+}
+
 var DutchAdvert = [
    [
       "tv",

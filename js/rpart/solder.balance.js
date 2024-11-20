@@ -1,3 +1,19 @@
+var solder.balanceInfo ={
+   "description" : "Description\nThe solder.balance data frame has 720 rows and 6 columns, representing\na balanced subset of a designed experiment varying 5 factors on the\nsoldering of components on printed-circuit boards.\nThe solder data frame is the full version of the data with 900\nrows.  It is located in both the rpart and the survival packages.",
+   "usage" : "solder",
+   "parameters" : {
+      "Mask" : "a factor with levels\n&lsquo;&#8288;A1.5&#8288;&rsquo;, &lsquo;&#8288;A3&#8288;&rsquo;, &lsquo;&#8288;B3&#8288;&rsquo; and &lsquo;&#8288;B6&#8288;&rsquo;\nindicating the type and thickness of mask used.",
+      "skips" : "a numeric vector giving the number of visible solder skips.",
+      "Opening" : "a factor with levels\n&lsquo;&#8288;L&#8288;&rsquo;, &lsquo;&#8288;M&#8288;&rsquo; and &lsquo;&#8288;S&#8288;&rsquo;\nindicating the amount of clearance around the mounting pad.",
+      "PadType" : "a factor with levels &lsquo;&#8288;D4&#8288;&rsquo;, &lsquo;&#8288;D6&#8288;&rsquo;, &lsquo;&#8288;D7&#8288;&rsquo;, &lsquo;&#8288;L4&#8288;&rsquo;,\n&lsquo;&#8288;L6&#8288;&rsquo;, &lsquo;&#8288;L7&#8288;&rsquo;, &lsquo;&#8288;L8&#8288;&rsquo;, &lsquo;&#8288;L9&#8288;&rsquo;, &lsquo;&#8288;W4&#8288;&rsquo; and &lsquo;&#8288;W9&#8288;&rsquo;\ngiving the size and geometry of the mounting pad.",
+      "Solder" : "a factor with levels\n&lsquo;&#8288;Thick&#8288;&rsquo; and &lsquo;&#8288;Thin&#8288;&rsquo;\ngiving the thickness of the solder used.",
+      "Panel" : "1:3 indicating the panel on a board being tested."
+   },
+   "title" : "Soldering of Components on Printed-Circuit Boards",
+   "reference" : "John M. Chambers and Trevor J. Hastie eds. (1992)\nStatistical Models in S, Wadsworth and Brooks/Cole,\nPacific Grove, CA.",
+   "format" : "This data frame contains the following columns:"
+}
+
 var solder.balance = [
    [
       "Opening",

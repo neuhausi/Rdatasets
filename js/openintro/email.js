@@ -1,3 +1,34 @@
+var emailInfo ={
+   "title" : "Data frame representing information about a collection of emails",
+   "reference" : "David Diez's Gmail Account, early months of 2012. All personally identifiable information has been removed.",
+   "format" : "A email (email_sent) data frame has 3921 (1252)\nobservations on the following 21 variables.",
+   "parameters" : {
+      "urgent_subj" : "Whether the word &ldquo;urgent&rdquo; was in the email subject.",
+      "viagra" : "The number of times &ldquo;viagra&rdquo; appeared in the email.",
+      "image" : "The number of images attached.",
+      "exclaim_mess" : "The number of exclamation points in the email message.",
+      "inherit" : "The number of times &ldquo;inherit&rdquo; (or an extension, such as &ldquo;inheritance&rdquo;) appeared in the email.",
+      "from" : "Whether the message was listed as from anyone (this is usually set by default for regular outgoing email).",
+      "number" : "Factor variable saying whether there was no number, a small number (under 1 million), or a big number.",
+      "sent_email" : "Indicator for whether the sender had been sent an email in the last 30 days.",
+      "spam" : "Indicator for whether the email was spam.",
+      "num_char" : "The number of characters in the email, in thousands.",
+      "dollar" : "The number of times a dollar sign or the word &ldquo;dollar&rdquo; appeared in the email.",
+      "re_subj" : "Whether the subject started with &ldquo;Re:&rdquo;, &ldquo;RE:&rdquo;, &ldquo;re:&rdquo;, or &ldquo;rE:&rdquo;",
+      "line_breaks" : "The number of line breaks in the email (does not count text wrapping).",
+      "exclaim_subj" : "Whether there was an exclamation point in the subject.",
+      "winner" : "Indicates whether &ldquo;winner&rdquo; appeared in the email.",
+      "cc" : "Number of people cc'ed.",
+      "to_multiple" : "Indicator for whether the email was addressed to more than one recipient.",
+      "format" : "Indicates whether the email was written using HTML (e.g. may have included bolding or active links).",
+      "password" : "The number of times &ldquo;password&rdquo; appeared in the email.",
+      "attach" : "The number of attached files.",
+      "time" : "Time at which email was sent."
+   },
+   "usage" : "email",
+   "description" : "Description\nThese data represent incoming emails for the first three months of 2012 for\nan email account (see Source)."
+}
+
 var email = [
    [
       "spam",

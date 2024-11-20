@@ -1,3 +1,18 @@
+var germinationInfo ={
+   "format" : "A data frame with 192 observations on the following 5 variables.",
+   "reference" : "For each of the three species mungbean, rice, and wheat, a total of 20 seeds were uniformly distributed on filter paper in a petri dish (diameter: 9.0cm) \nand then placed in dark climate cabinets with different temperatures (10, 16, 22, 28, 34, 40 degrees Celsius). Not all of the temperatures were applied to all species. \nThe germinated seeds were counted and removed from the petri dish on a daily basis up to 18 days (or until all seeds had germinated). I",
+   "title" : "Germination of three crops",
+   "parameters" : {
+      "start" : "a numeric vector of left endpoints of the monitoring intervals",
+      "species" : "a factor with levels mungbean rice wheat",
+      "end" : "a numeric vector of right endpoints of the monitoring intervals",
+      "temp" : "a numeric vector of temperatures that seeds were exposed to",
+      "germinated" : "a numeric vector giving the numbers of seeds germinated"
+   },
+   "usage" : "data(germination)",
+   "description" : "Description\nGermination data were obtained from experiments involving the three species mungbean, rice, and wheat, which were opposed\nto different temperatures between 10 and 40 degrees Celsius. Experiments lasted at most 18 days."
+}
+
 var germination = [
    [
       "temp",

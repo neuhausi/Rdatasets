@@ -1,5 +1,4 @@
 {
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>alloauto</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>data from Section 1.9</h2>\n<h3>Description</h3>\n<p>The <code>alloauto</code> data frame has 90 rows and 5 columns.\n</p>\n<h3>Format</h3>\n<p>This data frame contains the following columns:\n</p>\n<dl>\n<dt>time</dt><dd>\n<p>Time to death or relapse, months\n</p>\n</dd>\n<dt>type</dt><dd>\n<p>Type of transplant (1=allogeneic, 2=autologous)\n</p>\n</dd>\n<dt>delta</dt><dd>\n<p>Leukemia-free survival indicator (0=alive without relapse, 1=dead\nor relapse)\n</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>Klein and Moeschberger (1997) <em>Survival Analysis Techniques for Censored\nand truncated data</em>, Springer.\nKardaun Stat. Nederlandica 37 (1983), 103-126.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>data(alloauto)\n</code></pre>\n</main>\n</div>\n",
    "data" : {
       "y" : {
          "vars" : [
@@ -104,6 +103,11 @@
             "Var99",
             "Var100",
             "Var101"
+         ],
+         "smps" : [
+            "time",
+            "type",
+            "delta"
          ],
          "data" : [
             [
@@ -611,17 +615,13 @@
                2,
                1
             ]
-         ],
-         "smps" : [
-            "time",
-            "type",
-            "delta"
          ]
       }
    },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>alloauto</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>data from Section 1.9</h2>\n<h3>Description</h3>\n<p>The <code>alloauto</code> data frame has 90 rows and 5 columns.\n</p>\n<h3>Format</h3>\n<p>This data frame contains the following columns:\n</p>\n<dl>\n<dt>time</dt><dd>\n<p>Time to death or relapse, months\n</p>\n</dd>\n<dt>type</dt><dd>\n<p>Type of transplant (1=allogeneic, 2=autologous)\n</p>\n</dd>\n<dt>delta</dt><dd>\n<p>Leukemia-free survival indicator (0=alive without relapse, 1=dead\nor relapse)\n</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>Klein and Moeschberger (1997) <em>Survival Analysis Techniques for Censored\nand truncated data</em>, Springer.\nKardaun Stat. Nederlandica 37 (1983), 103-126.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>data(alloauto)\n</code></pre>\n</main>\n</div>\n",
    "config" : {
-      "title" : "data from Section 1.9",
       "subtitle" : "KMsurv - alloauto",
-      "graphType" : "Scatter3D"
+      "graphType" : "Scatter3D",
+      "title" : "data from Section 1.9"
    }
 }

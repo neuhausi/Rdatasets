@@ -1,9 +1,9 @@
 {
    "config" : {
-      "subtitle" : "HistData - Dactyl",
       "graphType" : "Scatter2D",
+      "title" : "Edgeworth's counts of dactyls in Virgil's Aeneid",
       "colorBy" : "Lines",
-      "title" : "Edgeworth's counts of dactyls in Virgil's Aeneid"
+      "subtitle" : "HistData - Dactyl"
    },
    "data" : {
       "y" : {
@@ -68,6 +68,10 @@
             "Var58",
             "Var59",
             "Var60"
+         ],
+         "smps" : [
+            "Foot",
+            "count"
          ],
          "data" : [
             [
@@ -310,10 +314,6 @@
                4,
                0
             ]
-         ],
-         "smps" : [
-            "Foot",
-            "count"
          ]
       },
       "z" : {

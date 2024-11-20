@@ -1,3 +1,19 @@
+var USGasBInfo ={
+   "description" : "Description\nTime series data on the US gasoline market.",
+   "usage" : "data(\"USGasB\")",
+   "parameters" : {
+      "gas" : "Consumption of motor gasoline (in 1000 gallons).",
+      "gnp" : "Real gross national product (in 1982 dollars).",
+      "deflator" : "GNP deflator (1982 = 100).",
+      "cars" : "Stock of cars.",
+      "price" : "Retail price of motor gasoline.",
+      "population" : "Population."
+   },
+   "reference" : "The data are from Baltagi (2002).",
+   "format" : "An annual multiple time series from 1950 to 1987 with 6 variables.",
+   "title" : "US Gasoline Market Data (1950&ndash;1987, Baltagi)"
+}
+
 var USGasB = [
    [
       "cars",

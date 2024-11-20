@@ -1,41 +1,12 @@
 {
    "config" : {
-      "scatterPlotMatrix" : 1,
-      "subtitle" : "datasets - stackloss",
+      "title" : "Brownlee's Stack Loss Plant Data",
       "graphType" : "Scatter2D",
-      "title" : "Brownlee's Stack Loss Plant Data"
+      "scatterPlotMatrix" : 1,
+      "subtitle" : "datasets - stackloss"
    },
    "data" : {
       "y" : {
-         "vars" : [
-            "Var1",
-            "Var2",
-            "Var3",
-            "Var4",
-            "Var5",
-            "Var6",
-            "Var7",
-            "Var8",
-            "Var9",
-            "Var10",
-            "Var11",
-            "Var12",
-            "Var13",
-            "Var14",
-            "Var15",
-            "Var16",
-            "Var17",
-            "Var18",
-            "Var19",
-            "Var20",
-            "Var21"
-         ],
-         "smps" : [
-            "Air.Flow",
-            "Water.Temp",
-            "Acid.Conc.",
-            "stack.loss"
-         ],
          "data" : [
             [
                80,
@@ -163,6 +134,35 @@
                91,
                15
             ]
+         ],
+         "vars" : [
+            "Var1",
+            "Var2",
+            "Var3",
+            "Var4",
+            "Var5",
+            "Var6",
+            "Var7",
+            "Var8",
+            "Var9",
+            "Var10",
+            "Var11",
+            "Var12",
+            "Var13",
+            "Var14",
+            "Var15",
+            "Var16",
+            "Var17",
+            "Var18",
+            "Var19",
+            "Var20",
+            "Var21"
+         ],
+         "smps" : [
+            "Air.Flow",
+            "Water.Temp",
+            "Acid.Conc.",
+            "stack.loss"
          ]
       }
    },

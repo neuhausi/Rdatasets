@@ -1,3 +1,9 @@
+var MathEnrollmentInfo ={
+   "description" : "Description\nSemester enrollments in mathematics courses",
+   "title" : "Enrollments in Math Courses",
+   "usage" : "A dataset with 11 observations on the following 3 variables."
+}
+
 var MathEnrollment = [
    [
       "AYear",

@@ -1,5 +1,4 @@
 {
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>cement</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>\nHeat Evolved by Setting Cements\n</h2>\n<h3>Description</h3>\n<p>Experiment on the heat evolved in the setting of each of 13 cements.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>cement\n</code></pre>\n<h3>Format</h3>\n<dl>\n<dt><code>x1, x2, x3, x4</code></dt><dd>\n<p>Proportions (%) of active ingredients.\n</p>\n</dd>\n<dt><code>y</code></dt><dd>\n<p>heat evolved in cals/gm.\n</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>Thirteen samples of Portland cement were set. For each sample, the\npercentages of the four main chemical ingredients was accurately\nmeasured.  While the cement was setting the amount of heat evolved was\nalso measured.\n</p>\n<h3>Source</h3>\n<p>Woods, H., Steinour, H.H. and Starke, H.R. (1932) Effect of composition of \nPortland cement on heat evolved during hardening. \n<em>Industrial Engineering and Chemistry</em>, <b>24</b>, 1207&ndash;1214.\n</p>\n<h3>References</h3>\n<p>Hald, A. (1957) <em>Statistical Theory with Engineering\nApplications.</em> Wiley, New York.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>lm(y ~ x1 + x2 + x3 + x4, cement)\n</code></pre>\n</main>\n</div>\n",
    "data" : {
       "y" : {
          "smps" : [
@@ -8,6 +7,21 @@
             "x3",
             "x4",
             "y"
+         ],
+         "vars" : [
+            "Var1",
+            "Var2",
+            "Var3",
+            "Var4",
+            "Var5",
+            "Var6",
+            "Var7",
+            "Var8",
+            "Var9",
+            "Var10",
+            "Var11",
+            "Var12",
+            "Var13"
          ],
          "data" : [
             [
@@ -101,28 +115,14 @@
                12,
                109.4
             ]
-         ],
-         "vars" : [
-            "Var1",
-            "Var2",
-            "Var3",
-            "Var4",
-            "Var5",
-            "Var6",
-            "Var7",
-            "Var8",
-            "Var9",
-            "Var10",
-            "Var11",
-            "Var12",
-            "Var13"
          ]
       }
    },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>cement</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>\nHeat Evolved by Setting Cements\n</h2>\n<h3>Description</h3>\n<p>Experiment on the heat evolved in the setting of each of 13 cements.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>cement\n</code></pre>\n<h3>Format</h3>\n<dl>\n<dt><code>x1, x2, x3, x4</code></dt><dd>\n<p>Proportions (%) of active ingredients.\n</p>\n</dd>\n<dt><code>y</code></dt><dd>\n<p>heat evolved in cals/gm.\n</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>Thirteen samples of Portland cement were set. For each sample, the\npercentages of the four main chemical ingredients was accurately\nmeasured.  While the cement was setting the amount of heat evolved was\nalso measured.\n</p>\n<h3>Source</h3>\n<p>Woods, H., Steinour, H.H. and Starke, H.R. (1932) Effect of composition of \nPortland cement on heat evolved during hardening. \n<em>Industrial Engineering and Chemistry</em>, <b>24</b>, 1207&ndash;1214.\n</p>\n<h3>References</h3>\n<p>Hald, A. (1957) <em>Statistical Theory with Engineering\nApplications.</em> Wiley, New York.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>lm(y ~ x1 + x2 + x3 + x4, cement)\n</code></pre>\n</main>\n</div>\n",
    "config" : {
-      "graphType" : "Scatter2D",
       "subtitle" : "MASS - cement",
       "scatterPlotMatrix" : 1,
+      "graphType" : "Scatter2D",
       "title" : "Heat Evolved by Setting Cements"
    }
 }

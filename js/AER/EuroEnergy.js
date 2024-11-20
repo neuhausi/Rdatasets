@@ -1,3 +1,15 @@
+var EuroEnergyInfo ={
+   "description" : "Description\nCross-section data on energy consumption for 20 European countries, for the year 1980.",
+   "usage" : "data(\"EuroEnergy\")",
+   "parameters" : {
+      "gdp" : "Real gross domestic product for the year 1980 (in million 1975 US dollars).",
+      "energy" : "Aggregate energy consumption (in million kilograms coal equivalence)."
+   },
+   "format" : "A data frame containing 20 observations on 2 variables.",
+   "title" : "European Energy Consumption Data",
+   "reference" : "The data are from Baltagi (2002)."
+}
+
 var EuroEnergy = [
    [
       "gdp",

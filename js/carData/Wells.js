@@ -1,3 +1,18 @@
+var WellsInfo ={
+   "parameters" : {
+      "education" : "in years of the head of the household.",
+      "switch" : "whether or not the household switched to\nanother well from an unsafe well: no or yes.",
+      "association" : "whether or not any members of the household\nparticipated in any community organizations: no or yes.",
+      "arsenic" : "the level of arsenic contamination in the \nhousehold's original well, in hundreds of micrograms per liter; all\nare above 0.5, which was the level identified as &ldquo;safe&rdquo;.",
+      "distance" : "in meters to the closest known safe well."
+   },
+   "format" : "A data frame with 3020 observations on the following 5 variables.",
+   "title" : "Well Switching in Bangladesh",
+   "reference" : "The data are for an area of Arahazar upazila, Bangladesh.\nThe researchers labelled each well with its level of arsenic and an\nindication of whether the well was &ldquo;safe&rdquo; or &ldquo;unsafe.&rdquo; Those using unsafe\nwells were encouraged to switch. After several years, it was determined\nwhether each household using an unsafe well had changed its well. \nThese data are used by Gelman and Hill (2007) for a logistic-regression example.",
+   "description" : "Description\nData on whether or not households in Bangladesh changed the wells that \nthey were using.",
+   "usage" : "Wells"
+}
+
 var Wells = [
    [
       "switch",

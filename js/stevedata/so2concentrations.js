@@ -1,3 +1,17 @@
+var so2concentrationsInfo ={
+   "parameters" : {
+      "year" : "the year",
+      "ub" : "the lower bound of the value (10th percentile)",
+      "lb" : "the upper bound of the value (90th percentile)",
+      "value" : "the mean concentration of sulfur dioxide in the air\nbased on 32 trend sites, in parts per billion"
+   },
+   "title" : "Sulfur Dioxide Emissions, 1980-2020",
+   "format" : "A data frame with the following 4 variables.",
+   "reference" : "Environmental Protection Agency (\"Sulfur Dioxide Trends\")",
+   "description" : "Description\nThis data set contains yearly observations by the Environmental Protection Agency\non the concentration of sulfur dioxide in parts per billion, based on 32 sites.\nI use this for in-class illustration. Note that the national standard is\n75 parts per billion. Data are the national trend.",
+   "usage" : "so2concentrations"
+}
+
 var so2concentrations = [
    [
       "year",

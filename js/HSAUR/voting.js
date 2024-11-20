@@ -1,3 +1,10 @@
+var votingInfo ={
+   "usage" : "data(\"voting\")",
+   "format" : "A 15 times 15 matrix.",
+   "title" : "House of Representatives Voting Data",
+   "description" : "Description\nVoting results for 15 congressmen from New Jersey."
+}
+
 var voting = [
    [
       "Hunt(R)",

@@ -1,3 +1,28 @@
+var MedExpInfo ={
+   "format" : "A time series containing :",
+   "title" : "Structure of Demand for Medical Care",
+   "reference" : "Deb, P.  and P.K.  Trivedi (2002) &ldquo;The Structure of Demand for Medical Care: Latent Class versus Two-Part Models&rdquo;, Journal of Health Economics, 21, 601&ndash;625.",
+   "parameters" : {
+      "med" : "annual medical expenditures in \nconstant dollars excluding dental \nand outpatient mental",
+      "black" : "is household head black ?",
+      "linc" : "log of annual family income (in $)",
+      "child" : "age less than 18 ?",
+      "lpi" : "log(annual participation \nincentive payment) or 0 if no payment",
+      "ndisease" : "number of chronic diseases",
+      "lc" : "log(coinsrate+1)  where \ncoinsurance rate is 0 to 100",
+      "educdec" : "years of schooling of household head",
+      "health" : "self&ndash;rate health (excellent,good,fair,poor)",
+      "sex" : "sex (male,female)",
+      "fmde" : "log(max(medical deductible \nexpenditure)) if IDP=1 and \nMDE>1 or 0 otherwise",
+      "physlim" : "physical limitation ?",
+      "lfam" : "log of family size",
+      "idp" : "individual deductible plan ?",
+      "age" : "exact age"
+   },
+   "usage" : "data(MedExp)",
+   "description" : "Description\nJournal of Applied Econometrics data archive : http://qed.econ.queensu.ca/jae/\nnumber of observations :  5574"
+}
+
 var MedExp = [
    [
       "med",

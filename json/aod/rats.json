@@ -1,5 +1,41 @@
 {
    "data" : {
+      "z" : {
+         "group" : [
+            "CTRL",
+            "CTRL",
+            "CTRL",
+            "CTRL",
+            "CTRL",
+            "CTRL",
+            "CTRL",
+            "CTRL",
+            "CTRL",
+            "CTRL",
+            "CTRL",
+            "CTRL",
+            "CTRL",
+            "CTRL",
+            "CTRL",
+            "CTRL",
+            "TREAT",
+            "TREAT",
+            "TREAT",
+            "TREAT",
+            "TREAT",
+            "TREAT",
+            "TREAT",
+            "TREAT",
+            "TREAT",
+            "TREAT",
+            "TREAT",
+            "TREAT",
+            "TREAT",
+            "TREAT",
+            "TREAT",
+            "TREAT"
+         ]
+      },
       "y" : {
          "data" : [
             [
@@ -169,49 +205,13 @@
             "Var31",
             "Var32"
          ]
-      },
-      "z" : {
-         "group" : [
-            "CTRL",
-            "CTRL",
-            "CTRL",
-            "CTRL",
-            "CTRL",
-            "CTRL",
-            "CTRL",
-            "CTRL",
-            "CTRL",
-            "CTRL",
-            "CTRL",
-            "CTRL",
-            "CTRL",
-            "CTRL",
-            "CTRL",
-            "CTRL",
-            "TREAT",
-            "TREAT",
-            "TREAT",
-            "TREAT",
-            "TREAT",
-            "TREAT",
-            "TREAT",
-            "TREAT",
-            "TREAT",
-            "TREAT",
-            "TREAT",
-            "TREAT",
-            "TREAT",
-            "TREAT",
-            "TREAT",
-            "TREAT"
-         ]
       }
    },
    "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>rats</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2> Rats Diet Experiment </h2>\n<h3>Description</h3>\n<p>&ldquo;Weil (1970) in Table 1 gives the results from an experiment comprising two treatments. One group of \n16 pregnant female rats was fed a control diet during pregnancy and lactation, the diet of a second group of 16 pregnant \nfemales was treated with a chemical. For each litter the number <code class=\"reqn\">n</code> of pups alive at 4 days and the number <code class=\"reqn\">x</code> \nof pups that survived the 21 day lactation period were recorded.&rdquo; (Williams, 1975, p. 951).</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(rats)</code></pre>\n<h3>Format</h3>\n<p>A data frame with 32 observations on the following 3 variables.\n</p>\n<dl>\n<dt>group</dt><dd><p>A factor with levels <code>CTRL</code> and <code>TREAT</code></p>\n</dd>\n<dt>n</dt><dd><p>A numeric vector: the number of pups alive at 4 days.</p>\n</dd>\n<dt>y</dt><dd><p>A numeric vector: the number of pups that survived the 21 day lactation.</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>Williams, D.A., 1975. <em>The analysis of binary responses from toxicological experiments\ninvolving reproduction and teratogenicity</em>. Biometrics 31, 949-952.\n</p>\n<h3>References</h3>\n<p>Weil, C.S., 1970. <em>Selection of the valid number of sampling units and a consideration of their combination \nin toxicological studies involving reproduction, teratogenesis or carcinogenesis</em>. Fd. Cosmet. Toxicol. 8, 177-182.\n</p>\n</main>\n</div>\n",
    "config" : {
-      "title" : "Rats Diet Experiment",
-      "colorBy" : "group",
+      "subtitle" : "aod - rats",
       "graphType" : "Scatter2D",
-      "subtitle" : "aod - rats"
+      "title" : "Rats Diet Experiment",
+      "colorBy" : "group"
    }
 }

@@ -1,3 +1,14 @@
+var CO2GermanyInfo ={
+   "parameters" : {
+      "CO2" : "Carbon dioxide (CO2) level (in parts per million)",
+      "Day" : "Number of day in 2011 (April 1 = day 91)"
+   },
+   "description" : "Description\nDaily carbon dioxide measurements for April through November 2011",
+   "usage" : "A data frame with 237 observations on the following 2 variables.",
+   "reference" : "Scientists at a research station in Brotjacklriegel, Germany recorded\nCO2 levels, in parts per million, in the atmosphere for each day from\nthe start of April through November in 2011.",
+   "title" : "Daily CO2 Measurements in Germany"
+}
+
 var CO2Germany = [
    [
       "CO2",

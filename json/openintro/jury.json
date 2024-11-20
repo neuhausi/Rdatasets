@@ -281,9 +281,6 @@
          ]
       },
       "y" : {
-         "vars" : [
-            "Row"
-         ],
          "data" : [
             [
                1,
@@ -839,16 +836,19 @@
             "Smp273",
             "Smp274",
             "Smp275"
+         ],
+         "vars" : [
+            "Row"
          ]
       }
    },
    "config" : {
-      "title" : "Simulated juror dataset",
       "groupingFactors" : [
          "race"
       ],
-      "colorBy" : "variable",
+      "subtitle" : "openintro - jury",
       "graphType" : "Boxplot",
-      "subtitle" : "openintro - jury"
+      "title" : "Simulated juror dataset",
+      "colorBy" : "variable"
    }
 }

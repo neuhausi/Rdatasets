@@ -1,3 +1,30 @@
+var UniversityInfo ={
+   "parameters" : {
+      "secrpay" : "secretarial pay",
+      "techn" : "technicians",
+      "acrelnum" : "academic related numbers",
+      "admpay" : "admin pay",
+      "acnumbers" : "academic numbers",
+      "undstudents" : "undergraduate students",
+      "resgr" : "research grants",
+      "acpay" : "academic pay",
+      "stfees" : "student fees",
+      "acrelpay" : "academic related pay",
+      "furneq" : "furniture and equipment",
+      "agresrk" : "aggregate research rank",
+      "landbuild" : "land and buildings",
+      "poststudents" : "postgraduate students",
+      "compop" : "computer operators",
+      "nassets" : "net assets",
+      "clernum" : "clerical numbers"
+   },
+   "format" : "A dataframe containing :",
+   "reference" : "Glass, J.C.,  D.G.   McKillop and  N.  Hyndman (1995) &ldquo;Efficiency in the provision of university teaching and research : an empirical analysis of UK universities&rdquo;, Journal of Applied Econometrics, 10(1), January&ndash;March, 61&ndash;72.",
+   "title" : "Provision of University Teaching and Research",
+   "description" : "Description\na cross-section from 1988\nnumber of observations :  62\nobservation :  schools\ncountry :  United Kingdom",
+   "usage" : "data(University)"
+}
+
 var University = [
    [
       "undstudents",

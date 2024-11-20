@@ -1,16 +1,5 @@
 {
-   "config" : {
-      "title" : "Confidence of Mock Jurors in Their Verdicts",
-      "groupingFactors" : [
-         "conflict"
-      ],
-      "colorBy" : "variable",
-      "graphType" : "Boxplot",
-      "segregateSamplesBy" : [
-         "verdict"
-      ],
-      "subtitle" : "betareg - MockJurors"
-   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>MockJurors</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Confidence of Mock Jurors in Their Verdicts</h2>\n<h3>Description</h3>\n<p>Data with responses of naive mock jurors to the conventional\nconventional two-option verdict (guilt vs. acquittal) versus a\nthree-option verdict setup (the third option was the Scottish\n'not proven' alternative), in the presence/absence of conflicting\ntestimonial evidence.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(\"MockJurors\", package = \"betareg\")</code></pre>\n<h3>Format</h3>\n<p>A data frame containing 104 observations on 3 variables.\n</p>\n<dl>\n<dt>verdict</dt><dd><p>factor indicating whether a two-option or\nthree-option verdict is requested. (A sum contrast rather\nthan treatment contrast is employed.)</p>\n</dd>\n<dt>conflict</dt><dd><p>factor. Is there conflicting testimonial evidence?\n(A sum contrast rather than treatment contrast is employed.)</p>\n</dd>\n<dt>confidence</dt><dd><p>jurors degree of confidence in his/her verdict,\nscaled to the open unit interval (see below).</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>The data were collected by Daily (2004) among first-year psychology\nstudents at Australian National University. Smithson and Verkuilen (2006)\nemployed the data scaling the original confidence (on a scale 0&ndash;100)\nto the open unit interval: <code>((original_confidence/100) * 103 - 0.5) / 104</code>.\n</p>\n<p>The original coding of <code>conflict</code> in the data provided from Smithson's\nhomepage is -1/1 which Smithson and Verkuilen (2006) describe to mean\nno/yes. However, all their results (sample statistics, histograms, etc.)\nsuggest that it actually means yes/no which was employed in <code>MockJurors</code>.\n</p>\n<h3>Source</h3>\n<p>Example 1 from Smithson and Verkuilen (2006) supplements.\n</p>\n<h3>References</h3>\n<p>Deady, S. (2004).\nThe Psychological Third Verdict: 'Not Proven' or 'Not Willing to Make a Decision'?\n<em>Unpublished honors thesis</em>, The Australian National University, Canberra.\n</p>\n<p>Smithson, M., and Verkuilen, J. (2006).\nA Better Lemon Squeezer? Maximum-Likelihood Regression with\nBeta-Distributed Dependent Variables.\n<em>Psychological Methods</em>, <b>11</b>(7), 54&ndash;71.\n</p>\n<h3>See Also</h3>\n<p><code>betareg</code>, <code>ReadingSkills</code>, <code>StressAnxiety</code></p>\n<h3>Examples</h3>\n<pre><code class='language-R'>data(\"MockJurors\", package = \"betareg\")\nlibrary(\"lmtest\")\n## Smithson &amp; Verkuilen (2006, Table 1)\n## variable dispersion model\n## (NOTE: numerical rather than analytical Hessian is used for replication,\n##  Smithson &amp; Verkuilen erroneously compute one-sided p-values)\nmj_vd &lt;- betareg(confidence ~ verdict * conflict | verdict * conflict,\n  data = MockJurors, hessian = TRUE)\nsummary(mj_vd)\n## model selection for beta regression: null model, fixed dispersion model (p. 61)\nmj_null &lt;- betareg(confidence ~ 1 | 1, data = MockJurors)\nmj_fd &lt;-   betareg(confidence ~ verdict * conflict | 1, data = MockJurors)\nlrtest(mj_null, mj_fd)\nlrtest(mj_null, mj_vd)\n## McFadden's pseudo-R-squared\n1 - as.vector(logLik(mj_null)/logLik(mj_vd))\n## visualization\nif(require(\"lattice\")) {\n  histogram(~ confidence | conflict + verdict, data = MockJurors,\n    col = \"lightgray\", breaks = 0:10/10, type = \"density\")\n## see demo(\"SmithsonVerkuilen2006\", package = \"betareg\") for more details\n</code></pre>\n</main>\n</div>\n",
    "data" : {
       "x" : {
          "conflict" : [
@@ -335,6 +324,9 @@
                0.847
             ]
          ],
+         "vars" : [
+            "confidence"
+         ],
          "smps" : [
             "Smp1",
             "Smp2",
@@ -440,11 +432,19 @@
             "Smp102",
             "Smp103",
             "Smp104"
-         ],
-         "vars" : [
-            "confidence"
          ]
       }
    },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>MockJurors</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Confidence of Mock Jurors in Their Verdicts</h2>\n<h3>Description</h3>\n<p>Data with responses of naive mock jurors to the conventional\nconventional two-option verdict (guilt vs. acquittal) versus a\nthree-option verdict setup (the third option was the Scottish\n'not proven' alternative), in the presence/absence of conflicting\ntestimonial evidence.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(\"MockJurors\", package = \"betareg\")</code></pre>\n<h3>Format</h3>\n<p>A data frame containing 104 observations on 3 variables.\n</p>\n<dl>\n<dt>verdict</dt><dd><p>factor indicating whether a two-option or\nthree-option verdict is requested. (A sum contrast rather\nthan treatment contrast is employed.)</p>\n</dd>\n<dt>conflict</dt><dd><p>factor. Is there conflicting testimonial evidence?\n(A sum contrast rather than treatment contrast is employed.)</p>\n</dd>\n<dt>confidence</dt><dd><p>jurors degree of confidence in his/her verdict,\nscaled to the open unit interval (see below).</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>The data were collected by Daily (2004) among first-year psychology\nstudents at Australian National University. Smithson and Verkuilen (2006)\nemployed the data scaling the original confidence (on a scale 0&ndash;100)\nto the open unit interval: <code>((original_confidence/100) * 103 - 0.5) / 104</code>.\n</p>\n<p>The original coding of <code>conflict</code> in the data provided from Smithson's\nhomepage is -1/1 which Smithson and Verkuilen (2006) describe to mean\nno/yes. However, all their results (sample statistics, histograms, etc.)\nsuggest that it actually means yes/no which was employed in <code>MockJurors</code>.\n</p>\n<h3>Source</h3>\n<p>Example 1 from Smithson and Verkuilen (2006) supplements.\n</p>\n<h3>References</h3>\n<p>Deady, S. (2004).\nThe Psychological Third Verdict: 'Not Proven' or 'Not Willing to Make a Decision'?\n<em>Unpublished honors thesis</em>, The Australian National University, Canberra.\n</p>\n<p>Smithson, M., and Verkuilen, J. (2006).\nA Better Lemon Squeezer? Maximum-Likelihood Regression with\nBeta-Distributed Dependent Variables.\n<em>Psychological Methods</em>, <b>11</b>(7), 54&ndash;71.\n</p>\n<h3>See Also</h3>\n<p><code>betareg</code>, <code>ReadingSkills</code>, <code>StressAnxiety</code></p>\n<h3>Examples</h3>\n<pre><code class='language-R'>data(\"MockJurors\", package = \"betareg\")\nlibrary(\"lmtest\")\n## Smithson &amp; Verkuilen (2006, Table 1)\n## variable dispersion model\n## (NOTE: numerical rather than analytical Hessian is used for replication,\n##  Smithson &amp; Verkuilen erroneously compute one-sided p-values)\nmj_vd &lt;- betareg(confidence ~ verdict * conflict | verdict * conflict,\n  data = MockJurors, hessian = TRUE)\nsummary(mj_vd)\n## model selection for beta regression: null model, fixed dispersion model (p. 61)\nmj_null &lt;- betareg(confidence ~ 1 | 1, data = MockJurors)\nmj_fd &lt;-   betareg(confidence ~ verdict * conflict | 1, data = MockJurors)\nlrtest(mj_null, mj_fd)\nlrtest(mj_null, mj_vd)\n## McFadden's pseudo-R-squared\n1 - as.vector(logLik(mj_null)/logLik(mj_vd))\n## visualization\nif(require(\"lattice\")) {\n  histogram(~ confidence | conflict + verdict, data = MockJurors,\n    col = \"lightgray\", breaks = 0:10/10, type = \"density\")\n## see demo(\"SmithsonVerkuilen2006\", package = \"betareg\") for more details\n</code></pre>\n</main>\n</div>\n"
+   "config" : {
+      "subtitle" : "betareg - MockJurors",
+      "segregateSamplesBy" : [
+         "verdict"
+      ],
+      "title" : "Confidence of Mock Jurors in Their Verdicts",
+      "groupingFactors" : [
+         "conflict"
+      ],
+      "graphType" : "Boxplot",
+      "colorBy" : "variable"
+   }
 }

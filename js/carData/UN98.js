@@ -1,3 +1,26 @@
+var UN98Info ={
+   "parameters" : {
+      "educationFemale" : "average number of years of education for women.",
+      "illiteracyMale" : "percentage of males 15 years of age and older who are illiterate.",
+      "economicActivityFemale" : "percentage of women who are economically active.",
+      "contraception" : "percentage of married women using any method of contraception.",
+      "infantMortality" : "infant deaths per 1000 live births.",
+      "economicActivityMale" : "percentage of men who are economically active.",
+      "illiteracyFemale" : "percentage of females 15 years of age and older who are illiterate.",
+      "region" : "a factor with alphabetical levels Africa, America, Asia, Europe, Oceania.",
+      "educationMale" : "average number of years of education for men.",
+      "GDPperCapita" : "gross domestic product per person in U.S. dollars.",
+      "tfr" : "total fertility rate, number of children per woman.",
+      "lifeMale" : "expectation of life at birth for males.",
+      "lifeFemale" : "expectation of life at birth for females."
+   },
+   "title" : "United Nations Social Indicators Data 1998]",
+   "reference" : "In a few cases where the percentages of males and females 15 and older who are illiterate were unavailable, these variables were filled in by regression imputation from the corresponding percentages 25 and older who are illiterate.",
+   "format" : "A data frame with 207 observations on the following 13 variables.",
+   "description" : "Description\nSocial indicators data on 207 nations distributed by the United Nations circa 1998.",
+   "usage" : "data(\"UN98\")"
+}
+
 var UN98 = [
    [
       "region",

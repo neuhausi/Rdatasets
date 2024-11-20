@@ -1,3 +1,9 @@
+var meatsInfo ={
+   "description" : "Description\n\"These data are recorded on a Tecator Infratec Food and Feed Analyzer\nworking in the wavelength range 850 - 1050 nm by the Near Infrared\nTransmission (NIT) principle. Each sample contains finely chopped pure meat\nwith different moisture, fat and protein contents.",
+   "usage" : "If results from these data are used in a publication we want you to mention\nthe instrument and company name (Tecator) in the publication.  In addition,\nplease send a preprint of your article to:",
+   "title" : "Fat, water and protein content of meat samples"
+}
+
 var meats = [
    [
       "x_001",

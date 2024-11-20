@@ -1,3 +1,31 @@
+var CollegeInfo ={
+   "parameters" : {
+      "Apps" : "Number of applications received",
+      "PhD" : "Pct. of faculty with Ph.D.'s",
+      "Grad.Rate" : "Graduation rate",
+      "Top10perc" : "Pct. new students from top 10% of H.S. class",
+      "Accept" : "Number of applications accepted",
+      "Top25perc" : "Pct. new students from top 25% of H.S. class",
+      "Enroll" : "Number of new students enrolled",
+      "Private" : "A factor with levels No and Yes\nindicating private or public university",
+      "F.Undergrad" : "Number of fulltime undergraduates",
+      "P.Undergrad" : "Number of parttime undergraduates",
+      "Outstate" : "Out-of-state tuition",
+      "Books" : "Estimated book costs",
+      "Terminal" : "Pct. of faculty with terminal degree",
+      "Expend" : "Instructional expenditure per student",
+      "Room.Board" : "Room and board costs",
+      "S.F.Ratio" : "Student/faculty ratio",
+      "Personal" : "Estimated personal spending",
+      "perc.alumni" : "Pct. alumni who donate"
+   },
+   "format" : "A data frame with 777 observations on the following 18 variables.",
+   "title" : "U.S. News and World Report's College Data",
+   "reference" : "This dataset was taken from the StatLib library which is\nmaintained at Carnegie Mellon University. The dataset was used in the\nASA Statistical Graphics Section's 1995 Data Analysis Exposition.",
+   "description" : "Description\nStatistics for a large number of US Colleges from the 1995\nissue of US News and World Report.",
+   "usage" : "College"
+}
+
 var College = [
    [
       "Private",

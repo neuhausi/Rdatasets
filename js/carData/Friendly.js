@@ -1,3 +1,15 @@
+var FriendlyInfo ={
+   "parameters" : {
+      "correct" : "Number of words correctly recalled, out of 40 on final trial of the experiment.",
+      "condition" : "A factor with levels:\nBefore, Recalled words presented before others;\nMeshed, Recalled words meshed with others; \nSFR, Standard free recall."
+   },
+   "reference" : "Friendly, M. and Franklin, P. (1980) \nInteractive presentation in multitrial free recall. \nMemory and Cognition\n8 265&ndash;270 [Personal communication from M. Friendly].",
+   "format" : "This data frame contains the following columns:",
+   "title" : "Format Effects on Recall",
+   "description" : "Description\nThe Friendly data frame has 30 rows and 2 columns.\nThe data are from an experiment on subjects' ability to remember words\nbased on the presentation format.",
+   "usage" : "Friendly"
+}
+
 var Friendly = [
    [
       "condition",

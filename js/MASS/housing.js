@@ -1,3 +1,18 @@
+var housingInfo ={
+   "parameters" : {
+      "Sat" : "Satisfaction of householders with their present housing\ncircumstances, (High, Medium or Low, ordered factor).",
+      "Freq" : "Frequencies: the numbers of residents in each class.",
+      "Cont" : "Contact residents are afforded with other residents, (Low, High).",
+      "Infl" : "Perceived degree of influence householders have on the\nmanagement of the property (High, Medium, Low).",
+      "Type" : "Type of rental accommodation, (Tower, Atrium, Apartment, Terrace)."
+   },
+   "reference" : "Madsen, M. (1976)\nStatistical analysis of multiple contingency tables. Two examples.\nScand. J. Statist. 3, 97&ndash;106.",
+   "format" : "Sat\nSatisfaction of householders with their present housing\ncircumstances, (High, Medium or Low, ordered factor).\n\n\nInfl\nPerceived degree of influence householders have on the\nmanagement of the property (High, Medium, Low).\n\n\nType\nType of rental accommodation, (Tower, Atrium, Apartment, Terrace).\n\n\nCont\nContact residents are afforded with other residents, (Low, High).\n\n\nFreq\nFrequencies: the numbers of residents in each class.",
+   "title" : "Frequency Table from a Copenhagen Housing Conditions Survey",
+   "description" : "Description\nThe housing data frame has 72 rows and 5 variables.",
+   "usage" : "housing"
+}
+
 var housing = [
    [
       "Sat",

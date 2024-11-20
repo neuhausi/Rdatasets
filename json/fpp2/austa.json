@@ -1,54 +1,7 @@
 {
-   "config" : {
-      "title" : "International visitors to Australia",
-      "graphType" : "Scatter2D",
-      "subtitle" : "fpp2 - austa"
-   },
    "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>austa</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>International visitors to Australia</h2>\n<h3>Description</h3>\n<p>Total international visitors to Australia (in millions). 1980-2015.\n</p>\n<h3>Format</h3>\n<p>Annual time series of class <code>ts</code>.\n</p>\n<h3>Source</h3>\n<p>International Visitor Survey, Tourism Research Australia.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>\nautoplot(austa)\n</code></pre>\n</main>\n</div>\n",
    "data" : {
       "y" : {
-         "vars" : [
-            "Var1",
-            "Var2",
-            "Var3",
-            "Var4",
-            "Var5",
-            "Var6",
-            "Var7",
-            "Var8",
-            "Var9",
-            "Var10",
-            "Var11",
-            "Var12",
-            "Var13",
-            "Var14",
-            "Var15",
-            "Var16",
-            "Var17",
-            "Var18",
-            "Var19",
-            "Var20",
-            "Var21",
-            "Var22",
-            "Var23",
-            "Var24",
-            "Var25",
-            "Var26",
-            "Var27",
-            "Var28",
-            "Var29",
-            "Var30",
-            "Var31",
-            "Var32",
-            "Var33",
-            "Var34",
-            "Var35",
-            "Var36"
-         ],
-         "smps" : [
-            "time",
-            "value"
-         ],
          "data" : [
             [
                1980,
@@ -194,7 +147,54 @@
                2015,
                6.858953
             ]
+         ],
+         "smps" : [
+            "time",
+            "value"
+         ],
+         "vars" : [
+            "Var1",
+            "Var2",
+            "Var3",
+            "Var4",
+            "Var5",
+            "Var6",
+            "Var7",
+            "Var8",
+            "Var9",
+            "Var10",
+            "Var11",
+            "Var12",
+            "Var13",
+            "Var14",
+            "Var15",
+            "Var16",
+            "Var17",
+            "Var18",
+            "Var19",
+            "Var20",
+            "Var21",
+            "Var22",
+            "Var23",
+            "Var24",
+            "Var25",
+            "Var26",
+            "Var27",
+            "Var28",
+            "Var29",
+            "Var30",
+            "Var31",
+            "Var32",
+            "Var33",
+            "Var34",
+            "Var35",
+            "Var36"
          ]
       }
+   },
+   "config" : {
+      "title" : "International visitors to Australia",
+      "graphType" : "Scatter2D",
+      "subtitle" : "fpp2 - austa"
    }
 }

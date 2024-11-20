@@ -1,3 +1,17 @@
+var HalleyLifeTableInfo ={
+   "parameters" : {
+      "ratio" : "the ratio P_{k+1}/P_k, the conditional probability\nof surviving until age k + 1 given that one had already reached age k, a numeric vector",
+      "deaths" : "number of deaths, D_k, among people of age k, a numeric vector",
+      "age" : "a numeric vector",
+      "number" : "size of the population, P_k surviving until this age, a numeric vector"
+   },
+   "title" : "Halley's Life Table",
+   "reference" : "Halley's table contained only age and number.\nFor people aged over 84 years, Halley just noted that their total number was 107.\nThis value is not included in the data set.",
+   "format" : "A data frame with 84 observations on the following 4 variables.",
+   "description" : "Description\nIn 1693 the famous English astronomer Edmond Halley studied\nthe birth and death records of the city of Breslau, which\nhad been transmitted to the Royal Society by Caspar Neumann.\nHe produced a life table showing the number of people\nsurviving to any age from a cohort born the same year. He\nalso used his table to compute the price of life annuities.",
+   "usage" : "data(\"HalleyLifeTable\")"
+}
+
 var HalleyLifeTable = [
    [
       "age",

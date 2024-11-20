@@ -1,39 +1,6 @@
 {
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>MLBStandings2016</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>MLB Standings in 2016</h2>\n<h3>Description</h3>\n<p>Major League Baseball (MLB) standings and team statistics for the 2016 season\n</p>\n<h3>Format</h3>\n<p>A data frame with 30 observations on the following 21 variables.\n</p>\n<dl>\n<dt><code>Team</code></dt><dd><p>Team name</p>\n</dd>\n<dt><code>League</code></dt><dd><p><code>AL</code>=American or <code>NL</code>=National</p>\n</dd>\n<dt><code>Wins</code></dt><dd><p>Number of wins for the season (out of 162 games)</p>\n</dd>\n<dt><code>Losses</code></dt><dd><p>Number of losses for the season</p>\n</dd>\n<dt><code>WinPct</code></dt><dd><p>Proportion of games won</p>\n</dd>\n<dt><code>BattingAverage</code></dt><dd><p>Team batting average</p>\n</dd>\n<dt><code>Runs</code></dt><dd><p>Number of runs scored</p>\n</dd>\n<dt><code>Hits</code></dt><dd><p>Number of hits</p>\n</dd>\n<dt><code>HR</code></dt><dd><p>Number of home runs hit</p>\n</dd>\n<dt><code>Doubles</code></dt><dd><p>Number of doubles hit</p>\n</dd>\n<dt><code>Triples</code></dt><dd><p>Number of triples hit</p>\n</dd>\n<dt><code>RBI</code></dt><dd><p>Number of runs batted in</p>\n</dd>\n<dt><code>SB</code></dt><dd><p>Number of stolen bases</p>\n</dd>\n<dt><code>OBP</code></dt><dd><p>On base percentage</p>\n</dd>\n<dt><code>SLG</code></dt><dd><p>Slugging percentage</p>\n</dd>\n<dt><code>ERA</code></dt><dd><p>Earned run average (earned runs allowed per 9 innings)</p>\n</dd>\n<dt><code>HitsAllowed</code></dt><dd><p>Number of hits against the team</p>\n</dd>\n<dt><code>Walks</code></dt><dd><p>Number of walks allowed</p>\n</dd>\n<dt><code>StrikeOuts</code></dt><dd><p>Number of strikeouts (by the team's pitchers)</p>\n</dd>\n<dt><code>Saves</code></dt><dd><p>Number of games saved (by the team's pitchers)</p>\n</dd>\n<dt><code>WHIP</code></dt><dd><p>Number of walks and hits per inning pitched</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>Data for all 30 Major League Baseball (MLB) teams for the 2016 regular season. This includes team batting statistics (BattingAvg through SLG) and team pitching statistics (ERA through WHIP)\n</p>\n<h3>Source</h3>\n<p>Data downloaded from baseball-reference.com: <br />\nhttp://www.baseball-reference.com/leagues/MLB/2016-standings.shtml <br />\nhttp://www.baseball-reference.com/leagues/MLB/2016.shtml\n</p>\n</main>\n</div>\n",
    "data" : {
       "x" : {
-         "League" : [
-            "NL",
-            "NL",
-            "AL",
-            "AL",
-            "NL",
-            "AL",
-            "NL",
-            "AL",
-            "NL",
-            "AL",
-            "AL",
-            "AL",
-            "AL",
-            "NL",
-            "NL",
-            "NL",
-            "AL",
-            "NL",
-            "AL",
-            "AL",
-            "NL",
-            "NL",
-            "NL",
-            "AL",
-            "NL",
-            "NL",
-            "AL",
-            "AL",
-            "AL",
-            "NL"
-         ],
          "Team" : [
             "Arizona Diamondbacks",
             "Atlanta Braves",
@@ -65,9 +32,62 @@
             "Texas Rangers",
             "Toronto Blue Jays",
             "Washington Nationals"
+         ],
+         "League" : [
+            "NL",
+            "NL",
+            "AL",
+            "AL",
+            "NL",
+            "AL",
+            "NL",
+            "AL",
+            "NL",
+            "AL",
+            "AL",
+            "AL",
+            "AL",
+            "NL",
+            "NL",
+            "NL",
+            "AL",
+            "NL",
+            "AL",
+            "AL",
+            "NL",
+            "NL",
+            "NL",
+            "AL",
+            "NL",
+            "NL",
+            "AL",
+            "AL",
+            "AL",
+            "NL"
          ]
       },
       "y" : {
+         "vars" : [
+            "Wins",
+            "Losses",
+            "WinPct",
+            "BattingAverage",
+            "Runs",
+            "Hits",
+            "HR",
+            "Doubles",
+            "Triples",
+            "RBI",
+            "SB",
+            "OBP",
+            "SLG",
+            "ERA",
+            "HitsAllowed",
+            "Walks",
+            "StrikeOuts",
+            "Saves",
+            "WHIP"
+         ],
          "smps" : [
             "Smp1",
             "Smp2",
@@ -709,37 +729,17 @@
                1.234,
                1.192
             ]
-         ],
-         "vars" : [
-            "Wins",
-            "Losses",
-            "WinPct",
-            "BattingAverage",
-            "Runs",
-            "Hits",
-            "HR",
-            "Doubles",
-            "Triples",
-            "RBI",
-            "SB",
-            "OBP",
-            "SLG",
-            "ERA",
-            "HitsAllowed",
-            "Walks",
-            "StrikeOuts",
-            "Saves",
-            "WHIP"
          ]
       }
    },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>MLBStandings2016</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>MLB Standings in 2016</h2>\n<h3>Description</h3>\n<p>Major League Baseball (MLB) standings and team statistics for the 2016 season\n</p>\n<h3>Format</h3>\n<p>A data frame with 30 observations on the following 21 variables.\n</p>\n<dl>\n<dt><code>Team</code></dt><dd><p>Team name</p>\n</dd>\n<dt><code>League</code></dt><dd><p><code>AL</code>=American or <code>NL</code>=National</p>\n</dd>\n<dt><code>Wins</code></dt><dd><p>Number of wins for the season (out of 162 games)</p>\n</dd>\n<dt><code>Losses</code></dt><dd><p>Number of losses for the season</p>\n</dd>\n<dt><code>WinPct</code></dt><dd><p>Proportion of games won</p>\n</dd>\n<dt><code>BattingAverage</code></dt><dd><p>Team batting average</p>\n</dd>\n<dt><code>Runs</code></dt><dd><p>Number of runs scored</p>\n</dd>\n<dt><code>Hits</code></dt><dd><p>Number of hits</p>\n</dd>\n<dt><code>HR</code></dt><dd><p>Number of home runs hit</p>\n</dd>\n<dt><code>Doubles</code></dt><dd><p>Number of doubles hit</p>\n</dd>\n<dt><code>Triples</code></dt><dd><p>Number of triples hit</p>\n</dd>\n<dt><code>RBI</code></dt><dd><p>Number of runs batted in</p>\n</dd>\n<dt><code>SB</code></dt><dd><p>Number of stolen bases</p>\n</dd>\n<dt><code>OBP</code></dt><dd><p>On base percentage</p>\n</dd>\n<dt><code>SLG</code></dt><dd><p>Slugging percentage</p>\n</dd>\n<dt><code>ERA</code></dt><dd><p>Earned run average (earned runs allowed per 9 innings)</p>\n</dd>\n<dt><code>HitsAllowed</code></dt><dd><p>Number of hits against the team</p>\n</dd>\n<dt><code>Walks</code></dt><dd><p>Number of walks allowed</p>\n</dd>\n<dt><code>StrikeOuts</code></dt><dd><p>Number of strikeouts (by the team's pitchers)</p>\n</dd>\n<dt><code>Saves</code></dt><dd><p>Number of games saved (by the team's pitchers)</p>\n</dd>\n<dt><code>WHIP</code></dt><dd><p>Number of walks and hits per inning pitched</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>Data for all 30 Major League Baseball (MLB) teams for the 2016 regular season. This includes team batting statistics (BattingAvg through SLG) and team pitching statistics (ERA through WHIP)\n</p>\n<h3>Source</h3>\n<p>Data downloaded from baseball-reference.com: <br />\nhttp://www.baseball-reference.com/leagues/MLB/2016-standings.shtml <br />\nhttp://www.baseball-reference.com/leagues/MLB/2016.shtml\n</p>\n</main>\n</div>\n",
    "config" : {
-      "smpOverlays" : [
-         "League",
-         "Team"
-      ],
       "title" : "MLB Standings in 2016",
-      "subtitle" : "Stat2Data - MLBStandings2016",
-      "graphType" : "Heatmap"
+      "graphType" : "Heatmap",
+      "smpOverlays" : [
+         "Team",
+         "League"
+      ],
+      "subtitle" : "Stat2Data - MLBStandings2016"
    }
 }

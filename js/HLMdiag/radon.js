@@ -1,3 +1,18 @@
+var radonInfo ={
+   "usage" : "data(radon)",
+   "description" : "Description\nRadon measurements of 919 owner-occupied homes in 85 counties of Minnesota.",
+   "format" : "A data frame with 919 observations on the following 5 variables:",
+   "reference" : "http://www.stat.columbia.edu/~gelman/arm/software/",
+   "title" : "Radon data",
+   "parameters" : {
+      "log.radon" : "Radon measurement (in log pCi/L, i.e., log picoCurie per liter)",
+      "basement" : "Indicator for the level of the home at which the radon measurement\nwas taken - 0 = basement, 1 = first floor.",
+      "county" : "County ID.",
+      "uranium" : "Average county-level soil uranium content.",
+      "county.name" : "County name - a factor."
+   }
+}
+
 var radon = [
    [
       "log.radon",

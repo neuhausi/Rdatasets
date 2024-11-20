@@ -1,3 +1,14 @@
+var sat_improveInfo ={
+   "usage" : "sat_improve",
+   "description" : "Description\nFake data for score improvements from students who took a course from an SAT\nscore improvement company.",
+   "title" : "Simulated data for SAT score improvement",
+   "reference" : "sat_improve",
+   "format" : "A data frame with 30 observations on the following variable.",
+   "parameters" : {
+      "sat_improve" : "a numeric vector"
+   }
+}
+
 var sat_improve = [
    [
       "sat_improve"

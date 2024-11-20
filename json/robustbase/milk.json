@@ -1,17 +1,6 @@
 {
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>milk</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Daudin's Milk Composition Data</h2>\n<h3>Description</h3>\n<p>Daudin et al.(1988) give 8 readings on the composition of 86\ncontainers of milk.  They speak about 85 observations, but this\ncan be explained with the fact that observations 63 and 64 are\nidentical (as noted by Rocke (1996)).\n</p>\n<p>The data set was used for analysing the stability of principal\ncomponent analysis by the bootstrap method.  In the same context, but\nusing high breakdown point robust PCA, these data were analysed by\nTodorov et al. (1994).  Atkinson (1994) used these data for ilustration\nof the forward search algorithm for identifying of multiple outliers.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(milk, package=\"robustbase\")</code></pre>\n<h3>Format</h3>\n<p>A data frame with 86 observations on the following 8 variables, all\nbut the first measure units in <em>grams / liter</em>.\n</p>\n<dl>\n<dt><code>X1</code></dt><dd><p>density</p>\n</dd>\n<dt><code>X2</code></dt><dd><p>fat content</p>\n</dd>\n<dt><code>X3</code></dt><dd><p>protein content</p>\n</dd>\n<dt><code>X4</code></dt><dd><p>casein content</p>\n</dd>\n<dt><code>X5</code></dt><dd><p>cheese dry substance measured in the factory</p>\n</dd>\n<dt><code>X6</code></dt><dd><p>cheese dry substance measured in the laboratory</p>\n</dd>\n<dt><code>X7</code></dt><dd><p>milk dry substance</p>\n</dd>\n<dt><code>X8</code></dt><dd><p>cheese product</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>Daudin, J.J. Duby, C. and Trecourt, P. (1988)\nStability of Principal Component Analysis Studied by the Bootstrap Method;\n<em>Statistics</em> <b>19</b>, 241&ndash;258.\n</p>\n<h3>References</h3>\n<p>Todorov, V., Neyko, N., Neytchev, P. (1994)\nStability of High Breakdown Point Robust PCA,\nin <em>Short Communications, COMPSTAT'94</em>; Physica Verlag, Heidelberg.\n</p>\n<p>Atkinson, A.C. (1994)\nFast Very Robust Methods for the Detection of Multiple Outliers.\n<em>J. Amer. Statist. Assoc.</em> <b>89</b> 1329&ndash;1339.\n</p>\n<p>Rocke, D. M. and Woodruff, D. L. (1996)\nIdentification of Outliers in Multivariate Data;\n<em>J. Amer. Statist. Assoc.</em> <b>91</b> (435), 1047&ndash;1061.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>data(milk)\n(c.milk &lt;- covMcd(milk))\nsummarizeRobWeights(c.milk $ mcd.wt)# 19..20 outliers\numilk &lt;- unique(milk) # dropping obs.64 (== obs.63)\nsummary(cumilk &lt;- covMcd(umilk, nsamp = \"deterministic\")) # 20 outliers\n</code></pre>\n</main>\n</div>\n",
    "data" : {
       "y" : {
-         "vars" : [
-            "X1",
-            "X2",
-            "X3",
-            "X4",
-            "X5",
-            "X6",
-            "X7",
-            "X8"
-         ],
          "data" : [
             [
                1.0318,
@@ -805,12 +794,23 @@
             "Smp84",
             "Smp85",
             "Smp86"
+         ],
+         "vars" : [
+            "X1",
+            "X2",
+            "X3",
+            "X4",
+            "X5",
+            "X6",
+            "X7",
+            "X8"
          ]
       }
    },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>milk</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Daudin's Milk Composition Data</h2>\n<h3>Description</h3>\n<p>Daudin et al.(1988) give 8 readings on the composition of 86\ncontainers of milk.  They speak about 85 observations, but this\ncan be explained with the fact that observations 63 and 64 are\nidentical (as noted by Rocke (1996)).\n</p>\n<p>The data set was used for analysing the stability of principal\ncomponent analysis by the bootstrap method.  In the same context, but\nusing high breakdown point robust PCA, these data were analysed by\nTodorov et al. (1994).  Atkinson (1994) used these data for ilustration\nof the forward search algorithm for identifying of multiple outliers.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(milk, package=\"robustbase\")</code></pre>\n<h3>Format</h3>\n<p>A data frame with 86 observations on the following 8 variables, all\nbut the first measure units in <em>grams / liter</em>.\n</p>\n<dl>\n<dt><code>X1</code></dt><dd><p>density</p>\n</dd>\n<dt><code>X2</code></dt><dd><p>fat content</p>\n</dd>\n<dt><code>X3</code></dt><dd><p>protein content</p>\n</dd>\n<dt><code>X4</code></dt><dd><p>casein content</p>\n</dd>\n<dt><code>X5</code></dt><dd><p>cheese dry substance measured in the factory</p>\n</dd>\n<dt><code>X6</code></dt><dd><p>cheese dry substance measured in the laboratory</p>\n</dd>\n<dt><code>X7</code></dt><dd><p>milk dry substance</p>\n</dd>\n<dt><code>X8</code></dt><dd><p>cheese product</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>Daudin, J.J. Duby, C. and Trecourt, P. (1988)\nStability of Principal Component Analysis Studied by the Bootstrap Method;\n<em>Statistics</em> <b>19</b>, 241&ndash;258.\n</p>\n<h3>References</h3>\n<p>Todorov, V., Neyko, N., Neytchev, P. (1994)\nStability of High Breakdown Point Robust PCA,\nin <em>Short Communications, COMPSTAT'94</em>; Physica Verlag, Heidelberg.\n</p>\n<p>Atkinson, A.C. (1994)\nFast Very Robust Methods for the Detection of Multiple Outliers.\n<em>J. Amer. Statist. Assoc.</em> <b>89</b> 1329&ndash;1339.\n</p>\n<p>Rocke, D. M. and Woodruff, D. L. (1996)\nIdentification of Outliers in Multivariate Data;\n<em>J. Amer. Statist. Assoc.</em> <b>91</b> (435), 1047&ndash;1061.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>data(milk)\n(c.milk &lt;- covMcd(milk))\nsummarizeRobWeights(c.milk $ mcd.wt)# 19..20 outliers\numilk &lt;- unique(milk) # dropping obs.64 (== obs.63)\nsummary(cumilk &lt;- covMcd(umilk, nsamp = \"deterministic\")) # 20 outliers\n</code></pre>\n</main>\n</div>\n",
    "config" : {
+      "graphType" : "Heatmap",
       "title" : "Daudin's Milk Composition Data",
-      "subtitle" : "robustbase - milk",
-      "graphType" : "Heatmap"
+      "subtitle" : "robustbase - milk"
    }
 }

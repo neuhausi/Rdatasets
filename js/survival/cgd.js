@@ -1,3 +1,28 @@
+var cgdInfo ={
+   "description" : "Description\nData are from a placebo controlled trial of gamma\ninterferon in chronic granulotomous disease (CGD).\nContains the data on time to serious infections observed through\nend of study for each patient.",
+   "usage" : "cgd\ndata(cgd)",
+   "parameters" : {
+      "hos.cat" : "a categorization of the centers into 4 groups",
+      "enum" : "observation number within subject",
+      "steroids" : "use of steroids at study entry,1=yes",
+      "status" : "1=the interval ends with an infection",
+      "tstart, tstop" : "start and end of each time interval",
+      "propylac" : "use of prophylactic antibiotics at study entry",
+      "age" : "age in years, at study entry",
+      "weight" : "weight in kg at study entry",
+      "inherit" : "pattern of inheritance",
+      "id" : "subject identification number",
+      "height" : "height in cm at study entry",
+      "sex" : "sex",
+      "treatment" : "placebo or gamma interferon",
+      "random" : "date of randomization",
+      "center" : "enrolling center"
+   },
+   "format" : "idsubject identification number\n\ncenterenrolling center \n\nrandomdate of randomization \n\ntreatmentplacebo or gamma interferon \n\nsexsex\n\nageage in years, at study entry \n\nheightheight in cm at study entry\n\nweightweight in kg at study entry\n\ninheritpattern of inheritance \n\nsteroidsuse of steroids at study entry,1=yes\n\npropylacuse of prophylactic antibiotics at study entry\n\nhos.cata categorization of the centers into 4 groups\n\ntstart, tstopstart and end of each time interval \n\nstatus1=the interval ends with an infection \n\nenumobservation number within subject",
+   "title" : "Chronic Granulotamous Disease data",
+   "reference" : "The cgd0 data set is in the form found in the references,\nwith one line per patient and no recoding of the variables.\nThe cgd data set (this one) has been cast into (start, stop]\nformat with one line per event, and covariates\nsuch as center recoded as factors\nto include meaningful labels."
+}
+
 var cgd = [
    [
       "id",

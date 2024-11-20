@@ -1,3 +1,15 @@
+var LosingSleepInfo ={
+   "usage" : "A data frame with 446 observations on the following 3 variables.",
+   "reference" : "Data from a sample of 446 teens, aged 14 to 18, who answer the question, \"On an average school night, how many hours of sleep do you get?\" The outcome variable records whether or not each person averages at least 7 hours of sleep.",
+   "title" : "Sleep Hours for Teenagers",
+   "description" : "Description\nHours of sleep for teenagers",
+   "parameters" : {
+      "Age" : "Age (in years)",
+      "Person" : "Cased ID number",
+      "Outcome" : "Average at least 7 hours of sleep? (1=yes or 0=no)"
+   }
+}
+
 var LosingSleep = [
    [
       "Person",

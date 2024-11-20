@@ -1,3 +1,48 @@
+var bomregions2018Info ={
+   "description" : "Description\nAustralian regional temperature data, Australian regional rainfall\ndata, and Annual SOI, are given for the years 1900-2021.  The regional\nrainfall and temperature data are area-weighted averages for the \nrespective regions.  The Southern Oscillation Index (SOI) is the \ndifference in barometric pressure at sea level between Tahiti and Darwin.",
+   "usage" : "data(\"bomregions2021\")",
+   "parameters" : {
+      "qldAVt" : "temperature",
+      "eastAVt" : "Eastern temperature",
+      "northAVt" : "Northern temperature",
+      "eastRain" : "Eastern rainfall",
+      "saRain" : "South Australian rainfall",
+      "SOI" : "Annual average Southern Oscillation Index",
+      "CO2" : "CO2 concentrations, composite series",
+      "qldRain" : "Queensland rainfall",
+      "seRain" : "Southeast Australian annual rainfall (mm)",
+      "avDMI" : "Annual average Dipole Mode Index, for the Indian Ocean Dipole,\nfrom 1950",
+      "northRain" : "Northern rainfall",
+      "tasRain" : "Tasmanian rainfall",
+      "nswAVt" : "temperature",
+      "co2mlo" : "Moana Loa CO2 concentrations, from 1959",
+      "tasAVt" : "temperature",
+      "nswRain" : "NSW rainfall",
+      "ntRain" : "Northern Territory rainfall",
+      "swAVt" : "Southwestern temperature",
+      "sunspot" : "Yearly mean sunspot number",
+      "waRain" : "West Australian rainfall",
+      "Year" : "Year",
+      "ntAVt" : "temperature",
+      "waAVt" : "temperature",
+      "southRain" : "Southern rainfall",
+      "swRain" : "Southwest rainfall",
+      "co2law" : "Moana Loa CO2 concentrations, 1900 to 1978",
+      "vicRain" : "Victorian rainfall",
+      "ausAVt" : "Australian average temperature, area-weighted mean",
+      "seAVt" : "Southeastern region average temperature (degrees C)",
+      "southAVt" : "Southern temperature",
+      "mdbAVt" : "Murray-Darling basin temperature",
+      "ausRain" : "Australian average rainfall, area weighted",
+      "vicAVt" : "temperature",
+      "mdbRain" : "Murray-Darling basin rainfall",
+      "saAVt" : "temperature"
+   },
+   "format" : "These data frames contains the following columns:",
+   "title" : "Australian and Related Historical Annual Climate Data, by Region",
+   "reference" : "Australian Bureau of Meteorology web pages:"
+}
+
 var bomregions2018 = [
    [
       "Year",

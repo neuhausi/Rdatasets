@@ -1,3 +1,19 @@
+var spruceInfo ={
+   "title" : "Log-size of 79 Sitka spruce trees",
+   "reference" : "Diggle, P.J., Liang, K.Y., and Zeger, S.L. (1994) Analysis of\nLongitudinal Data, Clarendon Press.",
+   "format" : "This data frame contains the following columns:",
+   "parameters" : {
+      "wave" : "a numeric vector of the measurement number",
+      "id" : "a numeric vector of tree id",
+      "chamber" : "a numeric vector of chamber numbers",
+      "logsize" : "a\nnumeric vector of the log-size",
+      "ozone" : "a factor with levels enriched and normal",
+      "time" : "a numeric vector of the time when the\nmeasurements were taken, measured in days since Jan. 1, 1988"
+   },
+   "usage" : "spruce",
+   "description" : "Description\nThe spruce data frame has 1027 rows and 6 columns. The data consists\nof measurements on 79 sitka spruce trees over two growing seasons. The trees\nwere grown in four controlled environment chambers, of which the first two,\ncontaining 27 trees each, were treated with introduced ozone at 70 ppb whilst\nthe remaining two, containing 12 and 13 trees, were controls."
+}
+
 var spruce = [
    [
       "chamber",

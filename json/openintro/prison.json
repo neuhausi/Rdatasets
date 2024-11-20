@@ -100,6 +100,14 @@
                81
             ]
          ],
+         "vars" : [
+            "pre_trt1",
+            "post_trt1",
+            "pre_trt2",
+            "post_trt2",
+            "pre_trt3",
+            "post_trt3"
+         ],
          "smps" : [
             "Smp1",
             "Smp2",
@@ -115,20 +123,12 @@
             "Smp12",
             "Smp13",
             "Smp14"
-         ],
-         "vars" : [
-            "pre_trt1",
-            "post_trt1",
-            "pre_trt2",
-            "post_trt2",
-            "pre_trt3",
-            "post_trt3"
          ]
       }
    },
    "config" : {
       "graphType" : "Heatmap",
-      "subtitle" : "openintro - prison",
-      "title" : "Prison isolation experiment"
+      "title" : "Prison isolation experiment",
+      "subtitle" : "openintro - prison"
    }
 }

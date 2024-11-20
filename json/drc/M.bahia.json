@@ -1,9 +1,4 @@
 {
-   "config" : {
-      "subtitle" : "drc - M.bahia",
-      "graphType" : "Scatter2D",
-      "title" : "Effect of an effluent on the growth of mysid shrimp"
-   },
    "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>M.bahia</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Effect of an effluent on the growth of mysid shrimp</h2>\n<h3>Description</h3>\n<p>Juvenile mysid shrimp (<em>Mysidopsis bahia</em>) were exposed to up to 32% effluent\nin a 7-day survival and growth test. The average weight per treatment replicate of\nsurviving organisms was measured.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(M.bahia)</code></pre>\n<h3>Format</h3>\n<p>A data frame with 40 observations on the following 2 variables.\n</p>\n<dl>\n<dt><code>conc</code></dt><dd><p>a numeric vector of effluent concentrations (%)</p>\n</dd>\n<dt><code>dryweight</code></dt><dd><p>a numeric vector of average dry weights (mg)</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>The data are analysed in Bruce and Versteeg (1992) using a log-normal \ndose-response model (using the logarithm with base 10).\n</p>\n<p>At 32% there was complete mortality, and this justifies using a model where a lower asymptote\nof 0 is assumed.\n</p>\n<h3>Source</h3>\n<p>Bruce, R. D. and Versteeg, D. J. (1992) A statistical procedure for modeling continuous toxicity data,\n<em>Environ. Toxicol. Chem.</em>, <b>11</b>, 1485&ndash;1494.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>\nM.bahia.m1 &lt;- drm(dryweight~conc, data=M.bahia, fct=LN.3())\n## Variation increasing\nplot(fitted(M.bahia.m1), residuals(M.bahia.m1))\n## Using transform-both-sides approach\nM.bahia.m2 &lt;- boxcox(M.bahia.m1, method = \"anova\")\nsummary(M.bahia.m2)  # logarithm transformation\n## Variation roughly constant, but still not a great fit\nplot(fitted(M.bahia.m2), residuals(M.bahia.m2))\n## Visual comparison of fits\nplot(M.bahia.m1, type=\"all\", broken=TRUE)\nplot(M.bahia.m2, add=TRUE, type=\"none\", broken=TRUE, lty=2)\nED(M.bahia.m2, c(10,20,50), ci=\"fls\")\n## A better fit\nM.bahia.m3 &lt;- boxcox(update(M.bahia.m1, fct = LN.4()), method = \"anova\")\n#plot(fitted(M.bahia.m3), residuals(M.bahia.m3))\nplot(M.bahia.m3, add=TRUE, type=\"none\", broken=TRUE, lty=3, col=2)\nED(M.bahia.m3, c(10,20,50), ci=\"fls\")\n</code></pre>\n</main>\n</div>\n",
    "data" : {
       "y" : {
@@ -48,6 +43,10 @@
             "Var38",
             "Var39",
             "Var40"
+         ],
+         "smps" : [
+            "conc",
+            "dryweight"
          ],
          "data" : [
             [
@@ -210,11 +209,12 @@
                10,
                0.27
             ]
-         ],
-         "smps" : [
-            "conc",
-            "dryweight"
          ]
       }
+   },
+   "config" : {
+      "title" : "Effect of an effluent on the growth of mysid shrimp",
+      "graphType" : "Scatter2D",
+      "subtitle" : "drc - M.bahia"
    }
 }

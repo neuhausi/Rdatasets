@@ -1,3 +1,15 @@
+var sleepstudyInfo ={
+   "title" : "Reaction times in a sleep deprivation study",
+   "reference" : "These data are from the study described in Belenky et al.\n(2003), for the most sleep-deprived group (3 hours time-in-bed)\nand for the first 10 days of the study, up to the recovery period.\nThe original study analyzed speed (1/(reaction time)) and treated\nday as a categorical rather than a continuous predictor.",
+   "usage" : "A data frame with 180 observations on the following 3 variables.",
+   "parameters" : {
+      "Subject" : "Subject number on which the observation was made.",
+      "Reaction" : "Average reaction time (ms)",
+      "Days" : "Number of days of sleep deprivation"
+   },
+   "description" : "Description\nThe average reaction time per day (in milliseconds) for subjects in a sleep\ndeprivation study.\nDays 0-1 were adaptation and training (T1/T2), day 2 was baseline (B);\nsleep deprivation started after day 2."
+}
+
 var sleepstudy = [
    [
       "Reaction",

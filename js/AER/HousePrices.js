@@ -1,3 +1,25 @@
+var HousePricesInfo ={
+   "parameters" : {
+      "recreation" : "Factor. Does the house have a recreational room?",
+      "bathrooms" : "Number of full bathrooms.",
+      "driveway" : "Factor. Does the house have a driveway?",
+      "garage" : "Number of garage places.",
+      "fullbase" : "Factor. Does the house have a full finished basement?",
+      "bedrooms" : "Number of bedrooms.",
+      "price" : "Sale price of a house.",
+      "lotsize" : "Lot size of a property in square feet.",
+      "stories" : "Number of stories excluding basement.",
+      "prefer" : "Factor. Is the house located in the preferred neighborhood of the city?",
+      "gasheat" : "Factor. Does the house use gas for hot water heating?",
+      "aircon" : "Factor. Is there central air conditioning?"
+   },
+   "format" : "A data frame containing 546 observations on 12 variables.",
+   "reference" : "Journal of Applied Econometrics Data Archive.",
+   "title" : "House Prices in the City of Windsor, Canada",
+   "description" : "Description\nSales prices of houses sold in the city of Windsor, Canada, during July, August and September, 1987.",
+   "usage" : "data(\"HousePrices\")"
+}
+
 var HousePrices = [
    [
       "price",

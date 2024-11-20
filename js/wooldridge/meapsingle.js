@@ -1,3 +1,31 @@
+var meapsingleInfo ={
+   "reference" : "100, 145-146, 198",
+   "format" : "A data.frame with 229 observations on 18 variables:",
+   "title" : "meapsingle",
+   "parameters" : {
+      "pctsgle" : " percent of children not in married-couple families",
+      "medinc" : " zipcode median family, $ (1999)",
+      "read4" : " percent satisfactory, 4th grade reading",
+      "lunch" : " free + reduced",
+      "exppp" : " expenditures per pupil, $",
+      "enroll" : " school enrollment",
+      "zipcode" : " school zipcode",
+      "lenroll" : " log(enroll)",
+      "dcode" : " district code",
+      "math4" : " percent satisfactory, 4th grade math",
+      "totchild" : " # of children (in zipcode)",
+      "free" : " percent eligible, free lunch",
+      "reduced" : " percent eligible, reduced lunch",
+      "lmedinc" : " log(medinc)",
+      "single" : " # of children not in married-couple families",
+      "married" : " # of children in married-couple families",
+      "bcode" : " building code",
+      "lexppp" : " log(exppp)"
+   },
+   "usage" : "data('meapsingle')",
+   "description" : "Description\nWooldridge Source: Collected by Professor Leslie Papke, an economics professor at MSU, from the Michigan Department of Education web site, www.michigan.gov/mde, and the U.S. Census Bureau. Professor Papke kindly provided the data. Data loads lazily."
+}
+
 var meapsingle = [
    [
       "dcode",

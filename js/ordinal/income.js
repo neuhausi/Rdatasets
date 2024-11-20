@@ -1,3 +1,16 @@
+var incomeInfo ={
+   "parameters" : {
+      "income" : "income groups. The unit is thousands of constant (1973) US dollars.",
+      "year" : "year.",
+      "pct" : "percentage of population in income class per year."
+   },
+   "format" : "year\nyear.\n\n\npct\npercentage of population in income class per year.\n\n\nincome\nincome groups. The unit is thousands of constant (1973) US dollars.",
+   "title" : "Income distribution (percentages) in the Northeast US",
+   "reference" : "Data are adopted from McCullagh (1980).",
+   "description" : "Description\nIncome distribution (percentages) in the Northeast US in 1960 and 1970\nadopted from McCullagh (1980).",
+   "usage" : "income"
+}
+
 var income = [
    [
       "year",

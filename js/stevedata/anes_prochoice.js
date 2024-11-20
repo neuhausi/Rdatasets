@@ -1,3 +1,27 @@
+var anes_prochoiceInfo ={
+   "description" : "Description\nA simple data set for in-class illustration about how to estimate and interpret\ninteractive relationships. The data here are deliberately minimal for that end.",
+   "usage" : "anes_prochoice",
+   "parameters" : {
+      "bd" : "oppose/\"NFNO\"/favor abortion if fetus would be born with serious birth defect",
+      "choice" : "oppose/\"NFNO\"/favor abortion if woman chooses to have one",
+      "lchoice" : "a continuous latent scale of pro-choice scores (from a simple graded response model)",
+      "incest" : "oppose/\"NFNO\"/favor abortion if pregnancy was caused by incest",
+      "knowspeaker" : "was the respondent able to correctly identify  the Speaker of the House (John Boehner)",
+      "fin" : "oppose/\"NFNO\"/favor abortion if having child would impose financial hardship",
+      "fatal" : "oppose/\"NFNO\"/favor abortion if pregnancy would cause woman to die",
+      "version" : "version identifier from ANES",
+      "addchoice" : "an additive scale of the abortion scores",
+      "sex" : "oppose/\"NFNO\"/favor abortion if the child will not be the sex the woman wants",
+      "health" : "oppose/\"NFNO\"/favor abortion if pregnancy would hurt woman",
+      "caseid" : "time-series case identifier from ANES",
+      "pid" : "respondent's partisanship (Democrat, Independent, Republican)",
+      "rape" : "oppose/\"NFNO\"/favor abortion if pregnancy was caused by rape"
+   },
+   "format" : "A data frame with 5914 observations on the following 14 variables.",
+   "title" : "Abortion Attitudes (ANES, 2012)",
+   "reference" : "\"NFNO\" = \"Neither Favor Nor Oppose\". All abortion prompts are on a 0-2 scale\nwhere 0 is oppose, 1 is \"NFNO\", and 2 is favor. The respondent's party\nidentification is on a similar scale where 0 = \"Democrat\", 1 = \"Independent\",\nand 2 = \"Republican\". The additive scale of abortion scores has a minimum\nof 0 and a maximum of 16."
+}
+
 var anes_prochoice = [
    [
       "version",

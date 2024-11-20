@@ -1,12 +1,12 @@
 {
-   "config" : {
-      "subtitle" : "lme4 - sleepstudy",
-      "graphType" : "Scatter3D",
-      "title" : "Reaction times in a sleep deprivation study"
-   },
    "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>sleepstudy</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Reaction times in a sleep deprivation study</h2>\n<h3>Description</h3>\n<p>The average reaction time per day (in milliseconds) for subjects in a sleep\ndeprivation study.\n</p>\n<p>Days 0-1 were adaptation and training (T1/T2), day 2 was baseline (B);\nsleep deprivation started after day 2.\n</p>\n<h3>Format</h3>\n<p>A data frame with 180 observations on the following 3 variables.\n</p>\n<dl>\n<dt><code>Reaction</code></dt><dd><p>Average reaction time (ms)</p>\n</dd>\n<dt><code>Days</code></dt><dd><p>Number of days of sleep deprivation</p>\n</dd>\n<dt><code>Subject</code></dt><dd><p>Subject number on which the observation was made.</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>These data are from the study described in Belenky et al.\n(2003), for the most sleep-deprived group (3 hours time-in-bed)\nand for the first 10 days of the study, up to the recovery period.\nThe original study analyzed speed (1/(reaction time)) and treated\nday as a categorical rather than a continuous predictor.\n</p>\n<h3>References</h3>\n<p>Gregory Belenky, Nancy J. Wesensten, David R. Thorne,\nMaria L. Thomas, Helen C. Sing, Daniel P. Redmond,\nMichael B. Russo and Thomas J. Balkin (2003) Patterns of\nperformance degradation and restoration during sleep\nrestriction and subsequent recovery: a sleep\ndose-response study. <em>Journal of Sleep Research</em>\n<b>12</b>, 1&ndash;12.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>str(sleepstudy)\nrequire(lattice)\nxyplot(Reaction ~ Days | Subject, sleepstudy, type = c(\"g\",\"p\",\"r\"),\n       index = function(x,y) coef(lm(y ~ x))[1],\n       xlab = \"Days of sleep deprivation\",\n       ylab = \"Average reaction time (ms)\", aspect = \"xy\")\n(fm1 &lt;- lmer(Reaction ~ Days + (Days|Subject), sleepstudy, subset=Days&gt;=2))\n## independent model\n(fm2 &lt;- lmer(Reaction ~ Days + (1|Subject) + (0+Days|Subject), sleepstudy, subset=Days&gt;=2))\n</code></pre>\n</main>\n</div>\n",
    "data" : {
       "y" : {
+         "smps" : [
+            "Reaction",
+            "Days",
+            "Subject"
+         ],
          "vars" : [
             "Var1",
             "Var2",
@@ -188,11 +188,6 @@
             "Var178",
             "Var179",
             "Var180"
-         ],
-         "smps" : [
-            "Reaction",
-            "Days",
-            "Subject"
          ],
          "data" : [
             [
@@ -1097,5 +1092,10 @@
             ]
          ]
       }
+   },
+   "config" : {
+      "subtitle" : "lme4 - sleepstudy",
+      "title" : "Reaction times in a sleep deprivation study",
+      "graphType" : "Scatter3D"
    }
 }

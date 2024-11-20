@@ -1,3 +1,15 @@
+var CefamandoleInfo ={
+   "description" : "Description\nThe Cefamandole data frame has 84 rows and 3 columns.",
+   "parameters" : {
+      "Subject" : "a factor giving the subject from which the sample was drawn.",
+      "Time" : "a numeric vector giving the time at which the sample was drawn\n(minutes post-injection).",
+      "conc" : "a numeric vector giving the observed plasma concentration of\ncefamandole (mcg/ml)."
+   },
+   "title" : "Pharmacokinetics of Cefamandole",
+   "reference" : "Davidian and Giltinan (1995, 1.1, p. 2) describe data\nobtained during a pilot study to investigate the pharmacokinetics of\nthe drug cefamandole. Plasma concentrations of the drug were measured\non six healthy volunteers at 14 time points following an intraveneous\ndose of 15 mg/kg body weight of cefamandole.",
+   "usage" : "This data frame contains the following columns:"
+}
+
 var Cefamandole = [
    [
       "Subject",

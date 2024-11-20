@@ -1,3 +1,31 @@
+var benefitsInfo ={
+   "title" : "benefits",
+   "format" : "A data.frame with 1848 observations on 18 variables:",
+   "reference" : "NA",
+   "parameters" : {
+      "schid" : " school identifier",
+      "bs" : " avgben/avgsal",
+      "avgben" : " average teacher non-salary benefits, $",
+      "distid" : " district identifier",
+      "enroll" : " school enrollment",
+      "lenroll" : " log(enroll)",
+      "math4" : " percent passing 4th grade math test",
+      "story4" : " percent passing 4th grade reading test",
+      "bsbar" : " within-district avg of bs",
+      "lunch" : " percent eligible, free lunch",
+      "exppp" : " expenditures per pupil",
+      "lavgsal" : " log(avgsal)",
+      "avgsal" : " average teacher salary, $",
+      "lunchbar" : " within-district avg of lunch",
+      "lstaff" : " log(staff)",
+      "lenrollbar" : " within-district avg of lenroll",
+      "lstaffbar" : " within-district avg of lstaff",
+      "staff" : " staff per 1000 students"
+   },
+   "usage" : "data('benefits')",
+   "description" : "Description\nWooldridge  Data loads lazily."
+}
+
 var benefits = [
    [
       "distid",

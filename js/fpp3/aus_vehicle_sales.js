@@ -1,3 +1,10 @@
+var aus_vehicle_salesInfo ={
+   "format" : "aus_vehicle_sales contains monthly data with one measured variable:",
+   "title" : "Australian vehicle sales",
+   "usage" : "Time series of class 'tsibble'",
+   "description" : "Description\nThe number of new motor vehicles sold in Australia."
+}
+
 var aus_vehicle_sales = [
    [
       "Month",

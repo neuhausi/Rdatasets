@@ -1,3 +1,25 @@
+var cuckoohostsInfo ={
+   "usage" : "cuckoohosts",
+   "description" : "Description\nThese data compare mean length, mean breadth, and egg color,\nbetween cuckoos and their hosts.",
+   "format" : "A data frame with 10 observations on the following 12 variables.",
+   "title" : "Comparison of cuckoo eggs with host eggs",
+   "reference" : "Although from the same study that generated data in the data frame\ncuckoos, the data do not match precisely.  The cuckoo egg\nlengths and breadths are from the tables on page 168, the host egg\nlengths and breadths from Appendix IV on page 176, and the color\nmatch counts from the table on page 171.",
+   "parameters" : {
+      "cb.sd" : "standard deviation of cuckoo egg breadths",
+      "cbreadth" : "mean breadth of cuckoo eggs in given host's nest",
+      "nomatch" : "number where color did not match",
+      "hbreadth" : "breadth of host eggs",
+      "hb.sd" : "standard deviation of host egg breadths",
+      "match" : "number of eggs where color matched",
+      "hlength" : "length of host eggs",
+      "cnum" : "number of cuckoo eggs",
+      "hl.sd" : "standard deviation of host egg lengths",
+      "hnum" : "number of host eggs",
+      "clength" : "mean length of cuckoo eggs in given host's nest",
+      "cl.sd" : "standard deviation of cuckoo egg lengths"
+   }
+}
+
 var cuckoohosts = [
    [
       "clength",

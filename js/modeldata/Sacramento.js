@@ -1,3 +1,10 @@
+var SacramentoInfo ={
+   "description" : "Description\nThis data frame contains house and sale price data for 932 homes in\nSacramento CA.  The original data were obtained from the website for the\nSpatialKey software. From their website: \"The Sacramento real estate\ntransactions file is a list of 985 real estate transactions in the\nSacramento area reported over a five-day period, as reported by the\nSacramento Bee.\" Google was used to fill in missing/incorrect data.",
+   "title" : "Sacramento CA home prices",
+   "format" : "SpatialKey website:\nhttps://support.spatialkey.com/spatialkey-sample-csv-data/",
+   "usage" : "Sacramento\n\na tibble"
+}
+
 var Sacramento = [
    [
       "city",

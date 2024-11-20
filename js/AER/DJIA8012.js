@@ -1,3 +1,10 @@
+var DJIA8012Info ={
+   "description" : "Description\nTime series of the Dow Jones Industrial Average (DJIA) index.",
+   "title" : "Dow Jones Industrial Average (DJIA) index",
+   "format" : "A daily univariate time series from 1980-01-01 to 2012-12-31 (of class \"zoo\" with \"Date\" index).",
+   "usage" : "data(\"DJIA8012\")"
+}
+
 var DJIA8012 = [
    [
       "dat"

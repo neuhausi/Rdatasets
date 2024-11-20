@@ -1,3 +1,9 @@
+var departuresInfo ={
+   "usage" : "Multiple monthly time series of class mts containing the\nfollowing series:",
+   "title" : "Total monthly departures from Australia",
+   "description" : "Description\nOverseas departures from Australia: permanent departures, long-term (more\nthan one year) residents departing, long-term (more than one year) visitors\ndeparting, short-term (less than one year) residents departing and\nshort-term (less than one year) visitors departing. January 1976 - November\n2016."
+}
+
 var departures = [
    [
       "permanent",

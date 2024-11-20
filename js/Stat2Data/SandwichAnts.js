@@ -1,3 +1,9 @@
+var SandwichAntsInfo ={
+   "title" : "Ants on Sandwiches",
+   "usage" : "A dataset with 48 observations on the following 5 variables.",
+   "description" : "Description\nAnt counts on samples of different kinds of sandwiches"
+}
+
 var SandwichAnts = [
    [
       "Trial",

@@ -1,3 +1,20 @@
+var USincarcerationsInfo ={
+   "format" : "A data frame with 95 observations on the \nfollowing 7 variables.",
+   "title" : "US incarcerations 1925 onward",
+   "reference" : "This dataset began as an effort to update \nFile:U.S. incarceration rates 1925 onwards.png on Wikimedia Commons.  \nConveniently data on these variables \nwas provided in a table for 1925 to 2014.  \nAnd a description was given of how to update \nthat table using files p*t03.csv and \np*t05.csv from \nPrisoners In 2019.",
+   "parameters" : {
+      "stateFedFemaleRate" : "female incarceration rate = \nfemaleTotal per 100,000 \nfemales in the US population.",
+      "stateFedFemales" : "Total number of female incarcerees.",
+      "year" : "an integer vector giving the year \nc(1925:2019).",
+      "stateFedIncarcerees" : "Total number of incarcerees = \nmaleTotal + femaleTotal.",
+      "stateFedIncarcerationRate" : "incarceration rate = \nstateFedIncarcerees per \n100,000 population.",
+      "stateFedMaleRate" : "male incarceration rate = \nmaleTotal per 100,000 males \nin the US population.",
+      "stateFedMales" : "Total number of male incarcerees."
+   },
+   "usage" : "data(\"USincarcerations\")",
+   "description" : "Description\nCounts of prisoners under the jurisdiction of \nstate and federal correctional authorities in \nthe US.  This does not include jail inmates."
+}
+
 var USincarcerations = [
    [
       "year",

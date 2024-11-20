@@ -1,3 +1,16 @@
+var EarlyInfo ={
+   "usage" : "data(Early)",
+   "title" : "Early childhood intervention study",
+   "format" : "This groupedData object contains the following columns",
+   "description" : "Description\nCognitive scores of infants in a study of early childhood\nintervention.  The 103 infants from low income African American\nfamilies were divided into a treatment group (58\ninfants) and a control group (45 infants).  Starting at 0.5 years of age\nthe infants in the treatment group were exposed to an enriched environment.\nEach infant's cognitive score on an age-specific, normalized scale was\nrecorded at ages 1, 1.5, and 2 years.",
+   "parameters" : {
+      "id" : "An ordered factor of the id number for each infant.",
+      "cog" : "A numeric cognitive score.",
+      "age" : "The age of the infant at the measurement.",
+      "trt" : "A factor with two levels, \"N\" and \"Y\",\nindicating if the infant is in the early childhood intervention\nprogram."
+   }
+}
+
 var Early = [
    [
       "id",

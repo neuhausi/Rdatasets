@@ -1,3 +1,15 @@
+var tauInfo ={
+   "usage" : "tau",
+   "description" : "Description\nThe tau data frame has 60 rows and 2 columns.\nThe tau particle is a heavy electron-like particle discovered in the 1970's\nby Martin Perl at the Stanford Linear Accelerator Center.  Soon after its\nproduction the tau particle decays into various collections of more stable\nparticles.  About 86% of the time the decay involves just one charged particle.\nThis rate has been measured independently 13 times.\nThe one-charged-particle event is made up of four major modes of decay as well\nas a collection of other events.  The four main types of decay are denoted\nrho, pi, e and mu.  These rates have been measured independently 6, 7, 14 and\n19 times respectively.  Due to physical constraints each experiment can only\nestimate the composite one-charged-particle decay rate or the rate of one of\nthe major modes of decay.\nEach experiment consists of a major research project involving many years work.\nOne of the goals of the experiments was to estimate the rate of decay due to \nevents other than the four main modes of decay.  These are uncertain events and\nso cannot themselves be observed directly.",
+   "format" : "This data frame contains the following columns:",
+   "title" : "Tau Particle Decay Modes",
+   "reference" : "The data were obtained from",
+   "parameters" : {
+      "decay" : "The type of decay measured in the experiment.  It is a factor with levels\n1, rho, pi, e and mu.",
+      "rate" : "The decay rate expressed as a percentage."
+   }
+}
+
 var tau = [
    [
       "rate",

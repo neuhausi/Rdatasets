@@ -1,3 +1,21 @@
+var Hsb82Info ={
+   "title" : "High School and Beyond - 1982",
+   "format" : "A data frame with 7185 observations on students including the\nfollowing 8 variables.",
+   "reference" : "Each row in this data frame contains the data for one student.",
+   "parameters" : {
+      "ses" : "a numeric vector of socio-economic scores",
+      "mAch" : "a numeric vector of Mathematics achievement scores",
+      "minrty" : "a factor with levels",
+      "meanses" : "a numeric vector of mean ses for the school",
+      "cses" : "a numeric vector of centered ses values where the\ncentering is with respect to the meanses for the school.",
+      "sx" : "a factor with levels Male and Female",
+      "school" : "an ordered factor designating the school that the\nstudent attends.",
+      "sector" : "a factor with levels Public and Catholic"
+   },
+   "usage" : "data(Hsb82)",
+   "description" : "Description\nData from the 1982 study &ldquo;High School and Beyond&rdquo;."
+}
+
 var Hsb82 = [
    [
       "school",

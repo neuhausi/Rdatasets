@@ -1,3 +1,21 @@
+var LifeboatsInfo ={
+   "description" : "Description\nData from Mersey (1912) about the 18 (out of 20) lifeboats launched\nbefore the sinking of the S. S. Titanic.",
+   "usage" : "data(\"Lifeboats\")",
+   "parameters" : {
+      "cap" : "capacity of the boat.",
+      "total" : "total number of passengers.",
+      "side" : "factor.  Side of the boat.",
+      "men" : "number of men on board.",
+      "crew" : "number of male crew members on board.",
+      "boat" : "factor indicating the boat.",
+      "launch" : "launch time in \"POSIXt\" format.",
+      "women" : "number of women (including female crew) on board."
+   },
+   "reference" : "M. Friendly (2000),\nVisualizing Categorical Data:\nhttp://euclid.psych.yorku.ca/ftp/sas/vcd/catdata/lifeboat.sas",
+   "format" : "A data frame with 18 observations and 8 variables.",
+   "title" : "Lifeboats on the Titanic"
+}
+
 var Lifeboats = [
    [
       "launch",

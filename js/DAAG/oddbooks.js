@@ -1,3 +1,17 @@
+var oddbooksInfo ={
+   "description" : "Description\nData giving thickness (mm), height (cm), width (cm)\nand weight (g), of 12 books.  Books were selected so that thickness\ndecreased as page area increased",
+   "usage" : "data(oddbooks)",
+   "parameters" : {
+      "breadth" : "a numeric vector",
+      "weight" : "a numeric vector",
+      "thick" : "a numeric vector",
+      "height" : "a numeric vector"
+   },
+   "title" : "Measurements on 12 books",
+   "reference" : "JM took books from his library.",
+   "format" : "A data frame with 12 observations on the following 4 variables."
+}
+
 var oddbooks = [
    [
       "thick",

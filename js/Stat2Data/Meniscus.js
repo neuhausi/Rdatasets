@@ -1,3 +1,16 @@
+var MeniscusInfo ={
+   "title" : "Meniscus Repair Methods",
+   "reference" : "Eighteen, lightly embalmed, cadaveric knee specimens were used in a study to compare three different methods of meniscus repair.  The specimens were randomly assigned to one of the three treatments: vertical suture, meniscus arrow, FasT-Fix.  They were evaluated on three different response variables: load at failure, stiffness, and displacement.",
+   "usage" : "A data frame with 18 observations on the following 4 variables.",
+   "description" : "Description\nComparing meniscus repair methods on cadaver knees",
+   "parameters" : {
+      "Displacement" : "Displacement (in mm)",
+      "Method" : "Meniscus repair method (1 = Vertical Suture, 2 = Meniscus Arrow, 3 = FasT-Fix)",
+      "Stiffness" : "Stiffness (Newtons/mm)",
+      "FailureLoad" : "Load at failure (in Newtons)"
+   }
+}
+
 var Meniscus = [
    [
       "Method",

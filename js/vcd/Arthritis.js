@@ -1,3 +1,18 @@
+var ArthritisInfo ={
+   "usage" : "data(\"Arthritis\")",
+   "description" : "Description\nData from Koch & Edwards (1988) from a double-blind clinical trial\ninvestigating a new treatment for rheumatoid arthritis.",
+   "format" : "A data frame with 84 observations and 5 variables.",
+   "title" : "Arthritis Treatment Data",
+   "reference" : "Michael Friendly (2000),\nVisualizing Categorical Data:\nhttp://euclid.psych.yorku.ca/ftp/sas/vcd/catdata/arthrit.sas",
+   "parameters" : {
+      "ID" : "patient ID.",
+      "Age" : "age of patient.",
+      "Treatment" : "factor indicating treatment (Placebo, Treated).",
+      "Sex" : "factor indicating sex (Female, Male).",
+      "Improved" : "ordered factor indicating treatment outcome (None,\nSome, Marked)."
+   }
+}
+
 var Arthritis = [
    [
       "ID",

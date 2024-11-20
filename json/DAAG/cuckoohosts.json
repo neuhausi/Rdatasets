@@ -1,37 +1,79 @@
 {
    "config" : {
       "subtitle" : "DAAG - cuckoohosts",
+      "title" : "Comparison of cuckoo eggs with host eggs",
       "graphType" : "Heatmap",
       "smpOverlays" : [
-         "hl.sd",
+         "hb.sd",
          "hlength",
          "hbreadth"
-      ],
-      "title" : "Comparison of cuckoo eggs with host eggs"
+      ]
    },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>cuckoohosts</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Comparison of cuckoo eggs with host eggs</h2>\n<h3>Description</h3>\n<p>These data compare mean length, mean breadth, and egg color,\nbetween cuckoos and their hosts.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>cuckoohosts</code></pre>\n<h3>Format</h3>\n<p>A data frame with 10 observations on the following 12 variables.\n</p>\n<dl>\n<dt>clength</dt><dd><p>mean length of cuckoo eggs in given host's nest</p>\n</dd>\n<dt>cl.sd</dt><dd><p>standard deviation of cuckoo egg lengths</p>\n</dd>\n<dt>cbreadth</dt><dd><p>mean breadth of cuckoo eggs in given host's nest</p>\n</dd>\n<dt>cb.sd</dt><dd><p>standard deviation of cuckoo egg breadths</p>\n</dd>\n<dt>cnum</dt><dd><p>number of cuckoo eggs</p>\n</dd>\n<dt>hlength</dt><dd><p>length of host eggs</p>\n</dd>\n<dt>hl.sd</dt><dd><p>standard deviation of host egg lengths</p>\n</dd>\n<dt>hbreadth</dt><dd><p>breadth of host eggs</p>\n</dd>\n<dt>hb.sd</dt><dd><p>standard deviation of host egg breadths</p>\n</dd>\n<dt>hnum</dt><dd><p>number of host eggs</p>\n</dd>\n<dt>match</dt><dd><p>number of eggs where color matched</p>\n</dd>\n<dt>nomatch</dt><dd><p>number where color did not match</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>Although from the same study that generated data in the data frame\n<code>cuckoos</code>, the data do not match precisely.  The cuckoo egg\nlengths and breadths are from the tables on page 168, the host egg\nlengths and breadths from Appendix IV on page 176, and the color\nmatch counts from the table on page 171.\n</p>\n<h3>Source</h3>\n<p>Latter, O.H., 1902.\nThe egg of <em>cuculus canorus</em>. an inquiry into the dimensions of\nthe cuckoo's egg and the relation of the variations to the size of the eggs\nof the foster-parent, with notes on coloration, &amp;c.\n<em>Biometrika</em>, 1:164&ndash;176.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>cuckoohosts\nstr(cuckoohosts)\nplot(cuckoohosts)\nwith(cuckoohosts,\n     plot(c(clength,hlength),c(cbreadth,hbreadth),col=rep(1:2,c(6,6))))\n</code></pre>\n</main>\n</div>\n",
    "data" : {
+      "x" : {
+         "hb.sd" : [
+            "0.56",
+            "14.7",
+            "15.4",
+            "0.37",
+            "0.48",
+            "0.37",
+            "0.45",
+            "0.4",
+            "",
+            ""
+         ],
+         "hlength" : [
+            "19.7",
+            "20.1",
+            "20.2",
+            "20.75",
+            "20",
+            "17.7",
+            "",
+            "21.55",
+            "",
+            ""
+         ],
+         "hbreadth" : [
+            "14.6",
+            "14.7",
+            "15.4",
+            "14.67",
+            "15.1",
+            "12.7",
+            "",
+            "16.04",
+            "",
+            ""
+         ],
+         "hnum" : [
+            "74",
+            "26",
+            "57",
+            "16",
+            "27",
+            "",
+            "",
+            "32",
+            "",
+            ""
+         ],
+         "hl.sd" : [
+            "1.25",
+            "0.81",
+            "0.86",
+            "1.44",
+            "0.7",
+            "17.7",
+            "",
+            "0.68",
+            "",
+            ""
+         ]
+      },
       "y" : {
-         "vars" : [
-            "clength",
-            "cl.sd",
-            "cbreadth",
-            "cb.sd",
-            "cnum",
-            "match",
-            "nomatch"
-         ],
-         "smps" : [
-            "meadow.pipit",
-            "hedge.sparrow",
-            "robin",
-            "wagtails",
-            "tree.pipit",
-            "wren",
-            "reed.warbler",
-            "yellow.ammer",
-            "garden.warbler",
-            "orphean.warbler"
-         ],
          "data" : [
             [
                22.3,
@@ -117,70 +159,28 @@
                4,
                7
             ]
-         ]
-      },
-      "x" : {
-         "hl.sd" : [
-            "1.25",
-            "0.81",
-            "0.86",
-            "1.44",
-            "0.7",
-            "17.7",
-            "",
-            "0.68",
-            "",
-            ""
          ],
-         "hlength" : [
-            "19.7",
-            "20.1",
-            "20.2",
-            "20.75",
-            "20",
-            "17.7",
-            "",
-            "21.55",
-            "",
-            ""
+         "vars" : [
+            "clength",
+            "cl.sd",
+            "cbreadth",
+            "cb.sd",
+            "cnum",
+            "match",
+            "nomatch"
          ],
-         "hbreadth" : [
-            "14.6",
-            "14.7",
-            "15.4",
-            "14.67",
-            "15.1",
-            "12.7",
-            "",
-            "16.04",
-            "",
-            ""
-         ],
-         "hnum" : [
-            "74",
-            "26",
-            "57",
-            "16",
-            "27",
-            "",
-            "",
-            "32",
-            "",
-            ""
-         ],
-         "hb.sd" : [
-            "0.56",
-            "14.7",
-            "15.4",
-            "0.37",
-            "0.48",
-            "0.37",
-            "0.45",
-            "0.4",
-            "",
-            ""
+         "smps" : [
+            "meadow.pipit",
+            "hedge.sparrow",
+            "robin",
+            "wagtails",
+            "tree.pipit",
+            "wren",
+            "reed.warbler",
+            "yellow.ammer",
+            "garden.warbler",
+            "orphean.warbler"
          ]
       }
-   },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>cuckoohosts</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Comparison of cuckoo eggs with host eggs</h2>\n<h3>Description</h3>\n<p>These data compare mean length, mean breadth, and egg color,\nbetween cuckoos and their hosts.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>cuckoohosts</code></pre>\n<h3>Format</h3>\n<p>A data frame with 10 observations on the following 12 variables.\n</p>\n<dl>\n<dt>clength</dt><dd><p>mean length of cuckoo eggs in given host's nest</p>\n</dd>\n<dt>cl.sd</dt><dd><p>standard deviation of cuckoo egg lengths</p>\n</dd>\n<dt>cbreadth</dt><dd><p>mean breadth of cuckoo eggs in given host's nest</p>\n</dd>\n<dt>cb.sd</dt><dd><p>standard deviation of cuckoo egg breadths</p>\n</dd>\n<dt>cnum</dt><dd><p>number of cuckoo eggs</p>\n</dd>\n<dt>hlength</dt><dd><p>length of host eggs</p>\n</dd>\n<dt>hl.sd</dt><dd><p>standard deviation of host egg lengths</p>\n</dd>\n<dt>hbreadth</dt><dd><p>breadth of host eggs</p>\n</dd>\n<dt>hb.sd</dt><dd><p>standard deviation of host egg breadths</p>\n</dd>\n<dt>hnum</dt><dd><p>number of host eggs</p>\n</dd>\n<dt>match</dt><dd><p>number of eggs where color matched</p>\n</dd>\n<dt>nomatch</dt><dd><p>number where color did not match</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>Although from the same study that generated data in the data frame\n<code>cuckoos</code>, the data do not match precisely.  The cuckoo egg\nlengths and breadths are from the tables on page 168, the host egg\nlengths and breadths from Appendix IV on page 176, and the color\nmatch counts from the table on page 171.\n</p>\n<h3>Source</h3>\n<p>Latter, O.H., 1902.\nThe egg of <em>cuculus canorus</em>. an inquiry into the dimensions of\nthe cuckoo's egg and the relation of the variations to the size of the eggs\nof the foster-parent, with notes on coloration, &amp;c.\n<em>Biometrika</em>, 1:164&ndash;176.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>cuckoohosts\nstr(cuckoohosts)\nplot(cuckoohosts)\nwith(cuckoohosts,\n     plot(c(clength,hlength),c(cbreadth,hbreadth),col=rep(1:2,c(6,6))))\n</code></pre>\n</main>\n</div>\n"
+   }
 }

@@ -1,3 +1,10 @@
+var quakesInfo ={
+   "description" : "Description\nThe data set give the locations of 1000 seismic events of MB > 4.0.\nThe events occurred in a cube near Fiji since 1964.",
+   "usage" : "quakes",
+   "format" : "A data frame with 1000 observations on 5 variables.",
+   "title" : "Locations of Earthquakes off Fiji"
+}
+
 var quakes = [
    [
       "lat",

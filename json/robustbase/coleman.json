@@ -1,8 +1,8 @@
 {
    "config" : {
       "subtitle" : "robustbase - coleman",
-      "graphType" : "Heatmap",
-      "title" : "Coleman Data Set"
+      "title" : "Coleman Data Set",
+      "graphType" : "Heatmap"
    },
    "data" : {
       "y" : {

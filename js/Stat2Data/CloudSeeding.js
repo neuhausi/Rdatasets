@@ -1,3 +1,9 @@
+var CloudSeedingInfo ={
+   "description" : "Description\nRainfall amounts from a cloud seeding experiment (winter only)",
+   "title" : "Cloud Seeding Experiment (Winter Only)",
+   "usage" : "A data frame with 28 observations on the following 7 variables."
+}
+
 var CloudSeeding = [
    [
       "Seeded",

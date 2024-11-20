@@ -1,3 +1,10 @@
+var DutchSalesInfo ={
+   "description" : "Description\nTime series of retail sales index in The Netherlands.",
+   "format" : "A monthly univariate time series from 1960(5) to 1995(9).",
+   "title" : "Dutch Retail Sales Index Data",
+   "usage" : "data(\"DutchSales\")"
+}
+
 var DutchSales = [
    [
       "time",

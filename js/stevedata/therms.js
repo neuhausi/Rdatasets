@@ -1,3 +1,15 @@
+var thermsInfo ={
+   "description" : "Description\nA data set on thermometer ratings for Donald Trump and Barack Obama in 2020.\nI use these data for in-class illustration of\ncentral limit theorem. Basically: the sampling distribution of a\npopulation is normal, even if the underlying population is decidedly\nnot.",
+   "usage" : "therms",
+   "parameters" : {
+      "fttrump1" : "a thermometer rating for Donald Trump",
+      "ftobama1" : "a thermometer rating for Barack Obama"
+   },
+   "reference" : "The survey period was April 10-18, 2020 and was done entirely online.\nThermometer ratings are on a 0 to 100 scale, where higher values indicate\nmore \"warmth\".",
+   "title" : "Thermometer Ratings for Donald Trump and Barack Obama",
+   "format" : "A data frame with 3080 observations on the following 2 variables."
+}
+
 var therms = [
    [
       "fttrump1",

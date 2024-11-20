@@ -1,3 +1,9 @@
+var MarathonInfo ={
+   "title" : "Daily Training for a Marathon Runner",
+   "usage" : "A dataset with 1128 observations on the following 9 variables.",
+   "description" : "Description\nTraining records for a marathon runner"
+}
+
 var Marathon = [
    [
       "Date",

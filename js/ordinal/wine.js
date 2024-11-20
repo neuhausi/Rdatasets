@@ -1,3 +1,19 @@
+var wineInfo ={
+   "parameters" : {
+      "response" : "scorings of wine bitterness on a 0&mdash;100 continuous scale.",
+      "rating" : "ordered factor with 5 levels; a grouped version of response.",
+      "bottle" : "factor with eight levels.",
+      "contact" : "factor with two levels (\"no\" and \"yes\").",
+      "temp" : "temperature: factor with two levels.",
+      "judge" : "factor with nine levels."
+   },
+   "title" : "Bitterness of wine",
+   "reference" : "Data are adopted from Randall (1989).",
+   "format" : "response\nscorings of wine bitterness on a 0&mdash;100 continuous scale.\n\n\nrating\nordered factor with 5 levels; a grouped version of response.\n\n\ntemp\ntemperature: factor with two levels.\n\n\ncontact\nfactor with two levels (\"no\" and \"yes\").\n\n\nbottle\nfactor with eight levels.\n\n\njudge\nfactor with nine levels.",
+   "description" : "Description\nThe wine data set is adopted from Randall(1989) and from a\nfactorial experiment on factors determining the bitterness of\nwine. Two treatment factors (temperature and contact) each have two\nlevels. Temperature and contact between juice and skins can be\ncontrolled when cruching grapes during wine production. Nine judges\neach assessed wine from two bottles from each of the four treatment\nconditions, hence there are 72 observations in all.",
+   "usage" : "wine"
+}
+
 var wine = [
    [
       "response",

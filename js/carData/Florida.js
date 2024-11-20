@@ -1,3 +1,24 @@
+var FloridaInfo ={
+   "reference" : "Adams, G. D. and Fastnow, C. F. (2000)\nA note on the voting irregularities in Palm Beach, FL.\nFormerly at &lsquo;&#8288;http://madison.hss.cmu.edu/&#8288;&rsquo;, but no longer available there.",
+   "title" : "Florida County Voting",
+   "format" : "This data frame contains the following columns:",
+   "parameters" : {
+      "GORE" : "Number of votes for Gore",
+      "BUCHANAN" : "Number of votes for Buchanan.",
+      "HARRIS" : "Number of votes for Harris (whoever that is).",
+      "BUSH" : "Number of votes for Bush.",
+      "BROWNE" : "Number of votes for Browne (whoever that is).",
+      "Total" : "Total number of votes.",
+      "PHILLIPS" : "Number of votes for Phillips (whoever that is).",
+      "NADER" : "Number of votes for Nader.",
+      "HAGELIN" : "Number of votes for Hagelin (whoever that is).",
+      "MOOREHEAD" : "Number of votes for Moorehead (whoever that is).",
+      "MCREYNOLDS" : "Number of votes for McReynolds (whoever that is)."
+   },
+   "usage" : "Florida",
+   "description" : "Description\nThe Florida data frame has 67 rows and 11 columns.\nVote by county in Florida for President in the 2000 election."
+}
+
 var Florida = [
    [
       "GORE",

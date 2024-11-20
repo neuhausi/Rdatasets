@@ -1,15 +1,61 @@
 {
    "config" : {
-      "shapeBy" : "gro",
       "sizeBy" : null,
-      "title" : "Attributes of Animals",
-      "colorBy" : "end",
       "graphType" : "Scatter2D",
+      "shapeBy" : "gro",
+      "colorBy" : "end",
       "scatterPlotMatrix" : 1,
-      "subtitle" : "cluster - animals"
+      "subtitle" : "cluster - animals",
+      "title" : "Attributes of Animals"
    },
    "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>animals</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Attributes of Animals</h2>\n<h3>Description</h3>\n<p>This data set considers 6 binary attributes for 20 animals.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(animals)</code></pre>\n<h3>Format</h3>\n<p>A data frame with 20 observations on 6 variables:\n</p>\n<table>\n<tr>\n <td style=\"text-align: right;\">\n    [ , 1] </td><td style=\"text-align: left;\"> war </td><td style=\"text-align: left;\"> warm-blooded </td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    [ , 2] </td><td style=\"text-align: left;\"> fly </td><td style=\"text-align: left;\"> can fly </td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    [ , 3] </td><td style=\"text-align: left;\"> ver </td><td style=\"text-align: left;\"> vertebrate </td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    [ , 4] </td><td style=\"text-align: left;\"> end </td><td style=\"text-align: left;\"> endangered </td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    [ , 5] </td><td style=\"text-align: left;\"> gro </td><td style=\"text-align: left;\"> live in groups </td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    [ , 6] </td><td style=\"text-align: left;\"> hai </td><td style=\"text-align: left;\"> have hair </td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n  </td>\n</tr>\n</table>\n<p>All variables are encoded as 1 = 'no', 2 = 'yes'.\n</p>\n<h3>Details</h3>\n<p>This dataset is useful for illustrating monothetic (only a single\nvariable is used for each split) hierarchical clustering.\n</p>\n<h3>Source</h3>\n<p>Leonard Kaufman and Peter J. Rousseeuw (1990):\n<em>Finding Groups in Data</em>\n(pp 297ff).\nNew York: Wiley.\n</p>\n<h3>References</h3>\n<p>see Struyf, Hubert &amp; Rousseeuw (1996),  in <code>agnes</code>.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>data(animals)\napply(animals,2, table) # simple overview\nma &lt;- mona(animals)\nma\n## Plot similar to Figure 10 in Struyf et al (1996)\nplot(ma)\n</code></pre>\n</main>\n</div>\n",
    "data" : {
+      "z" : {
+         "end" : [
+            "1",
+            "1",
+            "1",
+            "1",
+            "2",
+            "1",
+            "1",
+            "2",
+            "2",
+            "1",
+            "2",
+            "1",
+            "",
+            "1",
+            "1",
+            "2",
+            "1",
+            "1",
+            "",
+            "2"
+         ],
+         "gro" : [
+            "2",
+            "2",
+            "1",
+            "1",
+            "2",
+            "2",
+            "2",
+            "1",
+            "2",
+            "1",
+            "",
+            "2",
+            "2",
+            "1",
+            "",
+            "2",
+            "2",
+            "",
+            "1",
+            "2"
+         ]
+      },
       "y" : {
          "data" : [
             [
@@ -133,12 +179,6 @@
                1
             ]
          ],
-         "smps" : [
-            "war",
-            "fly",
-            "ver",
-            "hai"
-         ],
          "vars" : [
             "ant",
             "bee",
@@ -160,52 +200,12 @@
             "sal",
             "spi",
             "wha"
-         ]
-      },
-      "z" : {
-         "end" : [
-            "1",
-            "1",
-            "1",
-            "1",
-            "2",
-            "1",
-            "1",
-            "2",
-            "2",
-            "1",
-            "2",
-            "1",
-            "",
-            "1",
-            "1",
-            "2",
-            "1",
-            "1",
-            "",
-            "2"
          ],
-         "gro" : [
-            "2",
-            "2",
-            "1",
-            "1",
-            "2",
-            "2",
-            "2",
-            "1",
-            "2",
-            "1",
-            "",
-            "2",
-            "2",
-            "1",
-            "",
-            "2",
-            "2",
-            "",
-            "1",
-            "2"
+         "smps" : [
+            "war",
+            "fly",
+            "ver",
+            "hai"
          ]
       }
    }

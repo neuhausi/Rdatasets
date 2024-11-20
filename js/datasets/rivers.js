@@ -1,3 +1,10 @@
+var riversInfo ={
+   "usage" : "rivers",
+   "format" : "A vector containing 141 observations.",
+   "title" : "Lengths of Major North American Rivers",
+   "description" : "Description\nThis data set gives the lengths (in miles) of 141 &ldquo;major&rdquo;\nrivers in North America, as compiled by the US Geological Survey."
+}
+
 var rivers = [
    [
       "dat"

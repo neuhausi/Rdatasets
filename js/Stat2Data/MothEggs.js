@@ -1,3 +1,9 @@
+var MothEggsInfo ={
+   "description" : "Description\nBody size and eggs produced for a species of moths",
+   "title" : "Moth Eggs",
+   "usage" : "A dataset with 39 observations on the following 2 variables."
+}
+
 var MothEggs = [
    [
       "BodyMass",

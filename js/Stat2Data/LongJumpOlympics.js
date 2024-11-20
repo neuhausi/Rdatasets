@@ -1,3 +1,9 @@
+var LongJumpOlympicsInfo ={
+   "title" : "Olympic Men's Long Jump Gold Medal Distance (1900 - 2008)",
+   "usage" : "A data frame with 26 observations on the following 2 variables.",
+   "description" : "Description\nWinning distances in men's Olympic long jump competitions (1900 - 2008)"
+}
+
 var LongJumpOlympics = [
    [
       "Year",

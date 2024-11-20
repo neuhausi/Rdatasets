@@ -1,3 +1,22 @@
+var fglInfo ={
+   "title" : "Measurements of Forensic Glass Fragments",
+   "format" : "This data frame contains the following columns:",
+   "usage" : "fgl",
+   "description" : "Description\nThe fgl data frame has 214 rows and 10 columns.\nIt was collected by B. German on fragments of glass\ncollected in forensic work.",
+   "parameters" : {
+      "Mg" : "manganese.",
+      "Na" : "sodium.",
+      "Al" : "aluminium.",
+      "Ca" : "calcium.",
+      "Si" : "silicon.",
+      "K" : "potassium.",
+      "Ba" : "barium.",
+      "type" : "The fragments were originally classed into seven types, one of which\nwas absent in this dataset.  The categories which occur are\nwindow float glass (WinF: 70),\nwindow non-float glass (WinNF: 76),\nvehicle window glass (Veh: 17),\ncontainers (Con: 13),\ntableware (Tabl: 9) and\nvehicle headlamps (Head: 29).",
+      "Fe" : "iron.",
+      "RI" : "refractive index; more precisely the refractive index is 1.518xxxx.\n\nThe next 8 measurements are percentages by weight of oxides."
+   }
+}
+
 var fgl = [
    [
       "RI",

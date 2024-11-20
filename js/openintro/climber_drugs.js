@@ -1,3 +1,19 @@
+var climber_drugsInfo ={
+   "parameters" : {
+      "concomitant" : "Indicates that this substance was always detected concomitantly with the previous one, within the same urine sample.",
+      "screening_analysis" : "Indicates that the concentration was determined by screening analysis.",
+      "positive_sample" : "Idendification number of a specific urine sample.",
+      "hut" : "Location where the sample was taken.",
+      "concentration" : "Amount of substance found measured in ng/ml.",
+      "substance" : "Substance detected to be present in the urine sample."
+   },
+   "title" : "Climber Drugs Data.",
+   "reference" : "PLOS One - Drug Use on Mont Blanc: A Study Using Automated Urine Collection",
+   "format" : "A data frame with 211 rows and 6 variables.",
+   "description" : "Description\nAnonymous data was collected from urine samples at huts along the climb of Mont Blanc. Several types of drugs were tested, and proportions were reported.",
+   "usage" : "climber_drugs"
+}
+
 var climber_drugs = [
    [
       "positive_sample",

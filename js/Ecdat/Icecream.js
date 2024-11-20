@@ -1,3 +1,17 @@
+var IcecreamInfo ={
+   "usage" : "data(Icecream)",
+   "description" : "Description\nfour&ndash;weekly observations from 1951&ndash;03&ndash;18 to 1953&ndash;07&ndash;11\nnumber of observations :  30\nobservation :  country\ncountry :  United States",
+   "format" : "A time series containing :",
+   "reference" : "Hildreth, C.  and  J.  Lu (1960) Demand relations with autocorrelated disturbances, Technical Bulletin No 2765, Michigan State University.",
+   "title" : "Ice Cream Consumption",
+   "parameters" : {
+      "income" : "average family income per week (in US Dollars);",
+      "price" : "price of ice cream (per pint);",
+      "cons" : "consumption of ice cream per head (in pints);",
+      "temp" : "average temperature (in Fahrenheit);"
+   }
+}
+
 var Icecream = [
    [
       "cons",

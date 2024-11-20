@@ -1,6 +1,11 @@
 {
    "data" : {
       "y" : {
+         "smps" : [
+            "lsize",
+            "bodywt",
+            "brainwt"
+         ],
          "vars" : [
             "Var1",
             "Var2",
@@ -124,18 +129,13 @@
                6.05,
                0.401
             ]
-         ],
-         "smps" : [
-            "lsize",
-            "bodywt",
-            "brainwt"
          ]
       }
    },
    "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>litters</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Mouse Litters</h2>\n<h3>Description</h3>\n<p>Data on the body and brain weights of 20 mice, together\nwith the size of the litter.  Two mice were taken from each\nlitter size.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>litters</code></pre>\n<h3>Format</h3>\n<p>This data frame contains the following columns:\n</p>\n<dl>\n<dt>lsize</dt><dd><p>litter size</p>\n</dd>\n<dt>bodywt</dt><dd><p>body weight</p>\n</dd>\n<dt>brainwt</dt><dd><p>brain weight</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>Wainright P, Pelkman C and Wahlsten D 1989. The quantitative\nrelationship between nutritional effects on preweaning growth      \nand behavioral development in mice. Developmental Psychobiology   \n22: 183-193.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>print(\"Multiple Regression - Example 6.2\")\npairs(litters, labels=c(\"lsize\\n\\n(litter size)\", \"bodywt\\n\\n(Body Weight)\",\n                        \"brainwt\\n\\n(Brain Weight)\"))\n  # pairs(litters) gives a scatterplot matrix with less adequate labeling\nmice1.lm &lt;- lm(brainwt ~ lsize, data = litters) # Regress on lsize\nmice2.lm &lt;- lm(brainwt ~ bodywt, data = litters) #Regress on bodywt\nmice12.lm &lt;- lm(brainwt ~ lsize + bodywt, data = litters) # Regress on lsize &amp; bodywt\nsummary(mice1.lm)$coef # Similarly for other coefficients.\n# results are consistent with the biological concept of brain sparing\npause()\nhat(model.matrix(mice12.lm))  # hat diagonal\npause()\nplot(lm.influence(mice12.lm)$hat, residuals(mice12.lm))\nprint(\"Diagnostics - Example 6.3\")\nmice12.lm &lt;- lm(brainwt ~ bodywt+lsize, data=litters)\noldpar &lt;-par(mfrow = c(1,2))\nbx &lt;- mice12.lm$coef[2]; bz &lt;- mice12.lm$coef[3]\nres &lt;- residuals(mice12.lm)\nplot(litters$bodywt, bx*litters$bodywt+res, xlab=\"Body weight\",\n  ylab=\"Component + Residual\")\npanel.smooth(litters$bodywt, bx*litters$bodywt+res) # Overlay\nplot(litters$lsize, bz*litters$lsize+res, xlab=\"Litter size\", \n  ylab=\"Component + Residual\")\npanel.smooth(litters$lsize, bz*litters$lsize+res)\npar(oldpar)\n</code></pre>\n</main>\n</div>\n",
    "config" : {
+      "subtitle" : "DAAG - litters",
       "title" : "Mouse Litters",
-      "graphType" : "Scatter3D",
-      "subtitle" : "DAAG - litters"
+      "graphType" : "Scatter3D"
    }
 }

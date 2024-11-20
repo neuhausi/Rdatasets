@@ -1,3 +1,26 @@
+var invenInfo ={
+   "parameters" : {
+      "ginven" : " log(inven) - log(inven[_n-1])",
+      "cgdp" : " gdp - gdp[_n-1]",
+      "inf" : " CPI inflation rate",
+      "inven" : " inventories, billions '92 $",
+      "r3" : " real interest",
+      "gdp" : " GDP, billions '92 $",
+      "cinf" : " inf - inf[_n-1]",
+      "ggdp" : " log(gdp) - log(gdp[_n-1])",
+      "cinven" : " inven - inven[_n-1]",
+      "ci3" : " i3 - i3[_n-1]",
+      "year" : " 1959-1995",
+      "i3" : " 3 mo. T-bill rate",
+      "cr3" : " r3 - r3[_n-1]"
+   },
+   "format" : "A data.frame with 37 observations on 13 variables:",
+   "title" : "inven",
+   "reference" : "pages 408, 444, 643, 830",
+   "description" : "Description\nWooldridge Source: Economic Report of the President, 1997, Tables B-4, B-20, B-61, and B-71. Data loads lazily.",
+   "usage" : "data('inven')"
+}
+
 var inven = [
    [
       "year",

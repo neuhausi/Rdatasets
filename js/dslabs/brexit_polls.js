@@ -1,3 +1,22 @@
+var brexit_pollsInfo ={
+   "usage" : "brexit_polls",
+   "description" : "Description\nBrexit (EU referendum) poll outcomes for 127 polls from January 2016 to the referendum date on June 23, 2016.",
+   "format" : "An object of class \"data.frame\".",
+   "reference" : "Wikipedia",
+   "title" : "Brexit Poll Data",
+   "parameters" : {
+      "poll_type. Online or telephone poll." : null,
+      "samplesize. Sample size of poll." : null,
+      "spread. Spread calculated as remain - leave." : null,
+      "pollster. Pollster conducting the poll." : null,
+      "enddate. End date of poll." : null,
+      "startdate. Start date of poll." : null,
+      "undecided. Proportion of undecided voters." : null,
+      "remain. Proportion voting Remain." : null,
+      "leave. Proportion voting Leave." : null
+   }
+}
+
 var brexit_polls = [
    [
       "startdate",

@@ -1,3 +1,27 @@
+var CollegeDistanceInfo ={
+   "description" : "Description\nCross-section data from the High School and Beyond survey conducted by the\nDepartment of Education in 1980, with a follow-up in 1986. The survey included\nstudents from approximately 1,100 high schools.",
+   "usage" : "data(\"CollegeDistance\")",
+   "parameters" : {
+      "unemp" : "county unemployment rate in 1980.",
+      "urban" : "factor. Is the school in an urban area?",
+      "income" : "factor. Is the family income above USD 25,000 per year?",
+      "ethnicity" : "factor indicating ethnicity (African-American, Hispanic or other).",
+      "tuition" : "average state 4-year college tuition (in 1000 USD).",
+      "education" : "number of years of education.",
+      "wage" : "state hourly wage in manufacturing in 1980.",
+      "score" : "base year composite test score. These are achievement tests given to high\nschool seniors in the sample.",
+      "gender" : "factor indicating gender.",
+      "distance" : "distance from 4-year college (in 10 miles).",
+      "region" : "factor indicating region (West or other).",
+      "home" : "factor. Does the family own their home?",
+      "fcollege" : "factor. Is the father a college graduate?",
+      "mcollege" : "factor. Is the mother a college graduate?"
+   },
+   "title" : "College Distance Data",
+   "reference" : "Rouse (1995) computed years of education by assigning 12 years to all\nmembers of the senior class. Each additional year of secondary education counted as a\none year. Students with vocational degrees were assigned 13 years, AA degrees were\nassigned 14 years, BA degrees were assigned 16 years, those with some graduate\neducation were assigned 17 years, and those with a graduate degree were assigned 18\nyears.",
+   "format" : "A data frame containing 4,739 observations on 14 variables."
+}
+
 var CollegeDistance = [
    [
       "gender",

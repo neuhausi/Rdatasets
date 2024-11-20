@@ -1,3 +1,21 @@
+var CormorantsInfo ={
+   "usage" : "data(\"Cormorants\")",
+   "description" : "Description\nMale double-crested cormorants use advertising behavior to attract females for breeding.\nIn this study by Meagan McRae (2015), cormorants were observed two or three times a week\nat six stations in a tree-nesting colony\nfor an entire season, April 10, 2014-July 10, 2014.\nThe number of advertising birds was counted and these observations were classified\nby characteristics of the trees and nests.\nThe goal is to determine how this behavior varies temporally over the season and spatially,\nas well as with characteristics of nesting sites.",
+   "reference" : "Observations were made on only 2 days in weeks 3 and 4, but 3 days in all other weeks.\nOne should use log(days) as an offset, so that the response measures rate.",
+   "title" : "Advertising Behavior by Males Cormorants",
+   "format" : "A data frame with 343 observations on the following 8 variables.",
+   "parameters" : {
+      "count" : "Number of birds advertising, a numeric vector",
+      "nest" : "Type of nest, an ordered factor with levels no < partial < full",
+      "tree_health" : "Health of the tree the bird is advertising in, a factor with levels dead healthy",
+      "height" : "Relative height of bird in the tree, an ordered factor with levels low < mid < high",
+      "week" : "Week of the season",
+      "category" : "Time of season, divided into 3 categories based on breeding chronology, an ordered factor with levels Pre < Incubation < Chicks Present",
+      "density" : "Number of other nests in the tree, an ordered factor with levels zero < few < moderate < high",
+      "station" : "Station of observations on two different peninsulas in a park, a factor with levels B1 B2 C1 C2 C3 C4"
+   }
+}
+
 var Cormorants = [
    [
       "category",

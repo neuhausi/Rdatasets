@@ -1,3 +1,22 @@
+var CigarInfo ={
+   "usage" : "data(Cigar)",
+   "description" : "Description\na panel of 46 observations  from 1963  to 1992\nnumber of observations :  1380\nobservation :  regional\ncountry :  United States",
+   "format" : "A dataframe containing :",
+   "reference" : "Baltagi, B.H.  and  D.  Levin (1992) &ldquo;Cigarette taxation: raising revenues and reducing consumption&rdquo;, Structural Changes and Economic Dynamics, 3, 321&ndash;335.",
+   "title" : "Cigarette Consumption",
+   "parameters" : {
+      "cpi" : "consumer price index (1983=100)",
+      "year" : "the year",
+      "ndi" : "per capita disposable income",
+      "pop" : "population",
+      "pop16" : "population above the age of 16",
+      "sales" : "cigarette sales in packs per capita",
+      "pimin" : "minimum price in adjoining states per pack of cigarettes",
+      "price" : "price per pack of cigarettes",
+      "state" : "state abbreviation"
+   }
+}
+
 var Cigar = [
    [
       "state",

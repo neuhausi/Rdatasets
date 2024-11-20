@@ -1,3 +1,21 @@
+var cricketerInfo ={
+   "format" : "A data frame with 5960 observations on the following 8 variables.",
+   "title" : "Lifespans of UK 1st class cricketers born 1840-1960",
+   "reference" : "Note that those 'killed in action' (mostly during World Wars I and II)\nform a subset of those who died by accident.",
+   "parameters" : {
+      "acd" : "numeric (0 = not accidental or not dead, 1\n= accidental death)",
+      "inbed" : "numeric (0 = did not die in bed, 1\n= died in bed)",
+      "cause" : "a factor with levels alive acd\n(accidental death) inbed (died in bed)",
+      "life" : "numeric, lifetime or lifespan to 1992",
+      "kia" : "numeric (0 = not killed in action, 1\n= killed in action)",
+      "dead" : "numeric (0 = alive (censored), 1 = dead, in 1992)",
+      "year" : "numeric, year of birth",
+      "left" : "a factor with levels right left"
+   },
+   "usage" : "data(cricketer)",
+   "description" : "Description\nYear and birth, lifespan, etc, of British first class cricketers,\nborn 1840-1960, whose handedness could be determined from\ninformation in the Who's who of cricketers.  The status\n(alive=0, dead =1), and lifetime or lifespan, is for 1992."
+}
+
 var cricketer = [
    [
       "left",

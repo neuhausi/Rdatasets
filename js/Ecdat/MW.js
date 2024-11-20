@@ -1,3 +1,15 @@
+var MWInfo ={
+   "usage" : "data(MW)",
+   "description" : "Description\nquarterly observations from 1963-3 to 1975-4\nnumber of observations :  50\nobservation :  country\ncountry :  United States",
+   "reference" : "MacKinnon, J. G.  and  H. T.  White (1985) &ldquo;Some heteroskedasticity consistent  covariance matrix estimators with improved finite sample properties&rdquo;, Journal of Econometrics, 29, 305-325.",
+   "title" : "Growth of Disposable Income and Treasury Bill Rate",
+   "format" : "A time series containing :",
+   "parameters" : {
+      "rdi" : "the rate of growth of real U.S. disposable income, seasonally adjusted",
+      "trate" : "the U.S. treasury bill rate"
+   }
+}
+
 var MW = [
    [
       "rdi",

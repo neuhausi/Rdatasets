@@ -1,50 +1,18 @@
 {
    "config" : {
-      "colorBy" : "variable",
-      "groupingFactors" : [
-         "Sex"
-      ],
       "title" : "Abortion Opinion Data",
-      "subtitle" : "vcdExtra - Abortion",
       "segregateSamplesBy" : [
-         "Support_Abortion",
+         "Sex",
          "Status"
       ],
-      "graphType" : "Boxplot"
+      "subtitle" : "vcdExtra - Abortion",
+      "graphType" : "Boxplot",
+      "colorBy" : "variable",
+      "groupingFactors" : [
+         "Support_Abortion"
+      ]
    },
    "data" : {
-      "x" : {
-         "Sex" : [
-            "Female",
-            "Male",
-            "Female",
-            "Male",
-            "Female",
-            "Male",
-            "Female",
-            "Male"
-         ],
-         "Support_Abortion" : [
-            "Yes",
-            "Yes",
-            "Yes",
-            "Yes",
-            "No",
-            "No",
-            "No",
-            "No"
-         ],
-         "Status" : [
-            "Lo",
-            "Lo",
-            "Hi",
-            "Hi",
-            "Lo",
-            "Lo",
-            "Hi",
-            "Hi"
-         ]
-      },
       "y" : {
          "data" : [
             [
@@ -58,6 +26,9 @@
                133
             ]
          ],
+         "vars" : [
+            "Freq"
+         ],
          "smps" : [
             "Smp1",
             "Smp2",
@@ -67,9 +38,38 @@
             "Smp6",
             "Smp7",
             "Smp8"
+         ]
+      },
+      "x" : {
+         "Support_Abortion" : [
+            "Yes",
+            "Yes",
+            "Yes",
+            "Yes",
+            "No",
+            "No",
+            "No",
+            "No"
          ],
-         "vars" : [
-            "Freq"
+         "Sex" : [
+            "Female",
+            "Male",
+            "Female",
+            "Male",
+            "Female",
+            "Male",
+            "Female",
+            "Male"
+         ],
+         "Status" : [
+            "Lo",
+            "Lo",
+            "Hi",
+            "Hi",
+            "Lo",
+            "Lo",
+            "Hi",
+            "Hi"
          ]
       }
    },

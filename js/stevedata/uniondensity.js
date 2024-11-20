@@ -1,3 +1,18 @@
+var uniondensityInfo ={
+   "reference" : "Data documentation are derived from Simon Jackman's pscl package.\nI just tidied up the presentation a bit.",
+   "format" : "A data frame with 20 observations on the following 5 variables.",
+   "title" : "Cross-National Rates of Trade Union Density",
+   "parameters" : {
+      "country" : "a character vector for the country",
+      "union" : "a numeric vector for the percentage of the total number of\nwage and salary earners plus the unemployed who are union members, measured\nbetween 1975 and 1980, with most of the data drawn from 1979.",
+      "concen" : "a numeric vector measuring the percentage of employment,\nshipments, or production accounted for by the four largest enterprises in\na particular industry, averaged over industries (with weights proportional\nto the size of the industry) and the resulting measure is normalized such\nthat the United States scores a 1.0, and is due to Pryor (1973).\nSome of the scores on this variable are imputed using procedures\ndescribed in Stephens and Wallerstein (1991, 945).",
+      "size" : "a numeric vector measuring the log of labor force size,\ndefined as the number of wage and salary earners, plus the unemployed.",
+      "left" : "a numeric vector tapping the extent to which parties of\nthe left have controlled governments since 1919, due to Wilensky (1981)."
+   },
+   "usage" : "uniondensity",
+   "description" : "Description\nCross-national data on relative size of the trade unions and predictors in 20 countries.\nThis is a data set of interest to replicating Western and Jackman (1994),\nwho themselves were addressing a debate between Wallerstein and Stephens on\nwhich of two highly correlated predictors explains trade union density."
+}
+
 var uniondensity = [
    [
       "country",

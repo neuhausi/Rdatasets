@@ -1,4 +1,9 @@
 {
+   "config" : {
+      "subtitle" : "wooldridge - barium",
+      "graphType" : "Heatmap",
+      "title" : "barium"
+   },
    "data" : {
       "y" : {
          "smps" : [
@@ -133,6 +138,39 @@
             "Smp129",
             "Smp130",
             "Smp131"
+         ],
+         "vars" : [
+            "chnimp",
+            "bchlimp",
+            "befile6",
+            "affile6",
+            "afdec6",
+            "befile12",
+            "affile12",
+            "afdec12",
+            "chempi",
+            "gas",
+            "rtwex",
+            "spr",
+            "sum",
+            "fall",
+            "lchnimp",
+            "lgas",
+            "lrtwex",
+            "lchempi",
+            "t",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec",
+            "percchn"
          ],
          "data" : [
             [
@@ -4258,46 +4296,8 @@
                1.7369179725647,
                3.67744302749634
             ]
-         ],
-         "vars" : [
-            "chnimp",
-            "bchlimp",
-            "befile6",
-            "affile6",
-            "afdec6",
-            "befile12",
-            "affile12",
-            "afdec12",
-            "chempi",
-            "gas",
-            "rtwex",
-            "spr",
-            "sum",
-            "fall",
-            "lchnimp",
-            "lgas",
-            "lrtwex",
-            "lchempi",
-            "t",
-            "feb",
-            "mar",
-            "apr",
-            "may",
-            "jun",
-            "jul",
-            "aug",
-            "sep",
-            "oct",
-            "nov",
-            "dec",
-            "percchn"
          ]
       }
    },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>barium</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>barium</h2>\n<h3>Description</h3>\n<p>Wooldridge Source: C.M. Krupp and P.S. Pollard (1999), Market Responses to Antidumpting Laws: Some Evidence from the U.S. Chemical Industry, Canadian Journal of Economics 29, 199-227. Dr. Krupp kindly provided the data. They are monthly data covering February 1978 through December 1988. Data loads lazily.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data('barium')\n</code></pre>\n<h3>Format</h3>\n<p>A data.frame with 131 observations on 31 variables:\n</p>\n<ul>\n<li> <p><strong>chnimp:</strong> Chinese imports, bar. chl.\n</p>\n</li>\n<li> <p><strong>bchlimp:</strong> total imports bar. chl.\n</p>\n</li>\n<li> <p><strong>befile6:</strong> =1 for all 6 mos before filing\n</p>\n</li>\n<li> <p><strong>affile6:</strong> =1 for all 6 mos after filing\n</p>\n</li>\n<li> <p><strong>afdec6:</strong> =1 for all 6 mos after decision\n</p>\n</li>\n<li> <p><strong>befile12:</strong> =1 all 12 mos before filing\n</p>\n</li>\n<li> <p><strong>affile12:</strong> =1 all 12 mos after filing\n</p>\n</li>\n<li> <p><strong>afdec12:</strong> =1 all 12 mos after decision\n</p>\n</li>\n<li> <p><strong>chempi:</strong> chemical production index\n</p>\n</li>\n<li> <p><strong>gas:</strong> gasoline production\n</p>\n</li>\n<li> <p><strong>rtwex:</strong> exchange rate index\n</p>\n</li>\n<li> <p><strong>spr:</strong> =1 for spring months\n</p>\n</li>\n<li> <p><strong>sum:</strong> =1 for summer months\n</p>\n</li>\n<li> <p><strong>fall:</strong> =1 for fall months\n</p>\n</li>\n<li> <p><strong>lchnimp:</strong> log(chnimp)\n</p>\n</li>\n<li> <p><strong>lgas:</strong> log(gas)\n</p>\n</li>\n<li> <p><strong>lrtwex:</strong> log(rtwex)\n</p>\n</li>\n<li> <p><strong>lchempi:</strong> log(chempi)\n</p>\n</li>\n<li> <p><strong>t:</strong> time trend\n</p>\n</li>\n<li> <p><strong>feb:</strong> =1 if month is feb\n</p>\n</li>\n<li> <p><strong>mar:</strong> =1 if month is march\n</p>\n</li>\n<li> <p><strong>apr:</strong> \n</p>\n</li>\n<li> <p><strong>may:</strong> \n</p>\n</li>\n<li> <p><strong>jun:</strong> \n</p>\n</li>\n<li> <p><strong>jul:</strong> \n</p>\n</li>\n<li> <p><strong>aug:</strong> \n</p>\n</li>\n<li> <p><strong>sep:</strong> \n</p>\n</li>\n<li> <p><strong>oct:</strong> \n</p>\n</li>\n<li> <p><strong>nov:</strong> \n</p>\n</li>\n<li> <p><strong>dec:</strong> \n</p>\n</li>\n<li> <p><strong>percchn:</strong> percent imports from china\n</p>\n</li></ul>\n<h3>Note</h3>\n<p>Rather than just having intercept shifts for the different regimes, one could conduct a full Chow test across the different regimes.\n</p>\n<p>Used in Text: pages 361-362, 372, 377, 426, 442-443, 445, 663, 665, 672\n</p>\n<h3>Source</h3>\n<p><a href=\"https://www.cengage.com/cgi-wadsworth/course_products_wp.pl?fid=M20b&amp;product_isbn_issn=9781111531041\">https://www.cengage.com/cgi-wadsworth/course_products_wp.pl?fid=M20b&amp;product_isbn_issn=9781111531041</a>\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'> str(barium)\n</code></pre>\n</main>\n</div>\n",
-   "config" : {
-      "graphType" : "Heatmap",
-      "subtitle" : "wooldridge - barium",
-      "title" : "barium"
-   }
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>barium</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>barium</h2>\n<h3>Description</h3>\n<p>Wooldridge Source: C.M. Krupp and P.S. Pollard (1999), Market Responses to Antidumpting Laws: Some Evidence from the U.S. Chemical Industry, Canadian Journal of Economics 29, 199-227. Dr. Krupp kindly provided the data. They are monthly data covering February 1978 through December 1988. Data loads lazily.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data('barium')\n</code></pre>\n<h3>Format</h3>\n<p>A data.frame with 131 observations on 31 variables:\n</p>\n<ul>\n<li> <p><strong>chnimp:</strong> Chinese imports, bar. chl.\n</p>\n</li>\n<li> <p><strong>bchlimp:</strong> total imports bar. chl.\n</p>\n</li>\n<li> <p><strong>befile6:</strong> =1 for all 6 mos before filing\n</p>\n</li>\n<li> <p><strong>affile6:</strong> =1 for all 6 mos after filing\n</p>\n</li>\n<li> <p><strong>afdec6:</strong> =1 for all 6 mos after decision\n</p>\n</li>\n<li> <p><strong>befile12:</strong> =1 all 12 mos before filing\n</p>\n</li>\n<li> <p><strong>affile12:</strong> =1 all 12 mos after filing\n</p>\n</li>\n<li> <p><strong>afdec12:</strong> =1 all 12 mos after decision\n</p>\n</li>\n<li> <p><strong>chempi:</strong> chemical production index\n</p>\n</li>\n<li> <p><strong>gas:</strong> gasoline production\n</p>\n</li>\n<li> <p><strong>rtwex:</strong> exchange rate index\n</p>\n</li>\n<li> <p><strong>spr:</strong> =1 for spring months\n</p>\n</li>\n<li> <p><strong>sum:</strong> =1 for summer months\n</p>\n</li>\n<li> <p><strong>fall:</strong> =1 for fall months\n</p>\n</li>\n<li> <p><strong>lchnimp:</strong> log(chnimp)\n</p>\n</li>\n<li> <p><strong>lgas:</strong> log(gas)\n</p>\n</li>\n<li> <p><strong>lrtwex:</strong> log(rtwex)\n</p>\n</li>\n<li> <p><strong>lchempi:</strong> log(chempi)\n</p>\n</li>\n<li> <p><strong>t:</strong> time trend\n</p>\n</li>\n<li> <p><strong>feb:</strong> =1 if month is feb\n</p>\n</li>\n<li> <p><strong>mar:</strong> =1 if month is march\n</p>\n</li>\n<li> <p><strong>apr:</strong> \n</p>\n</li>\n<li> <p><strong>may:</strong> \n</p>\n</li>\n<li> <p><strong>jun:</strong> \n</p>\n</li>\n<li> <p><strong>jul:</strong> \n</p>\n</li>\n<li> <p><strong>aug:</strong> \n</p>\n</li>\n<li> <p><strong>sep:</strong> \n</p>\n</li>\n<li> <p><strong>oct:</strong> \n</p>\n</li>\n<li> <p><strong>nov:</strong> \n</p>\n</li>\n<li> <p><strong>dec:</strong> \n</p>\n</li>\n<li> <p><strong>percchn:</strong> percent imports from china\n</p>\n</li></ul>\n<h3>Note</h3>\n<p>Rather than just having intercept shifts for the different regimes, one could conduct a full Chow test across the different regimes.\n</p>\n<p>Used in Text: pages 361-362, 372, 377, 426, 442-443, 445, 663, 665, 672\n</p>\n<h3>Source</h3>\n<p><a href=\"https://www.cengage.com/cgi-wadsworth/course_products_wp.pl?fid=M20b&amp;product_isbn_issn=9781111531041\">https://www.cengage.com/cgi-wadsworth/course_products_wp.pl?fid=M20b&amp;product_isbn_issn=9781111531041</a>\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'> str(barium)\n</code></pre>\n</main>\n</div>\n"
 }

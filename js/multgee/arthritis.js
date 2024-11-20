@@ -1,3 +1,20 @@
+var arthritisInfo ={
+   "usage" : "arthritis",
+   "description" : "Description\nRheumatoid self-assessment scores for 302 patients, measured on a five-level\nordinal response scale at three follow-up times.",
+   "title" : "Rheumatoid Arthritis Clinical Trial",
+   "format" : "A data frame with 906 observations on the following 7 variables:",
+   "reference" : "Lipsitz, S.R. and Kim, K. and Zhao, L. (1994) Analysis of repeated\ncategorical data using generalized estimating equations. Statistics in\nMedicine, 13, 1149&ndash;1163.",
+   "parameters" : {
+      "y" : "Self-assessment score of rheumatoid arthritis measured on a\nfive-level ordinal response scale.",
+      "baseline" : "Self-assessment\nscore of rheumatoid arthritis at the baseline.",
+      "sex" : "Coded as (1) for\nfemale and (2) for male.",
+      "age" : "Recorded at the baseline.",
+      "time" : "Follow-up time recorded in months.",
+      "trt" : "Treatment group variable, coded as (1) for the placebo\ngroup and (2) for the drug group.",
+      "id" : "Patient identifier variable."
+   }
+}
+
 var arthritis = [
    [
       "id",

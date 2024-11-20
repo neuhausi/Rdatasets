@@ -1,3 +1,17 @@
+var FitchInfo ={
+   "parameters" : {
+      "Species" : "species of mammal",
+      "Skull" : "Skull length (in cm)",
+      "Order" : "Order (Carnivora or Primates)",
+      "Wt" : "Body weight (in kg)",
+      "Palate" : "Palate length (in cm)"
+   },
+   "description" : "Description\nBody measurements for a sample of 28 mammal species from a Fitch paper on acoustic allometry",
+   "usage" : "A data frame with 28 observations on the following 5 variables.",
+   "title" : "Body Measurements of Mammal Species",
+   "reference" : "Data on mammal species from a Zoology paper about acoustic allometry by W. Tecumseh Fitch."
+}
+
 var Fitch = [
    [
       "Species",

@@ -1,12 +1,6 @@
 {
    "data" : {
       "y" : {
-         "smps" : [
-            "Year",
-            "Month",
-            "Traffic",
-            "t"
-         ],
          "data" : [
             [
                2003,
@@ -945,6 +939,12 @@
                156
             ]
          ],
+         "smps" : [
+            "Year",
+            "Month",
+            "Traffic",
+            "t"
+         ],
          "vars" : [
             "Var1",
             "Var2",
@@ -1108,8 +1108,8 @@
    "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>PeaceBridge2003</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Monthly Peace Bridge Traffic ( 2003-2015)</h2>\n<h3>Description</h3>\n<p>Monthly traffic (in 1,000's) across the Peace Bridge between Canada and the U.S.\n</p>\n<h3>Format</h3>\n<p>A data frame with 156 observations on the following 4 variables.\n</p>\n<dl>\n<dt><code>Year</code></dt><dd><p>Year (2003 to 2015)</p>\n</dd>\n<dt><code>Month</code></dt><dd><p>Month (1 to 12)</p>\n</dd>\n<dt><code>Traffic</code></dt><dd><p>Vehicles (in 1,000's)</p>\n</dd>\n<dt><code>t</code></dt><dd><p>Time frame (1 to 156)</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>Monthly traffic (in thousands of vehicles) across the Peace Bridge between the U.S. and Canada near Niagara Falls between January 2003 and December 2015.  Note PeaceBridge2012 has only the last four years of this series.\n</p>\n<h3>Source</h3>\n<p>http://www.peacebridge.com/index.php/historical-traffic-statistics/yearly-volumes\n</p>\n</main>\n</div>\n",
    "config" : {
       "title" : "Monthly Peace Bridge Traffic ( 2003-2015)",
+      "graphType" : "Scatter2D",
       "scatterPlotMatrix" : 1,
-      "subtitle" : "Stat2Data - PeaceBridge2003",
-      "graphType" : "Scatter2D"
+      "subtitle" : "Stat2Data - PeaceBridge2003"
    }
 }

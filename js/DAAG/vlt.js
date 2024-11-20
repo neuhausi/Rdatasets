@@ -1,3 +1,18 @@
+var vltInfo ={
+   "description" : "Description\nData on objects appearing in three windows on a video\nlottery terminal, together with the prize payout (usually 0).\nObservations were taken on two successive days in late 1994\nat a hotel lounge north of Winnipeg, Manitoba.  Each observation\ncost 25 cents (Canadian).  The game played was &lsquo;Double Diamond&rsquo;.",
+   "usage" : "vlt",
+   "parameters" : {
+      "window1" : "object appearing in the first window.",
+      "window3" : "object appearing in the third window.",
+      "window2" : "object appearing in the second window.",
+      "prize" : "cash prize awarded (in Canadian dollars).",
+      "night" : "1, if observation was taken on day 1; 2,\nif observation was taken on day 2."
+   },
+   "format" : "This data frame contains the following columns:",
+   "reference" : "At each play, each of three windows shows one of 7 possible objects.\nApparently, the three windows are independent of each other, and\nthe objects should appear with equal probability across the three windows.  \nThe objects are coded as follows: blank (0), single bar (1), double\nbar (2), triple bar (3), double diamond (5), cherries (6), and \nthe numeral \"7\" (7).",
+   "title" : "Video Lottery Terminal Data"
+}
+
 var vlt = [
    [
       "window1",

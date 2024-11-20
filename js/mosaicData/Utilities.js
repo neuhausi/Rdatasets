@@ -1,3 +1,25 @@
+var UtilitiesInfo ={
+   "usage" : "data(Utilities)",
+   "description" : "Description\nData from utility bills at a residence.\nUtilities2  is a similar data set with some additional variables.",
+   "title" : "Utility bills",
+   "format" : "A data frame containing 117 observations for the following variables.",
+   "reference" : "Daniel T. Kaplan, Statistical modeling: A fresh approach, 2009.",
+   "parameters" : {
+      "elecbill" : "electric bill (in dollars)",
+      "totalbill" : "total bill (in dollars)",
+      "billingDays" : "number of billing days in billing period",
+      "kwh" : "electricity usage (kwh)",
+      "thermsPerDay" : "a numeric vector",
+      "notes" : "notes about the billing period",
+      "day" : "day of month on which bill was calculated",
+      "gasbill" : "gas bill (in dollars)",
+      "temp" : "average temperature (F) for billing period",
+      "ccf" : "gas usage (ccf)",
+      "year" : "year of bill",
+      "month" : "month (coded as a number)"
+   }
+}
+
 var Utilities = [
    [
       "month",

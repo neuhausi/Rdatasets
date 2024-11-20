@@ -1,3 +1,18 @@
+var gpaInfo ={
+   "description" : "Description\nA survey of 55 Duke University students asked about their GPA, number of\nhours they study at night, number of nights they go out, and their gender.",
+   "usage" : "gpa",
+   "parameters" : {
+      "gender" : "a factor with\nlevels female male",
+      "out" : "a numeric vector",
+      "studyweek" : "a\nnumeric vector",
+      "gpa" : "a numeric vector",
+      "sleepnight" : "a numeric vector"
+   },
+   "reference" : "gpa",
+   "title" : "Survey of Duke students on GPA, studying, and more",
+   "format" : "A data frame with 55 observations on the following 5 variables."
+}
+
 var gpa = [
    [
       "gpa",

@@ -1,4 +1,17 @@
 {
+   "config" : {
+      "groupingFactors" : [
+         "scan"
+      ],
+      "colorBy" : "variable",
+      "graphType" : "Boxplot",
+      "segregateSamplesBy" : [
+         "pathology"
+      ],
+      "subtitle" : "modeldata - pathology",
+      "title" : "Liver pathology data"
+   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>pathology</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Liver pathology data</h2>\n<h3>Description</h3>\n<p>Liver pathology data\n</p>\n<h3>Details</h3>\n<p>These data have the results of a <em>x</em>-ray examination\nto determine whether liver is abnormal or not (in the <code>scan</code>\ncolumn) versus the more extensive pathology results that\napproximate the truth (in <code>pathology</code>).\n</p>\n<h3>Value</h3>\n<table>\n<tr><td><code>pathology</code></td>\n<td>\n<p>a data frame</p>\n</td></tr>\n</table>\n<h3>Source</h3>\n<p>Altman, D.G., Bland, J.M. (1994) &ldquo;Diagnostic tests 1:\nsensitivity and specificity,&rdquo; <em>British Medical Journal</em>,\nvol 308, 1552.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>data(pathology)\nstr(pathology)\n</code></pre>\n</main>\n</div>\n",
    "data" : {
       "x" : {
          "scan" : [
@@ -695,9 +708,6 @@
          ]
       },
       "y" : {
-         "vars" : [
-            "Row"
-         ],
          "data" : [
             [
                1,
@@ -1046,6 +1056,9 @@
                344
             ]
          ],
+         "vars" : [
+            "Row"
+         ],
          "smps" : [
             "Smp1",
             "Smp2",
@@ -1393,18 +1406,5 @@
             "Smp344"
          ]
       }
-   },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>pathology</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Liver pathology data</h2>\n<h3>Description</h3>\n<p>Liver pathology data\n</p>\n<h3>Details</h3>\n<p>These data have the results of a <em>x</em>-ray examination\nto determine whether liver is abnormal or not (in the <code>scan</code>\ncolumn) versus the more extensive pathology results that\napproximate the truth (in <code>pathology</code>).\n</p>\n<h3>Value</h3>\n<table>\n<tr><td><code>pathology</code></td>\n<td>\n<p>a data frame</p>\n</td></tr>\n</table>\n<h3>Source</h3>\n<p>Altman, D.G., Bland, J.M. (1994) &ldquo;Diagnostic tests 1:\nsensitivity and specificity,&rdquo; <em>British Medical Journal</em>,\nvol 308, 1552.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>data(pathology)\nstr(pathology)\n</code></pre>\n</main>\n</div>\n",
-   "config" : {
-      "graphType" : "Boxplot",
-      "segregateSamplesBy" : [
-         "pathology"
-      ],
-      "subtitle" : "modeldata - pathology",
-      "title" : "Liver pathology data",
-      "groupingFactors" : [
-         "scan"
-      ],
-      "colorBy" : "variable"
    }
 }

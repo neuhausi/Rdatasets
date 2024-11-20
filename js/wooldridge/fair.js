@@ -1,3 +1,34 @@
+var fairInfo ={
+   "usage" : "data('fair')",
+   "description" : "Description\nWooldridge Source: R.C. Fair (1996), âEconometrics and Presidential Elections,â Journal of Economic Perspectives 10, 89-102. The data set is provided in the article. Data loads lazily.",
+   "title" : "fair",
+   "format" : "A data.frame with 21 observations on 28 variables:",
+   "reference" : "An updated version of this data set, through the 2004 election, is available at Professor Fairâs web site at Yale University: http://fairmodel.econ.yale.edu/rayfair/pdf/2001b.htm. Students might want to try their own hands at predicting the most recent election outcome, but they should be restricted to no more than a handful of explanatory variables because of the small sample size.",
+   "parameters" : {
+      "In" : " I*n",
+      "year" : " 1916 to 1992, by 4",
+      "Ig2" : " I*g2",
+      "n" : " quarters of good news",
+      "In1md" : " I*n*(1-d)",
+      "Ip8" : " I*p8",
+      "DPER" : " incumbent running",
+      "g3" : " avg ann grwth rte, prev 3 qrts",
+      "demwins" : " =1 if V > .5",
+      "DUR" : " duration",
+      "p2YR" : " inf rte over 2 yr period",
+      "Id" : " I*d",
+      "Ig3" : " I*g3",
+      "p15" : " avg ann inf rate, prev 15 qtrs",
+      "g2" : " avg ann grwth rte, prev 2 qrts",
+      "V" : " prop. dem. vote",
+      "p8" : " avg ann inf rate, prev 8 qtrs",
+      "Ip151md" : " I*p15*(1-d)",
+      "I" : " =1 if demwh, -1 if repwh",
+      "d" : " =1 in 1920, 1944,1948",
+      "gYR" : " ann grwth rte, prev year"
+   }
+}
+
 var fair = [
    [
       "year",

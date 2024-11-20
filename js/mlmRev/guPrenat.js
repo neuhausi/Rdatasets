@@ -1,3 +1,28 @@
+var guPrenatInfo ={
+   "parameters" : {
+      "husEd" : "a factor describing the husband's level of education.",
+      "ssDist" : "distance from the community to the nearest clinic.",
+      "birthOrd" : "an ordered factor for the birth's order within the family.",
+      "motherAge" : "a factor indicating if the mother was older or\nyounger.  The cut-off age is 25 years.",
+      "mom" : "a factor identifying the mother or family",
+      "pcInd81" : "the percentage of indigenous population in the\ncommunity at the 1981 census.",
+      "toilet" : "a factor indicating if there is a modern toilet in the\nhouse.",
+      "momEd" : "a factor describing the mother's level of eduation.",
+      "prenat" : "a factor indicating if traditional or modern prenatal\ncare was provided for the birth.",
+      "kid" : "a factor identifying the birth",
+      "childAge" : "an ordered factor of the child's age at the time of\nthe survey.",
+      "husEmpl" : "a factor describing the husband's employment status.",
+      "indig" : "a factor indicating if the mother is Ladino, or\nindigenous not speaking Spanish, or indigenous speaking Spanish.",
+      "cluster" : "a factor identifying the community",
+      "TV" : "a factor indicating if there is a TV in the house and, if\nso, the frequency with which it is used."
+   },
+   "title" : "Prenatal care in Guatemala",
+   "format" : "A data frame with 2449 observations on the following 15 variables.",
+   "reference" : "These data are available at\nhttp://data.princeton.edu/multilevel/guPrenat.dat.  Multiple\nindicator columns in the original data table have been collapsed to\nfactors for this data frame.",
+   "description" : "Description\nData on the prenatal care received by mothers in Guatemala.",
+   "usage" : "data(guPrenat)"
+}
+
 var guPrenat = [
    [
       "kid",

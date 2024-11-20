@@ -1,3 +1,21 @@
+var censusInfo ={
+   "usage" : "census",
+   "description" : "Description\nA random sample of 500 observations from the 2000 U.S. Census Data.",
+   "reference" : "https://data.census.gov/cedsci",
+   "format" : "A data frame with 500 observations on the following 8 variables.",
+   "title" : "Random sample of 2000 U.S. Census Data",
+   "parameters" : {
+      "state_fips_code" : "Name of state.",
+      "sex" : "Sex with levels Female and Male.",
+      "census_year" : "Census Year.",
+      "total_family_income" : "Total family income (in U.S. dollars).",
+      "race_general" : "Race with levels American Indian or Alaska Native, Black, Chinese, Japanese, Other Asian or Pacific Islander, Two major races, White and Other.",
+      "age" : "Age.",
+      "total_personal_income" : "Total personal income (in U.S. dollars).",
+      "marital_status" : "Marital status with levels Divorced, Married/spouse absent, Married/spouse present, Never married/single, Separated and Widowed."
+   }
+}
+
 var census = [
    [
       "census_year",

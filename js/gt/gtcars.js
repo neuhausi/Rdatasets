@@ -1,3 +1,25 @@
+var gtcarsInfo ={
+   "description" : "Description\nExpensive and fast cars. Not your father's mtcars. Each row describes a car\nof a certain make, model, year, and trim. Basic specifications such as\nhorsepower, torque, EPA MPG ratings, type of drivetrain, and transmission\ncharacteristics are provided. The country of origin for the car manufacturer\nis also given.",
+   "usage" : "gtcars",
+   "parameters" : {
+      "year" : "The car's model year.",
+      "msrp" : "Manufacturer's suggested retail price in U.S. dollars (USD).",
+      "trsmn" : "An encoding of the transmission type, where the number part is\nthe number of gears. The car could have automatic transmission (\"a\"),\nmanual transmission (\"m\"), an option to switch between both types\n(\"am\"), or, direct drive (\"dd\")",
+      "drivetrain" : "The car's drivetrain which, for this dataset, is either\n\"rwd\" (Rear Wheel Drive) or \"awd\" (All Wheel Drive).",
+      "mfr" : "The name of the car manufacturer.",
+      "trq, trq_rpm" : "The car's torque and the associated RPM level.",
+      "model" : "The car's model name.",
+      "ctry_origin" : "The country name for where the vehicle manufacturer\nis headquartered.",
+      "mpg_c, mpg_h" : "The miles per gallon fuel efficiency rating for city\nand highway driving.",
+      "bdy_style" : "An identifier of the car's body style, which is either\n\"coupe\", \"convertible\", \"sedan\", or \"hatchback\".",
+      "hp, hp_rpm" : "The car's horsepower and the associated RPM level.",
+      "trim" : "A short description of the car model's trim."
+   },
+   "format" : "A tibble with 47 rows and 15 variables:",
+   "title" : "Deluxe automobiles from the 2014-2017 period",
+   "reference" : "All of the gtcars have something else in common (aside from the high asking\nprices): they are all grand tourer vehicles. These are proper GT cars that\nblend pure driving thrills with a level of comfort that is more expected from\na fine limousine (e.g., a Rolls-Royce Phantom EWB). You'll find that, with\nthese cars, comfort is emphasized over all-out performance. Nevertheless, the\ndriving experience should also mean motoring at speed, doing so in style and\nsafety."
+}
+
 var gtcars = [
    [
       "mfr",

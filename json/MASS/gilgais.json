@@ -1,23 +1,7 @@
 {
-   "config" : {
-      "title" : "Line Transect of Soil in Gilgai Territory",
-      "subtitle" : "MASS - gilgais",
-      "graphType" : "Heatmap"
-   },
    "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>gilgais</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>\nLine Transect of Soil in Gilgai Territory\n</h2>\n<h3>Description</h3>\n<p>This dataset was collected on a line transect survey in gilgai\nterritory in New South Wales, Australia.  Gilgais are natural gentle\ndepressions in otherwise flat land, and sometimes seem to be regularly\ndistributed. The data collection was stimulated by the question: are\nthese patterns reflected in soil properties?  At each of 365 sampling\nlocations on a linear grid of 4 meters spacing, samples were taken at\ndepths 0-10 cm, 30-40 cm and 80-90 cm below the surface. pH, electrical\nconductivity and chloride content were measured on a 1:5 soil:water\nextract from each sample.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>gilgais\n</code></pre>\n<h3>Format</h3>\n<p>This data frame contains the following columns:\n</p>\n<dl>\n<dt><code>pH00</code></dt><dd>\n<p>pH at depth 0&ndash;10 cm.\n</p>\n</dd>\n<dt><code>pH30</code></dt><dd>\n<p>pH at depth 30&ndash;40 cm.\n</p>\n</dd>\n<dt><code>pH80</code></dt><dd>\n<p>pH at depth 80&ndash;90 cm.\n</p>\n</dd>\n<dt><code>e00</code></dt><dd>\n<p>electrical conductivity in mS/cm  (0&ndash;10 cm).\n</p>\n</dd>\n<dt><code>e30</code></dt><dd>\n<p>electrical conductivity in mS/cm (30&ndash;40 cm).\n</p>\n</dd>\n<dt><code>e80</code></dt><dd>\n<p>electrical conductivity in mS/cm (80&ndash;90 cm).\n</p>\n</dd>\n<dt><code>c00</code></dt><dd>\n<p>chloride content in ppm  (0&ndash;10 cm).\n</p>\n</dd>\n<dt><code>c30</code></dt><dd>\n<p>chloride content in ppm (30&ndash;40 cm).\n</p>\n</dd>\n<dt><code>c80</code></dt><dd>\n<p>chloride content in ppm (80&ndash;90 cm).\n</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>Webster, R. (1977) Spectral analysis of gilgai soil.\n<em>Australian Journal of Soil Research</em> <b>15</b>, 191&ndash;204.\n</p>\n<p>Laslett, G. M. (1989)\nKriging and splines: An empirical comparison of their\npredictive performance in some applications (with discussion).\n<em>Journal of the American Statistical Association</em> <b>89</b>, 319&ndash;409\n</p>\n<h3>References</h3>\n<p>Venables, W. N. and Ripley, B. D. (2002)\n<em>Modern Applied Statistics with S.</em> Fourth edition.  Springer.\n</p>\n</main>\n</div>\n",
    "data" : {
       "y" : {
-         "vars" : [
-            "pH00",
-            "pH30",
-            "pH80",
-            "e00",
-            "e30",
-            "e80",
-            "c00",
-            "c30",
-            "c80"
-         ],
          "data" : [
             [
                7,
@@ -3689,7 +3673,23 @@
             "Smp363",
             "Smp364",
             "Smp365"
+         ],
+         "vars" : [
+            "pH00",
+            "pH30",
+            "pH80",
+            "e00",
+            "e30",
+            "e80",
+            "c00",
+            "c30",
+            "c80"
          ]
       }
+   },
+   "config" : {
+      "graphType" : "Heatmap",
+      "title" : "Line Transect of Soil in Gilgai Territory",
+      "subtitle" : "MASS - gilgais"
    }
 }

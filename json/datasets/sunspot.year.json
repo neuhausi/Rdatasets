@@ -1,6 +1,15 @@
 {
+   "config" : {
+      "title" : "Yearly Sunspot Data",
+      "graphType" : "Scatter2D",
+      "subtitle" : "datasets - sunspot.year"
+   },
    "data" : {
       "y" : {
+         "smps" : [
+            "time",
+            "value"
+         ],
          "vars" : [
             "Var1",
             "Var2",
@@ -1449,17 +1458,8 @@
                1988,
                100.2
             ]
-         ],
-         "smps" : [
-            "time",
-            "value"
          ]
       }
    },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>sunspot.year</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Yearly Sunspot Data, 1700&ndash;1988</h2>\n<h3>Description</h3>\n<p>Yearly numbers of sunspots from 1700 to 1988 (rounded to one digit).\n</p>\n<p>Note that monthly numbers are available as\n<code>sunspot.month</code>, though starting slightly later.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>sunspot.year\n</code></pre>\n<h3>Format</h3>\n<p>The univariate time series <code>sunspot.year</code> contains 289\nobservations, and is of class <code>\"ts\"</code>.\n</p>\n<h3>Source</h3>\n<p>H. Tong (1996)\n<em>Non-Linear Time Series</em>. Clarendon Press, Oxford, p. 471.\n</p>\n<h3>See Also</h3>\n<p>For <em>monthly</em> sunspot numbers, see <code>sunspot.month</code>\nand <code>sunspots</code>.\n</p>\n<p>Regularly updated yearly sunspot numbers are available from\nWDC-SILSO, Royal Observatory of Belgium, at\n<a href=\"http://www.sidc.be/silso/datafiles\">http://www.sidc.be/silso/datafiles</a>\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>utils::str(sm &lt;- sunspots)# the monthly version we keep unchanged\nutils::str(sy &lt;- sunspot.year)\n## The common time interval\n(t1 &lt;- c(max(start(sm), start(sy)),     1)) # Jan 1749\n(t2 &lt;- c(min(  end(sm)[1],end(sy)[1]), 12)) # Dec 1983\ns.m &lt;- window(sm, start=t1, end=t2)\ns.y &lt;- window(sy, start=t1, end=t2[1]) # {irrelevant warning}\nstopifnot(length(s.y) * 12 == length(s.m),\n          ## The yearly series *is* close to the averages of the monthly one:\n          all.equal(s.y, aggregate(s.m, FUN = mean), tolerance = 0.0020))\n## NOTE: Strangely, correctly weighting the number of days per month\n##       (using 28.25 for February) is *not* closer than the simple mean:\nndays &lt;- c(31, 28.25, rep(c(31,30, 31,30, 31), 2))\nall.equal(s.y, aggregate(s.m, FUN = mean))                     # 0.0013\nall.equal(s.y, aggregate(s.m, FUN = weighted.mean, w = ndays)) # 0.0017\n</code></pre>\n</main>\n</div>\n",
-   "config" : {
-      "title" : "Yearly Sunspot Data",
-      "subtitle" : "datasets - sunspot.year",
-      "graphType" : "Scatter2D"
-   }
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>sunspot.year</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Yearly Sunspot Data, 1700&ndash;1988</h2>\n<h3>Description</h3>\n<p>Yearly numbers of sunspots from 1700 to 1988 (rounded to one digit).\n</p>\n<p>Note that monthly numbers are available as\n<code>sunspot.month</code>, though starting slightly later.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>sunspot.year\n</code></pre>\n<h3>Format</h3>\n<p>The univariate time series <code>sunspot.year</code> contains 289\nobservations, and is of class <code>\"ts\"</code>.\n</p>\n<h3>Source</h3>\n<p>H. Tong (1996)\n<em>Non-Linear Time Series</em>. Clarendon Press, Oxford, p. 471.\n</p>\n<h3>See Also</h3>\n<p>For <em>monthly</em> sunspot numbers, see <code>sunspot.month</code>\nand <code>sunspots</code>.\n</p>\n<p>Regularly updated yearly sunspot numbers are available from\nWDC-SILSO, Royal Observatory of Belgium, at\n<a href=\"http://www.sidc.be/silso/datafiles\">http://www.sidc.be/silso/datafiles</a>\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>utils::str(sm &lt;- sunspots)# the monthly version we keep unchanged\nutils::str(sy &lt;- sunspot.year)\n## The common time interval\n(t1 &lt;- c(max(start(sm), start(sy)),     1)) # Jan 1749\n(t2 &lt;- c(min(  end(sm)[1],end(sy)[1]), 12)) # Dec 1983\ns.m &lt;- window(sm, start=t1, end=t2)\ns.y &lt;- window(sy, start=t1, end=t2[1]) # {irrelevant warning}\nstopifnot(length(s.y) * 12 == length(s.m),\n          ## The yearly series *is* close to the averages of the monthly one:\n          all.equal(s.y, aggregate(s.m, FUN = mean), tolerance = 0.0020))\n## NOTE: Strangely, correctly weighting the number of days per month\n##       (using 28.25 for February) is *not* closer than the simple mean:\nndays &lt;- c(31, 28.25, rep(c(31,30, 31,30, 31), 2))\nall.equal(s.y, aggregate(s.m, FUN = mean))                     # 0.0013\nall.equal(s.y, aggregate(s.m, FUN = weighted.mean, w = ndays)) # 0.0017\n</code></pre>\n</main>\n</div>\n"
 }

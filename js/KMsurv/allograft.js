@@ -1,3 +1,16 @@
+var allograftInfo ={
+   "parameters" : {
+      "rejection" : "Indicator of graft rejection (1=yes, 0=no)",
+      "patient" : "Patient",
+      "time" : "Time to graft rejection, days",
+      "match" : "Good HLA skin match (1=yes, 0=no)"
+   },
+   "description" : "Description\nThe allograft data frame has 34 rows and 4 columns.",
+   "usage" : "This data frame contains the following columns:",
+   "title" : "data from Exercise 13.1, p418",
+   "reference" : "Klein and Moeschberger (1997) Survival Analysis Techniques for Censored\nand truncated data, Springer.\nBatchelor and Hackett Lancet 2 (1970): 581-583."
+}
+
 var allograft = [
    [
       "patient",

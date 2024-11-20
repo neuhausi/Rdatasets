@@ -1,3 +1,19 @@
+var colemanInfo ={
+   "usage" : "data(coleman, package=\"robustbase\")",
+   "description" : "Description\nContains information on 20 Schools from the Mid-Atlantic and New\nEngland States, drawn from a population studied by Coleman et\nal. (1966). Mosteller and Tukey (1977) analyze this sample consisting\nof measurements on six different variables, one of which will be\ntreated as a responce.",
+   "format" : "A data frame with 20 observations on the following 6 variables.",
+   "title" : "Coleman Data Set",
+   "reference" : "Valentin Todorov",
+   "parameters" : {
+      "teacherSc" : "mean teacher's verbal test score",
+      "fatherWc" : "percent of white-collar fathers",
+      "motherLev" : "mean mother's educational level, one unit is equal\nto two school years",
+      "sstatus" : "socioeconomic status composite deviation: means for\nfamily size, family intactness, father's education, mother's\neducation, and home items",
+      "salaryP" : "staff salaries per pupil",
+      "Y" : "verbal mean test score (y, all sixth graders)"
+   }
+}
+
 var coleman = [
    [
       "salaryP",

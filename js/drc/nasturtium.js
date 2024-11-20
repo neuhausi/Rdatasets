@@ -1,3 +1,15 @@
+var nasturtiumInfo ={
+   "description" : "Description\nEstimation of the degradation profile of an agrochemical based on soil samples at depth 0-10cm\nfrom a calibration experiment.",
+   "usage" : "data(nasturtium)",
+   "parameters" : {
+      "conc" : "a numeric vector of concentrations (g/ha)",
+      "weight" : "a numeric vector of plant weight (mg) after 3 weeks' growth"
+   },
+   "title" : "Dose-response profile of degradation of agrochemical using nasturtium",
+   "format" : "A data frame with 42 observations on the following 2 variables.",
+   "reference" : "It is an experiment with seven concentrations and six replicates per concentration. Nasturtium\nis sensitive and its weight reduces noticeable at low concentrations."
+}
+
 var nasturtium = [
    [
       "conc",

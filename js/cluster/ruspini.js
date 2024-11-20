@@ -1,3 +1,10 @@
+var ruspiniInfo ={
+   "description" : "Description\nThe Ruspini data set, consisting of 75 points in four groups that is\npopular for illustrating clustering techniques.",
+   "format" : "A data frame with 75 observations on 2 variables giving the x and y\ncoordinates of the points, respectively.",
+   "title" : "Ruspini Data",
+   "usage" : "data(ruspini)"
+}
+
 var ruspini = [
    [
       "x",

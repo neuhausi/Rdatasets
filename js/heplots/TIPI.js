@@ -1,3 +1,28 @@
+var TIPIInfo ={
+   "parameters" : {
+      "voted" : "a factor with levels Yes No",
+      "religion" : "a factor with levels Agnostic Atheist Buddhist Christian\n      (Catholic) Christian (Mormon) Christian (Protestant)\nChristian (Other) Hindu Jewish Muslim\nSikh Other",
+      "Extraversion" : "a numeric vector",
+      "Conscientiousness" : "a numeric vector",
+      "engnat" : "a factor with levels Native Non-native",
+      "education" : "an ordered factor with levels\n<HS < HS < Univ < Grad",
+      "Openness" : "a numeric vector",
+      "orientation" : "a factor with levels Heterosexual Bisexual Homosexual \nAsexual Other",
+      "Agreeableness" : "a numeric vector",
+      "gender" : "a factor with levels M F",
+      "familysize" : "a numeric vector",
+      "age" : "a numeric vector",
+      "urban" : "an ordered factor with levels Rural < Suburban < Urban",
+      "married" : "a factor with levels Never married\nCurrently married Previously married",
+      "Neuroticism" : "a numeric vector",
+      "race" : "a factor with levels Asian\nArab Black Indig-White Other"
+   },
+   "description" : "Description\nThe Ten Item Personality Inventory (Gosling et al. 2003) is a brief\ninventory of the Big Five personality domains (Extraversion, Neuroticism,\nConscientiousness, Agreeableness, and Openness to experience). This dataset,\noriginally from the Open Source Psychometrics Project\n(https://openpsychometrics.org/), was used by Jones et al. (2020), from\nwhich we obtained this version.",
+   "reference" : "In addition to scores on the Big Five scales, the dataset contains 11\ndemographic variables on the participants, potentially useful in\nmultivariate analyses.",
+   "title" : "Data on the Ten Item Personality Inventory",
+   "usage" : "A data frame with 1799 observations on the following 16 variables."
+}
+
 var TIPI = [
    [
       "Extraversion",

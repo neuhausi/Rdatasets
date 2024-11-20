@@ -1,3 +1,9 @@
+var MedGPAInfo ={
+   "usage" : "A dataset with 55 observations on the following 11 variables.",
+   "title" : "GPA and Medical School Admission",
+   "description" : "Description\nMedical school admission status and information on GPA and standardized test scores"
+}
+
 var MedGPA = [
    [
       "Accept",

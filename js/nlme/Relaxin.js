@@ -1,3 +1,15 @@
+var RelaxinInfo ={
+   "reference" : "Pinheiro, J. C. and Bates, D. M. (2000), Mixed-Effects Models in S\nand S-PLUS, Springer, New York.",
+   "title" : "Assay for Relaxin",
+   "usage" : "This data frame contains the following columns:",
+   "parameters" : {
+      "cAMP" : "a numeric vector",
+      "Run" : "an ordered factor with levels\n5 < 8 < 9 < 3 < 4 < 2 < 7 < 1 < 6",
+      "conc" : "a numeric vector"
+   },
+   "description" : "Description\nThe Relaxin data frame has 198 rows and 3 columns."
+}
+
 var Relaxin = [
    [
       "Run",

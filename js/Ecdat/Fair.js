@@ -1,3 +1,22 @@
+var FairInfo ={
+   "description" : "Description\na cross-section\nnumber of observations :  601\nobservation :  individuals\ncountry :  United States",
+   "usage" : "data(Fair)",
+   "parameters" : {
+      "rate" : "self rating of marriage, from 1 (very \nunhappy) to 5 (very happy)",
+      "ym" : "number of years married",
+      "religious" : "how religious, from 1 (anti) to 5 (very)",
+      "child" : "children ? a factor",
+      "education" : "education",
+      "sex" : "a factor with levels (male,female)",
+      "occupation" : "occupation, from 1 to 7, according to\nHollingshead's classification (reverse \nnumbering)",
+      "age" : "age",
+      "nbaffairs" : "number of affairs in past year"
+   },
+   "format" : "A dataframe containing :",
+   "title" : "Extramarital Affairs Data",
+   "reference" : "Fair, R. (1977) &ldquo;A note on the computation of the tobit estimator&rdquo;, Econometrica, 45, 1723-1727."
+}
+
 var Fair = [
    [
       "sex",

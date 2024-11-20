@@ -1,3 +1,9 @@
+var CrackerFiberInfo ={
+   "title" : "Effects of Cracker Fiber on Digested Calories",
+   "usage" : "A data frame with 48 observations on the following 3 variables.",
+   "description" : "Description\nDigested calories with different types of fiber in crackers"
+}
+
 var CrackerFiber = [
    [
       "Subj",

@@ -1,3 +1,18 @@
+var AlitoConfirmationInfo ={
+   "usage" : "A data frame with 100 observations on the following 6 variables.",
+   "title" : "US Senate Votes on Samuel Alito for the Supreme Court",
+   "reference" : "Data from the U.S. Senate vote on January 31, 2006 to confirm Samuel Alito to a position on the Supreme Court.",
+   "parameters" : {
+      "Vote" : "1=for or 0=against",
+      "ConfVote" : "Confirmation vote (Nay=against or Yea=for)",
+      "StateOpinion" : "Percentage of state residents supporting the choice",
+      "Senator" : "Senator's name",
+      "Party" : "Party affiliation  (D=Democrat, R=Republican)",
+      "State" : "State name"
+   },
+   "description" : "Description\nUS Senate party affiliatoin and votes on confirming Samuel Alito for the Supreme Court"
+}
+
 var AlitoConfirmation = [
    [
       "State",

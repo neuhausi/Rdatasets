@@ -16,6 +16,20 @@
             "Smp11",
             "Smp12"
          ],
+         "vars" : [
+            "J11",
+            "J12",
+            "J21",
+            "J22",
+            "J31",
+            "J32",
+            "J41",
+            "J42",
+            "J51",
+            "J52",
+            "J61",
+            "J62"
+         ],
          "data" : [
             [
                0,
@@ -185,26 +199,12 @@
                5,
                6
             ]
-         ],
-         "vars" : [
-            "J11",
-            "J12",
-            "J21",
-            "J22",
-            "J31",
-            "J32",
-            "J41",
-            "J42",
-            "J51",
-            "J52",
-            "J61",
-            "J62"
          ]
       }
    },
    "config" : {
+      "subtitle" : "psych - Gleser",
       "title" : "Example data from Gleser",
-      "graphType" : "Heatmap",
-      "subtitle" : "psych - Gleser"
+      "graphType" : "Heatmap"
    }
 }

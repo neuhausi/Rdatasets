@@ -1,3 +1,17 @@
+var gehanInfo ={
+   "usage" : "gehan",
+   "description" : "Description\nA data frame from a trial of 42 leukaemia patients. Some were\ntreated with the drug 6-mercaptopurine\nand the rest are controls.  The trial was designed as matched pairs,\nboth withdrawn from the trial when either came out of remission.",
+   "reference" : "Cox, D. R. and Oakes, D. (1984) Analysis of Survival Data.\nChapman & Hall, p. 7. Taken from",
+   "title" : "Remission Times of Leukaemia Patients",
+   "format" : "This data frame contains the following columns:",
+   "parameters" : {
+      "pair" : "label for pair.",
+      "cens" : "censoring, 0/1.",
+      "treat" : "treatment, control or 6-MP.",
+      "time" : "remission time in weeks."
+   }
+}
+
 var gehan = [
    [
       "pair",

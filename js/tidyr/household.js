@@ -1,3 +1,16 @@
+var householdInfo ={
+   "description" : "Description\nThis dataset is based on an example in\nvignette(\"datatable-reshape\", package = \"data.table\")",
+   "parameters" : {
+      "family" : "Family identifier",
+      "name_child1" : "Name of first child",
+      "dob_child1" : "Date of birth of first child",
+      "dob_child2" : "Date of birth of second child"
+   },
+   "format" : "A data frame with 5 rows and 5 columns:",
+   "title" : "Household data",
+   "usage" : "household"
+}
+
 var household = [
    [
       "family",

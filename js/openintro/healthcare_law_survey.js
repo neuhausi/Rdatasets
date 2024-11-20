@@ -1,3 +1,15 @@
+var healthcare_law_surveyInfo ={
+   "usage" : "healthcare_law_survey",
+   "description" : "Description\nFor example, Pew Research Center conducted a survey with the following\nquestion: \"As you may know, by 2014 nearly all Americans will be required to\nhave health insurance. People who do not buy insurance will pay a penalty\nwhile people who cannot afford it will receive financial help from the\ngovernment. Do you approve or disapprove of this policy?\" For each randomly\nsampled respondent, the statements in brackets were randomized: either they\nwere kept in the order given above, or the two statements were reversed.",
+   "title" : "Pew Research Center poll on health care, including question variants",
+   "format" : "A data frame with 1503 observations on the following 2 variables.",
+   "reference" : "www.people-press.org/2012/03/26/public-remains-split-on-health-care-bill-opposed-to-mandate/.\nSample sizes for each polling group are approximate.",
+   "parameters" : {
+      "response" : "a factor with levels approve\ndisapprove other",
+      "order" : "a factor with levels cannot_afford_second\npenalty_second"
+   }
+}
+
 var healthcare_law_survey = [
    [
       "order",

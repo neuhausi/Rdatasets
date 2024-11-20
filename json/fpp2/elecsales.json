@@ -1,6 +1,10 @@
 {
    "data" : {
       "y" : {
+         "smps" : [
+            "time",
+            "value"
+         ],
          "vars" : [
             "Var1",
             "Var2",
@@ -22,10 +26,6 @@
             "Var18",
             "Var19",
             "Var20"
-         ],
-         "smps" : [
-            "time",
-            "value"
          ],
          "data" : [
             [

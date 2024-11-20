@@ -1,3 +1,36 @@
+var athlet1Info ={
+   "format" : "A data.frame with 118 observations on 23 variables:",
+   "reference" : "These data were collected by Patrick Tulloch, an MSU economics major, for a term project. The âathletic successâ variables are for the year prior to the enrollment and academic data. Updating these data to get a longer stretch of years, and including appearances in the âSweet 16â NCAA basketball tournaments, would make for a more convincing analysis. With the growing popularity of womenâs sports, especially basketball, an analysis that includes success in womenâs athletics would be interesting.",
+   "title" : "athlet1",
+   "parameters" : {
+      "cavg500" : " change in avg500",
+      "stufac" : " student-faculty ratio",
+      "bowl" : " = 1 if bowl game in prev yr",
+      "year" : " 1992 or 1993",
+      "top25" : " perc frsh class in 25 hs perc",
+      "lapps" : " log(apps)",
+      "avg500" : " (ver500+mth500)/2",
+      "cbowl" : " change in bowl",
+      "cbball" : " change in bball",
+      "school" : " name of university",
+      "cstufac" : " change in stufac",
+      "clapps" : " change in lapps",
+      "finfour" : " = 1 if men's final 4 prv yr",
+      "btitle" : " = 1 if men's cnf chmps prv yr",
+      "cfinfour" : " change in finfour",
+      "mth500" : " perc frsh >= 500 on math SAT",
+      "lapps_1" : " lapps lagged",
+      "d93" : " =1 if year = 1993",
+      "ctop25" : " change in top25",
+      "cbtitle" : " change in btitle",
+      "bball" : " =1 if btitle or finfour",
+      "apps" : " # applics for admission",
+      "ver500" : " perc frsh >= 500 on verbal SAT"
+   },
+   "usage" : "data('athlet1')",
+   "description" : "Description\nWooldridge Sources: Peterson's Guide to Four Year Colleges, 1994 and 1995 (24th and 25th editions). Princeton University Press. Princeton, NJ. The Official 1995 College Basketball Records Book, 1994, NCAA. 1995 Information Please Sports Almanac (6th edition). Houghton Mifflin. New York, NY. Data loads lazily."
+}
+
 var athlet1 = [
    [
       "year",

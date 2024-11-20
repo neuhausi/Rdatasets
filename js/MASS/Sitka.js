@@ -1,3 +1,17 @@
+var SitkaInfo ={
+   "usage" : "Sitka",
+   "description" : "Description\nThe Sitka data frame has 395 rows and 4 columns.  It gives repeated\nmeasurements on the log-size of 79 Sitka spruce trees, 54 of which\nwere grown in ozone-enriched chambers and 25 were controls.  The size\nwas measured five times in 1988, at roughly monthly intervals.",
+   "title" : "Growth Curves for Sitka Spruce Trees in 1988",
+   "format" : "This data frame contains the following columns:",
+   "reference" : "P. J. Diggle, K.-Y. Liang and S. L. Zeger (1994)\nAnalysis of Longitudinal Data.\nClarendon Press, Oxford",
+   "parameters" : {
+      "treat" : "either \"ozone\" for an ozone-enriched\nchamber or \"control\".",
+      "size" : "measured size (height times diameter squared) of\ntree, on log scale.",
+      "Time" : "time of measurement in  days since 1 January 1988.",
+      "tree" : "number of tree."
+   }
+}
+
 var Sitka = [
    [
       "size",

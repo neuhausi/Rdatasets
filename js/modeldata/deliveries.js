@@ -1,3 +1,16 @@
+var deliveriesInfo ={
+   "usage" : "These data are from a study of food delivery times in minutes (i.e., the time from the\ninitial order to receiving the food) for a single restaurant. The data\ncontains 10,012 orders from a specific restaurant. The predictors include:",
+   "reference" : "deliveries\n\na tibble",
+   "title" : "Food Delivery Time Data",
+   "description" : "Description\nFood Delivery Time Data",
+   "parameters" : {
+      "The time, in decimal hours, of the order." : null,
+      "A set of 27 predictors that count the number of distinct menu items\nin the order." : null,
+      "The day of the week for the order." : null,
+      "The approximate distance in miles between the restaurant and the delivery\nlocation." : null
+   }
+}
+
 var deliveries = [
    [
       "time_to_delivery",

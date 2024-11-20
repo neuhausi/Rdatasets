@@ -1,3 +1,15 @@
+var migraineInfo ={
+   "description" : "Description\nExperiment involving acupuncture and sham acupuncture (as placebo) in the\ntreatment of migraines.",
+   "usage" : "migraine",
+   "parameters" : {
+      "group" : "a factor with levels control treatment",
+      "pain_free" : "a factor with levels no yes"
+   },
+   "format" : "A data frame with 89 observations on the following 2 variables.",
+   "title" : "Migraines and acupuncture",
+   "reference" : "G. Allais et al. Ear acupuncture in the treatment of migraine\nattacks: a randomized trial on the efficacy of appropriate versus\ninappropriate acupoints. In: Neurological Sci. 32.1 (2011), pp. 173-175."
+}
+
 var migraine = [
    [
       "group",

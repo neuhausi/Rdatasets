@@ -1,23 +1,14 @@
 {
    "config" : {
       "subtitle" : "Stat2Data - ThreeCars",
-      "graphType" : "Heatmap",
       "smpOverlays" : [
          "CarType"
       ],
+      "graphType" : "Heatmap",
       "title" : "Prices of Three Used Car Models (2007)"
    },
    "data" : {
       "y" : {
-         "vars" : [
-            "Price",
-            "Age",
-            "Mileage",
-            "Car",
-            "Porsche",
-            "Jaguar",
-            "BMW"
-         ],
          "data" : [
             [
                69.4,
@@ -755,6 +746,15 @@
             "Smp88",
             "Smp89",
             "Smp90"
+         ],
+         "vars" : [
+            "Price",
+            "Age",
+            "Mileage",
+            "Car",
+            "Porsche",
+            "Jaguar",
+            "BMW"
          ]
       },
       "x" : {

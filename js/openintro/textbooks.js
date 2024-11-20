@@ -1,3 +1,20 @@
+var textbooksInfo ={
+   "usage" : "textbooks",
+   "description" : "Description\nA random sample was taken of nearly 10\\\ntextbook for each course was identified, and its new price at the UCLA\nBookstore and on Amazon.com were recorded.",
+   "title" : "Textbook data for UCLA Bookstore and Amazon",
+   "format" : "A data frame with 73 observations on the following 7 variables.",
+   "reference" : "The sample represents only courses where textbooks were listed online\nthrough UCLA Bookstore's website. The most expensive textbook was selected\nbased on the UCLA Bookstore price, which may insert bias into the data; for\nthis reason, it may be beneficial to analyze only the data where more\nis \"N\".",
+   "parameters" : {
+      "ucla_new" : "New price at the UCLA Bookstore.",
+      "dept_abbr" : "Course department (abbreviated).",
+      "isbn" : "Book ISBN.",
+      "course" : "Course number.",
+      "amaz_new" : "New price on Amazon.com.",
+      "more" : "Whether additional books were required for the course (Y means \"yes, additional books were required\").",
+      "diff" : "The UCLA Bookstore price minus the Amazon.com price for each book."
+   }
+}
+
 var textbooks = [
    [
       "dept_abbr",

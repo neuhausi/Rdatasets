@@ -1,3 +1,33 @@
+var wageprcInfo ={
+   "parameters" : {
+      "gwage_8" : "",
+      "lwage" : " log(wage)",
+      "gwage" : " lwage - lwage[_n-1]",
+      "gwage_11" : "",
+      "gwage_6" : "",
+      "gwage_3" : "",
+      "wage" : " nominal hourly wage",
+      "gwage_7" : "",
+      "gprice_1" : " gprice[_n-1]",
+      "gwage_4" : "",
+      "price" : " consumer price index",
+      "gwage_5" : "",
+      "gwage_12" : "",
+      "gprice" : " lprice - lprice[_n-1]",
+      "lprice" : " log(price)",
+      "gwage_2" : " gwage[_n-2]",
+      "gwage_9" : "",
+      "gwage_10" : "",
+      "gwage_1" : " gwage[_n-1]",
+      "t" : " time trend = 1, 2 , 3, ..."
+   },
+   "format" : "A data.frame with 286 observations on 20 variables:",
+   "title" : "wageprc",
+   "reference" : "These monthly data run from January 1964 through October 1987. The consumer price index averages to 100 in 1967.",
+   "description" : "Description\nWooldridge Source: Economic Report of the President, various years. Data loads lazily.",
+   "usage" : "data('wageprc')"
+}
+
 var wageprc = [
    [
       "price",

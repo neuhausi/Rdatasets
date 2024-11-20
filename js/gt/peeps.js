@@ -1,3 +1,24 @@
+var peepsInfo ={
+   "title" : "A table of personal information for people all over the world",
+   "format" : "A tibble with 100 rows and 14 variables:",
+   "reference" : "DATA-8",
+   "parameters" : {
+      "state_prov" : "The state or province associated with the city and\naddress. This is NA for individuals residing in countries where\nsubdivision data is not needed for generating a valid mailing address.",
+      "address" : "The street address of the individual.",
+      "country" : "The 3-letter ISO 3166-1 country code representative of the\nindividual's country.",
+      "phone_number, country_code" : "The individual's phone number and the\ncountry code associated with the phone number.",
+      "name_given, name_family" : "The given and family name of individual.",
+      "dob" : "The individual's date of birth (DOB) in the ISO 8601 form of\nYYYY-MM-DD.",
+      "gender" : "The gender of the individual.",
+      "email_addr" : "The individual's email address.",
+      "city" : "The name of the city or locality in which the individual\nresides.",
+      "postcode" : "The post code associated with the city and address.",
+      "height_cm, weight_kg" : "The height and weight of the individual in\ncentimeters (cm) and kilograms (kg), respectively."
+   },
+   "usage" : "peeps",
+   "description" : "Description\nThe peeps dataset contains records for one hundred people residing in ten\ndifferent countries. Each person in the table has address information along\nwith their email address and phone number. There are also personal\ncharacteristics like date of birth, height, and weight. This data has been\nsynthesized, and so the names within the table have not been taken or based\non individuals in real life. The street addresses were generated from actual\nstreet names within real geographic localities, however, the street numbers\nwere assigned randomly from a constrained number set. While these records do\nnot relate to real people, efforts were made to make the data as realistic as\npossible."
+}
+
 var peeps = [
    [
       "name_given",

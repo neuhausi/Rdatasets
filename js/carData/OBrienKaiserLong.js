@@ -1,3 +1,19 @@
+var OBrienKaiserLongInfo ={
+   "parameters" : {
+      "id" : "the subject id number.",
+      "treatment" : "a between-subjects factor with levels control, A, B.",
+      "phase" : "a within-subjects factor with levels pre, post, fup.",
+      "score" : "the numeric response variable.",
+      "gender" : "a between-subjects factor with levels F, M.",
+      "hour" : "a within-subjects factor with levels 1, 2, 3, 4, 5."
+   },
+   "reference" : "O'Brien, R. G., and Kaiser, M. K. (1985)\nMANOVA method for analyzing repeated measures designs: An extensive primer.\nPsychological Bulletin 97, 316&ndash;333, Table 7.",
+   "title" : "O'Brien and Kaiser's Repeated-Measures Data in \"Long\" Format",
+   "format" : "A data frame with 240 observations on the following 6 variables.",
+   "description" : "Description\nContrived repeated-measures data from O'Brien and Kaiser (1985). For details see OBrienKaiser, which is for the \"wide\" form of the same data.",
+   "usage" : "OBrienKaiserLong"
+}
+
 var OBrienKaiserLong = [
    [
       "treatment",

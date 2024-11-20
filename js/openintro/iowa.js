@@ -1,3 +1,18 @@
+var iowaInfo ={
+   "description" : "Description\nA data frame containing information about the 2016 US Presidential Election for the state of Iowa.",
+   "usage" : "iowa",
+   "parameters" : {
+      "votes" : "Number of votes received by the candidate.",
+      "candidate" : "President/Vice President pairs who were running for office.",
+      "office" : "The office that the candidates were running for.",
+      "county" : "County in Iowa where the votes were cast.",
+      "party" : "Political part of the candidate."
+   },
+   "title" : "iowa",
+   "format" : "A data frame with 1386 observations on the following 5 variables.",
+   "reference" : "library(ggplot2)\nlibrary(dplyr)\n\nplot_data <- iowa |>\n  filter(candidate != \"Total\") |>\n  group_by(candidate) |>\n  summarize(total_votes = sum(votes) / 1000)\n\nggplot(plot_data, aes(total_votes, candidate)) +\n  geom_col() +\n  theme_minimal() +\n  labs(\n    title = \"2016 Presidential Election in Iowa\",\n    subtitle = \"Popular vote\",\n    y = \"\",\n    x = \"Number of Votes (in thousands)\n    \"\n  )"
+}
+
 var iowa = [
    [
       "office",

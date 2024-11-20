@@ -1,9 +1,9 @@
 {
    "config" : {
-      "title" : "Choice of Brand for Crackers",
       "smpOverlays" : [
          "choice"
       ],
+      "title" : "Choice of Brand for Crackers",
       "graphType" : "Heatmap",
       "subtitle" : "Ecdat - Cracker"
    },
@@ -3302,6 +3302,21 @@
             "Smp3290",
             "Smp3291",
             "Smp3292"
+         ],
+         "vars" : [
+            "id",
+            "disp.sunshine",
+            "disp.kleebler",
+            "disp.nabisco",
+            "disp.private",
+            "feat.sunshine",
+            "feat.kleebler",
+            "feat.nabisco",
+            "feat.private",
+            "price.sunshine",
+            "price.kleebler",
+            "price.nabisco",
+            "price.private"
          ],
          "data" : [
             [
@@ -46126,21 +46141,6 @@
                58.999997,
                58.999997
             ]
-         ],
-         "vars" : [
-            "id",
-            "disp.sunshine",
-            "disp.kleebler",
-            "disp.nabisco",
-            "disp.private",
-            "feat.sunshine",
-            "feat.kleebler",
-            "feat.nabisco",
-            "feat.private",
-            "price.sunshine",
-            "price.kleebler",
-            "price.nabisco",
-            "price.private"
          ]
       },
       "x" : {

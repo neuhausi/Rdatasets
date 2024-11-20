@@ -1,23 +1,14 @@
 {
    "config" : {
-      "graphType" : "Heatmap",
-      "subtitle" : "AER - MurderRates",
-      "title" : "Determinants of Murder Rates in the United States",
       "smpOverlays" : [
          "southern"
-      ]
+      ],
+      "graphType" : "Heatmap",
+      "title" : "Determinants of Murder Rates in the United States",
+      "subtitle" : "AER - MurderRates"
    },
    "data" : {
       "y" : {
-         "vars" : [
-            "rate",
-            "convictions",
-            "executions",
-            "time",
-            "income",
-            "lfp",
-            "noncauc"
-         ],
          "data" : [
             [
                19.25,
@@ -341,6 +332,15 @@
                0.057,
                0.022
             ]
+         ],
+         "vars" : [
+            "rate",
+            "convictions",
+            "executions",
+            "time",
+            "income",
+            "lfp",
+            "noncauc"
          ],
          "smps" : [
             "Smp1",

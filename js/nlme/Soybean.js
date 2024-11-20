@@ -1,3 +1,17 @@
+var SoybeanInfo ={
+   "title" : "Growth of soybean plants",
+   "reference" : "These data are described in\nDavidian and Giltinan (1995, 1.1.3, p.7) as &ldquo;Data from an\nexperiment to compare growth patterns of two genotypes of soybeans:\nPlant Introduction #416937 (P), an experimental strain, and Forrest\n(F), a commercial variety.&rdquo;",
+   "usage" : "This data frame contains the following columns:",
+   "parameters" : {
+      "Variety" : "a factor indicating the variety; Forrest (F) or Plant\nIntroduction #416937 (P).",
+      "weight" : "a numeric vector giving the average leaf weight per plant (g).",
+      "Plot" : "a factor giving a unique identifier for each plot.",
+      "Year" : "a factor indicating the year the plot was planted.",
+      "Time" : "a numeric vector giving the time the sample was taken (days\nafter planting)."
+   },
+   "description" : "Description\nThe Soybean data frame has 412 rows and 5 columns."
+}
+
 var Soybean = [
    [
       "Plot",

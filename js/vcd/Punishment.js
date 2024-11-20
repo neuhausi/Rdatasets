@@ -1,3 +1,18 @@
+var PunishmentInfo ={
+   "description" : "Description\nData from a study of the Gallup Institute in Denmark in 1979 about the\nattitude of a random sample of 1,456 persons towards corporal punishment\nof children.",
+   "usage" : "data(\"Punishment\")",
+   "parameters" : {
+      "education" : "factor indicating highest level of education\n(elementary, secondary, high).",
+      "age" : "factor indicating age group in years (15-24, 25-39, 40-).",
+      "Freq" : "frequency.",
+      "attitude" : "factor indicating attitude: (no, moderate)\npunishment of children.",
+      "memory" : "factor indicating whether the person had memories of\ncorporal punishment as a child (yes, no)."
+   },
+   "title" : "Corporal Punishment Data",
+   "format" : "A data frame with 36 observations and 5 variables.",
+   "reference" : "Anderson (1991) erroneously indicates the total sum of respondents to be 783."
+}
+
 var Punishment = [
    [
       "Freq",

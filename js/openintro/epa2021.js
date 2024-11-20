@@ -1,3 +1,41 @@
+var epa2021Info ={
+   "title" : "Vehicle info from the EPA for 2021",
+   "reference" : "Fuel Economy Data from fueleconomy.gov. Retrieved 6 May, 2021.",
+   "format" : "A data frame with 1108 observations on the following 28 variables.",
+   "parameters" : {
+      "mfr_name" : "Manufacturer name.",
+      "trans_lockup" : "Whether transmission locks up, a factor with levels N and Y.",
+      "no_gears" : "Number of gears.",
+      "fuel_usage" : "Fuel usage, a factor with levels.",
+      "drive_sys" : "Drive system, a factor with levels.",
+      "class" : "Class of car.",
+      "hwy_mpg" : "Highway mileage.",
+      "engine_displacement" : "Engine displacement.",
+      "guzzler" : "Whether the car is considered a \"guzzler\" or not, a factor with levels N and Y.",
+      "fuel_cell" : "Whether the car has a fuel cell or not, a factor with levels N, NA.",
+      "car_truck" : "Car or truck, a factor with levels car, 1, &#8288;??&#8288;, 1.",
+      "air_aspir_method" : "Air aspiration method.",
+      "model_yr" : "a numeric vector",
+      "air_aspir_method_desc" : "Air aspiration method description.",
+      "carline" : "Vehicle line.",
+      "fuel_usage_desc" : "Fuel usage description.",
+      "mfr_code" : "Manufacturer code.",
+      "transmission_speed" : "Transmission speed.",
+      "model_type_index" : "Model type index.",
+      "trans_creeper_gear" : "A factor with level N only.",
+      "city_mpg" : "City mileage.",
+      "transmission_desc" : "Transmission type description.",
+      "release_date" : "Date of vehicle release.",
+      "drive_desc" : "Drive system description.",
+      "no_cylinders" : "Number of cylinders.",
+      "transmission" : "Transmission type.",
+      "division" : "Vehicle division.",
+      "comb_mpg" : "Combined mileage."
+   },
+   "usage" : "epa2021",
+   "description" : "Description\nDetails from the EPA."
+}
+
 var epa2021 = [
    [
       "model_yr",

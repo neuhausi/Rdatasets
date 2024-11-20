@@ -1,3 +1,21 @@
+var stagecInfo ={
+   "description" : "Description\nA set of 146 patients with stage C prostate cancer, from a\nstudy exploring the prognostic value of flow cytometry.",
+   "usage" : "data(stagec)",
+   "parameters" : {
+      "age" : "age in years",
+      "eet" : "early endocrine therapy, 1 = no, 2 = yes",
+      "ploidy" : "the ploidy status of the tumor, from flow\ncytometry. Values are &lsquo;&#8288;diploid&#8288;&rsquo;, &lsquo;&#8288;tetraploid&#8288;&rsquo;,\nand &lsquo;&#8288;aneuploid&#8288;&rsquo;",
+      "grade" : "grade of the tumor, Farrow system",
+      "pgstat" : "1 = progression observed, 0 = censored",
+      "gleason" : "grade of the tumor, Gleason system",
+      "g2" : "percent of cells in G2 phase, as found by flow cytometry",
+      "pgtime" : "Time to progression or last follow-up (years)"
+   },
+   "format" : "A data frame with 146 observations on the following 8 variables.",
+   "title" : "Stage C Prostate Cancer",
+   "reference" : "A tumor is called diploid (normal complement of dividing cells) if the\nfraction of cells in G2 phase was determined to be 13% or less.\nAneuploid cells have a measurable fraction with a chromosome count that\nis neither 24 nor 48, for these the G2 percent is difficult or\nimpossible to measure."
+}
+
 var stagec = [
    [
       "pgtime",

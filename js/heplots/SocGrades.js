@@ -1,3 +1,22 @@
+var SocGradesInfo ={
+   "description" : "Description\nThe data set SocGrades contains four outcome measures on student\nperformance in an introductory sociology course together with six potential\npredictors. These data were used by Marascuilo and Levin (1983) for an\nexample of canonical correlation analysis, but are also suitable as examples\nof multivariate multiple regression, MANOVA, MANCOVA and step-down analysis\nin multivariate linear models.",
+   "parameters" : {
+      "final" : "score on final exam",
+      "pretest" : "score on course pretest",
+      "hssoc" : "previous high school unit in sociology, a factor with 2 no, yes",
+      "midterm2" : "score on second midterm exam",
+      "sex" : "sex, a factor with levels F M",
+      "eval" : "course evaluation",
+      "midterm1" : "score on first midterm exam",
+      "boards" : "College Board test scores",
+      "gpa" : "grade point average",
+      "class" : "Social class, an ordered factor with levels\n1 > 2 > 3"
+   },
+   "title" : "Grades in a Sociology Course",
+   "reference" : "midterm1, midterm2, final, and possibly eval are\nthe response variables. All other variables are potential predictors.",
+   "usage" : "A data frame with 40 observations on the following 10 variables."
+}
+
 var SocGrades = [
    [
       "class",

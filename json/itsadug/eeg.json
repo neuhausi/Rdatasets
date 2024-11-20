@@ -1,10 +1,10 @@
 {
    "config" : {
-      "graphType" : "Scatter2D",
-      "scatterPlotMatrix" : 1,
       "subtitle" : "itsadug - eeg",
+      "scatterPlotMatrix" : 1,
+      "colorBy" : "Electrode",
       "title" : "Raw EEG data",
-      "colorBy" : "Electrode"
+      "graphType" : "Scatter2D"
    },
    "data" : {
       "z" : {
@@ -10542,12 +10542,6 @@
                0
             ]
          ],
-         "smps" : [
-            "Time",
-            "Ampl",
-            "X",
-            "Y"
-         ],
          "vars" : [
             "1",
             "2",
@@ -12053,6 +12047,12 @@
             "2680",
             "2681",
             "2682"
+         ],
+         "smps" : [
+            "Time",
+            "Ampl",
+            "X",
+            "Y"
          ]
       }
    },

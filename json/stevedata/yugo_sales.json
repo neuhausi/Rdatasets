@@ -1,33 +1,18 @@
 {
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>yugo_sales</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Yugo Sales in the United States, 1985-1992</h2>\n<h3>Description</h3>\n<p>A data set on Yugo sales against two competing models in the United States\nfrom 1985 to 1992.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>yugo_sales\n</code></pre>\n<h3>Format</h3>\n<p>A data frame with 24 observations on the following 3 variables.\n</p>\n<dl>\n<dt><code>year</code></dt><dd><p>the year</p>\n</dd>\n<dt><code>car</code></dt><dd><p>the car type, either the Hyundai Excel, Yugo, or Toyota Tercel</p>\n</dd>\n<dt><code>sales</code></dt><dd><p>the number of units sold in the United States</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>Data come from a website then known as <code>carsalesbase.com</code>. I'm\naware the inclusion of the Tercel is questionable since the third generation\nof Tercels were quite different from the first and second generations.\nHowever, I use these data to illustrate how poorly the Yugo fared against\ncompeting models, including the first and second generation Tercels. I think\nthe inclusion is fair for that purpose.\n</p>\n</main>\n</div>\n",
+   "config" : {
+      "groupingFactors" : [
+         "sales"
+      ],
+      "colorBy" : "variable",
+      "graphType" : "Boxplot",
+      "subtitle" : "stevedata - yugo_sales",
+      "segregateSamplesBy" : [
+         "car"
+      ],
+      "title" : "Yugo Sales in the United States"
+   },
    "data" : {
       "x" : {
-         "car" : [
-            "Hyundai Excel",
-            "Hyundai Excel",
-            "Hyundai Excel",
-            "Hyundai Excel",
-            "Hyundai Excel",
-            "Hyundai Excel",
-            "Hyundai Excel",
-            "Hyundai Excel",
-            "Yugo",
-            "Yugo",
-            "Yugo",
-            "Yugo",
-            "Yugo",
-            "Yugo",
-            "Yugo",
-            "Yugo",
-            "Toyota Tercel",
-            "Toyota Tercel",
-            "Toyota Tercel",
-            "Toyota Tercel",
-            "Toyota Tercel",
-            "Toyota Tercel",
-            "Toyota Tercel",
-            "Toyota Tercel"
-         ],
          "sales" : [
             "",
             "168882",
@@ -53,37 +38,35 @@
             "90808",
             "102043",
             "96173"
+         ],
+         "car" : [
+            "Hyundai Excel",
+            "Hyundai Excel",
+            "Hyundai Excel",
+            "Hyundai Excel",
+            "Hyundai Excel",
+            "Hyundai Excel",
+            "Hyundai Excel",
+            "Hyundai Excel",
+            "Yugo",
+            "Yugo",
+            "Yugo",
+            "Yugo",
+            "Yugo",
+            "Yugo",
+            "Yugo",
+            "Yugo",
+            "Toyota Tercel",
+            "Toyota Tercel",
+            "Toyota Tercel",
+            "Toyota Tercel",
+            "Toyota Tercel",
+            "Toyota Tercel",
+            "Toyota Tercel",
+            "Toyota Tercel"
          ]
       },
       "y" : {
-         "data" : [
-            [
-               1985,
-               1986,
-               1987,
-               1988,
-               1989,
-               1990,
-               1991,
-               1992,
-               1985,
-               1986,
-               1987,
-               1988,
-               1989,
-               1990,
-               1991,
-               1992,
-               1985,
-               1986,
-               1987,
-               1988,
-               1989,
-               1990,
-               1991,
-               1992
-            ]
-         ],
          "smps" : [
             "Smp1",
             "Smp2",
@@ -112,19 +95,36 @@
          ],
          "vars" : [
             "year"
+         ],
+         "data" : [
+            [
+               1985,
+               1986,
+               1987,
+               1988,
+               1989,
+               1990,
+               1991,
+               1992,
+               1985,
+               1986,
+               1987,
+               1988,
+               1989,
+               1990,
+               1991,
+               1992,
+               1985,
+               1986,
+               1987,
+               1988,
+               1989,
+               1990,
+               1991,
+               1992
+            ]
          ]
       }
    },
-   "config" : {
-      "graphType" : "Boxplot",
-      "subtitle" : "stevedata - yugo_sales",
-      "segregateSamplesBy" : [
-         "sales"
-      ],
-      "title" : "Yugo Sales in the United States",
-      "colorBy" : "variable",
-      "groupingFactors" : [
-         "car"
-      ]
-   }
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>yugo_sales</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Yugo Sales in the United States, 1985-1992</h2>\n<h3>Description</h3>\n<p>A data set on Yugo sales against two competing models in the United States\nfrom 1985 to 1992.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>yugo_sales\n</code></pre>\n<h3>Format</h3>\n<p>A data frame with 24 observations on the following 3 variables.\n</p>\n<dl>\n<dt><code>year</code></dt><dd><p>the year</p>\n</dd>\n<dt><code>car</code></dt><dd><p>the car type, either the Hyundai Excel, Yugo, or Toyota Tercel</p>\n</dd>\n<dt><code>sales</code></dt><dd><p>the number of units sold in the United States</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>Data come from a website then known as <code>carsalesbase.com</code>. I'm\naware the inclusion of the Tercel is questionable since the third generation\nof Tercels were quite different from the first and second generations.\nHowever, I use these data to illustrate how poorly the Yugo fared against\ncompeting models, including the first and second generation Tercels. I think\nthe inclusion is fair for that purpose.\n</p>\n</main>\n</div>\n"
 }

@@ -1,8 +1,8 @@
 {
    "config" : {
       "graphType" : "Heatmap",
-      "subtitle" : "boot - melanoma",
-      "title" : "Survival from Malignant Melanoma"
+      "title" : "Survival from Malignant Melanoma",
+      "subtitle" : "boot - melanoma"
    },
    "data" : {
       "y" : {
@@ -1457,6 +1457,15 @@
                0
             ]
          ],
+         "vars" : [
+            "time",
+            "status",
+            "sex",
+            "age",
+            "year",
+            "thickness",
+            "ulcer"
+         ],
          "smps" : [
             "Smp1",
             "Smp2",
@@ -1663,15 +1672,6 @@
             "Smp203",
             "Smp204",
             "Smp205"
-         ],
-         "vars" : [
-            "time",
-            "status",
-            "sex",
-            "age",
-            "year",
-            "thickness",
-            "ulcer"
          ]
       }
    },

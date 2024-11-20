@@ -1,3 +1,17 @@
+var billboardInfo ={
+   "parameters" : {
+      "artist" : "Artist name",
+      "wk1 &ndash; wk76" : "Rank of the song in each week after it entered",
+      "date.enter" : "Date the song entered the top 100",
+      "track" : "Song name"
+   },
+   "format" : "A dataset with variables:",
+   "title" : "Song rankings for Billboard top 100 in the year 2000",
+   "reference" : "The \"Whitburn\" project, https://waxy.org/2008/05/the_whitburn_project/,\n(downloaded April 2008)",
+   "description" : "Description\nSong rankings for Billboard top 100 in the year 2000",
+   "usage" : "billboard"
+}
+
 var billboard = [
    [
       "artist",

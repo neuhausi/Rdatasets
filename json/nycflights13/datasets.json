@@ -8,10 +8,6 @@
       "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/nycflights13/airports.json"
    ],
    [
-      "flights",
-      "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/nycflights13/flights.json"
-   ],
-   [
       "planes",
       "https://raw.githubusercontent.com/neuhausi/Rdatasets/master/json/nycflights13/planes.json"
    ],

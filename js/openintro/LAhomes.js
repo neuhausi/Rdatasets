@@ -1,3 +1,21 @@
+var LAhomesInfo ={
+   "description" : "Description\nData collected by Andrew Bray at Reed College on characteristics of LA Homes in 2010.",
+   "usage" : "LAhomes",
+   "parameters" : {
+      "type" : "Type of home with levels Condo/Twh - condo or townhouse, SFR - single family residence, and NA",
+      "city" : "City where the home is located.",
+      "garage" : "Number of cars that can be parked in the garage. Note that a value of 4 refers to 4 or more garage spaces.",
+      "sqft" : "Squarefootage of the home.",
+      "price" : "Listing price of the home.",
+      "bath" : "Number of bathrooms in the home.",
+      "pool" : "Indicates if the home has a pool.",
+      "bed" : "Number of bedrooms in the home."
+   },
+   "format" : "A data frame with 1594 observations on the following 8 variables.",
+   "title" : "LAhomes",
+   "reference" : "library(ggplot2)\n\nggplot(LAhomes, aes(sqft, price)) +\n  geom_point(alpha = 0.2) +\n  theme_minimal() +\n  labs(\n    title = \"Can we predict list price from squarefootage?\",\n    subtitle = \"Homes in the Los Angeles area\",\n    x = \"Square feet\",\n    y = \"List price\"\n  )"
+}
+
 var LAhomes = [
    [
       "city",

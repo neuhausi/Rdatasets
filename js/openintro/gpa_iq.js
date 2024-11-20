@@ -1,3 +1,18 @@
+var gpa_iqInfo ={
+   "description" : "Description\nData on 78 students including GPA, IQ, and gender.",
+   "usage" : "gpa_iq",
+   "parameters" : {
+      "obs" : "a numeric vector",
+      "gender" : "Gender.",
+      "concept" : "a numeric vector",
+      "iq" : "IQ.",
+      "gpa" : "Grade point average (GPA)."
+   },
+   "reference" : "gpa_iq",
+   "title" : "Sample of students and their GPA and IQ",
+   "format" : "A data frame with 78 observations representing students on the\nfollowing 5 variables."
+}
+
 var gpa_iq = [
    [
       "obs",

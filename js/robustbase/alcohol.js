@@ -1,3 +1,20 @@
+var alcoholInfo ={
+   "usage" : "data(alcohol, package=\"robustbase\")",
+   "description" : "Description\nThe solubility of alcohols in water is important in understanding\nalcohol transport in living organisms.  This dataset from (Romanelli\net al., 2001) contains physicochemical characteristics of 44 aliphatic\nalcohols.  The aim of the experiment was the prediction of the\nsolubility on the basis of molecular descriptors.",
+   "format" : "A data frame with 44 observations on the following 7 numeric variables.",
+   "title" : "Alcohol Solubility in Water Data",
+   "reference" : "The website accompanying the MMY-book:\nhttps://www.wiley.com/legacy/wileychi/robust_statistics/",
+   "parameters" : {
+      "Mass" : "the mass",
+      "V" : "volume",
+      "logSolubility" : "ln(Solubility), the response.",
+      "logPC" : "Log(PC); PC = octanol-water partitions coefficient",
+      "SAG" : "solvent accessible surface-bounded molecular volume.",
+      "P" : "polarizability",
+      "RM" : "molar refractivity"
+   }
+}
+
 var alcohol = [
    [
       "SAG",

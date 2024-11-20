@@ -1,3 +1,23 @@
+var AHCAvote2017Info ={
+   "usage" : "A data frame with 430 observations on the following 11 variables.",
+   "title" : "Congressional Votes on American Health Care Act (in 2017)",
+   "reference" : "On May 4, 2017, the U.S. House of Representatives voted, by the narrow margin of 217-213, to pass the American Health Care Act. Most Republicans voted Yes, while all Democrats voted No.",
+   "parameters" : {
+      "Rep" : "1=Republican, 0=Democrat",
+      "uniChange" : "uni2015 - uni2013",
+      "Trump" : "1=Trump won district, 0=Clinton won district",
+      "Dist" : "Congressional district",
+      "uni2015" : "Percentage of citizens without health care in 2015",
+      "Member" : "Name of representative",
+      "Dem" : "1=Democrat, 0=Republican",
+      "STATE" : "State name",
+      "uni2013" : "Percentage of citizens without health care in 2013",
+      "AHCAvote" : "1=yes, 0=no",
+      "Party" : "Party affiliation (D=Democrat, R=Republican)"
+   },
+   "description" : "Description\nCongressional votes on the American Health Care Act in 2017"
+}
+
 var AHCAvote2017 = [
    [
       "STATE",

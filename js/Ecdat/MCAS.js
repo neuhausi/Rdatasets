@@ -1,3 +1,30 @@
+var MCASInfo ={
+   "description" : "Description\na cross-section from 1997-1998\nnumber of observations :  220\nobservation :  schools\ncountry :  United States",
+   "usage" : "data(MCAS)",
+   "parameters" : {
+      "pctel" : "percent English learners",
+      "totsc4" : "4th grade score (math+english+science)",
+      "municipa" : "municipality (name)",
+      "tchratio" : "students per teacher",
+      "spc" : "students per computer",
+      "totday" : "spending per pupil, total",
+      "regday" : "spending per pupil, regular",
+      "occupday" : "spending per pupil, occupational",
+      "speced" : "special education students",
+      "totsc8" : "8th grade score (math+english+science)",
+      "lnchpct" : "eligible for free or reduced price lunch",
+      "avgsalary" : "average teacher salary",
+      "percap" : "per capita income",
+      "bilingua" : "spending per pupil, bilingual",
+      "code" : "district code (numerical)",
+      "specneed" : "spending per pupil, special needs",
+      "district" : "district name"
+   },
+   "title" : "The Massachusetts Test Score Data Set",
+   "format" : "A dataframe containing :",
+   "reference" : "Massachusetts Comprehensive Assessment System (MCAS), Massachusetts Department of Education, 1990 U.S. Census."
+}
+
 var MCAS = [
    [
       "code",

@@ -1,3 +1,19 @@
+var txhousingInfo ={
+   "parameters" : {
+      "median" : "Median sale price",
+      "volume" : "Total value of sales",
+      "sales" : "Number of sales",
+      "listings" : "Total active listings",
+      "year,month,date" : "Date",
+      "city" : "Name of multiple listing service (MLS) area",
+      "inventory" : "\"Months inventory\": amount of time it would take to sell\nall current listings at current pace of sales."
+   },
+   "description" : "Description\nInformation about the housing market in Texas provided by the TAMU\nreal estate center, https://trerc.tamu.edu/.",
+   "usage" : "txhousing",
+   "title" : "Housing sales in TX",
+   "format" : "A data frame with 8602 observations and 9 variables:"
+}
+
 var txhousing = [
    [
       "city",

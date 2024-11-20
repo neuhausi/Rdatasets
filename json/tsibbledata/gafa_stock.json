@@ -1,13 +1,4 @@
 {
-   "config" : {
-      "title" : "GAFA stock prices",
-      "smpOverlays" : [
-         "Date",
-         "Symbol"
-      ],
-      "graphType" : "Heatmap",
-      "subtitle" : "tsibbledata - gafa_stock"
-   },
    "data" : {
       "y" : {
          "smps" : [
@@ -5043,6 +5034,14 @@
             "Smp5030",
             "Smp5031",
             "Smp5032"
+         ],
+         "vars" : [
+            "Open",
+            "High",
+            "Low",
+            "Close",
+            "Adj_Close",
+            "Volume"
          ],
          "data" : [
             [
@@ -35249,14 +35248,6 @@
                1414800,
                1493300
             ]
-         ],
-         "vars" : [
-            "Open",
-            "High",
-            "Low",
-            "Close",
-            "Adj_Close",
-            "Volume"
          ]
       },
       "x" : {
@@ -45330,5 +45321,14 @@
          ]
       }
    },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>gafa_stock</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>GAFA stock prices</h2>\n<h3>Description</h3>\n<p>Historical stock prices from 2014-2018 for Google, Amazon, Facebook and Apple.\nAll prices are in $USD.\n</p>\n<h3>Format</h3>\n<p>Time series of class <code>tsibble</code>\n</p>\n<h3>Details</h3>\n<p><code>gafa_stock</code> is a <code>tsibble</code> containing data on irregular trading days:\n</p>\n<table>\n<tr>\n <td style=\"text-align: left;\">\nOpen:      </td><td style=\"text-align: left;\"> The opening price for the stock.</td>\n</tr>\n<tr>\n <td style=\"text-align: left;\">\nHigh:      </td><td style=\"text-align: left;\"> The stock's highest trading price.</td>\n</tr>\n<tr>\n <td style=\"text-align: left;\">\nLow:       </td><td style=\"text-align: left;\"> The stock's lowest trading price.</td>\n</tr>\n<tr>\n <td style=\"text-align: left;\">\nClose:     </td><td style=\"text-align: left;\"> The closing price for the stock.</td>\n</tr>\n<tr>\n <td style=\"text-align: left;\">\nAdj_Close: </td><td style=\"text-align: left;\"> The adjusted closing price for the stock.</td>\n</tr>\n<tr>\n <td style=\"text-align: left;\">\nVolume:    </td><td style=\"text-align: left;\"> The amount of stock traded.</td>\n</tr>\n<tr>\n <td style=\"text-align: left;\">\n</td>\n</tr>\n</table>\n<p>Each stock is uniquely identified by one key:\n</p>\n<table>\n<tr>\n <td style=\"text-align: left;\">\nSymbol:      </td><td style=\"text-align: left;\"> The ticker symbol for the stock.</td>\n</tr>\n<tr>\n <td style=\"text-align: left;\">\n</td>\n</tr>\n</table>\n<h3>Source</h3>\n<p>Yahoo Finance historical data\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>library(tsibble)\ngafa_stock\n</code></pre>\n</main>\n</div>\n"
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>gafa_stock</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>GAFA stock prices</h2>\n<h3>Description</h3>\n<p>Historical stock prices from 2014-2018 for Google, Amazon, Facebook and Apple.\nAll prices are in $USD.\n</p>\n<h3>Format</h3>\n<p>Time series of class <code>tsibble</code>\n</p>\n<h3>Details</h3>\n<p><code>gafa_stock</code> is a <code>tsibble</code> containing data on irregular trading days:\n</p>\n<table>\n<tr>\n <td style=\"text-align: left;\">\nOpen:      </td><td style=\"text-align: left;\"> The opening price for the stock.</td>\n</tr>\n<tr>\n <td style=\"text-align: left;\">\nHigh:      </td><td style=\"text-align: left;\"> The stock's highest trading price.</td>\n</tr>\n<tr>\n <td style=\"text-align: left;\">\nLow:       </td><td style=\"text-align: left;\"> The stock's lowest trading price.</td>\n</tr>\n<tr>\n <td style=\"text-align: left;\">\nClose:     </td><td style=\"text-align: left;\"> The closing price for the stock.</td>\n</tr>\n<tr>\n <td style=\"text-align: left;\">\nAdj_Close: </td><td style=\"text-align: left;\"> The adjusted closing price for the stock.</td>\n</tr>\n<tr>\n <td style=\"text-align: left;\">\nVolume:    </td><td style=\"text-align: left;\"> The amount of stock traded.</td>\n</tr>\n<tr>\n <td style=\"text-align: left;\">\n</td>\n</tr>\n</table>\n<p>Each stock is uniquely identified by one key:\n</p>\n<table>\n<tr>\n <td style=\"text-align: left;\">\nSymbol:      </td><td style=\"text-align: left;\"> The ticker symbol for the stock.</td>\n</tr>\n<tr>\n <td style=\"text-align: left;\">\n</td>\n</tr>\n</table>\n<h3>Source</h3>\n<p>Yahoo Finance historical data\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>library(tsibble)\ngafa_stock\n</code></pre>\n</main>\n</div>\n",
+   "config" : {
+      "subtitle" : "tsibbledata - gafa_stock",
+      "graphType" : "Heatmap",
+      "title" : "GAFA stock prices",
+      "smpOverlays" : [
+         "Date",
+         "Symbol"
+      ]
+   }
 }

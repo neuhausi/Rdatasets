@@ -1,7 +1,19 @@
 {
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>ChinaIncome</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Chinese Real National Income Data</h2>\n<h3>Description</h3>\n<p>Time series of real national income in China per section (index with 1952 = 100).\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(\"ChinaIncome\")</code></pre>\n<h3>Format</h3>\n<p>An annual multiple time series from 1952 to 1988 with 5 variables.\n</p>\n<dl>\n<dt>agriculture</dt><dd><p>Real national income in agriculture sector.</p>\n</dd>\n<dt>industry</dt><dd><p>Real national income in industry sector.</p>\n</dd>\n<dt>construction</dt><dd><p>Real national income in construction sector.</p>\n</dd>\n<dt>transport</dt><dd><p>Real national income in transport sector.</p>\n</dd>\n<dt>commerce</dt><dd><p>Real national income in commerce sector.</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>Online complements to Franses (1998).\n</p>\n<h3>References</h3>\n<p>Chow, G.C. (1993). Capital Formation and Economic Growth in China.\n<em>Quarterly Journal of Economics</em>, <b>103</b>, 809&ndash;842.\n</p>\n<p>Franses, P.H. (1998). <em>Time Series Models for Business and Economic Forecasting</em>.\nCambridge, UK: Cambridge University Press.\n</p>\n<h3>See Also</h3>\n<p><code>Franses1998</code></p>\n<h3>Examples</h3>\n<pre><code class='language-R'>data(\"ChinaIncome\")\nplot(ChinaIncome)\n</code></pre>\n</main>\n</div>\n",
+   "config" : {
+      "scatterPlotMatrix" : 1,
+      "title" : "Chinese Real National Income Data",
+      "graphType" : "Scatter2D",
+      "subtitle" : "AER - ChinaIncome"
+   },
    "data" : {
       "y" : {
+         "smps" : [
+            "agriculture",
+            "commerce",
+            "construction",
+            "industry",
+            "transport"
+         ],
          "vars" : [
             "Var1",
             "Var2",
@@ -301,20 +313,8 @@
                4765,
                1413.6
             ]
-         ],
-         "smps" : [
-            "agriculture",
-            "commerce",
-            "construction",
-            "industry",
-            "transport"
          ]
       }
    },
-   "config" : {
-      "title" : "Chinese Real National Income Data",
-      "subtitle" : "AER - ChinaIncome",
-      "scatterPlotMatrix" : 1,
-      "graphType" : "Scatter2D"
-   }
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>ChinaIncome</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Chinese Real National Income Data</h2>\n<h3>Description</h3>\n<p>Time series of real national income in China per section (index with 1952 = 100).\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(\"ChinaIncome\")</code></pre>\n<h3>Format</h3>\n<p>An annual multiple time series from 1952 to 1988 with 5 variables.\n</p>\n<dl>\n<dt>agriculture</dt><dd><p>Real national income in agriculture sector.</p>\n</dd>\n<dt>industry</dt><dd><p>Real national income in industry sector.</p>\n</dd>\n<dt>construction</dt><dd><p>Real national income in construction sector.</p>\n</dd>\n<dt>transport</dt><dd><p>Real national income in transport sector.</p>\n</dd>\n<dt>commerce</dt><dd><p>Real national income in commerce sector.</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>Online complements to Franses (1998).\n</p>\n<h3>References</h3>\n<p>Chow, G.C. (1993). Capital Formation and Economic Growth in China.\n<em>Quarterly Journal of Economics</em>, <b>103</b>, 809&ndash;842.\n</p>\n<p>Franses, P.H. (1998). <em>Time Series Models for Business and Economic Forecasting</em>.\nCambridge, UK: Cambridge University Press.\n</p>\n<h3>See Also</h3>\n<p><code>Franses1998</code></p>\n<h3>Examples</h3>\n<pre><code class='language-R'>data(\"ChinaIncome\")\nplot(ChinaIncome)\n</code></pre>\n</main>\n</div>\n"
 }

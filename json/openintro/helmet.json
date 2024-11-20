@@ -16,6 +16,10 @@
             "Var11",
             "Var12"
          ],
+         "smps" : [
+            "lunch",
+            "helmet"
+         ],
          "data" : [
             [
                50,
@@ -65,16 +69,12 @@
                25,
                38.4
             ]
-         ],
-         "smps" : [
-            "lunch",
-            "helmet"
          ]
       }
    },
    "config" : {
+      "title" : "Socioeconomic status and reduced-fee school lunches",
       "graphType" : "Scatter2D",
-      "subtitle" : "openintro - helmet",
-      "title" : "Socioeconomic status and reduced-fee school lunches"
+      "subtitle" : "openintro - helmet"
    }
 }

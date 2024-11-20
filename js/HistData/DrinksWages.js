@@ -1,3 +1,19 @@
+var DrinksWagesInfo ={
+   "parameters" : {
+      "drinks" : "the number of drinkers, a numeric vector",
+      "sober" : "the number of non-drinkers, a numeric vector",
+      "trade" : "a factor with levels baker barman billposter ...  wellsinker wireworker",
+      "wage" : "weekly wage (in shillings), a numeric vector",
+      "class" : "wage class: a factor with levels A B C",
+      "n" : "total number, a numeric vector"
+   },
+   "format" : "A data frame with 70 observations on the following 6 variables, giving the number of non-drinkers (sober)\nand drinkers (drinks) in various occupational categories (trade).",
+   "reference" : "The data give Karl Pearson's tabulation of the father's trades from\nan Edinburgh sample, classified by whether they drink or are sober,\nand giving average weekly wage.",
+   "title" : "Elderton and Pearson's (1910) data on drinking and wages",
+   "description" : "Description\nIn 1910, Karl Pearson weighed in on the debate, fostered by the temperance movement,\non the evils done by alcohol not only to drinkers, but to their families.\nThe report \"A first study of the influence\nof parental alcoholism on the physique and ability of their offspring\"\nwas an ambitious attempt to the new methods of statistics to bear on\nan important question of social policy, to see if the hypothesis that\nchildren were damaged by parental alcoholism would stand up to\nstatistical scrutiny.\nWorking with his assistant, Ethel M. Elderton, Pearson collected voluminous\ndata in Edinburgh and Manchester on many aspects of health, stature,\nintelligence, etc. of children classified according to the drinking\nhabits of their parents.  His conclusions where almost invariably\nnegative:  the tendency of parents to drink appeared unrelated\nto any thing he had measured.\nThe firestorm that this report set off is well described by Stigler (1999),\nChapter 1.  The data set DrinksWages is just one of Pearson's\nmany tables, that he published in a letter to The Times,\nAugust 10, 1910.",
+   "usage" : "data(DrinksWages)"
+}
+
 var DrinksWages = [
    [
       "class",

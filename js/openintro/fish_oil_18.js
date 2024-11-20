@@ -1,3 +1,37 @@
+var fish_oil_18Info ={
+   "usage" : "fish_oil_18",
+   "description" : "Description\nThe results summarize each of the health outcomes for an experiment where\n12,933 subjects received a 1g fish oil supplement daily and 12,938 received\na placebo daily.  The experiment's duration was 5-years.",
+   "format" : "The format is a list of 24 matrices.  Each matrix is a 2x2 table,\nand below are the named items in the list, which also represent the\noutcomes.",
+   "reference" : "Manson JE, et al. 2018. Marine n-3 Fatty Acids and Prevention of\nCardiovascular Disease and Cancer. NEJMoa1811403.\ndoi:10.1056/NEJMoa1811403.",
+   "title" : "Findings on n-3 Fatty Acid Supplement Health Benefits",
+   "parameters" : {
+      "cardio_event_expanded" : "Cardiovascular event in expanded composite endpoint.",
+      "major_cardio_event_after_2y" : "Major cardiovascular event, excluding the first 2 years of follow-up.",
+      "ischemic_stroke" : "Ischemic stroke.",
+      "cardio_death" : "Death from cardiovascular causes.",
+      "breast_cancer" : "Breast cancer.",
+      "cancer_death" : "Death from cancer.",
+      "invasive_cancer" : "Invasive cancer of any type. (Primary end point.)",
+      "death_after_2y" : "Death from any cause, excluding the first 2 years of follow-up.",
+      "colorectal_cancer" : "Colorectal cancer.",
+      "CABG" : "Coronary artery bypass graft.",
+      "myocardial_infarction_after_2y" : "Total myocardial infarction, excluding the first 2 years of follow-up.",
+      "chd_death" : "Death from coronary heart disease.",
+      "hemorrhagic_stroke" : "Hemorrhagic stroke.",
+      "PCI" : "Percutaneous coronary intervention.",
+      "prostate_cancer" : "Prostate cancer.",
+      "total_coronary_heart_disease" : "Total coronary heart disease.",
+      "stroke" : "Total stroke.",
+      "myocardial_infarction_death" : "Death from myocardial infraction.",
+      "cancer_death_after_2y" : "Death from cancer, excluding the first 2 years of follow-up.",
+      "myocardioal_infarction" : "Total myocardial infarction. (Heart attack.)",
+      "invasive_cancer_after_2y" : "Invasive cancer of any type, excluding the first 2 years of follow-up.",
+      "stroke_death" : "Death from stroke.",
+      "major_cardio_event" : "Major cardiovascular event. (Primary end point.)",
+      "death" : "Death from any cause."
+   }
+}
+
 var fish_oil_18 = [
    [
       "major_cardio_event.major_cardio_event",

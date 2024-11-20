@@ -1,3 +1,10 @@
+var gardenflowersInfo ={
+   "usage" : "data(\"gardenflowers\")",
+   "title" : "Garden Flowers",
+   "format" : "An object of class dist.",
+   "description" : "Description\nThe dissimilarity matrix of 18 species of garden flowers."
+}
+
 var gardenflowers = [
    [
       "x"

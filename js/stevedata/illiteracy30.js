@@ -1,3 +1,24 @@
+var illiteracy30Info ={
+   "usage" : "illiteracy30",
+   "description" : "Description\nThis is perhaps the canonical data set for illustrating the ecological fallacy.",
+   "format" : "A data frame with 40 observations on the following 11 variables.",
+   "reference" : "All population totals reflect those 10 years or older. The 1930 Census (along with Robinson (1950))\nuses \"negro\" in lieu of black, but the variable names here eschew that older label. Note that some states\nare not yet states in the 1930 Census.",
+   "title" : "Illiteracy in the Population 10 Years Old and Over, 1930",
+   "parameters" : {
+      "black" : "a numeric vector for the total black population.",
+      "pop" : "a numeric vector for the total population",
+      "fpwhite" : "a numeric vector for the total white population with \"foreign or mixed parentage\"",
+      "black_il" : "a numeric vector for the total black population that is illiterate",
+      "nwhite" : "a numeric vector for the total native white population",
+      "fbwhite" : "a numeric vector for the total foreign-born white population",
+      "state" : "a character for the state",
+      "fbwhite_il" : "a numeric vector for the total foreign-born white population that is illiterate",
+      "nwhite_il" : "a numeric vector for the total native white population that is illiterate",
+      "pop_il" : "a numeric vector for the total population that is illiterate",
+      "fpwhite_il" : "a numeric vector for the total white population with \"foreign or mixed parentage\" that is illiterate"
+   }
+}
+
 var illiteracy30 = [
    [
       "state",

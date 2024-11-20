@@ -1,3 +1,20 @@
+var CHAINInfo ={
+   "usage" : "data(CHAIN)",
+   "description" : "Description\nThe CHAIN project was a longitudinal cohort study of people living with HIV in New York City, \nwhich was recruited in 1994 from a large number of medical care and social service agencies\nserving HIV in New York City. This subset of data pertain to the sixth round of interviews.",
+   "title" : "Subset of variables from the CHAIN project",
+   "format" : "A data.frame with 532 observations on the following 8 variables.",
+   "reference" : "A missing value in the log virus load level \nwas assigned to individuals who either could not recall\ntheir viral load level, did not have a viral load test in the six month\npreceding the interview, or reported their viral loads as \"good\" or \"bad\".",
+   "parameters" : {
+      "healthy" : "a continuous scale of physical health with a theoretical range between 0 and 100 where\nbetter health is associated with higher scale values",
+      "treatment" : "a three-level ordered variable:\n0=Not currently taking HAART (Highly Active AntiretRoviral Therapy)\n1=taking HAART but nonadherent,\n2=taking HAART and adherent",
+      "mental" : "a binary measure of poor mental health ( 1=Yes, 0=No )",
+      "income" : "annual family income in 10 intervals",
+      "age" : "age at time of the interview",
+      "log_virus" : "log of self reported viral load level, where zero represents an undetectable level.",
+      "damage" : "ordered interval for the CD4 count, which is an\nindicator of how much damage HIV has caused to the immune system"
+   }
+}
+
 var CHAIN = [
    [
       "log_virus",

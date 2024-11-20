@@ -1,3 +1,10 @@
+var HospitalInfo ={
+   "usage" : "data(\"Hospital\")",
+   "format" : "A 2-dimensional array resulting from cross-tabulating \n132 patients.  The variables and their levels are as follows:",
+   "title" : "Hospital data",
+   "description" : "Description\nThe table relates the length of stay (in years) of 132\nlong-term schizophrenic patients in two London mental hospitals with\nthe frequency of visits."
+}
+
 var Hospital = [
    [
       "Visit.frequency",

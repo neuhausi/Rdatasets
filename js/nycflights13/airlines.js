@@ -1,3 +1,15 @@
+var airlinesInfo ={
+   "format" : "Data frame with columns",
+   "title" : "Airline names.",
+   "reference" : "https://www.transtats.bts.gov/DL_SelectFields.asp?Table_ID=236",
+   "parameters" : {
+      "carrier" : "Two letter abbreviation.",
+      "name" : "Full name."
+   },
+   "usage" : "airlines",
+   "description" : "Description\nLook up airline names from their carrier codes."
+}
+
 var airlines = [
    [
       "carrier",

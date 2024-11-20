@@ -1,3 +1,20 @@
+var gabaInfo ={
+   "description" : "Description\nThe table shows, separately for males and females, the effect \nof pentazocine on post-operative pain profiles (average VAS scores), \nwith (mbac and fbac) and without (mpl and fpl) preoperatively administered \nbaclofen.  Pain scores are recorded every 20 minutes, from 10 minutes\nto 170 minutes.",
+   "usage" : "gaba",
+   "parameters" : {
+      "fbac" : "a numeric vector",
+      "mbac" : "a numeric vector",
+      "avplac" : "a numeric vector",
+      "avbac" : "a numeric vector",
+      "mpl" : "a numeric vector",
+      "fpl" : "a numeric vector",
+      "min" : "a numeric vector"
+   },
+   "title" : "Effect of pentazocine on post-operative pain (average VAS scores)",
+   "format" : "A data frame with 9 observations on the following 7 variables.",
+   "reference" : "15 females were given baclofen, as against 3 males.\n7 females received the placebo, as against 16 males.\nAverages for the two treatments (baclofen/placebo),\ntaken over all trial participants and ignoring sex,\nare misleading."
+}
+
 var gaba = [
    [
       "min",

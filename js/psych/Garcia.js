@@ -1,3 +1,19 @@
+var GarciaInfo ={
+   "description" : "Description\nGarcia, Schmitt, Branscombe, and Ellemers (2010) report data for 129 subjects on the effects of perceived sexism on anger and liking of women's reactions to ingroup members who protest discrimination. This data set is also used as the &lsquo;protest&rsquo; data set by Hayes (2013 and 2018).  It is a useful example of mediation and moderation in regression. It may also be used as an example of plotting interactions.",
+   "usage" : "data(\"GSBE\")",
+   "parameters" : {
+      "sexism" : "Means of an 8 item Modern Sexism Scale.",
+      "prot2" : "A recoding of protest into two levels (to match Hayes, 2013).",
+      "protest" : "0 = no protest, 1 = Individual Protest, 2 = Collective Protest",
+      "anger" : "Anger towards the target of discrimination. &ldquo;I feel angry towards Catherine\".",
+      "respappr" : "Mean of four items of appropriateness of the target's response.",
+      "liking" : "Mean rating of 6 liking ratings of the target."
+   },
+   "title" : "Data from the sexism (protest) study of Garcia, Schmitt, Branscome, and Ellemers (2010)",
+   "reference" : "The reaction of women to women who protest discriminatory treatment was examined in an experiment reported by Garcia et al. (2010). 129 women  were given a description of sex discrimination in the workplace (a male lawyer was promoted over a clearly more qualified female lawyer).  Subjects then read that the target lawyer felt that the decision was unfair.  Subjects were then randomly assigned to three conditions: Control (no protest), Individual Protest (&ldquo;They are treating me unfairly\") , or Collective Protest (&ldquo;The firm is is treating women unfairly\").",
+   "format" : "A data frame with 129 observations on the following 6 variables."
+}
+
 var Garcia = [
    [
       "protest",

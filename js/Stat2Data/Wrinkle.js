@@ -1,3 +1,19 @@
+var WrinkleInfo ={
+   "description" : "Description\nResults from an experiment to move wet/dry objects with wrinkled/dry fingers",
+   "parameters" : {
+      "DryThenWet" : "Dry first? (1=yes or 1=no)",
+      "Participant" : "Participant ID  (p1 to p20)",
+      "Condition" : "non-wrinkled/dry, non-wrinkled/wet, wrinkled/dry, or wrinkled/wet",
+      "WrinkledThenNon" : "Wrinkled first? (1=yes or 1=no)",
+      "Fingers" : "Status of fingers (non or wrinkled)",
+      "Objects" : "Status of objects (dry or wet)",
+      "Time" : "Time to move objects (seconds)"
+   },
+   "usage" : "A data frame with 80 observations on the following 7 variables.",
+   "title" : "Moving Wet Objects with Wrinkled Fingers",
+   "reference" : "Each of 20 participants were measured doing a \"transfer task\" several times under each of four conditions. The transfer task was to pick up an item with the right hand thumb and index finger, pass the item through a small hole and grab it with the left hand, and then put the item into a box that had a hole in the lid. Sometimes the participant's fingers were wrinkled; sometimes the items were sitting in water."
+}
+
 var Wrinkle = [
    [
       "Participant",

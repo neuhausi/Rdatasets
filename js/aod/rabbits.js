@@ -1,3 +1,15 @@
+var rabbitsInfo ={
+   "usage" : "data(rabbits)",
+   "title" : "Rabbits Foetuses Survival Experiment",
+   "format" : "A data frame with 84 observations on the following 3 variables.",
+   "description" : "Description\nExperimental data for analyzing the effect of an increasing dose of a compound on the proportion of live foetuses \naffected. Four treatment-groups were considered: control &ldquo;C&rdquo;, low dose &ldquo;L&rdquo;, medium dose &ldquo;M&rdquo; \nand high dose &ldquo;H&rdquo;. The animal species used in the experiment was banded Dutch rabbit (Paul, 1982, Table 1).",
+   "parameters" : {
+      "group" : "a factor with levels C, H, L and M",
+      "n" : "a numeric vector: the total number of foetuses.",
+      "y" : "a numeric vector: the number of affected foetuses."
+   }
+}
+
 var rabbits = [
    [
       "group",

@@ -1,3 +1,17 @@
+var szaInfo ={
+   "reference" : "The solar zenith angle (SZA) is one measure that helps to describe the sun's\npath across the sky. It's defined as the angle of the sun relative to a line\nperpendicular to the earth's surface. It is useful to calculate the SZA in\nrelation to the true solar time. True solar time relates to the position of\nthe sun with respect to the observer, which is different depending on the\nexact longitude. For example, two hours before the sun crosses the meridian\n(the highest point it would reach that day) corresponds to a true solar time\nof 10 a.m. The SZA has a strong dependence on the observer's latitude. For\nexample, at a latitude of 50 degrees N at the start of January, the noontime\nSZA is 73.0 but a different observer at 20 degrees N would measure the\nnoontime SZA to be 43.0 degrees.",
+   "format" : "A tibble with 816 rows and 4 variables:",
+   "title" : "Twice hourly solar zenith angles by month & latitude",
+   "parameters" : {
+      "tst" : "The true solar time at the given latitude and date (first of\nmonth) for which the solar zenith angle is calculated.",
+      "month" : "The measurement month. All calculations where conducted for the\nfirst day of each month.",
+      "latitude" : "The latitude in decimal degrees for the observations.",
+      "sza" : "The solar zenith angle in degrees, where NAs indicate that\nsunrise hadn't yet occurred by the tst value."
+   },
+   "usage" : "sza",
+   "description" : "Description\nThis dataset contains solar zenith angles (in degrees, with the range of\n0-90) every half hour from 04:00 to 12:00, true solar time. This set of\nvalues is calculated on the first of every month for 4 different northern\nhemisphere latitudes. For determination of afternoon values, the presented\ntabulated values are symmetric about noon."
+}
+
 var sza = [
    [
       "latitude",

@@ -1,3 +1,40 @@
+var ResumeNamesInfo ={
+   "reference" : "Cross-section data about resume, call-back and employer information for 4,870 fictitious\nresumes sent in response to employment advertisements in Chicago and Boston in 2001, \nin a randomized controlled experiment conducted by Bertrand and Mullainathan (2004).\nThe resumes contained information concerning the ethnicity of the applicant.\nBecause ethnicity is not typically included on a resume, resumes were differentiated on\nthe basis of so-called &ldquo;Caucasian sounding names&rdquo; (such as Emily Walsh or Gregory Baker)\nand &ldquo;African American sounding names&rdquo; (such as Lakisha Washington or Jamal Jones).\nA large collection of fictitious resumes were created and the pre-supposed\nethnicity (based on the sound of the name) was randomly assigned to each resume.\nThese resumes were sent to prospective employers to see which resumes generated a phone call\nfrom the prospective employer.",
+   "title" : "Are Emily and Greg More Employable Than Lakisha and Jamal?",
+   "format" : "A data frame containing 4,870 observations on 27 variables.",
+   "parameters" : {
+      "requirements" : "factor. Does the ad mention some requirement for the job?",
+      "reqorg" : "factor. Does the ad mention some organizational skills requirement?",
+      "equal" : "factor. Is the employer EOE (equal opportunity employment)?",
+      "volunteer" : "factor. Did the resume mention some volunteering experience?",
+      "college" : "factor. Does the applicant have a college degree or more?",
+      "reqexp" : "factor. Does the ad mention some experience requirement?",
+      "email" : "factor. Was the e-mail address on the applicant's resume?",
+      "military" : "factor. Does the applicant have military experience?",
+      "wanted" : "factor indicating type of position wanted by employer.",
+      "reqcomp" : "factor. Does the ad mention some computer skills requirement?",
+      "minimum" : "factor indicating minimum experience requirement of the employer.",
+      "honors" : "factor. Did the resume mention some honors?",
+      "quality" : "factor indicating quality of resume.",
+      "name" : "factor indicating applicant's first name.",
+      "special" : "factor. Does the resume mention some special skills?",
+      "call" : "factor. Was the applicant called back?",
+      "city" : "factor indicating city: Boston or Chicago.",
+      "reqcomm" : "factor. Does the ad mention some communication skills requirement?",
+      "reqeduc" : "factor. Does the ad mention some educational requirement?",
+      "computer" : "factor. Does the resume mention some computer skills?",
+      "experience" : "number of years of work experience on the resume.",
+      "holes" : "factor. Does the resume have some employment holes?",
+      "industry" : "factor indicating type of employer industry.",
+      "school" : "factor. Does the resume mention some work experience while at school?",
+      "gender" : "factor indicating gender.",
+      "jobs" : "number of jobs listed on resume.",
+      "ethnicity" : "factor indicating ethnicity (i.e., Caucasian-sounding\nvs. African-American sounding first name)."
+   },
+   "usage" : "data(\"ResumeNames\")",
+   "description" : "Description\nCross-section data about resume, call-back and employer information for 4,870 fictitious\nresumes."
+}
+
 var ResumeNames = [
    [
       "name",

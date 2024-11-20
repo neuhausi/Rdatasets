@@ -1,3 +1,21 @@
+var rdchemInfo ={
+   "description" : "Description\nWooldridge Source: From Businessweek R&D Scoreboard, October 25, 1991. Data loads lazily.",
+   "usage" : "data('rdchem')",
+   "parameters" : {
+      "lsales" : " log(sales)",
+      "sales" : " firm sales, millions",
+      "rd" : " R&D spending, millions",
+      "rdintens" : " rd as percent of sales",
+      "salessq" : " sales^2",
+      "profits" : " profits, millions",
+      "profmarg" : " profits as percent of sales",
+      "lrd" : " log(rd)"
+   },
+   "format" : "A data.frame with 32 observations on 8 variables:",
+   "reference" : "It would be interesting to collect more recent data and see whether the R&D/firm size relationship has changed over time.",
+   "title" : "rdchem"
+}
+
 var rdchem = [
    [
       "rd",

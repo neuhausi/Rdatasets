@@ -1,3 +1,15 @@
+var softbacksInfo ={
+   "usage" : "softbacks",
+   "description" : "Description\nThis is a subset of the allbacks data frame \nwhich gives measurements\non the volume and weight of 8 paperback books.",
+   "reference" : "The bookshelf of J. H. Maindonald.",
+   "format" : "This data frame contains the following columns:",
+   "title" : "Measurements on a Selection of Paperback Books",
+   "parameters" : {
+      "volume" : "a numeric vector giving the book volumes\nin cubic centimeters",
+      "weight" : "a numeric vector giving the weights in grams"
+   }
+}
+
 var softbacks = [
    [
       "volume",

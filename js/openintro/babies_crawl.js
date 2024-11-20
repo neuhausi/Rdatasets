@@ -1,3 +1,18 @@
+var babies_crawlInfo ={
+   "description" : "Description\nCrawling age of babies along with the average outdoor temperature at 6\nmonths of age.",
+   "usage" : "babies_crawl",
+   "parameters" : {
+      "sd" : "a numeric vector",
+      "birth_month" : "A factor with levels corresponding to months",
+      "n" : "a numeric vector",
+      "temperature" : "a numeric vector",
+      "avg_crawling_age" : "a numeric vector"
+   },
+   "reference" : "J.B. Benson. Season of birth and onset of locomotion: Theoretical\nand methodological implications. In: Infant behavior and development 16.1\n(1993), pp. 69-81. issn: 0163-6383.",
+   "title" : "Crawling age",
+   "format" : "A data frame with 12 observations on the following 5 variables."
+}
+
 var babies_crawl = [
    [
       "birth_month",

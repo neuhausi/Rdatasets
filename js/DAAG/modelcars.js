@@ -1,3 +1,15 @@
+var modelcarsInfo ={
+   "format" : "This data frame contains the following columns:",
+   "title" : "Model Car Data",
+   "reference" : "W.J. Braun",
+   "parameters" : {
+      "starting.point" : "a numeric vector consisting\nof the distance of the starting point from the top of\nthe ramp (in cm)",
+      "distance.traveled" : "a numeric vector consisting\nof the lengths traveled (in cm)"
+   },
+   "usage" : "modelcars",
+   "description" : "Description\nThe modelcars data frame has 12 rows and 2 columns.\nThe data are for an experiment in which a model car was released\nthree times at each of four different distances up a 20 degree\nramp.  The experimenter recorded distances traveled from the \nbottom of the ramp across a concrete floor."
+}
+
 var modelcars = [
    [
       "distance.traveled",

@@ -1,3 +1,16 @@
+var SeaIceInfo ={
+   "description" : "Description\nArea of sea ice in the Arctic measured yearly in September (1979 to 2015)",
+   "parameters" : {
+      "Year" : "Year (1979 - 2015)",
+      "Extent" : "Extent of arctic sea ice (in million square km)",
+      "t" : "Index for year (t=1 in 1979)",
+      "Area" : "Area of arctic sea ice (in million square km)"
+   },
+   "title" : "Arctic Sea Ice (1979-2015)",
+   "reference" : "Climatologists have been measuring the amount of sea ice in both the Arctic and Antarctic regions for a number of years.  This datafile gives information about the amount of sea ice in the arctic region as measured in September (the time when the amount of ice is at its least) since 1979.  The basic research question is to see if we can use time to model the amount of sea ice.",
+   "usage" : "A data frame with 37 observations on the following 4 variables."
+}
+
 var SeaIce = [
    [
       "Year",

@@ -1,3 +1,18 @@
+var SLIDInfo ={
+   "format" : "This data frame contains the following columns:",
+   "reference" : "The data are taken from the public-use dataset made available by\nStatistics Canada, and prepared by the Institute for Social Research,\nYork University.",
+   "title" : "Survey of Labour and Income Dynamics",
+   "parameters" : {
+      "age" : "in years.",
+      "education" : "Number of years of schooling.",
+      "sex" : "A factor with levels:\nFemale,\nMale.",
+      "language" : "A factor with levels:\nEnglish,\nFrench,\nOther.",
+      "wages" : "Composite hourly wage rate from all jobs."
+   },
+   "usage" : "SLID",
+   "description" : "Description\nThe SLID data frame has 7425 rows and 5 columns.\nThe data are from the 1994 wave of the Canadian Survey of Labour and Income Dynamics,\nfor the province of Ontario.\nThere are missing data, particularly for wages."
+}
+
 var SLID = [
    [
       "wages",

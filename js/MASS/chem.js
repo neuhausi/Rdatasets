@@ -1,3 +1,10 @@
+var chemInfo ={
+   "usage" : "chem",
+   "title" : "Copper in Wholemeal Flour",
+   "format" : "Analytical Methods Committee (1989) Robust statistics &ndash; how not to\nreject outliers. The Analyst 114, 1693&ndash;1702.",
+   "description" : "Description\nA numeric vector of 24 determinations of copper in wholemeal\nflour, in parts per million."
+}
+
 var chem = [
    [
       "dat"

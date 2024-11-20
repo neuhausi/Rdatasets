@@ -1,3 +1,10 @@
+var scatInfo ={
+   "format" : "Reid, R. E. B. (2015). A morphometric modeling approach to\ndistinguishing among bobcat, coyote and gray fox scats. Wildlife\nBiology, 21(5), 254-262",
+   "title" : "Morphometric data on scat",
+   "usage" : "scat\n\na tibble",
+   "description" : "Description\nReid (2015) collected data on animal feses in coastal California. The data\nconsist of DNA verified species designations as well as fields related to\nthe time and place of the collection and the scat itself. The data are on\nthe three main species."
+}
+
 var scat = [
    [
       "Species",

@@ -1,3 +1,16 @@
+var ohioInfo ={
+   "description" : "Description\nThe ohio data frame has 2148 rows and 4 columns. The dataset is a\nsubset of the six-city study, a longitudinal study of the health effects of\nair pollution.",
+   "parameters" : {
+      "id" : "a numeric vector for subject id",
+      "resp" : "an indicator of wheeze status (1=yes, 0=no)",
+      "age" : "a numeric vector of age, 0 is 9 years old",
+      "smoke" : "an indicator of maternal smoking at the first\nyear of the study"
+   },
+   "format" : "This data frame contains the following columns:",
+   "title" : "Ohio Children Wheeze Status",
+   "usage" : "ohio"
+}
+
 var ohio = [
    [
       "resp",

@@ -1,11 +1,11 @@
 {
    "config" : {
+      "subtitle" : "plm - Hedonic",
+      "title" : "Hedonic Prices of Census Tracts in the Boston Area",
+      "graphType" : "Heatmap",
       "smpOverlays" : [
          "chas"
-      ],
-      "title" : "Hedonic Prices of Census Tracts in the Boston Area",
-      "subtitle" : "plm - Hedonic",
-      "graphType" : "Heatmap"
+      ]
    },
    "data" : {
       "x" : {
@@ -519,22 +519,6 @@
          ]
       },
       "y" : {
-         "vars" : [
-            "mv",
-            "crim",
-            "zn",
-            "indus",
-            "nox",
-            "rm",
-            "age",
-            "dis",
-            "rad",
-            "tax",
-            "ptratio",
-            "blacks",
-            "lstat",
-            "townid"
-         ],
          "smps" : [
             "Smp1",
             "Smp2",
@@ -1042,6 +1026,22 @@
             "Smp504",
             "Smp505",
             "Smp506"
+         ],
+         "vars" : [
+            "mv",
+            "crim",
+            "zn",
+            "indus",
+            "nox",
+            "rm",
+            "age",
+            "dis",
+            "rad",
+            "tax",
+            "ptratio",
+            "blacks",
+            "lstat",
+            "townid"
          ],
          "data" : [
             [

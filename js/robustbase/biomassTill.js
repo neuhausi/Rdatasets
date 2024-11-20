@@ -1,3 +1,17 @@
+var biomassTillInfo ={
+   "format" : "A data frame with 58 observations on the following 3 variables.",
+   "reference" : "From Strahinja Stepanovic and John Laborde, Department of Agronomy &\nHorticulture, University of Nebraska-Lincoln, USA",
+   "title" : "Biomass Tillage Data",
+   "parameters" : {
+      "Biomass" : "accumulated biomass of maize plants from each\ntillage treatment.",
+      "Tillage" : "Tillage treatments, a factor\nwith levels \n\n\nCA-:a no-tillage system with plant residues removed\n\nCA+:a no-tillage system with plant residues retained\n\nCT:a conventionally tilled system with residues incorporated",
+      "DVS" : "the development stage of the maize crop.  A DVS of\n1 represents maize anthesis (flowering), and a DVS of 2\nrepresents physiological maturity.   For the data, numeric vector with\n5 different values between 0.5 and 2.",
+      "Biom.2" : "the same as Biomass, but with three\nvalues replaced by &ldquo;gross errors&rdquo;."
+   },
+   "usage" : "data(\"biomassTill\", package=\"robustbase\")",
+   "description" : "Description\nAn agricultural experiment in which different tillage methods were\nimplemented. The effects of tillage on plant (maize) biomass were\nsubsequently determined by modeling biomass accumulation for each\ntillage treatment using a 3 parameter Weibull function.\nA datset where the total biomass is modeled conditional on a\nthree value factor, and hence vector parameters are used."
+}
+
 var biomassTill = [
    [
       "Tillage",

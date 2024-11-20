@@ -1,3 +1,9 @@
+var EthanolInfo ={
+   "usage" : "A data frame with 16 observations on the following 3 variables.",
+   "title" : "Effects of Oxygen on Sugar Metabolism",
+   "description" : "Description\nExperiment on the effects of oxygen on sugar metabolism by bacteria"
+}
+
 var Ethanol = [
    [
       "Sugar",

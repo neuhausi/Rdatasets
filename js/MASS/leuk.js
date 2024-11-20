@@ -1,3 +1,16 @@
+var leukInfo ={
+   "usage" : "leuk",
+   "description" : "Description\nA data frame of data from 33 leukaemia patients.",
+   "title" : "Survival Times and White Blood Counts for Leukaemia Patients",
+   "format" : "A data frame with columns:",
+   "reference" : "Survival times are given for 33 patients who died from acute\nmyelogenous leukaemia.  Also measured was the patient's white blood cell\ncount at the time of diagnosis.  The patients were also factored into 2\ngroups according to the presence or absence of a morphologic\ncharacteristic of white blood cells. Patients termed AG positive were\nidentified by the presence of Auer rods and/or significant granulation\nof the leukaemic cells in the bone marrow at the time of diagnosis.",
+   "parameters" : {
+      "ag" : "a test result, \"present\" or \"absent\".",
+      "time" : "survival time in weeks.",
+      "wbc" : "white blood count."
+   }
+}
+
 var leuk = [
    [
       "wbc",

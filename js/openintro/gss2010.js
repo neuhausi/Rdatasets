@@ -1,3 +1,18 @@
+var gss2010Info ={
+   "format" : "A data frame with 2044 observations on the following 5 variables.",
+   "title" : "2010 General Social Survey",
+   "reference" : "US 2010 General Social Survey.",
+   "parameters" : {
+      "degree" : "Educational attainment or degree.",
+      "hrs1" : "Hours worked each week.",
+      "grass" : "Do you think the use of marijuana should be made legal, or not?",
+      "mntlhlth" : "For how many days during the past 30 days was your mental health, which includes stress, depression, and problems with emotions, not good?",
+      "hrsrelax" : "After an average work day, about how many hours do you have to relax or pursue activities that you enjoy"
+   },
+   "usage" : "gss2010",
+   "description" : "Description\nData from the 2010 General Social Survey."
+}
+
 var gss2010 = [
    [
       "hrsrelax",

@@ -1,3 +1,15 @@
+var ElephantsFBInfo ={
+   "usage" : "A data frame with 138 observations on the following 3 variables.",
+   "reference" : "Data on 138 male African elephants that lived through droughts in the first two years of life.",
+   "title" : "Measurements of Male African Elephants",
+   "parameters" : {
+      "Firstborn" : "Firstborn? (1=yes, 0=no)",
+      "Height" : "Shoulder height (in cm)",
+      "Age" : "Age (in years)"
+   },
+   "description" : "Description\nAge and height of male African elephants"
+}
+
 var ElephantsFB = [
    [
       "Age",

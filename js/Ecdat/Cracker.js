@@ -1,3 +1,18 @@
+var CrackerInfo ={
+   "usage" : "data(Cracker)",
+   "description" : "Description\na cross-section\nnumber of observations :  3292\nobservation :  individuals\ncountry :  United States",
+   "format" : "A dataframe containing :",
+   "title" : "Choice of Brand for Crackers",
+   "reference" : "Jain, Dipak C.,  Naufel J.    Vilcassim and  Pradeep K.  Chintagunta (1994) &ldquo;A random&ndash;coefficients logit brand&ndash;choice model applied to panel data&rdquo;, Journal of Business and Economics Statistics, 12(3), 317.",
+   "parameters" : {
+      "id" : "individuals identifiers",
+      "price.z" : "price of brand z",
+      "choice" : "one of sunshine, kleebler, \nnabisco, private",
+      "feat.z" : "is there a newspaper feature advertisement for brand z ?",
+      "disp.z" : "is there a display for brand z ?"
+   }
+}
+
 var Cracker = [
    [
       "id",

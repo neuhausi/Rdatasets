@@ -1,3 +1,9 @@
+var amesInfo ={
+   "title" : "Ames Housing Data",
+   "usage" : "See this links for the sources below for more information as well as\n?AmesHousing::make_ames.",
+   "description" : "Description\nA data set from De Cock (2011) has 82 fields were recorded for 2,930\nproperties in Ames IA. This version is copies from the AmesHousing package\nbut does not include a few quality columns that appear to be outcomes\nrather than predictors."
+}
+
 var ames = [
    [
       "MS_SubClass",

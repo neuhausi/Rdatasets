@@ -1,3 +1,28 @@
+var CholeraInfo ={
+   "title" : "William Farr's Data on Cholera in London, 1849",
+   "format" : "A data frame with 38 observations on the following 15 variables.",
+   "reference" : "The supply of water was classified as &ldquo;Thames, between Battersea and Waterloo Bridges&rdquo;\n(central London), \n&ldquo;New River, Rivers Lea and Ravensbourne&rdquo;, and &ldquo;Thames, at Kew and Hammersmith&rdquo;\n(western London).\nThe factor levels use abbreviations for these.",
+   "parameters" : {
+      "cholera_drate" : "deaths from cholera in 1849 per 10,000 inhabitants, a numeric vector",
+      "houses" : "number of houses, a numeric vector",
+      "annual_deaths" : "annual deaths from all causes, 1838-1844, a numeric vector",
+      "district" : "name of the district in London, a character vector",
+      "pop_dens" : "population density (persons per acre), a numeric vector",
+      "house_val" : "total house values, a numeric vector",
+      "elevation" : "elevation, in feet above the high water mark, a numeric vector",
+      "area" : "district area, a numeric vector",
+      "water" : "water supply region, a factor with levels Battersea New River Kew; see Details",
+      "house_valpp" : "average annual value of house, per person (pounds), a numeric vector",
+      "region" : "a grouping of the London districts, a factor with levels West North Central South Kent",
+      "persons_house" : "persons per inhabited house, a numeric vector",
+      "cholera_deaths" : "number of deaths registered from cholera in 1849, a numeric vector",
+      "poor_rate" : "poor rate precept per pound of house value, a numeric vector",
+      "popn" : "population, in the middle of 1849, a numeric vector"
+   },
+   "usage" : "data(\"Cholera\")",
+   "description" : "Description\nIn 1852, William Farr, published a report of the Registrar-General on mortality\ndue to cholera in England in the years 1848-1849, during which there was a\nlarge epidemic throughout the country.  Farr initially believed that cholera\narose from bad air (\"miasma\") associated with low elevation above the\nRiver Thames. John Snow (1855) later showed that the disease was principally\nspread by contaminated water.\nThis data set comes from a paper by Brigham et al. (2003) that analyses some\ntables from Farr's report to examine the prevalence of death from cholera\nin the districts of London in relation to the available predictors from\nFarr's table."
+}
+
 var Cholera = [
    [
       "district",

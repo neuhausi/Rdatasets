@@ -1,3 +1,21 @@
+var GaltonFamiliesInfo ={
+   "parameters" : {
+      "gender" : "child gender, a factor with levels female male",
+      "childNum" : "number of this child within family. Children are listed in decreasing order\nof height for boys followed by girls",
+      "children" : "number of children in this family",
+      "childHeight" : "height of child",
+      "mother" : "height of mother",
+      "midparentHeight" : "mid-parent height, calculated as (father + 1.08*mother)/2",
+      "family" : "family ID, a factor with levels 001-204",
+      "father" : "height of father"
+   },
+   "title" : "Galton's data on the heights of parents and their children, by child",
+   "reference" : "Galton's notebook lists 963 children in 205 families ranging from 1-15 adult children children.\nOf these, 29 had non-numeric heights recorded and are not included here.",
+   "format" : "A data frame with 934 observations on the following 8 variables.",
+   "description" : "Description\nThis data set lists the individual observations for 934 children in 205 families\non which Galton (1886) based his cross-tabulation.\nIn addition to the question of the relation between heights of parents and their offspring,\nfor which this data is mainly famous, Galton had another purpose which the\ndata in this form allows to address:\nDoes marriage selection indicate a relationship between the heights of husbands and\nwives, a topic he called assortative mating?\nKeen [p. 297-298](2010) provides a brief discussion of this topic.",
+   "usage" : "data(GaltonFamilies)"
+}
+
 var GaltonFamilies = [
    [
       "family",

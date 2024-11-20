@@ -1,3 +1,23 @@
+var nswdemoInfo ={
+   "parameters" : {
+      "nodeg" : "(0 = completed high school, 1 = dropout).",
+      "age" : "age (in years).",
+      "re75" : "real earnings in 1975.",
+      "hisp" : "(0 = not hispanic, 1 = hispanic).",
+      "educ" : "years of education.",
+      "trt" : "a numeric vector \nidentifying the study in which the subjects were enrolled\n(0 = Control, 1 = treated).",
+      "marr" : "(0 = not married, 1 = married).",
+      "black" : "(0 = not black, 1 = black).",
+      "re78" : "real earnings in 1978.",
+      "re74" : "real earnings in 1974."
+   },
+   "reference" : "https://users.nber.org/~rdehejia/nswdata.html",
+   "format" : "This data frame contains the following columns:",
+   "title" : "Labour Training Evaluation Data",
+   "description" : "Description\nThe nswdemo data frame contains 722 rows and 10 columns.\nThese data are pertinent to an investigation of the way that   \nearnings changed, between 1974-1975 and 1978, for an experimental\ntreatment who were given job training as compared with a control\ngroup who did not receive such training.\nThe psid1 data set is an alternative non-experimental \"control\"\ngroup. psid2 and psid3 are subsets of psid1,\ndesigned to be better matched to the experimental data than\npsid1. Note also the cps1, cps2 and cps3\ndatasets (DAAGxtras) that have been proposed as\nnon-experimental controls.",
+   "usage" : "data(nswdemo)"
+}
+
 var nswdemo = [
    [
       "trt",

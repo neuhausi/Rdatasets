@@ -1,3 +1,21 @@
+var beveridgeInfo ={
+   "usage" : "data('beveridge')",
+   "description" : "Description\nWooldridge  Data loads lazily.",
+   "reference" : "NA",
+   "format" : "A data.frame with 135 observations on 8 variables:",
+   "title" : "beveridge",
+   "parameters" : {
+      "curate" : " D.urate",
+      "urate_1" : " L.urate",
+      "t" : " linear time trend",
+      "vrate_1" : " L.vrate",
+      "vrate" : " vacancy rate, percent",
+      "urate" : " unemployment rate, percent",
+      "cvrate" : " D.vrate",
+      "month" : " dec 200 through feb 2012"
+   }
+}
+
 var beveridge = [
    [
       "month",

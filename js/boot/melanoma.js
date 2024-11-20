@@ -1,3 +1,20 @@
+var melanomaInfo ={
+   "usage" : "melanoma",
+   "description" : "Description\nThe melanoma data frame has 205 rows and 7 columns.\nThe data consist of measurements made on patients with malignant melanoma.\nEach patient had their tumour removed by surgery at the Department of Plastic\nSurgery, University Hospital of Odense, Denmark during the period 1962 to 1977.\nThe surgery consisted of complete removal of the tumour together with about\n2.5cm of the surrounding skin.  Among the measurements taken were the thickness\nof the tumour and whether it was ulcerated or not.  These are thought to be\nimportant prognostic variables in that patients with a thick and/or ulcerated\ntumour have an increased chance of death from melanoma.\nPatients were followed until the end of 1977.",
+   "format" : "This data frame contains the following columns:",
+   "title" : "Survival from Malignant Melanoma",
+   "reference" : "This dataset is not related to the dataset in the lattice package\nwith the same name.",
+   "parameters" : {
+      "sex" : "The patients sex; 1=male, 0=female.",
+      "thickness" : "Tumour thickness in mm.",
+      "year" : "Year of operation.",
+      "status" : "The patients status at the end of the study. 1 indicates that they had died\nfrom melanoma, 2 indicates that they were still alive and 3 indicates that they\nhad died from causes unrelated to their melanoma.",
+      "ulcer" : "Indicator of ulceration; 1=present, 0=absent.",
+      "time" : "Survival time in days since the operation, possibly censored.",
+      "age" : "Age in years at the time of the operation."
+   }
+}
+
 var melanoma = [
    [
       "time",

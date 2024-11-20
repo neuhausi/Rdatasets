@@ -1,3 +1,27 @@
+var cgd0Info ={
+   "title" : "Chronic Granulotomous Disease data",
+   "format" : "idsubject identification number\n\ncenterenrolling center \n\nrandomdate of randomization \n\ntreatmentplacebo or gamma interferon \n\nsexsex\n\nageage in years, at study entry \n\nheightheight in cm at study entry\n\nweightweight in kg at study entry\n\ninheritpattern of inheritance \n\nsteroidsuse of steroids at study entry,1=yes\n\npropylacuse of prophylactic antibiotics at study entry\n\nhos.cata categorization of the centers into 4 groups\n\nfutimedays to last follow-up\n\netime1-etime7up to 7 infection times for the subject",
+   "reference" : "The cgdraw data set (this one) is in the form found in the references,\nwith one line per patient and no recoding of the variables.",
+   "parameters" : {
+      "propylac" : "use of prophylactic antibiotics at study entry",
+      "steroids" : "use of steroids at study entry,1=yes",
+      "hos.cat" : "a categorization of the centers into 4 groups",
+      "center" : "enrolling center",
+      "random" : "date of randomization",
+      "treatment" : "placebo or gamma interferon",
+      "sex" : "sex",
+      "height" : "height in cm at study entry",
+      "id" : "subject identification number",
+      "inherit" : "pattern of inheritance",
+      "etime1-etime7" : "up to 7 infection times for the subject",
+      "weight" : "weight in kg at study entry",
+      "age" : "age in years, at study entry",
+      "futime" : "days to last follow-up"
+   },
+   "usage" : "cgd0",
+   "description" : "Description\nData are from a placebo controlled trial of gamma\ninterferon in chronic granulotomous disease (CGD).\nContains the data on time to serious infections observed through\nend of study for each patient."
+}
+
 var cgd0 = [
    [
       "id",

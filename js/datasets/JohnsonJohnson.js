@@ -1,3 +1,10 @@
+var JohnsonJohnsonInfo ={
+   "description" : "Description\nQuarterly earnings (dollars) per Johnson & Johnson share 1960&ndash;80.",
+   "usage" : "JohnsonJohnson",
+   "title" : "Quarterly Earnings per Johnson & Johnson Share",
+   "format" : "A quarterly time series"
+}
+
 var JohnsonJohnson = [
    [
       "time",

@@ -1,14 +1,11 @@
 {
    "config" : {
-      "subtitle" : "DAAG - coralPval",
+      "title" : "P-values from biological expression array data",
       "graphType" : "Treemap",
-      "title" : "P-values from biological expression array data"
+      "subtitle" : "DAAG - coralPval"
    },
    "data" : {
       "y" : {
-         "vars" : [
-            "x1"
-         ],
          "data" : [
             [
                0.859888723434107,
@@ -3084,6 +3081,9 @@
                0.0014117556036402,
                0.000659991426144461
             ]
+         ],
+         "vars" : [
+            "x1"
          ],
          "smps" : [
             "Smp1",

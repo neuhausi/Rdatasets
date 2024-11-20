@@ -1,3 +1,16 @@
+var solarInfo ={
+   "format" : "A data frame with 284 observations on the following 3 variables.\nEach row represents a single day for one of the arrays.",
+   "reference" : "The Haight-Ashbury array is a 10.4 kWh array, while the Inner Sunset array\nis a 2.8 kWh array. The kWh units represents kilowatt-hours, which is\nthe unit of energy that typically is used for electricity bills. The cost\nper kWh in San Francisco was about $0.25 in 2016.",
+   "title" : "Energy Output From Two Solar Arrays in San Francisco",
+   "parameters" : {
+      "kwh" : "Number of kWh",
+      "date" : "Date.",
+      "location" : "Location for the array."
+   },
+   "usage" : "solar",
+   "description" : "Description\nThe data provide the energy output for several months from two roof-top\nsolar arrays in San Francisco. This city is known for having highly variable\nweather, so while these two arrays are only about 1 mile apart from each\nother, the Inner Sunset location tends to have more fog."
+}
+
 var solar = [
    [
       "location",

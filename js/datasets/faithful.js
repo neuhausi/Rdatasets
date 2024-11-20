@@ -1,3 +1,10 @@
+var faithfulInfo ={
+   "usage" : "faithful",
+   "title" : "Old Faithful Geyser Data",
+   "format" : "A data frame with 272 observations on 2 variables.",
+   "description" : "Description\nWaiting time between eruptions and the duration of the eruption for\nthe Old Faithful geyser in Yellowstone National Park, Wyoming, USA."
+}
+
 var faithful = [
    [
       "eruptions",

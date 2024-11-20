@@ -1,3 +1,20 @@
+var OMEInfo ={
+   "reference" : "The experiment was to study otitis media with effusion (OME), a very\ncommon childhood condition where the middle ear space, which is\nnormally air-filled, becomes congested by a fluid.  There is a\nconcomitant fluctuating, conductive hearing loss which can result in\nvarious language, cognitive and social deficits.  The term &lsquo;binaural\nhearing&rsquo; is used to describe the listening conditions in which the\nbrain is processing information from both ears at the same time.  The\nbrain computes differences in the intensity and/or timing of signals\narriving at each ear which contributes to sound localisation and also\nto our ability to hear in background noise.",
+   "title" : "Tests of Auditory Perception in Children with OME",
+   "format" : "The OME data frame has 1129 rows and 7 columns:",
+   "parameters" : {
+      "Noise" : "Whether the signal in the stimulus was \"coherent\" or\n\"incoherent\".",
+      "Age" : "Age of the subject (months).",
+      "Trials" : "Number of trials performed.",
+      "OME" : "\"low\" or \"high\" or \"N/A\" (at ages other than\n30 and 60 months).",
+      "Correct" : "Number of correct responses from Trials trials.",
+      "ID" : "Subject ID (1 to 99, with some IDs missing). A few subjects were\nmeasured at different ages.",
+      "Loud" : "Loudness of stimulus, in decibels."
+   },
+   "usage" : "OME",
+   "description" : "Description\nExperiments were performed on children on their ability to\ndifferentiate a signal in broad-band noise. The noise was played from\na pair of speakers and a signal was added to just one channel; the\nsubject had to turn his/her head to the channel with the added signal.\nThe signal was either coherent (the amplitude of the noise was\nincreased for a period) or incoherent (independent noise was added for\nthe same period to form the same increase in power).\nThe threshold used in the original analysis was the stimulus loudness\nneeds to get 75% correct responses. Some of the children had\nsuffered from otitis media with effusion (OME)."
+}
+
 var OME = [
    [
       "ID",

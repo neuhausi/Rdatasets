@@ -1,3 +1,17 @@
+var coopInfo ={
+   "format" : "This data frame contains the following columns:",
+   "title" : "Co-operative Trial in Analytical Chemistry",
+   "reference" : "Analytical Methods Committee (1987)\nRecommendations for the conduct and\ninterpretation of co-operative trials,\nThe Analyst 112, 679&ndash;686.",
+   "parameters" : {
+      "Spc" : "Specimen, S1, S2, ..., S7.",
+      "Bat" : "Batch, B1, B2, B3 (nested within Spc/Lab),",
+      "Conc" : "Concentration of Analyte in g/kg.",
+      "Lab" : "Laboratory, L1, L2, ..., L6."
+   },
+   "usage" : "coop",
+   "description" : "Description\nSeven specimens were sent to 6 laboratories in 3 separate batches and\neach analysed for Analyte.  Each analysis was duplicated."
+}
+
 var coop = [
    [
       "Lab",

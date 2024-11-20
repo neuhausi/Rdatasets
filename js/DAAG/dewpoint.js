@@ -1,3 +1,16 @@
+var dewpointInfo ={
+   "parameters" : {
+      "mintemp" : "monthly maximum temperatures",
+      "maxtemp" : "monthly minimum temperatures",
+      "dewpt" : "monthly average dewpoint for each combination of\nminimum and maximum temperature readings (formerly dewpoint)"
+   },
+   "reference" : "Dr Edward Linacre,\nvisiting fellow in the Australian National University Department\nof Geography.",
+   "format" : "This data frame contains the following columns:",
+   "title" : "Dewpoint Data",
+   "description" : "Description\nThe dewpoint data frame has 72 rows and 3 columns.\nMonthly data were obtained for a number of sites (in Australia)\nand a number of months.",
+   "usage" : "dewpoint"
+}
+
 var dewpoint = [
    [
       "maxtemp",

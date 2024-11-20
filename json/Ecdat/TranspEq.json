@@ -1,6 +1,39 @@
 {
    "data" : {
       "y" : {
+         "smps" : [
+            "va",
+            "capital",
+            "labor",
+            "nfirm"
+         ],
+         "vars" : [
+            "Var1",
+            "Var2",
+            "Var3",
+            "Var4",
+            "Var5",
+            "Var6",
+            "Var7",
+            "Var8",
+            "Var9",
+            "Var10",
+            "Var11",
+            "Var12",
+            "Var13",
+            "Var14",
+            "Var15",
+            "Var16",
+            "Var17",
+            "Var18",
+            "Var19",
+            "Var20",
+            "Var21",
+            "Var22",
+            "Var23",
+            "Var24",
+            "Var25"
+         ],
          "data" : [
             [
                126.148,
@@ -152,39 +185,6 @@
                52.818,
                142
             ]
-         ],
-         "smps" : [
-            "va",
-            "capital",
-            "labor",
-            "nfirm"
-         ],
-         "vars" : [
-            "Var1",
-            "Var2",
-            "Var3",
-            "Var4",
-            "Var5",
-            "Var6",
-            "Var7",
-            "Var8",
-            "Var9",
-            "Var10",
-            "Var11",
-            "Var12",
-            "Var13",
-            "Var14",
-            "Var15",
-            "Var16",
-            "Var17",
-            "Var18",
-            "Var19",
-            "Var20",
-            "Var21",
-            "Var22",
-            "Var23",
-            "Var24",
-            "Var25"
          ]
       },
       "z" : {
@@ -219,10 +219,10 @@
    },
    "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>TranspEq</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>\nStatewide Data on Transportation Equipment Manufacturing \n</h2>\n<h3>Description</h3>\n<p>a cross-section\n</p>\n<p><em>number of observations</em> :  25\n</p>\n<p><em>observation</em> :  regional\n</p>\n<p><em>country</em> :  United States\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(TranspEq)</code></pre>\n<h3>Format</h3>\n<p>A dataframe containing :\n</p>\n<dl>\n<dt>state</dt><dd><p>state name</p>\n</dd>\n<dt>va</dt><dd><p>output</p>\n</dd>\n<dt>capital</dt><dd><p>capital input</p>\n</dd>\n<dt>labor</dt><dd><p>labor input</p>\n</dd>\n<dt>nfirm</dt><dd><p>number of firms</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>Zellner, A.  and  N.  Revankar (1970) &ldquo;Generalized production functions&rdquo;, <em>Review of Economic Studies</em>, <b>37</b>, 241-250.\n</p>\n<h3>References</h3>\n<p>Greene, W.H. (2003) <em>Econometric Analysis</em>, Prentice Hall, <a href=\"https://archive.org/details/econometrics0000haya\">https://archive.org/details/econometrics0000haya</a>, Table F9.2.\n</p>\n<h3>See Also</h3>\n<p><code>Index.Source</code>, <code>Index.Economics</code>, <code>Index.Econometrics</code>, <code>Index.Observations</code></p>\n</main>\n</div>\n",
    "config" : {
-      "subtitle" : "Ecdat - TranspEq",
-      "scatterPlotMatrix" : 1,
-      "graphType" : "Scatter2D",
+      "title" : "Statewide Data on Transportation Equipment Manufacturing",
       "colorBy" : "state",
-      "title" : "Statewide Data on Transportation Equipment Manufacturing"
+      "graphType" : "Scatter2D",
+      "scatterPlotMatrix" : 1,
+      "subtitle" : "Ecdat - TranspEq"
    }
 }

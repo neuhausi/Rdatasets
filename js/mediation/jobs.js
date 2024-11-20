@@ -1,3 +1,30 @@
+var jobsInfo ={
+   "description" : "Description\nJob Search Intervention Study (JOBS II). JOBS II is a randomized field \nexperiment that investigates the efficacy of a job trainingintervention on \nunemployed workers. The program is designed to not only increase \nreemploymentamong the unemployed but also enhance the mental health of the \njob seekers. In the JOBS IIfield experiment, 1,801 unemployed workers \nreceived a pre-screening questionnaire and were thenrandomly assigned to \ntreatment and control groups. Those in the treatment group participatedin \njob-skills workshops. In the workshops, respondents learned job-search skills\nand coping strategiesfor dealing with setbacks in the job-search process. \nThose in the control condition receiveda booklet describing job-search tips. \nIn follow-up interviews, the two key outcome variables weremeasured; a \ncontinuous measure of depressive symptoms based on the Hopkins Symptom \nChecklist,and a binary variable, representing whether the respondent had \nbecome employed.",
+   "usage" : "jobs",
+   "parameters" : {
+      "marital:" : "Factor with \nfive categories for marital status.",
+      "occp:" : "Factor with \nseven categories for various occupations.",
+      "age:" : "Age in years.",
+      "job_disc:" : "The job_seek measure recoded into four categories from \nlowest to highest.",
+      "nonwhite:" : "Indicator variable \nfor race. 1 = nonwhite.",
+      "sex:" : "Indicator variable for \nsex. 1 = female",
+      "econ_hard:" : "Level of economic hardship \npre-treatment with values from 1 to 5.",
+      "work1:" : "Indicator variable for employment. 1 = \nemployed.",
+      "income:" : "Factor with five categories for \nlevel of income.",
+      "depress2:" : "Measure of depressive symptoms \npost-treatment.",
+      "educ:" : "Factor with five categories for \neducational attainment.",
+      "job_seek:" : "A continuous scale measuring the level \nof job-search self-efficacy with values from 1 to 5. The mediator \nvariable.",
+      "comply:" : "Indicator variable for \nwhether participant actually participated in the JOBS II program. 1 = \nparticipation.",
+      "job_dich:" : "The job_seek measure recoded into two \ncategories of high and low. 1 = high job search self-efficacy.",
+      "depress1:" : "Measure of \ndepressive symptoms pre-treatment.",
+      "control:" : "Indicator variable for whether participant\nwas randomly selected to not participate in the JOBS II training program. 1\n= non-participation.",
+      "treat:" : "Indicator variable for whether \nparticipant was randomly selected for the JOBS II training program. 1 = \nassignment to participation."
+   },
+   "title" : "JOBS II data",
+   "format" : "A data matrix with 899 rows and 17 columns, containing no missing \nvalues. The data are provided only for illustrative purposes and not for \ninference about program efficacy, for which the original data source should\nbe consulted.",
+   "reference" : "The complete JOBS II data is available from the data archives at \nwww.icpsr.umich.edu/"
+}
+
 var jobs = [
    [
       "treat",

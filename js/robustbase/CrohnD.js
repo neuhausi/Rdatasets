@@ -1,3 +1,22 @@
+var CrohnDInfo ={
+   "description" : "Description\nData set issued from a study of the adverse events of a drug on\n117 patients affected by Crohn's disease (a chronic inflammatory\ndisease of the intestines).",
+   "usage" : "data(CrohnD, package=\"robustbase\")",
+   "parameters" : {
+      "weight" : "in kilograms, a numeric vector",
+      "treat" : "how CD was treated: a factor with levels\n0, 1 and 2, meaning placebo, drug 1 and drug 2.",
+      "age" : "in years, a numeric vector",
+      "height" : "in cm",
+      "BMI" : "Body MASS Index, i.e., weight[kg] / (height[m])^2.",
+      "country" : "a factor with levels 0 and 1",
+      "sex" : "the person's gender, a binary factor with levels\nM F",
+      "nrAdvE" : "the number of adverse events",
+      "ID" : "the numeric patient IDs"
+   },
+   "reference" : "form the authors of the reference, with permission by the original\ndata collecting agency.",
+   "format" : "A data frame with 117 observations on the following 9 variables.",
+   "title" : "Crohn's Disease Adverse Events Data"
+}
+
 var CrohnD = [
    [
       "ID",

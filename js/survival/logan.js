@@ -1,3 +1,17 @@
+var loganInfo ={
+   "parameters" : {
+      "focc" : "father's occupation",
+      "education" : "total years of schooling, 0 to 20",
+      "race" : "levels of non-black and black",
+      "occupation" : "subject's occupation, a factor with levels\nfarm, operatives, craftsmen, sales,\nand professional"
+   },
+   "title" : "Data from the 1972-78 GSS data used by Logan",
+   "format" : "A data frame with 838 observations on the following 4 variables.",
+   "reference" : "General Social Survey data, see the web site for detailed information\non the variables.\nhttps://gss.norc.org/.",
+   "description" : "Description\nIntergenerational occupational mobility data with covariates.",
+   "usage" : "logan\ndata(logan, package=\"survival\")"
+}
+
 var logan = [
    [
       "occupation",

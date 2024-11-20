@@ -1,3 +1,48 @@
+var bomregions2021Info ={
+   "usage" : "data(\"bomregions2021\")",
+   "description" : "Description\nAustralian regional temperature data, Australian regional rainfall\ndata, and Annual SOI, are given for the years 1900-2021.  The regional\nrainfall and temperature data are area-weighted averages for the \nrespective regions.  The Southern Oscillation Index (SOI) is the \ndifference in barometric pressure at sea level between Tahiti and Darwin.",
+   "title" : "Australian and Related Historical Annual Climate Data, by Region",
+   "reference" : "Australian Bureau of Meteorology web pages:",
+   "format" : "These data frames contains the following columns:",
+   "parameters" : {
+      "seAVt" : "Southeastern region average temperature (degrees C)",
+      "mdbAVt" : "Murray-Darling basin temperature",
+      "southAVt" : "Southern temperature",
+      "vicRain" : "Victorian rainfall",
+      "ausAVt" : "Australian average temperature, area-weighted mean",
+      "mdbRain" : "Murray-Darling basin rainfall",
+      "saAVt" : "temperature",
+      "ausRain" : "Australian average rainfall, area weighted",
+      "vicAVt" : "temperature",
+      "waAVt" : "temperature",
+      "southRain" : "Southern rainfall",
+      "swRain" : "Southwest rainfall",
+      "Year" : "Year",
+      "ntAVt" : "temperature",
+      "co2law" : "Moana Loa CO2 concentrations, 1900 to 1978",
+      "co2mlo" : "Moana Loa CO2 concentrations, from 1959",
+      "nswAVt" : "temperature",
+      "tasRain" : "Tasmanian rainfall",
+      "northRain" : "Northern rainfall",
+      "avDMI" : "Annual average Dipole Mode Index, for the Indian Ocean Dipole,\nfrom 1950",
+      "swAVt" : "Southwestern temperature",
+      "waRain" : "West Australian rainfall",
+      "sunspot" : "Yearly mean sunspot number",
+      "ntRain" : "Northern Territory rainfall",
+      "nswRain" : "NSW rainfall",
+      "tasAVt" : "temperature",
+      "saRain" : "South Australian rainfall",
+      "eastRain" : "Eastern rainfall",
+      "eastAVt" : "Eastern temperature",
+      "qldAVt" : "temperature",
+      "northAVt" : "Northern temperature",
+      "seRain" : "Southeast Australian annual rainfall (mm)",
+      "CO2" : "CO2 concentrations, composite series",
+      "SOI" : "Annual average Southern Oscillation Index",
+      "qldRain" : "Queensland rainfall"
+   }
+}
+
 var bomregions2021 = [
    [
       "Year",

@@ -1,3 +1,10 @@
+var esophInfo ={
+   "description" : "Description\nData from a case-control study of (o)esophageal cancer in\nIlle-et-Vilaine, France.",
+   "format" : "A data frame with records for 88 age/alcohol/tobacco combinations.",
+   "title" : "Smoking, Alcohol and (O)esophageal Cancer",
+   "usage" : "esoph"
+}
+
 var esoph = [
    [
       "agegp",

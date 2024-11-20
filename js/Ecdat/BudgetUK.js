@@ -1,3 +1,23 @@
+var BudgetUKInfo ={
+   "description" : "Description\na cross-section from 1980 to 1982\nnumber of observations :  1519\nobservation :  households\ncountry :  United Kingdom",
+   "usage" : "data(BudgetUK)",
+   "parameters" : {
+      "wcloth" : "budget share for clothing expenditure",
+      "walc" : "budget share for alcohol expenditure",
+      "totexp" : "total household expenditure (rounded to \nthe nearest 10 UK pounds sterling)",
+      "children" : "number of children",
+      "wfood" : "budget share for food expenditure",
+      "wother" : "budget share for other good expenditure",
+      "wfuel" : "budget share for fuel expenditure",
+      "income" : "total net household income (rounded to the\nnearest 10 UK pounds sterling)",
+      "wtrans" : "budget share for transport expenditure",
+      "age" : "age of household head"
+   },
+   "title" : "Budget Shares of British Households",
+   "format" : "A dataframe containing :",
+   "reference" : "Blundell, Richard, Alan Duncan and Krishna \nPendakur (1998) &ldquo;Semiparametric \nestimation and consumer demand&rdquo;, Journal \nof Applied Econometrics, 13(5), 435&ndash;462."
+}
+
 var BudgetUK = [
    [
       "wfood",

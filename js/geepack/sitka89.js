@@ -1,3 +1,17 @@
+var sitka89Info ={
+   "usage" : "sitka89",
+   "description" : "Description\nImpact of ozone on the growth of sitka spruce trees.",
+   "format" : "A dataframe",
+   "title" : "Growth of Sitka Spruce Trees",
+   "reference" : "data(sitka89)",
+   "parameters" : {
+      "time:" : "days after the 1st january, 1988",
+      "treat:" : "ozone: grown under ozone environment, control: ozone free",
+      "size:" : "size of the tree measured in log(height*diamter^2)",
+      "tree:" : "id number of a tree"
+   }
+}
+
 var sitka89 = [
    [
       "size",

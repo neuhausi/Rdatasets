@@ -1,15 +1,11 @@
 {
    "config" : {
-      "title" : "Electrical Resistance of Kiwi Fruit",
       "subtitle" : "DAAG - fruitohms",
+      "title" : "Electrical Resistance of Kiwi Fruit",
       "graphType" : "Scatter2D"
    },
    "data" : {
       "y" : {
-         "smps" : [
-            "juice",
-            "ohms"
-         ],
          "data" : [
             [
                4,
@@ -523,6 +519,10 @@
                60,
                3600
             ]
+         ],
+         "smps" : [
+            "juice",
+            "ohms"
          ],
          "vars" : [
             "1",

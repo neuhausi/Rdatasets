@@ -1,3 +1,24 @@
+var CPS85Info ={
+   "usage" : "data(CPS85)",
+   "description" : "Description\nThe Current Population Survey (CPS) is used to supplement census\ninformation between census years. These data consist of a random\nsample of persons from the CPS85, with information on wages and\nother characteristics of the workers, including sex, number of years\nof education, years of work experience, occupational status, region of\nresidence and union membership.",
+   "format" : "A data frame with 534 observations on the following variables.",
+   "title" : "Data from the 1985 Current Population Survey (CPS85)",
+   "reference" : "Data are from 1985.\nThe data file is recoded from the original, which had\nentirely numerical codes.",
+   "parameters" : {
+      "exper" : "number of years of work experience (inferred from age and\neduc)",
+      "south" : "a factor with levels NS S",
+      "sector" : "a factor with levels clerical const\nmanag manuf other prof sales service",
+      "sex" : "a factor with levels F M",
+      "wage" : "wage (US dollars per hour)",
+      "hispanic" : "a factor with levels Hisp NH",
+      "educ" : "number of years of education",
+      "age" : "age in years",
+      "race" : "a factor with levels NW (nonwhite) or W (white)",
+      "married" : "a factor with levels Married Single",
+      "union" : "a factor with levels Not Union"
+   }
+}
+
 var CPS85 = [
    [
       "wage",

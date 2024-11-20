@@ -1,27 +1,11 @@
 {
+   "config" : {
+      "subtitle" : "openintro - stem_cell",
+      "colorBy" : "trmt",
+      "title" : "Embryonic stem cells to treat heart attack (in sheep)",
+      "graphType" : "Scatter2D"
+   },
    "data" : {
-      "z" : {
-         "trmt" : [
-            "ctrl",
-            "ctrl",
-            "ctrl",
-            "ctrl",
-            "ctrl",
-            "ctrl",
-            "ctrl",
-            "ctrl",
-            "ctrl",
-            "esc",
-            "esc",
-            "esc",
-            "esc",
-            "esc",
-            "esc",
-            "esc",
-            "esc",
-            "esc"
-         ]
-      },
       "y" : {
          "data" : [
             [
@@ -97,10 +81,6 @@
                51
             ]
          ],
-         "smps" : [
-            "before",
-            "after"
-         ],
          "vars" : [
             "Var1",
             "Var2",
@@ -120,14 +100,34 @@
             "Var16",
             "Var17",
             "Var18"
+         ],
+         "smps" : [
+            "before",
+            "after"
+         ]
+      },
+      "z" : {
+         "trmt" : [
+            "ctrl",
+            "ctrl",
+            "ctrl",
+            "ctrl",
+            "ctrl",
+            "ctrl",
+            "ctrl",
+            "ctrl",
+            "ctrl",
+            "esc",
+            "esc",
+            "esc",
+            "esc",
+            "esc",
+            "esc",
+            "esc",
+            "esc",
+            "esc"
          ]
       }
    },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>stem_cell</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Embryonic stem cells to treat heart attack (in sheep)</h2>\n<h3>Description</h3>\n<p>Does treatment using embryonic stem cells (ESCs) help improve heart function\nfollowing a heart attack? Each sheep in the study was randomly assigned to\nthe ESC or control group, and the change in their hearts' pumping capacity\nwas measured in the study. A positive value corresponds to increased pumping\ncapacity, which generally suggests a stronger recovery.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>stem_cell\n</code></pre>\n<h3>Format</h3>\n<p>A data frame with 18 observations on the following 3 variables.\n</p>\n<dl>\n<dt>trmt</dt><dd><p>a factor with levels <code>ctrl</code> <code>esc</code></p>\n</dd>\n<dt>before</dt><dd><p>a numeric vector</p>\n</dd>\n<dt>after</dt><dd><p>a numeric vector</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p><a href=\"https://doi.org/10.1016/S0140-6736%2805%2967380-1\">doi:10.1016/S0140-6736(05)67380-1</a>\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>\nstem_cell\n</code></pre>\n</main>\n</div>\n",
-   "config" : {
-      "title" : "Embryonic stem cells to treat heart attack (in sheep)",
-      "colorBy" : "trmt",
-      "graphType" : "Scatter2D",
-      "subtitle" : "openintro - stem_cell"
-   }
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>stem_cell</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Embryonic stem cells to treat heart attack (in sheep)</h2>\n<h3>Description</h3>\n<p>Does treatment using embryonic stem cells (ESCs) help improve heart function\nfollowing a heart attack? Each sheep in the study was randomly assigned to\nthe ESC or control group, and the change in their hearts' pumping capacity\nwas measured in the study. A positive value corresponds to increased pumping\ncapacity, which generally suggests a stronger recovery.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>stem_cell\n</code></pre>\n<h3>Format</h3>\n<p>A data frame with 18 observations on the following 3 variables.\n</p>\n<dl>\n<dt>trmt</dt><dd><p>a factor with levels <code>ctrl</code> <code>esc</code></p>\n</dd>\n<dt>before</dt><dd><p>a numeric vector</p>\n</dd>\n<dt>after</dt><dd><p>a numeric vector</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p><a href=\"https://doi.org/10.1016/S0140-6736%2805%2967380-1\">doi:10.1016/S0140-6736(05)67380-1</a>\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>\nstem_cell\n</code></pre>\n</main>\n</div>\n"
 }

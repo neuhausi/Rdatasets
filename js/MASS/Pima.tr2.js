@@ -1,3 +1,21 @@
+var Pima.tr2Info ={
+   "format" : "These data frames contains the following columns:",
+   "title" : "Diabetes in Pima Indian Women",
+   "reference" : "The training set Pima.tr contains a randomly selected set of 200\nsubjects, and Pima.te contains the remaining 332 subjects.\nPima.tr2 contains Pima.tr plus 100 subjects with\nmissing values in the explanatory variables.",
+   "parameters" : {
+      "bmi" : "body mass index (weight in kg/(height in m)^2).",
+      "glu" : "plasma glucose concentration in an oral glucose tolerance test.",
+      "type" : "Yes or No, for diabetic according to WHO criteria.",
+      "ped" : "diabetes pedigree function.",
+      "skin" : "triceps skin fold thickness (mm).",
+      "bp" : "diastolic blood pressure (mm Hg).",
+      "npreg" : "number of pregnancies.",
+      "age" : "age in years."
+   },
+   "usage" : "Pima.tr\nPima.tr2\nPima.te",
+   "description" : "Description\nA population of women who were at least 21 years old, of Pima Indian heritage\nand living near Phoenix, Arizona, was tested for diabetes\naccording to World Health Organization criteria.  The data\nwere collected by the US National Institute of Diabetes and Digestive and\nKidney Diseases.  We used the 532 complete records after dropping the\n(mainly missing) data on serum insulin."
+}
+
 var Pima.tr2 = [
    [
       "npreg",

@@ -1,3 +1,31 @@
+var BenefitsInfo ={
+   "reference" : "McCall, B.P. (1995) &ldquo;The impact of unemployment insurance benefit levels on recipiency&rdquo;, Journal of Business and Economic Statistics, 13, 189&ndash;198.",
+   "format" : "A time series containing :",
+   "title" : "Unemployment of Blue Collar Workers",
+   "parameters" : {
+      "smsa" : "lives in SMSA ?",
+      "head" : "is  head of household ?",
+      "dkids" : "has kids ?",
+      "ui" : "applied for (and received) UI benefits ?",
+      "yrdispl" : "year of job displacement (1982=1,..., 1991=10)",
+      "nwhite" : "non-white ?",
+      "statemb" : "state maximum benefit level",
+      "dykids" : "has young kids (0-5 yrs) ?",
+      "age" : "age in years",
+      "stateur" : "state unemployment rate (in %)",
+      "school12" : "more than 12 years of school ?",
+      "joblost" : "a factor with levels \n(slack_work,position_abolished,seasonal_job_ended,other)",
+      "married" : "married ?",
+      "rr" : "replacement rate",
+      "tenure" : "years of tenure in job lost",
+      "state" : "state of residence code",
+      "bluecol" : "blue collar worker ?",
+      "sex" : "a factor with levels (male,female)"
+   },
+   "usage" : "data(Benefits)",
+   "description" : "Description\na cross-section from 1972\nnumber of observations :  4877\nobservation :  individuals\ncountry :  United States"
+}
+
 var Benefits = [
    [
       "stateur",

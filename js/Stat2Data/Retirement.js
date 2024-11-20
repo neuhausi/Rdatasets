@@ -1,3 +1,9 @@
+var RetirementInfo ={
+   "usage" : "A dataset with 16 observations on the following 2 variables.",
+   "title" : "Yearly Contributions to a Supplemental Retirement Account",
+   "description" : "Description\nContributions to a supplemental retirement account (1997-2012)"
+}
+
 var Retirement = [
    [
       "Year",

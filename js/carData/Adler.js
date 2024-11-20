@@ -1,3 +1,16 @@
+var AdlerInfo ={
+   "description" : "Description\nThe Adler data frame has 108 rows and 3 columns.\nThe &ldquo;experimenters&rdquo; were the actual subjects of the study. \nThey collected ratings of the apparent success of\npeople in pictures who were pre-selected for their\naverage appearance of success. The experimenters were told prior to collecting \ndata that particular subjects were either high or low in their tendency to rate \nappearance of success, and were instructed to get good data, \nscientific data, or were given no such instruction. Each \nexperimenter collected ratings from 18 randomly assigned\nsubjects. This version of the Adler data is taken from Erickson and Nosanchuk (1977).\nThe data described in the original source, Adler (1973), have a more complex structure.",
+   "usage" : "Adler",
+   "parameters" : {
+      "instruction" : "a factor with levels:\ngood, good data;\nnone, no stress;\nscientific, scientific data.",
+      "rating" : "The average rating obtained.",
+      "expectation" : "a factor with levels:\nhigh, expect high ratings;\nlow, expect low ratings."
+   },
+   "reference" : "Erickson, B. H., and Nosanchuk, T. A. (1977)\nUnderstanding Data. McGraw-Hill Ryerson.",
+   "format" : "This data frame contains the following columns:",
+   "title" : "Experimenter Expectations"
+}
+
 var Adler = [
    [
       "instruction",

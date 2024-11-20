@@ -1,3 +1,15 @@
+var EarningsInfo ={
+   "description" : "Description\na cross-section from 1988-1989\nnumber of observations :  4266\nobservation :  individuals\ncountry :  United States",
+   "usage" : "data(Earnings)",
+   "parameters" : {
+      "y" : "average annual earnings, in 1982 US dollars",
+      "age" : "age groups, a factor with levels \n(g1,g2,g3)"
+   },
+   "format" : "A dataframe containing :",
+   "title" : "Earnings for Three Age Groups",
+   "reference" : "Mills, Jeffery A.  and  Sourushe  Zandvakili (1997) &ldquo;Statistical Inference via  Bootstrapping for Measures of Inequality&rdquo;, Journal of Applied Econometrics, 12(2), pp. 133-150."
+}
+
 var Earnings = [
    [
       "age",

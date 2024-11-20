@@ -1,4 +1,9 @@
 {
+   "config" : {
+      "graphType" : "Scatter2D",
+      "title" : "Quarterly Time Series of the Number of Australian Residents",
+      "subtitle" : "datasets - austres"
+   },
    "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>austres</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>\nQuarterly Time Series of the Number of Australian Residents\n</h2>\n<h3>Description</h3>\n<p>Numbers (in thousands) of Australian residents measured quarterly from\nMarch 1971 to March 1994.  The object is of class <code>\"ts\"</code>.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>austres</code></pre>\n<h3>Source</h3>\n<p>P. J. Brockwell and R. A. Davis (1996)\n<em>Introduction to Time Series and Forecasting.</em>\nSpringer\n</p>\n</main>\n</div>\n",
    "data" : {
       "y" : {
@@ -456,10 +461,5 @@
             ]
          ]
       }
-   },
-   "config" : {
-      "graphType" : "Scatter2D",
-      "subtitle" : "datasets - austres",
-      "title" : "Quarterly Time Series of the Number of Australian Residents"
    }
 }

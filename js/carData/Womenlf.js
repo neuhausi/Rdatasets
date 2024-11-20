@@ -1,3 +1,17 @@
+var WomenlfInfo ={
+   "title" : "Canadian Women's Labour-Force Participation",
+   "reference" : "Social Change in Canada Project. York Institute for\nSocial Research.",
+   "format" : "This data frame contains the following columns:",
+   "parameters" : {
+      "children" : "Presence of children in the household.\nA factor with levels:\nabsent, \npresent.",
+      "hincome" : "Husband's income, $1000s.",
+      "partic" : "Labour-Force Participation.\nA factor with levels (note: out of order):\nfulltime, Working full-time;\nnot.work, Not working outside the home;\nparttime, Working part-time.",
+      "region" : "A factor with levels:\nAtlantic, Atlantic Canada;\nBC, British Columbia;\nOntario; \nPrairie, Prairie provinces;\nQuebec."
+   },
+   "usage" : "Womenlf",
+   "description" : "Description\nThe Womenlf data frame has 263 rows and 4 columns.\nThe data are from a 1977 survey of the Canadian population."
+}
+
 var Womenlf = [
    [
       "partic",

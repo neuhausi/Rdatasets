@@ -1,3 +1,10 @@
+var euroInfo ={
+   "format" : "euro is a named vector of length 11, euro.cross a\nmatrix of size 11 by 11, with dimnames.",
+   "title" : "Conversion Rates of Euro Currencies",
+   "usage" : "euro\neuro.cross",
+   "description" : "Description\nConversion rates between the various Euro currencies."
+}
+
 var euro = [
    [
       "dat"

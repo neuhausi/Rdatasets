@@ -1,3 +1,25 @@
+var autoInfo ={
+   "parameters" : {
+      "displacement" : "Displacement (cu. in.)",
+      "trunk" : "Trunk space (cu. ft.)",
+      "foreign" : "Car type; 0 = Domestic, 1 = Foreign",
+      "make" : "Make and Model",
+      "price" : "Price",
+      "rep78" : "Repair Record 1978",
+      "weight" : "Weight (lbs.)",
+      "turn" : "Turn Circle (ft.)",
+      "headroom" : "Headroom (in.)",
+      "length" : "Length (in.)",
+      "mpg" : "Mileage (mpg)",
+      "gear_ratio" : "Gear Ratio"
+   },
+   "reference" : "This data is used in the Probability and Regression Review chapter of Causal Inference: The Mixtape.",
+   "format" : "A data frame with 74 rows and 12 variables",
+   "title" : "Automobile data from Stata",
+   "description" : "Description\nThis data, which comes standard in Stata, originally came from the April 1979 issue of Consumer Reports and from the United States Government EPA statistics on fuel consumption; they were compiled and published by Chambers et al. (1983).",
+   "usage" : "auto"
+}
+
 var auto = [
    [
       "make",

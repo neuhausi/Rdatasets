@@ -1,3 +1,23 @@
+var ProducInfo ={
+   "title" : "Us States Production",
+   "format" : "A dataframe containing :",
+   "reference" : "Munnell, A. (1990) &ldquo;Why has productivity growth declined? Productivity and public investment&rdquo;, New England Economic Review, 3&ndash;22.",
+   "parameters" : {
+      "emp" : "labor input measured by the employment in \nnon&ndash;agricultural payrolls",
+      "pc" : "public capital",
+      "year" : "the year",
+      "state" : "the state",
+      "pcap" : "private capital stock",
+      "water" : "water and sewer facilities",
+      "hwy" : "highway and streets",
+      "unemp" : "state unemployment rate",
+      "util" : "other public buildings and structures",
+      "gsp" : "gross state products"
+   },
+   "usage" : "data(Produc)",
+   "description" : "Description\na panel of 48 observations  from 1970   to 1986\nnumber of observations :  816\nobservation :  regional\ncountry :  United States"
+}
+
 var Produc = [
    [
       "state",

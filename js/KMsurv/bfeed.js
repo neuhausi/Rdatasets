@@ -1,3 +1,22 @@
+var bfeedInfo ={
+   "parameters" : {
+      "agemth" : "Age of mother at birth of child",
+      "ybirth" : "Year of birth",
+      "smoke" : "Mother smoked at birth of child (1=yes, 0=no)",
+      "yschool" : "Education level of mother (years of school)",
+      "poverty" : "Mother in poverty (1=yes, 0=no)",
+      "alcohol" : "Mother used alcohol at birth of child (1=yes, 0=no)",
+      "delta" : "Indicator of completed breast feeding (1=yes, 0=no)",
+      "duration" : "Duration of breast feeding, weeks",
+      "pc3mth" : "Prenatal care after 3rd month (1=yes, 0=no)",
+      "race" : "Race of mother (1=white, 2=black, 3=other)"
+   },
+   "description" : "Description\nThe bfeed data frame has 927 rows and 10 columns.",
+   "title" : "data from Section 1.14",
+   "reference" : "Klein and Moeschberger (1997) Survival Analysis Techniques for Censored\nand truncated data, Springer.\nNational Longitudinal Survey of Youth Handbook The Ohio State University, 1995.",
+   "usage" : "This data frame contains the following columns:"
+}
+
 var bfeed = [
    [
       "duration",

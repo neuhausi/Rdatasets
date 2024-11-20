@@ -41,6 +41,9 @@
                35
             ]
          ],
+         "vars" : [
+            "Row"
+         ],
          "smps" : [
             "Smp1",
             "Smp2",
@@ -77,9 +80,6 @@
             "Smp33",
             "Smp34",
             "Smp35"
-         ],
-         "vars" : [
-            "Row"
          ]
       },
       "x" : {
@@ -126,9 +126,9 @@
       "groupingFactors" : [
          "dat"
       ],
-      "colorBy" : "variable",
-      "title" : "Gapminder Data",
       "subtitle" : "dslabs - oecd",
-      "graphType" : "Boxplot"
+      "graphType" : "Boxplot",
+      "title" : "Gapminder Data",
+      "colorBy" : "variable"
    }
 }

@@ -1,3 +1,16 @@
+var mvprodInfo ={
+   "usage" : "mvprod",
+   "description" : "Description\nData, largely from Organisation Internationale des Constructeurs d'Automobiles (OICA),\non motor vehicle production in various countries (and the world totals) from 1950 to\n2019 at various intervals. Tallies include production of passenger cars, light\ncommercial vehicles, minibuses, trucks, buses and coaches.",
+   "title" : "Motor Vehicle Production by Country, 1950-2019",
+   "format" : "A data frame with three variables",
+   "reference" : "This is a Wikipedia web-scraping job. See:\nhttps://en.wikipedia.org/wiki/List_of_countries_by_motor_vehicle_production",
+   "parameters" : {
+      "year" : "the year",
+      "country" : "the country's name",
+      "value" : "the total motor vehicles produced that year"
+   }
+}
+
 var mvprod = [
    [
       "country",

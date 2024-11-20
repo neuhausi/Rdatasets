@@ -1,3 +1,27 @@
+var black_politiciansInfo ={
+   "parameters" : {
+      "blackpercent" : "Percentage of district that is Black",
+      "statessquireindex" : "State's Squire index",
+      "nonblacknonwhite" : "Legislator receiving email is neither Black nor White",
+      "black_medianhh" : "District median household income among Black people",
+      "south" : "Legislator receiving email is in the Southern United States",
+      "leg_black" : "Legislator receiving email is Black",
+      "urbanpercent" : "Percentage of district that is urban",
+      "white_medianhh" : "District median household income among White people",
+      "treat_out" : "Email is from out-of-district",
+      "medianhhincom" : "District median household income",
+      "leg_democrat" : "Legislator receiving email is in the Democratic party",
+      "responded" : "Legislator responded to email",
+      "leg_senator" : "Legislator receiving email is a senator",
+      "totalpop" : "District population"
+   },
+   "title" : "Data from \"Black Politicians are More Intrinsically Motivated to Advance Blacks' Interests\"",
+   "format" : "A data frame with 5593 rows and 14 variables",
+   "reference" : "This data is used in the Matching chapter of The Effect.",
+   "description" : "Description\nThe black_politicians data contains data from Broockman (2013) on a field experiment where the author sent fictional emails purportedly sent by Black people to legislators in the United States. The experiment sought to determine whether the effect of the email being from \"out-of-district\" (someone who can't vote for you and so provides no extrinsic motivation to reply) would have a smaller effect on response rates for Black legislators than for non-Black ones, providing evidence of additional intrinsic motivation on the part of Black legislators to help Black people.",
+   "usage" : "black_politicians"
+}
+
 var black_politicians = [
    [
       "leg_black",

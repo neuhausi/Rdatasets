@@ -1,3 +1,32 @@
+var RiceFarmsInfo ={
+   "description" : "Description\na panel of 171 observations",
+   "parameters" : {
+      "seed" : "seed in kilogram",
+      "wage" : "labor wage in Rupiah per hour",
+      "totlabor" : "total labor (excluding harvest labor)",
+      "hiredlabor" : "hired labor in hours",
+      "varieties" : "one of 'trad' (traditional varieties),\n'high' (high yielding varieties) and 'mixed' (mixed\nvarieties)",
+      "id" : "the farm identifier",
+      "pseed" : "price of seed in Rupiah per kg",
+      "price" : "price of rough rice in Rupiah per kg",
+      "goutput" : "gross output of rice in kg",
+      "size" : "the total area cultivated with rice, measured in hectares",
+      "famlabor" : "family labor in hours",
+      "phosphate" : "phosphate in kilogram",
+      "noutput" : "net output, gross output minus harvesting cost (paid\nin terms of rice)",
+      "pesticide" : "pesticide cost in Rupiah",
+      "status" : "land status, on of 'owner' (non sharecroppers,\nowner operators or leaseholders or both), 'share'\n(sharecroppers), 'mixed' (mixed of the two previous status)",
+      "urea" : "urea in kilogram",
+      "bimas" : "bIMAS is an intensification program; one of\n'no' (non-bimas farmer), 'yes' (bimas farmer) or\n'mixed' (part but not all of farmer's land was registered to\nbe in the bimas program)",
+      "region" : "one of 'wargabinangun', 'langan',\n'gunungwangi', 'malausma', 'sukaambit',\n'ciwangi'",
+      "pphosph" : "price of phosphate in Rupiah per kg",
+      "purea" : "price of urea in Rupiah per kg"
+   },
+   "usage" : "A dataframe containing :",
+   "title" : "Production of Rice in Indonesia",
+   "reference" : "number of observations : 1026"
+}
+
 var RiceFarms = [
    [
       "id",

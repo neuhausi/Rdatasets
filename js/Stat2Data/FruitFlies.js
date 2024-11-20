@@ -1,3 +1,9 @@
+var FruitFliesInfo ={
+   "description" : "Description\nSexual activity and lifetimes of fruit flies",
+   "usage" : "A data frame with 125 observations on the following 7 variables.",
+   "title" : "Fruit Fly Sexual Activity and Longevity"
+}
+
 var FruitFlies = [
    [
       "ID",

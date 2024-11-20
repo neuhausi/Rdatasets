@@ -1,3 +1,15 @@
+var ModeInfo ={
+   "description" : "Description\na cross-section\nnumber of observations :  453\nobservation :  individuals",
+   "parameters" : {
+      "time.z" : "time of mode z",
+      "cost.z" : "cost of mode z",
+      "choice" : "one of car, carpool, bus or rail"
+   },
+   "usage" : "data(Mode)",
+   "title" : "Mode Choice",
+   "format" : "A dataframe containing :"
+}
+
 var Mode = [
    [
       "choice",

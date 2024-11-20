@@ -1,3 +1,16 @@
+var TransactInfo ={
+   "description" : "Description\nData on transaction times in branch offices of a large Australian bank.",
+   "usage" : "Transact",
+   "parameters" : {
+      "time" : "total transaction time, minutes",
+      "t1" : "number of type 1 transactions",
+      "t2" : "number of type 2 transactions"
+   },
+   "format" : "This data frame contains the following columns:",
+   "title" : "Transaction data",
+   "reference" : "Cunningham, R. and Heathcote, C.\n(1989), Estimating a non-Gaussian regression model with multicollinearity.\nAustralian Journal of Statistics, 31,12-17."
+}
+
 var Transact = [
    [
       "t1",

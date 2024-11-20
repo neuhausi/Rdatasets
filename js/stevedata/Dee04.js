@@ -1,3 +1,21 @@
+var Dee04Info ={
+   "parameters" : {
+      "schoolid" : "a numeric vector that should be understood as categorical",
+      "otherrace" : "a numeric vector for if the person is another race",
+      "distance" : "a numeric vector for the distance to college",
+      "register" : "a numeric vector for if the person is registered to vote",
+      "black" : "a numeric vector for if the person is black",
+      "college" : "a numeric vector for if the person went to college",
+      "hispanic" : "a numeric vector for if the person is Hispanic",
+      "female" : "a numeric vector for if the person is a woman"
+   },
+   "title" : "Are There Civics Returns to Education?",
+   "format" : "A data frame with 9227 observations on the following 8 variables.",
+   "reference" : "I should note I acquired this data set in Mexico City sitting on a two-week program at IPSA-FLACSO Mexico Summer School in 2019. The sample size here (9,227) is about two thousand short of what Dee reports in his article. It'll do, though.",
+   "description" : "Description\nThis should be a data set for a (partial?) replication of\nDee's (2004) article on the purported civics returns to education. I use\nthese data for in-class illustration about instrumental variable analyses.",
+   "usage" : "Dee04"
+}
+
 var Dee04 = [
    [
       "schoolid",

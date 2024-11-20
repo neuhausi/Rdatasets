@@ -1,3 +1,16 @@
+var coffee_priceInfo ={
+   "parameters" : {
+      "date" : "the date (year-month)",
+      "robustas" : "the price (monthly average) of Robustas,\nvia International Coffee Organization data, in nominal US cents per pound",
+      "arabica" : "the price (monthly average) of mild Arabica, via\nInternational Coffee Organization data, in nominal US cents per pound"
+   },
+   "reference" : "Data come from International Monetary Fund (Primary Commodity Prices) and\nInternational Coffee Organization. The IMF adds these prices are global and the\nNew York cash price, ex-dock",
+   "format" : "A data frame with the following 3 variables.",
+   "title" : "The Primary Commodity Price for Coffee (Arabica, Robustas)",
+   "description" : "Description\nThis is primary commodity price data for coffee (Arabica, Robustas)\nfrom 1980 to the present. I manually update these data since FRED's\ncoverage since 2017 has been spotty.",
+   "usage" : "coffee_price"
+}
+
 var coffee_price = [
    [
       "date",

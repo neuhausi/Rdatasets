@@ -1,6 +1,20 @@
 {
    "data" : {
       "y" : {
+         "smps" : [
+            "Verbal",
+            "Verbal2",
+            "Space1",
+            "Space2",
+            "Reason1",
+            "Reason2",
+            "Number1",
+            "Number2",
+            "IPATSer",
+            "IPATCLAS",
+            "IPATMatr",
+            "IPATTOP"
+         ],
          "vars" : [
             "Verbal",
             "Verbal2",
@@ -184,30 +198,16 @@
                0.33,
                1
             ]
-         ],
-         "smps" : [
-            "Verbal",
-            "Verbal2",
-            "Space1",
-            "Space2",
-            "Reason1",
-            "Reason2",
-            "Number1",
-            "Number2",
-            "IPATSer",
-            "IPATCLAS",
-            "IPATMatr",
-            "IPATTOP"
          ]
       }
    },
    "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>cattell</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>12 cognitive variables from Cattell (1963) </h2>\n<h3>Description</h3>\n<p>Rindskopf and Rose (1988) use this data set to demonstrate confirmatory second order factor models.  It is a nice example data set to explore hierarchical structure and alternative factor solutions. It contains measures of fluid and crystallized intelligence.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(\"cattell\")</code></pre>\n<h3>Format</h3>\n<p>A correlation matrix of the following 12 variables from 277 7th and 8th graders\n</p>\n<dl>\n<dt>Verbal</dt><dd><p>A verbal ability test from Thurstone</p>\n</dd>\n<dt>Verbal2</dt><dd><p>A verbal ability test from Thurstone</p>\n</dd>\n<dt>Space1</dt><dd><p>A Spatial ability test from Thurstone</p>\n</dd>\n<dt>Space2</dt><dd><p>A Spatial ability test from Thurstone</p>\n</dd>\n<dt>Reason1</dt><dd><p>A reasoning test from Thurstone</p>\n</dd>\n<dt>Reason2</dt><dd><p>A reasoning  test from Thurstone</p>\n</dd>\n<dt>Number1</dt><dd><p>A Numerical ability test from Thurstone</p>\n</dd>\n<dt>Number2</dt><dd><p>A Numerical ability test from Thurstone</p>\n</dd>\n<dt>IPATSer</dt><dd><p>A &quot;culture fair&quot;  series from the IPAT</p>\n</dd>\n<dt>IPATCLAS</dt><dd><p>A &quot;culture fair&quot; classification test from the IPAT</p>\n</dd>\n<dt>IPATMatr</dt><dd><p>A &quot;culture fair&quot; matrix reasoning  test from the IPAT</p>\n</dd>\n<dt>IPATTop</dt><dd><p>A &quot;culture fair&quot; topology test from the IPAT</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>Cattell (1963) reported on 8 cognitive variables from Thurstone and four from the Institute for Personality Assessment Test (IPAT).  Rindskopf and Rose (1988) use this data set as an example of second order factor analysis. It is thus a nice set for examining alternative solutions such as bifactor rotation, <code>omega</code> hierarchical, as well as <code>esem</code> and <code>interbattery</code> factor analysis.\n</p>\n<h3>Source</h3>\n<p>David Rindskopf and Tedd Rose, (1988) Some Theory and Applications of Confirmatory Second- Order Factor Analysis, Multivariate Behavioral Research, 23, 51-67.</p>\n<h3>References</h3>\n<p>Cattell, R. B. (1963).Theory of fluid and crystallized intelligence: A critical experiment. Journal of Educational Psychology, 54, 1-22.\n</p>\n<p>David Rindskopf and Tedd Rose, (1988) Some Theory and Applications of Confirmatory Second- Order Factor Analysis, Multivariate Behavioral Research, 23, 51-67.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>data(cattell)\ncorPlot(cattell,numbers=TRUE,upper=FALSE,diag=FALSE,\n             main=\"12 cognitive variables from Cattell (1963)\",xlas=2)\n</code></pre>\n</main>\n</div>\n",
    "config" : {
-      "graphType" : "Heatmap",
       "subtitle" : "psych - cattell",
-      "title" : "12 cognitive variables from Cattell (1963)",
       "smpOverlays" : [
          null
-      ]
+      ],
+      "title" : "12 cognitive variables from Cattell (1963)",
+      "graphType" : "Heatmap"
    }
 }

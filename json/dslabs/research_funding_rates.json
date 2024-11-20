@@ -1,27 +1,6 @@
 {
-   "config" : {
-      "title" : "Gender bias in research funding in the Netherlands",
-      "smpOverlays" : [
-         "discipline"
-      ],
-      "graphType" : "Stacked",
-      "subtitle" : "dslabs - research_funding_rates"
-   },
    "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>research_funding_rates</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Gender bias in research funding in the Netherlands</h2>\n<h3>Description</h3>\n<p>Table S1 from paper title &quot;Gender contributes to personal research funding success in The Netherlands&quot;\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>research_funding_rates\n</code></pre>\n<h3>Format</h3>\n<p>An object of class <code>\"data.frame\"</code>.\n</p>\n<h3>Details</h3>\n<ul>\n<li><p> discipline. Research area discipline.\n</p>\n</li>\n<li><p> applications_total. Total applications.\n</p>\n</li>\n<li><p> applications_men. Total applications by men.\n</p>\n</li>\n<li><p> applications_women. Total applications by women.\n</p>\n</li>\n<li><p> awards_total. Total awards.\n</p>\n</li>\n<li><p> awards_men. Total awards received by men.\n</p>\n</li>\n<li><p> awards_women. Total awards received by women.\n</p>\n</li>\n<li><p> success_rates_total. Overall success rate.\n</p>\n</li>\n<li><p> success_rates_men. Success rate for men.\n</p>\n</li>\n<li><p> success_rates_women. Success rate for women.\n</p>\n</li></ul>\n<h3>References</h3>\n<p>van der Lee R, Ellemers N. Gender contributes to personal research funding success in The Netherlands. Proc Natl Acad Sci U S A. 2015 Oct 6;112(40):12349-53. doi: 10.1073/pnas.1510159112. Epub 2015 Sep 21. PMID: 26392544; PMCID: PMC4603485.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>research_funding_rates\n# The raw data for this table is available from\ninvisible(raw_data_research_funding_rates)\n</code></pre>\n</main>\n</div>\n",
    "data" : {
-      "x" : {
-         "discipline" : [
-            "Chemical sciences",
-            "Physical sciences",
-            "Physics",
-            "Humanities",
-            "Technical sciences",
-            "Interdisciplinary",
-            "Earth/life sciences",
-            "Social sciences",
-            "Medical sciences"
-         ]
-      },
       "y" : {
          "vars" : [
             "applications_total",
@@ -33,6 +12,17 @@
             "success_rates_total",
             "success_rates_men",
             "success_rates_women"
+         ],
+         "smps" : [
+            "Smp1",
+            "Smp2",
+            "Smp3",
+            "Smp4",
+            "Smp5",
+            "Smp6",
+            "Smp7",
+            "Smp8",
+            "Smp9"
          ],
          "data" : [
             [
@@ -134,18 +124,28 @@
                11.5,
                11.2
             ]
-         ],
-         "smps" : [
-            "Smp1",
-            "Smp2",
-            "Smp3",
-            "Smp4",
-            "Smp5",
-            "Smp6",
-            "Smp7",
-            "Smp8",
-            "Smp9"
+         ]
+      },
+      "x" : {
+         "discipline" : [
+            "Chemical sciences",
+            "Physical sciences",
+            "Physics",
+            "Humanities",
+            "Technical sciences",
+            "Interdisciplinary",
+            "Earth/life sciences",
+            "Social sciences",
+            "Medical sciences"
          ]
       }
+   },
+   "config" : {
+      "title" : "Gender bias in research funding in the Netherlands",
+      "graphType" : "Stacked",
+      "smpOverlays" : [
+         "discipline"
+      ],
+      "subtitle" : "dslabs - research_funding_rates"
    }
 }

@@ -1,3 +1,19 @@
+var hotspotsInfo ={
+   "parameters" : {
+      "ID" : "Volcano identifier",
+      "error" : "Standard error of estimate?",
+      "distance" : "Distance in kilometers",
+      "name" : "Name",
+      "age" : "K-Ar age in millions of years",
+      "source" : "Data source; see information on web site below."
+   },
+   "reference" : "For details of the way that errors werre calculated, refer to the\noriginal papers. See also the comments under hotspots2006.\nIn general, errors do not account for geological uncertainty.",
+   "title" : "Hawaian island chain hotspot Potassium-Argon ages",
+   "format" : "A data frame with 36 observations on the following 6 variables.",
+   "description" : "Description\nK-Ar Ages (millions of years) and distances (km) from Kilauea \nalong the trend of the chain of Hawaian volcanic islands and\nother seamounts that are believed to have been created by a\nmoving \"hot spot\". The age of Kilauea is given as 0-0.4 Ma.",
+   "usage" : "data(hotspots)"
+}
+
 var hotspots = [
    [
       "ID",

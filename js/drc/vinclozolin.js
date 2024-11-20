@@ -1,3 +1,16 @@
+var vinclozolinInfo ={
+   "usage" : "data(vinclozolin)",
+   "description" : "Description\nDose-response experiment with vinclozolin in an AR reporter gene assay",
+   "format" : "A data frame with 53 observations on the following 3 variables.",
+   "title" : "Vinclozolin from AR in vitro assay",
+   "reference" : "The basic dose-response experiment was repeated 6 times on different days. Chinese Hamster Ovary cells \nwere exposed to various concentrations of vinclozolin for 22 hours and the resulting luminescense effects\nwere recorded.",
+   "parameters" : {
+      "conc" : "a numeric vector of concentrations of vinclozolin",
+      "effect" : "a numeric vector of luminescense effects",
+      "exper" : "a factor with levels 10509 10821 10828 10904 11023 11106"
+   }
+}
+
 var vinclozolin = [
    [
       "exper",

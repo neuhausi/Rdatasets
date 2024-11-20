@@ -1,3 +1,10 @@
+var irisInfo ={
+   "description" : "Description\nThis famous (Fisher's or Anderson's) iris data set gives the\nmeasurements in centimeters of the variables sepal length and width\nand petal length and width, respectively, for 50 flowers from each\nof 3 species of iris.  The species are Iris setosa,\nversicolor, and virginica.",
+   "format" : "iris is a data frame with 150 cases (rows) and 5 variables\n(columns) named Sepal.Length, Sepal.Width,\nPetal.Length, Petal.Width, and Species.",
+   "title" : "Edgar Anderson's Iris Data",
+   "usage" : "iris\niris3"
+}
+
 var iris = [
    [
       "Sepal.Length",

@@ -6776,8 +6776,8 @@
       }
    },
    "config" : {
+      "title" : "badhealth",
       "graphType" : "Scatter3D",
-      "subtitle" : "COUNT - badhealth",
-      "title" : "badhealth"
+      "subtitle" : "COUNT - badhealth"
    }
 }

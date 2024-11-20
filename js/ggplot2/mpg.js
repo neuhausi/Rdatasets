@@ -1,3 +1,23 @@
+var mpgInfo ={
+   "parameters" : {
+      "model" : "model name",
+      "cty" : "city miles per gallon",
+      "manufacturer" : "manufacturer name",
+      "trans" : "type of transmission",
+      "year" : "year of manufacture",
+      "fl" : "fuel type",
+      "displ" : "engine displacement, in litres",
+      "drv" : "the type of drive train, where f = front-wheel drive, r = rear wheel drive, 4 = 4wd",
+      "cyl" : "number of cylinders",
+      "hwy" : "highway miles per gallon",
+      "class" : "\"type\" of car"
+   },
+   "description" : "Description\nThis dataset contains a subset of the fuel economy data that the EPA makes\navailable on https://fueleconomy.gov/. It contains only models which\nhad a new release every year between 1999 and 2008 - this was used as a\nproxy for the popularity of the car.",
+   "usage" : "mpg",
+   "title" : "Fuel economy data from 1999 to 2008 for 38 popular models of cars",
+   "format" : "A data frame with 234 rows and 11 variables:"
+}
+
 var mpg = [
    [
       "manufacturer",

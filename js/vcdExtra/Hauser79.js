@@ -1,3 +1,16 @@
+var Hauser79Info ={
+   "usage" : "data(Hauser79)",
+   "description" : "Description\nHauser (1979) presented this two-way frequency table,\ncross-classifying occupational categories of sons and fathers\nin the United States.\nIt is a good example for exploring a variety of models for square tables:\nquasi-independence, quasi-symmetry, row/column effects, uniform association, etc.,\nusing the facilities of the gnm.",
+   "reference" : "Hauser's data was first presented in 1979, and then published in 1980. The name of the\ndataset reflects the earliest use.",
+   "format" : "A frequency data frame with 25 observations on the following 3 variables, representing the\ncross-classification of 19912 individuals by father's occupation and son's first occupation.",
+   "title" : "Hauser (1979) Data on Social Mobility",
+   "parameters" : {
+      "Freq" : "a numeric vector",
+      "Father" : "a factor with levels UpNM LoNM UpM LoM Farm",
+      "Son" : "a factor with levels UpNM LoNM UpM LoM Farm"
+   }
+}
+
 var Hauser79 = [
    [
       "Son",

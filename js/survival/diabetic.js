@@ -1,3 +1,21 @@
+var diabeticInfo ={
+   "usage" : "diabetic\ndata(diabetic, package=\"survival\")",
+   "description" : "Description\nPartial results from a trial of laser coagulation for the treatment\nof diabetic retinopathy.",
+   "format" : "A data frame with 394 observations on the following 8 variables.",
+   "title" : "Ddiabetic retinopathy",
+   "reference" : "The 197 patients in this dataset were a 50% random sample of the\npatients with \"high-risk\" diabetic retinopathy as defined by the\nDiabetic Retinopathy Study (DRS).  Each patient had one eye randomized\nto laser treatment and the other eye received no treatment.  For each\neye, the event of interest was the time from initiation of treatment\nto the time when visual acuity dropped below 5/200 two visits in a row.\nThus there is a built-in lag time of\napproximately 6 months (visits were every 3 months).  Survival times\nin this dataset are therefore the actual time to blindness in months,\nminus the minimum possible time to event (6.5 months).  Censoring was\ncaused by death, dropout, or end of the study.",
+   "parameters" : {
+      "risk" : "risk group of 6-12",
+      "laser" : "laser type: xenon or argon",
+      "eye" : "a factor with levels of left right",
+      "id" : "subject id",
+      "time" : "time to event or last follow-up",
+      "trt" : "treatment: 0 = no treatment, 1= laser",
+      "age" : "age at diagnosis",
+      "status" : "status of 0= censored or 1 = visual loss"
+   }
+}
+
 var diabetic = [
    [
       "id",

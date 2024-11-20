@@ -1,8 +1,8 @@
 {
    "config" : {
+      "scatterPlotMatrix" : 1,
       "title" : "The Longley Data",
       "graphType" : "Scatter2D",
-      "scatterPlotMatrix" : 1,
       "subtitle" : "Ecdat - Longley"
    },
    "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>Longley</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>The Longley Data </h2>\n<h3>Description</h3>\n<p>annual observations from 1947 to 1962\n</p>\n<p><em>number of observations</em> :  16\n</p>\n<p><em>observation</em> :  country\n</p>\n<p><em>country</em> :  United States\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(Longley)</code></pre>\n<h3>Format</h3>\n<p>A time series containing :\n</p>\n<dl>\n<dt>employ</dt><dd><p>employment (1,000s)</p>\n</dd>\n<dt>price</dt><dd><p>GNP deflator</p>\n</dd>\n<dt>gnp</dt><dd><p>nominal GNP (millions)</p>\n</dd>\n<dt>armed</dt><dd><p>armed forces</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>Longley, J. (1967) &ldquo;An appraisal of least squares programs from the point of view of the user&rdquo;, <em>Journal of the American Statistical Association</em>, <b>62</b>, 819-841.\n</p>\n<h3>References</h3>\n<p>Greene, W.H. (2003) <em>Econometric Analysis</em>, Prentice Hall, <a href=\"https://archive.org/details/econometricanaly0000gree_f4x3\">https://archive.org/details/econometricanaly0000gree_f4x3</a>, Table F4.2.\n</p>\n<h3>See Also</h3>\n<p><code>Index.Source</code>, <code>Index.Economics</code>, <code>Index.Econometrics</code>, <code>Index.Observations</code>,\n</p>\n<p><code>Index.Time.Series</code></p>\n</main>\n</div>\n",
@@ -13,6 +13,24 @@
             "price",
             "gnp",
             "armed"
+         ],
+         "vars" : [
+            "Var1",
+            "Var2",
+            "Var3",
+            "Var4",
+            "Var5",
+            "Var6",
+            "Var7",
+            "Var8",
+            "Var9",
+            "Var10",
+            "Var11",
+            "Var12",
+            "Var13",
+            "Var14",
+            "Var15",
+            "Var16"
          ],
          "data" : [
             [
@@ -111,24 +129,6 @@
                554894,
                2827
             ]
-         ],
-         "vars" : [
-            "Var1",
-            "Var2",
-            "Var3",
-            "Var4",
-            "Var5",
-            "Var6",
-            "Var7",
-            "Var8",
-            "Var9",
-            "Var10",
-            "Var11",
-            "Var12",
-            "Var13",
-            "Var14",
-            "Var15",
-            "Var16"
          ]
       }
    }

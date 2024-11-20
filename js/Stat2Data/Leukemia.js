@@ -1,3 +1,9 @@
+var LeukemiaInfo ={
+   "title" : "Responses to Treatment for Leukemia",
+   "usage" : "A data frame with 51 observations on the following 9 variables.",
+   "description" : "Description\nTreatment results for leukemia patients"
+}
+
 var Leukemia = [
    [
       "Age",

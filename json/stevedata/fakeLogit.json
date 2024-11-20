@@ -1,9 +1,5 @@
 {
-   "config" : {
-      "title" : "Fake Data for a Logistic Regression",
-      "subtitle" : "stevedata - fakeLogit",
-      "graphType" : "Scatter2D"
-   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>fakeLogit</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Fake Data for a Logistic Regression</h2>\n<h3>Description</h3>\n<p>This is a simple fake data set to illustrate a logistic regression.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>fakeLogit\n</code></pre>\n<h3>Format</h3>\n<p>A data frame with 10000 observations on the following 2 variables.\n</p>\n<dl>\n<dt><code>x</code></dt><dd><p>a five-item functionally ordered categorical variable</p>\n</dd>\n<dt><code>y</code></dt><dd><p>a binary variable that is either 0 or 1</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>The data are generated such that the outcome <code>y</code> is a logistic\nfunction of the <code>x</code> variable and come from a <code>rbinom()</code> call. The\nestimated natural logged odds of <code>y</code> when <code>x</code> is 0 is -2.8. Each\nunit increase in <code>x</code> is simulated to increase the natural logged odds of\n<code>y</code> by 1.4. This example is very much patterned off a similar fake data\nset that Pollock (2012) uses to teach about logistic regression. In his case,\n<code>x</code> is a stand-in for hypothetical education categories and <code>y</code> is\nwhether this fake person voted or not.\n</p>\n</main>\n</div>\n",
    "data" : {
       "y" : {
          "vars" : [
@@ -50016,5 +50012,9 @@
          ]
       }
    },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>fakeLogit</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Fake Data for a Logistic Regression</h2>\n<h3>Description</h3>\n<p>This is a simple fake data set to illustrate a logistic regression.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>fakeLogit\n</code></pre>\n<h3>Format</h3>\n<p>A data frame with 10000 observations on the following 2 variables.\n</p>\n<dl>\n<dt><code>x</code></dt><dd><p>a five-item functionally ordered categorical variable</p>\n</dd>\n<dt><code>y</code></dt><dd><p>a binary variable that is either 0 or 1</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>The data are generated such that the outcome <code>y</code> is a logistic\nfunction of the <code>x</code> variable and come from a <code>rbinom()</code> call. The\nestimated natural logged odds of <code>y</code> when <code>x</code> is 0 is -2.8. Each\nunit increase in <code>x</code> is simulated to increase the natural logged odds of\n<code>y</code> by 1.4. This example is very much patterned off a similar fake data\nset that Pollock (2012) uses to teach about logistic regression. In his case,\n<code>x</code> is a stand-in for hypothetical education categories and <code>y</code> is\nwhether this fake person voted or not.\n</p>\n</main>\n</div>\n"
+   "config" : {
+      "title" : "Fake Data for a Logistic Regression",
+      "graphType" : "Scatter2D",
+      "subtitle" : "stevedata - fakeLogit"
+   }
 }

@@ -1,3 +1,10 @@
+var HoytInfo ={
+   "description" : "Description\nMinnesota high school graduates of June 1930 were classified with respect to \n(a) Rank by thirds in their graduating class, (b) post-high school Status in April 1939 (4 levels), (c) Sex, \n(d) father's Occupational status (7 levels, from 1=High to 7=Low).\nThe data were first presented by Hoyt et al. (1959) and have been analyzed by Fienberg(1980), Plackett(1974)\nand others.",
+   "format" : "A     4-dimensional array resulting from cross-tabulating    4 variables for 13968 observations. The variable names and their levels are:",
+   "title" : "Minnesota High School Graduates",
+   "usage" : "data(Hoyt)"
+}
+
 var Hoyt = [
    [
       "Status",

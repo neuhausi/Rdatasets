@@ -1,3 +1,22 @@
+var ManufactCostsInfo ={
+   "usage" : "data(\"ManufactCosts\")",
+   "description" : "Description\nUS time series data on prices and cost shares in manufacturing, 1947&ndash;1971.",
+   "title" : "Manufacturing Costs Data",
+   "format" : "An annual multiple time series from 1947 to 1971 with 9 variables.",
+   "reference" : "Online complements to Greene (2003).",
+   "parameters" : {
+      "materialsprice" : "Materials price.",
+      "cost" : "Cost index.",
+      "laborprice" : "Labor price.",
+      "energyprice" : "Energy price.",
+      "materialscost" : "Materials cost share.",
+      "capitalcost" : "Capital cost share.",
+      "capitalprice" : "Capital price.",
+      "energycost" : "Energy cost share.",
+      "laborcost" : "Labor cost share."
+   }
+}
+
 var ManufactCosts = [
    [
       "cost",

@@ -1,5 +1,9 @@
 {
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>mathscore</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Math scores for basic math and word problems</h2>\n<h3>Description</h3>\n<p>Scores for two groups of school children taught by different math teachers\nand tested for both basic math (BM) problems and solving word problems (WP).\n</p>\n<h3>Format</h3>\n<p>A data frame with 12 observations on the following 3 variables.\n</p>\n<dl>\n<dt><code>group</code></dt><dd><p>a factor with levels <code>1</code> <code>2</code></p>\n</dd>\n<dt><code>BM</code></dt><dd><p>Basic Math score, a numeric vector</p>\n</dd> \n<dt><code>WP</code></dt><dd><p>Word Problems score, a numeric vector</p>\n</dd> \n</dl>\n<h3>Source</h3>\n<p>Fictitious data\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>\ndata(mathscore)\nstr(mathscore)\nmath.mod &lt;- lm(cbind(BM, WP) ~ group, data=mathscore)\ncar::Anova(math.mod)\n# scatterplot with data ellipses\ncar::scatterplot(WP ~ BM | group, data=mathscore, \n\tellipse=list(levels=0.68), smooth=FALSE, pch=c(15,16), \n\tlegend=list(coords = \"topright\"))\n# HE plot\nheplot(math.mod, fill=TRUE, \n  cex=2, cex.lab=1.8,\n\txlab=\"Basic math\", ylab=\"Word problems\")\n</code></pre>\n</main>\n</div>\n",
+   "config" : {
+      "subtitle" : "heplots - mathscore",
+      "title" : "Math scores for basic math and word problems",
+      "graphType" : "Scatter3D"
+   },
    "data" : {
       "y" : {
          "vars" : [
@@ -15,6 +19,11 @@
             "Var10",
             "Var11",
             "Var12"
+         ],
+         "smps" : [
+            "group",
+            "BM",
+            "WP"
          ],
          "data" : [
             [
@@ -77,17 +86,8 @@
                145,
                130
             ]
-         ],
-         "smps" : [
-            "group",
-            "BM",
-            "WP"
          ]
       }
    },
-   "config" : {
-      "subtitle" : "heplots - mathscore",
-      "graphType" : "Scatter3D",
-      "title" : "Math scores for basic math and word problems"
-   }
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>mathscore</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Math scores for basic math and word problems</h2>\n<h3>Description</h3>\n<p>Scores for two groups of school children taught by different math teachers\nand tested for both basic math (BM) problems and solving word problems (WP).\n</p>\n<h3>Format</h3>\n<p>A data frame with 12 observations on the following 3 variables.\n</p>\n<dl>\n<dt><code>group</code></dt><dd><p>a factor with levels <code>1</code> <code>2</code></p>\n</dd>\n<dt><code>BM</code></dt><dd><p>Basic Math score, a numeric vector</p>\n</dd> \n<dt><code>WP</code></dt><dd><p>Word Problems score, a numeric vector</p>\n</dd> \n</dl>\n<h3>Source</h3>\n<p>Fictitious data\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>\ndata(mathscore)\nstr(mathscore)\nmath.mod &lt;- lm(cbind(BM, WP) ~ group, data=mathscore)\ncar::Anova(math.mod)\n# scatterplot with data ellipses\ncar::scatterplot(WP ~ BM | group, data=mathscore, \n\tellipse=list(levels=0.68), smooth=FALSE, pch=c(15,16), \n\tlegend=list(coords = \"topright\"))\n# HE plot\nheplot(math.mod, fill=TRUE, \n  cex=2, cex.lab=1.8,\n\txlab=\"Basic math\", ylab=\"Word problems\")\n</code></pre>\n</main>\n</div>\n"
 }

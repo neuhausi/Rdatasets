@@ -1,3 +1,33 @@
+var socsupportInfo ={
+   "usage" : "socsupport",
+   "description" : "Description\nData from a survey on social and other kinds of support.",
+   "title" : "Social Support Data",
+   "reference" : "Melissa Manning, Psychology, Australian National University",
+   "format" : "This data frame contains the following columns:",
+   "parameters" : {
+      "supsources" : "summary of 4 questions on extent of social support \nsources (formerly, socsupport)",
+      "BDI" : "Score on the Beck depression index (summary of 21 questions)",
+      "age" : "age, in years, with levels\n18-20, 21-24, 25-30, \n31-40,40+",
+      "esupport" : "summary of 4 questions on extent of emotional support sources",
+      "tangible" : "summary of 4 questions on availability of tangible support",
+      "tangiblesat" : "summary of 4 questions on satisfaction with tangible support",
+      "psi" : "summary of 3 questions on availability of positive social interaction",
+      "psupport" : "summary of 4 questions on extent of practical support sources",
+      "gender" : "a factor with levels\nfemale, male",
+      "affectsat" : "summary of 3 questions on satisfaction with affectionate support sources",
+      "marital" : "a factor with levels married,\nother, single",
+      "enrolment" : "a factor with levels\nfull-time, part-time, <NA>",
+      "employment" : "a factor with levels\nemployed fulltime, employed part-time, \ngovt assistance, other, parental support",
+      "emotionalsat" : "summary of 5 questions on emotional support satisfaction",
+      "country" : "a factor with levels australia, \nother",
+      "psisat" : "summary of 3 questions on satisfaction with positive social \ninteraction",
+      "livewith" : "a factor with levels alone, \nfriends, other, parents, \npartner, residences",
+      "affect" : "summary of 3 questions on availability of affectionate support sources",
+      "emotional" : "summary of 5 questions on emotional support availability",
+      "firstyr" : "a factor with levels first year, \nother"
+   }
+}
+
 var socsupport = [
    [
       "gender",

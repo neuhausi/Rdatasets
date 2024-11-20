@@ -1,5 +1,88 @@
 {
+   "config" : {
+      "subtitle" : "Ecdat - UStaxWords",
+      "title" : "Number of Words in US Tax Law",
+      "sizeBy" : "otherTaxCodeAndRegs",
+      "shapeBy" : "IncomeTaxCode",
+      "colorBy" : "IncomeTaxRegulations",
+      "graphType" : "Scatter2D"
+   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>UStaxWords</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2> Number of Words in US Tax Law</h2>\n<h3>Description</h3>\n<p>Thousands of words in US tax law for 1995\nto 2015 in 10 year intervals.  This\nincludes income taxes and all taxes in the\ncode itself (written by congress) and\nregulations (written by government \nadministrators).  For 2015 only \n<code>EntireTaxCodeAndRegs</code> is given;  for \nother years, this number is broken down by \nincome tax vs. other taxes and code vs. \nregulations.  \n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(UStaxWords)</code></pre>\n<h3>Format</h3>\n<p>A <code>data.frame</code> containing:\n</p>\n<dl>\n<dt>year</dt><dd><p> tax year </p>\n</dd>\n<dt>IncomeTaxCode</dt><dd>\n<p>number of words in thousands in the US \nincome tax code\n</p>\n</dd>\n<dt>otherTaxCode</dt><dd>\n<p>number of words in thousands in US tax \ncode other than income tax\n</p>\n</dd>\n<dt>EntireTaxCode</dt><dd>\n<p>number of words in thousands in the US \ntax code\n</p>\n</dd>\n<dt>IncomeTaxRegulations</dt><dd>\n<p>number of words in thousands in US \nincome tax regulations\n</p>\n</dd>\n<dt>otherTaxRegulations</dt><dd>\n<p>number of words in thousands in US tax\nregulations other than income tax\n</p>\n</dd>\n<dt>IncomeTaxCodeAndRegs</dt><dd>\n<p>number of words in thousands in both \nthe code and regulations for the US\nincome tax\n</p>\n</dd>\n<dt>otherTaxCodeAndRegs</dt><dd>\n<p>number of words in thousands in both \ncode and regulations for US taxes apart\nfrom income taxes.\n</p>\n</dd>\n<dt>EntireTaxCodeAndRegs</dt><dd>\n<p>number of words in thousands in US tax \ncode and regulations\n</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>Thousands of words in the US tax code and \nfederal tax regulations, 1955-2015.  This\nis based on data from the Tax Foundation\n(<code>taxfoundation.org</code>), adjusted to \neliminate an obvious questionable observation \nin <code>otherTaxRegulations</code> for 1965.  The\nnumbers of words in \n<code>otherTaxRegulations</code> was not reported\ndirectly by the Tax Foundation but is\neasily computed as the difference between\ntheir Income and Entire tax numbers.  This\nseries  shows the numbers falling by 48\npercent between 1965 and 1975 and by 1.5\npercent between 1995 and 2005.  These are\nthe only declines seen in these numbers\nand seem inconsistent with the common \nconcern (expressed e.g., in Moody,\nWarcholik and Hodge, 2005) about the\ndifficulties of simplifying any \ngovernmental program, because vested \ninterest appear to defend almost anything.\nLessig (2011) notes that virtually all\nprovisions of US law that favor certain\nsegments of society are set to expire after\na modest number of years.  These sunset\nprovisions provide recurring opportunities\nfor incumbent politicians to extort \ncampaign contributions from those same\nsegments to ensure the continuation of the\nfavorable treatment.  \n</p>\n<p>The decline of 48 percent in \n<code>otherTaxRegulations</code> seems more \ncurious for two additional reasons:  First,\nit was preceded by a tripling of \n<code>otherTaxRegulations</code> between 1955 and\n1965.  Second, it was NOT accompanied by\nany comparable behavior of \n<code>otherTaxCode</code>. Instead, the latter \ngrew each decade by between 17 and 53\npercent, similar to but slower than the\ngrowth in <code>IncomeTaxCode</code> and \n<code>IncomeTaxRegulations</code>.\n</p>\n<p>Accordingly, <code>otherTaxRegulations</code> for\n1965 is replaced by the average of the\nnumbers for 1955 and 1975, and \n<code>EntireTaxRegulations</code> for 1965 is\ncomparably adjusted.  This replaces (1322,\n2960) for those two variables for 1965\nwith (565, 2203).  In addition, \n<code>otherTaxCodeAndRegs</code> and\n<code>EntireTaxCodeAndRegulations</code> are also\nchanged from (1626, 3507) to (870, 2751).\n</p>\n<p>Independent of whether this adjustment is \ncorrect or not, it's clear that there have\nbeen roughly 3 words of regulations for\neach word in the tax code.  Most of these\nare income tax regulations, which have\nrecently contained 4.5 words for every\nword in code. The income tax code currently\nincludes roughly 50 percent more words than\nother tax code.\n</p>\n<h3>Author(s)</h3>\n<p>Spencer Graves</p>\n<h3>Source</h3>\n<p><a href=\"https://taxfoundation.org/number-words-internal-revenue-code-and-federal-tax-regulations-1955-2005\">Tax\nFoundation:  Number of Words in Internal Revenue Code and Federal\nTax Regulations, 1955-2005</a>\nScott Greenberg, <a href=\"https://taxfoundation.org/federal-tax-laws-and-regulations-are-now-over-10-million-words-long/\">&quot;Federal Tax Laws and Regulations are Now Over 10 Million Words Long&quot;, October 08, 2015</a>\n</p>\n<h3>References</h3>\n<p>J. Scott Moody, Wendy P. Warcholik, and Scott A. Hodge (2005) &quot;The\nRising Cost of Complying with the Federal Income Tax&quot;, The Tax\nFoundation Special Report No. 138.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>data(UStaxWords)\nplot(EntireTaxCodeAndRegs/1000 ~ year, UStaxWords, \n  type='b',\n  ylab='Millions of words in US tax code &amp; regs')\n# Write to a file for Wikimedia Commons\n## Not run: \nsvg('UStaxWords.svg')\n## End(Not run)\nmatplot(UStaxWords$year, UStaxWords[c(2:3, 5:6)]/1000,\n    type='b', bty='n', ylab='',\n    ylim=c(0, max(UStaxWords$EntireTaxCodeAndRegs)/1000),\n    las=1, xlab=\"\", cex.axis=2)\nlines(EntireTaxCodeAndRegs/1000~year, UStaxWords, lwd=2)\n## Not run: \ndev.off()\n## End(Not run)\n# lines 1:4 = IncomeTaxCode, otherTaxCode, \n#   IncomeTaxRegulations,\n#   and otherTaxRegulations, respectively\n## Plotting the original numbers \n##      without the adjustment\nUStax. &lt;- UStaxWords\nUStax.[2,c(6:7, 9:10)] &lt;- c(1322, 2960, 1626, 3507)\nmatplot(UStax.$year, UStax.[c(2:3, 5:6)]/1000,\n      type='b', bty='n', ylab='',\n      ylim=c(0, max(\n          UStax.$EntireTaxCodeAndRegs)/1000),\n      las=1, xlab=\"\", cex.axis=2)\nlines(EntireTaxCodeAndRegs/1000~year, UStax., \n        lwd=2)\n# Note especially the anomalous behaviour of \n# line 4 = otherTaxRegulations.  As noted with\n# \"details\" above, otherTaxRegulations could have\n# tripled between 1955 and 1965, then fallen by 48\n# percent between 1965 and 1975.  However, that\n# does not seem credible, especially since there\n# was no corresponding behavior in otherTaxCode.\n## linear trend \n(newWdsPerYr &lt;- lm(EntireTaxCodeAndRegs~year, \n    UStaxWords))\nplot(UStaxWords$year, resid(newWdsPerYr))\n# Roughly 150,000 additional words added each year\n# since 1955.  \n# No indication of nonlinearity.  \n# adusted R-squared exceeds 99 percent.  \n## linear trend with increased slope\n## during the Reagan years\n# linear spline with knots at\n# 1981 and 1989 \nReagan &lt;- pmax(0, pmin(\n  (UStaxWords$year-1981)/8, 1))\nplot(Reagan~year, UStaxWords, type='b')\nUStaxWords$Reagan &lt;- Reagan\nReaganMdl &lt;- \n  EntireTaxCodeAndRegs~year + Reagan\nfitReagan &lt;- lm(ReaganMdl, UStaxWords )\nsummary(fitReagan)\n</code></pre>\n</main>\n</div>\n",
    "data" : {
+      "z" : {
+         "IncomeTaxRegulations" : [
+            "547",
+            "1638",
+            "2456",
+            "3594",
+            "4663",
+            "5778",
+            ""
+         ],
+         "IncomeTaxCode" : [
+            "172",
+            "243",
+            "395",
+            "776",
+            "1060",
+            "1286",
+            ""
+         ],
+         "otherTaxCodeAndRegs" : [
+            "678",
+            "870",
+            "1055",
+            "1370",
+            "1930",
+            "2033",
+            ""
+         ],
+         "otherTaxCode" : [
+            "237",
+            "305",
+            "363",
+            "556",
+            "731",
+            "853",
+            ""
+         ],
+         "EntireTaxRegulations" : [
+            "987",
+            "2203",
+            "3148",
+            "4407",
+            "5861",
+            "6958",
+            ""
+         ],
+         "IncomeTaxCodeAndRegs" : [
+            "718",
+            "1881",
+            "2851",
+            "4369",
+            "5722",
+            "7064",
+            ""
+         ],
+         "EntireTaxCode" : [
+            "409",
+            "548",
+            "758",
+            "1332",
+            "1791",
+            "2139",
+            ""
+         ],
+         "otherTaxRegulations" : [
+            "440",
+            "565",
+            "692",
+            "813",
+            "1198",
+            "1180",
+            ""
+         ]
+      },
       "y" : {
          "data" : [
             [
@@ -31,10 +114,6 @@
                10067
             ]
          ],
-         "smps" : [
-            "year",
-            "EntireTaxCodeAndRegs"
-         ],
          "vars" : [
             "Var1",
             "Var2",
@@ -43,90 +122,11 @@
             "Var5",
             "Var6",
             "Var7"
-         ]
-      },
-      "z" : {
-         "IncomeTaxCode" : [
-            "172",
-            "243",
-            "395",
-            "776",
-            "1060",
-            "1286",
-            ""
          ],
-         "IncomeTaxCodeAndRegs" : [
-            "718",
-            "1881",
-            "2851",
-            "4369",
-            "5722",
-            "7064",
-            ""
-         ],
-         "EntireTaxCode" : [
-            "409",
-            "548",
-            "758",
-            "1332",
-            "1791",
-            "2139",
-            ""
-         ],
-         "otherTaxRegulations" : [
-            "440",
-            "565",
-            "692",
-            "813",
-            "1198",
-            "1180",
-            ""
-         ],
-         "otherTaxCode" : [
-            "237",
-            "305",
-            "363",
-            "556",
-            "731",
-            "853",
-            ""
-         ],
-         "otherTaxCodeAndRegs" : [
-            "678",
-            "870",
-            "1055",
-            "1370",
-            "1930",
-            "2033",
-            ""
-         ],
-         "EntireTaxRegulations" : [
-            "987",
-            "2203",
-            "3148",
-            "4407",
-            "5861",
-            "6958",
-            ""
-         ],
-         "IncomeTaxRegulations" : [
-            "547",
-            "1638",
-            "2456",
-            "3594",
-            "4663",
-            "5778",
-            ""
+         "smps" : [
+            "year",
+            "EntireTaxCodeAndRegs"
          ]
       }
-   },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>UStaxWords</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2> Number of Words in US Tax Law</h2>\n<h3>Description</h3>\n<p>Thousands of words in US tax law for 1995\nto 2015 in 10 year intervals.  This\nincludes income taxes and all taxes in the\ncode itself (written by congress) and\nregulations (written by government \nadministrators).  For 2015 only \n<code>EntireTaxCodeAndRegs</code> is given;  for \nother years, this number is broken down by \nincome tax vs. other taxes and code vs. \nregulations.  \n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(UStaxWords)</code></pre>\n<h3>Format</h3>\n<p>A <code>data.frame</code> containing:\n</p>\n<dl>\n<dt>year</dt><dd><p> tax year </p>\n</dd>\n<dt>IncomeTaxCode</dt><dd>\n<p>number of words in thousands in the US \nincome tax code\n</p>\n</dd>\n<dt>otherTaxCode</dt><dd>\n<p>number of words in thousands in US tax \ncode other than income tax\n</p>\n</dd>\n<dt>EntireTaxCode</dt><dd>\n<p>number of words in thousands in the US \ntax code\n</p>\n</dd>\n<dt>IncomeTaxRegulations</dt><dd>\n<p>number of words in thousands in US \nincome tax regulations\n</p>\n</dd>\n<dt>otherTaxRegulations</dt><dd>\n<p>number of words in thousands in US tax\nregulations other than income tax\n</p>\n</dd>\n<dt>IncomeTaxCodeAndRegs</dt><dd>\n<p>number of words in thousands in both \nthe code and regulations for the US\nincome tax\n</p>\n</dd>\n<dt>otherTaxCodeAndRegs</dt><dd>\n<p>number of words in thousands in both \ncode and regulations for US taxes apart\nfrom income taxes.\n</p>\n</dd>\n<dt>EntireTaxCodeAndRegs</dt><dd>\n<p>number of words in thousands in US tax \ncode and regulations\n</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>Thousands of words in the US tax code and \nfederal tax regulations, 1955-2015.  This\nis based on data from the Tax Foundation\n(<code>taxfoundation.org</code>), adjusted to \neliminate an obvious questionable observation \nin <code>otherTaxRegulations</code> for 1965.  The\nnumbers of words in \n<code>otherTaxRegulations</code> was not reported\ndirectly by the Tax Foundation but is\neasily computed as the difference between\ntheir Income and Entire tax numbers.  This\nseries  shows the numbers falling by 48\npercent between 1965 and 1975 and by 1.5\npercent between 1995 and 2005.  These are\nthe only declines seen in these numbers\nand seem inconsistent with the common \nconcern (expressed e.g., in Moody,\nWarcholik and Hodge, 2005) about the\ndifficulties of simplifying any \ngovernmental program, because vested \ninterest appear to defend almost anything.\nLessig (2011) notes that virtually all\nprovisions of US law that favor certain\nsegments of society are set to expire after\na modest number of years.  These sunset\nprovisions provide recurring opportunities\nfor incumbent politicians to extort \ncampaign contributions from those same\nsegments to ensure the continuation of the\nfavorable treatment.  \n</p>\n<p>The decline of 48 percent in \n<code>otherTaxRegulations</code> seems more \ncurious for two additional reasons:  First,\nit was preceded by a tripling of \n<code>otherTaxRegulations</code> between 1955 and\n1965.  Second, it was NOT accompanied by\nany comparable behavior of \n<code>otherTaxCode</code>. Instead, the latter \ngrew each decade by between 17 and 53\npercent, similar to but slower than the\ngrowth in <code>IncomeTaxCode</code> and \n<code>IncomeTaxRegulations</code>.\n</p>\n<p>Accordingly, <code>otherTaxRegulations</code> for\n1965 is replaced by the average of the\nnumbers for 1955 and 1975, and \n<code>EntireTaxRegulations</code> for 1965 is\ncomparably adjusted.  This replaces (1322,\n2960) for those two variables for 1965\nwith (565, 2203).  In addition, \n<code>otherTaxCodeAndRegs</code> and\n<code>EntireTaxCodeAndRegulations</code> are also\nchanged from (1626, 3507) to (870, 2751).\n</p>\n<p>Independent of whether this adjustment is \ncorrect or not, it's clear that there have\nbeen roughly 3 words of regulations for\neach word in the tax code.  Most of these\nare income tax regulations, which have\nrecently contained 4.5 words for every\nword in code. The income tax code currently\nincludes roughly 50 percent more words than\nother tax code.\n</p>\n<h3>Author(s)</h3>\n<p>Spencer Graves</p>\n<h3>Source</h3>\n<p><a href=\"https://taxfoundation.org/number-words-internal-revenue-code-and-federal-tax-regulations-1955-2005\">Tax\nFoundation:  Number of Words in Internal Revenue Code and Federal\nTax Regulations, 1955-2005</a>\nScott Greenberg, <a href=\"https://taxfoundation.org/federal-tax-laws-and-regulations-are-now-over-10-million-words-long/\">&quot;Federal Tax Laws and Regulations are Now Over 10 Million Words Long&quot;, October 08, 2015</a>\n</p>\n<h3>References</h3>\n<p>J. Scott Moody, Wendy P. Warcholik, and Scott A. Hodge (2005) &quot;The\nRising Cost of Complying with the Federal Income Tax&quot;, The Tax\nFoundation Special Report No. 138.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>data(UStaxWords)\nplot(EntireTaxCodeAndRegs/1000 ~ year, UStaxWords, \n  type='b',\n  ylab='Millions of words in US tax code &amp; regs')\n# Write to a file for Wikimedia Commons\n## Not run: \nsvg('UStaxWords.svg')\n## End(Not run)\nmatplot(UStaxWords$year, UStaxWords[c(2:3, 5:6)]/1000,\n    type='b', bty='n', ylab='',\n    ylim=c(0, max(UStaxWords$EntireTaxCodeAndRegs)/1000),\n    las=1, xlab=\"\", cex.axis=2)\nlines(EntireTaxCodeAndRegs/1000~year, UStaxWords, lwd=2)\n## Not run: \ndev.off()\n## End(Not run)\n# lines 1:4 = IncomeTaxCode, otherTaxCode, \n#   IncomeTaxRegulations,\n#   and otherTaxRegulations, respectively\n## Plotting the original numbers \n##      without the adjustment\nUStax. &lt;- UStaxWords\nUStax.[2,c(6:7, 9:10)] &lt;- c(1322, 2960, 1626, 3507)\nmatplot(UStax.$year, UStax.[c(2:3, 5:6)]/1000,\n      type='b', bty='n', ylab='',\n      ylim=c(0, max(\n          UStax.$EntireTaxCodeAndRegs)/1000),\n      las=1, xlab=\"\", cex.axis=2)\nlines(EntireTaxCodeAndRegs/1000~year, UStax., \n        lwd=2)\n# Note especially the anomalous behaviour of \n# line 4 = otherTaxRegulations.  As noted with\n# \"details\" above, otherTaxRegulations could have\n# tripled between 1955 and 1965, then fallen by 48\n# percent between 1965 and 1975.  However, that\n# does not seem credible, especially since there\n# was no corresponding behavior in otherTaxCode.\n## linear trend \n(newWdsPerYr &lt;- lm(EntireTaxCodeAndRegs~year, \n    UStaxWords))\nplot(UStaxWords$year, resid(newWdsPerYr))\n# Roughly 150,000 additional words added each year\n# since 1955.  \n# No indication of nonlinearity.  \n# adusted R-squared exceeds 99 percent.  \n## linear trend with increased slope\n## during the Reagan years\n# linear spline with knots at\n# 1981 and 1989 \nReagan &lt;- pmax(0, pmin(\n  (UStaxWords$year-1981)/8, 1))\nplot(Reagan~year, UStaxWords, type='b')\nUStaxWords$Reagan &lt;- Reagan\nReaganMdl &lt;- \n  EntireTaxCodeAndRegs~year + Reagan\nfitReagan &lt;- lm(ReaganMdl, UStaxWords )\nsummary(fitReagan)\n</code></pre>\n</main>\n</div>\n",
-   "config" : {
-      "subtitle" : "Ecdat - UStaxWords",
-      "graphType" : "Scatter2D",
-      "colorBy" : "IncomeTaxCode",
-      "title" : "Number of Words in US Tax Law",
-      "shapeBy" : "IncomeTaxCodeAndRegs",
-      "sizeBy" : "EntireTaxCode"
    }
 }

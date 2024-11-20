@@ -1,3 +1,9 @@
+var MentalHealthInfo ={
+   "description" : "Description\nAdmissions to a mental health emergency room and full moons",
+   "title" : "Mental Health Admissions",
+   "usage" : "A dataset with 36 observations on the following 3 variables."
+}
+
 var MentalHealth = [
    [
       "Month",

@@ -1,3 +1,15 @@
+var health_coverageInfo ={
+   "format" : "A data frame with 20000 observations on the following 2 variables.",
+   "title" : "Health Coverage and Health Status",
+   "reference" : "Office of Surveillance, Epidemiology, and Laboratory Services\nBehavioral Risk Factor Surveillance System, BRFSS 2010 Survey Data.",
+   "parameters" : {
+      "coverage" : "Whether the person had health coverage or not.",
+      "health_status" : "The person's health status."
+   },
+   "usage" : "health_coverage",
+   "description" : "Description\nSurvey responses for 20,000 responses to the Behavioral Risk Factor\nSurveillance System."
+}
+
 var health_coverage = [
    [
       "coverage",

@@ -1,3 +1,17 @@
+var airqualityInfo ={
+   "usage" : "airquality",
+   "description" : "Description\nDaily air quality measurements in New York, May to September 1973.",
+   "format" : "A data frame with 153 observations on 6 variables.",
+   "reference" : "The data were obtained from the New York State Department of\nConservation (ozone data) and the National Weather Service\n(meteorological data).",
+   "title" : "New York Air Quality Measurements",
+   "parameters" : {
+      "Wind" : " Average wind speed in miles\nper hour at 0700 and 1000 hours at LaGuardia Airport",
+      "Ozone" : " Mean ozone in parts per\nbillion from 1300 to 1500 hours at Roosevelt Island",
+      "Temp" : " Maximum daily\ntemperature in degrees Fahrenheit at LaGuardia Airport.",
+      "Solar.R" : " Solar radiation\nin Langleys in the frequency band 4000&ndash;7700 Angstroms from\n0800 to 1200 hours at Central Park"
+   }
+}
+
 var airquality = [
    [
       "Ozone",

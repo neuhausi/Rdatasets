@@ -1,3 +1,19 @@
+var politicalKnowledgeInfo ={
+   "parameters" : {
+      "DomesticKnowledge.hs, DomesticKnowledge.sc, \nDomesticKnowledge.c" : "percent correct answers to calibrated questions\nregarding knowledge of prominent items in domestic\nnews in a survey of residents of the four \ncountries among college graduates (ending \n\".c\"), some college (\".sc\") and\nhigh school (\".hs\").  Source:  McChesney \nand Nichols (2010, chapter 1, chart 8).",
+      "PublicMediaRel2US" : "Spending on public media relative to the US, being \nPublicMediaPerCapita / PublicMediaPerCapita[4].",
+      "InternationalKnowledge.hs, \nInternationalKnowledge.sc, \nInternationalKnowledge.c" : "percent correct answers to calibrated \nquestions regarding knowledge of \nprominent items in international news \nin a survey of residents of the four \ncountries by education level as for \nDomesticKnowledge.  Source:  \nMcChesney and Nichols (2010, chapter 1, \nchart 7).",
+      "country" : "a character vector of Denmark, Finland, UK, and \nUS, being the four countries compared in this data set.",
+      "PublicMediaPerCapita" : "Per capital spending on public media in 2007 \nin US dollars from McChesney and Nichols (2010, \nchapter 4, chart 1)",
+      "PoliticalKnowledge.hs, \nPoliticalKnowledge.sc, \nPoliticalKnowledge.c" : "average of domestic and international \nknowledge"
+   },
+   "title" : "Political knowledge in the US and Europe",
+   "format" : "A data.frame containing 12 columns and 4 rows.",
+   "reference" : "Spencer Graves",
+   "description" : "Description\nData from McChesney and Nichols (2010) \non domestic and international knowledge \nin Denmark, Finland, the UK and the US \namong college graduates, people with \nsome college, and roughly 12th grade only.",
+   "usage" : "data(politicalKnowledge)"
+}
+
 var politicalKnowledge = [
    [
       "country",

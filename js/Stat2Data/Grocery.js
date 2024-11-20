@@ -1,3 +1,9 @@
+var GroceryInfo ={
+   "title" : "Grocery Sales and Discounts",
+   "usage" : "A data frame with 36 observations on the following 5 variables.",
+   "description" : "Description\nGrocery store sales with different discounts"
+}
+
 var Grocery = [
    [
       "Discount",

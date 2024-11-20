@@ -1,3 +1,17 @@
+var VocabInfo ={
+   "usage" : "Vocab",
+   "description" : "Description\nThe Vocab data frame has 30,351 rows and 4 columns.\nThe observations are respondents to U.S. General Social Surveys, 1972-2016.",
+   "reference" : "National Opinion Research Center\nGeneral Social Survey. \nGSS Cumulative Datafile 1972-2016, downloaded from http://gss.norc.org/.",
+   "format" : "This data frame contains the following columns:",
+   "title" : "Vocabulary and Education",
+   "parameters" : {
+      "sex" : "Sex of the respondent, Female or Male.",
+      "vocabulary" : "Vocabulary test score: number correct on a 10-word test.",
+      "year" : "Year of the survey.",
+      "education" : "Education, in years."
+   }
+}
+
 var Vocab = [
    [
       "year",

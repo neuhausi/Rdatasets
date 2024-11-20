@@ -1,3 +1,17 @@
+var deguelinInfo ={
+   "format" : "A data frame with 6 observations on the following 4 variables.",
+   "title" : "Deguelin applied to chrysanthemum aphis",
+   "reference" : "The log-logistic model provides an inadequate fit.",
+   "parameters" : {
+      "log10dose" : "a numeric vector of logarithm-transformed doses",
+      "r" : "a numeric vector contained number of dead insects",
+      "n" : "a numeric vector contained the total number of insects",
+      "dose" : "a numeric vector of doses applied"
+   },
+   "usage" : "data(deguelin)",
+   "description" : "Description\nQuantal assay data from an experiment where the insectide deguelin was applied to\nMacrosiphoniella sanborni."
+}
+
 var deguelin = [
    [
       "dose",

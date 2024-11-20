@@ -1,3 +1,16 @@
+var sugar_priceInfo ={
+   "reference" : "The price data for Europe do not appear to be updated as regularly as the\nglobal and U.S. prices. Thus, the last month in the data for Europe are June 2017.\nFor that reason, I elected to make a data set of these data for posterity's sake.",
+   "title" : "IMF Primary Commodity Price Data for Sugar",
+   "format" : "A data frame with 1,316 observations on the following 3 variables.",
+   "parameters" : {
+      "category" : "the category (either the U.S., global, or Europe)",
+      "value" : "the price of sugar in U.S. cents per pound (NSA, nominal)",
+      "date" : "a date"
+   },
+   "usage" : "sugar_price",
+   "description" : "Description\nThis is primary commodity price data for sugar globally,\nin the United States, and in Europe for every month from 1980 to (roughly)\nthe present. Prices are nominal U.S. cents per pound and are\nnot seasonally adjusted (\"NSA\")."
+}
+
 var sugar_price = [
    [
       "date",

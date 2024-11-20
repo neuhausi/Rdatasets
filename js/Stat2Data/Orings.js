@@ -1,3 +1,9 @@
+var OringsInfo ={
+   "description" : "Description\nNumber of damaged O-rings on space shuttle launches and launch temperature",
+   "title" : "Space Shuttle O-Rings",
+   "usage" : "A dataset with 24 observations on the following 2 variables."
+}
+
 var Orings = [
    [
       "Temp",

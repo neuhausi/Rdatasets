@@ -1,3 +1,19 @@
+var SumHesInfo ={
+   "parameters" : {
+      "country" : "the country name (factor)",
+      "opec" : "OPEC member?",
+      "pop" : "country's population (in thousands)",
+      "gdp" : "real GDP per capita (in 1985 US dollars)",
+      "com" : "communist regime?",
+      "sr" : "saving rate (in percent)",
+      "year" : "the year"
+   },
+   "description" : "Description\nA panel of 125 observations from 1960 to 1985",
+   "usage" : "A data frame containing :",
+   "title" : "The Penn World Table, v. 5",
+   "reference" : "total number of observations : 3250"
+}
+
 var SumHes = [
    [
       "year",

@@ -1,3 +1,24 @@
+var mammalsInfo ={
+   "format" : "A data frame with 62 observations on the following 11 variables.",
+   "reference" : "http://www.statsci.org/data/general/sleep.txt",
+   "title" : "Sleep in Mammals",
+   "parameters" : {
+      "life_span" : "Life span (in years)",
+      "brain_wt" : "Brain weight of the mammal (in kg)",
+      "non_dreaming" : "Number of hours of non dreaming sleep",
+      "dreaming" : "Number of hours of dreaming sleep",
+      "total_sleep" : "Total number of hours of sleep",
+      "danger" : "An index of how much danger the mammal\nfaces from other animals. This index is based upon Predation and Exposure. 1\n= least danger from other animals. 5 = most danger from other animals.",
+      "predation" : "An index of how likely the mammal is to be preyed upon.\n1 = least likely to be preyed upon. 5 = most likely to be preyed upon.",
+      "species" : "Species of mammals",
+      "body_wt" : "Total body weight of the mammal (in kg)",
+      "exposure" : "An index of the how exposed the mammal is during sleep.\n1 = least exposed (e.g., sleeps in a well-protected den). 5 = most exposed.",
+      "gestation" : "Gestation time (in days)"
+   },
+   "usage" : "mammals",
+   "description" : "Description\nThis dataset includes data for 39 species of mammals distributed over 13\norders. The data were used for analyzing the relationship between\nconstitutional and ecological factors and sleeping in mammals. Two\nqualitatively different sleep variables (dreaming and non dreaming) were\nrecorded. Constitutional variables such as life span, body weight, brain\nweight and gestation time were evaluated. Ecological variables such as\nseverity of predation, safety of sleeping place and overall danger were\ninferred from field observations in the literature."
+}
+
 var mammals = [
    [
       "species",

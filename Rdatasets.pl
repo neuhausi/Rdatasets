@@ -16,6 +16,7 @@ use Scalar::Util qw(looks_like_number);
 use Cwd;
 use JSON;
 use Text::CSV qw( csv );
+use HTML::TagParser;
 use Data::Dumper;
 
 $Data::Dumper::Sortkeys = 1;
@@ -43,12 +44,54 @@ $blacklist->{'USstateAbbreviations'}++;
 $blacklist->{'bfi.dictionary'}++;
 $blacklist->{'epi.dictionary'}++;
 $blacklist->{'nace_rev2'}++;
+$blacklist->{'military'}++;
+$blacklist->{'flights'}++;
+$blacklist->{'grants_other'}++;
+$blacklist->{'CO2'}++;
+$blacklist->{'co2'}++;
 
 &main;
 
 sub main {
 
   &process_data;
+  &delete_files;
+
+}
+
+sub delete_files {
+
+  my $del = [
+    'js/openintro/military.js',
+    'json/openintro/military.json',
+    'csv/datasets/military.csv',
+    'doc/datasets/military.html',
+    'doc/datasets/rst/military.rst',
+    'js/nycflights13/flights.js',
+    'json/nycflights13/flights.json',
+    'csv/datasets/flights.csv',
+    'doc/datasets/flights.html',
+    'doc/datasets/rst/flights.rst',
+    'js/modeldata/grants_other.js',
+    'json/modeldata/grants_other.json',
+    'csv/datasets/grants_other.csv',
+    'doc/datasets/grants_other.html',
+    'doc/datasets/rst/grants_other.rst',
+    'js/datasets/CO2.js',
+    'json/datasets/CO2.json',
+    'csv/datasets/CO2.csv',
+    'doc/datasets/CO2.html',
+    'doc/datasets/rst/CO2.rst',
+    'js/datasets/co2.js',
+    'json/datasets/co2.json',
+    'csv/datasets/co2.csv',
+    'doc/datasets/co2.html',
+    'doc/datasets/rst/co2.rst'
+  ];
+
+  foreach my $file (@$del) {
+    unlink $file if -e $file;
+  }
 
 }
 
@@ -91,6 +134,86 @@ sub process_data {
 
 }
 
+sub parse_html {
+
+  my ($doc) = @_;
+
+  my $obj = {};
+
+  my $html = HTML::TagParser->new( $doc );
+  ## All elements are in main
+  my $main = $html->getElementsByTagName("main");
+  if (!$main) {
+    $main = $html->getElementsByClassName("container");
+    if (!$main || $main->tagName() ne "div") {
+      return $obj;
+    }
+  }
+  ## The first child is the table
+  my $elem = $main->firstChild();
+  ## The next sibling is the title
+  $elem = $elem->nextSibling();
+  if ($elem->tagName() eq "h2") {
+    $obj->{title} = $elem->innerText();
+    $elem = $elem->nextSibling();
+  }
+  ## The next sibling is the description
+  if ($elem->tagName() eq "h3") {
+    $obj->{description} = $elem->innerText();
+    $elem = $elem->nextSibling();
+  }
+  ## Description may have multiple paragraphs
+  while ($elem->tagName() ne "h3") {
+    $obj->{description} .= "\n". $elem->innerText();
+    $elem = $elem->nextSibling();
+  }
+  ## The next sibling is the usage
+  if ($elem->tagName() eq "h3") {
+    $elem = $elem->nextSibling();
+    $obj->{usage} = $elem->innerText();
+    $elem = $elem->nextSibling();
+  }
+  ## The next sibling is the format
+  if ($elem && $elem->tagName() eq "h3") {
+    $elem = $elem->nextSibling();
+    $obj->{format} = $elem->innerText();
+  }
+  ## The next sibling ar the parameters
+  ## that can be in a dl or ul
+  $elem = $html->getElementsByTagName("dl");
+  if (!$elem) {
+    $elem = $html->getElementsByTagName("ul");
+  }
+  if ($elem) {
+    if ($elem->tagName() eq "dl") {
+      my $chld = $elem->childNodes();
+      for (my $i = 0; $i < scalar @$chld; $i += 2) {
+        if ($chld->[$i] && $chld->[$i + 1]) {
+          $obj->{parameters}{$chld->[$i]->innerText()} =$chld->[$i + 1]->innerText();
+        }
+      }
+    } elsif ($elem->tagName() eq "ul") {
+      my $chld = $elem->childNodes();
+      for (my $i = 0; $i < scalar @$chld; $i++) {
+        my $chil = $chld->[$i];
+        my ($p, $v) = split( ":", $chil->innerText());
+        $obj->{parameters}{$p} = $v;
+      }
+    }
+  }
+  ## The next sibling we want is the references
+  while ($elem && $elem->tagName() ne "h3" && $elem->innerText() ne "References") {
+    $elem = $elem->nextSibling();
+  }
+  if ($elem && $elem->tagName() eq "h3" && $elem->innerText() ne "References") {
+    $elem = $elem->nextSibling();
+    $obj->{reference} = $elem->innerText();
+  }
+
+  return $obj;
+
+}
+
 sub parse_csv {
 
   my ($csv_file) = @_;
@@ -118,7 +241,7 @@ sub create_json {
 
   my ( $lib, $ds, $title ) = @_;
 
-  my ( @header, $len, $i, $ii, $j, @line, $data, $unique, @rows, $json, $type, $config, $after, $t, $s, $n, $u, $c, $info, @keys, $l, $ts, $fh );
+  my ( @header, $len, $i, $ii, $j, @line, $data, $unique, @rows, $json, $type, $config, $after, $t, $s, $n, $u, $c, $info, @keys, $l, $ts, $fh, $obj );
 
   if ($ds =~ / \(.+\)/) {
     $ds =~ s/ \(.+\)//;
@@ -129,6 +252,7 @@ sub create_json {
 
   print "Processing dataset $ds in $lib\n";
   $csv = parse_csv($csv);
+  $obj = parse_html($doc);
   @header = @{$csv->{header}};
   $u = 1;
   foreach my $row (@{$csv->{data}}) {
@@ -414,9 +538,10 @@ sub create_json {
 
   unshift (@$data, \@header);
   open $fh, ">:encoding(UTF-8)", "js/$lib/$ds.js" or die "Could not open js/$lib/$ds.js: $!";
+  print $fh "var $ds" . "Info =" . JSON->new->pretty->allow_nonref->encode($obj) . "\n";
   print $fh "var $ds = ";
   print $fh JSON->new->pretty->allow_nonref->encode($data);
-  close $fh;  
+  close $fh;
 
   ## Write data object
   $data = {

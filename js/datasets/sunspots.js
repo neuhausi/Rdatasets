@@ -1,3 +1,10 @@
+var sunspotsInfo ={
+   "title" : "Monthly Sunspot Numbers, 1749&ndash;1983",
+   "format" : "A time series of monthly data from 1749 to 1983.",
+   "usage" : "sunspots",
+   "description" : "Description\nMonthly mean relative sunspot numbers from 1749 to 1983.  Collected at\nSwiss Federal Observatory, Zurich until 1960, then Tokyo Astronomical\nObservatory."
+}
+
 var sunspots = [
    [
       "time",

@@ -1721,9 +1721,6 @@
          ]
       },
       "y" : {
-         "vars" : [
-            "value"
-         ],
          "smps" : [
             "Smp1",
             "Smp2",
@@ -3441,6 +3438,9 @@
             "Smp1714",
             "Smp1715",
             "Smp1716"
+         ],
+         "vars" : [
+            "value"
          ],
          "data" : [
             [
@@ -5167,10 +5167,10 @@
    "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>LOTI</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Land-Ocean Temperature Index, 1880-2022</h2>\n<h3>Description</h3>\n<p>These data contain monthly mean temperature anomalies expressed as deviations\nfrom the corresponding 1951-1980 means. They are useful for showing\nhow we can measure climate change.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>LOTI\n</code></pre>\n<h3>Format</h3>\n<p>A data frame with 1,716 observations on the following 2 variables.\n</p>\n<dl>\n<dt><code>date</code></dt><dd><p>a date, mostly to contain information for the year and month</p>\n</dd>\n<dt><code>value</code></dt><dd><p>the mean temperature anomaly as deviation from corresponding 1951-1980 mean</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>Data are updated through most recent month, at least for last time I updated it.\nData represent combined land-surface air and sea-surface water temperature anomalies.\nOf note: the day value in the <code>date</code> column has no real value.\nIt was just a way of combining data that are aggregated by year and month.\n</p>\n<h3>Source</h3>\n<p>National Aeronautics and Space Administration's Goddard Institute for Space Studies.\n</p>\n</main>\n</div>\n",
    "config" : {
       "subtitle" : "stevedata - LOTI",
-      "graphType" : "Boxplot",
       "groupingFactors" : [
          "date"
       ],
+      "graphType" : "Boxplot",
       "colorBy" : "variable",
       "title" : "Land-Ocean Temperature Index"
    }

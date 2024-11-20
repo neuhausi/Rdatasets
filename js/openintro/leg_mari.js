@@ -1,3 +1,14 @@
+var leg_mariInfo ={
+   "title" : "Legalization of Marijuana Support in 2010 California Survey",
+   "reference" : "Survey USA, Election Poll #16804, data collected July 8-11, 2010.",
+   "format" : "A data frame with 119 observations on the following variable.",
+   "parameters" : {
+      "response" : "One of two values: oppose or\nsupport."
+   },
+   "usage" : "leg_mari",
+   "description" : "Description\nIn a 2010 Survey USA poll, 70% of the 119 respondents between the ages of 18\nand 34 said they would vote in the 2010 general election for Prop 19, which\nwould change California law to legalize marijuana and allow it to be\nregulated and taxed."
+}
+
 var leg_mari = [
    [
       "response",

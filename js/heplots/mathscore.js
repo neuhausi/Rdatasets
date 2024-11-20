@@ -1,3 +1,15 @@
+var mathscoreInfo ={
+   "description" : "Description\nScores for two groups of school children taught by different math teachers\nand tested for both basic math (BM) problems and solving word problems (WP).",
+   "parameters" : {
+      "WP" : "Word Problems score, a numeric vector",
+      "BM" : "Basic Math score, a numeric vector",
+      "group" : "a factor with levels 1 2"
+   },
+   "usage" : "A data frame with 12 observations on the following 3 variables.",
+   "title" : "Math scores for basic math and word problems",
+   "reference" : "Fictitious data"
+}
+
 var mathscore = [
    [
       "group",

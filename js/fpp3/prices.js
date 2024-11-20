@@ -1,3 +1,10 @@
+var pricesInfo ={
+   "title" : "Price series for various commodities",
+   "format" : "Makridakis, Wheelwright and Hyndman (1998) *Forecasting: methods and applications*, John Wiley & Sons: New York. Chapter 9.",
+   "usage" : "Annual time series of class 'tsibble'.",
+   "description" : "Description\nAnnual prices for eggs, chicken, copper, nails, oil and wheat.\nEggs, chicken, nails, oil and copper in $US; wheat in British pounds. All prices adjusted for inflation."
+}
+
 var prices = [
    [
       "year",

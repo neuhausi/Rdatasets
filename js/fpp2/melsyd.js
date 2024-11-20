@@ -1,3 +1,10 @@
+var melsydInfo ={
+   "title" : "Total weekly air passenger numbers on Ansett airline flights between\nMelbourne and Sydney, 1987&ndash;1992.",
+   "format" : "Ansett Airlines (which no longer exists).",
+   "usage" : "Multiple time series of class mts.",
+   "description" : "Description\nAir traffic numbers are in thousands, and divided into first class, business\nclass and economy class. There was a major pilots' industrial dispute during\nthe data period resulting in some weeks with zero traffic. There was also at\nleast two changes in the definitions of passenger classes."
+}
+
 var melsyd = [
    [
       "First.Class",

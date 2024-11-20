@@ -1,3 +1,10 @@
+var treeringInfo ={
+   "title" : "Yearly Tree-Ring Data, -6000&ndash;1979",
+   "format" : "A univariate time series with 7981 observations. The object is of\nclass \"ts\".",
+   "usage" : "treering",
+   "description" : "Description\nContains normalized tree-ring widths in dimensionless units."
+}
+
 var treering = [
    [
       "time",

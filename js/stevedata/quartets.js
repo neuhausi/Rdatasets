@@ -1,3 +1,16 @@
+var quartetsInfo ={
+   "usage" : "quartets",
+   "description" : "Description\nThese are four x-y data sets, combined into a long format, which have the\nsame traditional statistical properties (mean, variance, correlation,\nregression line, etc.). However, they look quite different.",
+   "title" : "Anscombe's (1973) Quartets",
+   "reference" : "Data come default in R, but I elected to change the format to be\na bit more accessible.",
+   "format" : "A data frame with 44 observations on the following 3 variables.",
+   "parameters" : {
+      "x" : "a continuous variable",
+      "y" : "a continuous variable",
+      "group" : "a categorical identifier for the quartet"
+   }
+}
+
 var quartets = [
    [
       "x",

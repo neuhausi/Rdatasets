@@ -1,17 +1,12 @@
 {
+   "config" : {
+      "subtitle" : "Stat2Data - Clothing",
+      "title" : "Sales for a Clothing Retailer",
+      "graphType" : "Heatmap"
+   },
    "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>Clothing</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Sales for a Clothing Retailer</h2>\n<h3>Description</h3>\n<p>Data on 60 customers at a clothing retailer\n</p>\n<h3>Format</h3>\n<p>A data frame with 60 observations on the following 8 variables.\n</p>\n<table>\n<tr>\n <td style=\"text-align: right;\">\n    <code>ID</code> </td><td style=\"text-align: left;\"> Case ID</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Amount</code> </td><td style=\"text-align: left;\"> Net dollar amount spent by customers in their latest purchase from this retailer</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Recency</code> </td><td style=\"text-align: left;\"> Number of months since the last purchase</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Freq12</code> </td><td style=\"text-align: left;\"> Number of purchases in the last 12 months</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Dollar12</code> </td><td style=\"text-align: left;\"> Dollar amount of purchases in the last 12 months</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Freq24</code> </td><td style=\"text-align: left;\"> Number of purchases in the last 24 months</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Dollar24</code> </td><td style=\"text-align: left;\"> Dollar amount of purchases in the last 24 months</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Card</code> </td><td style=\"text-align: left;\"> 1 for customers who have a private-label credit card with the retailer, 0 if not</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n  </td>\n</tr>\n</table>\n<h3>Details</h3>\n<p>This dataset represents a random sample of 60 customers from a large clothing\nretailer.  The manager of the store is interested in predicting how much a customer\nwill spend on his or her next purchase based on one or more of the available\nexplanatory variables.\n</p>\n<h3>Source</h3>\n<p>Personal communication with David Cameron who completed a more extensive consulting project for the retailer.\n</p>\n</main>\n</div>\n",
    "data" : {
       "y" : {
-         "vars" : [
-            "ID",
-            "Amount",
-            "Recency",
-            "Freq12",
-            "Dollar12",
-            "Freq24",
-            "Dollar24",
-            "Card"
-         ],
          "data" : [
             [
                1,
@@ -571,12 +566,17 @@
             "Smp58",
             "Smp59",
             "Smp60"
+         ],
+         "vars" : [
+            "ID",
+            "Amount",
+            "Recency",
+            "Freq12",
+            "Dollar12",
+            "Freq24",
+            "Dollar24",
+            "Card"
          ]
       }
-   },
-   "config" : {
-      "subtitle" : "Stat2Data - Clothing",
-      "graphType" : "Heatmap",
-      "title" : "Sales for a Clothing Retailer"
    }
 }

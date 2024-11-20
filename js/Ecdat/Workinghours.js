@@ -1,3 +1,25 @@
+var WorkinghoursInfo ={
+   "description" : "Description\na cross-section from 1987\nnumber of observations :  3382\nobservation :  individuals\ncountry :  United States",
+   "usage" : "data(Workinghours)",
+   "parameters" : {
+      "child17" : "number of children for ages 14 to 17",
+      "child13" : "number of children for ages 6 to 13",
+      "owned" : "is the home owned by the household ?",
+      "occupation" : "occupation of the husband, one of mp (manager or",
+      "nonwhite" : "non&ndash;white ?",
+      "hours" : "wife working hours per year",
+      "child5" : "number of children for ages 0 to 5",
+      "income" : "the other household income in hundreds of dollars",
+      "unemp" : "local unemployment rate in %",
+      "age" : "age of the wife",
+      "education" : "education years of the wife",
+      "mortgage" : "is the home on mortgage ?"
+   },
+   "format" : "A dataframe containing :",
+   "reference" : "Lee, Myoung&ndash;Jae (1995) &ldquo;Semi&ndash;parametric estimation of simultaneous equations with limited dependent variables : a case study of female labour supply&rdquo;, Journal of Applied Econometrics, 10(2), April&ndash;June, 187&ndash;200.",
+   "title" : "Wife Working Hours"
+}
+
 var Workinghours = [
    [
       "hours",

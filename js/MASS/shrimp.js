@@ -1,3 +1,10 @@
+var shrimpInfo ={
+   "usage" : "shrimp",
+   "title" : "Percentage of Shrimp in Shrimp Cocktail",
+   "format" : "F. J. King and J. J. Ryan (1976)\nCollaborative study of the determination of the amount of shrimp in\nshrimp cocktail. J. Off. Anal. Chem. 59, 644&ndash;649.",
+   "description" : "Description\nA numeric vector with 18 determinations by different laboratories\nof the amount (percentage of the declared total weight) of shrimp\nin shrimp cocktail."
+}
+
 var shrimp = [
    [
       "dat"

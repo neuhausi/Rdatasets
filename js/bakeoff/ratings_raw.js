@@ -1,3 +1,22 @@
+var ratings_rawInfo ={
+   "reference" : "All official episode viewer number are from BARB, as entered on\nWikipedia https://en.wikipedia.org/wiki/The_Great_British_Bake_Off",
+   "format" : "A data frame with 94 rows representing individual episodes and 9\nvariables:",
+   "title" : "Each episode's ratings (raw)",
+   "parameters" : {
+      "episode" : "a factor denoting episode number within a series.",
+      "series" : "a factor denoting UK series (1-10).",
+      "channels_rank" : "an integer denoting the episode's weekly ranking\nacross all channels.",
+      "episode_count" : "continuous episode count.",
+      "bbc_iplayer_requests" : "number of BBC iPlayer requests (note: not\navailable for all series, and only for series that aired on the BBC).",
+      "network_rank" : "an integer denoting the episode's weekly ranking within\nnetwork (note that the networks changed for series 8 and later).",
+      "viewers_7day" : "number of viewers in millions within a 7-day window\nfrom airdate.",
+      "uk_airdate" : "a date denoting original airdate of episode in the UK.",
+      "viewers_28day" : "number of viewers in millions within a 28-day window\nfrom airdate."
+   },
+   "usage" : "ratings_raw",
+   "description" : "Description\nRatings for all episodes across all 10 GBBO series."
+}
+
 var ratings_raw = [
    [
       "series",

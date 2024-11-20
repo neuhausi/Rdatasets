@@ -1,3 +1,15 @@
+var USProdIndexInfo ={
+   "description" : "Description\nIndex of US industrial production (1985 = 100).",
+   "usage" : "data(\"USProdIndex\")",
+   "parameters" : {
+      "unadjusted" : "raw index of industrial production,",
+      "adjusted" : "seasonally adjusted index."
+   },
+   "title" : "Index of US Industrial Production",
+   "format" : "A quarterly multiple time series from 1960(1) to 1981(4) with 2 variables.",
+   "reference" : "Online complements to Franses (1998)."
+}
+
 var USProdIndex = [
    [
       "unadjusted",

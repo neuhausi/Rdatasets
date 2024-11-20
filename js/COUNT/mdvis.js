@@ -1,3 +1,26 @@
+var mdvisInfo ={
+   "parameters" : {
+      "badh" : "1=bad health; 0 = not bad health",
+      "educ2" : "educ2= 10.5-12 years",
+      "educ1" : "educ1= 7-10 years",
+      "age" : "Age(yrs 20-60)",
+      "educ3" : "educ3= post secondary or high school",
+      "educ" : "education(1:7-10;2=10.5-12;3=HSgrad+)",
+      "age2" : "age 40-49",
+      "age1" : "age 20-39",
+      "numvisit" : "visits to MD office 3mo prior",
+      "agegrp" : "age: 1=20-39; 2=40-49; 3=50-60",
+      "age3" : "age 50-60",
+      "reform" : "1=interview yr post-reform: 1998;0=pre-reform:1996",
+      "loginc" : "log(household income in DM)"
+   },
+   "reference" : "mdvis is saved as a data frame.\nCount models typically use docvis as response variable. 0 counts are included",
+   "title" : "mdvis",
+   "format" : "A data frame with 2,227 observations on the following 13 variables.",
+   "description" : "Description\nData from a subset of the German Socio-Economic Panel  (SOEP). The subset was created \nby Rabe-Hesketh and Skrondal (2005). Only working women are included in these data. \nBeginning in 1997, German health reform in part entailed a 200\nco-payment as well as limits in provider reimbursement. Patients were surveyed for the \none year panel (1996) prior to and the one year panel (1998) after reform to assess \nwhether the number of physician visits by patients declined - which was the goal of \nreform legislation. \nThe response, or variable to be explained by the model, is numvisit, which \nindicates the number of patient visits to a physician's office during a three month period.",
+   "usage" : "data(mdvis)"
+}
+
 var mdvis = [
    [
       "numvisit",

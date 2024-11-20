@@ -1,11 +1,15 @@
 {
    "config" : {
-      "graphType" : "Scatter2D",
       "subtitle" : "fpp2 - insurance",
-      "title" : "Insurance quotations and advertising expenditure."
+      "title" : "Insurance quotations and advertising expenditure.",
+      "graphType" : "Scatter2D"
    },
    "data" : {
       "y" : {
+         "smps" : [
+            "Quotes",
+            "TV.advert"
+         ],
          "vars" : [
             "Var1",
             "Var2",
@@ -47,10 +51,6 @@
             "Var38",
             "Var39",
             "Var40"
-         ],
-         "smps" : [
-            "Quotes",
-            "TV.advert"
          ],
          "data" : [
             [

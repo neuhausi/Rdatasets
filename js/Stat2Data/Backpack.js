@@ -1,3 +1,9 @@
+var BackpackInfo ={
+   "description" : "Description\nBackpack weights for a sample of college students",
+   "usage" : "A data frame with 100 observations on the following 9 variables.",
+   "title" : "Weights of College Student Backpacks"
+}
+
 var Backpack = [
    [
       "BackpackWeight",

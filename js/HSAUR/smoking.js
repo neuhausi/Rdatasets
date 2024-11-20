@@ -1,3 +1,17 @@
+var smokingInfo ={
+   "parameters" : {
+      "tc" : "the total number of subject not being treated.",
+      "tt" : "the totla number of treated subjects.",
+      "qt" : "the number of treated subjetcs who stopped\nsmoking.",
+      "qc" : "the number of  subjetcs who stopped\nsmoking without being treated."
+   },
+   "title" : "Nicotine Gum and Smoking Cessation",
+   "reference" : "Cigarette smoking is the leading cause of preventable death in\nthe United States and kills more Americans than AIDS, alcohol,\nillegal drug use, car accidents, fires, murders and suicides\ncombined. It has been estimated that 430,000 Americans die from\nsmoking every year. Fighting tobacco use is, consequently, one\nof the major public health goals of our time and there are now\nmany programs available designed to help smokers quit. One of\nthe major aids used in these programs is nicotine chewing gum,\nwhich acts as a substitute oral activity and provides a source\nof nicotine that reduces the withdrawal symptoms experienced\nwhen smoking is stopped. But separate randomized clinical trials\nof nicotine gum have been largely inconclusive, leading\nSilagy (2003) to consider combining the results studies\nfound from an extensive literature search. The results of these\ntrials in terms of numbers of people in the treatment arm and\nthe control arm who stopped smoking for at least 6 months after\ntreatment are given here.",
+   "format" : "A data frame with 26 observations (studies) on the following 4 variables.",
+   "description" : "Description\nData from a meta-analysis on nicotine gum and smoking cessation",
+   "usage" : "data(\"smoking\")"
+}
+
 var smoking = [
    [
       "qt",

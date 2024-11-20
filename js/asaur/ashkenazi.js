@@ -1,3 +1,16 @@
+var ashkenaziInfo ={
+   "description" : "Description\nThis is a random subset of data from the Struewing et al. (1997) study of Ashkenazi\njews and breast cancer. The subset consists of pairs of first-degree female\nrelatives who are also first degree relatives of a proband.",
+   "parameters" : {
+      "mutant" : "1 if first degree relative proband was a BRCA mutation carrier, 0 if not",
+      "brcancer" : "1 if subject had breast cancer, 0 if not",
+      "famID" : "family ID indicator",
+      "age" : "Age at onset of breast cancer, or current age if no breast cancer"
+   },
+   "usage" : "data(\"ashkenazi\")",
+   "format" : "A data frame with 3920 observations on the following 4 variables.",
+   "title" : "ashkenazi"
+}
+
 var ashkenazi = [
    [
       "famID",

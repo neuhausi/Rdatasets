@@ -1,3 +1,16 @@
+var downs.bcInfo ={
+   "usage" : "downs.bc",
+   "description" : "Description\nThe downs.bc data frame has 30 rows and 3 columns.\nDown's syndrome is a genetic disorder caused by an extra chromosome 21 or\na part of chromosome 21 being translocated to another chromosome.  The \nincidence of Down's syndrome is highly dependent on the mother's age and rises\nsharply after age 30.  In the 1960's a large scale study of the effect of\nmaternal age on the incidence of Down's syndrome was conducted at the\nBritish Columbia Health Surveillance Registry.  These are the data which was\ncollected in that study.\nMothers were classified by age. Most groups correspond to the age in years but\nthe first group comprises all mothers with ages in the range 15-17 and the \nlast is those with ages 46-49.  No data for\nmothers over 50 or below 15 were collected.",
+   "title" : "Incidence of Down's Syndrome in British Columbia",
+   "format" : "This data frame contains the following columns:",
+   "reference" : "The data were obtained from",
+   "parameters" : {
+      "age" : "The average age of all mothers in the age category.",
+      "r" : "The number of cases of Down's syndrome.",
+      "m" : "The total number of live births to mothers in the age category."
+   }
+}
+
 var downs.bc = [
    [
       "age",

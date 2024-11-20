@@ -1,3 +1,24 @@
+var fakeAPIInfo ={
+   "usage" : "fakeAPI",
+   "description" : "Description\nThis is a hypothetical universe of schools in a given territorial unit,\npatterned off the apipop data available in the survey package.",
+   "format" : "A data frame with 10000 observations on the following 8 variables.",
+   "reference" : "These data were generated for a blog post on my website.",
+   "title" : "Hypothetical (Fake) Data on Academic Performance",
+   "parameters" : {
+      "schooltype" : "a character vector for school type. E = elementary school. M = middle school. H = high school",
+      "colgrad" : "a numeric vector for the percentage of school parents with college degrees",
+      "sbase" : "a numeric vector for some base differences between schools, patterned off the school type means for api00 in the apipop data.",
+      "county" : "a character vector for the county, named after an Ohio State All-American. &ldquo;County&rdquo; incidence is weighted by how many All-American honors the Ohio State player had. It's my fake data. You make your own if you have a problem with it.",
+      "api" : "a numeric vector vector an academic performance index for the school",
+      "fullqual" : "a numeric vector for the percentage of the school with teachers that are fully qualified",
+      "cbase" : "a numeric vector for some base differences between counties, randomly drawn from a uniform distribution",
+      "e" : "a numeric vector for random errors",
+      "uid" : "a numeric vector as a unique identifier for schools",
+      "community" : "a character vector for the school's community, either rural, suburban, or urban.",
+      "meals" : "a numeric vector for the percentage of school students eligible for subsidized meals"
+   }
+}
+
 var fakeAPI = [
    [
       "uid",

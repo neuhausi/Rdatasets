@@ -1,3 +1,24 @@
+var MalesInfo ={
+   "description" : "Description\nA panel of 545 observations from 1980 to 1987",
+   "parameters" : {
+      "union" : "wage set by collective bargaining?",
+      "married" : "married?",
+      "occupation" : "a factor with 9 levels",
+      "nr" : "identifier",
+      "industry" : "a factor with 12 levels",
+      "school" : "years of schooling",
+      "wage" : "log of hourly wage",
+      "residence" : "a factor with levels &#8288;rural_area, north_east, northern_central, south&#8288;",
+      "ethn" : "a factor with levels &#8288;black, hisp, other&#8288;",
+      "health" : "health problem?",
+      "year" : "year",
+      "exper" : "years of experience (computed as age-6-school)"
+   },
+   "usage" : "A data frame containing :",
+   "title" : "Wages and Education of Young Males",
+   "reference" : "total number of observations : 4360"
+}
+
 var Males = [
    [
       "nr",

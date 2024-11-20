@@ -1,3 +1,20 @@
+var TradeCreditInfo ={
+   "parameters" : {
+      "reserve" : "Nominal effective reserve money.",
+      "gnp" : "GNP in current dollars.",
+      "utilization" : "Degree of market utilization.",
+      "price" : "GNP price deflator (1958 = 100).",
+      "size" : "Mean real size of the representative economic unit (1939 = 100).",
+      "interest" : "Short-term rate of interest.",
+      "trade" : "Nominal total trade money."
+   },
+   "title" : "Trade Credit and the Money Market",
+   "format" : "An annual multiple time series from 1946 to 1966 on 7 variables.",
+   "reference" : "The data are from Baltagi (2002).",
+   "description" : "Description\nMacroeconomic time series data from 1946 to 1966 on trade credit and the money market.",
+   "usage" : "data(\"TradeCredit\")"
+}
+
 var TradeCredit = [
    [
       "trade",

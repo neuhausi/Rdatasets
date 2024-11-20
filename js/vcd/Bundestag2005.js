@@ -1,3 +1,10 @@
+var Bundestag2005Info ={
+   "usage" : "data(\"Bundestag2005\")",
+   "format" : "A 2-way \"table\" giving the number of votes for each\nparty (Fraktion) in each of the 16 German provinces\n(Bundesland):",
+   "title" : "Votes in German Bundestag Election 2005",
+   "description" : "Description\nNumber of votes by province in the German Bundestag election\n2005 (for the parties that eventually entered the parliament)."
+}
+
 var Bundestag2005 = [
    [
       "Bundesland",

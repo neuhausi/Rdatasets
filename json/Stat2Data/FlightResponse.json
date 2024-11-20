@@ -1,4 +1,12 @@
 {
+   "config" : {
+      "smpOverlays" : [
+         "AltCat"
+      ],
+      "graphType" : "Heatmap",
+      "title" : "Response of Migratory Geese to Helicopter Overflights",
+      "subtitle" : "Stat2Data - FlightResponse"
+   },
    "data" : {
       "x" : {
          "AltCat" : [
@@ -934,6 +942,14 @@
             "Smp462",
             "Smp463",
             "Smp464"
+         ],
+         "vars" : [
+            "FlockID",
+            "Altitude",
+            "Lateral",
+            "Flight",
+            "AltLat",
+            "LatCat"
          ],
          "data" : [
             [
@@ -3732,24 +3748,8 @@
                1,
                1
             ]
-         ],
-         "vars" : [
-            "FlockID",
-            "Altitude",
-            "Lateral",
-            "Flight",
-            "AltLat",
-            "LatCat"
          ]
       }
    },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>FlightResponse</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Response of Migratory Geese to Helicopter Overflights</h2>\n<h3>Description</h3>\n<p>Flight response of Pacific Brant to overflights of helicopters\n</p>\n<h3>Format</h3>\n<p>A dataset with 464 observations on the following 7 variables.\n</p>\n<table>\n<tr>\n <td style=\"text-align: right;\">\n    <code>FlockID</code> </td><td style=\"text-align: left;\"> Flock ID</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Altitude</code> </td><td style=\"text-align: left;\"> Altitude of the overflight by the helicopter (in 100m)</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Lateral</code> </td><td style=\"text-align: left;\"> Lateral distance (in 100m) between the aircraft and flock</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Flight</code> </td><td style=\"text-align: left;\"> <code>1</code>=more than 10% of flock flies away or <code>0</code>=otherwise</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>AltLat</code> </td><td style=\"text-align: left;\"> Product of Altitude x Lateral</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>AltCat</code> </td><td style=\"text-align: left;\"> Altitude categories: <code>low</code>=under 3, <code>mid</code>=3 to 6, <code>high</code>=over 6</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>LatCat</code> </td><td style=\"text-align: left;\"> Lateral categories: <code>1</code>under 10 to <code>4</code>=over 30</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n  </td>\n</tr>\n</table>\n<h3>Details</h3>\n<p>A 1994 study collected data on the effects of air\ntraffic on the behavior of the Pacific Brant (a small migratory goose).\nThe data represent the flight\nresponse to helicopter &quot;overflights&quot; to see what the relationship between the proximity of a flight,\nboth lateral and altitudinal, would be to the propensity of the Brant to flee the area. For this\nexperiment, air traffic was restricted to helicopters because previous study had ascertained that\nhelicopters created more radical flight response than other aircraft.\nThe data are in FlightResponse. Each case represents a flock of Brant that has been observed\nduring one overflight in the study. Flocks were determined observationally as contiguous collections\nof Brants, flock sizes varying from 10 to 30,000 birds.\n</p>\n<h3>Source</h3>\n<p>Data come from the book Statistical Case Studies: A Collaboration Between Academe and Industry, Roxy Peck,\nLarry D. Haugh, and Arnold Goodman, editors; SIAM and ASA, 1998.\n</p>\n</main>\n</div>\n",
-   "config" : {
-      "subtitle" : "Stat2Data - FlightResponse",
-      "graphType" : "Heatmap",
-      "smpOverlays" : [
-         "AltCat"
-      ],
-      "title" : "Response of Migratory Geese to Helicopter Overflights"
-   }
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>FlightResponse</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Response of Migratory Geese to Helicopter Overflights</h2>\n<h3>Description</h3>\n<p>Flight response of Pacific Brant to overflights of helicopters\n</p>\n<h3>Format</h3>\n<p>A dataset with 464 observations on the following 7 variables.\n</p>\n<table>\n<tr>\n <td style=\"text-align: right;\">\n    <code>FlockID</code> </td><td style=\"text-align: left;\"> Flock ID</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Altitude</code> </td><td style=\"text-align: left;\"> Altitude of the overflight by the helicopter (in 100m)</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Lateral</code> </td><td style=\"text-align: left;\"> Lateral distance (in 100m) between the aircraft and flock</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Flight</code> </td><td style=\"text-align: left;\"> <code>1</code>=more than 10% of flock flies away or <code>0</code>=otherwise</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>AltLat</code> </td><td style=\"text-align: left;\"> Product of Altitude x Lateral</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>AltCat</code> </td><td style=\"text-align: left;\"> Altitude categories: <code>low</code>=under 3, <code>mid</code>=3 to 6, <code>high</code>=over 6</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>LatCat</code> </td><td style=\"text-align: left;\"> Lateral categories: <code>1</code>under 10 to <code>4</code>=over 30</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n  </td>\n</tr>\n</table>\n<h3>Details</h3>\n<p>A 1994 study collected data on the effects of air\ntraffic on the behavior of the Pacific Brant (a small migratory goose).\nThe data represent the flight\nresponse to helicopter &quot;overflights&quot; to see what the relationship between the proximity of a flight,\nboth lateral and altitudinal, would be to the propensity of the Brant to flee the area. For this\nexperiment, air traffic was restricted to helicopters because previous study had ascertained that\nhelicopters created more radical flight response than other aircraft.\nThe data are in FlightResponse. Each case represents a flock of Brant that has been observed\nduring one overflight in the study. Flocks were determined observationally as contiguous collections\nof Brants, flock sizes varying from 10 to 30,000 birds.\n</p>\n<h3>Source</h3>\n<p>Data come from the book Statistical Case Studies: A Collaboration Between Academe and Industry, Roxy Peck,\nLarry D. Haugh, and Arnold Goodman, editors; SIAM and ASA, 1998.\n</p>\n</main>\n</div>\n"
 }

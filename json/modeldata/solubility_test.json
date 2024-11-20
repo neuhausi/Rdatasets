@@ -2,10 +2,6 @@
    "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>solubility_test</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Solubility predictions from MARS model</h2>\n<h3>Description</h3>\n<p>Solubility predictions from MARS model\n</p>\n<h3>Details</h3>\n<p>For the solubility data in Kuhn and Johnson (2013),\nthese data are the test set results for the MARS model. The\nobserved solubility (in column <code>solubility</code>) and the model\nresults (<code>prediction</code>) are contained in the data.\n</p>\n<h3>Value</h3>\n<table>\n<tr><td><code>solubility_test</code></td>\n<td>\n<p>a data frame</p>\n</td></tr>\n</table>\n<h3>Source</h3>\n<p>Kuhn, M., Johnson, K. (2013) <em>Applied Predictive\nModeling</em>, Springer\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>data(solubility_test)\nstr(solubility_test)\n</code></pre>\n</main>\n</div>\n",
    "data" : {
       "y" : {
-         "smps" : [
-            "solubility",
-            "prediction"
-         ],
          "data" : [
             [
                0.93,
@@ -1272,6 +1268,10 @@
                -5.12965093395529
             ]
          ],
+         "smps" : [
+            "solubility",
+            "prediction"
+         ],
          "vars" : [
             "Var1",
             "Var2",
@@ -1593,8 +1593,8 @@
       }
    },
    "config" : {
-      "subtitle" : "modeldata - solubility_test",
       "graphType" : "Scatter2D",
-      "title" : "Solubility predictions from MARS model"
+      "title" : "Solubility predictions from MARS model",
+      "subtitle" : "modeldata - solubility_test"
    }
 }

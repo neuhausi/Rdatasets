@@ -1,3 +1,21 @@
+var VerbAggInfo ={
+   "description" : "Description\nThese are the item responses to a questionaire on verbal\naggression.  These data are used throughout De Boeck and\nWilson (2004) to illustrate various forms of item\nresponse models.",
+   "parameters" : {
+      "resp" : "the subject's response to the item - an ordered\nfactor with levels no < perhaps < yes",
+      "id" : "the subject identifier, as a factor",
+      "btype" : "behavior type - a factor with levels\ncurse, scold and shout",
+      "r2" : "dichotomous version of the response - a factor with\nlevels N and Y",
+      "item" : "the item on the questionaire, as a factor",
+      "mode" : "behavior mode - a factor with levels want\nand do",
+      "Anger" : "the subject's Trait Anger score as measured on\nthe State-Trait Anger Expression Inventory (STAXI)",
+      "situ" : "situation type - a factor with levels\nother and self indicating other-to-blame and self-to-blame",
+      "Gender" : "the subject's gender - a factor with levels\nM and F"
+   },
+   "usage" : "A data frame with 7584 observations on the following 13 variables.",
+   "reference" : "Data originally from the UC Berkeley BEAR Center; original link is\navailable at\nhttps://web.archive.org/web/20221128003829/https://old.bear.berkeley.edu/page/materials-explanatory-item-response-models,\nbut the data are no longer accessible there.",
+   "title" : "Verbal Aggression item responses"
+}
+
 var VerbAgg = [
    [
       "Anger",

@@ -1,8 +1,8 @@
 {
    "config" : {
-      "title" : "Glucose Levels Following Alcohol Ingestion",
-      "graphType" : "Scatter2D",
       "scatterPlotMatrix" : 1,
+      "graphType" : "Scatter2D",
+      "title" : "Glucose Levels Following Alcohol Ingestion",
       "subtitle" : "nlme - Glucose2"
    },
    "data" : {
@@ -1185,12 +1185,6 @@
                3.6
             ]
          ],
-         "smps" : [
-            "Subject",
-            "Date",
-            "Time",
-            "glucose"
-         ],
          "vars" : [
             "Var1",
             "Var2",
@@ -1388,6 +1382,12 @@
             "Var194",
             "Var195",
             "Var196"
+         ],
+         "smps" : [
+            "Subject",
+            "Date",
+            "Time",
+            "glucose"
          ]
       }
    },

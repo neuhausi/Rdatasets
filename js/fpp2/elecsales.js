@@ -1,3 +1,10 @@
+var elecsalesInfo ={
+   "description" : "Description\nAnnual electricity sales for South Australia in GWh from 1989 to 2008.\nElectricity used for hot water has been excluded.",
+   "title" : "Electricity sales to residential customers in South Australia.",
+   "format" : "Australian Energy Market Operator.",
+   "usage" : "Time series object of class ts."
+}
+
 var elecsales = [
    [
       "time",

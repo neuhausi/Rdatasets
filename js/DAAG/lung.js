@@ -1,3 +1,9 @@
+var lungInfo ={
+   "description" : "Description\nThe lung vector consists  \nof weight measurements of lungs taken from 30 Cape Fur\nSeals that died as an unintended consequence of commercial fishing.",
+   "usage" : "lung",
+   "title" : "Cape Fur Seal Lung Measurements"
+}
+
 var lung = [
    [
       "dat",

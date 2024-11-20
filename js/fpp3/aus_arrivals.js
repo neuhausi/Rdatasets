@@ -1,3 +1,10 @@
+var aus_arrivalsInfo ={
+   "description" : "Description\nQuarterly international arrivals to Australia from Japan, New\nZealand, UK and the US. 1981Q1 - 2012Q3.",
+   "title" : "International Arrivals to Australia",
+   "format" : "Tourism Research Australia.",
+   "usage" : "Quarterly time series of class 'tsibble'."
+}
+
 var aus_arrivals = [
    [
       "Quarter",

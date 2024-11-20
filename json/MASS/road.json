@@ -1,14 +1,15 @@
 {
+   "config" : {
+      "subtitle" : "MASS - road",
+      "title" : "Road Accident Deaths in US States",
+      "graphType" : "Heatmap",
+      "smpOverlays" : [
+         null
+      ]
+   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>road</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>\nRoad Accident Deaths in US States\n</h2>\n<h3>Description</h3>\n<p>A data frame with the annual deaths in road accidents for half\nthe US states.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>road\n</code></pre>\n<h3>Format</h3>\n<p>Columns are:\n</p>\n<dl>\n<dt><code>state</code></dt><dd>\n<p>name.\n</p>\n</dd>\n<dt><code>deaths</code></dt><dd>\n<p>number of deaths.\n</p>\n</dd>\n<dt><code>drivers</code></dt><dd>\n<p>number of drivers (in 10,000s).\n</p>\n</dd>\n<dt><code>popden</code></dt><dd>\n<p>population density in people per square mile.\n</p>\n</dd>\n<dt><code>rural</code></dt><dd>\n<p>length of rural roads, in 1000s of miles.\n</p>\n</dd>\n<dt><code>temp</code></dt><dd>\n<p>average daily maximum temperature in January.\n</p>\n</dd>\n<dt><code>fuel</code></dt><dd>\n<p>fuel consumption in 10,000,000 US gallons per year.\n</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>Imperial College, London M.Sc. exercise\n</p>\n</main>\n</div>\n",
    "data" : {
       "y" : {
-         "vars" : [
-            "deaths",
-            "drivers",
-            "popden",
-            "rural",
-            "temp",
-            "fuel"
-         ],
          "data" : [
             [
                968,
@@ -179,6 +180,14 @@
                31
             ]
          ],
+         "vars" : [
+            "deaths",
+            "drivers",
+            "popden",
+            "rural",
+            "temp",
+            "fuel"
+         ],
          "smps" : [
             "Alabama",
             "Alaska",
@@ -208,14 +217,5 @@
             "Mont"
          ]
       }
-   },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>road</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>\nRoad Accident Deaths in US States\n</h2>\n<h3>Description</h3>\n<p>A data frame with the annual deaths in road accidents for half\nthe US states.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>road\n</code></pre>\n<h3>Format</h3>\n<p>Columns are:\n</p>\n<dl>\n<dt><code>state</code></dt><dd>\n<p>name.\n</p>\n</dd>\n<dt><code>deaths</code></dt><dd>\n<p>number of deaths.\n</p>\n</dd>\n<dt><code>drivers</code></dt><dd>\n<p>number of drivers (in 10,000s).\n</p>\n</dd>\n<dt><code>popden</code></dt><dd>\n<p>population density in people per square mile.\n</p>\n</dd>\n<dt><code>rural</code></dt><dd>\n<p>length of rural roads, in 1000s of miles.\n</p>\n</dd>\n<dt><code>temp</code></dt><dd>\n<p>average daily maximum temperature in January.\n</p>\n</dd>\n<dt><code>fuel</code></dt><dd>\n<p>fuel consumption in 10,000,000 US gallons per year.\n</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>Imperial College, London M.Sc. exercise\n</p>\n</main>\n</div>\n",
-   "config" : {
-      "graphType" : "Heatmap",
-      "subtitle" : "MASS - road",
-      "title" : "Road Accident Deaths in US States",
-      "smpOverlays" : [
-         null
-      ]
    }
 }

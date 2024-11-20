@@ -1,34 +1,11 @@
 {
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>steamUse</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Steam Usage Data (Excerpt)</h2>\n<h3>Description</h3>\n<p>The monthly use of steam (<code>Steam</code>) in a factory may be\nmodeled and described as function of the\noperating days per month (<code>Operating.Days</code>) and\nmean outside temperature per month (<code>Temperature</code>).\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(\"steamUse\", package=\"robustbase\")</code></pre>\n<h3>Format</h3>\n<p>A data frame with 25 observations on the following 9 variables.\n</p>\n<dl>\n<dt><code>Steam</code>:</dt><dd><p>regression response <code class=\"reqn\">Y</code>, the poinds of\nsteam used monthly.</p>\n</dd>\n<dt><code>fattyAcid</code>:</dt><dd><p>pounds of Real Fatty Acid in storage per month.</p>\n</dd>\n<dt><code>glycerine</code>:</dt><dd><p>pounds of crude glycerine made.</p>\n</dd>\n<dt><code>wind</code>:</dt><dd><p>average wind velocity in miles per hour (a numeric vector).</p>\n</dd>\n<dt><code>days</code>:</dt><dd><p>an integer vector with number of days of that\nmonth, i.e., in <code class=\"reqn\">28..31</code>.</p>\n</dd>\n<dt><code>op.days</code>:</dt><dd><p>the number of operating days for the given\nmonth (integer).</p>\n</dd>\n<dt><code>freeze.d</code>:</dt><dd><p>the number of days below\n32 degrees Fahrenheit (<code class=\"reqn\">= 0</code>Â°C (C=Celsius) <code class=\"reqn\">=</code>\nfreezing temperature of water).</p>\n</dd>\n<dt><code>temperature</code>:</dt><dd><p>a numeric vector of average outside temperature in\nFahrenheit (F).</p>\n</dd>\n<dt><code>startups</code>:</dt><dd><p>the number of startups (of production in that month).</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>Nor further information is given in Draper and Smith, about the place\nand exacts years of the measurements, though some educated guesses\nshould be possible, see the examples.\n</p>\n<h3>Source</h3>\n<p>Data from Draper and Smith, 1st ed, 1966; appendix A.\n</p>\n<p>A version of this has been used in teaching at SfS ETH Zurich, since at least 1996,\n<a href=\"https://stat.ethz.ch/Teaching/Datasets/NDK/dsteam.dat\">https://stat.ethz.ch/Teaching/Datasets/NDK/dsteam.dat</a>\n</p>\n<p>The package <a href=\"https://CRAN.R-project.org/package=aprean3\"><span class=\"pkg\">aprean3</span></a> contains all data sets from the 3rd\nedition of Draper and Smith (1998), and this data set with variable\nnames <code>x1 .. x10</code> (<code>x9</code> being <code>wind^2</code>, hence extraneous).\n</p>\n<h3>References</h3>\n<p>Draper and Smith (1981) Applied Regression Analysis (2nd ed., p. 615 ff)\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>## Not run: \nif(require(\"aprean3\")) { # show how  'steamUse'  is related to 'dsa01a'\n  stm &lt;- dsa01a\n  names(stm) &lt;- c(\"Steam\", \"fattyAcid\", \"glycerine\", \"wind\",\n\t\t  \"days\", \"op.days\", \"freeze.d\",\n\t\t  \"temperature\", \"wind.2\", \"startups\")\n  ## prove that wind.2 is  wind^2, \"traditionally\" rounded to 1 digit:\n  stopifnot(all.equal(floor(0.5 + 10*stm[,\"wind\"]^2)/10,\n                      stm[,\"wind.2\"], tol = 1e-14))\n  ## hence drop it\n  steamUse &lt;- stm[, names(stm) != \"wind.2\"]\n## End(Not run)\ndata(steamUse)\nstr(steamUse)\n## Looking at this,\ncbind(M=rep_len(month.abb, 25), steamUse[,5:8, drop=FALSE])\n## one will conjecture that these were 25 months, Jan--Jan in a row,\n## starting in a leap year (perhaps 1960 ?).\nplot(steamUse)\nsummary(fm1 &lt;- lmrob(Steam ~ temperature + op.days, data=steamUse))\n## diagnoses 2 outliers: month of July, maybe company-wide summer vacations\n## KS2014 alone seems not robust enough:\nsummary(fm.14 &lt;- lmrob(Steam ~ temperature + op.days, data=steamUse,\n         setting=\"KS2014\"))\npairs(Steam ~ temperature+op.days, steamUse)\n</code></pre>\n</main>\n</div>\n",
+   "config" : {
+      "subtitle" : "robustbase - steamUse",
+      "title" : "Steam Usage Data (Excerpt)",
+      "graphType" : "Heatmap"
+   },
    "data" : {
       "y" : {
-         "smps" : [
-            "Smp1",
-            "Smp2",
-            "Smp3",
-            "Smp4",
-            "Smp5",
-            "Smp6",
-            "Smp7",
-            "Smp8",
-            "Smp9",
-            "Smp10",
-            "Smp11",
-            "Smp12",
-            "Smp13",
-            "Smp14",
-            "Smp15",
-            "Smp16",
-            "Smp17",
-            "Smp18",
-            "Smp19",
-            "Smp20",
-            "Smp21",
-            "Smp22",
-            "Smp23",
-            "Smp24",
-            "Smp25"
-         ],
          "data" : [
             [
                10.98,
@@ -274,6 +251,33 @@
                5
             ]
          ],
+         "smps" : [
+            "Smp1",
+            "Smp2",
+            "Smp3",
+            "Smp4",
+            "Smp5",
+            "Smp6",
+            "Smp7",
+            "Smp8",
+            "Smp9",
+            "Smp10",
+            "Smp11",
+            "Smp12",
+            "Smp13",
+            "Smp14",
+            "Smp15",
+            "Smp16",
+            "Smp17",
+            "Smp18",
+            "Smp19",
+            "Smp20",
+            "Smp21",
+            "Smp22",
+            "Smp23",
+            "Smp24",
+            "Smp25"
+         ],
          "vars" : [
             "Steam",
             "fattyAcid",
@@ -287,9 +291,5 @@
          ]
       }
    },
-   "config" : {
-      "subtitle" : "robustbase - steamUse",
-      "graphType" : "Heatmap",
-      "title" : "Steam Usage Data (Excerpt)"
-   }
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>steamUse</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Steam Usage Data (Excerpt)</h2>\n<h3>Description</h3>\n<p>The monthly use of steam (<code>Steam</code>) in a factory may be\nmodeled and described as function of the\noperating days per month (<code>Operating.Days</code>) and\nmean outside temperature per month (<code>Temperature</code>).\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(\"steamUse\", package=\"robustbase\")</code></pre>\n<h3>Format</h3>\n<p>A data frame with 25 observations on the following 9 variables.\n</p>\n<dl>\n<dt><code>Steam</code>:</dt><dd><p>regression response <code class=\"reqn\">Y</code>, the poinds of\nsteam used monthly.</p>\n</dd>\n<dt><code>fattyAcid</code>:</dt><dd><p>pounds of Real Fatty Acid in storage per month.</p>\n</dd>\n<dt><code>glycerine</code>:</dt><dd><p>pounds of crude glycerine made.</p>\n</dd>\n<dt><code>wind</code>:</dt><dd><p>average wind velocity in miles per hour (a numeric vector).</p>\n</dd>\n<dt><code>days</code>:</dt><dd><p>an integer vector with number of days of that\nmonth, i.e., in <code class=\"reqn\">28..31</code>.</p>\n</dd>\n<dt><code>op.days</code>:</dt><dd><p>the number of operating days for the given\nmonth (integer).</p>\n</dd>\n<dt><code>freeze.d</code>:</dt><dd><p>the number of days below\n32 degrees Fahrenheit (<code class=\"reqn\">= 0</code>Â°C (C=Celsius) <code class=\"reqn\">=</code>\nfreezing temperature of water).</p>\n</dd>\n<dt><code>temperature</code>:</dt><dd><p>a numeric vector of average outside temperature in\nFahrenheit (F).</p>\n</dd>\n<dt><code>startups</code>:</dt><dd><p>the number of startups (of production in that month).</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>Nor further information is given in Draper and Smith, about the place\nand exacts years of the measurements, though some educated guesses\nshould be possible, see the examples.\n</p>\n<h3>Source</h3>\n<p>Data from Draper and Smith, 1st ed, 1966; appendix A.\n</p>\n<p>A version of this has been used in teaching at SfS ETH Zurich, since at least 1996,\n<a href=\"https://stat.ethz.ch/Teaching/Datasets/NDK/dsteam.dat\">https://stat.ethz.ch/Teaching/Datasets/NDK/dsteam.dat</a>\n</p>\n<p>The package <a href=\"https://CRAN.R-project.org/package=aprean3\"><span class=\"pkg\">aprean3</span></a> contains all data sets from the 3rd\nedition of Draper and Smith (1998), and this data set with variable\nnames <code>x1 .. x10</code> (<code>x9</code> being <code>wind^2</code>, hence extraneous).\n</p>\n<h3>References</h3>\n<p>Draper and Smith (1981) Applied Regression Analysis (2nd ed., p. 615 ff)\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>## Not run: \nif(require(\"aprean3\")) { # show how  'steamUse'  is related to 'dsa01a'\n  stm &lt;- dsa01a\n  names(stm) &lt;- c(\"Steam\", \"fattyAcid\", \"glycerine\", \"wind\",\n\t\t  \"days\", \"op.days\", \"freeze.d\",\n\t\t  \"temperature\", \"wind.2\", \"startups\")\n  ## prove that wind.2 is  wind^2, \"traditionally\" rounded to 1 digit:\n  stopifnot(all.equal(floor(0.5 + 10*stm[,\"wind\"]^2)/10,\n                      stm[,\"wind.2\"], tol = 1e-14))\n  ## hence drop it\n  steamUse &lt;- stm[, names(stm) != \"wind.2\"]\n## End(Not run)\ndata(steamUse)\nstr(steamUse)\n## Looking at this,\ncbind(M=rep_len(month.abb, 25), steamUse[,5:8, drop=FALSE])\n## one will conjecture that these were 25 months, Jan--Jan in a row,\n## starting in a leap year (perhaps 1960 ?).\nplot(steamUse)\nsummary(fm1 &lt;- lmrob(Steam ~ temperature + op.days, data=steamUse))\n## diagnoses 2 outliers: month of July, maybe company-wide summer vacations\n## KS2014 alone seems not robust enough:\nsummary(fm.14 &lt;- lmrob(Steam ~ temperature + op.days, data=steamUse,\n         setting=\"KS2014\"))\npairs(Steam ~ temperature+op.days, steamUse)\n</code></pre>\n</main>\n</div>\n"
 }

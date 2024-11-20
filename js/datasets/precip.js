@@ -1,3 +1,10 @@
+var precipInfo ={
+   "description" : "Description\nThe average amount of precipitation (rainfall) in inches for each of\n70 United States (and Puerto Rico) cities.",
+   "usage" : "precip",
+   "title" : "Annual Precipitation in US Cities",
+   "format" : "A named vector of length 70."
+}
+
 var precip = [
    [
       "dat"

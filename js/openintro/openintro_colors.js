@@ -1,3 +1,10 @@
+var openintro_colorsInfo ={
+   "description" : "Description\nA character string of full colors from IMSCOL[,1]",
+   "format" : "A named character string with 9 elements: \"blue\", \"green\", \"pink\", \"yellow\", \"red\", \"black\", \"gray\", \"lgray",
+   "title" : "OpenIntro colors",
+   "usage" : "openintro_colors"
+}
+
 var openintro_colors = [
    [
       "dat",

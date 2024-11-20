@@ -1,9 +1,5 @@
 {
-   "config" : {
-      "title" : "Maximum annual temperatures at Moorabbin Airport",
-      "graphType" : "Scatter2D",
-      "subtitle" : "fpp2 - maxtemp"
-   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>maxtemp</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Maximum annual temperatures at Moorabbin Airport, Melbourne</h2>\n<h3>Description</h3>\n<p>Maximum annual temperatures (degrees Celsius) for Moorabbin Airport,\nMelbourne. 1971-2016.\n</p>\n<h3>Format</h3>\n<p>Annual time series of class <code>ts</code>.\n</p>\n<h3>Source</h3>\n<p>Australian Bureau of Meteorology.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>\nautoplot(maxtemp)\n</code></pre>\n</main>\n</div>\n",
    "data" : {
       "y" : {
          "data" : [
@@ -246,5 +242,9 @@
          ]
       }
    },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>maxtemp</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Maximum annual temperatures at Moorabbin Airport, Melbourne</h2>\n<h3>Description</h3>\n<p>Maximum annual temperatures (degrees Celsius) for Moorabbin Airport,\nMelbourne. 1971-2016.\n</p>\n<h3>Format</h3>\n<p>Annual time series of class <code>ts</code>.\n</p>\n<h3>Source</h3>\n<p>Australian Bureau of Meteorology.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>\nautoplot(maxtemp)\n</code></pre>\n</main>\n</div>\n"
+   "config" : {
+      "graphType" : "Scatter2D",
+      "title" : "Maximum annual temperatures at Moorabbin Airport",
+      "subtitle" : "fpp2 - maxtemp"
+   }
 }

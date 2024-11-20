@@ -1,15 +1,16 @@
 {
-   "config" : {
-      "graphType" : "Heatmap",
-      "subtitle" : "carData - MplsDemo",
-      "title" : "Minneapolis Demographic Data 2015",
-      "smpOverlays" : [
-         "neighborhood"
-      ]
-   },
    "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>MplsDemo</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>\nMinneapolis Demographic Data 2015, by Neighborhood\n</h2>\n<h3>Description</h3>\n<p>Minneapolis Demographic Data 2015, by Neighborhood, from the 2015 American Community Survey\n</p>\n<h3>Format</h3>\n<p>A data frame with 84 observations on the following 7 variables.\n</p>\n<dl>\n<dt><code>neighborhood</code></dt><dd><p>name of the neighborhood</p>\n</dd>\n<dt><code>population</code></dt><dd><p>total population </p>\n</dd>\n<dt><code>black</code></dt><dd><p>fraction of the population estimated to be black</p>\n</dd>\n<dt><code>white</code></dt><dd><p>fraction of the population estimated to be white</p>\n</dd>\n<dt><code>foreignBorn</code></dt><dd><p>fraction of the population estimated to be foreign born</p>\n</dd>\n<dt><code>hhIncome</code></dt><dd><p>estimated median household income</p>\n</dd>\n<dt><code>poverty</code></dt><dd><p>estimated fraction earning less than twice the poverty level</p>\n</dd>\n<dt><code>collegeGrad</code></dt><dd><p>estimated fraction with a college degree</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>The data frame <code>MplsStops</code> contains 2017 Minneapolis Police stop data, using the same neighborhood names as this data file.\n</p>\n<h3>Source</h3>\n<p>http://www.mncompass.org/profiles/neighborhoods/minneapolis-saint-paul#!community-areas\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>str(MplsDemo)\n</code></pre>\n</main>\n</div>\n",
    "data" : {
       "y" : {
+         "vars" : [
+            "population",
+            "white",
+            "black",
+            "foreignBorn",
+            "hhIncome",
+            "poverty",
+            "collegeGrad"
+         ],
          "smps" : [
             "1",
             "3",
@@ -699,15 +700,6 @@
                0.418,
                0.409
             ]
-         ],
-         "vars" : [
-            "population",
-            "white",
-            "black",
-            "foreignBorn",
-            "hhIncome",
-            "poverty",
-            "collegeGrad"
          ]
       },
       "x" : {
@@ -798,5 +790,13 @@
             "Marshall Terrace"
          ]
       }
+   },
+   "config" : {
+      "subtitle" : "carData - MplsDemo",
+      "smpOverlays" : [
+         "neighborhood"
+      ],
+      "graphType" : "Heatmap",
+      "title" : "Minneapolis Demographic Data 2015"
    }
 }

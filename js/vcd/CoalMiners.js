@@ -1,3 +1,10 @@
+var CoalMinersInfo ={
+   "usage" : "data(\"CoalMiners\")",
+   "format" : "A 3-dimensional table of size 2 x 2 x 9\nresulting from cross-tabulating variables for\n18,282 coal miners.  The variables and their levels are as follows:",
+   "title" : "Breathlessness and Wheeze in Coal Miners",
+   "description" : "Description\nData from Ashford & Sowden (1970) given by Agresti (1990) on the\nassociation between two pulmonary conditions, breathlessness and\nwheeze, in a large sample of coal miners who were smokers with no\nradiological evidence of pneumoconlosis, aged between 20&ndash;64\nwhen examined.\nThis data is frequently used as an example of fitting models for\nbivariate, binary responses."
+}
+
 var CoalMiners = [
    [
       "Breathlessness",

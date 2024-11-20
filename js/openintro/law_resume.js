@@ -1,3 +1,16 @@
+var law_resumeInfo ={
+   "usage" : "law_resume",
+   "description" : "Description\nResumes were sent out to 316 top law firms in the United States, and there\nwere two randomized characteristics of each resume. First, the gender\nassociated with the resume was randomized by assigning a first name of\neither James or Julia. Second, the socioeconomic class of the candidate was\nrandomly assigned and represented through five minor changes associated with\npersonal interests and other other minor details (e.g. an extracurricular\nactivity of sailing team vs track and field). The outcome variable was\nwhether the candidate was received an interview.",
+   "reference" : "For a casual overview, see\nhttps://hbr.org/2016/12/research-how-subtle-class-cues-can-backfire-on-your-resume.",
+   "format" : "A data frame with 316 observations on the following 3 variables. Each\nrow represents a resume sent a top law firm for this experiment.",
+   "title" : "Gender, Socioeconomic Class, and Interview Invites",
+   "parameters" : {
+      "gender" : "The\nresume implied the candidate was either \"male\" or \"female\".",
+      "outcome" : "If the candidate received an invitation for an\n\"interview\" or \"not\".",
+      "class" : "The resume represented irrelevant details suggesting\neither \"low\" or \"high\" socioeconomic class."
+   }
+}
+
 var law_resume = [
    [
       "class",

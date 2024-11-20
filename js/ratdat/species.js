@@ -1,3 +1,17 @@
+var speciesInfo ={
+   "parameters" : {
+      "genus" : "The genus of the species",
+      "species_id" : "Species identifier",
+      "species" : "The latin species name",
+      "taxa" : "General taxonomic category of the species"
+   },
+   "reference" : "Portal Project Teaching Database,\ndoi:10.6084/m9.figshare.1314459",
+   "format" : "A data frame with columns:",
+   "title" : "Species data.",
+   "description" : "Description\nData on species captured at the Portal Project",
+   "usage" : "species"
+}
+
 var species = [
    [
       "species_id",

@@ -1,3 +1,19 @@
+var ability.covInfo ={
+   "usage" : "ability.cov",
+   "description" : "Description\nSix tests were given to 112 individuals. The covariance matrix is\ngiven in this object.",
+   "title" : "Ability and Intelligence Tests",
+   "format" : "The tests are described as",
+   "reference" : "Bartholomew, D. J. (1987).\nLatent Variable Analysis and Factor Analysis.\nGriffin.",
+   "parameters" : {
+      "picture:" : "a picture-completion test",
+      "blocks:" : "block design",
+      "general:" : "a non-verbal measure of general intelligence using\nCattell's culture-fair test.",
+      "vocab:" : "vocabulary",
+      "reading:" : "reading comprehension",
+      "maze:" : "mazes"
+   }
+}
+
 var ability.cov = [
    [
       "cov.general",

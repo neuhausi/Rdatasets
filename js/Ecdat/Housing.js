@@ -1,3 +1,25 @@
+var HousingInfo ={
+   "parameters" : {
+      "driveway" : "does the house has a driveway ?",
+      "garagepl" : "number of garage places",
+      "prefarea" : "is the house located in the preferred neighbourhood of the city ?",
+      "gashw" : "does the house uses gas for hot water heating ?",
+      "bedrooms" : "number of bedrooms",
+      "airco" : "does the house has central air conditioning ?",
+      "fullbase" : "does the house has a full finished basement ?",
+      "recroom" : "does the house has a recreational room ?",
+      "stories" : "number of stories excluding basement",
+      "lotsize" : "the lot size of a property in square feet",
+      "price" : "sale price of a house",
+      "bathrms" : "number of full bathrooms"
+   },
+   "format" : "A dataframe containing :",
+   "reference" : "Anglin, P.M.  and  R.  Gencay (1996) &ldquo;Semiparametric estimation of a hedonic price function&rdquo;, Journal of Applied Econometrics, 11(6), 633-648.",
+   "title" : "Sales Prices of Houses in the City of Windsor",
+   "description" : "Description\na cross-section from 1987\nnumber of observations :  546\nobservation :  goods\ncountry :  Canada",
+   "usage" : "data(Housing)"
+}
+
 var Housing = [
    [
       "price",

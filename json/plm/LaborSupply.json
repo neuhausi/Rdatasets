@@ -1,15 +1,11 @@
 {
+   "config" : {
+      "graphType" : "Heatmap",
+      "title" : "Wages and Hours Worked",
+      "subtitle" : "plm - LaborSupply"
+   },
    "data" : {
       "y" : {
-         "vars" : [
-            "lnhr",
-            "lnwg",
-            "kids",
-            "age",
-            "disab",
-            "id",
-            "year"
-         ],
          "data" : [
             [
                7.58,
@@ -37266,6 +37262,15 @@
                1988
             ]
          ],
+         "vars" : [
+            "lnhr",
+            "lnwg",
+            "kids",
+            "age",
+            "disab",
+            "id",
+            "year"
+         ],
          "smps" : [
             "Smp1",
             "Smp2",
@@ -42590,10 +42595,5 @@
          ]
       }
    },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>LaborSupply</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Wages and Hours Worked</h2>\n<h3>Description</h3>\n<p>A panel of 532 observations from 1979 to 1988\n</p>\n<h3>Format</h3>\n<p>A data frame containing :\n</p>\n<dl>\n<dt>lnhr</dt><dd><p>log of annual hours worked</p>\n</dd>\n<dt>lnwg</dt><dd><p>log of hourly wage</p>\n</dd>\n<dt>kids</dt><dd><p>number of children</p>\n</dd>\n<dt>age</dt><dd><p>age</p>\n</dd>\n<dt>disab</dt><dd><p>bad health</p>\n</dd>\n<dt>id</dt><dd><p>id</p>\n</dd>\n<dt>year</dt><dd><p>year</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p><em>number of observations</em> : 5320\n</p>\n<h3>Source</h3>\n<p>Online complements to Ziliak (1997).\n</p>\n<p>Journal of Business Economics and Statistics web site:\n<a href=\"https://amstat.tandfonline.com/loi/ubes20/\">https://amstat.tandfonline.com/loi/ubes20/</a>.\n</p>\n<h3>References</h3>\n<p>Colin Cameron A, K. Trivedi P (2005).\n<em>Microeconometrics: Methods and Applications</em>.\nCambridge University Press.\nISBN 0521848059, <a href=\"https://doi.org/10.1017/CBO9780511811241\">doi:10.1017/CBO9780511811241</a>.\n</p>\n<p>Ziliak JP (1997).\n&ldquo;Efficient Estimation with Panel Data When Instruments Are Predetermined: An Empirical Comparison of Moment-Condition Estimators.&rdquo;\n<em>Journal of Business &amp; Economic Statistics</em>, <b>15</b>(4), 419&ndash;431.\nISSN 07350015.\n</p>\n</main>\n</div>\n",
-   "config" : {
-      "graphType" : "Heatmap",
-      "subtitle" : "plm - LaborSupply",
-      "title" : "Wages and Hours Worked"
-   }
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>LaborSupply</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Wages and Hours Worked</h2>\n<h3>Description</h3>\n<p>A panel of 532 observations from 1979 to 1988\n</p>\n<h3>Format</h3>\n<p>A data frame containing :\n</p>\n<dl>\n<dt>lnhr</dt><dd><p>log of annual hours worked</p>\n</dd>\n<dt>lnwg</dt><dd><p>log of hourly wage</p>\n</dd>\n<dt>kids</dt><dd><p>number of children</p>\n</dd>\n<dt>age</dt><dd><p>age</p>\n</dd>\n<dt>disab</dt><dd><p>bad health</p>\n</dd>\n<dt>id</dt><dd><p>id</p>\n</dd>\n<dt>year</dt><dd><p>year</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p><em>number of observations</em> : 5320\n</p>\n<h3>Source</h3>\n<p>Online complements to Ziliak (1997).\n</p>\n<p>Journal of Business Economics and Statistics web site:\n<a href=\"https://amstat.tandfonline.com/loi/ubes20/\">https://amstat.tandfonline.com/loi/ubes20/</a>.\n</p>\n<h3>References</h3>\n<p>Colin Cameron A, K. Trivedi P (2005).\n<em>Microeconometrics: Methods and Applications</em>.\nCambridge University Press.\nISBN 0521848059, <a href=\"https://doi.org/10.1017/CBO9780511811241\">doi:10.1017/CBO9780511811241</a>.\n</p>\n<p>Ziliak JP (1997).\n&ldquo;Efficient Estimation with Panel Data When Instruments Are Predetermined: An Empirical Comparison of Moment-Condition Estimators.&rdquo;\n<em>Journal of Business &amp; Economic Statistics</em>, <b>15</b>(4), 419&ndash;431.\nISSN 07350015.\n</p>\n</main>\n</div>\n"
 }

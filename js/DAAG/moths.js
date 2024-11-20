@@ -1,3 +1,17 @@
+var mothsInfo ={
+   "description" : "Description\nThe moths data frame has 41 rows and 4 columns.\nThese data are from a study of the effect of habitat on the\ndensities of two species of moth (A and P).  Transects were\nset across the search area.  Within transects, sections\nwere identified according to habitat type.",
+   "usage" : "moths",
+   "parameters" : {
+      "P" : "number of type P moths found",
+      "A" : "number of type A moths found",
+      "meters" : "length of transect",
+      "habitat" : "a factor with levels\nBank,\nDisturbed,\nLowerside,\nNEsoak,\nNWsoak,\nSEsoak,\nSWsoak,\nUpperside"
+   },
+   "title" : "Moths Data",
+   "format" : "This data frame contains the following columns:",
+   "reference" : "Sharyn Wragg, formerly of Australian National University"
+}
+
 var moths = [
    [
       "meters",

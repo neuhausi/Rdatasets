@@ -1,3 +1,20 @@
+var longleyInfo ={
+   "title" : "Longley's Economic Regression Data",
+   "reference" : "J. W. Longley (1967)\nAn appraisal of least-squares programs from the point of view of the\nuser.\nJournal of the American Statistical Association 62,\n819&ndash;841.",
+   "format" : "A data frame with 7 economical variables, observed yearly from 1947 to\n1962 (n=16).",
+   "parameters" : {
+      "Employed" : "number of people employed.",
+      "Population" : "&lsquo;noninstitutionalized&rsquo; population\n\\ge 14 years of age.",
+      "Year" : "the year (time).",
+      "Armed.Forces" : "number of people in the armed forces.",
+      "GNP" : "Gross National Product.",
+      "Unemployed" : "number of unemployed.",
+      "GNP.deflator" : "GNP implicit price deflator (1954=100)"
+   },
+   "usage" : "longley",
+   "description" : "Description\nA macroeconomic data set which provides a well-known example for a\nhighly collinear regression."
+}
+
 var longley = [
    [
       "GNP.deflator",

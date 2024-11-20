@@ -1,3 +1,16 @@
+var CushingsInfo ={
+   "parameters" : {
+      "Type" : "underlying type of syndrome, coded a (adenoma) , b\n(bilateral hyperplasia), c (carcinoma) or u for unknown.",
+      "Tetrahydrocortisone" : "urinary excretion rate (mg/24hr) of Tetrahydrocortisone.",
+      "Pregnanetriol" : "urinary excretion rate (mg/24hr) of Pregnanetriol."
+   },
+   "title" : "Diagnostic Tests on Patients with Cushing's Syndrome",
+   "format" : "The Cushings data frame has 27 rows and 3 columns:",
+   "reference" : "J. Aitchison and I. R. Dunsmore (1975)\nStatistical Prediction Analysis.\nCambridge University Press, Tables 11.1&ndash;3.",
+   "description" : "Description\nCushing's syndrome is a hypertensive disorder associated with\nover-secretion of cortisol by the adrenal gland. The observations\nare urinary excretion rates of two steroid metabolites.",
+   "usage" : "Cushings"
+}
+
 var Cushings = [
    [
       "Tetrahydrocortisone",

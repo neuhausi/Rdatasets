@@ -1,3 +1,20 @@
+var exibbleInfo ={
+   "description" : "Description\nThis tibble contains data of a few different classes, which makes it\nwell-suited for quick experimentation with the functions in this package. It\ncontains only eight rows with numeric, character, and factor columns. The\nlast 4 rows contain NA values in the majority of this tibble's columns (1\nmissing value per column). The date, time, and datetime columns are\ncharacter-based dates/times in the familiar ISO 8601 format. The row and\ngroup columns provide for unique rownames and two groups (grp_a and\ngrp_b) for experimenting with the gt() function's rowname_col and\ngroupname_col arguments.",
+   "usage" : "exibble",
+   "parameters" : {
+      "fctr" : "A factor column with numbers from 1 to 8, written out.",
+      "currency" : "A numeric column that is useful for testing currency-based\nformatting.",
+      "char" : "A character column composed of names of fruits from a to h.",
+      "date, time, datetime" : "Character columns with dates, times, and\ndatetimes.",
+      "row" : "A character column in the format row_X which can be useful for\ntesting with row labels in a table stub.",
+      "group" : "A character column with four grp_a values and four grp_b\nvalues which can be useful for testing tables that contain row groups.",
+      "num" : "A numeric column ordered with increasingly larger values."
+   },
+   "format" : "A tibble with 8 rows and 9 variables:",
+   "title" : "A toy example tibble for testing with gt: exibble",
+   "reference" : "Here is the entirety of the exibble table."
+}
+
 var exibble = [
    [
       "num",

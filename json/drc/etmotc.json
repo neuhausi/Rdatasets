@@ -1,7 +1,18 @@
 {
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>etmotc</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Effect of erythromycin on mixed sewage microorganisms</h2>\n<h3>Description</h3>\n<p>Relative growth rate in biomass of mixed sewage microorganisms (per hour) as a function of\nincreasing concentrations of the antibiotic erythromycin (mg/l).\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(etmotc)</code></pre>\n<h3>Format</h3>\n<p>A data frame with 57 observations on the following 4 variables.\n</p>\n<dl>\n<dt><code>cell</code></dt><dd><p>a numeric vector</p>\n</dd>\n<dt><code>dose1</code></dt><dd><p>a numeric vector</p>\n</dd>\n<dt><code>pct1</code></dt><dd><p>a numeric vector</p>\n</dd>\n<dt><code>rgr1</code></dt><dd><p>a numeric vector</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>Data stem from an experiment investigating the effect of pharmaceuticals,\nthat are used in human and veterinary medicine and that are being released into the aquatic environment through\nwaste water or through manure used for fertilising agricultural land. The experiment constitutes a typical\ndose-response situation. The dose is concentration of the antibiotic erythromycin (mg/l), which is an antibiotic\nthat can be used by persons or animals showing allergy to penicillin, and the measured response is the relative\ngrowth rate in biomass of mixed sewage microorganisms (per hour), measured as turbidity two hours after exposure\nby means of a spectrophotometer. The experiment was designed in such a way that eight replicates were assigned\nto the control (dose 0), but no replicates were assigned to the 7 non-zero doses. Further details are found in\nChristensen et al (2006).\n</p>\n<h3>Source</h3>\n<p>Christensen, A. M. and Ingerslev, F. and Baun, A. 2006 \nEcotoxicity of mixtures of antibiotics used in aquacultures, \n<em>Environmental Toxicology and Chemistry</em>, <b>25</b>, 2208&ndash;2215.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>\netmotc.m1&lt;-drm(rgr1~dose1, data=etmotc[1:15,], fct=LL.4())\nplot(etmotc.m1)\nmodelFit(etmotc.m1)\nsummary(etmotc.m1)\netmotc.m2&lt;-drm(rgr1~dose1, data=etmotc[1:15,], fct=W2.4())\nplot(etmotc.m2, add = TRUE)\nmodelFit(etmotc.m2)\nsummary(etmotc.m2)\netmotc.m3&lt;-drm(rgr1~dose1, data=etmotc[1:15,], fct=W2.3())\nplot(etmotc.m3, add = TRUE)\nmodelFit(etmotc.m3)\nsummary(etmotc.m3)\n</code></pre>\n</main>\n</div>\n",
+   "config" : {
+      "graphType" : "Scatter2D",
+      "title" : "Effect of erythromycin on mixed sewage microorganisms",
+      "scatterPlotMatrix" : 1,
+      "subtitle" : "drc - etmotc"
+   },
    "data" : {
       "y" : {
+         "smps" : [
+            "cell",
+            "dose1",
+            "pct1",
+            "rgr1"
+         ],
          "vars" : [
             "Var1",
             "Var2",
@@ -404,19 +415,8 @@
                0,
                0.120232055
             ]
-         ],
-         "smps" : [
-            "cell",
-            "dose1",
-            "pct1",
-            "rgr1"
          ]
       }
    },
-   "config" : {
-      "graphType" : "Scatter2D",
-      "scatterPlotMatrix" : 1,
-      "subtitle" : "drc - etmotc",
-      "title" : "Effect of erythromycin on mixed sewage microorganisms"
-   }
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>etmotc</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Effect of erythromycin on mixed sewage microorganisms</h2>\n<h3>Description</h3>\n<p>Relative growth rate in biomass of mixed sewage microorganisms (per hour) as a function of\nincreasing concentrations of the antibiotic erythromycin (mg/l).\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(etmotc)</code></pre>\n<h3>Format</h3>\n<p>A data frame with 57 observations on the following 4 variables.\n</p>\n<dl>\n<dt><code>cell</code></dt><dd><p>a numeric vector</p>\n</dd>\n<dt><code>dose1</code></dt><dd><p>a numeric vector</p>\n</dd>\n<dt><code>pct1</code></dt><dd><p>a numeric vector</p>\n</dd>\n<dt><code>rgr1</code></dt><dd><p>a numeric vector</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>Data stem from an experiment investigating the effect of pharmaceuticals,\nthat are used in human and veterinary medicine and that are being released into the aquatic environment through\nwaste water or through manure used for fertilising agricultural land. The experiment constitutes a typical\ndose-response situation. The dose is concentration of the antibiotic erythromycin (mg/l), which is an antibiotic\nthat can be used by persons or animals showing allergy to penicillin, and the measured response is the relative\ngrowth rate in biomass of mixed sewage microorganisms (per hour), measured as turbidity two hours after exposure\nby means of a spectrophotometer. The experiment was designed in such a way that eight replicates were assigned\nto the control (dose 0), but no replicates were assigned to the 7 non-zero doses. Further details are found in\nChristensen et al (2006).\n</p>\n<h3>Source</h3>\n<p>Christensen, A. M. and Ingerslev, F. and Baun, A. 2006 \nEcotoxicity of mixtures of antibiotics used in aquacultures, \n<em>Environmental Toxicology and Chemistry</em>, <b>25</b>, 2208&ndash;2215.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>\netmotc.m1&lt;-drm(rgr1~dose1, data=etmotc[1:15,], fct=LL.4())\nplot(etmotc.m1)\nmodelFit(etmotc.m1)\nsummary(etmotc.m1)\netmotc.m2&lt;-drm(rgr1~dose1, data=etmotc[1:15,], fct=W2.4())\nplot(etmotc.m2, add = TRUE)\nmodelFit(etmotc.m2)\nsummary(etmotc.m2)\netmotc.m3&lt;-drm(rgr1~dose1, data=etmotc[1:15,], fct=W2.3())\nplot(etmotc.m3, add = TRUE)\nmodelFit(etmotc.m3)\nsummary(etmotc.m3)\n</code></pre>\n</main>\n</div>\n"
 }

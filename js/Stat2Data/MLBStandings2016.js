@@ -1,3 +1,33 @@
+var MLBStandings2016Info ={
+   "description" : "Description\nMajor League Baseball (MLB) standings and team statistics for the 2016 season",
+   "parameters" : {
+      "BattingAverage" : "Team batting average",
+      "StrikeOuts" : "Number of strikeouts (by the team's pitchers)",
+      "HR" : "Number of home runs hit",
+      "Team" : "Team name",
+      "Walks" : "Number of walks allowed",
+      "WHIP" : "Number of walks and hits per inning pitched",
+      "SB" : "Number of stolen bases",
+      "Saves" : "Number of games saved (by the team's pitchers)",
+      "Runs" : "Number of runs scored",
+      "OBP" : "On base percentage",
+      "SLG" : "Slugging percentage",
+      "ERA" : "Earned run average (earned runs allowed per 9 innings)",
+      "Wins" : "Number of wins for the season (out of 162 games)",
+      "Triples" : "Number of triples hit",
+      "Doubles" : "Number of doubles hit",
+      "RBI" : "Number of runs batted in",
+      "Hits" : "Number of hits",
+      "WinPct" : "Proportion of games won",
+      "HitsAllowed" : "Number of hits against the team",
+      "League" : "AL=American or NL=National",
+      "Losses" : "Number of losses for the season"
+   },
+   "reference" : "Data for all 30 Major League Baseball (MLB) teams for the 2016 regular season. This includes team batting statistics (BattingAvg through SLG) and team pitching statistics (ERA through WHIP)",
+   "title" : "MLB Standings in 2016",
+   "usage" : "A data frame with 30 observations on the following 21 variables."
+}
+
 var MLBStandings2016 = [
    [
       "Team",

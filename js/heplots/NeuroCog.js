@@ -1,3 +1,22 @@
+var NeuroCogInfo ={
+   "usage" : "A data frame with 242 observations on the following 10 variables.",
+   "title" : "Neurocognitive Measures in Psychiatric Groups",
+   "reference" : "The main interest was in determining how well these measures distinguished\namong all groups and whether there were variables that distinguished between\nthe schizophrenia and schizoaffective groups.",
+   "parameters" : {
+      "Age" : "Subject age, a numeric vector",
+      "Memory" : "Working memory a numeric vector",
+      "Attention" : "Attention/Vigilance Domain T score, a numeric vector",
+      "Verbal" : "Verbal Learning Domain T score, a numeric vector",
+      "Speed" : "Speed of processing domain T score, a numeric vector",
+      "Dx" : "Diagnostic group, a factor with levels Schizophrenia Schizoaffective Control",
+      "Visual" : "Visual Learning Domain T score, a numeric vector",
+      "SocialCog" : "Social Cognition Domain T score, a numeric vector",
+      "Sex" : "Subject gender, a factor with levels Female Male",
+      "ProbSolv" : "Reasoning/Problem Solving Domain T score, a numeric vector"
+   },
+   "description" : "Description\nThe primary purpose of the study (Hartman, 2016, Heinrichs et al. (2015))\nwas to evaluate patterns and levels of performance on neurocognitive\nmeasures among individuals with schizophrenia and schizoaffective disorder\nusing a well-validated, comprehensive neurocognitive battery specifically\ndesigned for individuals with psychosis (Heinrichs et al. (2008))"
+}
+
 var NeuroCog = [
    [
       "Dx",

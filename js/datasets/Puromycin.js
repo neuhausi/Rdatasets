@@ -1,3 +1,16 @@
+var PuromycinInfo ={
+   "parameters" : {
+      "rate" : "a numeric vector of instantaneous reaction rates (counts/min/min)",
+      "conc" : "a numeric vector of substrate concentrations (ppm)",
+      "state" : "a factor with levels\ntreated\nuntreated"
+   },
+   "format" : "This data frame contains the following columns:",
+   "title" : "Reaction Velocity of an Enzymatic Reaction",
+   "reference" : "Data on the velocity of an enzymatic reaction were obtained\nby Treloar (1974).  The number of counts per minute of radioactive\nproduct from the reaction was measured as a function of substrate\nconcentration in parts per million (ppm) and from these counts the\ninitial rate (or velocity) of the reaction was calculated\n(counts/min/min).  The experiment was conducted once with the enzyme\ntreated with Puromycin, and once with the enzyme untreated.",
+   "description" : "Description\nThe Puromycin data frame has 23 rows and 3 columns of the\nreaction velocity versus substrate concentration in an enzymatic\nreaction involving untreated cells or cells treated with Puromycin.",
+   "usage" : "Puromycin"
+}
+
 var Puromycin = [
    [
       "conc",

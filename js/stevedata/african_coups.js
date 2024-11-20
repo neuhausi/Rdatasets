@@ -1,3 +1,24 @@
+var african_coupsInfo ={
+   "description" : "Description\nA data set on modeling coups in Africa using data from the period between\n1960 and 1975 (1982). These data offer a partial replication of Jackman\n(1978).",
+   "usage" : "african_coups",
+   "parameters" : {
+      "iso3c" : "a three-character ISO code for state identification",
+      "literacy_ba" : "another estimate of countrywide literacy from around 1965",
+      "partydom" : "the percentage of the vote received by the largest party in the country prior to independence",
+      "leperc" : "an estimate of the size of the largest ethnic group, as a percentage",
+      "jci" : "Jackman's (1978) coup index from 1960 to 1975",
+      "country" : "an English country name",
+      "agperc" : "an estimate of the percentage of the country's labor force in agriculture and animal husbandry",
+      "turnout" : "the turnout (as a percentage) at the independence referendum",
+      "literacy_cnts" : "an estimate of countrywide literacy from around 1965",
+      "tmis" : "Johnson et al.'s (1984) total military involvement score",
+      "indperc" : "an estimate of the percentage of the country's labor force in industry"
+   },
+   "reference" : "Data exist for instructional purposes, especially about modeling interactions.\nReading Jackman (1978) and Johnson et al. (1984) will provide more information\nabout the data and hypotheses. There was a follow-up symposium on this in\n1986 in American Political Science Review that may be an interesting\nread and provide even more context about what's at stake in this debate.",
+   "title" : "Modeling Coups in Africa, 1960 to 1975 (1982)",
+   "format" : "A data frame with the following 11 variables."
+}
+
 var african_coups = [
    [
       "iso3c",

@@ -1,3 +1,16 @@
+var country_codesInfo ={
+   "parameters" : {
+      "iso_alpha" : "The 3-letter ISO 3166-1 alpha-3 code.",
+      "country" : "Country name.",
+      "iso_num" : "The 3-digit ISO 3166-1 numeric-3 code."
+   },
+   "title" : "Country codes",
+   "format" : "Data frame of Gapminder country names and ISO 3166-1 country codes:",
+   "reference" : "if (require(\"dplyr\")) {\n  gapminder %>%\n    filter(year == 2007, country %in% c(\"Kenya\", \"Peru\", \"Syria\")) %>%\n    select(country, continent) %>%\n    left_join(country_codes)\n}",
+   "description" : "Description\nCountry codes",
+   "usage" : "country_codes"
+}
+
 var country_codes = [
    [
       "country",

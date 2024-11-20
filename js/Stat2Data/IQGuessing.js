@@ -1,3 +1,15 @@
+var IQGuessingInfo ={
+   "parameters" : {
+      "TrueIQ" : "Actual IQ",
+      "GuessIQ" : "Guessed IQ",
+      "Age" : "Age of woman"
+   },
+   "description" : "Description\nTrue IQ and guessed IQ (from a photo) for 40 women",
+   "usage" : "A data frame with 40 observations on the following 3 variables.",
+   "title" : "Guess IQ from a Photo?",
+   "reference" : "One hundred sixty raters (75 men and 85 women) took part in judging intelligence (on a 1=high to 7=low scale) based on photographs of students. The ratings were converted to z-scores and then put on an IQ scale to compare to actual measured IQ. There were photos of 80 students, 40 men and 40 women.  This data set contains data for the 40 women."
+}
+
 var IQGuessing = [
    [
       "Age",

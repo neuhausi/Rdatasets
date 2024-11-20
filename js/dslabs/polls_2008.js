@@ -1,3 +1,15 @@
+var polls_2008Info ={
+   "usage" : "polls_2008",
+   "description" : "Description\nData from different pollsters for the popular vote between Obama and McCain \nin the 2008 presidential election.",
+   "format" : "An object of class data.frame.",
+   "title" : "Poll data for popular vote in 2008 presidential election",
+   "reference" : "https://web.archive.org/web/20161108190914/http://www.pollster.com/08USPresGEMvO-2.html",
+   "parameters" : {
+      "day. Days until election day. Negative numbers are reported so that days can increase up to 0, which is election day." : null,
+      "margin. Average difference between Obama and McCain for that day." : null
+   }
+}
+
 var polls_2008 = [
    [
       "day",

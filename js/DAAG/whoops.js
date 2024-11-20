@@ -1,3 +1,10 @@
+var whoopsInfo ={
+   "usage" : "data(whoops)",
+   "format" : "This is a multiple time series consisting of 3 series:\nwcough, ratio, and alldeaths.",
+   "title" : "Deaths from whooping cough, in London",
+   "description" : "Description\nDeaths from whooping cough, in London from 1740 to 1881."
+}
+
 var whoops = [
    [
       "wcough",

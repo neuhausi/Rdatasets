@@ -1,3 +1,15 @@
+var co2emissionsInfo ={
+   "description" : "Description\nThis is a sample data set, cobbled from various sources, about\ncarbon dioxide emissions in the history of the planet from 800,000 BCE to\nthe most recently concluded calendar year. I use this for a data visualization\nexample for a lecture on climate change and international politics.\nData communicate yearly averages/estimates.",
+   "usage" : "co2emissions",
+   "parameters" : {
+      "year" : "the year (negative values = BCE)",
+      "value" : "estimated carbon dioxide emissions (in ppm)"
+   },
+   "format" : "A data frame with 3,099 observations on the following 2 variables.",
+   "reference" : "The data come from many sources. Before 0 CE, the data come from 10 sources\ndescribed by the Environmental Protection Agency (\"Climate Change Indicators:\nAtmospheric Concentrations of Greenhouse Gases\"). Observations from 0 CE to\n2014 come from Meinshausen et al. (2017)\ndoi: 10.5194/gmd-10-2057-2017. Observations from 2015 forward come\nfrom NASA (\"Vital Signs\").",
+   "title" : "Carbon Dioxide Emissions Data"
+}
+
 var co2emissions = [
    [
       "year",

@@ -1,3 +1,26 @@
+var ncbirthsInfo ={
+   "format" : "A data frame with 1000 observations on the following 13 variables.",
+   "title" : "North Carolina births, 1000 cases",
+   "reference" : "We do not have ideal provenance for these data. For a better\ndocumented and more recent dataset on a similar topic with similar variables,\nsee births14.",
+   "parameters" : {
+      "visits" : "Number of hospital visits during pregnancy.",
+      "mage" : "Mother's age in years.",
+      "fage" : "Father's age in years.",
+      "gained" : "Weight gained by mother during pregnancy in pounds.",
+      "whitemom" : "Whether mom is white or not white.",
+      "marital" : "Whether mother is married or not married at birth.",
+      "lowbirthweight" : "Whether baby was classified as low birthweight\n(low) or not (not low).",
+      "premie" : "Whether the birth was classified as premature (premie) or full-term.",
+      "gender" : "Gender of the baby, female or male.",
+      "habit" : "Status of the mother as a nonsmoker or a smoker.",
+      "weeks" : "Length of pregnancy in weeks.",
+      "mature" : "Maturity status of mother.",
+      "weight" : "Weight of the baby at birth in pounds."
+   },
+   "usage" : "ncbirths",
+   "description" : "Description\nIn 2004, the state of North Carolina released to the public a large dataset\ncontaining information on births recorded in this state. This dataset has\nbeen of interest to medical researchers who are studying the relation\nbetween habits and practices of expectant mothers and the birth of their\nchildren. This is a random sample of 1,000 cases from this dataset."
+}
+
 var ncbirths = [
    [
       "fage",

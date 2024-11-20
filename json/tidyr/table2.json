@@ -1,8 +1,8 @@
 {
    "config" : {
-      "title" : "Example tabular representations",
       "colorBy" : "country",
       "shapeBy" : "type",
+      "title" : "Example tabular representations",
       "graphType" : "Scatter2D",
       "subtitle" : "tidyr - table2"
    },
@@ -39,24 +39,6 @@
          ]
       },
       "y" : {
-         "vars" : [
-            "Var1",
-            "Var2",
-            "Var3",
-            "Var4",
-            "Var5",
-            "Var6",
-            "Var7",
-            "Var8",
-            "Var9",
-            "Var10",
-            "Var11",
-            "Var12"
-         ],
-         "smps" : [
-            "year",
-            "count"
-         ],
          "data" : [
             [
                1999,
@@ -106,6 +88,24 @@
                2000,
                1280428583
             ]
+         ],
+         "vars" : [
+            "Var1",
+            "Var2",
+            "Var3",
+            "Var4",
+            "Var5",
+            "Var6",
+            "Var7",
+            "Var8",
+            "Var9",
+            "Var10",
+            "Var11",
+            "Var12"
+         ],
+         "smps" : [
+            "year",
+            "count"
          ]
       }
    }

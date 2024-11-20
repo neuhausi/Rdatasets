@@ -1,3 +1,27 @@
+var hseinvInfo ={
+   "description" : "Description\nWooldridge Source: D. McFadden (1994), âDemographics, the Housing Market, and the Welfare of the Elderly,â in D.A. Wise (ed.), Studies in the Economics of Aging. Chicago: University of Chicago Press, 225-285. The data are contained in the article. Data loads lazily.",
+   "usage" : "data('hseinv')",
+   "parameters" : {
+      "t" : " time trend",
+      "linv" : " log(inv)",
+      "pop" : " population, 1000s",
+      "lprice" : " log(price)",
+      "gprice" : " lprice - lprice_1",
+      "linvpc" : " log(invpc)",
+      "lpop" : " log(pop)",
+      "ginvpc" : " linvpc - linvpc_1",
+      "year" : " 1947-1988",
+      "linvpc_1" : " linvpc[_n-1]",
+      "price" : " housing price index; 1982 = 1",
+      "lprice_1" : " lprice[_n-1]",
+      "inv" : " real housing inv, millions $",
+      "invpc" : " per capita inv"
+   },
+   "reference" : "pages 367, 370, 407, 638-639, 822?",
+   "format" : "A data.frame with 42 observations on 14 variables:",
+   "title" : "hseinv"
+}
+
 var hseinv = [
    [
       "year",

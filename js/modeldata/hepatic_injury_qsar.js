@@ -1,3 +1,15 @@
+var hepatic_injury_qsarInfo ={
+   "description" : "Description\nA quantitative structure-activity relationship (QSAR) data set to predict\nwhen a molecule has risk associated with liver function.",
+   "parameters" : {
+      "class" : "  ordered and factor (levels",
+      "chem_fp_001 - chem_fp_192" : "  numeric",
+      "bio_assay_001 - bio_assay_184" : "  numeric"
+   },
+   "usage" : "This  data set was used to develop a model for predicting compounds'\nprobability of causing hepatic injury (i.e. liver damage). This data set\nconsisted of 281 unique compounds; 376 predictors were measured or computed\nfor each. The response was categorical (either \"none\", \"mild\", or \"severe\"),\nand was highly unbalanced.",
+   "reference" : "hepatic_injury_qsar\n\na tibble",
+   "title" : "Predicting hepatic injury from chemical information"
+}
+
 var hepatic_injury_qsar = [
    [
       "class",

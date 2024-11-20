@@ -1,3 +1,25 @@
+var crime3Info ={
+   "description" : "Description\nWooldridge Source: E. Eide (1994), Economics of Crime: Deterrence of the Rational Offender. Amsterdam: North Holland. The data come from Tables A3 and A6. Data loads lazily.",
+   "usage" : "data('crime3')",
+   "parameters" : {
+      "district" : " district number",
+      "clrprc2" : " clear-up perc, two-years prior",
+      "cavgclr" : " change in avgclr",
+      "avgclr" : " (clrprc1 + clrprc2)/2",
+      "clrprc1" : " clear-up perc, prior year",
+      "clcrime" : " change in lcrime",
+      "lcrime" : " log(crime)",
+      "crime" : " crimes per 1000 people",
+      "cclrprc1" : " change in clrprc1",
+      "cclrprc2" : " change in clrprc2",
+      "d78" : " =1 if year = 78",
+      "year" : " 72 or 78"
+   },
+   "format" : "A data.frame with 106 observations on 12 variables:",
+   "title" : "crime3",
+   "reference" : "These data are for the years 1972 and 1978 for 53 police districts in Norway. Much larger data sets for more years can be obtained for the United States, although a measure of the âclear-upâ rate is needed."
+}
+
 var crime3 = [
    [
       "district",

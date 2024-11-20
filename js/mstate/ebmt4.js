@@ -1,3 +1,28 @@
+var ebmt4Info ={
+   "parameters" : {
+      "ae.s" : "Adverse event status; 1 = adverse event, 0 = censored",
+      "rel" : "Time in days from\ntransplantation to relapse or last follow-up",
+      "id" : "Patient identification number",
+      "recae.s" : "Recovery and AE status; 1 = both recovery and\nAE, 0 = no recovery or no AE or censored",
+      "srv" : "Time in days from transplantation to\ndeath or last follow-up",
+      "rec.s" : "Recovery status; 1 = recovery, 0 = censored",
+      "ae" : "Time in\ndays from transplantation to adverse event (AE) or last follow-up",
+      "rel.s" : "Relapse status; 1\n= relapse, 0 = censored",
+      "srv.s" : "Relapse status; 1 = dead, 0 =\ncensored",
+      "match" : "Donor-recipient gender match; factor with levels \"no gender\nmismatch\", \"gender mismatch\"",
+      "year" : "Year of transplantation; factor with levels\n\"1985-1989\", \"1990-1994\", \"1995-1998\"",
+      "rec" : "Time in days from transplantation to recovery or last follow-up",
+      "recae" : "Time in days from transplantation to both recovery and AE or\nlast follow-up",
+      "agecl" : "Patient age at\ntransplant; factor with levels \"<=20\", \"20-40\", \">40\"",
+      "proph" : "Prophylaxis; factor with levels \"no\", \"yes\""
+   },
+   "title" : "Data from the European Society for Blood and Marrow Transplantation (EBMT)",
+   "reference" : "A data frame, see data.frame.",
+   "format" : "We acknowledge the European Society for Blood and Marrow\nTransplantation (EBMT) for making available these data. Disclaimer: these\ndata were simplified for the purpose of illustration of the analysis of\ncompeting risks and multi-state models and do not reflect any real life\nsituation. No clinical conclusions should be drawn from these data.",
+   "description" : "Description\nA data frame of 2279 patients transplanted at the EBMT between 1985 and\n1998. These data were used in Fiocco, Putter & van Houwelingen (2008), van\nHouwelingen & Putter (2008, 2012) and de Wreede, Fiocco & Putter (2011). The\nincluded variables are\nidPatient identification number\n\nrecTime in days from transplantation to recovery or last follow-up\n\nrec.sRecovery status; 1 = recovery, 0 = censored\n aeTime in\ndays from transplantation to adverse event (AE) or last follow-up\n\nae.sAdverse event status; 1 = adverse event, 0 = censored\n\nrecaeTime in days from transplantation to both recovery and AE or\nlast follow-up\n recae.sRecovery and AE status; 1 = both recovery and\nAE, 0 = no recovery or no AE or censored\n relTime in days from\ntransplantation to relapse or last follow-up\n rel.sRelapse status; 1\n= relapse, 0 = censored\n srvTime in days from transplantation to\ndeath or last follow-up\n srv.sRelapse status; 1 = dead, 0 =\ncensored\n yearYear of transplantation; factor with levels\n\"1985-1989\", \"1990-1994\", \"1995-1998\"\n ageclPatient age at\ntransplant; factor with levels \"<=20\", \"20-40\", \">40\"\n\nprophProphylaxis; factor with levels \"no\", \"yes\"\n\nmatchDonor-recipient gender match; factor with levels \"no gender\nmismatch\", \"gender mismatch\"",
+   "usage" : "A data frame, see data.frame."
+}
+
 var ebmt4 = [
    [
       "id",

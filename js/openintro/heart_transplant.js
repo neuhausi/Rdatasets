@@ -1,3 +1,21 @@
+var heart_transplantInfo ={
+   "description" : "Description\nThe Stanford University Heart Transplant Study was conducted to determine\nwhether an experimental heart transplant program increased lifespan. Each\npatient entering the program was designated officially a heart transplant\ncandidate, meaning that he was gravely ill and would most likely benefit\nfrom a new heart. Then the actual heart transplant occurs between a few\nweeks to several months depending on the availability of a donor. Very few\ncandidates during this waiting period show improvement and get\ndeselected as a heart transplant candidate, but for the purposes of\nthis experiment those patients were kept in the data as continuing\ncandidates.",
+   "usage" : "heart_transplant",
+   "parameters" : {
+      "transplant" : "Transplant status with levels control (did not\nreceive a transplant) and treatment (received a transplant).",
+      "age" : "Age of the patient at the beginning of the study.",
+      "prior" : "Whether or not the patient had prior surgery with levels\nyes and no.",
+      "id" : "ID number of the patient.",
+      "acceptyear" : "Year of acceptance as a heart transplant candidate.",
+      "survived" : "Survival status with levels alive and dead.",
+      "survtime" : "Number of days patients were alive after the date they were\ndetermined to be a candidate for a heart transplant until the termination\ndate of the study",
+      "wait" : "Waiting Time for Transplant"
+   },
+   "title" : "Heart Transplant Data",
+   "reference" : "http://www.stat.ucla.edu/~jsanchez/data/stanford.txt",
+   "format" : "A data frame with 103 observations on the following 8 variables."
+}
+
 var heart_transplant = [
    [
       "id",

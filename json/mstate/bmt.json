@@ -1,31 +1,6 @@
 {
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>bmt</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>BMT data from Klein and Moeschberger</h2>\n<h3>Description</h3>\n<p>A data frame of 137 rows (patients) and 22 columns. The included variables\nare </p>\n <dl>\n<dt>group</dt><dd><p> Disease group; 1 = ALL, 2 = AML Low Risk, 3 =\nAML High Risk </p>\n</dd> <dt>t1</dt><dd><p> Time in days to death or last follow-up </p>\n</dd>\n<dt>t2</dt><dd><p> Disease-free survival time in days (time to relapse, death or\nlast follow-up) </p>\n</dd> <dt>d1</dt><dd><p> Death indicator; 1 = dead, 0 = alive </p>\n</dd>\n<dt>d2</dt><dd><p> Relapse indicator; 1 = relapsed, 0 = disease-free </p>\n</dd> <dt>d3</dt><dd>\n<p>Disease-free survival indicator; 1 = dead or relapsed, 0 = alive and\ndisease-free) </p>\n</dd> <dt>ta</dt><dd><p> Time in days to Acute Graft-versus-Host Disease\n(AGVHD) </p>\n</dd> <dt>da</dt><dd><p> Acute GVHD indicator; 1 = Acute GVHD, 0 = No Acute GVHD\n</p>\n</dd> <dt>tc</dt><dd><p> Time (days) to Chronic Graft-vrsus-Host Disease (CGVHD) </p>\n</dd>\n<dt>dc</dt><dd><p> Chronic GVHD indicator; 1 = Chronic GVHD, 0 = No Chronic GVHD </p>\n</dd>\n<dt>tp</dt><dd><p> Time (days) to platelet recovery </p>\n</dd> <dt>dp</dt><dd><p> Platelet recovery\nindicator; 1 = platelets returned to normal, 0 = platelets never returned to\nnormal </p>\n</dd> <dt>z1</dt><dd><p> Patient age in years </p>\n</dd> <dt>z2</dt><dd><p> Donor age in years </p>\n</dd>\n<dt>z3</dt><dd><p> Patient sex; 1 = male, 0 = female </p>\n</dd> <dt>z4</dt><dd><p> Donor sex; 1 =\nmale, 0 = female </p>\n</dd> <dt>z5</dt><dd><p> Patient CMV status; 1 = CMV positive, 0 = CMV\nnegative </p>\n</dd> <dt>z6</dt><dd><p> Donor CMV status; 1 = CMV positive, 0 = CMV negative </p>\n</dd>\n<dt>z7</dt><dd><p> Waiting time to transplant in days </p>\n</dd> <dt>z8</dt><dd><p> FAB; 1 = FAB\ngrade 4 or 5 and AML, 0 = Otherwise </p>\n</dd> <dt>z9</dt><dd><p> Hospital; 1 = The Ohio\nState University, 2 = Alferd , 3 = St. Vincent, 4 = Hahnemann </p>\n</dd> <dt>z10</dt><dd>\n<p>MTX used as a Graft-versus-Host prophylactic; 1 = yes, 0 = no </p>\n</dd> </dl>\n<h3>Format</h3>\n<p>A data frame, see <code>data.frame</code>.\n</p>\n<h3>References</h3>\n<p>Klein and Moeschberger (1997). <em>Survival Analysis\nTechniques for Censored and Truncated Data</em>, Springer, New York.\n</p>\n</main>\n</div>\n",
    "data" : {
       "y" : {
-         "vars" : [
-            "group",
-            "t1",
-            "t2",
-            "d1",
-            "d2",
-            "d3",
-            "ta",
-            "da",
-            "tc",
-            "dc",
-            "tp",
-            "dp",
-            "z1",
-            "z2",
-            "z3",
-            "z4",
-            "z5",
-            "z6",
-            "z7",
-            "z8",
-            "z9",
-            "z10"
-         ],
          "smps" : [
             "Smp1",
             "Smp2",
@@ -164,6 +139,30 @@
             "Smp135",
             "Smp136",
             "Smp137"
+         ],
+         "vars" : [
+            "group",
+            "t1",
+            "t2",
+            "d1",
+            "d2",
+            "d3",
+            "ta",
+            "da",
+            "tc",
+            "dc",
+            "tp",
+            "dp",
+            "z1",
+            "z2",
+            "z3",
+            "z4",
+            "z5",
+            "z6",
+            "z7",
+            "z8",
+            "z9",
+            "z10"
          ],
          "data" : [
             [
@@ -3227,9 +3226,10 @@
          ]
       }
    },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>bmt</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>BMT data from Klein and Moeschberger</h2>\n<h3>Description</h3>\n<p>A data frame of 137 rows (patients) and 22 columns. The included variables\nare </p>\n <dl>\n<dt>group</dt><dd><p> Disease group; 1 = ALL, 2 = AML Low Risk, 3 =\nAML High Risk </p>\n</dd> <dt>t1</dt><dd><p> Time in days to death or last follow-up </p>\n</dd>\n<dt>t2</dt><dd><p> Disease-free survival time in days (time to relapse, death or\nlast follow-up) </p>\n</dd> <dt>d1</dt><dd><p> Death indicator; 1 = dead, 0 = alive </p>\n</dd>\n<dt>d2</dt><dd><p> Relapse indicator; 1 = relapsed, 0 = disease-free </p>\n</dd> <dt>d3</dt><dd>\n<p>Disease-free survival indicator; 1 = dead or relapsed, 0 = alive and\ndisease-free) </p>\n</dd> <dt>ta</dt><dd><p> Time in days to Acute Graft-versus-Host Disease\n(AGVHD) </p>\n</dd> <dt>da</dt><dd><p> Acute GVHD indicator; 1 = Acute GVHD, 0 = No Acute GVHD\n</p>\n</dd> <dt>tc</dt><dd><p> Time (days) to Chronic Graft-vrsus-Host Disease (CGVHD) </p>\n</dd>\n<dt>dc</dt><dd><p> Chronic GVHD indicator; 1 = Chronic GVHD, 0 = No Chronic GVHD </p>\n</dd>\n<dt>tp</dt><dd><p> Time (days) to platelet recovery </p>\n</dd> <dt>dp</dt><dd><p> Platelet recovery\nindicator; 1 = platelets returned to normal, 0 = platelets never returned to\nnormal </p>\n</dd> <dt>z1</dt><dd><p> Patient age in years </p>\n</dd> <dt>z2</dt><dd><p> Donor age in years </p>\n</dd>\n<dt>z3</dt><dd><p> Patient sex; 1 = male, 0 = female </p>\n</dd> <dt>z4</dt><dd><p> Donor sex; 1 =\nmale, 0 = female </p>\n</dd> <dt>z5</dt><dd><p> Patient CMV status; 1 = CMV positive, 0 = CMV\nnegative </p>\n</dd> <dt>z6</dt><dd><p> Donor CMV status; 1 = CMV positive, 0 = CMV negative </p>\n</dd>\n<dt>z7</dt><dd><p> Waiting time to transplant in days </p>\n</dd> <dt>z8</dt><dd><p> FAB; 1 = FAB\ngrade 4 or 5 and AML, 0 = Otherwise </p>\n</dd> <dt>z9</dt><dd><p> Hospital; 1 = The Ohio\nState University, 2 = Alferd , 3 = St. Vincent, 4 = Hahnemann </p>\n</dd> <dt>z10</dt><dd>\n<p>MTX used as a Graft-versus-Host prophylactic; 1 = yes, 0 = no </p>\n</dd> </dl>\n<h3>Format</h3>\n<p>A data frame, see <code>data.frame</code>.\n</p>\n<h3>References</h3>\n<p>Klein and Moeschberger (1997). <em>Survival Analysis\nTechniques for Censored and Truncated Data</em>, Springer, New York.\n</p>\n</main>\n</div>\n",
    "config" : {
-      "graphType" : "Heatmap",
       "subtitle" : "mstate - bmt",
+      "graphType" : "Heatmap",
       "title" : "BMT data from Klein and Moeschberger"
    }
 }

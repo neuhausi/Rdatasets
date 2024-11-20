@@ -1,3 +1,10 @@
+var cerealsugarInfo ={
+   "format" : "A vector of 100 measurements.",
+   "title" : "Percentage of Sugar in Breakfast Cereal",
+   "usage" : "cerealsugar",
+   "description" : "Description\nMeasurements of sugar content in frosted flakes breakfast cereal."
+}
+
 var cerealsugar = [
    [
       "dat"

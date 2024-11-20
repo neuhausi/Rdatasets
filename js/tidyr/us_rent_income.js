@@ -1,3 +1,17 @@
+var us_rent_incomeInfo ={
+   "parameters" : {
+      "moe" : "90% margin of error",
+      "variable" : "Variable name: income = median yearly income,\nrent = median monthly rent",
+      "estimate" : "Estimated value",
+      "GEOID" : "FIP state identifier",
+      "NAME" : "Name of state"
+   },
+   "description" : "Description\nCaptured from the 2017 American Community Survey using the tidycensus\npackage.",
+   "format" : "A dataset with variables:",
+   "title" : "US rent and income data",
+   "usage" : "us_rent_income"
+}
+
 var us_rent_income = [
    [
       "GEOID",

@@ -1,9 +1,43 @@
 {
+   "config" : {
+      "subtitle" : "Stat2Data - WalkingBabies",
+      "groupingFactors" : [
+         "Group"
+      ],
+      "colorBy" : "variable",
+      "title" : "Effects of Exercise on First Walking",
+      "graphType" : "Boxplot"
+   },
    "data" : {
+      "x" : {
+         "Group" : [
+            "special exercises",
+            "special exercises",
+            "special exercises",
+            "special exercises",
+            "special exercises",
+            "special exercises",
+            "exercise control",
+            "exercise control",
+            "exercise control",
+            "exercise control",
+            "exercise control",
+            "exercise control",
+            "weekly report",
+            "weekly report",
+            "weekly report",
+            "weekly report",
+            "weekly report",
+            "weekly report",
+            "final report",
+            "final report",
+            "final report",
+            "final report",
+            "final report",
+            "final report"
+         ]
+      },
       "y" : {
-         "vars" : [
-            "Age"
-         ],
          "smps" : [
             "Smp1",
             "Smp2",
@@ -29,6 +63,9 @@
             "Smp22",
             "Smp23",
             "Smp24"
+         ],
+         "vars" : [
+            "Age"
          ],
          "data" : [
             [
@@ -58,44 +95,7 @@
                12.36
             ]
          ]
-      },
-      "x" : {
-         "Group" : [
-            "special exercises",
-            "special exercises",
-            "special exercises",
-            "special exercises",
-            "special exercises",
-            "special exercises",
-            "exercise control",
-            "exercise control",
-            "exercise control",
-            "exercise control",
-            "exercise control",
-            "exercise control",
-            "weekly report",
-            "weekly report",
-            "weekly report",
-            "weekly report",
-            "weekly report",
-            "weekly report",
-            "final report",
-            "final report",
-            "final report",
-            "final report",
-            "final report",
-            "final report"
-         ]
       }
    },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>WalkingBabies</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Effects of Exercise on First Walking</h2>\n<h3>Description</h3>\n<p>An experiment to see if special exercises help babies learn to walk sooner\n</p>\n<h3>Format</h3>\n<p>A dataset with 24 observations on the following 2 variables.\n</p>\n<table>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Group</code></td><td style=\"text-align: left;\"> Treatments: <code>exercise control</code>, <code>final report</code>, <code>special exercises</code>, or <code>weekly report</code></td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Age</code></td><td style=\"text-align: left;\"> Age (in months) when first walking</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n  </td>\n</tr>\n</table>\n<h3>Details</h3>\n<p>Scientists wondered if they could get babies to walk sooner by prescribing a set of special exercises.\nTheir experimental design  included four groups of babies and the following treatments:<br />\n</p>\n<p>Special exercises: Parents were shown the special exercises and encouraged to use them with\ntheir children. They were phoned weekly to check on their child's progress.<br />\n</p>\n<p>Exercise control: These parents were not shown the special exercises, but they were told to\nmake sure their babies spent at least 15 minutes a day exercising. <br />\n</p>\n<p>Weekly report: Parents in this group were not given instructions about exercise. Like the\nparents in the treatment group, however, they received a phone call each week to check on\nprogress.<br />\n</p>\n<p>Final report: These parents were not given weekly phone calls or instructions about exercises.\nThey reported at the end of the study.\n</p>\n<h3>Source</h3>\n<p>Zelazo, Phillip R., Nancy Ann Zelazo, and Sarah Kolb (1972), &ldquo;Walking in the Newborn,&quot; Science, v. 176, pp.\n314-315.\n</p>\n</main>\n</div>\n",
-   "config" : {
-      "groupingFactors" : [
-         "Group"
-      ],
-      "colorBy" : "variable",
-      "title" : "Effects of Exercise on First Walking",
-      "subtitle" : "Stat2Data - WalkingBabies",
-      "graphType" : "Boxplot"
-   }
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>WalkingBabies</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Effects of Exercise on First Walking</h2>\n<h3>Description</h3>\n<p>An experiment to see if special exercises help babies learn to walk sooner\n</p>\n<h3>Format</h3>\n<p>A dataset with 24 observations on the following 2 variables.\n</p>\n<table>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Group</code></td><td style=\"text-align: left;\"> Treatments: <code>exercise control</code>, <code>final report</code>, <code>special exercises</code>, or <code>weekly report</code></td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Age</code></td><td style=\"text-align: left;\"> Age (in months) when first walking</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n  </td>\n</tr>\n</table>\n<h3>Details</h3>\n<p>Scientists wondered if they could get babies to walk sooner by prescribing a set of special exercises.\nTheir experimental design  included four groups of babies and the following treatments:<br />\n</p>\n<p>Special exercises: Parents were shown the special exercises and encouraged to use them with\ntheir children. They were phoned weekly to check on their child's progress.<br />\n</p>\n<p>Exercise control: These parents were not shown the special exercises, but they were told to\nmake sure their babies spent at least 15 minutes a day exercising. <br />\n</p>\n<p>Weekly report: Parents in this group were not given instructions about exercise. Like the\nparents in the treatment group, however, they received a phone call each week to check on\nprogress.<br />\n</p>\n<p>Final report: These parents were not given weekly phone calls or instructions about exercises.\nThey reported at the end of the study.\n</p>\n<h3>Source</h3>\n<p>Zelazo, Phillip R., Nancy Ann Zelazo, and Sarah Kolb (1972), &ldquo;Walking in the Newborn,&quot; Science, v. 176, pp.\n314-315.\n</p>\n</main>\n</div>\n"
 }

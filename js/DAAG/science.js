@@ -1,3 +1,20 @@
+var scienceInfo ={
+   "title" : "School Science Survey Data",
+   "format" : "This data frame contains the following columns:",
+   "reference" : "Francine Adams,  Rosemary Martin and Murali Nayadu, Australian\nNational University",
+   "parameters" : {
+      "Class" : "a factor with levels corresponding to each class",
+      "like" : "a summary score\nbased on two of the questions, on a scale from 1 (dislike)\nto 12 (like)",
+      "sex" : "a factor with levels\nf, m",
+      "school" : "a factor, coded to identify the school",
+      "class" : "a factor, coded to identify the class",
+      "PrivPub" : "a factor with levels\nprivate school,\npublic school",
+      "State" : "a factor with levels\nACT Australian Capital Territory,\nNSW New South Wales"
+   },
+   "usage" : "science",
+   "description" : "Description\nThe science data frame has 1385 rows and 7 columns.\nThe data are on attitudes to science, from a survey where there were\nresults from 20 classes in private schools and 46 classes in public\nschools."
+}
+
 var science = [
    [
       "State",

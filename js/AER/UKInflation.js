@@ -1,3 +1,15 @@
+var UKInflationInfo ={
+   "description" : "Description\nTime series of observed and expected price changes in British manufacturing.",
+   "usage" : "data(\"UKInflation\")",
+   "parameters" : {
+      "actual" : "Actual inflation.",
+      "expected" : "Expected inflation."
+   },
+   "format" : "A quarterly multiple time series from 1972(1) to 1985(2) with 2 variables.",
+   "reference" : "Online complements to Greene (2003), Table F8.1.",
+   "title" : "UK Manufacturing Inflation Data"
+}
+
 var UKInflation = [
    [
       "actual",

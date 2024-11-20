@@ -1,3 +1,10 @@
+var ansettInfo ={
+   "description" : "Description\nThe data features a major pilots' industrial dispute which results in some\nweeks having zero passengers. There were also at least two changes in the\ndefinitions of passenger classes.",
+   "usage" : "Time series of class tsibble",
+   "format" : "ansett is a weekly tsibble with one value:",
+   "title" : "Passenger numbers on Ansett airline flights"
+}
+
 var ansett = [
    [
       "Week",

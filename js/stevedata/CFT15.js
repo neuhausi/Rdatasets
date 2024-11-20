@@ -1,3 +1,22 @@
+var CFT15Info ={
+   "usage" : "CFT15",
+   "description" : "Description\nThis is the replication data for \"Randomization Inference in the Regression\nDiscontinuity Design: An Application to Party Advantages in the U.S. Senate\",\npublished in 2015 in Journal of Causal Inference. I use these data to\nteach about regression discontinuity designs.",
+   "reference" : "Cattaneo, Matias D. and Brigham R. Frandsen and Rocio Titiunik. 2015. \"Randomization Inference in the Regression Discontinuity Design: An Application to Party Advantages in the U.S. Senate\". Journal of Causal Inference 3(1): 1&ndash;24.",
+   "title" : "Randomization Inference in the Regression Discontinuity Design: An Application to Party Advantages in the U.S. Senate",
+   "format" : "A data frame with 1390 observations on the following 9 variables.",
+   "parameters" : {
+      "class" : "a numeric vector for the class to which each Senate seat belongs.",
+      "state" : "a numeric vector for the state. This is ultimately a categorical variable.",
+      "termssenate" : "a numeric vector for the Democratic candidate's cumulative number of terms previously served in the U.S. Senate.",
+      "margin" : "a numeric vector for the Democratic party's margin of victory in the statewide election. This is the running variable, in RDD parlance.",
+      "population" : "a numeric vector for the population of the Senate seat's state.",
+      "year" : "a numeric vector for the year of the election.",
+      "termshouse" : "a numeric vector for the Democratic candidate's cumulative number of terms previously served in the U.S. House.",
+      "treatment" : "a numeric vector that is 1 if margin > 0 and is 0 if margin < 0.",
+      "vote" : "a numeric vector for the Democratic vote share in the next election (i.e. six years later)."
+   }
+}
+
 var CFT15 = [
    [
       "state",

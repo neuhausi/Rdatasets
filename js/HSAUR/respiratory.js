@@ -1,3 +1,20 @@
+var respiratoryInfo ={
+   "usage" : "data(\"respiratory\")",
+   "description" : "Description\nThe respiratory status of patients recruited for a randomised clinical\nmulticenter trial.",
+   "format" : "A data frame with 555 observations on the following 7 variables.",
+   "reference" : "In each of two centres, eligible patients were randomly assigned \nto active treatment or placebo. During the treatment, the respiratory\nstatus (categorised poor or good) was determined at each\nof four, monthly visits. The trial recruited 111 participants\n(54 in the active group, 57 in the placebo group) and there were\nno missing data for either the responses or the covariates. The\nquestion of interest is to assess whether the treatment is effective\nand to estimate its effect.",
+   "title" : "Respiratory Illness Data",
+   "parameters" : {
+      "status" : "the respiratory status (response variable), \na factor with levels poor and good.",
+      "month" : "the month, each patient was examined at months \n0, 1, 2, 3 and 4.",
+      "sex" : "a factor with levels female and male.",
+      "treatment" : "the treatment arm, a factor with levels placebo\nand treatment.",
+      "age" : "the age of the patient.",
+      "centre" : "the study center, a factor with levels 1 and\n2.",
+      "subject" : "the patient ID, a factor with levels 1 to\n111."
+   }
+}
+
 var respiratory = [
    [
       "centre",

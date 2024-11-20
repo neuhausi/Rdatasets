@@ -1,3 +1,18 @@
+var wages1833Info ={
+   "parameters" : {
+      "fnum" : "number of female workers",
+      "mwage" : "average wage of male workers",
+      "age" : "age in years",
+      "fwage" : "average wage of female workers",
+      "mnum" : "number of male workers"
+   },
+   "title" : "Wages of Lancashire Cotton Factory Workers in 1833",
+   "format" : "This data frame contains the following columns:",
+   "reference" : "Boot, H.M. 1995. How Skilled Were the Lancashire Cotton Factory\nWorkers in 1833? Economic History Review 48: 283-303.",
+   "description" : "Description\nThe wages1833 data frame gives the wages \nof Lancashire cotton factory workers in 1833.",
+   "usage" : "wages1833"
+}
+
 var wages1833 = [
    [
       "age",

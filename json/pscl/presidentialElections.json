@@ -1,4 +1,11 @@
 {
+   "config" : {
+      "title" : "elections for U.S. President",
+      "shapeBy" : "south",
+      "colorBy" : "state",
+      "graphType" : "Scatter2D",
+      "subtitle" : "pscl - presidentialElections"
+   },
    "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>presidentialElections</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>elections for U.S. President, 1932-2016, by state</h2>\n<h3>Description</h3>\n<p>Democratic share of the\npresidential vote, 1932-2016, in each state and the District of Columbia.</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(presidentialElections)</code></pre>\n<h3>Format</h3>\n<dl>\n<dt><code>state</code></dt><dd><p>character, name of state</p>\n</dd>\n<dt><code>demVote</code></dt><dd><p>numeric, percent of the vote for president won by the\nDemocratic candidate</p>\n</dd>\n<dt><code>year</code></dt><dd><p>numeric, integer</p>\n</dd>\n<dt><code>south</code></dt><dd><p>logical, <code>TRUE</code> if state is one of the 11 states\nof the former Confederacy</p>\n</dd>\n</dl>\n<h3>Note</h3>\n<p>1,047 observations, unbalanced panel data in long format. Hawaii and Alaska contribute data\nfrom 1960 onwards the District of Columbia contributes data\nfrom 1964 onward; Alabama has missing data for 1948 and\n1964.</p>\n<h3>Source</h3>\n<p>David Leip's Atlas of U.S. Presidential Elections <a href=\"https://uselectionatlas.org\">https://uselectionatlas.org</a>\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>data(presidentialElections)\nif(require(lattice)) {\n    lattice::xyplot(demVote ~ year | state,\n       panel=lattice::panel.lines,\n       ylab=\"Democratic Vote for President (percent)\",\n       xlab=\"Year\",\n       data=presidentialElections,\n       scales=list(y=list(cex=.6),x=list(cex=.35)),\n       strip=strip.custom(par.strip.text=list(cex=.6)))\n## Obama vs Kerry, except DC\ny08 &lt;- presidentialElections$year==2008\ny04 &lt;- presidentialElections$year==2004\ntmpData &lt;- merge(y=presidentialElections[y08,],\n\t         x=presidentialElections[y04,],\n                 by=\"state\")\ntmpData &lt;- tmpData[tmpData$state!=\"DC\",]\nxlim &lt;- range(tmpData$demVote.x,tmpData$demVote.y)\ncol &lt;- rep(\"black\",dim(tmpData)[1])\ncol[tmpData$south.x] &lt;- \"red\"\nplot(demVote.y ~ demVote.x,\n     xlab=\"Kerry Vote Share, 2004 (percent)\",\n     ylab=\"Obama Vote Share, 2008 (percent)\",\n     xlim=xlim,\n     ylim=xlim,\n     type=\"n\",\n     las=1,\n     data=tmpData)\nabline(0,1,lwd=2,col=gray(.65))\nols &lt;- lm(demVote.y ~ demVote.x,\n          data=tmpData)\nabline(ols,lwd=2)\t\ntext(tmpData$demVote.x,\n     tmpData$demVote.y,\n     tmpData$state,\n     col=col,\n     cex=.65)\nlegend(x=\"topleft\",\n       bty=\"n\",\n       lwd=c(2,2),\n       col=c(gray(.65),\"black\"),\n       legend=c(\"No Change from 2004\",\"Regression\"))\nlegend(x=\"bottomright\",\n       bty=\"n\",\n       text.col=c(\"red\",\"black\"),\n       legend=c(\"South\",\"Non-South\"))\n</code></pre>\n</main>\n</div>\n",
    "data" : {
       "z" : {
@@ -2202,6 +2209,10 @@
          ]
       },
       "y" : {
+         "smps" : [
+            "demVote",
+            "year"
+         ],
          "vars" : [
             "Var1",
             "Var2",
@@ -7690,18 +7701,7 @@
                46.45,
                2016
             ]
-         ],
-         "smps" : [
-            "demVote",
-            "year"
          ]
       }
-   },
-   "config" : {
-      "graphType" : "Scatter2D",
-      "shapeBy" : "south",
-      "subtitle" : "pscl - presidentialElections",
-      "title" : "elections for U.S. President",
-      "colorBy" : "state"
    }
 }

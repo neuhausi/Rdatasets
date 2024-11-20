@@ -1,3 +1,22 @@
+var KleinIInfo ={
+   "description" : "Description\nKlein's Model I for the US economy.",
+   "usage" : "data(\"KleinI\")",
+   "parameters" : {
+      "capital" : "Previous year's capital stock.",
+      "invest" : "Investment.",
+      "taxes" : "Taxes.",
+      "gexpenditure" : "Government spending.",
+      "pwage" : "Private wage bill.",
+      "cprofits" : "Corporate profits.",
+      "consumption" : "Consumption.",
+      "gnp" : "Gross national product.",
+      "gwage" : "Government wage bill."
+   },
+   "format" : "An annual multiple time series from 1920 to 1941 with 9 variables.",
+   "title" : "Klein Model I",
+   "reference" : "Online complements to Greene (2003). Table F15.1."
+}
+
 var KleinI = [
    [
       "consumption",

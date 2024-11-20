@@ -1,4 +1,10 @@
 {
+   "config" : {
+      "title" : "Selection Times in a Fantasy Baseball Draft",
+      "graphType" : "Heatmap",
+      "subtitle" : "Stat2Data - FantasyBaseball"
+   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>FantasyBaseball</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Selection Times in a Fantasy Baseball Draft</h2>\n<h3>Description</h3>\n<p>Draft selection times for a fantasy baseball league\n</p>\n<h3>Format</h3>\n<p>A data frame with 24 observations on the following 9 variables.\n</p>\n<table>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Round</code> </td><td style=\"text-align: left;\"> Round of the draft (1 to 24)</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>DJ</code> </td><td style=\"text-align: left;\"> Draft time (in seconds) for D.J.</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>AR</code> </td><td style=\"text-align: left;\"> Draft time (in seconds) for A.R.</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>BK</code> </td><td style=\"text-align: left;\"> Draft time (in seconds) for B.K.</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>JW</code> </td><td style=\"text-align: left;\"> Draft time (in seconds) for J.W.</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>TS</code> </td><td style=\"text-align: left;\"> Draft time (in seconds) for T.S.</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>RL</code> </td><td style=\"text-align: left;\"> Draft time (in seconds) for R.L.</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>DR</code> </td><td style=\"text-align: left;\"> Draft time (in seconds) for D.R.</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>MF</code> </td><td style=\"text-align: left;\"> Draft time (in seconds) for M.F.</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n  </td>\n</tr>\n</table>\n<h3>Details</h3>\n<p>Time (in seconds) for participants in a draft for a fantasy baseball league to make a selection at each round.\n</p>\n<h3>Source</h3>\n<p>Mathematical Science Baseball League historical records (online).\n</p>\n</main>\n</div>\n",
    "data" : {
       "y" : {
          "vars" : [
@@ -11,6 +17,32 @@
             "RL",
             "DR",
             "MF"
+         ],
+         "smps" : [
+            "Smp1",
+            "Smp2",
+            "Smp3",
+            "Smp4",
+            "Smp5",
+            "Smp6",
+            "Smp7",
+            "Smp8",
+            "Smp9",
+            "Smp10",
+            "Smp11",
+            "Smp12",
+            "Smp13",
+            "Smp14",
+            "Smp15",
+            "Smp16",
+            "Smp17",
+            "Smp18",
+            "Smp19",
+            "Smp20",
+            "Smp21",
+            "Smp22",
+            "Smp23",
+            "Smp24"
          ],
          "data" : [
             [
@@ -247,39 +279,7 @@
                41,
                2
             ]
-         ],
-         "smps" : [
-            "Smp1",
-            "Smp2",
-            "Smp3",
-            "Smp4",
-            "Smp5",
-            "Smp6",
-            "Smp7",
-            "Smp8",
-            "Smp9",
-            "Smp10",
-            "Smp11",
-            "Smp12",
-            "Smp13",
-            "Smp14",
-            "Smp15",
-            "Smp16",
-            "Smp17",
-            "Smp18",
-            "Smp19",
-            "Smp20",
-            "Smp21",
-            "Smp22",
-            "Smp23",
-            "Smp24"
          ]
       }
-   },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>FantasyBaseball</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Selection Times in a Fantasy Baseball Draft</h2>\n<h3>Description</h3>\n<p>Draft selection times for a fantasy baseball league\n</p>\n<h3>Format</h3>\n<p>A data frame with 24 observations on the following 9 variables.\n</p>\n<table>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Round</code> </td><td style=\"text-align: left;\"> Round of the draft (1 to 24)</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>DJ</code> </td><td style=\"text-align: left;\"> Draft time (in seconds) for D.J.</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>AR</code> </td><td style=\"text-align: left;\"> Draft time (in seconds) for A.R.</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>BK</code> </td><td style=\"text-align: left;\"> Draft time (in seconds) for B.K.</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>JW</code> </td><td style=\"text-align: left;\"> Draft time (in seconds) for J.W.</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>TS</code> </td><td style=\"text-align: left;\"> Draft time (in seconds) for T.S.</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>RL</code> </td><td style=\"text-align: left;\"> Draft time (in seconds) for R.L.</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>DR</code> </td><td style=\"text-align: left;\"> Draft time (in seconds) for D.R.</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>MF</code> </td><td style=\"text-align: left;\"> Draft time (in seconds) for M.F.</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n  </td>\n</tr>\n</table>\n<h3>Details</h3>\n<p>Time (in seconds) for participants in a draft for a fantasy baseball league to make a selection at each round.\n</p>\n<h3>Source</h3>\n<p>Mathematical Science Baseball League historical records (online).\n</p>\n</main>\n</div>\n",
-   "config" : {
-      "subtitle" : "Stat2Data - FantasyBaseball",
-      "graphType" : "Heatmap",
-      "title" : "Selection Times in a Fantasy Baseball Draft"
    }
 }

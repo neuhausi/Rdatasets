@@ -1,3 +1,17 @@
+var murdersInfo ={
+   "description" : "Description\nPopulation, percent in poverty, percent unemployment, and murder rate.",
+   "usage" : "murders",
+   "parameters" : {
+      "population" : "Population.",
+      "annual_murders_per_mil" : "Number of murders per year per million\npeople.",
+      "perc_unemp" : "Percent unemployed.",
+      "perc_pov" : "Percent in poverty."
+   },
+   "format" : "A data frame with 20 metropolitan areas on the following 4\nvariables.",
+   "reference" : "We do not have provenance for these data hence recommend not using\nthem for analysis.",
+   "title" : "Data for 20 metropolitan areas"
+}
+
 var murders = [
    [
       "population",

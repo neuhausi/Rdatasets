@@ -1,3 +1,16 @@
+var SkyeInfo ={
+   "reference" : "R. N. Thompson, J. Esson and A. C. Duncan (1972)\nMajor element chemical variation in the Eocene lavas of the Isle of\nSkye. J. Petrology, 13, 219&ndash;253.",
+   "title" : "AFM Compositions of Aphyric Skye Lavas",
+   "format" : "This data frame contains the following columns:",
+   "parameters" : {
+      "M" : "Percentage of magnesium oxide.",
+      "A" : "Percentage of sodium and potassium oxides.",
+      "F" : "Percentage of iron oxide."
+   },
+   "usage" : "Skye",
+   "description" : "Description\nThe Skye data frame has 23 rows and 3 columns."
+}
+
 var Skye = [
    [
       "A",

@@ -1,3 +1,23 @@
+var psid1Info ={
+   "usage" : "data(psid1)\n  data(nswpsid1)",
+   "description" : "Description\nThe cps1  (15992 rows) and psid1 (2490 rows)\ndatasets are from\nnon-experimental \"control\" groups, used in various studies of\nthe effect of a labor training program, alternative to the\nexperimental control group in nswdemo.\nThe cps2 (2369 rows) and cps3 (429 rows) subsets\nof cps1 are designed to \nbe better matched to the experimental data than cps1.\nLikewise, psid2 (253 rows) and psid3 (128 rows)\nare subsets of psid1 that are\ndesigned to be better matched to the experimental data than\npsid1.\nThe nswpsid1 dataset (2675 rows) combines the experimental\ntreatment group in nswdemo with the psid1 \ncontrol data from the Panel Study of Income Dynamics\n(PSID) study.",
+   "format" : "Columns are:",
+   "title" : "Labour Training Evaluation Data",
+   "reference" : "The cps1 and psid1 data sets are two non-experimental\n\"control\" groups, alternative to that in nswdemo, used in\ninvestigating whether use of such a non-experimental control group can\nbe satisfactory. cps2 and cps3 are subsets of cps1,\ndesigned to be better matched to the experimental data than cps1.\nSimilary psid2 and psid3 are subsets of psid1,\ndesigned to be better matched to the experimental data than\npsid1. nswpsid1 combines data for the experimental\ntreatment group in nswdemo with the psid1 control data\nfrom the Panel Study of Income Dynamics (PSID) study.",
+   "parameters" : {
+      "nodeg" : "(0 = completed high school, 1 = dropout).",
+      "re75" : "real earnings in 1975.",
+      "age" : "age (in years).",
+      "trt" : "a numeric vector \nidentifying the study in which the subjects were enrolled\n(0 = Control, 1 = treated).",
+      "hisp" : "(0 = not hispanic, 1 = hispanic).",
+      "educ" : "years of education.",
+      "marr" : "(0 = not married, 1 = married).",
+      "re78" : "real earnings in 1978.",
+      "black" : "(0 = not black, 1 = black).",
+      "re74" : "real earnings in 1974."
+   }
+}
+
 var psid1 = [
    [
       "trt",

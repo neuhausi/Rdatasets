@@ -1,22 +1,27 @@
 {
    "config" : {
-      "title" : "Gapminder color schemes.",
+      "colorBy" : "variable",
+      "graphType" : "Boxplot",
       "groupingFactors" : [
          "dat"
       ],
-      "colorBy" : "variable",
-      "graphType" : "Boxplot",
+      "title" : "Gapminder color schemes.",
       "segregateSamplesBy" : [
          null
       ],
       "subtitle" : "gapminder - continent_colors"
    },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>country_colors</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Gapminder color schemes.</h2>\n<h3>Description</h3>\n<p>Color schemes for the countries and continents in the Gapminder data.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>country_colors\n</code></pre>\n<h3>Format</h3>\n<p>Named character vectors giving country and continent colors:\n</p>\n<dl>\n<dt>country_colors</dt><dd><p>colors for the 142 countries</p>\n</dd>\n<dt>continent_colors</dt><dd><p>colors for the 5 continents</p>\n</dd>\n</dl>\n<h3>See Also</h3>\n<p><code>gapminder</code> for a description of the dataset\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'># ggplot2 examples are below these base graphics examples!\n# using country_colors with base graphics\n# for convenience, integrate the country colors into the data.frame\ngap_with_colors &lt;-\n  data.frame(gapminder,\n    cc = I(country_colors[match(\n      gapminder$country,\n      names(country_colors)\n# bubble plot, focus just on Africa and Europe in 2007\nkeepers &lt;- with(\n  gap_with_colors,\n  continent %in% c(\"Africa\", \"Europe\") &amp; year == 2007\nplot(lifeExp ~ gdpPercap, gap_with_colors,\n  subset = keepers, log = \"x\", pch = 21,\n  cex = sqrt(gap_with_colors$pop[keepers] / pi) / 1500,\n  bg = gap_with_colors$cc[keepers]\nif (require(ggplot2)) {\n  # with ggplot2, just provide country_colors to scale_color_manual():\n  # ... + scale_color_manual(values = country_colors) + ...\n  # simple line plot for 5 countries\n  h_countries &lt;- c(\"Egypt\", \"Haiti\", \"Romania\", \"Thailand\", \"Venezuela\")\n  h_dat &lt;- droplevels(subset(gapminder, country %in% h_countries))\n  h_dat$country &lt;- with(h_dat, reorder(country, lifeExp, max))\n  ggplot(h_dat, aes(x = year, y = lifeExp)) +\n    geom_line(aes(color = country)) +\n    scale_colour_manual(values = country_colors) +\n    guides(color = guide_legend(reverse = TRUE))\n  # spaghetti plot for lots of countries\n  ggplot(\n    subset(gapminder, continent != \"Oceania\"),\n    aes(x = year, y = lifeExp, group = country, color = country)\n    geom_line(lwd = 1, show_guide = FALSE) +\n    facet_wrap(~continent) +\n    scale_color_manual(values = country_colors) +\n    theme_bw() +\n    theme(strip.text = element_text(size = rel(1.1)))\n  # bubble plot for lots of countries\n  gap_bit &lt;- subset(gapminder, year == 2007 &amp; continent != \"Oceania\")\n  gap_bit &lt;- gap_bit[with(gap_bit, order(continent, -1 * pop)), ]\n  ggplot(gap_bit, aes(x = gdpPercap, y = lifeExp, size = pop)) +\n    scale_x_log10(limits = c(150, 115000)) +\n    ylim(c(16, 96)) +\n    geom_point(pch = 21, color = \"grey20\", show_guide = FALSE) +\n    scale_size_area(max_size = 40) +\n    facet_wrap(~continent) +\n    coord_fixed(ratio = 1 / 43) +\n    aes(fill = country) +\n    scale_fill_manual(values = country_colors) +\n    theme_bw() +\n    theme(strip.text = element_text(size = rel(1.1)))\n</code></pre>\n</main>\n</div>\n",
    "data" : {
+      "x" : {
+         "dat" : [
+            "#7F3B08",
+            "#A50026",
+            "#40004B",
+            "#276419",
+            "#313695"
+         ]
+      },
       "y" : {
-         "vars" : [
-            "Row"
-         ],
          "data" : [
             [
                1,
@@ -26,6 +31,9 @@
                5
             ]
          ],
+         "vars" : [
+            "Row"
+         ],
          "smps" : [
             "Africa",
             "Americas",
@@ -33,15 +41,7 @@
             "Europe",
             "Oceania"
          ]
-      },
-      "x" : {
-         "dat" : [
-            "#7F3B08",
-            "#A50026",
-            "#40004B",
-            "#276419",
-            "#313695"
-         ]
       }
-   }
+   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>country_colors</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Gapminder color schemes.</h2>\n<h3>Description</h3>\n<p>Color schemes for the countries and continents in the Gapminder data.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>country_colors\n</code></pre>\n<h3>Format</h3>\n<p>Named character vectors giving country and continent colors:\n</p>\n<dl>\n<dt>country_colors</dt><dd><p>colors for the 142 countries</p>\n</dd>\n<dt>continent_colors</dt><dd><p>colors for the 5 continents</p>\n</dd>\n</dl>\n<h3>See Also</h3>\n<p><code>gapminder</code> for a description of the dataset\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'># ggplot2 examples are below these base graphics examples!\n# using country_colors with base graphics\n# for convenience, integrate the country colors into the data.frame\ngap_with_colors &lt;-\n  data.frame(gapminder,\n    cc = I(country_colors[match(\n      gapminder$country,\n      names(country_colors)\n# bubble plot, focus just on Africa and Europe in 2007\nkeepers &lt;- with(\n  gap_with_colors,\n  continent %in% c(\"Africa\", \"Europe\") &amp; year == 2007\nplot(lifeExp ~ gdpPercap, gap_with_colors,\n  subset = keepers, log = \"x\", pch = 21,\n  cex = sqrt(gap_with_colors$pop[keepers] / pi) / 1500,\n  bg = gap_with_colors$cc[keepers]\nif (require(ggplot2)) {\n  # with ggplot2, just provide country_colors to scale_color_manual():\n  # ... + scale_color_manual(values = country_colors) + ...\n  # simple line plot for 5 countries\n  h_countries &lt;- c(\"Egypt\", \"Haiti\", \"Romania\", \"Thailand\", \"Venezuela\")\n  h_dat &lt;- droplevels(subset(gapminder, country %in% h_countries))\n  h_dat$country &lt;- with(h_dat, reorder(country, lifeExp, max))\n  ggplot(h_dat, aes(x = year, y = lifeExp)) +\n    geom_line(aes(color = country)) +\n    scale_colour_manual(values = country_colors) +\n    guides(color = guide_legend(reverse = TRUE))\n  # spaghetti plot for lots of countries\n  ggplot(\n    subset(gapminder, continent != \"Oceania\"),\n    aes(x = year, y = lifeExp, group = country, color = country)\n    geom_line(lwd = 1, show_guide = FALSE) +\n    facet_wrap(~continent) +\n    scale_color_manual(values = country_colors) +\n    theme_bw() +\n    theme(strip.text = element_text(size = rel(1.1)))\n  # bubble plot for lots of countries\n  gap_bit &lt;- subset(gapminder, year == 2007 &amp; continent != \"Oceania\")\n  gap_bit &lt;- gap_bit[with(gap_bit, order(continent, -1 * pop)), ]\n  ggplot(gap_bit, aes(x = gdpPercap, y = lifeExp, size = pop)) +\n    scale_x_log10(limits = c(150, 115000)) +\n    ylim(c(16, 96)) +\n    geom_point(pch = 21, color = \"grey20\", show_guide = FALSE) +\n    scale_size_area(max_size = 40) +\n    facet_wrap(~continent) +\n    coord_fixed(ratio = 1 / 43) +\n    aes(fill = country) +\n    scale_fill_manual(values = country_colors) +\n    theme_bw() +\n    theme(strip.text = element_text(size = rel(1.1)))\n</code></pre>\n</main>\n</div>\n"
 }

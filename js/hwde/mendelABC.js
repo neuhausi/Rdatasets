@@ -1,3 +1,17 @@
+var mendelABCInfo ={
+   "description" : "Description\nThe mendel3 data frame has 27 rows and 4 columns. Data are\nfrom Mendel (1886), and are reproduced in Fisher (1936) and Weir (1996).",
+   "usage" : "data(mendelABC)",
+   "parameters" : {
+      "coatcolor" : "Factor with levels:\nCC, Cc and cc",
+      "cotylcolor" : "Factor with levels: \nBB, Bb and bb",
+      "seedshape" : "Factor with levels:\nAA, Aa and aa",
+      "Observed" : "a numeric vector that holds the frequencies."
+   },
+   "title" : "Mendel's F2 trifactorial data for seed shape (A: round or wrinkled), \ncotyledon color (B: albumen yellow or green), and seed coat color \n(C: grey-brown or white)",
+   "format" : "This data frame contains the following columns:",
+   "reference" : "The data are reviewed in detail in Fisher (1936).  For a brief\ndiscussion, and references to work that revisits Fisher's\nconclusions, see Weir (1996)."
+}
+
 var mendelABC = [
    [
       "seedshape",

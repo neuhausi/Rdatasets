@@ -1,3 +1,20 @@
+var ArbuthnotInfo ={
+   "usage" : "data(Arbuthnot)",
+   "description" : "Description\nJohn Arbuthnot (1710) used these time series data on the ratios of\nmale to female christenings in London from 1629-1710 to carry out the first known\nsignificance test, comparing observed data to a null hypothesis.\nThe data for these 81 years showed that in every year there were\nmore male than female christenings.\nOn the assumption that male and female births were equally likely,\nhe showed that the probability of observing 82 years with more\nmales than females was vanishingly small (~ 4.14 x 10^{-25}).\nHe used this to argue that a nearly constant birth ratio > 1\ncould be interpreted to show the guiding hand of a devine being.\nThe data set adds variables of deaths from the plague and total\nmortality obtained by Campbell and from Creighton (1965).",
+   "reference" : "Sandy Zabell (1976) pointed out several errors and inconsistencies in the\nArbuthnot data.  In particular, the values for 1674 and 1704 are identical,\nsuggesting that the latter were copied erroneously from the former.",
+   "title" : "Arbuthnot's data on male and female birth ratios in London from 1629-1710.",
+   "format" : "A data frame with 82 observations on the following 7 variables.",
+   "parameters" : {
+      "Ratio" : "a numeric vector, ratio of Males/Females",
+      "Total" : "a numeric vector, total christenings in London (000s)",
+      "Males" : "a numeric vector, number of male christenings",
+      "Year" : "a numeric vector, 1629-1710",
+      "Mortality" : "a numeric vector, total mortality",
+      "Plague" : "a numeric vector, number of deaths from plague",
+      "Females" : "a numeric vector, number of female christenings"
+   }
+}
+
 var Arbuthnot = [
    [
       "Year",

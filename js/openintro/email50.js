@@ -1,3 +1,34 @@
+var email50Info ={
+   "reference" : "David Diez's Gmail Account, early months of 2012. All personally identifiable information has been removed.",
+   "format" : "A data frame with 50 observations on the following 21 variables.",
+   "title" : "Sample of 50 emails",
+   "parameters" : {
+      "viagra" : "The number of times &ldquo;viagra&rdquo; appeared in the email.",
+      "urgent_subj" : "Whether the word &ldquo;urgent&rdquo; was in the email subject.",
+      "image" : "The number of images attached.",
+      "exclaim_mess" : "The number of exclamation points in the email message.",
+      "number" : "Factor variable saying whether there was no number, a small number (under 1 million), or a big number.",
+      "inherit" : "The number of times &ldquo;inherit&rdquo; (or an extension, such as &ldquo;inheritance&rdquo;) appeared in the email.",
+      "from" : "Whether the message was listed as from anyone (this is usually set by default for regular outgoing email).",
+      "sent_email" : "Indicator for whether the sender had been sent an email in the last 30 days.",
+      "spam" : "Indicator for whether the email was spam.",
+      "num_char" : "The number of characters in the email, in thousands.",
+      "dollar" : "The number of times a dollar sign or the word &ldquo;dollar&rdquo; appeared in the email.",
+      "re_subj" : "Whether the subject started with &ldquo;Re:&rdquo;, &ldquo;RE:&rdquo;, &ldquo;re:&rdquo;, or &ldquo;rE:&rdquo;",
+      "line_breaks" : "The number of line breaks in the email (does not count text wrapping).",
+      "exclaim_subj" : "Whether there was an exclamation point in the subject.",
+      "cc" : "Number of people cc'ed.",
+      "winner" : "Indicates whether &ldquo;winner&rdquo; appeared in the email.",
+      "to_multiple" : "Indicator for whether the email was addressed to more than one recipient.",
+      "format" : "Indicates whether the email was written using HTML (e.g. may have included bolding or active links).",
+      "attach" : "The number of attached files.",
+      "password" : "The number of times &ldquo;password&rdquo; appeared in the email.",
+      "time" : "Time at which email was sent."
+   },
+   "usage" : "email50",
+   "description" : "Description\nThis is a subsample of the email dataset."
+}
+
 var email50 = [
    [
       "spam",

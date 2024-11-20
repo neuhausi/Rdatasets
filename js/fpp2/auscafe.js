@@ -1,3 +1,10 @@
+var auscafeInfo ={
+   "usage" : "Monthly time series of class ts.",
+   "format" : "Australian Bureau of Statistics. Catalogue No. 8501.0",
+   "title" : "Monthly expenditure on eating out in Australia",
+   "description" : "Description\nThe total monthly expenditure on cafes, restaurants and takeaway food\nservices in Australia ($billion). April 1982 - September 2017."
+}
+
 var auscafe = [
    [
       "time",

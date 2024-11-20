@@ -1,3 +1,10 @@
+var gasolineInfo ={
+   "description" : "Description\nWeekly data beginning 2 February 1991, ending 20 January 2017. Units are\n\"million barrels per day\".",
+   "format" : "US Energy Information Administration.",
+   "title" : "US finished motor gasoline product supplied.",
+   "usage" : "Time series object of class ts."
+}
+
 var gasoline = [
    [
       "time",

@@ -1,3 +1,16 @@
+var avocadoInfo ={
+   "usage" : "avocado",
+   "description" : "Description\nThis data set includes information on the average price and total amount of avocados sold across 169 weeks from 2015 to 2018. This data covers only sales of 'conventional' avocados that take place in California.",
+   "format" : "A data frame with 169 rows and 3 variables:",
+   "title" : "Data on avocado sales",
+   "reference" : "This data was used in the Identification chapter of The Effect by Huntington-Klein",
+   "parameters" : {
+      "Date" : "Date of observation",
+      "AveragePrice" : "Average avocado price",
+      "TotalVolume" : "Total volume of avocados sold"
+   }
+}
+
 var avocado = [
    [
       "Date",

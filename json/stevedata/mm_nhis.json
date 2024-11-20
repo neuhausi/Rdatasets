@@ -1,23 +1,7 @@
 {
-   "config" : {
-      "subtitle" : "stevedata - mm_nhis",
-      "graphType" : "Heatmap",
-      "title" : "Data from the 2009 National Health Interview Survey (NHIS)"
-   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>mm_nhis</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Data from the 2009 National Health Interview Survey (NHIS)</h2>\n<h3>Description</h3>\n<p>These are data from the 2009 NHIS survey. People who have read\n<em>Mastering 'Metrics</em> should recognize these data. They're\nfeatured prominently in that book and the authors' discussion of\nrandom assignment and experiments.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>mm_nhis\n</code></pre>\n<h3>Format</h3>\n<p>A data frame with 18790 observations on the following 10 variables.\n</p>\n<dl>\n<dt><code>fml</code></dt><dd><p>is the respondent a woman?</p>\n</dd>\n<dt><code>hi</code></dt><dd><p>a numeric vector for whether respondent has at least some health insurance</p>\n</dd>\n<dt><code>hlth</code></dt><dd><p>a numeric vector for a health index, broadly understood</p>\n</dd>\n<dt><code>nwhite</code></dt><dd><p>is the respondent not white?</p>\n</dd>\n<dt><code>age</code></dt><dd><p>the respondent's age in years</p>\n</dd>\n<dt><code>yedu</code></dt><dd><p>the respondent's total years of education</p>\n</dd>\n<dt><code>famsize</code></dt><dd><p>the size of the respondent's family</p>\n</dd>\n<dt><code>empl</code></dt><dd><p>is the respondent employed</p>\n</dd>\n<dt><code>inc</code></dt><dd><p>the respondent's household/family income</p>\n</dd>\n<dt><code>perweight</code></dt><dd><p>a numeric vector for weight</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>Data are already cleaned in a way that facilitates an easy\nreplication of Table 1.1 in <em>Mastering 'Metrics</em>. Check\nthe book's website for more information.\n</p>\n<h3>Source</h3>\n<p>National Health Interview Survey (2009).\n</p>\n</main>\n</div>\n",
    "data" : {
       "y" : {
-         "vars" : [
-            "fml",
-            "hi",
-            "hlth",
-            "nwhite",
-            "age",
-            "yedu",
-            "famsize",
-            "empl",
-            "inc",
-            "perweight"
-         ],
          "smps" : [
             "Smp1",
             "Smp2",
@@ -18809,6 +18793,18 @@
             "Smp18788",
             "Smp18789",
             "Smp18790"
+         ],
+         "vars" : [
+            "fml",
+            "hi",
+            "hlth",
+            "nwhite",
+            "age",
+            "yedu",
+            "famsize",
+            "empl",
+            "inc",
+            "perweight"
          ],
          "data" : [
             [
@@ -206734,5 +206730,9 @@
          ]
       }
    },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>mm_nhis</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Data from the 2009 National Health Interview Survey (NHIS)</h2>\n<h3>Description</h3>\n<p>These are data from the 2009 NHIS survey. People who have read\n<em>Mastering 'Metrics</em> should recognize these data. They're\nfeatured prominently in that book and the authors' discussion of\nrandom assignment and experiments.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>mm_nhis\n</code></pre>\n<h3>Format</h3>\n<p>A data frame with 18790 observations on the following 10 variables.\n</p>\n<dl>\n<dt><code>fml</code></dt><dd><p>is the respondent a woman?</p>\n</dd>\n<dt><code>hi</code></dt><dd><p>a numeric vector for whether respondent has at least some health insurance</p>\n</dd>\n<dt><code>hlth</code></dt><dd><p>a numeric vector for a health index, broadly understood</p>\n</dd>\n<dt><code>nwhite</code></dt><dd><p>is the respondent not white?</p>\n</dd>\n<dt><code>age</code></dt><dd><p>the respondent's age in years</p>\n</dd>\n<dt><code>yedu</code></dt><dd><p>the respondent's total years of education</p>\n</dd>\n<dt><code>famsize</code></dt><dd><p>the size of the respondent's family</p>\n</dd>\n<dt><code>empl</code></dt><dd><p>is the respondent employed</p>\n</dd>\n<dt><code>inc</code></dt><dd><p>the respondent's household/family income</p>\n</dd>\n<dt><code>perweight</code></dt><dd><p>a numeric vector for weight</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>Data are already cleaned in a way that facilitates an easy\nreplication of Table 1.1 in <em>Mastering 'Metrics</em>. Check\nthe book's website for more information.\n</p>\n<h3>Source</h3>\n<p>National Health Interview Survey (2009).\n</p>\n</main>\n</div>\n"
+   "config" : {
+      "title" : "Data from the 2009 National Health Interview Survey (NHIS)",
+      "graphType" : "Heatmap",
+      "subtitle" : "stevedata - mm_nhis"
+   }
 }

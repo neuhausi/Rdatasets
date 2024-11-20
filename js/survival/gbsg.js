@@ -1,3 +1,24 @@
+var gbsgInfo ={
+   "usage" : "gbsg\ndata(cancer, package=\"survival\")",
+   "description" : "Description\nThe gbsg data set contains patient records from a 1984-1989 trial \nconducted by the German Breast Cancer Study Group (GBSG) of 720 patients\nwith node positive breast cancer; it retains the 686 patients with \ncomplete data for the prognostic variables.",
+   "title" : "Breast cancer data sets used in Royston and Altman (2013)",
+   "format" : "A data set with 686 observations and 11 variables.",
+   "reference" : "These data sets are used in the paper by Royston and Altman.\nThe Rotterdam data is used to create a fitted model, and the GBSG data for \nvalidation of the model.  The paper gives references for the data source.",
+   "parameters" : {
+      "meno" : "menopausal status (0= premenopausal, 1= postmenopausal)",
+      "hormon" : "hormonal therapy, 0= no, 1= yes",
+      "status" : "0= alive without recurrence, 1= recurrence or\ndeath",
+      "er" : "estrogen receptors (fmol/l)",
+      "pgr" : "progesterone receptors (fmol/l)",
+      "grade" : "tumor grade",
+      "age" : "age, years",
+      "pid" : "patient identifier",
+      "size" : "tumor size, mm",
+      "rfstime" : "recurrence free survival time; days to first of reccurence, death or last follow-up",
+      "nodes" : "number of positive lymph nodes"
+   }
+}
+
 var gbsg = [
    [
       "pid",

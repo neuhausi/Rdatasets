@@ -1,3 +1,18 @@
+var InsuranceInfo ={
+   "parameters" : {
+      "Age" : "an ordered factor: the age of the insured in 4 groups labelled\n<25, 25&ndash;29, 30&ndash;35, >35.",
+      "Holders" : "numbers of policyholders.",
+      "Claims" : "numbers of claims",
+      "Group" : "an ordered factor: group of car with levels  <1 litre, 1&ndash;1.5 litre,\n1.5&ndash;2 litre, >2 litre.",
+      "District" : "factor: district of residence of policyholder (1 to 4): 4 is major cities."
+   },
+   "format" : "This data frame contains the following columns:",
+   "reference" : "L. A. Baxter, S. M. Coutts and G. A. F. Ross (1980) Applications of\nlinear models in motor insurance.\nProceedings of the 21st International Congress of Actuaries, Zurich\npp. 11&ndash;29.",
+   "title" : "Numbers of Car Insurance claims",
+   "description" : "Description\nThe data given in data frame Insurance consist of the\nnumbers of policyholders of an insurance company who were\nexposed to risk, and the numbers of car insurance claims made by\nthose policyholders in the third quarter of 1973.",
+   "usage" : "Insurance"
+}
+
 var Insurance = [
    [
       "District",

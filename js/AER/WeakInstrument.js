@@ -1,3 +1,16 @@
+var WeakInstrumentInfo ={
+   "title" : "Artificial Weak Instrument Data",
+   "reference" : "Online complements to Stock and Watson (2007).",
+   "format" : "A data frame containing 200 observations on 3 variables.",
+   "parameters" : {
+      "x" : "regressor variable.",
+      "y" : "dependent variable.",
+      "z" : "instrument variable."
+   },
+   "usage" : "data(\"WeakInstrument\")",
+   "description" : "Description\nArtificial data set to illustrate the problem of weak instruments."
+}
+
 var WeakInstrument = [
    [
       "y",

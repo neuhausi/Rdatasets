@@ -1,111 +1,5 @@
 {
-   "config" : {
-      "title" : "A toy example tibble for testing with gt: exibble",
-      "colorBy" : "currency",
-      "groupingFactors" : [
-         "fctr"
-      ],
-      "graphType" : "Dotplot",
-      "subtitle" : "gt - exibble",
-      "segregateSamplesBy" : [
-         "time",
-         "row"
-      ]
-   },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>exibble</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>A toy example tibble for testing with gt: exibble</h2>\n<h3>Description</h3>\n<p>This tibble contains data of a few different classes, which makes it\nwell-suited for quick experimentation with the functions in this package. It\ncontains only eight rows with numeric, character, and factor columns. The\nlast 4 rows contain <code>NA</code> values in the majority of this tibble's columns (1\nmissing value per column). The <code>date</code>, <code>time</code>, and <code>datetime</code> columns are\ncharacter-based dates/times in the familiar ISO 8601 format. The <code>row</code> and\n<code>group</code> columns provide for unique rownames and two groups (<code>grp_a</code> and\n<code>grp_b</code>) for experimenting with the <code>gt()</code> function's <code>rowname_col</code> and\n<code>groupname_col</code> arguments.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>exibble\n</code></pre>\n<h3>Format</h3>\n<p>A tibble with 8 rows and 9 variables:\n</p>\n<dl>\n<dt>num</dt><dd><p>A numeric column ordered with increasingly larger values.</p>\n</dd>\n<dt>char</dt><dd><p>A character column composed of names of fruits from <code>a</code> to <code>h</code>.</p>\n</dd>\n<dt>fctr</dt><dd><p>A factor column with numbers from <code>1</code> to <code>8</code>, written out.</p>\n</dd>\n<dt>date, time, datetime</dt><dd><p>Character columns with dates, times, and\ndatetimes.</p>\n</dd>\n<dt>currency</dt><dd><p>A numeric column that is useful for testing currency-based\nformatting.</p>\n</dd>\n<dt>row</dt><dd><p>A character column in the format <code>row_X</code> which can be useful for\ntesting with row labels in a table stub.</p>\n</dd>\n<dt>group</dt><dd><p>A character column with four <code>grp_a</code> values and four <code>grp_b</code>\nvalues which can be useful for testing tables that contain row groups.</p>\n</dd>\n</dl>\n<h3>Examples</h3>\n<p>Here is the entirety of the <code>exibble</code> table.\n</p>\n<div class=\"sourceCode r\"><pre>exibble\n#&gt; # A tibble: 8 x 9\n#&gt;           num char       fctr  date       time  datetime    currency row   group\n#&gt;         &lt;dbl&gt; &lt;chr&gt;      &lt;fct&gt; &lt;chr&gt;      &lt;chr&gt; &lt;chr&gt;          &lt;dbl&gt; &lt;chr&gt; &lt;chr&gt;\n#&gt; 1       0.111 apricot    one   2015-01-15 13:35 2018-01-01~    50.0  row_1 grp_a\n#&gt; 2       2.22  banana     two   2015-02-15 14:40 2018-02-02~    18.0  row_2 grp_a\n#&gt; 3      33.3   coconut    three 2015-03-15 15:45 2018-03-03~     1.39 row_3 grp_a\n#&gt; 4     444.    durian     four  2015-04-15 16:50 2018-04-04~ 65100    row_4 grp_a\n#&gt; 5    5550     &lt;NA&gt;       five  2015-05-15 17:55 2018-05-05~  1326.   row_5 grp_b\n#&gt; 6      NA     fig        six   2015-06-15 &lt;NA&gt;  2018-06-06~    13.3  row_6 grp_b\n#&gt; 7  777000     grapefruit seven &lt;NA&gt;       19:10 2018-07-07~    NA    row_7 grp_b\n#&gt; 8 8880000     honeydew   eight 2015-08-15 20:20 &lt;NA&gt;            0.44 row_8 grp_b\n</pre></div>\n<h3>Dataset ID and Badge</h3>\n<p>DATA-6\n</p>\n<div style=\"text-align:center;\"><img src=\"https://raw.githubusercontent.com/rstudio/gt/master/images/dataset_exibble.png\" alt=\"This image of that of a dataset badge.\" style=\"width:50%;padding-bottom:20px;\"></div>\n<h3>Dataset Introduced</h3>\n<p><code>v0.2.0.5</code> (March 31, 2020)\n</p>\n<h3>See Also</h3>\n<p>Other datasets: \n<code>constants</code>,\n<code>countrypops</code>,\n<code>films</code>,\n<code>gibraltar</code>,\n<code>gtcars</code>,\n<code>illness</code>,\n<code>metro</code>,\n<code>nuclides</code>,\n<code>peeps</code>,\n<code>photolysis</code>,\n<code>pizzaplace</code>,\n<code>reactions</code>,\n<code>rx_addv</code>,\n<code>rx_adsl</code>,\n<code>sp500</code>,\n<code>sza</code>,\n<code>towny</code>\n</p>\n</main>\n</div>\n",
    "data" : {
-      "x" : {
-         "fctr" : [
-            "one",
-            "two",
-            "three",
-            "four",
-            "five",
-            "six",
-            "seven",
-            "eight"
-         ],
-         "time" : [
-            "13:35",
-            "14:40",
-            "15:45",
-            "16:50",
-            "17:55",
-            "",
-            "19:10",
-            "20:20"
-         ],
-         "row" : [
-            "row_1",
-            "row_2",
-            "row_3",
-            "row_4",
-            "row_5",
-            "row_6",
-            "row_7",
-            "row_8"
-         ],
-         "currency" : [
-            "49.95",
-            "17.95",
-            "1.39",
-            "65100",
-            "1325.81",
-            "13.255",
-            "",
-            "0.44"
-         ],
-         "date" : [
-            "2015-01-15",
-            "2015-02-15",
-            "2015-03-15",
-            "2015-04-15",
-            "2015-05-15",
-            "2015-06-15",
-            "",
-            "2015-08-15"
-         ],
-         "char" : [
-            "apricot",
-            "banana",
-            "coconut",
-            "durian",
-            "",
-            "fig",
-            "grapefruit",
-            "honeydew"
-         ],
-         "datetime" : [
-            "2018-01-01 02:22",
-            "2018-02-02 14:33",
-            "2018-03-03 03:44",
-            "2018-04-04 15:55",
-            "2018-05-05 04:00",
-            "2018-06-06 16:11",
-            "2018-07-07 05:22",
-            ""
-         ],
-         "group" : [
-            "grp_a",
-            "grp_a",
-            "grp_a",
-            "grp_a",
-            "grp_b",
-            "grp_b",
-            "grp_b",
-            "grp_b"
-         ],
-         "num" : [
-            "0.1111",
-            "2.222",
-            "33.33",
-            "444.4",
-            "5550",
-            "",
-            "777000",
-            "8880000"
-         ]
-      },
       "y" : {
          "data" : [
             [
@@ -132,6 +26,112 @@
          "vars" : [
             "Row"
          ]
+      },
+      "x" : {
+         "time" : [
+            "13:35",
+            "14:40",
+            "15:45",
+            "16:50",
+            "17:55",
+            "",
+            "19:10",
+            "20:20"
+         ],
+         "currency" : [
+            "49.95",
+            "17.95",
+            "1.39",
+            "65100",
+            "1325.81",
+            "13.255",
+            "",
+            "0.44"
+         ],
+         "num" : [
+            "0.1111",
+            "2.222",
+            "33.33",
+            "444.4",
+            "5550",
+            "",
+            "777000",
+            "8880000"
+         ],
+         "date" : [
+            "2015-01-15",
+            "2015-02-15",
+            "2015-03-15",
+            "2015-04-15",
+            "2015-05-15",
+            "2015-06-15",
+            "",
+            "2015-08-15"
+         ],
+         "group" : [
+            "grp_a",
+            "grp_a",
+            "grp_a",
+            "grp_a",
+            "grp_b",
+            "grp_b",
+            "grp_b",
+            "grp_b"
+         ],
+         "datetime" : [
+            "2018-01-01 02:22",
+            "2018-02-02 14:33",
+            "2018-03-03 03:44",
+            "2018-04-04 15:55",
+            "2018-05-05 04:00",
+            "2018-06-06 16:11",
+            "2018-07-07 05:22",
+            ""
+         ],
+         "char" : [
+            "apricot",
+            "banana",
+            "coconut",
+            "durian",
+            "",
+            "fig",
+            "grapefruit",
+            "honeydew"
+         ],
+         "fctr" : [
+            "one",
+            "two",
+            "three",
+            "four",
+            "five",
+            "six",
+            "seven",
+            "eight"
+         ],
+         "row" : [
+            "row_1",
+            "row_2",
+            "row_3",
+            "row_4",
+            "row_5",
+            "row_6",
+            "row_7",
+            "row_8"
+         ]
       }
+   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>exibble</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>A toy example tibble for testing with gt: exibble</h2>\n<h3>Description</h3>\n<p>This tibble contains data of a few different classes, which makes it\nwell-suited for quick experimentation with the functions in this package. It\ncontains only eight rows with numeric, character, and factor columns. The\nlast 4 rows contain <code>NA</code> values in the majority of this tibble's columns (1\nmissing value per column). The <code>date</code>, <code>time</code>, and <code>datetime</code> columns are\ncharacter-based dates/times in the familiar ISO 8601 format. The <code>row</code> and\n<code>group</code> columns provide for unique rownames and two groups (<code>grp_a</code> and\n<code>grp_b</code>) for experimenting with the <code>gt()</code> function's <code>rowname_col</code> and\n<code>groupname_col</code> arguments.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>exibble\n</code></pre>\n<h3>Format</h3>\n<p>A tibble with 8 rows and 9 variables:\n</p>\n<dl>\n<dt>num</dt><dd><p>A numeric column ordered with increasingly larger values.</p>\n</dd>\n<dt>char</dt><dd><p>A character column composed of names of fruits from <code>a</code> to <code>h</code>.</p>\n</dd>\n<dt>fctr</dt><dd><p>A factor column with numbers from <code>1</code> to <code>8</code>, written out.</p>\n</dd>\n<dt>date, time, datetime</dt><dd><p>Character columns with dates, times, and\ndatetimes.</p>\n</dd>\n<dt>currency</dt><dd><p>A numeric column that is useful for testing currency-based\nformatting.</p>\n</dd>\n<dt>row</dt><dd><p>A character column in the format <code>row_X</code> which can be useful for\ntesting with row labels in a table stub.</p>\n</dd>\n<dt>group</dt><dd><p>A character column with four <code>grp_a</code> values and four <code>grp_b</code>\nvalues which can be useful for testing tables that contain row groups.</p>\n</dd>\n</dl>\n<h3>Examples</h3>\n<p>Here is the entirety of the <code>exibble</code> table.\n</p>\n<div class=\"sourceCode r\"><pre>exibble\n#&gt; # A tibble: 8 x 9\n#&gt;           num char       fctr  date       time  datetime    currency row   group\n#&gt;         &lt;dbl&gt; &lt;chr&gt;      &lt;fct&gt; &lt;chr&gt;      &lt;chr&gt; &lt;chr&gt;          &lt;dbl&gt; &lt;chr&gt; &lt;chr&gt;\n#&gt; 1       0.111 apricot    one   2015-01-15 13:35 2018-01-01~    50.0  row_1 grp_a\n#&gt; 2       2.22  banana     two   2015-02-15 14:40 2018-02-02~    18.0  row_2 grp_a\n#&gt; 3      33.3   coconut    three 2015-03-15 15:45 2018-03-03~     1.39 row_3 grp_a\n#&gt; 4     444.    durian     four  2015-04-15 16:50 2018-04-04~ 65100    row_4 grp_a\n#&gt; 5    5550     &lt;NA&gt;       five  2015-05-15 17:55 2018-05-05~  1326.   row_5 grp_b\n#&gt; 6      NA     fig        six   2015-06-15 &lt;NA&gt;  2018-06-06~    13.3  row_6 grp_b\n#&gt; 7  777000     grapefruit seven &lt;NA&gt;       19:10 2018-07-07~    NA    row_7 grp_b\n#&gt; 8 8880000     honeydew   eight 2015-08-15 20:20 &lt;NA&gt;            0.44 row_8 grp_b\n</pre></div>\n<h3>Dataset ID and Badge</h3>\n<p>DATA-6\n</p>\n<div style=\"text-align:center;\"><img src=\"https://raw.githubusercontent.com/rstudio/gt/master/images/dataset_exibble.png\" alt=\"This image of that of a dataset badge.\" style=\"width:50%;padding-bottom:20px;\"></div>\n<h3>Dataset Introduced</h3>\n<p><code>v0.2.0.5</code> (March 31, 2020)\n</p>\n<h3>See Also</h3>\n<p>Other datasets: \n<code>constants</code>,\n<code>countrypops</code>,\n<code>films</code>,\n<code>gibraltar</code>,\n<code>gtcars</code>,\n<code>illness</code>,\n<code>metro</code>,\n<code>nuclides</code>,\n<code>peeps</code>,\n<code>photolysis</code>,\n<code>pizzaplace</code>,\n<code>reactions</code>,\n<code>rx_addv</code>,\n<code>rx_adsl</code>,\n<code>sp500</code>,\n<code>sza</code>,\n<code>towny</code>\n</p>\n</main>\n</div>\n",
+   "config" : {
+      "subtitle" : "gt - exibble",
+      "segregateSamplesBy" : [
+         "currency",
+         "num"
+      ],
+      "title" : "A toy example tibble for testing with gt: exibble",
+      "groupingFactors" : [
+         "time"
+      ],
+      "graphType" : "Dotplot",
+      "colorBy" : "date"
    }
 }

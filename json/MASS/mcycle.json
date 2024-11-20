@@ -1,7 +1,15 @@
 {
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>mcycle</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>\nData from a Simulated Motorcycle Accident\n</h2>\n<h3>Description</h3>\n<p>A data frame giving a series of measurements of head acceleration\nin a simulated motorcycle accident, used to test crash helmets.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>mcycle\n</code></pre>\n<h3>Format</h3>\n<dl>\n<dt><code>times</code></dt><dd>\n<p>in milliseconds after impact.\n</p>\n</dd>\n<dt><code>accel</code></dt><dd>\n<p>in g.\n</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>Silverman, B. W. (1985) Some aspects of the spline smoothing approach to\nnon-parametric curve fitting.\n<em>Journal of the Royal Statistical Society series B</em> <b>47</b>, 1&ndash;52.\n</p>\n<h3>References</h3>\n<p>Venables, W. N. and Ripley, B. D. (2002)\n<em>Modern Applied Statistics with S-PLUS.</em> Fourth Edition. Springer.\n</p>\n</main>\n</div>\n",
+   "config" : {
+      "graphType" : "Scatter2D",
+      "title" : "Data from a Simulated Motorcycle Accident",
+      "subtitle" : "MASS - mcycle"
+   },
    "data" : {
       "y" : {
+         "smps" : [
+            "times",
+            "accel"
+         ],
          "vars" : [
             "Var1",
             "Var2",
@@ -670,16 +678,8 @@
                57.6,
                10.7
             ]
-         ],
-         "smps" : [
-            "times",
-            "accel"
          ]
       }
    },
-   "config" : {
-      "subtitle" : "MASS - mcycle",
-      "graphType" : "Scatter2D",
-      "title" : "Data from a Simulated Motorcycle Accident"
-   }
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>mcycle</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>\nData from a Simulated Motorcycle Accident\n</h2>\n<h3>Description</h3>\n<p>A data frame giving a series of measurements of head acceleration\nin a simulated motorcycle accident, used to test crash helmets.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>mcycle\n</code></pre>\n<h3>Format</h3>\n<dl>\n<dt><code>times</code></dt><dd>\n<p>in milliseconds after impact.\n</p>\n</dd>\n<dt><code>accel</code></dt><dd>\n<p>in g.\n</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>Silverman, B. W. (1985) Some aspects of the spline smoothing approach to\nnon-parametric curve fitting.\n<em>Journal of the Royal Statistical Society series B</em> <b>47</b>, 1&ndash;52.\n</p>\n<h3>References</h3>\n<p>Venables, W. N. and Ripley, B. D. (2002)\n<em>Modern Applied Statistics with S-PLUS.</em> Fourth Edition. Springer.\n</p>\n</main>\n</div>\n"
 }

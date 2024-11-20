@@ -1,3 +1,24 @@
+var mgus2Info ={
+   "usage" : "mgus2\ndata(cancer, package=\"survival\")",
+   "description" : "Description\nNatural history of 1341 sequential patients with monoclonal\ngammopathy of undetermined significance (MGUS).  This is a superset of\nthe mgus data, at a later point in the accrual process",
+   "title" : "Monoclonal gammopathy data",
+   "format" : "A data frame with 1384 observations on the following 10 variables.",
+   "reference" : "This is an extension of the study found in the mgus data set,\ncontaining enrollment through 1994 and follow-up through 1999.",
+   "parameters" : {
+      "id" : "subject identifier",
+      "futime" : "time until death or last contact, in months",
+      "age" : "age at diagnosis, in years",
+      "sex" : "a factor with levels F M",
+      "pstat" : "occurrence of PCM: 0=no, 1=yes",
+      "hgb" : "hemoglobin",
+      "mspike" : "size of the monoclonal serum splike",
+      "creat" : "creatinine",
+      "death" : "occurrence of death: 0=no, 1=yes",
+      "ptime" : "time until progression to a plasma cell\nmalignancy (PCM) or last contact, in months",
+      "dxyr" : "year of diagnosis"
+   }
+}
+
 var mgus2 = [
    [
       "id",

@@ -1,3 +1,15 @@
+var bcdeterInfo ={
+   "title" : "data from Section 1.18",
+   "reference" : "Klein and Moeschberger (1997) Survival Analysis Techniques for Censored\nand truncated data, Springer.\nBeadle et al Cancer 54 (1984):2911-2918.",
+   "usage" : "This data frame contains the following columns:",
+   "description" : "Description\nThe bcdeter data frame has 92 rows and 3 columns.",
+   "parameters" : {
+      "lower" : "Lower limit of interval, months",
+      "treat" : "Treatment regimen (1=radiotherapy only, 2=radiotherapy + chemotherapy)",
+      "upper" : "Upper limit of interval, months"
+   }
+}
+
 var bcdeter = [
    [
       "lower",

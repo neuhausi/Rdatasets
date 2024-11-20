@@ -1,3 +1,28 @@
+var polls_us_election_2016Info ={
+   "usage" : "polls_us_election_2016",
+   "description" : "Description\nPoll results from US 2016 presidential elections aggregated from HuffPost Pollster, RealClearPolitics, polling firms, and news reports. \nThe dataset also includes election results (popular vote) and electoral college votes in results_us_election_2016.",
+   "reference" : "The original csv file used to create polls_us_election_2016 is here: https://projects.fivethirtyeight.com/general-model/president_general_polls_2016.csv",
+   "title" : "Fivethirtyeight 2016 Poll Data",
+   "format" : "An object of class \"data.frame\".",
+   "parameters" : {
+      "startdate. Poll's start date." : null,
+      "adjpoll_johnson. Fivethirtyeight adjusted percentage for Gary Johnson" : null,
+      "adjpoll_mcmullin. Fivethirtyeight adjusted percentage for Evan McMullin." : null,
+      "adjpoll_clinton. Fivethirtyeight adjusted percentage for Hillary Clinton." : null,
+      "rawpoll_clinton. Percentage for Hillary Clinton." : null,
+      "pollster. Pollster conducting the poll." : null,
+      "rawpoll_mcmullin. Percentage for Evan McMullin." : null,
+      "ajdpoll_trump. Fivethirtyeight adjusted percentage for Donald Trump" : null,
+      "grade. Grade assigned by fivethirtyeight to pollster." : null,
+      "samplesize. Sample size." : null,
+      "rawpoll_johnson. Percentage for Gary Johnson" : null,
+      "population. Type of population being polled." : null,
+      "state. State in which poll was taken. 'U.S' is for national polls." : null,
+      "rawpoll_trump. Percentage for Donald Trump" : null,
+      "enddate. Poll's end date." : null
+   }
+}
+
 var polls_us_election_2016 = [
    [
       "state",

@@ -5,6 +5,29 @@
          "vars" : [
             "dat"
          ],
+         "smps" : [
+            "Smp1",
+            "Smp2",
+            "Smp3",
+            "Smp4",
+            "Smp5",
+            "Smp6",
+            "Smp7",
+            "Smp8",
+            "Smp9",
+            "Smp10",
+            "Smp11",
+            "Smp12",
+            "Smp13",
+            "Smp14",
+            "Smp15",
+            "Smp16",
+            "Smp17",
+            "Smp18",
+            "Smp19",
+            "Smp20",
+            "Smp21"
+         ],
          "data" : [
             [
                42,
@@ -29,35 +52,12 @@
                15,
                15
             ]
-         ],
-         "smps" : [
-            "Smp1",
-            "Smp2",
-            "Smp3",
-            "Smp4",
-            "Smp5",
-            "Smp6",
-            "Smp7",
-            "Smp8",
-            "Smp9",
-            "Smp10",
-            "Smp11",
-            "Smp12",
-            "Smp13",
-            "Smp14",
-            "Smp15",
-            "Smp16",
-            "Smp17",
-            "Smp18",
-            "Smp19",
-            "Smp20",
-            "Smp21"
          ]
       }
    },
    "config" : {
+      "title" : "Brownlee's Stack Loss Plant Data",
       "graphType" : "Treemap",
-      "subtitle" : "datasets - stack.loss",
-      "title" : "Brownlee's Stack Loss Plant Data"
+      "subtitle" : "datasets - stack.loss"
    }
 }

@@ -1,3 +1,36 @@
+var rentalInfo ={
+   "parameters" : {
+      "cltothsg" : " change in ltothsg",
+      "clenroll" : " change in lrent from 80 to 90",
+      "tothsg" : " occupied housing units",
+      "cpctstu" : " change in pctstu",
+      "lavginc" : " log(avginc)",
+      "lrnthsg" : " log(rnthsg)",
+      "clavginc" : " change in lavginc",
+      "ltothsg" : " log(tothsg)",
+      "city" : " city label, 1 to 64",
+      "pop" : " city population",
+      "y90" : " =1 if year == 90",
+      "clpop" : " change in lpop",
+      "rnthsg" : " renter occupied units",
+      "lenroll" : " log(enroll)",
+      "lrent" : " log(rent)",
+      "enroll" : " # college students enrolled",
+      "avginc" : " per capita income",
+      "pctstu" : " percent of population students",
+      "clrent" : " change in lrent",
+      "rent" : " average rent",
+      "clrnthsg" : " change in lrnthsg",
+      "year" : " 80 or 90",
+      "lpop" : " log(pop)"
+   },
+   "reference" : "These data can be used in a somewhat crude simultaneous equations analysis, either focusing on one year or pooling the two years. (In the latter case, in an advanced class, you might have students compute the standard errors robust to serial correlation across the two time periods.) The demand equation would have ltothsg as a function of lrent, lavginc, and lpop. The supply equation would have ltothsg as a function of lrent, pctst, and lpop. Thus, in estimating the demand function, pctstu is used as an IV for lrent. Clearly one can quibble with excluding pctstu from the demand equation, but the estimated demand function gives a negative price effect. Getting information for 2000, and adding many more college towns, would make for a much better analysis. Information on number of spaces in on-campus dormitories would be a big improvement, too.",
+   "format" : "A data.frame with 128 observations on 23 variables:",
+   "title" : "rental",
+   "description" : "Description\nWooldridge Source: David Harvey, a former MSU undergraduate, collected the data for 64 âcollege townsâ from the 1980 and 1990 United States censuses. Data loads lazily.",
+   "usage" : "data('rental')"
+}
+
 var rental = [
    [
       "city",

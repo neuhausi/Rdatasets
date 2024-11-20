@@ -1,3 +1,30 @@
+var RetSchoolInfo ={
+   "description" : "Description\na panel of 48 observations  from 1970   to 1986\nnumber of observations :  5225\nobservation :  individuals\ncountry :  United States",
+   "usage" : "data(RetSchool)",
+   "parameters" : {
+      "smsa76" : "lived in SMSA in 1976 ?",
+      "black" : "black ?",
+      "nomomed" : "mother has no formal education ?",
+      "grade76" : "grade level in 1976",
+      "region" : "region, a factor with levels (un,\nmidatl, enc, wnc,\nsa, esc, wsc, \nm, p)",
+      "famed" : "father's and mother's education, a factor with 9 levels",
+      "age76" : "age in 1976",
+      "exp76" : "experience 1n 1976",
+      "smsa66" : "lived in SMSA in 1966 ?",
+      "daded" : "mean grade level of father",
+      "sinmom14" : "lived with mother only at age 14 ?",
+      "wage76" : "wage in 1876",
+      "col4" : "is any 4-year college nearby ?",
+      "momed" : "mean grade level of mother",
+      "momdad14" : "lived with both parents at age 14 ?",
+      "nodaded" : "father has no formal education ?",
+      "south76" : "lived in south in 1976 ?"
+   },
+   "title" : "Return to Schooling",
+   "reference" : "Kling, Jeffrey R. (2001) &ldquo;Interpreting Instrumental Variables Estimates of the Return to Schooling&rdquo;, Journal of Business and Economic Statistics, 19(3), July, 358&ndash;364.",
+   "format" : "A time series containing :"
+}
+
 var RetSchool = [
    [
       "wage76",

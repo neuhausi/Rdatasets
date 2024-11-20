@@ -1,3 +1,20 @@
+var sp500_1950_2018Info ={
+   "usage" : "sp500_1950_2018",
+   "description" : "Description\nData runs from 1950 to near the end of 2018.",
+   "format" : "A data frame with 17346 observations on the following 7 variables.",
+   "title" : "Daily observations for the S&P 500",
+   "reference" : "Yahoo! Finance",
+   "parameters" : {
+      "Adj.Close" : "Adjusted price at close after accounting for dividends paid out.",
+      "Open" : "Opening price.",
+      "Volume" : "Trading volume.",
+      "Date" : "Date of the form \"YYYY-MM-DD\".",
+      "High" : "Highest price of the day.",
+      "Low" : "Lowest price of the day.",
+      "Close" : "Closing price of the day."
+   }
+}
+
 var sp500_1950_2018 = [
    [
       "Date",

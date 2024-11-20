@@ -1,3 +1,10 @@
+var COLInfo ={
+   "description" : "Description\nThese are the core colors used for the OpenIntro Statistics textbook. The\nblue, green, yellow, and red colors are also gray-scaled, meaning no changes\nare required when printing black and white copies.",
+   "title" : "OpenIntro Statistics colors",
+   "format" : "A 7-by-13 matrix of 7 colors with thirteen fading scales: blue,\ngreen, yellow, red, black, gray, and light gray.",
+   "usage" : "COL"
+}
+
 var COL = [
    [
       "full",

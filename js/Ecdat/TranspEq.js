@@ -1,3 +1,18 @@
+var TranspEqInfo ={
+   "parameters" : {
+      "capital" : "capital input",
+      "va" : "output",
+      "nfirm" : "number of firms",
+      "labor" : "labor input",
+      "state" : "state name"
+   },
+   "title" : "Statewide Data on Transportation Equipment Manufacturing",
+   "format" : "A dataframe containing :",
+   "reference" : "Zellner, A.  and  N.  Revankar (1970) &ldquo;Generalized production functions&rdquo;, Review of Economic Studies, 37, 241-250.",
+   "description" : "Description\na cross-section\nnumber of observations :  25\nobservation :  regional\ncountry :  United States",
+   "usage" : "data(TranspEq)"
+}
+
 var TranspEq = [
    [
       "state",

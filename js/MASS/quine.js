@@ -1,3 +1,18 @@
+var quineInfo ={
+   "title" : "Absenteeism from School in Rural New South Wales",
+   "reference" : "S. Quine, quoted in Aitkin, M. (1978) The analysis of unbalanced cross\nclassifications (with discussion).\nJournal of the Royal Statistical Society series A 141, 195&ndash;223.",
+   "format" : "This data frame contains the following columns:",
+   "parameters" : {
+      "Age" : "age group: Primary (\"F0\"), or forms \"F1,\"\n\"F2\" or \"F3\".",
+      "Lrn" : "learner status: factor with levels Average or Slow learner, (\"AL\" or\n\"SL\").",
+      "Days" : "days absent from school in the year.",
+      "Sex" : "sex: factor with levels (\"F\" or \"M\").",
+      "Eth" : "ethnic background: Aboriginal or Not, (\"A\" or \"N\")."
+   },
+   "usage" : "quine",
+   "description" : "Description\nThe quine data frame has 146 rows and 5 columns.\nChildren from Walgett, New South Wales, Australia, were classified by\nCulture, Age, Sex and Learner status and the number of days absent from\nschool in a particular school year was recorded."
+}
+
 var quine = [
    [
       "Eth",

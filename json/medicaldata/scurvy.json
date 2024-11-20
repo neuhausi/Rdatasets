@@ -2,95 +2,18 @@
    "config" : {
       "subtitle" : "medicaldata - scurvy",
       "segregateSamplesBy" : [
-         "gum_rot_d6",
-         "fit_for_duty_d6"
+         "treatment",
+         "lassitude_d6"
       ],
-      "graphType" : "Dotplot",
-      "colorBy" : "skin_sores_d6",
+      "title" : "Randomized Trial of Six Therapies for Scurvy",
       "groupingFactors" : [
-         "dosing_regimen_for_scurvy"
+         "skin_sores_d6"
       ],
-      "title" : "Randomized Trial of Six Therapies for Scurvy"
+      "colorBy" : "dosing_regimen_for_scurvy",
+      "graphType" : "Dotplot"
    },
    "data" : {
-      "y" : {
-         "vars" : [
-            "study_id"
-         ],
-         "smps" : [
-            "Smp1",
-            "Smp2",
-            "Smp3",
-            "Smp4",
-            "Smp5",
-            "Smp6",
-            "Smp7",
-            "Smp8",
-            "Smp9",
-            "Smp10",
-            "Smp11",
-            "Smp12"
-         ],
-         "data" : [
-            [
-               1,
-               2,
-               3,
-               4,
-               5,
-               6,
-               7,
-               8,
-               9,
-               10,
-               11,
-               12
-            ]
-         ]
-      },
       "x" : {
-         "dosing_regimen_for_scurvy" : [
-            "1 quart per day",
-            "1 quart per day",
-            "25 drops of elixir of vitriol, three times a day",
-            "25 drops of elixir of vitriol, three times a day",
-            "two spoonfuls, three times daily",
-            "two spoonfuls, three times daily",
-            "half pint daily",
-            "half pint daily",
-            "two lemons and an orange daily",
-            "two lemons and an orange daily",
-            "a nutmeg-sized paste of garlic, mustard seed, horseradish, balsam of Peru, and gum myrrh three times a day",
-            "a nutmeg-sized paste of garlic, mustard seed, horseradish, balsam of Peru, and gum myrrh three times a day"
-         ],
-         "gum_rot_d6" : [
-            "2_moderate",
-            "2_moderate",
-            "1_mild",
-            "2_moderate",
-            "3_severe",
-            "3_severe",
-            "3_severe",
-            "3_severe",
-            "1_mild",
-            "0_none",
-            "3_severe",
-            "3_severe"
-         ],
-         "fit_for_duty_d6" : [
-            "0_no",
-            "0_no",
-            "0_no",
-            "0_no",
-            "0_no",
-            "0_no",
-            "0_no",
-            "0_no",
-            "0_no",
-            "1_yes",
-            "0_no",
-            "0_no"
-         ],
          "skin_sores_d6" : [
             "2_moderate",
             "1_mild",
@@ -119,20 +42,6 @@
             "purgative_mixture",
             "purgative_mixture"
          ],
-         "weakness_of_the_knees_d6" : [
-            "2_moderate",
-            "2_moderate",
-            "3_severe",
-            "3_severe",
-            "3_severe",
-            "3_severe",
-            "3_severe",
-            "3_severe",
-            "0_none",
-            "0_none",
-            "3_severe",
-            "3_severe"
-         ],
          "lassitude_d6" : [
             "2_moderate",
             "3_severe",
@@ -146,6 +55,97 @@
             "0_none",
             "3_severe",
             "3_severe"
+         ],
+         "dosing_regimen_for_scurvy" : [
+            "1 quart per day",
+            "1 quart per day",
+            "25 drops of elixir of vitriol, three times a day",
+            "25 drops of elixir of vitriol, three times a day",
+            "two spoonfuls, three times daily",
+            "two spoonfuls, three times daily",
+            "half pint daily",
+            "half pint daily",
+            "two lemons and an orange daily",
+            "two lemons and an orange daily",
+            "a nutmeg-sized paste of garlic, mustard seed, horseradish, balsam of Peru, and gum myrrh three times a day",
+            "a nutmeg-sized paste of garlic, mustard seed, horseradish, balsam of Peru, and gum myrrh three times a day"
+         ],
+         "fit_for_duty_d6" : [
+            "0_no",
+            "0_no",
+            "0_no",
+            "0_no",
+            "0_no",
+            "0_no",
+            "0_no",
+            "0_no",
+            "0_no",
+            "1_yes",
+            "0_no",
+            "0_no"
+         ],
+         "gum_rot_d6" : [
+            "2_moderate",
+            "2_moderate",
+            "1_mild",
+            "2_moderate",
+            "3_severe",
+            "3_severe",
+            "3_severe",
+            "3_severe",
+            "1_mild",
+            "0_none",
+            "3_severe",
+            "3_severe"
+         ],
+         "weakness_of_the_knees_d6" : [
+            "2_moderate",
+            "2_moderate",
+            "3_severe",
+            "3_severe",
+            "3_severe",
+            "3_severe",
+            "3_severe",
+            "3_severe",
+            "0_none",
+            "0_none",
+            "3_severe",
+            "3_severe"
+         ]
+      },
+      "y" : {
+         "data" : [
+            [
+               1,
+               2,
+               3,
+               4,
+               5,
+               6,
+               7,
+               8,
+               9,
+               10,
+               11,
+               12
+            ]
+         ],
+         "vars" : [
+            "study_id"
+         ],
+         "smps" : [
+            "Smp1",
+            "Smp2",
+            "Smp3",
+            "Smp4",
+            "Smp5",
+            "Smp6",
+            "Smp7",
+            "Smp8",
+            "Smp9",
+            "Smp10",
+            "Smp11",
+            "Smp12"
          ]
       }
    },

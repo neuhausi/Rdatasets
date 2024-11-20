@@ -1,3 +1,15 @@
+var toy_anovaInfo ={
+   "title" : "Simulated dataset for ANOVA",
+   "reference" : "toy_anova",
+   "format" : "A data frame with 70 observations on the following 3 variables.",
+   "parameters" : {
+      "outcome" : "a numeric vector",
+      "group" : "a factor with levels I II III"
+   },
+   "usage" : "toy_anova",
+   "description" : "Description\nSimulated dataset for getting a better understanding of intuition that\nANOVA is based off of."
+}
+
 var toy_anova = [
    [
       "group",

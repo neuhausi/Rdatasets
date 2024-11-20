@@ -1,3 +1,32 @@
+var Utilities2Info ={
+   "description" : "Description\nData from utility bills at a private residence.  This is an augmented version\nof Utilities.",
+   "usage" : "data(Utilities2)",
+   "parameters" : {
+      "therms" : "thermsPerDay * billingDays (Utilities2 only)",
+      "totalbillpday" : "total bill divided by billing days a\nnumeric vector (Utilities2 only)",
+      "totalbill" : "total bill (in dollars)",
+      "kwh" : "electricity usage (kwh)",
+      "notes" : "notes about the billing period",
+      "gasbillpday" : "gas bill divided by billing days (Utilities2 only)",
+      "temp" : "average temperature (F) for billing period",
+      "ccf" : "gas usage (ccf)",
+      "monthsSinceY2K" : "months since 2000 (Utilities2 only)",
+      "elecbill" : "electric bill (in dollars)",
+      "ccfpday" : "average gas usage per day (Utilities2 only)",
+      "billingDays" : "number of billing days in billing period",
+      "thermsPerDay" : "a numeric vector",
+      "elecbillpday" : "electric bill divided by billing days a numeric vector\n(Utilities2 only)",
+      "day" : "day of month on which bill was calculated",
+      "gasbill" : "gas bill (in dollars)",
+      "month" : "month (coded as a number)",
+      "year" : "year of bill",
+      "kwhpday" : "average electric usage per day (Utilities2 only)"
+   },
+   "title" : "Utility bills",
+   "format" : "A data frame containing 117 observations for the following variables.",
+   "reference" : "Daniel T. Kaplan, Statistical modeling: A fresh approach, 2009."
+}
+
 var Utilities2 = [
    [
       "month",

@@ -1,3 +1,10 @@
+var BJsalesInfo ={
+   "description" : "Description\nThe sales time series BJsales and leading indicator\nBJsales.lead each contain 150 observations.\nThe objects are of class \"ts\".",
+   "usage" : "BJsales\nBJsales.lead",
+   "title" : "Sales Data with Leading Indicator",
+   "format" : "The data are given in Box & Jenkins (1976).\nObtained from the Time Series Data Library at\nhttps://robjhyndman.com/TSDL/"
+}
+
 var BJsales = [
    [
       "time",

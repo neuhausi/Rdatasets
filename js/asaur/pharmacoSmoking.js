@@ -1,3 +1,27 @@
+var pharmacoSmokingInfo ={
+   "usage" : "data(\"pharmacoSmoking\")",
+   "description" : "Description\nRandomized trial of triple therapy vs. patch for smoking cessation.",
+   "reference" : "This data is from a clinical trial described in Steinberg et al. (2009)",
+   "format" : "A data frame with 125 observations on the following 14 variables.",
+   "title" : "pharmacoSmoking",
+   "parameters" : {
+      "yearsSmoking" : "Number of years the patient had been a smoker",
+      "ageGroup4" : "Age group with levels 21-34, 35-49, 50-64, or 65+",
+      "grp" : "Randomly assigned treatment group with levels combination or patchOnly",
+      "levelSmoking" : "heavy or light",
+      "employment" : "ft (full-time), pt (part-time), or other",
+      "ttr" : "Time in days until relapse",
+      "gender" : "Female or Male",
+      "age" : "Age in years at time of randomization",
+      "longestNoSmoke" : "The longest period of time, in days, that the patient has previously gone without smoking",
+      "ageGroup2" : "Age group with levels 21-49 or 50+",
+      "id" : "patient ID number",
+      "priorAttempts" : "The number of prior attempts to quit smoking",
+      "relapse" : "Indicator of relapse (return to smoking)",
+      "race" : "black, hispanic, white, or other"
+   }
+}
+
 var pharmacoSmoking = [
    [
       "id",

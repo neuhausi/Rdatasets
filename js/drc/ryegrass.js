@@ -1,3 +1,15 @@
+var ryegrassInfo ={
+   "usage" : "data(ryegrass)",
+   "description" : "Description\nA single dose-response curve.",
+   "title" : "Effect of ferulic acid on growth of ryegrass",
+   "format" : "A data frame with 24 observations on the following 2 variables.",
+   "reference" : "The data are part of a study to investigate the joint action\nof phenolic acids on root growth inhibition of perennial ryegrass (Lolium perenne L).",
+   "parameters" : {
+      "conc" : "a numeric vector of concentrations of ferulic acid",
+      "rootl" : "a numeric vector of root lengths"
+   }
+}
+
 var ryegrass = [
    [
       "rootl",

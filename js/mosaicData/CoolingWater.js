@@ -1,3 +1,15 @@
+var CoolingWaterInfo ={
+   "parameters" : {
+      "temp" : "temperature in Celsius",
+      "time" : "time in minutes"
+   },
+   "title" : "CoolingWater",
+   "reference" : "The water was poured into a mug and a temperature probe inserted into\nthe water with a few seconds of the pour.",
+   "format" : "A data frame with 222 observations of the following variables.",
+   "description" : "Description\nTemperature of a mug of water as it cools",
+   "usage" : "data(CoolingWater)"
+}
+
 var CoolingWater = [
    [
       "time",

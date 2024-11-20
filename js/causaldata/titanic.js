@@ -1,3 +1,17 @@
+var titanicInfo ={
+   "usage" : "titanic",
+   "description" : "Description\ntitanic comes from the sinking of the Titanic, and can be used to look at survival by different demographic characteristics.",
+   "title" : "Data from the sinking of the Titanic",
+   "format" : "A data frame with 4820 rows and 7 variables",
+   "reference" : "This data is used in the Matching and Subclassification chapter of Causal Inference: The Mixtape by Cunningham.",
+   "parameters" : {
+      "survived" : "Survived",
+      "sex" : "Gender",
+      "age" : "Age (Child vs. Adult)",
+      "class" : "class (ticket)"
+   }
+}
+
 var titanic = [
    [
       "class",

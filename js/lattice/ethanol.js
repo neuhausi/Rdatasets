@@ -1,3 +1,16 @@
+var ethanolInfo ={
+   "description" : "Description\nEthanol fuel was burned in a single-cylinder engine.  For various\nsettings of the engine compression and equivalence ratio, the\nemissions of nitrogen oxides were recorded.",
+   "usage" : "ethanol",
+   "parameters" : {
+      "C" : "Compression ratio of the engine.",
+      "NOx" : "Concentration of nitrogen oxides (NO and NO2) in\nmicrograms/J.",
+      "E" : "Equivalence ratio&ndash;a measure of the richness of the air and\nethanol fuel mixture."
+   },
+   "format" : "A data frame with 88 observations on the following 3 variables.",
+   "title" : "Engine exhaust fumes from burning ethanol",
+   "reference" : "Documentation contributed by Kevin Wright."
+}
+
 var ethanol = [
    [
       "NOx",

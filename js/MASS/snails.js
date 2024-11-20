@@ -1,3 +1,19 @@
+var snailsInfo ={
+   "usage" : "snails",
+   "description" : "Description\nGroups of 20 snails were held for periods of 1, 2, 3 or 4 weeks\nin carefully controlled conditions of temperature and relative\nhumidity.  There were two species of snail, A and B, and the\nexperiment was designed as a 4 by 3 by 4 by 2 completely randomized\ndesign.  At the end of the exposure time the snails were tested to see if\nthey had survived; the process itself is fatal for the animals.  The\nobject of the exercise was to model the probability of survival in terms of\nthe stimulus variables, and in particular to test for differences between\nspecies.\nThe data are unusual in that in most cases fatalities during the experiment\nwere fairly small.",
+   "format" : "The data frame contains the following components:",
+   "title" : "Snail Mortality Data",
+   "reference" : "Zoology Department, The University of Adelaide.",
+   "parameters" : {
+      "Deaths" : "number of deaths.",
+      "Rel.Hum" : "relative humidity (4 levels).",
+      "Exposure" : "exposure in weeks.",
+      "N" : "number of snails exposed.",
+      "Species" : "snail species A (1) or B (2).",
+      "Temp" : "temperature, in degrees Celsius (3 levels)."
+   }
+}
+
 var snails = [
    [
       "Species",

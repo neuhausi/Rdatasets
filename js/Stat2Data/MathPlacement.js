@@ -1,3 +1,9 @@
+var MathPlacementInfo ={
+   "title" : "Math Placement Exam Results",
+   "usage" : "A dataset with 2696 observations on the following 16 variables.",
+   "description" : "Description\nResults from a Math Placement exam at a liberal arts college"
+}
+
 var MathPlacement = [
    [
       "Student",

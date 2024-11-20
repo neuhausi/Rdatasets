@@ -1,3 +1,17 @@
+var RatPupWeightInfo ={
+   "usage" : "This data frame contains the following columns:",
+   "title" : "The weight of rat pups",
+   "reference" : "Pinheiro, J. C. and Bates, D. M. (2000), Mixed-Effects Models in S\nand S-PLUS, Springer, New York.",
+   "parameters" : {
+      "Litter" : "an ordered factor with levels\n9 < 8 < 7 < 4 < 2 < 10 < 1 < 3 < 5 < 6 < 21 < 22 < 24 < 27 < 26 < 25 < 23 < 17 < 11 < 14 < 13 < 15 < 16 < 20 < 19 < 18 < 12",
+      "Lsize" : "a numeric vector",
+      "Treatment" : "an ordered factor with levels\nControl < Low < High",
+      "weight" : "a numeric vector",
+      "sex" : "a factor with levels\nMale \nFemale"
+   },
+   "description" : "Description\nThe RatPupWeight data frame has 322 rows and 5 columns."
+}
+
 var RatPupWeight = [
    [
       "weight",

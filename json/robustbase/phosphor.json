@@ -1,37 +1,7 @@
 {
-   "config" : {
-      "title" : "Phosphorus Content Data",
-      "graphType" : "Scatter3D",
-      "subtitle" : "robustbase - phosphor"
-   },
    "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>phosphor</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Phosphorus Content Data</h2>\n<h3>Description</h3>\n<p>This dataset investigates the effect from inorganic and organic\nPhosphorus in the soil upon the phosphorus content of the corn grown\nin this soil, from Prescott (1975).\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(phosphor, package=\"robustbase\")</code></pre>\n<h3>Format</h3>\n<p>A data frame with 18 observations on the following 3 variables.\n</p>\n<dl>\n<dt><code>inorg</code></dt><dd><p>Inorganic soil Phosphorus</p>\n</dd>\n<dt><code>organic</code></dt><dd><p>Organic soil Phosphorus</p>\n</dd>\n<dt><code>plant</code></dt><dd><p>Plant Phosphorus content</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>P. J. Rousseeuw and A. M. Leroy (1987)\n<em>Robust Regression and Outlier Detection.</em> Wiley, p.156, table 24.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>data(phosphor)\nplot(phosphor)\nsummary(lm.phosphor &lt;- lm(plant ~ ., data = phosphor))\nsummary(lts.phosphor &lt;- ltsReg(plant ~ ., data = phosphor))\nphosphor.x &lt;- data.matrix(phosphor[, 1:2])\ncPh &lt;- covMcd(phosphor.x)\nplot(cPh, \"dd\")\n</code></pre>\n</main>\n</div>\n",
    "data" : {
       "y" : {
-         "vars" : [
-            "Var1",
-            "Var2",
-            "Var3",
-            "Var4",
-            "Var5",
-            "Var6",
-            "Var7",
-            "Var8",
-            "Var9",
-            "Var10",
-            "Var11",
-            "Var12",
-            "Var13",
-            "Var14",
-            "Var15",
-            "Var16",
-            "Var17",
-            "Var18"
-         ],
-         "smps" : [
-            "inorg",
-            "organic",
-            "plant"
-         ],
          "data" : [
             [
                0.4,
@@ -123,7 +93,37 @@
                51,
                99
             ]
+         ],
+         "smps" : [
+            "inorg",
+            "organic",
+            "plant"
+         ],
+         "vars" : [
+            "Var1",
+            "Var2",
+            "Var3",
+            "Var4",
+            "Var5",
+            "Var6",
+            "Var7",
+            "Var8",
+            "Var9",
+            "Var10",
+            "Var11",
+            "Var12",
+            "Var13",
+            "Var14",
+            "Var15",
+            "Var16",
+            "Var17",
+            "Var18"
          ]
       }
+   },
+   "config" : {
+      "subtitle" : "robustbase - phosphor",
+      "graphType" : "Scatter3D",
+      "title" : "Phosphorus Content Data"
    }
 }

@@ -1,74 +1,8 @@
 {
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>Friendly</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Format Effects on Recall</h2>\n<h3>Description</h3>\n<p>The <code>Friendly</code> data frame has 30 rows and 2 columns.\nThe data are from an experiment on subjects' ability to remember words\nbased on the presentation format.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>Friendly\n</code></pre>\n<h3>Format</h3>\n<p>This data frame contains the following columns:\n</p>\n<dl>\n<dt>condition</dt><dd>\n<p>A factor with levels:\n<code>Before</code>, Recalled words presented before others;\n<code>Meshed</code>, Recalled words meshed with others; \n<code>SFR</code>, Standard free recall.\n</p>\n</dd>\n<dt>correct</dt><dd>\n<p>Number of words correctly recalled, out of 40 on final trial of the experiment.\n</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>Friendly, M. and Franklin, P. (1980) \nInteractive presentation in multitrial free recall. \n<em>Memory and Cognition</em>\n<b>8</b> 265&ndash;270 [Personal communication from M. Friendly].\n</p>\n<h3>References</h3>\n<p>Fox, J. (2016)\n<em>Applied Regression Analysis and Generalized Linear Models</em>,\nThird Edition. Sage.  \n</p>\n<p>Fox, J. and Weisberg, S. (2019) \n<em>An R Companion to Applied Regression</em>, Third Edition, Sage.\n</p>\n</main>\n</div>\n",
    "data" : {
-      "x" : {
-         "condition" : [
-            "SFR",
-            "SFR",
-            "SFR",
-            "SFR",
-            "SFR",
-            "SFR",
-            "SFR",
-            "SFR",
-            "SFR",
-            "SFR",
-            "Before",
-            "Before",
-            "Before",
-            "Before",
-            "Before",
-            "Before",
-            "Before",
-            "Before",
-            "Before",
-            "Before",
-            "Meshed",
-            "Meshed",
-            "Meshed",
-            "Meshed",
-            "Meshed",
-            "Meshed",
-            "Meshed",
-            "Meshed",
-            "Meshed",
-            "Meshed"
-         ]
-      },
       "y" : {
-         "data" : [
-            [
-               39,
-               25,
-               37,
-               25,
-               29,
-               39,
-               21,
-               39,
-               24,
-               25,
-               40,
-               38,
-               39,
-               37,
-               39,
-               24,
-               30,
-               39,
-               40,
-               40,
-               40,
-               39,
-               34,
-               37,
-               40,
-               36,
-               36,
-               38,
-               36,
-               30
-            ]
+         "vars" : [
+            "correct"
          ],
          "smps" : [
             "Smp1",
@@ -102,18 +36,84 @@
             "Smp29",
             "Smp30"
          ],
-         "vars" : [
-            "correct"
+         "data" : [
+            [
+               39,
+               25,
+               37,
+               25,
+               29,
+               39,
+               21,
+               39,
+               24,
+               25,
+               40,
+               38,
+               39,
+               37,
+               39,
+               24,
+               30,
+               39,
+               40,
+               40,
+               40,
+               39,
+               34,
+               37,
+               40,
+               36,
+               36,
+               38,
+               36,
+               30
+            ]
+         ]
+      },
+      "x" : {
+         "condition" : [
+            "SFR",
+            "SFR",
+            "SFR",
+            "SFR",
+            "SFR",
+            "SFR",
+            "SFR",
+            "SFR",
+            "SFR",
+            "SFR",
+            "Before",
+            "Before",
+            "Before",
+            "Before",
+            "Before",
+            "Before",
+            "Before",
+            "Before",
+            "Before",
+            "Before",
+            "Meshed",
+            "Meshed",
+            "Meshed",
+            "Meshed",
+            "Meshed",
+            "Meshed",
+            "Meshed",
+            "Meshed",
+            "Meshed",
+            "Meshed"
          ]
       }
    },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>Friendly</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Format Effects on Recall</h2>\n<h3>Description</h3>\n<p>The <code>Friendly</code> data frame has 30 rows and 2 columns.\nThe data are from an experiment on subjects' ability to remember words\nbased on the presentation format.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>Friendly\n</code></pre>\n<h3>Format</h3>\n<p>This data frame contains the following columns:\n</p>\n<dl>\n<dt>condition</dt><dd>\n<p>A factor with levels:\n<code>Before</code>, Recalled words presented before others;\n<code>Meshed</code>, Recalled words meshed with others; \n<code>SFR</code>, Standard free recall.\n</p>\n</dd>\n<dt>correct</dt><dd>\n<p>Number of words correctly recalled, out of 40 on final trial of the experiment.\n</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>Friendly, M. and Franklin, P. (1980) \nInteractive presentation in multitrial free recall. \n<em>Memory and Cognition</em>\n<b>8</b> 265&ndash;270 [Personal communication from M. Friendly].\n</p>\n<h3>References</h3>\n<p>Fox, J. (2016)\n<em>Applied Regression Analysis and Generalized Linear Models</em>,\nThird Edition. Sage.  \n</p>\n<p>Fox, J. and Weisberg, S. (2019) \n<em>An R Companion to Applied Regression</em>, Third Edition, Sage.\n</p>\n</main>\n</div>\n",
    "config" : {
-      "subtitle" : "carData - Friendly",
-      "graphType" : "Boxplot",
       "groupingFactors" : [
          "condition"
       ],
+      "subtitle" : "carData - Friendly",
       "colorBy" : "variable",
-      "title" : "Format Effects on Recall"
+      "title" : "Format Effects on Recall",
+      "graphType" : "Boxplot"
    }
 }

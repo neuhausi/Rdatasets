@@ -4560,9 +4560,9 @@
       }
    },
    "config" : {
-      "title" : "School-level data",
       "scatterPlotMatrix" : 1,
-      "subtitle" : "mediation - school",
-      "graphType" : "Scatter2D"
+      "title" : "School-level data",
+      "graphType" : "Scatter2D",
+      "subtitle" : "mediation - school"
    }
 }

@@ -1,5 +1,16 @@
 {
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>RepVict</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Repeat Victimization Data</h2>\n<h3>Description</h3>\n<p>Data from Reiss (1980) given by Fienberg (1980) about instances of\nrepeat victimization for households in the U.S. National Crime\nSurvey.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(\"RepVict\")\n</code></pre>\n<h3>Format</h3>\n<p>A 2-dimensional array resulting from cross-tabulating victimization.\nThe variables and their levels are as follows:\n</p>\n<table>\n<tr>\n <td style=\"text-align: right;\">\n    No </td><td style=\"text-align: left;\"> Name </td><td style=\"text-align: left;\"> Levels </td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    1 </td><td style=\"text-align: left;\"> First Victimization </td><td style=\"text-align: left;\"> Rape, Assault, Robbery, Pickpocket,\n    Personal Larceny, </td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    </td><td style=\"text-align: left;\"> </td><td style=\"text-align: left;\"> Burglary, Household Larceny, Auto Theft </td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    2 </td><td style=\"text-align: left;\"> Second Victimization </td><td style=\"text-align: left;\"> Rape, Assault, Robbery, Pickpocket,\n    Personal Larceny,</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    </td><td style=\"text-align: left;\"> </td><td style=\"text-align: left;\"> Burglary, Household Larceny, Auto Theft\n  </td>\n</tr>\n</table>\n<h3>Source</h3>\n<p>Michael Friendly (2000),\nVisualizing Categorical Data, page 113.\n</p>\n<h3>References</h3>\n<p>S. E. Fienberg (1980),\n<em>The Analysis of Cross-Classified Categorical Data</em>,\nMIT Press, Cambridge, 2nd edition.\n</p>\n<p>A. J. J. Reiss (1980),\nVictim proneness by type of crime in repeat victimization.\nIn S. E. Fienberg &amp; A. J. J. Reiss (eds.),\n<em>Indicators of Crime and Criminal Justice</em>.\nU.S. Government Printing Office, Washington, DC.\n</p>\n<p>M. Friendly (2000),\n<em>Visualizing Categorical Data</em>.\nSAS Institute, Cary, NC.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>data(\"RepVict\")\nmosaic(RepVict[-c(4,7),-c(4,7)], gp = shading_max,\n       main = \"Repeat Victimization Data\")\n</code></pre>\n</main>\n</div>\n",
+   "config" : {
+      "groupingFactors" : [
+         "Second.Victimization"
+      ],
+      "colorBy" : "variable",
+      "graphType" : "Boxplot",
+      "subtitle" : "vcd - RepVict",
+      "segregateSamplesBy" : [
+         "First.Victimization"
+      ],
+      "title" : "Repeat Victimization Data"
+   },
    "data" : {
       "y" : {
          "smps" : [
@@ -68,6 +79,9 @@
             "Smp63",
             "Smp64"
          ],
+         "vars" : [
+            "Freq"
+         ],
          "data" : [
             [
                26,
@@ -135,78 +149,9 @@
                391,
                269
             ]
-         ],
-         "vars" : [
-            "Freq"
          ]
       },
       "x" : {
-         "First.Victimization" : [
-            "Rape",
-            "Assault",
-            "Robbery",
-            "Pickpocket",
-            "Personal Larcency",
-            "Burglary",
-            "Household Larceny",
-            "Auto Theft",
-            "Rape",
-            "Assault",
-            "Robbery",
-            "Pickpocket",
-            "Personal Larcency",
-            "Burglary",
-            "Household Larceny",
-            "Auto Theft",
-            "Rape",
-            "Assault",
-            "Robbery",
-            "Pickpocket",
-            "Personal Larcency",
-            "Burglary",
-            "Household Larceny",
-            "Auto Theft",
-            "Rape",
-            "Assault",
-            "Robbery",
-            "Pickpocket",
-            "Personal Larcency",
-            "Burglary",
-            "Household Larceny",
-            "Auto Theft",
-            "Rape",
-            "Assault",
-            "Robbery",
-            "Pickpocket",
-            "Personal Larcency",
-            "Burglary",
-            "Household Larceny",
-            "Auto Theft",
-            "Rape",
-            "Assault",
-            "Robbery",
-            "Pickpocket",
-            "Personal Larcency",
-            "Burglary",
-            "Household Larceny",
-            "Auto Theft",
-            "Rape",
-            "Assault",
-            "Robbery",
-            "Pickpocket",
-            "Personal Larcency",
-            "Burglary",
-            "Household Larceny",
-            "Auto Theft",
-            "Rape",
-            "Assault",
-            "Robbery",
-            "Pickpocket",
-            "Personal Larcency",
-            "Burglary",
-            "Household Larceny",
-            "Auto Theft"
-         ],
          "Second.Victimization" : [
             "Rape",
             "Rape",
@@ -272,19 +217,74 @@
             "Auto Theft",
             "Auto Theft",
             "Auto Theft"
+         ],
+         "First.Victimization" : [
+            "Rape",
+            "Assault",
+            "Robbery",
+            "Pickpocket",
+            "Personal Larcency",
+            "Burglary",
+            "Household Larceny",
+            "Auto Theft",
+            "Rape",
+            "Assault",
+            "Robbery",
+            "Pickpocket",
+            "Personal Larcency",
+            "Burglary",
+            "Household Larceny",
+            "Auto Theft",
+            "Rape",
+            "Assault",
+            "Robbery",
+            "Pickpocket",
+            "Personal Larcency",
+            "Burglary",
+            "Household Larceny",
+            "Auto Theft",
+            "Rape",
+            "Assault",
+            "Robbery",
+            "Pickpocket",
+            "Personal Larcency",
+            "Burglary",
+            "Household Larceny",
+            "Auto Theft",
+            "Rape",
+            "Assault",
+            "Robbery",
+            "Pickpocket",
+            "Personal Larcency",
+            "Burglary",
+            "Household Larceny",
+            "Auto Theft",
+            "Rape",
+            "Assault",
+            "Robbery",
+            "Pickpocket",
+            "Personal Larcency",
+            "Burglary",
+            "Household Larceny",
+            "Auto Theft",
+            "Rape",
+            "Assault",
+            "Robbery",
+            "Pickpocket",
+            "Personal Larcency",
+            "Burglary",
+            "Household Larceny",
+            "Auto Theft",
+            "Rape",
+            "Assault",
+            "Robbery",
+            "Pickpocket",
+            "Personal Larcency",
+            "Burglary",
+            "Household Larceny",
+            "Auto Theft"
          ]
       }
    },
-   "config" : {
-      "graphType" : "Boxplot",
-      "subtitle" : "vcd - RepVict",
-      "segregateSamplesBy" : [
-         "Second.Victimization"
-      ],
-      "title" : "Repeat Victimization Data",
-      "colorBy" : "variable",
-      "groupingFactors" : [
-         "First.Victimization"
-      ]
-   }
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>RepVict</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Repeat Victimization Data</h2>\n<h3>Description</h3>\n<p>Data from Reiss (1980) given by Fienberg (1980) about instances of\nrepeat victimization for households in the U.S. National Crime\nSurvey.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(\"RepVict\")\n</code></pre>\n<h3>Format</h3>\n<p>A 2-dimensional array resulting from cross-tabulating victimization.\nThe variables and their levels are as follows:\n</p>\n<table>\n<tr>\n <td style=\"text-align: right;\">\n    No </td><td style=\"text-align: left;\"> Name </td><td style=\"text-align: left;\"> Levels </td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    1 </td><td style=\"text-align: left;\"> First Victimization </td><td style=\"text-align: left;\"> Rape, Assault, Robbery, Pickpocket,\n    Personal Larceny, </td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    </td><td style=\"text-align: left;\"> </td><td style=\"text-align: left;\"> Burglary, Household Larceny, Auto Theft </td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    2 </td><td style=\"text-align: left;\"> Second Victimization </td><td style=\"text-align: left;\"> Rape, Assault, Robbery, Pickpocket,\n    Personal Larceny,</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    </td><td style=\"text-align: left;\"> </td><td style=\"text-align: left;\"> Burglary, Household Larceny, Auto Theft\n  </td>\n</tr>\n</table>\n<h3>Source</h3>\n<p>Michael Friendly (2000),\nVisualizing Categorical Data, page 113.\n</p>\n<h3>References</h3>\n<p>S. E. Fienberg (1980),\n<em>The Analysis of Cross-Classified Categorical Data</em>,\nMIT Press, Cambridge, 2nd edition.\n</p>\n<p>A. J. J. Reiss (1980),\nVictim proneness by type of crime in repeat victimization.\nIn S. E. Fienberg &amp; A. J. J. Reiss (eds.),\n<em>Indicators of Crime and Criminal Justice</em>.\nU.S. Government Printing Office, Washington, DC.\n</p>\n<p>M. Friendly (2000),\n<em>Visualizing Categorical Data</em>.\nSAS Institute, Cary, NC.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>data(\"RepVict\")\nmosaic(RepVict[-c(4,7),-c(4,7)], gp = shading_max,\n       main = \"Repeat Victimization Data\")\n</code></pre>\n</main>\n</div>\n"
 }

@@ -1,3 +1,10 @@
+var outlier_exampleInfo ={
+   "description" : "Description\nThis dataset was randomly generated with a normal distribution (average: 5 feet 9 inches, standard deviation: 3 inches). One value was changed to be mistakenly reported in centimeters rather than feet.",
+   "title" : "Adult male heights in feet with outliers",
+   "format" : "An object of class \"numeric\".",
+   "usage" : "outlier_example"
+}
+
 var outlier_example = [
    [
       "dat"

@@ -1,3 +1,17 @@
+var stocks_18Info ={
+   "title" : "Monthly Returns for a few stocks",
+   "format" : "A data frame with 36 observations on the following 3 variables.",
+   "reference" : "Yahoo! Finance, direct download.",
+   "parameters" : {
+      "cat" : "Caterpillar stock price change.",
+      "xom" : "Exxon Mobil stock price change.",
+      "date" : "First day of the month corresponding to the returns.",
+      "goog" : "Google stock price change."
+   },
+   "usage" : "stocks_18",
+   "description" : "Description\nMonthly return data for a few stocks, which covers stock prices from\nNovember 2015 through October 2018."
+}
+
 var stocks_18 = [
    [
       "date",

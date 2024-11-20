@@ -1,3 +1,24 @@
+var loomisInfo ={
+   "description" : "Description\nData are taken from Loomis (2003). The study relates to a survey taken on reported \nfrequency of visits to national parks during the year. The survey was taken at park \nsites, thus incurring possible effects of endogenous stratification.",
+   "usage" : "data(loomis)",
+   "parameters" : {
+      "income" : "income in US dollars per year, categorical: 4 levels",
+      "income3" : ">$55000 - $95000",
+      "travel2" : ">=.25 - <4 hrs",
+      "travel1" : "<.25 hrs",
+      "gender" : "1=male;0=female",
+      "income4" : ">$95000",
+      "travel" : "travel time, categorical: 3 levels",
+      "income2" : ">$25000 - $55000",
+      "travel3" : ">=4 hrs",
+      "anvisits" : "number of annual visits to park",
+      "income1" : "<=$25000"
+   },
+   "format" : "A data frame with 410 observations on the following 11 variables.",
+   "title" : "loomis",
+   "reference" : "loomis is saved as a data frame.\nCount models typically use anvisits as response variable. 0 counts are included"
+}
+
 var loomis = [
    [
       "anvisits",

@@ -890,8 +890,8 @@
       }
    },
    "config" : {
-      "title" : "Data set testing causal direction in presumed media influence",
       "graphType" : "Heatmap",
+      "title" : "Data set testing causal direction in presumed media influence",
       "subtitle" : "psych - Tal_Or"
    }
 }

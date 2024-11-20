@@ -1,3 +1,30 @@
+var appleInfo ={
+   "description" : "Description\nWooldridge Source: These data were used in the doctoral dissertation of Jeffrey Blend, Department of Agricultural Economics, Michigan State University, 1998. The thesis was supervised by Professor Eileen van Ravensway. Drs. Blend and van Ravensway kindly provided the data, which were obtained from a telephone survey conducted by the Institute for Public Policy and Social Research at MSU. Data loads lazily.",
+   "usage" : "data('apple')",
+   "parameters" : {
+      "educ" : " years schooling",
+      "ecolbs" : " quantity ecolabeled apples, lbs",
+      "num18_64" : " # in household 18 to 64",
+      "age" : " in years",
+      "numgt64" : " # in household older than 64",
+      "reglbs" : " quantity regular apples, pounds",
+      "state" : " home state",
+      "regprc" : " price of regular apples",
+      "date" : " date",
+      "faminc" : " family income, thousands",
+      "id" : " respondent identifier",
+      "ecoprc" : " price of ecolabeled apples",
+      "male" : " =1 if male",
+      "num5_17" : " # in household 5 to 17",
+      "inseason" : " =1 if interviewed in Nov.",
+      "hhsize" : " household size",
+      "numlt5" : " # in household younger than 5"
+   },
+   "reference" : "This data set is close to a true experimental data set because the price pairs facing a family were randomly determined. In other words, the family head was presented with prices for the eco-labeled and regular apples, and then asked how much of each kind of apple the family would buy at the given prices. As predicted by basic economics, the own price effect is negative (and strong) and the cross price effect is positive (and strong). While the main dependent variable, ecolbs, piles up at zero, estimating a linear model is still worthwhile. Interestingly, because the survey design induces a strong positive correlation between the prices of eco-labeled and regular apples, there is an omitted variable problem if either of the price variables is dropped from the demand equation. A good exam question is to show a simple regression of ecolbs on ecoprc and then a multiple regression on both prices, and ask students to decide whether the price variables must be positively or negatively correlated.",
+   "title" : "apple",
+   "format" : "A data.frame with 660 observations on 17 variables:"
+}
+
 var apple = [
    [
       "id",

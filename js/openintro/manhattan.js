@@ -1,3 +1,14 @@
+var manhattanInfo ={
+   "description" : "Description\nA data frame containing data on apartment rentals in Manhattan.",
+   "usage" : "manhattan",
+   "parameters" : {
+      "rent" : "Monthly rent for a 1 bedroom apartment listed as \"For rent by owner\"."
+   },
+   "format" : "A data frame with 20 observations on the following 1 variable.",
+   "title" : "manhattan",
+   "reference" : "library(ggplot2)\n\nggplot(manhattan, aes(rent)) +\n  geom_histogram(color = \"white\", binwidth = 300) +\n  theme_minimal() +\n  labs(\n    title = \"Rent in Manhattan\",\n    subtitle = \"1 Bedroom Apartments\",\n    x = \"Rent (in US$)\",\n    caption = \"Source: Craigslist\"\n  )"
+}
+
 var manhattan = [
    [
       "rent"

@@ -1,3 +1,25 @@
+var gpa2Info ={
+   "title" : "gpa2",
+   "format" : "A data.frame with 4137 observations on 12 variables:",
+   "reference" : "pages 106, 184, 208-209, 210-211, 221, 259, 262-263",
+   "parameters" : {
+      "female" : " =1 if female",
+      "hsize" : " size grad. class, 100s",
+      "athlete" : " =1 if athlete",
+      "verbmath" : " verbal/math SAT score",
+      "hsperc" : " high school percentile, from top",
+      "black" : " =1 if black",
+      "hsizesq" : " hsize^2",
+      "colgpa" : " GPA after fall semester",
+      "hsrank" : " rank in grad. class",
+      "tothrs" : " total hours through fall semest",
+      "white" : " =1 if white",
+      "sat" : " combined SAT score"
+   },
+   "usage" : "data('gpa2')",
+   "description" : "Description\nWooldridge Source: For confidentiality reasons, I cannot provide the source of these data. I can say that Data loads lazily."
+}
+
 var gpa2 = [
    [
       "sat",

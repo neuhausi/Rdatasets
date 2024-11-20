@@ -1,3 +1,10 @@
+var nottemInfo ={
+   "usage" : "nottem",
+   "title" : "Average Monthly Temperatures at Nottingham, 1920&ndash;1939",
+   "format" : "Anderson, O. D. (1976)\nTime Series Analysis and Forecasting: The Box-Jenkins approach.\nButterworths. Series R.",
+   "description" : "Description\nA time series object containing average air temperatures at\nNottingham Castle in degrees Fahrenheit for 20 years."
+}
+
 var nottem = [
    [
       "time",

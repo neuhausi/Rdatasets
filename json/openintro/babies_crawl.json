@@ -1,4 +1,12 @@
 {
+   "config" : {
+      "colorBy" : "birth_month",
+      "title" : "Crawling age",
+      "graphType" : "Scatter2D",
+      "scatterPlotMatrix" : 1,
+      "subtitle" : "openintro - babies_crawl"
+   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>babies_crawl</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Crawling age</h2>\n<h3>Description</h3>\n<p>Crawling age of babies along with the average outdoor temperature at 6\nmonths of age.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>babies_crawl\n</code></pre>\n<h3>Format</h3>\n<p>A data frame with 12 observations on the following 5 variables.\n</p>\n<dl>\n<dt>birth_month</dt><dd><p>A factor with levels corresponding to months</p>\n</dd>\n<dt>avg_crawling_age</dt><dd><p>a numeric vector</p>\n</dd>\n<dt>sd</dt><dd><p>a numeric vector</p>\n</dd>\n<dt>n</dt><dd><p>a numeric vector</p>\n</dd>\n<dt>temperature</dt><dd><p>a numeric vector</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>J.B. Benson. Season of birth and onset of locomotion: Theoretical\nand methodological implications. In: Infant behavior and development 16.1\n(1993), pp. 69-81. issn: 0163-6383.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>\nlibrary(ggplot2)\nggplot(babies_crawl, aes(x = temperature, y = avg_crawling_age)) +\n  geom_point() +\n  labs(x = \"Temperature\", y = \"Average crawling age\")\n</code></pre>\n</main>\n</div>\n",
    "data" : {
       "z" : {
          "birth_month" : [
@@ -17,26 +25,6 @@
          ]
       },
       "y" : {
-         "vars" : [
-            "Var1",
-            "Var2",
-            "Var3",
-            "Var4",
-            "Var5",
-            "Var6",
-            "Var7",
-            "Var8",
-            "Var9",
-            "Var10",
-            "Var11",
-            "Var12"
-         ],
-         "smps" : [
-            "avg_crawling_age",
-            "sd",
-            "n",
-            "temperature"
-         ],
          "data" : [
             [
                29.84,
@@ -110,15 +98,27 @@
                44,
                57
             ]
+         ],
+         "smps" : [
+            "avg_crawling_age",
+            "sd",
+            "n",
+            "temperature"
+         ],
+         "vars" : [
+            "Var1",
+            "Var2",
+            "Var3",
+            "Var4",
+            "Var5",
+            "Var6",
+            "Var7",
+            "Var8",
+            "Var9",
+            "Var10",
+            "Var11",
+            "Var12"
          ]
       }
-   },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>babies_crawl</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Crawling age</h2>\n<h3>Description</h3>\n<p>Crawling age of babies along with the average outdoor temperature at 6\nmonths of age.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>babies_crawl\n</code></pre>\n<h3>Format</h3>\n<p>A data frame with 12 observations on the following 5 variables.\n</p>\n<dl>\n<dt>birth_month</dt><dd><p>A factor with levels corresponding to months</p>\n</dd>\n<dt>avg_crawling_age</dt><dd><p>a numeric vector</p>\n</dd>\n<dt>sd</dt><dd><p>a numeric vector</p>\n</dd>\n<dt>n</dt><dd><p>a numeric vector</p>\n</dd>\n<dt>temperature</dt><dd><p>a numeric vector</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>J.B. Benson. Season of birth and onset of locomotion: Theoretical\nand methodological implications. In: Infant behavior and development 16.1\n(1993), pp. 69-81. issn: 0163-6383.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>\nlibrary(ggplot2)\nggplot(babies_crawl, aes(x = temperature, y = avg_crawling_age)) +\n  geom_point() +\n  labs(x = \"Temperature\", y = \"Average crawling age\")\n</code></pre>\n</main>\n</div>\n",
-   "config" : {
-      "title" : "Crawling age",
-      "colorBy" : "birth_month",
-      "graphType" : "Scatter2D",
-      "subtitle" : "openintro - babies_crawl",
-      "scatterPlotMatrix" : 1
    }
 }

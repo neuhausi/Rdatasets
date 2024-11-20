@@ -1,3 +1,16 @@
+var LTPTInfo ={
+   "parameters" : {
+      "category" : "the particular category (e.g. all items, televisions, etc.)",
+      "date" : "a date",
+      "value" : "the consumer price index (Dec. 1997 = 100)"
+   },
+   "format" : "A data frame with 1,704 observations on the following 3 variables.",
+   "title" : "Long-Term Price Trends for Computers, TVs, and Related Items",
+   "reference" : "This is a web-scraping job from the U.S. Bureau of Labor Statistics. Post is titled \"Long-term price trends for computers, TVs, and related items\" and was published on Oct. 13, 2015.",
+   "description" : "Description\nThese data are a monthly time-series of changes in the consumer price index\nrelative to a Dec. 1997 starting date for televisions, computers, and related\nitems. I use this as in-class illustration that globalization has made\nconsumer electronics cheaper across the board for Americans.",
+   "usage" : "LTPT"
+}
+
 var LTPT = [
    [
       "date",

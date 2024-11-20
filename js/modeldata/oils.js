@@ -1,3 +1,10 @@
+var oilsInfo ={
+   "description" : "Description\nFatty acid concentrations of commercial oils were measured using gas\nchromatography.  The data is used to predict the type of oil.  Note that\nonly the known oils are in the data set. Also, the authors state that there\nare 95 samples of known oils. However, we count 96 in Table 1 (pgs.  33-35).",
+   "usage" : "oils\n\na tibble",
+   "title" : "Fatty acid composition of commercial oils",
+   "format" : "Brodnjak-Voncina et al. (2005). Multivariate data analysis in\nclassification of vegetable oils characterized by the content of fatty\nacids, Chemometrics and Intelligent Laboratory Systems, Vol.\n75:31-45."
+}
+
 var oils = [
    [
       "palmitic",

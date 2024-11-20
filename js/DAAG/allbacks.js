@@ -1,3 +1,17 @@
+var allbacksInfo ={
+   "parameters" : {
+      "area" : "hard board cover\nareas in square centimeters",
+      "volume" : "book volumes\nin cubic centimeters",
+      "cover" : "a factor with levels\nhb hardback,   pb paperback",
+      "weight" : "book weights in grams"
+   },
+   "format" : "This data frame contains the following columns:",
+   "title" : "Measurements on a Selection of Books",
+   "reference" : "The bookshelf of J. H. Maindonald.",
+   "description" : "Description\nThe allbacks data frame gives measurements\non the volume and weight of 15 books, some of which\nare softback (pb) and some of which are hardback (hb).  Area\nof the hardback covers is also included.",
+   "usage" : "allbacks"
+}
+
 var allbacks = [
    [
       "volume",

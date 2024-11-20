@@ -1,4 +1,12 @@
 {
+   "config" : {
+      "subtitle" : "openintro - tips",
+      "colorBy" : "day",
+      "title" : "Tip data",
+      "graphType" : "Scatter2D",
+      "scatterPlotMatrix" : 1
+   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>tips</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Tip data</h2>\n<h3>Description</h3>\n<p>A simulated dataset of tips over a few weeks on a couple days per week.\nEach tip is associated with a single group, which may include several bills\nand tables (i.e. groups paid in one lump sum in simulations).\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>tips\n</code></pre>\n<h3>Format</h3>\n<p>A data frame with 95 observations on the following 5 variables.\n</p>\n<dl>\n<dt>week</dt><dd><p>Week number.</p>\n</dd>\n<dt>day</dt><dd><p>Day, either <code>Friday</code> or <code>Tuesday</code>.</p>\n</dd>\n<dt>n_peop</dt><dd><p>Number of people associated with the group.</p>\n</dd>\n<dt>bill</dt><dd><p>Total bill for the group.</p>\n</dd>\n<dt>tip</dt><dd><p>Total tip from the group.</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>This dataset was built using simulations of tables, then bills, then tips\nbased on the bills. Large groups were assumed to only pay the gratuity,\nwhich is evident in the data. Tips were set to be plausible round values;\nthey were often (but not always) rounded to dollars, quarters, etc.\n</p>\n<h3>Source</h3>\n<p>Simulated dataset.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>\nlibrary(ggplot2)\nggplot(tips, aes(x = day, y = tip)) +\n  geom_boxplot()\nggplot(tips, aes(x = tip, fill = factor(week))) +\n  geom_density(alpha = 0.5) +\n  labs(x = \"Tip\", y = \"Density\", fill = \"Week\")\nggplot(tips, aes(x = tip)) +\n  geom_dotplot()\nggplot(tips, aes(x = tip, fill = factor(day))) +\n  geom_density(alpha = 0.5) +\n  labs(x = \"Tip\", y = \"Density\", fill = \"Day\")\n</code></pre>\n</main>\n</div>\n",
    "data" : {
       "z" : {
          "day" : [
@@ -776,13 +784,5 @@
             "Var95"
          ]
       }
-   },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>tips</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Tip data</h2>\n<h3>Description</h3>\n<p>A simulated dataset of tips over a few weeks on a couple days per week.\nEach tip is associated with a single group, which may include several bills\nand tables (i.e. groups paid in one lump sum in simulations).\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>tips\n</code></pre>\n<h3>Format</h3>\n<p>A data frame with 95 observations on the following 5 variables.\n</p>\n<dl>\n<dt>week</dt><dd><p>Week number.</p>\n</dd>\n<dt>day</dt><dd><p>Day, either <code>Friday</code> or <code>Tuesday</code>.</p>\n</dd>\n<dt>n_peop</dt><dd><p>Number of people associated with the group.</p>\n</dd>\n<dt>bill</dt><dd><p>Total bill for the group.</p>\n</dd>\n<dt>tip</dt><dd><p>Total tip from the group.</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>This dataset was built using simulations of tables, then bills, then tips\nbased on the bills. Large groups were assumed to only pay the gratuity,\nwhich is evident in the data. Tips were set to be plausible round values;\nthey were often (but not always) rounded to dollars, quarters, etc.\n</p>\n<h3>Source</h3>\n<p>Simulated dataset.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>\nlibrary(ggplot2)\nggplot(tips, aes(x = day, y = tip)) +\n  geom_boxplot()\nggplot(tips, aes(x = tip, fill = factor(week))) +\n  geom_density(alpha = 0.5) +\n  labs(x = \"Tip\", y = \"Density\", fill = \"Week\")\nggplot(tips, aes(x = tip)) +\n  geom_dotplot()\nggplot(tips, aes(x = tip, fill = factor(day))) +\n  geom_density(alpha = 0.5) +\n  labs(x = \"Tip\", y = \"Density\", fill = \"Day\")\n</code></pre>\n</main>\n</div>\n",
-   "config" : {
-      "graphType" : "Scatter2D",
-      "subtitle" : "openintro - tips",
-      "scatterPlotMatrix" : 1,
-      "title" : "Tip data",
-      "colorBy" : "day"
    }
 }

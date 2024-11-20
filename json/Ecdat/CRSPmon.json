@@ -1,13 +1,18 @@
 {
    "config" : {
+      "title" : "Monthly Returns from the CRSP Database",
       "graphType" : "Scatter2D",
       "scatterPlotMatrix" : 1,
-      "subtitle" : "Ecdat - CRSPmon",
-      "title" : "Monthly Returns from the CRSP Database"
+      "subtitle" : "Ecdat - CRSPmon"
    },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>CRSPmon</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Monthly Returns from the CRSP Database </h2>\n<h3>Description</h3>\n<p>monthly observations from 1969-1 to 1998-12\n</p>\n<p><em>number of observations</em> :  360\n</p>\n<p><em>observation</em> :  production units\n</p>\n<p><em>country</em> :  United States\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(CRSPmon)</code></pre>\n<h3>Format</h3>\n<p>A time series containing :\n</p>\n<dl>\n<dt>ge</dt><dd><p>the return for General Electric, \n<a href=\"https://www.crsp.org/products/documentation/crsp-link\">PERMNO</a> 12060</p>\n</dd>\n<dt>ibm</dt><dd><p> the return for IBM, PERMNO 12490</p>\n</dd>\n<dt>mobil</dt><dd>\n<p>the return for Mobil Corporation, \nPERMNO 15966\n</p>\n</dd>\n<dt>crsp</dt><dd> \n<p>the return for the CRSP value-weighted index,\nincluding  dividends\n</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>Center for Research in Security Prices, Graduate School of  Business, University of Chicago,  725 South Wells - Suite 800,  Chicago, Illinois  60607,  <a href=\"https://www.crsp.org\">https://www.crsp.org</a>.\n</p>\n<h3>References</h3>\n<p>Davidson, R.  and  James G.  MacKinnon (2004) <em>Econometric Theory and Methods</em>, New York, Oxford University Press, chapter 13.\n</p>\n<h3>See Also</h3>\n<p><code>Index.Source</code>, <code>Index.Economics</code>, <code>Index.Econometrics</code>, <code>Index.Observations</code>,\n</p>\n<p><code>Index.Time.Series</code></p>\n</main>\n</div>\n",
    "data" : {
       "y" : {
+         "smps" : [
+            "ge",
+            "ibm",
+            "mobil",
+            "crsp"
+         ],
          "vars" : [
             "Var1",
             "Var2",
@@ -2531,13 +2536,8 @@
                0.013081,
                0.06316
             ]
-         ],
-         "smps" : [
-            "ge",
-            "ibm",
-            "mobil",
-            "crsp"
          ]
       }
-   }
+   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>CRSPmon</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Monthly Returns from the CRSP Database </h2>\n<h3>Description</h3>\n<p>monthly observations from 1969-1 to 1998-12\n</p>\n<p><em>number of observations</em> :  360\n</p>\n<p><em>observation</em> :  production units\n</p>\n<p><em>country</em> :  United States\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(CRSPmon)</code></pre>\n<h3>Format</h3>\n<p>A time series containing :\n</p>\n<dl>\n<dt>ge</dt><dd><p>the return for General Electric, \n<a href=\"https://www.crsp.org/products/documentation/crsp-link\">PERMNO</a> 12060</p>\n</dd>\n<dt>ibm</dt><dd><p> the return for IBM, PERMNO 12490</p>\n</dd>\n<dt>mobil</dt><dd>\n<p>the return for Mobil Corporation, \nPERMNO 15966\n</p>\n</dd>\n<dt>crsp</dt><dd> \n<p>the return for the CRSP value-weighted index,\nincluding  dividends\n</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>Center for Research in Security Prices, Graduate School of  Business, University of Chicago,  725 South Wells - Suite 800,  Chicago, Illinois  60607,  <a href=\"https://www.crsp.org\">https://www.crsp.org</a>.\n</p>\n<h3>References</h3>\n<p>Davidson, R.  and  James G.  MacKinnon (2004) <em>Econometric Theory and Methods</em>, New York, Oxford University Press, chapter 13.\n</p>\n<h3>See Also</h3>\n<p><code>Index.Source</code>, <code>Index.Economics</code>, <code>Index.Econometrics</code>, <code>Index.Observations</code>,\n</p>\n<p><code>Index.Time.Series</code></p>\n</main>\n</div>\n"
 }

@@ -1,3 +1,41 @@
+var epa2012Info ={
+   "title" : "Vehicle info from the EPA for 2012",
+   "reference" : "Fueleconomy.gov, Shared MPG Estimates: Toyota Prius 2012.",
+   "format" : "A data frame with 1129 observations on the following 28 variables.",
+   "parameters" : {
+      "release_date" : "Date of vehicle release.",
+      "drive_desc" : "Drive system description.",
+      "no_cylinders" : "Number of cylinders.",
+      "transmission" : "Transmission type.",
+      "division" : "Vehicle division.",
+      "comb_mpg" : "Combined mileage.",
+      "model_type_index" : "Model type index.",
+      "trans_creeper_gear" : "A factor with level N only.",
+      "city_mpg" : "City mileage.",
+      "transmission_desc" : "Transmission type description.",
+      "mfr_code" : "Manufacturer code.",
+      "fuel_usage_desc" : "Fuel usage description.",
+      "transmission_speed" : "Transmission speed.",
+      "carline" : "Vehicle line.",
+      "fuel_cell" : "Whether the car has a fuel cell or not, a factor with levels N, Y.",
+      "car_truck" : "Car or truck, a factor with levels car, 1, 2.",
+      "air_aspir_method" : "Air aspiration method.",
+      "model_yr" : "a numeric vector",
+      "air_aspir_method_desc" : "Air aspiration method description.",
+      "class" : "Class of car.",
+      "hwy_mpg" : "Highway mileage.",
+      "engine_displacement" : "Engine displacement.",
+      "guzzler" : "Whether the car is considered a \"guzzler\" or not, a factor with levels N and Y.",
+      "fuel_usage" : "Fuel usage, a factor with levels.",
+      "drive_sys" : "Drive system, a factor with levels.",
+      "mfr_name" : "Manufacturer name.",
+      "trans_lockup" : "Whether transmission locks up, a factor with levels N and Y.",
+      "no_gears" : "Number of gears."
+   },
+   "usage" : "epa2012",
+   "description" : "Description\nDetails from the EPA."
+}
+
 var epa2012 = [
    [
       "model_yr",

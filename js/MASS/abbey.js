@@ -1,3 +1,10 @@
+var abbeyInfo ={
+   "usage" : "abbey",
+   "format" : "S. Abbey (1988) Geostandards Newsletter 12, 241.",
+   "title" : "Determinations of Nickel Content",
+   "description" : "Description\nA numeric vector of 31 determinations of nickel content (ppm) in\na Canadian syenite rock."
+}
+
 var abbey = [
    [
       "dat"

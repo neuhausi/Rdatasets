@@ -1,3 +1,23 @@
+var FatalityInfo ={
+   "description" : "Description\na panel of 48 observations  from 1982  to 1988\nnumber of observations :  336\nobservation :  regional\ncountry :  United States",
+   "usage" : "data(Fatality)",
+   "parameters" : {
+      "state" : "state ID code",
+      "mlda" : "minimum legal drinking age",
+      "mrall" : "traffic fatality rate (deaths per 10000)",
+      "vmiles" : "average miles per driver",
+      "comserd" : "mandatory community service ?",
+      "unrate" : "unemployment rate",
+      "perinc" : "per capita personal income",
+      "jaild" : "mandatory jail sentence ?",
+      "beertax" : "tax on case of beer",
+      "year" : "year"
+   },
+   "title" : "Drunk Driving Laws and Traffic Deaths",
+   "format" : "A dataframe containing :",
+   "reference" : "Pr. Christopher J. Ruhm, Department of Economics, University of North Carolina."
+}
+
 var Fatality = [
    [
       "state",

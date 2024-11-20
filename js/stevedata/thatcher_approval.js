@@ -1,3 +1,21 @@
+var thatcher_approvalInfo ={
+   "parameters" : {
+      "thatcher_dis" : "the percentage of respondents saying they were dissatisfied with Margaret Thatcher",
+      "thatcher_sat" : "the percentage of respondents saying they were satisfied with Margaret Thatcher",
+      "govt_sat" : "the percentage of respondents saying they were satisfied with the government",
+      "govt_dis" : "the percentage of respondents saying they were dissatisfied with the government",
+      "opp_dis" : "the percentage of respondents saying they were dissatisfied with the leader of the opposition",
+      "opp_sat" : "the percentage of respondents saying they were satisfied with the leader of the opposition",
+      "date" : "a date for the poll, to make for easier plotting",
+      "poll_date" : "the effective \"date\" of the public opinion poll"
+   },
+   "title" : "Margaret Thatcher Satisfaction Ratings, 1980-1990",
+   "format" : "A data frame with 125 observations on the following 8 variables.",
+   "reference" : "Data come from Ipsos. \"Leader of the opposition\" was typically named in the exact poll. In the\nlifetime of this series, the leader of the opposition was James Callaghan until Nov. 10 1980. Thereafter, it\nwas Michael Foot until Oct. 2 1983. Neil Kinnock replaces him for the duration of this series. Interpret\n\"leader of the opposition\" with that in mind.",
+   "description" : "Description\nA data set on satisfaction/dissatisfaction ratings during Margaret Thatcher's tenure as prime minister.",
+   "usage" : "thatcher_approval"
+}
+
 var thatcher_approval = [
    [
       "poll_date",

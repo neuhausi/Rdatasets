@@ -1,3 +1,14 @@
+var pokerInfo ={
+   "title" : "Poker winnings during 50 sessions",
+   "format" : "A data frame with 49 observations on the following variable.",
+   "reference" : "Anonymity has been requested by the player.",
+   "parameters" : {
+      "winnings" : "Poker winnings and losses, in US dollars."
+   },
+   "usage" : "poker",
+   "description" : "Description\nPoker winnings (and losses) for 50 days by a professional poker player."
+}
+
 var poker = [
    [
       "winnings"

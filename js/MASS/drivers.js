@@ -1,3 +1,10 @@
+var driversInfo ={
+   "description" : "Description\nA regular time series giving the monthly totals of car drivers in\nGreat Britain killed or seriously injured Jan 1969 to Dec\n1984.  Compulsory wearing of seat belts was introduced on 31 Jan 1983",
+   "usage" : "drivers",
+   "format" : "Harvey, A.C. (1989)\nForecasting, Structural Time Series Models and the Kalman Filter.\nCambridge University Press, pp. 519&ndash;523.",
+   "title" : "Deaths of Car Drivers in Great Britain 1969-84"
+}
+
 var drivers = [
    [
       "time",

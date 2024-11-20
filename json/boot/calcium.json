@@ -1,8 +1,8 @@
 {
    "config" : {
-      "title" : "Calcium Uptake Data",
+      "subtitle" : "boot - calcium",
       "graphType" : "Scatter2D",
-      "subtitle" : "boot - calcium"
+      "title" : "Calcium Uptake Data"
    },
    "data" : {
       "y" : {

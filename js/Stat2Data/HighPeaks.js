@@ -1,3 +1,9 @@
+var HighPeaksInfo ={
+   "description" : "Description\nData on hiking trails for each of the 46 \"High Peaks\" in the Adirondack mountains",
+   "title" : "Characteristics of Adirondack Hiking Trails",
+   "usage" : "A data frame with 46 observations on the following 6 variables."
+}
+
 var HighPeaks = [
    [
       "Peak",

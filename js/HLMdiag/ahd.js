@@ -1,3 +1,18 @@
+var ahdInfo ={
+   "title" : "Methylprednisolone data",
+   "format" : "A data frame with 330 observations on the following 5 variables:",
+   "reference" : "Vonesh, E. F. and Chinchilli, V. M. (1997) Linear and Nonlinear Models for the \nAnalysis of Repeated Measurements. Marcel Dekker, New York.",
+   "parameters" : {
+      "baseline" : "A subject's serum bilirubin level at week 0.",
+      "subject" : "Subject ID - a factor.",
+      "week" : "Week of the study (0&ndash;4) - the time variable.",
+      "sbvalue" : "Serum bilirubin level (in \\mumol/L).",
+      "treatment" : "The treatment a  subject received - a factor. Levels are\nplacebo and treated."
+   },
+   "usage" : "data(ahd)",
+   "description" : "Description\nData from a longitudinal study examining the effectiveness of Methylprednisolone\nas a treatment for patients with severe alcoholic hepatitis. Subjects were\nrandomly assigned to a treatment (31 received a placebo, 35 received the \ntreatment) and serum bilirubin was measures each week for four weeks."
+}
+
 var ahd = [
    [
       "treatment",

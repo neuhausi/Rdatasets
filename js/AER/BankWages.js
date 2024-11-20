@@ -1,3 +1,17 @@
+var BankWagesInfo ={
+   "title" : "Bank Wages",
+   "reference" : "Online complements to Heij, de Boer, Franses, Kloek, and van Dijk (2004).",
+   "format" : "A data frame containing 474 observations on 4 variables.",
+   "parameters" : {
+      "education" : "Education in years.",
+      "job" : "Ordered factor indicating job category, with levels \"custodial\",\n\"admin\"  and \"manage\".",
+      "gender" : "Factor indicating gender.",
+      "minority" : "Factor. Is the employee member of a minority?"
+   },
+   "usage" : "data(\"BankWages\")",
+   "description" : "Description\nWages of employees of a US bank."
+}
+
 var BankWages = [
    [
       "job",

@@ -1,3 +1,18 @@
+var AirqInfo ={
+   "format" : "A dataframe containing :",
+   "title" : "Air Quality for Californian Metropolitan Areas",
+   "usage" : "data(Airq)",
+   "parameters" : {
+      "coas" : "is it a coastal area ?",
+      "dens" : "population density (per square mile)",
+      "rain" : "amount of rain (in inches)",
+      "airq" : "indicator of air quality (the lower the better)",
+      "medi" : "average income per head (in US dollars)",
+      "vala" : "value added of companies (in thousands of dollars)"
+   },
+   "description" : "Description\na cross-section from 1972\nnumber of observations :  30\nobservation :  regional\ncountry :  United States"
+}
+
 var Airq = [
    [
       "airq",

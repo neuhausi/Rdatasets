@@ -1,3 +1,17 @@
+var Wheat2Info ={
+   "description" : "Description\nThe Wheat2 data frame has 224 rows and 5 columns.",
+   "parameters" : {
+      "variety" : "a factor with levels\nARAPAHOE \nBRULE \nBUCKSKIN \nCENTURA \nCENTURK78 \nCHEYENNE \nCODY \nCOLT \nGAGE \nHOMESTEAD \nKS831374 \nLANCER \nLANCOTA \nNE83404 \nNE83406 \nNE83407 \nNE83432 \nNE83498 \nNE83T12 \nNE84557 \nNE85556 \nNE85623 \nNE86482 \nNE86501 \nNE86503 \nNE86507 \nNE86509 \nNE86527 \nNE86582 \nNE86606 \nNE86607 \nNE86T666 \nNE87403 \nNE87408 \nNE87409 \nNE87446 \nNE87451 \nNE87457 \nNE87463 \nNE87499 \nNE87512 \nNE87513 \nNE87522 \nNE87612 \nNE87613 \nNE87615 \nNE87619 \nNE87627 \nNORKAN \nREDLAND \nROUGHRIDER \nSCOUT66 \nSIOUXLAND \nTAM107 \nTAM200 \nVONA",
+      "longitude" : "a numeric vector",
+      "Block" : "an ordered factor with levels\n4 < 2 < 3 < 1",
+      "latitude" : "a numeric vector",
+      "yield" : "a numeric vector"
+   },
+   "reference" : "Pinheiro, J. C. and Bates, D. M. (2000), Mixed-Effects Models in S\nand S-PLUS, Springer, New York.",
+   "title" : "Wheat Yield Trials",
+   "usage" : "This data frame contains the following columns:"
+}
+
 var Wheat2 = [
    [
       "Block",

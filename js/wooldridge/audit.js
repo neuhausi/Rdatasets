@@ -1,3 +1,16 @@
+var auditInfo ={
+   "parameters" : {
+      "b" : " =1 if black app. got job offer",
+      "w" : " =1 if white app. got job offer",
+      "y" : " b - w"
+   },
+   "format" : "A data.frame with 241 observations on 3 variables:",
+   "title" : "audit",
+   "reference" : "pages 776-777, 784, 787",
+   "description" : "Description\nWooldridge Source: These data come from a 1988 Urban Institute audit study in the Washington, D.C. area. I obtained them from the article âThe Urban Institute Audit Studies: Their Methods and Findings,â by James J. Heckman and Peter Siegelman. In Fix, M. and Struyk, R., eds., Clear and Convincing Evidence: Measurement of Discrimination in America. Washington, D.C.: Urban Institute Press, 1993, 187-258. Data loads lazily.",
+   "usage" : "data('audit')"
+}
+
 var audit = [
    [
       "w",

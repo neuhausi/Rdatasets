@@ -1,3 +1,17 @@
+var PlasticInfo ={
+   "parameters" : {
+      "opacity" : "a numeric vector: film opacity",
+      "rate" : "a factor representing change in the rate of extrusion with levels Low (-10%), High (10%)",
+      "gloss" : "a numeric vector: film gloss",
+      "tear" : "a numeric vector: tear resistance",
+      "additive" : "a factor with levels Low (1.0%), High (1.5%)"
+   },
+   "description" : "Description\nAn experiment was conducted to determine the optimum conditions for\nextruding plastic film.  Three responses were measured in relation to two\nfactors, rate of extrusion and amount of an additive.",
+   "usage" : "A data frame with 20 observations on the following 5 variables.",
+   "reference" : "Johnson, R.A. & Wichern, D.W. (1992). Applied Multivariate\nStatistical Analysis, 3rd ed., Prentice-Hall. Example 6.12 (p. 266).",
+   "title" : "Plastic Film Data"
+}
+
 var Plastic = [
    [
       "tear",

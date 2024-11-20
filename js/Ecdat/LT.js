@@ -1,3 +1,16 @@
+var LTInfo ={
+   "format" : "A time series containing :",
+   "title" : "Dollar Sterling Exchange Rate",
+   "reference" : "Lothian, J.  and  M.  Taylor (1996) &ldquo;Real exchange rate behavior: the recent float from the perspective of the past two centuries&rdquo;, Journal of Political Economy, 104, 488-509.",
+   "parameters" : {
+      "uswpi" : "US wholesale price index, normalized to 100 for 1914",
+      "ukwpi" : "US wholesale price index, normalized to 100 for 1914",
+      "s" : "US *Dollar / *Pound exchange rate"
+   },
+   "usage" : "data(LT)",
+   "description" : "Description\nannual observations from 1791 to 1990\nnumber of observations :  200\nobservation :  country\ncountry :  United Kingdom"
+}
+
 var LT = [
    [
       "s",
