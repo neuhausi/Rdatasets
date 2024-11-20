@@ -1,27 +1,27 @@
 var MortgageInfo ={
-   "description" : "Description\nCross-section data about fixed versus adjustable mortgages for\n78 households.",
-   "usage" : "data(\"Mortgage\")",
    "parameters" : {
       "selfemp" : "Factor. Is the borrower self-employed?",
-      "maturities" : "Ratio of maturities on adjustable to fixed rate mortgages.",
-      "first" : "Factor. Is the borrower a first-time home buyer?",
-      "networth" : "Net worth of the borrower.",
-      "years" : "Years at the present address.",
-      "liquid" : "Liquid assets.",
-      "rate" : "Factor with levels \"fixed\" and \"adjustable\".",
-      "points" : "Ratio of points paid on adjustable to fixed rate mortgages.",
-      "coborrower" : "Factor. Is there a co-borrower?",
       "married" : "Factor. Is the borrower married?",
-      "tdiff" : "The difference between the 10-year treasury rate less the 1-year treasury rate.",
       "age" : "Age of the borrower.",
-      "interest" : "Fixed interest rate.",
+      "rate" : "Factor with levels \"fixed\" and \"adjustable\".",
+      "maturities" : "Ratio of maturities on adjustable to fixed rate mortgages.",
+      "liquid" : "Liquid assets.",
       "liability" : "Short-term liabilities.",
       "school" : "Years of schooling for the borrower.",
-      "margin" : "The margin on the adjustable rate mortgage."
+      "networth" : "Net worth of the borrower.",
+      "coborrower" : "Factor. Is there a co-borrower?",
+      "tdiff" : "The difference between the 10-year treasury rate less the 1-year treasury rate.",
+      "margin" : "The margin on the adjustable rate mortgage.",
+      "years" : "Years at the present address.",
+      "interest" : "Fixed interest rate.",
+      "points" : "Ratio of points paid on adjustable to fixed rate mortgages.",
+      "first" : "Factor. Is the borrower a first-time home buyer?"
    },
+   "usage" : "data(\"Mortgage\")",
+   "reference" : "The data is from Baltagi (2002).",
    "title" : "Fixed versus Adjustable Mortgages",
-   "format" : "A data frame containing 78 observations on 16 variables.",
-   "reference" : "The data is from Baltagi (2002)."
+   "description" : "Description\nCross-section data about fixed versus adjustable mortgages for\n78 households.",
+   "format" : "A data frame containing 78 observations on 16 variables."
 }
 
 var Mortgage = [

@@ -1,18 +1,18 @@
 var xomInfo ={
-   "usage" : "xom",
-   "description" : "Description\nMonthly data covering 2006 through early 2014.",
-   "title" : "Exxon Mobile stock data",
    "format" : "A data frame with 98 observations on the following 7 variables.",
-   "reference" : "Yahoo! Finance.",
    "parameters" : {
-      "high" : "a numeric vector",
-      "date" : "Date.",
-      "open" : "a numeric vector",
-      "low" : "a numeric vector",
-      "adj_close" : "a numeric vector",
       "volume" : "a numeric vector",
-      "close" : "a numeric vector"
-   }
+      "adj_close" : "a numeric vector",
+      "date" : "Date.",
+      "close" : "a numeric vector",
+      "low" : "a numeric vector",
+      "open" : "a numeric vector",
+      "high" : "a numeric vector"
+   },
+   "title" : "Exxon Mobile stock data",
+   "description" : "Description\nMonthly data covering 2006 through early 2014.",
+   "reference" : "Yahoo! Finance.",
+   "usage" : "xom"
 }
 
 var xom = [

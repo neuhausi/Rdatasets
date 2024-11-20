@@ -1,18 +1,18 @@
 var GreeneInfo ={
-   "description" : "Description\nThe Greene data frame has 384 rows and 7 columns.\nThese are cases filed in 1990, in which refugee claimants rejected\nby the Canadian Immigration and Refugee Board asked the Federal\nCourt of Appeal for leave to appeal the negative ruling of the Board.",
-   "usage" : "Greene",
+   "format" : "This data frame contains the following columns:",
    "parameters" : {
-      "rater" : "Judgment of independent rater.\nA factor with levels:\nno, case has no merit;\nyes, case has some merit (leave to appeal should be granted).",
-      "nation" : "Nation of origin of claimant.\nA factor with levels:\nArgentina, Bulgaria, China, Czechoslovakia,\nEl.Salvador, Fiji, Ghana, Guatemala, \nIndia, Iran, Lebanon, Nicaragua, \nNigeria, Pakistan, Poland, Somalia, \nSri.Lanka.",
-      "location" : "Location of original refugee claim.\nA factor with levels:\nMontreal,\nother,\nToronto.",
       "language" : "Language of case. \nA factor with levels:\nEnglish,\nFrench.",
       "decision" : "Judge's decision.\nA factor with levels:\nno, leave to appeal not granted;\nyes, leave to appeal granted.",
       "success" : "Logit of success rate, for all cases from the applicant's nation.",
-      "judge" : "Name of judge hearing case.\nA factor with levels:\nDesjardins, Heald, Hugessen, Iacobucci, MacGuigan, \nMahoney, Marceau, Pratte, Stone, Urie."
+      "location" : "Location of original refugee claim.\nA factor with levels:\nMontreal,\nother,\nToronto.",
+      "rater" : "Judgment of independent rater.\nA factor with levels:\nno, case has no merit;\nyes, case has some merit (leave to appeal should be granted).",
+      "judge" : "Name of judge hearing case.\nA factor with levels:\nDesjardins, Heald, Hugessen, Iacobucci, MacGuigan, \nMahoney, Marceau, Pratte, Stone, Urie.",
+      "nation" : "Nation of origin of claimant.\nA factor with levels:\nArgentina, Bulgaria, China, Czechoslovakia,\nEl.Salvador, Fiji, Ghana, Guatemala, \nIndia, Iran, Lebanon, Nicaragua, \nNigeria, Pakistan, Poland, Somalia, \nSri.Lanka."
    },
-   "format" : "This data frame contains the following columns:",
-   "reference" : "Personal communication from Ian Greene, Department of\nPolitical Science, York University.",
-   "title" : "Refugee Appeals"
+   "title" : "Refugee Appeals",
+   "description" : "Description\nThe Greene data frame has 384 rows and 7 columns.\nThese are cases filed in 1990, in which refugee claimants rejected\nby the Canadian Immigration and Refugee Board asked the Federal\nCourt of Appeal for leave to appeal the negative ruling of the Board.",
+   "usage" : "Greene",
+   "reference" : "Personal communication from Ian Greene, Department of\nPolitical Science, York University."
 }
 
 var Greene = [

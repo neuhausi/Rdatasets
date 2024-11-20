@@ -1,0 +1,17 @@
+{
+   "parameters" : {
+      "freelunk" : "qualified for free lunch ?",
+      "treadssk" : "total reading scaled score",
+      "classk" : "type of class, a factor with levels (regular,small.class,regular.with.aide)",
+      "tmathssk" : "total math scaled score",
+      "totexpk" : "years of total teaching experience",
+      "race" : "a factor with levels (white,black,other)",
+      "sex" : "a factor with levels (boy,girl)",
+      "schidkn" : "school indicator variable"
+   },
+   "title" : "Effects on Learning of Small Class Sizes",
+   "description" : "Description\na cross-section from 1985-89\nnumber of observations :  5748\nobservation :  individuals\ncountry :  United States",
+   "usage" : "data(Star)",
+   "reference" : "Project STAR:",
+   "format" : "A dataframe containing :"
+}

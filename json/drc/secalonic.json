@@ -1,9 +1,10 @@
 {
    "config" : {
-      "graphType" : "Scatter2D",
       "title" : "Root length measurements",
-      "subtitle" : "drc - secalonic"
+      "subtitle" : "drc - secalonic",
+      "graphType" : "Scatter2D"
    },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>secalonic</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Root length measurements</h2>\n<h3>Description</h3>\n<p>Data stem from an experiment assessing the inhibitory effect of secalonic acids on plant growth.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(secalonic)</code></pre>\n<h3>Format</h3>\n<p>A data frame with 7 observations on the following 2 variables:\n</p>\n<dl>\n<dt><code>dose</code></dt><dd><p>a numeric vector containing dose values (mM)</p>\n</dd>\n<dt><code>rootl</code></dt><dd><p>a numeric vector containing root lengths (cm)</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>For each dose the root length is an average three measurements.\n</p>\n<h3>Source</h3>\n<p>Gong, X. and Zeng, R. and Luo, S. and Yong, C. and Zheng, Q. (2004) Two new \nsecalonic acids from <em>Aspergillus Japonicus</em> and their allelopathic effects on higher plants,\n<em>Proceedings of International Symposium on Allelopathy Research and Application, 27-29 April, \nShanshui, Guangdong, China (Editors: R. Zeng and S. Luo)</em>, 209&ndash;217.\n</p>\n<p>Ritz, C (2009)\nTowards a unified approach to dose-response modeling in ecotoxicology\n<em>To appear in Environ Toxicol Chem</em>.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>\n## Fitting a four-parameter log-logistic model\nsecalonic.m1 &lt;- drm(rootl ~ dose, data = secalonic, fct = LL.4())\nsummary(secalonic.m1)\n## Fitting a three-parameter log-logistic model\n##  lower limit fixed at 0\nsecalonic.m2 &lt;- drm(rootl ~ dose, data = secalonic, fct = LL.3())\nsummary(secalonic.m1)\n## Comparing logistic and log-logistic models\n## (Figure 1 in Ritz (2009))\nsecalonic.LL4 &lt;- drm(rootl ~ dose, data = secalonic, fct = LL.4())\nsecalonic.L4 &lt;- drm(rootl ~ dose, data = secalonic, fct = L.4())\nplot(secalonic.LL4, broken=TRUE, ylim=c(0,7), xlab=\"Dose (mM)\", ylab=\"Root length (cm)\", \ncex=1.2, cex.axis=1.2, cex.lab=1.2, lwd=2)\nplot(secalonic.L4, broken=TRUE, ylim=c(0,7), add=TRUE, type=\"none\", lty=2, lwd=2)\nabline(h=coef(secalonic.L4)[3], lty=3, lwd=2)\n</code></pre>\n</main>\n</div>\n",
    "data" : {
       "y" : {
          "data" : [
@@ -36,6 +37,10 @@
                0.4
             ]
          ],
+         "smps" : [
+            "dose",
+            "rootl"
+         ],
          "vars" : [
             "Var1",
             "Var2",
@@ -44,12 +49,7 @@
             "Var5",
             "Var6",
             "Var7"
-         ],
-         "smps" : [
-            "dose",
-            "rootl"
          ]
       }
-   },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>secalonic</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Root length measurements</h2>\n<h3>Description</h3>\n<p>Data stem from an experiment assessing the inhibitory effect of secalonic acids on plant growth.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(secalonic)</code></pre>\n<h3>Format</h3>\n<p>A data frame with 7 observations on the following 2 variables:\n</p>\n<dl>\n<dt><code>dose</code></dt><dd><p>a numeric vector containing dose values (mM)</p>\n</dd>\n<dt><code>rootl</code></dt><dd><p>a numeric vector containing root lengths (cm)</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>For each dose the root length is an average three measurements.\n</p>\n<h3>Source</h3>\n<p>Gong, X. and Zeng, R. and Luo, S. and Yong, C. and Zheng, Q. (2004) Two new \nsecalonic acids from <em>Aspergillus Japonicus</em> and their allelopathic effects on higher plants,\n<em>Proceedings of International Symposium on Allelopathy Research and Application, 27-29 April, \nShanshui, Guangdong, China (Editors: R. Zeng and S. Luo)</em>, 209&ndash;217.\n</p>\n<p>Ritz, C (2009)\nTowards a unified approach to dose-response modeling in ecotoxicology\n<em>To appear in Environ Toxicol Chem</em>.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>\n## Fitting a four-parameter log-logistic model\nsecalonic.m1 &lt;- drm(rootl ~ dose, data = secalonic, fct = LL.4())\nsummary(secalonic.m1)\n## Fitting a three-parameter log-logistic model\n##  lower limit fixed at 0\nsecalonic.m2 &lt;- drm(rootl ~ dose, data = secalonic, fct = LL.3())\nsummary(secalonic.m1)\n## Comparing logistic and log-logistic models\n## (Figure 1 in Ritz (2009))\nsecalonic.LL4 &lt;- drm(rootl ~ dose, data = secalonic, fct = LL.4())\nsecalonic.L4 &lt;- drm(rootl ~ dose, data = secalonic, fct = L.4())\nplot(secalonic.LL4, broken=TRUE, ylim=c(0,7), xlab=\"Dose (mM)\", ylab=\"Root length (cm)\", \ncex=1.2, cex.axis=1.2, cex.lab=1.2, lwd=2)\nplot(secalonic.L4, broken=TRUE, ylim=c(0,7), add=TRUE, type=\"none\", lty=2, lwd=2)\nabline(h=coef(secalonic.L4)[3], lty=3, lwd=2)\n</code></pre>\n</main>\n</div>\n"
+   }
 }

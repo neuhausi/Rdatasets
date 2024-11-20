@@ -1,15 +1,15 @@
 var fretsInfo ={
-   "usage" : "frets",
+   "format" : "This data frame contains the following columns:",
+   "parameters" : {
+      "b1" : "The head breadth of the eldest son.",
+      "l2" : "The head length of the second son.",
+      "l1" : "The head length of the eldest son.",
+      "b2" : "The head breadth of the second son."
+   },
    "description" : "Description\nThe frets data frame has 25 rows and 4 columns.\nThe data consist of measurements of the length and breadth of the heads of \npairs of adult brothers in 25 randomly sampled families.  All measurements\nare expressed in millimetres.",
    "title" : "Head Dimensions in Brothers",
-   "format" : "This data frame contains the following columns:",
    "reference" : "The data were obtained from",
-   "parameters" : {
-      "b2" : "The head breadth of the second son.",
-      "l1" : "The head length of the eldest son.",
-      "b1" : "The head breadth of the eldest son.",
-      "l2" : "The head length of the second son."
-   }
+   "usage" : "frets"
 }
 
 var frets = [

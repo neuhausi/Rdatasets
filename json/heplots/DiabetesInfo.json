@@ -1,0 +1,14 @@
+{
+   "title" : "Diabetes Dataset",
+   "description" : "Description\nReaven and Miller (1979) examined the relationship among blood chemistry\nmeasures of glucose tolerance and insulin in 145 nonobese adults. They used\nthe PRIM9 system at the Stanford Linear Accelerator Center to visualize the\ndata in 3D, and discovered a peculiar pattern that looked like a large blob\nwith two wings in different directions.",
+   "reference" : "After further analysis, the subjects were classified as subclinical\n(chemical) diabetics, overt diabetics and normals.  This study was\ninfluential in defining the stages of development of Type 2 diabetes. Overt\ndiabetes is the most advanced stage, characterized by elevated fasting blood\nglucose concentration and classical symptoms. Preceding overt diabetes is\nthe latent or chemical diabetic stage, with no symptoms of diabetes but\ndemonstrable abnormality of oral or intravenous glucose tolerance.",
+   "usage" : "A data frame with 145 observations on the following 6 variables.",
+   "parameters" : {
+      "sspg" : "steady state plasma glucose, a measure of insulin resistance, a numeric vector",
+      "group" : "diagnostic group, a factor with levels Normal Chemical_Diabetic\nOvert_Diabetic",
+      "instest" : "plasma insulin during test, a measure of insulin response to oral glucose, a numeric vector",
+      "relwt" : "relative weight, expressed as the ratio of actual weight to expected weight, given the person's height, a numeric vector",
+      "glutest" : "test plasma glucose level, a measure of glucose intolerance, a numeric vector",
+      "glufast" : "fasting plasma glucose level, a numeric vector"
+   }
+}

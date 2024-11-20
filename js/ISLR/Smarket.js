@@ -1,20 +1,20 @@
 var SmarketInfo ={
-   "reference" : "Raw values of the S&P 500 were obtained from Yahoo Finance and\nthen converted to percentages and lagged.",
-   "format" : "A data frame with 1250 observations on the following 9 variables.",
    "title" : "S&P Stock Market Data",
+   "description" : "Description\nDaily percentage returns for the S&P 500 stock index\nbetween 2001 and 2005.",
+   "reference" : "Raw values of the S&P 500 were obtained from Yahoo Finance and\nthen converted to percentages and lagged.",
+   "usage" : "Smarket",
    "parameters" : {
-      "Direction" : "A factor with levels Down and\nUp indicating whether the market had a positive or negative\nreturn on a given day",
-      "Lag5" : "Percentage return for 5 days previous",
-      "Lag2" : "Percentage return for 2 days previous",
-      "Lag1" : "Percentage return for previous day",
       "Year" : "The year that the observation was recorded",
-      "Lag3" : "Percentage return for 3 days previous",
       "Lag4" : "Percentage return for 4 days previous",
       "Today" : "Percentage return for today",
-      "Volume" : "Volume of shares traded (number of daily shares\ntraded in billions)"
+      "Volume" : "Volume of shares traded (number of daily shares\ntraded in billions)",
+      "Lag2" : "Percentage return for 2 days previous",
+      "Lag5" : "Percentage return for 5 days previous",
+      "Lag3" : "Percentage return for 3 days previous",
+      "Direction" : "A factor with levels Down and\nUp indicating whether the market had a positive or negative\nreturn on a given day",
+      "Lag1" : "Percentage return for previous day"
    },
-   "usage" : "Smarket",
-   "description" : "Description\nDaily percentage returns for the S&P 500 stock index\nbetween 2001 and 2005."
+   "format" : "A data frame with 1250 observations on the following 9 variables."
 }
 
 var Smarket = [

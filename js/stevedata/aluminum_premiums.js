@@ -1,13 +1,13 @@
 var aluminum_premiumsInfo ={
+   "format" : "A data frame with 2,812 observations on the following 3 variables.",
+   "reference" : "LME aluminum premiums (monthly contracts going out to 15 months) work\nalongside LME aluminum contracts to allow market participants to hedge the all-in\nprice and physically deliver or receive premium aluminum warrants in\nnon-queued LME premium warehouses.",
    "usage" : "aluminum_premiums",
    "description" : "Description\nA near daily data set on the price of aluminum premiums (USD/MT) for LME\nin the U.S., Western Europe, East Asia, and Southeast Asia. I like these\ndata as illustrative of some of the shortsightedness of the aluminum tariffs\nthat Donald Trump announced in March 2018. The tariffs had no discernible\neffect on manufacturing employment or earnings, but they created a supply shock\nthat made aluminum more expensive.",
    "title" : "LME Aluminum Premiums Data",
-   "format" : "A data frame with 2,812 observations on the following 3 variables.",
-   "reference" : "LME aluminum premiums (monthly contracts going out to 15 months) work\nalongside LME aluminum contracts to allow market participants to hedge the all-in\nprice and physically deliver or receive premium aluminum warrants in\nnon-queued LME premium warehouses.",
    "parameters" : {
-      "date" : "a date",
+      "price" : "a numeric vector for the price of the LME aluminum premium",
       "group" : "a factor with levels of East Asia, Southeast Asia,\nUnited States, and Western Europe",
-      "price" : "a numeric vector for the price of the LME aluminum premium"
+      "date" : "a date"
    }
 }
 

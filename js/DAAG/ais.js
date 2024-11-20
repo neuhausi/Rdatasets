@@ -1,24 +1,24 @@
 var aisInfo ={
+   "description" : "Description\nThese data were collected in a study of how data on \nvarious characteristics of the blood varied with sport,\nbody size, and sex of the athlete.",
+   "title" : "Australian athletes data set",
+   "reference" : "Do blood hemoglobin concentrations of athletes in endurance-related\nevents differ from those in power-related events?",
+   "usage" : "data(ais)",
    "parameters" : {
+      "ht" : "height, cm",
+      "ssf" : "sum of skin folds",
+      "hc" : "hematocrit, percent",
       "sport" : "a factor with levels B_Ball Field \nGym Netball Row Swim T_400m \nT_Sprnt Tennis W_Polo",
       "bmi" : "Body mass index, kg cm^{-2} 10^2",
-      "sex" : "a factor with levels f m",
-      "ferr" : "plasma ferritins, ng dl^{-1}",
-      "wt" : "weight, kg",
-      "lbm" : "lean body mass, kg",
-      "wcc" : "while blood cell count, in 10^{12} per liter",
       "pcBfat" : "percent Body fat",
-      "ht" : "height, cm",
-      "hc" : "hematocrit, percent",
+      "wcc" : "while blood cell count, in 10^{12} per liter",
       "rcc" : "red blood cell count, in 10^{12} l^{-1}",
-      "ssf" : "sum of skin folds",
-      "hg" : "hemaglobin concentration, in g per decaliter"
+      "hg" : "hemaglobin concentration, in g per decaliter",
+      "sex" : "a factor with levels f m",
+      "lbm" : "lean body mass, kg",
+      "wt" : "weight, kg",
+      "ferr" : "plasma ferritins, ng dl^{-1}"
    },
-   "title" : "Australian athletes data set",
-   "format" : "A data frame with 202 observations on the following 13 variables.",
-   "reference" : "Do blood hemoglobin concentrations of athletes in endurance-related\nevents differ from those in power-related events?",
-   "description" : "Description\nThese data were collected in a study of how data on \nvarious characteristics of the blood varied with sport,\nbody size, and sex of the athlete.",
-   "usage" : "data(ais)"
+   "format" : "A data frame with 202 observations on the following 13 variables."
 }
 
 var ais = [

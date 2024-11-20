@@ -1,13 +1,13 @@
 var LottarioInfo ={
-   "title" : "Ontario Lottery Data",
-   "reference" : "The Ontario Lottery Corporation",
    "format" : "This data frame contains the following columns:",
+   "usage" : "Lottario",
+   "reference" : "The Ontario Lottery Corporation",
+   "title" : "Ontario Lottery Data",
+   "description" : "Description\nThe data frame Lottario\nis a summary of 122 weekly draws of an Ontario lottery, beginning in\nNovember, 1978.  Each draw consists of 7 numbered balls, drawn without\nreplacement from an urn consisting of balls numbered from 1 through 39.",
    "parameters" : {
       "Frequency" : "the number of occurrences of each numbered ball",
       "Number" : "the integers from 1 to 39, representing the\nnumbered balls"
-   },
-   "usage" : "Lottario",
-   "description" : "Description\nThe data frame Lottario\nis a summary of 122 weekly draws of an Ontario lottery, beginning in\nNovember, 1978.  Each draw consists of 7 numbered balls, drawn without\nreplacement from an urn consisting of balls numbered from 1 through 39."
+   }
 }
 
 var Lottario = [

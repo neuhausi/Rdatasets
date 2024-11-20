@@ -1,23 +1,6 @@
 {
-   "config" : {
-      "subtitle" : "Stat2Data - BritishUnions",
-      "graphType" : "Heatmap",
-      "title" : "Attitudes Towards British Trade Unions",
-      "smpOverlays" : [
-         "Date"
-      ]
-   },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>BritishUnions</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Attitudes Towards British Trade Unions</h2>\n<h3>Description</h3>\n<p>Poll attitudes towards British trade unions\n</p>\n<h3>Format</h3>\n<p>A data frame with 17 observations on the following 7 variables.\n</p>\n<table>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Date</code> </td><td style=\"text-align: left;\"> Month of the poll <code>Aug-77</code> to <code>Sep-79</code></td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>AgreePct</code> </td><td style=\"text-align: left;\"> Percent who agree (unions have too much power)</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>DisagreePct</code> </td><td style=\"text-align: left;\"> Percent who disagree</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>NetSupport</code> </td><td style=\"text-align: left;\"> DisagreePct-AgreePct</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Months</code> </td><td style=\"text-align: left;\"> Months since August 1975</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Late</code> </td><td style=\"text-align: left;\"> <code>1</code>=after 1986 or <code>0</code>=before 1986</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Unemployment</code> </td><td style=\"text-align: left;\"> Unemployment rate</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n  </td>\n</tr>\n</table>\n<h3>Details</h3>\n<p>The British polling company Ipsos MORI conducted several opinion\npolls in the UK between 1975 and 1995 in which they asked whether people agree or disagree\nwith the statement &quot;Trade unions have too much power in Britain today&quot;.\n</p>\n<h3>Source</h3>\n<p>Data from the Ipsos MORI website at  <br />\nhttp://www.ipsos-mori.com/researchpublications/researcharchive/poll.aspx?oItemID=94\n</p>\n</main>\n</div>\n",
    "data" : {
       "y" : {
-         "vars" : [
-            "AgreePct",
-            "DisagreePct",
-            "NetSupport",
-            "Months",
-            "Late",
-            "Unemployment"
-         ],
          "smps" : [
             "Smp1",
             "Smp2",
@@ -152,6 +135,14 @@
                9.4,
                8.6
             ]
+         ],
+         "vars" : [
+            "AgreePct",
+            "DisagreePct",
+            "NetSupport",
+            "Months",
+            "Late",
+            "Unemployment"
          ]
       },
       "x" : {
@@ -175,5 +166,14 @@
             "Aug-95"
          ]
       }
+   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>BritishUnions</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Attitudes Towards British Trade Unions</h2>\n<h3>Description</h3>\n<p>Poll attitudes towards British trade unions\n</p>\n<h3>Format</h3>\n<p>A data frame with 17 observations on the following 7 variables.\n</p>\n<table>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Date</code> </td><td style=\"text-align: left;\"> Month of the poll <code>Aug-77</code> to <code>Sep-79</code></td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>AgreePct</code> </td><td style=\"text-align: left;\"> Percent who agree (unions have too much power)</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>DisagreePct</code> </td><td style=\"text-align: left;\"> Percent who disagree</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>NetSupport</code> </td><td style=\"text-align: left;\"> DisagreePct-AgreePct</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Months</code> </td><td style=\"text-align: left;\"> Months since August 1975</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Late</code> </td><td style=\"text-align: left;\"> <code>1</code>=after 1986 or <code>0</code>=before 1986</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Unemployment</code> </td><td style=\"text-align: left;\"> Unemployment rate</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n  </td>\n</tr>\n</table>\n<h3>Details</h3>\n<p>The British polling company Ipsos MORI conducted several opinion\npolls in the UK between 1975 and 1995 in which they asked whether people agree or disagree\nwith the statement &quot;Trade unions have too much power in Britain today&quot;.\n</p>\n<h3>Source</h3>\n<p>Data from the Ipsos MORI website at  <br />\nhttp://www.ipsos-mori.com/researchpublications/researcharchive/poll.aspx?oItemID=94\n</p>\n</main>\n</div>\n",
+   "config" : {
+      "graphType" : "Heatmap",
+      "smpOverlays" : [
+         "Date"
+      ],
+      "subtitle" : "Stat2Data - BritishUnions",
+      "title" : "Attitudes Towards British Trade Unions"
    }
 }

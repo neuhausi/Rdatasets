@@ -1,11 +1,11 @@
 var ebola_surveyInfo ={
-   "description" : "Description\nIn New York City on October 23rd, 2014, a doctor who had recently been\ntreating Ebola patients in Guinea went to the hospital with a slight fever\nand was subsequently diagnosed with Ebola. Soon thereafter, an NBC 4 New\nYork/The Wall Street Journal/Marist Poll asked New Yorkers whether they\nfavored a \"mandatory 21-day quarantine for anyone who has come in contact\nwith an Ebola patient\". This poll included responses of 1,042 New York\nadults between October 26th and 28th, 2014.",
-   "usage" : "ebola_survey",
+   "format" : "A data frame with 1042 observations on the following variable.",
    "parameters" : {
       "quarantine" : "Indicates whether the respondent is in favor or\nagainst the mandatory quarantine."
    },
-   "format" : "A data frame with 1042 observations on the following variable.",
+   "usage" : "ebola_survey",
    "reference" : "Poll ID NY141026 on maristpoll.marist.edu.",
+   "description" : "Description\nIn New York City on October 23rd, 2014, a doctor who had recently been\ntreating Ebola patients in Guinea went to the hospital with a slight fever\nand was subsequently diagnosed with Ebola. Soon thereafter, an NBC 4 New\nYork/The Wall Street Journal/Marist Poll asked New Yorkers whether they\nfavored a \"mandatory 21-day quarantine for anyone who has come in contact\nwith an Ebola patient\". This poll included responses of 1,042 New York\nadults between October 26th and 28th, 2014.",
    "title" : "Survey on Ebola quarantine"
 }
 

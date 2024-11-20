@@ -1,8 +1,8 @@
 var bivariate_testInfo ={
-   "description" : "Description\nExample bivariate classification data",
-   "usage" : "These data are a simplified version of the segmentation data contained\nin caret. There are three columns: A and B are predictors and the column\nClass is a factor with levels \"One\" and \"Two\". There are three data sets:\none for training (n = 1009), validation (n = 300), and testing (n = 710).",
+   "format" : "bivariate_train, bivariate_test, bivariate_val\n\ntibbles",
    "title" : "Example bivariate classification data",
-   "format" : "bivariate_train, bivariate_test, bivariate_val\n\ntibbles"
+   "description" : "Description\nExample bivariate classification data",
+   "usage" : "These data are a simplified version of the segmentation data contained\nin caret. There are three columns: A and B are predictors and the column\nClass is a factor with levels \"One\" and \"Two\". There are three data sets:\none for training (n = 1009), validation (n = 300), and testing (n = 710)."
 }
 
 var bivariate_test = [

@@ -1,14 +1,14 @@
 var MandelInfo ={
-   "description" : "Description\nThe Mandel data frame has 8 rows and 3 columns.",
-   "usage" : "Mandel",
    "parameters" : {
+      "x2" : "second predictor.",
       "y" : "response.",
-      "x1" : "first predictor.",
-      "x2" : "second predictor."
+      "x1" : "first predictor."
    },
-   "format" : "This data frame contains the following columns:",
+   "usage" : "Mandel",
+   "reference" : "Mandel, J. (1982)\nUse of the singular value decomposition in regression analysis.\nThe American Statistician 36, 15&ndash;24.",
    "title" : "Contrived Collinear Data",
-   "reference" : "Mandel, J. (1982)\nUse of the singular value decomposition in regression analysis.\nThe American Statistician 36, 15&ndash;24."
+   "description" : "Description\nThe Mandel data frame has 8 rows and 3 columns.",
+   "format" : "This data frame contains the following columns:"
 }
 
 var Mandel = [

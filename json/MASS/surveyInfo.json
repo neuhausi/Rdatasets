@@ -1,0 +1,20 @@
+{
+   "format" : "The components of the data frame are:",
+   "usage" : "survey",
+   "title" : "Student Survey Data",
+   "description" : "Description\nThis data frame contains the responses of 237 Statistics I students at\nthe University of Adelaide to a number of questions.",
+   "parameters" : {
+      "W.Hnd" : "writing hand of student. (Factor, with levels \"Left\" and \"Right\".)",
+      "Pulse" : "pulse rate of student (beats per minute).",
+      "Fold" : "&ldquo;Fold your arms! Which is on top&rdquo; (Factor, with levels\n\"R on L\", \"L on R\", \"Neither\".)",
+      "NW.Hnd" : "span of non-writing hand.",
+      "Sex" : "The sex of the student. (Factor with levels \"Male\" and \"Female\".)",
+      "Smoke" : "how much the student smokes. (Factor, levels \"Heavy\",\n\"Regul\" (regularly), \"Occas\" (occasionally),\n\"Never\".)",
+      "Height" : "height of the student in centimetres.",
+      "Clap" : "&lsquo;Clap your hands!  Which hand is on top?&rsquo; (Factor, with levels\n\"Right\", \"Left\", \"Neither\".)",
+      "Exer" : "how often the student exercises. (Factor, with levels \"Freq\"\n(frequently), \"Some\", \"None\".)",
+      "Wr.Hnd" : "span (distance from tip of thumb to tip of little finger of spread\nhand) of writing hand, in centimetres.",
+      "Age" : "age of the student in years.",
+      "M.I" : "whether the student expressed height in imperial\n(feet/inches) or metric (centimetres/metres) units. (Factor, levels\n\"Metric\", \"Imperial\".)"
+   }
+}

@@ -1,19 +1,19 @@
 var VAInfo ={
-   "description" : "Description\nVeteran's Administration lung cancer trial from Kalbfleisch & Prentice.",
-   "usage" : "VA",
+   "format" : "A data frame with columns:",
    "parameters" : {
       "status" : "dead or censored.",
-      "cell" : "one of four cell types.",
+      "treat" : "treatment: standard or test.",
       "diag.time" : "times since diagnosis in months at entry to trial.",
+      "age" : "patient's age in years.",
+      "cell" : "one of four cell types.",
       "prior" : "prior therapy?",
       "Karn" : "Karnofsky score of patient's performance on a scale of 0 to 100.",
-      "stime" : "survival or follow-up time in days.",
-      "treat" : "treatment: standard or test.",
-      "age" : "patient's age in years."
+      "stime" : "survival or follow-up time in days."
    },
-   "format" : "A data frame with columns:",
-   "title" : "Veteran's Administration Lung Cancer Trial",
-   "reference" : "Kalbfleisch, J.D. and Prentice R.L. (1980)\nThe Statistical Analysis of Failure Time Data.\nWiley."
+   "reference" : "Kalbfleisch, J.D. and Prentice R.L. (1980)\nThe Statistical Analysis of Failure Time Data.\nWiley.",
+   "usage" : "VA",
+   "description" : "Description\nVeteran's Administration lung cancer trial from Kalbfleisch & Prentice.",
+   "title" : "Veteran's Administration Lung Cancer Trial"
 }
 
 var VA = [

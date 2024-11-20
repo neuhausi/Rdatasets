@@ -1,26 +1,26 @@
 var MarriageInfo ={
-   "reference" : "The calculation of the astrological sign may not correctly sort people directly on the borders between signs.  This variable is not part of the original record.",
-   "format" : "A data frame with 98 observations on the following variables.",
    "title" : "Marriage records",
-   "parameters" : {
-      "age" : "age of the person (in years)",
-      "bookpageID" : "a factor with levels for each book and page (unique identifier)",
-      "person" : "a factor with levels Bride Groom",
-      "race" : "a factor with levels American Indian Black Hispanic White",
-      "prevconc" : "the way the last marriage ended, as listed on the application",
-      "delay" : "number of days between the application and the ceremony",
-      "prevcount" : "the number of previous marriages of the person, as listed on the\napplication",
-      "dob" : "a factor with levels corresponding to the date of birth of the person",
-      "appdate" : "date on which the application was filed",
-      "ceremonydate" : "date of the ceremony",
-      "officialTitle" : "a factor with levels BISHOP CATHOLIC PRIEST CHIEF CLERK CIRCUIT JUDGE  ELDER MARRIAGE OFFICIAL MINISTER PASTOR REVEREND",
-      "dayOfBirth" : "the day of birth, as a number from 1 to 365 counting from January 1",
-      "sign" : "the astrological sign, with levels Aquarius Aries Cancer Capricorn Gemini Leo Libra Pisces Sagittarius Scorpio Taurus Virgo",
-      "hs" : "the number of years of high school education, as listed on the application",
-      "college" : "the number of years College education, as listed on the application.  Where no number was listed, this field was left blank, unless less than 12 years High School was reported, in which case it was entered as 0."
-   },
+   "description" : "Description\nMarriage records from the Mobile County, Alabama, probate court.",
+   "reference" : "The calculation of the astrological sign may not correctly sort people directly on the borders between signs.  This variable is not part of the original record.",
    "usage" : "data(Marriage)",
-   "description" : "Description\nMarriage records from the Mobile County, Alabama, probate court."
+   "parameters" : {
+      "ceremonydate" : "date of the ceremony",
+      "age" : "age of the person (in years)",
+      "dayOfBirth" : "the day of birth, as a number from 1 to 365 counting from January 1",
+      "officialTitle" : "a factor with levels BISHOP CATHOLIC PRIEST CHIEF CLERK CIRCUIT JUDGE  ELDER MARRIAGE OFFICIAL MINISTER PASTOR REVEREND",
+      "race" : "a factor with levels American Indian Black Hispanic White",
+      "bookpageID" : "a factor with levels for each book and page (unique identifier)",
+      "sign" : "the astrological sign, with levels Aquarius Aries Cancer Capricorn Gemini Leo Libra Pisces Sagittarius Scorpio Taurus Virgo",
+      "prevconc" : "the way the last marriage ended, as listed on the application",
+      "college" : "the number of years College education, as listed on the application.  Where no number was listed, this field was left blank, unless less than 12 years High School was reported, in which case it was entered as 0.",
+      "delay" : "number of days between the application and the ceremony",
+      "appdate" : "date on which the application was filed",
+      "prevcount" : "the number of previous marriages of the person, as listed on the\napplication",
+      "hs" : "the number of years of high school education, as listed on the application",
+      "person" : "a factor with levels Bride Groom",
+      "dob" : "a factor with levels corresponding to the date of birth of the person"
+   },
+   "format" : "A data frame with 98 observations on the following variables."
 }
 
 var Marriage = [

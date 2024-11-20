@@ -1,0 +1,16 @@
+{
+   "parameters" : {
+      "read" : "Average read speed from user benchmarks in MB/s.",
+      "nvme" : "If a drive uses the nvme protocol this value is 1, 0 if it does not.",
+      "form_factor" : "Physical form of the drive with levels 2.5, m.2, and mSATA.",
+      "samples" : "Number of user submitted benchmarks.",
+      "model" : "Model name of the drive.",
+      "write" : "Average write speed from user benchmarks in MB/s.",
+      "brand" : "Brand name of the drive."
+   },
+   "description" : "Description\nUser submitted data on 1TB solid state drives (SSD).",
+   "title" : "SSD read and write speeds",
+   "usage" : "ssd_speed",
+   "reference" : "UserBenchmark, retrieved September 1, 2020.",
+   "format" : "A data frame with 54 rows and 7 variables."
+}

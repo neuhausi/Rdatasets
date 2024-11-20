@@ -1,8 +1,8 @@
 var HairEyeColorInfo ={
-   "usage" : "HairEyeColor",
    "format" : "A 3-dimensional array resulting from cross-tabulating 592 observations\non 3 variables.  The variables and their levels are as follows:",
    "title" : "Hair and Eye Color of Statistics Students",
-   "description" : "Description\nDistribution of hair and eye color and sex in 592 statistics students."
+   "description" : "Description\nDistribution of hair and eye color and sex in 592 statistics students.",
+   "usage" : "HairEyeColor"
 }
 
 var HairEyeColor = [

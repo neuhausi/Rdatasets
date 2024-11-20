@@ -1,12 +1,12 @@
 var OrangeInfo ={
-   "usage" : "data(Orange)",
-   "description" : "Description\nmonthly observations from 1948-01 to 2001-06\nnumber of observations :  642\nobservation :  country\ncountry :  United States",
-   "reference" : "U.S. Bureau of Labor Statistics for PPIOJ and PWFSA, National Oceanic and Atmospheric Administration (NOAA) of the U.S Department of Commerce for fdd.",
    "format" : "A time series containing :",
+   "usage" : "data(Orange)",
+   "reference" : "U.S. Bureau of Labor Statistics for PPIOJ and PWFSA, National Oceanic and Atmospheric Administration (NOAA) of the U.S Department of Commerce for fdd.",
    "title" : "The Orange Juice Data Set",
+   "description" : "Description\nmonthly observations from 1948-01 to 2001-06\nnumber of observations :  642\nobservation :  country\ncountry :  United States",
    "parameters" : {
-      "priceoj" : "producer price for frozen orange juice",
       "pricefg" : "producer price index for finished goods",
+      "priceoj" : "producer price for frozen orange juice",
       "fdd" : "freezing degree days (from daily minimum temperature recorded at Orlando area airports)"
    }
 }

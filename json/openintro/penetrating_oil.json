@@ -1,49 +1,10 @@
 {
-   "config" : {
-      "title" : "What's the best way to loosen a rusty bolt?",
-      "colorBy" : "variable",
-      "graphType" : "Boxplot",
-      "groupingFactors" : [
-         "treatment"
-      ],
-      "subtitle" : "openintro - penetrating_oil"
-   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>penetrating_oil</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>What's the best way to loosen a rusty bolt?</h2>\n<h3>Description</h3>\n<p>The channel Project Farm on YouTube investigated penetrating oils and other\noptions for loosening rusty bolts. Eight options were evaluated, including a\ncontrol group, to determine which was most effective.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>penetrating_oil\n</code></pre>\n<h3>Format</h3>\n<p>A data frame with 30 observations on the following 2 variables.\n</p>\n<dl>\n<dt>treatment</dt><dd><p>The different treatments tried:\n<code>none</code> (control), <code>Heat</code> (via blow torch), <code>Acetone/ATF</code>,\n<code>AeroKroil</code>, <code>Liquid Wrench</code>, <code>PB Blaster</code>, <code>Royal\nPurple</code>, and <code>WD-40</code>.</p>\n</dd>\n<dt>torque</dt><dd><p>Torque required to loosen the rusty bolt,\nwhich was measured in foot-pounds.</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p><a href=\"https://www.youtube.com/watch?v=xUEob2oAKVs\">https://www.youtube.com/watch?v=xUEob2oAKVs</a>\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>\nm &lt;- lm(torque ~ treatment, data = penetrating_oil)\nanova(m)\n# There are 28 pairwise comparisons to be made.\nxbar &lt;- tapply(penetrating_oil$torque, penetrating_oil$treatment, mean)\nn &lt;- tapply(penetrating_oil$torque, penetrating_oil$treatment, length)\ns &lt;- summary(m)$sigma\ndf &lt;- summary(m)$df[1]\ndiff &lt;- c()\nse &lt;- c()\nk &lt;- 0\nN &lt;- length(n)\nK &lt;- N * (N - 1) / 2\nfor (i in 1:(N - 1)) {\n  for (j in (i + 1):N) {\n    k &lt;- k + 1\n    diff[k] &lt;- xbar[i] - xbar[j]\n    se[k] &lt;- s * sqrt(1 / n[i] + 1 / n[j])\n    if (2 * K * pt(-abs(diff[k] / se[k]), df) &lt; 0.05) {\n      cat(\"0.05 - \", names(n)[c(i, j)], \"\\n\")\n    } else if (2 * K * pt(-abs(diff[k] / se[k]), df) &lt; 0.1) {\n      cat(\"0.1 - \", names(n)[c(i, j)], \"\\n\")\n    } else if (2 * K * pt(-abs(diff[k] / se[k]), df) &lt; 0.2) {\n      cat(\"0.2 - \", names(n)[c(i, j)], \"\\n\")\n    } else if (2 * K * pt(-abs(diff[k] / se[k]), df) &lt; 0.3) {\n      cat(\"0.3 - \", names(n)[c(i, j)], \"\\n\")\n# Smallest p-value using Bonferroni\nmin(2 * K * pt(-abs(diff / se), df))\n# Better pairwise comparison method.\nanova(m1 &lt;- aov(torque ~ treatment, data = penetrating_oil))\nTukeyHSD(m1)\n</code></pre>\n</main>\n</div>\n",
    "data" : {
-      "x" : {
-         "treatment" : [
-            "none",
-            "none",
-            "none",
-            "none",
-            "Acetone/ATF",
-            "Acetone/ATF",
-            "Acetone/ATF",
-            "Acetone/ATF",
-            "AeroKroil",
-            "AeroKroil",
-            "AeroKroil",
-            "AeroKroil",
-            "Liquid Wrench",
-            "Liquid Wrench",
-            "Liquid Wrench",
-            "Liquid Wrench",
-            "PB Blaster",
-            "PB Blaster",
-            "PB Blaster",
-            "PB Blaster",
-            "Royal Purple",
-            "Royal Purple",
-            "Royal Purple",
-            "Royal Purple",
-            "WD-40",
-            "WD-40",
-            "WD-40",
-            "WD-40",
-            "Heat",
-            "Heat"
-         ]
-      },
       "y" : {
+         "vars" : [
+            "torque"
+         ],
          "data" : [
             [
                110.1,
@@ -78,9 +39,6 @@
                83.7
             ]
          ],
-         "vars" : [
-            "torque"
-         ],
          "smps" : [
             "Smp1",
             "Smp2",
@@ -113,7 +71,49 @@
             "Smp29",
             "Smp30"
          ]
+      },
+      "x" : {
+         "treatment" : [
+            "none",
+            "none",
+            "none",
+            "none",
+            "Acetone/ATF",
+            "Acetone/ATF",
+            "Acetone/ATF",
+            "Acetone/ATF",
+            "AeroKroil",
+            "AeroKroil",
+            "AeroKroil",
+            "AeroKroil",
+            "Liquid Wrench",
+            "Liquid Wrench",
+            "Liquid Wrench",
+            "Liquid Wrench",
+            "PB Blaster",
+            "PB Blaster",
+            "PB Blaster",
+            "PB Blaster",
+            "Royal Purple",
+            "Royal Purple",
+            "Royal Purple",
+            "Royal Purple",
+            "WD-40",
+            "WD-40",
+            "WD-40",
+            "WD-40",
+            "Heat",
+            "Heat"
+         ]
       }
    },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>penetrating_oil</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>What's the best way to loosen a rusty bolt?</h2>\n<h3>Description</h3>\n<p>The channel Project Farm on YouTube investigated penetrating oils and other\noptions for loosening rusty bolts. Eight options were evaluated, including a\ncontrol group, to determine which was most effective.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>penetrating_oil\n</code></pre>\n<h3>Format</h3>\n<p>A data frame with 30 observations on the following 2 variables.\n</p>\n<dl>\n<dt>treatment</dt><dd><p>The different treatments tried:\n<code>none</code> (control), <code>Heat</code> (via blow torch), <code>Acetone/ATF</code>,\n<code>AeroKroil</code>, <code>Liquid Wrench</code>, <code>PB Blaster</code>, <code>Royal\nPurple</code>, and <code>WD-40</code>.</p>\n</dd>\n<dt>torque</dt><dd><p>Torque required to loosen the rusty bolt,\nwhich was measured in foot-pounds.</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p><a href=\"https://www.youtube.com/watch?v=xUEob2oAKVs\">https://www.youtube.com/watch?v=xUEob2oAKVs</a>\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>\nm &lt;- lm(torque ~ treatment, data = penetrating_oil)\nanova(m)\n# There are 28 pairwise comparisons to be made.\nxbar &lt;- tapply(penetrating_oil$torque, penetrating_oil$treatment, mean)\nn &lt;- tapply(penetrating_oil$torque, penetrating_oil$treatment, length)\ns &lt;- summary(m)$sigma\ndf &lt;- summary(m)$df[1]\ndiff &lt;- c()\nse &lt;- c()\nk &lt;- 0\nN &lt;- length(n)\nK &lt;- N * (N - 1) / 2\nfor (i in 1:(N - 1)) {\n  for (j in (i + 1):N) {\n    k &lt;- k + 1\n    diff[k] &lt;- xbar[i] - xbar[j]\n    se[k] &lt;- s * sqrt(1 / n[i] + 1 / n[j])\n    if (2 * K * pt(-abs(diff[k] / se[k]), df) &lt; 0.05) {\n      cat(\"0.05 - \", names(n)[c(i, j)], \"\\n\")\n    } else if (2 * K * pt(-abs(diff[k] / se[k]), df) &lt; 0.1) {\n      cat(\"0.1 - \", names(n)[c(i, j)], \"\\n\")\n    } else if (2 * K * pt(-abs(diff[k] / se[k]), df) &lt; 0.2) {\n      cat(\"0.2 - \", names(n)[c(i, j)], \"\\n\")\n    } else if (2 * K * pt(-abs(diff[k] / se[k]), df) &lt; 0.3) {\n      cat(\"0.3 - \", names(n)[c(i, j)], \"\\n\")\n# Smallest p-value using Bonferroni\nmin(2 * K * pt(-abs(diff / se), df))\n# Better pairwise comparison method.\nanova(m1 &lt;- aov(torque ~ treatment, data = penetrating_oil))\nTukeyHSD(m1)\n</code></pre>\n</main>\n</div>\n"
+   "config" : {
+      "colorBy" : "variable",
+      "graphType" : "Boxplot",
+      "subtitle" : "openintro - penetrating_oil",
+      "groupingFactors" : [
+         "treatment"
+      ],
+      "title" : "What's the best way to loosen a rusty bolt?"
+   }
 }

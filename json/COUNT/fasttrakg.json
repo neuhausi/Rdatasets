@@ -1,6 +1,39 @@
 {
+   "config" : {
+      "graphType" : "Heatmap",
+      "title" : "fasttrakg",
+      "subtitle" : "COUNT - fasttrakg"
+   },
    "data" : {
       "y" : {
+         "vars" : [
+            "die",
+            "cases",
+            "anterior",
+            "hcabg",
+            "killip",
+            "kk1",
+            "kk2",
+            "kk3",
+            "kk4"
+         ],
+         "smps" : [
+            "Smp1",
+            "Smp2",
+            "Smp3",
+            "Smp4",
+            "Smp5",
+            "Smp6",
+            "Smp7",
+            "Smp8",
+            "Smp9",
+            "Smp10",
+            "Smp11",
+            "Smp12",
+            "Smp13",
+            "Smp14",
+            "Smp15"
+         ],
          "data" : [
             [
                5,
@@ -155,41 +188,8 @@
                0,
                0
             ]
-         ],
-         "vars" : [
-            "die",
-            "cases",
-            "anterior",
-            "hcabg",
-            "killip",
-            "kk1",
-            "kk2",
-            "kk3",
-            "kk4"
-         ],
-         "smps" : [
-            "Smp1",
-            "Smp2",
-            "Smp3",
-            "Smp4",
-            "Smp5",
-            "Smp6",
-            "Smp7",
-            "Smp8",
-            "Smp9",
-            "Smp10",
-            "Smp11",
-            "Smp12",
-            "Smp13",
-            "Smp14",
-            "Smp15"
          ]
       }
    },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>fasttrakg</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>fasttrakg</h2>\n<h3>Description</h3>\n<p>Data are from the Canadian National Cardiovascular Disease registry \ncalled, FASTRAK. years covered at 1996-1998. They have been grouped \nby covariate patterns from individual observations. \n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(fasttrakg)</code></pre>\n<h3>Format</h3>\n<p>A data frame with 15 observations on the following 9 variables.\n</p>\n<dl>\n<dt><code>die</code></dt><dd><p>number died from MI</p>\n</dd>\n<dt><code>cases</code></dt><dd><p>number of cases with same covariate pattern</p>\n</dd>\n<dt><code>anterior</code></dt><dd><p>1=anterior site MI; 0=inferior site MI</p>\n</dd>\n<dt><code>hcabg</code></dt><dd><p>1=history of CABG; 0=no history of CABG</p>\n</dd>\n<dt><code>killip</code></dt><dd><p>Killip level of cardiac event severity (1-4)age75</p>\n</dd></dl>\n<p>1= Age&gt;75; 0=Age&lt;=75\n</p>\n<dl>\n<dt><code>kk1</code></dt><dd><p>(1/0) angina; not MI</p>\n</dd>\n<dt><code>kk2</code></dt><dd><p>(1/0) moderate severity cardiac event</p>\n</dd>\n<dt><code>kk3</code></dt><dd><p>(1/0) Severe cardiac event</p>\n</dd>\n<dt><code>kk4</code></dt><dd><p>(1/0) Severe cardiac event; death</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>fasttrakg is saved as a data frame.\nCount models use died as response numerator and cases as the demoninator  \n</p>\n<h3>Source</h3>\n<p>1996-1998 FASTRAK data, Hoffman-LaRoche Canada,\nNational Health Economics &amp; Research Co.\n</p>\n<h3>References</h3>\n<p>Hilbe, Joseph M (2007, 2011), Negative Binomial Regression, Cambridge University Press\nHilbe, Joseph M (2009), Logistic Regression Models, Chapman &amp; Hall/CRC\nHilbe, Joseph M (2014), Modeling Count Data, Cambridge University Press\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>library(MASS)\ndata(fasttrakg)\nglmfp &lt;- glm(die ~ anterior + factor(killip) + offset(log(cases)), family=poisson, data=fasttrakg)\nsummary(glmfp)\nexp(coef(glmfp))\n</code></pre>\n</main>\n</div>\n",
-   "config" : {
-      "title" : "fasttrakg",
-      "graphType" : "Heatmap",
-      "subtitle" : "COUNT - fasttrakg"
-   }
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>fasttrakg</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>fasttrakg</h2>\n<h3>Description</h3>\n<p>Data are from the Canadian National Cardiovascular Disease registry \ncalled, FASTRAK. years covered at 1996-1998. They have been grouped \nby covariate patterns from individual observations. \n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(fasttrakg)</code></pre>\n<h3>Format</h3>\n<p>A data frame with 15 observations on the following 9 variables.\n</p>\n<dl>\n<dt><code>die</code></dt><dd><p>number died from MI</p>\n</dd>\n<dt><code>cases</code></dt><dd><p>number of cases with same covariate pattern</p>\n</dd>\n<dt><code>anterior</code></dt><dd><p>1=anterior site MI; 0=inferior site MI</p>\n</dd>\n<dt><code>hcabg</code></dt><dd><p>1=history of CABG; 0=no history of CABG</p>\n</dd>\n<dt><code>killip</code></dt><dd><p>Killip level of cardiac event severity (1-4)age75</p>\n</dd></dl>\n<p>1= Age&gt;75; 0=Age&lt;=75\n</p>\n<dl>\n<dt><code>kk1</code></dt><dd><p>(1/0) angina; not MI</p>\n</dd>\n<dt><code>kk2</code></dt><dd><p>(1/0) moderate severity cardiac event</p>\n</dd>\n<dt><code>kk3</code></dt><dd><p>(1/0) Severe cardiac event</p>\n</dd>\n<dt><code>kk4</code></dt><dd><p>(1/0) Severe cardiac event; death</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>fasttrakg is saved as a data frame.\nCount models use died as response numerator and cases as the demoninator  \n</p>\n<h3>Source</h3>\n<p>1996-1998 FASTRAK data, Hoffman-LaRoche Canada,\nNational Health Economics &amp; Research Co.\n</p>\n<h3>References</h3>\n<p>Hilbe, Joseph M (2007, 2011), Negative Binomial Regression, Cambridge University Press\nHilbe, Joseph M (2009), Logistic Regression Models, Chapman &amp; Hall/CRC\nHilbe, Joseph M (2014), Modeling Count Data, Cambridge University Press\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>library(MASS)\ndata(fasttrakg)\nglmfp &lt;- glm(die ~ anterior + factor(killip) + offset(log(cases)), family=poisson, data=fasttrakg)\nsummary(glmfp)\nexp(coef(glmfp))\n</code></pre>\n</main>\n</div>\n"
 }

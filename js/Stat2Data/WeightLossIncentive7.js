@@ -1,7 +1,7 @@
 var WeightLossIncentive7Info ={
    "title" : "Do Financial Incentives Improve Weight Loss? (7 Months)",
-   "usage" : "A dataset with 33 observations on the following 2 variables.",
-   "description" : "Description\nWeight loss after seven months with/without a financial incentive"
+   "description" : "Description\nWeight loss after seven months with/without a financial incentive",
+   "usage" : "A dataset with 33 observations on the following 2 variables."
 }
 
 var WeightLossIncentive7 = [

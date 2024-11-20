@@ -1,8 +1,8 @@
 var randuInfo ={
-   "usage" : "randu",
    "format" : "A data frame with 400 observations on 3 variables named x,\ny and z which give the first, second and third random\nnumber in the triple.",
    "title" : "Random Numbers from Congruential Generator RANDU",
-   "description" : "Description\n400 triples of successive random numbers were taken from the VAX\nFORTRAN function RANDU running under VMS 1.5."
+   "description" : "Description\n400 triples of successive random numbers were taken from the VAX\nFORTRAN function RANDU running under VMS 1.5.",
+   "usage" : "randu"
 }
 
 var randu = [

@@ -1,13 +1,13 @@
 var claridgeInfo ={
-   "usage" : "claridge",
-   "description" : "Description\nThe claridge data frame has 37 rows and 2 columns.\nThe data are from an experiment which was designed to look for a relationship \nbetween a certain genetic characteristic\nand handedness.  The 37 subjects were women who had a son with mental\nretardation due to inheriting a defective X-chromosome.  For each such mother\na genetic measurement of their DNA was made.  Larger values of this measurement\nare known to be linked to the defective gene and it was hypothesized that \nlarger values might also be linked to a progressive shift away from \nright-handednesss.  Each woman also filled in a \nquestionnaire regarding which hand they used for various tasks.  From these\nquestionnaires a measure of hand preference was found for each mother.  The \nscale of\nthis measure goes from 1, indicating someone who always favours their right \nhand, to 8, indicating someone who always favours their left hand. Between \nthese two extremes are people who favour one hand for some tasks and the other \nfor other tasks.",
    "title" : "Genetic Links to Left-handedness",
-   "format" : "This data frame contains the following columns:",
+   "description" : "Description\nThe claridge data frame has 37 rows and 2 columns.\nThe data are from an experiment which was designed to look for a relationship \nbetween a certain genetic characteristic\nand handedness.  The 37 subjects were women who had a son with mental\nretardation due to inheriting a defective X-chromosome.  For each such mother\na genetic measurement of their DNA was made.  Larger values of this measurement\nare known to be linked to the defective gene and it was hypothesized that \nlarger values might also be linked to a progressive shift away from \nright-handednesss.  Each woman also filled in a \nquestionnaire regarding which hand they used for various tasks.  From these\nquestionnaires a measure of hand preference was found for each mother.  The \nscale of\nthis measure goes from 1, indicating someone who always favours their right \nhand, to 8, indicating someone who always favours their left hand. Between \nthese two extremes are people who favour one hand for some tasks and the other \nfor other tasks.",
    "reference" : "The data were kindly made available by Dr. Gordon S. Claridge from the\nDepartment of Experimental Psychology, University of Oxford.",
+   "usage" : "claridge",
    "parameters" : {
       "dnan" : "The genetic measurement on each woman's DNA.",
       "hand" : "The measure of left-handedness on an integer scale from 1 to 8."
-   }
+   },
+   "format" : "This data frame contains the following columns:"
 }
 
 var claridge = [

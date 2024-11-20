@@ -1,16 +1,16 @@
 var samplonomyInfo ={
-   "usage" : "An RData file.",
-   "description" : "Description\nSimulated economic time series representing GDP, Import, Export and\nBalance of Trade (BOT) of Samplonia. Samplonia is a fictional Island\ninvented by Jelke Bethelehem (2009). The country has 10 000 inhabitants.\nIt consists of two provinces: Agria and Induston. Agria is a rural\nprovince consisting of the mostly fruit and vegetable producing district\nof Wheaton and the mostly cattle producing Greenham. Induston has four\ndistricts. Two districts with heavy industry named Smokeley and Mudwater.\nNewbay is a young, developing district while Crowdon is where the rich\nSamplonians retire. The current data set contains several time series\nfrom Samplonia's national accounts system in long format.\nThere are annual and quarterly time series on GDP, Import, Export and\nBalance of Trade, for Samplonia as a whole, for each province and each\ndistrict. BOT is defined as Export-Import for each region and period;\nquarterly figures are expected to add up to annual figures for each\nregion and measure, and subregions are expected to add up to their\nsuper-regions.\nregion:  Region (Samplonia, one if its 2 provinces, or one of its 6 districts)\n\n\n freq:    Frequency of the time series\n\n\n period:  Period (year or quarter)\n\n\n measure: The economic variable (gdp, import, export, balance)\n\n\n value:   The value\nThe data set has been endowed with the following errors.\nFor Agria, the 2015 GDP record is not present.\n\n\n For Induston, the 2018Q3 export value is missing (NA)\n\n\n For Induston, there are two different values for the 2018Q2 Export\n\n\n For Crowdon, the 2015Q1 balance value is missing (NA).\n\n\n For Wheaton, the 2019Q2 import is missing (NA).",
-   "reference" : "An RData file.",
-   "title" : "Economic data on Samplonia",
-   "format" : "J. Bethlehem (2009), Applied Survey Methods: A Statistical Perspective. John\nWiley & Sons, Hoboken, NJ.",
    "parameters" : {
       "period" : "  Period (year or quarter)",
-      "measure" : " The economic variable (gdp, import, export, balance)",
-      "region" : "  Region (Samplonia, one if its 2 provinces, or one of its 6 districts)",
       "freq" : "    Frequency of the time series",
+      "region" : "  Region (Samplonia, one if its 2 provinces, or one of its 6 districts)",
+      "measure" : " The economic variable (gdp, import, export, balance)",
       "value" : "   The value"
-   }
+   },
+   "title" : "Economic data on Samplonia",
+   "description" : "Description\nSimulated economic time series representing GDP, Import, Export and\nBalance of Trade (BOT) of Samplonia. Samplonia is a fictional Island\ninvented by Jelke Bethelehem (2009). The country has 10 000 inhabitants.\nIt consists of two provinces: Agria and Induston. Agria is a rural\nprovince consisting of the mostly fruit and vegetable producing district\nof Wheaton and the mostly cattle producing Greenham. Induston has four\ndistricts. Two districts with heavy industry named Smokeley and Mudwater.\nNewbay is a young, developing district while Crowdon is where the rich\nSamplonians retire. The current data set contains several time series\nfrom Samplonia's national accounts system in long format.\nThere are annual and quarterly time series on GDP, Import, Export and\nBalance of Trade, for Samplonia as a whole, for each province and each\ndistrict. BOT is defined as Export-Import for each region and period;\nquarterly figures are expected to add up to annual figures for each\nregion and measure, and subregions are expected to add up to their\nsuper-regions.\nregion:  Region (Samplonia, one if its 2 provinces, or one of its 6 districts)\n\n\n freq:    Frequency of the time series\n\n\n period:  Period (year or quarter)\n\n\n measure: The economic variable (gdp, import, export, balance)\n\n\n value:   The value\nThe data set has been endowed with the following errors.\nFor Agria, the 2015 GDP record is not present.\n\n\n For Induston, the 2018Q3 export value is missing (NA)\n\n\n For Induston, there are two different values for the 2018Q2 Export\n\n\n For Crowdon, the 2015Q1 balance value is missing (NA).\n\n\n For Wheaton, the 2019Q2 import is missing (NA).",
+   "reference" : "An RData file.",
+   "usage" : "An RData file.",
+   "format" : "J. Bethlehem (2009), Applied Survey Methods: A Statistical Perspective. John\nWiley & Sons, Hoboken, NJ."
 }
 
 var samplonomy = [

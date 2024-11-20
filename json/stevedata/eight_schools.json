@@ -1,17 +1,6 @@
 {
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>eight_schools</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>The Effect of Special Preparation on SAT-V Scores in Eight Randomized Experiments</h2>\n<h3>Description</h3>\n<p>You've all seen these before. These are the &quot;eight schools&quot; that everyone gets when\nbeing introduced to Bayesian programming. Here are the full data for your consideration,\nwhich you can use instead of awkwardly searching where the data are and copy-pasting\nthem as a list. Every damn time, Steve.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>eight_schools\n</code></pre>\n<h3>Format</h3>\n<p>A data frame with 8 observations on the following 6 variables.\n</p>\n<dl>\n<dt><code>school</code></dt><dd><p>a letter denoting the school</p>\n</dd>\n<dt><code>num_treat</code></dt><dd><p>the number of students in the school receiving the treatment</p>\n</dd>\n<dt><code>num_control</code></dt><dd><p>the number of students in the school in the control group</p>\n</dd>\n<dt><code>est</code></dt><dd><p>the estimated treatment effect</p>\n</dd>\n<dt><code>se</code></dt><dd><p>the standard error of the effect estimate</p>\n</dd>\n<dt><code>rvar</code></dt><dd><p>the residual variance</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>Data copy-pasted from Table 1 in Rubin (1981).\n</p>\n<h3>References</h3>\n<p>Rubin, Donald B. 1981. &quot;Estimation in Parallel Randomized Experiments.&quot; <em>Journal of Educational Statistics</em> 6(4): 377-401.\n</p>\n</main>\n</div>\n",
    "data" : {
-      "z" : {
-         "school" : [
-            "A",
-            "B",
-            "C",
-            "D",
-            "E",
-            "F",
-            "G",
-            "H"
-         ]
-      },
       "y" : {
          "data" : [
             [
@@ -88,14 +77,25 @@
             "Var7",
             "Var8"
          ]
+      },
+      "z" : {
+         "school" : [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H"
+         ]
       }
    },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>eight_schools</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>The Effect of Special Preparation on SAT-V Scores in Eight Randomized Experiments</h2>\n<h3>Description</h3>\n<p>You've all seen these before. These are the &quot;eight schools&quot; that everyone gets when\nbeing introduced to Bayesian programming. Here are the full data for your consideration,\nwhich you can use instead of awkwardly searching where the data are and copy-pasting\nthem as a list. Every damn time, Steve.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>eight_schools\n</code></pre>\n<h3>Format</h3>\n<p>A data frame with 8 observations on the following 6 variables.\n</p>\n<dl>\n<dt><code>school</code></dt><dd><p>a letter denoting the school</p>\n</dd>\n<dt><code>num_treat</code></dt><dd><p>the number of students in the school receiving the treatment</p>\n</dd>\n<dt><code>num_control</code></dt><dd><p>the number of students in the school in the control group</p>\n</dd>\n<dt><code>est</code></dt><dd><p>the estimated treatment effect</p>\n</dd>\n<dt><code>se</code></dt><dd><p>the standard error of the effect estimate</p>\n</dd>\n<dt><code>rvar</code></dt><dd><p>the residual variance</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>Data copy-pasted from Table 1 in Rubin (1981).\n</p>\n<h3>References</h3>\n<p>Rubin, Donald B. 1981. &quot;Estimation in Parallel Randomized Experiments.&quot; <em>Journal of Educational Statistics</em> 6(4): 377-401.\n</p>\n</main>\n</div>\n",
    "config" : {
+      "scatterPlotMatrix" : 1,
+      "title" : "The Effect of Special Preparation on SAT-V Scores in Eight Randomized Experiments",
       "subtitle" : "stevedata - eight_schools",
       "colorBy" : "school",
-      "title" : "The Effect of Special Preparation on SAT-V Scores in Eight Randomized Experiments",
-      "graphType" : "Scatter2D",
-      "scatterPlotMatrix" : 1
+      "graphType" : "Scatter2D"
    }
 }

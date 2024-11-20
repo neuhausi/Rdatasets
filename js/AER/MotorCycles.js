@@ -1,8 +1,8 @@
 var MotorCyclesInfo ={
-   "format" : "An annual univariate time series from 1946 to 1993.",
-   "title" : "Motor Cycles in The Netherlands",
    "usage" : "data(\"MotorCycles\")",
-   "description" : "Description\nTime series of stock of motor cycles (two wheels) in The Netherlands\n(in thousands)."
+   "description" : "Description\nTime series of stock of motor cycles (two wheels) in The Netherlands\n(in thousands).",
+   "title" : "Motor Cycles in The Netherlands",
+   "format" : "An annual univariate time series from 1946 to 1993."
 }
 
 var MotorCycles = [

@@ -1,16 +1,26 @@
 {
-   "config" : {
-      "subtitle" : "pscl - AustralianElections",
-      "smpOverlays" : [
-         "Green",
-         "date"
-      ],
-      "graphType" : "Heatmap",
-      "title" : "elections to Australian House of Representatives"
-   },
    "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>AustralianElections</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>elections to Australian House of\nRepresentatives, 1949-2016</h2>\n<h3>Description</h3>\n<p>Aggregate data on the 24 elections to Australia's House of\nRepresentatives, 1949 to 2016. \n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(AustralianElections)</code></pre>\n<h3>Format</h3>\n<p>A data frame with the following variables:\t\n</p>\n<dl>\n<dt><code>date</code></dt><dd><p>date of election, stored using the\n<code>Date</code> class</p>\n</dd>\n<dt><code>Seats</code></dt><dd><p>numeric, number of seats in the House of\nRepresentatives</p>\n</dd> \n<dt><code>Uncontested</code></dt><dd><p>numeric, number of uncontested seats</p>\n</dd>\n<dt><code>ALPSeats</code></dt><dd><p>numeric, number of seats won by the\nAustralian Labor Party</p>\n</dd>\n<dt><code>LPSeats</code></dt><dd><p>numeric, number of seats won by the Liberal Party</p>\n</dd> \n<dt><code>NPSeats</code></dt><dd><p>numeric, number of seats won by the National\nParty (previously known as the Country Party)</p>\n</dd>\n<dt><code>OtherSeats</code></dt><dd><p>numeric, number of seats won by other\nparties and/or independent candidates</p>\n</dd>\n<dt><code>ALP</code></dt><dd><p>numeric, percentage of first preference votes cast for\nAustralian Labor Party candidates</p>\n</dd>\n<dt><code>ALP2PP</code></dt><dd><p>numeric, percentage of the two-party preferred\nvote won by Australian Labor Party candidates</p>\n</dd>\n<dt><code>LP</code></dt><dd><p>numeric, percent of first preference votes cast for\nLiberal Party candidates</p>\n</dd>\n<dt><code>NP</code></dt><dd><p>numeric, percent of first preference votes cast for\nNational Party (Country Party) candidates</p>\n</dd>\n<dt><code>DLP</code></dt><dd><p>numeric, percent of first preference votes cast\nfor Democratic Labor Party candidates</p>\n</dd>\n<dt><code>Dem</code></dt><dd><p>numeric, percent of first preference votes cast\nfor Australian Democrat candidates</p>\n</dd>\n<dt><code>Green</code></dt><dd><p>numeric, percent of first preference votes cast\nfor Green Party candidates</p>\n</dd>\n<dt><code>Hanson</code></dt><dd><p>numeric, percent of first preference votes cast\nfor candidates from Pauline Hanson's One Nation party</p>\n</dd>\n<dt><code>Com</code></dt><dd><p>numeric, percent of first preference votes cast\nfor Communist Party candidates</p>\n</dd>\n<dt><code>AP</code></dt><dd><p>numeric, percent of first preference votes cast for\nAustralia Party candidates</p>\n</dd>\n<dt><code>Informal</code></dt><dd><p>numeric, percent of ballots cast that are\nspoiled, blank, or otherwise uncountable (usually because of\nerrors in enumerating preferences)</p>\n</dd>\n<dt><code>Turnout</code></dt><dd><p>numeric, percent of enrolled voters recorded\nas having turned out to vote (Australia has compulsory voting)</p>\n</dd>\n</dl>\n<h3>Note</h3>\n<p>The Liberal National Party of Queensland formed in 2008 after a merger of the Liberal Party and the National Party. In all elections following 2008, they have been categorised under <code>LP</code>.</p>\n<h3>Source</h3>\n<p>Australian Electoral Commission. <a href=\"https://www.aec.gov.au\">https://www.aec.gov.au</a>.\n</p>\n<h3>References</h3>\n<p>Jackman, Simon. 2009. <em>Bayesian Analysis for the Social Sciences</em>.  Wiley: Hoboken, New Jersey.  Example 3.5.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>data(AustralianElections)\nattach(AustralianElections)\nalpSeatShare &lt;- ALPSeats/Seats\nalpVoteShare &lt;- ALP2PP/100\n## log-odds transforms\nx &lt;- log(alpVoteShare/(1-alpVoteShare))\ny &lt;- log(alpSeatShare/(1-alpSeatShare))\nols &lt;- lm(y~x)   ## Tufte-style seats-votes regression\nxseq &lt;- seq(-4.5,4.5,length=500)\nyhat &lt;- coef(ols)[1] + coef(ols)[2]*xseq\nyhat &lt;- exp(yhat)/(1+exp(yhat))\nxseq &lt;- exp(xseq)/(1+exp(xseq))\n## seats vote curve\nplot(x=alpVoteShare,\n     y=alpSeatShare,\n     xlab=\"ALP Vote Share\",\n     ylab=\"ALP Seat Share\")\nlines(xseq,yhat,lwd=2)\nabline(h=.5,lty=2)\nabline(v=.5,lty=2)\n</code></pre>\n</main>\n</div>\n",
    "data" : {
       "y" : {
+         "vars" : [
+            "Seats",
+            "Uncontested",
+            "ALPSeats",
+            "LPSeats",
+            "NPSeats",
+            "OtherSeats",
+            "ALP",
+            "ALP2PP",
+            "LP",
+            "NP",
+            "DLP",
+            "Dem",
+            "Hanson",
+            "Com",
+            "AP",
+            "Informal",
+            "Turnout"
+         ],
          "data" : [
             [
                121,
@@ -506,25 +516,6 @@
                91.01
             ]
          ],
-         "vars" : [
-            "Seats",
-            "Uncontested",
-            "ALPSeats",
-            "LPSeats",
-            "NPSeats",
-            "OtherSeats",
-            "ALP",
-            "ALP2PP",
-            "LP",
-            "NP",
-            "DLP",
-            "Dem",
-            "Hanson",
-            "Com",
-            "AP",
-            "Informal",
-            "Turnout"
-         ],
          "smps" : [
             "Smp1",
             "Smp2",
@@ -615,5 +606,14 @@
             "2016-07-02"
          ]
       }
+   },
+   "config" : {
+      "graphType" : "Heatmap",
+      "smpOverlays" : [
+         "Green",
+         "date"
+      ],
+      "subtitle" : "pscl - AustralianElections",
+      "title" : "elections to Australian House of Representatives"
    }
 }

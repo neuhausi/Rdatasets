@@ -1,14 +1,14 @@
 var earthwormsInfo ={
-   "format" : "A data frame with 35 observations on the following 3 variables.",
-   "reference" : "At dose 0 around half of the earthworms is expected be in each of the two containers. Thus it is not \nappropriate to fit an ordinary logistic regression with log(dose) as explanatory variable to these data\nas it implies an upper limit of 1 at dose 0 and in fact this model does not utilise the observations\nat dose 0 (see the example section below).",
-   "title" : "Earthworm toxicity test",
    "parameters" : {
-      "dose" : "a numeric vector of dose values",
       "total" : "a numeric vector containing total number of earthworms put in the containers",
+      "dose" : "a numeric vector of dose values",
       "number" : "a numeric vector containing counts of remaining earthworms in the container"
    },
+   "reference" : "At dose 0 around half of the earthworms is expected be in each of the two containers. Thus it is not \nappropriate to fit an ordinary logistic regression with log(dose) as explanatory variable to these data\nas it implies an upper limit of 1 at dose 0 and in fact this model does not utilise the observations\nat dose 0 (see the example section below).",
    "usage" : "data(earthworms)",
-   "description" : "Description\nThe dataset was obtained from a toxicity test using earthworms, and it contains the number of earthworms \nremaining in a container that was contaminated with a toxic substance (not disclosed) at various doses; so the number of earthworms not migrating to the neighbouring uncontaminated container."
+   "title" : "Earthworm toxicity test",
+   "description" : "Description\nThe dataset was obtained from a toxicity test using earthworms, and it contains the number of earthworms \nremaining in a container that was contaminated with a toxic substance (not disclosed) at various doses; so the number of earthworms not migrating to the neighbouring uncontaminated container.",
+   "format" : "A data frame with 35 observations on the following 3 variables."
 }
 
 var earthworms = [

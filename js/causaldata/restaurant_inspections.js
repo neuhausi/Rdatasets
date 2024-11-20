@@ -1,16 +1,16 @@
 var restaurant_inspectionsInfo ={
-   "description" : "Description\nThe restaurant_inspections data contains data on restaurant health inspections performed in Anchorage, Alaska.",
+   "reference" : "This data set is used in the Regression chapter of The Effect.",
    "usage" : "restaurant_inspections",
+   "title" : "Data on Restaurant Inspections",
+   "description" : "Description\nThe restaurant_inspections data contains data on restaurant health inspections performed in Anchorage, Alaska.",
    "parameters" : {
       "inspection_score" : "Health Inspection Score",
-      "business_name" : "Name of restaurant/chain",
-      "Weekend" : "Was the inspection performed on a weekend?",
+      "Year" : "Year of inspection",
       "NumberofLocations" : "Number of locations in restaurant chain",
-      "Year" : "Year of inspection"
+      "business_name" : "Name of restaurant/chain",
+      "Weekend" : "Was the inspection performed on a weekend?"
    },
-   "title" : "Data on Restaurant Inspections",
-   "format" : "A data frame with 27178 rows and 5 variables",
-   "reference" : "This data set is used in the Regression chapter of The Effect."
+   "format" : "A data frame with 27178 rows and 5 variables"
 }
 
 var restaurant_inspections = [

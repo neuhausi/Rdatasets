@@ -1,8 +1,8 @@
 var danishInfo ={
-   "format" : "A numeric vector containing 2167 observations, with a\ntimes attribute which is a POSIXct object\nof the same length.",
-   "title" : "Danish Fire Insurance Claims",
    "usage" : "data(danish)",
-   "description" : "Description\nThese data describe large fire insurance claims \nin Denmark from Thursday 3rd January 1980 until\nMonday 31st December 1990.\nThe data are contained in a numeric vector.\nThe dates of each observation are contained in a times\nattribute, which is an object of class \"POSIXct\" (see\nDateTimeClasses).\nThey were supplied by Mette Rytgaard of Copenhagen Re. \nNote that these data form an irregular time series."
+   "title" : "Danish Fire Insurance Claims",
+   "description" : "Description\nThese data describe large fire insurance claims \nin Denmark from Thursday 3rd January 1980 until\nMonday 31st December 1990.\nThe data are contained in a numeric vector.\nThe dates of each observation are contained in a times\nattribute, which is an object of class \"POSIXct\" (see\nDateTimeClasses).\nThey were supplied by Mette Rytgaard of Copenhagen Re. \nNote that these data form an irregular time series.",
+   "format" : "A numeric vector containing 2167 observations, with a\ntimes attribute which is a POSIXct object\nof the same length."
 }
 
 var danish = [

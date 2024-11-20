@@ -1,15 +1,15 @@
 var nitrofenInfo ={
+   "title" : "Toxicity of Nitrofen in Aquatic Systems",
    "description" : "Description\nThe nitrofen data frame has 50 rows and 5 columns.\nNitrofen is a herbicide that was used extensively for the control of \nbroad-leaved and grass weeds in cereals and rice. Although it is relatively\nnon-toxic to adult mammals, nitrofen is a significant tetragen and mutagen.\nIt is also acutely toxic and reproductively toxic to cladoceran zooplankton.\nNitrofen is no longer in commercial use in the U.S., having been the first\npesticide to be withdrawn due to tetragenic effects.\nThe data here come from an experiment to measure the reproductive toxicity\nof nitrofen on a species of zooplankton (Ceriodaphnia dubia).  50 animals\nwere randomized into batches of 10 and each batch was put in a solution with\na measured concentration of nitrofen.  Then the number of live offspring in\neach of the three broods to each animal was recorded.",
+   "reference" : "The data were obtained from",
    "usage" : "nitrofen",
    "parameters" : {
-      "brood3" : "The number of live offspring in the third brood.",
+      "conc" : "The nitrofen concentration in the solution (mug/litre).",
       "total" : "The total number of live offspring in the first three broods.",
       "brood1" : "The number of live offspring in the first brood.",
-      "conc" : "The nitrofen concentration in the solution (mug/litre).",
-      "brood2" : "The number of live offspring in the second brood."
+      "brood2" : "The number of live offspring in the second brood.",
+      "brood3" : "The number of live offspring in the third brood."
    },
-   "reference" : "The data were obtained from",
-   "title" : "Toxicity of Nitrofen in Aquatic Systems",
    "format" : "This data frame contains the following columns:"
 }
 

@@ -1,7 +1,22 @@
 {
+   "config" : {
+      "graphType" : "Heatmap",
+      "subtitle" : "openintro - gifted",
+      "title" : "Analytical skills of young gifted children"
+   },
    "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>gifted</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Analytical skills of young gifted children</h2>\n<h3>Description</h3>\n<p>An investigator is interested in understanding the relationship, if any,\nbetween the analytical skills of young gifted children and the following\nvariables: father's IQ, mother's IQ, age in month when the child first said\n&quot;mummy&quot; or &quot;daddy&quot;, age in month when the child first counted to 10\nsuccessfully, average number of hours per week the child's mother or father\nreads to the child, average number of hours per week the child watched an\neducational program on TV during the past three months, average number of\nhours per week the child watched cartoons on TV during the past three\nmonths. The analytical skills are evaluated using a standard testing\nprocedure, and the score on this test is used as the response variable.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>gifted\n</code></pre>\n<h3>Format</h3>\n<p>A data frame with 36 observations and 8 variables.\n</p>\n<dl>\n<dt>score</dt><dd><p>Score in test of analytical skills.</p>\n</dd>\n<dt>fatheriq</dt><dd><p>Father's IQ.</p>\n</dd>\n<dt>motheriq</dt><dd><p>Mother's IQ.</p>\n</dd>\n<dt>speak</dt><dd><p>Age in months when the child first said &quot;mummy&quot; or &quot;daddy&quot;.</p>\n</dd>\n<dt>count</dt><dd><p>Age in months when the child first counted to 10 successfully.</p>\n</dd>\n<dt>read</dt><dd><p>Average number of hours per week the child's mother or father\nreads to the child.</p>\n</dd>\n<dt>edutv</dt><dd><p>Average number of hours per week the child watched an\neducational program on TV during the past three months.</p>\n</dd>\n<dt>cartoons</dt><dd><p>Average number of hours per week the child watched cartoons\non TV during the past three months.</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>Data were collected from schools in a large city on a set of thirty-six\nchildren who were identified as gifted children soon after they reached the\nage of four.\n</p>\n<h3>Source</h3>\n<p>Graybill, F.A. &amp; Iyer, H.K., (1994) Regression Analysis: Concepts\nand Applications, Duxbury, p. 511-6.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>\ngifted\n</code></pre>\n</main>\n</div>\n",
    "data" : {
       "y" : {
+         "vars" : [
+            "score",
+            "fatheriq",
+            "motheriq",
+            "speak",
+            "count",
+            "read",
+            "edutv",
+            "cartoons"
+         ],
          "smps" : [
             "Smp1",
             "Smp2",
@@ -39,16 +54,6 @@
             "Smp34",
             "Smp35",
             "Smp36"
-         ],
-         "vars" : [
-            "score",
-            "fatheriq",
-            "motheriq",
-            "speak",
-            "count",
-            "read",
-            "edutv",
-            "cartoons"
          ],
          "data" : [
             [
@@ -357,10 +362,5 @@
             ]
          ]
       }
-   },
-   "config" : {
-      "title" : "Analytical skills of young gifted children",
-      "graphType" : "Heatmap",
-      "subtitle" : "openintro - gifted"
    }
 }

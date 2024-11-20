@@ -1,13 +1,13 @@
 var catsMInfo ={
-   "description" : "Description\nThe catsM data frame has 97 rows and 3 columns.\n144 adult (over 2kg in weight) cats used for experiments with the drug\ndigitalis had their heart and body weight recorded.  47 of the cats were\nfemale and 97 were male.  The catsM data frame consists of the data for\nthe male cats.  The full data are in dataset cats\nin package MASS.",
-   "usage" : "catsM",
    "parameters" : {
+      "Sex" : "A factor for the sex of the cat (levels are F and M: all\ncases are M in this subset).",
       "Bwt" : "Body weight in kg.",
-      "Hwt" : "Heart weight in g.",
-      "Sex" : "A factor for the sex of the cat (levels are F and M: all\ncases are M in this subset)."
+      "Hwt" : "Heart weight in g."
    },
-   "title" : "Weight Data for Domestic Cats",
+   "usage" : "catsM",
    "reference" : "The data were obtained from",
+   "description" : "Description\nThe catsM data frame has 97 rows and 3 columns.\n144 adult (over 2kg in weight) cats used for experiments with the drug\ndigitalis had their heart and body weight recorded.  47 of the cats were\nfemale and 97 were male.  The catsM data frame consists of the data for\nthe male cats.  The full data are in dataset cats\nin package MASS.",
+   "title" : "Weight Data for Domestic Cats",
    "format" : "This data frame contains the following columns:"
 }
 

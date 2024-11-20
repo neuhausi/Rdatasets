@@ -1,0 +1,14 @@
+{
+   "parameters" : {
+      "nbaf" : "the number of U.S. affiliates in the host country. Source: \"U.S. Direct Investment Abroad: 1982 Benchmark Survey Data.\" Table 5. (This variable is scaled by a factor of 1/100)",
+      "sales" : "sales made by the majority owned foreign affiliates of nonbank U.S. parents in finance, insurance and real estate. Source: \"U.S. Direct Investment Abroad: 1982 Benchmark Survey Data.\" Table III.D 3. (This variable is scaled by a factor of 1/100)",
+      "gdp" : "gross domestic product. Source: \"World \nBank, World Development Report 1984.\" Table \n3. (This variable is  scaled by a factor of \n1/100,000)",
+      "capexp" : "capital expenditures made by the MOFAs of \nnonbank U.S. corporations in finance, \ninsurance and real estate. Source: \n\"U.S. Direct Investment Abroad: 1982 \nBenchmark Survey data.\" Table III.C 6.",
+      "netinc" : "net income earned by MOFAs of nonbank U.S. corporations operating in the nonbanking financial sector of the host country. Source: \"U.S. Direct Investment Abroad: 1982 Benchmark Survey Data.\" Table III.D 6.(This variable is scaled by a factor of 1/10)"
+   },
+   "reference" : "Ioannatos, Petros E. (1995) &ldquo;Censored regression estimation under unobserved heterogeneity : a stochastic parameter approach&rdquo;, Journal of Business and Economics Statistics, 13(3), July, 327&ndash;335.",
+   "usage" : "data(Mofa)",
+   "description" : "Description\na cross-section from 1982\nnumber of observations :  50\nobservation :  country\ncountry :  United States",
+   "title" : "International Expansion of U.S. MOFAs \n(majority&ndash;owned Foreign Affiliates in Fire \n(finance, Insurance and Real Estate)",
+   "format" : "A dataframe containing :"
+}

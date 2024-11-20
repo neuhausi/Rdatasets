@@ -1,0 +1,6 @@
+{
+   "format" : "There is an 83rd measurement of 5607 km/sec in the Postman\net al. paper which is omitted in Roeder (1990) and from the\ndataset here.",
+   "title" : "Velocities for 82 Galaxies",
+   "description" : "Description\nA numeric vector of velocities in km/sec of 82 galaxies from 6\nwell-separated conic sections of an unfilled survey of the Corona\nBorealis region.  Multimodality in such surveys is evidence for voids\nand superclusters in the far universe.",
+   "usage" : "galaxies"
+}

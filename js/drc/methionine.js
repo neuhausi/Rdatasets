@@ -1,14 +1,14 @@
 var methionineInfo ={
-   "title" : "Weight gain for different methionine sources",
-   "reference" : "The dataset contains a common control measurement for the two treatments. More examples using this\ndataset are found under AR.2 and MM.2.",
-   "format" : "A data frame with 9 observations on the following 3 variables:",
    "parameters" : {
-      "dose" : "a numeric vector of methionine dose",
       "gain" : "a numeric vector of average body weight gain",
+      "dose" : "a numeric vector of methionine dose",
       "product" : "a factor with levels control, DLM and MHA denoting the treatments"
    },
+   "title" : "Weight gain for different methionine sources",
+   "description" : "Description\nData consist of average body weight gain of chickens being treated \nwith one of the two methionine sources DLM and HMTBA.",
+   "reference" : "The dataset contains a common control measurement for the two treatments. More examples using this\ndataset are found under AR.2 and MM.2.",
    "usage" : "data(methionine)",
-   "description" : "Description\nData consist of average body weight gain of chickens being treated \nwith one of the two methionine sources DLM and HMTBA."
+   "format" : "A data frame with 9 observations on the following 3 variables:"
 }
 
 var methionine = [

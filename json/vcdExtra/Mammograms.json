@@ -1,11 +1,4 @@
 {
-   "config" : {
-      "scatterPlotMatrix" : 1,
-      "title" : "Mammogram Ratings",
-      "colorBy" : null,
-      "graphType" : "Scatter2D",
-      "subtitle" : "vcdExtra - Mammograms"
-   },
    "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>Mammograms</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Mammogram Ratings</h2>\n<h3>Description</h3>\n<p>Kundel &amp; Polansky (2003) give (possibly contrived) data on a \nset of 110 mammograms rated by two readers.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(Mammograms)</code></pre>\n<h3>Format</h3>\n<p>A frequency table in matrix form.  The format is:\nnum [1:4, 1:4] 34 6 2 0 10 8 5 1 2 8 ...\n- attr(*, &quot;dimnames&quot;)=List of 2\n..$ Reader2: chr [1:4] &quot;Absent&quot; &quot;Minimal&quot; &quot;Moderate&quot; &quot;Severe&quot;\n..$ Reader1: chr [1:4] &quot;Absent&quot; &quot;Minimal&quot; &quot;Moderate&quot; &quot;Severe&quot;\n</p>\n<h3>Source</h3>\n<p>Kundel, H. L. &amp; Polansky, M. (2003), \n&quot;Measurement of Observer Agreement&quot;, <em>Radiology</em>, <b>228</b>, 303-308, Table A1\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>data(Mammograms)\nB &lt;- agreementplot(Mammograms, main=\"Mammogram ratings\")\n# agreement measures\nB\nKappa(Mammograms)\n## other displays\nmosaic(Mammograms, shade=TRUE)\nsieve(Mammograms, pop = FALSE, shade = TRUE)\nlabeling_cells(text = Mammograms, \n  gp_text = gpar(fontface = 2, cex=1.75))(as.table(Mammograms))\n</code></pre>\n</main>\n</div>\n",
    "data" : {
       "y" : {
@@ -48,5 +41,12 @@
             ]
          ]
       }
+   },
+   "config" : {
+      "colorBy" : null,
+      "graphType" : "Scatter2D",
+      "subtitle" : "vcdExtra - Mammograms",
+      "title" : "Mammogram Ratings",
+      "scatterPlotMatrix" : 1
    }
 }

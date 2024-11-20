@@ -1,15 +1,15 @@
 var DialyzerInfo ={
-   "usage" : "This data frame contains the following columns:",
-   "title" : "High-Flux Hemodialyzer",
-   "reference" : "Vonesh and Carter (1992) describe data measured on high-flux\nhemodialyzers to assess their in vivo ultrafiltration\ncharacteristics. The ultrafiltration rates (in mL/hr) of 20 high-flux\ndialyzers were measured at seven different transmembrane pressures (in\ndmHg). The in vitro evaluation of the dialyzers used bovine\nblood at flow rates of either 200~dl/min or 300~dl/min. The data,\nare also analyzed in Littell, Milliken, Stroup, and Wolfinger (1996).",
-   "description" : "Description\nThe Dialyzer data frame has 140 rows and 5 columns.",
    "parameters" : {
+      "index" : "index of observation within subject&mdash;1 through 7.",
+      "rate" : "the hemodialyzer ultrafiltration rate (mL/hr).",
       "QB" : "a factor with levels\n200 and \n300 giving the bovine blood flow rate (dL/min).",
       "pressure" : "a numeric vector giving the transmembrane pressure (dmHg).",
-      "Subject" : "an ordered factor with levels\n10 < 8 < 2 < 6 < 3 <\n5 < 9 < 7 < 1 < 4 <\n17 < 20 < 11 < 12 < 16 <\n13 < 14 < 18 < 15 < 19\ngiving the unique identifier for each subject",
-      "rate" : "the hemodialyzer ultrafiltration rate (mL/hr).",
-      "index" : "index of observation within subject&mdash;1 through 7."
-   }
+      "Subject" : "an ordered factor with levels\n10 < 8 < 2 < 6 < 3 <\n5 < 9 < 7 < 1 < 4 <\n17 < 20 < 11 < 12 < 16 <\n13 < 14 < 18 < 15 < 19\ngiving the unique identifier for each subject"
+   },
+   "reference" : "Vonesh and Carter (1992) describe data measured on high-flux\nhemodialyzers to assess their in vivo ultrafiltration\ncharacteristics. The ultrafiltration rates (in mL/hr) of 20 high-flux\ndialyzers were measured at seven different transmembrane pressures (in\ndmHg). The in vitro evaluation of the dialyzers used bovine\nblood at flow rates of either 200~dl/min or 300~dl/min. The data,\nare also analyzed in Littell, Milliken, Stroup, and Wolfinger (1996).",
+   "usage" : "This data frame contains the following columns:",
+   "description" : "Description\nThe Dialyzer data frame has 140 rows and 5 columns.",
+   "title" : "High-Flux Hemodialyzer"
 }
 
 var Dialyzer = [

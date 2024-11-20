@@ -1,7 +1,25 @@
 {
+   "config" : {
+      "subtitle" : "ISLR - Auto",
+      "title" : "Auto Data Set",
+      "graphType" : "Heatmap",
+      "smpOverlays" : [
+         "name"
+      ]
+   },
    "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>Auto</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>\nAuto Data Set\n</h2>\n<h3>Description</h3>\n<p>Gas mileage, horsepower, and other information for 392 vehicles.</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>Auto</code></pre>\n<h3>Format</h3>\n<p>A data frame with 392 observations on the following 9 variables.\n</p>\n<dl>\n<dt><code>mpg</code></dt><dd><p>miles per gallon</p>\n</dd>\n<dt><code>cylinders</code></dt><dd><p>Number of cylinders between 4 and 8</p>\n</dd>\n<dt><code>displacement</code></dt><dd><p>Engine displacement (cu. inches)</p>\n</dd>\n<dt><code>horsepower</code></dt><dd><p>Engine horsepower</p>\n</dd>\n<dt><code>weight</code></dt><dd><p>Vehicle weight (lbs.)</p>\n</dd>\n<dt><code>acceleration</code></dt><dd><p>Time to accelerate from 0 to 60 mph (sec.)</p>\n</dd>\n<dt><code>year</code></dt><dd><p>Model year (modulo 100)</p>\n</dd>\n<dt><code>origin</code></dt><dd><p>Origin of car (1. American, 2. European, 3. Japanese)</p>\n</dd>\n<dt><code>name</code></dt><dd><p>Vehicle name</p>\n</dd></dl>\n<p>The orginal data contained 408 observations but 16 observations with\nmissing values were removed.</p>\n<h3>Source</h3>\n<p>This dataset was taken from the StatLib library which is maintained at Carnegie Mellon University. The dataset was used in the 1983 American Statistical Association Exposition.\n</p>\n<h3>References</h3>\n<p>James, G., Witten, D., Hastie, T., and Tibshirani, R. (2013)\n<em>An Introduction to Statistical Learning with applications in R</em>,\n<a href=\"https://www.statlearning.com\">https://www.statlearning.com</a>,\nSpringer-Verlag, New York\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>pairs(Auto)\nattach(Auto)\nhist(mpg)\n</code></pre>\n</main>\n</div>\n",
    "data" : {
       "y" : {
+         "vars" : [
+            "mpg",
+            "cylinders",
+            "displacement",
+            "horsepower",
+            "weight",
+            "acceleration",
+            "year",
+            "origin"
+         ],
          "smps" : [
             "1",
             "2",
@@ -395,16 +413,6 @@
             "395",
             "396",
             "397"
-         ],
-         "vars" : [
-            "mpg",
-            "cylinders",
-            "displacement",
-            "horsepower",
-            "weight",
-            "acceleration",
-            "year",
-            "origin"
          ],
          "data" : [
             [
@@ -3957,13 +3965,5 @@
             "chevy s-10"
          ]
       }
-   },
-   "config" : {
-      "subtitle" : "ISLR - Auto",
-      "title" : "Auto Data Set",
-      "graphType" : "Heatmap",
-      "smpOverlays" : [
-         "name"
-      ]
    }
 }

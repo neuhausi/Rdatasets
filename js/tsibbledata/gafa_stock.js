@@ -1,8 +1,8 @@
 var gafa_stockInfo ={
-   "description" : "Description\nHistorical stock prices from 2014-2018 for Google, Amazon, Facebook and Apple.\nAll prices are in $USD.",
+   "format" : "gafa_stock is a tsibble containing data on irregular trading days:",
    "usage" : "Time series of class tsibble",
-   "title" : "GAFA stock prices",
-   "format" : "gafa_stock is a tsibble containing data on irregular trading days:"
+   "description" : "Description\nHistorical stock prices from 2014-2018 for Google, Amazon, Facebook and Apple.\nAll prices are in $USD.",
+   "title" : "GAFA stock prices"
 }
 
 var gafa_stock = [

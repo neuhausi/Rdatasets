@@ -1,0 +1,12 @@
+{
+   "format" : "A data frame with 39 observations on the following 3 variables.",
+   "description" : "Description\nFinney's data on vaso constriction in the skin of the digits.",
+   "title" : "Vaso Constriction Skin Data Set",
+   "reference" : "The data taken from Finney (1947) were obtained in a carefully\ncontrolled study in human physiology where a reflex\n&ldquo;vaso constriction&rdquo; may occur in the skin of the digits after taking a\nsingle deep breath.  The response y is the occurence (y = 1) or\nnon-occurence (y = 0) of vaso constriction in the skin of the digits\nof a subject after he or she inhaled a certain volume of air at a certain\nrate.  The responses of three subjects are available.  The first\ncontributed 9 responses, the second contributed 8 responses, and the\nthird contributed 22 responses.",
+   "usage" : "data(vaso, package=\"robustbase\")",
+   "parameters" : {
+      "Y" : "vector of 0 or 1 values.",
+      "Rate" : "Rate of inhalation",
+      "Volume" : "Inhaled volume of air"
+   }
+}

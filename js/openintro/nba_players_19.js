@@ -1,18 +1,18 @@
 var nba_players_19Info ={
-   "usage" : "nba_players_19",
-   "description" : "Description\nSummary information from the NBA players for the 2018-2019 season.",
-   "format" : "A data frame with 494 observations on the following 7 variables.",
-   "reference" : "https://www.nba.com/players",
-   "title" : "NBA Players for the 2018-2019 season",
    "parameters" : {
-      "number" : "Jersey number.",
-      "team_abbr" : "3-letter team abbreviation.",
-      "first_name" : "First name.",
       "height" : "Height, in inches.",
+      "first_name" : "First name.",
+      "position" : "Player position.",
+      "team_abbr" : "3-letter team abbreviation.",
+      "number" : "Jersey number.",
       "team" : "Team name",
-      "last_name" : "Last name.",
-      "position" : "Player position."
-   }
+      "last_name" : "Last name."
+   },
+   "title" : "NBA Players for the 2018-2019 season",
+   "description" : "Description\nSummary information from the NBA players for the 2018-2019 season.",
+   "reference" : "https://www.nba.com/players",
+   "usage" : "nba_players_19",
+   "format" : "A data frame with 494 observations on the following 7 variables."
 }
 
 var nba_players_19 = [

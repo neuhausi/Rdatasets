@@ -1,9 +1,4 @@
 {
-   "config" : {
-      "subtitle" : "fpp2 - elecdemand",
-      "graphType" : "Scatter3D",
-      "title" : "Half-hourly and daily electricity demand for Victoria"
-   },
    "data" : {
       "y" : {
          "data" : [
@@ -87608,6 +87603,11 @@
                16.6
             ]
          ],
+         "smps" : [
+            "Demand",
+            "WorkDay",
+            "Temperature"
+         ],
          "vars" : [
             "Var1",
             "Var2",
@@ -105129,13 +105129,13 @@
             "Var17518",
             "Var17519",
             "Var17520"
-         ],
-         "smps" : [
-            "Demand",
-            "WorkDay",
-            "Temperature"
          ]
       }
    },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>elecdemand</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Half-hourly and daily electricity demand for Victoria, Australia, in 2014</h2>\n<h3>Description</h3>\n<p><code>elecdemand</code> is a half-hourly time series matrix with three columns:\n</p>\n<table>\n<tr>\n <td style=\"text-align: left;\">\n    Demand:      </td><td style=\"text-align: left;\"> Total electricity demand in GW for Victoria, Australia,\n                      every half-hour during 2014.</td>\n</tr>\n<tr>\n <td style=\"text-align: left;\">\n    WorkDay:     </td><td style=\"text-align: left;\"> taking value 1 on work days, and 0 otherwise.</td>\n</tr>\n<tr>\n <td style=\"text-align: left;\">\n    Temperature: </td><td style=\"text-align: left;\"> half-hourly temperatures for Melbourne\n                      (BOM site 086071).\n</td>\n</tr>\n</table>\n<p><code>elecdaily</code> is a daily time series matrix with three columns:\n</p>\n<table>\n<tr>\n <td style=\"text-align: left;\">\n    Demand:      </td><td style=\"text-align: left;\"> Total electricity demand in GW for Victoria, Australia,\n                      every day during 2014.</td>\n</tr>\n<tr>\n <td style=\"text-align: left;\">\n    WorkDay:     </td><td style=\"text-align: left;\"> taking value 1 on work days, and 0 otherwise.</td>\n</tr>\n<tr>\n <td style=\"text-align: left;\">\n    Temperature: </td><td style=\"text-align: left;\"> maximum daily temperatures for Melbourne\n                      (BOM site 086071).\n</td>\n</tr>\n</table>\n<h3>Format</h3>\n<p>Multiple time series of class <code>mts</code>.\n</p>\n<h3>Details</h3>\n<p>This data is for operational demand, which is the demand met by local\nscheduled generating units, semi-scheduled generating units, and\nnon-scheduled intermittent generating units of aggregate capacity larger\nthan 30 MW, and by generation imports to the region. The operational demand\nexcludes the demand met by non-scheduled non-intermittent generating units,\nnon-scheduled intermittent generating units of aggregate capacity smaller\nthan 30 MW, exempt generation (e.g. rooftop solar, gas tri-generation, very\nsmall wind farms, etc), and demand of local scheduled loads. It also\nexcludes some very large industrial users (such as mines or smelters).\n</p>\n<h3>Source</h3>\n<p>Australian Energy Market Operator, and the Australian Bureau of\nMeteorology.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>\nsummary(elecdemand)\nsummary(elecdaily)\n</code></pre>\n</main>\n</div>\n"
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>elecdemand</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Half-hourly and daily electricity demand for Victoria, Australia, in 2014</h2>\n<h3>Description</h3>\n<p><code>elecdemand</code> is a half-hourly time series matrix with three columns:\n</p>\n<table>\n<tr>\n <td style=\"text-align: left;\">\n    Demand:      </td><td style=\"text-align: left;\"> Total electricity demand in GW for Victoria, Australia,\n                      every half-hour during 2014.</td>\n</tr>\n<tr>\n <td style=\"text-align: left;\">\n    WorkDay:     </td><td style=\"text-align: left;\"> taking value 1 on work days, and 0 otherwise.</td>\n</tr>\n<tr>\n <td style=\"text-align: left;\">\n    Temperature: </td><td style=\"text-align: left;\"> half-hourly temperatures for Melbourne\n                      (BOM site 086071).\n</td>\n</tr>\n</table>\n<p><code>elecdaily</code> is a daily time series matrix with three columns:\n</p>\n<table>\n<tr>\n <td style=\"text-align: left;\">\n    Demand:      </td><td style=\"text-align: left;\"> Total electricity demand in GW for Victoria, Australia,\n                      every day during 2014.</td>\n</tr>\n<tr>\n <td style=\"text-align: left;\">\n    WorkDay:     </td><td style=\"text-align: left;\"> taking value 1 on work days, and 0 otherwise.</td>\n</tr>\n<tr>\n <td style=\"text-align: left;\">\n    Temperature: </td><td style=\"text-align: left;\"> maximum daily temperatures for Melbourne\n                      (BOM site 086071).\n</td>\n</tr>\n</table>\n<h3>Format</h3>\n<p>Multiple time series of class <code>mts</code>.\n</p>\n<h3>Details</h3>\n<p>This data is for operational demand, which is the demand met by local\nscheduled generating units, semi-scheduled generating units, and\nnon-scheduled intermittent generating units of aggregate capacity larger\nthan 30 MW, and by generation imports to the region. The operational demand\nexcludes the demand met by non-scheduled non-intermittent generating units,\nnon-scheduled intermittent generating units of aggregate capacity smaller\nthan 30 MW, exempt generation (e.g. rooftop solar, gas tri-generation, very\nsmall wind farms, etc), and demand of local scheduled loads. It also\nexcludes some very large industrial users (such as mines or smelters).\n</p>\n<h3>Source</h3>\n<p>Australian Energy Market Operator, and the Australian Bureau of\nMeteorology.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>\nsummary(elecdemand)\nsummary(elecdaily)\n</code></pre>\n</main>\n</div>\n",
+   "config" : {
+      "graphType" : "Scatter3D",
+      "subtitle" : "fpp2 - elecdemand",
+      "title" : "Half-hourly and daily electricity demand for Victoria"
+   }
 }

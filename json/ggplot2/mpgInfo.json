@@ -1,0 +1,19 @@
+{
+   "usage" : "mpg",
+   "title" : "Fuel economy data from 1999 to 2008 for 38 popular models of cars",
+   "description" : "Description\nThis dataset contains a subset of the fuel economy data that the EPA makes\navailable on https://fueleconomy.gov/. It contains only models which\nhad a new release every year between 1999 and 2008 - this was used as a\nproxy for the popularity of the car.",
+   "parameters" : {
+      "year" : "year of manufacture",
+      "displ" : "engine displacement, in litres",
+      "manufacturer" : "manufacturer name",
+      "model" : "model name",
+      "cty" : "city miles per gallon",
+      "hwy" : "highway miles per gallon",
+      "trans" : "type of transmission",
+      "fl" : "fuel type",
+      "cyl" : "number of cylinders",
+      "class" : "\"type\" of car",
+      "drv" : "the type of drive train, where f = front-wheel drive, r = rear wheel drive, 4 = 4wd"
+   },
+   "format" : "A data frame with 234 rows and 11 variables:"
+}

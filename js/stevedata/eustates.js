@@ -1,14 +1,14 @@
 var eustatesInfo ={
+   "format" : "A data frame with 28 observations on the following 3 variables.",
    "parameters" : {
-      "country" : "a character vector for the country",
       "iso2c" : "a character vector for iso2c",
+      "country" : "a character vector for the country",
       "date" : "a date indicating accession"
    },
    "reference" : "Data come from the European Union's website.",
+   "usage" : "eustates",
    "title" : "EU Member States (Current as of 2019)",
-   "format" : "A data frame with 28 observations on the following 3 variables.",
-   "description" : "Description\nEuropean Union membership by accession date",
-   "usage" : "eustates"
+   "description" : "Description\nEuropean Union membership by accession date"
 }
 
 var eustates = [

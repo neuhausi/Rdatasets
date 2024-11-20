@@ -1,16 +1,16 @@
 var presidentInfo ={
-   "usage" : "president",
+   "parameters" : {
+      "end" : "End year",
+      "potus" : "President of the United States",
+      "party" : "Political party of the president",
+      "start" : "Start year",
+      "vpotus" : "Vice President of the United States"
+   },
    "description" : "Description\nSummary of the changes in the president and vice president for the United\nStates of America.",
    "title" : "United States Presidental History",
    "reference" : "Presidents of the United States (table) &ndash; infoplease.com (visited:\nNov 2nd, 2010)",
-   "format" : "A data frame with 67 observations on the following 5 variables.",
-   "parameters" : {
-      "party" : "Political party of the president",
-      "potus" : "President of the United States",
-      "end" : "End year",
-      "vpotus" : "Vice President of the United States",
-      "start" : "Start year"
-   }
+   "usage" : "president",
+   "format" : "A data frame with 67 observations on the following 5 variables."
 }
 
 var president = [

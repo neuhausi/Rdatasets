@@ -1,13 +1,13 @@
 var partycodesInfo ={
-   "title" : "political parties appearing in the U.S. Congress",
-   "format" : "codeinteger, numeric code for legislator appearing in Poole and\nRosenthal rollcall data files\n\npartycharacter, name of party",
-   "reference" : "The function readKH converts the integer codes\ninto strings, via a table lookup in this data frame.",
    "parameters" : {
-      "party" : "character, name of party",
-      "code" : "integer, numeric code for legislator appearing in Poole and\nRosenthal rollcall data files"
+      "code" : "integer, numeric code for legislator appearing in Poole and\nRosenthal rollcall data files",
+      "party" : "character, name of party"
    },
+   "description" : "Description\nNumeric codes and names of 85 political parties appearing in Poole\nand Rosenthal's collection of U.S. Congressional roll calls.",
+   "title" : "political parties appearing in the U.S. Congress",
+   "reference" : "The function readKH converts the integer codes\ninto strings, via a table lookup in this data frame.",
    "usage" : "data(partycodes)",
-   "description" : "Description\nNumeric codes and names of 85 political parties appearing in Poole\nand Rosenthal's collection of U.S. Congressional roll calls."
+   "format" : "codeinteger, numeric code for legislator appearing in Poole and\nRosenthal rollcall data files\n\npartycharacter, name of party"
 }
 
 var partycodes = [

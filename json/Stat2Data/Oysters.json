@@ -1,7 +1,45 @@
 {
+   "config" : {
+      "graphType" : "Scatter2D",
+      "subtitle" : "Stat2Data - Oysters",
+      "title" : "Size of Oysters",
+      "scatterPlotMatrix" : 1
+   },
    "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>Oysters</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Size of Oysters</h2>\n<h3>Description</h3>\n<p>Comparing methods for measuring the size of oysters\n</p>\n<h3>Format</h3>\n<p>A data frame with 30 observations on the following 5 variables.\n</p>\n<dl>\n<dt><code>ID</code></dt><dd><p>ID number of each oyster</p>\n</dd>\n<dt><code>Weight</code></dt><dd><p>Weight (in grams)</p>\n</dd>\n<dt><code>Volume</code></dt><dd><p>Volume (in cubic centimeters)</p>\n</dd>\n<dt><code>ThreeD</code></dt><dd><p>Measurement from a 3D system (pixels)</p>\n</dd>\n<dt><code>TwoD</code></dt><dd><p>Measurement from a 2D cross-section (pixels)</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>In 2001 engineers at an R&amp;D lab Agri-Tech, Inc, in Woodstock, Virginia, designed a 3-D system that they hoped would improve on the existing 2-D system for measuring the size of oysters. The 3-D system used computer scanning to estimate an oyster volume, whereas the old 2-D system estimated a cross-sectional area. Data shows the result of both systems, as well as the actual weight and volume of each oyster used in calibration.\n</p>\n<h3>Source</h3>\n<p>Data found at JSE data archive: http://ww2.amstat.org/publications/jse/jse_data_archive.htm with the filenames of 30oysters.  Contributors are G. Andy Chang, G. Jay Kerns, D. J. Lee, and Gary L. Stanek.\n</p>\n<p>Original article is:  Lee, D., Lane, R., and Chang, G., (2001) &quot;Three-dimension Reconstruction for High-speed Volume Measurement,&quot; Proceedings of the International Society for Optical Engineering, Machine\nVision and Three-Dimensional Imaging Systems for Inspection and Metrology, Volume 4189,\np.258-267.\n</p>\n</main>\n</div>\n",
    "data" : {
       "y" : {
+         "vars" : [
+            "Var1",
+            "Var2",
+            "Var3",
+            "Var4",
+            "Var5",
+            "Var6",
+            "Var7",
+            "Var8",
+            "Var9",
+            "Var10",
+            "Var11",
+            "Var12",
+            "Var13",
+            "Var14",
+            "Var15",
+            "Var16",
+            "Var17",
+            "Var18",
+            "Var19",
+            "Var20",
+            "Var21",
+            "Var22",
+            "Var23",
+            "Var24",
+            "Var25",
+            "Var26",
+            "Var27",
+            "Var28",
+            "Var29",
+            "Var30"
+         ],
          "data" : [
             [
                1,
@@ -220,45 +258,7 @@
             "Volume",
             "ThreeD",
             "TwoD"
-         ],
-         "vars" : [
-            "Var1",
-            "Var2",
-            "Var3",
-            "Var4",
-            "Var5",
-            "Var6",
-            "Var7",
-            "Var8",
-            "Var9",
-            "Var10",
-            "Var11",
-            "Var12",
-            "Var13",
-            "Var14",
-            "Var15",
-            "Var16",
-            "Var17",
-            "Var18",
-            "Var19",
-            "Var20",
-            "Var21",
-            "Var22",
-            "Var23",
-            "Var24",
-            "Var25",
-            "Var26",
-            "Var27",
-            "Var28",
-            "Var29",
-            "Var30"
          ]
       }
-   },
-   "config" : {
-      "subtitle" : "Stat2Data - Oysters",
-      "title" : "Size of Oysters",
-      "graphType" : "Scatter2D",
-      "scatterPlotMatrix" : 1
    }
 }

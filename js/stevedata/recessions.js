@@ -1,19 +1,19 @@
 var recessionsInfo ={
-   "description" : "Description\nData on U.S. recessions, past to present. Data include information on contraction,\nexpansion, and cycle.",
    "usage" : "recessions",
+   "reference" : "Data come from via scraping job of https://www.nber.org/research/data/us-business-cycle-expansions-and-contractions",
+   "description" : "Description\nData on U.S. recessions, past to present. Data include information on contraction,\nexpansion, and cycle.",
+   "title" : "United States Recessions, 1855-present",
    "parameters" : {
       "p2t" : "peak to trough (in months)",
+      "prev_t2p" : "previous trough to this peak (in months)",
+      "pfpp" : "peak from previous peak (in months)",
       "trough" : "the year-month of the trough, as a date",
-      "tfpt" : "trough from previous trough (in months)",
       "troughq" : "the trough quarter",
       "peakq" : "the peak quarter",
-      "prev_t2p" : "previous trough to this peak (in months)",
       "peak" : "the year-month of the peak, as a date",
-      "pfpp" : "peak from previous peak (in months)"
+      "tfpt" : "trough from previous trough (in months)"
    },
-   "format" : "A data frame with 35 observations on the following 8 variables.",
-   "reference" : "Data come from via scraping job of https://www.nber.org/research/data/us-business-cycle-expansions-and-contractions",
-   "title" : "United States Recessions, 1855-present"
+   "format" : "A data frame with 35 observations on the following 8 variables."
 }
 
 var recessions = [

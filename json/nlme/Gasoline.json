@@ -1,4 +1,9 @@
 {
+   "config" : {
+      "graphType" : "Heatmap",
+      "title" : "Refinery yield of gasoline",
+      "subtitle" : "nlme - Gasoline"
+   },
    "data" : {
       "y" : {
          "data" : [
@@ -207,14 +212,6 @@
                190
             ]
          ],
-         "vars" : [
-            "yield",
-            "endpoint",
-            "Sample",
-            "API",
-            "vapor",
-            "ASTM"
-         ],
          "smps" : [
             "Smp1",
             "Smp2",
@@ -248,13 +245,16 @@
             "Smp30",
             "Smp31",
             "Smp32"
+         ],
+         "vars" : [
+            "yield",
+            "endpoint",
+            "Sample",
+            "API",
+            "vapor",
+            "ASTM"
          ]
       }
    },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>Gasoline</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Refinery yield of gasoline</h2>\n<h3>Description</h3>\n<p>The <code>Gasoline</code> data frame has 32 rows and 6 columns.\n</p>\n<h3>Format</h3>\n<p>This data frame contains the following columns:\n</p>\n<dl>\n<dt>yield</dt><dd>\n<p>a numeric vector giving the percentage of crude oil converted to\ngasoline after distillation and fractionation\n</p>\n</dd>\n<dt>endpoint</dt><dd>\n<p>a numeric vector giving the temperature (degrees F) at which all\nthe gasoline is vaporized\n</p>\n</dd>\n<dt>Sample</dt><dd>\n<p>an ordered factor giving the inferred crude oil sample number\n</p>\n</dd>\n<dt>API</dt><dd>\n<p>a numeric vector giving the crude oil gravity (degrees API)\n</p>\n</dd>\n<dt>vapor</dt><dd>\n<p>a numeric vector giving the vapor pressure of the crude oil\n<code class=\"reqn\">(\\mathrm{lbf}/\\mathrm{in}^2)</code>\n</p>\n</dd>\n<dt>ASTM</dt><dd>\n<p>a numeric vector giving the crude oil 10% point ASTM&mdash;the\ntemperature at which 10% of the crude oil has become vapor. \n</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>Prater (1955) provides data on crude oil properties and\ngasoline yields.  Atkinson (1985)\nuses these data to illustrate the use of diagnostics in multiple\nregression analysis.  Three of the covariates&mdash;<code>API</code>,\n<code>vapor</code>, and <code>ASTM</code>&mdash;measure characteristics of the\ncrude oil used to produce the gasoline.  The other covariate &mdash;\n<code>endpoint</code>&mdash;is a characteristic of the refining process.\nDaniel and Wood (1980) notice that the covariates characterizing\nthe crude oil occur in only ten distinct groups and conclude that the\ndata represent responses measured on ten different crude oil samples.\n</p>\n<h3>Source</h3>\n<p>Prater, N. H. (1955), Estimate gasoline yields from crudes,\n<em>Petroleum Refiner</em>, <b>35</b> (5).\n</p>\n<p>Atkinson, A. C. (1985), <em>Plots, Transformations, and\nRegression</em>, Oxford Press, New York.\n</p>\n<p>Daniel, C. and Wood, F. S. (1980), <em>Fitting Equations to Data</em>,\nWiley, New York\n</p>\n<p>Venables, W. N. and Ripley, B. D. (2002) <em>Modern Applied\nStatistics with S (4th ed)</em>, Springer, New York.\n</p>\n</main>\n</div>\n",
-   "config" : {
-      "graphType" : "Heatmap",
-      "title" : "Refinery yield of gasoline",
-      "subtitle" : "nlme - Gasoline"
-   }
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>Gasoline</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Refinery yield of gasoline</h2>\n<h3>Description</h3>\n<p>The <code>Gasoline</code> data frame has 32 rows and 6 columns.\n</p>\n<h3>Format</h3>\n<p>This data frame contains the following columns:\n</p>\n<dl>\n<dt>yield</dt><dd>\n<p>a numeric vector giving the percentage of crude oil converted to\ngasoline after distillation and fractionation\n</p>\n</dd>\n<dt>endpoint</dt><dd>\n<p>a numeric vector giving the temperature (degrees F) at which all\nthe gasoline is vaporized\n</p>\n</dd>\n<dt>Sample</dt><dd>\n<p>an ordered factor giving the inferred crude oil sample number\n</p>\n</dd>\n<dt>API</dt><dd>\n<p>a numeric vector giving the crude oil gravity (degrees API)\n</p>\n</dd>\n<dt>vapor</dt><dd>\n<p>a numeric vector giving the vapor pressure of the crude oil\n<code class=\"reqn\">(\\mathrm{lbf}/\\mathrm{in}^2)</code>\n</p>\n</dd>\n<dt>ASTM</dt><dd>\n<p>a numeric vector giving the crude oil 10% point ASTM&mdash;the\ntemperature at which 10% of the crude oil has become vapor. \n</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>Prater (1955) provides data on crude oil properties and\ngasoline yields.  Atkinson (1985)\nuses these data to illustrate the use of diagnostics in multiple\nregression analysis.  Three of the covariates&mdash;<code>API</code>,\n<code>vapor</code>, and <code>ASTM</code>&mdash;measure characteristics of the\ncrude oil used to produce the gasoline.  The other covariate &mdash;\n<code>endpoint</code>&mdash;is a characteristic of the refining process.\nDaniel and Wood (1980) notice that the covariates characterizing\nthe crude oil occur in only ten distinct groups and conclude that the\ndata represent responses measured on ten different crude oil samples.\n</p>\n<h3>Source</h3>\n<p>Prater, N. H. (1955), Estimate gasoline yields from crudes,\n<em>Petroleum Refiner</em>, <b>35</b> (5).\n</p>\n<p>Atkinson, A. C. (1985), <em>Plots, Transformations, and\nRegression</em>, Oxford Press, New York.\n</p>\n<p>Daniel, C. and Wood, F. S. (1980), <em>Fitting Equations to Data</em>,\nWiley, New York\n</p>\n<p>Venables, W. N. and Ripley, B. D. (2002) <em>Modern Applied\nStatistics with S (4th ed)</em>, Springer, New York.\n</p>\n</main>\n</div>\n"
 }

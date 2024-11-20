@@ -1,8 +1,8 @@
 var FederalistInfo ={
    "title" : "&lsquo;May&rsquo; in Federalist Papers",
-   "format" : "A 1-way table giving the number of occurrences of &lsquo;may&rsquo; in 262\nblocks of text.  The variable and its levels are",
+   "description" : "Description\nData from Mosteller & Wallace (1984) investigating the use of certain\nkeywords (&lsquo;may&rsquo; in this data set) to identify the author of 12\ndisputed &lsquo;Federalist Papers&rsquo; by Alexander Hamilton, John Jay\nand James Madison.",
    "usage" : "data(\"Federalist\")",
-   "description" : "Description\nData from Mosteller & Wallace (1984) investigating the use of certain\nkeywords (&lsquo;may&rsquo; in this data set) to identify the author of 12\ndisputed &lsquo;Federalist Papers&rsquo; by Alexander Hamilton, John Jay\nand James Madison."
+   "format" : "A 1-way table giving the number of occurrences of &lsquo;may&rsquo; in 262\nblocks of text.  The variable and its levels are"
 }
 
 var Federalist = [

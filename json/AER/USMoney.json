@@ -1,9 +1,5 @@
 {
-   "config" : {
-      "subtitle" : "AER - USMoney",
-      "graphType" : "Scatter3D",
-      "title" : "USMoney"
-   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>USMoney</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>USMoney</h2>\n<h3>Description</h3>\n<p>Money, output and price deflator time series data, 1950&ndash;1983.  \n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(\"USMoney\")</code></pre>\n<h3>Format</h3>\n<p>A quarterly multiple time series from 1950 to 1983 with 3 variables.\n</p>\n<dl>\n<dt>gnp</dt><dd><p>nominal GNP.</p>\n</dd>\n<dt>m1</dt><dd><p>M1 measure of money stock.</p>\n</dd>\n<dt>deflator</dt><dd><p>implicit price deflator for GNP.</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>Online complements to Greene (2003), Table F20.2.\n</p>\n<p><a href=\"https://pages.stern.nyu.edu/~wgreene/Text/tables/tablelist5.htm\">https://pages.stern.nyu.edu/~wgreene/Text/tables/tablelist5.htm</a>\n</p>\n<h3>References</h3>\n<p>Greene, W.H. (2003). <em>Econometric Analysis</em>, 5th edition. Upper Saddle River, NJ: Prentice Hall.\n</p>\n<h3>See Also</h3>\n<p><code>Greene2003</code></p>\n<h3>Examples</h3>\n<pre><code class='language-R'>data(\"USMoney\")\nplot(USMoney)\n</code></pre>\n</main>\n</div>\n",
    "data" : {
       "y" : {
          "vars" : [
@@ -833,5 +829,9 @@
          ]
       }
    },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>USMoney</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>USMoney</h2>\n<h3>Description</h3>\n<p>Money, output and price deflator time series data, 1950&ndash;1983.  \n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(\"USMoney\")</code></pre>\n<h3>Format</h3>\n<p>A quarterly multiple time series from 1950 to 1983 with 3 variables.\n</p>\n<dl>\n<dt>gnp</dt><dd><p>nominal GNP.</p>\n</dd>\n<dt>m1</dt><dd><p>M1 measure of money stock.</p>\n</dd>\n<dt>deflator</dt><dd><p>implicit price deflator for GNP.</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>Online complements to Greene (2003), Table F20.2.\n</p>\n<p><a href=\"https://pages.stern.nyu.edu/~wgreene/Text/tables/tablelist5.htm\">https://pages.stern.nyu.edu/~wgreene/Text/tables/tablelist5.htm</a>\n</p>\n<h3>References</h3>\n<p>Greene, W.H. (2003). <em>Econometric Analysis</em>, 5th edition. Upper Saddle River, NJ: Prentice Hall.\n</p>\n<h3>See Also</h3>\n<p><code>Greene2003</code></p>\n<h3>Examples</h3>\n<pre><code class='language-R'>data(\"USMoney\")\nplot(USMoney)\n</code></pre>\n</main>\n</div>\n"
+   "config" : {
+      "graphType" : "Scatter3D",
+      "title" : "USMoney",
+      "subtitle" : "AER - USMoney"
+   }
 }

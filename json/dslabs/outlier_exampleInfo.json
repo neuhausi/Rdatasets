@@ -1,0 +1,6 @@
+{
+   "title" : "Adult male heights in feet with outliers",
+   "description" : "Description\nThis dataset was randomly generated with a normal distribution (average: 5 feet 9 inches, standard deviation: 3 inches). One value was changed to be mistakenly reported in centimeters rather than feet.",
+   "usage" : "outlier_example",
+   "format" : "An object of class \"numeric\"."
+}

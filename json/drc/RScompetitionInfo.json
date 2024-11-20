@@ -1,0 +1,12 @@
+{
+   "format" : "A data frame with 49 observations on the following 3 variables.",
+   "title" : "Competition between two biotypes",
+   "description" : "Description\nTo assess the competitive ability between two biotypes of Lolium rigidum, one resistant to glyphosate\nand the other a sensitive wild type, the density of resistant and sensitive biotypes was counted after\ngermination.",
+   "reference" : "A hyperbolic model (Jensen, 1993) is describing the data reasonably well.",
+   "usage" : "data(RScompetition)",
+   "parameters" : {
+      "x" : "a numeric vector with densities of the sensitive biotype (plants/m2)",
+      "z" : "a numeric vector with densities of the resistant biotype (plants/m2)",
+      "biomass" : "a numeric vector of biomass weight (g/plant)"
+   }
+}

@@ -1,14 +1,14 @@
 var askInfo ={
-   "usage" : "ask",
-   "description" : "Description\nIn this experiment, each individual was asked to be a seller of an iPod (a\nproduct commonly used to store music on before smart phones...).  They\nparticipant received $10 + 5% of the sale price for participating.  The\niPod they were selling had frozen twice in the past inexplicably but\notherwise worked fine. The prospective buyer starts off and then asks one of\nthree final questions, depending on the seller's treatment group.",
-   "reference" : "The three possible questions:",
-   "title" : "How important is it to ask pointed questions?",
    "format" : "A data frame with 219 observations on the following 3 variables.",
    "parameters" : {
+      "question" : "The question corresponding to the\nquestion.class",
       "question_class" : "The type of question:\ngeneral, pos_assumption, and neg_assumption.",
-      "response" : "The classified response from the seller,\neither disclose or hide.",
-      "question" : "The question corresponding to the\nquestion.class"
-   }
+      "response" : "The classified response from the seller,\neither disclose or hide."
+   },
+   "description" : "Description\nIn this experiment, each individual was asked to be a seller of an iPod (a\nproduct commonly used to store music on before smart phones...).  They\nparticipant received $10 + 5% of the sale price for participating.  The\niPod they were selling had frozen twice in the past inexplicably but\notherwise worked fine. The prospective buyer starts off and then asks one of\nthree final questions, depending on the seller's treatment group.",
+   "title" : "How important is it to ask pointed questions?",
+   "reference" : "The three possible questions:",
+   "usage" : "ask"
 }
 
 var ask = [

@@ -1,18 +1,18 @@
 var InvestmentInfo ={
-   "usage" : "data(Investment)",
-   "description" : "Description\nUS data for fitting an investment equation.",
-   "format" : "An annual time series from 1963 to 1982 with 7 variables.",
-   "title" : "US Investment Data",
    "reference" : "Table 15.1 in Greene (1993)",
+   "usage" : "data(Investment)",
+   "title" : "US Investment Data",
+   "description" : "Description\nUS data for fitting an investment equation.",
    "parameters" : {
       "RealInt" : "approximation to the real interest rate\n(= Interest - 100 * diff(Price)/Price).",
       "RealInv" : "real investment (= Investment/Price),",
-      "Interest" : "interest rate, average yearly discount rate\ncharged by the New York Federal Reserve Bank,",
       "RealGNP" : "real GNP (= GNP/Price),",
+      "Interest" : "interest rate, average yearly discount rate\ncharged by the New York Federal Reserve Bank,",
       "GNP" : "nominal gross national product (in billion USD),",
-      "Investment" : "nominal gross private domestic investment (in billion USD),",
-      "Price" : "price index, implicit price deflator for GNP,"
-   }
+      "Price" : "price index, implicit price deflator for GNP,",
+      "Investment" : "nominal gross private domestic investment (in billion USD),"
+   },
+   "format" : "An annual time series from 1963 to 1982 with 7 variables."
 }
 
 var Investment = [

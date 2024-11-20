@@ -1,8 +1,8 @@
 var lending_clubInfo ={
-   "description" : "Description\nLoan data",
-   "usage" : "These data were downloaded from the Lending Club\naccess site (see below) and are from the first quarter of 2016.\nA subset of the rows and variables are included here. The\noutcome is in the variable Class and is either \"good\" (meaning\nthat the loan was fully paid back or currently on-time) or \"bad\"\n(charged off, defaulted, of 21-120 days late). A data dictionary\ncan be found on the source website.",
    "format" : "lending_club\n\na data frame",
-   "title" : "Loan data"
+   "description" : "Description\nLoan data",
+   "title" : "Loan data",
+   "usage" : "These data were downloaded from the Lending Club\naccess site (see below) and are from the first quarter of 2016.\nA subset of the rows and variables are included here. The\noutcome is in the variable Class and is either \"good\" (meaning\nthat the loan was fully paid back or currently on-time) or \"bad\"\n(charged off, defaulted, of 21-120 days late). A data dictionary\ncan be found on the source website."
 }
 
 var lending_club = [

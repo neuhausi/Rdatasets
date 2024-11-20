@@ -1,26 +1,26 @@
 var framingInfo ={
-   "description" : "Description\nThe framing data contains 265 rows and 15 columns of data from a \nframing experiment conducted by Brader, Valentino and Suhay (2008).",
-   "usage" : "framing",
+   "format" : "A data frame containing the following variables:",
    "parameters" : {
-      "immigr:" : "A four-point scale measuring subjects' attitudes toward\nincreased immigration. Larger values indicate more negative attitudes.",
-      "educ:" : "Subjects'\nhighest educational attainments.",
+      "p_harm:" : "Subjects' perceived harm caused by increased immigration. A numeric scale\nbetween 2 and 8.",
+      "emo:" : "Measure of subjects' negative feeling\nduring the experiment. A numeric scale ranging between 3 and 12 where 3\nindicates the most negative feeling.",
       "anti_info:" : "Whether subjects\nwanted to receive information from anti-immigration organizations.",
-      "cong_mesg:" : "Whether subjects requested sending an anti-immigration \nmessage to Congress on their behalf.",
+      "age:" : "Subjects' age.",
       "income:" : "Subjects' income, measured as a 19-point scale.",
       "gender:" : "Subjects' gender.",
-      "p_harm:" : "Subjects' perceived harm caused by increased immigration. A numeric scale\nbetween 2 and 8.",
-      "treat:" : "Product of the two\ntreatment variables. In the original study the authors only find this cell\nto be significant.",
-      "emo:" : "Measure of subjects' negative feeling\nduring the experiment. A numeric scale ranging between 3 and 12 where 3\nindicates the most negative feeling.",
       "anx:" : "A four-point scale\nmeasuring subjects' anxiety about increased immigration.",
       "english:" : "A four-point scale indicating whether subjects favor or \noppose a law making English the official language of the U.S.",
-      "age:" : "Subjects' age.",
-      "tone:" : "1st treatment; whether the news story is framed positively or\nnegatively.",
+      "treat:" : "Product of the two\ntreatment variables. In the original study the authors only find this cell\nto be significant.",
       "cond:" : "Four level measure recording\njoint treatment status of tone and eth.",
-      "eth:" : "2nd treatment; whether the news story features a\nLatino or European immigrant."
+      "immigr:" : "A four-point scale measuring subjects' attitudes toward\nincreased immigration. Larger values indicate more negative attitudes.",
+      "eth:" : "2nd treatment; whether the news story features a\nLatino or European immigrant.",
+      "tone:" : "1st treatment; whether the news story is framed positively or\nnegatively.",
+      "educ:" : "Subjects'\nhighest educational attainments.",
+      "cong_mesg:" : "Whether subjects requested sending an anti-immigration \nmessage to Congress on their behalf."
    },
    "title" : "Brader, Valentino and Suhay (2008) Framing Experiment Data",
-   "reference" : "Brader, T., Valentino, N. and Suhay, E. (2008). What triggers public\nopposition to immigration? Anxiety, group cues, and immigration threat.\nAmerican Journal of Political Science 52, 4, 959&ndash;978.",
-   "format" : "A data frame containing the following variables:"
+   "description" : "Description\nThe framing data contains 265 rows and 15 columns of data from a \nframing experiment conducted by Brader, Valentino and Suhay (2008).",
+   "usage" : "framing",
+   "reference" : "Brader, T., Valentino, N. and Suhay, E. (2008). What triggers public\nopposition to immigration? Anxiety, group cues, and immigration threat.\nAmerican Journal of Political Science 52, 4, 959&ndash;978."
 }
 
 var framing = [

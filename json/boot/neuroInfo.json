@@ -1,0 +1,6 @@
+{
+   "usage" : "There are a lot of missing values in the matrix as different numbers of \nfirings \nwere observed in different replicates.  The number of firings observed varied \nfrom 2 to 6.",
+   "title" : "Neurophysiological Point Process Data",
+   "description" : "Description\nneuro is a matrix containing times of observed firing of a neuron in windows\nof 250ms either side of the application of a stimulus to a human subject.\nEach row of the matrix is a replication of the experiment and there were a \ntotal of 469 replicates.",
+   "format" : "The data were collected and kindly made available by Dr. S.J. Boniface of the\nNeurophysiology Unit at the Radcliffe Infirmary, Oxford."
+}

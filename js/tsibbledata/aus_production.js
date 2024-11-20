@@ -1,8 +1,8 @@
 var aus_productionInfo ={
-   "title" : "Quarterly production of selected commodities in Australia.",
    "format" : "aus_production is a half-hourly tsibble with six values:",
-   "usage" : "Time series of class tsibble.",
-   "description" : "Description\nQuarterly estimates of selected indicators of manufacturing production in Australia."
+   "description" : "Description\nQuarterly estimates of selected indicators of manufacturing production in Australia.",
+   "title" : "Quarterly production of selected commodities in Australia.",
+   "usage" : "Time series of class tsibble."
 }
 
 var aus_production = [

@@ -1,8 +1,8 @@
 var discoveriesInfo ={
    "usage" : "discoveries",
-   "format" : "A time series of 100 values.",
    "title" : "Yearly Numbers of Important Discoveries",
-   "description" : "Description\nThe numbers of &ldquo;great&rdquo; inventions and scientific\ndiscoveries in each year from 1860 to 1959."
+   "description" : "Description\nThe numbers of &ldquo;great&rdquo; inventions and scientific\ndiscoveries in each year from 1860 to 1959.",
+   "format" : "A time series of 100 values."
 }
 
 var discoveries = [

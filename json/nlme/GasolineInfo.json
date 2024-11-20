@@ -1,0 +1,14 @@
+{
+   "parameters" : {
+      "endpoint" : "a numeric vector giving the temperature (degrees F) at which all\nthe gasoline is vaporized",
+      "ASTM" : "a numeric vector giving the crude oil 10% point ASTM&mdash;the\ntemperature at which 10% of the crude oil has become vapor.",
+      "API" : "a numeric vector giving the crude oil gravity (degrees API)",
+      "yield" : "a numeric vector giving the percentage of crude oil converted to\ngasoline after distillation and fractionation",
+      "vapor" : "a numeric vector giving the vapor pressure of the crude oil\n(\\mathrm{lbf}/\\mathrm{in}^2)",
+      "Sample" : "an ordered factor giving the inferred crude oil sample number"
+   },
+   "description" : "Description\nThe Gasoline data frame has 32 rows and 6 columns.",
+   "title" : "Refinery yield of gasoline",
+   "reference" : "Prater (1955) provides data on crude oil properties and\ngasoline yields.  Atkinson (1985)\nuses these data to illustrate the use of diagnostics in multiple\nregression analysis.  Three of the covariates&mdash;API,\nvapor, and ASTM&mdash;measure characteristics of the\ncrude oil used to produce the gasoline.  The other covariate &mdash;\nendpoint&mdash;is a characteristic of the refining process.\nDaniel and Wood (1980) notice that the covariates characterizing\nthe crude oil occur in only ten distinct groups and conclude that the\ndata represent responses measured on ten different crude oil samples.",
+   "usage" : "This data frame contains the following columns:"
+}

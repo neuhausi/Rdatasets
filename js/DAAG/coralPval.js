@@ -1,8 +1,8 @@
 var coralPvalInfo ={
    "usage" : "data(\"coralPval\")",
+   "description" : "Description\nP-values were calculated for each of 3072 genes, for data that\ncompared expression values between post-settlement coral larvae\nand pre-settlement coral larvae.",
    "title" : "P-values from biological expression array data",
-   "format" : "The format is:\nnum [1:3072, 1] 8.60e-01 3.35e-08 3.96e-01 2.79e-01 6.36e-01 ...",
-   "description" : "Description\nP-values were calculated for each of 3072 genes, for data that\ncompared expression values between post-settlement coral larvae\nand pre-settlement coral larvae."
+   "format" : "The format is:\nnum [1:3072, 1] 8.60e-01 3.35e-08 3.96e-01 2.79e-01 6.36e-01 ..."
 }
 
 var coralPval = [

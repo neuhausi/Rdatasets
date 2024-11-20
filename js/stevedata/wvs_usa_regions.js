@@ -1,17 +1,17 @@
 var wvs_usa_regionsInfo ={
-   "parameters" : {
-      "statename" : "the corresponding state abbreviation (if available) for the unique x048wvs code",
-      "stateabb" : "the corresponding state abbreviation (if available) for the unique x048wvs code",
-      "x048wvs" : "the numeric code for supposedly the region in which the interview was conducted",
-      "x048wvsmeaning" : "the meaning behind the unique x048wvs code",
-      "division" : "the corresponding division for the unique x048wvs code",
-      "region" : "the corresponding region for the unique x048wvs code"
-   },
-   "title" : "Region Categories for the United States in the World Values Survey",
    "format" : "A data frame with 63 observations the following 6 variables.",
    "reference" : "The region codes are a mess. Some of these are informed guesses. For example, I assume \"Northwest\" means\n\"Pacific\" and that Idaho was not included in that category. I make a similar assumption that \"Rocky Mountain state\"\nmeans \"Mountain\".",
+   "usage" : "wvs_usa_regions",
    "description" : "Description\nThis is a simple data set that summarizes what the region codes are in the World Values Survey for the United States.",
-   "usage" : "wvs_usa_regions"
+   "title" : "Region Categories for the United States in the World Values Survey",
+   "parameters" : {
+      "x048wvs" : "the numeric code for supposedly the region in which the interview was conducted",
+      "division" : "the corresponding division for the unique x048wvs code",
+      "x048wvsmeaning" : "the meaning behind the unique x048wvs code",
+      "stateabb" : "the corresponding state abbreviation (if available) for the unique x048wvs code",
+      "statename" : "the corresponding state abbreviation (if available) for the unique x048wvs code",
+      "region" : "the corresponding region for the unique x048wvs code"
+   }
 }
 
 var wvs_usa_regions = [

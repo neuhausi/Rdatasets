@@ -1,21 +1,21 @@
 var cfsealInfo ={
-   "usage" : "cfseal",
-   "description" : "Description\nThe cfseal data frame has 30 rows and 11 columns consisting\nof weight measurements for various organs taken from 30 Cape Fur\nSeals that died as an unintended consequence of commercial fishing.",
    "format" : "This data frame contains the following columns:",
    "title" : "Cape Fur Seal Data",
+   "description" : "Description\nThe cfseal data frame has 30 rows and 11 columns consisting\nof weight measurements for various organs taken from 30 Cape Fur\nSeals that died as an unintended consequence of commercial fishing.",
    "reference" : "Stewardson, C.L., Hemsley, S., Meyer, M.A., Canfield,\nP.J. and Maindonald, J.H. 1999.  Gross and microscopic visceral\nanatomy of the male Cape fur seal, Arctocephalus pusillus pusillus\n(Pinnepedia: Otariidae), with reference to organ size and growth.\nJournal of Anatomy (Cambridge) 195: 235-255.  (WWF project ZA-348)",
+   "usage" : "cfseal",
    "parameters" : {
-      "leftkid" : "a numeric vector",
-      "liver" : "a numeric vector",
       "heart" : "a numeric vector",
+      "kidney" : "a numeric vector",
+      "intestines" : "a numeric vector",
+      "stomach" : "a numeric vector",
+      "liver" : "a numeric vector",
+      "leftkid" : "a numeric vector",
       "weight" : "a numeric vector",
       "age" : "a numeric vector",
-      "intestines" : "a numeric vector",
       "spleen" : "a numeric vector",
       "lung" : "a numeric vector",
-      "stomach" : "a numeric vector",
-      "rightkid" : "a numeric vector",
-      "kidney" : "a numeric vector"
+      "rightkid" : "a numeric vector"
    }
 }
 

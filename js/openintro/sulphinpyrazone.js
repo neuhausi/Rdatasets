@@ -1,13 +1,13 @@
 var sulphinpyrazoneInfo ={
-   "description" : "Description\nExperiment data for studying the efficacy of treating patients who have had\na heart attack with Sulphinpyrazone.",
-   "usage" : "sulphinpyrazone",
    "parameters" : {
       "group" : "a factor with levels control treatment",
       "outcome" : "a factor with levels died lived"
    },
+   "reference" : "Anturane Reinfarction Trial Research Group. 1980. Sulfinpyrazone in\nthe prevention of sudden death after myocardial infarction. New England\nJournal of Medicine 302(5):250-256.",
+   "usage" : "sulphinpyrazone",
    "title" : "Treating heart attacks",
-   "format" : "A data frame with 1475 observations on the following 2 variables.",
-   "reference" : "Anturane Reinfarction Trial Research Group. 1980. Sulfinpyrazone in\nthe prevention of sudden death after myocardial infarction. New England\nJournal of Medicine 302(5):250-256."
+   "description" : "Description\nExperiment data for studying the efficacy of treating patients who have had\na heart attack with Sulphinpyrazone.",
+   "format" : "A data frame with 1475 observations on the following 2 variables."
 }
 
 var sulphinpyrazone = [

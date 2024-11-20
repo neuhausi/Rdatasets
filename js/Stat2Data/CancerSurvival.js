@@ -1,7 +1,7 @@
 var CancerSurvivalInfo ={
    "description" : "Description\nCancer survival with ascorbate supplement",
-   "usage" : "A dataset with 64 observations on the following 2 variables.",
-   "title" : "Survival Times for Different Cancers"
+   "title" : "Survival Times for Different Cancers",
+   "usage" : "A dataset with 64 observations on the following 2 variables."
 }
 
 var CancerSurvival = [

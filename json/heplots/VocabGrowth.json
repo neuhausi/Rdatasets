@@ -2,6 +2,12 @@
    "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>VocabGrowth</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Vocabulary growth data</h2>\n<h3>Description</h3>\n<p>Data from the Laboratory School of the University of Chicago.  They consist\nof scores from a cohort of pupils in grades 8-11 on the vocabulary section\nof the Cooperative Reading Test.  The scores are scaled to a common, but\narbitrary origin and unit of measurement, so as to be comparable over the\nfour grades.\n</p>\n<h3>Format</h3>\n<p>A data frame with 64 observations on the following 4 variables.\n</p>\n<dl>\n<dt><code>grade8</code></dt><dd><p>Grade 8 vocabulary score</p>\n</dd>\n<dt><code>grade9</code></dt><dd><p>Grade 9 vocabulary score</p>\n</dd> \n<dt><code>grade10</code></dt><dd><p>Grade 10 vocabulary score</p>\n</dd> \n<dt><code>grade11</code></dt><dd><p>Grade 11 vocabulary score</p>\n</dd> \n</dl>\n<h3>Details</h3>\n<p>Since these data cover an age range in which physical growth is beginning to\ndecelerate, it is of interest whether a similar effect occurs in the\nacquisition of new vocabulary.\n</p>\n<h3>Source</h3>\n<p>R.D.  \nBock, <em>Multivariate statistical methods in behavioral research</em>, McGraw-Hill, New York, 1975, pp453.\n</p>\n<h3>References</h3>\n<p>Friendly, Michael (2010). HE Plots for Repeated Measures\nDesigns. <em>Journal of Statistical Software</em>, 37(4), 1-40.\n<a href=\"https://doi.org/10.18637/jss.v037.i04\">doi:10.18637/jss.v037.i04</a>.\n</p>\n<p>Keesling, J.W., Bock, R.D. et al, &quot;The Laboratory School study of vocabulary\ngrowth&quot;, University of Chicago, 1975.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>\nlibrary(car)\ndata(VocabGrowth)\n# Standard Multivariate &amp; Univariate repeated measures analysis\nVocab.mod &lt;- lm(cbind(grade8,grade9,grade10,grade11) ~ 1, data=VocabGrowth)\nidata &lt;-data.frame(grade=ordered(8:11))\ncar::Anova(Vocab.mod, idata=idata, idesign=~grade, type=\"III\")\n##Type III Repeated Measures MANOVA Tests: Pillai test statistic\n##            Df test stat approx F num Df den Df    Pr(&gt;F)    \n##(Intercept)  1     0.653  118.498      1     63 4.115e-16 ***\n##grade        1     0.826   96.376      3     61 &lt; 2.2e-16 ***\nheplot(Vocab.mod, type=\"III\", idata=idata, idesign=~grade, iterm=\"grade\",\n\tmain=\"HE plot for Grade effect\")\n### doing this 'manually' by explicitly transforming Y -&gt; Y M\n# calculate Y M, using polynomial contrasts\ntrends &lt;- as.matrix(VocabGrowth) %*% poly(8:11, degree=3)\ncolnames(trends)&lt;- c(\"Linear\", \"Quad\", \"Cubic\")\n# test all trend means = 0 == Grade effect\nwithin.mod &lt;- lm(trends ~ 1)\nManova(within.mod)\nheplot(within.mod, terms=\"(Intercept)\", col=c(\"red\", \"blue\"), type=\"3\",\n  term.labels=\"Grade\",\n  main=\"HE plot for Grade effect\")\nmark.H0()\n</code></pre>\n</main>\n</div>\n",
    "data" : {
       "y" : {
+         "smps" : [
+            "grade8",
+            "grade9",
+            "grade10",
+            "grade11"
+         ],
          "data" : [
             [
                1.75,
@@ -453,19 +459,13 @@
             "Var62",
             "Var63",
             "Var64"
-         ],
-         "smps" : [
-            "grade8",
-            "grade9",
-            "grade10",
-            "grade11"
          ]
       }
    },
    "config" : {
-      "subtitle" : "heplots - VocabGrowth",
-      "title" : "Vocabulary growth data",
       "graphType" : "Scatter2D",
-      "scatterPlotMatrix" : 1
+      "title" : "Vocabulary growth data",
+      "scatterPlotMatrix" : 1,
+      "subtitle" : "heplots - VocabGrowth"
    }
 }

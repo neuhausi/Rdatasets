@@ -1,16 +1,16 @@
 var Minard.citiesInfo ={
    "parameters" : {
-      "group" : "a numeric vector",
-      "long" : "Longitude",
-      "lat" : "Latitude",
       "direction" : "a factor with levels A (\"Advance\") R (\"Retreat\")",
-      "survivors" : "Number of surviving troops, a numeric vector"
+      "survivors" : "Number of surviving troops, a numeric vector",
+      "long" : "Longitude",
+      "group" : "a numeric vector",
+      "lat" : "Latitude"
    },
    "title" : "Data from Minard's famous graphic map of Napoleon's march on Moscow",
-   "reference" : "date in Minard.temp should be made a real date in 1815.",
-   "format" : "Minard.troops: A data frame with 51 observations on the following 5 variables giving the number\nof surviving troops.",
    "description" : "Description\nCharles Joseph Minard's graphic depiction of the fate of Napoleon's Grand\nArmy in the Russian campaign of 1815 has been called the \"greatest statistical graphic\never drawn\" (Tufte, 1983).   Friendly (2002) describes some background\nfor this graphic, and presented it as Minard's Challenge: to reproduce it using\nmodern statistical or graphic software, in a way that showed the elegance of\nsome computer language to both describe and produce this graphic.",
-   "usage" : "data(Minard.troops)\ndata(Minard.cities)\ndata(Minard.temp)"
+   "usage" : "data(Minard.troops)\ndata(Minard.cities)\ndata(Minard.temp)",
+   "reference" : "date in Minard.temp should be made a real date in 1815.",
+   "format" : "Minard.troops: A data frame with 51 observations on the following 5 variables giving the number\nof surviving troops."
 }
 
 var Minard.cities = [

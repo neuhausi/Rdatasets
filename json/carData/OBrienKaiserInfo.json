@@ -1,0 +1,26 @@
+{
+   "reference" : "O'Brien, R. G., and Kaiser, M. K. (1985)\nMANOVA method for analyzing repeated measures designs: An extensive primer.\nPsychological Bulletin 97, 316&ndash;333, Table 7.",
+   "usage" : "OBrienKaiser",
+   "description" : "Description\nThese contrived repeated-measures data are taken from \nO'Brien and Kaiser (1985). The data are from an imaginary study in which\n16 female and male subjects, who are divided into three treatments, are measured\nat a pretest, postest, and a follow-up session; during each session, they are\nmeasured at five occasions at intervals of one hour. The design, therefore, has\ntwo between-subject and two within-subject factors.\nThe contrasts for the treatment factor are set to -2, 1, 1 and\n0, -1, 1. The contrasts for the gender factor are set to\ncontr.sum.",
+   "title" : "O'Brien and Kaiser's Repeated-Measures Data",
+   "parameters" : {
+      "post.2" : "posttest, hour 2",
+      "fup.4" : "follow-up, hour 4",
+      "post.3" : "posttest, hour 3",
+      "post.5" : "posttest, hour 5",
+      "pre.4" : "pretest, hour 4",
+      "pre.2" : "pretest, hour 2",
+      "pre.3" : "pretest, hour 3",
+      "fup.3" : "follow-up, hour 3",
+      "fup.2" : "follow-up, hour 2",
+      "pre.1" : "pretest, hour 1",
+      "gender" : "a factor with levels F M",
+      "fup.1" : "follow-up, hour 1",
+      "post.1" : "posttest, hour 1",
+      "pre.5" : "pretest, hour 5",
+      "treatment" : "a factor with levels control A B",
+      "fup.5" : "follow-up, hour 5",
+      "post.4" : "posttest, hour 4"
+   },
+   "format" : "A data frame with 16 observations on the following 17 variables."
+}

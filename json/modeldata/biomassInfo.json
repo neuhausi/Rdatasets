@@ -1,0 +1,6 @@
+{
+   "format" : "Ghugare, S. B., Tiwary, S., Elangovan, V., and Tambe, S. S. (2013).\nPrediction of Higher Heating Value of Solid Biomass Fuels Using Artificial\nIntelligence Formalisms. BioEnergy Research, 1-12.",
+   "title" : "Biomass data",
+   "description" : "Description\nGhugare et al (2014) contains a data set where different biomass fuels are\ncharacterized by the amount of certain molecules (carbon, hydrogen, oxygen,\nnitrogen, and sulfur) and the corresponding higher heating value (HHV).\nThese data are from their Table S.2 of the Supplementary Materials",
+   "usage" : "biomass\n\na data frame"
+}

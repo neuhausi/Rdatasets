@@ -1,12 +1,12 @@
 var ball_bearingInfo ={
-   "format" : "A data frame with 75 observations on the following variable.",
    "title" : "Lifespan of ball bearings",
+   "description" : "Description\nA simulated dataset on lifespan of ball bearings.",
+   "usage" : "ball_bearing",
    "reference" : "Simulated data.",
    "parameters" : {
       "life_span" : "Lifespan of ball bearings (in hours)."
    },
-   "usage" : "ball_bearing",
-   "description" : "Description\nA simulated dataset on lifespan of ball bearings."
+   "format" : "A data frame with 75 observations on the following variable."
 }
 
 var ball_bearing = [

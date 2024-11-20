@@ -1,0 +1,13 @@
+{
+   "format" : "A data frame with 280 observations and 4 variables.",
+   "parameters" : {
+      "fisher" : "factor indicating whether the corresponding corps was\nconsidered by Fisher (1925) or not.",
+      "corps" : "factor indicating the corps.",
+      "deaths" : "number of deaths.",
+      "year" : "year of the deaths."
+   },
+   "reference" : "Michael Friendly (2000),\nVisualizing Categorical Data:\nhttp://euclid.psych.yorku.ca/ftp/sas/vcd/catdata/vonbort.sas",
+   "usage" : "data(\"VonBort\")",
+   "description" : "Description\nData from von Bortkiewicz (1898), given by Andrews & Herzberg (1985),\non number of deaths by horse or mule kicks in 14 corps of the Prussian\narmy.",
+   "title" : "Von Bortkiewicz Horse Kicks Data"
+}

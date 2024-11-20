@@ -1,13 +1,13 @@
 var reported_heightsInfo ={
-   "usage" : "reported_heights",
+   "format" : "An object of class \"data.frame\".",
    "description" : "Description\nStudents were asked to report their height (in inches) and sex in an anonymous online form. \nThis table includes the results from combining data from four courses.",
    "title" : "Self-reported Heights",
-   "format" : "An object of class \"data.frame\".",
+   "usage" : "reported_heights",
    "reference" : "head(reported_heights)",
    "parameters" : {
       "time_stamp. Time and date of the entry." : null,
-      "sex. Sex as reported by the students." : null,
-      "height. Height as reported by student by filling in a text free box." : null
+      "height. Height as reported by student by filling in a text free box." : null,
+      "sex. Sex as reported by the students." : null
    }
 }
 

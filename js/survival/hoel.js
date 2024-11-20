@@ -1,15 +1,15 @@
 var hoelInfo ={
    "parameters" : {
-      "id" : "mouse id",
       "outcome" : "outcome: censor, thymic\n\tlymphoma, reticulum cell sarcoma other causes",
-      "days" : "days until death",
-      "trt" : "treatment assignment: Control or Germ-free"
+      "trt" : "treatment assignment: Control or Germ-free",
+      "id" : "mouse id",
+      "days" : "days until death"
    },
-   "title" : "Mouse cancer data",
-   "format" : "A data frame with 181 observations on the following 4 variables.",
+   "usage" : "data(\"cancer\")",
    "reference" : "Two groups of male mice were given 300 rads of radiation and followed\nfor cancer incidence.  One group was maintained in a germ free\nenvironment.  The data set is used as an example of competing risks in\nKalbfleisch and Prentice.  The germ-free environment has little effect\non the rate of occurence of thymic lymphoma, but significantly delays\nthe other causes of death.",
    "description" : "Description\nDays until occurence of cancer for male mice",
-   "usage" : "data(\"cancer\")"
+   "title" : "Mouse cancer data",
+   "format" : "A data frame with 181 observations on the following 4 variables."
 }
 
 var hoel = [

@@ -1,26 +1,26 @@
 var udca2Info ={
-   "parameters" : {
-      "trt" : "treatment of 0=placebo, 1=UDCA",
-      "double.dt" : "doubling of initial bilirubin",
-      "varices.dt" : "appearance of esphogeal varices",
-      "ascites.dt" : "appearance of ascites",
-      "riskscore" : "the Mayo PBC risk score at entry",
-      "hprogress.dt" : "date of histologic progression",
-      "death.dt" : "date of death",
-      "enceph.dt" : "appearance of encephalopathy",
-      "id" : "subject identifier",
-      "last.dt" : "date of last on-study visit",
-      "entry.dt" : "date of entry into the study",
-      "worsen.dt" : "worsening of symptoms by two stages",
-      "bili" : "bilirubin value at entry",
-      "stage" : "stage of disease",
-      "tx.dt" : "date of liver transplant"
-   },
    "format" : "A data frame with 170 observations on the following 15 variables.",
+   "usage" : "udca\nudca2\ndata(udca, package=\"survival\")",
    "reference" : "This data set is used in the Therneau and Grambsh.  The udca1\ndata set contains the baseline variables along with the time until the\nfirst endpoint (any of death, transplant, ..., worsening).\nThe udca2 data set treats all of the endpoints as parallel\nevents and has a stratum for each.",
    "title" : "Data from a trial of usrodeoxycholic acid",
    "description" : "Description\nData from a trial of ursodeoxycholic acid (UDCA) in patients with primary\nbiliary cirrohosis (PBC).",
-   "usage" : "udca\nudca2\ndata(udca, package=\"survival\")"
+   "parameters" : {
+      "death.dt" : "date of death",
+      "bili" : "bilirubin value at entry",
+      "trt" : "treatment of 0=placebo, 1=UDCA",
+      "last.dt" : "date of last on-study visit",
+      "ascites.dt" : "appearance of ascites",
+      "hprogress.dt" : "date of histologic progression",
+      "varices.dt" : "appearance of esphogeal varices",
+      "worsen.dt" : "worsening of symptoms by two stages",
+      "enceph.dt" : "appearance of encephalopathy",
+      "entry.dt" : "date of entry into the study",
+      "id" : "subject identifier",
+      "stage" : "stage of disease",
+      "double.dt" : "doubling of initial bilirubin",
+      "riskscore" : "the Mayo PBC risk score at entry",
+      "tx.dt" : "date of liver transplant"
+   }
 }
 
 var udca2 = [

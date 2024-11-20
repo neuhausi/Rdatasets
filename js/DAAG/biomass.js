@@ -1,19 +1,19 @@
 var biomassInfo ={
+   "title" : "Biomass Data",
+   "description" : "Description\nThe biomass data frame has 135 rows and 8 columns.  The\nrainforest data frame is a subset of this one.",
+   "usage" : "biomass",
+   "reference" : "J. Ash, Australian National University",
    "parameters" : {
-      "wood" : "a numeric vector",
-      "bark" : "a numeric vector",
+      "fac26" : "a factor with 3 levels",
       "species" : "a factor with levels\nAcacia mabellae,\nC. fraseri,\nAcmena smithii,\nB. myrtifolia",
+      "wood" : "a numeric vector",
+      "rootsk" : "a numeric vector",
       "root" : "a numeric vector",
       "dbh" : "a numeric vector",
-      "branch" : "a numeric vector",
-      "rootsk" : "a numeric vector",
-      "fac26" : "a factor with 3 levels"
+      "bark" : "a numeric vector",
+      "branch" : "a numeric vector"
    },
-   "title" : "Biomass Data",
-   "format" : "This data frame contains the following columns:",
-   "reference" : "J. Ash, Australian National University",
-   "description" : "Description\nThe biomass data frame has 135 rows and 8 columns.  The\nrainforest data frame is a subset of this one.",
-   "usage" : "biomass"
+   "format" : "This data frame contains the following columns:"
 }
 
 var biomass = [

@@ -1,24 +1,24 @@
 var bwghtInfo ={
-   "usage" : "data('bwght')",
-   "description" : "Description\nWooldridge Source: J. Mullahy (1997), âInstrumental-Variable Estimation of Count Data Models: Applications to Models of Cigarette Smoking Behavior,â Review of Economics and Statistics 79, 596-593. Professor Mullahy kindly provided the data. He obtained them from the 1988 National Health Interview Survey. Data loads lazily.",
    "format" : "A data.frame with 1388 observations on 14 variables:",
-   "reference" : "pages 18, 61, 110, 151, 165, 178, 184, 187-188, 258-259, 522-523",
+   "description" : "Description\nWooldridge Source: J. Mullahy (1997), âInstrumental-Variable Estimation of Count Data Models: Applications to Models of Cigarette Smoking Behavior,â Review of Economics and Statistics 79, 596-593. Professor Mullahy kindly provided the data. He obtained them from the 1988 National Health Interview Survey. Data loads lazily.",
    "title" : "bwght",
+   "reference" : "pages 18, 61, 110, 151, 165, 178, 184, 187-188, 258-259, 522-523",
+   "usage" : "data('bwght')",
    "parameters" : {
-      "lbwght" : " log of bwght",
-      "cigtax" : " cig. tax in home state, 1988",
-      "motheduc" : " mother's yrs of educ",
-      "bwghtlbs" : " birth weight, pounds",
-      "cigs" : " cigs smked per day while preg",
-      "white" : " =1 if white",
-      "male" : " =1 if male child",
-      "fatheduc" : " father's yrs of educ",
-      "bwght" : " birth weight, ounces",
-      "parity" : " birth order of child",
       "packs" : " packs smked per day while preg",
+      "cigtax" : " cig. tax in home state, 1988",
+      "lbwght" : " log of bwght",
+      "parity" : " birth order of child",
+      "faminc" : " 1988 family income, $1000s",
       "lfaminc" : " log(faminc)",
+      "motheduc" : " mother's yrs of educ",
+      "cigs" : " cigs smked per day while preg",
+      "fatheduc" : " father's yrs of educ",
       "cigprice" : " cig. price in home state, 1988",
-      "faminc" : " 1988 family income, $1000s"
+      "bwghtlbs" : " birth weight, pounds",
+      "white" : " =1 if white",
+      "bwght" : " birth weight, ounces",
+      "male" : " =1 if male child"
    }
 }
 

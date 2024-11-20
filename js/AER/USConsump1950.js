@@ -1,14 +1,14 @@
 var USConsump1950Info ={
+   "format" : "An annual multiple time series from 1940 to 1950 with 3 variables.",
+   "parameters" : {
+      "expenditure" : "Consumption expenditure.",
+      "war" : "Indicator variable: Was the year a year of war?",
+      "income" : "Disposable income."
+   },
+   "reference" : "Online complements to Greene (2003). Table F2.1.",
    "usage" : "data(\"USConsump1950\")",
    "description" : "Description\nTime series data on US income and consumption expenditure, 1940&ndash;1950.",
-   "reference" : "Online complements to Greene (2003). Table F2.1.",
-   "format" : "An annual multiple time series from 1940 to 1950 with 3 variables.",
-   "title" : "US Consumption Data (1940&ndash;1950)",
-   "parameters" : {
-      "war" : "Indicator variable: Was the year a year of war?",
-      "expenditure" : "Consumption expenditure.",
-      "income" : "Disposable income."
-   }
+   "title" : "US Consumption Data (1940&ndash;1950)"
 }
 
 var USConsump1950 = [

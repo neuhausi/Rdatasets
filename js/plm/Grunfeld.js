@@ -1,15 +1,15 @@
 var GrunfeldInfo ={
-   "description" : "Description\nA balanced panel of 10 observational units (firms) from 1935 to 1954",
-   "parameters" : {
-      "capital" : "stock of plant and equipment",
-      "inv" : "gross Investment",
-      "year" : "date",
-      "value" : "value of the firm",
-      "firm" : "observation"
-   },
-   "reference" : "total number of observations : 200",
    "title" : "Grunfeld's Investment Data",
-   "usage" : "A data frame containing :"
+   "description" : "Description\nA balanced panel of 10 observational units (firms) from 1935 to 1954",
+   "usage" : "A data frame containing :",
+   "reference" : "total number of observations : 200",
+   "parameters" : {
+      "value" : "value of the firm",
+      "inv" : "gross Investment",
+      "firm" : "observation",
+      "year" : "date",
+      "capital" : "stock of plant and equipment"
+   }
 }
 
 var Grunfeld = [

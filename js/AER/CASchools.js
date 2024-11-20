@@ -1,24 +1,24 @@
 var CASchoolsInfo ={
-   "usage" : "data(\"CASchools\")",
-   "description" : "Description\nThe dataset contains data on test performance, school \ncharacteristics and student demographic backgrounds for school districts in California.",
-   "title" : "California Test Score Data",
-   "reference" : "The data used here are from all 420 K-6 and K-8 districts in California \nwith data available for 1998 and 1999.  Test scores are on the Stanford \n9 standardized test administered to 5th grade students.  \nSchool characteristics (averaged across the district) include enrollment, \nnumber of teachers (measured as &ldquo;full-time equivalents&rdquo;, number of \ncomputers per classroom, and expenditures per student. Demographic \nvariables for the students are averaged across the district.  \nThe demographic variables include the percentage of students in the \npublic assistance program CalWorks (formerly AFDC), the percentage \nof students that qualify for a reduced price lunch, and the \npercentage of students that are English learners (that is, students \nfor whom English is a second language).",
    "format" : "A data frame containing 420 observations on 14 variables.",
+   "title" : "California Test Score Data",
+   "description" : "Description\nThe dataset contains data on test performance, school \ncharacteristics and student demographic backgrounds for school districts in California.",
+   "reference" : "The data used here are from all 420 K-6 and K-8 districts in California \nwith data available for 1998 and 1999.  Test scores are on the Stanford \n9 standardized test administered to 5th grade students.  \nSchool characteristics (averaged across the district) include enrollment, \nnumber of teachers (measured as &ldquo;full-time equivalents&rdquo;, number of \ncomputers per classroom, and expenditures per student. Demographic \nvariables for the students are averaged across the district.  \nThe demographic variables include the percentage of students in the \npublic assistance program CalWorks (formerly AFDC), the percentage \nof students that qualify for a reduced price lunch, and the \npercentage of students that are English learners (that is, students \nfor whom English is a second language).",
+   "usage" : "data(\"CASchools\")",
    "parameters" : {
-      "students" : "Total enrollment.",
-      "expenditure" : "Expenditure per student.",
-      "calworks" : "Percent qualifying for CalWorks (income assistance).",
-      "english" : "Percent of English learners.",
-      "income" : "District average income (in USD 1,000).",
-      "read" : "Average reading score.",
-      "district" : "character. District code.",
       "lunch" : "Percent qualifying for reduced-price lunch.",
-      "school" : "character. School name.",
-      "teachers" : "Number of teachers.",
+      "income" : "District average income (in USD 1,000).",
       "grades" : "factor indicating grade span of district.",
-      "math" : "Average math score.",
+      "expenditure" : "Expenditure per student.",
+      "county" : "factor indicating county.",
+      "students" : "Total enrollment.",
+      "teachers" : "Number of teachers.",
       "computer" : "Number of computers.",
-      "county" : "factor indicating county."
+      "school" : "character. School name.",
+      "math" : "Average math score.",
+      "english" : "Percent of English learners.",
+      "district" : "character. District code.",
+      "read" : "Average reading score.",
+      "calworks" : "Percent qualifying for CalWorks (income assistance)."
    }
 }
 

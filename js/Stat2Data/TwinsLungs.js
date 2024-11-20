@@ -1,7 +1,7 @@
 var TwinsLungsInfo ={
-   "title" : "Comparing Twins Ability to Clear Radioactive Particles",
    "usage" : "A dataset with 14 observations on the following 3 variables.",
-   "description" : "Description\nExperiment comparing twins (one urban, one rural) ability to clear airborne radioactive particles from their lungs"
+   "description" : "Description\nExperiment comparing twins (one urban, one rural) ability to clear airborne radioactive particles from their lungs",
+   "title" : "Comparing Twins Ability to Clear Radioactive Particles"
 }
 
 var TwinsLungs = [

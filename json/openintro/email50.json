@@ -1,14 +1,5 @@
 {
-   "config" : {
-      "subtitle" : "openintro - email50",
-      "title" : "Sample of 50 emails",
-      "graphType" : "Heatmap",
-      "smpOverlays" : [
-         "number",
-         "winner",
-         "time"
-      ]
-   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>email50</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Sample of 50 emails</h2>\n<h3>Description</h3>\n<p>This is a subsample of the <code>email</code> dataset.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>email50\n</code></pre>\n<h3>Format</h3>\n<p>A data frame with 50 observations on the following 21 variables.\n</p>\n<dl>\n<dt>spam</dt><dd><p>Indicator for whether the email was spam.</p>\n</dd>\n<dt>to_multiple</dt><dd><p>Indicator for whether the email was addressed to more than one recipient.</p>\n</dd>\n<dt>from</dt><dd><p>Whether the message was listed as from anyone (this is usually set by default for regular outgoing email).</p>\n</dd>\n<dt>cc</dt><dd><p>Number of people cc'ed.</p>\n</dd>\n<dt>sent_email</dt><dd><p>Indicator for whether the sender had been sent an email in the last 30 days.</p>\n</dd>\n<dt>time</dt><dd><p>Time at which email was sent.</p>\n</dd>\n<dt>image</dt><dd><p>The number of images attached.</p>\n</dd>\n<dt>attach</dt><dd><p>The number of attached files.</p>\n</dd>\n<dt>dollar</dt><dd><p>The number of times a dollar sign or the word &ldquo;dollar&rdquo; appeared in the email.</p>\n</dd>\n<dt>winner</dt><dd><p>Indicates whether &ldquo;winner&rdquo; appeared in the email.</p>\n</dd>\n<dt>inherit</dt><dd><p>The number of times &ldquo;inherit&rdquo; (or an extension, such as &ldquo;inheritance&rdquo;) appeared in the email.</p>\n</dd>\n<dt>viagra</dt><dd><p>The number of times &ldquo;viagra&rdquo; appeared in the email.</p>\n</dd>\n<dt>password</dt><dd><p>The number of times &ldquo;password&rdquo; appeared in the email.</p>\n</dd>\n<dt>num_char</dt><dd><p>The number of characters in the email, in thousands.</p>\n</dd>\n<dt>line_breaks</dt><dd><p>The number of line breaks in the email (does not count text wrapping).</p>\n</dd>\n<dt>format</dt><dd><p>Indicates whether the email was written using HTML (e.g. may have included bolding or active links).</p>\n</dd>\n<dt>re_subj</dt><dd><p>Whether the subject started with &ldquo;Re:&rdquo;, &ldquo;RE:&rdquo;, &ldquo;re:&rdquo;, or &ldquo;rE:&rdquo;</p>\n</dd>\n<dt>exclaim_subj</dt><dd><p>Whether there was an exclamation point in the subject.</p>\n</dd>\n<dt>urgent_subj</dt><dd><p>Whether the word &ldquo;urgent&rdquo; was in the email subject.</p>\n</dd>\n<dt>exclaim_mess</dt><dd><p>The number of exclamation points in the email message.</p>\n</dd>\n<dt>number</dt><dd><p>Factor variable saying whether there was no number, a small number (under 1 million), or a big number.</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>David Diez's Gmail Account, early months of 2012. All personally identifiable information has been removed.\n</p>\n<h3>See Also</h3>\n<p><code>email</code>\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>\nindex &lt;- c(\n  101, 105, 116, 162, 194, 211, 263, 308, 361, 374,\n  375, 465, 509, 513, 571, 691, 785, 842, 966, 968,\n  1051, 1201, 1251, 1433, 1519, 1727, 1760, 1777, 1899, 1920,\n  1943, 2013, 2052, 2252, 2515, 2629, 2634, 2710, 2823, 2835,\n  2944, 3098, 3227, 3360, 3452, 3496, 3530, 3665, 3786, 3877\norder &lt;- c(\n  3, 33, 12, 1, 21, 15, 43, 49, 8, 6,\n  34, 25, 24, 35, 41, 9, 22, 50, 4, 48,\n  7, 14, 46, 10, 38, 32, 26, 18, 23, 45,\n  30, 16, 17, 20, 40, 47, 31, 37, 27, 11,\n  5, 44, 29, 19, 13, 36, 39, 42, 28, 2\nd &lt;- email[index, ][order, ]\nidentical(d, email50)\n</code></pre>\n</main>\n</div>\n",
    "data" : {
       "y" : {
          "vars" : [
@@ -1023,58 +1014,6 @@
          ]
       },
       "x" : {
-         "number" : [
-            "small",
-            "big",
-            "none",
-            "small",
-            "small",
-            "small",
-            "small",
-            "small",
-            "small",
-            "small",
-            "small",
-            "big",
-            "big",
-            "small",
-            "small",
-            "small",
-            "small",
-            "none",
-            "small",
-            "small",
-            "small",
-            "small",
-            "none",
-            "small",
-            "big",
-            "small",
-            "small",
-            "small",
-            "small",
-            "small",
-            "small",
-            "big",
-            "small",
-            "small",
-            "small",
-            "big",
-            "small",
-            "none",
-            "big",
-            "none",
-            "small",
-            "small",
-            "small",
-            "small",
-            "small",
-            "none",
-            "small",
-            "small",
-            "small",
-            "small"
-         ],
          "winner" : [
             "no",
             "no",
@@ -1126,6 +1065,58 @@
             "no",
             "no",
             "no"
+         ],
+         "number" : [
+            "small",
+            "big",
+            "none",
+            "small",
+            "small",
+            "small",
+            "small",
+            "small",
+            "small",
+            "small",
+            "small",
+            "big",
+            "big",
+            "small",
+            "small",
+            "small",
+            "small",
+            "none",
+            "small",
+            "small",
+            "small",
+            "small",
+            "none",
+            "small",
+            "big",
+            "small",
+            "small",
+            "small",
+            "small",
+            "small",
+            "small",
+            "big",
+            "small",
+            "small",
+            "small",
+            "big",
+            "small",
+            "none",
+            "big",
+            "none",
+            "small",
+            "small",
+            "small",
+            "small",
+            "small",
+            "none",
+            "small",
+            "small",
+            "small",
+            "small"
          ],
          "time" : [
             "2012-01-04T13:19:16Z",
@@ -1181,5 +1172,14 @@
          ]
       }
    },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>email50</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Sample of 50 emails</h2>\n<h3>Description</h3>\n<p>This is a subsample of the <code>email</code> dataset.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>email50\n</code></pre>\n<h3>Format</h3>\n<p>A data frame with 50 observations on the following 21 variables.\n</p>\n<dl>\n<dt>spam</dt><dd><p>Indicator for whether the email was spam.</p>\n</dd>\n<dt>to_multiple</dt><dd><p>Indicator for whether the email was addressed to more than one recipient.</p>\n</dd>\n<dt>from</dt><dd><p>Whether the message was listed as from anyone (this is usually set by default for regular outgoing email).</p>\n</dd>\n<dt>cc</dt><dd><p>Number of people cc'ed.</p>\n</dd>\n<dt>sent_email</dt><dd><p>Indicator for whether the sender had been sent an email in the last 30 days.</p>\n</dd>\n<dt>time</dt><dd><p>Time at which email was sent.</p>\n</dd>\n<dt>image</dt><dd><p>The number of images attached.</p>\n</dd>\n<dt>attach</dt><dd><p>The number of attached files.</p>\n</dd>\n<dt>dollar</dt><dd><p>The number of times a dollar sign or the word &ldquo;dollar&rdquo; appeared in the email.</p>\n</dd>\n<dt>winner</dt><dd><p>Indicates whether &ldquo;winner&rdquo; appeared in the email.</p>\n</dd>\n<dt>inherit</dt><dd><p>The number of times &ldquo;inherit&rdquo; (or an extension, such as &ldquo;inheritance&rdquo;) appeared in the email.</p>\n</dd>\n<dt>viagra</dt><dd><p>The number of times &ldquo;viagra&rdquo; appeared in the email.</p>\n</dd>\n<dt>password</dt><dd><p>The number of times &ldquo;password&rdquo; appeared in the email.</p>\n</dd>\n<dt>num_char</dt><dd><p>The number of characters in the email, in thousands.</p>\n</dd>\n<dt>line_breaks</dt><dd><p>The number of line breaks in the email (does not count text wrapping).</p>\n</dd>\n<dt>format</dt><dd><p>Indicates whether the email was written using HTML (e.g. may have included bolding or active links).</p>\n</dd>\n<dt>re_subj</dt><dd><p>Whether the subject started with &ldquo;Re:&rdquo;, &ldquo;RE:&rdquo;, &ldquo;re:&rdquo;, or &ldquo;rE:&rdquo;</p>\n</dd>\n<dt>exclaim_subj</dt><dd><p>Whether there was an exclamation point in the subject.</p>\n</dd>\n<dt>urgent_subj</dt><dd><p>Whether the word &ldquo;urgent&rdquo; was in the email subject.</p>\n</dd>\n<dt>exclaim_mess</dt><dd><p>The number of exclamation points in the email message.</p>\n</dd>\n<dt>number</dt><dd><p>Factor variable saying whether there was no number, a small number (under 1 million), or a big number.</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>David Diez's Gmail Account, early months of 2012. All personally identifiable information has been removed.\n</p>\n<h3>See Also</h3>\n<p><code>email</code>\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>\nindex &lt;- c(\n  101, 105, 116, 162, 194, 211, 263, 308, 361, 374,\n  375, 465, 509, 513, 571, 691, 785, 842, 966, 968,\n  1051, 1201, 1251, 1433, 1519, 1727, 1760, 1777, 1899, 1920,\n  1943, 2013, 2052, 2252, 2515, 2629, 2634, 2710, 2823, 2835,\n  2944, 3098, 3227, 3360, 3452, 3496, 3530, 3665, 3786, 3877\norder &lt;- c(\n  3, 33, 12, 1, 21, 15, 43, 49, 8, 6,\n  34, 25, 24, 35, 41, 9, 22, 50, 4, 48,\n  7, 14, 46, 10, 38, 32, 26, 18, 23, 45,\n  30, 16, 17, 20, 40, 47, 31, 37, 27, 11,\n  5, 44, 29, 19, 13, 36, 39, 42, 28, 2\nd &lt;- email[index, ][order, ]\nidentical(d, email50)\n</code></pre>\n</main>\n</div>\n"
+   "config" : {
+      "title" : "Sample of 50 emails",
+      "subtitle" : "openintro - email50",
+      "smpOverlays" : [
+         "winner",
+         "number",
+         "time"
+      ],
+      "graphType" : "Heatmap"
+   }
 }

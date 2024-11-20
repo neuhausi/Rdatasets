@@ -1,0 +1,14 @@
+{
+   "usage" : "gov_transfers",
+   "reference" : "This data is used in the Regression Discontinuity chapter of The Effect.",
+   "description" : "Description\nThe gov_transfers data contains data from Manacorda, Miguel, and Vigorito (2011) on government transfer program that was administered based on an income cutoff. Data is pre-limited to households that were just around the income cutoff.",
+   "title" : "Data from \"Government Transfers and Political Support\"",
+   "parameters" : {
+      "Education" : "Household average years of education among those 16+",
+      "Income_Centered" : "Income measure, centered around program cutoff (negative value = eligible)",
+      "Participation" : "Participation in transfers",
+      "Support" : "Measure of support for the government",
+      "Age" : "Household average age"
+   },
+   "format" : "A data frame with 1948 rows and 5 variables"
+}

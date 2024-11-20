@@ -1,0 +1,32 @@
+{
+   "description" : "Description\nThese data were collected from the CRAN web page for 13,626 R\npackages. The time to complete the standard package checking\nroutine was collected In some cases, the package checking\nprocess is stopped due to errors and these data are treated as\ncensored. It is less than 1 percent.",
+   "title" : "Execution time data",
+   "reference" : "check_times\n\na data frame",
+   "usage" : "As predictors, the associated package source code were\ndownloaded and parsed to create predictors, including",
+   "parameters" : {
+      "Roxygen" : " a binary indicator for whether Roxygen was used\nfor documentation.",
+      "depends" : " The number of hard dependencies.",
+      "doc_size" : " The disk size of the Rmd or Rnw files.",
+      "doc_count" : " How many Rmd or Rnw files in the vignettes\ndirectory.",
+      "s3_methods" : " Estimated number of S3 methods.",
+      "r_size" : " The total disk size of the R files.",
+      "r_count" : " The number of R files in the R directory.",
+      "ns_import" : " Estimated number of imported functions or methods.",
+      "src_size" : " The size on disk of files in the src directory.",
+      "rforge" : " a binary indicator for whether the URL field\ncontained a link to R-forge.",
+      "data_size" : " The size on disk of files in the data directory.",
+      "status" : " An indicator for whether the tests completed.",
+      "testthat_size" : " The size on disk of files in the testthat\ndirectory.",
+      "authors" : " The number of authors in the author field.",
+      "ns_export" : " Estimated number of exported functions or methods.",
+      "descr" : " The number of characters (or, in some cases, bytes)\nin the description field.",
+      "data_count  The number of files in the data directory." : null,
+      "s4_methods" : " Estimated number of S4 methods.",
+      "check_time" : " The time (in seconds) to run &#8288;R CMD check&#8288;\nusing the \"r-devel-windows-ix86+x86_64' flavor.",
+      "testthat_count" : " The number of files in the testthat\ndirectory.",
+      "imports" : " The number of imported packages.",
+      "suggests" : " The number of packages suggested.",
+      "gh" : " a binary indicator for whether the URL field contained\na GitHub link.",
+      "src_count" : " The number of files in the src directory."
+   }
+}

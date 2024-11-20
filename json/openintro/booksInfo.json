@@ -1,0 +1,11 @@
+{
+   "format" : "A data frame with 95 observations on the following 2 variables.",
+   "title" : "Sample of books on a shelf",
+   "description" : "Description\nSimulated dataset.",
+   "usage" : "books",
+   "reference" : "table(books)",
+   "parameters" : {
+      "format" : "a factor with levels hardcover and paperback",
+      "type" : "a factor with levels fiction and nonfiction"
+   }
+}

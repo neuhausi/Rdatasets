@@ -1,0 +1,13 @@
+{
+   "format" : "A data frame with 12 observations on the following 4 variables.",
+   "parameters" : {
+      "weight" : "a numeric vector",
+      "height" : "a numeric vector",
+      "breadth" : "a numeric vector",
+      "thick" : "a numeric vector"
+   },
+   "description" : "Description\nData giving thickness (mm), height (cm), width (cm)\nand weight (g), of 12 books.  Books were selected so that thickness\ndecreased as page area increased",
+   "title" : "Measurements on 12 books",
+   "usage" : "data(oddbooks)",
+   "reference" : "JM took books from his library."
+}

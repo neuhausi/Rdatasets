@@ -1,7 +1,7 @@
 var PopcornInfo ={
-   "description" : "Description\nUnpopped kernels in bags of microwave popcorn",
    "usage" : "A dataset with 12 observations on the following 3 variables.",
-   "title" : "Popcorn Popping Success"
+   "title" : "Popcorn Popping Success",
+   "description" : "Description\nUnpopped kernels in bags of microwave popcorn"
 }
 
 var Popcorn = [

@@ -448,8 +448,8 @@
       }
    },
    "config" : {
+      "subtitle" : "Stat2Data - Nursing",
       "title" : "Nursing Homes",
-      "graphType" : "Heatmap",
-      "subtitle" : "Stat2Data - Nursing"
+      "graphType" : "Heatmap"
    }
 }

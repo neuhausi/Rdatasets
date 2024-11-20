@@ -1,12 +1,12 @@
 var alloautoInfo ={
    "parameters" : {
+      "type" : "Type of transplant (1=allogeneic, 2=autologous)",
       "time" : "Time to death or relapse, months",
-      "delta" : "Leukemia-free survival indicator (0=alive without relapse, 1=dead\nor relapse)",
-      "type" : "Type of transplant (1=allogeneic, 2=autologous)"
+      "delta" : "Leukemia-free survival indicator (0=alive without relapse, 1=dead\nor relapse)"
    },
+   "title" : "data from Section 1.9",
    "description" : "Description\nThe alloauto data frame has 90 rows and 5 columns.",
    "reference" : "Klein and Moeschberger (1997) Survival Analysis Techniques for Censored\nand truncated data, Springer.\nKardaun Stat. Nederlandica 37 (1983), 103-126.",
-   "title" : "data from Section 1.9",
    "usage" : "This data frame contains the following columns:"
 }
 

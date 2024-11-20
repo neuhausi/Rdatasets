@@ -1,16 +1,16 @@
 var MunicipalitiesInfo ={
+   "description" : "Description\nPanel data set for 265 Swedish municipalities covering 9 years (1979-1987).",
+   "title" : "Municipal Expenditure Data",
+   "usage" : "data(\"Municipalities\")",
+   "reference" : "Total expenditures contains both capital and current expenditures.",
    "parameters" : {
-      "municipality" : "factor with ID number for municipality.",
       "grants" : "intergovernmental grants received by the municipality.",
       "expenditures" : "total expenditures.",
-      "year" : "factor coding year.",
-      "revenues" : "total own-source revenues."
+      "municipality" : "factor with ID number for municipality.",
+      "revenues" : "total own-source revenues.",
+      "year" : "factor coding year."
    },
-   "format" : "A data frame containing 2,385 observations on 5 variables.",
-   "title" : "Municipal Expenditure Data",
-   "reference" : "Total expenditures contains both capital and current expenditures.",
-   "description" : "Description\nPanel data set for 265 Swedish municipalities covering 9 years (1979-1987).",
-   "usage" : "data(\"Municipalities\")"
+   "format" : "A data frame containing 2,385 observations on 5 variables."
 }
 
 var Municipalities = [

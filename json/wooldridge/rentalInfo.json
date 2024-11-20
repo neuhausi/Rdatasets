@@ -1,0 +1,32 @@
+{
+   "format" : "A data.frame with 128 observations on 23 variables:",
+   "parameters" : {
+      "clrent" : " change in lrent",
+      "lenroll" : " log(enroll)",
+      "clenroll" : " change in lrent from 80 to 90",
+      "avginc" : " per capita income",
+      "cltothsg" : " change in ltothsg",
+      "rent" : " average rent",
+      "tothsg" : " occupied housing units",
+      "clrnthsg" : " change in lrnthsg",
+      "lavginc" : " log(avginc)",
+      "y90" : " =1 if year == 90",
+      "ltothsg" : " log(tothsg)",
+      "pop" : " city population",
+      "city" : " city label, 1 to 64",
+      "lrnthsg" : " log(rnthsg)",
+      "enroll" : " # college students enrolled",
+      "pctstu" : " percent of population students",
+      "lrent" : " log(rent)",
+      "rnthsg" : " renter occupied units",
+      "clpop" : " change in lpop",
+      "clavginc" : " change in lavginc",
+      "cpctstu" : " change in pctstu",
+      "year" : " 80 or 90",
+      "lpop" : " log(pop)"
+   },
+   "usage" : "data('rental')",
+   "reference" : "These data can be used in a somewhat crude simultaneous equations analysis, either focusing on one year or pooling the two years. (In the latter case, in an advanced class, you might have students compute the standard errors robust to serial correlation across the two time periods.) The demand equation would have ltothsg as a function of lrent, lavginc, and lpop. The supply equation would have ltothsg as a function of lrent, pctst, and lpop. Thus, in estimating the demand function, pctstu is used as an IV for lrent. Clearly one can quibble with excluding pctstu from the demand equation, but the estimated demand function gives a negative price effect. Getting information for 2000, and adding many more college towns, would make for a much better analysis. Information on number of spaces in on-campus dormitories would be a big improvement, too.",
+   "title" : "rental",
+   "description" : "Description\nWooldridge Source: David Harvey, a former MSU undergraduate, collected the data for 64 âcollege townsâ from the 1980 and 1990 United States censuses. Data loads lazily."
+}

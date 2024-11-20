@@ -1,20 +1,20 @@
 var steamUseInfo ={
-   "format" : "A data frame with 25 observations on the following 9 variables.",
+   "description" : "Description\nThe monthly use of steam (Steam) in a factory may be\nmodeled and described as function of the\noperating days per month (Operating.Days) and\nmean outside temperature per month (Temperature).",
    "title" : "Steam Usage Data (Excerpt)",
+   "usage" : "data(\"steamUse\", package=\"robustbase\")",
    "reference" : "Nor further information is given in Draper and Smith, about the place\nand exacts years of the measurements, though some educated guesses\nshould be possible, see the examples.",
    "parameters" : {
-      "startups:" : "the number of startups (of production in that month).",
       "Steam:" : "regression response Y, the poinds of\nsteam used monthly.",
-      "freeze.d:" : "the number of days below\n32 degrees Fahrenheit (= 0Â°C (C=Celsius) =\nfreezing temperature of water).",
       "days:" : "an integer vector with number of days of that\nmonth, i.e., in 28..31.",
+      "startups:" : "the number of startups (of production in that month).",
       "op.days:" : "the number of operating days for the given\nmonth (integer).",
-      "temperature:" : "a numeric vector of average outside temperature in\nFahrenheit (F).",
-      "fattyAcid:" : "pounds of Real Fatty Acid in storage per month.",
+      "wind:" : "average wind velocity in miles per hour (a numeric vector).",
       "glycerine:" : "pounds of crude glycerine made.",
-      "wind:" : "average wind velocity in miles per hour (a numeric vector)."
+      "temperature:" : "a numeric vector of average outside temperature in\nFahrenheit (F).",
+      "freeze.d:" : "the number of days below\n32 degrees Fahrenheit (= 0Â°C (C=Celsius) =\nfreezing temperature of water).",
+      "fattyAcid:" : "pounds of Real Fatty Acid in storage per month."
    },
-   "usage" : "data(\"steamUse\", package=\"robustbase\")",
-   "description" : "Description\nThe monthly use of steam (Steam) in a factory may be\nmodeled and described as function of the\noperating days per month (Operating.Days) and\nmean outside temperature per month (Temperature)."
+   "format" : "A data frame with 25 observations on the following 9 variables."
 }
 
 var steamUse = [

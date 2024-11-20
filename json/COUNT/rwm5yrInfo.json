@@ -1,0 +1,26 @@
+{
+   "format" : "A data frame with 19,609 observations on the following 17 variables.",
+   "title" : "rwm5yr",
+   "description" : "Description\nGerman health registry for the years 1984-1988. Health \ninformation for years immediately prior to health reform.",
+   "reference" : "rwm5yr is saved as a data frame.\nCount models typically use docvis as response variable. 0 counts are included",
+   "usage" : "data(rwm5yr)",
+   "parameters" : {
+      "self" : "self-employed=1; not self employed=0",
+      "edlevel4" : "(1/0) graduate school",
+      "edlevel1" : "(1/0) not high school graduate",
+      "edlevel" : "educational level (categorical: 1-4)",
+      "female" : "female=1; 0=male",
+      "id" : "patient ID  (1=7028)",
+      "kids" : "have children=1; no children=0",
+      "edlevel2" : "(1/0) high school graduate",
+      "outwork" : "out of work=1; 0=working",
+      "year" : "year; (categorical: 1984, 1985, 1986, 1987, 1988)",
+      "age" : "age: 25-64",
+      "docvis" : "number of visits to doctor during year (0-121)",
+      "married" : "married=1; 0=not married",
+      "hhninc" : "household yearly income in marks (in Marks)",
+      "edlevel3" : "(1/0) university/college",
+      "hospvis" : "number of days in hospital during year (0-51)",
+      "educ" : "years of formal education (7-18)"
+   }
+}

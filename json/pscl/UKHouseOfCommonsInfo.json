@@ -1,0 +1,21 @@
+{
+   "format" : "A data frame with 521 observations on the following 12 variables.",
+   "parameters" : {
+      "county" : "a character vector, county of the House of Commons constituency",
+      "v2" : "a numeric vector, Labor vote share  (proportion of 3 party vote)",
+      "v3" : "a numeric vector, LibDem vote share (proportion of 3 party vote)",
+      "v1" : "a numeric vector, Conservative vote share\n(proportion of 3 party vote)",
+      "y1" : "a numeric vector, log-odds of Conservative to LibDem vote share",
+      "constituency" : "a character vector, name of the House of Commons constituency",
+      "y1lag" : "a numeric vector, y1 from previous election",
+      "labinc" : "a numeric vector, 1 if the incumbent is from\nthe Labor Party, 0 otherwise",
+      "y2lag" : "a numeric vector, y2 from previous election",
+      "y2" : "a numeric vector, log-odds of Labor to LibDem vote share",
+      "libinc" : "a numeric vector, 1 if the incumbent is from\nthe LibDems, 0 otherwise",
+      "coninc" : "a numeric vector, 1 if the incumbent is a\nConservative, 0 otherwise"
+   },
+   "reference" : "These data span only 521 of the 621 seats in the House of\nCommons at the time of 1992 election.  Seats missing either a Conservative,\nLabor, or a LibDem candidate appear to have been dropped.",
+   "usage" : "data(UKHouseOfCommons)",
+   "description" : "Description\nElectoral returns, selected constituencies, 1992 general\nelection for the British House of Commons",
+   "title" : "1992 United Kingdom electoral returns"
+}

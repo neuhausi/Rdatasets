@@ -1,16 +1,16 @@
 var admitInfo ={
-   "description" : "Description\nOrdinal ratings (faculty evaluations) of applicants to a Political Science PhD\nProgram.",
    "parameters" : {
-      "score" : "an ordered factor with levels 1 < 2 < 3 < 4 < 5",
       "pt" : "1 if the applicant indicated an interest in\nPolitical Theory; 0 otherwise",
-      "ap" : "1 if the applicant indicated an interest in\nAmerican politics; 0 otherwise",
-      "female" : "1 for female applicants; 0 otherwise",
+      "gre.quant" : "applicant's score on the quantitative\nsection of the GRE; the maximum score is 800",
+      "score" : "an ordered factor with levels 1 < 2 < 3 < 4 < 5",
       "gre.verbal" : "applicant's score on the verbal section of\nthe GRE; the maximum score is 800",
-      "gre.quant" : "applicant's score on the quantitative\nsection of the GRE; the maximum score is 800"
+      "female" : "1 for female applicants; 0 otherwise",
+      "ap" : "1 if the applicant indicated an interest in\nAmerican politics; 0 otherwise"
    },
-   "format" : "A data frame with 106 observations on the following 6 variables.",
    "title" : "Applications to a Political Science PhD Program",
-   "usage" : "data(admit)"
+   "description" : "Description\nOrdinal ratings (faculty evaluations) of applicants to a Political Science PhD\nProgram.",
+   "usage" : "data(admit)",
+   "format" : "A data frame with 106 observations on the following 6 variables."
 }
 
 var admit = [

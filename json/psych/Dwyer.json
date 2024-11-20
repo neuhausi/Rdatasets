@@ -1,12 +1,5 @@
 {
-   "config" : {
-      "subtitle" : "psych - Dwyer",
-      "smpOverlays" : [
-         null
-      ],
-      "title" : "8 cognitive variables used by Dwyer for an example.",
-      "graphType" : "Stacked"
-   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>Dwyer</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>8 cognitive variables used by Dwyer for an example.\n</h2>\n<h3>Description</h3>\n<p>Dwyer (1937) introduced a technique for factor extension and used 8 cognitive variables from Thurstone.  This is the example data set used in his paper.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(Dwyer)</code></pre>\n<h3>Format</h3>\n<p>The format is:\nnum [1:8, 1:8] 1 0.58 -0.28 0.01 0.36 0.38 0.61 0.15 0.58 1 ...\n- attr(*, &quot;dimnames&quot;)=List of 2\n..$ : chr [1:8] &quot;V1&quot; &quot;V2&quot; &quot;V3&quot; &quot;V4&quot; ...\n..$ : chr [1:8] &quot;V1&quot; &quot;V2&quot; &quot;V3&quot; &quot;V4&quot; ...\n</p>\n<h3>Source</h3>\n<p>Data matrix retyped from the original publication. \n</p>\n<h3>References</h3>\n<p>Dwyer, Paul S. (1937), The determination of the factor loadings of a given test from the known factor loadings of other tests. Psychometrika, 3, 173-178\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>data(Dwyer)\nRo &lt;- Dwyer[1:7,1:7]\nRoe &lt;- Dwyer[1:7,8]\nfo &lt;- fa(Ro,2,rotate=\"none\")\nfa.extension(Roe,fo)\n</code></pre>\n</main>\n</div>\n",
    "data" : {
       "y" : {
          "vars" : [
@@ -113,5 +106,12 @@
          ]
       }
    },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>Dwyer</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>8 cognitive variables used by Dwyer for an example.\n</h2>\n<h3>Description</h3>\n<p>Dwyer (1937) introduced a technique for factor extension and used 8 cognitive variables from Thurstone.  This is the example data set used in his paper.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(Dwyer)</code></pre>\n<h3>Format</h3>\n<p>The format is:\nnum [1:8, 1:8] 1 0.58 -0.28 0.01 0.36 0.38 0.61 0.15 0.58 1 ...\n- attr(*, &quot;dimnames&quot;)=List of 2\n..$ : chr [1:8] &quot;V1&quot; &quot;V2&quot; &quot;V3&quot; &quot;V4&quot; ...\n..$ : chr [1:8] &quot;V1&quot; &quot;V2&quot; &quot;V3&quot; &quot;V4&quot; ...\n</p>\n<h3>Source</h3>\n<p>Data matrix retyped from the original publication. \n</p>\n<h3>References</h3>\n<p>Dwyer, Paul S. (1937), The determination of the factor loadings of a given test from the known factor loadings of other tests. Psychometrika, 3, 173-178\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>data(Dwyer)\nRo &lt;- Dwyer[1:7,1:7]\nRoe &lt;- Dwyer[1:7,8]\nfo &lt;- fa(Ro,2,rotate=\"none\")\nfa.extension(Roe,fo)\n</code></pre>\n</main>\n</div>\n"
+   "config" : {
+      "subtitle" : "psych - Dwyer",
+      "title" : "8 cognitive variables used by Dwyer for an example.",
+      "graphType" : "Stacked",
+      "smpOverlays" : [
+         null
+      ]
+   }
 }

@@ -1,18 +1,18 @@
 var GarchInfo ={
-   "usage" : "data(Garch)",
+   "description" : "Description\ndaily observations from 1980&ndash;01 to 1987&ndash;05&ndash;21\nnumber of observations :  1867\nobservation :  country\ncountry :  World",
    "title" : "Daily Observations on Exchange Rates of the US Dollar Against Other Currencies",
-   "format" : "A dataframe containing :",
+   "usage" : "data(Garch)",
    "parameters" : {
-      "bp" : "exchange rate of Dollar/British Pound",
-      "sf" : "exchange rate of Dollar/Swiss Franc",
-      "date" : "date of observation (yymmdd)",
       "dm" : "exchange rate Dollar/Deutsch Mark",
+      "bp" : "exchange rate of Dollar/British Pound",
       "dy" : "exchange rate of Dollar/Yen",
+      "date" : "date of observation (yymmdd)",
       "ddm" : "dm-dm(-1)",
-      "day" : "day of the week (a factor)",
-      "cd" : "exchange rate of Dollar/Canadian Dollar"
+      "cd" : "exchange rate of Dollar/Canadian Dollar",
+      "sf" : "exchange rate of Dollar/Swiss Franc",
+      "day" : "day of the week (a factor)"
    },
-   "description" : "Description\ndaily observations from 1980&ndash;01 to 1987&ndash;05&ndash;21\nnumber of observations :  1867\nobservation :  country\ncountry :  World"
+   "format" : "A dataframe containing :"
 }
 
 var Garch = [

@@ -1,0 +1,18 @@
+{
+   "usage" : "movies",
+   "reference" : "Movies were selected for inclusion if they had a known length and had been\nrated by at least one imdb user.",
+   "description" : "Description\nThe internet movie database, http://imdb.com/, is a website devoted\nto collecting movie data supplied by studios and fans.  It claims to be the\nbiggest movie database on the web and is run by amazon.  More about\ninformation imdb.com can be found online,\nhttp://imdb.com/help/show_leaf?about, including information about\nthe data collection process,\nhttp://imdb.com/help/show_leaf?infosource.",
+   "title" : "Movie information and user ratings from IMDB.com.",
+   "parameters" : {
+      "rating.  Average IMDB user rating." : null,
+      "budget.  Total budget (if known) in US dollars" : null,
+      "action, animation, comedy, drama, documentary, romance, short.\nBinary variables representing if movie was classified as belonging to that genre." : null,
+      "year.  Year of release." : null,
+      "title.  Title of the movie." : null,
+      "mpaa.  MPAA rating." : null,
+      "r1-10.  Multiplying by ten gives percentile (to nearest 10%) of\nusers who rated this movie a 1." : null,
+      "votes.  Number of IMDB users who rated this movie." : null,
+      "length.  Length in minutes." : null
+   },
+   "format" : "A data frame with 28819 rows and 24 variables"
+}

@@ -1,4 +1,9 @@
 {
+   "config" : {
+      "subtitle" : "datasets - Loblolly",
+      "title" : "Growth of Loblolly Pine Trees",
+      "graphType" : "Scatter3D"
+   },
    "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>Loblolly</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Growth of Loblolly Pine Trees</h2>\n<h3>Description</h3>\n<p>The <code>Loblolly</code> data frame has 84 rows and 3 columns of records of\nthe growth of Loblolly pine trees.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>Loblolly</code></pre>\n<h3>Format</h3>\n<p>An object of class\n<code>c(\"nfnGroupedData\", \"nfGroupedData\", \"groupedData\", \"data.frame\")</code>\ncontaining the following columns:\n</p>\n<dl>\n<dt>height</dt><dd>\n<p>a numeric vector of tree heights (ft).\n</p>\n</dd>\n<dt>age</dt><dd>\n<p>a numeric vector of tree ages (yr).\n</p>\n</dd>\n<dt>Seed</dt><dd>\n<p>an ordered factor indicating the seed source for the tree.\nThe ordering is according to increasing maximum height.\n</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>This dataset was originally part of package <code>nlme</code>, and that has\nmethods (including for <code>[</code>, <code>as.data.frame</code>, <code>plot</code> and\n<code>print</code>) for its grouped-data classes.\n</p>\n<h3>Source</h3>\n<p>Kung, F. H. (1986),\nFitting logistic growth curve with predetermined carrying capacity,\nin <em>Proceedings of the Statistical Computing Section,\nAmerican Statistical Association</em>, 340&ndash;343.\n</p>\n<p>Pinheiro, J. C. and Bates, D. M. (2000)\n<em>Mixed-effects Models in S and S-PLUS</em>, Springer.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>require(stats); require(graphics)\nplot(height ~ age, data = Loblolly, subset = Seed == 329,\n     xlab = \"Tree age (yr)\", las = 1,\n     ylab = \"Tree height (ft)\",\n     main = \"Loblolly data and fitted curve (Seed 329 only)\")\nfm1 &lt;- nls(height ~ SSasymp(age, Asym, R0, lrc),\n           data = Loblolly, subset = Seed == 329)\nage &lt;- seq(0, 30, length.out = 101)\nlines(age, predict(fm1, list(age = age)))\n</code></pre>\n</main>\n</div>\n",
    "data" : {
       "y" : {
@@ -87,11 +92,6 @@
             "56",
             "70",
             "84"
-         ],
-         "smps" : [
-            "height",
-            "age",
-            "Seed"
          ],
          "data" : [
             [
@@ -514,12 +514,12 @@
                25,
                331
             ]
+         ],
+         "smps" : [
+            "height",
+            "age",
+            "Seed"
          ]
       }
-   },
-   "config" : {
-      "subtitle" : "datasets - Loblolly",
-      "graphType" : "Scatter3D",
-      "title" : "Growth of Loblolly Pine Trees"
    }
 }

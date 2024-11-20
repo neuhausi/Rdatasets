@@ -2403,12 +2403,12 @@
       }
    },
    "config" : {
-      "subtitle" : "openintro - gss_wordsum_class",
       "groupingFactors" : [
          "class"
       ],
-      "colorBy" : "variable",
+      "subtitle" : "openintro - gss_wordsum_class",
       "title" : "gss_wordsum_class",
+      "colorBy" : "variable",
       "graphType" : "Boxplot"
    }
 }

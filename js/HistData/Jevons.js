@@ -1,13 +1,13 @@
 var JevonsInfo ={
-   "description" : "Description\nIn a remarkable brief note in Nature, 1871, W. Stanley Jevons described the results of\nan experiment he had conducted on himself to determine the limits of the\nnumber of objects an observer could comprehend immediately without counting\nthem.  This was an important philosophical question: How many objects can the mind embrace at once?\nHe carried out 1027 trials in which he tossed an \"uncertain number\" of\nuniform black beans into a box and immediately attempted to estimate the number\n\"without the least hesitation\".  His questions, procedure and analysis anticipated \nby 75 years one of the most influential papers in modern cognitive psychology\nby George Miller (1956), \"The magical number 7 plus or minus 2: Some limits on\n...\" \nFor Jevons, the magical number was 4.5, representing an empirical law of\ncomplete accuracy.",
-   "usage" : "data(Jevons)",
    "parameters" : {
-      "frequency" : "Frequency of this combination of (actual, estimated): a numeric vector",
       "estimated" : "Estimated number: a numeric vector",
-      "error" : "actual-estimated: a numeric vector",
-      "actual" : "Actual number: a numeric vector"
+      "frequency" : "Frequency of this combination of (actual, estimated): a numeric vector",
+      "actual" : "Actual number: a numeric vector",
+      "error" : "actual-estimated: a numeric vector"
    },
    "title" : "W. Stanley Jevons' data on numerical discrimination",
+   "description" : "Description\nIn a remarkable brief note in Nature, 1871, W. Stanley Jevons described the results of\nan experiment he had conducted on himself to determine the limits of the\nnumber of objects an observer could comprehend immediately without counting\nthem.  This was an important philosophical question: How many objects can the mind embrace at once?\nHe carried out 1027 trials in which he tossed an \"uncertain number\" of\nuniform black beans into a box and immediately attempted to estimate the number\n\"without the least hesitation\".  His questions, procedure and analysis anticipated \nby 75 years one of the most influential papers in modern cognitive psychology\nby George Miller (1956), \"The magical number 7 plus or minus 2: Some limits on\n...\" \nFor Jevons, the magical number was 4.5, representing an empirical law of\ncomplete accuracy.",
+   "usage" : "data(Jevons)",
    "reference" : "The original data were presented in a two-way, 13 x 13 frequency table,\nestimated (3:15) x actual (3:15).",
    "format" : "A frequency data frame with 50 observations on the following 4 variables."
 }

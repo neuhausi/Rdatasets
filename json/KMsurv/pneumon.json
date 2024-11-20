@@ -55576,8 +55576,8 @@
       }
    },
    "config" : {
-      "graphType" : "Heatmap",
+      "subtitle" : "KMsurv - pneumon",
       "title" : "data from Section 1.13",
-      "subtitle" : "KMsurv - pneumon"
+      "graphType" : "Heatmap"
    }
 }

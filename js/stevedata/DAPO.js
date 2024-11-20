@@ -1,22 +1,22 @@
 var DAPOInfo ={
-   "title" : "Determinants of Arab Public Opinion",
+   "usage" : "DAPO",
    "reference" : "Exact coding issues/peculiarities are best addressed by reading the reference\narticle. To maximally reproduce the article's analyses, the user will need\nto create some variables. The information is here, but you'll need to create\na variable for dyadic trade (and as a percentage of the subject's GDP),\nGDP-adjusted imports, a means to filter out Israel from the analysis, and\nsome of the information reported in Table 1. However, I think this is a\nlearning experience for students.",
-   "format" : "A data frame with 91 observations on the following variables.",
+   "description" : "Description\nA reduced form of data set for reproducing an analysis on the determinants\nof Arab public opinion in seven countries toward 13 different countries.",
+   "title" : "Determinants of Arab Public Opinion",
    "parameters" : {
-      "subjname" : "a three-character ISO code for the Arab (subject) country",
-      "objname" : "an ALL-CAPS English name for the target/object country",
-      "capsub" : "the composite index of national capabilities (capability ratio) of the subject country",
-      "import" : "the volume of imports to the subject from the object",
-      "west" : "a dummy variable that equals 1 if the object ia a Western country",
-      "islam" : "a dummy variable that equals 1 if the object is a predominantly Muslim country",
-      "export" : "the volume of exports from the subject to the object",
       "securtie" : "a dummy variable indicating at least an informal security tie between the subject and object",
+      "subgdp" : "the gross domestic product (GDP) of the subject",
       "capobj" : "the composite index of national capabilities (capability ratio) of the object country",
       "affect" : "an affect rating by the subject country to the object country",
-      "subgdp" : "the gross domestic product (GDP) of the subject"
+      "capsub" : "the composite index of national capabilities (capability ratio) of the subject country",
+      "objname" : "an ALL-CAPS English name for the target/object country",
+      "export" : "the volume of exports from the subject to the object",
+      "islam" : "a dummy variable that equals 1 if the object is a predominantly Muslim country",
+      "west" : "a dummy variable that equals 1 if the object ia a Western country",
+      "subjname" : "a three-character ISO code for the Arab (subject) country",
+      "import" : "the volume of imports to the subject from the object"
    },
-   "usage" : "DAPO",
-   "description" : "Description\nA reduced form of data set for reproducing an analysis on the determinants\nof Arab public opinion in seven countries toward 13 different countries."
+   "format" : "A data frame with 91 observations on the following variables."
 }
 
 var DAPO = [

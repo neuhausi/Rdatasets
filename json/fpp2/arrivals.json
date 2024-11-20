@@ -1,7 +1,19 @@
 {
+   "config" : {
+      "subtitle" : "fpp2 - arrivals",
+      "scatterPlotMatrix" : 1,
+      "title" : "International Arrivals to Australia",
+      "graphType" : "Scatter2D"
+   },
    "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>arrivals</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>International Arrivals to Australia</h2>\n<h3>Description</h3>\n<p>Quarterly international arrivals (in thousands) to Australia from Japan, New\nZealand, UK and the US.  1981Q1 - 2012Q3.\n</p>\n<h3>Format</h3>\n<p>Quarterly time series of class <code>ts</code>.\n</p>\n<h3>Source</h3>\n<p>Tourism Research Australia.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>\nautoplot(arrivals)\n</code></pre>\n</main>\n</div>\n",
    "data" : {
       "y" : {
+         "smps" : [
+            "Japan",
+            "NZ",
+            "UK",
+            "US"
+         ],
          "data" : [
             [
                14.763,
@@ -766,12 +778,6 @@
                106.54
             ]
          ],
-         "smps" : [
-            "Japan",
-            "NZ",
-            "UK",
-            "US"
-         ],
          "vars" : [
             "Var1",
             "Var2",
@@ -902,11 +908,5 @@
             "Var127"
          ]
       }
-   },
-   "config" : {
-      "subtitle" : "fpp2 - arrivals",
-      "graphType" : "Scatter2D",
-      "title" : "International Arrivals to Australia",
-      "scatterPlotMatrix" : 1
    }
 }

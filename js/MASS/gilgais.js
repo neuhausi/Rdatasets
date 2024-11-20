@@ -1,20 +1,20 @@
 var gilgaisInfo ={
-   "description" : "Description\nThis dataset was collected on a line transect survey in gilgai\nterritory in New South Wales, Australia.  Gilgais are natural gentle\ndepressions in otherwise flat land, and sometimes seem to be regularly\ndistributed. The data collection was stimulated by the question: are\nthese patterns reflected in soil properties?  At each of 365 sampling\nlocations on a linear grid of 4 meters spacing, samples were taken at\ndepths 0-10 cm, 30-40 cm and 80-90 cm below the surface. pH, electrical\nconductivity and chloride content were measured on a 1:5 soil:water\nextract from each sample.",
-   "usage" : "gilgais",
+   "format" : "This data frame contains the following columns:",
    "parameters" : {
-      "pH00" : "pH at depth 0&ndash;10 cm.",
-      "c30" : "chloride content in ppm (30&ndash;40 cm).",
+      "e30" : "electrical conductivity in mS/cm (30&ndash;40 cm).",
+      "c00" : "chloride content in ppm  (0&ndash;10 cm).",
       "e80" : "electrical conductivity in mS/cm (80&ndash;90 cm).",
-      "e00" : "electrical conductivity in mS/cm  (0&ndash;10 cm).",
+      "pH30" : "pH at depth 30&ndash;40 cm.",
+      "pH00" : "pH at depth 0&ndash;10 cm.",
       "pH80" : "pH at depth 80&ndash;90 cm.",
       "c80" : "chloride content in ppm (80&ndash;90 cm).",
-      "c00" : "chloride content in ppm  (0&ndash;10 cm).",
-      "pH30" : "pH at depth 30&ndash;40 cm.",
-      "e30" : "electrical conductivity in mS/cm (30&ndash;40 cm)."
+      "c30" : "chloride content in ppm (30&ndash;40 cm).",
+      "e00" : "electrical conductivity in mS/cm  (0&ndash;10 cm)."
    },
+   "description" : "Description\nThis dataset was collected on a line transect survey in gilgai\nterritory in New South Wales, Australia.  Gilgais are natural gentle\ndepressions in otherwise flat land, and sometimes seem to be regularly\ndistributed. The data collection was stimulated by the question: are\nthese patterns reflected in soil properties?  At each of 365 sampling\nlocations on a linear grid of 4 meters spacing, samples were taken at\ndepths 0-10 cm, 30-40 cm and 80-90 cm below the surface. pH, electrical\nconductivity and chloride content were measured on a 1:5 soil:water\nextract from each sample.",
    "title" : "Line Transect of Soil in Gilgai Territory",
-   "reference" : "Webster, R. (1977) Spectral analysis of gilgai soil.\nAustralian Journal of Soil Research 15, 191&ndash;204.",
-   "format" : "This data frame contains the following columns:"
+   "usage" : "gilgais",
+   "reference" : "Webster, R. (1977) Spectral analysis of gilgai soil.\nAustralian Journal of Soil Research 15, 191&ndash;204."
 }
 
 var gilgais = [

@@ -1,16 +1,16 @@
 var schoolInfo ={
    "parameters" : {
-      "coed:" : "Indicator variable for coeducation. 1 = coeducation.",
-      "free:" : "Percent of 10th grade students receiving free lunch. 1 to 7 \nlevels.",
       "SCH_ID:" : "School indicator.",
-      "smorale:" : "Measure of student morale in the school. 4 levels.",
-      "catholic:" : "Indicator variable for catholic school. 1 = \ncatholic school."
+      "catholic:" : "Indicator variable for catholic school. 1 = \ncatholic school.",
+      "free:" : "Percent of 10th grade students receiving free lunch. 1 to 7 \nlevels.",
+      "coed:" : "Indicator variable for coeducation. 1 = coeducation.",
+      "smorale:" : "Measure of student morale in the school. 4 levels."
    },
    "reference" : "The complete student-level data is available from the data archives \nat www.icpsr.umich.edu/",
-   "format" : "A data matrix with 568 rows and 5 columns, containing no missing \nvalues. The data are provided only for illustrative purposes and not for \ninference about education effectiveness, for which the original data source\nshould be consulted.",
+   "usage" : "school",
    "title" : "School-level data",
    "description" : "Description\nThe original data source is the Education Longitudinal Study of 2002. To deal\nwith the issue on individually identifiable information, we generated \nhypothetical student-level data using a multiple imputation method. The \nEducation Longitudinal Study of 2002 used a two-stage sample selection \nprocess. First, a national sample of schools was selected using stratified \nprobability proportional to size (PPS), and school contacting resulted in \n1,221 eligible public, Catholic, and other private schools from a population \nof approximately 27,000 schools containing 10th grade students. Of the \neligible schools, 752 participated in the study. In the second stage of \nsample selection, a sample of approximately 26 sophomores, from within each \nof the participating public and private schools was selected. Each school was\nasked to provide a list of 10th grade students, and quality assurance (QA) \nchecks were performed on each list that was received.",
-   "usage" : "school"
+   "format" : "A data matrix with 568 rows and 5 columns, containing no missing \nvalues. The data are provided only for illustrative purposes and not for \ninference about education effectiveness, for which the original data source\nshould be consulted."
 }
 
 var school = [

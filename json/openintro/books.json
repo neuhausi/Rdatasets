@@ -400,15 +400,15 @@
    },
    "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>books</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Sample of books on a shelf</h2>\n<h3>Description</h3>\n<p>Simulated dataset.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>books\n</code></pre>\n<h3>Format</h3>\n<p>A data frame with 95 observations on the following 2 variables.\n</p>\n<dl>\n<dt>type</dt><dd><p>a factor with levels <code>fiction</code> and <code>nonfiction</code></p>\n</dd>\n<dt>format</dt><dd><p>a factor with levels <code>hardcover</code> and <code>paperback</code></p>\n</dd>\n</dl>\n<h3>Examples</h3>\n<pre><code class='language-R'>\ntable(books)\n</code></pre>\n</main>\n</div>\n",
    "config" : {
-      "title" : "Sample of books on a shelf",
-      "subtitle" : "openintro - books",
       "segregateSamplesBy" : [
          "format"
       ],
-      "colorBy" : "variable",
       "graphType" : "Boxplot",
+      "colorBy" : "variable",
       "groupingFactors" : [
          "type"
-      ]
+      ],
+      "subtitle" : "openintro - books",
+      "title" : "Sample of books on a shelf"
    }
 }

@@ -1,0 +1,10 @@
+{
+   "format" : "A time series containing :",
+   "parameters" : {
+      "consumption" : "consumer expenditure (million Pounds, current prices)",
+      "income" : "total disposable income  (million Pounds, current prices)"
+   },
+   "description" : "Description\nquarterly observations from 1971&ndash;1 to 1985&ndash;2\nnumber of observations :  58\nobservation :  country\ncountry :  United Kingdom",
+   "title" : "Seasonally Unadjusted Quarterly Data on Disposable Income and Expenditure",
+   "usage" : "data(IncomeUK)"
+}

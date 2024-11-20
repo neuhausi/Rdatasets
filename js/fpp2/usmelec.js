@@ -1,8 +1,8 @@
 var usmelecInfo ={
-   "description" : "Description\nElectricity net generation measured in billions of kilowatt hours (kWh).",
    "usage" : "Time series object of class ts.",
-   "format" : "US Energy Information Administration.",
-   "title" : "Electricity monthly total net generation. January 1973 - June 2013."
+   "description" : "Description\nElectricity net generation measured in billions of kilowatt hours (kWh).",
+   "title" : "Electricity monthly total net generation. January 1973 - June 2013.",
+   "format" : "US Energy Information Administration."
 }
 
 var usmelec = [

@@ -1,0 +1,10 @@
+{
+   "format" : "A data frame with 75 observations on the following variable.",
+   "parameters" : {
+      "price" : "Monthly housing price, simulated."
+   },
+   "usage" : "cchousing",
+   "reference" : "hist(cchousing$price)",
+   "description" : "Description\nThese are simulated data and intended to represent housing prices of\nstudents at a community college.",
+   "title" : "Community college housing (simulated data)"
+}

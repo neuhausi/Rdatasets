@@ -1,19 +1,19 @@
 var nwtcoInfo ={
+   "format" : "A data frame with 4028 observations on the following 9 variables.",
+   "description" : "Description\nMeasurement error example. Tumor histology predicts\nsurvival, but prediction is stronger with central lab histology than\nwith the local institution determination.",
+   "title" : "Data from the National Wilm's Tumor Study",
+   "usage" : "nwtco\ndata(nwtco, package=\"survival\")",
    "parameters" : {
-      "instit" : "Histology from local institution",
       "stage" : "Disease stage",
-      "edrel" : "time to relapse",
+      "instit" : "Histology from local institution",
+      "study" : "study",
       "seqno" : "id number",
       "histol" : "Histology from central lab",
-      "in.subcohort" : "Included in the subcohort for the example in the\npaper",
-      "age" : "age in months",
       "rel" : "indicator for relapse",
-      "study" : "study"
-   },
-   "description" : "Description\nMeasurement error example. Tumor histology predicts\nsurvival, but prediction is stronger with central lab histology than\nwith the local institution determination.",
-   "format" : "A data frame with 4028 observations on the following 9 variables.",
-   "title" : "Data from the National Wilm's Tumor Study",
-   "usage" : "nwtco\ndata(nwtco, package=\"survival\")"
+      "edrel" : "time to relapse",
+      "in.subcohort" : "Included in the subcohort for the example in the\npaper",
+      "age" : "age in months"
+   }
 }
 
 var nwtco = [

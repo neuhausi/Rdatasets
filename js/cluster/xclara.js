@@ -1,8 +1,8 @@
 var xclaraInfo ={
    "description" : "Description\nAn artificial data set consisting of 3000 points in 3 quite well-separated\nclusters.",
+   "title" : "Bivariate Data Set with 3 Clusters",
    "usage" : "data(xclara)",
-   "format" : "A data frame with 3000 observations on 2 numeric variables (named\nV1 and V2) giving the\nx and y coordinates of the points, respectively.",
-   "title" : "Bivariate Data Set with 3 Clusters"
+   "format" : "A data frame with 3000 observations on 2 numeric variables (named\nV1 and V2) giving the\nx and y coordinates of the points, respectively."
 }
 
 var xclara = [

@@ -1,0 +1,11 @@
+{
+   "parameters" : {
+      "earnings" : "S&P composite earnings index",
+      "price" : "S&P composite stock price index"
+   },
+   "description" : "Description\nannual observations from 1800 to 1931\nnumber of observations :  132\nobservation :  country\ncountry :  United States",
+   "title" : "Price and Earnings Index",
+   "usage" : "data(PE)",
+   "reference" : "Robert Shiller.",
+   "format" : "A time series containing :"
+}

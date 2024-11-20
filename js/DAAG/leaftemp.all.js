@@ -1,20 +1,20 @@
 var leaftemp.allInfo ={
-   "description" : "Description\nThe leaftemp.all data frame has 62 rows and 9 columns.",
-   "usage" : "leaftemp.all",
    "parameters" : {
       "BtempDiff" : "a numeric vector",
-      "CO2" : "a numeric vector",
-      "day" : "a factor",
       "airTemp" : "Air Temperature",
-      "tempDiff" : "Difference between Leaf and Air Temperature",
       "CO2level" : "a factor with Carbon Dioxide Levels:\nhigh,\nlow,\nmedium",
-      "vapPress" : "Vapour Pressure",
       "light" : "a numeric vector",
+      "CO2" : "a numeric vector",
+      "tempDiff" : "Difference between Leaf and Air Temperature",
+      "day" : "a factor",
+      "vapPress" : "Vapour Pressure",
       "glasshouse" : "a factor with levels\nA,\nB,\nC"
    },
-   "format" : "This data frame contains the following columns:",
+   "title" : "Full Leaf and Air Temperature Data Set",
+   "description" : "Description\nThe leaftemp.all data frame has 62 rows and 9 columns.",
+   "usage" : "leaftemp.all",
    "reference" : "J.H. Maindonald",
-   "title" : "Full Leaf and Air Temperature Data Set"
+   "format" : "This data frame contains the following columns:"
 }
 
 var leaftemp.all = [

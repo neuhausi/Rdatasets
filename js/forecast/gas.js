@@ -1,8 +1,8 @@
 var gasInfo ={
+   "format" : "Time series data",
    "description" : "Description\nAustralian monthly gas production: 1956&ndash;1995.",
-   "usage" : "gas",
    "title" : "Australian monthly gas production",
-   "format" : "Time series data"
+   "usage" : "gas"
 }
 
 var gas = [

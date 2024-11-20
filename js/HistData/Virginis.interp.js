@@ -1,17 +1,17 @@
 var Virginis.interpInfo ={
-   "reference" : "The data in Virginis come from the table on p. 35 of the &ldquo;Micrometrical Measures&rdquo;\npaper.",
    "format" : "Virgins: A data frame with 18 observations on the following 6 variables giving\nthe measurements of position angle and angular distance between the central (brightest)\nstar and its twin, recorded by various observers over more than 100 years.",
+   "description" : "Description\nIn 1833 J. F. W. Herschel published two papers in the Memoirs of the Royal Astronomical Society\ndetailing his investigations of calculating the orbits of twin stars from observations of\ntheir relative position angle and angular distance.\nIn the process, he invented the scatterplot, and the use of visual smoothing to obtain a reliable\ncurve that surpassed the accuracy of individual observations (Friendly & Denis, 2005).\nHis data on the recordings of the twin stars \\gamma Virginis provide an\naccessible example of his methods.",
    "title" : "John F. W. Herschel's Data on the Orbit of the Twin Stars \\gamma Virginis",
-   "parameters" : {
-      "posangle" : "recorded position angle between the two stars, a numeric vector",
-      "weight" : "a subjective weight attributed to the accuracy of this observation, a numeric vector",
-      "distance" : "separation distance between the two stars, a numeric vector",
-      "notes" : "Herschel's notes on this observation, a character vector",
-      "year" : "year (\"epoch\") of the observation, a decimal numeric vector",
-      "authority" : "A simplified version of the notes giving just the attribution of authority of the observation, a character vector"
-   },
    "usage" : "data(\"Virginis\")\n\tdata(\"Virginis.interp\")",
-   "description" : "Description\nIn 1833 J. F. W. Herschel published two papers in the Memoirs of the Royal Astronomical Society\ndetailing his investigations of calculating the orbits of twin stars from observations of\ntheir relative position angle and angular distance.\nIn the process, he invented the scatterplot, and the use of visual smoothing to obtain a reliable\ncurve that surpassed the accuracy of individual observations (Friendly & Denis, 2005).\nHis data on the recordings of the twin stars \\gamma Virginis provide an\naccessible example of his methods."
+   "reference" : "The data in Virginis come from the table on p. 35 of the &ldquo;Micrometrical Measures&rdquo;\npaper.",
+   "parameters" : {
+      "weight" : "a subjective weight attributed to the accuracy of this observation, a numeric vector",
+      "posangle" : "recorded position angle between the two stars, a numeric vector",
+      "distance" : "separation distance between the two stars, a numeric vector",
+      "authority" : "A simplified version of the notes giving just the attribution of authority of the observation, a character vector",
+      "year" : "year (\"epoch\") of the observation, a decimal numeric vector",
+      "notes" : "Herschel's notes on this observation, a character vector"
+   }
 }
 
 var Virginis.interp = [

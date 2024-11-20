@@ -1,12 +1,12 @@
 var student_sleepInfo ={
-   "usage" : "student_sleep",
-   "description" : "Description\nA simulated dataset for how much 110 college students each slept in a\nsingle night.",
    "format" : "A data frame with 110 observations on the following variable.",
-   "title" : "Sleep for 110 students (simulated)",
-   "reference" : "Simulated data.",
    "parameters" : {
       "hours" : "Number of hours slept by this student (simulated)."
-   }
+   },
+   "title" : "Sleep for 110 students (simulated)",
+   "description" : "Description\nA simulated dataset for how much 110 college students each slept in a\nsingle night.",
+   "reference" : "Simulated data.",
+   "usage" : "student_sleep"
 }
 
 var student_sleep = [

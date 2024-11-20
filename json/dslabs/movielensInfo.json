@@ -1,0 +1,16 @@
+{
+   "reference" : "https://files.grouplens.org/datasets/movielens/ml-latest-small.zip",
+   "usage" : "movielens",
+   "description" : "Description\nMovieLens Latest Dataset (Small)",
+   "title" : "Movie ratings",
+   "parameters" : {
+      "timestamp. Date and time the rating was given." : null,
+      "userId. Unique ID for the user." : null,
+      "genres. Genres associated with the movie." : null,
+      "movieId. Unique ID for the movie." : null,
+      "title. Movie title (not unique)." : null,
+      "year. Year the movie was released." : null,
+      "rating. A rating between 0 and 5 for the movie." : null
+   },
+   "format" : "Two object of class data.frame."
+}

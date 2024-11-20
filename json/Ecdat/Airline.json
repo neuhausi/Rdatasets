@@ -2,14 +2,6 @@
    "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>Airline</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Cost for U.S. Airlines </h2>\n<h3>Description</h3>\n<p>a panel of 6 observations  from 1970  to 1984\n</p>\n<p><em>number of observations</em> :  90\n</p>\n<p><em>observation</em> :  production units\n</p>\n<p><em>country</em> :  United States\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(Airline)</code></pre>\n<h3>Format</h3>\n<p>A dataframe containing :\n</p>\n<dl>\n<dt>airline</dt><dd><p>airline</p>\n</dd>\n<dt>year</dt><dd><p>year</p>\n</dd>\n<dt>cost</dt><dd><p>total cost, in $1,000</p>\n</dd>\n<dt>output</dt><dd><p>output, in revenue passenger miles, \nindex number</p>\n</dd>\n<dt>pf</dt><dd><p>fuel price</p>\n</dd>\n<dt>lf</dt><dd><p>load factor, the average capacity utilization of the fleet</p>\n</dd>\n</dl>\n<h3>References</h3>\n<p>Greene, W.H. (2003) <em>Econometric Analysis</em>, Prentice Hall, <a href=\"https://archive.org/details/econometricanaly0000gree_f4x3\">https://archive.org/details/econometricanaly0000gree_f4x3</a>, Table F7.1.\n</p>\n<h3>See Also</h3>\n<p><code>Index.Source</code>, <code>Index.Economics</code>,\n<code>Index.Econometrics</code>, \n<code>Index.Observations</code>,\n<code>Index.Time.Series</code>\n</p>\n</main>\n</div>\n",
    "data" : {
       "y" : {
-         "vars" : [
-            "airline",
-            "year",
-            "cost",
-            "output",
-            "pf",
-            "lf"
-         ],
          "smps" : [
             "Smp1",
             "Smp2",
@@ -655,12 +647,20 @@
                0.537791,
                0.525775
             ]
+         ],
+         "vars" : [
+            "airline",
+            "year",
+            "cost",
+            "output",
+            "pf",
+            "lf"
          ]
       }
    },
    "config" : {
-      "graphType" : "Heatmap",
       "title" : "Cost for U.S. Airlines",
-      "subtitle" : "Ecdat - Airline"
+      "subtitle" : "Ecdat - Airline",
+      "graphType" : "Heatmap"
    }
 }

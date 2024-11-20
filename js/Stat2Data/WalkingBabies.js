@@ -1,7 +1,7 @@
 var WalkingBabiesInfo ={
+   "title" : "Effects of Exercise on First Walking",
    "description" : "Description\nAn experiment to see if special exercises help babies learn to walk sooner",
-   "usage" : "A dataset with 24 observations on the following 2 variables.",
-   "title" : "Effects of Exercise on First Walking"
+   "usage" : "A dataset with 24 observations on the following 2 variables."
 }
 
 var WalkingBabies = [

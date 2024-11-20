@@ -1,26 +1,26 @@
 var GHR04Info ={
-   "usage" : "GHR04",
-   "description" : "Description\nThis is a data set for replicating Ghobarah et al. (2004), a reduced form of\nwhat they make available on Dataverse for replication. Variables have been\nrenamed for legibility.",
-   "title" : "Comparative Public Health: The Political Economy of Human Misery and Well-Being",
-   "format" : "A data frame with 182 observations on the following 15 variables.",
-   "reference" : "The three-character ISO code is the only new addition to the data. I\nadd this because the country names they have in the data are not neat and may\nlead users astray if they wanted to search for a specific observation. The\nISO code for Yugoslavia (Serbia and Montenegro) around this time was \"SCG\".",
    "parameters" : {
       "hale" : "a numeric vector for health adjusted life expectancy (in years)",
-      "rivalry" : "a dummy variable indicating the presence of an enduring international rivalry for the country",
-      "urban_growth" : "a numeric vector for the pace of urbanization",
-      "iso3c" : "a three-character ISO code for the country",
       "totexphlth" : "a numeric vector for total expenditures on health",
-      "country" : "a character vector denoting a country name",
       "pubhlthexppgdp" : "a numeric vector for public health expenditures as a percentage of GDP",
-      "contig_cw" : "a dummy variable communicating whether there is a civil war in a geographically contiguous territory",
-      "cwdeaths" : "a numeric vector for civil war deaths",
       "log_vanhanen" : "a numeric vector for (log-transformed) racial-linguistic-religious heterogeneity",
-      "log_educ" : "a numeric vector for (log-transformed) educational attainment",
-      "gini" : "a numeric vector for income inequality",
-      "log_gdppc" : "a numeric vector for (log-transformed) GDP per capita",
+      "iso3c" : "a three-character ISO code for the country",
+      "rivalry" : "a dummy variable indicating the presence of an enduring international rivalry for the country",
       "polity" : "a numeric vector communicating a Polity score, as a measure of the democratic nature of the country's regime",
-      "prvhlthexpgdp" : "a numeric vector for private spending on health as a percentage of GDP"
-   }
+      "log_educ" : "a numeric vector for (log-transformed) educational attainment",
+      "urban_growth" : "a numeric vector for the pace of urbanization",
+      "cwdeaths" : "a numeric vector for civil war deaths",
+      "log_gdppc" : "a numeric vector for (log-transformed) GDP per capita",
+      "prvhlthexpgdp" : "a numeric vector for private spending on health as a percentage of GDP",
+      "country" : "a character vector denoting a country name",
+      "gini" : "a numeric vector for income inequality",
+      "contig_cw" : "a dummy variable communicating whether there is a civil war in a geographically contiguous territory"
+   },
+   "description" : "Description\nThis is a data set for replicating Ghobarah et al. (2004), a reduced form of\nwhat they make available on Dataverse for replication. Variables have been\nrenamed for legibility.",
+   "title" : "Comparative Public Health: The Political Economy of Human Misery and Well-Being",
+   "usage" : "GHR04",
+   "reference" : "The three-character ISO code is the only new addition to the data. I\nadd this because the country names they have in the data are not neat and may\nlead users astray if they wanted to search for a specific observation. The\nISO code for Yugoslavia (Serbia and Montenegro) around this time was \"SCG\".",
+   "format" : "A data frame with 182 observations on the following 15 variables."
 }
 
 var GHR04 = [

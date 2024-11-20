@@ -1,0 +1,12 @@
+{
+   "format" : "A data frame with 100 observations on the following 3 variables.",
+   "title" : "Simulated data for regression",
+   "description" : "Description\nSimulated data for regression",
+   "reference" : "res_demo_1",
+   "usage" : "res_demo_1",
+   "parameters" : {
+      "y_fan_back" : "a numeric vector",
+      "y_lin" : "a numeric vector",
+      "x" : "a numeric vector"
+   }
+}

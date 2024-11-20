@@ -1,7 +1,7 @@
 var MarketsInfo ={
    "title" : "Daily Change in Dow Jones and Nikkei Stock Market Indices",
-   "usage" : "A dataset with 56 observations on the following 5 variables.",
-   "description" : "Description\nDaily changes in two stock market indices"
+   "description" : "Description\nDaily changes in two stock market indices",
+   "usage" : "A dataset with 56 observations on the following 5 variables."
 }
 
 var Markets = [

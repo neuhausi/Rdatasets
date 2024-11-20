@@ -1,0 +1,33 @@
+{
+   "format" : "A data frame with 11,300 rows and 25 variables. Original column names\nfrom the source dataset are noted in parenthesis.",
+   "parameters" : {
+      "is_annhi" : "&#8288;[logical]&#8288; Flag for Alaska Native Native Hawaiian serving institution. (ANNHI)",
+      "is_only_distance" : "&#8288;[logical]&#8288; Flag for distance-education-only education. (DISTANCEONLY)",
+      "name" : "&#8288;[character]&#8288; Institution name. (INSTNM)",
+      "control" : "&#8288;[factor]&#8288; Control of institution (IPEDS). (CONTROL)",
+      "latitude" : "&#8288;[numeric]&#8288; Latitude. (LATITUDE)",
+      "is_nanti" : "&#8288;[logical]&#8288; Flag for Native American non-tribal institution. (NANTI)",
+      "locale_type" : "&#8288;[factor]&#8288; Locale of institution. (LOCALE)",
+      "is_only_women" : "&#8288;[logical]&#8288; Flag for women-only college. (WOMENONLY)",
+      "url" : "&#8288;[character]&#8288; URL for institution's homepage. (INSTURL)",
+      "is_pbi" : "&#8288;[logical]&#8288; Flag for predominantly black institution. (PBI)",
+      "is_only_men" : "&#8288;[logical]&#8288; Flag for men-only college. (MENONLY)",
+      "is_hbcu" : "&#8288;[logical]&#8288; Flag for Historically Black College and University. (HBCU)",
+      "is_tribal" : "&#8288;[logical]&#8288; Flag for tribal college and university. (TRIBAL)",
+      "deg_predominant" : "&#8288;[factor]&#8288; Predominant undergraduate degree awarded. (PREDDEG)",
+      "deg_highest" : "&#8288;[factor]&#8288; Highest degree awarded. (HIGHDEG)",
+      "zip" : "&#8288;[character]&#8288; ZIP code. (ZIP)",
+      "id" : "&#8288;[integer]&#8288; A unique identifier for each institution. (UNITID)",
+      "is_aanapii" : "&#8288;[logical]&#8288; Flag for Asian American Native American Pacific Islander-serving institution. (AANAPII)",
+      "adm_req_test" : "&#8288;[factor]&#8288; Test score requirements for admission. (ADMCON7)",
+      "longitude" : "&#8288;[numeric]&#8288; Longitude. (LONGITUDE)",
+      "locale_size" : "&#8288;[factor]&#8288; Locale of institution. (LOCALE)",
+      "is_hsi" : "&#8288;[logical]&#8288; Flag for Hispanic-serving institution. (HSI)",
+      "state" : "&#8288;[character]&#8288; State postcode. (STABBR)",
+      "religious_affiliation" : "&#8288;[factor]&#8288; Religious affiliation of the institution. (RELAFFIL)",
+      "city" : "&#8288;[character]&#8288; City. (CITY)"
+   },
+   "description" : "Description\nInformation about institutions in the U.S. College Scorecard dataset. The\nuses the most recent report for each institution. The school dataset can be\nused to filter the scorecard dataset. Join the two datasets using the id\ncolumn.\nThe data set contain only colleges that participate in Title IV federal\nfinancial aid programs. In the tidy data set, column names have been changed\nfor readability and consistency.\nYou can find the original data set at the U.S. Department of Education's\nCollege Scorecard website. The\ncode for the data transformation process is available at\nhttps://github.com/gadenbuie/scorecard-db.",
+   "title" : "College Scorecard: School Data",
+   "usage" : "school"
+}

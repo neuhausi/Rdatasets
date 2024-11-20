@@ -1,15 +1,15 @@
 var farmsInfo ={
-   "usage" : "farms",
-   "description" : "Description\nThe farms data frame has 20 rows and 4 columns. The rows are farms\non the Dutch island of Terschelling and the columns are factors\ndescribing the management of grassland.",
-   "title" : "Ecological Factors in Farm Management",
    "format" : "This data frame contains the following columns:",
-   "reference" : "J.C. Gower and D.J. Hand (1996) Biplots. Chapman & Hall, Table 4.6.",
    "parameters" : {
       "Use" : "Grassland use (U1 = hay production, U2 =\nintermediate, U3 = grazing).",
-      "Manag" : "Grassland management type (SF = standard,\nBF = biological, HF = hobby farming,\nNM = nature conservation).",
       "Mois" : "Five levels of soil moisture &ndash; level 3 does not occur at these 20 farms.",
+      "Manag" : "Grassland management type (SF = standard,\nBF = biological, HF = hobby farming,\nNM = nature conservation).",
       "Manure" : "Manure usage &ndash; classes C0 to C4."
-   }
+   },
+   "description" : "Description\nThe farms data frame has 20 rows and 4 columns. The rows are farms\non the Dutch island of Terschelling and the columns are factors\ndescribing the management of grassland.",
+   "title" : "Ecological Factors in Farm Management",
+   "reference" : "J.C. Gower and D.J. Hand (1996) Biplots. Chapman & Hall, Table 4.6.",
+   "usage" : "farms"
 }
 
 var farms = [

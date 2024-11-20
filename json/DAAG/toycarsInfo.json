@@ -1,0 +1,12 @@
+{
+   "parameters" : {
+      "car" : "a numeric code (1 = first car, 2 = second car, 3 = third \ncar)",
+      "angle" : "tilt of ramp, in degrees",
+      "distance" : "distance traveled, in meters"
+   },
+   "title" : "Toy Cars Data",
+   "description" : "Description\nThe toycars data frame has 27 rows and 3 columns.\nObservations are on the\ndistance traveled by one of three different toy cars on\na smooth surface, starting from rest at the top of a 16 inch long ramp\ntilted at varying angles.",
+   "reference" : "toycars.lm <- lm(distance ~ angle + factor(car), data=toycars)\nsummary(toycars.lm)",
+   "usage" : "toycars",
+   "format" : "This data frame contains the following columns:"
+}

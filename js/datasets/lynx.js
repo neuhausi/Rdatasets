@@ -1,8 +1,8 @@
 var lynxInfo ={
-   "format" : "Brockwell, P. J. and Davis, R. A. (1991).\nTime Series and Forecasting Methods.  Second edition.\nSpringer. Series G (page 557).",
    "title" : "Annual Canadian Lynx trappings 1821&ndash;1934",
+   "description" : "Description\nAnnual numbers of lynx trappings for 1821&ndash;1934 in Canada. Taken from\nBrockwell & Davis (1991), this appears to be the series considered\nby Campbell & Walker (1977).",
    "usage" : "lynx",
-   "description" : "Description\nAnnual numbers of lynx trappings for 1821&ndash;1934 in Canada. Taken from\nBrockwell & Davis (1991), this appears to be the series considered\nby Campbell & Walker (1977)."
+   "format" : "Brockwell, P. J. and Davis, R. A. (1991).\nTime Series and Forecasting Methods.  Second edition.\nSpringer. Series G (page 557)."
 }
 
 var lynx = [

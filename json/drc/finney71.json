@@ -34,6 +34,11 @@
                0
             ]
          ],
+         "smps" : [
+            "dose",
+            "total",
+            "affected"
+         ],
          "vars" : [
             "Var1",
             "Var2",
@@ -41,17 +46,12 @@
             "Var4",
             "Var5",
             "Var6"
-         ],
-         "smps" : [
-            "dose",
-            "total",
-            "affected"
          ]
       }
    },
    "config" : {
+      "graphType" : "Scatter3D",
       "subtitle" : "drc - finney71",
-      "title" : "Example from Finney (1971)",
-      "graphType" : "Scatter3D"
+      "title" : "Example from Finney (1971)"
    }
 }

@@ -1,9 +1,4 @@
 {
-   "config" : {
-      "subtitle" : "wooldridge - engin",
-      "title" : "engin",
-      "graphType" : "Heatmap"
-   },
    "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>engin</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>engin</h2>\n<h3>Description</h3>\n<p>Wooldridge Source: Thada Chaisawangwong, a former graduate student at MSU, obtained these data for a term project in applied econometrics. They come from the Material Requirement Planning Survey carried out in Thailand during 1998. Data loads lazily.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data('engin')\n</code></pre>\n<h3>Format</h3>\n<p>A data.frame with 403 observations on 17 variables:\n</p>\n<ul>\n<li> <p><strong>male:</strong> =1 if male\n</p>\n</li>\n<li> <p><strong>educ:</strong> highest grade completed\n</p>\n</li>\n<li> <p><strong>wage:</strong> monthly salary, Thai baht\n</p>\n</li>\n<li> <p><strong>swage:</strong> starting wage\n</p>\n</li>\n<li> <p><strong>exper:</strong> years on current job\n</p>\n</li>\n<li> <p><strong>pexper:</strong> previous experience\n</p>\n</li>\n<li> <p><strong>lwage:</strong> log(wage)\n</p>\n</li>\n<li> <p><strong>expersq:</strong> exper^2\n</p>\n</li>\n<li> <p><strong>highgrad:</strong> =1 if high school graduate\n</p>\n</li>\n<li> <p><strong>college:</strong> =1 if college graduate\n</p>\n</li>\n<li> <p><strong>grad:</strong> =1 if some graduate school\n</p>\n</li>\n<li> <p><strong>polytech:</strong> =1 if a polytech\n</p>\n</li>\n<li> <p><strong>highdrop:</strong> =1 if no high school degree\n</p>\n</li>\n<li> <p><strong>lswage:</strong> log(swage)\n</p>\n</li>\n<li> <p><strong>pexpersq:</strong> pexper^2\n</p>\n</li>\n<li> <p><strong>mleeduc:</strong> male*educ\n</p>\n</li>\n<li> <p><strong>mleeduc0:</strong> male*(educ - 14)\n</p>\n</li></ul>\n<h3>Notes</h3>\n<p>This is a nice change of pace from wage data sets for the United States. These data are for engineers in Thailand, and represents a more homogeneous group than data sets that consist of people across a variety of occupations. Plus, the starting salary is also provided in the data set, so factors affecting wage growth â and not just wage levels at a given point in time â can be studied. This is a good data set for a common term project that tests basic understanding of multiple regression and the interpretation of models with a logarithm for a dependent variable.\n</p>\n<p>Used in Text: not used\n</p>\n<h3>Source</h3>\n<p><a href=\"https://www.cengage.com/cgi-wadsworth/course_products_wp.pl?fid=M20b&amp;product_isbn_issn=9781111531041\">https://www.cengage.com/cgi-wadsworth/course_products_wp.pl?fid=M20b&amp;product_isbn_issn=9781111531041</a>\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'> str(engin)\n</code></pre>\n</main>\n</div>\n",
    "data" : {
       "y" : {
@@ -411,25 +406,6 @@
             "Smp401",
             "Smp402",
             "Smp403"
-         ],
-         "vars" : [
-            "male",
-            "educ",
-            "wage",
-            "swage",
-            "exper",
-            "pexper",
-            "lwage",
-            "expersq",
-            "highgrad",
-            "college",
-            "grad",
-            "polytech",
-            "highdrop",
-            "lswage",
-            "pexpersq",
-            "mleeduc",
-            "mleeduc0"
          ],
          "data" : [
             [
@@ -7317,7 +7293,31 @@
                5,
                0
             ]
+         ],
+         "vars" : [
+            "male",
+            "educ",
+            "wage",
+            "swage",
+            "exper",
+            "pexper",
+            "lwage",
+            "expersq",
+            "highgrad",
+            "college",
+            "grad",
+            "polytech",
+            "highdrop",
+            "lswage",
+            "pexpersq",
+            "mleeduc",
+            "mleeduc0"
          ]
       }
+   },
+   "config" : {
+      "graphType" : "Heatmap",
+      "title" : "engin",
+      "subtitle" : "wooldridge - engin"
    }
 }

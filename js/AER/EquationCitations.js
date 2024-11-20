@@ -1,24 +1,24 @@
 var EquationCitationsInfo ={
+   "format" : "A data frame containing 649 observations on 13 variables.",
+   "title" : "Number of Equations and Citations for Evolutionary Biology Publications",
+   "description" : "Description\nAnalysis of citations of evolutionary biology papers published in 1998 in the\ntop three journals (as judged by their 5-year impact factors in\nthe Thomson Reuters Journal Citation Reports 2010).",
+   "reference" : "Fawcett and Higginson (2012) investigate the relationship between the\nnumber of citations evolutionary biology papers receive, depending on the number\nof equations per page in the cited paper. Overall it can be shown\nthat papers with many mathematical equations significantly lower\nthe number of citations they receive, in particular from\nnontheoretical papers.",
+   "usage" : "data(\"EquationCitations\")",
    "parameters" : {
-      "nontheocites" : "Number of citations by nontheoretical papers.",
+      "selfcites" : "Number of citations by the authors themselves.",
+      "cites" : "Number of citations in total.",
       "mainequations" : "Number of equations in main text.",
+      "equations" : "Number of equations in total.",
+      "nontheocites" : "Number of citations by nontheoretical papers.",
+      "startpage" : "Starting page of publication.",
       "pages" : "Number of pages.",
       "volume" : "Volume in which the paper was published.",
       "appequations" : "Number of equations in appendix.",
-      "journal" : "Factor. Journal in which the paper was published\n(The American Naturalist, Evolution, Proceedings of the Royal Society\nof London B: Biological Sciences).",
-      "selfcites" : "Number of citations by the authors themselves.",
-      "cites" : "Number of citations in total.",
-      "theocites" : "Number of citations by theoretical papers.",
-      "equations" : "Number of equations in total.",
       "othercites" : "Number of citations by other authors.",
+      "journal" : "Factor. Journal in which the paper was published\n(The American Naturalist, Evolution, Proceedings of the Royal Society\nof London B: Biological Sciences).",
       "authors" : "Character. Names of authors.",
-      "startpage" : "Starting page of publication."
-   },
-   "title" : "Number of Equations and Citations for Evolutionary Biology Publications",
-   "reference" : "Fawcett and Higginson (2012) investigate the relationship between the\nnumber of citations evolutionary biology papers receive, depending on the number\nof equations per page in the cited paper. Overall it can be shown\nthat papers with many mathematical equations significantly lower\nthe number of citations they receive, in particular from\nnontheoretical papers.",
-   "format" : "A data frame containing 649 observations on 13 variables.",
-   "description" : "Description\nAnalysis of citations of evolutionary biology papers published in 1998 in the\ntop three journals (as judged by their 5-year impact factors in\nthe Thomson Reuters Journal Citation Reports 2010).",
-   "usage" : "data(\"EquationCitations\")"
+      "theocites" : "Number of citations by theoretical papers."
+   }
 }
 
 var EquationCitations = [

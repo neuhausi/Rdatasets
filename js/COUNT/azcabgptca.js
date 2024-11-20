@@ -1,17 +1,17 @@
 var azcabgptcaInfo ={
+   "description" : "Description\nRandom subset of the 1991 Arizona Medicare data for patients hospitalized \nsubsequent to undergoing  a CABG (DRGs 106, 107) or PTCA (DRG 112) \ncardiovascular procedure.",
    "title" : "azcabgptca",
-   "format" : "A data frame with 1959 observations on the following 6 variables.",
+   "usage" : "data(azcabgptca)",
    "reference" : "azcabgptca is saved as a data frame.",
    "parameters" : {
-      "los" : "hospital length of stay",
       "type" : "1=emerg/urgent; 0=elective",
-      "procedure" : "1=CABG; 0=PTCA",
-      "died" : "systolic blood pressure of subject",
       "gender" : "1=male; 0=female",
-      "age" : "age of subject"
+      "los" : "hospital length of stay",
+      "age" : "age of subject",
+      "died" : "systolic blood pressure of subject",
+      "procedure" : "1=CABG; 0=PTCA"
    },
-   "usage" : "data(azcabgptca)",
-   "description" : "Description\nRandom subset of the 1991 Arizona Medicare data for patients hospitalized \nsubsequent to undergoing  a CABG (DRGs 106, 107) or PTCA (DRG 112) \ncardiovascular procedure."
+   "format" : "A data frame with 1959 observations on the following 6 variables."
 }
 
 var azcabgptca = [

@@ -1,0 +1,12 @@
+{
+   "reference" : "The data is from Baltagi (2002).",
+   "usage" : "data(\"USCrudes\")",
+   "description" : "Description\nCross-section data originating from 99 US oil field postings.",
+   "title" : "US Crudes Data",
+   "parameters" : {
+      "sulphur" : "Sulphur (in %).",
+      "gravity" : "Gravity (degree API).",
+      "price" : "Crude prices (USD/barrel)."
+   },
+   "format" : "A data frame containing 99 observations on 3 variables."
+}

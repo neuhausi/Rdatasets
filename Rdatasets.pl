@@ -556,4 +556,9 @@ sub create_json {
   print $fh JSON->new->pretty->allow_nonref->encode($data);
   close $fh;
 
+  open $fh, ">:encoding(UTF-8)", "json/$lib/$ds" . "Info" . ".json" or die "Could not open json/$lib/$ds" . "Info" . ".json: $!";
+  print $fh JSON->new->pretty->allow_nonref->encode($obj);
+  close $fh;
+
+
 }

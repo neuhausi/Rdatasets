@@ -1,13 +1,13 @@
 var calciumInfo ={
-   "usage" : "calcium",
-   "description" : "Description\nThe calcium data frame has 27 rows and 2 columns.\nHoward Grimes from the Botany Department, North Carolina State University,\nconducted an experiment for biochemical analysis of intracellular storage\nand transport of calcium across plasma membrane.  Cells were\nsuspended in a solution of radioactive calcium for a certain length of time and\nthen the amount of radioactive calcium that was absorbed by the cells was\nmeasured.  The experiment was repeated independently with 9 different\ntimes of suspension each replicated 3 times.",
    "format" : "This data frame contains the following columns:",
-   "title" : "Calcium Uptake Data",
-   "reference" : "The data were obtained from",
    "parameters" : {
       "cal" : "The amount of calcium uptake (nmoles/mg).",
       "time" : "The time (in minutes) that the cells were suspended in the solution."
-   }
+   },
+   "title" : "Calcium Uptake Data",
+   "description" : "Description\nThe calcium data frame has 27 rows and 2 columns.\nHoward Grimes from the Botany Department, North Carolina State University,\nconducted an experiment for biochemical analysis of intracellular storage\nand transport of calcium across plasma membrane.  Cells were\nsuspended in a solution of radioactive calcium for a certain length of time and\nthen the amount of radioactive calcium that was absorbed by the cells was\nmeasured.  The experiment was repeated independently with 9 different\ntimes of suspension each replicated 3 times.",
+   "reference" : "The data were obtained from",
+   "usage" : "calcium"
 }
 
 var calcium = [

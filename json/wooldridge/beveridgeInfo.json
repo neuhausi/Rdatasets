@@ -1,0 +1,17 @@
+{
+   "parameters" : {
+      "cvrate" : " D.vrate",
+      "month" : " dec 200 through feb 2012",
+      "urate" : " unemployment rate, percent",
+      "t" : " linear time trend",
+      "vrate_1" : " L.vrate",
+      "curate" : " D.urate",
+      "vrate" : " vacancy rate, percent",
+      "urate_1" : " L.urate"
+   },
+   "reference" : "NA",
+   "usage" : "data('beveridge')",
+   "description" : "Description\nWooldridge  Data loads lazily.",
+   "title" : "beveridge",
+   "format" : "A data.frame with 135 observations on 8 variables:"
+}

@@ -1,8 +1,8 @@
 var maxtempInfo ={
-   "usage" : "Annual time series of class ts.",
-   "format" : "Australian Bureau of Meteorology.",
+   "description" : "Description\nMaximum annual temperatures (degrees Celsius) for Moorabbin Airport,\nMelbourne. 1971-2016.",
    "title" : "Maximum annual temperatures at Moorabbin Airport, Melbourne",
-   "description" : "Description\nMaximum annual temperatures (degrees Celsius) for Moorabbin Airport,\nMelbourne. 1971-2016."
+   "usage" : "Annual time series of class ts.",
+   "format" : "Australian Bureau of Meteorology."
 }
 
 var maxtemp = [

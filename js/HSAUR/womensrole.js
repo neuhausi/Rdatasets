@@ -1,15 +1,15 @@
 var womensroleInfo ={
+   "title" : "Womens Role in Society",
    "description" : "Description\nData from a survey from 1974 / 1975 asking both female and male\nresponders about their opinion on the statement: Women\nshould take care of running their homes and leave running the   \ncountry up to men.",
+   "reference" : "The data are from Haberman (1973) and also given in\nCollett (2003). The questions here are whether the response of men and women \ndiffer.",
    "usage" : "data(\"womensrole\")",
    "parameters" : {
       "disagree" : "number of subjects in disagreement with the \nstatement.",
+      "agree" : "number of subjects in agreement with the statement.",
       "sex" : "a factor with levels Male and Female.",
-      "education" : "years of education.",
-      "agree" : "number of subjects in agreement with the statement."
+      "education" : "years of education."
    },
-   "title" : "Womens Role in Society",
-   "format" : "A data frame with 42 observations on the following 4 variables.",
-   "reference" : "The data are from Haberman (1973) and also given in\nCollett (2003). The questions here are whether the response of men and women \ndiffer."
+   "format" : "A data frame with 42 observations on the following 4 variables."
 }
 
 var womensrole = [

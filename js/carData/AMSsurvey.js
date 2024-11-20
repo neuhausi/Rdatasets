@@ -1,16 +1,16 @@
 var AMSsurveyInfo ={
-   "format" : "A data frame with 24 observations on the following 5 variables.",
-   "reference" : "These data are produced yearly by the American Math Society.",
    "title" : "American Math Society Survey Data",
+   "description" : "Description\nCounts of new PhDs in the mathematical sciences for 2008-09 and 2011-12\ncategorized by type of institution, gender, and US citizenship status.",
+   "reference" : "These data are produced yearly by the American Math Society.",
+   "usage" : "AMSsurvey",
    "parameters" : {
-      "sex" : "a factor with levels Female, Male of the\nrecipient",
-      "type" : "a factor with levels I(Pu) for group I\npublic universities, I(Pr) for group I private universities, II\nand III for groups II and III, IV for statistics and\nbiostatistics programs, and Va for applied mathemeatics programs.",
       "count" : "The number of individuals of each type in 2008-09",
       "citizen" : "a factor with levels Non-US, US giving\ncitizenship status",
-      "count11" : "The number of individuals of each type in 2011-12"
+      "type" : "a factor with levels I(Pu) for group I\npublic universities, I(Pr) for group I private universities, II\nand III for groups II and III, IV for statistics and\nbiostatistics programs, and Va for applied mathemeatics programs.",
+      "count11" : "The number of individuals of each type in 2011-12",
+      "sex" : "a factor with levels Female, Male of the\nrecipient"
    },
-   "usage" : "AMSsurvey",
-   "description" : "Description\nCounts of new PhDs in the mathematical sciences for 2008-09 and 2011-12\ncategorized by type of institution, gender, and US citizenship status."
+   "format" : "A data frame with 24 observations on the following 5 variables."
 }
 
 var AMSsurvey = [

@@ -1,7 +1,7 @@
 var insuranceInfo ={
+   "format" : "Kindly provided by Dave Reilly, Automatic Forecasting Systems.",
    "description" : "Description\nMonthly quotations and monthly television advertising expenditure for a US insurance company.\nJanuary 2002 to April 2005",
    "title" : "Insurance quotations and advertising expenditure",
-   "format" : "Kindly provided by Dave Reilly, Automatic Forecasting Systems.",
    "usage" : "Monthly time series of class 'tsibble'."
 }
 

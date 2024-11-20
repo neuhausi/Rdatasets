@@ -1,12 +1,35 @@
 {
    "config" : {
       "subtitle" : "nlme - Rail",
-      "graphType" : "Scatter2D",
-      "title" : "Evaluation of Stress in Railway Rails"
+      "title" : "Evaluation of Stress in Railway Rails",
+      "graphType" : "Scatter2D"
    },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>Rail</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Evaluation of Stress in Railway Rails</h2>\n<h3>Description</h3>\n<p>The <code>Rail</code> data frame has 18 rows and 2 columns.\n</p>\n<h3>Format</h3>\n<p>This data frame contains the following columns:\n</p>\n<dl>\n<dt>Rail</dt><dd>\n<p>an ordered factor identifying the rail on which the\nmeasurement was made.\n</p>\n</dd>\n<dt>travel</dt><dd>\n<p>a numeric vector giving the travel time for ultrasonic\nhead-waves in the rail (nanoseconds).  The value given is the\noriginal travel time minus 36,100 nanoseconds.\n</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>Devore (2000, Example 10.10, p. 427) cites data from an article in\n<em>Materials Evaluation</em> on &ldquo;a study of travel time for a certain\ntype of wave that results from longitudinal stress of rails used for\nrailroad track.&rdquo;\n</p>\n<h3>Source</h3>\n<p>Pinheiro, J. C. and Bates, D. M. (2000), <em>Mixed-Effects Models in S\nand S-PLUS</em>, Springer, New York.  (Appendix A.26)\n</p>\n<p>Devore, J. L. (2000), <em>Probability and Statistics for\nEngineering and the Sciences (5th ed)</em>, Duxbury, Boston, MA.\n</p>\n</main>\n</div>\n",
    "data" : {
       "y" : {
+         "vars" : [
+            "Var1",
+            "Var2",
+            "Var3",
+            "Var4",
+            "Var5",
+            "Var6",
+            "Var7",
+            "Var8",
+            "Var9",
+            "Var10",
+            "Var11",
+            "Var12",
+            "Var13",
+            "Var14",
+            "Var15",
+            "Var16",
+            "Var17",
+            "Var18"
+         ],
+         "smps" : [
+            "Rail",
+            "travel"
+         ],
          "data" : [
             [
                1,
@@ -80,31 +103,8 @@
                6,
                83
             ]
-         ],
-         "smps" : [
-            "Rail",
-            "travel"
-         ],
-         "vars" : [
-            "Var1",
-            "Var2",
-            "Var3",
-            "Var4",
-            "Var5",
-            "Var6",
-            "Var7",
-            "Var8",
-            "Var9",
-            "Var10",
-            "Var11",
-            "Var12",
-            "Var13",
-            "Var14",
-            "Var15",
-            "Var16",
-            "Var17",
-            "Var18"
          ]
       }
-   }
+   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>Rail</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Evaluation of Stress in Railway Rails</h2>\n<h3>Description</h3>\n<p>The <code>Rail</code> data frame has 18 rows and 2 columns.\n</p>\n<h3>Format</h3>\n<p>This data frame contains the following columns:\n</p>\n<dl>\n<dt>Rail</dt><dd>\n<p>an ordered factor identifying the rail on which the\nmeasurement was made.\n</p>\n</dd>\n<dt>travel</dt><dd>\n<p>a numeric vector giving the travel time for ultrasonic\nhead-waves in the rail (nanoseconds).  The value given is the\noriginal travel time minus 36,100 nanoseconds.\n</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>Devore (2000, Example 10.10, p. 427) cites data from an article in\n<em>Materials Evaluation</em> on &ldquo;a study of travel time for a certain\ntype of wave that results from longitudinal stress of rails used for\nrailroad track.&rdquo;\n</p>\n<h3>Source</h3>\n<p>Pinheiro, J. C. and Bates, D. M. (2000), <em>Mixed-Effects Models in S\nand S-PLUS</em>, Springer, New York.  (Appendix A.26)\n</p>\n<p>Devore, J. L. (2000), <em>Probability and Statistics for\nEngineering and the Sciences (5th ed)</em>, Duxbury, Boston, MA.\n</p>\n</main>\n</div>\n"
 }

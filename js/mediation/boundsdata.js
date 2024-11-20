@@ -1,18 +1,18 @@
 var boundsdataInfo ={
-   "title" : "Example Data for the Design Functions",
    "format" : "A data frame containing the following variables, which are \ninterpreted as results from a hypothetical randomized trial. See the source \nfor a full description.",
-   "reference" : "Conditioning on 'manip' = 0 will simulate a randomized trial under \nthe single experiment design, where 'out' and 'med' equal observed outcome \nand mediator values, respectively.",
    "parameters" : {
-      "med.enc:" : "The binary mediator under the parallel encouragement \ndesign.",
       "ttt:" : "The binary treatment variable.",
       "out:" : "The binary outcome variable under the parallel design.",
-      "manip:" : "The design indicator, or the variable indicating whether the \nmediator is manipulated under the parallel design.",
-      "enc:" : "The trichotomous encouragement variable under the parallel \nencouragement design. Equals 0 if subject received no encouragement; 1 if \nencouraged for the mediator value of 1; and -1 if encouraged for the \nmediator value of 0.",
       "med:" : "The binary mediator under the parallel design.",
-      "out.enc:" : "The binary outcome variable under the parallel \nencouragement design."
+      "out.enc:" : "The binary outcome variable under the parallel \nencouragement design.",
+      "med.enc:" : "The binary mediator under the parallel encouragement \ndesign.",
+      "manip:" : "The design indicator, or the variable indicating whether the \nmediator is manipulated under the parallel design.",
+      "enc:" : "The trichotomous encouragement variable under the parallel \nencouragement design. Equals 0 if subject received no encouragement; 1 if \nencouraged for the mediator value of 1; and -1 if encouraged for the \nmediator value of 0."
    },
    "usage" : "boundsdata",
-   "description" : "Description\nA random subsample of the simulated data used in Imai, Tingley, and\nYamamoto (2012). The data contains 1000 rows and 7 columns with no missing \nvalues."
+   "reference" : "Conditioning on 'manip' = 0 will simulate a randomized trial under \nthe single experiment design, where 'out' and 'med' equal observed outcome \nand mediator values, respectively.",
+   "description" : "Description\nA random subsample of the simulated data used in Imai, Tingley, and\nYamamoto (2012). The data contains 1000 rows and 7 columns with no missing \nvalues.",
+   "title" : "Example Data for the Design Functions"
 }
 
 var boundsdata = [

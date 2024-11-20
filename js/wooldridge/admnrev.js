@@ -1,15 +1,15 @@
 var admnrevInfo ={
-   "description" : "Description\nWooldridge Source: Data from the National Highway Traffic Safety Administration: âA Digest of State Alcohol-Highway Safety Related Legislation,â U.S. Department of Transportation, NHTSA. I used the third (1985), eighth (1990), and 13th (1995) editions. Data loads lazily.",
-   "usage" : "data('admnrev')",
+   "format" : "A data.frame with 153 observations on 5 variables:",
    "parameters" : {
-      "state" : " state postal code",
-      "year" : " 85, 90, or 95",
       "daysfrst" : " days suspended, first offense",
       "admnrev" : " =1 if admin. revoc. law",
-      "daysscnd" : " days suspended, second offense"
+      "daysscnd" : " days suspended, second offense",
+      "state" : " state postal code",
+      "year" : " 85, 90, or 95"
    },
    "title" : "admnrev",
-   "format" : "A data.frame with 153 observations on 5 variables:",
+   "description" : "Description\nWooldridge Source: Data from the National Highway Traffic Safety Administration: âA Digest of State Alcohol-Highway Safety Related Legislation,â U.S. Department of Transportation, NHTSA. I used the third (1985), eighth (1990), and 13th (1995) editions. Data loads lazily.",
+   "usage" : "data('admnrev')",
    "reference" : "This is not so much a data set as a summary of so-called âadministrative per seâ laws atthe state level, for three different years. It could be supplemented with drunk-driving fatalities for a nice econometric analysis. In addition, the data for 2000 or later years can be added, forming the basis for a term project. Many other explanatory variables could be included. Unemployment rates, state-level tax rates on alcohol, and membership in MADD are just a few possibilities."
 }
 

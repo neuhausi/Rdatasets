@@ -1,0 +1,15 @@
+{
+   "parameters" : {
+      "dept" : "a factor with 14 levels from 1:15, using a\nrandom code for the department of the lecture.",
+      "s" : "a factor with levels 1:2972 denoting\nindividual students.",
+      "d" : "a factor with 1128 levels from 1:2160, denoting\nindividual professors or lecturers.",
+      "service" : "a binary factor with levels 0 and\n1; a lecture is a &ldquo;service&rdquo;, if held for a\ndifferent department than the lecturer's main one.",
+      "lectage" : "an ordered factor with 6 levels, 1 <\n2 < ... < 6, measuring how many semesters back the\nlecture rated had taken place.",
+      "y" : "a numeric vector of ratings of lectures by\nthe students, using the discrete scale 1:5, with meanings\nof &lsquo;poor&rsquo; to &lsquo;very good&rsquo;.",
+      "studage" : "an ordered factor with levels 2 <\n4 < 6 < 8, denoting student's &ldquo;age&rdquo;\nmeasured in the semester number the student has been enrolled."
+   },
+   "reference" : "The main goal of the survey is to find &ldquo;the best\nliked prof&rdquo;, according to the lectures given.\nStatistical analysis of such data has been the basis for\na (student) jury selecting the final winners.",
+   "usage" : "A data frame with 73421 observations on the following 7 variables.",
+   "title" : "University Lecture/Instructor Evaluations by Students at ETH",
+   "description" : "Description\nUniversity lecture evaluations by students at ETH Zurich,\nanonymized for privacy protection.  This is an\ninteresting &ldquo;medium&rdquo; sized example of a\npartially nested mixed effect model."
+}

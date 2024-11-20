@@ -1,0 +1,27 @@
+{
+   "format" : "A data frame with 1070 observations on the following 18 variables.",
+   "reference" : "Stine, Robert A., Foster, Dean P., Waterman, Richard P. Business\nAnalysis Using Regression (1998). Published by Springer.",
+   "usage" : "OJ",
+   "title" : "Orange Juice Data",
+   "description" : "Description\nThe data contains 1070 purchases where the customer either\npurchased Citrus Hill or Minute Maid Orange Juice. A number of\ncharacteristics of the customer and product are recorded.",
+   "parameters" : {
+      "PctDiscCH" : "Percentage discount for CH",
+      "ListPriceDiff" : "List price of MM less list price of CH",
+      "SpecialMM" : "Indicator of special on MM",
+      "DiscCH" : "Discount offered for CH",
+      "PriceMM" : "Price charged for MM",
+      "SpecialCH" : "Indicator of special on CH",
+      "PctDiscMM" : "Percentage discount for MM",
+      "WeekofPurchase" : "Week of purchase",
+      "Store7" : "A factor with levels No and Yes\nindicating whether the sale is at Store 7",
+      "DiscMM" : "Discount offered for MM",
+      "SalePriceCH" : "Sale price for CH",
+      "SalePriceMM" : "Sale price for MM",
+      "StoreID" : "Store ID",
+      "STORE" : "Which of 5 possible stores the sale occured at",
+      "PriceCH" : "Price charged for CH",
+      "LoyalCH" : "Customer brand loyalty for CH",
+      "Purchase" : "A factor with levels CH and MM\nindicating whether the customer purchased Citrus Hill or Minute\nMaid Orange Juice",
+      "PriceDiff" : "Sale price of MM less sale price of CH"
+   }
+}

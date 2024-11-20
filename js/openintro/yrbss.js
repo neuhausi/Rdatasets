@@ -1,24 +1,24 @@
 var yrbssInfo ={
-   "description" : "Description\nSelect variables from YRBSS.",
-   "usage" : "yrbss",
    "parameters" : {
-      "helmet_12m" : "How often did you wear a helmet when biking in the last\n12 months?",
-      "text_while_driving_30d" : "How many days did you text while driving in\nthe last 30 days?",
-      "hours_tv_per_school_day" : "How many hours of TV do you typically watch\non a school night?",
       "physically_active_7d" : "How many days were you physically active for\n60+ minutes in the last 7 days?",
-      "age" : "Age, in years.",
-      "weight" : "Weight, in kilograms (2.2 pounds per kilogram).",
-      "school_night_hours_sleep" : "How many hours of sleep do you typically\nget on a school night?",
       "race" : "Race / ethnicity.",
+      "text_while_driving_30d" : "How many days did you text while driving in\nthe last 30 days?",
+      "age" : "Age, in years.",
       "height" : "Height, in meters (3.28 feet per meter).",
-      "strength_training_7d" : "How many days did you do strength training\n(e.g. lift weights) in the last 7 days?",
+      "hours_tv_per_school_day" : "How many hours of TV do you typically watch\non a school night?",
+      "weight" : "Weight, in kilograms (2.2 pounds per kilogram).",
       "grade" : "School grade.",
+      "strength_training_7d" : "How many days did you do strength training\n(e.g. lift weights) in the last 7 days?",
       "hispanic" : "Hispanic or not.",
-      "gender" : "Gender."
+      "gender" : "Gender.",
+      "helmet_12m" : "How often did you wear a helmet when biking in the last\n12 months?",
+      "school_night_hours_sleep" : "How many hours of sleep do you typically\nget on a school night?"
    },
+   "usage" : "yrbss",
+   "reference" : "CDC's Youth Risk Behavior Surveillance System (YRBSS)",
    "title" : "Youth Risk Behavior Surveillance System (YRBSS)",
-   "format" : "A data frame with 13583 observations on the following 13 variables.",
-   "reference" : "CDC's Youth Risk Behavior Surveillance System (YRBSS)"
+   "description" : "Description\nSelect variables from YRBSS.",
+   "format" : "A data frame with 13583 observations on the following 13 variables."
 }
 
 var yrbss = [

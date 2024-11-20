@@ -1,0 +1,13 @@
+{
+   "title" : "Grunfeld's Investment Data",
+   "description" : "Description\nA balanced panel of 10 observational units (firms) from 1935 to 1954",
+   "usage" : "A data frame containing :",
+   "reference" : "total number of observations : 200",
+   "parameters" : {
+      "value" : "value of the firm",
+      "inv" : "gross Investment",
+      "firm" : "observation",
+      "year" : "date",
+      "capital" : "stock of plant and equipment"
+   }
+}

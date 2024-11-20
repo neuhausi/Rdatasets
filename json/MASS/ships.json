@@ -1,11 +1,4 @@
 {
-   "config" : {
-      "subtitle" : "MASS - ships",
-      "scatterPlotMatrix" : 1,
-      "graphType" : "Scatter2D",
-      "colorBy" : "type",
-      "title" : "Ships Damage Data"
-   },
    "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>ships</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>\nShips Damage Data\n</h2>\n<h3>Description</h3>\n<p>Data frame giving the number of damage incidents and aggregate\nmonths of service by ship type, year of construction, and period of operation.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>ships\n</code></pre>\n<h3>Format</h3>\n<dl>\n<dt><code>type</code></dt><dd>\n<p>type: <code>\"A\"</code> to <code>\"E\"</code>.\n</p>\n</dd>\n<dt><code>year</code></dt><dd>\n<p>year of construction: 1960&ndash;64, 65&ndash;69, 70&ndash;74, 75&ndash;79\n(coded as <code>\"60\"</code>, <code>\"65\"</code>, <code>\"70\"</code>, <code>\"75\"</code>).\n</p>\n</dd>\n<dt><code>period</code></dt><dd>\n<p>period of operation : 1960&ndash;74, 75&ndash;79.\n</p>\n</dd>\n<dt><code>service</code></dt><dd>\n<p>aggregate months of service.\n</p>\n</dd>\n<dt><code>incidents</code></dt><dd>\n<p>number of damage incidents.\n</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>P. McCullagh and J. A. Nelder, (1983),\n<em>Generalized Linear Models.</em> Chapman &amp; Hall, section 6.3.2, page 137\n</p>\n</main>\n</div>\n",
    "data" : {
       "z" : {
@@ -58,48 +51,6 @@
             "period",
             "service",
             "incidents"
-         ],
-         "vars" : [
-            "Var1",
-            "Var2",
-            "Var3",
-            "Var4",
-            "Var5",
-            "Var6",
-            "Var7",
-            "Var8",
-            "Var9",
-            "Var10",
-            "Var11",
-            "Var12",
-            "Var13",
-            "Var14",
-            "Var15",
-            "Var16",
-            "Var17",
-            "Var18",
-            "Var19",
-            "Var20",
-            "Var21",
-            "Var22",
-            "Var23",
-            "Var24",
-            "Var25",
-            "Var26",
-            "Var27",
-            "Var28",
-            "Var29",
-            "Var30",
-            "Var31",
-            "Var32",
-            "Var33",
-            "Var34",
-            "Var35",
-            "Var36",
-            "Var37",
-            "Var38",
-            "Var39",
-            "Var40"
          ],
          "data" : [
             [
@@ -342,7 +293,56 @@
                542,
                1
             ]
+         ],
+         "vars" : [
+            "Var1",
+            "Var2",
+            "Var3",
+            "Var4",
+            "Var5",
+            "Var6",
+            "Var7",
+            "Var8",
+            "Var9",
+            "Var10",
+            "Var11",
+            "Var12",
+            "Var13",
+            "Var14",
+            "Var15",
+            "Var16",
+            "Var17",
+            "Var18",
+            "Var19",
+            "Var20",
+            "Var21",
+            "Var22",
+            "Var23",
+            "Var24",
+            "Var25",
+            "Var26",
+            "Var27",
+            "Var28",
+            "Var29",
+            "Var30",
+            "Var31",
+            "Var32",
+            "Var33",
+            "Var34",
+            "Var35",
+            "Var36",
+            "Var37",
+            "Var38",
+            "Var39",
+            "Var40"
          ]
       }
+   },
+   "config" : {
+      "subtitle" : "MASS - ships",
+      "title" : "Ships Damage Data",
+      "scatterPlotMatrix" : 1,
+      "colorBy" : "type",
+      "graphType" : "Scatter2D"
    }
 }

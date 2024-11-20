@@ -1,12 +1,12 @@
 var DatasaurusInfo ={
-   "description" : "Description\nAn illustrative exercise in never trusting the summary statistics without\nalso visualizing them.",
-   "usage" : "Datasaurus",
    "parameters" : {
-      "x" : "a random variable",
+      "dataset" : "the particular data set, one of 12",
       "y" : "another random variable",
-      "dataset" : "the particular data set, one of 12"
+      "x" : "a random variable"
    },
+   "usage" : "Datasaurus",
    "reference" : "Data were created by Alberto Cairo to illustrate you should always\nvisualize your data beyond the summary statistics. These are 12 data sets,\nin long form, each with a mean of x about 54.26, a mean of y\nabout 47.83. The standard deviation for x is about 16.76 and the\nstandard deviation of y is about 26.93. x and y will\ncorrelate weakly, about -.06.",
+   "description" : "Description\nAn illustrative exercise in never trusting the summary statistics without\nalso visualizing them.",
    "title" : "The Datasaurus Dozen",
    "format" : "A data frame with 1,846 observations on the following 3 variables."
 }

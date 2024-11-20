@@ -1,12 +1,19 @@
 {
    "config" : {
-      "subtitle" : "datasets - Theoph",
-      "scatterPlotMatrix" : 1,
       "graphType" : "Scatter2D",
-      "title" : "Pharmacokinetics of Theophylline"
+      "subtitle" : "datasets - Theoph",
+      "title" : "Pharmacokinetics of Theophylline",
+      "scatterPlotMatrix" : 1
    },
    "data" : {
       "y" : {
+         "smps" : [
+            "Subject",
+            "Wt",
+            "Dose",
+            "Time",
+            "conc"
+         ],
          "data" : [
             [
                1,
@@ -932,13 +939,6 @@
                24.15,
                1.17
             ]
-         ],
-         "smps" : [
-            "Subject",
-            "Wt",
-            "Dose",
-            "Time",
-            "conc"
          ],
          "vars" : [
             "Var1",

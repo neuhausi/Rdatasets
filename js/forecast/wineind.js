@@ -1,7 +1,7 @@
 var wineindInfo ={
-   "title" : "Australian total wine sales",
    "format" : "Time series data",
    "usage" : "wineind",
+   "title" : "Australian total wine sales",
    "description" : "Description\nAustralian total wine sales by wine makers in bottles <= 1 litre. Jan 1980\n&ndash; Aug 1994."
 }
 

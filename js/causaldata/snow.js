@@ -1,15 +1,15 @@
 var snowInfo ={
-   "format" : "A data frame with 4 rows and 4 variables",
-   "title" : "Data from John Snow's 1855 study of the cause of cholera",
-   "reference" : "This data is used in the Difference-in-Differences chapter of The Effect by Huntington-Klein.",
    "parameters" : {
       "treatment" : "Status of water pump",
+      "year" : "Year",
       "supplier" : "Water pump supplier",
-      "deathrate" : "Deaths per 10k 1851 population",
-      "year" : "Year"
+      "deathrate" : "Deaths per 10k 1851 population"
    },
+   "reference" : "This data is used in the Difference-in-Differences chapter of The Effect by Huntington-Klein.",
    "usage" : "snow",
-   "description" : "Description\nA subset of the aggregated death rate data from Snow's legendary study of the source of the London Cholera outbreak."
+   "description" : "Description\nA subset of the aggregated death rate data from Snow's legendary study of the source of the London Cholera outbreak.",
+   "title" : "Data from John Snow's 1855 study of the cause of cholera",
+   "format" : "A data frame with 4 rows and 4 variables"
 }
 
 var snow = [

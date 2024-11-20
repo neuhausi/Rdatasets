@@ -1,20 +1,20 @@
 var TravelModeInfo ={
-   "parameters" : {
-      "wait" : "Terminal waiting time, 0 for car.",
-      "mode" : "Factor indicating travel mode with levels\n\"car\", \"air\", \"train\", or \"bus\".",
-      "size" : "Party size.",
-      "income" : "Household income.",
-      "vcost" : "Vehicle cost component.",
-      "travel" : "Travel time in the vehicle.",
-      "individual" : "Factor indicating individual with levels 1 to 210.",
-      "choice" : "Factor indicating choice with levels \"no\" and \"yes\".",
-      "gcost" : "Generalized cost measure."
-   },
-   "title" : "Travel Mode Choice Data",
    "format" : "A data frame containing 840 observations on 4 modes for 210 individuals.",
+   "usage" : "data(\"TravelMode\")",
    "reference" : "Online complements to Greene (2003).",
+   "title" : "Travel Mode Choice Data",
    "description" : "Description\nData on travel mode choice for travel between Sydney and Melbourne, Australia.",
-   "usage" : "data(\"TravelMode\")"
+   "parameters" : {
+      "mode" : "Factor indicating travel mode with levels\n\"car\", \"air\", \"train\", or \"bus\".",
+      "vcost" : "Vehicle cost component.",
+      "gcost" : "Generalized cost measure.",
+      "wait" : "Terminal waiting time, 0 for car.",
+      "size" : "Party size.",
+      "individual" : "Factor indicating individual with levels 1 to 210.",
+      "income" : "Household income.",
+      "travel" : "Travel time in the vehicle.",
+      "choice" : "Factor indicating choice with levels \"no\" and \"yes\"."
+   }
 }
 
 var TravelMode = [

@@ -1,16 +1,16 @@
 var ReactTimeInfo ={
    "usage" : "A data frame with 10 observations giving the reaction time for the 6\nconditions.",
-   "title" : "Reaction Time Data",
    "reference" : "Baron, J. and Li, Y. (2003).  Notes on the use of R for\npsychology experiments and questionnaires,\nhttps://cran.r-project.org/doc/contrib/Baron-rpsych.pdf",
+   "description" : "Description\nData from Maxwell and Delaney (1990, p. 497) representing the reaction times\nof 10 subjects in some task where visual stimuli are tilted at 0, 4, and 8\ndegrees; with noise absent or present.  Each subject responded to 3 tilt x 2\nnoise = 6 conditions.  The data thus comprise a repeated measure design with\ntwo within-S factors.",
+   "title" : "Reaction Time Data",
    "parameters" : {
-      "deg8NP" : "a numeric vector",
+      "deg0NP" : "a numeric vector",
+      "deg4NP" : "a numeric vector",
       "deg8NA" : "a numeric vector",
       "deg4NA" : "a numeric vector",
-      "deg4NP" : "a numeric vector",
-      "deg0NA" : "a numeric vector",
-      "deg0NP" : "a numeric vector"
-   },
-   "description" : "Description\nData from Maxwell and Delaney (1990, p. 497) representing the reaction times\nof 10 subjects in some task where visual stimuli are tilted at 0, 4, and 8\ndegrees; with noise absent or present.  Each subject responded to 3 tilt x 2\nnoise = 6 conditions.  The data thus comprise a repeated measure design with\ntwo within-S factors."
+      "deg8NP" : "a numeric vector",
+      "deg0NA" : "a numeric vector"
+   }
 }
 
 var ReactTime = [

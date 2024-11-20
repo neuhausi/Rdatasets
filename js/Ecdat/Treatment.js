@@ -1,21 +1,21 @@
 var TreatmentInfo ={
-   "parameters" : {
-      "u74" : "unemployed in 1974 ?",
-      "u75" : "unemployed in 1975 ?",
-      "re78" : "real annual earnings in 1978  (post-treatment)",
-      "re74" : "real annual earnings in 1974  (pre-treatment)",
-      "ethn" : "a factor with levels (\"other\",\n\"black\", \"hispanic\")",
-      "married" : "married ?",
-      "treat" : "treated ?",
-      "age" : "age",
-      "re75" : "real annual earnings in 1975  (pre-treatment)",
-      "educ" : "education in years"
-   },
    "format" : "A dataframe containing :",
+   "description" : "Description\na cross-section from 1974\nnumber of observations :  2675\ncountry :  United States",
    "title" : "Evaluating Treatment Effect of Training on Earnings",
    "reference" : "Lalonde, R. (1986) &ldquo;Evaluating the Econometric Evaluations of Training Programs with Experimental Data&rdquo;, American Economic Review, 604&ndash;620.",
-   "description" : "Description\na cross-section from 1974\nnumber of observations :  2675\ncountry :  United States",
-   "usage" : "data(Treatment)"
+   "usage" : "data(Treatment)",
+   "parameters" : {
+      "ethn" : "a factor with levels (\"other\",\n\"black\", \"hispanic\")",
+      "educ" : "education in years",
+      "re74" : "real annual earnings in 1974  (pre-treatment)",
+      "u75" : "unemployed in 1975 ?",
+      "re75" : "real annual earnings in 1975  (pre-treatment)",
+      "treat" : "treated ?",
+      "u74" : "unemployed in 1974 ?",
+      "married" : "married ?",
+      "re78" : "real annual earnings in 1978  (post-treatment)",
+      "age" : "age"
+   }
 }
 
 var Treatment = [

@@ -1,18 +1,18 @@
 var climate70Info ={
-   "description" : "Description\nA random set of monitoring locations were taken from NOAA data that had both\nyears of interest (1948 and 2018) as well as data for both summary metrics\nof interest (dx70 and dx90, which are described below).",
-   "usage" : "climate70",
-   "parameters" : {
-      "longitude" : "Longitude of the station.",
-      "dx90_2018" : "Number of days above 90 degrees in 2018.",
-      "station" : "Station ID.",
-      "dx70_1948" : "Number of days above 70 degrees in 1948.",
-      "latitude" : "Latitude of the station.",
-      "dx70_2018" : "Number of days above 70 degrees in 2018.",
-      "dx90_1948" : "Number of days above 90 degrees in 1948."
-   },
-   "title" : "Temperature Summary Data, Geography Limited",
    "format" : "A data frame with 197 observations on the following 7 variables.",
-   "reference" : "Please keep in mind that these are two annual snapshots, and a complete\nanalysis would consider much more than two years of data and much additional\ninformation for those years."
+   "parameters" : {
+      "dx70_1948" : "Number of days above 70 degrees in 1948.",
+      "dx90_1948" : "Number of days above 90 degrees in 1948.",
+      "station" : "Station ID.",
+      "longitude" : "Longitude of the station.",
+      "latitude" : "Latitude of the station.",
+      "dx90_2018" : "Number of days above 90 degrees in 2018.",
+      "dx70_2018" : "Number of days above 70 degrees in 2018."
+   },
+   "reference" : "Please keep in mind that these are two annual snapshots, and a complete\nanalysis would consider much more than two years of data and much additional\ninformation for those years.",
+   "usage" : "climate70",
+   "title" : "Temperature Summary Data, Geography Limited",
+   "description" : "Description\nA random set of monitoring locations were taken from NOAA data that had both\nyears of interest (1948 and 2018) as well as data for both summary metrics\nof interest (dx70 and dx90, which are described below)."
 }
 
 var climate70 = [

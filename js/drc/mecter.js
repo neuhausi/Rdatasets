@@ -1,14 +1,14 @@
 var mecterInfo ={
-   "title" : "Mechlorprop and terbythylazine tested on Lemna minor",
-   "format" : "A data frame with 102 observations on the following 3 variables.",
-   "reference" : "The dataset is analysed in Soerensen et al (2007). \nThe asymmetric Voelund model is appropriate, whereas the symmetric Hewlett model is not.",
    "parameters" : {
-      "rgr" : "a numeric vector of response values (relative growth rates)",
+      "pct" : "a numeric vector denoting the grouping according to the mixtures percentages",
       "dose" : "a numeric vector of dose values",
-      "pct" : "a numeric vector denoting the grouping according to the mixtures percentages"
+      "rgr" : "a numeric vector of response values (relative growth rates)"
    },
+   "reference" : "The dataset is analysed in Soerensen et al (2007). \nThe asymmetric Voelund model is appropriate, whereas the symmetric Hewlett model is not.",
    "usage" : "data(mecter)",
-   "description" : "Description\nData consist of 5 mixture, 6 dilutions, three replicates, and 12 common controls; in total 102 onservations."
+   "title" : "Mechlorprop and terbythylazine tested on Lemna minor",
+   "description" : "Description\nData consist of 5 mixture, 6 dilutions, three replicates, and 12 common controls; in total 102 onservations.",
+   "format" : "A data frame with 102 observations on the following 3 variables."
 }
 
 var mecter = [

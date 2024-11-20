@@ -1,28 +1,28 @@
 var UniversityInfo ={
    "parameters" : {
+      "landbuild" : "land and buildings",
       "secrpay" : "secretarial pay",
-      "techn" : "technicians",
       "acrelnum" : "academic related numbers",
-      "admpay" : "admin pay",
+      "clernum" : "clerical numbers",
       "acnumbers" : "academic numbers",
-      "undstudents" : "undergraduate students",
+      "furneq" : "furniture and equipment",
+      "admpay" : "admin pay",
       "resgr" : "research grants",
       "acpay" : "academic pay",
-      "stfees" : "student fees",
       "acrelpay" : "academic related pay",
-      "furneq" : "furniture and equipment",
-      "agresrk" : "aggregate research rank",
-      "landbuild" : "land and buildings",
+      "techn" : "technicians",
       "poststudents" : "postgraduate students",
-      "compop" : "computer operators",
+      "agresrk" : "aggregate research rank",
       "nassets" : "net assets",
-      "clernum" : "clerical numbers"
+      "undstudents" : "undergraduate students",
+      "compop" : "computer operators",
+      "stfees" : "student fees"
    },
-   "format" : "A dataframe containing :",
-   "reference" : "Glass, J.C.,  D.G.   McKillop and  N.  Hyndman (1995) &ldquo;Efficiency in the provision of university teaching and research : an empirical analysis of UK universities&rdquo;, Journal of Applied Econometrics, 10(1), January&ndash;March, 61&ndash;72.",
    "title" : "Provision of University Teaching and Research",
    "description" : "Description\na cross-section from 1988\nnumber of observations :  62\nobservation :  schools\ncountry :  United Kingdom",
-   "usage" : "data(University)"
+   "reference" : "Glass, J.C.,  D.G.   McKillop and  N.  Hyndman (1995) &ldquo;Efficiency in the provision of university teaching and research : an empirical analysis of UK universities&rdquo;, Journal of Applied Econometrics, 10(1), January&ndash;March, 61&ndash;72.",
+   "usage" : "data(University)",
+   "format" : "A dataframe containing :"
 }
 
 var University = [

@@ -1,13 +1,13 @@
 var woodInfo ={
+   "format" : "A data frame with 20 observations on the following 6 variables.",
    "parameters" : {
       "x1, x2, x3, x4, x5" : "explanatory &ldquo;anatomical&rdquo; wood\nvariables.",
       "y" : "wood specific gravity, the target variable."
    },
-   "format" : "A data frame with 20 observations on the following 6 variables.",
-   "title" : "Modified Data on Wood Specific Gravity",
    "reference" : "Draper and Smith (1966, p.227)",
+   "usage" : "data(wood, package=\"robustbase\")",
    "description" : "Description\nThe original data are from Draper and Smith (1966) and\nwere used to determine the influence of anatomical factors on wood\nspecific gravity, with five explanatory variables and an\nintercept. These data were contaminated by replacing a few\nobservations with outliers.",
-   "usage" : "data(wood, package=\"robustbase\")"
+   "title" : "Modified Data on Wood Specific Gravity"
 }
 
 var wood = [

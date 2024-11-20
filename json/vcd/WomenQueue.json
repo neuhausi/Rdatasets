@@ -1,29 +1,6 @@
 {
-   "config" : {
-      "graphType" : "Scatter2D",
-      "title" : "Women in Queues",
-      "subtitle" : "vcd - WomenQueue"
-   },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>WomenQueue</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Women in Queues</h2>\n<h3>Description</h3>\n<p>Data from Jinkinson &amp; Slater (1981) and Hoaglin &amp; Tukey (1985)\nreporting the frequency distribution of females in 100 queues of\nlength 10 in a London Underground station.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(\"WomenQueue\")\n</code></pre>\n<h3>Format</h3>\n<p>A 1-way table giving the number of women in 100 queues of length\n10.  The variable and its levels are \n</p>\n<table>\n<tr>\n <td style=\"text-align: right;\">\n    No </td><td style=\"text-align: left;\"> Name </td><td style=\"text-align: left;\"> Levels </td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    1 </td><td style=\"text-align: left;\"> nWomen </td><td style=\"text-align: left;\"> 0, 1, ..., 10 </td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n  </td>\n</tr>\n</table>\n<h3>Source</h3>\n<p>M. Friendly (2000),\nVisualizing Categorical Data,\npages 19&ndash;20.\n</p>\n<h3>References</h3>\n<p>D. C. Hoaglin &amp; J. W. Tukey (1985),\nChecking the shape of discrete distributions.\nIn D. C. Hoaglin, F. Mosteller, J. W. Tukey (eds.),\n<em>Exploring Data Tables, Trends and Shapes</em>, chapter 9.\nJohn Wiley &amp; Sons, New York.\n</p>\n<p>R. A. Jinkinson &amp; M. Slater (1981),\nCritical discussion of a graphical method for identifying discrete\ndistributions,\n<em>The Statistician</em>, <b>30</b>, 239&ndash;248.\n</p>\n<p>M. Friendly (2000),\n<em>Visualizing Categorical Data</em>.\nSAS Institute, Cary, NC.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>data(\"WomenQueue\")\ngf &lt;- goodfit(WomenQueue, type = \"binomial\")\nsummary(gf)\nplot(gf)\n</code></pre>\n</main>\n</div>\n",
    "data" : {
       "y" : {
-         "smps" : [
-            "nWomen",
-            "Freq"
-         ],
-         "vars" : [
-            "Var1",
-            "Var2",
-            "Var3",
-            "Var4",
-            "Var5",
-            "Var6",
-            "Var7",
-            "Var8",
-            "Var9",
-            "Var10",
-            "Var11"
-         ],
          "data" : [
             [
                0,
@@ -69,7 +46,30 @@
                10,
                0
             ]
+         ],
+         "smps" : [
+            "nWomen",
+            "Freq"
+         ],
+         "vars" : [
+            "Var1",
+            "Var2",
+            "Var3",
+            "Var4",
+            "Var5",
+            "Var6",
+            "Var7",
+            "Var8",
+            "Var9",
+            "Var10",
+            "Var11"
          ]
       }
+   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>WomenQueue</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Women in Queues</h2>\n<h3>Description</h3>\n<p>Data from Jinkinson &amp; Slater (1981) and Hoaglin &amp; Tukey (1985)\nreporting the frequency distribution of females in 100 queues of\nlength 10 in a London Underground station.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(\"WomenQueue\")\n</code></pre>\n<h3>Format</h3>\n<p>A 1-way table giving the number of women in 100 queues of length\n10.  The variable and its levels are \n</p>\n<table>\n<tr>\n <td style=\"text-align: right;\">\n    No </td><td style=\"text-align: left;\"> Name </td><td style=\"text-align: left;\"> Levels </td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    1 </td><td style=\"text-align: left;\"> nWomen </td><td style=\"text-align: left;\"> 0, 1, ..., 10 </td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n  </td>\n</tr>\n</table>\n<h3>Source</h3>\n<p>M. Friendly (2000),\nVisualizing Categorical Data,\npages 19&ndash;20.\n</p>\n<h3>References</h3>\n<p>D. C. Hoaglin &amp; J. W. Tukey (1985),\nChecking the shape of discrete distributions.\nIn D. C. Hoaglin, F. Mosteller, J. W. Tukey (eds.),\n<em>Exploring Data Tables, Trends and Shapes</em>, chapter 9.\nJohn Wiley &amp; Sons, New York.\n</p>\n<p>R. A. Jinkinson &amp; M. Slater (1981),\nCritical discussion of a graphical method for identifying discrete\ndistributions,\n<em>The Statistician</em>, <b>30</b>, 239&ndash;248.\n</p>\n<p>M. Friendly (2000),\n<em>Visualizing Categorical Data</em>.\nSAS Institute, Cary, NC.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>data(\"WomenQueue\")\ngf &lt;- goodfit(WomenQueue, type = \"binomial\")\nsummary(gf)\nplot(gf)\n</code></pre>\n</main>\n</div>\n",
+   "config" : {
+      "graphType" : "Scatter2D",
+      "subtitle" : "vcd - WomenQueue",
+      "title" : "Women in Queues"
    }
 }

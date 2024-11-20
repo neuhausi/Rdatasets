@@ -1,17 +1,17 @@
 var transplantInfo ={
    "format" : "A data frame with 815 (transplant) observations\non the following 6 variables.",
-   "title" : "Liver transplant waiting list",
-   "reference" : "This represents the transplant experience in a particular region,\nover a time period in which liver transplant became much more widely\nrecognized as a viable treatment modality.\nThe number of liver transplants rises over the period, but the number of\nsubjects added to the liver transplant waiting list grew much faster.\nImportant questions addressed by the data are the change in waiting\ntime, who waits, and whether there was an consequent increase in deaths\nwhile on the list.",
    "parameters" : {
+      "year" : "year in which they entered the waiting list",
       "event" : "final disposition: censored,\ndeath,\nltx or withdraw",
-      "futime" : "time from entry to final disposition",
-      "age" : "age at addition to the waiting list",
-      "abo" : "blood type: A, B, AB  or O",
       "sex" : "m or f",
-      "year" : "year in which they entered the waiting list"
+      "abo" : "blood type: A, B, AB  or O",
+      "age" : "age at addition to the waiting list",
+      "futime" : "time from entry to final disposition"
    },
+   "title" : "Liver transplant waiting list",
+   "description" : "Description\nSubjects on a liver transplant waiting list from 1990-1999, and their\ndisposition: received a transplant, died while waiting, withdrew from\nthe list, or censored.",
    "usage" : "transplant\ndata(transplant, package=\"survival\")",
-   "description" : "Description\nSubjects on a liver transplant waiting list from 1990-1999, and their\ndisposition: received a transplant, died while waiting, withdrew from\nthe list, or censored."
+   "reference" : "This represents the transplant experience in a particular region,\nover a time period in which liver transplant became much more widely\nrecognized as a viable treatment modality.\nThe number of liver transplants rises over the period, but the number of\nsubjects added to the liver transplant waiting list grew much faster.\nImportant questions addressed by the data are the change in waiting\ntime, who waits, and whether there was an consequent increase in deaths\nwhile on the list."
 }
 
 var transplant = [

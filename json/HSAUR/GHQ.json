@@ -1,36 +1,39 @@
 {
+   "config" : {
+      "subtitle" : "HSAUR - GHQ",
+      "title" : "General Health Questionnaire",
+      "graphType" : "Scatter3D",
+      "colorBy" : "sex"
+   },
    "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>GHQ</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2> General Health Questionnaire </h2>\n<h3>Description</h3>\n<p>Data from an psychiatric screening questionnaire \n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(\"GHQ\")</code></pre>\n<h3>Format</h3>\n<p>A data frame with 22 observations on the following 4 variables.\n</p>\n<dl>\n<dt><code>GHQ</code></dt><dd><p>the General Health Questionnaire score.</p>\n</dd>\n<dt><code>sex</code></dt><dd><p>a factor with levels <code>female</code> and <code>male</code></p>\n</dd>\n<dt><code>cases</code></dt><dd><p>the number of diseased subjects.</p>\n</dd>\n<dt><code>non.cases</code></dt><dd><p>the number of healthy subjects.</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>The data arise from a study of a psychiatric screening questionnaire \ncalled the GHQ (General Health Questionnaire, see Goldberg, 1972). \nHere the main question of interest is to see how caseness is related to \ngender and GHQ score.\n</p>\n<h3>Source</h3>\n<p>D. Goldberg (1972). <em>The Detection of Psychiatric Illness by Questionnaire</em>, \nOxford University Press, Oxford, UK.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>\n  data(\"GHQ\", package = \"HSAUR\")\n  male &lt;- subset(GHQ, sex == \"male\")\n  female &lt;- subset(GHQ, sex == \"female\")\n  layout(matrix(1:2, ncol = 2))\n  barplot(t(as.matrix(male[,c(\"cases\", \"non.cases\")])), main = \"Male\", xlab = \"GHC score\")\n  barplot(t(as.matrix(male[,c(\"cases\", \"non.cases\")])), main = \"Female\", xlab = \"GHC score\")\n</code></pre>\n</main>\n</div>\n",
    "data" : {
+      "z" : {
+         "sex" : [
+            "female",
+            "female",
+            "female",
+            "female",
+            "female",
+            "female",
+            "female",
+            "female",
+            "female",
+            "female",
+            "female",
+            "male",
+            "male",
+            "male",
+            "male",
+            "male",
+            "male",
+            "male",
+            "male",
+            "male",
+            "male",
+            "male"
+         ]
+      },
       "y" : {
-         "vars" : [
-            "Var1",
-            "Var2",
-            "Var3",
-            "Var4",
-            "Var5",
-            "Var6",
-            "Var7",
-            "Var8",
-            "Var9",
-            "Var10",
-            "Var11",
-            "Var12",
-            "Var13",
-            "Var14",
-            "Var15",
-            "Var16",
-            "Var17",
-            "Var18",
-            "Var19",
-            "Var20",
-            "Var21",
-            "Var22"
-         ],
-         "smps" : [
-            "GHQ",
-            "cases",
-            "non.cases"
-         ],
          "data" : [
             [
                0,
@@ -142,39 +145,36 @@
                2,
                0
             ]
-         ]
-      },
-      "z" : {
-         "sex" : [
-            "female",
-            "female",
-            "female",
-            "female",
-            "female",
-            "female",
-            "female",
-            "female",
-            "female",
-            "female",
-            "female",
-            "male",
-            "male",
-            "male",
-            "male",
-            "male",
-            "male",
-            "male",
-            "male",
-            "male",
-            "male",
-            "male"
+         ],
+         "smps" : [
+            "GHQ",
+            "cases",
+            "non.cases"
+         ],
+         "vars" : [
+            "Var1",
+            "Var2",
+            "Var3",
+            "Var4",
+            "Var5",
+            "Var6",
+            "Var7",
+            "Var8",
+            "Var9",
+            "Var10",
+            "Var11",
+            "Var12",
+            "Var13",
+            "Var14",
+            "Var15",
+            "Var16",
+            "Var17",
+            "Var18",
+            "Var19",
+            "Var20",
+            "Var21",
+            "Var22"
          ]
       }
-   },
-   "config" : {
-      "subtitle" : "HSAUR - GHQ",
-      "colorBy" : "sex",
-      "title" : "General Health Questionnaire",
-      "graphType" : "Scatter3D"
    }
 }

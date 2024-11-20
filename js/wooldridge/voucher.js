@@ -1,30 +1,30 @@
 var voucherInfo ={
    "parameters" : {
-      "appyear" : " year of first application",
-      "choiceyrs3" : " = 1 if choiceyrs == 3",
-      "mnce" : " math NCE test score, 1994",
-      "selectyrs1" : " = 1 if selectyrs == 1",
-      "choiceyrs2" : " = 1 if choiceyrs == 2",
-      "selectyrs4" : " = 1 if selectyrs == 4",
-      "choiceyrs" : " years attended choice school",
-      "female" : " = 1 if female",
-      "select" : " = 1 if ever selected to attend choice school",
-      "hispanic" : " = 1 if Hispanic",
-      "studyid" : " student identifier",
-      "mnce90" : " mnce in 1990",
       "choiceyrs1" : " = 1 if choiceyrs == 1",
+      "mnce90" : " mnce in 1990",
+      "hispanic" : " = 1 if Hispanic",
       "selectyrs3" : " = 1 if selectyrs == 3",
-      "choiceyrs4" : " = 1 if choiceyrs == 4",
-      "selectyrs2" : " = 1 if selectyrs == 2",
+      "choice" : " = 1 if attending choice school, 1994",
       "selectyrs" : " years selected to attend choice school",
+      "selectyrs4" : " = 1 if selectyrs == 4",
+      "female" : " = 1 if female",
+      "choiceyrs2" : " = 1 if choiceyrs == 2",
+      "appyear" : " year of first application",
+      "choiceyrs4" : " = 1 if choiceyrs == 4",
       "black" : " = 1 if African-American",
-      "choice" : " = 1 if attending choice school, 1994"
+      "selectyrs2" : " = 1 if selectyrs == 2",
+      "mnce" : " math NCE test score, 1994",
+      "studyid" : " student identifier",
+      "selectyrs1" : " = 1 if selectyrs == 1",
+      "choiceyrs3" : " = 1 if choiceyrs == 3",
+      "choiceyrs" : " years attended choice school",
+      "select" : " = 1 if ever selected to attend choice school"
    },
+   "usage" : "data('voucher')",
    "reference" : "This is a condensed version of the data set used by Professor Rouse. The original data set had missing information on many variables, including post-policy and pre-policy test scores. I did not impute any missing data and have dropped observations that were unusable without filling in missing data. There are 990 students in the current data set but pre-policy test scores are available for only 328 of them. This is a good example of where eligibility for a program is randomized but participation need not be. In addition, even if we look at just the effect of eligibility (captured in the variable selectyrs) on the math test score (mnce), we need to confront the fact that attrition (students leaving the district) can bias the results. Controlling for the pre-policy test score, mnce90, can help â but at the cost of losing two-thirds of the observations. A simple regression of mnce on selectyrs followed by a multiple regression that adds mnce90 as a control is informative. The selectyrs dummy variables can be used as instrumental variables for the choiceyrs variable to try to estimate the effect of actually participating in the program (rather than estimating the so- called intention-to-treat effect). Computer Exercise C15.11 steps through the details.",
-   "title" : "voucher",
-   "format" : "A data.frame with 990 observations on 19 variables:",
    "description" : "Description\nWooldridge Source: Rouse, C.E. (1998), âPrivate School Vouchers and Student Achievement: An Evaluation of the Milwaukee Parental Choice Program,â Quarterly Journal of Economics 113, 553-602. Professor Rouse kindly provided the original data set from her paper. Data loads lazily.",
-   "usage" : "data('voucher')"
+   "title" : "voucher",
+   "format" : "A data.frame with 990 observations on 19 variables:"
 }
 
 var voucher = [

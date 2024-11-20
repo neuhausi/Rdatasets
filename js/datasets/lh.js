@@ -1,8 +1,8 @@
 var lhInfo ={
    "usage" : "lh",
-   "format" : "P.J. Diggle (1990)\nTime Series: A Biostatistical Introduction.\nOxford, table A.1, series 3",
+   "description" : "Description\nA regular time series giving the luteinizing hormone in blood\nsamples at 10 mins intervals from a human female, 48 samples.",
    "title" : "Luteinizing Hormone in Blood Samples",
-   "description" : "Description\nA regular time series giving the luteinizing hormone in blood\nsamples at 10 mins intervals from a human female, 48 samples."
+   "format" : "P.J. Diggle (1990)\nTime Series: A Biostatistical Introduction.\nOxford, table A.1, series 3"
 }
 
 var lh = [

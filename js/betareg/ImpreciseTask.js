@@ -1,13 +1,13 @@
 var ImpreciseTaskInfo ={
-   "description" : "Description\nIn this study participants were asked to estimate upper and lower\nprobabilities for event to occur and not to occur.",
-   "usage" : "data(\"ImpreciseTask\", package = \"betareg\")",
-   "parameters" : {
-      "difference" : "a numeric vector of the differences of the\nlower and upper estimate for the event to occur.",
-      "task" : "a factor with levels Boeing stock and Sunday weather.",
-      "location" : "a numeric vector of the average of the lower\nestimate for the event not to occur and the upper estimate for the\nevent to occur."
-   },
    "format" : "A data frame with 242 observations on the following 3 variables.",
+   "parameters" : {
+      "task" : "a factor with levels Boeing stock and Sunday weather.",
+      "location" : "a numeric vector of the average of the lower\nestimate for the event not to occur and the upper estimate for the\nevent to occur.",
+      "difference" : "a numeric vector of the differences of the\nlower and upper estimate for the event to occur."
+   },
+   "description" : "Description\nIn this study participants were asked to estimate upper and lower\nprobabilities for event to occur and not to occur.",
    "title" : "Imprecise Probabilities for Sunday Weather and Boeing Stock Task",
+   "usage" : "data(\"ImpreciseTask\", package = \"betareg\")",
    "reference" : "All participants in the study were either first- or second-year\nundergraduate students in psychology, none of whom had a strong\nbackground in probability or were familiar with imprecise probability\ntheories."
 }
 

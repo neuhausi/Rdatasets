@@ -536,13 +536,6 @@
             "Var531",
             "Var532"
          ],
-         "smps" : [
-            "O3",
-            "NO2",
-            "NO",
-            "SO2",
-            "PM10"
-         ],
          "data" : [
             [
                27,
@@ -4268,13 +4261,20 @@
                8,
                31
             ]
+         ],
+         "smps" : [
+            "O3",
+            "NO2",
+            "NO",
+            "SO2",
+            "PM10"
          ]
       }
    },
    "config" : {
-      "subtitle" : "texmex - winter",
-      "scatterPlotMatrix" : 1,
       "graphType" : "Scatter2D",
-      "title" : "Air pollution data"
+      "subtitle" : "texmex - winter",
+      "title" : "Air pollution data",
+      "scatterPlotMatrix" : 1
    }
 }

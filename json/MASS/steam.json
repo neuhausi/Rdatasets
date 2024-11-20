@@ -84,7 +84,7 @@
    },
    "config" : {
       "subtitle" : "MASS - steam",
-      "graphType" : "Scatter2D",
-      "title" : "The Saturated Steam Pressure Data"
+      "title" : "The Saturated Steam Pressure Data",
+      "graphType" : "Scatter2D"
    }
 }

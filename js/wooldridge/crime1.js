@@ -1,26 +1,26 @@
 var crime1Info ={
-   "usage" : "data('crime1')",
-   "description" : "Description\nWooldridge Source: J. Grogger (1991), âCertainty vs. Severity of Punishment,â Economic Inquiry 29, 297-309. Professor Grogger kindly provided a subset of the data he used in his article. Data loads lazily.",
    "format" : "A data.frame with 2725 observations on 16 variables:",
    "title" : "crime1",
+   "description" : "Description\nWooldridge Source: J. Grogger (1991), âCertainty vs. Severity of Punishment,â Economic Inquiry 29, 297-309. Professor Grogger kindly provided a subset of the data he used in his article. Data loads lazily.",
+   "usage" : "data('crime1')",
    "reference" : "pages 82-83, 173-174, 180, 252-253, 275, 299, 305-306, 607-608, 625",
    "parameters" : {
-      "pcnv" : " proportion of prior convictions",
-      "pt86sq" : " ptime86^2",
-      "nparr86" : " # property crme arr., 1986",
-      "nfarr86" : " # felony arrests, 1986",
       "hispan" : " =1 if Hispanic",
-      "born60" : " =1 if born in 1960",
-      "ptime86" : " mos. in prison during 1986",
-      "inc86sq" : " inc86^2",
-      "avgsen" : " avg sentence length, mos.",
-      "narr86" : " # times arrested, 1986",
-      "qemp86" : " # quarters employed, 1986",
-      "inc86" : " legal income, 1986, $100s",
+      "pcnv" : " proportion of prior convictions",
       "pcnvsq" : " pcnv^2",
       "durat" : " recent unemp duration",
+      "qemp86" : " # quarters employed, 1986",
+      "nfarr86" : " # felony arrests, 1986",
+      "nparr86" : " # property crme arr., 1986",
+      "tottime" : " time in prison since 18 (mos.)",
+      "born60" : " =1 if born in 1960",
+      "ptime86" : " mos. in prison during 1986",
+      "narr86" : " # times arrested, 1986",
+      "inc86sq" : " inc86^2",
       "black" : " =1 if black",
-      "tottime" : " time in prison since 18 (mos.)"
+      "inc86" : " legal income, 1986, $100s",
+      "avgsen" : " avg sentence length, mos.",
+      "pt86sq" : " ptime86^2"
    }
 }
 

@@ -1,22 +1,22 @@
 var cia_factbookInfo ={
-   "usage" : "cia_factbook",
-   "description" : "Description\nCountry-level statistics from the US Central Intelligence Agency (CIA).",
-   "format" : "A data frame with 259 observations on the following 11 variables.",
    "reference" : "CIA Factbook, Country Comparisons, 2014.\nhttps://www.cia.gov/the-world-factbook/references/guide-to-country-comparisons/",
+   "usage" : "cia_factbook",
    "title" : "CIA Factbook Details on Countries",
+   "description" : "Description\nCountry-level statistics from the US Central Intelligence Agency (CIA).",
    "parameters" : {
-      "population_growth_rate" : "Population growth rate.",
-      "infant_mortality_rate" : "Infant mortality, in deaths per 1,000 live births.",
       "area" : "Land area, in square kilometers. (1 square kilometer is 0.386 square miles",
-      "death_rate" : "Death rate, in deaths per 1,000 people.",
-      "country" : "Country name.",
       "internet_users" : "Total number of internet users.",
-      "maternal_mortality_rate" : "Number of female deaths per 100,000 live births where the death is related to pregnancy or birth.",
-      "net_migration_rate" : "Net migration rate.",
       "population" : "Total population.",
+      "death_rate" : "Death rate, in deaths per 1,000 people.",
       "birth_rate" : "Birth rate, in births per 1,000 people.",
+      "net_migration_rate" : "Net migration rate.",
+      "population_growth_rate" : "Population growth rate.",
+      "country" : "Country name.",
+      "infant_mortality_rate" : "Infant mortality, in deaths per 1,000 live births.",
+      "maternal_mortality_rate" : "Number of female deaths per 100,000 live births where the death is related to pregnancy or birth.",
       "life_exp_at_birth" : "Live expectancy at birth, in years."
-   }
+   },
+   "format" : "A data frame with 259 observations on the following 11 variables."
 }
 
 var cia_factbook = [

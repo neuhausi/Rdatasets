@@ -1,0 +1,25 @@
+{
+   "format" : "A data.frame with 78 observations on 16 variables:",
+   "parameters" : {
+      "lcpifood" : " log(cpifood)",
+      "sp500" : " S&P 500 index",
+      "sep11" : " =1 for 09/2001 and two months following",
+      "unemploy" : " unemployment rate, percent",
+      "gasprice" : " average gas price, cents",
+      "cpi" : " Consumer Price Index",
+      "approve" : " Gallup approval rate, percent",
+      "id" : " id",
+      "katrina" : " =1 for three months after Hurricane Katrina",
+      "year" : " year",
+      "iraqinvade" : " =1 for three months after Iraq invasion",
+      "lsp500" : " log(sp500)",
+      "rgasprice" : " real gas price, 100*(gasprice/cpi)",
+      "lrgasprice" : " log(rgasprice)",
+      "cpifood" : " CPI for food",
+      "month" : " month"
+   },
+   "description" : "Description\nWooldridge Source: Harbridge, L., J. Krosnick, and J.M. Wooldridge (forthcoming), âPresidential Approval and Gas Prices: Sociotropic or Pocketbook Influence?â in New Explorations in Political Psychology, ed. J. Krosnick. New York: Psychology Press (Taylor and Francis Group). Professor Harbridge kindly provided the data, of which I have used a subset. Data loads lazily.",
+   "title" : "approval",
+   "usage" : "data('approval')",
+   "reference" : "343, 371, 400"
+}

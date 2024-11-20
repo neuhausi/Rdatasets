@@ -1,0 +1,12 @@
+{
+   "parameters" : {
+      "circumference" : "a numeric vector of trunk circumferences (mm).  This is probably\n&ldquo;circumference at breast height&rdquo;, a standard measurement in\nforestry.",
+      "Tree" : "an ordered factor indicating the tree on which the measurement is\nmade.  The ordering is according to increasing maximum diameter.",
+      "age" : "a numeric vector giving the age of the tree (days since 1968/12/31)"
+   },
+   "title" : "Growth of Orange Trees",
+   "description" : "Description\nThe Orange data frame has 35 rows and 3 columns of records of\nthe growth of orange trees.",
+   "usage" : "Orange",
+   "reference" : "This dataset was originally part of package nlme, and that has\nmethods (including for [, as.data.frame, plot and\nprint) for its grouped-data classes.",
+   "format" : "An object of class\nc(\"nfnGroupedData\", \"nfGroupedData\", \"groupedData\", \"data.frame\")\ncontaining the following columns:"
+}

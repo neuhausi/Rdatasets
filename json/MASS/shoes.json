@@ -1,28 +1,11 @@
 {
    "config" : {
-      "subtitle" : "MASS - shoes",
       "graphType" : "Scatter2D",
+      "subtitle" : "MASS - shoes",
       "title" : "Shoe wear data of Box"
    },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>shoes</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>\nShoe wear data of Box, Hunter and Hunter\n</h2>\n<h3>Description</h3>\n<p>A list of two vectors, giving the wear of shoes of materials A and B\nfor one foot each of ten boys.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>shoes\n</code></pre>\n<h3>Source</h3>\n<p>G. E. P. Box, W. G. Hunter and J. S. Hunter (1978)\n<em>Statistics for Experimenters.</em> Wiley, p. 100\n</p>\n<h3>References</h3>\n<p>Venables, W. N. and Ripley, B. D. (2002)\n<em>Modern Applied Statistics with S.</em> Fourth edition.  Springer.\n</p>\n</main>\n</div>\n",
    "data" : {
       "y" : {
-         "smps" : [
-            "A",
-            "B"
-         ],
-         "vars" : [
-            "Var1",
-            "Var2",
-            "Var3",
-            "Var4",
-            "Var5",
-            "Var6",
-            "Var7",
-            "Var8",
-            "Var9",
-            "Var10"
-         ],
          "data" : [
             [
                13.2,
@@ -64,7 +47,24 @@
                13.3,
                13.6
             ]
+         ],
+         "smps" : [
+            "A",
+            "B"
+         ],
+         "vars" : [
+            "Var1",
+            "Var2",
+            "Var3",
+            "Var4",
+            "Var5",
+            "Var6",
+            "Var7",
+            "Var8",
+            "Var9",
+            "Var10"
          ]
       }
-   }
+   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>shoes</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>\nShoe wear data of Box, Hunter and Hunter\n</h2>\n<h3>Description</h3>\n<p>A list of two vectors, giving the wear of shoes of materials A and B\nfor one foot each of ten boys.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>shoes\n</code></pre>\n<h3>Source</h3>\n<p>G. E. P. Box, W. G. Hunter and J. S. Hunter (1978)\n<em>Statistics for Experimenters.</em> Wiley, p. 100\n</p>\n<h3>References</h3>\n<p>Venables, W. N. and Ripley, B. D. (2002)\n<em>Modern Applied Statistics with S.</em> Fourth edition.  Springer.\n</p>\n</main>\n</div>\n"
 }

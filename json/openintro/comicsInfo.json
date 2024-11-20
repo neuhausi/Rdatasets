@@ -1,0 +1,20 @@
+{
+   "parameters" : {
+      "appearances" : "Number of comic boooks the character appears in.",
+      "alive" : "Is the character dead or alive?",
+      "hair" : "Character's hair color.",
+      "eye" : "Character's eye color.",
+      "name" : "Name of the character. May include: Real name, hero or villain name,  alias(es) and/or which universe they live in (i.e. Earth-616 in Marvel's multiverse).",
+      "id" : "Status of the characters identity with levels Secret, Publie, &#8288;No Dual&#8288; and Unknown.",
+      "align" : "Character's alignment with levels Good, Bad, Neutral and &#8288;Reformed Criminals&#8288;.",
+      "publisher" : "Publisher of the comic with levels Marvel and DC.",
+      "gender" : "Character's gender.",
+      "gsm" : "Character's classification as a gender or sexual minority.",
+      "first_appear" : "Date of publication for the comic book the character first appeared in."
+   },
+   "title" : "comics",
+   "description" : "Description\nA data frame containing information about comic book characters from Marvel Comics and DC Comics.",
+   "reference" : "library(ggplot2)\nlibrary(dplyr)\n\n# Good v Bad\n\nplot_data <- comics |>\n  filter(align == \"Good\" | align == \"Bad\")\n\nggplot(plot_data, aes(x = align, fill = align)) +\n  geom_bar() +\n  facet_wrap(~publisher) +\n  scale_fill_manual(values = c(IMSCOL[\"red\", \"full\"], IMSCOL[\"blue\", \"full\"])) +\n  theme_minimal() +\n  labs(\n    title = \"Is there a balance of power\",\n    x = \"\",\n    y = \"Number of characters\",\n    fill = \"\"\n  )",
+   "usage" : "comics",
+   "format" : "A data frame with 21821 observations on the following 11 variables."
+}

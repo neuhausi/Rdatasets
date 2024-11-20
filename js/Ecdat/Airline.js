@@ -1,16 +1,16 @@
 var AirlineInfo ={
+   "usage" : "data(Airline)",
+   "title" : "Cost for U.S. Airlines",
    "description" : "Description\na panel of 6 observations  from 1970  to 1984\nnumber of observations :  90\nobservation :  production units\ncountry :  United States",
    "parameters" : {
-      "cost" : "total cost, in $1,000",
-      "lf" : "load factor, the average capacity utilization of the fleet",
-      "year" : "year",
-      "pf" : "fuel price",
+      "airline" : "airline",
       "output" : "output, in revenue passenger miles, \nindex number",
-      "airline" : "airline"
+      "lf" : "load factor, the average capacity utilization of the fleet",
+      "pf" : "fuel price",
+      "cost" : "total cost, in $1,000",
+      "year" : "year"
    },
-   "title" : "Cost for U.S. Airlines",
-   "format" : "A dataframe containing :",
-   "usage" : "data(Airline)"
+   "format" : "A dataframe containing :"
 }
 
 var Airline = [

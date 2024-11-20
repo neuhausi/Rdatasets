@@ -1,21 +1,21 @@
 var NaturalGasInfo ={
-   "title" : "Natural Gas Data",
-   "format" : "A data frame containing 138 observations on 10 variables.",
-   "reference" : "The data are from Baltagi (2002).",
    "parameters" : {
-      "income" : "Real per-capita personal income.",
-      "price" : "Price of natural gas",
+      "lprice" : "Price of liquefied petroleum gas.",
       "statecode" : "factor. State Code.",
-      "eprice" : "Price of electricity.",
+      "price" : "Price of natural gas",
       "state" : "factor. State abbreviation.",
-      "year" : "factor coding year.",
-      "oprice" : "Price of distillate fuel oil.",
       "heating" : "Heating degree days.",
+      "income" : "Real per-capita personal income.",
+      "oprice" : "Price of distillate fuel oil.",
+      "year" : "factor coding year.",
       "consumption" : "Consumption of natural gas by the residential sector.",
-      "lprice" : "Price of liquefied petroleum gas."
+      "eprice" : "Price of electricity."
    },
+   "reference" : "The data are from Baltagi (2002).",
    "usage" : "data(\"NaturalGas\")",
-   "description" : "Description\nPanel data originating from 6 US states over the period 1967&ndash;1989."
+   "description" : "Description\nPanel data originating from 6 US states over the period 1967&ndash;1989.",
+   "title" : "Natural Gas Data",
+   "format" : "A data frame containing 138 observations on 10 variables."
 }
 
 var NaturalGas = [

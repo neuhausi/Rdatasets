@@ -1,8 +1,8 @@
 var nhefs_completeInfo ={
-   "usage" : "nhefs_complete",
    "title" : "Complete-Data National Health and Nutrition Examination Survey Data I Epidemiologic Follow-up Study",
-   "format" : "A data frame with 1556 rows and 67 variables. The codebook is available as nhefs_codebook.",
-   "description" : "Description\nnhefs_complete is the same as nhefs, but only participants with complete data are included. The variables that need to be complete to be included are: qsmk, sex, race, age, school, smokeintensity, smokeyrs, exercise, active, wt71, wt82, and wt82_71."
+   "description" : "Description\nnhefs_complete is the same as nhefs, but only participants with complete data are included. The variables that need to be complete to be included are: qsmk, sex, race, age, school, smokeintensity, smokeyrs, exercise, active, wt71, wt82, and wt82_71.",
+   "usage" : "nhefs_complete",
+   "format" : "A data frame with 1556 rows and 67 variables. The codebook is available as nhefs_codebook."
 }
 
 var nhefs_complete = [

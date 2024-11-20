@@ -1,12 +1,6 @@
 {
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>Rubber</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>\nAccelerated Testing of Tyre Rubber\n</h2>\n<h3>Description</h3>\n<p>Data frame from accelerated testing of tyre rubber.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>Rubber\n</code></pre>\n<h3>Format</h3>\n<dl>\n<dt><code>loss</code></dt><dd>\n<p>the abrasion loss in gm/hr.\n</p>\n</dd>\n<dt><code>hard</code></dt><dd>\n<p>the hardness in Shore units.\n</p>\n</dd>\n<dt><code>tens</code></dt><dd>\n<p>tensile strength in kg/sq m.\n</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>O.L. Davies (1947)\n<em>Statistical Methods in Research and Production.</em>\nOliver and Boyd, Table 6.1 p. 119.\n</p>\n<p>O.L. Davies and P.L. Goldsmith (1972)\n<em>Statistical Methods in Research and Production.</em>\n4th edition, Longmans, Table 8.1 p. 239.\n</p>\n<h3>References</h3>\n<p>Venables, W. N. and Ripley, B. D. (2002)\n<em>Modern Applied Statistics with S-PLUS.</em> Fourth Edition. Springer.\n</p>\n</main>\n</div>\n",
    "data" : {
       "y" : {
-         "smps" : [
-            "loss",
-            "hard",
-            "tens"
-         ],
          "vars" : [
             "Var1",
             "Var2",
@@ -38,6 +32,11 @@
             "Var28",
             "Var29",
             "Var30"
+         ],
+         "smps" : [
+            "loss",
+            "hard",
+            "tens"
          ],
          "data" : [
             [
@@ -193,9 +192,10 @@
          ]
       }
    },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>Rubber</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>\nAccelerated Testing of Tyre Rubber\n</h2>\n<h3>Description</h3>\n<p>Data frame from accelerated testing of tyre rubber.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>Rubber\n</code></pre>\n<h3>Format</h3>\n<dl>\n<dt><code>loss</code></dt><dd>\n<p>the abrasion loss in gm/hr.\n</p>\n</dd>\n<dt><code>hard</code></dt><dd>\n<p>the hardness in Shore units.\n</p>\n</dd>\n<dt><code>tens</code></dt><dd>\n<p>tensile strength in kg/sq m.\n</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>O.L. Davies (1947)\n<em>Statistical Methods in Research and Production.</em>\nOliver and Boyd, Table 6.1 p. 119.\n</p>\n<p>O.L. Davies and P.L. Goldsmith (1972)\n<em>Statistical Methods in Research and Production.</em>\n4th edition, Longmans, Table 8.1 p. 239.\n</p>\n<h3>References</h3>\n<p>Venables, W. N. and Ripley, B. D. (2002)\n<em>Modern Applied Statistics with S-PLUS.</em> Fourth Edition. Springer.\n</p>\n</main>\n</div>\n",
    "config" : {
+      "title" : "Accelerated Testing of Tyre Rubber",
       "subtitle" : "MASS - Rubber",
-      "graphType" : "Scatter3D",
-      "title" : "Accelerated Testing of Tyre Rubber"
+      "graphType" : "Scatter3D"
    }
 }

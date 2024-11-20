@@ -1,0 +1,17 @@
+{
+   "parameters" : {
+      "released" : "Whether or not the arrestee was released with a summons; \na factor with levels:\nNo;\nYes.",
+      "sex" : "a factor with levels:\nFemale;\nMale.",
+      "year" : "1997 through 2002; a numeric vector.",
+      "colour" : "The arrestee's race; a factor with levels:\nBlack; \nWhite.",
+      "checks" : "Number of police data bases (of previous\narrests, previous convictions, parole status, etc. &ndash; 6 in all) on which\nthe arrestee's name appeared; a numeric vector",
+      "employed" : "a factor with levels:\nNo;\nYes.",
+      "citizen" : "a factor with levels:\nNo;\nYes.",
+      "age" : "in years; a numeric vector."
+   },
+   "usage" : "Arrests",
+   "reference" : "Personal communication from Michael Friendly, York University.",
+   "title" : "Arrests for Marijuana Possession",
+   "description" : "Description\nData on police treatment of individuals arrested in\nToronto for simple possession of small quantities of marijuana. The data are part of a larger\ndata set featured in a series of articles in the Toronto Star newspaper.",
+   "format" : "A data frame with 5226 observations on the following 8 variables."
+}

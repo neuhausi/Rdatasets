@@ -1,20 +1,20 @@
 var raw_data_research_funding_ratesInfo ={
+   "parameters" : {
+      "awards_men. Total awards received by men." : null,
+      "awards_women. Total awards received by women." : null,
+      "success_rates_women. Success rate for women." : null,
+      "applications_women. Total applications by women." : null,
+      "discipline. Research area discipline." : null,
+      "success_rates_men. Success rate for men." : null,
+      "success_rates_total. Overall success rate." : null,
+      "applications_men. Total applications by men." : null,
+      "applications_total. Total applications." : null,
+      "awards_total. Total awards." : null
+   },
    "usage" : "research_funding_rates",
    "title" : "Gender bias in research funding in the Netherlands",
-   "format" : "An object of class \"data.frame\".",
    "description" : "Description\nTable S1 from paper title \"Gender contributes to personal research funding success in The Netherlands\"",
-   "parameters" : {
-      "applications_women. Total applications by women." : null,
-      "applications_men. Total applications by men." : null,
-      "awards_women. Total awards received by women." : null,
-      "discipline. Research area discipline." : null,
-      "awards_total. Total awards." : null,
-      "success_rates_total. Overall success rate." : null,
-      "success_rates_women. Success rate for women." : null,
-      "success_rates_men. Success rate for men." : null,
-      "applications_total. Total applications." : null,
-      "awards_men. Total awards received by men." : null
-   }
+   "format" : "An object of class \"data.frame\"."
 }
 
 var raw_data_research_funding_rates = [

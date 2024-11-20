@@ -1,15 +1,15 @@
 var npkInfo ={
-   "description" : "Description\nA classical N, P, K (nitrogen, phosphate, potassium) factorial\nexperiment on the growth of peas conducted on 6 blocks. Each half of a\nfractional factorial design confounding the NPK interaction was used\non 3 of the plots.",
-   "usage" : "npk",
    "parameters" : {
-      "block" : "which block (label 1 to 6).",
       "K" : "indicator (0/1) for the application of potassium.",
-      "N" : "indicator (0/1) for the application of nitrogen.",
+      "block" : "which block (label 1 to 6).",
       "yield" : "Yield of peas, in pounds/plot (the plots were (1/70) acre).",
-      "P" : "indicator (0/1) for the application of phosphate."
+      "P" : "indicator (0/1) for the application of phosphate.",
+      "N" : "indicator (0/1) for the application of nitrogen."
    },
-   "reference" : "This dataset is also contained in R 3.0.2 and later.",
+   "description" : "Description\nA classical N, P, K (nitrogen, phosphate, potassium) factorial\nexperiment on the growth of peas conducted on 6 blocks. Each half of a\nfractional factorial design confounding the NPK interaction was used\non 3 of the plots.",
    "title" : "Classical N, P, K Factorial Experiment",
+   "reference" : "This dataset is also contained in R 3.0.2 and later.",
+   "usage" : "npk",
    "format" : "The npk data frame has 24 rows and 5 columns:"
 }
 

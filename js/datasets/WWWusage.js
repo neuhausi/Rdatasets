@@ -1,8 +1,8 @@
 var WWWusageInfo ={
-   "description" : "Description\nA time series of the numbers of users connected to the Internet\nthrough a server every minute.",
-   "title" : "Internet Usage per Minute",
    "format" : "A time series of length 100.",
-   "usage" : "WWWusage"
+   "usage" : "WWWusage",
+   "title" : "Internet Usage per Minute",
+   "description" : "Description\nA time series of the numbers of users connected to the Internet\nthrough a server every minute."
 }
 
 var WWWusage = [

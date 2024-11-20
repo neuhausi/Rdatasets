@@ -1,22 +1,22 @@
 var SBS2000Info ={
-   "reference" : "A csv file, one retailer per row.",
    "title" : "data on Dutch supermarkets",
-   "format" : "Other datasets: \nnace_rev2,\nsamplonomy",
-   "parameters" : {
-      "profit" : " Amount of profit",
-      "vat" : " Turnover reported for Value Added Tax",
-      "staff.costs" : " Costs assiciated to staff",
-      "total.rev" : " Total revenue",
-      "other.rev" : " Amount of other revenue",
-      "id" : " A unique identifier (only in SBS2000)",
-      "size" : " Size class (0=undetermined)",
-      "incl.prob" : " Probability of inclusion in the sample",
-      "staff" : " Number of staff",
-      "turnover" : " Amount of turnover",
-      "total.costs" : " Total costs made"
-   },
+   "description" : "Description\nAnonymized and distorted data on revenue and cost structure for\n60 retailers. Currency is in thousands of Euros. There are two\ndata sets. The SBS2000 dataset is equal to the retailers\ndata set except that it has a record identifier (called id) column.\nid: A unique identifier (only in SBS2000)\n\n\n size: Size class (0=undetermined)\n\n\n incl.prob: Probability of inclusion in the sample\n\n\n staff: Number of staff\n\n\n turnover: Amount of turnover\n\n\n other.rev: Amount of other revenue\n\n\n total.rev: Total revenue\n\n\n staff.costs: Costs assiciated to staff\n\n\n total.costs: Total costs made\n\n\n profit: Amount of profit\n\n\n vat: Turnover reported for Value Added Tax",
    "usage" : "A csv file, one retailer per row.",
-   "description" : "Description\nAnonymized and distorted data on revenue and cost structure for\n60 retailers. Currency is in thousands of Euros. There are two\ndata sets. The SBS2000 dataset is equal to the retailers\ndata set except that it has a record identifier (called id) column.\nid: A unique identifier (only in SBS2000)\n\n\n size: Size class (0=undetermined)\n\n\n incl.prob: Probability of inclusion in the sample\n\n\n staff: Number of staff\n\n\n turnover: Amount of turnover\n\n\n other.rev: Amount of other revenue\n\n\n total.rev: Total revenue\n\n\n staff.costs: Costs assiciated to staff\n\n\n total.costs: Total costs made\n\n\n profit: Amount of profit\n\n\n vat: Turnover reported for Value Added Tax"
+   "reference" : "A csv file, one retailer per row.",
+   "parameters" : {
+      "vat" : " Turnover reported for Value Added Tax",
+      "staff" : " Number of staff",
+      "incl.prob" : " Probability of inclusion in the sample",
+      "other.rev" : " Amount of other revenue",
+      "staff.costs" : " Costs assiciated to staff",
+      "size" : " Size class (0=undetermined)",
+      "profit" : " Amount of profit",
+      "total.rev" : " Total revenue",
+      "id" : " A unique identifier (only in SBS2000)",
+      "total.costs" : " Total costs made",
+      "turnover" : " Amount of turnover"
+   },
+   "format" : "Other datasets: \nnace_rev2,\nsamplonomy"
 }
 
 var SBS2000 = [

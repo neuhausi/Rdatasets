@@ -1,0 +1,15 @@
+{
+   "parameters" : {
+      "n" : "numeric, number of 19 and 19 year olds registered",
+      "treatedIndex" : "numeric, a counter indexing the 42 treated units",
+      "treated" : "numeric, 1 if a treated cable system, 0 otherwise",
+      "r" : "numeric, number of 18 and 19 year olds turning out",
+      "strata" : "numeric, experimental strata",
+      "p" : "numeric, proportion of 18 and 19 year olds turning out"
+   },
+   "usage" : "data(RockTheVote)",
+   "reference" : "Green and Vavreck (2008) implemented a cluster-randomized\nexperimental design in assessing the effects of a voter mobilization\ntreatment in the 2004 U.S. Presidential election.  The clusters in this\ndesign are geographic areas served by a single cable television system.\nSo as to facilitate analysis, the researchers restricted their\nattention to small cable systems whose reach is limited to a single zip\ncode.  Further, since the experiment was fielded during the last week\nof the presidential election, the researchers restricted their search\nto cable systems that were not in the 16 hotly-contested\n&ldquo;battleground&rdquo; states (as designated by the Los Angeles\nTimes).",
+   "title" : "Voter turnout experiment, using Rock The Vote ads",
+   "description" : "Description\nVoter turnout data spanning 85 cable TV systems, randomly allocated to\na voter mobilization experiment targeting 18-19 year olds with \"Rock\nthe Vote\" television advertisements",
+   "format" : "A data frame with 85 observations on the following 6 variables."
+}

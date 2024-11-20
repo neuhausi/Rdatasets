@@ -1,24 +1,24 @@
 var mn_police_use_of_forceInfo ={
-   "usage" : "mn_police_use_of_force",
-   "description" : "Description\nFrom Minneapolis, data from 2016 through August 2021",
-   "title" : "Minneapolis police use of force data.",
-   "reference" : "Minneapolis",
    "format" : "A data frame with 12925 rows and 13 variables.",
    "parameters" : {
       "primary_offense" : "Offense of subject.",
-      "problem" : "Problem that required police response.",
-      "type_resistance" : "Resistance to police by subject.",
-      "force_type" : "Type of police force used.",
+      "sex" : "Gender of subject.",
+      "precinct" : "Precinct where response occurred.",
       "force_type_action" : "Detail of police force used.",
-      "race" : "Race of subject.",
+      "problem" : "Problem that required police response.",
       "subject_injury" : "Whether subject was injured Yes/No/null.",
-      "age" : "Age of subject.",
+      "type_resistance" : "Resistance to police by subject.",
+      "neighborhood" : "Neighborhood where response occurred.",
       "is_911_call" : "Whether response was iniated by call to 911.",
       "response_datetime" : "DateTime of police response.",
-      "neighborhood" : "Neighborhood where response occurred.",
-      "sex" : "Gender of subject.",
-      "precinct" : "Precinct where response occurred."
-   }
+      "race" : "Race of subject.",
+      "force_type" : "Type of police force used.",
+      "age" : "Age of subject."
+   },
+   "title" : "Minneapolis police use of force data.",
+   "description" : "Description\nFrom Minneapolis, data from 2016 through August 2021",
+   "usage" : "mn_police_use_of_force",
+   "reference" : "Minneapolis"
 }
 
 var mn_police_use_of_force = [

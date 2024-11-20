@@ -1,12 +1,16 @@
 {
    "config" : {
       "subtitle" : "modeldata - bivariate_test",
-      "graphType" : "Scatter2D",
+      "title" : "Example bivariate classification data",
       "colorBy" : "Class",
-      "title" : "Example bivariate classification data"
+      "graphType" : "Scatter2D"
    },
    "data" : {
       "y" : {
+         "smps" : [
+            "A",
+            "B"
+         ],
          "data" : [
             [
                742.115646258504,
@@ -3560,10 +3564,6 @@
             "Var708",
             "Var709",
             "Var710"
-         ],
-         "smps" : [
-            "A",
-            "B"
          ]
       },
       "z" : {

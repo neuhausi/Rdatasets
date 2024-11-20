@@ -1,57 +1,13 @@
 {
+   "config" : {
+      "title" : "Anscombe's (1973) Quartets",
+      "subtitle" : "stevedata - quartets",
+      "graphType" : "Scatter2D",
+      "colorBy" : "group"
+   },
    "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>quartets</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Anscombe's (1973) Quartets</h2>\n<h3>Description</h3>\n<p>These are four x-y data sets, combined into a long format, which have the\nsame traditional statistical properties (mean, variance, correlation,\nregression line, etc.). However, they look quite different.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>quartets\n</code></pre>\n<h3>Format</h3>\n<p>A data frame with 44 observations on the following 3 variables.\n</p>\n<dl>\n<dt><code>group</code></dt><dd><p>a categorical identifier for the quartet</p>\n</dd>\n<dt><code>x</code></dt><dd><p>a continuous variable</p>\n</dd>\n<dt><code>y</code></dt><dd><p>a continuous variable</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>Data come default in R, but I elected to change the format to be\na bit more accessible.\n</p>\n<h3>References</h3>\n<p>Anscombe, Francis J. (1973). &quot;Graphs in Statistical Analysis.&quot; <em>The American Statistician</em> 27: 17â21.\n</p>\n</main>\n</div>\n",
    "data" : {
       "y" : {
-         "smps" : [
-            "x",
-            "y"
-         ],
-         "vars" : [
-            "Var1",
-            "Var2",
-            "Var3",
-            "Var4",
-            "Var5",
-            "Var6",
-            "Var7",
-            "Var8",
-            "Var9",
-            "Var10",
-            "Var11",
-            "Var12",
-            "Var13",
-            "Var14",
-            "Var15",
-            "Var16",
-            "Var17",
-            "Var18",
-            "Var19",
-            "Var20",
-            "Var21",
-            "Var22",
-            "Var23",
-            "Var24",
-            "Var25",
-            "Var26",
-            "Var27",
-            "Var28",
-            "Var29",
-            "Var30",
-            "Var31",
-            "Var32",
-            "Var33",
-            "Var34",
-            "Var35",
-            "Var36",
-            "Var37",
-            "Var38",
-            "Var39",
-            "Var40",
-            "Var41",
-            "Var42",
-            "Var43",
-            "Var44"
-         ],
          "data" : [
             [
                10,
@@ -229,6 +185,56 @@
                8,
                6.89
             ]
+         ],
+         "smps" : [
+            "x",
+            "y"
+         ],
+         "vars" : [
+            "Var1",
+            "Var2",
+            "Var3",
+            "Var4",
+            "Var5",
+            "Var6",
+            "Var7",
+            "Var8",
+            "Var9",
+            "Var10",
+            "Var11",
+            "Var12",
+            "Var13",
+            "Var14",
+            "Var15",
+            "Var16",
+            "Var17",
+            "Var18",
+            "Var19",
+            "Var20",
+            "Var21",
+            "Var22",
+            "Var23",
+            "Var24",
+            "Var25",
+            "Var26",
+            "Var27",
+            "Var28",
+            "Var29",
+            "Var30",
+            "Var31",
+            "Var32",
+            "Var33",
+            "Var34",
+            "Var35",
+            "Var36",
+            "Var37",
+            "Var38",
+            "Var39",
+            "Var40",
+            "Var41",
+            "Var42",
+            "Var43",
+            "Var44"
          ]
       },
       "z" : {
@@ -279,11 +285,5 @@
             "Quartet 4"
          ]
       }
-   },
-   "config" : {
-      "title" : "Anscombe's (1973) Quartets",
-      "colorBy" : "group",
-      "graphType" : "Scatter2D",
-      "subtitle" : "stevedata - quartets"
    }
 }

@@ -1,0 +1,32 @@
+{
+   "parameters" : {
+      "score_act_p25" : "&#8288;[numeric]&#8288; 25th percentile of the ACT cumulative score. (ACTCM25)",
+      "cost_tuition_out" : "&#8288;[numeric]&#8288; Out-of-state tuition and fees. (TUITIONFEE_OUT)",
+      "cost_avg_income_48_75k" : "&#8288;[numeric]&#8288; Average net price for $48,001-$75,000 family income (private for-profit and nonprofit institutions). (NPT43_PRIV)",
+      "n_undergrads" : "&#8288;[integer]&#8288; Enrollment of undergraduate certificate/degree-seeking students. (UGDS)",
+      "cost_avg_income_0_30k" : "&#8288;[numeric]&#8288; Average net price for $0-$30,000 family income (private for-profit and nonprofit institutions). (NPT41_PRIV)",
+      "cost_tuition_in" : "&#8288;[numeric]&#8288; In-state tuition and fees. (TUITIONFEE_IN)",
+      "cost_room_board_off" : "&#8288;[numeric]&#8288; Cost of attendance: off-campus room and board. (ROOMBOARD_OFF)",
+      "score_sat_math_p75" : "&#8288;[numeric]&#8288; 75th percentile of SAT scores at the institution (math). (SATMT75)",
+      "score_act_p75" : "&#8288;[numeric]&#8288; 75th percentile of the ACT cumulative score. (ACTCM75)",
+      "rate_completion" : "&#8288;[numeric]&#8288; Completion rate for first-time, full-time students at four-year institutions (100% of expected time to completion). (C100_4)",
+      "score_sat_avg" : "&#8288;[numeric]&#8288; Average SAT equivalent score of students admitted. (SAT_AVG)",
+      "id" : "&#8288;[integer]&#8288; A unique identifier for each institution. (UNITID)",
+      "score_sat_math_p25" : "&#8288;[numeric]&#8288; 25th percentile of SAT scores at the institution (math). (SATMT25)",
+      "score_sat_verbal_p75" : "&#8288;[numeric]&#8288; 75th percentile of SAT scores at the institution (critical reading). (SATVR75)",
+      "cost_avg_income_110k_plus" : "&#8288;[numeric]&#8288; Average net price for $110,000+ family income (private for-profit and nonprofit institutions). (NPT45_PRIV)",
+      "cost_avg_income_75_110k" : "&#8288;[numeric]&#8288; Average net price for $75,001-$110,000 family income (private for-profit and nonprofit institutions). (NPT44_PRIV)",
+      "score_sat_verbal_p25" : "&#8288;[numeric]&#8288; 25th percentile of SAT scores at the institution (critical reading). (SATVR25)",
+      "cost_room_board_on" : "&#8288;[numeric]&#8288; Cost of attendance: on-campus room and board. (ROOMBOARD_ON)",
+      "cost_books" : "&#8288;[numeric]&#8288; Cost of attendance: estimated books and supplies. (BOOKSUPPLY)",
+      "academic_year" : "&#8288;[character]&#8288; The academic year of the record.",
+      "amnt_earnings_med_10y" : "&#8288;[numeric]&#8288; Median earnings of students working and not enrolled 10 years after entry. (MD_EARN_WNE_P10)",
+      "cost_avg" : "&#8288;[numeric]&#8288; Average net price for Title IV institutions (private for-profit and nonprofit institutions). (NPT4_PRIV)",
+      "rate_admissions" : "&#8288;[numeric]&#8288; Admission rate for all campuses rolled up to the 6-digit OPE ID. (ADM_RATE_ALL)",
+      "cost_avg_income_30_48k" : "&#8288;[numeric]&#8288; Average net price for $30,001-$48,000 family income (private for-profit and nonprofit institutions). (NPT42_PRIV)"
+   },
+   "description" : "Description\nHistorical data from the U.S. College Scorecard dataset. The data includes\nhistorical information on the number of students, average cost, median\nearnings after graduations, rates of admission and completion, and ACT and\nSAT test scores.\nThe data set contain only colleges that participate in Title IV federal\nfinancial aid programs. In the tidy data set, column names have been changed\nfor readability and consistency.\nYou can find the original data set at the U.S. Department of Education's\nCollege Scorecard website. The\ncode for the data transformation process is available at\nhttps://github.com/gadenbuie/scorecard-db.",
+   "title" : "College Scorecard: Scorecard Data",
+   "usage" : "scorecard",
+   "format" : "A data frame with 183,306 rows and 24 variables. Original column\nnames from the source dataset are noted in parenthesis."
+}

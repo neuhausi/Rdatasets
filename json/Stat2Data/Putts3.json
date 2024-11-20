@@ -1,5 +1,10 @@
 {
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>Putts3</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Hypothetical Putting Data (Short Form)</h2>\n<h3>Description</h3>\n<p>Hypothetical putting results for a golfing statistician\n</p>\n<h3>Format</h3>\n<p>A data frame with 5 observations on the following 4 variables.\n</p>\n<dl>\n<dt><code>Length</code></dt><dd><p>Length of the attempted putt (in feet)</p>\n</dd>\n<dt><code>Made</code></dt><dd><p>Number of putts made at this length</p>\n</dd>\n<dt><code>Missed</code></dt><dd><p>Number of putts missed at this length</p>\n</dd>\n<dt><code>Trials</code></dt><dd><p>Total number of putts attempted at this length</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>This is a hypothetical revision of the table of putting success in Putts2 that helps demonstrate overdispersion.\n</p>\n<h3>Source</h3>\n<p>Modified from personal observations by one of the Stat2 authors.\n</p>\n</main>\n</div>\n",
+   "config" : {
+      "scatterPlotMatrix" : 1,
+      "title" : "Hypothetical Putting Data (Short Form)",
+      "subtitle" : "Stat2Data - Putts3",
+      "graphType" : "Scatter2D"
+   },
    "data" : {
       "y" : {
          "data" : [
@@ -34,25 +39,20 @@
                134
             ]
          ],
+         "smps" : [
+            "Length",
+            "Made",
+            "Missed",
+            "Trials"
+         ],
          "vars" : [
             "Var1",
             "Var2",
             "Var3",
             "Var4",
             "Var5"
-         ],
-         "smps" : [
-            "Length",
-            "Made",
-            "Missed",
-            "Trials"
          ]
       }
    },
-   "config" : {
-      "subtitle" : "Stat2Data - Putts3",
-      "title" : "Hypothetical Putting Data (Short Form)",
-      "graphType" : "Scatter2D",
-      "scatterPlotMatrix" : 1
-   }
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>Putts3</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Hypothetical Putting Data (Short Form)</h2>\n<h3>Description</h3>\n<p>Hypothetical putting results for a golfing statistician\n</p>\n<h3>Format</h3>\n<p>A data frame with 5 observations on the following 4 variables.\n</p>\n<dl>\n<dt><code>Length</code></dt><dd><p>Length of the attempted putt (in feet)</p>\n</dd>\n<dt><code>Made</code></dt><dd><p>Number of putts made at this length</p>\n</dd>\n<dt><code>Missed</code></dt><dd><p>Number of putts missed at this length</p>\n</dd>\n<dt><code>Trials</code></dt><dd><p>Total number of putts attempted at this length</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>This is a hypothetical revision of the table of putting success in Putts2 that helps demonstrate overdispersion.\n</p>\n<h3>Source</h3>\n<p>Modified from personal observations by one of the Stat2 authors.\n</p>\n</main>\n</div>\n"
 }

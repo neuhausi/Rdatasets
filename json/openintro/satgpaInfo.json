@@ -1,0 +1,15 @@
+{
+   "format" : "A data frame with 1000 observations on the following 6 variables.",
+   "parameters" : {
+      "sat_m" : "Math SAT percentile.",
+      "sat_sum" : "Total of verbal and math SAT percentiles.",
+      "sat_v" : "Verbal SAT percentile.",
+      "sex" : "Gender of the student.",
+      "fy_gpa" : "First year (college) grade point average.",
+      "hs_gpa" : "High school grade point average."
+   },
+   "title" : "SAT and GPA data",
+   "description" : "Description\nSAT and GPA data for 1000 students at an unnamed college.",
+   "usage" : "satgpa",
+   "reference" : "Educational Testing Service originally collected the data."
+}

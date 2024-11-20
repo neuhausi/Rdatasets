@@ -1,15 +1,15 @@
 var tourismInfo ={
-   "parameters" : {
-      "Trips" : " Overnight trips in thousands",
-      "Quarter" : " Year quarter (index)",
-      "State" : " States and territories of Australia",
-      "Region" : " The tourism regions are formed through the aggregation of\nStatistical Local Areas (SLAs) which are defined by the various State and\nTerritory tourism authorities according to their research and marketing\nneeds",
-      "Purpose" : " Stopover purpose of visit"
-   },
    "description" : "Description\nA dataset containing the quarterly overnight trips from 1998 Q1 to 2016 Q4\nacross Australia.",
+   "title" : "Australian domestic overnight trips",
    "usage" : "tourism",
-   "format" : "A tsibble with 23,408 rows and 5 variables:",
-   "title" : "Australian domestic overnight trips"
+   "parameters" : {
+      "Purpose" : " Stopover purpose of visit",
+      "State" : " States and territories of Australia",
+      "Quarter" : " Year quarter (index)",
+      "Region" : " The tourism regions are formed through the aggregation of\nStatistical Local Areas (SLAs) which are defined by the various State and\nTerritory tourism authorities according to their research and marketing\nneeds",
+      "Trips" : " Overnight trips in thousands"
+   },
+   "format" : "A tsibble with 23,408 rows and 5 variables:"
 }
 
 var tourism = [

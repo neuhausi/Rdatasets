@@ -1,0 +1,11 @@
+{
+   "title" : "Cardiovascular problems for two types of Diabetes medicines",
+   "description" : "Description\nA comparison of cardiovascular problems for Rosiglitazone and Pioglitazone.",
+   "usage" : "avandia",
+   "reference" : "D.J. Graham et al. Risk of acute myocardial infarction, stroke,\nheart failure, and death in elderly Medicare patients treated with\nrosiglitazone or pioglitazone. In: JAMA 304.4 (2010), p. 411. issn:\n0098-7484.",
+   "parameters" : {
+      "treatment" : "a factor with levels Pioglitazone and\nRosiglitazone",
+      "cardiovascular_problems" : "a factor with levels no and\nyes"
+   },
+   "format" : "A data frame with 227571 observations on the following 2 variables."
+}

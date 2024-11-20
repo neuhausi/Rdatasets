@@ -1,0 +1,23 @@
+{
+   "description" : "Description\nList of all courses at UCLA during Fall 2018.",
+   "title" : "UCLA courses in Fall 2018",
+   "usage" : "ucla_f18",
+   "reference" : "https://sa.ucla.edu/ro/public/soc, retrieved 2018-11-22.",
+   "parameters" : {
+      "ind_study" : "Boolean for if this is some form of independent  study",
+      "seminar" : "Boolean for if this is a seminar course",
+      "course_numeric" : "Course number, numeric only",
+      "subject" : "Subject",
+      "course_num" : "Course number, complete",
+      "special_topic" : "Boolean for if this is any of the special types of courses listed",
+      "laboratory" : "Boolean for if this is a lab",
+      "apprenticeship" : "Boolean for if this is an apprenticeship",
+      "term" : "Term the course was offered",
+      "honors_contracts" : "Boolean for if this is an honors contracts course",
+      "subject_abbr" : "Subject abbreviation, if any",
+      "year" : "Year the course was offered",
+      "internship" : "Boolean for if this is an internship",
+      "course" : "Course name"
+   },
+   "format" : "A data frame with 3950 observations on the following 14 variables."
+}

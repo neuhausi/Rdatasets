@@ -1,12 +1,12 @@
 var LongJumpOlympics2016Info ={
    "parameters" : {
-      "Gold" : "Gold medal distance (in meters)",
-      "Year" : "Olympic Year (1900-2016)"
+      "Year" : "Olympic Year (1900-2016)",
+      "Gold" : "Gold medal distance (in meters)"
    },
    "description" : "Description\nGold medal distance for Olympic men's long jump",
    "title" : "Olympic Men's Long Jump Gold Medal Distance (1900 - 2016)",
-   "reference" : "Gold medal winning distances for the men's long jump at the Olympics from 1900 to 2016.",
-   "usage" : "A data frame with 28 observations on the following 2 variables."
+   "usage" : "A data frame with 28 observations on the following 2 variables.",
+   "reference" : "Gold medal winning distances for the men's long jump at the Olympics from 1900 to 2016."
 }
 
 var LongJumpOlympics2016 = [

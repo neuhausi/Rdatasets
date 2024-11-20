@@ -1,0 +1,12 @@
+{
+   "format" : "A data frame with 14 observations on the following 3 variables.",
+   "parameters" : {
+      "census1886" : "Numbers of workers in each of 14 different\ncategories, according to the Board of Trade wage census that\nwas conducted in 1886",
+      "avwage" : "Average wage, in pence, as estimated in the US Bureau\nof Labor survey",
+      "survey1889" : "Numbers of workers in each of 14 different\ncategories, according to data collected in 1889 by the US Bureau\nof Labor, for use in a report to the US Congress and House of\nRepresentatives"
+   },
+   "usage" : "data(cottonworkers)",
+   "reference" : "The data in survey1889 were collected in a relatively informal\nmanner, by approaching individuals on the street.  Biases might\ntherefore be expected.",
+   "title" : "Occupation and wage profiles of British cotton workers",
+   "description" : "Description\nNumbers are given in different categories of worker, in each of\ntwo investigations.  The first source of information is the\nBoard of Trade Census that was conducted on 1886.  The second\nis a relatively informal survey conducted by US Bureau of\nLabor representatives in 1889, for use in official reports."
+}

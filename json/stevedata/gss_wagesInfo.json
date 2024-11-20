@@ -1,0 +1,20 @@
+{
+   "usage" : "gss_wages",
+   "reference" : "For further details, see https://gssdataexplorer.norc.org. Consult https://census.gov for more information about occupation codes.",
+   "description" : "Description\nWage data from the General Social Survey (1974-2018) to illustrate\nwage discrepancies by gender (while also considering respondent occupation, age, and education).",
+   "title" : "The Gender Pay Gap in the General Social Survey",
+   "parameters" : {
+      "maritalcat" : "respondent's marital status (Married, Widowed, Divorced, Separated, Never Married)",
+      "wrkstat" : "the work status of the respondent (full-time, part-time, temporarily not working, unemployed (laid off), retired, school, housekeeper, other)",
+      "year" : "the survey year",
+      "age" : "the respondent's age in years",
+      "prestg10" : "respondent's occupational prestige score (2010)",
+      "childs" : "number of children (0-8)",
+      "occrecode" : "recode of the occupation code into one of 11 main categories",
+      "occ10" : "respondent's occupation code (2010)",
+      "realrinc" : "the respondent's base income (in constant 1986 USD)",
+      "educcat" : "respondent's degree level (Less Than High School, High School, Junior College, Bachelor, or Graduate)",
+      "gender" : "respondent's gender (male or female)"
+   },
+   "format" : "A data frame with 11 variables:"
+}

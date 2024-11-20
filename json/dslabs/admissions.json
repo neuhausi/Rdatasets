@@ -1,60 +1,16 @@
 {
    "config" : {
       "subtitle" : "dslabs - admissions",
-      "graphType" : "Scatter2D",
+      "title" : "Gender bias among graduate school admissions to UC Berkeley.",
       "colorBy" : "gender",
       "shapeBy" : "major",
-      "title" : "Gender bias among graduate school admissions to UC Berkeley."
+      "graphType" : "Scatter2D"
    },
    "data" : {
-      "z" : {
-         "gender" : [
-            "men",
-            "men",
-            "men",
-            "men",
-            "men",
-            "men",
-            "women",
-            "women",
-            "women",
-            "women",
-            "women",
-            "women"
-         ],
-         "major" : [
-            "A",
-            "B",
-            "C",
-            "D",
-            "E",
-            "F",
-            "A",
-            "B",
-            "C",
-            "D",
-            "E",
-            "F"
-         ]
-      },
       "y" : {
          "smps" : [
             "admitted",
             "applicants"
-         ],
-         "vars" : [
-            "Var1",
-            "Var2",
-            "Var3",
-            "Var4",
-            "Var5",
-            "Var6",
-            "Var7",
-            "Var8",
-            "Var9",
-            "Var10",
-            "Var11",
-            "Var12"
          ],
          "data" : [
             [
@@ -105,6 +61,50 @@
                7,
                341
             ]
+         ],
+         "vars" : [
+            "Var1",
+            "Var2",
+            "Var3",
+            "Var4",
+            "Var5",
+            "Var6",
+            "Var7",
+            "Var8",
+            "Var9",
+            "Var10",
+            "Var11",
+            "Var12"
+         ]
+      },
+      "z" : {
+         "gender" : [
+            "men",
+            "men",
+            "men",
+            "men",
+            "men",
+            "men",
+            "women",
+            "women",
+            "women",
+            "women",
+            "women",
+            "women"
+         ],
+         "major" : [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
          ]
       }
    },

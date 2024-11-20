@@ -1,4 +1,5 @@
 {
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>UScrime</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>\nThe Effect of Punishment Regimes on Crime Rates\n</h2>\n<h3>Description</h3>\n<p>Criminologists are interested in the effect of punishment regimes on\ncrime rates.  This has been studied using aggregate data on 47 states\nof the USA for 1960 given in this data frame.  The variables seem to\nhave been re-scaled to convenient numbers.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>UScrime\n</code></pre>\n<h3>Format</h3>\n<p>This data frame contains the following columns:\n</p>\n<dl>\n<dt><code>M</code></dt><dd>\n<p>percentage of males aged 14&ndash;24.\n</p>\n</dd>\n<dt><code>So</code></dt><dd>\n<p>indicator variable for a Southern state.\n</p>\n</dd>\n<dt><code>Ed</code></dt><dd>\n<p>mean years of schooling.\n</p>\n</dd>\n<dt><code>Po1</code></dt><dd>\n<p>police expenditure in 1960.\n</p>\n</dd>\n<dt><code>Po2</code></dt><dd>\n<p>police expenditure in 1959.\n</p>\n</dd>\n<dt><code>LF</code></dt><dd>\n<p>labour force participation rate.\n</p>\n</dd>\n<dt><code>M.F</code></dt><dd>\n<p>number of males per 1000 females.\n</p>\n</dd>\n<dt><code>Pop</code></dt><dd>\n<p>state population.\n</p>\n</dd>\n<dt><code>NW</code></dt><dd>\n<p>number of non-whites per 1000 people.\n</p>\n</dd>\n<dt><code>U1</code></dt><dd>\n<p>unemployment rate of urban males 14&ndash;24.\n</p>\n</dd>\n<dt><code>U2</code></dt><dd>\n<p>unemployment rate of urban males 35&ndash;39.\n</p>\n</dd>\n<dt><code>GDP</code></dt><dd>\n<p>gross domestic product per head.\n</p>\n</dd>\n<dt><code>Ineq</code></dt><dd>\n<p>income inequality.\n</p>\n</dd>\n<dt><code>Prob</code></dt><dd>\n<p>probability of imprisonment.\n</p>\n</dd>\n<dt><code>Time</code></dt><dd>\n<p>average time served in state prisons.\n</p>\n</dd>\n<dt><code>y</code></dt><dd>\n<p>rate of crimes in a particular category per head of population.\n</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>Ehrlich, I. (1973) Participation in illegitimate activities: a\ntheoretical and empirical investigation.\n<em>Journal of Political Economy</em>, <b>81</b>, 521&ndash;565.\n</p>\n<p>Vandaele, W. (1978) Participation in illegitimate activities: Ehrlich\nrevisited.  In <em>Deterrence and Incapacitation</em>,\neds A. Blumstein, J. Cohen and D. Nagin, pp. 270&ndash;335.\nUS National Academy of Sciences.\n</p>\n<h3>References</h3>\n<p>Venables, W. N. and Ripley, B. D. (2002)\n<em>Modern Applied Statistics with S-PLUS.</em> Fourth Edition. Springer.\n</p>\n</main>\n</div>\n",
    "data" : {
       "y" : {
          "data" : [
@@ -787,24 +788,6 @@
                849
             ]
          ],
-         "vars" : [
-            "M",
-            "So",
-            "Ed",
-            "Po1",
-            "Po2",
-            "LF",
-            "M.F",
-            "Pop",
-            "NW",
-            "U1",
-            "U2",
-            "GDP",
-            "Ineq",
-            "Prob",
-            "Time",
-            "y"
-         ],
          "smps" : [
             "Smp1",
             "Smp2",
@@ -853,13 +836,30 @@
             "Smp45",
             "Smp46",
             "Smp47"
+         ],
+         "vars" : [
+            "M",
+            "So",
+            "Ed",
+            "Po1",
+            "Po2",
+            "LF",
+            "M.F",
+            "Pop",
+            "NW",
+            "U1",
+            "U2",
+            "GDP",
+            "Ineq",
+            "Prob",
+            "Time",
+            "y"
          ]
       }
    },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>UScrime</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>\nThe Effect of Punishment Regimes on Crime Rates\n</h2>\n<h3>Description</h3>\n<p>Criminologists are interested in the effect of punishment regimes on\ncrime rates.  This has been studied using aggregate data on 47 states\nof the USA for 1960 given in this data frame.  The variables seem to\nhave been re-scaled to convenient numbers.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>UScrime\n</code></pre>\n<h3>Format</h3>\n<p>This data frame contains the following columns:\n</p>\n<dl>\n<dt><code>M</code></dt><dd>\n<p>percentage of males aged 14&ndash;24.\n</p>\n</dd>\n<dt><code>So</code></dt><dd>\n<p>indicator variable for a Southern state.\n</p>\n</dd>\n<dt><code>Ed</code></dt><dd>\n<p>mean years of schooling.\n</p>\n</dd>\n<dt><code>Po1</code></dt><dd>\n<p>police expenditure in 1960.\n</p>\n</dd>\n<dt><code>Po2</code></dt><dd>\n<p>police expenditure in 1959.\n</p>\n</dd>\n<dt><code>LF</code></dt><dd>\n<p>labour force participation rate.\n</p>\n</dd>\n<dt><code>M.F</code></dt><dd>\n<p>number of males per 1000 females.\n</p>\n</dd>\n<dt><code>Pop</code></dt><dd>\n<p>state population.\n</p>\n</dd>\n<dt><code>NW</code></dt><dd>\n<p>number of non-whites per 1000 people.\n</p>\n</dd>\n<dt><code>U1</code></dt><dd>\n<p>unemployment rate of urban males 14&ndash;24.\n</p>\n</dd>\n<dt><code>U2</code></dt><dd>\n<p>unemployment rate of urban males 35&ndash;39.\n</p>\n</dd>\n<dt><code>GDP</code></dt><dd>\n<p>gross domestic product per head.\n</p>\n</dd>\n<dt><code>Ineq</code></dt><dd>\n<p>income inequality.\n</p>\n</dd>\n<dt><code>Prob</code></dt><dd>\n<p>probability of imprisonment.\n</p>\n</dd>\n<dt><code>Time</code></dt><dd>\n<p>average time served in state prisons.\n</p>\n</dd>\n<dt><code>y</code></dt><dd>\n<p>rate of crimes in a particular category per head of population.\n</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>Ehrlich, I. (1973) Participation in illegitimate activities: a\ntheoretical and empirical investigation.\n<em>Journal of Political Economy</em>, <b>81</b>, 521&ndash;565.\n</p>\n<p>Vandaele, W. (1978) Participation in illegitimate activities: Ehrlich\nrevisited.  In <em>Deterrence and Incapacitation</em>,\neds A. Blumstein, J. Cohen and D. Nagin, pp. 270&ndash;335.\nUS National Academy of Sciences.\n</p>\n<h3>References</h3>\n<p>Venables, W. N. and Ripley, B. D. (2002)\n<em>Modern Applied Statistics with S-PLUS.</em> Fourth Edition. Springer.\n</p>\n</main>\n</div>\n",
    "config" : {
-      "subtitle" : "MASS - UScrime",
       "graphType" : "Heatmap",
+      "subtitle" : "MASS - UScrime",
       "title" : "The Effect of Punishment Regimes on Crime Rates"
    }
 }

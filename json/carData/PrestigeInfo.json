@@ -1,0 +1,15 @@
+{
+   "format" : "This data frame contains the following columns:",
+   "parameters" : {
+      "type" : "Type of occupation.\nA factor with levels (note: out of order):\nbc, Blue Collar;\nprof, Professional, Managerial, and Technical;\nwc, White Collar.",
+      "income" : "Average income of incumbents, dollars, in 1971.",
+      "census" : "Canadian Census occupational code.",
+      "women" : "Percentage of incumbents who are women.",
+      "prestige" : "Pineo-Porter prestige score for occupation, from a social survey\nconducted in the mid-1960s.",
+      "education" : "Average education of occupational incumbents, years, in 1971."
+   },
+   "description" : "Description\nThe Prestige data frame has 102 rows and 6 columns.\nThe observations are occupations.",
+   "title" : "Prestige of Canadian Occupations",
+   "reference" : "Canada (1971)\nCensus of Canada. Vol. 3, Part 6. Statistics Canada [pp. 19-1&ndash;19-21].",
+   "usage" : "Prestige"
+}

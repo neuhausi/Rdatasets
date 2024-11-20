@@ -1,4 +1,16 @@
 {
+   "config" : {
+      "segregateSamplesBy" : [
+         "treatment"
+      ],
+      "graphType" : "Boxplot",
+      "colorBy" : "variable",
+      "title" : "Type 2 Diabetes Clinical Trial for Patients 10-17 Years Old",
+      "groupingFactors" : [
+         "outcome"
+      ],
+      "subtitle" : "openintro - diabetes2"
+   },
    "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>diabetes2</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Type 2 Diabetes Clinical Trial for Patients 10-17 Years Old</h2>\n<h3>Description</h3>\n<p>Three treatments were compared to test their relative efficacy\n(effectiveness) in treating Type 2 Diabetes in patients aged 10-17 who were\nbeing treated with metformin. The primary outcome was lack of glycemic\ncontrol (or not); lacking glycemic control means the patient still needed\ninsulin, which is not the preferred outcome for a patient.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>diabetes2\n</code></pre>\n<h3>Format</h3>\n<p>A data frame with 699 observations on the following 2 variables.\n</p>\n<dl>\n<dt>treatment</dt><dd><p>The treatment the patient received.</p>\n</dd>\n<dt>outcome</dt><dd><p>Whether there patient still needs insulin (<code>failure</code>)\nor met a basic positive outcome bar (<code>success</code>).</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>Each of the 699 patients in the experiment were randomized to one of the\nfollowing treatments: (1) continued treatment with metformin\n(coded as <code>met</code>), (2) formin combined with rosiglitazone (coded as\n<code>rosi</code>), or or (3) a lifestyle-intervention program (coded as\n<code>lifestyle</code>).\n</p>\n<h3>Source</h3>\n<p>Zeitler P, et al. 2012. A Clinical Trial to Maintain Glycemic\nControl in Youth with Type 2 Diabetes. N Engl J Med.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>\nlapply(diabetes2, table)\n(cont.table &lt;- table(diabetes2))\n(m &lt;- chisq.test(cont.table))\nm$expected\n</code></pre>\n</main>\n</div>\n",
    "data" : {
       "x" : {
@@ -2107,9 +2119,6 @@
             "Smp698",
             "Smp699"
          ],
-         "vars" : [
-            "Row"
-         ],
          "data" : [
             [
                1,
@@ -2812,19 +2821,10 @@
                698,
                699
             ]
+         ],
+         "vars" : [
+            "Row"
          ]
       }
-   },
-   "config" : {
-      "subtitle" : "openintro - diabetes2",
-      "segregateSamplesBy" : [
-         "treatment"
-      ],
-      "title" : "Type 2 Diabetes Clinical Trial for Patients 10-17 Years Old",
-      "groupingFactors" : [
-         "outcome"
-      ],
-      "colorBy" : "variable",
-      "graphType" : "Boxplot"
    }
 }

@@ -1,0 +1,29 @@
+{
+   "format" : "A data.frame with 239 observations on 20 variables:",
+   "parameters" : {
+      "marr75" : " = 1 if married in '75",
+      "gdhlth75" : " = 1 if good hlth in '75",
+      "age75" : " age in 1975",
+      "slpnap75" : " mins slp wk, inc naps, '75",
+      "yngkid75" : " = 1 if child < 3, '75",
+      "cmarr" : " change in marr",
+      "ceduc" : " change in educ",
+      "educ75" : " years educ in '75",
+      "male" : " =1 if male",
+      "totwrk81" : " minutes worked per week, '81",
+      "ctotwrk" : " change in totwrk",
+      "cslpnap" : " change in slpnap",
+      "cgdhlth" : " change in gdhlth",
+      "slpnap81" : " mins slp wk, inc naps, '81",
+      "cyngkid" : " change in yngkid",
+      "yngkid81" : " =1 if child < 3, '81",
+      "marr81" : " =1 if married in '81",
+      "gdhlth81" : " =1 if good hlth in '81",
+      "educ81" : " years educ in '81",
+      "totwrk75" : " minutes worked per week, '75"
+   },
+   "description" : "Description\nWooldridge Source: See SLEEP75.RAW Data loads lazily.",
+   "title" : "slp75_81",
+   "reference" : "pages 463-464",
+   "usage" : "data('slp75_81')"
+}

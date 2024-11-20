@@ -1,8 +1,8 @@
 var NYSESWInfo ={
-   "description" : "Description\nA daily time series from 1990 to 2005 of the New York Stock Exchange composite index.",
+   "format" : "A daily univariate time series from 1990-01-02 to 2005-11-11 (of class\n\"zoo\" with \"Date\" index).",
    "usage" : "data(\"NYSESW\")",
    "title" : "Daily NYSE Composite Index",
-   "format" : "A daily univariate time series from 1990-01-02 to 2005-11-11 (of class\n\"zoo\" with \"Date\" index)."
+   "description" : "Description\nA daily time series from 1990 to 2005 of the New York Stock Exchange composite index."
 }
 
 var NYSESW = [

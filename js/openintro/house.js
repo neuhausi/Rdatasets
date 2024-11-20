@@ -1,22 +1,22 @@
 var houseInfo ={
-   "title" : "United States House of Representatives historical make-up",
    "format" : "A data frame with 112 observations on the following 12 variables.",
-   "reference" : "Party Divisions of the House of Representatives, 1789 to Present.\nhttps://history.house.gov/Institution/Party-Divisions/Party-Divisions.",
    "parameters" : {
-      "p1" : "Name of the first political party",
-      "np1" : "Number of seats held by the first political party",
-      "np2" : "Number of seats held by the second political party",
-      "p2" : "Name of the second political party",
-      "vac" : "Vacancy",
-      "del" : "Delegate",
-      "res" : "Resident commissioner",
       "seats" : "Total number of seats",
+      "congress" : "The number of that year's Congress",
+      "year_end" : "Ending year",
       "other" : "Other",
       "year_start" : "Starting year",
-      "congress" : "The number of that year's Congress",
-      "year_end" : "Ending year"
+      "np2" : "Number of seats held by the second political party",
+      "np1" : "Number of seats held by the first political party",
+      "vac" : "Vacancy",
+      "res" : "Resident commissioner",
+      "del" : "Delegate",
+      "p1" : "Name of the first political party",
+      "p2" : "Name of the second political party"
    },
+   "reference" : "Party Divisions of the House of Representatives, 1789 to Present.\nhttps://history.house.gov/Institution/Party-Divisions/Party-Divisions.",
    "usage" : "house",
+   "title" : "United States House of Representatives historical make-up",
    "description" : "Description\nThe make-up of the United States House of Representatives every two years\nsince 1789. The last Congress included is the 112th Congress, which\ncompleted its term in 2013."
 }
 

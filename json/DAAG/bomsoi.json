@@ -1,12 +1,35 @@
 {
    "config" : {
-      "graphType" : "Heatmap",
+      "subtitle" : "DAAG - bomsoi",
       "title" : "Southern Oscillation Index Data",
-      "subtitle" : "DAAG - bomsoi"
+      "graphType" : "Heatmap"
    },
    "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>bomsoi</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Southern Oscillation Index Data</h2>\n<h3>Description</h3>\n<p>The Southern Oscillation Index (SOI) is the difference in barometric  \npressure at sea level between Tahiti and Darwin.  Annual SOI and\nAustralian rainfall data, for the years 1900-2005, are given.\nAustralia's annual mean rainfall is an area-weighted average of the total \nannual precipitation at approximately 370 rainfall stations \naround the country.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>bomsoi</code></pre>\n<h3>Format</h3>\n<p>This data frame contains the following columns:\n</p>\n<dl>\n<dt>Year</dt><dd><p>a numeric vector</p>\n</dd>\n<dt>Jan</dt><dd><p>average January SOI values for each year</p>\n</dd>\n<dt>Feb</dt><dd><p>average February SOI values for each year</p>\n</dd>\n<dt>Mar</dt><dd><p>average March SOI values for each year</p>\n</dd>\n<dt>Apr</dt><dd><p>average April SOI values for each year</p>\n</dd>\n<dt>May</dt><dd><p>average May SOI values for each year</p>\n</dd>\n<dt>Jun</dt><dd><p>average June SOI values for each year</p>\n</dd>\n<dt>Jul</dt><dd><p>average July SOI values for each year</p>\n</dd>\n<dt>Aug</dt><dd><p>average August SOI values for each year</p>\n</dd>\n<dt>Sep</dt><dd><p>average September SOI values for each year</p>\n</dd>\n<dt>Oct</dt><dd><p>average October SOI values for each year</p>\n</dd>\n<dt>Nov</dt><dd><p>average November SOI values for each year</p>\n</dd>\n<dt>Dec</dt><dd><p>average December SOI values for each year</p>\n</dd>\n<dt>SOI</dt><dd><p>a numeric vector consisting of average annual SOI\nvalues</p>\n</dd>\n<dt>avrain</dt><dd><p>a numeric vector consisting of a weighted average annual\nrainfall at a large number of Australian sites</p>\n</dd>\n<dt>NTrain</dt><dd><p>Northern Territory rain</p>\n</dd>\n<dt>northRain</dt><dd><p>north rain</p>\n</dd>\n<dt>seRain</dt><dd><p>southeast rain</p>\n</dd>\n<dt>eastRain</dt><dd><p>east rain</p>\n</dd>\n<dt>southRain</dt><dd><p>south rain</p>\n</dd>\n<dt>swRain</dt><dd><p>southwest rain</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>Australian Bureau of Meteorology web pages:\n</p>\n<p>http://www.bom.gov.au/climate/change/rain02.txt and\nhttp://www.bom.gov.au/climate/current/soihtm1.shtml\n</p>\n<h3>References</h3>\n<p>Nicholls, N., Lavery, B., Frederiksen, C.\\ and Drosdowsky, W. 1996.\nRecent apparent changes in relationships between the El Nino &ndash;\nsouthern oscillation and Australian rainfall and temperature.\nGeophysical Research Letters 23: 3357-3360.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'> \nplot(ts(bomsoi[, 15:14], start=1900),\n     panel=function(y,...)panel.smooth(1900:2005, y,...))\npause()\n# Check for skewness by comparing the normal probability plots for \n# different a, e.g.\npar(mfrow = c(2,3))\nfor (a in c(50, 100, 150, 200, 250, 300))\nqqnorm(log(bomsoi[, \"avrain\"] - a))\n  # a = 250 leads to a nearly linear plot\npause()\npar(mfrow = c(1,1))\nplot(bomsoi$SOI, log(bomsoi$avrain - 250), xlab = \"SOI\",\n     ylab = \"log(avrain = 250)\")\nlines(lowess(bomsoi$SOI)$y, lowess(log(bomsoi$avrain - 250))$y, lwd=2)\n  # NB: separate lowess fits against time\nlines(lowess(bomsoi$SOI, log(bomsoi$avrain - 250)))\npause()\nxbomsoi &lt;-\n  with(bomsoi, data.frame(SOI=SOI, cuberootRain=avrain^0.33))\nxbomsoi$trendSOI &lt;- lowess(xbomsoi$SOI)$y\nxbomsoi$trendRain &lt;- lowess(xbomsoi$cuberootRain)$y\nrainpos &lt;- pretty(bomsoi$avrain, 5)\nwith(xbomsoi,\n     {plot(cuberootRain ~ SOI, xlab = \"SOI\",\n           ylab = \"Rainfall (cube root scale)\", yaxt=\"n\")\n     axis(2, at = rainpos^0.33, labels=paste(rainpos))\n## Relative changes in the two trend curves\n     lines(lowess(cuberootRain ~ SOI))\n     lines(lowess(trendRain ~ trendSOI), lwd=2)\npause()\nxbomsoi$detrendRain &lt;-\n  with(xbomsoi, cuberootRain - trendRain + mean(trendRain))\nxbomsoi$detrendSOI &lt;-\n  with(xbomsoi, SOI - trendSOI + mean(trendSOI))\noldpar &lt;- par(mfrow=c(1,2), pty=\"s\")\nplot(cuberootRain ~ SOI, data = xbomsoi,\n     ylab = \"Rainfall (cube root scale)\", yaxt=\"n\")\naxis(2, at = rainpos^0.33, labels=paste(rainpos))\nwith(xbomsoi, lines(lowess(cuberootRain ~ SOI)))\nplot(detrendRain ~ detrendSOI, data = xbomsoi,\n  xlab=\"Detrended SOI\", ylab = \"Detrended rainfall\", yaxt=\"n\")\naxis(2, at = rainpos^0.33, labels=paste(rainpos))\nwith(xbomsoi, lines(lowess(detrendRain ~ detrendSOI)))\npause()\npar(oldpar)\nattach(xbomsoi)\nxbomsoi.ma0 &lt;- arima(detrendRain, xreg=detrendSOI, order=c(0,0,0))\n# ordinary regression model\nxbomsoi.ma12 &lt;- arima(detrendRain, xreg=detrendSOI,\n                      order=c(0,0,12))\n# regression with MA(12) errors -- all 12 MA parameters are estimated\nxbomsoi.ma12\npause()\nxbomsoi.ma12s &lt;- arima(detrendRain, xreg=detrendSOI,\n                      seasonal=list(order=c(0,0,1), period=12))\n# regression with seasonal MA(1) (lag 12) errors -- only 1 MA parameter\n# is estimated\nxbomsoi.ma12s\npause()\nxbomsoi.maSel &lt;- arima(x = detrendRain, order = c(0, 0, 12),\n                        xreg = detrendSOI, fixed = c(0, 0, 0,\n                        NA, rep(0, 4), NA, 0, NA, NA, NA, NA),\n                        transform.pars=FALSE)\n# error term is MA(12) with fixed 0's at lags 1, 2, 3, 5, 6, 7, 8, 10\n# NA's are used to designate coefficients that still need to be estimated\n# transform.pars is set to FALSE, so that MA coefficients are not\n# transformed (see help(arima))\ndetach(xbomsoi)\npause()\nBox.test(resid(lm(detrendRain ~ detrendSOI, data = xbomsoi)),\n          type=\"Ljung-Box\", lag=20)\npause()\nattach(xbomsoi)\n xbomsoi2.maSel &lt;- arima(x = detrendRain, order = c(0, 0, 12),\n                         xreg = poly(detrendSOI,2), fixed = c(0,\n                         0, 0, NA, rep(0, 4), NA, 0, rep(NA,5)),\n                         transform.pars=FALSE)\n xbomsoi2.maSel\nqqnorm(resid(xbomsoi.maSel, type=\"normalized\"))\ndetach(xbomsoi)\n</code></pre>\n</main>\n</div>\n",
    "data" : {
       "y" : {
+         "vars" : [
+            "Year",
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec",
+            "SOI",
+            "avrain",
+            "NTrain",
+            "northRain",
+            "seRain",
+            "eastRain",
+            "southRain",
+            "swRain"
+         ],
          "smps" : [
             "Smp1",
             "Smp2",
@@ -114,29 +137,6 @@
             "Smp104",
             "Smp105",
             "Smp106"
-         ],
-         "vars" : [
-            "Year",
-            "Jan",
-            "Feb",
-            "Mar",
-            "Apr",
-            "May",
-            "Jun",
-            "Jul",
-            "Aug",
-            "Sep",
-            "Oct",
-            "Nov",
-            "Dec",
-            "SOI",
-            "avrain",
-            "NTrain",
-            "northRain",
-            "seRain",
-            "eastRain",
-            "southRain",
-            "swRain"
          ],
          "data" : [
             [

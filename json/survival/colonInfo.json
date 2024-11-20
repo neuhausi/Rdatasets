@@ -1,0 +1,6 @@
+{
+   "usage" : "colon\n       data(cancer, package=\"survival\")",
+   "title" : "Chemotherapy for Stage B/C colon cancer",
+   "description" : "Description\nThese are data from one of the first successful trials of\nadjuvant chemotherapy for colon cancer. Levamisole is a low-toxicity\ncompound previously used to treat worm infestations in animals; 5-FU\nis a moderately toxic (as these things go) chemotherapy agent. There\nare two records per person, one for recurrence and one for death",
+   "format" : "id: id\n\n\n \nstudy: 1 for all patients\n\n\n \nrx: Treatment - Obs(ervation), Lev(amisole), Lev(amisole)+5-FU\n\n\n \nsex:  1=male\n\n\n \nage: in years\n\n\n \nobstruct: obstruction of colon by tumour\n\n\n \nperfor: perforation of colon\n\n\n \nadhere: adherence to nearby organs\n\n\n \nnodes: number of lymph nodes with detectable cancer\n\n\n \ntime: days until event or censoring\n\n\n \nstatus: censoring status\n\n\n \ndiffer: differentiation of tumour (1=well, 2=moderate, 3=poor)\n\n\n \nextent: Extent of local spread (1=submucosa, 2=muscle, 3=serosa,\n4=contiguous structures)\n\n\n \nsurg: time from surgery to registration (0=short, 1=long)\n\n\n \nnode4: more than 4 positive lymph nodes\n\n\n \netype: event type: 1=recurrence,2=death"
+}

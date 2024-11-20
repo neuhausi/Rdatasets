@@ -1,0 +1,6 @@
+{
+   "title" : "Monthly short term (<1 year) visitor arrivals to Australia",
+   "description" : "Description\naus_inbound contains monthly data with one measured variable:\nCount:  Number of individuals arriving in Australia",
+   "usage" : "Time series of class 'tsibble'",
+   "format" : "Each series is uniquely identified using two keys:"
+}

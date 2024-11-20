@@ -1,68 +1,16 @@
 {
-   "config" : {
-      "subtitle" : "mosaicData - SAT",
-      "smpOverlays" : [
-         "state"
-      ],
-      "graphType" : "Heatmap",
-      "title" : "State by State SAT data"
-   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>SAT</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>State by State SAT data</h2>\n<h3>Description</h3>\n<p>SAT data assembled for a statistics education journal article on the\nlink between SAT scores and measures of educational expenditures\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(SAT)\n</code></pre>\n<h3>Format</h3>\n<p>A data frame with 50 observations on the following variables.\n</p>\n<dl>\n<dt><code>state</code></dt><dd><p>a factor with names of each state</p>\n</dd>\n<dt><code>expend</code></dt><dd><p>expenditure per pupil in average daily attendance in\npublic elementary and secondary schools, 1994-95 (in thousands of US dollars)</p>\n</dd>\n<dt><code>ratio</code></dt><dd><p>average pupil/teacher ratio in public elementary and secondary\nschools, Fall 1994</p>\n</dd>\n<dt><code>salary</code></dt><dd><p>estimated average annual salary of teachers in public elementary\nand secondary schools, 1994-95 (in thousands of US dollars)</p>\n</dd>\n<dt><code>frac</code></dt><dd><p>percentage of all eligible students taking the SAT, 1994-95</p>\n</dd>\n<dt><code>verbal</code></dt><dd><p>average verbal SAT score, 1994-95</p>\n</dd>\n<dt><code>math</code></dt><dd><p>average math SAT score, 1994-95</p>\n</dd>\n<dt><code>sat</code></dt><dd><p>average total SAT score, 1994-95</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>http://www.amstat.org/publications/jse/secure/v7n2/datasets.guber.cfm\n</p>\n<h3>References</h3>\n<p>Deborah Lynn Guber, &quot;Getting what you pay for: the debate over equity in\npublic school expenditures&quot; (1999), <em>Journal of Statistics Education</em> 7(2).\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>data(SAT)\nif (require(ggformula)) {\n  gf_point(sat ~ expend, data = SAT, color = \"blue\", alpha = 0.5) |&gt;\n    gf_lm()\n  gf_text(sat ~ expend, data = SAT, label = ~ abbreviate(SAT$state, 3),\n    inherit = FALSE)\n</code></pre>\n</main>\n</div>\n",
    "data" : {
-      "x" : {
-         "state" : [
-            "Alabama",
-            "Alaska",
-            "Arizona",
-            "Arkansas",
-            "California",
-            "Colorado",
-            "Connecticut",
-            "Delaware",
-            "Florida",
-            "Georgia",
-            "Hawaii",
-            "Idaho",
-            "Illinois",
-            "Indiana",
-            "Iowa",
-            "Kansas",
-            "Kentucky",
-            "Louisiana",
-            "Maine",
-            "Maryland",
-            "Massachusetts",
-            "Michigan",
-            "Minnesota",
-            "Mississippi",
-            "Missouri",
-            "Montana",
-            "Nebraska",
-            "Nevada",
-            "New Hampshire",
-            "New Jersey",
-            "New Mexico",
-            "New York",
-            "North Carolina",
-            "North Dakota",
-            "Ohio",
-            "Oklahoma",
-            "Oregon",
-            "Pennsylvania",
-            "Rhode Island",
-            "South Carolina",
-            "South Dakota",
-            "Tennessee",
-            "Texas",
-            "Utah",
-            "Vermont",
-            "Virginia",
-            "Washington",
-            "West Virginia",
-            "Wisconsin",
-            "Wyoming"
-         ]
-      },
       "y" : {
+         "vars" : [
+            "expend",
+            "ratio",
+            "salary",
+            "frac",
+            "verbal",
+            "math",
+            "sat"
+         ],
          "data" : [
             [
                4.405,
@@ -429,15 +377,6 @@
                1001
             ]
          ],
-         "vars" : [
-            "expend",
-            "ratio",
-            "salary",
-            "frac",
-            "verbal",
-            "math",
-            "sat"
-         ],
          "smps" : [
             "Smp1",
             "Smp2",
@@ -490,7 +429,68 @@
             "Smp49",
             "Smp50"
          ]
+      },
+      "x" : {
+         "state" : [
+            "Alabama",
+            "Alaska",
+            "Arizona",
+            "Arkansas",
+            "California",
+            "Colorado",
+            "Connecticut",
+            "Delaware",
+            "Florida",
+            "Georgia",
+            "Hawaii",
+            "Idaho",
+            "Illinois",
+            "Indiana",
+            "Iowa",
+            "Kansas",
+            "Kentucky",
+            "Louisiana",
+            "Maine",
+            "Maryland",
+            "Massachusetts",
+            "Michigan",
+            "Minnesota",
+            "Mississippi",
+            "Missouri",
+            "Montana",
+            "Nebraska",
+            "Nevada",
+            "New Hampshire",
+            "New Jersey",
+            "New Mexico",
+            "New York",
+            "North Carolina",
+            "North Dakota",
+            "Ohio",
+            "Oklahoma",
+            "Oregon",
+            "Pennsylvania",
+            "Rhode Island",
+            "South Carolina",
+            "South Dakota",
+            "Tennessee",
+            "Texas",
+            "Utah",
+            "Vermont",
+            "Virginia",
+            "Washington",
+            "West Virginia",
+            "Wisconsin",
+            "Wyoming"
+         ]
       }
    },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>SAT</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>State by State SAT data</h2>\n<h3>Description</h3>\n<p>SAT data assembled for a statistics education journal article on the\nlink between SAT scores and measures of educational expenditures\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(SAT)\n</code></pre>\n<h3>Format</h3>\n<p>A data frame with 50 observations on the following variables.\n</p>\n<dl>\n<dt><code>state</code></dt><dd><p>a factor with names of each state</p>\n</dd>\n<dt><code>expend</code></dt><dd><p>expenditure per pupil in average daily attendance in\npublic elementary and secondary schools, 1994-95 (in thousands of US dollars)</p>\n</dd>\n<dt><code>ratio</code></dt><dd><p>average pupil/teacher ratio in public elementary and secondary\nschools, Fall 1994</p>\n</dd>\n<dt><code>salary</code></dt><dd><p>estimated average annual salary of teachers in public elementary\nand secondary schools, 1994-95 (in thousands of US dollars)</p>\n</dd>\n<dt><code>frac</code></dt><dd><p>percentage of all eligible students taking the SAT, 1994-95</p>\n</dd>\n<dt><code>verbal</code></dt><dd><p>average verbal SAT score, 1994-95</p>\n</dd>\n<dt><code>math</code></dt><dd><p>average math SAT score, 1994-95</p>\n</dd>\n<dt><code>sat</code></dt><dd><p>average total SAT score, 1994-95</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>http://www.amstat.org/publications/jse/secure/v7n2/datasets.guber.cfm\n</p>\n<h3>References</h3>\n<p>Deborah Lynn Guber, &quot;Getting what you pay for: the debate over equity in\npublic school expenditures&quot; (1999), <em>Journal of Statistics Education</em> 7(2).\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>data(SAT)\nif (require(ggformula)) {\n  gf_point(sat ~ expend, data = SAT, color = \"blue\", alpha = 0.5) |&gt;\n    gf_lm()\n  gf_text(sat ~ expend, data = SAT, label = ~ abbreviate(SAT$state, 3),\n    inherit = FALSE)\n</code></pre>\n</main>\n</div>\n"
+   "config" : {
+      "subtitle" : "mosaicData - SAT",
+      "title" : "State by State SAT data",
+      "graphType" : "Heatmap",
+      "smpOverlays" : [
+         "state"
+      ]
+   }
 }

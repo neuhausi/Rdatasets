@@ -1,13 +1,13 @@
 var photo_classifyInfo ={
-   "usage" : "photo_classify",
-   "description" : "Description\nThis is a simulated dataset for photo classifications based on a machine\nlearning algorithm versus what the true classification is for those photos.\nWhile the data are not real, they resemble performance that would be\nreasonable to expect in a well-built classifier.",
-   "title" : "Photo classifications: fashion or not",
-   "reference" : "The hypothetical ML algorithm has a precision of 90\\\nphotos it claims are fashion, about 90\\\nThe recall of the ML algorithm is about 64\\\nabout fashion, it correctly predicts that they are about fashion about 64\\\nof the time.",
-   "format" : "A data frame with 1822 observations on the following 2 variables.",
    "parameters" : {
       "truth" : "The actual classification of the photo by a team of humans.",
       "mach_learn" : "The prediction by the machine learning system as to whether the photo is about fashion or not."
-   }
+   },
+   "title" : "Photo classifications: fashion or not",
+   "description" : "Description\nThis is a simulated dataset for photo classifications based on a machine\nlearning algorithm versus what the true classification is for those photos.\nWhile the data are not real, they resemble performance that would be\nreasonable to expect in a well-built classifier.",
+   "reference" : "The hypothetical ML algorithm has a precision of 90\\\nphotos it claims are fashion, about 90\\\nThe recall of the ML algorithm is about 64\\\nabout fashion, it correctly predicts that they are about fashion about 64\\\nof the time.",
+   "usage" : "photo_classify",
+   "format" : "A data frame with 1822 observations on the following 2 variables."
 }
 
 var photo_classify = [

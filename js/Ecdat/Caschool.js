@@ -1,28 +1,28 @@
 var CaschoolInfo ={
-   "parameters" : {
-      "expnstu" : "expenditure per student",
-      "str" : "student teacher ratio",
-      "district" : "district",
-      "elpct" : "percent of English learners",
-      "teachers" : "number of teachers",
-      "computer" : "number of computers",
-      "compstu" : "computer per student",
-      "mealpct" : "percent qualifying for reduced-price lunch",
-      "avginc" : "district average income",
-      "readscr" : "average reading score",
-      "mathscr" : "average math score",
-      "enrltot" : "total enrollment",
-      "calwpct" : "percent qualifying for CalWORKS",
-      "grspan" : "grade span of district",
-      "distcod" : "district code",
-      "testscr" : "average test score \n(read.scr+math.scr)/2",
-      "county" : "county"
-   },
-   "format" : "A dataframe containing :",
-   "title" : "The California Test Score Data Set",
+   "usage" : "data(Caschool)",
    "reference" : "California Department of Education https://www.cde.ca.gov.",
    "description" : "Description\na cross-section from 1998-1999\nnumber of observations :  420\nobservation :  schools\ncountry :  United States",
-   "usage" : "data(Caschool)"
+   "title" : "The California Test Score Data Set",
+   "parameters" : {
+      "elpct" : "percent of English learners",
+      "district" : "district",
+      "teachers" : "number of teachers",
+      "grspan" : "grade span of district",
+      "expnstu" : "expenditure per student",
+      "computer" : "number of computers",
+      "testscr" : "average test score \n(read.scr+math.scr)/2",
+      "enrltot" : "total enrollment",
+      "compstu" : "computer per student",
+      "mealpct" : "percent qualifying for reduced-price lunch",
+      "county" : "county",
+      "str" : "student teacher ratio",
+      "avginc" : "district average income",
+      "mathscr" : "average math score",
+      "distcod" : "district code",
+      "calwpct" : "percent qualifying for CalWORKS",
+      "readscr" : "average reading score"
+   },
+   "format" : "A dataframe containing :"
 }
 
 var Caschool = [

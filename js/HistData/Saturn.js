@@ -1,16 +1,16 @@
 var SaturnInfo ={
-   "description" : "Description\nWith this dataset Laplace (1787) showed that \"noticed defects in the then\nexisting tables of the motions of Jupiter and Saturn\" were, de facto,\ndue to \"a very long, 917-year, periodic inequality in the planets' mean motion,\ndue to their mutual attraction and the coincidence that their times of revolution\nabout the sun are approximately in the ratio 5:2\".",
-   "usage" : "data(Saturn)",
    "parameters" : {
-      "Equation" : "an integer vector, id of the Equation",
       "X2" : "a numeric vector, the rate of change of the eccentricity of\nSaturn's orbit",
-      "X1" : "a numeric vector, the rate of change of the mean annual\nmotion of Saturn",
+      "X3" : "a numeric vector, a variable compound of the rate of change\nof Saturn's aphelion minus rates of change of the mean longitude of Saturn\nin 1750, multiplied by 2 times the mean eccentricity of Saturn",
+      "Equation" : "an integer vector, id of the Equation",
       "Year" : "an integer vector, year of the observations",
       "Y" : "a numeric vector, adjusted measure of the observed longitude\nof Saturn, in minutes",
-      "X3" : "a numeric vector, a variable compound of the rate of change\nof Saturn's aphelion minus rates of change of the mean longitude of Saturn\nin 1750, multiplied by 2 times the mean eccentricity of Saturn"
+      "X1" : "a numeric vector, the rate of change of the mean annual\nmotion of Saturn"
    },
-   "title" : "Laplace's Saturn data.",
    "reference" : "Stigler (1986, pp. 25-39):",
+   "usage" : "data(Saturn)",
+   "description" : "Description\nWith this dataset Laplace (1787) showed that \"noticed defects in the then\nexisting tables of the motions of Jupiter and Saturn\" were, de facto,\ndue to \"a very long, 917-year, periodic inequality in the planets' mean motion,\ndue to their mutual attraction and the coincidence that their times of revolution\nabout the sun are approximately in the ratio 5:2\".",
+   "title" : "Laplace's Saturn data.",
    "format" : "A data frame with 24 observations on the following 6 variables."
 }
 

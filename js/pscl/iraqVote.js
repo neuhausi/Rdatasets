@@ -1,17 +1,17 @@
 var iraqVoteInfo ={
+   "format" : "A data frame with 100 observations on the following 6 variables.",
    "description" : "Description\nOn October 11, 2002, the United States Senate\nvoted 77-23 to authorize the use of military force against Iraq.  This data set lists the &ldquo;Ayes&rdquo; and &ldquo;Nays&rdquo; for each Senator and some covariates.",
+   "title" : "U.S. Senate vote on the use of force against Iraq, 2002.",
+   "reference" : "The only Republican to vote against the resolution was Lincoln\nChafee (Rhode Island); Democrats split 29-22 in favor of the\nresolution.",
    "usage" : "data(iraqVote)",
    "parameters" : {
       "state.abb" : "two letter abbreviation for each state",
-      "y" : "a numeric vector, the recorded vote (1 if Aye, 0 if Nay)",
-      "name" : "senator name, party and state, e.g., AKAKA (D HI)",
-      "rep" : "logical, TRUE for Republican senators",
       "gorevote" : "numeric, the vote share recorded by Al Gore in the corresponding state in the 2000 Presidential election",
-      "state.name" : "name of state"
-   },
-   "title" : "U.S. Senate vote on the use of force against Iraq, 2002.",
-   "format" : "A data frame with 100 observations on the following 6 variables.",
-   "reference" : "The only Republican to vote against the resolution was Lincoln\nChafee (Rhode Island); Democrats split 29-22 in favor of the\nresolution."
+      "state.name" : "name of state",
+      "rep" : "logical, TRUE for Republican senators",
+      "name" : "senator name, party and state, e.g., AKAKA (D HI)",
+      "y" : "a numeric vector, the recorded vote (1 if Aye, 0 if Nay)"
+   }
 }
 
 var iraqVote = [

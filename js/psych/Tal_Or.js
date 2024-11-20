@@ -1,17 +1,17 @@
 var Tal_OrInfo ={
+   "format" : "A data frame with 123 observations on the following 6 variables.",
    "parameters" : {
-      "age" : "a numeric vector",
-      "import" : "Importance of the issue",
+      "pmi" : "Presumed media influence (based upon the mean of two items",
+      "gender" : "1 = male, 2 = female",
       "cond" : "Experimental Condition: 0 low media importance, 1 high media importance",
       "reaction" : "Subjects rated agreement about possible reactions to the story (mean of 4 items).",
-      "pmi" : "Presumed media influence (based upon the mean of two items",
-      "gender" : "1 = male, 2 = female"
+      "import" : "Importance of the issue",
+      "age" : "a numeric vector"
    },
-   "format" : "A data frame with 123 observations on the following 6 variables.",
    "reference" : "Tal-Or et al. (2010) examined the presumed effect of the media in two experimental studies.  These data are from study 2. '... perceptions regarding the influence of a news story about an expected shortage in sugar were manipulated indirectly, by manipulating the perceived exposure to the news story, and behavioral intentions resulting from the story were consequently measured.\" (p 801).",
-   "title" : "Data set testing causal direction in presumed media influence",
+   "usage" : "data(\"Tal.Or\")",
    "description" : "Description\nNurit Tal-Or, Jonanathan Cohen, Yariv Tasfati, and Albert Gunther (2010) examined the presumed effect of media on other people and change in attitudes.  This data set is from Study 2, and examined the effect of presumed influence of the media upon subsequent actions.  It is used as an example of mediation by Hayes (2013) and for the mediate function.",
-   "usage" : "data(\"Tal.Or\")"
+   "title" : "Data set testing causal direction in presumed media influence"
 }
 
 var Tal_Or = [

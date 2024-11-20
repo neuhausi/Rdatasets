@@ -1,13 +1,13 @@
 var DimesInfo ={
-   "description" : "Description\nWeights of a sample of dimes.",
-   "usage" : "data(Dimes)",
    "parameters" : {
       "year" : "year the dime was minted",
       "mass" : "mass of dime in grams"
    },
    "title" : "Weight of dimes",
-   "format" : "A data frame with 30 observations on the following 2 variables.",
-   "reference" : "These data were collected on a sample taken from a large sack of dimes\nfor the purpose of estimating the total number of dimes in the sack based on the\nweights of the individual dimes."
+   "description" : "Description\nWeights of a sample of dimes.",
+   "usage" : "data(Dimes)",
+   "reference" : "These data were collected on a sample taken from a large sack of dimes\nfor the purpose of estimating the total number of dimes in the sack based on the\nweights of the individual dimes.",
+   "format" : "A data frame with 30 observations on the following 2 variables."
 }
 
 var Dimes = [

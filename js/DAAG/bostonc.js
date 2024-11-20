@@ -1,8 +1,8 @@
 var bostoncInfo ={
-   "title" : "Boston Housing Data &ndash; Corrected",
    "format" : "A single vector containing the contents of \"boston_corrected.txt\".",
    "usage" : "bostonc",
-   "description" : "Description\nThe corrected Boston housing data (from http://lib.stat.cmu.edu/datasets/)."
+   "description" : "Description\nThe corrected Boston housing data (from http://lib.stat.cmu.edu/datasets/).",
+   "title" : "Boston Housing Data &ndash; Corrected"
 }
 
 var bostonc = [

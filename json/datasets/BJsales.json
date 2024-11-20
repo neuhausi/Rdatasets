@@ -1,8 +1,8 @@
 {
    "config" : {
+      "title" : "Sales Data with Leading Indicator",
       "subtitle" : "datasets - BJsales",
-      "graphType" : "Scatter2D",
-      "title" : "Sales Data with Leading Indicator"
+      "graphType" : "Scatter2D"
    },
    "data" : {
       "y" : {
@@ -608,6 +608,10 @@
                262.7
             ]
          ],
+         "smps" : [
+            "time",
+            "value"
+         ],
          "vars" : [
             "Var1",
             "Var2",
@@ -759,10 +763,6 @@
             "Var148",
             "Var149",
             "Var150"
-         ],
-         "smps" : [
-            "time",
-            "value"
          ]
       }
    },

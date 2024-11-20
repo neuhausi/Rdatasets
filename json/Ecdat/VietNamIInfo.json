@@ -1,0 +1,21 @@
+{
+   "format" : "A dataframe containing :",
+   "parameters" : {
+      "educ" : "completed diploma level ?",
+      "lnhhexp" : "log of total medical expenditure",
+      "commune" : "commune",
+      "pharvis" : "number of direct pharmacy visits",
+      "actdays" : "number of days of limited activity",
+      "age" : "age of household head",
+      "married" : "married ?",
+      "illness" : "number of of illnesses experiences in past 12 months",
+      "sex" : "gender (male,female)",
+      "insurance" : "respondent has health insurance coverage ?",
+      "injury" : "injured during survey period ?",
+      "illdays" : "number of illness days"
+   },
+   "title" : "Medical Expenses in Vietnam (individual Level)",
+   "description" : "Description\na cross-section from 1997\nnumber of observations :  27765\nobservation :  individuals\ncountry :  Vietnam",
+   "reference" : "Vietnam World Bank Livings Standards Survey.",
+   "usage" : "data(VietNamI)"
+}

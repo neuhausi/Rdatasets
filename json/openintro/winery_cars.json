@@ -273,8 +273,8 @@
       }
    },
    "config" : {
+      "title" : "Time Between Gondola Cars at Sterling Winery",
       "subtitle" : "openintro - winery_cars",
-      "graphType" : "Scatter2D",
-      "title" : "Time Between Gondola Cars at Sterling Winery"
+      "graphType" : "Scatter2D"
    }
 }

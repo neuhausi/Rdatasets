@@ -1,8 +1,8 @@
 var BondYieldInfo ={
-   "description" : "Description\nMonthly averages of the yield on a Moody's Aaa rated corporate bond (in percent/year).",
-   "usage" : "data(\"BondYield\")",
    "format" : "A monthly univariate time series from 1990(1) to 1994(12).",
-   "title" : "Bond Yield Data"
+   "title" : "Bond Yield Data",
+   "description" : "Description\nMonthly averages of the yield on a Moody's Aaa rated corporate bond (in percent/year).",
+   "usage" : "data(\"BondYield\")"
 }
 
 var BondYield = [

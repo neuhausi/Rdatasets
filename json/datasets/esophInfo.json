@@ -1,0 +1,6 @@
+{
+   "description" : "Description\nData from a case-control study of (o)esophageal cancer in\nIlle-et-Vilaine, France.",
+   "title" : "Smoking, Alcohol and (O)esophageal Cancer",
+   "usage" : "esoph",
+   "format" : "A data frame with records for 88 age/alcohol/tobacco combinations."
+}

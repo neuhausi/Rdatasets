@@ -1,16 +1,16 @@
 var ArcaInfo ={
    "format" : "A data frame with 966 observations on the following 6 variables.",
-   "reference" : "These data are taken from investing.com.\nSee: https://www.investing.com/indices/arca-steel-historical-data",
+   "description" : "Description\nDaily data on the NYSE Arca Steel Index. These data are useful for me in\nteaching how Trump's 2018 steel tariffs didn't do much good for the steel industry.",
    "title" : "NYSE Arca Steel Index data, 2017âpresent",
+   "usage" : "Arca",
+   "reference" : "These data are taken from investing.com.\nSee: https://www.investing.com/indices/arca-steel-historical-data",
    "parameters" : {
       "open" : "the opening price",
-      "low" : "the daily low in that day's trading",
-      "date" : "the date",
       "high" : "the daily high in that day's trading",
-      "close" : "the closing price"
-   },
-   "usage" : "Arca",
-   "description" : "Description\nDaily data on the NYSE Arca Steel Index. These data are useful for me in\nteaching how Trump's 2018 steel tariffs didn't do much good for the steel industry."
+      "low" : "the daily low in that day's trading",
+      "close" : "the closing price",
+      "date" : "the date"
+   }
 }
 
 var Arca = [

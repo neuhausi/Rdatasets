@@ -1,12 +1,19 @@
 {
    "config" : {
+      "subtitle" : "Ecdat - coolingFromNuclearWar",
       "scatterPlotMatrix" : 1,
-      "graphType" : "Scatter2D",
       "title" : "Global cooling from a nuclear war",
-      "subtitle" : "Ecdat - coolingFromNuclearWar"
+      "graphType" : "Scatter2D"
    },
    "data" : {
       "y" : {
+         "smps" : [
+            "smoke",
+            "dC3g",
+            "dC10g",
+            "dC3n",
+            "dC10n"
+         ],
          "data" : [
             [
                0,
@@ -36,13 +43,6 @@
                -10,
                -4.2
             ]
-         ],
-         "smps" : [
-            "smoke",
-            "dC3g",
-            "dC10g",
-            "dC3n",
-            "dC10n"
          ],
          "vars" : [
             "Var1",

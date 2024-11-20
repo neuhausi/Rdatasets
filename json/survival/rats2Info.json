@@ -1,0 +1,6 @@
+{
+   "format" : "rat: id\n\n\n \n    trt: treatment,(1=drug, 0=control) \n\n\n \n    observation: within rat\n\n\n \n    start: entry time\n\n\n \n    stop: exit time\n\n\n \n    status: event status, 1=tumor, 0=censored",
+   "description" : "Description\n48 rats were injected with a carcinogen, and then\nrandomized to either drug or placebo.  The number of tumors ranges\nfrom 0 to 13; all rats were  censored at 6 months after randomization.",
+   "title" : "Rat data from Gail et al.",
+   "usage" : "rats2\ndata(cancer, package=\"survival\")"
+}

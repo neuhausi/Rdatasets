@@ -1,15 +1,15 @@
 var SchmidInfo ={
-   "description" : "Description\nJohn Schmid and John M. Leiman (1957) discuss how to transform a hierarchical factor structure to a bifactor structure. Schmid contains the example 12 x 12 correlation matrix. schmid.leiman is a 12 x 12 correlation matrix with communalities on the diagonal. This can be used to show the effect of correcting for attenuation. Two additional data sets are taken from Chen et al. (2006).",
+   "reference" : "John Schmid Jr. and John. M. Leiman (1957), The development of hierarchical factor solutions.Psychometrika, 22, 83-90.",
    "usage" : "data(Schmid)",
-   "parameters" : {
-      "Schmid" : " a 12 x 12 artificial correlation matrix created to show the Schmid-Leiman transformation.",
-      "West" : " A 16 x 16 artificial covariance matrix from Chen et al. (2006).",
-      "Chen" : " An 18 x 18 covariance matrix of health related quality of life items from Chen et al. (2006). Number of observations = 403.  The first item is a measure of the quality of life.  The remaining 17 items form four subfactors",
-      "schmid.leiman" : " A 12 x 12 matrix with communalities on the diagonal.  Treating this as a covariance matrix shows the 6 x 6 factor solution"
-   },
    "title" : "12 variables created by Schmid and Leiman to show the Schmid-Leiman Transformation",
-   "format" : "Two artificial correlation matrices from Schmid and Leiman (1957). One real and one artificial covariance matrices from Chen et al. (2006).",
-   "reference" : "John Schmid Jr. and John. M. Leiman (1957), The development of hierarchical factor solutions.Psychometrika, 22, 83-90."
+   "description" : "Description\nJohn Schmid and John M. Leiman (1957) discuss how to transform a hierarchical factor structure to a bifactor structure. Schmid contains the example 12 x 12 correlation matrix. schmid.leiman is a 12 x 12 correlation matrix with communalities on the diagonal. This can be used to show the effect of correcting for attenuation. Two additional data sets are taken from Chen et al. (2006).",
+   "parameters" : {
+      "schmid.leiman" : " A 12 x 12 matrix with communalities on the diagonal.  Treating this as a covariance matrix shows the 6 x 6 factor solution",
+      "Chen" : " An 18 x 18 covariance matrix of health related quality of life items from Chen et al. (2006). Number of observations = 403.  The first item is a measure of the quality of life.  The remaining 17 items form four subfactors",
+      "Schmid" : " a 12 x 12 artificial correlation matrix created to show the Schmid-Leiman transformation.",
+      "West" : " A 16 x 16 artificial covariance matrix from Chen et al. (2006)."
+   },
+   "format" : "Two artificial correlation matrices from Schmid and Leiman (1957). One real and one artificial covariance matrices from Chen et al. (2006)."
 }
 
 var Schmid = [

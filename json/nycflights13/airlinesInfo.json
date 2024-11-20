@@ -1,0 +1,11 @@
+{
+   "reference" : "https://www.transtats.bts.gov/DL_SelectFields.asp?Table_ID=236",
+   "usage" : "airlines",
+   "title" : "Airline names.",
+   "description" : "Description\nLook up airline names from their carrier codes.",
+   "parameters" : {
+      "name" : "Full name.",
+      "carrier" : "Two letter abbreviation."
+   },
+   "format" : "Data frame with columns"
+}

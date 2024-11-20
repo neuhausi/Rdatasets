@@ -1,0 +1,10 @@
+{
+   "title" : "Lifespan of ball bearings",
+   "description" : "Description\nA simulated dataset on lifespan of ball bearings.",
+   "usage" : "ball_bearing",
+   "reference" : "Simulated data.",
+   "parameters" : {
+      "life_span" : "Lifespan of ball bearings (in hours)."
+   },
+   "format" : "A data frame with 75 observations on the following variable."
+}

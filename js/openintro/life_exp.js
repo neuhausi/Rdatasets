@@ -1,15 +1,15 @@
 var life_expInfo ={
-   "title" : "life_exp",
    "format" : "A data frame with 3142 observations on the following 4 variables.",
-   "reference" : "library(ggplot2)\n\n# Income V Expectancy\nggplot(life_exp, aes(x = income, y = expectancy)) +\n  geom_point(color = openintro::IMSCOL[\"green\", \"full\"], alpha = 0.2) +\n  theme_minimal() +\n  labs(\n    title = \"Is there a relationship between median income and life expectancy?\",\n    x = \"Median income (US $)\",\n    y = \"Life Expectancy (year)\"\n  )",
    "parameters" : {
-      "expectancy" : "Life expectancy in the county.",
-      "county" : "Name of the county.",
       "income" : "Median income in the county, measured in US $.",
-      "state" : "Name of the state."
+      "state" : "Name of the state.",
+      "county" : "Name of the county.",
+      "expectancy" : "Life expectancy in the county."
    },
+   "reference" : "library(ggplot2)\n\n# Income V Expectancy\nggplot(life_exp, aes(x = income, y = expectancy)) +\n  geom_point(color = openintro::IMSCOL[\"green\", \"full\"], alpha = 0.2) +\n  theme_minimal() +\n  labs(\n    title = \"Is there a relationship between median income and life expectancy?\",\n    x = \"Median income (US $)\",\n    y = \"Life Expectancy (year)\"\n  )",
    "usage" : "life_exp",
-   "description" : "Description\nA data frame with 3142 rows and 4 columns. County level data for life expectancy and median income in the United States."
+   "description" : "Description\nA data frame with 3142 rows and 4 columns. County level data for life expectancy and median income in the United States.",
+   "title" : "life_exp"
 }
 
 var life_exp = [

@@ -1,0 +1,21 @@
+{
+   "format" : "This data frame (of class \"groupedData\", specifically\n\"nfnGroupedData\") contains the following columns:",
+   "parameters" : {
+      "Amt:" : "amount of remifentanil given in the current time interval in [Âµg].",
+      "Ht:" : "height of the patient in cm.",
+      "BSA:" : "body surface area (DuBois and DuBois 1916): %\n\tBSA := Wt^{0.425} \\cdot Ht^{0.725} \\cdot 0.007184.",
+      "Subject:" : "an ordered factor with 65 levels (of the\nIDs): 30 < 21 < 25 < 23 <\n29 < ... ... < 36 < 6 < 5 < 10 < 9.",
+      "LBM:" : "lean body mass (James 1976), with slightly different\nformula for\nmen LBM_m := 1.1  Wt - 128 (Wt/Ht)^2, and\nwomen LBM_f := 1.07 Wt - 148 (Wt/Ht)^2.",
+      "Age:" : "age of the patient in years.",
+      "Time:" : "time from beginning of infusion in minutes (numeric).",
+      "Rate:" : "infusion rate in [Âµg / min].",
+      "Sex:" : "gender of the patient, a factor with levels\nFemale and Male.",
+      "Wt:" : "weight of the patient in kg.",
+      "ID:" : "numerical (patient) IDs.",
+      "conc:" : "remifentanil concentration in [ng / ml] (numeric)."
+   },
+   "title" : "Pharmacokinetics of Remifentanil",
+   "description" : "Description\nIntravenous infusion of remifentanil (a strong analgesic) in different\nrates over varying time periods was applied to a total of 65 patients.\nConcentration measurements of remifentanil were taken along with several\ncovariates resulting in the Remifentanil data frame with 2107 rows\nand 12 columns.",
+   "reference" : "of this help page: Niels Hagenbuch and Martin Maechler, SfS ETH Zurich.",
+   "usage" : "data(\"Remifentanil\", package = \"nlme\")"
+}

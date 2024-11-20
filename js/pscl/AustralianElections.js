@@ -1,30 +1,30 @@
 var AustralianElectionsInfo ={
-   "description" : "Description\nAggregate data on the 24 elections to Australia's House of\nRepresentatives, 1949 to 2016.",
-   "usage" : "data(AustralianElections)",
    "parameters" : {
+      "NPSeats" : "numeric, number of seats won by the National\nParty (previously known as the Country Party)",
+      "AP" : "numeric, percent of first preference votes cast for\nAustralia Party candidates",
+      "NP" : "numeric, percent of first preference votes cast for\nNational Party (Country Party) candidates",
+      "LPSeats" : "numeric, number of seats won by the Liberal Party",
+      "Hanson" : "numeric, percent of first preference votes cast\nfor candidates from Pauline Hanson's One Nation party",
+      "Uncontested" : "numeric, number of uncontested seats",
+      "Com" : "numeric, percent of first preference votes cast\nfor Communist Party candidates",
+      "ALP" : "numeric, percentage of first preference votes cast for\nAustralian Labor Party candidates",
+      "LP" : "numeric, percent of first preference votes cast for\nLiberal Party candidates",
+      "ALP2PP" : "numeric, percentage of the two-party preferred\nvote won by Australian Labor Party candidates",
+      "Informal" : "numeric, percent of ballots cast that are\nspoiled, blank, or otherwise uncountable (usually because of\nerrors in enumerating preferences)",
+      "Seats" : "numeric, number of seats in the House of\nRepresentatives",
+      "date" : "date of election, stored using the\nDate class",
+      "DLP" : "numeric, percent of first preference votes cast\nfor Democratic Labor Party candidates",
+      "Dem" : "numeric, percent of first preference votes cast\nfor Australian Democrat candidates",
       "Turnout" : "numeric, percent of enrolled voters recorded\nas having turned out to vote (Australia has compulsory voting)",
       "ALPSeats" : "numeric, number of seats won by the\nAustralian Labor Party",
-      "LP" : "numeric, percent of first preference votes cast for\nLiberal Party candidates",
-      "Hanson" : "numeric, percent of first preference votes cast\nfor candidates from Pauline Hanson's One Nation party",
       "Green" : "numeric, percent of first preference votes cast\nfor Green Party candidates",
-      "Com" : "numeric, percent of first preference votes cast\nfor Communist Party candidates",
-      "LPSeats" : "numeric, number of seats won by the Liberal Party",
-      "DLP" : "numeric, percent of first preference votes cast\nfor Democratic Labor Party candidates",
-      "ALP" : "numeric, percentage of first preference votes cast for\nAustralian Labor Party candidates",
-      "NP" : "numeric, percent of first preference votes cast for\nNational Party (Country Party) candidates",
-      "Seats" : "numeric, number of seats in the House of\nRepresentatives",
-      "Dem" : "numeric, percent of first preference votes cast\nfor Australian Democrat candidates",
-      "OtherSeats" : "numeric, number of seats won by other\nparties and/or independent candidates",
-      "AP" : "numeric, percent of first preference votes cast for\nAustralia Party candidates",
-      "Informal" : "numeric, percent of ballots cast that are\nspoiled, blank, or otherwise uncountable (usually because of\nerrors in enumerating preferences)",
-      "date" : "date of election, stored using the\nDate class",
-      "ALP2PP" : "numeric, percentage of the two-party preferred\nvote won by Australian Labor Party candidates",
-      "NPSeats" : "numeric, number of seats won by the National\nParty (previously known as the Country Party)",
-      "Uncontested" : "numeric, number of uncontested seats"
+      "OtherSeats" : "numeric, number of seats won by other\nparties and/or independent candidates"
    },
    "reference" : "The Liberal National Party of Queensland formed in 2008 after a merger of the Liberal Party and the National Party. In all elections following 2008, they have been categorised under LP.",
-   "format" : "A data frame with the following variables:",
-   "title" : "elections to Australian House of\nRepresentatives, 1949-2016"
+   "usage" : "data(AustralianElections)",
+   "title" : "elections to Australian House of\nRepresentatives, 1949-2016",
+   "description" : "Description\nAggregate data on the 24 elections to Australia's House of\nRepresentatives, 1949 to 2016.",
+   "format" : "A data frame with the following variables:"
 }
 
 var AustralianElections = [

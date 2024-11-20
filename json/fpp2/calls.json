@@ -1,16 +1,18 @@
 {
    "config" : {
+      "colorBy" : "variable",
+      "graphType" : "Boxplot",
+      "subtitle" : "fpp2 - calls",
       "groupingFactors" : [
          null
       ],
-      "subtitle" : "fpp2 - calls",
-      "graphType" : "Boxplot",
-      "title" : "Call volume for a large North American bank",
-      "colorBy" : "variable"
+      "title" : "Call volume for a large North American bank"
    },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>calls</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Call volume for a large North American bank</h2>\n<h3>Description</h3>\n<p>Five-minute call volume handled on weekdays between 7:00am and 9:05pm,\nbeginning 3 March 2003 for 164 days.\n</p>\n<h3>Format</h3>\n<p>Time series object of class <code>msts</code>.\n</p>\n<h3>Source</h3>\n<p>Rob Hyndman\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>\nautoplot(calls, xlab=\"Weeks\")\n</code></pre>\n</main>\n</div>\n",
    "data" : {
       "y" : {
+         "vars" : [
+            "x"
+         ],
          "data" : [
             [
                111,
@@ -55448,10 +55450,8 @@
             "X24.10.2003167",
             "X24.10.2003168",
             "X24.10.2003169"
-         ],
-         "vars" : [
-            "x"
          ]
       }
-   }
+   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>calls</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Call volume for a large North American bank</h2>\n<h3>Description</h3>\n<p>Five-minute call volume handled on weekdays between 7:00am and 9:05pm,\nbeginning 3 March 2003 for 164 days.\n</p>\n<h3>Format</h3>\n<p>Time series object of class <code>msts</code>.\n</p>\n<h3>Source</h3>\n<p>Rob Hyndman\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>\nautoplot(calls, xlab=\"Weeks\")\n</code></pre>\n</main>\n</div>\n"
 }

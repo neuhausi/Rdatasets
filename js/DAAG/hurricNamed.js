@@ -1,23 +1,23 @@
 var hurricNamedInfo ={
-   "description" : "Description\nDetails are given of atmospheric pressure at landfall, estimated\ndamage in millions of dollars, and deaths, for named hurricanes\nthat made landfall in the US mainland from 1950 through to 2012.",
-   "usage" : "data(\"hurricNamed\")",
    "parameters" : {
-      "LF.WindsMPH" : "Maximum sustained windspeed (>= 1 minute) to occur along\nthe US coast. Prior to 1980, this is estimated from the maximum\nwindspeed associated with the Saffir-Simpson index at landfall.\nIf 2 or more landfalls, the maximum is taken",
-      "BaseDam2014" : "Property damage (millions of 2014 US dollars)",
-      "Name" : "Hurricane name",
       "NDAM2014" : "Damage, had hurricane appeared in 2014",
       "LF.PressureMB" : "Atmospheric pressure at landfall in\nmillibars. If 2 or more landfalls, the minimum is taken",
-      "AffectedStates" : "Affected states (2-digit\nabbreviations), pasted together",
-      "Year" : "Numeric",
-      "firstLF" : "Date of first landfall",
+      "Name" : "Hurricane name",
       "mf" : "Gender of name; a factor with levels f m",
-      "deaths" : "Number of continental US direct and indirect deaths",
+      "AffectedStates" : "Affected states (2-digit\nabbreviations), pasted together",
+      "BaseDam2014" : "Property damage (millions of 2014 US dollars)",
+      "LF.WindsMPH" : "Maximum sustained windspeed (>= 1 minute) to occur along\nthe US coast. Prior to 1980, this is estimated from the maximum\nwindspeed associated with the Saffir-Simpson index at landfall.\nIf 2 or more landfalls, the maximum is taken",
+      "Year" : "Numeric",
+      "LF.times" : "Date of first landfall",
       "BaseDamage" : "Property damage (in millions of dollars for that year)",
-      "LF.times" : "Date of first landfall"
+      "deaths" : "Number of continental US direct and indirect deaths",
+      "firstLF" : "Date of first landfall"
    },
-   "format" : "A data frame with 94 observations on the following 11 variables.",
+   "description" : "Description\nDetails are given of atmospheric pressure at landfall, estimated\ndamage in millions of dollars, and deaths, for named hurricanes\nthat made landfall in the US mainland from 1950 through to 2012.",
+   "title" : "Named US Atlantic Hurricanes",
+   "usage" : "data(\"hurricNamed\")",
    "reference" : "An earlier version of these data was the subject of a controversial\npaper that claimed to have found that hurricanes with female names,\npresumably because taken less seriously, did more human damage after\nadjusting for the severity of the storm than those with male names.",
-   "title" : "Named US Atlantic Hurricanes"
+   "format" : "A data frame with 94 observations on the following 11 variables."
 }
 
 var hurricNamed = [

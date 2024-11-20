@@ -1,0 +1,33 @@
+{
+   "format" : "A dataframe containing :",
+   "reference" : "Thanks to Yungfong \"Frank\" Tang for identifying \nan error in the description of \"density\", \npreviously documented erroneously as only \"people \nper square mile\".",
+   "usage" : "data(Crime)",
+   "description" : "Description\na panel of 90 observations  from 1981  to 1987\nnumber of observations :  630\nobservation :  regional\ncountry :  United States",
+   "title" : "Crime in North Carolina",
+   "parameters" : {
+      "wfed" : "weekly wage of federal employees",
+      "avgsen" : "average sentence, days",
+      "region" : "one of 'other', 'west' or 'central'",
+      "wser" : "weekly wage in service industry",
+      "smsa" : "'yes' or 'no' if in SMSA",
+      "wtuc" : "weekly wage in trns, util, commun",
+      "density" : "hundreds of people per square mile",
+      "prbconv" : "'probability' of conviction",
+      "wfir" : "weekly wage in finance, insurance and real\nestate",
+      "wtrd" : "weekly wage in whole sales and retail trade",
+      "crmrte" : "crimes committed per person",
+      "taxpc" : "tax revenue per capita",
+      "prbpris" : "'probability' of prison sentence",
+      "polpc" : "police per capita",
+      "pctymle" : "percentage of young males",
+      "wmfg" : "weekly wage in manufacturing",
+      "year" : "year from 1981 to 1987",
+      "wsta" : "weekly wage of state employees",
+      "wloc" : "weekly wage of local governments employees",
+      "mix" : "offense mix: face-to-face/other",
+      "wcon" : "weekly wage in construction",
+      "pctmin" : "percentage minority in 1980",
+      "county" : "county identifier",
+      "prbarr" : "'probability' of arrest"
+   }
+}

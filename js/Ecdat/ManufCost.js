@@ -1,20 +1,20 @@
 var ManufCostInfo ={
-   "description" : "Description\nannual observations from 1947 to 1971\nnumber of observations :  25\nobservation :  country\ncountry :  United States",
+   "reference" : "Berndt, E. and D. Wood (1975) &ldquo;Technology, prices and the derived demand for energy&rdquo;, Journal of Economics and Statistics, 57, 376-384.",
    "usage" : "data(ManufCost)",
-   "parameters" : {
-      "cost" : "cost index",
-      "sm" : "materials cost share",
-      "pe" : "energy price",
-      "pm" : "materials price",
-      "se" : "energy cost share",
-      "pk" : "capital price",
-      "sk" : "capital cost share",
-      "pl" : "labor price",
-      "sl" : "labor cost share"
-   },
-   "format" : "A time series containing :",
    "title" : "Manufacturing Costs",
-   "reference" : "Berndt, E. and D. Wood (1975) &ldquo;Technology, prices and the derived demand for energy&rdquo;, Journal of Economics and Statistics, 57, 376-384."
+   "description" : "Description\nannual observations from 1947 to 1971\nnumber of observations :  25\nobservation :  country\ncountry :  United States",
+   "parameters" : {
+      "sk" : "capital cost share",
+      "cost" : "cost index",
+      "pk" : "capital price",
+      "sm" : "materials cost share",
+      "pl" : "labor price",
+      "sl" : "labor cost share",
+      "pm" : "materials price",
+      "pe" : "energy price",
+      "se" : "energy cost share"
+   },
+   "format" : "A time series containing :"
 }
 
 var ManufCost = [

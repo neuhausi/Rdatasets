@@ -1,20 +1,20 @@
 var CigaretteInfo ={
-   "format" : "A dataframe containing :",
    "title" : "The Cigarette Consumption Panel Data Set",
+   "description" : "Description\na panel of 48 observations  from 1985  to 1995\nnumber of observations :  528\nobservation :  regional\ncountry :  United States",
+   "usage" : "data(Cigarette)",
    "reference" : "Professor Jonathan Gruber, MIT.",
    "parameters" : {
-      "year" : "year",
+      "tax" : "average state, federal, and average local excise taxes for fiscal year",
       "cpi" : "consumer price index",
       "avgprs" : "average price during fiscal year, including sales taxes",
-      "taxs" : "average excise taxes for fiscal year, including sales taxes",
-      "pop" : "state population",
-      "income" : "state personal income (total, nominal)",
-      "tax" : "average state, federal, and average local excise taxes for fiscal year",
       "packpc" : "number of packs per capita",
-      "state" : "state"
+      "taxs" : "average excise taxes for fiscal year, including sales taxes",
+      "state" : "state",
+      "pop" : "state population",
+      "year" : "year",
+      "income" : "state personal income (total, nominal)"
    },
-   "usage" : "data(Cigarette)",
-   "description" : "Description\na panel of 48 observations  from 1985  to 1995\nnumber of observations :  528\nobservation :  regional\ncountry :  United States"
+   "format" : "A dataframe containing :"
 }
 
 var Cigarette = [

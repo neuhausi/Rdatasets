@@ -1,24 +1,24 @@
 var OsloInfo ={
-   "title" : "Oslo Transect Subset Data",
-   "reference" : "The OsloTransect contains 360 observations, with 9\nobservations per site. Only 7 chemical elements were retained from the 25\ncontained in the OsloTransect data, and these were all\nlog-transformed, following Todorov and Filzmoser (2009).",
-   "usage" : "A data frame with 332 observations on the following 14 variables.",
-   "description" : "Description\nThe Oslo data set contains chemical concentrations of 332 samples of\ndifferent plant species collected along a 120 km transect running through\nthe city of Oslo, Norway. It is a subset of the\nOsloTransect data provided by the rrcov package.",
    "parameters" : {
-      "YC" : "Y coordinate, a numeric vector",
-      "site" : "transect site ID, a factor with levels\n102 103 104 105 106 107 108\n109 111 112 113 114 115 116\n117 118 119 121 122 123 124\n125 126 127 128 129 131 132\n133 134 135 136 138 139 141\n142 143 144",
-      "XC" : "X coordinate, a numeric vector",
-      "Cu" : "Copper, a numeric vector",
-      "forest" : "forest type, a factor with levels birspr\nmixdec pine sprbir sprpin spruce",
-      "litho" : "lithological\ntype, a factor with levels camsed (Cambro-Silurian sedimentary),\ngneis_o (Precambrian gneisses - Oslo), gneis_r (- Randsfjord),\nmagm (Magmatic rocks)",
-      "Mg" : "Magnesium, a numeric vector",
-      "Mn" : "Manganese, a numeric vector",
       "Zn" : "Zinc, a numeric vector",
+      "forest" : "forest type, a factor with levels birspr\nmixdec pine sprbir sprpin spruce",
+      "site" : "transect site ID, a factor with levels\n102 103 104 105 106 107 108\n109 111 112 113 114 115 116\n117 118 119 121 122 123 124\n125 126 127 128 129 131 132\n133 134 135 136 138 139 141\n142 143 144",
       "P" : "Lead, a numeric vector",
       "Fe" : "Iron, a numeric vector",
-      "K" : "Potassium, a numeric vector",
+      "weather" : "weather type, a factor with levels cloud\nmoist nice rain",
       "altitude" : "altitude, a numeric vector",
-      "weather" : "weather type, a factor with levels cloud\nmoist nice rain"
-   }
+      "Mg" : "Magnesium, a numeric vector",
+      "Mn" : "Manganese, a numeric vector",
+      "K" : "Potassium, a numeric vector",
+      "YC" : "Y coordinate, a numeric vector",
+      "XC" : "X coordinate, a numeric vector",
+      "Cu" : "Copper, a numeric vector",
+      "litho" : "lithological\ntype, a factor with levels camsed (Cambro-Silurian sedimentary),\ngneis_o (Precambrian gneisses - Oslo), gneis_r (- Randsfjord),\nmagm (Magmatic rocks)"
+   },
+   "description" : "Description\nThe Oslo data set contains chemical concentrations of 332 samples of\ndifferent plant species collected along a 120 km transect running through\nthe city of Oslo, Norway. It is a subset of the\nOsloTransect data provided by the rrcov package.",
+   "title" : "Oslo Transect Subset Data",
+   "reference" : "The OsloTransect contains 360 observations, with 9\nobservations per site. Only 7 chemical elements were retained from the 25\ncontained in the OsloTransect data, and these were all\nlog-transformed, following Todorov and Filzmoser (2009).",
+   "usage" : "A data frame with 332 observations on the following 14 variables."
 }
 
 var Oslo = [

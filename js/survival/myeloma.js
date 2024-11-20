@@ -1,16 +1,16 @@
 var myelomaInfo ={
-   "description" : "Description\nSurvival times of 3882 subjects with multiple myeloma, seen at Mayo\nClinic from 1947&ndash;1996.",
-   "usage" : "myeloma\ndata(\"cancer\", package=\"survival\")",
    "parameters" : {
+      "year" : "year of entry into the study",
       "id" : "subject identifier",
-      "death" : "status at last follow-up: 0 = alive, 1 = death",
       "entry" : "time from diagnosis of MM until entry (days)",
-      "futime" : "follow up time (days)",
-      "year" : "year of entry into the study"
+      "death" : "status at last follow-up: 0 = alive, 1 = death",
+      "futime" : "follow up time (days)"
    },
-   "format" : "A data frame with 3882 observations on the following 5 variables.",
+   "description" : "Description\nSurvival times of 3882 subjects with multiple myeloma, seen at Mayo\nClinic from 1947&ndash;1996.",
+   "title" : "Survival times of patients with multiple myeloma",
    "reference" : "Subjects who were diagnosed at Mayo will have entry =0, those who\nwere diagnosed elsewhere and later referred will have positive values.",
-   "title" : "Survival times of patients with multiple myeloma"
+   "usage" : "myeloma\ndata(\"cancer\", package=\"survival\")",
+   "format" : "A data frame with 3882 observations on the following 5 variables."
 }
 
 var myeloma = [

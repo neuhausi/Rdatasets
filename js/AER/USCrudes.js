@@ -1,14 +1,14 @@
 var USCrudesInfo ={
+   "reference" : "The data is from Baltagi (2002).",
+   "usage" : "data(\"USCrudes\")",
+   "description" : "Description\nCross-section data originating from 99 US oil field postings.",
+   "title" : "US Crudes Data",
    "parameters" : {
-      "gravity" : "Gravity (degree API).",
       "sulphur" : "Sulphur (in %).",
+      "gravity" : "Gravity (degree API).",
       "price" : "Crude prices (USD/barrel)."
    },
-   "title" : "US Crudes Data",
-   "format" : "A data frame containing 99 observations on 3 variables.",
-   "reference" : "The data is from Baltagi (2002).",
-   "description" : "Description\nCross-section data originating from 99 US oil field postings.",
-   "usage" : "data(\"USCrudes\")"
+   "format" : "A data frame containing 99 observations on 3 variables."
 }
 
 var USCrudes = [

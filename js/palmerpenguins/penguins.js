@@ -1,19 +1,19 @@
 var penguinsInfo ={
-   "description" : "Description\nIncludes measurements for penguin species, island in Palmer Archipelago,\nsize (flipper length, body mass, bill dimensions), and sex.\nThis is a subset of penguins_raw.",
-   "usage" : "penguins",
+   "format" : "A tibble with 344 rows and 8 variables:",
    "parameters" : {
       "body_mass_g" : "an integer denoting body mass (grams)",
+      "bill_length_mm" : "a number denoting bill length (millimeters)",
       "flipper_length_mm" : "an integer denoting flipper length (millimeters)",
-      "island" : "a factor denoting island in Palmer Archipelago, Antarctica (Biscoe, Dream or Torgersen)",
+      "sex" : "a factor denoting penguin sex (female, male)",
+      "bill_depth_mm" : "a number denoting bill depth (millimeters)",
       "species" : "a factor denoting penguin species (AdÃ©lie, Chinstrap and Gentoo)",
       "year" : "an integer denoting the study year (2007, 2008, or 2009)",
-      "bill_depth_mm" : "a number denoting bill depth (millimeters)",
-      "bill_length_mm" : "a number denoting bill length (millimeters)",
-      "sex" : "a factor denoting penguin sex (female, male)"
+      "island" : "a factor denoting island in Palmer Archipelago, Antarctica (Biscoe, Dream or Torgersen)"
    },
-   "title" : "Size measurements for adult foraging penguins near Palmer Station, Antarctica",
+   "usage" : "penguins",
    "reference" : "AdÃ©lie penguins: Palmer Station Antarctica LTER and K. Gorman. 2020. Structural size measurements and isotopic signatures of foraging among adult male and female AdÃ©lie penguins (Pygoscelis adeliae) nesting along the Palmer Archipelago near Palmer Station, 2007-2009 ver 5. Environmental Data Initiative. doi: 10.6073/pasta/98b16d7d563f265cb52372c8ca99e60f",
-   "format" : "A tibble with 344 rows and 8 variables:"
+   "title" : "Size measurements for adult foraging penguins near Palmer Station, Antarctica",
+   "description" : "Description\nIncludes measurements for penguin species, island in Palmer Archipelago,\nsize (flipper length, body mass, bill dimensions), and sex.\nThis is a subset of penguins_raw."
 }
 
 var penguins = [

@@ -1,7 +1,7 @@
 var GoldenrodInfo ={
-   "description" : "Description\nMeasurements for a sample of goldenrod galls",
+   "usage" : "A data frame with 1055 observations on the following 9 variables.",
    "title" : "Goldenrod Galls",
-   "usage" : "A data frame with 1055 observations on the following 9 variables."
+   "description" : "Description\nMeasurements for a sample of goldenrod galls"
 }
 
 var Goldenrod = [

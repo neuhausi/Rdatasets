@@ -1,8 +1,8 @@
 var EuStockMarketsInfo ={
    "description" : "Description\nContains the daily closing prices of major European stock indices:\nGermany DAX (Ibis), Switzerland SMI, France CAC,\nand UK FTSE.\nThe data are sampled in business time, i.e., weekends and holidays are\nomitted.",
+   "title" : "Daily Closing Prices of Major European Stock Indices, 1991&ndash;1998",
    "usage" : "EuStockMarkets",
-   "format" : "A multivariate time series with 1860 observations on 4 variables.\nThe object is of class \"mts\".",
-   "title" : "Daily Closing Prices of Major European Stock Indices, 1991&ndash;1998"
+   "format" : "A multivariate time series with 1860 observations on 4 variables.\nThe object is of class \"mts\"."
 }
 
 var EuStockMarkets = [

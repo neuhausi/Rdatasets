@@ -1,8 +1,8 @@
 var parabolicInfo ={
    "description" : "Description\nParabolic class boundary data",
-   "format" : "parabolic\n\na data frame",
    "title" : "Parabolic class boundary data",
-   "usage" : "These data were simulated. There are two correlated predictors and\ntwo classes in the factor outcome."
+   "usage" : "These data were simulated. There are two correlated predictors and\ntwo classes in the factor outcome.",
+   "format" : "parabolic\n\na data frame"
 }
 
 var parabolic = [

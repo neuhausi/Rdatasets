@@ -1,0 +1,12 @@
+{
+   "title" : "US Macroeconomic Data (1959&ndash;1995, Baltagi)",
+   "description" : "Description\nTime series data on 3 US macroeconomic variables for 1959&ndash;1995,\nextracted from the Citibank data base.",
+   "usage" : "data(\"USMacroB\")",
+   "reference" : "The data is from Baltagi (2002).",
+   "parameters" : {
+      "tbill" : "Average of 3 month treasury-bill rate (per annum).",
+      "mbase" : "Average of the seasonally adjusted monetary base.",
+      "gnp" : "Gross national product."
+   },
+   "format" : "A quarterly multiple time series from 1959(1) to 1995(2) with 3 variables."
+}

@@ -1,16 +1,16 @@
 var FaithfulFacesInfo ={
-   "reference" : "College students were asked to look at a photograph of an opposite-sex adult face and to rate the person, on a scale from 1 (low) to 10 (high), for attractiveness. They were also asked to rate trustworthiness, faithfulness, and sexual dimorphism (i.e., how masculine a male face is and how feminine a female face is). Overall, 68 students (34 males and 34 females) rated 170 faces (88 men and 82 women).",
    "title" : "Faithfulness from a Photo?",
-   "usage" : "A data frame with 170 observations on the following 7 variables.",
    "description" : "Description\nRatings from a facial photo and actual faithfulness.",
+   "reference" : "College students were asked to look at a photograph of an opposite-sex adult face and to rate the person, on a scale from 1 (low) to 10 (high), for attractiveness. They were also asked to rate trustworthiness, faithfulness, and sexual dimorphism (i.e., how masculine a male face is and how feminine a female face is). Overall, 68 students (34 males and 34 females) rated 170 faces (88 men and 82 women).",
+   "usage" : "A data frame with 170 observations on the following 7 variables.",
    "parameters" : {
-      "Faithful" : "Rating of faithfulness",
       "Cheater" : "Was the face subject unfaithful to a partner? (1=yes or 0=no)",
-      "SexDimorph" : "Rating of sexual dimorphism (masculinity for males, femininity for females)",
-      "RaterSex" : "Sex of rater (F=female or M=male)",
       "Attract" : "Rating of attractiveness",
-      "Trust" : "Rating of trustworthiness",
-      "FaceSex" : "Sex of face (F=female or M=male)"
+      "FaceSex" : "Sex of face (F=female or M=male)",
+      "RaterSex" : "Sex of rater (F=female or M=male)",
+      "SexDimorph" : "Rating of sexual dimorphism (masculinity for males, femininity for females)",
+      "Faithful" : "Rating of faithfulness",
+      "Trust" : "Rating of trustworthiness"
    }
 }
 

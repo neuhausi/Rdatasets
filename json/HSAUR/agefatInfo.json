@@ -1,0 +1,12 @@
+{
+   "parameters" : {
+      "sex" : "a factor with levels female and male.",
+      "fat" : "the body fat percentage.",
+      "age" : "the age of the subject."
+   },
+   "usage" : "data(\"agefat\")",
+   "reference" : "The data come from a study investigating a new methods of measuring body \ncomposition (see Mazess et al, 1984), and give the body fat percentage \n(percent fat), age and sex for 25 normal adults aged between 23 and 61 years.  \nThe questions of interest are how are age and percent fat related, and is \nthere any evidence that the relationship is different for males and females.",
+   "description" : "Description\nAge and body fat percentage of 25 normal adults.",
+   "title" : "Total Body Composision Data",
+   "format" : "A data frame with 25 observations on the following 3 variables."
+}

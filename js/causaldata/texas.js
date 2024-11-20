@@ -1,23 +1,23 @@
 var texasInfo ={
-   "usage" : "texas",
-   "description" : "Description\nThis data looks at the massive expansion in prison capacity in Texas that occurred in 1993 under Governor Ann Richards, and the effect of that expansion on the number of Black men in prison.",
    "format" : "A data frame with 816 rows and 12 variables",
-   "title" : "Data on prison capacity expansion in Texas",
-   "reference" : "This data is used in the Synthetic Control chapter of Causal Inference: The Mixtape by Cunningham.",
    "parameters" : {
-      "income" : "Median income",
-      "state" : "State name",
-      "aidscapita" : "AIDS mortality per 100,000 in t",
-      "perc1519" : "Percentage of the population that is age 15-19",
-      "poverty" : "Poverty rate",
-      "ur" : "Unemployment rate",
-      "wmprison" : "Number of White men in prison",
-      "bmprison" : "Number of Black men in prison",
-      "statefip" : "State FIPS code",
-      "year" : "Year",
       "alcohol" : "Alcohol consumption per capita",
-      "black" : "Percentage of the population that is Black"
-   }
+      "statefip" : "State FIPS code",
+      "black" : "Percentage of the population that is Black",
+      "year" : "Year",
+      "ur" : "Unemployment rate",
+      "perc1519" : "Percentage of the population that is age 15-19",
+      "aidscapita" : "AIDS mortality per 100,000 in t",
+      "wmprison" : "Number of White men in prison",
+      "state" : "State name",
+      "poverty" : "Poverty rate",
+      "income" : "Median income",
+      "bmprison" : "Number of Black men in prison"
+   },
+   "title" : "Data on prison capacity expansion in Texas",
+   "description" : "Description\nThis data looks at the massive expansion in prison capacity in Texas that occurred in 1993 under Governor Ann Richards, and the effect of that expansion on the number of Black men in prison.",
+   "usage" : "texas",
+   "reference" : "This data is used in the Synthetic Control chapter of Causal Inference: The Mixtape by Cunningham."
 }
 
 var texas = [

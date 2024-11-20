@@ -1,23 +1,23 @@
 var cpuInfo ={
+   "description" : "Description\nData on computer processors released between 2010 and 2020.",
    "title" : "CPU's Released between 2010 and 2020.",
    "reference" : "TechPowerUp CPU Database.",
-   "format" : "A data frame with 875 rows and 12 variables.",
-   "parameters" : {
-      "company" : "Manufacturer of the CPU.",
-      "name" : "Model name of the processor.",
-      "boost_clock" : "Single-core max speed for the CPU in GHz.",
-      "process" : "Size of the process node used in production in nm.",
-      "codename" : "Name given by manufacturer to all chips with this architecture.",
-      "l3_cache" : "Size of the level 3 cache on the processor in MB.",
-      "released" : "Date which the processor was released to the public.",
-      "cores" : "Number of compute cores per processor.",
-      "socket" : "Specifies the type of connection to the motherboard.",
-      "threads" : "The number of threads represents the number of simultaneous calculations that can be ongoing in the processor.",
-      "base_clock" : "Base speed for the CPU in GHz.",
-      "tdp" : "Total draw power of the processor."
-   },
    "usage" : "cpu",
-   "description" : "Description\nData on computer processors released between 2010 and 2020."
+   "parameters" : {
+      "process" : "Size of the process node used in production in nm.",
+      "boost_clock" : "Single-core max speed for the CPU in GHz.",
+      "socket" : "Specifies the type of connection to the motherboard.",
+      "name" : "Model name of the processor.",
+      "released" : "Date which the processor was released to the public.",
+      "tdp" : "Total draw power of the processor.",
+      "cores" : "Number of compute cores per processor.",
+      "base_clock" : "Base speed for the CPU in GHz.",
+      "l3_cache" : "Size of the level 3 cache on the processor in MB.",
+      "threads" : "The number of threads represents the number of simultaneous calculations that can be ongoing in the processor.",
+      "company" : "Manufacturer of the CPU.",
+      "codename" : "Name given by manufacturer to all chips with this architecture."
+   },
+   "format" : "A data frame with 875 rows and 12 variables."
 }
 
 var cpu = [

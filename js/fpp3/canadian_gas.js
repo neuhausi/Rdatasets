@@ -1,8 +1,8 @@
 var canadian_gasInfo ={
-   "usage" : "Monthly time series of class 'tsibble'.",
    "format" : "Hyndman, R.J., Koehler, A.B., Ord, J.K., and Snyder, R.D., (2008)\nForecasting with exponential smoothing: the state space approach,\nSpringer.",
    "title" : "Monthly Canadian gas production",
-   "description" : "Description\nMonthly Canadian gas production, billions of cubic metres, January 1960 -\nFebruary 2005"
+   "description" : "Description\nMonthly Canadian gas production, billions of cubic metres, January 1960 -\nFebruary 2005",
+   "usage" : "Monthly time series of class 'tsibble'."
 }
 
 var canadian_gas = [

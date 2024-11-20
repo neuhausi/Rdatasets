@@ -1,27 +1,27 @@
 var OODTPTInfo ={
    "title" : "Data for \"Optimal Obfuscation: Democracy and Trade Policy Transparency\"",
-   "format" : "A data frame with 75 observations on the following 16 variables.",
+   "description" : "Description\nA data set for replicating an argument about the relationship between democracy\nand tariffs/non-tariff trade barriers.",
    "reference" : "Data downloaded Joshua Alley's Github repository on simple cross-sectional\nOLS models. These were originally two separate Stata files that I merged into one.\nPlease read the Kono (2006) article for more information.",
+   "usage" : "OODTPT",
    "parameters" : {
       "country" : "a character vector for the country",
-      "qualcov" : "the quality non-tariff barrier coverate ratio",
-      "dimpgdp" : "the change in the import/GDP ratio over the past three years",
-      "corecov" : "the core non-tariff barrier coverage ratio",
-      "gatt" : "a dummy variable for GATT membership",
-      "growth" : "GDP per capita growth rate",
-      "isocode" : "a character vector for the three-character ISO code of the country",
-      "lngdppc" : "real GDP per capita in 1995 dollars",
-      "polity" : "the familiar Polity measure of democracy, from -10 to 10",
-      "avgtar" : "the country's average most favored nation tariff rate",
-      "reer" : "real effective exchange rate",
       "iec" : "the index of electoral competitiveness from the World Bank",
       "tariff" : "the mean statutory most favored nation tariff rate",
-      "lnexpgdp" : "export dependence (i.e. export/GDP ratio)",
       "lngdp" : "real GDP in 1995 dollars",
-      "lngovcons" : "the log of country's government consumption spending as a percentage of GDP"
+      "lnexpgdp" : "export dependence (i.e. export/GDP ratio)",
+      "polity" : "the familiar Polity measure of democracy, from -10 to 10",
+      "growth" : "GDP per capita growth rate",
+      "reer" : "real effective exchange rate",
+      "dimpgdp" : "the change in the import/GDP ratio over the past three years",
+      "avgtar" : "the country's average most favored nation tariff rate",
+      "qualcov" : "the quality non-tariff barrier coverate ratio",
+      "gatt" : "a dummy variable for GATT membership",
+      "lngovcons" : "the log of country's government consumption spending as a percentage of GDP",
+      "isocode" : "a character vector for the three-character ISO code of the country",
+      "corecov" : "the core non-tariff barrier coverage ratio",
+      "lngdppc" : "real GDP per capita in 1995 dollars"
    },
-   "usage" : "OODTPT",
-   "description" : "Description\nA data set for replicating an argument about the relationship between democracy\nand tariffs/non-tariff trade barriers."
+   "format" : "A data frame with 75 observations on the following 16 variables."
 }
 
 var OODTPT = [

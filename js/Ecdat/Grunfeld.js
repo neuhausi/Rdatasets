@@ -1,16 +1,16 @@
 var GrunfeldInfo ={
-   "parameters" : {
-      "capital" : "stock of plant and equipment",
-      "inv" : "gross Investment",
-      "year" : "date",
-      "firm" : "observation",
-      "value" : "value of the firm"
-   },
-   "title" : "Grunfeld Investment Data",
    "format" : "A dataframe containing :",
    "reference" : "There are several versions of these data.",
+   "usage" : "data(Grunfeld)",
+   "title" : "Grunfeld Investment Data",
    "description" : "Description\na panel of 20 annual observations from \n1935 to 1954 on each of 10 firms.\nnumber of observations :  200\nobservation :  production units\ncountry :  United States",
-   "usage" : "data(Grunfeld)"
+   "parameters" : {
+      "inv" : "gross Investment",
+      "value" : "value of the firm",
+      "firm" : "observation",
+      "capital" : "stock of plant and equipment",
+      "year" : "date"
+   }
 }
 
 var Grunfeld = [

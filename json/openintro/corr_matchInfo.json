@@ -1,0 +1,18 @@
+{
+   "parameters" : {
+      "y8" : "a numeric vector",
+      "y4" : "a numeric vector",
+      "y3" : "a numeric vector",
+      "y2" : "a numeric vector",
+      "y7" : "a numeric vector",
+      "y6" : "a numeric vector",
+      "x" : "a numeric vector",
+      "y1" : "a numeric vector",
+      "y5" : "a numeric vector"
+   },
+   "title" : "Sample datasets for correlation problems",
+   "description" : "Description\nSimulated data.",
+   "reference" : "Simulated dataset.",
+   "usage" : "corr_match",
+   "format" : "A data frame with 121 observations on the following 9 variables."
+}

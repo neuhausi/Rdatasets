@@ -1,0 +1,15 @@
+{
+   "format" : "A data frame with 310,388 observations on the following 6 variables.",
+   "parameters" : {
+      "e143" : "an attitude about immigration policy in the World Values Survey",
+      "country" : "the country name",
+      "s002" : "the World Values Survey wave",
+      "s003" : "the World Values Survey country code",
+      "uid" : "a unique identifier for the survey respondent",
+      "s020" : "the survey year"
+   },
+   "reference" : "1 = \"let anyone come\". 2 = \"as long as jobs are available\". 3 = \"strict limits\".\n4 = \"Prohibit people from coming\" for the e143 variable. See ?wvs_ccodes for\nmore information about naming/identifying countries.",
+   "usage" : "wvs_immig",
+   "title" : "Attitudes about Immigration in the World Values Survey",
+   "description" : "Description\nA data set on attitudes about immigration for all observations in\nthe third to sixth wave of the World Values Survey. I use these\ndata for in-class illustration."
+}

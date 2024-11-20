@@ -1,56 +1,7 @@
 {
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>lizard_run</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Lizard speeds</h2>\n<h3>Description</h3>\n<p>Data on top speeds measured on a laboratory race track for two species\nof lizards: Western fence lizard (Sceloporus occidentalis) and\nSagebrush lizard (Sceloporus graciosus).\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>lizard_run\n</code></pre>\n<h3>Format</h3>\n<p>A data frame with 48 observations on the following 3 variables.\n</p>\n<dl>\n<dt>top_speed</dt><dd><p>Top speed of lizard, meters per second.</p>\n</dd>\n<dt>common_name</dt><dd><p>Common name: <code style=\"white-space: pre;\">&#8288;Western fence lizard&#8288;</code> and <code style=\"white-space: pre;\">&#8288;Sagebrush lizard&#8288;</code>.</p>\n</dd>\n<dt>scientific_name</dt><dd><p>Scientific name (Genus and species): <code style=\"white-space: pre;\">&#8288;Sceloporus occidentalis&#8288;</code> and <code style=\"white-space: pre;\">&#8288;Sceloporus graciosus&#8288;</code>.</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>Adolph, S. C. 1987.  Physiological and behavioral ecology of the lizards\nSceloporus occidentalis and Sceloporus graciosus. Dissertation.\nUniversity of Washington, Seattle, Washington, USA.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>library(ggplot2)\nlibrary(dplyr)\n# Top speed by species\nggplot(lizard_run, aes(x = top_speed, color = common_name, fill = common_name)) +\n  geom_density(alpha = 0.5)\n# Top speed summary statistics by species\nlizard_run |&gt;\n  group_by(common_name) |&gt;\n  summarise(\n    n    = n(),\n    mean = mean(top_speed),\n    sd   = sd(top_speed)\n</code></pre>\n</main>\n</div>\n",
    "data" : {
       "x" : {
-         "scientific_name" : [
-            "Sceloporus occidentalis",
-            "Sceloporus occidentalis",
-            "Sceloporus occidentalis",
-            "Sceloporus occidentalis",
-            "Sceloporus occidentalis",
-            "Sceloporus occidentalis",
-            "Sceloporus occidentalis",
-            "Sceloporus occidentalis",
-            "Sceloporus occidentalis",
-            "Sceloporus occidentalis",
-            "Sceloporus occidentalis",
-            "Sceloporus occidentalis",
-            "Sceloporus occidentalis",
-            "Sceloporus occidentalis",
-            "Sceloporus occidentalis",
-            "Sceloporus occidentalis",
-            "Sceloporus occidentalis",
-            "Sceloporus occidentalis",
-            "Sceloporus occidentalis",
-            "Sceloporus occidentalis",
-            "Sceloporus occidentalis",
-            "Sceloporus occidentalis",
-            "Sceloporus graciosus",
-            "Sceloporus graciosus",
-            "Sceloporus graciosus",
-            "Sceloporus graciosus",
-            "Sceloporus graciosus",
-            "Sceloporus graciosus",
-            "Sceloporus graciosus",
-            "Sceloporus graciosus",
-            "Sceloporus graciosus",
-            "Sceloporus graciosus",
-            "Sceloporus graciosus",
-            "Sceloporus graciosus",
-            "Sceloporus graciosus",
-            "Sceloporus graciosus",
-            "Sceloporus graciosus",
-            "Sceloporus graciosus",
-            "Sceloporus graciosus",
-            "Sceloporus graciosus",
-            "Sceloporus graciosus",
-            "Sceloporus graciosus",
-            "Sceloporus graciosus",
-            "Sceloporus graciosus",
-            "Sceloporus graciosus",
-            "Sceloporus graciosus",
-            "Sceloporus graciosus",
-            "Sceloporus graciosus"
-         ],
          "common_name" : [
             "Western fence lizard",
             "Western fence lizard",
@@ -100,9 +51,62 @@
             "Sagebrush lizard",
             "Sagebrush lizard",
             "Sagebrush lizard"
+         ],
+         "scientific_name" : [
+            "Sceloporus occidentalis",
+            "Sceloporus occidentalis",
+            "Sceloporus occidentalis",
+            "Sceloporus occidentalis",
+            "Sceloporus occidentalis",
+            "Sceloporus occidentalis",
+            "Sceloporus occidentalis",
+            "Sceloporus occidentalis",
+            "Sceloporus occidentalis",
+            "Sceloporus occidentalis",
+            "Sceloporus occidentalis",
+            "Sceloporus occidentalis",
+            "Sceloporus occidentalis",
+            "Sceloporus occidentalis",
+            "Sceloporus occidentalis",
+            "Sceloporus occidentalis",
+            "Sceloporus occidentalis",
+            "Sceloporus occidentalis",
+            "Sceloporus occidentalis",
+            "Sceloporus occidentalis",
+            "Sceloporus occidentalis",
+            "Sceloporus occidentalis",
+            "Sceloporus graciosus",
+            "Sceloporus graciosus",
+            "Sceloporus graciosus",
+            "Sceloporus graciosus",
+            "Sceloporus graciosus",
+            "Sceloporus graciosus",
+            "Sceloporus graciosus",
+            "Sceloporus graciosus",
+            "Sceloporus graciosus",
+            "Sceloporus graciosus",
+            "Sceloporus graciosus",
+            "Sceloporus graciosus",
+            "Sceloporus graciosus",
+            "Sceloporus graciosus",
+            "Sceloporus graciosus",
+            "Sceloporus graciosus",
+            "Sceloporus graciosus",
+            "Sceloporus graciosus",
+            "Sceloporus graciosus",
+            "Sceloporus graciosus",
+            "Sceloporus graciosus",
+            "Sceloporus graciosus",
+            "Sceloporus graciosus",
+            "Sceloporus graciosus",
+            "Sceloporus graciosus",
+            "Sceloporus graciosus"
          ]
       },
       "y" : {
+         "vars" : [
+            "top_speed"
+         ],
          "data" : [
             [
                1.52,
@@ -154,9 +158,6 @@
                1.28,
                1.08
             ]
-         ],
-         "vars" : [
-            "top_speed"
          ],
          "smps" : [
             "Smp1",
@@ -210,17 +211,16 @@
          ]
       }
    },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>lizard_run</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Lizard speeds</h2>\n<h3>Description</h3>\n<p>Data on top speeds measured on a laboratory race track for two species\nof lizards: Western fence lizard (Sceloporus occidentalis) and\nSagebrush lizard (Sceloporus graciosus).\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>lizard_run\n</code></pre>\n<h3>Format</h3>\n<p>A data frame with 48 observations on the following 3 variables.\n</p>\n<dl>\n<dt>top_speed</dt><dd><p>Top speed of lizard, meters per second.</p>\n</dd>\n<dt>common_name</dt><dd><p>Common name: <code style=\"white-space: pre;\">&#8288;Western fence lizard&#8288;</code> and <code style=\"white-space: pre;\">&#8288;Sagebrush lizard&#8288;</code>.</p>\n</dd>\n<dt>scientific_name</dt><dd><p>Scientific name (Genus and species): <code style=\"white-space: pre;\">&#8288;Sceloporus occidentalis&#8288;</code> and <code style=\"white-space: pre;\">&#8288;Sceloporus graciosus&#8288;</code>.</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>Adolph, S. C. 1987.  Physiological and behavioral ecology of the lizards\nSceloporus occidentalis and Sceloporus graciosus. Dissertation.\nUniversity of Washington, Seattle, Washington, USA.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>library(ggplot2)\nlibrary(dplyr)\n# Top speed by species\nggplot(lizard_run, aes(x = top_speed, color = common_name, fill = common_name)) +\n  geom_density(alpha = 0.5)\n# Top speed summary statistics by species\nlizard_run |&gt;\n  group_by(common_name) |&gt;\n  summarise(\n    n    = n(),\n    mean = mean(top_speed),\n    sd   = sd(top_speed)\n</code></pre>\n</main>\n</div>\n",
    "config" : {
+      "title" : "Lizard speeds",
       "groupingFactors" : [
-         "scientific_name"
-      ],
-      "graphType" : "Boxplot",
-      "colorBy" : "variable",
-      "segregateSamplesBy" : [
          "common_name"
       ],
       "subtitle" : "openintro - lizard_run",
-      "title" : "Lizard speeds"
+      "colorBy" : "variable",
+      "graphType" : "Boxplot",
+      "segregateSamplesBy" : [
+         "scientific_name"
+      ]
    }
 }

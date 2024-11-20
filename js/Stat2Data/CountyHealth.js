@@ -1,14 +1,14 @@
 var CountyHealthInfo ={
-   "description" : "Description\nMedical facilities and doctors in a sample of counties.",
    "parameters" : {
-      "Hospitals" : "Number of community hospitals",
       "MDs" : "Number of medical doctors",
       "County" : "County name, state",
+      "Hospitals" : "Number of community hospitals",
       "Beds" : "Number of beds in the hospitals"
    },
    "usage" : "A data frame with 53 observations on the following 4 variables.",
    "reference" : "Data compiled from information provided by the American Medical Association on the availability of health care in counties in the United States. A random sample of 53 counties  was chosen from among counties with at least two community hospitals.",
-   "title" : "County Health Resources"
+   "title" : "County Health Resources",
+   "description" : "Description\nMedical facilities and doctors in a sample of counties."
 }
 
 var CountyHealth = [

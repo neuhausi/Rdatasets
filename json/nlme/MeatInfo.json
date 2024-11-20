@@ -1,0 +1,12 @@
+{
+   "parameters" : {
+      "score" : "a numeric vector giving the tenderness score of beef roast.",
+      "Storage" : "an ordered factor specifying the storage treatment - 1 (0\ndays), 2 (1 day),  3 (2 days), 4 (4 days), 5 (9 days), and 6\n(18 days)",
+      "Pair" : "an ordered factor giving the unique identifier for each pair\nof beef roasts with levels II-1 < ... < IV-1",
+      "Block" : "an ordered factor identifying the muscle from which the\nroast was extracted with levels \nII < V < I < III < IV"
+   },
+   "usage" : "This data frame contains the following columns:",
+   "reference" : "Cochran and Cox (section 11.51, 1957) describe data from an\nexperiment conducted at Iowa State College (Paul, 1943) to\ncompare the effects of length of cold storage on the tenderness of\nbeef roasts.  Six storage periods ranging from 0 to 18 days were used.\nThirty roasts were scored by four judges on a scale from 0 to 10, with\nthe score increasing with tenderness. The response was the sum of all\nfour scores. Left and right roasts from the same animal were grouped\ninto pairs, which were further grouped into five blocks, according to\nthe muscle from which they were extracted. Different storage periods\nwere applied to each roast within a pair according to a balanced\nincomplete block design.",
+   "title" : "Tenderness of meat",
+   "description" : "Description\nThe Meat data frame has 30 rows and 4 columns."
+}

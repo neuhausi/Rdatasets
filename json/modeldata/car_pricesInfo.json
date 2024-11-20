@@ -1,0 +1,6 @@
+{
+   "format" : "Kuiper, S. (2008). Introduction to Multiple Regression: How Much Is Your Car Worth?,\nJournal of Statistics Education, Vol. 16\nhttp://jse.amstat.org/jse_archive.htm#2008.",
+   "description" : "Description\nKuiper (2008) collected data on Kelly Blue Book resale data for 804 GM cars (2005 model year).",
+   "title" : "Kelly Blue Book resale data for 2005 model year GM cars",
+   "usage" : "car_prices\n\ndata frame of the suggested retail price (column Price) and various\ncharacteristics of each car (columns Mileage, Cylinder, Doors, Cruise,\nSound, Leather, Buick, Cadillac, Chevy, Pontiac, Saab,\nSaturn, convertible, coupe, hatchback, sedan and wagon)"
+}

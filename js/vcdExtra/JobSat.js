@@ -1,8 +1,8 @@
 var JobSatInfo ={
+   "title" : "Cross-classification of job satisfaction by income",
    "description" : "Description\nThis data set is a contingency table of job satisfaction by income for a small sample\nof black males from the 1996 General Social Survey, as used by Agresti (2002) for\nan example.",
    "usage" : "data(JobSat)",
-   "format" : "A 4 x 4 contingency table of income by satisfaction, with the following structure:",
-   "title" : "Cross-classification of job satisfaction by income"
+   "format" : "A 4 x 4 contingency table of income by satisfaction, with the following structure:"
 }
 
 var JobSat = [

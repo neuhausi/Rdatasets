@@ -1,19 +1,19 @@
 var sentiment_countsInfo ={
+   "format" : "An object of class \"data.frame\".",
    "parameters" : {
-      "text. Tweet." : null,
-      "created_at. Data and time tweet was tweeted." : null,
+      "favorite_count. Number of times tweet had been favored at time dataset was created." : null,
       "is_retweet. A logical telling us if it is a retweet or not." : null,
       "id_str. Tweet ID." : null,
+      "retweet_count. How many times tweet had been retweeted at time dataset was created." : null,
+      "created_at. Data and time tweet was tweeted." : null,
       "source. Device or service used to compose tweet." : null,
-      "in_reply_to_user_id_str. If a reply, the user id of person being replied to." : null,
-      "favorite_count. Number of times tweet had been favored at time dataset was created." : null,
-      "retweet_count. How many times tweet had been retweeted at time dataset was created." : null
+      "text. Tweet." : null,
+      "in_reply_to_user_id_str. If a reply, the user id of person being replied to." : null
    },
+   "usage" : "trump_tweets",
    "reference" : "The Trump Twitter Archive: https://www.thetrumparchive.com/",
    "title" : "Trump Tweets from2009 to 2017",
-   "format" : "An object of class \"data.frame\".",
-   "description" : "Description\nThis dataset contains all tweets from Donald Trump's Twitter account from 2009 to 2017. Additionally, the results of a sentiment analysis, conducted on tweets from the campaign period (2015-06-17 to 2016-11-08), are included in sentiment_counts.",
-   "usage" : "trump_tweets"
+   "description" : "Description\nThis dataset contains all tweets from Donald Trump's Twitter account from 2009 to 2017. Additionally, the results of a sentiment analysis, conducted on tweets from the campaign period (2015-06-17 to 2016-11-08), are included in sentiment_counts."
 }
 
 var sentiment_counts = [

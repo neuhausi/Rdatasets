@@ -129,10 +129,10 @@
    },
    "config" : {
       "subtitle" : "psych - Holzinger.9",
+      "title" : "Seven data sets showing a bifactor solution.",
+      "graphType" : "Stacked",
       "smpOverlays" : [
          null
-      ],
-      "graphType" : "Stacked",
-      "title" : "Seven data sets showing a bifactor solution."
+      ]
    }
 }

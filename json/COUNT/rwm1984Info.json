@@ -1,0 +1,24 @@
+{
+   "reference" : "rwm1984 is saved as a data frame.\nCount models typically use docvis as response variable. 0 counts are included",
+   "usage" : "data(rwm1984)",
+   "title" : "rwm1984",
+   "description" : "Description\nGerman health registry for the year 1984.",
+   "parameters" : {
+      "married" : "married=1; 0=not married",
+      "hhninc" : "household yearly income in marks (in Marks)",
+      "age" : "age: 25-64",
+      "docvis" : "number of visits to doctor during year (0-121)",
+      "educ" : "years of formal education (7-18)",
+      "hospvis" : "number of days in hospital during year (0-51)",
+      "edlevel3" : "(1/0) university/college",
+      "edlevel" : "educational level (categorical: 1-4)",
+      "edlevel1" : "(1/0) not high school graduate",
+      "self" : "self-employed=1; not self employed=0",
+      "edlevel4" : "(1/0) graduate school",
+      "edlevel2" : "(1/0) high school graduate",
+      "outwork" : "out of work=1; 0=working",
+      "female" : "female=1; 0=male",
+      "kids" : "have children=1; no children=0"
+   },
+   "format" : "A data frame with 3,874 observations on the following 17 variables."
+}

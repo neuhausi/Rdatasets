@@ -1,23 +1,23 @@
 var mifemInfo ={
-   "title" : "WHO Monica Data",
    "format" : "Columns are:",
-   "reference" : "Newcastle (Australia) centre of the Monica\nproject; see the web site http://www.ktl.fi/monica",
    "parameters" : {
+      "highbp" : "high blood pressure, a factor with levels\ny, n, nk not known",
+      "angina" : "a factor with levels y,\nn, nk not known",
+      "sex" : "m = male, f = female",
+      "stroke" : "a factor with levels\ny, n, nk not known",
+      "yronset" : "year of onset",
+      "outcome" : "mortality outcome, a factor with levels live, \ndead",
+      "hosp" : "y = hospitalized, n = not hospitalized",
       "premi" : "previous myocardial infarction event, a \nfactor with levels y, n, nk not known",
       "smstat" : "smoking status, a factor with levels c \ncurrent, x ex-smoker, n non-smoker, nk not known",
-      "age" : "age at onset",
-      "stroke" : "a factor with levels\ny, n, nk not known",
-      "diabetes" : "a factor with levels y, n, nk not \nknown",
       "hichol" : "high cholesterol, a factor with levels\ny, n nk not known",
-      "sex" : "m = male, f = female",
-      "outcome" : "mortality outcome, a factor with levels live, \ndead",
-      "angina" : "a factor with levels y,\nn, nk not known",
-      "highbp" : "high blood pressure, a factor with levels\ny, n, nk not known",
-      "yronset" : "year of onset",
-      "hosp" : "y = hospitalized, n = not hospitalized"
+      "diabetes" : "a factor with levels y, n, nk not \nknown",
+      "age" : "age at onset"
    },
+   "reference" : "Newcastle (Australia) centre of the Monica\nproject; see the web site http://www.ktl.fi/monica",
    "usage" : "data(monica)\n  data(mifem)",
-   "description" : "Description\nThe monica data frame has 6357 rows and 12 columns. The\ndataset mifem (1295 rows) is the subset that has data\nfor females."
+   "description" : "Description\nThe monica data frame has 6357 rows and 12 columns. The\ndataset mifem (1295 rows) is the subset that has data\nfor females.",
+   "title" : "WHO Monica Data"
 }
 
 var mifem = [

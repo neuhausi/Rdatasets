@@ -1,27 +1,27 @@
 var UScrimeInfo ={
+   "format" : "This data frame contains the following columns:",
    "parameters" : {
-      "Ineq" : "income inequality.",
-      "Time" : "average time served in state prisons.",
       "NW" : "number of non-whites per 1000 people.",
+      "M.F" : "number of males per 1000 females.",
+      "Prob" : "probability of imprisonment.",
+      "Time" : "average time served in state prisons.",
+      "Pop" : "state population.",
+      "Ineq" : "income inequality.",
+      "Ed" : "mean years of schooling.",
+      "So" : "indicator variable for a Southern state.",
       "LF" : "labour force participation rate.",
       "y" : "rate of crimes in a particular category per head of population.",
-      "M" : "percentage of males aged 14&ndash;24.",
       "GDP" : "gross domestic product per head.",
-      "So" : "indicator variable for a Southern state.",
-      "U2" : "unemployment rate of urban males 35&ndash;39.",
       "Po2" : "police expenditure in 1959.",
-      "Po1" : "police expenditure in 1960.",
-      "Pop" : "state population.",
-      "M.F" : "number of males per 1000 females.",
       "U1" : "unemployment rate of urban males 14&ndash;24.",
-      "Ed" : "mean years of schooling.",
-      "Prob" : "probability of imprisonment."
+      "Po1" : "police expenditure in 1960.",
+      "U2" : "unemployment rate of urban males 35&ndash;39.",
+      "M" : "percentage of males aged 14&ndash;24."
    },
-   "title" : "The Effect of Punishment Regimes on Crime Rates",
-   "reference" : "Ehrlich, I. (1973) Participation in illegitimate activities: a\ntheoretical and empirical investigation.\nJournal of Political Economy, 81, 521&ndash;565.",
-   "format" : "This data frame contains the following columns:",
    "description" : "Description\nCriminologists are interested in the effect of punishment regimes on\ncrime rates.  This has been studied using aggregate data on 47 states\nof the USA for 1960 given in this data frame.  The variables seem to\nhave been re-scaled to convenient numbers.",
-   "usage" : "UScrime"
+   "title" : "The Effect of Punishment Regimes on Crime Rates",
+   "usage" : "UScrime",
+   "reference" : "Ehrlich, I. (1973) Participation in illegitimate activities: a\ntheoretical and empirical investigation.\nJournal of Political Economy, 81, 521&ndash;565."
 }
 
 var UScrime = [

@@ -1,13 +1,13 @@
 var aulatlongInfo ={
+   "reference" : "Map of Australia showing latitude and longitude information.",
    "usage" : "aulatlong",
    "description" : "Description\nLatitudes and longitudes for\nAdelaide, Alice, Brisbane, Broome, Cairns, Canberra, \nDarwin, Melbourne, Perth and Sydney; i.e., for the cities to which the\nroad distances in audists relate.",
    "title" : "Latitudes and longitudes for ten Australian cities",
-   "reference" : "Map of Australia showing latitude and longitude information.",
-   "format" : "A data frame with 10 observations on the following 2 variables.",
    "parameters" : {
       "longitude" : "Latitude, as a decimal number",
       "latitude" : "Latitude, as a decimal number"
-   }
+   },
+   "format" : "A data frame with 10 observations on the following 2 variables."
 }
 
 var aulatlong = [

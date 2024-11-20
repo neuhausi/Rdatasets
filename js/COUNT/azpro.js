@@ -1,17 +1,17 @@
 var azproInfo ={
-   "parameters" : {
-      "admit" : "1=Urgent/Emerg; 0=elective (type of admission)",
-      "sex" : "1=Male; 0=female",
-      "los" : "length of hospital stay",
-      "hospital" : "encrypted facility code (string)",
-      "procedure" : "1=CABG;0=PTCA",
-      "age75" : "1= Age>75; 0=Age<=75"
-   },
-   "title" : "azpro",
    "format" : "A data frame with 3589 observations on the following 6 variables.",
+   "parameters" : {
+      "sex" : "1=Male; 0=female",
+      "procedure" : "1=CABG;0=PTCA",
+      "hospital" : "encrypted facility code (string)",
+      "admit" : "1=Urgent/Emerg; 0=elective (type of admission)",
+      "age75" : "1= Age>75; 0=Age<=75",
+      "los" : "length of hospital stay"
+   },
    "reference" : "azpro is saved as a data frame.\nCount models use los as response variable. 0 counts are structurally excluded",
-   "description" : "Description\nData come from the 1991 Arizona cardiovascular patient files. A subset of the \nfields was selected to model the differential length of stay for patients entering \nthe hospital to receive one of two standard cardiovascular procedures: CABG and PTCA. \nCABG is the standard acronym for Coronary Artery Bypass Graft, where the flow of \nblood in a diseased or blocked coronary artery or vein has been grafted to bypass \nthe diseased sections. PTCA, or Percutaneous Transluminal Coronary Angioplasty, is \na method of placing a balloon in a blocked coronary artery to open it to blood flow. \nIt is a much less severe method of treatment for those having coronary blockage, with \na corresponding reduction in risk.",
-   "usage" : "data(azpro)"
+   "usage" : "data(azpro)",
+   "title" : "azpro",
+   "description" : "Description\nData come from the 1991 Arizona cardiovascular patient files. A subset of the \nfields was selected to model the differential length of stay for patients entering \nthe hospital to receive one of two standard cardiovascular procedures: CABG and PTCA. \nCABG is the standard acronym for Coronary Artery Bypass Graft, where the flow of \nblood in a diseased or blocked coronary artery or vein has been grafted to bypass \nthe diseased sections. PTCA, or Percutaneous Transluminal Coronary Angioplasty, is \na method of placing a balloon in a blocked coronary artery to open it to blood flow. \nIt is a much less severe method of treatment for those having coronary blockage, with \na corresponding reduction in risk."
 }
 
 var azpro = [

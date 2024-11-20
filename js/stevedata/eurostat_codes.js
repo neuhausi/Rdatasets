@@ -1,14 +1,14 @@
 var eurostat_codesInfo ={
-   "description" : "Description\nA data set taken from Eurostat's glossary on codes and country classifications.",
+   "format" : "A data frame on the following 3 variables.",
    "usage" : "eurostat_codes",
+   "reference" : "The ISO two-character code for Kosovo is not \"XK\". XK is a \"user assigned\"\nISO 3166 code that is not used by the International Organization for\nStandardization, but is nevertheless in wide use by entities like the European\nCommission. To the best of my knowledge, Kosovo's official ISO classification\nis still what it was when it was a subdivision of Serbia/Yugoslavia.",
+   "title" : "Eurostat Country Codes",
+   "description" : "Description\nA data set taken from Eurostat's glossary on codes and country classifications.",
    "parameters" : {
       "country" : "an English country/territorial unit name",
       "iso2c" : "a two-character code for the country/territorial unit",
       "cat" : "a category indicator for the country/territorial unit. See Details section for more."
-   },
-   "title" : "Eurostat Country Codes",
-   "format" : "A data frame on the following 3 variables.",
-   "reference" : "The ISO two-character code for Kosovo is not \"XK\". XK is a \"user assigned\"\nISO 3166 code that is not used by the International Organization for\nStandardization, but is nevertheless in wide use by entities like the European\nCommission. To the best of my knowledge, Kosovo's official ISO classification\nis still what it was when it was a subdivision of Serbia/Yugoslavia."
+   }
 }
 
 var eurostat_codes = [

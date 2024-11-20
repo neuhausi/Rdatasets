@@ -1,4 +1,5 @@
 {
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>uspop2</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Projected US Population</h2>\n<h3>Description</h3>\n<p>US population by age and sex, for 2000 through 2020</p>\n<h3>Format</h3>\n<p>The data is a matrix with dimensions age, sex, and calendar year.\nAge goes from 0 through 100, where the value for age 100 is the total\nfor all ages of 100 or greater.\n</p>\n<h3>Details</h3>\n<p> This data is often used as a &quot;standardized&quot; population for\nepidemiology studies.</p>\n<h3>Source</h3>\n<p>NP2008_D1:  Projected Population by Single Year of Age, Sex, Race, and Hispanic \nOrigin for the United States: July 1, 2000 to July 1, 2050,\nwww.census.gov/population/projections.\n</p>\n<h3>See Also</h3>\n<p><code>uspop</code></p>\n<h3>Examples</h3>\n<pre><code class='language-R'>us50 &lt;- uspop2[51:101,, \"2000\"]  #US 2000 population, 50 and over\nage &lt;- as.integer(dimnames(us50)[[1]])\nsmat &lt;- model.matrix( ~ factor(floor(age/5)) -1)\nustot &lt;- t(smat) %*% us50  #totals by 5 year age groups\ntemp &lt;- c(50,55, 60, 65, 70, 75, 80, 85, 90, 95)\ndimnames(ustot) &lt;- list(c(paste(temp, temp+4, sep=\"-\"), \"100+\"),\n                         c(\"male\", \"female\"))\n</code></pre>\n</main>\n</div>\n",
    "data" : {
       "y" : {
          "smps" : [
@@ -103,50 +104,6 @@
             "98",
             "99",
             "100"
-         ],
-         "vars" : [
-            "male.2000",
-            "female.2000",
-            "male.2001",
-            "female.2001",
-            "male.2002",
-            "female.2002",
-            "male.2003",
-            "female.2003",
-            "male.2004",
-            "female.2004",
-            "male.2005",
-            "female.2005",
-            "male.2006",
-            "female.2006",
-            "male.2007",
-            "female.2007",
-            "male.2008",
-            "female.2008",
-            "male.2009",
-            "female.2009",
-            "male.2010",
-            "female.2010",
-            "male.2011",
-            "female.2011",
-            "male.2012",
-            "female.2012",
-            "male.2013",
-            "female.2013",
-            "male.2014",
-            "female.2014",
-            "male.2015",
-            "female.2015",
-            "male.2016",
-            "female.2016",
-            "male.2017",
-            "female.2017",
-            "male.2018",
-            "female.2018",
-            "male.2019",
-            "female.2019",
-            "male.2020",
-            "female.2020"
          ],
          "data" : [
             [
@@ -4475,13 +4432,56 @@
                51182,
                105761
             ]
+         ],
+         "vars" : [
+            "male.2000",
+            "female.2000",
+            "male.2001",
+            "female.2001",
+            "male.2002",
+            "female.2002",
+            "male.2003",
+            "female.2003",
+            "male.2004",
+            "female.2004",
+            "male.2005",
+            "female.2005",
+            "male.2006",
+            "female.2006",
+            "male.2007",
+            "female.2007",
+            "male.2008",
+            "female.2008",
+            "male.2009",
+            "female.2009",
+            "male.2010",
+            "female.2010",
+            "male.2011",
+            "female.2011",
+            "male.2012",
+            "female.2012",
+            "male.2013",
+            "female.2013",
+            "male.2014",
+            "female.2014",
+            "male.2015",
+            "female.2015",
+            "male.2016",
+            "female.2016",
+            "male.2017",
+            "female.2017",
+            "male.2018",
+            "female.2018",
+            "male.2019",
+            "female.2019",
+            "male.2020",
+            "female.2020"
          ]
       }
    },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>uspop2</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Projected US Population</h2>\n<h3>Description</h3>\n<p>US population by age and sex, for 2000 through 2020</p>\n<h3>Format</h3>\n<p>The data is a matrix with dimensions age, sex, and calendar year.\nAge goes from 0 through 100, where the value for age 100 is the total\nfor all ages of 100 or greater.\n</p>\n<h3>Details</h3>\n<p> This data is often used as a &quot;standardized&quot; population for\nepidemiology studies.</p>\n<h3>Source</h3>\n<p>NP2008_D1:  Projected Population by Single Year of Age, Sex, Race, and Hispanic \nOrigin for the United States: July 1, 2000 to July 1, 2050,\nwww.census.gov/population/projections.\n</p>\n<h3>See Also</h3>\n<p><code>uspop</code></p>\n<h3>Examples</h3>\n<pre><code class='language-R'>us50 &lt;- uspop2[51:101,, \"2000\"]  #US 2000 population, 50 and over\nage &lt;- as.integer(dimnames(us50)[[1]])\nsmat &lt;- model.matrix( ~ factor(floor(age/5)) -1)\nustot &lt;- t(smat) %*% us50  #totals by 5 year age groups\ntemp &lt;- c(50,55, 60, 65, 70, 75, 80, 85, 90, 95)\ndimnames(ustot) &lt;- list(c(paste(temp, temp+4, sep=\"-\"), \"100+\"),\n                         c(\"male\", \"female\"))\n</code></pre>\n</main>\n</div>\n",
    "config" : {
+      "title" : "Projected US Population",
       "subtitle" : "survival - uspop2",
-      "graphType" : "Heatmap",
-      "title" : "Projected US Population"
+      "graphType" : "Heatmap"
    }
 }

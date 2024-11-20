@@ -1,8 +1,8 @@
 var siemensInfo ={
-   "description" : "Description\nThese data are the daily log returns on Siemens share price \nfrom Tuesday 2nd January 1973 until Tuesday 23rd July 1996.\nThe data are contained in a numeric vector.\nThe dates of each observation are contained in a times\nattribute, which is an object of class \"POSIXct\" (see\nDateTimeClasses).\nNote that these data form an irregular time series because \nno trading takes place at the weekend.",
+   "format" : "A numeric vector containing 6146 observations, with a\ntimes attribute which is a POSIXct object\nof the same length.",
    "usage" : "data(siemens)",
    "title" : "Daily Log Returns on Siemens Share Price",
-   "format" : "A numeric vector containing 6146 observations, with a\ntimes attribute which is a POSIXct object\nof the same length."
+   "description" : "Description\nThese data are the daily log returns on Siemens share price \nfrom Tuesday 2nd January 1973 until Tuesday 23rd July 1996.\nThe data are contained in a numeric vector.\nThe dates of each observation are contained in a times\nattribute, which is an object of class \"POSIXct\" (see\nDateTimeClasses).\nNote that these data form an irregular time series because \nno trading takes place at the weekend."
 }
 
 var siemens = [

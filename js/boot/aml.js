@@ -1,13 +1,13 @@
 var amlInfo ={
-   "usage" : "aml",
-   "description" : "Description\nThe aml data frame has 23 rows and 3 columns.\nA clinical trial to evaluate the efficacy of maintenance chemotherapy for\nacute myelogenous leukaemia was \nconducted by Embury et al. (1977) at Stanford University.  After reaching a\nstage of remission through treatment by chemotherapy, patients were randomized\ninto two groups. The first group received maintenance chemotherapy and the \nsecond group did not.  The aim of the study was to see if maintenance \nchemotherapy increased the length of the remission.  The data here formed a\npreliminary analysis which was conducted in October 1974.",
    "format" : "This data frame contains the following columns:",
-   "title" : "Remission Times for Acute Myelogenous Leukaemia",
    "reference" : "Package survival also has a dataset aml. It is the same\ndata with different names and with group replaced by a factor\nx.",
+   "usage" : "aml",
+   "title" : "Remission Times for Acute Myelogenous Leukaemia",
+   "description" : "Description\nThe aml data frame has 23 rows and 3 columns.\nA clinical trial to evaluate the efficacy of maintenance chemotherapy for\nacute myelogenous leukaemia was \nconducted by Embury et al. (1977) at Stanford University.  After reaching a\nstage of remission through treatment by chemotherapy, patients were randomized\ninto two groups. The first group received maintenance chemotherapy and the \nsecond group did not.  The aim of the study was to see if maintenance \nchemotherapy increased the length of the remission.  The data here formed a\npreliminary analysis which was conducted in October 1974.",
    "parameters" : {
-      "group" : "The group into which the patient was randomized.  Group 1 received\nmaintenance chemotherapy, group 2 did not.",
+      "time" : "The length of the complete remission (in weeks).",
       "cens" : "An indicator of right censoring.  1 indicates that the patient had a relapse\nand so time is the length of the remission. 0 indicates that the patient\nhad left the study or was still in remission in October 1974, that is the\nlength of remission is right-censored.",
-      "time" : "The length of the complete remission (in weeks)."
+      "group" : "The group into which the patient was randomized.  Group 1 received\nmaintenance chemotherapy, group 2 did not."
    }
 }
 

@@ -1,11 +1,15 @@
 {
    "config" : {
       "subtitle" : "DAAG - frostedflakes",
-      "graphType" : "Scatter2D",
-      "title" : "Frosted Flakes data"
+      "title" : "Frosted Flakes data",
+      "graphType" : "Scatter2D"
    },
    "data" : {
       "y" : {
+         "smps" : [
+            "Lab",
+            "IA400"
+         ],
          "data" : [
             [
                36.3,
@@ -407,10 +411,6 @@
                36.8,
                40.6
             ]
-         ],
-         "smps" : [
-            "Lab",
-            "IA400"
          ],
          "vars" : [
             "Var1",

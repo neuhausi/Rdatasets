@@ -1,15 +1,15 @@
 var motorInfo ={
-   "title" : "Data from a Simulated Motorcycle Accident",
    "format" : "This data frame contains the following columns:",
-   "reference" : "The data were obtained from",
    "parameters" : {
-      "strata" : "A numeric column indicating to which of the three strata (numbered 1, 2 and 3)\nthe observations belong.",
       "times" : "The time in milliseconds since impact.",
       "accel" : "The recorded head acceleration (in g).",
+      "strata" : "A numeric column indicating to which of the three strata (numbered 1, 2 and 3)\nthe observations belong.",
       "v" : "An estimate of the residual variance for the observation.  v is constant\nwithin the strata but a different\nestimate is used for each of the three strata."
    },
+   "reference" : "The data were obtained from",
    "usage" : "motor",
-   "description" : "Description\nThe motor data frame has 94 rows and 4 columns.  The rows are\nobtained by removing replicate values of time from the dataset \nmcycle.  Two extra columns are added to allow for strata with\na different residual variance in each stratum."
+   "description" : "Description\nThe motor data frame has 94 rows and 4 columns.  The rows are\nobtained by removing replicate values of time from the dataset \nmcycle.  Two extra columns are added to allow for strata with\na different residual variance in each stratum.",
+   "title" : "Data from a Simulated Motorcycle Accident"
 }
 
 var motor = [

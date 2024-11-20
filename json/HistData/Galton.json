@@ -1,7 +1,16 @@
 {
+   "config" : {
+      "graphType" : "Scatter2D",
+      "title" : "Galton's data on the heights of parents and their children",
+      "subtitle" : "HistData - Galton"
+   },
    "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>Galton</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>\nGalton's data on the heights of parents and their children\n</h2>\n<h3>Description</h3>\n<p>Galton (1886) presented these data in a table, showing a cross-tabulation of\n928 adult children born to 205 fathers and mothers, by their height and\ntheir mid-parent's height.\nHe visually smoothed the bivariate frequency distribution and showed that the\ncontours formed concentric and similar ellipses, thus setting the stage for\ncorrelation, regression and the bivariate normal distribution.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(Galton)</code></pre>\n<h3>Format</h3>\n<p>A data frame with 928 observations on the following 2 variables.\n</p>\n<dl>\n<dt><code>parent</code></dt><dd><p>a numeric vector: height of the mid-parent (average of father and mother)</p>\n</dd>\n<dt><code>child</code></dt><dd><p>a numeric vector: height of the child</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>The data are recorded in class intervals of width 1.0 in. He used non-integer\nvalues for the center of each class interval because of the strong bias toward\nintegral inches.\n</p>\n<p>All of the heights of female children were multiplied by 1.08  before tabulation\nto compensate for sex differences.  See Hanley (2004) for a reanalysis of\nGalton's raw data questioning whether this was appropriate.\n</p>\n<h3>Source</h3>\n<p>Galton, F. (1886). Regression Towards Mediocrity in Hereditary Stature\n<em>Journal of the Anthropological Institute</em>, 15, 246-263\n</p>\n<h3>References</h3>\n<p>Friendly, M. &amp; Denis, D. (2005). The early origins and development of the scatterplot. \n<em>Journal of the History of the Behavioral Sciences</em>, \n41, 103-130.\n</p>\n<p>Galton, F. (1869). <em>Hereditary Genius: An Inquiry into its Laws and Consequences</em>.\nLondon: Macmillan.\n</p>\n<p>Hanley, J. A. (2004). &quot;Transmuting&quot; Women into Men: Galton's Family Data on Human Stature.\n<em>The American Statistician</em>, 58, 237-243.\nSee: <a href=\"http://www.medicine.mcgill.ca/epidemiology/hanley/galton/\">http://www.medicine.mcgill.ca/epidemiology/hanley/galton/</a> for source materials.\n</p>\n<p>Stigler, S. M. (1986). \n<em>The History of Statistics: The Measurement of Uncertainty before 1900</em>.\nCambridge, MA: Harvard University Press, Table 8.1\n</p>\n<p>Wachsmuth, A. W., Wilkinson L., Dallal G. E. (2003). \nGalton's bend: A previously undiscovered nonlinearity in Galton's family stature regression data. \n<em>The American Statistician</em>, 57, 190-192. \n<a href=\"https://www.cs.uic.edu/~wilkinson/Publications/galton.pdf\">https://www.cs.uic.edu/~wilkinson/Publications/galton.pdf</a>\n</p>\n<h3>See Also</h3>\n<p><code>link{GaltonFamilies}</code>,\n<code>PearsonLee</code>,\n<code>galton</code> in the <span class=\"pkg\">psych</span> \n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>\ndata(Galton)\n# sunflower plot with regression line and data ellipses and lowess smooth\nwith(Galton, \n\tsunflowerplot(parent,child, xlim=c(62,74), ylim=c(62,74))\n\treg &lt;- lm(child ~ parent)\n\tabline(reg)\n\tlines(lowess(parent, child), col=\"blue\", lwd=2)\n\tif(require(car)) {\n\tdataEllipse(parent,child, xlim=c(62,74), ylim=c(62,74), plot.points=FALSE)\n</code></pre>\n</main>\n</div>\n",
    "data" : {
       "y" : {
+         "smps" : [
+            "parent",
+            "child"
+         ],
          "data" : [
             [
                70.5,
@@ -3716,10 +3725,6 @@
                73.7
             ]
          ],
-         "smps" : [
-            "parent",
-            "child"
-         ],
          "vars" : [
             "Var1",
             "Var2",
@@ -4651,10 +4656,5 @@
             "Var928"
          ]
       }
-   },
-   "config" : {
-      "title" : "Galton's data on the heights of parents and their children",
-      "graphType" : "Scatter2D",
-      "subtitle" : "HistData - Galton"
    }
 }

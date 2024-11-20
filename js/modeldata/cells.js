@@ -1,6 +1,6 @@
 var cellsInfo ={
-   "description" : "Description\nHill, LaPan, Li and Haney (2007) develop models to predict which cells in a\nhigh content screen were well segmented.  The data consists of 119 imaging\nmeasurements on 2019. The original analysis used 1009 for training and 1010\nas a test set (see the column called case).",
    "usage" : "The outcome class is contained in a factor variable called class with\nlevels \"PS\" for poorly segmented and \"WS\" for well segmented.",
+   "description" : "Description\nHill, LaPan, Li and Haney (2007) develop models to predict which cells in a\nhigh content screen were well segmented.  The data consists of 119 imaging\nmeasurements on 2019. The original analysis used 1009 for training and 1010\nas a test set (see the column called case).",
    "title" : "Cell body segmentation"
 }
 

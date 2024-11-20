@@ -47,38 +47,6 @@
             "dwinrec",
             "dpriv"
          ],
-         "smps" : [
-            "Smp1",
-            "Smp2",
-            "Smp3",
-            "Smp4",
-            "Smp5",
-            "Smp6",
-            "Smp7",
-            "Smp8",
-            "Smp9",
-            "Smp10",
-            "Smp11",
-            "Smp12",
-            "Smp13",
-            "Smp14",
-            "Smp15",
-            "Smp16",
-            "Smp17",
-            "Smp18",
-            "Smp19",
-            "Smp20",
-            "Smp21",
-            "Smp22",
-            "Smp23",
-            "Smp24",
-            "Smp25",
-            "Smp26",
-            "Smp27",
-            "Smp28",
-            "Smp29",
-            "Smp30"
-         ],
          "data" : [
             [
                10,
@@ -368,15 +336,47 @@
                1,
                -1
             ]
+         ],
+         "smps" : [
+            "Smp1",
+            "Smp2",
+            "Smp3",
+            "Smp4",
+            "Smp5",
+            "Smp6",
+            "Smp7",
+            "Smp8",
+            "Smp9",
+            "Smp10",
+            "Smp11",
+            "Smp12",
+            "Smp13",
+            "Smp14",
+            "Smp15",
+            "Smp16",
+            "Smp17",
+            "Smp18",
+            "Smp19",
+            "Smp20",
+            "Smp21",
+            "Smp22",
+            "Smp23",
+            "Smp24",
+            "Smp25",
+            "Smp26",
+            "Smp27",
+            "Smp28",
+            "Smp29",
+            "Smp30"
          ]
       }
    },
    "config" : {
-      "subtitle" : "wooldridge - athlet2",
-      "title" : "athlet2",
       "graphType" : "Heatmap",
       "smpOverlays" : [
          "dinstt"
-      ]
+      ],
+      "subtitle" : "wooldridge - athlet2",
+      "title" : "athlet2"
    }
 }

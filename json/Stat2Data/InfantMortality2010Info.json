@@ -1,0 +1,10 @@
+{
+   "description" : "Description\nInfant mortality rates in the United States by decade (1920-2010)",
+   "title" : "Infant Mortality Rates",
+   "reference" : "Infant mortality (deaths within one year of birth per 1,000 births) in the US from 1920 - 2010 (by decade).",
+   "usage" : "A data frame with 10 observations on the following 2 variables.",
+   "parameters" : {
+      "Mortality" : "Deaths within one year of birth (per 1000 births)",
+      "Year" : "Year (1920-2010 by decades)"
+   }
+}

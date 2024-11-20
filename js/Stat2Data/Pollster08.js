@@ -1,7 +1,7 @@
 var Pollster08Info ={
+   "title" : "2008 U.S. Presidential Election Polls",
    "description" : "Description\nPolls for 2008 U.S. presidential election",
-   "usage" : "A dataset with 102 observations on the following 11 variables.",
-   "title" : "2008 U.S. Presidential Election Polls"
+   "usage" : "A dataset with 102 observations on the following 11 variables."
 }
 
 var Pollster08 = [

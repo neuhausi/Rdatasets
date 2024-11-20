@@ -1,24 +1,12 @@
 {
    "config" : {
-      "colorBy" : null,
       "title" : "Primate Body and Brain Weights",
-      "graphType" : "Scatter2D",
-      "subtitle" : "DAAG - primates"
+      "subtitle" : "DAAG - primates",
+      "colorBy" : null,
+      "graphType" : "Scatter2D"
    },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>primates</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Primate Body and Brain Weights</h2>\n<h3>Description</h3>\n<p>A subset of <code>Animals</code> data frame from the MASS library.\nIt contains the average body and brain measurements of five\nprimates.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>primates</code></pre>\n<h3>Format</h3>\n<p>This data frame contains the following columns:\n</p>\n<dl>\n<dt>Bodywt</dt><dd><p>a numeric vector consisting of the body weights (in kg) \nof five\ndifferent primates</p>\n</dd>\n<dt>Brainwt</dt><dd><p>a numeric vector consisting of the corresponding brain weights (in g) </p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>P. J. Rousseeuw  and A. M. Leroy (1987) Robust Regression and\nOutlier Detection. Wiley, p. 57.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>attach(primates)\nplot(x=Bodywt, y=Brainwt, pch=16,\n       xlab=\"Body weight (kg)\", ylab=\"Brain weight (g)\",\n       xlim=c(5,300), ylim=c(0,1500))\nchw &lt;- par()$cxy[1]\nchh &lt;- par()$cxy[2]\ntext(x=Bodywt+chw, y=Brainwt+c(-.1,0,0,.1,0)*chh,\n       labels=row.names(primates), adj=0)\ndetach(primates)\n</code></pre>\n</main>\n</div>\n",
    "data" : {
       "y" : {
-         "smps" : [
-            "Bodywt",
-            "Brainwt"
-         ],
-         "vars" : [
-            "Potar monkey",
-            "Gorilla",
-            "Human",
-            "Rhesus monkey",
-            "Chimp"
-         ],
          "data" : [
             [
                10,
@@ -40,7 +28,19 @@
                52.2,
                440
             ]
+         ],
+         "smps" : [
+            "Bodywt",
+            "Brainwt"
+         ],
+         "vars" : [
+            "Potar monkey",
+            "Gorilla",
+            "Human",
+            "Rhesus monkey",
+            "Chimp"
          ]
       }
-   }
+   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>primates</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Primate Body and Brain Weights</h2>\n<h3>Description</h3>\n<p>A subset of <code>Animals</code> data frame from the MASS library.\nIt contains the average body and brain measurements of five\nprimates.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>primates</code></pre>\n<h3>Format</h3>\n<p>This data frame contains the following columns:\n</p>\n<dl>\n<dt>Bodywt</dt><dd><p>a numeric vector consisting of the body weights (in kg) \nof five\ndifferent primates</p>\n</dd>\n<dt>Brainwt</dt><dd><p>a numeric vector consisting of the corresponding brain weights (in g) </p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>P. J. Rousseeuw  and A. M. Leroy (1987) Robust Regression and\nOutlier Detection. Wiley, p. 57.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>attach(primates)\nplot(x=Bodywt, y=Brainwt, pch=16,\n       xlab=\"Body weight (kg)\", ylab=\"Brain weight (g)\",\n       xlim=c(5,300), ylim=c(0,1500))\nchw &lt;- par()$cxy[1]\nchh &lt;- par()$cxy[2]\ntext(x=Bodywt+chw, y=Brainwt+c(-.1,0,0,.1,0)*chh,\n       labels=row.names(primates), adj=0)\ndetach(primates)\n</code></pre>\n</main>\n</div>\n"
 }

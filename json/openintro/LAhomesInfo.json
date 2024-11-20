@@ -1,0 +1,17 @@
+{
+   "format" : "A data frame with 1594 observations on the following 8 variables.",
+   "usage" : "LAhomes",
+   "reference" : "library(ggplot2)\n\nggplot(LAhomes, aes(sqft, price)) +\n  geom_point(alpha = 0.2) +\n  theme_minimal() +\n  labs(\n    title = \"Can we predict list price from squarefootage?\",\n    subtitle = \"Homes in the Los Angeles area\",\n    x = \"Square feet\",\n    y = \"List price\"\n  )",
+   "title" : "LAhomes",
+   "description" : "Description\nData collected by Andrew Bray at Reed College on characteristics of LA Homes in 2010.",
+   "parameters" : {
+      "price" : "Listing price of the home.",
+      "bed" : "Number of bedrooms in the home.",
+      "sqft" : "Squarefootage of the home.",
+      "type" : "Type of home with levels Condo/Twh - condo or townhouse, SFR - single family residence, and NA",
+      "bath" : "Number of bathrooms in the home.",
+      "city" : "City where the home is located.",
+      "pool" : "Indicates if the home has a pool.",
+      "garage" : "Number of cars that can be parked in the garage. Note that a value of 4 refers to 4 or more garage spaces."
+   }
+}

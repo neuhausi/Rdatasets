@@ -1,12 +1,12 @@
 var sp500_seqInfo ={
-   "usage" : "sp500_seq",
-   "description" : "Description\nDaily stock returns from the S&P500 for 1990-2011 can be used to assess\nwhether stock activity each day is independent of the stock's behavior on\nprevious days. We label each day as Up or Down (D) depending on whether the\nmarket was up or down that day. For example, consider the following changes\nin price, their new labels of up and down, and then the number of days that\nmust be observed before each Up day.",
-   "format" : "A data frame with 2948 observations on the following variable.",
    "title" : "S&P 500 stock data",
+   "description" : "Description\nDaily stock returns from the S&P500 for 1990-2011 can be used to assess\nwhether stock activity each day is independent of the stock's behavior on\nprevious days. We label each day as Up or Down (D) depending on whether the\nmarket was up or down that day. For example, consider the following changes\nin price, their new labels of up and down, and then the number of days that\nmust be observed before each Up day.",
+   "usage" : "sp500_seq",
    "reference" : "Google Finance.",
    "parameters" : {
       "race" : "a factor with levels 1, 2, 3, 4,\n5, 6, and 7+"
-   }
+   },
+   "format" : "A data frame with 2948 observations on the following variable."
 }
 
 var sp500_seq = [

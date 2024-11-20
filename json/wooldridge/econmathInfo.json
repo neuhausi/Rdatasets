@@ -1,0 +1,26 @@
+{
+   "title" : "econmath",
+   "description" : "Description\nWooldridge Source: Compiled by Professor Charles Ballard, Michigan State University Department of Economics. Professor Ballard kindly provided the data. Data loads lazily.",
+   "reference" : "167, 185",
+   "usage" : "data('econmath')",
+   "parameters" : {
+      "study" : " hours studying per week",
+      "mathscr" : " math quiz score, 0-10",
+      "male" : " =1 if male",
+      "mothcoll" : " =1 if mother has BA",
+      "colgpa" : " college GPA, beginning semester",
+      "calculus" : " =1 if taken calculus course",
+      "acteng" : " ACT English score",
+      "attgood" : " =1 if past attndce 'good'",
+      "attexc" : " =1 if past attndce 'excellent'",
+      "actmth" : " ACT math score",
+      "hsgpa" : " high school GPA",
+      "score" : " course score, in percent",
+      "fathcoll" : " =1 if father has BA",
+      "econhs" : " =1 if economics in high school",
+      "age" : " age in years",
+      "work" : " hours worked per week",
+      "act" : " ACT composite"
+   },
+   "format" : "A data.frame with 856 observations on 17 variables:"
+}

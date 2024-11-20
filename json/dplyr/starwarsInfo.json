@@ -1,0 +1,21 @@
+{
+   "format" : "A tibble with 87 rows and 14 variables:",
+   "parameters" : {
+      "films" : "List of films the character appeared in",
+      "species" : "Name of species",
+      "homeworld" : "Name of homeworld",
+      "starships" : "List of starships the character has piloted",
+      "height" : "Height (cm)",
+      "gender" : "The gender role or gender identity of the character as determined by their personality or the way they were programmed (as in the case for Droids).",
+      "vehicles" : "List of vehicles the character has piloted",
+      "birth_year" : "Year born (BBY = Before Battle of Yavin)",
+      "mass" : "Weight (kg)",
+      "hair_color,skin_color,eye_color" : "Hair, skin, and eye colors",
+      "name" : "Name of the character",
+      "sex" : "The biological sex of the character, namely male, female, hermaphroditic, or none (as in the case for Droids)."
+   },
+   "title" : "Starwars characters",
+   "description" : "Description\nThe original data, from SWAPI, the Star Wars API, https://swapi.py4e.com/, has been revised\nto reflect additional research into gender and sex determinations of characters.",
+   "reference" : "starwars",
+   "usage" : "starwars"
+}

@@ -1,0 +1,15 @@
+{
+   "format" : "A dataframe containing :",
+   "description" : "Description\na panel of 18 observations  from 1960  to 1978\nnumber of observations :  342\nobservation :  country\ncountry :  OECD",
+   "title" : "Gasoline Consumption",
+   "usage" : "data(Gasoline)",
+   "reference" : "Baltagi, B.H.  and  Y.J.  Griggin (1983) &ldquo;Gasoline demand in the OECD: an application of pooling and testing procedures&rdquo;, European Economic Review, 22.",
+   "parameters" : {
+      "lcarpcap" : "logarithm of the stock of cars per capita",
+      "year" : "the year",
+      "country" : "a factor with 18 levels",
+      "lincomep" : "logarithm of real per-capita income",
+      "lrpmg" : "logarithm of real motor gasoline price",
+      "lgaspcar" : "logarithm of motor gasoline consumption per auto"
+   }
+}

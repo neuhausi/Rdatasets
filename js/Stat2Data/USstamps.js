@@ -1,7 +1,7 @@
 var USstampsInfo ={
-   "title" : "Price of US Stamps",
    "usage" : "A dataset with 25 observations on the following 2 variables.",
-   "description" : "Description\nPrice of US stamp for first class mail 1885-2012"
+   "description" : "Description\nPrice of US stamp for first class mail 1885-2012",
+   "title" : "Price of US Stamps"
 }
 
 var USstamps = [

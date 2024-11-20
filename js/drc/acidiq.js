@@ -1,14 +1,14 @@
 var acidiqInfo ={
-   "usage" : "data(acidiq)",
-   "description" : "Description\nData from an experiment where the chemicals acifluorfen and diquat tested on Lemna minor. The dataset has 7 mixtures used in\n8 dilutions with three replicates and 12 common controls, in total 180 observations.",
-   "title" : "Acifluorfen and diquat tested on Lemna minor.",
-   "format" : "A data frame with 180 observations on the following 3 variables.",
-   "reference" : "The dataset is analysed in Soerensen et al (2007). \nHewlett's symmetric model seems appropriate for this dataset.",
    "parameters" : {
       "pct" : "a numeric vector denoting the grouping according to the mixtures percentages",
-      "rgr" : "a numeric vector of response values (relative growth rates)",
-      "dose" : "a numeric vector of dose values"
-   }
+      "dose" : "a numeric vector of dose values",
+      "rgr" : "a numeric vector of response values (relative growth rates)"
+   },
+   "usage" : "data(acidiq)",
+   "reference" : "The dataset is analysed in Soerensen et al (2007). \nHewlett's symmetric model seems appropriate for this dataset.",
+   "title" : "Acifluorfen and diquat tested on Lemna minor.",
+   "description" : "Description\nData from an experiment where the chemicals acifluorfen and diquat tested on Lemna minor. The dataset has 7 mixtures used in\n8 dilutions with three replicates and 12 common controls, in total 180 observations.",
+   "format" : "A data frame with 180 observations on the following 3 variables."
 }
 
 var acidiq = [

@@ -1,20 +1,20 @@
 {
    "config" : {
-      "colorBy" : "OCActivity",
-      "graphType" : "Dotplot",
+      "subtitle" : "Ecdat - USclassifiedDocuments",
       "groupingFactors" : [
-         "DerivClassActivity"
-      ],
-      "title" : "Official Secrecy of the United States Government",
-      "segregateSamplesBy" : [
-         "OCAuthorities",
          "TenYrDeclass"
       ],
-      "subtitle" : "Ecdat - USclassifiedDocuments"
+      "title" : "Official Secrecy of the United States Government",
+      "colorBy" : "OCActivity",
+      "graphType" : "Dotplot",
+      "segregateSamplesBy" : [
+         "OCAuthorities",
+         "DerivClassActivity"
+      ]
    },
    "data" : {
       "x" : {
-         "DerivClassActivity" : [
+         "TenYrDeclass" : [
             "",
             "",
             "",
@@ -27,23 +27,23 @@
             "",
             "",
             "",
-            "5685462",
-            "6361366",
-            "7157763",
-            "7858857",
-            "10929943",
-            "8390057",
-            "11054350",
-            "13993968",
-            "15294087",
-            "13948140",
-            "20324450",
-            "22868618",
-            "23217557",
-            "54651765",
-            "76571211",
-            "92064862",
-            "95180243"
+            "0.5",
+            "0.5",
+            "0.36",
+            "0.5",
+            "0.59",
+            "0.54",
+            "0.57",
+            "0.52",
+            "0.34",
+            "0.64",
+            "0.61",
+            "0.57",
+            "0.58",
+            "0.67",
+            "0.74",
+            "0.7",
+            "0.48"
          ],
          "OCAuthorities" : [
             "7149",
@@ -76,7 +76,7 @@
             "2362",
             "2326"
          ],
-         "TenYrDeclass" : [
+         "DerivClassActivity" : [
             "",
             "",
             "",
@@ -89,23 +89,23 @@
             "",
             "",
             "",
-            "0.5",
-            "0.5",
-            "0.36",
-            "0.5",
-            "0.59",
-            "0.54",
-            "0.57",
-            "0.52",
-            "0.34",
-            "0.64",
-            "0.61",
-            "0.57",
-            "0.58",
-            "0.67",
-            "0.74",
-            "0.7",
-            "0.48"
+            "5685462",
+            "6361366",
+            "7157763",
+            "7858857",
+            "10929943",
+            "8390057",
+            "11054350",
+            "13993968",
+            "15294087",
+            "13948140",
+            "20324450",
+            "22868618",
+            "23217557",
+            "54651765",
+            "76571211",
+            "92064862",
+            "95180243"
          ],
          "OCActivity" : [
             "",
@@ -143,37 +143,6 @@
          "vars" : [
             "year"
          ],
-         "smps" : [
-            "Smp1",
-            "Smp2",
-            "Smp3",
-            "Smp4",
-            "Smp5",
-            "Smp6",
-            "Smp7",
-            "Smp8",
-            "Smp9",
-            "Smp10",
-            "Smp11",
-            "Smp12",
-            "Smp13",
-            "Smp14",
-            "Smp15",
-            "Smp16",
-            "Smp17",
-            "Smp18",
-            "Smp19",
-            "Smp20",
-            "Smp21",
-            "Smp22",
-            "Smp23",
-            "Smp24",
-            "Smp25",
-            "Smp26",
-            "Smp27",
-            "Smp28",
-            "Smp29"
-         ],
          "data" : [
             [
                1980,
@@ -206,6 +175,37 @@
                2011,
                2012
             ]
+         ],
+         "smps" : [
+            "Smp1",
+            "Smp2",
+            "Smp3",
+            "Smp4",
+            "Smp5",
+            "Smp6",
+            "Smp7",
+            "Smp8",
+            "Smp9",
+            "Smp10",
+            "Smp11",
+            "Smp12",
+            "Smp13",
+            "Smp14",
+            "Smp15",
+            "Smp16",
+            "Smp17",
+            "Smp18",
+            "Smp19",
+            "Smp20",
+            "Smp21",
+            "Smp22",
+            "Smp23",
+            "Smp24",
+            "Smp25",
+            "Smp26",
+            "Smp27",
+            "Smp28",
+            "Smp29"
          ]
       }
    },

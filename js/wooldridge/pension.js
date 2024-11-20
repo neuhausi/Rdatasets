@@ -1,30 +1,30 @@
 var pensionInfo ={
-   "usage" : "data('pension')",
-   "description" : "Description\nWooldridge Source: L.E. Papke (2004), âIndividual Financial Decisions in Retirement Saving: The Role of Participant-Direction,â Journal of Public Economics 88, 39-61. Professor Papke kindly provided the data. She collected them from the National Longitudinal Survey of Mature Women, 1991. Data loads lazily.",
    "title" : "pension",
+   "description" : "Description\nWooldridge Source: L.E. Papke (2004), âIndividual Financial Decisions in Retirement Saving: The Role of Participant-Direction,â Journal of Public Economics 88, 39-61. Professor Papke kindly provided the data. She collected them from the National Longitudinal Survey of Mature Women, 1991. Data loads lazily.",
    "reference" : "page 506",
-   "format" : "A data.frame with 194 observations on 19 variables:",
+   "usage" : "data('pension')",
    "parameters" : {
-      "stckin89" : " =1 if owned stock in 1989",
-      "married" : " =1 if married",
-      "id" : " family identifier",
-      "educ" : " highest grade completed",
-      "prftshr" : " =1 if profit sharing plan",
-      "finc25" : " $15,000 < faminc92 <= $25,000",
-      "age" : " age in years",
-      "pctstck" : " 0=mstbnds,50=mixed,100=mststcks",
-      "female" : " =1 if female",
-      "finc100" : " $75,000 < faminc92 <= $100,000",
-      "finc101" : " $100,000 < faminc92",
-      "irain89" : " =1 if had IRA in 1989",
-      "finc35" : " $25,000 < faminc92 <= $35,000",
       "wealth89" : " net worth, 1989, $1000",
-      "finc75" : " $50,000 < faminc92 <= $75,000",
+      "irain89" : " =1 if had IRA in 1989",
       "finc50" : " $35,000 < faminc92 <= $50,000",
+      "id" : " family identifier",
+      "female" : " =1 if female",
+      "finc35" : " $25,000 < faminc92 <= $35,000",
+      "finc101" : " $100,000 < faminc92",
+      "finc25" : " $15,000 < faminc92 <= $25,000",
+      "prftshr" : " =1 if profit sharing plan",
       "choice" : " =1 if can choose method invest",
+      "finc100" : " $75,000 < faminc92 <= $100,000",
+      "pyears" : " years in pension plan",
+      "educ" : " highest grade completed",
+      "pctstck" : " 0=mstbnds,50=mixed,100=mststcks",
+      "finc75" : " $50,000 < faminc92 <= $75,000",
       "black" : " =1 if black",
-      "pyears" : " years in pension plan"
-   }
+      "married" : " =1 if married",
+      "age" : " age in years",
+      "stckin89" : " =1 if owned stock in 1989"
+   },
+   "format" : "A data.frame with 194 observations on 19 variables:"
 }
 
 var pension = [

@@ -1,0 +1,6 @@
+{
+   "usage" : "data(MelTemp)",
+   "title" : "Daily maximum temperatures in Melbourne, Australia",
+   "description" : "Description\nDaily maximum temperatures in Melbourne, Australia, from\n1981-1990. Leap days have been omitted.",
+   "format" : "Time series of frequency 365"
+}

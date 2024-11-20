@@ -1,13 +1,13 @@
 var mastectomyInfo ={
-   "description" : "Description\nSurvival times in months after mastectomy of women with breast cancer. \nThe cancers are classified as having metastized or not based on a \nhistochemical marker.",
-   "usage" : "data(\"mastectomy\")",
-   "parameters" : {
-      "metastized" : "a factor at levels yes and no.",
-      "event" : "a logical indicating if the event was observed (TRUE)\nor if the survival time was censored (FALSE).",
-      "time" : "survival times in months."
-   },
-   "title" : "Survival Times after Mastectomy of Breast Cancer Patients",
    "reference" : "B. S. Everitt and S. Rabe-Hesketh (2001),\nAnalysing Medical Data using S-PLUS, Springer, New York, USA.",
+   "usage" : "data(\"mastectomy\")",
+   "description" : "Description\nSurvival times in months after mastectomy of women with breast cancer. \nThe cancers are classified as having metastized or not based on a \nhistochemical marker.",
+   "title" : "Survival Times after Mastectomy of Breast Cancer Patients",
+   "parameters" : {
+      "time" : "survival times in months.",
+      "metastized" : "a factor at levels yes and no.",
+      "event" : "a logical indicating if the event was observed (TRUE)\nor if the survival time was censored (FALSE)."
+   },
    "format" : "A data frame with 42 observations on the following 3 variables."
 }
 

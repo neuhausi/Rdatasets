@@ -1,13 +1,13 @@
 var UndoingInfo ={
-   "parameters" : {
-      "Score" : "Rating of OCD symptom on a 1 to 4 scale",
-      "Group" : "Time frame of the session  (I=early through VI=late)",
-      "Symbol" : "Indicator for groups I, III, and IV"
-   },
-   "description" : "Description\nRatings of an OCD symptom in psychotherapy sessions",
-   "title" : "Defense of Undoing OCD Symptoms in Psychotherapy",
+   "usage" : "A data frame with 44 observations on the following 3 variables.",
    "reference" : "A patient had been diagnosed with OCD (obsessive/compulsive disorder) and underwent a series of psychotherapy sessions.  Notes from the sessions were presented to three different experienced therapists who rated sessions with a particular OCD symptom (defense of undoing) on a 1 to 4 scale (smaller values indicating worse symptoms). If all three judges agreed on the stage of a session, that determined the category.  Otherwise, they discussed until they reached a consensus. The sessions were also grouped into six groups with I being the earliest sessions and VI being the latest.",
-   "usage" : "A data frame with 44 observations on the following 3 variables."
+   "title" : "Defense of Undoing OCD Symptoms in Psychotherapy",
+   "description" : "Description\nRatings of an OCD symptom in psychotherapy sessions",
+   "parameters" : {
+      "Symbol" : "Indicator for groups I, III, and IV",
+      "Score" : "Rating of OCD symptom on a 1 to 4 scale",
+      "Group" : "Time frame of the session  (I=early through VI=late)"
+   }
 }
 
 var Undoing = [

@@ -1,12 +1,12 @@
 var supreme_courtInfo ={
    "format" : "A data frame with 976 observations on the following variable.",
-   "reference" : "https://www.nytimes.com/2012/06/08/us/politics/44-percent-of-americans-approve-of-supreme-court-in-new-poll.html",
-   "title" : "Supreme Court approval rating",
    "parameters" : {
       "answer" : "a factor with levels approve and not"
    },
+   "reference" : "https://www.nytimes.com/2012/06/08/us/politics/44-percent-of-americans-approve-of-supreme-court-in-new-poll.html",
    "usage" : "supreme_court",
-   "description" : "Description\nSummary of a random survey of 976 people."
+   "description" : "Description\nSummary of a random survey of 976 people.",
+   "title" : "Supreme Court approval rating"
 }
 
 var supreme_court = [

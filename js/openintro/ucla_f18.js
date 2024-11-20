@@ -1,25 +1,25 @@
 var ucla_f18Info ={
+   "description" : "Description\nList of all courses at UCLA during Fall 2018.",
+   "title" : "UCLA courses in Fall 2018",
+   "usage" : "ucla_f18",
+   "reference" : "https://sa.ucla.edu/ro/public/soc, retrieved 2018-11-22.",
    "parameters" : {
-      "year" : "Year the course was offered",
-      "course_numeric" : "Course number, numeric only",
-      "course_num" : "Course number, complete",
-      "term" : "Term the course was offered",
       "ind_study" : "Boolean for if this is some form of independent  study",
-      "special_topic" : "Boolean for if this is any of the special types of courses listed",
       "seminar" : "Boolean for if this is a seminar course",
-      "internship" : "Boolean for if this is an internship",
-      "apprenticeship" : "Boolean for if this is an apprenticeship",
-      "subject_abbr" : "Subject abbreviation, if any",
-      "laboratory" : "Boolean for if this is a lab",
-      "honors_contracts" : "Boolean for if this is an honors contracts course",
+      "course_numeric" : "Course number, numeric only",
       "subject" : "Subject",
+      "course_num" : "Course number, complete",
+      "special_topic" : "Boolean for if this is any of the special types of courses listed",
+      "laboratory" : "Boolean for if this is a lab",
+      "apprenticeship" : "Boolean for if this is an apprenticeship",
+      "term" : "Term the course was offered",
+      "honors_contracts" : "Boolean for if this is an honors contracts course",
+      "subject_abbr" : "Subject abbreviation, if any",
+      "year" : "Year the course was offered",
+      "internship" : "Boolean for if this is an internship",
       "course" : "Course name"
    },
-   "reference" : "https://sa.ucla.edu/ro/public/soc, retrieved 2018-11-22.",
-   "title" : "UCLA courses in Fall 2018",
-   "format" : "A data frame with 3950 observations on the following 14 variables.",
-   "description" : "Description\nList of all courses at UCLA during Fall 2018.",
-   "usage" : "ucla_f18"
+   "format" : "A data frame with 3950 observations on the following 14 variables."
 }
 
 var ucla_f18 = [

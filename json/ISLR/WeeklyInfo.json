@@ -1,0 +1,18 @@
+{
+   "parameters" : {
+      "Lag5" : "Percentage return for 5 weeks previous",
+      "Direction" : "A factor with levels Down and\nUp indicating whether the market had a positive or negative\nreturn on a given week",
+      "Lag3" : "Percentage return for 3 weeks previous",
+      "Lag1" : "Percentage return for previous week",
+      "Year" : "The year that the observation was recorded",
+      "Lag4" : "Percentage return for 4 weeks previous",
+      "Volume" : "Volume of shares traded (average number of daily shares\ntraded in billions)",
+      "Today" : "Percentage return for this week",
+      "Lag2" : "Percentage return for 2 weeks previous"
+   },
+   "title" : "Weekly S&P Stock Market Data",
+   "description" : "Description\nWeekly percentage returns for the S&P 500 stock index\nbetween 1990 and 2010.",
+   "reference" : "Raw values of the S&P 500 were obtained from Yahoo Finance and\nthen converted to percentages and lagged.",
+   "usage" : "Weekly",
+   "format" : "A data frame with 1089 observations on the following 9 variables."
+}

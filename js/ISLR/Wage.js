@@ -1,22 +1,22 @@
 var WageInfo ={
+   "usage" : "Wage",
+   "reference" : "Data was manually assembled by Steve Miller, of Inquidia\nConsulting (formerly Open BI). From the March 2011 Supplement to Current Population\nSurvey data.",
+   "title" : "Mid-Atlantic Wage Data",
+   "description" : "Description\nWage and other data for a group of 3000 male workers in the\nMid-Atlantic region.",
    "parameters" : {
+      "logwage" : "Log of workers wage",
       "health_ins" : "A factor with levels 1. Yes and\n2. No indicating whether worker has health insurance",
       "race" : "A factor with levels 1. White\n2. Black 3. Asian and 4. Other indicating race",
+      "wage" : "Workers raw wage",
+      "jobclass" : "A factor with levels 1. Industrial and\n2. Information indicating type of job",
+      "education" : "A factor with levels 1. < HS Grad\n2. HS Grad 3. Some College 4. College Grad\nand 5. Advanced Degree indicating education level",
       "region" : "Region of the country (mid-atlantic only)",
       "age" : "Age of worker",
-      "jobclass" : "A factor with levels 1. Industrial and\n2. Information indicating type of job",
-      "logwage" : "Log of workers wage",
       "health" : "A factor with levels 1. <=Good and\n2. >=Very Good indicating health level of worker",
       "maritl" : "A factor with levels 1. Never Married\n2. Married 3. Widowed 4. Divorced and\n5. Separated indicating marital status",
-      "wage" : "Workers raw wage",
-      "education" : "A factor with levels 1. < HS Grad\n2. HS Grad 3. Some College 4. College Grad\nand 5. Advanced Degree indicating education level",
       "year" : "Year that wage information was recorded"
    },
-   "title" : "Mid-Atlantic Wage Data",
-   "format" : "A data frame with 3000 observations on the following 11 variables.",
-   "reference" : "Data was manually assembled by Steve Miller, of Inquidia\nConsulting (formerly Open BI). From the March 2011 Supplement to Current Population\nSurvey data.",
-   "description" : "Description\nWage and other data for a group of 3000 male workers in the\nMid-Atlantic region.",
-   "usage" : "Wage"
+   "format" : "A data frame with 3000 observations on the following 11 variables."
 }
 
 var Wage = [

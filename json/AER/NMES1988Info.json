@@ -1,0 +1,28 @@
+{
+   "format" : "A data frame containing 4,406 observations on 19 variables.",
+   "parameters" : {
+      "emergency" : "Emergency room visits.",
+      "ovisits" : "Number of physician hospital outpatient visits.",
+      "school" : "Number of years of education.",
+      "visits" : "Number of physician office visits.",
+      "afam" : "Factor. Is the individual African-American?",
+      "chronic" : "Number of chronic conditions.",
+      "nvisits" : "Number of non-physician office visits.",
+      "married" : "Factor. is the individual married?",
+      "employed" : "Factor. Is the individual employed?",
+      "hospital" : "Number of hospital stays.",
+      "age" : "Age in years (divided by 10).",
+      "medicaid" : "Factor. Is the individual covered by Medicaid?",
+      "insurance" : "Factor. Is the individual covered by private insurance?",
+      "region" : "Factor indicating region, levels are northeast,\nmidwest, west, other (reference category).",
+      "adl" : "Factor indicating whether the individual has a condition that\nlimits activities of daily living (\"limited\") or not (\"normal\").",
+      "health" : "Factor indicating self-perceived health status, levels are\n\"poor\", \"average\" (reference category), \"excellent\".",
+      "gender" : "Factor indicating gender.",
+      "income" : "Family income in USD 10,000.",
+      "novisits" : "Number of non-physician hospital outpatient visits."
+   },
+   "description" : "Description\nCross-section data originating from the US National Medical Expenditure Survey (NMES) \nconducted in 1987 and 1988. The NMES is based upon a representative, national \nprobability sample of the civilian non-institutionalized population and individuals \nadmitted to long-term care facilities during 1987. The data are a subsample of \nindividuals ages 66 and over all of whom are covered by Medicare \n(a public insurance program providing substantial protection against health-care costs).",
+   "title" : "Demand for Medical Care in NMES 1988",
+   "reference" : "Journal of Applied Econometrics Data Archive for Deb and Trivedi (1997).",
+   "usage" : "data(\"NMES1988\")"
+}

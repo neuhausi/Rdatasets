@@ -1,17 +1,17 @@
 var cars93Info ={
-   "format" : "A data frame with 54 observations on the following 6 variables.",
-   "reference" : "These cars represent a random sample for 1993 models that were in both\nConsumer Reports and PACE Buying Guide. Only vehicles of type\nsmall, midsize, and large were include.",
    "title" : "cars93",
-   "parameters" : {
-      "mpg_city" : "Vehicle mileage in city (miles per gallon).",
-      "drive_train" : "Vehicle drive train with levels 4WD, front,\nand rear.",
-      "type" : "The vehicle type with levels large, midsize,\nand small.",
-      "passengers" : "The vehicle passenger capacity.",
-      "price" : "Vehicle price (USD).",
-      "weight" : "Vehicle weight (lbs)."
-   },
+   "description" : "Description\nA data frame with 54 rows and 6 columns. This data is a subset of the\nCars93 dataset from the MASS package.",
    "usage" : "cars93",
-   "description" : "Description\nA data frame with 54 rows and 6 columns. This data is a subset of the\nCars93 dataset from the MASS package."
+   "reference" : "These cars represent a random sample for 1993 models that were in both\nConsumer Reports and PACE Buying Guide. Only vehicles of type\nsmall, midsize, and large were include.",
+   "parameters" : {
+      "passengers" : "The vehicle passenger capacity.",
+      "mpg_city" : "Vehicle mileage in city (miles per gallon).",
+      "type" : "The vehicle type with levels large, midsize,\nand small.",
+      "drive_train" : "Vehicle drive train with levels 4WD, front,\nand rear.",
+      "weight" : "Vehicle weight (lbs).",
+      "price" : "Vehicle price (USD)."
+   },
+   "format" : "A data frame with 54 observations on the following 6 variables."
 }
 
 var cars93 = [

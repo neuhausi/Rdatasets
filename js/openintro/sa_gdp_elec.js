@@ -1,18 +1,18 @@
 var sa_gdp_elecInfo ={
-   "description" : "Description\nIncludes yearly data on gdp, gni, co2 emissions, start up costs.",
-   "usage" : "sa_gdp_elec",
    "parameters" : {
-      "gni" : "GNI per capita, PPP in constant 2017 international dollars.",
-      "co2_kg_ppp" : "kg per 2017 PPP dollars of GDP.",
+      "gdp" : "GDP per capita, PPP in constant 2017 international dollars.",
       "year" : "Year data collected.",
       "access_elec" : "Access to electricity as a percentage of the population.",
-      "startup" : "cost of business startup procedures as a percent of GNI.",
+      "gni" : "GNI per capita, PPP in constant 2017 international dollars.",
       "co2" : "CO2 emission in kt (kiloton).",
-      "gdp" : "GDP per capita, PPP in constant 2017 international dollars."
+      "co2_kg_ppp" : "kg per 2017 PPP dollars of GDP.",
+      "startup" : "cost of business startup procedures as a percent of GNI."
    },
+   "title" : "Sustainability and Economic Indicators for South Africa.",
+   "description" : "Description\nIncludes yearly data on gdp, gni, co2 emissions, start up costs.",
+   "usage" : "sa_gdp_elec",
    "reference" : "World Bank I\n\n\n World Bank II\n\n\n Carbon Dioxide Information Analysis Center, Environmental Sciences Division, Oak Ridge National Laboratory",
-   "format" : "A data frame with 16 rows and 7 variables.",
-   "title" : "Sustainability and Economic Indicators for South Africa."
+   "format" : "A data frame with 16 rows and 7 variables."
 }
 
 var sa_gdp_elec = [

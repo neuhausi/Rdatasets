@@ -1,8 +1,8 @@
 var ArgentinaCPIInfo ={
-   "description" : "Description\nTime series of consumer price index (CPI) in Argentina (index with 1969(4) = 1).",
    "usage" : "data(\"ArgentinaCPI\")",
-   "format" : "A quarterly univariate time series from 1970(1) to 1989(4).",
-   "title" : "Consumer Price Index in Argentina"
+   "description" : "Description\nTime series of consumer price index (CPI) in Argentina (index with 1969(4) = 1).",
+   "title" : "Consumer Price Index in Argentina",
+   "format" : "A quarterly univariate time series from 1970(1) to 1989(4)."
 }
 
 var ArgentinaCPI = [

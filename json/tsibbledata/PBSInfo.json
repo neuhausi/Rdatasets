@@ -1,0 +1,6 @@
+{
+   "title" : "Monthly Medicare Australia prescription data",
+   "description" : "Description\nPBS is a monthly tsibble with two values:\nScripts:       Total number of scripts\n\n\n \nCost:      Cost of the scripts in $AUD",
+   "usage" : "Time series of class tsibble",
+   "format" : "The data is disaggregated using four keys:"
+}

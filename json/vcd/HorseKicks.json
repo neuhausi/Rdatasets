@@ -1,22 +1,17 @@
 {
-   "config" : {
-      "subtitle" : "vcd - HorseKicks",
-      "graphType" : "Scatter2D",
-      "title" : "Death by Horse Kicks"
-   },
    "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>HorseKicks</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Death by Horse Kicks</h2>\n<h3>Description</h3>\n<p>Data from von Bortkiewicz (1898), given by Andrews &amp; Herzberg (1985),\non number of deaths by horse or mule kicks in 10 (of 14 reported)\ncorps of the Prussian army.  4 corps were not considered by Fisher\n(1925) as they had a different organization. This data set is a\npopular subset of the <code>VonBort</code> data.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(\"HorseKicks\")\n</code></pre>\n<h3>Format</h3>\n<p>A 1-way table giving the number of deaths in 200 corps-years.  The\nvariable and its levels are\n</p>\n<table>\n<tr>\n <td style=\"text-align: right;\">\n    No </td><td style=\"text-align: left;\"> Name </td><td style=\"text-align: left;\"> Levels </td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    1 </td><td style=\"text-align: left;\"> nDeaths </td><td style=\"text-align: left;\"> 0, 1, ..., 4 </td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n  </td>\n</tr>\n</table>\n<h3>Source</h3>\n<p>Michael Friendly (2000),\nVisualizing Categorical Data, page 18.\n</p>\n<h3>References</h3>\n<p>D. F. Andrews &amp; A. M. Herzberg (1985),\n<em>Data: A Collection of Problems from Many Fields for the Student\nand Research Worker</em>.\nSpringer-Verlag, New York, NY.\n</p>\n<p>R. A. Fisher (1925),\n<em>Statistical Methods for Research Workers</em>.\nOliver &amp; Boyd, London.\n</p>\n<p>L. von Bortkiewicz (1898),\n<em>Das Gesetz der kleinen Zahlen</em>.\nTeubner, Leipzig.\n</p>\n<p>M. Friendly (2000),\n<em>Visualizing Categorical Data</em>.\nSAS Institute, Cary, NC.\n</p>\n<h3>See Also</h3>\n<p><code>VonBort</code>\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>data(\"HorseKicks\")\ngf &lt;- goodfit(HorseKicks)\nsummary(gf)\nplot(gf)\n</code></pre>\n</main>\n</div>\n",
    "data" : {
       "y" : {
-         "smps" : [
-            "nDeaths",
-            "Freq"
-         ],
          "vars" : [
             "Var1",
             "Var2",
             "Var3",
             "Var4",
             "Var5"
+         ],
+         "smps" : [
+            "nDeaths",
+            "Freq"
          ],
          "data" : [
             [
@@ -41,5 +36,10 @@
             ]
          ]
       }
+   },
+   "config" : {
+      "title" : "Death by Horse Kicks",
+      "subtitle" : "vcd - HorseKicks",
+      "graphType" : "Scatter2D"
    }
 }

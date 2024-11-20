@@ -1,7 +1,7 @@
 var orallesionsInfo ={
-   "description" : "Description\nThe distribution of the oral\nlesion site found in house-to-house surveys in three geographic\nregions of rural India.",
    "usage" : "data(\"orallesions\")",
    "title" : "Oral Lesions in Rural India",
+   "description" : "Description\nThe distribution of the oral\nlesion site found in house-to-house surveys in three geographic\nregions of rural India.",
    "format" : "A two-way classification, see table."
 }
 

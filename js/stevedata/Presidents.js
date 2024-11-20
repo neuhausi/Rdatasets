@@ -1,14 +1,14 @@
 var PresidentsInfo ={
-   "description" : "Description\nThis should be self-evident. Here are all U.S. presidents who have completed\ntheir terms in office (i.e. excluding the current one).",
-   "usage" : "Presidents",
    "parameters" : {
-      "president" : "the president",
+      "end" : "the end date of the term, as a date",
       "start" : "the start date of the term, as a date",
-      "end" : "the end date of the term, as a date"
+      "president" : "the president"
    },
-   "format" : "A data frame with 45 observations on the following 3 variables.",
+   "usage" : "Presidents",
+   "reference" : "I scraped this from https://www.presidentsusa.net/presvplist.html.\nData frame is capital-P \"Presidents\" to avoid a conflict with the\npresidents data frame from the datasets package.",
+   "description" : "Description\nThis should be self-evident. Here are all U.S. presidents who have completed\ntheir terms in office (i.e. excluding the current one).",
    "title" : "U.S. Presidents and Their Terms in Office",
-   "reference" : "I scraped this from https://www.presidentsusa.net/presvplist.html.\nData frame is capital-P \"Presidents\" to avoid a conflict with the\npresidents data frame from the datasets package."
+   "format" : "A data frame with 45 observations on the following 3 variables."
 }
 
 var Presidents = [

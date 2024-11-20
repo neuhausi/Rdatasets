@@ -1,15 +1,15 @@
 var HousesNYInfo ={
-   "description" : "Description\nHouse prices for a sample of houses in Canton NY",
    "parameters" : {
-      "Price" : "Estimated price (in $1,000's)",
-      "Lot" : "Size of the lot (in acres)",
+      "Beds" : "Number of bedrooms",
       "Baths" : "Number of bathrooms",
+      "Lot" : "Size of the lot (in acres)",
       "Size" : "Floor area of the house (in 1,000 square feet)",
-      "Beds" : "Number of bedrooms"
+      "Price" : "Estimated price (in $1,000's)"
    },
-   "usage" : "A data frame with 53 observations on the following 5 variables.",
+   "title" : "House Prices in Rural NY",
+   "description" : "Description\nHouse prices for a sample of houses in Canton NY",
    "reference" : "Data scraped from Zillow.com for a sample of houses near the 13617 area code (Canton, NY a small town in upstate NY).  Houses on lots bigger than five acres (often farms) were excluded.",
-   "title" : "House Prices in Rural NY"
+   "usage" : "A data frame with 53 observations on the following 5 variables."
 }
 
 var HousesNY = [

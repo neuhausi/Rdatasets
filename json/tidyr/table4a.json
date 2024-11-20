@@ -1,14 +1,28 @@
 {
+   "config" : {
+      "title" : "Example tabular representations",
+      "subtitle" : "tidyr - table4a",
+      "graphType" : "Scatter2D",
+      "colorBy" : "country"
+   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>table1</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Example tabular representations</h2>\n<h3>Description</h3>\n<p>Data sets that demonstrate multiple ways to layout the same tabular data.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>table1\ntable2\ntable3\ntable4a\ntable4b\ntable5\n</code></pre>\n<h3>Details</h3>\n<p><code>table1</code>, <code>table2</code>, <code>table3</code>, <code>table4a</code>, <code>table4b</code>,\nand <code>table5</code> all display the number of TB cases documented by the World\nHealth Organization in Afghanistan, Brazil, and China between 1999 and 2000.\nThe data contains values associated with four variables (country, year,\ncases, and population), but each table organizes the values in a different\nlayout.\n</p>\n<p>The data is a subset of the data contained in the World Health\nOrganization Global Tuberculosis Report\n</p>\n<h3>Source</h3>\n<p><a href=\"https://www.who.int/teams/global-tuberculosis-programme/data\">https://www.who.int/teams/global-tuberculosis-programme/data</a>\n</p>\n</main>\n</div>\n",
    "data" : {
+      "z" : {
+         "country" : [
+            "Afghanistan",
+            "Brazil",
+            "China"
+         ]
+      },
       "y" : {
-         "smps" : [
-            "1999",
-            "2000"
-         ],
          "vars" : [
             "Var1",
             "Var2",
             "Var3"
+         ],
+         "smps" : [
+            "1999",
+            "2000"
          ],
          "data" : [
             [
@@ -24,20 +38,6 @@
                213766
             ]
          ]
-      },
-      "z" : {
-         "country" : [
-            "Afghanistan",
-            "Brazil",
-            "China"
-         ]
       }
-   },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>table1</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Example tabular representations</h2>\n<h3>Description</h3>\n<p>Data sets that demonstrate multiple ways to layout the same tabular data.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>table1\ntable2\ntable3\ntable4a\ntable4b\ntable5\n</code></pre>\n<h3>Details</h3>\n<p><code>table1</code>, <code>table2</code>, <code>table3</code>, <code>table4a</code>, <code>table4b</code>,\nand <code>table5</code> all display the number of TB cases documented by the World\nHealth Organization in Afghanistan, Brazil, and China between 1999 and 2000.\nThe data contains values associated with four variables (country, year,\ncases, and population), but each table organizes the values in a different\nlayout.\n</p>\n<p>The data is a subset of the data contained in the World Health\nOrganization Global Tuberculosis Report\n</p>\n<h3>Source</h3>\n<p><a href=\"https://www.who.int/teams/global-tuberculosis-programme/data\">https://www.who.int/teams/global-tuberculosis-programme/data</a>\n</p>\n</main>\n</div>\n",
-   "config" : {
-      "subtitle" : "tidyr - table4a",
-      "graphType" : "Scatter2D",
-      "title" : "Example tabular representations",
-      "colorBy" : "country"
    }
 }

@@ -1,15 +1,15 @@
 var InflationInfo ={
-   "reference" : "Monthly Consumer Price Index for 2009 to 2016 as produced by the Bureau of Labor Statistics (Series Id. CUUR0000SA0).  Based on prices for all items in U.S. city average for all consumers (not seasonally) Base period is 1982-1984-100.",
-   "title" : "Monthly Consumer Price Index (2009-2016)",
-   "usage" : "A data frame with 96 observations on the following 5 variables.",
-   "description" : "Description\nConsumer Price Index (CPI) each month for 2009 through 2016",
    "parameters" : {
       "t" : "Time index (1 to 96)",
-      "CPI" : "Consumer Price Index (base=100 in 1984)",
       "CPIPctDiff" : "Monthly percent change in CPI",
-      "Month" : "Month: 1=January to 12=December",
-      "Year" : "Year (2009 to 2016)"
-   }
+      "Year" : "Year (2009 to 2016)",
+      "CPI" : "Consumer Price Index (base=100 in 1984)",
+      "Month" : "Month: 1=January to 12=December"
+   },
+   "reference" : "Monthly Consumer Price Index for 2009 to 2016 as produced by the Bureau of Labor Statistics (Series Id. CUUR0000SA0).  Based on prices for all items in U.S. city average for all consumers (not seasonally) Base period is 1982-1984-100.",
+   "usage" : "A data frame with 96 observations on the following 5 variables.",
+   "title" : "Monthly Consumer Price Index (2009-2016)",
+   "description" : "Description\nConsumer Price Index (CPI) each month for 2009 through 2016"
 }
 
 var Inflation = [

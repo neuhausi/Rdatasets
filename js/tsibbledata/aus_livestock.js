@@ -1,7 +1,7 @@
 var aus_livestockInfo ={
    "format" : "aus_livestock is a monthly tsibble with one value:",
-   "title" : "Australian livestock slaughter",
    "usage" : "Time series of class tsibble",
+   "title" : "Australian livestock slaughter",
    "description" : "Description\nMeat production in Australia for human consumption"
 }
 

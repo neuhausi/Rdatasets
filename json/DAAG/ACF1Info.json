@@ -1,0 +1,11 @@
+{
+   "usage" : "ACF1",
+   "reference" : "Ranjana P. Bird, Faculty of Human Ecology, University of Manitoba,\nWinnipeg, Canada.",
+   "title" : "Aberrant Crypt Foci in Rat Colons",
+   "description" : "Description\nNumbers of aberrant crypt foci (ACF) in the \nsection 1 of the colons of 22 rats subjected to a single\ndose of the carcinogen azoxymethane (AOM), sacrificed\nat 3 different times.",
+   "parameters" : {
+      "count" : "Observed number of ACF in section 1 of\neach rat colon",
+      "endtime" : "Time of sacrifice, in weeks following injection\nof AOM"
+   },
+   "format" : "This data frame contains the following columns:"
+}

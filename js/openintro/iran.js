@@ -1,20 +1,20 @@
 var iranInfo ={
+   "title" : "iran",
    "description" : "Description\nA data frame containing information about the 2009 Presidential Election in Iran. There were widespread claims of election fraud in this election both internationally and within Iran.",
+   "reference" : "library(dplyr)\nlibrary(ggplot2)\nlibrary(tidyr)\nlibrary(stringr)\n\nplot_data <- iran |>\n  summarize(\n    ahmadinejad = sum(ahmadinejad) / 1000,\n    rezai = sum(rezai) / 1000,\n    karrubi = sum(karrubi) / 1000,\n    mousavi = sum(mousavi) / 1000\n  ) |>\n  pivot_longer(\n    cols = c(ahmadinejad, rezai, karrubi, mousavi),\n    names_to = \"candidate\",\n    values_to = \"votes\"\n  ) |>\n  mutate(candidate = str_to_title(candidate))\n\nggplot(plot_data, aes(votes, candidate)) +\n  geom_col() +\n  theme_minimal() +\n  labs(\n    title = \"2009 Iranian Presidential Election\",\n    x = \"Number of votes (in thousands)\",\n    y = \"\"\n  )",
    "usage" : "iran",
    "parameters" : {
-      "rezai" : "Number of votes received by Rezai.",
-      "mousavi" : "Number of votes received by Mousavi.",
-      "province" : "Iranian province where votes were cast.",
-      "karrubi" : "Number of votes received by Karrubi.",
       "ahmadinejad" : "Number of votes received by Ahmadinejad.",
+      "city" : "City within province where votes were cast.",
+      "rezai" : "Number of votes received by Rezai.",
       "legitimate_votes" : "Number of votes that were counted.",
-      "voided_votes" : "Number of votes that were not counted.",
       "total_votes_cast" : "Total number of votes cast.",
-      "city" : "City within province where votes were cast."
+      "province" : "Iranian province where votes were cast.",
+      "voided_votes" : "Number of votes that were not counted.",
+      "mousavi" : "Number of votes received by Mousavi.",
+      "karrubi" : "Number of votes received by Karrubi."
    },
-   "title" : "iran",
-   "format" : "A data frame with 366 observations on the following 9 variables.",
-   "reference" : "library(dplyr)\nlibrary(ggplot2)\nlibrary(tidyr)\nlibrary(stringr)\n\nplot_data <- iran |>\n  summarize(\n    ahmadinejad = sum(ahmadinejad) / 1000,\n    rezai = sum(rezai) / 1000,\n    karrubi = sum(karrubi) / 1000,\n    mousavi = sum(mousavi) / 1000\n  ) |>\n  pivot_longer(\n    cols = c(ahmadinejad, rezai, karrubi, mousavi),\n    names_to = \"candidate\",\n    values_to = \"votes\"\n  ) |>\n  mutate(candidate = str_to_title(candidate))\n\nggplot(plot_data, aes(votes, candidate)) +\n  geom_col() +\n  theme_minimal() +\n  labs(\n    title = \"2009 Iranian Presidential Election\",\n    x = \"Number of votes (in thousands)\",\n    y = \"\"\n  )"
+   "format" : "A data frame with 366 observations on the following 9 variables."
 }
 
 var iran = [

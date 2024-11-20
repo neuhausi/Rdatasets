@@ -1,0 +1,15 @@
+{
+   "usage" : "Baumann",
+   "reference" : "Moore, D. S. and McCabe, G. P. (1993)\nIntroduction to the Practice of Statistics, Second Edition.\nFreeman, p. 794&ndash;795.",
+   "description" : "Description\nThe Baumann data frame has 66 rows and 6 columns.\nThe data are from an experimental study conducted by Baumann and Jones, as reported\nby Moore and McCabe (1993) Students were randomly assigned to one of three\nexperimental groups.",
+   "title" : "Methods of Teaching Reading Comprehension",
+   "parameters" : {
+      "group" : "Experimental group;\na factor with levels:\nBasal, traditional method of teaching;\nDRTA, an innovative method;\nStrat, another innovative method.",
+      "pretest.2" : "Second pretest.",
+      "post.test.3" : "Third post-test.",
+      "pretest.1" : "First pretest.",
+      "post.test.2" : "Second post-test.",
+      "post.test.1" : "First post-test."
+   },
+   "format" : "This data frame contains the following columns:"
+}

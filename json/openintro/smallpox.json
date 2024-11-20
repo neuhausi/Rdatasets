@@ -1,4 +1,17 @@
 {
+   "config" : {
+      "segregateSamplesBy" : [
+         "inoculated"
+      ],
+      "graphType" : "Boxplot",
+      "colorBy" : "variable",
+      "subtitle" : "openintro - smallpox",
+      "groupingFactors" : [
+         "result"
+      ],
+      "title" : "Smallpox vaccine results"
+   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>smallpox</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Smallpox vaccine results</h2>\n<h3>Description</h3>\n<p>A sample of 6,224 individuals from the year 1721 who were exposed to\nsmallpox in Boston.  Some of them had received a vaccine (inoculated) while\nothers had not.  Doctors at the time believed that inoculation, which\ninvolves exposing a person to the disease in a controlled form, could reduce\nthe likelihood of death.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>smallpox\n</code></pre>\n<h3>Format</h3>\n<p>A data frame with 6224 observations on the following 2 variables.\n</p>\n<dl>\n<dt>result</dt><dd><p>Whether the person <code>died</code> or <code>lived</code>.</p>\n</dd>\n<dt>inoculated</dt><dd><p>Whether the person received inoculated.</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>Fenner F. 1988.  Smallpox and Its Eradication (History of\nInternational Public Health, No. 6).  Geneva: World Health Organization.\nISBN 92-4-156110-6.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>\ndata(smallpox)\ntable(smallpox)\n</code></pre>\n</main>\n</div>\n",
    "data" : {
       "y" : {
          "vars" : [
@@ -24913,18 +24926,5 @@
             "no"
          ]
       }
-   },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>smallpox</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Smallpox vaccine results</h2>\n<h3>Description</h3>\n<p>A sample of 6,224 individuals from the year 1721 who were exposed to\nsmallpox in Boston.  Some of them had received a vaccine (inoculated) while\nothers had not.  Doctors at the time believed that inoculation, which\ninvolves exposing a person to the disease in a controlled form, could reduce\nthe likelihood of death.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>smallpox\n</code></pre>\n<h3>Format</h3>\n<p>A data frame with 6224 observations on the following 2 variables.\n</p>\n<dl>\n<dt>result</dt><dd><p>Whether the person <code>died</code> or <code>lived</code>.</p>\n</dd>\n<dt>inoculated</dt><dd><p>Whether the person received inoculated.</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>Fenner F. 1988.  Smallpox and Its Eradication (History of\nInternational Public Health, No. 6).  Geneva: World Health Organization.\nISBN 92-4-156110-6.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>\ndata(smallpox)\ntable(smallpox)\n</code></pre>\n</main>\n</div>\n",
-   "config" : {
-      "segregateSamplesBy" : [
-         "inoculated"
-      ],
-      "subtitle" : "openintro - smallpox",
-      "title" : "Smallpox vaccine results",
-      "groupingFactors" : [
-         "result"
-      ],
-      "graphType" : "Boxplot",
-      "colorBy" : "variable"
    }
 }

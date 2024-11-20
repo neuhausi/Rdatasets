@@ -1,10 +1,10 @@
 {
    "config" : {
-      "shapeBy" : null,
-      "title" : "Diagnostic Tests on Patients with Cushing's Syndrome",
       "colorBy" : "Type",
+      "shapeBy" : null,
       "graphType" : "Scatter2D",
-      "subtitle" : "MASS - Cushings"
+      "subtitle" : "MASS - Cushings",
+      "title" : "Diagnostic Tests on Patients with Cushing's Syndrome"
    },
    "data" : {
       "z" : {
@@ -39,39 +39,6 @@
          ]
       },
       "y" : {
-         "vars" : [
-            "a1",
-            "a2",
-            "a3",
-            "a4",
-            "a5",
-            "a6",
-            "b1",
-            "b2",
-            "b3",
-            "b4",
-            "b5",
-            "b6",
-            "b7",
-            "b8",
-            "b9",
-            "b10",
-            "c1",
-            "c2",
-            "c3",
-            "c4",
-            "c5",
-            "u1",
-            "u2",
-            "u3",
-            "u4",
-            "u5",
-            "u6"
-         ],
-         "smps" : [
-            "Tetrahydrocortisone",
-            "Pregnanetriol"
-         ],
          "data" : [
             [
                3.1,
@@ -181,6 +148,39 @@
                20.5,
                0.8
             ]
+         ],
+         "smps" : [
+            "Tetrahydrocortisone",
+            "Pregnanetriol"
+         ],
+         "vars" : [
+            "a1",
+            "a2",
+            "a3",
+            "a4",
+            "a5",
+            "a6",
+            "b1",
+            "b2",
+            "b3",
+            "b4",
+            "b5",
+            "b6",
+            "b7",
+            "b8",
+            "b9",
+            "b10",
+            "c1",
+            "c2",
+            "c3",
+            "c4",
+            "c5",
+            "u1",
+            "u2",
+            "u3",
+            "u4",
+            "u5",
+            "u6"
          ]
       }
    },

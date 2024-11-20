@@ -1,21 +1,21 @@
 var NightingaleInfo ={
+   "format" : "A data frame with 24 observations on the following 10 variables.",
+   "reference" : "For a given cause of death, D, annual rates per 1000 are calculated as 12 * 1000 * D / Army,\nrounded to 1 decimal.",
+   "usage" : "data(Nightingale)",
+   "description" : "Description\nIn the history of data visualization, Florence Nightingale is best remembered \nfor her role as a social activist and her view that statistical data,  presented in\ncharts and diagrams, could be used as powerful arguments for medical reform.\nAfter witnessing deplorable sanitary conditions  in the Crimea, she wrote  \nseveral influential texts (Nightingale, 1858, 1859), including polar-area\ngraphs (sometimes called \"Coxcombs\" or rose diagrams), showing the number of deaths in the\nCrimean from battle compared to disease or preventable causes that could be reduced by\nbetter battlefield nursing care.\nHer Diagram of the Causes of Mortality in the Army in the East\nshowed that  most of the  British soldiers who  died  during the  Crimean War\ndied of sickness rather than of wounds  or other causes.\nIt also  showed that  the death  rate was  higher in  the first  year of the war,\nbefore a Sanitary Commissioners arrived in March 1855 to improve hygiene in the camps and hospitals.",
+   "title" : "Florence Nightingale's data on deaths from various causes in the Crimean War",
    "parameters" : {
+      "Wounds.rate" : "Annual rate of deaths directly from battle wounds, per 1000",
+      "Month" : "Month of the Crimean War, an ordered factor",
       "Army" : "Estimated average monthly strength of the British army",
       "Year" : "Year of the Crimean War",
       "Disease.rate" : "Annual rate of deaths from preventable or mitagable zymotic diseases, per 1000",
+      "Disease" : "Number of deaths from preventable or mitagable zymotic diseases",
       "Wounds" : "Number of deaths directly from battle wounds",
-      "Wounds.rate" : "Annual rate of deaths directly from battle wounds, per 1000",
-      "Month" : "Month of the Crimean War, an ordered factor",
       "Other.rate" : "Annual rate of deaths from other causes, per 1000",
       "Other" : "Number of deaths from other causes",
-      "Disease" : "Number of deaths from preventable or mitagable zymotic diseases",
       "Date" : "a Date, composed as as.Date(paste(Year, Month, 1, sep='-'), \"%Y-%b-%d\")"
-   },
-   "format" : "A data frame with 24 observations on the following 10 variables.",
-   "reference" : "For a given cause of death, D, annual rates per 1000 are calculated as 12 * 1000 * D / Army,\nrounded to 1 decimal.",
-   "title" : "Florence Nightingale's data on deaths from various causes in the Crimean War",
-   "description" : "Description\nIn the history of data visualization, Florence Nightingale is best remembered \nfor her role as a social activist and her view that statistical data,  presented in\ncharts and diagrams, could be used as powerful arguments for medical reform.\nAfter witnessing deplorable sanitary conditions  in the Crimea, she wrote  \nseveral influential texts (Nightingale, 1858, 1859), including polar-area\ngraphs (sometimes called \"Coxcombs\" or rose diagrams), showing the number of deaths in the\nCrimean from battle compared to disease or preventable causes that could be reduced by\nbetter battlefield nursing care.\nHer Diagram of the Causes of Mortality in the Army in the East\nshowed that  most of the  British soldiers who  died  during the  Crimean War\ndied of sickness rather than of wounds  or other causes.\nIt also  showed that  the death  rate was  higher in  the first  year of the war,\nbefore a Sanitary Commissioners arrived in March 1855 to improve hygiene in the camps and hospitals.",
-   "usage" : "data(Nightingale)"
+   }
 }
 
 var Nightingale = [

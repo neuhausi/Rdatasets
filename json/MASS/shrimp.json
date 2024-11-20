@@ -1,12 +1,9 @@
 {
-   "config" : {
-      "title" : "Percentage of Shrimp in Shrimp Cocktail",
-      "graphType" : "Pie",
-      "subtitle" : "MASS - shrimp"
-   },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>shrimp</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>\nPercentage of Shrimp in Shrimp Cocktail\n</h2>\n<h3>Description</h3>\n<p>A numeric vector with 18 determinations by different laboratories\nof the amount (percentage of the declared total weight) of shrimp\nin shrimp cocktail.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>shrimp\n</code></pre>\n<h3>Source</h3>\n<p>F. J. King and J. J. Ryan (1976)\nCollaborative study of the determination of the amount of shrimp in\nshrimp cocktail. <em>J. Off. Anal. Chem.</em> <b>59</b>, 644&ndash;649.\n</p>\n<p>R. G. Staudte and S. J. Sheather (1990)\n<em>Robust Estimation and Testing.</em> Wiley.\n</p>\n</main>\n</div>\n",
    "data" : {
       "y" : {
+         "smps" : [
+            "dat"
+         ],
          "data" : [
             [
                32.2
@@ -63,9 +60,6 @@
                31.7
             ]
          ],
-         "smps" : [
-            "dat"
-         ],
          "vars" : [
             "Var1",
             "Var2",
@@ -87,5 +81,11 @@
             "Var18"
          ]
       }
+   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>shrimp</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>\nPercentage of Shrimp in Shrimp Cocktail\n</h2>\n<h3>Description</h3>\n<p>A numeric vector with 18 determinations by different laboratories\nof the amount (percentage of the declared total weight) of shrimp\nin shrimp cocktail.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>shrimp\n</code></pre>\n<h3>Source</h3>\n<p>F. J. King and J. J. Ryan (1976)\nCollaborative study of the determination of the amount of shrimp in\nshrimp cocktail. <em>J. Off. Anal. Chem.</em> <b>59</b>, 644&ndash;649.\n</p>\n<p>R. G. Staudte and S. J. Sheather (1990)\n<em>Robust Estimation and Testing.</em> Wiley.\n</p>\n</main>\n</div>\n",
+   "config" : {
+      "graphType" : "Pie",
+      "title" : "Percentage of Shrimp in Shrimp Cocktail",
+      "subtitle" : "MASS - shrimp"
    }
 }

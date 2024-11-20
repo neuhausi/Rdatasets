@@ -1,0 +1,17 @@
+{
+   "usage" : "A data frame with 32 observations on the following 9 variables.",
+   "reference" : "leave, nurse and los are outcome measures; the\nremaining variables are potential predictors of recovery status.",
+   "description" : "Description\nA data set on measures of post-operative recovery of 32 patients undergoing\nan elective herniorrhaphy operation, in relation to pre-operative measures.",
+   "title" : "Recovery from Elective Herniorrhaphy",
+   "parameters" : {
+      "leave" : "condition upon leaving the recovery room, a 1-4 scale, with 1=routine recovery, 2=intensive care for observation\novernight, 3=intensive care, with moderate care required, 4=intensive care,\nwith moderate care required.",
+      "nurse" : "level of nursing required one week after operation, a\n1-5 scale, with 1=intense, 2=heavy, 3=moderate, 4=light, 5=none (?); see Details",
+      "los" : "length of stay in hospital after operation (days)",
+      "age" : "patient age",
+      "build" : "body build, a 1-5 scale, with 1=emaciated, 2=thin, 3=average, 4=fat, 5=obese.",
+      "sex" : "patient sex, a factor with levels f m",
+      "pstat" : "physical status (ignoring that associated with the operation). \nA 1-5 scale, with 1=perfect health, 5=very poor health.",
+      "resp" : "preoperative complications with respiration, 1-4 scale, with 1=none, 2=mild, \n3=moderate, 4=severe.",
+      "cardiac" : "preoperative complications with heart, 1-4 scale, with 1=none, 2=mild, 3=moderate, 4=severe."
+   }
+}

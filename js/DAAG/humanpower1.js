@@ -1,14 +1,14 @@
 var humanpower1Info ={
    "format" : "A data frame with 28 observations on the following 3 variables.",
-   "title" : "Oxygen uptake versus mechanical power, for humans",
-   "reference" : "Data in humanpower1 are from investigations (Bussolari 1987)\ndesigned to assess the feasibility of a proposed 119 kilometer human\npowered flight from the island of Crete &ndash; in the initial phase of the\nDaedalus project.  Data are for five athletes\n&ndash; a female hockey player, a male amateur tri-athlete, a female\namateur triathlete, a male wrestler and a male cyclist &ndash; who were\nselected from volunteers who were recruited through the news media,\nData in humanpower2) are for four out of the 25 applicants who\n    were selected for further testing, in the lead-up to the eventual\n    selection of a pilot for the Daedalus project (Nadel and Bussolari 1988).",
    "parameters" : {
       "id" : "a factor with levels 1 - 5 (humanpower1)\nor 1 - 4 (humanpower2), identifying the different athletes",
       "wattsPerKg" : "a numeric vector: watts per kilogram of body weight",
       "o2" : "a numeric vector: ml/min/kg"
    },
-   "usage" : "data(humanpower1)",
-   "description" : "Description\nData are from Daedalus project; see the reference below."
+   "title" : "Oxygen uptake versus mechanical power, for humans",
+   "description" : "Description\nData are from Daedalus project; see the reference below.",
+   "reference" : "Data in humanpower1 are from investigations (Bussolari 1987)\ndesigned to assess the feasibility of a proposed 119 kilometer human\npowered flight from the island of Crete &ndash; in the initial phase of the\nDaedalus project.  Data are for five athletes\n&ndash; a female hockey player, a male amateur tri-athlete, a female\namateur triathlete, a male wrestler and a male cyclist &ndash; who were\nselected from volunteers who were recruited through the news media,\nData in humanpower2) are for four out of the 25 applicants who\n    were selected for further testing, in the lead-up to the eventual\n    selection of a pilot for the Daedalus project (Nadel and Bussolari 1988).",
+   "usage" : "data(humanpower1)"
 }
 
 var humanpower1 = [

@@ -1,16 +1,16 @@
 var channingInfo ={
-   "usage" : "channing",
-   "description" : "Description\nThe channing data frame has 462 rows and 5 columns.\nChanning House is a retirement centre in Palo Alto, California.  These data \nwere\ncollected between the opening of the house in 1964 until July 1, 1975.  In that\ntime 97 men and 365 women passed through the centre.  For each of these, their\nage on entry and also on leaving or death was recorded.  A large number of the\nobservations were censored mainly due to the resident being alive on July 1,\n1975 when the data was collected.  Over the time of the study 130 women and\n46 men died at Channing House.  Differences between the survival of the sexes,\ntaking age into account, was one of the primary concerns of this study.",
    "format" : "This data frame contains the following columns:",
-   "reference" : "The data were obtained from",
-   "title" : "Channing House Data",
    "parameters" : {
+      "cens" : "The indicator of right censoring.  1 indicates that the resident died at\nChanning House, 0 indicates that they left the house prior to July 1, 1975 or\nthat they were still alive and living in the centre at that date.",
+      "entry" : "The residents age (in months) on entry to the centre",
       "time" : "The length of time (in months) that the resident spent at Channing House.\n(time=exit-entry)",
       "sex" : "A factor for the sex of each resident (\"Male\" or \"Female\").",
-      "entry" : "The residents age (in months) on entry to the centre",
-      "exit" : "The age (in months) of the resident on death, leaving the centre or July 1, \n1975 whichever event occurred first.",
-      "cens" : "The indicator of right censoring.  1 indicates that the resident died at\nChanning House, 0 indicates that they left the house prior to July 1, 1975 or\nthat they were still alive and living in the centre at that date."
-   }
+      "exit" : "The age (in months) of the resident on death, leaving the centre or July 1, \n1975 whichever event occurred first."
+   },
+   "title" : "Channing House Data",
+   "description" : "Description\nThe channing data frame has 462 rows and 5 columns.\nChanning House is a retirement centre in Palo Alto, California.  These data \nwere\ncollected between the opening of the house in 1964 until July 1, 1975.  In that\ntime 97 men and 365 women passed through the centre.  For each of these, their\nage on entry and also on leaving or death was recorded.  A large number of the\nobservations were censored mainly due to the resident being alive on July 1,\n1975 when the data was collected.  Over the time of the study 130 women and\n46 men died at Channing House.  Differences between the survival of the sexes,\ntaking age into account, was one of the primary concerns of this study.",
+   "usage" : "channing",
+   "reference" : "The data were obtained from"
 }
 
 var channing = [

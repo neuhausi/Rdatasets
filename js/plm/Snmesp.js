@@ -1,18 +1,18 @@
 var SnmespInfo ={
+   "reference" : "total number of observations: 5904",
+   "usage" : "A data frame containing:",
    "description" : "Description\nA panel of 738 observations from 1983 to 1990",
+   "title" : "Employment and Wages in Spain",
    "parameters" : {
-      "n" : "log of employment",
-      "year" : "year",
       "y" : "log of real output",
-      "f" : "real cash flow",
-      "i" : "log of intermediate inputs",
       "w" : "log of wages",
       "firm" : "firm index",
-      "k" : "log of real capital stock"
-   },
-   "usage" : "A data frame containing:",
-   "title" : "Employment and Wages in Spain",
-   "reference" : "total number of observations: 5904"
+      "k" : "log of real capital stock",
+      "n" : "log of employment",
+      "year" : "year",
+      "f" : "real cash flow",
+      "i" : "log of intermediate inputs"
+   }
 }
 
 var Snmesp = [

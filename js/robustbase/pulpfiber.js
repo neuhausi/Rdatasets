@@ -1,19 +1,19 @@
 var pulpfiberInfo ={
-   "usage" : "data(pulpfiber, package=\"robustbase\")",
-   "description" : "Description\nMeasurements of aspects pulp fibers and the paper produced from them.\nFour properties of each are measured in sixty-two samples.",
-   "reference" : "Cited from the reference article:\nThe dataset contains measurements of properties of pulp fibers and the\npaper made from them.  The aim is to investigate relations between pulp\nfiber properties and the resulting paper properties.  The dataset\ncontains n = 62 measurements of the following four pulp fiber\ncharacteristics: arithmetic fiber length, long fiber fraction, fine\nfiber fraction, and zero span tensile.  The four paper properties that\nhave been measured are breaking length, elastic modulus, stress at\nfailure, and burst strength.",
    "format" : "A data frame with 62 observations on the following 8 variables.",
-   "title" : "Pulp Fiber and Paper Data",
    "parameters" : {
+      "Y3" : "numeric vector of stress at failure",
+      "X3" : "numeric vector of fine fiber fraction",
       "X2" : "numeric vector of long fiber fraction",
       "Y2" : "numeric vector of elastic modulus",
       "X4" : "numeric vector of zero span tensile",
-      "Y1" : "numeric vector of breaking length",
-      "X1" : "numeric vector of arithmetic fiber length",
       "Y4" : "numeric vector of burst strength",
-      "X3" : "numeric vector of fine fiber fraction",
-      "Y3" : "numeric vector of stress at failure"
-   }
+      "X1" : "numeric vector of arithmetic fiber length",
+      "Y1" : "numeric vector of breaking length"
+   },
+   "usage" : "data(pulpfiber, package=\"robustbase\")",
+   "reference" : "Cited from the reference article:\nThe dataset contains measurements of properties of pulp fibers and the\npaper made from them.  The aim is to investigate relations between pulp\nfiber properties and the resulting paper properties.  The dataset\ncontains n = 62 measurements of the following four pulp fiber\ncharacteristics: arithmetic fiber length, long fiber fraction, fine\nfiber fraction, and zero span tensile.  The four paper properties that\nhave been measured are breaking length, elastic modulus, stress at\nfailure, and burst strength.",
+   "description" : "Description\nMeasurements of aspects pulp fibers and the paper produced from them.\nFour properties of each are measured in sixty-two samples.",
+   "title" : "Pulp Fiber and Paper Data"
 }
 
 var pulpfiber = [

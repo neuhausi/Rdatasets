@@ -1,0 +1,19 @@
+{
+   "format" : "A dataframe containing :",
+   "parameters" : {
+      "comserd" : "mandatory community service ?",
+      "unrate" : "unemployment rate",
+      "vmiles" : "average miles per driver",
+      "mlda" : "minimum legal drinking age",
+      "jaild" : "mandatory jail sentence ?",
+      "perinc" : "per capita personal income",
+      "year" : "year",
+      "mrall" : "traffic fatality rate (deaths per 10000)",
+      "beertax" : "tax on case of beer",
+      "state" : "state ID code"
+   },
+   "usage" : "data(Fatality)",
+   "reference" : "Pr. Christopher J. Ruhm, Department of Economics, University of North Carolina.",
+   "description" : "Description\na panel of 48 observations  from 1982  to 1988\nnumber of observations :  336\nobservation :  regional\ncountry :  United States",
+   "title" : "Drunk Driving Laws and Traffic Deaths"
+}

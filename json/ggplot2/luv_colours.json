@@ -1,11 +1,10 @@
 {
    "config" : {
-      "graphType" : "Scatter3D",
       "colorBy" : "col",
-      "title" : "'colors()' in Luv space",
-      "subtitle" : "ggplot2 - luv_colours"
+      "graphType" : "Scatter3D",
+      "subtitle" : "ggplot2 - luv_colours",
+      "title" : "'colors()' in Luv space"
    },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>luv_colours</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2><code>colors()</code> in Luv space</h2>\n<h3>Description</h3>\n<p>All built-in <code>colors()</code> translated into Luv colour space.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>luv_colours\n</code></pre>\n<h3>Format</h3>\n<p>A data frame with 657 observations and 4 variables:\n</p>\n<dl>\n<dt>L,u,v</dt><dd><p>Position in Luv colour space</p>\n</dd>\n<dt>col</dt><dd><p>Colour name</p>\n</dd>\n</dl>\n</main>\n</div>\n",
    "data" : {
       "z" : {
          "col" : [
@@ -669,6 +668,11 @@
          ]
       },
       "y" : {
+         "smps" : [
+            "L",
+            "u",
+            "v"
+         ],
          "data" : [
             [
                9341.57022199546,
@@ -4614,12 +4618,8 @@
             "Var655",
             "Var656",
             "Var657"
-         ],
-         "smps" : [
-            "L",
-            "u",
-            "v"
          ]
       }
-   }
+   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>luv_colours</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2><code>colors()</code> in Luv space</h2>\n<h3>Description</h3>\n<p>All built-in <code>colors()</code> translated into Luv colour space.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>luv_colours\n</code></pre>\n<h3>Format</h3>\n<p>A data frame with 657 observations and 4 variables:\n</p>\n<dl>\n<dt>L,u,v</dt><dd><p>Position in Luv colour space</p>\n</dd>\n<dt>col</dt><dd><p>Colour name</p>\n</dd>\n</dl>\n</main>\n</div>\n"
 }

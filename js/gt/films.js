@@ -1,18 +1,18 @@
 var filmsInfo ={
-   "usage" : "films",
-   "description" : "Description\nEach entry in the films is a feature film that appeared in the official\nselection during a festival year (starting in 1946 and active to the present\nday). The year column refers to the year of the festival and this figure\ndoesn't always coincide with the release year of the film. The film's title\nreflects the most common title of the film in English, where the\noriginal_title column provides the title of the film in its spoken language\n(transliterated to Roman script where necessary).",
-   "format" : "A tibble with 1,851 rows and 8 variables:",
-   "title" : "Feature films in competition at the Cannes Film Festival",
-   "reference" : "Here is a glimpse at the data available in films.",
    "parameters" : {
-      "title,original_title" : "The title field provides the film title used\nfor English-speaking audiences. The original_title field is populated when\ntitle differs greatly from the non-English original.",
-      "run_time" : "The run time of the film in hours and minutes. This is given\nas a string in the format &#8288;[x]h [y]m&#8288;.",
-      "director" : "The director or set of co-directors for the film. Multiple\ndirectors are separated by a comma.",
       "imdb_url" : "The URL of the film's information page in the Internet Movie\nDatabase (IMDB).",
-      "year" : "The year of the festival in which the film was in competition.",
+      "countries_of_origin" : "The country or countries of origin for the\nproduction. Here, 2-letter ISO 3166-1 country codes (set in uppercase) are\nused.",
+      "run_time" : "The run time of the film in hours and minutes. This is given\nas a string in the format &#8288;[x]h [y]m&#8288;.",
+      "title,original_title" : "The title field provides the film title used\nfor English-speaking audiences. The original_title field is populated when\ntitle differs greatly from the non-English original.",
       "languages" : "The languages spoken in the film in the order of appearance.\nThis consists of ISO 639 language codes (primarily as two-letter codes, but\nusing three-letter codes where necessary).",
-      "countries_of_origin" : "The country or countries of origin for the\nproduction. Here, 2-letter ISO 3166-1 country codes (set in uppercase) are\nused."
-   }
+      "year" : "The year of the festival in which the film was in competition.",
+      "director" : "The director or set of co-directors for the film. Multiple\ndirectors are separated by a comma."
+   },
+   "title" : "Feature films in competition at the Cannes Film Festival",
+   "description" : "Description\nEach entry in the films is a feature film that appeared in the official\nselection during a festival year (starting in 1946 and active to the present\nday). The year column refers to the year of the festival and this figure\ndoesn't always coincide with the release year of the film. The film's title\nreflects the most common title of the film in English, where the\noriginal_title column provides the title of the film in its spoken language\n(transliterated to Roman script where necessary).",
+   "usage" : "films",
+   "reference" : "Here is a glimpse at the data available in films.",
+   "format" : "A tibble with 1,851 rows and 8 variables:"
 }
 
 var films = [

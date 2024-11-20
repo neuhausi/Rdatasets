@@ -1,22 +1,22 @@
 var UnempDurInfo ={
+   "format" : "A time series containing :",
+   "title" : "Unemployment Duration",
+   "description" : "Description\nJournal of Business Economics and Statistics web site : https://amstat.tandfonline.com/loi/ubes20\nnumber of observations :  3343",
+   "reference" : "McCall, B.P. (1996) &ldquo;Unemployment Insurance Rules, Joblessness, and Part-time Work&rdquo;, Econometrica, 64, 647&ndash;682.",
+   "usage" : "data(UnempDur)",
    "parameters" : {
-      "reprate" : "eligible replacement rate",
-      "logwage" : "log weekly earnings in lost job (1985$)",
-      "censor1" : "= 1 if re-employed at full-time job",
-      "disrate" : "eligible disregard rate",
-      "tenure" : "years tenure in lost job",
-      "spell" : "length of spell in number of two-week intervals",
       "censor2" : "= 1 if re-employed at part-time job",
+      "disrate" : "eligible disregard rate",
       "age" : "age",
       "ui" : "= 1 if filed UI claim",
+      "tenure" : "years tenure in lost job",
+      "logwage" : "log weekly earnings in lost job (1985$)",
+      "reprate" : "eligible replacement rate",
       "censor4" : "1 if still jobless",
+      "censor1" : "= 1 if re-employed at full-time job",
+      "spell" : "length of spell in number of two-week intervals",
       "censor3" : "1 if re-employed but left job: pt-ft status unknown"
-   },
-   "title" : "Unemployment Duration",
-   "reference" : "McCall, B.P. (1996) &ldquo;Unemployment Insurance Rules, Joblessness, and Part-time Work&rdquo;, Econometrica, 64, 647&ndash;682.",
-   "format" : "A time series containing :",
-   "description" : "Description\nJournal of Business Economics and Statistics web site : https://amstat.tandfonline.com/loi/ubes20\nnumber of observations :  3343",
-   "usage" : "data(UnempDur)"
+   }
 }
 
 var UnempDur = [

@@ -1,15 +1,15 @@
 var AnscombeInfo ={
+   "title" : "U. S. State Public-School Expenditures",
    "description" : "Description\nThe Anscombe data frame has 51 rows and 4 columns.\nThe observations are the U. S. states plus Washington, D. C. in 1970.",
    "usage" : "Anscombe",
+   "reference" : "Anscombe, F. J. (1981)\nComputing in Statistical Science Through APL. Springer-Verlag.",
    "parameters" : {
       "young" : "Proportion under 18, per 1000.",
-      "income" : "Per-capita income, dollars.",
       "urban" : "Proportion urban, per 1000.",
+      "income" : "Per-capita income, dollars.",
       "education" : "Per-capita education expenditures, dollars."
    },
-   "format" : "This data frame contains the following columns:",
-   "title" : "U. S. State Public-School Expenditures",
-   "reference" : "Anscombe, F. J. (1981)\nComputing in Statistical Science Through APL. Springer-Verlag."
+   "format" : "This data frame contains the following columns:"
 }
 
 var Anscombe = [

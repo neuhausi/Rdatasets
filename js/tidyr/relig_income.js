@@ -1,13 +1,13 @@
 var relig_incomeInfo ={
-   "description" : "Description\nPew religion and income survey",
-   "usage" : "relig_income",
    "parameters" : {
-      "religion" : "Name of religion",
-      "&#8288;<$10k&#8288;-&#8288;Don\\'t know/refused&#8288;" : "Number of respondees with\nincome range in column name"
+      "&#8288;<$10k&#8288;-&#8288;Don\\'t know/refused&#8288;" : "Number of respondees with\nincome range in column name",
+      "religion" : "Name of religion"
    },
-   "format" : "A dataset with variables:",
+   "usage" : "relig_income",
+   "reference" : "Downloaded from https://www.pewresearch.org/religion/religious-landscape-study/\n(downloaded November 2009)",
    "title" : "Pew religion and income survey",
-   "reference" : "Downloaded from https://www.pewresearch.org/religion/religious-landscape-study/\n(downloaded November 2009)"
+   "description" : "Description\nPew religion and income survey",
+   "format" : "A dataset with variables:"
 }
 
 var relig_income = [

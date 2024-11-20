@@ -1,19 +1,19 @@
 var nutsInfo ={
    "description" : "Description\nSquirrel data set (nuts) from Zuur, Hilbe, and Ieno (2013).  As originally \nreported by Flaherty et al (2012), researchers recorded information about \nsquirrel behavior and forest attributes across various plots in \nScotland's Abernathy Forest. The study focused on the following variables.\nresponse      cones\t number of cones stripped by red squirrels per plot\npredictor  \tsntrees  standardized number of trees per plot\nsheight standardized mean tree height per plot\nscover   standardized percentage of canopy cover per plot\nThe stripped cone count was only taken when the mean diameter of trees was under 0.6m (dbh).",
+   "title" : "nuts",
+   "reference" : "nuts is saved as a data frame.\nCount models use ntrees as response variable. Counts start at 3",
    "usage" : "data(nuts)",
    "parameters" : {
+      "ntrees" : "number of trees per plot",
       "sntrees" : "standardized number of trees per plot",
       "cover" : "canopy closure (as a percentage)",
-      "scover" : "standardized canopy closure (as a percentage)",
-      "sheight" : "standardized mean tree height per plot",
-      "cones" : "number cones stripped by squirrels",
-      "dbh" : "number DBH per plot",
       "height" : "mean tree height per plot",
-      "ntrees" : "number of trees per plot"
+      "cones" : "number cones stripped by squirrels",
+      "sheight" : "standardized mean tree height per plot",
+      "scover" : "standardized canopy closure (as a percentage)",
+      "dbh" : "number DBH per plot"
    },
-   "format" : "A data frame with 52 observations on the following 8 variables.",
-   "title" : "nuts",
-   "reference" : "nuts is saved as a data frame.\nCount models use ntrees as response variable. Counts start at 3"
+   "format" : "A data frame with 52 observations on the following 8 variables."
 }
 
 var nuts = [

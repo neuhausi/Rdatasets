@@ -1,16 +1,16 @@
 var paintersInfo ={
    "format" : "The row names of the data frame are the painters. The components are:",
-   "title" : "The Painter's Data of de Piles",
    "reference" : "A. J. Weekes (1986)\nA Genstat Primer. Edward Arnold.",
-   "parameters" : {
-      "Colour" : "Colour score.",
-      "School" : "The school to which a painter belongs, as indicated by a factor level\ncode as follows:\n\"A\": Renaissance;\n\"B\": Mannerist;\n\"C\": Seicento;\n\"D\": Venetian;\n\"E\": Lombard;\n\"F\": Sixteenth Century;\n\"G\": Seventeenth Century;\n\"H\": French.",
-      "Expression" : "Expression score.",
-      "Composition" : "Composition score.",
-      "Drawing" : "Drawing score."
-   },
    "usage" : "painters",
-   "description" : "Description\nThe subjective assessment, on a 0 to 20 integer scale, of 54\nclassical painters.  The painters were assessed on four characteristics:\ncomposition, drawing, colour and expression.  The data is due to the\nEighteenth century art critic, de Piles."
+   "description" : "Description\nThe subjective assessment, on a 0 to 20 integer scale, of 54\nclassical painters.  The painters were assessed on four characteristics:\ncomposition, drawing, colour and expression.  The data is due to the\nEighteenth century art critic, de Piles.",
+   "title" : "The Painter's Data of de Piles",
+   "parameters" : {
+      "School" : "The school to which a painter belongs, as indicated by a factor level\ncode as follows:\n\"A\": Renaissance;\n\"B\": Mannerist;\n\"C\": Seicento;\n\"D\": Venetian;\n\"E\": Lombard;\n\"F\": Sixteenth Century;\n\"G\": Seventeenth Century;\n\"H\": French.",
+      "Colour" : "Colour score.",
+      "Composition" : "Composition score.",
+      "Drawing" : "Drawing score.",
+      "Expression" : "Expression score."
+   }
 }
 
 var painters = [

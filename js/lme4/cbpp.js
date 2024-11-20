@@ -1,14 +1,14 @@
 var cbppInfo ={
-   "reference" : "Serological status was determined using a competitive\nenzyme-linked immuno-sorbent assay (cELISA).",
-   "title" : "Contagious bovine pleuropneumonia",
-   "usage" : "A data frame with 56 observations on the following 4 variables.",
-   "description" : "Description\nContagious bovine pleuropneumonia (CBPP) is a major\ndisease of cattle in Africa, caused by a mycoplasma.\nThis dataset describes the serological incidence of CBPP\nin zebu cattle during a follow-up survey implemented in\n15 commercial herds located in the Boji district of\nEthiopia.  The goal of the survey was to study the\nwithin-herd spread of CBPP in newly infected herds. Blood\nsamples were quarterly collected from all animals of\nthese herds to determine their CBPP status.  These data\nwere used to compute the serological incidence of CBPP\n(new cases occurring during a given time period).  Some\ndata are missing (lost to follow-up).",
    "parameters" : {
-      "herd" : "A factor identifying the herd (1 to 15).",
-      "size" : "A numeric vector describing herd size at the\nbeginning of a given time period.",
       "incidence" : "The number of new serological cases for a\ngiven herd and time period.",
-      "period" : "A factor with levels 1 to 4."
-   }
+      "size" : "A numeric vector describing herd size at the\nbeginning of a given time period.",
+      "period" : "A factor with levels 1 to 4.",
+      "herd" : "A factor identifying the herd (1 to 15)."
+   },
+   "reference" : "Serological status was determined using a competitive\nenzyme-linked immuno-sorbent assay (cELISA).",
+   "usage" : "A data frame with 56 observations on the following 4 variables.",
+   "title" : "Contagious bovine pleuropneumonia",
+   "description" : "Description\nContagious bovine pleuropneumonia (CBPP) is a major\ndisease of cattle in Africa, caused by a mycoplasma.\nThis dataset describes the serological incidence of CBPP\nin zebu cattle during a follow-up survey implemented in\n15 commercial herds located in the Boji district of\nEthiopia.  The goal of the survey was to study the\nwithin-herd spread of CBPP in newly infected herds. Blood\nsamples were quarterly collected from all animals of\nthese herds to determine their CBPP status.  These data\nwere used to compute the serological incidence of CBPP\n(new cases occurring during a given time period).  Some\ndata are missing (lost to follow-up)."
 }
 
 var cbpp = [

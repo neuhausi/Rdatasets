@@ -1,18 +1,18 @@
 var spam7Info ={
-   "description" : "Description\nThe data consist of 4601 email items, of which 1813 items were identified\nas spam.  This is a subset of the full dataset, with six only of the\n57 explanatory variables in the complete dataset.",
-   "usage" : "spam7",
    "parameters" : {
       "yesno" : "outcome variable, a factor with levels\nn not spam,\ny spam",
-      "dollar" : "Occurrences of &lsquo;$&rsquo;, as percent of total number of characters",
       "bang" : "Occurrences of &lsquo;!&rsquo;, as percent of total number of characters",
-      "make" : "Occurrences of &lsquo;make&rsquo;, as % of total number of words",
-      "crl.tot" : "total length of uninterrupted sequences of capitals",
+      "money" : "Occurrences of &lsquo;money&rsquo;, as percent of total number of words",
       "n000" : "Occurrences of the string &lsquo;000&rsquo;, as percent of total\nnumber of words",
-      "money" : "Occurrences of &lsquo;money&rsquo;, as percent of total number of words"
+      "dollar" : "Occurrences of &lsquo;$&rsquo;, as percent of total number of characters",
+      "crl.tot" : "total length of uninterrupted sequences of capitals",
+      "make" : "Occurrences of &lsquo;make&rsquo;, as % of total number of words"
    },
-   "format" : "Columns included are:",
+   "usage" : "spam7",
+   "reference" : "George Forman, Hewlett-Packard Laboratories",
    "title" : "Spam E-mail Data",
-   "reference" : "George Forman, Hewlett-Packard Laboratories"
+   "description" : "Description\nThe data consist of 4601 email items, of which 1813 items were identified\nas spam.  This is a subset of the full dataset, with six only of the\n57 explanatory variables in the complete dataset.",
+   "format" : "Columns included are:"
 }
 
 var spam7 = [

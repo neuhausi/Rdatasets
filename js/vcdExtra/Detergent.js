@@ -1,8 +1,8 @@
 var DetergentInfo ={
-   "title" : "Detergent preference data",
    "format" : "A 4-dimensional array resulting from cross-tabulating 4 variables for  1008 observations. The variable names and their levels are:",
    "usage" : "data(Detergent)",
-   "description" : "Description\nCross-classification of a sample of 1008 consumers according to \n(a) the softness of the laundry water used, (b) previous use of detergent Brand M, (c) the temperature of laundry water used and (d) expressed preference for Brand X or Brand M in a blind trial."
+   "description" : "Description\nCross-classification of a sample of 1008 consumers according to \n(a) the softness of the laundry water used, (b) previous use of detergent Brand M, (c) the temperature of laundry water used and (d) expressed preference for Brand X or Brand M in a blind trial.",
+   "title" : "Detergent preference data"
 }
 
 var Detergent = [

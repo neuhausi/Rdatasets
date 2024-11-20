@@ -1,0 +1,13 @@
+{
+   "format" : "A dataframe containing :",
+   "description" : "Description\na cross-section\nnumber of observations :  2412\nobservation :  individuals\ncountry :  United States",
+   "title" : "Choice of Brand for Yogurts",
+   "usage" : "data(Yogurt)",
+   "reference" : "Jain, Dipak C.,  Naufel J.    Vilcassim and  Pradeep K.  Chintagunta (1994) &ldquo;A random&ndash;coefficients logit brand&ndash;choice model applied to panel data&rdquo;, Journal of Business and Economics Statistics, 12(3), 317.",
+   "parameters" : {
+      "id" : "individuals identifiers",
+      "feat.z" : "is there a newspaper feature \nadvertisement for brand z?",
+      "choice" : "one of yoplait, dannon, \nhiland, weight (weight \nwatcher)",
+      "price.z" : "price of brand z"
+   }
+}

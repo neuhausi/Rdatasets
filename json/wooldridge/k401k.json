@@ -12292,16 +12292,6 @@
                8.06683540344238
             ]
          ],
-         "vars" : [
-            "prate",
-            "mrate",
-            "totpart",
-            "totelg",
-            "age",
-            "totemp",
-            "sole",
-            "ltotemp"
-         ],
          "smps" : [
             "Smp1",
             "Smp2",
@@ -13837,12 +13827,22 @@
             "Smp1532",
             "Smp1533",
             "Smp1534"
+         ],
+         "vars" : [
+            "prate",
+            "mrate",
+            "totpart",
+            "totelg",
+            "age",
+            "totemp",
+            "sole",
+            "ltotemp"
          ]
       }
    },
    "config" : {
-      "graphType" : "Heatmap",
+      "subtitle" : "wooldridge - k401k",
       "title" : "k401k",
-      "subtitle" : "wooldridge - k401k"
+      "graphType" : "Heatmap"
    }
 }

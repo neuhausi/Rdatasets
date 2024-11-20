@@ -1,28 +1,28 @@
 var MCASInfo ={
-   "description" : "Description\na cross-section from 1997-1998\nnumber of observations :  220\nobservation :  schools\ncountry :  United States",
-   "usage" : "data(MCAS)",
+   "format" : "A dataframe containing :",
    "parameters" : {
       "pctel" : "percent English learners",
-      "totsc4" : "4th grade score (math+english+science)",
-      "municipa" : "municipality (name)",
-      "tchratio" : "students per teacher",
-      "spc" : "students per computer",
       "totday" : "spending per pupil, total",
-      "regday" : "spending per pupil, regular",
-      "occupday" : "spending per pupil, occupational",
+      "tchratio" : "students per teacher",
       "speced" : "special education students",
       "totsc8" : "8th grade score (math+english+science)",
-      "lnchpct" : "eligible for free or reduced price lunch",
-      "avgsalary" : "average teacher salary",
-      "percap" : "per capita income",
+      "specneed" : "spending per pupil, special needs",
+      "municipa" : "municipality (name)",
+      "occupday" : "spending per pupil, occupational",
       "bilingua" : "spending per pupil, bilingual",
       "code" : "district code (numerical)",
-      "specneed" : "spending per pupil, special needs",
-      "district" : "district name"
+      "totsc4" : "4th grade score (math+english+science)",
+      "district" : "district name",
+      "percap" : "per capita income",
+      "spc" : "students per computer",
+      "avgsalary" : "average teacher salary",
+      "regday" : "spending per pupil, regular",
+      "lnchpct" : "eligible for free or reduced price lunch"
    },
-   "title" : "The Massachusetts Test Score Data Set",
-   "format" : "A dataframe containing :",
-   "reference" : "Massachusetts Comprehensive Assessment System (MCAS), Massachusetts Department of Education, 1990 U.S. Census."
+   "reference" : "Massachusetts Comprehensive Assessment System (MCAS), Massachusetts Department of Education, 1990 U.S. Census.",
+   "usage" : "data(MCAS)",
+   "description" : "Description\na cross-section from 1997-1998\nnumber of observations :  220\nobservation :  schools\ncountry :  United States",
+   "title" : "The Massachusetts Test Score Data Set"
 }
 
 var MCAS = [

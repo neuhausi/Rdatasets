@@ -1,7 +1,7 @@
 var PulseInfo ={
+   "usage" : "A dataset with 232 observations on the following 7 variables.",
    "description" : "Description\nPulse rates before and after exercise for a sample of statistics students",
-   "title" : "Pulse Rates and Exercise",
-   "usage" : "A dataset with 232 observations on the following 7 variables."
+   "title" : "Pulse Rates and Exercise"
 }
 
 var Pulse = [

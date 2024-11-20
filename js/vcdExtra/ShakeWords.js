@@ -1,13 +1,13 @@
 var ShakeWordsInfo ={
-   "parameters" : {
-      "Freq" : "the number of different words (types) appearing with this count.",
-      "count" : "the number of times a word type appeared in Shakespeare's written works"
-   },
-   "title" : "Shakespeare's Word Type Frequencies",
+   "usage" : "data(ShakeWords)",
    "reference" : "In addition to the words that appear 1:100 times, there are 846 words \nthat appear more than 100 times, not listed in this data set.",
-   "format" : "A data frame with 100 observations on the following 2 variables.",
    "description" : "Description\nThis data set, from Efron and Thisted (1976), \ngives the number of distinct words types (Freq) of words\nthat appeared exactly once, twice, etc. up to 100 times (count)\nin the complete works of Shakespeare.  In these works, Shakespeare\nused 31,534 distinct words (types), comprising 884,647 words in total.\nEfron & Thisted used this data to ask the question, \"How many\nwords did Shakespeare know?\"  Put another way, suppose another\nnew corpus of works Shakespeare were discovered, also with\n884,647 words. How many new word types would appear?\nThe answer to the main question involves contemplating\nan infinite number of such new corpora.",
-   "usage" : "data(ShakeWords)"
+   "title" : "Shakespeare's Word Type Frequencies",
+   "parameters" : {
+      "count" : "the number of times a word type appeared in Shakespeare's written works",
+      "Freq" : "the number of different words (types) appearing with this count."
+   },
+   "format" : "A data frame with 100 observations on the following 2 variables."
 }
 
 var ShakeWords = [

@@ -1,0 +1,16 @@
+{
+   "description" : "Description\ndaily observations from 1980&ndash;01 to 1987&ndash;05&ndash;21\nnumber of observations :  1867\nobservation :  country\ncountry :  World",
+   "title" : "Daily Observations on Exchange Rates of the US Dollar Against Other Currencies",
+   "usage" : "data(Garch)",
+   "parameters" : {
+      "dm" : "exchange rate Dollar/Deutsch Mark",
+      "bp" : "exchange rate of Dollar/British Pound",
+      "dy" : "exchange rate of Dollar/Yen",
+      "date" : "date of observation (yymmdd)",
+      "ddm" : "dm-dm(-1)",
+      "cd" : "exchange rate of Dollar/Canadian Dollar",
+      "sf" : "exchange rate of Dollar/Swiss Franc",
+      "day" : "day of the week (a factor)"
+   },
+   "format" : "A dataframe containing :"
+}

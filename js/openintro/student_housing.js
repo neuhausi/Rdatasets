@@ -1,12 +1,12 @@
 var student_housingInfo ={
-   "reference" : "set.seed(5)\ngenerate_student_housing <- data.frame(\n  price = round(rnorm(175, 515, 65) + exp(rnorm(175, 4.2, 1)))\n)\nhist(student_housing$price, 20)\nt.test(student_housing$price)\nmean(student_housing$price)\nsd(student_housing$price)\nidentical(student_housing, generate_student_housing)",
-   "format" : "A data frame with 175 observations on the following variable.",
-   "title" : "Community college housing (simulated data, 2015)",
    "parameters" : {
       "price" : "Monthly housing price, simulated."
    },
    "usage" : "student_housing",
-   "description" : "Description\nThese are simulated data and intended to represent housing prices of\nstudents at a college."
+   "reference" : "set.seed(5)\ngenerate_student_housing <- data.frame(\n  price = round(rnorm(175, 515, 65) + exp(rnorm(175, 4.2, 1)))\n)\nhist(student_housing$price, 20)\nt.test(student_housing$price)\nmean(student_housing$price)\nsd(student_housing$price)\nidentical(student_housing, generate_student_housing)",
+   "title" : "Community college housing (simulated data, 2015)",
+   "description" : "Description\nThese are simulated data and intended to represent housing prices of\nstudents at a college.",
+   "format" : "A data frame with 175 observations on the following variable."
 }
 
 var student_housing = [

@@ -1,10 +1,10 @@
 {
    "config" : {
-      "subtitle" : "vcdExtra - Asbestos",
-      "scatterPlotMatrix" : 1,
+      "colorBy" : null,
       "graphType" : "Scatter2D",
+      "scatterPlotMatrix" : 1,
       "title" : "Effect of Exposure to Asbestos",
-      "colorBy" : null
+      "subtitle" : "vcdExtra - Asbestos"
    },
    "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>Asbestos</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>\nEffect of Exposure to Asbestos\n</h2>\n<h3>Description</h3>\n<p>A two-way\ncontingency table formed from the cross-classification of\nthe number of years of occupational exposure to asbestos and\nthe diagnosed severity of asbestosis of 1117 New York workers.\nAsbestosis is a chronic lung disease that results in the lung\ntissue being scared due to contact with the fibers which can\nlead to severe breathing difficulties.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(\"Asbestos\")</code></pre>\n<h3>Format</h3>\n<p>The format is:\nnum [1:5, 1:4] 310 212 21 25 7 36 158 35 102 35 ...\n- attr(*, &quot;dimnames&quot;)=List of 2\n..$ exposure: chr [1:5] &quot;0-9&quot; &quot;10-19&quot; &quot;20-29&quot; &quot;30-39&quot; ...\n..$ grade   : chr [1:4] &quot;None&quot; &quot;Grade 1&quot; &quot;Grade 2&quot; &quot;Grade 3&quot;\n</p>\n<h3>Details</h3>\n<p><code>exposure</code> and <code>grade</code> should be regarded as ordered factors.\nBeh and Lombardo (2022) use this data to illustrate a polynomial\nbiplot for ordered categories.\n</p>\n<p>The data summarized here was studied by Beh and Smith (2011) and\ncomes from the original data collected and published by Selikoff\n(1981) who examined the link between asbestos exposure and\nasbestosis severity in 1963.\n</p>\n<h3>Source</h3>\n<p>Beh, E. J. &amp; Lombardo, R. (2022). Features of the Polynomial Biplot for\nOrdered Contingency Tables, \n<em>Journal of Computational and Graphical Statistics</em>, 31:2, 403-412,\nDOI: 10.1080/10618600.2021.1990773, Table 1.\n</p>\n<h3>References</h3>\n<p>Beh, E. J., and D. R. Smith (2011b), Real World Occupational Epidemiology, Part 2: A Visual Interpretation of Statistical Significance, \n<em>Archives of Environmental &amp; Occupational Health</em>, <b>66</b>, 245-248.\n</p>\n<p>Selikoff, I. J. (1981), Household Risks With Inorganic Fibers,\n<em>Bulletin of the New York Academy of Medicine</em>, <b>57</b>, 947-961.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>data(Asbestos)\n# mosaic plot\nvcd::mosaic(Asbestos, shade=TRUE, legend=FALSE)\n# do the correspondence analysis\nlibrary(ca)\nAsbestos.ca &lt;- ca(Asbestos) \nplot(Asbestos.ca, lines=TRUE) \n</code></pre>\n</main>\n</div>\n",
    "data" : {
@@ -15,12 +15,6 @@
             "20-29",
             "30-39",
             "40+"
-         ],
-         "smps" : [
-            "None",
-            "Grade 1",
-            "Grade 2",
-            "Grade 3"
          ],
          "data" : [
             [
@@ -53,6 +47,12 @@
                51,
                28
             ]
+         ],
+         "smps" : [
+            "None",
+            "Grade 1",
+            "Grade 2",
+            "Grade 3"
          ]
       }
    }

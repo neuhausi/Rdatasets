@@ -1,8 +1,8 @@
 var HeartInfo ={
-   "usage" : "data(Heart)",
-   "title" : "Sex, Occupation and Heart Disease",
    "format" : "A 3-dimensional array resulting from cross-tabulating 3 variables for 21522 observations. The variable names and their levels are:",
-   "description" : "Description\nClassification of individuals by gender, occupational category and occurrence of heart disease"
+   "title" : "Sex, Occupation and Heart Disease",
+   "description" : "Description\nClassification of individuals by gender, occupational category and occurrence of heart disease",
+   "usage" : "data(Heart)"
 }
 
 var Heart = [

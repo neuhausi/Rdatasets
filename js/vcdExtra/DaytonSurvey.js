@@ -1,17 +1,17 @@
 var DaytonSurveyInfo ={
-   "format" : "A frequency data frame with 32 observations on the following 6 variables.",
-   "reference" : "Agresti uses the letters G (sex), R (race),\nA (alcohol), C (cigarette), M (marijuana) to refer to the table variables,\nand this usage is followed in the examples below.",
+   "description" : "Description\nThis data, from Agresti (2002), Table 9.1, gives the result of a 1992\nsurvey in Dayton Ohio of  2276 high school seniors on\nwhether they had ever used \nalcohol, cigarettes and marijuana.",
    "title" : "Dayton Student Survey on Substance Use",
+   "reference" : "Agresti uses the letters G (sex), R (race),\nA (alcohol), C (cigarette), M (marijuana) to refer to the table variables,\nand this usage is followed in the examples below.",
+   "usage" : "data(DaytonSurvey)",
    "parameters" : {
       "marijuana" : "a factor with levels Yes No",
-      "race" : "a factor with levels white other",
-      "Freq" : "a numeric vector",
-      "sex" : "a factor with levels female male",
       "cigarette" : "a factor with levels Yes No",
-      "alcohol" : "a factor with levels Yes No"
+      "Freq" : "a numeric vector",
+      "alcohol" : "a factor with levels Yes No",
+      "race" : "a factor with levels white other",
+      "sex" : "a factor with levels female male"
    },
-   "usage" : "data(DaytonSurvey)",
-   "description" : "Description\nThis data, from Agresti (2002), Table 9.1, gives the result of a 1992\nsurvey in Dayton Ohio of  2276 high school seniors on\nwhether they had ever used \nalcohol, cigarettes and marijuana."
+   "format" : "A frequency data frame with 32 observations on the following 6 variables."
 }
 
 var DaytonSurvey = [

@@ -1,20 +1,20 @@
 var vote92Info ={
-   "usage" : "data(vote92)",
-   "description" : "Description\nSurvey data containing self-reports of vote choice in the 1992 U.S. Presidential election, with numerous covariates, from the 1992 American National Election Studies.",
-   "reference" : "These data are unweighted.  Refer to the original data source for weights that purport to correct for non-representativeness and non-response.",
-   "title" : "Reports of voting in the 1992 U.S. Presidential election.",
    "format" : "A data frame with 909 observations on the following 10 variables.",
    "parameters" : {
-      "perotdis" : "a numeric vector, squared ideological distance of the respondent from the Reform Party candidate, Ross Perot",
       "rep" : "a numeric vector, 1 if the respondent reports identifying with the Republican party, 0 otherwise",
-      "female" : "a numeric vector, 1 if the respondent is female, 0 otherwise",
-      "natlecon" : "a numeric vector, -1 if the respondent reports that national economic conditions have gotten worse over the last 12 months, 0 for no change, 1 if better",
-      "vote" : "a factor with levels Perot Clinton Bush",
-      "dem" : "a numeric vector, 1 if the respondent reports identifying with the Democratic party, 0 otherwise.",
-      "clintondis" : "a numeric vector, squared difference between respondent's self-placement on a scale measure of political ideology and the respondent's placement of the Democratic candidate, Bill Clinton",
+      "bushdis" : "a numeric vector, squared ideological distance of the respondent from the Republican candidate, President George H.W. Bush",
       "persfinance" : "a numeric vector, -1 if the respondent reports that their personal financial situation has gotten worse over the last 12 months, 0 for no change, 1 if better",
-      "bushdis" : "a numeric vector, squared ideological distance of the respondent from the Republican candidate, President George H.W. Bush"
-   }
+      "dem" : "a numeric vector, 1 if the respondent reports identifying with the Democratic party, 0 otherwise.",
+      "female" : "a numeric vector, 1 if the respondent is female, 0 otherwise",
+      "perotdis" : "a numeric vector, squared ideological distance of the respondent from the Reform Party candidate, Ross Perot",
+      "clintondis" : "a numeric vector, squared difference between respondent's self-placement on a scale measure of political ideology and the respondent's placement of the Democratic candidate, Bill Clinton",
+      "vote" : "a factor with levels Perot Clinton Bush",
+      "natlecon" : "a numeric vector, -1 if the respondent reports that national economic conditions have gotten worse over the last 12 months, 0 for no change, 1 if better"
+   },
+   "description" : "Description\nSurvey data containing self-reports of vote choice in the 1992 U.S. Presidential election, with numerous covariates, from the 1992 American National Election Studies.",
+   "title" : "Reports of voting in the 1992 U.S. Presidential election.",
+   "reference" : "These data are unweighted.  Refer to the original data source for weights that purport to correct for non-representativeness and non-response.",
+   "usage" : "data(vote92)"
 }
 
 var vote92 = [

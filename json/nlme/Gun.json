@@ -1,19 +1,57 @@
 {
    "config" : {
+      "colorBy" : "variable",
+      "graphType" : "Boxplot",
       "title" : "Methods for firing naval guns",
-      "subtitle" : "nlme - Gun",
-      "segregateSamplesBy" : [
-         "Team",
+      "groupingFactors" : [
          "Physique"
       ],
-      "graphType" : "Boxplot",
-      "colorBy" : "variable",
-      "groupingFactors" : [
-         "Method"
+      "subtitle" : "nlme - Gun",
+      "segregateSamplesBy" : [
+         "Method",
+         "Team"
       ]
    },
    "data" : {
       "x" : {
+         "Physique" : [
+            "Slight",
+            "Slight",
+            "Average",
+            "Average",
+            "Heavy",
+            "Heavy",
+            "Slight",
+            "Slight",
+            "Average",
+            "Average",
+            "Heavy",
+            "Heavy",
+            "Slight",
+            "Slight",
+            "Average",
+            "Average",
+            "Heavy",
+            "Heavy",
+            "Slight",
+            "Slight",
+            "Average",
+            "Average",
+            "Heavy",
+            "Heavy",
+            "Slight",
+            "Slight",
+            "Average",
+            "Average",
+            "Heavy",
+            "Heavy",
+            "Slight",
+            "Slight",
+            "Average",
+            "Average",
+            "Heavy",
+            "Heavy"
+         ],
          "Method" : [
             "M1",
             "M2",
@@ -89,47 +127,12 @@
             "T3A",
             "T3H",
             "T3H"
-         ],
-         "Physique" : [
-            "Slight",
-            "Slight",
-            "Average",
-            "Average",
-            "Heavy",
-            "Heavy",
-            "Slight",
-            "Slight",
-            "Average",
-            "Average",
-            "Heavy",
-            "Heavy",
-            "Slight",
-            "Slight",
-            "Average",
-            "Average",
-            "Heavy",
-            "Heavy",
-            "Slight",
-            "Slight",
-            "Average",
-            "Average",
-            "Heavy",
-            "Heavy",
-            "Slight",
-            "Slight",
-            "Average",
-            "Average",
-            "Heavy",
-            "Heavy",
-            "Slight",
-            "Slight",
-            "Average",
-            "Average",
-            "Heavy",
-            "Heavy"
          ]
       },
       "y" : {
+         "vars" : [
+            "rounds"
+         ],
          "data" : [
             [
                20.2,
@@ -207,9 +210,6 @@
             "Smp34",
             "Smp35",
             "Smp36"
-         ],
-         "vars" : [
-            "rounds"
          ]
       }
    },

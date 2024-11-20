@@ -1,7 +1,7 @@
 var ClothingInfo ={
+   "description" : "Description\nData on 60 customers at a clothing retailer",
    "title" : "Sales for a Clothing Retailer",
-   "usage" : "A data frame with 60 observations on the following 8 variables.",
-   "description" : "Description\nData on 60 customers at a clothing retailer"
+   "usage" : "A data frame with 60 observations on the following 8 variables."
 }
 
 var Clothing = [

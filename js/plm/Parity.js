@@ -1,19 +1,19 @@
 var ParityInfo ={
+   "description" : "Description\nA panel of 104 quarterly observations from 1973Q1 to 1998Q4",
+   "title" : "Purchasing Power Parity and other parity relationships",
    "usage" : "A data frame containing :",
    "reference" : "total number of observations : 1768",
-   "title" : "Purchasing Power Parity and other parity relationships",
    "parameters" : {
-      "ld" : "log price differential vs. USA",
-      "is" : "short term interest rate",
-      "uis" : "U.S. short term interest rate",
       "lp" : "log price level",
-      "time" : "the quarter index, 1973Q1-1998Q4",
+      "ld" : "log price differential vs. USA",
       "uil" : "U.S. long term interest rate",
+      "il" : "long term interest rate",
+      "is" : "short term interest rate",
       "ls" : "log spot exchange rate vs. USD",
+      "time" : "the quarter index, 1973Q1-1998Q4",
       "country" : "country codes: a factor with 17 levels",
-      "il" : "long term interest rate"
-   },
-   "description" : "Description\nA panel of 104 quarterly observations from 1973Q1 to 1998Q4"
+      "uis" : "U.S. short term interest rate"
+   }
 }
 
 var Parity = [

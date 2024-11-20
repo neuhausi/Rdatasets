@@ -1,12 +1,12 @@
 var mammalsInfo ={
-   "usage" : "mammals",
-   "description" : "Description\nA data frame with average brain and body weights for 62 species\nof land mammals.",
-   "reference" : "Weisberg, S. (1985)\nApplied Linear Regression. 2nd edition. Wiley, pp. 144&ndash;5.",
    "format" : "body\nbody weight in kg.\n\n\nbrain\nbrain weight in g.\n\n\nname\nCommon name of species.\n(Rock hyrax-a = Heterohyrax brucci,\nRock hyrax-b = Procavia habessinic..)",
+   "usage" : "mammals",
+   "reference" : "Weisberg, S. (1985)\nApplied Linear Regression. 2nd edition. Wiley, pp. 144&ndash;5.",
    "title" : "Brain and Body Weights for 62 Species of Land Mammals",
+   "description" : "Description\nA data frame with average brain and body weights for 62 species\nof land mammals.",
    "parameters" : {
-      "body" : "body weight in kg.",
       "name" : "Common name of species.\n(Rock hyrax-a = Heterohyrax brucci,\nRock hyrax-b = Procavia habessinic..)",
+      "body" : "body weight in kg.",
       "brain" : "brain weight in g."
    }
 }

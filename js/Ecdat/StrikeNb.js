@@ -1,14 +1,14 @@
 var StrikeNbInfo ={
+   "format" : "A time series containing :",
+   "parameters" : {
+      "strikes" : "number of strikes (number of contract strikes in U.S. manufacturing beginning each month)",
+      "time" : "a time trend from 1 to 108",
+      "output" : "level of economic activity (measured as cyclical departure of aggregate production from its trend level)"
+   },
+   "title" : "Number of Strikes in Us Manufacturing",
    "description" : "Description\nmonthly observations from 1968(1) to 1976 (12)\nnumber of observations :  108\nobservation :  country\ncountry :  United States",
    "usage" : "data(StrikeNb)",
-   "parameters" : {
-      "output" : "level of economic activity (measured as cyclical departure of aggregate production from its trend level)",
-      "time" : "a time trend from 1 to 108",
-      "strikes" : "number of strikes (number of contract strikes in U.S. manufacturing beginning each month)"
-   },
-   "format" : "A time series containing :",
-   "reference" : "Kennan, J. (1985) &ldquo;The Duration of Contract strikes in U.S. Manufacturing&rdquo;, Journal of Econometrics, 28, 5-28.",
-   "title" : "Number of Strikes in Us Manufacturing"
+   "reference" : "Kennan, J. (1985) &ldquo;The Duration of Contract strikes in U.S. Manufacturing&rdquo;, Journal of Econometrics, 28, 5-28."
 }
 
 var StrikeNb = [

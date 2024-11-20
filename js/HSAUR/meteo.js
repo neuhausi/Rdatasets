@@ -1,17 +1,17 @@
 var meteoInfo ={
-   "description" : "Description\nSeveral meteorological measurements for a period between 1920 and 1931.",
-   "usage" : "data(\"meteo\")",
-   "parameters" : {
-      "rainNovDec" : "rainfall in November and December (mm).",
-      "radiation" : "radiation in July (millilitres of alcohol).",
-      "year" : "the years.",
-      "rainJuly" : "rainfall in July (mm).",
-      "yield" : "average harvest yield (quintals per hectare).",
-      "temp" : "average July temperature."
-   },
-   "title" : "Meteorological Measurements for 11 Years",
    "format" : "A data frame with 11 observations on the following 6 variables.",
-   "reference" : "Carry out a principal components analysis of both the covariance\nmatrix and the correlation matrix of the data and compare the\nresults. Which set of components leads to the most meaningful\ninterpretation?"
+   "usage" : "data(\"meteo\")",
+   "reference" : "Carry out a principal components analysis of both the covariance\nmatrix and the correlation matrix of the data and compare the\nresults. Which set of components leads to the most meaningful\ninterpretation?",
+   "description" : "Description\nSeveral meteorological measurements for a period between 1920 and 1931.",
+   "title" : "Meteorological Measurements for 11 Years",
+   "parameters" : {
+      "radiation" : "radiation in July (millilitres of alcohol).",
+      "rainJuly" : "rainfall in July (mm).",
+      "rainNovDec" : "rainfall in November and December (mm).",
+      "temp" : "average July temperature.",
+      "year" : "the years.",
+      "yield" : "average harvest yield (quintals per hectare)."
+   }
 }
 
 var meteo = [

@@ -1,0 +1,11 @@
+{
+   "parameters" : {
+      "gnp" : "Quarterly real GNP.",
+      "employment" : "Quarterly employment in Orange county."
+   },
+   "title" : "Orange County Employment",
+   "description" : "Description\nQuarterly time series data on employment in Orange county, 1965&ndash;1983.",
+   "usage" : "data(\"OrangeCounty\")",
+   "reference" : "The data is from Baltagi (2002).",
+   "format" : "A quarterly multiple time series from 1965 to 1983 with 2 variables."
+}

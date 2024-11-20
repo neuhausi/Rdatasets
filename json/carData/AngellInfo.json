@@ -1,0 +1,13 @@
+{
+   "usage" : "Angell",
+   "reference" : "Angell, R. C. (1951) The moral integration of American Cities.\nAmerican Journal of Sociology 57 (part 2), 1&ndash;140.",
+   "title" : "Moral Integration of American Cities",
+   "description" : "Description\nThe Angell data frame has 43 rows and 4 columns.\nThe observations are 43 U. S. cities around 1950.",
+   "parameters" : {
+      "mobility" : "Geographic Mobility: From percentages of residents\nmoving into and out of the city.",
+      "hetero" : "Ethnic Heterogenity: From percentages of nonwhite and\nforeign-born white residents.",
+      "moral" : "Moral Integration: Composite of crime rate and\nwelfare expenditures.",
+      "region" : "A factor with levels: \nE Northeast;\nMW Midwest;\nS Southeast;\nW West."
+   },
+   "format" : "This data frame contains the following columns:"
+}

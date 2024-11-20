@@ -1,15 +1,15 @@
 var titanicInfo ={
-   "format" : "A data frame with 1316 observations on the following 4 variables.",
-   "title" : "titanic",
    "reference" : "titanic is saved as a data frame.\nUsed to assess risk ratios",
+   "usage" : "data(titanic)",
+   "description" : "Description\nThe data is an observation-based version of the 1912 Titanic passenger survival \nlog,",
+   "title" : "titanic",
    "parameters" : {
-      "sex" : "a factor with levels women man",
       "class" : "a factor with levels 1st class 2nd class 3rd class crew",
       "age" : "a factor with levels child adults",
-      "survived" : "a factor with levels no yes"
+      "survived" : "a factor with levels no yes",
+      "sex" : "a factor with levels women man"
    },
-   "usage" : "data(titanic)",
-   "description" : "Description\nThe data is an observation-based version of the 1912 Titanic passenger survival \nlog,"
+   "format" : "A data frame with 1316 observations on the following 4 variables."
 }
 
 var titanic = [

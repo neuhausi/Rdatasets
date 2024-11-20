@@ -1,16 +1,16 @@
 var aircraftInfo ={
+   "usage" : "data(aircraft, package=\"robustbase\")",
+   "reference" : "P. J. Rousseeuw and A. M. Leroy (1987)\nRobust Regression and Outlier Detection;\nWiley, page 154, table 22.",
+   "description" : "Description\nAircraft Data, deals with 23 single-engine aircraft built\nover the years 1947-1979, from Office of Naval Research.\nThe dependent variable is cost  (in units of $100,000)\nand the explanatory variables are aspect ratio, lift-to-drag ratio,\nweight of plane (in pounds) and maximal thrust.",
+   "title" : "Aircraft Data",
    "parameters" : {
+      "X4" : "Thrust",
+      "X3" : "Weight",
       "X2" : "Lift-to-Drag Ratio",
       "X1" : "Aspect Ratio",
-      "Y" : "Cost",
-      "X4" : "Thrust",
-      "X3" : "Weight"
+      "Y" : "Cost"
    },
-   "reference" : "P. J. Rousseeuw and A. M. Leroy (1987)\nRobust Regression and Outlier Detection;\nWiley, page 154, table 22.",
-   "format" : "A data frame with 23 observations on the following 5 variables.",
-   "title" : "Aircraft Data",
-   "description" : "Description\nAircraft Data, deals with 23 single-engine aircraft built\nover the years 1947-1979, from Office of Naval Research.\nThe dependent variable is cost  (in units of $100,000)\nand the explanatory variables are aspect ratio, lift-to-drag ratio,\nweight of plane (in pounds) and maximal thrust.",
-   "usage" : "data(aircraft, package=\"robustbase\")"
+   "format" : "A data frame with 23 observations on the following 5 variables."
 }
 
 var aircraft = [

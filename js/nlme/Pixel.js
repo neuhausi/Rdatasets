@@ -1,14 +1,14 @@
 var PixelInfo ={
-   "usage" : "This data frame contains the following columns:",
-   "reference" : "Pinheiro, J. C. and Bates, D. M. (2000) Mixed-effects Models in\nS and S-PLUS, Springer.",
-   "title" : "X-ray pixel intensities over time",
    "parameters" : {
       "Dog" : "a factor with levels 1 to 10 designating the dog\non which the scan was made",
-      "pixel" : "a numeric vector of pixel intensities",
+      "Side" : "a factor with levels L and R designating the side\nof the dog being scanned",
       "day" : "a numeric vector giving the day post injection of the contrast\non which the scan was made",
-      "Side" : "a factor with levels L and R designating the side\nof the dog being scanned"
+      "pixel" : "a numeric vector of pixel intensities"
    },
-   "description" : "Description\nThe Pixel data frame has 102 rows and 4 columns of data on the\npixel intensities of CT scans of dogs over time"
+   "title" : "X-ray pixel intensities over time",
+   "description" : "Description\nThe Pixel data frame has 102 rows and 4 columns of data on the\npixel intensities of CT scans of dogs over time",
+   "usage" : "This data frame contains the following columns:",
+   "reference" : "Pinheiro, J. C. and Bates, D. M. (2000) Mixed-effects Models in\nS and S-PLUS, Springer."
 }
 
 var Pixel = [

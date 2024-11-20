@@ -1,17 +1,17 @@
 var exam_gradesInfo ={
+   "format" : "A data frame with 233 observations, each representing a student.",
+   "reference" : "library(ggplot2)\nlibrary(dplyr)\n\n# Course grade vs. each exam\nggplot(exam_grades, aes(x = exam1, y = course_grade)) +\n  geom_point()\n\nggplot(exam_grades, aes(x = exam2, y = course_grade)) +\n  geom_point()\n\nggplot(exam_grades, aes(x = exam2, y = course_grade)) +\n  geom_point()\n\n# Semester averages\nexam_grades |>\n  group_by(semester) |>\n  summarise(across(exam1:course_grade, mean, na.rm = TRUE))",
+   "usage" : "exam_grades",
+   "description" : "Description\nGrades on three exams and overall course grade for 233 students during\nseveral years for a statistics course at a university.",
+   "title" : "Exam and course grades for statistics students",
    "parameters" : {
       "exam1" : "Exam 1 grade.",
-      "exam3" : "Exam 3 grade.",
       "course_grade" : "Overall course grade.",
       "sex" : "Sex of the student as recorded on the university registration system: Man or Woman.",
-      "semester" : "Semester when grades were recorded.",
-      "exam2" : "Exam 2 grade."
-   },
-   "format" : "A data frame with 233 observations, each representing a student.",
-   "title" : "Exam and course grades for statistics students",
-   "reference" : "library(ggplot2)\nlibrary(dplyr)\n\n# Course grade vs. each exam\nggplot(exam_grades, aes(x = exam1, y = course_grade)) +\n  geom_point()\n\nggplot(exam_grades, aes(x = exam2, y = course_grade)) +\n  geom_point()\n\nggplot(exam_grades, aes(x = exam2, y = course_grade)) +\n  geom_point()\n\n# Semester averages\nexam_grades |>\n  group_by(semester) |>\n  summarise(across(exam1:course_grade, mean, na.rm = TRUE))",
-   "description" : "Description\nGrades on three exams and overall course grade for 233 students during\nseveral years for a statistics course at a university.",
-   "usage" : "exam_grades"
+      "exam2" : "Exam 2 grade.",
+      "exam3" : "Exam 3 grade.",
+      "semester" : "Semester when grades were recorded."
+   }
 }
 
 var exam_grades = [

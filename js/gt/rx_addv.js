@@ -1,27 +1,27 @@
 var rx_addvInfo ={
+   "format" : "A tibble with 291 rows and 20 variables:",
+   "title" : "An ADDV-flavored clinical trial toy dataset",
    "description" : "Description\nThis tibble contains artificial protocol deviation data for 180 subjects\nin the Intent-to-Treat (ITT) population of the GT01 study. The dataset\ncontains the usual parameters (PARAM, PARAMCD) for an addv. There is\nsummary parameter (PARCAT1 == \"OVERALL\") for each subject of the GT01\nITT-population, indicating whether or not at least one major protocol\ndeviation (PD) occurred throughout the course of the study for the respective\nsubject. Individual records for protocol deviations per subject exist,\nindicating which specific type of PD occurred. The additional flag CRIT1FL,\nshows whether a PD was related to COVID-19 or not.\nAlthough the data was intentionally created to mimic a typical clinical\ntrial dataset following the CDISC format, it might not strictly comply\nwith CDISC ADaM rules. The intent is to showcase the workflow for clinical\ntable creation rather than creating a fully CDISC-compliant ADaM dataset.",
+   "reference" : "Here is a glimpse at the data available in rx_addv.",
    "usage" : "rx_addv",
    "parameters" : {
       "AGE" : "The age of a subject at baseline in years.",
-      "DVCAT" : "Category for PD, indicating whether the PD is a major one or\nnot.",
-      "AAGEGR1" : "The analysis age group, indicating if a subject was strictly\nyounger than 40 years at baseline or older.",
-      "ITTFL" : "Intent-to-Treat (ITT) population flag, where \"Y\" indicates\na subject belongs to the ITT population and \"N\" indicates a subject is not\nin the ITT population.",
-      "CRIT1, CRIT1FL" : "Analysis Criterion 1 and analysis criterion 1 flag,\nindicating whether PD is related to COVID-19 or not.",
-      "ACAT1" : "Analysis category 1. Only populated for individual PDs, not for\nsummary scores. High level category for PDs.",
-      "SEX" : "Sex of a subject. Can be either \"Male\", \"Female\" or\n\"Undifferentiated\".",
-      "AVAL" : "Analysis Value. Either 0 or 1.",
       "ETHNIC" : "Ethnicity of a subject. Can be either \"Hispanic or Latino\",\n\"Not Hispanic or Latino\" or missing (\"\").",
-      "USUBJID" : "The unique subject identifier.",
       "DVTERM" : "The Protocol Deviation Term.",
       "STUDYID, STUDYIDN" : "The unique study identifier and its numeric\nversion.",
+      "USUBJID" : "The unique subject identifier.",
       "PARCAT1" : "Parameter category. Can be \"OVERALL\" for derived PD\nsummaries or \"PROTOCOL DEVIATION\" for individual PDs.",
-      "PARAMCD, PARAM" : "The Parameter Code and decoded parameter description\nfor the protocol deviation.",
+      "TRTA, TRTAN" : "The study intervention and its numeric version, which is\neither \"Placebo\" (1), \"Drug 1\" (2), or NA (3), missing for\nscreen failures).",
+      "AAGEGR1" : "The analysis age group, indicating if a subject was strictly\nyounger than 40 years at baseline or older.",
+      "AVAL" : "Analysis Value. Either 0 or 1.",
       "BLBMI" : "Body Mass Index (BMI) of a subject at baseline in kg/m2.",
-      "TRTA, TRTAN" : "The study intervention and its numeric version, which is\neither \"Placebo\" (1), \"Drug 1\" (2), or NA (3), missing for\nscreen failures)."
-   },
-   "title" : "An ADDV-flavored clinical trial toy dataset",
-   "format" : "A tibble with 291 rows and 20 variables:",
-   "reference" : "Here is a glimpse at the data available in rx_addv."
+      "DVCAT" : "Category for PD, indicating whether the PD is a major one or\nnot.",
+      "SEX" : "Sex of a subject. Can be either \"Male\", \"Female\" or\n\"Undifferentiated\".",
+      "ACAT1" : "Analysis category 1. Only populated for individual PDs, not for\nsummary scores. High level category for PDs.",
+      "PARAMCD, PARAM" : "The Parameter Code and decoded parameter description\nfor the protocol deviation.",
+      "CRIT1, CRIT1FL" : "Analysis Criterion 1 and analysis criterion 1 flag,\nindicating whether PD is related to COVID-19 or not.",
+      "ITTFL" : "Intent-to-Treat (ITT) population flag, where \"Y\" indicates\na subject belongs to the ITT population and \"N\" indicates a subject is not\nin the ITT population."
+   }
 }
 
 var rx_addv = [

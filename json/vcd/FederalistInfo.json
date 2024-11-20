@@ -1,0 +1,6 @@
+{
+   "title" : "&lsquo;May&rsquo; in Federalist Papers",
+   "description" : "Description\nData from Mosteller & Wallace (1984) investigating the use of certain\nkeywords (&lsquo;may&rsquo; in this data set) to identify the author of 12\ndisputed &lsquo;Federalist Papers&rsquo; by Alexander Hamilton, John Jay\nand James Madison.",
+   "usage" : "data(\"Federalist\")",
+   "format" : "A 1-way table giving the number of occurrences of &lsquo;may&rsquo; in 262\nblocks of text.  The variable and its levels are"
+}

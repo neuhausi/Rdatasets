@@ -1,0 +1,18 @@
+{
+   "parameters" : {
+      "unit_control" : "Unit ID for control observations",
+      "earnings_matched" : "earnings for matched controls",
+      "age_control" : "age for control observations",
+      "earnings_control" : "earnings for control observations",
+      "earnings_treat" : "earnings for treated observations",
+      "unit_treat" : "Unit ID for treated observations",
+      "age_matched" : "age for matched controls",
+      "age_treat" : "age for treated observations",
+      "unit_matched" : "Unit ID for matched controls"
+   },
+   "reference" : "This data is used in the Matching and Subclassification chapter of Causal Inference: The Mixtape by Cunningham.",
+   "usage" : "training_example",
+   "description" : "Description\nThis simulated data, which is presented in the form of a full results, table, is used to demonstrate a matching procedure.",
+   "title" : "Simulated data from a job training program",
+   "format" : "A data frame with 25 rows and 9 variables"
+}

@@ -1,7 +1,7 @@
 var aus_migrationInfo ={
-   "title" : "Australian migration data",
    "format" : "aus_migration contains quarterly data with one measured variable:",
    "usage" : "Time series of class 'tsibble'",
+   "title" : "Australian migration data",
    "description" : "Description\nNet Overseas Migration (NOM) to Australia."
 }
 

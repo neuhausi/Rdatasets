@@ -1,7 +1,7 @@
 {
    "config" : {
-      "subtitle" : "fpp2 - usmelec",
       "graphType" : "Scatter2D",
+      "subtitle" : "fpp2 - usmelec",
       "title" : "Electricity monthly total net generation. January 1973 - June 2013."
    },
    "data" : {
@@ -1952,6 +1952,10 @@
                356.4
             ]
          ],
+         "smps" : [
+            "time",
+            "value"
+         ],
          "vars" : [
             "Var1",
             "Var2",
@@ -2439,10 +2443,6 @@
             "Var484",
             "Var485",
             "Var486"
-         ],
-         "smps" : [
-            "time",
-            "value"
          ]
       }
    },

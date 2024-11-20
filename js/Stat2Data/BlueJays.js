@@ -1,7 +1,7 @@
 var BlueJaysInfo ={
    "description" : "Description\nBody measurements for a sample of blue jays",
-   "usage" : "A data frame with 123 observations on the following 9 variables.",
-   "title" : "Blue Jay Measurements"
+   "title" : "Blue Jay Measurements",
+   "usage" : "A data frame with 123 observations on the following 9 variables."
 }
 
 var BlueJays = [

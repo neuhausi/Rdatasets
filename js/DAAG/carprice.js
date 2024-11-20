@@ -1,20 +1,20 @@
 var carpriceInfo ={
-   "parameters" : {
-      "RoughRange" : "Rough.Range plus some N(0,.0001) noise",
-      "Max.Price" : "Price for a &lsquo;premium&rsquo; model",
-      "gpm100" : "The number of gallons required to travel 100 miles",
-      "Range.Price" : "Difference between Max.Price and Min.Price",
-      "Price" : "Price for a mid-range model",
-      "MPG.highway" : "Average number of miles per gallon for highway \ndriving",
-      "Min.Price" : "Price for a basic model",
-      "MPG.city" : "Average number of miles per gallon for city driving",
-      "Type" : "Type of car, e.g. Sporty, Van, Compact"
-   },
-   "reference" : "MASS package",
    "format" : "This data frame contains the following columns:",
    "title" : "US Car Price Data",
    "description" : "Description\nU.S. data extracted from Cars93, a data frame in the \nMASS package.",
-   "usage" : "carprice"
+   "reference" : "MASS package",
+   "usage" : "carprice",
+   "parameters" : {
+      "Max.Price" : "Price for a &lsquo;premium&rsquo; model",
+      "Min.Price" : "Price for a basic model",
+      "RoughRange" : "Rough.Range plus some N(0,.0001) noise",
+      "MPG.highway" : "Average number of miles per gallon for highway \ndriving",
+      "MPG.city" : "Average number of miles per gallon for city driving",
+      "Range.Price" : "Difference between Max.Price and Min.Price",
+      "Type" : "Type of car, e.g. Sporty, Van, Compact",
+      "gpm100" : "The number of gallons required to travel 100 miles",
+      "Price" : "Price for a mid-range model"
+   }
 }
 
 var carprice = [

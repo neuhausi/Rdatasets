@@ -1,0 +1,12 @@
+{
+   "format" : "A data frame with 3920 observations on the following 4 variables.",
+   "parameters" : {
+      "famID" : "family ID indicator",
+      "brcancer" : "1 if subject had breast cancer, 0 if not",
+      "age" : "Age at onset of breast cancer, or current age if no breast cancer",
+      "mutant" : "1 if first degree relative proband was a BRCA mutation carrier, 0 if not"
+   },
+   "title" : "ashkenazi",
+   "description" : "Description\nThis is a random subset of data from the Struewing et al. (1997) study of Ashkenazi\njews and breast cancer. The subset consists of pairs of first-degree female\nrelatives who are also first degree relatives of a proband.",
+   "usage" : "data(\"ashkenazi\")"
+}

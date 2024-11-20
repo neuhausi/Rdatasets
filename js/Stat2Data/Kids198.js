@@ -1,6 +1,6 @@
 var Kids198Info ={
-   "title" : "Body Measurements of Children",
    "usage" : "A data frame with 198 observations on the following 5 variables.",
+   "title" : "Body Measurements of Children",
    "description" : "Description\nBody measurements for a sample of 198 children"
 }
 

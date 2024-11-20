@@ -1,0 +1,24 @@
+{
+   "format" : "A data frame with 26217 observations on the following 15 variables.",
+   "parameters" : {
+      "airbag" : "a factor with levels none airbag",
+      "deploy" : "a numeric vector: 0 if an airbag was\nunavailable or did not deploy; 1 if one or more bags deployed.",
+      "caseid" : "character, created by pasting together the\npopulations sampling unit, the case number, and the vehicle\nnumber.  Within each year, use this to uniquely identify the\nvehicle.",
+      "injSeverity" : "a numeric vector; 0:none, 1:possible injury,\n2:no incapacity, 3:incapacity, 4:killed; 5:unknown, 6:prior death",
+      "abcat" : "Did one or more (driver or passenger) airbag(s)\ndeploy? This factor has levels deploy nodeploy\nunavail",
+      "frontal" : "a numeric vector; 0 = non-frontal, 1=frontal impact",
+      "dead" : "factor with levels alive dead",
+      "sex" : "a factor with levels f m",
+      "yearacc" : "year of accident",
+      "occRole" : "a factor with levels driver pass",
+      "weight" : "Observation weights, albeit of uncertain\naccuracy, designed to account for varying sampling probabilities.",
+      "dvcat" : "ordered factor with levels (estimated impact\nspeeds) 1-9km/h, 10-24, 25-39, 40-54,\n55+",
+      "ageOFocc" : "age of occupant in years",
+      "seatbelt" : "a factor with levels none belted",
+      "yearVeh" : "Year of model of vehicle; a numeric vector"
+   },
+   "title" : "Airbag and other influences on accident fatalities",
+   "description" : "Description\nUS data, for 1997-2002, from police-reported car crashes in\nwhich there is a harmful event (people or property), and from which at\nleast one vehicle was towed. Data are restricted to front-seat\noccupants, include only a subset of the variables recorded, and\nare restricted in other ways also.",
+   "reference" : "Data collection used a multi-stage probabilistic sampling scheme.\nThe observation weight, called national inflation factor\n(national) in the data from NASS, is the inverse\nof an estimate of the selection probability.  These data\ninclude a subset of the variables from the NASS dataset.  Variables\nthat are coded here as factors are coded as numeric values in that\ndataset.",
+   "usage" : "nassCDS"
+}

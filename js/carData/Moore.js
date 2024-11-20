@@ -1,15 +1,15 @@
 var MooreInfo ={
    "usage" : "Moore",
-   "description" : "Description\nThe Moore data frame has 45 rows and 4 columns.\nThe data are for subjects in a social-psychological experiment,\nwho were faced with manipulated disagreement from a partner of either\nof low or high status. The subjects could either conform to the\npartner's judgment or stick with their own judgment.",
-   "format" : "This data frame contains the following columns:",
-   "title" : "Status, Authoritarianism, and Conformity",
    "reference" : "Moore, J. C., Jr. and Krupat, E. (1971) \nRelationship between source status, authoritarianism and conformity in a\nsocial setting. Sociometry 34, 122&ndash;134.",
+   "title" : "Status, Authoritarianism, and Conformity",
+   "description" : "Description\nThe Moore data frame has 45 rows and 4 columns.\nThe data are for subjects in a social-psychological experiment,\nwho were faced with manipulated disagreement from a partner of either\nof low or high status. The subjects could either conform to the\npartner's judgment or stick with their own judgment.",
    "parameters" : {
-      "conformity" : "Number of conforming responses in 40 critical trials.",
       "partner.status" : "Partner's status.  A factor with levels:\nhigh,\nlow.",
+      "fcategory" : "F-Scale Categorized.\nA factor with levels (note levels out of order):\nhigh,\nlow,\nmedium.",
       "fscore" : "Authoritarianism: F-Scale score.",
-      "fcategory" : "F-Scale Categorized.\nA factor with levels (note levels out of order):\nhigh,\nlow,\nmedium."
-   }
+      "conformity" : "Number of conforming responses in 40 critical trials."
+   },
+   "format" : "This data frame contains the following columns:"
 }
 
 var Moore = [

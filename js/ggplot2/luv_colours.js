@@ -1,12 +1,12 @@
 var luv_coloursInfo ={
-   "title" : "colors() in Luv space",
    "format" : "A data frame with 657 observations and 4 variables:",
-   "usage" : "luv_colours",
-   "description" : "Description\nAll built-in colors() translated into Luv colour space.",
    "parameters" : {
       "col" : "Colour name",
       "L,u,v" : "Position in Luv colour space"
-   }
+   },
+   "usage" : "luv_colours",
+   "title" : "colors() in Luv space",
+   "description" : "Description\nAll built-in colors() translated into Luv colour space."
 }
 
 var luv_colours = [

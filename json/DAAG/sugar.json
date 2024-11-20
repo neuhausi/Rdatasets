@@ -1,32 +1,10 @@
 {
-   "config" : {
-      "graphType" : "Boxplot",
-      "title" : "Sugar Data",
-      "colorBy" : "variable",
-      "subtitle" : "DAAG - sugar",
-      "groupingFactors" : [
-         "trt"
-      ]
-   },
    "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>sugar</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Sugar Data</h2>\n<h3>Description</h3>\n<p>The <code>sugar</code> data frame has 12 rows and 2 columns.\nThey are from an experiment that\ncompared an unmodified wild type plant with three different\ngenetically modified forms.  The measurements are\nweights  of sugar that were obtained by breaking down the\ncellulose.  \n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>sugar</code></pre>\n<h3>Format</h3>\n<p>This data frame contains the following columns:\n</p>\n<dl>\n<dt>weight</dt><dd><p>weight, in mg</p>\n</dd>\n<dt>trt</dt><dd><p>a factor with levels\n<code>Control</code> i.e. unmodified Wild form,  \n<code>A</code> Modified 1,\n<code>B</code> Modified 2,\n<code>C</code> Modified 3</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>Anonymous\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>sugar.aov &lt;- aov(weight ~ trt, data=sugar)\nfitted.values(sugar.aov)\nsummary.lm(sugar.aov)\nsugar.aov &lt;- aov(formula = weight ~ trt, data = sugar)\nsummary.lm(sugar.aov)\n</code></pre>\n</main>\n</div>\n",
    "data" : {
-      "x" : {
-         "trt" : [
-            "Control",
-            "Control",
-            "Control",
-            "A",
-            "A",
-            "A",
-            "B",
-            "B",
-            "B",
-            "C",
-            "C",
-            "C"
-         ]
-      },
       "y" : {
+         "vars" : [
+            "weight"
+         ],
          "data" : [
             [
                82,
@@ -56,10 +34,32 @@
             "Smp10",
             "Smp11",
             "Smp12"
-         ],
-         "vars" : [
-            "weight"
+         ]
+      },
+      "x" : {
+         "trt" : [
+            "Control",
+            "Control",
+            "Control",
+            "A",
+            "A",
+            "A",
+            "B",
+            "B",
+            "B",
+            "C",
+            "C",
+            "C"
          ]
       }
+   },
+   "config" : {
+      "graphType" : "Boxplot",
+      "colorBy" : "variable",
+      "subtitle" : "DAAG - sugar",
+      "groupingFactors" : [
+         "trt"
+      ],
+      "title" : "Sugar Data"
    }
 }

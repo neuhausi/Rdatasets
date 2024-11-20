@@ -1,22 +1,22 @@
 var cps_mixtapeInfo ={
-   "usage" : "cps_mixtape",
-   "description" : "Description\nData from the Current Population Survey on participation in the National Supported Work Demonstration (NSW) job-training program experiment. This is used as an observational comparison to the NSW experimental data from the nsw_mixtape data.",
-   "title" : "Observational counterpart to nsw_mixtape data",
-   "reference" : "This data is used in the Matching and Subclassification chapter of Causal Inference: The Mixtape by Cunningham.",
-   "format" : "A data frame with 15992 rows and 11 variables",
    "parameters" : {
+      "educ" : "Years of education",
+      "re74" : "Real earnings 1974",
+      "data_id" : "Individual ID",
+      "re75" : "Real earnings 1975",
       "black" : "Race: Black",
       "re78" : "Real earnings 1978",
-      "marr" : "Married",
-      "nodegree" : "Has no degree",
-      "data_id" : "Individual ID",
-      "re74" : "Real earnings 1974",
-      "hisp" : "Ethnicity: Hispanic",
-      "educ" : "Years of education",
-      "treat" : "In the National Supported Work Demonstration Job Training Program",
       "age" : "Age in years",
-      "re75" : "Real earnings 1975"
-   }
+      "marr" : "Married",
+      "hisp" : "Ethnicity: Hispanic",
+      "treat" : "In the National Supported Work Demonstration Job Training Program",
+      "nodegree" : "Has no degree"
+   },
+   "reference" : "This data is used in the Matching and Subclassification chapter of Causal Inference: The Mixtape by Cunningham.",
+   "usage" : "cps_mixtape",
+   "title" : "Observational counterpart to nsw_mixtape data",
+   "description" : "Description\nData from the Current Population Survey on participation in the National Supported Work Demonstration (NSW) job-training program experiment. This is used as an observational comparison to the NSW experimental data from the nsw_mixtape data.",
+   "format" : "A data frame with 15992 rows and 11 variables"
 }
 
 var cps_mixtape = [

@@ -1,14 +1,14 @@
 var spice_test_wideInfo ={
-   "usage" : "spice_test_wide",
-   "description" : "Description\nResults of a knowledge test from Junior Bake Off (Series 2, Episode 14).",
-   "reference" : "if (require('tibble')) {\n  spice_test_wide\n }\nhead(spice_test_wide)",
-   "title" : "Spice Test",
-   "format" : "A data frame with 4 rows representing baker results from the\nspice-based knowledge test and 7 variables:",
    "parameters" : {
       "guess_1,guess_2,guess_3" : "The different guesses (in order) for what\nthe mystery spice was.",
-      "baker" : "A character string with a given name or nickname.",
-      "correct_1,correct_2,correct_3" : "An integer whether the guess was\ncorrect (1) or wrong (0)."
-   }
+      "correct_1,correct_2,correct_3" : "An integer whether the guess was\ncorrect (1) or wrong (0).",
+      "baker" : "A character string with a given name or nickname."
+   },
+   "usage" : "spice_test_wide",
+   "reference" : "if (require('tibble')) {\n  spice_test_wide\n }\nhead(spice_test_wide)",
+   "title" : "Spice Test",
+   "description" : "Description\nResults of a knowledge test from Junior Bake Off (Series 2, Episode 14).",
+   "format" : "A data frame with 4 rows representing baker results from the\nspice-based knowledge test and 7 variables:"
 }
 
 var spice_test_wide = [

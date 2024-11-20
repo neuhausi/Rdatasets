@@ -1,0 +1,19 @@
+{
+   "format" : "A tibble with 19,537 observations\nand 13 variables:",
+   "title" : "Storm tracks data",
+   "description" : "Description\nThis dataset is the NOAA Atlantic hurricane database best track data,\nhttps://www.nhc.noaa.gov/data/#hurdat. The data includes the positions and\nattributes of storms from 1975-2022. Storms\nfrom 1979 onward are measured every six hours during the lifetime of the\nstorm. Storms in earlier years have some missing data.",
+   "reference" : "The script to create the storms data set:\nhttps://github.com/tidyverse/dplyr/blob/main/data-raw/storms.R",
+   "usage" : "storms",
+   "parameters" : {
+      "category" : "Saffir-Simpson hurricane category calculated from wind speed.\n\n\n\n NA: Not a hurricane\n\n\n 1: 64+ knots\n\n\n 2: 83+ knots\n\n\n 3: 96+ knots\n\n\n 4: 113+ knots\n\n\n 5: 137+ knots",
+      "pressure" : "Air pressure at the storm's center (in millibars)",
+      "status" : "Storm classification (Tropical Depression, Tropical Storm,\nor Hurricane)",
+      "hurricane_force_diameter" : "Diameter (in nautical miles) of the area\nexperiencing hurricane strength winds (64 knots or above). Only available\nstarting in 2004.",
+      "hour" : "Hour of report (in UTC)",
+      "lat,long" : "Location of storm center",
+      "wind" : "storm's maximum sustained wind speed (in knots)",
+      "name" : "Storm Name",
+      "tropicalstorm_force_diameter" : "Diameter (in nautical miles) of the\narea experiencing tropical storm strength winds (34 knots or above).\nOnly available starting in 2004.",
+      "year,month,day" : "Date of report"
+   }
+}

@@ -2,6 +2,15 @@
    "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>saving</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>saving</h2>\n<h3>Description</h3>\n<p>Wooldridge Source: Unknown Data loads lazily.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data('saving')\n</code></pre>\n<h3>Format</h3>\n<p>A data.frame with 100 observations on 7 variables:\n</p>\n<ul>\n<li> <p><strong>sav:</strong> annual savings, $\n</p>\n</li>\n<li> <p><strong>inc:</strong> annual income, $\n</p>\n</li>\n<li> <p><strong>size:</strong> family size\n</p>\n</li>\n<li> <p><strong>educ:</strong> years educ, household head\n</p>\n</li>\n<li> <p><strong>age:</strong> age of household head\n</p>\n</li>\n<li> <p><strong>black:</strong> =1 if household head is black\n</p>\n</li>\n<li> <p><strong>cons:</strong> annual consumption, $\n</p>\n</li></ul>\n<h3>Notes</h3>\n<p>I remember entering this data set in the late 1980s, and I am pretty sure it came directly from an introductory econometrics text. But so far my search has been fruitless. If anyone runs across this data set, I would appreciate knowing about it.\n</p>\n<p>Used in Text: not used\n</p>\n<h3>Source</h3>\n<p><a href=\"https://www.cengage.com/cgi-wadsworth/course_products_wp.pl?fid=M20b&amp;product_isbn_issn=9781111531041\">https://www.cengage.com/cgi-wadsworth/course_products_wp.pl?fid=M20b&amp;product_isbn_issn=9781111531041</a>\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'> str(saving)\n</code></pre>\n</main>\n</div>\n",
    "data" : {
       "y" : {
+         "vars" : [
+            "sav",
+            "inc",
+            "size",
+            "educ",
+            "age",
+            "black",
+            "cons"
+         ],
          "data" : [
             [
                30,
@@ -718,15 +727,6 @@
                -13055
             ]
          ],
-         "vars" : [
-            "sav",
-            "inc",
-            "size",
-            "educ",
-            "age",
-            "black",
-            "cons"
-         ],
          "smps" : [
             "Smp1",
             "Smp2",
@@ -833,7 +833,7 @@
    },
    "config" : {
       "subtitle" : "wooldridge - saving",
-      "graphType" : "Heatmap",
-      "title" : "saving"
+      "title" : "saving",
+      "graphType" : "Heatmap"
    }
 }

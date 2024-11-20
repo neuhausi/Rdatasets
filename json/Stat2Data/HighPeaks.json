@@ -52,6 +52,13 @@
          ]
       },
       "y" : {
+         "smps" : [
+            "Elevation",
+            "Difficulty",
+            "Ascent",
+            "Length",
+            "Time"
+         ],
          "data" : [
             [
                5344,
@@ -423,21 +430,14 @@
             "Var44",
             "Var45",
             "Var46"
-         ],
-         "smps" : [
-            "Elevation",
-            "Difficulty",
-            "Ascent",
-            "Length",
-            "Time"
          ]
       }
    },
    "config" : {
       "subtitle" : "Stat2Data - HighPeaks",
+      "scatterPlotMatrix" : 1,
       "title" : "Characteristics of Adirondack Hiking Trails",
       "colorBy" : "Peak",
-      "graphType" : "Scatter2D",
-      "scatterPlotMatrix" : 1
+      "graphType" : "Scatter2D"
    }
 }

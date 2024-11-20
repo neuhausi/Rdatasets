@@ -1,15 +1,15 @@
 var TunaInfo ={
-   "usage" : "data(Tuna)",
-   "description" : "Description\na cross-section\nnumber of observations :  13705\nobservation :  individuals\ncountry :  United States",
-   "format" : "A dataframe containing :",
-   "title" : "Choice of Brand for Tuna",
-   "reference" : "Kim, Byong&ndash;Do,  Robert C.   Blattberg and  Peter E.  Rossi (1995) &ldquo;Modeling the distribution of price sensitivity and implications for optimal retail pricing&rdquo;, Journal of Business Economics and Statistics, 13(3), 291.",
    "parameters" : {
-      "price.z" : "price of brand z",
-      "choice" : "one of skw (Starkist water), \ncosw (Chicken of the sea water), \npw (store&ndash;specific private \nlabel water), sko (Starkist \noil), coso (Chicken of the sea \noil)",
+      "id" : "purchase identifiers",
       "hid" : "individuals identifiers",
-      "id" : "purchase identifiers"
-   }
+      "price.z" : "price of brand z",
+      "choice" : "one of skw (Starkist water), \ncosw (Chicken of the sea water), \npw (store&ndash;specific private \nlabel water), sko (Starkist \noil), coso (Chicken of the sea \noil)"
+   },
+   "reference" : "Kim, Byong&ndash;Do,  Robert C.   Blattberg and  Peter E.  Rossi (1995) &ldquo;Modeling the distribution of price sensitivity and implications for optimal retail pricing&rdquo;, Journal of Business Economics and Statistics, 13(3), 291.",
+   "usage" : "data(Tuna)",
+   "title" : "Choice of Brand for Tuna",
+   "description" : "Description\na cross-section\nnumber of observations :  13705\nobservation :  individuals\ncountry :  United States",
+   "format" : "A dataframe containing :"
 }
 
 var Tuna = [

@@ -1,15 +1,15 @@
 var barleyInfo ={
-   "format" : "A data frame with 120 observations on the following 4 variables.",
-   "title" : "Yield data from a Minnesota barley trial",
    "reference" : "These data are yields in bushels per acre, of 10 varieties of barley\ngrown in 1/40 acre plots at University Farm, St. Paul, and at the five\nbranch experiment stations located at Waseca, Morris, Crookston, Grand\nRapids, and Duluth (all in Minnesota).  The varieties were grown in\nthree randomized blocks at each of the six  stations during 1931 and\n1932, different land being used each year of the test.",
-   "parameters" : {
-      "site" : "Factor with 6 levels:  \"Grand Rapids\",\n\"Duluth\", \"University Farm\", \"Morris\",\n\"Crookston\", \"Waseca\"",
-      "year" : "Factor with levels 1932, 1931",
-      "yield" : "Yield (averaged across three blocks) in bushels/acre.",
-      "variety" : "Factor with levels \"Svansota\", \"No. 462\",\n\"Manchuria\", \"No. 475\", \"Velvet\",\n\"Peatland\", \"Glabron\", \"No. 457\",\n\"Wisconsin No. 38\", \"Trebi\"."
-   },
    "usage" : "barley",
-   "description" : "Description\nTotal yield in bushels per acre for 10 varieties at 6 sites in each of\ntwo years."
+   "description" : "Description\nTotal yield in bushels per acre for 10 varieties at 6 sites in each of\ntwo years.",
+   "title" : "Yield data from a Minnesota barley trial",
+   "parameters" : {
+      "variety" : "Factor with levels \"Svansota\", \"No. 462\",\n\"Manchuria\", \"No. 475\", \"Velvet\",\n\"Peatland\", \"Glabron\", \"No. 457\",\n\"Wisconsin No. 38\", \"Trebi\".",
+      "yield" : "Yield (averaged across three blocks) in bushels/acre.",
+      "year" : "Factor with levels 1932, 1931",
+      "site" : "Factor with 6 levels:  \"Grand Rapids\",\n\"Duluth\", \"University Farm\", \"Morris\",\n\"Crookston\", \"Waseca\""
+   },
+   "format" : "A data frame with 120 observations on the following 4 variables."
 }
 
 var barley = [

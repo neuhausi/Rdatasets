@@ -1,15 +1,15 @@
 var BwagesInfo ={
-   "reference" : "European Community Household Panel.",
-   "title" : "Wages in Belgium",
    "format" : "A dataframe containing :",
    "parameters" : {
       "wage" : "gross hourly wage rate in euro",
-      "exper" : "years of experience",
+      "sex" : "a factor with levels (males,female)",
       "educ" : "education level from 1 [low] to 5 [high]",
-      "sex" : "a factor with levels (males,female)"
+      "exper" : "years of experience"
    },
-   "usage" : "data(Bwages)",
-   "description" : "Description\na cross-section from 1994\nnumber of observations :  1472\nobservation :  individuals\ncountry :  Belgium"
+   "title" : "Wages in Belgium",
+   "description" : "Description\na cross-section from 1994\nnumber of observations :  1472\nobservation :  individuals\ncountry :  Belgium",
+   "reference" : "European Community Household Panel.",
+   "usage" : "data(Bwages)"
 }
 
 var Bwages = [

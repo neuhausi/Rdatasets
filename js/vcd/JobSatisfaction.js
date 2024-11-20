@@ -1,14 +1,14 @@
 var JobSatisfactionInfo ={
+   "format" : "A data frame with 8 observations and 4 variables.",
    "parameters" : {
-      "management" : "factor indicating quality of management (bad,\ngood).",
-      "own" : "factor indicating worker's own job satisfaction (low,\nhigh).",
       "Freq" : "frequency.",
-      "supervisor" : "factor indicating supervisor's job satisfaction\n(low, high)."
+      "supervisor" : "factor indicating supervisor's job satisfaction\n(low, high).",
+      "management" : "factor indicating quality of management (bad,\ngood).",
+      "own" : "factor indicating worker's own job satisfaction (low,\nhigh)."
    },
    "title" : "Job Satisfaction Data",
-   "format" : "A data frame with 8 observations and 4 variables.",
-   "reference" : "E. B. Andersen (1991),\nThe Statistical Analysis of Categorical Data, Table 5.4.",
    "description" : "Description\nData from Petersen (1968) about the job satisfaction of 715 blue\ncollar workers, selected from Danish Industry in 1968.",
+   "reference" : "E. B. Andersen (1991),\nThe Statistical Analysis of Categorical Data, Table 5.4.",
    "usage" : "data(\"JobSatisfaction\")"
 }
 

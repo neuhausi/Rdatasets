@@ -1,14 +1,14 @@
 var WaferInfo ={
-   "usage" : "This data frame contains the following columns:",
    "title" : "Modeling of Analog MOS Circuits",
+   "description" : "Description\nThe Wafer data frame has 400 rows and 4 columns.",
+   "usage" : "This data frame contains the following columns:",
    "reference" : "Pinheiro, J. C. and Bates, D. M. (2000), Mixed-Effects Models in S\nand S-PLUS, Springer, New York.",
    "parameters" : {
       "voltage" : "a numeric vector",
-      "Wafer" : "a factor with levels\n1 \n2 \n3 \n4 \n5 \n6 \n7 \n8 \n9 \n10",
+      "Site" : "a factor with levels\n1 \n2 \n3 \n4 \n5 \n6 \n7 \n8",
       "current" : "a numeric vector",
-      "Site" : "a factor with levels\n1 \n2 \n3 \n4 \n5 \n6 \n7 \n8"
-   },
-   "description" : "Description\nThe Wafer data frame has 400 rows and 4 columns."
+      "Wafer" : "a factor with levels\n1 \n2 \n3 \n4 \n5 \n6 \n7 \n8 \n9 \n10"
+   }
 }
 
 var Wafer = [

@@ -1,8 +1,8 @@
 var watervolesInfo ={
-   "description" : "Description\nPercentage incidence of the 13 characteristics of water voles in 14\nareas.",
-   "usage" : "data(\"watervoles\")",
    "format" : "A dissimilarity matrix for the following 14 variables, i.e,\nareas:\nSurrey,\nShropshire,\nYorkshire,\nPerthshire,\nAberdeen,\nElean Gamhna,\nAlps,\nYugoslavia,\nGermany,\nNorway,\nPyrenees I,\nPyrenees II,\nNorth Spain, and\nSouth Spain.",
-   "title" : "Water Voles Data"
+   "usage" : "data(\"watervoles\")",
+   "title" : "Water Voles Data",
+   "description" : "Description\nPercentage incidence of the 13 characteristics of water voles in 14\nareas."
 }
 
 var watervoles = [

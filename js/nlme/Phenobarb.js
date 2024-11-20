@@ -1,17 +1,17 @@
 var PhenobarbInfo ={
    "usage" : "This data frame contains the following columns:",
    "reference" : "Data from a pharmacokinetics study of phenobarbital in neonatal\ninfants.  During the first few days of life the infants receive\nmultiple doses of phenobarbital for prevention of seizures.  At\nirregular intervals blood samples are drawn and serum phenobarbital\nconcentrations are determined.  The data\nwere originally given in Grasela and Donn(1985) and are analyzed\nin Boeckmann, Sheiner and Beal (1994), in\nDavidian and Giltinan (1995), and in Littell et al. (1996).",
+   "description" : "Description\nThe Phenobarb data frame has 744 rows and 7 columns.",
    "title" : "Phenobarbitol Kinetics",
    "parameters" : {
       "Apgar" : "an ordered factor giving the 5-minute Apgar score for\nthe infant.  This is an indication of health of the newborn\ninfant.",
-      "dose" : "a numeric vector giving the dose of drug administered\n(ug/kg).",
-      "Subject" : "an ordered factor identifying the infant.",
+      "time" : "a numeric vector giving the time when the sample is drawn or\ndrug administered (hr).",
       "Wt" : "a numeric vector giving the birth weight of the infant (kg).",
-      "conc" : "a numeric vector giving the phenobarbital concentration in\nthe serum (ug/L).",
+      "dose" : "a numeric vector giving the dose of drug administered\n(ug/kg).",
       "ApgarInd" : "a factor indicating whether the 5-minute Apgar score is < 5\nor >= 5.",
-      "time" : "a numeric vector giving the time when the sample is drawn or\ndrug administered (hr)."
-   },
-   "description" : "Description\nThe Phenobarb data frame has 744 rows and 7 columns."
+      "Subject" : "an ordered factor identifying the infant.",
+      "conc" : "a numeric vector giving the phenobarbital concentration in\nthe serum (ug/L)."
+   }
 }
 
 var Phenobarb = [

@@ -1,10 +1,18 @@
 {
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>malaria</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Malaria Vaccine Trial</h2>\n<h3>Description</h3>\n<p>Volunteer patients were randomized into one of two experiment groups where\nthey would receive an experimental vaccine or a placebo.  They were\nsubsequently exposed to a drug-sensitive strain of malaria and observed to\nsee whether they came down with an infection.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>malaria\n</code></pre>\n<h3>Format</h3>\n<p>A data frame with 20 observations on the following 2 variables.\n</p>\n<dl>\n<dt>treatment</dt><dd><p>Whether a person was given the experimental <code>vaccine</code> or a <code>placebo</code>.</p>\n</dd>\n<dt>outcome</dt><dd><p>Whether the person got an <code>infection</code> or <code style=\"white-space: pre;\">&#8288;no infection&#8288;</code>.</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>In this study, volunteer patients were randomized into one of two experiment\ngroups: 14 patients received an experimental vaccine or 6 patients received\na placebo vaccine.  Nineteen weeks later, all 20 patients were exposed to a\ndrug-sensitive malaria virus strain; the motivation of using a\ndrug-sensitive strain of virus here is for ethical considerations, allowing\nany infections to be treated effectively.\n</p>\n<h3>Source</h3>\n<p>Lyke et al. 2017. PfSPZ vaccine induces strain-transcending T cells\nand durable protection against heterologous controlled human malaria\ninfection. PNAS 114(10):2711-2716.\n<a href=\"https://doi.org/10.1073/pnas.1615324114\">doi:10.1073/pnas.1615324114</a>.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>\nlibrary(dplyr)\n# Calculate conditional probabilities of infection after vaccine/placebo\nmalaria |&gt;\n  count(treatment, outcome) |&gt;\n  group_by(treatment) |&gt;\n  mutate(prop = n / sum(n))\n# Fisher's exact text\nfisher.test(table(malaria))\n</code></pre>\n</main>\n</div>\n",
+   "config" : {
+      "groupingFactors" : [
+         "outcome"
+      ],
+      "subtitle" : "openintro - malaria",
+      "title" : "Malaria Vaccine Trial",
+      "colorBy" : "variable",
+      "graphType" : "Boxplot",
+      "segregateSamplesBy" : [
+         "treatment"
+      ]
+   },
    "data" : {
       "y" : {
-         "vars" : [
-            "Row"
-         ],
          "smps" : [
             "Smp1",
             "Smp2",
@@ -50,31 +58,12 @@
                19,
                20
             ]
+         ],
+         "vars" : [
+            "Row"
          ]
       },
       "x" : {
-         "treatment" : [
-            "vaccine",
-            "vaccine",
-            "vaccine",
-            "vaccine",
-            "vaccine",
-            "vaccine",
-            "vaccine",
-            "vaccine",
-            "vaccine",
-            "vaccine",
-            "vaccine",
-            "vaccine",
-            "vaccine",
-            "vaccine",
-            "placebo",
-            "placebo",
-            "placebo",
-            "placebo",
-            "placebo",
-            "placebo"
-         ],
          "outcome" : [
             "infection",
             "infection",
@@ -96,19 +85,30 @@
             "infection",
             "infection",
             "infection"
+         ],
+         "treatment" : [
+            "vaccine",
+            "vaccine",
+            "vaccine",
+            "vaccine",
+            "vaccine",
+            "vaccine",
+            "vaccine",
+            "vaccine",
+            "vaccine",
+            "vaccine",
+            "vaccine",
+            "vaccine",
+            "vaccine",
+            "vaccine",
+            "placebo",
+            "placebo",
+            "placebo",
+            "placebo",
+            "placebo",
+            "placebo"
          ]
       }
    },
-   "config" : {
-      "colorBy" : "variable",
-      "graphType" : "Boxplot",
-      "groupingFactors" : [
-         "treatment"
-      ],
-      "title" : "Malaria Vaccine Trial",
-      "subtitle" : "openintro - malaria",
-      "segregateSamplesBy" : [
-         "outcome"
-      ]
-   }
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>malaria</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Malaria Vaccine Trial</h2>\n<h3>Description</h3>\n<p>Volunteer patients were randomized into one of two experiment groups where\nthey would receive an experimental vaccine or a placebo.  They were\nsubsequently exposed to a drug-sensitive strain of malaria and observed to\nsee whether they came down with an infection.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>malaria\n</code></pre>\n<h3>Format</h3>\n<p>A data frame with 20 observations on the following 2 variables.\n</p>\n<dl>\n<dt>treatment</dt><dd><p>Whether a person was given the experimental <code>vaccine</code> or a <code>placebo</code>.</p>\n</dd>\n<dt>outcome</dt><dd><p>Whether the person got an <code>infection</code> or <code style=\"white-space: pre;\">&#8288;no infection&#8288;</code>.</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>In this study, volunteer patients were randomized into one of two experiment\ngroups: 14 patients received an experimental vaccine or 6 patients received\na placebo vaccine.  Nineteen weeks later, all 20 patients were exposed to a\ndrug-sensitive malaria virus strain; the motivation of using a\ndrug-sensitive strain of virus here is for ethical considerations, allowing\nany infections to be treated effectively.\n</p>\n<h3>Source</h3>\n<p>Lyke et al. 2017. PfSPZ vaccine induces strain-transcending T cells\nand durable protection against heterologous controlled human malaria\ninfection. PNAS 114(10):2711-2716.\n<a href=\"https://doi.org/10.1073/pnas.1615324114\">doi:10.1073/pnas.1615324114</a>.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>\nlibrary(dplyr)\n# Calculate conditional probabilities of infection after vaccine/placebo\nmalaria |&gt;\n  count(treatment, outcome) |&gt;\n  group_by(treatment) |&gt;\n  mutate(prop = n / sum(n))\n# Fisher's exact text\nfisher.test(table(malaria))\n</code></pre>\n</main>\n</div>\n"
 }

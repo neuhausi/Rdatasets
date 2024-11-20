@@ -1,17 +1,17 @@
 var wvs_usa_educatInfo ={
-   "description" : "Description\nThis is a simple data set that summarizes what the education codes are in the World Values Survey for the United States.",
-   "usage" : "wvs_usa_educat",
+   "format" : "A data frame with 42 observations the following 6 variables.",
    "parameters" : {
-      "x025meaning" : "the meaning behind the unique x025 code",
-      "x025cswvs" : "the numeric code for supposedly the education-level attained by the respondent, with country-specific categories",
-      "x025" : "the numeric code for supposedly the highest educational level attained",
-      "x025cswvsmeaning" : "the meaning behind the unique x025cswvs code",
       "educat" : "a standardized categorical variable corresponding with that unique x025cswvs code",
+      "x025cswvsmeaning" : "the meaning behind the unique x025cswvs code",
+      "x025meaning" : "the meaning behind the unique x025 code",
+      "x025" : "the numeric code for supposedly the highest educational level attained",
+      "x025cswvs" : "the numeric code for supposedly the education-level attained by the respondent, with country-specific categories",
       "n" : "the number of observations in the World Values Survey with that unique x025cswvs code"
    },
-   "title" : "Education Categories for the United States in the World Values Survey",
    "reference" : "Observations taken from the combined seven waves of survey data made available by the World Values Survey, but isolated to\njust the United States. The World Values Survey unfortunately did not collect information about the education-level of the respondent\nin the 1981 and 1990 waves. These education categories feature in the Miller and Davis (2020) article in Journal of\nEthnicity, and Politics, albeit before the release of the seventh wave.",
-   "format" : "A data frame with 42 observations the following 6 variables."
+   "usage" : "wvs_usa_educat",
+   "title" : "Education Categories for the United States in the World Values Survey",
+   "description" : "Description\nThis is a simple data set that summarizes what the education codes are in the World Values Survey for the United States."
 }
 
 var wvs_usa_educat = [

@@ -1,8 +1,8 @@
 var SmithsonianInfo ={
+   "title" : "Smithsonian museums",
    "description" : "Description\nGeocodes for the Smithsonian museums (circa 2018).",
    "usage" : "Smithsonian\n\na tibble",
-   "format" : "https://en.wikipedia.org/wiki/List_of_Smithsonian_museums",
-   "title" : "Smithsonian museums"
+   "format" : "https://en.wikipedia.org/wiki/List_of_Smithsonian_museums"
 }
 
 var Smithsonian = [

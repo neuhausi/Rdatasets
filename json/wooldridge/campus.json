@@ -1,11 +1,20 @@
 {
    "config" : {
-      "graphType" : "Heatmap",
       "title" : "campus",
-      "subtitle" : "wooldridge - campus"
+      "subtitle" : "wooldridge - campus",
+      "graphType" : "Heatmap"
    },
    "data" : {
       "y" : {
+         "vars" : [
+            "enroll",
+            "priv",
+            "police",
+            "crime",
+            "lcrime",
+            "lenroll",
+            "lpolice"
+         ],
          "data" : [
             [
                21836,
@@ -700,15 +709,6 @@
                1.60943794250488,
                3.465735912323
             ]
-         ],
-         "vars" : [
-            "enroll",
-            "priv",
-            "police",
-            "crime",
-            "lcrime",
-            "lenroll",
-            "lpolice"
          ],
          "smps" : [
             "Smp1",

@@ -1,12 +1,32 @@
 {
    "config" : {
-      "graphType" : "Scatter2D",
-      "colorBy" : "Brand",
+      "subtitle" : "Stat2Data - Popcorn",
       "title" : "Popcorn Popping Success",
-      "subtitle" : "Stat2Data - Popcorn"
+      "graphType" : "Scatter2D",
+      "colorBy" : "Brand"
    },
    "data" : {
+      "z" : {
+         "Brand" : [
+            "Orville",
+            "Orville",
+            "Orville",
+            "Orville",
+            "Orville",
+            "Orville",
+            "Seaway",
+            "Seaway",
+            "Seaway",
+            "Seaway",
+            "Seaway",
+            "Seaway"
+         ]
+      },
       "y" : {
+         "smps" : [
+            "Unpopped",
+            "Trial"
+         ],
          "data" : [
             [
                26,
@@ -70,26 +90,6 @@
             "Var10",
             "Var11",
             "Var12"
-         ],
-         "smps" : [
-            "Unpopped",
-            "Trial"
-         ]
-      },
-      "z" : {
-         "Brand" : [
-            "Orville",
-            "Orville",
-            "Orville",
-            "Orville",
-            "Orville",
-            "Orville",
-            "Seaway",
-            "Seaway",
-            "Seaway",
-            "Seaway",
-            "Seaway",
-            "Seaway"
          ]
       }
    },

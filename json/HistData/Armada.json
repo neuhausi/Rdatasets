@@ -1,39 +1,20 @@
 {
-   "config" : {
-      "subtitle" : "HistData - Armada",
-      "graphType" : "Stacked",
-      "title" : "La Felicisima Armada",
-      "smpOverlays" : [
-         "Armada",
-         null
-      ]
-   },
    "data" : {
+      "x" : {
+         "Armada" : [
+            "Portugal",
+            "Vizca",
+            "Castilla",
+            "Andalucia",
+            "Guipuscua",
+            "Uantiscas",
+            "Vrcas",
+            "Pataches",
+            "Napoles",
+            "Galeras"
+         ]
+      },
       "y" : {
-         "vars" : [
-            "ships",
-            "tons",
-            "soldiers",
-            "sailors",
-            "men",
-            "artillery",
-            "balls",
-            "gunpowder",
-            "lead",
-            "rope"
-         ],
-         "smps" : [
-            "A1",
-            "A2",
-            "A3",
-            "A4",
-            "A5",
-            "A6",
-            "A7",
-            "A8",
-            "A9",
-            "A10"
-         ],
          "data" : [
             [
                12,
@@ -155,22 +136,41 @@
                88,
                20
             ]
-         ]
-      },
-      "x" : {
-         "Armada" : [
-            "Portugal",
-            "Vizca",
-            "Castilla",
-            "Andalucia",
-            "Guipuscua",
-            "Uantiscas",
-            "Vrcas",
-            "Pataches",
-            "Napoles",
-            "Galeras"
+         ],
+         "smps" : [
+            "A1",
+            "A2",
+            "A3",
+            "A4",
+            "A5",
+            "A6",
+            "A7",
+            "A8",
+            "A9",
+            "A10"
+         ],
+         "vars" : [
+            "ships",
+            "tons",
+            "soldiers",
+            "sailors",
+            "men",
+            "artillery",
+            "balls",
+            "gunpowder",
+            "lead",
+            "rope"
          ]
       }
    },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>Armada</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>\nLa Felicisima Armada\n</h2>\n<h3>Description</h3>\n<p>The Spanish Armada (Spanish: <em>Grande y Felicisima Armada</em>, literally &quot;Great and Most Fortunate Navy&quot;) was a Spanish fleet of 130 ships \nthat sailed from La Coruna in August 1588.\nDuring its preparation, several accounts of its formidable strength\nwere circulated to reassure allied powers of Spain or to intimidate its enemies.\nOne such account was given by Paz Salas et Alvarez (1588).\nThe intent was bring the forces of Spain to invade England, overthrow\nQueen Elizabeth I, and re-establish Spanish control of the Netherlands.\nHowever the Armada\nwas not as fortunate as hoped: it was all destroyed in one week's fighting.\n</p>\n<p>de Falguerolles (2008) reports the table given here as <code>Armada</code>\nas an early example of data to which multivariate methods might be applied.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(\"Armada\")</code></pre>\n<h3>Format</h3>\n<p>A data frame with 10 observations on the following 11 variables.\n</p>\n<dl>\n<dt><code>Armada</code></dt><dd><p>designation of the fleet, a factor with levels <code>Andalucia</code> <code>Castilla</code> <code>Galeras</code> <code>Guipuscua</code> <code>Napoles</code> <code>Pataches</code> <code>Portugal</code> <code>Uantiscas</code> <code>Vizca</code> <code>Vrcas</code></p>\n</dd>\n<dt><code>ships</code></dt><dd><p>number of ships, a numeric vector</p>\n</dd>\n<dt><code>tons</code></dt><dd><p>total tons, a numeric vector</p>\n</dd>\n<dt><code>soldiers</code></dt><dd><p>number of soldiers, a numeric vector</p>\n</dd>\n<dt><code>sailors</code></dt><dd><p>number of sailors, a numeric vector</p>\n</dd>\n<dt><code>men</code></dt><dd><p>total of soldiers plus sailors, a numeric vector</p>\n</dd>\n<dt><code>artillery</code></dt><dd><p>a numeric vector</p>\n</dd>\n<dt><code>balls</code></dt><dd><p>a numeric vector</p>\n</dd>\n<dt><code>gunpowder</code></dt><dd><p>a numeric vector</p>\n</dd>\n<dt><code>lead</code></dt><dd><p>a numeric vector</p>\n</dd>\n<dt><code>rope</code></dt><dd><p>a numeric vector</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>Note that <code>men = soldiers + sailors</code>\n</p>\n<h3>Source</h3>\n<p>de Falguerolles, A. (2008)\nL'analyse des donnees; before and around.\n<em>Journal Electronique  d'Histoire des\nProbabilites et de la Statistique</em>,\n4 (2),\nhttp://www.jehps.net/Decembre2008/Falguerolles.pdf\n</p>\n<h3>References</h3>\n<p>Pedro de Paz Salas and Antonio Alvares. La felicisima armada que elrey Don\nFelipe nuestro Senor mando juntar enel puerto de la ciudad de Lisboa enel Reyno\nde Portugal. Lisbon, 1588.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>data(Armada)\n# delete character and redundant variable\narmada &lt;- Armada[,-c(1,6)]\narmada.pca &lt;- prcomp(armada, scale.=TRUE)\nsummary(armada.pca)\nplot(armada.pca, type=\"lines\", pch=16, cex=2)\nbiplot(armada.pca)\n</code></pre>\n</main>\n</div>\n"
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>Armada</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>\nLa Felicisima Armada\n</h2>\n<h3>Description</h3>\n<p>The Spanish Armada (Spanish: <em>Grande y Felicisima Armada</em>, literally &quot;Great and Most Fortunate Navy&quot;) was a Spanish fleet of 130 ships \nthat sailed from La Coruna in August 1588.\nDuring its preparation, several accounts of its formidable strength\nwere circulated to reassure allied powers of Spain or to intimidate its enemies.\nOne such account was given by Paz Salas et Alvarez (1588).\nThe intent was bring the forces of Spain to invade England, overthrow\nQueen Elizabeth I, and re-establish Spanish control of the Netherlands.\nHowever the Armada\nwas not as fortunate as hoped: it was all destroyed in one week's fighting.\n</p>\n<p>de Falguerolles (2008) reports the table given here as <code>Armada</code>\nas an early example of data to which multivariate methods might be applied.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(\"Armada\")</code></pre>\n<h3>Format</h3>\n<p>A data frame with 10 observations on the following 11 variables.\n</p>\n<dl>\n<dt><code>Armada</code></dt><dd><p>designation of the fleet, a factor with levels <code>Andalucia</code> <code>Castilla</code> <code>Galeras</code> <code>Guipuscua</code> <code>Napoles</code> <code>Pataches</code> <code>Portugal</code> <code>Uantiscas</code> <code>Vizca</code> <code>Vrcas</code></p>\n</dd>\n<dt><code>ships</code></dt><dd><p>number of ships, a numeric vector</p>\n</dd>\n<dt><code>tons</code></dt><dd><p>total tons, a numeric vector</p>\n</dd>\n<dt><code>soldiers</code></dt><dd><p>number of soldiers, a numeric vector</p>\n</dd>\n<dt><code>sailors</code></dt><dd><p>number of sailors, a numeric vector</p>\n</dd>\n<dt><code>men</code></dt><dd><p>total of soldiers plus sailors, a numeric vector</p>\n</dd>\n<dt><code>artillery</code></dt><dd><p>a numeric vector</p>\n</dd>\n<dt><code>balls</code></dt><dd><p>a numeric vector</p>\n</dd>\n<dt><code>gunpowder</code></dt><dd><p>a numeric vector</p>\n</dd>\n<dt><code>lead</code></dt><dd><p>a numeric vector</p>\n</dd>\n<dt><code>rope</code></dt><dd><p>a numeric vector</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>Note that <code>men = soldiers + sailors</code>\n</p>\n<h3>Source</h3>\n<p>de Falguerolles, A. (2008)\nL'analyse des donnees; before and around.\n<em>Journal Electronique  d'Histoire des\nProbabilites et de la Statistique</em>,\n4 (2),\nhttp://www.jehps.net/Decembre2008/Falguerolles.pdf\n</p>\n<h3>References</h3>\n<p>Pedro de Paz Salas and Antonio Alvares. La felicisima armada que elrey Don\nFelipe nuestro Senor mando juntar enel puerto de la ciudad de Lisboa enel Reyno\nde Portugal. Lisbon, 1588.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>data(Armada)\n# delete character and redundant variable\narmada &lt;- Armada[,-c(1,6)]\narmada.pca &lt;- prcomp(armada, scale.=TRUE)\nsummary(armada.pca)\nplot(armada.pca, type=\"lines\", pch=16, cex=2)\nbiplot(armada.pca)\n</code></pre>\n</main>\n</div>\n",
+   "config" : {
+      "title" : "La Felicisima Armada",
+      "subtitle" : "HistData - Armada",
+      "smpOverlays" : [
+         "Armada",
+         null
+      ],
+      "graphType" : "Stacked"
+   }
 }

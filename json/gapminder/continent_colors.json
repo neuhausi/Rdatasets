@@ -1,15 +1,15 @@
 {
    "config" : {
-      "colorBy" : "variable",
       "graphType" : "Boxplot",
+      "colorBy" : "variable",
       "groupingFactors" : [
          "dat"
       ],
+      "subtitle" : "gapminder - continent_colors",
       "title" : "Gapminder color schemes.",
       "segregateSamplesBy" : [
          null
-      ],
-      "subtitle" : "gapminder - continent_colors"
+      ]
    },
    "data" : {
       "x" : {
@@ -22,6 +22,13 @@
          ]
       },
       "y" : {
+         "smps" : [
+            "Africa",
+            "Americas",
+            "Asia",
+            "Europe",
+            "Oceania"
+         ],
          "data" : [
             [
                1,
@@ -33,13 +40,6 @@
          ],
          "vars" : [
             "Row"
-         ],
-         "smps" : [
-            "Africa",
-            "Americas",
-            "Asia",
-            "Europe",
-            "Oceania"
          ]
       }
    },

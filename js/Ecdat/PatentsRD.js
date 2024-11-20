@@ -1,18 +1,18 @@
 var PatentsRDInfo ={
-   "description" : "Description\na panel of 181 observations  from 1983  to 1991\nnumber of observations :  1629\nobservation :  production units\ncountry :  world",
-   "usage" : "data(PatentsRD)",
+   "format" : "A dataframe containing :",
    "parameters" : {
-      "year" : "year",
-      "fi" : "firm's id",
-      "sector" : "firm's main industry sector, one of \naero (aerospace), \nchem (chemistry),\ncomput (computer), \ndrugs, \nelec (electricity), \nfood, \nfuel (fuel and mining), \nglass, \ninstr (instruments), \nmachin (machinery), \nmetals, \nother, \npaper, \nsoft (software), \nmotor (motor vehicles)",
       "patent" : "numbers of European patent applications",
-      "rdexp" : "log of R&D expenditures",
+      "fi" : "firm's id",
+      "year" : "year",
       "geo" : "geographic area, one of \neu (European \nUnion), \njapan, \nusa, \nrotw (rest of the world)",
-      "spil" : "log of spillovers"
+      "rdexp" : "log of R&D expenditures",
+      "spil" : "log of spillovers",
+      "sector" : "firm's main industry sector, one of \naero (aerospace), \nchem (chemistry),\ncomput (computer), \ndrugs, \nelec (electricity), \nfood, \nfuel (fuel and mining), \nglass, \ninstr (instruments), \nmachin (machinery), \nmetals, \nother, \npaper, \nsoft (software), \nmotor (motor vehicles)"
    },
+   "description" : "Description\na panel of 181 observations  from 1983  to 1991\nnumber of observations :  1629\nobservation :  production units\ncountry :  world",
    "title" : "Patents, R&D and Technological Spillovers for a Panel of Firms",
    "reference" : "Cincer, Michele (1997) &ldquo;Patents, R & D and technological spillovers at the firm level : some evidence from econometric count models for panel data&rdquo;, Journal of Applied Econometrics, 12(3), May&ndash;June, 265&ndash;280.",
-   "format" : "A dataframe containing :"
+   "usage" : "data(PatentsRD)"
 }
 
 var PatentsRD = [

@@ -1,0 +1,14 @@
+{
+   "parameters" : {
+      "impo" : "The value of U.S. imports (in billions)",
+      "year" : "the year",
+      "gdpb" : "U.S. GDP (nominal, in billions)",
+      "expo" : "The value of U.S. exports (in billions)",
+      "pop" : "Population of the U.S. (in thousands)"
+   },
+   "title" : "U.S. Trade and GDP, 1790-2018",
+   "description" : "Description\nA yearly data set on U.S. trade and GDP from 1790 to 2018. Data also include\na population variable to facilitate per capita adjustments, if the user\nsees it useful.",
+   "usage" : "usa_tradegdp",
+   "reference" : "Data come from various sources (see, especially:\nhttps://econdataus.com/tradeall.html). Post-1989 data come from the\nU.S. Census Bureau. 2018 GDP comes from the IMF. 2018 population estimate\ncomes from the U.S. Census Bureau.",
+   "format" : "A data frame with 229 observations on the following 5 variables."
+}

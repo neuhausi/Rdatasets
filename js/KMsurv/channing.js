@@ -1,15 +1,15 @@
 var channingInfo ={
-   "reference" : "Klein and Moeschberger (1997) Survival Analysis Techniques for Censored\nand truncated data, Springer.\nHyde Biometrika (1977), 225-230.",
+   "description" : "Description\nThe channing data frame has 462 rows and 6 columns.",
    "title" : "data from Section 1.16",
    "usage" : "This data frame contains the following columns:",
-   "description" : "Description\nThe channing data frame has 462 rows and 6 columns.",
+   "reference" : "Klein and Moeschberger (1997) Survival Analysis Techniques for Censored\nand truncated data, Springer.\nHyde Biometrika (1977), 225-230.",
    "parameters" : {
       "obs" : "Observation number",
       "gender" : "Gender (1=male, 2=female)",
-      "ageentry" : "Age of entry into retirement home, months",
       "age" : "Age of death or left retirement home, months",
-      "death" : "Death status (1=dead, 0=alive)",
-      "time" : "Difference between the above two ages, months"
+      "time" : "Difference between the above two ages, months",
+      "ageentry" : "Age of entry into retirement home, months",
+      "death" : "Death status (1=dead, 0=alive)"
    }
 }
 

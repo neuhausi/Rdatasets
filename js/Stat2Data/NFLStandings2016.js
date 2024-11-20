@@ -1,21 +1,21 @@
 var NFLStandings2016Info ={
    "usage" : "A data frame with 32 observations on the following 11 variables.",
-   "title" : "NFL Standings for 2016 Regular Season",
    "reference" : "Standings for the 2016 regular season of the National Football League (NFL) along with points and scored and allowed for each team in its16 games.",
+   "description" : "Description\nStandings and team statistics for National Football League (NFL) teams in the 2016 season",
+   "title" : "NFL Standings for 2016 Regular Season",
    "parameters" : {
-      "TDs" : "Touchdowns scored",
-      "Wins" : "Wins in the 2016 regular season (out of 16 games)",
-      "Ties" : "Ties in the 2016 regular season (ties are very rare in the NFL)",
-      "YardsFor" : "Offensive yards gained by the team",
-      "NetPts" : "Points scored minus Points allowed",
       "PointsAgainst" : "Points allowed",
+      "TDs" : "Touchdowns scored",
+      "YardsFor" : "Offensive yards gained by the team",
+      "PointsFor" : "Points scored",
+      "Ties" : "Ties in the 2016 regular season (ties are very rare in the NFL)",
       "Losses" : "Losses in the 2016 regular season",
-      "YardsAgainst" : "Offensive yards against the team",
-      "WinPct" : "Winning percentage = (Wins+0.5*Ties)/16 games",
+      "NetPts" : "Points scored minus Points allowed",
+      "Wins" : "Wins in the 2016 regular season (out of 16 games)",
       "Team" : "Team name",
-      "PointsFor" : "Points scored"
-   },
-   "description" : "Description\nStandings and team statistics for National Football League (NFL) teams in the 2016 season"
+      "YardsAgainst" : "Offensive yards against the team",
+      "WinPct" : "Winning percentage = (Wins+0.5*Ties)/16 games"
+   }
 }
 
 var NFLStandings2016 = [

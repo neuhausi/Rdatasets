@@ -1,29 +1,29 @@
 var benefitsInfo ={
+   "description" : "Description\nWooldridge  Data loads lazily.",
    "title" : "benefits",
-   "format" : "A data.frame with 1848 observations on 18 variables:",
+   "usage" : "data('benefits')",
    "reference" : "NA",
    "parameters" : {
-      "schid" : " school identifier",
-      "bs" : " avgben/avgsal",
-      "avgben" : " average teacher non-salary benefits, $",
-      "distid" : " district identifier",
-      "enroll" : " school enrollment",
-      "lenroll" : " log(enroll)",
-      "math4" : " percent passing 4th grade math test",
       "story4" : " percent passing 4th grade reading test",
-      "bsbar" : " within-district avg of bs",
-      "lunch" : " percent eligible, free lunch",
-      "exppp" : " expenditures per pupil",
-      "lavgsal" : " log(avgsal)",
-      "avgsal" : " average teacher salary, $",
-      "lunchbar" : " within-district avg of lunch",
-      "lstaff" : " log(staff)",
       "lenrollbar" : " within-district avg of lenroll",
+      "exppp" : " expenditures per pupil",
+      "avgsal" : " average teacher salary, $",
+      "distid" : " district identifier",
+      "bs" : " avgben/avgsal",
+      "bsbar" : " within-district avg of bs",
       "lstaffbar" : " within-district avg of lstaff",
-      "staff" : " staff per 1000 students"
+      "staff" : " staff per 1000 students",
+      "avgben" : " average teacher non-salary benefits, $",
+      "schid" : " school identifier",
+      "lavgsal" : " log(avgsal)",
+      "math4" : " percent passing 4th grade math test",
+      "lunch" : " percent eligible, free lunch",
+      "lstaff" : " log(staff)",
+      "lenroll" : " log(enroll)",
+      "lunchbar" : " within-district avg of lunch",
+      "enroll" : " school enrollment"
    },
-   "usage" : "data('benefits')",
-   "description" : "Description\nWooldridge  Data loads lazily."
+   "format" : "A data.frame with 1848 observations on 18 variables:"
 }
 
 var benefits = [

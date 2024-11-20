@@ -26,6 +26,26 @@
          ]
       },
       "y" : {
+         "vars" : [
+            "Year",
+            "1 unit",
+            "5 units or more",
+            "Northeast",
+            "Midwest",
+            "South",
+            "West"
+         ],
+         "smps" : [
+            "Smp1",
+            "Smp2",
+            "Smp3",
+            "Smp4",
+            "Smp5",
+            "Smp6",
+            "Smp7",
+            "Smp8",
+            "Smp9"
+         ],
          "data" : [
             [
                2018,
@@ -104,36 +124,16 @@
                286,
                296
             ]
-         ],
-         "smps" : [
-            "Smp1",
-            "Smp2",
-            "Smp3",
-            "Smp4",
-            "Smp5",
-            "Smp6",
-            "Smp7",
-            "Smp8",
-            "Smp9"
-         ],
-         "vars" : [
-            "Year",
-            "1 unit",
-            "5 units or more",
-            "Northeast",
-            "Midwest",
-            "South",
-            "West"
          ]
       }
    },
    "config" : {
-      "graphType" : "Heatmap",
-      "title" : "Completed construction in the US in 2018",
       "smpOverlays" : [
          "2 to 4 units",
          "Month"
       ],
+      "graphType" : "Heatmap",
+      "title" : "Completed construction in the US in 2018",
       "subtitle" : "tidyr - construction"
    }
 }

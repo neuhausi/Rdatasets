@@ -1,12 +1,12 @@
 var transplantInfo ={
+   "description" : "Description\nSummarizing whether there was or was not a complication for 62 patients who\nused a particular medical consultant.",
+   "title" : "Transplant consultant success rate (fake data)",
+   "reference" : "transplant",
+   "usage" : "transplant",
    "parameters" : {
       "outcome" : "a factor with levels complications okay"
    },
-   "format" : "A data frame with 62 observations on the following variable.",
-   "title" : "Transplant consultant success rate (fake data)",
-   "reference" : "transplant",
-   "description" : "Description\nSummarizing whether there was or was not a complication for 62 patients who\nused a particular medical consultant.",
-   "usage" : "transplant"
+   "format" : "A data frame with 62 observations on the following variable."
 }
 
 var transplant = [

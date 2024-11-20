@@ -1,0 +1,12 @@
+{
+   "reference" : "Since these data cover an age range in which physical growth is beginning to\ndecelerate, it is of interest whether a similar effect occurs in the\nacquisition of new vocabulary.",
+   "usage" : "A data frame with 64 observations on the following 4 variables.",
+   "description" : "Description\nData from the Laboratory School of the University of Chicago.  They consist\nof scores from a cohort of pupils in grades 8-11 on the vocabulary section\nof the Cooperative Reading Test.  The scores are scaled to a common, but\narbitrary origin and unit of measurement, so as to be comparable over the\nfour grades.",
+   "title" : "Vocabulary growth data",
+   "parameters" : {
+      "grade8" : "Grade 8 vocabulary score",
+      "grade11" : "Grade 11 vocabulary score",
+      "grade9" : "Grade 9 vocabulary score",
+      "grade10" : "Grade 10 vocabulary score"
+   }
+}

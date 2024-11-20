@@ -1,0 +1,24 @@
+{
+   "format" : "A dataframe containing :",
+   "description" : "Description\na cross-section from 1977&ndash;1978\nnumber of observations :  5190\nobservation :  individuals\ncountry :  Australia",
+   "title" : "Doctor Visits in Australia",
+   "usage" : "data(DoctorAUS)",
+   "reference" : "Cameron, A.C.  and  P.K.  Trivedi (1986) &ldquo;Econometric Models Based on Count Data: Comparisons and Applications of  Some Estimators and Tests&rdquo;, Journal of Applied Econometrics, 1, 29-54..",
+   "parameters" : {
+      "doctorco" : "number of consultations with a doctor or \nspecialist in the past 2 weeks",
+      "hscore" : "general health score using Goldberg's method \n(from 0 to 12)",
+      "illness" : "number of illness in past 2 weeks",
+      "sex" : "sex",
+      "insurance" : "insurance contract (medlevy : \nmedibanl levy, levyplus : \nprivate health insurance, freepoor : \ngovernment insurance due to low income, \nfreerepa : government insurance due to \nold age disability or veteran status",
+      "hospadmi" : "number of admissions to a hospital, \npsychiatric hospital, nursing or \nconvalescent home in the past 12 months \n(up to 5 or more admissions which is \ncoded as 5)",
+      "hospdays" : "number of nights in a hospital, etc. \nduring most recent admission: taken, \nwhere appropriate, as the mid-point of \nthe intervals 1, 2, 3, 4, 5, 6, 7, 8-14, \n15-30, 31-60, 61-79 with 80 or more \nadmissions coded as 80. If no admission \nin past 12 months then equals zero.",
+      "nondocco" : "number of consultations with non-doctor \nhealth professionals (chemist, optician, \nphysiotherapist, social worker, district \ncommunity nurse, chiropodist or \nchiropractor) in the past 2 weeks",
+      "income" : "annual income in tens of thousands of dollars",
+      "medecine" : "total number of prescribed and \nnonprescribed medications used in past 2 days",
+      "prescrib" : "total number of prescribed medications used \nin past 2 days",
+      "chcond" : "chronic condition (np : no problem, \nla : limiting activity, nla : \nnot limiting activity)",
+      "age" : "age",
+      "actdays" : "number of days of reduced activity in past 2 \nweeks due to illness or injury",
+      "nonpresc" : "total number of nonprescribed medications \nused in past 2 days"
+   }
+}

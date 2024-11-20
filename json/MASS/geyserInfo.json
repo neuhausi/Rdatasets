@@ -1,0 +1,6 @@
+{
+   "format" : "A data frame with 299 observations on 2 variables.",
+   "usage" : "geyser",
+   "description" : "Description\nA version of the eruptions data from the &lsquo;Old Faithful&rsquo; geyser\nin Yellowstone National  Park,  Wyoming. This version comes from\nAzzalini and Bowman (1990) and is of continuous measurement from August\n1 to August 15, 1985.\nSome nocturnal duration measurements were coded as 2, 3 or 4 minutes,\nhaving originally been described as &lsquo;short&rsquo;, &lsquo;medium&rsquo;\nor &lsquo;long&rsquo;.",
+   "title" : "Old Faithful Geyser Data"
+}

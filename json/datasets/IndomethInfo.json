@@ -1,0 +1,12 @@
+{
+   "format" : "An object of class\nc(\"nfnGroupedData\", \"nfGroupedData\", \"groupedData\", \"data.frame\")\ncontaining the following columns:",
+   "title" : "Pharmacokinetics of Indomethacin",
+   "description" : "Description\nThe Indometh data frame has 66 rows and 3 columns of data on\nthe pharmacokinetics of indometacin (or, older spelling,\n&lsquo;indomethacin&rsquo;).",
+   "reference" : "Each of the six subjects were given an intravenous injection of\nindometacin.",
+   "usage" : "Indometh",
+   "parameters" : {
+      "Subject" : "an ordered factor with containing the subject codes.  The\nordering is according to increasing maximum response.",
+      "conc" : "a numeric vector of plasma concentrations of indometacin (mcg/ml).",
+      "time" : "a numeric vector of times at which blood samples were drawn (hr)."
+   }
+}

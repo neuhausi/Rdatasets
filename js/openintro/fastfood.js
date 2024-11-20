@@ -1,28 +1,28 @@
 var fastfoodInfo ={
-   "parameters" : {
-      "sat_fat" : "Saturated fat",
-      "cholesterol" : "Cholesterol",
-      "item" : "Name of item",
-      "fiber" : "Fiber",
-      "vit_c" : "Vitamin C",
-      "protein" : "Protein",
-      "calcium" : "Calcium",
-      "vit_a" : "Vitamin A",
-      "restaurant" : "Name of restaurant",
-      "cal_fat" : "Calories from fat",
-      "calories" : "Number of calories",
-      "total_carb" : "Total carbs",
-      "salad" : "Salad or not",
-      "total_fat" : "Total fat",
-      "sugar" : "Suger",
-      "trans_fat" : "Trans fat",
-      "sodium" : "Sodium"
-   },
-   "title" : "Nutrition in fast food",
    "format" : "A data frame with 515 observations on the following 17 variables.",
+   "parameters" : {
+      "cholesterol" : "Cholesterol",
+      "vit_c" : "Vitamin C",
+      "restaurant" : "Name of restaurant",
+      "total_carb" : "Total carbs",
+      "calories" : "Number of calories",
+      "calcium" : "Calcium",
+      "fiber" : "Fiber",
+      "total_fat" : "Total fat",
+      "trans_fat" : "Trans fat",
+      "vit_a" : "Vitamin A",
+      "sodium" : "Sodium",
+      "protein" : "Protein",
+      "sat_fat" : "Saturated fat",
+      "cal_fat" : "Calories from fat",
+      "salad" : "Salad or not",
+      "sugar" : "Suger",
+      "item" : "Name of item"
+   },
    "reference" : "Retrieved from Tidy Tuesday Fast food entree data.",
-   "description" : "Description\nNutrition amounts in 515 fast food items.  The author of the data\nscraped only entrees (not sides, drinks, desserts, etc.).",
-   "usage" : "fastfood"
+   "usage" : "fastfood",
+   "title" : "Nutrition in fast food",
+   "description" : "Description\nNutrition amounts in 515 fast food items.  The author of the data\nscraped only entrees (not sides, drinks, desserts, etc.)."
 }
 
 var fastfood = [

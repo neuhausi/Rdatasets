@@ -1,17 +1,17 @@
 var SeatbeltsInfo ={
-   "usage" : "UKDriverDeaths\nSeatbelts",
-   "description" : "Description\nUKDriverDeaths is a time series giving the monthly totals\nof car drivers in\nGreat Britain killed or seriously injured Jan 1969 to Dec 1984.\nCompulsory wearing of seat belts was introduced on 31 Jan 1983.\nSeatbelts is more information on the same problem.",
-   "reference" : "Harvey, A.C. (1989).\nForecasting, Structural Time Series Models and the Kalman Filter.\nCambridge University Press, pp. 519&ndash;523.",
    "format" : "Seatbelts is a multiple time series, with columns",
    "title" : "Road Casualties in Great Britain 1969&ndash;84",
+   "description" : "Description\nUKDriverDeaths is a time series giving the monthly totals\nof car drivers in\nGreat Britain killed or seriously injured Jan 1969 to Dec 1984.\nCompulsory wearing of seat belts was introduced on 31 Jan 1983.\nSeatbelts is more information on the same problem.",
+   "reference" : "Harvey, A.C. (1989).\nForecasting, Structural Time Series Models and the Kalman Filter.\nCambridge University Press, pp. 519&ndash;523.",
+   "usage" : "UKDriverDeaths\nSeatbelts",
    "parameters" : {
-      "drivers" : "same as UKDriverDeaths.",
+      "DriversKilled" : "car drivers killed.",
+      "law" : "0/1: was the law in effect that month?",
       "PetrolPrice" : "petrol price.",
       "kms" : "distance driven.",
-      "law" : "0/1: was the law in effect that month?",
-      "DriversKilled" : "car drivers killed.",
-      "VanKilled" : "number of van (&lsquo;light goods vehicle&rsquo;)\ndrivers.",
       "front" : "front-seat passengers killed or seriously injured.",
+      "VanKilled" : "number of van (&lsquo;light goods vehicle&rsquo;)\ndrivers.",
+      "drivers" : "same as UKDriverDeaths.",
       "rear" : "rear-seat passengers killed or seriously injured."
    }
 }

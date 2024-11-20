@@ -1,0 +1,6 @@
+{
+   "title" : "Australian fertility rates",
+   "description" : "Description\naus_fertility contains annual data on one measured variable:\nRate:  Fertility rate (per thousand women)",
+   "usage" : "Time series of class 'tsibble'",
+   "format" : "Each series is uniquely identified using two keys:"
+}

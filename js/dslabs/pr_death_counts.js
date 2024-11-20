@@ -1,13 +1,13 @@
 var pr_death_countsInfo ={
-   "parameters" : {
-      "deaths. Number of deaths reported that day." : null,
-      "date. Date of the count." : null
-   },
-   "title" : "Puerto Rico daily mortality",
-   "format" : "An object of class data.frame.",
    "reference" : "Puerto Rico Demographic Registry. Data was extracted from PDF provided in 'system.file(\"extdata\", \"RD-Mortality-Report_2015-18-180531.pdf\", package = \"dslabs\")'",
+   "usage" : "pr_death_counts",
    "description" : "Description\nA data frame with Puerto Rico daily mortality counts 2015 to May 2018.\nThis includes the day hurricanes Maria made 2017-09-20.",
-   "usage" : "pr_death_counts"
+   "title" : "Puerto Rico daily mortality",
+   "parameters" : {
+      "date. Date of the count." : null,
+      "deaths. Number of deaths reported that day." : null
+   },
+   "format" : "An object of class data.frame."
 }
 
 var pr_death_counts = [

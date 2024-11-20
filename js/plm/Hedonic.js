@@ -1,25 +1,25 @@
 var HedonicInfo ={
+   "description" : "Description\nA cross-section",
+   "title" : "Hedonic Prices of Census Tracts in the Boston Area",
+   "reference" : "number of observations : 506",
+   "usage" : "A dataframe containing:",
    "parameters" : {
-      "mv" : "median value of owner&ndash;occupied homes",
-      "zn" : "proportion of 25,000 square feet residential lots",
       "ptratio" : "pupil/teacher ratio",
+      "nox" : "annual average nitrogen oxide concentration in parts per hundred million",
+      "zn" : "proportion of 25,000 square feet residential lots",
+      "townid" : "town identifier",
+      "crim" : "crime rate",
       "rm" : "average number of rooms",
       "indus" : "proportion of no&ndash;retail business acres",
+      "age" : "proportion of owner units built prior to 1940",
+      "blacks" : "proportion of blacks in the population",
       "dis" : "weighted distances to five employment centers in the Boston area",
       "tax" : "full value property tax rate ($/$10,000)",
-      "blacks" : "proportion of blacks in the population",
-      "lstat" : "proportion of population that is lower status",
-      "townid" : "town identifier",
-      "nox" : "annual average nitrogen oxide concentration in parts per hundred million",
-      "age" : "proportion of owner units built prior to 1940",
       "rad" : "index of accessibility to radial highways",
-      "crim" : "crime rate",
-      "chas" : "is the tract bounds the Charles River?"
-   },
-   "description" : "Description\nA cross-section",
-   "usage" : "A dataframe containing:",
-   "title" : "Hedonic Prices of Census Tracts in the Boston Area",
-   "reference" : "number of observations : 506"
+      "lstat" : "proportion of population that is lower status",
+      "chas" : "is the tract bounds the Charles River?",
+      "mv" : "median value of owner&ndash;occupied homes"
+   }
 }
 
 var Hedonic = [

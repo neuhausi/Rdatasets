@@ -1,21 +1,21 @@
 var GrowthDJInfo ={
+   "format" : "A data frame containing 121 observations on 10 variables.",
+   "parameters" : {
+      "literacy60" : "Fraction of the population over 15 years old that is able to read \nand write in 1960 (in percent).",
+      "inter" : "factor. Does the country have better quality data?",
+      "gdp60" : "Per capita GDP in 1960.",
+      "gdp85" : "Per capita GDP in 1985.",
+      "invest" : "Average ratio of investment (including Government Investment) to GDP \nfrom 1960 to 1985 (in percent).",
+      "oil" : "factor. Is the country an oil-producing country?",
+      "gdpgrowth" : "Average growth rate of per capita GDP from 1960 to 1985 (in percent).",
+      "oecd" : "factor. Is the country a member of the OECD?",
+      "school" : "Average fraction of working-age population enrolled in secondary school\nfrom 1960 to 1985 (in percent).",
+      "popgrowth" : "Average growth rate of working-age population 1960 to 1985 (in percent)."
+   },
+   "reference" : "The data are derived from the Penn World Table 4.0 and are given in Mankiw, Romer and Weil (1992),\nexcept literacy60 that is from the World Bank's World Development Report.",
    "usage" : "data(\"GrowthDJ\")",
    "description" : "Description\nGrowth regression data as provided by Durlauf & Johnson (1995).",
-   "format" : "A data frame containing 121 observations on 10 variables.",
-   "title" : "Determinants of Economic Growth",
-   "reference" : "The data are derived from the Penn World Table 4.0 and are given in Mankiw, Romer and Weil (1992),\nexcept literacy60 that is from the World Bank's World Development Report.",
-   "parameters" : {
-      "inter" : "factor. Does the country have better quality data?",
-      "invest" : "Average ratio of investment (including Government Investment) to GDP \nfrom 1960 to 1985 (in percent).",
-      "popgrowth" : "Average growth rate of working-age population 1960 to 1985 (in percent).",
-      "literacy60" : "Fraction of the population over 15 years old that is able to read \nand write in 1960 (in percent).",
-      "gdpgrowth" : "Average growth rate of per capita GDP from 1960 to 1985 (in percent).",
-      "gdp60" : "Per capita GDP in 1960.",
-      "oil" : "factor. Is the country an oil-producing country?",
-      "gdp85" : "Per capita GDP in 1985.",
-      "oecd" : "factor. Is the country a member of the OECD?",
-      "school" : "Average fraction of working-age population enrolled in secondary school\nfrom 1960 to 1985 (in percent)."
-   }
+   "title" : "Determinants of Economic Growth"
 }
 
 var GrowthDJ = [

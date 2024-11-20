@@ -1,22 +1,22 @@
 var ratingsInfo ={
-   "format" : "A data frame with 94 rows representing individual episodes and 11\nvariables:",
-   "reference" : "See\nhttps://en.wikipedia.org/wiki/The_Great_British_Bake_Off_(series_1)#Ratings",
    "title" : "Ratings",
+   "description" : "Description\nThis dataset has one row per episode and includes ratings plus\noriginal airdates in the UK (by series) and US\n(by season). This dataset is made by joining the ratings_raw\nand seasons_raw datasets by both series and episode.",
+   "reference" : "See\nhttps://en.wikipedia.org/wiki/The_Great_British_Bake_Off_(series_1)#Ratings",
+   "usage" : "ratings",
    "parameters" : {
+      "episode_count" : "An integer denoting continuous episode number across series (1-94)",
       "us_season" : "An integer denoting US season (1-5).",
       "bbc_iplayer_requests" : "Number of BBC iPlayer requests (note: not\navailable for all series, and only for series that aired on the BBC).",
-      "episode_count" : "An integer denoting continuous episode number across series (1-94)",
-      "channels_rank" : "An integer denoting the episode's weekly ranking\nacross all channels.",
-      "series" : "An integer denoting UK series (1-10).",
-      "network_rank" : "An integer denoting the episode's weekly ranking within\nnetwork (note that the networks changed for series 8 and later).",
-      "episode" : "An integer denoting episode number within a series.",
-      "uk_airdate" : "A date denoting original airdate of episode in the UK.",
       "viewers_28day" : "The number of viewers in millions within a 28-day\nwindow from airdate.",
+      "series" : "An integer denoting UK series (1-10).",
+      "episode" : "An integer denoting episode number within a series.",
+      "network_rank" : "An integer denoting the episode's weekly ranking within\nnetwork (note that the networks changed for series 8 and later).",
+      "channels_rank" : "An integer denoting the episode's weekly ranking\nacross all channels.",
       "viewers_7day" : "The number of viewers in millions within a 7-day window\nfrom airdate.",
-      "us_airdate" : "A date denoting original airdate of episode in the US,\naccording to\npbs.org."
+      "us_airdate" : "A date denoting original airdate of episode in the US,\naccording to\npbs.org.",
+      "uk_airdate" : "A date denoting original airdate of episode in the UK."
    },
-   "usage" : "ratings",
-   "description" : "Description\nThis dataset has one row per episode and includes ratings plus\noriginal airdates in the UK (by series) and US\n(by season). This dataset is made by joining the ratings_raw\nand seasons_raw datasets by both series and episode."
+   "format" : "A data frame with 94 rows representing individual episodes and 11\nvariables:"
 }
 
 var ratings = [

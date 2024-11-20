@@ -1,8 +1,8 @@
 var boston_marathonInfo ={
-   "description" : "Description\nWinning times for events at the Boston Marathon.\n1897-2019.",
-   "usage" : "Annual time series of class 'tsibble'.",
    "format" : "Boston Athletic Association.\nhttps://www.baa.org/races/boston-marathon/results/champions",
-   "title" : "Boston marathon winning times since 1897"
+   "usage" : "Annual time series of class 'tsibble'.",
+   "title" : "Boston marathon winning times since 1897",
+   "description" : "Description\nWinning times for events at the Boston Marathon.\n1897-2019."
 }
 
 var boston_marathon = [

@@ -1,15 +1,15 @@
 var Sitka89Info ={
-   "parameters" : {
-      "Time" : "time of measurement in  days since 1 January 1988.",
-      "tree" : "number of tree.",
-      "treat" : "either \"ozone\" for an ozone-enriched\nchamber or \"control\".",
-      "size" : "measured size (height times diameter squared) of\ntree, on log scale."
-   },
-   "format" : "This data frame contains the following columns:",
-   "reference" : "P. J. Diggle, K.-Y. Liang and S. L. Zeger (1994)\nAnalysis of Longitudinal Data.\nClarendon Press, Oxford",
    "title" : "Growth Curves for Sitka Spruce Trees in 1989",
    "description" : "Description\nThe Sitka89 data frame has 632 rows and 4 columns.  It gives repeated\nmeasurements on the log-size of 79 Sitka spruce trees, 54 of which\nwere grown in ozone-enriched chambers and 25 were controls.  The size\nwas measured eight times in 1989, at roughly monthly intervals.",
-   "usage" : "Sitka89"
+   "usage" : "Sitka89",
+   "reference" : "P. J. Diggle, K.-Y. Liang and S. L. Zeger (1994)\nAnalysis of Longitudinal Data.\nClarendon Press, Oxford",
+   "parameters" : {
+      "size" : "measured size (height times diameter squared) of\ntree, on log scale.",
+      "Time" : "time of measurement in  days since 1 January 1988.",
+      "treat" : "either \"ozone\" for an ozone-enriched\nchamber or \"control\".",
+      "tree" : "number of tree."
+   },
+   "format" : "This data frame contains the following columns:"
 }
 
 var Sitka89 = [

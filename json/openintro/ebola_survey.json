@@ -1,13 +1,4 @@
 {
-   "config" : {
-      "groupingFactors" : [
-         "quarantine"
-      ],
-      "subtitle" : "openintro - ebola_survey",
-      "title" : "Survey on Ebola quarantine",
-      "colorBy" : "variable",
-      "graphType" : "Boxplot"
-   },
    "data" : {
       "x" : {
          "quarantine" : [
@@ -1056,9 +1047,6 @@
          ]
       },
       "y" : {
-         "vars" : [
-            "Row"
-         ],
          "smps" : [
             "Smp1",
             "Smp2",
@@ -3148,8 +3136,20 @@
                1041,
                1042
             ]
+         ],
+         "vars" : [
+            "Row"
          ]
       }
    },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>ebola_survey</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Survey on Ebola quarantine</h2>\n<h3>Description</h3>\n<p>In New York City on October 23rd, 2014, a doctor who had recently been\ntreating Ebola patients in Guinea went to the hospital with a slight fever\nand was subsequently diagnosed with Ebola. Soon thereafter, an NBC 4 New\nYork/The Wall Street Journal/Marist Poll asked New Yorkers whether they\nfavored a &quot;mandatory 21-day quarantine for anyone who has come in contact\nwith an Ebola patient&quot;. This poll included responses of 1,042 New York\nadults between October 26th and 28th, 2014.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>ebola_survey\n</code></pre>\n<h3>Format</h3>\n<p>A data frame with 1042 observations on the following variable.\n</p>\n<dl>\n<dt>quarantine</dt><dd><p>Indicates whether the respondent is in <code>favor</code> or\n<code>against</code> the mandatory quarantine.</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>Poll ID NY141026 on maristpoll.marist.edu.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>\ntable(ebola_survey)\n</code></pre>\n</main>\n</div>\n"
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>ebola_survey</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Survey on Ebola quarantine</h2>\n<h3>Description</h3>\n<p>In New York City on October 23rd, 2014, a doctor who had recently been\ntreating Ebola patients in Guinea went to the hospital with a slight fever\nand was subsequently diagnosed with Ebola. Soon thereafter, an NBC 4 New\nYork/The Wall Street Journal/Marist Poll asked New Yorkers whether they\nfavored a &quot;mandatory 21-day quarantine for anyone who has come in contact\nwith an Ebola patient&quot;. This poll included responses of 1,042 New York\nadults between October 26th and 28th, 2014.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>ebola_survey\n</code></pre>\n<h3>Format</h3>\n<p>A data frame with 1042 observations on the following variable.\n</p>\n<dl>\n<dt>quarantine</dt><dd><p>Indicates whether the respondent is in <code>favor</code> or\n<code>against</code> the mandatory quarantine.</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>Poll ID NY141026 on maristpoll.marist.edu.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>\ntable(ebola_survey)\n</code></pre>\n</main>\n</div>\n",
+   "config" : {
+      "graphType" : "Boxplot",
+      "colorBy" : "variable",
+      "title" : "Survey on Ebola quarantine",
+      "groupingFactors" : [
+         "quarantine"
+      ],
+      "subtitle" : "openintro - ebola_survey"
+   }
 }

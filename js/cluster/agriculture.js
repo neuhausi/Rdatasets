@@ -1,8 +1,8 @@
 var agricultureInfo ={
-   "description" : "Description\nGross National Product (GNP) per capita and percentage of the\npopulation working in agriculture for each country belonging to the\nEuropean Union in 1993.",
-   "format" : "A data frame with 12 observations on 2 variables:",
+   "usage" : "data(agriculture)",
    "title" : "European Union Agricultural Workforces",
-   "usage" : "data(agriculture)"
+   "description" : "Description\nGross National Product (GNP) per capita and percentage of the\npopulation working in agriculture for each country belonging to the\nEuropean Union in 1993.",
+   "format" : "A data frame with 12 observations on 2 variables:"
 }
 
 var agriculture = [

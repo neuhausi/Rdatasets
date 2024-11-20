@@ -1,18 +1,18 @@
 var StatesInfo ={
    "format" : "This data frame contains the following columns:",
-   "title" : "Education and Related Statistics for the U.S. States",
-   "reference" : "United States (1992)\nStatistical Abstract of the United States. Bureau of the Census.",
    "parameters" : {
+      "region" : "U. S. Census regions.\nA factor with levels:\nENC, East North Central;\nESC, East South Central;\nMA, Mid-Atlantic;\nMTN, Mountain; \nNE, New England;\nPAC, Pacific; \nSA, South Atlantic;\nWNC, West North Central; \nWSC, West South Central.",
+      "percent" : "Percentage of graduating high-school \nstudents in the state who took the SAT exam.",
+      "pop" : "Population: in 1,000s.",
+      "SATV" : "Average score of graduating high-school \nstudents in the state on the verbal component of the \nScholastic Aptitude Test \n(a standard university admission exam).",
       "dollars" : "State spending on public education, \nin \\$1000s per student.",
       "SATM" : "Average score of graduating high-school \nstudents in the state on the math component of the \nScholastic Aptitude Test.",
-      "pop" : "Population: in 1,000s.",
-      "pay" : "Average teacher's salary in the state, \nin $1000s.",
-      "SATV" : "Average score of graduating high-school \nstudents in the state on the verbal component of the \nScholastic Aptitude Test \n(a standard university admission exam).",
-      "percent" : "Percentage of graduating high-school \nstudents in the state who took the SAT exam.",
-      "region" : "U. S. Census regions.\nA factor with levels:\nENC, East North Central;\nESC, East South Central;\nMA, Mid-Atlantic;\nMTN, Mountain; \nNE, New England;\nPAC, Pacific; \nSA, South Atlantic;\nWNC, West North Central; \nWSC, West South Central."
+      "pay" : "Average teacher's salary in the state, \nin $1000s."
    },
-   "usage" : "States",
-   "description" : "Description\nThe States data frame has 51 rows and 8 columns.\nThe observations are the U. S. states and Washington, D. C."
+   "description" : "Description\nThe States data frame has 51 rows and 8 columns.\nThe observations are the U. S. states and Washington, D. C.",
+   "title" : "Education and Related Statistics for the U.S. States",
+   "reference" : "United States (1992)\nStatistical Abstract of the United States. Bureau of the Census.",
+   "usage" : "States"
 }
 
 var States = [

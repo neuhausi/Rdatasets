@@ -1,105 +1,41 @@
 {
    "config" : {
-      "groupingFactors" : [
-         "stop_and_go"
-      ],
-      "colorBy" : "last_updated",
+      "colorBy" : "state",
       "graphType" : "Dotplot",
-      "segregateSamplesBy" : [
-         "highway",
-         "state"
+      "groupingFactors" : [
+         "last_updated"
       ],
       "subtitle" : "openintro - prius_mpg",
-      "title" : "User reported fuel efficiency for 2017 Toyota Prius Prime"
+      "title" : "User reported fuel efficiency for 2017 Toyota Prius Prime",
+      "segregateSamplesBy" : [
+         "highway",
+         "stop_and_go"
+      ]
    },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>prius_mpg</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>User reported fuel efficiency for 2017 Toyota Prius Prime</h2>\n<h3>Description</h3>\n<p>Fueleconomy.gov, the official US government source for fuel economy\ninformation, allows users to share gas mileage information on their\nvehicles. These data come from 19 users sharing gas mileage on their\n2017 Toyota Prius Prime. Note that these data are user estimates and\nsince the sources data cannot be verified, the accuracy of these estimates\nare not guaranteed.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>prius_mpg\n</code></pre>\n<h3>Format</h3>\n<p>A data frame with 19 observations on the following 10 variables.\n</p>\n<dl>\n<dt>average_mpg</dt><dd><p>Average mileage as estimated by the user.</p>\n</dd>\n<dt>state</dt><dd><p>US State the user lives in.</p>\n</dd>\n<dt>stop_and_go</dt><dd><p>Proportion of stop and go driving.</p>\n</dd>\n<dt>highway</dt><dd><p>Proportion of highway driving.</p>\n</dd>\n<dt>last_updated</dt><dd><p>Date estimate was last updated.</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>Fueleconomy.gov,\n<a href=\"https://www.fueleconomy.gov/mpg/MPG.do?action=mpgData&amp;vehicleID=38531&amp;browser=true&amp;details=on\">https://www.fueleconomy.gov/mpg/MPG.do?action=mpgData&amp;vehicleID=38531&amp;browser=true&amp;details=on</a>,\nretrieved 2019-04-14.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>\nlibrary(ggplot2)\nlibrary(dplyr)\nggplot(prius_mpg, aes(x = average_mpg)) +\n  geom_histogram(binwidth = 25)\n</code></pre>\n</main>\n</div>\n",
    "data" : {
-      "x" : {
-         "stop_and_go" : [
-            "",
-            "0.48",
-            "0.33",
-            "",
-            "0.8",
-            "0.44",
-            "0.5",
-            "0.5",
-            "0.9",
-            "0.2",
-            "0.22",
-            "0.35",
-            "",
-            "",
-            "0.4",
-            "0.6",
-            "0.24",
-            "0.46",
-            "0.5"
-         ],
-         "highway" : [
-            "",
-            "0.52",
-            "0.67",
-            "",
-            "0.2",
-            "0.56",
-            "0.5",
-            "0.5",
-            "0.1",
-            "0.8",
-            "0.78",
-            "0.65",
-            "",
-            "",
-            "0.6",
-            "0.4",
-            "0.76",
-            "0.54",
-            "0.5"
-         ],
-         "state" : [
-            "NV",
-            "CA",
-            "AL",
-            "FL",
-            "CA",
-            "OK",
-            "NY",
-            "MO",
-            "OH",
-            "VA",
-            "CA",
-            "NJ",
-            "MI",
-            "MD",
-            "CA",
-            "SC",
-            "VA",
-            "NY",
-            "NY"
-         ],
-         "last_updated" : [
-            "2019-02-20",
-            "2019-02-16",
-            "2017-03-31",
-            "2018-12-18",
-            "2018-04-25",
-            "2018-11-26",
-            "2018-09-09",
-            "2017-06-14",
-            "2017-01-31",
-            "2017-02-01",
-            "2017-08-12",
-            "2017-11-11",
-            "2019-04-07",
-            "2018-12-11",
-            "2019-03-28",
-            "2017-06-22",
-            "2019-02-25",
-            "2017-08-23",
-            "2018-11-27"
-         ]
-      },
       "y" : {
+         "smps" : [
+            "Smp1",
+            "Smp2",
+            "Smp3",
+            "Smp4",
+            "Smp5",
+            "Smp6",
+            "Smp7",
+            "Smp8",
+            "Smp9",
+            "Smp10",
+            "Smp11",
+            "Smp12",
+            "Smp13",
+            "Smp14",
+            "Smp15",
+            "Smp16",
+            "Smp17",
+            "Smp18",
+            "Smp19"
+         ],
          "data" : [
             [
                128.6,
@@ -123,31 +59,95 @@
                93.5
             ]
          ],
-         "smps" : [
-            "Smp1",
-            "Smp2",
-            "Smp3",
-            "Smp4",
-            "Smp5",
-            "Smp6",
-            "Smp7",
-            "Smp8",
-            "Smp9",
-            "Smp10",
-            "Smp11",
-            "Smp12",
-            "Smp13",
-            "Smp14",
-            "Smp15",
-            "Smp16",
-            "Smp17",
-            "Smp18",
-            "Smp19"
-         ],
          "vars" : [
             "average_mpg"
          ]
+      },
+      "x" : {
+         "last_updated" : [
+            "2019-02-20",
+            "2019-02-16",
+            "2017-03-31",
+            "2018-12-18",
+            "2018-04-25",
+            "2018-11-26",
+            "2018-09-09",
+            "2017-06-14",
+            "2017-01-31",
+            "2017-02-01",
+            "2017-08-12",
+            "2017-11-11",
+            "2019-04-07",
+            "2018-12-11",
+            "2019-03-28",
+            "2017-06-22",
+            "2019-02-25",
+            "2017-08-23",
+            "2018-11-27"
+         ],
+         "highway" : [
+            "",
+            "0.52",
+            "0.67",
+            "",
+            "0.2",
+            "0.56",
+            "0.5",
+            "0.5",
+            "0.1",
+            "0.8",
+            "0.78",
+            "0.65",
+            "",
+            "",
+            "0.6",
+            "0.4",
+            "0.76",
+            "0.54",
+            "0.5"
+         ],
+         "stop_and_go" : [
+            "",
+            "0.48",
+            "0.33",
+            "",
+            "0.8",
+            "0.44",
+            "0.5",
+            "0.5",
+            "0.9",
+            "0.2",
+            "0.22",
+            "0.35",
+            "",
+            "",
+            "0.4",
+            "0.6",
+            "0.24",
+            "0.46",
+            "0.5"
+         ],
+         "state" : [
+            "NV",
+            "CA",
+            "AL",
+            "FL",
+            "CA",
+            "OK",
+            "NY",
+            "MO",
+            "OH",
+            "VA",
+            "CA",
+            "NJ",
+            "MI",
+            "MD",
+            "CA",
+            "SC",
+            "VA",
+            "NY",
+            "NY"
+         ]
       }
-   },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>prius_mpg</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>User reported fuel efficiency for 2017 Toyota Prius Prime</h2>\n<h3>Description</h3>\n<p>Fueleconomy.gov, the official US government source for fuel economy\ninformation, allows users to share gas mileage information on their\nvehicles. These data come from 19 users sharing gas mileage on their\n2017 Toyota Prius Prime. Note that these data are user estimates and\nsince the sources data cannot be verified, the accuracy of these estimates\nare not guaranteed.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>prius_mpg\n</code></pre>\n<h3>Format</h3>\n<p>A data frame with 19 observations on the following 10 variables.\n</p>\n<dl>\n<dt>average_mpg</dt><dd><p>Average mileage as estimated by the user.</p>\n</dd>\n<dt>state</dt><dd><p>US State the user lives in.</p>\n</dd>\n<dt>stop_and_go</dt><dd><p>Proportion of stop and go driving.</p>\n</dd>\n<dt>highway</dt><dd><p>Proportion of highway driving.</p>\n</dd>\n<dt>last_updated</dt><dd><p>Date estimate was last updated.</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>Fueleconomy.gov,\n<a href=\"https://www.fueleconomy.gov/mpg/MPG.do?action=mpgData&amp;vehicleID=38531&amp;browser=true&amp;details=on\">https://www.fueleconomy.gov/mpg/MPG.do?action=mpgData&amp;vehicleID=38531&amp;browser=true&amp;details=on</a>,\nretrieved 2019-04-14.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>\nlibrary(ggplot2)\nlibrary(dplyr)\nggplot(prius_mpg, aes(x = average_mpg)) +\n  geom_histogram(binwidth = 25)\n</code></pre>\n</main>\n</div>\n"
+   }
 }

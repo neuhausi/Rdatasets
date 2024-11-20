@@ -1,14 +1,14 @@
 var LabourInfo ={
+   "title" : "Belgian Firms",
    "description" : "Description\na cross-section from 1996\nnumber of observations :  569\nobservation :  production units\ncountry :  Belgium",
-   "parameters" : {
-      "capital" : "total fixed assets, end of 1995 (in 1000000 euro)",
-      "wage" : "wage costs per worker (in 1000 euro)",
-      "output" : "value added (in 1000000 euro)",
-      "labour" : "number of workers (employment)"
-   },
    "usage" : "data(Labour)",
-   "format" : "A dataframe containing :",
-   "title" : "Belgian Firms"
+   "parameters" : {
+      "wage" : "wage costs per worker (in 1000 euro)",
+      "labour" : "number of workers (employment)",
+      "output" : "value added (in 1000000 euro)",
+      "capital" : "total fixed assets, end of 1995 (in 1000000 euro)"
+   },
+   "format" : "A dataframe containing :"
 }
 
 var Labour = [

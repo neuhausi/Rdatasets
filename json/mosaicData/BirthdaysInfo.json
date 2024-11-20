@@ -1,0 +1,16 @@
+{
+   "parameters" : {
+      "year" : "year (1969-1988)",
+      "day" : "day of month",
+      "state" : "state where child was born",
+      "births" : "number of births",
+      "month" : "month (1-12)",
+      "wday" : "Day of week (ordered factor)",
+      "date" : "date as a date object"
+   },
+   "reference" : "Births, Births78, Births2015, BirthsSSA, BirthsCDC for data sets that are\naggregated at the level of the entire country.",
+   "usage" : "data(Birthdays)",
+   "description" : "Description\nA day by day record of the number of births in each US State.",
+   "title" : "US Births in 1969 - 1988",
+   "format" : "A data frame with 374221 observations on the following variables."
+}

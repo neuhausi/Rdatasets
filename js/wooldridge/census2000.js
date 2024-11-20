@@ -1,17 +1,17 @@
 var census2000Info ={
+   "usage" : "data('census2000')",
+   "reference" : "pages 452-453",
+   "description" : "Description\nWooldridge Source: Obtained from the United States Census Bureau by Professor Alberto Abadie of the Harvard Kennedy School of Government. Professor Abadie kindly provided the data. Data loads lazily.",
+   "title" : "census2000",
    "parameters" : {
       "lweekinc" : " log(weekly income)",
+      "puma" : " Public Use Microdata Area",
       "state" : " State (ICPSR code)",
       "educ" : " educational attainment",
-      "expersq" : " exper^2",
       "exper" : " years workforce experience",
-      "puma" : " Public Use Microdata Area"
+      "expersq" : " exper^2"
    },
-   "reference" : "pages 452-453",
-   "title" : "census2000",
-   "format" : "A data.frame with 29501 observations on 6 variables:",
-   "description" : "Description\nWooldridge Source: Obtained from the United States Census Bureau by Professor Alberto Abadie of the Harvard Kennedy School of Government. Professor Abadie kindly provided the data. Data loads lazily.",
-   "usage" : "data('census2000')"
+   "format" : "A data.frame with 29501 observations on 6 variables:"
 }
 
 var census2000 = [

@@ -1,12 +1,12 @@
 var heightsInfo ={
-   "usage" : "heights",
-   "description" : "Description\nSelf-reported heights and sex. The heights were converted to inches from the original data included in reported_heights.",
    "format" : "An object of class \"data.frame\".",
-   "title" : "Self-reported Heights in Inches",
+   "usage" : "heights",
    "reference" : "reported_heights for the original data source.",
+   "description" : "Description\nSelf-reported heights and sex. The heights were converted to inches from the original data included in reported_heights.",
+   "title" : "Self-reported Heights in Inches",
    "parameters" : {
-      "sex. A factor with the self-reported sex." : null,
-      "height. A numeric vector with self-reported heights in inches." : null
+      "height. A numeric vector with self-reported heights in inches." : null,
+      "sex. A factor with the self-reported sex." : null
    }
 }
 

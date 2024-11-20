@@ -1,15 +1,15 @@
 var AdoptedInfo ={
-   "usage" : "A data frame with 62 observations on the following 6 variables.",
    "reference" : "The child's intelligence was measured at age 2, 4, 8, and 13 for this\nsample.  How does intelligence change over time, and how are these changes\nrelated to intelligence of the birth and adoptive mother?",
-   "title" : "Adopted Children",
+   "usage" : "A data frame with 62 observations on the following 6 variables.",
    "description" : "Description\nData are a subset from an observational, longitudinal, study on adopted\nchildren.  Is child's intelligence related to intelligence of the biological\nmother and the intelligence of the adoptive mother?",
+   "title" : "Adopted Children",
    "parameters" : {
-      "Age8IQ" : "IQ of child at age 8",
       "AMED" : "adoptive mother's years of education (proxy\nfor her IQ)",
+      "Age8IQ" : "IQ of child at age 8",
       "Age4IQ" : "IQ of child at age 4",
-      "BMIQ" : "biological mother's score on IQ test",
+      "Age2IQ" : "IQ of child at age 2",
       "Age13IQ" : "IQ of child at age 13",
-      "Age2IQ" : "IQ of child at age 2"
+      "BMIQ" : "biological mother's score on IQ test"
    }
 }
 

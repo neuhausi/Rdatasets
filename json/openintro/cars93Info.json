@@ -1,0 +1,15 @@
+{
+   "title" : "cars93",
+   "description" : "Description\nA data frame with 54 rows and 6 columns. This data is a subset of the\nCars93 dataset from the MASS package.",
+   "usage" : "cars93",
+   "reference" : "These cars represent a random sample for 1993 models that were in both\nConsumer Reports and PACE Buying Guide. Only vehicles of type\nsmall, midsize, and large were include.",
+   "parameters" : {
+      "passengers" : "The vehicle passenger capacity.",
+      "mpg_city" : "Vehicle mileage in city (miles per gallon).",
+      "type" : "The vehicle type with levels large, midsize,\nand small.",
+      "drive_train" : "Vehicle drive train with levels 4WD, front,\nand rear.",
+      "weight" : "Vehicle weight (lbs).",
+      "price" : "Vehicle price (USD)."
+   },
+   "format" : "A data frame with 54 observations on the following 6 variables."
+}

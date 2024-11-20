@@ -1,14 +1,14 @@
 var CigarettesBInfo ={
    "parameters" : {
+      "packs" : "Logarithm of cigarette consumption (in packs) per person of smoking age (> 16 years).",
       "income" : "Logarithm of real disposable income (per capita) in each state.",
-      "price" : "Logarithm of real price of cigarette in each state.",
-      "packs" : "Logarithm of cigarette consumption (in packs) per person of smoking age (> 16 years)."
+      "price" : "Logarithm of real price of cigarette in each state."
    },
-   "format" : "A data frame containing 46 observations on 3 variables.",
-   "reference" : "The data are from Baltagi (2002).",
    "title" : "Cigarette Consumption Data",
    "description" : "Description\nCross-section data on cigarette consumption for 46 US States, for the year 1992.",
-   "usage" : "data(\"CigarettesB\")"
+   "usage" : "data(\"CigarettesB\")",
+   "reference" : "The data are from Baltagi (2002).",
+   "format" : "A data frame containing 46 observations on 3 variables."
 }
 
 var CigarettesB = [

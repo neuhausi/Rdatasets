@@ -1,20 +1,20 @@
 var paralympic_1500Info ={
-   "usage" : "paralympic_1500",
-   "description" : "Description\nCompiled gold medal times for the 1500m race in the Olympic Games and the\nParalympic Games. The times given for contestants competing in\nthe Paralympic Games are for athletes with different visual impairments;\nT11 indicates fully blind (with an option to race with a guide-runner)\nwith T12 and T13 as lower levels of visual impairment.",
-   "title" : "Race time for Olympic and Paralympic 1500m.",
-   "reference" : "https://www.paralympic.org/ and https://en.wikipedia.org/wiki/1500_metres_at_the_Olympics.",
-   "format" : "A data frame with 83 rows and 10 variables.",
    "parameters" : {
       "division" : "Division: Men or Women.",
       "time" : "Time of gold medal race, in m:s.",
-      "country_of_games" : "Country of the games.",
-      "name" : "Name of the athlete.",
-      "country_of_athlete" : "Country of athlete.",
-      "time_min" : "Time of gold medal race, in decimal minutes (min + sec/60).",
       "year" : "Year the games took place.",
       "type" : "Type.",
-      "city" : "City of the games."
-   }
+      "country_of_games" : "Country of the games.",
+      "city" : "City of the games.",
+      "country_of_athlete" : "Country of athlete.",
+      "time_min" : "Time of gold medal race, in decimal minutes (min + sec/60).",
+      "name" : "Name of the athlete."
+   },
+   "description" : "Description\nCompiled gold medal times for the 1500m race in the Olympic Games and the\nParalympic Games. The times given for contestants competing in\nthe Paralympic Games are for athletes with different visual impairments;\nT11 indicates fully blind (with an option to race with a guide-runner)\nwith T12 and T13 as lower levels of visual impairment.",
+   "title" : "Race time for Olympic and Paralympic 1500m.",
+   "usage" : "paralympic_1500",
+   "reference" : "https://www.paralympic.org/ and https://en.wikipedia.org/wiki/1500_metres_at_the_Olympics.",
+   "format" : "A data frame with 83 rows and 10 variables."
 }
 
 var paralympic_1500 = [

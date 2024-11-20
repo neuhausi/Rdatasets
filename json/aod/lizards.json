@@ -1,12 +1,13 @@
 {
    "config" : {
-      "subtitle" : "aod - lizards",
-      "title" : "A Comparison of Site Preferences of Two Species of Lizard",
-      "sizeBy" : "Diameter",
-      "graphType" : "Scatter2D",
       "shapeBy" : "Time",
-      "colorBy" : "Height"
+      "sizeBy" : "Site",
+      "graphType" : "Scatter2D",
+      "colorBy" : "Diameter",
+      "subtitle" : "aod - lizards",
+      "title" : "A Comparison of Site Preferences of Two Species of Lizard"
    },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>lizards</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>A Comparison of Site Preferences of Two Species of Lizard</h2>\n<h3>Description</h3>\n<p>&ldquo;These data describe the daytime habits of two species of lizards, <em>grahami</em> and <em>opalinus</em>. \nThey were collected by observing occupied sites or perches and recording the appropriate description, namely \nspecies involved, time of the day, height and diameter of the perch and whether the site was sunny or shaded. \nTime of the day is recorded as early, mid-day or late.&rdquo; (McCullagh and Nelder, 1989, p.129).\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(lizards)</code></pre>\n<h3>Format</h3>\n<p>A data frame with 24 observations on the following 6 variables.\n</p>\n<dl>\n<dt>Site</dt><dd><p>A factor with levels <code>Sun</code> and <code>Shade</code>.</p>\n</dd>\n<dt>Diameter</dt><dd><p>A factor with levels <code>D &lt;= 2</code> and <code>D &gt; 2</code> (inches). </p>\n</dd>\n<dt>Height</dt><dd><p>A factor with levels <code>H &lt; 5</code> and <code>H &gt;= 5</code> (feet).</p>\n</dd>\n<dt>Time</dt><dd><p>A factor with levels <code>Early</code>, <code>Mid-day</code> and <code>Late</code>.</p>\n</dd>\n<dt>grahami</dt><dd><p>A numeric vector giving the observed sample size for <em>grahami</em> lizards.</p>\n</dd>\n<dt>opalinus</dt><dd><p>A numeric vector giving the observed sample size for <em>opalinus</em> lizards.</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>The data were originally published in Fienberg (1970).</p>\n<h3>Source</h3>\n<p>McCullagh, P., Nelder, J.A., 1989. <em>Generalized linear models</em>. London, Chapman &amp; Hall, 511 p.</p>\n<h3>References</h3>\n<p>Fienberg, S.E., 1970. <em>The analysis of multidimensional contingency tables</em>. Ecology 51: 419-433.</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>data(lizards)</code></pre>\n</main>\n</div>\n",
    "data" : {
       "y" : {
          "vars" : [
@@ -139,31 +140,31 @@
          ]
       },
       "z" : {
-         "Height" : [
-            "H < 5",
-            "H < 5",
-            "H < 5",
-            "H >= 5",
-            "H >= 5",
-            "H >= 5",
-            "H < 5",
-            "H < 5",
-            "H < 5",
-            "H >= 5",
-            "H >= 5",
-            "H >= 5",
-            "H < 5",
-            "H < 5",
-            "H < 5",
-            "H >= 5",
-            "H >= 5",
-            "H >= 5",
-            "H < 5",
-            "H < 5",
-            "H < 5",
-            "H >= 5",
-            "H >= 5",
-            "H >= 5"
+         "Diameter" : [
+            "D <= 2",
+            "D <= 2",
+            "D <= 2",
+            "D <= 2",
+            "D <= 2",
+            "D <= 2",
+            "D > 2",
+            "D > 2",
+            "D > 2",
+            "D > 2",
+            "D > 2",
+            "D > 2",
+            "D <= 2",
+            "D <= 2",
+            "D <= 2",
+            "D <= 2",
+            "D <= 2",
+            "D <= 2",
+            "D > 2",
+            "D > 2",
+            "D > 2",
+            "D > 2",
+            "D > 2",
+            "D > 2"
          ],
          "Time" : [
             "Early",
@@ -191,32 +192,6 @@
             "Mid-day",
             "Late"
          ],
-         "Diameter" : [
-            "D <= 2",
-            "D <= 2",
-            "D <= 2",
-            "D <= 2",
-            "D <= 2",
-            "D <= 2",
-            "D > 2",
-            "D > 2",
-            "D > 2",
-            "D > 2",
-            "D > 2",
-            "D > 2",
-            "D <= 2",
-            "D <= 2",
-            "D <= 2",
-            "D <= 2",
-            "D <= 2",
-            "D <= 2",
-            "D > 2",
-            "D > 2",
-            "D > 2",
-            "D > 2",
-            "D > 2",
-            "D > 2"
-         ],
          "Site" : [
             "Sun",
             "Sun",
@@ -242,8 +217,33 @@
             "Shade",
             "Shade",
             "Shade"
+         ],
+         "Height" : [
+            "H < 5",
+            "H < 5",
+            "H < 5",
+            "H >= 5",
+            "H >= 5",
+            "H >= 5",
+            "H < 5",
+            "H < 5",
+            "H < 5",
+            "H >= 5",
+            "H >= 5",
+            "H >= 5",
+            "H < 5",
+            "H < 5",
+            "H < 5",
+            "H >= 5",
+            "H >= 5",
+            "H >= 5",
+            "H < 5",
+            "H < 5",
+            "H < 5",
+            "H >= 5",
+            "H >= 5",
+            "H >= 5"
          ]
       }
-   },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>lizards</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>A Comparison of Site Preferences of Two Species of Lizard</h2>\n<h3>Description</h3>\n<p>&ldquo;These data describe the daytime habits of two species of lizards, <em>grahami</em> and <em>opalinus</em>. \nThey were collected by observing occupied sites or perches and recording the appropriate description, namely \nspecies involved, time of the day, height and diameter of the perch and whether the site was sunny or shaded. \nTime of the day is recorded as early, mid-day or late.&rdquo; (McCullagh and Nelder, 1989, p.129).\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(lizards)</code></pre>\n<h3>Format</h3>\n<p>A data frame with 24 observations on the following 6 variables.\n</p>\n<dl>\n<dt>Site</dt><dd><p>A factor with levels <code>Sun</code> and <code>Shade</code>.</p>\n</dd>\n<dt>Diameter</dt><dd><p>A factor with levels <code>D &lt;= 2</code> and <code>D &gt; 2</code> (inches). </p>\n</dd>\n<dt>Height</dt><dd><p>A factor with levels <code>H &lt; 5</code> and <code>H &gt;= 5</code> (feet).</p>\n</dd>\n<dt>Time</dt><dd><p>A factor with levels <code>Early</code>, <code>Mid-day</code> and <code>Late</code>.</p>\n</dd>\n<dt>grahami</dt><dd><p>A numeric vector giving the observed sample size for <em>grahami</em> lizards.</p>\n</dd>\n<dt>opalinus</dt><dd><p>A numeric vector giving the observed sample size for <em>opalinus</em> lizards.</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>The data were originally published in Fienberg (1970).</p>\n<h3>Source</h3>\n<p>McCullagh, P., Nelder, J.A., 1989. <em>Generalized linear models</em>. London, Chapman &amp; Hall, 511 p.</p>\n<h3>References</h3>\n<p>Fienberg, S.E., 1970. <em>The analysis of multidimensional contingency tables</em>. Ecology 51: 419-433.</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>data(lizards)</code></pre>\n</main>\n</div>\n"
+   }
 }

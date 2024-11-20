@@ -1,32 +1,32 @@
 var lawsch85Info ={
-   "usage" : "data('lawsch85')",
-   "description" : "Description\nWooldridge Source: Collected by Kelly Barnett, an MSU economics student, for use in a term project. The data come from two sources: The Official Guide to U.S. Law Schools, 1986, Law School Admission Services, and The Gourman Report: A Ranking of Graduate and Professional Programs in American and International Universities, 1995, Washington, D.C. Data loads lazily.",
    "format" : "A data.frame with 156 observations on 21 variables:",
-   "title" : "lawsch85",
-   "reference" : "More recent versions of both cited documents are available. One could try a similar analysis for, say, MBA programs or Ph.D. programs in economics. Quality of placements may be a good dependent variable, and measures of business school or graduate program quality could be included among the explanatory variables. Of course, one would want to control for factors describing the incoming class so as to isolate the effect of the program itself.",
    "parameters" : {
-      "rank" : " law school ranking",
+      "east" : " =1 if law sch in east",
+      "llibvol" : " log(libvol)",
+      "libvol" : " no. volumes in lib., 1000s",
+      "age" : " age of law sch., years",
+      "cost" : " law school cost",
+      "clsize" : " size of entering class",
+      "north" : " =1 if law sch in north",
+      "studfac" : " student-faculty ratio",
       "LSAT" : " median LSAT score",
-      "west" : " =1 if law sch in west",
+      "r26_40" : " =1 if ranked 26-40",
+      "salary" : " median starting salary",
+      "r11_25" : " =1 if ranked 11-25",
+      "GPA" : " median college GPA",
       "r41_60" : " =1 if ranked 41-60",
       "faculty" : " no. of faculty",
-      "clsize" : " size of entering class",
-      "lsalary" : " log(salary)",
-      "lcost" : " log(cost)",
-      "llibvol" : " log(libvol)",
+      "rank" : " law school ranking",
       "top10" : " =1 if ranked in top 10",
+      "west" : " =1 if law sch in west",
       "south" : " =1 if law sch in south",
-      "age" : " age of law sch., years",
-      "GPA" : " median college GPA",
-      "salary" : " median starting salary",
-      "cost" : " law school cost",
-      "r26_40" : " =1 if ranked 26-40",
-      "libvol" : " no. volumes in lib., 1000s",
-      "north" : " =1 if law sch in north",
-      "r11_25" : " =1 if ranked 11-25",
-      "studfac" : " student-faculty ratio",
-      "east" : " =1 if law sch in east"
-   }
+      "lcost" : " log(cost)",
+      "lsalary" : " log(salary)"
+   },
+   "reference" : "More recent versions of both cited documents are available. One could try a similar analysis for, say, MBA programs or Ph.D. programs in economics. Quality of placements may be a good dependent variable, and measures of business school or graduate program quality could be included among the explanatory variables. Of course, one would want to control for factors describing the incoming class so as to isolate the effect of the program itself.",
+   "usage" : "data('lawsch85')",
+   "description" : "Description\nWooldridge Source: Collected by Kelly Barnett, an MSU economics student, for use in a term project. The data come from two sources: The Official Guide to U.S. Law Schools, 1986, Law School Admission Services, and The Gourman Report: A Ranking of Graduate and Professional Programs in American and International Universities, 1995, Washington, D.C. Data loads lazily.",
+   "title" : "lawsch85"
 }
 
 var lawsch85 = [

@@ -1,11 +1,10 @@
 {
    "config" : {
-      "subtitle" : "heplots - RootStock",
       "graphType" : "Scatter2D",
       "title" : "Growth of Apple Trees from Different Root Stocks",
-      "scatterPlotMatrix" : 1
+      "scatterPlotMatrix" : 1,
+      "subtitle" : "heplots - RootStock"
    },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>RootStock</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Growth of Apple Trees from Different Root Stocks</h2>\n<h3>Description</h3>\n<p>In a classic experiment carried out from 1918 to 1934, growth of apple trees\nof six different rootstocks were compared on four measures of size.\nHow do the measures of size vary with the type of rootstock?\n</p>\n<h3>Format</h3>\n<p>A data frame with 48 observations on the following 5 variables.\n</p>\n<dl>\n<dt><code>rootstock</code></dt><dd><p>a factor with levels <code>1</code> <code>2</code> <code>3</code> <code>4</code> <code>5</code> <code>6</code></p>\n</dd> \n<dt><code>girth4</code></dt><dd><p>a numeric vector: trunk girth at 4 years (mm x 100)</p>\n</dd> \n<dt><code>ext4</code></dt><dd><p>a numeric vector: extension growth at 4 years (m)</p>\n</dd> \n<dt><code>girth15</code></dt><dd><p>a numeric vector: trunk girth at 15 years (mm x 100)</p>\n</dd> \n<dt><code>weight15</code></dt><dd><p>a numeric vector: weight of tree above ground at 15 years (lb x 1000)</p>\n</dd> \n</dl>\n<h3>Details</h3>\n<p>This is a balanced, one-way MANOVA design, with n=8 trees for each\nrootstock.\n</p>\n<h3>Source</h3>\n<p>Andrews, D. and Herzberg, A. (1985). <em>Data: A Collection of\nProblems from Many Fields for the Student and Research Worker</em>\nSpringer-Verlag, pp. 357&ndash;360.\n</p>\n<h3>References</h3>\n<p>Rencher, A. C. (1995). <em>Methods of Multivariate Analysis</em>.\nNew York: Wiley, Table 6.2\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>\nlibrary(car)\ndata(RootStock)\nstr(RootStock)\nroot.mod &lt;- lm(cbind(girth4, ext4, girth15, weight15) ~ rootstock, data=RootStock)\ncar::Anova(root.mod)\npairs(root.mod)\n# test two orthogonal contrasts among the rootstocks\nhyp &lt;- matrix(c(2,-1,-1,-1,-1,2,  \n                1, 0,0,0,0,-1), 2, 6, byrow=TRUE)\ncar::linearHypothesis(root.mod, hyp)\nheplot(root.mod, hypotheses=list(Contrasts=hyp, C1=hyp[1,], C2=hyp[2,]))\nheplot1d(root.mod, hypotheses=list(Contrasts=hyp, C1=hyp[1,], C2=hyp[2,]))\n</code></pre>\n</main>\n</div>\n",
    "data" : {
       "y" : {
          "data" : [
@@ -346,6 +345,13 @@
                0.952
             ]
          ],
+         "smps" : [
+            "rootstock",
+            "girth4",
+            "ext4",
+            "girth15",
+            "weight15"
+         ],
          "vars" : [
             "Var1",
             "Var2",
@@ -395,14 +401,8 @@
             "Var46",
             "Var47",
             "Var48"
-         ],
-         "smps" : [
-            "rootstock",
-            "girth4",
-            "ext4",
-            "girth15",
-            "weight15"
          ]
       }
-   }
+   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>RootStock</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Growth of Apple Trees from Different Root Stocks</h2>\n<h3>Description</h3>\n<p>In a classic experiment carried out from 1918 to 1934, growth of apple trees\nof six different rootstocks were compared on four measures of size.\nHow do the measures of size vary with the type of rootstock?\n</p>\n<h3>Format</h3>\n<p>A data frame with 48 observations on the following 5 variables.\n</p>\n<dl>\n<dt><code>rootstock</code></dt><dd><p>a factor with levels <code>1</code> <code>2</code> <code>3</code> <code>4</code> <code>5</code> <code>6</code></p>\n</dd> \n<dt><code>girth4</code></dt><dd><p>a numeric vector: trunk girth at 4 years (mm x 100)</p>\n</dd> \n<dt><code>ext4</code></dt><dd><p>a numeric vector: extension growth at 4 years (m)</p>\n</dd> \n<dt><code>girth15</code></dt><dd><p>a numeric vector: trunk girth at 15 years (mm x 100)</p>\n</dd> \n<dt><code>weight15</code></dt><dd><p>a numeric vector: weight of tree above ground at 15 years (lb x 1000)</p>\n</dd> \n</dl>\n<h3>Details</h3>\n<p>This is a balanced, one-way MANOVA design, with n=8 trees for each\nrootstock.\n</p>\n<h3>Source</h3>\n<p>Andrews, D. and Herzberg, A. (1985). <em>Data: A Collection of\nProblems from Many Fields for the Student and Research Worker</em>\nSpringer-Verlag, pp. 357&ndash;360.\n</p>\n<h3>References</h3>\n<p>Rencher, A. C. (1995). <em>Methods of Multivariate Analysis</em>.\nNew York: Wiley, Table 6.2\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>\nlibrary(car)\ndata(RootStock)\nstr(RootStock)\nroot.mod &lt;- lm(cbind(girth4, ext4, girth15, weight15) ~ rootstock, data=RootStock)\ncar::Anova(root.mod)\npairs(root.mod)\n# test two orthogonal contrasts among the rootstocks\nhyp &lt;- matrix(c(2,-1,-1,-1,-1,2,  \n                1, 0,0,0,0,-1), 2, 6, byrow=TRUE)\ncar::linearHypothesis(root.mod, hyp)\nheplot(root.mod, hypotheses=list(Contrasts=hyp, C1=hyp[1,], C2=hyp[2,]))\nheplot1d(root.mod, hypotheses=list(Contrasts=hyp, C1=hyp[1,], C2=hyp[2,]))\n</code></pre>\n</main>\n</div>\n"
 }

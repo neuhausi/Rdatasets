@@ -1,9 +1,9 @@
 var creditsInfo ={
-   "usage" : "credits",
-   "description" : "Description\nA simulated dataset of number of credits taken by college students each\nsemester.",
    "format" : "A data frame with 100 observations on the following variable.",
-   "title" : "College credits.",
+   "usage" : "credits",
    "reference" : "Simulated data.",
+   "title" : "College credits.",
+   "description" : "Description\nA simulated dataset of number of credits taken by college students each\nsemester.",
    "parameters" : {
       "credits" : "Number of credits."
    }

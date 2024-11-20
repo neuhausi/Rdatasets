@@ -73,8 +73,8 @@
       }
    },
    "config" : {
-      "title" : "Socioeconomic status and reduced-fee school lunches",
       "graphType" : "Scatter2D",
+      "title" : "Socioeconomic status and reduced-fee school lunches",
       "subtitle" : "openintro - helmet"
    }
 }

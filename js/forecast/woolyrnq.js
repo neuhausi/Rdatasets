@@ -1,8 +1,8 @@
 var woolyrnqInfo ={
    "format" : "Time series data",
-   "title" : "Quarterly production of woollen yarn in Australia",
    "usage" : "woolyrnq",
-   "description" : "Description\nQuarterly production of woollen yarn in Australia: tonnes. Mar 1965 &ndash; Sep\n1994."
+   "description" : "Description\nQuarterly production of woollen yarn in Australia: tonnes. Mar 1965 &ndash; Sep\n1994.",
+   "title" : "Quarterly production of woollen yarn in Australia"
 }
 
 var woolyrnq = [

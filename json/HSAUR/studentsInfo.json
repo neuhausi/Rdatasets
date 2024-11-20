@@ -1,0 +1,12 @@
+{
+   "format" : "A data frame with 35 observations on the following 3 variables.",
+   "title" : "Student Risk Taking",
+   "description" : "Description\nStudents were administered two parallel forms of a test after a random\nassignment to three different treatments.",
+   "usage" : "data(\"students\")",
+   "reference" : "The data arise from a large study of risk taking (Timm, 2002).\nStudents were randomly assigned to three different\ntreatments labelled AA, C and NC. Students were administered two   \nparallel forms of a test called low and high. The aim is to \ncarry out a test of the equality of the bivariate means of each treatment\npopulation.",
+   "parameters" : {
+      "low" : "the result of the first test.",
+      "treatment" : "a factor with levels AA, C, and\nNC.",
+      "high" : "the result of the second test."
+   }
+}

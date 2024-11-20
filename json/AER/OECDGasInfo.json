@@ -1,0 +1,15 @@
+{
+   "usage" : "data(\"OECDGas\")",
+   "reference" : "The data is from Baltagi (2002).",
+   "description" : "Description\nPanel data on gasoline consumption in 18 OECD countries over 19 years, 1960&ndash;1978.",
+   "title" : "Gasoline Consumption Data",
+   "parameters" : {
+      "country" : "Factor indicating country.",
+      "cars" : "Logarithm of the stock of cars per-capita.",
+      "gas" : "Logarithm of motor gasoline consumption per car.",
+      "year" : "Year.",
+      "price" : "Logarithm of real motor gasoline price.",
+      "income" : "Logarithm of real per-capita income."
+   },
+   "format" : "A data frame containing 342 observations on 6 variables."
+}

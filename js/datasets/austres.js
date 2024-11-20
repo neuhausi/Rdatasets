@@ -1,8 +1,8 @@
 var austresInfo ={
-   "usage" : "austres",
    "format" : "P. J. Brockwell and R. A. Davis (1996)\nIntroduction to Time Series and Forecasting.\nSpringer",
-   "title" : "Quarterly Time Series of the Number of Australian Residents",
-   "description" : "Description\nNumbers (in thousands) of Australian residents measured quarterly from\nMarch 1971 to March 1994.  The object is of class \"ts\"."
+   "usage" : "austres",
+   "description" : "Description\nNumbers (in thousands) of Australian residents measured quarterly from\nMarch 1971 to March 1994.  The object is of class \"ts\".",
+   "title" : "Quarterly Time Series of the Number of Australian Residents"
 }
 
 var austres = [

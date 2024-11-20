@@ -1,17 +1,17 @@
 var tipsInfo ={
-   "usage" : "tips",
-   "format" : "A data frame with 244 rows and 7 variables",
-   "title" : "Tipping data",
    "parameters" : {
-      "time of day," : null,
-      "whether there were smokers in the party," : null,
       "day of the week," : null,
       "bill in dollars," : null,
-      "tip in dollars," : null,
+      "time of day," : null,
       "sex of the bill payer," : null,
+      "tip in dollars," : null,
+      "whether there were smokers in the party," : null,
       "size of the party." : null
    },
-   "description" : "Description\nOne waiter recorded information about each tip he received over a\nperiod of a few months working in one restaurant. He collected several\nvariables:"
+   "usage" : "tips",
+   "title" : "Tipping data",
+   "description" : "Description\nOne waiter recorded information about each tip he received over a\nperiod of a few months working in one restaurant. He collected several\nvariables:",
+   "format" : "A data frame with 244 rows and 7 variables"
 }
 
 var tips = [

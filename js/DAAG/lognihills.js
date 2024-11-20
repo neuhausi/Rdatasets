@@ -1,19 +1,19 @@
 var lognihillsInfo ={
    "parameters" : {
-      "dist" : "distances in miles",
-      "logtimef" : "record time for females, log(hours)",
-      "logclimb" : "climb, log(feet)",
-      "logdist" : "distances, log(miles)",
-      "logtime" : "record time for males, log(hours)",
-      "timef" : "record time in hours for females",
       "time" : "record time in hours for males",
-      "climb" : "amount of climb in feet"
+      "logdist" : "distances, log(miles)",
+      "dist" : "distances in miles",
+      "climb" : "amount of climb in feet",
+      "timef" : "record time in hours for females",
+      "logclimb" : "climb, log(feet)",
+      "logtimef" : "record time for females, log(hours)",
+      "logtime" : "record time for males, log(hours)"
    },
+   "usage" : "data(nihills)\ndata(lognihills)",
    "reference" : "These data make an interesting comparison with the dataset\nhills2000 in the DAAG package.",
-   "format" : "A data frame with 23 observations on the following 4 variables.",
    "title" : "Record times for Northern Ireland mountain running events",
    "description" : "Description\nData were from the 2007 calendar for the Northern Ireland Mountain\nRunning Association.",
-   "usage" : "data(nihills)\ndata(lognihills)"
+   "format" : "A data frame with 23 observations on the following 4 variables."
 }
 
 var lognihills = [

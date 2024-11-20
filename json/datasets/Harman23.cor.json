@@ -1,37 +1,6 @@
 {
-   "config" : {
-      "smpOverlays" : [
-         null
-      ],
-      "title" : "Harman Example 2.3",
-      "graphType" : "Stacked",
-      "subtitle" : "datasets - Harman23.cor"
-   },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>Harman23.cor</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Harman Example 2.3</h2>\n<h3>Description</h3>\n<p>A correlation matrix of eight physical measurements on 305 girls between\nages seven and seventeen.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>Harman23.cor</code></pre>\n<h3>Source</h3>\n<p>Harman, H. H. (1976)\n<em>Modern Factor Analysis</em>, Third Edition Revised,\nUniversity of Chicago Press, Table 2.3.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>require(stats)\n(Harman23.FA &lt;- factanal(factors = 1, covmat = Harman23.cor))\nfor(factors in 2:4) print(update(Harman23.FA, factors = factors))\n</code></pre>\n</main>\n</div>\n",
    "data" : {
       "y" : {
-         "smps" : [
-            "height",
-            "arm.span",
-            "forearm",
-            "lower.leg",
-            "weight",
-            "bitro.diameter",
-            "chest.girth",
-            "chest.width"
-         ],
-         "vars" : [
-            "cov.height",
-            "cov.arm.span",
-            "cov.forearm",
-            "cov.lower.leg",
-            "cov.weight",
-            "cov.bitro.diameter",
-            "cov.chest.girth",
-            "cov.chest.width",
-            "center",
-            "n.obs"
-         ],
          "data" : [
             [
                1,
@@ -133,7 +102,38 @@
                305,
                305
             ]
+         ],
+         "smps" : [
+            "height",
+            "arm.span",
+            "forearm",
+            "lower.leg",
+            "weight",
+            "bitro.diameter",
+            "chest.girth",
+            "chest.width"
+         ],
+         "vars" : [
+            "cov.height",
+            "cov.arm.span",
+            "cov.forearm",
+            "cov.lower.leg",
+            "cov.weight",
+            "cov.bitro.diameter",
+            "cov.chest.girth",
+            "cov.chest.width",
+            "center",
+            "n.obs"
          ]
       }
+   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>Harman23.cor</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Harman Example 2.3</h2>\n<h3>Description</h3>\n<p>A correlation matrix of eight physical measurements on 305 girls between\nages seven and seventeen.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>Harman23.cor</code></pre>\n<h3>Source</h3>\n<p>Harman, H. H. (1976)\n<em>Modern Factor Analysis</em>, Third Edition Revised,\nUniversity of Chicago Press, Table 2.3.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>require(stats)\n(Harman23.FA &lt;- factanal(factors = 1, covmat = Harman23.cor))\nfor(factors in 2:4) print(update(Harman23.FA, factors = factors))\n</code></pre>\n</main>\n</div>\n",
+   "config" : {
+      "subtitle" : "datasets - Harman23.cor",
+      "title" : "Harman Example 2.3",
+      "graphType" : "Stacked",
+      "smpOverlays" : [
+         null
+      ]
    }
 }

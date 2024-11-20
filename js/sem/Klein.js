@@ -1,21 +1,21 @@
 var KleinInfo ={
-   "title" : "Klein's Data on the U. S. Economy",
-   "format" : "This data frame contains the following columns:",
-   "reference" : "Greene, W. H. (1993)\nEconometric Analysis, Second Edition.\nMacmillan.",
    "parameters" : {
-      "Year" : "1921&ndash;1941",
       "Wg" : "government wages.",
-      "X" : "equilibrium demand.",
-      "T" : "indirect business taxes and net exports.",
+      "Year" : "1921&ndash;1941",
+      "P" : "private profits.",
       "K.lag" : "capital stock, lagged one year.",
-      "I" : "investment.",
-      "G" : "government non-wage spending.",
       "Wp" : "private wages.",
+      "I" : "investment.",
+      "T" : "indirect business taxes and net exports.",
+      "X" : "equilibrium demand.",
       "C" : "consumption.",
-      "P" : "private profits."
+      "G" : "government non-wage spending."
    },
+   "description" : "Description\nData for Klein's (1950) simple econometric model of the U. S. economy.\nThe Klein data frame has 22 rows and 10 columns.",
+   "title" : "Klein's Data on the U. S. Economy",
    "usage" : "Klein",
-   "description" : "Description\nData for Klein's (1950) simple econometric model of the U. S. economy.\nThe Klein data frame has 22 rows and 10 columns."
+   "reference" : "Greene, W. H. (1993)\nEconometric Analysis, Second Edition.\nMacmillan.",
+   "format" : "This data frame contains the following columns:"
 }
 
 var Klein = [

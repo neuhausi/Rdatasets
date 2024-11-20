@@ -1,13 +1,19 @@
 {
    "config" : {
-      "scatterPlotMatrix" : 1,
+      "subtitle" : "HLMdiag - radon",
       "title" : "Radon data",
+      "scatterPlotMatrix" : 1,
       "colorBy" : "county.name",
-      "graphType" : "Scatter2D",
-      "subtitle" : "HLMdiag - radon"
+      "graphType" : "Scatter2D"
    },
    "data" : {
       "y" : {
+         "smps" : [
+            "log.radon",
+            "basement",
+            "uranium",
+            "county"
+         ],
          "data" : [
             [
                0.78845736036427,
@@ -6444,12 +6450,6 @@
             "Var917",
             "Var918",
             "Var919"
-         ],
-         "smps" : [
-            "log.radon",
-            "basement",
-            "uranium",
-            "county"
          ]
       },
       "z" : {

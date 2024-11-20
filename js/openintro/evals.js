@@ -1,34 +1,34 @@
 var evalsInfo ={
    "format" : "A data frame with 463 observations on the following 23 variables.",
-   "title" : "Professor evaluations and beauty",
    "reference" : "Daniel S. Hamermesh, Amy Parker, Beauty in the classroom:\ninstructorsâ pulchritude and putative pedagogical productivity, Economics\nof Education Review, Volume 24, Issue 4, 2005.\ndoi:10.1016/j.econedurev.2004.07.013.",
+   "usage" : "evals",
+   "title" : "Professor evaluations and beauty",
+   "description" : "Description\nThe data are gathered from end of semester student evaluations for 463 courses\ntaught by a sample of 94 professors from the University of Texas at Austin. In addition,\nsix students rate the professors' physical appearance. The result is a data\nframe where each row contains a different course and each column has\ninformation on the course and the professor who taught that course.",
    "parameters" : {
-      "pic_outfit" : "Outfit of professor in picture: not formal, formal.",
       "rank" : "Rank of professor: teaching, tenure track, tenured.",
-      "bty_f2upper" : "Beauty rating of professor from second level female:\n(1) lowest - (10) highest.",
-      "cls_perc_eval" : "Percent of students in class who completed evaluation.",
-      "bty_m2upper" : "Beauty rating of professor from second upper level male:\n(1) lowest - (10) highest.",
-      "course_id" : "Variable identifying the course (out of 463 courses).",
-      "cls_did_eval" : "Number of students in class who completed evaluation.",
-      "ethnicity" : "Ethnicity of professor: not minority, minority.",
-      "bty_m1lower" : "Beauty rating of professor from lower level male:\n(1) lowest - (10) highest.",
-      "age" : "Age of professor.",
+      "score" : "Average professor evaluation score: (1) very unsatisfactory -\n(5) excellent.",
       "prof_id" : "Variable identifying the professor who taught the course (out of 94 professors).",
-      "pic_color" : "Color of professor's picture: color, black & white.",
-      "bty_f1lower" : "Beauty rating of professor from lower level\nfemale: (1) lowest - (10) highest.",
+      "cls_perc_eval" : "Percent of students in class who completed evaluation.",
+      "cls_students" : "Total number of students in class.",
+      "bty_f2upper" : "Beauty rating of professor from second level female:\n(1) lowest - (10) highest.",
+      "bty_m2upper" : "Beauty rating of professor from second upper level male:\n(1) lowest - (10) highest.",
+      "cls_did_eval" : "Number of students in class who completed evaluation.",
+      "age" : "Age of professor.",
       "bty_f1upper" : "Beauty rating of professor from upper level female:\n(1) lowest - (10) highest.",
-      "language" : "Language of school where professor received education:\nEnglish or non-English.",
+      "course_id" : "Variable identifying the course (out of 463 courses).",
+      "pic_color" : "Color of professor's picture: color, black & white.",
       "cls_level" : "Class level: lower, upper.",
+      "ethnicity" : "Ethnicity of professor: not minority, minority.",
       "gender" : "Gender of professor: female, male.",
+      "pic_outfit" : "Outfit of professor in picture: not formal, formal.",
+      "bty_m1upper" : "Beauty rating of professor from upper level male:\n(1) lowest - (10) highest.",
       "cls_profs" : "Number of professors teaching sections in course in\nsample: single, multiple.",
+      "bty_m1lower" : "Beauty rating of professor from lower level male:\n(1) lowest - (10) highest.",
+      "language" : "Language of school where professor received education:\nEnglish or non-English.",
       "cls_credits" : "Number of credits of class: one credit (lab, PE, etc.),\nmulti credit.",
       "bty_avg" : "Average beauty rating of professor.",
-      "bty_m1upper" : "Beauty rating of professor from upper level male:\n(1) lowest - (10) highest.",
-      "cls_students" : "Total number of students in class.",
-      "score" : "Average professor evaluation score: (1) very unsatisfactory -\n(5) excellent."
-   },
-   "usage" : "evals",
-   "description" : "Description\nThe data are gathered from end of semester student evaluations for 463 courses\ntaught by a sample of 94 professors from the University of Texas at Austin. In addition,\nsix students rate the professors' physical appearance. The result is a data\nframe where each row contains a different course and each column has\ninformation on the course and the professor who taught that course."
+      "bty_f1lower" : "Beauty rating of professor from lower level\nfemale: (1) lowest - (10) highest."
+   }
 }
 
 var evals = [

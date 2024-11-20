@@ -1,28 +1,28 @@
 var meap93Info ={
-   "description" : "Description\nWooldridge Source: I collected these data from the old Michigan Department of Education web site. See MATHPNL.RAW for the current web site. I used data on most high schools in the state of Michigan for 1993. I dropped some high schools that had suspicious-looking data. Data loads lazily.",
-   "usage" : "data('meap93')",
    "parameters" : {
-      "math10" : " perc studs passing MEAP math",
-      "lnchprg" : " perc of studs in sch lnch prog",
-      "sci11" : " perc studs passing MEAP science",
       "lsalary" : " log(salary)",
-      "totcomp" : " salary + benefits",
-      "lenroll" : " log(enroll)",
-      "enroll" : " school enrollment",
-      "ltotcomp" : " log(totcomp)",
-      "benefits" : " avg. teacher benefits, $",
-      "gradrate" : " school graduation rate, perc",
-      "bensal" : " benefits/salary",
-      "staff" : " staff per 1000 students",
-      "droprate" : " school dropout rate, perc",
-      "lexpend" : " log of expend",
+      "sci11" : " perc studs passing MEAP science",
       "lstaff" : " log(staff)",
+      "lenroll" : " log(enroll)",
+      "gradrate" : " school graduation rate, perc",
       "salary" : " avg. teacher salary, $",
+      "enroll" : " school enrollment",
+      "bensal" : " benefits/salary",
+      "math10" : " perc studs passing MEAP math",
+      "ltotcomp" : " log(totcomp)",
+      "lexpend" : " log of expend",
+      "benefits" : " avg. teacher benefits, $",
+      "droprate" : " school dropout rate, perc",
+      "staff" : " staff per 1000 students",
+      "lnchprg" : " perc of studs in sch lnch prog",
+      "totcomp" : " salary + benefits",
       "expend" : " expend. per stud, $"
    },
+   "reference" : "Many states have data, at either the district or building level, on student performance and spending. A good exercise in data collection and cleaning is to have students find such data for a particular state, and to put it into a form that can be used for econometric analysis.",
+   "usage" : "data('meap93')",
+   "description" : "Description\nWooldridge Source: I collected these data from the old Michigan Department of Education web site. See MATHPNL.RAW for the current web site. I used data on most high schools in the state of Michigan for 1993. I dropped some high schools that had suspicious-looking data. Data loads lazily.",
    "title" : "meap93",
-   "format" : "A data.frame with 408 observations on 17 variables:",
-   "reference" : "Many states have data, at either the district or building level, on student performance and spending. A good exercise in data collection and cleaning is to have students find such data for a particular state, and to put it into a form that can be used for econometric analysis."
+   "format" : "A data.frame with 408 observations on 17 variables:"
 }
 
 var meap93 = [

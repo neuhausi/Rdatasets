@@ -1,7 +1,7 @@
 var PreSexInfo ={
+   "format" : "A 4-dimensional array resulting from cross-tabulating 1036\nobservations on 4 variables.  The variables and their levels are as\nfollows:",
    "usage" : "data(\"PreSex\")",
    "title" : "Pre-marital Sex and Divorce",
-   "format" : "A 4-dimensional array resulting from cross-tabulating 1036\nobservations on 4 variables.  The variables and their levels are as\nfollows:",
    "description" : "Description\nData from Thornes & Collard (1979), reported in Gilbert (1981), on\npre- and extra-marital sex and divorce."
 }
 

@@ -1,7 +1,7 @@
 var ChemoTHCInfo ={
+   "description" : "Description\nComparison of two treatments for nausea in chemotherapy",
    "title" : "THC for Antinausea Treatment in Chemotherapy",
-   "usage" : "A data frame with 2 observations on the following 4 variables.",
-   "description" : "Description\nComparison of two treatments for nausea in chemotherapy"
+   "usage" : "A data frame with 2 observations on the following 4 variables."
 }
 
 var ChemoTHC = [

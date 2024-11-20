@@ -1,0 +1,12 @@
+{
+   "format" : "A data frame with 38 observations on the following 3 variables.",
+   "usage" : "data(CobarOre)",
+   "reference" : "Green, P.J. and B.W. Silverman (1994) Nonparametric Regression Generalized Linear Models:\nA roughness penalty approach, Chapman Hall.",
+   "description" : "Description\nCobar Ore data from Green and Silverman (1994). \nThe data consists of measurements on the \"true width\"\nof an ore-bearing rock layer from a mine in Cobar, Australia.",
+   "title" : "Cobar Ore data",
+   "parameters" : {
+      "y" : "y-coordinate of location of mine site",
+      "x" : "x-coordinate of location of mine site",
+      "z" : "ore thickness"
+   }
+}

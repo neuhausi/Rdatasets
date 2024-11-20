@@ -1,25 +1,25 @@
 var Medicaid1986Info ={
    "usage" : "data(\"Medicaid1986\")",
-   "description" : "Description\nCross-section data originating from the 1986 Medicaid Consumer Survey. The data comprise\ntwo groups of Medicaid eligibles at two sites in California (Santa Barbara and Ventura \ncounties): a group enrolled in a managed care demonstration program and a fee-for-service \ncomparison group of non-enrollees.",
    "reference" : "Journal of Applied Econometrics Data Archive.",
-   "format" : "A data frame containing 996 observations on 14 variables.",
+   "description" : "Description\nCross-section data originating from the 1986 Medicaid Consumer Survey. The data comprise\ntwo groups of Medicaid eligibles at two sites in California (Santa Barbara and Ventura \ncounties): a group enrolled in a managed care demonstration program and a fee-for-service \ncomparison group of non-enrollees.",
    "title" : "Medicaid Utilization Data",
    "parameters" : {
-      "access" : "Availability of health services (0 = low access, 1 = high access).",
-      "program" : "Factor indicating the managed care demonstration program:\nAid to Families with Dependent Children (\"afdc\") or\nnon-institutionalized Supplementary Security Income (\"ssi\").",
-      "health2" : "The second principal component (divided by 1000) of three\nhealth-status variables: functional limitations, acute conditions, and chronic\nconditions.",
-      "visits" : "Number of doctor visits.",
-      "enroll" : "Factor. Is the individual enrolled in a demonstration program?",
-      "health1" : "The first principal component (divided by 1000) of three\nhealth-status variables: functional limitations, acute conditions, and chronic\nconditions.",
-      "school" : "Number of years completed in school.",
-      "gender" : "Factor indicating gender.",
-      "age" : "Age of the respondent.",
-      "income" : "Annual household income (average of income range in million USD).",
-      "ethnicity" : "Factor indicating ethnicity (\"cauc\" or \"other\").",
       "married" : "Factor. Is the individual married?",
+      "age" : "Age of the respondent.",
+      "visits" : "Number of doctor visits.",
       "exposure" : "Length of observation period for ambulatory care (days).",
-      "children" : "Total number of children in the household."
-   }
+      "school" : "Number of years completed in school.",
+      "health2" : "The second principal component (divided by 1000) of three\nhealth-status variables: functional limitations, acute conditions, and chronic\nconditions.",
+      "ethnicity" : "Factor indicating ethnicity (\"cauc\" or \"other\").",
+      "enroll" : "Factor. Is the individual enrolled in a demonstration program?",
+      "income" : "Annual household income (average of income range in million USD).",
+      "gender" : "Factor indicating gender.",
+      "health1" : "The first principal component (divided by 1000) of three\nhealth-status variables: functional limitations, acute conditions, and chronic\nconditions.",
+      "program" : "Factor indicating the managed care demonstration program:\nAid to Families with Dependent Children (\"afdc\") or\nnon-institutionalized Supplementary Security Income (\"ssi\").",
+      "children" : "Total number of children in the household.",
+      "access" : "Availability of health services (0 = low access, 1 = high access)."
+   },
+   "format" : "A data frame containing 996 observations on 14 variables."
 }
 
 var Medicaid1986 = [

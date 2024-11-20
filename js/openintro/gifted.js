@@ -1,19 +1,19 @@
 var giftedInfo ={
-   "format" : "A data frame with 36 observations and 8 variables.",
+   "description" : "Description\nAn investigator is interested in understanding the relationship, if any,\nbetween the analytical skills of young gifted children and the following\nvariables: father's IQ, mother's IQ, age in month when the child first said\n\"mummy\" or \"daddy\", age in month when the child first counted to 10\nsuccessfully, average number of hours per week the child's mother or father\nreads to the child, average number of hours per week the child watched an\neducational program on TV during the past three months, average number of\nhours per week the child watched cartoons on TV during the past three\nmonths. The analytical skills are evaluated using a standard testing\nprocedure, and the score on this test is used as the response variable.",
    "title" : "Analytical skills of young gifted children",
+   "usage" : "gifted",
    "reference" : "Data were collected from schools in a large city on a set of thirty-six\nchildren who were identified as gifted children soon after they reached the\nage of four.",
    "parameters" : {
-      "cartoons" : "Average number of hours per week the child watched cartoons\non TV during the past three months.",
-      "score" : "Score in test of analytical skills.",
-      "read" : "Average number of hours per week the child's mother or father\nreads to the child.",
-      "speak" : "Age in months when the child first said \"mummy\" or \"daddy\".",
       "count" : "Age in months when the child first counted to 10 successfully.",
       "edutv" : "Average number of hours per week the child watched an\neducational program on TV during the past three months.",
+      "speak" : "Age in months when the child first said \"mummy\" or \"daddy\".",
       "motheriq" : "Mother's IQ.",
-      "fatheriq" : "Father's IQ."
+      "cartoons" : "Average number of hours per week the child watched cartoons\non TV during the past three months.",
+      "fatheriq" : "Father's IQ.",
+      "read" : "Average number of hours per week the child's mother or father\nreads to the child.",
+      "score" : "Score in test of analytical skills."
    },
-   "usage" : "gifted",
-   "description" : "Description\nAn investigator is interested in understanding the relationship, if any,\nbetween the analytical skills of young gifted children and the following\nvariables: father's IQ, mother's IQ, age in month when the child first said\n\"mummy\" or \"daddy\", age in month when the child first counted to 10\nsuccessfully, average number of hours per week the child's mother or father\nreads to the child, average number of hours per week the child watched an\neducational program on TV during the past three months, average number of\nhours per week the child watched cartoons on TV during the past three\nmonths. The analytical skills are evaluated using a standard testing\nprocedure, and the score on this test is used as the response variable."
+   "format" : "A data frame with 36 observations and 8 variables."
 }
 
 var gifted = [

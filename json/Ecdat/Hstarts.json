@@ -1,13 +1,14 @@
 {
    "config" : {
+      "colorBy" : "variable",
       "graphType" : "Boxplot",
       "title" : "Housing Starts",
-      "colorBy" : "variable",
       "subtitle" : "Ecdat - Hstarts",
       "groupingFactors" : [
          "hssa"
       ]
    },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>Hstarts</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Housing Starts </h2>\n<h3>Description</h3>\n<p>quarterly observations from 1960-1 to 2001-4\n</p>\n<p><em>number of observations</em> :  168\n</p>\n<p><em>observation</em> :  country\n</p>\n<p><em>country</em> :  Canada\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(Hstarts)</code></pre>\n<h3>Format</h3>\n<p>A time series containing :\n</p>\n<dl>\n<dt>hs</dt><dd><p> the log of urban housing starts \nin Canada, not seasonally adjusted, CANSIM\nseries J6001, converted to quarterly\n</p>\n</dd>\n<dt>hssa</dt><dd><p>the log of urban housing starts \nin Canada, seasonally adjusted, CANSIM \nseries J9001, converted to quarterly.\nObservations prior to 1966:1 are missing\n</p>\n</dd>\n</dl>\n<h3>References</h3>\n<p>Davidson, R.  and  James G.  MacKinnon (2004) <em>Econometric Theory and Methods</em>, New York, Oxford University Press, chapter 13.\n</p>\n<h3>See Also</h3>\n<p><code>Index.Source</code>, <code>Index.Economics</code>, <code>Index.Econometrics</code>, <code>Index.Observations</code>,\n</p>\n<p><code>Index.Time.Series</code></p>\n</main>\n</div>\n",
    "data" : {
       "x" : {
          "hssa" : [
@@ -182,6 +183,9 @@
          ]
       },
       "y" : {
+         "vars" : [
+            "hs"
+         ],
          "smps" : [
             "Smp1",
             "Smp2",
@@ -351,9 +355,6 @@
             "Smp166",
             "Smp167",
             "Smp168"
-         ],
-         "vars" : [
-            "hs"
          ],
          "data" : [
             [
@@ -528,6 +529,5 @@
             ]
          ]
       }
-   },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>Hstarts</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Housing Starts </h2>\n<h3>Description</h3>\n<p>quarterly observations from 1960-1 to 2001-4\n</p>\n<p><em>number of observations</em> :  168\n</p>\n<p><em>observation</em> :  country\n</p>\n<p><em>country</em> :  Canada\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(Hstarts)</code></pre>\n<h3>Format</h3>\n<p>A time series containing :\n</p>\n<dl>\n<dt>hs</dt><dd><p> the log of urban housing starts \nin Canada, not seasonally adjusted, CANSIM\nseries J6001, converted to quarterly\n</p>\n</dd>\n<dt>hssa</dt><dd><p>the log of urban housing starts \nin Canada, seasonally adjusted, CANSIM \nseries J9001, converted to quarterly.\nObservations prior to 1966:1 are missing\n</p>\n</dd>\n</dl>\n<h3>References</h3>\n<p>Davidson, R.  and  James G.  MacKinnon (2004) <em>Econometric Theory and Methods</em>, New York, Oxford University Press, chapter 13.\n</p>\n<h3>See Also</h3>\n<p><code>Index.Source</code>, <code>Index.Economics</code>, <code>Index.Econometrics</code>, <code>Index.Observations</code>,\n</p>\n<p><code>Index.Time.Series</code></p>\n</main>\n</div>\n"
+   }
 }

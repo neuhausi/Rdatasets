@@ -1,18 +1,18 @@
 var Election16Info ={
-   "description" : "Description\n2016 presidential election and state demographic data",
-   "parameters" : {
-      "Abr" : "Abbreviation for state name",
-      "State" : "State name",
-      "Adv" : "Percent with advanced degrees",
-      "BA" : "Percent college grads",
-      "HS" : "Percent high school grads",
-      "TrumpWin" : "Trump won the state? (1=yes or 0=no)",
-      "Income" : "Per capita income in the state",
-      "Dem.Rep" : "Democratic lean - Republican lean in 2015 Gallup poll"
-   },
    "reference" : "This dataset contains information from all 50 states and the District of Columbia for the 2016 U.S. presidential election.  It is similar to Election08 for the 2008 election.",
+   "usage" : "A data frame with 50 observations on the following 8 variables.",
+   "description" : "Description\n2016 presidential election and state demographic data",
    "title" : "2016 U.S. Presidential Election",
-   "usage" : "A data frame with 50 observations on the following 8 variables."
+   "parameters" : {
+      "TrumpWin" : "Trump won the state? (1=yes or 0=no)",
+      "Adv" : "Percent with advanced degrees",
+      "Income" : "Per capita income in the state",
+      "HS" : "Percent high school grads",
+      "Dem.Rep" : "Democratic lean - Republican lean in 2015 Gallup poll",
+      "State" : "State name",
+      "Abr" : "Abbreviation for state name",
+      "BA" : "Percent college grads"
+   }
 }
 
 var Election16 = [

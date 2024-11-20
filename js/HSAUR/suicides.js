@@ -1,8 +1,8 @@
 var suicidesInfo ={
-   "title" : "Crowd Baiting Behaviour and Suicides",
    "format" : "A two-way classification, see table.",
-   "usage" : "data(\"suicides\")",
-   "description" : "Description\nData from a study carried out to investigate the\ncauses of jeering or baiting behaviour by a crowd when a person\nis threatening to commit suicide by jumping from a high building."
+   "description" : "Description\nData from a study carried out to investigate the\ncauses of jeering or baiting behaviour by a crowd when a person\nis threatening to commit suicide by jumping from a high building.",
+   "title" : "Crowd Baiting Behaviour and Suicides",
+   "usage" : "data(\"suicides\")"
 }
 
 var suicides = [

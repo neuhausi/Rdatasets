@@ -1,19 +1,19 @@
 var meap00_01Info ={
-   "usage" : "data('meap00_01')",
-   "description" : "Description\nWooldridge Source: Michigan Department of Education, www.michigan.gov/mde Data loads lazily.",
    "format" : "A data.frame with 1692 observations on 9 variables:",
+   "description" : "Description\nWooldridge Source: Michigan Department of Education, www.michigan.gov/mde Data loads lazily.",
    "title" : "meap00_01",
    "reference" : "pages 224, 302",
+   "usage" : "data('meap00_01')",
    "parameters" : {
-      "exppp" : " expenditures per pupil",
-      "read4" : " percent students satisfactory, 4th grade reading",
-      "lunch" : " percent students eligible for free or reduced lunch",
-      "lexppp" : " log(exppp)",
-      "bcode" : " building code",
-      "math4" : " percent students satisfactory, 4th grade math",
       "enroll" : " school enrollment",
+      "bcode" : " building code",
       "dcode" : " district code",
-      "lenroll" : " log(enroll)"
+      "lunch" : " percent students eligible for free or reduced lunch",
+      "lenroll" : " log(enroll)",
+      "lexppp" : " log(exppp)",
+      "exppp" : " expenditures per pupil",
+      "math4" : " percent students satisfactory, 4th grade math",
+      "read4" : " percent students satisfactory, 4th grade reading"
    }
 }
 

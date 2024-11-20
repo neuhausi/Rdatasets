@@ -1,7 +1,7 @@
 var stackoverflowInfo ={
-   "title" : "Annual Stack Overflow Developer Survey Data",
    "format" : "stackoverflow\n\na tibble",
    "usage" : "These data are a collection of 5,594 data points collected on\ndevelopers. These data could be used to try to predict who works remotely\n(as used in the source listed below).",
+   "title" : "Annual Stack Overflow Developer Survey Data",
    "description" : "Description\nAnnual Stack Overflow Developer Survey Data"
 }
 

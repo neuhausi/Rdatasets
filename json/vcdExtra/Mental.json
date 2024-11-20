@@ -99,6 +99,10 @@
                71
             ]
          ],
+         "smps" : [
+            "ses",
+            "Freq"
+         ],
          "vars" : [
             "Var1",
             "Var2",
@@ -124,10 +128,6 @@
             "Var22",
             "Var23",
             "Var24"
-         ],
-         "smps" : [
-            "ses",
-            "Freq"
          ]
       },
       "z" : {
@@ -162,8 +162,8 @@
    "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>Mental</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Mental Impairment and Parents SES</h2>\n<h3>Description</h3>\n<p>A 6 x 4 contingency table representing the cross-classification of\nmental health status (<code>mental</code>) of 1660 young New York residents by\ntheir parents' socioeconomic status (<code>ses</code>).\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(Mental)</code></pre>\n<h3>Format</h3>\n<p>A data frame frequency table with 24 observations on the following 3 variables.\n</p>\n<dl>\n<dt><code>ses</code></dt><dd><p>an ordered factor with levels <code>1</code> &lt; <code>2</code> &lt; <code>3</code> &lt; <code>4</code> &lt; <code>5</code> &lt; <code>6</code></p>\n</dd>\n<dt><code>mental</code></dt><dd><p>an ordered factor with levels <code>Well</code> &lt; <code>Mild</code> &lt; <code>Moderate</code> &lt; <code>Impaired</code></p>\n</dd>\n<dt><code>Freq</code></dt><dd><p>cell frequency: a numeric vector</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>Both <code>ses</code> and <code>mental</code> can be treated as ordered factors or\ninteger scores.  For <code>ses</code>, 1=&quot;High&quot; and 6=&quot;Low&quot;.\n</p>\n<h3>Source</h3>\n<p>Haberman, S. J. \n<em>The Analysis of Qualitative Data: New Developments</em>, Academic Press, 1979, Vol. II,\np. 375.\n</p>\n<p>Srole, L.; Langner, T. S.; Michael, S. T.; Kirkpatrick, P.; Opler, M. K. &amp; Rennie, T. A. C. \n<em>Mental Health in the Metropolis: The Midtown Manhattan Study</em>,\nNYU Press, 1978, p. 289\n</p>\n<h3>References</h3>\n<p>Friendly, M. <em>Visualizing Categorical Data</em>, Cary, NC: SAS Institute, 2000, Appendix B.7.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>data(Mental)\nstr(Mental)\n(Mental.tab &lt;- xtabs(Freq ~ ses + mental, data=Mental))\n# mosaic and sieve plots\nmosaic(Mental.tab, gp=shading_Friendly)\nsieve(Mental.tab, gp=shading_Friendly)\nif(require(ca)){\n  plot(ca(Mental.tab), main=\"Mental impairment &amp; SES\")\n</code></pre>\n</main>\n</div>\n",
    "config" : {
       "subtitle" : "vcdExtra - Mental",
-      "graphType" : "Scatter2D",
+      "title" : "Mental Impairment and Parents SES",
       "colorBy" : "mental",
-      "title" : "Mental Impairment and Parents SES"
+      "graphType" : "Scatter2D"
    }
 }

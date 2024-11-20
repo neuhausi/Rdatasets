@@ -1,44 +1,12 @@
 {
    "config" : {
-      "title" : "Aircraft Data",
       "graphType" : "Scatter2D",
       "scatterPlotMatrix" : 1,
+      "title" : "Aircraft Data",
       "subtitle" : "robustbase - aircraft"
    },
    "data" : {
       "y" : {
-         "vars" : [
-            "Var1",
-            "Var2",
-            "Var3",
-            "Var4",
-            "Var5",
-            "Var6",
-            "Var7",
-            "Var8",
-            "Var9",
-            "Var10",
-            "Var11",
-            "Var12",
-            "Var13",
-            "Var14",
-            "Var15",
-            "Var16",
-            "Var17",
-            "Var18",
-            "Var19",
-            "Var20",
-            "Var21",
-            "Var22",
-            "Var23"
-         ],
-         "smps" : [
-            "X1",
-            "X2",
-            "X3",
-            "X4",
-            "Y"
-         ],
          "data" : [
             [
                6.3,
@@ -201,6 +169,38 @@
                19600,
                11.19
             ]
+         ],
+         "smps" : [
+            "X1",
+            "X2",
+            "X3",
+            "X4",
+            "Y"
+         ],
+         "vars" : [
+            "Var1",
+            "Var2",
+            "Var3",
+            "Var4",
+            "Var5",
+            "Var6",
+            "Var7",
+            "Var8",
+            "Var9",
+            "Var10",
+            "Var11",
+            "Var12",
+            "Var13",
+            "Var14",
+            "Var15",
+            "Var16",
+            "Var17",
+            "Var18",
+            "Var19",
+            "Var20",
+            "Var21",
+            "Var22",
+            "Var23"
          ]
       }
    },

@@ -1,13 +1,13 @@
 var LewyDLBadInfo ={
-   "reference" : "Brain MRIs were used to study the brains of patients with Dementia with Lewy Bodies. These are the cases that were also diagnosed with Alzheimer's Disease.  This is a subset of LewBody2Groups",
-   "title" : "Lewy Bodies and Dimentia with Alzheimer's",
-   "usage" : "A data frame with 20 observations on the following 3 variables.",
-   "description" : "Description\nDementia Study with Lewy Bodies",
    "parameters" : {
       "MMSE" : "Change in functional performance on the Mini Mental State Examination",
-      "group" : "DLB/AD=DLB and Alzheimer's Disease",
-      "APC" : "Annualized Percentage Change from baseline volume of the brain"
-   }
+      "APC" : "Annualized Percentage Change from baseline volume of the brain",
+      "group" : "DLB/AD=DLB and Alzheimer's Disease"
+   },
+   "usage" : "A data frame with 20 observations on the following 3 variables.",
+   "reference" : "Brain MRIs were used to study the brains of patients with Dementia with Lewy Bodies. These are the cases that were also diagnosed with Alzheimer's Disease.  This is a subset of LewBody2Groups",
+   "description" : "Description\nDementia Study with Lewy Bodies",
+   "title" : "Lewy Bodies and Dimentia with Alzheimer's"
 }
 
 var LewyDLBad = [

@@ -1,17 +1,17 @@
 var hotspots2006Info ={
    "format" : "A data frame with 10 observations on the following 6 variables.",
-   "title" : "Hawaian island chain hotspot Argon-Argon ages",
-   "reference" : "Note that measurement error is small relative to geological\nuncertainty. Geological uncertainty arises because lavas are\nlikely to have erupted, over a period of up to 2 million years,\nsomewhat after passage over the hot spot's centre.  Dredging\nor drilling will in general have accessed larvas from the\nyounger half of this interval.  Hence the asymmetry in the\ngeological uncertainty.",
    "parameters" : {
-      "totminus" : "Total uncertainty (-)",
-      "distance" : "Distance in kilometers",
-      "CI95lim" : "Measurement error; 95% CI",
       "geoErr" : "Geological Uncertainty",
+      "distance" : "Distance in kilometers",
       "totplus" : "Total uncertainty (+)",
+      "totminus" : "Total uncertainty (-)",
+      "CI95lim" : "Measurement error; 95% CI",
       "age" : "Ar-Ar age"
    },
    "usage" : "data(hotspots2006)",
-   "description" : "Description\nAr-Ar Ages (millions of years) and distances (km) from Kilauea \nalong the trend of the chain of Hawaian volcanic islands and\nother seamounts that are believed to have been created by a\nmoving \"hot spot\"."
+   "reference" : "Note that measurement error is small relative to geological\nuncertainty. Geological uncertainty arises because lavas are\nlikely to have erupted, over a period of up to 2 million years,\nsomewhat after passage over the hot spot's centre.  Dredging\nor drilling will in general have accessed larvas from the\nyounger half of this interval.  Hence the asymmetry in the\ngeological uncertainty.",
+   "description" : "Description\nAr-Ar Ages (millions of years) and distances (km) from Kilauea \nalong the trend of the chain of Hawaian volcanic islands and\nother seamounts that are believed to have been created by a\nmoving \"hot spot\".",
+   "title" : "Hawaian island chain hotspot Argon-Argon ages"
 }
 
 var hotspots2006 = [

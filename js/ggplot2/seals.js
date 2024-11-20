@@ -1,8 +1,8 @@
 var sealsInfo ={
-   "usage" : "seals",
+   "description" : "Description\nThis vector field was produced from the data described in Brillinger, D.R.,\nPreisler, H.K., Ager, A.A. and Kie, J.G. \"An exploratory data analysis\n(EDA) of the paths of moving animals\". J. Statistical Planning and\nInference 122 (2004), 43-63, using the methods of Brillinger, D.R.,\n\"Learning a potential function from a trajectory\", Signal Processing\nLetters. December (2007).",
    "title" : "Vector field of seal movements",
-   "format" : "A data frame with 1155 rows and 4 variables",
-   "description" : "Description\nThis vector field was produced from the data described in Brillinger, D.R.,\nPreisler, H.K., Ager, A.A. and Kie, J.G. \"An exploratory data analysis\n(EDA) of the paths of moving animals\". J. Statistical Planning and\nInference 122 (2004), 43-63, using the methods of Brillinger, D.R.,\n\"Learning a potential function from a trajectory\", Signal Processing\nLetters. December (2007)."
+   "usage" : "seals",
+   "format" : "A data frame with 1155 rows and 4 variables"
 }
 
 var seals = [

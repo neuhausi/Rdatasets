@@ -1,0 +1,12 @@
+{
+   "format" : "A data frame with 240 observations on the following 3 variables.",
+   "usage" : "data(G.aparine)",
+   "reference" : "Cabanne, F., Gaudry, J. C. and Streibig, J. C. (1999) Influence of alkyl oleates on efficacy \nof phenmedipham applied as an acetone:water solution on Galium aparine, \nWeed Research, 39, 57&ndash;67.",
+   "title" : "Herbicide applied to Galium aparine",
+   "description" : "Description\nSmall plants of Galium aparine, growing in pots in a green house, were sprayed with the technical \ngrade phenmidipham herbicide either alone or in mixture with an ester of oleic acid. \nThe plants were allowed to grow in the green house for 14 days after herbicide treatment. \nThen the dry matter was measured per pot.",
+   "parameters" : {
+      "drymatter" : "a numeric vector of dry matter weights (mg/pot)",
+      "dose" : "a numeric vector of dose value (g/ha)",
+      "treatment" : "a numeric vector giving the grouping: 0: control, 1,2: herbicide formulations"
+   }
+}

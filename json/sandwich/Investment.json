@@ -1,12 +1,4 @@
 {
-   "config" : {
-      "graphType" : "Heatmap",
-      "title" : "US Investment Data",
-      "smpOverlays" : [
-         "RealInt"
-      ],
-      "subtitle" : "sandwich - Investment"
-   },
    "data" : {
       "x" : {
          "RealInt" : [
@@ -33,36 +25,6 @@
          ]
       },
       "y" : {
-         "vars" : [
-            "GNP",
-            "Investment",
-            "Price",
-            "Interest",
-            "RealGNP",
-            "RealInv"
-         ],
-         "smps" : [
-            "Smp1",
-            "Smp2",
-            "Smp3",
-            "Smp4",
-            "Smp5",
-            "Smp6",
-            "Smp7",
-            "Smp8",
-            "Smp9",
-            "Smp10",
-            "Smp11",
-            "Smp12",
-            "Smp13",
-            "Smp14",
-            "Smp15",
-            "Smp16",
-            "Smp17",
-            "Smp18",
-            "Smp19",
-            "Smp20"
-         ],
          "data" : [
             [
                596.7,
@@ -196,8 +158,46 @@
                243.363738854156,
                200.357695282289
             ]
+         ],
+         "smps" : [
+            "Smp1",
+            "Smp2",
+            "Smp3",
+            "Smp4",
+            "Smp5",
+            "Smp6",
+            "Smp7",
+            "Smp8",
+            "Smp9",
+            "Smp10",
+            "Smp11",
+            "Smp12",
+            "Smp13",
+            "Smp14",
+            "Smp15",
+            "Smp16",
+            "Smp17",
+            "Smp18",
+            "Smp19",
+            "Smp20"
+         ],
+         "vars" : [
+            "GNP",
+            "Investment",
+            "Price",
+            "Interest",
+            "RealGNP",
+            "RealInv"
          ]
       }
    },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>Investment</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>US Investment Data</h2>\n<h3>Description</h3>\n<p>US data for fitting an investment equation.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(Investment)</code></pre>\n<h3>Format</h3>\n<p>An annual time series from 1963 to 1982 with 7 variables.\n</p>\n<dl>\n<dt>GNP</dt><dd><p>nominal gross national product (in billion USD),</p>\n</dd>\n<dt>Investment</dt><dd><p>nominal gross private domestic investment (in billion USD),</p>\n</dd>\n<dt>Price</dt><dd><p>price index, implicit price deflator for GNP,</p>\n</dd>\n<dt>Interest</dt><dd><p>interest rate, average yearly discount rate\ncharged by the New York Federal Reserve Bank,</p>\n</dd>\n<dt>RealGNP</dt><dd><p>real GNP (= GNP/Price),</p>\n</dd>\n<dt>RealInv</dt><dd><p>real investment (= Investment/Price),</p>\n</dd>\n<dt>RealInt</dt><dd><p>approximation to the real interest rate\n(= Interest - 100 * diff(Price)/Price).</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>Table 15.1 in Greene (1993)</p>\n<h3>References</h3>\n<p>Greene W.H. (1993). <em>Econometric Analysis</em>, 2nd edition.\nMacmillan Publishing Company, New York.\n</p>\n<p>Executive Office of the President (1984). <em>Economic Report of the\nPresident</em>. US Government Printing Office, Washington, DC.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>## Willam H. Greene, Econometric Analysis, 2nd Ed.\n## Chapter 15\n## load data set, p. 411, Table 15.1\ndata(Investment)\n## fit linear model, p. 412, Table 15.2\nfm &lt;- lm(RealInv ~ RealGNP + RealInt, data = Investment)\nsummary(fm)\n## visualize residuals, p. 412, Figure 15.1\nplot(ts(residuals(fm), start = 1964),\n  type = \"b\", pch = 19, ylim = c(-35, 35), ylab = \"Residuals\")\nsigma &lt;- sqrt(sum(residuals(fm)^2)/fm$df.residual) ## maybe used df = 26 instead of 16 ??\nabline(h = c(-2, 0, 2) * sigma, lty = 2)\nif(require(lmtest)) {\n## Newey-West covariances, Example 15.3\ncoeftest(fm, vcov = NeweyWest(fm, lag = 4))\n## Note, that the following is equivalent:\ncoeftest(fm, vcov = kernHAC(fm, kernel = \"Bartlett\", bw = 5, prewhite = FALSE, adjust = FALSE))\n## Durbin-Watson test, p. 424, Example 15.4\ndwtest(fm)\n## Breusch-Godfrey test, p. 427, Example 15.6\nbgtest(fm, order = 4)\n## visualize fitted series\nplot(Investment[, \"RealInv\"], type = \"b\", pch = 19, ylab = \"Real investment\")\nlines(ts(fitted(fm), start = 1964), col = 4)\n## 3-d visualization of fitted model\nif(require(scatterplot3d)) {\ns3d &lt;- scatterplot3d(Investment[,c(5,7,6)],\n  type = \"b\", angle = 65, scale.y = 1, pch = 16)\ns3d$plane3d(fm, lty.box = \"solid\", col = 4)\n</code></pre>\n</main>\n</div>\n"
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>Investment</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>US Investment Data</h2>\n<h3>Description</h3>\n<p>US data for fitting an investment equation.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(Investment)</code></pre>\n<h3>Format</h3>\n<p>An annual time series from 1963 to 1982 with 7 variables.\n</p>\n<dl>\n<dt>GNP</dt><dd><p>nominal gross national product (in billion USD),</p>\n</dd>\n<dt>Investment</dt><dd><p>nominal gross private domestic investment (in billion USD),</p>\n</dd>\n<dt>Price</dt><dd><p>price index, implicit price deflator for GNP,</p>\n</dd>\n<dt>Interest</dt><dd><p>interest rate, average yearly discount rate\ncharged by the New York Federal Reserve Bank,</p>\n</dd>\n<dt>RealGNP</dt><dd><p>real GNP (= GNP/Price),</p>\n</dd>\n<dt>RealInv</dt><dd><p>real investment (= Investment/Price),</p>\n</dd>\n<dt>RealInt</dt><dd><p>approximation to the real interest rate\n(= Interest - 100 * diff(Price)/Price).</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>Table 15.1 in Greene (1993)</p>\n<h3>References</h3>\n<p>Greene W.H. (1993). <em>Econometric Analysis</em>, 2nd edition.\nMacmillan Publishing Company, New York.\n</p>\n<p>Executive Office of the President (1984). <em>Economic Report of the\nPresident</em>. US Government Printing Office, Washington, DC.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>## Willam H. Greene, Econometric Analysis, 2nd Ed.\n## Chapter 15\n## load data set, p. 411, Table 15.1\ndata(Investment)\n## fit linear model, p. 412, Table 15.2\nfm &lt;- lm(RealInv ~ RealGNP + RealInt, data = Investment)\nsummary(fm)\n## visualize residuals, p. 412, Figure 15.1\nplot(ts(residuals(fm), start = 1964),\n  type = \"b\", pch = 19, ylim = c(-35, 35), ylab = \"Residuals\")\nsigma &lt;- sqrt(sum(residuals(fm)^2)/fm$df.residual) ## maybe used df = 26 instead of 16 ??\nabline(h = c(-2, 0, 2) * sigma, lty = 2)\nif(require(lmtest)) {\n## Newey-West covariances, Example 15.3\ncoeftest(fm, vcov = NeweyWest(fm, lag = 4))\n## Note, that the following is equivalent:\ncoeftest(fm, vcov = kernHAC(fm, kernel = \"Bartlett\", bw = 5, prewhite = FALSE, adjust = FALSE))\n## Durbin-Watson test, p. 424, Example 15.4\ndwtest(fm)\n## Breusch-Godfrey test, p. 427, Example 15.6\nbgtest(fm, order = 4)\n## visualize fitted series\nplot(Investment[, \"RealInv\"], type = \"b\", pch = 19, ylab = \"Real investment\")\nlines(ts(fitted(fm), start = 1964), col = 4)\n## 3-d visualization of fitted model\nif(require(scatterplot3d)) {\ns3d &lt;- scatterplot3d(Investment[,c(5,7,6)],\n  type = \"b\", angle = 65, scale.y = 1, pch = 16)\ns3d$plane3d(fm, lty.box = \"solid\", col = 4)\n</code></pre>\n</main>\n</div>\n",
+   "config" : {
+      "smpOverlays" : [
+         "RealInt"
+      ],
+      "graphType" : "Heatmap",
+      "title" : "US Investment Data",
+      "subtitle" : "sandwich - Investment"
+   }
 }

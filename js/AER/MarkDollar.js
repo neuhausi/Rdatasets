@@ -1,8 +1,8 @@
 var MarkDollarInfo ={
-   "description" : "Description\nA time series of intra-day percentage returns of Deutsche mark/US dollar (DEM/USD)\nexchange rates, consisting of two observations per day from 1992-10-01 through 1993-09-29.",
    "usage" : "data(\"MarkDollar\")",
-   "format" : "A univariate time series of 518 returns (exact dates unknown) for the DEM/USD exchange rate.",
-   "title" : "DEM/USD Exchange Rate Returns"
+   "description" : "Description\nA time series of intra-day percentage returns of Deutsche mark/US dollar (DEM/USD)\nexchange rates, consisting of two observations per day from 1992-10-01 through 1993-09-29.",
+   "title" : "DEM/USD Exchange Rate Returns",
+   "format" : "A univariate time series of 518 returns (exact dates unknown) for the DEM/USD exchange rate."
 }
 
 var MarkDollar = [

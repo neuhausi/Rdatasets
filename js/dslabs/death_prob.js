@@ -1,14 +1,14 @@
 var death_probInfo ={
    "format" : "An object of class \"data.frame\".",
-   "title" : "2015 US Period Life Table",
-   "reference" : "Social Security Administraton",
    "parameters" : {
-      "age. Age strata, with each year a different stratum." : null,
       "sex. Male or Female." : null,
+      "age. Age strata, with each year a different stratum." : null,
       "prob. Probability of death within 1 year given exact age and sex." : null
    },
+   "title" : "2015 US Period Life Table",
+   "description" : "Description\nProbability of death within 1 year by age and sex in the United States in 2015.",
    "usage" : "death_prob",
-   "description" : "Description\nProbability of death within 1 year by age and sex in the United States in 2015."
+   "reference" : "Social Security Administraton"
 }
 
 var death_prob = [

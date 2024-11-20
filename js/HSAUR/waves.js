@@ -1,13 +1,13 @@
 var wavesInfo ={
-   "usage" : "data(\"waves\")",
-   "description" : "Description\nMeasurements of root mean square bending moment by two different mooring\nmethods.",
    "title" : "Electricity from Wave Power at Sea",
+   "description" : "Description\nMeasurements of root mean square bending moment by two different mooring\nmethods.",
+   "usage" : "data(\"waves\")",
    "reference" : "In a design study for a device to generate electricity from\nwave power at sea, experiments were carried out on scale models\nin a wave tank to establish how the choice of mooring method\nfor the system affected the bending stress produced in part of\nthe device. The wave tank could simulate a wide range of sea\nstates and the model system was subjected to the same sample \nof sea states with each of two mooring methods, one of which    \nwas considerably cheaper than the other.\nThe question of interest is whether bending stress differs\nfor the two mooring methods.",
-   "format" : "A data frame with 18 observations on the following 2 variables.",
    "parameters" : {
       "method2" : "Root mean square bending moment in Newton metres, mooring method 2",
       "method1" : "Root mean square bending moment in Newton metres, mooring method 1"
-   }
+   },
+   "format" : "A data frame with 18 observations on the following 2 variables."
 }
 
 var waves = [

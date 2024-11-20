@@ -1,17 +1,17 @@
 var educationInfo ={
-   "usage" : "data(education, package=\"robustbase\")",
-   "description" : "Description\nEducation Expenditure Data, from Chatterjee and Price (1977,\np.108).  This data set, representing the education expenditure\nvariables in the 50 US states, providing an interesting example of\nheteroscedacity.",
-   "reference" : "P. J. Rousseeuw and A. M. Leroy (1987)\nRobust Regression and Outlier Detection;\nWiley, p.110, table 16.",
-   "title" : "Education Expenditure Data",
    "format" : "A data frame with 50 observations on the following 6 variables.",
    "parameters" : {
-      "X1" : "Number of residents per thousand residing in urban areas in 1970",
-      "X2" : "Per capita personal income in 1973",
-      "X3" : "Number of residents per thousand under 18 years of age in 1974",
-      "State" : "State",
       "Y" : "Per capita expenditure on public education in a\nstate, projected for 1975",
-      "Region" : "Region (1=Northeastern, 2=North central, 3=Southern, 4=Western)"
-   }
+      "X1" : "Number of residents per thousand residing in urban areas in 1970",
+      "State" : "State",
+      "Region" : "Region (1=Northeastern, 2=North central, 3=Southern, 4=Western)",
+      "X3" : "Number of residents per thousand under 18 years of age in 1974",
+      "X2" : "Per capita personal income in 1973"
+   },
+   "description" : "Description\nEducation Expenditure Data, from Chatterjee and Price (1977,\np.108).  This data set, representing the education expenditure\nvariables in the 50 US states, providing an interesting example of\nheteroscedacity.",
+   "title" : "Education Expenditure Data",
+   "usage" : "data(education, package=\"robustbase\")",
+   "reference" : "P. J. Rousseeuw and A. M. Leroy (1987)\nRobust Regression and Outlier Detection;\nWiley, p.110, table 16."
 }
 
 var education = [

@@ -1,26 +1,26 @@
 var SCP16Info ={
-   "parameters" : {
-      "medhouseinc" : "A county-level estimate for the median household income",
-      "sanders" : "Bernie Sanders' county-level vote share in the 2016 party primary",
-      "county" : "the county",
-      "clinton" : "Hillary Clinton's county-level vote share in the 2016 party primary",
-      "rubio" : "Marco Rubio's county-level vote share in the 2016 party primary",
-      "medfaminc" : "A county-level estimate for the median family income",
-      "perblack" : "Percentage of the county that is black",
-      "romneyshare2012" : "Mitt Romney's vote share at the county-level from the 2012 general election",
-      "population" : "An estimate of the county-level population",
-      "unemployment" : "Unemployment rate for the county for January 2016",
-      "illiteracy" : "An estimate of the percent of the county lacking \"basic\" prose literacy skills",
-      "trump" : "Donald Trump's county-level vote share in the 2016 party primary",
-      "perhsgrad" : "Percentage of the county whose residents 25 years and older have at least a high school education",
-      "cruz" : "Ted Cruz' county-level vote share in the 2016 party primary",
-      "percapinc" : "A county-level estimate for per capita income"
-   },
-   "reference" : "The illiteracy estimate comes from a Department of Education report from 2003.\nThe unemployment rate data come from the Bureau of Labor Statistics. A Github repository contains\nmore information: https://github.com/svmiller/sc-primary-2016.",
    "format" : "A data frame with 46 observations on the following 15 variables.",
+   "parameters" : {
+      "medfaminc" : "A county-level estimate for the median family income",
+      "population" : "An estimate of the county-level population",
+      "percapinc" : "A county-level estimate for per capita income",
+      "county" : "the county",
+      "sanders" : "Bernie Sanders' county-level vote share in the 2016 party primary",
+      "unemployment" : "Unemployment rate for the county for January 2016",
+      "romneyshare2012" : "Mitt Romney's vote share at the county-level from the 2012 general election",
+      "trump" : "Donald Trump's county-level vote share in the 2016 party primary",
+      "illiteracy" : "An estimate of the percent of the county lacking \"basic\" prose literacy skills",
+      "rubio" : "Marco Rubio's county-level vote share in the 2016 party primary",
+      "medhouseinc" : "A county-level estimate for the median household income",
+      "cruz" : "Ted Cruz' county-level vote share in the 2016 party primary",
+      "clinton" : "Hillary Clinton's county-level vote share in the 2016 party primary",
+      "perblack" : "Percentage of the county that is black",
+      "perhsgrad" : "Percentage of the county whose residents 25 years and older have at least a high school education"
+   },
+   "usage" : "SCP16",
+   "reference" : "The illiteracy estimate comes from a Department of Education report from 2003.\nThe unemployment rate data come from the Bureau of Labor Statistics. A Github repository contains\nmore information: https://github.com/svmiller/sc-primary-2016.",
    "title" : "South Carolina County GOP/Democratic Primary Data, 2016",
-   "description" : "Description\nCounty-level data on vote share and various background/demographic\ninformation for the 2016 South Carolina GOP/Democratic primaries.",
-   "usage" : "SCP16"
+   "description" : "Description\nCounty-level data on vote share and various background/demographic\ninformation for the 2016 South Carolina GOP/Democratic primaries."
 }
 
 var SCP16 = [

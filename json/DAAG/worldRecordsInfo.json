@@ -1,0 +1,14 @@
+{
+   "parameters" : {
+      "Place" : "place; a character vector",
+      "roadORtrack" : "a factor with levels road track",
+      "Date" : "a Date",
+      "Time" : "time in minutes",
+      "Distance" : "distance in kilometers"
+   },
+   "usage" : "data(worldRecords)",
+   "reference" : "For further details, and some additional details, see the web site\nthat is the source of the data.",
+   "title" : "Record times for track and road races, at August 9th 2006",
+   "description" : "Description\nRecord times for track and road races, at August 9th 2006",
+   "format" : "A data frame with 40 observations on the following 9 variables."
+}

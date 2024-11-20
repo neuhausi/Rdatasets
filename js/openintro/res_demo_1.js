@@ -1,14 +1,14 @@
 var res_demo_1Info ={
-   "parameters" : {
-      "x" : "a numeric vector",
-      "y_lin" : "a numeric vector",
-      "y_fan_back" : "a numeric vector"
-   },
-   "reference" : "res_demo_1",
-   "title" : "Simulated data for regression",
    "format" : "A data frame with 100 observations on the following 3 variables.",
+   "title" : "Simulated data for regression",
    "description" : "Description\nSimulated data for regression",
-   "usage" : "res_demo_1"
+   "reference" : "res_demo_1",
+   "usage" : "res_demo_1",
+   "parameters" : {
+      "y_fan_back" : "a numeric vector",
+      "y_lin" : "a numeric vector",
+      "x" : "a numeric vector"
+   }
 }
 
 var res_demo_1 = [

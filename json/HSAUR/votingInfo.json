@@ -1,0 +1,6 @@
+{
+   "description" : "Description\nVoting results for 15 congressmen from New Jersey.",
+   "title" : "House of Representatives Voting Data",
+   "usage" : "data(\"voting\")",
+   "format" : "A 15 times 15 matrix."
+}

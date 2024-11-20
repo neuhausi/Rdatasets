@@ -1,7 +1,7 @@
 var OlivesInfo ={
-   "usage" : "A dataset with 18 observations on the following 7 variables.",
    "title" : "Fenthion in Olive Oil",
-   "description" : "Description\nMeasurements of the pesticide fenthion in olive oil over time"
+   "description" : "Description\nMeasurements of the pesticide fenthion in olive oil over time",
+   "usage" : "A dataset with 18 observations on the following 7 variables."
 }
 
 var Olives = [

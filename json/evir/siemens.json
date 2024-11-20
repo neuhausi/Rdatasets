@@ -2,6 +2,9 @@
    "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>siemens</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Daily Log Returns on Siemens Share Price</h2>\n<h3>Description</h3>\n<p>These data are the daily log returns on Siemens share price \nfrom Tuesday 2nd January 1973 until Tuesday 23rd July 1996.\nThe data are contained in a numeric vector.\nThe dates of each observation are contained in a <code>times</code>\nattribute, which is an object of class <code>\"POSIXct\"</code> (see\n<code>DateTimeClasses</code>).\nNote that these data form an irregular time series because \nno trading takes place at the weekend. \n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(siemens)</code></pre>\n<h3>Format</h3>\n<p>A numeric vector containing 6146 observations, with a\n<code>times</code> attribute which is a <code>POSIXct</code> object\nof the same length.</p>\n</main>\n</div>\n",
    "data" : {
       "y" : {
+         "vars" : [
+            "dat"
+         ],
          "data" : [
             [
                0.0143474484081416,
@@ -6151,9 +6154,6 @@
                -0.00975744422653868,
                0.0053458631778236
             ]
-         ],
-         "vars" : [
-            "dat"
          ],
          "smps" : [
             "Smp1",
@@ -12307,7 +12307,7 @@
    },
    "config" : {
       "subtitle" : "evir - siemens",
-      "graphType" : "Treemap",
-      "title" : "Daily Log Returns on Siemens Share Price"
+      "title" : "Daily Log Returns on Siemens Share Price",
+      "graphType" : "Treemap"
    }
 }

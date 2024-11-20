@@ -1,23 +1,23 @@
 var WagesInfo ={
-   "parameters" : {
-      "exp" : "years of full-time work experience",
-      "ed" : "years of education",
-      "smsa" : "resides in a standard metropolitan statistical are ?",
-      "ind" : "works in a manufacturing industry ?",
-      "married" : "married ?",
-      "union" : "individual's wage set by a union contract ?",
-      "wks" : "weeks worked",
-      "bluecol" : "blue collar ?",
-      "sex" : "a factor with levels (male,female)",
-      "lwage" : "logarithm of wage",
-      "south" : "resides in the south ?",
-      "black" : "is the individual black ?"
-   },
    "format" : "A dataframe containing :",
+   "parameters" : {
+      "wks" : "weeks worked",
+      "union" : "individual's wage set by a union contract ?",
+      "exp" : "years of full-time work experience",
+      "married" : "married ?",
+      "black" : "is the individual black ?",
+      "ed" : "years of education",
+      "ind" : "works in a manufacturing industry ?",
+      "lwage" : "logarithm of wage",
+      "smsa" : "resides in a standard metropolitan statistical are ?",
+      "sex" : "a factor with levels (male,female)",
+      "bluecol" : "blue collar ?",
+      "south" : "resides in the south ?"
+   },
+   "usage" : "data(Wages)",
    "reference" : "Cornwell, C.  and  P.  Rupert (1988) &ldquo;Efficient estimation with panel data: an empirical comparison of instrumental variables estimators&rdquo;, Journal of Applied Econometrics, 3, 149&ndash;155.",
    "title" : "Panel Data of Individual Wages",
-   "description" : "Description\na panel of 595 observations  from 1976  to 1982\nnumber of observations :  4165\nobservation :  individuals\ncountry :  United States",
-   "usage" : "data(Wages)"
+   "description" : "Description\na panel of 595 observations  from 1976  to 1982\nnumber of observations :  4165\nobservation :  individuals\ncountry :  United States"
 }
 
 var Wages = [

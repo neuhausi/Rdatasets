@@ -1,12 +1,12 @@
 var nuclear_surveyInfo ={
+   "format" : "A data frame with 1028 observations on the following variable.",
+   "title" : "Nuclear Arms Reduction Survey",
+   "description" : "Description\nA simple random sample of 1,028 US adults in March 2013 found that 56\\\nsupport nuclear arms reduction.",
+   "reference" : "Gallup report: In U.S., 56 percent Favor U.S.-Russian Nuclear Arms Reductions.\nAvailable at https://news.gallup.com/poll/161198/favor-russian-nuclear-arms-reductions.aspx.",
+   "usage" : "nuclear_survey",
    "parameters" : {
       "arms_reduction" : "Responses of favor or\nagainst."
-   },
-   "reference" : "Gallup report: In U.S., 56 percent Favor U.S.-Russian Nuclear Arms Reductions.\nAvailable at https://news.gallup.com/poll/161198/favor-russian-nuclear-arms-reductions.aspx.",
-   "title" : "Nuclear Arms Reduction Survey",
-   "format" : "A data frame with 1028 observations on the following variable.",
-   "description" : "Description\nA simple random sample of 1,028 US adults in March 2013 found that 56\\\nsupport nuclear arms reduction.",
-   "usage" : "nuclear_survey"
+   }
 }
 
 var nuclear_survey = [

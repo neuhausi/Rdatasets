@@ -1,7 +1,7 @@
 var SampleFGInfo ={
+   "usage" : "A dataset with 30 observations on the following 13 variables.",
    "description" : "Description\nA sample of 30 field goal attempts in the National Football League",
-   "title" : "Field Goal Attempts in the NFL",
-   "usage" : "A dataset with 30 observations on the following 13 variables."
+   "title" : "Field Goal Attempts in the NFL"
 }
 
 var SampleFG = [

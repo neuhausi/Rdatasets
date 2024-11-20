@@ -1,11 +1,11 @@
 var LewyBody2GroupsInfo ={
-   "usage" : "A data frame with 39 observations on the following 3 variables.",
    "title" : "Lewy Bodies and Dimentia",
-   "reference" : "Brain MRIs were used to study the brains of patients with Dementia with Lewy Bodies, some of whom also were diagnosed with Alzheimer's Disease.",
    "description" : "Description\nDementia study comparing two groups of patients",
+   "usage" : "A data frame with 39 observations on the following 3 variables.",
+   "reference" : "Brain MRIs were used to study the brains of patients with Dementia with Lewy Bodies, some of whom also were diagnosed with Alzheimer's Disease.",
    "parameters" : {
-      "Type" : "DLB=Dementia with Lewy Bodies or DLB/AD=DLB and Alzheimer's Disease",
       "MMSE" : "Change in functional performance on the Mini Mental State Examination",
+      "Type" : "DLB=Dementia with Lewy Bodies or DLB/AD=DLB and Alzheimer's Disease",
       "APC" : "Annualized Percentage Change from baseline volume of the brain"
    }
 }

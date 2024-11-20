@@ -1,0 +1,22 @@
+{
+   "format" : "A dataframe containing :",
+   "parameters" : {
+      "cash" : "the amount of cash in the trust box",
+      "win" : "money won by contestant",
+      "sex1" : "partner's sex",
+      "season" : "season show, a factor with levels (\"1\",\"2\")",
+      "age" : "contestant's age in years",
+      "play" : "contestant's choice : a factor with levels \n\"foe\" and \"friend\". If both players play\n\"friend\", they share the trust box, if both \nplay \"foe\", both players receive zero prize, \nif one of them play \"foe\" and the other one\n\"friend\", the \"foe\" player receive the \nentire trust box and the \"friend\" player\nnothing",
+      "play1" : "partner's choice : a factor with levels \n\"foe\" and \"friend\"",
+      "white1" : "is partner white ?",
+      "round" : "round in which contestant is eliminated, a\nfactor with levels (\"1\",\"2\",\"3\")",
+      "win1" : "money won by partner",
+      "sex" : "contestant's sex",
+      "age1" : "partner's age in years",
+      "white" : "is contestant white ?"
+   },
+   "description" : "Description\na cross-section from 2002&ndash;03\nnumber of observations :  227\nobservation :  individuals\ncountry :  United States",
+   "title" : "Data from the Television Game Show Friend Or Foe ?",
+   "reference" : "Kalist, David E. (2004) &ldquo;Data from the Television Game Show \"Friend or Foe?\"&rdquo;, Journal of Statistics Education, 12(3).",
+   "usage" : "data(FriendFoe)"
+}

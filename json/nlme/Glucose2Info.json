@@ -1,0 +1,12 @@
+{
+   "title" : "Glucose Levels Following Alcohol Ingestion",
+   "description" : "Description\nThe Glucose2 data frame has 196 rows and 4 columns.",
+   "reference" : "Hand and Crowder (Table A.14, pp. 180-181, 1996) describe data on\nthe blood glucose levels measured at 14 time points over 5 hours for 7\nvolunteers who took alcohol at time 0. The same experiment was\nrepeated on a second date with the same subjects but with a dietary\nadditive used for all subjects.",
+   "usage" : "This data frame contains the following columns:",
+   "parameters" : {
+      "Date" : "a factor with levels\n1 \n2\nindicating the occasion in which the experiment was conducted.",
+      "Subject" : "a factor with levels\n1 to 7 identifying the subject whose glucose\nlevel is measured.",
+      "Time" : "a numeric vector giving the time since alcohol ingestion (in min/10).",
+      "glucose" : "a numeric vector giving the blood glucose level (in mg/dl)."
+   }
+}

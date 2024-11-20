@@ -1,19 +1,12 @@
 {
    "config" : {
-      "scatterPlotMatrix" : 1,
-      "title" : "Sample of students and their GPA and IQ",
       "graphType" : "Scatter2D",
-      "subtitle" : "openintro - gpa_iq"
+      "subtitle" : "openintro - gpa_iq",
+      "scatterPlotMatrix" : 1,
+      "title" : "Sample of students and their GPA and IQ"
    },
    "data" : {
       "y" : {
-         "smps" : [
-            "obs",
-            "gpa",
-            "iq",
-            "gender",
-            "concept"
-         ],
          "vars" : [
             "Var1",
             "Var2",
@@ -93,6 +86,13 @@
             "Var76",
             "Var77",
             "Var78"
+         ],
+         "smps" : [
+            "obs",
+            "gpa",
+            "iq",
+            "gender",
+            "concept"
          ],
          "data" : [
             [

@@ -1,15 +1,15 @@
 var USclassifiedDocumentsInfo ={
-   "usage" : "data(USclassifiedDocuments)",
-   "description" : "Description\nData on classification activity of the United \nStates government.\nFitzpatrick (2013) notes that the dramatic jump \nin derivative classification activity\n(DerivClassActivity) that occurred in 2009\ncoincided with \"New guidance issued to include\nelectronic environment\".  Apart from the jump in\n2009, the DerivClassActivity tended to\nincrease by roughly 12 percent per year (with a\nstandard deviation of the increase in the natural\nlogarithm of DerivClassActivity of 0.18).",
    "format" : "A dataframe containing :",
-   "reference" : "The lag 1 autocorrelation of the first \ndifference of the logarithms of\nDerivClassActivity through 2008 is \n-0.52.  However, because there are only \n13 numbers (12 differences), this negative\ncorrelation is not statistically significant.",
+   "description" : "Description\nData on classification activity of the United \nStates government.\nFitzpatrick (2013) notes that the dramatic jump \nin derivative classification activity\n(DerivClassActivity) that occurred in 2009\ncoincided with \"New guidance issued to include\nelectronic environment\".  Apart from the jump in\n2009, the DerivClassActivity tended to\nincrease by roughly 12 percent per year (with a\nstandard deviation of the increase in the natural\nlogarithm of DerivClassActivity of 0.18).",
    "title" : "Official Secrecy of the United States Government",
+   "reference" : "The lag 1 autocorrelation of the first \ndifference of the logarithms of\nDerivClassActivity through 2008 is \n-0.52.  However, because there are only \n13 numbers (12 differences), this negative\ncorrelation is not statistically significant.",
+   "usage" : "data(USclassifiedDocuments)",
    "parameters" : {
+      "OCAuthority" : "Number of people in the government designated \nas Original Classification Authorities for \nthe indicated year.",
+      "year" : "the calendar year",
       "TenYearDeclass" : "Percent of OCActivity covered by the \n10 year declassification rules.",
       "DerivClassActivity" : "Derivative classification activity for the\nindicated year:  These are the number of\ndocuments created that claim another document \nas the authority for classification.",
-      "year" : "the calendar year",
-      "OCActivity" : "Original classification activity for the\nindicated year:  These are the number of\ndocuments created with an original\nclassification, i.e., so designated by an\nofficial Original Classification Authority.",
-      "OCAuthority" : "Number of people in the government designated \nas Original Classification Authorities for \nthe indicated year."
+      "OCActivity" : "Original classification activity for the\nindicated year:  These are the number of\ndocuments created with an original\nclassification, i.e., so designated by an\nofficial Original Classification Authority."
    }
 }
 

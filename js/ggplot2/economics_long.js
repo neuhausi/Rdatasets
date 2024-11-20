@@ -1,16 +1,16 @@
 var economics_longInfo ={
+   "title" : "US economic time series",
    "description" : "Description\nThis dataset was produced from US economic time series data available from\nhttps://fred.stlouisfed.org/. economics is in \"wide\"\nformat, economics_long is in \"long\" format.",
+   "usage" : "economics\n\neconomics_long",
    "parameters" : {
-      "pce" : "personal consumption expenditures, in billions of dollars,\nhttps://fred.stlouisfed.org/series/PCE",
       "uempmed" : "median duration of unemployment, in weeks,\nhttps://fred.stlouisfed.org/series/UEMPMED",
+      "pce" : "personal consumption expenditures, in billions of dollars,\nhttps://fred.stlouisfed.org/series/PCE",
+      "pop" : "total population, in thousands,\nhttps://fred.stlouisfed.org/series/POP",
       "psavert" : "personal savings rate,\nhttps://fred.stlouisfed.org/series/PSAVERT/",
       "date" : "Month of data collection",
-      "unemploy" : "number of unemployed in thousands,\nhttps://fred.stlouisfed.org/series/UNEMPLOY",
-      "pop" : "total population, in thousands,\nhttps://fred.stlouisfed.org/series/POP"
+      "unemploy" : "number of unemployed in thousands,\nhttps://fred.stlouisfed.org/series/UNEMPLOY"
    },
-   "usage" : "economics\n\neconomics_long",
-   "format" : "A data frame with 574 rows and 6 variables:",
-   "title" : "US economic time series"
+   "format" : "A data frame with 574 rows and 6 variables:"
 }
 
 var economics_long = [

@@ -1,8 +1,8 @@
 {
    "config" : {
       "graphType" : "Scatter3D",
-      "title" : "data from Section 1.19",
-      "subtitle" : "KMsurv - aids"
+      "subtitle" : "KMsurv - aids",
+      "title" : "data from Section 1.19"
    },
    "data" : {
       "y" : {
@@ -302,11 +302,6 @@
             "Var293",
             "Var294",
             "Var295"
-         ],
-         "smps" : [
-            "infect",
-            "induct",
-            "adult"
          ],
          "data" : [
             [
@@ -1784,6 +1779,11 @@
                0.25,
                0
             ]
+         ],
+         "smps" : [
+            "infect",
+            "induct",
+            "adult"
          ]
       }
    },

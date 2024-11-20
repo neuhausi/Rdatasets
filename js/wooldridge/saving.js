@@ -1,18 +1,18 @@
 var savingInfo ={
-   "reference" : "I remember entering this data set in the late 1980s, and I am pretty sure it came directly from an introductory econometrics text. But so far my search has been fruitless. If anyone runs across this data set, I would appreciate knowing about it.",
-   "format" : "A data.frame with 100 observations on 7 variables:",
+   "description" : "Description\nWooldridge Source: Unknown Data loads lazily.",
    "title" : "saving",
+   "usage" : "data('saving')",
+   "reference" : "I remember entering this data set in the late 1980s, and I am pretty sure it came directly from an introductory econometrics text. But so far my search has been fruitless. If anyone runs across this data set, I would appreciate knowing about it.",
    "parameters" : {
-      "inc" : " annual income, $",
-      "age" : " age of household head",
-      "size" : " family size",
-      "sav" : " annual savings, $",
       "educ" : " years educ, household head",
       "black" : " =1 if household head is black",
-      "cons" : " annual consumption, $"
+      "size" : " family size",
+      "inc" : " annual income, $",
+      "sav" : " annual savings, $",
+      "cons" : " annual consumption, $",
+      "age" : " age of household head"
    },
-   "usage" : "data('saving')",
-   "description" : "Description\nWooldridge Source: Unknown Data loads lazily."
+   "format" : "A data.frame with 100 observations on 7 variables:"
 }
 
 var saving = [

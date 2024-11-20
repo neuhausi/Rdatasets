@@ -1,14 +1,14 @@
 var RootStockInfo ={
-   "title" : "Growth of Apple Trees from Different Root Stocks",
-   "reference" : "This is a balanced, one-way MANOVA design, with n=8 trees for each\nrootstock.",
    "usage" : "A data frame with 48 observations on the following 5 variables.",
+   "reference" : "This is a balanced, one-way MANOVA design, with n=8 trees for each\nrootstock.",
    "description" : "Description\nIn a classic experiment carried out from 1918 to 1934, growth of apple trees\nof six different rootstocks were compared on four measures of size.\nHow do the measures of size vary with the type of rootstock?",
+   "title" : "Growth of Apple Trees from Different Root Stocks",
    "parameters" : {
-      "girth15" : "a numeric vector: trunk girth at 15 years (mm x 100)",
-      "ext4" : "a numeric vector: extension growth at 4 years (m)",
       "girth4" : "a numeric vector: trunk girth at 4 years (mm x 100)",
-      "rootstock" : "a factor with levels 1 2 3 4 5 6",
-      "weight15" : "a numeric vector: weight of tree above ground at 15 years (lb x 1000)"
+      "weight15" : "a numeric vector: weight of tree above ground at 15 years (lb x 1000)",
+      "ext4" : "a numeric vector: extension growth at 4 years (m)",
+      "girth15" : "a numeric vector: trunk girth at 15 years (mm x 100)",
+      "rootstock" : "a factor with levels 1 2 3 4 5 6"
    }
 }
 

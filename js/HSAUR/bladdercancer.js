@@ -1,14 +1,14 @@
 var bladdercancerInfo ={
-   "usage" : "data(\"bladdercancer\")",
    "description" : "Description\nData arise from 31 male patients who have been treated for \nsuperficial bladder cancer, and give the number of recurrent tumours during \na particular time after the removal of the primary tumour, along with the size of the \noriginal tumour.",
-   "reference" : "The aim is the estimate the effect of size of tumour on the number  \nof recurrent tumours.",
-   "format" : "A data frame with 31 observations on the following 3 variables.",
    "title" : "Bladder Cancer Data",
+   "usage" : "data(\"bladdercancer\")",
+   "reference" : "The aim is the estimate the effect of size of tumour on the number  \nof recurrent tumours.",
    "parameters" : {
       "number" : "number of recurrent tumours.",
       "tumorsize" : "a factor with levels <=3cm and >3cm.",
       "time" : "the duration."
-   }
+   },
+   "format" : "A data frame with 31 observations on the following 3 variables."
 }
 
 var bladdercancer = [

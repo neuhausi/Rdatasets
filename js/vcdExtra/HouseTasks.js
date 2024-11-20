@@ -1,8 +1,8 @@
 var HouseTasksInfo ={
-   "description" : "Description\nA 13 x 4 table of frequencies of household tasks performed by couples,\neither by the 'Husband', 'Wife', 'Alternating' or 'Jointly'.",
-   "format" : "The format is:\n'table' int [1:13, 1:4] 36 11 24 51 13 1 1 14 20 46 ...\n- attr(*, \"dimnames\")=List of 2\n..$ Task: chr [1:13] \"Breakfast\" \"Dinner\" \"Dishes\" \"Driving\" ...\n..$ Who : chr [1:4] \"Alternating\" \"Husband\" \"Jointly\" \"Wife\"",
+   "usage" : "data(\"HouseTasks\")",
    "title" : "Household Tasks Performed by Husbands and Wives",
-   "usage" : "data(\"HouseTasks\")"
+   "description" : "Description\nA 13 x 4 table of frequencies of household tasks performed by couples,\neither by the 'Husband', 'Wife', 'Alternating' or 'Jointly'.",
+   "format" : "The format is:\n'table' int [1:13, 1:4] 36 11 24 51 13 1 1 14 20 46 ...\n- attr(*, \"dimnames\")=List of 2\n..$ Task: chr [1:13] \"Breakfast\" \"Dinner\" \"Dishes\" \"Driving\" ...\n..$ Who : chr [1:4] \"Alternating\" \"Husband\" \"Jointly\" \"Wife\""
 }
 
 var HouseTasks = [

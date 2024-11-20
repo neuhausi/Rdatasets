@@ -6,17 +6,6 @@
             "stretch",
             "distance"
          ],
-         "vars" : [
-            "Var1",
-            "Var2",
-            "Var3",
-            "Var4",
-            "Var5",
-            "Var6",
-            "Var7",
-            "Var8",
-            "Var9"
-         ],
          "data" : [
             [
                30,
@@ -54,12 +43,23 @@
                65,
                291
             ]
+         ],
+         "vars" : [
+            "Var1",
+            "Var2",
+            "Var3",
+            "Var4",
+            "Var5",
+            "Var6",
+            "Var7",
+            "Var8",
+            "Var9"
          ]
       }
    },
    "config" : {
+      "graphType" : "Scatter2D",
       "subtitle" : "DAAG - elastic2",
-      "title" : "Elastic Band Data Replicated",
-      "graphType" : "Scatter2D"
+      "title" : "Elastic Band Data Replicated"
    }
 }

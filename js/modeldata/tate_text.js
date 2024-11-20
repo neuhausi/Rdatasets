@@ -1,12 +1,12 @@
 var tate_textInfo ={
-   "description" : "Description\nMetadata such as artist, title, and year created for recent artworks owned\nby the Tate Gallery. Only artworks created during or after 1990 are\nincluded, and the metadata source was last updated in 2014. The Tate Gallery\nprovides these data but requests users to be respectful of their\nguidelines for use.",
+   "reference" : "data(tate_text)\nstr(tate_text)",
    "usage" : "tate_text\n\na tibble",
+   "description" : "Description\nMetadata such as artist, title, and year created for recent artworks owned\nby the Tate Gallery. Only artworks created during or after 1990 are\nincluded, and the metadata source was last updated in 2014. The Tate Gallery\nprovides these data but requests users to be respectful of their\nguidelines for use.",
+   "title" : "Tate Gallery modern artwork metadata",
    "parameters" : {
       "https" : "//www.tate.org.uk/"
    },
-   "reference" : "data(tate_text)\nstr(tate_text)",
-   "format" : "https://github.com/tategallery/collection\n\n\n https://www.tate.org.uk/",
-   "title" : "Tate Gallery modern artwork metadata"
+   "format" : "https://github.com/tategallery/collection\n\n\n https://www.tate.org.uk/"
 }
 
 var tate_text = [

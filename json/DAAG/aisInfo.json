@@ -1,0 +1,22 @@
+{
+   "description" : "Description\nThese data were collected in a study of how data on \nvarious characteristics of the blood varied with sport,\nbody size, and sex of the athlete.",
+   "title" : "Australian athletes data set",
+   "reference" : "Do blood hemoglobin concentrations of athletes in endurance-related\nevents differ from those in power-related events?",
+   "usage" : "data(ais)",
+   "parameters" : {
+      "ht" : "height, cm",
+      "ssf" : "sum of skin folds",
+      "hc" : "hematocrit, percent",
+      "sport" : "a factor with levels B_Ball Field \nGym Netball Row Swim T_400m \nT_Sprnt Tennis W_Polo",
+      "bmi" : "Body mass index, kg cm^{-2} 10^2",
+      "pcBfat" : "percent Body fat",
+      "wcc" : "while blood cell count, in 10^{12} per liter",
+      "rcc" : "red blood cell count, in 10^{12} l^{-1}",
+      "hg" : "hemaglobin concentration, in g per decaliter",
+      "sex" : "a factor with levels f m",
+      "lbm" : "lean body mass, kg",
+      "wt" : "weight, kg",
+      "ferr" : "plasma ferritins, ng dl^{-1}"
+   },
+   "format" : "A data frame with 202 observations on the following 13 variables."
+}

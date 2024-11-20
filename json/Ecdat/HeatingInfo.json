@@ -1,0 +1,16 @@
+{
+   "format" : "A dataframe containing :",
+   "parameters" : {
+      "pb.z" : "ratio oc.z/ic.z",
+      "rooms" : "numbers of rooms in the house",
+      "agehed" : "age of the household head",
+      "depvar" : "heating system, one of gc (gas \ncentral), gr (gas room), ec \n(electric central), er (electric \nroom), hp (heat pump)",
+      "oc.z" : "annual operating cost for heating system \nz (defined for the 5 heating systems)",
+      "idcase" : "id",
+      "income" : "annual income of the household",
+      "ic.z" : "installation cost for heating system z \n(defined for the 5 heating systems)"
+   },
+   "title" : "Heating System Choice in California Houses",
+   "description" : "Description\na cross-section\nnumber of observations :  900\nobservation :  households\ncountry :  California",
+   "usage" : "data(Heating)"
+}

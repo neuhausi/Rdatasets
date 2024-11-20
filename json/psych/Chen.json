@@ -1,14 +1,54 @@
 {
    "config" : {
       "subtitle" : "psych - Chen",
+      "title" : "12 variables created by Schmid and Leiman to show the Schmid-Leiman Transformation",
+      "graphType" : "Heatmap",
       "smpOverlays" : [
          null
-      ],
-      "graphType" : "Heatmap",
-      "title" : "12 variables created by Schmid and Leiman to show the Schmid-Leiman Transformation"
+      ]
    },
    "data" : {
       "y" : {
+         "vars" : [
+            "soc",
+            "diff",
+            "slo",
+            "con",
+            "for",
+            "dcon",
+            "tired",
+            "ener",
+            "worn",
+            "pep",
+            "calm",
+            "blue",
+            "hap",
+            "nerv",
+            "down",
+            "afr",
+            "frust",
+            "wor"
+         ],
+         "smps" : [
+            "Social_functioning",
+            "dif_reasoning",
+            "slow_react",
+            "confused",
+            "forgetful",
+            "dif_concent",
+            "tired",
+            "energetic.R",
+            "worn_out",
+            "peppy.R",
+            "calm.R",
+            "blue",
+            "happy.R",
+            "nervous",
+            "down",
+            "afraid",
+            "frustrated",
+            "worried"
+         ],
          "data" : [
             [
                0.644,
@@ -370,46 +410,6 @@
                0.584,
                0.94
             ]
-         ],
-         "vars" : [
-            "soc",
-            "diff",
-            "slo",
-            "con",
-            "for",
-            "dcon",
-            "tired",
-            "ener",
-            "worn",
-            "pep",
-            "calm",
-            "blue",
-            "hap",
-            "nerv",
-            "down",
-            "afr",
-            "frust",
-            "wor"
-         ],
-         "smps" : [
-            "Social_functioning",
-            "dif_reasoning",
-            "slow_react",
-            "confused",
-            "forgetful",
-            "dif_concent",
-            "tired",
-            "energetic.R",
-            "worn_out",
-            "peppy.R",
-            "calm.R",
-            "blue",
-            "happy.R",
-            "nervous",
-            "down",
-            "afraid",
-            "frustrated",
-            "worried"
          ]
       }
    },

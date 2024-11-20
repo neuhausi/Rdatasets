@@ -1,14 +1,14 @@
 var turnipsInfo ={
-   "description" : "Description\nA data set on turnip prices from my experience with Animal Crossing (New Horizons)",
-   "usage" : "turnips",
    "parameters" : {
-      "price" : "a numeric vector for the price of turnips, in bells",
       "time" : "a character vector referring to the particular time period of observation",
-      "date" : "a date"
+      "date" : "a date",
+      "price" : "a numeric vector for the price of turnips, in bells"
    },
+   "description" : "Description\nA data set on turnip prices from my experience with Animal Crossing (New Horizons)",
+   "title" : "Turnip prices in Animal Crossing (New Horizons)",
+   "usage" : "turnips",
    "reference" : "Sunday prices are set for purchase and do not fluctuate. Timmy and Tommy do not accept turnips on Sunday either. Daily prices\nfluctuate both at opening on Nook's Cranny and at noon. This amounts to three time periods in the data. \"5:00 a.m.\" is reserved only for\nSunday purchases (i.e. when Daisy Mae arrives on the island). 8:00 a.m. is the morning price because that is when Nook's Cranny opens.\n12:00 p.m. is when the price changes for the day.",
-   "format" : "A data frame with the following 3 variables.",
-   "title" : "Turnip prices in Animal Crossing (New Horizons)"
+   "format" : "A data frame with the following 3 variables."
 }
 
 var turnips = [

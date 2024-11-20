@@ -1,18 +1,18 @@
 var autismInfo ={
    "description" : "Description\nData from a prospective longitudinal study following 214 children between \nthe ages of 2 and 13 who were diagnosed with either autism spectrum disorder\nor non-spectrum developmental delays at age 2.",
+   "title" : "Autism data",
+   "reference" : "http://www-personal.umich.edu/~kwelch/",
    "usage" : "data(autism)",
    "parameters" : {
       "race" : "Child's race - a factor. Levels are white and nonwhite.",
       "bestest2" : "Diagnosis at age 2 - a factor. Levels are autism and \npdd (pervasive developmental disorder).",
-      "childid" : "Child ID.",
-      "gender" : "Child's gender - a factor. Levels are male and female.",
+      "sicdegp" : "Sequenced Inventory of Communication Development group (an\nassessment of expressive language development) - a factor. Levels are \nlow, med, and high.",
       "age2" : "Age (in years) centered around age 2 (age at diagnosis).",
-      "vsae" : "Vineland Socialization Age Equivalent",
-      "sicdegp" : "Sequenced Inventory of Communication Development group (an\nassessment of expressive language development) - a factor. Levels are \nlow, med, and high."
+      "gender" : "Child's gender - a factor. Levels are male and female.",
+      "childid" : "Child ID.",
+      "vsae" : "Vineland Socialization Age Equivalent"
    },
-   "format" : "A data frame with 604 observation on the following 7 variables:",
-   "title" : "Autism data",
-   "reference" : "http://www-personal.umich.edu/~kwelch/"
+   "format" : "A data frame with 604 observation on the following 7 variables:"
 }
 
 var autism = [

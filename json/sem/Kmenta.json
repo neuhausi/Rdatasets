@@ -24,13 +24,6 @@
             "Var19",
             "Var20"
          ],
-         "smps" : [
-            "Q",
-            "P",
-            "D",
-            "F",
-            "A"
-         ],
          "data" : [
             [
                98.485,
@@ -172,13 +165,20 @@
                93,
                20
             ]
+         ],
+         "smps" : [
+            "Q",
+            "P",
+            "D",
+            "F",
+            "A"
          ]
       }
    },
    "config" : {
-      "scatterPlotMatrix" : 1,
       "graphType" : "Scatter2D",
+      "subtitle" : "sem - Kmenta",
       "title" : "Partly Artificial Data on the U. S. Economy",
-      "subtitle" : "sem - Kmenta"
+      "scatterPlotMatrix" : 1
    }
 }

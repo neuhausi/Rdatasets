@@ -2,6 +2,41 @@
    "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>medExpenses</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Family Medical Expenses</h2>\n<h3>Description</h3>\n<p>The <code>medExpenses</code> data frame  \ncontains average weekly medical expenses including drugs for 33 families\nrandomly sampled from a community of 600 families which contained\n2700 individuals.  These data were collected in the 1970's at an \nunknown location.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>medExpenses</code></pre>\n<h3>Format</h3>\n<dl>\n<dt>familysize</dt><dd><p>number of individuals in a family</p>\n</dd>\n<dt>expenses</dt><dd><p>average weekly cost for medical expenses per\nfamily member</p>\n</dd>\n</dl>\n<h3>Examples</h3>\n<pre><code class='language-R'>with(medExpenses, weighted.mean(expenses, familysize))\n</code></pre>\n</main>\n</div>\n",
    "data" : {
       "y" : {
+         "vars" : [
+            "Var1",
+            "Var2",
+            "Var3",
+            "Var4",
+            "Var5",
+            "Var6",
+            "Var7",
+            "Var8",
+            "Var9",
+            "Var10",
+            "Var11",
+            "Var12",
+            "Var13",
+            "Var14",
+            "Var15",
+            "Var16",
+            "Var17",
+            "Var18",
+            "Var19",
+            "Var20",
+            "Var21",
+            "Var22",
+            "Var23",
+            "Var24",
+            "Var25",
+            "Var26",
+            "Var27",
+            "Var28",
+            "Var29",
+            "Var30",
+            "Var31",
+            "Var32",
+            "Var33"
+         ],
          "data" : [
             [
                2,
@@ -139,47 +174,12 @@
          "smps" : [
             "familysize",
             "expenses"
-         ],
-         "vars" : [
-            "Var1",
-            "Var2",
-            "Var3",
-            "Var4",
-            "Var5",
-            "Var6",
-            "Var7",
-            "Var8",
-            "Var9",
-            "Var10",
-            "Var11",
-            "Var12",
-            "Var13",
-            "Var14",
-            "Var15",
-            "Var16",
-            "Var17",
-            "Var18",
-            "Var19",
-            "Var20",
-            "Var21",
-            "Var22",
-            "Var23",
-            "Var24",
-            "Var25",
-            "Var26",
-            "Var27",
-            "Var28",
-            "Var29",
-            "Var30",
-            "Var31",
-            "Var32",
-            "Var33"
          ]
       }
    },
    "config" : {
       "subtitle" : "DAAG - medExpenses",
-      "graphType" : "Scatter2D",
-      "title" : "Family Medical Expenses"
+      "title" : "Family Medical Expenses",
+      "graphType" : "Scatter2D"
    }
 }

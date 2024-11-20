@@ -1,13 +1,13 @@
 var MachinesInfo ={
-   "reference" : "Data on an experiment to compare three brands of machines used in an\nindustrial process are presented in Milliken and Johnson (p. 285,\n1992). Six workers were chosen randomly among the\nemployees of a factory to operate each machine three times. The\nresponse is an overall productivity score taking into account the\nnumber and quality of components produced.",
-   "title" : "Productivity Scores for Machines and Workers",
-   "usage" : "This data frame contains the following columns:",
-   "description" : "Description\nThe Machines data frame has 54 rows and 3 columns.",
    "parameters" : {
-      "Machine" : "a factor with levels\nA, \nB, and \nC identifying the machine brand.",
       "Worker" : "an ordered factor giving the unique identifier for the worker.",
-      "score" : "a productivity score."
-   }
+      "score" : "a productivity score.",
+      "Machine" : "a factor with levels\nA, \nB, and \nC identifying the machine brand."
+   },
+   "description" : "Description\nThe Machines data frame has 54 rows and 3 columns.",
+   "title" : "Productivity Scores for Machines and Workers",
+   "reference" : "Data on an experiment to compare three brands of machines used in an\nindustrial process are presented in Milliken and Johnson (p. 285,\n1992). Six workers were chosen randomly among the\nemployees of a factory to operate each machine three times. The\nresponse is an overall productivity score taking into account the\nnumber and quality of components produced.",
+   "usage" : "This data frame contains the following columns:"
 }
 
 var Machines = [

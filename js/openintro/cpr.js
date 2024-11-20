@@ -1,13 +1,13 @@
 var cprInfo ={
-   "usage" : "cpr",
-   "description" : "Description\nThese patients were randomly divided into a treatment group where they\nreceived a blood thinner or the control group where they did not receive a\nblood thinner. The outcome variable of interest was whether the patients\nsurvived for at least 24 hours.",
-   "title" : "CPR dataset",
-   "format" : "A data frame with 90 observations on the following 2 variables.",
-   "reference" : "Efficacy and safety of thrombolytic therapy after initially\nunsuccessful cardiopulmonary resuscitation: a prospective clinical trial, by\nBottiger et al., The Lancet, 2001.",
    "parameters" : {
       "outcome" : "a factor with levels died and survived",
       "group" : "a factor with levels control and treatment"
-   }
+   },
+   "description" : "Description\nThese patients were randomly divided into a treatment group where they\nreceived a blood thinner or the control group where they did not receive a\nblood thinner. The outcome variable of interest was whether the patients\nsurvived for at least 24 hours.",
+   "title" : "CPR dataset",
+   "reference" : "Efficacy and safety of thrombolytic therapy after initially\nunsuccessful cardiopulmonary resuscitation: a prospective clinical trial, by\nBottiger et al., The Lancet, 2001.",
+   "usage" : "cpr",
+   "format" : "A data frame with 90 observations on the following 2 variables."
 }
 
 var cpr = [

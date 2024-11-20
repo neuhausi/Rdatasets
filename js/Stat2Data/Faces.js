@@ -1,15 +1,15 @@
 var FacesInfo ={
+   "usage" : "A data frame with 38 observations on the following 5 variables.",
+   "reference" : "Facial attractiveness of several men was rated by female college students. Maximum grip strength was also measured, along with shoulder to hip ratio, age of first sex, and number of sex partners.",
+   "title" : "Facial Attractiveness of Men",
    "description" : "Description\nGrip strength, attractiveness, and shoulder-hip ratio for men",
    "parameters" : {
-      "Attractive" : "Attractiveness rating",
-      "SHR" : "Shoulder to hip ratio",
-      "AgeFirstSex" : "Age of first sex",
+      "Partners" : "Number of sexual partners (lifetime)",
       "MaxGripStrength" : "Measurement of strength of hand grip",
-      "Partners" : "Number of sexual partners (lifetime)"
-   },
-   "title" : "Facial Attractiveness of Men",
-   "reference" : "Facial attractiveness of several men was rated by female college students. Maximum grip strength was also measured, along with shoulder to hip ratio, age of first sex, and number of sex partners.",
-   "usage" : "A data frame with 38 observations on the following 5 variables."
+      "AgeFirstSex" : "Age of first sex",
+      "SHR" : "Shoulder to hip ratio",
+      "Attractive" : "Attractiveness rating"
+   }
 }
 
 var Faces = [

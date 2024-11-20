@@ -1,19 +1,19 @@
 var politicalInformationInfo ={
-   "description" : "Description\nInterviewers administering the 2000 American National Election Studies\nassigned an ordinal rating to each respondent's \"general\nlevel of information\" about politics and public affairs.",
-   "usage" : "data(politicalInformation)",
-   "parameters" : {
-      "id" : "a factor, unique identifier for each interviewer",
-      "length" : "a numeric vector, length of ANES pre-election\ninterview in minutes",
-      "age" : "a numeric vector, respondent age in years",
-      "collegeDegree" : "a factor with levels No Yes",
-      "female" : "a factor with levels No Yes",
-      "y" : "interviewer rating, a factor with levels Very Low Fairly Low Average Fairly High Very High",
-      "govt" : "a factor with levels No Yes",
-      "homeOwn" : "a factor with levels No Yes"
-   },
    "format" : "A data frame with 1807 observations on the following 8 variables.",
+   "parameters" : {
+      "length" : "a numeric vector, length of ANES pre-election\ninterview in minutes",
+      "homeOwn" : "a factor with levels No Yes",
+      "age" : "a numeric vector, respondent age in years",
+      "id" : "a factor, unique identifier for each interviewer",
+      "female" : "a factor with levels No Yes",
+      "collegeDegree" : "a factor with levels No Yes",
+      "y" : "interviewer rating, a factor with levels Very Low Fairly Low Average Fairly High Very High",
+      "govt" : "a factor with levels No Yes"
+   },
+   "reference" : "Seven respondents have missing data on the ordinal interviewer rating.\nThe covariates age and length also have some missing data.",
+   "usage" : "data(politicalInformation)",
    "title" : "Interviewer ratings of respondent levels of political information",
-   "reference" : "Seven respondents have missing data on the ordinal interviewer rating.\nThe covariates age and length also have some missing data."
+   "description" : "Description\nInterviewers administering the 2000 American National Election Studies\nassigned an ordinal rating to each respondent's \"general\nlevel of information\" about politics and public affairs."
 }
 
 var politicalInformation = [

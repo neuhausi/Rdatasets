@@ -1,0 +1,14 @@
+{
+   "parameters" : {
+      "epoch" : "the epoch the skull as assigned to, \na factor with levels c4000BC c3300BC,\nc1850BC,  c200BC, and  cAD150,\nwhere the years are only given approximately, of\ncourse.",
+      "bl" : "basialiveolar length of the skull.",
+      "mb" : "maximum breaths of the skull.",
+      "bh" : "basibregmatic heights of the skull.",
+      "nh" : "nasal heights of the skull."
+   },
+   "title" : "Egyptian Skulls",
+   "description" : "Description\nMeasurements made on Egyptian skulls from five epochs.",
+   "reference" : "The question is whether the measurements change over time.\nNon-constant measurements of the skulls over time would indicate\ninterbreeding with immigrant populations.",
+   "usage" : "data(\"skulls\")",
+   "format" : "A data frame with 150 observations on the following 5 variables."
+}

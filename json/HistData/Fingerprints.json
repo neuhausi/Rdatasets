@@ -1,13 +1,56 @@
 {
    "config" : {
-      "subtitle" : "HistData - Fingerprints",
-      "graphType" : "Scatter2D",
       "colorBy" : "count",
+      "graphType" : "Scatter2D",
+      "subtitle" : "HistData - Fingerprints",
       "title" : "Waite's data on Patterns in Fingerprints"
    },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>Fingerprints</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>\nWaite's data on Patterns in Fingerprints\n</h2>\n<h3>Description</h3>\n<p>Waite (1915) was interested in analyzing the association of patterns in fingerprints,\nand produced a table of counts for 2000 right hands, classified by the number of fingers\ndescribable as a &quot;whorl&quot;, a &quot;small loop&quot; (or neither).\nBecause each hand contributes five fingers, the number of <code>Whorls + Loops</code> cannot exceed 5,\nso the contingency table is necessarily triangular.\n</p>\n<p>Karl Pearson (1904) introduced the test for independence in contingency tables, and by 1913\nhad developed methods for &quot;restricted contingency tables,&quot; such as the triangular table\nanalyzed by Waite.  The general formulation of such tests for association in restricted\ntables is now referred to as models for quasi-independence.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(Fingerprints)</code></pre>\n<h3>Format</h3>\n<p>A frequency data frame with 36 observations on the following 3 variables, \nrepresenting a 6 x 6 table giving\nthe cross-classification of the fingers on 2000 right hands as a whorl, small loop\nor neither.\n</p>\n<dl>\n<dt><code>Whorls</code></dt><dd><p>Number of whorls, an ordered factor with levels <code>0</code> &lt; <code>1</code> &lt; <code>2</code> &lt; <code>3</code> &lt; <code>4</code> &lt; <code>5</code></p>\n</dd>\n<dt><code>Loops</code></dt><dd><p>Number of small loops, an ordered factor with levels <code>0</code> &lt; <code>1</code> &lt; <code>2</code> &lt; <code>3</code> &lt; <code>4</code> &lt; <code>5</code></p>\n</dd>\n<dt><code>count</code></dt><dd><p>Number of hands</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>Cells for which <code>Whorls + Loops&gt;5</code> have <code>NA</code> for <code>count</code>\n</p>\n<h3>Source</h3>\n<p>Stigler, S. M. (1999).\n<em>Statistics on the Table</em>.\nCambridge, MA: Harvard University Press, table 19.4.\n</p>\n<h3>References</h3>\n<p>Pearson, K. (1904).\nMathematical contributions to the theory of evolution. XIII.\nOn the theory of contingency and its relation to association and normal correlation.\nReprinted in <em>Karl Pearson's Early Statistical Papers</em>, Cambridge:\nCambridge University Press, 1948, 443-475.\n</p>\n<p>Waite, H. (1915).\nThe analysis of fingerprints, <em>Biometrika</em>, 10, 421-478.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>data(Fingerprints)\nxtabs(count ~ Whorls + Loops, data=Fingerprints)\n</code></pre>\n</main>\n</div>\n",
    "data" : {
+      "z" : {
+         "count" : [
+            "78",
+            "106",
+            "130",
+            "125",
+            "104",
+            "50",
+            "144",
+            "153",
+            "92",
+            "38",
+            "26",
+            "",
+            "204",
+            "126",
+            "55",
+            "7",
+            "",
+            "",
+            "211",
+            "80",
+            "15",
+            "",
+            "",
+            "",
+            "179",
+            "32",
+            "",
+            "",
+            "",
+            "",
+            "45",
+            "",
+            "",
+            "",
+            "",
+            ""
+         ]
+      },
       "y" : {
+         "smps" : [
+            "Whorls",
+            "Loops"
+         ],
          "data" : [
             [
                0,
@@ -154,10 +197,6 @@
                5
             ]
          ],
-         "smps" : [
-            "Whorls",
-            "Loops"
-         ],
          "vars" : [
             "Var1",
             "Var2",
@@ -196,46 +235,7 @@
             "Var35",
             "Var36"
          ]
-      },
-      "z" : {
-         "count" : [
-            "78",
-            "106",
-            "130",
-            "125",
-            "104",
-            "50",
-            "144",
-            "153",
-            "92",
-            "38",
-            "26",
-            "",
-            "204",
-            "126",
-            "55",
-            "7",
-            "",
-            "",
-            "211",
-            "80",
-            "15",
-            "",
-            "",
-            "",
-            "179",
-            "32",
-            "",
-            "",
-            "",
-            "",
-            "45",
-            "",
-            "",
-            "",
-            "",
-            ""
-         ]
       }
-   }
+   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>Fingerprints</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>\nWaite's data on Patterns in Fingerprints\n</h2>\n<h3>Description</h3>\n<p>Waite (1915) was interested in analyzing the association of patterns in fingerprints,\nand produced a table of counts for 2000 right hands, classified by the number of fingers\ndescribable as a &quot;whorl&quot;, a &quot;small loop&quot; (or neither).\nBecause each hand contributes five fingers, the number of <code>Whorls + Loops</code> cannot exceed 5,\nso the contingency table is necessarily triangular.\n</p>\n<p>Karl Pearson (1904) introduced the test for independence in contingency tables, and by 1913\nhad developed methods for &quot;restricted contingency tables,&quot; such as the triangular table\nanalyzed by Waite.  The general formulation of such tests for association in restricted\ntables is now referred to as models for quasi-independence.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(Fingerprints)</code></pre>\n<h3>Format</h3>\n<p>A frequency data frame with 36 observations on the following 3 variables, \nrepresenting a 6 x 6 table giving\nthe cross-classification of the fingers on 2000 right hands as a whorl, small loop\nor neither.\n</p>\n<dl>\n<dt><code>Whorls</code></dt><dd><p>Number of whorls, an ordered factor with levels <code>0</code> &lt; <code>1</code> &lt; <code>2</code> &lt; <code>3</code> &lt; <code>4</code> &lt; <code>5</code></p>\n</dd>\n<dt><code>Loops</code></dt><dd><p>Number of small loops, an ordered factor with levels <code>0</code> &lt; <code>1</code> &lt; <code>2</code> &lt; <code>3</code> &lt; <code>4</code> &lt; <code>5</code></p>\n</dd>\n<dt><code>count</code></dt><dd><p>Number of hands</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>Cells for which <code>Whorls + Loops&gt;5</code> have <code>NA</code> for <code>count</code>\n</p>\n<h3>Source</h3>\n<p>Stigler, S. M. (1999).\n<em>Statistics on the Table</em>.\nCambridge, MA: Harvard University Press, table 19.4.\n</p>\n<h3>References</h3>\n<p>Pearson, K. (1904).\nMathematical contributions to the theory of evolution. XIII.\nOn the theory of contingency and its relation to association and normal correlation.\nReprinted in <em>Karl Pearson's Early Statistical Papers</em>, Cambridge:\nCambridge University Press, 1948, 443-475.\n</p>\n<p>Waite, H. (1915).\nThe analysis of fingerprints, <em>Biometrika</em>, 10, 421-478.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>data(Fingerprints)\nxtabs(count ~ Whorls + Loops, data=Fingerprints)\n</code></pre>\n</main>\n</div>\n"
 }

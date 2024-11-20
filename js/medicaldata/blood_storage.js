@@ -1,31 +1,31 @@
 var blood_storageInfo ={
-   "usage" : "blood_storage",
-   "description" : "Description\nThis data set contains data on 316 men who had undergone radical prostatectomy and received transfusion during or within 30 days of the surgical procedure and had available prostate serum antigen (PSA) follow-up data. The main exposure of interest was RBC storage duration group. A number of demographic, baseline and prognostic factors were also collected. The outcome was time to biochemical (PSA) cancer recurrence. The dataset is cleaned and complete. There are no outliers or data problems (more details after variable information).",
-   "title" : "Retrospective Cohort Study of the Effects of Blood Storage on Prostate Cancer",
-   "format" : "A data frame with 316 observations and 20 variables",
-   "reference" : "Background",
    "parameters" : {
-      "FamHx" : "NA, numeric, range: 0.00-  1",
-      "PreopPSA" : "NA, numeric, range: 1.30- 40",
-      "OrganConfined" : "NA, numeric, range: 0.00-  1",
-      "AdjRadTherapy" : "NA, numeric, range: 0.00-  1",
-      "RBC.Age.Group" : "NA, numeric, range: 1.00-  3",
+      "Recurrence" : "NA, numeric, range: 0.00-  1",
       "sGS" : "NA, numeric, range: 1.00-  4",
-      "TimeToRecurrence" : "NA, numeric, range: 0.27-104",
-      "BN+" : "NA, numeric, range: 0.00-  1",
-      "TVol" : "NA, numeric, range: 1.00-  3",
-      "AnyAdjTherapy" : "NA, numeric, range: 0.00-  1",
       "T.Stage" : "NA, numeric, range: 1.00-  2",
       "Censor" : "NA, numeric, range: 0.00-  1",
-      "Recurrence" : "NA, numeric, range: 0.00-  1",
-      "Units" : "NA, numeric, range: 1.00- 19",
-      "Median.RBC.Age" : "NA, numeric, range:10.00- 25",
       "PreopTherapy" : "NA, numeric, range: 0.00-  1",
-      "bGS" : "NA, numeric, range: 1.00-  3",
+      "PreopPSA" : "NA, numeric, range: 1.30- 40",
       "AA" : "NA, numeric, range: 0.00-  1",
       "Age" : "NA, numeric, range:38.40- 79",
-      "PVol" : "NA, numeric, range:19.40-274"
-   }
+      "TimeToRecurrence" : "NA, numeric, range: 0.27-104",
+      "AdjRadTherapy" : "NA, numeric, range: 0.00-  1",
+      "TVol" : "NA, numeric, range: 1.00-  3",
+      "Units" : "NA, numeric, range: 1.00- 19",
+      "BN+" : "NA, numeric, range: 0.00-  1",
+      "PVol" : "NA, numeric, range:19.40-274",
+      "bGS" : "NA, numeric, range: 1.00-  3",
+      "AnyAdjTherapy" : "NA, numeric, range: 0.00-  1",
+      "RBC.Age.Group" : "NA, numeric, range: 1.00-  3",
+      "Median.RBC.Age" : "NA, numeric, range:10.00- 25",
+      "OrganConfined" : "NA, numeric, range: 0.00-  1",
+      "FamHx" : "NA, numeric, range: 0.00-  1"
+   },
+   "usage" : "blood_storage",
+   "reference" : "Background",
+   "title" : "Retrospective Cohort Study of the Effects of Blood Storage on Prostate Cancer",
+   "description" : "Description\nThis data set contains data on 316 men who had undergone radical prostatectomy and received transfusion during or within 30 days of the surgical procedure and had available prostate serum antigen (PSA) follow-up data. The main exposure of interest was RBC storage duration group. A number of demographic, baseline and prognostic factors were also collected. The outcome was time to biochemical (PSA) cancer recurrence. The dataset is cleaned and complete. There are no outliers or data problems (more details after variable information).",
+   "format" : "A data frame with 316 observations and 20 variables"
 }
 
 var blood_storage = [

@@ -1,8 +1,8 @@
 var aus_fertilityInfo ={
-   "usage" : "Time series of class 'tsibble'",
    "title" : "Australian fertility rates",
-   "format" : "Each series is uniquely identified using two keys:",
-   "description" : "Description\naus_fertility contains annual data on one measured variable:\nRate:  Fertility rate (per thousand women)"
+   "description" : "Description\naus_fertility contains annual data on one measured variable:\nRate:  Fertility rate (per thousand women)",
+   "usage" : "Time series of class 'tsibble'",
+   "format" : "Each series is uniquely identified using two keys:"
 }
 
 var aus_fertility = [

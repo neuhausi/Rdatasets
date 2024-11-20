@@ -1,7 +1,7 @@
 var WordMemoryInfo ={
+   "title" : "Experiment on Word Memory",
    "description" : "Description\nPercentage of different types of words recalled",
-   "usage" : "A dataset with 40 observations on the following 4 variables.",
-   "title" : "Experiment on Word Memory"
+   "usage" : "A dataset with 40 observations on the following 4 variables."
 }
 
 var WordMemory = [

@@ -1,7 +1,7 @@
 var USJudgeRatingsInfo ={
    "format" : "A data frame containing 43 observations on 12 numeric variables.",
-   "title" : "Lawyers' Ratings of State Judges in the US Superior Court",
    "usage" : "USJudgeRatings",
+   "title" : "Lawyers' Ratings of State Judges in the US Superior Court",
    "description" : "Description\nLawyers' ratings of state judges in the US Superior Court."
 }
 

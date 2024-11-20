@@ -1,10 +1,4 @@
 {
-   "config" : {
-      "subtitle" : "DAAG - leaftemp",
-      "graphType" : "Scatter3D",
-      "title" : "Leaf and Air Temperature Data",
-      "colorBy" : "CO2level"
-   },
    "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>leaftemp</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Leaf and Air Temperature Data</h2>\n<h3>Description</h3>\n<p>Data are measurements of vapour pressure and of the \ndifference between leaf and air temperature.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>leaftemp</code></pre>\n<h3>Format</h3>\n<p>This data frame contains the following columns:\n</p>\n<dl>\n<dt>CO2level</dt><dd><p>Carbon Dioxide level\n<code>low</code>, <code>medium</code>, <code>high</code> </p>\n</dd>\n<dt>vapPress</dt><dd><p>Vapour pressure</p>\n</dd>\n<dt>tempDiff</dt><dd><p>Difference between leaf and air temperature</p>\n</dd>\n<dt>BtempDiff</dt><dd><p>a numeric vector</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>Katharina Siebke and Susan von Cammerer, Australian National University.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>print(\"Fitting Multiple Lines - Example 7.3\")\nleaf.lm1 &lt;- lm(tempDiff ~ 1 , data = leaftemp)\nleaf.lm2 &lt;- lm(tempDiff ~ vapPress, data = leaftemp)\nleaf.lm3 &lt;- lm(tempDiff ~ CO2level + vapPress, data = leaftemp)\nleaf.lm4 &lt;- lm(tempDiff ~ CO2level + vapPress + vapPress:CO2level,\n  data = leaftemp)\nanova(leaf.lm1, leaf.lm2, leaf.lm3, leaf.lm4)\nsummary(leaf.lm2)\nplot(leaf.lm2)\n</code></pre>\n</main>\n</div>\n",
    "data" : {
       "y" : {
@@ -456,5 +450,11 @@
             "medium"
          ]
       }
+   },
+   "config" : {
+      "graphType" : "Scatter3D",
+      "colorBy" : "CO2level",
+      "subtitle" : "DAAG - leaftemp",
+      "title" : "Leaf and Air Temperature Data"
    }
 }

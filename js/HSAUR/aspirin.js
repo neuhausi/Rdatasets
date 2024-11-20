@@ -1,6 +1,7 @@
 var aspirinInfo ={
-   "format" : "A data frame with 7 observations on the following 4 variables.",
    "title" : "Aspirin Data",
+   "description" : "Description\nEfficacy of Aspirin in preventing death after a myocardial infarct.",
+   "usage" : "data(\"aspirin\")",
    "reference" : "The data were collected for a meta-analysis\nof the effectiveness of Aspirin (versus placebo) in preventing \ndeath after a myocardial infarction.",
    "parameters" : {
       "dp" : "number of deaths after placebo.",
@@ -8,8 +9,7 @@ var aspirinInfo ={
       "ta" : "total number of subjects treated with Aspirin.",
       "tp" : "total number subjects treated with placebo."
    },
-   "usage" : "data(\"aspirin\")",
-   "description" : "Description\nEfficacy of Aspirin in preventing death after a myocardial infarct."
+   "format" : "A data frame with 7 observations on the following 4 variables."
 }
 
 var aspirin = [

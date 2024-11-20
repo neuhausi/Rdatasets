@@ -1,4 +1,10 @@
 {
+   "config" : {
+      "graphType" : "Heatmap",
+      "title" : "Body measurements of 507 physically active individuals.",
+      "subtitle" : "openintro - bdims"
+   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>bdims</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Body measurements of 507 physically active individuals.</h2>\n<h3>Description</h3>\n<p>Body girth measurements and skeletal diameter measurements, as well as age,\nweight, height and gender, are given for 507 physically active individuals -\n247 men and 260 women. These data can be used to provide statistics students\npractice in the art of data analysis. Such analyses range from simple\ndescriptive displays to more complicated multivariate analyses such as\nmultiple regression and discriminant analysis.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>bdims\n</code></pre>\n<h3>Format</h3>\n<p>A data frame with 507 observations on the following 25 variables.\n</p>\n<dl>\n<dt>bia_di</dt><dd><p>A numerical vector, respondent's biacromial diameter in\ncentimeters.</p>\n</dd>\n<dt>bii_di</dt><dd><p>A numerical vector, respondent's biiliac diameter\n(pelvic breadth) in centimeters.</p>\n</dd>\n<dt>bit_di</dt><dd><p>A numerical vector, respondent's bitrochanteric diameter\nin centimeters.</p>\n</dd>\n<dt>che_de</dt><dd><p>A numerical vector, respondent's chest depth in centimeters,\nmeasured between spine and sternum at nipple level, mid-expiration.</p>\n</dd>\n<dt>che_di</dt><dd><p>A numerical vector, respondent's chest diameter in\ncentimeters, measured at nipple level, mid-expiration.</p>\n</dd>\n<dt>elb_di</dt><dd><p>A numerical vector, respondent's elbow diameter in\ncentimeters, measured as sum of two elbows.</p>\n</dd>\n<dt>wri_di</dt><dd><p>A numerical vector, respondent's wrist diameter in\ncentimeters, measured as sum of two wrists.</p>\n</dd>\n<dt>kne_di</dt><dd><p>A numerical vector, respondent's knee diameter in\ncentimeters, measured as sum of two knees.</p>\n</dd>\n<dt>ank_di</dt><dd><p>A numerical vector, respondent's ankle diameter in\ncentimeters, measured as sum of two ankles.</p>\n</dd>\n<dt>sho_gi</dt><dd><p>A numerical vector, respondent's shoulder girth in\ncentimeters, measured over deltoid muscles.</p>\n</dd>\n<dt>che_gi</dt><dd><p>A numerical vector, respondent's chest girth in\ncentimeters, measured at nipple line in males and just above breast tissue\nin females, mid-expiration.</p>\n</dd>\n<dt>wai_gi</dt><dd><p>A numerical vector, respondent's waist girth in\ncentimeters, measured at the narrowest part of torso below the rib cage as\naverage of contracted and relaxed position.</p>\n</dd>\n<dt>nav_gi</dt><dd><p>A numerical vector, respondent's navel (abdominal)\ngirth in centimeters, measured at umbilicus and iliac crest using iliac\ncrest as a landmark.</p>\n</dd>\n<dt>hip_gi</dt><dd><p>A numerical vector, respondent's hip girth in\ncentimeters, measured at at level of bitrochanteric diameter.</p>\n</dd>\n<dt>thi_gi</dt><dd><p>A numerical vector, respondent's thigh girth in\ncentimeters, measured below gluteal fold as the average of right and left\ngirths.</p>\n</dd>\n<dt>bic_gi</dt><dd><p>A numerical vector, respondent's bicep girth in\ncentimeters, measured when flexed as the average of right and left\ngirths.</p>\n</dd>\n<dt>for_gi</dt><dd><p>A numerical vector, respondent's forearm girth in\ncentimeters, measured when extended, palm up as the average of right and\nleft girths.</p>\n</dd>\n<dt>kne_gi</dt><dd><p>A numerical vector, respondent's knee diameter in\ncentimeters, measured as sum of two knees.</p>\n</dd>\n<dt>cal_gi</dt><dd><p>A numerical vector, respondent's calf maximum girth\nin centimeters, measured as average of right and left girths.</p>\n</dd>\n<dt>ank_gi</dt><dd><p>A numerical vector, respondent's ankle minimum girth\nin centimeters, measured as average of right and left girths.</p>\n</dd>\n<dt>wri_gi</dt><dd><p>A numerical vector, respondent's wrist minimum girth\nin centimeters, measured as average of right and left girths.</p>\n</dd>\n<dt>age</dt><dd><p>A numerical vector, respondent's age in years.</p>\n</dd>\n<dt>wgt</dt><dd><p>A numerical vector, respondent's weight in kilograms.</p>\n</dd>\n<dt>hgt</dt><dd><p>A numerical vector, respondent's height in centimeters.</p>\n</dd>\n<dt>sex</dt><dd><p>A categorical vector, 1 if the respondent is male,\n0 if female.</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>Heinz G, Peterson LJ, Johnson RW, Kerk CJ. 2003. Exploring\nRelationships in Body Dimensions. Journal of Statistics Education 11(2).\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>\nlibrary(ggplot2)\nggplot(bdims, aes(x = hgt)) +\n  geom_histogram(binwidth = 5)\nggplot(bdims, aes(x = hgt, y = wgt)) +\n  geom_point() +\n  labs(x = \"Height\", y = \"Weight\")\nggplot(bdims, aes(x = hgt, y = sho_gi)) +\n  geom_point() +\n  labs(x = \"Height\", y = \"Shoulder girth\")\nggplot(bdims, aes(x = hgt, y = hip_gi)) +\n  geom_point() +\n  labs(x = \"Height\", y = \"Hip girth\")\n</code></pre>\n</main>\n</div>\n",
    "data" : {
       "y" : {
          "data" : [
@@ -12728,33 +12734,6 @@
                0
             ]
          ],
-         "vars" : [
-            "bia_di",
-            "bii_di",
-            "bit_di",
-            "che_de",
-            "che_di",
-            "elb_di",
-            "wri_di",
-            "kne_di",
-            "ank_di",
-            "sho_gi",
-            "che_gi",
-            "wai_gi",
-            "nav_gi",
-            "hip_gi",
-            "thi_gi",
-            "bic_gi",
-            "for_gi",
-            "kne_gi",
-            "cal_gi",
-            "ank_gi",
-            "wri_gi",
-            "age",
-            "wgt",
-            "hgt",
-            "sex"
-         ],
          "smps" : [
             "Smp1",
             "Smp2",
@@ -13263,13 +13242,34 @@
             "Smp505",
             "Smp506",
             "Smp507"
+         ],
+         "vars" : [
+            "bia_di",
+            "bii_di",
+            "bit_di",
+            "che_de",
+            "che_di",
+            "elb_di",
+            "wri_di",
+            "kne_di",
+            "ank_di",
+            "sho_gi",
+            "che_gi",
+            "wai_gi",
+            "nav_gi",
+            "hip_gi",
+            "thi_gi",
+            "bic_gi",
+            "for_gi",
+            "kne_gi",
+            "cal_gi",
+            "ank_gi",
+            "wri_gi",
+            "age",
+            "wgt",
+            "hgt",
+            "sex"
          ]
       }
-   },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>bdims</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Body measurements of 507 physically active individuals.</h2>\n<h3>Description</h3>\n<p>Body girth measurements and skeletal diameter measurements, as well as age,\nweight, height and gender, are given for 507 physically active individuals -\n247 men and 260 women. These data can be used to provide statistics students\npractice in the art of data analysis. Such analyses range from simple\ndescriptive displays to more complicated multivariate analyses such as\nmultiple regression and discriminant analysis.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>bdims\n</code></pre>\n<h3>Format</h3>\n<p>A data frame with 507 observations on the following 25 variables.\n</p>\n<dl>\n<dt>bia_di</dt><dd><p>A numerical vector, respondent's biacromial diameter in\ncentimeters.</p>\n</dd>\n<dt>bii_di</dt><dd><p>A numerical vector, respondent's biiliac diameter\n(pelvic breadth) in centimeters.</p>\n</dd>\n<dt>bit_di</dt><dd><p>A numerical vector, respondent's bitrochanteric diameter\nin centimeters.</p>\n</dd>\n<dt>che_de</dt><dd><p>A numerical vector, respondent's chest depth in centimeters,\nmeasured between spine and sternum at nipple level, mid-expiration.</p>\n</dd>\n<dt>che_di</dt><dd><p>A numerical vector, respondent's chest diameter in\ncentimeters, measured at nipple level, mid-expiration.</p>\n</dd>\n<dt>elb_di</dt><dd><p>A numerical vector, respondent's elbow diameter in\ncentimeters, measured as sum of two elbows.</p>\n</dd>\n<dt>wri_di</dt><dd><p>A numerical vector, respondent's wrist diameter in\ncentimeters, measured as sum of two wrists.</p>\n</dd>\n<dt>kne_di</dt><dd><p>A numerical vector, respondent's knee diameter in\ncentimeters, measured as sum of two knees.</p>\n</dd>\n<dt>ank_di</dt><dd><p>A numerical vector, respondent's ankle diameter in\ncentimeters, measured as sum of two ankles.</p>\n</dd>\n<dt>sho_gi</dt><dd><p>A numerical vector, respondent's shoulder girth in\ncentimeters, measured over deltoid muscles.</p>\n</dd>\n<dt>che_gi</dt><dd><p>A numerical vector, respondent's chest girth in\ncentimeters, measured at nipple line in males and just above breast tissue\nin females, mid-expiration.</p>\n</dd>\n<dt>wai_gi</dt><dd><p>A numerical vector, respondent's waist girth in\ncentimeters, measured at the narrowest part of torso below the rib cage as\naverage of contracted and relaxed position.</p>\n</dd>\n<dt>nav_gi</dt><dd><p>A numerical vector, respondent's navel (abdominal)\ngirth in centimeters, measured at umbilicus and iliac crest using iliac\ncrest as a landmark.</p>\n</dd>\n<dt>hip_gi</dt><dd><p>A numerical vector, respondent's hip girth in\ncentimeters, measured at at level of bitrochanteric diameter.</p>\n</dd>\n<dt>thi_gi</dt><dd><p>A numerical vector, respondent's thigh girth in\ncentimeters, measured below gluteal fold as the average of right and left\ngirths.</p>\n</dd>\n<dt>bic_gi</dt><dd><p>A numerical vector, respondent's bicep girth in\ncentimeters, measured when flexed as the average of right and left\ngirths.</p>\n</dd>\n<dt>for_gi</dt><dd><p>A numerical vector, respondent's forearm girth in\ncentimeters, measured when extended, palm up as the average of right and\nleft girths.</p>\n</dd>\n<dt>kne_gi</dt><dd><p>A numerical vector, respondent's knee diameter in\ncentimeters, measured as sum of two knees.</p>\n</dd>\n<dt>cal_gi</dt><dd><p>A numerical vector, respondent's calf maximum girth\nin centimeters, measured as average of right and left girths.</p>\n</dd>\n<dt>ank_gi</dt><dd><p>A numerical vector, respondent's ankle minimum girth\nin centimeters, measured as average of right and left girths.</p>\n</dd>\n<dt>wri_gi</dt><dd><p>A numerical vector, respondent's wrist minimum girth\nin centimeters, measured as average of right and left girths.</p>\n</dd>\n<dt>age</dt><dd><p>A numerical vector, respondent's age in years.</p>\n</dd>\n<dt>wgt</dt><dd><p>A numerical vector, respondent's weight in kilograms.</p>\n</dd>\n<dt>hgt</dt><dd><p>A numerical vector, respondent's height in centimeters.</p>\n</dd>\n<dt>sex</dt><dd><p>A categorical vector, 1 if the respondent is male,\n0 if female.</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>Heinz G, Peterson LJ, Johnson RW, Kerk CJ. 2003. Exploring\nRelationships in Body Dimensions. Journal of Statistics Education 11(2).\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>\nlibrary(ggplot2)\nggplot(bdims, aes(x = hgt)) +\n  geom_histogram(binwidth = 5)\nggplot(bdims, aes(x = hgt, y = wgt)) +\n  geom_point() +\n  labs(x = \"Height\", y = \"Weight\")\nggplot(bdims, aes(x = hgt, y = sho_gi)) +\n  geom_point() +\n  labs(x = \"Height\", y = \"Shoulder girth\")\nggplot(bdims, aes(x = hgt, y = hip_gi)) +\n  geom_point() +\n  labs(x = \"Height\", y = \"Hip girth\")\n</code></pre>\n</main>\n</div>\n",
-   "config" : {
-      "subtitle" : "openintro - bdims",
-      "graphType" : "Heatmap",
-      "title" : "Body measurements of 507 physically active individuals."
    }
 }

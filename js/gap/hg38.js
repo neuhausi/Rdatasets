@@ -1,7 +1,7 @@
 var hg38Info ={
+   "format" : "A vector containing lengths of chromosomes.",
    "description" : "Description\nData are used in other functions.",
    "title" : "Chromosomal lengths for build 38",
-   "format" : "A vector containing lengths of chromosomes.",
    "usage" : "hg38"
 }
 

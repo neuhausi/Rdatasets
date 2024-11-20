@@ -1,8 +1,8 @@
 {
    "config" : {
       "subtitle" : "DAAG - nsw74psidA",
-      "graphType" : "Heatmap",
-      "title" : "Labour Training Evaluation Data"
+      "title" : "Labour Training Evaluation Data",
+      "graphType" : "Heatmap"
    },
    "data" : {
       "y" : {
@@ -2548,18 +2548,6 @@
                0
             ]
          ],
-         "vars" : [
-            "trt",
-            "age",
-            "educ",
-            "black",
-            "hisp",
-            "marr",
-            "nodeg",
-            "re74",
-            "re75",
-            "re78"
-         ],
          "smps" : [
             "4",
             "8",
@@ -2813,6 +2801,18 @@
             "2650",
             "2651",
             "2654"
+         ],
+         "vars" : [
+            "trt",
+            "age",
+            "educ",
+            "black",
+            "hisp",
+            "marr",
+            "nodeg",
+            "re74",
+            "re75",
+            "re78"
          ]
       }
    },

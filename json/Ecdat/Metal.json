@@ -1,7 +1,7 @@
 {
    "config" : {
-      "subtitle" : "Ecdat - Metal",
       "graphType" : "Scatter3D",
+      "subtitle" : "Ecdat - Metal",
       "title" : "Production for SIC 33"
    },
    "data" : {

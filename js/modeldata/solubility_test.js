@@ -1,8 +1,8 @@
 var solubility_testInfo ={
-   "description" : "Description\nSolubility predictions from MARS model",
    "format" : "solubility_test\n\na data frame",
+   "usage" : "For the solubility data in Kuhn and Johnson (2013),\nthese data are the test set results for the MARS model. The\nobserved solubility (in column solubility) and the model\nresults (prediction) are contained in the data.",
    "title" : "Solubility predictions from MARS model",
-   "usage" : "For the solubility data in Kuhn and Johnson (2013),\nthese data are the test set results for the MARS model. The\nobserved solubility (in column solubility) and the model\nresults (prediction) are contained in the data."
+   "description" : "Description\nSolubility predictions from MARS model"
 }
 
 var solubility_test = [

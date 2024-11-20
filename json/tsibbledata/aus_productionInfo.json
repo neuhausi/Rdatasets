@@ -1,0 +1,6 @@
+{
+   "format" : "aus_production is a half-hourly tsibble with six values:",
+   "description" : "Description\nQuarterly estimates of selected indicators of manufacturing production in Australia.",
+   "title" : "Quarterly production of selected commodities in Australia.",
+   "usage" : "Time series of class tsibble."
+}

@@ -1,17 +1,17 @@
 var USRegionalMortalityInfo ={
-   "description" : "Description\nThese datasets record mortality rates across all ages in the USA by\ncause of death, sex, and rural/urban status, 2011&ndash;2013. The two\ndatasets represent the national aggregate rates and the region-wise\nrates for each administrative region under the Department of Health\nand Human Services (HHS).",
+   "format" : "USRegionalMortality is a data frame with 400 observations on\nthe following 6 variables.",
    "usage" : "USMortality\nUSRegionalMortality",
+   "reference" : "The region-wise data give estimated rates separately for each\nof 10 HHS regions. The location of the regional offices and their\ncoverage area, available from\nhttps://www.hhs.gov/about/agencies/iea/regional-offices/index.html,\nis given below.",
+   "description" : "Description\nThese datasets record mortality rates across all ages in the USA by\ncause of death, sex, and rural/urban status, 2011&ndash;2013. The two\ndatasets represent the national aggregate rates and the region-wise\nrates for each administrative region under the Department of Health\nand Human Services (HHS).",
+   "title" : "Mortality Rates in US by Cause and Gender",
    "parameters" : {
+      "Rate" : "Age-adjusted death rate per 100,000 population",
+      "Sex" : "A factor with levels Female and Male",
       "Status" : "A factor with levels Rural and Urban",
       "Cause" : "Cause of death. A factor with levels\nAlzheimers, Cancer, Cerebrovascular diseases,\nDiabetes, Flu and pneumonia, Heart disease,\nLower respiratory, Nephritis, Suicide, and\nUnintentional injuries",
-      "Sex" : "A factor with levels Female and Male",
       "Region" : "A factor specifying HHS Region. See details.",
-      "Rate" : "Age-adjusted death rate per 100,000 population",
       "SE" : "Standard error for the rate"
-   },
-   "title" : "Mortality Rates in US by Cause and Gender",
-   "format" : "USRegionalMortality is a data frame with 400 observations on\nthe following 6 variables.",
-   "reference" : "The region-wise data give estimated rates separately for each\nof 10 HHS regions. The location of the regional offices and their\ncoverage area, available from\nhttps://www.hhs.gov/about/agencies/iea/regional-offices/index.html,\nis given below."
+   }
 }
 
 var USRegionalMortality = [

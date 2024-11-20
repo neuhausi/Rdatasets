@@ -1,0 +1,14 @@
+{
+   "format" : "A dataframe containing :",
+   "parameters" : {
+      "price" : "price in Singapore $",
+      "colour" : "a factor with levels (D,E,F,G,H,I)",
+      "clarity" : "a factor with levels \n(IF,VVS1,VVS2,VS1,VS2)",
+      "certification" : "certification body, a factor with levels (\nGIA, IGI, HRD)",
+      "carat" : "weight of diamond stones in carat unit"
+   },
+   "description" : "Description\na cross-section from 2000\nnumber of observations :  308\nobservation :  goods\ncountry :  Singapore",
+   "title" : "Pricing the C's of Diamond Stones",
+   "usage" : "data(Diamond)",
+   "reference" : "Chu, Singfat (2001) &ldquo;Pricing the C's of Diamond Stones&rdquo;, Journal of Statistics Education, 9(2)."
+}

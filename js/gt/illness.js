@@ -1,15 +1,15 @@
 var illnessInfo ={
-   "title" : "Lab tests for one suffering from an illness",
-   "format" : "A tibble with 39 rows and 11 variables:",
-   "reference" : "The various tests are identified in the test column. The following listing\nprovides the full names of any abbreviations seen in that column.",
    "parameters" : {
-      "units" : "The measurement units for the test.",
       "test" : "The name of the test.",
       "day_3,day_4,day_5,day_6,day_7,day_8,day_9" : "Measurement values\nassociated with each test administered from days 3 to 9. An NA value\nindicates that the test could not be performed that day.",
+      "units" : "The measurement units for the test.",
       "norm_l,norm_u" : "Lower and upper bounds for the normal range associated\nwith the test."
    },
+   "title" : "Lab tests for one suffering from an illness",
+   "description" : "Description\nA dataset with artificial daily lab data for a patient with Yellow Fever\n(YF). The table comprises laboratory findings for the patient from day 3 of\nillness onset until day 9 (after which the patient died). YF viral DNA was\nfound in serum samples from day 3, where the viral load reached 14,000 copies\nper mL. Several medical interventions were taken to help the patient,\nincluding the administration of fresh frozen plasma, platelets, red cells,\nand coagulation factor VIII. The patient also received advanced support\ntreatment in the form of mechanical ventilation and plasmapheresis. Though\nthe patient's temperature remained stable during their illness,\nunfortunately, the patient's condition did not improve. On days 7 and 8, the\npatient's health declined further, with symptoms such as nosebleeds,\ngastrointestinal bleeding, and hematoma.",
+   "reference" : "The various tests are identified in the test column. The following listing\nprovides the full names of any abbreviations seen in that column.",
    "usage" : "illness",
-   "description" : "Description\nA dataset with artificial daily lab data for a patient with Yellow Fever\n(YF). The table comprises laboratory findings for the patient from day 3 of\nillness onset until day 9 (after which the patient died). YF viral DNA was\nfound in serum samples from day 3, where the viral load reached 14,000 copies\nper mL. Several medical interventions were taken to help the patient,\nincluding the administration of fresh frozen plasma, platelets, red cells,\nand coagulation factor VIII. The patient also received advanced support\ntreatment in the form of mechanical ventilation and plasmapheresis. Though\nthe patient's temperature remained stable during their illness,\nunfortunately, the patient's condition did not improve. On days 7 and 8, the\npatient's health declined further, with symptoms such as nosebleeds,\ngastrointestinal bleeding, and hematoma."
+   "format" : "A tibble with 39 rows and 11 variables:"
 }
 
 var illness = [

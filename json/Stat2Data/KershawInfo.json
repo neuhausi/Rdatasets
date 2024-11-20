@@ -1,0 +1,32 @@
+{
+   "parameters" : {
+      "Outs" : "Number of outs when the pitch is thrown",
+      "VPos" : "Vertical position at home plate (inches above the ground)",
+      "Outcome" : "One of 14 possible results for a pitch (e.g. Ball, Ball In Dirt, Called Strike, ...,  Swinging Strike (Blocked))",
+      "Zone" : "1-9 in theoretical strike zone (upper left to lower right), 11-14 are out of strike zone",
+      "StrikeCount" : "Number of strikes before the pitch (0, 1, or 2)",
+      "InningSide" : "Portion of the inning (bottom= pitcher at home or top=pitcher away)",
+      "Batter" : "Name of the batter faced",
+      "VDev" : "Vertical movement (inches)",
+      "Class" : "One of three classifications (B=ball, S=strike, or X=in play)",
+      "Time" : "Date and time of the pitch (format yyyy-mm-ddThh:mm:ssZ)",
+      "BatterNumber" : "Number of batters faced so far that game",
+      "Count" : "Ball strike count (0-0, 0-1, 0-2, 1-1, 1-2, 2-1, 2-2, 3-1, or 3-2)",
+      "Result" : "From pitcher's perspective (Neg=ball or hit,  Pos=strike or out)",
+      "Nasty" : "A measure on a 0-100 scale of difficulty of the pitch to hit (100 is most difficult)",
+      "EndSpeed" : "Speed crossing home plate (in mph)",
+      "Inning" : "Inning of the game",
+      "BallCount" : "Number of balls before the pitch (0, 1, 2, or 3)",
+      "HDev" : "Horizontal movement (inches)",
+      "BatterHand" : "Batter's stance (L=left or R=right)",
+      "StartSpeed" : "Speed leaving the pitcher's hand (in mph)",
+      "ABEvent" : "Result of the at bat (several possibilities)",
+      "Swing" : "Did the batter swing at the pitch? (No or Yes)",
+      "PitchType" : "Code for pitch type (CH=changeup, CU=curve, FF=fastball, or SL=slider)",
+      "HPos" : "Horizontal position at home plate (inches from center, positive is catcher's right)"
+   },
+   "reference" : "Dataset includes information for 3,402 individual pitches thrown by Los Angeles Dodger baseball pitcher Clayton Kershaw during the 2013 regular season when he won the Cy Young award as the best pitcher in the National League.  Many variables are measured using Major League Baseball's PITCHf/x system that uses camera systems in each ballpark to track characteristics of each pitch thrown.",
+   "usage" : "A data frame with 3402 observations on the following 24 variables.",
+   "description" : "Description\nPitch-by-pitch data for baseball pitcher Clayton Kershaw in the 2013 season",
+   "title" : "Kershaw Pitch Data"
+}

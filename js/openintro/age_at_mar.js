@@ -1,12 +1,12 @@
 var age_at_marInfo ={
-   "usage" : "age_at_mar",
-   "description" : "Description\nAge at first marriage of 5,534 US women who responded to the National Survey\nof Family Growth (NSFG) conducted by the CDC in the 2006 and 2010 cycle.",
-   "title" : "Age at first marriage of 5,534 US women.",
    "format" : "A data frame with 5,534 observations and 1 variable.",
-   "reference" : "National Survey of Family Growth, 2006-2010 cycle,\nhttps://www.cdc.gov/nchs/nsfg/nsfg_2006_2010_puf.htm.",
    "parameters" : {
       "age" : "Age a first marriage."
-   }
+   },
+   "title" : "Age at first marriage of 5,534 US women.",
+   "description" : "Description\nAge at first marriage of 5,534 US women who responded to the National Survey\nof Family Growth (NSFG) conducted by the CDC in the 2006 and 2010 cycle.",
+   "usage" : "age_at_mar",
+   "reference" : "National Survey of Family Growth, 2006-2010 cycle,\nhttps://www.cdc.gov/nchs/nsfg/nsfg_2006_2010_puf.htm."
 }
 
 var age_at_mar = [

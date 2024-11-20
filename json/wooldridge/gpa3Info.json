@@ -1,0 +1,32 @@
+{
+   "title" : "gpa3",
+   "description" : "Description\nWooldridge Source: See GPA2.RAW Data loads lazily.",
+   "reference" : "pages 246-248, 273, 297-298, 478",
+   "usage" : "data('gpa3')",
+   "parameters" : {
+      "ccrsgpa" : " change in crsgpa",
+      "black" : " =1 if black",
+      "tothrs" : " total hours prior to term",
+      "season" : " =1 if in season",
+      "ccrspop" : " change in crspop",
+      "sat" : " SAT score",
+      "hsperc" : " percentile in h.s.",
+      "id" : " student identifier",
+      "ctothrs" : " change in total hours",
+      "hsrank" : " rank in h.s. class",
+      "cumgpa" : " cumulative GPA",
+      "football" : " =1 if football player",
+      "term" : " fall = 1, spring = 2",
+      "verbmath" : " verbal SAT to math SAT ratio",
+      "ctrmgpa" : " change in trmgpa",
+      "cseason" : " change in season",
+      "spring" : " =1 if spring term",
+      "white" : " =1 if white",
+      "frstsem" : " =1 if student's 1st semester",
+      "female" : " =1 if female",
+      "hssize" : " size h.s. grad. class",
+      "crsgpa" : " weighted course GPA",
+      "trmgpa" : " term GPA"
+   },
+   "format" : "A data.frame with 732 observations on 23 variables:"
+}

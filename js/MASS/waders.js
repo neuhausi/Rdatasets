@@ -1,30 +1,30 @@
 var wadersInfo ={
-   "description" : "Description\nThe waders data frame has 15 rows and 19 columns.\nThe entries are counts of waders in summer.",
-   "usage" : "waders",
+   "format" : "This data frame contains the following columns (species)",
    "parameters" : {
-      "S8" : "Whimbrel",
-      "S4" : "Three-banded Plover",
-      "S15" : "Little Stint",
-      "S1" : "Oystercatcher",
       "S12" : "Turnstone",
-      "S2" : "White-fronted Plover",
-      "S17" : "Ruff",
       "S11" : "Common Sandpiper",
+      "S1" : "Oystercatcher",
+      "S14" : "Sanderling",
+      "S19" : "Black-winged Stilt",
+      "S17" : "Ruff",
+      "S7" : "Bar-tailed Godwit",
+      "S6" : "Ringed Plover",
+      "S2" : "White-fronted Plover",
+      "S3" : "Kitt Lutz's Plover",
+      "S8" : "Whimbrel",
+      "S9" : "Marsh Sandpiper",
+      "S5" : "Grey Plover",
+      "S15" : "Little Stint",
+      "S13" : "Knot",
       "S10" : "Greenshank",
       "S18" : "Avocet",
-      "S19" : "Black-winged Stilt",
-      "S13" : "Knot",
-      "S14" : "Sanderling",
       "S16" : "Curlew Sandpiper",
-      "S9" : "Marsh Sandpiper",
-      "S3" : "Kitt Lutz's Plover",
-      "S6" : "Ringed Plover",
-      "S7" : "Bar-tailed Godwit",
-      "S5" : "Grey Plover"
+      "S4" : "Three-banded Plover"
    },
-   "format" : "This data frame contains the following columns (species)",
-   "reference" : "J.C. Gower and D.J. Hand (1996) Biplots\nChapman & Hall Table 9.1. Quoted as from:",
-   "title" : "Counts of Waders at 15 Sites in South Africa"
+   "description" : "Description\nThe waders data frame has 15 rows and 19 columns.\nThe entries are counts of waders in summer.",
+   "title" : "Counts of Waders at 15 Sites in South Africa",
+   "usage" : "waders",
+   "reference" : "J.C. Gower and D.J. Hand (1996) Biplots\nChapman & Hall Table 9.1. Quoted as from:"
 }
 
 var waders = [

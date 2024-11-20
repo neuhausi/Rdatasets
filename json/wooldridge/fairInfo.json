@@ -1,0 +1,30 @@
+{
+   "format" : "A data.frame with 21 observations on 28 variables:",
+   "parameters" : {
+      "n" : " quarters of good news",
+      "year" : " 1916 to 1992, by 4",
+      "p15" : " avg ann inf rate, prev 15 qtrs",
+      "Ip8" : " I*p8",
+      "Ig3" : " I*g3",
+      "In1md" : " I*n*(1-d)",
+      "gYR" : " ann grwth rte, prev year",
+      "demwins" : " =1 if V > .5",
+      "I" : " =1 if demwh, -1 if repwh",
+      "d" : " =1 in 1920, 1944,1948",
+      "p2YR" : " inf rte over 2 yr period",
+      "V" : " prop. dem. vote",
+      "In" : " I*n",
+      "Id" : " I*d",
+      "p8" : " avg ann inf rate, prev 8 qtrs",
+      "DUR" : " duration",
+      "g3" : " avg ann grwth rte, prev 3 qrts",
+      "DPER" : " incumbent running",
+      "Ig2" : " I*g2",
+      "g2" : " avg ann grwth rte, prev 2 qrts",
+      "Ip151md" : " I*p15*(1-d)"
+   },
+   "usage" : "data('fair')",
+   "reference" : "An updated version of this data set, through the 2004 election, is available at Professor Fairâs web site at Yale University: http://fairmodel.econ.yale.edu/rayfair/pdf/2001b.htm. Students might want to try their own hands at predicting the most recent election outcome, but they should be restricted to no more than a handful of explanatory variables because of the small sample size.",
+   "title" : "fair",
+   "description" : "Description\nWooldridge Source: R.C. Fair (1996), âEconometrics and Presidential Elections,â Journal of Economic Perspectives 10, 89-102. The data set is provided in the article. Data loads lazily."
+}

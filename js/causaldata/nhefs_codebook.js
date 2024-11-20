@@ -3,11 +3,11 @@ var nhefs_codebookInfo ={
       "variable" : "The variable being described",
       "description" : "The variable description"
    },
-   "reference" : "https://wwwn.cdc.gov/nchs/nhanes/nhefs/",
-   "format" : "A data frame with 64 rows and 2 variables.",
    "title" : "NHEFS Codebook",
    "description" : "Description\nnhefs_codebook is the codebook for nhefs and nhefs_complete.",
-   "usage" : "nhefs_codebook"
+   "reference" : "https://wwwn.cdc.gov/nchs/nhanes/nhefs/",
+   "usage" : "nhefs_codebook",
+   "format" : "A data frame with 64 rows and 2 variables."
 }
 
 var nhefs_codebook = [

@@ -1,21 +1,21 @@
 var JournalsInfo ={
    "format" : "A dataframe containing :",
+   "description" : "Description\na cross-section from 2000\nnumber of observations :  180\nobservation :  goods",
    "title" : "Economic Journals Data Set",
+   "usage" : "data(Journals)",
    "reference" : "Professor Theodore Bergstrom of the Department of Economics at the University of California, San Diego.",
    "parameters" : {
-      "libprice" : "library subscription price",
-      "charpp" : "characters per page",
-      "society" : "scholarly society ?",
-      "pub" : "publisher",
-      "pages" : "number of pages",
-      "date1" : "year journal was founded",
       "citestot" : "total number of citations",
+      "pages" : "number of pages",
+      "society" : "scholarly society ?",
       "oclc" : "number of library subscriptions",
+      "charpp" : "characters per page",
+      "pub" : "publisher",
+      "libprice" : "library subscription price",
       "field" : "field description",
+      "date1" : "year journal was founded",
       "title" : "journal title"
-   },
-   "usage" : "data(Journals)",
-   "description" : "Description\na cross-section from 2000\nnumber of observations :  180\nobservation :  goods"
+   }
 }
 
 var Journals = [

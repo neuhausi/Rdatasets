@@ -1,0 +1,21 @@
+{
+   "parameters" : {
+      "year" : "a numeric vector for the year",
+      "rgdpo" : "Output-side real GDP at chained PPPs (in million 2017 USD)",
+      "pop" : "Population in millions",
+      "country" : "the country name",
+      "rgdpe" : "Expenditure-side real GDP at chained PPPs (in million 2017 USD)",
+      "emp" : "Number of persons engaged (in millions)",
+      "rnna" : "Capital stock at constant 2017 national prices (in million 2017 USD)",
+      "isocode" : "The country's ISO code",
+      "hc" : "Index of human capital per person, based on years of schooling and returns to education",
+      "labsh" : "Share of labor compensation in GDP at current national prices",
+      "rgdpna" : "Real GDP at constant 2011 national prices (in million 2017 USD)",
+      "avh" : "Average annual hours worked by persons engaged."
+   },
+   "title" : "Penn World Table (10.0) Macroeconomic Data for Select Countries, 1950-2019",
+   "description" : "Description\nThese are some macroeconomic data for 21 select (rich) countries. I've used\nthese data before to discuss issues of grouping and skew in cross-sectional data.",
+   "reference" : "Taken from the pwt10 package. See: https://www.rug.nl/ggdc/",
+   "usage" : "pwt_sample",
+   "format" : "A data frame with 1470 observations on the following 11 variables."
+}

@@ -1,0 +1,11 @@
+{
+   "reference" : "hepatic_injury_qsar\n\na tibble",
+   "usage" : "This  data set was used to develop a model for predicting compounds'\nprobability of causing hepatic injury (i.e. liver damage). This data set\nconsisted of 281 unique compounds; 376 predictors were measured or computed\nfor each. The response was categorical (either \"none\", \"mild\", or \"severe\"),\nand was highly unbalanced.",
+   "description" : "Description\nA quantitative structure-activity relationship (QSAR) data set to predict\nwhen a molecule has risk associated with liver function.",
+   "title" : "Predicting hepatic injury from chemical information",
+   "parameters" : {
+      "chem_fp_001 - chem_fp_192" : "  numeric",
+      "bio_assay_001 - bio_assay_184" : "  numeric",
+      "class" : "  ordered and factor (levels"
+   }
+}

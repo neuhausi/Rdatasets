@@ -1,20 +1,20 @@
 var epilInfo ={
-   "usage" : "epil",
-   "description" : "Description\nThall and Vail (1990) give a data set on two-week seizure counts for\n59 epileptics.  The number of seizures was recorded for a baseline\nperiod of 8 weeks, and then patients were randomly assigned to a\ntreatment group or a control group.  Counts were then recorded for\nfour successive two-week periods. The subject's age is the only\ncovariate.",
-   "reference" : "Thall, P. F. and Vail, S. C. (1990)\nSome covariance models for longitudinal count data with over-dispersion.\nBiometrics 46, 657&ndash;671.",
    "format" : "This data frame has 236 rows and the following 9 columns:",
-   "title" : "Seizure Counts for Epileptics",
    "parameters" : {
+      "lbase" : "log-counts for the baseline period, centred to have zero mean.",
+      "age" : "subject's age, in years.",
       "lage" : "log-ages, centred to have zero mean.",
       "subject" : "subject number, 1 to 59.",
-      "V4" : "0/1 indicator variable of period 4.",
-      "age" : "subject's age, in years.",
+      "base" : "the counts in the baseline 8-week period.",
       "period" : "period, 1 to 4.",
       "trt" : "treatment, \"placebo\" or \"progabide\".",
-      "lbase" : "log-counts for the baseline period, centred to have zero mean.",
-      "base" : "the counts in the baseline 8-week period.",
+      "V4" : "0/1 indicator variable of period 4.",
       "y" : "the count for the 2-week period."
-   }
+   },
+   "reference" : "Thall, P. F. and Vail, S. C. (1990)\nSome covariance models for longitudinal count data with over-dispersion.\nBiometrics 46, 657&ndash;671.",
+   "usage" : "epil",
+   "description" : "Description\nThall and Vail (1990) give a data set on two-week seizure counts for\n59 epileptics.  The number of seizures was recorded for a baseline\nperiod of 8 weeks, and then patients were randomly assigned to a\ntreatment group or a control group.  Counts were then recorded for\nfour successive two-week periods. The subject's age is the only\ncovariate.",
+   "title" : "Seizure Counts for Epileptics"
 }
 
 var epil = [

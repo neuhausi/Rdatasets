@@ -1,16 +1,16 @@
 var rotiferInfo ={
-   "parameters" : {
-      "kc.tot" : "total number of K. cochlearis.",
-      "density" : "specific density of fluid.",
-      "kc.y" : "number falling out for K. cochlearis.",
-      "pm.y" : "number falling out for P. major.",
-      "pm.total" : "total number of P. major."
-   },
-   "reference" : "D. Collett (1991) Modelling Binary Data. Chapman & Hall. p. 217",
-   "title" : "Numbers of Rotifers by Fluid Density",
    "format" : "density\nspecific density of fluid.\n\n\npm.y\nnumber falling out for P. major.\n\n\npm.total\ntotal number of P. major.\n\n\nkc.y\nnumber falling out for K. cochlearis.\n\n\nkc.tot\ntotal number of K. cochlearis.",
+   "title" : "Numbers of Rotifers by Fluid Density",
    "description" : "Description\nThe data give the numbers of rotifers falling out of suspension for\ndifferent fluid densities. There are two species, pm\nPolyartha major and kc, Keratella cochlearis and\nfor each species the number falling out and the total number are\ngiven.",
-   "usage" : "rotifer"
+   "reference" : "D. Collett (1991) Modelling Binary Data. Chapman & Hall. p. 217",
+   "usage" : "rotifer",
+   "parameters" : {
+      "pm.total" : "total number of P. major.",
+      "density" : "specific density of fluid.",
+      "kc.tot" : "total number of K. cochlearis.",
+      "pm.y" : "number falling out for P. major.",
+      "kc.y" : "number falling out for K. cochlearis."
+   }
 }
 
 var rotifer = [

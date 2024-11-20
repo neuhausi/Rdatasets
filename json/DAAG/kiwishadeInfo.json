@@ -1,0 +1,13 @@
+{
+   "format" : "This data frame contains the following columns:",
+   "description" : "Description\nThe kiwishade data frame has 48 rows and 4 columns.\nThe data are from a designed experiment that\ncompared different kiwifruit shading treatments.\nThere are four vines in each plot, and four plots (one for each of four\ntreatments: none, Aug2Dec, Dec2Feb, and Feb2May) in each of three blocks\n(locations: west, north, east). Each\nplot has the same number of vines, each block has the same number of\nplots, with each treatment occurring the same number of times.",
+   "title" : "Kiwi Shading Data",
+   "usage" : "kiwishade",
+   "reference" : "The northernmost plots were grouped together because they\nwere similarly affected by shading from the sun in the north.\nFor the remaining two blocks shelter effects, whether from the\nwest or from the east, were thought more important.",
+   "parameters" : {
+      "block" : "a factor indicating the location of the plot with levels\neast, north, west",
+      "plot" : "a factor with levels    east.Aug2Dec,\neast.Dec2Feb,    east.Feb2May,\neast.none,    north.Aug2Dec,\nnorth.Dec2Feb,    north.Feb2May,\nnorth.none,    west.Aug2Dec,\nwest.Dec2Feb,    west.Feb2May,\nwest.none",
+      "yield" : "Total yield (in kg)",
+      "shade" : "a factor representing the period for which\nthe experimenter placed shading over the vines; with levels:\nnone no shading,    Aug2Dec August - December,\nDec2Feb December - February,    Feb2May February - May"
+   }
+}

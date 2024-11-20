@@ -1,4 +1,12 @@
 {
+   "config" : {
+      "scatterPlotMatrix" : 1,
+      "title" : "Data on 19th century English Poverty from Yule (1899)",
+      "subtitle" : "causaldata - yule",
+      "graphType" : "Scatter2D",
+      "colorBy" : "location"
+   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>yule</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Data on 19th century English Poverty from Yule (1899)</h2>\n<h3>Description</h3>\n<p><code>yule</code> allows for a look at the correlation between poverty relief and poverty rates in England in the 19th century.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>yule\n</code></pre>\n<h3>Format</h3>\n<p>A data frame with 32 rows and 5 variables\n</p>\n<dl>\n<dt>location</dt><dd><p>Location in England</p>\n</dd>\n<dt>paup</dt><dd><p>Pauperism Growth</p>\n</dd>\n<dt>outrelief</dt><dd><p>Poverty Relief Growth</p>\n</dd>\n<dt>old</dt><dd><p>Annual growth in aged population</p>\n</dd>\n<dt>pop</dt><dd><p>Annual growth in population</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>This data is used in the Potential Outcomes Causal Model chapter of Causal Inference: The Mixtape by Cunningham.\n</p>\n<h3>Source</h3>\n<p>Yule, G. Udny. 1899. 'An Investigation into the Causes of Changes in Pauperism in England, Chiefly During the Last Two Interensal Decades.' Journal of Royal Statistical Society 62: 249â95.\n</p>\n<h3>References</h3>\n<p>Cunningham. 2021. Causal Inference: The Mixtape. Yale Press. <a href=\"https://mixtape.scunning.com/index.html\">https://mixtape.scunning.com/index.html</a>.\n</p>\n</main>\n</div>\n",
    "data" : {
       "y" : {
          "vars" : [
@@ -272,13 +280,5 @@
             "West Ham "
          ]
       }
-   },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>yule</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Data on 19th century English Poverty from Yule (1899)</h2>\n<h3>Description</h3>\n<p><code>yule</code> allows for a look at the correlation between poverty relief and poverty rates in England in the 19th century.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>yule\n</code></pre>\n<h3>Format</h3>\n<p>A data frame with 32 rows and 5 variables\n</p>\n<dl>\n<dt>location</dt><dd><p>Location in England</p>\n</dd>\n<dt>paup</dt><dd><p>Pauperism Growth</p>\n</dd>\n<dt>outrelief</dt><dd><p>Poverty Relief Growth</p>\n</dd>\n<dt>old</dt><dd><p>Annual growth in aged population</p>\n</dd>\n<dt>pop</dt><dd><p>Annual growth in population</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>This data is used in the Potential Outcomes Causal Model chapter of Causal Inference: The Mixtape by Cunningham.\n</p>\n<h3>Source</h3>\n<p>Yule, G. Udny. 1899. 'An Investigation into the Causes of Changes in Pauperism in England, Chiefly During the Last Two Interensal Decades.' Journal of Royal Statistical Society 62: 249â95.\n</p>\n<h3>References</h3>\n<p>Cunningham. 2021. Causal Inference: The Mixtape. Yale Press. <a href=\"https://mixtape.scunning.com/index.html\">https://mixtape.scunning.com/index.html</a>.\n</p>\n</main>\n</div>\n",
-   "config" : {
-      "subtitle" : "causaldata - yule",
-      "colorBy" : "location",
-      "title" : "Data on 19th century English Poverty from Yule (1899)",
-      "graphType" : "Scatter2D",
-      "scatterPlotMatrix" : 1
    }
 }

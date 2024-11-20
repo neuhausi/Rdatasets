@@ -2,6 +2,15 @@
    "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>USMacroSW</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>US Macroeconomic Data (1957&ndash;2005, Stock &amp; Watson)</h2>\n<h3>Description</h3>\n<p>Time series data on 7 (mostly) US macroeconomic variables for 1957&ndash;2005.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(\"USMacroSW\")\n</code></pre>\n<h3>Format</h3>\n<p>A quarterly multiple time series from 1957(1) to 2005(1) with 7 variables.\n</p>\n<dl>\n<dt>unemp</dt><dd><p>Unemployment rate.</p>\n</dd>\n<dt>cpi</dt><dd><p>Consumer price index.</p>\n</dd>\n<dt>ffrate</dt><dd><p>Federal funds interest rate.</p>\n</dd>    \n<dt>tbill</dt><dd><p>3-month treasury bill interest rate.</p>\n</dd>\n<dt>tbond</dt><dd><p>1-year treasury bond interest rate.</p>\n</dd>\n<dt>gbpusd</dt><dd><p>GBP/USD exchange rate (US dollar in cents per British pound).</p>\n</dd>\n<dt>gdpjp</dt><dd><p>GDP for Japan.</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>The US Consumer Price Index is measured using monthly surveys \nand is compiled by the Bureau of Labor Statistics (BLS). The\nunemployment rate is computed from the BLS's Current Population. The quarterly data\nused here were computed by averaging the monthly values. The interest data are the\nmonthly average of daily rates as reported by the Federal Reserve and the dollar-pound\nexchange rate data are the monthly average of daily rates; both are for the final month in\nthe quarter. Japanese real GDP data were obtained from the OECD.\n</p>\n<h3>Source</h3>\n<p>Online complements to Stock and Watson (2007). \n</p>\n<h3>References</h3>\n<p>Stock, J.H. and Watson, M.W. (2007). <em>Introduction to Econometrics</em>, 2nd ed. Boston: Addison Wesley.\n</p>\n<h3>See Also</h3>\n<p><code>StockWatson2007</code>, <code>USMacroSWM</code>, <code>USMacroSWQ</code>,\n<code>USMacroB</code>, <code>USMacroG</code></p>\n<h3>Examples</h3>\n<pre><code class='language-R'>\n## Stock and Watson (2007)\ndata(\"USMacroSW\", package = \"AER\")\nlibrary(\"dynlm\")\nlibrary(\"strucchange\")\nusm &lt;- ts.intersect(USMacroSW, 4 * 100 * diff(log(USMacroSW[, \"cpi\"])))\ncolnames(usm) &lt;- c(colnames(USMacroSW), \"infl\")\n## Equations 14.7, 14.13, 14.16, 14.17, pp. 536\nfm_ar1 &lt;- dynlm(d(infl) ~ L(d(infl)),\n  data = usm, start = c(1962,1), end = c(2004,4))\nfm_ar4 &lt;- dynlm(d(infl) ~ L(d(infl), 1:4), \n  data = usm, start = c(1962,1), end = c(2004,4))\nfm_adl41 &lt;- dynlm(d(infl) ~ L(d(infl), 1:4) + L(unemp),\n  data = usm, start = c(1962,1), end = c(2004,4))\nfm_adl44 &lt;- dynlm(d(infl) ~ L(d(infl), 1:4) + L(unemp, 1:4),\n  data = usm, start = c(1962,1), end = c(2004,4))\ncoeftest(fm_ar1, vcov = sandwich)\ncoeftest(fm_ar4, vcov = sandwich)\ncoeftest(fm_adl41, vcov = sandwich)\ncoeftest(fm_adl44, vcov = sandwich)\n## Granger causality test mentioned on p. 547\nwaldtest(fm_ar4, fm_adl44, vcov = sandwich)  \n## Figure 14.5, p. 570\n## SW perform partial break test of unemp coefs\n## here full model is used\nmf &lt;- model.frame(fm_adl44) ## re-use fm_adl44\nmf &lt;- ts(as.matrix(mf), start = c(1962, 1), freq = 4)\ncolnames(mf) &lt;- c(\"y\", paste(\"x\", 1:8, sep = \"\"))\nff &lt;- as.formula(paste(\"y\", \"~\",  paste(\"x\", 1:8, sep = \"\", collapse = \" + \")))\nfs &lt;- Fstats(ff, data = mf, from = 0.1)\nplot(fs)\nlines(boundary(fs, alpha = 0.01), lty = 2, col = 2)\nlines(boundary(fs, alpha = 0.1), lty = 3, col = 2)\n## More examples can be found in:\n## help(\"StockWatson2007\")\n</code></pre>\n</main>\n</div>\n",
    "data" : {
       "y" : {
+         "vars" : [
+            "unemp",
+            "cpi",
+            "ffrate",
+            "tbill",
+            "tbond",
+            "gbpusd",
+            "gdpjp"
+         ],
          "smps" : [
             "Smp1",
             "Smp2",
@@ -196,15 +205,6 @@
             "Smp191",
             "Smp192",
             "Smp193"
-         ],
-         "vars" : [
-            "unemp",
-            "cpi",
-            "ffrate",
-            "tbill",
-            "tbond",
-            "gbpusd",
-            "gdpjp"
          ],
          "data" : [
             [

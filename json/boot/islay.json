@@ -1,9 +1,4 @@
 {
-   "config" : {
-      "subtitle" : "boot - islay",
-      "graphType" : "Pie",
-      "title" : "Jura Quartzite Azimuths on Islay"
-   },
    "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>islay</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>\nJura Quartzite Azimuths on Islay\n</h2>\n<h3>Description</h3>\n<p>The <code>islay</code> data frame has 18 rows and 1 columns.\n</p>\n<p>Measurements were taken of paleocurrent azimuths from the Jura Quartzite on\nthe Scottish island of Islay.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>islay\n</code></pre>\n<h3>Format</h3>\n<p>This data frame contains the following column:\n</p>\n<dl>\n<dt><code>theta</code></dt><dd>\n<p>The angle of the azimuth in degrees East of North.\n</p>\n</dd></dl>\n<h3>Source</h3>\n<p>The data were obtained from\n</p>\n<p>Hand, D.J., Daly, F., Lunn, A.D., McConway, K.J. and Ostrowski, E. (1994)\n<em>A Handbook of Small Data Sets</em>, Chapman and Hall.\n</p>\n<h3>References</h3>\n<p>Davison, A.C. and Hinkley, D.V. (1997) \n<em>Bootstrap Methods and Their Application</em>. Cambridge University Press.\n</p>\n<p>Till, R. (1974) <em>Statistical Methods for the Earth Scientist</em>. Macmillan.\n</p>\n</main>\n</div>\n",
    "data" : {
       "y" : {
@@ -26,9 +21,6 @@
             "Var16",
             "Var17",
             "Var18"
-         ],
-         "smps" : [
-            "theta"
          ],
          "data" : [
             [
@@ -85,7 +77,15 @@
             [
                45
             ]
+         ],
+         "smps" : [
+            "theta"
          ]
       }
+   },
+   "config" : {
+      "subtitle" : "boot - islay",
+      "title" : "Jura Quartzite Azimuths on Islay",
+      "graphType" : "Pie"
    }
 }

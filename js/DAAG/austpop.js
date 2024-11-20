@@ -1,21 +1,21 @@
 var austpopInfo ={
-   "title" : "Population figures for Australian States and Territories",
    "format" : "This data frame contains the following columns:",
-   "reference" : "Australian Bureau of Statistics",
    "parameters" : {
-      "WA" : "Western Australia population counts",
       "Qld" : "Queensland population counts",
-      "NSW" : "New South Wales population counts",
-      "NT" : "Northern Territory population \ncounts",
-      "ACT" : "Australian Capital Territory \npopulation counts",
       "Vic" : "Victoria population counts",
-      "Tas" : "Tasmania population counts",
-      "SA" : "South Australia population counts",
       "Aust" : "Population counts for\nthe whole country",
-      "year" : "a numeric vector"
+      "WA" : "Western Australia population counts",
+      "SA" : "South Australia population counts",
+      "NSW" : "New South Wales population counts",
+      "Tas" : "Tasmania population counts",
+      "year" : "a numeric vector",
+      "NT" : "Northern Territory population \ncounts",
+      "ACT" : "Australian Capital Territory \npopulation counts"
    },
+   "reference" : "Australian Bureau of Statistics",
    "usage" : "austpop",
-   "description" : "Description\nPopulation figures for Australian states and territories for 1917, 1927,\n..., 1997."
+   "description" : "Description\nPopulation figures for Australian states and territories for 1917, 1927,\n..., 1997.",
+   "title" : "Population figures for Australian States and Territories"
 }
 
 var austpop = [

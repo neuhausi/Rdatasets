@@ -1,0 +1,18 @@
+{
+   "reference" : "ASOS download from Iowa Environmental Mesonet,\nhttps://mesonet.agron.iastate.edu/request/download.phtml.",
+   "usage" : "weather",
+   "title" : "Hourly weather data",
+   "description" : "Description\nHourly meterological data for LGA, JFK and EWR.",
+   "parameters" : {
+      "humid" : "Relative humidity.",
+      "time_hour" : "Date and hour of the recording as a POSIXct date.",
+      "wind_dir, wind_speed, wind_gust" : "Wind direction (in degrees), speed\nand gust speed (in mph).",
+      "visib" : "Visibility in miles.",
+      "origin" : "Weather station. Named origin to facilitate merging with\nflights data.",
+      "year, month, day, hour" : "Time of recording.",
+      "precip" : "Precipitation, in inches.",
+      "temp, dewp" : "Temperature and dewpoint in F.",
+      "pressure" : "Sea level pressure in millibars."
+   },
+   "format" : "A data frame with columns:"
+}

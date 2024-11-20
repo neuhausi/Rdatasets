@@ -1,7 +1,7 @@
 var FinalFourShortInfo ={
+   "title" : "CAA Final Four by Seed (Short Version through 2010)",
    "description" : "Description\nNCAA Final Four participation summarized each year by seed",
-   "usage" : "A data frame with 512 observations on the following 4 variables.",
-   "title" : "CAA Final Four by Seed (Short Version through 2010)"
+   "usage" : "A data frame with 512 observations on the following 4 variables."
 }
 
 var FinalFourShort = [

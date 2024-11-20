@@ -1,16 +1,16 @@
 var edcTInfo ={
-   "description" : "Description\nTemperature record, using Deuterium as a proxy, from the EPICA\n(European Project for Ice Coring in Antarctica) Dome C ice core\ncovering 0 to 800 kyr BP.",
-   "usage" : "data(edcT)",
    "parameters" : {
-      "Age" : "Years before 1950",
-      "ztop" : "Top depth (m)",
       "dT" : "Temperature difference from the average of the last\n1000 years ~ -54.5degC",
       "Bag" : "Bag number",
-      "Deuterium" : "Deuterium dD data"
+      "Deuterium" : "Deuterium dD data",
+      "Age" : "Years before 1950",
+      "ztop" : "Top depth (m)"
    },
+   "reference" : "Temperature was estimated from the deuterium data, after making various\ncorrections.",
+   "usage" : "data(edcT)",
    "title" : "EPICA Dome C Ice Core 800KYr Temperature Estimates",
-   "format" : "A data frame with 5788 observations on the following 5 variables.",
-   "reference" : "Temperature was estimated from the deuterium data, after making various\ncorrections."
+   "description" : "Description\nTemperature record, using Deuterium as a proxy, from the EPICA\n(European Project for Ice Coring in Antarctica) Dome C ice core\ncovering 0 to 800 kyr BP.",
+   "format" : "A data frame with 5788 observations on the following 5 variables."
 }
 
 var edcT = [

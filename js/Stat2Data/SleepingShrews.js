@@ -1,12 +1,12 @@
 var SleepingShrewsInfo ={
-   "usage" : "A data frame with 18 observations on the following 4 variables.",
-   "reference" : "Heart rates were recorded for a sample of six tree shrews at each of three stages of sleep.",
-   "title" : "Shrew Heart Rates at Stages of Sleep",
    "description" : "Description\nHeart rates for a sample of six tree shrews at each of three stages of sleep.",
+   "title" : "Shrew Heart Rates at Stages of Sleep",
+   "reference" : "Heart rates were recorded for a sample of six tree shrews at each of three stages of sleep.",
+   "usage" : "A data frame with 18 observations on the following 4 variables.",
    "parameters" : {
       "Rate" : "Heart rate (beats per minute)",
-      "ID" : "Row ID",
       "Shrew" : "Shrew ID (A through F)",
+      "ID" : "Row ID",
       "Phase" : "Phase of sleep  (DSW=deep wave, LSW=light wave, or REM=dreaming)"
    }
 }

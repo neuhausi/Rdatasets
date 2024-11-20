@@ -1,11 +1,11 @@
 {
+   "config" : {
+      "subtitle" : "datasets - randu",
+      "title" : "Random Numbers from Congruential Generator RANDU",
+      "graphType" : "Scatter3D"
+   },
    "data" : {
       "y" : {
-         "smps" : [
-            "x",
-            "y",
-            "z"
-         ],
          "vars" : [
             "Var1",
             "Var2",
@@ -407,6 +407,11 @@
             "Var398",
             "Var399",
             "Var400"
+         ],
+         "smps" : [
+            "x",
+            "y",
+            "z"
          ],
          "data" : [
             [
@@ -2412,10 +2417,5 @@
          ]
       }
    },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>randu</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Random Numbers from Congruential Generator RANDU</h2>\n<h3>Description</h3>\n<p>400 triples of successive random numbers were taken from the VAX\nFORTRAN function RANDU running under VMS 1.5.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>randu</code></pre>\n<h3>Format</h3>\n<p>A data frame with 400 observations on 3 variables named <code>x</code>,\n<code>y</code> and <code>z</code> which give the first, second and third random\nnumber in the triple.\n</p>\n<h3>Details</h3>\n<p>In three dimensional displays it is evident that the triples fall on\n15 parallel planes in 3-space. This can be shown theoretically to be\ntrue for all triples from the RANDU generator.\n</p>\n<p>These particular 400 triples start 5 apart in the sequence, that is\nthey are ((U[5i+1], U[5i+2], U[5i+3]), i= 0, ..., 399), and they\nare rounded to 6 decimal places.\n</p>\n<p>Under VMS versions 2.0 and higher, this problem has been fixed.\n</p>\n<h3>Source</h3>\n<p>David Donoho\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>## We could re-generate the dataset by the following R code\nseed &lt;- as.double(1)\nRANDU &lt;- function() {\n    seed &lt;&lt;- ((2^16 + 3) * seed) %% (2^31)\n    seed/(2^31)\nmyrandu &lt;- matrix(NA_real_, 400, 3, dimnames = list(NULL, c(\"x\",\"y\",\"z\")))\nfor(i in 1:400) {\n    U &lt;- c(RANDU(), RANDU(), RANDU(), RANDU(), RANDU())\n    myrandu[i,] &lt;- round(U[1:3], 6)\nstopifnot(all.equal(randu, as.data.frame(myrandu), tolerance = 1e-5))\n</code></pre>\n</main>\n</div>\n",
-   "config" : {
-      "subtitle" : "datasets - randu",
-      "graphType" : "Scatter3D",
-      "title" : "Random Numbers from Congruential Generator RANDU"
-   }
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>randu</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Random Numbers from Congruential Generator RANDU</h2>\n<h3>Description</h3>\n<p>400 triples of successive random numbers were taken from the VAX\nFORTRAN function RANDU running under VMS 1.5.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>randu</code></pre>\n<h3>Format</h3>\n<p>A data frame with 400 observations on 3 variables named <code>x</code>,\n<code>y</code> and <code>z</code> which give the first, second and third random\nnumber in the triple.\n</p>\n<h3>Details</h3>\n<p>In three dimensional displays it is evident that the triples fall on\n15 parallel planes in 3-space. This can be shown theoretically to be\ntrue for all triples from the RANDU generator.\n</p>\n<p>These particular 400 triples start 5 apart in the sequence, that is\nthey are ((U[5i+1], U[5i+2], U[5i+3]), i= 0, ..., 399), and they\nare rounded to 6 decimal places.\n</p>\n<p>Under VMS versions 2.0 and higher, this problem has been fixed.\n</p>\n<h3>Source</h3>\n<p>David Donoho\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>## We could re-generate the dataset by the following R code\nseed &lt;- as.double(1)\nRANDU &lt;- function() {\n    seed &lt;&lt;- ((2^16 + 3) * seed) %% (2^31)\n    seed/(2^31)\nmyrandu &lt;- matrix(NA_real_, 400, 3, dimnames = list(NULL, c(\"x\",\"y\",\"z\")))\nfor(i in 1:400) {\n    U &lt;- c(RANDU(), RANDU(), RANDU(), RANDU(), RANDU())\n    myrandu[i,] &lt;- round(U[1:3], 6)\nstopifnot(all.equal(randu, as.data.frame(myrandu), tolerance = 1e-5))\n</code></pre>\n</main>\n</div>\n"
 }

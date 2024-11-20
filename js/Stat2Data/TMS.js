@@ -1,7 +1,7 @@
 var TMSInfo ={
-   "usage" : "A dataset with 2 observations on the following 4 variables.",
    "title" : "Migraines and TMS",
-   "description" : "Description\nEffects of transcranial magnetic stimulation (TMS) on migraine headaches"
+   "description" : "Description\nEffects of transcranial magnetic stimulation (TMS) on migraine headaches",
+   "usage" : "A dataset with 2 observations on the following 4 variables."
 }
 
 var TMS = [

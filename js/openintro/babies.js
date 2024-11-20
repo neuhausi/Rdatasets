@@ -1,19 +1,19 @@
 var babiesInfo ={
    "parameters" : {
-      "case" : "id number",
+      "age" : "mother's age in years",
       "smoke" : "binary indicator for whether the mother smokes",
       "gestation" : "length of gestation, in days",
+      "case" : "id number",
       "height" : "mother's height in inches",
-      "age" : "mother's age in years",
-      "bwt" : "birthweight, in ounces",
       "weight" : "mother's weight in pounds",
-      "parity" : "binary indicator for a first pregnancy (0 = first pregnancy)"
+      "parity" : "binary indicator for a first pregnancy (0 = first pregnancy)",
+      "bwt" : "birthweight, in ounces"
    },
-   "format" : "A data frame with 1236 rows and 8 variables:",
+   "usage" : "babies",
    "reference" : "These data come from Child Health and Development Studies.",
    "title" : "The Child Health and Development Studies",
    "description" : "Description\nThe Child Health and Development Studies investigate a range of topics. One\nstudy, in particular, considered all pregnancies between 1960 and 1967 among\nwomen in the Kaiser Foundation Health Plan in the San Francisco East Bay\narea. We do not have ideal provenance for these data. For a better documented\nand more recent dataset on a similar topic with similar variables,\nsee births14. Additionally, Gestation dataset in the\nmosaicData\npackage also contains similar data.",
-   "usage" : "babies"
+   "format" : "A data frame with 1236 rows and 8 variables:"
 }
 
 var babies = [

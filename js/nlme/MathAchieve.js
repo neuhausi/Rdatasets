@@ -1,15 +1,15 @@
 var MathAchieveInfo ={
-   "description" : "Description\nThe MathAchieve data frame has 7185 rows and 6 columns.",
    "parameters" : {
-      "MathAch" : "a numeric vector of mathematics achievement scores.",
       "MEANSES" : "a numeric vector of the mean SES for the school.",
       "SES" : "a numeric vector of socio-economic status.",
+      "MathAch" : "a numeric vector of mathematics achievement scores.",
       "Sex" : "a factor with levels\nMale \nFemale",
       "Minority" : "a factor with levels\nNo \nYes\nindicating if the student is a member of a minority racial group.",
       "School" : "an ordered factor identifying the school that the student attends"
    },
    "usage" : "This data frame contains the following columns:",
    "reference" : "Each row in this data frame contains the data for one student.",
+   "description" : "Description\nThe MathAchieve data frame has 7185 rows and 6 columns.",
    "title" : "Mathematics achievement scores"
 }
 

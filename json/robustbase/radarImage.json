@@ -1,4 +1,5 @@
 {
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>radarImage</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Satellite Radar Image Data from near Munich</h2>\n<h3>Description</h3>\n<p>The data were supplied by A. Frery.  They are a part of a synthetic aperture\nsatellite radar image corresponding to a suburb of Munich.  Provided\nare coordinates and values corresponding to three frequency bands for\neach of 1573 pixels.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(radarImage, package=\"robustbase\")</code></pre>\n<h3>Format</h3>\n<p>A data frame with 1573 observations on the following 5 variables.\n</p>\n<dl>\n<dt><code>X.coord</code></dt><dd><p>a numeric vector</p>\n</dd>\n<dt><code>Y.coord</code></dt><dd><p>a numeric vector</p>\n</dd>\n<dt><code>Band.1</code></dt><dd><p>a numeric vector</p>\n</dd>\n<dt><code>Band.2</code></dt><dd><p>a numeric vector</p>\n</dd>\n<dt><code>Band.3</code></dt><dd><p>a numeric vector</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>The website accompanying the MMY-book:\n<a href=\"https://www.wiley.com/legacy/wileychi/robust_statistics/\">https://www.wiley.com/legacy/wileychi/robust_statistics/</a>\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>data(radarImage)\nplot(Y.coord ~ X.coord, data = radarImage)\n## The 8 \"clear\" outliers (see also below)\nii8 &lt;- c(1548:1549, 1553:1554, 1565:1566, 1570:1571)\noutF &lt;- 1+(seq_len(nrow(radarImage)) %in% ii8)\npairs(radarImage[, 3:5], main = \"radarImage (n = 1573)\",\n      col = outF, pch=outF)\n## Finding outliers -----------------------------------------\nset.seed(1)\nsystem.time(cc.ri &lt;- covMcd(radarImage))# ~ 0.1 sec\n## check for covMcd() consistency:\niiO &lt;- as.integer(\n c(262, 450:451, 480:481, 509, 535, 542, 597, 643, 669, 697, 803:804, 832:834,\n   862:864, 892, 989, 1123, 1145, 1223:1224, 1232:1233, 1249:1250, 1267, 1303,\n   1347, 1357, 1375, 1411, 1419:1420, 1443, 1453, 1504, 1510:1512,\n   1518:1521, 1525:1526, 1543:1544, 1546:1555, 1557:1558, 1561:1562, 1564:1566,\n   1569:1571, 1573))\nlength(iiO) # 73 -- other seeds sometimes give 72, rarely 71 \"outliers\"\ntable(isO &lt;- cc.ri$mcd.wt == 0) # 2023-05: 118\nstopifnot(exprs = {\n    ## identical(iiO, which(isO)) -- TRUE before 2023-05  covMcd() change\n    ii8 %in% which(isO) # ii8 is subset of isO\n    identical(ii8, which(cc.ri$mah &gt; 200))\n    length(intersect(cc.ri$best, iiO)) == 0\ncc &lt;- c(adjustcolor(\"black\", 0.4), adjustcolor(\"tomato\", 0.8))\npairs(radarImage, main = \"radarImage (n = 1573) + Outliers\", gap=0,\n      col = cc[1+isO], pch = c(1,8)[1+isO], cex = 0.8)\n</code></pre>\n</main>\n</div>\n",
    "data" : {
       "y" : {
          "vars" : [
@@ -1575,13 +1576,6 @@
             "Var1571",
             "Var1572",
             "Var1573"
-         ],
-         "smps" : [
-            "X.coord",
-            "Y.coord",
-            "Band.1",
-            "Band.2",
-            "Band.3"
          ],
          "data" : [
             [
@@ -12595,14 +12589,20 @@
                -513.5,
                -197.7
             ]
+         ],
+         "smps" : [
+            "X.coord",
+            "Y.coord",
+            "Band.1",
+            "Band.2",
+            "Band.3"
          ]
       }
    },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>radarImage</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Satellite Radar Image Data from near Munich</h2>\n<h3>Description</h3>\n<p>The data were supplied by A. Frery.  They are a part of a synthetic aperture\nsatellite radar image corresponding to a suburb of Munich.  Provided\nare coordinates and values corresponding to three frequency bands for\neach of 1573 pixels.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(radarImage, package=\"robustbase\")</code></pre>\n<h3>Format</h3>\n<p>A data frame with 1573 observations on the following 5 variables.\n</p>\n<dl>\n<dt><code>X.coord</code></dt><dd><p>a numeric vector</p>\n</dd>\n<dt><code>Y.coord</code></dt><dd><p>a numeric vector</p>\n</dd>\n<dt><code>Band.1</code></dt><dd><p>a numeric vector</p>\n</dd>\n<dt><code>Band.2</code></dt><dd><p>a numeric vector</p>\n</dd>\n<dt><code>Band.3</code></dt><dd><p>a numeric vector</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>The website accompanying the MMY-book:\n<a href=\"https://www.wiley.com/legacy/wileychi/robust_statistics/\">https://www.wiley.com/legacy/wileychi/robust_statistics/</a>\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>data(radarImage)\nplot(Y.coord ~ X.coord, data = radarImage)\n## The 8 \"clear\" outliers (see also below)\nii8 &lt;- c(1548:1549, 1553:1554, 1565:1566, 1570:1571)\noutF &lt;- 1+(seq_len(nrow(radarImage)) %in% ii8)\npairs(radarImage[, 3:5], main = \"radarImage (n = 1573)\",\n      col = outF, pch=outF)\n## Finding outliers -----------------------------------------\nset.seed(1)\nsystem.time(cc.ri &lt;- covMcd(radarImage))# ~ 0.1 sec\n## check for covMcd() consistency:\niiO &lt;- as.integer(\n c(262, 450:451, 480:481, 509, 535, 542, 597, 643, 669, 697, 803:804, 832:834,\n   862:864, 892, 989, 1123, 1145, 1223:1224, 1232:1233, 1249:1250, 1267, 1303,\n   1347, 1357, 1375, 1411, 1419:1420, 1443, 1453, 1504, 1510:1512,\n   1518:1521, 1525:1526, 1543:1544, 1546:1555, 1557:1558, 1561:1562, 1564:1566,\n   1569:1571, 1573))\nlength(iiO) # 73 -- other seeds sometimes give 72, rarely 71 \"outliers\"\ntable(isO &lt;- cc.ri$mcd.wt == 0) # 2023-05: 118\nstopifnot(exprs = {\n    ## identical(iiO, which(isO)) -- TRUE before 2023-05  covMcd() change\n    ii8 %in% which(isO) # ii8 is subset of isO\n    identical(ii8, which(cc.ri$mah &gt; 200))\n    length(intersect(cc.ri$best, iiO)) == 0\ncc &lt;- c(adjustcolor(\"black\", 0.4), adjustcolor(\"tomato\", 0.8))\npairs(radarImage, main = \"radarImage (n = 1573) + Outliers\", gap=0,\n      col = cc[1+isO], pch = c(1,8)[1+isO], cex = 0.8)\n</code></pre>\n</main>\n</div>\n",
    "config" : {
-      "subtitle" : "robustbase - radarImage",
-      "scatterPlotMatrix" : 1,
       "graphType" : "Scatter2D",
-      "title" : "Satellite Radar Image Data from near Munich"
+      "scatterPlotMatrix" : 1,
+      "title" : "Satellite Radar Image Data from near Munich",
+      "subtitle" : "robustbase - radarImage"
    }
 }

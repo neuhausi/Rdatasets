@@ -1,29 +1,29 @@
 var affairsInfo ={
-   "description" : "Description\nData from Fair (1978). Although Fair used a tobit model with the \ndata, the outcome measure can be modeled as a count. In fact, \nGreene (2003) modeled it as Poisson, but given the amount of \noverdispersion in the data, employing a negative binomial model \nis an appropriate strategy. The data is stored in the affairs \ndata set. \nNaffairs is the response variable, indicating the number \nof affairs reported by the participant in the past year.",
-   "usage" : "data(affairs)",
    "parameters" : {
-      "yrsmarr2" : "(1/0) >1.5 yrs",
-      "vryunhap" : "(1/0) very unhappily married",
       "smerel" : "(1/0) somewhat religious",
-      "kids" : "1=have children;0= no children",
-      "yrsmarr1" : "(1/0) >0.75 yrs",
-      "notrel" : "(1/0) not religious",
-      "vryrel" : "(1/0) very religious",
       "yrsmarr4" : "(1/0) >7.0 yrs",
-      "unhap" : "(1/0) unhappily married",
-      "naffairs" : "number of affairs within last year",
-      "avgmarr" : "(1/0) average married",
-      "slghtrel" : "(1/0) slightly religious",
-      "yrsmarr6" : "(1/0) >15.0 yrs",
       "antirel" : "(1/0) anti religious",
-      "hapavg" : "(1/0) happily married",
-      "yrsmarr3" : "(1/0) >4.0 yrs",
+      "yrsmarr1" : "(1/0) >0.75 yrs",
+      "vryrel" : "(1/0) very religious",
+      "yrsmarr2" : "(1/0) >1.5 yrs",
       "yrsmarr5" : "(1/0) >10.0 yrs",
-      "vryhap" : "(1/0) very happily married"
+      "hapavg" : "(1/0) happily married",
+      "avgmarr" : "(1/0) average married",
+      "yrsmarr6" : "(1/0) >15.0 yrs",
+      "slghtrel" : "(1/0) slightly religious",
+      "kids" : "1=have children;0= no children",
+      "naffairs" : "number of affairs within last year",
+      "notrel" : "(1/0) not religious",
+      "vryhap" : "(1/0) very happily married",
+      "unhap" : "(1/0) unhappily married",
+      "yrsmarr3" : "(1/0) >4.0 yrs",
+      "vryunhap" : "(1/0) very unhappily married"
    },
-   "format" : "A data frame with 601 observations on the following 18 variables.",
+   "description" : "Description\nData from Fair (1978). Although Fair used a tobit model with the \ndata, the outcome measure can be modeled as a count. In fact, \nGreene (2003) modeled it as Poisson, but given the amount of \noverdispersion in the data, employing a negative binomial model \nis an appropriate strategy. The data is stored in the affairs \ndata set. \nNaffairs is the response variable, indicating the number \nof affairs reported by the participant in the past year.",
    "title" : "affairs",
-   "reference" : "rwm5yr is saved as a data frame.\nCount models use naffairs as response variable. 0 counts are included."
+   "reference" : "rwm5yr is saved as a data frame.\nCount models use naffairs as response variable. 0 counts are included.",
+   "usage" : "data(affairs)",
+   "format" : "A data frame with 601 observations on the following 18 variables."
 }
 
 var affairs = [

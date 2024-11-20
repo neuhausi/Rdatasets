@@ -1,18 +1,18 @@
 var shuttleInfo ={
-   "reference" : "D. Michie (1989)\nProblems of computer-aided concept formation. In\nApplications of Expert Systems 2,\ned. J. R. Quinlan, Turing Institute Press / Addison-Wesley, pp. 310&ndash;333.",
-   "title" : "Space Shuttle Autolander Problem",
-   "format" : "This data frame contains the following factor columns:",
    "parameters" : {
-      "stability" : "stable positioning or not (stab / xstab).",
-      "use" : "use the autolander or not. (auto / noauto.)",
-      "wind" : "wind sign (head / tail).",
       "sign" : "sign of error, positive or negative (pp / nn).",
-      "error" : "size of error (MM / SS / LX / XL).",
+      "wind" : "wind sign (head / tail).",
       "vis" : "visibility (yes / no).",
-      "magn" : "wind strength (Light / Medium / Strong /\nOut of Range)."
+      "stability" : "stable positioning or not (stab / xstab).",
+      "error" : "size of error (MM / SS / LX / XL).",
+      "magn" : "wind strength (Light / Medium / Strong /\nOut of Range).",
+      "use" : "use the autolander or not. (auto / noauto.)"
    },
+   "title" : "Space Shuttle Autolander Problem",
+   "description" : "Description\nThe shuttle data frame has 256 rows and 7 columns.\nThe first six columns are categorical variables giving example\nconditions; the seventh is the decision.  The first 253 rows are the\ntraining set, the last 3 the test conditions.",
    "usage" : "shuttle",
-   "description" : "Description\nThe shuttle data frame has 256 rows and 7 columns.\nThe first six columns are categorical variables giving example\nconditions; the seventh is the decision.  The first 253 rows are the\ntraining set, the last 3 the test conditions."
+   "reference" : "D. Michie (1989)\nProblems of computer-aided concept formation. In\nApplications of Expert Systems 2,\ned. J. R. Quinlan, Turing Institute Press / Addison-Wesley, pp. 310&ndash;333.",
+   "format" : "This data frame contains the following factor columns:"
 }
 
 var shuttle = [

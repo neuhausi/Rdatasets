@@ -1,8 +1,8 @@
 {
    "config" : {
-      "graphType" : "Scatter2D",
       "title" : "Annual female murder rate (per 100",
-      "subtitle" : "fpp2 - wmurders"
+      "subtitle" : "fpp2 - wmurders",
+      "graphType" : "Scatter2D"
    },
    "data" : {
       "y" : {
@@ -62,10 +62,6 @@
             "Var53",
             "Var54",
             "Var55"
-         ],
-         "smps" : [
-            "time",
-            "value"
          ],
          "data" : [
             [
@@ -288,6 +284,10 @@
                2004,
                2.589383
             ]
+         ],
+         "smps" : [
+            "time",
+            "value"
          ]
       }
    },

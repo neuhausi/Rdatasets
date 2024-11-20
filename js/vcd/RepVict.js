@@ -1,8 +1,8 @@
 var RepVictInfo ={
-   "description" : "Description\nData from Reiss (1980) given by Fienberg (1980) about instances of\nrepeat victimization for households in the U.S. National Crime\nSurvey.",
    "format" : "A 2-dimensional array resulting from cross-tabulating victimization.\nThe variables and their levels are as follows:",
+   "usage" : "data(\"RepVict\")",
    "title" : "Repeat Victimization Data",
-   "usage" : "data(\"RepVict\")"
+   "description" : "Description\nData from Reiss (1980) given by Fienberg (1980) about instances of\nrepeat victimization for households in the U.S. National Crime\nSurvey."
 }
 
 var RepVict = [

@@ -1,0 +1,11 @@
+{
+   "parameters" : {
+      "Race" : "Black or  White",
+      "Student" : "Athlete or NonAthlete",
+      "Grad" : "1=graduated within 6 years, otherwise 0"
+   },
+   "usage" : "A data frame with 214555 observations on the following 3 variables.",
+   "reference" : "Six-year graduation data from 2004 for male non-athletes and for male athletes, where \"Athlete\"\" means football or basketball player. These data show Simpson's Paradox.",
+   "description" : "Description\nSix-year graduation data for 214,555 students in 2004",
+   "title" : "Athletic Participation, Race, and Graduation"
+}

@@ -1,13 +1,13 @@
 var usa_computersInfo ={
-   "parameters" : {
-      "value" : "the estimated percentage of households with access to a computer",
-      "year" : "the year"
-   },
-   "title" : "Percentage of U.S. Households with Computer Access, by Year",
-   "format" : "A data frame with 19 observations on the following 2 variables.",
    "reference" : "Data are spotty and regrettably this is not a perfect time-series.\nHowever, it is useful for an in-class exercise to show that the proliferation of\nhousehold computers (over time) in the United States comes in part because of\nglobalization. Use it for that purpose. The data are reasonably faithful, but don't\ntreat it as gospel. Exact sourcing available upon request.",
+   "usage" : "usa_computers",
+   "title" : "Percentage of U.S. Households with Computer Access, by Year",
    "description" : "Description\nThis is a simple and regrettably incomplete time-series on the percentage\nof U.S. households with access to a computer, by year.",
-   "usage" : "usa_computers"
+   "parameters" : {
+      "year" : "the year",
+      "value" : "the estimated percentage of households with access to a computer"
+   },
+   "format" : "A data frame with 19 observations on the following 2 variables."
 }
 
 var usa_computers = [

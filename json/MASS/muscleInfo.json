@@ -1,0 +1,12 @@
+{
+   "format" : "This data frame contains the following columns:",
+   "parameters" : {
+      "Conc" : "concentration of calcium chloride solution, in multiples of 2.2 mM.",
+      "Length" : "the change in length (shortening) of the strip, (allegedly) in mm.",
+      "Strip" : "which heart muscle strip was used?"
+   },
+   "description" : "Description\nThe purpose of this experiment was to assess the influence of\ncalcium in solution on the contraction of heart muscle in rats.\nThe left auricle of 21 rat hearts was isolated and on several\noccasions a constant-length strip of tissue was electrically\nstimulated and dipped into various concentrations of calcium\nchloride solution, after which the shortening of the strip was\naccurately measured as the response.",
+   "title" : "Effect of Calcium Chloride on Muscle Contraction in Rat Hearts",
+   "reference" : "Linder, A., Chakravarti, I. M. and Vuagnat, P. (1964)\nFitting asymptotic regression curves with different asymptotes.  In\nContributions to Statistics. Presented to Professor P. C. Mahalanobis\non the occasion of his 70th birthday,\ned. C. R. Rao, pp. 221&ndash;228. Oxford: Pergamon Press.",
+   "usage" : "muscle"
+}

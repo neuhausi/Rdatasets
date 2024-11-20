@@ -1,13 +1,13 @@
 var RepeatedPulseInfo ={
+   "usage" : "A data frame with 104 observations on the following 3 variables.",
+   "reference" : "A student measured her pulse in the morning, at noon, at 1:00, and in the evening for each of 26 days.",
+   "title" : "Pulse Rates at Various Times of Day",
+   "description" : "Description\nA student measured her pulse several times a day over 26 days.",
    "parameters" : {
       "Pulse" : "Pulse rate (beats per minute)",
       "Time" : "Time of day (evening, morning, noon, one)",
       "Day" : "Day1 to  Day26"
-   },
-   "description" : "Description\nA student measured her pulse several times a day over 26 days.",
-   "usage" : "A data frame with 104 observations on the following 3 variables.",
-   "title" : "Pulse Rates at Various Times of Day",
-   "reference" : "A student measured her pulse in the morning, at noon, at 1:00, and in the evening for each of 26 days."
+   }
 }
 
 var RepeatedPulse = [

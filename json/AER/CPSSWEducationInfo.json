@@ -1,0 +1,16 @@
+{
+   "format" : "CPSSW9298: A data frame containing 13,501 observations on 5 variables.\nCPSSW9204: A data frame containing 15,588 observations on 5 variables.\nCPSSW04: A data frame containing 7,986 observations on 4 variables.\nCPSSW3: A data frame containing 20,999 observations on 3 variables.\nCPSSW8: A data frame containing 61,395 observations on 5 variables.\nCPSSWEducation: A data frame containing 2,950 observations on 4 variables.",
+   "parameters" : {
+      "degree" : "factor indicating highest educational degree (\"bachelor\"\nor\"highschool\").",
+      "year" : "factor indicating year.",
+      "gender" : "factor indicating gender.",
+      "education" : "number of years of education.",
+      "region" : "factor indicating region of residence\n(\"Northeast\", \"Midwest\", \"South\", \"West\").",
+      "earnings" : "average hourly earnings (sum of annual pretax wages, salaries, tips,\nand bonuses, divided by the number of hours worked annually).",
+      "age" : "age in years."
+   },
+   "description" : "Description\nStock and Watson (2007) provide several subsets created from \nMarch Current Population Surveys (CPS) with data on the\nrelationship of earnings and education over several year.",
+   "title" : "Stock and Watson CPS Data Sets",
+   "reference" : "Each month the Bureau of Labor Statistics in the US Department of Labor\nconducts the Current Population Survey (CPS), which provides data\non labor force characteristics of the population, including the level of\nemployment, unemployment, and earnings. Approximately 65,000 randomly\nselected US households are surveyed each month. The sample is chosen by\nrandomly selecting addresses from a database. \nDetails can be found in the Handbook of Labor Statistics and is described\non the Bureau of Labor Statistics website (https://www.bls.gov/).",
+   "usage" : "data(\"CPSSW9204\")\ndata(\"CPSSW9298\")\ndata(\"CPSSW04\")\ndata(\"CPSSW3\")\ndata(\"CPSSW8\")\ndata(\"CPSSWEducation\")"
+}

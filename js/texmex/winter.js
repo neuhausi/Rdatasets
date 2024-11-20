@@ -1,13 +1,13 @@
 var winterInfo ={
-   "title" : "Air pollution data, separately for summer and winter months",
-   "reference" : "Provided as online supplementary material to Heffernan and Tawn,\n2004:",
-   "usage" : "Data frames with 578 (summer) and 532 (winter) observations on the\nfollowing 5 variables.",
    "description" : "Description\nAir pollution data from Leeds (U.K.) city centre, collected from 1994 to\n1998. The summer data set corresponds to the months of April to July\ninclusive. The winter data set corresponds to the months of November\nto February inclusive. Some outliers have been removed, as discussed by\nHeffernan and Tawn, 2004.",
+   "title" : "Air pollution data, separately for summer and winter months",
+   "usage" : "Data frames with 578 (summer) and 532 (winter) observations on the\nfollowing 5 variables.",
+   "reference" : "Provided as online supplementary material to Heffernan and Tawn,\n2004:",
    "parameters" : {
-      "NO2" : "Daily maximum NO2 in parts per\nbillion.",
-      "NO" : "Daily maximum NO in parts per billion.",
-      "SO2" : "Daily maximum SO2 in parts per billion.",
       "PM10" : "Daily maximum PM10 in micrograms/metre^3",
+      "NO2" : "Daily maximum NO2 in parts per\nbillion.",
+      "SO2" : "Daily maximum SO2 in parts per billion.",
+      "NO" : "Daily maximum NO in parts per billion.",
       "O3" : "Daily maximum ozone in\nparts per billion."
    }
 }

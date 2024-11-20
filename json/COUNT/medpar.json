@@ -1,9 +1,4 @@
 {
-   "config" : {
-      "graphType" : "Heatmap",
-      "title" : "medpar",
-      "subtitle" : "COUNT - medpar"
-   },
    "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>medpar</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>medpar</h2>\n<h3>Description</h3>\n<p>The US national Medicare inpatient hospital database is referred to as the Medpar data, \nwhich is prepared yearly from hospital filing records. Medpar files for each state are also \nprepared. The full Medpar data consists of 115 variables. The national Medpar has some \n14 million records, with one record for each hospilitiztion. The data in the medpar file comes \nfrom 1991 Medicare files for the state of Arizona. The data are limited to only one diagnostic \ngroup (DRG 112). Patient data have been randomly selected from the original data. \n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(medpar)</code></pre>\n<h3>Format</h3>\n<p>A data frame with 1495 observations on the following 10 variables.\n</p>\n<dl>\n<dt><code>los</code></dt><dd><p>length of hospital stay</p>\n</dd>\n<dt><code>hmo</code></dt><dd><p>Patient belongs to a Health Maintenance Organization, binary</p>\n</dd>\n<dt><code>white</code></dt><dd><p>Patient identifies themselves as Caucasian, binary</p>\n</dd>\n<dt><code>died</code></dt><dd><p>Patient died, binary</p>\n</dd>\n<dt><code>age80</code></dt><dd><p>Patient age 80 and over, binary</p>\n</dd>\n<dt><code>type</code></dt><dd><p>Type of admission, categorical</p>\n</dd>\n<dt><code>type1</code></dt><dd><p>Elective admission, binary</p>\n</dd>\n<dt><code>type2</code></dt><dd><p>Urgent admission,binary</p>\n</dd>\n<dt><code>type3</code></dt><dd><p>Elective admission, binary</p>\n</dd>\n<dt><code>provnum</code></dt><dd><p>Provider ID</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>medpar is saved as a data frame.\nCount models use los as response variable. 0 counts are structurally excluded  \n</p>\n<h3>Source</h3>\n<p>1991 National Medpar data, National Health Economics &amp; Research Co.\n</p>\n<h3>References</h3>\n<p>Hilbe, Joseph M (2014), Modeling Count Data, Cambridge University Press\nHilbe, Joseph M (2007, 2011), Negative Binomial Regression, Cambridge University Press\nHilbe, Joseph M (2009), Logistic Regression Models, Chapman &amp; Hall/CRC\nfirst used in Hardin, JW and JM Hilbe (2001, 2007), Generalized Linear Models and Extensions, Stata Press\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>library(MASS)\nlibrary(msme)\ndata(medpar)\nglmp &lt;- glm(los ~ hmo + white + factor(type), family=poisson, data=medpar)\nsummary(glmp)\nexp(coef(glmp))\nnb2 &lt;- nbinomial(los ~ hmo + white + factor(type), data=medpar)\nsummary(nb2)\nexp(coef(nb2))\nglmnb &lt;- glm.nb(los ~ hmo + white + factor(type), data=medpar)\nsummary(glmnb)\nexp(coef(glmnb))\n</code></pre>\n</main>\n</div>\n",
    "data" : {
       "y" : {
@@ -16489,5 +16484,10 @@
             "provnum"
          ]
       }
+   },
+   "config" : {
+      "subtitle" : "COUNT - medpar",
+      "title" : "medpar",
+      "graphType" : "Heatmap"
    }
 }

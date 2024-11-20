@@ -1,14 +1,14 @@
 var presentInfo ={
-   "description" : "Description\nAn updated version of the historical Arbuthnot dataset. Numbers of boys and\ngirls born in the United States between 1940 and 2002.",
-   "usage" : "present",
-   "parameters" : {
-      "girls" : "Number of girls born.",
-      "boys" : "Number of boys born.",
-      "year" : "Year."
-   },
    "format" : "A data frame with 63 observations on the following 3 variables.",
+   "usage" : "present",
+   "reference" : "Mathews, T. J., and Brady E. Hamilton. \"Trend analysis of the sex\nratio at birth in the United States.\" National vital statistics reports\n53.20 (2005): 1-17.",
    "title" : "Birth counts",
-   "reference" : "Mathews, T. J., and Brady E. Hamilton. \"Trend analysis of the sex\nratio at birth in the United States.\" National vital statistics reports\n53.20 (2005): 1-17."
+   "description" : "Description\nAn updated version of the historical Arbuthnot dataset. Numbers of boys and\ngirls born in the United States between 1940 and 2002.",
+   "parameters" : {
+      "year" : "Year.",
+      "boys" : "Number of boys born.",
+      "girls" : "Number of girls born."
+   }
 }
 
 var present = [

@@ -1,19 +1,19 @@
 var pengInfo ={
    "title" : "Size measurements for penguins near Palmer Station, Antarctica",
+   "description" : "Description\nData originally from palmerpenguins. Includes\nmeasurements for penguin species, island in Palmer Archipelago,\nsize (flipper length, body mass, bill dimensions), and sex.",
    "reference" : "In this version, variable names have been shortened (removing units) and observations with\nmissing data have been removed.",
-   "format" : "A tibble with 333 rows and 8 variables:",
+   "usage" : "peng",
    "parameters" : {
-      "flipper_length" : "an integer denoting flipper length (millimeters)",
+      "body_mass" : "an integer denoting body mass (grams)",
+      "species" : "a factor denoting penguin species (\"AdÃ©lie\", \"Chinstrap\" or \"Gentoo\")",
       "island" : "a factor denoting island in Palmer Archipelago, Antarctica (\"Biscoe\", \"Dream\" or \"Torgersen\")",
+      "flipper_length" : "an integer denoting flipper length (millimeters)",
       "bill_length" : "a number denoting bill length (millimeters)",
       "year" : "an integer denoting the study year (2007, 2008, or 2009)",
       "bill_depth" : "a number denoting bill depth (millimeters)",
-      "sex" : "a factor denoting penguin sex (\"f\", \"m\")",
-      "species" : "a factor denoting penguin species (\"AdÃ©lie\", \"Chinstrap\" or \"Gentoo\")",
-      "body_mass" : "an integer denoting body mass (grams)"
+      "sex" : "a factor denoting penguin sex (\"f\", \"m\")"
    },
-   "usage" : "peng",
-   "description" : "Description\nData originally from palmerpenguins. Includes\nmeasurements for penguin species, island in Palmer Archipelago,\nsize (flipper length, body mass, bill dimensions), and sex."
+   "format" : "A tibble with 333 rows and 8 variables:"
 }
 
 var peng = [

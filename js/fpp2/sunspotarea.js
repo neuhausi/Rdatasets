@@ -1,8 +1,8 @@
 var sunspotareaInfo ={
    "description" : "Description\nAnnual averages of the daily sunspot areas (in units of millionths of a\nhemisphere) for the full sun. Sunspots are magnetic regions that appear as\ndark spots on the surface of the sun. The Royal Greenwich Observatory\ncompiled daily sunspot observations from May 1874 to 1976. Later data are\nfrom the US Air Force and the US National Oceanic and Atmospheric\nAdministration. The data have been calibrated to be consistent across the\nwhole history of observations.",
    "title" : "Annual average sunspot area (1875-2015)",
-   "format" : "NASA",
-   "usage" : "Annual time series of class ts."
+   "usage" : "Annual time series of class ts.",
+   "format" : "NASA"
 }
 
 var sunspotarea = [

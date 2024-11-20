@@ -1,8 +1,8 @@
 var Draft1970tableInfo ={
-   "description" : "Description\nThis data set gives the results of the 1970 US draft lottery, in the form of\na frequency table.\nThe rows are months of the year, Jan&ndash;Dec and columns \ngive the number of days in that month which fall into each of three\ndraft risk categories High, Medium, and Low, corresponding to\nthe chances of being called to serve in the US army.",
    "format" : "The format is:\n'table' int [1:12, 1:3] 9 7 5 8 9 11 12 13 10 9 ...\n- attr(*, \"dimnames\")=List of 2\n..$ Month: chr [1:12] \"Jan\" \"Feb\" \"Mar\" \"Apr\" ...\n..$ Risk : chr [1:3] \"High\" \"Med\" \"Low\"",
-   "title" : "USA 1970 Draft Lottery Table",
-   "usage" : "data(Draft1970table)"
+   "usage" : "data(Draft1970table)",
+   "description" : "Description\nThis data set gives the results of the 1970 US draft lottery, in the form of\na frequency table.\nThe rows are months of the year, Jan&ndash;Dec and columns \ngive the number of days in that month which fall into each of three\ndraft risk categories High, Medium, and Low, corresponding to\nthe chances of being called to serve in the US army.",
+   "title" : "USA 1970 Draft Lottery Table"
 }
 
 var Draft1970table = [

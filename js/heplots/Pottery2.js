@@ -1,21 +1,21 @@
 var Pottery2Info ={
    "parameters" : {
-      "Region" : "a factor with levels Gl NF\nWales",
       "Ti" : "amount of titanium oxide, TiO_2",
-      "Mn" : "amount of manganese oxide, MnO",
-      "Mg" : "amount of magnesium oxide, MgO",
-      "Al" : "amount of aluminum oxide, Al_2O_3",
-      "Ba" : "amount of BaO",
-      "K" : "amount of potassium oxide, K_2O",
-      "Ca" : "amount of calcium oxide, CaO",
+      "Region" : "a factor with levels Gl NF\nWales",
       "Na" : "amount of sodium oxide, Na_2O",
-      "Kiln" : "a factor with levels 1 2 3 4\n5",
+      "Mn" : "amount of manganese oxide, MnO",
+      "K" : "amount of potassium oxide, K_2O",
+      "Mg" : "amount of magnesium oxide, MgO",
+      "Ba" : "amount of BaO",
+      "Ca" : "amount of calcium oxide, CaO",
       "Site" : "a factor with levels AshleyRails\nCaldicot Gloucester IsleThorns Llanedryn",
-      "Fe" : "amount of iron oxide, Fe_2O_3"
+      "Fe" : "amount of iron oxide, Fe_2O_3",
+      "Al" : "amount of aluminum oxide, Al_2O_3",
+      "Kiln" : "a factor with levels 1 2 3 4\n5"
    },
-   "description" : "Description\nResults of chemical analyses of 48 specimens of Romano-British pottery\npublished by Tubb et al. (1980).  The numbers are the percentage of various\nmetal oxides found in each sample for elements of concentrations greater\nthan 0.01%. This is the original data set from Tubb et al. (1980), in\ncontrast to Pottery.",
    "usage" : "A data frame with 48 observations on the following 12 variables.",
    "reference" : "The specimens are identified by their rownames in the data frame.\nKiln indicates at which kiln site the pottery was found; Site\ngives the location names of those sites. The kiln sites come from three\nRegions, (\"Gl\"=1, \"Wales\"=(2, 3), \"NF\"=(4, 5)), where the full\nnames are \"Gloucester\", \"Wales\", and \"New Forrest\".",
+   "description" : "Description\nResults of chemical analyses of 48 specimens of Romano-British pottery\npublished by Tubb et al. (1980).  The numbers are the percentage of various\nmetal oxides found in each sample for elements of concentrations greater\nthan 0.01%. This is the original data set from Tubb et al. (1980), in\ncontrast to Pottery.",
    "title" : "Chemical Analysis of Romano-British Pottery"
 }
 

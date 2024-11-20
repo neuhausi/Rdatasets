@@ -1,14 +1,14 @@
 var DNaseInfo ={
-   "usage" : "DNase",
-   "description" : "Description\nThe DNase data frame has 176 rows and 3 columns of data\nobtained during development of an ELISA assay for the recombinant\nprotein DNase in rat serum.",
-   "reference" : "This dataset was originally part of package nlme, and that has\nmethods (including for [, as.data.frame, plot and\nprint) for its grouped-data classes.",
-   "title" : "Elisa assay of DNase",
    "format" : "An object of class\nc(\"nfnGroupedData\", \"nfGroupedData\", \"groupedData\", \"data.frame\")\ncontaining the following columns:",
    "parameters" : {
-      "conc" : "a numeric vector giving the known concentration of the\nprotein.",
       "density" : "a numeric vector giving the measured optical density\n(dimensionless) in the assay.  Duplicate optical density\nmeasurements were obtained.",
-      "Run" : "an ordered factor with levels 10 < ... < 3\nindicating the assay run."
-   }
+      "Run" : "an ordered factor with levels 10 < ... < 3\nindicating the assay run.",
+      "conc" : "a numeric vector giving the known concentration of the\nprotein."
+   },
+   "title" : "Elisa assay of DNase",
+   "description" : "Description\nThe DNase data frame has 176 rows and 3 columns of data\nobtained during development of an ELISA assay for the recombinant\nprotein DNase in rat serum.",
+   "usage" : "DNase",
+   "reference" : "This dataset was originally part of package nlme, and that has\nmethods (including for [, as.data.frame, plot and\nprint) for its grouped-data classes."
 }
 
 var DNase = [

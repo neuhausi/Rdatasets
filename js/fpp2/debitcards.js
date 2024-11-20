@@ -1,8 +1,8 @@
 var debitcardsInfo ={
    "description" : "Description\nMonthly retail debit card usage in Iceland (million ISK). January 2000 -\nAugust 2013.",
+   "title" : "Retail debit card usage in Iceland.",
    "usage" : "Monthly time series of class ts.",
-   "format" : "Statistics Iceland.",
-   "title" : "Retail debit card usage in Iceland."
+   "format" : "Statistics Iceland."
 }
 
 var debitcards = [

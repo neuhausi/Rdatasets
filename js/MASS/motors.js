@@ -1,14 +1,14 @@
 var motorsInfo ={
    "format" : "This data frame contains the following columns:",
-   "reference" : "Kalbfleisch, J. D. and Prentice, R. L. (1980)\nThe Statistical Analysis of Failure Time Data.\nNew York: Wiley.",
    "title" : "Accelerated Life Testing of Motorettes",
-   "parameters" : {
-      "time" : "the time in hours to failure or censoring at 8064 hours (= 336 days).",
-      "temp" : "the temperature (degrees C) of the test.",
-      "cens" : "an indicator variable for death."
-   },
+   "description" : "Description\nThe motors data frame has 40 rows and 3 columns.  It describes an\naccelerated life test at each of four temperatures of 10 motorettes,\nand has rather discrete times.",
    "usage" : "motors",
-   "description" : "Description\nThe motors data frame has 40 rows and 3 columns.  It describes an\naccelerated life test at each of four temperatures of 10 motorettes,\nand has rather discrete times."
+   "reference" : "Kalbfleisch, J. D. and Prentice, R. L. (1980)\nThe Statistical Analysis of Failure Time Data.\nNew York: Wiley.",
+   "parameters" : {
+      "cens" : "an indicator variable for death.",
+      "time" : "the time in hours to failure or censoring at 8064 hours (= 336 days).",
+      "temp" : "the temperature (degrees C) of the test."
+   }
 }
 
 var motors = [

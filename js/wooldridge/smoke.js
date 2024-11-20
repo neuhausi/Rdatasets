@@ -1,20 +1,20 @@
 var smokeInfo ={
+   "format" : "A data.frame with 807 observations on 10 variables:",
+   "reference" : "If you want to do a âfancyâ IV version of Computer Exercise C16.1, you could estimate a reduced form count model for cigs using the Poisson regression methods in Section 17.3, and then use the fitted values as an IV for cigs. Presumably, this would be for a fairly advanced class.",
    "usage" : "data('smoke')",
    "description" : "Description\nWooldridge Source: J. Mullahy (1997), âInstrumental-Variable Estimation of Count Data Models: Applications to Models of Cigarette Smoking Behavior,â Review of Economics and Statistics 79, 596-593. Professor Mullahy kindly provided the data. Data loads lazily.",
-   "reference" : "If you want to do a âfancyâ IV version of Computer Exercise C16.1, you could estimate a reduced form count model for cigs using the Poisson regression methods in Section 17.3, and then use the fitted values as an IV for cigs. Presumably, this would be for a fairly advanced class.",
    "title" : "smoke",
-   "format" : "A data.frame with 807 observations on 10 variables:",
    "parameters" : {
+      "lincome" : " log(income)",
       "lcigpric" : " log(cigprice)",
+      "educ" : " years of schooling",
       "agesq" : " age^2",
       "restaurn" : " =1 if rest. smk. restrictions",
-      "lincome" : " log(income)",
+      "age" : " in years",
+      "cigs" : " cigs. smoked per day",
       "cigpric" : " state cig. price, cents/pack",
       "white" : " =1 if white",
-      "cigs" : " cigs. smoked per day",
-      "income" : " annual income, $",
-      "age" : " in years",
-      "educ" : " years of schooling"
+      "income" : " annual income, $"
    }
 }
 

@@ -1,4 +1,16 @@
 {
+   "config" : {
+      "segregateSamplesBy" : [
+         "date"
+      ],
+      "colorBy" : "variable",
+      "graphType" : "Boxplot",
+      "title" : "Energy Output From Two Solar Arrays in San Francisco",
+      "groupingFactors" : [
+         "location"
+      ],
+      "subtitle" : "openintro - solar"
+   },
    "data" : {
       "x" : {
          "location" : [
@@ -863,9 +875,6 @@
                63.71
             ]
          ],
-         "vars" : [
-            "kwh"
-         ],
          "smps" : [
             "Smp1",
             "Smp2",
@@ -1151,20 +1160,11 @@
             "Smp282",
             "Smp283",
             "Smp284"
+         ],
+         "vars" : [
+            "kwh"
          ]
       }
    },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>solar</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Energy Output From Two Solar Arrays in San Francisco</h2>\n<h3>Description</h3>\n<p>The data provide the energy output for several months from two roof-top\nsolar arrays in San Francisco. This city is known for having highly variable\nweather, so while these two arrays are only about 1 mile apart from each\nother, the Inner Sunset location tends to have more fog.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>solar\n</code></pre>\n<h3>Format</h3>\n<p>A data frame with 284 observations on the following 3 variables.\nEach row represents a single day for one of the arrays.\n</p>\n<dl>\n<dt>location</dt><dd><p>Location for the array.</p>\n</dd>\n<dt>date</dt><dd><p>Date.</p>\n</dd>\n<dt>kwh</dt><dd><p>Number of kWh</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>The Haight-Ashbury array is a 10.4 kWh array, while the Inner Sunset array\nis a 2.8 kWh array. The kWh units represents kilowatt-hours, which is\nthe unit of energy that typically is used for electricity bills. The cost\nper kWh in San Francisco was about $0.25 in 2016.\n</p>\n<h3>Source</h3>\n<p>These data were provided by Larry Rosenfeld, a resident in San Francisco.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>\nsolar.is &lt;- subset(solar, location == \"Inner_Sunset\")\nsolar.ha &lt;- subset(solar, location == \"Haight_Ashbury\")\nplot(solar.is$date, solar.is$kwh, type = \"l\", ylim = c(0, max(solar$kwh)))\nlines(solar.ha$date, solar.ha$kwh, col = 4)\nd &lt;- merge(solar.ha, solar.is, by = \"date\")\nplot(d$date, d$kwh.x / d$kwh.y, type = \"l\")\n</code></pre>\n</main>\n</div>\n",
-   "config" : {
-      "graphType" : "Boxplot",
-      "colorBy" : "variable",
-      "groupingFactors" : [
-         "location"
-      ],
-      "title" : "Energy Output From Two Solar Arrays in San Francisco",
-      "subtitle" : "openintro - solar",
-      "segregateSamplesBy" : [
-         "date"
-      ]
-   }
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>solar</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Energy Output From Two Solar Arrays in San Francisco</h2>\n<h3>Description</h3>\n<p>The data provide the energy output for several months from two roof-top\nsolar arrays in San Francisco. This city is known for having highly variable\nweather, so while these two arrays are only about 1 mile apart from each\nother, the Inner Sunset location tends to have more fog.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>solar\n</code></pre>\n<h3>Format</h3>\n<p>A data frame with 284 observations on the following 3 variables.\nEach row represents a single day for one of the arrays.\n</p>\n<dl>\n<dt>location</dt><dd><p>Location for the array.</p>\n</dd>\n<dt>date</dt><dd><p>Date.</p>\n</dd>\n<dt>kwh</dt><dd><p>Number of kWh</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>The Haight-Ashbury array is a 10.4 kWh array, while the Inner Sunset array\nis a 2.8 kWh array. The kWh units represents kilowatt-hours, which is\nthe unit of energy that typically is used for electricity bills. The cost\nper kWh in San Francisco was about $0.25 in 2016.\n</p>\n<h3>Source</h3>\n<p>These data were provided by Larry Rosenfeld, a resident in San Francisco.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>\nsolar.is &lt;- subset(solar, location == \"Inner_Sunset\")\nsolar.ha &lt;- subset(solar, location == \"Haight_Ashbury\")\nplot(solar.is$date, solar.is$kwh, type = \"l\", ylim = c(0, max(solar$kwh)))\nlines(solar.ha$date, solar.ha$kwh, col = 4)\nd &lt;- merge(solar.ha, solar.is, by = \"date\")\nplot(d$date, d$kwh.x / d$kwh.y, type = \"l\")\n</code></pre>\n</main>\n</div>\n"
 }

@@ -1,15 +1,15 @@
 var ProgramEffectivenessInfo ={
-   "parameters" : {
-      "participation" : "Factor. Did the individual participate in the program?",
-      "average" : "Grade-point average.",
-      "testscore" : "Test score on economics test.",
-      "grade" : "Factor with levels \"increase\" and \"decrease\"."
-   },
    "format" : "A data frame containing 32 cross-section observations on 4 variables.",
-   "title" : "Program Effectiveness Data",
+   "parameters" : {
+      "testscore" : "Test score on economics test.",
+      "average" : "Grade-point average.",
+      "grade" : "Factor with levels \"increase\" and \"decrease\".",
+      "participation" : "Factor. Did the individual participate in the program?"
+   },
+   "usage" : "data(\"ProgramEffectiveness\")",
    "reference" : "The data are taken form Spencer and Mazzeo (1980) who examined whether a new method \nof teaching economics significantly influenced performance in later economics courses.",
    "description" : "Description\nData used to study the effectiveness of a program.",
-   "usage" : "data(\"ProgramEffectiveness\")"
+   "title" : "Program Effectiveness Data"
 }
 
 var ProgramEffectiveness = [

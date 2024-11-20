@@ -1,0 +1,18 @@
+{
+   "format" : "A time series containing :",
+   "usage" : "data(Klein)",
+   "reference" : "Klein, L. (1950) Economic fluctuations in the United States, 1921-1941, New York, John Wiley and Sons.",
+   "description" : "Description\nannual observations from 1920 to 1941\nnumber of observations :  22\nobservation :  country\ncountry :  United States",
+   "title" : "Klein's Model I",
+   "parameters" : {
+      "lcap" : "previous year's capital stock",
+      "taxe" : "taxes",
+      "privwage" : "private wage bill",
+      "gnp" : "GNP",
+      "govspend" : "government spending",
+      "profit" : "corporate profits",
+      "cons" : "consumption",
+      "pubwage" : "government wage bill",
+      "inv" : "investment"
+   }
+}

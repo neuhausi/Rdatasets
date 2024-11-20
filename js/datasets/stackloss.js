@@ -1,8 +1,8 @@
 var stacklossInfo ={
    "title" : "Brownlee's Stack Loss Plant Data",
-   "format" : "stackloss is a data frame with 21 observations on 4 variables.",
+   "description" : "Description\nOperational data of a plant for the oxidation of ammonia to nitric\nacid.",
    "usage" : "stackloss\n\nstack.x\nstack.loss",
-   "description" : "Description\nOperational data of a plant for the oxidation of ammonia to nitric\nacid."
+   "format" : "stackloss is a data frame with 21 observations on 4 variables."
 }
 
 var stackloss = [

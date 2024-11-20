@@ -1,0 +1,14 @@
+{
+   "format" : "A data frame with 36 observations and 5 variables.",
+   "parameters" : {
+      "education" : "factor indicating highest level of education\n(elementary, secondary, high).",
+      "memory" : "factor indicating whether the person had memories of\ncorporal punishment as a child (yes, no).",
+      "age" : "factor indicating age group in years (15-24, 25-39, 40-).",
+      "attitude" : "factor indicating attitude: (no, moderate)\npunishment of children.",
+      "Freq" : "frequency."
+   },
+   "usage" : "data(\"Punishment\")",
+   "reference" : "Anderson (1991) erroneously indicates the total sum of respondents to be 783.",
+   "title" : "Corporal Punishment Data",
+   "description" : "Description\nData from a study of the Gallup Institute in Denmark in 1979 about the\nattitude of a random sample of 1,456 persons towards corporal punishment\nof children."
+}

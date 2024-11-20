@@ -1,14 +1,14 @@
 var FingerprintsInfo ={
-   "description" : "Description\nWaite (1915) was interested in analyzing the association of patterns in fingerprints,\nand produced a table of counts for 2000 right hands, classified by the number of fingers\ndescribable as a \"whorl\", a \"small loop\" (or neither).\nBecause each hand contributes five fingers, the number of Whorls + Loops cannot exceed 5,\nso the contingency table is necessarily triangular.\nKarl Pearson (1904) introduced the test for independence in contingency tables, and by 1913\nhad developed methods for \"restricted contingency tables,\" such as the triangular table\nanalyzed by Waite.  The general formulation of such tests for association in restricted\ntables is now referred to as models for quasi-independence.",
-   "usage" : "data(Fingerprints)",
    "parameters" : {
-      "Whorls" : "Number of whorls, an ordered factor with levels 0 < 1 < 2 < 3 < 4 < 5",
       "count" : "Number of hands",
+      "Whorls" : "Number of whorls, an ordered factor with levels 0 < 1 < 2 < 3 < 4 < 5",
       "Loops" : "Number of small loops, an ordered factor with levels 0 < 1 < 2 < 3 < 4 < 5"
    },
-   "format" : "A frequency data frame with 36 observations on the following 3 variables, \nrepresenting a 6 x 6 table giving\nthe cross-classification of the fingers on 2000 right hands as a whorl, small loop\nor neither.",
+   "reference" : "Cells for which Whorls + Loops>5 have NA for count",
+   "usage" : "data(Fingerprints)",
    "title" : "Waite's data on Patterns in Fingerprints",
-   "reference" : "Cells for which Whorls + Loops>5 have NA for count"
+   "description" : "Description\nWaite (1915) was interested in analyzing the association of patterns in fingerprints,\nand produced a table of counts for 2000 right hands, classified by the number of fingers\ndescribable as a \"whorl\", a \"small loop\" (or neither).\nBecause each hand contributes five fingers, the number of Whorls + Loops cannot exceed 5,\nso the contingency table is necessarily triangular.\nKarl Pearson (1904) introduced the test for independence in contingency tables, and by 1913\nhad developed methods for \"restricted contingency tables,\" such as the triangular table\nanalyzed by Waite.  The general formulation of such tests for association in restricted\ntables is now referred to as models for quasi-independence.",
+   "format" : "A frequency data frame with 36 observations on the following 3 variables, \nrepresenting a 6 x 6 table giving\nthe cross-classification of the fingers on 2000 right hands as a whorl, small loop\nor neither."
 }
 
 var Fingerprints = [

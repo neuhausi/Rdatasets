@@ -1,12 +1,17 @@
 {
    "config" : {
-      "graphType" : "Scatter3D",
+      "subtitle" : "drc - G.aparine",
       "title" : "Herbicide applied to Galium aparine",
-      "subtitle" : "drc - G.aparine"
+      "graphType" : "Scatter3D"
    },
    "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>G.aparine</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Herbicide applied to Galium aparine</h2>\n<h3>Description</h3>\n<p>Small plants of <em>Galium aparine</em>, growing in pots in a green house, were sprayed with the technical \ngrade phenmidipham herbicide either alone or in mixture with an ester of oleic acid. \nThe plants were allowed to grow in the green house for 14 days after herbicide treatment. \nThen the dry matter was measured per pot.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(G.aparine)</code></pre>\n<h3>Format</h3>\n<p>A data frame with 240 observations on the following 3 variables.\n</p>\n<dl>\n<dt><code>dose</code></dt><dd><p>a numeric vector of dose value (g/ha)</p>\n</dd>\n<dt><code>drymatter</code></dt><dd><p>a numeric vector of dry matter weights (mg/pot)</p>\n</dd>\n<dt><code>treatment</code></dt><dd><p>a numeric vector giving the grouping: 0: control, 1,2: herbicide formulations</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>Cabanne, F., Gaudry, J. C. and Streibig, J. C. (1999) Influence of alkyl oleates on efficacy \nof phenmedipham applied as an acetone:water solution on Galium aparine, \n<em>Weed Research</em>, <b>39</b>, 57&ndash;67.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>\n## Fitting a model with a common control (so a single upper limit: \"1\")\nG.aparine.m1 &lt;- drm(drymatter ~ dose, treatment, data = G.aparine, \npmodels = data.frame(treatment, treatment, 1, treatment), fct = LL.4())\n## Visual inspection of fit\nplot(G.aparine.m1, broken = TRUE)\n## Lack of fit test\nmodelFit(G.aparine.m1)\n## Summary output\nsummary(G.aparine.m1)\n## Predicted values with se and confidence intervals\n#predict(G.aparine.m1, interval = \"confidence\")\n# long output\n## Calculating the relative potency\nEDcomp(G.aparine.m1, c(50,50))\n## Showing the relative potency as a\n## function of the response level\nrelpot(G.aparine.m1)\nrelpot(G.aparine.m1, interval = \"delta\")\n# appears constant!\n## Response level in percent\nrelpot(G.aparine.m1, scale = \"percent\")\n## Fitting a reduced model (with a common slope parameter)\nG.aparine.m2 &lt;- drm(drymatter ~ dose, treatment, data = G.aparine, \npmodels = data.frame(1, treatment, 1, treatment), fct = LL.4())\nanova(G.aparine.m2, G.aparine.m1)\n## Showing the relative potency \nrelpot(G.aparine.m2)\n## Fitting the same model in a different parameterisation\nG.aparine.m3 &lt;- drm(drymatter ~ dose, treatment, data = G.aparine, \npmodels = data.frame(treatment, treatment, 1, treatment), fct = LL2.4())\nEDcomp(G.aparine.m3, c(50, 50), logBase = exp(1))\n</code></pre>\n</main>\n</div>\n",
    "data" : {
       "y" : {
+         "smps" : [
+            "dose",
+            "drymatter",
+            "treatment"
+         ],
          "data" : [
             [
                0,
@@ -1450,11 +1455,6 @@
             "Var238",
             "Var239",
             "Var240"
-         ],
-         "smps" : [
-            "dose",
-            "drymatter",
-            "treatment"
          ]
       }
    }

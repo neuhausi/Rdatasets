@@ -1,0 +1,18 @@
+{
+   "format" : "This data frame contains the following columns:",
+   "parameters" : {
+      "case" : "observation number",
+      "age" : "age (in years)",
+      "csoa" : "critical stimulus onset asynchrony, the time\nto recognize an alphanumeric target (in milliseconds)",
+      "agegp" : "a factor with levels\nyounger, 21-27,\nolder, 70-78",
+      "it" : "the inspection time, the time required\nto perform a simple discrimination task (in milliseconds)",
+      "target" : "a factor with levels\nlocon: low contrast,\nhicon: high contrast",
+      "id" : "subject identifier code (1-26)",
+      "sex" : "a factor with levels\nf female,\nm male",
+      "tint" : "an ordered factor with levels representing degree of\ntinting: no < lo < hi"
+   },
+   "title" : "Car Window Tinting Experiment Data",
+   "description" : "Description\nThese data are from an experiment that aimed to model the\neffects of the tinting of car windows on visual\nperformance. The authors\nwere mainly interested in effects on side window vision, and hence in\nvisual recognition tasks that would be performed when looking through\nside windows.",
+   "reference" : "Visual light transmittance (VLT) levels were 100% (tint=none),\n81.3% (tint=lo), and 35.1% (tint=hi).  Based on these and other\ndata, Burns et al. argue that road safety may be compromised if\nthe front side windows of cars are tinted to 35",
+   "usage" : "tinting"
+}

@@ -1,14 +1,14 @@
 var bacInfo ={
-   "description" : "Description\nHere we examine data from sixteen student volunteers at Ohio State\nUniversity who each drank a randomly assigned number of cans of beer.",
-   "usage" : "bac",
+   "format" : "A data frame with 16 observations on the following 3 variables.",
    "parameters" : {
-      "student" : "a numeric vector",
       "beers" : "a numeric vector",
+      "student" : "a numeric vector",
       "bac" : "a numeric vector"
    },
    "reference" : "J. Malkevitch and L.M. Lesser. For All Practical Purposes:\nMathematical Literacy in Today's World. WH Freeman & Co, 2008.  The data\norigin is given in the Electronic Encyclopedia of Statistical Examples and Exercises, 1992.",
-   "format" : "A data frame with 16 observations on the following 3 variables.",
-   "title" : "Beer and blood alcohol content"
+   "usage" : "bac",
+   "title" : "Beer and blood alcohol content",
+   "description" : "Description\nHere we examine data from sixteen student volunteers at Ohio State\nUniversity who each drank a randomly assigned number of cans of beer."
 }
 
 var bac = [

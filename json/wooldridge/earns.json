@@ -1,27 +1,16 @@
 {
    "config" : {
-      "subtitle" : "wooldridge - earns",
-      "title" : "earns",
       "graphType" : "Heatmap",
       "smpOverlays" : [
          "ghrwage",
          "goutph_1",
          "ghrwge_1"
-      ]
+      ],
+      "subtitle" : "wooldridge - earns",
+      "title" : "earns"
    },
    "data" : {
       "y" : {
-         "vars" : [
-            "year",
-            "wkearns",
-            "wkhours",
-            "outphr",
-            "hrwage",
-            "lhrwage",
-            "loutphr",
-            "t",
-            "lwkhours"
-         ],
          "smps" : [
             "Smp1",
             "Smp2",
@@ -453,6 +442,17 @@
                3.54961729049683,
                3.54961729049683
             ]
+         ],
+         "vars" : [
+            "year",
+            "wkearns",
+            "wkhours",
+            "outphr",
+            "hrwage",
+            "lhrwage",
+            "loutphr",
+            "t",
+            "lwkhours"
          ]
       },
       "x" : {

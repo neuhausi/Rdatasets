@@ -1,0 +1,6 @@
+{
+   "description" : "Description\nThe number of new motor vehicles sold in Australia.",
+   "title" : "Australian vehicle sales",
+   "usage" : "Time series of class 'tsibble'",
+   "format" : "aus_vehicle_sales contains monthly data with one measured variable:"
+}

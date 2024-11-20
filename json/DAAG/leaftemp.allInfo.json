@@ -1,0 +1,18 @@
+{
+   "parameters" : {
+      "BtempDiff" : "a numeric vector",
+      "airTemp" : "Air Temperature",
+      "CO2level" : "a factor with Carbon Dioxide Levels:\nhigh,\nlow,\nmedium",
+      "light" : "a numeric vector",
+      "CO2" : "a numeric vector",
+      "tempDiff" : "Difference between Leaf and Air Temperature",
+      "day" : "a factor",
+      "vapPress" : "Vapour Pressure",
+      "glasshouse" : "a factor with levels\nA,\nB,\nC"
+   },
+   "title" : "Full Leaf and Air Temperature Data Set",
+   "description" : "Description\nThe leaftemp.all data frame has 62 rows and 9 columns.",
+   "usage" : "leaftemp.all",
+   "reference" : "J.H. Maindonald",
+   "format" : "This data frame contains the following columns:"
+}

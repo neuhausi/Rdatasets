@@ -1,23 +1,23 @@
 var GSOEP9402Info ={
-   "title" : "German Socio-Economic Panel 1994&ndash;2002",
-   "format" : "A data frame containing 675 observations on 12 variables.",
-   "reference" : "This sample from the German Socio-Economic Panel (GSOEP) for the years\nbetween 1994 and 2002 has been selected by Winkelmann and Boes (2009)\nto investigate the determinants of secondary school choice.",
    "parameters" : {
-      "marital" : "factor indicating mother's marital status.",
-      "birthyear" : "Year of child's birth.",
+      "meducation" : "Mother's educational level in years.",
       "year" : "Year of GSOEP wave.",
+      "school" : "factor. Child's secondary school level.",
+      "parity" : "Birth order.",
+      "birthyear" : "Year of child's birth.",
+      "gender" : "factor indicating child's gender.",
+      "income" : "Household income.",
+      "size" : "Household size",
+      "state" : "factor indicating German federal state.",
       "kids" : "Total number of kids living in household.",
       "memployment" : "factor indicating mother's employment level:\nfull-time, part-time, or not working.",
-      "state" : "factor indicating German federal state.",
-      "size" : "Household size",
-      "income" : "Household income.",
-      "parity" : "Birth order.",
-      "school" : "factor. Child's secondary school level.",
-      "gender" : "factor indicating child's gender.",
-      "meducation" : "Mother's educational level in years."
+      "marital" : "factor indicating mother's marital status."
    },
    "usage" : "data(\"GSOEP9402\")",
-   "description" : "Description\nCross-section data for 675 14-year old children born between 1980 and 1988.\nThe sample is taken from the German Socio-Economic Panel (GSOEP) for the years\n1994 to 2002 to investigate the determinants of secondary school choice."
+   "reference" : "This sample from the German Socio-Economic Panel (GSOEP) for the years\nbetween 1994 and 2002 has been selected by Winkelmann and Boes (2009)\nto investigate the determinants of secondary school choice.",
+   "title" : "German Socio-Economic Panel 1994&ndash;2002",
+   "description" : "Description\nCross-section data for 675 14-year old children born between 1980 and 1988.\nThe sample is taken from the German Socio-Economic Panel (GSOEP) for the years\n1994 to 2002 to investigate the determinants of secondary school choice.",
+   "format" : "A data frame containing 675 observations on 12 variables."
 }
 
 var GSOEP9402 = [

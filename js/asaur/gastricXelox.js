@@ -1,13 +1,13 @@
 var gastricXeloxInfo ={
-   "description" : "Description\nData from a Phase II clinical trial of Xeloda and exaliplatin given \nbefore surgery to advanced gastric cancer patients with para-aortic \nlymph node metastasis.",
+   "format" : "A data frame with 48 observations on the following 2 variables.",
    "usage" : "data(\"gastricXelox\")",
+   "reference" : "The data were extracted from the Kaplan-Meier survival plot.",
+   "description" : "Description\nData from a Phase II clinical trial of Xeloda and exaliplatin given \nbefore surgery to advanced gastric cancer patients with para-aortic \nlymph node metastasis.",
+   "title" : "gasticXelox",
    "parameters" : {
       "delta" : "1 for death, 0 for censored",
       "timeWeeks" : "survival time in weeks"
-   },
-   "title" : "gasticXelox",
-   "format" : "A data frame with 48 observations on the following 2 variables.",
-   "reference" : "The data were extracted from the Kaplan-Meier survival plot."
+   }
 }
 
 var gastricXelox = [

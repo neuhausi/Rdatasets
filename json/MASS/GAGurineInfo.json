@@ -1,0 +1,11 @@
+{
+   "parameters" : {
+      "GAG" : "concentration of GAG (the units have been lost).",
+      "Age" : "age of child in years."
+   },
+   "title" : "Level of GAG in Urine of Children",
+   "description" : "Description\nData were collected on the concentration of a chemical GAG in the\nurine of 314 children aged from zero to seventeen years.  The aim of\nthe study was to produce a chart to help a paediatrican to assess if a\nchild's GAG concentration is &lsquo;normal&rsquo;.",
+   "reference" : "Mrs Susan Prosser, Paediatrics Department, University of Oxford,\nvia Department of Statistics Consulting Service.",
+   "usage" : "GAGurine",
+   "format" : "This data frame contains the following columns:"
+}

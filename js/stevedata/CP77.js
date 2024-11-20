@@ -1,17 +1,17 @@
 var CP77Info ={
-   "description" : "Description\nThis is a simple data set provided by Chatterjee and Price (1977, p. 108)\nthat serves as a known example of heteroscedasticity.",
-   "usage" : "CP77",
    "parameters" : {
+      "urbanpop" : "a numeric vector for the number of residents (per thousand) living in urban areas in 1970",
       "incpc" : "a numeric vector for income per capita in 1973",
       "state" : "a character vector for the state",
       "region" : "a character vector for the Census region",
       "pop" : "a numeric vector for residents (per thousand) under 18 years of age in 1974",
-      "edexppc" : "a numeric vector for per capita public school expenditures in a state, projected for 1975.",
-      "urbanpop" : "a numeric vector for the number of residents (per thousand) living in urban areas in 1970"
+      "edexppc" : "a numeric vector for per capita public school expenditures in a state, projected for 1975."
    },
-   "format" : "A data frame with 50 observations on the following 6 variables.",
+   "description" : "Description\nThis is a simple data set provided by Chatterjee and Price (1977, p. 108)\nthat serves as a known example of heteroscedasticity.",
+   "title" : "Education Expenditure Data (Chatterjee and Price, 1977)",
+   "usage" : "CP77",
    "reference" : "I copied these data from the robustbase package.\nI just didn't want to make my students install it.\nNote: I'm pretty sure \"NB\" was suppose to be \"NE\" and that\n\"DY\" is supposed to be \"KY\". I made those changes.",
-   "title" : "Education Expenditure Data (Chatterjee and Price, 1977)"
+   "format" : "A data frame with 50 observations on the following 6 variables."
 }
 
 var CP77 = [

@@ -1,16 +1,16 @@
 var KmentaInfo ={
    "title" : "Partly Artificial Data on the U. S. Economy",
+   "description" : "Description\nThese are partly contrived data from Kmenta (1986), constructed\nto illustrate estimation of a simultaneous-equation model.\nThe Kmenta data frame has 20 rows and 5 columns.",
    "reference" : "The exogenous variables D, F, and A are based on\nreal data; the endogenous variables P and Q were generated\nby simulation.",
-   "format" : "This data frame contains the following columns:",
-   "parameters" : {
-      "P" : "ratio of food prices to general consumer prices.",
-      "A" : "time in years.",
-      "F" : "ratio of preceding year's prices received by farmers\nto general consumer prices.",
-      "Q" : "food consumption per capita.",
-      "D" : "disposable income in constant dollars."
-   },
    "usage" : "Kmenta",
-   "description" : "Description\nThese are partly contrived data from Kmenta (1986), constructed\nto illustrate estimation of a simultaneous-equation model.\nThe Kmenta data frame has 20 rows and 5 columns."
+   "parameters" : {
+      "Q" : "food consumption per capita.",
+      "A" : "time in years.",
+      "D" : "disposable income in constant dollars.",
+      "F" : "ratio of preceding year's prices received by farmers\nto general consumer prices.",
+      "P" : "ratio of food prices to general consumer prices."
+   },
+   "format" : "This data frame contains the following columns:"
 }
 
 var Kmenta = [

@@ -55,6 +55,18 @@
          ]
       },
       "y" : {
+         "vars" : [
+            "pop",
+            "pop_il",
+            "nwhite",
+            "nwhite_il",
+            "fpwhite",
+            "fpwhite_il",
+            "fbwhite",
+            "fbwhite_il",
+            "black",
+            "black_il"
+         ],
          "smps" : [
             "Smp1",
             "Smp2",
@@ -105,18 +117,6 @@
             "Smp47",
             "Smp48",
             "Smp49"
-         ],
-         "vars" : [
-            "pop",
-            "pop_il",
-            "nwhite",
-            "nwhite_il",
-            "fpwhite",
-            "fpwhite_il",
-            "fbwhite",
-            "fbwhite_il",
-            "black",
-            "black_il"
          ],
          "data" : [
             [
@@ -633,11 +633,11 @@
       }
    },
    "config" : {
+      "title" : "Illiteracy in the Population 10 Years Old and Over",
+      "subtitle" : "stevedata - illiteracy30",
       "smpOverlays" : [
          "state"
       ],
-      "graphType" : "Heatmap",
-      "title" : "Illiteracy in the Population 10 Years Old and Over",
-      "subtitle" : "stevedata - illiteracy30"
+      "graphType" : "Heatmap"
    }
 }

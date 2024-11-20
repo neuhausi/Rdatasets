@@ -1,16 +1,12 @@
 {
    "config" : {
-      "colorBy" : "species",
+      "subtitle" : "modeldata - crickets",
       "title" : "Rates of Cricket Chirps",
       "graphType" : "Scatter2D",
-      "subtitle" : "modeldata - crickets"
+      "colorBy" : "species"
    },
    "data" : {
       "y" : {
-         "smps" : [
-            "temp",
-            "rate"
-         ],
          "vars" : [
             "Var1",
             "Var2",
@@ -43,6 +39,10 @@
             "Var29",
             "Var30",
             "Var31"
+         ],
+         "smps" : [
+            "temp",
+            "rate"
          ],
          "data" : [
             [

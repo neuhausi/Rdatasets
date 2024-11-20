@@ -1,15 +1,15 @@
 var caneInfo ={
-   "usage" : "cane",
-   "description" : "Description\nThe cane data frame has 180 rows and 5 columns. \nThe data frame represents a randomized\nblock design with 45 varieties of sugar-cane and 4 blocks.",
    "format" : "This data frame contains the following columns:",
    "reference" : "The aim of the experiment was to classify the varieties into\nresistant, intermediate and susceptible to a disease called \"coal of\nsugar-cane\" (carvao da cana-de-acucar).  This is a disease that is\ncommon in sugar-cane plantations in certain areas of Brazil.",
+   "usage" : "cane",
+   "description" : "Description\nThe cane data frame has 180 rows and 5 columns. \nThe data frame represents a randomized\nblock design with 45 varieties of sugar-cane and 4 blocks.",
    "title" : "Sugar-cane Disease Data",
    "parameters" : {
-      "n" : "The total number of shoots in each plot.",
-      "var" : "A factor indicating the variety of sugar-cane in each plot.",
-      "x" : "The number of pieces of the stems, out of 50, planted in each plot.",
       "r" : "The number of diseased shoots.",
-      "block" : "A factor for the blocks."
+      "x" : "The number of pieces of the stems, out of 50, planted in each plot.",
+      "n" : "The total number of shoots in each plot.",
+      "block" : "A factor for the blocks.",
+      "var" : "A factor indicating the variety of sugar-cane in each plot."
    }
 }
 

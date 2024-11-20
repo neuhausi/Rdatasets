@@ -1,15 +1,15 @@
 var ResidualOilInfo ={
    "parameters" : {
+      "Oil" : "Residual fuel oil distribution (in million gallons/day)",
       "Qtr" : "Month (1=Jan-Mar, 2=Apr-June, 3=July-Sep, 4=Oct-Dec)",
       "LogOil" : "Natural logarithm of Oil",
       "Year" : "Year (1983 to 2016)",
-      "Oil" : "Residual fuel oil distribution (in million gallons/day)",
       "t" : "Time index (1 to 136)"
    },
-   "description" : "Description\nQuarterly production of residual oil in the U.S. from 1983 to 2016",
-   "usage" : "A data frame with 136 observations on the following 7 variables.",
    "reference" : "The U.S. Energy Information Administration tracks the production and distribution of various types of petroleum products. The category for this dataset is called residual oil, which are heavier oils (often called No. 5. and No. 6) that remain after lighter oils (such as No. 4 home heating oil) are distilled away in the refining process. It is used in steam-powered ships, power plants, and other industrial applications.",
-   "title" : "US Residual Oil Production (Quarterly 1983-2016)"
+   "usage" : "A data frame with 136 observations on the following 7 variables.",
+   "title" : "US Residual Oil Production (Quarterly 1983-2016)",
+   "description" : "Description\nQuarterly production of residual oil in the U.S. from 1983 to 2016"
 }
 
 var ResidualOil = [

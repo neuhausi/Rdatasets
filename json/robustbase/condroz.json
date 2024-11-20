@@ -1,8 +1,8 @@
 {
    "config" : {
+      "graphType" : "Scatter2D",
       "subtitle" : "robustbase - condroz",
-      "title" : "Condroz Data",
-      "graphType" : "Scatter2D"
+      "title" : "Condroz Data"
    },
    "data" : {
       "y" : {

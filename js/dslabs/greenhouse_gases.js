@@ -1,14 +1,14 @@
 var greenhouse_gasesInfo ={
-   "description" : "Description\nConcentrations of the three main greenhouse gases carbon dioxide, methane and nitrous oxide. Measurements are from the Law Dome Ice Core in Antarctica. Selected measurements are provided every 20 years from 1-2000 CE.",
-   "usage" : "greenhouse_gases",
+   "format" : "An object of class \"data.frame\".",
    "parameters" : {
       "gas. Gas being measured" : " carbon dioxide ('CO2'), methane ('CH4') or nitrous oxide ('N2O').",
-      "year. Year (CE)." : null,
-      "concentration. Gas concentration in ppm by volume ('CO2') or ppb by volume ('CH4', 'N2O')." : null
+      "concentration. Gas concentration in ppm by volume ('CO2') or ppb by volume ('CH4', 'N2O')." : null,
+      "year. Year (CE)." : null
    },
-   "title" : "Greenhouse gas concentrations over 2000 years",
    "reference" : "MacFarling Meure et al. 2006 via NOAA.",
-   "format" : "An object of class \"data.frame\"."
+   "usage" : "greenhouse_gases",
+   "title" : "Greenhouse gas concentrations over 2000 years",
+   "description" : "Description\nConcentrations of the three main greenhouse gases carbon dioxide, methane and nitrous oxide. Measurements are from the Law Dome Ice Core in Antarctica. Selected measurements are provided every 20 years from 1-2000 CE."
 }
 
 var greenhouse_gases = [

@@ -1,20 +1,20 @@
 var nafld3Info ={
    "reference" : "The primary reference for this study is Allen (2018).\nNonalcoholic fatty liver disease (NAFLD) was renamed metabolic\ndysfunction-associated steatotic liver disease (MASLD) in June 2023.\nThe new name is intended to better reflect the disease's underlying causes, \nidentify subgroups of patients, and avoid stigmatizing words.",
+   "usage" : "nafld1\n       nafld2\n       nafld3\ndata(nafld, package=\"survival\")",
+   "description" : "Description\nData sets containing the data from a population study of non-alcoholic\nfatty liver disease (NAFLD).  Subjects with the condition and a set of\nmatched control subjects were followed forward for metabolic\nconditions, cardiac endpoints, and death.",
    "title" : "Non-alcoholic fatty liver disease",
-   "format" : "nafld1 is a data frame with 17549 observations on the following 10 variables.",
    "parameters" : {
+      "male" : "0=female, 1=male",
       "height" : "height in cm",
-      "id" : "subject identifier",
-      "case.id" : "the id of the NAFLD case to whom this subject\nis matched",
-      "weight" : "weight in kg",
+      "status" : "0= alive at last follow-up, 1=dead",
       "age" : "age at entry to the study",
+      "case.id" : "the id of the NAFLD case to whom this subject\nis matched",
+      "id" : "subject identifier",
       "futime" : "time to death or last follow-up",
       "bmi" : "body mass index",
-      "male" : "0=female, 1=male",
-      "status" : "0= alive at last follow-up, 1=dead"
+      "weight" : "weight in kg"
    },
-   "usage" : "nafld1\n       nafld2\n       nafld3\ndata(nafld, package=\"survival\")",
-   "description" : "Description\nData sets containing the data from a population study of non-alcoholic\nfatty liver disease (NAFLD).  Subjects with the condition and a set of\nmatched control subjects were followed forward for metabolic\nconditions, cardiac endpoints, and death."
+   "format" : "nafld1 is a data frame with 17549 observations on the following 10 variables."
 }
 
 var nafld3 = [

@@ -1,7 +1,7 @@
 var BirdNestInfo ={
    "description" : "Description\nNest and species characteristics for North American passerines",
-   "usage" : "A data frame with 84 observations on the following 12 variables.",
-   "title" : "Nest Characteristics for Different Bird Species"
+   "title" : "Nest Characteristics for Different Bird Species",
+   "usage" : "A data frame with 84 observations on the following 12 variables."
 }
 
 var BirdNest = [

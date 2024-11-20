@@ -1,18 +1,18 @@
 var SmokeBanInfo ={
    "parameters" : {
       "age" : "age in years.",
-      "ban" : "factor. Is there a work area smoking ban?",
-      "smoker" : "factor. Is the individual a current smoker?",
-      "afam" : "factor. Is the individual African-American?",
-      "education" : "factor indicating highest education level attained:\nhigh school (hs) drop out, high school graduate, some college,\ncollege graduate, master's degree (or higher).",
+      "hispanic" : "factor. Is the individual Hispanic?",
       "gender" : "factor indicating gender.",
-      "hispanic" : "factor. Is the individual Hispanic?"
+      "ban" : "factor. Is there a work area smoking ban?",
+      "afam" : "factor. Is the individual African-American?",
+      "smoker" : "factor. Is the individual a current smoker?",
+      "education" : "factor indicating highest education level attained:\nhigh school (hs) drop out, high school graduate, some college,\ncollege graduate, master's degree (or higher)."
    },
-   "format" : "A data frame containing 10,000 observations on 7 variables.",
-   "title" : "Do Workplace Smoking Bans Reduce Smoking?",
    "reference" : "SmokeBank is a cross-sectional data set with observations on 10,000 indoor workers, which\nis a subset of a 18,090-observation data set collected as part of the National Health\nInterview Survey in 1991 and then again (with different respondents) in 1993.\nThe data set contains information on whether individuals were, or were not, subject to a workplace\nsmoking ban, whether or not the individuals smoked and other individual characteristics.",
+   "usage" : "data(\"SmokeBan\")",
    "description" : "Description\nEstimation of the effect of workplace smoking bans on smoking of indoor workers.",
-   "usage" : "data(\"SmokeBan\")"
+   "title" : "Do Workplace Smoking Bans Reduce Smoking?",
+   "format" : "A data frame containing 10,000 observations on 7 variables."
 }
 
 var SmokeBan = [

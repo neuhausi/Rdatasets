@@ -1,0 +1,18 @@
+{
+   "title" : "The Cigarette Consumption Panel Data Set",
+   "description" : "Description\na panel of 48 observations  from 1985  to 1995\nnumber of observations :  528\nobservation :  regional\ncountry :  United States",
+   "usage" : "data(Cigarette)",
+   "reference" : "Professor Jonathan Gruber, MIT.",
+   "parameters" : {
+      "tax" : "average state, federal, and average local excise taxes for fiscal year",
+      "cpi" : "consumer price index",
+      "avgprs" : "average price during fiscal year, including sales taxes",
+      "packpc" : "number of packs per capita",
+      "taxs" : "average excise taxes for fiscal year, including sales taxes",
+      "state" : "state",
+      "pop" : "state population",
+      "year" : "year",
+      "income" : "state personal income (total, nominal)"
+   },
+   "format" : "A dataframe containing :"
+}

@@ -1,19 +1,19 @@
 var close_collegeInfo ={
    "parameters" : {
       "married" : "Is married",
-      "educ" : "Years of education",
-      "smsa" : "In a Standard Metropolitan Statistical Area (urban)",
       "black" : "Race: Black",
-      "nearc4" : "There is a four-year college in the county",
       "lwage" : "Log wages",
-      "south" : "In the southern United States",
-      "exper" : "Years of work experience"
+      "exper" : "Years of work experience",
+      "educ" : "Years of education",
+      "nearc4" : "There is a four-year college in the county",
+      "smsa" : "In a Standard Metropolitan Statistical Area (urban)",
+      "south" : "In the southern United States"
    },
-   "reference" : "This data is used in the Instrumental Variables chapter of Causal Inference: The Mixtape by Cunningham.",
-   "format" : "A data frame with 3010 rows and 8 variables",
    "title" : "Data from Card (1995) to estimate the effect of college education on earnings",
    "description" : "Description\nData from the National Longitudinal Survey Young Men Cohort. This data is used to estimate the effect of college education on earnings, using the presence of a nearby (in-county) college as an instrument for college attendance.",
-   "usage" : "close_college"
+   "usage" : "close_college",
+   "reference" : "This data is used in the Instrumental Variables chapter of Causal Inference: The Mixtape by Cunningham.",
+   "format" : "A data frame with 3010 rows and 8 variables"
 }
 
 var close_college = [

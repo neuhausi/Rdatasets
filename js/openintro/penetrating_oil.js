@@ -1,12 +1,12 @@
 var penetrating_oilInfo ={
-   "description" : "Description\nThe channel Project Farm on YouTube investigated penetrating oils and other\noptions for loosening rusty bolts. Eight options were evaluated, including a\ncontrol group, to determine which was most effective.",
-   "usage" : "penetrating_oil",
-   "parameters" : {
-      "treatment" : "The different treatments tried:\nnone (control), Heat (via blow torch), Acetone/ATF,\nAeroKroil, Liquid Wrench, PB Blaster, Royal\nPurple, and WD-40.",
-      "torque" : "Torque required to loosen the rusty bolt,\nwhich was measured in foot-pounds."
-   },
    "format" : "A data frame with 30 observations on the following 2 variables.",
+   "parameters" : {
+      "torque" : "Torque required to loosen the rusty bolt,\nwhich was measured in foot-pounds.",
+      "treatment" : "The different treatments tried:\nnone (control), Heat (via blow torch), Acetone/ATF,\nAeroKroil, Liquid Wrench, PB Blaster, Royal\nPurple, and WD-40."
+   },
+   "usage" : "penetrating_oil",
    "reference" : "https://www.youtube.com/watch?v=xUEob2oAKVs",
+   "description" : "Description\nThe channel Project Farm on YouTube investigated penetrating oils and other\noptions for loosening rusty bolts. Eight options were evaluated, including a\ncontrol group, to determine which was most effective.",
    "title" : "What's the best way to loosen a rusty bolt?"
 }
 

@@ -1,0 +1,12 @@
+{
+   "title" : "Monthly Excess Returns",
+   "description" : "Description\nThe acme data frame has 60 rows and 3 columns.\nThe excess return for the Acme Cleveland Corporation are recorded along with\nthose for all stocks listed on the New York and American Stock Exchanges were\nrecorded over a five year period.  These excess returns are relative to the\nreturn on a risk-less investment such a U.S. Treasury bills.",
+   "reference" : "The data were obtained from",
+   "usage" : "acme",
+   "parameters" : {
+      "month" : "A character string representing the month of the observation.",
+      "acme" : "The excess return for the Acme Cleveland Corporation.",
+      "market" : "The excess return of the market as a whole."
+   },
+   "format" : "This data frame contains the following columns:"
+}

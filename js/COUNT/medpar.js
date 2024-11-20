@@ -1,21 +1,21 @@
 var medparInfo ={
+   "title" : "medpar",
    "description" : "Description\nThe US national Medicare inpatient hospital database is referred to as the Medpar data, \nwhich is prepared yearly from hospital filing records. Medpar files for each state are also \nprepared. The full Medpar data consists of 115 variables. The national Medpar has some \n14 million records, with one record for each hospilitiztion. The data in the medpar file comes \nfrom 1991 Medicare files for the state of Arizona. The data are limited to only one diagnostic \ngroup (DRG 112). Patient data have been randomly selected from the original data.",
+   "reference" : "medpar is saved as a data frame.\nCount models use los as response variable. 0 counts are structurally excluded",
    "usage" : "data(medpar)",
    "parameters" : {
-      "provnum" : "Provider ID",
-      "type3" : "Elective admission, binary",
-      "type" : "Type of admission, categorical",
-      "hmo" : "Patient belongs to a Health Maintenance Organization, binary",
-      "los" : "length of hospital stay",
-      "type1" : "Elective admission, binary",
-      "age80" : "Patient age 80 and over, binary",
       "died" : "Patient died, binary",
+      "type3" : "Elective admission, binary",
       "type2" : "Urgent admission,binary",
-      "white" : "Patient identifies themselves as Caucasian, binary"
+      "provnum" : "Provider ID",
+      "los" : "length of hospital stay",
+      "age80" : "Patient age 80 and over, binary",
+      "type" : "Type of admission, categorical",
+      "white" : "Patient identifies themselves as Caucasian, binary",
+      "hmo" : "Patient belongs to a Health Maintenance Organization, binary",
+      "type1" : "Elective admission, binary"
    },
-   "format" : "A data frame with 1495 observations on the following 10 variables.",
-   "reference" : "medpar is saved as a data frame.\nCount models use los as response variable. 0 counts are structurally excluded",
-   "title" : "medpar"
+   "format" : "A data frame with 1495 observations on the following 10 variables."
 }
 
 var medpar = [

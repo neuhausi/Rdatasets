@@ -1,18 +1,18 @@
 var french_friesInfo ={
+   "format" : "A data frame with 696 rows and 9 variables",
    "usage" : "french_fries",
    "title" : "Sensory data from a french fries experiment.",
-   "format" : "A data frame with 696 rows and 9 variables",
    "description" : "Description\nThis data was collected from a sensory experiment conducted at Iowa State\nUniversity in 2004.  The investigators were interested in the effect of\nusing three different fryer oils had on the taste of the fries.",
    "parameters" : {
-      "replicate," : null,
-      "grassy flavour," : null,
       "potato-y flavour," : null,
-      "subject," : null,
+      "treatment (type of oil)," : null,
       "painty flavour" : null,
-      "buttery flavour," : null,
-      "rancid flavour," : null,
       "time in weeks from start of study." : null,
-      "treatment (type of oil)," : null
+      "grassy flavour," : null,
+      "subject," : null,
+      "rancid flavour," : null,
+      "replicate," : null,
+      "buttery flavour," : null
    }
 }
 

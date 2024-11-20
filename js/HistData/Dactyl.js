@@ -1,14 +1,14 @@
 var DactylInfo ={
-   "format" : "A data frame with 60 observations on the following 3 variables.",
-   "title" : "Edgeworth's counts of dactyls in Virgil's Aeneid",
-   "reference" : "Stigler, S. (1999)\nStatistics on the Table\nCambridge, MA: Harvard University Press, table 5.1.",
    "parameters" : {
       "count" : "number of dactyls",
-      "Lines" : "an ordered factor with levels 1:5 < 6:10 < 11:15 < 16:20 < 21:25 < 26:30 < 31:35 < 36:40 < 41:45 < 46:50 < 51:55 < 56:60 < 61:65 < 66:70 < 71:75",
-      "Foot" : "an ordered factor with levels 1 < 2 < 3 < 4"
+      "Foot" : "an ordered factor with levels 1 < 2 < 3 < 4",
+      "Lines" : "an ordered factor with levels 1:5 < 6:10 < 11:15 < 16:20 < 21:25 < 26:30 < 31:35 < 36:40 < 41:45 < 46:50 < 51:55 < 56:60 < 61:65 < 66:70 < 71:75"
    },
+   "description" : "Description\nEdgeworth (1885) took the first 75 lines in Book XI of\nVirgil's Aeneid and classified each of the first four \"feet\" of the line \nas a dactyl (one long syllable followed by two short ones) or not.\nGrouping the lines in blocks of five gave a 4 x 25 table of counts,\nrepresented here as a data frame with ordered factors, Foot and\nLines. Edgeworth used this table in what was among the first\nexamples of analysis of variance applied to a two-way\nclassification.",
+   "title" : "Edgeworth's counts of dactyls in Virgil's Aeneid",
+   "reference" : "Stigler, S. (1999)\nStatistics on the Table\nCambridge, MA: Harvard University Press, table 5.1.",
    "usage" : "data(Dactyl)",
-   "description" : "Description\nEdgeworth (1885) took the first 75 lines in Book XI of\nVirgil's Aeneid and classified each of the first four \"feet\" of the line \nas a dactyl (one long syllable followed by two short ones) or not.\nGrouping the lines in blocks of five gave a 4 x 25 table of counts,\nrepresented here as a data frame with ordered factors, Foot and\nLines. Edgeworth used this table in what was among the first\nexamples of analysis of variance applied to a two-way\nclassification."
+   "format" : "A data frame with 60 observations on the following 3 variables."
 }
 
 var Dactyl = [

@@ -1,7 +1,7 @@
 var FishEggsInfo ={
-   "usage" : "A data frame with 35 observations on the following 4 variables.",
    "title" : "Fertility of Fish Eggs",
-   "description" : "Description\nFertility measurement for eggs from a sample of 35 lake trout"
+   "description" : "Description\nFertility measurement for eggs from a sample of 35 lake trout",
+   "usage" : "A data frame with 35 observations on the following 4 variables."
 }
 
 var FishEggs = [

@@ -1,0 +1,31 @@
+{
+   "description" : "Description\nThis data looks at the effect of abortion legalization on the incidence of gonnorhea among 15-19 year olds, as a measure of risky behavior. Treatment is whether abortion is legalized at the time that the eventual 15-19 year olds are born.",
+   "title" : "Data on abortion legalization and sexually transmitted infections",
+   "usage" : "abortion",
+   "reference" : "This data is used in the Difference-in-Differences chapter of Causal Inference: The Mixtape by Cunningham.",
+   "parameters" : {
+      "sex" : "Sex: 1 = male, 2 = female",
+      "younger" : "From the younger group",
+      "poverty" : "Poverty rate",
+      "alcohol" : "Alcohol consumption per capita",
+      "ur" : "State unemployment rate",
+      "pi" : "Parental involvement law in effect",
+      "crack" : "Crack index",
+      "fa" : "State-younger interaction",
+      "fip" : "State FIPS code",
+      "repeal" : "In a state with an early repeal of abortion prohibition",
+      "t" : "Year but counted on a different scale",
+      "income" : "Real income per capita",
+      "male" : "Male Indicator",
+      "race" : "Race - 1 = white, 2 = black",
+      "ir" : "Incarcerated Males per 100,000",
+      "lnr" : "Logged gonnorhea cases per 100,000 in 15-19 year olds",
+      "year" : "Year",
+      "totpop" : "Total population",
+      "wht" : "White Indicator",
+      "acc" : "AIDS mortality per 100,000 cumulative in t, t-1, t-2, t-3",
+      "bf15" : "Is a black female in the 15-19 age group",
+      "age" : "Age in years"
+   },
+   "format" : "A data frame with 19584 rows and 22 variables"
+}

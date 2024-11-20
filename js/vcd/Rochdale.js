@@ -1,6 +1,6 @@
 var RochdaleInfo ={
-   "description" : "Description\nInformation on 665 households of Rochdale, Lancashire, UK.\nThe study was conducted to identify influence factors on economical\nactivity of wives.",
    "usage" : "data(\"Rochdale\")",
+   "description" : "Description\nInformation on 665 households of Rochdale, Lancashire, UK.\nThe study was conducted to identify influence factors on economical\nactivity of wives.",
    "title" : "Rochdale Data",
    "format" : "A 8-dimensional array resulting from cross-tabulating 665 observations\non 8 variables.  The variables and their levels are as follows:"
 }

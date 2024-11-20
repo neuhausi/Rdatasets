@@ -1,4 +1,14 @@
 {
+   "config" : {
+      "subtitle" : "Stat2Data - CalciumBP",
+      "groupingFactors" : [
+         "Treatment"
+      ],
+      "title" : "Do Calcium Supplements Lower Blood Pressure?",
+      "colorBy" : "variable",
+      "graphType" : "Boxplot"
+   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>CalciumBP</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Do Calcium Supplements Lower Blood Pressure?</h2>\n<h3>Description</h3>\n<p>An experiment on calcium supplements and blood pressure in 21 men\n</p>\n<h3>Format</h3>\n<p>A data frame with 21 observations on the following 2 variables.\n</p>\n<table>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Treatment</code> </td><td style=\"text-align: left;\"> <code>Calcium</code> or <code>Placebo</code></td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Decrease</code> </td><td style=\"text-align: left;\"> Beginning-ending blood pressure</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n  </td>\n</tr>\n</table>\n<h3>Details</h3>\n<p>The purpose of this study was to see whether daily calcium supplements can lower blood pressure.\nThe subjects were 21 men; each was randomly assigned either to a treatment group or to a control\ngroup. Those in the treatment group took a daily pill containing calcium. Those in the control\ngroup took a daily pill with no active ingredients. Each subject's blood pressure was measured at\nthe beginning of the 12-week study, and again at the end.  The decrease in blood pressure (begin-end)\nwas recorded (so a negative value means blood pressure increased).\n</p>\n<h3>Source</h3>\n<p>Dataset downloaded from online data source Data and Story Library, <br />\nhttp://lib.stat.cmu.edu/DASL/Stories/CalciumandBloodPressure.html\n</p>\n</main>\n</div>\n",
    "data" : {
       "x" : {
          "Treatment" : [
@@ -26,6 +36,31 @@
          ]
       },
       "y" : {
+         "data" : [
+            [
+               7,
+               -4,
+               18,
+               17,
+               -3,
+               -5,
+               1,
+               10,
+               11,
+               -2,
+               -1,
+               12,
+               -1,
+               -3,
+               3,
+               -5,
+               5,
+               2,
+               -11,
+               -1,
+               -3
+            ]
+         ],
          "smps" : [
             "Smp1",
             "Smp2",
@@ -51,42 +86,7 @@
          ],
          "vars" : [
             "Decrease"
-         ],
-         "data" : [
-            [
-               7,
-               -4,
-               18,
-               17,
-               -3,
-               -5,
-               1,
-               10,
-               11,
-               -2,
-               -1,
-               12,
-               -1,
-               -3,
-               3,
-               -5,
-               5,
-               2,
-               -11,
-               -1,
-               -3
-            ]
          ]
       }
-   },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>CalciumBP</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Do Calcium Supplements Lower Blood Pressure?</h2>\n<h3>Description</h3>\n<p>An experiment on calcium supplements and blood pressure in 21 men\n</p>\n<h3>Format</h3>\n<p>A data frame with 21 observations on the following 2 variables.\n</p>\n<table>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Treatment</code> </td><td style=\"text-align: left;\"> <code>Calcium</code> or <code>Placebo</code></td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Decrease</code> </td><td style=\"text-align: left;\"> Beginning-ending blood pressure</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n  </td>\n</tr>\n</table>\n<h3>Details</h3>\n<p>The purpose of this study was to see whether daily calcium supplements can lower blood pressure.\nThe subjects were 21 men; each was randomly assigned either to a treatment group or to a control\ngroup. Those in the treatment group took a daily pill containing calcium. Those in the control\ngroup took a daily pill with no active ingredients. Each subject's blood pressure was measured at\nthe beginning of the 12-week study, and again at the end.  The decrease in blood pressure (begin-end)\nwas recorded (so a negative value means blood pressure increased).\n</p>\n<h3>Source</h3>\n<p>Dataset downloaded from online data source Data and Story Library, <br />\nhttp://lib.stat.cmu.edu/DASL/Stories/CalciumandBloodPressure.html\n</p>\n</main>\n</div>\n",
-   "config" : {
-      "graphType" : "Boxplot",
-      "title" : "Do Calcium Supplements Lower Blood Pressure?",
-      "colorBy" : "variable",
-      "subtitle" : "Stat2Data - CalciumBP",
-      "groupingFactors" : [
-         "Treatment"
-      ]
    }
 }

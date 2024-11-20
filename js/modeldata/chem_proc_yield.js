@@ -1,13 +1,13 @@
 var chem_proc_yieldInfo ={
    "parameters" : {
-      "bio_material_01 - bio_material_12" : "  numeric",
+      "man_proc_01 - man_proc_45" : "  numeric",
       "yield" : "  numeric",
-      "man_proc_01 - man_proc_45" : "  numeric"
+      "bio_material_01 - bio_material_12" : "  numeric"
    },
-   "description" : "Description\nA data set that models yield as a function of biological material predictors\nand chemical structure predictors.",
+   "reference" : "chem_proc_yield\n\na tibble",
    "usage" : "This data set contains information about a chemical manufacturing\nprocess, in which the goal is to understand the relationship between\nthe process and the resulting final product yield.  Raw material in\nthis process is put through a sequence of 27 steps to generate the\nfinal pharmaceutical product.  The starting material is generated from\na biological unit and has a range of quality and characteristics.  The\nobjective in this project was to develop a model to predict percent\nyield of the manufacturing process.  The data set consisted of 177\nsamples of biological material for which 57 characteristics were\nmeasured.  Of the 57 characteristics, there were 12 measurements of\nthe biological starting material, and 45 measurements of the\nmanufacturing process.  The process variables included measurements\nsuch as temperature, drying time, washing time, and concentrations of\nby-products at various steps.  Some of the process measurements can\nbe controlled, while others are observed.  Predictors are continuous,\ncount, categorical; some are correlated, and some contain missing\nvalues.  Samples are not independent because sets of samples come from\nthe same batch of biological starting material.",
    "title" : "Chemical manufacturing process data set",
-   "reference" : "chem_proc_yield\n\na tibble"
+   "description" : "Description\nA data set that models yield as a function of biological material predictors\nand chemical structure predictors."
 }
 
 var chem_proc_yield = [

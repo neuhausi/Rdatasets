@@ -1,38 +1,6 @@
 {
    "data" : {
-      "z" : {
-         "guess_3" : [
-            "Nutmeg",
-            "Nutmeg",
-            "Nutmeg",
-            "Cinnamon"
-         ],
-         "guess_2" : [
-            "Cloves",
-            "Cardamom",
-            "Cumin",
-            "Couldn't remember the name"
-         ],
-         "guess_1" : [
-            "Cinnamon",
-            "Cinnamon",
-            "Cinnamon",
-            "Cardamom"
-         ],
-         "baker" : [
-            "Emma",
-            "Harry",
-            "Ruby",
-            "Zainab"
-         ]
-      },
       "y" : {
-         "vars" : [
-            "Var1",
-            "Var2",
-            "Var3",
-            "Var4"
-         ],
          "smps" : [
             "correct_1",
             "correct_2",
@@ -59,6 +27,38 @@
                0,
                0
             ]
+         ],
+         "vars" : [
+            "Var1",
+            "Var2",
+            "Var3",
+            "Var4"
+         ]
+      },
+      "z" : {
+         "baker" : [
+            "Emma",
+            "Harry",
+            "Ruby",
+            "Zainab"
+         ],
+         "guess_3" : [
+            "Nutmeg",
+            "Nutmeg",
+            "Nutmeg",
+            "Cinnamon"
+         ],
+         "guess_2" : [
+            "Cloves",
+            "Cardamom",
+            "Cumin",
+            "Couldn't remember the name"
+         ],
+         "guess_1" : [
+            "Cinnamon",
+            "Cinnamon",
+            "Cinnamon",
+            "Cardamom"
          ]
       }
    },
@@ -66,9 +66,9 @@
    "config" : {
       "subtitle" : "bakeoff - spice_test_wide",
       "title" : "Spice Test",
-      "sizeBy" : "guess_1",
-      "shapeBy" : "guess_2",
-      "colorBy" : "guess_3",
-      "graphType" : "Scatter3D"
+      "graphType" : "Scatter3D",
+      "colorBy" : "baker",
+      "sizeBy" : "guess_2",
+      "shapeBy" : "guess_3"
    }
 }

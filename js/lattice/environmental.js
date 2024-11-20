@@ -1,15 +1,15 @@
 var environmentalInfo ={
-   "parameters" : {
-      "wind" : "Average wind speed (at 07:00 and 10:00) in miles per hour.",
-      "radiation" : "Solar radiation (from 08:00 to 12:00) in langleys.",
-      "ozone" : "Average ozone concentration (of hourly measurements) of\nin parts per billion.",
-      "temperature" : "Maximum daily emperature in degrees Fahrenheit."
-   },
-   "title" : "Atmospheric environmental conditions in New York City",
    "format" : "A data frame with 111 observations on the following 4 variables.",
    "reference" : "Documentation contributed by Kevin Wright.",
+   "usage" : "environmental",
+   "title" : "Atmospheric environmental conditions in New York City",
    "description" : "Description\nDaily measurements of ozone concentration, wind speed, temperature and\nsolar radiation in New York City from May to September of 1973.",
-   "usage" : "environmental"
+   "parameters" : {
+      "radiation" : "Solar radiation (from 08:00 to 12:00) in langleys.",
+      "wind" : "Average wind speed (at 07:00 and 10:00) in miles per hour.",
+      "ozone" : "Average ozone concentration (of hourly measurements) of\nin parts per billion.",
+      "temperature" : "Maximum daily emperature in degrees Fahrenheit."
+   }
 }
 
 var environmental = [

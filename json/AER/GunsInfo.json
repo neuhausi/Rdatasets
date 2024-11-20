@@ -1,0 +1,22 @@
+{
+   "reference" : "Each observation is a given state in a given year. \nThere are a total of 51 states times 23 years = 1,173 observations.",
+   "usage" : "data(\"Guns\")",
+   "title" : "More Guns, Less Crime?",
+   "description" : "Description\nGuns is a balanced panel of data on 50 US states, plus the District of Columbia (for a\ntotal of 51 states), by year for 1977&ndash;1999.",
+   "parameters" : {
+      "density" : "population per square mile of land area, divided by 1,000.",
+      "male" : "percent of state population that is male, ages 10 to 29.",
+      "income" : "real per capita personal income in the state (US dollars).",
+      "state" : "factor indicating state.",
+      "population" : "state population, in millions of people.",
+      "violent" : "violent crime rate (incidents per 100,000 members of the population).",
+      "cauc" : "percent of state population that is Caucasian, ages 10 to 64.",
+      "prisoners" : "incarceration rate in the state in the previous year\n(sentenced prisoners per 100,000 residents; value for the previous year).",
+      "murder" : "murder rate (incidents per 100,000).",
+      "year" : "factor indicating year.",
+      "law" : "factor. Does the state have a shall carry law in effect in that year?",
+      "robbery" : "robbery rate (incidents per 100,000).",
+      "afam" : "percent of state population that is African-American, ages 10 to 64."
+   },
+   "format" : "A data frame containing 1,173 observations on 13 variables."
+}

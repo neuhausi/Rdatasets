@@ -1,32 +1,21 @@
 {
    "config" : {
-      "title" : "Crowd Baiting Behaviour and Suicides",
-      "subtitle" : "HSAUR - suicides",
       "segregateSamplesBy" : [
+         "Var1"
+      ],
+      "title" : "Crowd Baiting Behaviour and Suicides",
+      "groupingFactors" : [
          "Var2"
       ],
+      "subtitle" : "HSAUR - suicides",
       "colorBy" : "variable",
-      "graphType" : "Boxplot",
-      "groupingFactors" : [
-         "Var1"
-      ]
+      "graphType" : "Boxplot"
    },
    "data" : {
-      "x" : {
-         "Var1" : [
-            "June--September",
-            "October--May",
-            "June--September",
-            "October--May"
-         ],
-         "Var2" : [
-            "Baiting",
-            "Baiting",
-            "Nonbaiting",
-            "Nonbaiting"
-         ]
-      },
       "y" : {
+         "vars" : [
+            "Freq"
+         ],
          "data" : [
             [
                8,
@@ -35,14 +24,25 @@
                7
             ]
          ],
-         "vars" : [
-            "Freq"
-         ],
          "smps" : [
             "Smp1",
             "Smp2",
             "Smp3",
             "Smp4"
+         ]
+      },
+      "x" : {
+         "Var2" : [
+            "Baiting",
+            "Baiting",
+            "Nonbaiting",
+            "Nonbaiting"
+         ],
+         "Var1" : [
+            "June--September",
+            "October--May",
+            "June--September",
+            "October--May"
          ]
       }
    },

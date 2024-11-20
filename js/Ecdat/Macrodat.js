@@ -1,18 +1,18 @@
 var MacrodatInfo ={
-   "title" : "Macroeconomic Time Series for the United States",
    "format" : "A time series containing :",
-   "reference" : "Bureau of Labor Statistics, OECD, Federal Reserve.",
    "parameters" : {
+      "fyff" : "federal funds interest rate (last month in\nquarter)",
+      "fygm3" : "3 month treasury bill interest rate (last \nmonth in quarter)",
+      "lhur" : "unemployment rate (average of months in quarter)",
+      "punew" : "CPI   (Average of Months in Quarter)",
       "exruk" : "dollar / Pound exchange rate (last month \nin quarter)",
       "gdpjp" : "real GDP for Japan",
-      "fygt1" : "1 year treasury bond interest rate (last \nmonth in quarter)",
-      "punew" : "CPI   (Average of Months in Quarter)",
-      "fyff" : "federal funds interest rate (last month in\nquarter)",
-      "lhur" : "unemployment rate (average of months in quarter)",
-      "fygm3" : "3 month treasury bill interest rate (last \nmonth in quarter)"
+      "fygt1" : "1 year treasury bond interest rate (last \nmonth in quarter)"
    },
-   "usage" : "data(Macrodat)",
-   "description" : "Description\nquarterly observations from 1959-1 to 2000-4\nnumber of observations :  168\nobservation :  country\ncountry :  United States"
+   "title" : "Macroeconomic Time Series for the United States",
+   "description" : "Description\nquarterly observations from 1959-1 to 2000-4\nnumber of observations :  168\nobservation :  country\ncountry :  United States",
+   "reference" : "Bureau of Labor Statistics, OECD, Federal Reserve.",
+   "usage" : "data(Macrodat)"
 }
 
 var Macrodat = [

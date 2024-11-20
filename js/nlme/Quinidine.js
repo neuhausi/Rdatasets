@@ -1,23 +1,23 @@
 var QuinidineInfo ={
-   "usage" : "This data frame contains the following columns:",
-   "title" : "Quinidine Kinetics",
-   "reference" : "Verme et al. (1992) analyze routine clinical data on\npatients receiving the drug quinidine as a treatment for cardiac\narrhythmia (atrial fibrillation or ventricular arrhythmias).  All\npatients were receiving oral quinidine doses.  At irregular intervals\nblood samples were drawn and serum concentrations of quinidine were\ndetermined.  These data are\nanalyzed in several publications, including Davidian and Giltinan (1995,\nsection 9.3).",
    "parameters" : {
+      "dose" : "a numeric vector giving the dose of drug administered (mg).\nAlthough there were two different forms of quinidine\nadministered, the doses were adjusted for differences in\nsalt content by conversion to milligrams of quinidine base.",
+      "Smoke" : "a factor with levels\nno and\nyes giving smoking status at the time of the\nmeasurement.",
+      "Height" : "a numeric vector giving the height of the subject on entry\nto the study (in.).",
       "Age" : "a numeric vector giving the age of the subject on entry to\nthe study (yr).",
       "conc" : "a numeric vector giving the serum quinidine concentration (mg/L).",
-      "Race" : "a factor with levels\nCaucasian, \nLatin, and\nBlack identifying the race of the subject.",
-      "Height" : "a numeric vector giving the height of the subject on entry\nto the study (in.).",
-      "dose" : "a numeric vector giving the dose of drug administered (mg).\nAlthough there were two different forms of quinidine\nadministered, the doses were adjusted for differences in\nsalt content by conversion to milligrams of quinidine base.",
-      "Subject" : "a factor identifying the patient on whom the data were collected.",
-      "time" : "a numeric vector giving the time (hr) at which the drug was\nadministered or the blood sample drawn.  This is measured\nfrom the time the patient entered the study.",
-      "glyco" : "a numeric vector giving the alpha-1 acid glycoprotein\nconcentration (mg/dL).  Often measured at the same time as\nthe quinidine concentration.",
-      "interval" : "a numeric vector giving the when the drug has been given at\nregular intervals for a sufficiently long period of time to\nassume steady state behavior, the interval is recorded.",
-      "Weight" : "a numeric vector giving the body weight of the subject (kg).",
-      "Creatinine" : "an ordered factor with levels\n< 50 < >= 50 indicating the creatinine clearance (mg/min).",
-      "Ethanol" : "a factor with levels\nnone, \ncurrent,\nformer giving ethanol (alcohol) abuse status at the\ntime of the measurement.",
       "Heart" : "a factor with levels\nNo/Mild, \nModerate, and \nSevere indicating congestive heart failure for the subject.",
-      "Smoke" : "a factor with levels\nno and\nyes giving smoking status at the time of the\nmeasurement."
+      "Ethanol" : "a factor with levels\nnone, \ncurrent,\nformer giving ethanol (alcohol) abuse status at the\ntime of the measurement.",
+      "Weight" : "a numeric vector giving the body weight of the subject (kg).",
+      "Subject" : "a factor identifying the patient on whom the data were collected.",
+      "glyco" : "a numeric vector giving the alpha-1 acid glycoprotein\nconcentration (mg/dL).  Often measured at the same time as\nthe quinidine concentration.",
+      "time" : "a numeric vector giving the time (hr) at which the drug was\nadministered or the blood sample drawn.  This is measured\nfrom the time the patient entered the study.",
+      "Creatinine" : "an ordered factor with levels\n< 50 < >= 50 indicating the creatinine clearance (mg/min).",
+      "Race" : "a factor with levels\nCaucasian, \nLatin, and\nBlack identifying the race of the subject.",
+      "interval" : "a numeric vector giving the when the drug has been given at\nregular intervals for a sufficiently long period of time to\nassume steady state behavior, the interval is recorded."
    },
+   "reference" : "Verme et al. (1992) analyze routine clinical data on\npatients receiving the drug quinidine as a treatment for cardiac\narrhythmia (atrial fibrillation or ventricular arrhythmias).  All\npatients were receiving oral quinidine doses.  At irregular intervals\nblood samples were drawn and serum concentrations of quinidine were\ndetermined.  These data are\nanalyzed in several publications, including Davidian and Giltinan (1995,\nsection 9.3).",
+   "usage" : "This data frame contains the following columns:",
+   "title" : "Quinidine Kinetics",
    "description" : "Description\nThe Quinidine data frame has 1471 rows and 14 columns."
 }
 

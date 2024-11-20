@@ -1,0 +1,6 @@
+{
+   "title" : "Monthly offences in NSW",
+   "description" : "Description\nnsw_offences contains monthly data with one measured variable:\nCount:  Number of offences reported",
+   "usage" : "Time series of class 'tsibble'",
+   "format" : "Each series is uniquely identified using one key:"
+}

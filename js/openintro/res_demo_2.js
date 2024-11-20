@@ -1,14 +1,14 @@
 var res_demo_2Info ={
-   "description" : "Description\nSimulated data for regression",
-   "usage" : "res_demo_2",
    "parameters" : {
       "y_fan" : "a numeric vector",
       "x" : "a numeric vector",
       "y_log" : "a numeric vector"
    },
-   "format" : "A data frame with 300 observations on the following 3 variables.",
+   "reference" : "res_demo_2",
+   "usage" : "res_demo_2",
+   "description" : "Description\nSimulated data for regression",
    "title" : "Simulated data for regression",
-   "reference" : "res_demo_2"
+   "format" : "A data frame with 300 observations on the following 3 variables."
 }
 
 var res_demo_2 = [

@@ -1,7 +1,7 @@
 var grants_2008Info ={
    "usage" : "The data are discussed in Kuhn and Johnson (2013):",
-   "title" : "Grant acceptance data",
-   "description" : "Description\nA data set related to the success or failure of academic grants."
+   "description" : "Description\nA data set related to the success or failure of academic grants.",
+   "title" : "Grant acceptance data"
 }
 
 var grants_2008 = [

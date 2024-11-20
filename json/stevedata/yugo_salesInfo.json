@@ -1,0 +1,12 @@
+{
+   "format" : "A data frame with 24 observations on the following 3 variables.",
+   "usage" : "yugo_sales",
+   "reference" : "Data come from a website then known as carsalesbase.com. I'm\naware the inclusion of the Tercel is questionable since the third generation\nof Tercels were quite different from the first and second generations.\nHowever, I use these data to illustrate how poorly the Yugo fared against\ncompeting models, including the first and second generation Tercels. I think\nthe inclusion is fair for that purpose.",
+   "title" : "Yugo Sales in the United States, 1985-1992",
+   "description" : "Description\nA data set on Yugo sales against two competing models in the United States\nfrom 1985 to 1992.",
+   "parameters" : {
+      "year" : "the year",
+      "sales" : "the number of units sold in the United States",
+      "car" : "the car type, either the Hyundai Excel, Yugo, or Toyota Tercel"
+   }
+}

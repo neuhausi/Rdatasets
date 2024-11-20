@@ -1,16 +1,16 @@
 var MishkinInfo ={
-   "title" : "Inflation and Interest Rates",
-   "format" : "A time series containing :",
-   "reference" : "Mishkin, F. (1992) &ldquo;Is the Fisher effect for real ?&rdquo;, Journal of Monetary Economics, 30, 195-215.",
    "parameters" : {
-      "tb3" : "three-month T-bill rate (in percent, annual rate)",
-      "pai3" : "three-month inflation rate (in percent, annual rate)",
-      "pai1" : "one-month inflation rate (in percent, annual rate)",
+      "cpi" : "CPI for urban consumers, all items (the 1982-1984 average is set to 100)",
       "tb1" : "one-month T-bill rate (in percent, annual rate)",
-      "cpi" : "CPI for urban consumers, all items (the 1982-1984 average is set to 100)"
+      "pai1" : "one-month inflation rate (in percent, annual rate)",
+      "pai3" : "three-month inflation rate (in percent, annual rate)",
+      "tb3" : "three-month T-bill rate (in percent, annual rate)"
    },
+   "description" : "Description\nmonthly observations from 1950-2 to 1990-12\nnumber of observations :  491\nobservation :  country\ncountry :  United States",
+   "title" : "Inflation and Interest Rates",
+   "reference" : "Mishkin, F. (1992) &ldquo;Is the Fisher effect for real ?&rdquo;, Journal of Monetary Economics, 30, 195-215.",
    "usage" : "data(Mishkin)",
-   "description" : "Description\nmonthly observations from 1950-2 to 1990-12\nnumber of observations :  491\nobservation :  country\ncountry :  United States"
+   "format" : "A time series containing :"
 }
 
 var Mishkin = [

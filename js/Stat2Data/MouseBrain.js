@@ -1,13 +1,13 @@
 var MouseBrainInfo ={
-   "parameters" : {
-      "Contacts" : "Number of social contacts the mouse had during the experiment",
-      "Sex" : "F=female or M=male",
-      "Genotype" : "Minus, Mixed, or Plus (see description below)"
-   },
    "description" : "Description\nEffects of altering serotonin levels on social interactions of mice",
    "title" : "Effects of Serotonin in Mice",
+   "usage" : "A data frame with 48 observations on the following 3 variables.",
    "reference" : "Serotonin is a chemical that influences mood balance in humans. But how does it affect mice? Scientists genetically altered mice by \"knocking out\" the expression of a gene, tryptophan hydroxylase 2 (Tph2), that regulates serotonin production. With careful breeding, the scientists produced three types of mice that we label as &ldquo;Minus&rdquo; for Tph2-/-, &ldquo;Plus&rdquo; for Tph2+/+, &ldquo;Mixed&rdquo; for Tph2+/-. The variable Genotype records Minus/Plus/Mixed. The variable Contacts is the number of social contacts that a mouse had with other mice during an experiment and the variable Sex is &ldquo;M&rdquo; for males and &ldquo;F&rdquo; for females.",
-   "usage" : "A data frame with 48 observations on the following 3 variables."
+   "parameters" : {
+      "Contacts" : "Number of social contacts the mouse had during the experiment",
+      "Genotype" : "Minus, Mixed, or Plus (see description below)",
+      "Sex" : "F=female or M=male"
+   }
 }
 
 var MouseBrain = [

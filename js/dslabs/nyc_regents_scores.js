@@ -1,17 +1,17 @@
 var nyc_regents_scoresInfo ={
+   "description" : "Description\nDistribution of scores for New York City Regents algebra, global history, biology, English, and U.S. history exams. \nThese data were used to make this New York Times plot.",
+   "title" : "NYC Regents exams scores 2010",
+   "reference" : "New York City Department of Education via Amanda Cox.",
+   "usage" : "nyc_regents_scores",
    "parameters" : {
-      "living_environment.  Score frequency on biology exam." : null,
-      "global_history. Score frequency on global history exam." : null,
-      "us_history. Score frequency on  U.S. history exam." : null,
       "integrated_algebra. Score frequency on Algebra exam." : null,
+      "global_history. Score frequency on global history exam." : null,
+      "living_environment.  Score frequency on biology exam." : null,
       "english. Score frequency on English exam." : null,
+      "us_history. Score frequency on  U.S. history exam." : null,
       "score. Test score from 0 to 100." : null
    },
-   "title" : "NYC Regents exams scores 2010",
-   "format" : "An object of class \"data.frame\".",
-   "reference" : "New York City Department of Education via Amanda Cox.",
-   "description" : "Description\nDistribution of scores for New York City Regents algebra, global history, biology, English, and U.S. history exams. \nThese data were used to make this New York Times plot.",
-   "usage" : "nyc_regents_scores"
+   "format" : "An object of class \"data.frame\"."
 }
 
 var nyc_regents_scores = [

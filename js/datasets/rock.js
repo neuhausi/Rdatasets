@@ -1,8 +1,8 @@
 var rockInfo ={
    "title" : "Measurements on Petroleum Rock Samples",
-   "format" : "A data frame with 48 rows and 4 numeric columns.",
+   "description" : "Description\nMeasurements on 48 rock samples from a petroleum reservoir.",
    "usage" : "rock",
-   "description" : "Description\nMeasurements on 48 rock samples from a petroleum reservoir."
+   "format" : "A data frame with 48 rows and 4 numeric columns."
 }
 
 var rock = [

@@ -1,8 +1,8 @@
 var us_changeInfo ={
-   "title" : "Percentage changes in economic variables in the USA.",
    "format" : "Federal Reserve Bank of St Louis.",
-   "usage" : "Time series of class 'tsibble'",
-   "description" : "Description\nus_change contains percentage changes in\nquarterly personal consumption expenditure, personal disposable income,\nproduction, savings and the unemployment rate for the US, 1970 to 2016.\nOriginal $ values were in chained 2012 US dollars."
+   "description" : "Description\nus_change contains percentage changes in\nquarterly personal consumption expenditure, personal disposable income,\nproduction, savings and the unemployment rate for the US, 1970 to 2016.\nOriginal $ values were in chained 2012 US dollars.",
+   "title" : "Percentage changes in economic variables in the USA.",
+   "usage" : "Time series of class 'tsibble'"
 }
 
 var us_change = [

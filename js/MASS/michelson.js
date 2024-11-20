@@ -1,14 +1,14 @@
 var michelsonInfo ={
-   "title" : "Michelson's Speed of Light Data",
-   "reference" : "A.J. Weekes (1986) A Genstat Primer. Edward Arnold.",
    "format" : "The data frame contains the following components:",
    "parameters" : {
-      "Run" : "The run number within each experiment.",
       "Expt" : "The experiment number, from 1 to 5.",
-      "Speed" : "Speed-of-light measurement."
+      "Speed" : "Speed-of-light measurement.",
+      "Run" : "The run number within each experiment."
    },
+   "reference" : "A.J. Weekes (1986) A Genstat Primer. Edward Arnold.",
    "usage" : "michelson",
-   "description" : "Description\nMeasurements of the speed of light in air, made between 5th June\nand 2nd July, 1879.  The data consists of five experiments, each\nconsisting of 20 consecutive runs.  The response is the speed\nof light in km/s, less 299000.  The currently accepted value, on\nthis scale of measurement, is 734.5."
+   "description" : "Description\nMeasurements of the speed of light in air, made between 5th June\nand 2nd July, 1879.  The data consists of five experiments, each\nconsisting of 20 consecutive runs.  The response is the speed\nof light in km/s, less 299000.  The currently accepted value, on\nthis scale of measurement, is 734.5.",
+   "title" : "Michelson's Speed of Light Data"
 }
 
 var michelson = [

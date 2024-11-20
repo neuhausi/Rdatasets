@@ -1,13 +1,13 @@
 var miceInfo ={
-   "title" : "Pregnant Female Mice Experiment",
    "format" : "A data frame with 20 observations on the following 3 variables.",
+   "description" : "Description\nUnpublished laboratory data on the proportion of affected foetuses in two groups (control and treatment) of 10 \npregnant female mice (Kupper and Haseman, 1978, p. 75).",
+   "title" : "Pregnant Female Mice Experiment",
    "usage" : "data(mice)",
    "parameters" : {
       "group" : "a factor with levels CTRL and TREAT",
-      "n" : "a numeric vector: the total number of foetuses.",
-      "y" : "a numeric vector: the number of affected foetuses."
-   },
-   "description" : "Description\nUnpublished laboratory data on the proportion of affected foetuses in two groups (control and treatment) of 10 \npregnant female mice (Kupper and Haseman, 1978, p. 75)."
+      "y" : "a numeric vector: the number of affected foetuses.",
+      "n" : "a numeric vector: the total number of foetuses."
+   }
 }
 
 var mice = [

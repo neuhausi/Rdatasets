@@ -1,8 +1,8 @@
 var RainIbkInfo ={
-   "title" : "Precipitation Observations and Forecasts for Innsbruck",
-   "format" : "A data frame with 4977 rows. The first column (rain) are 3 days\naccumulated precipitation amount observations, Columns 2-12 (rainfc)\nare 5-8 days accumulated precipitation amount forecasts from the individual\nensemble members.",
    "usage" : "data(\"RainIbk\")",
-   "description" : "Description\nAccumulated 5-8 days precipitation amount for Innsbruck. Data includes GEFS\nreforecasts (Hamill et al. 2013) and observations from SYNOP station Innsbruck\nAirport (11120) from 2000-01-01 to 2013-09-17."
+   "description" : "Description\nAccumulated 5-8 days precipitation amount for Innsbruck. Data includes GEFS\nreforecasts (Hamill et al. 2013) and observations from SYNOP station Innsbruck\nAirport (11120) from 2000-01-01 to 2013-09-17.",
+   "title" : "Precipitation Observations and Forecasts for Innsbruck",
+   "format" : "A data frame with 4977 rows. The first column (rain) are 3 days\naccumulated precipitation amount observations, Columns 2-12 (rainfc)\nare 5-8 days accumulated precipitation amount forecasts from the individual\nensemble members."
 }
 
 var RainIbk = [

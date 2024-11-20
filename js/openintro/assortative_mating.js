@@ -1,13 +1,13 @@
 var assortative_matingInfo ={
-   "title" : "Eye color of couples",
-   "reference" : "B. Laeng et al. Why do blue-eyed men prefer women with the same eye\ncolor? In: Behavioral Ecology and Sociobiology 61.3 (2007), pp. 371-384.",
    "format" : "A data frame with 204 observations on the following 2 variables.",
    "parameters" : {
-      "partner_female" : "a factor with blue, brown, and green",
-      "self_male" : "a factor with levels blue, brown, and green"
+      "self_male" : "a factor with levels blue, brown, and green",
+      "partner_female" : "a factor with blue, brown, and green"
    },
+   "description" : "Description\nColors of the eye colors of male and female partners.",
+   "title" : "Eye color of couples",
    "usage" : "assortative_mating",
-   "description" : "Description\nColors of the eye colors of male and female partners."
+   "reference" : "B. Laeng et al. Why do blue-eyed men prefer women with the same eye\ncolor? In: Behavioral Ecology and Sociobiology 61.3 (2007), pp. 371-384."
 }
 
 var assortative_mating = [

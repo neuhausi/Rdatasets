@@ -1,0 +1,13 @@
+{
+   "format" : "A data frame with the following 4 variables.",
+   "parameters" : {
+      "ub" : "the lower bound of the value (10th percentile)",
+      "year" : "the year",
+      "value" : "the mean concentration of sulfur dioxide in the air\nbased on 32 trend sites, in parts per billion",
+      "lb" : "the upper bound of the value (90th percentile)"
+   },
+   "title" : "Sulfur Dioxide Emissions, 1980-2020",
+   "description" : "Description\nThis data set contains yearly observations by the Environmental Protection Agency\non the concentration of sulfur dioxide in parts per billion, based on 32 sites.\nI use this for in-class illustration. Note that the national standard is\n75 parts per billion. Data are the national trend.",
+   "reference" : "Environmental Protection Agency (\"Sulfur Dioxide Trends\")",
+   "usage" : "so2concentrations"
+}

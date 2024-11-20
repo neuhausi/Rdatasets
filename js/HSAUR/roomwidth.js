@@ -1,13 +1,13 @@
 var roomwidthInfo ={
-   "description" : "Description\nLecture room width estimated by students in two different units.",
    "usage" : "data(\"roomwidth\")",
-   "parameters" : {
-      "width" : "the estimated width of the lecture room.",
-      "unit" : "a factor with levels feet and metres."
-   },
+   "reference" : "Shortly after metric units of length were officially introduced\nin Australia, each of a group of 44 students was asked to guess,\nto the nearest metre, the width of the lecture hall in which \nthey were sitting. Another group of 69 students in the same room   \nwas asked to guess the width in feet, to the nearest foot. The\ndata were collected by Professor T. Lewis and are taken \nfrom Hand et al (1994). The main question is whether estimation in feet and \nin metres gives different results.",
+   "description" : "Description\nLecture room width estimated by students in two different units.",
    "title" : "Students Estimates of Lecture Room Width",
-   "format" : "A data frame with 113 observations on the following 2 variables.",
-   "reference" : "Shortly after metric units of length were officially introduced\nin Australia, each of a group of 44 students was asked to guess,\nto the nearest metre, the width of the lecture hall in which \nthey were sitting. Another group of 69 students in the same room   \nwas asked to guess the width in feet, to the nearest foot. The\ndata were collected by Professor T. Lewis and are taken \nfrom Hand et al (1994). The main question is whether estimation in feet and \nin metres gives different results."
+   "parameters" : {
+      "unit" : "a factor with levels feet and metres.",
+      "width" : "the estimated width of the lecture room."
+   },
+   "format" : "A data frame with 113 observations on the following 2 variables."
 }
 
 var roomwidth = [

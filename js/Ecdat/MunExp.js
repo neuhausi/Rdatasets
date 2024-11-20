@@ -1,16 +1,16 @@
 var MunExpInfo ={
-   "format" : "A dataframe containing :",
-   "title" : "Municipal Expenditure Data",
    "reference" : "Dahlberg, M. and E. Johansson (2000) &ldquo;An examination of the dynamic behavior of local government using GMM boot-strapping methods&rdquo;, Journal of Applied Econometrics, 21, 333-355.",
-   "parameters" : {
-      "expend" : "expenditure",
-      "grants" : "grants from Central Government",
-      "year" : "date",
-      "revenue" : "revenue from taxes and fees",
-      "id" : "identification"
-   },
    "usage" : "data(MunExp)",
-   "description" : "Description\na panel of 265 observations  from 1979  to 1987\nnumber of observations :  2385\nobservation :  regional\ncountry :  Sweden"
+   "description" : "Description\na panel of 265 observations  from 1979  to 1987\nnumber of observations :  2385\nobservation :  regional\ncountry :  Sweden",
+   "title" : "Municipal Expenditure Data",
+   "parameters" : {
+      "id" : "identification",
+      "year" : "date",
+      "grants" : "grants from Central Government",
+      "expend" : "expenditure",
+      "revenue" : "revenue from taxes and fees"
+   },
+   "format" : "A dataframe containing :"
 }
 
 var MunExp = [

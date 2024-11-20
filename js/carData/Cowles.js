@@ -1,15 +1,15 @@
 var CowlesInfo ={
-   "parameters" : {
-      "volunteer" : "volunteeing, a factor with levels: no; yes",
-      "neuroticism" : "scale from Eysenck personality inventory",
-      "extraversion" : "scale from Eysenck personality inventory",
-      "sex" : "a factor with levels: female; male"
-   },
-   "reference" : "Cowles, M. and C. Davis (1987)\nThe subject matter of psychology: Volunteers.\nBritish Journal of Social Psychology 26, 97&ndash;102.",
    "format" : "This data frame contains the following columns:",
    "title" : "Cowles and Davis's Data on Volunteering",
    "description" : "Description\nThe Cowles data frame has 1421 rows and 4 columns.\nThese data come from a study of the personality determinants\nof volunteering for psychological research.",
-   "usage" : "Cowles"
+   "usage" : "Cowles",
+   "reference" : "Cowles, M. and C. Davis (1987)\nThe subject matter of psychology: Volunteers.\nBritish Journal of Social Psychology 26, 97&ndash;102.",
+   "parameters" : {
+      "extraversion" : "scale from Eysenck personality inventory",
+      "neuroticism" : "scale from Eysenck personality inventory",
+      "sex" : "a factor with levels: female; male",
+      "volunteer" : "volunteeing, a factor with levels: no; yes"
+   }
 }
 
 var Cowles = [

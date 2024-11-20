@@ -1,13 +1,13 @@
 var offshore_drillingInfo ={
-   "description" : "Description\nA 2010 survey asking a randomly sample of registered voters in California\nfor their position on drilling for oil and natural gas off the Coast of\nCalifornia.",
-   "usage" : "offshore_drilling",
    "parameters" : {
-      "college_grad" : "a factor with\nlevels no yes",
-      "position" : "a factor with levels do not know\noppose support"
+      "position" : "a factor with levels do not know\noppose support",
+      "college_grad" : "a factor with\nlevels no yes"
    },
+   "description" : "Description\nA 2010 survey asking a randomly sample of registered voters in California\nfor their position on drilling for oil and natural gas off the Coast of\nCalifornia.",
    "title" : "California poll on drilling off the California coast",
-   "format" : "A data frame with 827 observations on the following 2 variables.",
-   "reference" : "Survey USA, Election Poll #16804, data collected July 8-11, 2010."
+   "usage" : "offshore_drilling",
+   "reference" : "Survey USA, Election Poll #16804, data collected July 8-11, 2010.",
+   "format" : "A data frame with 827 observations on the following 2 variables."
 }
 
 var offshore_drilling = [

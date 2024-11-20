@@ -1,0 +1,6 @@
+{
+   "title" : "Half-hourly electricity demand for Victoria, Australia",
+   "description" : "Description\nvic_elec is a half-hourly tsibble with three values:\nDemand:       Total electricity demand in MWh.\n\n\n \nTemperature:  Temperature of Melbourne (BOM site 086071).\n\n\n \nHoliday:      Indicator for if that day is a public holiday.",
+   "usage" : "Time series of class tsibble.",
+   "format" : "This data is for operational demand, which is the demand met by local\nscheduled generating units, semi-scheduled generating units, and\nnon-scheduled intermittent generating units of aggregate capacity larger\nthan 30 MWh, and by generation imports to the region. The operational demand\nexcludes the demand met by non-scheduled non-intermittent generating units,\nnon-scheduled intermittent generating units of aggregate capacity smaller\nthan 30 MWh, exempt generation (e.g. rooftop solar, gas tri-generation, very\nsmall wind farms, etc), and demand of local scheduled loads. It also\nexcludes some very large industrial users (such as mines or smelters)."
+}

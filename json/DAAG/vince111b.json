@@ -3,10 +3,11 @@
       "smpOverlays" : [
          "site"
       ],
-      "title" : "Averages by block of corn yields",
       "graphType" : "Heatmap",
+      "title" : "Averages by block of corn yields",
       "subtitle" : "DAAG - vince111b"
    },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>vince111b</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Averages by block of corn yields, for treatment 111 only</h2>\n<h3>Description</h3>\n<p>These data frames have averages by blocks (parcels) for the treatment\n<code>111</code>.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>vince111b</code></pre>\n<h3>Format</h3>\n<p> A data frame with 36 observations on 8 variables.\n</p>\n<dl>\n<dt>site</dt><dd><p>a factor with levels \n<code>AGSV</code> <code>CASV</code> <code>CPSV</code>\n<code>LPSV</code> <code>MPSV</code> <code>OOSV</code> <code>OTSV</code> <code>SSSV</code> <code>UISV</code>\n</p>\n</dd>\n<dt>parcel</dt><dd><p>a factor with levels <code>I</code> <code>II</code> <code>III</code> <code>IV</code></p>\n</dd>\n<dt>code</dt><dd><p>a numeric vector</p>\n</dd>\n<dt>island</dt><dd><p>a numeric vector</p>\n</dd>\n<dt>id</dt><dd><p>a numeric vector</p>\n</dd>\n<dt>plot</dt><dd><p>a numeric vector</p>\n</dd>\n<dt>trt</dt><dd><p>a numeric vector</p>\n</dd>\n<dt>harvwt</dt><dd><p>a numeric vector</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>Andrews DF; Herzberg AM, 1985. Data. A Collection of Problems from\nMany Fields for the Student and Research Worker. Springer-Verlag.\n(pp. 339-353)\n</p>\n</main>\n</div>\n",
    "data" : {
       "x" : {
          "site" : [
@@ -49,6 +50,15 @@
          ]
       },
       "y" : {
+         "vars" : [
+            "parcel",
+            "code",
+            "island",
+            "id",
+            "plot",
+            "trt",
+            "harvwt"
+         ],
          "smps" : [
             "Smp1",
             "Smp2",
@@ -86,15 +96,6 @@
             "Smp34",
             "Smp35",
             "Smp36"
-         ],
-         "vars" : [
-            "parcel",
-            "code",
-            "island",
-            "id",
-            "plot",
-            "trt",
-            "harvwt"
          ],
          "data" : [
             [
@@ -365,6 +366,5 @@
             ]
          ]
       }
-   },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>vince111b</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Averages by block of corn yields, for treatment 111 only</h2>\n<h3>Description</h3>\n<p>These data frames have averages by blocks (parcels) for the treatment\n<code>111</code>.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>vince111b</code></pre>\n<h3>Format</h3>\n<p> A data frame with 36 observations on 8 variables.\n</p>\n<dl>\n<dt>site</dt><dd><p>a factor with levels \n<code>AGSV</code> <code>CASV</code> <code>CPSV</code>\n<code>LPSV</code> <code>MPSV</code> <code>OOSV</code> <code>OTSV</code> <code>SSSV</code> <code>UISV</code>\n</p>\n</dd>\n<dt>parcel</dt><dd><p>a factor with levels <code>I</code> <code>II</code> <code>III</code> <code>IV</code></p>\n</dd>\n<dt>code</dt><dd><p>a numeric vector</p>\n</dd>\n<dt>island</dt><dd><p>a numeric vector</p>\n</dd>\n<dt>id</dt><dd><p>a numeric vector</p>\n</dd>\n<dt>plot</dt><dd><p>a numeric vector</p>\n</dd>\n<dt>trt</dt><dd><p>a numeric vector</p>\n</dd>\n<dt>harvwt</dt><dd><p>a numeric vector</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>Andrews DF; Herzberg AM, 1985. Data. A Collection of Problems from\nMany Fields for the Student and Research Worker. Springer-Verlag.\n(pp. 339-353)\n</p>\n</main>\n</div>\n"
+   }
 }

@@ -1,51 +1,7 @@
 {
-   "config" : {
-      "subtitle" : "wooldridge - rdtelec",
-      "graphType" : "Heatmap",
-      "title" : "rdtelec"
-   },
    "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>rdtelec</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>rdtelec</h2>\n<h3>Description</h3>\n<p>Wooldridge Source: See RDCHEM.RAW Data loads lazily.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data('rdtelec')\n</code></pre>\n<h3>Format</h3>\n<p>A data.frame with 29 observations on 6 variables:\n</p>\n<ul>\n<li> <p><strong>rd:</strong> R&amp;D spending, millions $\n</p>\n</li>\n<li> <p><strong>sales:</strong> firm sales, millions $\n</p>\n</li>\n<li> <p><strong>rdintens:</strong> rd as percent of sales\n</p>\n</li>\n<li> <p><strong>lrd:</strong> log(rd)\n</p>\n</li>\n<li> <p><strong>lsales:</strong> log(sales)\n</p>\n</li>\n<li> <p><strong>salessq:</strong> sales^2\n</p>\n</li></ul>\n<h3>Notes</h3>\n<p>According to these data, the R&amp;D/firm size relationship is different in the telecommunications industry than in the chemical industry: there is pretty strong evidence that R&amp;D intensity decreases with firm size in telecommunications. Of course, that was in 1991. The data could easily be updated, and a panel data set could be constructed.\n</p>\n<p>Used in Text: not used\n</p>\n<h3>Source</h3>\n<p><a href=\"https://www.cengage.com/cgi-wadsworth/course_products_wp.pl?fid=M20b&amp;product_isbn_issn=9781111531041\">https://www.cengage.com/cgi-wadsworth/course_products_wp.pl?fid=M20b&amp;product_isbn_issn=9781111531041</a>\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'> str(rdtelec)\n</code></pre>\n</main>\n</div>\n",
    "data" : {
       "y" : {
-         "vars" : [
-            "rd",
-            "sales",
-            "rdintens",
-            "lrd",
-            "lsales",
-            "salessq"
-         ],
-         "smps" : [
-            "Smp1",
-            "Smp2",
-            "Smp3",
-            "Smp4",
-            "Smp5",
-            "Smp6",
-            "Smp7",
-            "Smp8",
-            "Smp9",
-            "Smp10",
-            "Smp11",
-            "Smp12",
-            "Smp13",
-            "Smp14",
-            "Smp15",
-            "Smp16",
-            "Smp17",
-            "Smp18",
-            "Smp19",
-            "Smp20",
-            "Smp21",
-            "Smp22",
-            "Smp23",
-            "Smp24",
-            "Smp25",
-            "Smp26",
-            "Smp27",
-            "Smp28",
-            "Smp29"
-         ],
          "data" : [
             [
                25.5,
@@ -233,7 +189,51 @@
                22801,
                3249
             ]
+         ],
+         "smps" : [
+            "Smp1",
+            "Smp2",
+            "Smp3",
+            "Smp4",
+            "Smp5",
+            "Smp6",
+            "Smp7",
+            "Smp8",
+            "Smp9",
+            "Smp10",
+            "Smp11",
+            "Smp12",
+            "Smp13",
+            "Smp14",
+            "Smp15",
+            "Smp16",
+            "Smp17",
+            "Smp18",
+            "Smp19",
+            "Smp20",
+            "Smp21",
+            "Smp22",
+            "Smp23",
+            "Smp24",
+            "Smp25",
+            "Smp26",
+            "Smp27",
+            "Smp28",
+            "Smp29"
+         ],
+         "vars" : [
+            "rd",
+            "sales",
+            "rdintens",
+            "lrd",
+            "lsales",
+            "salessq"
          ]
       }
+   },
+   "config" : {
+      "graphType" : "Heatmap",
+      "subtitle" : "wooldridge - rdtelec",
+      "title" : "rdtelec"
    }
 }

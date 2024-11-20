@@ -1,12 +1,16 @@
 {
    "config" : {
-      "graphType" : "Scatter3D",
+      "subtitle" : "nlme - Relaxin",
       "title" : "Assay for Relaxin",
-      "subtitle" : "nlme - Relaxin"
+      "graphType" : "Scatter3D"
    },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>Relaxin</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Assay for Relaxin</h2>\n<h3>Description</h3>\n<p>The <code>Relaxin</code> data frame has 198 rows and 3 columns.\n</p>\n<h3>Format</h3>\n<p>This data frame contains the following columns:\n</p>\n<dl>\n<dt>Run</dt><dd>\n<p>an ordered factor with levels\n<code>5</code> &lt; <code>8</code> &lt; <code>9</code> &lt; <code>3</code> &lt; <code>4</code> &lt; <code>2</code> &lt; <code>7</code> &lt; <code>1</code> &lt; <code>6</code>\n</p>\n</dd>\n<dt>conc</dt><dd>\n<p>a numeric vector\n</p>\n</dd>\n<dt>cAMP</dt><dd>\n<p>a numeric vector\n</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>Pinheiro, J. C. and Bates, D. M. (2000), <em>Mixed-Effects Models in S\nand S-PLUS</em>, Springer, New York.\n</p>\n</main>\n</div>\n",
    "data" : {
       "y" : {
+         "smps" : [
+            "Run",
+            "conc",
+            "cAMP"
+         ],
          "data" : [
             [
                1,
@@ -1198,12 +1202,8 @@
             "Var196",
             "Var197",
             "Var198"
-         ],
-         "smps" : [
-            "Run",
-            "conc",
-            "cAMP"
          ]
       }
-   }
+   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>Relaxin</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Assay for Relaxin</h2>\n<h3>Description</h3>\n<p>The <code>Relaxin</code> data frame has 198 rows and 3 columns.\n</p>\n<h3>Format</h3>\n<p>This data frame contains the following columns:\n</p>\n<dl>\n<dt>Run</dt><dd>\n<p>an ordered factor with levels\n<code>5</code> &lt; <code>8</code> &lt; <code>9</code> &lt; <code>3</code> &lt; <code>4</code> &lt; <code>2</code> &lt; <code>7</code> &lt; <code>1</code> &lt; <code>6</code>\n</p>\n</dd>\n<dt>conc</dt><dd>\n<p>a numeric vector\n</p>\n</dd>\n<dt>cAMP</dt><dd>\n<p>a numeric vector\n</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>Pinheiro, J. C. and Bates, D. M. (2000), <em>Mixed-Effects Models in S\nand S-PLUS</em>, Springer, New York.\n</p>\n</main>\n</div>\n"
 }

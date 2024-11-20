@@ -1,16 +1,16 @@
 var hodgInfo ={
-   "description" : "Description\nThe hodg data frame has 43 rows and 6 columns.",
    "parameters" : {
       "time" : "Time to death or relapse, days",
       "wtime" : "Waiting time to transplant in months",
-      "gtype" : "Graft type (1=allogenic, 2=autologous)",
       "delta" : "Death/relapse indicator (0=alive, 1=dead)",
-      "dtype" : "Disease type (1=Non Hodgkin lymphoma, 2=Hodgkins disease)",
-      "score" : "Karnofsky score"
+      "score" : "Karnofsky score",
+      "gtype" : "Graft type (1=allogenic, 2=autologous)",
+      "dtype" : "Disease type (1=Non Hodgkin lymphoma, 2=Hodgkins disease)"
    },
-   "usage" : "This data frame contains the following columns:",
+   "description" : "Description\nThe hodg data frame has 43 rows and 6 columns.",
    "title" : "data from Section 1.10",
-   "reference" : "Klein and Moeschberger (1997) Survival Analysis Techniques for Censored\nand truncated data, Springer.\nAvalos et al. Bone Marrow Transplantation 13(1993):133-138."
+   "reference" : "Klein and Moeschberger (1997) Survival Analysis Techniques for Censored\nand truncated data, Springer.\nAvalos et al. Bone Marrow Transplantation 13(1993):133-138.",
+   "usage" : "This data frame contains the following columns:"
 }
 
 var hodg = [

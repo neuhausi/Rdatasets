@@ -1,8 +1,8 @@
 var qgasInfo ={
-   "usage" : "Quarterly time series of class ts.",
-   "title" : "Quarterly Australian Gas Production",
    "format" : "Australian Bureau of Statistics. Cat. 8301.0.55.001.",
-   "description" : "Description\nTotal quarterly gas production in Australia (in petajoules) from 1956:Q1 to\n2010:Q2."
+   "title" : "Quarterly Australian Gas Production",
+   "description" : "Description\nTotal quarterly gas production in Australia (in petajoules) from 1956:Q1 to\n2010:Q2.",
+   "usage" : "Quarterly time series of class ts."
 }
 
 var qgas = [

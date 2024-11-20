@@ -1,15 +1,8 @@
 {
-   "config" : {
-      "subtitle" : "HSAUR - watervoles",
-      "smpOverlays" : [
-         null
-      ],
-      "graphType" : "Heatmap",
-      "title" : "Water Voles Data"
-   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>watervoles</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2> Water Voles Data </h2>\n<h3>Description</h3>\n<p>Percentage incidence of the 13 characteristics of water voles in 14\nareas.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(\"watervoles\")</code></pre>\n<h3>Format</h3>\n<p>A dissimilarity matrix for the following 14 variables, i.e,\nareas:\n<code>Surrey</code>,\n<code>Shropshire</code>,\n<code>Yorkshire</code>,\n<code>Perthshire</code>,\n<code>Aberdeen</code>,\n<code>Elean Gamhna</code>,\n<code>Alps</code>,\n<code>Yugoslavia</code>,\n<code>Germany</code>,\n<code>Norway</code>,\n<code>Pyrenees I</code>,\n<code>Pyrenees II</code>,\n<code>North Spain</code>, and\n<code>South Spain</code>.\n</p>\n<h3>Details</h3>\n<p>Corbet et al. (1970) report a study of water voles (genus Arvicola)\nin which the aim was to compare British populations of these\nanimals with those in Europe, to investigate whether more than\none species might be present in Britain. The original data consisted\nof observations of the presence or absence of 13 characteristics\nin about 300 water vole skulls arising from six British populations\nand eight populations from the rest of Europe.\nThe data are the percentage incidence of the 13 characteristics\nin each of the 14 samples of water vole skulls.\n</p>\n<h3>Source</h3>\n<p>G. B. Corbet, J. Cummins, S. R. Hedges, W. J. Krzanowski (1970),\nThe taxonomic structure of British water voles, genus <em>Arvicola</em>.\n<em>Journal of Zoology</em>, <b>61</b>, 301&ndash;316.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>\n  data(\"watervoles\", package = \"HSAUR\")\n  watervoles\n</code></pre>\n</main>\n</div>\n",
    "data" : {
       "y" : {
-         "smps" : [
+         "vars" : [
             "Surrey",
             "Shropshire",
             "Yorkshire",
@@ -25,7 +18,7 @@
             "North Spain",
             "South Spain"
          ],
-         "vars" : [
+         "smps" : [
             "Surrey",
             "Shropshire",
             "Yorkshire",
@@ -269,5 +262,12 @@
          ]
       }
    },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>watervoles</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2> Water Voles Data </h2>\n<h3>Description</h3>\n<p>Percentage incidence of the 13 characteristics of water voles in 14\nareas.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(\"watervoles\")</code></pre>\n<h3>Format</h3>\n<p>A dissimilarity matrix for the following 14 variables, i.e,\nareas:\n<code>Surrey</code>,\n<code>Shropshire</code>,\n<code>Yorkshire</code>,\n<code>Perthshire</code>,\n<code>Aberdeen</code>,\n<code>Elean Gamhna</code>,\n<code>Alps</code>,\n<code>Yugoslavia</code>,\n<code>Germany</code>,\n<code>Norway</code>,\n<code>Pyrenees I</code>,\n<code>Pyrenees II</code>,\n<code>North Spain</code>, and\n<code>South Spain</code>.\n</p>\n<h3>Details</h3>\n<p>Corbet et al. (1970) report a study of water voles (genus Arvicola)\nin which the aim was to compare British populations of these\nanimals with those in Europe, to investigate whether more than\none species might be present in Britain. The original data consisted\nof observations of the presence or absence of 13 characteristics\nin about 300 water vole skulls arising from six British populations\nand eight populations from the rest of Europe.\nThe data are the percentage incidence of the 13 characteristics\nin each of the 14 samples of water vole skulls.\n</p>\n<h3>Source</h3>\n<p>G. B. Corbet, J. Cummins, S. R. Hedges, W. J. Krzanowski (1970),\nThe taxonomic structure of British water voles, genus <em>Arvicola</em>.\n<em>Journal of Zoology</em>, <b>61</b>, 301&ndash;316.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>\n  data(\"watervoles\", package = \"HSAUR\")\n  watervoles\n</code></pre>\n</main>\n</div>\n"
+   "config" : {
+      "smpOverlays" : [
+         null
+      ],
+      "graphType" : "Heatmap",
+      "title" : "Water Voles Data",
+      "subtitle" : "HSAUR - watervoles"
+   }
 }

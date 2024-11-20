@@ -1,8 +1,8 @@
 var hyndsightInfo ={
-   "description" : "Description\nHyndsight is Rob Hyndman's personal blog at\nhttps://robjhyndman.com/hyndsight/. This series contains the daily\npageviews for one year, beginning 30 April 2014. The frequency is set to 7,\nto allow the weekly pattern to be modelled.",
+   "format" : "Rob Hyndman",
    "usage" : "Time series object of class ts.",
-   "title" : "Daily pageviews for the Hyndsight blog. 30 April 2014 to 29 April 2015.",
-   "format" : "Rob Hyndman"
+   "description" : "Description\nHyndsight is Rob Hyndman's personal blog at\nhttps://robjhyndman.com/hyndsight/. This series contains the daily\npageviews for one year, beginning 30 April 2014. The frequency is set to 7,\nto allow the weekly pattern to be modelled.",
+   "title" : "Daily pageviews for the Hyndsight blog. 30 April 2014 to 29 April 2015."
 }
 
 var hyndsight = [

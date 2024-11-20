@@ -1,14 +1,56 @@
 {
-   "config" : {
-      "subtitle" : "psych - withinBetween",
-      "graphType" : "Heatmap",
-      "title" : "An example of the distinction between within group and between group correlations",
-      "smpOverlays" : [
-         "Group"
-      ]
-   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>withinBetween</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>An example of the distinction between within group and between group correlations</h2>\n<h3>Description</h3>\n<p>A demonstration that a correlation may be decomposed to a within group correlation  and a between group correlations and these two correlations are independent.  Between group correlations are sometimes called ecological correlations, the decomposition into  within and between group correlations is a basic concept in multilevel modeling.  This data set shows the composite correlations between 9 variables, representing 16 cases with four groups.    \n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(withinBetween)</code></pre>\n<h3>Format</h3>\n<p>A data frame with 16 observations on the following 10 variables.\n</p>\n<dl>\n<dt><code>Group</code></dt><dd><p>An example grouping factor.</p>\n</dd>\n<dt><code>V1</code></dt><dd><p>A column of 16 observations </p>\n</dd>\n<dt><code>V2</code></dt><dd><p>A column of 16 observations </p>\n</dd>\n<dt><code>V3</code></dt><dd><p>A column of 16 observations </p>\n</dd>\n<dt><code>V4</code></dt><dd><p>A column of 16 observations </p>\n</dd>\n<dt><code>V5</code></dt><dd><p>A column of 16 observations </p>\n</dd>\n<dt><code>V6</code></dt><dd><p>A column of 16 observations </p>\n</dd>\n<dt><code>V7</code></dt><dd><p>A column of 16 observations </p>\n</dd>\n<dt><code>V8</code></dt><dd><p>A column of 16 observations </p>\n</dd>\n<dt><code>V9</code></dt><dd><p>A column of 16 observations </p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>Correlations between individuals who belong to different natural groups (based upon e.g., ethnicity, age, gender, college major,or country) reflect an unknown mixture of the pooled correlation within each group as well as the correlation of the means of these groups. These two correlations are independent and do not allow inferences from one level (the group) to the other level (the individual).  This data set shows this independence.  The within group correlations between 9 variables are set to be 1, 0, and -1 while those between groups are also set to be 1, 0, -1.  These two sets of correlations are crossed such that V1, V4, and V7 have within group correlations of 1, as do V2, V5 and V8, and V3, V6 and V9.  V1 has a within group correlation of 0 with V2, V5, and V8, and a -1 within group correlation with V3, V6 and V9.  V1, V2, and V3 share a between group correlation of 1, as do V4, V5 and V6, and V7, V8 and V9.  The first group has a 0 between group correlation with the second and a -1 with the third group.  \n</p>\n<p><code>statsBy</code> can decompose the observed correlation in the between and within correlations.  <code>sim.multilevel</code> can produce similar data.\n</p>\n<h3>Source</h3>\n<p>The data were created for this example</p>\n<h3>References</h3>\n<p>P. D. Bliese. Multilevel modeling in R (2.3) a brief introduction to R, the multilevel package and the nlme package, 2009.\n</p>\n<p>Pedhazur, E.J. (1997) Multiple regression in behavioral research: explanation and prediction.  Harcourt Brace.\n</p>\n<p>Revelle, W. An introduction to psychometric theory with applications in R (in prep) Springer. Draft chapters available at  <a href=\"https://personality-project.org/r/book/\">https://personality-project.org/r/book/</a>\n</p>\n<h3>See Also</h3>\n <p><code>statsBy</code>,   <code>describeBy</code>, and  <code>sim.multilevel</code> \n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>data(withinBetween)\npairs.panels(withinBetween,bg=c(\"red\",\"blue\",\"white\",\"black\")[withinBetween[,1]],\n     pch=21,ellipses=FALSE,lm=TRUE)\nstats &lt;- statsBy(withinBetween,'Group')\nprint(stats,short=FALSE)\n</code></pre>\n</main>\n</div>\n",
    "data" : {
+      "x" : {
+         "Group" : [
+            "A",
+            "A",
+            "A",
+            "A",
+            "B",
+            "B",
+            "B",
+            "B",
+            "C",
+            "C",
+            "C",
+            "C",
+            "D",
+            "D",
+            "D",
+            "D"
+         ]
+      },
       "y" : {
+         "vars" : [
+            "V1",
+            "V2",
+            "V3",
+            "V4",
+            "V5",
+            "V6",
+            "V7",
+            "V8",
+            "V9"
+         ],
+         "smps" : [
+            "Smp1",
+            "Smp2",
+            "Smp3",
+            "Smp4",
+            "Smp5",
+            "Smp6",
+            "Smp7",
+            "Smp8",
+            "Smp9",
+            "Smp10",
+            "Smp11",
+            "Smp12",
+            "Smp13",
+            "Smp14",
+            "Smp15",
+            "Smp16"
+         ],
          "data" : [
             [
                1,
@@ -172,57 +214,15 @@
                7,
                6
             ]
-         ],
-         "vars" : [
-            "V1",
-            "V2",
-            "V3",
-            "V4",
-            "V5",
-            "V6",
-            "V7",
-            "V8",
-            "V9"
-         ],
-         "smps" : [
-            "Smp1",
-            "Smp2",
-            "Smp3",
-            "Smp4",
-            "Smp5",
-            "Smp6",
-            "Smp7",
-            "Smp8",
-            "Smp9",
-            "Smp10",
-            "Smp11",
-            "Smp12",
-            "Smp13",
-            "Smp14",
-            "Smp15",
-            "Smp16"
-         ]
-      },
-      "x" : {
-         "Group" : [
-            "A",
-            "A",
-            "A",
-            "A",
-            "B",
-            "B",
-            "B",
-            "B",
-            "C",
-            "C",
-            "C",
-            "C",
-            "D",
-            "D",
-            "D",
-            "D"
          ]
       }
    },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>withinBetween</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>An example of the distinction between within group and between group correlations</h2>\n<h3>Description</h3>\n<p>A demonstration that a correlation may be decomposed to a within group correlation  and a between group correlations and these two correlations are independent.  Between group correlations are sometimes called ecological correlations, the decomposition into  within and between group correlations is a basic concept in multilevel modeling.  This data set shows the composite correlations between 9 variables, representing 16 cases with four groups.    \n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(withinBetween)</code></pre>\n<h3>Format</h3>\n<p>A data frame with 16 observations on the following 10 variables.\n</p>\n<dl>\n<dt><code>Group</code></dt><dd><p>An example grouping factor.</p>\n</dd>\n<dt><code>V1</code></dt><dd><p>A column of 16 observations </p>\n</dd>\n<dt><code>V2</code></dt><dd><p>A column of 16 observations </p>\n</dd>\n<dt><code>V3</code></dt><dd><p>A column of 16 observations </p>\n</dd>\n<dt><code>V4</code></dt><dd><p>A column of 16 observations </p>\n</dd>\n<dt><code>V5</code></dt><dd><p>A column of 16 observations </p>\n</dd>\n<dt><code>V6</code></dt><dd><p>A column of 16 observations </p>\n</dd>\n<dt><code>V7</code></dt><dd><p>A column of 16 observations </p>\n</dd>\n<dt><code>V8</code></dt><dd><p>A column of 16 observations </p>\n</dd>\n<dt><code>V9</code></dt><dd><p>A column of 16 observations </p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>Correlations between individuals who belong to different natural groups (based upon e.g., ethnicity, age, gender, college major,or country) reflect an unknown mixture of the pooled correlation within each group as well as the correlation of the means of these groups. These two correlations are independent and do not allow inferences from one level (the group) to the other level (the individual).  This data set shows this independence.  The within group correlations between 9 variables are set to be 1, 0, and -1 while those between groups are also set to be 1, 0, -1.  These two sets of correlations are crossed such that V1, V4, and V7 have within group correlations of 1, as do V2, V5 and V8, and V3, V6 and V9.  V1 has a within group correlation of 0 with V2, V5, and V8, and a -1 within group correlation with V3, V6 and V9.  V1, V2, and V3 share a between group correlation of 1, as do V4, V5 and V6, and V7, V8 and V9.  The first group has a 0 between group correlation with the second and a -1 with the third group.  \n</p>\n<p><code>statsBy</code> can decompose the observed correlation in the between and within correlations.  <code>sim.multilevel</code> can produce similar data.\n</p>\n<h3>Source</h3>\n<p>The data were created for this example</p>\n<h3>References</h3>\n<p>P. D. Bliese. Multilevel modeling in R (2.3) a brief introduction to R, the multilevel package and the nlme package, 2009.\n</p>\n<p>Pedhazur, E.J. (1997) Multiple regression in behavioral research: explanation and prediction.  Harcourt Brace.\n</p>\n<p>Revelle, W. An introduction to psychometric theory with applications in R (in prep) Springer. Draft chapters available at  <a href=\"https://personality-project.org/r/book/\">https://personality-project.org/r/book/</a>\n</p>\n<h3>See Also</h3>\n <p><code>statsBy</code>,   <code>describeBy</code>, and  <code>sim.multilevel</code> \n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>data(withinBetween)\npairs.panels(withinBetween,bg=c(\"red\",\"blue\",\"white\",\"black\")[withinBetween[,1]],\n     pch=21,ellipses=FALSE,lm=TRUE)\nstats &lt;- statsBy(withinBetween,'Group')\nprint(stats,short=FALSE)\n</code></pre>\n</main>\n</div>\n"
+   "config" : {
+      "graphType" : "Heatmap",
+      "smpOverlays" : [
+         "Group"
+      ],
+      "subtitle" : "psych - withinBetween",
+      "title" : "An example of the distinction between within group and between group correlations"
+   }
 }

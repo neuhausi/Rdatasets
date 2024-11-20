@@ -1,0 +1,18 @@
+{
+   "format" : "A dataframe containing :",
+   "parameters" : {
+      "sex" : "a factor with levels (male,female)",
+      "education" : "education",
+      "child" : "children ? a factor",
+      "religious" : "how religious, from 1 (anti) to 5 (very)",
+      "occupation" : "occupation, from 1 to 7, according to\nHollingshead's classification (reverse \nnumbering)",
+      "rate" : "self rating of marriage, from 1 (very \nunhappy) to 5 (very happy)",
+      "age" : "age",
+      "nbaffairs" : "number of affairs in past year",
+      "ym" : "number of years married"
+   },
+   "reference" : "Fair, R. (1977) &ldquo;A note on the computation of the tobit estimator&rdquo;, Econometrica, 45, 1723-1727.",
+   "usage" : "data(Fair)",
+   "title" : "Extramarital Affairs Data",
+   "description" : "Description\na cross-section\nnumber of observations :  601\nobservation :  individuals\ncountry :  United States"
+}

@@ -1,18 +1,18 @@
 var TrainInfo ={
-   "parameters" : {
-      "comfortz" : "comfort  of proposition z (z=1,2), 0, 1 or 2 \nin decreasing comfort order",
-      "changez" : "number of changes for proposition z (z=1,2)",
-      "id" : "individual identifier",
-      "pricez" : "price of proposition z (z=1,2) in cents of\nguilders",
-      "choiceid" : "choice identifier",
-      "timez" : "travel time  of proposition z (z=1,2) in\nminutes",
-      "choice" : "one of choice1, choice2"
-   },
    "format" : "A dataframe containing :",
    "reference" : "Meijer, Erik  and  Jan  Rouwendal (2005) &ldquo;Measuring welfare effects in models with random coefficients&rdquo;, Journal of Applied Econometrics, forthcoming.",
-   "title" : "Stated Preferences for Train Traveling",
+   "usage" : "data(Train)",
    "description" : "Description\na cross-section from 1987\nnumber of observations :  2929\nobservation :  individuals\ncountry :  Netherland",
-   "usage" : "data(Train)"
+   "title" : "Stated Preferences for Train Traveling",
+   "parameters" : {
+      "changez" : "number of changes for proposition z (z=1,2)",
+      "timez" : "travel time  of proposition z (z=1,2) in\nminutes",
+      "choice" : "one of choice1, choice2",
+      "comfortz" : "comfort  of proposition z (z=1,2), 0, 1 or 2 \nin decreasing comfort order",
+      "pricez" : "price of proposition z (z=1,2) in cents of\nguilders",
+      "choiceid" : "choice identifier",
+      "id" : "individual identifier"
+   }
 }
 
 var Train = [

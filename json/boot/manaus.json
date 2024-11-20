@@ -1,11 +1,11 @@
 {
-   "config" : {
-      "title" : "Average Heights of the Rio Negro river at Manaus",
-      "graphType" : "Scatter2D",
-      "subtitle" : "boot - manaus"
-   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>manaus</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>\nAverage Heights of the Rio Negro river at Manaus\n</h2>\n<h3>Description</h3>\n<p>The <code>manaus</code> time series is of class <code>\"ts\"</code> and has\n1080 observations on one variable.\n</p>\n<p>The data values are monthly averages of the daily stages (heights) of\nthe Rio Negro at Manaus.  Manaus is 18km upstream from the confluence of\nthe Rio Negro with the Amazon but because of the tiny slope of the water\nsurface and the lower courses of its flatland affluents, they may be\nregarded as a good approximation of the water level in the Amazon at the\nconfluence.  The data here cover 90 years from January 1903 until\nDecember 1992.\n</p>\n<p>The Manaus gauge is tied in with an arbitrary bench mark of 100m set in\nthe steps of the Municipal Prefecture; gauge readings are usually\nreferred to sea level, on the basis of a mark on the steps leading to\nthe Parish Church (Matriz), which is assumed to lie at an altitude of\n35.874 m according to observations made many years ago under the\ndirection of Samuel Pereira, an engineer in charge of the Manaus\nSanitation Committee Whereas such an altitude cannot, by any means, be\nconsidered to be a precise datum point, observations have been\nprovisionally referred to it.  The measurements are in metres.\n</p>\n<h3>Source</h3>\n<p>The data were kindly made available by Professors H. O'Reilly Sternberg and \nD. R. Brillinger of the University of California at Berkeley.  \n</p>\n<h3>References</h3>\n<p>Davison, A.C. and Hinkley, D.V. (1997) <em>Bootstrap Methods and Their Application</em>. Cambridge University Press.\n</p>\n<p>Sternberg, H. O'R. (1987) Aggravation of floods in the Amazon river as a\nconsequence of deforestation? <em>Geografiska Annaler</em>, <b>69A</b>, 201-219.\n</p>\n<p>Sternberg, H. O'R. (1995) Waters and wetlands of Brazilian Amazonia: An\nuncertain future. In <em>The Fragile Tropics of Latin America:\nSustainable Management of Changing Environments</em>, Nishizawa, T. and\nUitto, J.I. (editors), United Nations University Press, 113-179.\n</p>\n</main>\n</div>\n",
    "data" : {
       "y" : {
+         "smps" : [
+            "time",
+            "value"
+         ],
          "data" : [
             [
                1903,
@@ -4328,10 +4328,6 @@
                0.31667
             ]
          ],
-         "smps" : [
-            "time",
-            "value"
-         ],
          "vars" : [
             "Var1",
             "Var2",
@@ -5416,5 +5412,9 @@
          ]
       }
    },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>manaus</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>\nAverage Heights of the Rio Negro river at Manaus\n</h2>\n<h3>Description</h3>\n<p>The <code>manaus</code> time series is of class <code>\"ts\"</code> and has\n1080 observations on one variable.\n</p>\n<p>The data values are monthly averages of the daily stages (heights) of\nthe Rio Negro at Manaus.  Manaus is 18km upstream from the confluence of\nthe Rio Negro with the Amazon but because of the tiny slope of the water\nsurface and the lower courses of its flatland affluents, they may be\nregarded as a good approximation of the water level in the Amazon at the\nconfluence.  The data here cover 90 years from January 1903 until\nDecember 1992.\n</p>\n<p>The Manaus gauge is tied in with an arbitrary bench mark of 100m set in\nthe steps of the Municipal Prefecture; gauge readings are usually\nreferred to sea level, on the basis of a mark on the steps leading to\nthe Parish Church (Matriz), which is assumed to lie at an altitude of\n35.874 m according to observations made many years ago under the\ndirection of Samuel Pereira, an engineer in charge of the Manaus\nSanitation Committee Whereas such an altitude cannot, by any means, be\nconsidered to be a precise datum point, observations have been\nprovisionally referred to it.  The measurements are in metres.\n</p>\n<h3>Source</h3>\n<p>The data were kindly made available by Professors H. O'Reilly Sternberg and \nD. R. Brillinger of the University of California at Berkeley.  \n</p>\n<h3>References</h3>\n<p>Davison, A.C. and Hinkley, D.V. (1997) <em>Bootstrap Methods and Their Application</em>. Cambridge University Press.\n</p>\n<p>Sternberg, H. O'R. (1987) Aggravation of floods in the Amazon river as a\nconsequence of deforestation? <em>Geografiska Annaler</em>, <b>69A</b>, 201-219.\n</p>\n<p>Sternberg, H. O'R. (1995) Waters and wetlands of Brazilian Amazonia: An\nuncertain future. In <em>The Fragile Tropics of Latin America:\nSustainable Management of Changing Environments</em>, Nishizawa, T. and\nUitto, J.I. (editors), United Nations University Press, 113-179.\n</p>\n</main>\n</div>\n"
+   "config" : {
+      "graphType" : "Scatter2D",
+      "title" : "Average Heights of the Rio Negro river at Manaus",
+      "subtitle" : "boot - manaus"
+   }
 }

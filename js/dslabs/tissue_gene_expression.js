@@ -1,13 +1,13 @@
 var tissue_gene_expressionInfo ={
-   "description" : "Description\nThis is a subset of the data provided by the tissuesGeneExpression\npackage available from the genomicsclass GitHub repository. \nThe predictors are gene expression measurements from 500 genes that\nare a random subset of the original 22,215.",
+   "format" : "An object of class list.",
    "usage" : "tissue_gene_expression",
+   "reference" : "https://github.com/genomicsclass/tissuesGeneExpression",
+   "title" : "Gene expression profiles for 189 biological samples taken from seven different tissue types.",
+   "description" : "Description\nThis is a subset of the data provided by the tissuesGeneExpression\npackage available from the genomicsclass GitHub repository. \nThe predictors are gene expression measurements from 500 genes that\nare a random subset of the original 22,215.",
    "parameters" : {
       "y. The outcomes. A character vector representing the tissue. One of seven tissue types." : null,
       "x. The predictors composed of 500 genes. Each row is a gene expression profile and each column is different gene. The column names are the gene symbols." : null
-   },
-   "reference" : "https://github.com/genomicsclass/tissuesGeneExpression",
-   "title" : "Gene expression profiles for 189 biological samples taken from seven different tissue types.",
-   "format" : "An object of class list."
+   }
 }
 
 var tissue_gene_expression = [

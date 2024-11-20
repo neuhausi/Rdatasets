@@ -1,15 +1,15 @@
 var SkullsInfo ={
    "parameters" : {
-      "mb" : "maximal breadth of the skull.",
       "nh" : "nasal height of the skull.",
-      "epoch" : "the epoch the skull as assigned to, an\nordered factor with levels c4000BC c3300BC, c1850BC,\nc200BC, and cAD150, where the years are only given approximately, of course.",
       "bh" : "basibregmatic height of the skull.",
+      "mb" : "maximal breadth of the skull.",
+      "epoch" : "the epoch the skull as assigned to, an\nordered factor with levels c4000BC c3300BC, c1850BC,\nc200BC, and cAD150, where the years are only given approximately, of course.",
       "bl" : "basialiveolar length of the skull."
    },
    "description" : "Description\nMeasurements made on Egyptian skulls from five epochs.",
-   "usage" : "A data frame with 150 observations on the following 5 variables.",
+   "title" : "Egyptian Skulls",
    "reference" : "The epochs correspond to the following periods of Egyptian history:",
-   "title" : "Egyptian Skulls"
+   "usage" : "A data frame with 150 observations on the following 5 variables."
 }
 
 var Skulls = [

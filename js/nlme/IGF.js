@@ -1,13 +1,13 @@
 var IGFInfo ={
-   "parameters" : {
-      "Lot" : "an ordered factor giving the radioactive tracer lot.",
-      "age" : "a numeric vector giving the age (in days) of the radioactive\ntracer.",
-      "conc" : "a numeric vector giving the estimated concentration of IGF-I\nprotein (ng/ml)"
-   },
-   "description" : "Description\nThe IGF data frame has 237 rows and 3 columns.",
    "usage" : "This data frame contains the following columns:",
+   "reference" : "Davidian and Giltinan (1995) describe data obtained during quality\ncontrol radioimmunoassays for ten different lots of radioactive\ntracer used to calibrate the Insulin-like Growth Factor (IGF-I)\nprotein concentration measurements.",
+   "description" : "Description\nThe IGF data frame has 237 rows and 3 columns.",
    "title" : "Radioimmunoassay of IGF-I Protein",
-   "reference" : "Davidian and Giltinan (1995) describe data obtained during quality\ncontrol radioimmunoassays for ten different lots of radioactive\ntracer used to calibrate the Insulin-like Growth Factor (IGF-I)\nprotein concentration measurements."
+   "parameters" : {
+      "age" : "a numeric vector giving the age (in days) of the radioactive\ntracer.",
+      "Lot" : "an ordered factor giving the radioactive tracer lot.",
+      "conc" : "a numeric vector giving the estimated concentration of IGF-I\nprotein (ng/ml)"
+   }
 }
 
 var IGF = [

@@ -1,7 +1,7 @@
 var FilmInfo ={
-   "title" : "Film Data from Leonard Maltin's Guide",
    "usage" : "A data frame with 100 observations on the following 9 variables.",
-   "description" : "Description\nFilm data from Maltin's Movie and Video Guide"
+   "description" : "Description\nFilm data from Maltin's Movie and Video Guide",
+   "title" : "Film Data from Leonard Maltin's Guide"
 }
 
 var Film = [

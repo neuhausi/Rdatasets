@@ -1,0 +1,14 @@
+{
+   "parameters" : {
+      "vala" : "value added of companies (in thousands of dollars)",
+      "medi" : "average income per head (in US dollars)",
+      "coas" : "is it a coastal area ?",
+      "rain" : "amount of rain (in inches)",
+      "airq" : "indicator of air quality (the lower the better)",
+      "dens" : "population density (per square mile)"
+   },
+   "title" : "Air Quality for Californian Metropolitan Areas",
+   "description" : "Description\na cross-section from 1972\nnumber of observations :  30\nobservation :  regional\ncountry :  United States",
+   "usage" : "data(Airq)",
+   "format" : "A dataframe containing :"
+}

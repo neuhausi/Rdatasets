@@ -1,15 +1,15 @@
 var YenInfo ={
+   "title" : "Yen-dollar Exchange Rate",
    "description" : "Description\nweekly observations from 1975 to 1989\nnumber of observations :  778\nobservation :  country\ncountry :  Japan",
    "usage" : "data(Yen)",
+   "reference" : "Bekaert, G.  and  R.  Hodrick (1993) &ldquo;On biases in the measurement of foreign exchange risk premiums&rdquo;, Journal of International Money and Finance, 12, 115-138.",
    "parameters" : {
-      "f" : "the ask price of the dollar in units of \nYen in the 30-day forward market on \nFriday of the current week",
       "s30" : "the bid price of the dollar in units of \nYen in the spot market on the delivery \ndate on a current forward contract",
+      "f" : "the ask price of the dollar in units of \nYen in the 30-day forward market on \nFriday of the current week",
       "s" : "the ask price of the dollar in units of \nYen in the spot market on Friday of the \ncurrent week",
       "date" : "the date of the observation (19850104 \nis January, 4, 1985)"
    },
-   "reference" : "Bekaert, G.  and  R.  Hodrick (1993) &ldquo;On biases in the measurement of foreign exchange risk premiums&rdquo;, Journal of International Money and Finance, 12, 115-138.",
-   "format" : "A dataframe containing :",
-   "title" : "Yen-dollar Exchange Rate"
+   "format" : "A dataframe containing :"
 }
 
 var Yen = [

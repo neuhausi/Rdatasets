@@ -1,12 +1,12 @@
 var booksInfo ={
-   "usage" : "books",
-   "description" : "Description\nSimulated dataset.",
-   "title" : "Sample of books on a shelf",
-   "reference" : "table(books)",
    "format" : "A data frame with 95 observations on the following 2 variables.",
+   "title" : "Sample of books on a shelf",
+   "description" : "Description\nSimulated dataset.",
+   "usage" : "books",
+   "reference" : "table(books)",
    "parameters" : {
-      "type" : "a factor with levels fiction and nonfiction",
-      "format" : "a factor with levels hardcover and paperback"
+      "format" : "a factor with levels hardcover and paperback",
+      "type" : "a factor with levels fiction and nonfiction"
    }
 }
 

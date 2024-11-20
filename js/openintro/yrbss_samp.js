@@ -1,24 +1,24 @@
 var yrbss_sampInfo ={
-   "description" : "Description\nA sample of the yrbss dataset.",
+   "format" : "A data frame with 100 observations on the following 13 variables.",
+   "reference" : "CDC's Youth Risk Behavior Surveillance System (YRBSS)",
    "usage" : "yrbss_samp",
+   "title" : "Sample of Youth Risk Behavior Surveillance System (YRBSS)",
+   "description" : "Description\nA sample of the yrbss dataset.",
    "parameters" : {
-      "helmet_12m" : "How often did you wear a helmet when biking in the last\n12 months?",
-      "text_while_driving_30d" : "How many days did you text while driving in\nthe last 30 days?",
-      "hours_tv_per_school_day" : "How many hours of TV do you typically watch\non a school night?",
-      "physically_active_7d" : "How many days were you physically active for\n60+ minutes in the last 7 days?",
-      "weight" : "Weight, in kilograms (2.2 pounds per kilogram).",
+      "height" : "Height, in meters (3.28 feet per meter).",
       "age" : "Age, in years.",
       "race" : "Race / ethnicity.",
-      "strength_training_7d" : "How many days did you do strength training\n(e.g. lift weights) in the last 7 days?",
-      "grade" : "School grade.",
-      "height" : "Height, in meters (3.28 feet per meter).",
-      "school_night_hours_sleep" : "How many hours of sleep do you typically\nget on a school night?",
+      "text_while_driving_30d" : "How many days did you text while driving in\nthe last 30 days?",
+      "physically_active_7d" : "How many days were you physically active for\n60+ minutes in the last 7 days?",
+      "hispanic" : "Hispanic or not.",
       "gender" : "Gender.",
-      "hispanic" : "Hispanic or not."
-   },
-   "title" : "Sample of Youth Risk Behavior Surveillance System (YRBSS)",
-   "format" : "A data frame with 100 observations on the following 13 variables.",
-   "reference" : "CDC's Youth Risk Behavior Surveillance System (YRBSS)"
+      "helmet_12m" : "How often did you wear a helmet when biking in the last\n12 months?",
+      "school_night_hours_sleep" : "How many hours of sleep do you typically\nget on a school night?",
+      "grade" : "School grade.",
+      "strength_training_7d" : "How many days did you do strength training\n(e.g. lift weights) in the last 7 days?",
+      "hours_tv_per_school_day" : "How many hours of TV do you typically watch\non a school night?",
+      "weight" : "Weight, in kilograms (2.2 pounds per kilogram)."
+   }
 }
 
 var yrbss_samp = [

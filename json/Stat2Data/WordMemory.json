@@ -1,15 +1,15 @@
 {
    "config" : {
+      "title" : "Experiment on Word Memory",
+      "groupingFactors" : [
+         "Subject"
+      ],
+      "subtitle" : "Stat2Data - WordMemory",
       "colorBy" : "variable",
       "graphType" : "Boxplot",
-      "groupingFactors" : [
-         "Abstract"
-      ],
-      "title" : "Experiment on Word Memory",
-      "subtitle" : "Stat2Data - WordMemory",
       "segregateSamplesBy" : [
-         "Frequent",
-         "Subject"
+         "Abstract",
+         "Frequent"
       ]
    },
    "data" : {
@@ -58,9 +58,6 @@
                60
             ]
          ],
-         "vars" : [
-            "Percent"
-         ],
          "smps" : [
             "Smp1",
             "Smp2",
@@ -102,9 +99,54 @@
             "Smp38",
             "Smp39",
             "Smp40"
+         ],
+         "vars" : [
+            "Percent"
          ]
       },
       "x" : {
+         "Subject" : [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I",
+            "J",
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I",
+            "J",
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I",
+            "J",
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I",
+            "J"
+         ],
          "Abstract" : [
             "Yes",
             "Yes",
@@ -188,48 +230,6 @@
             "No",
             "No",
             "No"
-         ],
-         "Subject" : [
-            "A",
-            "B",
-            "C",
-            "D",
-            "E",
-            "F",
-            "G",
-            "H",
-            "I",
-            "J",
-            "A",
-            "B",
-            "C",
-            "D",
-            "E",
-            "F",
-            "G",
-            "H",
-            "I",
-            "J",
-            "A",
-            "B",
-            "C",
-            "D",
-            "E",
-            "F",
-            "G",
-            "H",
-            "I",
-            "J",
-            "A",
-            "B",
-            "C",
-            "D",
-            "E",
-            "F",
-            "G",
-            "H",
-            "I",
-            "J"
          ]
       }
    },

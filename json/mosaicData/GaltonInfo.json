@@ -1,0 +1,15 @@
+{
+   "format" : "A data frame with 898 observations on the following variables.",
+   "title" : "Galton's dataset of parent and child heights",
+   "description" : "Description\nIn the 1880's, Francis Galton was developing ways to quantify the\nheritability of traits.  As part of this work, he collected data on\nthe heights of adult children and their parents.",
+   "usage" : "data(Galton)",
+   "reference" : "Entries were deleted for\nthose children whose heights were not recorded numerically by Galton,\nwho sometimes used entries such as \"tall\", \"short\", \"idiotic\",\n\"deformed\" and so on.",
+   "parameters" : {
+      "sex" : "the child's sex: F or M",
+      "father" : "the father's height (in inches)",
+      "mother" : "the mother's height (in inches)",
+      "height" : "the child's height as an adult (in inches)",
+      "nkids" : "the number of adult children in the family, or, at least,\nthe number whose heights Galton recorded.",
+      "family" : "a factor with levels for each family"
+   }
+}

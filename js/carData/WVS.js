@@ -1,8 +1,8 @@
 var WVSInfo ={
    "format" : "A data frame with 5381 observations on the following 6 variables.",
-   "title" : "World Values Surveys",
    "usage" : "WVS",
    "description" : "Description\nData from the World Values Surveys 1995-1997 for Australia, Norway, Sweden, and the United States.",
+   "title" : "World Values Surveys",
    "parameters" : {
       "poverty" : "&ldquo;Do you think that what the government is doing for people in poverty in\nthis country is about the right amount, too much, or too little?&rdquo; (ordered): \nToo Little, About Right, Too Much"
    }

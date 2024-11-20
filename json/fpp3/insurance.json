@@ -1,16 +1,7 @@
 {
-   "config" : {
-      "colorBy" : "Month",
-      "title" : "Insurance quotations and advertising expenditure",
-      "graphType" : "Scatter2D",
-      "subtitle" : "fpp3 - insurance"
-   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>insurance</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Insurance quotations and advertising expenditure</h2>\n<h3>Description</h3>\n<p>Monthly quotations and monthly television advertising expenditure for a US insurance company.\nJanuary 2002 to April 2005\n</p>\n<h3>Format</h3>\n<p>Monthly time series of class 'tsibble'.\n</p>\n<h3>Source</h3>\n<p>Kindly provided by Dave Reilly, Automatic Forecasting Systems.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>\ninsurance |&gt;\n  ggplot(aes(x=TVadverts, y=Quotes)) + geom_point()\n</code></pre>\n</main>\n</div>\n",
    "data" : {
       "y" : {
-         "smps" : [
-            "Quotes",
-            "TVadverts"
-         ],
          "vars" : [
             "Var1",
             "Var2",
@@ -52,6 +43,10 @@
             "Var38",
             "Var39",
             "Var40"
+         ],
+         "smps" : [
+            "Quotes",
+            "TVadverts"
          ],
          "data" : [
             [
@@ -261,5 +256,10 @@
          ]
       }
    },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>insurance</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Insurance quotations and advertising expenditure</h2>\n<h3>Description</h3>\n<p>Monthly quotations and monthly television advertising expenditure for a US insurance company.\nJanuary 2002 to April 2005\n</p>\n<h3>Format</h3>\n<p>Monthly time series of class 'tsibble'.\n</p>\n<h3>Source</h3>\n<p>Kindly provided by Dave Reilly, Automatic Forecasting Systems.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>\ninsurance |&gt;\n  ggplot(aes(x=TVadverts, y=Quotes)) + geom_point()\n</code></pre>\n</main>\n</div>\n"
+   "config" : {
+      "subtitle" : "fpp3 - insurance",
+      "title" : "Insurance quotations and advertising expenditure",
+      "colorBy" : "Month",
+      "graphType" : "Scatter2D"
+   }
 }

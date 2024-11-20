@@ -1,15 +1,15 @@
 var TechStocksInfo ={
-   "parameters" : {
-      "Date" : "Date (coded as mm/dd/yyyy)",
-      "GOOG" : "Alphabet Inc. (Google) closing price",
-      "MSFT" : "Microsoft Corp. closing price",
-      "t" : "Time index (1 to 505)",
-      "AAPL" : "Apple Inc. closing price"
-   },
-   "description" : "Description\nDaily closing prices of Apple, Google, and Microsoft stocks (12/1/2015 to 12/1/2017)",
    "usage" : "A data frame with 504 observations on the following 5 variables.",
+   "reference" : "Closing price of Apple (AAPL), Google/Alphabet (GOOG) and Microsoft (MSFT) stocks for each trading day in a two-year period from 12/1/2015 to 12/1/2017.",
+   "description" : "Description\nDaily closing prices of Apple, Google, and Microsoft stocks (12/1/2015 to 12/1/2017)",
    "title" : "Daily Prices of Three Tech Stocks",
-   "reference" : "Closing price of Apple (AAPL), Google/Alphabet (GOOG) and Microsoft (MSFT) stocks for each trading day in a two-year period from 12/1/2015 to 12/1/2017."
+   "parameters" : {
+      "GOOG" : "Alphabet Inc. (Google) closing price",
+      "Date" : "Date (coded as mm/dd/yyyy)",
+      "t" : "Time index (1 to 505)",
+      "MSFT" : "Microsoft Corp. closing price",
+      "AAPL" : "Apple Inc. closing price"
+   }
 }
 
 var TechStocks = [

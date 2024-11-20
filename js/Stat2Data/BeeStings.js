@@ -1,7 +1,7 @@
 var BeeStingsInfo ={
    "description" : "Description\nData from an experiment to see it the number of bee stings depends on previous stings.",
-   "usage" : "A data frame with 18 observations on the following 3 variables.",
-   "title" : "Do Bee Stings Depend on Previous Stings?"
+   "title" : "Do Bee Stings Depend on Previous Stings?",
+   "usage" : "A data frame with 18 observations on the following 3 variables."
 }
 
 var BeeStings = [

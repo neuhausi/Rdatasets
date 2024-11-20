@@ -1,14 +1,14 @@
 var polypsInfo ={
-   "usage" : "data(\"polyps\")",
-   "description" : "Description\nData from a placebo-controlled trial of a non-steroidal anti-inflammatory  \ndrug in the treatment of familial andenomatous polyposis (FAP).",
-   "format" : "A data frame with 20 observations on the following 3 variables.",
    "title" : "Familial Andenomatous Polyposis",
+   "description" : "Description\nData from a placebo-controlled trial of a non-steroidal anti-inflammatory  \ndrug in the treatment of familial andenomatous polyposis (FAP).",
    "reference" : "Giardiello et al. (1993) and Piantadosi (1997) describe the\nresults of a placebo-controlled trial of a non-steroidal anti-inflammatory  \ndrug in the treatment of familial andenomatous polyposis (FAP). \nThe trial was halted after a planned interim analysis had suggested\ncompelling evidence in favour of the treatment. \nHere we are interested in assessing whether the number of colonic polyps at \n12 months is related to treatment and age of patient.",
+   "usage" : "data(\"polyps\")",
    "parameters" : {
       "number" : "number of colonic polyps at 12 months.",
       "age" : "the age of the patient.",
       "treat" : "treatment arms of the trail, a factor with \nlevels placebo and drug."
-   }
+   },
+   "format" : "A data frame with 20 observations on the following 3 variables."
 }
 
 var polyps = [

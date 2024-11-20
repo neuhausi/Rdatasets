@@ -1,8 +1,8 @@
 var goog200Info ={
    "description" : "Description\nClosing stock prices of GOOG from the NASDAQ exchange, for 1000 consecutive\ntrading days between 25 February 2013 and 13 February 2017. Adjusted for\nsplits. goog200 contains the first 200 observations from goog.",
    "title" : "Daily closing stock prices of Google Inc",
-   "format" : "https://finance.yahoo.com/quote/GOOG/history",
-   "usage" : "Daily time series of class ts."
+   "usage" : "Daily time series of class ts.",
+   "format" : "https://finance.yahoo.com/quote/GOOG/history"
 }
 
 var goog200 = [

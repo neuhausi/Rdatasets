@@ -1,6 +1,6 @@
 var HawkTail2Info ={
-   "title" : "Tail Lengths of Hawks (Unstacked)",
    "usage" : "A data frame with observations on the following 2 variables.",
+   "title" : "Tail Lengths of Hawks (Unstacked)",
    "description" : "Description\nTail lengths for two hawk species"
 }
 

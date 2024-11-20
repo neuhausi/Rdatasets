@@ -1,0 +1,10 @@
+{
+   "parameters" : {
+      "Batch" : "a factor indicating the batch of the\nintermediate product from which the preparation was created.",
+      "Yield" : "the yield of dyestuff from the preparation\n(grams of standard color)."
+   },
+   "description" : "Description\nThe Dyestuff data frame provides the yield of\ndyestuff (Naphthalene Black 12B) from 5 different\npreparations from each of 6 different batchs of an\nintermediate product (H-acid).  The Dyestuff2 data\nwere generated data in the same structure but with a\nlarge residual variance relative to the batch variance.",
+   "title" : "Yield of dyestuff by batch",
+   "usage" : "Data frames, each with 30 observations on the following 2 variables.",
+   "reference" : "The Dyestuff data are described in Davies and\nGoldsmith (1972) as coming from &ldquo;an investigation\nto find out how much the variation from batch to batch in\nthe quality of an intermediate product (H-acid)\ncontributes to the variation in the yield of the dyestuff\n(Naphthalene Black 12B) made from it.  In the experiment\nsix samples of the intermediate, representing different\nbatches of works manufacture, were obtained, and five\npreparations of the dyestuff were made in the laboratory\nfrom each sample. The equivalent yield of each\npreparation as grams of standard colour was determined by\ndye-trial.&rdquo;"
+}

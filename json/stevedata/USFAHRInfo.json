@@ -1,0 +1,27 @@
+{
+   "format" : "A data frame with 1654 observations on the following 18 variables.",
+   "usage" : "USFAHR",
+   "reference" : "Matching is done on Correlates of War state codes. Thus, the exact\n\"population\" is an amalgam of U.S. aid and Correlates of War state system\nmembership. Regions are offered, as is, from USAID Data Services.",
+   "description" : "Description\nA data set on economic aid allocation by the United States for assorted years.\nThese are useful for illustrative cross-sectional relationships between human\nrights and U.S. aid allocation at what amounts to midway points for various\npresidential administrations.",
+   "title" : "U.S. Foreign Aid and Human Rights in Assorted Years",
+   "parameters" : {
+      "usaexp" : "a value of how much the U.S. exports to the country (in thousands USD)",
+      "nomoblig" : "economic aid obligations in nominal U.S. dollars",
+      "year" : "a year",
+      "ccode" : "a Correlates of War state code",
+      "cinc" : "a composite index of national capabilities",
+      "country" : "an English country name",
+      "gdp" : "an estimate of GDP in constant 2011 U.S. dollars",
+      "fpsusa" : "foreign policy similarity with the United States",
+      "constoblig" : "economic aid obligations in costant 2019 U.S. dollars",
+      "region" : "a region in which the country resides, per Greenbook",
+      "fpsrus" : "foreign policy similarity with the Soviet Union/Russia",
+      "mindistrus" : "minimum distance of the country from the USSR/Russia",
+      "mindistusa" : "minimum distance of the country from the United States",
+      "clphy" : "a physical violence index, bound between 0 and 1",
+      "pop" : "an estimate of population size",
+      "usaimp" : "a value of how much the U.S. imports from the country (in thousands USD)",
+      "civlib" : "a civil liberties index, bound between 0 and 1",
+      "milex" : "an estimate of military expenditures (in thousands USD)"
+   }
+}

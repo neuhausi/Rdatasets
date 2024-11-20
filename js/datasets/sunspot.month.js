@@ -1,8 +1,8 @@
 var sunspot.monthInfo ={
-   "description" : "Description\nMonthly numbers of sunspots, as from the World Data Center, aka SIDC.\nThis is the version of the data that will occasionally be updated when\nnew counts become available.",
-   "usage" : "sunspot.month",
    "format" : "The univariate time series sunspot.year and\nsunspot.month contain 289 and 2988 observations, respectively.\nThe objects are of class \"ts\".",
-   "title" : "Monthly Sunspot Data, from 1749 to \"Present\""
+   "description" : "Description\nMonthly numbers of sunspots, as from the World Data Center, aka SIDC.\nThis is the version of the data that will occasionally be updated when\nnew counts become available.",
+   "title" : "Monthly Sunspot Data, from 1749 to \"Present\"",
+   "usage" : "sunspot.month"
 }
 
 var sunspot.month = [

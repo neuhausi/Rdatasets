@@ -1,4 +1,10 @@
 {
+   "config" : {
+      "subtitle" : "causaldata - google_stock",
+      "title" : "Google Stock Data",
+      "colorBy" : "Date",
+      "graphType" : "Scatter2D"
+   },
    "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>google_stock</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Google Stock Data</h2>\n<h3>Description</h3>\n<p>The <code>google_stock</code> data contains data on daily stock returns for Google and the S&amp;P 500 for May through Augut 2015, centering around the August 10, 2015 announcement that Google would reorganize under parent company Alphabet.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>google_stock\n</code></pre>\n<h3>Format</h3>\n<p>A data frame with 84 rows and 3 variables\n</p>\n<dl>\n<dt>Date</dt><dd><p>The date</p>\n</dd>\n<dt>Google_Return</dt><dd><p>Daily GOOG Stock Return (1 = 100 percent daily return)</p>\n</dd>\n<dt>SP500_Return</dt><dd><p>Daily S&amp;P 500 Index Return (1 = 100 percent daily return)</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>This data was downloaded using the <em>tidyquant</em> package, and is used in the <em>Event Studies</em> chapter of <em>The Effect</em>.\n</p>\n<h3>Source</h3>\n<p>Matt Dancho and Davis Vaughan (2021). tidyquant: Tidy Quantitative Financial Analysis. R package version 1.0.3. <a href=\"https://CRAN.R-project.org/package=tidyquant\">https://CRAN.R-project.org/package=tidyquant</a>\n</p>\n<h3>References</h3>\n<p>Huntington-Klein. 2021. The Effect: An Introduction to Research Design and Causality. <a href=\"https://theeffectbook.net\">https://theeffectbook.net</a>.\n</p>\n</main>\n</div>\n",
    "data" : {
       "y" : {
@@ -87,10 +93,6 @@
             "Var82",
             "Var83",
             "Var84"
-         ],
-         "smps" : [
-            "Google_Return",
-            "SP500_Return"
          ],
          "data" : [
             [
@@ -429,6 +431,10 @@
                -0.019242369529154,
                -0.00839169980943943
             ]
+         ],
+         "smps" : [
+            "Google_Return",
+            "SP500_Return"
          ]
       },
       "z" : {
@@ -519,11 +525,5 @@
             "2015-08-31"
          ]
       }
-   },
-   "config" : {
-      "graphType" : "Scatter2D",
-      "colorBy" : "Date",
-      "title" : "Google Stock Data",
-      "subtitle" : "causaldata - google_stock"
    }
 }

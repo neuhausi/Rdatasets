@@ -1,18 +1,18 @@
 var campusInfo ={
-   "description" : "Description\nWooldridge Source: These data were collected by Daniel Martin, a former MSU undergraduate, for a final project. They come from the FBI Uniform Crime Reports and are for the year 1992. Data loads lazily.",
-   "usage" : "data('campus')",
-   "parameters" : {
-      "lcrime" : " log(crime)",
-      "lpolice" : " log(police)",
-      "lenroll" : " log(enroll)",
-      "priv" : " =1 if private college",
-      "police" : " employed officers",
-      "enroll" : " total enrollment",
-      "crime" : " total campus crimes"
-   },
    "format" : "A data.frame with 97 observations on 7 variables:",
    "title" : "campus",
-   "reference" : "Colleges and universities are now required to provide much better, more detailed crime data. A very rich data set can now be obtained, even a panel data set for colleges across different years. Statistics on male/female ratios, fraction of men/women in fraternities or sororities, policy variables â such as a âsafe houseâ for women on campus, as was started at MSU in 1994 â could be added as explanatory variables. The crime rate in the host town would be a good control."
+   "description" : "Description\nWooldridge Source: These data were collected by Daniel Martin, a former MSU undergraduate, for a final project. They come from the FBI Uniform Crime Reports and are for the year 1992. Data loads lazily.",
+   "usage" : "data('campus')",
+   "reference" : "Colleges and universities are now required to provide much better, more detailed crime data. A very rich data set can now be obtained, even a panel data set for colleges across different years. Statistics on male/female ratios, fraction of men/women in fraternities or sororities, policy variables â such as a âsafe houseâ for women on campus, as was started at MSU in 1994 â could be added as explanatory variables. The crime rate in the host town would be a good control.",
+   "parameters" : {
+      "priv" : " =1 if private college",
+      "police" : " employed officers",
+      "crime" : " total campus crimes",
+      "lcrime" : " log(crime)",
+      "lenroll" : " log(enroll)",
+      "enroll" : " total enrollment",
+      "lpolice" : " log(police)"
+   }
 }
 
 var campus = [

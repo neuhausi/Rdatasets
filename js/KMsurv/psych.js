@@ -1,13 +1,13 @@
 var psychInfo ={
-   "description" : "Description\nThe psych data frame has 927 rows and 10 columns.",
    "parameters" : {
       "death" : "Death indicator (0=alive, 1=dead)",
-      "age" : "Patient age",
       "time" : "Time to death or on-study time",
+      "age" : "Patient age",
       "sex" : "Patient sex (1=male, 2=female)"
    },
-   "reference" : "Klein and Moeschberger (1997) Survival Analysis Techniques for Censored\nand truncated data, Springer.\nWoolsen Biometrics 37 (1981): 687-696.",
    "title" : "data from Section 1.15",
+   "description" : "Description\nThe psych data frame has 927 rows and 10 columns.",
+   "reference" : "Klein and Moeschberger (1997) Survival Analysis Techniques for Censored\nand truncated data, Springer.\nWoolsen Biometrics 37 (1981): 687-696.",
    "usage" : "This data frame contains the following columns:"
 }
 

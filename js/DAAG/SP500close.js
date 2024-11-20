@@ -1,8 +1,8 @@
 var SP500closeInfo ={
-   "description" : "Description\nClosing numbers for S and P 500 Index, Jan. 1, 1990 through\nearly 2000.",
-   "usage" : "SP500close",
    "format" : "Derived from SP500 in the MASS library.",
-   "title" : "Closing Numbers for S and P 500 Index"
+   "description" : "Description\nClosing numbers for S and P 500 Index, Jan. 1, 1990 through\nearly 2000.",
+   "title" : "Closing Numbers for S and P 500 Index",
+   "usage" : "SP500close"
 }
 
 var SP500close = [

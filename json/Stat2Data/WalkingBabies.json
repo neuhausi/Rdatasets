@@ -1,12 +1,12 @@
 {
    "config" : {
-      "subtitle" : "Stat2Data - WalkingBabies",
+      "colorBy" : "variable",
+      "graphType" : "Boxplot",
       "groupingFactors" : [
          "Group"
       ],
-      "colorBy" : "variable",
-      "title" : "Effects of Exercise on First Walking",
-      "graphType" : "Boxplot"
+      "subtitle" : "Stat2Data - WalkingBabies",
+      "title" : "Effects of Exercise on First Walking"
    },
    "data" : {
       "x" : {
@@ -38,32 +38,6 @@
          ]
       },
       "y" : {
-         "smps" : [
-            "Smp1",
-            "Smp2",
-            "Smp3",
-            "Smp4",
-            "Smp5",
-            "Smp6",
-            "Smp7",
-            "Smp8",
-            "Smp9",
-            "Smp10",
-            "Smp11",
-            "Smp12",
-            "Smp13",
-            "Smp14",
-            "Smp15",
-            "Smp16",
-            "Smp17",
-            "Smp18",
-            "Smp19",
-            "Smp20",
-            "Smp21",
-            "Smp22",
-            "Smp23",
-            "Smp24"
-         ],
          "vars" : [
             "Age"
          ],
@@ -94,6 +68,32 @@
                11.5,
                12.36
             ]
+         ],
+         "smps" : [
+            "Smp1",
+            "Smp2",
+            "Smp3",
+            "Smp4",
+            "Smp5",
+            "Smp6",
+            "Smp7",
+            "Smp8",
+            "Smp9",
+            "Smp10",
+            "Smp11",
+            "Smp12",
+            "Smp13",
+            "Smp14",
+            "Smp15",
+            "Smp16",
+            "Smp17",
+            "Smp18",
+            "Smp19",
+            "Smp20",
+            "Smp21",
+            "Smp22",
+            "Smp23",
+            "Smp24"
          ]
       }
    },

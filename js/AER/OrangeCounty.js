@@ -1,13 +1,13 @@
 var OrangeCountyInfo ={
    "parameters" : {
-      "employment" : "Quarterly employment in Orange county.",
-      "gnp" : "Quarterly real GNP."
+      "gnp" : "Quarterly real GNP.",
+      "employment" : "Quarterly employment in Orange county."
    },
-   "reference" : "The data is from Baltagi (2002).",
    "title" : "Orange County Employment",
-   "format" : "A quarterly multiple time series from 1965 to 1983 with 2 variables.",
    "description" : "Description\nQuarterly time series data on employment in Orange county, 1965&ndash;1983.",
-   "usage" : "data(\"OrangeCounty\")"
+   "usage" : "data(\"OrangeCounty\")",
+   "reference" : "The data is from Baltagi (2002).",
+   "format" : "A quarterly multiple time series from 1965 to 1983 with 2 variables."
 }
 
 var OrangeCounty = [

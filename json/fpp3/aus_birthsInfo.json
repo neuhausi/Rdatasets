@@ -1,0 +1,6 @@
+{
+   "description" : "Description\nNumber of births in Australia.",
+   "title" : "Australian births data",
+   "usage" : "Time series of class 'tsibble'",
+   "format" : "aus_births contains monthly data with one measured variable:"
+}

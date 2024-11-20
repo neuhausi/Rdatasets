@@ -1,0 +1,16 @@
+{
+   "parameters" : {
+      "height" : "Height, in inches.",
+      "first_name" : "First name.",
+      "position" : "Player position.",
+      "team_abbr" : "3-letter team abbreviation.",
+      "number" : "Jersey number.",
+      "team" : "Team name",
+      "last_name" : "Last name."
+   },
+   "title" : "NBA Players for the 2018-2019 season",
+   "description" : "Description\nSummary information from the NBA players for the 2018-2019 season.",
+   "reference" : "https://www.nba.com/players",
+   "usage" : "nba_players_19",
+   "format" : "A data frame with 494 observations on the following 7 variables."
+}

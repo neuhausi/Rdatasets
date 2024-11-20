@@ -1,8 +1,8 @@
 var MSCISwitzerlandInfo ={
    "usage" : "data(\"MSCISwitzerland\")",
-   "format" : "A daily univariate time series from 1994-12-30 to 2012-12-31 (of class \"zoo\" with \"Date\" index).",
    "title" : "MSCI Switzerland Index",
-   "description" : "Description\nTime series of the MSCI Switzerland index."
+   "description" : "Description\nTime series of the MSCI Switzerland index.",
+   "format" : "A daily univariate time series from 1994-12-30 to 2012-12-31 (of class \"zoo\" with \"Date\" index)."
 }
 
 var MSCISwitzerland = [

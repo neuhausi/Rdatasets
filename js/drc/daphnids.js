@@ -1,15 +1,15 @@
 var daphnidsInfo ={
-   "title" : "Daphnia test",
    "format" : "A data frame with 16 observations on the following 4 variables.",
+   "description" : "Description\nThe number of immobile daphnids &ndash;in contrast to mobile daphnids&ndash; out of a total of 20 daphnids was counted \nfor several concentrations of a toxic substance.",
+   "title" : "Daphnia test",
    "reference" : "The same daphnids were counted at 24h and later again at 48h.",
-   "parameters" : {
-      "total" : "a numeric vector",
-      "time" : "a factor with levels 24h 48h",
-      "dose" : "a numeric vector",
-      "no" : "a numeric vector"
-   },
    "usage" : "data(daphnids)",
-   "description" : "Description\nThe number of immobile daphnids &ndash;in contrast to mobile daphnids&ndash; out of a total of 20 daphnids was counted \nfor several concentrations of a toxic substance."
+   "parameters" : {
+      "no" : "a numeric vector",
+      "total" : "a numeric vector",
+      "dose" : "a numeric vector",
+      "time" : "a factor with levels 24h 48h"
+   }
 }
 
 var daphnids = [

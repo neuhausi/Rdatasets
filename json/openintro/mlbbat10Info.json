@@ -1,0 +1,28 @@
+{
+   "format" : "A data frame with 1199 observations on the following 19 variables.",
+   "parameters" : {
+      "total_base" : "Total bases, computed as 3HR + 23B + 1*2B + H",
+      "obp" : "On base percentage",
+      "run" : "Number of runs",
+      "position" : "Player position",
+      "name" : "Player name",
+      "home_run" : "Number of home runs",
+      "team" : "Team abbreviation",
+      "slg" : "Slugging percentage (total_base / at_bat)",
+      "double" : "Number of doubles",
+      "hit" : "Number of hits",
+      "at_bat" : "Number of at bats",
+      "bat_avg" : "Batting average",
+      "stolen_base" : "Number of stolen bases",
+      "caught_stealing" : "Number of times caught stealing",
+      "rbi" : "Number of runs batted in",
+      "walk" : "Number of walks",
+      "game" : "Number of games",
+      "triple" : "Number of triples",
+      "strike_out" : "Number of strikeouts"
+   },
+   "title" : "Major League Baseball Player Hitting Statistics for 2010",
+   "description" : "Description\nMajor League Baseball Player Hitting Statistics for 2010.",
+   "usage" : "mlbbat10",
+   "reference" : "https://www.mlb.com, retrieved 2011-04-22."
+}

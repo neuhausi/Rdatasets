@@ -1,0 +1,13 @@
+{
+   "description" : "Description\nSalary data for Major League Baseball players in the year 2010.",
+   "title" : "Salary data for Major League Baseball (2010)",
+   "reference" : "https://databases.usatoday.com/mlb-salaries/,\nretrieved 2011-02-23.",
+   "usage" : "mlb",
+   "parameters" : {
+      "team" : "Team",
+      "position" : "Field position",
+      "salary" : "Salary (in $1000s)",
+      "player" : "Player name"
+   },
+   "format" : "A data frame with 828 observations on the following 4 variables."
+}

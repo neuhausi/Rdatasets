@@ -1,22 +1,22 @@
 var BidsInfo ={
-   "parameters" : {
-      "takeover" : "delta (1 if taken over)",
-      "insthold" : "institutional holdings",
-      "finrest" : "financial restructuring",
-      "bidprem" : "bid Premium",
-      "whtknght" : "white knight",
-      "leglrest" : "legal restructuring",
-      "numbids" : "count",
-      "docno" : "doc no.",
-      "weeks" : "weeks",
-      "size" : "size measured in billions",
-      "regulatn" : "regulation",
-      "rearest" : "real restructuring"
-   },
    "format" : "A dataframe containing :",
+   "parameters" : {
+      "rearest" : "real restructuring",
+      "docno" : "doc no.",
+      "size" : "size measured in billions",
+      "takeover" : "delta (1 if taken over)",
+      "weeks" : "weeks",
+      "regulatn" : "regulation",
+      "bidprem" : "bid Premium",
+      "insthold" : "institutional holdings",
+      "leglrest" : "legal restructuring",
+      "whtknght" : "white knight",
+      "finrest" : "financial restructuring",
+      "numbids" : "count"
+   },
    "title" : "Bids Received By U.S. Firms",
-   "reference" : "Jaggia, Sanjiv  and  Satish  Thosar (1993) &ldquo;Multiple Bids as a Consequence of Target Management Resistance&rdquo;, Review of Quantitative Finance and Accounting, 447&ndash;457.",
    "description" : "Description\na cross-section\nnumber of observations :  126\nobservation :  production units\ncountry :  United States",
+   "reference" : "Jaggia, Sanjiv  and  Satish  Thosar (1993) &ldquo;Multiple Bids as a Consequence of Target Management Resistance&rdquo;, Review of Quantitative Finance and Accounting, 447&ndash;457.",
    "usage" : "data(Bids)"
 }
 

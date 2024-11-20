@@ -1,4 +1,11 @@
 {
+   "config" : {
+      "subtitle" : "datasets - LifeCycleSavings",
+      "title" : "Intercountry Life-Cycle Savings Data",
+      "scatterPlotMatrix" : 1,
+      "graphType" : "Scatter2D",
+      "colorBy" : null
+   },
    "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>LifeCycleSavings</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Intercountry Life-Cycle Savings Data</h2>\n<h3>Description</h3>\n<p>Data on the savings ratio 1960&ndash;1970.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>LifeCycleSavings</code></pre>\n<h3>Format</h3>\n<p>A data frame with 50 observations on 5 variables.\n</p>\n<table>\n<tr>\n <td style=\"text-align: right;\">\n    [,1]  </td><td style=\"text-align: left;\"> <code>sr</code>    </td><td style=\"text-align: left;\"> numeric  </td><td style=\"text-align: left;\"> aggregate personal savings </td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    [,2]  </td><td style=\"text-align: left;\"> <code>pop15</code> </td><td style=\"text-align: left;\"> numeric  </td><td style=\"text-align: left;\"> % of population under 15 </td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    [,3]  </td><td style=\"text-align: left;\"> <code>pop75</code> </td><td style=\"text-align: left;\"> numeric  </td><td style=\"text-align: left;\"> % of population over 75 </td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    [,4]  </td><td style=\"text-align: left;\"> <code>dpi</code>   </td><td style=\"text-align: left;\"> numeric  </td><td style=\"text-align: left;\"> real per-capita disposable\n    income </td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    [,5]  </td><td style=\"text-align: left;\"> <code>ddpi</code>  </td><td style=\"text-align: left;\"> numeric  </td><td style=\"text-align: left;\"> % growth rate of dpi\n  </td>\n</tr>\n</table>\n<h3>Details</h3>\n<p>Under the life-cycle savings hypothesis as developed by Franco\nModigliani, the savings ratio (aggregate personal saving divided by\ndisposable income) is explained by per-capita disposable income, the\npercentage rate of change in per-capita disposable income, and two\ndemographic variables: the percentage of population less than 15\nyears old and the percentage of the population over 75 years old.\nThe data are averaged over the decade 1960&ndash;1970 to remove the\nbusiness cycle or other short-term fluctuations.\n</p>\n<h3>Source</h3>\n<p>The data were obtained from Belsley, Kuh and Welsch (1980).\nThey in turn obtained the data from Sterling (1977).\n</p>\n<h3>References</h3>\n<p>Sterling, Arnie (1977) Unpublished BS Thesis.\nMassachusetts Institute of Technology.\n</p>\n<p>Belsley, D. A., Kuh. E. and Welsch, R. E. (1980)\n<em>Regression Diagnostics</em>.\nNew York: Wiley.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>require(stats); require(graphics)\npairs(LifeCycleSavings, panel = panel.smooth,\n      main = \"LifeCycleSavings data\")\nfm1 &lt;- lm(sr ~ pop15 + pop75 + dpi + ddpi, data = LifeCycleSavings)\nsummary(fm1)\n</code></pre>\n</main>\n</div>\n",
    "data" : {
       "y" : {
@@ -414,12 +421,5 @@
             "Malaysia"
          ]
       }
-   },
-   "config" : {
-      "title" : "Intercountry Life-Cycle Savings Data",
-      "colorBy" : null,
-      "graphType" : "Scatter2D",
-      "scatterPlotMatrix" : 1,
-      "subtitle" : "datasets - LifeCycleSavings"
    }
 }

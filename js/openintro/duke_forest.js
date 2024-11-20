@@ -1,24 +1,24 @@
 var duke_forestInfo ={
-   "description" : "Description\nData on houses that were recently sold in the Duke Forest neighborhood of\nDurham, NC in November 2020.",
-   "usage" : "duke_forest",
+   "format" : "A data frame with 98 rows and 13 variables.",
    "parameters" : {
-      "type" : "Type of home (all are Single Family).",
-      "year_built" : "Year the home was built.",
-      "hoa" : "If the home belongs to an Home Owners Association, the associted fee (NA otherwise).",
-      "address" : "Address of house.",
       "area" : "Area of home, in square feet.",
-      "cooling" : "Cooling system (other or central).",
-      "url" : "URL of the listing.",
-      "heating" : "Heating sytem.",
-      "bath" : "Number of bathrooms.",
       "price" : "Sale price, in USD.",
+      "address" : "Address of house.",
+      "cooling" : "Cooling system (other or central).",
+      "year_built" : "Year the home was built.",
+      "bath" : "Number of bathrooms.",
+      "heating" : "Heating sytem.",
+      "type" : "Type of home (all are Single Family).",
+      "bed" : "Number of bedrooms.",
       "lot" : "Area of the entire property, in acres.",
-      "parking" : "Type of parking available and number of parking spaces.",
-      "bed" : "Number of bedrooms."
+      "hoa" : "If the home belongs to an Home Owners Association, the associted fee (NA otherwise).",
+      "url" : "URL of the listing.",
+      "parking" : "Type of parking available and number of parking spaces."
    },
-   "reference" : "Data were collected from Zillow in November 2020.",
+   "description" : "Description\nData on houses that were recently sold in the Duke Forest neighborhood of\nDurham, NC in November 2020.",
    "title" : "Sale prices of houses in Duke Forest, Durham, NC",
-   "format" : "A data frame with 98 rows and 13 variables."
+   "reference" : "Data were collected from Zillow in November 2020.",
+   "usage" : "duke_forest"
 }
 
 var duke_forest = [

@@ -1,0 +1,6 @@
+{
+   "description" : "Description\nNumber of votes by province in the German Bundestag election\n2005 (for the parties that eventually entered the parliament).",
+   "title" : "Votes in German Bundestag Election 2005",
+   "usage" : "data(\"Bundestag2005\")",
+   "format" : "A 2-way \"table\" giving the number of votes for each\nparty (Fraktion) in each of the 16 German provinces\n(Bundesland):"
+}

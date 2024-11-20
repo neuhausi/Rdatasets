@@ -1,5 +1,56 @@
 {
+   "config" : {
+      "graphType" : "Heatmap",
+      "smpOverlays" : [
+         "htype"
+      ],
+      "subtitle" : "carData - Highway1",
+      "title" : "Highway Accidents"
+   },
    "data" : {
+      "x" : {
+         "htype" : [
+            "FAI",
+            "FAI",
+            "FAI",
+            "FAI",
+            "FAI",
+            "PA",
+            "PA",
+            "PA",
+            "PA",
+            "PA",
+            "PA",
+            "PA",
+            "PA",
+            "PA",
+            "PA",
+            "PA",
+            "PA",
+            "PA",
+            "PA",
+            "PA",
+            "PA",
+            "PA",
+            "PA",
+            "PA",
+            "MA",
+            "MA",
+            "MA",
+            "MA",
+            "MA",
+            "MA",
+            "MA",
+            "MA",
+            "MA",
+            "MA",
+            "MA",
+            "MA",
+            "MA",
+            "MC",
+            "MC"
+         ]
+      },
       "y" : {
          "data" : [
             [
@@ -454,19 +505,6 @@
                12
             ]
          ],
-         "vars" : [
-            "rate",
-            "len",
-            "adt",
-            "trks",
-            "sigs1",
-            "slim",
-            "shld",
-            "lane",
-            "acpt",
-            "itg",
-            "lwid"
-         ],
          "smps" : [
             "Smp1",
             "Smp2",
@@ -507,59 +545,21 @@
             "Smp37",
             "Smp38",
             "Smp39"
-         ]
-      },
-      "x" : {
-         "htype" : [
-            "FAI",
-            "FAI",
-            "FAI",
-            "FAI",
-            "FAI",
-            "PA",
-            "PA",
-            "PA",
-            "PA",
-            "PA",
-            "PA",
-            "PA",
-            "PA",
-            "PA",
-            "PA",
-            "PA",
-            "PA",
-            "PA",
-            "PA",
-            "PA",
-            "PA",
-            "PA",
-            "PA",
-            "PA",
-            "MA",
-            "MA",
-            "MA",
-            "MA",
-            "MA",
-            "MA",
-            "MA",
-            "MA",
-            "MA",
-            "MA",
-            "MA",
-            "MA",
-            "MA",
-            "MC",
-            "MC"
+         ],
+         "vars" : [
+            "rate",
+            "len",
+            "adt",
+            "trks",
+            "sigs1",
+            "slim",
+            "shld",
+            "lane",
+            "acpt",
+            "itg",
+            "lwid"
          ]
       }
    },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>Highway1</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Highway Accidents</h2>\n<h3>Description</h3>\n<p>The data comes from a unpublished master's paper by Carl Hoffstedt. They relate the automobile accident rate, \nin accidents per million vehicle miles to several potential terms.  The data include 39 sections of large \nhighways in the state of Minnesota in 1973.  The goal of this analysis was to understand the impact \nof design variables, <code>Acpts</code>, <code>Slim</code>, <code>Sig</code>, and <code>Shld</code> that are under the control of \nthe highway department, on accidents.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>Highway1\n</code></pre>\n<h3>Format</h3>\n<p>This data frame contains the following columns:\n</p>\n<dl>\n<dt>rate</dt><dd>\n<p>1973 accident rate per million vehicle miles\n</p>\n</dd>\n<dt>len</dt><dd>\n<p>length of the <code>Highway1</code> segment in miles\n</p>\n</dd>\n<dt>adt</dt><dd>\n<p>average daily traffic count in thousands\n</p>\n</dd>\n<dt>trks</dt><dd>\n<p>truck volume as a percent of the total volume\n</p>\n</dd>\n<dt>sigs1</dt><dd>\n<p>(number of signalized interchanges per mile times len + 1)/len, the number\nof signals per mile of roadway, adjusted to have no zero values.\n</p>\n</dd>\n<dt>slim</dt><dd>\n<p>speed limit in 1973\n</p>\n</dd>\n<dt>shld</dt><dd>\n<p>width in feet of outer shoulder on the roadway\n</p>\n</dd>\n<dt>lane</dt><dd>\n<p>total number of lanes of traffic\n</p>\n</dd>\n<dt>acpt</dt><dd>\n<p>number of access points per mile\n</p>\n</dd>\n<dt>itg</dt><dd>\n<p>number of freeway-type interchanges per mile\n</p>\n</dd>\n<dt>lwid</dt><dd>\n<p>lane width, in feet\n</p>\n</dd>\n<dt>htype</dt><dd><p>An indicator of the type of roadway or the source of funding\nfor the road, either MC, FAI, PA, or  MA\n</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>Carl Hoffstedt.  This differs from the dataset <code>Highway</code> in the\n<code>alr4</code> package only by addition of transformation of some of the columns.</p>\n<h3>References</h3>\n<p>Fox, J. and Weisberg, S. (2019) \n<em>An R Companion to Applied Regression</em>, Third Edition, Sage.\n</p>\n<p>Weisberg, S. (2014) <em>Applied Linear Regression</em>, Fourth Edition,  Wiley, Section 7.2.\n</p>\n</main>\n</div>\n",
-   "config" : {
-      "title" : "Highway Accidents",
-      "graphType" : "Heatmap",
-      "smpOverlays" : [
-         "htype"
-      ],
-      "subtitle" : "carData - Highway1"
-   }
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>Highway1</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Highway Accidents</h2>\n<h3>Description</h3>\n<p>The data comes from a unpublished master's paper by Carl Hoffstedt. They relate the automobile accident rate, \nin accidents per million vehicle miles to several potential terms.  The data include 39 sections of large \nhighways in the state of Minnesota in 1973.  The goal of this analysis was to understand the impact \nof design variables, <code>Acpts</code>, <code>Slim</code>, <code>Sig</code>, and <code>Shld</code> that are under the control of \nthe highway department, on accidents.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>Highway1\n</code></pre>\n<h3>Format</h3>\n<p>This data frame contains the following columns:\n</p>\n<dl>\n<dt>rate</dt><dd>\n<p>1973 accident rate per million vehicle miles\n</p>\n</dd>\n<dt>len</dt><dd>\n<p>length of the <code>Highway1</code> segment in miles\n</p>\n</dd>\n<dt>adt</dt><dd>\n<p>average daily traffic count in thousands\n</p>\n</dd>\n<dt>trks</dt><dd>\n<p>truck volume as a percent of the total volume\n</p>\n</dd>\n<dt>sigs1</dt><dd>\n<p>(number of signalized interchanges per mile times len + 1)/len, the number\nof signals per mile of roadway, adjusted to have no zero values.\n</p>\n</dd>\n<dt>slim</dt><dd>\n<p>speed limit in 1973\n</p>\n</dd>\n<dt>shld</dt><dd>\n<p>width in feet of outer shoulder on the roadway\n</p>\n</dd>\n<dt>lane</dt><dd>\n<p>total number of lanes of traffic\n</p>\n</dd>\n<dt>acpt</dt><dd>\n<p>number of access points per mile\n</p>\n</dd>\n<dt>itg</dt><dd>\n<p>number of freeway-type interchanges per mile\n</p>\n</dd>\n<dt>lwid</dt><dd>\n<p>lane width, in feet\n</p>\n</dd>\n<dt>htype</dt><dd><p>An indicator of the type of roadway or the source of funding\nfor the road, either MC, FAI, PA, or  MA\n</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>Carl Hoffstedt.  This differs from the dataset <code>Highway</code> in the\n<code>alr4</code> package only by addition of transformation of some of the columns.</p>\n<h3>References</h3>\n<p>Fox, J. and Weisberg, S. (2019) \n<em>An R Companion to Applied Regression</em>, Third Edition, Sage.\n</p>\n<p>Weisberg, S. (2014) <em>Applied Linear Regression</em>, Fourth Edition,  Wiley, Section 7.2.\n</p>\n</main>\n</div>\n"
 }

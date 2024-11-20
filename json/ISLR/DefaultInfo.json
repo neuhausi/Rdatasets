@@ -1,0 +1,13 @@
+{
+   "title" : "Credit Card Default Data",
+   "description" : "Description\nA simulated data set containing information on ten thousand\ncustomers. The aim here is to predict which customers will default on\ntheir credit card debt.",
+   "usage" : "Default",
+   "reference" : "Simulated data",
+   "parameters" : {
+      "balance" : "The average balance that the customer\nhas remaining on their credit card after making their monthly payment",
+      "student" : "A factor with levels No and Yes\nindicating whether the customer is a student",
+      "income" : "Income of customer",
+      "default" : "A factor with levels No and Yes\nindicating whether the customer defaulted on their debt"
+   },
+   "format" : "A data frame with 10000 observations on the following 4 variables."
+}

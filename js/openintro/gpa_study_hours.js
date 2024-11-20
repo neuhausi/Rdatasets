@@ -1,13 +1,13 @@
 var gpa_study_hoursInfo ={
-   "usage" : "gpa_study_hours",
-   "description" : "Description\nA data frame with 193 rows and 2 columns. The columns represent the\nvariables gpa and study_hours for a sample of 193\nundergraduate students who took an introductory statistics course in 2012 at\na private US university.",
-   "reference" : "GPA ranges from 0 to 4 points, however one student reported a GPA > 4. This\nis a data error but this observation has been left in the dataset as it is\nused to illustrate issues with real survey data. Both variables are self\nreported, hence may not be accurate.",
    "format" : "A data frame with 193 observations on the following 2 variables.",
-   "title" : "gpa_study_hours",
    "parameters" : {
-      "study_hours" : "Number of hours students study per week.",
-      "gpa" : "Grade point average (GPA) of student."
-   }
+      "gpa" : "Grade point average (GPA) of student.",
+      "study_hours" : "Number of hours students study per week."
+   },
+   "usage" : "gpa_study_hours",
+   "reference" : "GPA ranges from 0 to 4 points, however one student reported a GPA > 4. This\nis a data error but this observation has been left in the dataset as it is\nused to illustrate issues with real survey data. Both variables are self\nreported, hence may not be accurate.",
+   "title" : "gpa_study_hours",
+   "description" : "Description\nA data frame with 193 rows and 2 columns. The columns represent the\nvariables gpa and study_hours for a sample of 193\nundergraduate students who took an introductory statistics course in 2012 at\na private US university."
 }
 
 var gpa_study_hours = [

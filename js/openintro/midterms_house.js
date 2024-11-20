@@ -1,16 +1,16 @@
 var midterms_houseInfo ={
+   "description" : "Description\nCovers midterm elections.",
+   "title" : "President's party performance and unemployment rate",
+   "usage" : "midterms_house",
+   "reference" : "An older version of this data is at unemploy_pres.",
    "parameters" : {
       "house_change" : "Change in House seats for the President's party.",
       "party" : "President's party: Democrat or Republican.",
-      "unemp" : "Unemployment rate.",
+      "potus" : "The president in office.",
       "year" : "Year.",
-      "potus" : "The president in office."
+      "unemp" : "Unemployment rate."
    },
-   "reference" : "An older version of this data is at unemploy_pres.",
-   "format" : "A data frame with 29 observations on the following 5 variables.",
-   "title" : "President's party performance and unemployment rate",
-   "description" : "Description\nCovers midterm elections.",
-   "usage" : "midterms_house"
+   "format" : "A data frame with 29 observations on the following 5 variables."
 }
 
 var midterms_house = [

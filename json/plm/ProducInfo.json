@@ -1,0 +1,19 @@
+{
+   "parameters" : {
+      "pcap" : "public capital stock",
+      "util" : "other public buildings and structures",
+      "water" : "water and sewer facilities",
+      "year" : "the year",
+      "unemp" : "state unemployment rate",
+      "state" : "the state",
+      "region" : "the region",
+      "emp" : "labor input measured by the employment in non&ndash;agricultural payrolls",
+      "gsp" : "gross state product",
+      "hwy" : "highway and streets",
+      "pc" : "private capital stock"
+   },
+   "usage" : "A data frame containing :",
+   "reference" : "total number of observations : 816",
+   "description" : "Description\nA panel of 48 observations from 1970 to 1986",
+   "title" : "US States Production"
+}

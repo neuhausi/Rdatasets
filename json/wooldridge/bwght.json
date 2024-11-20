@@ -1,14 +1,4 @@
 {
-   "config" : {
-      "smpOverlays" : [
-         "motheduc",
-         "fatheduc"
-      ],
-      "title" : "bwght",
-      "graphType" : "Heatmap",
-      "subtitle" : "wooldridge - bwght"
-   },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>bwght</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>bwght</h2>\n<h3>Description</h3>\n<p>Wooldridge Source: J. Mullahy (1997), âInstrumental-Variable Estimation of Count Data Models: Applications to Models of Cigarette Smoking Behavior,â Review of Economics and Statistics 79, 596-593. Professor Mullahy kindly provided the data. He obtained them from the 1988 National Health Interview Survey. Data loads lazily.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data('bwght')\n</code></pre>\n<h3>Format</h3>\n<p>A data.frame with 1388 observations on 14 variables:\n</p>\n<ul>\n<li> <p><strong>faminc:</strong> 1988 family income, $1000s\n</p>\n</li>\n<li> <p><strong>cigtax:</strong> cig. tax in home state, 1988\n</p>\n</li>\n<li> <p><strong>cigprice:</strong> cig. price in home state, 1988\n</p>\n</li>\n<li> <p><strong>bwght:</strong> birth weight, ounces\n</p>\n</li>\n<li> <p><strong>fatheduc:</strong> father's yrs of educ\n</p>\n</li>\n<li> <p><strong>motheduc:</strong> mother's yrs of educ\n</p>\n</li>\n<li> <p><strong>parity:</strong> birth order of child\n</p>\n</li>\n<li> <p><strong>male:</strong> =1 if male child\n</p>\n</li>\n<li> <p><strong>white:</strong> =1 if white\n</p>\n</li>\n<li> <p><strong>cigs:</strong> cigs smked per day while preg\n</p>\n</li>\n<li> <p><strong>lbwght:</strong> log of bwght\n</p>\n</li>\n<li> <p><strong>bwghtlbs:</strong> birth weight, pounds\n</p>\n</li>\n<li> <p><strong>packs:</strong> packs smked per day while preg\n</p>\n</li>\n<li> <p><strong>lfaminc:</strong> log(faminc)\n</p>\n</li></ul>\n<h3>Used in Text</h3>\n<p>pages 18, 61, 110, 151, 165, 178, 184, 187-188, 258-259, 522-523\n</p>\n<h3>Source</h3>\n<p><a href=\"https://www.cengage.com/cgi-wadsworth/course_products_wp.pl?fid=M20b&amp;product_isbn_issn=9781111531041\">https://www.cengage.com/cgi-wadsworth/course_products_wp.pl?fid=M20b&amp;product_isbn_issn=9781111531041</a>\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'> str(bwght)\n</code></pre>\n</main>\n</div>\n",
    "data" : {
       "x" : {
          "motheduc" : [
@@ -2793,6 +2783,20 @@
          ]
       },
       "y" : {
+         "vars" : [
+            "faminc",
+            "cigtax",
+            "cigprice",
+            "bwght",
+            "parity",
+            "male",
+            "white",
+            "cigs",
+            "lbwght",
+            "bwghtlbs",
+            "packs",
+            "lfaminc"
+         ],
          "smps" : [
             "Smp1",
             "Smp2",
@@ -4182,20 +4186,6 @@
             "Smp1386",
             "Smp1387",
             "Smp1388"
-         ],
-         "vars" : [
-            "faminc",
-            "cigtax",
-            "cigprice",
-            "bwght",
-            "parity",
-            "male",
-            "white",
-            "cigs",
-            "lbwght",
-            "bwghtlbs",
-            "packs",
-            "lfaminc"
          ],
          "data" : [
             [
@@ -20880,5 +20870,15 @@
             ]
          ]
       }
+   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>bwght</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>bwght</h2>\n<h3>Description</h3>\n<p>Wooldridge Source: J. Mullahy (1997), âInstrumental-Variable Estimation of Count Data Models: Applications to Models of Cigarette Smoking Behavior,â Review of Economics and Statistics 79, 596-593. Professor Mullahy kindly provided the data. He obtained them from the 1988 National Health Interview Survey. Data loads lazily.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data('bwght')\n</code></pre>\n<h3>Format</h3>\n<p>A data.frame with 1388 observations on 14 variables:\n</p>\n<ul>\n<li> <p><strong>faminc:</strong> 1988 family income, $1000s\n</p>\n</li>\n<li> <p><strong>cigtax:</strong> cig. tax in home state, 1988\n</p>\n</li>\n<li> <p><strong>cigprice:</strong> cig. price in home state, 1988\n</p>\n</li>\n<li> <p><strong>bwght:</strong> birth weight, ounces\n</p>\n</li>\n<li> <p><strong>fatheduc:</strong> father's yrs of educ\n</p>\n</li>\n<li> <p><strong>motheduc:</strong> mother's yrs of educ\n</p>\n</li>\n<li> <p><strong>parity:</strong> birth order of child\n</p>\n</li>\n<li> <p><strong>male:</strong> =1 if male child\n</p>\n</li>\n<li> <p><strong>white:</strong> =1 if white\n</p>\n</li>\n<li> <p><strong>cigs:</strong> cigs smked per day while preg\n</p>\n</li>\n<li> <p><strong>lbwght:</strong> log of bwght\n</p>\n</li>\n<li> <p><strong>bwghtlbs:</strong> birth weight, pounds\n</p>\n</li>\n<li> <p><strong>packs:</strong> packs smked per day while preg\n</p>\n</li>\n<li> <p><strong>lfaminc:</strong> log(faminc)\n</p>\n</li></ul>\n<h3>Used in Text</h3>\n<p>pages 18, 61, 110, 151, 165, 178, 184, 187-188, 258-259, 522-523\n</p>\n<h3>Source</h3>\n<p><a href=\"https://www.cengage.com/cgi-wadsworth/course_products_wp.pl?fid=M20b&amp;product_isbn_issn=9781111531041\">https://www.cengage.com/cgi-wadsworth/course_products_wp.pl?fid=M20b&amp;product_isbn_issn=9781111531041</a>\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'> str(bwght)\n</code></pre>\n</main>\n</div>\n",
+   "config" : {
+      "graphType" : "Heatmap",
+      "smpOverlays" : [
+         "motheduc",
+         "fatheduc"
+      ],
+      "subtitle" : "wooldridge - bwght",
+      "title" : "bwght"
    }
 }

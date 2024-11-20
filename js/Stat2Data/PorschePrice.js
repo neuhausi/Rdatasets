@@ -1,7 +1,7 @@
 var PorschePriceInfo ={
-   "description" : "Description\nPrices for Porsche cars offered for sale at an internet site.",
+   "usage" : "A dataset with 30 observations on the following 3 variables.",
    "title" : "Porsche Prices",
-   "usage" : "A dataset with 30 observations on the following 3 variables."
+   "description" : "Description\nPrices for Porsche cars offered for sale at an internet site."
 }
 
 var PorschePrice = [

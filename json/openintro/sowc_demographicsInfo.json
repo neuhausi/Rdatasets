@@ -1,0 +1,27 @@
+{
+   "format" : "A data frame with 202 rows and 18 variables.",
+   "reference" : "United Nations Children's Emergency Fund (UNICEF)",
+   "usage" : "sowc_demographics",
+   "description" : "Description\nDemographic data from UNICEF's State of the World's Children 2019 Statistical Tables.",
+   "title" : "SOWC Demographics Data.",
+   "parameters" : {
+      "fertility_2018" : "Number of live births per woman in 2018.A total\nfertility level of 2.1 is called replacement level and represents a\nlevel at which the population would remain the same size.",
+      "dependency_ratio_oldage" : "The ratio of the  over 64 population\nto the working-age population of 15 - 64 years.",
+      "life_expectancy_1970" : "Life expectancy at birth in 1970.",
+      "pop_urban_growth_rate_2030" : "Estimated annual urban population growth\nrate from 2018 to 2030.",
+      "dependency_ratio_child" : "The ratio of the under 15 population\nto the working-age population of 15 - 64 years.",
+      "pop_growth_rate_2030" : "Rate at which population is estimated to grow\nin 2030.",
+      "total_pop_2018" : "Population in 2018 in thousands.",
+      "under18_pop_2018" : "Population under age 18 in 2018 in thousands.",
+      "dependency_ratio_total" : "The ratio of the not-working-age\npopulation to the working-age population of 15 - 64 years.",
+      "under5_pop_2018" : "Population under age 5 in 2018 in thousands.",
+      "births_2018" : "Number of births in 2018 in thousands.",
+      "countries_and_areas" : "Country or area name.",
+      "life_expectancy_2018" : "Life expectancy at birth in 2018.",
+      "pop_growth_rate_2018" : "Rate at which population is growing in 2018.",
+      "percent_urban_2018" : "Percent of population living in urban areas.",
+      "migration_rate" : "Net migration rate per 1000 population from\n2015 to 2020.",
+      "life_expectancy_2000" : "Life expectancy at birth in 2000.",
+      "pop_urban_growth_rate_2018" : "Annual urban population growth rate\nfrom 2000 to 2018."
+   }
+}

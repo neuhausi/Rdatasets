@@ -1,15 +1,15 @@
 var SocialCogInfo ={
-   "usage" : "A data frame with 139 observations on the following 5 variables.",
-   "title" : "Social Cognitive Measures in Psychiatric Groups",
-   "reference" : "The data here are for a subset of the observations in NeuroCog\nfor which measures on various scales of social cognition were also\navailable. Interest here is on whether the schizophrenia group can be\ndistinguished from the schizoaffective group on these measures.",
-   "description" : "Description\nThe general purpose of the study (Hartman, 2016, Heinrichs et al. (2015))\nwas to evaluate patterns and levels of performance on neurocognitive\nmeasures among individuals with schizophrenia and schizoaffective disorder\nusing a well-validated, comprehensive neurocognitive battery specifically\ndesigned for individuals with psychosis (Heinrichs et al. (2008))",
    "parameters" : {
       "ExtBias" : "Externalizing Bias score, a numeric vector",
-      "Dx" : "Diagnostic group, a factor with levels\nSchizophrenia, Schizoaffective, Control",
-      "ToM" : "Score on the The Reading the Mind in the Eyes test (theory of mind), a numeric vector",
       "PersBias" : "Personal Bias score, a numeric vector",
+      "ToM" : "Score on the The Reading the Mind in the Eyes test (theory of mind), a numeric vector",
+      "Dx" : "Diagnostic group, a factor with levels\nSchizophrenia, Schizoaffective, Control",
       "MgeEmotions" : "Score on the Managing emotions test, a numeric vector"
-   }
+   },
+   "description" : "Description\nThe general purpose of the study (Hartman, 2016, Heinrichs et al. (2015))\nwas to evaluate patterns and levels of performance on neurocognitive\nmeasures among individuals with schizophrenia and schizoaffective disorder\nusing a well-validated, comprehensive neurocognitive battery specifically\ndesigned for individuals with psychosis (Heinrichs et al. (2008))",
+   "title" : "Social Cognitive Measures in Psychiatric Groups",
+   "usage" : "A data frame with 139 observations on the following 5 variables.",
+   "reference" : "The data here are for a subset of the observations in NeuroCog\nfor which measures on various scales of social cognition were also\navailable. Interest here is on whether the schizophrenia group can be\ndistinguished from the schizoaffective group on these measures."
 }
 
 var SocialCog = [

@@ -1,14 +1,14 @@
 var OxboysInfo ={
+   "usage" : "This data frame contains the following columns:",
+   "reference" : "These data are described in Goldstein (1987) as data on the\nheight of a selection of boys from Oxford, England versus a\nstandardized age.",
+   "title" : "Heights of Boys in Oxford",
+   "description" : "Description\nThe Oxboys data frame has 234 rows and 4 columns.",
    "parameters" : {
-      "height" : "a numeric vector giving the height of the boy (cm)",
       "Subject" : "an ordered factor giving a unique identifier for each boy in\nthe experiment",
+      "height" : "a numeric vector giving the height of the boy (cm)",
       "Occasion" : "an ordered factor - the result of converting age from a\ncontinuous variable to a count so these slightly unbalanced\ndata can be analyzed as balanced.",
       "age" : "a numeric vector giving the standardized age (dimensionless)"
-   },
-   "description" : "Description\nThe Oxboys data frame has 234 rows and 4 columns.",
-   "usage" : "This data frame contains the following columns:",
-   "title" : "Heights of Boys in Oxford",
-   "reference" : "These data are described in Goldstein (1987) as data on the\nheight of a selection of boys from Oxford, England versus a\nstandardized age."
+   }
 }
 
 var Oxboys = [

@@ -1,13 +1,13 @@
 var PEInfo ={
-   "description" : "Description\nannual observations from 1800 to 1931\nnumber of observations :  132\nobservation :  country\ncountry :  United States",
-   "usage" : "data(PE)",
    "parameters" : {
-      "price" : "S&P composite stock price index",
-      "earnings" : "S&P composite earnings index"
+      "earnings" : "S&P composite earnings index",
+      "price" : "S&P composite stock price index"
    },
-   "format" : "A time series containing :",
+   "description" : "Description\nannual observations from 1800 to 1931\nnumber of observations :  132\nobservation :  country\ncountry :  United States",
+   "title" : "Price and Earnings Index",
+   "usage" : "data(PE)",
    "reference" : "Robert Shiller.",
-   "title" : "Price and Earnings Index"
+   "format" : "A time series containing :"
 }
 
 var PE = [

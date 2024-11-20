@@ -1,13 +1,13 @@
 var yawnInfo ={
-   "usage" : "yawn",
-   "description" : "Description\nAn experiment conducted by the MythBusters, a science entertainment TV\nprogram on the Discovery Channel, tested if a person can be subconsciously\ninfluenced into yawning if another person near them yawns. 50 people were\nrandomly assigned to two groups: 34 to a group where a person near them\nyawned (treatment) and 16 to a group where there wasn't a person yawning\nnear them (control).",
-   "format" : "A data frame with 50 observations on the following 2 variables.",
-   "title" : "Contagiousness of yawning",
-   "reference" : "MythBusters, Season 3, Episode 28.",
    "parameters" : {
       "group" : "a factor with levels ctrl trmt",
       "result" : "a factor with levels not yawn yawn"
-   }
+   },
+   "reference" : "MythBusters, Season 3, Episode 28.",
+   "usage" : "yawn",
+   "description" : "Description\nAn experiment conducted by the MythBusters, a science entertainment TV\nprogram on the Discovery Channel, tested if a person can be subconsciously\ninfluenced into yawning if another person near them yawns. 50 people were\nrandomly assigned to two groups: 34 to a group where a person near them\nyawned (treatment) and 16 to a group where there wasn't a person yawning\nnear them (control).",
+   "title" : "Contagiousness of yawning",
+   "format" : "A data frame with 50 observations on the following 2 variables."
 }
 
 var yawn = [

@@ -1,0 +1,6 @@
+{
+   "usage" : "Caravan",
+   "title" : "The Insurance Company (TIC) Benchmark",
+   "description" : "Description\nThe data contains 5822 real customer records. Each record\nconsists of 86 variables, containing sociodemographic data (variables\n1-43) and product ownership (variables 44-86). The sociodemographic\ndata is derived from zip codes. All customers living in areas with the\nsame zip code have the same sociodemographic attributes. Variable 86\n(Purchase) indicates whether the customer purchased a caravan\ninsurance policy. Further information on the individual variables can\nbe obtained at  http://www.liacs.nl/~putten/library/cc2000/data.html",
+   "format" : "A data frame with 5822 observations on 86 variables."
+}

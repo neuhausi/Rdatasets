@@ -1,8 +1,8 @@
 var losInfo ={
-   "usage" : "data(los, package=\"robustbase\")",
    "format" : "Vector of integer values giving the length of stay (days):",
-   "title" : "Length of Stay Data",
-   "description" : "Description\nLength of stay for 201 patients that stayed at the University Hospital\nof Lausanne during the year 2000."
+   "usage" : "data(los, package=\"robustbase\")",
+   "description" : "Description\nLength of stay for 201 patients that stayed at the University Hospital\nof Lausanne during the year 2000.",
+   "title" : "Length of Stay Data"
 }
 
 var los = [

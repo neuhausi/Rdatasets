@@ -1,8 +1,8 @@
 var OrchardSpraysInfo ={
-   "description" : "Description\nAn experiment was conducted to assess the potency of various\nconstituents of orchard sprays in repelling honeybees, using a\nLatin square design.",
-   "title" : "Potency of Orchard Sprays",
    "format" : "A data frame with 64 observations on 4 variables.",
-   "usage" : "OrchardSprays"
+   "usage" : "OrchardSprays",
+   "description" : "Description\nAn experiment was conducted to assess the potency of various\nconstituents of orchard sprays in repelling honeybees, using a\nLatin square design.",
+   "title" : "Potency of Orchard Sprays"
 }
 
 var OrchardSprays = [

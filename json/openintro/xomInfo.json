@@ -1,0 +1,16 @@
+{
+   "format" : "A data frame with 98 observations on the following 7 variables.",
+   "parameters" : {
+      "volume" : "a numeric vector",
+      "adj_close" : "a numeric vector",
+      "date" : "Date.",
+      "close" : "a numeric vector",
+      "low" : "a numeric vector",
+      "open" : "a numeric vector",
+      "high" : "a numeric vector"
+   },
+   "title" : "Exxon Mobile stock data",
+   "description" : "Description\nMonthly data covering 2006 through early 2014.",
+   "reference" : "Yahoo! Finance.",
+   "usage" : "xom"
+}

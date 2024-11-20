@@ -1,9 +1,9 @@
 var okunInfo ={
-   "usage" : "data('okun')",
-   "description" : "Description\nWooldridge Source: Economic Report of the President, 2007, Tables B-4 and B-42. Data loads lazily.",
-   "title" : "okun",
    "format" : "A data.frame with 47 observations on 4 variables:",
+   "title" : "okun",
+   "description" : "Description\nWooldridge Source: Economic Report of the President, 2007, Tables B-4 and B-42. Data loads lazily.",
    "reference" : "410, 444",
+   "usage" : "data('okun')",
    "parameters" : {
       "year" : " 1959 through 2005",
       "pcrgdp" : " percentage change in real GDP",

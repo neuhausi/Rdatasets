@@ -1,14 +1,14 @@
 var google_stockInfo ={
-   "parameters" : {
-      "SP500_Return" : "Daily S&P 500 Index Return (1 = 100 percent daily return)",
-      "Google_Return" : "Daily GOOG Stock Return (1 = 100 percent daily return)",
-      "Date" : "The date"
-   },
    "format" : "A data frame with 84 rows and 3 variables",
-   "title" : "Google Stock Data",
+   "usage" : "google_stock",
    "reference" : "This data was downloaded using the tidyquant package, and is used in the Event Studies chapter of The Effect.",
    "description" : "Description\nThe google_stock data contains data on daily stock returns for Google and the S&P 500 for May through Augut 2015, centering around the August 10, 2015 announcement that Google would reorganize under parent company Alphabet.",
-   "usage" : "google_stock"
+   "title" : "Google Stock Data",
+   "parameters" : {
+      "Google_Return" : "Daily GOOG Stock Return (1 = 100 percent daily return)",
+      "Date" : "The date",
+      "SP500_Return" : "Daily S&P 500 Index Return (1 = 100 percent daily return)"
+   }
 }
 
 var google_stock = [

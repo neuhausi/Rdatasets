@@ -1,0 +1,16 @@
+{
+   "reference" : "total number of observations: 5904",
+   "usage" : "A data frame containing:",
+   "description" : "Description\nA panel of 738 observations from 1983 to 1990",
+   "title" : "Employment and Wages in Spain",
+   "parameters" : {
+      "y" : "log of real output",
+      "w" : "log of wages",
+      "firm" : "firm index",
+      "k" : "log of real capital stock",
+      "n" : "log of employment",
+      "year" : "year",
+      "f" : "real cash flow",
+      "i" : "log of intermediate inputs"
+   }
+}

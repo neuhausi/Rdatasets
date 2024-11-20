@@ -1,4 +1,10 @@
 {
+   "config" : {
+      "graphType" : "Treemap",
+      "title" : "Road distances between 10 Australian cities",
+      "subtitle" : "DAAG - audists"
+   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>audists</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Road distances between 10 Australian cities</h2>\n<h3>Description</h3>\n<p>Distances between the Australian cities of\nAdelaide, Alice, Brisbane, Broome, Cairns, Canberra, \nDarwin, Melbourne, Perth and Sydney   \n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>audists</code></pre>\n<h3>Format</h3>\n<p>The format is:\nClass 'dist', i.e., a distance matrix.\n</p>\n<h3>Source</h3>\n<p>Australian road map\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>data(audists)\n## Not run: \naudists.cmd &lt;- cmdscale(audists)\nlibrary(lattice)\nxyplot(audists.cmd[,2] ~ audists.cmd[,1], \n       groups=row.names(audists.cmd),\n       panel = function(x, y, subscripts, groups)  \n                        ltext(x = x, y = y, label = groups[subscripts],\n                        cex=1, fontfamily = \"HersheySans\"))\n## End(Not run)\n</code></pre>\n</main>\n</div>\n",
    "data" : {
       "y" : {
          "smps" : [
@@ -48,9 +54,6 @@
             "Smp44",
             "Smp45"
          ],
-         "vars" : [
-            "x"
-         ],
          "data" : [
             [
                1690,
@@ -99,13 +102,10 @@
                895,
                3990
             ]
+         ],
+         "vars" : [
+            "x"
          ]
       }
-   },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>audists</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Road distances between 10 Australian cities</h2>\n<h3>Description</h3>\n<p>Distances between the Australian cities of\nAdelaide, Alice, Brisbane, Broome, Cairns, Canberra, \nDarwin, Melbourne, Perth and Sydney   \n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>audists</code></pre>\n<h3>Format</h3>\n<p>The format is:\nClass 'dist', i.e., a distance matrix.\n</p>\n<h3>Source</h3>\n<p>Australian road map\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>data(audists)\n## Not run: \naudists.cmd &lt;- cmdscale(audists)\nlibrary(lattice)\nxyplot(audists.cmd[,2] ~ audists.cmd[,1], \n       groups=row.names(audists.cmd),\n       panel = function(x, y, subscripts, groups)  \n                        ltext(x = x, y = y, label = groups[subscripts],\n                        cex=1, fontfamily = \"HersheySans\"))\n## End(Not run)\n</code></pre>\n</main>\n</div>\n",
-   "config" : {
-      "title" : "Road distances between 10 Australian cities",
-      "graphType" : "Treemap",
-      "subtitle" : "DAAG - audists"
    }
 }

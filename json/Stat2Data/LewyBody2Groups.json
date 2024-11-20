@@ -1,12 +1,16 @@
 {
    "config" : {
-      "title" : "Lewy Bodies and Dimentia",
       "colorBy" : "Type",
       "graphType" : "Scatter2D",
+      "title" : "Lewy Bodies and Dimentia",
       "subtitle" : "Stat2Data - LewyBody2Groups"
    },
    "data" : {
       "y" : {
+         "smps" : [
+            "APC",
+            "MMSE"
+         ],
          "data" : [
             [
                0.85,
@@ -164,10 +168,6 @@
                -2.65,
                -3.84
             ]
-         ],
-         "smps" : [
-            "APC",
-            "MMSE"
          ],
          "vars" : [
             "Var1",

@@ -1,8 +1,8 @@
 var volcanoInfo ={
-   "usage" : "volcano",
    "title" : "Topographic Information on Auckland's Maunga Whau Volcano",
-   "format" : "A matrix with 87 rows and 61 columns, rows corresponding to grid lines\nrunning east to west and columns to grid lines running south to\nnorth.",
-   "description" : "Description\nMaunga Whau (Mt Eden) is one of about 50 volcanos in the Auckland\nvolcanic field.  This data set gives topographic information for\nMaunga Whau on a 10m by 10m grid."
+   "description" : "Description\nMaunga Whau (Mt Eden) is one of about 50 volcanos in the Auckland\nvolcanic field.  This data set gives topographic information for\nMaunga Whau on a 10m by 10m grid.",
+   "usage" : "volcano",
+   "format" : "A matrix with 87 rows and 61 columns, rows corresponding to grid lines\nrunning east to west and columns to grid lines running south to\nnorth."
 }
 
 var volcano = [

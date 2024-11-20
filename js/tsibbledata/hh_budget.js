@@ -1,8 +1,8 @@
 var hh_budgetInfo ={
    "usage" : "Time series of class tsibble.",
-   "format" : "hh_budget is an annual tsibble with six values:",
+   "description" : "Description\nAnnual indicators of household budgets for Australia, Japan, Canada and USA\nfrom 1995-2016.",
    "title" : "Household budget characteristics",
-   "description" : "Description\nAnnual indicators of household budgets for Australia, Japan, Canada and USA\nfrom 1995-2016."
+   "format" : "hh_budget is an annual tsibble with six values:"
 }
 
 var hh_budget = [

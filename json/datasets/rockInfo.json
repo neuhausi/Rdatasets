@@ -1,0 +1,6 @@
+{
+   "title" : "Measurements on Petroleum Rock Samples",
+   "description" : "Description\nMeasurements on 48 rock samples from a petroleum reservoir.",
+   "usage" : "rock",
+   "format" : "A data frame with 48 rows and 4 numeric columns."
+}

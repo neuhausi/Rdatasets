@@ -1,24 +1,24 @@
 var acs12Info ={
-   "parameters" : {
-      "hrs_work" : "Hours worked per week.",
-      "time_to_work" : "Travel time to work, in minutes.",
-      "employment" : "Employment status.",
-      "birth_qrtr" : "The quarter of the year that the person was born,\ne.g. &#8288;Jan thru Mar&#8288;.",
-      "citizen" : "Whether the person is a U.S. citizen.",
-      "gender" : "Gender.",
-      "income" : "Annual income.",
-      "age" : "Age, in years.",
-      "edu" : "Education level.",
-      "lang" : "Language spoken at home.",
-      "disability" : "Whether the person is disabled.",
-      "married" : "Whether the person is married.",
-      "race" : "Race."
-   },
-   "format" : "A data frame with 2000 observations on the following 13 variables.",
-   "title" : "American Community Survey, 2012",
    "reference" : "https://www.census.gov/programs-surveys/acs",
+   "usage" : "acs12",
+   "title" : "American Community Survey, 2012",
    "description" : "Description\nResults from the US Census American Community Survey, 2012.",
-   "usage" : "acs12"
+   "parameters" : {
+      "citizen" : "Whether the person is a U.S. citizen.",
+      "age" : "Age, in years.",
+      "married" : "Whether the person is married.",
+      "employment" : "Employment status.",
+      "race" : "Race.",
+      "birth_qrtr" : "The quarter of the year that the person was born,\ne.g. &#8288;Jan thru Mar&#8288;.",
+      "income" : "Annual income.",
+      "gender" : "Gender.",
+      "disability" : "Whether the person is disabled.",
+      "lang" : "Language spoken at home.",
+      "edu" : "Education level.",
+      "hrs_work" : "Hours worked per week.",
+      "time_to_work" : "Travel time to work, in minutes."
+   },
+   "format" : "A data frame with 2000 observations on the following 13 variables."
 }
 
 var acs12 = [

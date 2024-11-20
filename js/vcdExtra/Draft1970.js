@@ -1,14 +1,14 @@
 var Draft1970Info ={
-   "usage" : "data(Draft1970)",
-   "description" : "Description\nThis data set gives the results of the 1970 US draft lottery, in the form of a data frame.",
-   "reference" : "The draft lottery was used to determine the order in which eligible men would\nbe called to the Selective Service draft.\nThe days of the year (including  February 29) were represented by the  numbers 1\nthrough 366 written on slips of paper. The slips were placed in separate plastic\ncapsules that were  mixed in a  shoebox and then  dumped into a  deep glass jar.\nCapsules were drawn from the jar one at a time.",
    "format" : "A data frame with 366 observations on the following 3 variables.",
-   "title" : "USA 1970 Draft Lottery Data",
    "parameters" : {
-      "Day" : "day of the year, 1:366",
+      "Month" : "an ordered factor with levels Jan < Feb ... < Dec",
       "Rank" : "draft priority rank of people born on that day",
-      "Month" : "an ordered factor with levels Jan < Feb ... < Dec"
-   }
+      "Day" : "day of the year, 1:366"
+   },
+   "description" : "Description\nThis data set gives the results of the 1970 US draft lottery, in the form of a data frame.",
+   "title" : "USA 1970 Draft Lottery Data",
+   "reference" : "The draft lottery was used to determine the order in which eligible men would\nbe called to the Selective Service draft.\nThe days of the year (including  February 29) were represented by the  numbers 1\nthrough 366 written on slips of paper. The slips were placed in separate plastic\ncapsules that were  mixed in a  shoebox and then  dumped into a  deep glass jar.\nCapsules were drawn from the jar one at a time.",
+   "usage" : "data(Draft1970)"
 }
 
 var Draft1970 = [

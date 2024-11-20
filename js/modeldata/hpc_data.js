@@ -1,8 +1,8 @@
 var hpc_dataInfo ={
-   "description" : "Description\nKuhn and Johnson (2013) describe a data set where characteristics of unix\njobs were used to classify there completion times as either very fast\n(1 min or less, VF), fast (1â50 min, F), moderate (5â30 min, M), or\nlong (greater than 30 min, L).",
    "usage" : "hpc_data\n\na tibble",
-   "format" : "Kuhn, M., Johnson, K. (2013) Applied Predictive Modeling, Springer.",
-   "title" : "High-performance computing system data"
+   "title" : "High-performance computing system data",
+   "description" : "Description\nKuhn and Johnson (2013) describe a data set where characteristics of unix\njobs were used to classify there completion times as either very fast\n(1 min or less, VF), fast (1â50 min, F), moderate (5â30 min, M), or\nlong (greater than 30 min, L).",
+   "format" : "Kuhn, M., Johnson, K. (2013) Applied Predictive Modeling, Springer."
 }
 
 var hpc_data = [

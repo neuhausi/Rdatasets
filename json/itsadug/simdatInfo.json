@@ -1,0 +1,15 @@
+{
+   "parameters" : {
+      "Y" : "Time series measure. \nSimilar to pupil size, sensor position, or voltage.",
+      "Group" : "Age group of participants: Adults or Children.",
+      "Subject" : "Code for individual participants.",
+      "Time" : "Time, time measure from start of each time series.",
+      "Trial" : "Trial in the experiment, centered around zero.",
+      "Condition" : "Continuous variable, ranging from -1 to 4. \nFor example, stimulus onset asynchrony."
+   },
+   "description" : "Description\nA dataset containing the sine wave data with random noise added.",
+   "title" : "Simulated time series data.",
+   "reference" : "Jacolien van Rij",
+   "usage" : "simdat",
+   "format" : "A data frame with 75600 rows and 6 variables:"
+}

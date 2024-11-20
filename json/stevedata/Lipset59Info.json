@@ -1,0 +1,20 @@
+{
+   "reference" : "The three variables with the prefix of un nominally come from the\nUnited Nations Statistical Division for 1949/1950, but are actually retrieved\nfrom Andic and Peacock (1961). Andic and Peacock (1961) note you should be\nskeptical of Soviet-style calculations of national income and thus don't\ninclude it in the data they make available.",
+   "usage" : "Lipset59",
+   "description" : "Description\nA data set on democracy and economic development for 48 countries that Lipset\n(1959) first described.",
+   "title" : "Democracy and Economic Development (Around) 1949-50",
+   "parameters" : {
+      "polity2" : "the polity2 score from the Polity project (see details)",
+      "iso3c" : "a three-character ISO code",
+      "v2x_polyarchy" : "the Varieties of Democracy \"polyarchy\" estimate (see details)",
+      "unpop" : "a population size (in thousands)",
+      "xm_qudsest" : "a \"Quick UDS\" estimate of democracy on a latent scale (see details)",
+      "country" : "a character country for an English country name",
+      "unincpc" : "a national income per capita",
+      "uninc" : "a national income (in millions)",
+      "cat" : "a category for the country by their region and level of democracy",
+      "wbpopest" : "an estimated population size",
+      "wbgdp2011est" : "an estimated gross domestic product in 2011 USD"
+   },
+   "format" : "A data frame with 48 observations on the following 11 variables."
+}

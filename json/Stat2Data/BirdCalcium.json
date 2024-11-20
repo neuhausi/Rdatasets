@@ -1,36 +1,14 @@
 {
    "config" : {
+      "sizeBy" : "Sex",
+      "shapeBy" : "Hormone",
       "title" : "Effect of a Hormone on Bird Calcium Levels",
       "subtitle" : "Stat2Data - BirdCalcium",
       "graphType" : "Scatter2D",
-      "shapeBy" : "Group",
-      "colorBy" : "Hormone",
-      "sizeBy" : "Sex"
+      "colorBy" : "Group"
    },
    "data" : {
       "z" : {
-         "Hormone" : [
-            "no",
-            "no",
-            "no",
-            "no",
-            "no",
-            "yes",
-            "yes",
-            "yes",
-            "yes",
-            "yes",
-            "no",
-            "no",
-            "no",
-            "no",
-            "no",
-            "yes",
-            "yes",
-            "yes",
-            "yes",
-            "yes"
-         ],
          "Group" : [
             "M No",
             "M No",
@@ -52,6 +30,28 @@
             "F Yes",
             "F Yes",
             "F Yes"
+         ],
+         "Hormone" : [
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes"
          ],
          "Sex" : [
             "male",
@@ -77,6 +77,10 @@
          ]
       },
       "y" : {
+         "smps" : [
+            "Bird",
+            "Ca"
+         ],
          "data" : [
             [
                1,
@@ -180,10 +184,6 @@
             "Var18",
             "Var19",
             "Var20"
-         ],
-         "smps" : [
-            "Bird",
-            "Ca"
          ]
       }
    },

@@ -1,12 +1,31 @@
 {
    "config" : {
+      "graphType" : "Heatmap",
       "subtitle" : "wooldridge - recid",
-      "title" : "recid",
-      "graphType" : "Heatmap"
+      "title" : "recid"
    },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>recid</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>recid</h2>\n<h3>Description</h3>\n<p>Wooldridge Source: C.-F. Chung, P. Schmidt, and A.D. Witte (1991), âSurvival Analysis: A Survey,â Journal of Quantitative Criminology 7, 59-98. Professor Chung kindly provided the data. Data loads lazily.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data('recid')\n</code></pre>\n<h3>Format</h3>\n<p>A data.frame with 1445 observations on 18 variables:\n</p>\n<ul>\n<li> <p><strong>black:</strong> =1 if black\n</p>\n</li>\n<li> <p><strong>alcohol:</strong> =1 if alcohol problems\n</p>\n</li>\n<li> <p><strong>drugs:</strong> =1 if drug history\n</p>\n</li>\n<li> <p><strong>super:</strong> =1 if release supervised\n</p>\n</li>\n<li> <p><strong>married:</strong> =1 if married when incarc.\n</p>\n</li>\n<li> <p><strong>felon:</strong> =1 if felony sentence\n</p>\n</li>\n<li> <p><strong>workprg:</strong> =1 if in N.C. pris. work prg.\n</p>\n</li>\n<li> <p><strong>property:</strong> =1 if property crime\n</p>\n</li>\n<li> <p><strong>person:</strong> =1 if crime against person\n</p>\n</li>\n<li> <p><strong>priors:</strong> # prior convictions\n</p>\n</li>\n<li> <p><strong>educ:</strong> years of schooling\n</p>\n</li>\n<li> <p><strong>rules:</strong> # rules violations in prison\n</p>\n</li>\n<li> <p><strong>age:</strong> in months\n</p>\n</li>\n<li> <p><strong>tserved:</strong> time served, rounded to months\n</p>\n</li>\n<li> <p><strong>follow:</strong> length follow period, months\n</p>\n</li>\n<li> <p><strong>durat:</strong> min(time until return, follow)\n</p>\n</li>\n<li> <p><strong>cens:</strong> =1 if duration right censored\n</p>\n</li>\n<li> <p><strong>ldurat:</strong> log(durat)\n</p>\n</li></ul>\n<h3>Used in Text</h3>\n<p>pages 611-612, 625\n</p>\n<h3>Source</h3>\n<p><a href=\"https://www.cengage.com/cgi-wadsworth/course_products_wp.pl?fid=M20b&amp;product_isbn_issn=9781111531041\">https://www.cengage.com/cgi-wadsworth/course_products_wp.pl?fid=M20b&amp;product_isbn_issn=9781111531041</a>\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'> str(recid)\n</code></pre>\n</main>\n</div>\n",
    "data" : {
       "y" : {
+         "vars" : [
+            "black",
+            "alcohol",
+            "drugs",
+            "super",
+            "married",
+            "felon",
+            "workprg",
+            "property",
+            "person",
+            "priors",
+            "educ",
+            "rules",
+            "age",
+            "tserved",
+            "follow",
+            "durat",
+            "cens",
+            "ldurat"
+         ],
          "data" : [
             [
                0,
@@ -26055,26 +26074,6 @@
                4.27666616439819
             ]
          ],
-         "vars" : [
-            "black",
-            "alcohol",
-            "drugs",
-            "super",
-            "married",
-            "felon",
-            "workprg",
-            "property",
-            "person",
-            "priors",
-            "educ",
-            "rules",
-            "age",
-            "tserved",
-            "follow",
-            "durat",
-            "cens",
-            "ldurat"
-         ],
          "smps" : [
             "Smp1",
             "Smp2",
@@ -27523,5 +27522,6 @@
             "Smp1445"
          ]
       }
-   }
+   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>recid</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>recid</h2>\n<h3>Description</h3>\n<p>Wooldridge Source: C.-F. Chung, P. Schmidt, and A.D. Witte (1991), âSurvival Analysis: A Survey,â Journal of Quantitative Criminology 7, 59-98. Professor Chung kindly provided the data. Data loads lazily.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data('recid')\n</code></pre>\n<h3>Format</h3>\n<p>A data.frame with 1445 observations on 18 variables:\n</p>\n<ul>\n<li> <p><strong>black:</strong> =1 if black\n</p>\n</li>\n<li> <p><strong>alcohol:</strong> =1 if alcohol problems\n</p>\n</li>\n<li> <p><strong>drugs:</strong> =1 if drug history\n</p>\n</li>\n<li> <p><strong>super:</strong> =1 if release supervised\n</p>\n</li>\n<li> <p><strong>married:</strong> =1 if married when incarc.\n</p>\n</li>\n<li> <p><strong>felon:</strong> =1 if felony sentence\n</p>\n</li>\n<li> <p><strong>workprg:</strong> =1 if in N.C. pris. work prg.\n</p>\n</li>\n<li> <p><strong>property:</strong> =1 if property crime\n</p>\n</li>\n<li> <p><strong>person:</strong> =1 if crime against person\n</p>\n</li>\n<li> <p><strong>priors:</strong> # prior convictions\n</p>\n</li>\n<li> <p><strong>educ:</strong> years of schooling\n</p>\n</li>\n<li> <p><strong>rules:</strong> # rules violations in prison\n</p>\n</li>\n<li> <p><strong>age:</strong> in months\n</p>\n</li>\n<li> <p><strong>tserved:</strong> time served, rounded to months\n</p>\n</li>\n<li> <p><strong>follow:</strong> length follow period, months\n</p>\n</li>\n<li> <p><strong>durat:</strong> min(time until return, follow)\n</p>\n</li>\n<li> <p><strong>cens:</strong> =1 if duration right censored\n</p>\n</li>\n<li> <p><strong>ldurat:</strong> log(durat)\n</p>\n</li></ul>\n<h3>Used in Text</h3>\n<p>pages 611-612, 625\n</p>\n<h3>Source</h3>\n<p><a href=\"https://www.cengage.com/cgi-wadsworth/course_products_wp.pl?fid=M20b&amp;product_isbn_issn=9781111531041\">https://www.cengage.com/cgi-wadsworth/course_products_wp.pl?fid=M20b&amp;product_isbn_issn=9781111531041</a>\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'> str(recid)\n</code></pre>\n</main>\n</div>\n"
 }

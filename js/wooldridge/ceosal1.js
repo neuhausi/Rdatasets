@@ -1,22 +1,22 @@
 var ceosal1Info ={
-   "usage" : "data('ceosal1')",
-   "description" : "Description\nWooldridge Source: I took a random sample of data reported in the May 6, 1991 issue of Businessweek. Data loads lazily.",
-   "reference" : "This kind of data collection is relatively easy for students just learning data analysis, and the findings can be interesting. A good term project is to have students collect a similar data set using a more recent issue of Businessweek, and to find additional variables that might explain differences in CEO compensation. My impression is that the public is still interested in CEO compensation. An interesting question is whether the list of explanatory variables included in this data set now explain less of the variation in log(salary) than they used to.",
-   "title" : "ceosal1",
    "format" : "A data.frame with 209 observations on 12 variables:",
+   "description" : "Description\nWooldridge Source: I took a random sample of data reported in the May 6, 1991 issue of Businessweek. Data loads lazily.",
+   "title" : "ceosal1",
+   "reference" : "This kind of data collection is relatively easy for students just learning data analysis, and the findings can be interesting. A good term project is to have students collect a similar data set using a more recent issue of Businessweek, and to find additional variables that might explain differences in CEO compensation. My impression is that the public is still interested in CEO compensation. An interesting question is whether the list of explanatory variables included in this data set now explain less of the variation in log(salary) than they used to.",
+   "usage" : "data('ceosal1')",
    "parameters" : {
       "salary" : " 1990 salary, thousands $",
       "pcsalary" : " percent change salary, 89-90",
-      "sales" : " 1990 firm sales, millions $",
-      "ros" : " return on firm's stock, 88-90",
-      "utility" : " =1 if transport. or utilties",
       "finance" : " =1 if financial firm",
-      "consprod" : " =1 if consumer product firm",
-      "roe" : " return on equity, 88-90 avg",
-      "lsales" : " natural log of sales",
       "lsalary" : " natural log of salary",
+      "lsales" : " natural log of sales",
+      "roe" : " return on equity, 88-90 avg",
+      "consprod" : " =1 if consumer product firm",
+      "utility" : " =1 if transport. or utilties",
+      "indus" : " =1 if industrial firm",
       "pcroe" : " percent change roe, 88-90",
-      "indus" : " =1 if industrial firm"
+      "ros" : " return on firm's stock, 88-90",
+      "sales" : " 1990 firm sales, millions $"
    }
 }
 

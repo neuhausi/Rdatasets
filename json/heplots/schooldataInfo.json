@@ -1,0 +1,16 @@
+{
+   "parameters" : {
+      "visit" : "Parental visits index\nrepresenting the number of visits to the school site",
+      "selfesteem" : "Coopersmith Self-Esteem Inventory, intended as a measure of self-esteem",
+      "mathematics" : "Mathematics score as measured by the Metropolitan Achievement Test",
+      "counseling" : "Parent counseling index calculated from data on\ntime spent with child on school-related topics such as reading together, etc.",
+      "education" : "Education level of mother as measured in\nterms of percentage of high school graduates among female parents",
+      "reading" : "Reading score as measured by the Metropolitan Achievement Test",
+      "teacher" : "Number of teachers at a given site",
+      "occupation" : "Highest occupation of a family member according\nto a pre-arranged rating scale"
+   },
+   "title" : "School Data",
+   "description" : "Description\nSchool Data, from Charnes et al. (1981). The aim is to explain scores on 3\ndifferent tests, reading, mathematics and selfesteem\nfrom 70 school sites by means of 5 explanatory variables related to parents\nand teachers.",
+   "usage" : "A data frame with 70 observations on the following 8 variables.",
+   "reference" : "This dataset was shamelessly borrowed from the FRB package."
+}

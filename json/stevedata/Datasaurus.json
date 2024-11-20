@@ -1852,6 +1852,10 @@
          ]
       },
       "y" : {
+         "smps" : [
+            "x",
+            "y"
+         ],
          "data" : [
             [
                55.3846,
@@ -11085,17 +11089,13 @@
             "Var1844",
             "Var1845",
             "Var1846"
-         ],
-         "smps" : [
-            "x",
-            "y"
          ]
       }
    },
    "config" : {
-      "subtitle" : "stevedata - Datasaurus",
       "graphType" : "Scatter2D",
       "colorBy" : "dataset",
+      "subtitle" : "stevedata - Datasaurus",
       "title" : "The Datasaurus Dozen"
    }
 }

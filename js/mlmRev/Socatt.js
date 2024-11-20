@@ -1,20 +1,20 @@
 var SocattInfo ={
-   "description" : "Description\nThese data come from the British Social Attitudes (BSA) Survey started\nin 1983. The eligible persons were all adults aged 18 or over living\nin private households in Britain.  The data consist of completed\nresults of 264 respondents out of 410.",
-   "usage" : "data(Socatt)",
    "parameters" : {
-      "respond" : "Respondent code (within district) - a factor",
-      "numpos" : "An ordered factor giving the number of positive answers to\nseven questions.",
       "gender" : "Respondent's sex. (1=male, 2=female)",
       "year" : "A factor with levels 1983, 1984,\n1985, and 1986",
-      "religion" : "Religion - a factor.  Levels are Roman\n\tCatholic, Protestant/Church of England, others,\nand none.",
       "party" : "Political party chosen - a factor.  Levels are\nconservative, labour, Lib/SDP/Alliance,\nothers, and none.",
-      "class" : "Self assessed social class - a factor.  Levels are\nmiddle, upper working, and lower working.",
       "age" : "Age in years",
-      "district" : "District ID - a factor"
+      "respond" : "Respondent code (within district) - a factor",
+      "numpos" : "An ordered factor giving the number of positive answers to\nseven questions.",
+      "religion" : "Religion - a factor.  Levels are Roman\n\tCatholic, Protestant/Church of England, others,\nand none.",
+      "district" : "District ID - a factor",
+      "class" : "Self assessed social class - a factor.  Levels are\nmiddle, upper working, and lower working."
    },
-   "format" : "A data frame with 1056 observations on the following 9 variables.",
+   "usage" : "data(Socatt)",
+   "reference" : "These data are provided as an example of multilevel data with a \nmultinomial response.",
+   "description" : "Description\nThese data come from the British Social Attitudes (BSA) Survey started\nin 1983. The eligible persons were all adults aged 18 or over living\nin private households in Britain.  The data consist of completed\nresults of 264 respondents out of 410.",
    "title" : "Social Attitudes Survey",
-   "reference" : "These data are provided as an example of multilevel data with a \nmultinomial response."
+   "format" : "A data frame with 1056 observations on the following 9 variables."
 }
 
 var Socatt = [

@@ -1,8 +1,8 @@
 {
    "config" : {
+      "graphType" : "Scatter2D",
       "subtitle" : "drc - chickweed0",
-      "title" : "Germination of common chickweed (_Stellaria media_)",
-      "graphType" : "Scatter2D"
+      "title" : "Germination of common chickweed (_Stellaria media_)"
    },
    "data" : {
       "y" : {
@@ -41,10 +41,6 @@
             "Var32",
             "Var33",
             "Var34"
-         ],
-         "smps" : [
-            "time",
-            "count"
          ],
          "data" : [
             [
@@ -183,6 +179,10 @@
                281.5,
                40
             ]
+         ],
+         "smps" : [
+            "time",
+            "count"
          ]
       }
    },

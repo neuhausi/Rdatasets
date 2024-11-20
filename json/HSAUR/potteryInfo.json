@@ -1,0 +1,18 @@
+{
+   "format" : "A data frame with 45 observations on the following 9 chemicals.",
+   "parameters" : {
+      "BaO" : "barium oxide.",
+      "TiO2" : "titanium oxide.",
+      "MgO" : "magnesium oxide.",
+      "Al2O3" : "aluminium trioxide.",
+      "Fe2O3" : "iron trioxide.",
+      "CaO" : "calcium oxide.",
+      "MnO" : "mangan oxide.",
+      "Na2O" : "natrium oxide.",
+      "K2O" : "calium oxide."
+   },
+   "title" : "Romano-British Pottery Data",
+   "description" : "Description\nChemical composition of Romano-British pottery.",
+   "usage" : "data(\"pottery\")",
+   "reference" : "The data gives the chemical composition of \nspecimens of Romano-British pottery, determined by atomic \nabsorption spectrophotometry, for nine oxides."
+}

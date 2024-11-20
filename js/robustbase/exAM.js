@@ -1,8 +1,8 @@
 var exAMInfo ={
-   "description" : "Description\nThis is an artificial data set, cleverly construced and used by\nAntille and May to demonstrate &lsquo;problems&rsquo; with LMS and LTS.",
+   "usage" : "data(exAM, package=\"robustbase\")",
    "title" : "Example Data of Antille and May - for Simple Regression",
-   "format" : "A data frame with 12 observations on 2 variables, x and y.",
-   "usage" : "data(exAM, package=\"robustbase\")"
+   "description" : "Description\nThis is an artificial data set, cleverly construced and used by\nAntille and May to demonstrate &lsquo;problems&rsquo; with LMS and LTS.",
+   "format" : "A data frame with 12 observations on 2 variables, x and y."
 }
 
 var exAM = [

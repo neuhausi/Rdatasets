@@ -1,24 +1,60 @@
 {
-   "config" : {
-      "subtitle" : "medicaldata - scurvy",
-      "segregateSamplesBy" : [
-         "treatment",
-         "lassitude_d6"
-      ],
-      "title" : "Randomized Trial of Six Therapies for Scurvy",
-      "groupingFactors" : [
-         "skin_sores_d6"
-      ],
-      "colorBy" : "dosing_regimen_for_scurvy",
-      "graphType" : "Dotplot"
-   },
    "data" : {
+      "y" : {
+         "data" : [
+            [
+               1,
+               2,
+               3,
+               4,
+               5,
+               6,
+               7,
+               8,
+               9,
+               10,
+               11,
+               12
+            ]
+         ],
+         "smps" : [
+            "Smp1",
+            "Smp2",
+            "Smp3",
+            "Smp4",
+            "Smp5",
+            "Smp6",
+            "Smp7",
+            "Smp8",
+            "Smp9",
+            "Smp10",
+            "Smp11",
+            "Smp12"
+         ],
+         "vars" : [
+            "study_id"
+         ]
+      },
       "x" : {
-         "skin_sores_d6" : [
+         "fit_for_duty_d6" : [
+            "0_no",
+            "0_no",
+            "0_no",
+            "0_no",
+            "0_no",
+            "0_no",
+            "0_no",
+            "0_no",
+            "0_no",
+            "1_yes",
+            "0_no",
+            "0_no"
+         ],
+         "gum_rot_d6" : [
+            "2_moderate",
             "2_moderate",
             "1_mild",
-            "3_severe",
-            "3_severe",
+            "2_moderate",
             "3_severe",
             "3_severe",
             "3_severe",
@@ -70,34 +106,6 @@
             "a nutmeg-sized paste of garlic, mustard seed, horseradish, balsam of Peru, and gum myrrh three times a day",
             "a nutmeg-sized paste of garlic, mustard seed, horseradish, balsam of Peru, and gum myrrh three times a day"
          ],
-         "fit_for_duty_d6" : [
-            "0_no",
-            "0_no",
-            "0_no",
-            "0_no",
-            "0_no",
-            "0_no",
-            "0_no",
-            "0_no",
-            "0_no",
-            "1_yes",
-            "0_no",
-            "0_no"
-         ],
-         "gum_rot_d6" : [
-            "2_moderate",
-            "2_moderate",
-            "1_mild",
-            "2_moderate",
-            "3_severe",
-            "3_severe",
-            "3_severe",
-            "3_severe",
-            "1_mild",
-            "0_none",
-            "3_severe",
-            "3_severe"
-         ],
          "weakness_of_the_knees_d6" : [
             "2_moderate",
             "2_moderate",
@@ -111,43 +119,35 @@
             "0_none",
             "3_severe",
             "3_severe"
-         ]
-      },
-      "y" : {
-         "data" : [
-            [
-               1,
-               2,
-               3,
-               4,
-               5,
-               6,
-               7,
-               8,
-               9,
-               10,
-               11,
-               12
-            ]
          ],
-         "vars" : [
-            "study_id"
-         ],
-         "smps" : [
-            "Smp1",
-            "Smp2",
-            "Smp3",
-            "Smp4",
-            "Smp5",
-            "Smp6",
-            "Smp7",
-            "Smp8",
-            "Smp9",
-            "Smp10",
-            "Smp11",
-            "Smp12"
+         "skin_sores_d6" : [
+            "2_moderate",
+            "1_mild",
+            "3_severe",
+            "3_severe",
+            "3_severe",
+            "3_severe",
+            "3_severe",
+            "3_severe",
+            "1_mild",
+            "0_none",
+            "3_severe",
+            "3_severe"
          ]
       }
    },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>scurvy</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Randomized Trial of Six Therapies for Scurvy</h2>\n<h3>Description</h3>\n<p>Results of a randomized, 6-arm comparator-controlled trial of 6 interventions to treat scurvy in 12 disabled seamen, as reported by James Lind in 1757 (<strong>more details</strong> available below the variable definitions). <br />\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>scurvy\n</code></pre>\n<h3>Format</h3>\n<p>A data frame with 12 observations and 8 variables\n</p>\n<dl>\n<dt>study_id</dt><dd><p>invented id number for each participant; type: character</p>\n</dd>\n<dt>treatment</dt><dd><p>assigned treatment, levels: cider, dilute_sulfuric_acid, vinegar, sea_water, citrus, purgative_mixture; type: factor</p>\n</dd>\n<dt>dosing_regimen_for_scurvy</dt><dd><p>details on daily dosing and schedule; type: character</p>\n</dd>\n<dt>gum_rot_d6</dt><dd><p>rating of symptom of rotting of gums; type: factor, with levels: 0=none, 1=mild, 2=moderate, 3=severe</p>\n</dd>\n<dt>skin_sores_d6</dt><dd><p>rating of symptom of skin sores; type: factor, with levels: 0=none, 1=mild, 2=moderate, 3=severe</p>\n</dd>\n<dt>weakness_of_the_knees_d6</dt><dd><p>rating of symptom of weakness of the knees (ability to stand); type: factor, with levels: 0=none, 1=mild, 2=moderate, 3=severe</p>\n</dd>\n<dt>lassitude_d6</dt><dd><p>rating of symptom of lassitude (generalized weakness); type: factor, with levels: 0=none, 1=mild, 2=moderate, 3=severe</p>\n</dd>\n<dt>fit_for_duty_d6</dt><dd><p>dichotomous fitness for duty as a seaman; type: factor: 0_no, 1_yes</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>Scurvy was a common affliction of seamen on long voyages, leading to mouth sores, skin lesions, weakness of the knees, and lassitude. Scurvy could be fatal on long voyages. James Lind reported the treatment of 12 seamen with scurvy in 1757, in <em>A Treatise on the Scurvy in Three Parts</em>. This 476 page bloviation can be found scanned to the Google Books website <a href=\"https://www.google.com/books/edition/A_Treatise_on_the_Scurvy/oP1UEXWU7fsC?hl=en&amp;gbpv=1&amp;printsec=frontcover\">A Treatise on the Scurvy</a>.    Pages 149-153 are a rare gem among what can be generously described as 400+ pages of evidence-free blathering, and these 4 pages may represent the first report of a controlled clinical trial. <br />\nLind was the ship's surgeon on board the HMS Salisbury, and had a number of scurvy-affected seamen at his disposal. Many remedies had been described and advocated for, with no more than anecdotal evidence. On May 20, 1747, Lind decided to try the 6 available therapies at his disposal in a comparative study in 12 affected seamen. He selected 12 with roughly similar severity, with notable skin and mouth sores, weakness of the knees, and significant lassitude, making them unfit for duty. They each received the standard shipboard diet of gruel and mutton broth, supplemented with occasional biscuits and puddings. Each treatment was a dietary supplement (including citrus fruits) or a medicinal. <br />\nThis data frame was reconstructed from Lind's account as recorded on these 4 pages, with his estimates of severity translated to a 4 point Likert scale (0-3) for each of the symptoms he described at his chosen endpoint on day 6. A fanciful study_id variable was added, along with detailed descriptions of the dosing schedule of each treatment. <br />\nOf note, there is some dispute about whether this was truly the first clinical trial, or whether it actually happened. See link about the <a href=\"https://www.bbvaopenmind.com/en/science/leading-figures/james-lind-and-scurvy-the-first-clinical-trial-in-history/\">historical debate</a>.     Lind reported that the seamen treated with 2 lemons and an orange daily did best, followed by those treated with cider. Those treated with elixir of vitriol only had improvement in mouth sores. One imagines that acidic substances (like dilute sulfuric acid, vinegar, cider, and citrus fruits) might have been rather painful on these mouth sores. Unfortunately, the burial of 4 valuable pages of data in 476 pages of noise, a publication delay of 10 years, and Lind's half-hearted conclusions, meant that it took until 1795 before the British Navy mandated daily limes for seamen. <br />\n</p>\n<h3>Source</h3>\n<p>This data set is faithfully reconstructed from a report published in 1757 as <em>A Treatise on the Scurvy in 3 Parts</em>, by James Lind, pp. 149-153, and you can find a scan of the source document that you can read yourself on Google Books <a href=\"https://www.google.com/books/edition/A_Treatise_on_the_Scurvy/oP1UEXWU7fsC?hl=en&amp;gbpv=1&amp;printsec=frontcover\">here</a>.\n</p>\n</main>\n</div>\n"
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>scurvy</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Randomized Trial of Six Therapies for Scurvy</h2>\n<h3>Description</h3>\n<p>Results of a randomized, 6-arm comparator-controlled trial of 6 interventions to treat scurvy in 12 disabled seamen, as reported by James Lind in 1757 (<strong>more details</strong> available below the variable definitions). <br />\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>scurvy\n</code></pre>\n<h3>Format</h3>\n<p>A data frame with 12 observations and 8 variables\n</p>\n<dl>\n<dt>study_id</dt><dd><p>invented id number for each participant; type: character</p>\n</dd>\n<dt>treatment</dt><dd><p>assigned treatment, levels: cider, dilute_sulfuric_acid, vinegar, sea_water, citrus, purgative_mixture; type: factor</p>\n</dd>\n<dt>dosing_regimen_for_scurvy</dt><dd><p>details on daily dosing and schedule; type: character</p>\n</dd>\n<dt>gum_rot_d6</dt><dd><p>rating of symptom of rotting of gums; type: factor, with levels: 0=none, 1=mild, 2=moderate, 3=severe</p>\n</dd>\n<dt>skin_sores_d6</dt><dd><p>rating of symptom of skin sores; type: factor, with levels: 0=none, 1=mild, 2=moderate, 3=severe</p>\n</dd>\n<dt>weakness_of_the_knees_d6</dt><dd><p>rating of symptom of weakness of the knees (ability to stand); type: factor, with levels: 0=none, 1=mild, 2=moderate, 3=severe</p>\n</dd>\n<dt>lassitude_d6</dt><dd><p>rating of symptom of lassitude (generalized weakness); type: factor, with levels: 0=none, 1=mild, 2=moderate, 3=severe</p>\n</dd>\n<dt>fit_for_duty_d6</dt><dd><p>dichotomous fitness for duty as a seaman; type: factor: 0_no, 1_yes</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>Scurvy was a common affliction of seamen on long voyages, leading to mouth sores, skin lesions, weakness of the knees, and lassitude. Scurvy could be fatal on long voyages. James Lind reported the treatment of 12 seamen with scurvy in 1757, in <em>A Treatise on the Scurvy in Three Parts</em>. This 476 page bloviation can be found scanned to the Google Books website <a href=\"https://www.google.com/books/edition/A_Treatise_on_the_Scurvy/oP1UEXWU7fsC?hl=en&amp;gbpv=1&amp;printsec=frontcover\">A Treatise on the Scurvy</a>.    Pages 149-153 are a rare gem among what can be generously described as 400+ pages of evidence-free blathering, and these 4 pages may represent the first report of a controlled clinical trial. <br />\nLind was the ship's surgeon on board the HMS Salisbury, and had a number of scurvy-affected seamen at his disposal. Many remedies had been described and advocated for, with no more than anecdotal evidence. On May 20, 1747, Lind decided to try the 6 available therapies at his disposal in a comparative study in 12 affected seamen. He selected 12 with roughly similar severity, with notable skin and mouth sores, weakness of the knees, and significant lassitude, making them unfit for duty. They each received the standard shipboard diet of gruel and mutton broth, supplemented with occasional biscuits and puddings. Each treatment was a dietary supplement (including citrus fruits) or a medicinal. <br />\nThis data frame was reconstructed from Lind's account as recorded on these 4 pages, with his estimates of severity translated to a 4 point Likert scale (0-3) for each of the symptoms he described at his chosen endpoint on day 6. A fanciful study_id variable was added, along with detailed descriptions of the dosing schedule of each treatment. <br />\nOf note, there is some dispute about whether this was truly the first clinical trial, or whether it actually happened. See link about the <a href=\"https://www.bbvaopenmind.com/en/science/leading-figures/james-lind-and-scurvy-the-first-clinical-trial-in-history/\">historical debate</a>.     Lind reported that the seamen treated with 2 lemons and an orange daily did best, followed by those treated with cider. Those treated with elixir of vitriol only had improvement in mouth sores. One imagines that acidic substances (like dilute sulfuric acid, vinegar, cider, and citrus fruits) might have been rather painful on these mouth sores. Unfortunately, the burial of 4 valuable pages of data in 476 pages of noise, a publication delay of 10 years, and Lind's half-hearted conclusions, meant that it took until 1795 before the British Navy mandated daily limes for seamen. <br />\n</p>\n<h3>Source</h3>\n<p>This data set is faithfully reconstructed from a report published in 1757 as <em>A Treatise on the Scurvy in 3 Parts</em>, by James Lind, pp. 149-153, and you can find a scan of the source document that you can read yourself on Google Books <a href=\"https://www.google.com/books/edition/A_Treatise_on_the_Scurvy/oP1UEXWU7fsC?hl=en&amp;gbpv=1&amp;printsec=frontcover\">here</a>.\n</p>\n</main>\n</div>\n",
+   "config" : {
+      "segregateSamplesBy" : [
+         "gum_rot_d6",
+         "treatment"
+      ],
+      "groupingFactors" : [
+         "fit_for_duty_d6"
+      ],
+      "subtitle" : "medicaldata - scurvy",
+      "title" : "Randomized Trial of Six Therapies for Scurvy",
+      "colorBy" : "lassitude_d6",
+      "graphType" : "Dotplot"
+   }
 }

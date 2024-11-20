@@ -1,0 +1,16 @@
+{
+   "parameters" : {
+      "y1" : "the number of epiliptic seizures in the 1st 2-week interval",
+      "base" : "the number of epilitic\nseizures in a baseline 8-week interval",
+      "trt" : "an indicator of treatment",
+      "y4" : "the number of epiliptic seizures in the 4th 2-week interval",
+      "y2" : "the number of epiliptic seizures in the 2nd 2-week interval",
+      "age" : "a numeric vector of\nsubject age",
+      "y3" : "the number of epiliptic seizures in the 3rd 2-week interval"
+   },
+   "description" : "Description\nThe seizure data frame has 59 rows and 7 columns. The dataset has the\nnumber of epiliptic seizures in each of four two-week intervals, and in a\nbaseline eight-week inverval, for treatment and control groups with a total\nof 59 individuals.",
+   "title" : "Epiliptic Seizures",
+   "usage" : "seizure",
+   "reference" : "Thall, P.F. and Vail S.C. (1990) Some covariance models for\nlongitudinal count data with overdispersion. Biometrics 46:\n657&ndash;671.",
+   "format" : "This data frame contains the following columns:"
+}

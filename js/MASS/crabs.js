@@ -1,19 +1,19 @@
 var crabsInfo ={
-   "description" : "Description\nThe crabs data frame has 200 rows and 8 columns, describing 5\nmorphological measurements on 50 crabs each of two colour forms and\nboth sexes, of the species Leptograpsus variegatus collected at\nFremantle, W. Australia.",
-   "usage" : "crabs",
    "parameters" : {
       "sex" : "as it says.",
-      "BD" : "body depth (mm).",
-      "index" : "index 1:50 within each of the four groups.",
-      "CW" : "carapace width (mm).",
       "sp" : "species - \"B\" or \"O\" for blue or orange.",
       "RW" : "rear width (mm).",
       "FL" : "frontal lobe size (mm).",
+      "BD" : "body depth (mm).",
+      "CW" : "carapace width (mm).",
+      "index" : "index 1:50 within each of the four groups.",
       "CL" : "carapace length (mm)."
    },
+   "title" : "Morphological Measurements on Leptograpsus Crabs",
+   "description" : "Description\nThe crabs data frame has 200 rows and 8 columns, describing 5\nmorphological measurements on 50 crabs each of two colour forms and\nboth sexes, of the species Leptograpsus variegatus collected at\nFremantle, W. Australia.",
    "reference" : "Campbell, N.A. and Mahon, R.J. (1974) A multivariate\nstudy of variation in two species of rock crab of genus\nLeptograpsus.\nAustralian Journal of  Zoology 22, 417&ndash;425.",
-   "format" : "This data frame contains the following columns:",
-   "title" : "Morphological Measurements on Leptograpsus Crabs"
+   "usage" : "crabs",
+   "format" : "This data frame contains the following columns:"
 }
 
 var crabs = [

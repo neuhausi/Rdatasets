@@ -1,20 +1,20 @@
 var JournalsInfo ={
-   "description" : "Description\nSubscriptions to economics journals at US libraries, for the year 2000.",
-   "usage" : "data(\"Journals\")",
-   "parameters" : {
-      "foundingyear" : "Year journal was founded.",
-      "society" : "factor. Is the journal published by a scholarly society?",
-      "publisher" : "factor with publisher name.",
-      "charpp" : "Characters per page.",
-      "citations" : "Total number of citations.",
-      "field" : "factor with field description.",
-      "subs" : "Number of library subscriptions.",
-      "title" : "Journal title.",
-      "price" : "Library subscription price.",
-      "pages" : "Number of pages."
-   },
    "reference" : "Data on 180 economic journals, collected in particular for analyzing journal\npricing. See also https://econ.ucsb.edu/~tedb/Journals/jpricing.html\nfor general information on this topic as well as a more up-to-date version of\nthe data set. This version is taken from Stock and Watson (2007).",
+   "usage" : "data(\"Journals\")",
    "title" : "Economics Journal Subscription Data",
+   "description" : "Description\nSubscriptions to economics journals at US libraries, for the year 2000.",
+   "parameters" : {
+      "charpp" : "Characters per page.",
+      "society" : "factor. Is the journal published by a scholarly society?",
+      "foundingyear" : "Year journal was founded.",
+      "pages" : "Number of pages.",
+      "citations" : "Total number of citations.",
+      "publisher" : "factor with publisher name.",
+      "price" : "Library subscription price.",
+      "field" : "factor with field description.",
+      "title" : "Journal title.",
+      "subs" : "Number of library subscriptions."
+   },
    "format" : "A data frame containing 180 observations on 10 variables."
 }
 

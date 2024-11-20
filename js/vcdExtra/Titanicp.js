@@ -1,17 +1,17 @@
 var TitanicpInfo ={
-   "usage" : "data(Titanicp)",
-   "description" : "Description\nData on passengers on the RMS Titanic, excluding the Crew and some\nindividual identifier variables.",
-   "format" : "A data frame with 1309 observations on the following 6 variables.",
-   "title" : "Passengers on the Titanic",
-   "reference" : "There are a number of related versions of the Titanic data, in various formats.\nThis version was derived from ptitanic in the rpart.plot package,\nmodifying it to remove the Class 'labelled' attributes for some variables\n(inherited from Frank Harrell's titanic3 version)\nwhich caused problems with some applications, notably ggplot2.",
    "parameters" : {
+      "age" : "passenger age in years (or fractions of a year, for children), a numeric vector; age is missing for 263 of the passengers",
       "pclass" : "a factor with levels 1st 2nd 3rd",
       "survived" : "a factor with levels died survived",
-      "age" : "passenger age in years (or fractions of a year, for children), a numeric vector; age is missing for 263 of the passengers",
       "sibsp" : "number of siblings or spouses aboard, integer: 0:8",
       "parch" : "number of parents or children aboard, integer: 0:6",
       "sex" : "a factor with levels female male"
-   }
+   },
+   "usage" : "data(Titanicp)",
+   "reference" : "There are a number of related versions of the Titanic data, in various formats.\nThis version was derived from ptitanic in the rpart.plot package,\nmodifying it to remove the Class 'labelled' attributes for some variables\n(inherited from Frank Harrell's titanic3 version)\nwhich caused problems with some applications, notably ggplot2.",
+   "title" : "Passengers on the Titanic",
+   "description" : "Description\nData on passengers on the RMS Titanic, excluding the Crew and some\nindividual identifier variables.",
+   "format" : "A data frame with 1309 observations on the following 6 variables."
 }
 
 var Titanicp = [

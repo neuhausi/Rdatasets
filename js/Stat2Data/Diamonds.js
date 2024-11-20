@@ -1,7 +1,7 @@
 var DiamondsInfo ={
-   "usage" : "A data frame with 351 observations on the following 6 variables.",
    "title" : "Characteristics of a Sample of Diamonds",
-   "description" : "Description\nPrice and characteristics for a sample of 351 diamonds"
+   "description" : "Description\nPrice and characteristics for a sample of 351 diamonds",
+   "usage" : "A data frame with 351 observations on the following 6 variables."
 }
 
 var Diamonds = [

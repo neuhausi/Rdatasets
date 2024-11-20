@@ -1,29 +1,29 @@
 var recidInfo ={
-   "parameters" : {
-      "rules" : " # rules violations in prison",
-      "felon" : " =1 if felony sentence",
-      "ldurat" : " log(durat)",
-      "educ" : " years of schooling",
-      "person" : " =1 if crime against person",
-      "workprg" : " =1 if in N.C. pris. work prg.",
-      "age" : " in months",
-      "cens" : " =1 if duration right censored",
-      "super" : " =1 if release supervised",
-      "married" : " =1 if married when incarc.",
-      "priors" : " # prior convictions",
-      "durat" : " min(time until return, follow)",
-      "tserved" : " time served, rounded to months",
-      "alcohol" : " =1 if alcohol problems",
-      "black" : " =1 if black",
-      "drugs" : " =1 if drug history",
-      "follow" : " length follow period, months",
-      "property" : " =1 if property crime"
-   },
-   "reference" : "pages 611-612, 625",
    "format" : "A data.frame with 1445 observations on 18 variables:",
-   "title" : "recid",
    "description" : "Description\nWooldridge Source: C.-F. Chung, P. Schmidt, and A.D. Witte (1991), âSurvival Analysis: A Survey,â Journal of Quantitative Criminology 7, 59-98. Professor Chung kindly provided the data. Data loads lazily.",
-   "usage" : "data('recid')"
+   "title" : "recid",
+   "usage" : "data('recid')",
+   "reference" : "pages 611-612, 625",
+   "parameters" : {
+      "tserved" : " time served, rounded to months",
+      "super" : " =1 if release supervised",
+      "drugs" : " =1 if drug history",
+      "rules" : " # rules violations in prison",
+      "follow" : " length follow period, months",
+      "felon" : " =1 if felony sentence",
+      "durat" : " min(time until return, follow)",
+      "person" : " =1 if crime against person",
+      "cens" : " =1 if duration right censored",
+      "alcohol" : " =1 if alcohol problems",
+      "educ" : " years of schooling",
+      "priors" : " # prior convictions",
+      "property" : " =1 if property crime",
+      "black" : " =1 if black",
+      "ldurat" : " log(durat)",
+      "married" : " =1 if married when incarc.",
+      "workprg" : " =1 if in N.C. pris. work prg.",
+      "age" : " in months"
+   }
 }
 
 var recid = [

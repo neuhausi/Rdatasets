@@ -1,0 +1,5 @@
+{
+   "description" : "Description\nA data set to predict the average daily rate for a hotel in Lisbon Portugal.",
+   "title" : "Daily Hotel Rate Data",
+   "usage" : "Data are originally described in Antonio, de Almeida, and Nunes (2019).\nThis version of the data is filtered for one hotel (the \"Resort Hotel\") and\nis intended as regression data set for predicting the average daily rate for\na room. The data are post-2016; the 2016 data were used to have a predictor\nfor the historical daily rates. See the hotel_rates.R file in the\ndata-raw directory of the package to understand other filters used when\ncreating this version of the data."
+}

@@ -1,29 +1,29 @@
 var school93_98Info ={
+   "format" : "A data.frame with 10668 observations on 18 variables:",
    "description" : "Description\nWooldridge Source: L.E. Papke (2005), âThe Effects of Spending on Test Pass Rates: Evidence from Michigan,â Journal of Public Economics 89, 821-839. Data loads lazily.",
-   "usage" : "data('school93_98')",
-   "parameters" : {
-      "lenrol" : " log(enrol)",
-      "enrol" : " number of students",
-      "rexpp" : " (exppp/cpi)1.605",
-      "y94" : "",
-      "y93" : "",
-      "y96" : "",
-      "lunch" : " percent eligible for free lunch",
-      "exppp" : " exp per pupil",
-      "year" : " 1993 = school year 1992-1993",
-      "y98" : "",
-      "y95" : "",
-      "math4" : "",
-      "found" : "",
-      "schid" : "",
-      "distid" : "",
-      "lavgrexpp" : " log((rexpp + L.rexpp)/2)",
-      "lrexpp" : " log(rexpp)",
-      "y97" : ""
-   },
    "title" : "school93_98",
    "reference" : "This is closer to the data actually used in the Papke paper as it is at the school (building) level. It is unbalanced because data on scores and some of the spending and other variables is missing for some schools. While the usual RE and FE methods can be applied directly, obtaining the correlated random effects version of the Hausman test is more advance. Computer Exercise 17 in Chapter 14 walks the reader through it.",
-   "format" : "A data.frame with 10668 observations on 18 variables:"
+   "usage" : "data('school93_98')",
+   "parameters" : {
+      "exppp" : " exp per pupil",
+      "enrol" : " number of students",
+      "lenrol" : " log(enrol)",
+      "lrexpp" : " log(rexpp)",
+      "distid" : "",
+      "year" : " 1993 = school year 1992-1993",
+      "y97" : "",
+      "y94" : "",
+      "schid" : "",
+      "y98" : "",
+      "math4" : "",
+      "rexpp" : " (exppp/cpi)1.605",
+      "lavgrexpp" : " log((rexpp + L.rexpp)/2)",
+      "y96" : "",
+      "y93" : "",
+      "y95" : "",
+      "lunch" : " percent eligible for free lunch",
+      "found" : ""
+   }
 }
 
 var school93_98 = [

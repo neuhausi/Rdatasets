@@ -1,14 +1,14 @@
 var coffee_importsInfo ={
+   "format" : "A data frame with 4530 observations on the following 4 variables.",
+   "reference" : "Data come from the International Coffee Organization, of which I\nfeel I should be a member.",
    "usage" : "coffee_imports",
    "description" : "Description\nA simple panel on coffee imports for importing countries.",
-   "reference" : "Data come from the International Coffee Organization, of which I\nfeel I should be a member.",
-   "format" : "A data frame with 4530 observations on the following 4 variables.",
    "title" : "Coffee Imports for Select Importing Countries",
    "parameters" : {
+      "year" : "a numeric vector for the year",
       "country" : "a character vector for the country",
       "value" : "a numeric vector for the coffee imports for all select importing countries (in thousand 60-kg bags)",
-      "member" : "a numeric vector indicating whether the importer is or is not a member of the International Coffee Organization",
-      "year" : "a numeric vector for the year"
+      "member" : "a numeric vector indicating whether the importer is or is not a member of the International Coffee Organization"
    }
 }
 

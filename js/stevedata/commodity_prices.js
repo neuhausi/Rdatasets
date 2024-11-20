@@ -1,22 +1,22 @@
 var commodity_pricesInfo ={
-   "format" : "A data frame with the following 11 variables.",
    "reference" : "All data are in nominal USD. Adjust (to taste) accordingly.",
+   "usage" : "commodity_prices",
    "title" : "Select World Bank Commodity Price Data (Monthly)",
+   "description" : "Description\nA data set on select, monthly commodity prices made available by the\nWorld Bank in its so-called \"pink sheet.\" These data are potentially\nuseful for applications on data gathering, inflation adjustments,\nindexing, cointegration, general economic riff-raff, and more.",
    "parameters" : {
-      "sugar_world" : "sugar (World), International Sugar Agreement (ISA) daily price, raw,  f.o.b. and stowed at greater Caribbean ports ($/kg).",
-      "sugar_us" : "sugar (United States), nearby futures contract, c.i.f. ($/kg)",
-      "coffee_robustas" : "coffee (ICO), International Coffee Organization indicator price, Robustas, average New York and Le Havre/Marseilles markets, ex-dock ($/kg)",
       "tea_columbo" : "tea (Colombo auctions), Sri Lankan origin, all tea, arithmetic average of weekly quotes ($/kg).",
-      "oil_dubai" : "crude oil, Dubai Fateh 32 API for years 1985-present; 1960-84 refer to Saudi Arabian Light, 34 API ($/bbl).",
-      "tea_mombasa" : "tea (Mombasa/Nairobi auctions), African origin, all tea, arithmetic average of weekly quotes ($/kg).",
       "coffee_arabica" : "coffee (ICO), International Coffee Organization indicator price, other mild Arabicas, average New York and Bremen/Hamburg markets, ex-dock ($/kg)",
-      "sugar_eu" : "sugar (EU), European Union negotiated import price for raw unpackaged sugar from African, Caribbean and Pacific (ACP) under Lome Conventions, c.I.f. European ports ($/kg)",
+      "coffee_robustas" : "coffee (ICO), International Coffee Organization indicator price, Robustas, average New York and Le Havre/Marseilles markets, ex-dock ($/kg)",
       "tea_kolkata" : "tea (Kolkata auctions), leaf, include excise duty, arithmetic average of weekly quotes ($/kg).",
       "date" : "a date",
-      "oil_brent" : "crude oil, UK Brent 38 API ($/bbl)"
+      "sugar_us" : "sugar (United States), nearby futures contract, c.i.f. ($/kg)",
+      "tea_mombasa" : "tea (Mombasa/Nairobi auctions), African origin, all tea, arithmetic average of weekly quotes ($/kg).",
+      "oil_dubai" : "crude oil, Dubai Fateh 32 API for years 1985-present; 1960-84 refer to Saudi Arabian Light, 34 API ($/bbl).",
+      "oil_brent" : "crude oil, UK Brent 38 API ($/bbl)",
+      "sugar_world" : "sugar (World), International Sugar Agreement (ISA) daily price, raw,  f.o.b. and stowed at greater Caribbean ports ($/kg).",
+      "sugar_eu" : "sugar (EU), European Union negotiated import price for raw unpackaged sugar from African, Caribbean and Pacific (ACP) under Lome Conventions, c.I.f. European ports ($/kg)"
    },
-   "usage" : "commodity_prices",
-   "description" : "Description\nA data set on select, monthly commodity prices made available by the\nWorld Bank in its so-called \"pink sheet.\" These data are potentially\nuseful for applications on data gathering, inflation adjustments,\nindexing, cointegration, general economic riff-raff, and more."
+   "format" : "A data frame with the following 11 variables."
 }
 
 var commodity_prices = [

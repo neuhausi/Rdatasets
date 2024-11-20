@@ -1,0 +1,12 @@
+{
+   "parameters" : {
+      "y_fan" : "a numeric vector",
+      "x" : "a numeric vector",
+      "y_log" : "a numeric vector"
+   },
+   "reference" : "res_demo_2",
+   "usage" : "res_demo_2",
+   "description" : "Description\nSimulated data for regression",
+   "title" : "Simulated data for regression",
+   "format" : "A data frame with 300 observations on the following 3 variables."
+}

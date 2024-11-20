@@ -1,10 +1,4 @@
 {
-   "config" : {
-      "subtitle" : "Ecdat - Pound",
-      "title" : "Pound-dollar Exchange Rate",
-      "graphType" : "Scatter2D",
-      "scatterPlotMatrix" : 1
-   },
    "data" : {
       "y" : {
          "data" : [
@@ -4677,6 +4671,12 @@
                0.6177
             ]
          ],
+         "smps" : [
+            "date",
+            "s",
+            "f",
+            "s30"
+         ],
          "vars" : [
             "Var1",
             "Var2",
@@ -5456,14 +5456,14 @@
             "Var776",
             "Var777",
             "Var778"
-         ],
-         "smps" : [
-            "date",
-            "s",
-            "f",
-            "s30"
          ]
       }
    },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>Pound</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Pound-dollar Exchange Rate </h2>\n<h3>Description</h3>\n<p>weekly observations from 1975 to 1989\n</p>\n<p><em>number of observations</em> :  778\n</p>\n<p><em>observation</em> :  country\n</p>\n<p><em>country</em> :  Germany\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(Pound)</code></pre>\n<h3>Format</h3>\n<p>A dataframe containing :\n</p>\n<dl>\n<dt>date</dt><dd>\n<p>the date of the observation (19850104 \nis January, 4, 1985)\n</p>\n</dd>\n<dt>s</dt><dd>\n<p>the ask price of the dollar in units of \nPound in the spot market on Friday of \nthe current week\n</p>\n</dd>\n<dt>f</dt><dd>\n<p>the ask price of the dollar in units of \nPound in the 30-day forward market on \nFriday of the current week\n</p>\n</dd>\n<dt>s30</dt><dd>\n<p>the bid price of the dollar in units of \nPound in the spot market on the delivery \ndate on a current forward contract\n</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>Bekaert, G.  and  R.  Hodrick (1993) &ldquo;On biases in the measurement of foreign exchange risk premiums&rdquo;, <em>Journal of International Money and Finance</em>, <b>12</b>, 115-138.\n</p>\n<h3>References</h3>\n<p>Hayashi, F. (2000) <em>Econometrics</em>, Princeton University Press, <a href=\"http://fhayashi.fc2web.com/hayashi_econometrics.htm\">http://fhayashi.fc2web.com/hayashi_econometrics.htm</a>, chapter 6, 438-443.\n</p>\n<h3>See Also</h3>\n<p><code>DM</code>, \n<code>Yen</code>, \n<code>Index.Source</code>, \n<code>Index.Economics</code>, \n<code>Index.Econometrics</code>, \n<code>Index.Observations</code>,\n<code>Index.Time.Series</code>\n</p>\n</main>\n</div>\n"
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>Pound</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Pound-dollar Exchange Rate </h2>\n<h3>Description</h3>\n<p>weekly observations from 1975 to 1989\n</p>\n<p><em>number of observations</em> :  778\n</p>\n<p><em>observation</em> :  country\n</p>\n<p><em>country</em> :  Germany\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(Pound)</code></pre>\n<h3>Format</h3>\n<p>A dataframe containing :\n</p>\n<dl>\n<dt>date</dt><dd>\n<p>the date of the observation (19850104 \nis January, 4, 1985)\n</p>\n</dd>\n<dt>s</dt><dd>\n<p>the ask price of the dollar in units of \nPound in the spot market on Friday of \nthe current week\n</p>\n</dd>\n<dt>f</dt><dd>\n<p>the ask price of the dollar in units of \nPound in the 30-day forward market on \nFriday of the current week\n</p>\n</dd>\n<dt>s30</dt><dd>\n<p>the bid price of the dollar in units of \nPound in the spot market on the delivery \ndate on a current forward contract\n</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>Bekaert, G.  and  R.  Hodrick (1993) &ldquo;On biases in the measurement of foreign exchange risk premiums&rdquo;, <em>Journal of International Money and Finance</em>, <b>12</b>, 115-138.\n</p>\n<h3>References</h3>\n<p>Hayashi, F. (2000) <em>Econometrics</em>, Princeton University Press, <a href=\"http://fhayashi.fc2web.com/hayashi_econometrics.htm\">http://fhayashi.fc2web.com/hayashi_econometrics.htm</a>, chapter 6, 438-443.\n</p>\n<h3>See Also</h3>\n<p><code>DM</code>, \n<code>Yen</code>, \n<code>Index.Source</code>, \n<code>Index.Economics</code>, \n<code>Index.Econometrics</code>, \n<code>Index.Observations</code>,\n<code>Index.Time.Series</code>\n</p>\n</main>\n</div>\n",
+   "config" : {
+      "graphType" : "Scatter2D",
+      "subtitle" : "Ecdat - Pound",
+      "title" : "Pound-dollar Exchange Rate",
+      "scatterPlotMatrix" : 1
+   }
 }

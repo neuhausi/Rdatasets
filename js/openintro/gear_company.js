@@ -1,13 +1,13 @@
 var gear_companyInfo ={
-   "title" : "Fake data for a gear company example",
-   "format" : "A data frame with 2000 observations on the following 2 variables.",
-   "reference" : "gear_company",
    "parameters" : {
-      "outcome" : "a factor with levels not\npass",
-      "company" : "a factor with levels current\nprospective"
+      "company" : "a factor with levels current\nprospective",
+      "outcome" : "a factor with levels not\npass"
    },
+   "description" : "Description\nMade-up data for whether a sample of two gear companies' parts pass\ninspection.",
+   "title" : "Fake data for a gear company example",
    "usage" : "gear_company",
-   "description" : "Description\nMade-up data for whether a sample of two gear companies' parts pass\ninspection."
+   "reference" : "gear_company",
+   "format" : "A data frame with 2000 observations on the following 2 variables."
 }
 
 var gear_company = [

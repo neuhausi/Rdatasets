@@ -1,0 +1,17 @@
+{
+   "parameters" : {
+      "fev" : "forced expriatory volume at enrollment, a measure\nof lung capacity",
+      "ivstop" : "days from enrollment to the cessation of\nIV antibiotics",
+      "end.dt" : "date of last follow-up",
+      "id" : "subject id",
+      "entry.dt" : "date of entry into the study",
+      "inst" : "enrolling institution",
+      "ivstart" : "days from enrollment to the start of IV antibiotics",
+      "trt" : "treatment arm: 0=placebo, 1= rhDNase"
+   },
+   "reference" : "In patients with cystic fibrosis, extracellular DNA is released by\nleukocytes that accumulate in the airways in response to chronic bacterial\ninfection.\nThis excess DNA thickens the mucus, which then cannot be cleared from the\nlung by the cilia.  The accumulation leads to exacerbations of\nrespiratory symptoms and progressive deterioration of lung function.\nAt the time of this study \nmore than 90% of cystic fibrosis patients eventually died of lung\ndisease.",
+   "usage" : "rhDNase\ndata(rhDNase, package=\"survival\")",
+   "description" : "Description\nResults of a randomized trial of rhDNase for the treatment of cystic\nfibrosis.",
+   "title" : "rhDNASE data set",
+   "format" : "A data frame with 767 observations on the following 8 variables."
+}

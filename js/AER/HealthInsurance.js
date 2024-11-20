@@ -1,22 +1,22 @@
 var HealthInsuranceInfo ={
-   "usage" : "data(\"HealthInsurance\")",
-   "description" : "Description\nCross-section data originating from the Medical Expenditure Panel Survey survey conducted in 1996.",
-   "title" : "Medical Expenditure Panel Survey Data",
-   "format" : "A data frame containing 8,802 observations on 11 variables.",
-   "reference" : "This is a subset of the data used in Perry and Rosen (2004).",
    "parameters" : {
-      "ethnicity" : "factor indicating ethnicity: African-American, Caucasian, other.",
-      "region" : "factor indicating region.",
-      "family" : "family size.",
       "age" : "age in years.",
-      "insurance" : "factor. Does the individual have a health insurance?",
+      "ethnicity" : "factor indicating ethnicity: African-American, Caucasian, other.",
       "selfemp" : "factor. Is the individual self-employed?",
+      "family" : "family size.",
       "married" : "factor. Is the individual married?",
       "health" : "factor. Is the self-reported health status &ldquo;healthy&rdquo;?.",
+      "gender" : "factor indicating gender.",
       "limit" : "factor. Is there any limitation?",
       "education" : "factor indicating highest degree attained:\nno degree, GED (high school equivalent), high school, bachelor, master, PhD, other.",
-      "gender" : "factor indicating gender."
-   }
+      "insurance" : "factor. Does the individual have a health insurance?",
+      "region" : "factor indicating region."
+   },
+   "title" : "Medical Expenditure Panel Survey Data",
+   "description" : "Description\nCross-section data originating from the Medical Expenditure Panel Survey survey conducted in 1996.",
+   "reference" : "This is a subset of the data used in Perry and Rosen (2004).",
+   "usage" : "data(\"HealthInsurance\")",
+   "format" : "A data frame containing 8,802 observations on 11 variables."
 }
 
 var HealthInsurance = [

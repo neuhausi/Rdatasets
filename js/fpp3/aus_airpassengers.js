@@ -1,7 +1,7 @@
 var aus_airpassengersInfo ={
+   "format" : "World Bank.",
    "usage" : "Annual time series of class 'tsibble'.",
    "title" : "Air Transport Passengers Australia",
-   "format" : "World Bank.",
    "description" : "Description\nTotal annual air passengers (in millions) including domestic and\ninternational aircraft passengers of air carriers registered in Australia.\n1970-2016."
 }
 

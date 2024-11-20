@@ -1,0 +1,14 @@
+{
+   "description" : "Description\nFive rabbits were studied on two occasions, after treatment with\nsaline (control) and after treatment with the 5-HT_3 antagonist MDL\n72222.  After each treatment ascending doses of phenylbiguanide were\ninjected intravenously at 10 minute intervals and the responses of\nmean blood pressure measured.  The goal was to test whether the\ncardiogenic chemoreflex elicited by phenylbiguanide depends on the\nactivation of 5-HT_3 receptors.",
+   "title" : "Blood Pressure in Rabbits",
+   "usage" : "Rabbit",
+   "reference" : "J. Ludbrook (1994)\nRepeated measurements and multiple comparisons in cardiovascular research.\nCardiovascular Research\n28, 303&ndash;311.\n[The numerical data are not in the paper but were supplied by\nProfessor Ludbrook]",
+   "parameters" : {
+      "Run" : "label of run (\"C1\" to \"C5\", then \"M1\" to \"M5\").",
+      "Animal" : "label of animal used (\"R1\" to \"R5\").",
+      "BPchange" : "change in blood pressure relative to the start of the experiment.",
+      "Dose" : "dose of Phenylbiguanide in micrograms.",
+      "Treatment" : "placebo or the 5-HT_3 antagonist MDL 72222."
+   },
+   "format" : "This data frame contains 60 rows and the following variables:"
+}

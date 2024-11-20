@@ -1,0 +1,30 @@
+{
+   "usage" : "baseball",
+   "description" : "Description\nThis data frame contains batting statistics for a subset of players\ncollected from http://www.baseball-databank.org/. There are a total\nof 21,699 records, covering 1,228 players from 1871 to 2007. Only players\nwith more 15 seasons of play are included.",
+   "title" : "Yearly batting records for all major league baseball players",
+   "parameters" : {
+      "hbp, hits by pitch" : null,
+      "sb, stolen bases" : null,
+      "hr, number of home runs" : null,
+      "h, hits, times reached base because of a batted, fair ball without\nerror by the defense" : null,
+      "year, year of data" : null,
+      "bb, base on balls (walk)" : null,
+      "gidp, ground into double play" : null,
+      "r, number of runs" : null,
+      "cs, caught stealing" : null,
+      "sf, sacrifice flies" : null,
+      "X3b, hits on which the batter reached third base safely" : null,
+      "ibb, intentional base on balls" : null,
+      "rbi, runs batted in" : null,
+      "id, unique player id" : null,
+      "X2b, hits on which the batter reached second base safely" : null,
+      "g, number of games" : null,
+      "ab, number of times at bat" : null,
+      "team, team played for" : null,
+      "sh, sacrifice hits" : null,
+      "lg, league" : null,
+      "so, strike outs" : null,
+      "stint" : null
+   },
+   "format" : "A 21699 x 22 data frame"
+}

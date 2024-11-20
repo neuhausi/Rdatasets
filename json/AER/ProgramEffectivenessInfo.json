@@ -1,0 +1,13 @@
+{
+   "format" : "A data frame containing 32 cross-section observations on 4 variables.",
+   "parameters" : {
+      "testscore" : "Test score on economics test.",
+      "average" : "Grade-point average.",
+      "grade" : "Factor with levels \"increase\" and \"decrease\".",
+      "participation" : "Factor. Did the individual participate in the program?"
+   },
+   "usage" : "data(\"ProgramEffectiveness\")",
+   "reference" : "The data are taken form Spencer and Mazzeo (1980) who examined whether a new method \nof teaching economics significantly influenced performance in later economics courses.",
+   "description" : "Description\nData used to study the effectiveness of a program.",
+   "title" : "Program Effectiveness Data"
+}

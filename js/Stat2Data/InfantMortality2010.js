@@ -1,12 +1,12 @@
 var InfantMortality2010Info ={
-   "parameters" : {
-      "Year" : "Year (1920-2010 by decades)",
-      "Mortality" : "Deaths within one year of birth (per 1000 births)"
-   },
    "description" : "Description\nInfant mortality rates in the United States by decade (1920-2010)",
-   "usage" : "A data frame with 10 observations on the following 2 variables.",
+   "title" : "Infant Mortality Rates",
    "reference" : "Infant mortality (deaths within one year of birth per 1,000 births) in the US from 1920 - 2010 (by decade).",
-   "title" : "Infant Mortality Rates"
+   "usage" : "A data frame with 10 observations on the following 2 variables.",
+   "parameters" : {
+      "Mortality" : "Deaths within one year of birth (per 1000 births)",
+      "Year" : "Year (1920-2010 by decades)"
+   }
 }
 
 var InfantMortality2010 = [

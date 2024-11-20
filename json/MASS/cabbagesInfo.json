@@ -1,0 +1,13 @@
+{
+   "parameters" : {
+      "Cult" : "Factor giving the cultivar of the cabbage, two levels: c39\nand c52.",
+      "HeadWt" : "Weight of the cabbage head, presumably in kg.",
+      "Date" : "Factor specifying one of three planting dates: d16,\nd20 or d21.",
+      "VitC" : "Ascorbic acid content, in undefined units."
+   },
+   "title" : "Data from a cabbage field trial",
+   "description" : "Description\nThe cabbages data set has 60 observations and 4 variables",
+   "reference" : "Rawlings, J. O. (1988)\nApplied Regression Analysis: A Research Tool.\nWadsworth and Brooks/Cole.  Example 8.4, page 219.\n(Rawlings cites the original source as the files of the late\nDr Gertrude M Cox.)",
+   "usage" : "cabbages",
+   "format" : "This data frame contains the following columns:"
+}

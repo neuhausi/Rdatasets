@@ -1,0 +1,17 @@
+{
+   "format" : "This data frame contains the following columns:",
+   "reference" : "There is one record in the data file for each migration stream. You can average the 1966 \nand 1971 population figures for each of the source and destination \nprovinces.",
+   "usage" : "Migration",
+   "description" : "Description\nThe Migration data frame has 90 rows and 8 columns.",
+   "title" : "Canadian Interprovincial Migration Data",
+   "parameters" : {
+      "destination" : "Province of destination (1971 residence).    \nA factor with levels:\nALTA, Alberta;\nBC, British Columbia;\nMAN, Manitoba;\nNB, New Brunswick;\nNFLD, New Foundland;\nNS, Nova Scotia;\nONT, Ontario;\nPEI, Prince Edward Island;\nQUE, Quebec;\nSASK, Saskatchewan.",
+      "migrants" : "Number of migrants (from source to destination) in the\nperiod 1966&ndash;1971.",
+      "source" : "Province of origin (source).\nA factor with levels:\nALTA, Alberta;\nBC, British Columbia;\nMAN, Manitoba;\nNB, New Brunswick;\nNFLD, New Foundland;\nNS, Nova Scotia;\nONT, Ontario;\nPEI, Prince Edward Island;\nQUE, Quebec;\nSASK, Saskatchewan.",
+      "popd71" : "1971 population of destination province.",
+      "pops66" : "1966 population of source province.",
+      "pops71" : "1971 population of source province.",
+      "popd66" : "1966 population of destination province.",
+      "distance" : "Distance (between principal cities of provinces):\nNFLD, St. John;\nPEI, Charlottetown;\nNS, Halifax;\nNB, Fredricton;\nQUE, Montreal;\nONT, Toronto;\nMAN, Winnipeg;\nSASK, Regina;\nALTA, Edmonton;\nBC, Vancouver."
+   }
+}

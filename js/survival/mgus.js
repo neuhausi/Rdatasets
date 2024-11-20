@@ -1,7 +1,7 @@
 var mgusInfo ={
-   "description" : "Description\nNatural history of 241 subjects with monoclonal gammopathy of\nundetermined significance (MGUS).",
-   "title" : "Monoclonal gammopathy data",
    "format" : "mgus: A data frame with 241 observations on the following 12 variables.",
+   "title" : "Monoclonal gammopathy data",
+   "description" : "Description\nNatural history of 241 subjects with monoclonal gammopathy of\nundetermined significance (MGUS).",
    "usage" : "mgus\nmgus1\ndata(cancer, package=\"survival\")"
 }
 

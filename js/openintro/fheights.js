@@ -1,12 +1,12 @@
 var fheightsInfo ={
+   "title" : "Female college student heights, in inches",
+   "description" : "Description\n24 sample observations.",
+   "usage" : "fheights",
+   "reference" : "hist(fheights$heights)",
    "parameters" : {
       "heights" : "height, in inches"
    },
-   "title" : "Female college student heights, in inches",
-   "reference" : "hist(fheights$heights)",
-   "format" : "A data frame with 24 observations on the following variable.",
-   "description" : "Description\n24 sample observations.",
-   "usage" : "fheights"
+   "format" : "A data frame with 24 observations on the following variable."
 }
 
 var fheights = [

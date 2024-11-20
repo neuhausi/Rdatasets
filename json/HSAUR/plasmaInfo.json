@@ -1,0 +1,12 @@
+{
+   "format" : "A data frame with 32 observations on the following 3 variables.",
+   "title" : "Blood Screening Data",
+   "description" : "Description\nThe erythrocyte sedimentation rate and measurements of \ntwo plasma proteins (fibrinogen and globulin).",
+   "reference" : "The erythrocyte sedimentation rate (ESR) is the rate at which\nred blood cells (erythrocytes) settle out of suspension in blood\nplasma, when measured under standard conditions. If the ESR increases\nwhen the level of certain proteins in the blood plasma rise in\nassociation with conditions such as rheumatic diseases, chronic\ninfections and malignant diseases, its determination might be\nuseful in screening blood samples taken form people suspected\nto being suffering from one of the conditions mentioned. The\nabsolute value of the ESR is not of great importance rather it\nis whether it is less than 20mm/hr since lower values indicate\na healthy individual.",
+   "usage" : "data(\"plasma\")",
+   "parameters" : {
+      "globulin" : "the globulin level in the blood.",
+      "ESR" : "the erythrocyte sedimentation rate, either less or\ngreater 20 mm / hour.",
+      "fibrinogen" : "the fibrinogen level in the blood."
+   }
+}

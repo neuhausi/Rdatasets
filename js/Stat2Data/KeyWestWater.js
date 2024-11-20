@@ -1,13 +1,13 @@
 var KeyWestWaterInfo ={
-   "description" : "Description\nHourly water temperatures from Gulf of Mexico near Key West, Florida",
    "parameters" : {
-      "DateTime" : "Date and time of reading (format mm/dd/yyyy h:00)",
       "t" : "Time index (1 to 673)",
+      "DateTime" : "Date and time of reading (format mm/dd/yyyy h:00)",
       "WaterTemp" : "Water temperature (in degrees Fahrenheit)"
    },
-   "title" : "Key West Water Temperatures",
    "reference" : "Hourly readings of water temperatures from a measuring device in the Gulf of Mexico near Key West, Florida.  The hourly temperatures are provided from October 3, 2016 to October 3, 2017 and were obtained from station 8724580.  A few missing values have been interpolated to provide a complete series.",
-   "usage" : "A data frame with 6572 observations on the following 3 variables."
+   "usage" : "A data frame with 6572 observations on the following 3 variables.",
+   "description" : "Description\nHourly water temperatures from Gulf of Mexico near Key West, Florida",
+   "title" : "Key West Water Temperatures"
 }
 
 var KeyWestWater = [

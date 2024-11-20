@@ -1,0 +1,11 @@
+{
+   "parameters" : {
+      "breast_cancer_death" : "a factor with levels no\nyes",
+      "treatment" : "a factor with levels control\nmammogram"
+   },
+   "usage" : "mammogram",
+   "reference" : "Miller AB. 2014. Twenty five year follow-up for breast cancer\nincidence and mortality of the Canadian National Breast Screening Study:\nrandomised screening trial. BMJ 2014;348:g366.",
+   "title" : "Experiment with Mammogram Randomized",
+   "description" : "Description\nAn experiment where 89,835 women were randomized to either get a mammogram\nor a non-mammogram breast screening. The response measured was whether they\nhad died from breast cancer within 25 years.",
+   "format" : "A data frame with 89835 observations on the following 2 variables."
+}

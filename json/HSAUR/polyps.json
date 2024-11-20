@@ -1,7 +1,28 @@
 {
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>polyps</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2> Familial Andenomatous Polyposis </h2>\n<h3>Description</h3>\n<p>Data from a placebo-controlled trial of a non-steroidal anti-inflammatory  \ndrug in the treatment of familial andenomatous polyposis (FAP).\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(\"polyps\")</code></pre>\n<h3>Format</h3>\n<p>A data frame with 20 observations on the following 3 variables.\n</p>\n<dl>\n<dt><code>number</code></dt><dd><p>number of colonic polyps at 12 months.</p>\n</dd>\n<dt><code>treat</code></dt><dd><p>treatment arms of the trail, a factor with \nlevels <code>placebo</code> and <code>drug</code>.</p>\n</dd>\n<dt><code>age</code></dt><dd><p>the age of the patient.</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>Giardiello et al. (1993) and Piantadosi (1997) describe the\nresults of a placebo-controlled trial of a non-steroidal anti-inflammatory  \ndrug in the treatment of familial andenomatous polyposis (FAP). \nThe trial was halted after a planned interim analysis had suggested\ncompelling evidence in favour of the treatment. \nHere we are interested in assessing whether the number of colonic polyps at \n12 months is related to treatment and age of patient.\n</p>\n<h3>Source</h3>\n<p>F. M. Giardiello, S. R. Hamilton, A. J. Krush, S. Piantadosi, L. M. Hylind,\nP. Celano, S. V. Booker, C. R. Robinson and G. J. A. Offerhaus (1993), \nTreatment of colonic and rectal adenomas with sulindac \nin familial adenomatous polyposis. <em>New England Journal of Medicine</em>,\n<b>328</b>(18), 1313&ndash;1316.\n</p>\n<p>S. Piantadosi (1997), <em>Clinical Trials: A Methodologic Perspective</em>.\nJohn Wiley &amp; Sons, New York.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>\n  data(\"polyps\", package = \"HSAUR\")\n  plot(number ~ age, data = polyps, pch = as.numeric(polyps$treat))\n  legend(40, 40, legend = levels(polyps$treat), pch = 1:2, bty = \"n\")\n</code></pre>\n</main>\n</div>\n",
    "data" : {
       "y" : {
+         "vars" : [
+            "Var1",
+            "Var2",
+            "Var3",
+            "Var4",
+            "Var5",
+            "Var6",
+            "Var7",
+            "Var8",
+            "Var9",
+            "Var10",
+            "Var11",
+            "Var12",
+            "Var13",
+            "Var14",
+            "Var15",
+            "Var16",
+            "Var17",
+            "Var18",
+            "Var19",
+            "Var20"
+         ],
          "data" : [
             [
                63,
@@ -87,28 +108,6 @@
          "smps" : [
             "number",
             "age"
-         ],
-         "vars" : [
-            "Var1",
-            "Var2",
-            "Var3",
-            "Var4",
-            "Var5",
-            "Var6",
-            "Var7",
-            "Var8",
-            "Var9",
-            "Var10",
-            "Var11",
-            "Var12",
-            "Var13",
-            "Var14",
-            "Var15",
-            "Var16",
-            "Var17",
-            "Var18",
-            "Var19",
-            "Var20"
          ]
       },
       "z" : {
@@ -136,6 +135,7 @@
          ]
       }
    },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>polyps</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2> Familial Andenomatous Polyposis </h2>\n<h3>Description</h3>\n<p>Data from a placebo-controlled trial of a non-steroidal anti-inflammatory  \ndrug in the treatment of familial andenomatous polyposis (FAP).\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(\"polyps\")</code></pre>\n<h3>Format</h3>\n<p>A data frame with 20 observations on the following 3 variables.\n</p>\n<dl>\n<dt><code>number</code></dt><dd><p>number of colonic polyps at 12 months.</p>\n</dd>\n<dt><code>treat</code></dt><dd><p>treatment arms of the trail, a factor with \nlevels <code>placebo</code> and <code>drug</code>.</p>\n</dd>\n<dt><code>age</code></dt><dd><p>the age of the patient.</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>Giardiello et al. (1993) and Piantadosi (1997) describe the\nresults of a placebo-controlled trial of a non-steroidal anti-inflammatory  \ndrug in the treatment of familial andenomatous polyposis (FAP). \nThe trial was halted after a planned interim analysis had suggested\ncompelling evidence in favour of the treatment. \nHere we are interested in assessing whether the number of colonic polyps at \n12 months is related to treatment and age of patient.\n</p>\n<h3>Source</h3>\n<p>F. M. Giardiello, S. R. Hamilton, A. J. Krush, S. Piantadosi, L. M. Hylind,\nP. Celano, S. V. Booker, C. R. Robinson and G. J. A. Offerhaus (1993), \nTreatment of colonic and rectal adenomas with sulindac \nin familial adenomatous polyposis. <em>New England Journal of Medicine</em>,\n<b>328</b>(18), 1313&ndash;1316.\n</p>\n<p>S. Piantadosi (1997), <em>Clinical Trials: A Methodologic Perspective</em>.\nJohn Wiley &amp; Sons, New York.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>\n  data(\"polyps\", package = \"HSAUR\")\n  plot(number ~ age, data = polyps, pch = as.numeric(polyps$treat))\n  legend(40, 40, legend = levels(polyps$treat), pch = 1:2, bty = \"n\")\n</code></pre>\n</main>\n</div>\n",
    "config" : {
       "graphType" : "Scatter2D",
       "colorBy" : "treat",

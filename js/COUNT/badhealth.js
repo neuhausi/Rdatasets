@@ -1,14 +1,14 @@
 var badhealthInfo ={
+   "reference" : "badhealth is saved as a data frame.\nCount models use numvisit as the response variable, 0 counts are included.",
+   "usage" : "data(badhealth)",
+   "title" : "badhealth",
+   "description" : "Description\nFrom German health survey data for the year 1998 only.",
    "parameters" : {
       "age" : "age of patient: 20-60",
-      "badh" : "1=patient claims to be in bad health; 0=not in bad health",
-      "numvisit" : "number of visits to doctor during 1998"
+      "numvisit" : "number of visits to doctor during 1998",
+      "badh" : "1=patient claims to be in bad health; 0=not in bad health"
    },
-   "reference" : "badhealth is saved as a data frame.\nCount models use numvisit as the response variable, 0 counts are included.",
-   "title" : "badhealth",
-   "format" : "A data frame with 1,127 observations on the following 3 variables.",
-   "description" : "Description\nFrom German health survey data for the year 1998 only.",
-   "usage" : "data(badhealth)"
+   "format" : "A data frame with 1,127 observations on the following 3 variables."
 }
 
 var badhealth = [

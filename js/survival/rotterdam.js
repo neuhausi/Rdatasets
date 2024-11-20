@@ -1,26 +1,26 @@
 var rotterdamInfo ={
+   "reference" : "These data sets are used in the paper by Royston and Altman that is\nreferenced below.\nThe Rotterdam data is used to create a fitted model, and the GBSG data for \nvalidation of the model.  The paper gives references for the data\nsource.",
+   "usage" : "rotterdam\ndata(cancer, package=\"survival\")",
+   "title" : "Breast cancer data set used in Royston and Altman (2013)",
+   "description" : "Description\nThe rotterdam data set includes 2982 primary breast cancers patients\nwhose records were included in the Rotterdam tumor bank.",
    "parameters" : {
-      "year" : "year of surgery",
       "hormon" : "hormonal treatment (0=no, 1=yes)",
+      "recur" : "0= no relapse, 1= relapse",
+      "grade" : "differentiation grade",
+      "size" : "tumor size, a factor with levels <=20 20-50 >50",
+      "er" : "estrogen receptors (fmol/l)",
+      "meno" : "menopausal status (0= premenopausal, 1= postmenopausal)",
       "death" : "0= alive, 1= dead",
       "dtime" : "days to death or last follow-up",
       "pgr" : "progesterone receptors (fmol/l)",
-      "er" : "estrogen receptors (fmol/l)",
-      "recur" : "0= no relapse, 1= relapse",
-      "rtime" : "days to relapse or last follow-up",
-      "meno" : "menopausal status (0= premenopausal, 1= postmenopausal)",
-      "chemo" : "chemotherapy",
-      "nodes" : "number of positive lymph nodes",
       "pid" : "patient identifier",
-      "size" : "tumor size, a factor with levels <=20 20-50 >50",
       "age" : "age at surgery",
-      "grade" : "differentiation grade"
+      "year" : "year of surgery",
+      "nodes" : "number of positive lymph nodes",
+      "rtime" : "days to relapse or last follow-up",
+      "chemo" : "chemotherapy"
    },
-   "format" : "A data frame with 2982 observations on the following 15 variables.",
-   "title" : "Breast cancer data set used in Royston and Altman (2013)",
-   "reference" : "These data sets are used in the paper by Royston and Altman that is\nreferenced below.\nThe Rotterdam data is used to create a fitted model, and the GBSG data for \nvalidation of the model.  The paper gives references for the data\nsource.",
-   "description" : "Description\nThe rotterdam data set includes 2982 primary breast cancers patients\nwhose records were included in the Rotterdam tumor bank.",
-   "usage" : "rotterdam\ndata(cancer, package=\"survival\")"
+   "format" : "A data frame with 2982 observations on the following 15 variables."
 }
 
 var rotterdam = [

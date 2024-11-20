@@ -1,8 +1,8 @@
 var shoesInfo ={
-   "description" : "Description\nA list of two vectors, giving the wear of shoes of materials A and B\nfor one foot each of ten boys.",
-   "usage" : "shoes",
+   "format" : "G. E. P. Box, W. G. Hunter and J. S. Hunter (1978)\nStatistics for Experimenters. Wiley, p. 100",
    "title" : "Shoe wear data of Box, Hunter and Hunter",
-   "format" : "G. E. P. Box, W. G. Hunter and J. S. Hunter (1978)\nStatistics for Experimenters. Wiley, p. 100"
+   "description" : "Description\nA list of two vectors, giving the wear of shoes of materials A and B\nfor one foot each of ten boys.",
+   "usage" : "shoes"
 }
 
 var shoes = [

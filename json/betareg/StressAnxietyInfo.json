@@ -1,0 +1,11 @@
+{
+   "format" : "A data frame containing 166 observations on 2 variables.",
+   "description" : "Description\nStress and anxiety among nonclinical women in Townsville, Queensland, Australia.",
+   "title" : "Dependency of Anxiety on Stress",
+   "reference" : "Both variables were assess on the Depression Anxiety Stress Scales, ranging\nfrom 0 to 42. Smithson and Verkuilen (2006) transformed these to the open\nunit interval (without providing details about this transformation).",
+   "usage" : "data(\"StressAnxiety\", package = \"betareg\")",
+   "parameters" : {
+      "stress" : "score, linearly transformed to the open unit\ninterval (see below).",
+      "anxiety" : "score, linearly transformed to the open unit\ninterval (see below)."
+   }
+}

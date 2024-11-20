@@ -1,46 +1,17 @@
 {
-   "config" : {
-      "graphType" : "Boxplot",
-      "colorBy" : "variable",
-      "groupingFactors" : [
-         "management"
-      ],
-      "title" : "Job Satisfaction Data",
-      "subtitle" : "vcd - JobSatisfaction",
-      "segregateSamplesBy" : [
-         "supervisor",
-         "own"
-      ]
-   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>JobSatisfaction</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Job Satisfaction Data</h2>\n<h3>Description</h3>\n<p>Data from Petersen (1968) about the job satisfaction of 715 blue\ncollar workers, selected from Danish Industry in 1968.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(\"JobSatisfaction\")\n</code></pre>\n<h3>Format</h3>\n<p>A data frame with 8 observations and 4 variables.\n</p>\n<dl>\n<dt>Freq</dt><dd><p>frequency.</p>\n</dd>\n<dt>management</dt><dd><p>factor indicating quality of management (bad,\ngood).</p>\n</dd> \n<dt>supervisor</dt><dd><p>factor indicating supervisor's job satisfaction\n(low, high).</p>\n</dd>\n<dt>own</dt><dd><p>factor indicating worker's own job satisfaction (low,\nhigh).</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>E. B. Andersen (1991),\nThe Statistical Analysis of Categorical Data, Table 5.4.\n</p>\n<h3>References</h3>\n<p>E. B. Andersen (1991),\n<em>The Statistical Analysis of Categorical Data</em>.\n2nd edition.\nSpringer-Verlag, Berlin.\n</p>\n<p>E. Petersen (1968),\n<em>Job Satisfaction in Denmark</em>.\n(In Danish).\nMentalhygiejnisk Forlag, Copenhagen.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>data(\"JobSatisfaction\")\nstructable(~ ., data = JobSatisfaction)\nmantelhaen.test(xtabs(Freq ~ own + supervisor + management,\n                      data = JobSatisfaction))\n</code></pre>\n</main>\n</div>\n",
    "data" : {
-      "y" : {
-         "smps" : [
-            "Smp1",
-            "Smp2",
-            "Smp3",
-            "Smp4",
-            "Smp5",
-            "Smp6",
-            "Smp7",
-            "Smp8"
-         ],
-         "vars" : [
-            "Freq"
-         ],
-         "data" : [
-            [
-               103,
-               87,
-               32,
-               42,
-               59,
-               109,
-               78,
-               205
-            ]
-         ]
-      },
       "x" : {
+         "own" : [
+            "low",
+            "high",
+            "low",
+            "high",
+            "low",
+            "high",
+            "low",
+            "high"
+         ],
          "management" : [
             "bad",
             "bad",
@@ -60,18 +31,47 @@
             "low",
             "high",
             "high"
+         ]
+      },
+      "y" : {
+         "data" : [
+            [
+               103,
+               87,
+               32,
+               42,
+               59,
+               109,
+               78,
+               205
+            ]
          ],
-         "own" : [
-            "low",
-            "high",
-            "low",
-            "high",
-            "low",
-            "high",
-            "low",
-            "high"
+         "smps" : [
+            "Smp1",
+            "Smp2",
+            "Smp3",
+            "Smp4",
+            "Smp5",
+            "Smp6",
+            "Smp7",
+            "Smp8"
+         ],
+         "vars" : [
+            "Freq"
          ]
       }
    },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>JobSatisfaction</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Job Satisfaction Data</h2>\n<h3>Description</h3>\n<p>Data from Petersen (1968) about the job satisfaction of 715 blue\ncollar workers, selected from Danish Industry in 1968.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(\"JobSatisfaction\")\n</code></pre>\n<h3>Format</h3>\n<p>A data frame with 8 observations and 4 variables.\n</p>\n<dl>\n<dt>Freq</dt><dd><p>frequency.</p>\n</dd>\n<dt>management</dt><dd><p>factor indicating quality of management (bad,\ngood).</p>\n</dd> \n<dt>supervisor</dt><dd><p>factor indicating supervisor's job satisfaction\n(low, high).</p>\n</dd>\n<dt>own</dt><dd><p>factor indicating worker's own job satisfaction (low,\nhigh).</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>E. B. Andersen (1991),\nThe Statistical Analysis of Categorical Data, Table 5.4.\n</p>\n<h3>References</h3>\n<p>E. B. Andersen (1991),\n<em>The Statistical Analysis of Categorical Data</em>.\n2nd edition.\nSpringer-Verlag, Berlin.\n</p>\n<p>E. Petersen (1968),\n<em>Job Satisfaction in Denmark</em>.\n(In Danish).\nMentalhygiejnisk Forlag, Copenhagen.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>data(\"JobSatisfaction\")\nstructable(~ ., data = JobSatisfaction)\nmantelhaen.test(xtabs(Freq ~ own + supervisor + management,\n                      data = JobSatisfaction))\n</code></pre>\n</main>\n</div>\n"
+   "config" : {
+      "segregateSamplesBy" : [
+         "management",
+         "supervisor"
+      ],
+      "colorBy" : "variable",
+      "graphType" : "Boxplot",
+      "groupingFactors" : [
+         "own"
+      ],
+      "subtitle" : "vcd - JobSatisfaction",
+      "title" : "Job Satisfaction Data"
+   }
 }

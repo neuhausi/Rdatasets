@@ -2,13 +2,13 @@ var AlfalfaInfo ={
    "parameters" : {
       "Variety" : "a factor with levels\nCossack,\nLadak, and \nRanger",
       "Block" : "a factor with levels\n1 \n2 \n3 \n4 \n5 \n6",
-      "Yield" : "a numeric vector",
-      "Date" : "a factor with levels\nNone \nS1 \nS20 \nO7"
+      "Date" : "a factor with levels\nNone \nS1 \nS20 \nO7",
+      "Yield" : "a numeric vector"
    },
-   "description" : "Description\nThe Alfalfa data frame has 72 rows and 4 columns.",
+   "reference" : "These data are described in Snedecor and Cochran (1980) as\nan example of a split-plot design. The treatment structure used in the\nexperiment was a 3 x 4 full factorial, with three varieties of\nalfalfa and four dates of third cutting in 1943. The experimental\nunits were arranged into six blocks, each subdivided into four plots.\nThe varieties of alfalfa (Cossac, Ladak, and\nRanger) were assigned randomly to the blocks and the dates of\nthird cutting (None, S1&mdash;September 1,\nS20&mdash;September 20, and O7&mdash;October 7) were randomly\nassigned to the plots.  All four dates were used on each block.",
    "usage" : "This data frame contains the following columns:",
    "title" : "Split-Plot Experiment on Varieties of Alfalfa",
-   "reference" : "These data are described in Snedecor and Cochran (1980) as\nan example of a split-plot design. The treatment structure used in the\nexperiment was a 3 x 4 full factorial, with three varieties of\nalfalfa and four dates of third cutting in 1943. The experimental\nunits were arranged into six blocks, each subdivided into four plots.\nThe varieties of alfalfa (Cossac, Ladak, and\nRanger) were assigned randomly to the blocks and the dates of\nthird cutting (None, S1&mdash;September 1,\nS20&mdash;September 20, and O7&mdash;October 7) were randomly\nassigned to the plots.  All four dates were used on each block."
+   "description" : "Description\nThe Alfalfa data frame has 72 rows and 4 columns."
 }
 
 var Alfalfa = [

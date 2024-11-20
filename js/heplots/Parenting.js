@@ -1,14 +1,14 @@
 var ParentingInfo ={
    "parameters" : {
-      "caring" : "caretaking responsibilities, a numeric vector",
       "group" : "a factor with levels Normal\nPhysical Disability Mental Disability",
       "emotion" : "emotional support provided to the child, a numeric vector",
+      "caring" : "caretaking responsibilities, a numeric vector",
       "play" : "recreational time spent with the child, a numeric vector"
    },
+   "title" : "Father Parenting Competence",
    "description" : "Description\nThe data, from an exercise given by Meyers et al. (2006) relates to 60\nfathers assessed on three subscales of a Perceived Parenting Competence\nScale. The fathers were selected from three groups: (a) fathers of a child\nwith no disabilities; (b) fathers with a physically disabled child; (c)\nfathers with a mentally disabled child.",
-   "usage" : "A data frame with 60 observations on the following 4 variables.",
    "reference" : "The scores on the response variables are discrete.",
-   "title" : "Father Parenting Competence"
+   "usage" : "A data frame with 60 observations on the following 4 variables."
 }
 
 var Parenting = [

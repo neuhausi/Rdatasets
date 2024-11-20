@@ -1,0 +1,14 @@
+{
+   "format" : "A data frame containing 20 annual observations on 3 variables for 11 firms.",
+   "parameters" : {
+      "firm" : "factor with 11 levels: \"General Motors\", \"US Steel\",\n\"General Electric\", \"Chrysler\", \"Atlantic Refining\", \"IBM\",\n\"Union Oil\", \"Westinghouse\", \"Goodyear\", \"Diamond Match\",\n\"American Steel\".",
+      "invest" : "Gross investment, defined as additions to plant and equipment plus \nmaintenance and repairs in millions of dollars deflated by the implicit price\ndeflator of producers' durable equipment (base 1947).",
+      "value" : "Market value of the firm, defined as the price of common shares at\nDecember 31 (or, for WH, IBM and CH, the average price of December 31 and\nJanuary 31 of the following year) times the number of common shares\noutstanding plus price of preferred shares at December 31 (or average price\nof December 31 and January 31 of the following year) times number of\npreferred shares plus total book value of debt at December 31 in millions of\ndollars deflated by the implicit GNP price deflator (base 1947).",
+      "capital" : "Stock of plant and equipment, defined as the accumulated sum of net additions\nto plant and equipment deflated by the implicit price deflator for producers' durable\nequipment (base 1947) minus depreciation allowance deflated by depreciation expense deflator\n(10 years moving average of wholesale price index of metals and metal products, base 1947).",
+      "year" : "Year."
+   },
+   "title" : "Grunfeld's Investment Data",
+   "description" : "Description\nPanel data on 11 large US manufacturing firms over 20 years, for the years 1935&ndash;1954.",
+   "reference" : "This is a popular data set for teaching purposes. Unfortunately, there exist several \ndifferent versions (see Kleiber and Zeileis, 2010, for a detailed discussion). \nIn particular, the version provided by Greene (2003) has a couple of errors\nfor \"US Steel\" (firm 2): \ninvestment in 1940 is 261.6 (instead of the correct 361.6), \ninvestment in 1952 is 645.2 (instead of the correct 645.5), \ncapital    in 1946 is 132.6 (instead of the correct 232.6).",
+   "usage" : "data(\"Grunfeld\")"
+}

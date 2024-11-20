@@ -1,56 +1,9 @@
 {
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>Smithsonian</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Smithsonian museums</h2>\n<h3>Description</h3>\n<p>Geocodes for the Smithsonian museums (circa 2018).\n</p>\n<h3>Value</h3>\n<table>\n<tr><td><code>Smithsonian</code></td>\n<td>\n<p>a tibble</p>\n</td></tr>\n</table>\n<h3>Source</h3>\n<p>https://en.wikipedia.org/wiki/List_of_Smithsonian_museums\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>data(Smithsonian)\nstr(Smithsonian)\n</code></pre>\n</main>\n</div>\n",
    "data" : {
-      "z" : {
-         "name" : [
-            "Anacostia Community Museum",
-            "Arthur M. Sackler Gallery",
-            "Arts and Industries Building",
-            "Cooper Hewitt, Smithsonian Design Museum",
-            "Freer Gallery of Art",
-            "Hirshhorn Museum and Sculpture Garden",
-            "National Air and Space Museum",
-            "Steven F. Udvar-Hazy Center",
-            "National Museum of African American History and Culture",
-            "National Museum of African Art",
-            "National Museum of American History",
-            "National Museum of the American Indian",
-            "George Gustav Heye Center",
-            "National Museum of Natural History",
-            "National Portrait Gallery",
-            "National Postal Museum",
-            "Renwick Gallery",
-            "Smithsonian American Art Museum",
-            "Smithsonian Institution Building",
-            "National Zoological Park"
-         ]
-      },
       "y" : {
          "smps" : [
             "latitude",
             "longitude"
-         ],
-         "vars" : [
-            "Var1",
-            "Var2",
-            "Var3",
-            "Var4",
-            "Var5",
-            "Var6",
-            "Var7",
-            "Var8",
-            "Var9",
-            "Var10",
-            "Var11",
-            "Var12",
-            "Var13",
-            "Var14",
-            "Var15",
-            "Var16",
-            "Var17",
-            "Var18",
-            "Var19",
-            "Var20"
          ],
          "data" : [
             [
@@ -133,13 +86,60 @@
                38.9296198,
                -77.0519731
             ]
+         ],
+         "vars" : [
+            "Var1",
+            "Var2",
+            "Var3",
+            "Var4",
+            "Var5",
+            "Var6",
+            "Var7",
+            "Var8",
+            "Var9",
+            "Var10",
+            "Var11",
+            "Var12",
+            "Var13",
+            "Var14",
+            "Var15",
+            "Var16",
+            "Var17",
+            "Var18",
+            "Var19",
+            "Var20"
+         ]
+      },
+      "z" : {
+         "name" : [
+            "Anacostia Community Museum",
+            "Arthur M. Sackler Gallery",
+            "Arts and Industries Building",
+            "Cooper Hewitt, Smithsonian Design Museum",
+            "Freer Gallery of Art",
+            "Hirshhorn Museum and Sculpture Garden",
+            "National Air and Space Museum",
+            "Steven F. Udvar-Hazy Center",
+            "National Museum of African American History and Culture",
+            "National Museum of African Art",
+            "National Museum of American History",
+            "National Museum of the American Indian",
+            "George Gustav Heye Center",
+            "National Museum of Natural History",
+            "National Portrait Gallery",
+            "National Postal Museum",
+            "Renwick Gallery",
+            "Smithsonian American Art Museum",
+            "Smithsonian Institution Building",
+            "National Zoological Park"
          ]
       }
    },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>Smithsonian</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Smithsonian museums</h2>\n<h3>Description</h3>\n<p>Geocodes for the Smithsonian museums (circa 2018).\n</p>\n<h3>Value</h3>\n<table>\n<tr><td><code>Smithsonian</code></td>\n<td>\n<p>a tibble</p>\n</td></tr>\n</table>\n<h3>Source</h3>\n<p>https://en.wikipedia.org/wiki/List_of_Smithsonian_museums\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>data(Smithsonian)\nstr(Smithsonian)\n</code></pre>\n</main>\n</div>\n",
    "config" : {
-      "colorBy" : "name",
-      "title" : "Smithsonian museums",
       "graphType" : "Scatter2D",
-      "subtitle" : "modeldata - Smithsonian"
+      "colorBy" : "name",
+      "subtitle" : "modeldata - Smithsonian",
+      "title" : "Smithsonian museums"
    }
 }

@@ -1,9 +1,4 @@
 {
-   "config" : {
-      "graphType" : "Heatmap",
-      "title" : "Survival from Malignant Melanoma",
-      "subtitle" : "boot - melanoma"
-   },
    "data" : {
       "y" : {
          "data" : [
@@ -1457,15 +1452,6 @@
                0
             ]
          ],
-         "vars" : [
-            "time",
-            "status",
-            "sex",
-            "age",
-            "year",
-            "thickness",
-            "ulcer"
-         ],
          "smps" : [
             "Smp1",
             "Smp2",
@@ -1672,8 +1658,22 @@
             "Smp203",
             "Smp204",
             "Smp205"
+         ],
+         "vars" : [
+            "time",
+            "status",
+            "sex",
+            "age",
+            "year",
+            "thickness",
+            "ulcer"
          ]
       }
    },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>melanoma</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>\nSurvival from Malignant Melanoma\n</h2>\n<h3>Description</h3>\n<p>The <code>melanoma</code> data frame has 205 rows and 7 columns.\n</p>\n<p>The data consist of measurements made on patients with malignant melanoma.\nEach patient had their tumour removed by surgery at the Department of Plastic\nSurgery, University Hospital of Odense, Denmark during the period 1962 to 1977.\nThe surgery consisted of complete removal of the tumour together with about\n2.5cm of the surrounding skin.  Among the measurements taken were the thickness\nof the tumour and whether it was ulcerated or not.  These are thought to be\nimportant prognostic variables in that patients with a thick and/or ulcerated\ntumour have an increased chance of death from melanoma.\nPatients were followed until the end of 1977.  \n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>melanoma\n</code></pre>\n<h3>Format</h3>\n<p>This data frame contains the following columns:\n</p>\n<dl>\n<dt><code>time</code></dt><dd>\n<p>Survival time in days since the operation, possibly censored.\n</p>\n</dd>\n<dt><code>status</code></dt><dd>\n<p>The patients status at the end of the study. 1 indicates that they had died\nfrom melanoma, 2 indicates that they were still alive and 3 indicates that they\nhad died from causes unrelated to their melanoma.\n</p>\n</dd>\n<dt><code>sex</code></dt><dd>\n<p>The patients sex; 1=male, 0=female.\n</p>\n</dd>\n<dt><code>age</code></dt><dd>\n<p>Age in years at the time of the operation.\n</p>\n</dd>\n<dt><code>year</code></dt><dd>\n<p>Year of operation.\n</p>\n</dd>\n<dt><code>thickness</code></dt><dd>\n<p>Tumour thickness in mm.\n</p>\n</dd>\n<dt><code>ulcer</code></dt><dd>\n<p>Indicator of ulceration; 1=present, 0=absent.\n</p>\n</dd></dl>\n<h3>Note</h3>\n<p>This dataset is not related to the dataset in the <span class=\"pkg\">lattice</span> package\nwith the same name.\n</p>\n<h3>Source</h3>\n<p>The data were obtained from\n</p>\n<p>Andersen, P.K., Borgan, O., Gill, R.D. and Keiding, N. (1993)\n<em>Statistical Models Based on Counting Processes</em>. Springer-Verlag.\n</p>\n<h3>References</h3>\n<p>Davison, A.C. and Hinkley, D.V. (1997) <em>Bootstrap Methods and Their Application</em>. Cambridge University Press.\n</p>\n<p>Venables, W.N. and Ripley, B.D. (1994) \n<em>Modern Applied Statistics with S-Plus</em>. Springer-Verlag.\n</p>\n</main>\n</div>\n"
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>melanoma</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>\nSurvival from Malignant Melanoma\n</h2>\n<h3>Description</h3>\n<p>The <code>melanoma</code> data frame has 205 rows and 7 columns.\n</p>\n<p>The data consist of measurements made on patients with malignant melanoma.\nEach patient had their tumour removed by surgery at the Department of Plastic\nSurgery, University Hospital of Odense, Denmark during the period 1962 to 1977.\nThe surgery consisted of complete removal of the tumour together with about\n2.5cm of the surrounding skin.  Among the measurements taken were the thickness\nof the tumour and whether it was ulcerated or not.  These are thought to be\nimportant prognostic variables in that patients with a thick and/or ulcerated\ntumour have an increased chance of death from melanoma.\nPatients were followed until the end of 1977.  \n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>melanoma\n</code></pre>\n<h3>Format</h3>\n<p>This data frame contains the following columns:\n</p>\n<dl>\n<dt><code>time</code></dt><dd>\n<p>Survival time in days since the operation, possibly censored.\n</p>\n</dd>\n<dt><code>status</code></dt><dd>\n<p>The patients status at the end of the study. 1 indicates that they had died\nfrom melanoma, 2 indicates that they were still alive and 3 indicates that they\nhad died from causes unrelated to their melanoma.\n</p>\n</dd>\n<dt><code>sex</code></dt><dd>\n<p>The patients sex; 1=male, 0=female.\n</p>\n</dd>\n<dt><code>age</code></dt><dd>\n<p>Age in years at the time of the operation.\n</p>\n</dd>\n<dt><code>year</code></dt><dd>\n<p>Year of operation.\n</p>\n</dd>\n<dt><code>thickness</code></dt><dd>\n<p>Tumour thickness in mm.\n</p>\n</dd>\n<dt><code>ulcer</code></dt><dd>\n<p>Indicator of ulceration; 1=present, 0=absent.\n</p>\n</dd></dl>\n<h3>Note</h3>\n<p>This dataset is not related to the dataset in the <span class=\"pkg\">lattice</span> package\nwith the same name.\n</p>\n<h3>Source</h3>\n<p>The data were obtained from\n</p>\n<p>Andersen, P.K., Borgan, O., Gill, R.D. and Keiding, N. (1993)\n<em>Statistical Models Based on Counting Processes</em>. Springer-Verlag.\n</p>\n<h3>References</h3>\n<p>Davison, A.C. and Hinkley, D.V. (1997) <em>Bootstrap Methods and Their Application</em>. Cambridge University Press.\n</p>\n<p>Venables, W.N. and Ripley, B.D. (1994) \n<em>Modern Applied Statistics with S-Plus</em>. Springer-Verlag.\n</p>\n</main>\n</div>\n",
+   "config" : {
+      "title" : "Survival from Malignant Melanoma",
+      "subtitle" : "boot - melanoma",
+      "graphType" : "Heatmap"
+   }
 }

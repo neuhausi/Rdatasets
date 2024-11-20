@@ -1,14 +1,14 @@
 var LanzaInfo ={
-   "reference" : "The response variable is defined by the number of haemorrhages or\nerosions.",
-   "title" : "Prevention of Gastointestinal Damages",
    "format" : "A data frame with 198 observations on the following 3 variables.",
-   "parameters" : {
-      "study" : "a factor with levels I, II,\nIII, and IV describing the study number.",
-      "classification" : "an ordered factor with levels 1 < 2 < 3 < 4 < 5\ndescribing an ordered response variable.",
-      "treatment" : "a factor with levels Misoprostol Placebo"
-   },
+   "title" : "Prevention of Gastointestinal Damages",
+   "description" : "Description\nData from four randomised clinical trials on the prevention of \ngastointestinal damages by Misoprostol reported by Lanza et al.\n(1987, 1988a,b, 1989).",
+   "reference" : "The response variable is defined by the number of haemorrhages or\nerosions.",
    "usage" : "data(\"Lanza\")",
-   "description" : "Description\nData from four randomised clinical trials on the prevention of \ngastointestinal damages by Misoprostol reported by Lanza et al.\n(1987, 1988a,b, 1989)."
+   "parameters" : {
+      "treatment" : "a factor with levels Misoprostol Placebo",
+      "classification" : "an ordered factor with levels 1 < 2 < 3 < 4 < 5\ndescribing an ordered response variable.",
+      "study" : "a factor with levels I, II,\nIII, and IV describing the study number."
+   }
 }
 
 var Lanza = [

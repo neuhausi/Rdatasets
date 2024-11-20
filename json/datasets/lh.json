@@ -1,12 +1,15 @@
 {
    "config" : {
       "graphType" : "Scatter2D",
-      "title" : "Luteinizing Hormone in Blood Samples",
-      "subtitle" : "datasets - lh"
+      "subtitle" : "datasets - lh",
+      "title" : "Luteinizing Hormone in Blood Samples"
    },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>lh</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>\nLuteinizing Hormone in Blood Samples\n</h2>\n<h3>Description</h3>\n<p>A regular time series giving the luteinizing hormone in blood\nsamples at 10 <abbr>min</abbr>s intervals from a human female, 48 samples.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>lh</code></pre>\n<h3>Source</h3>\n<p>P.J. Diggle (1990)\n<em>Time Series: A Biostatistical Introduction.</em>\nOxford, table A.1, series 3\n</p>\n</main>\n</div>\n",
    "data" : {
       "y" : {
+         "smps" : [
+            "time",
+            "value"
+         ],
          "data" : [
             [
                1,
@@ -250,11 +253,8 @@
             "Var46",
             "Var47",
             "Var48"
-         ],
-         "smps" : [
-            "time",
-            "value"
          ]
       }
-   }
+   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>lh</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>\nLuteinizing Hormone in Blood Samples\n</h2>\n<h3>Description</h3>\n<p>A regular time series giving the luteinizing hormone in blood\nsamples at 10 <abbr>min</abbr>s intervals from a human female, 48 samples.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>lh</code></pre>\n<h3>Source</h3>\n<p>P.J. Diggle (1990)\n<em>Time Series: A Biostatistical Introduction.</em>\nOxford, table A.1, series 3\n</p>\n</main>\n</div>\n"
 }

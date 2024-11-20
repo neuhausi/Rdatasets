@@ -1,0 +1,13 @@
+{
+   "usage" : "orings",
+   "reference" : "https://archive.ics.uci.edu/dataset/92/challenger+usa+space+shuttle+o+ring",
+   "description" : "Description\nOn January 28, 1986, a routine launch was anticipated for the Challenger\nspace shuttle. Seventy-three seconds into the flight, disaster happened: the\nshuttle broke apart, killing all seven crew members on board. An\ninvestigation into the cause of the disaster focused on a critical seal\ncalled an O-ring, and it is believed that damage to these O-rings during a\nshuttle launch may be related to the ambient temperature during the launch.\nThe table below summarizes observational data on O-rings for 23 shuttle\nmissions, where the mission order is based on the temperature at the time of\nthe launch.",
+   "title" : "1986 Challenger disaster and O-rings",
+   "parameters" : {
+      "damaged" : "Number of damaged O-rings (out of 6).",
+      "undamaged" : "Number of undamaged O-rings (out of 6).",
+      "temperature" : "Temperature, in Fahrenheit.",
+      "mission" : "Shuttle mission number."
+   },
+   "format" : "A data frame with 23 observations on the following 4 variables."
+}

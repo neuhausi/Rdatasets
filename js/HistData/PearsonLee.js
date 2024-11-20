@@ -1,17 +1,17 @@
 var PearsonLeeInfo ={
-   "title" : "Pearson and Lee's  data on the heights of parents and children classified by gender",
-   "reference" : "The variables gp, par and chl are provided to allow stratifying\nthe data according to the gender of the father/mother and son/daughter.",
-   "format" : "A frequency data frame with 746 observations on the following 6 variables.",
-   "parameters" : {
-      "frequency" : "a numeric vector",
-      "par" : "a factor with levels Father Mother",
-      "chl" : "a factor with levels Daughter Son",
-      "parent" : "parent height in inches, a numeric vector",
-      "gp" : "a factor with levels fd fs md ms",
-      "child" : "child height in inches, a numeric vector"
-   },
    "usage" : "data(PearsonLee)",
-   "description" : "Description\nWachsmuth et. al (2003) noticed that a loess smooth through Galton's data\non heights of mid-parents and their offspring exhibited a slightly non-linear\ntrend, and asked whether this might be due to Galton having pooled the heights of\nfathers and mothers and sons and daughters in constructing his tables and graphs.\nTo answer this question, they used analogous data from English families at about the\nsame time, tabulated by Karl Pearson and Alice Lee (1896, 1903), but where the heights\nof parents and children were each classified by gender of the parent."
+   "reference" : "The variables gp, par and chl are provided to allow stratifying\nthe data according to the gender of the father/mother and son/daughter.",
+   "title" : "Pearson and Lee's  data on the heights of parents and children classified by gender",
+   "description" : "Description\nWachsmuth et. al (2003) noticed that a loess smooth through Galton's data\non heights of mid-parents and their offspring exhibited a slightly non-linear\ntrend, and asked whether this might be due to Galton having pooled the heights of\nfathers and mothers and sons and daughters in constructing his tables and graphs.\nTo answer this question, they used analogous data from English families at about the\nsame time, tabulated by Karl Pearson and Alice Lee (1896, 1903), but where the heights\nof parents and children were each classified by gender of the parent.",
+   "parameters" : {
+      "child" : "child height in inches, a numeric vector",
+      "chl" : "a factor with levels Daughter Son",
+      "gp" : "a factor with levels fd fs md ms",
+      "par" : "a factor with levels Father Mother",
+      "frequency" : "a numeric vector",
+      "parent" : "parent height in inches, a numeric vector"
+   },
+   "format" : "A frequency data frame with 746 observations on the following 6 variables."
 }
 
 var PearsonLee = [

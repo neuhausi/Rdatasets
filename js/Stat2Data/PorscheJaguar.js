@@ -1,7 +1,7 @@
 var PorscheJaguarInfo ={
    "description" : "Description\nCompare prices for Porsche and Jaguar cars offered for sale at an internet site",
-   "usage" : "A dataset with 60 observations on the following 5 variables.",
-   "title" : "Porsche and Jaguar Prices"
+   "title" : "Porsche and Jaguar Prices",
+   "usage" : "A dataset with 60 observations on the following 5 variables."
 }
 
 var PorscheJaguar = [

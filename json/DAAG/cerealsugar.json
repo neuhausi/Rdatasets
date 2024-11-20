@@ -106,9 +106,6 @@
                36.8
             ]
          ],
-         "vars" : [
-            "dat"
-         ],
          "smps" : [
             "Smp1",
             "Smp2",
@@ -210,12 +207,15 @@
             "Smp98",
             "Smp99",
             "Smp100"
+         ],
+         "vars" : [
+            "dat"
          ]
       }
    },
    "config" : {
+      "title" : "Percentage of Sugar in Breakfast Cereal",
       "subtitle" : "DAAG - cerealsugar",
-      "graphType" : "Treemap",
-      "title" : "Percentage of Sugar in Breakfast Cereal"
+      "graphType" : "Treemap"
    }
 }

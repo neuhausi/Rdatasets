@@ -1,7 +1,7 @@
 var WeightLossIncentiveInfo ={
    "usage" : "A dataset with 38 observations on the following 3 variables.",
-   "title" : "Do Financial Incentives Improve Weight Loss?",
-   "description" : "Description\nAn experiment to see if financial incentives improve weight loss"
+   "description" : "Description\nAn experiment to see if financial incentives improve weight loss",
+   "title" : "Do Financial Incentives Improve Weight Loss?"
 }
 
 var WeightLossIncentive = [

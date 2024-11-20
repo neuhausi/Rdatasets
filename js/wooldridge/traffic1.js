@@ -1,24 +1,24 @@
 var traffic1Info ={
-   "description" : "Description\nWooldridge Source: I collected these data from two sources, the 1992 Statistical Abstract of the United States (Tables 1009, 1012) and A Digest of State Alcohol-Highway Safety Related Legislation, 1985 and 1990, published by the U.S. National Highway Traffic Safety Administration. Data loads lazily.",
    "usage" : "data('traffic1')",
+   "reference" : "In addition to adding recent years, this data set could really use state-level tax rates on alcohol. Other important law changes include defining driving under the influence as having a blood alcohol level of .08 or more, which many states have adopted since the 1980s. The trend really picked up in the 1990s and continued through the 2000s.",
+   "title" : "traffic1",
+   "description" : "Description\nWooldridge Source: I collected these data from two sources, the 1992 Statistical Abstract of the United States (Tables 1009, 1012) and A Digest of State Alcohol-Highway Safety Related Legislation, 1985 and 1990, published by the U.S. National Highway Traffic Safety Administration. Data loads lazily.",
    "parameters" : {
-      "cspeed" : " speed90 - speed85",
-      "speed90" : " =1 if 65 mph, 1990",
-      "cadmn" : " admn90 - admn85",
       "dthrte85" : " deaths per 100 mill. miles, '85",
-      "speed85" : " =0 always",
+      "dthrte90" : " deaths per 100 mill. miles, '90",
+      "speed90" : " =1 if 65 mph, 1990",
+      "open90" : " =1 if open cont. law, '90",
       "open85" : " =1 if open cont. law, '85",
-      "admn85" : " =1 if admin. revoc., '85",
-      "state" : "",
+      "cdthrte" : " dthrte90 - dthrte85",
       "admn90" : " =1 if admin. revoc., '90",
       "copen" : " open90 - open85",
-      "open90" : " =1 if open cont. law, '90",
-      "cdthrte" : " dthrte90 - dthrte85",
-      "dthrte90" : " deaths per 100 mill. miles, '90"
+      "cspeed" : " speed90 - speed85",
+      "cadmn" : " admn90 - admn85",
+      "speed85" : " =0 always",
+      "admn85" : " =1 if admin. revoc., '85",
+      "state" : ""
    },
-   "format" : "A data.frame with 51 observations on 13 variables:",
-   "title" : "traffic1",
-   "reference" : "In addition to adding recent years, this data set could really use state-level tax rates on alcohol. Other important law changes include defining driving under the influence as having a blood alcohol level of .08 or more, which many states have adopted since the 1980s. The trend really picked up in the 1990s and continued through the 2000s."
+   "format" : "A data.frame with 51 observations on 13 variables:"
 }
 
 var traffic1 = [

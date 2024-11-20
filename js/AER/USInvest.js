@@ -1,14 +1,14 @@
 var USInvestInfo ={
-   "description" : "Description\nTime series data on investments in the US, 1968&ndash;1982.",
-   "usage" : "data(\"USInvest\")",
    "parameters" : {
-      "invest" : "Nominal investment,",
       "interest" : "Interest rate (average yearly discount rate at the New York Federal Reserve Bank).",
       "price" : "Consumer price index,",
+      "invest" : "Nominal investment,",
       "gnp" : "Nominal gross national product,"
    },
-   "reference" : "Online complements to Greene (2003). Table F3.1.",
    "title" : "US Investment Data",
+   "description" : "Description\nTime series data on investments in the US, 1968&ndash;1982.",
+   "reference" : "Online complements to Greene (2003). Table F3.1.",
+   "usage" : "data(\"USInvest\")",
    "format" : "An annual multiple time series from 1968 to 1982 with 4 variables."
 }
 

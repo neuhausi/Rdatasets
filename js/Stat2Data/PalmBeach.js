@@ -1,7 +1,7 @@
 var PalmBeachInfo ={
-   "description" : "Description\nVotes for Geroge Bush and Pat Buchanan in Florida counties for the 2000 U.S. presidential election",
+   "usage" : "A dataset with 67 observations on the following 3 variables.",
    "title" : "Palm Beach Butterfly Ballot",
-   "usage" : "A dataset with 67 observations on the following 3 variables."
+   "description" : "Description\nVotes for Geroge Bush and Pat Buchanan in Florida counties for the 2000 U.S. presidential election"
 }
 
 var PalmBeach = [

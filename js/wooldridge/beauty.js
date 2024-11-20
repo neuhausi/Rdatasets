@@ -1,28 +1,28 @@
 var beautyInfo ={
-   "reference" : "pages 238-239, 265-266",
-   "format" : "A data.frame with 1260 observations on 17 variables:",
-   "title" : "beauty",
    "parameters" : {
-      "female" : " =1 if female",
+      "service" : " =1 if service industry",
+      "educ" : " years of schooling",
+      "exper" : " years of workforce experience",
       "expersq" : " exper^2",
       "lwage" : " log(wage)",
-      "wage" : " hourly wage",
-      "union" : " =1 if union member",
+      "smllcity" : " =1 if live in small city",
       "married" : " =1 if married",
-      "goodhlth" : " =1 if good health",
-      "educ" : " years of schooling",
-      "abvavg" : " =1 if looks >=4",
-      "looks" : " from 1 to 5",
       "black" : " =1 if black",
-      "service" : " =1 if service industry",
-      "south" : " =1 if live in south",
-      "exper" : " years of workforce experience",
-      "belavg" : " =1 if looks <= 2",
+      "abvavg" : " =1 if looks >=4",
       "bigcity" : " =1 if live in big city",
-      "smllcity" : " =1 if live in small city"
+      "wage" : " hourly wage",
+      "south" : " =1 if live in south",
+      "female" : " =1 if female",
+      "goodhlth" : " =1 if good health",
+      "union" : " =1 if union member",
+      "belavg" : " =1 if looks <= 2",
+      "looks" : " from 1 to 5"
    },
+   "description" : "Description\nWooldridge Source: Hamermesh, D.S. and J.E. Biddle (1994), âBeauty and the Labor Market,â American Economic Review 84, 1174-1194. Professor Hamermesh kindly provided me with the data. For manageability, I have included only a subset of the variables, which results in somewhat larger sample sizes than reported for the regressions in the Hamermesh and Biddle paper. Data loads lazily.",
+   "title" : "beauty",
+   "reference" : "pages 238-239, 265-266",
    "usage" : "data('beauty')",
-   "description" : "Description\nWooldridge Source: Hamermesh, D.S. and J.E. Biddle (1994), âBeauty and the Labor Market,â American Economic Review 84, 1174-1194. Professor Hamermesh kindly provided me with the data. For manageability, I have included only a subset of the variables, which results in somewhat larger sample sizes than reported for the regressions in the Hamermesh and Biddle paper. Data loads lazily."
+   "format" : "A data.frame with 1260 observations on 17 variables:"
 }
 
 var beauty = [

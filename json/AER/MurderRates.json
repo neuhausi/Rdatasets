@@ -1,12 +1,4 @@
 {
-   "config" : {
-      "smpOverlays" : [
-         "southern"
-      ],
-      "graphType" : "Heatmap",
-      "title" : "Determinants of Murder Rates in the United States",
-      "subtitle" : "AER - MurderRates"
-   },
    "data" : {
       "y" : {
          "data" : [
@@ -333,15 +325,6 @@
                0.022
             ]
          ],
-         "vars" : [
-            "rate",
-            "convictions",
-            "executions",
-            "time",
-            "income",
-            "lfp",
-            "noncauc"
-         ],
          "smps" : [
             "Smp1",
             "Smp2",
@@ -387,6 +370,15 @@
             "Smp42",
             "Smp43",
             "Smp44"
+         ],
+         "vars" : [
+            "rate",
+            "convictions",
+            "executions",
+            "time",
+            "income",
+            "lfp",
+            "noncauc"
          ]
       },
       "x" : {
@@ -438,5 +430,13 @@
          ]
       }
    },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>MurderRates</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Determinants of Murder Rates in the United States</h2>\n<h3>Description</h3>\n<p>Cross-section data on states in 1950.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(\"MurderRates\")</code></pre>\n<h3>Format</h3>\n<p>A data frame containing 44 observations on 8 variables.\n</p>\n<dl>\n<dt>rate</dt><dd><p>Murder rate per 100,000 (FBI estimate, 1950).</p>\n</dd>\n<dt>convictions</dt><dd><p>Number of convictions divided by number of murders in 1950.</p>\n</dd>\n<dt>executions</dt><dd><p>Average number of executions during 1946&ndash;1950 divided by convictions in 1950.</p>\n</dd>\n<dt>time</dt><dd><p>Median time served (in months) of convicted murderers released in 1951.</p>\n</dd>   \n<dt>income</dt><dd><p>Median family income in 1949 (in 1,000 USD).</p>\n</dd>  \n<dt>lfp</dt><dd><p>Labor force participation rate in 1950 (in percent).</p>\n</dd>\n<dt>noncauc</dt><dd><p>Proportion of population that is non-Caucasian in 1950.</p>\n</dd>\n<dt>southern</dt><dd><p>Factor indicating region.</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>Maddala (2001), Table 8.4, p. 330\n</p>\n<h3>References</h3>\n<p>Maddala, G.S. (2001). <em>Introduction to Econometrics</em>, 3rd ed. New York: John Wiley.\n</p>\n<p>McManus, W.S. (1985). Estimates of the Deterrent Effect of Capital Punishment: \nThe Importance of the Researcher's Prior Beliefs. <em>Journal of Political Economy</em>, \n<b>93</b>, 417&ndash;425.\n</p>\n<p>Stokes, H. (2004). On the Advantage of Using Two or More Econometric Software Systems to Solve the Same Problem.\n<em>Journal of Economic and Social Measurement</em>, <b>29</b>, 307&ndash;320.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>data(\"MurderRates\")\n## Maddala (2001, pp. 331)\nfm_lm &lt;- lm(rate ~ . + I(executions &gt; 0), data = MurderRates)\nsummary(fm_lm)\nmodel &lt;- I(executions &gt; 0) ~ time + income + noncauc + lfp + southern\nfm_lpm &lt;- lm(model, data = MurderRates)\nsummary(fm_lpm)\n## Binomial models. Note: southern coefficient\nfm_logit &lt;- glm(model, data = MurderRates, family = binomial)\nsummary(fm_logit)\nfm_logit2 &lt;- glm(model, data = MurderRates, family = binomial,\n  control = list(epsilon = 1e-15, maxit = 50, trace = FALSE))\nsummary(fm_logit2)\nfm_probit &lt;- glm(model, data = MurderRates, family = binomial(link = \"probit\"))\nsummary(fm_probit)\nfm_probit2 &lt;- glm(model, data = MurderRates , family = binomial(link = \"probit\"),\n  control = list(epsilon = 1e-15, maxit = 50, trace = FALSE))\nsummary(fm_probit2)\n## Explanation: quasi-complete separation\nwith(MurderRates, table(executions &gt; 0, southern))\n</code></pre>\n</main>\n</div>\n"
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>MurderRates</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Determinants of Murder Rates in the United States</h2>\n<h3>Description</h3>\n<p>Cross-section data on states in 1950.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(\"MurderRates\")</code></pre>\n<h3>Format</h3>\n<p>A data frame containing 44 observations on 8 variables.\n</p>\n<dl>\n<dt>rate</dt><dd><p>Murder rate per 100,000 (FBI estimate, 1950).</p>\n</dd>\n<dt>convictions</dt><dd><p>Number of convictions divided by number of murders in 1950.</p>\n</dd>\n<dt>executions</dt><dd><p>Average number of executions during 1946&ndash;1950 divided by convictions in 1950.</p>\n</dd>\n<dt>time</dt><dd><p>Median time served (in months) of convicted murderers released in 1951.</p>\n</dd>   \n<dt>income</dt><dd><p>Median family income in 1949 (in 1,000 USD).</p>\n</dd>  \n<dt>lfp</dt><dd><p>Labor force participation rate in 1950 (in percent).</p>\n</dd>\n<dt>noncauc</dt><dd><p>Proportion of population that is non-Caucasian in 1950.</p>\n</dd>\n<dt>southern</dt><dd><p>Factor indicating region.</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>Maddala (2001), Table 8.4, p. 330\n</p>\n<h3>References</h3>\n<p>Maddala, G.S. (2001). <em>Introduction to Econometrics</em>, 3rd ed. New York: John Wiley.\n</p>\n<p>McManus, W.S. (1985). Estimates of the Deterrent Effect of Capital Punishment: \nThe Importance of the Researcher's Prior Beliefs. <em>Journal of Political Economy</em>, \n<b>93</b>, 417&ndash;425.\n</p>\n<p>Stokes, H. (2004). On the Advantage of Using Two or More Econometric Software Systems to Solve the Same Problem.\n<em>Journal of Economic and Social Measurement</em>, <b>29</b>, 307&ndash;320.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>data(\"MurderRates\")\n## Maddala (2001, pp. 331)\nfm_lm &lt;- lm(rate ~ . + I(executions &gt; 0), data = MurderRates)\nsummary(fm_lm)\nmodel &lt;- I(executions &gt; 0) ~ time + income + noncauc + lfp + southern\nfm_lpm &lt;- lm(model, data = MurderRates)\nsummary(fm_lpm)\n## Binomial models. Note: southern coefficient\nfm_logit &lt;- glm(model, data = MurderRates, family = binomial)\nsummary(fm_logit)\nfm_logit2 &lt;- glm(model, data = MurderRates, family = binomial,\n  control = list(epsilon = 1e-15, maxit = 50, trace = FALSE))\nsummary(fm_logit2)\nfm_probit &lt;- glm(model, data = MurderRates, family = binomial(link = \"probit\"))\nsummary(fm_probit)\nfm_probit2 &lt;- glm(model, data = MurderRates , family = binomial(link = \"probit\"),\n  control = list(epsilon = 1e-15, maxit = 50, trace = FALSE))\nsummary(fm_probit2)\n## Explanation: quasi-complete separation\nwith(MurderRates, table(executions &gt; 0, southern))\n</code></pre>\n</main>\n</div>\n",
+   "config" : {
+      "subtitle" : "AER - MurderRates",
+      "title" : "Determinants of Murder Rates in the United States",
+      "graphType" : "Heatmap",
+      "smpOverlays" : [
+         "southern"
+      ]
+   }
 }

@@ -1,15 +1,15 @@
 var intersaltInfo ={
-   "usage" : "intersalt",
-   "description" : "Description\nMedian blood pressure, as a fuction of salt intake, for each of 52\nhuman populations.",
-   "title" : "Blood pressure versus Salt; inter-population data",
-   "format" : "A data frame with 52 observations on the following 4 variables.",
-   "reference" : "For each population took a sample of 25 males and 25 females from each\ndecade in the age range 20 - 50, i.e. 200 individuals in all.",
    "parameters" : {
-      "country" : "a character vector",
       "bp" : "mean diastolic blood pressure (mm Hg)",
-      "b" : "a numeric vector",
-      "na" : "mean sodium excretion (mmol/24h)"
-   }
+      "country" : "a character vector",
+      "na" : "mean sodium excretion (mmol/24h)",
+      "b" : "a numeric vector"
+   },
+   "title" : "Blood pressure versus Salt; inter-population data",
+   "description" : "Description\nMedian blood pressure, as a fuction of salt intake, for each of 52\nhuman populations.",
+   "usage" : "intersalt",
+   "reference" : "For each population took a sample of 25 males and 25 females from each\ndecade in the age range 20 - 50, i.e. 200 individuals in all.",
+   "format" : "A data frame with 52 observations on the following 4 variables."
 }
 
 var intersalt = [

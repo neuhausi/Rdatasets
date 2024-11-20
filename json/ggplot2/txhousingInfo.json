@@ -1,0 +1,15 @@
+{
+   "parameters" : {
+      "year,month,date" : "Date",
+      "sales" : "Number of sales",
+      "listings" : "Total active listings",
+      "volume" : "Total value of sales",
+      "median" : "Median sale price",
+      "inventory" : "\"Months inventory\": amount of time it would take to sell\nall current listings at current pace of sales.",
+      "city" : "Name of multiple listing service (MLS) area"
+   },
+   "usage" : "txhousing",
+   "description" : "Description\nInformation about the housing market in Texas provided by the TAMU\nreal estate center, https://trerc.tamu.edu/.",
+   "title" : "Housing sales in TX",
+   "format" : "A data frame with 8602 observations and 9 variables:"
+}

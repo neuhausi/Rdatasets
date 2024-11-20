@@ -1,0 +1,6 @@
+{
+   "title" : "Credit data",
+   "description" : "Description\nThese data are from the website of Dr. LluÃ­s A. Belanche MuÃ±oz by way of a\ngithub repository of Dr. Gaston Sanchez. One data point is a missing outcome\nwas removed from the original data.",
+   "usage" : "credit_data\n\na data frame",
+   "format" : "https://github.com/gastonstat/CreditScoring,\nhttp://bit.ly/2kkBFrk"
+}

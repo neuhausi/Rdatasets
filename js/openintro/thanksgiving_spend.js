@@ -1,12 +1,12 @@
 var thanksgiving_spendInfo ={
-   "description" : "Description\nThis entry gives simulated spending data for Americans during Thanksgiving\nin 2009 based on findings of a Gallup poll.",
-   "usage" : "thanksgiving_spend",
+   "format" : "A data frame with 436 observations on the following 1 variable.",
    "parameters" : {
       "spending" : "Amount of spending, in US dollars."
    },
+   "title" : "Thanksgiving spending, simulated based on Gallup poll.",
+   "description" : "Description\nThis entry gives simulated spending data for Americans during Thanksgiving\nin 2009 based on findings of a Gallup poll.",
    "reference" : "library(ggplot2)\n\nggplot(thanksgiving_spend, aes(x = spending)) +\n  geom_histogram(binwidth = 20)",
-   "format" : "A data frame with 436 observations on the following 1 variable.",
-   "title" : "Thanksgiving spending, simulated based on Gallup poll."
+   "usage" : "thanksgiving_spend"
 }
 
 var thanksgiving_spend = [

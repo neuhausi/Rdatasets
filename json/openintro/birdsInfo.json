@@ -1,0 +1,26 @@
+{
+   "format" : "A data frame with 19302 observations on the following 17 variables.",
+   "usage" : "birds",
+   "reference" : "The FAA National Wildlife Strike Database contains strike reports that are\nvoluntarily reported to the FAA by pilots, airlines, airports and others.\nCurrent research indicates that only about 20\\\nWildlife strike reporting is not uniform as some organizations have more\nrobust voluntary reporting procedures. Because of variations in reporting,\nusers are cautioned that the comparisons between individual airports or\nairlines may be misleading.",
+   "description" : "Description\nA collection of all collisions between aircraft in wildlife that were\nreported to the US Federal Aviation Administration between 1990 and 1997,\nwith details on the circumstances of the collision.",
+   "title" : "Aircraft-Wildlife Collisions",
+   "parameters" : {
+      "remarks" : "Verbal remarks regarding the collision.",
+      "height" : "Feet above ground level.",
+      "opid" : "Three letter identification code for the operator (carrier) of the aircraft.",
+      "date" : "Date of the collision (MM/DD/YYYY).",
+      "atype" : "Make and model of aircraft.",
+      "time_of_day" : "Light conditions: Dawn, Day, Dusk, Night.",
+      "operator" : "Name of the aircraft operator.",
+      "num_engs" : "Number of engines on the aircraft.",
+      "species" : "Common name for bird or other wildlife.",
+      "state" : "Two letter abbreviation of the US state in which the collision occurred.",
+      "sky" : "Type of cloud cover, if any: No Cloud, Overcast, Some Cloud.",
+      "phase_of_flt" : "Phase of the flight during which the collision occurred: Approach, Climb, Descent, En Route, Landing Roll, Parked, Take-off run, Taxi.",
+      "birds_seen" : "Number of birds/wildlife seen by pilot: 1, 2-10, 11-100, Over 100.",
+      "birds_struck" : "Number of birds/wildlife struck: 0, 1, 2-10, 11-100, Over 100.",
+      "ac_mass" : "Mass of the aircraft classified as 2250 kg or less (1), 2251-5700 kg (2), 5701-27000 kg (3), 27001-272000 kg (4), above 272000 kg (5).",
+      "effect" : "Effect on flight: Aborted Take-off, Engine Shut Down, None, Other, Precautionary Landing.",
+      "speed" : "Knots (indicated air speed)."
+   }
+}

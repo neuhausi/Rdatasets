@@ -1,6 +1,6 @@
 var Blood1Info ={
-   "title" : "Blood Pressure, Weight, and Smoking Status",
    "usage" : "A data frame with 500 observations on the following 3 variables.",
+   "title" : "Blood Pressure, Weight, and Smoking Status",
    "description" : "Description\nSystolic blood pressure, weight and smoking status for a sample of 500 adults"
 }
 

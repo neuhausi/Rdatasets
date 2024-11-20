@@ -1,17 +1,17 @@
 var nycInfo ={
-   "usage" : "nyc",
-   "description" : "Description\nZagat is a public survey where anyone can provide scores to a restaurant.\nThe scores from the general public are then gathered to produce ratings.\nThis dataset contains a list of 168 NYC restaurants and their Zagat Ratings.",
-   "title" : "nyc",
-   "format" : "A data frame with 168 observations on the following 6 variables.",
-   "reference" : "For each category the scales are as follows:",
    "parameters" : {
+      "service" : "Zagat rating for service.",
       "price" : "Price of a mean for two, with drinks, in US $.",
-      "food" : "Zagat rating for food.",
-      "restaurant" : "Name of the restaurant.",
-      "decor" : "Zagat rating for decor.",
       "east" : "Indicator variable for location of the restaurant. 0 = west of 5th Avenue, 1 = east of 5th Avenue",
-      "service" : "Zagat rating for service."
-   }
+      "food" : "Zagat rating for food.",
+      "decor" : "Zagat rating for decor.",
+      "restaurant" : "Name of the restaurant."
+   },
+   "usage" : "nyc",
+   "reference" : "For each category the scales are as follows:",
+   "title" : "nyc",
+   "description" : "Description\nZagat is a public survey where anyone can provide scores to a restaurant.\nThe scores from the general public are then gathered to produce ratings.\nThis dataset contains a list of 168 NYC restaurants and their Zagat Ratings.",
+   "format" : "A data frame with 168 observations on the following 6 variables."
 }
 
 var nyc = [

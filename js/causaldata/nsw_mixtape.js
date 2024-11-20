@@ -1,22 +1,22 @@
 var nsw_mixtapeInfo ={
-   "description" : "Description\nData from the National Supported Work Demonstration (NSW) job-training program experiment, where those treated were guaranteed a job for 9-18 months.",
-   "usage" : "nsw_mixtape",
    "parameters" : {
+      "treat" : "In the National Supported Work Demonstration Job Training Program",
+      "nodegree" : "Has no degree",
+      "hisp" : "Ethnicity: Hispanic",
+      "re75" : "Real earnings 1975",
       "black" : "Race: Black",
       "re78" : "Real earnings 1978",
-      "marr" : "Married",
-      "nodegree" : "Has no degree",
-      "data_id" : "Individual ID",
-      "re74" : "Real earnings 1974",
-      "educ" : "Years of education",
-      "hisp" : "Ethnicity: Hispanic",
       "age" : "Age in years",
-      "treat" : "In the National Supported Work Demonstration Job Training Program",
-      "re75" : "Real earnings 1975"
+      "marr" : "Married",
+      "educ" : "Years of education",
+      "data_id" : "Individual ID",
+      "re74" : "Real earnings 1974"
    },
-   "format" : "A data frame with 445 rows and 11 variables",
+   "description" : "Description\nData from the National Supported Work Demonstration (NSW) job-training program experiment, where those treated were guaranteed a job for 9-18 months.",
    "title" : "Data from the National Supported Work Demonstration (NSW) job-training program",
-   "reference" : "This data is used in the Matching and Subclassification chapter of Causal Inference: The Mixtape by Cunningham."
+   "reference" : "This data is used in the Matching and Subclassification chapter of Causal Inference: The Mixtape by Cunningham.",
+   "usage" : "nsw_mixtape",
+   "format" : "A data frame with 445 rows and 11 variables"
 }
 
 var nsw_mixtape = [

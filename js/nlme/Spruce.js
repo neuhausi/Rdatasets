@@ -1,14 +1,14 @@
 var SpruceInfo ={
-   "reference" : "Diggle, Liang, and Zeger (1994, Example 1.3, page 5)\ndescribe data on the growth of spruce trees that have been exposed to\nan ozone-rich atmosphere or to a normal atmosphere.",
-   "title" : "Growth of Spruce Trees",
-   "usage" : "This data frame contains the following columns:",
    "parameters" : {
       "Tree" : "a factor giving a unique identifier for each tree.",
+      "days" : "a numeric vector giving the number of days since the\nbeginning of the experiment.",
       "plot" : "a factor identifying the plot in which the tree was grown.",
-      "logSize" : "a numeric vector giving the logarithm of an estimate of the\nvolume of the tree trunk.",
-      "days" : "a numeric vector giving the number of days since the\nbeginning of the experiment."
+      "logSize" : "a numeric vector giving the logarithm of an estimate of the\nvolume of the tree trunk."
    },
-   "description" : "Description\nThe Spruce data frame has 1027 rows and 4 columns."
+   "reference" : "Diggle, Liang, and Zeger (1994, Example 1.3, page 5)\ndescribe data on the growth of spruce trees that have been exposed to\nan ozone-rich atmosphere or to a normal atmosphere.",
+   "usage" : "This data frame contains the following columns:",
+   "description" : "Description\nThe Spruce data frame has 1027 rows and 4 columns.",
+   "title" : "Growth of Spruce Trees"
 }
 
 var Spruce = [

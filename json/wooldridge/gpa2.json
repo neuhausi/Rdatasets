@@ -1,11 +1,26 @@
 {
    "config" : {
-      "title" : "gpa2",
       "graphType" : "Heatmap",
+      "title" : "gpa2",
       "subtitle" : "wooldridge - gpa2"
    },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>gpa2</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>gpa2</h2>\n<h3>Description</h3>\n<p>Wooldridge Source: For confidentiality reasons, I cannot provide the source of these data. I can say that Data loads lazily.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data('gpa2')\n</code></pre>\n<h3>Format</h3>\n<p>A data.frame with 4137 observations on 12 variables:\n</p>\n<ul>\n<li> <p><strong>sat:</strong> combined SAT score\n</p>\n</li>\n<li> <p><strong>tothrs:</strong> total hours through fall semest\n</p>\n</li>\n<li> <p><strong>colgpa:</strong> GPA after fall semester\n</p>\n</li>\n<li> <p><strong>athlete:</strong> =1 if athlete\n</p>\n</li>\n<li> <p><strong>verbmath:</strong> verbal/math SAT score\n</p>\n</li>\n<li> <p><strong>hsize:</strong> size grad. class, 100s\n</p>\n</li>\n<li> <p><strong>hsrank:</strong> rank in grad. class\n</p>\n</li>\n<li> <p><strong>hsperc:</strong> high school percentile, from top\n</p>\n</li>\n<li> <p><strong>female:</strong> =1 if female\n</p>\n</li>\n<li> <p><strong>white:</strong> =1 if white\n</p>\n</li>\n<li> <p><strong>black:</strong> =1 if black\n</p>\n</li>\n<li> <p><strong>hsizesq:</strong> hsize^2\n</p>\n</li></ul>\n<h3>Used in Text</h3>\n<p>pages 106, 184, 208-209, 210-211, 221, 259, 262-263\n</p>\n<p>they come from a midsize research university that also supports menâs and womenâs athletics at the Division I level.\n</p>\n<h3>Source</h3>\n<p><a href=\"https://www.cengage.com/cgi-wadsworth/course_products_wp.pl?fid=M20b&amp;product_isbn_issn=9781111531041\">https://www.cengage.com/cgi-wadsworth/course_products_wp.pl?fid=M20b&amp;product_isbn_issn=9781111531041</a>\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'> str(gpa2)\n</code></pre>\n</main>\n</div>\n",
    "data" : {
       "y" : {
+         "vars" : [
+            "sat",
+            "tothrs",
+            "colgpa",
+            "athlete",
+            "verbmath",
+            "hsize",
+            "hsrank",
+            "hsperc",
+            "female",
+            "white",
+            "black",
+            "hsizesq"
+         ],
          "data" : [
             [
                920,
@@ -49676,20 +49691,6 @@
                9.79689979553223
             ]
          ],
-         "vars" : [
-            "sat",
-            "tothrs",
-            "colgpa",
-            "athlete",
-            "verbmath",
-            "hsize",
-            "hsrank",
-            "hsperc",
-            "female",
-            "white",
-            "black",
-            "hsizesq"
-         ],
          "smps" : [
             "Smp1",
             "Smp2",
@@ -53830,6 +53831,5 @@
             "Smp4137"
          ]
       }
-   },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>gpa2</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>gpa2</h2>\n<h3>Description</h3>\n<p>Wooldridge Source: For confidentiality reasons, I cannot provide the source of these data. I can say that Data loads lazily.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data('gpa2')\n</code></pre>\n<h3>Format</h3>\n<p>A data.frame with 4137 observations on 12 variables:\n</p>\n<ul>\n<li> <p><strong>sat:</strong> combined SAT score\n</p>\n</li>\n<li> <p><strong>tothrs:</strong> total hours through fall semest\n</p>\n</li>\n<li> <p><strong>colgpa:</strong> GPA after fall semester\n</p>\n</li>\n<li> <p><strong>athlete:</strong> =1 if athlete\n</p>\n</li>\n<li> <p><strong>verbmath:</strong> verbal/math SAT score\n</p>\n</li>\n<li> <p><strong>hsize:</strong> size grad. class, 100s\n</p>\n</li>\n<li> <p><strong>hsrank:</strong> rank in grad. class\n</p>\n</li>\n<li> <p><strong>hsperc:</strong> high school percentile, from top\n</p>\n</li>\n<li> <p><strong>female:</strong> =1 if female\n</p>\n</li>\n<li> <p><strong>white:</strong> =1 if white\n</p>\n</li>\n<li> <p><strong>black:</strong> =1 if black\n</p>\n</li>\n<li> <p><strong>hsizesq:</strong> hsize^2\n</p>\n</li></ul>\n<h3>Used in Text</h3>\n<p>pages 106, 184, 208-209, 210-211, 221, 259, 262-263\n</p>\n<p>they come from a midsize research university that also supports menâs and womenâs athletics at the Division I level.\n</p>\n<h3>Source</h3>\n<p><a href=\"https://www.cengage.com/cgi-wadsworth/course_products_wp.pl?fid=M20b&amp;product_isbn_issn=9781111531041\">https://www.cengage.com/cgi-wadsworth/course_products_wp.pl?fid=M20b&amp;product_isbn_issn=9781111531041</a>\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'> str(gpa2)\n</code></pre>\n</main>\n</div>\n"
+   }
 }

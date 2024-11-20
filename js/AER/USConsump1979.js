@@ -1,9 +1,9 @@
 var USConsump1979Info ={
-   "usage" : "data(\"USConsump1979\")",
-   "description" : "Description\nTime series data on US income and consumption expenditure, 1970&ndash;1979.",
-   "title" : "US Consumption Data (1970&ndash;1979)",
    "format" : "An annual multiple time series from 1970 to 1979 with 2 variables.",
+   "title" : "US Consumption Data (1970&ndash;1979)",
+   "description" : "Description\nTime series data on US income and consumption expenditure, 1970&ndash;1979.",
    "reference" : "Online complements to Greene (2003). Table F1.1.",
+   "usage" : "data(\"USConsump1979\")",
    "parameters" : {
       "income" : "Disposable income.",
       "expenditure" : "Consumption expenditure."

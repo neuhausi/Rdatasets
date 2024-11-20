@@ -1,8 +1,8 @@
 {
    "config" : {
-      "graphType" : "Treemap",
       "title" : "Age at first marriage of 5",
-      "subtitle" : "openintro - age_at_mar"
+      "subtitle" : "openintro - age_at_mar",
+      "graphType" : "Treemap"
    },
    "data" : {
       "y" : {

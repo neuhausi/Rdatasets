@@ -1,8 +1,8 @@
 var pressureInfo ={
-   "usage" : "pressure",
-   "title" : "Vapor Pressure of Mercury as a Function of Temperature",
    "format" : "A data frame with 19 observations on 2 variables.",
-   "description" : "Description\nData on the relation between temperature in degrees Celsius and vapor\npressure of mercury in millimeters (of mercury)."
+   "usage" : "pressure",
+   "description" : "Description\nData on the relation between temperature in degrees Celsius and vapor\npressure of mercury in millimeters (of mercury).",
+   "title" : "Vapor Pressure of Mercury as a Function of Temperature"
 }
 
 var pressure = [

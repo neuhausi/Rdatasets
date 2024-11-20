@@ -1,21 +1,21 @@
 var lbwInfo ={
-   "reference" : "lbw is saved as a data frame.\nCount models can use ftv as a response variable, or convert it to grouped format",
-   "title" : "lbw",
    "format" : "A data frame with 189 observations on the following 10 variables.",
-   "parameters" : {
-      "smoke" : "1=history of mother smoking; 0=mother nonsmoker",
-      "ftv" : "number of physician visits in 1st trimester: 0-6",
-      "ui" : "1=uterine irritability; 0 no irritability",
-      "race" : "categorical 1-3: 1=white; 2-=black; 3=other",
-      "low" : "1=low birthweight baby; 0=norml weight",
-      "lwt" : "weight (lbs) at last menstrual period: 80-250 lbs",
-      "ptl" : "number of false of premature labors: 0-3",
-      "bwt" : "birth weight in grams: 709 - 4990 gr",
-      "ht" : "1=history of hypertension; 0 =no hypertension",
-      "age" : "age of mother: 14-45"
-   },
+   "description" : "Description\nThe data come to us from Hosmer and Lemeshow (2000). Called the low \nbirth weight (lbw) data, the response is a binary variable, low, \nwhich indicates whether the birth weight of a baby is under 2500g \n(low=1), or over (low=0).",
+   "title" : "lbw",
+   "reference" : "lbw is saved as a data frame.\nCount models can use ftv as a response variable, or convert it to grouped format",
    "usage" : "data(lbw)",
-   "description" : "Description\nThe data come to us from Hosmer and Lemeshow (2000). Called the low \nbirth weight (lbw) data, the response is a binary variable, low, \nwhich indicates whether the birth weight of a baby is under 2500g \n(low=1), or over (low=0)."
+   "parameters" : {
+      "ht" : "1=history of hypertension; 0 =no hypertension",
+      "ui" : "1=uterine irritability; 0 no irritability",
+      "ftv" : "number of physician visits in 1st trimester: 0-6",
+      "ptl" : "number of false of premature labors: 0-3",
+      "lwt" : "weight (lbs) at last menstrual period: 80-250 lbs",
+      "race" : "categorical 1-3: 1=white; 2-=black; 3=other",
+      "bwt" : "birth weight in grams: 709 - 4990 gr",
+      "low" : "1=low birthweight baby; 0=norml weight",
+      "smoke" : "1=history of mother smoking; 0=mother nonsmoker",
+      "age" : "age of mother: 14-45"
+   }
 }
 
 var lbw = [

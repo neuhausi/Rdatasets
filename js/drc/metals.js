@@ -1,13 +1,13 @@
 var metalsInfo ={
    "description" : "Description\nData are from a study of the response of the cyanobacterial self-luminescent metallothionein-based whole-cell biosensor Synechoccocus elongatus PCC 7942 pBG2120 to binary mixtures of 6 heavy metals (Zn, Cu, Cd, Ag, Co and Hg).",
+   "title" : "Data from heavy metal mixture experiments",
+   "reference" : "Data are from the study described by Martin-Betancor et al. (2015).",
    "usage" : "data(\"metals\")",
    "parameters" : {
       "metal" : "a factor with levels Ag AgCd Cd Co CoAg CoCd Cu CuAg CuCd CuCo CuHg CuZn Hg HgCd HgCo Zn ZnAg ZnCd ZnCo ZnHg",
-      "conc" : "a numeric vector of concentrations",
-      "BIF" : "a numeric vector of luminescence induction factors"
+      "BIF" : "a numeric vector of luminescence induction factors",
+      "conc" : "a numeric vector of concentrations"
    },
-   "title" : "Data from heavy metal mixture experiments",
-   "reference" : "Data are from the study described by Martin-Betancor et al. (2015).",
    "format" : "A data frame with 543 observations on the following 3 variables."
 }
 

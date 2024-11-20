@@ -1,16 +1,16 @@
 var BudgetFoodInfo ={
-   "description" : "Description\na cross-section from 1980\nnumber of observations :  23972\nobservation :  households\ncountry :  Spain",
-   "usage" : "data(BudgetFood)",
-   "parameters" : {
-      "town" : "size of the town where the household is \nplaced  categorized into 5 groups: 1 for \nsmall towns, 5 for big ones",
-      "size" : "size of the household",
-      "age" : "age of reference person in the household",
-      "wfood" : "percentage of total expenditure which the household has spent on food",
-      "totexp" : "total expenditure of the household",
-      "sex" : "sex of reference person (man,woman)"
-   },
    "reference" : "Delgado, A.  and  Juan  Mora (1998) &ldquo;Testing non&ndash;nested semiparametric models : an application to Engel curves specification&rdquo;, Journal of Applied Econometrics, 13(2), 145&ndash;162.",
+   "usage" : "data(BudgetFood)",
    "title" : "Budget Share of Food for Spanish Households",
+   "description" : "Description\na cross-section from 1980\nnumber of observations :  23972\nobservation :  households\ncountry :  Spain",
+   "parameters" : {
+      "totexp" : "total expenditure of the household",
+      "sex" : "sex of reference person (man,woman)",
+      "size" : "size of the household",
+      "town" : "size of the town where the household is \nplaced  categorized into 5 groups: 1 for \nsmall towns, 5 for big ones",
+      "age" : "age of reference person in the household",
+      "wfood" : "percentage of total expenditure which the household has spent on food"
+   },
    "format" : "A dataframe containing :"
 }
 

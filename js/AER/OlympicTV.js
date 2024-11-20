@@ -1,13 +1,13 @@
 var OlympicTVInfo ={
-   "usage" : "data(\"OlympicTV\")",
    "description" : "Description\nTelevision rights for Olympic Games for US networks (in millions USD).",
-   "format" : "A data frame with 10 observations and 2 variables.",
    "title" : "Television Rights for Olympic Games",
+   "usage" : "data(\"OlympicTV\")",
    "reference" : "Online complements to Franses (1998).",
    "parameters" : {
-      "network" : "factor coding television network.",
-      "rights" : "time series of television rights (in million USD),"
-   }
+      "rights" : "time series of television rights (in million USD),",
+      "network" : "factor coding television network."
+   },
+   "format" : "A data frame with 10 observations and 2 variables."
 }
 
 var OlympicTV = [

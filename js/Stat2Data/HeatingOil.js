@@ -1,13 +1,13 @@
 var HeatingOilInfo ={
-   "usage" : "A data frame with 408 observations on the following 4 variables.",
-   "reference" : "U.S. residential consumption of distillate fuel oil each month from January 1983 through December 2016.",
-   "title" : "Heating Oil Consumption",
    "parameters" : {
+      "Year" : "Year (1983 to 2016)",
       "t" : "Time index (1 to 408)",
       "FuelOil" : "Residential consumption of fuel oil (in 1,000 barrels/day)",
-      "Year" : "Year (1983 to 2016)",
       "Month" : "Month (1=Jan through 12=Dec)"
    },
+   "reference" : "U.S. residential consumption of distillate fuel oil each month from January 1983 through December 2016.",
+   "usage" : "A data frame with 408 observations on the following 4 variables.",
+   "title" : "Heating Oil Consumption",
    "description" : "Description\nMonthly US residential consumption of fuel oil (1983-2016)"
 }
 

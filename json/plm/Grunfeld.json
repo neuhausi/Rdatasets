@@ -1,12 +1,19 @@
 {
    "config" : {
-      "graphType" : "Scatter2D",
-      "title" : "Grunfeld's Investment Data",
+      "subtitle" : "plm - Grunfeld",
       "scatterPlotMatrix" : 1,
-      "subtitle" : "plm - Grunfeld"
+      "title" : "Grunfeld's Investment Data",
+      "graphType" : "Scatter2D"
    },
    "data" : {
       "y" : {
+         "smps" : [
+            "firm",
+            "year",
+            "inv",
+            "value",
+            "capital"
+         ],
          "data" : [
             [
                1,
@@ -1610,13 +1617,6 @@
             "Var198",
             "Var199",
             "Var200"
-         ],
-         "smps" : [
-            "firm",
-            "year",
-            "inv",
-            "value",
-            "capital"
          ]
       }
    },

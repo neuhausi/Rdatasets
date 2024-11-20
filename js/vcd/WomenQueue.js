@@ -1,8 +1,8 @@
 var WomenQueueInfo ={
-   "description" : "Description\nData from Jinkinson & Slater (1981) and Hoaglin & Tukey (1985)\nreporting the frequency distribution of females in 100 queues of\nlength 10 in a London Underground station.",
    "usage" : "data(\"WomenQueue\")",
-   "format" : "A 1-way table giving the number of women in 100 queues of length\n10.  The variable and its levels are",
-   "title" : "Women in Queues"
+   "title" : "Women in Queues",
+   "description" : "Description\nData from Jinkinson & Slater (1981) and Hoaglin & Tukey (1985)\nreporting the frequency distribution of females in 100 queues of\nlength 10 in a London Underground station.",
+   "format" : "A 1-way table giving the number of women in 100 queues of length\n10.  The variable and its levels are"
 }
 
 var WomenQueue = [

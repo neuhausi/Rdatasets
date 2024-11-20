@@ -1,18 +1,18 @@
 var shipsInfo ={
-   "title" : "ships",
-   "format" : "A data frame with 40 observations on the following 7 variables.",
-   "reference" : "ships is saved as a data frame.\nCount models use accident as the response variable, with log(service) as the \noffset. ship can be used as a panel identifier.",
    "parameters" : {
       "op" : "1=ship operated 1975-1979;0=1965-74",
-      "co.65.69" : "ship was in construction 1965-1969 (1/0)",
+      "co.75.79" : "ship was in construction 1975-1979 (1/0)",
       "co.70.74" : "ship was in construction 1970-1974 (1/0)",
-      "ship" : "ship identification : 1-5",
       "service" : "months in service",
       "accident" : "number of shipping accidents",
-      "co.75.79" : "ship was in construction 1975-1979 (1/0)"
+      "ship" : "ship identification : 1-5",
+      "co.65.69" : "ship was in construction 1965-1969 (1/0)"
    },
    "usage" : "data(ships)",
-   "description" : "Description\nData set used in McCullagh & Nelder (1989), Hardin & Hilbe (2003), \nand other sources. The data contains values on the number of reported \naccidents for ships belonging to a company over a given time period. \nWhen a ship was constructed is also recorded."
+   "reference" : "ships is saved as a data frame.\nCount models use accident as the response variable, with log(service) as the \noffset. ship can be used as a panel identifier.",
+   "title" : "ships",
+   "description" : "Description\nData set used in McCullagh & Nelder (1989), Hardin & Hilbe (2003), \nand other sources. The data contains values on the number of reported \naccidents for ships belonging to a company over a given time period. \nWhen a ship was constructed is also recorded.",
+   "format" : "A data frame with 40 observations on the following 7 variables."
 }
 
 var ships = [

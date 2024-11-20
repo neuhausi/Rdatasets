@@ -1,21 +1,21 @@
 var WordsWithFriendsInfo ={
-   "description" : "Description\nResults from the online game Words with Friends (solo play)",
    "parameters" : {
+      "OppPoints" : "Number of points scored by opponent (\"solo\")",
+      "X" : "Did the author get the X tile? (1=yes, 0=no)",
+      "J" : "Did the author get the J tile? (1=yes, 0=no)",
+      "Z" : "Did the author get the Z tile? (1=yes, 0=no)",
+      "Q" : "Did the author get the Q tile? (1=yes, 0=no)",
+      "BlanksNumber" : "Number of Blank tiles (0 to 2)",
+      "Start" : "Did the author go first or pass? (first or pass)",
       "Ss" : "Number of S tiles (0 to 5)",
       "Blanks" : "Number of Blank tiles (0blanks, 1blank, or 2blanks)",
-      "Z" : "Did the author get the Z tile? (1=yes, 0=no)",
-      "Start" : "Did the author go first or pass? (first or pass)",
-      "BlanksNumber" : "Number of Blank tiles (0 to 2)",
-      "OppPoints" : "Number of points scored by opponent (\"solo\")",
-      "Q" : "Did the author get the Q tile? (1=yes, 0=no)",
-      "J" : "Did the author get the J tile? (1=yes, 0=no)",
-      "X" : "Did the author get the X tile? (1=yes, 0=no)",
-      "Points" : "Number of points scored by the author",
-      "WinMargin" : "Points minus OppPoints, so margin of victory (or loss)"
+      "WinMargin" : "Points minus OppPoints, so margin of victory (or loss)",
+      "Points" : "Number of points scored by the author"
    },
-   "title" : "Words with Friends Scores",
+   "usage" : "A data frame with 444 observations on the following 11 variables.",
    "reference" : "Results collected from one of the authors playing the \"solo\" mode of Words with Friends.",
-   "usage" : "A data frame with 444 observations on the following 11 variables."
+   "description" : "Description\nResults from the online game Words with Friends (solo play)",
+   "title" : "Words with Friends Scores"
 }
 
 var WordsWithFriends = [

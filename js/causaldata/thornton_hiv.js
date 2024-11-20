@@ -1,18 +1,18 @@
 var thornton_hivInfo ={
-   "format" : "A data frame with 4820 rows and 7 variables",
-   "title" : "Data from HIV information experiment in Thornton (2008)",
-   "reference" : "This data is used in the Potential Outcomes Causal Model chapter of Causal Inference: The Mixtape by Cunningham.",
    "parameters" : {
-      "tinc" : "Total incentive",
-      "age" : "Age",
       "got" : "Got HIV results",
       "hiv2004" : "HIV results",
-      "distvct" : "Distance in kilometers",
       "any" : "Received any incentive",
+      "tinc" : "Total incentive",
+      "age" : "Age",
+      "distvct" : "Distance in kilometers",
       "villnum" : "Village ID"
    },
+   "title" : "Data from HIV information experiment in Thornton (2008)",
+   "description" : "Description\nthornton_hiv comes from an experiment in Malawi looking at whether cash incentives could encourage people to learn the results of their HIV tests.",
    "usage" : "thornton_hiv",
-   "description" : "Description\nthornton_hiv comes from an experiment in Malawi looking at whether cash incentives could encourage people to learn the results of their HIV tests."
+   "reference" : "This data is used in the Potential Outcomes Causal Model chapter of Causal Inference: The Mixtape by Cunningham.",
+   "format" : "A data frame with 4820 rows and 7 variables"
 }
 
 var thornton_hiv = [

@@ -1,14 +1,44 @@
 {
    "config" : {
-      "subtitle" : "DAAG - nihills",
-      "colorBy" : null,
-      "title" : "Record times for Northern Ireland mountain running events",
       "graphType" : "Scatter2D",
+      "colorBy" : null,
+      "subtitle" : "DAAG - nihills",
+      "title" : "Record times for Northern Ireland mountain running events",
       "scatterPlotMatrix" : 1
    },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>nihills</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Record times for Northern Ireland mountain running events</h2>\n<h3>Description</h3>\n<p>Data were from the 2007 calendar for the Northern Ireland Mountain\nRunning Association.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(nihills)\ndata(lognihills)\n</code></pre>\n<h3>Format</h3>\n<p>A data frame with 23 observations on the following 4 variables.\n</p>\n<dl>\n<dt><code>dist</code></dt><dd><p>distances in miles</p>\n</dd>\n<dt><code>climb</code></dt><dd><p>amount of climb in feet</p>\n</dd>\n<dt><code>time</code></dt><dd><p>record time in hours for males</p>\n</dd>\n<dt><code>timef</code></dt><dd><p>record time in hours for females</p>\n</dd>\n<dt><code>logdist</code></dt><dd><p>distances, log(miles)</p>\n</dd>\n<dt><code>logclimb</code></dt><dd><p>climb, log(feet)</p>\n</dd>\n<dt><code>logtime</code></dt><dd><p>record time for males, log(hours)</p>\n</dd>\n<dt><code>logtimef</code></dt><dd><p>record time for females, log(hours)</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>These data make an interesting comparison with the dataset\n<code>hills2000</code> in the DAAG package.</p>\n<h3>Source</h3>\n<p>For more recent information, see\n<a href=\"https://www.nimra.org.uk/index.php/fixtures/\">https://www.nimra.org.uk/index.php/fixtures/</a>\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>data(nihills)\nlm(formula = log(time) ~ log(dist) + log(climb), data = nihills)\nlm(formula = log(time) ~ log(dist) + log(climb/dist), data = nihills)\nlm(formula = logtime ~ logdist + I(logclimb-logdist), data = lognihills)\n</code></pre>\n</main>\n</div>\n",
    "data" : {
       "y" : {
+         "vars" : [
+            "Binevenagh",
+            "Slieve Gullion",
+            "Glenariff Mountain",
+            "Donard & Commedagh",
+            "McVeigh Classic",
+            "Tollymore Mountain",
+            "Slieve Martin",
+            "Moughanmore",
+            "Hen & Cock",
+            "Annalong Horseshoe",
+            "Monument Race",
+            "Loughshannagh Horseshoe",
+            "Rocky",
+            "Meelbeg Meelmore",
+            "Donard Forest",
+            "Slieve Donard",
+            "Flagstaff to Carling",
+            "Slieve Bearnagh",
+            "Seven Sevens",
+            "Lurig Challenge",
+            "Scrabo Hill Race",
+            "Slieve Gallion",
+            "BARF Turkey Trot"
+         ],
+         "smps" : [
+            "dist",
+            "climb",
+            "time",
+            "timef"
+         ],
          "data" : [
             [
                7.5,
@@ -148,38 +178,8 @@
                0.713055555555556,
                0.938333333333333
             ]
-         ],
-         "vars" : [
-            "Binevenagh",
-            "Slieve Gullion",
-            "Glenariff Mountain",
-            "Donard & Commedagh",
-            "McVeigh Classic",
-            "Tollymore Mountain",
-            "Slieve Martin",
-            "Moughanmore",
-            "Hen & Cock",
-            "Annalong Horseshoe",
-            "Monument Race",
-            "Loughshannagh Horseshoe",
-            "Rocky",
-            "Meelbeg Meelmore",
-            "Donard Forest",
-            "Slieve Donard",
-            "Flagstaff to Carling",
-            "Slieve Bearnagh",
-            "Seven Sevens",
-            "Lurig Challenge",
-            "Scrabo Hill Race",
-            "Slieve Gallion",
-            "BARF Turkey Trot"
-         ],
-         "smps" : [
-            "dist",
-            "climb",
-            "time",
-            "timef"
          ]
       }
-   }
+   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>nihills</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Record times for Northern Ireland mountain running events</h2>\n<h3>Description</h3>\n<p>Data were from the 2007 calendar for the Northern Ireland Mountain\nRunning Association.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(nihills)\ndata(lognihills)\n</code></pre>\n<h3>Format</h3>\n<p>A data frame with 23 observations on the following 4 variables.\n</p>\n<dl>\n<dt><code>dist</code></dt><dd><p>distances in miles</p>\n</dd>\n<dt><code>climb</code></dt><dd><p>amount of climb in feet</p>\n</dd>\n<dt><code>time</code></dt><dd><p>record time in hours for males</p>\n</dd>\n<dt><code>timef</code></dt><dd><p>record time in hours for females</p>\n</dd>\n<dt><code>logdist</code></dt><dd><p>distances, log(miles)</p>\n</dd>\n<dt><code>logclimb</code></dt><dd><p>climb, log(feet)</p>\n</dd>\n<dt><code>logtime</code></dt><dd><p>record time for males, log(hours)</p>\n</dd>\n<dt><code>logtimef</code></dt><dd><p>record time for females, log(hours)</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>These data make an interesting comparison with the dataset\n<code>hills2000</code> in the DAAG package.</p>\n<h3>Source</h3>\n<p>For more recent information, see\n<a href=\"https://www.nimra.org.uk/index.php/fixtures/\">https://www.nimra.org.uk/index.php/fixtures/</a>\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>data(nihills)\nlm(formula = log(time) ~ log(dist) + log(climb), data = nihills)\nlm(formula = log(time) ~ log(dist) + log(climb/dist), data = nihills)\nlm(formula = logtime ~ logdist + I(logclimb-logdist), data = lognihills)\n</code></pre>\n</main>\n</div>\n"
 }

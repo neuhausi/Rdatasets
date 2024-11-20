@@ -1,13 +1,13 @@
 var twinsInfo ={
-   "parameters" : {
-      "foster" : "IQ score of the twin raised by Foster parents.",
-      "biological" : "IQ score of the twin raised by Biological parents."
-   },
-   "title" : "twins",
-   "format" : "A data frame with 27 observations on the following 2 variables.",
-   "reference" : "library(ggplot2)\nlibrary(dplyr)\nlibrary(tidyr)\n\nplot_data <- twins |>\n  pivot_longer(cols = c(foster, biological), names_to = \"twin\", values_to = \"iq\")\n\nggplot(plot_data, aes(iq, fill = twin)) +\n  geom_histogram(color = \"white\", binwidth = 5) +\n  facet_wrap(~twin) +\n  theme_minimal() +\n  labs(\n    title = \"IQ of identical twins\",\n    subtitle = \"Separated at birth\",\n    x = \"IQ\",\n    y = \"Count\",\n    fill = \"\"\n  )",
    "description" : "Description\nA data frame containing data collected in the mid 20th century by Cyril Burt from a study tracked down identical twins who were separated at birth: one child was raised in the home of their biological parents and the other in a foster home. In an attempt to answer the question of whether intelligence is the result of nature or nurture, both children were given IQ tests.",
-   "usage" : "twins"
+   "title" : "twins",
+   "usage" : "twins",
+   "reference" : "library(ggplot2)\nlibrary(dplyr)\nlibrary(tidyr)\n\nplot_data <- twins |>\n  pivot_longer(cols = c(foster, biological), names_to = \"twin\", values_to = \"iq\")\n\nggplot(plot_data, aes(iq, fill = twin)) +\n  geom_histogram(color = \"white\", binwidth = 5) +\n  facet_wrap(~twin) +\n  theme_minimal() +\n  labs(\n    title = \"IQ of identical twins\",\n    subtitle = \"Separated at birth\",\n    x = \"IQ\",\n    y = \"Count\",\n    fill = \"\"\n  )",
+   "parameters" : {
+      "biological" : "IQ score of the twin raised by Biological parents.",
+      "foster" : "IQ score of the twin raised by Foster parents."
+   },
+   "format" : "A data frame with 27 observations on the following 2 variables."
 }
 
 var twins = [

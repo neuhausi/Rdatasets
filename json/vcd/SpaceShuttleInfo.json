@@ -1,0 +1,15 @@
+{
+   "format" : "A data frame with 24 observations and 6 variables.",
+   "title" : "Space Shuttle O-ring Failures",
+   "description" : "Description\nData from Dalal et al. (1989) about O-ring failures in the NASA space\nshuttle program.  The damage index comes from a discussion of the data\nby Tufte (1997).",
+   "usage" : "data(\"SpaceShuttle\")",
+   "reference" : "Michael Friendly (2000),\nVisualizing Categorical Data:\nhttp://euclid.psych.yorku.ca/ftp/sas/vcd/catdata/orings.sas",
+   "parameters" : {
+      "Temperature" : "temperature during start (in degrees F).",
+      "FlightNumber" : "Number of space shuttle flight.",
+      "Fail" : "did any O-ring failures occur? (no, yes).",
+      "Damage" : "damage index.",
+      "Pressure" : "pressure.",
+      "nFailures" : "how many (of six) 0-rings failed?."
+   }
+}

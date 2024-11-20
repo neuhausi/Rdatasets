@@ -1,18 +1,18 @@
 var asn_statsInfo ={
-   "description" : "Description\nThese are yearly counts on air accidents and fatalities, including measures for\ncorporate jet accidents and hijackings. The hijackings are of particular interest\nto me, at least from a historical terrorism perspective.",
-   "usage" : "asn_stats",
-   "parameters" : {
-      "hijack" : "a numeric vector for the number of hijackings/skyjackings",
-      "corpjetfatal" : "a numeric vector for the number of fatalities from corporate jet accidents",
-      "hijackfatal" : "a numeric vector for the number of fatalities from hijackings/skyjackings",
-      "year" : "numeric vector for the year",
-      "airacc" : "a numeric vector for the number of airliner accidents",
-      "corpjetacc" : "a numeric vector for the number of corporate jet accidents",
-      "airfatal" : "a numeric vector for the number of fatalities from airliner accidents"
-   },
-   "title" : "Aviation Safety Network Statistics, 1942-2019",
    "format" : "A data frame with 78 observations on the following 7 variables.",
-   "reference" : "All fatality estimates exclude ground fatalities. All accidents are hull-loss accidents.\nThe airliner figures are for those flights with at least 14 passengers.\nCheck https://aviation-safety.net/statistics/period/stats.php?cat=H2 for more."
+   "reference" : "All fatality estimates exclude ground fatalities. All accidents are hull-loss accidents.\nThe airliner figures are for those flights with at least 14 passengers.\nCheck https://aviation-safety.net/statistics/period/stats.php?cat=H2 for more.",
+   "usage" : "asn_stats",
+   "description" : "Description\nThese are yearly counts on air accidents and fatalities, including measures for\ncorporate jet accidents and hijackings. The hijackings are of particular interest\nto me, at least from a historical terrorism perspective.",
+   "title" : "Aviation Safety Network Statistics, 1942-2019",
+   "parameters" : {
+      "corpjetacc" : "a numeric vector for the number of corporate jet accidents",
+      "year" : "numeric vector for the year",
+      "hijack" : "a numeric vector for the number of hijackings/skyjackings",
+      "hijackfatal" : "a numeric vector for the number of fatalities from hijackings/skyjackings",
+      "airacc" : "a numeric vector for the number of airliner accidents",
+      "corpjetfatal" : "a numeric vector for the number of fatalities from corporate jet accidents",
+      "airfatal" : "a numeric vector for the number of fatalities from airliner accidents"
+   }
 }
 
 var asn_stats = [

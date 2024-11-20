@@ -1,33 +1,30 @@
 {
+   "config" : {
+      "colorBy" : "variable",
+      "graphType" : "Boxplot",
+      "title" : "Worker Satisfaction Data",
+      "groupingFactors" : [
+         "Super"
+      ],
+      "subtitle" : "vcdExtra - WorkerSat",
+      "segregateSamplesBy" : [
+         "Manage",
+         "Worker"
+      ]
+   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>WorkerSat</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Worker Satisfaction Data</h2>\n<h3>Description</h3>\n<p>Blue collar workers job satisfaction from large scale investigation in Denmark in 1968 (Andersen, 1991). \n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(\"WorkerSat\")</code></pre>\n<h3>Format</h3>\n<p>A frequency data frame with 8 observations on the following 4 variables, representing the 2 x 2 x 2 classification of 715 cases.\n</p>\n<dl>\n<dt><code>Manage</code></dt><dd><p>Quality of management, an ordered factor with levels <code>bad</code> &lt; <code>good</code></p>\n</dd>\n<dt><code>Super</code></dt><dd><p>Supervisor satisfaction, an ordered factor with levels <code>low</code> &lt; <code>high</code></p>\n</dd>\n<dt><code>Worker</code></dt><dd><p>Worker job satisfaction, an ordered factor with levels <code>low</code> &lt; <code>high</code></p>\n</dd>\n<dt><code>Freq</code></dt><dd><p>a numeric vector</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>Originally from <a href=\"https://online.stat.psu.edu/stat504/lesson/10/\">https://online.stat.psu.edu/stat504/lesson/10/</a>\n</p>\n<h3>References</h3>\n<p>Andersen, E. B. (1991)\nStatistical Analysis of Categorical Data, 2nd Ed., Springer-Verlag.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>data(WorkerSat)\nworker.tab &lt;- xtabs(Freq ~ Worker + Super + Manage, data=WorkerSat)\nfourfold(worker.tab)\nmosaic(worker.tab, shade=TRUE)\n</code></pre>\n</main>\n</div>\n",
    "data" : {
-      "y" : {
-         "data" : [
-            [
-               103,
-               87,
-               32,
-               42,
-               59,
-               109,
-               78,
-               205
-            ]
-         ],
-         "smps" : [
-            "Smp1",
-            "Smp2",
-            "Smp3",
-            "Smp4",
-            "Smp5",
-            "Smp6",
-            "Smp7",
-            "Smp8"
-         ],
-         "vars" : [
-            "Freq"
-         ]
-      },
       "x" : {
+         "Super" : [
+            "low",
+            "low",
+            "high",
+            "high",
+            "low",
+            "low",
+            "high",
+            "high"
+         ],
          "Manage" : [
             "bad",
             "bad",
@@ -47,31 +44,34 @@
             "high",
             "low",
             "high"
+         ]
+      },
+      "y" : {
+         "vars" : [
+            "Freq"
          ],
-         "Super" : [
-            "low",
-            "low",
-            "high",
-            "high",
-            "low",
-            "low",
-            "high",
-            "high"
+         "smps" : [
+            "Smp1",
+            "Smp2",
+            "Smp3",
+            "Smp4",
+            "Smp5",
+            "Smp6",
+            "Smp7",
+            "Smp8"
+         ],
+         "data" : [
+            [
+               103,
+               87,
+               32,
+               42,
+               59,
+               109,
+               78,
+               205
+            ]
          ]
       }
-   },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>WorkerSat</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Worker Satisfaction Data</h2>\n<h3>Description</h3>\n<p>Blue collar workers job satisfaction from large scale investigation in Denmark in 1968 (Andersen, 1991). \n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(\"WorkerSat\")</code></pre>\n<h3>Format</h3>\n<p>A frequency data frame with 8 observations on the following 4 variables, representing the 2 x 2 x 2 classification of 715 cases.\n</p>\n<dl>\n<dt><code>Manage</code></dt><dd><p>Quality of management, an ordered factor with levels <code>bad</code> &lt; <code>good</code></p>\n</dd>\n<dt><code>Super</code></dt><dd><p>Supervisor satisfaction, an ordered factor with levels <code>low</code> &lt; <code>high</code></p>\n</dd>\n<dt><code>Worker</code></dt><dd><p>Worker job satisfaction, an ordered factor with levels <code>low</code> &lt; <code>high</code></p>\n</dd>\n<dt><code>Freq</code></dt><dd><p>a numeric vector</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>Originally from <a href=\"https://online.stat.psu.edu/stat504/lesson/10/\">https://online.stat.psu.edu/stat504/lesson/10/</a>\n</p>\n<h3>References</h3>\n<p>Andersen, E. B. (1991)\nStatistical Analysis of Categorical Data, 2nd Ed., Springer-Verlag.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>data(WorkerSat)\nworker.tab &lt;- xtabs(Freq ~ Worker + Super + Manage, data=WorkerSat)\nfourfold(worker.tab)\nmosaic(worker.tab, shade=TRUE)\n</code></pre>\n</main>\n</div>\n",
-   "config" : {
-      "subtitle" : "vcdExtra - WorkerSat",
-      "segregateSamplesBy" : [
-         "Worker",
-         "Super"
-      ],
-      "title" : "Worker Satisfaction Data",
-      "groupingFactors" : [
-         "Manage"
-      ],
-      "graphType" : "Boxplot",
-      "colorBy" : "variable"
    }
 }

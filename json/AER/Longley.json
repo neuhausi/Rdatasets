@@ -20,12 +20,6 @@
             "Var15",
             "Var16"
          ],
-         "smps" : [
-            "employment",
-            "price",
-            "gnp",
-            "armedforces"
-         ],
          "data" : [
             [
                60323,
@@ -123,13 +117,19 @@
                554894,
                2827
             ]
+         ],
+         "smps" : [
+            "employment",
+            "price",
+            "gnp",
+            "armedforces"
          ]
       }
    },
    "config" : {
+      "graphType" : "Scatter2D",
       "subtitle" : "AER - Longley",
-      "scatterPlotMatrix" : 1,
       "title" : "Longley's Regression Data",
-      "graphType" : "Scatter2D"
+      "scatterPlotMatrix" : 1
    }
 }

@@ -1,15 +1,15 @@
 var spinachInfo ={
-   "title" : "Inhibition of photosynthesis",
-   "format" : "A data frame with 105 observations on the following four variables:",
-   "reference" : "The experiment is described in more details by Streibig (1998).",
    "parameters" : {
+      "DOSE" : "a numeric vector giving the herbicide concentration in muMol.",
       "SLOPE" : "a numeric vector with the measured response: oxygen consumption of thylakoid membranes.",
-      "HERBICIDE" : "a character vector specifying the herbicide applied: bentazon or diuron.",
       "CURVE" : "a numeric vector specifying the assay or curve (a total of 5 independent assays where used in this experiment).",
-      "DOSE" : "a numeric vector giving the herbicide concentration in muMol."
+      "HERBICIDE" : "a character vector specifying the herbicide applied: bentazon or diuron."
    },
+   "title" : "Inhibition of photosynthesis",
+   "description" : "Description\nData from an experiment investigating the inhibition of photosynthesis in response to two synthetic \nphotosystem II inhibitors, the herbicides diuron and bentazon.\nMore specifically, the effect of oxygen consumption of thylakoid membranes (chloroplasts) from spinach\nwas measured after incubation with the synthetic inhibitors in 5 assays, resulting in 5 dose-response curves.",
+   "reference" : "The experiment is described in more details by Streibig (1998).",
    "usage" : "data(spinach)",
-   "description" : "Description\nData from an experiment investigating the inhibition of photosynthesis in response to two synthetic \nphotosystem II inhibitors, the herbicides diuron and bentazon.\nMore specifically, the effect of oxygen consumption of thylakoid membranes (chloroplasts) from spinach\nwas measured after incubation with the synthetic inhibitors in 5 assays, resulting in 5 dose-response curves."
+   "format" : "A data frame with 105 observations on the following four variables:"
 }
 
 var spinach = [

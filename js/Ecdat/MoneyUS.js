@@ -1,16 +1,16 @@
 var MoneyUSInfo ={
-   "usage" : "data(MoneyUS)",
-   "description" : "Description\nquarterly observations from 1954&ndash;01 to 1994&ndash;12\nnumber of observations :  164\ncountry :  United States",
-   "format" : "A time series containing :",
-   "title" : "Macroeconomic Series for the United States",
-   "reference" : "Hoffman, D.L.  and  R.H.  Rasche (1996) &ldquo;Assessing forecast performance in a cointegrated system&rdquo;, Journal of Applied Econometrics, 11, 495&ndash;517.",
    "parameters" : {
-      "tbr" : "treasury bill rate",
+      "y" : "log real GDP (in billions of 1987 dollars)",
+      "infl" : "quarterly inflation rate (change in log prices), % per year",
       "m" : "log of real M1 money stock",
       "cpr" : "commercial paper rate, % per year",
-      "y" : "log real GDP (in billions of 1987 dollars)",
-      "infl" : "quarterly inflation rate (change in log prices), % per year"
-   }
+      "tbr" : "treasury bill rate"
+   },
+   "usage" : "data(MoneyUS)",
+   "reference" : "Hoffman, D.L.  and  R.H.  Rasche (1996) &ldquo;Assessing forecast performance in a cointegrated system&rdquo;, Journal of Applied Econometrics, 11, 495&ndash;517.",
+   "title" : "Macroeconomic Series for the United States",
+   "description" : "Description\nquarterly observations from 1954&ndash;01 to 1994&ndash;12\nnumber of observations :  164\ncountry :  United States",
+   "format" : "A time series containing :"
 }
 
 var MoneyUS = [

@@ -1,14 +1,14 @@
 var CarTaskInfo ={
    "parameters" : {
+      "probability" : "a numeric vector of the estimated probability.",
       "task" : "a factor with levels Car and\nSalesperson indicating the condition.",
-      "NFCCscale" : "a numeric vector of the NFCC scale.",
-      "probability" : "a numeric vector of the estimated probability."
+      "NFCCscale" : "a numeric vector of the NFCC scale."
    },
-   "title" : "Partition-primed Probability Judgement Task for Car Dealership",
-   "format" : "A data frame with 155 observations on the following 3 variables.",
+   "usage" : "data(\"CarTask\", package = \"betareg\")",
    "reference" : "All participants in the study were undergraduate students at The\nAustralian National University, some of whom obtained course credit in\nfirst-year Psychology for their participation in the study.",
    "description" : "Description\nIn this study participants were asked to judge how likely it is that a\ncustomer trades in a coupe or that a customer buys a car form a\nspecific salesperson out of four possible salespersons.",
-   "usage" : "data(\"CarTask\", package = \"betareg\")"
+   "title" : "Partition-primed Probability Judgement Task for Car Dealership",
+   "format" : "A data frame with 155 observations on the following 3 variables."
 }
 
 var CarTask = [

@@ -1,14 +1,14 @@
 var S.albaInfo ={
+   "description" : "Description\nData are from an experiment, comparing the potency of the two herbicides glyphosate and bentazone in\nwhite mustard Sinapis alba.",
+   "title" : "Potency of two herbicides",
+   "reference" : "The lower and upper limits for the two herbicides can be assumed identical, whereas slopes and ED50 values \nare different (in the log-logistic model).",
+   "usage" : "data(S.alba)",
    "parameters" : {
       "Dose" : "a numeric vector containing the dose in g/ha.",
       "Herbicide" : "a factor with levels Bentazone Glyphosate (the two herbicides applied).",
       "DryMatter" : "a numeric vector containing the response (dry matter in g/pot)."
    },
-   "title" : "Potency of two herbicides",
-   "format" : "A data frame with 68 observations on the following 3 variables.",
-   "reference" : "The lower and upper limits for the two herbicides can be assumed identical, whereas slopes and ED50 values \nare different (in the log-logistic model).",
-   "description" : "Description\nData are from an experiment, comparing the potency of the two herbicides glyphosate and bentazone in\nwhite mustard Sinapis alba.",
-   "usage" : "data(S.alba)"
+   "format" : "A data frame with 68 observations on the following 3 variables."
 }
 
 var S.alba = [

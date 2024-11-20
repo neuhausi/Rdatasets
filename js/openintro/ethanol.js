@@ -1,13 +1,13 @@
 var ethanolInfo ={
-   "usage" : "ethanol",
-   "description" : "Description\nExperiment where 3 different treatments of ethanol were tested on the\ntreatment of oral cancer tumors in hamsters.",
-   "reference" : "The ethyl_cellulose and pure_ethanol treatments consisted of\nabout a quarter of the volume of the tumors, while the\npure_ethanol_16x treatment was 16x that, so about 4 times the size of\nthe tumors.",
-   "title" : "Ethanol Treatment for Tumors Experiment",
    "format" : "A data frame with 24 observations, each representing one hamster, on\nthe following 2 variables.",
    "parameters" : {
-      "regress" : "a factor with levels no\nyes",
-      "treatment" : "Treatment\nthe hamster received."
-   }
+      "treatment" : "Treatment\nthe hamster received.",
+      "regress" : "a factor with levels no\nyes"
+   },
+   "reference" : "The ethyl_cellulose and pure_ethanol treatments consisted of\nabout a quarter of the volume of the tumors, while the\npure_ethanol_16x treatment was 16x that, so about 4 times the size of\nthe tumors.",
+   "usage" : "ethanol",
+   "description" : "Description\nExperiment where 3 different treatments of ethanol were tested on the\ntreatment of oral cancer tumors in hamsters.",
+   "title" : "Ethanol Treatment for Tumors Experiment"
 }
 
 var ethanol = [

@@ -1,5 +1,11 @@
 {
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>TipJoke</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Improve Chances of Getting a Tip?</h2>\n<h3>Description</h3>\n<p>Effect of a waiter leaving a joke or an advertisement on getting a tip\n</p>\n<h3>Format</h3>\n<p>A dataset with 211 observations on the following 5 variables.\n</p>\n<table>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Card</code> </td><td style=\"text-align: left;\"> Type of card used: <code>Ad</code>, <code>Joke</code>, or <code>None</code></td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Tip</code> </td><td style=\"text-align: left;\"> <code>1</code>=customer left a tip or <code>0</code>=no tip</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Ad</code> </td><td style=\"text-align: left;\"> Indicator for <code>Ad</code> card (<code>1</code>=ad card left or <code>0</code>=no ad card)</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Joke</code> </td><td style=\"text-align: left;\"> Indicator for <code>Joke</code> card (<code>1</code>=joke card left or <code>0</code>=no joke card)</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>None</code> </td><td style=\"text-align: left;\"> Indicator for no card (<code>1</code>=no card left or <code>0</code>=ad or joke card left)</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n  </td>\n</tr>\n</table>\n<h3>Details</h3>\n<p>Can telling a joke affect whether or not a waiter in a coffee bar receives a tip from a customer?\nA study investigated this question at a coffee bar at a famous resort on the west coast of France.\nThe waiter randomly assigned coffee-ordering customers to one of three groups: When receiving\nthe bill one group also received a card telling a joke, another group received a card containing an\nadvertisement for a local restaurant, and a third group received no card at all. He recorded whether or not\neach customer left a tip.\n</p>\n<h3>Source</h3>\n<p>Gueguen, Nicholas (2002), &quot;The Effects of a Joke on Tipping When it is Delivered at the Same Time as the Bill,&quot;\nJournal of Applied Social Psychology, 32, 1955-1963.\n</p>\n</main>\n</div>\n",
+   "config" : {
+      "graphType" : "Scatter2D",
+      "colorBy" : "Card",
+      "subtitle" : "Stat2Data - TipJoke",
+      "title" : "Improve Chances of Getting a Tip?",
+      "scatterPlotMatrix" : 1
+   },
    "data" : {
       "z" : {
          "Card" : [
@@ -217,6 +223,12 @@
          ]
       },
       "y" : {
+         "smps" : [
+            "Tip",
+            "Ad",
+            "Joke",
+            "None"
+         ],
          "data" : [
             [
                1,
@@ -1485,12 +1497,6 @@
                1
             ]
          ],
-         "smps" : [
-            "Tip",
-            "Ad",
-            "Joke",
-            "None"
-         ],
          "vars" : [
             "Var1",
             "Var2",
@@ -1706,11 +1712,5 @@
          ]
       }
    },
-   "config" : {
-      "scatterPlotMatrix" : 1,
-      "title" : "Improve Chances of Getting a Tip?",
-      "colorBy" : "Card",
-      "graphType" : "Scatter2D",
-      "subtitle" : "Stat2Data - TipJoke"
-   }
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>TipJoke</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Improve Chances of Getting a Tip?</h2>\n<h3>Description</h3>\n<p>Effect of a waiter leaving a joke or an advertisement on getting a tip\n</p>\n<h3>Format</h3>\n<p>A dataset with 211 observations on the following 5 variables.\n</p>\n<table>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Card</code> </td><td style=\"text-align: left;\"> Type of card used: <code>Ad</code>, <code>Joke</code>, or <code>None</code></td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Tip</code> </td><td style=\"text-align: left;\"> <code>1</code>=customer left a tip or <code>0</code>=no tip</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Ad</code> </td><td style=\"text-align: left;\"> Indicator for <code>Ad</code> card (<code>1</code>=ad card left or <code>0</code>=no ad card)</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Joke</code> </td><td style=\"text-align: left;\"> Indicator for <code>Joke</code> card (<code>1</code>=joke card left or <code>0</code>=no joke card)</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>None</code> </td><td style=\"text-align: left;\"> Indicator for no card (<code>1</code>=no card left or <code>0</code>=ad or joke card left)</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n  </td>\n</tr>\n</table>\n<h3>Details</h3>\n<p>Can telling a joke affect whether or not a waiter in a coffee bar receives a tip from a customer?\nA study investigated this question at a coffee bar at a famous resort on the west coast of France.\nThe waiter randomly assigned coffee-ordering customers to one of three groups: When receiving\nthe bill one group also received a card telling a joke, another group received a card containing an\nadvertisement for a local restaurant, and a third group received no card at all. He recorded whether or not\neach customer left a tip.\n</p>\n<h3>Source</h3>\n<p>Gueguen, Nicholas (2002), &quot;The Effects of a Joke on Tipping When it is Delivered at the Same Time as the Bill,&quot;\nJournal of Applied Social Psychology, 32, 1955-1963.\n</p>\n</main>\n</div>\n"
 }

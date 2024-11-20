@@ -1,19 +1,19 @@
 var absenteeInfo ={
+   "format" : "A data frame with 22 observations on the following 8 variables.",
    "parameters" : {
       "machdem" : "a numeric vector, votes cast on voting\nmachines for the Democratic candidate",
-      "year" : "a numeric vector, year of election, 19xx",
-      "dmach" : "a numeric vector, Democratic margin among\nballots case on voting machines",
       "machrep" : "a numeric vector, votes cast on voting\nmachines for the Republican candidate",
+      "year" : "a numeric vector, year of election, 19xx",
       "absrep" : "a numeric vector, absentee ballots cast for the\nRepublican candidate",
-      "district" : "a numeric vector, Pennsylvania State Senate district",
       "dabs" : "a numeric vector, Democratic margin among\nabsentee ballots",
-      "absdem" : "a numeric vector, absentee ballots cast for the\nDemocratic candidate"
+      "absdem" : "a numeric vector, absentee ballots cast for the\nDemocratic candidate",
+      "district" : "a numeric vector, Pennsylvania State Senate district",
+      "dmach" : "a numeric vector, Democratic margin among\nballots case on voting machines"
    },
-   "format" : "A data frame with 22 observations on the following 8 variables.",
+   "usage" : "data(absentee)",
    "reference" : "In November 1993, the state of Pennsylvania conducted\nelections for its state legislature. The result in the Senate election\nin the 2nd district (based in Philadelphia) was challenged in court,\nand ultimately overturned. The Democratic candidate won 19,127 of\nthe votes cast by voting machine, while the Republican won 19,691\nvotes cast by voting machine, giving the Republican a lead of 564\nvotes. However, the Democrat won 1,396 absentee ballots, while the\nRepublican won just 371 absentee ballots, more than offsetting the\nRepublican lead based on the votes recorded by machines on election\nday. The Republican candidate sued, claiming that many of the absentee\nballots were fraudulent. The judge in the case solicited expert\nanalysis from Orley Ashenfelter, an economist at Princeton\nUniversity. Ashenfelter examined the relationship between absentee\nvote margins and machine vote margins in 21 previous Pennsylvania\nSenate elections in seven districts in the Philadelphia area over the\npreceding decade.",
    "title" : "Absentee and Machine Ballots in Pennsylvania State Senate Races",
-   "description" : "Description\nAbsentee ballot outcomes contrasted with machine ballots, cast\nin Pennsylvania State Senate elections, selected districts,\n1982-1993.",
-   "usage" : "data(absentee)"
+   "description" : "Description\nAbsentee ballot outcomes contrasted with machine ballots, cast\nin Pennsylvania State Senate elections, selected districts,\n1982-1993."
 }
 
 var absentee = [

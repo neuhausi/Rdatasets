@@ -1,13 +1,13 @@
 var sinusitisInfo ={
-   "parameters" : {
-      "self_reported_improvement" : "a factor with levels no and yes",
-      "group" : "a factor with levels control and  treatment"
-   },
    "format" : "A data frame with 166 observations on the following 2 variables.",
-   "title" : "Sinusitis and antibiotic experiment",
+   "usage" : "sinusitis",
    "reference" : "J.M. Garbutt et al. Amoxicillin for Acute Rhinosinusitis: A\nRandomized Controlled Trial. In: JAMA: The Journal of the American Medical\nAssociation 307.7 (2012), pp. 685-692.",
    "description" : "Description\nResearchers studying the effect of antibiotic treatment for acute sinusitis\nto one of two groups: treatment or control.",
-   "usage" : "sinusitis"
+   "title" : "Sinusitis and antibiotic experiment",
+   "parameters" : {
+      "group" : "a factor with levels control and  treatment",
+      "self_reported_improvement" : "a factor with levels no and yes"
+   }
 }
 
 var sinusitis = [

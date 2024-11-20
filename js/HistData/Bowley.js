@@ -1,13 +1,13 @@
 var BowleyInfo ={
-   "usage" : "data(Bowley)",
-   "description" : "Description\nIn one of the first statistical textbooks, Arthur Bowley (1901)\nused these data to illustrate an arithmetic and graphical analysis\nof time-series data using the total value of British and Irish\nexports from 1855-1899.  He presented a line graph of the time-series\ndata, supplemented by overlaid line graphs of 3-, 5- and 10-year moving\naverages.  His goal was to show that while the initial series\nshowed wide variability, moving averages made the series progressively\nsmoother.",
-   "format" : "A data frame with 45 observations on the following 2 variables.",
    "title" : "Bowley's data on values of British and Irish trade, 1855-1899",
+   "description" : "Description\nIn one of the first statistical textbooks, Arthur Bowley (1901)\nused these data to illustrate an arithmetic and graphical analysis\nof time-series data using the total value of British and Irish\nexports from 1855-1899.  He presented a line graph of the time-series\ndata, supplemented by overlaid line graphs of 3-, 5- and 10-year moving\naverages.  His goal was to show that while the initial series\nshowed wide variability, moving averages made the series progressively\nsmoother.",
+   "usage" : "data(Bowley)",
    "reference" : "Bowley, A. L. (1901). Elements of Statistics. London: P. S. King and Son,\np. 151-154.",
    "parameters" : {
-      "Value" : "total value of British and Irish exports (millions of Pounds)",
-      "Year" : "Year, from 1855-1899"
-   }
+      "Year" : "Year, from 1855-1899",
+      "Value" : "total value of British and Irish exports (millions of Pounds)"
+   },
+   "format" : "A data frame with 45 observations on the following 2 variables."
 }
 
 var Bowley = [

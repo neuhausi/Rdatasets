@@ -1,0 +1,17 @@
+{
+   "parameters" : {
+      "southern" : "Factor indicating region.",
+      "noncauc" : "Proportion of population that is non-Caucasian in 1950.",
+      "lfp" : "Labor force participation rate in 1950 (in percent).",
+      "convictions" : "Number of convictions divided by number of murders in 1950.",
+      "rate" : "Murder rate per 100,000 (FBI estimate, 1950).",
+      "time" : "Median time served (in months) of convicted murderers released in 1951.",
+      "income" : "Median family income in 1949 (in 1,000 USD).",
+      "executions" : "Average number of executions during 1946&ndash;1950 divided by convictions in 1950."
+   },
+   "reference" : "Maddala (2001), Table 8.4, p. 330",
+   "usage" : "data(\"MurderRates\")",
+   "description" : "Description\nCross-section data on states in 1950.",
+   "title" : "Determinants of Murder Rates in the United States",
+   "format" : "A data frame containing 44 observations on 8 variables."
+}

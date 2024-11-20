@@ -1,0 +1,16 @@
+{
+   "parameters" : {
+      "DT7" : "a numeric vector",
+      "DT4" : "a numeric vector",
+      "DT3" : "a numeric vector",
+      "DT5" : "a numeric vector",
+      "DT2" : "a numeric vector",
+      "DT1" : "a numeric vector",
+      "DT6" : "a numeric vector"
+   },
+   "reference" : "Davis, C., G. Claridge, and D. Cerullo (1997) \nPersonality factors \npredisposing to weight preoccupation: A continuum approach to the \nassociation between eating disorders and personality disorders. \nJournal of Psychiatric Research 31, 467&ndash;480. [personal communication from the authors.]",
+   "usage" : "DavisThin",
+   "description" : "Description\nThe DavisThin data frame has 191 rows and 7 columns.\nThis is part of a larger dataset for a study of eating disorders.\nThe seven variables in the data frame comprise a \"drive for thinness\"\nscale, to be formed by summing the items.",
+   "title" : "Davis's Data on Drive for Thinness",
+   "format" : "This data frame contains the following columns:"
+}

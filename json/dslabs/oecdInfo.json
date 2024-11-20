@@ -1,0 +1,18 @@
+{
+   "format" : "An object of class \"data.frame\".",
+   "reference" : "head(gapminder)\nprint(oecd)\nprint(opec)",
+   "usage" : "gapminder",
+   "description" : "Description\nHealth and income outcomes for 184 countries from 1960 to 2016. Also includes two character vectors, oecd \nand opec, with the names of OECD and OPEC countries from 2016.",
+   "title" : "Gapminder Data",
+   "parameters" : {
+      "continent." : null,
+      "population. Country population." : null,
+      "country." : null,
+      "year." : null,
+      "life_expectancy. Life expectancy in years." : null,
+      "region. Geographical region." : null,
+      "gpd. GDP according to World Bankdev." : null,
+      "infant_mortality. Infant deaths per 1000." : null,
+      "fertility. Average number of children per woman." : null
+   }
+}

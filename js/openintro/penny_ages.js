@@ -1,13 +1,13 @@
 var penny_agesInfo ={
+   "format" : "A data frame with 648 observations on the following 2 variables.",
    "parameters" : {
       "year" : "Penny's year.",
       "age" : "Age as of 2004."
    },
-   "title" : "Penny Ages",
-   "format" : "A data frame with 648 observations on the following 2 variables.",
    "reference" : "hist(penny_ages$year)",
+   "usage" : "penny_ages",
    "description" : "Description\nSample of pennies and their ages. Taken in 2004.",
-   "usage" : "penny_ages"
+   "title" : "Penny Ages"
 }
 
 var penny_ages = [

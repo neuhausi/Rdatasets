@@ -1,0 +1,15 @@
+{
+   "usage" : "prison",
+   "reference" : "https://stat.duke.edu/datasets/prison-isolation",
+   "description" : "Description\nSubjects from Central Prison in Raleigh, NC, volunteered for an experiment\ninvolving an \"isolation\" experience. The goal of the experiment was to find\na treatment that reduces subjects' psychopathic deviant T scores. This score\nmeasures a person's need for control or their rebellion against control, and\nit is part of a commonly used mental health test called the Minnesota\nMultiphasic Personality Inventory (MMPI) test.",
+   "title" : "Prison isolation experiment",
+   "parameters" : {
+      "post_trt1" : "Post-treatment 1.",
+      "pre_trt3" : "Pre-treatment 3.",
+      "pre_trt2" : "Pre-treatment 2.",
+      "pre_trt1" : "Pre-treatment 1.",
+      "post_trt2" : "Post-treatment 2.",
+      "post_trt3" : "Post-treatment 3."
+   },
+   "format" : "A data frame with 14 observations on the following 6 variables."
+}

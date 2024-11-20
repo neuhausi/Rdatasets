@@ -1,7 +1,7 @@
 var RiverIronInfo ={
+   "usage" : "A dataset with 12 observations on the following 4 variables.",
    "description" : "Description\nAmounts of iron in water samples of four rivers",
-   "title" : "Iron in River Water Samples",
-   "usage" : "A dataset with 12 observations on the following 4 variables."
+   "title" : "Iron in River Water Samples"
 }
 
 var RiverIron = [

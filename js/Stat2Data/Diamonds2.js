@@ -1,7 +1,7 @@
 var Diamonds2Info ={
-   "description" : "Description\nA subset of 307 cases with the most frequent colors from the Diamonds data",
+   "usage" : "A data frame with 307 observations on the following 6 variables.",
    "title" : "Characteristics of a Subset of the Diamond Sample",
-   "usage" : "A data frame with 307 observations on the following 6 variables."
+   "description" : "Description\nA subset of 307 cases with the most frequent colors from the Diamonds data"
 }
 
 var Diamonds2 = [

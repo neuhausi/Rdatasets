@@ -1,0 +1,11 @@
+{
+   "format" : "body\nbody weight in kg.\n\n\nbrain\nbrain weight in g.",
+   "parameters" : {
+      "brain" : "brain weight in g.",
+      "body" : "body weight in kg."
+   },
+   "description" : "Description\nAverage brain and body weights for 28 species of land animals.",
+   "title" : "Brain and Body Weights for 28 Species",
+   "reference" : "The name Animals avoided conflicts with a system dataset\nanimals in S-PLUS 4.5 and later.",
+   "usage" : "Animals"
+}

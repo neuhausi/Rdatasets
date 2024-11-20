@@ -1,14 +1,14 @@
 var wvs_ccodesInfo ={
    "format" : "A data frame with 112 observations on the following 3 variables.",
-   "reference" : "http://svmiller.com/blog/2015/06/syncing-word-values-survey-country-codes-with-cow-codes/",
-   "title" : "Syncing Word Values Survey Country Codes with CoW Codes",
    "parameters" : {
+      "country" : "a character vector for the corresponding country name",
       "ccode" : "the equivalent country code from the Correlates of War state system membership data",
-      "s003" : "the World Values Survey country code",
-      "country" : "a character vector for the corresponding country name"
+      "s003" : "the World Values Survey country code"
    },
-   "usage" : "wvs_ccodes",
-   "description" : "Description\nA simple data set that syncs World Values Survey country codes (s003)\nwith corresponding country codes from the Correlates of War state system\nmembership data."
+   "title" : "Syncing Word Values Survey Country Codes with CoW Codes",
+   "description" : "Description\nA simple data set that syncs World Values Survey country codes (s003)\nwith corresponding country codes from the Correlates of War state system\nmembership data.",
+   "reference" : "http://svmiller.com/blog/2015/06/syncing-word-values-survey-country-codes-with-cow-codes/",
+   "usage" : "wvs_ccodes"
 }
 
 var wvs_ccodes = [

@@ -1,17 +1,17 @@
 var WalkTheDogsInfo ={
-   "reference" : "One of the authors recorded daily pedometer data, the weather, and whether or not he walked the dogs.",
+   "description" : "Description\nDaily pedometer data for one of the authors",
    "title" : "Did the Author Walk the Dogs Today?",
    "usage" : "A data frame with 223 observations on the following 7 variables.",
+   "reference" : "One of the authors recorded daily pedometer data, the weather, and whether or not he walked the dogs.",
    "parameters" : {
-      "Walk" : "Were the dogs walked?  (1=yes or 0=no)",
-      "Steps" : "Steps in units of 1,000 (so StepCount/1000)",
       "Miles" : "Miles walked",
-      "Kcal" : "Calories burned (according to pedometer)",
       "Day" : "Day of week (F=Friday, M=Monday, R=Thursday, S=Saturday, T=Tuesday, U=Sunday, W=Wednesday)",
+      "Walk" : "Were the dogs walked?  (1=yes or 0=no)",
+      "Kcal" : "Calories burned (according to pedometer)",
+      "Weather" : "cold, rain, or shine",
       "StepCount" : "Number of steps taken in the day",
-      "Weather" : "cold, rain, or shine"
-   },
-   "description" : "Description\nDaily pedometer data for one of the authors"
+      "Steps" : "Steps in units of 1,000 (so StepCount/1000)"
+   }
 }
 
 var WalkTheDogs = [

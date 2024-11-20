@@ -1,0 +1,26 @@
+{
+   "parameters" : {
+      "brthord" : " birth order",
+      "IQ" : " IQ score",
+      "KWW" : " knowledge of world work score",
+      "wage" : " monthly earnings",
+      "south" : " =1 if live in south",
+      "hours" : " average weekly hours",
+      "meduc" : " mother's education",
+      "black" : " =1 if black",
+      "sibs" : " number of siblings",
+      "urban" : " =1 if live in SMSA",
+      "age" : " age in years",
+      "feduc" : " father's education",
+      "married" : " =1 if married",
+      "exper" : " years of work experience",
+      "lwage" : " natural log of wage",
+      "tenure" : " years with current employer",
+      "educ" : " years of education"
+   },
+   "description" : "Description\nWooldridge Source: M. Blackburn and D. Neumark (1992), âUnobserved Ability, Efficiency Wages, and Interindustry Wage Differentials,â Quarterly Journal of Economics 107, 1421-1436. Professor Neumark kindly provided the data, of which I used just the data for 1980. Data loads lazily.",
+   "title" : "wage2",
+   "reference" : "As with WAGE1.RAW, there are some clear inconsistencies among the variables tenure, exper, and age. I have not been able to track down the causes, and so any changes would be effectively arbitrary. Instead, I am using the data as provided by the authors of the above QJE article.",
+   "usage" : "data('wage2')",
+   "format" : "A data.frame with 935 observations on 17 variables:"
+}

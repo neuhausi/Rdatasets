@@ -1,16 +1,16 @@
 var CanadianDrugsInfo ={
-   "title" : "Canadian Drugs Senate Vote",
    "reference" : "January 2017 vote in the U.S. Senate related to repeal part of ObamaCare. The \"Klobuchar amendment\" to a bill was introduced with the purpose of lowering drug prices by allowing prescription drugs to be imported from Canada.",
    "usage" : "A data frame with 94 observations on the following 6 variables.",
+   "description" : "Description\nUS Senate vote on Klobuchar amendment to lower drug prices",
+   "title" : "Canadian Drugs Senate Vote",
    "parameters" : {
+      "Vote" : "Against or With what drug makers wanted",
       "State" : "Abbreviation for Senator's state",
       "Contributions" : "Amount of money received from the pharmaceutical industry over 6 years",
-      "Senator" : "Name of the Senator",
-      "Party" : "D=Democrat or R=Republican",
       "RollCall" : "Nay or Yea",
-      "Vote" : "Against or With what drug makers wanted"
-   },
-   "description" : "Description\nUS Senate vote on Klobuchar amendment to lower drug prices"
+      "Senator" : "Name of the Senator",
+      "Party" : "D=Democrat or R=Republican"
+   }
 }
 
 var CanadianDrugs = [

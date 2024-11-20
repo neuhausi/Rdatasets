@@ -1,16 +1,49 @@
 {
    "config" : {
-      "graphType" : "Scatter2D",
+      "subtitle" : "HSAUR - plasma",
       "title" : "Blood Screening Data",
       "colorBy" : "ESR",
-      "subtitle" : "HSAUR - plasma"
+      "graphType" : "Scatter2D"
    },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>plasma</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2> Blood Screening Data </h2>\n<h3>Description</h3>\n<p>The erythrocyte sedimentation rate and measurements of \ntwo plasma proteins (fibrinogen and globulin).\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(\"plasma\")</code></pre>\n<h3>Format</h3>\n<p>A data frame with 32 observations on the following 3 variables.\n</p>\n<dl>\n<dt><code>fibrinogen</code></dt><dd><p>the fibrinogen level in the blood.</p>\n</dd>\n<dt><code>globulin</code></dt><dd><p>the globulin level in the blood.</p>\n</dd>\n<dt><code>ESR</code></dt><dd><p>the erythrocyte sedimentation rate, either less or\ngreater 20 mm / hour. </p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>The erythrocyte sedimentation rate (ESR) is the rate at which\nred blood cells (erythrocytes) settle out of suspension in blood\nplasma, when measured under standard conditions. If the ESR increases\nwhen the level of certain proteins in the blood plasma rise in\nassociation with conditions such as rheumatic diseases, chronic\ninfections and malignant diseases, its determination might be\nuseful in screening blood samples taken form people suspected\nto being suffering from one of the conditions mentioned. The\nabsolute value of the ESR is not of great importance rather it\nis whether it is less than 20mm/hr since lower values indicate\na healthy individual.\n</p>\n<p>The question of interest is whether there is any association  \nbetween the probability of an ESR reading greater than 20mm/hr\nand the levels of the two plasma proteins. If there is not then \nthe determination of ESR would not be useful for diagnostic purposes. \n</p>\n<h3>Source</h3>\n<p>D. Collett and A. A. Jemain (1985), \nResiduals, outliers and influential observations in regression\nanalysis. <em>Sains Malaysiana</em>, <b>4</b>, 493&ndash;511.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>\n  data(\"plasma\", package = \"HSAUR\")\n  layout(matrix(1:2, ncol = 2))\n  boxplot(fibrinogen ~ ESR, data = plasma, varwidth = TRUE)\n  boxplot(globulin ~ ESR, data = plasma, varwidth = TRUE)\n</code></pre>\n</main>\n</div>\n",
    "data" : {
+      "z" : {
+         "ESR" : [
+            "ESR < 20",
+            "ESR < 20",
+            "ESR < 20",
+            "ESR < 20",
+            "ESR < 20",
+            "ESR < 20",
+            "ESR < 20",
+            "ESR < 20",
+            "ESR < 20",
+            "ESR < 20",
+            "ESR < 20",
+            "ESR < 20",
+            "ESR < 20",
+            "ESR < 20",
+            "ESR < 20",
+            "ESR < 20",
+            "ESR < 20",
+            "ESR < 20",
+            "ESR < 20",
+            "ESR < 20",
+            "ESR < 20",
+            "ESR < 20",
+            "ESR < 20",
+            "ESR < 20",
+            "ESR < 20",
+            "ESR < 20",
+            "ESR > 20",
+            "ESR > 20",
+            "ESR > 20",
+            "ESR > 20",
+            "ESR > 20",
+            "ESR > 20"
+         ]
+      },
       "y" : {
-         "smps" : [
-            "fibrinogen",
-            "globulin"
-         ],
          "vars" : [
             "1",
             "2",
@@ -174,44 +207,11 @@
                3.93,
                32
             ]
-         ]
-      },
-      "z" : {
-         "ESR" : [
-            "ESR < 20",
-            "ESR < 20",
-            "ESR < 20",
-            "ESR < 20",
-            "ESR < 20",
-            "ESR < 20",
-            "ESR < 20",
-            "ESR < 20",
-            "ESR < 20",
-            "ESR < 20",
-            "ESR < 20",
-            "ESR < 20",
-            "ESR < 20",
-            "ESR < 20",
-            "ESR < 20",
-            "ESR < 20",
-            "ESR < 20",
-            "ESR < 20",
-            "ESR < 20",
-            "ESR < 20",
-            "ESR < 20",
-            "ESR < 20",
-            "ESR < 20",
-            "ESR < 20",
-            "ESR < 20",
-            "ESR < 20",
-            "ESR > 20",
-            "ESR > 20",
-            "ESR > 20",
-            "ESR > 20",
-            "ESR > 20",
-            "ESR > 20"
+         ],
+         "smps" : [
+            "fibrinogen",
+            "globulin"
          ]
       }
-   },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>plasma</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2> Blood Screening Data </h2>\n<h3>Description</h3>\n<p>The erythrocyte sedimentation rate and measurements of \ntwo plasma proteins (fibrinogen and globulin).\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(\"plasma\")</code></pre>\n<h3>Format</h3>\n<p>A data frame with 32 observations on the following 3 variables.\n</p>\n<dl>\n<dt><code>fibrinogen</code></dt><dd><p>the fibrinogen level in the blood.</p>\n</dd>\n<dt><code>globulin</code></dt><dd><p>the globulin level in the blood.</p>\n</dd>\n<dt><code>ESR</code></dt><dd><p>the erythrocyte sedimentation rate, either less or\ngreater 20 mm / hour. </p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>The erythrocyte sedimentation rate (ESR) is the rate at which\nred blood cells (erythrocytes) settle out of suspension in blood\nplasma, when measured under standard conditions. If the ESR increases\nwhen the level of certain proteins in the blood plasma rise in\nassociation with conditions such as rheumatic diseases, chronic\ninfections and malignant diseases, its determination might be\nuseful in screening blood samples taken form people suspected\nto being suffering from one of the conditions mentioned. The\nabsolute value of the ESR is not of great importance rather it\nis whether it is less than 20mm/hr since lower values indicate\na healthy individual.\n</p>\n<p>The question of interest is whether there is any association  \nbetween the probability of an ESR reading greater than 20mm/hr\nand the levels of the two plasma proteins. If there is not then \nthe determination of ESR would not be useful for diagnostic purposes. \n</p>\n<h3>Source</h3>\n<p>D. Collett and A. A. Jemain (1985), \nResiduals, outliers and influential observations in regression\nanalysis. <em>Sains Malaysiana</em>, <b>4</b>, 493&ndash;511.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>\n  data(\"plasma\", package = \"HSAUR\")\n  layout(matrix(1:2, ncol = 2))\n  boxplot(fibrinogen ~ ESR, data = plasma, varwidth = TRUE)\n  boxplot(globulin ~ ESR, data = plasma, varwidth = TRUE)\n</code></pre>\n</main>\n</div>\n"
+   }
 }

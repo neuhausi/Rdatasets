@@ -1,22 +1,22 @@
 var RailTrailInfo ={
-   "format" : "A data frame with 90 observations on the following variables.",
+   "usage" : "data(RailTrail)",
    "reference" : "There is a potential for error when two users trigger the infrared beam at exactly the same time since the counter\nwould only logs one of the crossings.  The collectors left the motion detector out during the winter, but because the\ncounter drops data when the temperature falls below 14 degrees Fahrenheit, there is no data for the cold winter months.",
    "title" : "Volume of Users of a Rail Trail",
+   "description" : "Description\nThe Pioneer Valley Planning Commission (PVPC) collected data north of Chestnut Street in\nFlorence, MA for ninety days from April 5, 2005 to November 15, 2005. Data collectors set up a\nlaser sensor, with breaks in the laser beam recording when a rail-trail user passed the\ndata collection station.",
    "parameters" : {
-      "dayType" : "one of \"weekday\" or \"weekend\"",
-      "weekday" : "logical indicator of whether the day was a non-holiday weekday",
-      "summer" : "indicator of whether the season was Summer",
-      "cloudcover" : "measure of cloud cover (in oktas)",
-      "spring" : "indicator of whether the season was Spring",
-      "precip" : "measure of precipitation (in inches)",
-      "lowtemp" : "daily low temperature (in degrees Fahrenheit)",
-      "fall" : "indicator of whether the season was Fall",
       "avgtemp" : "average of daily low and daily high temperature (in degrees Fahrenheit)",
+      "spring" : "indicator of whether the season was Spring",
+      "lowtemp" : "daily low temperature (in degrees Fahrenheit)",
+      "volume" : "estimated number of trail users that day (number of breaks recorded)",
+      "precip" : "measure of precipitation (in inches)",
+      "cloudcover" : "measure of cloud cover (in oktas)",
+      "weekday" : "logical indicator of whether the day was a non-holiday weekday",
       "hightemp" : "daily high temperature (in degrees Fahrenheit)",
-      "volume" : "estimated number of trail users that day (number of breaks recorded)"
+      "dayType" : "one of \"weekday\" or \"weekend\"",
+      "summer" : "indicator of whether the season was Summer",
+      "fall" : "indicator of whether the season was Fall"
    },
-   "usage" : "data(RailTrail)",
-   "description" : "Description\nThe Pioneer Valley Planning Commission (PVPC) collected data north of Chestnut Street in\nFlorence, MA for ninety days from April 5, 2005 to November 15, 2005. Data collectors set up a\nlaser sensor, with breaks in the laser beam recording when a rail-trail user passed the\ndata collection station."
+   "format" : "A data frame with 90 observations on the following variables."
 }
 
 var RailTrail = [

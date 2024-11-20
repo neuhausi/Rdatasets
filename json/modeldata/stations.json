@@ -1,31 +1,16 @@
 {
+   "config" : {
+      "colorBy" : "variable",
+      "graphType" : "Boxplot",
+      "title" : "Chicago ridership data",
+      "groupingFactors" : [
+         "dat"
+      ],
+      "subtitle" : "modeldata - stations"
+   },
    "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>Chicago</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Chicago ridership data</h2>\n<h3>Description</h3>\n<p>Chicago ridership data\n</p>\n<h3>Details</h3>\n<p>These data are from Kuhn and Johnson (2020) and contain an\n<em>abbreviated</em> training set for modeling the number of people (in thousands)\nwho enter the Clark and Lake L station.\n</p>\n<p>The <code>date</code> column corresponds to the current date. The columns with station\nnames (<code>Austin</code> through <code>California</code>) are a <em>sample</em> of the columns used in\nthe original analysis (for file size reasons). These are 14 day lag\nvariables (i.e. <code style=\"white-space: pre;\">&#8288;date - 14 days&#8288;</code>). There are columns related to weather and\nsports team schedules.\n</p>\n<p>The station at 35th and Archer is contained in the column <code>Archer_35th</code> to\nmake it a valid R column name.\n</p>\n<h3>Value</h3>\n<table>\n<tr><td><code>Chicago</code></td>\n<td>\n<p>a tibble</p>\n</td></tr> <tr><td><code>stations</code></td>\n<td>\n<p>a vector of station names</p>\n</td></tr>\n</table>\n<h3>Source</h3>\n<p>Kuhn and Johnson (2020), <em>Feature Engineering and Selection</em>,\nChapman and Hall/CRC . <a href=\"https://bookdown.org/max/FES/\">https://bookdown.org/max/FES/</a> and\n<a href=\"https://github.com/topepo/FES\">https://github.com/topepo/FES</a>\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>data(Chicago)\nstr(Chicago)\nstations\n</code></pre>\n</main>\n</div>\n",
    "data" : {
       "y" : {
-         "data" : [
-            [
-               1,
-               2,
-               3,
-               4,
-               5,
-               6,
-               7,
-               8,
-               9,
-               10,
-               11,
-               12,
-               13,
-               14,
-               15,
-               16,
-               17,
-               18,
-               19,
-               20
-            ]
-         ],
          "vars" : [
             "Row"
          ],
@@ -50,6 +35,30 @@
             "Smp18",
             "Smp19",
             "Smp20"
+         ],
+         "data" : [
+            [
+               1,
+               2,
+               3,
+               4,
+               5,
+               6,
+               7,
+               8,
+               9,
+               10,
+               11,
+               12,
+               13,
+               14,
+               15,
+               16,
+               17,
+               18,
+               19,
+               20
+            ]
          ]
       },
       "x" : {
@@ -76,14 +85,5 @@
             "California"
          ]
       }
-   },
-   "config" : {
-      "graphType" : "Boxplot",
-      "title" : "Chicago ridership data",
-      "colorBy" : "variable",
-      "subtitle" : "modeldata - stations",
-      "groupingFactors" : [
-         "dat"
-      ]
    }
 }

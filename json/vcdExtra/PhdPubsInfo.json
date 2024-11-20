@@ -1,0 +1,15 @@
+{
+   "description" : "Description\nA data set giving the number of publications by doctoral candidates in biochemistry\nin relation to various predictors, originally from Long (1997).\nThere is a large number of zero counts. Is there evidence for\na separate group of non-publishers?",
+   "title" : "Publications of PhD Candidates",
+   "reference" : "In this version of the data set, phdprestige had been rounded to the nearest integer.\nA Stata version with the continuous values was subsequently found at\nhttps://www.stata-press.com/data/lf2/couart2.dta",
+   "usage" : "data(PhdPubs)",
+   "parameters" : {
+      "married" : "dummy variable for marital status, coded 1 for married",
+      "kid5" : "number of young children, age 5 and under",
+      "phdprestige" : "prestige of the PhD department.  The higher the number the more prestigious the program.",
+      "mentor" : "number of publications by the mentor in the preceeding three years",
+      "female" : "dummy variable for gender, coded 1 for female",
+      "articles" : "number of articles published in the final three years of PhD studies"
+   },
+   "format" : "A data frame with 915 observations on the following 6 variables."
+}

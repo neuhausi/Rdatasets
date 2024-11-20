@@ -1,12 +1,13 @@
 {
+   "config" : {
+      "subtitle" : "robustbase - foodstamp",
+      "title" : "Food Stamp Program Participation",
+      "scatterPlotMatrix" : 1,
+      "graphType" : "Scatter2D"
+   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>foodstamp</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Food Stamp Program Participation</h2>\n<h3>Description</h3>\n<p>This data consists of 150 randomly selected persons from a survey\nwith information on over 2000 elderly US citizens, where the response,\nindicates participation in the U.S. Food Stamp Program.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(foodstamp, package=\"robustbase\")</code></pre>\n<h3>Format</h3>\n<p>A data frame with 150 observations on the following 4 variables.\n</p>\n<dl>\n<dt><code>participation</code></dt><dd><p>participation in U.S. Food Stamp Program; yes = 1, no = 0</p>\n</dd>\n<dt><code>tenancy</code></dt><dd><p>tenancy, indicating home ownership; yes = 1, no = 0</p>\n</dd>\n<dt><code>suppl.income</code></dt><dd><p>supplemental income, indicating whether\nsome form of supplemental security income is received; yes = 1, no = 0</p>\n</dd>\n<dt><code>income</code></dt><dd><p>monthly income (in US dollars)</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>Data description and first analysis: Stefanski et al.(1986) who\nindicate Rizek(1978) as original source of the larger study.\n</p>\n<p>Electronic version from CRAN package <a href=\"https://CRAN.R-project.org/package=catdata\"><span class=\"pkg\">catdata</span></a>.\n</p>\n<h3>References</h3>\n<p>Rizek, R. L. (1978)\nThe 1977-78 Nationwide Food Consumption Survey.\n<em>Family Econ. Rev.</em>, Fall, 3&ndash;7.\n</p>\n<p>Stefanski, L. A., Carroll, R. J. and Ruppert, D. (1986)\nOptimally bounded score functions for generalized linear models with\napplications to logistic regression.\n<em>Biometrika</em> <b>73</b>, 413&ndash;424.\n</p>\n<p>KÃ¼nsch, H. R., Stefanski, L. A., Carroll, R. J. (1989)\nConditionally unbiased bounded-influence estimation in general\nregression models, with applications to generalized linear models.\n<em>J. American Statistical Association</em> <b>84</b>, 460&ndash;466.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>data(foodstamp)\n(T123 &lt;- xtabs(~ participation+ tenancy+ suppl.income, data=foodstamp))\nsummary(T123) ## ==&gt; the binary var's are clearly not independent\nfoodSt &lt;- within(foodstamp, {\n   logInc &lt;- log(1 + income)\n   rm(income)\nm1 &lt;- glm(participation ~ ., family=binomial, data=foodSt)\nsummary(m1)\nrm1 &lt;- glmrob(participation ~ ., family=binomial, data=foodSt)\nsummary(rm1)\n## Now use robust weights.on.x :\nrm2 &lt;- glmrob(participation ~ ., family=binomial, data=foodSt,\n              weights.on.x = \"robCov\")\nsummary(rm2)## aha, now the weights are different:\nwhich( weights(rm2, type=\"robust\") &lt; 0.5)\n</code></pre>\n</main>\n</div>\n",
    "data" : {
       "y" : {
-         "smps" : [
-            "participation",
-            "tenancy",
-            "suppl.income",
-            "income"
-         ],
          "vars" : [
             "Var1",
             "Var2",
@@ -1060,14 +1061,13 @@
                0,
                214
             ]
+         ],
+         "smps" : [
+            "participation",
+            "tenancy",
+            "suppl.income",
+            "income"
          ]
       }
-   },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>foodstamp</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Food Stamp Program Participation</h2>\n<h3>Description</h3>\n<p>This data consists of 150 randomly selected persons from a survey\nwith information on over 2000 elderly US citizens, where the response,\nindicates participation in the U.S. Food Stamp Program.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(foodstamp, package=\"robustbase\")</code></pre>\n<h3>Format</h3>\n<p>A data frame with 150 observations on the following 4 variables.\n</p>\n<dl>\n<dt><code>participation</code></dt><dd><p>participation in U.S. Food Stamp Program; yes = 1, no = 0</p>\n</dd>\n<dt><code>tenancy</code></dt><dd><p>tenancy, indicating home ownership; yes = 1, no = 0</p>\n</dd>\n<dt><code>suppl.income</code></dt><dd><p>supplemental income, indicating whether\nsome form of supplemental security income is received; yes = 1, no = 0</p>\n</dd>\n<dt><code>income</code></dt><dd><p>monthly income (in US dollars)</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>Data description and first analysis: Stefanski et al.(1986) who\nindicate Rizek(1978) as original source of the larger study.\n</p>\n<p>Electronic version from CRAN package <a href=\"https://CRAN.R-project.org/package=catdata\"><span class=\"pkg\">catdata</span></a>.\n</p>\n<h3>References</h3>\n<p>Rizek, R. L. (1978)\nThe 1977-78 Nationwide Food Consumption Survey.\n<em>Family Econ. Rev.</em>, Fall, 3&ndash;7.\n</p>\n<p>Stefanski, L. A., Carroll, R. J. and Ruppert, D. (1986)\nOptimally bounded score functions for generalized linear models with\napplications to logistic regression.\n<em>Biometrika</em> <b>73</b>, 413&ndash;424.\n</p>\n<p>KÃ¼nsch, H. R., Stefanski, L. A., Carroll, R. J. (1989)\nConditionally unbiased bounded-influence estimation in general\nregression models, with applications to generalized linear models.\n<em>J. American Statistical Association</em> <b>84</b>, 460&ndash;466.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>data(foodstamp)\n(T123 &lt;- xtabs(~ participation+ tenancy+ suppl.income, data=foodstamp))\nsummary(T123) ## ==&gt; the binary var's are clearly not independent\nfoodSt &lt;- within(foodstamp, {\n   logInc &lt;- log(1 + income)\n   rm(income)\nm1 &lt;- glm(participation ~ ., family=binomial, data=foodSt)\nsummary(m1)\nrm1 &lt;- glmrob(participation ~ ., family=binomial, data=foodSt)\nsummary(rm1)\n## Now use robust weights.on.x :\nrm2 &lt;- glmrob(participation ~ ., family=binomial, data=foodSt,\n              weights.on.x = \"robCov\")\nsummary(rm2)## aha, now the weights are different:\nwhich( weights(rm2, type=\"robust\") &lt; 0.5)\n</code></pre>\n</main>\n</div>\n",
-   "config" : {
-      "subtitle" : "robustbase - foodstamp",
-      "scatterPlotMatrix" : 1,
-      "graphType" : "Scatter2D",
-      "title" : "Food Stamp Program Participation"
    }
 }

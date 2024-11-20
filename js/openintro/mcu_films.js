@@ -1,18 +1,18 @@
 var mcu_filmsInfo ={
    "parameters" : {
-      "length_min" : "Length of the movie: minutes portion.",
-      "movie" : "Title of the movie.",
-      "opening_weekend_us" : "Box office totals for opening weekend in the US.",
-      "release_date" : "Date the movie was released in the US.",
       "length_hrs" : "Length of the movie: hours portion.",
+      "opening_weekend_us" : "Box office totals for opening weekend in the US.",
+      "gross_world" : "All box office totals world wide.",
+      "movie" : "Title of the movie.",
       "gross_us" : "All box office totals in US.",
-      "gross_world" : "All box office totals world wide."
+      "length_min" : "Length of the movie: minutes portion.",
+      "release_date" : "Date the movie was released in the US."
    },
-   "format" : "A data frame with 23 rows and 7 variables.",
    "title" : "Marvel Cinematic Universe films",
-   "reference" : "Box office figures are not adjusted to a specific year.\nThey are from the year the film was released.",
    "description" : "Description\nA list of Marvel Cinematic Universe films through the Infinity saga.\nThe Infinity saga is a 23 movie storyline spanning from Ironman\nin 2008 to Endgame in 2019.",
-   "usage" : "mcu_films"
+   "usage" : "mcu_films",
+   "reference" : "Box office figures are not adjusted to a specific year.\nThey are from the year the film was released.",
+   "format" : "A data frame with 23 rows and 7 variables."
 }
 
 var mcu_films = [

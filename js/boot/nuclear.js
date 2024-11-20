@@ -1,22 +1,22 @@
 var nuclearInfo ={
-   "description" : "Description\nThe nuclear data frame has 32 rows and 11 columns.\nThe data relate to the construction of 32 light water reactor (LWR) plants \nconstructed in the U.S.A in the late 1960's and early 1970's.  The data was\ncollected with the aim of predicting the cost of construction of further\nLWR plants.  6 of the power plants had partial turnkey guarantees and it is\npossible that, for these plants, some manufacturers' subsidies may be hidden \nin the quoted capital costs.",
-   "usage" : "nuclear",
    "parameters" : {
-      "t2" : "The time between issue of operating license and construction permit.",
-      "bw" : "A binary variable where 1 indicates that the nuclear steam supply system was\nmanufactured by Babcock-Wilcox.",
-      "cap" : "The net capacity of the power plant (MWe).",
       "ne" : "A binary variable where 1 indicates that the plant was constructed in the \nnorth-east region of the U.S.A.",
-      "pr" : "A binary variable where 1 indicates the prior existence of a LWR plant at\nthe same site.",
-      "t1" : "The time between application for and issue of the construction permit.",
       "ct" : "A binary variable where 1 indicates the use of a cooling tower in the plant.",
-      "pt" : "A binary variable where 1 indicates those plants with partial turnkey\nguarantees.",
+      "cap" : "The net capacity of the power plant (MWe).",
       "cum.n" : "The cumulative number of power plants constructed by each architect-engineer.",
+      "t1" : "The time between application for and issue of the construction permit.",
+      "pr" : "A binary variable where 1 indicates the prior existence of a LWR plant at\nthe same site.",
+      "pt" : "A binary variable where 1 indicates those plants with partial turnkey\nguarantees.",
+      "bw" : "A binary variable where 1 indicates that the nuclear steam supply system was\nmanufactured by Babcock-Wilcox.",
       "date" : "The date on which the construction permit was issued.  The data are measured in\nyears since January 1 1990 to the nearest month.",
+      "t2" : "The time between issue of operating license and construction permit.",
       "cost" : "The capital cost of construction in millions of dollars adjusted to 1976 base."
    },
    "title" : "Nuclear Power Station Construction Data",
-   "format" : "This data frame contains the following columns:",
-   "reference" : "The data were obtained from"
+   "description" : "Description\nThe nuclear data frame has 32 rows and 11 columns.\nThe data relate to the construction of 32 light water reactor (LWR) plants \nconstructed in the U.S.A in the late 1960's and early 1970's.  The data was\ncollected with the aim of predicting the cost of construction of further\nLWR plants.  6 of the power plants had partial turnkey guarantees and it is\npossible that, for these plants, some manufacturers' subsidies may be hidden \nin the quoted capital costs.",
+   "reference" : "The data were obtained from",
+   "usage" : "nuclear",
+   "format" : "This data frame contains the following columns:"
 }
 
 var nuclear = [

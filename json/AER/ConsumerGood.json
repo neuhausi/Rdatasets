@@ -112,11 +112,6 @@
             "Var107",
             "Var108"
          ],
-         "smps" : [
-            "distribution",
-            "share",
-            "price"
-         ],
          "data" : [
             [
                0.905,
@@ -658,12 +653,17 @@
                0.198953,
                104.4973
             ]
+         ],
+         "smps" : [
+            "distribution",
+            "share",
+            "price"
          ]
       }
    },
    "config" : {
       "graphType" : "Scatter3D",
-      "title" : "Properties of a Fast-Moving Consumer Good",
-      "subtitle" : "AER - ConsumerGood"
+      "subtitle" : "AER - ConsumerGood",
+      "title" : "Properties of a Fast-Moving Consumer Good"
    }
 }

@@ -1,0 +1,14 @@
+{
+   "format" : "A tsibble with 66,071 rows and 5 variables:",
+   "reference" : "library(dplyr)\ndata(pedestrian)\n# make implicit missingness to be explicit ----\npedestrian %>% fill_gaps()\n# compute daily maximum counts across sensors ----\npedestrian %>%\n  group_by_key() %>%\n  index_by(Date) %>% # group by Date and use it as new index\n  summarise(MaxC = max(Count))",
+   "usage" : "pedestrian",
+   "description" : "Description\nA dataset containing the hourly pedestrian counts from 2015-01-01 to\n2016-12-31 at 4 sensors in the city of Melbourne.",
+   "title" : "Pedestrian counts in the city of Melbourne",
+   "parameters" : {
+      "Counts" : " Hourly pedestrian counts",
+      "Date" : " Date when the pedestrian counts are recorded",
+      "Date_Time" : " Date time when the pedestrian counts are recorded (index)",
+      "Sensor" : " Sensor names (key)",
+      "Time" : " Hour associated with Date_Time"
+   }
+}

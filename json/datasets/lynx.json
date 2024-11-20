@@ -1,8 +1,8 @@
 {
    "config" : {
-      "subtitle" : "datasets - lynx",
       "graphType" : "Scatter2D",
-      "title" : "Annual Canadian Lynx trappings 1821-1934"
+      "title" : "Annual Canadian Lynx trappings 1821-1934",
+      "subtitle" : "datasets - lynx"
    },
    "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>lynx</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Annual Canadian Lynx trappings 1821&ndash;1934</h2>\n<h3>Description</h3>\n<p>Annual numbers of lynx trappings for 1821&ndash;1934 in Canada. Taken from\nBrockwell &amp; Davis (1991), this appears to be the series considered\nby Campbell &amp; Walker (1977).\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>lynx</code></pre>\n<h3>Source</h3>\n<p>Brockwell, P. J. and Davis, R. A. (1991).\n<em>Time Series and Forecasting Methods</em>.  Second edition.\nSpringer. Series G (page 557).\n</p>\n<h3>References</h3>\n<p>Becker, R. A., Chambers, J. M. and Wilks, A. R. (1988).\n<em>The New S Language</em>.\nWadsworth &amp; Brooks/Cole.\n</p>\n<p>Campbell, M. J. and Walker, A. M. (1977).\nA Survey of statistical work on the Mackenzie River series of annual\nCanadian lynx trappings for the years 1821&ndash;1934 and  a new analysis.\n<em>Journal of the Royal Statistical Society Series A</em>, <b>140</b>,\n411&ndash;431.\n<a href=\"https://doi.org/10.2307/2345277\">doi:10.2307/2345277</a>.\n</p>\n</main>\n</div>\n",
    "data" : {
@@ -465,6 +465,10 @@
                3396
             ]
          ],
+         "smps" : [
+            "time",
+            "value"
+         ],
          "vars" : [
             "Var1",
             "Var2",
@@ -580,10 +584,6 @@
             "Var112",
             "Var113",
             "Var114"
-         ],
-         "smps" : [
-            "time",
-            "value"
          ]
       }
    }

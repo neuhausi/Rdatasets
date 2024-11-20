@@ -1,17 +1,4 @@
 {
-   "config" : {
-      "subtitle" : "openintro - kobe_basket",
-      "segregateSamplesBy" : [
-         "quarter",
-         "shot"
-      ],
-      "title" : "Kobe Bryant basketball performance",
-      "groupingFactors" : [
-         "vs"
-      ],
-      "graphType" : "Dotplot",
-      "colorBy" : "time"
-   },
    "data" : {
       "x" : {
          "vs" : [
@@ -691,6 +678,9 @@
          ]
       },
       "y" : {
+         "vars" : [
+            "game"
+         ],
          "data" : [
             [
                1,
@@ -827,9 +817,6 @@
                3,
                3
             ]
-         ],
-         "vars" : [
-            "game"
          ],
          "smps" : [
             "Smp1",
@@ -968,5 +955,18 @@
          ]
       }
    },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>kobe_basket</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Kobe Bryant basketball performance</h2>\n<h3>Description</h3>\n<p>Data from the five games the Los Angeles Lakers played against the Orlando\nMagic in the 2009 NBA finals.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>kobe_basket\n</code></pre>\n<h3>Format</h3>\n<p>A data frame with 133 rows and 6 variables:\n</p>\n<dl>\n<dt>vs</dt><dd><p>A categorical vector, ORL if the Los Angeles Lakers played\nagainst Orlando</p>\n</dd>\n<dt>game</dt><dd><p>A numerical vector, game in the 2009 NBA finals</p>\n</dd>\n<dt>quarter</dt><dd><p>A categorical vector, quarter in the game, OT stands for\novertime</p>\n</dd>\n<dt>time</dt><dd><p>A character vector, time at which Kobe took a shot</p>\n</dd>\n<dt>description</dt><dd><p>A character vector, description of the shot</p>\n</dd>\n<dt>shot</dt><dd><p>A categorical vector, H if the shot was a hit, M if the shot\nwas a miss</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>Each row represents a shot Kobe Bryant took during the five games of the\n2009 NBA finals. Kobe Bryant's performance earned him the title of Most\nValuable Player and many spectators commented on how he appeared to show\na hot hand.\n</p>\n</main>\n</div>\n"
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>kobe_basket</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Kobe Bryant basketball performance</h2>\n<h3>Description</h3>\n<p>Data from the five games the Los Angeles Lakers played against the Orlando\nMagic in the 2009 NBA finals.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>kobe_basket\n</code></pre>\n<h3>Format</h3>\n<p>A data frame with 133 rows and 6 variables:\n</p>\n<dl>\n<dt>vs</dt><dd><p>A categorical vector, ORL if the Los Angeles Lakers played\nagainst Orlando</p>\n</dd>\n<dt>game</dt><dd><p>A numerical vector, game in the 2009 NBA finals</p>\n</dd>\n<dt>quarter</dt><dd><p>A categorical vector, quarter in the game, OT stands for\novertime</p>\n</dd>\n<dt>time</dt><dd><p>A character vector, time at which Kobe took a shot</p>\n</dd>\n<dt>description</dt><dd><p>A character vector, description of the shot</p>\n</dd>\n<dt>shot</dt><dd><p>A categorical vector, H if the shot was a hit, M if the shot\nwas a miss</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>Each row represents a shot Kobe Bryant took during the five games of the\n2009 NBA finals. Kobe Bryant's performance earned him the title of Most\nValuable Player and many spectators commented on how he appeared to show\na hot hand.\n</p>\n</main>\n</div>\n",
+   "config" : {
+      "segregateSamplesBy" : [
+         "quarter",
+         "shot"
+      ],
+      "title" : "Kobe Bryant basketball performance",
+      "groupingFactors" : [
+         "vs"
+      ],
+      "subtitle" : "openintro - kobe_basket",
+      "graphType" : "Dotplot",
+      "colorBy" : "time"
+   }
 }

@@ -1,14 +1,14 @@
 var menarcheInfo ={
-   "title" : "Age of Menarche in Warsaw",
-   "reference" : "Milicer, H. and Szczotka, F. (1966) Age at Menarche in Warsaw girls in\n1965.\nHuman Biology 38, 199&ndash;203.",
    "format" : "This data frame contains the following columns:",
-   "parameters" : {
-      "Total" : "Total number of children in the group.",
-      "Age" : "Average age of the group.  (The groups are reasonably age homogeneous.)",
-      "Menarche" : "Number who have reached menarche."
-   },
+   "reference" : "Milicer, H. and Szczotka, F. (1966) Age at Menarche in Warsaw girls in\n1965.\nHuman Biology 38, 199&ndash;203.",
    "usage" : "menarche",
-   "description" : "Description\nProportions of female children at various ages during adolescence\nwho have reached menarche."
+   "description" : "Description\nProportions of female children at various ages during adolescence\nwho have reached menarche.",
+   "title" : "Age of Menarche in Warsaw",
+   "parameters" : {
+      "Menarche" : "Number who have reached menarche.",
+      "Total" : "Total number of children in the group.",
+      "Age" : "Average age of the group.  (The groups are reasonably age homogeneous.)"
+   }
 }
 
 var menarche = [

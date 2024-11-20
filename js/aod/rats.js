@@ -1,14 +1,14 @@
 var ratsInfo ={
    "parameters" : {
-      "group" : "A factor with levels CTRL and TREAT",
+      "y" : "A numeric vector: the number of pups that survived the 21 day lactation.",
       "n" : "A numeric vector: the number of pups alive at 4 days.",
-      "y" : "A numeric vector: the number of pups that survived the 21 day lactation."
+      "group" : "A factor with levels CTRL and TREAT"
    },
-   "title" : "Rats Diet Experiment",
-   "format" : "A data frame with 32 observations on the following 3 variables.",
-   "reference" : "Williams, D.A., 1975. The analysis of binary responses from toxicological experiments\ninvolving reproduction and teratogenicity. Biometrics 31, 949-952.",
    "description" : "Description\n&ldquo;Weil (1970) in Table 1 gives the results from an experiment comprising two treatments. One group of \n16 pregnant female rats was fed a control diet during pregnancy and lactation, the diet of a second group of 16 pregnant \nfemales was treated with a chemical. For each litter the number n of pups alive at 4 days and the number x \nof pups that survived the 21 day lactation period were recorded.&rdquo; (Williams, 1975, p. 951).",
-   "usage" : "data(rats)"
+   "title" : "Rats Diet Experiment",
+   "usage" : "data(rats)",
+   "reference" : "Williams, D.A., 1975. The analysis of binary responses from toxicological experiments\ninvolving reproduction and teratogenicity. Biometrics 31, 949-952.",
+   "format" : "A data frame with 32 observations on the following 3 variables."
 }
 
 var rats = [

@@ -1,8 +1,8 @@
 var InsectSpraysInfo ={
-   "description" : "Description\nThe counts of insects in agricultural experimental units treated with\ndifferent insecticides.",
+   "usage" : "InsectSprays",
    "title" : "Effectiveness of Insect Sprays",
-   "format" : "A data frame with 72 observations on 2 variables.",
-   "usage" : "InsectSprays"
+   "description" : "Description\nThe counts of insects in agricultural experimental units treated with\ndifferent insecticides.",
+   "format" : "A data frame with 72 observations on 2 variables."
 }
 
 var InsectSprays = [

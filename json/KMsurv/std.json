@@ -1,13 +1,4 @@
 {
-   "config" : {
-      "subtitle" : "KMsurv - std",
-      "graphType" : "Heatmap",
-      "title" : "data from Section 1.12",
-      "smpOverlays" : [
-         "race",
-         "marital"
-      ]
-   },
    "data" : {
       "y" : {
          "data" : [
@@ -19350,30 +19341,6 @@
                116
             ]
          ],
-         "vars" : [
-            "obs",
-            "age",
-            "yschool",
-            "iinfct",
-            "npartner",
-            "os12m",
-            "os30d",
-            "rs12m",
-            "rs30d",
-            "abdpain",
-            "discharge",
-            "dysuria",
-            "condom",
-            "itch",
-            "lesion",
-            "rash",
-            "lymph",
-            "vagina",
-            "dchexam",
-            "abnode",
-            "rinfct",
-            "time"
-         ],
          "smps" : [
             "Smp1",
             "Smp2",
@@ -20252,6 +20219,30 @@
             "Smp875",
             "Smp876",
             "Smp877"
+         ],
+         "vars" : [
+            "obs",
+            "age",
+            "yschool",
+            "iinfct",
+            "npartner",
+            "os12m",
+            "os30d",
+            "rs12m",
+            "rs30d",
+            "abdpain",
+            "discharge",
+            "dysuria",
+            "condom",
+            "itch",
+            "lesion",
+            "rash",
+            "lymph",
+            "vagina",
+            "dchexam",
+            "abnode",
+            "rinfct",
+            "time"
          ]
       },
       "x" : {
@@ -22015,5 +22006,14 @@
          ]
       }
    },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>std</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>data from Section 1.12</h2>\n<h3>Description</h3>\n<p>The <code>std</code> data frame has 877 rows and 3 columns.\n</p>\n<h3>Format</h3>\n<p>This data frame contains the following columns:\n</p>\n<dl>\n<dt>obs</dt><dd>\n<p>Observation number\n</p>\n</dd>\n<dt>race</dt><dd>\n<p>Race (W=white, B=black)\n</p>\n</dd>\n<dt>marital</dt><dd>\n<p>Marital status (D=divorced / separated, M=married, S=single)\n</p>\n</dd>\n<dt>age</dt><dd>\n<p>AGE\n</p>\n</dd>\n<dt>yschool</dt><dd>\n<p>Years of schooling\n</p>\n</dd>\n<dt>iinfct</dt><dd>\n<p>Initial infection (1= gonorrhea, 2=chlamydia, 3=both)\n</p>\n</dd>\n<dt>npartner</dt><dd>\n<p>Number of partners\n</p>\n</dd>\n<dt>os12m</dt><dd>\n<p>Oral sex within 12 months (1=yes, 0=no)\n</p>\n</dd>\n<dt>os30d</dt><dd>\n<p>Oral sex within 30 days (1=yes, 0=no)\n</p>\n</dd>\n<dt>rs12m</dt><dd>\n<p>Rectal sex within 12 months (1=yes, 0=no)\n</p>\n</dd>\n<dt>rs30d</dt><dd>\n<p>Rectal sex within 30 days (1=yes, 0=no)\n</p>\n</dd>\n<dt>abdpain</dt><dd>\n<p>Presence of abdominal pain (1=yes, 0=no)\n</p>\n</dd>\n<dt>discharge</dt><dd>\n<p>Sign of discharge (1=yes, 0=no)\n</p>\n</dd>\n<dt>dysuria</dt><dd>\n<p>Sign of dysuria (1=yes, 0=no)\n</p>\n</dd>\n<dt>condom</dt><dd>\n<p>Condom use (1=always, 2=sometime, 3=never)\n</p>\n</dd>\n<dt>itch</dt><dd>\n<p>Sign of itch (1=yes, 0=no)\n</p>\n</dd>\n<dt>lesion</dt><dd>\n<p>Sign of lesion (1=yes, 0=no)\n</p>\n</dd>\n<dt>rash</dt><dd>\n<p>Sign of rash (1=yes, 0=no)\n</p>\n</dd>\n<dt>lymph</dt><dd>\n<p>Sign of lymph (1=yes, 0=no)\n</p>\n</dd>\n<dt>vagina</dt><dd>\n<p>Involvement vagina at exam (1=yes, 0=no)\n</p>\n</dd>\n<dt>dchexam</dt><dd>\n<p>Discharge at exam (1=yes, 0=no)\n</p>\n</dd>\n<dt>abnode</dt><dd>\n<p>Abnormal node at exam (1=yes, 0=no)\n</p>\n</dd>\n<dt>rinfct</dt><dd>\n<p>Reinfection (1=yes, 0=no)\n</p>\n</dd>\n<dt>time</dt><dd>\n<p>Time to reinfection\n</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>Klein and Moeschberger (1997) <em>Survival Analysis Techniques for Censored\nand truncated data</em>, Springer.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>data(std)\n</code></pre>\n</main>\n</div>\n"
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>std</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>data from Section 1.12</h2>\n<h3>Description</h3>\n<p>The <code>std</code> data frame has 877 rows and 3 columns.\n</p>\n<h3>Format</h3>\n<p>This data frame contains the following columns:\n</p>\n<dl>\n<dt>obs</dt><dd>\n<p>Observation number\n</p>\n</dd>\n<dt>race</dt><dd>\n<p>Race (W=white, B=black)\n</p>\n</dd>\n<dt>marital</dt><dd>\n<p>Marital status (D=divorced / separated, M=married, S=single)\n</p>\n</dd>\n<dt>age</dt><dd>\n<p>AGE\n</p>\n</dd>\n<dt>yschool</dt><dd>\n<p>Years of schooling\n</p>\n</dd>\n<dt>iinfct</dt><dd>\n<p>Initial infection (1= gonorrhea, 2=chlamydia, 3=both)\n</p>\n</dd>\n<dt>npartner</dt><dd>\n<p>Number of partners\n</p>\n</dd>\n<dt>os12m</dt><dd>\n<p>Oral sex within 12 months (1=yes, 0=no)\n</p>\n</dd>\n<dt>os30d</dt><dd>\n<p>Oral sex within 30 days (1=yes, 0=no)\n</p>\n</dd>\n<dt>rs12m</dt><dd>\n<p>Rectal sex within 12 months (1=yes, 0=no)\n</p>\n</dd>\n<dt>rs30d</dt><dd>\n<p>Rectal sex within 30 days (1=yes, 0=no)\n</p>\n</dd>\n<dt>abdpain</dt><dd>\n<p>Presence of abdominal pain (1=yes, 0=no)\n</p>\n</dd>\n<dt>discharge</dt><dd>\n<p>Sign of discharge (1=yes, 0=no)\n</p>\n</dd>\n<dt>dysuria</dt><dd>\n<p>Sign of dysuria (1=yes, 0=no)\n</p>\n</dd>\n<dt>condom</dt><dd>\n<p>Condom use (1=always, 2=sometime, 3=never)\n</p>\n</dd>\n<dt>itch</dt><dd>\n<p>Sign of itch (1=yes, 0=no)\n</p>\n</dd>\n<dt>lesion</dt><dd>\n<p>Sign of lesion (1=yes, 0=no)\n</p>\n</dd>\n<dt>rash</dt><dd>\n<p>Sign of rash (1=yes, 0=no)\n</p>\n</dd>\n<dt>lymph</dt><dd>\n<p>Sign of lymph (1=yes, 0=no)\n</p>\n</dd>\n<dt>vagina</dt><dd>\n<p>Involvement vagina at exam (1=yes, 0=no)\n</p>\n</dd>\n<dt>dchexam</dt><dd>\n<p>Discharge at exam (1=yes, 0=no)\n</p>\n</dd>\n<dt>abnode</dt><dd>\n<p>Abnormal node at exam (1=yes, 0=no)\n</p>\n</dd>\n<dt>rinfct</dt><dd>\n<p>Reinfection (1=yes, 0=no)\n</p>\n</dd>\n<dt>time</dt><dd>\n<p>Time to reinfection\n</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>Klein and Moeschberger (1997) <em>Survival Analysis Techniques for Censored\nand truncated data</em>, Springer.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>data(std)\n</code></pre>\n</main>\n</div>\n",
+   "config" : {
+      "subtitle" : "KMsurv - std",
+      "title" : "data from Section 1.12",
+      "graphType" : "Heatmap",
+      "smpOverlays" : [
+         "race",
+         "marital"
+      ]
+   }
 }

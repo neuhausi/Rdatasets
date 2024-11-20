@@ -1,0 +1,12 @@
+{
+   "reference" : "Five dogs had their pancreas removed to make them diabetic (Operation=yes), the other five were normal (Operation=no). The rate of turnover of lactic acid was measured for each dog by two methods, infusion and injection.",
+   "usage" : "A data frame with 20 observations on the following 4 variables.",
+   "description" : "Description\nThe rate of lactic acid turnover was measured by two methods for normal and diabetic dogs.",
+   "title" : "Lactic Acid Turnover in Dogs",
+   "parameters" : {
+      "Response" : "Rate for biochemical turnover of lactic acid",
+      "Method" : "Tracer method to measure response (infuse or inject)",
+      "Operation" : "Pancreas removed to make the dog diabetic? (no or yes)",
+      "Dog" : "Code for individual dogs (d1 through d10)"
+   }
+}

@@ -1,17 +1,17 @@
 var petrolInfo ={
-   "description" : "Description\nThe yield of a petroleum refining process with four covariates.\nThe crude oil appears to come from only 10 distinct samples.\nThese data were originally used by Prater (1956) to\nbuild an estimation equation for the yield of the refining\nprocess of crude oil to gasoline.",
-   "usage" : "petrol",
+   "format" : "The variables are as follows",
    "parameters" : {
-      "VP" : "vapour pressure in pounds per square inch. (Constant within sample.)",
       "V10" : "volatility of crude; ASTM 10% point. (Constant within sample.)",
+      "Y" : "yield as a percentage of crude.",
       "SG" : "specific gravity, degrees API.  (Constant within sample.)",
       "EP" : "desired volatility of gasoline. (The end point.  Varies within sample.)",
       "No" : "crude oil sample identification label. (Factor.)",
-      "Y" : "yield as a percentage of crude."
+      "VP" : "vapour pressure in pounds per square inch. (Constant within sample.)"
    },
    "reference" : "N. H. Prater (1956) Estimate gasoline yields from\ncrudes. Petroleum Refiner 35, 236&ndash;238.",
-   "title" : "N. L. Prater's Petrol Refinery Data",
-   "format" : "The variables are as follows"
+   "usage" : "petrol",
+   "description" : "Description\nThe yield of a petroleum refining process with four covariates.\nThe crude oil appears to come from only 10 distinct samples.\nThese data were originally used by Prater (1956) to\nbuild an estimation equation for the yield of the refining\nprocess of crude oil to gasoline.",
+   "title" : "N. L. Prater's Petrol Refinery Data"
 }
 
 var petrol = [

@@ -1,8 +1,8 @@
 var goldInfo ={
-   "description" : "Description\nDaily morning gold prices in US dollars. 1 January 1985 &ndash; 31 March 1989.",
-   "format" : "Time series data",
+   "usage" : "gold",
    "title" : "Daily morning gold prices",
-   "usage" : "gold"
+   "description" : "Description\nDaily morning gold prices in US dollars. 1 January 1985 &ndash; 31 March 1989.",
+   "format" : "Time series data"
 }
 
 var gold = [

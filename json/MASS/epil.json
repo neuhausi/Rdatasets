@@ -1,4 +1,12 @@
 {
+   "config" : {
+      "title" : "Seizure Counts for Epileptics",
+      "subtitle" : "MASS - epil",
+      "smpOverlays" : [
+         "trt"
+      ],
+      "graphType" : "Heatmap"
+   },
    "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>epil</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>\nSeizure Counts for Epileptics\n</h2>\n<h3>Description</h3>\n<p>Thall and Vail (1990) give a data set on two-week seizure counts for\n59 epileptics.  The number of seizures was recorded for a baseline\nperiod of 8 weeks, and then patients were randomly assigned to a\ntreatment group or a control group.  Counts were then recorded for\nfour successive two-week periods. The subject's age is the only\ncovariate.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>epil\n</code></pre>\n<h3>Format</h3>\n<p>This data frame has 236 rows and the following 9 columns:\n</p>\n<dl>\n<dt><code>y</code></dt><dd>\n<p>the count for the 2-week period.\n</p>\n</dd>\n<dt><code>trt</code></dt><dd>\n<p>treatment, <code>\"placebo\"</code> or <code>\"progabide\"</code>.\n</p>\n</dd>\n<dt><code>base</code></dt><dd>\n<p>the counts in the baseline 8-week period.\n</p>\n</dd>\n<dt><code>age</code></dt><dd>\n<p>subject's age, in years.\n</p>\n</dd>\n<dt><code>V4</code></dt><dd>\n<p><code>0/1</code> indicator variable of period 4.\n</p>\n</dd>\n<dt><code>subject</code></dt><dd>\n<p>subject number, 1 to 59.\n</p>\n</dd>\n<dt><code>period</code></dt><dd>\n<p>period, 1 to 4.\n</p>\n</dd>\n<dt><code>lbase</code></dt><dd>\n<p>log-counts for the baseline period, centred to have zero mean.\n</p>\n</dd>\n<dt><code>lage</code></dt><dd>\n<p>log-ages, centred to have zero mean.\n</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>Thall, P. F. and Vail, S. C. (1990)\nSome covariance models for longitudinal count data with over-dispersion.\n<em>Biometrics</em> <b>46</b>, 657&ndash;671.\n</p>\n<h3>References</h3>\n<p>Venables, W. N. and Ripley, B. D. (2002)\n<em>Modern Applied Statistics with S.</em> Fourth Edition. Springer.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>## IGNORE_RDIFF_BEGIN\nsummary(glm(y ~ lbase*trt + lage + V4, family = poisson,\n            data = epil), correlation = FALSE)\n## IGNORE_RDIFF_END\nepil2 &lt;- epil[epil$period == 1, ]\nepil2[\"period\"] &lt;- rep(0, 59); epil2[\"y\"] &lt;- epil2[\"base\"]\nepil[\"time\"] &lt;- 1; epil2[\"time\"] &lt;- 4\nepil2 &lt;- rbind(epil, epil2)\nepil2$pred &lt;- unclass(epil2$trt) * (epil2$period &gt; 0)\nepil2$subject &lt;- factor(epil2$subject)\nepil3 &lt;- aggregate(epil2, list(epil2$subject, epil2$period &gt; 0),\n   function(x) if(is.numeric(x)) sum(x) else x[1])\nepil3$pred &lt;- factor(epil3$pred,\n   labels = c(\"base\", \"placebo\", \"drug\"))\ncontrasts(epil3$pred) &lt;- structure(contr.sdif(3),\n    dimnames = list(NULL, c(\"placebo-base\", \"drug-placebo\")))\n## IGNORE_RDIFF_BEGIN\nsummary(glm(y ~ pred + factor(subject) + offset(log(time)),\n            family = poisson, data = epil3), correlation = FALSE)\n## IGNORE_RDIFF_END\nsummary(glmmPQL(y ~ lbase*trt + lage + V4,\n                random = ~ 1 | subject,\n                family = poisson, data = epil))\nsummary(glmmPQL(y ~ pred, random = ~1 | subject,\n                family = poisson, data = epil3))\n</code></pre>\n</main>\n</div>\n",
    "data" : {
       "x" : {
@@ -242,6 +250,16 @@
          ]
       },
       "y" : {
+         "vars" : [
+            "y",
+            "base",
+            "age",
+            "V4",
+            "subject",
+            "period",
+            "lbase",
+            "lage"
+         ],
          "smps" : [
             "Smp1",
             "Smp2",
@@ -479,16 +497,6 @@
             "Smp234",
             "Smp235",
             "Smp236"
-         ],
-         "vars" : [
-            "y",
-            "base",
-            "age",
-            "V4",
-            "subject",
-            "period",
-            "lbase",
-            "lage"
          ],
          "data" : [
             [
@@ -2397,13 +2405,5 @@
             ]
          ]
       }
-   },
-   "config" : {
-      "smpOverlays" : [
-         "trt"
-      ],
-      "graphType" : "Heatmap",
-      "title" : "Seizure Counts for Epileptics",
-      "subtitle" : "MASS - epil"
    }
 }

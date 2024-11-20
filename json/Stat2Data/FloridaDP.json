@@ -1,11 +1,4 @@
 {
-   "config" : {
-      "title" : "Florida Death Penalty Cases",
-      "shapeBy" : "Penalty",
-      "colorBy" : "Defendant",
-      "graphType" : "Scatter2D",
-      "subtitle" : "Stat2Data - FloridaDP"
-   },
    "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>FloridaDP</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Florida Death Penalty Cases</h2>\n<h3>Description</h3>\n<p>Florida death penalty cases by race of defendant and victim\n</p>\n<h3>Format</h3>\n<p>A data frame with 326 observations on the following 4 variables.\n</p>\n<dl>\n<dt><code>Penalty</code></dt><dd><p>Was death penalty given? (<code>No</code> or <code>Yes</code>)</p>\n</dd>\n<dt><code>Defendant</code></dt><dd><p>Race of the defendant (<code>Black</code> or <code>White</code>)</p>\n</dd>\n<dt><code>White.Victim</code></dt><dd><p>Was the victim white? (<code>1</code>=yes or <code>0</code>=no)</p>\n</dd>\n<dt><code>Black.Victim</code></dt><dd><p>Was the victim black? (<code>1</code>=yes or <code>0</code>=no)</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>Mike Radelet's data on imposition of the death penalty for murderers in Florida broken down by race of the victim and defendant.\n</p>\n<h3>Source</h3>\n<p>Radelet, M. (1981), &quot;Racial Characteristics and Imposition of the Death Penalty,&quot; American Sociological Review, 46, 918-927.\n</p>\n</main>\n</div>\n",
    "data" : {
       "z" : {
@@ -667,6 +660,10 @@
          ]
       },
       "y" : {
+         "smps" : [
+            "White.Victim",
+            "Black.Victim"
+         ],
          "data" : [
             [
                1,
@@ -2300,11 +2297,14 @@
             "Var324",
             "Var325",
             "Var326"
-         ],
-         "smps" : [
-            "White.Victim",
-            "Black.Victim"
          ]
       }
+   },
+   "config" : {
+      "shapeBy" : "Penalty",
+      "colorBy" : "Defendant",
+      "graphType" : "Scatter2D",
+      "subtitle" : "Stat2Data - FloridaDP",
+      "title" : "Florida Death Penalty Cases"
    }
 }

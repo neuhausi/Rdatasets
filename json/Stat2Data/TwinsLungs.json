@@ -1,6 +1,44 @@
 {
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>TwinsLungs</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Comparing Twins Ability to Clear Radioactive Particles</h2>\n<h3>Description</h3>\n<p>Experiment comparing twins (one urban, one rural) ability to clear airborne radioactive particles from their lungs\n</p>\n<h3>Format</h3>\n<p>A dataset with 14 observations on the following 3 variables.\n</p>\n<table>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Pair</code></td><td style=\"text-align: left;\"> Code for the twin pair: <code>A</code> - <code>G</code></td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Environ</code></td><td style=\"text-align: left;\"> Living environment:  <code>Rural</code> or <code>Urban</code></td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Percent</code></td><td style=\"text-align: left;\"> Percentage of radioactivity remaining in lungs</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n  </td>\n</tr>\n</table>\n<h3>Details</h3>\n<p>This dataset is from a study to compare the effect of living environment (rural or urban) on human lung function,\nwhere the researchers were able to locate seven pairs of twins with one twin in each pair living\nin the country, the other in a city. To measure lung function, twins inhaled  an aerosol of radioactive Teflon particles.   By\nmeasuring the  level of radioactivity immediately  and  then  again  after  an hour,  the  scientists  could\nmeasure the  rate  of &ldquo;tracheobronchial clearance.&quot;   The  percentage  of radioactivity remaining\nin the  lungs after  an hour  told  how quickly subjects'  lungs cleared the  inhaled  particles.\n</p>\n<p>This dataset was renamed as RadioactiveTwins for the second edition.\n</p>\n<h3>Source</h3>\n<p>&ldquo;Urban factor and tracheobronchial clearance&quot; by Per Camner and Klas Philipson in Archives of Environmental\nHealth, V. 27 (1973), page 82. Data can be found in Introduction to Mathematical Statistics and its Applications,\n2nd Edition by Richard J. Larson and Morris L. Marx. Englewood Cliffs, NJ: Prentice Hall, p. 548.\n</p>\n</main>\n</div>\n",
    "data" : {
+      "y" : {
+         "vars" : [
+            "Percent"
+         ],
+         "data" : [
+            [
+               10.1,
+               51.8,
+               33.5,
+               32.8,
+               69,
+               38.8,
+               54.6,
+               28.1,
+               36.2,
+               40.7,
+               38.8,
+               71,
+               47,
+               57
+            ]
+         ],
+         "smps" : [
+            "Smp1",
+            "Smp2",
+            "Smp3",
+            "Smp4",
+            "Smp5",
+            "Smp6",
+            "Smp7",
+            "Smp8",
+            "Smp9",
+            "Smp10",
+            "Smp11",
+            "Smp12",
+            "Smp13",
+            "Smp14"
+         ]
+      },
       "x" : {
          "Environ" : [
             "Rural",
@@ -34,57 +72,19 @@
             "F",
             "G"
          ]
-      },
-      "y" : {
-         "vars" : [
-            "Percent"
-         ],
-         "smps" : [
-            "Smp1",
-            "Smp2",
-            "Smp3",
-            "Smp4",
-            "Smp5",
-            "Smp6",
-            "Smp7",
-            "Smp8",
-            "Smp9",
-            "Smp10",
-            "Smp11",
-            "Smp12",
-            "Smp13",
-            "Smp14"
-         ],
-         "data" : [
-            [
-               10.1,
-               51.8,
-               33.5,
-               32.8,
-               69,
-               38.8,
-               54.6,
-               28.1,
-               36.2,
-               40.7,
-               38.8,
-               71,
-               47,
-               57
-            ]
-         ]
       }
    },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>TwinsLungs</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Comparing Twins Ability to Clear Radioactive Particles</h2>\n<h3>Description</h3>\n<p>Experiment comparing twins (one urban, one rural) ability to clear airborne radioactive particles from their lungs\n</p>\n<h3>Format</h3>\n<p>A dataset with 14 observations on the following 3 variables.\n</p>\n<table>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Pair</code></td><td style=\"text-align: left;\"> Code for the twin pair: <code>A</code> - <code>G</code></td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Environ</code></td><td style=\"text-align: left;\"> Living environment:  <code>Rural</code> or <code>Urban</code></td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Percent</code></td><td style=\"text-align: left;\"> Percentage of radioactivity remaining in lungs</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n  </td>\n</tr>\n</table>\n<h3>Details</h3>\n<p>This dataset is from a study to compare the effect of living environment (rural or urban) on human lung function,\nwhere the researchers were able to locate seven pairs of twins with one twin in each pair living\nin the country, the other in a city. To measure lung function, twins inhaled  an aerosol of radioactive Teflon particles.   By\nmeasuring the  level of radioactivity immediately  and  then  again  after  an hour,  the  scientists  could\nmeasure the  rate  of &ldquo;tracheobronchial clearance.&quot;   The  percentage  of radioactivity remaining\nin the  lungs after  an hour  told  how quickly subjects'  lungs cleared the  inhaled  particles.\n</p>\n<p>This dataset was renamed as RadioactiveTwins for the second edition.\n</p>\n<h3>Source</h3>\n<p>&ldquo;Urban factor and tracheobronchial clearance&quot; by Per Camner and Klas Philipson in Archives of Environmental\nHealth, V. 27 (1973), page 82. Data can be found in Introduction to Mathematical Statistics and its Applications,\n2nd Edition by Richard J. Larson and Morris L. Marx. Englewood Cliffs, NJ: Prentice Hall, p. 548.\n</p>\n</main>\n</div>\n",
    "config" : {
       "title" : "Comparing Twins Ability to Clear Radioactive Particles",
-      "segregateSamplesBy" : [
-         "Pair"
+      "groupingFactors" : [
+         "Environ"
       ],
       "subtitle" : "Stat2Data - TwinsLungs",
       "colorBy" : "variable",
       "graphType" : "Boxplot",
-      "groupingFactors" : [
-         "Environ"
+      "segregateSamplesBy" : [
+         "Pair"
       ]
    }
 }

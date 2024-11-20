@@ -1,14 +1,14 @@
 var oringsInfo ={
-   "usage" : "orings",
-   "description" : "Description\nRecord of the number and type of O-ring failures prior to the\ntragic Challenger mission in January, 1986.",
-   "reference" : "Presidential Commission on the Space Shuttle Challenger Accident, \nVol. 1, 1986: 129-131.",
-   "title" : "Challenger O-rings Data",
    "format" : "This data frame contains the following columns:",
+   "reference" : "Presidential Commission on the Space Shuttle Challenger Accident, \nVol. 1, 1986: 129-131.",
+   "usage" : "orings",
+   "title" : "Challenger O-rings Data",
+   "description" : "Description\nRecord of the number and type of O-ring failures prior to the\ntragic Challenger mission in January, 1986.",
    "parameters" : {
-      "Blowby" : "Number of blowby incidents",
       "Total" : "Total number of incidents",
-      "Temperature" : "O-ring temperature for each test firing or\nactual launch of the shuttle rocket engine",
-      "Erosion" : "Number of erosion incidents"
+      "Erosion" : "Number of erosion incidents",
+      "Blowby" : "Number of blowby incidents",
+      "Temperature" : "O-ring temperature for each test firing or\nactual launch of the shuttle rocket engine"
    }
 }
 

@@ -1,0 +1,21 @@
+{
+   "parameters" : {
+      "adt" : "average daily traffic count in thousands",
+      "trks" : "truck volume as a percent of the total volume",
+      "htype" : "An indicator of the type of roadway or the source of funding\nfor the road, either MC, FAI, PA, or  MA",
+      "lwid" : "lane width, in feet",
+      "lane" : "total number of lanes of traffic",
+      "shld" : "width in feet of outer shoulder on the roadway",
+      "slim" : "speed limit in 1973",
+      "len" : "length of the Highway1 segment in miles",
+      "sigs1" : "(number of signalized interchanges per mile times len + 1)/len, the number\nof signals per mile of roadway, adjusted to have no zero values.",
+      "itg" : "number of freeway-type interchanges per mile",
+      "acpt" : "number of access points per mile",
+      "rate" : "1973 accident rate per million vehicle miles"
+   },
+   "title" : "Highway Accidents",
+   "description" : "Description\nThe data comes from a unpublished master's paper by Carl Hoffstedt. They relate the automobile accident rate, \nin accidents per million vehicle miles to several potential terms.  The data include 39 sections of large \nhighways in the state of Minnesota in 1973.  The goal of this analysis was to understand the impact \nof design variables, Acpts, Slim, Sig, and Shld that are under the control of \nthe highway department, on accidents.",
+   "reference" : "Carl Hoffstedt.  This differs from the dataset Highway in the\nalr4 package only by addition of transformation of some of the columns.",
+   "usage" : "Highway1",
+   "format" : "This data frame contains the following columns:"
+}

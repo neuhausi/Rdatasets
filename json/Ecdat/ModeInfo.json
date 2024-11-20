@@ -1,0 +1,11 @@
+{
+   "format" : "A dataframe containing :",
+   "usage" : "data(Mode)",
+   "title" : "Mode Choice",
+   "description" : "Description\na cross-section\nnumber of observations :  453\nobservation :  individuals",
+   "parameters" : {
+      "cost.z" : "cost of mode z",
+      "choice" : "one of car, carpool, bus or rail",
+      "time.z" : "time of mode z"
+   }
+}

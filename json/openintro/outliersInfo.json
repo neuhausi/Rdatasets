@@ -1,0 +1,14 @@
+{
+   "usage" : "outliers",
+   "reference" : "outliers",
+   "description" : "Description\nData sets for showing different types of outliers",
+   "title" : "Simulated datasets for different types of outliers",
+   "parameters" : {
+      "y_out" : "a numeric vector",
+      "y_lev" : "a numeric vector",
+      "x" : "a numeric vector",
+      "y" : "a numeric vector",
+      "x_inf" : "a numeric vector"
+   },
+   "format" : "A data frame with 50 observations on the following 5 variables."
+}

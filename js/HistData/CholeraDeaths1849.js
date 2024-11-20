@@ -1,17 +1,17 @@
 var CholeraDeaths1849Info ={
    "format" : "A data frame with 730 observations on the following 6 variables.",
-   "reference" : "The data set was transcribed by James Riley to a spreadsheet, https://github.com/jimr1603/1849-cholera.\nHe notes, \"the scan at Internet Archive has a fold on day 11. I have derived this column from the row totals.\"",
+   "description" : "Description\nDeaths from Cholera and Diarrhaea, for each day of the month of each of the 12 months of 1849.\nThis was used by William Farr (GRO & Farr, 1852, Plate 2) to produce a time series chart of these deaths,\nin which he also recorded various meteorological phenomena (barometer, wind, rain),\nto see if he could find any patterns. This chart is available on the web site\nfor Friendly & Wainer (2021) as Fig 4.1, https://friendly.github.io/HistDataVis/figs-web/04_1-cholera-diarrhea.png.\nJames Riley (2023) notes, \"Cholera 1849 has special significance &mdash; it is likely to be one of few modern pandemics that was completely unmitigated.\"",
    "title" : "Daily Deaths from Cholera and Diarrhaea in England, 1849",
-   "parameters" : {
-      "date" : "a Date",
-      "day_of_week" : "an ordered factor with levels Mon < Tue < Wed < Thu < Fri < Sat < Sun",
-      "deaths" : "a numeric vector",
-      "month" : "a character vector",
-      "day_of_month" : "a character vector",
-      "cause_of_death" : "a factor with levels Cholera Diarrhaea"
-   },
    "usage" : "data(\"CholeraDeaths1849\")",
-   "description" : "Description\nDeaths from Cholera and Diarrhaea, for each day of the month of each of the 12 months of 1849.\nThis was used by William Farr (GRO & Farr, 1852, Plate 2) to produce a time series chart of these deaths,\nin which he also recorded various meteorological phenomena (barometer, wind, rain),\nto see if he could find any patterns. This chart is available on the web site\nfor Friendly & Wainer (2021) as Fig 4.1, https://friendly.github.io/HistDataVis/figs-web/04_1-cholera-diarrhea.png.\nJames Riley (2023) notes, \"Cholera 1849 has special significance &mdash; it is likely to be one of few modern pandemics that was completely unmitigated.\""
+   "reference" : "The data set was transcribed by James Riley to a spreadsheet, https://github.com/jimr1603/1849-cholera.\nHe notes, \"the scan at Internet Archive has a fold on day 11. I have derived this column from the row totals.\"",
+   "parameters" : {
+      "deaths" : "a numeric vector",
+      "date" : "a Date",
+      "day_of_month" : "a character vector",
+      "month" : "a character vector",
+      "cause_of_death" : "a factor with levels Cholera Diarrhaea",
+      "day_of_week" : "an ordered factor with levels Mon < Tue < Wed < Thu < Fri < Sat < Sun"
+   }
 }
 
 var CholeraDeaths1849 = [

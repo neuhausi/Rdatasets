@@ -1,13 +1,13 @@
 var FingersInfo ={
-   "parameters" : {
-      "Subject" : "Subject code (I, II, III, or IV)",
-      "TapRate" : "Finger taps in a fixed time interval",
-      "Drug" : "Drug administered (Ca=caffeine, Pl=placebo, or  Th=theobromine)"
-   },
-   "description" : "Description\nFinger tap rates after drug administration",
    "title" : "Finger Tap Rates",
+   "description" : "Description\nFinger tap rates after drug administration",
+   "usage" : "A data frame with 12 observations on the following 4 variables.",
    "reference" : "Scientists Scott and Chen, published\nresearch that compared the effects of caffeine with those of theobromine (a similar chemical\nfound in chocolate) and with those of a placebo. Their experiment used four human subjects, and\ntook place over several days. Each day each subject swallowed a tablet containing one of caffeine,\ntheobromine, or the placebo. Two hours later they were timed while tapping a finger in a specified\nmanner (that they had practiced earlier, to control for learning effects). The response is the number\nof taps in a fixed time interval.",
-   "usage" : "A data frame with 12 observations on the following 4 variables."
+   "parameters" : {
+      "Drug" : "Drug administered (Ca=caffeine, Pl=placebo, or  Th=theobromine)",
+      "TapRate" : "Finger taps in a fixed time interval",
+      "Subject" : "Subject code (I, II, III, or IV)"
+   }
 }
 
 var Fingers = [

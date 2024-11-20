@@ -1,16 +1,16 @@
 var ChinaIncomeInfo ={
-   "description" : "Description\nTime series of real national income in China per section (index with 1952 = 100).",
-   "usage" : "data(\"ChinaIncome\")",
+   "format" : "An annual multiple time series from 1952 to 1988 with 5 variables.",
    "parameters" : {
       "construction" : "Real national income in construction sector.",
-      "agriculture" : "Real national income in agriculture sector.",
+      "commerce" : "Real national income in commerce sector.",
       "transport" : "Real national income in transport sector.",
       "industry" : "Real national income in industry sector.",
-      "commerce" : "Real national income in commerce sector."
+      "agriculture" : "Real national income in agriculture sector."
    },
+   "description" : "Description\nTime series of real national income in China per section (index with 1952 = 100).",
+   "title" : "Chinese Real National Income Data",
    "reference" : "Online complements to Franses (1998).",
-   "format" : "An annual multiple time series from 1952 to 1988 with 5 variables.",
-   "title" : "Chinese Real National Income Data"
+   "usage" : "data(\"ChinaIncome\")"
 }
 
 var ChinaIncome = [

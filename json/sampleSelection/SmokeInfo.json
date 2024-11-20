@@ -1,0 +1,17 @@
+{
+   "description" : "Description\n'Instructional dataset, N=807, cross-sectional individual data on smoking \naccompanying Introductory Econometrics: A Modern Approach, \nJeffrey M. Wooldridge, South-Western College Publishing, (c) 2000 and Jeffrey \nM. Wooldridge, Econometric Analysis of Cross Section and Panel Data, MIT Press,\n(c) 2001.'\n(https://ideas.repec.org/p/boc/bocins/smoke.html#biblio, accessed \nFebruary 27, 2017).\nThis dataset is a subset of data used in Mullahy (1997).\nData was collected in 1979 and 1980 through the Smoking Supplement to the\nUS National Health Interview Survey.",
+   "title" : "Survey Responses on Smoking Behaviour",
+   "reference" : "Wooldridge(2009)'s dataset also available in other formats at\nhttps://ideas.repec.org/p/boc/bocins/smoke.html#biblio.",
+   "usage" : "data(Smoke)",
+   "parameters" : {
+      "income" : "Annual income in USD.",
+      "cigpric" : "State cigarette price, cents per pack.",
+      "cigs" : "Number of cigarettes smoked per day.",
+      "age" : "Respondents age in years.",
+      "restaurn" : "Dummy variable indicating if state restaurant smoking \nrestrictions are in place.",
+      "cigs_intervals" : "Number of cigarettes smoked per day, coded in \nintervals with intervals boundaries: (0,5,10,20,50)",
+      "smoker" : "Dummy variable indicating if person has smoked at least\none cigarette.",
+      "educ" : "Years of schooling."
+   },
+   "format" : "This data frame contains the following columns:"
+}

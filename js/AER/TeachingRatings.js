@@ -1,23 +1,23 @@
 var TeachingRatingsInfo ={
-   "reference" : "A sample of student instructional ratings for a group of university teachers along with\nbeauty rating (average from six independent judges)  and a number of other characteristics.",
-   "title" : "Impact of Beauty on Instructor's Teaching Ratings",
    "format" : "A data frame containing 463 observations on 13 variables.",
    "parameters" : {
       "prof" : "factor indicating instructor identifier.",
-      "minority" : "factor. Does the instructor belong to a minority (non-Caucasian)?",
-      "gender" : "factor indicating instructor's gender.",
-      "credits" : "factor. Is the course a single-credit elective (e.g., yoga, aerobics, dance)?",
+      "division" : "factor. Is the course an upper or lower division course? (Lower division\ncourses are mainly large freshman and sophomore courses)?",
       "native" : "factor. Is the instructor a native English speaker?",
-      "beauty" : "rating of the instructor's physical appearance by a panel of six students,\naveraged across the six panelists, shifted to have a mean of zero.",
+      "gender" : "factor indicating instructor's gender.",
       "tenure" : "factor. Is the instructor on tenure track?",
-      "allstudents" : "number of students enrolled in the course.",
+      "credits" : "factor. Is the course a single-credit elective (e.g., yoga, aerobics, dance)?",
+      "minority" : "factor. Does the instructor belong to a minority (non-Caucasian)?",
+      "age" : "the professor's age.",
+      "beauty" : "rating of the instructor's physical appearance by a panel of six students,\naveraged across the six panelists, shifted to have a mean of zero.",
       "students" : "number of students that participated in the evaluation.",
       "eval" : "course overall teaching evaluation score, on\na scale of 1 (very unsatisfactory) to 5 (excellent).",
-      "age" : "the professor's age.",
-      "division" : "factor. Is the course an upper or lower division course? (Lower division\ncourses are mainly large freshman and sophomore courses)?"
+      "allstudents" : "number of students enrolled in the course."
    },
+   "description" : "Description\nData on course evaluations, course characteristics, and professor\ncharacteristics for 463 courses for the academic years 2000&ndash;2002 at the\nUniversity of Texas at Austin.",
+   "title" : "Impact of Beauty on Instructor's Teaching Ratings",
    "usage" : "data(\"TeachingRatings\")",
-   "description" : "Description\nData on course evaluations, course characteristics, and professor\ncharacteristics for 463 courses for the academic years 2000&ndash;2002 at the\nUniversity of Texas at Austin."
+   "reference" : "A sample of student instructional ratings for a group of university teachers along with\nbeauty rating (average from six independent judges)  and a number of other characteristics."
 }
 
 var TeachingRatings = [

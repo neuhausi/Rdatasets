@@ -1,25 +1,25 @@
 var lego_populationInfo ={
-   "description" : "Description\nData about Lego Sets for sale. Based on JSDSE article by Anna Peterson and Laura Ziegler\nData from their article was scrapped from multiple sources including brickset.com",
-   "usage" : "lego_population",
    "parameters" : {
-      "amazon_price" : "Price of the set at Amazon.",
-      "pages" : "Pages in the instruction booklet.",
-      "set_name" : "Name of the set.",
-      "pieces" : "Number of pieces in the set.",
-      "year" : "Year that it was produced.",
-      "ages" : "LEGO's recommended ages of children for the set",
-      "unique_pieces" : "Number of pieces classified as unique in the instruction manual.",
       "packaging" : "Type of packaging: bag, box, etc.",
       "size" : "Size of the lego pieces: Large if safe for small children and Small for older children.",
-      "weight" : "Weight of the set of LEGOS in pounds and kilograms.",
-      "price" : "Recommended retail price from LEGO.",
-      "item_number" : "Set Item number",
+      "set_name" : "Name of the set.",
+      "minifigures" : "Number of LEGO people in the data, if unknown \"NA\" was recorded.",
       "theme" : "Set theme: Duplo, City or Friends.",
-      "minifigures" : "Number of LEGO people in the data, if unknown \"NA\" was recorded."
+      "pieces" : "Number of pieces in the set.",
+      "price" : "Recommended retail price from LEGO.",
+      "weight" : "Weight of the set of LEGOS in pounds and kilograms.",
+      "unique_pieces" : "Number of pieces classified as unique in the instruction manual.",
+      "year" : "Year that it was produced.",
+      "pages" : "Pages in the instruction booklet.",
+      "amazon_price" : "Price of the set at Amazon.",
+      "ages" : "LEGO's recommended ages of children for the set",
+      "item_number" : "Set Item number"
    },
-   "format" : "A data frame with 1304 rows and 14 variables.",
+   "reference" : "Peterson, A. D., & Ziegler, L. (2021). Building a multiple linear regression model with LEGO brick data. Journal of Statistics and Data Science Education, 29(3),1-7. doi:10.1080/26939169.2021.1946450",
+   "usage" : "lego_population",
    "title" : "Population of Lego Sets for Sale between Jan. 1, 2018 and Sept. 11, 2020.",
-   "reference" : "Peterson, A. D., & Ziegler, L. (2021). Building a multiple linear regression model with LEGO brick data. Journal of Statistics and Data Science Education, 29(3),1-7. doi:10.1080/26939169.2021.1946450"
+   "description" : "Description\nData about Lego Sets for sale. Based on JSDSE article by Anna Peterson and Laura Ziegler\nData from their article was scrapped from multiple sources including brickset.com",
+   "format" : "A data frame with 1304 rows and 14 variables."
 }
 
 var lego_population = [

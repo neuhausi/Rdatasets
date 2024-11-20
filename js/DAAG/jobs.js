@@ -1,18 +1,18 @@
 var jobsInfo ={
-   "usage" : "jobs",
+   "title" : "Canadian Labour Force Summary Data (1995-96)",
    "description" : "Description\nThe number of workers in the Canadian\nlabour force broken down by region (BC, Alberta, Prairies,\nOntario, Quebec, Atlantic) for the 24-month period from January,\n1995 to December, 1996 (a time when Canada was emerging from a\ndeep economic recession).",
    "reference" : "These data have been seasonally adjusted.",
-   "format" : "This data frame contains the following columns:",
-   "title" : "Canadian Labour Force Summary Data (1995-96)",
+   "usage" : "jobs",
    "parameters" : {
-      "Alberta" : "monthly labour force counts in Alberta",
-      "Prairies" : "monthly labour force counts in Saskatchewan and \nManitoba",
-      "BC" : "monthly labour force counts in British Columbia",
-      "Date" : "year (in decimal form)",
-      "Ontario" : "monthly labour force counts in Ontario",
       "Quebec" : "monthly labour force counts in Quebec",
-      "Atlantic" : "monthly labour force counts in Newfoundland, Nova \nScotia, Prince Edward Island and New Brunswick"
-   }
+      "BC" : "monthly labour force counts in British Columbia",
+      "Ontario" : "monthly labour force counts in Ontario",
+      "Prairies" : "monthly labour force counts in Saskatchewan and \nManitoba",
+      "Alberta" : "monthly labour force counts in Alberta",
+      "Atlantic" : "monthly labour force counts in Newfoundland, Nova \nScotia, Prince Edward Island and New Brunswick",
+      "Date" : "year (in decimal form)"
+   },
+   "format" : "This data frame contains the following columns:"
 }
 
 var jobs = [

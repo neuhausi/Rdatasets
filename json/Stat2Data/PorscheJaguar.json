@@ -1,13 +1,20 @@
 {
    "config" : {
+      "subtitle" : "Stat2Data - PorscheJaguar",
       "scatterPlotMatrix" : 1,
-      "graphType" : "Scatter2D",
       "title" : "Porsche and Jaguar Prices",
-      "colorBy" : "Car",
-      "subtitle" : "Stat2Data - PorscheJaguar"
+      "graphType" : "Scatter2D",
+      "colorBy" : "Car"
    },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>PorscheJaguar</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Porsche and Jaguar Prices</h2>\n<h3>Description</h3>\n<p>Compare prices for Porsche and Jaguar cars offered for sale at an internet site\n</p>\n<h3>Format</h3>\n<p>A dataset with 60 observations on the following 5 variables.\n</p>\n<table>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Car</code> </td><td style=\"text-align: left;\"> Car model: <code>Jaguar</code> or  <code>Porsche</code></td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Price</code> </td><td style=\"text-align: left;\"> Price (in $1,000's)</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Age</code> </td><td style=\"text-align: left;\"> Age of the car (in years)</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Mileage</code> </td><td style=\"text-align: left;\"> Previous miles driven (in 1,000's)</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Porsche</code> </td><td style=\"text-align: left;\"> Indicator for Porsche (<code>1</code>) or Jaguar (<code>0</code>)</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n  </td>\n</tr>\n</table>\n<h3>Details</h3>\n<p>Two students collected samples of Porsche and Jaguar cars that were offered for sale at an internet site.\nIn addition to asking price, they recorded the model year (converting to age) and mileage of each advertised car.\n</p>\n<h3>Source</h3>\n<p>Student project data collected from autotrader.com in Spring 2007.\n</p>\n</main>\n</div>\n",
    "data" : {
       "y" : {
+         "smps" : [
+            "Price",
+            "Age",
+            "Mileage",
+            "Porsche"
+         ],
          "data" : [
             [
                69.4,
@@ -370,12 +377,6 @@
                0
             ]
          ],
-         "smps" : [
-            "Price",
-            "Age",
-            "Mileage",
-            "Porsche"
-         ],
          "vars" : [
             "Var1",
             "Var2",
@@ -503,6 +504,5 @@
             "Jaguar"
          ]
       }
-   },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>PorscheJaguar</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Porsche and Jaguar Prices</h2>\n<h3>Description</h3>\n<p>Compare prices for Porsche and Jaguar cars offered for sale at an internet site\n</p>\n<h3>Format</h3>\n<p>A dataset with 60 observations on the following 5 variables.\n</p>\n<table>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Car</code> </td><td style=\"text-align: left;\"> Car model: <code>Jaguar</code> or  <code>Porsche</code></td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Price</code> </td><td style=\"text-align: left;\"> Price (in $1,000's)</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Age</code> </td><td style=\"text-align: left;\"> Age of the car (in years)</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Mileage</code> </td><td style=\"text-align: left;\"> Previous miles driven (in 1,000's)</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Porsche</code> </td><td style=\"text-align: left;\"> Indicator for Porsche (<code>1</code>) or Jaguar (<code>0</code>)</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n  </td>\n</tr>\n</table>\n<h3>Details</h3>\n<p>Two students collected samples of Porsche and Jaguar cars that were offered for sale at an internet site.\nIn addition to asking price, they recorded the model year (converting to age) and mileage of each advertised car.\n</p>\n<h3>Source</h3>\n<p>Student project data collected from autotrader.com in Spring 2007.\n</p>\n</main>\n</div>\n"
+   }
 }

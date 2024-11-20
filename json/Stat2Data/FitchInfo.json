@@ -1,0 +1,13 @@
+{
+   "parameters" : {
+      "Skull" : "Skull length (in cm)",
+      "Species" : "species of mammal",
+      "Order" : "Order (Carnivora or Primates)",
+      "Palate" : "Palate length (in cm)",
+      "Wt" : "Body weight (in kg)"
+   },
+   "reference" : "Data on mammal species from a Zoology paper about acoustic allometry by W. Tecumseh Fitch.",
+   "usage" : "A data frame with 28 observations on the following 5 variables.",
+   "title" : "Body Measurements of Mammal Species",
+   "description" : "Description\nBody measurements for a sample of 28 mammal species from a Fitch paper on acoustic allometry"
+}

@@ -1,0 +1,28 @@
+{
+   "format" : "A data.frame with 445 observations on 19 variables:",
+   "parameters" : {
+      "agesq" : " age^2",
+      "train" : " =1 if assigned to job training",
+      "lre75" : " log(re75); zero if re75 == 0",
+      "educ" : " years of education",
+      "re74" : " real earns., 1974, $1000s",
+      "mostrn" : " months in training",
+      "unem78" : " =1 if unem. all of 1978",
+      "black" : " =1 if black",
+      "re75" : " real earns., 1975, $1000s",
+      "lre78" : " log(re78); zero if re78 == 0",
+      "re78" : " real earns., 1978, $1000s",
+      "married" : " =1 if married",
+      "age" : " age in 1977",
+      "unem75" : " =1 if unem. all of 1975",
+      "mosinex" : " # mnths prior to 1/78 in expmnt",
+      "unem74" : " =1 if unem. all of 1974",
+      "hisp" : " =1 if Hispanic",
+      "nodegree" : " =1 if no high school degree",
+      "lre74" : " log(re74); zero if re74 == 0"
+   },
+   "title" : "jtrain2",
+   "description" : "Description\nWooldridge Source: R.J. Lalonde (1986), âEvaluating the Econometric Evaluations of Training Programs with Experimental Data,â American Economic Review 76, 604-620. Professor Jeff Biddle, at MSU, kindly passed the data set along to me. He obtained it from Professor Lalonde. Data loads lazily.",
+   "reference" : "Professor Lalonde obtained the data from the National Supported Work Demonstration job-training program conducted by the Manpower Demonstration Research Corporation in the mid 1970s. Training status was randomly assigned, so this is essentially experimental data. Computer Exercise C17.8 looks only at the effects of training on subsequent unemployment probabilities. For illustrating the more advanced methods in Chapter 17, a good exercise would be to have the students estimate a Tobit of re78 on train, and obtain estimates of the expected values for those with and without training. These can be compared with the sample averages.",
+   "usage" : "data('jtrain2')"
+}

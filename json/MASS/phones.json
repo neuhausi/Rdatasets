@@ -1,6 +1,11 @@
 {
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>Belgian-phones</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>\nBelgium Phone Calls 1950-1973\n</h2>\n<h3>Description</h3>\n<p>A list object with the annual numbers of telephone calls, in\nBelgium.  The components are:\n</p>\n<dl>\n<dt><code>year</code></dt><dd>\n<p>last two digits of the year.\n</p>\n</dd>\n<dt><code>calls</code></dt><dd>\n<p>number of telephone calls made (in millions of calls).\n</p>\n</dd>\n</dl>\n<h3>Usage</h3>\n<pre><code class='language-R'>phones\n</code></pre>\n<h3>Source</h3>\n<p>P. J. Rousseeuw and A. M. Leroy (1987)\n<em>Robust Regression &amp; Outlier Detection.</em> Wiley.\n</p>\n<h3>References</h3>\n<p>Venables, W. N. and Ripley, B. D. (2002)\n<em>Modern Applied Statistics with S.</em> Fourth edition.  Springer.\n</p>\n</main>\n</div>\n",
    "data" : {
       "y" : {
+         "smps" : [
+            "year",
+            "calls"
+         ],
          "data" : [
             [
                50,
@@ -124,17 +129,12 @@
             "Var22",
             "Var23",
             "Var24"
-         ],
-         "smps" : [
-            "year",
-            "calls"
          ]
       }
    },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>Belgian-phones</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>\nBelgium Phone Calls 1950-1973\n</h2>\n<h3>Description</h3>\n<p>A list object with the annual numbers of telephone calls, in\nBelgium.  The components are:\n</p>\n<dl>\n<dt><code>year</code></dt><dd>\n<p>last two digits of the year.\n</p>\n</dd>\n<dt><code>calls</code></dt><dd>\n<p>number of telephone calls made (in millions of calls).\n</p>\n</dd>\n</dl>\n<h3>Usage</h3>\n<pre><code class='language-R'>phones\n</code></pre>\n<h3>Source</h3>\n<p>P. J. Rousseeuw and A. M. Leroy (1987)\n<em>Robust Regression &amp; Outlier Detection.</em> Wiley.\n</p>\n<h3>References</h3>\n<p>Venables, W. N. and Ripley, B. D. (2002)\n<em>Modern Applied Statistics with S.</em> Fourth edition.  Springer.\n</p>\n</main>\n</div>\n",
    "config" : {
-      "title" : "Belgium Phone Calls 1950-1973",
       "graphType" : "Scatter2D",
-      "subtitle" : "MASS - phones"
+      "subtitle" : "MASS - phones",
+      "title" : "Belgium Phone Calls 1950-1973"
    }
 }

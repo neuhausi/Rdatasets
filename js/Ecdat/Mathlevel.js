@@ -1,19 +1,19 @@
 var MathlevelInfo ={
-   "usage" : "data(Mathlevel)",
    "description" : "Description\na cross-section from 1983 to 1986\nnumber of observations :  609\nobservation :  individuals\ncountry :  United States",
    "title" : "Level of Calculus Attained for Students Taking Advanced Micro&ndash;economics",
-   "format" : "A dataframe containing :",
    "reference" : "Butler, J.S.,  T. Aldrich   Finegan and  John J.  Siegfried (1998) &ldquo;Does more calculus improve student learning in intermediate micro and macroeconomic theory ?&rdquo;, Journal of Applied Econometrics, 13(2), April, 185&ndash;202.",
+   "usage" : "data(Mathlevel)",
    "parameters" : {
-      "major" : "one of other, eco, oss\n(other social sciences), ns (natural \nsciences), hum (humanities)",
-      "language" : "foreign language proficiency ?",
       "mathcourse" : "number of courses in advanced math (0 to 3)",
+      "physiccourse" : "number of courses in physics (0 to 2)",
+      "sat" : "sat Math score",
       "sex" : "male, female",
       "mathlevel" : "highest level of math attained , an ordered factor with levels 170, 171a, 172, 171b, 172b, 221a, 221b",
-      "physiccourse" : "number of courses in physics (0 to 2)",
       "chemistcourse" : "number of courses in chemistry (0 to 2)",
-      "sat" : "sat Math score"
-   }
+      "major" : "one of other, eco, oss\n(other social sciences), ns (natural \nsciences), hum (humanities)",
+      "language" : "foreign language proficiency ?"
+   },
+   "format" : "A dataframe containing :"
 }
 
 var Mathlevel = [

@@ -1,14 +1,14 @@
 var GlassInfo ={
    "format" : "A frequency data frame with 25 observations on the following 3 variables representing a 5 x 5 table with 3500 cases.",
-   "reference" : "The occupational categories in order of status are:\n(1) Professional & High Administrative\n(2) Managerial, Executive & High Supervisory\n(3) Low Inspectional & Supervisory\n(4) Routine Nonmanual & Skilled Manual\n(5) Semi- & Unskilled Manual",
-   "title" : "British Social Mobility from Glass(1954)",
    "parameters" : {
-      "father" : "a factor with levels Managerial Professional Skilled Supervisory Unskilled",
       "Freq" : "a numeric vector",
-      "son" : "a factor with levels Managerial Professional Skilled Supervisory Unskilled"
+      "son" : "a factor with levels Managerial Professional Skilled Supervisory Unskilled",
+      "father" : "a factor with levels Managerial Professional Skilled Supervisory Unskilled"
    },
    "usage" : "data(\"Glass\")",
-   "description" : "Description\nGlass(1954) gave this 5 x 5 table on the occupations of 3500 British fathers and their sons."
+   "reference" : "The occupational categories in order of status are:\n(1) Professional & High Administrative\n(2) Managerial, Executive & High Supervisory\n(3) Low Inspectional & Supervisory\n(4) Routine Nonmanual & Skilled Manual\n(5) Semi- & Unskilled Manual",
+   "description" : "Description\nGlass(1954) gave this 5 x 5 table on the occupations of 3500 British fathers and their sons.",
+   "title" : "British Social Mobility from Glass(1954)"
 }
 
 var Glass = [

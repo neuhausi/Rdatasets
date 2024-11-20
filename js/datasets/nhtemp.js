@@ -1,8 +1,8 @@
 var nhtempInfo ={
-   "usage" : "nhtemp",
    "format" : "A time series of 60 observations.",
    "title" : "Average Yearly Temperatures in New Haven",
-   "description" : "Description\nThe mean annual temperature in degrees Fahrenheit in New Haven,\nConnecticut, from 1912 to 1971."
+   "description" : "Description\nThe mean annual temperature in degrees Fahrenheit in New Haven,\nConnecticut, from 1912 to 1971.",
+   "usage" : "nhtemp"
 }
 
 var nhtemp = [

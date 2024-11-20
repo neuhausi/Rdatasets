@@ -1,7 +1,7 @@
 var oilInfo ={
-   "title" : "Annual oil production in Saudi Arabia",
    "format" : "BP.",
    "usage" : "Annual time series of class ts.",
+   "title" : "Annual oil production in Saudi Arabia",
    "description" : "Description\nAnnual oil production (millions of tonnes), Saudi Arabia, 1965-2013."
 }
 

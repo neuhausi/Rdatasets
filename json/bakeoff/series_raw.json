@@ -1,129 +1,14 @@
 {
    "config" : {
-      "subtitle" : "bakeoff - series_raw",
+      "colorBy" : "premiere",
+      "graphType" : "Scatter3D",
       "title" : "Data about each series aired in the UK (raw)",
-      "sizeBy" : "winner",
-      "shapeBy" : "channel",
-      "colorBy" : "timeslot",
-      "graphType" : "Scatter3D"
+      "subtitle" : "bakeoff - series_raw",
+      "shapeBy" : "timeslot",
+      "sizeBy" : "channel"
    },
    "data" : {
-      "z" : {
-         "timeslot" : [
-            "8:00pm",
-            "8:00pm",
-            "8:00pm",
-            "8:00pm",
-            "8:00pm",
-            "8:00pm",
-            "8:00pm",
-            "8:00pm",
-            "8:00pm",
-            "8:00pm"
-         ],
-         "channel" : [
-            "BBC Two",
-            "BBC Two",
-            "BBC Two",
-            "BBC Two",
-            "BBC One",
-            "BBC One",
-            "BBC One",
-            "Channel 4",
-            "Channel 4",
-            "Channel 4"
-         ],
-         "winner" : [
-            "Edd Kimber",
-            "Joanne Wheatley",
-            "John Whaite",
-            "Frances Quinn",
-            "Nancy Birtwhistle",
-            "Nadiya Hussain",
-            "Candice Brown",
-            "Sophie Faldo",
-            "Rahul Mandal",
-            "David Atherton"
-         ],
-         "runner_up_2" : [
-            "Ruth Clemens",
-            "Mary-Anne Boermans",
-            "James Morton",
-            "Ruby Tandoh",
-            "Richard Burr",
-            "Tamal Ray",
-            "Jane Beedle",
-            "Steven Carter-Bailey",
-            "Ruby Bhogal",
-            "Steph Blackwell"
-         ],
-         "runner_up_1" : [
-            "Miranda Gore Browne",
-            "Holly Bell",
-            "Brendan Lynch",
-            "Kimberley Wilson",
-            "Luis Troyano",
-            "Ian Cumming",
-            "Andrew Smyth",
-            "Kate Lyon",
-            "Kim-Joy Hewlett",
-            "Alice Fevronia"
-         ],
-         "premiere" : [
-            "2010-08-17",
-            "2011-08-14",
-            "2012-08-14",
-            "2013-08-20",
-            "2014-08-06",
-            "2015-08-05",
-            "2016-08-24",
-            "2017-08-29",
-            "2018-08-28",
-            "2019-08-27"
-         ],
-         "finale" : [
-            "2010-09-21",
-            "2011-10-04",
-            "2012-10-16",
-            "2013-10-22",
-            "2014-10-08",
-            "2015-10-07",
-            "2016-10-26",
-            "2017-10-31",
-            "2018-10-30",
-            "2019-10-29"
-         ],
-         "day_of_week" : [
-            "Tuesday",
-            "Tuesday",
-            "Tuesday",
-            "Tuesday",
-            "Wednesday",
-            "Wednesday",
-            "Wednesday",
-            "Tuesday",
-            "Tuesday",
-            "Tuesday"
-         ]
-      },
       "y" : {
-         "vars" : [
-            "Var1",
-            "Var2",
-            "Var3",
-            "Var4",
-            "Var5",
-            "Var6",
-            "Var7",
-            "Var8",
-            "Var9",
-            "Var10"
-         ],
-         "smps" : [
-            "series",
-            "episodes",
-            "avg_uk_viewers"
-         ],
          "data" : [
             [
                1,
@@ -175,6 +60,121 @@
                10,
                9.24
             ]
+         ],
+         "smps" : [
+            "series",
+            "episodes",
+            "avg_uk_viewers"
+         ],
+         "vars" : [
+            "Var1",
+            "Var2",
+            "Var3",
+            "Var4",
+            "Var5",
+            "Var6",
+            "Var7",
+            "Var8",
+            "Var9",
+            "Var10"
+         ]
+      },
+      "z" : {
+         "premiere" : [
+            "2010-08-17",
+            "2011-08-14",
+            "2012-08-14",
+            "2013-08-20",
+            "2014-08-06",
+            "2015-08-05",
+            "2016-08-24",
+            "2017-08-29",
+            "2018-08-28",
+            "2019-08-27"
+         ],
+         "timeslot" : [
+            "8:00pm",
+            "8:00pm",
+            "8:00pm",
+            "8:00pm",
+            "8:00pm",
+            "8:00pm",
+            "8:00pm",
+            "8:00pm",
+            "8:00pm",
+            "8:00pm"
+         ],
+         "channel" : [
+            "BBC Two",
+            "BBC Two",
+            "BBC Two",
+            "BBC Two",
+            "BBC One",
+            "BBC One",
+            "BBC One",
+            "Channel 4",
+            "Channel 4",
+            "Channel 4"
+         ],
+         "finale" : [
+            "2010-09-21",
+            "2011-10-04",
+            "2012-10-16",
+            "2013-10-22",
+            "2014-10-08",
+            "2015-10-07",
+            "2016-10-26",
+            "2017-10-31",
+            "2018-10-30",
+            "2019-10-29"
+         ],
+         "runner_up_2" : [
+            "Ruth Clemens",
+            "Mary-Anne Boermans",
+            "James Morton",
+            "Ruby Tandoh",
+            "Richard Burr",
+            "Tamal Ray",
+            "Jane Beedle",
+            "Steven Carter-Bailey",
+            "Ruby Bhogal",
+            "Steph Blackwell"
+         ],
+         "runner_up_1" : [
+            "Miranda Gore Browne",
+            "Holly Bell",
+            "Brendan Lynch",
+            "Kimberley Wilson",
+            "Luis Troyano",
+            "Ian Cumming",
+            "Andrew Smyth",
+            "Kate Lyon",
+            "Kim-Joy Hewlett",
+            "Alice Fevronia"
+         ],
+         "day_of_week" : [
+            "Tuesday",
+            "Tuesday",
+            "Tuesday",
+            "Tuesday",
+            "Wednesday",
+            "Wednesday",
+            "Wednesday",
+            "Tuesday",
+            "Tuesday",
+            "Tuesday"
+         ],
+         "winner" : [
+            "Edd Kimber",
+            "Joanne Wheatley",
+            "John Whaite",
+            "Frances Quinn",
+            "Nancy Birtwhistle",
+            "Nadiya Hussain",
+            "Candice Brown",
+            "Sophie Faldo",
+            "Rahul Mandal",
+            "David Atherton"
          ]
       }
    },

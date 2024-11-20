@@ -1,0 +1,27 @@
+{
+   "format" : "A data frame with 26796 observations on the following 18 variables.",
+   "parameters" : {
+      "birthy" : "student's birth year - an ordered factor with levels 1977:1982",
+      "exp" : "a numeric vector - the total number of years of\nexperience of the teacher",
+      "ses" : "socioeconomic status - a factor with levels\nF and N representing eligible for free lunches or\nnot eligible",
+      "eth" : "student's ethnicity - a factor with the same\nlevels as trace",
+      "trace" : "teacher's race - a factor with levels W,\nB, A, H, I and O representing\nwhite, black, Asian, Hispanic, Indian (Native American) and other",
+      "birthq" : "student's birth quarter - an ordered factor with\nlevels 1977:1 < ... < 1982:2",
+      "id" : "a factor - student id number",
+      "yrs" : "number of years of schooling for the student - a\nnumeric version of the grade gr with Kindergarten\nrepresented as 0.  This variable was generated from gr and\ndoes not allow for a student being retained.",
+      "schtype" : "school type - a factor with levels\ninner, suburb, rural and urban",
+      "tch" : "a factor - teacher id number",
+      "clad" : "career ladder position of the teacher - a factor\nwith levels NOT APPR PROB PEND\n1 2 3",
+      "sch" : "a factor - school id number",
+      "cltype" : "class type - a factor with levels small,\nreg and reg+A.  The last level indicates a regular\nclass size with a teachers aide.",
+      "sx" : "student's sex - a factor with levels M F",
+      "gr" : "grade - an ordered factor with levels K <\n1 < 2 < 3",
+      "math" : "the student's total math scaled score",
+      "read" : "the student's total reading scaled score",
+      "hdeg" : "highest degree obtained by the teacher - an\nordered factor with levels ASSOC < BS/BA <\nMS/MA/MEd < MA+ < Ed.S < Ed.D/Ph.D"
+   },
+   "usage" : "data(star)",
+   "reference" : "Details of the original data source and the process of conversion to\nthis representation are given in the vignette.",
+   "title" : "Student Teacher Achievement Ratio (STAR) project data",
+   "description" : "Description\nData from Tennessee's Student Teacher Achievement Ratio (STAR) project\nwhich was  a large-scale, four-year study of the effect of reduced class size."
+}

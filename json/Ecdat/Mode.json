@@ -1,4 +1,5 @@
 {
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>Mode</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Mode Choice </h2>\n<h3>Description</h3>\n<p>a cross-section\n</p>\n<p><em>number of observations</em> :  453\n</p>\n<p><em>observation</em> :  individuals\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(Mode)</code></pre>\n<h3>Format</h3>\n<p>A dataframe containing :\n</p>\n<dl>\n<dt>choice</dt><dd><p>one of car, carpool, bus or rail</p>\n</dd>\n<dt>cost.z</dt><dd><p>cost of mode z</p>\n</dd>\n<dt>time.z</dt><dd><p>time of mode z</p>\n</dd>\n</dl>\n<h3>References</h3>\n<p>Kenneth Train's home page :  <a href=\"https://eml.berkeley.edu/~train/\">https://eml.berkeley.edu/~train/</a>.\n</p>\n<h3>See Also</h3>\n<p><code>Index.Source</code>, <code>Index.Economics</code>, <code>Index.Econometrics</code>, <code>Index.Observations</code></p>\n</main>\n</div>\n",
    "data" : {
       "y" : {
          "smps" : [
@@ -455,16 +456,6 @@
             "Smp451",
             "Smp452",
             "Smp453"
-         ],
-         "vars" : [
-            "cost.car",
-            "cost.carpool",
-            "cost.bus",
-            "cost.rail",
-            "time.car",
-            "time.carpool",
-            "time.bus",
-            "time.rail"
          ],
          "data" : [
             [
@@ -4107,6 +4098,16 @@
                48.370662,
                73.447286
             ]
+         ],
+         "vars" : [
+            "cost.car",
+            "cost.carpool",
+            "cost.bus",
+            "cost.rail",
+            "time.car",
+            "time.carpool",
+            "time.bus",
+            "time.rail"
          ]
       },
       "x" : {
@@ -4567,13 +4568,12 @@
          ]
       }
    },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>Mode</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Mode Choice </h2>\n<h3>Description</h3>\n<p>a cross-section\n</p>\n<p><em>number of observations</em> :  453\n</p>\n<p><em>observation</em> :  individuals\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(Mode)</code></pre>\n<h3>Format</h3>\n<p>A dataframe containing :\n</p>\n<dl>\n<dt>choice</dt><dd><p>one of car, carpool, bus or rail</p>\n</dd>\n<dt>cost.z</dt><dd><p>cost of mode z</p>\n</dd>\n<dt>time.z</dt><dd><p>time of mode z</p>\n</dd>\n</dl>\n<h3>References</h3>\n<p>Kenneth Train's home page :  <a href=\"https://eml.berkeley.edu/~train/\">https://eml.berkeley.edu/~train/</a>.\n</p>\n<h3>See Also</h3>\n<p><code>Index.Source</code>, <code>Index.Economics</code>, <code>Index.Econometrics</code>, <code>Index.Observations</code></p>\n</main>\n</div>\n",
    "config" : {
+      "graphType" : "Heatmap",
       "smpOverlays" : [
          "choice"
       ],
-      "title" : "Mode Choice",
-      "graphType" : "Heatmap",
-      "subtitle" : "Ecdat - Mode"
+      "subtitle" : "Ecdat - Mode",
+      "title" : "Mode Choice"
    }
 }

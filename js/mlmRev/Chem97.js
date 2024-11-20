@@ -1,18 +1,18 @@
 var Chem97Info ={
+   "title" : "Scores on A-level Chemistry in 1997",
    "description" : "Description\nScores on the 1997 A-level Chemistry examination in Britain.  Students\nare grouped into schools within local education authories.  In\naddition some demographic and pre-test information is provided.",
+   "reference" : "This data set is relatively large with 31,022 individuals in 2,280\nschools.  Note that while this is used, illustratively, to fit Normal\nresponse models, the distribution of the response is not well\ndescribed by a Normal distribution.",
    "usage" : "data(Chem97)",
    "parameters" : {
+      "gender" : "Student's gender",
+      "gcsescore" : "Average GCSE score of individual.",
       "age" : "Age in month, centred at 222 months or 18.5 years",
       "lea" : "Local Education Authority - a factor",
-      "gcsescore" : "Average GCSE score of individual.",
       "student" : "Student identifier - a factor",
-      "gcsecnt" : "Average GCSE score of individual, centered at mean.",
-      "score" : "Point score on A-level Chemistry in 1997",
       "school" : "School identifier - a factor",
-      "gender" : "Student's gender"
+      "gcsecnt" : "Average GCSE score of individual, centered at mean.",
+      "score" : "Point score on A-level Chemistry in 1997"
    },
-   "reference" : "This data set is relatively large with 31,022 individuals in 2,280\nschools.  Note that while this is used, illustratively, to fit Normal\nresponse models, the distribution of the response is not well\ndescribed by a Normal distribution.",
-   "title" : "Scores on A-level Chemistry in 1997",
    "format" : "A data frame with 31022 observations on the following 8 variables."
 }
 

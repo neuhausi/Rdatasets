@@ -1,0 +1,11 @@
+{
+   "format" : "A data frame with 332 observations on the following 2 variables.",
+   "parameters" : {
+      "sunlight" : "Sunlight level at time of observation:\nsun (lizard was observed perching in full sunlight),\npartial (lizard was observed perching with part of its body in the sun, part in the shade),\nshade(lizard was observed perching in the shade).",
+      "site" : "Site of lizard observation: desert, mountain, or valley."
+   },
+   "usage" : "lizard_habitat",
+   "reference" : "Adolph, S. C. 1990. Influence of behavioral thermoregulation on\nmicrohabitat use by two Sceloporus lizards.  Ecology 71: 315-327.\nAsbury, D.A., and S. C. Adolph. 2007.  Behavioral plasticity in an ecological\ngeneralist: microhabitat use by western fence lizards.\nEvolutionary Ecology Research 9:801-815.",
+   "description" : "Description\nData on here lizard was observed and the level of sunlight.\nThe data are collected on Sceloporus occidentalis (western fence lizards)\nby Stephen C. Adolph in 1983 (in desert and mountain sites) and\nby Dee Asbury in 2002-3 (in valley site).",
+   "title" : "Field data on lizards observed in their natural habitat"
+}

@@ -1,13 +1,13 @@
 var forbesInfo ={
-   "reference" : "A. C. Atkinson (1985) Plots, Transformations and Regression. Oxford.",
    "format" : "bp\nboiling point (degrees Farenheit).\n\n\npres\nbarometric pressure in inches of mercury.",
-   "title" : "Forbes' Data on Boiling Points in the Alps",
    "parameters" : {
       "bp" : "boiling point (degrees Farenheit).",
       "pres" : "barometric pressure in inches of mercury."
    },
+   "title" : "Forbes' Data on Boiling Points in the Alps",
+   "description" : "Description\nA data frame with 17 observations on boiling point\nof water and barometric pressure in inches of mercury.",
    "usage" : "forbes",
-   "description" : "Description\nA data frame with 17 observations on boiling point\nof water and barometric pressure in inches of mercury."
+   "reference" : "A. C. Atkinson (1985) Plots, Transformations and Regression. Oxford."
 }
 
 var forbes = [

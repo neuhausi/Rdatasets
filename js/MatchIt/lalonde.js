@@ -1,18 +1,18 @@
 var lalondeInfo ={
-   "title" : "Data from National Supported Work Demonstration and PSID, as analyzed by\nDehejia and Wahba (1999).",
-   "usage" : "A data frame with 614 observations (185 treated, 429 control).\nThere are 9 variables measured for each individual.",
    "parameters" : {
-      "\"married\" is an\nindicator for married (1=married, 0=not married)." : null,
-      "\"re74\" is income in 1974, in U.S. dollars." : null,
-      "\"nodegree\" is an\nindicator for whether the individual has a high school degree (1=no degree,\n0=degree)." : null,
-      "\"age\" is age in years." : null,
       "\"re78\" is income in 1978, in U.S.\ndollars." : null,
-      "\"re75\" is\nincome in 1975, in U.S. dollars." : null,
       "\"treat\"\nis the treatment assignment (1=treated, 0=control)." : null,
       "\"educ\" is education in number of years of schooling." : null,
-      "\"race\" is the individual's race/ethnicity, (Black, Hispanic, or White). Note\nprevious versions of this dataset used indicator variables black and\nhispan instead of a single race variable." : null
+      "\"married\" is an\nindicator for married (1=married, 0=not married)." : null,
+      "\"age\" is age in years." : null,
+      "\"nodegree\" is an\nindicator for whether the individual has a high school degree (1=no degree,\n0=degree)." : null,
+      "\"re75\" is\nincome in 1975, in U.S. dollars." : null,
+      "\"race\" is the individual's race/ethnicity, (Black, Hispanic, or White). Note\nprevious versions of this dataset used indicator variables black and\nhispan instead of a single race variable." : null,
+      "\"re74\" is income in 1974, in U.S. dollars." : null
    },
-   "description" : "Description\nThis is a subsample of the data from the treated group in the National\nSupported Work Demonstration (NSW) and the comparison sample from the\nPopulation Survey of Income Dynamics (PSID). This data was previously\nanalyzed extensively by Lalonde (1986) and Dehejia and Wahba (1999)."
+   "description" : "Description\nThis is a subsample of the data from the treated group in the National\nSupported Work Demonstration (NSW) and the comparison sample from the\nPopulation Survey of Income Dynamics (PSID). This data was previously\nanalyzed extensively by Lalonde (1986) and Dehejia and Wahba (1999).",
+   "title" : "Data from National Supported Work Demonstration and PSID, as analyzed by\nDehejia and Wahba (1999).",
+   "usage" : "A data frame with 614 observations (185 treated, 429 control).\nThere are 9 variables measured for each individual."
 }
 
 var lalonde = [

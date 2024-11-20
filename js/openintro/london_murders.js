@@ -1,16 +1,16 @@
 var london_murdersInfo ={
-   "usage" : "london_murders",
-   "description" : "Description\nThis dataset contains the victim name, age, and location of every murder\nrecorded in the Greater London area by the Metropolitan Police from January\n1, 2006 to September 7, 2011.",
    "format" : "A data frame with 838 observations on the following 5 variables.",
-   "title" : "London Murders, 2006-2011",
-   "reference" : "To visualize this dataset using a map, see the\nlondon_boroughs dataset, which contains the latitude and\nlongitude of polygons that define the boundaries of the 32 boroughs of\nGreater London.",
    "parameters" : {
-      "date" : "Date of the murder (YYYY-MM-DD).",
+      "year" : "Year of the murder.",
       "forename" : "First name(s) of the victim.",
       "borough" : "The London borough in which the murder took place. See the Details section for a list of all the boroughs.",
       "age" : "Age of the victim.",
-      "year" : "Year of the murder."
-   }
+      "date" : "Date of the murder (YYYY-MM-DD)."
+   },
+   "title" : "London Murders, 2006-2011",
+   "description" : "Description\nThis dataset contains the victim name, age, and location of every murder\nrecorded in the Greater London area by the Metropolitan Police from January\n1, 2006 to September 7, 2011.",
+   "reference" : "To visualize this dataset using a map, see the\nlondon_boroughs dataset, which contains the latitude and\nlongitude of polygons that define the boundaries of the 32 boroughs of\nGreater London.",
+   "usage" : "london_murders"
 }
 
 var london_murders = [

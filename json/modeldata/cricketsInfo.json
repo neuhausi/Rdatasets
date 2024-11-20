@@ -1,0 +1,6 @@
+{
+   "usage" : "crickets\n\na tibble",
+   "title" : "Rates of Cricket Chirps",
+   "description" : "Description\nThese data are from from McDonald (2009), by way of Mangiafico (2015), on\nthe relationship between the ambient temperature and the rate of cricket\nchirps per minute. Data were collected for two species of the genus Oecanthus: O. exclamationis\nand O. niveus. The data are contained in a data frame called crickets with\na total of 31 data points.",
+   "format" : "Mangiafico, S. 2015. \"An R Companion for the Handbook of Biological\nStatistics.\" https://rcompanion.org/handbook/."
+}

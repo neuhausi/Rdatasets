@@ -1,0 +1,12 @@
+{
+   "usage" : "data(Whickham)",
+   "reference" : "This dataset contains a\nsubset of the survey sample: women who were classified as current\nsmokers or as never having smoked.\nThe data were\nsynthesized from the summary description tables given\nin the Appleton et al al paper.",
+   "description" : "Description\nData on age, smoking, and mortality\nfrom a one-in-six survey of the electoral roll\nin Whickham, a mixed urban and rural district near Newcastle upon\nTyne, in the UK. The survey was conducted in 1972-1974 to study\nheart disease and thyroid disease.  A follow-up on those in the\nsurvey was conducted twenty years later.",
+   "title" : "Data from the Whickham survey",
+   "parameters" : {
+      "outcome" : "survival status after 20 years: a factor with levels Alive Dead",
+      "smoker" : "smoking status at baseline: a factor with levels No Yes",
+      "age" : "age (in years) at the time of the first survey"
+   },
+   "format" : "A data frame with 1314 observations on women for the following  variables."
+}

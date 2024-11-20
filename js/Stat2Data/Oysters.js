@@ -1,15 +1,15 @@
 var OystersInfo ={
-   "parameters" : {
-      "Weight" : "Weight (in grams)",
-      "ThreeD" : "Measurement from a 3D system (pixels)",
-      "TwoD" : "Measurement from a 2D cross-section (pixels)",
-      "ID" : "ID number of each oyster",
-      "Volume" : "Volume (in cubic centimeters)"
-   },
-   "description" : "Description\nComparing methods for measuring the size of oysters",
    "usage" : "A data frame with 30 observations on the following 5 variables.",
+   "reference" : "In 2001 engineers at an R&D lab Agri-Tech, Inc, in Woodstock, Virginia, designed a 3-D system that they hoped would improve on the existing 2-D system for measuring the size of oysters. The 3-D system used computer scanning to estimate an oyster volume, whereas the old 2-D system estimated a cross-sectional area. Data shows the result of both systems, as well as the actual weight and volume of each oyster used in calibration.",
+   "description" : "Description\nComparing methods for measuring the size of oysters",
    "title" : "Size of Oysters",
-   "reference" : "In 2001 engineers at an R&D lab Agri-Tech, Inc, in Woodstock, Virginia, designed a 3-D system that they hoped would improve on the existing 2-D system for measuring the size of oysters. The 3-D system used computer scanning to estimate an oyster volume, whereas the old 2-D system estimated a cross-sectional area. Data shows the result of both systems, as well as the actual weight and volume of each oyster used in calibration."
+   "parameters" : {
+      "TwoD" : "Measurement from a 2D cross-section (pixels)",
+      "ThreeD" : "Measurement from a 3D system (pixels)",
+      "Volume" : "Volume (in cubic centimeters)",
+      "Weight" : "Weight (in grams)",
+      "ID" : "ID number of each oyster"
+   }
 }
 
 var Oysters = [

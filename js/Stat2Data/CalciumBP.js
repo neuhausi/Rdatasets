@@ -1,6 +1,6 @@
 var CalciumBPInfo ={
-   "title" : "Do Calcium Supplements Lower Blood Pressure?",
    "usage" : "A data frame with 21 observations on the following 2 variables.",
+   "title" : "Do Calcium Supplements Lower Blood Pressure?",
    "description" : "Description\nAn experiment on calcium supplements and blood pressure in 21 men"
 }
 

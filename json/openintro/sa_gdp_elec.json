@@ -1,8 +1,8 @@
 {
    "config" : {
+      "title" : "Sustainability and Economic Indicators for South Africa.",
       "subtitle" : "openintro - sa_gdp_elec",
-      "graphType" : "Heatmap",
-      "title" : "Sustainability and Economic Indicators for South Africa."
+      "graphType" : "Heatmap"
    },
    "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>sa_gdp_elec</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Sustainability and Economic Indicators for South Africa.</h2>\n<h3>Description</h3>\n<p>Includes yearly data on gdp, gni, co2 emissions, start up costs.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>sa_gdp_elec\n</code></pre>\n<h3>Format</h3>\n<p>A data frame with 16 rows and 7 variables.\n</p>\n<dl>\n<dt>year</dt><dd><p>Year data collected.</p>\n</dd>\n<dt>access_elec</dt><dd><p>Access to electricity as a percentage of the population.</p>\n</dd>\n<dt>startup</dt><dd><p>cost of business startup procedures as a percent of GNI.</p>\n</dd>\n<dt>co2</dt><dd><p>CO2 emission in kt (kiloton).</p>\n</dd>\n<dt>gdp</dt><dd><p>GDP per capita, PPP in constant 2017 international dollars.</p>\n</dd>\n<dt>gni</dt><dd><p>GNI per capita, PPP in constant 2017 international dollars.</p>\n</dd>\n<dt>co2_kg_ppp</dt><dd><p>kg per 2017 PPP dollars of GDP.</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<ul>\n<li> <p><a href=\"https://databank.worldbank.org/source/world-development-indicators\">World Bank I</a>\n</p>\n</li>\n<li> <p><a href=\"https://www.worldbank.org/en/businessready?topic=trading-across-borders\">World Bank II</a>\n</p>\n</li>\n<li> <p><a href=\"https://www.climatewatchdata.org\">Carbon Dioxide Information Analysis Center, Environmental Sciences Division, Oak Ridge National Laboratory</a>\n</p>\n</li></ul>\n<h3>Examples</h3>\n<pre><code class='language-R'>library(ggplot2)\nggplot(sa_gdp_elec, aes(year, access_elec)) +\n  geom_point(alpha = 0.3) +\n  labs(\n    x = \"Year\",\n    y = \"Percent of Population\",\n    title = \"Access to Electricity in South Africa 2003 - 2018\"\n</code></pre>\n</main>\n</div>\n",
    "data" : {
@@ -24,15 +24,6 @@
             "Smp14",
             "Smp15",
             "Smp16"
-         ],
-         "vars" : [
-            "year",
-            "access_elec",
-            "startup",
-            "co2",
-            "gdp",
-            "gni",
-            "co2_kg_ppp"
          ],
          "data" : [
             [
@@ -161,6 +152,15 @@
                0.60093848264135,
                0.593655946391848
             ]
+         ],
+         "vars" : [
+            "year",
+            "access_elec",
+            "startup",
+            "co2",
+            "gdp",
+            "gni",
+            "co2_kg_ppp"
          ]
       }
    }

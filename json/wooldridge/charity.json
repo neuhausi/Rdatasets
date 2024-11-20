@@ -1,11 +1,21 @@
 {
    "config" : {
       "graphType" : "Heatmap",
-      "title" : "charity",
-      "subtitle" : "wooldridge - charity"
+      "subtitle" : "wooldridge - charity",
+      "title" : "charity"
    },
    "data" : {
       "y" : {
+         "vars" : [
+            "respond",
+            "gift",
+            "resplast",
+            "weekslast",
+            "propresp",
+            "mailsyear",
+            "giftlast",
+            "avggift"
+         ],
          "data" : [
             [
                0,
@@ -34167,16 +34177,6 @@
                50,
                25
             ]
-         ],
-         "vars" : [
-            "respond",
-            "gift",
-            "resplast",
-            "weekslast",
-            "propresp",
-            "mailsyear",
-            "giftlast",
-            "avggift"
          ],
          "smps" : [
             "Smp1",

@@ -1,15 +1,15 @@
 var amisInfo ={
+   "format" : "This data frame contains the following columns:",
+   "parameters" : {
+      "period" : "A numeric column indicating the time that the reading was taken.\nA value of 1 indicates a reading taken before the sign was erected, \na 2 indicates a reading\ntaken shortly after erection of the sign and a 3 indicates a reading taken \nafter the sign had been in place for some time.",
+      "speed" : "Speeds of cars (in miles per hour).",
+      "pair" : "A numeric column giving the pair number at which the reading was taken. Pairs\nwere numbered from 1 to 14.",
+      "warning" : "A numeric column indicating whether the location of the reading was chosen to\nhave a warning sign erected. A value of 1 indicates presence of a sign and a\nvalue of 2 indicates that no sign was erected."
+   },
+   "reference" : "The data were kindly made available by Mr. Graham Amis, Cambridgeshire County\nCouncil, U.K.",
    "usage" : "amis",
    "description" : "Description\nThe amis data frame has 8437 rows and 4 columns.\nIn a study into the effect that warning signs have on speeding patterns, \nCambridgeshire County Council considered 14 pairs of locations.\nThe locations were paired to account for factors such as traffic volume\nand type of road.  One site in each pair had a sign erected warning of the\ndangers of speeding and asking drivers to slow down.  No action was taken at\nthe second site.  Three sets of measurements were taken at each site.  Each set\nof measurements was nominally of the speeds of 100 cars but not all sites have\nexactly 100 measurements. These speed measurements were taken before the \nerection of the sign, shortly after the erection of the sign, and again after \nthe sign had been in place for some time.",
-   "format" : "This data frame contains the following columns:",
-   "title" : "Car Speeding and Warning Signs",
-   "reference" : "The data were kindly made available by Mr. Graham Amis, Cambridgeshire County\nCouncil, U.K.",
-   "parameters" : {
-      "speed" : "Speeds of cars (in miles per hour).",
-      "warning" : "A numeric column indicating whether the location of the reading was chosen to\nhave a warning sign erected. A value of 1 indicates presence of a sign and a\nvalue of 2 indicates that no sign was erected.",
-      "period" : "A numeric column indicating the time that the reading was taken.\nA value of 1 indicates a reading taken before the sign was erected, \na 2 indicates a reading\ntaken shortly after erection of the sign and a 3 indicates a reading taken \nafter the sign had been in place for some time.",
-      "pair" : "A numeric column giving the pair number at which the reading was taken. Pairs\nwere numbered from 1 to 14."
-   }
+   "title" : "Car Speeding and Warning Signs"
 }
 
 var amis = [

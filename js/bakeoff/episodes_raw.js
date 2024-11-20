@@ -1,17 +1,17 @@
 var episodes_rawInfo ={
+   "format" : "A data frame with 704 rows representing individual bakers per episode\nand 6 variables:",
    "description" : "Description\nDetails about the three challenges (signature, technical, and showstopper)\nfor each baker/episode across all 10 GBBO series.",
+   "title" : "Each episodes' challenges (raw)",
+   "reference" : "See\nhttps://en.wikipedia.org/wiki/The_Great_British_Bake_Off#Format",
    "usage" : "episodes_raw",
    "parameters" : {
       "baker" : "A character string giving given or nickname.",
-      "showstopper" : "A character string containing the bake for the\nshowstopper challenge for that baker/episode.",
+      "technical" : "An integer denoting the rank on the technical challenge\nfor that baker/episode. A rank of 1 is winner of the technical\nchallenge.",
       "episode" : "A factor denoting episode number within a series.",
       "series" : "A factor denoting UK series (1-10).",
-      "signature" : "A character string containing the bake for the signature\nchallenge for that baker/episode.",
-      "technical" : "An integer denoting the rank on the technical challenge\nfor that baker/episode. A rank of 1 is winner of the technical\nchallenge."
-   },
-   "format" : "A data frame with 704 rows representing individual bakers per episode\nand 6 variables:",
-   "title" : "Each episodes' challenges (raw)",
-   "reference" : "See\nhttps://en.wikipedia.org/wiki/The_Great_British_Bake_Off#Format"
+      "showstopper" : "A character string containing the bake for the\nshowstopper challenge for that baker/episode.",
+      "signature" : "A character string containing the bake for the signature\nchallenge for that baker/episode."
+   }
 }
 
 var episodes_raw = [

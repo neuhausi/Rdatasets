@@ -1,16 +1,6 @@
 {
    "data" : {
       "y" : {
-         "vars" : [
-            "Height",
-            "Arm span",
-            "Forearm",
-            "Leg length",
-            "Weight",
-            "Hips",
-            "Chest girth",
-            "Chest width"
-         ],
          "smps" : [
             "Height",
             "Arm span",
@@ -102,6 +92,16 @@
                0.539,
                1
             ]
+         ],
+         "vars" : [
+            "Height",
+            "Arm span",
+            "Forearm",
+            "Leg length",
+            "Weight",
+            "Hips",
+            "Chest girth",
+            "Chest width"
          ]
       }
    },

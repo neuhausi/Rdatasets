@@ -1,53 +1,7 @@
 {
-   "config" : {
-      "subtitle" : "MASS - waders",
-      "graphType" : "Heatmap",
-      "title" : "Counts of Waders at 15 Sites in South Africa",
-      "smpOverlays" : [
-         null
-      ]
-   },
    "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>waders</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>\nCounts of Waders at 15 Sites in South Africa\n</h2>\n<h3>Description</h3>\n<p>The <code>waders</code> data frame has 15 rows and 19 columns.\nThe entries are counts of waders in summer.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>waders\n</code></pre>\n<h3>Format</h3>\n<p>This data frame contains the following columns (species)\n</p>\n<dl>\n<dt><code>S1</code></dt><dd>\n<p>Oystercatcher\n</p>\n</dd>\n<dt><code>S2</code></dt><dd>\n<p>White-fronted Plover\n</p>\n</dd>\n<dt><code>S3</code></dt><dd>\n<p>Kitt Lutz's Plover\n</p>\n</dd>\n<dt><code>S4</code></dt><dd>\n<p>Three-banded Plover\n</p>\n</dd>\n<dt><code>S5</code></dt><dd>\n<p>Grey Plover\n</p>\n</dd>\n<dt><code>S6</code></dt><dd>\n<p>Ringed Plover\n</p>\n</dd>\n<dt><code>S7</code></dt><dd>\n<p>Bar-tailed Godwit\n</p>\n</dd>\n<dt><code>S8</code></dt><dd>\n<p>Whimbrel\n</p>\n</dd>\n<dt><code>S9</code></dt><dd>\n<p>Marsh Sandpiper\n</p>\n</dd>\n<dt><code>S10</code></dt><dd>\n<p>Greenshank\n</p>\n</dd>\n<dt><code>S11</code></dt><dd>\n<p>Common Sandpiper\n</p>\n</dd>\n<dt><code>S12</code></dt><dd>\n<p>Turnstone\n</p>\n</dd>\n<dt><code>S13</code></dt><dd>\n<p>Knot\n</p>\n</dd>\n<dt><code>S14</code></dt><dd>\n<p>Sanderling\n</p>\n</dd>\n<dt><code>S15</code></dt><dd>\n<p>Little Stint\n</p>\n</dd>\n<dt><code>S16</code></dt><dd>\n<p>Curlew Sandpiper\n</p>\n</dd>\n<dt><code>S17</code></dt><dd>\n<p>Ruff\n</p>\n</dd>\n<dt><code>S18</code></dt><dd>\n<p>Avocet\n</p>\n</dd>\n<dt><code>S19</code></dt><dd>\n<p>Black-winged Stilt\n</p>\n</dd>\n</dl>\n<p>The rows are the sites:\n</p>\n<p>A = Namibia North coast<br />\nB = Namibia North wetland<br />\nC = Namibia South coast<br />\nD = Namibia South wetland<br />\nE = Cape North coast<br />\nF = Cape North wetland<br />\nG = Cape West coast<br />\nH = Cape West wetland<br />\nI = Cape South coast<br />\nJ= Cape South wetland<br />\nK = Cape East coast<br />\nL = Cape East wetland<br />\nM = Transkei coast<br />\nN = Natal coast<br />\nO = Natal wetland\n</p>\n<h3>Source</h3>\n<p>J.C. Gower and D.J. Hand (1996) <em>Biplots</em>\nChapman &amp; Hall Table 9.1. Quoted as from:\n</p>\n<p>R.W. Summers, L.G. Underhill, D.J. Pearson and D.A. Scott (1987)\nWader migration systems in south and eastern Africa and western Asia.\n<em>Wader Study Group Bulletin</em> <b>49</b> Supplement, 15&ndash;34.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>plot(corresp(waders, nf=2))\n</code></pre>\n</main>\n</div>\n",
    "data" : {
       "y" : {
-         "vars" : [
-            "S1",
-            "S2",
-            "S3",
-            "S4",
-            "S5",
-            "S6",
-            "S7",
-            "S8",
-            "S9",
-            "S10",
-            "S11",
-            "S12",
-            "S13",
-            "S14",
-            "S15",
-            "S16",
-            "S17",
-            "S18",
-            "S19"
-         ],
-         "smps" : [
-            "A",
-            "B",
-            "C",
-            "D",
-            "E",
-            "F",
-            "G",
-            "H",
-            "I",
-            "J",
-            "K",
-            "L",
-            "M",
-            "N",
-            "O"
-         ],
          "data" : [
             [
                12,
@@ -372,7 +326,53 @@
                0,
                582
             ]
+         ],
+         "smps" : [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I",
+            "J",
+            "K",
+            "L",
+            "M",
+            "N",
+            "O"
+         ],
+         "vars" : [
+            "S1",
+            "S2",
+            "S3",
+            "S4",
+            "S5",
+            "S6",
+            "S7",
+            "S8",
+            "S9",
+            "S10",
+            "S11",
+            "S12",
+            "S13",
+            "S14",
+            "S15",
+            "S16",
+            "S17",
+            "S18",
+            "S19"
          ]
       }
+   },
+   "config" : {
+      "smpOverlays" : [
+         null
+      ],
+      "graphType" : "Heatmap",
+      "title" : "Counts of Waders at 15 Sites in South Africa",
+      "subtitle" : "MASS - waders"
    }
 }

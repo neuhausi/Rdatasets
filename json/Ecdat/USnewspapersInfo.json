@@ -1,0 +1,18 @@
+{
+   "format" : "A data frame with 65 observations on the \nfollowing 14 variables.",
+   "usage" : "data(\"USnewspapers\")",
+   "reference" : "Data used by \nMcChesney and Nichols (2021-12-13) To Protect and Extend Democracy, Recreate Local News Media (Freepress.net, p. 6, note 10) to estimate that newspaper subsidies averaged roughly 0.216 percent of GDP between 1840 and 1844.",
+   "title" : "US newspaper revenue 1956 - 2020",
+   "description" : "Description\nAdvertising and circulation revenue for US newspapers \nsince 1956 with GDP in billions of current dollars \n(i.e., not adjusted for inflation) plus ads as a \nproportion of revenue and revenue as a proportion of \nUS Gross Domestic Product (GDP).",
+   "parameters" : {
+      "Population_M" : "US population in millions",
+      "newspaperAds_p_GDP" : "Newspaper advertising revenue as a percent \nof GDP.",
+      "newspapers_p_GDP" : "Newspaper revenue as a proportion of GDP.",
+      "AdsProportion" : "Advertising as a proportion of total revenue.",
+      "RevenuePerCap_nominal" : "Newspaper revenue per person in \ncurrent dollars.",
+      "Year" : "an integer vector giving the year \nc(1956:2020).",
+      "GDP_nominalG, GDP_G2012" : "US GDP in billions of dollars, both current \nand adjusted for inflation to constant 2012\ndollars.",
+      "RevenuePerCap_2012" : "Newspaper revenue per person in \nconstant 2012 dollars.",
+      "Ads_currentGdollars, Ads_G2012dollars, Circ_currentGdollars, Circ_G2012dollars, Revenue_currentGdollars, Revenue_G2012dollars" : "Total newspaper revenue from advertising,  \ncirculation, and combined in billions of \nUS dollars, both current and adjusted\nfor inflation to 2012 dollars.  The\ndata were compiled from detailed reports \nuntil 2012 and estimated since."
+   }
+}

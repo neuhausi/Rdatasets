@@ -1,6 +1,21 @@
 {
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>infmrt</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>infmrt</h2>\n<h3>Description</h3>\n<p>Wooldridge Source: Statistical Abstract of the United States, 1990 and 1994. (For example, the infant mortality rates come from Table 113 in 1990 and Table 123 in 1994.) Data loads lazily.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data('infmrt')\n</code></pre>\n<h3>Format</h3>\n<p>A data.frame with 102 observations on 12 variables:\n</p>\n<ul>\n<li> <p><strong>year:</strong> 1987 or 1990\n</p>\n</li>\n<li> <p><strong>infmort:</strong> deaths per 1,000 live births\n</p>\n</li>\n<li> <p><strong>afdcprt:</strong> afdc partic., 1000s\n</p>\n</li>\n<li> <p><strong>popul:</strong> population, 1000s\n</p>\n</li>\n<li> <p><strong>pcinc:</strong> per capita income\n</p>\n</li>\n<li> <p><strong>physic:</strong> drs. per 100,000 civilian pop.\n</p>\n</li>\n<li> <p><strong>afdcper:</strong> percent on AFDC\n</p>\n</li>\n<li> <p><strong>d90:</strong> =1 if year == 1990\n</p>\n</li>\n<li> <p><strong>lpcinc:</strong> log(pcinc)\n</p>\n</li>\n<li> <p><strong>lphysic:</strong> log(physic)\n</p>\n</li>\n<li> <p><strong>DC:</strong> =1 for Washington DC\n</p>\n</li>\n<li> <p><strong>lpopul:</strong> log(popul)\n</p>\n</li></ul>\n<h3>Notes</h3>\n<p>An interesting exercise is to add the percentage of the population on AFDC (afdcper) to the infant mortality equation. Pooled OLS and first differencing can give very different estimates. Adding the years 1998 and 2002 and applying fixed effects seems natural. Intervening years can be added, too, although variation in the key variables from year to year might be minimal.\n</p>\n<p>Used in Text: pages 330-331, 339\n</p>\n<h3>Source</h3>\n<p><a href=\"https://www.cengage.com/cgi-wadsworth/course_products_wp.pl?fid=M20b&amp;product_isbn_issn=9781111531041\">https://www.cengage.com/cgi-wadsworth/course_products_wp.pl?fid=M20b&amp;product_isbn_issn=9781111531041</a>\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'> str(infmrt)\n</code></pre>\n</main>\n</div>\n",
    "data" : {
       "y" : {
+         "vars" : [
+            "year",
+            "infmort",
+            "afdcprt",
+            "popul",
+            "pcinc",
+            "physic",
+            "afdcper",
+            "d90",
+            "lpcinc",
+            "lphysic",
+            "DC",
+            "lpopul"
+         ],
          "data" : [
             [
                1987,
@@ -1251,20 +1266,6 @@
                7.0103120803833
             ]
          ],
-         "vars" : [
-            "year",
-            "infmort",
-            "afdcprt",
-            "popul",
-            "pcinc",
-            "physic",
-            "afdcper",
-            "d90",
-            "lpcinc",
-            "lphysic",
-            "DC",
-            "lpopul"
-         ],
          "smps" : [
             "Smp1",
             "Smp2",
@@ -1371,10 +1372,9 @@
          ]
       }
    },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>infmrt</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>infmrt</h2>\n<h3>Description</h3>\n<p>Wooldridge Source: Statistical Abstract of the United States, 1990 and 1994. (For example, the infant mortality rates come from Table 113 in 1990 and Table 123 in 1994.) Data loads lazily.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data('infmrt')\n</code></pre>\n<h3>Format</h3>\n<p>A data.frame with 102 observations on 12 variables:\n</p>\n<ul>\n<li> <p><strong>year:</strong> 1987 or 1990\n</p>\n</li>\n<li> <p><strong>infmort:</strong> deaths per 1,000 live births\n</p>\n</li>\n<li> <p><strong>afdcprt:</strong> afdc partic., 1000s\n</p>\n</li>\n<li> <p><strong>popul:</strong> population, 1000s\n</p>\n</li>\n<li> <p><strong>pcinc:</strong> per capita income\n</p>\n</li>\n<li> <p><strong>physic:</strong> drs. per 100,000 civilian pop.\n</p>\n</li>\n<li> <p><strong>afdcper:</strong> percent on AFDC\n</p>\n</li>\n<li> <p><strong>d90:</strong> =1 if year == 1990\n</p>\n</li>\n<li> <p><strong>lpcinc:</strong> log(pcinc)\n</p>\n</li>\n<li> <p><strong>lphysic:</strong> log(physic)\n</p>\n</li>\n<li> <p><strong>DC:</strong> =1 for Washington DC\n</p>\n</li>\n<li> <p><strong>lpopul:</strong> log(popul)\n</p>\n</li></ul>\n<h3>Notes</h3>\n<p>An interesting exercise is to add the percentage of the population on AFDC (afdcper) to the infant mortality equation. Pooled OLS and first differencing can give very different estimates. Adding the years 1998 and 2002 and applying fixed effects seems natural. Intervening years can be added, too, although variation in the key variables from year to year might be minimal.\n</p>\n<p>Used in Text: pages 330-331, 339\n</p>\n<h3>Source</h3>\n<p><a href=\"https://www.cengage.com/cgi-wadsworth/course_products_wp.pl?fid=M20b&amp;product_isbn_issn=9781111531041\">https://www.cengage.com/cgi-wadsworth/course_products_wp.pl?fid=M20b&amp;product_isbn_issn=9781111531041</a>\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'> str(infmrt)\n</code></pre>\n</main>\n</div>\n",
    "config" : {
+      "graphType" : "Heatmap",
       "subtitle" : "wooldridge - infmrt",
-      "title" : "infmrt",
-      "graphType" : "Heatmap"
+      "title" : "infmrt"
    }
 }

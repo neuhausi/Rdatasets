@@ -1,14 +1,4 @@
 {
-   "config" : {
-      "groupingFactors" : [
-         "value"
-      ],
-      "subtitle" : "forecast - gold",
-      "graphType" : "Boxplot",
-      "title" : "Daily morning gold prices",
-      "colorBy" : "variable"
-   },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>gold</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Daily morning gold prices</h2>\n<h3>Description</h3>\n<p>Daily morning gold prices in US dollars. 1 January 1985 &ndash; 31 March 1989.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>gold\n</code></pre>\n<h3>Format</h3>\n<p>Time series data\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>tsdisplay(gold)\n</code></pre>\n</main>\n</div>\n",
    "data" : {
       "y" : {
          "data" : [
@@ -1123,9 +1113,6 @@
                1108
             ]
          ],
-         "vars" : [
-            "time"
-         ],
          "smps" : [
             "Smp1",
             "Smp2",
@@ -2235,6 +2222,9 @@
             "Smp1106",
             "Smp1107",
             "Smp1108"
+         ],
+         "vars" : [
+            "time"
          ]
       },
       "x" : {
@@ -3349,5 +3339,15 @@
             "382.3"
          ]
       }
+   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>gold</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Daily morning gold prices</h2>\n<h3>Description</h3>\n<p>Daily morning gold prices in US dollars. 1 January 1985 &ndash; 31 March 1989.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>gold\n</code></pre>\n<h3>Format</h3>\n<p>Time series data\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>tsdisplay(gold)\n</code></pre>\n</main>\n</div>\n",
+   "config" : {
+      "subtitle" : "forecast - gold",
+      "groupingFactors" : [
+         "value"
+      ],
+      "title" : "Daily morning gold prices",
+      "graphType" : "Boxplot",
+      "colorBy" : "variable"
    }
 }

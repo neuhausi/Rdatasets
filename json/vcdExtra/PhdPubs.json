@@ -1,19 +1,12 @@
 {
    "config" : {
-      "graphType" : "Heatmap",
+      "subtitle" : "vcdExtra - PhdPubs",
       "title" : "Publications of PhD Candidates",
-      "subtitle" : "vcdExtra - PhdPubs"
+      "graphType" : "Heatmap"
    },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>PhdPubs</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>\nPublications of PhD Candidates\n</h2>\n<h3>Description</h3>\n<p>A data set giving the number of publications by doctoral candidates in biochemistry\nin relation to various predictors, originally from Long (1997).\n</p>\n<p>There is a large number of zero counts. Is there evidence for\na separate group of non-publishers?\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(PhdPubs)</code></pre>\n<h3>Format</h3>\n<p>A data frame with 915 observations on the following 6 variables.\n</p>\n<dl>\n<dt><code>articles</code></dt><dd><p>number of articles published in the final three years of PhD studies</p>\n</dd>\n<dt><code>female</code></dt><dd><p>dummy variable for gender, coded <code>1</code> for female</p>\n</dd>\n<dt><code>married</code></dt><dd><p>dummy variable for marital status, coded <code>1</code> for married</p>\n</dd>\n<dt><code>kid5</code></dt><dd><p>number of young children, age 5 and under</p>\n</dd>\n<dt><code>phdprestige</code></dt><dd><p>prestige of the PhD department.  The higher the number the more prestigious the program. </p>\n</dd>\n<dt><code>mentor</code></dt><dd><p>number of publications by the mentor in the preceeding three years</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>In this version of the data set, <code>phdprestige</code> had been rounded to the nearest integer.\nA Stata version with the continuous values was subsequently found at\n<a href=\"https://www.stata-press.com/data/lf2/couart2.dta\">https://www.stata-press.com/data/lf2/couart2.dta</a>\n</p>\n<h3>Source</h3>\n<p>Long, J. S. (1997). <em>Regression Models for Categorical and Limited Dependent Variables</em>,\nSage.\n</p>\n<p>Long, J. S. &amp; Freese, J. (2006). <em>Regression Models for Categorical Dependent Variables Using Stata</em>, 2nd Ed.,\nStata Press.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>data(PhdPubs)\n# very uninformative\nhist(PhdPubs$articles, \n     breaks=0:19, col=\"pink\", xlim=c(0,20),\n     xlab=\"Number of Articles\")\nlibrary(vcd)\nrootogram(goodfit(PhdPubs$articles), xlab=\"Number of Articles\")\n# compare with negative binomial\nrootogram(goodfit(PhdPubs$articles, type=\"nbinomial\"), \n\txlab=\"Number of Articles\", main=\"Negative binomial\")\n</code></pre>\n</main>\n</div>\n",
    "data" : {
       "y" : {
-         "vars" : [
-            "articles",
-            "female",
-            "married",
-            "kid5",
-            "phdprestige",
-            "mentor"
-         ],
          "smps" : [
             "Smp1",
             "Smp2",
@@ -6434,8 +6427,15 @@
                21,
                42
             ]
+         ],
+         "vars" : [
+            "articles",
+            "female",
+            "married",
+            "kid5",
+            "phdprestige",
+            "mentor"
          ]
       }
-   },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>PhdPubs</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>\nPublications of PhD Candidates\n</h2>\n<h3>Description</h3>\n<p>A data set giving the number of publications by doctoral candidates in biochemistry\nin relation to various predictors, originally from Long (1997).\n</p>\n<p>There is a large number of zero counts. Is there evidence for\na separate group of non-publishers?\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(PhdPubs)</code></pre>\n<h3>Format</h3>\n<p>A data frame with 915 observations on the following 6 variables.\n</p>\n<dl>\n<dt><code>articles</code></dt><dd><p>number of articles published in the final three years of PhD studies</p>\n</dd>\n<dt><code>female</code></dt><dd><p>dummy variable for gender, coded <code>1</code> for female</p>\n</dd>\n<dt><code>married</code></dt><dd><p>dummy variable for marital status, coded <code>1</code> for married</p>\n</dd>\n<dt><code>kid5</code></dt><dd><p>number of young children, age 5 and under</p>\n</dd>\n<dt><code>phdprestige</code></dt><dd><p>prestige of the PhD department.  The higher the number the more prestigious the program. </p>\n</dd>\n<dt><code>mentor</code></dt><dd><p>number of publications by the mentor in the preceeding three years</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>In this version of the data set, <code>phdprestige</code> had been rounded to the nearest integer.\nA Stata version with the continuous values was subsequently found at\n<a href=\"https://www.stata-press.com/data/lf2/couart2.dta\">https://www.stata-press.com/data/lf2/couart2.dta</a>\n</p>\n<h3>Source</h3>\n<p>Long, J. S. (1997). <em>Regression Models for Categorical and Limited Dependent Variables</em>,\nSage.\n</p>\n<p>Long, J. S. &amp; Freese, J. (2006). <em>Regression Models for Categorical Dependent Variables Using Stata</em>, 2nd Ed.,\nStata Press.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>data(PhdPubs)\n# very uninformative\nhist(PhdPubs$articles, \n     breaks=0:19, col=\"pink\", xlim=c(0,20),\n     xlab=\"Number of Articles\")\nlibrary(vcd)\nrootogram(goodfit(PhdPubs$articles), xlab=\"Number of Articles\")\n# compare with negative binomial\nrootogram(goodfit(PhdPubs$articles, type=\"nbinomial\"), \n\txlab=\"Number of Articles\", main=\"Negative binomial\")\n</code></pre>\n</main>\n</div>\n"
+   }
 }

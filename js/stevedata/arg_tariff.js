@@ -1,14 +1,14 @@
 var arg_tariffInfo ={
    "format" : "A data frame with three variables:",
    "title" : "Simple Mean Tariff Rate for Argentina",
+   "description" : "Description\nSimple mean tariff rate for Argentina, starting in 1980.\nThe goal is to keep these data current.",
    "reference" : "Data come from various sources. World Bank estimates are used for\n1980-1984 and 2010-2018, but see also Lora's (2012) report for the Inter-American\nDevelopment Bank. The 1980-1984 estimates are actually means for 1980-1 and 1982-4 via\nLaird and Nogues' (1989) article in the World Bank Economic Review.",
+   "usage" : "arg_tariff",
    "parameters" : {
       "country" : "country name (Argentina)",
-      "year" : "the year",
-      "tariffrate" : "the simple mean tariff rate for Argentina on all products (as a percentage)"
-   },
-   "usage" : "arg_tariff",
-   "description" : "Description\nSimple mean tariff rate for Argentina, starting in 1980.\nThe goal is to keep these data current."
+      "tariffrate" : "the simple mean tariff rate for Argentina on all products (as a percentage)",
+      "year" : "the year"
+   }
 }
 
 var arg_tariff = [

@@ -1,0 +1,11 @@
+{
+   "format" : "A four-weekly multiple time series from 1978(1) to 1994(13) with 2 variables.",
+   "title" : "TV and Radio Advertising Expenditures Data",
+   "description" : "Description\nTime series of television and radio advertising expenditures (in real terms)\nin The Netherlands.",
+   "usage" : "data(\"DutchAdvert\")",
+   "reference" : "Originally available as an online supplement to Franses (1998). Now available via online complements to Franses, van Dijk and Opschoor (2014).",
+   "parameters" : {
+      "tv" : "Television advertising expenditures.",
+      "radio" : "Radio advertising expenditures."
+   }
+}

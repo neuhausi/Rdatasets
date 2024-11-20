@@ -1,0 +1,11 @@
+{
+   "format" : "A data frame with 70 observations on the following 3 variables.",
+   "parameters" : {
+      "group" : "a factor with levels I II III",
+      "outcome" : "a numeric vector"
+   },
+   "usage" : "toy_anova",
+   "reference" : "toy_anova",
+   "description" : "Description\nSimulated dataset for getting a better understanding of intuition that\nANOVA is based off of.",
+   "title" : "Simulated dataset for ANOVA"
+}

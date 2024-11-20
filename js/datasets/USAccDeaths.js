@@ -1,8 +1,8 @@
 var USAccDeathsInfo ={
+   "usage" : "USAccDeaths",
    "description" : "Description\nA time series giving the monthly totals of accidental deaths in the\nUSA.  The values for the first six months of 1979 are 7798 7406 8363\n8460 9217 9316.",
-   "format" : "P. J. Brockwell and R. A. Davis (1991)\nTime Series: Theory and Methods.\nSpringer, New York.",
    "title" : "Accidental Deaths in the US 1973&ndash;1978",
-   "usage" : "USAccDeaths"
+   "format" : "P. J. Brockwell and R. A. Davis (1991)\nTime Series: Theory and Methods.\nSpringer, New York."
 }
 
 var USAccDeaths = [

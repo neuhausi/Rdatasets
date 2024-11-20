@@ -1,20 +1,20 @@
 var AffairsInfo ={
-   "parameters" : {
-      "children" : "factor. Are there children in the marriage?",
-      "occupation" : "numeric variable coding occupation according to Hollingshead classification\n(reverse numbering).",
-      "religiousness" : "numeric variable coding religiousness: 1 = anti, 2 = not at all,\n3 = slightly, 4 = somewhat, 5 = very.",
-      "affairs" : "numeric. How often engaged in extramarital sexual intercourse\nduring the past year? 0 = none, 1 = once, 2 = twice,\n3 = 3 times, 7 = 4&ndash;10 times, 12 = monthly,\n12 = weekly, 12 = daily.",
-      "age" : "numeric variable coding age in years: 17.5 = under 20, 22 = 20&ndash;24,\n27 = 25&ndash;29, 32 = 30&ndash;34, 37 = 35&ndash;39, 42 = 40&ndash;44,\n47 = 45&ndash;49, 52 = 50&ndash;54, 57 = 55 or over.",
-      "rating" : "numeric variable coding self rating of marriage: 1 = very unhappy,\n2 = somewhat unhappy, 3 = average, 4 = happier than average, \n5 = very happy.",
-      "gender" : "factor indicating gender.",
-      "education" : "numeric variable coding level of education: 9 = grade school,\n12 = high school graduate, 14 = some college, 16 = college graduate,\n17 = some graduate work, 18 = master's degree, 20 = Ph.D., M.D., or\nother advanced degree.",
-      "yearsmarried" : "numeric variable coding number of years married: 0.125 = 3 months or less,\n0.417 = 4&ndash;6 months, 0.75 = 6 months&ndash;1 year, 1.5 = 1&ndash;2 years,\n4 = 3&ndash;5 years, 7 = 6&ndash;8 years, 10 = 9&ndash;11 years, 15 = 12 or more years."
-   },
    "reference" : "Online complements to Greene (2003). Table F22.2.",
-   "format" : "A data frame containing 601 observations on 9 variables.",
+   "usage" : "data(\"Affairs\")",
    "title" : "Fair's Extramarital Affairs Data",
    "description" : "Description\nInfidelity data, known as Fair's Affairs. Cross-section data from a survey\nconducted by Psychology Today in 1969.",
-   "usage" : "data(\"Affairs\")"
+   "parameters" : {
+      "gender" : "factor indicating gender.",
+      "occupation" : "numeric variable coding occupation according to Hollingshead classification\n(reverse numbering).",
+      "age" : "numeric variable coding age in years: 17.5 = under 20, 22 = 20&ndash;24,\n27 = 25&ndash;29, 32 = 30&ndash;34, 37 = 35&ndash;39, 42 = 40&ndash;44,\n47 = 45&ndash;49, 52 = 50&ndash;54, 57 = 55 or over.",
+      "children" : "factor. Are there children in the marriage?",
+      "yearsmarried" : "numeric variable coding number of years married: 0.125 = 3 months or less,\n0.417 = 4&ndash;6 months, 0.75 = 6 months&ndash;1 year, 1.5 = 1&ndash;2 years,\n4 = 3&ndash;5 years, 7 = 6&ndash;8 years, 10 = 9&ndash;11 years, 15 = 12 or more years.",
+      "education" : "numeric variable coding level of education: 9 = grade school,\n12 = high school graduate, 14 = some college, 16 = college graduate,\n17 = some graduate work, 18 = master's degree, 20 = Ph.D., M.D., or\nother advanced degree.",
+      "affairs" : "numeric. How often engaged in extramarital sexual intercourse\nduring the past year? 0 = none, 1 = once, 2 = twice,\n3 = 3 times, 7 = 4&ndash;10 times, 12 = monthly,\n12 = weekly, 12 = daily.",
+      "rating" : "numeric variable coding self rating of marriage: 1 = very unhappy,\n2 = somewhat unhappy, 3 = average, 4 = happier than average, \n5 = very happy.",
+      "religiousness" : "numeric variable coding religiousness: 1 = anti, 2 = not at all,\n3 = slightly, 4 = somewhat, 5 = very."
+   },
+   "format" : "A data frame containing 601 observations on 9 variables."
 }
 
 var Affairs = [

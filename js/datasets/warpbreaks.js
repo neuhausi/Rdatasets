@@ -1,7 +1,7 @@
 var warpbreaksInfo ={
-   "description" : "Description\nThis data set gives the number of warp breaks per loom, where a loom\ncorresponds to a fixed length of yarn.",
    "usage" : "warpbreaks",
    "title" : "The Number of Breaks in Yarn during Weaving",
+   "description" : "Description\nThis data set gives the number of warp breaks per loom, where a loom\ncorresponds to a fixed length of yarn.",
    "format" : "A data frame with 54 observations on 3 variables."
 }
 

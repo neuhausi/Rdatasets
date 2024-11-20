@@ -1,4 +1,13 @@
 {
+   "config" : {
+      "graphType" : "Heatmap",
+      "smpOverlays" : [
+         "Minority"
+      ],
+      "subtitle" : "mlmRev - bdf",
+      "title" : "Language Scores of 8-Graders in The Netherlands"
+   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>bdf</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Language Scores of 8-Graders in The Netherlands</h2>\n<h3>Description</h3>\n<p>The <code>bdf</code> data frame has 2287 rows and 25 columns of language\nscores from grade 8 pupils in elementary schools in The Netherlands.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(bdf)</code></pre>\n<h3>Format</h3>\n<dl>\n<dt>schoolNR</dt><dd><p>a factor denoting the school.</p>\n</dd>\n<dt>pupilNR</dt><dd><p>a factor denoting the pupil.</p>\n</dd>\n<dt>IQ.verb</dt><dd><p>a numeric vector of verbal IQ scores</p>\n</dd>\n<dt>IQ.perf</dt><dd><p>a numeric vector of IQ scores.</p>\n</dd>\n<dt>sex</dt><dd><p>Sex of the student.</p>\n</dd>\n<dt>Minority</dt><dd><p>a factor indicating if the student is a member of a\nminority group.</p>\n</dd>\n<dt>repeatgr</dt><dd><p>an ordered factor indicating if one or more grades\nhave been repeated.</p>\n</dd>\n<dt>aritPRET</dt><dd><p>a numeric vector</p>\n</dd>\n<dt>classNR</dt><dd><p>a numeric vector</p>\n</dd>\n<dt>aritPOST</dt><dd><p>a numeric vector</p>\n</dd>\n<dt>langPRET</dt><dd><p>a numeric vector</p>\n</dd>\n<dt>langPOST</dt><dd><p>a numeric vector</p>\n</dd>\n<dt>ses</dt><dd><p>a numeric vector of socioeconomic status indicators.</p>\n</dd>\n<dt>denomina</dt><dd><p>a factor indicating of the school is a public\nschool, a Protestant private school, a Catholic private school, or\na non-denominational private school.</p>\n</dd>\n<dt>schoolSES</dt><dd><p>a numeric vector</p>\n</dd>\n<dt>satiprin</dt><dd><p>a numeric vector</p>\n</dd>\n<dt>natitest</dt><dd><p>a factor with levels <code>0</code> and <code>1</code></p>\n</dd>\n<dt>meetings</dt><dd><p>a numeric vector</p>\n</dd>\n<dt>currmeet</dt><dd><p>a numeric vector</p>\n</dd>\n<dt>mixedgra</dt><dd><p>a factor indicating if the class is a mixed-grade class.</p>\n</dd>\n<dt>percmino</dt><dd><p>a numeric vector</p>\n</dd>\n<dt>aritdiff</dt><dd><p>a numeric vector</p>\n</dd>\n<dt>homework</dt><dd><p>a numeric vector</p>\n</dd>\n<dt>classsiz</dt><dd><p>a numeric vector</p>\n</dd>\n<dt>groupsiz</dt><dd><p>a numeric vector</p>\n</dd>\n</dl>\n<h3>References</h3>\n<p>Snijders, Tom and Bosker, Roel (1999)\n<em>Multilevel Analysis: An Introduction to Basic and Advanced\nMultilevel Modeling</em>, Sage.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>summary(bdf)\n</code></pre>\n</main>\n</div>\n",
    "data" : {
       "x" : {
          "Minority" : [
@@ -2292,35 +2301,6 @@
          ]
       },
       "y" : {
-         "vars" : [
-            "schoolNR",
-            "pupilNR",
-            "IQ.verb",
-            "IQ.perf",
-            "sex",
-            "repeatgr",
-            "aritPRET",
-            "classNR",
-            "aritPOST",
-            "langPRET",
-            "langPOST",
-            "ses",
-            "denomina",
-            "schoolSES",
-            "satiprin",
-            "natitest",
-            "meetings",
-            "currmeet",
-            "mixedgra",
-            "percmino",
-            "aritdiff",
-            "homework",
-            "classsiz",
-            "groupsiz",
-            "IQ.ver.cen",
-            "avg.IQ.ver.cen",
-            "grpSiz.cen"
-         ],
          "smps" : [
             "Smp1",
             "Smp2",
@@ -66414,16 +66394,36 @@
                -14.100568430258,
                -14.100568430258
             ]
+         ],
+         "vars" : [
+            "schoolNR",
+            "pupilNR",
+            "IQ.verb",
+            "IQ.perf",
+            "sex",
+            "repeatgr",
+            "aritPRET",
+            "classNR",
+            "aritPOST",
+            "langPRET",
+            "langPOST",
+            "ses",
+            "denomina",
+            "schoolSES",
+            "satiprin",
+            "natitest",
+            "meetings",
+            "currmeet",
+            "mixedgra",
+            "percmino",
+            "aritdiff",
+            "homework",
+            "classsiz",
+            "groupsiz",
+            "IQ.ver.cen",
+            "avg.IQ.ver.cen",
+            "grpSiz.cen"
          ]
       }
-   },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>bdf</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Language Scores of 8-Graders in The Netherlands</h2>\n<h3>Description</h3>\n<p>The <code>bdf</code> data frame has 2287 rows and 25 columns of language\nscores from grade 8 pupils in elementary schools in The Netherlands.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(bdf)</code></pre>\n<h3>Format</h3>\n<dl>\n<dt>schoolNR</dt><dd><p>a factor denoting the school.</p>\n</dd>\n<dt>pupilNR</dt><dd><p>a factor denoting the pupil.</p>\n</dd>\n<dt>IQ.verb</dt><dd><p>a numeric vector of verbal IQ scores</p>\n</dd>\n<dt>IQ.perf</dt><dd><p>a numeric vector of IQ scores.</p>\n</dd>\n<dt>sex</dt><dd><p>Sex of the student.</p>\n</dd>\n<dt>Minority</dt><dd><p>a factor indicating if the student is a member of a\nminority group.</p>\n</dd>\n<dt>repeatgr</dt><dd><p>an ordered factor indicating if one or more grades\nhave been repeated.</p>\n</dd>\n<dt>aritPRET</dt><dd><p>a numeric vector</p>\n</dd>\n<dt>classNR</dt><dd><p>a numeric vector</p>\n</dd>\n<dt>aritPOST</dt><dd><p>a numeric vector</p>\n</dd>\n<dt>langPRET</dt><dd><p>a numeric vector</p>\n</dd>\n<dt>langPOST</dt><dd><p>a numeric vector</p>\n</dd>\n<dt>ses</dt><dd><p>a numeric vector of socioeconomic status indicators.</p>\n</dd>\n<dt>denomina</dt><dd><p>a factor indicating of the school is a public\nschool, a Protestant private school, a Catholic private school, or\na non-denominational private school.</p>\n</dd>\n<dt>schoolSES</dt><dd><p>a numeric vector</p>\n</dd>\n<dt>satiprin</dt><dd><p>a numeric vector</p>\n</dd>\n<dt>natitest</dt><dd><p>a factor with levels <code>0</code> and <code>1</code></p>\n</dd>\n<dt>meetings</dt><dd><p>a numeric vector</p>\n</dd>\n<dt>currmeet</dt><dd><p>a numeric vector</p>\n</dd>\n<dt>mixedgra</dt><dd><p>a factor indicating if the class is a mixed-grade class.</p>\n</dd>\n<dt>percmino</dt><dd><p>a numeric vector</p>\n</dd>\n<dt>aritdiff</dt><dd><p>a numeric vector</p>\n</dd>\n<dt>homework</dt><dd><p>a numeric vector</p>\n</dd>\n<dt>classsiz</dt><dd><p>a numeric vector</p>\n</dd>\n<dt>groupsiz</dt><dd><p>a numeric vector</p>\n</dd>\n</dl>\n<h3>References</h3>\n<p>Snijders, Tom and Bosker, Roel (1999)\n<em>Multilevel Analysis: An Introduction to Basic and Advanced\nMultilevel Modeling</em>, Sage.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>summary(bdf)\n</code></pre>\n</main>\n</div>\n",
-   "config" : {
-      "smpOverlays" : [
-         "Minority"
-      ],
-      "title" : "Language Scores of 8-Graders in The Netherlands",
-      "graphType" : "Heatmap",
-      "subtitle" : "mlmRev - bdf"
    }
 }

@@ -1,28 +1,28 @@
 var volatInfo ={
-   "usage" : "data('volat')",
-   "description" : "Description\nWooldridge Source: J.D. Hamilton and L. Gang (1996), âStock Market Volatility and the Business Cycle,â Journal of Applied Econometrics 11, 573-593. I obtained these data from the Journal of Applied Econometrics data archive at http://qed.econ.queensu.ca/jae/ Data loads lazily.",
-   "format" : "A data.frame with 558 observations on 17 variables:",
-   "title" : "volat",
-   "reference" : "pages 378, 670, 671, 674",
    "parameters" : {
       "pcsp_1" : " pcip[_n-1]",
-      "pcip_1" : " pcip[_n-1]",
-      "date" : " 1947.01 to 1993.06",
-      "pcip" : " pct chg, IP, ann rate",
+      "ci3_2" : " ci3[_n-2]",
+      "sp500" : " S&P 500 index",
+      "divyld" : " div. yield annualized rate",
+      "i3" : " 3 mo. T-bill annualized rate",
       "ip" : " index of industrial production",
       "pcip_2" : " pcip[_n-2]",
-      "i3" : " 3 mo. T-bill annualized rate",
-      "sp500" : " S&P 500 index",
-      "rsp500" : " return on sp500",
-      "ci3_1" : " ci3[_n-1]",
-      "pcsp_3" : " pcip[_n-3]",
+      "pcip" : " pct chg, IP, ann rate",
       "pcip_3" : " pcip[_n-3]",
-      "ci3_2" : " ci3[_n-2]",
-      "ci3" : " i3 - i3[_n-1]",
       "pcsp" : " pct chg, sp500, ann rate",
-      "divyld" : " div. yield annualized rate",
-      "pcsp_2" : " pcip[_n-2]"
-   }
+      "pcsp_3" : " pcip[_n-3]",
+      "ci3" : " i3 - i3[_n-1]",
+      "rsp500" : " return on sp500",
+      "pcsp_2" : " pcip[_n-2]",
+      "ci3_1" : " ci3[_n-1]",
+      "date" : " 1947.01 to 1993.06",
+      "pcip_1" : " pcip[_n-1]"
+   },
+   "title" : "volat",
+   "description" : "Description\nWooldridge Source: J.D. Hamilton and L. Gang (1996), âStock Market Volatility and the Business Cycle,â Journal of Applied Econometrics 11, 573-593. I obtained these data from the Journal of Applied Econometrics data archive at http://qed.econ.queensu.ca/jae/ Data loads lazily.",
+   "usage" : "data('volat')",
+   "reference" : "pages 378, 670, 671, 674",
+   "format" : "A data.frame with 558 observations on 17 variables:"
 }
 
 var volat = [

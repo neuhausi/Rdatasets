@@ -1,19 +1,19 @@
 var charityInfo ={
-   "parameters" : {
-      "propresp" : " response rate to mailings",
-      "gift" : " amount of gift, Dutch guilders",
-      "resplast" : " =1 if responded to most recent mailing",
-      "respond" : " =1 if responded with gift",
-      "weekslast" : " number of weeks since last response",
-      "giftlast" : " amount of most recent gift",
-      "avggift" : " average of past gifts",
-      "mailsyear" : " number of mailings per year"
-   },
-   "format" : "A data.frame with 4268 observations on 8 variables:",
-   "reference" : "This data set can be used to illustrate probit and Tobit models, and to study the linear approximations to them.",
    "title" : "charity",
    "description" : "Description\nWooldridge Source: P.H. Franses and R. Paap (2001), Quantitative Models in Marketing Research. Cambridge: Cambridge University Press. Professor Franses kindly provided the data. Data loads lazily.",
-   "usage" : "data('charity')"
+   "usage" : "data('charity')",
+   "reference" : "This data set can be used to illustrate probit and Tobit models, and to study the linear approximations to them.",
+   "parameters" : {
+      "avggift" : " average of past gifts",
+      "giftlast" : " amount of most recent gift",
+      "resplast" : " =1 if responded to most recent mailing",
+      "propresp" : " response rate to mailings",
+      "weekslast" : " number of weeks since last response",
+      "mailsyear" : " number of mailings per year",
+      "respond" : " =1 if responded with gift",
+      "gift" : " amount of gift, Dutch guilders"
+   },
+   "format" : "A data.frame with 4268 observations on 8 variables:"
 }
 
 var charity = [

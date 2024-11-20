@@ -1,8 +1,8 @@
 var pew_energy_2018Info ={
+   "description" : "Description\nUS-based survey on support for expanding six different sources of energy,\nincluding solar, wind, offshore drilling, hydrolic fracturing (\"fracking\"),\ncoal, and nuclear.",
    "title" : "Pew Survey on Energy Sources in 2018",
-   "format" : "The format is: List of 6 $ solar_panel_farms : List of responses on\nsolar farms.  $ wind_turbine_farms : List of responses on wind turbine\nfarms.  $ offshore_drilling : List of responses on offshore drilling.  $\nhydrolic_fracturing : List of responses on hydrolic fracturing.  $\ncoal_mining : List of responses on coal mining.  $ nuclear_power_plants:\nList of responses on nuclear.",
    "usage" : "pew_energy_2018",
-   "description" : "Description\nUS-based survey on support for expanding six different sources of energy,\nincluding solar, wind, offshore drilling, hydrolic fracturing (\"fracking\"),\ncoal, and nuclear."
+   "format" : "The format is: List of 6 $ solar_panel_farms : List of responses on\nsolar farms.  $ wind_turbine_farms : List of responses on wind turbine\nfarms.  $ offshore_drilling : List of responses on offshore drilling.  $\nhydrolic_fracturing : List of responses on hydrolic fracturing.  $\ncoal_mining : List of responses on coal mining.  $ nuclear_power_plants:\nList of responses on nuclear."
 }
 
 var pew_energy_2018 = [

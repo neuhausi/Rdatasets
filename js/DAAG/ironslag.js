@@ -1,13 +1,13 @@
 var ironslagInfo ={
-   "description" : "Description\nThe ironslag data frame has 53 rows and 2 columns.\nTwo methods for measuring the iron content in samples of slag \nwere compared, a chemical and a magnetic method.  The chemical\nmethod requires greater effort than the magnetic method.",
-   "usage" : "ironslag",
    "parameters" : {
       "chemical" : "a numeric vector containing the measurements\ncoming from the chemical method",
       "magnetic" : "a numeric vector containing the measurments\ncoming from the magnetic method"
    },
-   "format" : "This data frame contains the following columns:",
+   "description" : "Description\nThe ironslag data frame has 53 rows and 2 columns.\nTwo methods for measuring the iron content in samples of slag \nwere compared, a chemical and a magnetic method.  The chemical\nmethod requires greater effort than the magnetic method.",
    "title" : "Iron Content Measurements",
-   "reference" : "Hand, D.J., Daly, F., McConway, K., Lunn, D., and Ostrowski, E. eds (1993)\nA Handbook of Small Data Sets. London: Chapman & Hall."
+   "usage" : "ironslag",
+   "reference" : "Hand, D.J., Daly, F., McConway, K., Lunn, D., and Ostrowski, E. eds (1993)\nA Handbook of Small Data Sets. London: Chapman & Hall.",
+   "format" : "This data frame contains the following columns:"
 }
 
 var ironslag = [

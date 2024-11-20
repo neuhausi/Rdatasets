@@ -1,7 +1,7 @@
 var ArcheryDataInfo ={
+   "description" : "Description\nScore results from an archery class",
    "title" : "Scores in an Archery Class",
-   "usage" : "A dataset with 18 observations on the following 7 variables.",
-   "description" : "Description\nScore results from an archery class"
+   "usage" : "A dataset with 18 observations on the following 7 variables."
 }
 
 var ArcheryData = [

@@ -1,0 +1,20 @@
+{
+   "parameters" : {
+      "treat" : "In the National Supported Work Demonstration Job Training Program",
+      "nodegree" : "Has no degree",
+      "hisp" : "Ethnicity: Hispanic",
+      "re75" : "Real earnings 1975",
+      "black" : "Race: Black",
+      "re78" : "Real earnings 1978",
+      "age" : "Age in years",
+      "marr" : "Married",
+      "educ" : "Years of education",
+      "data_id" : "Individual ID",
+      "re74" : "Real earnings 1974"
+   },
+   "description" : "Description\nData from the National Supported Work Demonstration (NSW) job-training program experiment, where those treated were guaranteed a job for 9-18 months.",
+   "title" : "Data from the National Supported Work Demonstration (NSW) job-training program",
+   "reference" : "This data is used in the Matching and Subclassification chapter of Causal Inference: The Mixtape by Cunningham.",
+   "usage" : "nsw_mixtape",
+   "format" : "A data frame with 445 rows and 11 variables"
+}

@@ -1,12 +1,12 @@
 {
+   "config" : {
+      "graphType" : "Scatter2D",
+      "subtitle" : "stevedata - so2concentrations",
+      "scatterPlotMatrix" : 1,
+      "title" : "Sulfur Dioxide Emissions"
+   },
    "data" : {
       "y" : {
-         "smps" : [
-            "year",
-            "value",
-            "lb",
-            "ub"
-         ],
          "vars" : [
             "Var1",
             "Var2",
@@ -297,14 +297,14 @@
                3,
                16.4
             ]
+         ],
+         "smps" : [
+            "year",
+            "value",
+            "lb",
+            "ub"
          ]
       }
    },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>so2concentrations</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Sulfur Dioxide Emissions, 1980-2020</h2>\n<h3>Description</h3>\n<p>This data set contains yearly observations by the Environmental Protection Agency\non the concentration of sulfur dioxide in parts per billion, based on 32 sites.\nI use this for in-class illustration. Note that the national standard is\n75 parts per billion. Data are the national trend.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>so2concentrations\n</code></pre>\n<h3>Format</h3>\n<p>A data frame with the following 4 variables.\n</p>\n<dl>\n<dt><code>year</code></dt><dd><p>the year</p>\n</dd>\n<dt><code>value</code></dt><dd><p>the mean concentration of sulfur dioxide in the air\nbased on 32 trend sites, in parts per billion</p>\n</dd>\n<dt><code>ub</code></dt><dd><p>the lower bound of the value (10th percentile)</p>\n</dd>\n<dt><code>lb</code></dt><dd><p>the upper bound of the value (90th percentile)</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>Environmental Protection Agency (&quot;Sulfur Dioxide Trends&quot;)\n</p>\n</main>\n</div>\n",
-   "config" : {
-      "subtitle" : "stevedata - so2concentrations",
-      "graphType" : "Scatter2D",
-      "title" : "Sulfur Dioxide Emissions",
-      "scatterPlotMatrix" : 1
-   }
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>so2concentrations</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Sulfur Dioxide Emissions, 1980-2020</h2>\n<h3>Description</h3>\n<p>This data set contains yearly observations by the Environmental Protection Agency\non the concentration of sulfur dioxide in parts per billion, based on 32 sites.\nI use this for in-class illustration. Note that the national standard is\n75 parts per billion. Data are the national trend.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>so2concentrations\n</code></pre>\n<h3>Format</h3>\n<p>A data frame with the following 4 variables.\n</p>\n<dl>\n<dt><code>year</code></dt><dd><p>the year</p>\n</dd>\n<dt><code>value</code></dt><dd><p>the mean concentration of sulfur dioxide in the air\nbased on 32 trend sites, in parts per billion</p>\n</dd>\n<dt><code>ub</code></dt><dd><p>the lower bound of the value (10th percentile)</p>\n</dd>\n<dt><code>lb</code></dt><dd><p>the upper bound of the value (90th percentile)</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>Environmental Protection Agency (&quot;Sulfur Dioxide Trends&quot;)\n</p>\n</main>\n</div>\n"
 }

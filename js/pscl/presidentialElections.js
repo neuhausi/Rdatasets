@@ -1,14 +1,14 @@
 var presidentialElectionsInfo ={
-   "description" : "Description\nDemocratic share of the\npresidential vote, 1932-2016, in each state and the District of Columbia.",
-   "usage" : "data(presidentialElections)",
+   "format" : "statecharacter, name of state\n\ndemVotenumeric, percent of the vote for president won by the\nDemocratic candidate\n\nyearnumeric, integer\n\nsouthlogical, TRUE if state is one of the 11 states\nof the former Confederacy",
    "parameters" : {
-      "demVote" : "numeric, percent of the vote for president won by the\nDemocratic candidate",
       "year" : "numeric, integer",
+      "south" : "logical, TRUE if state is one of the 11 states\nof the former Confederacy",
       "state" : "character, name of state",
-      "south" : "logical, TRUE if state is one of the 11 states\nof the former Confederacy"
+      "demVote" : "numeric, percent of the vote for president won by the\nDemocratic candidate"
    },
    "title" : "elections for U.S. President, 1932-2016, by state",
-   "format" : "statecharacter, name of state\n\ndemVotenumeric, percent of the vote for president won by the\nDemocratic candidate\n\nyearnumeric, integer\n\nsouthlogical, TRUE if state is one of the 11 states\nof the former Confederacy",
+   "description" : "Description\nDemocratic share of the\npresidential vote, 1932-2016, in each state and the District of Columbia.",
+   "usage" : "data(presidentialElections)",
    "reference" : "1,047 observations, unbalanced panel data in long format. Hawaii and Alaska contribute data\nfrom 1960 onwards the District of Columbia contributes data\nfrom 1964 onward; Alabama has missing data for 1948 and\n1964."
 }
 

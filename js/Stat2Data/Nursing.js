@@ -1,7 +1,7 @@
 var NursingInfo ={
+   "description" : "Description\nCharacteristics of nursing homes in New Mexico.",
    "title" : "Nursing Homes",
-   "usage" : "A dataset with 52 observations on the following 7 variables.",
-   "description" : "Description\nCharacteristics of nursing homes in New Mexico."
+   "usage" : "A dataset with 52 observations on the following 7 variables."
 }
 
 var Nursing = [

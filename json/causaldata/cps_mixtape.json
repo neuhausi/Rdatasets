@@ -31991,18 +31991,6 @@
             "Smp15991",
             "Smp15992"
          ],
-         "vars" : [
-            "treat",
-            "age",
-            "educ",
-            "black",
-            "hisp",
-            "marr",
-            "nodegree",
-            "re74",
-            "re75",
-            "re78"
-         ],
          "data" : [
             [
                0,
@@ -191944,16 +191932,28 @@
                13671.9296875,
                7979.72412109375
             ]
+         ],
+         "vars" : [
+            "treat",
+            "age",
+            "educ",
+            "black",
+            "hisp",
+            "marr",
+            "nodegree",
+            "re74",
+            "re75",
+            "re78"
          ]
       }
    },
    "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>cps_mixtape</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Observational counterpart to nsw_mixtape data</h2>\n<h3>Description</h3>\n<p>Data from the Current Population Survey on participation in the National Supported Work Demonstration (NSW) job-training program experiment. This is used as an observational comparison to the NSW experimental data from the nsw_mixtape data.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>cps_mixtape\n</code></pre>\n<h3>Format</h3>\n<p>A data frame with 15992 rows and 11 variables\n</p>\n<dl>\n<dt>data_id</dt><dd><p>Individual ID</p>\n</dd>\n<dt>treat</dt><dd><p>In the National Supported Work Demonstration Job Training Program</p>\n</dd>\n<dt>age</dt><dd><p>Age in years</p>\n</dd>\n<dt>educ</dt><dd><p>Years of education</p>\n</dd>\n<dt>black</dt><dd><p>Race: Black</p>\n</dd>\n<dt>hisp</dt><dd><p>Ethnicity: Hispanic</p>\n</dd>\n<dt>marr</dt><dd><p>Married</p>\n</dd>\n<dt>nodegree</dt><dd><p>Has no degree</p>\n</dd>\n<dt>re74</dt><dd><p>Real earnings 1974</p>\n</dd>\n<dt>re75</dt><dd><p>Real earnings 1975</p>\n</dd>\n<dt>re78</dt><dd><p>Real earnings 1978</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>This data is used in the <em>Matching and Subclassification</em> chapter of <em>Causal Inference: The Mixtape</em> by Cunningham.\n</p>\n<h3>Source</h3>\n<p>Dehejia, Rajeev H., and Sadek Wahba. 1999. âCausal Effects in Nonexperimental Studies: Reevaluating the Evaluation of Training Programs.â Journal of the American Statistical Association 94 (448): 1053â62.&quot;.\n</p>\n<h3>References</h3>\n<p>Cunningham. 2021. Causal Inference: The Mixtape. Yale Press. <a href=\"https://mixtape.scunning.com/index.html\">https://mixtape.scunning.com/index.html</a>.\n</p>\n</main>\n</div>\n",
    "config" : {
+      "subtitle" : "causaldata - cps_mixtape",
       "title" : "Observational counterpart to nsw_mixtape data",
       "graphType" : "Heatmap",
       "smpOverlays" : [
          "data_id"
-      ],
-      "subtitle" : "causaldata - cps_mixtape"
+      ]
    }
 }

@@ -1,15 +1,15 @@
 var RectanglesInfo ={
-   "title" : "Measurements of Rectangles",
    "reference" : "Areas for rectangles of width 1, 4, or 10 and length of 1, 4, or 10.",
    "usage" : "A data frame with 9 observations on the following 5 variables.",
+   "title" : "Measurements of Rectangles",
+   "description" : "Description\nMeasurements for a hypothetical set of nine rectangles.",
    "parameters" : {
+      "Width" : "Width (1, 4, or 10)",
       "logArea" : "Log (base 10) of area",
-      "Area" : "Area",
       "Case" : "ID number for each rectangle",
       "Length" : "Length (1, 4, or 10)",
-      "Width" : "Width (1, 4, or 10)"
-   },
-   "description" : "Description\nMeasurements for a hypothetical set of nine rectangles."
+      "Area" : "Area"
+   }
 }
 
 var Rectangles = [

@@ -1,7 +1,7 @@
 var USArrestsInfo ={
    "description" : "Description\nThis data set contains statistics, in arrests per 100,000 residents\nfor assault, murder, and rape in each of the 50 US states in 1973.\nAlso given is the percent of the population living in urban areas.",
-   "usage" : "USArrests",
    "title" : "Violent Crime Rates by US State",
+   "usage" : "USArrests",
    "format" : "A data frame with 50 observations on 4 variables."
 }
 

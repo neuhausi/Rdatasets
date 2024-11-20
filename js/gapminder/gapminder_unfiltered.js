@@ -1,8 +1,8 @@
 var gapminder_unfilteredInfo ={
-   "usage" : "gapminder_unfiltered",
-   "title" : "Gapminder data, unfiltered.",
    "format" : "An object of class tbl_df (inherits from tbl, data.frame) with 3313 rows and 6 columns.",
-   "description" : "Description\nThe supplemental data frame gapminder_unfiltered was not filtered on\nyear or for complete data and has 3313 rows. Everything else is as\ndocumented in gapminder."
+   "description" : "Description\nThe supplemental data frame gapminder_unfiltered was not filtered on\nyear or for complete data and has 3313 rows. Everything else is as\ndocumented in gapminder.",
+   "title" : "Gapminder data, unfiltered.",
+   "usage" : "gapminder_unfiltered"
 }
 
 var gapminder_unfiltered = [

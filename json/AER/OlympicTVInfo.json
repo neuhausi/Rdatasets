@@ -1,0 +1,11 @@
+{
+   "description" : "Description\nTelevision rights for Olympic Games for US networks (in millions USD).",
+   "title" : "Television Rights for Olympic Games",
+   "usage" : "data(\"OlympicTV\")",
+   "reference" : "Online complements to Franses (1998).",
+   "parameters" : {
+      "rights" : "time series of television rights (in million USD),",
+      "network" : "factor coding television network."
+   },
+   "format" : "A data frame with 10 observations and 2 variables."
+}

@@ -1,30 +1,30 @@
 var mlb_players_18Info ={
    "parameters" : {
-      "stolen_bases" : "Stolen bases.",
-      "team" : "Team abbreviation",
-      "name" : "Player name",
-      "RBI" : "Runs batted in.",
-      "walks" : "Walks.",
-      "OPS" : "On-base percentage plus slugging percentage.",
-      "position" : "Position abbreviation: 1B = first base,\n2B = second base, 3B = third base, C = catcher,\nCF = center field (outfield), DH = designated hitter,\nLF = left field (outfield), P = pitcher,\nRF = right field (outfield), SS = shortstop.",
+      "AVG" : "Batting average.",
+      "OBP" : "On-base percentage.",
+      "HR" : "Home runs.",
+      "caught_stealing_base" : "Number of times caught stealing a base.",
       "SLG" : "Slugging percentage.",
       "doubles" : "Doubles.",
+      "OPS" : "On-base percentage plus slugging percentage.",
+      "R" : "Runs.",
+      "position" : "Position abbreviation: 1B = first base,\n2B = second base, 3B = third base, C = catcher,\nCF = center field (outfield), DH = designated hitter,\nLF = left field (outfield), P = pitcher,\nRF = right field (outfield), SS = shortstop.",
       "AB" : "At bats.",
-      "OBP" : "On-base percentage.",
       "strike_outs" : "Strike outs.",
+      "team" : "Team abbreviation",
+      "RBI" : "Runs batted in.",
+      "games" : "Number of games played.",
+      "walks" : "Walks.",
       "triples" : "Triples.",
       "H" : "Hits.",
-      "games" : "Number of games played.",
-      "HR" : "Home runs.",
-      "R" : "Runs.",
-      "caught_stealing_base" : "Number of times caught stealing a base.",
-      "AVG" : "Batting average."
+      "name" : "Player name",
+      "stolen_bases" : "Stolen bases."
    },
-   "format" : "A data frame with 1270 observations on the following 19 variables.",
-   "title" : "Batter Statistics for 2018 Major League Baseball (MLB) Season",
    "reference" : "https://www.mlb.com/stats",
+   "usage" : "mlb_players_18",
+   "title" : "Batter Statistics for 2018 Major League Baseball (MLB) Season",
    "description" : "Description\nBatter statistics for 2018 Major League Baseball season.",
-   "usage" : "mlb_players_18"
+   "format" : "A data frame with 1270 observations on the following 19 variables."
 }
 
 var mlb_players_18 = [

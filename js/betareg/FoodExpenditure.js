@@ -1,14 +1,14 @@
 var FoodExpenditureInfo ={
-   "usage" : "data(\"FoodExpenditure\", package = \"betareg\")",
-   "description" : "Description\nData on proportion of income spent on food for a random sample of 38 households in a large US city.",
-   "title" : "Proportion of Household Income Spent on Food",
-   "reference" : "Taken from Griffiths et al. (1993, Table 15.4).",
-   "format" : "A data frame containing 38 observations on 3 variables.",
    "parameters" : {
+      "food" : "household expenditures for food.",
       "persons" : "number of persons living in household.",
-      "income" : "household income.",
-      "food" : "household expenditures for food."
-   }
+      "income" : "household income."
+   },
+   "usage" : "data(\"FoodExpenditure\", package = \"betareg\")",
+   "reference" : "Taken from Griffiths et al. (1993, Table 15.4).",
+   "title" : "Proportion of Household Income Spent on Food",
+   "description" : "Description\nData on proportion of income spent on food for a random sample of 38 households in a large US city.",
+   "format" : "A data frame containing 38 observations on 3 variables."
 }
 
 var FoodExpenditure = [

@@ -1,25 +1,25 @@
 var HedonicInfo ={
-   "usage" : "data(Hedonic)",
-   "description" : "Description\na cross-section\nnumber of observations :  506\nobservation :  regional\ncountry :  United States",
-   "title" : "Hedonic Prices of Census Tracts in Boston",
    "format" : "A dataframe containing :",
+   "title" : "Hedonic Prices of Census Tracts in Boston",
+   "description" : "Description\na cross-section\nnumber of observations :  506\nobservation :  regional\ncountry :  United States",
+   "usage" : "data(Hedonic)",
    "reference" : "Harrison, D.  and  D.L.  Rubinfeld (1978) &ldquo;Hedonic housing prices and the demand for clean air&rdquo;, Journal of Environmental Economics Ans Management, 5, 81&ndash;102.",
    "parameters" : {
-      "nox" : "annual average nitrogen oxide concentration in parts per hundred million",
+      "ptratio" : "pupil/teacher ratio",
       "townid" : "town identifier",
-      "chas" : "is the tract bounds the Charles River ?",
+      "zn" : "proportion of 25,000 square feet residential lots",
+      "nox" : "annual average nitrogen oxide concentration in parts per hundred million",
       "crim" : "crime rate",
       "age" : "proportion of owner units built prior to 1940",
-      "rad" : "index of accessibility to radial highways",
       "indus" : "proportion of nonretail business acres",
-      "ptratio" : "pupil/teacher ratio",
       "rm" : "average number of rooms",
-      "zn" : "proportion of 25,000 square feet residential lots",
-      "mv" : "median value of owner&ndash;occupied homes",
-      "lstat" : "proportion of population that is lower status",
       "blacks" : "proportion of blacks in the population",
+      "tax" : "full value property tax rate ($ / $10,000)",
       "dis" : "weighted distances to five employment centers in the Boston area",
-      "tax" : "full value property tax rate ($ / $10,000)"
+      "lstat" : "proportion of population that is lower status",
+      "chas" : "is the tract bounds the Charles River ?",
+      "mv" : "median value of owner&ndash;occupied homes",
+      "rad" : "index of accessibility to radial highways"
    }
 }
 

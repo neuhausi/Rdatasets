@@ -1,0 +1,33 @@
+{
+   "format" : "A data.frame with 37 observations on 24 variables:",
+   "parameters" : {
+      "pop" : " population, 1000s",
+      "gy_1" : " gy[_n-1]",
+      "r3_2" : " r3[_n-2]",
+      "rdisp" : " disp. inc., 1992 $, bils.",
+      "r3" : " i3 - inf; real ex post int.",
+      "gc_1" : " gc[_n-1]",
+      "lc_ly_1" : " lc_ly[_n-1]",
+      "i3" : " 3 mo. T-bill rate",
+      "lc_ly" : " lc - ly",
+      "inf" : " inflation rate; CPI",
+      "rnondc" : " nondur. cons., 1992 $, bils.",
+      "c" : " per capita real cons.",
+      "year" : " 1959-1995",
+      "lc_ly_2" : " lc_ly[_n-2]",
+      "gy_2" : " gy[_n-2]",
+      "gc" : " lc - lc[_n-1]",
+      "r3_1" : " r3[_n-1]",
+      "rcons" : " rnondc + rserv",
+      "y" : " per capita real disp. inc.",
+      "ly" : " log(y)",
+      "lc" : " log(c)",
+      "rserv" : " services, 1992 $, bils.",
+      "gc_2" : " gc[_n-2]",
+      "gy" : " ly - ly[_n-1]"
+   },
+   "description" : "Description\nWooldridge Source: I collected these data from the 1997 Economic Report of the President. Specifically, the data come from Tables B-71, 15, 29, and 32. Data loads lazily.",
+   "title" : "consump",
+   "usage" : "data('consump')",
+   "reference" : "For a student interested in time series methods, updating this data set and using it in a manner similar to that in the text could be acceptable as a final project."
+}

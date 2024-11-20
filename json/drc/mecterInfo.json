@@ -1,0 +1,12 @@
+{
+   "parameters" : {
+      "pct" : "a numeric vector denoting the grouping according to the mixtures percentages",
+      "dose" : "a numeric vector of dose values",
+      "rgr" : "a numeric vector of response values (relative growth rates)"
+   },
+   "reference" : "The dataset is analysed in Soerensen et al (2007). \nThe asymmetric Voelund model is appropriate, whereas the symmetric Hewlett model is not.",
+   "usage" : "data(mecter)",
+   "title" : "Mechlorprop and terbythylazine tested on Lemna minor",
+   "description" : "Description\nData consist of 5 mixture, 6 dilutions, three replicates, and 12 common controls; in total 102 onservations.",
+   "format" : "A data frame with 102 observations on the following 3 variables."
+}

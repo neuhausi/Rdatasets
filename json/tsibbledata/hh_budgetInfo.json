@@ -1,0 +1,6 @@
+{
+   "usage" : "Time series of class tsibble.",
+   "description" : "Description\nAnnual indicators of household budgets for Australia, Japan, Canada and USA\nfrom 1995-2016.",
+   "title" : "Household budget characteristics",
+   "format" : "hh_budget is an annual tsibble with six values:"
+}

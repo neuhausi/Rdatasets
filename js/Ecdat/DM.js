@@ -1,15 +1,15 @@
 var DMInfo ={
-   "title" : "DM Dollar Exchange Rate",
-   "format" : "A dataframe containing :",
-   "reference" : "Bekaert, G.  and  R.  Hodrick (1993) &ldquo;On biases in the measurement of foreign exchange risk premiums&rdquo;, Journal of International Money and Finance, 12, 115-138.",
    "parameters" : {
-      "date" : "the date of the observation (19850104 is \nJanuary, 4, 1985)",
-      "s" : "the ask price of the dollar in units of \nDM in the spot market on Friday of the \ncurrent week",
       "s30" : "the bid price of the dollar in units of \nDM in the spot market on the delivery \ndate on a current forward contract",
-      "f" : "the ask price of the dollar in units of \nDM in the 30-day forward market on Friday \nof the current week"
+      "f" : "the ask price of the dollar in units of \nDM in the 30-day forward market on Friday \nof the current week",
+      "s" : "the ask price of the dollar in units of \nDM in the spot market on Friday of the \ncurrent week",
+      "date" : "the date of the observation (19850104 is \nJanuary, 4, 1985)"
    },
+   "description" : "Description\nweekly observations from 1975 to 1989\nnumber of observations :  778\nobservation :  country\ncountry :  Germany",
+   "title" : "DM Dollar Exchange Rate",
+   "reference" : "Bekaert, G.  and  R.  Hodrick (1993) &ldquo;On biases in the measurement of foreign exchange risk premiums&rdquo;, Journal of International Money and Finance, 12, 115-138.",
    "usage" : "data(DM)",
-   "description" : "Description\nweekly observations from 1975 to 1989\nnumber of observations :  778\nobservation :  country\ncountry :  Germany"
+   "format" : "A dataframe containing :"
 }
 
 var DM = [

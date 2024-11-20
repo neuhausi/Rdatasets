@@ -1,12 +1,13 @@
 {
    "config" : {
-      "subtitle" : "MASS - painters",
-      "title" : "The Painter's Data of de Piles",
       "shapeBy" : null,
+      "scatterPlotMatrix" : 1,
       "colorBy" : "School",
       "graphType" : "Scatter2D",
-      "scatterPlotMatrix" : 1
+      "title" : "The Painter's Data of de Piles",
+      "subtitle" : "MASS - painters"
    },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>painters</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>\nThe Painter's Data of de Piles\n</h2>\n<h3>Description</h3>\n<p>The subjective assessment, on a 0 to 20 integer scale, of 54\nclassical painters.  The painters were assessed on four characteristics:\ncomposition, drawing, colour and expression.  The data is due to the\nEighteenth century art critic, de Piles.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>painters\n</code></pre>\n<h3>Format</h3>\n<p>The row names of the data frame are the painters. The components are:\n</p>\n<dl>\n<dt><code>Composition</code></dt><dd>\n<p>Composition score.\n</p>\n</dd>\n<dt><code>Drawing</code></dt><dd>\n<p>Drawing score.\n</p>\n</dd>\n<dt><code>Colour</code></dt><dd>\n<p>Colour score.\n</p>\n</dd>\n<dt><code>Expression</code></dt><dd>\n<p>Expression score.\n</p>\n</dd>\n<dt><code>School</code></dt><dd>\n<p>The school to which a painter belongs, as indicated by a factor level\ncode as follows:\n<code>\"A\"</code>: Renaissance;\n<code>\"B\"</code>: Mannerist;\n<code>\"C\"</code>: Seicento;\n<code>\"D\"</code>: Venetian;\n<code>\"E\"</code>: Lombard;\n<code>\"F\"</code>: Sixteenth Century;\n<code>\"G\"</code>: Seventeenth Century;\n<code>\"H\"</code>: French.\n</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>A. J. Weekes (1986)\n<em>A Genstat Primer.</em> Edward Arnold.\n</p>\n<p>M. Davenport and G. Studdert-Kennedy (1972) The statistical\nanalysis of aesthetic judgement: an exploration.\n<em>Applied Statistics</em> <b>21</b>,  324&ndash;333.\n</p>\n<p>I. T. Jolliffe (1986)\n<em>Principal Component Analysis.</em> Springer.\n</p>\n<h3>References</h3>\n<p>Venables, W. N. and Ripley, B. D. (2002)\n<em>Modern Applied Statistics with S.</em> Fourth edition.  Springer.\n</p>\n</main>\n</div>\n",
    "data" : {
       "z" : {
          "School" : [
@@ -393,6 +394,12 @@
                15
             ]
          ],
+         "smps" : [
+            "Composition",
+            "Drawing",
+            "Colour",
+            "Expression"
+         ],
          "vars" : [
             "Da Udine",
             "Da Vinci",
@@ -448,14 +455,7 @@
             "Le Brun",
             "Le Suer",
             "Poussin"
-         ],
-         "smps" : [
-            "Composition",
-            "Drawing",
-            "Colour",
-            "Expression"
          ]
       }
-   },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>painters</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>\nThe Painter's Data of de Piles\n</h2>\n<h3>Description</h3>\n<p>The subjective assessment, on a 0 to 20 integer scale, of 54\nclassical painters.  The painters were assessed on four characteristics:\ncomposition, drawing, colour and expression.  The data is due to the\nEighteenth century art critic, de Piles.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>painters\n</code></pre>\n<h3>Format</h3>\n<p>The row names of the data frame are the painters. The components are:\n</p>\n<dl>\n<dt><code>Composition</code></dt><dd>\n<p>Composition score.\n</p>\n</dd>\n<dt><code>Drawing</code></dt><dd>\n<p>Drawing score.\n</p>\n</dd>\n<dt><code>Colour</code></dt><dd>\n<p>Colour score.\n</p>\n</dd>\n<dt><code>Expression</code></dt><dd>\n<p>Expression score.\n</p>\n</dd>\n<dt><code>School</code></dt><dd>\n<p>The school to which a painter belongs, as indicated by a factor level\ncode as follows:\n<code>\"A\"</code>: Renaissance;\n<code>\"B\"</code>: Mannerist;\n<code>\"C\"</code>: Seicento;\n<code>\"D\"</code>: Venetian;\n<code>\"E\"</code>: Lombard;\n<code>\"F\"</code>: Sixteenth Century;\n<code>\"G\"</code>: Seventeenth Century;\n<code>\"H\"</code>: French.\n</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>A. J. Weekes (1986)\n<em>A Genstat Primer.</em> Edward Arnold.\n</p>\n<p>M. Davenport and G. Studdert-Kennedy (1972) The statistical\nanalysis of aesthetic judgement: an exploration.\n<em>Applied Statistics</em> <b>21</b>,  324&ndash;333.\n</p>\n<p>I. T. Jolliffe (1986)\n<em>Principal Component Analysis.</em> Springer.\n</p>\n<h3>References</h3>\n<p>Venables, W. N. and Ripley, B. D. (2002)\n<em>Modern Applied Statistics with S.</em> Fourth edition.  Springer.\n</p>\n</main>\n</div>\n"
+   }
 }

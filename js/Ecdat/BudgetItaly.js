@@ -1,22 +1,22 @@
 var BudgetItalyInfo ={
-   "usage" : "data(BudgetItaly)",
    "description" : "Description\na cross-section from 1973 to 1992\nnumber of observations :  1729\nobservation :  households\ncountry :  Italy",
-   "format" : "A dataframe containing :",
    "title" : "Budget Shares for Italian Households",
+   "usage" : "data(BudgetItaly)",
    "reference" : "Bollino, Carlo Andrea, Frederico Perali and \nNicola  Rossi (2000) &ldquo;Linear household\ntechnologies&rdquo;, Journal of Applied\nEconometrics, 15(3), 253&ndash;274.",
    "parameters" : {
-      "wmisc" : "miscellaneous share",
-      "wfood" : "food share",
       "pct" : "cellule weight",
       "year" : "year",
       "phouse" : "housing and fuels price",
+      "wmisc" : "miscellaneous share",
       "totexp" : "total expenditure",
-      "size" : "household size",
+      "pfood" : "food price",
+      "wfood" : "food share",
       "income" : "income",
       "whouse" : "housing and fuels share",
-      "pmisc" : "miscellaneous price",
-      "pfood" : "food price"
-   }
+      "size" : "household size",
+      "pmisc" : "miscellaneous price"
+   },
+   "format" : "A dataframe containing :"
 }
 
 var BudgetItaly = [

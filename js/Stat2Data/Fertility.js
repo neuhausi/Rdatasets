@@ -1,7 +1,7 @@
 var FertilityInfo ={
-   "title" : "Fertility Data for Women Having Trouble Getting Pregnant",
    "usage" : "A data frame with 333 observations on the following 10 variables.",
-   "description" : "Description\nFertility measurements for a sample of women who have difficulty getting pregnant"
+   "description" : "Description\nFertility measurements for a sample of women who have difficulty getting pregnant",
+   "title" : "Fertility Data for Women Having Trouble Getting Pregnant"
 }
 
 var Fertility = [

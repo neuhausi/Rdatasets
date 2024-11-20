@@ -1,16 +1,16 @@
 var outliersInfo ={
-   "description" : "Description\nData sets for showing different types of outliers",
    "usage" : "outliers",
-   "parameters" : {
-      "y" : "a numeric vector",
-      "x" : "a numeric vector",
-      "x_inf" : "a numeric vector",
-      "y_lev" : "a numeric vector",
-      "y_out" : "a numeric vector"
-   },
    "reference" : "outliers",
-   "format" : "A data frame with 50 observations on the following 5 variables.",
-   "title" : "Simulated datasets for different types of outliers"
+   "description" : "Description\nData sets for showing different types of outliers",
+   "title" : "Simulated datasets for different types of outliers",
+   "parameters" : {
+      "y_out" : "a numeric vector",
+      "y_lev" : "a numeric vector",
+      "x" : "a numeric vector",
+      "y" : "a numeric vector",
+      "x_inf" : "a numeric vector"
+   },
+   "format" : "A data frame with 50 observations on the following 5 variables."
 }
 
 var outliers = [

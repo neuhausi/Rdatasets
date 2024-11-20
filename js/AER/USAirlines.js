@@ -1,16 +1,16 @@
 var USAirlinesInfo ={
-   "title" : "Cost Data for US Airlines",
    "format" : "A data frame containing 90 observations on 6 variables.",
-   "reference" : "Online complements to Greene (2003). Table F7.1.",
    "parameters" : {
-      "year" : "factor indicating year.",
-      "cost" : "total cost (in USD 1000).",
-      "price" : "fuel price.",
       "output" : "output revenue passenger miles index number.",
+      "price" : "fuel price.",
+      "firm" : "factor indicating airline firm.",
+      "cost" : "total cost (in USD 1000).",
       "load" : "average capacity utilization of the fleet.",
-      "firm" : "factor indicating airline firm."
+      "year" : "factor indicating year."
    },
+   "reference" : "Online complements to Greene (2003). Table F7.1.",
    "usage" : "data(\"USAirlines\")",
+   "title" : "Cost Data for US Airlines",
    "description" : "Description\nCost data for six US airlines in 1970&ndash;1984."
 }
 

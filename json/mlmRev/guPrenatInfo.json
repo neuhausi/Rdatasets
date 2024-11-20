@@ -1,0 +1,24 @@
+{
+   "title" : "Prenatal care in Guatemala",
+   "description" : "Description\nData on the prenatal care received by mothers in Guatemala.",
+   "usage" : "data(guPrenat)",
+   "reference" : "These data are available at\nhttp://data.princeton.edu/multilevel/guPrenat.dat.  Multiple\nindicator columns in the original data table have been collapsed to\nfactors for this data frame.",
+   "parameters" : {
+      "momEd" : "a factor describing the mother's level of eduation.",
+      "indig" : "a factor indicating if the mother is Ladino, or\nindigenous not speaking Spanish, or indigenous speaking Spanish.",
+      "kid" : "a factor identifying the birth",
+      "childAge" : "an ordered factor of the child's age at the time of\nthe survey.",
+      "TV" : "a factor indicating if there is a TV in the house and, if\nso, the frequency with which it is used.",
+      "husEmpl" : "a factor describing the husband's employment status.",
+      "ssDist" : "distance from the community to the nearest clinic.",
+      "prenat" : "a factor indicating if traditional or modern prenatal\ncare was provided for the birth.",
+      "motherAge" : "a factor indicating if the mother was older or\nyounger.  The cut-off age is 25 years.",
+      "mom" : "a factor identifying the mother or family",
+      "husEd" : "a factor describing the husband's level of education.",
+      "birthOrd" : "an ordered factor for the birth's order within the family.",
+      "pcInd81" : "the percentage of indigenous population in the\ncommunity at the 1981 census.",
+      "cluster" : "a factor identifying the community",
+      "toilet" : "a factor indicating if there is a modern toilet in the\nhouse."
+   },
+   "format" : "A data frame with 2449 observations on the following 15 variables."
+}

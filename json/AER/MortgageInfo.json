@@ -1,0 +1,25 @@
+{
+   "parameters" : {
+      "selfemp" : "Factor. Is the borrower self-employed?",
+      "married" : "Factor. Is the borrower married?",
+      "age" : "Age of the borrower.",
+      "rate" : "Factor with levels \"fixed\" and \"adjustable\".",
+      "maturities" : "Ratio of maturities on adjustable to fixed rate mortgages.",
+      "liquid" : "Liquid assets.",
+      "liability" : "Short-term liabilities.",
+      "school" : "Years of schooling for the borrower.",
+      "networth" : "Net worth of the borrower.",
+      "coborrower" : "Factor. Is there a co-borrower?",
+      "tdiff" : "The difference between the 10-year treasury rate less the 1-year treasury rate.",
+      "margin" : "The margin on the adjustable rate mortgage.",
+      "years" : "Years at the present address.",
+      "interest" : "Fixed interest rate.",
+      "points" : "Ratio of points paid on adjustable to fixed rate mortgages.",
+      "first" : "Factor. Is the borrower a first-time home buyer?"
+   },
+   "usage" : "data(\"Mortgage\")",
+   "reference" : "The data is from Baltagi (2002).",
+   "title" : "Fixed versus Adjustable Mortgages",
+   "description" : "Description\nCross-section data about fixed versus adjustable mortgages for\n78 households.",
+   "format" : "A data frame containing 78 observations on 16 variables."
+}

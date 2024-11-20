@@ -1,15 +1,15 @@
 var admissionsInfo ={
-   "usage" : "admissions",
-   "description" : "Description\nThe admission data for six majors for the fall of 1973; often used as an example of Simpson's paradox",
-   "reference" : "PJ Bickel, EA Hammel, and JW O'Connell. Science (1975)",
    "format" : "An object of class \"data.frame\".",
-   "title" : "Gender bias among graduate school admissions to UC Berkeley.",
    "parameters" : {
-      "major. The major or university department." : null,
-      "applicants. Total number of applicants." : null,
+      "gender. Men or women." : null,
       "admitted. Percent of students admitted." : null,
-      "gender. Men or women." : null
-   }
+      "major. The major or university department." : null,
+      "applicants. Total number of applicants." : null
+   },
+   "usage" : "admissions",
+   "reference" : "PJ Bickel, EA Hammel, and JW O'Connell. Science (1975)",
+   "description" : "Description\nThe admission data for six majors for the fall of 1973; often used as an example of Simpson's paradox",
+   "title" : "Gender bias among graduate school admissions to UC Berkeley."
 }
 
 var admissions = [

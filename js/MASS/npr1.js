@@ -1,15 +1,15 @@
 var npr1Info ={
-   "parameters" : {
-      "por" : "porosity (%).",
-      "perm" : "permeability in milli-Darcies.",
-      "x" : "x coordinates, in miles (origin unspecified)..",
-      "y" : "y coordinates, in miles."
-   },
-   "format" : "This data frame contains the following columns:",
    "reference" : "Maher, J.C., Carter, R.D. and Lantz, R.J. (1975)\nPetroleum geology of Naval Petroleum Reserve No. 1, Elk Hills,\nKern County, California.\nUSGS Professional Paper 912.",
-   "title" : "US Naval Petroleum Reserve No. 1 data",
+   "usage" : "npr1",
    "description" : "Description\nData on the locations, porosity and permeability (a measure of oil flow)\non 104 oil wells in the US Naval Petroleum Reserve No. 1 in California.",
-   "usage" : "npr1"
+   "title" : "US Naval Petroleum Reserve No. 1 data",
+   "parameters" : {
+      "x" : "x coordinates, in miles (origin unspecified)..",
+      "y" : "y coordinates, in miles.",
+      "perm" : "permeability in milli-Darcies.",
+      "por" : "porosity (%)."
+   },
+   "format" : "This data frame contains the following columns:"
 }
 
 var npr1 = [

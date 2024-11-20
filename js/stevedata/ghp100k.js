@@ -1,14 +1,14 @@
 var ghp100kInfo ={
-   "usage" : "ghp100k",
-   "description" : "Description\nThis is the yearly rate of gun homicides per 100,000 people in the population,\nselecting on \"Western\" countries of interest.",
-   "format" : "A data frame with 561 observations on the following 3 variables.",
-   "title" : "Gun Homicide Rate per 100,000 People, by Country",
    "reference" : "The reported, or calculated annual crude rate of completed,\nintentional homicide committed with a firearm, per 100,000 population,\nin years descending.",
+   "usage" : "ghp100k",
+   "title" : "Gun Homicide Rate per 100,000 People, by Country",
+   "description" : "Description\nThis is the yearly rate of gun homicides per 100,000 people in the population,\nselecting on \"Western\" countries of interest.",
    "parameters" : {
-      "value" : "a numeric vector for the estimated rate of gun homicide per 100,000 people",
       "country" : "the country",
+      "value" : "a numeric vector for the estimated rate of gun homicide per 100,000 people",
       "year" : "the year"
-   }
+   },
+   "format" : "A data frame with 561 observations on the following 3 variables."
 }
 
 var ghp100k = [

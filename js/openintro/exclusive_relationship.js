@@ -2,11 +2,11 @@ var exclusive_relationshipInfo ={
    "parameters" : {
       "num" : "Number of exclusive relationships."
    },
-   "title" : "Number of Exclusive Relationships",
-   "format" : "A data frame with 218 observations on the following variable.",
-   "reference" : "summary(exclusive_relationship$num)\ntable(exclusive_relationship$num)\nhist(exclusive_relationship$num)",
    "description" : "Description\nA survey conducted on a reasonably random sample of 203 undergraduates\nasked, among many other questions, about the number of exclusive\nrelationships these students have been in.",
-   "usage" : "exclusive_relationship"
+   "title" : "Number of Exclusive Relationships",
+   "reference" : "summary(exclusive_relationship$num)\ntable(exclusive_relationship$num)\nhist(exclusive_relationship$num)",
+   "usage" : "exclusive_relationship",
+   "format" : "A data frame with 218 observations on the following variable."
 }
 
 var exclusive_relationship = [

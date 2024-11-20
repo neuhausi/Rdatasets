@@ -1,0 +1,17 @@
+{
+   "format" : "A dataframe containing :",
+   "parameters" : {
+      "persnum" : "person number",
+      "age" : "age of individual",
+      "married" : "last known marital status (married, never\nmarried, windowed, divorced, separated, \nNA/DF, no histories)",
+      "educatn" : "highest grade completed",
+      "kids" : "live births to this individual",
+      "intnum" : "1968 interview number",
+      "hours" : "annual work hours",
+      "earnings" : "total labor income"
+   },
+   "description" : "Description\na cross-section from 1993\nnumber of observations :  4856\nobservation :  individuals\ncountry :  United States",
+   "title" : "Panel Survey of Income Dynamics",
+   "usage" : "data(PSID)",
+   "reference" : "Panel Survey of Income Dynamics."
+}

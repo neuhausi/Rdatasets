@@ -1,0 +1,12 @@
+{
+   "usage" : "A data frame with 60 observations on the following 4 variables.",
+   "reference" : "The data are described in Davies and Goldsmith (1972) as\ncoming from &ldquo; deliveries of a chemical paste\nproduct contained in casks where, in addition to sampling\nand testing errors, there are variations in quality\nbetween deliveries ... As a routine, three casks\nselected at random from each delivery were sampled and\nthe samples were kept for reference. ... Ten of the\ndelivery batches were sampled at random and two\nanalytical tests carried out on each of the 30 samples&rdquo;.",
+   "description" : "Description\nStrength of a chemical paste product; its quality\ndepending on the delivery batch, and the cask within the\ndelivery.",
+   "title" : "Paste strength by batch and cask",
+   "parameters" : {
+      "cask" : "cask within the delivery batch from which the\nsample was chosen.  A factor with 3 levels: &lsquo;a&rsquo; to\n&lsquo;c&rsquo;.",
+      "sample" : "the sample of paste whose strength was assayed,\ntwo assays per sample. A factor with 30 levels: &lsquo;A:a&rsquo; to\n&lsquo;J:c&rsquo;.",
+      "batch" : "delivery batch from which the sample was\nsample.  A factor with 10 levels: &lsquo;A&rsquo; to &lsquo;J&rsquo;.",
+      "strength" : "paste strength."
+   }
+}

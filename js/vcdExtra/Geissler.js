@@ -1,14 +1,14 @@
 var GeisslerInfo ={
-   "usage" : "data(Geissler)",
-   "description" : "Description\nGeissler (1889) published data on the distributions of boys and girls in families in \nSaxony, collected for the period 1876-1885. The Geissler data tabulates \nthe family composition of 991,958 families by the number of boys and girls\nlisted in the table supplied by Edwards (1958, Table 1).",
    "format" : "A data frame with 90 observations on the following 4 variables.  The rows represent the\nnon-NA entries in Edwards' table.",
-   "title" : "Geissler's Data on the Human Sex Ratio",
+   "usage" : "data(Geissler)",
    "reference" : "The data on family composition was available because, on the birth of a child,\nthe parents had to state the sex of all their children on the birth certificate.\nThese family records are not necessarily independent, because a given family\nmay have had several children during this 10 year period, included as \nmultiple records.",
+   "title" : "Geissler's Data on the Human Sex Ratio",
+   "description" : "Description\nGeissler (1889) published data on the distributions of boys and girls in families in \nSaxony, collected for the period 1876-1885. The Geissler data tabulates \nthe family composition of 991,958 families by the number of boys and girls\nlisted in the table supplied by Edwards (1958, Table 1).",
    "parameters" : {
       "size" : "family size: boys+girls",
-      "boys" : "number of boys in the family, 0:12",
+      "Freq" : "number of families with this sex composition",
       "girls" : "number of girls in the family, 0:12",
-      "Freq" : "number of families with this sex composition"
+      "boys" : "number of boys in the family, 0:12"
    }
 }
 

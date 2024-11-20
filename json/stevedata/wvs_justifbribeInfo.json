@@ -1,0 +1,15 @@
+{
+   "description" : "Description\nA data set on attitudes about the justifiability of bribe-taking for all\nobservations in the third to sixth wave of the World Values Survey. I use these\ndata for in-class illustration about seemingly interval-level, but information-poor\nmeasurements.",
+   "title" : "Attitudes about the Justifiability of Bribe-Taking in the World Values Survey",
+   "reference" : "1 = \"never justifiable\". 10 = \"always justifiable\". Increasing values on this\n1-10 scale imply increasing permissiveness for the respondent toward this\nparticular/blatant form of corruption.",
+   "usage" : "wvs_justifbribe",
+   "parameters" : {
+      "country" : "the country name",
+      "s002" : "the World Values Survey wave",
+      "s003" : "the World Values Survey country code",
+      "uid" : "a unique identifier for the survey respondent",
+      "s020" : "the survey year",
+      "f117" : "an attitude about the justifiability of bribe-taking in the World Values Survey"
+   },
+   "format" : "A data frame with 348532 observations on the following 6 variables."
+}

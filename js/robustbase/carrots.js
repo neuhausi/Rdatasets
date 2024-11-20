@@ -1,6 +1,4 @@
 var carrotsInfo ={
-   "reference" : "Phelps, K. (1982).\nUse of the complementary log-log function to describe doseresponse\nrelationships in insecticide evaluation field trials.\n\nIn R. Gilchrist (Ed.), Lecture Notes in Statistics, No. 14.\nGLIM.82: Proceedings of the International Conference on Generalized\nLinear Models; Springer-Verlag.",
-   "title" : "Insect Damages on Carrots",
    "format" : "A data frame with 24 observations on the following 4 variables.",
    "parameters" : {
       "logdose" : "a numeric vector giving log(dose) values (eight\ndifferent levels only).",
@@ -8,8 +6,10 @@ var carrotsInfo ={
       "total" : "integer giving the total number of carrots per\nexperimental unit.",
       "success" : "integer giving the number of carrots with insect damage."
    },
-   "usage" : "data(carrots, package=\"robustbase\")",
-   "description" : "Description\nThe damage carrots data set from Phelps (1982) was used by McCullagh\nand Nelder (1989) in order to illustrate diagnostic techniques because\nof the presence of an outlier. In a soil experiment trial with three\nblocks, eight levels of insecticide were applied and the carrots were\ntested for insect damage."
+   "title" : "Insect Damages on Carrots",
+   "description" : "Description\nThe damage carrots data set from Phelps (1982) was used by McCullagh\nand Nelder (1989) in order to illustrate diagnostic techniques because\nof the presence of an outlier. In a soil experiment trial with three\nblocks, eight levels of insecticide were applied and the carrots were\ntested for insect damage.",
+   "reference" : "Phelps, K. (1982).\nUse of the complementary log-log function to describe doseresponse\nrelationships in insecticide evaluation field trials.\n\nIn R. Gilchrist (Ed.), Lecture Notes in Statistics, No. 14.\nGLIM.82: Proceedings of the International Conference on Generalized\nLinear Models; Springer-Verlag.",
+   "usage" : "data(carrots, package=\"robustbase\")"
 }
 
 var carrots = [

@@ -1,10 +1,4 @@
 {
-   "config" : {
-      "subtitle" : "AER - USMacroSWQ",
-      "graphType" : "Scatter2D",
-      "title" : "Quarterly US Macroeconomic Data (1947-2004"
-   },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>USMacroSWQ</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Quarterly US Macroeconomic Data (1947&ndash;2004, Stock &amp; Watson)</h2>\n<h3>Description</h3>\n<p>Time series data on 2 US macroeconomic variables for 1947&ndash;2004.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(\"USMacroSWQ\")</code></pre>\n<h3>Format</h3>\n<p>A quarterly multiple time series from 1947(1) to 2004(4) with 2 variables.\n</p>\n<dl>\n<dt>gdp</dt><dd><p>real GDP for the United States in billions of chained (2000) dollars\nseasonally adjusted, annual rate.</p>\n</dd>\n<dt>tbill</dt><dd><p>3-month treasury bill rate. Quarterly averages of daily dates\nin percentage points at an annual rate.</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>Online complements to Stock and Watson (2007). \n</p>\n<h3>References</h3>\n<p>Stock, J.H. and Watson, M.W. (2007). <em>Introduction to Econometrics</em>, 2nd ed. Boston: Addison Wesley.\n</p>\n<h3>See Also</h3>\n<p><code>StockWatson2007</code>, <code>USMacroSW</code>, <code>USMacroSWM</code>,\n<code>USMacroB</code>, <code>USMacroG</code></p>\n<h3>Examples</h3>\n<pre><code class='language-R'>data(\"USMacroSWQ\")\nplot(USMacroSWQ)\n</code></pre>\n</main>\n</div>\n",
    "data" : {
       "y" : {
          "data" : [
@@ -1176,5 +1170,11 @@
             "Var232"
          ]
       }
+   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>USMacroSWQ</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Quarterly US Macroeconomic Data (1947&ndash;2004, Stock &amp; Watson)</h2>\n<h3>Description</h3>\n<p>Time series data on 2 US macroeconomic variables for 1947&ndash;2004.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(\"USMacroSWQ\")</code></pre>\n<h3>Format</h3>\n<p>A quarterly multiple time series from 1947(1) to 2004(4) with 2 variables.\n</p>\n<dl>\n<dt>gdp</dt><dd><p>real GDP for the United States in billions of chained (2000) dollars\nseasonally adjusted, annual rate.</p>\n</dd>\n<dt>tbill</dt><dd><p>3-month treasury bill rate. Quarterly averages of daily dates\nin percentage points at an annual rate.</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>Online complements to Stock and Watson (2007). \n</p>\n<h3>References</h3>\n<p>Stock, J.H. and Watson, M.W. (2007). <em>Introduction to Econometrics</em>, 2nd ed. Boston: Addison Wesley.\n</p>\n<h3>See Also</h3>\n<p><code>StockWatson2007</code>, <code>USMacroSW</code>, <code>USMacroSWM</code>,\n<code>USMacroB</code>, <code>USMacroG</code></p>\n<h3>Examples</h3>\n<pre><code class='language-R'>data(\"USMacroSWQ\")\nplot(USMacroSWQ)\n</code></pre>\n</main>\n</div>\n",
+   "config" : {
+      "subtitle" : "AER - USMacroSWQ",
+      "title" : "Quarterly US Macroeconomic Data (1947-2004",
+      "graphType" : "Scatter2D"
    }
 }

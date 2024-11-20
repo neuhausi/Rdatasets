@@ -1,20 +1,20 @@
 var myeloidInfo ={
-   "title" : "Acute myeloid leukemia",
-   "format" : "A data frame with 646 observations on the following 9 variables.",
-   "reference" : "This data set is used to illustrate multi-state survival curves.\nIt is based on the actual study in the reference below.\nA subset of subjects was de-identifed, reordered, and then all of the\ntime values randomly perturbed.",
-   "parameters" : {
-      "txtime" : "time to hematropetic stem cell transplant",
-      "crtime" : "time to complete response",
-      "sex" : "f=female, m=male",
-      "id" : "subject identifier, 1-646",
-      "futime" : "time to death or last follow-up",
-      "death" : "1 if futime is a death, 0 for censoring",
-      "flt3" : "mutations of the FLT3 gene, a factor with levels\nof A, B, C",
-      "trt" : "treatment arm A or B",
-      "rltime" : "time to relapse of disease"
-   },
    "usage" : "myeloid\ndata(cancer, package=\"survival\")",
-   "description" : "Description\nThis simulated data set is based on a trial in acute myeloid\nleukemia."
+   "reference" : "This data set is used to illustrate multi-state survival curves.\nIt is based on the actual study in the reference below.\nA subset of subjects was de-identifed, reordered, and then all of the\ntime values randomly perturbed.",
+   "description" : "Description\nThis simulated data set is based on a trial in acute myeloid\nleukemia.",
+   "title" : "Acute myeloid leukemia",
+   "parameters" : {
+      "rltime" : "time to relapse of disease",
+      "trt" : "treatment arm A or B",
+      "crtime" : "time to complete response",
+      "death" : "1 if futime is a death, 0 for censoring",
+      "futime" : "time to death or last follow-up",
+      "txtime" : "time to hematropetic stem cell transplant",
+      "id" : "subject identifier, 1-646",
+      "flt3" : "mutations of the FLT3 gene, a factor with levels\nof A, B, C",
+      "sex" : "f=female, m=male"
+   },
+   "format" : "A data frame with 646 observations on the following 9 variables."
 }
 
 var myeloid = [

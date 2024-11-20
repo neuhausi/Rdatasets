@@ -1,15 +1,17 @@
 {
-   "config" : {
-      "subtitle" : "causaldata - ri",
-      "title" : "A simple simulated data set for calculating p-values",
-      "sizeBy" : "y0",
-      "shapeBy" : "y1",
-      "colorBy" : "name",
-      "graphType" : "Scatter2D"
-   },
    "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>ri</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>A simple simulated data set for calculating p-values</h2>\n<h3>Description</h3>\n<p>This simulated data allows for a quick and easy calculation of a p-value using randomization inference.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>ri\n</code></pre>\n<h3>Format</h3>\n<p>A data frame with 8 rows and 5 variables\n</p>\n<dl>\n<dt>name</dt><dd><p>Fictional Name</p>\n</dd>\n<dt>d</dt><dd><p>Treatment</p>\n</dd>\n<dt>y</dt><dd><p>Outcome</p>\n</dd>\n<dt>y0</dt><dd><p>Outcome if untreated</p>\n</dd>\n<dt>y1</dt><dd><p>Outcome if treated</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>This data is used in the <em>Potential Outcomes Causal Model</em> chapter of <em>Causal Inference: The Mixtape</em> by Cunningham.\n</p>\n<h3>Source</h3>\n<p>Cunningham. 2021. Causal Inference: The Mixtape. Yale Press. <a href=\"https://mixtape.scunning.com/index.html\">https://mixtape.scunning.com/index.html</a>.\n</p>\n<h3>References</h3>\n<p>Cunningham. 2021. Causal Inference: The Mixtape. Yale Press. <a href=\"https://mixtape.scunning.com/index.html\">https://mixtape.scunning.com/index.html</a>.\n</p>\n</main>\n</div>\n",
    "data" : {
       "z" : {
+         "y0" : [
+            ".",
+            ".",
+            ".",
+            ".",
+            "5",
+            "7",
+            "8",
+            "10"
+         ],
          "name" : [
             "Andy",
             "Ben",
@@ -29,19 +31,13 @@
             ".",
             ".",
             "."
-         ],
-         "y0" : [
-            ".",
-            ".",
-            ".",
-            ".",
-            "5",
-            "7",
-            "8",
-            "10"
          ]
       },
       "y" : {
+         "smps" : [
+            "d",
+            "y"
+         ],
          "data" : [
             [
                1,
@@ -85,11 +81,15 @@
             "Var6",
             "Var7",
             "Var8"
-         ],
-         "smps" : [
-            "d",
-            "y"
          ]
       }
+   },
+   "config" : {
+      "colorBy" : "y0",
+      "graphType" : "Scatter2D",
+      "subtitle" : "causaldata - ri",
+      "title" : "A simple simulated data set for calculating p-values",
+      "shapeBy" : "name",
+      "sizeBy" : "y1"
    }
 }

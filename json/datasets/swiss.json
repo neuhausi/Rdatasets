@@ -1,7 +1,71 @@
 {
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>swiss</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Swiss Fertility and Socioeconomic Indicators (1888) Data</h2>\n<h3>Description</h3>\n<p>Standardized fertility measure and socioeconomic indicators for each\nof 47 French-speaking provinces of Switzerland at about 1888.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>swiss</code></pre>\n<h3>Format</h3>\n<p>A data frame with 47 observations on 6 variables, <em>each</em> of which\nis in percent, i.e., in <code class=\"reqn\">[0, 100]</code>.\n</p>\n<table>\n<tr>\n <td style=\"text-align: right;\">\n    [,1] </td><td style=\"text-align: left;\"> <code>Fertility</code> </td><td style=\"text-align: left;\"> <code class=\"reqn\">I_g</code>,\n    &lsquo;common standardized fertility measure&rsquo;</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    [,2] </td><td style=\"text-align: left;\"> <code>Agriculture</code> </td><td style=\"text-align: left;\"> % of males involved in agriculture\n    as occupation</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    [,3] </td><td style=\"text-align: left;\"> <code>Examination</code> </td><td style=\"text-align: left;\"> % draftees receiving highest mark\n    on army examination</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    [,4] </td><td style=\"text-align: left;\"> <code>Education</code> </td><td style=\"text-align: left;\"> % education beyond primary school for draftees.</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    [,5] </td><td style=\"text-align: left;\"> <code>Catholic</code> </td><td style=\"text-align: left;\"> % &lsquo;catholic&rsquo; (as opposed to &lsquo;protestant&rsquo;).</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    [,6] </td><td style=\"text-align: left;\"> <code>Infant.Mortality</code> </td><td style=\"text-align: left;\"> live births who live less than 1\n    year.\n  </td>\n</tr>\n</table>\n<p>All variables but <code>Fertility</code> give proportions of the\npopulation.\n</p>\n<h3>Details</h3>\n<p>(paraphrasing Mosteller and Tukey):\n</p>\n<p>Switzerland, in 1888, was entering a period known as the\n<em>demographic transition</em>; i.e., its fertility was beginning to\nfall from the high level typical of underdeveloped countries.\n</p>\n<p>The data collected are for 47 French-speaking &ldquo;provinces&rdquo; at\nabout 1888.\n</p>\n<p>Here, all variables are scaled to <code class=\"reqn\">[0, 100]</code>, where in the\noriginal, all but <code>Catholic</code> were scaled to <code class=\"reqn\">[0, 1]</code>.\n</p>\n<h3>Note</h3>\n<p>Files for all 182 districts in 1888 and other years have been available at\n<a href=\"https://oprdata.princeton.edu/archive/pefp/switz.aspx\">https://oprdata.princeton.edu/archive/pefp/switz.aspx</a>.\n</p>\n<p>They state that variables <code>Examination</code> and <code>Education</code>\nare averages for 1887, 1888 and 1889.\n</p>\n<h3>Source</h3>\n<p>Project &ldquo;16P5&rdquo;, pages 549&ndash;551 in\n</p>\n<p>Mosteller, F. and Tukey, J. W. (1977)\n<em>Data Analysis and Regression: A Second Course in Statistics</em>.\nAddison-Wesley, Reading Mass.\n</p>\n<p>indicating their source as\n&ldquo;Data used by permission of Franice van de Walle. Office of\nPopulation Research, Princeton University, 1976.  Unpublished data\nassembled under NICHD contract number No 1-HD-O-2077.&rdquo;\n</p>\n<h3>References</h3>\n<p>Becker, R. A., Chambers, J. M. and Wilks, A. R. (1988)\n<em>The New S Language</em>.\nWadsworth &amp; Brooks/Cole.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>require(stats); require(graphics)\npairs(swiss, panel = panel.smooth, main = \"swiss data\",\n      col = 3 + (swiss$Catholic &gt; 50))\nsummary(lm(Fertility ~ . , data = swiss))\n</code></pre>\n</main>\n</div>\n",
+   "config" : {
+      "smpOverlays" : [
+         null
+      ],
+      "graphType" : "Heatmap",
+      "title" : "Swiss Fertility and Socioeconomic Indicators (1888) Data",
+      "subtitle" : "datasets - swiss"
+   },
    "data" : {
       "y" : {
+         "vars" : [
+            "Fertility",
+            "Agriculture",
+            "Examination",
+            "Education",
+            "Catholic",
+            "Infant.Mortality"
+         ],
+         "smps" : [
+            "Courtelary",
+            "Delemont",
+            "Franches-Mnt",
+            "Moutier",
+            "Neuveville",
+            "Porrentruy",
+            "Broye",
+            "Glane",
+            "Gruyere",
+            "Sarine",
+            "Veveyse",
+            "Aigle",
+            "Aubonne",
+            "Avenches",
+            "Cossonay",
+            "Echallens",
+            "Grandson",
+            "Lausanne",
+            "La Vallee",
+            "Lavaux",
+            "Morges",
+            "Moudon",
+            "Nyone",
+            "Orbe",
+            "Oron",
+            "Payerne",
+            "Paysd'enhaut",
+            "Rolle",
+            "Vevey",
+            "Yverdon",
+            "Conthey",
+            "Entremont",
+            "Herens",
+            "Martigwy",
+            "Monthey",
+            "St Maurice",
+            "Sierre",
+            "Sion",
+            "Boudry",
+            "La Chauxdfnd",
+            "Le Locle",
+            "Neuchatel",
+            "Val de Ruz",
+            "ValdeTravers",
+            "V. De Geneve",
+            "Rive Droite",
+            "Rive Gauche"
+         ],
          "data" : [
             [
                80.2,
@@ -297,72 +361,8 @@
                18.2,
                19.3
             ]
-         ],
-         "smps" : [
-            "Courtelary",
-            "Delemont",
-            "Franches-Mnt",
-            "Moutier",
-            "Neuveville",
-            "Porrentruy",
-            "Broye",
-            "Glane",
-            "Gruyere",
-            "Sarine",
-            "Veveyse",
-            "Aigle",
-            "Aubonne",
-            "Avenches",
-            "Cossonay",
-            "Echallens",
-            "Grandson",
-            "Lausanne",
-            "La Vallee",
-            "Lavaux",
-            "Morges",
-            "Moudon",
-            "Nyone",
-            "Orbe",
-            "Oron",
-            "Payerne",
-            "Paysd'enhaut",
-            "Rolle",
-            "Vevey",
-            "Yverdon",
-            "Conthey",
-            "Entremont",
-            "Herens",
-            "Martigwy",
-            "Monthey",
-            "St Maurice",
-            "Sierre",
-            "Sion",
-            "Boudry",
-            "La Chauxdfnd",
-            "Le Locle",
-            "Neuchatel",
-            "Val de Ruz",
-            "ValdeTravers",
-            "V. De Geneve",
-            "Rive Droite",
-            "Rive Gauche"
-         ],
-         "vars" : [
-            "Fertility",
-            "Agriculture",
-            "Examination",
-            "Education",
-            "Catholic",
-            "Infant.Mortality"
          ]
       }
    },
-   "config" : {
-      "title" : "Swiss Fertility and Socioeconomic Indicators (1888) Data",
-      "graphType" : "Heatmap",
-      "smpOverlays" : [
-         null
-      ],
-      "subtitle" : "datasets - swiss"
-   }
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>swiss</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Swiss Fertility and Socioeconomic Indicators (1888) Data</h2>\n<h3>Description</h3>\n<p>Standardized fertility measure and socioeconomic indicators for each\nof 47 French-speaking provinces of Switzerland at about 1888.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>swiss</code></pre>\n<h3>Format</h3>\n<p>A data frame with 47 observations on 6 variables, <em>each</em> of which\nis in percent, i.e., in <code class=\"reqn\">[0, 100]</code>.\n</p>\n<table>\n<tr>\n <td style=\"text-align: right;\">\n    [,1] </td><td style=\"text-align: left;\"> <code>Fertility</code> </td><td style=\"text-align: left;\"> <code class=\"reqn\">I_g</code>,\n    &lsquo;common standardized fertility measure&rsquo;</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    [,2] </td><td style=\"text-align: left;\"> <code>Agriculture</code> </td><td style=\"text-align: left;\"> % of males involved in agriculture\n    as occupation</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    [,3] </td><td style=\"text-align: left;\"> <code>Examination</code> </td><td style=\"text-align: left;\"> % draftees receiving highest mark\n    on army examination</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    [,4] </td><td style=\"text-align: left;\"> <code>Education</code> </td><td style=\"text-align: left;\"> % education beyond primary school for draftees.</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    [,5] </td><td style=\"text-align: left;\"> <code>Catholic</code> </td><td style=\"text-align: left;\"> % &lsquo;catholic&rsquo; (as opposed to &lsquo;protestant&rsquo;).</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    [,6] </td><td style=\"text-align: left;\"> <code>Infant.Mortality</code> </td><td style=\"text-align: left;\"> live births who live less than 1\n    year.\n  </td>\n</tr>\n</table>\n<p>All variables but <code>Fertility</code> give proportions of the\npopulation.\n</p>\n<h3>Details</h3>\n<p>(paraphrasing Mosteller and Tukey):\n</p>\n<p>Switzerland, in 1888, was entering a period known as the\n<em>demographic transition</em>; i.e., its fertility was beginning to\nfall from the high level typical of underdeveloped countries.\n</p>\n<p>The data collected are for 47 French-speaking &ldquo;provinces&rdquo; at\nabout 1888.\n</p>\n<p>Here, all variables are scaled to <code class=\"reqn\">[0, 100]</code>, where in the\noriginal, all but <code>Catholic</code> were scaled to <code class=\"reqn\">[0, 1]</code>.\n</p>\n<h3>Note</h3>\n<p>Files for all 182 districts in 1888 and other years have been available at\n<a href=\"https://oprdata.princeton.edu/archive/pefp/switz.aspx\">https://oprdata.princeton.edu/archive/pefp/switz.aspx</a>.\n</p>\n<p>They state that variables <code>Examination</code> and <code>Education</code>\nare averages for 1887, 1888 and 1889.\n</p>\n<h3>Source</h3>\n<p>Project &ldquo;16P5&rdquo;, pages 549&ndash;551 in\n</p>\n<p>Mosteller, F. and Tukey, J. W. (1977)\n<em>Data Analysis and Regression: A Second Course in Statistics</em>.\nAddison-Wesley, Reading Mass.\n</p>\n<p>indicating their source as\n&ldquo;Data used by permission of Franice van de Walle. Office of\nPopulation Research, Princeton University, 1976.  Unpublished data\nassembled under NICHD contract number No 1-HD-O-2077.&rdquo;\n</p>\n<h3>References</h3>\n<p>Becker, R. A., Chambers, J. M. and Wilks, A. R. (1988)\n<em>The New S Language</em>.\nWadsworth &amp; Brooks/Cole.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>require(stats); require(graphics)\npairs(swiss, panel = panel.smooth, main = \"swiss data\",\n      col = 3 + (swiss$Catholic &gt; 50))\nsummary(lm(Fertility ~ . , data = swiss))\n</code></pre>\n</main>\n</div>\n"
 }

@@ -1,15 +1,15 @@
 var oatsInfo ={
-   "description" : "Description\nThe yield of oats from a split-plot field trial using three varieties and\nfour levels of manurial treatment.  The experiment was laid out in 6 blocks\nof 3 main plots, each split into 4 sub-plots.  The varieties were applied\nto the main plots and the manurial treatments to the sub-plots.",
-   "usage" : "oats",
    "parameters" : {
+      "V" : "Varieties, 3 levels.",
       "N" : "Nitrogen (manurial) treatment, levels  0.0cwt, 0.2cwt, 0.4cwt and 0.6cwt,\nshowing the application in cwt/acre.",
-      "B" : "Blocks, levels I, II, III, IV, V and VI.",
       "Y" : "Yields in 1/4lbs per sub-plot, each of area 1/80 acre.",
-      "V" : "Varieties, 3 levels."
+      "B" : "Blocks, levels I, II, III, IV, V and VI."
    },
-   "format" : "This data frame contains the following columns:",
+   "description" : "Description\nThe yield of oats from a split-plot field trial using three varieties and\nfour levels of manurial treatment.  The experiment was laid out in 6 blocks\nof 3 main plots, each split into 4 sub-plots.  The varieties were applied\nto the main plots and the manurial treatments to the sub-plots.",
    "title" : "Data from an Oats Field Trial",
-   "reference" : "Yates, F. (1935) Complex experiments,\nJournal of the Royal Statistical Society Suppl.\n2, 181&ndash;247."
+   "reference" : "Yates, F. (1935) Complex experiments,\nJournal of the Royal Statistical Society Suppl.\n2, 181&ndash;247.",
+   "usage" : "oats",
+   "format" : "This data frame contains the following columns:"
 }
 
 var oats = [

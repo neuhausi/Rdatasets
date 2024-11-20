@@ -1,22 +1,22 @@
 var ozoneInfo ={
-   "description" : "Description\nMonthly provisional mean total ozone (in Dobson units) at Halley Bay \n(approximately corrected to Bass-Paur).",
-   "usage" : "ozone",
+   "format" : "This data frame contains the following columns:",
    "parameters" : {
-      "Apr" : "April mean total ozone",
-      "Sep" : "September mean total ozone",
-      "Oct" : "October mean total ozone",
       "Jan" : "January mean total ozone",
-      "Year" : "the year",
-      "Mar" : "March mean total ozone",
-      "Nov" : "November mean total ozone",
       "Aug" : "August mean total ozone",
+      "Oct" : "October mean total ozone",
+      "Sep" : "September mean total ozone",
       "Feb" : "February mean total ozone",
       "Dec" : "December mean total ozone",
-      "Annual" : "Yearly mean total ozone"
+      "Nov" : "November mean total ozone",
+      "Annual" : "Yearly mean total ozone",
+      "Mar" : "March mean total ozone",
+      "Year" : "the year",
+      "Apr" : "April mean total ozone"
    },
-   "format" : "This data frame contains the following columns:",
+   "usage" : "ozone",
+   "reference" : "Shanklin, J. (2001) Ozone at Halley, Rothera and Vernadsky/Faraday.",
    "title" : "Ozone Data",
-   "reference" : "Shanklin, J. (2001) Ozone at Halley, Rothera and Vernadsky/Faraday."
+   "description" : "Description\nMonthly provisional mean total ozone (in Dobson units) at Halley Bay \n(approximately corrected to Bass-Paur)."
 }
 
 var ozone = [

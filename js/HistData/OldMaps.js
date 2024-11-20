@@ -1,17 +1,17 @@
 var OldMapsInfo ={
+   "format" : "A data frame with 468 observations on the following 6 variables, giving the latitude\nand longitude of 39 points recorded from 12 sources (Actual + 11 maps).",
+   "reference" : "Some of the latitude and longitude values are inexplicably negative.\nIt is probable that this is an error in type setting, because the table footnote\nsays \"* denotes that interpolation accuracy is not good,\" yet no \"*\"s appear in\nthe body of the table.",
+   "usage" : "data(OldMaps)",
+   "title" : "Latitudes and Longitudes of 39 Points in 11 Old Maps",
+   "description" : "Description\nThe data set is concerned with the problem of aligning the coordinates of points\nread from old maps (1688 - 1818) of the Great Lakes area.  \n39 easily identifiable\npoints were selected  in the Great Lakes area, and their (lat, long) coordinates\nwere recorded using a grid overlaid on each of 11 old maps, and using linear interpolation.\nIt was conjectured that maps might be systematically in error in five key ways:\n(a) constant error in latitude; (b)constant error in longitude;\n(c) proportional error in latitude; (d)proportional error in longitude;\n(e) angular error from a non-zero difference between true North and the map's North.\nOne challenge from these data is to produce useful analyses and graphical displays\nthat relate to these characteristics or to other aspects of the data.",
    "parameters" : {
-      "year" : "Year of the map",
       "long" : "Longitude",
       "lat" : "Latitude",
-      "name" : "Name of the map maker, using Actual for the true coordinates of the points.\nA factor with levels Actual \nArrowsmith Belin Cary Coronelli D'Anville} \\code{Del'Isle Lattre Melish Mitchell Popple",
+      "year" : "Year of the map",
+      "col" : "Column in the table a numeric vector",
       "point" : "a numeric vector",
-      "col" : "Column in the table a numeric vector"
-   },
-   "reference" : "Some of the latitude and longitude values are inexplicably negative.\nIt is probable that this is an error in type setting, because the table footnote\nsays \"* denotes that interpolation accuracy is not good,\" yet no \"*\"s appear in\nthe body of the table.",
-   "title" : "Latitudes and Longitudes of 39 Points in 11 Old Maps",
-   "format" : "A data frame with 468 observations on the following 6 variables, giving the latitude\nand longitude of 39 points recorded from 12 sources (Actual + 11 maps).",
-   "description" : "Description\nThe data set is concerned with the problem of aligning the coordinates of points\nread from old maps (1688 - 1818) of the Great Lakes area.  \n39 easily identifiable\npoints were selected  in the Great Lakes area, and their (lat, long) coordinates\nwere recorded using a grid overlaid on each of 11 old maps, and using linear interpolation.\nIt was conjectured that maps might be systematically in error in five key ways:\n(a) constant error in latitude; (b)constant error in longitude;\n(c) proportional error in latitude; (d)proportional error in longitude;\n(e) angular error from a non-zero difference between true North and the map's North.\nOne challenge from these data is to produce useful analyses and graphical displays\nthat relate to these characteristics or to other aspects of the data.",
-   "usage" : "data(OldMaps)"
+      "name" : "Name of the map maker, using Actual for the true coordinates of the points.\nA factor with levels Actual \nArrowsmith Belin Cary Coronelli D'Anville} \\code{Del'Isle Lattre Melish Mitchell Popple"
+   }
 }
 
 var OldMaps = [

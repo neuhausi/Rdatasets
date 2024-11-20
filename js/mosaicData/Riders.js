@@ -1,23 +1,23 @@
 var RidersInfo ={
-   "reference" : "There is a potential for error when two users trigger the infrared beam at exactly the same time\nsince the counter would only logs one of the crossings.  The collectors left the motion detector\nout during the winter, but because the counter drops data when the temperature falls below 14\ndegrees Fahrenheit, there are no data for the coldest winter months.",
+   "description" : "Description\nThe Pioneer Valley Planning Commission (PVPC) collected data north of\nChestnut Street in Florence, MA for ninety days from April 5, 2005 to\nNovember 15, 2005. Data collectors set up a laser sensor, with breaks in the laser beam\nrecording when a rail-trail user passed the data collection station.",
    "title" : "Volume of Users of a Massachusetts Rail Trail",
-   "format" : "A data frame with 90 observations on the following 12 variables.",
+   "reference" : "There is a potential for error when two users trigger the infrared beam at exactly the same time\nsince the counter would only logs one of the crossings.  The collectors left the motion detector\nout during the winter, but because the counter drops data when the temperature falls below 14\ndegrees Fahrenheit, there are no data for the coldest winter months.",
+   "usage" : "data(Riders)",
    "parameters" : {
-      "highT" : "high temperature for the day (in degrees Fahrenheit)",
       "clouds" : "measure of cloud cover (in oktas)",
-      "riders" : "estimated number of trail crossings that day (number of breaks recorded)",
-      "hi" : "shorter name for highT",
+      "date" : "date of data collection (POSIXct)",
+      "lo" : "shorter name for lowT",
+      "highT" : "high temperature for the day (in degrees Fahrenheit)",
+      "ct" : "shorter name for riders",
       "wday" : "shorter name for weekday",
       "weekday" : "type of day: a factor with levels N (weekend or holiday)\nY (non-holiday weekday)",
-      "date" : "date of data collection (POSIXct)",
-      "ct" : "shorter name for riders",
-      "lo" : "shorter name for lowT",
-      "day" : "a factor with levels Monday, Tuesday, Wednesday,\nThursday, Friday, Saturday, and Sunday.",
+      "precip" : "inches of precipitation",
+      "hi" : "shorter name for highT",
       "lowT" : "low temperature for the day (in degrees Fahrenheit)",
-      "precip" : "inches of precipitation"
+      "riders" : "estimated number of trail crossings that day (number of breaks recorded)",
+      "day" : "a factor with levels Monday, Tuesday, Wednesday,\nThursday, Friday, Saturday, and Sunday."
    },
-   "usage" : "data(Riders)",
-   "description" : "Description\nThe Pioneer Valley Planning Commission (PVPC) collected data north of\nChestnut Street in Florence, MA for ninety days from April 5, 2005 to\nNovember 15, 2005. Data collectors set up a laser sensor, with breaks in the laser beam\nrecording when a rail-trail user passed the data collection station."
+   "format" : "A data frame with 90 observations on the following 12 variables."
 }
 
 var Riders = [

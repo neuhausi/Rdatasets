@@ -1,23 +1,23 @@
 var UnemploymentInfo ={
-   "title" : "Unemployment Duration",
    "format" : "A dataframe containing :",
+   "title" : "Unemployment Duration",
+   "description" : "Description\na cross-section from 1993\nnumber of observations :  452\nobservation :  individuals\ncountry :  United States",
+   "usage" : "data(Unemployment)",
    "reference" : "Romeo, Charles J. (1999) &ldquo;Conducting inference in semiparametric duration models under inequality restrictions on the shape of the hazard implied by the job search theory&rdquo;, Journal of Applied Econometrics, 14(6), 587&ndash;605.",
    "parameters" : {
       "search" : "'yes' if (1) the unemployment spell is completed between the first and second surveys and number of methods used to search > average number of methods used across all records in the sample, or, (2) for individuals who remain unemployed for consecutive surveys, if the number of methods used is strictly nondecreasing at all survey points, and is strictly increasing at least at one survey point",
-      "sex" : "one of male, female",
-      "nobs" : "number of observations on the first spell of unemployment for the record",
-      "duration" : "duration of first spell of unemployment, t, in weeks",
-      "spell" : "1 if spell is complete",
-      "reason" : "reason for unemployment, one of new \n(new entrant), lose (job loser), \nleave (job leaver), reentr \n(labor force reentrant)",
-      "race" : "one of nonwhite, white",
-      "pubemp" : "'yes' if an individual used a public employment agency to search for work at any survey points relating to the individuals first unemployment spell",
-      "ftp3" : "1  if an individual is searching for full time work at survey 3",
-      "ftp1" : "1  if an individual is searching for full time work at survey 1",
+      "ftp4" : "1  if an individual is searching for full time work at survey 4",
       "ftp2" : "1  if an individual is searching for full time work at survey 2",
-      "ftp4" : "1  if an individual is searching for full time work at survey 4"
-   },
-   "usage" : "data(Unemployment)",
-   "description" : "Description\na cross-section from 1993\nnumber of observations :  452\nobservation :  individuals\ncountry :  United States"
+      "pubemp" : "'yes' if an individual used a public employment agency to search for work at any survey points relating to the individuals first unemployment spell",
+      "race" : "one of nonwhite, white",
+      "nobs" : "number of observations on the first spell of unemployment for the record",
+      "spell" : "1 if spell is complete",
+      "sex" : "one of male, female",
+      "ftp3" : "1  if an individual is searching for full time work at survey 3",
+      "reason" : "reason for unemployment, one of new \n(new entrant), lose (job loser), \nleave (job leaver), reentr \n(labor force reentrant)",
+      "ftp1" : "1  if an individual is searching for full time work at survey 1",
+      "duration" : "duration of first spell of unemployment, t, in weeks"
+   }
 }
 
 var Unemployment = [

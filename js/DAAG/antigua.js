@@ -1,18 +1,18 @@
 var antiguaInfo ={
+   "format" : "A data frame with 324 observations on 7 variables.",
    "parameters" : {
-      "plot" : "a numeric vector",
-      "id" : "a numeric vector",
-      "trt" : "a factor consisting of 12 levels",
       "ears" : "a numeric vector; note that -9999 is used as a missing value code.",
-      "harvwt" : "a numeric vector; the average yield",
+      "trt" : "a factor consisting of 12 levels",
+      "id" : "a numeric vector",
       "block" : "a factor with levels I II III IV",
-      "site" : "a factor with 8 levels."
+      "plot" : "a numeric vector",
+      "site" : "a factor with 8 levels.",
+      "harvwt" : "a numeric vector; the average yield"
    },
    "reference" : "Andrews DF; Herzberg AM, 1985. Data. A Collection of Problems from\nMany Fields for the Student and Research Worker. Springer-Verlag.\n(pp. 339-353)",
-   "title" : "Averages by block of yields for the Antigua Corn data",
-   "format" : "A data frame with 324 observations on 7 variables.",
+   "usage" : "data(antigua)\n  data(ant111b)",
    "description" : "Description\nThese data frames have yield averages by blocks (parcels). The\nant111bdataset is a subset that has block averages of\ncorn yields for treatment 111 only",
-   "usage" : "data(antigua)\n  data(ant111b)"
+   "title" : "Averages by block of yields for the Antigua Corn data"
 }
 
 var antigua = [

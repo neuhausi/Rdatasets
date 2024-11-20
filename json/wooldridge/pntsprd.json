@@ -1,5 +1,4 @@
 {
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>pntsprd</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>pntsprd</h2>\n<h3>Description</h3>\n<p>Wooldridge Source: Collected by Scott Resnick, a former MSU undergraduate, from various newspaper sources. Data loads lazily.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data('pntsprd')\n</code></pre>\n<h3>Format</h3>\n<p>A data.frame with 553 observations on 12 variables:\n</p>\n<ul>\n<li> <p><strong>favscr:</strong> favored team's score\n</p>\n</li>\n<li> <p><strong>undscr:</strong> underdog's score\n</p>\n</li>\n<li> <p><strong>spread:</strong> las vegas spread\n</p>\n</li>\n<li> <p><strong>favhome:</strong> =1 if favored team at home\n</p>\n</li>\n<li> <p><strong>neutral:</strong> =1 if neutral site\n</p>\n</li>\n<li> <p><strong>fav25:</strong> =1 if favored team in top 25\n</p>\n</li>\n<li> <p><strong>und25:</strong> =1 if underdog in top 25\n</p>\n</li>\n<li> <p><strong>fregion:</strong> favorite's region of country\n</p>\n</li>\n<li> <p><strong>uregion:</strong> underdog's region of country\n</p>\n</li>\n<li> <p><strong>scrdiff:</strong> favscr - undscr\n</p>\n</li>\n<li> <p><strong>sprdcvr:</strong> =1 if spread covered\n</p>\n</li>\n<li> <p><strong>favwin:</strong> =1 if favored team wins\n</p>\n</li></ul>\n<h3>Notes</h3>\n<p>The data are for the 1994-1995 menâs college basketball seasons. The spread is for the day before the game was played. One might collect more recent data and determine whether the spread has become a less accurate predictor of the actual outcome in more recent years. In other words, in the simple regression of the actual score differential on the spread, is the variance larger in more recent years. (We should fully expect the slope coefficient not to be statistically different from one.)\n</p>\n<p>Used in Text: pages 300, 624, 697\n</p>\n<h3>Source</h3>\n<p><a href=\"https://www.cengage.com/cgi-wadsworth/course_products_wp.pl?fid=M20b&amp;product_isbn_issn=9781111531041\">https://www.cengage.com/cgi-wadsworth/course_products_wp.pl?fid=M20b&amp;product_isbn_issn=9781111531041</a>\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'> str(pntsprd)\n</code></pre>\n</main>\n</div>\n",
    "data" : {
       "y" : {
          "data" : [
@@ -6664,20 +6663,6 @@
                0
             ]
          ],
-         "vars" : [
-            "favscr",
-            "undscr",
-            "spread",
-            "favhome",
-            "neutral",
-            "fav25",
-            "und25",
-            "fregion",
-            "uregion",
-            "scrdiff",
-            "sprdcvr",
-            "favwin"
-         ],
          "smps" : [
             "Smp1",
             "Smp2",
@@ -7232,12 +7217,27 @@
             "Smp551",
             "Smp552",
             "Smp553"
+         ],
+         "vars" : [
+            "favscr",
+            "undscr",
+            "spread",
+            "favhome",
+            "neutral",
+            "fav25",
+            "und25",
+            "fregion",
+            "uregion",
+            "scrdiff",
+            "sprdcvr",
+            "favwin"
          ]
       }
    },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>pntsprd</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>pntsprd</h2>\n<h3>Description</h3>\n<p>Wooldridge Source: Collected by Scott Resnick, a former MSU undergraduate, from various newspaper sources. Data loads lazily.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data('pntsprd')\n</code></pre>\n<h3>Format</h3>\n<p>A data.frame with 553 observations on 12 variables:\n</p>\n<ul>\n<li> <p><strong>favscr:</strong> favored team's score\n</p>\n</li>\n<li> <p><strong>undscr:</strong> underdog's score\n</p>\n</li>\n<li> <p><strong>spread:</strong> las vegas spread\n</p>\n</li>\n<li> <p><strong>favhome:</strong> =1 if favored team at home\n</p>\n</li>\n<li> <p><strong>neutral:</strong> =1 if neutral site\n</p>\n</li>\n<li> <p><strong>fav25:</strong> =1 if favored team in top 25\n</p>\n</li>\n<li> <p><strong>und25:</strong> =1 if underdog in top 25\n</p>\n</li>\n<li> <p><strong>fregion:</strong> favorite's region of country\n</p>\n</li>\n<li> <p><strong>uregion:</strong> underdog's region of country\n</p>\n</li>\n<li> <p><strong>scrdiff:</strong> favscr - undscr\n</p>\n</li>\n<li> <p><strong>sprdcvr:</strong> =1 if spread covered\n</p>\n</li>\n<li> <p><strong>favwin:</strong> =1 if favored team wins\n</p>\n</li></ul>\n<h3>Notes</h3>\n<p>The data are for the 1994-1995 menâs college basketball seasons. The spread is for the day before the game was played. One might collect more recent data and determine whether the spread has become a less accurate predictor of the actual outcome in more recent years. In other words, in the simple regression of the actual score differential on the spread, is the variance larger in more recent years. (We should fully expect the slope coefficient not to be statistically different from one.)\n</p>\n<p>Used in Text: pages 300, 624, 697\n</p>\n<h3>Source</h3>\n<p><a href=\"https://www.cengage.com/cgi-wadsworth/course_products_wp.pl?fid=M20b&amp;product_isbn_issn=9781111531041\">https://www.cengage.com/cgi-wadsworth/course_products_wp.pl?fid=M20b&amp;product_isbn_issn=9781111531041</a>\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'> str(pntsprd)\n</code></pre>\n</main>\n</div>\n",
    "config" : {
-      "graphType" : "Heatmap",
       "title" : "pntsprd",
-      "subtitle" : "wooldridge - pntsprd"
+      "subtitle" : "wooldridge - pntsprd",
+      "graphType" : "Heatmap"
    }
 }

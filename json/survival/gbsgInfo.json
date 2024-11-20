@@ -1,0 +1,20 @@
+{
+   "parameters" : {
+      "hormon" : "hormonal therapy, 0= no, 1= yes",
+      "size" : "tumor size, mm",
+      "meno" : "menopausal status (0= premenopausal, 1= postmenopausal)",
+      "er" : "estrogen receptors (fmol/l)",
+      "grade" : "tumor grade",
+      "rfstime" : "recurrence free survival time; days to first of reccurence, death or last follow-up",
+      "pgr" : "progesterone receptors (fmol/l)",
+      "status" : "0= alive without recurrence, 1= recurrence or\ndeath",
+      "nodes" : "number of positive lymph nodes",
+      "age" : "age, years",
+      "pid" : "patient identifier"
+   },
+   "reference" : "These data sets are used in the paper by Royston and Altman.\nThe Rotterdam data is used to create a fitted model, and the GBSG data for \nvalidation of the model.  The paper gives references for the data source.",
+   "usage" : "gbsg\ndata(cancer, package=\"survival\")",
+   "description" : "Description\nThe gbsg data set contains patient records from a 1984-1989 trial \nconducted by the German Breast Cancer Study Group (GBSG) of 720 patients\nwith node positive breast cancer; it retains the 686 patients with \ncomplete data for the prognostic variables.",
+   "title" : "Breast cancer data sets used in Royston and Altman (2013)",
+   "format" : "A data set with 686 observations and 11 variables."
+}

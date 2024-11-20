@@ -1,13 +1,13 @@
 var coast_starlightInfo ={
-   "usage" : "coast_starlight",
-   "description" : "Description\nTravel times and distances.",
    "format" : "A data frame with 16 observations on the following 3 variables.",
-   "reference" : "library(ggplot2)\n\nggplot(coast_starlight, aes(x = dist, y = travel_time)) +\n  geom_point()",
    "title" : "Coast Starlight Amtrak train",
+   "description" : "Description\nTravel times and distances.",
+   "reference" : "library(ggplot2)\n\nggplot(coast_starlight, aes(x = dist, y = travel_time)) +\n  geom_point()",
+   "usage" : "coast_starlight",
    "parameters" : {
-      "dist" : "Distance.",
+      "travel_time" : "Travel time.",
       "station" : "Station.",
-      "travel_time" : "Travel time."
+      "dist" : "Distance."
    }
 }
 

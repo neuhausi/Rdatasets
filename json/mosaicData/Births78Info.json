@@ -1,0 +1,17 @@
+{
+   "format" : "A data.frame with the following 8 variables.",
+   "reference" : "There are some overlapping dates in the various data sets, but the number of births does not always agree\ndue to the different sources of the data.\nSee the examples.",
+   "usage" : "data(Births)\n\ndata(Births78)\n\ndata(Births2015)\n\ndata(BirthsSSA)\n\ndata(BirthsCDC)",
+   "title" : "US Births",
+   "description" : "Description\nNumber of births in the United States.\nThere are several data sets covering different date ranges and obtaining data from different sources.",
+   "parameters" : {
+      "day_of_year" : "Day of year (integer)",
+      "year" : "Year (integer)",
+      "day_of_week" : "Day of week (integer)",
+      "date" : "Date",
+      "day_of_month" : "Day of month (integer)",
+      "births" : "Number of births on date (integer)",
+      "month" : "Month (integer)",
+      "wday" : "Day of week (ordered factor)"
+   }
+}

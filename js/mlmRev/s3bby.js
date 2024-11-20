@@ -1,8 +1,8 @@
 var s3bbyInfo ={
+   "title" : "Responses simulated by Rodriguez and Goldman",
    "description" : "Description\nA matrix of the results of 100 simulations of dichotomous multilevel\ndata. The rows correspond to the 2449 births for which the covariates\nare given in s3bbx.  The elements of the matrix are all\n0, indicating no modern prenatal care, or 1, indicating model prenatal\ncare.  These were simulated with \"large\" variances for both the family\nand the community random effects.",
    "usage" : "data(s3bby)",
-   "format" : "An integer matrix with 2449 rows and 100 columns.",
-   "title" : "Responses simulated by Rodriguez and Goldman"
+   "format" : "An integer matrix with 2449 rows and 100 columns."
 }
 
 var s3bby = [

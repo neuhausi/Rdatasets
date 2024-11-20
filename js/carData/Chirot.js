@@ -1,16 +1,16 @@
 var ChirotInfo ={
-   "parameters" : {
-      "inequality" : "Inequality of land tenure",
-      "tradition" : "Traditionalism",
-      "midpeasant" : "Strength of middle peasantry",
-      "intensity" : "Intensity of the rebellion",
-      "commerce" : "Commercialization of agriculture"
-   },
    "reference" : "Chirot, D. and C. Ragin (1975)\nThe market, tradition and peasant rebellion: The case of Romania.\nAmerican Sociological Review 40, 428&ndash;444 [Table 1].",
-   "format" : "This data frame contains the following columns:",
+   "usage" : "Chirot",
    "title" : "The 1907 Romanian Peasant Rebellion",
    "description" : "Description\nThe Chirot data frame has 32 rows and 5 columns.\nThe observations are counties in Romania.",
-   "usage" : "Chirot"
+   "parameters" : {
+      "tradition" : "Traditionalism",
+      "commerce" : "Commercialization of agriculture",
+      "midpeasant" : "Strength of middle peasantry",
+      "inequality" : "Inequality of land tenure",
+      "intensity" : "Intensity of the rebellion"
+   },
+   "format" : "This data frame contains the following columns:"
 }
 
 var Chirot = [

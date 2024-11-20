@@ -1,8 +1,8 @@
 var chorSubInfo ={
-   "title" : "Subset of C-horizon of Kola Data",
    "format" : "A data frame with 61 observations on 10 variables.  The variables\ncontain scaled concentrations of chemical elements.",
-   "usage" : "data(chorSub)",
-   "description" : "Description\nThis is a small rounded subset of the C-horizon data\nchorizon from package mvoutlier."
+   "title" : "Subset of C-horizon of Kola Data",
+   "description" : "Description\nThis is a small rounded subset of the C-horizon data\nchorizon from package mvoutlier.",
+   "usage" : "data(chorSub)"
 }
 
 var chorSub = [

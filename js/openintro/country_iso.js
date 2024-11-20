@@ -1,15 +1,15 @@
 var country_isoInfo ={
+   "title" : "Country ISO information",
+   "description" : "Description\nCountry International Organization for Standardization (ISO) information.",
+   "reference" : "Wikipedia, retrieved 2018-11-18.\nhttps://en.wikipedia.org/wiki/ISO_3166-1_alpha-2",
+   "usage" : "country_iso",
    "parameters" : {
+      "country_name" : "Country name.",
       "year" : "Year the two-letter ISO country code was assigned.",
       "country_code" : "Two-letter ISO country code.",
-      "country_name" : "Country name.",
       "top_level_domain" : "op-level domain name."
    },
-   "format" : "A data frame with 249 observations on the following 4 variables.",
-   "title" : "Country ISO information",
-   "reference" : "Wikipedia, retrieved 2018-11-18.\nhttps://en.wikipedia.org/wiki/ISO_3166-1_alpha-2",
-   "description" : "Description\nCountry International Organization for Standardization (ISO) information.",
-   "usage" : "country_iso"
+   "format" : "A data frame with 249 observations on the following 4 variables."
 }
 
 var country_iso = [

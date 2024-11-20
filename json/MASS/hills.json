@@ -1,55 +1,6 @@
 {
-   "config" : {
-      "subtitle" : "MASS - hills",
-      "title" : "Record Times in Scottish Hill Races",
-      "colorBy" : null,
-      "graphType" : "Scatter3D"
-   },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>hills</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>\nRecord Times in Scottish Hill Races\n</h2>\n<h3>Description</h3>\n<p>The record times in 1984 for 35 Scottish hill races.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>hills\n</code></pre>\n<h3>Format</h3>\n<p>The components are:\n</p>\n<dl>\n<dt><code>dist</code></dt><dd>\n<p>distance in miles (on the map).\n</p>\n</dd>\n<dt><code>climb</code></dt><dd>\n<p>total height gained during the route, in feet.\n</p>\n</dd>\n<dt><code>time</code></dt><dd>\n<p>record time in minutes.\n</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>A.C. Atkinson (1986) Comment: Aspects of diagnostic regression analysis.\n<em>Statistical Science</em> <b>1</b>, 397&ndash;402.\n</p>\n<p>[A.C. Atkinson (1988) Transformations unmasked. <em>Technometrics</em>\n<b>30</b>, 311&ndash;318 &ldquo;corrects&rdquo; the time for Knock Hill from 78.65\nto 18.65. It is unclear if this based on the original records.]\n</p>\n<h3>References</h3>\n<p>Venables, W. N. and Ripley, B. D. (2002)\n<em>Modern Applied Statistics with S.</em> Fourth edition.  Springer.\n</p>\n</main>\n</div>\n",
    "data" : {
       "y" : {
-         "smps" : [
-            "dist",
-            "climb",
-            "time"
-         ],
-         "vars" : [
-            "Greenmantle",
-            "Carnethy",
-            "Craig Dunain",
-            "Ben Rha",
-            "Ben Lomond",
-            "Goatfell",
-            "Bens of Jura",
-            "Cairnpapple",
-            "Scolty",
-            "Traprain",
-            "Lairig Ghru",
-            "Dollar",
-            "Lomonds",
-            "Cairn Table",
-            "Eildon Two",
-            "Cairngorm",
-            "Seven Hills",
-            "Knock Hill",
-            "Black Hill",
-            "Creag Beag",
-            "Kildcon Hill",
-            "Meall Ant-Suidhe",
-            "Half Ben Nevis",
-            "Cow Hill",
-            "N Berwick Law",
-            "Creag Dubh",
-            "Burnswark",
-            "Largo Law",
-            "Criffel",
-            "Acmony",
-            "Ben Nevis",
-            "Knockfarrel",
-            "Two Breweries",
-            "Cockleroi",
-            "Moffat Chase"
-         ],
          "data" : [
             [
                2.5,
@@ -226,7 +177,56 @@
                5000,
                159.833
             ]
+         ],
+         "smps" : [
+            "dist",
+            "climb",
+            "time"
+         ],
+         "vars" : [
+            "Greenmantle",
+            "Carnethy",
+            "Craig Dunain",
+            "Ben Rha",
+            "Ben Lomond",
+            "Goatfell",
+            "Bens of Jura",
+            "Cairnpapple",
+            "Scolty",
+            "Traprain",
+            "Lairig Ghru",
+            "Dollar",
+            "Lomonds",
+            "Cairn Table",
+            "Eildon Two",
+            "Cairngorm",
+            "Seven Hills",
+            "Knock Hill",
+            "Black Hill",
+            "Creag Beag",
+            "Kildcon Hill",
+            "Meall Ant-Suidhe",
+            "Half Ben Nevis",
+            "Cow Hill",
+            "N Berwick Law",
+            "Creag Dubh",
+            "Burnswark",
+            "Largo Law",
+            "Criffel",
+            "Acmony",
+            "Ben Nevis",
+            "Knockfarrel",
+            "Two Breweries",
+            "Cockleroi",
+            "Moffat Chase"
          ]
       }
+   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>hills</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>\nRecord Times in Scottish Hill Races\n</h2>\n<h3>Description</h3>\n<p>The record times in 1984 for 35 Scottish hill races.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>hills\n</code></pre>\n<h3>Format</h3>\n<p>The components are:\n</p>\n<dl>\n<dt><code>dist</code></dt><dd>\n<p>distance in miles (on the map).\n</p>\n</dd>\n<dt><code>climb</code></dt><dd>\n<p>total height gained during the route, in feet.\n</p>\n</dd>\n<dt><code>time</code></dt><dd>\n<p>record time in minutes.\n</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>A.C. Atkinson (1986) Comment: Aspects of diagnostic regression analysis.\n<em>Statistical Science</em> <b>1</b>, 397&ndash;402.\n</p>\n<p>[A.C. Atkinson (1988) Transformations unmasked. <em>Technometrics</em>\n<b>30</b>, 311&ndash;318 &ldquo;corrects&rdquo; the time for Knock Hill from 78.65\nto 18.65. It is unclear if this based on the original records.]\n</p>\n<h3>References</h3>\n<p>Venables, W. N. and Ripley, B. D. (2002)\n<em>Modern Applied Statistics with S.</em> Fourth edition.  Springer.\n</p>\n</main>\n</div>\n",
+   "config" : {
+      "title" : "Record Times in Scottish Hill Races",
+      "subtitle" : "MASS - hills",
+      "graphType" : "Scatter3D",
+      "colorBy" : null
    }
 }

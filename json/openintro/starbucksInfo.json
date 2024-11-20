@@ -1,0 +1,16 @@
+{
+   "parameters" : {
+      "carb" : "a numeric vector",
+      "protein" : "a numeric vector",
+      "type" : "a factor with levels bakery, bistro box, hot breakfast, parfait, petite, salad, and sandwich",
+      "fat" : "a numeric vector",
+      "calories" : "Calories.",
+      "item" : "Food item.",
+      "fiber" : "a numeric vector"
+   },
+   "description" : "Description\nNutrition facts for several Starbucks food items",
+   "title" : "Starbucks nutrition",
+   "usage" : "starbucks",
+   "reference" : "https://www.starbucks.com/menu, retrieved 2011-03-10.",
+   "format" : "A data frame with 77 observations on the following 7 variables."
+}

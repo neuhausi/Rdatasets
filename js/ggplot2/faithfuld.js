@@ -1,13 +1,13 @@
 var faithfuldInfo ={
-   "parameters" : {
-      "waiting" : "Waiting time to next eruption in mins",
-      "eruptions" : "Eruption time in mins",
-      "density" : "2d density estimate"
-   },
-   "description" : "Description\nA 2d density estimate of the waiting and eruptions variables data\nfaithful.",
-   "title" : "2d density estimate of Old Faithful data",
    "format" : "A data frame with 5,625 observations and 3 variables:",
-   "usage" : "faithfuld"
+   "parameters" : {
+      "density" : "2d density estimate",
+      "waiting" : "Waiting time to next eruption in mins",
+      "eruptions" : "Eruption time in mins"
+   },
+   "usage" : "faithfuld",
+   "description" : "Description\nA 2d density estimate of the waiting and eruptions variables data\nfaithful.",
+   "title" : "2d density estimate of Old Faithful data"
 }
 
 var faithfuld = [

@@ -319,10 +319,10 @@
       }
    },
    "config" : {
-      "subtitle" : "carData - Angell",
-      "shapeBy" : null,
-      "colorBy" : "region",
       "title" : "Moral Integration of American Cities",
+      "subtitle" : "carData - Angell",
+      "colorBy" : "region",
+      "shapeBy" : null,
       "graphType" : "Scatter3D"
    }
 }

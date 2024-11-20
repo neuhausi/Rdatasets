@@ -1,14 +1,14 @@
 var synth.trInfo ={
    "parameters" : {
-      "yc" : "class, coded as 0 or 1.",
+      "xs" : "x-coordinate",
       "ys" : "y-coordinate",
-      "xs" : "x-coordinate"
+      "yc" : "class, coded as 0 or 1."
    },
-   "title" : "Synthetic Classification Problem",
-   "format" : "These data frames contains the following columns:",
-   "reference" : "Ripley, B.D. (1994)\nNeural networks and related methods for\nclassification (with discussion).\nJournal of the Royal Statistical Society series B\n56, 409&ndash;456.",
    "description" : "Description\nThe synth.tr data frame has 250 rows and 3 columns.\nThe synth.te data frame has 100 rows and 3 columns.\nIt is intended that synth.tr be used from training and\nsynth.te for testing.",
-   "usage" : "synth.tr\nsynth.te"
+   "title" : "Synthetic Classification Problem",
+   "usage" : "synth.tr\nsynth.te",
+   "reference" : "Ripley, B.D. (1994)\nNeural networks and related methods for\nclassification (with discussion).\nJournal of the Royal Statistical Society series B\n56, 409&ndash;456.",
+   "format" : "These data frames contains the following columns:"
 }
 
 var synth.tr = [

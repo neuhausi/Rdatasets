@@ -1,11 +1,11 @@
 {
-   "config" : {
-      "title" : "SAT Scores and GPA",
-      "graphType" : "Scatter3D",
-      "subtitle" : "Stat2Data - SATGPA"
-   },
    "data" : {
       "y" : {
+         "smps" : [
+            "MathSAT",
+            "VerbalSAT",
+            "GPA"
+         ],
          "data" : [
             [
                580,
@@ -153,13 +153,13 @@
             "Var22",
             "Var23",
             "Var24"
-         ],
-         "smps" : [
-            "MathSAT",
-            "VerbalSAT",
-            "GPA"
          ]
       }
    },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>SATGPA</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>SAT Scores and GPA</h2>\n<h3>Description</h3>\n<p>A sample of SAT scores and grade point averages for statistics students\n</p>\n<h3>Format</h3>\n<p>A dataset with 24 observations on the following 3 variables.\n</p>\n<table>\n<tr>\n <td style=\"text-align: right;\">\n    <code>MathSAT</code> </td><td style=\"text-align: left;\"> Score (out of 800) on the mathematics portion of the SAT exam</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>VerbalSAT</code> </td><td style=\"text-align: left;\"> Score (out of 800) on the verbal portion of the SAT exam</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>GPA</code> </td><td style=\"text-align: left;\"> Grade point average (0.0-4.0 scale)</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n  </td>\n</tr>\n</table>\n<h3>Details</h3>\n<p>In recent years many colleges have re-examined the traditional role the scores on the Scholastic\nAptitude Tests (SAT's) play in making decisions on which students to admit. Do SAT scores really\nhelp predict success in college? To investigate this question a group of 24 introductory statistics students supplied the data in this dataset showing their score on the Verbal and Math portions of the SAT\nas well as their current grade point average (GPA) on a 0.0-4.0 scale.\n</p>\n<h3>Source</h3>\n<p>Student survey in an introductory statistics course.\n</p>\n</main>\n</div>\n"
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>SATGPA</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>SAT Scores and GPA</h2>\n<h3>Description</h3>\n<p>A sample of SAT scores and grade point averages for statistics students\n</p>\n<h3>Format</h3>\n<p>A dataset with 24 observations on the following 3 variables.\n</p>\n<table>\n<tr>\n <td style=\"text-align: right;\">\n    <code>MathSAT</code> </td><td style=\"text-align: left;\"> Score (out of 800) on the mathematics portion of the SAT exam</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>VerbalSAT</code> </td><td style=\"text-align: left;\"> Score (out of 800) on the verbal portion of the SAT exam</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>GPA</code> </td><td style=\"text-align: left;\"> Grade point average (0.0-4.0 scale)</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n  </td>\n</tr>\n</table>\n<h3>Details</h3>\n<p>In recent years many colleges have re-examined the traditional role the scores on the Scholastic\nAptitude Tests (SAT's) play in making decisions on which students to admit. Do SAT scores really\nhelp predict success in college? To investigate this question a group of 24 introductory statistics students supplied the data in this dataset showing their score on the Verbal and Math portions of the SAT\nas well as their current grade point average (GPA) on a 0.0-4.0 scale.\n</p>\n<h3>Source</h3>\n<p>Student survey in an introductory statistics course.\n</p>\n</main>\n</div>\n",
+   "config" : {
+      "graphType" : "Scatter3D",
+      "title" : "SAT Scores and GPA",
+      "subtitle" : "Stat2Data - SATGPA"
+   }
 }

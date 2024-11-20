@@ -1,16 +1,16 @@
 var prius_mpgInfo ={
    "parameters" : {
-      "average_mpg" : "Average mileage as estimated by the user.",
-      "state" : "US State the user lives in.",
-      "last_updated" : "Date estimate was last updated.",
       "stop_and_go" : "Proportion of stop and go driving.",
-      "highway" : "Proportion of highway driving."
+      "highway" : "Proportion of highway driving.",
+      "last_updated" : "Date estimate was last updated.",
+      "state" : "US State the user lives in.",
+      "average_mpg" : "Average mileage as estimated by the user."
    },
-   "title" : "User reported fuel efficiency for 2017 Toyota Prius Prime",
-   "format" : "A data frame with 19 observations on the following 10 variables.",
    "reference" : "Fueleconomy.gov,\nhttps://www.fueleconomy.gov/mpg/MPG.do?action=mpgData&vehicleID=38531&browser=true&details=on,\nretrieved 2019-04-14.",
+   "usage" : "prius_mpg",
+   "title" : "User reported fuel efficiency for 2017 Toyota Prius Prime",
    "description" : "Description\nFueleconomy.gov, the official US government source for fuel economy\ninformation, allows users to share gas mileage information on their\nvehicles. These data come from 19 users sharing gas mileage on their\n2017 Toyota Prius Prime. Note that these data are user estimates and\nsince the sources data cannot be verified, the accuracy of these estimates\nare not guaranteed.",
-   "usage" : "prius_mpg"
+   "format" : "A data frame with 19 observations on the following 10 variables."
 }
 
 var prius_mpg = [

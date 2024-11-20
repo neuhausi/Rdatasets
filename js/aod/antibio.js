@@ -1,13 +1,13 @@
 var antibioInfo ={
-   "usage" : "data(antibio)",
-   "format" : "A data frame with 24 observations on the following 3 variables.",
-   "title" : "Antibiotics against Shipping Fever in Calves",
-   "description" : "Description\nHypothetical drug trial to compare the effect of four antibiotics against Shipping fever in calves \n(Shoukri and Pause, 1999, Table 3.11).",
    "parameters" : {
+      "n" : "A numeric vector: the number of treated animals within a two-week period.",
       "treatment" : "A factor with levels 1, 2, 3 and 4",
-      "y" : "A numeric vector: the number of deaths at the end of the two weeks.",
-      "n" : "A numeric vector: the number of treated animals within a two-week period."
-   }
+      "y" : "A numeric vector: the number of deaths at the end of the two weeks."
+   },
+   "description" : "Description\nHypothetical drug trial to compare the effect of four antibiotics against Shipping fever in calves \n(Shoukri and Pause, 1999, Table 3.11).",
+   "title" : "Antibiotics against Shipping Fever in Calves",
+   "usage" : "data(antibio)",
+   "format" : "A data frame with 24 observations on the following 3 variables."
 }
 
 var antibio = [

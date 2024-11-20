@@ -1,7 +1,7 @@
 var VADeathsInfo ={
+   "title" : "Death Rates in Virginia (1940)",
    "description" : "Description\nDeath rates per 1000 in Virginia in 1940.",
    "usage" : "VADeaths",
-   "title" : "Death Rates in Virginia (1940)",
    "format" : "A matrix with 5 rows and 4 columns."
 }
 

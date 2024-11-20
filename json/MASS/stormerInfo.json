@@ -1,0 +1,12 @@
+{
+   "parameters" : {
+      "Viscosity" : "viscosity of fluid.",
+      "Time" : "time taken.",
+      "Wt" : "actuating weight."
+   },
+   "description" : "Description\nThe stormer viscometer measures the viscosity of a fluid by measuring the\ntime taken for an inner cylinder in the mechanism to perform a fixed number\nof revolutions in response to an actuating weight.  The viscometer is\ncalibrated by measuring the time taken with varying weights while the\nmechanism is suspended in fluids of accurately known viscosity.  The data\ncomes from such a calibration, and theoretical considerations suggest a\nnonlinear relationship between time, weight and viscosity, of the form\nTime = (B1*Viscosity)/(Weight - B2) + E\nwhere B1 and B2\nare unknown parameters to be estimated, and E is error.",
+   "title" : "The Stormer Viscometer Data",
+   "reference" : "E. J. Williams (1959) Regression Analysis. Wiley.",
+   "usage" : "stormer",
+   "format" : "The data frame contains the following components:"
+}

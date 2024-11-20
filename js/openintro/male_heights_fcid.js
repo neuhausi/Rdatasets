@@ -1,9 +1,9 @@
 var male_heights_fcidInfo ={
-   "usage" : "male_heights_fcid",
-   "description" : "Description\nThis sample is based on data from the USDA Food Commodity Intake Database.",
-   "reference" : "Simulated based on data from USDA.",
    "format" : "A data frame with 100 observations on the following variable.",
+   "usage" : "male_heights_fcid",
+   "reference" : "Simulated based on data from USDA.",
    "title" : "Random sample of adult male heights",
+   "description" : "Description\nThis sample is based on data from the USDA Food Commodity Intake Database.",
    "parameters" : {
       "height_inch" : "Height, in inches."
    }

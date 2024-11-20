@@ -1,13 +1,13 @@
 var USMacroSWQInfo ={
    "format" : "A quarterly multiple time series from 1947(1) to 2004(4) with 2 variables.",
+   "description" : "Description\nTime series data on 2 US macroeconomic variables for 1947&ndash;2004.",
    "title" : "Quarterly US Macroeconomic Data (1947&ndash;2004, Stock & Watson)",
+   "usage" : "data(\"USMacroSWQ\")",
    "reference" : "Online complements to Stock and Watson (2007).",
    "parameters" : {
       "gdp" : "real GDP for the United States in billions of chained (2000) dollars\nseasonally adjusted, annual rate.",
       "tbill" : "3-month treasury bill rate. Quarterly averages of daily dates\nin percentage points at an annual rate."
-   },
-   "usage" : "data(\"USMacroSWQ\")",
-   "description" : "Description\nTime series data on 2 US macroeconomic variables for 1947&ndash;2004."
+   }
 }
 
 var USMacroSWQ = [

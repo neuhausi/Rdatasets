@@ -1,0 +1,18 @@
+{
+   "format" : "We acknowledge the European Society for Blood and Marrow\nTransplantation (EBMT) for making available these data. Disclaimer: these\ndata were simplified for the purpose of illustration of the analysis of\ncompeting risks and multi-state models and do not reflect any real life\nsituation. No clinical conclusions should be drawn from these data.",
+   "usage" : "A data frame, see data.frame.",
+   "reference" : "A data frame, see data.frame.",
+   "description" : "Description\nA data frame of 8966 patients transplanted at the EBMT. The included\nvariables are\nidPatient identification number\n\ntimeTime in months from transplantation to death or last follow-up\n\nstatusSurvival status; 0 = censored; 1,...,6 = death due to the\nfollowing causes: Relapse (1), GvHD (2), Bacterial infections (3), Viral\ninfections (4), Fungal infections (5), Other causes (6)\n codCause of\ndeath as factor with levels \"Alive\", \"Relapse\", \"GvHD\", \"Bacterial\",\n\"Viral\", \"Fungal\", \"Other\"\n dissubDisease subclassification; factor\nwith levels \"AML\", \"ALL\", \"CML\"\n matchDonor-recipient gender match;\nfactor with levels \"No gender mismatch\", \"Gender mismatch\"\n\ntcdT-cell depletion; factor with levels \"No TCD\", \"TCD\", \"Unknown\"\n\nyearYear of transplantation; factor with levels \"1985-1989\",\n\"1990-1994\", \"1995-1998\"\n agePatient age at transplant; factor with\nlevels \"<=20\", \"20-40\", \">40\"",
+   "title" : "Data from the European Society for Blood and Marrow Transplantation (EBMT)",
+   "parameters" : {
+      "id" : "Patient identification number",
+      "cod" : "Cause of\ndeath as factor with levels \"Alive\", \"Relapse\", \"GvHD\", \"Bacterial\",\n\"Viral\", \"Fungal\", \"Other\"",
+      "status" : "Survival status; 0 = censored; 1,...,6 = death due to the\nfollowing causes: Relapse (1), GvHD (2), Bacterial infections (3), Viral\ninfections (4), Fungal infections (5), Other causes (6)",
+      "year" : "Year of transplantation; factor with levels \"1985-1989\",\n\"1990-1994\", \"1995-1998\"",
+      "tcd" : "T-cell depletion; factor with levels \"No TCD\", \"TCD\", \"Unknown\"",
+      "match" : "Donor-recipient gender match;\nfactor with levels \"No gender mismatch\", \"Gender mismatch\"",
+      "dissub" : "Disease subclassification; factor\nwith levels \"AML\", \"ALL\", \"CML\"",
+      "time" : "Time in months from transplantation to death or last follow-up",
+      "age" : "Patient age at transplant; factor with\nlevels \"<=20\", \"20-40\", \">40\""
+   }
+}

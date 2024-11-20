@@ -1,14 +1,14 @@
 var PKUInfo ={
    "parameters" : {
-      "DietControl" : "Ability to follow prescribed diet  (Good or Poor)",
       "Y" : "Concentration of dopamine (micrograms per milligram of creatinine)",
+      "DietControl" : "Ability to follow prescribed diet  (Good or Poor)",
       "Subject" : "Initials to identify each subject",
       "Diet" : "Level of phenylalanine in diet (Low or Normal)"
    },
-   "description" : "Description\nDopamine levels with different amounts of phenylalanine in diets",
    "reference" : "Phenylketonuria (PKU) is an enzyme deficiency that keeps a person from being able to synthesize enough dopamine. The amino acid phenylalanine inhibits the enzyme needed to synthesize dopamine, and so to some extent, a diet low in phenylalanine can moderate the symptoms of PKU. In short, less phenylalanine in the diet should lead to more dopamine in the brain. The dopamine level for each patient was measured after a normal diet and after a week on a low phenylalanine diet.",
+   "usage" : "A data frame with 20 observations on the following 4 variables.",
    "title" : "Dopamine levels with PKU in diets",
-   "usage" : "A data frame with 20 observations on the following 4 variables."
+   "description" : "Description\nDopamine levels with different amounts of phenylalanine in diets"
 }
 
 var PKU = [

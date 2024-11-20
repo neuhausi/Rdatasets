@@ -1,0 +1,14 @@
+{
+   "format" : "A time series containing :",
+   "reference" : "most of the above data are from Kenneth French's data library\nat http://mba.tuck.dartmouth.edu/pages/faculty/ken.french/data_library.html.",
+   "usage" : "data(Capm)",
+   "description" : "Description\nmonthly observations from 1960&ndash;01 to 2002&ndash;12\nnumber of observations :  516",
+   "title" : "Stock Market Data",
+   "parameters" : {
+      "rf" : "risk-free return",
+      "rmrf" : "excess returns market portfolio",
+      "rcon" : "excess returns construction industry",
+      "rdur" : "excess returns durables industry",
+      "rfood" : "excess returns food industry"
+   }
+}

@@ -1,7 +1,7 @@
 var HawksInfo ={
    "title" : "Measurements on Three Hawk Species",
-   "usage" : "A data frame with 908 observations on the following 19 variables.",
-   "description" : "Description\nData for a samples of hawks from three different species"
+   "description" : "Description\nData for a samples of hawks from three different species",
+   "usage" : "A data frame with 908 observations on the following 19 variables."
 }
 
 var Hawks = [

@@ -1,0 +1,18 @@
+{
+   "usage" : "surveys",
+   "reference" : "Portal Project Teaching Database,\ndoi:10.6084/m9.figshare.1314459",
+   "title" : "Survey data.",
+   "description" : "Description\nData on individual rodents captured at the Portal Project",
+   "parameters" : {
+      "weight" : "Weight of the individual in g' Species data.",
+      "month" : "Month captured",
+      "sex" : "Sex of the individual",
+      "year" : "Year captured",
+      "species_id" : "Species identifier",
+      "plot_id" : "Plot individual was captured on",
+      "record_id" : "Unique record identifier",
+      "hindfoot_length" : "Length of a back foot in mm",
+      "day" : "Day captured"
+   },
+   "format" : "A data frame with columns:"
+}

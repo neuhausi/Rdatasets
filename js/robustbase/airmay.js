@@ -1,15 +1,15 @@
 var airmayInfo ={
    "parameters" : {
-      "X1" : "Solar Radiation in Longleys in the frequency\nband 4000-7700 from 0800 to 1200 hours at Central Park",
       "Y" : "Mean ozone concentration (in parts per billion)\nfrom 1300 to 1500 hours at Roosevelt Island",
+      "X1" : "Solar Radiation in Longleys in the frequency\nband 4000-7700 from 0800 to 1200 hours at Central Park",
       "X3" : "Maximum daily temperature (in degrees Fahrenheit)\nat La Guardia Airport",
       "X2" : "Average windspeed (in miles per hour) between 7000\nand 1000 hours at La Guardia Airport"
    },
    "reference" : "P. J. Rousseeuw and A. M. Leroy (1987)\nRobust Regression and Outlier Detection;\nWiley, p.86, table 6.",
-   "title" : "Air Quality Data",
-   "format" : "A data frame with 31 observations on the following 4 variables.",
+   "usage" : "data(airmay, package=\"robustbase\")",
    "description" : "Description\nAir Quality Data Set for May 1973, from Chambers et al. (1983).\nThe whole data set consists of daily readings of air quality\nvalues from May 1, 1973 to September 30, 1973,\nbut here are included only the values for May. This data set\nis an example of the special treatment of the missing values.",
-   "usage" : "data(airmay, package=\"robustbase\")"
+   "title" : "Air Quality Data",
+   "format" : "A data frame with 31 observations on the following 4 variables."
 }
 
 var airmay = [

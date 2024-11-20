@@ -1,0 +1,12 @@
+{
+   "format" : "A data frame with 258 observations on the following variables.",
+   "description" : "Description\nA data frame containing country names as used by Gapminder and the maps\npackage to facilitate conversation between the two.",
+   "title" : "Countries",
+   "reference" : "The \"countries\" in the maps data include several other geographic regions (bodies\nof water, islands belonging to other countries, Hawaii, etc.) that are not countries.\nFurthermore, the maps countries do not include many of the countries that\nhave been created since ca. 2000.  The mapping is therefore many-to-many, and also\nincludes some NAs when there is no appropriate mapping.  Bodies of water in the\nmaps data, for example, are not assigned a country in the Gapminder.",
+   "usage" : "data(Countries)",
+   "parameters" : {
+      "gapminder" : "country name in Gapminder data sets",
+      "maptools" : "region name http://mappinghacks.com/ data sets",
+      "maps" : "region name in maps data sets"
+   }
+}

@@ -1,0 +1,15 @@
+{
+   "description" : "Description\nA panel of 532 observations from 1979 to 1988",
+   "title" : "Wages and Hours Worked",
+   "reference" : "number of observations : 5320",
+   "usage" : "A data frame containing :",
+   "parameters" : {
+      "lnwg" : "log of hourly wage",
+      "age" : "age",
+      "lnhr" : "log of annual hours worked",
+      "year" : "year",
+      "id" : "id",
+      "disab" : "bad health",
+      "kids" : "number of children"
+   }
+}

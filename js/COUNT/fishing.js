@@ -1,18 +1,18 @@
 var fishingInfo ={
-   "usage" : "data(fishing)",
-   "description" : "Description\nThe fishing data is adapted from Zuur, Hilbe and Ieno (2013) to determine \nwhether the data appears to be generated from more than one generating mechanism. \nThe data are originally adapted from Bailey et al. (2008) who were interested in \nhow certain deep-sea fish populations were impacted when commercial fishing \nbegan in locations with deeper water than in previous years. Given that there \nare 147 sites that were researched, the model is of (1) the total number of fish \ncounted per site (totabund); ( 2)  on the mean water depth per site (meandepth); \n(3) adjusted by the area of the site (sweptarea); (4) the log of which is the \nmodel offset.",
-   "title" : "fishing",
    "format" : "A data frame with 147 observations on the following variables.",
-   "reference" : "fishing is saved as a data frame.\nCount models use totabund as response variable. Counts start at 2",
    "parameters" : {
-      "sweptarea" : "adjusted area of site",
+      "site" : "catch site",
       "meandepth" : "mean water depth per site",
       "totabund" : "total fish counted per site",
-      "period" : "0=1977-1989; 1=2000+",
       "density" : "folage density index",
-      "year" : "1977-2002",
-      "site" : "catch site"
-   }
+      "period" : "0=1977-1989; 1=2000+",
+      "sweptarea" : "adjusted area of site",
+      "year" : "1977-2002"
+   },
+   "reference" : "fishing is saved as a data frame.\nCount models use totabund as response variable. Counts start at 2",
+   "usage" : "data(fishing)",
+   "title" : "fishing",
+   "description" : "Description\nThe fishing data is adapted from Zuur, Hilbe and Ieno (2013) to determine \nwhether the data appears to be generated from more than one generating mechanism. \nThe data are originally adapted from Bailey et al. (2008) who were interested in \nhow certain deep-sea fish populations were impacted when commercial fishing \nbegan in locations with deeper water than in previous years. Given that there \nare 147 sites that were researched, the model is of (1) the total number of fish \ncounted per site (totabund); ( 2)  on the mean water depth per site (meandepth); \n(3) adjusted by the area of the site (sweptarea); (4) the log of which is the \nmodel offset."
 }
 
 var fishing = [

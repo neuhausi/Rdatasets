@@ -1,16 +1,16 @@
 var AccidentInfo ={
-   "description" : "Description\na cross-section\nnumber of observations :  40",
-   "usage" : "data(Accident)",
+   "format" : "A dataframe containing :",
    "parameters" : {
+      "type" : "ship type, a factor with levels (A,B,C,D,E)",
       "constr" : "year constructed, a factor with levels (C6064,C6569,C7074,C7579)",
       "months" : "measure of service amount",
       "operate" : "year operated, a factor with levels (O6074,O7579)",
-      "type" : "ship type, a factor with levels (A,B,C,D,E)",
       "acc" : "accidents"
    },
-   "reference" : "McCullagh, P.  and  J.  Nelder (1983) Generalized Linear Models, New York:Chapman and Hall.",
+   "description" : "Description\na cross-section\nnumber of observations :  40",
    "title" : "Ship Accidents",
-   "format" : "A dataframe containing :"
+   "reference" : "McCullagh, P.  and  J.  Nelder (1983) Generalized Linear Models, New York:Chapman and Hall.",
+   "usage" : "data(Accident)"
 }
 
 var Accident = [

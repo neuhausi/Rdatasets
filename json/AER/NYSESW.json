@@ -1,4 +1,13 @@
 {
+   "config" : {
+      "colorBy" : "variable",
+      "graphType" : "Boxplot",
+      "title" : "Daily NYSE Composite Index",
+      "groupingFactors" : [
+         null
+      ],
+      "subtitle" : "AER - NYSESW"
+   },
    "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>NYSESW</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Daily NYSE Composite Index</h2>\n<h3>Description</h3>\n<p>A daily time series from 1990 to 2005 of the New York Stock Exchange composite index.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(\"NYSESW\")</code></pre>\n<h3>Format</h3>\n<p>A daily univariate time series from 1990-01-02 to 2005-11-11 (of class\n<code>\"zoo\"</code> with <code>\"Date\"</code> index).\n</p>\n<h3>Source</h3>\n<p>Online complements to Stock and Watson (2007). \n</p>\n<h3>References</h3>\n<p>Stock, J.H. and Watson, M.W. (2007). <em>Introduction to Econometrics</em>, 2nd ed. Boston: Addison Wesley.\n</p>\n<h3>See Also</h3>\n<p><code>StockWatson2007</code></p>\n<h3>Examples</h3>\n<pre><code class='language-R'>\n## returns\ndata(\"NYSESW\")\nret &lt;- 100 * diff(log(NYSESW))\nplot(ret)\n## Stock and Watson (2007), p. 667, GARCH(1,1) model\nlibrary(\"tseries\")\nfm &lt;- garch(coredata(ret))\nsummary(fm)\n</code></pre>\n</main>\n</div>\n",
    "data" : {
       "y" : {
@@ -8018,14 +8027,5 @@
             ]
          ]
       }
-   },
-   "config" : {
-      "subtitle" : "AER - NYSESW",
-      "groupingFactors" : [
-         null
-      ],
-      "colorBy" : "variable",
-      "title" : "Daily NYSE Composite Index",
-      "graphType" : "Boxplot"
    }
 }

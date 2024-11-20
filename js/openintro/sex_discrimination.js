@@ -1,13 +1,13 @@
 var sex_discriminationInfo ={
+   "format" : "A data frame with 48 observations on the following 2 variables.",
+   "description" : "Description\nStudy from the 1970s about whether sex influences hiring recommendations.",
+   "title" : "Bank manager recommendations based on sex",
+   "reference" : "Rosen B and Jerdee T. 1974. Influence of sex role stereotypes on\npersonnel decisions. Journal of Applied Psychology 59(1):9-14.",
+   "usage" : "sex_discrimination",
    "parameters" : {
       "sex" : "a factor with levels female and male",
       "decision" : "a factor with levels not promoted and promoted"
-   },
-   "format" : "A data frame with 48 observations on the following 2 variables.",
-   "reference" : "Rosen B and Jerdee T. 1974. Influence of sex role stereotypes on\npersonnel decisions. Journal of Applied Psychology 59(1):9-14.",
-   "title" : "Bank manager recommendations based on sex",
-   "description" : "Description\nStudy from the 1970s about whether sex influences hiring recommendations.",
-   "usage" : "sex_discrimination"
+   }
 }
 
 var sex_discrimination = [

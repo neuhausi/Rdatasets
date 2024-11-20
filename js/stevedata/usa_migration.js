@@ -1,16 +1,16 @@
 var usa_migrationInfo ={
-   "title" : "U.S. Inbound/Outbound Migration Data, 1990-2017",
    "format" : "A data frame with 3535 observations on the following 5 variables.",
-   "reference" : "\"Cote d'Ivoire\", \"Curacao\", and \"Reunion\" originally had UTF-8\ncharacters, which were removed for maximal compliance with CRAN. CRAN\nraises a note for every non-ASCII character it sees.",
    "parameters" : {
-      "count" : "a numeric vector for the count of inbound/outbound migrants",
       "year" : "a numeric vector for 1990, 1995, 2000, 2005, 2010, 2015, 2017",
-      "area" : "a character vector for the area of origin (if category == \"Inbound\") or destination for American migrants (if category == \"Outbound\")",
+      "country" : "a character vector/constant for the United States",
       "category" : "a character vector for whether the count is inbound to the U.S. from the area variable or outbound (i.e. American expats) to the  area  variable in a given year.",
-      "country" : "a character vector/constant for the United States"
+      "count" : "a numeric vector for the count of inbound/outbound migrants",
+      "area" : "a character vector for the area of origin (if category == \"Inbound\") or destination for American migrants (if category == \"Outbound\")"
    },
+   "reference" : "\"Cote d'Ivoire\", \"Curacao\", and \"Reunion\" originally had UTF-8\ncharacters, which were removed for maximal compliance with CRAN. CRAN\nraises a note for every non-ASCII character it sees.",
    "usage" : "usa_migration",
-   "description" : "Description\nThis data set contains counts/estimates for the number of inbound migrants\nin the U.S as well as outbound migrants of American origin to other countries\nfrom 1990 to 2017."
+   "description" : "Description\nThis data set contains counts/estimates for the number of inbound migrants\nin the U.S as well as outbound migrants of American origin to other countries\nfrom 1990 to 2017.",
+   "title" : "U.S. Inbound/Outbound Migration Data, 1990-2017"
 }
 
 var usa_migration = [

@@ -1,0 +1,13 @@
+{
+   "description" : "Description\nExperiment to compare visual and verbal performance",
+   "title" : "Visual versus Verbal Performance",
+   "usage" : "A data frame with 80 observations on the following 5 variables.",
+   "reference" : "Subjects carried out two kinds of tasks, one visual (identify letters), one verbal (identify sentences); and to report the results in either of two ways, one visual (pointing at a response), one verbal (speaking a response).  Time to complete each task was recorded in seconds.",
+   "parameters" : {
+      "Time" : "Response time (in seconds)",
+      "Subject" : "Subject number (s1 to s20)",
+      "Task" : "Follow a letter (Visual) or a sentence (Verbal)",
+      "Group" : "Combination of Task+Report (Letter Point, Letter Say, Sentence Point, or Sentence Say)",
+      "Report" : "Point response (Visual) or say response (Verbal)"
+   }
+}

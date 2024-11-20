@@ -1,9 +1,10 @@
 {
    "config" : {
-      "subtitle" : "robustbase - coleman",
+      "graphType" : "Heatmap",
       "title" : "Coleman Data Set",
-      "graphType" : "Heatmap"
+      "subtitle" : "robustbase - coleman"
    },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>coleman</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Coleman Data Set</h2>\n<h3>Description</h3>\n<p>Contains information on 20 Schools from the Mid-Atlantic and New\nEngland States, drawn from a population studied by Coleman et\nal. (1966). Mosteller and Tukey (1977) analyze this sample consisting\nof measurements on six different variables, one of which will be\ntreated as a responce.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(coleman, package=\"robustbase\")</code></pre>\n<h3>Format</h3>\n<p>A data frame with 20 observations on the following 6 variables.\n</p>\n<dl>\n<dt><code>salaryP</code></dt><dd><p>staff salaries per pupil</p>\n</dd>\n<dt><code>fatherWc</code></dt><dd><p>percent of white-collar fathers</p>\n</dd>\n<dt><code>sstatus</code></dt><dd><p>socioeconomic status composite deviation: means for\nfamily size, family intactness, father's education, mother's\neducation, and home items</p>\n</dd>\n<dt><code>teacherSc</code></dt><dd><p>mean teacher's verbal test score</p>\n</dd>\n<dt><code>motherLev</code></dt><dd><p>mean mother's educational level, one unit is equal\nto two school years</p>\n</dd>\n<dt><code>Y</code></dt><dd><p>verbal mean test score (y, all sixth graders)</p>\n</dd>\n</dl>\n<h3>Author(s)</h3>\n<p>Valentin Todorov</p>\n<h3>Source</h3>\n<p>P. J. Rousseeuw and A. M. Leroy (1987)\n<em>Robust Regression and Outlier Detection</em> Wiley, p.79, table 2.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>data(coleman)\npairs(coleman)\nsummary( lm.coleman &lt;-     lm(Y ~ . , data = coleman))\nsummary(lts.coleman &lt;- ltsReg(Y ~ . , data = coleman))\ncoleman.x &lt;- data.matrix(coleman[, 1:6])\n(Cc &lt;- covMcd(coleman.x))\n</code></pre>\n</main>\n</div>\n",
    "data" : {
       "y" : {
          "vars" : [
@@ -13,28 +14,6 @@
             "teacherSc",
             "motherLev",
             "Y"
-         ],
-         "smps" : [
-            "Smp1",
-            "Smp2",
-            "Smp3",
-            "Smp4",
-            "Smp5",
-            "Smp6",
-            "Smp7",
-            "Smp8",
-            "Smp9",
-            "Smp10",
-            "Smp11",
-            "Smp12",
-            "Smp13",
-            "Smp14",
-            "Smp15",
-            "Smp16",
-            "Smp17",
-            "Smp18",
-            "Smp19",
-            "Smp20"
          ],
          "data" : [
             [
@@ -169,8 +148,29 @@
                43.1,
                41.01
             ]
+         ],
+         "smps" : [
+            "Smp1",
+            "Smp2",
+            "Smp3",
+            "Smp4",
+            "Smp5",
+            "Smp6",
+            "Smp7",
+            "Smp8",
+            "Smp9",
+            "Smp10",
+            "Smp11",
+            "Smp12",
+            "Smp13",
+            "Smp14",
+            "Smp15",
+            "Smp16",
+            "Smp17",
+            "Smp18",
+            "Smp19",
+            "Smp20"
          ]
       }
-   },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>coleman</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Coleman Data Set</h2>\n<h3>Description</h3>\n<p>Contains information on 20 Schools from the Mid-Atlantic and New\nEngland States, drawn from a population studied by Coleman et\nal. (1966). Mosteller and Tukey (1977) analyze this sample consisting\nof measurements on six different variables, one of which will be\ntreated as a responce.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(coleman, package=\"robustbase\")</code></pre>\n<h3>Format</h3>\n<p>A data frame with 20 observations on the following 6 variables.\n</p>\n<dl>\n<dt><code>salaryP</code></dt><dd><p>staff salaries per pupil</p>\n</dd>\n<dt><code>fatherWc</code></dt><dd><p>percent of white-collar fathers</p>\n</dd>\n<dt><code>sstatus</code></dt><dd><p>socioeconomic status composite deviation: means for\nfamily size, family intactness, father's education, mother's\neducation, and home items</p>\n</dd>\n<dt><code>teacherSc</code></dt><dd><p>mean teacher's verbal test score</p>\n</dd>\n<dt><code>motherLev</code></dt><dd><p>mean mother's educational level, one unit is equal\nto two school years</p>\n</dd>\n<dt><code>Y</code></dt><dd><p>verbal mean test score (y, all sixth graders)</p>\n</dd>\n</dl>\n<h3>Author(s)</h3>\n<p>Valentin Todorov</p>\n<h3>Source</h3>\n<p>P. J. Rousseeuw and A. M. Leroy (1987)\n<em>Robust Regression and Outlier Detection</em> Wiley, p.79, table 2.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>data(coleman)\npairs(coleman)\nsummary( lm.coleman &lt;-     lm(Y ~ . , data = coleman))\nsummary(lts.coleman &lt;- ltsReg(Y ~ . , data = coleman))\ncoleman.x &lt;- data.matrix(coleman[, 1:6])\n(Cc &lt;- covMcd(coleman.x))\n</code></pre>\n</main>\n</div>\n"
+   }
 }

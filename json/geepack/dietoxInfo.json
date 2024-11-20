@@ -1,0 +1,17 @@
+{
+   "usage" : "dietox",
+   "reference" : "Data contains weight of slaughter pigs measured weekly for 12\nweeks. Data also contains the startweight (i.e. the weight at week\n1). The treatments are 3 different levels of Evit = vitamin E (dose: 0,\n100, 200 mg dl-alpha-tocopheryl acetat /kg feed) in combination with 3\ndifferent levels of Cu=copper (dose: 0, 35, 175 mg/kg feed) in the feed.\nThe cumulated feed intake is also recorded. The pigs are littermates.",
+   "title" : "Growth curves of pigs in a 3x3 factorial experiment",
+   "description" : "Description\nThe dietox data frame has 861 rows and 7 columns.",
+   "parameters" : {
+      "Start" : "Start weight in experiment, i.e. weight at week 1.",
+      "Cu" : "Factor, copper dose; see 'details'",
+      "Pig" : "Factor; id of each pig",
+      "Time" : "Time (in weeks) in the experiment",
+      "Feed" : "Cumulated feed intake in Kg",
+      "Weight" : "Weight in Kg",
+      "Evit" : "Factor; vitamin E dose; see 'details'.",
+      "Litter" : "Factor, id of litter of each pig"
+   },
+   "format" : "This data frame contains the following columns:"
+}

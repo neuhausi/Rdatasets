@@ -1,16 +1,16 @@
 var sweden_countiesInfo ={
-   "usage" : "sweden_counties",
-   "description" : "Description\nA simple data set on Sweden's counties.",
    "format" : "A data frame with 21 observations on the following 6 variables.",
+   "description" : "Description\nA simple data set on Sweden's counties.",
    "title" : "The Counties of Sweden",
+   "usage" : "sweden_counties",
    "reference" : "This is a simple Wikipedia scrape job from 7 November 2022.",
    "parameters" : {
+      "county" : "the name of the county, in Swedish",
       "area" : "the size of the county in square kilometers",
-      "pop2019" : "the size of the county in 2019",
       "nuts" : "the Nomenclature of Territorial Units for Statistics (NUTS) code for the county",
-      "centre" : "the administrative centre, or centres, of the county",
+      "pop2019" : "the size of the county in 2019",
       "iso" : "the ISO 3166-2 code for the county",
-      "county" : "the name of the county, in Swedish"
+      "centre" : "the administrative centre, or centres, of the county"
    }
 }
 

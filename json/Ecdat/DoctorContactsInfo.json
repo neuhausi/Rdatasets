@@ -1,0 +1,24 @@
+{
+   "format" : "A time series containing :",
+   "parameters" : {
+      "linc" : "log of annual family income (in $)",
+      "health" : "self&ndash;rate health (excellent,good,fair,poor)",
+      "educdec" : "years of schooling of household head",
+      "child" : "age less than 18 ?",
+      "mdu" : "number of  outpatient visits to a medical \ndoctor",
+      "sex" : "sex (male,female)",
+      "ndisease" : "number of chronic diseases",
+      "black" : "is household head black ?",
+      "physlim" : "physical limitation ?",
+      "idp" : "individual deductible plan ?",
+      "fmde" : "log(max(medical deductible \nexpenditure)) if IDP=1 and \nMDE>1 or 0 otherwise",
+      "age" : "exact age",
+      "lpi" : "log(annual participation incentive \npayment) or 0 if no payment",
+      "lfam" : "log of family size",
+      "lc" : "log(coinsrate+1)  where coinsurance \nrate is 0 to 100"
+   },
+   "description" : "Description\na cross-section from 1977&ndash;1978\nnumber of observations :  20186",
+   "title" : "Contacts With Medical Doctor",
+   "reference" : "Deb, P.  and P.K.  Trivedi (2002) &ldquo;The Structure of Demand for Medical Care: Latent Class versus Two-Part Models&rdquo;, Journal of Health Economics, 21, 601&ndash;625.",
+   "usage" : "data(DoctorContacts)"
+}

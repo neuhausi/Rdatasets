@@ -1,19 +1,19 @@
 var ebmt1Info ={
-   "title" : "Data from the European Society for Blood and Marrow Transplantation (EBMT)",
-   "format" : "We acknowledge the European Society for Blood and Marrow\nTransplantation (EBMT) for making available these data. Disclaimer: these\ndata were simplified for the purpose of illustration of the analysis of\ncompeting risks and multi-state models and do not reflect any real life\nsituation. No clinical conclusions should be drawn from these data.",
-   "reference" : "A data frame, see data.frame.",
-   "parameters" : {
-      "relstat" : "Relapse status; 1 = relapsed; 0 = censored",
-      "srvstat" : "Survival status; 1 = death; 0 = censored",
-      "score" : "Gratwohl score; factor with levels \"Low risk\", \"Medium risk\",\n\"High risk\"",
-      "yrel" : "Calendar year of relapse; factor with levels \"1993-1996\",\"\n1997-1999\", \"2000-\"",
-      "rel" : "Time in\ndays from transplantation to relapse or last follow-up",
-      "age" : "Patient age at transplant (years)",
-      "patid" : "Patient identification number",
-      "srv" : "Time\nin days from transplantation to death or last follow-up"
-   },
    "usage" : "A data frame, see data.frame.",
-   "description" : "Description\nA data frame of 1977 patients transplanted for CML. The included variables\nare\npatidPatient identification number\n srvTime\nin days from transplantation to death or last follow-up\n\nsrvstatSurvival status; 1 = death; 0 = censored\n relTime in\ndays from transplantation to relapse or last follow-up\n\nrelstatRelapse status; 1 = relapsed; 0 = censored\n\nyrelCalendar year of relapse; factor with levels \"1993-1996\",\"\n1997-1999\", \"2000-\"\n agePatient age at transplant (years)\n\nscoreGratwohl score; factor with levels \"Low risk\", \"Medium risk\",\n\"High risk\""
+   "reference" : "A data frame, see data.frame.",
+   "title" : "Data from the European Society for Blood and Marrow Transplantation (EBMT)",
+   "description" : "Description\nA data frame of 1977 patients transplanted for CML. The included variables\nare\npatidPatient identification number\n srvTime\nin days from transplantation to death or last follow-up\n\nsrvstatSurvival status; 1 = death; 0 = censored\n relTime in\ndays from transplantation to relapse or last follow-up\n\nrelstatRelapse status; 1 = relapsed; 0 = censored\n\nyrelCalendar year of relapse; factor with levels \"1993-1996\",\"\n1997-1999\", \"2000-\"\n agePatient age at transplant (years)\n\nscoreGratwohl score; factor with levels \"Low risk\", \"Medium risk\",\n\"High risk\"",
+   "parameters" : {
+      "yrel" : "Calendar year of relapse; factor with levels \"1993-1996\",\"\n1997-1999\", \"2000-\"",
+      "score" : "Gratwohl score; factor with levels \"Low risk\", \"Medium risk\",\n\"High risk\"",
+      "srv" : "Time\nin days from transplantation to death or last follow-up",
+      "srvstat" : "Survival status; 1 = death; 0 = censored",
+      "age" : "Patient age at transplant (years)",
+      "rel" : "Time in\ndays from transplantation to relapse or last follow-up",
+      "patid" : "Patient identification number",
+      "relstat" : "Relapse status; 1 = relapsed; 0 = censored"
+   },
+   "format" : "We acknowledge the European Society for Blood and Marrow\nTransplantation (EBMT) for making available these data. Disclaimer: these\ndata were simplified for the purpose of illustration of the analysis of\ncompeting risks and multi-state models and do not reflect any real life\nsituation. No clinical conclusions should be drawn from these data."
 }
 
 var ebmt1 = [

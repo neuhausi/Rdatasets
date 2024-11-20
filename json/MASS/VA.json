@@ -1,8 +1,8 @@
 {
    "config" : {
-      "subtitle" : "MASS - VA",
       "graphType" : "Heatmap",
-      "title" : "Veteran's Administration Lung Cancer Trial"
+      "title" : "Veteran's Administration Lung Cancer Trial",
+      "subtitle" : "MASS - VA"
    },
    "data" : {
       "y" : {

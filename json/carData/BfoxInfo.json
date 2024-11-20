@@ -1,0 +1,15 @@
+{
+   "reference" : "The value of tfr for 1973 is misrecorded as 2931; it should be 1931.",
+   "usage" : "Bfox",
+   "title" : "Canadian Women's Labour-Force Participation",
+   "description" : "Description\nThe Bfox data frame has 30 rows and 7 columns.\nTime-series data on Canadian women's labor-force participation,\n1946&ndash;1975.",
+   "parameters" : {
+      "debt" : "Per-capita consumer debt, in constant dollars.",
+      "womwage" : "Women's average weekly wages.",
+      "partic" : "Percent of adult women in the workforce.",
+      "tfr" : "Total fertility rate: expected births to a cohort of 1000\nwomen at current age-specific fertility rates.",
+      "menwage" : "Men's average weekly wages, in constant 1935 dollars and\nadjusted for current tax rates.",
+      "parttime" : "Percent of the active workforce working 34 hours per week or\nless."
+   },
+   "format" : "This data frame contains the following columns:"
+}

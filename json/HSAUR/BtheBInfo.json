@@ -1,0 +1,17 @@
+{
+   "description" : "Description\nData from a clinical trial of an interactive multimedia program called \n&lsquo;Beat the Blues&rsquo;.",
+   "title" : "Beat the Blues Data",
+   "reference" : "Longitudinal data from a clinical trial of \nan interactive, multimedia program known as \"Beat the Blues\" \ndesigned to deliver cognitive behavioural therapy \nto depressed patients via a computer terminal. \nPatients with depression recruited in primary       \ncare were randomised to either the Beating the Blues program,       \nor to \"Treatment as Usual (TAU)\".",
+   "usage" : "data(\"BtheB\")",
+   "parameters" : {
+      "bdi.2m" : "Beck Depression Inventory II after two months.",
+      "bdi.pre" : "Beck Depression Inventory\nII before treatment.",
+      "length" : "the length of the current episode of depression, \na factor with levels <6m (less than six months) and \n>6m (more than six months).",
+      "bdi.6m" : "Beck Depression Inventory II after six months.",
+      "drug" : "did the patient take anti-depressant\ndrugs (No or Yes).",
+      "bdi.8m" : "Beck Depression Inventory II after eight months.",
+      "treatment" : "treatment group, \na factor with levels TAU (treatment as usual)\nand  BtheB (Beat the Blues)",
+      "bdi.4m" : "Beck Depression Inventory II after four months."
+   },
+   "format" : "A data frame with 100 observations of 100 patients \non the following 8 variables."
+}

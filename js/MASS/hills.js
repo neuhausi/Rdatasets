@@ -1,14 +1,14 @@
 var hillsInfo ={
    "parameters" : {
-      "time" : "record time in minutes.",
+      "dist" : "distance in miles (on the map).",
       "climb" : "total height gained during the route, in feet.",
-      "dist" : "distance in miles (on the map)."
+      "time" : "record time in minutes."
    },
-   "format" : "The components are:",
-   "title" : "Record Times in Scottish Hill Races",
    "reference" : "A.C. Atkinson (1986) Comment: Aspects of diagnostic regression analysis.\nStatistical Science 1, 397&ndash;402.",
+   "usage" : "hills",
    "description" : "Description\nThe record times in 1984 for 35 Scottish hill races.",
-   "usage" : "hills"
+   "title" : "Record Times in Scottish Hill Races",
+   "format" : "The components are:"
 }
 
 var hills = [

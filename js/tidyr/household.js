@@ -1,14 +1,14 @@
 var householdInfo ={
-   "description" : "Description\nThis dataset is based on an example in\nvignette(\"datatable-reshape\", package = \"data.table\")",
+   "format" : "A data frame with 5 rows and 5 columns:",
    "parameters" : {
+      "dob_child1" : "Date of birth of first child",
       "family" : "Family identifier",
       "name_child1" : "Name of first child",
-      "dob_child1" : "Date of birth of first child",
       "dob_child2" : "Date of birth of second child"
    },
-   "format" : "A data frame with 5 rows and 5 columns:",
+   "usage" : "household",
    "title" : "Household data",
-   "usage" : "household"
+   "description" : "Description\nThis dataset is based on an example in\nvignette(\"datatable-reshape\", package = \"data.table\")"
 }
 
 var household = [

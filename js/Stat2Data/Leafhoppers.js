@@ -1,6 +1,6 @@
 var LeafhoppersInfo ={
-   "description" : "Description\nLifetimes for potato leafhoppers on various sugar diets",
    "title" : "Leafhopper Diet and Longevity",
+   "description" : "Description\nLifetimes for potato leafhoppers on various sugar diets",
    "usage" : "A data frame with 8 observations on the following 2 variables."
 }
 

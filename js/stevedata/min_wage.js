@@ -1,13 +1,13 @@
 var min_wageInfo ={
-   "title" : "History of Federal Minimum Wage Rates Under the Fair Labor Standards Act, 1938-2009",
-   "format" : "A data frame with 23 observations on the following 5 variables.",
-   "reference" : "Data come from the Department of Labor. Wages are taken from wage adjustments\nfrom the 1938 act.",
    "parameters" : {
-      "date" : "a date for when a new minimum wage was introduced",
-      "wage" : "the (nominal) value of the wage"
+      "wage" : "the (nominal) value of the wage",
+      "date" : "a date for when a new minimum wage was introduced"
    },
+   "description" : "Description\nA data set on the various federal minimum wage rates.",
+   "title" : "History of Federal Minimum Wage Rates Under the Fair Labor Standards Act, 1938-2009",
+   "reference" : "Data come from the Department of Labor. Wages are taken from wage adjustments\nfrom the 1938 act.",
    "usage" : "min_wage",
-   "description" : "Description\nA data set on the various federal minimum wage rates."
+   "format" : "A data frame with 23 observations on the following 5 variables."
 }
 
 var min_wage = [

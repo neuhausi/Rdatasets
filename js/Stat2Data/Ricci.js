@@ -1,15 +1,15 @@
 var RicciInfo ={
-   "reference" : "The city of New Haven, Connecticut administered exams (both written and oral) in November and December of 2003 to firefighters hoping to qualify for promotion to either Lieutenant or Captain in the city fire department.  A final score consisting of a 60% weight for the written exam and a 40% weight for the oral exam was computed for each person who took the exam.  For each person who took the exams, there are measurements on their race (black, white, or Hispanic), which position they were trying for (Lieutenant, Captain), scores on the oral and written exams, and the combined score. These data were used as part of a court case (Ricci v.DeStefano) dealing with racial discrimination",
+   "description" : "Description\nData on firefighter promotion exams as part of the Ricci v. DeStafano court case",
    "title" : "Firefighter Promotion Exam Scores",
    "usage" : "A data frame with 118 observations on the following 5 variables.",
+   "reference" : "The city of New Haven, Connecticut administered exams (both written and oral) in November and December of 2003 to firefighters hoping to qualify for promotion to either Lieutenant or Captain in the city fire department.  A final score consisting of a 60% weight for the written exam and a 40% weight for the oral exam was computed for each person who took the exam.  For each person who took the exams, there are measurements on their race (black, white, or Hispanic), which position they were trying for (Lieutenant, Captain), scores on the oral and written exams, and the combined score. These data were used as part of a court case (Ricci v.DeStefano) dealing with racial discrimination",
    "parameters" : {
-      "Written" : "Written exam score",
-      "Combine" : "Combined score (written exam gets 60% weight)",
-      "Position" : "Promotion desired (Captain or Lieutenant)",
       "Race" : "Race of firefighter (B=black,  H=Hispanic, or W=white)",
-      "Oral" : "Oral exam score"
-   },
-   "description" : "Description\nData on firefighter promotion exams as part of the Ricci v. DeStafano court case"
+      "Written" : "Written exam score",
+      "Position" : "Promotion desired (Captain or Lieutenant)",
+      "Oral" : "Oral exam score",
+      "Combine" : "Combined score (written exam gets 60% weight)"
+   }
 }
 
 var Ricci = [

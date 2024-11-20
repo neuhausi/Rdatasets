@@ -1,12 +1,12 @@
 var mcycleInfo ={
-   "description" : "Description\nA data frame giving a series of measurements of head acceleration\nin a simulated motorcycle accident, used to test crash helmets.",
-   "usage" : "mcycle",
    "parameters" : {
-      "accel" : "in g.",
-      "times" : "in milliseconds after impact."
+      "times" : "in milliseconds after impact.",
+      "accel" : "in g."
    },
-   "reference" : "Silverman, B. W. (1985) Some aspects of the spline smoothing approach to\nnon-parametric curve fitting.\nJournal of the Royal Statistical Society series B 47, 1&ndash;52.",
    "title" : "Data from a Simulated Motorcycle Accident",
+   "description" : "Description\nA data frame giving a series of measurements of head acceleration\nin a simulated motorcycle accident, used to test crash helmets.",
+   "reference" : "Silverman, B. W. (1985) Some aspects of the spline smoothing approach to\nnon-parametric curve fitting.\nJournal of the Royal Statistical Society series B 47, 1&ndash;52.",
+   "usage" : "mcycle",
    "format" : "times\nin milliseconds after impact.\n\n\naccel\nin g."
 }
 

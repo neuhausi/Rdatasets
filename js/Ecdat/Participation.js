@@ -1,18 +1,18 @@
 var ParticipationInfo ={
    "description" : "Description\na cross-section\nnumber of observations :  872\nobservation :  individuals\ncountry :  Switzerland",
+   "title" : "Labor Force Participation",
    "usage" : "data(Participation)",
-   "parameters" : {
-      "foreign" : "foreigner ?",
-      "lnnlinc" : "the log of nonlabour income",
-      "nyc" : "the number of young children (younger than 7)",
-      "educ" : "years of formal education",
-      "age" : "age in years divided by 10",
-      "noc" : "number of older children",
-      "lfp" : "labour force participation ?"
-   },
-   "format" : "A dataframe containing :",
    "reference" : "Gerfin, Michael (1996) &ldquo;Parametric and semiparametric estimation of the binary  response&rdquo;, Journal of Applied Econometrics, 11(3), 321-340.",
-   "title" : "Labor Force Participation"
+   "parameters" : {
+      "educ" : "years of formal education",
+      "lnnlinc" : "the log of nonlabour income",
+      "lfp" : "labour force participation ?",
+      "nyc" : "the number of young children (younger than 7)",
+      "age" : "age in years divided by 10",
+      "foreign" : "foreigner ?",
+      "noc" : "number of older children"
+   },
+   "format" : "A dataframe containing :"
 }
 
 var Participation = [

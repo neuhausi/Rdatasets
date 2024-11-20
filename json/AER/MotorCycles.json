@@ -1,12 +1,10 @@
 {
-   "config" : {
-      "graphType" : "Scatter2D",
-      "title" : "Motor Cycles in The Netherlands",
-      "subtitle" : "AER - MotorCycles"
-   },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>MotorCycles</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Motor Cycles in The Netherlands</h2>\n<h3>Description</h3>\n<p>Time series of stock of motor cycles (two wheels) in The Netherlands\n(in thousands).\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(\"MotorCycles\")</code></pre>\n<h3>Format</h3>\n<p>An annual univariate time series from 1946 to 1993.\n</p>\n<h3>Details</h3>\n<p>An updated version is available under the name <code>MotorCycles2</code>. However, the values for the years 1992 and 1993 differ there.</p>\n<h3>Source</h3>\n<p>Online complements to Franses (1998).\n</p>\n<h3>References</h3>\n<p>Franses, P.H. (1998). <em>Time Series Models for Business and Economic Forecasting</em>.\nCambridge, UK: Cambridge University Press.\n</p>\n<h3>See Also</h3>\n<p><code>Franses1998</code>, <code>MotorCycles2</code></p>\n<h3>Examples</h3>\n<pre><code class='language-R'>data(\"MotorCycles\")\nplot(MotorCycles)\n</code></pre>\n</main>\n</div>\n",
    "data" : {
       "y" : {
+         "smps" : [
+            "time",
+            "value"
+         ],
          "data" : [
             [
                1946,
@@ -201,10 +199,6 @@
                290
             ]
          ],
-         "smps" : [
-            "time",
-            "value"
-         ],
          "vars" : [
             "Var1",
             "Var2",
@@ -256,5 +250,11 @@
             "Var48"
          ]
       }
+   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>MotorCycles</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Motor Cycles in The Netherlands</h2>\n<h3>Description</h3>\n<p>Time series of stock of motor cycles (two wheels) in The Netherlands\n(in thousands).\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(\"MotorCycles\")</code></pre>\n<h3>Format</h3>\n<p>An annual univariate time series from 1946 to 1993.\n</p>\n<h3>Details</h3>\n<p>An updated version is available under the name <code>MotorCycles2</code>. However, the values for the years 1992 and 1993 differ there.</p>\n<h3>Source</h3>\n<p>Online complements to Franses (1998).\n</p>\n<h3>References</h3>\n<p>Franses, P.H. (1998). <em>Time Series Models for Business and Economic Forecasting</em>.\nCambridge, UK: Cambridge University Press.\n</p>\n<h3>See Also</h3>\n<p><code>Franses1998</code>, <code>MotorCycles2</code></p>\n<h3>Examples</h3>\n<pre><code class='language-R'>data(\"MotorCycles\")\nplot(MotorCycles)\n</code></pre>\n</main>\n</div>\n",
+   "config" : {
+      "title" : "Motor Cycles in The Netherlands",
+      "subtitle" : "AER - MotorCycles",
+      "graphType" : "Scatter2D"
    }
 }

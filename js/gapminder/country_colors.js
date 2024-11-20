@@ -1,13 +1,13 @@
 var country_colorsInfo ={
-   "format" : "Named character vectors giving country and continent colors:",
-   "title" : "Gapminder color schemes.",
-   "reference" : "gapminder for a description of the dataset",
    "parameters" : {
       "country_colors" : "colors for the 142 countries",
       "continent_colors" : "colors for the 5 continents"
    },
+   "description" : "Description\nColor schemes for the countries and continents in the Gapminder data.",
+   "title" : "Gapminder color schemes.",
    "usage" : "country_colors",
-   "description" : "Description\nColor schemes for the countries and continents in the Gapminder data."
+   "reference" : "gapminder for a description of the dataset",
+   "format" : "Named character vectors giving country and continent colors:"
 }
 
 var country_colors = [

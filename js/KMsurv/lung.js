@@ -1,14 +1,14 @@
 var lungInfo ={
-   "usage" : "This data frame contains the following columns:",
-   "title" : "data from Exercise 4.4, p120",
-   "reference" : "Klein and Moeschberger (1997) Survival Analysis Techniques for Censored\nand truncated data, Springer.",
    "parameters" : {
       "death2" : "Death indicator as of 3/31/80 (1=dead, 0=alive)",
-      "time" : "Days to death",
+      "time2" : "Days to 3/31/80 or death (interim analysis)",
       "death" : "Death indicator (1=dead), complete follow-up on all patients",
-      "time2" : "Days to 3/31/80 or death (interim analysis)"
+      "time" : "Days to death"
    },
-   "description" : "Description\nThe lung data frame has 25 rows and 4 columns."
+   "reference" : "Klein and Moeschberger (1997) Survival Analysis Techniques for Censored\nand truncated data, Springer.",
+   "usage" : "This data frame contains the following columns:",
+   "description" : "Description\nThe lung data frame has 25 rows and 4 columns.",
+   "title" : "data from Exercise 4.4, p120"
 }
 
 var lung = [

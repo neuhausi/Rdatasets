@@ -1,13 +1,13 @@
 var fish_encountersInfo ={
    "format" : "A dataset with variables:",
-   "title" : "Fish encounters",
-   "reference" : "Dataset provided by Myfanwy Johnston; more details at\nhttps://fishsciences.github.io/post/visualizing-fish-encounter-histories/",
    "parameters" : {
-      "seen" : "Was the fish seen? (1 if yes, and true for all rows)",
       "fish" : "Fish identifier",
-      "station" : "Measurement station"
+      "station" : "Measurement station",
+      "seen" : "Was the fish seen? (1 if yes, and true for all rows)"
    },
+   "reference" : "Dataset provided by Myfanwy Johnston; more details at\nhttps://fishsciences.github.io/post/visualizing-fish-encounter-histories/",
    "usage" : "fish_encounters",
+   "title" : "Fish encounters",
    "description" : "Description\nInformation about fish swimming down a river: each station represents an\nautonomous monitor that records if a tagged fish was seen at that location.\nFish travel in one direction (migrating downstream). Information about\nmisses is just as important as hits, but is not directly recorded in this\nform of the data."
 }
 

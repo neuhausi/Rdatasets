@@ -1,0 +1,14 @@
+{
+   "title" : "Sample of students and their GPA and IQ",
+   "description" : "Description\nData on 78 students including GPA, IQ, and gender.",
+   "usage" : "gpa_iq",
+   "reference" : "gpa_iq",
+   "parameters" : {
+      "iq" : "IQ.",
+      "concept" : "a numeric vector",
+      "gpa" : "Grade point average (GPA).",
+      "obs" : "a numeric vector",
+      "gender" : "Gender."
+   },
+   "format" : "A data frame with 78 observations representing students on the\nfollowing 5 variables."
+}

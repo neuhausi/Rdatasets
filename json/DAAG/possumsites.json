@@ -1,26 +1,13 @@
 {
    "config" : {
       "subtitle" : "DAAG - possumsites",
-      "graphType" : "Scatter3D",
       "title" : "Possum Sites",
-      "colorBy" : null
+      "colorBy" : null,
+      "graphType" : "Scatter3D"
    },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>possumsites</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Possum Sites</h2>\n<h3>Description</h3>\n<p>The <code>possumsites</code> data frame consists of Longitudes, Latitudes,\nand altitudes for the seven sites from Southern Victoria to central Queensland\nwhere the <code>possum</code> observations were made.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>possumsites</code></pre>\n<h3>Format</h3>\n<p>This data frame contains the following columns:\n</p>\n<dl>\n<dt>Longitude</dt><dd><p>a numeric vector</p>\n</dd>\n<dt>Latitude</dt><dd><p>a numeric vector</p>\n</dd>\n<dt>altitude</dt><dd><p>in meters</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>Lindenmayer, D. B., Viggers, K. L., Cunningham, R. B., and\nDonnelly, C. F. 1995. Morphological variation among columns of the\nmountain brushtail possum, Trichosurus caninus Ogilby\n(Phalangeridae: Marsupiala). Australian Journal of Zoology 43:\n449-458.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>require(oz)\noz(sections=c(3:5, 11:16))\nattach(possumsites)\npoints(Longitude, Latitude, pch=16, col=2)\nchw &lt;- par()$cxy[1]\nchh &lt;- par()$cxy[2]\nposval &lt;- c(2,4,2,2,4,2,2)\ntext(Longitude+(3-posval)*chw/4, Latitude, row.names(possumsites), pos=posval)\n</code></pre>\n</main>\n</div>\n",
    "data" : {
       "y" : {
-         "vars" : [
-            "Cambarville",
-            "Bellbird",
-            "Allyn River",
-            "Whian Whian",
-            "Byrangery",
-            "Conondale",
-            "Bulburin"
-         ],
-         "smps" : [
-            "Longitude",
-            "Latitude",
-            "altitude"
-         ],
          "data" : [
             [
                145.883333333333,
@@ -57,8 +44,21 @@
                -24.55,
                600
             ]
+         ],
+         "smps" : [
+            "Longitude",
+            "Latitude",
+            "altitude"
+         ],
+         "vars" : [
+            "Cambarville",
+            "Bellbird",
+            "Allyn River",
+            "Whian Whian",
+            "Byrangery",
+            "Conondale",
+            "Bulburin"
          ]
       }
-   },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>possumsites</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Possum Sites</h2>\n<h3>Description</h3>\n<p>The <code>possumsites</code> data frame consists of Longitudes, Latitudes,\nand altitudes for the seven sites from Southern Victoria to central Queensland\nwhere the <code>possum</code> observations were made.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>possumsites</code></pre>\n<h3>Format</h3>\n<p>This data frame contains the following columns:\n</p>\n<dl>\n<dt>Longitude</dt><dd><p>a numeric vector</p>\n</dd>\n<dt>Latitude</dt><dd><p>a numeric vector</p>\n</dd>\n<dt>altitude</dt><dd><p>in meters</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>Lindenmayer, D. B., Viggers, K. L., Cunningham, R. B., and\nDonnelly, C. F. 1995. Morphological variation among columns of the\nmountain brushtail possum, Trichosurus caninus Ogilby\n(Phalangeridae: Marsupiala). Australian Journal of Zoology 43:\n449-458.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>require(oz)\noz(sections=c(3:5, 11:16))\nattach(possumsites)\npoints(Longitude, Latitude, pch=16, col=2)\nchw &lt;- par()$cxy[1]\nchh &lt;- par()$cxy[2]\nposval &lt;- c(2,4,2,2,4,2,2)\ntext(Longitude+(3-posval)*chw/4, Latitude, row.names(possumsites), pos=posval)\n</code></pre>\n</main>\n</div>\n"
+   }
 }

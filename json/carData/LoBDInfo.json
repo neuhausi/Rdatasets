@@ -1,0 +1,18 @@
+{
+   "format" : "A data frame with 84 observations on the following 9 variables.",
+   "parameters" : {
+      "pool" : "a factor with levels 1 2 3 4\n5 6 7 8 9 10 11 12\ndenoting the 12 pools used in the experiment;\neach pool had a different level of drug.",
+      "I1L2" : "a numeric vector giving the measured concentration in pmol/L of drug in the assay",
+      "I3L1" : "a numeric vector giving the measured concentration in pmol/L of drug in the assay",
+      "I2L1" : "a numeric vector giving the measured concentration in pmol/L of drug in the assay",
+      "I4L1" : "a numeric vector giving the measured concentration in pmol/L of drug in the assay",
+      "I1L1" : "a numeric vector giving the measured concentration in pmol/L of drug in the assay",
+      "I2L2" : "a numeric vector giving the measured concentration in pmol/L of drug in the assay",
+      "I3L2" : "a numeric vector giving the measured concentration in pmol/L of drug in the assay",
+      "I4L2" : "a numeric vector giving the measured concentration in pmol/L of drug in the assay"
+   },
+   "title" : "Cancer drug data use to provide an example of the use of the skew power distributions.",
+   "description" : "Description\nA portion of an experiment to determine the limit of blank/limit of detection in a biochemical assay.",
+   "reference" : "Important characteristics of a clinical chemistry assay are its\nlimit of blank (LoB), and its limit of detection (LoD).\nThe LoB, conceptually the highest reading likely to be obtained from\na zero-concentration sample, is defined operationally by the upper 95%\npoint of readings obtained from samples that do not contain the analyte.\nThe LoD, conceptually the lowest level of analyte that can be reliably\ndetermined not to be blank, is defined operationally as true value at\nwhich there is a 95% chance of the reading being above the LoB.",
+   "usage" : "LoBD"
+}

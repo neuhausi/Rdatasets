@@ -1,14 +1,14 @@
 var orob2Info ={
-   "parameters" : {
-      "n" : "a numeric vector: the number of seeds exposed to germination.",
-      "seed" : "a factor with 2 levels: O73 and O75.",
-      "y" : "a numeric vector: the number of seeds which actually germinated.",
-      "root" : "a factor with 2 levels BEAN and CUCUMBER."
-   },
-   "description" : "Description\n&ldquo;A 2 x 2 factorial experiment comparing 2 types of seed and 2 root extracts. There are 5 or 6 replicates in each \nof the 4 treatment groups, and each replicate comprises a number of seeds varying between 4 and 81. The response \nvariable is the proportion of seeds germinating in each replicate.&rdquo; (Crowder, 1978, Table 3).",
    "usage" : "data(orob2)",
-   "format" : "A data frame with 21 observations on the following 4 variables.",
-   "title" : "Germination Data"
+   "title" : "Germination Data",
+   "description" : "Description\n&ldquo;A 2 x 2 factorial experiment comparing 2 types of seed and 2 root extracts. There are 5 or 6 replicates in each \nof the 4 treatment groups, and each replicate comprises a number of seeds varying between 4 and 81. The response \nvariable is the proportion of seeds germinating in each replicate.&rdquo; (Crowder, 1978, Table 3).",
+   "parameters" : {
+      "seed" : "a factor with 2 levels: O73 and O75.",
+      "root" : "a factor with 2 levels BEAN and CUCUMBER.",
+      "y" : "a numeric vector: the number of seeds which actually germinated.",
+      "n" : "a numeric vector: the number of seeds exposed to germination."
+   },
+   "format" : "A data frame with 21 observations on the following 4 variables."
 }
 
 var orob2 = [

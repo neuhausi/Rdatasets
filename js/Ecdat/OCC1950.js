@@ -1,8 +1,8 @@
 var OCC1950Info ={
-   "usage" : "data(\"OCC1950\")",
    "title" : "Evolution of occupational distribution in the US",
-   "format" : "A matrix with one row for each of \n281 OCC1950 occupation codes in IPUMS-US and one\ncolumn for each year in their dataset as of \n2020-03-17, being \nc(1850:1880, 1900:2000, 2001:2016).",
-   "description" : "Description\nProportion of the US population in each of the \n283 OCC1950 occupation codes for each year \nin the \nIntegrated Public Use Microdata Series (IPUMS) - US database."
+   "description" : "Description\nProportion of the US population in each of the \n283 OCC1950 occupation codes for each year \nin the \nIntegrated Public Use Microdata Series (IPUMS) - US database.",
+   "usage" : "data(\"OCC1950\")",
+   "format" : "A matrix with one row for each of \n281 OCC1950 occupation codes in IPUMS-US and one\ncolumn for each year in their dataset as of \n2020-03-17, being \nc(1850:1880, 1900:2000, 2001:2016)."
 }
 
 var OCC1950 = [

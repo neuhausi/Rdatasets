@@ -1,5 +1,9 @@
 {
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>prison</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Prison isolation experiment</h2>\n<h3>Description</h3>\n<p>Subjects from Central Prison in Raleigh, NC, volunteered for an experiment\ninvolving an &quot;isolation&quot; experience. The goal of the experiment was to find\na treatment that reduces subjects' psychopathic deviant T scores. This score\nmeasures a person's need for control or their rebellion against control, and\nit is part of a commonly used mental health test called the Minnesota\nMultiphasic Personality Inventory (MMPI) test.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>prison\n</code></pre>\n<h3>Format</h3>\n<p>A data frame with 14 observations on the following 6 variables.\n</p>\n<dl>\n<dt>pre_trt1</dt><dd><p>Pre-treatment 1.</p>\n</dd>\n<dt>post_trt1</dt><dd><p>Post-treatment 1.</p>\n</dd>\n<dt>pre_trt2</dt><dd><p>Pre-treatment 2.</p>\n</dd>\n<dt>post_trt2</dt><dd><p>Post-treatment 2.</p>\n</dd>\n<dt>pre_trt3</dt><dd><p>Pre-treatment 3.</p>\n</dd>\n<dt>post_trt3</dt><dd><p>Post-treatment 3.</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p><a href=\"https://stat.duke.edu/datasets/prison-isolation\">https://stat.duke.edu/datasets/prison-isolation</a>\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>\nprison\n</code></pre>\n</main>\n</div>\n",
+   "config" : {
+      "graphType" : "Heatmap",
+      "title" : "Prison isolation experiment",
+      "subtitle" : "openintro - prison"
+   },
    "data" : {
       "y" : {
          "data" : [
@@ -100,14 +104,6 @@
                81
             ]
          ],
-         "vars" : [
-            "pre_trt1",
-            "post_trt1",
-            "pre_trt2",
-            "post_trt2",
-            "pre_trt3",
-            "post_trt3"
-         ],
          "smps" : [
             "Smp1",
             "Smp2",
@@ -123,12 +119,16 @@
             "Smp12",
             "Smp13",
             "Smp14"
+         ],
+         "vars" : [
+            "pre_trt1",
+            "post_trt1",
+            "pre_trt2",
+            "post_trt2",
+            "pre_trt3",
+            "post_trt3"
          ]
       }
    },
-   "config" : {
-      "graphType" : "Heatmap",
-      "title" : "Prison isolation experiment",
-      "subtitle" : "openintro - prison"
-   }
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>prison</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Prison isolation experiment</h2>\n<h3>Description</h3>\n<p>Subjects from Central Prison in Raleigh, NC, volunteered for an experiment\ninvolving an &quot;isolation&quot; experience. The goal of the experiment was to find\na treatment that reduces subjects' psychopathic deviant T scores. This score\nmeasures a person's need for control or their rebellion against control, and\nit is part of a commonly used mental health test called the Minnesota\nMultiphasic Personality Inventory (MMPI) test.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>prison\n</code></pre>\n<h3>Format</h3>\n<p>A data frame with 14 observations on the following 6 variables.\n</p>\n<dl>\n<dt>pre_trt1</dt><dd><p>Pre-treatment 1.</p>\n</dd>\n<dt>post_trt1</dt><dd><p>Post-treatment 1.</p>\n</dd>\n<dt>pre_trt2</dt><dd><p>Pre-treatment 2.</p>\n</dd>\n<dt>post_trt2</dt><dd><p>Post-treatment 2.</p>\n</dd>\n<dt>pre_trt3</dt><dd><p>Pre-treatment 3.</p>\n</dd>\n<dt>post_trt3</dt><dd><p>Post-treatment 3.</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p><a href=\"https://stat.duke.edu/datasets/prison-isolation\">https://stat.duke.edu/datasets/prison-isolation</a>\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>\nprison\n</code></pre>\n</main>\n</div>\n"
 }

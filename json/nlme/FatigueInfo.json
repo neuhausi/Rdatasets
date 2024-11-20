@@ -1,0 +1,11 @@
+{
+   "title" : "Cracks caused by metal fatigue",
+   "description" : "Description\nThe Fatigue data frame has 262 rows and 3 columns.",
+   "usage" : "This data frame contains the following columns:",
+   "reference" : "These data are given in Lu and Meeker (1993) where they state\n&ldquo;We obtained the data in Table 1 visually from figure 4.5.2 on page 242\nof Bogdanoff and Kozin (1985).&rdquo;\nThe data represent the growth of cracks in metal for 21 test units.\nAn initial notch of length 0.90 inches was made on each unit which then\nwas subjected to several thousand test cycles.  After every 10,000\ntest cycles the crack length was measured.  Testing was stopped if the\ncrack length exceeded 1.60 inches, defined as a failure, or at 120,000\ncycles.",
+   "parameters" : {
+      "Path" : "an ordered factor with levels\n1 < 2 < 3 < 4 < 5 <\n6 < 7 < 8 < 9 < 10 <\n11 < 12 < 13 < 14 < 15 <\n16 < 17 < 18 < 19 < 20 <\n21 giving the test path (or test unit) number.  The\norder is in terms of increasing failure time or decreasing\nterminal crack length.",
+      "cycles" : "number of test cycles at which the measurement is made\n(millions of cycles).",
+      "relLength" : "relative crack length (dimensionless)."
+   }
+}

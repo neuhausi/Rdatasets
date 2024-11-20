@@ -1,23 +1,23 @@
 var PSID1982Info ={
-   "description" : "Description\nCross-section data originating from the Panel Study on Income Dynamics, 1982.",
-   "usage" : "data(\"PSID1982\")",
-   "parameters" : {
-      "smsa" : "factor. Does the individual reside in a SMSA (standard metropolitan statistical area)?",
-      "south" : "factor. Does the individual reside in the South?",
-      "ethnicity" : "factor indicating ethnicity.\nIs the individual African-American (\"afam\") or not (\"other\")?",
-      "married" : "factor. Is the individual married?",
-      "union" : "factor. Is the individual's wage set by a union contract?",
-      "weeks" : "Weeks worked.",
-      "occupation" : "factor. Is the individual a white-collar (\"white\") or blue-collar (\"blue\") worker?",
-      "education" : "Years of education.",
-      "wage" : "Wage.",
-      "experience" : "Years of full-time work experience.",
-      "industry" : "factor. Does the individual work in a manufacturing industry?",
-      "gender" : "factor indicating gender."
-   },
    "format" : "A data frame containing 595 observations on 12 variables.",
+   "parameters" : {
+      "married" : "factor. Is the individual married?",
+      "experience" : "Years of full-time work experience.",
+      "ethnicity" : "factor indicating ethnicity.\nIs the individual African-American (\"afam\") or not (\"other\")?",
+      "industry" : "factor. Does the individual work in a manufacturing industry?",
+      "union" : "factor. Is the individual's wage set by a union contract?",
+      "occupation" : "factor. Is the individual a white-collar (\"white\") or blue-collar (\"blue\") worker?",
+      "gender" : "factor indicating gender.",
+      "smsa" : "factor. Does the individual reside in a SMSA (standard metropolitan statistical area)?",
+      "education" : "Years of education.",
+      "south" : "factor. Does the individual reside in the South?",
+      "weeks" : "Weeks worked.",
+      "wage" : "Wage."
+   },
+   "usage" : "data(\"PSID1982\")",
+   "reference" : "PSID1982 is the cross-section for the year 1982 taken from a larger panel data set\nPSID7682 for the years 1976&ndash;1982, originating from Cornwell and Rupert (1988).\nBaltagi (2002) just uses the 1982 cross-section; hence PSID1982 is available as a\nstandalone data set because it was included in AER prior to the availability of the\nfull PSID7682 panel version.",
    "title" : "PSID Earnings Data 1982",
-   "reference" : "PSID1982 is the cross-section for the year 1982 taken from a larger panel data set\nPSID7682 for the years 1976&ndash;1982, originating from Cornwell and Rupert (1988).\nBaltagi (2002) just uses the 1982 cross-section; hence PSID1982 is available as a\nstandalone data set because it was included in AER prior to the availability of the\nfull PSID7682 panel version."
+   "description" : "Description\nCross-section data originating from the Panel Study on Income Dynamics, 1982."
 }
 
 var PSID1982 = [

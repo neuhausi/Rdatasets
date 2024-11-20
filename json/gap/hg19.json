@@ -1,32 +1,6 @@
 {
    "data" : {
       "y" : {
-         "smps" : [
-            "Smp1",
-            "Smp2",
-            "Smp3",
-            "Smp4",
-            "Smp5",
-            "Smp6",
-            "Smp7",
-            "Smp8",
-            "Smp9",
-            "Smp10",
-            "Smp11",
-            "Smp12",
-            "Smp13",
-            "Smp14",
-            "Smp15",
-            "Smp16",
-            "Smp17",
-            "Smp18",
-            "Smp19",
-            "Smp20",
-            "Smp21",
-            "Smp22",
-            "Smp23",
-            "Smp24"
-         ],
          "vars" : [
             "dat"
          ],
@@ -57,13 +31,39 @@
                155270560,
                59373566
             ]
+         ],
+         "smps" : [
+            "Smp1",
+            "Smp2",
+            "Smp3",
+            "Smp4",
+            "Smp5",
+            "Smp6",
+            "Smp7",
+            "Smp8",
+            "Smp9",
+            "Smp10",
+            "Smp11",
+            "Smp12",
+            "Smp13",
+            "Smp14",
+            "Smp15",
+            "Smp16",
+            "Smp17",
+            "Smp18",
+            "Smp19",
+            "Smp20",
+            "Smp21",
+            "Smp22",
+            "Smp23",
+            "Smp24"
          ]
       }
    },
    "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>hg19</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Chromosomal lengths for build 37</h2>\n<h3>Description</h3>\n<p>Data are used in other functions.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>hg19\n</code></pre>\n<h3>Format</h3>\n<p>A vector containing lengths of chromosomes.\n</p>\n</main>\n</div>\n",
    "config" : {
       "graphType" : "Treemap",
-      "title" : "Chromosomal lengths for build 37",
-      "subtitle" : "gap - hg19"
+      "subtitle" : "gap - hg19",
+      "title" : "Chromosomal lengths for build 37"
    }
 }

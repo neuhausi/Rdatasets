@@ -1,19 +1,19 @@
 var vince111bInfo ={
+   "parameters" : {
+      "site" : "a factor with levels \nAGSV CASV CPSV\nLPSV MPSV OOSV OTSV SSSV UISV",
+      "id" : "a numeric vector",
+      "parcel" : "a factor with levels I II III IV",
+      "plot" : "a numeric vector",
+      "trt" : "a numeric vector",
+      "island" : "a numeric vector",
+      "harvwt" : "a numeric vector",
+      "code" : "a numeric vector"
+   },
    "usage" : "vince111b",
+   "reference" : "Andrews DF; Herzberg AM, 1985. Data. A Collection of Problems from\nMany Fields for the Student and Research Worker. Springer-Verlag.\n(pp. 339-353)",
    "description" : "Description\nThese data frames have averages by blocks (parcels) for the treatment\n111.",
    "title" : "Averages by block of corn yields, for treatment 111 only",
-   "format" : "A data frame with 36 observations on 8 variables.",
-   "reference" : "Andrews DF; Herzberg AM, 1985. Data. A Collection of Problems from\nMany Fields for the Student and Research Worker. Springer-Verlag.\n(pp. 339-353)",
-   "parameters" : {
-      "parcel" : "a factor with levels I II III IV",
-      "site" : "a factor with levels \nAGSV CASV CPSV\nLPSV MPSV OOSV OTSV SSSV UISV",
-      "code" : "a numeric vector",
-      "island" : "a numeric vector",
-      "plot" : "a numeric vector",
-      "id" : "a numeric vector",
-      "harvwt" : "a numeric vector",
-      "trt" : "a numeric vector"
-   }
+   "format" : "A data frame with 36 observations on 8 variables."
 }
 
 var vince111b = [

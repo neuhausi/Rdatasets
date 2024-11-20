@@ -1,13 +1,13 @@
 var MetroCommutesInfo ={
+   "parameters" : {
+      "Time" : "Time of commute (in minutes)",
+      "Distance" : "Distance of commute (in miles)",
+      "City" : "Boston, Houston, Minneapolis, or Washington"
+   },
    "usage" : "A data frame with 2000 observations on the following 3 variables.",
    "reference" : "The data are distances (miles) and times (minutes) of daily commute (one-way) for random samples of 500 commuters in each of four cities (Boston, Houston, Minneapolis, Washington) in 2007.  The random samples were taken from the Metropolitan Public Use File of the 2007 American Housing Survey",
-   "title" : "Commute Times",
-   "parameters" : {
-      "Distance" : "Distance of commute (in miles)",
-      "City" : "Boston, Houston, Minneapolis, or Washington",
-      "Time" : "Time of commute (in minutes)"
-   },
-   "description" : "Description\nCommute times for four cities"
+   "description" : "Description\nCommute times for four cities",
+   "title" : "Commute Times"
 }
 
 var MetroCommutes = [

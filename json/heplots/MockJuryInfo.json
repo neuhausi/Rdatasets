@@ -1,0 +1,25 @@
+{
+   "reference" : "Then the participants were told that the person in the photo had committed a\nCrime, and asked to rate the seriousness of the crime and recommend a prison\nsentence, in Years.",
+   "usage" : "A data frame with 114 observations on the following 17 variables.",
+   "description" : "Description\nMale participants were shown a picture of one of three young women.  Pilot\nwork had indicated that the one woman was beautiful, another of average\nphysical attractiveness, and the third unattractive.  Participants rated the\nwoman they saw on each of twelve attributes.  These measures were used to\ncheck on the manipulation by the photo.",
+   "title" : "Effects Of Physical Attractiveness Upon Mock Jury Decisions",
+   "parameters" : {
+      "Crime" : "Type of crime, a factor with levels Burglary (theft of items from victim's room) Swindle (conned a male victim)",
+      "Serious" : "a rating of how serious the subject thought the defendant's crime was",
+      "independent" : "rating of the photo for 'independent'",
+      "Years" : "length of sentence given the defendant by the mock juror subject",
+      "ownPA" : "self-rating of the subject for 'physical attractiveness'",
+      "happy" : "rating of the photo for 'happy'",
+      "intelligent" : "rating of the photo for 'intelligent'",
+      "Attr" : "Attractiveness of the photo, a factor with levels Beautiful Average Unattractive",
+      "phyattr" : "rating of the photo for 'physical attractiveness'",
+      "exciting" : "rating of the photo for 'exciting'",
+      "sincere" : "rating of the photo for 'sincere'",
+      "calm" : "rating of the photo for 'calm'",
+      "kind" : "rating of the photo for 'kind'",
+      "sociable" : "rating of the photo for 'exciting'",
+      "sophisticated" : "rating of the photo for 'sophisticated'",
+      "strong" : "rating of the photo for 'strong'",
+      "warm" : "rating of the photo for 'warm'"
+   }
+}

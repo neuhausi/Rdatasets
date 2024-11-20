@@ -1,7 +1,7 @@
 var BritishUnionsInfo ={
-   "title" : "Attitudes Towards British Trade Unions",
    "usage" : "A data frame with 17 observations on the following 7 variables.",
-   "description" : "Description\nPoll attitudes towards British trade unions"
+   "description" : "Description\nPoll attitudes towards British trade unions",
+   "title" : "Attitudes Towards British Trade Unions"
 }
 
 var BritishUnions = [

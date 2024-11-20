@@ -1,6 +1,39 @@
 {
    "data" : {
+      "x" : {
+         "Antibiotic" : [
+            "No",
+            "No",
+            "No",
+            "Yes",
+            "Yes",
+            "Yes",
+            "No",
+            "No",
+            "No",
+            "Yes",
+            "Yes",
+            "Yes"
+         ],
+         "B12" : [
+            "No",
+            "No",
+            "No",
+            "No",
+            "No",
+            "No",
+            "Yes",
+            "Yes",
+            "Yes",
+            "Yes",
+            "Yes",
+            "Yes"
+         ]
+      },
       "y" : {
+         "vars" : [
+            "WgtGain"
+         ],
          "smps" : [
             "Smp1",
             "Smp2",
@@ -14,9 +47,6 @@
             "Smp10",
             "Smp11",
             "Smp12"
-         ],
-         "vars" : [
-            "WgtGain"
          ],
          "data" : [
             [
@@ -34,49 +64,19 @@
                54
             ]
          ]
-      },
-      "x" : {
-         "B12" : [
-            "No",
-            "No",
-            "No",
-            "No",
-            "No",
-            "No",
-            "Yes",
-            "Yes",
-            "Yes",
-            "Yes",
-            "Yes",
-            "Yes"
-         ],
-         "Antibiotic" : [
-            "No",
-            "No",
-            "No",
-            "Yes",
-            "Yes",
-            "Yes",
-            "No",
-            "No",
-            "No",
-            "Yes",
-            "Yes",
-            "Yes"
-         ]
       }
    },
    "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>PigFeed</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Additives in Pig Feed</h2>\n<h3>Description</h3>\n<p>Effects of additives to pig feed on weight gain\n</p>\n<h3>Format</h3>\n<p>A dataset with 12 observations on the following 3 variables.\n</p>\n<table>\n<tr>\n <td style=\"text-align: right;\">\n    <code>WgtGain</code> </td><td style=\"text-align: left;\"> Daily weight gain (hundredths of a pound over 1.00)</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Antibiotic</code> </td><td style=\"text-align: left;\"> Antibiotic in the feed? <code>No</code> or <code>Yes</code></td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>B12</code> </td><td style=\"text-align: left;\"> Vitamin B12 in the feed? <code>No</code> or <code>Yes</code></td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n  </td>\n</tr>\n</table>\n<h3>Details</h3>\n<p>A scientist in Iowa was interested in additives to standard pig chow that might increase the rate at\nwhich the pigs gained weight.  Two factors of interest were vitamin B12 and antibiotics.\nTo perform the experiment, the scientist randomly assigned 12 pigs, three\nto each of the diet combinations (Antibiotic only, B12 only, both, and neither).\n</p>\n<h3>Source</h3>\n<p>Data are found in Statistical Methods by George W. Snedecor and William G. Cochran (1967). Ames, IA:\nThe Iowa State University Press.\n</p>\n<h3>References</h3>\n<p>Original source is Iowa Agricultural Experiment Station (1952). Animal Husbandry Swine Nutrition Experiment\nNo. 577.\n</p>\n</main>\n</div>\n",
    "config" : {
-      "groupingFactors" : [
-         "B12"
-      ],
       "colorBy" : "variable",
       "graphType" : "Boxplot",
-      "subtitle" : "Stat2Data - PigFeed",
-      "segregateSamplesBy" : [
+      "groupingFactors" : [
          "Antibiotic"
       ],
-      "title" : "Additives in Pig Feed"
+      "subtitle" : "Stat2Data - PigFeed",
+      "title" : "Additives in Pig Feed",
+      "segregateSamplesBy" : [
+         "B12"
+      ]
    }
 }

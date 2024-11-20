@@ -1,0 +1,28 @@
+{
+   "reference" : "number of observations : 1026",
+   "usage" : "A dataframe containing :",
+   "title" : "Production of Rice in Indonesia",
+   "description" : "Description\na panel of 171 observations",
+   "parameters" : {
+      "phosphate" : "phosphate in kilogram",
+      "status" : "land status, on of 'owner' (non sharecroppers,\nowner operators or leaseholders or both), 'share'\n(sharecroppers), 'mixed' (mixed of the two previous status)",
+      "famlabor" : "family labor in hours",
+      "purea" : "price of urea in Rupiah per kg",
+      "bimas" : "bIMAS is an intensification program; one of\n'no' (non-bimas farmer), 'yes' (bimas farmer) or\n'mixed' (part but not all of farmer's land was registered to\nbe in the bimas program)",
+      "noutput" : "net output, gross output minus harvesting cost (paid\nin terms of rice)",
+      "totlabor" : "total labor (excluding harvest labor)",
+      "urea" : "urea in kilogram",
+      "pphosph" : "price of phosphate in Rupiah per kg",
+      "size" : "the total area cultivated with rice, measured in hectares",
+      "seed" : "seed in kilogram",
+      "pesticide" : "pesticide cost in Rupiah",
+      "pseed" : "price of seed in Rupiah per kg",
+      "region" : "one of 'wargabinangun', 'langan',\n'gunungwangi', 'malausma', 'sukaambit',\n'ciwangi'",
+      "hiredlabor" : "hired labor in hours",
+      "id" : "the farm identifier",
+      "wage" : "labor wage in Rupiah per hour",
+      "price" : "price of rough rice in Rupiah per kg",
+      "goutput" : "gross output of rice in kg",
+      "varieties" : "one of 'trad' (traditional varieties),\n'high' (high yielding varieties) and 'mixed' (mixed\nvarieties)"
+   }
+}

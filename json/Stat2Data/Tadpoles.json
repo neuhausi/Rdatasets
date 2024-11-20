@@ -1,11 +1,4 @@
 {
-   "config" : {
-      "graphType" : "Scatter3D",
-      "title" : "Effects of a Fungus on Tadpoles",
-      "colorBy" : "Treatment",
-      "subtitle" : "Stat2Data - Tadpoles"
-   },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>Tadpoles</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Effects of a Fungus on Tadpoles</h2>\n<h3>Description</h3>\n<p>Comparing intestine lengths for tadpoles with and without exposure to Bd fugus\n</p>\n<h3>Format</h3>\n<p>A data frame with 27 observations on the following 4 variables.\n</p>\n<dl>\n<dt><code>Treatment</code></dt><dd><p>Exposed to fungus (<code>Bd</code>=yes or <code>Control</code>=no)</p>\n</dd>\n<dt><code>Body</code></dt><dd><p>Length of body  (in mm)</p>\n</dd>\n<dt><code>GutLength</code></dt><dd><p>Length of intestine (in mm)</p>\n</dd>\n<dt><code>MouthpartDamage</code></dt><dd><p>Measure of damage to the mouth (e.g. missing teeth) </p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>Biologists wondered whether tadpoles can adjust the relative length of their intestines if they are exposed to a fungus called Batrachochytrium dendrobatidis (Bd).\n</p>\n<h3>Source</h3>\n<p>Venesky MD, Hanlon SM, Lynch K, Parris MJ, Rohr JR. (2013) &quot;Optimal digestion theory does not predict the effect of pathogens on intestinal plasticity,&quot; Biol Lett 9: 20130038.\nhttp://dx.doi.org/10.1098/rsbl.2013.0038\n</p>\n</main>\n</div>\n",
    "data" : {
       "z" : {
          "Treatment" : [
@@ -39,6 +32,11 @@
          ]
       },
       "y" : {
+         "smps" : [
+            "Body",
+            "GutLength",
+            "MouthpartDamage"
+         ],
          "data" : [
             [
                20.28,
@@ -204,12 +202,14 @@
             "Var25",
             "Var26",
             "Var27"
-         ],
-         "smps" : [
-            "Body",
-            "GutLength",
-            "MouthpartDamage"
          ]
       }
+   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>Tadpoles</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Effects of a Fungus on Tadpoles</h2>\n<h3>Description</h3>\n<p>Comparing intestine lengths for tadpoles with and without exposure to Bd fugus\n</p>\n<h3>Format</h3>\n<p>A data frame with 27 observations on the following 4 variables.\n</p>\n<dl>\n<dt><code>Treatment</code></dt><dd><p>Exposed to fungus (<code>Bd</code>=yes or <code>Control</code>=no)</p>\n</dd>\n<dt><code>Body</code></dt><dd><p>Length of body  (in mm)</p>\n</dd>\n<dt><code>GutLength</code></dt><dd><p>Length of intestine (in mm)</p>\n</dd>\n<dt><code>MouthpartDamage</code></dt><dd><p>Measure of damage to the mouth (e.g. missing teeth) </p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>Biologists wondered whether tadpoles can adjust the relative length of their intestines if they are exposed to a fungus called Batrachochytrium dendrobatidis (Bd).\n</p>\n<h3>Source</h3>\n<p>Venesky MD, Hanlon SM, Lynch K, Parris MJ, Rohr JR. (2013) &quot;Optimal digestion theory does not predict the effect of pathogens on intestinal plasticity,&quot; Biol Lett 9: 20130038.\nhttp://dx.doi.org/10.1098/rsbl.2013.0038\n</p>\n</main>\n</div>\n",
+   "config" : {
+      "graphType" : "Scatter3D",
+      "colorBy" : "Treatment",
+      "title" : "Effects of a Fungus on Tadpoles",
+      "subtitle" : "Stat2Data - Tadpoles"
    }
 }

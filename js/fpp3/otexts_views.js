@@ -1,8 +1,8 @@
 var otexts_viewsInfo ={
-   "usage" : "Time series of class 'tsibble'",
-   "format" : "otexts_views contains daily data with two columns:",
    "title" : "OTexts page views",
-   "description" : "Description\nDaily page views on the OTexts website https://OTexts.com/ as recorded by Google analytics."
+   "description" : "Description\nDaily page views on the OTexts website https://OTexts.com/ as recorded by Google analytics.",
+   "usage" : "Time series of class 'tsibble'",
+   "format" : "otexts_views contains daily data with two columns:"
 }
 
 var otexts_views = [

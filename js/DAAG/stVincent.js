@@ -1,19 +1,19 @@
 var stVincentInfo ={
    "usage" : "stVincent",
-   "description" : "Description\nThese data frames have yield averages by blocks (parcels).",
-   "title" : "Averages by block of yields for the St. Vincent Corn data",
    "reference" : "Andrews DF; Herzberg AM, 1985. Data. A Collection of Problems from\nMany Fields for the Student and Research Worker. Springer-Verlag.\n(pp. 339-353)",
-   "format" : "A data frame with 324 observations on 8 variables.",
+   "title" : "Averages by block of yields for the St. Vincent Corn data",
+   "description" : "Description\nThese data frames have yield averages by blocks (parcels).",
    "parameters" : {
-      "harvwt" : "a numeric vector; the average yield",
+      "site" : "a factor with 8 levels.",
+      "id" : "a numeric vector",
+      "plot" : "a numeric vector",
+      "block" : "a factor with levels I II III IV",
       "trt" : "a factor consisting of 12 levels",
       "island" : "a numeric vector",
-      "plot" : "a numeric vector",
-      "id" : "a numeric vector",
-      "site" : "a factor with 8 levels.",
-      "code" : "a numeric vector",
-      "block" : "a factor with levels I II III IV"
-   }
+      "harvwt" : "a numeric vector; the average yield",
+      "code" : "a numeric vector"
+   },
+   "format" : "A data frame with 324 observations on 8 variables."
 }
 
 var stVincent = [

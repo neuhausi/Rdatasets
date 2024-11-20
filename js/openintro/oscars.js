@@ -1,22 +1,22 @@
 var oscarsInfo ={
-   "format" : "A data frame with 182 observations on the following 10 variables.",
-   "reference" : "Although there have been only 84 Oscar ceremonies until 2012, there are 85\nmale winners and 85 female winners because ties happened on two occasions\n(1933 for the best actor and 1969 for the best actress).",
-   "title" : "Oscar winners, 1929 to 2018",
    "parameters" : {
-      "oscar_yr" : "Year the Oscar ceremony was held.",
-      "movie" : "Name of movie actor or actress got the Oscar for.",
-      "birth_pl" : "US State where the actor or actress was born, country if foreign.",
       "name" : "Name of winning actor or actress.",
-      "oscar_no" : "Oscar ceremony number.",
       "award" : "Best actress or Best actor.",
-      "birth_d" : "Birth day of actor or actress.",
-      "birth_mo" : "Birth month of actor or actress.",
-      "age" : "Age at which the actor or actress won the Oscar.",
       "birth_y" : "Birth year of actor or actress.",
-      "birth_date" : "Birth date of actor or actress."
+      "birth_pl" : "US State where the actor or actress was born, country if foreign.",
+      "oscar_yr" : "Year the Oscar ceremony was held.",
+      "oscar_no" : "Oscar ceremony number.",
+      "birth_date" : "Birth date of actor or actress.",
+      "movie" : "Name of movie actor or actress got the Oscar for.",
+      "age" : "Age at which the actor or actress won the Oscar.",
+      "birth_d" : "Birth day of actor or actress.",
+      "birth_mo" : "Birth month of actor or actress."
    },
+   "title" : "Oscar winners, 1929 to 2018",
+   "description" : "Description\nBest actor and actress Oscar winners from 1929 to 2018",
+   "reference" : "Although there have been only 84 Oscar ceremonies until 2012, there are 85\nmale winners and 85 female winners because ties happened on two occasions\n(1933 for the best actor and 1969 for the best actress).",
    "usage" : "oscars",
-   "description" : "Description\nBest actor and actress Oscar winners from 1929 to 2018"
+   "format" : "A data frame with 182 observations on the following 10 variables."
 }
 
 var oscars = [

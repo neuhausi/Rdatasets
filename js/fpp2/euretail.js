@@ -1,8 +1,8 @@
 var euretailInfo ={
-   "usage" : "Quarterly time series of class ts.",
    "format" : "Eurostat.",
-   "title" : "Quarterly retail trade: Euro area.",
-   "description" : "Description\nQuarterly retail trade index in the Euro area (17 countries), 1996-2011,\ncovering wholesale and retail trade, and repair of motor vehicles and\nmotorcycles. (Index: 2005 = 100)."
+   "usage" : "Quarterly time series of class ts.",
+   "description" : "Description\nQuarterly retail trade index in the Euro area (17 countries), 1996-2011,\ncovering wholesale and retail trade, and repair of motor vehicles and\nmotorcycles. (Index: 2005 = 100).",
+   "title" : "Quarterly retail trade: Euro area."
 }
 
 var euretail = [

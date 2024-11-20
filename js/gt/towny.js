@@ -1,21 +1,21 @@
 var townyInfo ={
-   "parameters" : {
-      "land_area_km2" : "The total area of the local municipality in square\nkilometers.",
-      "density_1996, density_2001, density_2006, density_2011, density_2016,\ndensity_2021" : "Population density values, calculated as persons per square kilometer, for\neach municipality from the 1996 to 2021 census years.",
-      "name" : "The name of the municipality.",
-      "population_1996, population_2001, population_2006, population_2011,\npopulation_2016, population_2021" : "Population values for each municipality from the 1996 to 2021 census years.",
-      "census_div" : "The Census division, of which there are 49. This is made up\nof single-tier municipalities, regional municipalities, counties, and\ndistricts.",
-      "pop_change_1996_2001_pct, pop_change_2001_2006_pct,\npop_change_2006_2011_pct, pop_change_2011_2016_pct,\npop_change_2016_2021_pct" : "Population changes between adjacent pairs of census years, from 1996 to\n2021.",
-      "csd_type" : "The Census Subdivision Type. This can be one of \"village\",\n\"town\", \"township\", \"municipality\", or \"city\".",
-      "status" : "The status of the municipality. This is either \"lower-tier\"\nor \"single-tier\". A single-tier municipality, which takes on all municipal\nduties outlined in the Municipal Act and other Provincial laws, is\nindependent of an upper-tier municipality. Part of an upper-tier municipality\nis a lower-tier municipality. The upper-tier and lower-tier municipalities\nare responsible for carrying out the duties laid out in the Municipal Act and\nother provincial laws.",
-      "latitude, longitude" : "The location of the municipality, given as\nlatitude and longitude values in decimal degrees.",
-      "website" : "The website for the municipality. This is NA if there isn't\nan official site."
-   },
    "format" : "A tibble with 414 rows and 25 variables:",
-   "title" : "Populations of all municipalities in Ontario from 1996 to 2021",
+   "usage" : "towny",
    "reference" : "Here is a glimpse at the data available in towny.",
+   "title" : "Populations of all municipalities in Ontario from 1996 to 2021",
    "description" : "Description\nA dataset containing census population data from six census years (1996 to\n2021) for all 414 of Ontario's local municipalities. The Municipal Act of\nOntario (2001) defines a local municipality as \"a single-tier municipality or\na lower-tier municipality\". There are 173 single-tier municipalities and 241\nlower-tier municipalities representing 99 percent of Ontario's population\nand 17 percent of its land use.\nIn the towny dataset we include information specific to each municipality\nsuch as location (in the latitude and longitude columns), their website\nURLs, their classifications, and land area sizes according to 2021\nboundaries. Additionally, there are computed columns containing population\ndensity values for each census year and population change values from\nadjacent census years.",
-   "usage" : "towny"
+   "parameters" : {
+      "population_1996, population_2001, population_2006, population_2011,\npopulation_2016, population_2021" : "Population values for each municipality from the 1996 to 2021 census years.",
+      "status" : "The status of the municipality. This is either \"lower-tier\"\nor \"single-tier\". A single-tier municipality, which takes on all municipal\nduties outlined in the Municipal Act and other Provincial laws, is\nindependent of an upper-tier municipality. Part of an upper-tier municipality\nis a lower-tier municipality. The upper-tier and lower-tier municipalities\nare responsible for carrying out the duties laid out in the Municipal Act and\nother provincial laws.",
+      "census_div" : "The Census division, of which there are 49. This is made up\nof single-tier municipalities, regional municipalities, counties, and\ndistricts.",
+      "website" : "The website for the municipality. This is NA if there isn't\nan official site.",
+      "density_1996, density_2001, density_2006, density_2011, density_2016,\ndensity_2021" : "Population density values, calculated as persons per square kilometer, for\neach municipality from the 1996 to 2021 census years.",
+      "pop_change_1996_2001_pct, pop_change_2001_2006_pct,\npop_change_2006_2011_pct, pop_change_2011_2016_pct,\npop_change_2016_2021_pct" : "Population changes between adjacent pairs of census years, from 1996 to\n2021.",
+      "land_area_km2" : "The total area of the local municipality in square\nkilometers.",
+      "latitude, longitude" : "The location of the municipality, given as\nlatitude and longitude values in decimal degrees.",
+      "csd_type" : "The Census Subdivision Type. This can be one of \"village\",\n\"town\", \"township\", \"municipality\", or \"city\".",
+      "name" : "The name of the municipality."
+   }
 }
 
 var towny = [

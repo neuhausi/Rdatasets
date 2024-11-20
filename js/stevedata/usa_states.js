@@ -1,14 +1,14 @@
 var usa_statesInfo ={
-   "description" : "Description\nA simple data set from state.abb, state.name, state.region, and\nstate.division (+ District of Columbia). I'd rather just have all these\nin one place.",
    "parameters" : {
-      "region" : "the state's Census region",
       "division" : "the state's Census division",
       "stateabb" : "the state abbreviation",
-      "statename" : "the state's name"
+      "statename" : "the state's name",
+      "region" : "the state's Census region"
    },
    "title" : "State Abbreviations, Names, and Regions/Divisions",
-   "format" : "A data frame with 51 observations on the following 4 variables.",
-   "usage" : "usa_states"
+   "description" : "Description\nA simple data set from state.abb, state.name, state.region, and\nstate.division (+ District of Columbia). I'd rather just have all these\nin one place.",
+   "usage" : "usa_states",
+   "format" : "A data frame with 51 observations on the following 4 variables."
 }
 
 var usa_states = [

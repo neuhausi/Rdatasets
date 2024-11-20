@@ -1,17 +1,17 @@
 var MathAchSchoolInfo ={
-   "parameters" : {
-      "School" : "a factor giving the school on which the measurement is made.",
-      "Sector" : "a factor with levels\nPublic \nCatholic",
-      "HIMINTY" : "a factor with levels\n0 \n1",
-      "Size" : "a numeric vector giving the number of students in the school",
-      "MEANSES" : "a numeric vector giving the mean SES score.",
-      "PRACAD" : "a numeric vector giving the percentage of students on the\nacademic track",
-      "DISCLIM" : "a numeric vector measuring the discrimination climate"
-   },
-   "description" : "Description\nThe MathAchSchool data frame has 160 rows and 7 columns.",
    "title" : "School demographic data for MathAchieve",
+   "description" : "Description\nThe MathAchSchool data frame has 160 rows and 7 columns.",
    "reference" : "These variables give the school-level demographic data to accompany\nthe MathAchieve data.",
-   "usage" : "This data frame contains the following columns:"
+   "usage" : "This data frame contains the following columns:",
+   "parameters" : {
+      "Sector" : "a factor with levels\nPublic \nCatholic",
+      "PRACAD" : "a numeric vector giving the percentage of students on the\nacademic track",
+      "School" : "a factor giving the school on which the measurement is made.",
+      "Size" : "a numeric vector giving the number of students in the school",
+      "DISCLIM" : "a numeric vector measuring the discrimination climate",
+      "MEANSES" : "a numeric vector giving the mean SES score.",
+      "HIMINTY" : "a factor with levels\n0 \n1"
+   }
 }
 
 var MathAchSchool = [

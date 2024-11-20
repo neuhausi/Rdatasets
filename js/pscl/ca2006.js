@@ -1,24 +1,24 @@
 var ca2006Info ={
-   "usage" : "data(ca2006)",
-   "description" : "Description\nElection returns and identifying information, California's 53\ncongressional districts in the 2006 Congressional elections.",
-   "title" : "California Congressional Districts in 2006",
-   "format" : "A data frame with 53 observations on the following 11 variables.",
-   "reference" : "2006 data from the California Secretary of State's web site,\nhttps://www.sos.ca.gov/elections/prior-elections/statewide-election-results/general-election-november-7-2006/statement-vote. \n\n2004 and 2000 presidential vote in congressional districts from the 2006 Almanac of American Politics.",
    "parameters" : {
-      "district" : "numeric, number of Congressional district",
-      "IncName" : "character, last name of the incumbent, character\nNA if no incumbent running",
-      "open" : "logical, TRUE if no incumbent running",
       "contested" : "logical, TRUE if both major parties\nran candidates",
       "IncParty" : "character, party of the incumbent (or retiring member),\nD or R",
+      "open" : "logical, TRUE if no incumbent running",
+      "Bush2004" : "numeric, votes for George W. Bush (R) in the district in\nthe 2004 presidential election",
+      "Other" : "numeric, votes for other candidates",
+      "IncName" : "character, last name of the incumbent, character\nNA if no incumbent running",
+      "Bush2000" : "numeric, votes for George W. Bush in 2000",
       "D" : "numeric, number of votes for the Democratic candidate",
+      "R" : "numeric, votes for the Republican candidate",
       "Gore2000" : "numeric, votes for Al Gore (D) in 2000",
       "Other2004" : "numeric votes for other candidates in 2004",
-      "Bush2000" : "numeric, votes for George W. Bush in 2000",
       "Kerry2004" : "numeric, votes for John Kerry (D) in 2004",
-      "R" : "numeric, votes for the Republican candidate",
-      "Bush2004" : "numeric, votes for George W. Bush (R) in the district in\nthe 2004 presidential election",
-      "Other" : "numeric, votes for other candidates"
-   }
+      "district" : "numeric, number of Congressional district"
+   },
+   "description" : "Description\nElection returns and identifying information, California's 53\ncongressional districts in the 2006 Congressional elections.",
+   "title" : "California Congressional Districts in 2006",
+   "reference" : "2006 data from the California Secretary of State's web site,\nhttps://www.sos.ca.gov/elections/prior-elections/statewide-election-results/general-election-november-7-2006/statement-vote. \n\n2004 and 2000 presidential vote in congressional districts from the 2006 Almanac of American Politics.",
+   "usage" : "data(ca2006)",
+   "format" : "A data frame with 53 observations on the following 11 variables."
 }
 
 var ca2006 = [

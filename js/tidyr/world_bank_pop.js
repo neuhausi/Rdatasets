@@ -1,13 +1,13 @@
 var world_bank_popInfo ={
-   "reference" : "Dataset from the World Bank data bank: https://data.worldbank.org",
-   "title" : "Population data from the World Bank",
    "format" : "A dataset with variables:",
    "parameters" : {
-      "2000-2018" : "Value for each year",
       "indicator" : "Indicator name: SP.POP.GROW = population growth,\nSP.POP.TOTL = total population, SP.URB.GROW = urban population\ngrowth, SP.URB.TOTL = total urban population",
+      "2000-2018" : "Value for each year",
       "country" : "Three letter country code"
    },
+   "reference" : "Dataset from the World Bank data bank: https://data.worldbank.org",
    "usage" : "world_bank_pop",
+   "title" : "Population data from the World Bank",
    "description" : "Description\nData about population from the World Bank."
 }
 

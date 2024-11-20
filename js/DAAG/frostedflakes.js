@@ -1,13 +1,13 @@
 var frostedflakesInfo ={
-   "title" : "Frosted Flakes data",
-   "format" : "This data frame contains the following columns:",
-   "reference" : "W. J. Braun",
    "parameters" : {
       "Lab" : "careful laboratory analysis measurements using\nhigh performance liquid chromatography",
       "IA400" : "measurements based on the infra-analyzer 400"
    },
    "usage" : "frostedflakes",
-   "description" : "Description\nThe frosted flakes data frame has 100 rows and 2 columns\ngiving the sugar concentration (in percent) for 25 g samples\nof a cereal as measured by 2 methods &ndash; high performance liquid\nchromatography (a slow accurate lab method) and a quick method\nusing the infra-analyzer 400."
+   "reference" : "W. J. Braun",
+   "title" : "Frosted Flakes data",
+   "description" : "Description\nThe frosted flakes data frame has 100 rows and 2 columns\ngiving the sugar concentration (in percent) for 25 g samples\nof a cereal as measured by 2 methods &ndash; high performance liquid\nchromatography (a slow accurate lab method) and a quick method\nusing the infra-analyzer 400.",
+   "format" : "This data frame contains the following columns:"
 }
 
 var frostedflakes = [

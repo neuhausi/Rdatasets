@@ -1,14 +1,14 @@
 var anorexiaInfo ={
+   "title" : "Anorexia Data on Weight Change",
    "description" : "Description\nThe anorexia data frame has 72 rows and 3 columns.\nWeight change data for young female anorexia patients.",
+   "reference" : "Hand, D. J., Daly, F., McConway, K., Lunn, D. and Ostrowski, E. eds (1993)\nA Handbook of Small Data Sets.\nChapman & Hall, Data set 285 (p. 229)",
    "usage" : "anorexia",
    "parameters" : {
-      "Treat" : "Factor of three levels: \"Cont\" (control), \"CBT\"\n(Cognitive Behavioural treatment) and  \"FT\" (family\ntreatment).",
       "Postwt" : "Weight of patient after study period, in lbs.",
+      "Treat" : "Factor of three levels: \"Cont\" (control), \"CBT\"\n(Cognitive Behavioural treatment) and  \"FT\" (family\ntreatment).",
       "Prewt" : "Weight of patient before study period, in lbs."
    },
-   "reference" : "Hand, D. J., Daly, F., McConway, K., Lunn, D. and Ostrowski, E. eds (1993)\nA Handbook of Small Data Sets.\nChapman & Hall, Data set 285 (p. 229)",
-   "format" : "This data frame contains the following columns:",
-   "title" : "Anorexia Data on Weight Change"
+   "format" : "This data frame contains the following columns:"
 }
 
 var anorexia = [

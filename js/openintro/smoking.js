@@ -1,23 +1,23 @@
 var smokingInfo ={
+   "parameters" : {
+      "gross_income" : "Gross income with levels Under 2,600,\n2,600 to 5,200, 5,200 to 10,400, 10,400 to 15,600,\n15,600 to 20,800, 20,800 to 28,600, 28,600 to 36,400,\nAbove 36,400, Refused and Unknown.",
+      "amt_weekends" : "Number of cigarettes smoked per day on weekends.",
+      "smoke" : "Smoking status with levels No and Yes",
+      "age" : "Age.",
+      "highest_qualification" : "Highest education level with levels\nA Levels, Degree, GCSE/CSE, GCSE/O Level,\nHigher/Sub Degree, No Qualification, ONC/BTEC and\nOther/Sub Degree",
+      "region" : "Region with levels London, Midlands & East Anglia,\nScotland, South East, South West, The North\nand Wales",
+      "amt_weekdays" : "Number of cigarettes smoked per day on weekdays.",
+      "gender" : "Gender with levels Female and Male.",
+      "type" : "Type of cigarettes smoked with levels Packets,\nHand-Rolled, Both/Mainly Packets and Both/Mainly Hand-Rolled",
+      "nationality" : "Nationality with levels British, English,\nIrish, Scottish, Welsh, Other, Refused\nand Unknown.",
+      "marital_status" : "Marital status with levels Divorced,\nMarried, Separated, Single and Widowed.",
+      "ethnicity" : "Ethnicity with levels Asian, Black,\nChinese, Mixed, White and Refused\nUnknown."
+   },
+   "reference" : "National STEM Centre, Large Datasets from stats4schools,\nhttps://www.stem.org.uk/resources/elibrary/resource/28452/large-datasets-stats4schools.",
    "usage" : "smoking",
    "description" : "Description\nSurvey data on smoking habits from the UK. The dataset can be used for\nanalyzing the demographic characteristics of smokers and types of tobacco\nconsumed.",
-   "format" : "A data frame with 1691 observations on the following 12 variables.",
    "title" : "UK Smoking Data",
-   "reference" : "National STEM Centre, Large Datasets from stats4schools,\nhttps://www.stem.org.uk/resources/elibrary/resource/28452/large-datasets-stats4schools.",
-   "parameters" : {
-      "marital_status" : "Marital status with levels Divorced,\nMarried, Separated, Single and Widowed.",
-      "nationality" : "Nationality with levels British, English,\nIrish, Scottish, Welsh, Other, Refused\nand Unknown.",
-      "amt_weekdays" : "Number of cigarettes smoked per day on weekdays.",
-      "region" : "Region with levels London, Midlands & East Anglia,\nScotland, South East, South West, The North\nand Wales",
-      "type" : "Type of cigarettes smoked with levels Packets,\nHand-Rolled, Both/Mainly Packets and Both/Mainly Hand-Rolled",
-      "age" : "Age.",
-      "ethnicity" : "Ethnicity with levels Asian, Black,\nChinese, Mixed, White and Refused\nUnknown.",
-      "gender" : "Gender with levels Female and Male.",
-      "gross_income" : "Gross income with levels Under 2,600,\n2,600 to 5,200, 5,200 to 10,400, 10,400 to 15,600,\n15,600 to 20,800, 20,800 to 28,600, 28,600 to 36,400,\nAbove 36,400, Refused and Unknown.",
-      "highest_qualification" : "Highest education level with levels\nA Levels, Degree, GCSE/CSE, GCSE/O Level,\nHigher/Sub Degree, No Qualification, ONC/BTEC and\nOther/Sub Degree",
-      "amt_weekends" : "Number of cigarettes smoked per day on weekends.",
-      "smoke" : "Smoking status with levels No and Yes"
-   }
+   "format" : "A data frame with 1691 observations on the following 12 variables."
 }
 
 var smoking = [

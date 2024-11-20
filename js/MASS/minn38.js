@@ -1,16 +1,16 @@
 var minn38Info ={
-   "format" : "This data frame contains the following columns:",
-   "reference" : "From R. L. Plackett, (1974) The Analysis of Categorical\nData. London: Griffin",
-   "title" : "Minnesota High School Graduates of 1938",
    "parameters" : {
-      "sex" : "sex: factor with levels\"F\" or \"M\".",
-      "fol" : "father's occupational level, (seven levels, \"F1\", \"F2\",\n..., \"F7\").",
       "phs" : "post high school status: Enrolled in college, (\"C\"), enrolled in\nnon-collegiate school, (\"N\"), employed full-time, (\"E\")\nand other, (\"O\").",
+      "hs" : "high school rank: \"L\", \"M\" and \"U\" for lower,\nmiddle and upper third.",
+      "fol" : "father's occupational level, (seven levels, \"F1\", \"F2\",\n..., \"F7\").",
       "f" : "frequency.",
-      "hs" : "high school rank: \"L\", \"M\" and \"U\" for lower,\nmiddle and upper third."
+      "sex" : "sex: factor with levels\"F\" or \"M\"."
    },
+   "description" : "Description\nThe Minnesota high school graduates of 1938 were classified according to\nfour factors, described below.  The minn38 data frame has 168\nrows and 5 columns.",
+   "title" : "Minnesota High School Graduates of 1938",
+   "reference" : "From R. L. Plackett, (1974) The Analysis of Categorical\nData. London: Griffin",
    "usage" : "minn38",
-   "description" : "Description\nThe Minnesota high school graduates of 1938 were classified according to\nfour factors, described below.  The minn38 data frame has 168\nrows and 5 columns."
+   "format" : "This data frame contains the following columns:"
 }
 
 var minn38 = [

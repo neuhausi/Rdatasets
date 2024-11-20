@@ -1,0 +1,16 @@
+{
+   "parameters" : {
+      "gender" : "factor. Gender of the player (or team of players).",
+      "treatment" : "factor. Type of treatment: long vs. short.",
+      "arrangement" : "factor. Is the player a single player or team of two?",
+      "male" : "factor. Was (at least one of) the player(s) male (in the team)?",
+      "grade" : "factor. School grades: 6-8 (11-14 years) vs. 10-12 (15-18 years).",
+      "invest" : "numeric. Average proportion of points invested across\nall 9 rounds.",
+      "age" : "numeric. Age in years (averaged for teams)."
+   },
+   "title" : "(No) Myopic Loss Aversion in Adolescents",
+   "description" : "Description\nData for assessing the extent of myopic loss aversion among\nadolescents (mostly aged 11 to 19).",
+   "reference" : "Myopic loss aversion is a phenomenon in behavioral economics,\nwhere individuals do not behave economically rationally when making short-term\ndecisions under uncertainty. Example: In lotteries with positive expected payouts\ninvestments are lower than the maximum possible (loss aversion). This effect\nis enhanced for short-term investments (myopia or short-sightedness).",
+   "usage" : "data(\"LossAversion\", package = \"betareg\")",
+   "format" : "A data frame containing 570 observations on 7 variables."
+}

@@ -1,0 +1,20 @@
+{
+   "format" : "This data frame contains the following columns:",
+   "usage" : "UScereal",
+   "reference" : "The original data are available at\nhttps://lib.stat.cmu.edu/datasets/1993.expo/.",
+   "description" : "Description\nThe UScereal data frame has 65 rows and 11 columns.\nThe data come from the 1993 ASA Statistical Graphics Exposition,\nand are taken from the mandatory  F&DA food label. The data have been\nnormalized here to a portion of one American cup.",
+   "title" : "Nutritional and Marketing Information on US Cereals",
+   "parameters" : {
+      "fat" : "grams of fat in one portion.",
+      "potassium" : "grams of potassium.",
+      "fibre" : "grams of dietary fibre in one portion.",
+      "calories" : "number of calories in one portion.",
+      "vitamins" : "vitamins and minerals (none, enriched, or 100%).",
+      "shelf" : "display shelf (1, 2, or 3, counting from the floor).",
+      "mfr" : "Manufacturer, represented by its first initial: G=General Mills,\nK=Kelloggs, N=Nabisco, P=Post, Q=Quaker Oats, R=Ralston Purina.",
+      "protein" : "grams of protein in one portion.",
+      "sugars" : "grams of sugars in one portion.",
+      "sodium" : "milligrams of sodium in one portion.",
+      "carbo" : "grams of complex carbohydrates in one portion."
+   }
+}

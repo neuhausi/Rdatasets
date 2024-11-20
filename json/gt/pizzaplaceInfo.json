@@ -1,0 +1,16 @@
+{
+   "usage" : "pizzaplace",
+   "reference" : "Each pizza in the dataset is identified by a short name. The following\nlistings provide the full names of each pizza and their main ingredients.",
+   "title" : "A year of pizza sales from a pizza place",
+   "description" : "Description\nA synthetic dataset that describes pizza sales for a pizza place somewhere in\nthe US. While the contents are artificial, the ingredients used to make the\npizzas are far from it. There are 32 different pizzas that fall into 4\ndifferent categories: \"classic\" (classic pizzas: 'You probably had one like\nit before, but never like this!'), \"chicken\" (pizzas with chicken as a\nmajor ingredient: 'Try the Southwest Chicken Pizza! You'll love it!'),\n\"supreme\" (pizzas that try a little harder: 'My Soppressata pizza uses only\nthe finest salami from my personal salumist!'), and, \"veggie\" (pizzas\nwithout any meats whatsoever: 'My Five Cheese pizza has so many cheeses, I\ncan only offer it in Large Size!').",
+   "parameters" : {
+      "date" : "A character representation of the order date, expressed in the\nISO 8601 date format (YYYY-MM-DD).",
+      "id" : "The ID for the order, which consists of one or more pizzas at a\ngiven date and time.",
+      "name" : "The short name for the pizza.",
+      "price" : "The price of the pizza and the amount that it sold for (in\nUSD).",
+      "time" : "A character representation of the order time, expressed as a\n24-hour time the ISO 8601 extended time format (HH:MM:SS).",
+      "size" : "The size of the pizza, which can either be \"S\", \"M\", \"L\",\n\"XL\" (rare!), or \"XXL\" (even rarer!); most pizzas are available in the\n\"S\", \"M\", and \"L\" sizes but exceptions apply.",
+      "type" : "The category or type of pizza, which can either be \"classic\",\n\"chicken\", \"supreme\", or \"veggie\"."
+   },
+   "format" : "A tibble with 49,574 rows and 7 variables:"
+}

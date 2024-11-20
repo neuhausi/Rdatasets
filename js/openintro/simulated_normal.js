@@ -1,8 +1,8 @@
 var simulated_normalInfo ={
-   "title" : "Simulated datasets, drawn from a normal distribution.",
    "format" : "The format is: List of 3 $ n40 : 40 observations from a standard\nnormal distribution.  $ n100: 100 observations from a standard normal\ndistribution.  $ n400: 400 observations from a standard normal distribution.",
-   "usage" : "simulated_normal",
-   "description" : "Description\nData were simulated using rnorm."
+   "description" : "Description\nData were simulated using rnorm.",
+   "title" : "Simulated datasets, drawn from a normal distribution.",
+   "usage" : "simulated_normal"
 }
 
 var simulated_normal = [

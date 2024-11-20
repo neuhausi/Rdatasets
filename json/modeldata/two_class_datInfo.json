@@ -1,0 +1,6 @@
+{
+   "format" : "two_class_dat\n\na data frame",
+   "description" : "Description\nTwo class data",
+   "title" : "Two class data",
+   "usage" : "There are artificial data with two predictors (A and B) and\na factor outcome variable (Class)."
+}

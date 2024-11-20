@@ -1,14 +1,14 @@
 var heartInfo ={
-   "usage" : "data(heart)",
-   "description" : "Description\nThis data set was analyzed by Weisberg (1980) and Chambers et\nal. (1983).  A catheter is passed into a major vein or artery at the\nfemoral region and moved into the heart.  The proper length of the\nintroduced catheter has to be guessed by the physician. The aim of the\ndata set is to describe the relation between the catheter length and\nthe patient's height (X1) and weight (X2).\nThis data sets is used to demonstrate the effects caused by collinearity.\nThe correlation between height and weight is so high that either\nvariable almost completely determines the other.",
-   "format" : "A data frame with 12 observations on the following 3 variables.",
-   "title" : "Heart Catherization Data",
-   "reference" : "There are other heart datasets in other R packages,\nnotably survival, hence considering using\npackage = \"robustbase\", see examples.",
    "parameters" : {
       "height" : "Patient's height in inches",
-      "clength" : "Y: Catheter Length (in centimeters)",
-      "weight" : "Patient's weights in pounds"
-   }
+      "weight" : "Patient's weights in pounds",
+      "clength" : "Y: Catheter Length (in centimeters)"
+   },
+   "title" : "Heart Catherization Data",
+   "description" : "Description\nThis data set was analyzed by Weisberg (1980) and Chambers et\nal. (1983).  A catheter is passed into a major vein or artery at the\nfemoral region and moved into the heart.  The proper length of the\nintroduced catheter has to be guessed by the physician. The aim of the\ndata set is to describe the relation between the catheter length and\nthe patient's height (X1) and weight (X2).\nThis data sets is used to demonstrate the effects caused by collinearity.\nThe correlation between height and weight is so high that either\nvariable almost completely determines the other.",
+   "usage" : "data(heart)",
+   "reference" : "There are other heart datasets in other R packages,\nnotably survival, hence considering using\npackage = \"robustbase\", see examples.",
+   "format" : "A data frame with 12 observations on the following 3 variables."
 }
 
 var heart = [

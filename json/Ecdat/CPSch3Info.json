@@ -1,0 +1,12 @@
+{
+   "format" : "A dataframe containing :",
+   "parameters" : {
+      "sex" : "a factor with levels (male,female)",
+      "ahe" : "average hourly earnings",
+      "year" : "survey year"
+   },
+   "description" : "Description\na cross-section from 1998\nnumber of observations :  11130\nobservation :  individuals\ncountry :  United States",
+   "title" : "Earnings from the Current Population Survey",
+   "usage" : "data(CPSch3)",
+   "reference" : "Bureau of labor statistics, U.S. Department of Labor https://www.bls.gov."
+}

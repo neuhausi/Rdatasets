@@ -1,12 +1,12 @@
 var housingInfo ={
-   "usage" : "housing",
-   "description" : "Description\nEach observation represents a simulated rent price for a student.",
    "title" : "Simulated dataset on student housing",
-   "format" : "A data frame with 75 observations on the following variable.",
+   "description" : "Description\nEach observation represents a simulated rent price for a student.",
+   "usage" : "housing",
    "reference" : "housing",
    "parameters" : {
       "cost" : "a numeric vector"
-   }
+   },
+   "format" : "A data frame with 75 observations on the following variable."
 }
 
 var housing = [

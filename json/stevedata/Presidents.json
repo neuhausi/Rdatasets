@@ -1,16 +1,16 @@
 {
    "config" : {
-      "subtitle" : "stevedata - Presidents",
       "segregateSamplesBy" : [
          "president",
          "start"
       ],
-      "title" : "U.S. Presidents and Their Terms in Office",
+      "colorBy" : "variable",
+      "graphType" : "Boxplot",
       "groupingFactors" : [
          "end"
       ],
-      "colorBy" : "variable",
-      "graphType" : "Boxplot"
+      "subtitle" : "stevedata - Presidents",
+      "title" : "U.S. Presidents and Their Terms in Office"
    },
    "data" : {
       "x" : {

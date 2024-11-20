@@ -1,7 +1,7 @@
 var coversInfo ={
+   "title" : "Raw cover type data",
    "description" : "Description\nThese data are raw data describing different types of forest cover-types\nfrom the UCI Machine Learning Database (see link below). There is one\ncolumn in the data that has a few difference pieces of textual\ninformation (of variable lengths).",
    "usage" : "covers\n\na data frame",
-   "title" : "Raw cover type data",
    "format" : "https://archive.ics.uci.edu/ml/machine-learning-databases/covtype/covtype.info"
 }
 

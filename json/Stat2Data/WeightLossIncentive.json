@@ -1,46 +1,19 @@
 {
+   "config" : {
+      "subtitle" : "Stat2Data - WeightLossIncentive",
+      "groupingFactors" : [
+         "Group"
+      ],
+      "title" : "Do Financial Incentives Improve Weight Loss?",
+      "colorBy" : "variable",
+      "graphType" : "Boxplot",
+      "segregateSamplesBy" : [
+         "Month7Loss",
+         "WeightLoss"
+      ]
+   },
    "data" : {
       "x" : {
-         "Month7Loss" : [
-            "-2",
-            "7",
-            "19.5",
-            "-0.5",
-            "-1.5",
-            "-10",
-            "0.5",
-            "5",
-            "8.5",
-            "18",
-            "16",
-            "-9",
-            "4.5",
-            "23.5",
-            "5.5",
-            "6.5",
-            "-9.5",
-            "1.5",
-            "",
-            "",
-            "11.5",
-            "20",
-            "",
-            "",
-            "-22",
-            "2",
-            "7.5",
-            "16.5",
-            "19",
-            "18",
-            "-1",
-            "5.5",
-            "24.5",
-            "9.5",
-            "10",
-            "-8.5",
-            "4.5",
-            ""
-         ],
          "Group" : [
             "Control",
             "Control",
@@ -80,6 +53,46 @@
             "Incentive",
             "Incentive",
             "Incentive"
+         ],
+         "Month7Loss" : [
+            "-2",
+            "7",
+            "19.5",
+            "-0.5",
+            "-1.5",
+            "-10",
+            "0.5",
+            "5",
+            "8.5",
+            "18",
+            "16",
+            "-9",
+            "4.5",
+            "23.5",
+            "5.5",
+            "6.5",
+            "-9.5",
+            "1.5",
+            "",
+            "",
+            "11.5",
+            "20",
+            "",
+            "",
+            "-22",
+            "2",
+            "7.5",
+            "16.5",
+            "19",
+            "18",
+            "-1",
+            "5.5",
+            "24.5",
+            "9.5",
+            "10",
+            "-8.5",
+            "4.5",
+            ""
          ],
          "WeightLoss" : [
             "12.5",
@@ -123,6 +136,48 @@
          ]
       },
       "y" : {
+         "data" : [
+            [
+               1,
+               2,
+               3,
+               4,
+               5,
+               6,
+               7,
+               8,
+               9,
+               10,
+               11,
+               12,
+               13,
+               14,
+               15,
+               16,
+               17,
+               18,
+               19,
+               20,
+               21,
+               22,
+               23,
+               24,
+               25,
+               26,
+               27,
+               28,
+               29,
+               30,
+               31,
+               32,
+               33,
+               34,
+               35,
+               36,
+               37,
+               38
+            ]
+         ],
          "smps" : [
             "Smp1",
             "Smp2",
@@ -165,63 +220,8 @@
          ],
          "vars" : [
             "Row"
-         ],
-         "data" : [
-            [
-               1,
-               2,
-               3,
-               4,
-               5,
-               6,
-               7,
-               8,
-               9,
-               10,
-               11,
-               12,
-               13,
-               14,
-               15,
-               16,
-               17,
-               18,
-               19,
-               20,
-               21,
-               22,
-               23,
-               24,
-               25,
-               26,
-               27,
-               28,
-               29,
-               30,
-               31,
-               32,
-               33,
-               34,
-               35,
-               36,
-               37,
-               38
-            ]
          ]
       }
    },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>WeightLossIncentive</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Do Financial Incentives Improve Weight Loss?</h2>\n<h3>Description</h3>\n<p>An experiment to see if financial incentives improve weight loss\n</p>\n<h3>Format</h3>\n<p>A dataset with 38 observations on the following 3 variables.\n</p>\n<table>\n<tr>\n <td style=\"text-align: right;\">\n    <code>WeightLoss</code></td><td style=\"text-align: left;\"> Weight loss (in pounds) after four months</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Group</code></td><td style=\"text-align: left;\"> Treatment group: <code>Control</code> or <code>Incentive</code></td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Month7Loss</code></td><td style=\"text-align: left;\"> Weight loss (in pounds) after seven months</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n  </td>\n</tr>\n</table>\n<h3>Details</h3>\n<p>Researchers investigated\nwhether financial incentives would help people lose weight more successfully. Some participants in\nthe study were randomly assigned to a treatment group that was offered financial incentives for\nachieving weight loss goals, while others were assigned to a control group that did not use financial\nincentives. All participants were monitored over a four month period and the net weight change\n(Before - After in pounds) at the end of this period was recorded for each individual. Then the\nindividuals were left alone for three months with a followup weight check at the seven-month mark\nto see whether weight losses persisted after the original four months of treatment.<br />\nThe 4-month data alone (with missing values omitted) is stored in WeightLossIncentive4. <br />\nThe 7-month data alone (with missing values omitted) is stored in WeightLossIncentive7.\n</p>\n<h3>Source</h3>\n<p>&ldquo;Financial incentive-based approaches for weight loss,&quot; Journal of the American Medical Association by Volpp,\nJohn, Troxel, et. al., Vol. 200, no. 22, pp 2631-2637, (Dec. 2008)\n</p>\n</main>\n</div>\n",
-   "config" : {
-      "title" : "Do Financial Incentives Improve Weight Loss?",
-      "subtitle" : "Stat2Data - WeightLossIncentive",
-      "segregateSamplesBy" : [
-         "Group",
-         "WeightLoss"
-      ],
-      "graphType" : "Boxplot",
-      "colorBy" : "variable",
-      "groupingFactors" : [
-         "Month7Loss"
-      ]
-   }
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>WeightLossIncentive</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Do Financial Incentives Improve Weight Loss?</h2>\n<h3>Description</h3>\n<p>An experiment to see if financial incentives improve weight loss\n</p>\n<h3>Format</h3>\n<p>A dataset with 38 observations on the following 3 variables.\n</p>\n<table>\n<tr>\n <td style=\"text-align: right;\">\n    <code>WeightLoss</code></td><td style=\"text-align: left;\"> Weight loss (in pounds) after four months</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Group</code></td><td style=\"text-align: left;\"> Treatment group: <code>Control</code> or <code>Incentive</code></td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Month7Loss</code></td><td style=\"text-align: left;\"> Weight loss (in pounds) after seven months</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n  </td>\n</tr>\n</table>\n<h3>Details</h3>\n<p>Researchers investigated\nwhether financial incentives would help people lose weight more successfully. Some participants in\nthe study were randomly assigned to a treatment group that was offered financial incentives for\nachieving weight loss goals, while others were assigned to a control group that did not use financial\nincentives. All participants were monitored over a four month period and the net weight change\n(Before - After in pounds) at the end of this period was recorded for each individual. Then the\nindividuals were left alone for three months with a followup weight check at the seven-month mark\nto see whether weight losses persisted after the original four months of treatment.<br />\nThe 4-month data alone (with missing values omitted) is stored in WeightLossIncentive4. <br />\nThe 7-month data alone (with missing values omitted) is stored in WeightLossIncentive7.\n</p>\n<h3>Source</h3>\n<p>&ldquo;Financial incentive-based approaches for weight loss,&quot; Journal of the American Medical Association by Volpp,\nJohn, Troxel, et. al., Vol. 200, no. 22, pp 2631-2637, (Dec. 2008)\n</p>\n</main>\n</div>\n"
 }

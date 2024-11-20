@@ -1,44 +1,42 @@
 {
-   "config" : {
-      "subtitle" : "heplots - RatWeight",
-      "graphType" : "Scatter2D",
-      "colorBy" : "trt",
-      "title" : "Weight Gain in Rats Exposed to Thiouracil and Thyroxin",
-      "scatterPlotMatrix" : 1
-   },
    "data" : {
-      "z" : {
-         "trt" : [
-            "Control",
-            "Control",
-            "Control",
-            "Control",
-            "Control",
-            "Control",
-            "Control",
-            "Control",
-            "Control",
-            "Control",
-            "Thiouracil",
-            "Thiouracil",
-            "Thiouracil",
-            "Thiouracil",
-            "Thiouracil",
-            "Thiouracil",
-            "Thiouracil",
-            "Thiouracil",
-            "Thiouracil",
-            "Thiouracil",
-            "Thyroxin",
-            "Thyroxin",
-            "Thyroxin",
-            "Thyroxin",
-            "Thyroxin",
-            "Thyroxin",
-            "Thyroxin"
-         ]
-      },
       "y" : {
+         "vars" : [
+            "Var1",
+            "Var2",
+            "Var3",
+            "Var4",
+            "Var5",
+            "Var6",
+            "Var7",
+            "Var8",
+            "Var9",
+            "Var10",
+            "Var11",
+            "Var12",
+            "Var13",
+            "Var14",
+            "Var15",
+            "Var16",
+            "Var17",
+            "Var18",
+            "Var19",
+            "Var20",
+            "Var21",
+            "Var22",
+            "Var23",
+            "Var24",
+            "Var25",
+            "Var26",
+            "Var27"
+         ],
+         "smps" : [
+            "wt0",
+            "wt1",
+            "wt2",
+            "wt3",
+            "wt4"
+         ],
          "data" : [
             [
                57,
@@ -229,44 +227,46 @@
                138,
                171
             ]
-         ],
-         "vars" : [
-            "Var1",
-            "Var2",
-            "Var3",
-            "Var4",
-            "Var5",
-            "Var6",
-            "Var7",
-            "Var8",
-            "Var9",
-            "Var10",
-            "Var11",
-            "Var12",
-            "Var13",
-            "Var14",
-            "Var15",
-            "Var16",
-            "Var17",
-            "Var18",
-            "Var19",
-            "Var20",
-            "Var21",
-            "Var22",
-            "Var23",
-            "Var24",
-            "Var25",
-            "Var26",
-            "Var27"
-         ],
-         "smps" : [
-            "wt0",
-            "wt1",
-            "wt2",
-            "wt3",
-            "wt4"
+         ]
+      },
+      "z" : {
+         "trt" : [
+            "Control",
+            "Control",
+            "Control",
+            "Control",
+            "Control",
+            "Control",
+            "Control",
+            "Control",
+            "Control",
+            "Control",
+            "Thiouracil",
+            "Thiouracil",
+            "Thiouracil",
+            "Thiouracil",
+            "Thiouracil",
+            "Thiouracil",
+            "Thiouracil",
+            "Thiouracil",
+            "Thiouracil",
+            "Thiouracil",
+            "Thyroxin",
+            "Thyroxin",
+            "Thyroxin",
+            "Thyroxin",
+            "Thyroxin",
+            "Thyroxin",
+            "Thyroxin"
          ]
       }
    },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>RatWeight</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Weight Gain in Rats Exposed to Thiouracil and Thyroxin</h2>\n<h3>Description</h3>\n<p>The data are from a study of weight gain, where investigators randomly\nassigned 30 rats to three treatment groups: treatment 1 was a control (no\nadditive); treatments 2 and 3 consisted of two different additives\n(thiouracil and thyroxin respectively) to the rats drinking water. Weight\nwas measured at baseline (week 0) and at weeks 1, 2, 3, and 4. Due to an\naccident at the beginning of the study, data on 3 rats from the thyroxin\ngroup are unavailable.\n</p>\n<h3>Format</h3>\n<p>A data frame with 27 observations on the following 6 variables.\n</p>\n<dl>\n<dt><code>trt</code></dt><dd><p>a factor with levels <code>Control</code> <code>Thiouracil</code> <code>Thyroxin</code></p>\n</dd> \n<dt><code>wt0</code></dt><dd><p>Weight at Week 0 (baseline weight)</p>\n</dd> \n<dt><code>wt1</code></dt><dd><p>Weight at Week 1</p>\n</dd>\n<dt><code>wt2</code></dt><dd><p>Weight at Week 2</p>\n</dd> \n<dt><code>wt3</code></dt><dd><p>Weight at Week 3</p>\n</dd>\n<dt><code>wt4</code></dt><dd><p>Weight at Week 4</p>\n</dd> \n</dl>\n<h3>Details</h3>\n<p>The <code>trt</code> factor comes supplied with contrasts comparing <code>Control</code>\nto each of <code>Thiouracil</code> and <code>Thyroxin</code>.\n</p>\n<h3>Source</h3>\n<p>Originally from Box (1950), Table D (page 389), where the values for\nweeks 1-4 were recorded as the gain in weight for that week.\n</p>\n<p>Fitzmaurice, G. M. and Laird, N. M. and Ware, J. H (2004). <em>Applied\nLongitudinal Analysis</em>, New York, NY: Wiley-Interscience.\n<a href=\"https://rdrr.io/rforge/ALA/\">https://rdrr.io/rforge/ALA/</a>.\n</p>\n<h3>References</h3>\n<p>Box, G.E.P. (1950). Problems in the analysis of growth and wear\ncurves.  <em>Biometrics</em>, 6, 362-389.\n</p>\n<p>Friendly, Michael (2010). HE Plots for Repeated Measures Designs.\n<em>Journal of Statistical Software</em>, 37(4), 1-40. \n<a href=\"https://doi.org/10.18637/jss.v037.i04\">doi:10.18637/jss.v037.i04</a>.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>\ndata(RatWeight)\ncontrasts(RatWeight$trt)\nrat.mod &lt;- lm(cbind(wt0, wt1, wt2, wt3, wt4) ~ trt, data=RatWeight)\nrat.mod\nidata &lt;- data.frame(week = ordered(0:4))\ncar::Anova(rat.mod, idata=idata, idesign=~week, test=\"Roy\")\n# quick look at between group effects\npairs(rat.mod)\n# between-S, baseline &amp; week 4\nheplot(rat.mod, col=c(\"red\", \"blue\", \"green3\", \"green3\"),\n\tvariables=c(1,5),\n\thypotheses=c(\"trt1\", \"trt2\"),\n\tmain=\"Rat weight data, Between-S effects\") \n# within-S\nheplot(rat.mod, idata=idata, idesign=~week, iterm=\"week\",\n\tcol=c(\"red\", \"blue\", \"green3\"),\n#\thypotheses=c(\"trt1\", \"trt2\"),\n\tmain=\"Rat weight data, Within-S effects\")\n</code></pre>\n</main>\n</div>\n"
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>RatWeight</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Weight Gain in Rats Exposed to Thiouracil and Thyroxin</h2>\n<h3>Description</h3>\n<p>The data are from a study of weight gain, where investigators randomly\nassigned 30 rats to three treatment groups: treatment 1 was a control (no\nadditive); treatments 2 and 3 consisted of two different additives\n(thiouracil and thyroxin respectively) to the rats drinking water. Weight\nwas measured at baseline (week 0) and at weeks 1, 2, 3, and 4. Due to an\naccident at the beginning of the study, data on 3 rats from the thyroxin\ngroup are unavailable.\n</p>\n<h3>Format</h3>\n<p>A data frame with 27 observations on the following 6 variables.\n</p>\n<dl>\n<dt><code>trt</code></dt><dd><p>a factor with levels <code>Control</code> <code>Thiouracil</code> <code>Thyroxin</code></p>\n</dd> \n<dt><code>wt0</code></dt><dd><p>Weight at Week 0 (baseline weight)</p>\n</dd> \n<dt><code>wt1</code></dt><dd><p>Weight at Week 1</p>\n</dd>\n<dt><code>wt2</code></dt><dd><p>Weight at Week 2</p>\n</dd> \n<dt><code>wt3</code></dt><dd><p>Weight at Week 3</p>\n</dd>\n<dt><code>wt4</code></dt><dd><p>Weight at Week 4</p>\n</dd> \n</dl>\n<h3>Details</h3>\n<p>The <code>trt</code> factor comes supplied with contrasts comparing <code>Control</code>\nto each of <code>Thiouracil</code> and <code>Thyroxin</code>.\n</p>\n<h3>Source</h3>\n<p>Originally from Box (1950), Table D (page 389), where the values for\nweeks 1-4 were recorded as the gain in weight for that week.\n</p>\n<p>Fitzmaurice, G. M. and Laird, N. M. and Ware, J. H (2004). <em>Applied\nLongitudinal Analysis</em>, New York, NY: Wiley-Interscience.\n<a href=\"https://rdrr.io/rforge/ALA/\">https://rdrr.io/rforge/ALA/</a>.\n</p>\n<h3>References</h3>\n<p>Box, G.E.P. (1950). Problems in the analysis of growth and wear\ncurves.  <em>Biometrics</em>, 6, 362-389.\n</p>\n<p>Friendly, Michael (2010). HE Plots for Repeated Measures Designs.\n<em>Journal of Statistical Software</em>, 37(4), 1-40. \n<a href=\"https://doi.org/10.18637/jss.v037.i04\">doi:10.18637/jss.v037.i04</a>.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>\ndata(RatWeight)\ncontrasts(RatWeight$trt)\nrat.mod &lt;- lm(cbind(wt0, wt1, wt2, wt3, wt4) ~ trt, data=RatWeight)\nrat.mod\nidata &lt;- data.frame(week = ordered(0:4))\ncar::Anova(rat.mod, idata=idata, idesign=~week, test=\"Roy\")\n# quick look at between group effects\npairs(rat.mod)\n# between-S, baseline &amp; week 4\nheplot(rat.mod, col=c(\"red\", \"blue\", \"green3\", \"green3\"),\n\tvariables=c(1,5),\n\thypotheses=c(\"trt1\", \"trt2\"),\n\tmain=\"Rat weight data, Between-S effects\") \n# within-S\nheplot(rat.mod, idata=idata, idesign=~week, iterm=\"week\",\n\tcol=c(\"red\", \"blue\", \"green3\"),\n#\thypotheses=c(\"trt1\", \"trt2\"),\n\tmain=\"Rat weight data, Within-S effects\")\n</code></pre>\n</main>\n</div>\n",
+   "config" : {
+      "graphType" : "Scatter2D",
+      "colorBy" : "trt",
+      "subtitle" : "heplots - RatWeight",
+      "title" : "Weight Gain in Rats Exposed to Thiouracil and Thyroxin",
+      "scatterPlotMatrix" : 1
+   }
 }

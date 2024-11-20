@@ -1,0 +1,22 @@
+{
+   "parameters" : {
+      "economicActivityFemale" : "percentage of women who are economically active.",
+      "lifeFemale" : "expectation of life at birth for females.",
+      "region" : "a factor with alphabetical levels Africa, America, Asia, Europe, Oceania.",
+      "illiteracyFemale" : "percentage of females 15 years of age and older who are illiterate.",
+      "GDPperCapita" : "gross domestic product per person in U.S. dollars.",
+      "tfr" : "total fertility rate, number of children per woman.",
+      "economicActivityMale" : "percentage of men who are economically active.",
+      "contraception" : "percentage of married women using any method of contraception.",
+      "educationMale" : "average number of years of education for men.",
+      "educationFemale" : "average number of years of education for women.",
+      "lifeMale" : "expectation of life at birth for males.",
+      "infantMortality" : "infant deaths per 1000 live births.",
+      "illiteracyMale" : "percentage of males 15 years of age and older who are illiterate."
+   },
+   "reference" : "In a few cases where the percentages of males and females 15 and older who are illiterate were unavailable, these variables were filled in by regression imputation from the corresponding percentages 25 and older who are illiterate.",
+   "usage" : "data(\"UN98\")",
+   "title" : "United Nations Social Indicators Data 1998]",
+   "description" : "Description\nSocial indicators data on 207 nations distributed by the United Nations circa 1998.",
+   "format" : "A data frame with 207 observations on the following 13 variables."
+}

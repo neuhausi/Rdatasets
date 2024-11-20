@@ -1,0 +1,16 @@
+{
+   "description" : "Description\na cross-section\nnumber of observations :  872\nobservation :  individuals\ncountry :  Switzerland",
+   "title" : "Labor Force Participation",
+   "usage" : "data(Participation)",
+   "reference" : "Gerfin, Michael (1996) &ldquo;Parametric and semiparametric estimation of the binary  response&rdquo;, Journal of Applied Econometrics, 11(3), 321-340.",
+   "parameters" : {
+      "educ" : "years of formal education",
+      "lnnlinc" : "the log of nonlabour income",
+      "lfp" : "labour force participation ?",
+      "nyc" : "the number of young children (younger than 7)",
+      "age" : "age in years divided by 10",
+      "foreign" : "foreigner ?",
+      "noc" : "number of older children"
+   },
+   "format" : "A dataframe containing :"
+}

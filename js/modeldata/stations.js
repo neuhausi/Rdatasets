@@ -1,6 +1,6 @@
 var stationsInfo ={
-   "description" : "Description\nChicago ridership data",
    "title" : "Chicago ridership data",
+   "description" : "Description\nChicago ridership data",
    "usage" : "These data are from Kuhn and Johnson (2020) and contain an\nabbreviated training set for modeling the number of people (in thousands)\nwho enter the Clark and Lake L station."
 }
 

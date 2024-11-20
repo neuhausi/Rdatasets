@@ -1,23 +1,23 @@
 var sp500Info ={
+   "title" : "Financial information for 50 S&P 500 companies",
    "description" : "Description\nFifty companies were randomly sampled from the 500 companies in the S&P 500,\nand their financial information was collected on March 8, 2012.",
+   "reference" : "Yahoo! Finance, retrieved 2012-03-08.",
    "usage" : "sp500",
    "parameters" : {
-      "profit_margin" : "Percent of earnings that are profits.",
       "ent_value" : "Enterprise value, which is an alternative to market cap that\nalso accounts for things like cash and debt, in millions of dollars.",
-      "trail_pe" : "The market cap divided by the earnings (profits) over the last\nyear.",
-      "ev_over_rev" : "Enterprise value divided by the company's revenue.",
+      "earn_before" : "Earnings before interest, taxes, depreciation, and\namortization, in millions of dollars.",
       "forward_pe" : "The market cap divided by the forecasted earnings (profits)\nover the next year.",
-      "cash" : "Total cash, in millions of dollars.",
-      "stock" : "The name of the stock (e.g. AAPL for Apple).",
-      "revenue" : "Revenue, in millions of dollars.",
-      "market_cap" : "Total value of all company shares, in millions of\ndollars.",
+      "ev_over_rev" : "Enterprise value divided by the company's revenue.",
       "growth" : "Quartly revenue growth (year over year), in millions of dollars.",
+      "stock" : "The name of the stock (e.g. AAPL for Apple).",
+      "cash" : "Total cash, in millions of dollars.",
+      "revenue" : "Revenue, in millions of dollars.",
+      "profit_margin" : "Percent of earnings that are profits.",
+      "trail_pe" : "The market cap divided by the earnings (profits) over the last\nyear.",
       "debt" : "Total debt, in millions of dollars.",
-      "earn_before" : "Earnings before interest, taxes, depreciation, and\namortization, in millions of dollars."
+      "market_cap" : "Total value of all company shares, in millions of\ndollars."
    },
-   "title" : "Financial information for 50 S&P 500 companies",
-   "format" : "A data frame with 50 observations on the following 12 variables.",
-   "reference" : "Yahoo! Finance, retrieved 2012-03-08."
+   "format" : "A data frame with 50 observations on the following 12 variables."
 }
 
 var sp500 = [

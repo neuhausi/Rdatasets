@@ -1,0 +1,11 @@
+{
+   "reference" : "The original data provided by Kennan (1985) are on a monthly basis, for the period 1968(1) through 1976(12). Greene (2003) only provides the June data for each year. Also, the duration for observation 36 is given as 3 by Greene while Kennan has 2. Here we use Greene's version.",
+   "usage" : "data(\"StrikeDuration\")",
+   "description" : "Description\nData on the duration of strikes in US manufacturing industries, 1968&ndash;1976.",
+   "title" : "Strike Durations",
+   "parameters" : {
+      "uoutput" : "unanticipated output (a measure of unanticipated aggregate\nindustrial production net of seasonal and trend components).",
+      "duration" : "strike duration in days."
+   },
+   "format" : "A data frame containing 62 observations on 2 variables for the period 1968&ndash;1976."
+}

@@ -1,18 +1,18 @@
 var ModeChoiceInfo ={
-   "format" : "A dataframe containing :",
-   "reference" : "Greene, W.H.  and  D.  Hensher (1997) Multinomial logit and discrete choice models in  Greene, W. H. (1997) LIMDEP version 7.0 user's manual revised, Plainview, New York econometric software, Inc .",
-   "title" : "Data to Study Travel Mode Choice",
    "parameters" : {
-      "gc" : "generalized cost measure",
-      "invc" : "in vehicle cost-cost component",
-      "ttme" : "terminal waiting cost time, 0 for car",
-      "hinc" : "household income",
       "invt" : "travel time in vehicle",
+      "psize" : "party size in mode chosen",
+      "ttme" : "terminal waiting cost time, 0 for car",
+      "gc" : "generalized cost measure",
       "mode" : "choice : air, train, bus or car",
-      "psize" : "party size in mode chosen"
+      "invc" : "in vehicle cost-cost component",
+      "hinc" : "household income"
    },
+   "title" : "Data to Study Travel Mode Choice",
+   "description" : "Description\na cross-section\nnumber of observations :  840\nobservation :  individuals\ncountry :  Australia",
+   "reference" : "Greene, W.H.  and  D.  Hensher (1997) Multinomial logit and discrete choice models in  Greene, W. H. (1997) LIMDEP version 7.0 user's manual revised, Plainview, New York econometric software, Inc .",
    "usage" : "data(ModeChoice)",
-   "description" : "Description\na cross-section\nnumber of observations :  840\nobservation :  individuals\ncountry :  Australia"
+   "format" : "A dataframe containing :"
 }
 
 var ModeChoice = [

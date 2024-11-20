@@ -1,13 +1,13 @@
 var pilotInfo ={
-   "parameters" : {
-      "Y" : "Acid content - titration",
-      "X" : "Organic acid content - extraction"
-   },
-   "title" : "Pilot-Plant Data",
-   "reference" : "P. J. Rousseeuw and A. M. Leroy (1987)\nRobust Regression and Outlier Detection;\nWiley, page 21, table 1.",
    "format" : "A data frame with 20 observations on the following 2 variables.",
+   "title" : "Pilot-Plant Data",
    "description" : "Description\nPilot-Plant data from Daniel and Wood (1971). The response variable\ncorresponds to the acid content determined by titration and the\nexplanatory variable is the organic acid content determined by\nextraction and weighing. This data set was analyzed also by Yale and\nForsythe (1976).",
-   "usage" : "data(pilot, package=\"robustbase\")"
+   "reference" : "P. J. Rousseeuw and A. M. Leroy (1987)\nRobust Regression and Outlier Detection;\nWiley, page 21, table 1.",
+   "usage" : "data(pilot, package=\"robustbase\")",
+   "parameters" : {
+      "X" : "Organic acid content - extraction",
+      "Y" : "Acid content - titration"
+   }
 }
 
 var pilot = [

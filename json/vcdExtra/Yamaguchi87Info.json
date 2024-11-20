@@ -1,0 +1,13 @@
+{
+   "parameters" : {
+      "Country" : "a factor with levels US UK Japan",
+      "Father" : "a factor with levels UpNM LoNM UpM LoM Farm",
+      "Freq" : "a numeric vector",
+      "Son" : "a factor with levels UpNM LoNM UpM LoM Farm"
+   },
+   "reference" : "Five status categories &ndash; upper and lower\nnonmanuals (UpNM, LoNM), \nupper and lower manuals (UpM, LoM), \nand Farm) are used for both fathers' occupations and\nsons' occupations.",
+   "usage" : "data(Yamaguchi87)",
+   "description" : "Description\nYamaguchi (1987) presented this three-way frequency table,\ncross-classifying occupational categories of sons and fathers\nin the United States, United Kingdom and Japan.  This data set has\nbecome a classic for models comparing two-way mobility tables across\nlayers corresponding to countries, groups or time (e.g.,\nGoodman and Hout, 1998; Xie, 1992).\nThe US data were derived from the 1973 OCG-II survey; those\nfor the UK from the 1972 Oxford Social Mobility Survey; those\nfor Japan came from the 1975 Social Stratification and Mobility\nsurvey. They pertain to men aged 20-64.",
+   "title" : "Occupational Mobility in Three Countries",
+   "format" : "A frequency data frame with 75 observations on the following 4 variables. The total sample size is 28887."
+}

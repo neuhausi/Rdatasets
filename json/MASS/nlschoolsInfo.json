@@ -1,0 +1,15 @@
+{
+   "format" : "This data frame contains 2287 rows and the following columns:",
+   "parameters" : {
+      "COMB" : "were the pupils taught in a multi-grade class (0/1)?  Classes which\ncontained pupils from grades 7 and 8 are coded 1, but only\neighth-graders were tested.",
+      "class" : "class ID.",
+      "GS" : "class size: number of eighth-grade pupils recorded in the class (there\nmay be others: see COMB, and some may have been omitted\nwith missing values).",
+      "lang" : "language test score.",
+      "SES" : "social-economic status of pupil's family.",
+      "IQ" : "verbal IQ."
+   },
+   "description" : "Description\nSnijders and Bosker (1999) use as a running example a study of 2287\neighth-grade pupils (aged about 11) in 132 classes in 131 schools in\nthe Netherlands.  Only the variables used in our examples are supplied.",
+   "title" : "Eighth-Grade Pupils in the Netherlands",
+   "reference" : "Snijders, T. A. B. and Bosker, R. J. (1999)\nMultilevel Analysis. An Introduction to Basic and Advanced\nMultilevel Modelling. London: Sage.",
+   "usage" : "nlschools"
+}

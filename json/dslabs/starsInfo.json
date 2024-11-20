@@ -1,0 +1,13 @@
+{
+   "format" : "An object of class \"data.frame\".",
+   "usage" : "stars",
+   "reference" : "Compiled from multiple open-access references on VizieR.",
+   "description" : "Description\nPhysical properties of selected stars, including luminosity, temperature, and spectral class.",
+   "title" : "Physical Properties of Stars",
+   "parameters" : {
+      "magnitude. Absolute magnitude of the star, which is a function of the star's luminosity and distance to the star." : null,
+      "temp. Surface temperature in degrees Kelvin (K)." : null,
+      "star. Name of star." : null,
+      "type. Spectral class of star in the OBAFGKM system." : null
+   }
+}

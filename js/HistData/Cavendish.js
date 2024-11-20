@@ -1,14 +1,14 @@
 var CavendishInfo ={
-   "reference" : "Density values (D) of the earth are given as relative to that of water.  If the earth is\nregarded as a sphere of radius R, Newton's law can be expressed as\nG D = 3 g / (4 \\pi R), where g=9.806 m/s^2 is the acceleration due to gravity; so G is proportional to 1/D.",
    "format" : "A data frame with 29 observations on the following 3 variables.",
+   "description" : "Description\nHenry Cavendish carried out a series of experiments in 1798 to determine the\nmean density of the earth, as an indirect means to calculate the\ngravitational constant, G, in Newton's formula for the force (f) of\ngravitational attraction,\nf = G m M / r^2\nbetween two bodies of mass m and M.\nStigler (1977) used these data to illustrate properties of robust estimators\nwith real, historical data.  For these data sets, he found that trimmed means\nperformed as well or better than more elaborate robust estimators.",
    "title" : "Cavendish's Determinations of the Density of the Earth",
-   "parameters" : {
-      "density3" : "same as density, omitting the the first 6 observations",
-      "density" : "Cavendish's 29 determinations of the mean density of the earth",
-      "density2" : "same as density, with the third value (4.88) replaced by 5.88"
-   },
    "usage" : "data(Cavendish)",
-   "description" : "Description\nHenry Cavendish carried out a series of experiments in 1798 to determine the\nmean density of the earth, as an indirect means to calculate the\ngravitational constant, G, in Newton's formula for the force (f) of\ngravitational attraction,\nf = G m M / r^2\nbetween two bodies of mass m and M.\nStigler (1977) used these data to illustrate properties of robust estimators\nwith real, historical data.  For these data sets, he found that trimmed means\nperformed as well or better than more elaborate robust estimators."
+   "reference" : "Density values (D) of the earth are given as relative to that of water.  If the earth is\nregarded as a sphere of radius R, Newton's law can be expressed as\nG D = 3 g / (4 \\pi R), where g=9.806 m/s^2 is the acceleration due to gravity; so G is proportional to 1/D.",
+   "parameters" : {
+      "density" : "Cavendish's 29 determinations of the mean density of the earth",
+      "density3" : "same as density, omitting the the first 6 observations",
+      "density2" : "same as density, with the third value (4.88) replaced by 5.88"
+   }
 }
 
 var Cavendish = [

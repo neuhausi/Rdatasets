@@ -1,14 +1,14 @@
 var YeastD.matInfo ={
-   "parameters" : {
-      "freq" : "The number of squares with the given count",
-      "sample" : "Sample identifier, a factor with levels A B C D",
-      "count" : "The number of yeast cells counted in a square"
-   },
-   "format" : "Yeast: A frequency data frame with 36 observations on the following 3 variables,\ngiving the frequencies of",
    "reference" : "Student considers the distribution of a total of Nm particles distributed over\nN unit areas with an average of m particles per unit area.\nWith uniform mixing, for a given particle, the probability of it falling on any one\narea is p = 1/N, and not falling on that area is q = 1 - 1/N.\nHe derives the probability distribution of 0, 1, 2, 3, ...\nparticles on a single unit area from the binomial expansion of (p + q)^{mN}.",
+   "usage" : "data(Yeast)\n\tdata(YeastD.mat)",
    "title" : "Student's (1906) Yeast Cell Counts",
    "description" : "Description\nCounts of the number of yeast cells were made each of 400 regions in a 20 x 20 grid on a microscope\nslide, comprising a 1 sq. mm. area.\nThis experiment was repeated four times, giving samples A, B, C and D.\nStudent (1906) used these data to investigate the errors in random sampling.\nHe says \"there are two sources of error: (a) the drop taken may not be representative\nof the bulk of the liquid; (b) the distribution of the cells over the area \nwhich is examined is never exactly uniform, so that there is an 'error of\nrandom sampling.'\"\nThe data in the paper are provided in the form of discrete frequency distributions\nfor the four samples.  Each shows the frequency distribution squares containing\na count of 0, 1, 2, ... yeast cells. These are combined here in Yeast. \nIn addition, he gives a table\n(Table I) showing the actual number of yeast cells counted in the 20 x 20\ngrid for sample D, given here as YeastD.mat.",
-   "usage" : "data(Yeast)\n\tdata(YeastD.mat)"
+   "parameters" : {
+      "count" : "The number of yeast cells counted in a square",
+      "freq" : "The number of squares with the given count",
+      "sample" : "Sample identifier, a factor with levels A B C D"
+   },
+   "format" : "Yeast: A frequency data frame with 36 observations on the following 3 variables,\ngiving the frequencies of"
 }
 
 var YeastD.mat = [

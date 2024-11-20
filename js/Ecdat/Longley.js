@@ -1,15 +1,15 @@
 var LongleyInfo ={
-   "description" : "Description\nannual observations from 1947 to 1962\nnumber of observations :  16\nobservation :  country\ncountry :  United States",
-   "usage" : "data(Longley)",
    "parameters" : {
-      "price" : "GNP deflator",
+      "gnp" : "nominal GNP (millions)",
       "employ" : "employment (1,000s)",
       "armed" : "armed forces",
-      "gnp" : "nominal GNP (millions)"
+      "price" : "GNP deflator"
    },
+   "description" : "Description\nannual observations from 1947 to 1962\nnumber of observations :  16\nobservation :  country\ncountry :  United States",
    "title" : "The Longley Data",
-   "format" : "A time series containing :",
-   "reference" : "Longley, J. (1967) &ldquo;An appraisal of least squares programs from the point of view of the user&rdquo;, Journal of the American Statistical Association, 62, 819-841."
+   "usage" : "data(Longley)",
+   "reference" : "Longley, J. (1967) &ldquo;An appraisal of least squares programs from the point of view of the user&rdquo;, Journal of the American Statistical Association, 62, 819-841.",
+   "format" : "A time series containing :"
 }
 
 var Longley = [

@@ -1,8 +1,8 @@
 var uspopInfo ={
-   "description" : "Description\nThis data set gives the population of the United States (in millions)\nas recorded by the decennial census for the period 1790&ndash;1970.",
-   "format" : "A time series of 19 values.",
+   "usage" : "uspop",
    "title" : "Populations Recorded by the US Census",
-   "usage" : "uspop"
+   "description" : "Description\nThis data set gives the population of the United States (in millions)\nas recorded by the decennial census for the period 1790&ndash;1970.",
+   "format" : "A time series of 19 values."
 }
 
 var uspop = [

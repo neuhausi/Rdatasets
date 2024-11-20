@@ -1,8 +1,8 @@
 var SexualFunInfo ={
-   "title" : "Sex is Fun",
    "format" : "A 2-dimensional array resulting from cross-tabulating the ratings of\n91 married couples.  The variables and their levels are as follows:",
-   "usage" : "data(\"SexualFun\")",
-   "description" : "Description\nData from Hout et al. (1987) given by Agresti (1990) summarizing the\nresponses of married couples to the questionnaire item: Sex is fun for\nme and my partner: (a) never or occasionally, (b) fairly often, (c)\nvery often, (d) almost always."
+   "description" : "Description\nData from Hout et al. (1987) given by Agresti (1990) summarizing the\nresponses of married couples to the questionnaire item: Sex is fun for\nme and my partner: (a) never or occasionally, (b) fairly often, (c)\nvery often, (d) almost always.",
+   "title" : "Sex is Fun",
+   "usage" : "data(\"SexualFun\")"
 }
 
 var SexualFun = [

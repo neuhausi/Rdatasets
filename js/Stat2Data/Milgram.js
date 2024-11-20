@@ -1,7 +1,7 @@
 var MilgramInfo ={
+   "title" : "Ethics and a Milgram Experiment",
    "description" : "Description\nAttitudes towards ethics of a famous Milgram experiment",
-   "usage" : "A dataset with 37 observations on the following 2 variables.",
-   "title" : "Ethics and a Milgram Experiment"
+   "usage" : "A dataset with 37 observations on the following 2 variables."
 }
 
 var Milgram = [

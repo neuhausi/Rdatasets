@@ -1,8 +1,8 @@
 var uspop2Info ={
-   "title" : "Projected US Population",
-   "format" : "This data is often used as a \"standardized\" population for\nepidemiology studies.",
    "usage" : "The data is a matrix with dimensions age, sex, and calendar year.\nAge goes from 0 through 100, where the value for age 100 is the total\nfor all ages of 100 or greater.",
-   "description" : "Description\nUS population by age and sex, for 2000 through 2020"
+   "description" : "Description\nUS population by age and sex, for 2000 through 2020",
+   "title" : "Projected US Population",
+   "format" : "This data is often used as a \"standardized\" population for\nepidemiology studies."
 }
 
 var uspop2 = [

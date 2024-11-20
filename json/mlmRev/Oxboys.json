@@ -1,12 +1,6 @@
 {
    "data" : {
       "y" : {
-         "smps" : [
-            "Subject",
-            "age",
-            "height",
-            "Occasion"
-         ],
          "vars" : [
             "Var1",
             "Var2",
@@ -1648,14 +1642,20 @@
                143.1,
                9
             ]
+         ],
+         "smps" : [
+            "Subject",
+            "age",
+            "height",
+            "Occasion"
          ]
       }
    },
    "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>Oxboys</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Heights of Boys in Oxford</h2>\n<h3>Description</h3>\n<p>The <code>Oxboys</code> data frame has 234 rows and 4 columns.\n</p>\n<h3>Format</h3>\n<p>This data frame contains the following columns:\n</p>\n<dl>\n<dt>Subject</dt><dd>\n<p>an ordered factor giving a unique identifier for each boy in\nthe experiment\n</p>\n</dd>\n<dt>age</dt><dd>\n<p>a numeric vector giving the standardized age (dimensionless)\n</p>\n</dd>\n<dt>height</dt><dd>\n<p>a numeric vector giving the height of the boy (cm)\n</p>\n</dd>\n<dt>Occasion</dt><dd>\n<p>an ordered factor - the result of converting <code>age</code> from a\ncontinuous variable to a count so these slightly unbalanced\ndata can be analyzed as balanced.\n</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>These data are described in Goldstein (1987) as data on the\nheight of a selection of boys from Oxford, England versus a\nstandardized age.\n</p>\n<h3>Source</h3>\n<p>Pinheiro, J. C. and Bates, D. M. (2000)\n<em>Mixed-Effects Models in S and S-PLUS</em>,\nSpringer, New York.  (Appendix A.19)\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>data(Oxboys)\n</code></pre>\n</main>\n</div>\n",
    "config" : {
-      "title" : "Heights of Boys in Oxford",
-      "graphType" : "Scatter2D",
       "scatterPlotMatrix" : 1,
-      "subtitle" : "mlmRev - Oxboys"
+      "title" : "Heights of Boys in Oxford",
+      "subtitle" : "mlmRev - Oxboys",
+      "graphType" : "Scatter2D"
    }
 }

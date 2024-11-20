@@ -1,8 +1,8 @@
 var callsInfo ={
-   "title" : "Call volume for a large North American bank",
-   "format" : "Rob Hyndman",
    "usage" : "Time series object of class msts.",
-   "description" : "Description\nFive-minute call volume handled on weekdays between 7:00am and 9:05pm,\nbeginning 3 March 2003 for 164 days."
+   "description" : "Description\nFive-minute call volume handled on weekdays between 7:00am and 9:05pm,\nbeginning 3 March 2003 for 164 days.",
+   "title" : "Call volume for a large North American bank",
+   "format" : "Rob Hyndman"
 }
 
 var calls = [

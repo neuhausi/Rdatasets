@@ -1,15 +1,12 @@
 {
    "config" : {
-      "title" : "Australian total wine sales",
       "graphType" : "Scatter2D",
+      "title" : "Australian total wine sales",
       "subtitle" : "forecast - wineind"
    },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>wineind</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Australian total wine sales</h2>\n<h3>Description</h3>\n<p>Australian total wine sales by wine makers in bottles &lt;= 1 litre. Jan 1980\n&ndash; Aug 1994.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>wineind\n</code></pre>\n<h3>Format</h3>\n<p>Time series data\n</p>\n<h3>Source</h3>\n<p>Time Series Data Library. <a href=\"https://pkg.yangzhuoranyang.com/tsdl/\">https://pkg.yangzhuoranyang.com/tsdl/</a>\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>tsdisplay(wineind)\n</code></pre>\n</main>\n</div>\n",
    "data" : {
       "y" : {
-         "smps" : [
-            "time",
-            "value"
-         ],
          "vars" : [
             "Var1",
             "Var2",
@@ -187,6 +184,10 @@
             "Var174",
             "Var175",
             "Var176"
+         ],
+         "smps" : [
+            "time",
+            "value"
          ],
          "data" : [
             [
@@ -895,6 +896,5 @@
             ]
          ]
       }
-   },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>wineind</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Australian total wine sales</h2>\n<h3>Description</h3>\n<p>Australian total wine sales by wine makers in bottles &lt;= 1 litre. Jan 1980\n&ndash; Aug 1994.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>wineind\n</code></pre>\n<h3>Format</h3>\n<p>Time series data\n</p>\n<h3>Source</h3>\n<p>Time Series Data Library. <a href=\"https://pkg.yangzhuoranyang.com/tsdl/\">https://pkg.yangzhuoranyang.com/tsdl/</a>\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>tsdisplay(wineind)\n</code></pre>\n</main>\n</div>\n"
+   }
 }

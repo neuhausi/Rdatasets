@@ -1,0 +1,15 @@
+{
+   "format" : "A data frame with 27 observations on the following 4 variables.",
+   "parameters" : {
+      "Y" : "a numeric vector, representing the term (h-90) (see details)",
+      "X1" : "a numeric vector, representing \\beta",
+      "Group" : "a character vector, representing the Mayer grouping",
+      "Equation" : "an integer vector, id of the Equation",
+      "X2" : "a numeric vector, representing \\alpha",
+      "X3" : "a numeric vector, representing the term \\alpha sin\\theta"
+   },
+   "title" : "Mayer's Data on the Libration of the Moon.",
+   "description" : "Description\nMayer had twenty-seven days' observations of Manilius and only three unknowns.\nThe form of Mayer's problem is almost the same as that of Legendre, who\ndeveloped later the least squares method.\n\"How did Mayer address his overdetermined system of equations? His approach was\na simple and straightforward one, so simple and straightforward that a\ntwentieth-century reader might arrive at the very mistaken opinion that the\nprocedure was not remarkable at all. Mayer divided his equations into three\ngroups of nine equations each, added each of the three groups separately, and\nsolved the resulting three linear equations for \\alpha, \\beta and\n\\alpha sin\\theta (and then solved for \\theta). His choice of which\nequations belonged in which groups was based upon the coefficients of\n\\alpha and \\alpha sin \\theta.\nThe first group consisted of the nine equations with the largest positive\nvalues for the coefficient of a, namely, equations 1,2, 3, 6, 9, 10, 11,12,\nand 27. The second group were those with the nine largest negative values\nfor this coefficient: equations 8, 18, 19, 21, 22, 23, 24, 25, and 26. The\nremaining nine equations formed the third group, which he described as\nhaving the largest values for the coefficient of \\alpha sin \\theta.\"\nStigler (1986, p.21)",
+   "usage" : "data(Mayer)",
+   "reference" : "Stigler (1986):"
+}

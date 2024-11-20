@@ -1,14 +1,7 @@
 {
-   "config" : {
-      "subtitle" : "evir - danish",
-      "graphType" : "Treemap",
-      "title" : "Danish Fire Insurance Claims"
-   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>danish</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Danish Fire Insurance Claims</h2>\n<h3>Description</h3>\n<p>These data describe large fire insurance claims \nin Denmark from Thursday 3rd January 1980 until\nMonday 31st December 1990.\nThe data are contained in a numeric vector.\nThe dates of each observation are contained in a <code>times</code>\nattribute, which is an object of class <code>\"POSIXct\"</code> (see\n<code>DateTimeClasses</code>).\nThey were supplied by Mette Rytgaard of Copenhagen Re. \nNote that these data form an irregular time series. \n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(danish)</code></pre>\n<h3>Format</h3>\n<p>A numeric vector containing 2167 observations, with a\n<code>times</code> attribute which is a <code>POSIXct</code> object\nof the same length.</p>\n</main>\n</div>\n",
    "data" : {
       "y" : {
-         "vars" : [
-            "dat"
-         ],
          "smps" : [
             "Smp1",
             "Smp2",
@@ -4348,8 +4341,15 @@
                1.07260726072607,
                4.12541254125413
             ]
+         ],
+         "vars" : [
+            "dat"
          ]
       }
    },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>danish</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Danish Fire Insurance Claims</h2>\n<h3>Description</h3>\n<p>These data describe large fire insurance claims \nin Denmark from Thursday 3rd January 1980 until\nMonday 31st December 1990.\nThe data are contained in a numeric vector.\nThe dates of each observation are contained in a <code>times</code>\nattribute, which is an object of class <code>\"POSIXct\"</code> (see\n<code>DateTimeClasses</code>).\nThey were supplied by Mette Rytgaard of Copenhagen Re. \nNote that these data form an irregular time series. \n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(danish)</code></pre>\n<h3>Format</h3>\n<p>A numeric vector containing 2167 observations, with a\n<code>times</code> attribute which is a <code>POSIXct</code> object\nof the same length.</p>\n</main>\n</div>\n"
+   "config" : {
+      "graphType" : "Treemap",
+      "title" : "Danish Fire Insurance Claims",
+      "subtitle" : "evir - danish"
+   }
 }

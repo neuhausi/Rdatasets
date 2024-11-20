@@ -1,14 +1,14 @@
 var BurtInfo ={
-   "format" : "This data frame contains the following columns:",
-   "reference" : "Burt, C. (1966) \nThe genetic determination of differences in intelligence: \nA study of monozygotic twins reared together and apart. \nBritish Journal of Psychology 57, 137&ndash;153.",
-   "title" : "Fraudulent Data on IQs of Twins Raised Apart",
    "parameters" : {
-      "IQbio" : "IQ of twin raised by biological parents",
       "class" : "A factor with levels (note: out of order):\nhigh;\nlow;\nmedium.",
-      "IQfoster" : "IQ of twin raised by foster parents"
+      "IQfoster" : "IQ of twin raised by foster parents",
+      "IQbio" : "IQ of twin raised by biological parents"
    },
+   "description" : "Description\nThe Burt data frame has 27 rows and 4 columns.\nThe &ldquo;data&rdquo; were simply (and notoriously) manufactured.  The\nsame data are in the dataset &ldquo;twins\" in the alr3\npackage, but with different labels.",
+   "title" : "Fraudulent Data on IQs of Twins Raised Apart",
    "usage" : "Burt",
-   "description" : "Description\nThe Burt data frame has 27 rows and 4 columns.\nThe &ldquo;data&rdquo; were simply (and notoriously) manufactured.  The\nsame data are in the dataset &ldquo;twins\" in the alr3\npackage, but with different labels."
+   "reference" : "Burt, C. (1966) \nThe genetic determination of differences in intelligence: \nA study of monozygotic twins reared together and apart. \nBritish Journal of Psychology 57, 137&ndash;153.",
+   "format" : "This data frame contains the following columns:"
 }
 
 var Burt = [

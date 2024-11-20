@@ -1,4 +1,5 @@
 {
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>Chirot</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>The 1907 Romanian Peasant Rebellion</h2>\n<h3>Description</h3>\n<p>The <code>Chirot</code> data frame has 32 rows and 5 columns.\nThe observations are counties in Romania.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>Chirot\n</code></pre>\n<h3>Format</h3>\n<p>This data frame contains the following columns:\n</p>\n<dl>\n<dt>intensity</dt><dd>\n<p>Intensity of the rebellion\n</p>\n</dd>\n<dt>commerce</dt><dd>\n<p>Commercialization of agriculture\n</p>\n</dd>\n<dt>tradition</dt><dd>\n<p>Traditionalism\n</p>\n</dd>\n<dt>midpeasant</dt><dd>\n<p>Strength of middle peasantry\n</p>\n</dd>\n<dt>inequality</dt><dd>\n<p>Inequality of land tenure\n</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>Chirot, D. and C. Ragin (1975)\nThe market, tradition and peasant rebellion: The case of Romania.\n<em>American Sociological Review</em> <b>40</b>, 428&ndash;444 [Table 1].\n</p>\n<h3>References</h3>\n<p>Fox, J. (2016)\n<em>Applied Regression Analysis and Generalized Linear Models</em>,\nThird Edition. Sage.  \n</p>\n</main>\n</div>\n",
    "data" : {
       "y" : {
          "data" : [
@@ -227,6 +228,13 @@
                0.26
             ]
          ],
+         "smps" : [
+            "intensity",
+            "commerce",
+            "tradition",
+            "midpeasant",
+            "inequality"
+         ],
          "vars" : [
             "Var1",
             "Var2",
@@ -260,21 +268,13 @@
             "Var30",
             "Var31",
             "Var32"
-         ],
-         "smps" : [
-            "intensity",
-            "commerce",
-            "tradition",
-            "midpeasant",
-            "inequality"
          ]
       }
    },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>Chirot</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>The 1907 Romanian Peasant Rebellion</h2>\n<h3>Description</h3>\n<p>The <code>Chirot</code> data frame has 32 rows and 5 columns.\nThe observations are counties in Romania.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>Chirot\n</code></pre>\n<h3>Format</h3>\n<p>This data frame contains the following columns:\n</p>\n<dl>\n<dt>intensity</dt><dd>\n<p>Intensity of the rebellion\n</p>\n</dd>\n<dt>commerce</dt><dd>\n<p>Commercialization of agriculture\n</p>\n</dd>\n<dt>tradition</dt><dd>\n<p>Traditionalism\n</p>\n</dd>\n<dt>midpeasant</dt><dd>\n<p>Strength of middle peasantry\n</p>\n</dd>\n<dt>inequality</dt><dd>\n<p>Inequality of land tenure\n</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>Chirot, D. and C. Ragin (1975)\nThe market, tradition and peasant rebellion: The case of Romania.\n<em>American Sociological Review</em> <b>40</b>, 428&ndash;444 [Table 1].\n</p>\n<h3>References</h3>\n<p>Fox, J. (2016)\n<em>Applied Regression Analysis and Generalized Linear Models</em>,\nThird Edition. Sage.  \n</p>\n</main>\n</div>\n",
    "config" : {
-      "subtitle" : "carData - Chirot",
-      "graphType" : "Scatter2D",
       "title" : "The 1907 Romanian Peasant Rebellion",
-      "scatterPlotMatrix" : 1
+      "scatterPlotMatrix" : 1,
+      "subtitle" : "carData - Chirot",
+      "graphType" : "Scatter2D"
    }
 }

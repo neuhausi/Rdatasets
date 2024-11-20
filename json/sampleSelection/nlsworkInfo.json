@@ -1,0 +1,30 @@
+{
+   "title" : "National Longitudinal Survey of Young Working Women",
+   "description" : "Description\nThe nlswork data frame contains data about 4711 young working women\nwho had an age of 14&ndash;26 years in 1968.\nThese data are collected within the \"National Longitudinal Survey\"\nover the years 1968-1988 (with gaps).\nThere are 28534 observations in total.",
+   "usage" : "data(nlswork)",
+   "reference" : "Two different versions of this data set are available on the internet.\nThey are slighly different:\nThe variable wks_work (weeks worked last year)\nis 101 in this version (from Stata),\nbut NA in the version provided by the Boston College\nfor the observation with idcode = 1 and year = 83.\nMoreover, this variable\nis NA in this version (from Stata),\nbut 104 in the version provided by the Boston College\nfor the observation with idcode = 2 and year = 87.",
+   "parameters" : {
+      "race" : "1=white, 2=black, 3=other.",
+      "not_smsa" : "1 if not SMSA.",
+      "ln_wage" : "ln(wage/GNP deflator).",
+      "wks_work" : "weeks worked last year.",
+      "nev_mar" : "1 if never married.",
+      "tenure" : "job tenure, in years.",
+      "ttl_exp" : "total work experience.",
+      "occ_code" : "occupation.",
+      "year" : "interview year.",
+      "age" : "age in current year.",
+      "idcode" : "NLS ID.",
+      "msp" : "1 if married, spouse present.",
+      "ind_code" : "industry of employment.",
+      "south" : "1 if south.",
+      "c_city" : "1 if central city.",
+      "wks_ue" : "weeks unemployed last year.",
+      "collgrad" : "1 if college graduate.",
+      "hours" : "usual hours worked.",
+      "birth_yr" : "birth year.",
+      "union" : "1 if union.",
+      "grade" : "current grade completed."
+   },
+   "format" : "This data frame contains the following columns:"
+}

@@ -1,0 +1,12 @@
+{
+   "parameters" : {
+      "Traffic" : "Vehicles (in 1,000's)",
+      "Month" : "Month (1 to 12)",
+      "t" : "Time frame (1 to 48)",
+      "Year" : "Year (2012 to 2015)"
+   },
+   "title" : "Monthly Peace Bridge Traffic ( 2012-2015)",
+   "description" : "Description\nMonthly traffic (in 1,000's) across the Peace Bridge between Canada and the U.S.",
+   "usage" : "A data frame with 48 observations on the following 4 variables.",
+   "reference" : "Monthly traffic (in thousands of vehicles) across the Peace Bridge between the U.S. and Canada near Niagara Falls between January 2012 and December 2015.  Note PeaceBridge2003 has similar data starting in 2003."
+}

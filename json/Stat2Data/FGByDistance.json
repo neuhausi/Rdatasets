@@ -375,15 +375,6 @@
                0
             ]
          ],
-         "vars" : [
-            "Row",
-            "Dist",
-            "N",
-            "Makes",
-            "PropMakes",
-            "Blocked",
-            "PropBlocked"
-         ],
          "smps" : [
             "Smp1",
             "Smp2",
@@ -436,12 +427,21 @@
             "Smp49",
             "Smp50",
             "Smp51"
+         ],
+         "vars" : [
+            "Row",
+            "Dist",
+            "N",
+            "Makes",
+            "PropMakes",
+            "Blocked",
+            "PropBlocked"
          ]
       }
    },
    "config" : {
       "subtitle" : "Stat2Data - FGByDistance",
-      "graphType" : "Heatmap",
-      "title" : "Results of NFL Field Goal Attempts"
+      "title" : "Results of NFL Field Goal Attempts",
+      "graphType" : "Heatmap"
    }
 }

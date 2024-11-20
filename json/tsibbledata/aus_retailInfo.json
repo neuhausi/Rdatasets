@@ -1,0 +1,6 @@
+{
+   "format" : "Each series is uniquely identified using two keys:",
+   "title" : "Australian retail trade turnover",
+   "description" : "Description\naus_retail is a monthly tsibble with one value:\nTurnover:       Retail turnover in $Million AUD",
+   "usage" : "Time series of class tsibble"
+}

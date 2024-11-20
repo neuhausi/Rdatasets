@@ -1,23 +1,23 @@
 var ClothingInfo ={
    "parameters" : {
-      "inv1" : "investment in shop-premises",
-      "inv2" : "investment in automation.",
-      "ssize" : "sales floor space of the store (in m$^2$).",
-      "naux" : "number of helpers (temporary workers)",
-      "hoursw" : "total number of hours worked",
-      "hourspw" : "number of hours worked per worker",
-      "start" : "year start of business",
-      "sales" : "sales per square meter",
-      "tsales" : "annual sales in Dutch guilders",
-      "npart" : "number of part-timers",
       "nfull" : "number of full-timers",
-      "nown" : "number of owners (managers)",
-      "margin" : "gross-profit-margin"
+      "hourspw" : "number of hours worked per worker",
+      "inv1" : "investment in shop-premises",
+      "hoursw" : "total number of hours worked",
+      "sales" : "sales per square meter",
+      "margin" : "gross-profit-margin",
+      "naux" : "number of helpers (temporary workers)",
+      "inv2" : "investment in automation.",
+      "tsales" : "annual sales in Dutch guilders",
+      "start" : "year start of business",
+      "npart" : "number of part-timers",
+      "ssize" : "sales floor space of the store (in m$^2$).",
+      "nown" : "number of owners (managers)"
    },
    "description" : "Description\na cross-section from 1990\nnumber of observations :  400\nobservation :  production units\ncountry :  Netherland",
+   "title" : "Sales Data of Men's Fashion Stores",
    "usage" : "data(Clothing)",
-   "format" : "A dataframe containing :",
-   "title" : "Sales Data of Men's Fashion Stores"
+   "format" : "A dataframe containing :"
 }
 
 var Clothing = [

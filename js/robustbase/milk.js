@@ -1,19 +1,19 @@
 var milkInfo ={
-   "parameters" : {
-      "X3" : "protein content",
-      "X5" : "cheese dry substance measured in the factory",
-      "X7" : "milk dry substance",
-      "X6" : "cheese dry substance measured in the laboratory",
-      "X8" : "cheese product",
-      "X4" : "casein content",
-      "X1" : "density",
-      "X2" : "fat content"
-   },
-   "reference" : "Daudin, J.J. Duby, C. and Trecourt, P. (1988)\nStability of Principal Component Analysis Studied by the Bootstrap Method;\nStatistics 19, 241&ndash;258.",
-   "format" : "A data frame with 86 observations on the following 8 variables, all\nbut the first measure units in grams / liter.",
-   "title" : "Daudin's Milk Composition Data",
    "description" : "Description\nDaudin et al.(1988) give 8 readings on the composition of 86\ncontainers of milk.  They speak about 85 observations, but this\ncan be explained with the fact that observations 63 and 64 are\nidentical (as noted by Rocke (1996)).\nThe data set was used for analysing the stability of principal\ncomponent analysis by the bootstrap method.  In the same context, but\nusing high breakdown point robust PCA, these data were analysed by\nTodorov et al. (1994).  Atkinson (1994) used these data for ilustration\nof the forward search algorithm for identifying of multiple outliers.",
-   "usage" : "data(milk, package=\"robustbase\")"
+   "title" : "Daudin's Milk Composition Data",
+   "reference" : "Daudin, J.J. Duby, C. and Trecourt, P. (1988)\nStability of Principal Component Analysis Studied by the Bootstrap Method;\nStatistics 19, 241&ndash;258.",
+   "usage" : "data(milk, package=\"robustbase\")",
+   "parameters" : {
+      "X1" : "density",
+      "X5" : "cheese dry substance measured in the factory",
+      "X4" : "casein content",
+      "X8" : "cheese product",
+      "X3" : "protein content",
+      "X7" : "milk dry substance",
+      "X2" : "fat content",
+      "X6" : "cheese dry substance measured in the laboratory"
+   },
+   "format" : "A data frame with 86 observations on the following 8 variables, all\nbut the first measure units in grams / liter."
 }
 
 var milk = [

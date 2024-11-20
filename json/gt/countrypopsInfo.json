@@ -1,0 +1,13 @@
+{
+   "format" : "A tibble with 13,545 rows and 5 variables:",
+   "usage" : "countrypops",
+   "reference" : "Here is a glimpse at the data available in countrypops.",
+   "title" : "Yearly populations of countries from 1960 to 2022",
+   "description" : "Description\nA dataset that presents yearly, total populations of countries. Total\npopulation is based on counts of all residents regardless of legal status or\ncitizenship. Country identifiers include the English-language country names,\nand the 2- and 3-letter ISO 3166-1 country codes. Each row contains a\npopulation value for a given year (from 1960 to 2022). Any NA values\nfor populations indicate the non-existence of the entity during that year.",
+   "parameters" : {
+      "year" : "The year for the population estimate.",
+      "population" : "The population estimate, midway through the year.",
+      "country_name" : "The name of the country.",
+      "country_code_2, country_code_3" : "The 2- and 3-letter ISO 3166-1 country\ncodes."
+   }
+}

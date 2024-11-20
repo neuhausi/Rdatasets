@@ -1,7 +1,7 @@
 var Day1SurveyInfo ={
+   "description" : "Description\nData from a first day class survey in an introductory statistics course",
    "title" : "First Day Survey of Statistics Students",
-   "usage" : "A data frame with 43 observations on the following 13 variables.",
-   "description" : "Description\nData from a first day class survey in an introductory statistics course"
+   "usage" : "A data frame with 43 observations on the following 13 variables."
 }
 
 var Day1Survey = [

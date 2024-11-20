@@ -1,30 +1,10 @@
 {
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>usa_computers</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Percentage of U.S. Households with Computer Access, by Year</h2>\n<h3>Description</h3>\n<p>This is a simple and regrettably incomplete time-series on the percentage\nof U.S. households with access to a computer, by year.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>usa_computers\n</code></pre>\n<h3>Format</h3>\n<p>A data frame with 19 observations on the following 2 variables.\n</p>\n<dl>\n<dt><code>year</code></dt><dd><p>the year</p>\n</dd>\n<dt><code>value</code></dt><dd><p>the estimated percentage of households with access to a computer</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>Data are spotty and regrettably this is not a perfect time-series.\nHowever, it is useful for an in-class exercise to show that the proliferation of\nhousehold computers (over time) in the United States comes in part because of\nglobalization. Use it for that purpose. The data are reasonably faithful, but don't\ntreat it as gospel. Exact sourcing available upon request.\n</p>\n<h3>Source</h3>\n<p>Various: U.S. Census Bureau, Current Population Survey, and\nAmerican Community Survey\n</p>\n</main>\n</div>\n",
    "data" : {
       "y" : {
          "smps" : [
             "year",
             "value"
-         ],
-         "vars" : [
-            "Var1",
-            "Var2",
-            "Var3",
-            "Var4",
-            "Var5",
-            "Var6",
-            "Var7",
-            "Var8",
-            "Var9",
-            "Var10",
-            "Var11",
-            "Var12",
-            "Var13",
-            "Var14",
-            "Var15",
-            "Var16",
-            "Var17",
-            "Var18",
-            "Var19"
          ],
          "data" : [
             [
@@ -103,13 +83,33 @@
                2018,
                91.8
             ]
+         ],
+         "vars" : [
+            "Var1",
+            "Var2",
+            "Var3",
+            "Var4",
+            "Var5",
+            "Var6",
+            "Var7",
+            "Var8",
+            "Var9",
+            "Var10",
+            "Var11",
+            "Var12",
+            "Var13",
+            "Var14",
+            "Var15",
+            "Var16",
+            "Var17",
+            "Var18",
+            "Var19"
          ]
       }
    },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>usa_computers</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Percentage of U.S. Households with Computer Access, by Year</h2>\n<h3>Description</h3>\n<p>This is a simple and regrettably incomplete time-series on the percentage\nof U.S. households with access to a computer, by year.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>usa_computers\n</code></pre>\n<h3>Format</h3>\n<p>A data frame with 19 observations on the following 2 variables.\n</p>\n<dl>\n<dt><code>year</code></dt><dd><p>the year</p>\n</dd>\n<dt><code>value</code></dt><dd><p>the estimated percentage of households with access to a computer</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>Data are spotty and regrettably this is not a perfect time-series.\nHowever, it is useful for an in-class exercise to show that the proliferation of\nhousehold computers (over time) in the United States comes in part because of\nglobalization. Use it for that purpose. The data are reasonably faithful, but don't\ntreat it as gospel. Exact sourcing available upon request.\n</p>\n<h3>Source</h3>\n<p>Various: U.S. Census Bureau, Current Population Survey, and\nAmerican Community Survey\n</p>\n</main>\n</div>\n",
    "config" : {
       "subtitle" : "stevedata - usa_computers",
-      "graphType" : "Scatter2D",
-      "title" : "Percentage of U.S. Households with Computer Access"
+      "title" : "Percentage of U.S. Households with Computer Access",
+      "graphType" : "Scatter2D"
    }
 }

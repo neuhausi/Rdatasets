@@ -1,13 +1,13 @@
 var infmortrateInfo ={
-   "description" : "Description\nThis entry gives the number of deaths of infants under one year old in 2012\nper 1,000 live births in the same year. This rate is often used as an\nindicator of the level of health in a country.",
-   "usage" : "infmortrate",
+   "format" : "A data frame with 222 observations on the following 2 variables.",
    "parameters" : {
-      "country" : "Name of country.",
-      "inf_mort_rate" : "Infant mortality rate per 1,000 live births."
+      "inf_mort_rate" : "Infant mortality rate per 1,000 live births.",
+      "country" : "Name of country."
    },
    "title" : "Infant Mortality Rates, 2012",
-   "reference" : "The data is given in decreasing order of infant mortality rates. There are a\nfew potential outliers.",
-   "format" : "A data frame with 222 observations on the following 2 variables."
+   "description" : "Description\nThis entry gives the number of deaths of infants under one year old in 2012\nper 1,000 live births in the same year. This rate is often used as an\nindicator of the level of health in a country.",
+   "usage" : "infmortrate",
+   "reference" : "The data is given in decreasing order of infant mortality rates. There are a\nfew potential outliers."
 }
 
 var infmortrate = [

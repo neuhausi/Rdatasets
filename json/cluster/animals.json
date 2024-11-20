@@ -1,10 +1,10 @@
 {
    "config" : {
-      "sizeBy" : null,
-      "graphType" : "Scatter2D",
       "shapeBy" : "gro",
-      "colorBy" : "end",
+      "sizeBy" : null,
       "scatterPlotMatrix" : 1,
+      "graphType" : "Scatter2D",
+      "colorBy" : "end",
       "subtitle" : "cluster - animals",
       "title" : "Attributes of Animals"
    },
@@ -57,6 +57,34 @@
          ]
       },
       "y" : {
+         "vars" : [
+            "ant",
+            "bee",
+            "cat",
+            "cpl",
+            "chi",
+            "cow",
+            "duc",
+            "eag",
+            "ele",
+            "fly",
+            "fro",
+            "her",
+            "lio",
+            "liz",
+            "lob",
+            "man",
+            "rab",
+            "sal",
+            "spi",
+            "wha"
+         ],
+         "smps" : [
+            "war",
+            "fly",
+            "ver",
+            "hai"
+         ],
          "data" : [
             [
                1,
@@ -178,34 +206,6 @@
                2,
                1
             ]
-         ],
-         "vars" : [
-            "ant",
-            "bee",
-            "cat",
-            "cpl",
-            "chi",
-            "cow",
-            "duc",
-            "eag",
-            "ele",
-            "fly",
-            "fro",
-            "her",
-            "lio",
-            "liz",
-            "lob",
-            "man",
-            "rab",
-            "sal",
-            "spi",
-            "wha"
-         ],
-         "smps" : [
-            "war",
-            "fly",
-            "ver",
-            "hai"
          ]
       }
    }

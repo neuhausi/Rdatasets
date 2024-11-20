@@ -1,13 +1,13 @@
 var StrikeInfo ={
+   "format" : "A dataframe containing :",
    "parameters" : {
       "duration" : "strike duration in days",
       "prod" : "unanticipated output"
    },
-   "title" : "Strike Duration Data",
    "reference" : "Kennan, J. (1985) &ldquo;The duration of contract strikes in U.S. manufacturing&rdquo;, Journal of Econometrics, 28, 5-28.",
-   "format" : "A dataframe containing :",
+   "usage" : "data(Strike)",
    "description" : "Description\na cross-section from 1968 to 1976\nnumber of observations :  62\ncountry :  United States",
-   "usage" : "data(Strike)"
+   "title" : "Strike Duration Data"
 }
 
 var Strike = [

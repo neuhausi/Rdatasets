@@ -1,15 +1,15 @@
 var MpyrInfo ={
-   "usage" : "data(Mpyr)",
    "description" : "Description\nannual observations from 1900 to 1989\nnumber of observations :  90\nobservation :  country\ncountry :  United States",
-   "format" : "A time series containing :",
    "title" : "Money, National Product and Interest Rate",
    "reference" : "Stock, J.  and  M.  Watson (1999) &ldquo;Testing for common trends&rdquo;, Journal of the American Statistical Association, 83, 1097-1107.",
+   "usage" : "data(Mpyr)",
    "parameters" : {
-      "m" : "natural log of M1",
-      "p" : "natural log of the net national product price deflator",
+      "r" : "the commercial paper rate in percent at an annual rate",
       "y" : "natural log of the net national product",
-      "r" : "the commercial paper rate in percent at an annual rate"
-   }
+      "m" : "natural log of M1",
+      "p" : "natural log of the net national product price deflator"
+   },
+   "format" : "A time series containing :"
 }
 
 var Mpyr = [

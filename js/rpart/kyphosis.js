@@ -1,15 +1,15 @@
 var kyphosisInfo ={
-   "usage" : "kyphosis",
-   "description" : "Description\nThe kyphosis data frame has 81 rows and 4 columns.\nrepresenting data on children who have had corrective spinal surgery",
-   "format" : "This data frame contains the following columns:",
-   "reference" : "John M. Chambers and Trevor J. Hastie eds. (1992)\nStatistical Models in S, Wadsworth and Brooks/Cole,\nPacific Grove, CA.",
    "title" : "Data on Children who have had Corrective Spinal Surgery",
+   "description" : "Description\nThe kyphosis data frame has 81 rows and 4 columns.\nrepresenting data on children who have had corrective spinal surgery",
+   "usage" : "kyphosis",
+   "reference" : "John M. Chambers and Trevor J. Hastie eds. (1992)\nStatistical Models in S, Wadsworth and Brooks/Cole,\nPacific Grove, CA.",
    "parameters" : {
-      "Kyphosis" : "a factor with levels\nabsent \npresent\nindicating if a kyphosis (a type of deformation)\nwas present after the operation.",
       "Age" : "in months",
-      "Number" : "the number of vertebrae involved",
-      "Start" : "the number of the first (topmost) vertebra operated on."
-   }
+      "Start" : "the number of the first (topmost) vertebra operated on.",
+      "Kyphosis" : "a factor with levels\nabsent \npresent\nindicating if a kyphosis (a type of deformation)\nwas present after the operation.",
+      "Number" : "the number of vertebrae involved"
+   },
+   "format" : "This data frame contains the following columns:"
 }
 
 var kyphosis = [

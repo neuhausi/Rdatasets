@@ -1,0 +1,14 @@
+{
+   "description" : "Description\nData frame giving the number of damage incidents and aggregate\nmonths of service by ship type, year of construction, and period of operation.",
+   "title" : "Ships Damage Data",
+   "reference" : "P. McCullagh and J. A. Nelder, (1983),\nGeneralized Linear Models. Chapman & Hall, section 6.3.2, page 137",
+   "usage" : "ships",
+   "parameters" : {
+      "period" : "period of operation : 1960&ndash;74, 75&ndash;79.",
+      "type" : "type: \"A\" to \"E\".",
+      "year" : "year of construction: 1960&ndash;64, 65&ndash;69, 70&ndash;74, 75&ndash;79\n(coded as \"60\", \"65\", \"70\", \"75\").",
+      "incidents" : "number of damage incidents.",
+      "service" : "aggregate months of service."
+   },
+   "format" : "type\ntype: \"A\" to \"E\".\n\n\nyear\nyear of construction: 1960&ndash;64, 65&ndash;69, 70&ndash;74, 75&ndash;79\n(coded as \"60\", \"65\", \"70\", \"75\").\n\n\nperiod\nperiod of operation : 1960&ndash;74, 75&ndash;79.\n\n\nservice\naggregate months of service.\n\n\nincidents\nnumber of damage incidents."
+}

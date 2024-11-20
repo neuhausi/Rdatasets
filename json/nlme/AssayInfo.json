@@ -1,0 +1,12 @@
+{
+   "usage" : "This data frame contains the following columns:",
+   "reference" : "These data, courtesy of Rich Wolfe and David Lansky from Searle,\nInc., come from a bioassay run on a 96-well cell culture plate.  The\nassay is performed using a split-block design.  The 8 rows on the\nplate are labeled A&ndash;H from top to bottom and the 12 columns on the\nplate are labeled 1&ndash;12 from left to right.  Only the central 60 wells\nof the plate are used for the bioassay (the intersection of rows B&ndash;G\nand columns 2&ndash;11).  There are two blocks in the design: Block 1\ncontains columns 2&ndash;6 and Block 2 contains columns 7&ndash;11. Within each\nblock, six samples are assigned randomly to rows and five (serial)\ndilutions are assigned randomly to columns. The response variable is\nthe logarithm of the optical density. The cells are treated with a\ncompound that they metabolize to produce the stain.  Only live cells\ncan make the stain, so the optical density is a measure of the number\nof cells that are alive and healthy.",
+   "title" : "Bioassay on Cell Culture Plate",
+   "description" : "Description\nThe Assay data frame has 60 rows and 4 columns.",
+   "parameters" : {
+      "logDens" : "a numeric vector of the log-optical density",
+      "Block" : "an ordered factor with levels\n2 < 1 identifying the block where the wells\nare measured.",
+      "dilut" : "a factor with levels\n1 to 5\nindicating the dilution applied to the well",
+      "sample" : "a factor with levels a to f identifying the\nsample corresponding to the well."
+   }
+}

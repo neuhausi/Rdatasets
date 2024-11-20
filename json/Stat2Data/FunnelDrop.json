@@ -1,6 +1,17 @@
 {
+   "config" : {
+      "subtitle" : "Stat2Data - FunnelDrop",
+      "title" : "Funnel Drop Times",
+      "graphType" : "Scatter3D"
+   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>FunnelDrop</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Funnel Drop Times</h2>\n<h3>Description</h3>\n<p>Experiment with a ball swirling thorough a funnel\n</p>\n<h3>Format</h3>\n<p>A data frame with 120 observations on the following 3 variables.\n</p>\n<dl>\n<dt><code>Funnel</code></dt><dd><p>Height of the funnel (inches)</p>\n</dd>\n<dt><code>Tube</code></dt><dd><p>Height of the drop tube (inches)</p>\n</dd>\n<dt><code>Time</code></dt><dd><p>Time (in seconds) for the ball to drop/swirl though the funnel</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>Data from a class experiment to see where a steel ball was rolled through a plastic tube into a long plastic funnel.  The angle of the funnel and the angle of the tube with respect to the flat table could be adjusted by changing the height of either (Funnel measured from the table, Tube measured from the top of the funnel).   The ball rolls down the tube, then swirls around the funnel until dropping out at the bottom.  Total trip time was measured with a stopwatch.  Heights were adjusted after every two drops in a randomized order.\n</p>\n<h3>Source</h3>\n<p>The funnel dropping experiment was originally described in Gunter, B. (1993) &quot;Through a Funnel Slowly with Ball Bearing and Insight to Teach Experimental Design,&quot; The American Statistician, Vol. 47.   These data come from a class experiment based on the setup in that article.\n</p>\n</main>\n</div>\n",
    "data" : {
       "y" : {
+         "smps" : [
+            "Funnel",
+            "Tube",
+            "Time"
+         ],
          "data" : [
             [
                8,
@@ -603,11 +614,6 @@
                14
             ]
          ],
-         "smps" : [
-            "Funnel",
-            "Tube",
-            "Time"
-         ],
          "vars" : [
             "Var1",
             "Var2",
@@ -731,11 +737,5 @@
             "Var120"
          ]
       }
-   },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>FunnelDrop</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Funnel Drop Times</h2>\n<h3>Description</h3>\n<p>Experiment with a ball swirling thorough a funnel\n</p>\n<h3>Format</h3>\n<p>A data frame with 120 observations on the following 3 variables.\n</p>\n<dl>\n<dt><code>Funnel</code></dt><dd><p>Height of the funnel (inches)</p>\n</dd>\n<dt><code>Tube</code></dt><dd><p>Height of the drop tube (inches)</p>\n</dd>\n<dt><code>Time</code></dt><dd><p>Time (in seconds) for the ball to drop/swirl though the funnel</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>Data from a class experiment to see where a steel ball was rolled through a plastic tube into a long plastic funnel.  The angle of the funnel and the angle of the tube with respect to the flat table could be adjusted by changing the height of either (Funnel measured from the table, Tube measured from the top of the funnel).   The ball rolls down the tube, then swirls around the funnel until dropping out at the bottom.  Total trip time was measured with a stopwatch.  Heights were adjusted after every two drops in a randomized order.\n</p>\n<h3>Source</h3>\n<p>The funnel dropping experiment was originally described in Gunter, B. (1993) &quot;Through a Funnel Slowly with Ball Bearing and Insight to Teach Experimental Design,&quot; The American Statistician, Vol. 47.   These data come from a class experiment based on the setup in that article.\n</p>\n</main>\n</div>\n",
-   "config" : {
-      "subtitle" : "Stat2Data - FunnelDrop",
-      "title" : "Funnel Drop Times",
-      "graphType" : "Scatter3D"
    }
 }

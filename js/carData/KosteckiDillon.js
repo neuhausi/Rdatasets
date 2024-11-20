@@ -1,20 +1,20 @@
 var KosteckiDillonInfo ={
-   "parameters" : {
-      "age" : "at onset of treatment, in years.",
-      "medication" : "a factor with levels none reduced continuing,\nrepresenting subjects who discontinued their medication, who continued but at a reduced\ndose, or who continued at the previous dose.",
-      "time" : "time in days relative to the onset of treatment, which occurs at time 0.",
-      "id" : "Patient id.",
-      "hatype" : "a factor with levels Aura Mixed No Aura, the type of\nmigraine experienced by a subject.",
-      "sex" : "a factor with levels female male.",
-      "airq" : "a measure of air quality.",
-      "dos" : "time in days from the start of the study, January 1 of the first year of the study.",
-      "headache" : "a factor with levels no yes."
-   },
-   "format" : "A data frame with 4152 observations on 133 subjects for the following 9 variables.",
-   "reference" : "The data consist of headache logs kept by 133 patients in a treatment program in which bio-feedback \nwas used to attempt to reduce migraine frequency and severity.\nPatients entered the program at different times over a period of about 3 years. \nPatients were encouraged to begin their logs four weeks before the onset of treatment \nand to continue for one month afterwards, \nbut only 55 patients have data preceding the onset of treatment.",
    "title" : "Treatment of Migraine Headaches",
    "description" : "Description\nSubset of data on migraine treatments collected by Tammy Kostecki-Dillon.",
-   "usage" : "KosteckiDillon"
+   "usage" : "KosteckiDillon",
+   "reference" : "The data consist of headache logs kept by 133 patients in a treatment program in which bio-feedback \nwas used to attempt to reduce migraine frequency and severity.\nPatients entered the program at different times over a period of about 3 years. \nPatients were encouraged to begin their logs four weeks before the onset of treatment \nand to continue for one month afterwards, \nbut only 55 patients have data preceding the onset of treatment.",
+   "parameters" : {
+      "medication" : "a factor with levels none reduced continuing,\nrepresenting subjects who discontinued their medication, who continued but at a reduced\ndose, or who continued at the previous dose.",
+      "hatype" : "a factor with levels Aura Mixed No Aura, the type of\nmigraine experienced by a subject.",
+      "sex" : "a factor with levels female male.",
+      "id" : "Patient id.",
+      "headache" : "a factor with levels no yes.",
+      "age" : "at onset of treatment, in years.",
+      "airq" : "a measure of air quality.",
+      "time" : "time in days relative to the onset of treatment, which occurs at time 0.",
+      "dos" : "time in days from the start of the study, January 1 of the first year of the study."
+   },
+   "format" : "A data frame with 4152 observations on 133 subjects for the following 9 variables."
 }
 
 var KosteckiDillon = [

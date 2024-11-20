@@ -1,20 +1,20 @@
 var brexit_pollsInfo ={
-   "usage" : "brexit_polls",
-   "description" : "Description\nBrexit (EU referendum) poll outcomes for 127 polls from January 2016 to the referendum date on June 23, 2016.",
    "format" : "An object of class \"data.frame\".",
-   "reference" : "Wikipedia",
-   "title" : "Brexit Poll Data",
    "parameters" : {
-      "poll_type. Online or telephone poll." : null,
       "samplesize. Sample size of poll." : null,
       "spread. Spread calculated as remain - leave." : null,
-      "pollster. Pollster conducting the poll." : null,
-      "enddate. End date of poll." : null,
+      "poll_type. Online or telephone poll." : null,
       "startdate. Start date of poll." : null,
       "undecided. Proportion of undecided voters." : null,
+      "pollster. Pollster conducting the poll." : null,
       "remain. Proportion voting Remain." : null,
+      "enddate. End date of poll." : null,
       "leave. Proportion voting Leave." : null
-   }
+   },
+   "reference" : "Wikipedia",
+   "usage" : "brexit_polls",
+   "description" : "Description\nBrexit (EU referendum) poll outcomes for 127 polls from January 2016 to the referendum date on June 23, 2016.",
+   "title" : "Brexit Poll Data"
 }
 
 var brexit_polls = [

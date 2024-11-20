@@ -1,15 +1,15 @@
 var OrnsteinInfo ={
-   "parameters" : {
-      "interlocks" : "Number of interlocking director and executive positions shared with\nother major firms.",
-      "assets" : "Assets in millions of dollars.",
-      "sector" : "Industrial sector.\nA factor with levels:\nAGR, agriculture, food, light industry;\nBNK, banking; \nCON, construction; \nFIN, other financial;\nHLD, holding companies; \nMAN, heavy manufacturing; \nMER, merchandizing;\nMIN, mining, metals, etc.;\nTRN, transport;\nWOD, wood and paper.",
-      "nation" : "Nation of control.\nA factor with levels:\nCAN, Canada;\nOTH, other foreign;\nUK, Britain;\nUS, United States."
-   },
    "format" : "This data frame contains the following columns:",
-   "reference" : "Ornstein, M. (1976) \nThe boards and executives of the largest Canadian corporations. \nCanadian Journal of Sociology 1, 411&ndash;437.",
-   "title" : "Interlocking Directorates Among Major Canadian Firms",
    "description" : "Description\nThe Ornstein data frame has 248 rows and 4 columns.\nThe observations are the 248 largest Canadian firms with\npublicly available information in the mid-1970s. The names\nof the firms were not available.",
-   "usage" : "Ornstein"
+   "title" : "Interlocking Directorates Among Major Canadian Firms",
+   "usage" : "Ornstein",
+   "reference" : "Ornstein, M. (1976) \nThe boards and executives of the largest Canadian corporations. \nCanadian Journal of Sociology 1, 411&ndash;437.",
+   "parameters" : {
+      "nation" : "Nation of control.\nA factor with levels:\nCAN, Canada;\nOTH, other foreign;\nUK, Britain;\nUS, United States.",
+      "interlocks" : "Number of interlocking director and executive positions shared with\nother major firms.",
+      "sector" : "Industrial sector.\nA factor with levels:\nAGR, agriculture, food, light industry;\nBNK, banking; \nCON, construction; \nFIN, other financial;\nHLD, holding companies; \nMAN, heavy manufacturing; \nMER, merchandizing;\nMIN, mining, metals, etc.;\nTRN, transport;\nWOD, wood and paper.",
+      "assets" : "Assets in millions of dollars."
+   }
 }
 
 var Ornstein = [

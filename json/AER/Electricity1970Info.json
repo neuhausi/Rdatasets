@@ -1,0 +1,17 @@
+{
+   "format" : "A data frame containing 158 cross-section observations on 9 variables.",
+   "parameters" : {
+      "fuelshare" : "cost share for fuel.",
+      "cost" : "total cost.",
+      "fuel" : "fuel price.",
+      "laborshare" : "cost share for labor.",
+      "capitalshare" : "cost share for capital.",
+      "labor" : "wage rate.",
+      "output" : "total output.",
+      "capital" : "capital price index."
+   },
+   "description" : "Description\nCross-section data, at the firm level, on electric power generation.",
+   "title" : "Cost Function of Electricity Producers 1970",
+   "usage" : "data(\"Electricity1970\")",
+   "reference" : "The data are from Christensen and Greene (1976) and pertain to the year 1970. \nHowever, the file contains some extra observations, the holding companies. \nOnly the first 123 observations are needed to replicate Christensen and Greene (1976)."
+}

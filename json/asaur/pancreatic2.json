@@ -1,10 +1,11 @@
 {
    "config" : {
-      "subtitle" : "asaur - pancreatic2",
       "colorBy" : "stage",
+      "graphType" : "Scatter3D",
       "title" : "pancreatic2",
-      "graphType" : "Scatter3D"
+      "subtitle" : "asaur - pancreatic2"
    },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>pancreatic2</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>pancreatic2\n</h2>\n<h3>Description</h3>\n<p>This is the same data as in 'pancreatic', with overall and progression-free survival calculated. Dates have been removed.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(\"pancreatic2\")</code></pre>\n<h3>Format</h3>\n<p>A data frame with 41 observations on the following 4 variables.\n</p>\n<dl>\n<dt><code>pfs</code></dt><dd><p>Progression-free survival: Time from entry until disease progression. \nIf no progression was observed, before death, the time to death is used.</p>\n</dd>\n<dt><code>os</code></dt><dd><p>Overall survival: Time from entry until death</p>\n</dd>\n<dt><code>status</code></dt><dd><p>This censoring indicator is 1 for all patients, since all patients died.</p>\n</dd>\n<dt><code>stage</code></dt><dd><p>a factor with levels <code>LA</code> (locally advanced) or <code>M</code> (metastatic)</p>\n</dd>\n</dl>\n<h3>References</h3>\n<p>Moss RA, Moore D, Mulcahy MF, Nahum K, Saraiya B, Eddy S, Kleber M, and Poplin EA (2012)\nA multi-institutional phase 2 study of imatinib mesylate and gemcitabine for first-line treatment of advanced pancreatic cancer. Gastrointestinal Cancer Research 5, 77 - 83.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>data(pancreatic2)\n</code></pre>\n</main>\n</div>\n",
    "data" : {
       "z" : {
          "stage" : [
@@ -52,11 +53,6 @@
          ]
       },
       "y" : {
-         "smps" : [
-            "pfs",
-            "os",
-            "status"
-         ],
          "vars" : [
             "Var1",
             "Var2",
@@ -99,6 +95,11 @@
             "Var39",
             "Var40",
             "Var41"
+         ],
+         "smps" : [
+            "pfs",
+            "os",
+            "status"
          ],
          "data" : [
             [
@@ -308,6 +309,5 @@
             ]
          ]
       }
-   },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>pancreatic2</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>pancreatic2\n</h2>\n<h3>Description</h3>\n<p>This is the same data as in 'pancreatic', with overall and progression-free survival calculated. Dates have been removed.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(\"pancreatic2\")</code></pre>\n<h3>Format</h3>\n<p>A data frame with 41 observations on the following 4 variables.\n</p>\n<dl>\n<dt><code>pfs</code></dt><dd><p>Progression-free survival: Time from entry until disease progression. \nIf no progression was observed, before death, the time to death is used.</p>\n</dd>\n<dt><code>os</code></dt><dd><p>Overall survival: Time from entry until death</p>\n</dd>\n<dt><code>status</code></dt><dd><p>This censoring indicator is 1 for all patients, since all patients died.</p>\n</dd>\n<dt><code>stage</code></dt><dd><p>a factor with levels <code>LA</code> (locally advanced) or <code>M</code> (metastatic)</p>\n</dd>\n</dl>\n<h3>References</h3>\n<p>Moss RA, Moore D, Mulcahy MF, Nahum K, Saraiya B, Eddy S, Kleber M, and Poplin EA (2012)\nA multi-institutional phase 2 study of imatinib mesylate and gemcitabine for first-line treatment of advanced pancreatic cancer. Gastrointestinal Cancer Research 5, 77 - 83.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>data(pancreatic2)\n</code></pre>\n</main>\n</div>\n"
+   }
 }

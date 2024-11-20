@@ -1,15 +1,15 @@
 var beaver2Info ={
+   "format" : "The beaver1 data frame has 114 rows and 4 columns on body\ntemperature measurements at 10 minute intervals.",
+   "parameters" : {
+      "day" : "Day of observation (in days since the beginning of\n1990), December 12&ndash;13 (beaver1) and November 3&ndash;4\n(beaver2).",
+      "temp" : "Measured body temperature in degrees Celsius.",
+      "activ" : "Indicator of activity outside the retreat.",
+      "time" : "Time of observation, in the form 0330 for\n3:30am"
+   },
+   "reference" : "The observation at 22:20 is missing in beaver1.",
    "usage" : "beaver1\nbeaver2",
    "description" : "Description\nReynolds (1994) describes a small part of a study of the long-term\ntemperature dynamics of beaver Castor canadensis in\nnorth-central Wisconsin.  Body temperature was measured by telemetry\nevery 10 minutes for four females, but data from a one period of\nless than a day for each of two animals is used there.",
-   "format" : "The beaver1 data frame has 114 rows and 4 columns on body\ntemperature measurements at 10 minute intervals.",
-   "title" : "Body Temperature Series of Two Beavers",
-   "reference" : "The observation at 22:20 is missing in beaver1.",
-   "parameters" : {
-      "time" : "Time of observation, in the form 0330 for\n3:30am",
-      "temp" : "Measured body temperature in degrees Celsius.",
-      "day" : "Day of observation (in days since the beginning of\n1990), December 12&ndash;13 (beaver1) and November 3&ndash;4\n(beaver2).",
-      "activ" : "Indicator of activity outside the retreat."
-   }
+   "title" : "Body Temperature Series of Two Beavers"
 }
 
 var beaver2 = [

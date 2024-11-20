@@ -1,14 +1,14 @@
 var TeenPregnancyInfo ={
-   "reference" : "State level data on teen pregnancies, church attendance, and role in the U.S. Civil War.",
-   "title" : "State Teen Pregnancy Rates",
-   "usage" : "A data frame with 50 observations on the following 4 variables.",
    "parameters" : {
-      "State" : "State abbreviation",
-      "CivilWar" : "Role in Civil War (B=border, C=Confederate, O=other, or U=union)",
+      "Church" : "Percentage who attended church in previous week (from a state survey)",
       "Teen" : "Number of pregnancies per 1000 teenage girls in state",
-      "Church" : "Percentage who attended church in previous week (from a state survey)"
+      "CivilWar" : "Role in Civil War (B=border, C=Confederate, O=other, or U=union)",
+      "State" : "State abbreviation"
    },
-   "description" : "Description\nState teen pregnancy rates, Civil War participation, and church attendance."
+   "title" : "State Teen Pregnancy Rates",
+   "description" : "Description\nState teen pregnancy rates, Civil War participation, and church attendance.",
+   "usage" : "A data frame with 50 observations on the following 4 variables.",
+   "reference" : "State level data on teen pregnancies, church attendance, and role in the U.S. Civil War."
 }
 
 var TeenPregnancy = [

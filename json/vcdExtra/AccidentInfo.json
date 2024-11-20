@@ -1,0 +1,14 @@
+{
+   "parameters" : {
+      "result" : "a factor with levels Died Injured",
+      "gender" : "a factor with levels Female Male",
+      "mode" : "mode of transportation,\na factor with levels 4-Wheeled Bicycle Motorcycle Pedestrian",
+      "Freq" : "a numeric vector",
+      "age" : "an ordered factor with levels 0-9 < 10-19 < 20-29 < 30-49 < 50+"
+   },
+   "description" : "Description\nBertin (1983) used these data to illustrate the cross-classification of \ndata by numerous variables, each of which could have various types\nand could be assigned to various visual attributes.\nFor modeling and visualization purposes, the data can be treated as a\n4-way table using loglinear models and mosaic displays, or as a \nfrequency-weighted data frame using a binomial response for\nresult (\"Died\" vs. \"Injured\") and plots of\npredicted probabilities.",
+   "title" : "Traffic Accident Victims in France in 1958",
+   "reference" : "age is an ordered factor, but arguably, mode should be treated as ordered, with levels\nPedestrian < Bicycle < Motorcycle < 4-Wheeled \nas Bertin does.  This affects the parameterization in models, so we don't do this directly in the\ndata frame.",
+   "usage" : "data(Accident)",
+   "format" : "A data frame in frequency form (comprising a 5 x 2 x 4 x 2 table)\nwith 80 observations on the following 5 variables."
+}

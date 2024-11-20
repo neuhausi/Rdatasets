@@ -1,8 +1,8 @@
 var smithsInfo ={
-   "format" : "A data frame with 2 rows and 5 variables",
+   "description" : "Description\nA small demo dataset describing John and Mary Smith.  Used in the\nintroductory vignette.",
    "title" : "Demo data describing the Smiths.",
    "usage" : "smiths",
-   "description" : "Description\nA small demo dataset describing John and Mary Smith.  Used in the\nintroductory vignette."
+   "format" : "A data frame with 2 rows and 5 variables"
 }
 
 var smiths = [

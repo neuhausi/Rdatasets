@@ -1,5 +1,4 @@
 {
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>Ginzberg</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Data on Depression</h2>\n<h3>Description</h3>\n<p>The <code>Ginzberg</code> data frame has 82 rows and 6 columns.\nThe data are for psychiatric patients hospitalized for depression.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>Ginzberg\n</code></pre>\n<h3>Format</h3>\n<p>This data frame contains the following columns:\n</p>\n<dl>\n<dt>simplicity</dt><dd>\n<p>Measures subject's need to see the world in black and white.\n</p>\n</dd>\n<dt>fatalism</dt><dd>\n<p>Fatalism scale.\n</p>\n</dd>\n<dt>depression</dt><dd>\n<p>Beck self-report depression scale.\n</p>\n</dd>\n<dt>adjsimp</dt><dd>\n<p>Adjusted Simplicity: Simplicity adjusted (by regression) for other\nvariables thought to influence depression.\n</p>\n</dd>\n<dt>adjfatal</dt><dd>\n<p>Adjusted Fatalism.\n</p>\n</dd>\n<dt>adjdep</dt><dd>\n<p>Adjusted Depression.\n</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>Personal communication from Georges Monette, Department of\nMathematics and Statistics, York University, with the permission\nof the original investigator.\n</p>\n<h3>References</h3>\n<p>Fox, J. (2016)\n<em>Applied Regression Analysis and Generalized Linear Models</em>,\nThird Edition. Sage.  \n</p>\n</main>\n</div>\n",
    "data" : {
       "y" : {
          "data" : [
@@ -508,14 +507,6 @@
                1.65687
             ]
          ],
-         "vars" : [
-            "simplicity",
-            "fatalism",
-            "depression",
-            "adjsimp",
-            "adjfatal",
-            "adjdep"
-         ],
          "smps" : [
             "Smp1",
             "Smp2",
@@ -599,12 +590,21 @@
             "Smp80",
             "Smp81",
             "Smp82"
+         ],
+         "vars" : [
+            "simplicity",
+            "fatalism",
+            "depression",
+            "adjsimp",
+            "adjfatal",
+            "adjdep"
          ]
       }
    },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>Ginzberg</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Data on Depression</h2>\n<h3>Description</h3>\n<p>The <code>Ginzberg</code> data frame has 82 rows and 6 columns.\nThe data are for psychiatric patients hospitalized for depression.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>Ginzberg\n</code></pre>\n<h3>Format</h3>\n<p>This data frame contains the following columns:\n</p>\n<dl>\n<dt>simplicity</dt><dd>\n<p>Measures subject's need to see the world in black and white.\n</p>\n</dd>\n<dt>fatalism</dt><dd>\n<p>Fatalism scale.\n</p>\n</dd>\n<dt>depression</dt><dd>\n<p>Beck self-report depression scale.\n</p>\n</dd>\n<dt>adjsimp</dt><dd>\n<p>Adjusted Simplicity: Simplicity adjusted (by regression) for other\nvariables thought to influence depression.\n</p>\n</dd>\n<dt>adjfatal</dt><dd>\n<p>Adjusted Fatalism.\n</p>\n</dd>\n<dt>adjdep</dt><dd>\n<p>Adjusted Depression.\n</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>Personal communication from Georges Monette, Department of\nMathematics and Statistics, York University, with the permission\nof the original investigator.\n</p>\n<h3>References</h3>\n<p>Fox, J. (2016)\n<em>Applied Regression Analysis and Generalized Linear Models</em>,\nThird Edition. Sage.  \n</p>\n</main>\n</div>\n",
    "config" : {
-      "title" : "Data on Depression",
       "graphType" : "Heatmap",
-      "subtitle" : "carData - Ginzberg"
+      "subtitle" : "carData - Ginzberg",
+      "title" : "Data on Depression"
    }
 }

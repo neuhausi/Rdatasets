@@ -1,12 +1,9 @@
 {
-   "config" : {
-      "title" : "Community college housing (simulated data",
-      "graphType" : "Treemap",
-      "subtitle" : "openintro - student_housing"
-   },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>student_housing</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Community college housing (simulated data, 2015)</h2>\n<h3>Description</h3>\n<p>These are simulated data and intended to represent housing prices of\nstudents at a college.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>student_housing\n</code></pre>\n<h3>Format</h3>\n<p>A data frame with 175 observations on the following variable.\n</p>\n<dl>\n<dt>price</dt><dd><p>Monthly housing price, simulated.</p>\n</dd>\n</dl>\n<h3>Examples</h3>\n<pre><code class='language-R'>\nset.seed(5)\ngenerate_student_housing &lt;- data.frame(\n  price = round(rnorm(175, 515, 65) + exp(rnorm(175, 4.2, 1)))\nhist(student_housing$price, 20)\nt.test(student_housing$price)\nmean(student_housing$price)\nsd(student_housing$price)\nidentical(student_housing, generate_student_housing)\n</code></pre>\n</main>\n</div>\n",
    "data" : {
       "y" : {
+         "vars" : [
+            "price"
+         ],
          "data" : [
             [
                553,
@@ -362,10 +359,13 @@
             "Smp173",
             "Smp174",
             "Smp175"
-         ],
-         "vars" : [
-            "price"
          ]
       }
+   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>student_housing</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Community college housing (simulated data, 2015)</h2>\n<h3>Description</h3>\n<p>These are simulated data and intended to represent housing prices of\nstudents at a college.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>student_housing\n</code></pre>\n<h3>Format</h3>\n<p>A data frame with 175 observations on the following variable.\n</p>\n<dl>\n<dt>price</dt><dd><p>Monthly housing price, simulated.</p>\n</dd>\n</dl>\n<h3>Examples</h3>\n<pre><code class='language-R'>\nset.seed(5)\ngenerate_student_housing &lt;- data.frame(\n  price = round(rnorm(175, 515, 65) + exp(rnorm(175, 4.2, 1)))\nhist(student_housing$price, 20)\nt.test(student_housing$price)\nmean(student_housing$price)\nsd(student_housing$price)\nidentical(student_housing, generate_student_housing)\n</code></pre>\n</main>\n</div>\n",
+   "config" : {
+      "graphType" : "Treemap",
+      "title" : "Community college housing (simulated data",
+      "subtitle" : "openintro - student_housing"
    }
 }

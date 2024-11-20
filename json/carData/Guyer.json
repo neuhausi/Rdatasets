@@ -1,7 +1,42 @@
 {
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>Guyer</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Anonymity and Cooperation</h2>\n<h3>Description</h3>\n<p>The <code>Guyer</code> data frame has 20 rows and 3 columns.\nThe data are from an experiment in which four-person groups\nplayed a prisoner's dilemma game for 30 trails, each person\nmaking either a cooperative or competitive choice on each\ntrial. Choices were made either anonymously or in public;\ngroups were composed either of females or of males.\nThe observations are 20 groups.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>Guyer\n</code></pre>\n<h3>Format</h3>\n<p>This data frame contains the following columns:\n</p>\n<dl>\n<dt>cooperation</dt><dd>\n<p>Number of cooperative choices (out of 120 in all).\n</p>\n</dd>\n<dt>condition</dt><dd>\n<p>A factor with levels:\n<code>anonymous</code>, Anonymous choice;\n<code>public</code>, Public choice.\n</p>\n</dd>\n<dt>sex</dt><dd>\n<p>Sex.  A factor with levels:\n<code>female</code> and\n<code>male</code>.\n</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>Fox, J. and Guyer, M. (1978)\nPublic choice and cooperation in n-person prisoner's dilemma.\n<em>Journal of Conflict Resolution</em> <b>22</b>, 469&ndash;481.\n</p>\n<h3>References</h3>\n<p>Fox, J. (2016)\n<em>Applied Regression Analysis and Generalized Linear Models</em>,\nThird Edition. Sage.\n</p>\n<p>Fox, J. and Weisberg, S. (2013)\n<em>An R Companion to Applied Regression</em>, Third Edition, Sage.\n</p>\n</main>\n</div>\n",
+   "config" : {
+      "segregateSamplesBy" : [
+         "sex"
+      ],
+      "colorBy" : "variable",
+      "graphType" : "Boxplot",
+      "title" : "Anonymity and Cooperation",
+      "groupingFactors" : [
+         "condition"
+      ],
+      "subtitle" : "carData - Guyer"
+   },
    "data" : {
       "y" : {
+         "data" : [
+            [
+               49,
+               64,
+               37,
+               52,
+               68,
+               54,
+               61,
+               79,
+               64,
+               29,
+               27,
+               58,
+               52,
+               41,
+               30,
+               40,
+               39,
+               44,
+               34,
+               44
+            ]
+         ],
          "smps" : [
             "Smp1",
             "Smp2",
@@ -26,55 +61,9 @@
          ],
          "vars" : [
             "cooperation"
-         ],
-         "data" : [
-            [
-               49,
-               64,
-               37,
-               52,
-               68,
-               54,
-               61,
-               79,
-               64,
-               29,
-               27,
-               58,
-               52,
-               41,
-               30,
-               40,
-               39,
-               44,
-               34,
-               44
-            ]
          ]
       },
       "x" : {
-         "sex" : [
-            "male",
-            "male",
-            "male",
-            "male",
-            "male",
-            "female",
-            "female",
-            "female",
-            "female",
-            "female",
-            "male",
-            "male",
-            "male",
-            "male",
-            "male",
-            "female",
-            "female",
-            "female",
-            "female",
-            "female"
-         ],
          "condition" : [
             "public",
             "public",
@@ -96,19 +85,30 @@
             "anonymous",
             "anonymous",
             "anonymous"
+         ],
+         "sex" : [
+            "male",
+            "male",
+            "male",
+            "male",
+            "male",
+            "female",
+            "female",
+            "female",
+            "female",
+            "female",
+            "male",
+            "male",
+            "male",
+            "male",
+            "male",
+            "female",
+            "female",
+            "female",
+            "female",
+            "female"
          ]
       }
    },
-   "config" : {
-      "groupingFactors" : [
-         "sex"
-      ],
-      "colorBy" : "variable",
-      "graphType" : "Boxplot",
-      "segregateSamplesBy" : [
-         "condition"
-      ],
-      "subtitle" : "carData - Guyer",
-      "title" : "Anonymity and Cooperation"
-   }
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>Guyer</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Anonymity and Cooperation</h2>\n<h3>Description</h3>\n<p>The <code>Guyer</code> data frame has 20 rows and 3 columns.\nThe data are from an experiment in which four-person groups\nplayed a prisoner's dilemma game for 30 trails, each person\nmaking either a cooperative or competitive choice on each\ntrial. Choices were made either anonymously or in public;\ngroups were composed either of females or of males.\nThe observations are 20 groups.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>Guyer\n</code></pre>\n<h3>Format</h3>\n<p>This data frame contains the following columns:\n</p>\n<dl>\n<dt>cooperation</dt><dd>\n<p>Number of cooperative choices (out of 120 in all).\n</p>\n</dd>\n<dt>condition</dt><dd>\n<p>A factor with levels:\n<code>anonymous</code>, Anonymous choice;\n<code>public</code>, Public choice.\n</p>\n</dd>\n<dt>sex</dt><dd>\n<p>Sex.  A factor with levels:\n<code>female</code> and\n<code>male</code>.\n</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>Fox, J. and Guyer, M. (1978)\nPublic choice and cooperation in n-person prisoner's dilemma.\n<em>Journal of Conflict Resolution</em> <b>22</b>, 469&ndash;481.\n</p>\n<h3>References</h3>\n<p>Fox, J. (2016)\n<em>Applied Regression Analysis and Generalized Linear Models</em>,\nThird Edition. Sage.\n</p>\n<p>Fox, J. and Weisberg, S. (2013)\n<em>An R Companion to Applied Regression</em>, Third Edition, Sage.\n</p>\n</main>\n</div>\n"
 }

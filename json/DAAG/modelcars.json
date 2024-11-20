@@ -1,11 +1,29 @@
 {
    "config" : {
-      "graphType" : "Scatter2D",
+      "subtitle" : "DAAG - modelcars",
       "title" : "Model Car Data",
-      "subtitle" : "DAAG - modelcars"
+      "graphType" : "Scatter2D"
    },
    "data" : {
       "y" : {
+         "vars" : [
+            "241",
+            "242",
+            "243",
+            "244",
+            "245",
+            "246",
+            "247",
+            "248",
+            "249",
+            "250",
+            "251",
+            "252"
+         ],
+         "smps" : [
+            "distance.traveled",
+            "starting.point"
+         ],
          "data" : [
             [
                31.375,
@@ -55,24 +73,6 @@
                14.875,
                3
             ]
-         ],
-         "smps" : [
-            "distance.traveled",
-            "starting.point"
-         ],
-         "vars" : [
-            "241",
-            "242",
-            "243",
-            "244",
-            "245",
-            "246",
-            "247",
-            "248",
-            "249",
-            "250",
-            "251",
-            "252"
          ]
       }
    },

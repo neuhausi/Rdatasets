@@ -1,20 +1,20 @@
 var close_elections_lmbInfo ={
    "title" : "A close-elections regression discontinuity study from Lee, Moretti, and Butler (2004)",
-   "format" : "A data frame with 13588 rows and 9 variables",
+   "description" : "Description\nThis data comes from a close-elections regression discontinuity study from Lee, Moretti, and Butler (2004). The design is intended to test convergence and divergence in policy. Major effects of electing someone from a particular party on policy outcomes *in a close race* indicates that the victor does what they want. Small or null effects indicate that the electee moderates their position towards their nearly-split electorate.",
    "reference" : "This data is used in the Regression Discontinuity chapter of Causal Inference: The Mixtape by Cunningham.",
+   "usage" : "close_elections_lmb",
    "parameters" : {
-      "demvoteshare" : "Democratic share of the vote",
-      "lagdemocrat" : "Lagged Democratic victory",
-      "year" : "Year of election",
-      "lagdemvoteshare" : "Lagged democratic share of the vote",
+      "id" : "Election ID",
       "score" : "ADA voting score (higher = more liberal)",
       "district" : "district code",
       "democrat" : "Democratic victory",
+      "lagdemvoteshare" : "Lagged democratic share of the vote",
+      "year" : "Year of election",
       "state" : "ICPSR state code",
-      "id" : "Election ID"
+      "lagdemocrat" : "Lagged Democratic victory",
+      "demvoteshare" : "Democratic share of the vote"
    },
-   "usage" : "close_elections_lmb",
-   "description" : "Description\nThis data comes from a close-elections regression discontinuity study from Lee, Moretti, and Butler (2004). The design is intended to test convergence and divergence in policy. Major effects of electing someone from a particular party on policy outcomes *in a close race* indicates that the victor does what they want. Small or null effects indicate that the electee moderates their position towards their nearly-split electorate."
+   "format" : "A data frame with 13588 rows and 9 variables"
 }
 
 var close_elections_lmb = [

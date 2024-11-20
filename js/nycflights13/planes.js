@@ -1,18 +1,18 @@
 var planesInfo ={
    "parameters" : {
-      "manufacturer, model" : "Manufacturer and model.",
-      "engine" : "Type of engine.",
-      "speed" : "Average cruising speed in mph.",
-      "type" : "Type of plane.",
-      "year" : "Year manufactured.",
       "tailnum" : "Tail number.",
-      "engines, seats" : "Number of engines and seats."
+      "engines, seats" : "Number of engines and seats.",
+      "engine" : "Type of engine.",
+      "manufacturer, model" : "Manufacturer and model.",
+      "speed" : "Average cruising speed in mph.",
+      "year" : "Year manufactured.",
+      "type" : "Type of plane."
    },
-   "format" : "A data frame with columns:",
-   "title" : "Plane metadata.",
    "reference" : "FAA Aircraft registry,\nhttps://www.faa.gov/licenses_certificates/aircraft_certification/aircraft_registry/releasable_aircraft_download/",
+   "usage" : "planes",
    "description" : "Description\nPlane metadata for all plane tailnumbers found in the FAA aircraft\nregistry. American Airways (AA) and Envoy Air (MQ) report fleet numbers\nrather than tail numbers so can't be matched.",
-   "usage" : "planes"
+   "title" : "Plane metadata.",
+   "format" : "A data frame with columns:"
 }
 
 var planes = [

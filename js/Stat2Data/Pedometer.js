@@ -1,7 +1,7 @@
 var PedometerInfo ={
+   "usage" : "A dataset with 68 observations on the following 8 variables.",
    "description" : "Description\nDaily walking amounts recorded on a personal pedometer from September-December 2011",
-   "title" : "Pedometer Walking Data",
-   "usage" : "A dataset with 68 observations on the following 8 variables."
+   "title" : "Pedometer Walking Data"
 }
 
 var Pedometer = [

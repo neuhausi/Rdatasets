@@ -1,61 +1,6 @@
 {
-   "config" : {
-      "subtitle" : "datasets - mtcars",
-      "smpOverlays" : [
-         null
-      ],
-      "title" : "Motor Trend Car Road Tests",
-      "graphType" : "Heatmap"
-   },
    "data" : {
       "y" : {
-         "smps" : [
-            "Mazda RX4",
-            "Mazda RX4 Wag",
-            "Datsun 710",
-            "Hornet 4 Drive",
-            "Hornet Sportabout",
-            "Valiant",
-            "Duster 360",
-            "Merc 240D",
-            "Merc 230",
-            "Merc 280",
-            "Merc 280C",
-            "Merc 450SE",
-            "Merc 450SL",
-            "Merc 450SLC",
-            "Cadillac Fleetwood",
-            "Lincoln Continental",
-            "Chrysler Imperial",
-            "Fiat 128",
-            "Honda Civic",
-            "Toyota Corolla",
-            "Toyota Corona",
-            "Dodge Challenger",
-            "AMC Javelin",
-            "Camaro Z28",
-            "Pontiac Firebird",
-            "Fiat X1-9",
-            "Porsche 914-2",
-            "Lotus Europa",
-            "Ford Pantera L",
-            "Ferrari Dino",
-            "Maserati Bora",
-            "Volvo 142E"
-         ],
-         "vars" : [
-            "mpg",
-            "cyl",
-            "disp",
-            "hp",
-            "drat",
-            "wt",
-            "qsec",
-            "vs",
-            "am",
-            "gear",
-            "carb"
-         ],
          "data" : [
             [
                21,
@@ -431,8 +376,63 @@
                8,
                2
             ]
+         ],
+         "smps" : [
+            "Mazda RX4",
+            "Mazda RX4 Wag",
+            "Datsun 710",
+            "Hornet 4 Drive",
+            "Hornet Sportabout",
+            "Valiant",
+            "Duster 360",
+            "Merc 240D",
+            "Merc 230",
+            "Merc 280",
+            "Merc 280C",
+            "Merc 450SE",
+            "Merc 450SL",
+            "Merc 450SLC",
+            "Cadillac Fleetwood",
+            "Lincoln Continental",
+            "Chrysler Imperial",
+            "Fiat 128",
+            "Honda Civic",
+            "Toyota Corolla",
+            "Toyota Corona",
+            "Dodge Challenger",
+            "AMC Javelin",
+            "Camaro Z28",
+            "Pontiac Firebird",
+            "Fiat X1-9",
+            "Porsche 914-2",
+            "Lotus Europa",
+            "Ford Pantera L",
+            "Ferrari Dino",
+            "Maserati Bora",
+            "Volvo 142E"
+         ],
+         "vars" : [
+            "mpg",
+            "cyl",
+            "disp",
+            "hp",
+            "drat",
+            "wt",
+            "qsec",
+            "vs",
+            "am",
+            "gear",
+            "carb"
          ]
       }
    },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>mtcars</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Motor Trend Car Road Tests</h2>\n<h3>Description</h3>\n<p>The data was extracted from the 1974 <em>Motor Trend</em> US magazine,\nand comprises fuel consumption and 10 aspects of\nautomobile design and performance for 32 automobiles (1973&ndash;74\nmodels).\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>mtcars</code></pre>\n<h3>Format</h3>\n<p>A data frame with 32 observations on 11 (numeric) variables.\n</p>\n<table>\n<tr>\n <td style=\"text-align: right;\">\n    [, 1] </td><td style=\"text-align: left;\"> <code>mpg</code>  </td><td style=\"text-align: left;\"> Miles/(US) gallon </td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    [, 2] </td><td style=\"text-align: left;\"> <code>cyl</code>  </td><td style=\"text-align: left;\"> Number of cylinders </td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    [, 3] </td><td style=\"text-align: left;\"> <code>disp</code> </td><td style=\"text-align: left;\"> Displacement (cu.in.) </td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    [, 4] </td><td style=\"text-align: left;\"> <code>hp</code>   </td><td style=\"text-align: left;\"> Gross horsepower </td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    [, 5] </td><td style=\"text-align: left;\"> <code>drat</code> </td><td style=\"text-align: left;\"> Rear axle ratio </td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    [, 6] </td><td style=\"text-align: left;\"> <code>wt</code>   </td><td style=\"text-align: left;\"> Weight (1000 lbs) </td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    [, 7] </td><td style=\"text-align: left;\"> <code>qsec</code> </td><td style=\"text-align: left;\"> 1/4 mile time </td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    [, 8] </td><td style=\"text-align: left;\"> <code>vs</code>   </td><td style=\"text-align: left;\"> Engine (0 = V-shaped, 1 = straight) </td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    [, 9] </td><td style=\"text-align: left;\"> <code>am</code>   </td><td style=\"text-align: left;\"> Transmission (0 = automatic, 1 = manual) </td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    [,10] </td><td style=\"text-align: left;\"> <code>gear</code> </td><td style=\"text-align: left;\"> Number of forward gears </td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    [,11] </td><td style=\"text-align: left;\"> <code>carb</code> </td><td style=\"text-align: left;\"> Number of carburetors\n  </td>\n</tr>\n</table>\n<h3>Note</h3>\n<p>Henderson and Velleman (1981) comment in a footnote to Table 1:\n&lsquo;Hocking [original transcriber]'s noncrucial coding of the\nMazda's rotary engine as a straight six-cylinder engine and the\nPorsche's flat engine as a V engine, as well as the inclusion of the\ndiesel Mercedes 240D, have been retained to enable direct comparisons\nto be made with previous analyses.&rsquo;\n</p>\n<h3>Source</h3>\n<p>Henderson and Velleman (1981),\nBuilding multiple regression models interactively.\n<em>Biometrics</em>, <b>37</b>, 391&ndash;411.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>require(graphics)\npairs(mtcars, main = \"mtcars data\", gap = 1/4)\ncoplot(mpg ~ disp | as.factor(cyl), data = mtcars,\n       panel = panel.smooth, rows = 1)\n## possibly more meaningful, e.g., for summary() or bivariate plots:\nmtcars2 &lt;- within(mtcars, {\n   vs &lt;- factor(vs, labels = c(\"V\", \"S\"))\n   am &lt;- factor(am, labels = c(\"automatic\", \"manual\"))\n   cyl  &lt;- ordered(cyl)\n   gear &lt;- ordered(gear)\n   carb &lt;- ordered(carb)\nsummary(mtcars2)\n</code></pre>\n</main>\n</div>\n"
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>mtcars</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Motor Trend Car Road Tests</h2>\n<h3>Description</h3>\n<p>The data was extracted from the 1974 <em>Motor Trend</em> US magazine,\nand comprises fuel consumption and 10 aspects of\nautomobile design and performance for 32 automobiles (1973&ndash;74\nmodels).\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>mtcars</code></pre>\n<h3>Format</h3>\n<p>A data frame with 32 observations on 11 (numeric) variables.\n</p>\n<table>\n<tr>\n <td style=\"text-align: right;\">\n    [, 1] </td><td style=\"text-align: left;\"> <code>mpg</code>  </td><td style=\"text-align: left;\"> Miles/(US) gallon </td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    [, 2] </td><td style=\"text-align: left;\"> <code>cyl</code>  </td><td style=\"text-align: left;\"> Number of cylinders </td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    [, 3] </td><td style=\"text-align: left;\"> <code>disp</code> </td><td style=\"text-align: left;\"> Displacement (cu.in.) </td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    [, 4] </td><td style=\"text-align: left;\"> <code>hp</code>   </td><td style=\"text-align: left;\"> Gross horsepower </td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    [, 5] </td><td style=\"text-align: left;\"> <code>drat</code> </td><td style=\"text-align: left;\"> Rear axle ratio </td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    [, 6] </td><td style=\"text-align: left;\"> <code>wt</code>   </td><td style=\"text-align: left;\"> Weight (1000 lbs) </td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    [, 7] </td><td style=\"text-align: left;\"> <code>qsec</code> </td><td style=\"text-align: left;\"> 1/4 mile time </td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    [, 8] </td><td style=\"text-align: left;\"> <code>vs</code>   </td><td style=\"text-align: left;\"> Engine (0 = V-shaped, 1 = straight) </td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    [, 9] </td><td style=\"text-align: left;\"> <code>am</code>   </td><td style=\"text-align: left;\"> Transmission (0 = automatic, 1 = manual) </td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    [,10] </td><td style=\"text-align: left;\"> <code>gear</code> </td><td style=\"text-align: left;\"> Number of forward gears </td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    [,11] </td><td style=\"text-align: left;\"> <code>carb</code> </td><td style=\"text-align: left;\"> Number of carburetors\n  </td>\n</tr>\n</table>\n<h3>Note</h3>\n<p>Henderson and Velleman (1981) comment in a footnote to Table 1:\n&lsquo;Hocking [original transcriber]'s noncrucial coding of the\nMazda's rotary engine as a straight six-cylinder engine and the\nPorsche's flat engine as a V engine, as well as the inclusion of the\ndiesel Mercedes 240D, have been retained to enable direct comparisons\nto be made with previous analyses.&rsquo;\n</p>\n<h3>Source</h3>\n<p>Henderson and Velleman (1981),\nBuilding multiple regression models interactively.\n<em>Biometrics</em>, <b>37</b>, 391&ndash;411.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>require(graphics)\npairs(mtcars, main = \"mtcars data\", gap = 1/4)\ncoplot(mpg ~ disp | as.factor(cyl), data = mtcars,\n       panel = panel.smooth, rows = 1)\n## possibly more meaningful, e.g., for summary() or bivariate plots:\nmtcars2 &lt;- within(mtcars, {\n   vs &lt;- factor(vs, labels = c(\"V\", \"S\"))\n   am &lt;- factor(am, labels = c(\"automatic\", \"manual\"))\n   cyl  &lt;- ordered(cyl)\n   gear &lt;- ordered(gear)\n   carb &lt;- ordered(carb)\nsummary(mtcars2)\n</code></pre>\n</main>\n</div>\n",
+   "config" : {
+      "subtitle" : "datasets - mtcars",
+      "title" : "Motor Trend Car Road Tests",
+      "graphType" : "Heatmap",
+      "smpOverlays" : [
+         null
+      ]
+   }
 }

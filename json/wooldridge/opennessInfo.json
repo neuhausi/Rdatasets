@@ -1,0 +1,21 @@
+{
+   "parameters" : {
+      "open" : " imports as percent GDP, '73-",
+      "pcinc" : " 1980 per capita inc., U.S. $",
+      "linfdec" : " log(inf/100)",
+      "oil" : " =1 if major oil producer",
+      "land" : " land area, square miles",
+      "linf" : " log(inf)",
+      "lpcinc" : " log(pcinc)",
+      "lopen" : " log(open)",
+      "opendec" : " open/100",
+      "inf" : " avg. annual inflation, '73-",
+      "lland" : " log(land)",
+      "good" : " =1 if 'good' data"
+   },
+   "reference" : "pages 566, 579",
+   "usage" : "data('openness')",
+   "description" : "Description\nWooldridge Source: D. Romer (1993), âOpenness and Inflation: Theory and Evidence,â Quarterly Journal of Economics 108, 869-903. The data are included in the article. Data loads lazily.",
+   "title" : "openness",
+   "format" : "A data.frame with 114 observations on 12 variables:"
+}

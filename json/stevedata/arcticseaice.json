@@ -1,6 +1,12 @@
 {
    "data" : {
       "y" : {
+         "smps" : [
+            "year",
+            "value",
+            "ub",
+            "lb"
+         ],
          "data" : [
             [
                1901,
@@ -693,12 +699,6 @@
                10414000
             ]
          ],
-         "smps" : [
-            "year",
-            "value",
-            "ub",
-            "lb"
-         ],
          "vars" : [
             "Var1",
             "Var2",
@@ -821,8 +821,8 @@
    "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>arcticseaice</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Arctic Sea Ice Extent Data, 1901-2015</h2>\n<h3>Description</h3>\n<p>This data set from Connelly et al. (2017) measures the Arctic sea\nice extent in 10^6 square kilometers. It includes lower bounds and\nupper bounds on annual averages.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>arcticseaice\n</code></pre>\n<h3>Format</h3>\n<p>A data frame with 115 observations on the following 4 variables.\n</p>\n<dl>\n<dt><code>year</code></dt><dd><p>the year</p>\n</dd>\n<dt><code>value</code></dt><dd><p>the annual Arctic sea ice extent (in 10^6 sq km)</p>\n</dd>\n<dt><code>ub</code></dt><dd><p>The upper bound of the value, provided by Connelly et al.</p>\n</dd>\n<dt><code>lb</code></dt><dd><p>The lower bound of the value, provided by Connelly et al.</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>This is for illustration of climate change for my intro students.\nConnelly et al. (2017) are in part a methodological paper. The data I present\nhere are from the &quot;rescaled (unadjusted T)&quot; data in the second sheet from\ntheir replication files.\n</p>\n<h3>References</h3>\n<p>Connolly et al. (2017), &rdquo;Re-calibration of Arctic sea ice extent\ndatasets using Arctic surface air temperature records&rdquo;.\n<em>Hydrological Sciences Journal</em> 62(8): 1317&ndash;40.\n</p>\n</main>\n</div>\n",
    "config" : {
       "title" : "Arctic Sea Ice Extent Data",
-      "graphType" : "Scatter2D",
       "scatterPlotMatrix" : 1,
-      "subtitle" : "stevedata - arcticseaice"
+      "subtitle" : "stevedata - arcticseaice",
+      "graphType" : "Scatter2D"
    }
 }

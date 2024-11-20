@@ -1,29 +1,29 @@
 var BenefitsInfo ={
-   "reference" : "McCall, B.P. (1995) &ldquo;The impact of unemployment insurance benefit levels on recipiency&rdquo;, Journal of Business and Economic Statistics, 13, 189&ndash;198.",
-   "format" : "A time series containing :",
    "title" : "Unemployment of Blue Collar Workers",
+   "description" : "Description\na cross-section from 1972\nnumber of observations :  4877\nobservation :  individuals\ncountry :  United States",
+   "reference" : "McCall, B.P. (1995) &ldquo;The impact of unemployment insurance benefit levels on recipiency&rdquo;, Journal of Business and Economic Statistics, 13, 189&ndash;198.",
+   "usage" : "data(Benefits)",
    "parameters" : {
-      "smsa" : "lives in SMSA ?",
-      "head" : "is  head of household ?",
-      "dkids" : "has kids ?",
-      "ui" : "applied for (and received) UI benefits ?",
-      "yrdispl" : "year of job displacement (1982=1,..., 1991=10)",
-      "nwhite" : "non-white ?",
-      "statemb" : "state maximum benefit level",
-      "dykids" : "has young kids (0-5 yrs) ?",
-      "age" : "age in years",
+      "married" : "married ?",
       "stateur" : "state unemployment rate (in %)",
       "school12" : "more than 12 years of school ?",
-      "joblost" : "a factor with levels \n(slack_work,position_abolished,seasonal_job_ended,other)",
-      "married" : "married ?",
+      "nwhite" : "non-white ?",
+      "age" : "age in years",
       "rr" : "replacement rate",
+      "ui" : "applied for (and received) UI benefits ?",
       "tenure" : "years of tenure in job lost",
+      "yrdispl" : "year of job displacement (1982=1,..., 1991=10)",
       "state" : "state of residence code",
+      "head" : "is  head of household ?",
+      "statemb" : "state maximum benefit level",
+      "dkids" : "has kids ?",
+      "smsa" : "lives in SMSA ?",
       "bluecol" : "blue collar worker ?",
-      "sex" : "a factor with levels (male,female)"
+      "sex" : "a factor with levels (male,female)",
+      "joblost" : "a factor with levels \n(slack_work,position_abolished,seasonal_job_ended,other)",
+      "dykids" : "has young kids (0-5 yrs) ?"
    },
-   "usage" : "data(Benefits)",
-   "description" : "Description\na cross-section from 1972\nnumber of observations :  4877\nobservation :  individuals\ncountry :  United States"
+   "format" : "A time series containing :"
 }
 
 var Benefits = [

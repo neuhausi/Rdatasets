@@ -1,7 +1,19 @@
 {
+   "config" : {
+      "graphType" : "Scatter2D",
+      "subtitle" : "ggplot2 - seals",
+      "title" : "Vector field of seal movements",
+      "scatterPlotMatrix" : 1
+   },
    "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>seals</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Vector field of seal movements</h2>\n<h3>Description</h3>\n<p>This vector field was produced from the data described in Brillinger, D.R.,\nPreisler, H.K., Ager, A.A. and Kie, J.G. &quot;An exploratory data analysis\n(EDA) of the paths of moving animals&quot;. J. Statistical Planning and\nInference 122 (2004), 43-63, using the methods of Brillinger, D.R.,\n&quot;Learning a potential function from a trajectory&quot;, Signal Processing\nLetters. December (2007).\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>seals\n</code></pre>\n<h3>Format</h3>\n<p>A data frame with 1155 rows and 4 variables\n</p>\n<h3>References</h3>\n<p><a href=\"https://www.stat.berkeley.edu/~brill/Papers/jspifinal.pdf\">https://www.stat.berkeley.edu/~brill/Papers/jspifinal.pdf</a>\n</p>\n</main>\n</div>\n",
    "data" : {
       "y" : {
+         "smps" : [
+            "lat",
+            "long",
+            "delta_long",
+            "delta_lat"
+         ],
          "data" : [
             [
                29.7,
@@ -8090,19 +8102,7 @@
             "Var1153",
             "Var1154",
             "Var1155"
-         ],
-         "smps" : [
-            "lat",
-            "long",
-            "delta_long",
-            "delta_lat"
          ]
       }
-   },
-   "config" : {
-      "subtitle" : "ggplot2 - seals",
-      "scatterPlotMatrix" : 1,
-      "title" : "Vector field of seal movements",
-      "graphType" : "Scatter2D"
    }
 }

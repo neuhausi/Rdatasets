@@ -1,17 +1,17 @@
 var QuartetInfo ={
-   "usage" : "Quartet",
    "description" : "Description\nThe Quartet data frame has 11 rows and 5 columns.\nThese are contrived data.",
-   "format" : "This data frame contains the following columns:",
-   "reference" : "Anscombe, F. J. (1973)\nGraphs in statistical analysis.\nAmerican Statistician 27, 17&ndash;21.",
    "title" : "Four Regression Datasets",
+   "reference" : "Anscombe, F. J. (1973)\nGraphs in statistical analysis.\nAmerican Statistician 27, 17&ndash;21.",
+   "usage" : "Quartet",
    "parameters" : {
-      "y3" : "Y-values for dataset 3.",
-      "x" : "X-values for datasets 1&ndash;3.",
       "y1" : "Y-values for dataset 1.",
       "x4" : "X-values for dataset 4.",
-      "y4" : "Y-values for dataset 4.",
-      "y2" : "Y-values for dataset 2."
-   }
+      "x" : "X-values for datasets 1&ndash;3.",
+      "y2" : "Y-values for dataset 2.",
+      "y3" : "Y-values for dataset 3.",
+      "y4" : "Y-values for dataset 4."
+   },
+   "format" : "This data frame contains the following columns:"
 }
 
 var Quartet = [

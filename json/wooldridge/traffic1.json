@@ -1,12 +1,5 @@
 {
-   "config" : {
-      "subtitle" : "wooldridge - traffic1",
-      "title" : "traffic1",
-      "graphType" : "Heatmap",
-      "smpOverlays" : [
-         "state"
-      ]
-   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>traffic1</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>traffic1</h2>\n<h3>Description</h3>\n<p>Wooldridge Source: I collected these data from two sources, the 1992 Statistical Abstract of the United States (Tables 1009, 1012) and A Digest of State Alcohol-Highway Safety Related Legislation, 1985 and 1990, published by the U.S. National Highway Traffic Safety Administration. Data loads lazily.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data('traffic1')\n</code></pre>\n<h3>Format</h3>\n<p>A data.frame with 51 observations on 13 variables:\n</p>\n<ul>\n<li> <p><strong>state:</strong> \n</p>\n</li>\n<li> <p><strong>admn90:</strong> =1 if admin. revoc., '90\n</p>\n</li>\n<li> <p><strong>admn85:</strong> =1 if admin. revoc., '85\n</p>\n</li>\n<li> <p><strong>open90:</strong> =1 if open cont. law, '90\n</p>\n</li>\n<li> <p><strong>open85:</strong> =1 if open cont. law, '85\n</p>\n</li>\n<li> <p><strong>dthrte90:</strong> deaths per 100 mill. miles, '90\n</p>\n</li>\n<li> <p><strong>dthrte85:</strong> deaths per 100 mill. miles, '85\n</p>\n</li>\n<li> <p><strong>speed90:</strong> =1 if 65 mph, 1990\n</p>\n</li>\n<li> <p><strong>speed85:</strong> =0 always\n</p>\n</li>\n<li> <p><strong>cdthrte:</strong> dthrte90 - dthrte85\n</p>\n</li>\n<li> <p><strong>cadmn:</strong> admn90 - admn85\n</p>\n</li>\n<li> <p><strong>copen:</strong> open90 - open85\n</p>\n</li>\n<li> <p><strong>cspeed:</strong> speed90 - speed85\n</p>\n</li></ul>\n<h3>Notes</h3>\n<p>In addition to adding recent years, this data set could really use state-level tax rates on alcohol. Other important law changes include defining driving under the influence as having a blood alcohol level of .08 or more, which many states have adopted since the 1980s. The trend really picked up in the 1990s and continued through the 2000s.\n</p>\n<p>Used in Text: pages 467-468, 688?\n</p>\n<h3>Source</h3>\n<p><a href=\"https://www.cengage.com/cgi-wadsworth/course_products_wp.pl?fid=M20b&amp;product_isbn_issn=9781111531041\">https://www.cengage.com/cgi-wadsworth/course_products_wp.pl?fid=M20b&amp;product_isbn_issn=9781111531041</a>\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'> str(traffic1)\n</code></pre>\n</main>\n</div>\n",
    "data" : {
       "x" : {
          "state" : [
@@ -64,73 +57,6 @@
          ]
       },
       "y" : {
-         "smps" : [
-            "Smp1",
-            "Smp2",
-            "Smp3",
-            "Smp4",
-            "Smp5",
-            "Smp6",
-            "Smp7",
-            "Smp8",
-            "Smp9",
-            "Smp10",
-            "Smp11",
-            "Smp12",
-            "Smp13",
-            "Smp14",
-            "Smp15",
-            "Smp16",
-            "Smp17",
-            "Smp18",
-            "Smp19",
-            "Smp20",
-            "Smp21",
-            "Smp22",
-            "Smp23",
-            "Smp24",
-            "Smp25",
-            "Smp26",
-            "Smp27",
-            "Smp28",
-            "Smp29",
-            "Smp30",
-            "Smp31",
-            "Smp32",
-            "Smp33",
-            "Smp34",
-            "Smp35",
-            "Smp36",
-            "Smp37",
-            "Smp38",
-            "Smp39",
-            "Smp40",
-            "Smp41",
-            "Smp42",
-            "Smp43",
-            "Smp44",
-            "Smp45",
-            "Smp46",
-            "Smp47",
-            "Smp48",
-            "Smp49",
-            "Smp50",
-            "Smp51"
-         ],
-         "vars" : [
-            "admn90",
-            "admn85",
-            "open90",
-            "open85",
-            "dthrte90",
-            "dthrte85",
-            "speed90",
-            "speed85",
-            "cdthrte",
-            "cadmn",
-            "copen",
-            "cspeed"
-         ],
          "data" : [
             [
                0,
@@ -768,8 +694,82 @@
                1,
                1
             ]
+         ],
+         "smps" : [
+            "Smp1",
+            "Smp2",
+            "Smp3",
+            "Smp4",
+            "Smp5",
+            "Smp6",
+            "Smp7",
+            "Smp8",
+            "Smp9",
+            "Smp10",
+            "Smp11",
+            "Smp12",
+            "Smp13",
+            "Smp14",
+            "Smp15",
+            "Smp16",
+            "Smp17",
+            "Smp18",
+            "Smp19",
+            "Smp20",
+            "Smp21",
+            "Smp22",
+            "Smp23",
+            "Smp24",
+            "Smp25",
+            "Smp26",
+            "Smp27",
+            "Smp28",
+            "Smp29",
+            "Smp30",
+            "Smp31",
+            "Smp32",
+            "Smp33",
+            "Smp34",
+            "Smp35",
+            "Smp36",
+            "Smp37",
+            "Smp38",
+            "Smp39",
+            "Smp40",
+            "Smp41",
+            "Smp42",
+            "Smp43",
+            "Smp44",
+            "Smp45",
+            "Smp46",
+            "Smp47",
+            "Smp48",
+            "Smp49",
+            "Smp50",
+            "Smp51"
+         ],
+         "vars" : [
+            "admn90",
+            "admn85",
+            "open90",
+            "open85",
+            "dthrte90",
+            "dthrte85",
+            "speed90",
+            "speed85",
+            "cdthrte",
+            "cadmn",
+            "copen",
+            "cspeed"
          ]
       }
    },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>traffic1</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>traffic1</h2>\n<h3>Description</h3>\n<p>Wooldridge Source: I collected these data from two sources, the 1992 Statistical Abstract of the United States (Tables 1009, 1012) and A Digest of State Alcohol-Highway Safety Related Legislation, 1985 and 1990, published by the U.S. National Highway Traffic Safety Administration. Data loads lazily.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data('traffic1')\n</code></pre>\n<h3>Format</h3>\n<p>A data.frame with 51 observations on 13 variables:\n</p>\n<ul>\n<li> <p><strong>state:</strong> \n</p>\n</li>\n<li> <p><strong>admn90:</strong> =1 if admin. revoc., '90\n</p>\n</li>\n<li> <p><strong>admn85:</strong> =1 if admin. revoc., '85\n</p>\n</li>\n<li> <p><strong>open90:</strong> =1 if open cont. law, '90\n</p>\n</li>\n<li> <p><strong>open85:</strong> =1 if open cont. law, '85\n</p>\n</li>\n<li> <p><strong>dthrte90:</strong> deaths per 100 mill. miles, '90\n</p>\n</li>\n<li> <p><strong>dthrte85:</strong> deaths per 100 mill. miles, '85\n</p>\n</li>\n<li> <p><strong>speed90:</strong> =1 if 65 mph, 1990\n</p>\n</li>\n<li> <p><strong>speed85:</strong> =0 always\n</p>\n</li>\n<li> <p><strong>cdthrte:</strong> dthrte90 - dthrte85\n</p>\n</li>\n<li> <p><strong>cadmn:</strong> admn90 - admn85\n</p>\n</li>\n<li> <p><strong>copen:</strong> open90 - open85\n</p>\n</li>\n<li> <p><strong>cspeed:</strong> speed90 - speed85\n</p>\n</li></ul>\n<h3>Notes</h3>\n<p>In addition to adding recent years, this data set could really use state-level tax rates on alcohol. Other important law changes include defining driving under the influence as having a blood alcohol level of .08 or more, which many states have adopted since the 1980s. The trend really picked up in the 1990s and continued through the 2000s.\n</p>\n<p>Used in Text: pages 467-468, 688?\n</p>\n<h3>Source</h3>\n<p><a href=\"https://www.cengage.com/cgi-wadsworth/course_products_wp.pl?fid=M20b&amp;product_isbn_issn=9781111531041\">https://www.cengage.com/cgi-wadsworth/course_products_wp.pl?fid=M20b&amp;product_isbn_issn=9781111531041</a>\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'> str(traffic1)\n</code></pre>\n</main>\n</div>\n"
+   "config" : {
+      "smpOverlays" : [
+         "state"
+      ],
+      "graphType" : "Heatmap",
+      "title" : "traffic1",
+      "subtitle" : "wooldridge - traffic1"
+   }
 }

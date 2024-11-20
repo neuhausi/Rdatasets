@@ -1,15 +1,15 @@
 var foodstampInfo ={
-   "title" : "Food Stamp Program Participation",
-   "reference" : "Data description and first analysis: Stefanski et al.(1986) who\nindicate Rizek(1978) as original source of the larger study.",
    "format" : "A data frame with 150 observations on the following 4 variables.",
    "parameters" : {
-      "suppl.income" : "supplemental income, indicating whether\nsome form of supplemental security income is received; yes = 1, no = 0",
-      "income" : "monthly income (in US dollars)",
+      "tenancy" : "tenancy, indicating home ownership; yes = 1, no = 0",
       "participation" : "participation in U.S. Food Stamp Program; yes = 1, no = 0",
-      "tenancy" : "tenancy, indicating home ownership; yes = 1, no = 0"
+      "suppl.income" : "supplemental income, indicating whether\nsome form of supplemental security income is received; yes = 1, no = 0",
+      "income" : "monthly income (in US dollars)"
    },
    "usage" : "data(foodstamp, package=\"robustbase\")",
-   "description" : "Description\nThis data consists of 150 randomly selected persons from a survey\nwith information on over 2000 elderly US citizens, where the response,\nindicates participation in the U.S. Food Stamp Program."
+   "reference" : "Data description and first analysis: Stefanski et al.(1986) who\nindicate Rizek(1978) as original source of the larger study.",
+   "description" : "Description\nThis data consists of 150 randomly selected persons from a survey\nwith information on over 2000 elderly US citizens, where the response,\nindicates participation in the U.S. Food Stamp Program.",
+   "title" : "Food Stamp Program Participation"
 }
 
 var foodstamp = [

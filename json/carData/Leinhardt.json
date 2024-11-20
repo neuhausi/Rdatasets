@@ -1,4 +1,18 @@
 {
+   "config" : {
+      "segregateSamplesBy" : [
+         "region",
+         "infant"
+      ],
+      "colorBy" : null,
+      "graphType" : "Dotplot",
+      "subtitle" : "carData - Leinhardt",
+      "groupingFactors" : [
+         "oil"
+      ],
+      "title" : "Data on Infant-Mortality"
+   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>Leinhardt</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Data on Infant-Mortality</h2>\n<h3>Description</h3>\n<p>The <code>Leinhardt</code> data frame has 105 rows and 4 columns.\nThe observations are nations of the world around 1970.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>Leinhardt\n</code></pre>\n<h3>Format</h3>\n<p>This data frame contains the following columns:\n</p>\n<dl>\n<dt>income</dt><dd>\n<p>Per-capita income in U. S. dollars.\n</p>\n</dd>\n<dt>infant</dt><dd>\n<p>Infant-mortality rate per 1000 live births.\n</p>\n</dd>\n<dt>region</dt><dd>\n<p>A factor with levels:\n<code>Africa</code>; \n<code>Americas</code>;\n<code>Asia</code>, Asia and Oceania;\n<code>Europe</code>.\n</p>\n</dd>\n<dt>oil</dt><dd>\n<p>Oil-exporting country. \nA factor with levels:\n<code>no</code>, \n<code>yes</code>.\n</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>The infant-mortality rate for Jamaica is misprinted in\nLeinhardt and Wasserman; the correct value is given here.\nSome of the values given in Leinhardt and Wasserman do not appear\nin the original New York Times table and are of dubious validity.\n</p>\n<h3>Source</h3>\n<p>Leinhardt, S. and Wasserman, S. S. (1979)\nExploratory data analysis: An introduction to selected methods.\nIn Schuessler, K. (Ed.) \n<em>Sociological Methodology 1979</em> Jossey-Bass.\n</p>\n<p><em>The New York Times</em>, 28 September 1975, p. E-3, Table 3.\n</p>\n<h3>References</h3>\n<p>Fox, J. (2016)\n<em>Applied Regression Analysis and Generalized Linear Models</em>,\nThird Edition. Sage.  \n</p>\n<p>Fox, J. and Weisberg, S. (2019) \n<em>An R Companion to Applied Regression</em>, Third Edition, Sage.\n</p>\n</main>\n</div>\n",
    "data" : {
       "x" : {
          "oil" : [
@@ -324,6 +338,9 @@
          ]
       },
       "y" : {
+         "vars" : [
+            "income"
+         ],
          "data" : [
             [
                3426,
@@ -433,9 +450,6 @@
                118
             ]
          ],
-         "vars" : [
-            "income"
-         ],
          "smps" : [
             "Australia",
             "Austria",
@@ -544,19 +558,5 @@
             "Zaire"
          ]
       }
-   },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>Leinhardt</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Data on Infant-Mortality</h2>\n<h3>Description</h3>\n<p>The <code>Leinhardt</code> data frame has 105 rows and 4 columns.\nThe observations are nations of the world around 1970.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>Leinhardt\n</code></pre>\n<h3>Format</h3>\n<p>This data frame contains the following columns:\n</p>\n<dl>\n<dt>income</dt><dd>\n<p>Per-capita income in U. S. dollars.\n</p>\n</dd>\n<dt>infant</dt><dd>\n<p>Infant-mortality rate per 1000 live births.\n</p>\n</dd>\n<dt>region</dt><dd>\n<p>A factor with levels:\n<code>Africa</code>; \n<code>Americas</code>;\n<code>Asia</code>, Asia and Oceania;\n<code>Europe</code>.\n</p>\n</dd>\n<dt>oil</dt><dd>\n<p>Oil-exporting country. \nA factor with levels:\n<code>no</code>, \n<code>yes</code>.\n</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>The infant-mortality rate for Jamaica is misprinted in\nLeinhardt and Wasserman; the correct value is given here.\nSome of the values given in Leinhardt and Wasserman do not appear\nin the original New York Times table and are of dubious validity.\n</p>\n<h3>Source</h3>\n<p>Leinhardt, S. and Wasserman, S. S. (1979)\nExploratory data analysis: An introduction to selected methods.\nIn Schuessler, K. (Ed.) \n<em>Sociological Methodology 1979</em> Jossey-Bass.\n</p>\n<p><em>The New York Times</em>, 28 September 1975, p. E-3, Table 3.\n</p>\n<h3>References</h3>\n<p>Fox, J. (2016)\n<em>Applied Regression Analysis and Generalized Linear Models</em>,\nThird Edition. Sage.  \n</p>\n<p>Fox, J. and Weisberg, S. (2019) \n<em>An R Companion to Applied Regression</em>, Third Edition, Sage.\n</p>\n</main>\n</div>\n",
-   "config" : {
-      "title" : "Data on Infant-Mortality",
-      "segregateSamplesBy" : [
-         "region",
-         "infant"
-      ],
-      "subtitle" : "carData - Leinhardt",
-      "graphType" : "Dotplot",
-      "colorBy" : null,
-      "groupingFactors" : [
-         "oil"
-      ]
    }
 }

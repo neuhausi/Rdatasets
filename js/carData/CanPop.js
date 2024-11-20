@@ -1,13 +1,13 @@
 var CanPopInfo ={
-   "description" : "Description\nThe CanPop data frame has 16 rows and 2 columns.\nDecennial time-series of Canadian population, 1851&ndash;2001.",
-   "usage" : "CanPop",
    "parameters" : {
       "population" : "Population, in millions",
       "year" : "census year."
    },
-   "format" : "This data frame contains the following columns:",
+   "reference" : "Urquhart, M. C. and Buckley, K. A. H. (Eds.) (1965)\nHistorical Statistics of Canada. Macmillan, p. 1369.",
+   "usage" : "CanPop",
    "title" : "Canadian Population Data",
-   "reference" : "Urquhart, M. C. and Buckley, K. A. H. (Eds.) (1965)\nHistorical Statistics of Canada. Macmillan, p. 1369."
+   "description" : "Description\nThe CanPop data frame has 16 rows and 2 columns.\nDecennial time-series of Canadian population, 1851&ndash;2001.",
+   "format" : "This data frame contains the following columns:"
 }
 
 var CanPop = [

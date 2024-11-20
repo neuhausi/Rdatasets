@@ -1,8 +1,8 @@
 var austouristsInfo ={
-   "description" : "Description\nQuarterly visitor nights (in millions) spent by international tourists to\nAustralia. 1999-2015.",
-   "usage" : "Quarterly time series of class ts.",
    "format" : "Tourism Research Australia.",
-   "title" : "International Tourists to Australia: Total visitor nights."
+   "usage" : "Quarterly time series of class ts.",
+   "title" : "International Tourists to Australia: Total visitor nights.",
+   "description" : "Description\nQuarterly visitor nights (in millions) spent by international tourists to\nAustralia. 1999-2015."
 }
 
 var austourists = [

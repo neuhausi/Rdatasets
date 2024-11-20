@@ -1,14 +1,14 @@
 var topoInfo ={
-   "usage" : "topo",
    "description" : "Description\nThe topo data frame has 52 rows and 3 columns, of\ntopographic heights within a 310 feet square.",
-   "format" : "This data frame contains the following columns:",
    "title" : "Spatial Topographic Data",
+   "usage" : "topo",
    "reference" : "Davis, J.C. (1973)\nStatistics and Data Analysis in Geology.\nWiley.",
    "parameters" : {
       "z" : "heights (feet)",
       "x" : "x coordinates (units of 50 feet)",
       "y" : "y coordinates (units of 50 feet)"
-   }
+   },
+   "format" : "This data frame contains the following columns:"
 }
 
 var topo = [

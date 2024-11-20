@@ -1,0 +1,19 @@
+{
+   "reference" : "Data from a study of serious suicide attempts over three years in a predominantly rural population in Shandong, China.",
+   "usage" : "A data frame with 2571 observations on the following 11 variables.",
+   "description" : "Description\nData on serious suicide attempts in Shandong, China",
+   "title" : "Suicide Attempts in Shandong, China",
+   "parameters" : {
+      "Year" : "Year (2009, 2010, or 2011)",
+      "Month" : "Month (1=Jan through 12=December)",
+      "Person_ID" : "ID number",
+      "Education" : "Education level  (iliterate, primary, Secondary, Tertiary, or unknown)",
+      "Occupation" : "One of ten occupation categories",
+      "Age" : "Age (years)",
+      "Urban" : "Urban area? (no, unknown, or yes)",
+      "Sex" : "Sex (female or male)",
+      "Died" : "Died? (no or yes)",
+      "method" : "One of nine possible methods",
+      "Hospitalised" : "Hospitalised? (no or yes)"
+   }
+}

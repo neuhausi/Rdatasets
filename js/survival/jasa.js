@@ -1,7 +1,7 @@
 var jasaInfo ={
-   "description" : "Description\nSurvival of patients on the waiting list for the Stanford\nheart transplant program.",
-   "title" : "Stanford Heart Transplant data",
    "format" : "jasa: original data",
+   "title" : "Stanford Heart Transplant data",
+   "description" : "Description\nSurvival of patients on the waiting list for the Stanford\nheart transplant program.",
    "usage" : "heart\ndata(heart, package=\"survival\")"
 }
 

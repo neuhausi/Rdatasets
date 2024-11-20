@@ -1,12 +1,43 @@
 {
    "config" : {
+      "subtitle" : "boot - downs.bc",
       "title" : "Incidence of Down's Syndrome in British Columbia",
-      "graphType" : "Scatter3D",
-      "subtitle" : "boot - downs.bc"
+      "graphType" : "Scatter3D"
    },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>downs.bc</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>\nIncidence of Down's Syndrome in British Columbia\n</h2>\n<h3>Description</h3>\n<p>The <code>downs.bc</code> data frame has 30 rows and 3 columns.\n</p>\n<p>Down's syndrome is a genetic disorder caused by an extra chromosome 21 or\na part of chromosome 21 being translocated to another chromosome.  The \nincidence of Down's syndrome is highly dependent on the mother's age and rises\nsharply after age 30.  In the 1960's a large scale study of the effect of\nmaternal age on the incidence of Down's syndrome was conducted at the\nBritish Columbia Health Surveillance Registry.  These are the data which was\ncollected in that study. \n</p>\n<p>Mothers were classified by age. Most groups correspond to the age in years but\nthe first group comprises all mothers with ages in the range 15-17 and the \nlast is those with ages 46-49.  No data for\nmothers over 50 or below 15 were collected. \n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>downs.bc\n</code></pre>\n<h3>Format</h3>\n<p>This data frame contains the following columns:\n</p>\n<dl>\n<dt><code>age</code></dt><dd>\n<p>The average age of all mothers in the age category.\n</p>\n</dd>\n<dt><code>m</code></dt><dd>\n<p>The total number of live births to mothers in the age category.\n</p>\n</dd>\n<dt><code>r</code></dt><dd>\n<p>The number of cases of Down's syndrome.\n</p>\n</dd></dl>\n<h3>Source</h3>\n<p>The data were obtained from\n</p>\n<p>Geyer, C.J. (1991) Constrained maximum likelihood exemplified by isotonic \nconvex logistic regression. \n<em>Journal of the American Statistical Association</em>, <b>86</b>, 717&ndash;724.\n</p>\n<h3>References</h3>\n<p>Davison, A.C. and Hinkley, D.V. (1997) \n<em>Bootstrap Methods and Their Application</em>. Cambridge University Press.\n</p>\n</main>\n</div>\n",
    "data" : {
       "y" : {
+         "vars" : [
+            "Var1",
+            "Var2",
+            "Var3",
+            "Var4",
+            "Var5",
+            "Var6",
+            "Var7",
+            "Var8",
+            "Var9",
+            "Var10",
+            "Var11",
+            "Var12",
+            "Var13",
+            "Var14",
+            "Var15",
+            "Var16",
+            "Var17",
+            "Var18",
+            "Var19",
+            "Var20",
+            "Var21",
+            "Var22",
+            "Var23",
+            "Var24",
+            "Var25",
+            "Var26",
+            "Var27",
+            "Var28",
+            "Var29",
+            "Var30"
+         ],
          "data" : [
             [
                17,
@@ -159,43 +190,12 @@
                7
             ]
          ],
-         "vars" : [
-            "Var1",
-            "Var2",
-            "Var3",
-            "Var4",
-            "Var5",
-            "Var6",
-            "Var7",
-            "Var8",
-            "Var9",
-            "Var10",
-            "Var11",
-            "Var12",
-            "Var13",
-            "Var14",
-            "Var15",
-            "Var16",
-            "Var17",
-            "Var18",
-            "Var19",
-            "Var20",
-            "Var21",
-            "Var22",
-            "Var23",
-            "Var24",
-            "Var25",
-            "Var26",
-            "Var27",
-            "Var28",
-            "Var29",
-            "Var30"
-         ],
          "smps" : [
             "age",
             "m",
             "r"
          ]
       }
-   }
+   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>downs.bc</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>\nIncidence of Down's Syndrome in British Columbia\n</h2>\n<h3>Description</h3>\n<p>The <code>downs.bc</code> data frame has 30 rows and 3 columns.\n</p>\n<p>Down's syndrome is a genetic disorder caused by an extra chromosome 21 or\na part of chromosome 21 being translocated to another chromosome.  The \nincidence of Down's syndrome is highly dependent on the mother's age and rises\nsharply after age 30.  In the 1960's a large scale study of the effect of\nmaternal age on the incidence of Down's syndrome was conducted at the\nBritish Columbia Health Surveillance Registry.  These are the data which was\ncollected in that study. \n</p>\n<p>Mothers were classified by age. Most groups correspond to the age in years but\nthe first group comprises all mothers with ages in the range 15-17 and the \nlast is those with ages 46-49.  No data for\nmothers over 50 or below 15 were collected. \n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>downs.bc\n</code></pre>\n<h3>Format</h3>\n<p>This data frame contains the following columns:\n</p>\n<dl>\n<dt><code>age</code></dt><dd>\n<p>The average age of all mothers in the age category.\n</p>\n</dd>\n<dt><code>m</code></dt><dd>\n<p>The total number of live births to mothers in the age category.\n</p>\n</dd>\n<dt><code>r</code></dt><dd>\n<p>The number of cases of Down's syndrome.\n</p>\n</dd></dl>\n<h3>Source</h3>\n<p>The data were obtained from\n</p>\n<p>Geyer, C.J. (1991) Constrained maximum likelihood exemplified by isotonic \nconvex logistic regression. \n<em>Journal of the American Statistical Association</em>, <b>86</b>, 717&ndash;724.\n</p>\n<h3>References</h3>\n<p>Davison, A.C. and Hinkley, D.V. (1997) \n<em>Bootstrap Methods and Their Application</em>. Cambridge University Press.\n</p>\n</main>\n</div>\n"
 }

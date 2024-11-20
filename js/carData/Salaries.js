@@ -1,15 +1,15 @@
 var SalariesInfo ={
-   "usage" : "Salaries",
    "format" : "A data frame with 397 observations on the following 6 variables.",
+   "usage" : "Salaries",
    "title" : "Salaries for Professors",
    "description" : "Description\nThe 2008-09 nine-month academic\nsalary for Assistant Professors, Associate Professors and Professors in a\ncollege in the U.S. The data were collected as part of the\non-going effort of the college's administration to monitor salary differences\nbetween male and female faculty members.",
    "parameters" : {
+      "rank" : "a factor with levels AssocProf AsstProf Prof",
       "yrs.since.phd" : "years since PhD.",
       "sex" : "a factor with levels Female Male",
       "discipline" : "a factor with levels A (&ldquo;theoretical&rdquo; departments) \nor B (&ldquo;applied&rdquo; departments).",
-      "salary" : "nine-month salary, in dollars.",
       "yrs.service" : "years of service.",
-      "rank" : "a factor with levels AssocProf AsstProf Prof"
+      "salary" : "nine-month salary, in dollars."
    }
 }
 

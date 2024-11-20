@@ -1,4 +1,13 @@
 {
+   "config" : {
+      "title" : "Biomass data",
+      "subtitle" : "modeldata - biomass",
+      "smpOverlays" : [
+         "sample",
+         "dataset"
+      ],
+      "graphType" : "Heatmap"
+   },
    "data" : {
       "y" : {
          "data" : [
@@ -4857,14 +4866,5 @@
          ]
       }
    },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>biomass</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Biomass data</h2>\n<h3>Description</h3>\n<p>Ghugare et al (2014) contains a data set where different biomass fuels are\ncharacterized by the amount of certain molecules (carbon, hydrogen, oxygen,\nnitrogen, and sulfur) and the corresponding higher heating value (HHV).\nThese data are from their Table S.2 of the Supplementary Materials\n</p>\n<h3>Value</h3>\n<table>\n<tr><td><code>biomass</code></td>\n<td>\n<p>a data frame</p>\n</td></tr>\n</table>\n<h3>Source</h3>\n<p>Ghugare, S. B., Tiwary, S., Elangovan, V., and Tambe, S. S. (2013).\nPrediction of Higher Heating Value of Solid Biomass Fuels Using Artificial\nIntelligence Formalisms. <em>BioEnergy Research</em>, 1-12.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>data(biomass)\nstr(biomass)\n</code></pre>\n</main>\n</div>\n",
-   "config" : {
-      "title" : "Biomass data",
-      "graphType" : "Heatmap",
-      "smpOverlays" : [
-         "sample",
-         "dataset"
-      ],
-      "subtitle" : "modeldata - biomass"
-   }
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>biomass</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Biomass data</h2>\n<h3>Description</h3>\n<p>Ghugare et al (2014) contains a data set where different biomass fuels are\ncharacterized by the amount of certain molecules (carbon, hydrogen, oxygen,\nnitrogen, and sulfur) and the corresponding higher heating value (HHV).\nThese data are from their Table S.2 of the Supplementary Materials\n</p>\n<h3>Value</h3>\n<table>\n<tr><td><code>biomass</code></td>\n<td>\n<p>a data frame</p>\n</td></tr>\n</table>\n<h3>Source</h3>\n<p>Ghugare, S. B., Tiwary, S., Elangovan, V., and Tambe, S. S. (2013).\nPrediction of Higher Heating Value of Solid Biomass Fuels Using Artificial\nIntelligence Formalisms. <em>BioEnergy Research</em>, 1-12.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>data(biomass)\nstr(biomass)\n</code></pre>\n</main>\n</div>\n"
 }

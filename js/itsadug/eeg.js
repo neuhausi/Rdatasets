@@ -1,16 +1,16 @@
 var eegInfo ={
-   "reference" : "Jacolien van Rij",
-   "title" : "Raw EEG data, single trial, 50Hz.",
    "format" : "A data frame with 1504 rows and 5 variables:",
+   "title" : "Raw EEG data, single trial, 50Hz.",
+   "description" : "Description\nA dataset containing a single EEG trial.",
+   "reference" : "Jacolien van Rij",
+   "usage" : "eeg",
    "parameters" : {
-      "Time" : "Time, time measure from onset of the stimulus.",
-      "Electrode" : "Electrode that recorded the EEG.",
       "X" : "Approximation of electrode position, relative to Cz. \nLeft is negative.",
       "Y" : "Approximation of electrode position, relative to Cz. \nBack is negative.",
+      "Time" : "Time, time measure from onset of the stimulus.",
+      "Electrode" : "Electrode that recorded the EEG.",
       "Ampl" : "EEG amplitude, recorded by 32 electrodes."
-   },
-   "usage" : "eeg",
-   "description" : "Description\nA dataset containing a single EEG trial."
+   }
 }
 
 var eeg = [

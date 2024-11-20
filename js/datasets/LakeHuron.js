@@ -1,8 +1,8 @@
 var LakeHuronInfo ={
-   "usage" : "LakeHuron",
    "title" : "Level of Lake Huron 1875&ndash;1972",
-   "format" : "A time series of length 98.",
-   "description" : "Description\nAnnual measurements of the level, in feet, of Lake Huron 1875&ndash;1972."
+   "description" : "Description\nAnnual measurements of the level, in feet, of Lake Huron 1875&ndash;1972.",
+   "usage" : "LakeHuron",
+   "format" : "A time series of length 98."
 }
 
 var LakeHuron = [

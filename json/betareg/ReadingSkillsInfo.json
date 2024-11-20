@@ -1,0 +1,13 @@
+{
+   "format" : "A data frame containing 44 observations on 3 variables.",
+   "title" : "Dyslexia and IQ Predicting Reading Accuracy",
+   "description" : "Description\nData for assessing the contribution of non-verbal IQ to\nchildren's reading skills in dyslexic and non-dyslexic children.",
+   "usage" : "data(\"ReadingSkills\", package = \"betareg\")",
+   "reference" : "The data were collected by Pammer and Kevan (2004) and employed by\nSmithson and Verkuilen (2006). The original reading accuracy score was transformed\nby Smithson and Verkuilen (2006) so that accuracy is in the open unit\ninterval (0, 1) and beta regression can be employed. First, the original accuracy\nwas scaled using the minimal and maximal score (a and b, respectively)\nthat can be obtained in the test: accuracy1 = (original_accuracy - a) / (b - a)\n(a and b are not provided). Subsequently, accuracy was obtained\nfrom accuracy1 by replacing all observations with a value of 1 with 0.99.",
+   "parameters" : {
+      "dyslexia" : "factor. Is the child dyslexic? (A sum contrast rather\nthan treatment contrast is employed.)",
+      "accuracy1" : "numeric. Unrestricted reading score with a maximum of 1\n(see below).",
+      "accuracy" : "numeric. Reading score with maximum restricted to be\n0.99 rather than 1 (see below).",
+      "iq" : "numeric. Non-verbal intelligence quotient transformed to z-scores."
+   }
+}

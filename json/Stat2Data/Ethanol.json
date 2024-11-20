@@ -8,6 +8,28 @@
    "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>Ethanol</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Effects of Oxygen on Sugar Metabolism</h2>\n<h3>Description</h3>\n<p>Experiment on the effects of oxygen on sugar metabolism by bacteria\n</p>\n<h3>Format</h3>\n<p>A data frame with 16 observations on the following 3 variables.\n</p>\n<table>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Sugar</code> </td><td style=\"text-align: left;\"> Type of sugar:  <code>Galactose</code> or  <code>Glucose</code></td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>O2Conc</code> </td><td style=\"text-align: left;\"> Oxygen concentration</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Ethanol</code> </td><td style=\"text-align: left;\"> Ethanol concentration</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n  </td>\n</tr>\n</table>\n<h3>Details</h3>\n<p>Many biochemical reactions are slowed or prevented by the presence of oxygen. For\nexample, there are two simple forms of fermentation, one which converts each molecule of sugar\nto two molecules of lactic acid, and a second which converts each molecule of sugar to one each of\nlactic acid, ethanol, and carbon dioxide. This experiment was designed to compare the inhibiting effect of oxygen on the\nmetabolism of two different sugars, glucose and galactose, by Streptococcus bacteria. In this case\nthere were four levels of oxygen that were applied to the two kinds of sugar.\n</p>\n<p>Renamed to SugarEthanol in second edition.\n</p>\n<h3>Source</h3>\n<p>Data are found in\nStatistics: The Exploration and Analysis of Data by Jay Devore and Roxy Peck (2008). St. Paul, MN: West.\n</p>\n<p>The original article is Yamada T., Takahashi-Abbe S., Abbe K. (1985) &quot;Effects of oxygen concentration on pyruvate formatelyase in situ and sugar metabolism\nof Streptocucoccus mutans and Streptococcus samguis,&quot; Infection and Immunity, pp. 129-134.\n</p>\n</main>\n</div>\n",
    "data" : {
       "y" : {
+         "vars" : [
+            "Var1",
+            "Var2",
+            "Var3",
+            "Var4",
+            "Var5",
+            "Var6",
+            "Var7",
+            "Var8",
+            "Var9",
+            "Var10",
+            "Var11",
+            "Var12",
+            "Var13",
+            "Var14",
+            "Var15",
+            "Var16"
+         ],
+         "smps" : [
+            "O2Conc",
+            "Ethanol"
+         ],
          "data" : [
             [
                0,
@@ -73,28 +95,6 @@
                138,
                1
             ]
-         ],
-         "vars" : [
-            "Var1",
-            "Var2",
-            "Var3",
-            "Var4",
-            "Var5",
-            "Var6",
-            "Var7",
-            "Var8",
-            "Var9",
-            "Var10",
-            "Var11",
-            "Var12",
-            "Var13",
-            "Var14",
-            "Var15",
-            "Var16"
-         ],
-         "smps" : [
-            "O2Conc",
-            "Ethanol"
          ]
       },
       "z" : {

@@ -1,17 +1,17 @@
 var googInfo ={
-   "description" : "Description\nGoogle stock data from 2006 to early 2014, where data from the first day\neach month was collected.",
-   "usage" : "goog",
    "parameters" : {
+      "adj_close" : "a numeric vector",
       "volume" : "a numeric vector",
-      "close" : "a numeric vector",
-      "high" : "a numeric vector",
-      "date" : "a factor with levels 2006-01-03, 2006-02-01, and so on",
       "low" : "a numeric vector",
+      "high" : "a numeric vector",
       "open" : "a numeric vector",
-      "adj_close" : "a numeric vector"
+      "date" : "a factor with levels 2006-01-03, 2006-02-01, and so on",
+      "close" : "a numeric vector"
    },
+   "usage" : "goog",
    "reference" : "Yahoo! Finance.",
    "title" : "Google stock data",
+   "description" : "Description\nGoogle stock data from 2006 to early 2014, where data from the first day\neach month was collected.",
    "format" : "A data frame with 98 observations on the following 7 variables."
 }
 

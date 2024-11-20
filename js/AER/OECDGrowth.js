@@ -1,17 +1,17 @@
 var OECDGrowthInfo ={
+   "title" : "OECD Macroeconomic Data",
    "description" : "Description\nCross-section data on OECD countries, used for growth regressions.",
    "usage" : "data(\"OECDGrowth\")",
+   "reference" : "Appendix 1 Nonneman and Vanhoudt (1996), except for one bad misprint:\nThe value of school for Norway is given as 0.01, the correct value is 0.1\n(see Mankiw, Romer and Weil, 1992). OECDGrowth contains the corrected data.",
    "parameters" : {
-      "randd" : "average of annual ratios of gross domestic expenditure on research \nand development to nominal GDP (of available observations during 1960&ndash;1985).",
-      "invest" : "average of annual ratios of real domestic investment to real GDP (1960&ndash;1985).",
-      "popgrowth" : "annual population growth 1960&ndash;1985, computed as log(pop85/pop60)/25.",
       "gdp60" : "real GDP in 1960 (per person of working age, i.e., age 15 to 65),\nin 1985 international prices.",
+      "school" : "percentage of the working-age population that is in secondary school.",
+      "popgrowth" : "annual population growth 1960&ndash;1985, computed as log(pop85/pop60)/25.",
       "gdp85" : "real GDP in 1985 (per person of working age, i.e., age 15 to 65),\nin 1985 international prices.",
-      "school" : "percentage of the working-age population that is in secondary school."
+      "randd" : "average of annual ratios of gross domestic expenditure on research \nand development to nominal GDP (of available observations during 1960&ndash;1985).",
+      "invest" : "average of annual ratios of real domestic investment to real GDP (1960&ndash;1985)."
    },
-   "title" : "OECD Macroeconomic Data",
-   "format" : "A data frame with 22 observations on the following 6 variables.",
-   "reference" : "Appendix 1 Nonneman and Vanhoudt (1996), except for one bad misprint:\nThe value of school for Norway is given as 0.01, the correct value is 0.1\n(see Mankiw, Romer and Weil, 1992). OECDGrowth contains the corrected data."
+   "format" : "A data frame with 22 observations on the following 6 variables."
 }
 
 var OECDGrowth = [

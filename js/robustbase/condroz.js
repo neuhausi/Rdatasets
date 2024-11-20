@@ -1,12 +1,12 @@
 var condrozInfo ={
-   "reference" : "For more information on the dataset, cf. Goegebeur et al. (2005).",
    "format" : "A data frame with 428 observations on the following 2 variables.",
-   "title" : "Condroz Data",
    "parameters" : {
-      "Ca" : "Calcium content of the soil sample",
-      "pH" : "pH value of the soil sample"
+      "pH" : "pH value of the soil sample",
+      "Ca" : "Calcium content of the soil sample"
    },
    "usage" : "data(condroz, package=\"robustbase\")",
+   "reference" : "For more information on the dataset, cf. Goegebeur et al. (2005).",
+   "title" : "Condroz Data",
    "description" : "Description\nDataset with pH-value and Calcium content in soil samples, collected in different\ncommunities of the Condroz region in Belgium. The data pertain to a\nsubset of 428 samples with a pH-value between 7.0 and 7.5."
 }
 

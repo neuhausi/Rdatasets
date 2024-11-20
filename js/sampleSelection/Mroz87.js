@@ -1,33 +1,33 @@
 var Mroz87Info ={
-   "usage" : "data(Mroz87)",
-   "description" : "Description\nThe Mroz87 data frame contains data about 753 married women.\nThese data are collected within the \"Panel Study of Income Dynamics\" (PSID).\nOf the 753 observations, the first 428 are for women with positive hours\nworked in 1975, while the remaining 325 observations are for women who\ndid not work for pay in 1975.  A more complete discussion of the data is\nfound in Mroz (1987), Appendix 1.",
    "format" : "This data frame contains the following columns:",
-   "title" : "U.S. Women's Labor Force Participation",
-   "reference" : "Mroz, T. A. (1987)\nThe sensitivity of an empirical model of married women's hours of work to\neconomic and statistical assumptions.\nEconometrica 55, 765&ndash;799.",
    "parameters" : {
-      "faminc" : "Family income, in 1975 dollars.",
+      "mtr" : "Marginal tax rate facing the wife.",
+      "kids5" : "Number of children 5 years old or younger.",
       "unem" : "Unemployment rate in county of residence, in percentage points.",
       "hours" : "Wife's hours of work in 1975.",
-      "wifecoll" : "Dummy variable for wife's college attendance.",
-      "mtr" : "Marginal tax rate facing the wife.",
-      "wage" : "Wife's average hourly earnings, in 1975 dollars.",
       "fatheduc" : "Wife's father's educational attainment, in years.",
-      "huseduc" : "Husband's educational attainment, in years.",
-      "nwifeinc" : "Non-wife income.",
       "kids618" : "Number of children 6 to 18 years old.",
+      "lfp" : "Dummy variable for labor-force participation.",
+      "nwifeinc" : "Non-wife income.",
+      "huseduc" : "Husband's educational attainment, in years.",
+      "wifecoll" : "Dummy variable for wife's college attendance.",
+      "exper" : "Actual years of wife's previous labor market experience.",
+      "huswage" : "Husband's wage, in 1975 dollars.",
+      "faminc" : "Family income, in 1975 dollars.",
+      "hushrs" : "Husband's hours worked in 1975.",
       "city" : "Dummy variable = 1 if live in large city, else 0.",
       "huscoll" : "Dummy variable for husband's college attendance.",
-      "kids5" : "Number of children 5 years old or younger.",
-      "exper" : "Actual years of wife's previous labor market experience.",
-      "hushrs" : "Husband's hours worked in 1975.",
-      "repwage" : "Wife's wage reported at the time of the 1976 interview.",
+      "wage" : "Wife's average hourly earnings, in 1975 dollars.",
       "age" : "Wife's age.",
-      "educ" : "Wife's educational attainment, in years.",
       "husage" : "Husband's age.",
-      "lfp" : "Dummy variable for labor-force participation.",
-      "motheduc" : "Wife's mother's educational attainment, in years.",
-      "huswage" : "Husband's wage, in 1975 dollars."
-   }
+      "repwage" : "Wife's wage reported at the time of the 1976 interview.",
+      "educ" : "Wife's educational attainment, in years.",
+      "motheduc" : "Wife's mother's educational attainment, in years."
+   },
+   "reference" : "Mroz, T. A. (1987)\nThe sensitivity of an empirical model of married women's hours of work to\neconomic and statistical assumptions.\nEconometrica 55, 765&ndash;799.",
+   "usage" : "data(Mroz87)",
+   "description" : "Description\nThe Mroz87 data frame contains data about 753 married women.\nThese data are collected within the \"Panel Study of Income Dynamics\" (PSID).\nOf the 753 observations, the first 428 are for women with positive hours\nworked in 1975, while the remaining 325 observations are for women who\ndid not work for pay in 1975.  A more complete discussion of the data is\nfound in Mroz (1987), Appendix 1.",
+   "title" : "U.S. Women's Labor Force Participation"
 }
 
 var Mroz87 = [

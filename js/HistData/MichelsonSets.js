@@ -1,9 +1,9 @@
 var MichelsonSetsInfo ={
-   "usage" : "data(Michelson)\ndata(MichelsonSets)",
-   "description" : "Description\nThe data frame Michelson gives Albert Michelson's measurements of the velocity of light in air, \nmade from June 5 to July 2, 1879, reported in Michelson (1882). \nThe given values + 299,000 are Michelson's measurements in km/sec. \nThe number of cases is 100 and the \"true\" value on this scale is 734.5.\nStigler (1977) used these data to illustrate properties of robust estimators\nwith real, historical data.  For this purpose, he divided the 100 measurements\ninto 5 sets of 20 each.  These are contained in  MichelsonSets.",
-   "title" : "Michelson's Determinations of the Velocity of Light",
    "format" : "Michelson: A data frame with 100 observations on the following variable, given in time order of\ndata collection",
+   "title" : "Michelson's Determinations of the Velocity of Light",
+   "description" : "Description\nThe data frame Michelson gives Albert Michelson's measurements of the velocity of light in air, \nmade from June 5 to July 2, 1879, reported in Michelson (1882). \nThe given values + 299,000 are Michelson's measurements in km/sec. \nThe number of cases is 100 and the \"true\" value on this scale is 734.5.\nStigler (1977) used these data to illustrate properties of robust estimators\nwith real, historical data.  For this purpose, he divided the 100 measurements\ninto 5 sets of 20 each.  These are contained in  MichelsonSets.",
    "reference" : "The \"true\" value is taken to be 734.5, arrived at by taking the \"true\" speed of light\nin a vacuum to be 299,792.5 km/sec, and adjusting for the velocity in air.",
+   "usage" : "data(Michelson)\ndata(MichelsonSets)",
    "parameters" : {
       "velocity" : "a numeric vector"
    }

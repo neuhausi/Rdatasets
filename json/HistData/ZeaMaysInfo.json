@@ -1,0 +1,14 @@
+{
+   "format" : "A data frame with 15 observations on the following 4 variables.",
+   "title" : "Darwin's Heights of Cross- and Self-fertilized Zea May Pairs",
+   "description" : "Description\nDarwin (1876) studied the growth of pairs of zea may (aka corn)\nseedlings, one produced by cross-fertilization and the other\nproduced by self-fertilization, but otherwise grown under identical \nconditions.\nHis goal was to demonstrate the greater vigour of the cross-fertilized plants.\nThe data recorded are the final height (inches, to the nearest 1/8th)  of the plants in each pair.\nIn the Design of Experiments, Fisher (1935) used these data to illustrate\na paired t-test (well, a one-sample test on the mean difference, cross - self).\nLater in the book (section 21), he used this data to illustrate an early example of a non-parametric permutation\ntest, treating each paired difference as having (randomly) either a positive or negative sign.",
+   "reference" : "In addition to the standard paired t-test,\nseveral types of non-parametric tests can be contemplated:",
+   "usage" : "data(ZeaMays)",
+   "parameters" : {
+      "cross" : "height of cross fertilized plant, a numeric vector",
+      "diff" : "cross - self for each pair",
+      "pair" : "pair number, a numeric vector",
+      "pot" : "pot, a factor with levels 1 2 3 4",
+      "self" : "height of self fertilized plant, a numeric vector"
+   }
+}

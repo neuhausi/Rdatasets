@@ -1,6 +1,11 @@
 {
    "data" : {
       "y" : {
+         "smps" : [
+            "Age",
+            "PctDM",
+            "Sept"
+         ],
          "data" : [
             [
                7,
@@ -214,11 +219,6 @@
             "Var33",
             "Var34",
             "Var35"
-         ],
-         "smps" : [
-            "Age",
-            "PctDM",
-            "Sept"
          ]
       },
       "z" : {
@@ -263,9 +263,9 @@
    },
    "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>FishEggs</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Fertility of Fish Eggs</h2>\n<h3>Description</h3>\n<p>Fertility measurement for eggs from a sample of 35 lake trout\n</p>\n<h3>Format</h3>\n<p>A data frame with 35 observations on the following 4 variables.\n</p>\n<table>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Age</code> </td><td style=\"text-align: left;\"> Age of the fish (in years)</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>PctDM</code> </td><td style=\"text-align: left;\"> Percentage of the total egg material that is solid</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Month</code> </td><td style=\"text-align: left;\"> Month fish was caught:  <code>Sep</code>=September or  <code>Nov</code>=November</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Sept</code> </td><td style=\"text-align: left;\"> Indicator with <code>1</code>=September or <code>0</code>=November</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n  </td>\n</tr>\n</table>\n<h3>Details</h3>\n<p>Researchers collected samples of female lake trout from Lake Ontario in September\nand November of 2002 through 2004. A goal of the study was to investigate the fertility of\nfish that had been stocked in the lake. One measure of the viability of fish eggs is percent dry mass (PctDM) which reflects the energy potential stored in the eggs by recording the percentage\nof the total egg material that is solid. Values of the PctDM for a sample of 35 lake trout (14 in\nSeptember and 21 in November) are given in this dataset along with the age (in years) of the fish.\n</p>\n<h3>Source</h3>\n<p>Lantry, OGorman, and Machut (2008) &quot;Maternal Characteristics versus Egg Size and Energy Density,&quot; Journal\nof Great Lakes Research 34(4): 661-674.\n</p>\n</main>\n</div>\n",
    "config" : {
-      "title" : "Fertility of Fish Eggs",
-      "colorBy" : "Month",
       "graphType" : "Scatter3D",
+      "colorBy" : "Month",
+      "title" : "Fertility of Fish Eggs",
       "subtitle" : "Stat2Data - FishEggs"
    }
 }

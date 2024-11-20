@@ -1,0 +1,19 @@
+{
+   "parameters" : {
+      "air_time" : "Amount of time spent in the air.",
+      "year,month,day" : "Date of departure.",
+      "tailnum" : "Plane tail number.",
+      "carrier" : "Two letter carrier abbreviation. See airlines in the\nnycflights13 package for more information or google the airline code.",
+      "origin,dest" : "Origin and destination. See airports in the\nnycflights13 package for more information or google airport the code.",
+      "dep_time,arr_time" : "Departure and arrival times, local tz.",
+      "distance" : "Distance flown.",
+      "flight" : "Flight number.",
+      "dep_delay,arr_delay" : "Departure and arrival delays, in minutes.\nNegative times represent early departures/arrivals.",
+      "hour,minute" : "Time of departure broken in to hour and minutes."
+   },
+   "title" : "Flights data",
+   "description" : "Description\nOn-time data for a random sample of flights that departed NYC (i.e. JFK,\nLGA or EWR) in 2013.",
+   "reference" : "Hadley Wickham (2014). nycflights13: Data about flights departing\nNYC in 2013. R package version 0.1.",
+   "usage" : "nycflights",
+   "format" : "A tbl_df with 32,735 rows and 16 variables:"
+}

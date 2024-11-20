@@ -1,14 +1,14 @@
 var playing_cardsInfo ={
    "usage" : "playing_cards",
-   "description" : "Description\nA table describing each of the 52 cards in a deck.",
-   "format" : "A data frame with 52 observations on the following 2 variables.",
-   "title" : "Table of Playing Cards in 52-Card Deck",
    "reference" : "This extremely complex dataset was generated from scratch.",
+   "title" : "Table of Playing Cards in 52-Card Deck",
+   "description" : "Description\nA table describing each of the 52 cards in a deck.",
    "parameters" : {
+      "face_card" : "Whether the card counts as a face card.",
       "suit" : "Card suit, which takes one of four values: Club, Diamond, Heart, or Spade.",
-      "number" : "The number or card type.",
-      "face_card" : "Whether the card counts as a face card."
-   }
+      "number" : "The number or card type."
+   },
+   "format" : "A data frame with 52 observations on the following 2 variables."
 }
 
 var playing_cards = [

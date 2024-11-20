@@ -1,5 +1,16 @@
 {
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>warpbreaks</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>The Number of Breaks in Yarn during Weaving</h2>\n<h3>Description</h3>\n<p>This data set gives the number of warp breaks per loom, where a loom\ncorresponds to a fixed length of yarn.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>warpbreaks</code></pre>\n<h3>Format</h3>\n<p>A data frame with 54 observations on 3 variables.\n</p>\n<table>\n<tr>\n <td style=\"text-align: right;\">\n    <code>[,1]</code> </td><td style=\"text-align: left;\"> <code>breaks</code>  </td><td style=\"text-align: left;\"> numeric </td><td style=\"text-align: left;\"> The number of breaks</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>[,2]</code> </td><td style=\"text-align: left;\"> <code>wool</code>    </td><td style=\"text-align: left;\"> factor  </td><td style=\"text-align: left;\"> The type of wool (A or B)</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>[,3]</code> </td><td style=\"text-align: left;\"> <code>tension</code> </td><td style=\"text-align: left;\"> factor  </td><td style=\"text-align: left;\"> The level of tension (L, M, H)\n  </td>\n</tr>\n</table>\n<p>There are measurements on 9 looms for each of the six types of warp\n(<code>AL</code>, <code>AM</code>, <code>AH</code>, <code>BL</code>, <code>BM</code>, <code>BH</code>).\n</p>\n<h3>Source</h3>\n<p>Tippett, L. H. C. (1950)\n<em>Technological Applications of Statistics</em>.\nWiley.  Page 106.\n</p>\n<h3>References</h3>\n<p>Tukey, J. W. (1977)\n<em>Exploratory Data Analysis</em>.\nAddison-Wesley.\n</p>\n<p>McNeil, D. R. (1977)\n<em>Interactive Data Analysis</em>.\nWiley.\n</p>\n<h3>See Also</h3>\n<p><code>xtabs</code> for ways to display these data as a table.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>require(stats); require(graphics)\nsummary(warpbreaks)\nopar &lt;- par(mfrow = c(1, 2), oma = c(0, 0, 1.1, 0))\nplot(breaks ~ tension, data = warpbreaks, col = \"lightgray\",\n     varwidth = TRUE, subset = wool == \"A\", main = \"Wool A\")\nplot(breaks ~ tension, data = warpbreaks, col = \"lightgray\",\n     varwidth = TRUE, subset = wool == \"B\", main = \"Wool B\")\nmtext(\"warpbreaks data\", side = 3, outer = TRUE)\npar(opar)\nsummary(fm1 &lt;- lm(breaks ~ wool*tension, data = warpbreaks))\nanova(fm1)\n</code></pre>\n</main>\n</div>\n",
+   "config" : {
+      "title" : "The Number of Breaks in Yarn during Weaving",
+      "subtitle" : "datasets - warpbreaks",
+      "groupingFactors" : [
+         "tension"
+      ],
+      "colorBy" : "variable",
+      "graphType" : "Boxplot",
+      "segregateSamplesBy" : [
+         "wool"
+      ]
+   },
    "data" : {
       "x" : {
          "tension" : [
@@ -116,6 +127,9 @@
          ]
       },
       "y" : {
+         "vars" : [
+            "breaks"
+         ],
          "data" : [
             [
                26,
@@ -229,22 +243,8 @@
             "Smp52",
             "Smp53",
             "Smp54"
-         ],
-         "vars" : [
-            "breaks"
          ]
       }
    },
-   "config" : {
-      "title" : "The Number of Breaks in Yarn during Weaving",
-      "segregateSamplesBy" : [
-         "wool"
-      ],
-      "subtitle" : "datasets - warpbreaks",
-      "colorBy" : "variable",
-      "graphType" : "Boxplot",
-      "groupingFactors" : [
-         "tension"
-      ]
-   }
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>warpbreaks</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>The Number of Breaks in Yarn during Weaving</h2>\n<h3>Description</h3>\n<p>This data set gives the number of warp breaks per loom, where a loom\ncorresponds to a fixed length of yarn.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>warpbreaks</code></pre>\n<h3>Format</h3>\n<p>A data frame with 54 observations on 3 variables.\n</p>\n<table>\n<tr>\n <td style=\"text-align: right;\">\n    <code>[,1]</code> </td><td style=\"text-align: left;\"> <code>breaks</code>  </td><td style=\"text-align: left;\"> numeric </td><td style=\"text-align: left;\"> The number of breaks</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>[,2]</code> </td><td style=\"text-align: left;\"> <code>wool</code>    </td><td style=\"text-align: left;\"> factor  </td><td style=\"text-align: left;\"> The type of wool (A or B)</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>[,3]</code> </td><td style=\"text-align: left;\"> <code>tension</code> </td><td style=\"text-align: left;\"> factor  </td><td style=\"text-align: left;\"> The level of tension (L, M, H)\n  </td>\n</tr>\n</table>\n<p>There are measurements on 9 looms for each of the six types of warp\n(<code>AL</code>, <code>AM</code>, <code>AH</code>, <code>BL</code>, <code>BM</code>, <code>BH</code>).\n</p>\n<h3>Source</h3>\n<p>Tippett, L. H. C. (1950)\n<em>Technological Applications of Statistics</em>.\nWiley.  Page 106.\n</p>\n<h3>References</h3>\n<p>Tukey, J. W. (1977)\n<em>Exploratory Data Analysis</em>.\nAddison-Wesley.\n</p>\n<p>McNeil, D. R. (1977)\n<em>Interactive Data Analysis</em>.\nWiley.\n</p>\n<h3>See Also</h3>\n<p><code>xtabs</code> for ways to display these data as a table.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>require(stats); require(graphics)\nsummary(warpbreaks)\nopar &lt;- par(mfrow = c(1, 2), oma = c(0, 0, 1.1, 0))\nplot(breaks ~ tension, data = warpbreaks, col = \"lightgray\",\n     varwidth = TRUE, subset = wool == \"A\", main = \"Wool A\")\nplot(breaks ~ tension, data = warpbreaks, col = \"lightgray\",\n     varwidth = TRUE, subset = wool == \"B\", main = \"Wool B\")\nmtext(\"warpbreaks data\", side = 3, outer = TRUE)\npar(opar)\nsummary(fm1 &lt;- lm(breaks ~ wool*tension, data = warpbreaks))\nanova(fm1)\n</code></pre>\n</main>\n</div>\n"
 }

@@ -1,16 +1,16 @@
 var grogInfo ={
-   "description" : "Description\nData are annual apparent alcohol consumption in  Australia and New\nZealand, in liters of pure alcohol content per annum, separately for\nbeer, wine, and spirits (including spirit-based products).",
+   "reference" : "Data are total available pure alcohol content, for the three\ncategories, divided by numbers of persons aged 15 years or more.  The\nsource data for New Zealand included quarterly figures from December\n1997, and annual data to December for all years.  The annual New\nZealand figure to June 1998 required an estimate for September\n1997 that was obtained by extrapolating back the third quarter trend\nline from later years.",
    "usage" : "data(grog)",
+   "description" : "Description\nData are annual apparent alcohol consumption in  Australia and New\nZealand, in liters of pure alcohol content per annum, separately for\nbeer, wine, and spirits (including spirit-based products).",
+   "title" : "Alcohol consumption in Australia and New Zealand",
    "parameters" : {
-      "Spirit" : "liters per annum",
+      "Country" : "a factor with levels Australia\nNewZealand",
+      "Wine" : "liters per annum",
       "Beer" : "liters per annum",
       "Year" : "Year ending in June of the given year",
-      "Country" : "a factor with levels Australia\nNewZealand",
-      "Wine" : "liters per annum"
+      "Spirit" : "liters per annum"
    },
-   "title" : "Alcohol consumption in Australia and New Zealand",
-   "format" : "A data frame with 18 observations on the following 5 variables.",
-   "reference" : "Data are total available pure alcohol content, for the three\ncategories, divided by numbers of persons aged 15 years or more.  The\nsource data for New Zealand included quarterly figures from December\n1997, and annual data to December for all years.  The annual New\nZealand figure to June 1998 required an estimate for September\n1997 that was obtained by extrapolating back the third quarter trend\nline from later years."
+   "format" : "A data frame with 18 observations on the following 5 variables."
 }
 
 var grog = [

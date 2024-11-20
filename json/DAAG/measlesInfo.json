@@ -1,0 +1,6 @@
+{
+   "title" : "Deaths in London from measles",
+   "description" : "Description\nDeaths in London from measles: 1629 &ndash; 1939, with gaps.",
+   "usage" : "data(measles)",
+   "format" : "The format is:\nTime-Series [1:311] from 1629 to 1939: 42 2 3 80 21 33 27 12 NA NA ..."
+}

@@ -1,0 +1,15 @@
+{
+   "parameters" : {
+      "Animus" : "Measurement (0-250) of racial animus",
+      "Age65Plus" : "Percentage 65 and older",
+      "Hispanic" : "Percentage of Hispanics",
+      "BachPlus" : "Percentage with a bachelor's degree",
+      "Black" : "Percentage of African-Americans",
+      "ObamaKerry" : "Percentage of vote won by Obama in 2008 minus Kerry percentage in 2004",
+      "MediaMarket" : "City (State)"
+   },
+   "reference" : "Professor Seth Stephens-Davidowitz studies the level of racial animus across different areas in America by measuring the percent of Google search queries that include racially charged language. A measurement, Animus, is derived from his algorithm and is scaled to be between 0 (low racial animus) and 250 (high racial animus). The dataset includes those values along with demographic information about each media market.",
+   "usage" : "A data frame with 196 observations on the following 7 variables.",
+   "title" : "Racial Animus and City Demgraphics",
+   "description" : "Description\nDemographics and a measurement of racial animus in cities based on Google searches"
+}

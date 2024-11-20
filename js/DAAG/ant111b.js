@@ -1,18 +1,18 @@
 var ant111bInfo ={
-   "format" : "A data frame with 324 observations on 7 variables.",
-   "title" : "Averages by block of yields for the Antigua Corn data",
-   "reference" : "Andrews DF; Herzberg AM, 1985. Data. A Collection of Problems from\nMany Fields for the Student and Research Worker. Springer-Verlag.\n(pp. 339-353)",
    "parameters" : {
-      "harvwt" : "a numeric vector; the average yield",
-      "ears" : "a numeric vector; note that -9999 is used as a missing value code.",
-      "trt" : "a factor consisting of 12 levels",
       "id" : "a numeric vector",
-      "plot" : "a numeric vector",
+      "trt" : "a factor consisting of 12 levels",
+      "block" : "a factor with levels I II III IV",
       "site" : "a factor with 8 levels.",
-      "block" : "a factor with levels I II III IV"
+      "plot" : "a numeric vector",
+      "harvwt" : "a numeric vector; the average yield",
+      "ears" : "a numeric vector; note that -9999 is used as a missing value code."
    },
+   "title" : "Averages by block of yields for the Antigua Corn data",
+   "description" : "Description\nThese data frames have yield averages by blocks (parcels). The\nant111bdataset is a subset that has block averages of\ncorn yields for treatment 111 only",
+   "reference" : "Andrews DF; Herzberg AM, 1985. Data. A Collection of Problems from\nMany Fields for the Student and Research Worker. Springer-Verlag.\n(pp. 339-353)",
    "usage" : "data(antigua)\n  data(ant111b)",
-   "description" : "Description\nThese data frames have yield averages by blocks (parcels). The\nant111bdataset is a subset that has block averages of\ncorn yields for treatment 111 only"
+   "format" : "A data frame with 324 observations on 7 variables."
 }
 
 var ant111b = [

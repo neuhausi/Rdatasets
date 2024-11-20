@@ -1,12 +1,5 @@
 {
-   "config" : {
-      "subtitle" : "boot - urine",
-      "title" : "Urine Analysis Data",
-      "graphType" : "Scatter2D",
-      "shapeBy" : "osmo",
-      "colorBy" : "cond",
-      "scatterPlotMatrix" : 1
-   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>urine</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>\nUrine Analysis Data\n</h2>\n<h3>Description</h3>\n<p>The <code>urine</code> data frame has 79 rows and 7 columns.\n</p>\n<p>79 urine specimens were analyzed in an effort to determine if certain physical\ncharacteristics of the urine might be related to the formation of calcium\noxalate crystals.  \n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>urine\n</code></pre>\n<h3>Format</h3>\n<p>This data frame contains the following columns:\n</p>\n<dl>\n<dt><code>r</code></dt><dd>\n<p>Indicator of the presence of calcium oxalate crystals.\n</p>\n</dd>\n<dt><code>gravity</code></dt><dd>\n<p>The specific gravity of the urine.\n</p>\n</dd>\n<dt><code>ph</code></dt><dd>\n<p>The pH reading of the urine.\n</p>\n</dd>\n<dt><code>osmo</code></dt><dd>\n<p>The osmolarity of the urine. Osmolarity is proportional to the concentration\nof molecules in solution.\n</p>\n</dd>\n<dt><code>cond</code></dt><dd>\n<p>The conductivity of the urine.  Conductivity is proportional to the \nconcentration of charged ions in solution.\n</p>\n</dd>\n<dt><code>urea</code></dt><dd>\n<p>The urea concentration in millimoles per litre.\n</p>\n</dd>\n<dt><code>calc</code></dt><dd>\n<p>The calcium concentration in millimoles per litre.\n</p>\n</dd></dl>\n<h3>Source</h3>\n<p>The data were obtained from\n</p>\n<p>Andrews, D.F. and Herzberg, A.M. (1985) \n<em>Data: A Collection of Problems from Many Fields for the Student and Research Worker</em>. Springer-Verlag.\n</p>\n<h3>References</h3>\n<p>Davison, A.C. and Hinkley, D.V. (1997) \n<em>Bootstrap Methods and Their Application</em>. Cambridge University Press.\n</p>\n</main>\n</div>\n",
    "data" : {
       "z" : {
          "cond" : [
@@ -173,13 +166,6 @@
          ]
       },
       "y" : {
-         "smps" : [
-            "r",
-            "gravity",
-            "ph",
-            "urea",
-            "calc"
-         ],
          "vars" : [
             "Var1",
             "Var2",
@@ -260,6 +246,13 @@
             "Var77",
             "Var78",
             "Var79"
+         ],
+         "smps" : [
+            "r",
+            "gravity",
+            "ph",
+            "urea",
+            "calc"
          ],
          "data" : [
             [
@@ -818,5 +811,12 @@
          ]
       }
    },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>urine</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>\nUrine Analysis Data\n</h2>\n<h3>Description</h3>\n<p>The <code>urine</code> data frame has 79 rows and 7 columns.\n</p>\n<p>79 urine specimens were analyzed in an effort to determine if certain physical\ncharacteristics of the urine might be related to the formation of calcium\noxalate crystals.  \n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>urine\n</code></pre>\n<h3>Format</h3>\n<p>This data frame contains the following columns:\n</p>\n<dl>\n<dt><code>r</code></dt><dd>\n<p>Indicator of the presence of calcium oxalate crystals.\n</p>\n</dd>\n<dt><code>gravity</code></dt><dd>\n<p>The specific gravity of the urine.\n</p>\n</dd>\n<dt><code>ph</code></dt><dd>\n<p>The pH reading of the urine.\n</p>\n</dd>\n<dt><code>osmo</code></dt><dd>\n<p>The osmolarity of the urine. Osmolarity is proportional to the concentration\nof molecules in solution.\n</p>\n</dd>\n<dt><code>cond</code></dt><dd>\n<p>The conductivity of the urine.  Conductivity is proportional to the \nconcentration of charged ions in solution.\n</p>\n</dd>\n<dt><code>urea</code></dt><dd>\n<p>The urea concentration in millimoles per litre.\n</p>\n</dd>\n<dt><code>calc</code></dt><dd>\n<p>The calcium concentration in millimoles per litre.\n</p>\n</dd></dl>\n<h3>Source</h3>\n<p>The data were obtained from\n</p>\n<p>Andrews, D.F. and Herzberg, A.M. (1985) \n<em>Data: A Collection of Problems from Many Fields for the Student and Research Worker</em>. Springer-Verlag.\n</p>\n<h3>References</h3>\n<p>Davison, A.C. and Hinkley, D.V. (1997) \n<em>Bootstrap Methods and Their Application</em>. Cambridge University Press.\n</p>\n</main>\n</div>\n"
+   "config" : {
+      "shapeBy" : "osmo",
+      "scatterPlotMatrix" : 1,
+      "graphType" : "Scatter2D",
+      "colorBy" : "cond",
+      "subtitle" : "boot - urine",
+      "title" : "Urine Analysis Data"
+   }
 }

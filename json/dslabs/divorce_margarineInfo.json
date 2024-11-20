@@ -1,0 +1,12 @@
+{
+   "format" : "An object of class \"data.frame\".",
+   "parameters" : {
+      "margarine_consumption_per_capita. US per capita consumption of margarine in pounds." : null,
+      "year. Year." : null,
+      "divorce_rate_maine. Divorce per 1000 in Maine." : null
+   },
+   "usage" : "divorce_margarine",
+   "reference" : "Spurious Correlations",
+   "description" : "Description\nDivorce rates in Maine and per capita consumption of margarine in US data",
+   "title" : "Divorce rate and margarine consumption data"
+}

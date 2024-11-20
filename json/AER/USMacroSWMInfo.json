@@ -1,0 +1,13 @@
+{
+   "format" : "A monthly multiple time series from 1947(1) to 2004(4) with 4 variables.",
+   "parameters" : {
+      "production" : "index of industrial production.",
+      "oil" : "oil price shocks, starting 1948(1).",
+      "expenditure" : "personal consumption expenditures price deflator, starting 1959(1).",
+      "cpi" : "all-items consumer price index."
+   },
+   "usage" : "data(\"USMacroSWM\")",
+   "reference" : "Online complements to Stock and Watson (2007).",
+   "description" : "Description\nTime series data on 4 US macroeconomic variables for 1947&ndash;2004.",
+   "title" : "Monthly US Macroeconomic Data (1947&ndash;2004, Stock & Watson)"
+}

@@ -1,0 +1,14 @@
+{
+   "parameters" : {
+      "year" : "a numeric vector for the year",
+      "type" : "a factor with levels 51. Transport equipment, Passenger cars.\nThis is a constant. I just felt like making it a factor.",
+      "category" : "a factor with levels Export Quality Index,\nExport quality 95 percent interval - lower bound,\nExport quality 95 percent interval - upper bound\nUnit value of exports, Unit value 95 percent interval - lower bound,\nUnit value 95 percent interval - upper bound,\nTrade value of exports",
+      "country" : "a character vector for the country/area.",
+      "ccode" : "a numeric vector for the Correlates of War country code.",
+      "value" : "a numeric vector for the value of the particular category."
+   },
+   "description" : "Description\nData from the International Monetary Fund for the export quality and\nunit/trade value of passenger cars for all available countries and years\nfrom 1963 to 2014.",
+   "title" : "Export Quality Data for Passenger Cars, 1963-2014",
+   "usage" : "eq_passengercars",
+   "format" : "A data frame with 60424 observations on the following 6 variables."
+}

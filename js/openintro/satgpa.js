@@ -1,17 +1,17 @@
 var satgpaInfo ={
+   "format" : "A data frame with 1000 observations on the following 6 variables.",
    "parameters" : {
-      "hs_gpa" : "High school grade point average.",
-      "sat_sum" : "Total of verbal and math SAT percentiles.",
-      "sex" : "Gender of the student.",
       "sat_m" : "Math SAT percentile.",
+      "sat_sum" : "Total of verbal and math SAT percentiles.",
       "sat_v" : "Verbal SAT percentile.",
-      "fy_gpa" : "First year (college) grade point average."
+      "sex" : "Gender of the student.",
+      "fy_gpa" : "First year (college) grade point average.",
+      "hs_gpa" : "High school grade point average."
    },
    "title" : "SAT and GPA data",
-   "format" : "A data frame with 1000 observations on the following 6 variables.",
-   "reference" : "Educational Testing Service originally collected the data.",
    "description" : "Description\nSAT and GPA data for 1000 students at an unnamed college.",
-   "usage" : "satgpa"
+   "usage" : "satgpa",
+   "reference" : "Educational Testing Service originally collected the data."
 }
 
 var satgpa = [

@@ -1,7 +1,7 @@
 var SATGPAInfo ={
-   "usage" : "A dataset with 24 observations on the following 3 variables.",
+   "description" : "Description\nA sample of SAT scores and grade point averages for statistics students",
    "title" : "SAT Scores and GPA",
-   "description" : "Description\nA sample of SAT scores and grade point averages for statistics students"
+   "usage" : "A dataset with 24 observations on the following 3 variables."
 }
 
 var SATGPA = [

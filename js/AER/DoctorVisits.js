@@ -1,23 +1,23 @@
 var DoctorVisitsInfo ={
-   "description" : "Description\nCross-section data originating from the 1977&ndash;1978 Australian Health Survey.",
-   "usage" : "data(\"DoctorVisits\")",
-   "parameters" : {
-      "health" : "General health questionnaire score using Goldberg's method.",
-      "freepoor" : "Factor. Does the individual have free government health insurance due to low income?",
-      "reduced" : "Number of days of reduced activity in past 2 weeks due to illness or injury.",
-      "illness" : "Number of illnesses in past 2 weeks.",
-      "visits" : "Number of doctor visits in past 2 weeks.",
-      "gender" : "Factor indicating gender.",
-      "nchronic" : "Factor. Is there a chronic condition not limiting activity?",
-      "income" : "Annual income in tens of thousands of dollars.",
-      "freerepat" : "Factor. Does the individual have free government health insurance due to old age, \ndisability or veteran status?",
-      "age" : "Age in years divided by 100.",
-      "lchronic" : "Factor. Is there a chronic condition limiting activity?",
-      "private" : "Factor. Does the individual have private health insurance?"
-   },
    "format" : "A data frame containing 5,190 observations on 12 variables.",
+   "usage" : "data(\"DoctorVisits\")",
+   "reference" : "Journal of Applied Econometrics Data Archive.",
    "title" : "Australian Health Service Utilization Data",
-   "reference" : "Journal of Applied Econometrics Data Archive."
+   "description" : "Description\nCross-section data originating from the 1977&ndash;1978 Australian Health Survey.",
+   "parameters" : {
+      "freerepat" : "Factor. Does the individual have free government health insurance due to old age, \ndisability or veteran status?",
+      "health" : "General health questionnaire score using Goldberg's method.",
+      "lchronic" : "Factor. Is there a chronic condition limiting activity?",
+      "gender" : "Factor indicating gender.",
+      "income" : "Annual income in tens of thousands of dollars.",
+      "illness" : "Number of illnesses in past 2 weeks.",
+      "reduced" : "Number of days of reduced activity in past 2 weeks due to illness or injury.",
+      "freepoor" : "Factor. Does the individual have free government health insurance due to low income?",
+      "age" : "Age in years divided by 100.",
+      "nchronic" : "Factor. Is there a chronic condition not limiting activity?",
+      "private" : "Factor. Does the individual have private health insurance?",
+      "visits" : "Number of doctor visits in past 2 weeks."
+   }
 }
 
 var DoctorVisits = [

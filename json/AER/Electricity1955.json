@@ -1,10 +1,9 @@
 {
    "config" : {
       "title" : "Cost Function of Electricity Producers (1955",
-      "graphType" : "Heatmap",
-      "subtitle" : "AER - Electricity1955"
+      "subtitle" : "AER - Electricity1955",
+      "graphType" : "Heatmap"
    },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>Electricity1955</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Cost Function of Electricity Producers (1955, Nerlove Data)</h2>\n<h3>Description</h3>\n<p>Cost function data for 145 (+14) US electricity producers in 1955.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(\"Electricity1955\")</code></pre>\n<h3>Format</h3>\n<p>A data frame containing 159 observations on 8 variables.\n</p>\n<dl>\n<dt>cost</dt><dd><p>total cost.</p>\n</dd>\n<dt>output</dt><dd><p>total output.</p>\n</dd>\n<dt>labor</dt><dd><p>wage rate.</p>\n</dd>\n<dt>laborshare</dt><dd><p>cost share for labor.</p>\n</dd>\n<dt>capital</dt><dd><p>capital price index.</p>\n</dd>\n<dt>capitalshare</dt><dd><p>cost share for capital.</p>\n</dd>\n<dt>fuel</dt><dd><p>fuel price.</p>\n</dd>\n<dt>fuelshare</dt><dd><p>cost share for fuel.</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>The data contains several extra observations that are aggregates\nof commonly owned firms. Only the first 145 observations should be used for analysis.\n</p>\n<h3>Source</h3>\n<p>Online complements to Greene (2003). Table F14.2.\n</p>\n<p><a href=\"https://pages.stern.nyu.edu/~wgreene/Text/tables/tablelist5.htm\">https://pages.stern.nyu.edu/~wgreene/Text/tables/tablelist5.htm</a>\n</p>\n<h3>References</h3>\n<p>Greene, W.H. (2003). <em>Econometric Analysis</em>, 5th edition. Upper Saddle River, NJ: Prentice Hall.\n</p>\n<p>Nerlove, M. (1963) &ldquo;Returns to Scale in Electricity Supply.&rdquo;\nIn C. Christ (ed.), <em>Measurement in Economics: Studies in Mathematical Economics\nand Econometrics in Memory of Yehuda Grunfeld</em>. Stanford University Press, 1963.\n</p>\n<h3>See Also</h3>\n<p><code>Greene2003</code>, <code>Electricity1970</code></p>\n<h3>Examples</h3>\n<pre><code class='language-R'>data(\"Electricity1955\")\nElectricity &lt;- Electricity1955[1:145,]\n## Greene (2003)\n## Example 7.3\n## Cobb-Douglas cost function\nfm_all &lt;- lm(log(cost/fuel) ~ log(output) + log(labor/fuel) + log(capital/fuel),\n  data = Electricity)\nsummary(fm_all)\n## hypothesis of constant returns to scale\nlinearHypothesis(fm_all, \"log(output) = 1\")\n## Table 7.4\n## log quadratic cost function\nfm_all2 &lt;- lm(log(cost/fuel) ~ log(output) + I(log(output)^2) + log(labor/fuel) + log(capital/fuel),\n  data = Electricity)\nsummary(fm_all2)\n## More examples can be found in:\n## help(\"Greene2003\")\n</code></pre>\n</main>\n</div>\n",
    "data" : {
       "y" : {
          "data" : [
@@ -1297,16 +1296,6 @@
                0.582
             ]
          ],
-         "vars" : [
-            "cost",
-            "output",
-            "labor",
-            "laborshare",
-            "capital",
-            "capitalshare",
-            "fuel",
-            "fuelshare"
-         ],
          "smps" : [
             "Smp1",
             "Smp2",
@@ -1467,7 +1456,18 @@
             "Smp157",
             "Smp158",
             "Smp159"
+         ],
+         "vars" : [
+            "cost",
+            "output",
+            "labor",
+            "laborshare",
+            "capital",
+            "capitalshare",
+            "fuel",
+            "fuelshare"
          ]
       }
-   }
+   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>Electricity1955</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Cost Function of Electricity Producers (1955, Nerlove Data)</h2>\n<h3>Description</h3>\n<p>Cost function data for 145 (+14) US electricity producers in 1955.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(\"Electricity1955\")</code></pre>\n<h3>Format</h3>\n<p>A data frame containing 159 observations on 8 variables.\n</p>\n<dl>\n<dt>cost</dt><dd><p>total cost.</p>\n</dd>\n<dt>output</dt><dd><p>total output.</p>\n</dd>\n<dt>labor</dt><dd><p>wage rate.</p>\n</dd>\n<dt>laborshare</dt><dd><p>cost share for labor.</p>\n</dd>\n<dt>capital</dt><dd><p>capital price index.</p>\n</dd>\n<dt>capitalshare</dt><dd><p>cost share for capital.</p>\n</dd>\n<dt>fuel</dt><dd><p>fuel price.</p>\n</dd>\n<dt>fuelshare</dt><dd><p>cost share for fuel.</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>The data contains several extra observations that are aggregates\nof commonly owned firms. Only the first 145 observations should be used for analysis.\n</p>\n<h3>Source</h3>\n<p>Online complements to Greene (2003). Table F14.2.\n</p>\n<p><a href=\"https://pages.stern.nyu.edu/~wgreene/Text/tables/tablelist5.htm\">https://pages.stern.nyu.edu/~wgreene/Text/tables/tablelist5.htm</a>\n</p>\n<h3>References</h3>\n<p>Greene, W.H. (2003). <em>Econometric Analysis</em>, 5th edition. Upper Saddle River, NJ: Prentice Hall.\n</p>\n<p>Nerlove, M. (1963) &ldquo;Returns to Scale in Electricity Supply.&rdquo;\nIn C. Christ (ed.), <em>Measurement in Economics: Studies in Mathematical Economics\nand Econometrics in Memory of Yehuda Grunfeld</em>. Stanford University Press, 1963.\n</p>\n<h3>See Also</h3>\n<p><code>Greene2003</code>, <code>Electricity1970</code></p>\n<h3>Examples</h3>\n<pre><code class='language-R'>data(\"Electricity1955\")\nElectricity &lt;- Electricity1955[1:145,]\n## Greene (2003)\n## Example 7.3\n## Cobb-Douglas cost function\nfm_all &lt;- lm(log(cost/fuel) ~ log(output) + log(labor/fuel) + log(capital/fuel),\n  data = Electricity)\nsummary(fm_all)\n## hypothesis of constant returns to scale\nlinearHypothesis(fm_all, \"log(output) = 1\")\n## Table 7.4\n## log quadratic cost function\nfm_all2 &lt;- lm(log(cost/fuel) ~ log(output) + I(log(output)^2) + log(labor/fuel) + log(capital/fuel),\n  data = Electricity)\nsummary(fm_all2)\n## More examples can be found in:\n## help(\"Greene2003\")\n</code></pre>\n</main>\n</div>\n"
 }

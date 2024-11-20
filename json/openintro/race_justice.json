@@ -3,13 +3,13 @@
       "segregateSamplesBy" : [
          "race_eth"
       ],
-      "subtitle" : "openintro - race_justice",
+      "colorBy" : "variable",
+      "graphType" : "Boxplot",
       "title" : "Yahoo! News Race and Justice poll results",
+      "subtitle" : "openintro - race_justice",
       "groupingFactors" : [
          "response"
-      ],
-      "graphType" : "Boxplot",
-      "colorBy" : "variable"
+      ]
    },
    "data" : {
       "x" : {
@@ -3200,9 +3200,6 @@
                1059
             ]
          ],
-         "vars" : [
-            "Row"
-         ],
          "smps" : [
             "Smp1",
             "Smp2",
@@ -4263,6 +4260,9 @@
             "Smp1057",
             "Smp1058",
             "Smp1059"
+         ],
+         "vars" : [
+            "Row"
          ]
       }
    },

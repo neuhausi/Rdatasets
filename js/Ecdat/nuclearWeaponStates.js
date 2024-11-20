@@ -1,23 +1,23 @@
 var nuclearWeaponStatesInfo ={
-   "description" : "Description\nData on the 9 nuclear-weapon states as of \nApril 2019.",
-   "usage" : "data(nuclearWeaponStates)",
    "parameters" : {
-      "firstTestYr" : "lubridate::decimal_date(firstTest)",
-      "firstTest" : "Date of first test of a nuclear weapon.  \n\nFor Israel, which has not publicly acknowledged\nthat it has nuclear weapons, this uses the Date \nof the \nVela Incident.",
-      "nation" : "The name of the country (character).  \nThe former USSR is listed here as Russia.",
-      "GDP_B,\tGDPyr" : "GDP_B = nominal Gross Domestic Product \nin billions of US dollars for year \nGDPyr, per the Wikipedia article for \nthe indicated country on 2020-02-05.",
-      "Maddison" : "Country code used by the \nMaddison Project.",
-      "popM, popYr" : "popM = estimated population in millions \nfor year popYr, per the Wikipedia \narticle for the indicated country on 2020-02-05.",
-      "nYieldNA, nLowYield, nMidYield, nHighYield" : "number of weapons for which the yield in \n(nYieldNA) = unknown or variable, \n(nLowYield) = at most 15 kt \n(kilotons), the size of the Hiroshima \nbomb, (nMidYield) = greater than 15 \nbut less that 50 kt, and (nHighYield) \n= at least 50 kt.",
-      "nuclearWeapons" : "number of nuclear weapons",
-      "startNucPgmYr" : "lubridate::decimal_date(startNucPgm)",
-      "yearsSinceLastFirstTest" : "c(NA, diff(firstTestYr))",
       "ctry" : "ISO 31661- alpha-2 two-letter country codes \n(character).",
-      "startNucPgm" : "Estimated date of the substantive commitment \nof the country to obtain nuclear weapons. See \n'Details' below"
+      "yearsSinceLastFirstTest" : "c(NA, diff(firstTestYr))",
+      "firstTest" : "Date of first test of a nuclear weapon.  \n\nFor Israel, which has not publicly acknowledged\nthat it has nuclear weapons, this uses the Date \nof the \nVela Incident.",
+      "firstTestYr" : "lubridate::decimal_date(firstTest)",
+      "nation" : "The name of the country (character).  \nThe former USSR is listed here as Russia.",
+      "nuclearWeapons" : "number of nuclear weapons",
+      "nYieldNA, nLowYield, nMidYield, nHighYield" : "number of weapons for which the yield in \n(nYieldNA) = unknown or variable, \n(nLowYield) = at most 15 kt \n(kilotons), the size of the Hiroshima \nbomb, (nMidYield) = greater than 15 \nbut less that 50 kt, and (nHighYield) \n= at least 50 kt.",
+      "GDP_B,\tGDPyr" : "GDP_B = nominal Gross Domestic Product \nin billions of US dollars for year \nGDPyr, per the Wikipedia article for \nthe indicated country on 2020-02-05.",
+      "popM, popYr" : "popM = estimated population in millions \nfor year popYr, per the Wikipedia \narticle for the indicated country on 2020-02-05.",
+      "Maddison" : "Country code used by the \nMaddison Project.",
+      "startNucPgm" : "Estimated date of the substantive commitment \nof the country to obtain nuclear weapons. See \n'Details' below",
+      "startNucPgmYr" : "lubridate::decimal_date(startNucPgm)"
    },
+   "description" : "Description\nData on the 9 nuclear-weapon states as of \nApril 2019.",
    "title" : "Nations with nuclear weapons",
-   "format" : "A dataframe containing :",
-   "reference" : "Most of the contents of this dataset are \neasily defined and not controversial.  That's \nnot true for the date upon which each country \nstarted its nuclear program, coded in \nstartNucPgm and startNucPgmYr.  \nThe following summarizes the rationale behind \nthe selection of the date for each country in \nthis dataset."
+   "usage" : "data(nuclearWeaponStates)",
+   "reference" : "Most of the contents of this dataset are \neasily defined and not controversial.  That's \nnot true for the date upon which each country \nstarted its nuclear program, coded in \nstartNucPgm and startNucPgmYr.  \nThe following summarizes the rationale behind \nthe selection of the date for each country in \nthis dataset.",
+   "format" : "A dataframe containing :"
 }
 
 var nuclearWeaponStates = [

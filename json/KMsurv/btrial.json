@@ -1,7 +1,7 @@
 {
    "config" : {
-      "subtitle" : "KMsurv - btrial",
       "graphType" : "Scatter3D",
+      "subtitle" : "KMsurv - btrial",
       "title" : "data from Section 1.5"
    },
    "data" : {
@@ -233,6 +233,11 @@
                2
             ]
          ],
+         "smps" : [
+            "time",
+            "death",
+            "im"
+         ],
          "vars" : [
             "Var1",
             "Var2",
@@ -279,11 +284,6 @@
             "Var43",
             "Var44",
             "Var45"
-         ],
-         "smps" : [
-            "time",
-            "death",
-            "im"
          ]
       }
    },

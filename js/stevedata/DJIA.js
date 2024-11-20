@@ -1,9 +1,9 @@
 var DJIAInfo ={
-   "usage" : "DJIA",
-   "description" : "Description\nThis data set contains the value of the Dow Jones Industrial Average\non daily close for all available dates (to the best of my knowledge) from 1885\nto the most recent update I feel like including. Extensions shouldn't be too\ndifficult with existing packages.",
-   "title" : "Dow Jones Industrial Average, 1885-Present",
-   "reference" : "Observations before October 7, 1896 are from the single Dow Jones Average.\nObservations from October 7, 1896 to July 30, 1914 are from the first DJIA.\nObservations before the 1914 closure of the first DJIA in July 1914 come from MeasuringWorth.\nObservations from its reopening in Dec. 12, 1914 to Dec. 31 1991 come from\nPinnacle Systems. Observations from Jan. 1, 1992 to the most recent observation come\nfrom a quantmod call.",
    "format" : "A data frame with the following 2 variables.",
+   "title" : "Dow Jones Industrial Average, 1885-Present",
+   "description" : "Description\nThis data set contains the value of the Dow Jones Industrial Average\non daily close for all available dates (to the best of my knowledge) from 1885\nto the most recent update I feel like including. Extensions shouldn't be too\ndifficult with existing packages.",
+   "reference" : "Observations before October 7, 1896 are from the single Dow Jones Average.\nObservations from October 7, 1896 to July 30, 1914 are from the first DJIA.\nObservations before the 1914 closure of the first DJIA in July 1914 come from MeasuringWorth.\nObservations from its reopening in Dec. 12, 1914 to Dec. 31 1991 come from\nPinnacle Systems. Observations from Jan. 1, 1992 to the most recent observation come\nfrom a quantmod call.",
+   "usage" : "DJIA",
    "parameters" : {
       "date" : "the date",
       "value" : "the value of the the Dow Jones Industrial Average at daily close"

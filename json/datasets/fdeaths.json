@@ -1,7 +1,10 @@
 {
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>UKLungDeaths</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>\nMonthly Deaths from Lung Diseases in the UK\n</h2>\n<h3>Description</h3>\n<p>Three time series giving the monthly deaths from bronchitis,\nemphysema and asthma in the UK, 1974&ndash;1979,\nboth sexes (<code>ldeaths</code>), males (<code>mdeaths</code>) and\nfemales (<code>fdeaths</code>).\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>ldeaths\nfdeaths\nmdeaths\n</code></pre>\n<h3>Source</h3>\n<p>P. J. Diggle (1990)\n<em>Time Series: A Biostatistical Introduction.</em>\nOxford, table A.3\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>require(stats); require(graphics) # for time\nplot(ldeaths)\nplot(mdeaths, fdeaths)\n## Better labels:\nyr &lt;- floor(tt &lt;- time(mdeaths))\nplot(mdeaths, fdeaths,\n     xy.labels = paste(month.abb[12*(tt - yr)], yr-1900, sep = \"'\"))\n</code></pre>\n</main>\n</div>\n",
    "data" : {
       "y" : {
+         "smps" : [
+            "time",
+            "value"
+         ],
          "data" : [
             [
                1974,
@@ -292,10 +295,6 @@
                574
             ]
          ],
-         "smps" : [
-            "time",
-            "value"
-         ],
          "vars" : [
             "Var1",
             "Var2",
@@ -372,9 +371,10 @@
          ]
       }
    },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>UKLungDeaths</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>\nMonthly Deaths from Lung Diseases in the UK\n</h2>\n<h3>Description</h3>\n<p>Three time series giving the monthly deaths from bronchitis,\nemphysema and asthma in the UK, 1974&ndash;1979,\nboth sexes (<code>ldeaths</code>), males (<code>mdeaths</code>) and\nfemales (<code>fdeaths</code>).\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>ldeaths\nfdeaths\nmdeaths\n</code></pre>\n<h3>Source</h3>\n<p>P. J. Diggle (1990)\n<em>Time Series: A Biostatistical Introduction.</em>\nOxford, table A.3\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>require(stats); require(graphics) # for time\nplot(ldeaths)\nplot(mdeaths, fdeaths)\n## Better labels:\nyr &lt;- floor(tt &lt;- time(mdeaths))\nplot(mdeaths, fdeaths,\n     xy.labels = paste(month.abb[12*(tt - yr)], yr-1900, sep = \"'\"))\n</code></pre>\n</main>\n</div>\n",
    "config" : {
-      "title" : "Monthly Deaths from Lung Diseases in the UK",
       "graphType" : "Scatter2D",
-      "subtitle" : "datasets - fdeaths"
+      "subtitle" : "datasets - fdeaths",
+      "title" : "Monthly Deaths from Lung Diseases in the UK"
    }
 }

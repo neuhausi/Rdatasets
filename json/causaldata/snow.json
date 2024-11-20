@@ -1,29 +1,31 @@
 {
+   "config" : {
+      "graphType" : "Scatter2D",
+      "shapeBy" : "supplier",
+      "colorBy" : "treatment",
+      "subtitle" : "causaldata - snow",
+      "title" : "Data from John Snow's 1855 study of the cause of cholera"
+   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>snow</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Data from John Snow's 1855 study of the cause of cholera</h2>\n<h3>Description</h3>\n<p>A subset of the aggregated death rate data from Snow's legendary study of the source of the London Cholera outbreak.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>snow\n</code></pre>\n<h3>Format</h3>\n<p>A data frame with 4 rows and 4 variables\n</p>\n<dl>\n<dt>year</dt><dd><p>Year</p>\n</dd>\n<dt>supplier</dt><dd><p>Water pump supplier</p>\n</dd>\n<dt>treatment</dt><dd><p>Status of water pump</p>\n</dd>\n<dt>deathrate</dt><dd><p>Deaths per 10k 1851 population</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>This data is used in the <em>Difference-in-Differences</em> chapter of <em>The Effect</em> by Huntington-Klein.\n</p>\n<h3>Source</h3>\n<p>Snow, John. 1855. 'On the Mode of Communication of Cholera'. John Churchill.&quot;\n</p>\n<p>Coleman, Thomas. 2019. 'Causality in the time of cholera: John Snow as a prototype for causal inference.' SSRN 3262234.&quot;\n</p>\n<h3>References</h3>\n<p>Huntington-Klein. 2021. The Effect: An Introduction to Research Design and Causality. <a href=\"https://theeffectbook.net\">https://theeffectbook.net</a>.\n</p>\n</main>\n</div>\n",
    "data" : {
       "z" : {
-         "supplier" : [
-            "Non-Lambeth Only",
-            "Lambeth + Others",
-            "Non-Lambeth Only",
-            "Lambeth + Others"
-         ],
          "treatment" : [
             "Dirty",
             "Mix Dirty and Clean",
             "Dirty",
             "Mix Dirty and Clean"
+         ],
+         "supplier" : [
+            "Non-Lambeth Only",
+            "Lambeth + Others",
+            "Non-Lambeth Only",
+            "Lambeth + Others"
          ]
       },
       "y" : {
          "smps" : [
             "year",
             "deathrate"
-         ],
-         "vars" : [
-            "Var1",
-            "Var2",
-            "Var3",
-            "Var4"
          ],
          "data" : [
             [
@@ -42,15 +44,13 @@
                1854,
                84.9000015258789
             ]
+         ],
+         "vars" : [
+            "Var1",
+            "Var2",
+            "Var3",
+            "Var4"
          ]
       }
-   },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>snow</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Data from John Snow's 1855 study of the cause of cholera</h2>\n<h3>Description</h3>\n<p>A subset of the aggregated death rate data from Snow's legendary study of the source of the London Cholera outbreak.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>snow\n</code></pre>\n<h3>Format</h3>\n<p>A data frame with 4 rows and 4 variables\n</p>\n<dl>\n<dt>year</dt><dd><p>Year</p>\n</dd>\n<dt>supplier</dt><dd><p>Water pump supplier</p>\n</dd>\n<dt>treatment</dt><dd><p>Status of water pump</p>\n</dd>\n<dt>deathrate</dt><dd><p>Deaths per 10k 1851 population</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>This data is used in the <em>Difference-in-Differences</em> chapter of <em>The Effect</em> by Huntington-Klein.\n</p>\n<h3>Source</h3>\n<p>Snow, John. 1855. 'On the Mode of Communication of Cholera'. John Churchill.&quot;\n</p>\n<p>Coleman, Thomas. 2019. 'Causality in the time of cholera: John Snow as a prototype for causal inference.' SSRN 3262234.&quot;\n</p>\n<h3>References</h3>\n<p>Huntington-Klein. 2021. The Effect: An Introduction to Research Design and Causality. <a href=\"https://theeffectbook.net\">https://theeffectbook.net</a>.\n</p>\n</main>\n</div>\n",
-   "config" : {
-      "graphType" : "Scatter2D",
-      "title" : "Data from John Snow's 1855 study of the cause of cholera",
-      "shapeBy" : "treatment",
-      "colorBy" : "supplier",
-      "subtitle" : "causaldata - snow"
    }
 }

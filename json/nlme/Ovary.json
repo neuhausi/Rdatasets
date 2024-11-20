@@ -1,12 +1,12 @@
 {
-   "config" : {
-      "graphType" : "Scatter3D",
-      "title" : "Counts of Ovarian Follicles",
-      "subtitle" : "nlme - Ovary"
-   },
    "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>Ovary</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Counts of Ovarian Follicles</h2>\n<h3>Description</h3>\n<p>The <code>Ovary</code> data frame has 308 rows and 3 columns.\n</p>\n<h3>Format</h3>\n<p>This data frame contains the following columns:\n</p>\n<dl>\n<dt>Mare</dt><dd>\n<p>an ordered factor indicating the mare on which the\nmeasurement is made.\n</p>\n</dd>\n<dt>Time</dt><dd>\n<p>time in the estrus cycle.  The data were recorded daily from 3\ndays before ovulation until 3 days after the next ovulation. The\nmeasurement times for each mare are scaled so that the ovulations for\neach mare occur at times 0 and 1.\n</p>\n</dd>\n<dt>follicles</dt><dd>\n<p>the number of ovarian follicles greater than 10 mm in diameter.\n</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>Pierson and Ginther (1987) report on a study of the number of large\novarian follicles detected in different mares at several times in\ntheir estrus cycles.\n</p>\n<h3>Source</h3>\n<p>Pinheiro, J. C. and Bates, D. M. (2000), <em>Mixed-Effects Models in S\nand S-PLUS</em>, Springer, New York.  (Appendix A.18)\n</p>\n<p>Pierson, R. A. and Ginther, O. J. (1987), Follicular population\ndynamics during the estrus cycle of the mare, <em>Animal\nReproduction Science</em>, <b>14</b>, 219-231.\n</p>\n</main>\n</div>\n",
    "data" : {
       "y" : {
+         "smps" : [
+            "Mare",
+            "Time",
+            "follicles"
+         ],
          "data" : [
             [
                1,
@@ -1858,12 +1858,12 @@
             "Var306",
             "Var307",
             "Var308"
-         ],
-         "smps" : [
-            "Mare",
-            "Time",
-            "follicles"
          ]
       }
+   },
+   "config" : {
+      "title" : "Counts of Ovarian Follicles",
+      "subtitle" : "nlme - Ovary",
+      "graphType" : "Scatter3D"
    }
 }

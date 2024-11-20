@@ -1,13 +1,13 @@
 var PepperPriceInfo ={
-   "description" : "Description\nTime series of average monthly European spot prices for black and\nwhite pepper (fair average quality) in US dollars per ton.",
+   "reference" : "Originally available as an online supplement to Franses (1998). Now available via online complements to Franses, van Dijk and Opschoor (2014).",
    "usage" : "data(\"PepperPrice\")",
-   "parameters" : {
-      "black" : "spot price for black pepper,",
-      "white" : "spot price for white pepper."
-   },
-   "format" : "A monthly multiple time series from 1973(10) to 1996(4) with 2 variables.",
    "title" : "Black and White Pepper Prices",
-   "reference" : "Originally available as an online supplement to Franses (1998). Now available via online complements to Franses, van Dijk and Opschoor (2014)."
+   "description" : "Description\nTime series of average monthly European spot prices for black and\nwhite pepper (fair average quality) in US dollars per ton.",
+   "parameters" : {
+      "white" : "spot price for white pepper.",
+      "black" : "spot price for black pepper,"
+   },
+   "format" : "A monthly multiple time series from 1973(10) to 1996(4) with 2 variables."
 }
 
 var PepperPrice = [

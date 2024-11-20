@@ -1,11 +1,4 @@
 {
-   "config" : {
-      "subtitle" : "HSAUR - CYGOB1",
-      "graphType" : "Scatter2D",
-      "title" : "CYG OB1 Star Cluster Data",
-      "colorBy" : null
-   },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>CYGOB1</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2> CYG OB1 Star Cluster Data </h2>\n<h3>Description</h3>\n<p>Energy output and surface termperature for Star Cluster CYG OB1.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(\"CYGOB1\")</code></pre>\n<h3>Format</h3>\n<p>A data frame with 47 observations on the following 2 variables.\n</p>\n<dl>\n<dt><code>logst</code></dt><dd><p>log survface termperature of the star.</p>\n</dd>\n<dt><code>logli</code></dt><dd><p>log light intensity of the star.</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>The Hertzsprung-Russell (H-R) diagram forms the basis of\nthe theory of stellar evolution. The diagram is essentially a \nplot of the energy output of stars plotted against their surface\ntemperature. Data from the H-R diagram of Star Cluster CYG OB1, \ncalibrated according to VanismaGreve1972 are given here.\n</p>\n<h3>Source</h3>\n<p>F. Vanisma and J. P. De Greve (1972), Close binary systems \nbefore and after mass transfer. <em>Astrophysics and Space Science</em>,\n<b>87</b>, 377&ndash;401.\n</p>\n<p>D. J. Hand, F. Daly, A. D. Lunn, K. J. McConway and E. Ostrowski (1994).\n<em>A Handbook of Small Datasets</em>, Chapman and Hall/CRC, London.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>\n  data(\"CYGOB1\", package = \"HSAUR\")\n  plot(logst ~ logli, data = CYGOB1)\n</code></pre>\n</main>\n</div>\n",
    "data" : {
       "y" : {
          "vars" : [
@@ -56,10 +49,6 @@
             "[45,]",
             "[46,]",
             "[47,]"
-         ],
-         "smps" : [
-            "logst",
-            "logli"
          ],
          "data" : [
             [
@@ -250,7 +239,18 @@
                4.42,
                4.5
             ]
+         ],
+         "smps" : [
+            "logst",
+            "logli"
          ]
       }
+   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>CYGOB1</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2> CYG OB1 Star Cluster Data </h2>\n<h3>Description</h3>\n<p>Energy output and surface termperature for Star Cluster CYG OB1.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(\"CYGOB1\")</code></pre>\n<h3>Format</h3>\n<p>A data frame with 47 observations on the following 2 variables.\n</p>\n<dl>\n<dt><code>logst</code></dt><dd><p>log survface termperature of the star.</p>\n</dd>\n<dt><code>logli</code></dt><dd><p>log light intensity of the star.</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>The Hertzsprung-Russell (H-R) diagram forms the basis of\nthe theory of stellar evolution. The diagram is essentially a \nplot of the energy output of stars plotted against their surface\ntemperature. Data from the H-R diagram of Star Cluster CYG OB1, \ncalibrated according to VanismaGreve1972 are given here.\n</p>\n<h3>Source</h3>\n<p>F. Vanisma and J. P. De Greve (1972), Close binary systems \nbefore and after mass transfer. <em>Astrophysics and Space Science</em>,\n<b>87</b>, 377&ndash;401.\n</p>\n<p>D. J. Hand, F. Daly, A. D. Lunn, K. J. McConway and E. Ostrowski (1994).\n<em>A Handbook of Small Datasets</em>, Chapman and Hall/CRC, London.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>\n  data(\"CYGOB1\", package = \"HSAUR\")\n  plot(logst ~ logli, data = CYGOB1)\n</code></pre>\n</main>\n</div>\n",
+   "config" : {
+      "colorBy" : null,
+      "graphType" : "Scatter2D",
+      "subtitle" : "HSAUR - CYGOB1",
+      "title" : "CYG OB1 Star Cluster Data"
    }
 }

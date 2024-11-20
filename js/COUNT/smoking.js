@@ -1,15 +1,15 @@
 var smokingInfo ={
+   "reference" : "smoking is saved as a data frame.",
    "usage" : "data(smoking)",
    "description" : "Description\nA simple data set with only 6 observations.",
-   "format" : "A data frame with 6 observations on the following 4 variables.",
-   "reference" : "smoking is saved as a data frame.",
    "title" : "smoking",
    "parameters" : {
       "sbp" : "systolic blood pressure of subject",
       "male" : "1=male; 0=female",
       "age" : "age of subject",
       "smoker" : "1=hist of smoking; 0= no hist of smoking"
-   }
+   },
+   "format" : "A data frame with 6 observations on the following 4 variables."
 }
 
 var smoking = [

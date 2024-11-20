@@ -1,17 +1,17 @@
 var PhDPublicationsInfo ={
-   "parameters" : {
-      "kids" : "Number of children less than 6 years old.",
-      "mentor" : "Number of articles published by student's mentor.",
-      "prestige" : "Prestige of the graduate program.",
-      "married" : "factor. Is the PhD student married?",
-      "articles" : "Number of articles published during last 3 years of PhD.",
-      "gender" : "factor indicating gender."
-   },
    "format" : "A data frame containing 915 observations on 6 variables.",
-   "title" : "Doctoral Publications",
+   "parameters" : {
+      "mentor" : "Number of articles published by student's mentor.",
+      "kids" : "Number of children less than 6 years old.",
+      "gender" : "factor indicating gender.",
+      "articles" : "Number of articles published during last 3 years of PhD.",
+      "prestige" : "Prestige of the graduate program.",
+      "married" : "factor. Is the PhD student married?"
+   },
+   "usage" : "data(\"PhDPublications\")",
    "reference" : "Online complements to Long (1997).",
-   "description" : "Description\nCross-section data on the scientific productivity of PhD students in biochemistry.",
-   "usage" : "data(\"PhDPublications\")"
+   "title" : "Doctoral Publications",
+   "description" : "Description\nCross-section data on the scientific productivity of PhD students in biochemistry."
 }
 
 var PhDPublications = [

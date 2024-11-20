@@ -1,16 +1,16 @@
 var kobe_basketInfo ={
+   "format" : "A data frame with 133 rows and 6 variables:",
    "parameters" : {
+      "quarter" : "A categorical vector, quarter in the game, OT stands for\novertime",
       "vs" : "A categorical vector, ORL if the Los Angeles Lakers played\nagainst Orlando",
       "game" : "A numerical vector, game in the 2009 NBA finals",
       "description" : "A character vector, description of the shot",
-      "quarter" : "A categorical vector, quarter in the game, OT stands for\novertime",
-      "shot" : "A categorical vector, H if the shot was a hit, M if the shot\nwas a miss",
-      "time" : "A character vector, time at which Kobe took a shot"
+      "time" : "A character vector, time at which Kobe took a shot",
+      "shot" : "A categorical vector, H if the shot was a hit, M if the shot\nwas a miss"
    },
-   "title" : "Kobe Bryant basketball performance",
-   "format" : "A data frame with 133 rows and 6 variables:",
-   "reference" : "Each row represents a shot Kobe Bryant took during the five games of the\n2009 NBA finals. Kobe Bryant's performance earned him the title of Most\nValuable Player and many spectators commented on how he appeared to show\na hot hand.",
    "description" : "Description\nData from the five games the Los Angeles Lakers played against the Orlando\nMagic in the 2009 NBA finals.",
+   "title" : "Kobe Bryant basketball performance",
+   "reference" : "Each row represents a shot Kobe Bryant took during the five games of the\n2009 NBA finals. Kobe Bryant's performance earned him the title of Most\nValuable Player and many spectators commented on how he appeared to show\na hot hand.",
    "usage" : "kobe_basket"
 }
 

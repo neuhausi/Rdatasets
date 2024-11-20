@@ -1,0 +1,14 @@
+{
+   "description" : "Description\nCyril Burt (1950) gave these data, on a sample of 100 people from Liverpool,\nto illustrate the application of a method of factor analysis (later\ncalled multiple correspondence analysis) applied to \ncategorical data.\nHe presented these data initially in the form that has come to be called a \"Burt table\",\ngiving the univariate and bivariate frequencies for an n-way frequency table.",
+   "title" : "Burt (1950) Data on Hair, Eyes, Head and Stature",
+   "reference" : "Burt says: \"In all, 217 individuals were examined, about two-thirds of them males.\nBut, partly to simplify the calculations and partly because the later observations were rather more trustworthy, \nI shall here restrict my analysis to the data obtained from the last hundred males in the series.\"",
+   "usage" : "data(\"Burt\")",
+   "parameters" : {
+      "Freq" : "a numeric vector",
+      "Eyes" : "eye color, a factor with levels Light Mixed Dark",
+      "Stature" : "height, a factor with levels Tall Short",
+      "Hair" : "hair color, a factor with levels Fair Red Dark",
+      "Head" : "head shape, a factor with levels Narrow Wide"
+   },
+   "format" : "A frequency data frame (representing a 3 x 3 x 2 x 2 frequency table) with 36 cells on the following 5 variables."
+}

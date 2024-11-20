@@ -1,8 +1,8 @@
 var kidneyInfo ={
-   "description" : "Description\nData on the recurrence times to infection, at the point of insertion of\nthe catheter, for kidney patients using portable dialysis equipment.\nCatheters may be removed for reasons other than infection, in which case\nthe observation is censored.  Each patient has exactly 2 observations.\nThis data has often been used to illustrate the use of random effects\n(frailty) in a survival model.  However, one of the males (id 21) is a\nlarge outlier, with much longer survival than his peers.  If this\nobservation is removed no evidence remains for a random subject effect.",
+   "format" : "patient: id\n\n\n \ntime: time\n\n\n \nstatus: event status\n\n\n \nage: in years\n\n\n \nsex: 1=male, 2=female\n\n\n \ndisease:  disease type (0=GN, 1=AN, 2=PKD, 3=Other)\n\n\n \nfrail: frailty estimate from original paper",
    "usage" : "kidney\ndata(cancer, package=\"survival\")",
-   "title" : "Kidney catheter data",
-   "format" : "patient: id\n\n\n \ntime: time\n\n\n \nstatus: event status\n\n\n \nage: in years\n\n\n \nsex: 1=male, 2=female\n\n\n \ndisease:  disease type (0=GN, 1=AN, 2=PKD, 3=Other)\n\n\n \nfrail: frailty estimate from original paper"
+   "description" : "Description\nData on the recurrence times to infection, at the point of insertion of\nthe catheter, for kidney patients using portable dialysis equipment.\nCatheters may be removed for reasons other than infection, in which case\nthe observation is censored.  Each patient has exactly 2 observations.\nThis data has often been used to illustrate the use of random effects\n(frailty) in a survival model.  However, one of the males (id 21) is a\nlarge outlier, with much longer survival than his peers.  If this\nobservation is removed no evidence remains for a random subject effect.",
+   "title" : "Kidney catheter data"
 }
 
 var kidney = [

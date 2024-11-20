@@ -1,19 +1,19 @@
 var ElectricityInfo ={
-   "format" : "A dataframe containing :",
-   "title" : "Cost Function for Electricity Producers",
    "reference" : "Christensen, L.  and  W. H.  Greene (1976) &ldquo;Economies of scale in U.S. electric power generation&rdquo;, Journal of Political Economy, 84, 655-676.",
-   "parameters" : {
-      "sk" : "cost share for capital",
-      "pk" : "capital price index",
-      "cost" : "total cost",
-      "sl" : "cost share for labor",
-      "q" : "total output",
-      "sf" : "cost share for fuel",
-      "pl" : "wage rate",
-      "pf" : "fuel price"
-   },
    "usage" : "data(Electricity)",
-   "description" : "Description\na cross-section from 1970 to 1970\nnumber of observations :  158\nobservation :  production units\ncountry :  United States"
+   "title" : "Cost Function for Electricity Producers",
+   "description" : "Description\na cross-section from 1970 to 1970\nnumber of observations :  158\nobservation :  production units\ncountry :  United States",
+   "parameters" : {
+      "q" : "total output",
+      "pf" : "fuel price",
+      "sf" : "cost share for fuel",
+      "pk" : "capital price index",
+      "sl" : "cost share for labor",
+      "pl" : "wage rate",
+      "cost" : "total cost",
+      "sk" : "cost share for capital"
+   },
+   "format" : "A dataframe containing :"
 }
 
 var Electricity = [

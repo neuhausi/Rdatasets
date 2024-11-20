@@ -1,0 +1,29 @@
+{
+   "reference" : "Melissa Manning, Psychology, Australian National University",
+   "usage" : "socsupport",
+   "description" : "Description\nData from a survey on social and other kinds of support.",
+   "title" : "Social Support Data",
+   "parameters" : {
+      "emotional" : "summary of 5 questions on emotional support availability",
+      "livewith" : "a factor with levels alone, \nfriends, other, parents, \npartner, residences",
+      "tangiblesat" : "summary of 4 questions on satisfaction with tangible support",
+      "marital" : "a factor with levels married,\nother, single",
+      "gender" : "a factor with levels\nfemale, male",
+      "psi" : "summary of 3 questions on availability of positive social interaction",
+      "psupport" : "summary of 4 questions on extent of practical support sources",
+      "supsources" : "summary of 4 questions on extent of social support \nsources (formerly, socsupport)",
+      "psisat" : "summary of 3 questions on satisfaction with positive social \ninteraction",
+      "affectsat" : "summary of 3 questions on satisfaction with affectionate support sources",
+      "employment" : "a factor with levels\nemployed fulltime, employed part-time, \ngovt assistance, other, parental support",
+      "esupport" : "summary of 4 questions on extent of emotional support sources",
+      "affect" : "summary of 3 questions on availability of affectionate support sources",
+      "firstyr" : "a factor with levels first year, \nother",
+      "BDI" : "Score on the Beck depression index (summary of 21 questions)",
+      "tangible" : "summary of 4 questions on availability of tangible support",
+      "enrolment" : "a factor with levels\nfull-time, part-time, <NA>",
+      "age" : "age, in years, with levels\n18-20, 21-24, 25-30, \n31-40,40+",
+      "country" : "a factor with levels australia, \nother",
+      "emotionalsat" : "summary of 5 questions on emotional support satisfaction"
+   },
+   "format" : "This data frame contains the following columns:"
+}

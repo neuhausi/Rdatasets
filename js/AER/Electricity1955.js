@@ -1,19 +1,19 @@
 var Electricity1955Info ={
+   "format" : "A data frame containing 159 observations on 8 variables.",
+   "title" : "Cost Function of Electricity Producers (1955, Nerlove Data)",
    "description" : "Description\nCost function data for 145 (+14) US electricity producers in 1955.",
+   "reference" : "The data contains several extra observations that are aggregates\nof commonly owned firms. Only the first 145 observations should be used for analysis.",
    "usage" : "data(\"Electricity1955\")",
    "parameters" : {
+      "capital" : "capital price index.",
       "labor" : "wage rate.",
-      "fuel" : "fuel price.",
-      "laborshare" : "cost share for labor.",
-      "fuelshare" : "cost share for fuel.",
       "output" : "total output.",
       "capitalshare" : "cost share for capital.",
+      "fuel" : "fuel price.",
+      "laborshare" : "cost share for labor.",
       "cost" : "total cost.",
-      "capital" : "capital price index."
-   },
-   "reference" : "The data contains several extra observations that are aggregates\nof commonly owned firms. Only the first 145 observations should be used for analysis.",
-   "format" : "A data frame containing 159 observations on 8 variables.",
-   "title" : "Cost Function of Electricity Producers (1955, Nerlove Data)"
+      "fuelshare" : "cost share for fuel."
+   }
 }
 
 var Electricity1955 = [

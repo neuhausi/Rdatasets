@@ -1,14 +1,14 @@
 var Wages1Info ={
+   "format" : "A time series containing :",
+   "usage" : "data(Wages1)",
+   "title" : "Wages, Experience and Schooling",
    "description" : "Description\na panel of 595 observations  from 1976  to 1982\nnumber of observations :  3294\nobservation :  individuals\ncountry :  United States",
    "parameters" : {
-      "school" : "years of schooling",
       "wage" : "wage (in 1980 $) per hour",
-      "exper" : "experience in years",
-      "sex" : "a factor with levels (male,female)"
-   },
-   "title" : "Wages, Experience and Schooling",
-   "format" : "A time series containing :",
-   "usage" : "data(Wages1)"
+      "school" : "years of schooling",
+      "sex" : "a factor with levels (male,female)",
+      "exper" : "experience in years"
+   }
 }
 
 var Wages1 = [

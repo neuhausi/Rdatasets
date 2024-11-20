@@ -1,8 +1,8 @@
 var nidd.threshInfo ={
-   "title" : "The River Nidd Data",
    "format" : "A numeric vector containing 154 observations.",
-   "usage" : "data(nidd.thresh)",
-   "description" : "Description\nThese data represent high river levels of the \nRiver Nidd in Yorkshire above a threshold value \nof 65. These data are suitable for analysis with \ngpd."
+   "title" : "The River Nidd Data",
+   "description" : "Description\nThese data represent high river levels of the \nRiver Nidd in Yorkshire above a threshold value \nof 65. These data are suitable for analysis with \ngpd.",
+   "usage" : "data(nidd.thresh)"
 }
 
 var nidd.thresh = [

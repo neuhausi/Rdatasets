@@ -1,27 +1,27 @@
 var approvalInfo ={
-   "description" : "Description\nWooldridge Source: Harbridge, L., J. Krosnick, and J.M. Wooldridge (forthcoming), âPresidential Approval and Gas Prices: Sociotropic or Pocketbook Influence?â in New Explorations in Political Psychology, ed. J. Krosnick. New York: Psychology Press (Taylor and Francis Group). Professor Harbridge kindly provided the data, of which I have used a subset. Data loads lazily.",
-   "usage" : "data('approval')",
+   "format" : "A data.frame with 78 observations on 16 variables:",
    "parameters" : {
-      "sp500" : " S&P 500 index",
-      "katrina" : " =1 for three months after Hurricane Katrina",
       "lcpifood" : " log(cpifood)",
-      "lrgasprice" : " log(rgasprice)",
-      "month" : " month",
-      "year" : " year",
+      "sp500" : " S&P 500 index",
       "sep11" : " =1 for 09/2001 and two months following",
       "unemploy" : " unemployment rate, percent",
-      "iraqinvade" : " =1 for three months after Iraq invasion",
-      "approve" : " Gallup approval rate, percent",
-      "cpi" : " Consumer Price Index",
-      "cpifood" : " CPI for food",
-      "rgasprice" : " real gas price, 100*(gasprice/cpi)",
-      "id" : " id",
       "gasprice" : " average gas price, cents",
-      "lsp500" : " log(sp500)"
+      "cpi" : " Consumer Price Index",
+      "approve" : " Gallup approval rate, percent",
+      "id" : " id",
+      "katrina" : " =1 for three months after Hurricane Katrina",
+      "year" : " year",
+      "iraqinvade" : " =1 for three months after Iraq invasion",
+      "lsp500" : " log(sp500)",
+      "rgasprice" : " real gas price, 100*(gasprice/cpi)",
+      "lrgasprice" : " log(rgasprice)",
+      "cpifood" : " CPI for food",
+      "month" : " month"
    },
-   "reference" : "343, 371, 400",
+   "description" : "Description\nWooldridge Source: Harbridge, L., J. Krosnick, and J.M. Wooldridge (forthcoming), âPresidential Approval and Gas Prices: Sociotropic or Pocketbook Influence?â in New Explorations in Political Psychology, ed. J. Krosnick. New York: Psychology Press (Taylor and Francis Group). Professor Harbridge kindly provided the data, of which I have used a subset. Data loads lazily.",
    "title" : "approval",
-   "format" : "A data.frame with 78 observations on 16 variables:"
+   "usage" : "data('approval')",
+   "reference" : "343, 371, 400"
 }
 
 var approval = [

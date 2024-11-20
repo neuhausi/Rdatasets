@@ -1,7 +1,7 @@
 var IMSCOLInfo ={
    "format" : "A 8-by-13 matrix of 7 colors with four fading scales: blue,\ngreen, pink, yellow, red, black, gray, and light gray.",
-   "title" : "Introduction to Modern Statistics (IMS) Colors",
    "usage" : "IMSCOL",
+   "title" : "Introduction to Modern Statistics (IMS) Colors",
    "description" : "Description\nThese are the core colors used for the Introduction to Modern Statistics textbook.\nThe blue, green, pink, yellow, and red colors are also gray-scaled, meaning no\nchanges are required when printing black and white copies."
 }
 

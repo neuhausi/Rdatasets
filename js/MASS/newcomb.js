@@ -1,8 +1,8 @@
 var newcombInfo ={
-   "format" : "S. M. Stigler (1973)\nSimon Newcomb, Percy Daniell, and the history of robust estimation\n1885&ndash;1920.\nJournal of the American Statistical Association 68, 872&ndash;879.",
    "title" : "Newcomb's Measurements of the Passage Time of Light",
+   "description" : "Description\nA numeric vector giving the &lsquo;Third Series&rsquo; of measurements of the\npassage time of light recorded by Newcomb in 1882.  The given values\ndivided by 1000 plus 24.8 give the time in millionths of a second for\nlight to traverse a known distance. The &lsquo;true&rsquo; value is now\nconsidered to be 33.02.\nThe dataset is given in the order in Staudte and Sheather.  Stigler\n(1977, Table 5) gives the dataset as\n28 26 33 24 34 -44 27 16 40 -2 29 22 24 21 25 30 23 29 31 19\n    24 20 36 32 36 28 25 21 28 29 37 25 28 26 30 32 36 26 30 22\n    36 23 27 27 28 27 31 27 26 33 26 32 32 24 39 28 24 25 32 25\n    29 27 28 29 16 23\nHowever, order is not relevant to its use as an example of robust\nestimation.  (Thanks to Anthony Unwin for bringing this difference to our\nattention.)",
    "usage" : "newcomb",
-   "description" : "Description\nA numeric vector giving the &lsquo;Third Series&rsquo; of measurements of the\npassage time of light recorded by Newcomb in 1882.  The given values\ndivided by 1000 plus 24.8 give the time in millionths of a second for\nlight to traverse a known distance. The &lsquo;true&rsquo; value is now\nconsidered to be 33.02.\nThe dataset is given in the order in Staudte and Sheather.  Stigler\n(1977, Table 5) gives the dataset as\n28 26 33 24 34 -44 27 16 40 -2 29 22 24 21 25 30 23 29 31 19\n    24 20 36 32 36 28 25 21 28 29 37 25 28 26 30 32 36 26 30 22\n    36 23 27 27 28 27 31 27 26 33 26 32 32 24 39 28 24 25 32 25\n    29 27 28 29 16 23\nHowever, order is not relevant to its use as an example of robust\nestimation.  (Thanks to Anthony Unwin for bringing this difference to our\nattention.)"
+   "format" : "S. M. Stigler (1973)\nSimon Newcomb, Percy Daniell, and the history of robust estimation\n1885&ndash;1920.\nJournal of the American Statistical Association 68, 872&ndash;879."
 }
 
 var newcomb = [

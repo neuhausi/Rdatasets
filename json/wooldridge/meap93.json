@@ -1,7 +1,7 @@
 {
    "config" : {
-      "subtitle" : "wooldridge - meap93",
       "title" : "meap93",
+      "subtitle" : "wooldridge - meap93",
       "graphType" : "Heatmap"
    },
    "data" : {
@@ -6978,25 +6978,6 @@
                10.4236192703247
             ]
          ],
-         "vars" : [
-            "lnchprg",
-            "enroll",
-            "staff",
-            "expend",
-            "salary",
-            "benefits",
-            "droprate",
-            "gradrate",
-            "math10",
-            "sci11",
-            "totcomp",
-            "ltotcomp",
-            "lexpend",
-            "lenroll",
-            "lstaff",
-            "bensal",
-            "lsalary"
-         ],
          "smps" : [
             "Smp1",
             "Smp2",
@@ -7406,6 +7387,25 @@
             "Smp406",
             "Smp407",
             "Smp408"
+         ],
+         "vars" : [
+            "lnchprg",
+            "enroll",
+            "staff",
+            "expend",
+            "salary",
+            "benefits",
+            "droprate",
+            "gradrate",
+            "math10",
+            "sci11",
+            "totcomp",
+            "ltotcomp",
+            "lexpend",
+            "lenroll",
+            "lstaff",
+            "bensal",
+            "lsalary"
          ]
       }
    },

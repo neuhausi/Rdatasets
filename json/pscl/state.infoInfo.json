@@ -1,0 +1,12 @@
+{
+   "description" : "Description\nNumeric codes and names of 50 states and the District of Columbia,\nrequired to parse Keith Poole\nand Howard Rosenthal's collections of U.S. Congressional roll calls.",
+   "title" : "information about the American states needed for U.S. Congress",
+   "reference" : "The function readKH converts the integer ICPSR codes\ninto strings, via a table lookup in this data frame.  Another table\nlookup in state.abb provides the 2-letter abbreviation\ncommonly used in identifying American legislators, e.g.,\nKENNEDY, E (D-MA).",
+   "usage" : "data(state.info)",
+   "parameters" : {
+      "year" : "numeric or NA, year of statehood",
+      "icpsr" : "integer, numeric code for state used by the\nInter-university Consortium for Political and Social Research",
+      "state" : "character, name of state or Washington\n\tD.C."
+   },
+   "format" : "icpsrinteger, numeric code for state used by the\nInter-university Consortium for Political and Social Research\n\nstatecharacter, name of state or Washington\n\tD.C.\n\nyearnumeric or NA, year of statehood"
+}

@@ -1,21 +1,21 @@
 var frogsInfo ={
-   "reference" : "Hunter, D. (2000) The conservation and demography of \nthe southern corroboree frog (Pseudophryne corroboree). M.Sc. thesis,\nUniversity of Canberra, Canberra.",
    "format" : "This data frame contains the following columns:",
+   "reference" : "Hunter, D. (2000) The conservation and demography of \nthe southern corroboree frog (Pseudophryne corroboree). M.Sc. thesis,\nUniversity of Canberra, Canberra.",
+   "usage" : "frogs",
    "title" : "Frogs Data",
+   "description" : "Description\nThe frogs data frame has 212 rows and 11 columns.\nThe data are on the distribution of the Southern Corroboree\nfrog, which occurs in the Snowy Mountains area of New South Wales,\nAustralia.",
    "parameters" : {
-      "distance" : "distance in meters to nearest extant population",
-      "NoOfSites" : "(number of potential breeding sites within a 2 km \nradius",
-      "meanmax" : "mean maximum Spring temperature",
-      "meanmin" : "mean minimum Spring temperature",
       "pres.abs" : "0 = frogs were absent, 1 = frogs were present",
       "avrain" : "mean rainfall for Spring period",
-      "altitude" : "altitude , in meters",
-      "easting" : "reference point",
       "NoOfPools" : "number of potential breeding pools",
-      "northing" : "reference point"
-   },
-   "usage" : "frogs",
-   "description" : "Description\nThe frogs data frame has 212 rows and 11 columns.\nThe data are on the distribution of the Southern Corroboree\nfrog, which occurs in the Snowy Mountains area of New South Wales,\nAustralia."
+      "meanmax" : "mean maximum Spring temperature",
+      "distance" : "distance in meters to nearest extant population",
+      "NoOfSites" : "(number of potential breeding sites within a 2 km \nradius",
+      "easting" : "reference point",
+      "altitude" : "altitude , in meters",
+      "northing" : "reference point",
+      "meanmin" : "mean minimum Spring temperature"
+   }
 }
 
 var frogs = [

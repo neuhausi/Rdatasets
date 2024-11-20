@@ -1,15 +1,15 @@
 var GHQInfo ={
+   "reference" : "The data arise from a study of a psychiatric screening questionnaire \ncalled the GHQ (General Health Questionnaire, see Goldberg, 1972). \nHere the main question of interest is to see how caseness is related to \ngender and GHQ score.",
+   "usage" : "data(\"GHQ\")",
+   "description" : "Description\nData from an psychiatric screening questionnaire",
+   "title" : "General Health Questionnaire",
    "parameters" : {
-      "GHQ" : "the General Health Questionnaire score.",
       "cases" : "the number of diseased subjects.",
+      "GHQ" : "the General Health Questionnaire score.",
       "sex" : "a factor with levels female and male",
       "non.cases" : "the number of healthy subjects."
    },
-   "title" : "General Health Questionnaire",
-   "format" : "A data frame with 22 observations on the following 4 variables.",
-   "reference" : "The data arise from a study of a psychiatric screening questionnaire \ncalled the GHQ (General Health Questionnaire, see Goldberg, 1972). \nHere the main question of interest is to see how caseness is related to \ngender and GHQ score.",
-   "description" : "Description\nData from an psychiatric screening questionnaire",
-   "usage" : "data(\"GHQ\")"
+   "format" : "A data frame with 22 observations on the following 4 variables."
 }
 
 var GHQ = [

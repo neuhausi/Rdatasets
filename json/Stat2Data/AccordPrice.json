@@ -34,11 +34,6 @@
             "Var29",
             "Var30"
          ],
-         "smps" : [
-            "Age",
-            "Price",
-            "Mileage"
-         ],
          "data" : [
             [
                7,
@@ -190,12 +185,17 @@
                5.5,
                122.5
             ]
+         ],
+         "smps" : [
+            "Age",
+            "Price",
+            "Mileage"
          ]
       }
    },
    "config" : {
+      "title" : "Prices of Used Honda Accords (in 2017)",
       "subtitle" : "Stat2Data - AccordPrice",
-      "graphType" : "Scatter3D",
-      "title" : "Prices of Used Honda Accords (in 2017)"
+      "graphType" : "Scatter3D"
    }
 }

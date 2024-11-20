@@ -1,0 +1,12 @@
+{
+   "usage" : "london_boroughs",
+   "reference" : "Map data was made available through the Ordnance Survey Open Data\ninitiative.  The data use the\nNational Grid coordinate system,\nbased upon eastings (x) and northings (y) instead of longitude and latitude.",
+   "title" : "London Borough Boundaries",
+   "description" : "Description\nThis dataset contains the coordinates of the boundaries of all 32 boroughs\nof the Greater London area.",
+   "parameters" : {
+      "x" : "The \"easting\" component of the coordinate, see details.",
+      "y" : "The \"northing\" component of the coordinate, see details.",
+      "borough" : "Name of the borough."
+   },
+   "format" : "A data frame with 45341 observations on the following 3 variables."
+}

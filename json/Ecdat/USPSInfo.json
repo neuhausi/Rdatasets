@@ -1,0 +1,20 @@
+{
+   "title" : "US Postal Service",
+   "description" : "Description\nNumbers of post offices in the US from 1789 \nto 2020 with their income and expenses in \ncurrent dollars and proportion of the \nfederal government and of Gross Domestic \nProduct (GDP).  Also includes the number \nof pieces of mail, numbers of periodicals, \npieces and periodicals per person, and \ncost coverage of periodicals for \nselected years.\nIt would be interesting to find the \ntotal value of the subsidies for \nnewspapers and other periodicals as a \nproportion of the budgets of the USPS\nand the federal government as well as\nof GDP.  That is currently absent from \nthe data consulted to produce this.",
+   "usage" : "data(USPS)",
+   "reference" : "rownames(USPS) = year",
+   "parameters" : {
+      "costCoveragePeriodicals" : "Cost coverage of periodicals, per \nHistorian (2010).  This is available here \nonly since 1960, though Historian (2010) \ngave a general outline of these numbers.  \nThis included saying, \"In 1966, the \npercentage of its own costs covered by \nsecond-class mail (or 'cost coverage'),\nincluding the subsidy, was 35 percent \n[reported as 36 percent here].  Its real\ncoverage was 24 percent.\" The narrative \nnoted that during parts of the nineteenth \ncentury the actual rate was zero.  \nSometimes it was zero only within county.  \nSometimes advertising was charged a higher \nrate than news.  \n\nOther than numbers for the period since \n1960, we note the coverage in 1951 as 20\npercent, based on the following comment:\n\n\"In February 1951, in a special message to\nCongress, President Harry S. Truman argued \nat length for a rate increase: 'In fiscal \nyear 1952 . . . newspaper and magazine\npublishers will have 200 million dollars \n&ndash; or 80 percent &ndash; of their postal costs \npaid for them by the general public.'\"",
+      "postOffices" : "Number of post offices per Historian \n(2022).",
+      "realIncome_cap, realExpenses_cap" : "Income and Expenses per \ncapita in constant 2012 dollars = \nIncome_cap and \nExpenses_cap divided by \nUSGDPpresidents[, 'GDPdeflator'].",
+      "Income_pGDP, Expenses_pGDP" : "Income and Expenses as a \nproportion of GDP, per \nMeasuringWorth.",
+      "piecesOfMail, periodicals" : "numeric:  Millions of pieces of mail \nhandled and periodicals mailed.  \n\"Pieces of mail\"\" are from Historian \n(2022).  \"Periodicals\" are from \nHistorian (2010).",
+      "Year" : "integer: the year:  1789:2020",
+      "piecesOfMailPerCap, periodicalsPerCap" : "piecesOfMail and periodicals  \nhandled per capita (per human in the US) \nper year.",
+      "Income_cap, Expenses_cap" : "Income and Expenses per \ncapita in current dollars = \nIncome and Expenses \ndivided by 1000 * \nUSGDPpresidents[, 'population.K'].",
+      "Income_pFed, Expenses_pFed" : "Income and Expenses as a \nproportion of \nUSGDPpresidents[, 'fedReceipts'] and\nUSGDPpresidents[, 'fedOutlays'], \nrespectively.",
+      "Income, Expenses" : "Income and expenses in millions of current \ndollars, per Historian (2022).",
+      "KpopPerPostOffice" : "US population in thousands per post \noffice:  \nUSGDPpresidents[, 'population.K'] \ndivided by postOffices."
+   },
+   "format" : "A data.frame containing 232 \nobservations on the following variables:"
+}

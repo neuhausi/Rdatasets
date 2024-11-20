@@ -1,8 +1,8 @@
 var DependsInfo ={
-   "usage" : "data(Depends)",
-   "title" : "Dependencies of R Packages",
    "format" : "The format is a one-way frequency table of counts of packages with 0, 1, 2, ... dependencies.",
-   "description" : "Description\nThis one-way table gives the type-token distribution of the number of\ndependencies declared in 4983 packages listed on CRAN on January 17, 2014."
+   "description" : "Description\nThis one-way table gives the type-token distribution of the number of\ndependencies declared in 4983 packages listed on CRAN on January 17, 2014.",
+   "title" : "Dependencies of R Packages",
+   "usage" : "data(Depends)"
 }
 
 var Depends = [

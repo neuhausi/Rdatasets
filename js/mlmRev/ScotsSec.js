@@ -1,17 +1,17 @@
 var ScotsSecInfo ={
-   "reference" : "These data are an example of cross-classified grouping factors.",
-   "title" : "Scottish secondary school scores",
    "format" : "A data frame with 3435 observations on the following 6 variables.",
+   "reference" : "These data are an example of cross-classified grouping factors.",
+   "usage" : "data(ScotsSec)",
+   "description" : "Description\nScores attained by 3435 Scottish secondary school students on a\nstandardized test taken at age 16.  Both the primary school and the\nsecondary school that the student attended have been recorded.",
+   "title" : "Scottish secondary school scores",
    "parameters" : {
-      "verbal" : "The verbal reasoning score on a test taken by the\nstudents on entry to secondary school.",
+      "sex" : "A factor with levels M and F",
       "primary" : "A factor indicating the primary school that the\nstudent attended.",
       "social" : "The student's social class on a numeric scale from low\nto high social class.",
-      "second" : "A factor indicating the secondary school that the\nstudent attended.",
       "attain" : "The score attained on the standardized test taken at\nage 16.",
-      "sex" : "A factor with levels M and F"
-   },
-   "usage" : "data(ScotsSec)",
-   "description" : "Description\nScores attained by 3435 Scottish secondary school students on a\nstandardized test taken at age 16.  Both the primary school and the\nsecondary school that the student attended have been recorded."
+      "second" : "A factor indicating the secondary school that the\nstudent attended.",
+      "verbal" : "The verbal reasoning score on a test taken by the\nstudents on entry to secondary school."
+   }
 }
 
 var ScotsSec = [

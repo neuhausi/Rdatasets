@@ -1,7 +1,7 @@
 var PinesInfo ={
    "usage" : "A dataset with 1000 observations on the following 15 variables.",
-   "title" : "Measurements of Pine Tree Seedlings",
-   "description" : "Description\nData from pine seedlings planted in 1990"
+   "description" : "Description\nData from pine seedlings planted in 1990",
+   "title" : "Measurements of Pine Tree Seedlings"
 }
 
 var Pines = [

@@ -1,11 +1,18 @@
 {
-   "config" : {
-      "subtitle" : "DAAG - gaba",
-      "graphType" : "Heatmap",
-      "title" : "Effect of pentazocine on post-operative pain (average VAS scores)"
-   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>gaba</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Effect of pentazocine on post-operative pain (average VAS scores)</h2>\n<h3>Description</h3>\n<p>The table shows, separately for males and females, the effect \nof pentazocine on post-operative pain profiles (average VAS scores), \nwith (mbac and fbac) and without (mpl and fpl) preoperatively administered \nbaclofen.  Pain scores are recorded every 20 minutes, from 10 minutes\nto 170 minutes.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>gaba</code></pre>\n<h3>Format</h3>\n<p>A data frame with 9 observations on the following 7 variables.\n</p>\n<dl>\n<dt><code>min</code></dt><dd><p>a numeric vector</p>\n</dd>\n<dt><code>mbac</code></dt><dd><p>a numeric vector</p>\n</dd>\n<dt><code>mpl</code></dt><dd><p>a numeric vector</p>\n</dd>\n<dt><code>fbac</code></dt><dd><p>a numeric vector</p>\n</dd>\n<dt><code>fpl</code></dt><dd><p>a numeric vector</p>\n</dd>\n<dt><code>avbac</code></dt><dd><p>a numeric vector</p>\n</dd>\n<dt><code>avplac</code></dt><dd><p>a numeric vector</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>15 females were given baclofen, as against 3 males.\n7 females received the placebo, as against 16 males.\nAverages for the two treatments (baclofen/placebo),\ntaken over all trial participants and ignoring sex,\nare misleading.\n</p>\n<h3>Source</h3>\n<p>Gordon, N. C. et al.(1995): 'Enhancement of Morphine Analgesia \nby the GABA<code class=\"reqn\">_B</code> against Baclofen'. <em>Neuroscience</em> 69: 345-349.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>data(gaba)\nmr &lt;- range(gaba$min)\ntran &lt;- range(gaba[, c(\"mbac\",\"mpl\",\"fbac\",\"fpl\")])\n## Means by treatment and sex\npar(mfrow=c(1,2))\nplot(mr, tran, xlab = \"Time post pentazocine (min)\",\n     ylab = \"Reduction in VAS pain rating\", \n     type = \"n\", xlim = c(0, 170), ylim = tran)\npoints(gaba$min, gaba$fbac, pch = 1, col = 8, lwd = 2, lty = 2, \n       type = \"b\")\npoints(gaba$min, gaba$fpl, pch = 0, col = 8, lwd = 2, lty = 2, \n       type = \"b\")\npoints(gaba$min, gaba$mbac, pch = 16, col = 8, lty = 2, type = \"b\")\npoints(gaba$min, gaba$mpl, pch = 15, col = 8, lty = 2, type = \"b\")\nbox()\n## Now plot means, by treatment, averaged over all participants\nplot(mr, tran, xlab = \"Time post pentazocine (min)\",\n     ylab = \"Reduction in VAS pain rating\", \n     type = \"n\", xlim = c(0, 170), ylim = tran)\nbac &lt;- (15 * gaba$fbac + 3 * gaba$mbac)/18\nplac &lt;- (7 * gaba$fpl + 9 * gaba$mpl)/16\npoints(gaba$min, plac, pch = 15, lty = 1, col=1, type = \"b\")\npoints(gaba$min, bac, pch = 16, lty = 1, col=1, type = \"b\")\nbox()\npar(mfrow=c(1,1))\n</code></pre>\n</main>\n</div>\n",
    "data" : {
       "y" : {
+         "smps" : [
+            "10",
+            "30",
+            "50",
+            "70",
+            "90",
+            "110",
+            "130",
+            "150",
+            "170"
+         ],
          "data" : [
             [
                10,
@@ -85,17 +92,6 @@
                -1.64600840336134
             ]
          ],
-         "smps" : [
-            "10",
-            "30",
-            "50",
-            "70",
-            "90",
-            "110",
-            "130",
-            "150",
-            "170"
-         ],
          "vars" : [
             "min",
             "mbac",
@@ -107,5 +103,9 @@
          ]
       }
    },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>gaba</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Effect of pentazocine on post-operative pain (average VAS scores)</h2>\n<h3>Description</h3>\n<p>The table shows, separately for males and females, the effect \nof pentazocine on post-operative pain profiles (average VAS scores), \nwith (mbac and fbac) and without (mpl and fpl) preoperatively administered \nbaclofen.  Pain scores are recorded every 20 minutes, from 10 minutes\nto 170 minutes.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>gaba</code></pre>\n<h3>Format</h3>\n<p>A data frame with 9 observations on the following 7 variables.\n</p>\n<dl>\n<dt><code>min</code></dt><dd><p>a numeric vector</p>\n</dd>\n<dt><code>mbac</code></dt><dd><p>a numeric vector</p>\n</dd>\n<dt><code>mpl</code></dt><dd><p>a numeric vector</p>\n</dd>\n<dt><code>fbac</code></dt><dd><p>a numeric vector</p>\n</dd>\n<dt><code>fpl</code></dt><dd><p>a numeric vector</p>\n</dd>\n<dt><code>avbac</code></dt><dd><p>a numeric vector</p>\n</dd>\n<dt><code>avplac</code></dt><dd><p>a numeric vector</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>15 females were given baclofen, as against 3 males.\n7 females received the placebo, as against 16 males.\nAverages for the two treatments (baclofen/placebo),\ntaken over all trial participants and ignoring sex,\nare misleading.\n</p>\n<h3>Source</h3>\n<p>Gordon, N. C. et al.(1995): 'Enhancement of Morphine Analgesia \nby the GABA<code class=\"reqn\">_B</code> against Baclofen'. <em>Neuroscience</em> 69: 345-349.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>data(gaba)\nmr &lt;- range(gaba$min)\ntran &lt;- range(gaba[, c(\"mbac\",\"mpl\",\"fbac\",\"fpl\")])\n## Means by treatment and sex\npar(mfrow=c(1,2))\nplot(mr, tran, xlab = \"Time post pentazocine (min)\",\n     ylab = \"Reduction in VAS pain rating\", \n     type = \"n\", xlim = c(0, 170), ylim = tran)\npoints(gaba$min, gaba$fbac, pch = 1, col = 8, lwd = 2, lty = 2, \n       type = \"b\")\npoints(gaba$min, gaba$fpl, pch = 0, col = 8, lwd = 2, lty = 2, \n       type = \"b\")\npoints(gaba$min, gaba$mbac, pch = 16, col = 8, lty = 2, type = \"b\")\npoints(gaba$min, gaba$mpl, pch = 15, col = 8, lty = 2, type = \"b\")\nbox()\n## Now plot means, by treatment, averaged over all participants\nplot(mr, tran, xlab = \"Time post pentazocine (min)\",\n     ylab = \"Reduction in VAS pain rating\", \n     type = \"n\", xlim = c(0, 170), ylim = tran)\nbac &lt;- (15 * gaba$fbac + 3 * gaba$mbac)/18\nplac &lt;- (7 * gaba$fpl + 9 * gaba$mpl)/16\npoints(gaba$min, plac, pch = 15, lty = 1, col=1, type = \"b\")\npoints(gaba$min, bac, pch = 16, lty = 1, col=1, type = \"b\")\nbox()\npar(mfrow=c(1,1))\n</code></pre>\n</main>\n</div>\n"
+   "config" : {
+      "graphType" : "Heatmap",
+      "title" : "Effect of pentazocine on post-operative pain (average VAS scores)",
+      "subtitle" : "DAAG - gaba"
+   }
 }

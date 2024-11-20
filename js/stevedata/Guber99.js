@@ -1,17 +1,17 @@
 var Guber99Info ={
-   "description" : "Description\nA data set for a canonical case of a Simpson's paradox, useful for in-class\ninstruction on the topic.",
+   "format" : "A data frame with 50 observations on the following 8 variables.",
    "parameters" : {
-      "expendpp" : "a numeric vector for the current expenditure per pupil in average daily attendance in public elementary and secondary schools, 1994-95 (in thousands of dollars)",
-      "state" : "a character vector for the state",
       "verbal" : "a numeric vector for the average verbal SAT score, 1994-95",
+      "math" : "a numeric vector for the average math SAT score, 1994-95",
+      "state" : "a character vector for the state",
       "perctakers" : "a numeric vector for the percentage of all eligible students taking the SAT, 1994-95",
+      "ptratio" : "a numeric vector for the average pupil/teacher ratio in public elementary and secondary schools, Fall 1994",
       "total" : "a numeric vector for the average total SAT score, 1994-95",
       "tsalary" : "a numeric vector for the estimated average annual salary of teachers in public elementary and secondary schools, 1994-95 (in thousands of dollars)",
-      "math" : "a numeric vector for the average math SAT score, 1994-95",
-      "ptratio" : "a numeric vector for the average pupil/teacher ratio in public elementary and secondary schools, Fall 1994"
+      "expendpp" : "a numeric vector for the current expenditure per pupil in average daily attendance in public elementary and secondary schools, 1994-95 (in thousands of dollars)"
    },
    "title" : "School Expenditures and Test Scores for 50 States, 1994-95",
-   "format" : "A data frame with 50 observations on the following 8 variables.",
+   "description" : "Description\nA data set for a canonical case of a Simpson's paradox, useful for in-class\ninstruction on the topic.",
    "usage" : "Guber99"
 }
 

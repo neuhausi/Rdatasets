@@ -1,13 +1,13 @@
 var leaflengthInfo ={
-   "usage" : "data(leaflength)",
-   "description" : "Description\nIn an experiment barley was grown in a hydroponic solution with a herbicide.",
-   "reference" : "The dataset exhibits a large hormetical effect.",
    "format" : "A data frame with 42 observations on the following 2 variables.",
-   "title" : "Leaf length of barley",
    "parameters" : {
       "Dose" : "a numeric vector",
       "DW" : "a numeric vector"
-   }
+   },
+   "title" : "Leaf length of barley",
+   "description" : "Description\nIn an experiment barley was grown in a hydroponic solution with a herbicide.",
+   "reference" : "The dataset exhibits a large hormetical effect.",
+   "usage" : "data(leaflength)"
 }
 
 var leaflength = [

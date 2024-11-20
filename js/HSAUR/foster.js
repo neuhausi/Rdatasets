@@ -1,14 +1,14 @@
 var fosterInfo ={
    "format" : "A data frame with 61 observations on the following 3 variables.",
-   "title" : "Foster Feeding Experiment",
    "reference" : "Here the interest lies in uncovering the effect of genotype of mother and litter on \nlitter weight.",
-   "parameters" : {
-      "litgen" : "genotype of the litter, a factor with levels \nA, B, I, and J.",
-      "weight" : "the weight of the litter after a feeding period.",
-      "motgen" : "genotype of the mother, a factor with levels \nA, B, I, and J."
-   },
    "usage" : "data(\"foster\")",
-   "description" : "Description\nThe data are from a foster feeding experiment\nwith rat mothers and litters of four different genotypes.\nThe measurement is the litter weight after\na trial feeding period."
+   "title" : "Foster Feeding Experiment",
+   "description" : "Description\nThe data are from a foster feeding experiment\nwith rat mothers and litters of four different genotypes.\nThe measurement is the litter weight after\na trial feeding period.",
+   "parameters" : {
+      "weight" : "the weight of the litter after a feeding period.",
+      "motgen" : "genotype of the mother, a factor with levels \nA, B, I, and J.",
+      "litgen" : "genotype of the litter, a factor with levels \nA, B, I, and J."
+   }
 }
 
 var foster = [

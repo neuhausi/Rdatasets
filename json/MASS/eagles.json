@@ -1,47 +1,21 @@
 {
-   "config" : {
-      "title" : "Foraging Ecology of Bald Eagles",
-      "subtitle" : "MASS - eagles",
-      "graphType" : "Scatter2D",
-      "shapeBy" : "P",
-      "colorBy" : "A",
-      "sizeBy" : "V"
-   },
    "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>eagles</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>\nForaging Ecology of Bald Eagles\n</h2>\n<h3>Description</h3>\n<p>Knight and Skagen collected during a field study on the foraging\nbehaviour of wintering Bald Eagles in Washington State, USA data\nconcerning 160 attempts by one (pirating) Bald Eagle to steal a chum\nsalmon from another (feeding) Bald Eagle.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>eagles\n</code></pre>\n<h3>Format</h3>\n<p>The <code>eagles</code> data frame has 8 rows and 5 columns.\n</p>\n<dl>\n<dt><code>y</code></dt><dd>\n<p>Number of successful attempts.\n</p>\n</dd>\n<dt><code>n</code></dt><dd>\n<p>Total number of attempts.\n</p>\n</dd>\n<dt><code>P</code></dt><dd>\n<p>Size of pirating eagle (<code>L</code> = large, <code>S</code> = small).\n</p>\n</dd>\n<dt><code>A</code></dt><dd>\n<p>Age of pirating eagle (<code>I</code> = immature, <code>A</code> = adult).\n</p>\n</dd>\n<dt><code>V</code></dt><dd>\n<p>Size of victim eagle (<code>L</code> = large, <code>S</code> = small).\n</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>Knight, R. L. and Skagen, S. K. (1988)\nAgonistic asymmetries and the foraging ecology of Bald Eagles.\n<em>Ecology</em> <b>69</b>, 1188&ndash;1194.\n</p>\n<h3>References</h3>\n<p>Venables, W. N. and Ripley, B. D. (2002)\n<em>Modern Applied Statistics with S-PLUS.</em> Fourth Edition. Springer.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>eagles.glm &lt;- glm(cbind(y, n - y) ~ P*A + V, data = eagles,\n                  family = binomial)\ndropterm(eagles.glm)\nprof &lt;- profile(eagles.glm)\nplot(prof)\npairs(prof)\n</code></pre>\n</main>\n</div>\n",
    "data" : {
-      "z" : {
-         "A" : [
-            "A",
-            "A",
-            "I",
-            "I",
-            "A",
-            "A",
-            "I",
-            "I"
-         ],
-         "P" : [
-            "L",
-            "L",
-            "L",
-            "L",
-            "S",
-            "S",
-            "S",
-            "S"
-         ],
-         "V" : [
-            "L",
-            "S",
-            "L",
-            "S",
-            "L",
-            "S",
-            "L",
-            "S"
-         ]
-      },
       "y" : {
+         "vars" : [
+            "Var1",
+            "Var2",
+            "Var3",
+            "Var4",
+            "Var5",
+            "Var6",
+            "Var7",
+            "Var8"
+         ],
+         "smps" : [
+            "y",
+            "n"
+         ],
          "data" : [
             [
                17,
@@ -75,21 +49,47 @@
                1,
                4
             ]
+         ]
+      },
+      "z" : {
+         "V" : [
+            "L",
+            "S",
+            "L",
+            "S",
+            "L",
+            "S",
+            "L",
+            "S"
          ],
-         "smps" : [
-            "y",
-            "n"
+         "P" : [
+            "L",
+            "L",
+            "L",
+            "L",
+            "S",
+            "S",
+            "S",
+            "S"
          ],
-         "vars" : [
-            "Var1",
-            "Var2",
-            "Var3",
-            "Var4",
-            "Var5",
-            "Var6",
-            "Var7",
-            "Var8"
+         "A" : [
+            "A",
+            "A",
+            "I",
+            "I",
+            "A",
+            "A",
+            "I",
+            "I"
          ]
       }
+   },
+   "config" : {
+      "sizeBy" : "A",
+      "shapeBy" : "P",
+      "subtitle" : "MASS - eagles",
+      "title" : "Foraging Ecology of Bald Eagles",
+      "graphType" : "Scatter2D",
+      "colorBy" : "V"
    }
 }

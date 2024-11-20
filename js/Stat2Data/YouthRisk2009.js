@@ -1,16 +1,16 @@
 var YouthRisk2009Info ={
-   "title" : "Youth Risk Survey",
+   "parameters" : {
+      "Sleep" : "Average hours sleep on school night (10 or more hours, 9 hours, down to\n4 or less hours)",
+      "SmokeDaily" : "Regular smoker? (No or Yes)",
+      "MarijuaEver" : "Ever smoked marijuana? (0=no or 1=yes)",
+      "SmokeLife" : "Ever smoked? (No or Yes)",
+      "Sleep7" : "Seven or more hours of sleep? (0=no or 1=yes)",
+      "Age" : "Age (in years)"
+   },
    "reference" : "Data from the Centers for Disease Control's Youth Risk Behavior Surveillance System (YRBSS).",
    "usage" : "A dataset with 500 observations on the following 6 variables.",
    "description" : "Description\nSurvey of students in grades 9-12 concerning health-risk behiviors",
-   "parameters" : {
-      "Sleep7" : "Seven or more hours of sleep? (0=no or 1=yes)",
-      "SmokeDaily" : "Regular smoker? (No or Yes)",
-      "MarijuaEver" : "Ever smoked marijuana? (0=no or 1=yes)",
-      "Age" : "Age (in years)",
-      "SmokeLife" : "Ever smoked? (No or Yes)",
-      "Sleep" : "Average hours sleep on school night (10 or more hours, 9 hours, down to\n4 or less hours)"
-   }
+   "title" : "Youth Risk Survey"
 }
 
 var YouthRisk2009 = [

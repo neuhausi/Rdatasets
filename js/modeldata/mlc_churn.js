@@ -1,8 +1,8 @@
 var mlc_churnInfo ={
-   "description" : "Description\nA data set from the MLC++ machine learning software for modeling customer\nchurn. There are 19 predictors, mostly numeric: state (categorical),\naccount_length area_code international_plan (yes/no),\nvoice_mail_plan (yes/no), number_vmail_messages\ntotal_day_minutes total_day_calls total_day_charge\ntotal_eve_minutes total_eve_calls total_eve_charge\ntotal_night_minutes total_night_calls\ntotal_night_charge total_intl_minutes\ntotal_intl_calls total_intl_charge, and\nnumber_customer_service_calls.",
-   "title" : "Customer churn data",
    "format" : "mlc_churn\n\na tibble",
-   "usage" : "The outcome is contained in a column called churn (also yes/no).\nA note in one of the source files states that the data are \"artificial based\non claims similar to real world\"."
+   "usage" : "The outcome is contained in a column called churn (also yes/no).\nA note in one of the source files states that the data are \"artificial based\non claims similar to real world\".",
+   "description" : "Description\nA data set from the MLC++ machine learning software for modeling customer\nchurn. There are 19 predictors, mostly numeric: state (categorical),\naccount_length area_code international_plan (yes/no),\nvoice_mail_plan (yes/no), number_vmail_messages\ntotal_day_minutes total_day_calls total_day_charge\ntotal_eve_minutes total_eve_calls total_eve_charge\ntotal_night_minutes total_night_calls\ntotal_night_charge total_intl_minutes\ntotal_intl_calls total_intl_charge, and\nnumber_customer_service_calls.",
+   "title" : "Customer churn data"
 }
 
 var mlc_churn = [

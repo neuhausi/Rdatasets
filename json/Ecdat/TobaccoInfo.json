@@ -1,0 +1,18 @@
+{
+   "usage" : "data(Tobacco)",
+   "reference" : "National Institute of Statistics (NIS), Belgium.",
+   "description" : "Description\na cross-section from 1995-96\nnumber of observations :  2724\nobservation :  individuals\ncountry :  Belgium",
+   "title" : "Households Tobacco Budget Share",
+   "parameters" : {
+      "nkids" : "number of kids of more than two years old",
+      "occupation" : "a factor with levels (bluecol, whitecol,\ninactself), the last level being inactive and \nself-employed",
+      "stobacco" : "budget share of tobacco",
+      "age" : "age in brackets (0-4)",
+      "nkids2" : "number of kids of less than two years old",
+      "salcohol" : "budget share of alcohol",
+      "lnx" : "log of total expenditures",
+      "region" : "a factor with levels (flanders, wallon,\nbrussels)",
+      "nadults" : "number of adults in household"
+   },
+   "format" : "A dataframe containing :"
+}

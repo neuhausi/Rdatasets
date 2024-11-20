@@ -1,12 +1,5 @@
 {
-   "config" : {
-      "smpOverlays" : [
-         "Team"
-      ],
-      "graphType" : "Heatmap",
-      "title" : "NFL Standings for 2016 Regular Season",
-      "subtitle" : "Stat2Data - NFLStandings2016"
-   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>NFLStandings2016</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>NFL Standings for 2016 Regular Season</h2>\n<h3>Description</h3>\n<p>Standings and team statistics for National Football League (NFL) teams in the 2016 season\n</p>\n<h3>Format</h3>\n<p>A data frame with 32 observations on the following 11 variables.\n</p>\n<dl>\n<dt><code>Team</code></dt><dd><p>Team name</p>\n</dd>\n<dt><code>Wins</code></dt><dd><p>Wins in the 2016 regular season (out of 16 games)</p>\n</dd>\n<dt><code>Losses</code></dt><dd><p>Losses in the 2016 regular season</p>\n</dd>\n<dt><code>Ties</code></dt><dd><p>Ties in the 2016 regular season (ties are very rare in the NFL)</p>\n</dd>\n<dt><code>WinPct</code></dt><dd><p>Winning percentage = (Wins+0.5*Ties)/16 games</p>\n</dd>\n<dt><code>PointsFor</code></dt><dd><p>Points scored</p>\n</dd>\n<dt><code>PointsAgainst</code></dt><dd><p>Points allowed</p>\n</dd>\n<dt><code>NetPts</code></dt><dd><p>Points scored minus Points allowed</p>\n</dd>\n<dt><code>YardsFor</code></dt><dd><p>Offensive yards gained by the team</p>\n</dd>\n<dt><code>YardsAgainst</code></dt><dd><p>Offensive yards against the team</p>\n</dd>\n<dt><code>TDs</code></dt><dd><p>Touchdowns scored</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>Standings for the 2016 regular season of the National Football League (NFL) along with points and scored and allowed for each team in its16 games.\n</p>\n<h3>Source</h3>\n<p>Data downloaded from: <br />\nhttp://www.pro-football-reference.com/years/2016/\n</p>\n</main>\n</div>\n",
    "data" : {
       "y" : {
          "vars" : [
@@ -435,5 +428,12 @@
          ]
       }
    },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>NFLStandings2016</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>NFL Standings for 2016 Regular Season</h2>\n<h3>Description</h3>\n<p>Standings and team statistics for National Football League (NFL) teams in the 2016 season\n</p>\n<h3>Format</h3>\n<p>A data frame with 32 observations on the following 11 variables.\n</p>\n<dl>\n<dt><code>Team</code></dt><dd><p>Team name</p>\n</dd>\n<dt><code>Wins</code></dt><dd><p>Wins in the 2016 regular season (out of 16 games)</p>\n</dd>\n<dt><code>Losses</code></dt><dd><p>Losses in the 2016 regular season</p>\n</dd>\n<dt><code>Ties</code></dt><dd><p>Ties in the 2016 regular season (ties are very rare in the NFL)</p>\n</dd>\n<dt><code>WinPct</code></dt><dd><p>Winning percentage = (Wins+0.5*Ties)/16 games</p>\n</dd>\n<dt><code>PointsFor</code></dt><dd><p>Points scored</p>\n</dd>\n<dt><code>PointsAgainst</code></dt><dd><p>Points allowed</p>\n</dd>\n<dt><code>NetPts</code></dt><dd><p>Points scored minus Points allowed</p>\n</dd>\n<dt><code>YardsFor</code></dt><dd><p>Offensive yards gained by the team</p>\n</dd>\n<dt><code>YardsAgainst</code></dt><dd><p>Offensive yards against the team</p>\n</dd>\n<dt><code>TDs</code></dt><dd><p>Touchdowns scored</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>Standings for the 2016 regular season of the National Football League (NFL) along with points and scored and allowed for each team in its16 games.\n</p>\n<h3>Source</h3>\n<p>Data downloaded from: <br />\nhttp://www.pro-football-reference.com/years/2016/\n</p>\n</main>\n</div>\n"
+   "config" : {
+      "smpOverlays" : [
+         "Team"
+      ],
+      "graphType" : "Heatmap",
+      "title" : "NFL Standings for 2016 Regular Season",
+      "subtitle" : "Stat2Data - NFLStandings2016"
+   }
 }

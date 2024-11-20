@@ -1,0 +1,12 @@
+{
+   "format" : "An object of class \"data.frame\".",
+   "parameters" : {
+      "sex. Male or Female." : null,
+      "age. Age strata, with each year a different stratum." : null,
+      "prob. Probability of death within 1 year given exact age and sex." : null
+   },
+   "title" : "2015 US Period Life Table",
+   "description" : "Description\nProbability of death within 1 year by age and sex in the United States in 2015.",
+   "usage" : "death_prob",
+   "reference" : "Social Security Administraton"
+}

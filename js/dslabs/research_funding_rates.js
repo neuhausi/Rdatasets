@@ -1,20 +1,20 @@
 var research_funding_ratesInfo ={
-   "description" : "Description\nTable S1 from paper title \"Gender contributes to personal research funding success in The Netherlands\"",
-   "parameters" : {
-      "awards_total. Total awards." : null,
-      "discipline. Research area discipline." : null,
-      "awards_women. Total awards received by women." : null,
-      "applications_men. Total applications by men." : null,
-      "applications_women. Total applications by women." : null,
-      "awards_men. Total awards received by men." : null,
-      "applications_total. Total applications." : null,
-      "success_rates_men. Success rate for men." : null,
-      "success_rates_women. Success rate for women." : null,
-      "success_rates_total. Overall success rate." : null
-   },
    "usage" : "research_funding_rates",
-   "format" : "An object of class \"data.frame\".",
-   "title" : "Gender bias in research funding in the Netherlands"
+   "description" : "Description\nTable S1 from paper title \"Gender contributes to personal research funding success in The Netherlands\"",
+   "title" : "Gender bias in research funding in the Netherlands",
+   "parameters" : {
+      "applications_women. Total applications by women." : null,
+      "discipline. Research area discipline." : null,
+      "success_rates_women. Success rate for women." : null,
+      "awards_women. Total awards received by women." : null,
+      "awards_men. Total awards received by men." : null,
+      "success_rates_men. Success rate for men." : null,
+      "applications_men. Total applications by men." : null,
+      "success_rates_total. Overall success rate." : null,
+      "applications_total. Total applications." : null,
+      "awards_total. Total awards." : null
+   },
+   "format" : "An object of class \"data.frame\"."
 }
 
 var research_funding_rates = [

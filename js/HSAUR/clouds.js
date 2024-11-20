@@ -1,18 +1,18 @@
 var cloudsInfo ={
-   "usage" : "data(\"clouds\")",
-   "description" : "Description\nData from an experiment investigating the use of massive \namounts of silver iodide (100 to 1000 grams per cloud) in cloud\nseeding to increase rainfall.",
    "format" : "A data frame with 24 observations on the following 7 variables.",
-   "reference" : "Weather modification, or cloud seeding, is the treatment of individual\nclouds or storm systems with various inorganic and organic materials\nin the hope of achieving an increase in rainfall. Introduction\nof such material into a cloud that contains supercooled water,\nthat is, liquid water colder than zero Celsius, has the aim of \ninducing freezing, with the consequent ice particles growing  \nat the expense of liquid droplets and becoming heavy enough to\nfall as rain from clouds that otherwise would produce none.",
-   "title" : "Cloud Seeding Data",
    "parameters" : {
-      "rainfall" : "the amount of rain in cubic metres times 1e+8.",
-      "prewetness" : "the total rainfall in the target area one hour before\nseeding (in cubic metres times 1e+8).",
-      "time" : "number of days after the first day of the experiment.",
       "seeding" : "a factor indicating whether seeding action occured (no\nor yes).",
-      "cloudcover" : "the percentage cloud cover in the experimental area,\nmeasured using radar.",
+      "sne" : "suitability criterion.",
+      "prewetness" : "the total rainfall in the target area one hour before\nseeding (in cubic metres times 1e+8).",
+      "rainfall" : "the amount of rain in cubic metres times 1e+8.",
+      "time" : "number of days after the first day of the experiment.",
       "echomotion" : "a factor showing whether the radar echo was\nmoving or stationary.",
-      "sne" : "suitability criterion."
-   }
+      "cloudcover" : "the percentage cloud cover in the experimental area,\nmeasured using radar."
+   },
+   "reference" : "Weather modification, or cloud seeding, is the treatment of individual\nclouds or storm systems with various inorganic and organic materials\nin the hope of achieving an increase in rainfall. Introduction\nof such material into a cloud that contains supercooled water,\nthat is, liquid water colder than zero Celsius, has the aim of \ninducing freezing, with the consequent ice particles growing  \nat the expense of liquid droplets and becoming heavy enough to\nfall as rain from clouds that otherwise would produce none.",
+   "usage" : "data(\"clouds\")",
+   "title" : "Cloud Seeding Data",
+   "description" : "Description\nData from an experiment investigating the use of massive \namounts of silver iodide (100 to 1000 grams per cloud) in cloud\nseeding to increase rainfall."
 }
 
 var clouds = [

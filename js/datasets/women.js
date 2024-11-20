@@ -1,7 +1,7 @@
 var womenInfo ={
+   "title" : "Average Heights and Weights for American Women",
    "description" : "Description\nThis data set gives the average heights and weights for American women\naged 30&ndash;39.",
    "usage" : "women",
-   "title" : "Average Heights and Weights for American Women",
    "format" : "A data frame with 15 observations on 2 variables."
 }
 

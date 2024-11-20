@@ -1,13 +1,13 @@
 var cherryInfo ={
-   "description" : "Description\nResearchers wanting to understand the relationship between these variables\nfor black cherry trees collected data from 31 trees in the Allegheny\nNational Forest, Pennsylvania.",
-   "usage" : "cherry",
+   "format" : "A data frame with 31 observations on the following 3 variables.",
    "parameters" : {
-      "volume" : "volume in cubic feet",
       "diam" : "diameter in inches (at 54 inches above ground)",
+      "volume" : "volume in cubic feet",
       "height" : "height is measured in feet"
    },
-   "format" : "A data frame with 31 observations on the following 3 variables.",
+   "usage" : "cherry",
    "reference" : "D.J. Hand. A handbook of small data sets. Chapman & Hall/CRC, 1994.",
+   "description" : "Description\nResearchers wanting to understand the relationship between these variables\nfor black cherry trees collected data from 31 trees in the Allegheny\nNational Forest, Pennsylvania.",
    "title" : "Summary information for 31 cherry trees"
 }
 

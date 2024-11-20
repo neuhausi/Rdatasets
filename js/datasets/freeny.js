@@ -1,8 +1,8 @@
 var freenyInfo ={
-   "description" : "Description\nFreeny's data on quarterly revenue and explanatory variables.",
-   "title" : "Freeny's Revenue Data",
    "format" : "There are three &lsquo;freeny&rsquo; data sets.",
-   "usage" : "freeny\nfreeny.x\nfreeny.y"
+   "usage" : "freeny\nfreeny.x\nfreeny.y",
+   "title" : "Freeny's Revenue Data",
+   "description" : "Description\nFreeny's data on quarterly revenue and explanatory variables."
 }
 
 var freeny = [

@@ -1,11 +1,17 @@
 {
-   "config" : {
-      "graphType" : "Heatmap",
-      "title" : "Toothpaste Data",
-      "subtitle" : "HSAUR - toothpaste"
-   },
    "data" : {
       "y" : {
+         "smps" : [
+            "Smp1",
+            "Smp2",
+            "Smp3",
+            "Smp4",
+            "Smp5",
+            "Smp6",
+            "Smp7",
+            "Smp8",
+            "Smp9"
+         ],
          "data" : [
             [
                1,
@@ -93,19 +99,13 @@
             "nB",
             "meanB",
             "sdB"
-         ],
-         "smps" : [
-            "Smp1",
-            "Smp2",
-            "Smp3",
-            "Smp4",
-            "Smp5",
-            "Smp6",
-            "Smp7",
-            "Smp8",
-            "Smp9"
          ]
       }
    },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>toothpaste</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2> Toothpaste Data </h2>\n<h3>Description</h3>\n<p>Meta-analysis of studies comparing two different toothpastes.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(\"toothpaste\")</code></pre>\n<h3>Format</h3>\n<p>A data frame with 9 observations on the following 7 variables.\n</p>\n<dl>\n<dt><code>Study</code></dt><dd><p>the identifier of the study.</p>\n</dd>\n<dt><code>nA</code></dt><dd><p>number of subjects using toothpaste A.</p>\n</dd>\n<dt><code>meanA</code></dt><dd><p>mean DMFS index of subjects using toothpaste A.</p>\n</dd>\n<dt><code>sdA</code></dt><dd><p>standard deviation of DMFS index of subjects \nusing toothpaste A.</p>\n</dd>\n<dt><code>nB</code></dt><dd><p>number of subjects using toothpaste B.</p>\n</dd>\n<dt><code>meanB</code></dt><dd><p>mean DMFS index of subjects using toothpaste B.</p>\n</dd>\n<dt><code>sdB</code></dt><dd><p>standard deviation of DMFS index of subjects \nusing toothpaste B.</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>The data are the results of nine randomised trials comparing\ntwo different toothpastes for the prevention of caries development.\nThe outcomes in each trial was the change, from baseline, in\nthe decayed, missing (due to caries) and filled surface dental\nindex (DMFS).\n</p>\n<h3>Source</h3>\n<p>B. S. Everitt and A. Pickles (2000), \n<em>Statistical Aspects of the Design and Analysis of Clinical\nTrials</em>, Imperial College Press, London.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>\n  data(\"toothpaste\", package = \"HSAUR\")\n  toothpaste\n</code></pre>\n</main>\n</div>\n"
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>toothpaste</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2> Toothpaste Data </h2>\n<h3>Description</h3>\n<p>Meta-analysis of studies comparing two different toothpastes.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(\"toothpaste\")</code></pre>\n<h3>Format</h3>\n<p>A data frame with 9 observations on the following 7 variables.\n</p>\n<dl>\n<dt><code>Study</code></dt><dd><p>the identifier of the study.</p>\n</dd>\n<dt><code>nA</code></dt><dd><p>number of subjects using toothpaste A.</p>\n</dd>\n<dt><code>meanA</code></dt><dd><p>mean DMFS index of subjects using toothpaste A.</p>\n</dd>\n<dt><code>sdA</code></dt><dd><p>standard deviation of DMFS index of subjects \nusing toothpaste A.</p>\n</dd>\n<dt><code>nB</code></dt><dd><p>number of subjects using toothpaste B.</p>\n</dd>\n<dt><code>meanB</code></dt><dd><p>mean DMFS index of subjects using toothpaste B.</p>\n</dd>\n<dt><code>sdB</code></dt><dd><p>standard deviation of DMFS index of subjects \nusing toothpaste B.</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>The data are the results of nine randomised trials comparing\ntwo different toothpastes for the prevention of caries development.\nThe outcomes in each trial was the change, from baseline, in\nthe decayed, missing (due to caries) and filled surface dental\nindex (DMFS).\n</p>\n<h3>Source</h3>\n<p>B. S. Everitt and A. Pickles (2000), \n<em>Statistical Aspects of the Design and Analysis of Clinical\nTrials</em>, Imperial College Press, London.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>\n  data(\"toothpaste\", package = \"HSAUR\")\n  toothpaste\n</code></pre>\n</main>\n</div>\n",
+   "config" : {
+      "graphType" : "Heatmap",
+      "subtitle" : "HSAUR - toothpaste",
+      "title" : "Toothpaste Data"
+   }
 }

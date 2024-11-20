@@ -1,22 +1,22 @@
 var meap01Info ={
-   "reference" : "This is another good data set to compare simple and multiple regression estimates. The expenditure variable (in logs, say) and the poverty measure (lunch) are negatively correlated in this data set. A simple regression of math4 on lexppp gives a negative coefficient. Controlling for lunch makes the spending coefficient positive and significant.",
-   "title" : "meap01",
    "format" : "A data.frame with 1823 observations on 11 variables:",
-   "parameters" : {
-      "math4" : " percent students satisfactory, 4th grade math",
-      "enroll" : " school enrollment",
-      "dcode" : " district code",
-      "lenroll" : " log(enroll)",
-      "exppp" : " expenditures per pupil",
-      "read4" : " percent students satisfactory, 4th grade reading",
-      "lunch" : " percent students eligible for free or reduced lunch",
-      "expend" : " total spending, $",
-      "lexppp" : " log(exppp)",
-      "bcode" : " building code",
-      "lexpend" : " log(expend)"
-   },
+   "description" : "Description\nWooldridge Source: Michigan Department of Education, www.michigan.gov/mde Data loads lazily.",
+   "title" : "meap01",
    "usage" : "data('meap01')",
-   "description" : "Description\nWooldridge Source: Michigan Department of Education, www.michigan.gov/mde Data loads lazily."
+   "reference" : "This is another good data set to compare simple and multiple regression estimates. The expenditure variable (in logs, say) and the poverty measure (lunch) are negatively correlated in this data set. A simple regression of math4 on lexppp gives a negative coefficient. Controlling for lunch makes the spending coefficient positive and significant.",
+   "parameters" : {
+      "lexppp" : " log(exppp)",
+      "lunch" : " percent students eligible for free or reduced lunch",
+      "lenroll" : " log(enroll)",
+      "dcode" : " district code",
+      "expend" : " total spending, $",
+      "enroll" : " school enrollment",
+      "bcode" : " building code",
+      "read4" : " percent students satisfactory, 4th grade reading",
+      "lexpend" : " log(expend)",
+      "math4" : " percent students satisfactory, 4th grade math",
+      "exppp" : " expenditures per pupil"
+   }
 }
 
 var meap01 = [

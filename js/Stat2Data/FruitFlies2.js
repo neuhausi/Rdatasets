@@ -1,17 +1,17 @@
 var FruitFlies2Info ={
-   "title" : "Fruit Fly Sexual Activity and Male Competition",
-   "reference" : "Researchers randomly assigned virgin male fruit flies to one of two treatments:  live alone or live in an environment where they can sense one other male fly.  Flies were randomly allocated to either have mating opportunities with female flies or to not have such opportunities.  Those flies that were given mating opportunities were given 3, 4, or 5 opportunities to mate (Mating measures this number).  Researchers also measured size, lifespan and activity levels of the fruit flies.",
-   "usage" : "A data frame with 201 observations on the following 7 variables.",
    "parameters" : {
       "Mating" : "How many mating opportunities was the fly given?",
       "Activity" : "Number of times a movement detector was tripped starting in the 12th day",
-      "Size" : "Size of the thorax (in mm)",
+      "Mated" : "Was the fly allowed mating opportunities? (n or y)",
       "Lifespan" : "Lifespan (in hours, starting at the 12th day)",
       "Alone" : "Did the fly live alone? (y=yes or n= no, lived near another male)",
-      "Mated" : "Was the fly allowed mating opportunities? (n or y)",
-      "Total" : "Total duration of mating time over all opportunities (in seconds)"
+      "Total" : "Total duration of mating time over all opportunities (in seconds)",
+      "Size" : "Size of the thorax (in mm)"
    },
-   "description" : "Description\nResults from an experiment on male fruit flies with different levels of sexual activity and competition from other males"
+   "description" : "Description\nResults from an experiment on male fruit flies with different levels of sexual activity and competition from other males",
+   "title" : "Fruit Fly Sexual Activity and Male Competition",
+   "usage" : "A data frame with 201 observations on the following 7 variables.",
+   "reference" : "Researchers randomly assigned virgin male fruit flies to one of two treatments:  live alone or live in an environment where they can sense one other male fly.  Flies were randomly allocated to either have mating opportunities with female flies or to not have such opportunities.  Those flies that were given mating opportunities were given 3, 4, or 5 opportunities to mate (Mating measures this number).  Researchers also measured size, lifespan and activity levels of the fruit flies."
 }
 
 var FruitFlies2 = [

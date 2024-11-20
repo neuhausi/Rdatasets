@@ -1,0 +1,20 @@
+{
+   "parameters" : {
+      "age" : "age in years.",
+      "ethnicity" : "factor indicating ethnicity: African-American, Caucasian, other.",
+      "selfemp" : "factor. Is the individual self-employed?",
+      "family" : "family size.",
+      "married" : "factor. Is the individual married?",
+      "health" : "factor. Is the self-reported health status &ldquo;healthy&rdquo;?.",
+      "gender" : "factor indicating gender.",
+      "limit" : "factor. Is there any limitation?",
+      "education" : "factor indicating highest degree attained:\nno degree, GED (high school equivalent), high school, bachelor, master, PhD, other.",
+      "insurance" : "factor. Does the individual have a health insurance?",
+      "region" : "factor indicating region."
+   },
+   "title" : "Medical Expenditure Panel Survey Data",
+   "description" : "Description\nCross-section data originating from the Medical Expenditure Panel Survey survey conducted in 1996.",
+   "reference" : "This is a subset of the data used in Perry and Rosen (2004).",
+   "usage" : "data(\"HealthInsurance\")",
+   "format" : "A data frame containing 8,802 observations on 11 variables."
+}

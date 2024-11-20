@@ -1,8 +1,8 @@
 var guineariceInfo ={
    "usage" : "Annual time series of class ts.",
-   "format" : "World Bank.",
    "title" : "Rice production (Guinea)",
-   "description" : "Description\nTotal annual rice production (million metric tons) for Guinea. 1970-2011."
+   "description" : "Description\nTotal annual rice production (million metric tons) for Guinea. 1970-2011.",
+   "format" : "World Bank."
 }
 
 var guinearice = [

@@ -1,15 +1,15 @@
 var CRSPmonInfo ={
+   "format" : "A time series containing :",
    "description" : "Description\nmonthly observations from 1969-1 to 1998-12\nnumber of observations :  360\nobservation :  production units\ncountry :  United States",
+   "title" : "Monthly Returns from the CRSP Database",
+   "reference" : "Center for Research in Security Prices, Graduate School of  Business, University of Chicago,  725 South Wells - Suite 800,  Chicago, Illinois  60607,  https://www.crsp.org.",
    "usage" : "data(CRSPmon)",
    "parameters" : {
+      "ibm" : "the return for IBM, PERMNO 12490",
       "mobil" : "the return for Mobil Corporation, \nPERMNO 15966",
-      "crsp" : "the return for the CRSP value-weighted index,\nincluding  dividends",
       "ge" : "the return for General Electric, \nPERMNO 12060",
-      "ibm" : "the return for IBM, PERMNO 12490"
-   },
-   "format" : "A time series containing :",
-   "title" : "Monthly Returns from the CRSP Database",
-   "reference" : "Center for Research in Security Prices, Graduate School of  Business, University of Chicago,  725 South Wells - Suite 800,  Chicago, Illinois  60607,  https://www.crsp.org."
+      "crsp" : "the return for the CRSP value-weighted index,\nincluding  dividends"
+   }
 }
 
 var CRSPmon = [

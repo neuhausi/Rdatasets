@@ -1,5 +1,4 @@
 {
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>azdrg112</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>azdrg112</h2>\n<h3>Description</h3>\n<p>The data set relates to the hospital length of stay for patients having \na CABG or PTCA (typel) heart procedure. The data comes from the 1995 \nArizona Medicare data for DRG (Diagnostic Related Group) 112. Other predictors \ninclude gender(1=female) and age75 (1-age 75+). Type is labeled as 1=emergency \nor urgent admission; 0= elective. Length of stay (los) ranges from 1 to 53 days. \n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(azdrg112)</code></pre>\n<h3>Format</h3>\n<p>A data frame with 1,798 observations on the following 4 variables.\n</p>\n<dl>\n<dt><code>los</code></dt><dd><p>hospital length of stay: 1-53 days</p>\n</dd>\n<dt><code>gender</code></dt><dd><p>1=male; 0=female</p>\n</dd>\n<dt><code>type1</code></dt><dd><p>1=emergency/urgent admission; 0=elective admission</p>\n</dd>\n<dt><code>age75</code></dt><dd><p>1=age&gt;75; 0=age&lt;=75</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>azdrg112 is saved as a data frame.\nCount models typically use los as response variable. 0 counts are not included\n</p>\n<h3>Source</h3>\n<p>DRG 112 data from the 1995 Arizona Medicare (MedPar) State files\n</p>\n<h3>References</h3>\n<p>Hilbe, Joseph M (2007, 2011), Negative Binomial Regression, Cambridge University Press\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>data(azdrg112)\nglmazp &lt;- glm(los ~ type1 + gender + age75, family=poisson, data=azdrg112)\nsummary(glmazp)\nexp(coef(glmazp))\nlibrary(MASS)\nglmaznb &lt;- glm.nb(los ~ type1 + gender + age75, data=azdrg112)\nsummary(glmaznb)\nexp(coef(glmaznb))\n</code></pre>\n</main>\n</div>\n",
    "data" : {
       "y" : {
          "vars" : [
@@ -1801,12 +1800,6 @@
             "Var1796",
             "Var1797",
             "Var1798"
-         ],
-         "smps" : [
-            "los",
-            "gender",
-            "type1",
-            "age75"
          ],
          "data" : [
             [
@@ -12597,12 +12590,19 @@
                1,
                1
             ]
+         ],
+         "smps" : [
+            "los",
+            "gender",
+            "type1",
+            "age75"
          ]
       }
    },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>azdrg112</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>azdrg112</h2>\n<h3>Description</h3>\n<p>The data set relates to the hospital length of stay for patients having \na CABG or PTCA (typel) heart procedure. The data comes from the 1995 \nArizona Medicare data for DRG (Diagnostic Related Group) 112. Other predictors \ninclude gender(1=female) and age75 (1-age 75+). Type is labeled as 1=emergency \nor urgent admission; 0= elective. Length of stay (los) ranges from 1 to 53 days. \n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(azdrg112)</code></pre>\n<h3>Format</h3>\n<p>A data frame with 1,798 observations on the following 4 variables.\n</p>\n<dl>\n<dt><code>los</code></dt><dd><p>hospital length of stay: 1-53 days</p>\n</dd>\n<dt><code>gender</code></dt><dd><p>1=male; 0=female</p>\n</dd>\n<dt><code>type1</code></dt><dd><p>1=emergency/urgent admission; 0=elective admission</p>\n</dd>\n<dt><code>age75</code></dt><dd><p>1=age&gt;75; 0=age&lt;=75</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>azdrg112 is saved as a data frame.\nCount models typically use los as response variable. 0 counts are not included\n</p>\n<h3>Source</h3>\n<p>DRG 112 data from the 1995 Arizona Medicare (MedPar) State files\n</p>\n<h3>References</h3>\n<p>Hilbe, Joseph M (2007, 2011), Negative Binomial Regression, Cambridge University Press\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>data(azdrg112)\nglmazp &lt;- glm(los ~ type1 + gender + age75, family=poisson, data=azdrg112)\nsummary(glmazp)\nexp(coef(glmazp))\nlibrary(MASS)\nglmaznb &lt;- glm.nb(los ~ type1 + gender + age75, data=azdrg112)\nsummary(glmaznb)\nexp(coef(glmaznb))\n</code></pre>\n</main>\n</div>\n",
    "config" : {
-      "subtitle" : "COUNT - azdrg112",
       "graphType" : "Scatter2D",
+      "subtitle" : "COUNT - azdrg112",
       "title" : "azdrg112",
       "scatterPlotMatrix" : 1
    }

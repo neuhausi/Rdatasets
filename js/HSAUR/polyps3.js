@@ -1,16 +1,16 @@
 var polyps3Info ={
-   "usage" : "data(\"polyps3\")",
-   "description" : "Description\nData from a placebo-controlled trial of a non-steroidal anti-inflammatory\ndrug in the treatment of familial andenomatous polyposis (FAP).",
-   "title" : "Familial Andenomatous Polyposis",
-   "reference" : "The data arise from the same study as the polyps data. Here, \nthe number of polyps after three months are given.",
    "format" : "A data frame with 22 observations on the following 5 variables.",
    "parameters" : {
-      "age" : "the age of the patient.",
       "baseline" : "the baseline number of polyps.",
       "sex" : "a factor with levels female and male.",
       "treatment" : "a factor with levels placebo and active.",
+      "age" : "the age of the patient.",
       "number3m" : "the number of polyps after three month."
-   }
+   },
+   "reference" : "The data arise from the same study as the polyps data. Here, \nthe number of polyps after three months are given.",
+   "usage" : "data(\"polyps3\")",
+   "description" : "Description\nData from a placebo-controlled trial of a non-steroidal anti-inflammatory\ndrug in the treatment of familial andenomatous polyposis (FAP).",
+   "title" : "Familial Andenomatous Polyposis"
 }
 
 var polyps3 = [

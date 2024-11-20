@@ -1,8 +1,8 @@
 var drinksInfo ={
-   "description" : "Description\nSample time series data",
-   "usage" : "Drink sales. The exact name of the series from FRED is:\n\"Merchant Wholesalers, Except Manufacturers' Sales Branches and Offices\nSales: Nondurable Goods: Beer, Wine, and Distilled Alcoholic Beverages Sales\"",
    "format" : "drinks\n\na tibble",
-   "title" : "Sample time series data"
+   "description" : "Description\nSample time series data",
+   "title" : "Sample time series data",
+   "usage" : "Drink sales. The exact name of the series from FRED is:\n\"Merchant Wholesalers, Except Manufacturers' Sales Branches and Offices\nSales: Nondurable Goods: Beer, Wine, and Distilled Alcoholic Beverages Sales\""
 }
 
 var drinks = [

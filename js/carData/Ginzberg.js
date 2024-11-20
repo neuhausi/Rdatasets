@@ -1,17 +1,17 @@
 var GinzbergInfo ={
-   "format" : "This data frame contains the following columns:",
    "reference" : "Personal communication from Georges Monette, Department of\nMathematics and Statistics, York University, with the permission\nof the original investigator.",
-   "title" : "Data on Depression",
-   "parameters" : {
-      "fatalism" : "Fatalism scale.",
-      "depression" : "Beck self-report depression scale.",
-      "simplicity" : "Measures subject's need to see the world in black and white.",
-      "adjfatal" : "Adjusted Fatalism.",
-      "adjdep" : "Adjusted Depression.",
-      "adjsimp" : "Adjusted Simplicity: Simplicity adjusted (by regression) for other\nvariables thought to influence depression."
-   },
    "usage" : "Ginzberg",
-   "description" : "Description\nThe Ginzberg data frame has 82 rows and 6 columns.\nThe data are for psychiatric patients hospitalized for depression."
+   "title" : "Data on Depression",
+   "description" : "Description\nThe Ginzberg data frame has 82 rows and 6 columns.\nThe data are for psychiatric patients hospitalized for depression.",
+   "parameters" : {
+      "simplicity" : "Measures subject's need to see the world in black and white.",
+      "depression" : "Beck self-report depression scale.",
+      "fatalism" : "Fatalism scale.",
+      "adjdep" : "Adjusted Depression.",
+      "adjsimp" : "Adjusted Simplicity: Simplicity adjusted (by regression) for other\nvariables thought to influence depression.",
+      "adjfatal" : "Adjusted Fatalism."
+   },
+   "format" : "This data frame contains the following columns:"
 }
 
 var Ginzberg = [

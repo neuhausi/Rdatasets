@@ -1,14 +1,14 @@
 var survexp.usInfo ={
-   "title" : "Census Data Sets for the Expected Survival and Person Years Functions",
-   "format" : "survexp.us\ntotal United States population, by age and sex, 1940 to 2012.\n\n\nsurvexp.usr\nUnited States population, by age, sex and race, 1940 to 2014.\nRace is white or black.  For 1960 and 1970 the black\npopulation values were not reported separately, so the nonwhite\nvalues were used.  (Over the years, the reported tables have\ndiffered wrt reporting non-white and/or black.)\n\n\nsurvexp.mn\ntotal Minnesota population, by age and sex, 1970 to 2013.",
    "reference" : "ratetable, survexp,\npyears",
+   "usage" : "data(survexp, package=\"survival\")",
+   "description" : "Description\nCensus data sets for the expected survival and person years functions.",
+   "title" : "Census Data Sets for the Expected Survival and Person Years Functions",
    "parameters" : {
-      "survexp.mn" : "total Minnesota population, by age and sex, 1970 to 2013.",
       "survexp.usr" : "United States population, by age, sex and race, 1940 to 2014.\nRace is white or black.  For 1960 and 1970 the black\npopulation values were not reported separately, so the nonwhite\nvalues were used.  (Over the years, the reported tables have\ndiffered wrt reporting non-white and/or black.)",
+      "survexp.mn" : "total Minnesota population, by age and sex, 1970 to 2013.",
       "survexp.us" : "total United States population, by age and sex, 1940 to 2012."
    },
-   "usage" : "data(survexp, package=\"survival\")",
-   "description" : "Description\nCensus data sets for the expected survival and person years functions."
+   "format" : "survexp.us\ntotal United States population, by age and sex, 1940 to 2012.\n\n\nsurvexp.usr\nUnited States population, by age, sex and race, 1940 to 2014.\nRace is white or black.  For 1960 and 1970 the black\npopulation values were not reported separately, so the nonwhite\nvalues were used.  (Over the years, the reported tables have\ndiffered wrt reporting non-white and/or black.)\n\n\nsurvexp.mn\ntotal Minnesota population, by age and sex, 1970 to 2013."
 }
 
 var survexp.us = [

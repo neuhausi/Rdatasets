@@ -1,9 +1,9 @@
 var telefInfo ={
-   "usage" : "data(telef, package=\"robustbase\")",
-   "description" : "Description\nNumber of international calls from Belgium, taken from the Belgian\nStatistical Survey, published by the Ministry of Economy.",
    "format" : "A data frame with 24 observations on the following 2 variables.",
    "reference" : "P. J. Rousseeuw and A. M. Leroy (1987)\nRobust Regression and Outlier Detection;\nWiley, page 26, table 2.",
+   "usage" : "data(telef, package=\"robustbase\")",
    "title" : "Number of International Calls from Belgium",
+   "description" : "Description\nNumber of international calls from Belgium, taken from the Belgian\nStatistical Survey, published by the Ministry of Economy.",
    "parameters" : {
       "Year" : "Year (1950 - 1973)",
       "Calls" : "Number of Calls (in tens of millions)"

@@ -1,0 +1,15 @@
+{
+   "format" : "This data frame contains the following columns:",
+   "title" : "Covariates in the Rodriguez and Goldman simulation",
+   "description" : "Description\nThe s3bbx data frame has 2449 rows and 6 columns of the\ncovariates in the simulation by Rodriguez and Goldman of multilevel\ndichotomous data.",
+   "reference" : "http://data.princeton.edu/multilevel/simul.htm",
+   "usage" : "data(s3bbx)",
+   "parameters" : {
+      "commcov" : "a numeric vector of the community-level covariate",
+      "famcov" : "a numeric vector of the family-level covariate",
+      "family" : "a numeric vector identifying the family",
+      "community" : "a numeric vector identifying the community",
+      "chldcov" : "a numeric vector of the child-level covariate",
+      "child" : "a numeric vector identifying the child"
+   }
+}

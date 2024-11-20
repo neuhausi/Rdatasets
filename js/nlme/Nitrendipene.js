@@ -1,14 +1,14 @@
 var NitrendipeneInfo ={
-   "usage" : "This data frame contains the following columns:",
-   "reference" : "Bates, D. M. and Watts, D. G. (1988), Nonlinear Regression\nAnalysis and Its Applications, Wiley, New York.",
-   "title" : "Assay of nitrendipene",
-   "description" : "Description\nThe Nitrendipene data frame has 89 rows and 4 columns.",
    "parameters" : {
-      "Tissue" : "an ordered factor with levels\n2 < 1 < 3 < 4",
       "activity" : "a numeric vector",
       "NIF" : "a numeric vector",
-      "log.NIF" : "a numeric vector"
-   }
+      "log.NIF" : "a numeric vector",
+      "Tissue" : "an ordered factor with levels\n2 < 1 < 3 < 4"
+   },
+   "title" : "Assay of nitrendipene",
+   "description" : "Description\nThe Nitrendipene data frame has 89 rows and 4 columns.",
+   "usage" : "This data frame contains the following columns:",
+   "reference" : "Bates, D. M. and Watts, D. G. (1988), Nonlinear Regression\nAnalysis and Its Applications, Wiley, New York."
 }
 
 var Nitrendipene = [

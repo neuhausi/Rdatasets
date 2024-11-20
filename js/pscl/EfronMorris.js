@@ -1,18 +1,18 @@
 var EfronMorrisInfo ={
+   "format" : "namecharacter, name of player\n\nteamcharacter, team of player, abbreviated\n\nleaguecharacter, National League or American League\n\nrnumeric, hits in 1st 45 at bats\n\nynumeric, r/45, batting average over 1st\n45 at bats\n\nnnumeric, number of at bats, remainder of 1970\nseason\n\npnumeric, batting average over remainder of 1970 season",
+   "usage" : "data(EfronMorris)",
    "reference" : "Efron, Bradley and Carl Morris. 1975. Data Analysis Using\nStein's Estimator and Its Generalizations.  Journal of the American\nStatistical Association. 70:311-319.",
    "title" : "Batting Averages for 18 major league baseball players, 1970",
-   "format" : "namecharacter, name of player\n\nteamcharacter, team of player, abbreviated\n\nleaguecharacter, National League or American League\n\nrnumeric, hits in 1st 45 at bats\n\nynumeric, r/45, batting average over 1st\n45 at bats\n\nnnumeric, number of at bats, remainder of 1970\nseason\n\npnumeric, batting average over remainder of 1970 season",
+   "description" : "Description\nBatting averages for 18 major league baseball players,\nfirst 45 at bats of the 1970 season.",
    "parameters" : {
-      "name" : "character, name of player",
-      "team" : "character, team of player, abbreviated",
       "p" : "numeric, batting average over remainder of 1970 season",
-      "league" : "character, National League or American League",
       "n" : "numeric, number of at bats, remainder of 1970\nseason",
+      "league" : "character, National League or American League",
+      "team" : "character, team of player, abbreviated",
+      "name" : "character, name of player",
       "r" : "numeric, hits in 1st 45 at bats",
       "y" : "numeric, r/45, batting average over 1st\n45 at bats"
-   },
-   "usage" : "data(EfronMorris)",
-   "description" : "Description\nBatting averages for 18 major league baseball players,\nfirst 45 at bats of the 1970 season."
+   }
 }
 
 var EfronMorris = [

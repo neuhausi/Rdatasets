@@ -1,23 +1,23 @@
 var intdefInfo ={
-   "usage" : "data('intdef')",
-   "description" : "Description\nWooldridge Source: Economic Report of the President, 2004, Tables B-64, B-73, and B-79. Data loads lazily.",
    "format" : "A data.frame with 56 observations on 13 variables:",
-   "title" : "intdef",
    "reference" : "pages 356, 377, 430, 547-548",
+   "usage" : "data('intdef')",
+   "title" : "intdef",
+   "description" : "Description\nWooldridge Source: Economic Report of the President, 2004, Tables B-64, B-73, and B-79. Data loads lazily.",
    "parameters" : {
-      "i3" : " 3 month T-bill rate",
-      "y77" : " =1 if year >= 1977; change in FY",
       "rec" : " federal receipts, percent GDP",
-      "year" : " 1948 to 2003",
-      "def_1" : " def[_n-1]",
-      "def" : " out - rec",
-      "ci3" : " i3 - i3_1",
-      "i3_1" : " i3[_n-1]",
-      "cinf" : " inf - inf_1",
       "inf_1" : " inf[_n-1]",
+      "ci3" : " i3 - i3_1",
+      "inf" : " CPI inflation rate",
+      "i3_1" : " i3[_n-1]",
+      "y77" : " =1 if year >= 1977; change in FY",
+      "year" : " 1948 to 2003",
       "cdef" : " def - def_1",
-      "out" : " federal outlays, percent GDP",
-      "inf" : " CPI inflation rate"
+      "i3" : " 3 month T-bill rate",
+      "def_1" : " def[_n-1]",
+      "cinf" : " inf - inf_1",
+      "def" : " out - rec",
+      "out" : " federal outlays, percent GDP"
    }
 }
 

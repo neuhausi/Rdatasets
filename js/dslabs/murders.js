@@ -1,15 +1,15 @@
 var murdersInfo ={
-   "usage" : "murders",
-   "description" : "Description\nGun murder data from FBI reports. Also contains the population of each state.",
    "format" : "An object of class \"data.frame\".",
-   "title" : "US gun murders by state for 2010",
    "reference" : "Wikipedia",
+   "usage" : "murders",
+   "title" : "US gun murders by state for 2010",
+   "description" : "Description\nGun murder data from FBI reports. Also contains the population of each state.",
    "parameters" : {
-      "total. Number of gun murders in state (2010)" : null,
-      "state. US state" : null,
-      "abb. Abbreviation of US state" : null,
       "region. Geographical US region" : null,
-      "population. State population (2010)" : null
+      "abb. Abbreviation of US state" : null,
+      "population. State population (2010)" : null,
+      "state. US state" : null,
+      "total. Number of gun murders in state (2010)" : null
    }
 }
 

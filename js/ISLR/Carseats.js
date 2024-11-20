@@ -1,22 +1,22 @@
 var CarseatsInfo ={
-   "usage" : "Carseats",
    "description" : "Description\nA simulated data set containing sales of child car seats at\n400 different stores.",
-   "reference" : "Simulated data",
-   "format" : "A data frame with 400 observations on the following 11 variables.",
    "title" : "Sales of Child Car Seats",
+   "reference" : "Simulated data",
+   "usage" : "Carseats",
    "parameters" : {
       "US" : "A factor with levels No and Yes to\nindicate whether the store is in the US or not",
-      "Population" : "Population size in region (in thousands)",
-      "Age" : "Average age of the local population",
+      "Sales" : "Unit sales (in thousands) at each location",
       "CompPrice" : "Price charged by competitor at each location",
       "Income" : "Community income level (in thousands of dollars)",
-      "Price" : "Price company charges for car seats at each site",
       "Urban" : "A factor with levels No and Yes to\nindicate whether the store is in an urban or rural location",
       "Education" : "Education level at each location",
+      "Population" : "Population size in region (in thousands)",
+      "Advertising" : "Local advertising budget for company at\neach location (in thousands of dollars)",
       "ShelveLoc" : "A factor with levels Bad, Good\nand Medium indicating the quality of the shelving location\nfor the car seats at each site",
-      "Sales" : "Unit sales (in thousands) at each location",
-      "Advertising" : "Local advertising budget for company at\neach location (in thousands of dollars)"
-   }
+      "Price" : "Price company charges for car seats at each site",
+      "Age" : "Average age of the local population"
+   },
+   "format" : "A data frame with 400 observations on the following 11 variables."
 }
 
 var Carseats = [

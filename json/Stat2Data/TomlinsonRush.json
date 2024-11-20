@@ -1,31 +1,12 @@
 {
    "config" : {
       "title" : "LaDainian Tomlinson Rushing Yards",
+      "subtitle" : "Stat2Data - TomlinsonRush",
       "colorBy" : "Opponent",
-      "graphType" : "Scatter3D",
-      "subtitle" : "Stat2Data - TomlinsonRush"
+      "graphType" : "Scatter3D"
    },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>TomlinsonRush</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>\nLaDainian Tomlinson Rushing Yards\n</h2>\n<h3>Description</h3>\n<p>Rushing yards for each game LaDainian Tomlinson played in the 2006 National Football League (NFL regular) season.\n</p>\n<h3>Format</h3>\n<p>A dataset with 16 observations on the following 4 variables.\n</p>\n<table>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Game</code></td><td style=\"text-align: left;\"> Week number in the 2006 season</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Opponent</code></td><td style=\"text-align: left;\"> Name of opposing team</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Attempts</code></td><td style=\"text-align: left;\"> Number of rushing attempts</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Yards</code></td><td style=\"text-align: left;\"> Total yards gained rushing for the game</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n  </td>\n</tr>\n</table>\n<h3>Details</h3>\n<p>For each of the sixteen games the San Diego Chargers played in the 2006 NFL regular season\nwe have the number of times LaDainian Tomlinson ran the ball and the total yards he gained.\n</p>\n<p>This data set from the first edition was replaced by BreesPass in the second edition.\n</p>\n<h3>Source</h3>\n<p>Data downloaded from http://www.pro-football-reference.com/players/T/TomlLa00/gamelog/2006/\n</p>\n</main>\n</div>\n",
    "data" : {
-      "z" : {
-         "Opponent" : [
-            "Raiders",
-            "Titans",
-            "Ravens",
-            "Steelers",
-            "49ers",
-            "Chiefs",
-            "Rams",
-            "Browns",
-            "Bengals",
-            "Broncos",
-            "Raiders",
-            "Bills",
-            "Broncos",
-            "Chiefs",
-            "Seahawks",
-            "Cardinals"
-         ]
-      },
       "y" : {
          "data" : [
             [
@@ -109,6 +90,11 @@
                66
             ]
          ],
+         "smps" : [
+            "Game",
+            "Attempts",
+            "Yards"
+         ],
          "vars" : [
             "Var1",
             "Var2",
@@ -126,13 +112,27 @@
             "Var14",
             "Var15",
             "Var16"
-         ],
-         "smps" : [
-            "Game",
-            "Attempts",
-            "Yards"
+         ]
+      },
+      "z" : {
+         "Opponent" : [
+            "Raiders",
+            "Titans",
+            "Ravens",
+            "Steelers",
+            "49ers",
+            "Chiefs",
+            "Rams",
+            "Browns",
+            "Bengals",
+            "Broncos",
+            "Raiders",
+            "Bills",
+            "Broncos",
+            "Chiefs",
+            "Seahawks",
+            "Cardinals"
          ]
       }
-   },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>TomlinsonRush</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>\nLaDainian Tomlinson Rushing Yards\n</h2>\n<h3>Description</h3>\n<p>Rushing yards for each game LaDainian Tomlinson played in the 2006 National Football League (NFL regular) season.\n</p>\n<h3>Format</h3>\n<p>A dataset with 16 observations on the following 4 variables.\n</p>\n<table>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Game</code></td><td style=\"text-align: left;\"> Week number in the 2006 season</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Opponent</code></td><td style=\"text-align: left;\"> Name of opposing team</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Attempts</code></td><td style=\"text-align: left;\"> Number of rushing attempts</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Yards</code></td><td style=\"text-align: left;\"> Total yards gained rushing for the game</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n  </td>\n</tr>\n</table>\n<h3>Details</h3>\n<p>For each of the sixteen games the San Diego Chargers played in the 2006 NFL regular season\nwe have the number of times LaDainian Tomlinson ran the ball and the total yards he gained.\n</p>\n<p>This data set from the first edition was replaced by BreesPass in the second edition.\n</p>\n<h3>Source</h3>\n<p>Data downloaded from http://www.pro-football-reference.com/players/T/TomlLa00/gamelog/2006/\n</p>\n</main>\n</div>\n"
+   }
 }

@@ -1,0 +1,21 @@
+{
+   "usage" : "data(Pricing)",
+   "reference" : "Center for research in security prices.",
+   "title" : "Returns of Size-based Portfolios",
+   "description" : "Description\nmonthly observations from 1959&ndash;02 to 1993&ndash;11\nnumber of observations :  418",
+   "parameters" : {
+      "r1" : "monthly return on portfolio 1 (small firms)",
+      "r9" : "monthly return on portfolio 9",
+      "r8" : "monthly return on portfolio 8",
+      "r3" : "monthly return on portfolio 3",
+      "r6" : "monthly return on portfolio 6",
+      "r7" : "monthly return on portfolio 7",
+      "cons" : "real per capita consumption growth based on total US personal consumption expenditures (nondurables and services)",
+      "r2" : "monthly return on portfolio 2",
+      "rf" : "risk free rate (return on 3-month T-bill)",
+      "r5" : "monthly return on portfolio 5",
+      "r4" : "monthly return on portfolio 4",
+      "r10" : "monthly return on portfolio 10 (large firms)"
+   },
+   "format" : "A time series containing :"
+}

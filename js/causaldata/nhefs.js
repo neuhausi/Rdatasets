@@ -1,8 +1,8 @@
 var nhefsInfo ={
-   "description" : "Description\nnhefs is a cleaned data set of the data used in Causal Inference by HernÃ¡n and Robins. nhefs is dataset containing data from the National Health and Nutrition Examination Survey Data I Epidemiologic Follow-up Study (NHEFS). The NHEFS was jointly initiated by the National Center for Health Statistics and the National Institute on Aging in collaboration with other agencies of the United States Public Health Service. A detailed description of the NHEFS, together with publicly available data sets and documentation, can be found at https://wwwn.cdc.gov/nchs/nhanes/nhefs/.",
+   "usage" : "nhefs",
    "title" : "National Health and Nutrition Examination Survey Data I Epidemiologic Follow-up Study",
-   "format" : "A data frame with 1629 rows and 67 variables. The codebook is available as nhefs_codebook.",
-   "usage" : "nhefs"
+   "description" : "Description\nnhefs is a cleaned data set of the data used in Causal Inference by HernÃ¡n and Robins. nhefs is dataset containing data from the National Health and Nutrition Examination Survey Data I Epidemiologic Follow-up Study (NHEFS). The NHEFS was jointly initiated by the National Center for Health Statistics and the National Institute on Aging in collaboration with other agencies of the United States Public Health Service. A detailed description of the NHEFS, together with publicly available data sets and documentation, can be found at https://wwwn.cdc.gov/nchs/nhanes/nhefs/.",
+   "format" : "A data frame with 1629 rows and 67 variables. The codebook is available as nhefs_codebook."
 }
 
 var nhefs = [

@@ -1,7 +1,7 @@
 var CloudSeeding2Info ={
-   "usage" : "A data frame with 108 observations on the following 8 variables.",
    "title" : "Cloud Seeding Experiment (Four Seasons)",
-   "description" : "Description\nRainfall amounts from a cloud seeding experiment"
+   "description" : "Description\nRainfall amounts from a cloud seeding experiment",
+   "usage" : "A data frame with 108 observations on the following 8 variables."
 }
 
 var CloudSeeding2 = [

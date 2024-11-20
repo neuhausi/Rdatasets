@@ -1,0 +1,17 @@
+{
+   "parameters" : {
+      "income" : "Annual household income of the respondent (in 1,000 USD).",
+      "ski" : "factor. Was the individual engaged in water-skiing at the lake?",
+      "trips" : "Number of recreational boating trips.",
+      "costC" : "Expenditure when visiting Lake Conroe (in USD).",
+      "costH" : "Expenditure when visiting Lake Houston (in USD).",
+      "userfee" : "factor. Did the individual pay an annual user fee at Lake Somerville?",
+      "quality" : "Facility's subjective quality ranking on a scale of 1 to 5.",
+      "costS" : "Expenditure when visiting Lake Somerville (in USD)."
+   },
+   "description" : "Description\nCross-section data on the number of recreational boating trips to Lake Somerville, Texas, in 1980,  \nbased on a survey administered to 2,000 registered leisure boat owners in 23 counties in eastern Texas.",
+   "title" : "Recreation Demand Data",
+   "usage" : "data(\"RecreationDemand\")",
+   "reference" : "According to the original source (Seller, Stoll and Chavas, 1985, p. 168), the quality rating is on a scale from 1 to 5 and gives 0 for those who had not visited the lake. This explains the remarkably low mean for this variable, but also suggests that its treatment in various more recent publications is far from ideal. For consistency with other sources we handle the variable as a numerical variable, including the zeros.",
+   "format" : "A data frame containing 659 observations on 8 variables."
+}

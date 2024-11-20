@@ -1,13 +1,13 @@
 var burgerInfo ={
-   "description" : "Description\nSample burger place preferences versus gender.",
-   "usage" : "burger",
    "parameters" : {
       "gender" : "a factor with levels Female and Male",
       "best_burger_place" : "Burger place."
    },
-   "format" : "A data frame with 500 observations on the following 2 variables.",
+   "description" : "Description\nSample burger place preferences versus gender.",
+   "title" : "Burger preferences",
+   "usage" : "burger",
    "reference" : "SurveyUSA, Results of SurveyUSA News Poll #17718, data collected on\nDecember 2, 2010.",
-   "title" : "Burger preferences"
+   "format" : "A data frame with 500 observations on the following 2 variables."
 }
 
 var burger = [

@@ -1,7 +1,7 @@
 var NileInfo ={
    "format" : "A time series of length 100.",
-   "title" : "Flow of the River Nile",
    "usage" : "Nile",
+   "title" : "Flow of the River Nile",
    "description" : "Description\nMeasurements of the annual flow of the river Nile at Aswan (formerly\nAssuan), 1871&ndash;1970, in 10^8 m^3,\n&ldquo;with apparent changepoint near 1898&rdquo; (Cobb(1978), Table 1, p.249)."
 }
 

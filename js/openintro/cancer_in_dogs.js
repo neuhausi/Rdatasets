@@ -1,13 +1,13 @@
 var cancer_in_dogsInfo ={
    "description" : "Description\nA study in 1994 examined 491 dogs that had developed cancer and 945 dogs as\na control group to determine whether there is an increased risk of cancer in\ndogs that are exposed to the herbicide 2,4-Dichlorophenoxyacetic acid\n(2,4-D).",
+   "title" : "Cancer in dogs",
+   "reference" : "Hayes HM, Tarone RE, Cantor KP, Jessen CR, McCurnin DM, and\nRichardson RC. 1991. Case- Control Study of Canine Malignant Lymphoma:\nPositive Association With Dog Owner's Use of 2, 4- Dichlorophenoxyacetic\nAcid Herbicides. Journal of the National Cancer Institute 83(17):1226-1231.",
    "usage" : "cancer_in_dogs",
    "parameters" : {
-      "response" : "a factor with levels cancer and no cancer",
-      "order" : "a factor with levels 2,4-D and no 2,4-D"
+      "order" : "a factor with levels 2,4-D and no 2,4-D",
+      "response" : "a factor with levels cancer and no cancer"
    },
-   "format" : "A data frame with 1436 observations on the following 2 variables.",
-   "title" : "Cancer in dogs",
-   "reference" : "Hayes HM, Tarone RE, Cantor KP, Jessen CR, McCurnin DM, and\nRichardson RC. 1991. Case- Control Study of Canine Malignant Lymphoma:\nPositive Association With Dog Owner's Use of 2, 4- Dichlorophenoxyacetic\nAcid Herbicides. Journal of the National Cancer Institute 83(17):1226-1231."
+   "format" : "A data frame with 1436 observations on the following 2 variables."
 }
 
 var cancer_in_dogs = [

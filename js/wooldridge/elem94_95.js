@@ -1,25 +1,25 @@
 var elem94_95Info ={
+   "format" : "A data.frame with 1848 observations on 14 variables:",
+   "usage" : "data('elem94_95')",
+   "reference" : "Starting in 1995, the Michigan Department of Education stopped reporting average teacher benefits along with average salary. This data set includes both variables, at the school level, and can be used to study the salary-benefits tradeoff, as in Chapter 4. There are a few suspicious benefits/salary ratios, and so this data set makes a good illustration of the impact of outliers in Chapter 9.",
+   "title" : "elem94_95",
+   "description" : "Description\nWooldridge Source: Culled from a panel data set used by Leslie Papke in her paper âThe Effects of Spending on Test Pass Rates: Evidence from Michiganâ (2005), Journal of Public Economics 89, 821-839. Data loads lazily.",
    "parameters" : {
-      "exppp" : " expenditures per pupil",
-      "lunch" : " percent eligible, free lunch",
-      "story4" : " percent passing 4th grade reading test",
       "math4" : " percent passing 4th grade math test",
-      "avgben" : " average teacher non-salary benefits, $",
-      "distid" : " district identifier",
+      "lavgsal" : " log(avgsal)",
+      "lunch" : " percent eligible, free lunch",
+      "lstaff" : " log(staff)",
+      "exppp" : " expenditures per pupil",
+      "avgsal" : " average teacher salary, $",
+      "story4" : " percent passing 4th grade reading test",
+      "enrol" : " enrollment",
+      "lenrol" : " log(enrol)",
       "schid" : " school identifier",
       "bs" : " avgben/avgsal",
-      "enrol" : " enrollment",
+      "distid" : " district identifier",
       "staff" : " staff per 1000 students",
-      "lenrol" : " log(enrol)",
-      "lstaff" : " log(staff)",
-      "avgsal" : " average teacher salary, $",
-      "lavgsal" : " log(avgsal)"
-   },
-   "title" : "elem94_95",
-   "reference" : "Starting in 1995, the Michigan Department of Education stopped reporting average teacher benefits along with average salary. This data set includes both variables, at the school level, and can be used to study the salary-benefits tradeoff, as in Chapter 4. There are a few suspicious benefits/salary ratios, and so this data set makes a good illustration of the impact of outliers in Chapter 9.",
-   "format" : "A data.frame with 1848 observations on 14 variables:",
-   "description" : "Description\nWooldridge Source: Culled from a panel data set used by Leslie Papke in her paper âThe Effects of Spending on Test Pass Rates: Evidence from Michiganâ (2005), Journal of Public Economics 89, 821-839. Data loads lazily.",
-   "usage" : "data('elem94_95')"
+      "avgben" : " average teacher non-salary benefits, $"
+   }
 }
 
 var elem94_95 = [

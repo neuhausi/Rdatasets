@@ -1,9 +1,5 @@
 {
-   "config" : {
-      "subtitle" : "Ecdat - BudgetUK",
-      "title" : "Budget Shares of British Households",
-      "graphType" : "Heatmap"
-   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>BudgetUK</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Budget Shares of British Households </h2>\n<h3>Description</h3>\n<p>a cross-section from 1980 to 1982\n</p>\n<p><em>number of observations</em> :  1519\n</p>\n<p><em>observation</em> :  households\n</p>\n<p><em>country</em> :  United Kingdom\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(BudgetUK)</code></pre>\n<h3>Format</h3>\n<p>A dataframe containing :\n</p>\n<dl>\n<dt>wfood</dt><dd><p>budget share for food expenditure</p>\n</dd>\n<dt>wfuel</dt><dd><p>budget share for fuel expenditure</p>\n</dd>\n<dt>wcloth</dt><dd>\n<p>budget share for clothing expenditure\n</p>\n</dd>\n<dt>walc</dt><dd>\n<p>budget share for alcohol expenditure\n</p>\n</dd>\n<dt>wtrans</dt><dd>\n<p>budget share for transport expenditure\n</p>\n</dd>\n<dt>wother</dt><dd>\n<p>budget share for other good expenditure\n</p>\n</dd>\n<dt>totexp</dt><dd>\n<p>total household expenditure (rounded to \nthe nearest 10 UK pounds sterling)\n</p>\n</dd>\n<dt>income</dt><dd>\n<p>total net household income (rounded to the\nnearest 10 UK pounds sterling)\n</p>\n</dd>\n<dt>age</dt><dd><p>age of household head</p>\n</dd>\n<dt>children</dt><dd><p>number of children</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>Blundell, Richard, Alan Duncan and Krishna \nPendakur (1998) &ldquo;Semiparametric \nestimation and consumer demand&rdquo;, <em>Journal \nof Applied Econometrics</em>, <b>13(5)</b>, 435&ndash;462.\n</p>\n<h3>References</h3>\n<p>Journal of Applied Econometrics data archive : <a href=\"http://qed.econ.queensu.ca/jae/\">http://qed.econ.queensu.ca/jae/</a>.\n</p>\n<h3>See Also</h3>\n<p><code>Index.Source</code>, <code>Index.Economics</code>, <code>Index.Econometrics</code>, <code>Index.Observations</code></p>\n</main>\n</div>\n",
    "data" : {
       "y" : {
          "data" : [
@@ -15218,18 +15214,6 @@
                1
             ]
          ],
-         "vars" : [
-            "wfood",
-            "wfuel",
-            "wcloth",
-            "walc",
-            "wtrans",
-            "wother",
-            "totexp",
-            "income",
-            "age",
-            "children"
-         ],
          "smps" : [
             "Smp1",
             "Smp2",
@@ -16750,8 +16734,24 @@
             "Smp1517",
             "Smp1518",
             "Smp1519"
+         ],
+         "vars" : [
+            "wfood",
+            "wfuel",
+            "wcloth",
+            "walc",
+            "wtrans",
+            "wother",
+            "totexp",
+            "income",
+            "age",
+            "children"
          ]
       }
    },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>BudgetUK</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Budget Shares of British Households </h2>\n<h3>Description</h3>\n<p>a cross-section from 1980 to 1982\n</p>\n<p><em>number of observations</em> :  1519\n</p>\n<p><em>observation</em> :  households\n</p>\n<p><em>country</em> :  United Kingdom\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(BudgetUK)</code></pre>\n<h3>Format</h3>\n<p>A dataframe containing :\n</p>\n<dl>\n<dt>wfood</dt><dd><p>budget share for food expenditure</p>\n</dd>\n<dt>wfuel</dt><dd><p>budget share for fuel expenditure</p>\n</dd>\n<dt>wcloth</dt><dd>\n<p>budget share for clothing expenditure\n</p>\n</dd>\n<dt>walc</dt><dd>\n<p>budget share for alcohol expenditure\n</p>\n</dd>\n<dt>wtrans</dt><dd>\n<p>budget share for transport expenditure\n</p>\n</dd>\n<dt>wother</dt><dd>\n<p>budget share for other good expenditure\n</p>\n</dd>\n<dt>totexp</dt><dd>\n<p>total household expenditure (rounded to \nthe nearest 10 UK pounds sterling)\n</p>\n</dd>\n<dt>income</dt><dd>\n<p>total net household income (rounded to the\nnearest 10 UK pounds sterling)\n</p>\n</dd>\n<dt>age</dt><dd><p>age of household head</p>\n</dd>\n<dt>children</dt><dd><p>number of children</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>Blundell, Richard, Alan Duncan and Krishna \nPendakur (1998) &ldquo;Semiparametric \nestimation and consumer demand&rdquo;, <em>Journal \nof Applied Econometrics</em>, <b>13(5)</b>, 435&ndash;462.\n</p>\n<h3>References</h3>\n<p>Journal of Applied Econometrics data archive : <a href=\"http://qed.econ.queensu.ca/jae/\">http://qed.econ.queensu.ca/jae/</a>.\n</p>\n<h3>See Also</h3>\n<p><code>Index.Source</code>, <code>Index.Economics</code>, <code>Index.Econometrics</code>, <code>Index.Observations</code></p>\n</main>\n</div>\n"
+   "config" : {
+      "title" : "Budget Shares of British Households",
+      "subtitle" : "Ecdat - BudgetUK",
+      "graphType" : "Heatmap"
+   }
 }

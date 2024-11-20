@@ -1,13 +1,13 @@
 var chickwtsInfo ={
-   "reference" : "Newly hatched chicks were randomly allocated into six groups, and each\ngroup was given a different feed supplement.  Their weights in grams\nafter six weeks are given along with feed types.",
    "format" : "A data frame with 71 observations on the following 2 variables.",
+   "description" : "Description\nAn experiment was conducted to measure and compare the effectiveness\nof various feed supplements on the growth rate of chickens.",
    "title" : "Chicken Weights by Feed Type",
-   "parameters" : {
-      "weight" : "a numeric variable giving the chick weight.",
-      "feed" : "a factor giving the feed type."
-   },
    "usage" : "chickwts",
-   "description" : "Description\nAn experiment was conducted to measure and compare the effectiveness\nof various feed supplements on the growth rate of chickens."
+   "reference" : "Newly hatched chicks were randomly allocated into six groups, and each\ngroup was given a different feed supplement.  Their weights in grams\nafter six weeks are given along with feed types.",
+   "parameters" : {
+      "feed" : "a factor giving the feed type.",
+      "weight" : "a numeric variable giving the chick weight."
+   }
 }
 
 var chickwts = [

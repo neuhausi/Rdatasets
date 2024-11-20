@@ -1,44 +1,13 @@
 {
    "config" : {
-      "subtitle" : "heplots - Probe2",
-      "scatterPlotMatrix" : 1,
       "graphType" : "Scatter2D",
       "colorBy" : "stm",
-      "title" : "Response Speed in a Probe Experiment"
+      "scatterPlotMatrix" : 1,
+      "title" : "Response Speed in a Probe Experiment",
+      "subtitle" : "heplots - Probe2"
    },
    "data" : {
-      "z" : {
-         "stm" : [
-            "Low",
-            "Low",
-            "Low",
-            "Low",
-            "Low",
-            "Low",
-            "Low",
-            "Low",
-            "Low",
-            "Low",
-            "High",
-            "High",
-            "High",
-            "High",
-            "High",
-            "High",
-            "High",
-            "High",
-            "High",
-            "High"
-         ]
-      },
       "y" : {
-         "smps" : [
-            "p1",
-            "p2",
-            "p3",
-            "p4",
-            "p5"
-         ],
          "vars" : [
             "Var1",
             "Var2",
@@ -202,6 +171,37 @@
                37,
                46
             ]
+         ],
+         "smps" : [
+            "p1",
+            "p2",
+            "p3",
+            "p4",
+            "p5"
+         ]
+      },
+      "z" : {
+         "stm" : [
+            "Low",
+            "Low",
+            "Low",
+            "Low",
+            "Low",
+            "Low",
+            "Low",
+            "Low",
+            "Low",
+            "Low",
+            "High",
+            "High",
+            "High",
+            "High",
+            "High",
+            "High",
+            "High",
+            "High",
+            "High",
+            "High"
          ]
       }
    },

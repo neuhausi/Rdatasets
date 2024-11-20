@@ -1,0 +1,12 @@
+{
+   "format" : "A data frame containing 104 observations on 3 variables.",
+   "description" : "Description\nData with responses of naive mock jurors to the conventional\nconventional two-option verdict (guilt vs. acquittal) versus a\nthree-option verdict setup (the third option was the Scottish\n'not proven' alternative), in the presence/absence of conflicting\ntestimonial evidence.",
+   "title" : "Confidence of Mock Jurors in Their Verdicts",
+   "reference" : "The data were collected by Daily (2004) among first-year psychology\nstudents at Australian National University. Smithson and Verkuilen (2006)\nemployed the data scaling the original confidence (on a scale 0&ndash;100)\nto the open unit interval: ((original_confidence/100) * 103 - 0.5) / 104.",
+   "usage" : "data(\"MockJurors\", package = \"betareg\")",
+   "parameters" : {
+      "verdict" : "factor indicating whether a two-option or\nthree-option verdict is requested. (A sum contrast rather\nthan treatment contrast is employed.)",
+      "confidence" : "jurors degree of confidence in his/her verdict,\nscaled to the open unit interval (see below).",
+      "conflict" : "factor. Is there conflicting testimonial evidence?\n(A sum contrast rather than treatment contrast is employed.)"
+   }
+}

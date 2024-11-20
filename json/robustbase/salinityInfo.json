@@ -1,0 +1,13 @@
+{
+   "parameters" : {
+      "X1:" : "Lagged Salinity  (&lsquo;SALLAG&rsquo;)",
+      "X2:" : "Trend  (&lsquo;TREND&rsquo;)",
+      "X3:" : "Discharge  (&lsquo;H2OFLOW&rsquo;)",
+      "Y:" : "Salinity   (&lsquo;SALINITY&rsquo;)"
+   },
+   "title" : "Salinity Data",
+   "description" : "Description\nThis is a data set consisting of measurements of water salinity (i.e.,\nits salt concentration) and river discharge taken in North Carolina's\nPamlico Sound, recording some bi-weekly averages in March, April,\nand May from 1972 to 1977.  This dataset was listed by Ruppert and\nCarroll (1980).  In Carrol and Ruppert (1985) the physical background of the\ndata is described.  They indicated that observations 5 and 16\ncorrespond to periods of very heavy discharge and showed that the\ndiscrepant observation 5 was masked by observations 3 and 16, i.e.,\nonly after deletion of these observations it was possible to identify\nthe influential observation 5.\nThis data set is a prime example of the masking effect.",
+   "reference" : "The boot package contains another version of this salinity\ndata set, also attributed to Ruppert and Carroll (1980), but with two\nclear transcription errors, see the examples.",
+   "usage" : "data(salinity, package=\"robustbase\")",
+   "format" : "A data frame with 28 observations on the following 4 variables\n(in parentheses are the names used in the 1980 reference)."
+}

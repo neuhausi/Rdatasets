@@ -1,20 +1,20 @@
 var potteryInfo ={
    "format" : "A data frame with 45 observations on the following 9 chemicals.",
-   "title" : "Romano-British Pottery Data",
-   "reference" : "The data gives the chemical composition of \nspecimens of Romano-British pottery, determined by atomic \nabsorption spectrophotometry, for nine oxides.",
    "parameters" : {
-      "TiO2" : "titanium oxide.",
-      "Na2O" : "natrium oxide.",
-      "Al2O3" : "aluminium trioxide.",
       "BaO" : "barium oxide.",
-      "K2O" : "calium oxide.",
-      "Fe2O3" : "iron trioxide.",
-      "MnO" : "mangan oxide.",
+      "TiO2" : "titanium oxide.",
       "MgO" : "magnesium oxide.",
-      "CaO" : "calcium oxide."
+      "Al2O3" : "aluminium trioxide.",
+      "Fe2O3" : "iron trioxide.",
+      "CaO" : "calcium oxide.",
+      "MnO" : "mangan oxide.",
+      "Na2O" : "natrium oxide.",
+      "K2O" : "calium oxide."
    },
+   "title" : "Romano-British Pottery Data",
+   "description" : "Description\nChemical composition of Romano-British pottery.",
    "usage" : "data(\"pottery\")",
-   "description" : "Description\nChemical composition of Romano-British pottery."
+   "reference" : "The data gives the chemical composition of \nspecimens of Romano-British pottery, determined by atomic \nabsorption spectrophotometry, for nine oxides."
 }
 
 var pottery = [

@@ -1,25 +1,25 @@
 var airfareInfo ={
-   "title" : "airfare",
-   "reference" : "This data set nicely illustrates the different estimates obtained when applying pooled OLS, random effects, and fixed effects.",
    "format" : "A data.frame with 4596 observations on 14 variables:",
-   "parameters" : {
-      "passen" : " avg. passengers per day",
-      "y00" : " =1 if year == 2000",
-      "id" : " route identifier",
-      "bmktshr" : " fraction market, biggest carrier",
-      "lpassen" : " log(passen)",
-      "ldist" : " log(distance)",
-      "concen" : " = bmktshr",
-      "dist" : " distance, in miles",
-      "year" : " 1997, 1998, 1999, 2000",
-      "y99" : " =1 if year == 1999",
-      "y98" : " =1 if year == 1998",
-      "fare" : " avg. one-way fare, $",
-      "ldistsq" : " ldist^2",
-      "lfare" : " log(fare)"
-   },
+   "title" : "airfare",
+   "description" : "Description\nWooldridge Source: Jiyoung Kwon, a former doctoral student in economics at MSU, kindly provided these data, which she obtained from the Domestic Airline Fares Consumer Report by the U.S. Department of Transportation. Data loads lazily.",
    "usage" : "data('airfare')",
-   "description" : "Description\nWooldridge Source: Jiyoung Kwon, a former doctoral student in economics at MSU, kindly provided these data, which she obtained from the Domestic Airline Fares Consumer Report by the U.S. Department of Transportation. Data loads lazily."
+   "reference" : "This data set nicely illustrates the different estimates obtained when applying pooled OLS, random effects, and fixed effects.",
+   "parameters" : {
+      "id" : " route identifier",
+      "lpassen" : " log(passen)",
+      "fare" : " avg. one-way fare, $",
+      "bmktshr" : " fraction market, biggest carrier",
+      "dist" : " distance, in miles",
+      "y98" : " =1 if year == 1998",
+      "y00" : " =1 if year == 2000",
+      "concen" : " = bmktshr",
+      "y99" : " =1 if year == 1999",
+      "ldistsq" : " ldist^2",
+      "year" : " 1997, 1998, 1999, 2000",
+      "ldist" : " log(distance)",
+      "passen" : " avg. passengers per day",
+      "lfare" : " log(fare)"
+   }
 }
 
 var airfare = [

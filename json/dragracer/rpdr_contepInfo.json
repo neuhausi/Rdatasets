@@ -1,0 +1,19 @@
+{
+   "format" : "A data frame with the following 11 variables.",
+   "description" : "Description\nThese are episode-contestant-level data for RuPaul's Drag Race for all available seasons\n(currently through Season 14). For a given season, observations mostly decrease with\neach episode. Data include all sorts of information.",
+   "title" : "RuPaul's Drag Race Episode-Contestant Data",
+   "usage" : "rpdr_contep",
+   "parameters" : {
+      "contestant" : "a character vector for the contestant's name",
+      "outcome" : "a character vector for the outcome for the queen after the main challenge",
+      "missc" : "a dummy variable indicating if the contestant was Miss Congeniality",
+      "minichalw" : "a character vector (0,1) if the queen won a mini-challenge that episode. NOTE: this is a work in progress.\nFor now, I encourage getting the mini-challenge data from one of the other data sets.",
+      "eliminated" : "a character vector (0,1) for if the queen was eliminated/removed from the competition after the episode",
+      "rank" : "a numeric vector for the final rank of the contestant",
+      "finale" : "a numeric vector for if the episode was the finale",
+      "penultimate" : "a numeric vector for if the episode was the penultimate before the finale. Applicable to seasons 6, 7, and 8.",
+      "participant" : "a character vector (0,1) for if the queen was a participant in the show",
+      "episode" : "a numeric vector for the episode number",
+      "season" : "a character vector for the season"
+   }
+}

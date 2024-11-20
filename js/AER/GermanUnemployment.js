@@ -1,13 +1,13 @@
 var GermanUnemploymentInfo ={
+   "description" : "Description\nTime series of unemployment rate (in percent) in Germany.",
+   "title" : "Unemployment in Germany Data",
+   "usage" : "data(\"GermanUnemployment\")",
+   "reference" : "Online complements to Franses (1998).",
    "parameters" : {
       "adjusted" : "Seasonally adjusted rate.",
       "unadjusted" : "Raw unemployment rate,"
    },
-   "title" : "Unemployment in Germany Data",
-   "reference" : "Online complements to Franses (1998).",
-   "format" : "A quarterly multiple time series from 1962(1) to 1991(4) with 2 variables.",
-   "description" : "Description\nTime series of unemployment rate (in percent) in Germany.",
-   "usage" : "data(\"GermanUnemployment\")"
+   "format" : "A quarterly multiple time series from 1962(1) to 1991(4) with 2 variables."
 }
 
 var GermanUnemployment = [

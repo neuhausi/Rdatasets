@@ -1,0 +1,12 @@
+{
+   "format" : "A data frame with 60 observations on the following 3 variables.",
+   "parameters" : {
+      "gender" : "Gender",
+      "year" : "Year",
+      "time" : "Running time (in hours)"
+   },
+   "usage" : "marathon",
+   "reference" : "Data source has been removed.",
+   "title" : "New York City Marathon Times (outdated)",
+   "description" : "Description\nMarathon times of male and female winners of the New York City Marathon\n1970-1999. See nyc_marathon for a more updated dataset. We recommend not\nusing this dataset since the data source has been taken off the web."
+}

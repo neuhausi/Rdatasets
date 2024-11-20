@@ -1,12 +1,12 @@
 var AddHealthInfo ={
    "parameters" : {
       "grade" : "an ordered factor with levels 7 <\n8 < 9 < 10 < 11 < 12",
-      "anxiety" : "a numeric vector",
-      "depression" : "a numeric vector"
+      "depression" : "a numeric vector",
+      "anxiety" : "a numeric vector"
    },
+   "title" : "Adolescent Mental Health Data",
    "description" : "Description\nThis data was taken from the National Longitudinal Study of Adolescent\nHealth.  It is a cross-sectional sample of participants from grades 7&ndash;12,\ndescribed and analyzed by Warne (2014).",
    "usage" : "A data frame with 4344 observations on the following 3 variables.",
-   "title" : "Adolescent Mental Health Data",
    "reference" : "depression is the response to the question \"In the last month, how\noften did you feel depressed or blue?\""
 }
 

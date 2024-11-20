@@ -1,0 +1,13 @@
+{
+   "parameters" : {
+      "distance" : "the distance from the seismological measuring station to the\nepicenter of the earthquake (km).",
+      "soil" : "a factor with levels 0 and 1\ngiving the soil condition at the measuring station, either\nsoil or rock.",
+      "Quake" : "an ordered factor with levels\n20 < 16 < 14 < 10 < 3 <\n8 < 23 < 22 < 6 < 13 <\n7 < 21 < 18 < 15 < 4 <\n12 < 19 < 5 < 9 < 1 <\n2 < 17 < 11 indicating the earthquake\non which the measurements were made.",
+      "Richter" : "a numeric vector giving the intensity of the earthquake on\nthe Richter scale.",
+      "accel" : "maximum horizontal acceleration observed (g)."
+   },
+   "reference" : "Measurements recorded at available seismometer locations for 23\nlarge earthquakes in western North America between 1940 and 1980.\nThey were originally given in Joyner and Boore (1981); are\nmentioned in Brillinger (1987); and are analyzed in Davidian\nand Giltinan (1995).",
+   "usage" : "This data frame contains the following columns:",
+   "description" : "Description\nThe Earthquake data frame has 182 rows and 5 columns.",
+   "title" : "Earthquake Intensity"
+}

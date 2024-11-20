@@ -1,7 +1,7 @@
 var FluorescenceInfo ={
-   "description" : "Description\nData from an experiment on calcium binding to proteins",
    "usage" : "A data frame with 51 observations on the following 2 variables.",
-   "title" : "Measuring Calcium Binding to Proteins"
+   "title" : "Measuring Calcium Binding to Proteins",
+   "description" : "Description\nData from an experiment on calcium binding to proteins"
 }
 
 var Fluorescence = [

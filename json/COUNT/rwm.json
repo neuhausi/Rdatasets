@@ -1,6 +1,19 @@
 {
+   "config" : {
+      "title" : "rwm",
+      "scatterPlotMatrix" : 1,
+      "subtitle" : "COUNT - rwm",
+      "graphType" : "Scatter2D"
+   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>rwm</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>rwm</h2>\n<h3>Description</h3>\n<p>German health registry for the years 1984-1988. Health information for \nyears prior to health reform. \n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(rwm)</code></pre>\n<h3>Format</h3>\n<p>A data frame with 27,326 observations on the following 4 variables.\n</p>\n<dl>\n<dt><code>docvis</code></dt><dd><p>number of visits to doctor during year (0-121)</p>\n</dd>\n<dt><code>age</code></dt><dd><p>age: 25-64</p>\n</dd>\n<dt><code>educ</code></dt><dd><p>years of formal education (7-18)</p>\n</dd>\n<dt><code>hhninc</code></dt><dd><p>household yearly income in DM/1000)</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>rwm is saved as a data frame.\nCount models typically use docvis as response variable. 0 counts are included\n</p>\n<h3>Source</h3>\n<p>German Health Reform Registry, years pre-reform 1984-1988, \nFrom Hilbe and Greene (2008)\n</p>\n<h3>References</h3>\n<p>Hilbe, Joseph M (2011), Negative Binomial Regression, Cambridge University Press\nHilbe, J.M. and W.H. Greene (2008), &quot;Count Response Regression Models&quot;, in Rao, CR, \nJP Miller and DC Rao (eds), Handbook of Statistics 27: Epidemiology and Medical \nStatistics, Amsterdam: Elsevier.  pp. 210-252.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>data(rwm)\nglmrwp &lt;- glm(docvis ~ age + educ + hhninc, family=poisson, data=rwm)\nsummary(glmrwp)\nexp(coef(glmrwp))\nlibrary(MASS)\nglmrwnb &lt;- glm.nb(docvis ~ age + educ + hhninc, data=rwm)\nsummary(glmrwnb)\nexp(coef(glmrwnb))\n</code></pre>\n</main>\n</div>\n",
    "data" : {
       "y" : {
+         "smps" : [
+            "docvis",
+            "age",
+            "educ",
+            "hhninc"
+         ],
          "data" : [
             [
                1,
@@ -191286,20 +191299,7 @@
             "Var27324",
             "Var27325",
             "Var27326"
-         ],
-         "smps" : [
-            "docvis",
-            "age",
-            "educ",
-            "hhninc"
          ]
       }
-   },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>rwm</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>rwm</h2>\n<h3>Description</h3>\n<p>German health registry for the years 1984-1988. Health information for \nyears prior to health reform. \n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(rwm)</code></pre>\n<h3>Format</h3>\n<p>A data frame with 27,326 observations on the following 4 variables.\n</p>\n<dl>\n<dt><code>docvis</code></dt><dd><p>number of visits to doctor during year (0-121)</p>\n</dd>\n<dt><code>age</code></dt><dd><p>age: 25-64</p>\n</dd>\n<dt><code>educ</code></dt><dd><p>years of formal education (7-18)</p>\n</dd>\n<dt><code>hhninc</code></dt><dd><p>household yearly income in DM/1000)</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>rwm is saved as a data frame.\nCount models typically use docvis as response variable. 0 counts are included\n</p>\n<h3>Source</h3>\n<p>German Health Reform Registry, years pre-reform 1984-1988, \nFrom Hilbe and Greene (2008)\n</p>\n<h3>References</h3>\n<p>Hilbe, Joseph M (2011), Negative Binomial Regression, Cambridge University Press\nHilbe, J.M. and W.H. Greene (2008), &quot;Count Response Regression Models&quot;, in Rao, CR, \nJP Miller and DC Rao (eds), Handbook of Statistics 27: Epidemiology and Medical \nStatistics, Amsterdam: Elsevier.  pp. 210-252.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>data(rwm)\nglmrwp &lt;- glm(docvis ~ age + educ + hhninc, family=poisson, data=rwm)\nsummary(glmrwp)\nexp(coef(glmrwp))\nlibrary(MASS)\nglmrwnb &lt;- glm.nb(docvis ~ age + educ + hhninc, data=rwm)\nsummary(glmrwnb)\nexp(coef(glmrwnb))\n</code></pre>\n</main>\n</div>\n",
-   "config" : {
-      "subtitle" : "COUNT - rwm",
-      "scatterPlotMatrix" : 1,
-      "title" : "rwm",
-      "graphType" : "Scatter2D"
    }
 }

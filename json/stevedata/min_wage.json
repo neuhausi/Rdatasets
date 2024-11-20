@@ -2,40 +2,14 @@
    "config" : {
       "graphType" : "Boxplot",
       "colorBy" : "variable",
-      "title" : "History of Federal Minimum Wage Rates Under the Fair Labor Standards Act",
+      "subtitle" : "stevedata - min_wage",
       "groupingFactors" : [
          "date"
       ],
-      "subtitle" : "stevedata - min_wage"
+      "title" : "History of Federal Minimum Wage Rates Under the Fair Labor Standards Act"
    },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>min_wage</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>History of Federal Minimum Wage Rates Under the Fair Labor Standards Act, 1938-2009</h2>\n<h3>Description</h3>\n<p>A data set on the various federal minimum wage rates.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>min_wage\n</code></pre>\n<h3>Format</h3>\n<p>A data frame with 23 observations on the following 5 variables.\n</p>\n<dl>\n<dt><code>date</code></dt><dd><p>a date for when a new minimum wage was introduced</p>\n</dd>\n<dt><code>wage</code></dt><dd><p>the (nominal) value of the wage</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>Data come from the Department of Labor. Wages are taken from wage adjustments\nfrom the 1938 act.\n</p>\n<h3>Source</h3>\n<p>Department of Labor\n</p>\n</main>\n</div>\n",
    "data" : {
-      "x" : {
-         "date" : [
-            "1938-10-24",
-            "1939-10-24",
-            "1945-10-24",
-            "1950-01-25",
-            "1956-03-01",
-            "1961-09-03",
-            "1963-09-03",
-            "1967-02-01",
-            "1968-02-01",
-            "1974-05-01",
-            "1975-01-01",
-            "1976-01-01",
-            "1978-01-01",
-            "1979-01-01",
-            "1980-01-01",
-            "1981-01-01",
-            "1990-04-01",
-            "1991-04-01",
-            "1996-10-01",
-            "1997-09-01",
-            "2007-07-24",
-            "2008-07-24",
-            "2009-07-24"
-         ]
-      },
       "y" : {
          "smps" : [
             "Smp1",
@@ -61,9 +35,6 @@
             "Smp21",
             "Smp22",
             "Smp23"
-         ],
-         "vars" : [
-            "wage"
          ],
          "data" : [
             [
@@ -91,8 +62,37 @@
                6.55,
                7.25
             ]
+         ],
+         "vars" : [
+            "wage"
+         ]
+      },
+      "x" : {
+         "date" : [
+            "1938-10-24",
+            "1939-10-24",
+            "1945-10-24",
+            "1950-01-25",
+            "1956-03-01",
+            "1961-09-03",
+            "1963-09-03",
+            "1967-02-01",
+            "1968-02-01",
+            "1974-05-01",
+            "1975-01-01",
+            "1976-01-01",
+            "1978-01-01",
+            "1979-01-01",
+            "1980-01-01",
+            "1981-01-01",
+            "1990-04-01",
+            "1991-04-01",
+            "1996-10-01",
+            "1997-09-01",
+            "2007-07-24",
+            "2008-07-24",
+            "2009-07-24"
          ]
       }
-   },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>min_wage</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>History of Federal Minimum Wage Rates Under the Fair Labor Standards Act, 1938-2009</h2>\n<h3>Description</h3>\n<p>A data set on the various federal minimum wage rates.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>min_wage\n</code></pre>\n<h3>Format</h3>\n<p>A data frame with 23 observations on the following 5 variables.\n</p>\n<dl>\n<dt><code>date</code></dt><dd><p>a date for when a new minimum wage was introduced</p>\n</dd>\n<dt><code>wage</code></dt><dd><p>the (nominal) value of the wage</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>Data come from the Department of Labor. Wages are taken from wage adjustments\nfrom the 1938 act.\n</p>\n<h3>Source</h3>\n<p>Department of Labor\n</p>\n</main>\n</div>\n"
+   }
 }

@@ -1,0 +1,6 @@
+{
+   "format" : "A data frame containing 161 observations on 14 variables:",
+   "description" : "Description\nVersion of the Barro Growth Data used in Koenker and Machado(1999).\nThis is a regression data set consisting of 161 observations on determinants\nof cross country GDP growth rates. There are 13 covariates with dimnames\ncorresponding to the original Barro and Lee source.  See\nhttps://www.nber.org/pub/barro.lee/.  The first 71 observations are on\nthe period 1965-75, remainder on 1987-85.",
+   "title" : "Barro Data",
+   "usage" : "data(barro)"
+}

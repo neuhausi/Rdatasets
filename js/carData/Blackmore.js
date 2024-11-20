@@ -1,15 +1,15 @@
 var BlackmoreInfo ={
    "title" : "Exercise Histories of Eating-Disordered and Control Subjects",
-   "format" : "This data frame contains the following columns:",
+   "description" : "Description\nThe Blackmore data frame has 945 rows and 4 columns.\nBlackmore and Davis's data on exercise histories of 138 teenaged\ngirls hospitalized for eating disorders and 98 control subjects.",
    "reference" : "Personal communication from Elizabeth Blackmore and Caroline Davis,\nYork University.",
-   "parameters" : {
-      "group" : "a factor with levels:\ncontrol, Control subjects;\npatient, Eating-disordered patients.",
-      "subject" : "a factor with subject id codes.  There are several observations for each subject, but because the girls were hospitalized at different ages, the number of cases and the age at the last case vary.",
-      "age" : "subject's  age  in  years  at  the  time  of  observation;  all  but  the  last observation for each subject were collected retrospectively at intervals of two years, starting at age 8.",
-      "exercise" : "the amount of exercise in which the subject engaged, expressed as estimated hours per week."
-   },
    "usage" : "Blackmore",
-   "description" : "Description\nThe Blackmore data frame has 945 rows and 4 columns.\nBlackmore and Davis's data on exercise histories of 138 teenaged\ngirls hospitalized for eating disorders and 98 control subjects."
+   "parameters" : {
+      "subject" : "a factor with subject id codes.  There are several observations for each subject, but because the girls were hospitalized at different ages, the number of cases and the age at the last case vary.",
+      "exercise" : "the amount of exercise in which the subject engaged, expressed as estimated hours per week.",
+      "group" : "a factor with levels:\ncontrol, Control subjects;\npatient, Eating-disordered patients.",
+      "age" : "subject's  age  in  years  at  the  time  of  observation;  all  but  the  last observation for each subject were collected retrospectively at intervals of two years, starting at age 8."
+   },
+   "format" : "This data frame contains the following columns:"
 }
 
 var Blackmore = [

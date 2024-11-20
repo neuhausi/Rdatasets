@@ -1,72 +1,18 @@
 {
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>BeeStings</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Do Bee Stings Depend on Previous Stings?</h2>\n<h3>Description</h3>\n<p>Data from an experiment to see it the number of bee stings depends on previous stings.\n</p>\n<h3>Format</h3>\n<p>A data frame with 18 observations on the following 3 variables.\n</p>\n<table>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Occasion</code> </td><td style=\"text-align: left;\"> Trial: I to IX</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Treatment</code> </td><td style=\"text-align: left;\"> <code>Fresh</code> or <code>Stung</code></td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Stingers</code> </td><td style=\"text-align: left;\"> Number of stingers</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n  </td>\n</tr>\n</table>\n<h3>Details</h3>\n<p>If you are stung by a bee, does that make you more likely to get stung again? Might bees leave\nbehind a chemical message that tells other bees to attack you? To test this hypothesis, scientists\ndangled a 4x4 array of 16 muslin-wrapped cotton balls over a beehive.\nEight of 16 balls had been previously stung; the other eight were\nfresh. The response was the total number of new stingers left behind by the bees.\nThe process was repeated for a total of nine trials.\n</p>\n<p>Used in first edition, but not second edition.\n</p>\n<h3>Source</h3>\n<p>Free, J.B. (1961) &quot;The stinging response of honeybees,&quot; Animal Behavior, Vol. 9, pp 193-196.\n</p>\n</main>\n</div>\n",
+   "config" : {
+      "segregateSamplesBy" : [
+         "Treatment"
+      ],
+      "title" : "Do Bee Stings Depend on Previous Stings?",
+      "groupingFactors" : [
+         "Occasion"
+      ],
+      "subtitle" : "Stat2Data - BeeStings",
+      "colorBy" : "variable",
+      "graphType" : "Boxplot"
+   },
    "data" : {
-      "x" : {
-         "Treatment" : [
-            "Stung",
-            "Stung",
-            "Stung",
-            "Stung",
-            "Stung",
-            "Stung",
-            "Stung",
-            "Stung",
-            "Stung",
-            "Fresh",
-            "Fresh",
-            "Fresh",
-            "Fresh",
-            "Fresh",
-            "Fresh",
-            "Fresh",
-            "Fresh",
-            "Fresh"
-         ],
-         "Occasion" : [
-            "I",
-            "II",
-            "III",
-            "IV",
-            "V",
-            "VI",
-            "VII",
-            "VIII",
-            "IX",
-            "I",
-            "II",
-            "III",
-            "IV",
-            "V",
-            "VI",
-            "VII",
-            "VIII",
-            "IX"
-         ]
-      },
       "y" : {
-         "vars" : [
-            "Stingers"
-         ],
-         "smps" : [
-            "Smp1",
-            "Smp2",
-            "Smp3",
-            "Smp4",
-            "Smp5",
-            "Smp6",
-            "Smp7",
-            "Smp8",
-            "Smp9",
-            "Smp10",
-            "Smp11",
-            "Smp12",
-            "Smp13",
-            "Smp14",
-            "Smp15",
-            "Smp16",
-            "Smp17",
-            "Smp18"
-         ],
          "data" : [
             [
                27,
@@ -88,19 +34,73 @@
                15,
                10
             ]
+         ],
+         "smps" : [
+            "Smp1",
+            "Smp2",
+            "Smp3",
+            "Smp4",
+            "Smp5",
+            "Smp6",
+            "Smp7",
+            "Smp8",
+            "Smp9",
+            "Smp10",
+            "Smp11",
+            "Smp12",
+            "Smp13",
+            "Smp14",
+            "Smp15",
+            "Smp16",
+            "Smp17",
+            "Smp18"
+         ],
+         "vars" : [
+            "Stingers"
+         ]
+      },
+      "x" : {
+         "Occasion" : [
+            "I",
+            "II",
+            "III",
+            "IV",
+            "V",
+            "VI",
+            "VII",
+            "VIII",
+            "IX",
+            "I",
+            "II",
+            "III",
+            "IV",
+            "V",
+            "VI",
+            "VII",
+            "VIII",
+            "IX"
+         ],
+         "Treatment" : [
+            "Stung",
+            "Stung",
+            "Stung",
+            "Stung",
+            "Stung",
+            "Stung",
+            "Stung",
+            "Stung",
+            "Stung",
+            "Fresh",
+            "Fresh",
+            "Fresh",
+            "Fresh",
+            "Fresh",
+            "Fresh",
+            "Fresh",
+            "Fresh",
+            "Fresh"
          ]
       }
    },
-   "config" : {
-      "groupingFactors" : [
-         "Treatment"
-      ],
-      "graphType" : "Boxplot",
-      "colorBy" : "variable",
-      "subtitle" : "Stat2Data - BeeStings",
-      "segregateSamplesBy" : [
-         "Occasion"
-      ],
-      "title" : "Do Bee Stings Depend on Previous Stings?"
-   }
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>BeeStings</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Do Bee Stings Depend on Previous Stings?</h2>\n<h3>Description</h3>\n<p>Data from an experiment to see it the number of bee stings depends on previous stings.\n</p>\n<h3>Format</h3>\n<p>A data frame with 18 observations on the following 3 variables.\n</p>\n<table>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Occasion</code> </td><td style=\"text-align: left;\"> Trial: I to IX</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Treatment</code> </td><td style=\"text-align: left;\"> <code>Fresh</code> or <code>Stung</code></td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Stingers</code> </td><td style=\"text-align: left;\"> Number of stingers</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n  </td>\n</tr>\n</table>\n<h3>Details</h3>\n<p>If you are stung by a bee, does that make you more likely to get stung again? Might bees leave\nbehind a chemical message that tells other bees to attack you? To test this hypothesis, scientists\ndangled a 4x4 array of 16 muslin-wrapped cotton balls over a beehive.\nEight of 16 balls had been previously stung; the other eight were\nfresh. The response was the total number of new stingers left behind by the bees.\nThe process was repeated for a total of nine trials.\n</p>\n<p>Used in first edition, but not second edition.\n</p>\n<h3>Source</h3>\n<p>Free, J.B. (1961) &quot;The stinging response of honeybees,&quot; Animal Behavior, Vol. 9, pp 193-196.\n</p>\n</main>\n</div>\n"
 }

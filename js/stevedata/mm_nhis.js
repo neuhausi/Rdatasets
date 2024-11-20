@@ -1,21 +1,21 @@
 var mm_nhisInfo ={
+   "format" : "A data frame with 18790 observations on the following 10 variables.",
    "parameters" : {
-      "hi" : "a numeric vector for whether respondent has at least some health insurance",
-      "hlth" : "a numeric vector for a health index, broadly understood",
-      "nwhite" : "is the respondent not white?",
       "famsize" : "the size of the respondent's family",
+      "perweight" : "a numeric vector for weight",
+      "inc" : "the respondent's household/family income",
+      "hi" : "a numeric vector for whether respondent has at least some health insurance",
+      "age" : "the respondent's age in years",
+      "nwhite" : "is the respondent not white?",
+      "empl" : "is the respondent employed",
       "fml" : "is the respondent a woman?",
       "yedu" : "the respondent's total years of education",
-      "inc" : "the respondent's household/family income",
-      "empl" : "is the respondent employed",
-      "perweight" : "a numeric vector for weight",
-      "age" : "the respondent's age in years"
+      "hlth" : "a numeric vector for a health index, broadly understood"
    },
-   "title" : "Data from the 2009 National Health Interview Survey (NHIS)",
-   "reference" : "Data are already cleaned in a way that facilitates an easy\nreplication of Table 1.1 in Mastering 'Metrics. Check\nthe book's website for more information.",
-   "format" : "A data frame with 18790 observations on the following 10 variables.",
    "description" : "Description\nThese are data from the 2009 NHIS survey. People who have read\nMastering 'Metrics should recognize these data. They're\nfeatured prominently in that book and the authors' discussion of\nrandom assignment and experiments.",
-   "usage" : "mm_nhis"
+   "title" : "Data from the 2009 National Health Interview Survey (NHIS)",
+   "usage" : "mm_nhis",
+   "reference" : "Data are already cleaned in a way that facilitates an easy\nreplication of Table 1.1 in Mastering 'Metrics. Check\nthe book's website for more information."
 }
 
 var mm_nhis = [

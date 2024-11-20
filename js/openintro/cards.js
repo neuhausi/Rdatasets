@@ -1,15 +1,15 @@
 var cardsInfo ={
+   "usage" : "cards",
+   "reference" : "table(cards$value)\ntable(cards$color)\ntable(cards$suit)\ntable(cards$face)\ntable(cards$suit, cards$face)",
+   "description" : "Description\nAll the cards in a standard deck.",
+   "title" : "Deck of cards",
    "parameters" : {
+      "suit" : "a factor with levels Club Diamond Heart Spade",
       "value" : "a factor with levels 10 2 3 4\n5 6 7 8 9 A J K\nQ",
       "color" : "a factor with levels black red",
-      "suit" : "a factor with levels Club Diamond Heart Spade",
       "face" : "a logical vector"
    },
-   "reference" : "table(cards$value)\ntable(cards$color)\ntable(cards$suit)\ntable(cards$face)\ntable(cards$suit, cards$face)",
-   "format" : "A data frame with 52 observations on the following 4 variables.",
-   "title" : "Deck of cards",
-   "description" : "Description\nAll the cards in a standard deck.",
-   "usage" : "cards"
+   "format" : "A data frame with 52 observations on the following 4 variables."
 }
 
 var cards = [

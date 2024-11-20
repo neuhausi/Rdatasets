@@ -1,20 +1,20 @@
 var ForwardInfo ={
+   "title" : "Exchange Rates of US Dollar Against Other Currencies",
    "description" : "Description\nmonthly observations from 1979&ndash;01 to 2001&ndash;12\nnumber of observations :  276",
+   "reference" : "Datastream",
    "usage" : "data(Forward)",
    "parameters" : {
+      "usdbp" : "exchange rate USD/British Pound Sterling",
+      "usdeuro3" : "month forward rate USD/Euro",
+      "eurobp" : "exchange rate Euro/Pound",
       "eurobp1" : "1 month forward rate Euro/Pound",
       "usdbp3" : "3 month forward rate USD/Pound",
       "usdeuro1" : "1 month forward rate USD/Euro",
-      "usdbp1" : "1 month forward rate USD/Pound",
-      "usdeuro3" : "month forward rate USD/Euro",
-      "eurobp3" : "month forward rate Euro/Pound",
       "usdeuro" : "exchange rate US D/Euro",
-      "usdbp" : "exchange rate USD/British Pound Sterling",
-      "eurobp" : "exchange rate Euro/Pound"
+      "eurobp3" : "month forward rate Euro/Pound",
+      "usdbp1" : "1 month forward rate USD/Pound"
    },
-   "title" : "Exchange Rates of US Dollar Against Other Currencies",
-   "format" : "A time series containing :",
-   "reference" : "Datastream"
+   "format" : "A time series containing :"
 }
 
 var Forward = [

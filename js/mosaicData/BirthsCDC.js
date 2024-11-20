@@ -1,19 +1,19 @@
 var BirthsCDCInfo ={
    "parameters" : {
-      "wday" : "Day of week (ordered factor)",
-      "month" : "Month (integer)",
+      "day_of_week" : "Day of week (integer)",
       "year" : "Year (integer)",
       "day_of_year" : "Day of year (integer)",
-      "day_of_month" : "Day of month (integer)",
+      "wday" : "Day of week (ordered factor)",
+      "births" : "Number of births on date (integer)",
+      "month" : "Month (integer)",
       "date" : "Date",
-      "day_of_week" : "Day of week (integer)",
-      "births" : "Number of births on date (integer)"
+      "day_of_month" : "Day of month (integer)"
    },
-   "title" : "US Births",
-   "format" : "A data.frame with the following 8 variables.",
+   "usage" : "data(Births)\n\ndata(Births78)\n\ndata(Births2015)\n\ndata(BirthsSSA)\n\ndata(BirthsCDC)",
    "reference" : "There are some overlapping dates in the various data sets, but the number of births does not always agree\ndue to the different sources of the data.\nSee the examples.",
    "description" : "Description\nNumber of births in the United States.\nThere are several data sets covering different date ranges and obtaining data from different sources.",
-   "usage" : "data(Births)\n\ndata(Births78)\n\ndata(Births2015)\n\ndata(BirthsSSA)\n\ndata(BirthsCDC)"
+   "title" : "US Births",
+   "format" : "A data.frame with the following 8 variables."
 }
 
 var BirthsCDC = [

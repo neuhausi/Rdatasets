@@ -1,13 +1,13 @@
 var fakeLogitInfo ={
    "parameters" : {
-      "x" : "a five-item functionally ordered categorical variable",
-      "y" : "a binary variable that is either 0 or 1"
+      "y" : "a binary variable that is either 0 or 1",
+      "x" : "a five-item functionally ordered categorical variable"
    },
-   "title" : "Fake Data for a Logistic Regression",
-   "format" : "A data frame with 10000 observations on the following 2 variables.",
-   "reference" : "The data are generated such that the outcome y is a logistic\nfunction of the x variable and come from a rbinom() call. The\nestimated natural logged odds of y when x is 0 is -2.8. Each\nunit increase in x is simulated to increase the natural logged odds of\ny by 1.4. This example is very much patterned off a similar fake data\nset that Pollock (2012) uses to teach about logistic regression. In his case,\nx is a stand-in for hypothetical education categories and y is\nwhether this fake person voted or not.",
    "description" : "Description\nThis is a simple fake data set to illustrate a logistic regression.",
-   "usage" : "fakeLogit"
+   "title" : "Fake Data for a Logistic Regression",
+   "reference" : "The data are generated such that the outcome y is a logistic\nfunction of the x variable and come from a rbinom() call. The\nestimated natural logged odds of y when x is 0 is -2.8. Each\nunit increase in x is simulated to increase the natural logged odds of\ny by 1.4. This example is very much patterned off a similar fake data\nset that Pollock (2012) uses to teach about logistic regression. In his case,\nx is a stand-in for hypothetical education categories and y is\nwhether this fake person voted or not.",
+   "usage" : "fakeLogit",
+   "format" : "A data frame with 10000 observations on the following 2 variables."
 }
 
 var fakeLogit = [

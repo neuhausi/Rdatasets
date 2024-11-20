@@ -4,13 +4,16 @@
          null
       ],
       "subtitle" : "datasets - islands",
-      "graphType" : "Boxplot",
       "title" : "Areas of the World's Major Landmasses",
-      "colorBy" : "variable"
+      "colorBy" : "variable",
+      "graphType" : "Boxplot"
    },
    "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>islands</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Areas of the World's Major Landmasses</h2>\n<h3>Description</h3>\n<p>The areas in thousands of square miles of the landmasses which exceed\n10,000 square miles.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>islands</code></pre>\n<h3>Format</h3>\n<p>A named vector of length 48.</p>\n<h3>Source</h3>\n<p>The World Almanac and Book of Facts, 1975, page 406.</p>\n<h3>References</h3>\n<p>McNeil, D. R. (1977)\n<em>Interactive Data Analysis</em>.\nWiley.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>require(graphics)\ndotchart(log(islands, 10),\n   main = \"islands data: log10(area) (log10(sq. miles))\")\ndotchart(log(islands[order(islands)], 10),\n   main = \"islands data: log10(area) (log10(sq. miles))\")\n</code></pre>\n</main>\n</div>\n",
    "data" : {
       "y" : {
+         "vars" : [
+            "dat"
+         ],
          "data" : [
             [
                11506,
@@ -112,9 +115,6 @@
             "Timor",
             "Vancouver",
             "Victoria"
-         ],
-         "vars" : [
-            "dat"
          ]
       }
    }

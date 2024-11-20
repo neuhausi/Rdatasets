@@ -1,8 +1,8 @@
 var souvenirsInfo ={
    "description" : "Description\nMonthly sales for a souvenir shop on the wharf at a beach resort town in Queensland, Australia.",
-   "format" : "Makridakis, Wheelwright and Hyndman (1998) *Forecasting: methods and applications*, John Wiley & Sons: New York. Exercise 5.8.",
    "title" : "Sales for a souvenir shop",
-   "usage" : "Monthly time series of class 'tsibble'."
+   "usage" : "Monthly time series of class 'tsibble'.",
+   "format" : "Makridakis, Wheelwright and Hyndman (1998) *Forecasting: methods and applications*, John Wiley & Sons: New York. Exercise 5.8."
 }
 
 var souvenirs = [

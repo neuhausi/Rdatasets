@@ -1,20 +1,7 @@
 {
-   "config" : {
-      "graphType" : "Heatmap",
-      "title" : "Delay in AIDS Reporting in England and Wales",
-      "subtitle" : "boot - aids"
-   },
    "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>aids</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>\nDelay in AIDS Reporting in England and Wales\n</h2>\n<h3>Description</h3>\n<p>The <code>aids</code> data frame has 570 rows and 6 columns.\n</p>\n<p>Although all cases of AIDS in England and Wales must be reported to the\nCommunicable Disease Surveillance Centre, there is often a considerable delay\nbetween the time of diagnosis and the time that it is reported.  In estimating\nthe prevalence of AIDS, account must be taken of the unknown number of cases\nwhich have been diagnosed but not reported.  The data set here records the\nreported cases of AIDS diagnosed from July 1983 and until the end of 1992.  \nThe data are cross-classified by the date of diagnosis and the time delay in \nthe reporting of the cases.  \n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>aids\n</code></pre>\n<h3>Format</h3>\n<p>This data frame contains the following columns:\n</p>\n<dl>\n<dt><code>year</code></dt><dd>\n<p>The year of the diagnosis.\n</p>\n</dd>\n<dt><code>quarter</code></dt><dd>\n<p>The quarter of the year in which diagnosis was made.\n</p>\n</dd>\n<dt><code>delay</code></dt><dd>\n<p>The time delay (in months) between diagnosis and reporting. 0 means that the\ncase was reported within one month.  Longer delays are grouped in 3 month\nintervals and the value of <code>delay</code> is the midpoint of the interval (therefore\na value of <code>2</code> indicates that reporting was delayed for between 1 and 3 \nmonths).\n</p>\n</dd>\n<dt><code>dud</code></dt><dd>\n<p>An indicator of censoring. These are categories for which full information is\nnot yet available and the number recorded is a lower bound only.\n</p>\n</dd>\n<dt><code>time</code></dt><dd>\n<p>The time interval of the diagnosis. That is the number of quarters from July\n1983 until the end of the quarter in which these cases were diagnosed.\n</p>\n</dd>\n<dt><code>y</code></dt><dd>\n<p>The number of AIDS cases reported.\n</p>\n</dd></dl>\n<h3>Source</h3>\n<p>The data were obtained from\n</p>\n<p>De Angelis, D. and Gilks, W.R. (1994) Estimating acquired immune\ndeficiency syndrome accounting for reporting delay.\n<em>Journal of the Royal Statistical Society, A</em>, <b>157</b>, 31&ndash;40.\n</p>\n<h3>References</h3>\n<p>Davison, A.C. and Hinkley, D.V. (1997)\n<em>Bootstrap Methods and Their Application</em>.\nCambridge University Press.\n</p>\n</main>\n</div>\n",
    "data" : {
       "y" : {
-         "vars" : [
-            "year",
-            "quarter",
-            "delay",
-            "dud",
-            "time",
-            "y"
-         ],
          "smps" : [
             "Smp1",
             "Smp2",
@@ -4020,7 +4007,20 @@
                0,
                0
             ]
+         ],
+         "vars" : [
+            "year",
+            "quarter",
+            "delay",
+            "dud",
+            "time",
+            "y"
          ]
       }
+   },
+   "config" : {
+      "title" : "Delay in AIDS Reporting in England and Wales",
+      "subtitle" : "boot - aids",
+      "graphType" : "Heatmap"
    }
 }

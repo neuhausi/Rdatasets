@@ -1,8 +1,8 @@
 var FormaldehydeInfo ={
-   "description" : "Description\nThese data are from a chemical experiment to prepare a standard curve\nfor the determination of formaldehyde by the addition of chromotropic\nacid and concentrated sulphuric acid and the reading of the resulting\npurple color on a spectrophotometer.",
+   "format" : "A data frame with 6 observations on 2 variables.",
    "usage" : "Formaldehyde",
    "title" : "Determination of Formaldehyde",
-   "format" : "A data frame with 6 observations on 2 variables."
+   "description" : "Description\nThese data are from a chemical experiment to prepare a standard curve\nfor the determination of formaldehyde by the addition of chromotropic\nacid and concentrated sulphuric acid and the reading of the resulting\npurple color on a spectrophotometer."
 }
 
 var Formaldehyde = [

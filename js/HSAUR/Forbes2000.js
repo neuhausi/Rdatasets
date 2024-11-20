@@ -1,19 +1,19 @@
 var Forbes2000Info ={
+   "description" : "Description\nThe Forbes 2000 list is a ranking of the world's biggest\ncompanies, measured by sales, profits, assets and market\nvalue.",
+   "title" : "The Forbes 2000 Ranking of the World's Biggest Companies (Year 2004)",
+   "usage" : "data(\"Forbes2000\")",
+   "reference" : "https://www.forbes.com, assessed on November 26th, 2004.",
    "parameters" : {
       "profits" : "the profit of the company in billion USD.",
-      "name" : "the name of the company.",
-      "country" : "a factor giving the country the company is situated in.",
-      "sales" : "the amount of sales of the company in billion USD.",
-      "rank" : "the ranking of the company.",
+      "marketvalue" : "the market value of the company in billion USD.",
       "category" : "a factor describing the products the company produces.",
       "assets" : "the assets of the company in billion USD.",
-      "marketvalue" : "the market value of the company in billion USD."
+      "country" : "a factor giving the country the company is situated in.",
+      "name" : "the name of the company.",
+      "sales" : "the amount of sales of the company in billion USD.",
+      "rank" : "the ranking of the company."
    },
-   "reference" : "https://www.forbes.com, assessed on November 26th, 2004.",
-   "title" : "The Forbes 2000 Ranking of the World's Biggest Companies (Year 2004)",
-   "format" : "A data frame with 2000 observations on the following 8 variables.",
-   "description" : "Description\nThe Forbes 2000 list is a ranking of the world's biggest\ncompanies, measured by sales, profits, assets and market\nvalue.",
-   "usage" : "data(\"Forbes2000\")"
+   "format" : "A data frame with 2000 observations on the following 8 variables."
 }
 
 var Forbes2000 = [

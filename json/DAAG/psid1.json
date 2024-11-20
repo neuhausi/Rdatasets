@@ -1,11 +1,23 @@
 {
    "config" : {
+      "graphType" : "Heatmap",
       "subtitle" : "DAAG - psid1",
-      "title" : "Labour Training Evaluation Data",
-      "graphType" : "Heatmap"
+      "title" : "Labour Training Evaluation Data"
    },
    "data" : {
       "y" : {
+         "vars" : [
+            "trt",
+            "age",
+            "educ",
+            "black",
+            "hisp",
+            "marr",
+            "nodeg",
+            "re74",
+            "re75",
+            "re78"
+         ],
          "smps" : [
             "Smp1",
             "Smp2",
@@ -2497,18 +2509,6 @@
             "Smp2488",
             "Smp2489",
             "Smp2490"
-         ],
-         "vars" : [
-            "trt",
-            "age",
-            "educ",
-            "black",
-            "hisp",
-            "marr",
-            "nodeg",
-            "re74",
-            "re75",
-            "re78"
          ],
          "data" : [
             [

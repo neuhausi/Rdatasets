@@ -1,13 +1,13 @@
 var smallpoxInfo ={
-   "title" : "Smallpox vaccine results",
-   "format" : "A data frame with 6224 observations on the following 2 variables.",
    "reference" : "Fenner F. 1988.  Smallpox and Its Eradication (History of\nInternational Public Health, No. 6).  Geneva: World Health Organization.\nISBN 92-4-156110-6.",
-   "parameters" : {
-      "result" : "Whether the person died or lived.",
-      "inoculated" : "Whether the person received inoculated."
-   },
    "usage" : "smallpox",
-   "description" : "Description\nA sample of 6,224 individuals from the year 1721 who were exposed to\nsmallpox in Boston.  Some of them had received a vaccine (inoculated) while\nothers had not.  Doctors at the time believed that inoculation, which\ninvolves exposing a person to the disease in a controlled form, could reduce\nthe likelihood of death."
+   "description" : "Description\nA sample of 6,224 individuals from the year 1721 who were exposed to\nsmallpox in Boston.  Some of them had received a vaccine (inoculated) while\nothers had not.  Doctors at the time believed that inoculation, which\ninvolves exposing a person to the disease in a controlled form, could reduce\nthe likelihood of death.",
+   "title" : "Smallpox vaccine results",
+   "parameters" : {
+      "inoculated" : "Whether the person received inoculated.",
+      "result" : "Whether the person died or lived."
+   },
+   "format" : "A data frame with 6224 observations on the following 2 variables."
 }
 
 var smallpox = [

@@ -1,15 +1,15 @@
 var immerInfo ={
-   "reference" : "Immer, F.R., Hayes, H.D. and LeRoy Powers (1934)\nStatistical determination of barley varietal adaptation.\nJournal of the American Society for Agronomy\n26, 403&ndash;419.",
-   "format" : "This data frame contains the following columns:",
-   "title" : "Yields from a Barley Field Trial",
-   "parameters" : {
-      "Y2" : "Yield in 1932.",
-      "Loc" : "The location.",
-      "Var" : "The variety of barley (\"manchuria\", \"svansota\",\n\"velvet\", \"trebi\" and \"peatland\").",
-      "Y1" : "Yield in 1931."
-   },
    "usage" : "immer",
-   "description" : "Description\nThe immer data frame has 30 rows and 4 columns.  Five varieties of\nbarley were grown in six locations in each of 1931 and 1932."
+   "reference" : "Immer, F.R., Hayes, H.D. and LeRoy Powers (1934)\nStatistical determination of barley varietal adaptation.\nJournal of the American Society for Agronomy\n26, 403&ndash;419.",
+   "title" : "Yields from a Barley Field Trial",
+   "description" : "Description\nThe immer data frame has 30 rows and 4 columns.  Five varieties of\nbarley were grown in six locations in each of 1931 and 1932.",
+   "parameters" : {
+      "Loc" : "The location.",
+      "Y1" : "Yield in 1931.",
+      "Y2" : "Yield in 1932.",
+      "Var" : "The variety of barley (\"manchuria\", \"svansota\",\n\"velvet\", \"trebi\" and \"peatland\")."
+   },
+   "format" : "This data frame contains the following columns:"
 }
 
 var immer = [

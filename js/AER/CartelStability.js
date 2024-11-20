@@ -1,16 +1,16 @@
 var CartelStabilityInfo ={
    "description" : "Description\nWeekly observations on prices and other factors from 1880&ndash;1886, for a total of 326 weeks.",
+   "title" : "CartelStability",
    "usage" : "data(\"CartelStability\")",
+   "reference" : "Online complements to Stock and Watson (2007).",
    "parameters" : {
-      "ice" : "factor. Are the Great Lakes innavigable because of ice?",
-      "price" : "weekly index of price of shipping a ton of grain by rail.",
       "season" : "factor indicating season of year. To match the weekly data,\nthe calendar has been divided into 13 periods, each approximately 4 weeks long.",
       "cartel" : "factor. Is a railroad cartel operative?",
-      "quantity" : "total tonnage of grain shipped in the week."
+      "price" : "weekly index of price of shipping a ton of grain by rail.",
+      "quantity" : "total tonnage of grain shipped in the week.",
+      "ice" : "factor. Are the Great Lakes innavigable because of ice?"
    },
-   "reference" : "Online complements to Stock and Watson (2007).",
-   "format" : "A data frame containing 328 observations on 5 variables.",
-   "title" : "CartelStability"
+   "format" : "A data frame containing 328 observations on 5 variables."
 }
 
 var CartelStability = [

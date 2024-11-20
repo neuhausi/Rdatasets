@@ -1,30 +1,30 @@
 var mm_mldaInfo ={
    "format" : "A data frame with 50 observations on the following 19 variables.",
-   "title" : "Minimum Legal Drinking Age Fatalities Data",
+   "usage" : "mm_mlda",
    "reference" : "These data are not well-documented. You guys are on your own here. Good luck.",
+   "title" : "Minimum Legal Drinking Age Fatalities Data",
+   "description" : "Description\nThese are data you can use to replicate the regression discontinuity design\nanalyses throughout Chapter 4 of Mastering 'Metrics.\nOriginal analyses come from Carpenter and Dobkin (2009, 2011).",
    "parameters" : {
+      "mva" : "a numeric",
+      "allfitted" : "a numeric",
+      "externalother" : "a numeric",
       "internalfitted" : "a numeric",
-      "externalotherfitted" : "a numeric",
+      "homicidefitted" : "a numeric",
+      "suicidefitted" : "a numeric",
+      "alcoholfitted" : "a numeric",
+      "mvafitted" : "a numeric",
+      "all" : "a numeric",
       "external" : "a numeric",
       "drugs" : "a numeric",
-      "homicide" : "a numeric",
-      "alcohol" : "a numeric",
       "agecell" : "a numeric",
-      "alcoholfitted" : "a numeric",
       "externalfitted" : "a numeric",
+      "alcohol" : "a numeric",
+      "suicide" : "a numeric",
       "drugsfitted" : "a numeric",
+      "externalotherfitted" : "a numeric",
       "internal" : "a numeric",
-      "externalother" : "a numeric",
-      "suicidefitted" : "a numeric",
-      "homicidefitted" : "a numeric",
-      "mva" : "a numeric",
-      "all" : "a numeric",
-      "allfitted" : "a numeric",
-      "mvafitted" : "a numeric",
-      "suicide" : "a numeric"
-   },
-   "usage" : "mm_mlda",
-   "description" : "Description\nThese are data you can use to replicate the regression discontinuity design\nanalyses throughout Chapter 4 of Mastering 'Metrics.\nOriginal analyses come from Carpenter and Dobkin (2009, 2011)."
+      "homicide" : "a numeric"
+   }
 }
 
 var mm_mlda = [

@@ -1,8 +1,8 @@
 var two_class_exampleInfo ={
+   "description" : "Description\nTwo class predictions",
    "title" : "Two class predictions",
-   "format" : "two_class_example\n\na data frame",
    "usage" : "These data are a test set form a model built for two\nclasses (\"Class1\" and \"Class2\"). There are columns for the true\nand predicted classes and column for the probabilities for each\nclass.",
-   "description" : "Description\nTwo class predictions"
+   "format" : "two_class_example\n\na data frame"
 }
 
 var two_class_example = [

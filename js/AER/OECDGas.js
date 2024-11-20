@@ -1,17 +1,17 @@
 var OECDGasInfo ={
-   "title" : "Gasoline Consumption Data",
+   "usage" : "data(\"OECDGas\")",
    "reference" : "The data is from Baltagi (2002).",
-   "format" : "A data frame containing 342 observations on 6 variables.",
+   "description" : "Description\nPanel data on gasoline consumption in 18 OECD countries over 19 years, 1960&ndash;1978.",
+   "title" : "Gasoline Consumption Data",
    "parameters" : {
-      "gas" : "Logarithm of motor gasoline consumption per car.",
-      "cars" : "Logarithm of the stock of cars per-capita.",
-      "year" : "Year.",
       "country" : "Factor indicating country.",
+      "cars" : "Logarithm of the stock of cars per-capita.",
+      "gas" : "Logarithm of motor gasoline consumption per car.",
+      "year" : "Year.",
       "price" : "Logarithm of real motor gasoline price.",
       "income" : "Logarithm of real per-capita income."
    },
-   "usage" : "data(\"OECDGas\")",
-   "description" : "Description\nPanel data on gasoline consumption in 18 OECD countries over 19 years, 1960&ndash;1978."
+   "format" : "A data frame containing 342 observations on 6 variables."
 }
 
 var OECDGas = [

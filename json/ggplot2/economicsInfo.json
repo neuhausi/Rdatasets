@@ -1,0 +1,14 @@
+{
+   "format" : "A data frame with 574 rows and 6 variables:",
+   "description" : "Description\nThis dataset was produced from US economic time series data available from\nhttps://fred.stlouisfed.org/. economics is in \"wide\"\nformat, economics_long is in \"long\" format.",
+   "title" : "US economic time series",
+   "usage" : "economics\n\neconomics_long",
+   "parameters" : {
+      "uempmed" : "median duration of unemployment, in weeks,\nhttps://fred.stlouisfed.org/series/UEMPMED",
+      "pop" : "total population, in thousands,\nhttps://fred.stlouisfed.org/series/POP",
+      "pce" : "personal consumption expenditures, in billions of dollars,\nhttps://fred.stlouisfed.org/series/PCE",
+      "unemploy" : "number of unemployed in thousands,\nhttps://fred.stlouisfed.org/series/UNEMPLOY",
+      "psavert" : "personal savings rate,\nhttps://fred.stlouisfed.org/series/PSAVERT/",
+      "date" : "Month of data collection"
+   }
+}

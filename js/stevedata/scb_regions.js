@@ -1,13 +1,13 @@
 var scb_regionsInfo ={
-   "reference" : "Data were manually derived from first gathering everything the Central Bureau\nof Statistics had to offer. Its intended use is alongside the pxweb\npackage. May it allow for more focused uses of the package without having\nto rely on the interactive component to do all the heavy-lifting.",
    "format" : "A data frame with 312 observations on the following 2 variables.",
-   "title" : "Region Codes in the Central Bureau of Statistics (\"Statistiska centralbyrÃ¥n\") in Sweden",
    "parameters" : {
-      "region_code" : "an alpha-numeric code coinciding with the territorial unit/\"region\"",
-      "region" : "an intuitive name for a territorial unit/\"region\" in Sweden"
+      "region" : "an intuitive name for a territorial unit/\"region\" in Sweden",
+      "region_code" : "an alpha-numeric code coinciding with the territorial unit/\"region\""
    },
-   "usage" : "scb_regions",
-   "description" : "Description\nThis is a simple data set for matching region codes to the names of\nterritorial units in Sweden, at least recorded/cataloged by the Central\nBureau of Statistics in Sweden."
+   "title" : "Region Codes in the Central Bureau of Statistics (\"Statistiska centralbyrÃ¥n\") in Sweden",
+   "description" : "Description\nThis is a simple data set for matching region codes to the names of\nterritorial units in Sweden, at least recorded/cataloged by the Central\nBureau of Statistics in Sweden.",
+   "reference" : "Data were manually derived from first gathering everything the Central Bureau\nof Statistics had to offer. Its intended use is alongside the pxweb\npackage. May it allow for more focused uses of the package without having\nto rely on the interactive component to do all the heavy-lifting.",
+   "usage" : "scb_regions"
 }
 
 var scb_regions = [

@@ -1,16 +1,4 @@
 {
-   "config" : {
-      "title" : "Effects of Serotonin in Mice",
-      "segregateSamplesBy" : [
-         "Genotype"
-      ],
-      "subtitle" : "Stat2Data - MouseBrain",
-      "colorBy" : "variable",
-      "graphType" : "Boxplot",
-      "groupingFactors" : [
-         "Sex"
-      ]
-   },
    "data" : {
       "x" : {
          "Sex" : [
@@ -165,9 +153,6 @@
             "Smp47",
             "Smp48"
          ],
-         "vars" : [
-            "Contacts"
-         ],
          "data" : [
             [
                22,
@@ -219,8 +204,23 @@
                18,
                24
             ]
+         ],
+         "vars" : [
+            "Contacts"
          ]
       }
    },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>MouseBrain</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Effects of Serotonin in Mice</h2>\n<h3>Description</h3>\n<p>Effects of altering serotonin levels on social interactions of mice\n</p>\n<h3>Format</h3>\n<p>A data frame with 48 observations on the following 3 variables.\n</p>\n<dl>\n<dt><code>Contacts</code></dt><dd><p>Number of social contacts the mouse had during the experiment</p>\n</dd>\n<dt><code>Sex</code></dt><dd> <p><code>F</code>=female or <code>M</code>=male</p>\n</dd>\n<dt><code>Genotype</code></dt><dd><p><code>Minus</code>, <code>Mixed</code>, or <code>Plus</code> (see description below)</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>Serotonin is a chemical that influences mood balance in humans. But how does it affect mice? Scientists genetically altered mice by &quot;knocking out&quot; the expression of a gene, tryptophan hydroxylase 2 (Tph2), that regulates serotonin production. With careful breeding, the scientists produced three types of mice that we label as &ldquo;Minus&rdquo; for Tph2-/-, &ldquo;Plus&rdquo; for Tph2+/+, &ldquo;Mixed&rdquo; for Tph2+/-. The variable Genotype records Minus/Plus/Mixed. The variable Contacts is the number of social contacts that a mouse had with other mice during an experiment and the variable Sex is &ldquo;M&rdquo; for males and &ldquo;F&rdquo; for females.\n</p>\n<h3>Source</h3>\n<p>Beis D, Holzwarth K, Flinders M, Bader M, Wohr M, Alenina N., (2015) &quot;Brain serotonin deficiency leads to social communication deficits in mice,&quot; Biol. Lett. 11:20150057. <br />\nhttp://dx.doi.org/10.1098/rsbl.2015.0057\n</p>\n<p>Once you go to the above link, to get the data, click on the &quot;Figures and Data&quot; tab.  Then click on the &quot;Juvenile SocInter Behavior Data&quot; link to download a hairy data file that needs to be cleaned a great deal to get our data.\n</p>\n</main>\n</div>\n"
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>MouseBrain</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Effects of Serotonin in Mice</h2>\n<h3>Description</h3>\n<p>Effects of altering serotonin levels on social interactions of mice\n</p>\n<h3>Format</h3>\n<p>A data frame with 48 observations on the following 3 variables.\n</p>\n<dl>\n<dt><code>Contacts</code></dt><dd><p>Number of social contacts the mouse had during the experiment</p>\n</dd>\n<dt><code>Sex</code></dt><dd> <p><code>F</code>=female or <code>M</code>=male</p>\n</dd>\n<dt><code>Genotype</code></dt><dd><p><code>Minus</code>, <code>Mixed</code>, or <code>Plus</code> (see description below)</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>Serotonin is a chemical that influences mood balance in humans. But how does it affect mice? Scientists genetically altered mice by &quot;knocking out&quot; the expression of a gene, tryptophan hydroxylase 2 (Tph2), that regulates serotonin production. With careful breeding, the scientists produced three types of mice that we label as &ldquo;Minus&rdquo; for Tph2-/-, &ldquo;Plus&rdquo; for Tph2+/+, &ldquo;Mixed&rdquo; for Tph2+/-. The variable Genotype records Minus/Plus/Mixed. The variable Contacts is the number of social contacts that a mouse had with other mice during an experiment and the variable Sex is &ldquo;M&rdquo; for males and &ldquo;F&rdquo; for females.\n</p>\n<h3>Source</h3>\n<p>Beis D, Holzwarth K, Flinders M, Bader M, Wohr M, Alenina N., (2015) &quot;Brain serotonin deficiency leads to social communication deficits in mice,&quot; Biol. Lett. 11:20150057. <br />\nhttp://dx.doi.org/10.1098/rsbl.2015.0057\n</p>\n<p>Once you go to the above link, to get the data, click on the &quot;Figures and Data&quot; tab.  Then click on the &quot;Juvenile SocInter Behavior Data&quot; link to download a hairy data file that needs to be cleaned a great deal to get our data.\n</p>\n</main>\n</div>\n",
+   "config" : {
+      "segregateSamplesBy" : [
+         "Genotype"
+      ],
+      "colorBy" : "variable",
+      "graphType" : "Boxplot",
+      "groupingFactors" : [
+         "Sex"
+      ],
+      "subtitle" : "Stat2Data - MouseBrain",
+      "title" : "Effects of Serotonin in Mice"
+   }
 }

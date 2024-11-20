@@ -1,15 +1,15 @@
 var schizophrenia2Info ={
+   "format" : "A data frame with 220 observations on the following 4 variables.",
+   "title" : "Schizophrenia Data",
+   "description" : "Description\nThough disorder and early onset of schizophrenia.",
+   "usage" : "data(\"schizophrenia2\")",
+   "reference" : "The data were collected in a follow-up study\nof women patients with schizophrenia. The binary response recorded\nat 0, 2, 6, 8 and 10 months after hospitalisation was thought\ndisorder (absent or present). The single covariate is the factor \nindicating whether a patient had suffered early or late\nonset of her condition (age of onset less than 20 years or\nage of onset 20 years or above). The question of interest is\nwhether the course of the illness differs between patients with\nearly and late onset?",
    "parameters" : {
       "onset" : "the time of onset of the disease, \na factor with levels < 20 yrs and \n> 20 yrs.",
+      "disorder" : "whether thought disorder was absent or\npresent, the response variable.",
       "subject" : "the patient ID, a factor with levels 1 to\n44.",
-      "month" : "month after hospitalisation.",
-      "disorder" : "whether thought disorder was absent or\npresent, the response variable."
-   },
-   "title" : "Schizophrenia Data",
-   "format" : "A data frame with 220 observations on the following 4 variables.",
-   "reference" : "The data were collected in a follow-up study\nof women patients with schizophrenia. The binary response recorded\nat 0, 2, 6, 8 and 10 months after hospitalisation was thought\ndisorder (absent or present). The single covariate is the factor \nindicating whether a patient had suffered early or late\nonset of her condition (age of onset less than 20 years or\nage of onset 20 years or above). The question of interest is\nwhether the course of the illness differs between patients with\nearly and late onset?",
-   "description" : "Description\nThough disorder and early onset of schizophrenia.",
-   "usage" : "data(\"schizophrenia2\")"
+      "month" : "month after hospitalisation."
+   }
 }
 
 var schizophrenia2 = [

@@ -1,0 +1,11 @@
+{
+   "format" : "A data frame with 648 observations on the following 2 variables.",
+   "parameters" : {
+      "year" : "Penny's year.",
+      "age" : "Age as of 2004."
+   },
+   "reference" : "hist(penny_ages$year)",
+   "usage" : "penny_ages",
+   "description" : "Description\nSample of pennies and their ages. Taken in 2004.",
+   "title" : "Penny Ages"
+}

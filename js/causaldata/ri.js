@@ -1,16 +1,16 @@
 var riInfo ={
-   "title" : "A simple simulated data set for calculating p-values",
-   "format" : "A data frame with 8 rows and 5 variables",
-   "reference" : "This data is used in the Potential Outcomes Causal Model chapter of Causal Inference: The Mixtape by Cunningham.",
    "parameters" : {
       "name" : "Fictional Name",
-      "d" : "Treatment",
-      "y0" : "Outcome if untreated",
       "y1" : "Outcome if treated",
-      "y" : "Outcome"
+      "d" : "Treatment",
+      "y" : "Outcome",
+      "y0" : "Outcome if untreated"
    },
+   "title" : "A simple simulated data set for calculating p-values",
+   "description" : "Description\nThis simulated data allows for a quick and easy calculation of a p-value using randomization inference.",
    "usage" : "ri",
-   "description" : "Description\nThis simulated data allows for a quick and easy calculation of a p-value using randomization inference."
+   "reference" : "This data is used in the Potential Outcomes Causal Model chapter of Causal Inference: The Mixtape by Cunningham.",
+   "format" : "A data frame with 8 rows and 5 variables"
 }
 
 var ri = [

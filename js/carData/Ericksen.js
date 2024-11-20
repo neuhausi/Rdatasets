@@ -1,20 +1,20 @@
 var EricksenInfo ={
+   "format" : "This data frame contains the following columns:",
    "description" : "Description\nThe Ericksen data frame has 66 rows and 9 columns.\nThe observations are 16 large cities, the remaining parts of\nthe states in which these cities are located, and the other\nU. S. states.",
+   "title" : "The 1980 U.S. Census Undercount",
+   "reference" : "Ericksen, E. P., Kadane, J. B. and Tukey, J. W. (1989)\nAdjusting the 1980 Census of Population and Housing. \nJournal of the American Statistical Association 84, 927&ndash;944 [Tables 7 and 8].",
    "usage" : "Ericksen",
    "parameters" : {
-      "housing" : "Percentage of housing in small, multiunit buildings.",
-      "conventional" : "Percentage of households counted by conventional personal enumeration.",
-      "crime" : "Rate of serious crimes per 1000 population.",
-      "city" : "A factor with levels: \ncity, major city; \nstate, state or state-remainder.",
-      "minority" : "Percentage black or Hispanic.",
       "undercount" : "Preliminary estimate of percentage undercount.",
-      "poverty" : "Percentage poor.",
       "language" : "Percentage having difficulty speaking or writing English.",
-      "highschool" : "Percentage age 25 or older who had not finished highschool."
-   },
-   "format" : "This data frame contains the following columns:",
-   "reference" : "Ericksen, E. P., Kadane, J. B. and Tukey, J. W. (1989)\nAdjusting the 1980 Census of Population and Housing. \nJournal of the American Statistical Association 84, 927&ndash;944 [Tables 7 and 8].",
-   "title" : "The 1980 U.S. Census Undercount"
+      "crime" : "Rate of serious crimes per 1000 population.",
+      "highschool" : "Percentage age 25 or older who had not finished highschool.",
+      "minority" : "Percentage black or Hispanic.",
+      "housing" : "Percentage of housing in small, multiunit buildings.",
+      "poverty" : "Percentage poor.",
+      "city" : "A factor with levels: \ncity, major city; \nstate, state or state-remainder.",
+      "conventional" : "Percentage of households counted by conventional personal enumeration."
+   }
 }
 
 var Ericksen = [

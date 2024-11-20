@@ -1,15 +1,15 @@
 var races2000Info ={
+   "format" : "This data frame contains the following columns:",
+   "reference" : "The Scottish Running Resource, http://www.hillrunning.co.uk",
    "usage" : "races2000",
    "description" : "Description\nThe record times in 2000 for 77 Scottish long distance\nraces.  We\nbelieve the data are, for the most part, trustworthy.  However,\nthe dist variable for Caerketton (record 58) seems\nto have been variously recorded as 1.5 mi and 2.5 mi.",
    "title" : "Scottish Hill Races Data - 2000",
-   "format" : "This data frame contains the following columns:",
-   "reference" : "The Scottish Running Resource, http://www.hillrunning.co.uk",
    "parameters" : {
+      "type" : "a factor, with levels indicating type of race, \ni.e. hill, marathon, relay, uphill or other",
+      "time" : "record time in hours",
       "timef" : "record time in hours for females",
       "dist" : "distance, in miles (on the map)",
-      "type" : "a factor, with levels indicating type of race, \ni.e. hill, marathon, relay, uphill or other",
-      "climb" : "total height gained during the route, in feet",
-      "time" : "record time in hours"
+      "climb" : "total height gained during the route, in feet"
    }
 }
 

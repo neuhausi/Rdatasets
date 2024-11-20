@@ -1,15 +1,15 @@
 var kochInfo ={
    "parameters" : {
-      "y" : "an ordered factor with levels: 1 < 2 < 3",
-      "trt" : "a numeric vector",
       "day" : "a numeric vector",
-      "id" : "a numeric vector"
+      "id" : "a numeric vector",
+      "trt" : "a numeric vector",
+      "y" : "an ordered factor with levels: 1 < 2 < 3"
    },
-   "title" : "Ordinal Data from Koch",
-   "format" : "This data frame contains the following columns:",
-   "reference" : "data(koch)\nfit <- ordgee(ordered(y) ~ trt + as.factor(day), id=id, data=koch, corstr=\"exch\")\nsummary(fit)",
    "description" : "Description\nThe koch data frame has 288 rows and 4 columns.",
-   "usage" : "koch"
+   "title" : "Ordinal Data from Koch",
+   "usage" : "koch",
+   "reference" : "data(koch)\nfit <- ordgee(ordered(y) ~ trt + as.factor(day), id=id, data=koch, corstr=\"exch\")\nsummary(fit)",
+   "format" : "This data frame contains the following columns:"
 }
 
 var koch = [

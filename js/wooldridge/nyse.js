@@ -1,19 +1,19 @@
 var nyseInfo ={
-   "reference" : "pages 388-389, 407, 436, 438, 440-441, 442, 663-664",
-   "title" : "nyse",
-   "format" : "A data.frame with 691 observations on 8 variables:",
-   "parameters" : {
-      "price" : " NYSE stock price index",
-      "t" : "",
-      "cprice_1" : " lagged cprice",
-      "price_2" : "",
-      "return_1" : " lagged return",
-      "return" : " 100*(p - p(-1))/p(-1))",
-      "cprice" : " price - price_1",
-      "price_1" : ""
-   },
    "usage" : "data('nyse')",
-   "description" : "Description\nWooldridge Source: These are Wednesday closing prices of value-weighted NYSE average, available in many publications. I do not recall the particular source I used when I collected these data at MIT. Probably the easiest way to get similar data is to go to the NYSE web site, www.nyse.com. Data loads lazily."
+   "reference" : "pages 388-389, 407, 436, 438, 440-441, 442, 663-664",
+   "description" : "Description\nWooldridge Source: These are Wednesday closing prices of value-weighted NYSE average, available in many publications. I do not recall the particular source I used when I collected these data at MIT. Probably the easiest way to get similar data is to go to the NYSE web site, www.nyse.com. Data loads lazily.",
+   "title" : "nyse",
+   "parameters" : {
+      "return_1" : " lagged return",
+      "cprice_1" : " lagged cprice",
+      "price_1" : "",
+      "price_2" : "",
+      "t" : "",
+      "return" : " 100*(p - p(-1))/p(-1))",
+      "price" : " NYSE stock price index",
+      "cprice" : " price - price_1"
+   },
+   "format" : "A data.frame with 691 observations on 8 variables:"
 }
 
 var nyse = [

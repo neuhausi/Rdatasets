@@ -1,31 +1,31 @@
 var GrilichesInfo ={
-   "title" : "Wage Data",
-   "reference" : "Blackburn, M.  and   Neumark D. (1992) &ldquo;Unobserved ability, efficiency wages, and interindustry wage differentials&rdquo;, Quarterly Journal of Economics, 107, 1421-1436.",
    "format" : "A dataframe containing :",
+   "reference" : "Blackburn, M.  and   Neumark D. (1992) &ldquo;Unobserved ability, efficiency wages, and interindustry wage differentials&rdquo;, Quarterly Journal of Economics, 107, 1421-1436.",
+   "usage" : "data(Griliches)",
+   "title" : "Wage Data",
+   "description" : "Description\na cross-section from 1980\nnumber of observations :  758\nobservation :  individuals\ncountry :  United States",
    "parameters" : {
-      "med" : "mother's education in years",
-      "expr80" : "same variable for 1980",
-      "year" : "year of the observation",
-      "iq" : "IQ score",
-      "smsa" : "residency in metropolitan areas (first observation) ?",
-      "tenure80" : "same variable for 1980",
-      "school" : "completed years of schooling (first observation)",
-      "age80" : "same variable for 1980",
       "mrt" : "married  (first observation) ?",
+      "med" : "mother's education in years",
+      "age80" : "same variable for 1980",
       "smsa80" : "same variable for 1980",
-      "lw" : "log wage (first observation)",
-      "rns80" : "same variable for 1980",
-      "kww" : "score on the &ldquo;knowledge of the world of work&rdquo; test",
+      "expr" : "experience in years (first observation)",
+      "smsa" : "residency in metropolitan areas (first observation) ?",
+      "expr80" : "same variable for 1980",
+      "iq" : "IQ score",
       "rns" : "residency in the southern states (first observation) ?",
+      "lw80" : "same variable for 1980",
+      "lw" : "log wage (first observation)",
+      "age" : "age (first observation)",
+      "mrt80" : "same variable for 1980",
+      "year" : "year of the observation",
+      "rns80" : "same variable for 1980",
       "school80" : "same variable for 1980",
       "tenure" : "tenure in years (first observation)",
-      "lw80" : "same variable for 1980",
-      "expr" : "experience in years (first observation)",
-      "age" : "age (first observation)",
-      "mrt80" : "same variable for 1980"
-   },
-   "usage" : "data(Griliches)",
-   "description" : "Description\na cross-section from 1980\nnumber of observations :  758\nobservation :  individuals\ncountry :  United States"
+      "kww" : "score on the &ldquo;knowledge of the world of work&rdquo; test",
+      "school" : "completed years of schooling (first observation)",
+      "tenure80" : "same variable for 1980"
+   }
 }
 
 var Griliches = [

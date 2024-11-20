@@ -1,14 +1,14 @@
 var nassheadInfo ={
-   "format" : "A data frame with 56 observations on the following 3 variables.",
-   "title" : "Documentation of names of columns in nass9702cor",
    "reference" : "For full details of the coding of values in columns of\nnass9702cor, consult one of the SAS format files that\ncan be obtained by following the instructions on Dr Meyer's web\nsite that is noted below.",
-   "parameters" : {
-      "shortname" : "a character vector",
-      "longname" : "a character vector",
-      "SASname" : "a character vector"
-   },
    "usage" : "data(nasshead)",
-   "description" : "Description\nSASname and longname are from the SAS XPT file\nnass9702cor.XPT that is available from the website noted below.\nThe name shortname is the name used in the data frame\nnass9702cor, not included in this package, but available\nfrom my website that is noted below.  It is also used in\nnassCDS, for columns that nassCDS includes."
+   "title" : "Documentation of names of columns in nass9702cor",
+   "description" : "Description\nSASname and longname are from the SAS XPT file\nnass9702cor.XPT that is available from the website noted below.\nThe name shortname is the name used in the data frame\nnass9702cor, not included in this package, but available\nfrom my website that is noted below.  It is also used in\nnassCDS, for columns that nassCDS includes.",
+   "parameters" : {
+      "SASname" : "a character vector",
+      "longname" : "a character vector",
+      "shortname" : "a character vector"
+   },
+   "format" : "A data frame with 56 observations on the following 3 variables."
 }
 
 var nasshead = [

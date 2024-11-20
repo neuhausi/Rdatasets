@@ -1,18 +1,15 @@
 {
    "config" : {
-      "graphType" : "Boxplot",
-      "title" : "Pre-existing conditions in 92 children",
       "colorBy" : "variable",
+      "graphType" : "Boxplot",
+      "subtitle" : "openintro - antibiotics",
       "groupingFactors" : [
          "condition"
       ],
-      "subtitle" : "openintro - antibiotics"
+      "title" : "Pre-existing conditions in 92 children"
    },
    "data" : {
       "y" : {
-         "vars" : [
-            "Row"
-         ],
          "smps" : [
             "Smp1",
             "Smp2",
@@ -202,6 +199,9 @@
                91,
                92
             ]
+         ],
+         "vars" : [
+            "Row"
          ]
       },
       "x" : {

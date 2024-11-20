@@ -1,0 +1,11 @@
+{
+   "format" : "This data frame contains the following columns:",
+   "parameters" : {
+      "self" : "heights of\nthe self-fertilized plants",
+      "cross" : "heights of \nthe crossed plants"
+   },
+   "usage" : "mignonette",
+   "reference" : "Darwin, Charles. 1877.  The Effects of Cross and Self\nFertilisation in the Vegetable Kingdom.  Appleton and Company, New\nYork, page 118.",
+   "title" : "Darwin's Wild Mignonette Data",
+   "description" : "Description\nData compare the heights of crossed plants with\nself-fertilized plants of the wild mignonette\nreseda lutea.  Plants were paired within the\npots in which they were grown, with one on one side and\none on the other."
+}

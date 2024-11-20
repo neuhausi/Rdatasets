@@ -1,0 +1,11 @@
+{
+   "format" : "A data frame with 251 observations on the following 2 variables.",
+   "title" : "Age of Onset of Schizophrenia Data",
+   "description" : "Description\nData on sex differences in the age of onset of schizophrenia.",
+   "reference" : "A sex difference in the age of onset of schizophrenia was\nnoted by Kraepelin (1919). Subsequently epidemiological studies\nof the disorder have consistently shown an earlier onset in men \nthan in women. One model that has been suggested to explain this\nobserved difference is know as the subtype model\nwhich postulates two type of schizophrenia, one characterised by early\nonset, typical symptoms and poor premorbid competence, and the\nother by late onset, atypical symptoms, and good premorbid competence.\nThe early onset type is assumed to be largely a disorder of men  \nand the late onset largely a disorder of women.",
+   "usage" : "data(\"schizophrenia\")",
+   "parameters" : {
+      "gender" : "a factor with levels female and male",
+      "age" : "age at the time of diagnosis."
+   }
+}

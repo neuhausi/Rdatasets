@@ -1,7 +1,7 @@
 var two_class_datInfo ={
+   "format" : "two_class_dat\n\na data frame",
    "description" : "Description\nTwo class data",
    "title" : "Two class data",
-   "format" : "two_class_dat\n\na data frame",
    "usage" : "There are artificial data with two predictors (A and B) and\na factor outcome variable (Class)."
 }
 

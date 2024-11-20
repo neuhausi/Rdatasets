@@ -1,0 +1,12 @@
+{
+   "parameters" : {
+      "vaccine_status" : "Vaccination status of the person. Note: the vaccinated group includes those who were only partially vaccinated. Levels: vaccinated, unvaccinated",
+      "outcome" : "Did the person die from the Delta variant? Levels: death and survived.",
+      "age_group" : "Age of the person. Levels: &#8288;under 50&#8288;,  &#8288;50 +&#8288;."
+   },
+   "title" : "Simpson's Paradox: Covid",
+   "description" : "Description\nA dataset on Delta Variant Covid-19 cases in the UK. This dataset gives a great example of Simpson's Paradox. When aggregating results without regard to age group, the death rate for vaccinated individuals is higher &ndash; but they have a much higher risk population. Once we look at populations with more comparable risks (breakout age groups), we see that the vaccinated group tends to be lower risk in each risk-bucketed group and that many of the higher risk patients had gotten vaccinated. The dataset was brought to OpenIntro's attention by Matthew T. Brenneman of Embry-Riddle Aeronautical University. Note: some totals in the original source differ as there were some cases that did not have ages associated with them.",
+   "usage" : "simpsons_paradox_covid",
+   "reference" : "Public Health England: Technical briefing 20",
+   "format" : "A data frame with 286,166 rows and 3 variables:"
+}

@@ -1,0 +1,28 @@
+{
+   "parameters" : {
+      "imbgeco" : "a numeric vector for if respondent thinks immigrants are generally good or bad for UK's economy. Higher values = good",
+      "endintrvw" : "a Date for the interview end date",
+      "female" : "a numeric vector for whether the respondent is a woman",
+      "region" : "a character vector for the region of the UK the respondent lives",
+      "immigsent" : "a numeric vector for immigration sentiment (i.e. imbgeco +\nimueclt + imwbcnt). Higher values = more pro-immigration sentiment",
+      "hinctnta" : "a numeric vector for household income in deciles",
+      "idno" : "a numeric/unique identifier",
+      "cntry" : "a character vector for the country (i.e. the UK)",
+      "brncntr" : "a numeric vector for if the respondent was born in the UK",
+      "stintrvw" : "a Date for the interview start date",
+      "lrscale" : "a numeric vector for the ideology of the respondent on an 11-point scale, from 0 to 10",
+      "imueclt" : "a numeric vector for if respondent thinks immigrants enrich or undermine UK's culture. Higher values = enrich more than undermine",
+      "essround" : "a numeric for the ESS round",
+      "eduyrs" : "a numeric vector for total years of education for the respondent",
+      "agea" : "a numeric vector for the respondent's age in years",
+      "name" : "a character for the name of the survey",
+      "edition" : "a character for the particular edition of the ESS round",
+      "uempla" : "a numeric vector for whether the respondent is currently unemployed but seeking work",
+      "imwbcnt" : "a numeric vector for if respondent thinks immigrants make UK a better place to live. Higher values = better place to live"
+   },
+   "description" : "Description\nThis is a replication data originally set to accompany a blog post and\npresentation to students at the University of Nottingham in March 2020.\nHowever, COVID-19 led to the cancellation of the talk.",
+   "title" : "British Attitudes Toward Immigration (2018-19)",
+   "usage" : "ESS9GB",
+   "reference" : "See accompanying blog post at http://svmiller.com/blog/2020/03/what-explains-british-attitudes-toward-immigration-a-pedagogical-example/.",
+   "format" : "A data frame with 1,905 observations on the following 19 variables."
+}

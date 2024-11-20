@@ -1,25 +1,25 @@
 var small.msqInfo ={
-   "description" : "Description\nA small subset of 200 cases and 14 variables from the msqR data  set in the psychTools package.  Saved here to allow vignettes to work without using psychTools",
    "usage" : "data(\"small.msq\")",
+   "reference" : "See the detailed discussion of the msqR in the psychTools package",
+   "description" : "Description\nA small subset of 200 cases and 14 variables from the msqR data  set in the psychTools package.  Saved here to allow vignettes to work without using psychTools",
+   "title" : "A small example data set taken from a larger data set",
    "parameters" : {
-      "gender" : "a numeric vector",
-      "anxious" : "a numeric vector",
+      "at.ease" : "a numeric vector",
+      "jittery" : "a numeric vector",
       "drowsy" : "a numeric vector",
       "relaxed" : "a numeric vector",
-      "jittery" : "a numeric vector",
-      "calm" : "a numeric vector",
-      "at.ease" : "a numeric vector",
-      "active" : "a numeric vector",
-      "tired" : "a numeric vector",
-      "drug" : "a numeric vector",
       "aroused" : "a numeric vector",
+      "sleepy" : "a numeric vector",
+      "gender" : "a numeric vector",
+      "tired" : "a numeric vector",
       "alert" : "a numeric vector",
+      "drug" : "a numeric vector",
+      "anxious" : "a numeric vector",
       "nervous" : "a numeric vector",
-      "sleepy" : "a numeric vector"
+      "active" : "a numeric vector",
+      "calm" : "a numeric vector"
    },
-   "format" : "A data frame with 200 observations on the following 14 variables.",
-   "reference" : "See the detailed discussion of the msqR in the psychTools package",
-   "title" : "A small example data set taken from a larger data set"
+   "format" : "A data frame with 200 observations on the following 14 variables."
 }
 
 var small.msq = [

@@ -1,20 +1,20 @@
 var TuckerInfo ={
-   "parameters" : {
-      "t27" : "Four letter words",
-      "t42" : "Prefixes",
-      "t45" : "Chicago Reading Test: Vocabulary",
-      "t23" : "First and last letters",
-      "t24" : "First letters",
-      "t46" : "Chicago Reading Test: Sentences",
-      "t10" : "Completion",
-      "t54" : "Suffixes",
-      "t51" : "Same or Opposite"
-   },
-   "title" : "9 Cognitive variables discussed by Tucker and Lewis (1973)",
-   "format" : "A data frame with 9 observations on the following 9 variables.",
-   "reference" : "The correlation matrix from Tucker (1958) was used in Tucker and Lewis (1973) for the Tucker-Lewis Index of factoring reliability.",
    "description" : "Description\nTucker and Lewis (1973) introduced a reliability coefficient for ML factor analysis.  Their example data set was previously reported by Tucker (1958) and taken from Thurstone and Thurstone (1941).  The correlation matrix is a 9 x 9 for 710 subjects and has two correlated factors of ability: Word Fluency and Verbal.",
-   "usage" : "data(Tucker)"
+   "title" : "9 Cognitive variables discussed by Tucker and Lewis (1973)",
+   "reference" : "The correlation matrix from Tucker (1958) was used in Tucker and Lewis (1973) for the Tucker-Lewis Index of factoring reliability.",
+   "usage" : "data(Tucker)",
+   "parameters" : {
+      "t46" : "Chicago Reading Test: Sentences",
+      "t51" : "Same or Opposite",
+      "t54" : "Suffixes",
+      "t24" : "First letters",
+      "t45" : "Chicago Reading Test: Vocabulary",
+      "t10" : "Completion",
+      "t27" : "Four letter words",
+      "t23" : "First and last letters",
+      "t42" : "Prefixes"
+   },
+   "format" : "A data frame with 9 observations on the following 9 variables."
 }
 
 var Tucker = [

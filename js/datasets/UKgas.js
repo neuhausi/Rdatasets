@@ -1,8 +1,8 @@
 var UKgasInfo ={
-   "description" : "Description\nQuarterly UK gas consumption from 1960Q1 to 1986Q4, in millions of therms.",
    "usage" : "UKgas",
-   "format" : "A quarterly time series of length 108.",
-   "title" : "UK Quarterly Gas Consumption"
+   "title" : "UK Quarterly Gas Consumption",
+   "description" : "Description\nQuarterly UK gas consumption from 1960Q1 to 1986Q4, in millions of therms.",
+   "format" : "A quarterly time series of length 108."
 }
 
 var UKgas = [

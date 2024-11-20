@@ -1,11 +1,11 @@
 {
-   "config" : {
-      "graphType" : "Scatter2D",
-      "title" : "Iron Content Measurements",
-      "subtitle" : "DAAG - ironslag"
-   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>ironslag</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Iron Content Measurements</h2>\n<h3>Description</h3>\n<p>The <code>ironslag</code> data frame has 53 rows and 2 columns.\nTwo methods for measuring the iron content in samples of slag \nwere compared, a chemical and a magnetic method.  The chemical\nmethod requires greater effort than the magnetic method.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>ironslag</code></pre>\n<h3>Format</h3>\n<p>This data frame contains the following columns:\n</p>\n<dl>\n<dt>chemical</dt><dd><p>a numeric vector containing the measurements\ncoming from the chemical method</p>\n</dd>\n<dt>magnetic</dt><dd><p>a numeric vector containing the measurments\ncoming from the magnetic method</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>Hand, D.J., Daly, F., McConway, K., Lunn, D., and Ostrowski, E. eds (1993)\nA Handbook of Small Data Sets. London: Chapman &amp; Hall. \n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>iron.lm &lt;- lm(chemical ~ magnetic, data = ironslag)\noldpar &lt;- par(mfrow = c(2,2))\nplot(iron.lm)\npar(oldpar)\n</code></pre>\n</main>\n</div>\n",
    "data" : {
       "y" : {
+         "smps" : [
+            "chemical",
+            "magnetic"
+         ],
          "data" : [
             [
                24,
@@ -220,10 +220,6 @@
                33
             ]
          ],
-         "smps" : [
-            "chemical",
-            "magnetic"
-         ],
          "vars" : [
             "Var1",
             "Var2",
@@ -281,5 +277,9 @@
          ]
       }
    },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>ironslag</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Iron Content Measurements</h2>\n<h3>Description</h3>\n<p>The <code>ironslag</code> data frame has 53 rows and 2 columns.\nTwo methods for measuring the iron content in samples of slag \nwere compared, a chemical and a magnetic method.  The chemical\nmethod requires greater effort than the magnetic method.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>ironslag</code></pre>\n<h3>Format</h3>\n<p>This data frame contains the following columns:\n</p>\n<dl>\n<dt>chemical</dt><dd><p>a numeric vector containing the measurements\ncoming from the chemical method</p>\n</dd>\n<dt>magnetic</dt><dd><p>a numeric vector containing the measurments\ncoming from the magnetic method</p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>Hand, D.J., Daly, F., McConway, K., Lunn, D., and Ostrowski, E. eds (1993)\nA Handbook of Small Data Sets. London: Chapman &amp; Hall. \n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>iron.lm &lt;- lm(chemical ~ magnetic, data = ironslag)\noldpar &lt;- par(mfrow = c(2,2))\nplot(iron.lm)\npar(oldpar)\n</code></pre>\n</main>\n</div>\n"
+   "config" : {
+      "graphType" : "Scatter2D",
+      "title" : "Iron Content Measurements",
+      "subtitle" : "DAAG - ironslag"
+   }
 }

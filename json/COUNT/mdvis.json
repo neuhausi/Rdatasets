@@ -1,26 +1,12 @@
 {
    "config" : {
       "subtitle" : "COUNT - mdvis",
-      "graphType" : "Heatmap",
-      "title" : "mdvis"
+      "title" : "mdvis",
+      "graphType" : "Heatmap"
    },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>mdvis</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>mdvis</h2>\n<h3>Description</h3>\n<p>Data from a subset of the German Socio-Economic Panel  (SOEP). The subset was created \nby Rabe-Hesketh and Skrondal (2005). Only working women are included in these data. \nBeginning in 1997, German health reform in part entailed a 200\nco-payment as well as limits in provider reimbursement. Patients were surveyed for the \none year panel (1996) prior to and the one year panel (1998) after reform to assess \nwhether the number of physician visits by patients declined - which was the goal of \nreform legislation. \nThe response, or variable to be explained by the model, is numvisit, which \nindicates the number of patient visits to a physician's office during a three month period.   \n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(mdvis)</code></pre>\n<h3>Format</h3>\n<p>A data frame with 2,227 observations on the following 13 variables.\n</p>\n<dl>\n<dt><code>numvisit</code></dt><dd><p>visits to MD office 3mo prior</p>\n</dd>\n<dt><code>reform</code></dt><dd><p>1=interview yr post-reform: 1998;0=pre-reform:1996</p>\n</dd>\n<dt><code>badh</code></dt><dd><p>1=bad health; 0 = not bad health</p>\n</dd>\n<dt><code>age</code></dt><dd><p>Age(yrs 20-60)</p>\n</dd>\n<dt><code>educ</code></dt><dd><p>education(1:7-10;2=10.5-12;3=HSgrad+)</p>\n</dd>\n<dt><code>educ1</code></dt><dd><p>educ1= 7-10 years</p>\n</dd>\n<dt><code>educ2</code></dt><dd><p>educ2= 10.5-12 years</p>\n</dd>\n<dt><code>educ3</code></dt><dd><p>educ3= post secondary or high school</p>\n</dd>\n<dt><code>agegrp</code></dt><dd><p>age: 1=20-39; 2=40-49; 3=50-60</p>\n</dd>\n<dt><code>age1</code></dt><dd><p>age 20-39</p>\n</dd>\n<dt><code>age2</code></dt><dd><p>age 40-49</p>\n</dd>\n<dt><code>age3</code></dt><dd><p>age 50-60</p>\n</dd>\n<dt><code>loginc</code></dt><dd><p>log(household income in DM)</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>mdvis is saved as a data frame.\nCount models typically use docvis as response variable. 0 counts are included\n</p>\n<h3>Source</h3>\n<p>German Socio-Economic Panel (SOEP), 1995 pre-reform; 1998 post reform. Created\nby Rabe-Hesketh and Skrondal (2005).\n</p>\n<h3>References</h3>\n<p>Hilbe, Joseph M (2007, 2011), Negative Binomial Regression, Cambridge University Press\nHilbe, Joseph M (2009), Logistic Regression Models, Chapman &amp; Hall/CRC\nRabe-Hesketh, S. and A. Skrondal (2005). Multilevel and Longitudinal Modeling Using Stata, \nCollege Station: Stata Press.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>data(mdvis)\nglmmdp &lt;- glm(numvisit ~ reform + factor(educ) + factor(agegrp), family=poisson, data=mdvis)\nsummary(glmmdp)\nexp(coef(glmmdp))\nlibrary(MASS)\nglmmdnb &lt;- glm.nb(numvisit ~ reform + factor(educ) + factor(agegrp), data=mdvis)\nsummary(glmmdnb)\nexp(coef(glmmdnb))\n</code></pre>\n</main>\n</div>\n",
    "data" : {
       "y" : {
-         "vars" : [
-            "numvisit",
-            "reform",
-            "badh",
-            "age",
-            "educ",
-            "educ1",
-            "educ2",
-            "educ3",
-            "agegrp",
-            "age1",
-            "age2",
-            "age3",
-            "loginc"
-         ],
          "smps" : [
             "Smp1",
             "Smp2",
@@ -31228,8 +31214,22 @@
                7.42892217636108,
                7.95954990386963
             ]
+         ],
+         "vars" : [
+            "numvisit",
+            "reform",
+            "badh",
+            "age",
+            "educ",
+            "educ1",
+            "educ2",
+            "educ3",
+            "agegrp",
+            "age1",
+            "age2",
+            "age3",
+            "loginc"
          ]
       }
-   },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>mdvis</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>mdvis</h2>\n<h3>Description</h3>\n<p>Data from a subset of the German Socio-Economic Panel  (SOEP). The subset was created \nby Rabe-Hesketh and Skrondal (2005). Only working women are included in these data. \nBeginning in 1997, German health reform in part entailed a 200\nco-payment as well as limits in provider reimbursement. Patients were surveyed for the \none year panel (1996) prior to and the one year panel (1998) after reform to assess \nwhether the number of physician visits by patients declined - which was the goal of \nreform legislation. \nThe response, or variable to be explained by the model, is numvisit, which \nindicates the number of patient visits to a physician's office during a three month period.   \n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(mdvis)</code></pre>\n<h3>Format</h3>\n<p>A data frame with 2,227 observations on the following 13 variables.\n</p>\n<dl>\n<dt><code>numvisit</code></dt><dd><p>visits to MD office 3mo prior</p>\n</dd>\n<dt><code>reform</code></dt><dd><p>1=interview yr post-reform: 1998;0=pre-reform:1996</p>\n</dd>\n<dt><code>badh</code></dt><dd><p>1=bad health; 0 = not bad health</p>\n</dd>\n<dt><code>age</code></dt><dd><p>Age(yrs 20-60)</p>\n</dd>\n<dt><code>educ</code></dt><dd><p>education(1:7-10;2=10.5-12;3=HSgrad+)</p>\n</dd>\n<dt><code>educ1</code></dt><dd><p>educ1= 7-10 years</p>\n</dd>\n<dt><code>educ2</code></dt><dd><p>educ2= 10.5-12 years</p>\n</dd>\n<dt><code>educ3</code></dt><dd><p>educ3= post secondary or high school</p>\n</dd>\n<dt><code>agegrp</code></dt><dd><p>age: 1=20-39; 2=40-49; 3=50-60</p>\n</dd>\n<dt><code>age1</code></dt><dd><p>age 20-39</p>\n</dd>\n<dt><code>age2</code></dt><dd><p>age 40-49</p>\n</dd>\n<dt><code>age3</code></dt><dd><p>age 50-60</p>\n</dd>\n<dt><code>loginc</code></dt><dd><p>log(household income in DM)</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>mdvis is saved as a data frame.\nCount models typically use docvis as response variable. 0 counts are included\n</p>\n<h3>Source</h3>\n<p>German Socio-Economic Panel (SOEP), 1995 pre-reform; 1998 post reform. Created\nby Rabe-Hesketh and Skrondal (2005).\n</p>\n<h3>References</h3>\n<p>Hilbe, Joseph M (2007, 2011), Negative Binomial Regression, Cambridge University Press\nHilbe, Joseph M (2009), Logistic Regression Models, Chapman &amp; Hall/CRC\nRabe-Hesketh, S. and A. Skrondal (2005). Multilevel and Longitudinal Modeling Using Stata, \nCollege Station: Stata Press.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>data(mdvis)\nglmmdp &lt;- glm(numvisit ~ reform + factor(educ) + factor(agegrp), family=poisson, data=mdvis)\nsummary(glmmdp)\nexp(coef(glmmdp))\nlibrary(MASS)\nglmmdnb &lt;- glm.nb(numvisit ~ reform + factor(educ) + factor(agegrp), data=mdvis)\nsummary(glmmdnb)\nexp(coef(glmmdnb))\n</code></pre>\n</main>\n</div>\n"
+   }
 }

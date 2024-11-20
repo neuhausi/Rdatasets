@@ -1,14 +1,52 @@
 {
    "config" : {
-      "title" : "Cloud Seeding Experiment (Winter Only)",
-      "subtitle" : "Stat2Data - CloudSeeding",
-      "scatterPlotMatrix" : 1,
-      "graphType" : "Scatter2D",
       "shapeBy" : "Season",
-      "colorBy" : "Seeded"
+      "scatterPlotMatrix" : 1,
+      "colorBy" : "Seeded",
+      "graphType" : "Scatter2D",
+      "title" : "Cloud Seeding Experiment (Winter Only)",
+      "subtitle" : "Stat2Data - CloudSeeding"
    },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>CloudSeeding</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Cloud Seeding Experiment (Winter Only)</h2>\n<h3>Description</h3>\n<p>Rainfall amounts from a cloud seeding experiment (winter only)\n</p>\n<h3>Format</h3>\n<p>A data frame with 28 observations on the following 7 variables.\n</p>\n<table>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Seeded</code> </td><td style=\"text-align: left;\"> Treatment coded as <code>S</code>=seeded or  <code>U</code>=unseeded</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Season</code> </td><td style=\"text-align: left;\"> All in <code>Winter</code></td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>TE</code> </td><td style=\"text-align: left;\"> Rainfall in East (treatment)</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>TW</code> </td><td style=\"text-align: left;\"> Rainfall in West (treatment</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>NC</code> </td><td style=\"text-align: left;\"> Rainfall in North (control)</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>SC</code> </td><td style=\"text-align: left;\"> Rainfall in South (control)</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>NWC</code> </td><td style=\"text-align: left;\"> Rainfall in Northwest (control)</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n  </td>\n</tr>\n</table>\n<h3>Details</h3>\n<p>Researchers were interested in whether seeded clouds would produce more\nrainfall. An experiment was conducted in Tasmania between 1964 and 1971 and rainfall amounts\nwere measured in inches per rainfall period. The researchers measured the amount of rainfall in\ntwo target areas: East (TE) and West (TW). They also measured the amount of rainfall in three\ncontrol locations. Clouds were coded as being either seeded (treatment) or unseeded (control).\nThis is a subset (only Winter months) of the larger CloudSeeding2 dataset.  All rainfall amounts are in inches.\n</p>\n<h3>Source</h3>\n<p>Data were accessed from the website www.statsci.org/data/oz/cloudtas.html. This is the web home of the\nAustralasian Data and Story Library (OzDASL).\n</p>\n<h3>References</h3>\n<p>A.J. Miller, D.E. Shaw, L.G. Veitch, and E.J. Smith, (1979) &quot;Analyzing the results of a\ncloud-seeding experiment in Tasmania&quot; in Communications in Statistics: Theory and Methods, A8 (10), pp. 1017-1047.\n</p>\n</main>\n</div>\n",
    "data" : {
       "y" : {
+         "vars" : [
+            "Var1",
+            "Var2",
+            "Var3",
+            "Var4",
+            "Var5",
+            "Var6",
+            "Var7",
+            "Var8",
+            "Var9",
+            "Var10",
+            "Var11",
+            "Var12",
+            "Var13",
+            "Var14",
+            "Var15",
+            "Var16",
+            "Var17",
+            "Var18",
+            "Var19",
+            "Var20",
+            "Var21",
+            "Var22",
+            "Var23",
+            "Var24",
+            "Var25",
+            "Var26",
+            "Var27",
+            "Var28"
+         ],
+         "smps" : [
+            "TE",
+            "TW",
+            "NC",
+            "SC",
+            "NWC"
+         ],
          "data" : [
             [
                0.81,
@@ -206,43 +244,6 @@
                3.6,
                7.84
             ]
-         ],
-         "vars" : [
-            "Var1",
-            "Var2",
-            "Var3",
-            "Var4",
-            "Var5",
-            "Var6",
-            "Var7",
-            "Var8",
-            "Var9",
-            "Var10",
-            "Var11",
-            "Var12",
-            "Var13",
-            "Var14",
-            "Var15",
-            "Var16",
-            "Var17",
-            "Var18",
-            "Var19",
-            "Var20",
-            "Var21",
-            "Var22",
-            "Var23",
-            "Var24",
-            "Var25",
-            "Var26",
-            "Var27",
-            "Var28"
-         ],
-         "smps" : [
-            "TE",
-            "TW",
-            "NC",
-            "SC",
-            "NWC"
          ]
       },
       "z" : {
@@ -307,6 +308,5 @@
             "Winter"
          ]
       }
-   },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>CloudSeeding</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Cloud Seeding Experiment (Winter Only)</h2>\n<h3>Description</h3>\n<p>Rainfall amounts from a cloud seeding experiment (winter only)\n</p>\n<h3>Format</h3>\n<p>A data frame with 28 observations on the following 7 variables.\n</p>\n<table>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Seeded</code> </td><td style=\"text-align: left;\"> Treatment coded as <code>S</code>=seeded or  <code>U</code>=unseeded</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Season</code> </td><td style=\"text-align: left;\"> All in <code>Winter</code></td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>TE</code> </td><td style=\"text-align: left;\"> Rainfall in East (treatment)</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>TW</code> </td><td style=\"text-align: left;\"> Rainfall in West (treatment</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>NC</code> </td><td style=\"text-align: left;\"> Rainfall in North (control)</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>SC</code> </td><td style=\"text-align: left;\"> Rainfall in South (control)</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>NWC</code> </td><td style=\"text-align: left;\"> Rainfall in Northwest (control)</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n  </td>\n</tr>\n</table>\n<h3>Details</h3>\n<p>Researchers were interested in whether seeded clouds would produce more\nrainfall. An experiment was conducted in Tasmania between 1964 and 1971 and rainfall amounts\nwere measured in inches per rainfall period. The researchers measured the amount of rainfall in\ntwo target areas: East (TE) and West (TW). They also measured the amount of rainfall in three\ncontrol locations. Clouds were coded as being either seeded (treatment) or unseeded (control).\nThis is a subset (only Winter months) of the larger CloudSeeding2 dataset.  All rainfall amounts are in inches.\n</p>\n<h3>Source</h3>\n<p>Data were accessed from the website www.statsci.org/data/oz/cloudtas.html. This is the web home of the\nAustralasian Data and Story Library (OzDASL).\n</p>\n<h3>References</h3>\n<p>A.J. Miller, D.E. Shaw, L.G. Veitch, and E.J. Smith, (1979) &quot;Analyzing the results of a\ncloud-seeding experiment in Tasmania&quot; in Communications in Statistics: Theory and Methods, A8 (10), pp. 1017-1047.\n</p>\n</main>\n</div>\n"
+   }
 }

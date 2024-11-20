@@ -1,19 +1,19 @@
 var BEPSInfo ={
    "parameters" : {
-      "gender" : "female or male.",
-      "vote" : "Party choice: Conservative, Labour, or Liberal Democrat",
-      "Hague" : "Assessment of the Conservative leader, 1 to 5.",
-      "economic.cond.household" : "Assessment of current household economic conditions, 1 to 5.",
-      "economic.cond.national" : "Assessment of current national economic conditions, 1 to 5.",
-      "Blair" : "Assessment of the Labour leader, 1 to 5.",
-      "Kennedy" : "Assessment of the leader of the Liberal Democrats, 1 to 5.",
       "Europe" : "an 11-point scale that measures respondents' attitudes\ntoward European integration. High scores represent &lsquo;Eurosceptic&rsquo;\nsentiment.",
+      "Blair" : "Assessment of the Labour leader, 1 to 5.",
+      "Hague" : "Assessment of the Conservative leader, 1 to 5.",
+      "vote" : "Party choice: Conservative, Labour, or Liberal Democrat",
+      "gender" : "female or male.",
+      "economic.cond.household" : "Assessment of current household economic conditions, 1 to 5.",
+      "Kennedy" : "Assessment of the leader of the Liberal Democrats, 1 to 5.",
+      "political.knowledge" : "Knowledge of parties' positions on European integration, 0 to 3.",
       "age" : "in years",
-      "political.knowledge" : "Knowledge of parties' positions on European integration, 0 to 3."
+      "economic.cond.national" : "Assessment of current national economic conditions, 1 to 5."
    },
+   "title" : "British Election Panel Study",
    "description" : "Description\nThese data are drawn from the 1997-2001 British Election Panel Study (BEPS).",
    "usage" : "BEPS",
-   "title" : "British Election Panel Study",
    "format" : "A data frame with 1525 observations on the following 10 variables."
 }
 

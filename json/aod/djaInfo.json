@@ -1,0 +1,14 @@
+{
+   "description" : "Description\nField trial to assess the effect of ewes deworming (prevention of gastro-intestinal parasitism) on the mortality\nof their offspring (age < 1 year). This data set is extracted from a large database on small ruminants production\nand health in Senegal (Lancelot et al., 1998). Data were collected in a sample of herds in Kolda (Upper Casamance,\nSenegal) during a multi-site survey (FaugÃ¨re et al., 1992). See also the references below for a presentation of the\nfollow-up survey (FaugÃ¨re and FaugÃ¨re, 1986) and a description of the farming systems (FaugÃ¨re et al., 1990).",
+   "title" : "Mortality of Djallonke Lambs in Senegal",
+   "usage" : "data(dja)",
+   "parameters" : {
+      "n" : "a numeric vector: the number of animals exposed to mortality.",
+      "herd" : "a factor indicating the herd.",
+      "y" : "a numeric vector: the number of deaths.",
+      "village" : "a factor indicating the village of the herd.",
+      "group" : "a factor with 2 levels: CTRL and TREAT, indicating the treatment.",
+      "trisk" : "a numeric vector: the exposition time to mortality (in year)."
+   },
+   "format" : "A data frame with 21 observations on the following 4 variables."
+}

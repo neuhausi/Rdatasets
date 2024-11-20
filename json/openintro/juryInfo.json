@@ -1,0 +1,10 @@
+{
+   "format" : "A data frame with 275 observations on the following variable.",
+   "title" : "Simulated juror dataset",
+   "description" : "Description\nSimulated dataset of registered voters proportions and representation on\njuries.",
+   "usage" : "jury",
+   "reference" : "jury",
+   "parameters" : {
+      "race" : "a factor with levels black hispanic\nother white"
+   }
+}

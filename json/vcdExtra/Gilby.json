@@ -1,17 +1,76 @@
 {
    "config" : {
-      "segregateSamplesBy" : [
-         "Clothing"
-      ],
-      "subtitle" : "vcdExtra - Gilby",
-      "title" : "Clothing and Intelligence Rating of Children",
       "groupingFactors" : [
          "Dullness"
       ],
+      "subtitle" : "vcdExtra - Gilby",
+      "title" : "Clothing and Intelligence Rating of Children",
       "graphType" : "Boxplot",
-      "colorBy" : "variable"
+      "colorBy" : "variable",
+      "segregateSamplesBy" : [
+         "Clothing"
+      ]
    },
    "data" : {
+      "y" : {
+         "smps" : [
+            "Smp1",
+            "Smp2",
+            "Smp3",
+            "Smp4",
+            "Smp5",
+            "Smp6",
+            "Smp7",
+            "Smp8",
+            "Smp9",
+            "Smp10",
+            "Smp11",
+            "Smp12",
+            "Smp13",
+            "Smp14",
+            "Smp15",
+            "Smp16",
+            "Smp17",
+            "Smp18",
+            "Smp19",
+            "Smp20",
+            "Smp21",
+            "Smp22",
+            "Smp23",
+            "Smp24"
+         ],
+         "data" : [
+            [
+               33,
+               48,
+               113,
+               209,
+               194,
+               39,
+               41,
+               100,
+               202,
+               255,
+               138,
+               15,
+               39,
+               58,
+               70,
+               61,
+               33,
+               4,
+               17,
+               13,
+               22,
+               10,
+               10,
+               1
+            ]
+         ],
+         "vars" : [
+            "Freq"
+         ]
+      },
       "x" : {
          "Dullness" : [
             "Ment. defective",
@@ -64,65 +123,6 @@
             "Insufficient",
             "Insufficient",
             "Insufficient"
-         ]
-      },
-      "y" : {
-         "smps" : [
-            "Smp1",
-            "Smp2",
-            "Smp3",
-            "Smp4",
-            "Smp5",
-            "Smp6",
-            "Smp7",
-            "Smp8",
-            "Smp9",
-            "Smp10",
-            "Smp11",
-            "Smp12",
-            "Smp13",
-            "Smp14",
-            "Smp15",
-            "Smp16",
-            "Smp17",
-            "Smp18",
-            "Smp19",
-            "Smp20",
-            "Smp21",
-            "Smp22",
-            "Smp23",
-            "Smp24"
-         ],
-         "vars" : [
-            "Freq"
-         ],
-         "data" : [
-            [
-               33,
-               48,
-               113,
-               209,
-               194,
-               39,
-               41,
-               100,
-               202,
-               255,
-               138,
-               15,
-               39,
-               58,
-               70,
-               61,
-               33,
-               4,
-               17,
-               13,
-               22,
-               10,
-               10,
-               1
-            ]
          ]
       }
    },

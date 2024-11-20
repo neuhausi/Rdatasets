@@ -1,16 +1,16 @@
 var BeesInfo ={
-   "reference" : "Bees were placed in a small tube and either held captive (CAP) or shaken\nperiodically (MAL) for one of 5, 7.5, 10, 12.5 or 15 minutes, after which\nthey were sacrificed and two measures: ovarian development (Iz) and\novarian reabsorption (Iy), were taken. A single control group was\nmeasured with no such treatment, i.e., at time 0; there are n=10 per group.",
-   "title" : "Captive and maltreated bees",
-   "usage" : "A data frame with 246 observations on the following 6 variables.",
-   "description" : "Description\nPabalan, Davey and Packe (2000) studied the effects of captivity and\nmaltreatment on reproductive capabilities of queen and worker bees in a\ncomplex factorial design.",
    "parameters" : {
-      "caste" : "a factor with levels Queen Worker",
       "trtime" : "a factor with levels 0 CAP05 CAP07 CAP10\nCAP12 CAP15 MAL05 MAL07 MAL10\nMAL12 MAL15",
-      "Iy" : "an index of ovarian reabsorption",
       "treat" : "a factor with levels \"\" CAP MAL",
-      "Iz" : "an index of ovarian development",
-      "time" : "an ordered factor: time of treatment"
-   }
+      "time" : "an ordered factor: time of treatment",
+      "Iy" : "an index of ovarian reabsorption",
+      "caste" : "a factor with levels Queen Worker",
+      "Iz" : "an index of ovarian development"
+   },
+   "usage" : "A data frame with 246 observations on the following 6 variables.",
+   "reference" : "Bees were placed in a small tube and either held captive (CAP) or shaken\nperiodically (MAL) for one of 5, 7.5, 10, 12.5 or 15 minutes, after which\nthey were sacrificed and two measures: ovarian development (Iz) and\novarian reabsorption (Iy), were taken. A single control group was\nmeasured with no such treatment, i.e., at time 0; there are n=10 per group.",
+   "description" : "Description\nPabalan, Davey and Packe (2000) studied the effects of captivity and\nmaltreatment on reproductive capabilities of queen and worker bees in a\ncomplex factorial design.",
+   "title" : "Captive and maltreated bees"
 }
 
 var Bees = [

@@ -1,0 +1,6 @@
+{
+   "title" : "NCI 60 Data",
+   "description" : "Description\nNCI microarray data. The data contains expression levels on\n6830 genes from 64 cancer cell lines. Cancer type is also recorded.",
+   "usage" : "NCI60",
+   "format" : "The format is a list containing two elements: data and\nlabs."
+}

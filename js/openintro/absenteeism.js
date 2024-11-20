@@ -1,7 +1,5 @@
 var absenteeismInfo ={
    "format" : "A data frame with 146 observations on the following 5 variables.",
-   "reference" : "Venables WN, Ripley BD. 2002. Modern Applied Statistics with S.\nFourth Edition. New York: Springer.",
-   "title" : "Absenteeism from school in New South Wales",
    "parameters" : {
       "age" : "Age bucket.",
       "sex" : "Gender.",
@@ -9,8 +7,10 @@ var absenteeismInfo ={
       "days" : "Number of days absent.",
       "eth" : "Ethnicity, representing Aboriginal (A) or not (N)."
    },
+   "description" : "Description\nResearchers interested in the relationship between absenteeism from school\nand certain demographic characteristics of children collected data from 146\nrandomly sampled students in rural New South Wales, Australia, in a\nparticular school year.",
+   "title" : "Absenteeism from school in New South Wales",
    "usage" : "absenteeism",
-   "description" : "Description\nResearchers interested in the relationship between absenteeism from school\nand certain demographic characteristics of children collected data from 146\nrandomly sampled students in rural New South Wales, Australia, in a\nparticular school year."
+   "reference" : "Venables WN, Ripley BD. 2002. Modern Applied Statistics with S.\nFourth Edition. New York: Springer."
 }
 
 var absenteeism = [

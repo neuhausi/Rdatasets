@@ -1,24 +1,7 @@
 {
-   "config" : {
-      "subtitle" : "DAAG - cps3",
-      "graphType" : "Heatmap",
-      "title" : "Labour Training Evaluation Data"
-   },
    "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>nswpsid1</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Labour Training Evaluation Data</h2>\n<h3>Description</h3>\n<p>The <code>cps1</code>  (15992 rows) and <code>psid1</code> (2490 rows)\ndatasets are from\nnon-experimental &quot;control&quot; groups, used in various studies of\nthe effect of a labor training program, alternative to the\nexperimental control group in <code>nswdemo</code>.\nThe <code>cps2</code> (2369 rows) and <code>cps3</code> (429 rows) subsets\nof <code>cps1</code> are designed to \nbe better matched to the experimental data than <code>cps1</code>.\nLikewise, <code>psid2</code> (253 rows) and <code>psid3</code> (128 rows)\nare subsets of <code>psid1</code> that are\ndesigned to be better matched to the experimental data than\n<code>psid1</code>.\nThe <code>nswpsid1</code> dataset (2675 rows) combines the experimental\ntreatment group in <code>nswdemo</code> with the <code>psid1</code> \ncontrol data from the Panel Study of Income Dynamics\n(PSID) study.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>  data(psid1)\n  data(nswpsid1)\n  </code></pre>\n<h3>Format</h3>\n<p>Columns are:\n</p>\n<dl>\n<dt>trt</dt><dd><p>a numeric vector \nidentifying the study in which the subjects were enrolled\n(0 = Control, 1 = treated).</p>\n</dd>\n<dt>age</dt><dd><p> age (in years).</p>\n</dd>\n<dt>educ</dt><dd><p> years of education.</p>\n</dd>\n<dt>black</dt><dd><p> (0 = not black, 1 = black).</p>\n</dd>\n<dt>hisp</dt><dd><p> (0 = not hispanic, 1 = hispanic).</p>\n</dd>\n<dt>marr</dt><dd><p> (0 = not married, 1 = married).</p>\n</dd>\n<dt>nodeg</dt><dd><p> (0 = completed high school, 1 = dropout).</p>\n</dd>\n<dt>re74</dt><dd><p> real earnings in 1974.</p>\n</dd>\n<dt>re75</dt><dd><p> real earnings in 1975.</p>\n</dd>\n<dt>re78</dt><dd><p> real earnings in 1978.</p>\n</dd> \n</dl>\n<h3>Details</h3>\n<p>The <code>cps1</code> and <code>psid1</code> data sets are two non-experimental\n&quot;control&quot; groups, alternative to that in <code>nswdemo</code>, used in\ninvestigating whether use of such a non-experimental control group can\nbe satisfactory. <code>cps2</code> and <code>cps3</code> are subsets of <code>cps1</code>,\ndesigned to be better matched to the experimental data than <code>cps1</code>.\nSimilary <code>psid2</code> and <code>psid3</code> are subsets of <code>psid1</code>,\ndesigned to be better matched to the experimental data than\n<code>psid1</code>. <code>nswpsid1</code> combines data for the experimental\ntreatment group in <code>nswdemo</code> with the <code>psid1</code> control data\nfrom the Panel Study of Income Dynamics (PSID) study.\n</p>\n<h3>Source</h3>\n<p><a href=\"https://users.nber.org/~rdehejia/nswdata.html\">https://users.nber.org/~rdehejia/nswdata.html</a>\n</p>\n<h3>References</h3>\n<p>Dehejia, R.H. and Wahba, S. 1999. Causal effects in\nnon-experimental studies: re-evaluating the evaluation of training\nprograms. <em>Journal of the American Statistical Association</em> 94:\n1053-1062.\n</p>\n<p>Lalonde, R. 1986. Evaluating the economic evaluations of\ntraining programs. <em>American Economic Review</em> 76: 604-620.\n</p>\n<p>Smith, J. A. and Todd, P.E. &quot;Does Matching overcome. LaLonde?s\ncritique of nonexperimental estimators&quot;, <em>Journal of\nEconometrics</em> 125: 305-353.\n</p>\n<p>Dehejia, R.H. 2005. Practical propensity score matching: a reply to\nSmith and Todd. <em>Journal of Econometrics</em> 125: 355-364.\n</p>\n</main>\n</div>\n",
    "data" : {
       "y" : {
-         "vars" : [
-            "trt",
-            "age",
-            "educ",
-            "black",
-            "hisp",
-            "marr",
-            "nodeg",
-            "re74",
-            "re75",
-            "re78"
-         ],
          "smps" : [
             "Smp1",
             "Smp2",
@@ -4761,7 +4744,24 @@
                187.6713,
                1495.459
             ]
+         ],
+         "vars" : [
+            "trt",
+            "age",
+            "educ",
+            "black",
+            "hisp",
+            "marr",
+            "nodeg",
+            "re74",
+            "re75",
+            "re78"
          ]
       }
+   },
+   "config" : {
+      "subtitle" : "DAAG - cps3",
+      "title" : "Labour Training Evaluation Data",
+      "graphType" : "Heatmap"
    }
 }

@@ -1,18 +1,18 @@
 var wagnerGrowthInfo ={
+   "format" : "A data frame with 21 \\times 3 = 63 observations\n(one per Region x Period) on the following 7 variables.",
    "parameters" : {
-      "Region" : "a factor with 21 levels, denoting\nthe corresponding region in Hannover (conceptually a &ldquo;block\nfactor&rdquo;).",
-      "PA" : "numeric: percent of people involved in production activities.",
+      "GHS" : "a numeric vector",
+      "y" : "a numeric vector",
       "GPA" : "growth of PA.",
       "Period" : "a factor with levels 1:3,\ndenoting the time period, 1 = 1979-1982, 2 = 1983-1988, 3 = 1989-1992.",
       "HS" : "a numeric vector",
-      "y" : "a numeric vector",
-      "GHS" : "a numeric vector"
+      "Region" : "a factor with 21 levels, denoting\nthe corresponding region in Hannover (conceptually a &ldquo;block\nfactor&rdquo;).",
+      "PA" : "numeric: percent of people involved in production activities."
    },
-   "title" : "Wagner's Hannover Employment Growth Data",
-   "format" : "A data frame with 21 \\times 3 = 63 observations\n(one per Region x Period) on the following 7 variables.",
    "reference" : "Hubert, M. and Rousseeuw, P. J.  (1997).\nRobust regression with both continuous and binary regressors,\nJournal of Statistical Planning and Inference 57, 153&ndash;163.",
-   "description" : "Description\nWagner (1994) investigates the rate of employment growth (y) as\nfunction of percentage of people engaged in producation\nactivities (PA) and higher services\n(HS) and of the growth of these percentages (GPA,\nGHS) during three time periods in 21 geographical regions of\nthe greater Hannover area.",
-   "usage" : "data(wagnerGrowth, package=\"robustbase\")"
+   "usage" : "data(wagnerGrowth, package=\"robustbase\")",
+   "title" : "Wagner's Hannover Employment Growth Data",
+   "description" : "Description\nWagner (1994) investigates the rate of employment growth (y) as\nfunction of percentage of people engaged in producation\nactivities (PA) and higher services\n(HS) and of the growth of these percentages (GPA,\nGHS) during three time periods in 21 geographical regions of\nthe greater Hannover area."
 }
 
 var wagnerGrowth = [

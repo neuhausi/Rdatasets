@@ -1,18 +1,18 @@
 var CigarInfo ={
-   "usage" : "A data frame containing :",
-   "reference" : "total number of observations : 1380",
-   "title" : "Cigarette Consumption",
    "description" : "Description\na panel of 46 observations from 1963 to 1992",
+   "title" : "Cigarette Consumption",
+   "reference" : "total number of observations : 1380",
+   "usage" : "A data frame containing :",
    "parameters" : {
-      "year" : "the year",
-      "ndi" : "per capita disposable income",
-      "cpi" : "consumer price index (1983=100)",
-      "pop" : "population",
-      "pop16" : "population above the age of 16",
-      "pimin" : "minimum price in adjoining states per pack of cigarettes",
       "price" : "price per pack of cigarettes",
+      "ndi" : "per capita disposable income",
       "sales" : "cigarette sales in packs per capita",
-      "state" : "state abbreviation"
+      "cpi" : "consumer price index (1983=100)",
+      "year" : "the year",
+      "pop16" : "population above the age of 16",
+      "pop" : "population",
+      "state" : "state abbreviation",
+      "pimin" : "minimum price in adjoining states per pack of cigarettes"
    }
 }
 

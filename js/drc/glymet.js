@@ -1,14 +1,14 @@
 var glymetInfo ={
-   "reference" : "The dataset is analysed in Soerensen et al (2007). \nThe concentration addition model can be entertained for this dataset.",
-   "title" : "Glyphosate and metsulfuron-methyl tested on algae.",
    "format" : "A data frame with 113 observations on the following 3 variables.",
    "parameters" : {
-      "pct" : "a numeric vector denoting the grouping according to the mixtures percentages",
       "rgr" : "a numeric vector of response values (relative growth rates)",
-      "dose" : "a numeric vector of dose values"
+      "dose" : "a numeric vector of dose values",
+      "pct" : "a numeric vector denoting the grouping according to the mixtures percentages"
    },
-   "usage" : "data(glymet)",
-   "description" : "Description\nThe dataset has 7 mixtures, 8 dilutions, two replicates and 5 common control controls. \nFour observations are missing, giving a total of 113 observations."
+   "title" : "Glyphosate and metsulfuron-methyl tested on algae.",
+   "description" : "Description\nThe dataset has 7 mixtures, 8 dilutions, two replicates and 5 common control controls. \nFour observations are missing, giving a total of 113 observations.",
+   "reference" : "The dataset is analysed in Soerensen et al (2007). \nThe concentration addition model can be entertained for this dataset.",
+   "usage" : "data(glymet)"
 }
 
 var glymet = [

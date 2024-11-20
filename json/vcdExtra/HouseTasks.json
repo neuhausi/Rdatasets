@@ -1,5 +1,4 @@
 {
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>HouseTasks</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>\nHousehold Tasks Performed by Husbands and Wives\n</h2>\n<h3>Description</h3>\n<p>A 13 x 4 table of frequencies of household tasks performed by couples,\neither by the 'Husband', 'Wife', 'Alternating' or 'Jointly'.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(\"HouseTasks\")</code></pre>\n<h3>Format</h3>\n<p>The format is:\n'table' int [1:13, 1:4] 36 11 24 51 13 1 1 14 20 46 ...\n- attr(*, &quot;dimnames&quot;)=List of 2\n..$ Task: chr [1:13] &quot;Breakfast&quot; &quot;Dinner&quot; &quot;Dishes&quot; &quot;Driving&quot; ...\n..$ Who : chr [1:4] &quot;Alternating&quot; &quot;Husband&quot; &quot;Jointly&quot; &quot;Wife&quot;\n</p>\n<h3>Source</h3>\n<p>This data set was taken from <code>housetasks</code>, a \n13 x 4 data.frame.\nIn this table version, the rows and columns were sorted alphabetically\n(and a typo was corrected).\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>data(HouseTasks)\n## maybe str(HouseTasks) \nchisq.test(HouseTasks)\n# mosaic plot, illustrating some tweaks to handle overlapping labels\nrequire(vcd)\nmosaic(HouseTasks, shade = TRUE,\n       labeling = labeling_border(rot_labels = c(45,0, 0, 0), \n                                  offset_label =c(.5,5,0, 0),\n                                  varnames = c(FALSE, TRUE),\n                                  just_labels=c(\"center\",\"right\"),\n                                  tl_varnames = FALSE),\n       legend = FALSE)\n# use seriation package to permute rows &amp; cols using correspondence analysis\nif(require(seriation)) {\norder &lt;- seriate(HouseTasks, method = \"CA\")\n# the permuted row and column labels\nrownames(HouseTasks)[order[[1]]]\ncolnames(HouseTasks)[order[[2]]]\n# do the permutation\nHT_perm &lt;- permute(HouseTasks, order, margin=1)\nmosaic(HT_perm, shade = TRUE,\n       labeling = labeling_border(rot_labels = c(45,0, 0, 0), \n                                  offset_label =c(.5,5,0, 0),\n                                  varnames = c(FALSE, TRUE),\n                                  just_labels=c(\"center\",\"right\"),\n                                  tl_varnames = FALSE),\n       legend = FALSE)\n</code></pre>\n</main>\n</div>\n",
    "data" : {
       "x" : {
          "Who" : [
@@ -166,9 +165,6 @@
             "Smp51",
             "Smp52"
          ],
-         "vars" : [
-            "Freq"
-         ],
          "data" : [
             [
                36,
@@ -224,19 +220,23 @@
                33,
                53
             ]
+         ],
+         "vars" : [
+            "Freq"
          ]
       }
    },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>HouseTasks</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>\nHousehold Tasks Performed by Husbands and Wives\n</h2>\n<h3>Description</h3>\n<p>A 13 x 4 table of frequencies of household tasks performed by couples,\neither by the 'Husband', 'Wife', 'Alternating' or 'Jointly'.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(\"HouseTasks\")</code></pre>\n<h3>Format</h3>\n<p>The format is:\n'table' int [1:13, 1:4] 36 11 24 51 13 1 1 14 20 46 ...\n- attr(*, &quot;dimnames&quot;)=List of 2\n..$ Task: chr [1:13] &quot;Breakfast&quot; &quot;Dinner&quot; &quot;Dishes&quot; &quot;Driving&quot; ...\n..$ Who : chr [1:4] &quot;Alternating&quot; &quot;Husband&quot; &quot;Jointly&quot; &quot;Wife&quot;\n</p>\n<h3>Source</h3>\n<p>This data set was taken from <code>housetasks</code>, a \n13 x 4 data.frame.\nIn this table version, the rows and columns were sorted alphabetically\n(and a typo was corrected).\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>data(HouseTasks)\n## maybe str(HouseTasks) \nchisq.test(HouseTasks)\n# mosaic plot, illustrating some tweaks to handle overlapping labels\nrequire(vcd)\nmosaic(HouseTasks, shade = TRUE,\n       labeling = labeling_border(rot_labels = c(45,0, 0, 0), \n                                  offset_label =c(.5,5,0, 0),\n                                  varnames = c(FALSE, TRUE),\n                                  just_labels=c(\"center\",\"right\"),\n                                  tl_varnames = FALSE),\n       legend = FALSE)\n# use seriation package to permute rows &amp; cols using correspondence analysis\nif(require(seriation)) {\norder &lt;- seriate(HouseTasks, method = \"CA\")\n# the permuted row and column labels\nrownames(HouseTasks)[order[[1]]]\ncolnames(HouseTasks)[order[[2]]]\n# do the permutation\nHT_perm &lt;- permute(HouseTasks, order, margin=1)\nmosaic(HT_perm, shade = TRUE,\n       labeling = labeling_border(rot_labels = c(45,0, 0, 0), \n                                  offset_label =c(.5,5,0, 0),\n                                  varnames = c(FALSE, TRUE),\n                                  just_labels=c(\"center\",\"right\"),\n                                  tl_varnames = FALSE),\n       legend = FALSE)\n</code></pre>\n</main>\n</div>\n",
    "config" : {
-      "groupingFactors" : [
-         "Who"
-      ],
-      "graphType" : "Boxplot",
-      "colorBy" : "variable",
-      "subtitle" : "vcdExtra - HouseTasks",
       "segregateSamplesBy" : [
          "Task"
       ],
+      "colorBy" : "variable",
+      "graphType" : "Boxplot",
+      "groupingFactors" : [
+         "Who"
+      ],
+      "subtitle" : "vcdExtra - HouseTasks",
       "title" : "Household Tasks Performed by Husbands and Wives"
    }
 }

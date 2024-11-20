@@ -1,0 +1,14 @@
+{
+   "format" : "An object of class\nc(\"nfnGroupedData\", \"nfGroupedData\", \"groupedData\", \"data.frame\")\ncontaining the following columns:",
+   "usage" : "Theoph",
+   "reference" : "Boeckmann, Sheiner and Beal (1994) report data from a study by\nDr. Robert Upton of the kinetics of the anti-asthmatic drug\ntheophylline.  Twelve subjects were given oral doses of theophylline\nthen serum concentrations were measured at 11 time points over the\nnext 25 hours.",
+   "description" : "Description\nThe Theoph data frame has 132 rows and 5 columns of data from\nan experiment on the pharmacokinetics of theophylline.",
+   "title" : "Pharmacokinetics of Theophylline",
+   "parameters" : {
+      "Wt" : "weight of the subject (kg).",
+      "Subject" : "an ordered factor with levels 1, ..., 12\nidentifying the subject on whom the observation was made.  The\nordering is by increasing maximum concentration of theophylline\nobserved.",
+      "Time" : "time since drug administration when the sample was drawn (hr).",
+      "conc" : "theophylline concentration in the sample (mg/L).",
+      "Dose" : "dose of theophylline administered orally to the subject (mg/kg)."
+   }
+}

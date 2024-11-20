@@ -1,5 +1,4 @@
 {
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>hseinv</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>hseinv</h2>\n<h3>Description</h3>\n<p>Wooldridge Source: D. McFadden (1994), âDemographics, the Housing Market, and the Welfare of the Elderly,â in D.A. Wise (ed.), Studies in the Economics of Aging. Chicago: University of Chicago Press, 225-285. The data are contained in the article. Data loads lazily.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data('hseinv')\n</code></pre>\n<h3>Format</h3>\n<p>A data.frame with 42 observations on 14 variables:\n</p>\n<ul>\n<li> <p><strong>year:</strong> 1947-1988\n</p>\n</li>\n<li> <p><strong>inv:</strong> real housing inv, millions $\n</p>\n</li>\n<li> <p><strong>pop:</strong> population, 1000s\n</p>\n</li>\n<li> <p><strong>price:</strong> housing price index; 1982 = 1\n</p>\n</li>\n<li> <p><strong>linv:</strong> log(inv)\n</p>\n</li>\n<li> <p><strong>lpop:</strong> log(pop)\n</p>\n</li>\n<li> <p><strong>lprice:</strong> log(price)\n</p>\n</li>\n<li> <p><strong>t:</strong> time trend: t=1,...,42\n</p>\n</li>\n<li> <p><strong>invpc:</strong> per capita inv: inv/pop\n</p>\n</li>\n<li> <p><strong>linvpc:</strong> log(invpc)\n</p>\n</li>\n<li> <p><strong>lprice_1:</strong> lprice[_n-1]\n</p>\n</li>\n<li> <p><strong>linvpc_1:</strong> linvpc[_n-1]\n</p>\n</li>\n<li> <p><strong>gprice:</strong> lprice - lprice_1\n</p>\n</li>\n<li> <p><strong>ginvpc:</strong> linvpc - linvpc_1\n</p>\n</li></ul>\n<h3>Used in Text</h3>\n<p>pages 367, 370, 407, 638-639, 822?\n</p>\n<h3>Source</h3>\n<p><a href=\"https://www.cengage.com/cgi-wadsworth/course_products_wp.pl?fid=M20b&amp;product_isbn_issn=9781111531041\">https://www.cengage.com/cgi-wadsworth/course_products_wp.pl?fid=M20b&amp;product_isbn_issn=9781111531041</a>\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'> str(hseinv)\n</code></pre>\n</main>\n</div>\n",
    "data" : {
       "x" : {
          "gprice" : [
@@ -46,50 +45,6 @@
             "0.013433934189379215",
             "-0.002834571525454521"
          ],
-         "linvpc_1" : [
-            "",
-            "-0.9658305048942566",
-            "-0.8178952932357788",
-            "-0.8596944212913513",
-            "-0.5672893524169922",
-            "-0.781642735004425",
-            "-0.828039288520813",
-            "-0.8123381733894348",
-            "-0.727418065071106",
-            "-0.5945120453834534",
-            "-0.7384758591651917",
-            "-0.8386591076850891",
-            "-0.8447533249855042",
-            "-0.6929110288619995",
-            "-0.7763081192970276",
-            "-0.79192352294921875",
-            "-0.7386400103569031",
-            "-0.6706069707870483",
-            "-0.710372269153595",
-            "-0.663219153881073",
-            "-0.7576043009757996",
-            "-0.7773115038871765",
-            "-0.7005082964897156",
-            "-0.6848482489585876",
-            "-0.7500485777854919",
-            "-0.5108706951141357",
-            "-0.35176098346710205",
-            "-0.3756909668445587",
-            "-0.6431642174720764",
-            "-0.8194886445999146",
-            "-0.6174103021621704",
-            "-0.4376812279224396",
-            "-0.38802146911621094",
-            "-0.4544675052165985",
-            "-0.7070163488388062",
-            "-0.8067350387573242",
-            "-1.0101439952850342",
-            "-0.6480181217193604",
-            "-0.4901864528656006",
-            "-0.49189573526382446",
-            "-0.3610091805458069",
-            "-0.3761591911315918"
-         ],
          "lprice_1" : [
             "",
             "-0.1996711939573288",
@@ -133,6 +88,50 @@
             "-0.024292681366205215",
             "-0.024292681366205215",
             "-0.010858747176826"
+         ],
+         "linvpc_1" : [
+            "",
+            "-0.9658305048942566",
+            "-0.8178952932357788",
+            "-0.8596944212913513",
+            "-0.5672893524169922",
+            "-0.781642735004425",
+            "-0.828039288520813",
+            "-0.8123381733894348",
+            "-0.727418065071106",
+            "-0.5945120453834534",
+            "-0.7384758591651917",
+            "-0.8386591076850891",
+            "-0.8447533249855042",
+            "-0.6929110288619995",
+            "-0.7763081192970276",
+            "-0.79192352294921875",
+            "-0.7386400103569031",
+            "-0.6706069707870483",
+            "-0.710372269153595",
+            "-0.663219153881073",
+            "-0.7576043009757996",
+            "-0.7773115038871765",
+            "-0.7005082964897156",
+            "-0.6848482489585876",
+            "-0.7500485777854919",
+            "-0.5108706951141357",
+            "-0.35176098346710205",
+            "-0.3756909668445587",
+            "-0.6431642174720764",
+            "-0.8194886445999146",
+            "-0.6174103021621704",
+            "-0.4376812279224396",
+            "-0.38802146911621094",
+            "-0.4544675052165985",
+            "-0.7070163488388062",
+            "-0.8067350387573242",
+            "-1.0101439952850342",
+            "-0.6480181217193604",
+            "-0.4901864528656006",
+            "-0.49189573526382446",
+            "-0.3610091805458069",
+            "-0.3761591911315918"
          ],
          "ginvpc" : [
             "",
@@ -180,6 +179,18 @@
          ]
       },
       "y" : {
+         "vars" : [
+            "year",
+            "inv",
+            "pop",
+            "price",
+            "linv",
+            "lpop",
+            "lprice",
+            "t",
+            "invpc",
+            "linvpc"
+         ],
          "data" : [
             [
                1947,
@@ -622,18 +633,6 @@
                -0.397944629192352
             ]
          ],
-         "vars" : [
-            "year",
-            "inv",
-            "pop",
-            "price",
-            "linv",
-            "lpop",
-            "lprice",
-            "t",
-            "invpc",
-            "linvpc"
-         ],
          "smps" : [
             "Smp1",
             "Smp2",
@@ -680,14 +679,15 @@
          ]
       }
    },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>hseinv</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>hseinv</h2>\n<h3>Description</h3>\n<p>Wooldridge Source: D. McFadden (1994), âDemographics, the Housing Market, and the Welfare of the Elderly,â in D.A. Wise (ed.), Studies in the Economics of Aging. Chicago: University of Chicago Press, 225-285. The data are contained in the article. Data loads lazily.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data('hseinv')\n</code></pre>\n<h3>Format</h3>\n<p>A data.frame with 42 observations on 14 variables:\n</p>\n<ul>\n<li> <p><strong>year:</strong> 1947-1988\n</p>\n</li>\n<li> <p><strong>inv:</strong> real housing inv, millions $\n</p>\n</li>\n<li> <p><strong>pop:</strong> population, 1000s\n</p>\n</li>\n<li> <p><strong>price:</strong> housing price index; 1982 = 1\n</p>\n</li>\n<li> <p><strong>linv:</strong> log(inv)\n</p>\n</li>\n<li> <p><strong>lpop:</strong> log(pop)\n</p>\n</li>\n<li> <p><strong>lprice:</strong> log(price)\n</p>\n</li>\n<li> <p><strong>t:</strong> time trend: t=1,...,42\n</p>\n</li>\n<li> <p><strong>invpc:</strong> per capita inv: inv/pop\n</p>\n</li>\n<li> <p><strong>linvpc:</strong> log(invpc)\n</p>\n</li>\n<li> <p><strong>lprice_1:</strong> lprice[_n-1]\n</p>\n</li>\n<li> <p><strong>linvpc_1:</strong> linvpc[_n-1]\n</p>\n</li>\n<li> <p><strong>gprice:</strong> lprice - lprice_1\n</p>\n</li>\n<li> <p><strong>ginvpc:</strong> linvpc - linvpc_1\n</p>\n</li></ul>\n<h3>Used in Text</h3>\n<p>pages 367, 370, 407, 638-639, 822?\n</p>\n<h3>Source</h3>\n<p><a href=\"https://www.cengage.com/cgi-wadsworth/course_products_wp.pl?fid=M20b&amp;product_isbn_issn=9781111531041\">https://www.cengage.com/cgi-wadsworth/course_products_wp.pl?fid=M20b&amp;product_isbn_issn=9781111531041</a>\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'> str(hseinv)\n</code></pre>\n</main>\n</div>\n",
    "config" : {
-      "subtitle" : "wooldridge - hseinv",
-      "graphType" : "Heatmap",
-      "title" : "hseinv",
       "smpOverlays" : [
          "gprice",
-         "linvpc_1",
-         "lprice_1"
-      ]
+         "lprice_1",
+         "linvpc_1"
+      ],
+      "graphType" : "Heatmap",
+      "title" : "hseinv",
+      "subtitle" : "wooldridge - hseinv"
    }
 }

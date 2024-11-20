@@ -1,16 +1,16 @@
 var AlligatorInfo ={
-   "description" : "Description\nThe Alligator data, from Agresti (2002), comes from a study of the primary food choices of alligators \nin four Florida lakes. Researchers classified the stomach contents of 219 captured alligators into five categories: \nFish (the most common primary food choice), Invertebrate (snails, insects, crayfish, etc.), \nReptile (turtles, alligators), Bird, and Other (amphibians, plants, household pets, stones, and other debris).",
+   "format" : "A frequency data frame with 80 observations on the following 5 variables.",
+   "reference" : "The table contains a fair number of 0 counts.",
    "usage" : "data(Alligator)",
+   "description" : "Description\nThe Alligator data, from Agresti (2002), comes from a study of the primary food choices of alligators \nin four Florida lakes. Researchers classified the stomach contents of 219 captured alligators into five categories: \nFish (the most common primary food choice), Invertebrate (snails, insects, crayfish, etc.), \nReptile (turtles, alligators), Bird, and Other (amphibians, plants, household pets, stones, and other debris).",
+   "title" : "Alligator Food Choice",
    "parameters" : {
+      "sex" : "a factor with levels female male",
+      "size" : "alligator size, a factor with levels large (>2.3m) small (<=2.3m)",
       "lake" : "a factor with levels George Hancock Oklawaha Trafford",
       "food" : "primary food choice, a factor with levels bird fish invert other reptile",
-      "count" : "cell frequency, a numeric vector",
-      "size" : "alligator size, a factor with levels large (>2.3m) small (<=2.3m)",
-      "sex" : "a factor with levels female male"
-   },
-   "format" : "A frequency data frame with 80 observations on the following 5 variables.",
-   "title" : "Alligator Food Choice",
-   "reference" : "The table contains a fair number of 0 counts."
+      "count" : "cell frequency, a numeric vector"
+   }
 }
 
 var Alligator = [

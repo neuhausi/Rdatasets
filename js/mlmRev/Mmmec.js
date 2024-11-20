@@ -1,17 +1,17 @@
 var MmmecInfo ={
-   "description" : "Description\nMalignant Melanoma Mortality in the European Community associated with\nthe impact of UV radiation exposure.",
-   "usage" : "data(Mmmec)",
-   "parameters" : {
-      "expected" : "Number of expected deaths.",
-      "county" : "County ID - a factor.",
-      "uvb" : "Centered measure of the UVB dose reaching the earth's\nsurface in each county.",
-      "region" : "Region ID - a factor.",
-      "deaths" : "Number of male deaths due to MM during 1971&ndash;1980",
-      "nation" : "a factor with levels Belgium, W.Germany,\nDenmark, France, UK, Italy, Ireland,\nLuxembourg, and Netherlands"
-   },
-   "title" : "Malignant melanoma deaths in Europe",
    "format" : "A data frame with 354 observations on the following 6 variables.",
-   "reference" : "http://www.bristol.ac.uk/cmm/learning/mmsoftware/data-rev.html"
+   "usage" : "data(Mmmec)",
+   "reference" : "http://www.bristol.ac.uk/cmm/learning/mmsoftware/data-rev.html",
+   "description" : "Description\nMalignant Melanoma Mortality in the European Community associated with\nthe impact of UV radiation exposure.",
+   "title" : "Malignant melanoma deaths in Europe",
+   "parameters" : {
+      "county" : "County ID - a factor.",
+      "deaths" : "Number of male deaths due to MM during 1971&ndash;1980",
+      "region" : "Region ID - a factor.",
+      "expected" : "Number of expected deaths.",
+      "nation" : "a factor with levels Belgium, W.Germany,\nDenmark, France, UK, Italy, Ireland,\nLuxembourg, and Netherlands",
+      "uvb" : "Centered measure of the UVB dose reaching the earth's\nsurface in each county."
+   }
 }
 
 var Mmmec = [

@@ -1,9 +1,4 @@
 {
-   "config" : {
-      "subtitle" : "boot - paulsen",
-      "graphType" : "Treemap",
-      "title" : "Neurotransmission in Guinea Pig Brains"
-   },
    "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>paulsen</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>\nNeurotransmission in Guinea Pig Brains\n</h2>\n<h3>Description</h3>\n<p>The <code>paulsen</code> data frame has 346 rows and 1 columns.  \n</p>\n<p>Sections were prepared from the brain of adult guinea pigs. Spontaneous\ncurrents that flowed into individual brain cells were then recorded and\nthe peak amplitude of each current measured.  The aim of the experiment \nwas to see if the current flow was\nquantal in nature (i.e. that it is not a single burst but instead is built up\nof many smaller bursts of current).  If the current was indeed quantal then it\nwould be expected that the distribution of the current amplitude would be\nmultimodal with modes at regular intervals.  The modes would be expected to\ndecrease in magnitude for higher current amplitudes.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>paulsen\n</code></pre>\n<h3>Format</h3>\n<p>This data frame contains the following column:\n</p>\n<dl>\n<dt><code>y</code></dt><dd>\n<p>The current flowing into individual brain cells. The currents are\nmeasured in pico-amperes.\n</p>\n</dd></dl>\n<h3>Source</h3>\n<p>The data were kindly made available by Dr. O. Paulsen from the Department\nof Pharmacology at the University of Oxford. \n</p>\n<p>Paulsen, O. and Heggelund, P. (1994) The quantal size at retinogeniculate \nsynapses determined from spontaneous and evoked EPSCs in guinea-pig thalamic \nslices. <em>Journal of Physiology</em>, <b>480</b>, 505&ndash;511. \n</p>\n<h3>References</h3>\n<p>Davison, A.C. and Hinkley, D.V. (1997) \n<em>Bootstrap Methods and Their Application</em>. Cambridge University Press.\n</p>\n</main>\n</div>\n",
    "data" : {
       "y" : {
@@ -357,9 +352,6 @@
                19.2
             ]
          ],
-         "vars" : [
-            "y"
-         ],
          "smps" : [
             "Smp1",
             "Smp2",
@@ -707,7 +699,15 @@
             "Smp344",
             "Smp345",
             "Smp346"
+         ],
+         "vars" : [
+            "y"
          ]
       }
+   },
+   "config" : {
+      "title" : "Neurotransmission in Guinea Pig Brains",
+      "subtitle" : "boot - paulsen",
+      "graphType" : "Treemap"
    }
 }

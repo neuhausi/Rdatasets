@@ -1,13 +1,13 @@
 var full_body_scanInfo ={
-   "format" : "A data frame with 1137 observations on the following 2 variables.",
-   "reference" : "S. Condon. Poll: 4 in 5 Support Full-Body Airport Scanners. In: CBS\nNews (2010).",
    "title" : "Poll about use of full-body airport scanners",
-   "parameters" : {
-      "answer" : "a factor with levels do not know / no\nanswer should should not",
-      "party.affiliation" : "a\nfactor with levels Democrat Independent Republican"
-   },
+   "description" : "Description\nPoll about use of full-body airport scanners, where about 4-in-5 people\nsupported the use of the scanners.",
    "usage" : "full_body_scan",
-   "description" : "Description\nPoll about use of full-body airport scanners, where about 4-in-5 people\nsupported the use of the scanners."
+   "reference" : "S. Condon. Poll: 4 in 5 Support Full-Body Airport Scanners. In: CBS\nNews (2010).",
+   "parameters" : {
+      "party.affiliation" : "a\nfactor with levels Democrat Independent Republican",
+      "answer" : "a factor with levels do not know / no\nanswer should should not"
+   },
+   "format" : "A data frame with 1137 observations on the following 2 variables."
 }
 
 var full_body_scan = [

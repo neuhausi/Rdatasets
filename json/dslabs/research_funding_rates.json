@@ -13,17 +13,6 @@
             "success_rates_men",
             "success_rates_women"
          ],
-         "smps" : [
-            "Smp1",
-            "Smp2",
-            "Smp3",
-            "Smp4",
-            "Smp5",
-            "Smp6",
-            "Smp7",
-            "Smp8",
-            "Smp9"
-         ],
          "data" : [
             [
                122,
@@ -124,6 +113,17 @@
                11.5,
                11.2
             ]
+         ],
+         "smps" : [
+            "Smp1",
+            "Smp2",
+            "Smp3",
+            "Smp4",
+            "Smp5",
+            "Smp6",
+            "Smp7",
+            "Smp8",
+            "Smp9"
          ]
       },
       "x" : {
@@ -141,11 +141,11 @@
       }
    },
    "config" : {
-      "title" : "Gender bias in research funding in the Netherlands",
       "graphType" : "Stacked",
       "smpOverlays" : [
          "discipline"
       ],
-      "subtitle" : "dslabs - research_funding_rates"
+      "subtitle" : "dslabs - research_funding_rates",
+      "title" : "Gender bias in research funding in the Netherlands"
    }
 }

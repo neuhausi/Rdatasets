@@ -1,0 +1,24 @@
+{
+   "format" : "A dataframe containing :",
+   "title" : "Hedonic Prices of Census Tracts in Boston",
+   "description" : "Description\na cross-section\nnumber of observations :  506\nobservation :  regional\ncountry :  United States",
+   "usage" : "data(Hedonic)",
+   "reference" : "Harrison, D.  and  D.L.  Rubinfeld (1978) &ldquo;Hedonic housing prices and the demand for clean air&rdquo;, Journal of Environmental Economics Ans Management, 5, 81&ndash;102.",
+   "parameters" : {
+      "ptratio" : "pupil/teacher ratio",
+      "townid" : "town identifier",
+      "zn" : "proportion of 25,000 square feet residential lots",
+      "nox" : "annual average nitrogen oxide concentration in parts per hundred million",
+      "crim" : "crime rate",
+      "age" : "proportion of owner units built prior to 1940",
+      "indus" : "proportion of nonretail business acres",
+      "rm" : "average number of rooms",
+      "blacks" : "proportion of blacks in the population",
+      "tax" : "full value property tax rate ($ / $10,000)",
+      "dis" : "weighted distances to five employment centers in the Boston area",
+      "lstat" : "proportion of population that is lower status",
+      "chas" : "is the tract bounds the Charles River ?",
+      "mv" : "median value of owner&ndash;occupied homes",
+      "rad" : "index of accessibility to radial highways"
+   }
+}

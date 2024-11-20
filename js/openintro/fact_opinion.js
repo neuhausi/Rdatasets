@@ -1,14 +1,14 @@
 var fact_opinionInfo ={
-   "description" : "Description\nPew Research Center conducted a survey in 2018, asking a sample of\nU.S. adults to categorize five factual and five opinion statements.\nThis dataset provides data from this survey, with information on the age\ngroup of the participant as well as the number of factual and opinion\nstatements they classified correctly (out of 5).",
-   "usage" : "fact_opinion",
    "parameters" : {
-      "fact_correct" : "Number of factual statements classified correctly (out of 5).",
       "age_group" : "Age group of survey participant.",
-      "opinion_correct" : "Number of opinion statements classified correctly (out of 5)."
+      "opinion_correct" : "Number of opinion statements classified correctly (out of 5).",
+      "fact_correct" : "Number of factual statements classified correctly (out of 5)."
    },
-   "format" : "A data frame with 5,035 rows and 3 variables.",
+   "usage" : "fact_opinion",
    "reference" : "Younger Americans are better than older Americans at telling factual news statements from opinions, Pew Research Center, October 23, 2018.",
-   "title" : "Can Americans categorize facts and opinions?"
+   "description" : "Description\nPew Research Center conducted a survey in 2018, asking a sample of\nU.S. adults to categorize five factual and five opinion statements.\nThis dataset provides data from this survey, with information on the age\ngroup of the participant as well as the number of factual and opinion\nstatements they classified correctly (out of 5).",
+   "title" : "Can Americans categorize facts and opinions?",
+   "format" : "A data frame with 5,035 rows and 3 variables."
 }
 
 var fact_opinion = [

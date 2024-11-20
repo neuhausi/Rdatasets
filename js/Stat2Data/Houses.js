@@ -1,7 +1,7 @@
 var HousesInfo ={
+   "description" : "Description\nSelling price and characteristics for a sample of 20 houses in a small town",
    "title" : "House Prices, Sizes, and Lot Areas",
-   "usage" : "A data frame with 20 observations on the following 3 variables.",
-   "description" : "Description\nSelling price and characteristics for a sample of 20 houses in a small town"
+   "usage" : "A data frame with 20 observations on the following 3 variables."
 }
 
 var Houses = [

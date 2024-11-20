@@ -1,13 +1,13 @@
 var poisonsInfo ={
+   "title" : "Animal Survival Times",
    "description" : "Description\nThe poisons data frame has 48 rows and 3 columns.\nThe data form a 3x4 factorial experiment, the factors being three poisons\nand four treatments.  Each combination of the two factors was used for\nfour animals, the allocation to animals having been completely randomized.",
+   "reference" : "The data were obtained from",
    "usage" : "poisons",
    "parameters" : {
-      "poison" : "A factor with levels 1, 2 and 3 giving the type of poison used.",
+      "time" : "The survival time of the animal in units of 10 hours.",
       "treat" : "A factor with levels A, B, C and D giving the treatment.",
-      "time" : "The survival time of the animal in units of 10 hours."
+      "poison" : "A factor with levels 1, 2 and 3 giving the type of poison used."
    },
-   "title" : "Animal Survival Times",
-   "reference" : "The data were obtained from",
    "format" : "This data frame contains the following columns:"
 }
 

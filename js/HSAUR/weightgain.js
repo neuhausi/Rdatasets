@@ -1,14 +1,14 @@
 var weightgainInfo ={
-   "usage" : "data(\"weightgain\")",
-   "description" : "Description\nThe data arise from an experiment to study the\ngain in weight of rats fed on four different diets, distinguished\nby amount of protein (low and high) and by source of protein\n(beef and cereal).",
    "title" : "Gain in Weight of Rats",
-   "format" : "A data frame with 40 observations on the following 3 variables.",
+   "description" : "Description\nThe data arise from an experiment to study the\ngain in weight of rats fed on four different diets, distinguished\nby amount of protein (low and high) and by source of protein\n(beef and cereal).",
+   "usage" : "data(\"weightgain\")",
    "reference" : "Ten rats are randomized to each of the four\ntreatments. The question\nof interest is how diet affects weight gain.",
    "parameters" : {
       "source" : "source of protein given, a factor with levels Beef\nand Cereal.",
-      "weightgain" : "weigt gain in grams.",
-      "type" : "amount of protein given, a factor with levels High\nand Low."
-   }
+      "type" : "amount of protein given, a factor with levels High\nand Low.",
+      "weightgain" : "weigt gain in grams."
+   },
+   "format" : "A data frame with 40 observations on the following 3 variables."
 }
 
 var weightgain = [

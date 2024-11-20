@@ -1,8 +1,8 @@
 var melb_walkersInfo ={
    "format" : "Melbourne Open Data Portal. https://data.melbourne.vic.gov.au",
-   "title" : "Average daily total pedestrian count in Melbourne",
    "usage" : "Time series of class 'tsibble'",
-   "description" : "Description\nDaily average total pedestrian count (across different sensors) from 2019-01-01 to\n2024-05-29."
+   "description" : "Description\nDaily average total pedestrian count (across different sensors) from 2019-01-01 to\n2024-05-29.",
+   "title" : "Average daily total pedestrian count in Melbourne"
 }
 
 var melb_walkers = [

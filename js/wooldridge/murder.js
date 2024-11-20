@@ -1,24 +1,24 @@
 var murderInfo ={
-   "description" : "Description\nWooldridge Source: From the Statistical Abstract of the United States, 1995 (Tables 310 and 357), 1992 (Table 289). The execution data originally come from the U.S. Bureau of Justice Statistics, Capital Punishment Annual. Data loads lazily.",
-   "usage" : "data('murder')",
    "parameters" : {
-      "d93" : " =1 if year == 93",
-      "cmrdrte" : " mrdrte - mrdrte[_n-1]",
-      "cexec_1" : " cexec[_n-1]",
       "state" : " postal code",
-      "id" : " state identifier",
+      "cexec" : " exec - exec[_n-1]",
+      "cmrdrte" : " mrdrte - mrdrte[_n-1]",
       "unem" : " annual unem. rate",
-      "cunem" : " unem - unem[_n-1]",
       "cunem_1" : " cunem[_n-1]",
-      "year" : " 87, 90, or 93",
-      "mrdrte" : " murders per 100,000 people",
+      "id" : " state identifier",
       "d90" : " =1 if year == 90",
+      "cunem" : " unem - unem[_n-1]",
+      "year" : " 87, 90, or 93",
       "exec" : " total executions, past 3 years",
-      "cexec" : " exec - exec[_n-1]"
+      "cexec_1" : " cexec[_n-1]",
+      "d93" : " =1 if year == 93",
+      "mrdrte" : " murders per 100,000 people"
    },
+   "description" : "Description\nWooldridge Source: From the Statistical Abstract of the United States, 1995 (Tables 310 and 357), 1992 (Table 289). The execution data originally come from the U.S. Bureau of Justice Statistics, Capital Punishment Annual. Data loads lazily.",
+   "title" : "murder",
+   "usage" : "data('murder')",
    "reference" : "Prosecutors in different counties might pursue the death penalty with different intensities, so it makes sense to collect murder and execution data at the county level. This could be combined with better demographic information at the county level, along with better economic data (say, on wages for various kinds of employment).",
-   "format" : "A data.frame with 153 observations on 13 variables:",
-   "title" : "murder"
+   "format" : "A data.frame with 153 observations on 13 variables:"
 }
 
 var murder = [

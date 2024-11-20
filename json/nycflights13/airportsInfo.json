@@ -1,0 +1,16 @@
+{
+   "format" : "A data frame with columns:",
+   "parameters" : {
+      "lat, lon" : "Location of airport.",
+      "faa" : "FAA airport code.",
+      "alt" : "Altitude, in feet.",
+      "dst" : "Daylight savings time zone. A = Standard US DST: starts on the\nsecond Sunday of March, ends on the first Sunday of November.\nU = unknown. N = no dst.",
+      "name" : "Usual name of the aiport.",
+      "tzone" : "IANA time zone, as determined by GeoNames webservice.",
+      "tz" : "Timezone offset from GMT."
+   },
+   "usage" : "airports",
+   "reference" : "https://openflights.org/data.html, downloaded 2014-06-27",
+   "title" : "Airport metadata",
+   "description" : "Description\nUseful metadata about airports."
+}

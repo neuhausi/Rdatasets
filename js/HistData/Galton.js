@@ -1,13 +1,13 @@
 var GaltonInfo ={
-   "reference" : "The data are recorded in class intervals of width 1.0 in. He used non-integer\nvalues for the center of each class interval because of the strong bias toward\nintegral inches.",
-   "title" : "Galton's data on the heights of parents and their children",
    "format" : "A data frame with 928 observations on the following 2 variables.",
-   "parameters" : {
-      "child" : "a numeric vector: height of the child",
-      "parent" : "a numeric vector: height of the mid-parent (average of father and mother)"
-   },
+   "description" : "Description\nGalton (1886) presented these data in a table, showing a cross-tabulation of\n928 adult children born to 205 fathers and mothers, by their height and\ntheir mid-parent's height.\nHe visually smoothed the bivariate frequency distribution and showed that the\ncontours formed concentric and similar ellipses, thus setting the stage for\ncorrelation, regression and the bivariate normal distribution.",
+   "title" : "Galton's data on the heights of parents and their children",
+   "reference" : "The data are recorded in class intervals of width 1.0 in. He used non-integer\nvalues for the center of each class interval because of the strong bias toward\nintegral inches.",
    "usage" : "data(Galton)",
-   "description" : "Description\nGalton (1886) presented these data in a table, showing a cross-tabulation of\n928 adult children born to 205 fathers and mothers, by their height and\ntheir mid-parent's height.\nHe visually smoothed the bivariate frequency distribution and showed that the\ncontours formed concentric and similar ellipses, thus setting the stage for\ncorrelation, regression and the bivariate normal distribution."
+   "parameters" : {
+      "parent" : "a numeric vector: height of the mid-parent (average of father and mother)",
+      "child" : "a numeric vector: height of the child"
+   }
 }
 
 var Galton = [

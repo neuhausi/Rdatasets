@@ -1,14 +1,14 @@
 var AlcoholInfo ={
    "format" : "A data frame with 411 observations on the following variables.",
    "title" : "Alcohol Consumption per Capita",
+   "description" : "Description\nThese data provide per capita alcohol consumption values\nfor many countries in 2005 and 2008.  There are also a few\ncountries for which there are data in other years.",
    "reference" : "Gapminder (https://www.gapminder.org/data/)",
-   "parameters" : {
-      "alcohol" : "estimated per capita alcohol consumption for adults (15+)\nin litres pure alcohol",
-      "country" : "country name",
-      "year" : "year"
-   },
    "usage" : "data(Alcohol)",
-   "description" : "Description\nThese data provide per capita alcohol consumption values\nfor many countries in 2005 and 2008.  There are also a few\ncountries for which there are data in other years."
+   "parameters" : {
+      "country" : "country name",
+      "alcohol" : "estimated per capita alcohol consumption for adults (15+)\nin litres pure alcohol",
+      "year" : "year"
+   }
 }
 
 var Alcohol = [

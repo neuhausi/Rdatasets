@@ -1,12 +1,12 @@
 var paulsenInfo ={
-   "usage" : "paulsen",
-   "description" : "Description\nThe paulsen data frame has 346 rows and 1 columns.\nSections were prepared from the brain of adult guinea pigs. Spontaneous\ncurrents that flowed into individual brain cells were then recorded and\nthe peak amplitude of each current measured.  The aim of the experiment \nwas to see if the current flow was\nquantal in nature (i.e. that it is not a single burst but instead is built up\nof many smaller bursts of current).  If the current was indeed quantal then it\nwould be expected that the distribution of the current amplitude would be\nmultimodal with modes at regular intervals.  The modes would be expected to\ndecrease in magnitude for higher current amplitudes.",
-   "reference" : "The data were kindly made available by Dr. O. Paulsen from the Department\nof Pharmacology at the University of Oxford.",
-   "title" : "Neurotransmission in Guinea Pig Brains",
    "format" : "This data frame contains the following column:",
    "parameters" : {
       "y" : "The current flowing into individual brain cells. The currents are\nmeasured in pico-amperes."
-   }
+   },
+   "description" : "Description\nThe paulsen data frame has 346 rows and 1 columns.\nSections were prepared from the brain of adult guinea pigs. Spontaneous\ncurrents that flowed into individual brain cells were then recorded and\nthe peak amplitude of each current measured.  The aim of the experiment \nwas to see if the current flow was\nquantal in nature (i.e. that it is not a single burst but instead is built up\nof many smaller bursts of current).  If the current was indeed quantal then it\nwould be expected that the distribution of the current amplitude would be\nmultimodal with modes at regular intervals.  The modes would be expected to\ndecrease in magnitude for higher current amplitudes.",
+   "title" : "Neurotransmission in Guinea Pig Brains",
+   "usage" : "paulsen",
+   "reference" : "The data were kindly made available by Dr. O. Paulsen from the Department\nof Pharmacology at the University of Oxford."
 }
 
 var paulsen = [

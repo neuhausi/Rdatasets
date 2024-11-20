@@ -1,18 +1,18 @@
 var nyc_marathonInfo ={
-   "parameters" : {
-      "note" : "Note about the race or the winning time.",
-      "country" : "Country of winner.",
-      "time_hrs" : "Running time (in hours).",
-      "name" : "Name of winner.",
-      "year" : "Year of marathom.",
-      "division" : "Division: Men or Women.",
-      "time" : "Running time (HH:MM:SS)."
-   },
-   "reference" : "Wikipedia, List of winners of the New York City Marathon. Retrieved 6 November, 2023.",
    "format" : "A data frame with 108 observations on the following 7 variables.",
-   "title" : "New York City Marathon Times",
    "description" : "Description\nMarathon times of runners in the Men and Women divisions of the New York\nCity Marathon, 1970 - 2023.",
-   "usage" : "nyc_marathon"
+   "title" : "New York City Marathon Times",
+   "reference" : "Wikipedia, List of winners of the New York City Marathon. Retrieved 6 November, 2023.",
+   "usage" : "nyc_marathon",
+   "parameters" : {
+      "name" : "Name of winner.",
+      "time_hrs" : "Running time (in hours).",
+      "country" : "Country of winner.",
+      "division" : "Division: Men or Women.",
+      "time" : "Running time (HH:MM:SS).",
+      "year" : "Year of marathom.",
+      "note" : "Note about the race or the winning time."
+   }
 }
 
 var nyc_marathon = [

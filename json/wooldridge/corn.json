@@ -1,5 +1,4 @@
 {
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>corn</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>corn</h2>\n<h3>Description</h3>\n<p>Wooldridge Source: G.E. Battese, R.M. Harter, and W.A. Fuller (1988), âAn Error-Components Model for Prediction of County Crop Areas Using Survey and Satellite Data,â Journal of the American Statistical Association 83, 28-36. This small data set is reported in the article. Data loads lazily.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data('corn')\n</code></pre>\n<h3>Format</h3>\n<p>A data.frame with 37 observations on 5 variables:\n</p>\n<ul>\n<li> <p><strong>county:</strong> county number\n</p>\n</li>\n<li> <p><strong>cornhec:</strong> corn per hectare\n</p>\n</li>\n<li> <p><strong>soyhec:</strong> soybeans per hectare\n</p>\n</li>\n<li> <p><strong>cornpix:</strong> corn pixels per hectare\n</p>\n</li>\n<li> <p><strong>soypix:</strong> soy pixels per hectare\n</p>\n</li></ul>\n<h3>Notes</h3>\n<p>You could use these data to illustrate simple regression when the population intercept should be zero: no corn pixels should predict no corn planted. The same can be done with the soybean measures in the data set.\n</p>\n<p>Used in Text: pages 791-792\n</p>\n<h3>Source</h3>\n<p><a href=\"https://www.cengage.com/cgi-wadsworth/course_products_wp.pl?fid=M20b&amp;product_isbn_issn=9781111531041\">https://www.cengage.com/cgi-wadsworth/course_products_wp.pl?fid=M20b&amp;product_isbn_issn=9781111531041</a>\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'> str(corn)\n</code></pre>\n</main>\n</div>\n",
    "data" : {
       "y" : {
          "smps" : [
@@ -8,45 +7,6 @@
             "soyhec",
             "cornpix",
             "soypix"
-         ],
-         "vars" : [
-            "Var1",
-            "Var2",
-            "Var3",
-            "Var4",
-            "Var5",
-            "Var6",
-            "Var7",
-            "Var8",
-            "Var9",
-            "Var10",
-            "Var11",
-            "Var12",
-            "Var13",
-            "Var14",
-            "Var15",
-            "Var16",
-            "Var17",
-            "Var18",
-            "Var19",
-            "Var20",
-            "Var21",
-            "Var22",
-            "Var23",
-            "Var24",
-            "Var25",
-            "Var26",
-            "Var27",
-            "Var28",
-            "Var29",
-            "Var30",
-            "Var31",
-            "Var32",
-            "Var33",
-            "Var34",
-            "Var35",
-            "Var36",
-            "Var37"
          ],
          "data" : [
             [
@@ -308,13 +268,53 @@
                350,
                190
             ]
+         ],
+         "vars" : [
+            "Var1",
+            "Var2",
+            "Var3",
+            "Var4",
+            "Var5",
+            "Var6",
+            "Var7",
+            "Var8",
+            "Var9",
+            "Var10",
+            "Var11",
+            "Var12",
+            "Var13",
+            "Var14",
+            "Var15",
+            "Var16",
+            "Var17",
+            "Var18",
+            "Var19",
+            "Var20",
+            "Var21",
+            "Var22",
+            "Var23",
+            "Var24",
+            "Var25",
+            "Var26",
+            "Var27",
+            "Var28",
+            "Var29",
+            "Var30",
+            "Var31",
+            "Var32",
+            "Var33",
+            "Var34",
+            "Var35",
+            "Var36",
+            "Var37"
          ]
       }
    },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>corn</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>corn</h2>\n<h3>Description</h3>\n<p>Wooldridge Source: G.E. Battese, R.M. Harter, and W.A. Fuller (1988), âAn Error-Components Model for Prediction of County Crop Areas Using Survey and Satellite Data,â Journal of the American Statistical Association 83, 28-36. This small data set is reported in the article. Data loads lazily.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data('corn')\n</code></pre>\n<h3>Format</h3>\n<p>A data.frame with 37 observations on 5 variables:\n</p>\n<ul>\n<li> <p><strong>county:</strong> county number\n</p>\n</li>\n<li> <p><strong>cornhec:</strong> corn per hectare\n</p>\n</li>\n<li> <p><strong>soyhec:</strong> soybeans per hectare\n</p>\n</li>\n<li> <p><strong>cornpix:</strong> corn pixels per hectare\n</p>\n</li>\n<li> <p><strong>soypix:</strong> soy pixels per hectare\n</p>\n</li></ul>\n<h3>Notes</h3>\n<p>You could use these data to illustrate simple regression when the population intercept should be zero: no corn pixels should predict no corn planted. The same can be done with the soybean measures in the data set.\n</p>\n<p>Used in Text: pages 791-792\n</p>\n<h3>Source</h3>\n<p><a href=\"https://www.cengage.com/cgi-wadsworth/course_products_wp.pl?fid=M20b&amp;product_isbn_issn=9781111531041\">https://www.cengage.com/cgi-wadsworth/course_products_wp.pl?fid=M20b&amp;product_isbn_issn=9781111531041</a>\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'> str(corn)\n</code></pre>\n</main>\n</div>\n",
    "config" : {
-      "subtitle" : "wooldridge - corn",
-      "scatterPlotMatrix" : 1,
       "graphType" : "Scatter2D",
-      "title" : "corn"
+      "subtitle" : "wooldridge - corn",
+      "title" : "corn",
+      "scatterPlotMatrix" : 1
    }
 }

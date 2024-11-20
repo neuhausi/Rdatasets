@@ -1,13 +1,13 @@
 var remissionInfo ={
-   "usage" : "remission",
-   "description" : "Description\nThe remission data frame has 27 rows and 3 columns.",
    "format" : "This data frame contains the following columns:",
+   "usage" : "remission",
    "reference" : "The data were obtained from",
+   "description" : "Description\nThe remission data frame has 27 rows and 3 columns.",
    "title" : "Cancer Remission and Cell Activity",
    "parameters" : {
-      "r" : "The number of patients (out of m) who went into remission.",
       "m" : "The number of patients in each group (all values are actually 1 here).",
-      "LI" : "A measure of cell activity."
+      "LI" : "A measure of cell activity.",
+      "r" : "The number of patients (out of m) who went into remission."
    }
 }
 

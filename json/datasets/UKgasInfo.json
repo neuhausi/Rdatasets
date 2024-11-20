@@ -1,0 +1,6 @@
+{
+   "usage" : "UKgas",
+   "title" : "UK Quarterly Gas Consumption",
+   "description" : "Description\nQuarterly UK gas consumption from 1960Q1 to 1986Q4, in millions of therms.",
+   "format" : "A quarterly time series of length 108."
+}

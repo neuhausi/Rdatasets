@@ -1,8 +1,8 @@
 var ausairInfo ={
-   "description" : "Description\nTotal annual air passengers (in millions) including domestic and\ninternational aircraft passengers of air carriers registered in Australia.\n1970-2016.",
    "format" : "World Bank.",
+   "usage" : "Annual time series of class ts.",
    "title" : "Air Transport Passengers Australia",
-   "usage" : "Annual time series of class ts."
+   "description" : "Description\nTotal annual air passengers (in millions) including domestic and\ninternational aircraft passengers of air carriers registered in Australia.\n1970-2016."
 }
 
 var ausair = [

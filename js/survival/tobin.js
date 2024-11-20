@@ -1,14 +1,14 @@
 var tobinInfo ={
-   "reference" : "J Tobin (1958),\nEstimation of relationships for limited dependent variables.\nEconometrica 26, 24&ndash;36.",
    "format" : "A data frame with 20 observations on the following 3 variables.",
-   "title" : "Tobin's Tobit data",
    "parameters" : {
-      "age" : "Age in years",
       "quant" : "Liquidity ratio (x 1000)",
+      "age" : "Age in years",
       "durable" : "Durable goods purchase"
    },
-   "usage" : "tobin\ndata(tobin, package=\"survival\")",
-   "description" : "Description\nEconomists fit a parametric censored data model called the\n&lsquo;tobit&rsquo;.  These data are from Tobin's original paper."
+   "description" : "Description\nEconomists fit a parametric censored data model called the\n&lsquo;tobit&rsquo;.  These data are from Tobin's original paper.",
+   "title" : "Tobin's Tobit data",
+   "reference" : "J Tobin (1958),\nEstimation of relationships for limited dependent variables.\nEconometrica 26, 24&ndash;36.",
+   "usage" : "tobin\ndata(tobin, package=\"survival\")"
 }
 
 var tobin = [

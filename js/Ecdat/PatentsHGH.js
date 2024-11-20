@@ -1,29 +1,29 @@
 var PatentsHGHInfo ={
+   "format" : "A dataframe containing :",
    "parameters" : {
-      "scisect" : "is the firm in the scientific sector ?",
-      "logr2" : "the logarithm of R&D spending (two years lag)",
-      "cusip" : "Compustat's identifying number for the \nfirm (Committee on Uniform Security \nIdentification Procedures number)",
-      "year" : "year",
-      "logk" : "the logarithm of the book value of capital \nin 1972.",
-      "logr4" : "the logarithm of R&D spending (four years lag)",
       "obsno" : "firm index",
-      "logr5" : "the logarithm of R&D spending (five years lag)",
-      "logr3" : "the logarithm of R&D spending (three years lag)",
-      "ardsic" : "a two-digit code for the applied R&D \nindustrial classification (roughly that \nin Bound, Cummins, Griliches, Hall, and \nJaffe, in the Griliches R&D, Patents, \nand Productivity volume)",
-      "logr" : "the logarithm of R&D spending during the \nyear (in 1972 dollars)",
-      "logr1" : "the logarithm of R&D spending (one year lag)",
-      "pat" : "the number of patents applied for during the \nyear that were eventually granted",
-      "pat1" : "the number of patents (one year lag)",
-      "pat2" : "the number of patents (two years lag)",
-      "sumpat" : "the sum of patents applied for between \n1972-1979.",
       "pat3" : "the number of patents (three years lag)",
-      "pat4" : "the number of patents (four years lag)"
+      "logr2" : "the logarithm of R&D spending (two years lag)",
+      "logr3" : "the logarithm of R&D spending (three years lag)",
+      "pat" : "the number of patents applied for during the \nyear that were eventually granted",
+      "year" : "year",
+      "sumpat" : "the sum of patents applied for between \n1972-1979.",
+      "logk" : "the logarithm of the book value of capital \nin 1972.",
+      "pat4" : "the number of patents (four years lag)",
+      "pat2" : "the number of patents (two years lag)",
+      "scisect" : "is the firm in the scientific sector ?",
+      "logr4" : "the logarithm of R&D spending (four years lag)",
+      "cusip" : "Compustat's identifying number for the \nfirm (Committee on Uniform Security \nIdentification Procedures number)",
+      "logr5" : "the logarithm of R&D spending (five years lag)",
+      "pat1" : "the number of patents (one year lag)",
+      "logr1" : "the logarithm of R&D spending (one year lag)",
+      "logr" : "the logarithm of R&D spending during the \nyear (in 1972 dollars)",
+      "ardsic" : "a two-digit code for the applied R&D \nindustrial classification (roughly that \nin Bound, Cummins, Griliches, Hall, and \nJaffe, in the Griliches R&D, Patents, \nand Productivity volume)"
    },
    "reference" : "Hall, Bronwyn, Zvi Griliches and Jerry Hausman (1986) &ldquo;Patents and R&D: Is There a Lag?&rdquo;, International Economic Review, 27, 265-283.",
-   "title" : "Dynamic Relation Between Patents and R&D",
-   "format" : "A dataframe containing :",
+   "usage" : "data(PatentsHGH)",
    "description" : "Description\na panel of 346 observations  from 1975  to 1979\nnumber of observations :  1730\nobservation :  production units\ncountry :  United States",
-   "usage" : "data(PatentsHGH)"
+   "title" : "Dynamic Relation Between Patents and R&D"
 }
 
 var PatentsHGH = [

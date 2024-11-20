@@ -1,7 +1,7 @@
 var ThreeCarsInfo ={
+   "description" : "Description\nCompare prices for Porsche, Jaguar, and BMW cars offered for sale at an internet site",
    "title" : "Prices of Three Used Car Models (2007)",
-   "usage" : "A dataset with 90 observations on the following 8 variables.",
-   "description" : "Description\nCompare prices for Porsche, Jaguar, and BMW cars offered for sale at an internet site"
+   "usage" : "A dataset with 90 observations on the following 8 variables."
 }
 
 var ThreeCars = [

@@ -1,13 +1,13 @@
 var salinityInfo ={
-   "description" : "Description\nData collected at three different water masses in the Bimini Lagoon, Bahamas.",
    "usage" : "salinity",
-   "parameters" : {
-      "salinity_ppt" : "Salinity value in parts per thousand.",
-      "site_number" : "Location where measurements were taken."
-   },
+   "reference" : "Till, R. (1974) Statistical Methods for the Earth Scientist: An Introduction. London: Macmillon, 104.",
    "title" : "Salinity in Bimini Lagoon, Bahamas",
-   "format" : "A data frame with 30 rows and 2 variables.",
-   "reference" : "Till, R. (1974) Statistical Methods for the Earth Scientist: An Introduction. London: Macmillon, 104."
+   "description" : "Description\nData collected at three different water masses in the Bimini Lagoon, Bahamas.",
+   "parameters" : {
+      "site_number" : "Location where measurements were taken.",
+      "salinity_ppt" : "Salinity value in parts per thousand."
+   },
+   "format" : "A data frame with 30 rows and 2 variables."
 }
 
 var salinity = [

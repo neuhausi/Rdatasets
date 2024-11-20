@@ -1,6 +1,64 @@
 {
+   "config" : {
+      "subtitle" : "Stat2Data - Undoing",
+      "title" : "Defense of Undoing OCD Symptoms in Psychotherapy",
+      "graphType" : "Scatter2D",
+      "colorBy" : "Group"
+   },
    "data" : {
+      "z" : {
+         "Group" : [
+            "I",
+            "I",
+            "I",
+            "I",
+            "II",
+            "II",
+            "II",
+            "II",
+            "II",
+            "II",
+            "II",
+            "II",
+            "II",
+            "II",
+            "II",
+            "III",
+            "III",
+            "IV",
+            "IV",
+            "IV",
+            "IV",
+            "IV",
+            "IV",
+            "V",
+            "V",
+            "V",
+            "V",
+            "V",
+            "V",
+            "VI",
+            "VI",
+            "VI",
+            "VI",
+            "VI",
+            "VI",
+            "VI",
+            "VI",
+            "VI",
+            "VI",
+            "VI",
+            "VI",
+            "VI",
+            "VI",
+            "VI"
+         ]
+      },
       "y" : {
+         "smps" : [
+            "Score",
+            "Symbol"
+         ],
          "data" : [
             [
                1,
@@ -179,10 +237,6 @@
                0
             ]
          ],
-         "smps" : [
-            "Score",
-            "Symbol"
-         ],
          "vars" : [
             "Var1",
             "Var2",
@@ -229,61 +283,7 @@
             "Var43",
             "Var44"
          ]
-      },
-      "z" : {
-         "Group" : [
-            "I",
-            "I",
-            "I",
-            "I",
-            "II",
-            "II",
-            "II",
-            "II",
-            "II",
-            "II",
-            "II",
-            "II",
-            "II",
-            "II",
-            "II",
-            "III",
-            "III",
-            "IV",
-            "IV",
-            "IV",
-            "IV",
-            "IV",
-            "IV",
-            "V",
-            "V",
-            "V",
-            "V",
-            "V",
-            "V",
-            "VI",
-            "VI",
-            "VI",
-            "VI",
-            "VI",
-            "VI",
-            "VI",
-            "VI",
-            "VI",
-            "VI",
-            "VI",
-            "VI",
-            "VI",
-            "VI",
-            "VI"
-         ]
       }
    },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>Undoing</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Defense of Undoing OCD Symptoms in Psychotherapy</h2>\n<h3>Description</h3>\n<p>Ratings of an OCD symptom in psychotherapy sessions\n</p>\n<h3>Format</h3>\n<p>A data frame with 44 observations on the following 3 variables.\n</p>\n<dl>\n<dt><code>Group</code></dt><dd><p>Time frame of the session  (<code>I</code>=early through <code>VI</code>=late)</p>\n</dd>\n<dt><code>Score</code></dt><dd><p>Rating of OCD symptom on a 1 to 4 scale</p>\n</dd>\n<dt><code>Symbol</code></dt><dd><p>Indicator for groups I, III, and IV</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>A patient had been diagnosed with OCD (obsessive/compulsive disorder) and underwent a series of psychotherapy sessions.  Notes from the sessions were presented to three different experienced therapists who rated sessions with a particular OCD symptom (defense of undoing) on a 1 to 4 scale (smaller values indicating worse symptoms). If all three judges agreed on the stage of a session, that determined the category.  Otherwise, they discussed until they reached a consensus. The sessions were also grouped into six groups with I being the earliest sessions and VI being the latest.\n</p>\n<h3>Source</h3>\n<p>Sampson, Harold, Joseph Weiss, L. Mlodansky, and Edward Hause (1972) &quot;Defense analysis and the emergence of warded off mental contents,&quot; Archives of General Psychiatry, v. 26, pp. 524-532.\n</p>\n</main>\n</div>\n",
-   "config" : {
-      "graphType" : "Scatter2D",
-      "title" : "Defense of Undoing OCD Symptoms in Psychotherapy",
-      "colorBy" : "Group",
-      "subtitle" : "Stat2Data - Undoing"
-   }
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>Undoing</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Defense of Undoing OCD Symptoms in Psychotherapy</h2>\n<h3>Description</h3>\n<p>Ratings of an OCD symptom in psychotherapy sessions\n</p>\n<h3>Format</h3>\n<p>A data frame with 44 observations on the following 3 variables.\n</p>\n<dl>\n<dt><code>Group</code></dt><dd><p>Time frame of the session  (<code>I</code>=early through <code>VI</code>=late)</p>\n</dd>\n<dt><code>Score</code></dt><dd><p>Rating of OCD symptom on a 1 to 4 scale</p>\n</dd>\n<dt><code>Symbol</code></dt><dd><p>Indicator for groups I, III, and IV</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>A patient had been diagnosed with OCD (obsessive/compulsive disorder) and underwent a series of psychotherapy sessions.  Notes from the sessions were presented to three different experienced therapists who rated sessions with a particular OCD symptom (defense of undoing) on a 1 to 4 scale (smaller values indicating worse symptoms). If all three judges agreed on the stage of a session, that determined the category.  Otherwise, they discussed until they reached a consensus. The sessions were also grouped into six groups with I being the earliest sessions and VI being the latest.\n</p>\n<h3>Source</h3>\n<p>Sampson, Harold, Joseph Weiss, L. Mlodansky, and Edward Hause (1972) &quot;Defense analysis and the emergence of warded off mental contents,&quot; Archives of General Psychiatry, v. 26, pp. 524-532.\n</p>\n</main>\n</div>\n"
 }

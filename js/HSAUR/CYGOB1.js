@@ -1,13 +1,13 @@
 var CYGOB1Info ={
-   "description" : "Description\nEnergy output and surface termperature for Star Cluster CYG OB1.",
-   "usage" : "data(\"CYGOB1\")",
    "parameters" : {
-      "logst" : "log survface termperature of the star.",
-      "logli" : "log light intensity of the star."
+      "logli" : "log light intensity of the star.",
+      "logst" : "log survface termperature of the star."
    },
-   "format" : "A data frame with 47 observations on the following 2 variables.",
    "reference" : "The Hertzsprung-Russell (H-R) diagram forms the basis of\nthe theory of stellar evolution. The diagram is essentially a \nplot of the energy output of stars plotted against their surface\ntemperature. Data from the H-R diagram of Star Cluster CYG OB1, \ncalibrated according to VanismaGreve1972 are given here.",
-   "title" : "CYG OB1 Star Cluster Data"
+   "usage" : "data(\"CYGOB1\")",
+   "title" : "CYG OB1 Star Cluster Data",
+   "description" : "Description\nEnergy output and surface termperature for Star Cluster CYG OB1.",
+   "format" : "A data frame with 47 observations on the following 2 variables."
 }
 
 var CYGOB1 = [

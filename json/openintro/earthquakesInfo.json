@@ -1,0 +1,16 @@
+{
+   "format" : "A data frame with 123 rows and 7 variables.",
+   "title" : "Earthquakes",
+   "description" : "Description\nSelect set of notable earthquakes from 1900 to 1999.",
+   "reference" : "World Almanac and Book of Facts: 2011.",
+   "usage" : "earthquakes",
+   "parameters" : {
+      "day" : "Day the earthquake took place",
+      "richter" : "Magnitude of earthquake using the Richter Scale.",
+      "year" : "Year the earthquake took place.",
+      "region" : "Country or countries if the earthquake occurred on a border.",
+      "month" : "Month the earthquake took place.",
+      "deaths" : "Approximate number of deaths caused by earthquake",
+      "area" : "City or geographic location of earthquakes."
+   }
+}

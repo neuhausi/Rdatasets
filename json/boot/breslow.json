@@ -1,13 +1,6 @@
 {
    "data" : {
       "y" : {
-         "smps" : [
-            "age",
-            "smoke",
-            "n",
-            "y",
-            "ns"
-         ],
          "vars" : [
             "Var1",
             "Var2",
@@ -19,6 +12,13 @@
             "Var8",
             "Var9",
             "Var10"
+         ],
+         "smps" : [
+            "age",
+            "smoke",
+            "n",
+            "y",
+            "ns"
          ],
          "data" : [
             [
@@ -97,8 +97,8 @@
    "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>breslow</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>\nSmoking Deaths Among Doctors\n</h2>\n<h3>Description</h3>\n<p>The <code>breslow</code> data frame has 10 rows and 5 columns.\n</p>\n<p>In 1961 Doll and Hill sent out a questionnaire to all men on the British \nMedical Register enquiring about their smoking habits. Almost 70% of \nsuch men replied.  Death certificates were obtained for medical practitioners\nand causes of death were assigned on the basis of these certificates.  The\n<code>breslow</code> data set contains the person-years of observations and deaths from\ncoronary artery disease accumulated during the first ten years of the study.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>breslow\n</code></pre>\n<h3>Format</h3>\n<p>This data frame contains the following columns:\n</p>\n<dl>\n<dt><code>age</code></dt><dd>\n<p>The mid-point of the 10 year age-group for the doctors.\n</p>\n</dd>\n<dt><code>smoke</code></dt><dd>\n<p>An indicator of whether the doctors smoked (1) or not (0).\n</p>\n</dd>\n<dt><code>n</code></dt><dd>\n<p>The number of person-years in the category.\n</p>\n</dd>\n<dt><code>y</code></dt><dd>\n<p>The number of deaths attributed to coronary artery disease.\n</p>\n</dd>\n<dt><code>ns</code></dt><dd>\n<p>The number of smoker years in the category (<code>smoke*n</code>).\n</p>\n</dd></dl>\n<h3>Source</h3>\n<p>The data were obtained from\n</p>\n<p>Breslow, N.E. (1985) Cohort Analysis in Epidemiology. In \n<em>A Celebration of Statistics</em> \nA.C. Atkinson and S.E. Fienberg (editors), 109&ndash;143.\nSpringer-Verlag.\n</p>\n<h3>References</h3>\n<p>Davison, A.C. and Hinkley, D.V. (1997) \n<em>Bootstrap Methods and Their Application</em>. Cambridge University Press.\n</p>\n<p>Doll, R. and Hill, A.B. (1966) Mortality of British doctors in relation to \nsmoking: Observations on coronary thrombosis. \n<em>National Cancer Institute Monograph</em>, <b>19</b>, 205-268.\n</p>\n</main>\n</div>\n",
    "config" : {
       "subtitle" : "boot - breslow",
+      "title" : "Smoking Deaths Among Doctors",
       "scatterPlotMatrix" : 1,
-      "graphType" : "Scatter2D",
-      "title" : "Smoking Deaths Among Doctors"
+      "graphType" : "Scatter2D"
    }
 }

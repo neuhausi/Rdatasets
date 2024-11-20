@@ -1,8 +1,8 @@
 var SaxonyInfo ={
-   "description" : "Description\nData from Geissler, cited in Sokal & Rohlf (1969) and Lindsey (1995)\non gender distributions in families in Saxony in the 19th century.",
    "title" : "Families in Saxony",
-   "format" : "A 1-way table giving the number of male children in 6115 families of\nsize 12.  The variable and its levels are",
-   "usage" : "data(\"Saxony\")"
+   "description" : "Description\nData from Geissler, cited in Sokal & Rohlf (1969) and Lindsey (1995)\non gender distributions in families in Saxony in the 19th century.",
+   "usage" : "data(\"Saxony\")",
+   "format" : "A 1-way table giving the number of male children in 6115 families of\nsize 12.  The variable and its levels are"
 }
 
 var Saxony = [

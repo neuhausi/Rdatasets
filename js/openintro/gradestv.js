@@ -1,13 +1,13 @@
 var gradestvInfo ={
-   "description" : "Description\nThis is a simulated dataset to be used to estimate the relationship between\nnumber of hours per week students watch TV and the grade they got in a\nstatistics class.",
+   "reference" : "There are a few potential outliers in this dataset. When analyzing the data\none should consider how (if at all) these outliers may affect the estimates\nof correlation coefficient and regression parameters.",
    "usage" : "gradestv",
-   "parameters" : {
-      "grades" : "Grades students got in a statistics class (out of 100).",
-      "tv" : "Number of hours per week students watch TV."
-   },
-   "format" : "A data frame with 25 observations on the following 2 variables.",
    "title" : "Simulated data for analyzing the relationship between watching TV and grades",
-   "reference" : "There are a few potential outliers in this dataset. When analyzing the data\none should consider how (if at all) these outliers may affect the estimates\nof correlation coefficient and regression parameters."
+   "description" : "Description\nThis is a simulated dataset to be used to estimate the relationship between\nnumber of hours per week students watch TV and the grade they got in a\nstatistics class.",
+   "parameters" : {
+      "tv" : "Number of hours per week students watch TV.",
+      "grades" : "Grades students got in a statistics class (out of 100)."
+   },
+   "format" : "A data frame with 25 observations on the following 2 variables."
 }
 
 var gradestv = [

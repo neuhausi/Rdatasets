@@ -1,23 +1,23 @@
 var autoInfo ={
-   "parameters" : {
-      "displacement" : "Displacement (cu. in.)",
-      "trunk" : "Trunk space (cu. ft.)",
-      "foreign" : "Car type; 0 = Domestic, 1 = Foreign",
-      "make" : "Make and Model",
-      "price" : "Price",
-      "rep78" : "Repair Record 1978",
-      "weight" : "Weight (lbs.)",
-      "turn" : "Turn Circle (ft.)",
-      "headroom" : "Headroom (in.)",
-      "length" : "Length (in.)",
-      "mpg" : "Mileage (mpg)",
-      "gear_ratio" : "Gear Ratio"
-   },
+   "usage" : "auto",
    "reference" : "This data is used in the Probability and Regression Review chapter of Causal Inference: The Mixtape.",
-   "format" : "A data frame with 74 rows and 12 variables",
-   "title" : "Automobile data from Stata",
    "description" : "Description\nThis data, which comes standard in Stata, originally came from the April 1979 issue of Consumer Reports and from the United States Government EPA statistics on fuel consumption; they were compiled and published by Chambers et al. (1983).",
-   "usage" : "auto"
+   "title" : "Automobile data from Stata",
+   "parameters" : {
+      "price" : "Price",
+      "weight" : "Weight (lbs.)",
+      "mpg" : "Mileage (mpg)",
+      "length" : "Length (in.)",
+      "turn" : "Turn Circle (ft.)",
+      "foreign" : "Car type; 0 = Domestic, 1 = Foreign",
+      "gear_ratio" : "Gear Ratio",
+      "headroom" : "Headroom (in.)",
+      "rep78" : "Repair Record 1978",
+      "trunk" : "Trunk space (cu. ft.)",
+      "make" : "Make and Model",
+      "displacement" : "Displacement (cu. in.)"
+   },
+   "format" : "A data frame with 74 rows and 12 variables"
 }
 
 var auto = [

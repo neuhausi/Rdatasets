@@ -1,24 +1,24 @@
 var HdmaInfo ={
+   "format" : "A dataframe containing :",
+   "title" : "The Boston HMDA Data Set",
+   "description" : "Description\na cross-section from 1997-1998\nnumber of observations : 2381\nobservation : individuals\ncountry : United States\nIn package version 0.2-9 and earlier this dataset was called Hdma.",
+   "usage" : "data(Hmda)",
+   "reference" : "Federal Reserve Bank of Boston.",
    "parameters" : {
+      "condominium" : "is unit a condominium ? (was called \ncomdominiom in version 0.2-9 and \nearlier versions of the package)",
+      "hir" : "housing expenses to income ratio",
+      "black" : "is the applicant black ?",
+      "single" : "is the applicant  single ?",
+      "pbcr" : "public bad credit record ?",
       "lvr" : "ratio of size of loan to assessed value of\nproperty",
-      "dir" : "debt payments to total income ratio",
+      "deny" : "mortgage application denied ?",
       "self" : "self employed ?",
       "ccs" : "consumer credit score from 1 to 6 (a low \nvalue being a good score)",
-      "black" : "is the applicant black ?",
-      "pbcr" : "public bad credit record ?",
+      "dir" : "debt payments to total income ratio",
       "mcs" : "mortgage credit score from 1 to 4 (a low \nvalue being a good score)",
-      "hir" : "housing expenses to income ratio",
-      "single" : "is the applicant  single ?",
       "uria" : "1989 Massachusetts unemployment rate in \nthe applicant's industry",
-      "condominium" : "is unit a condominium ? (was called \ncomdominiom in version 0.2-9 and \nearlier versions of the package)",
-      "deny" : "mortgage application denied ?",
       "dmi" : "denied mortgage insurance ?"
-   },
-   "title" : "The Boston HMDA Data Set",
-   "format" : "A dataframe containing :",
-   "reference" : "Federal Reserve Bank of Boston.",
-   "description" : "Description\na cross-section from 1997-1998\nnumber of observations : 2381\nobservation : individuals\ncountry : United States\nIn package version 0.2-9 and earlier this dataset was called Hdma.",
-   "usage" : "data(Hmda)"
+   }
 }
 
 var Hdma = [

@@ -1,21 +1,21 @@
 var nsw74psid3Info ={
+   "description" : "Description\nThis nsw74demo data frame, with 445 rows and 10 columns,\nis the subset of the nswdemo dataset for which 1974\nearnings are available. \nData are for the male experimental control and treatment\ngroups, in an investigation of the effect of training\non changes, between 1974-1975 and 1978, in the earnings\nof individuals who had experienced employment difficulties.\nLikewise, nsw74psid1 (2675 rows) is the subset of the\nnswpsid1 data, and nsw74psid3 (313 rows) is the subset of\nthe  nswpsid3 data, for which 1974 income is available.\nNB, also, the nsw74psidA data set.",
+   "title" : "Labour Training Evaluation Data",
+   "reference" : "The nsw74psidA data set (252 rows) was obtained from\nnsw74psid1 using:",
+   "usage" : "data(nsw74demo)\n  data(nsw74psid1)\n  data(nsw74psid3)\n  data(nsw74psidA)",
    "parameters" : {
+      "re74" : "real earnings in 1974.",
       "hisp" : "(0 = not hispanic, 1 = hispanic).",
       "educ" : "years of education.",
-      "trt" : "a numeric vector \nidentifying the study in which the subjects were enrolled\n(0 = PSID, 1 = NSW).",
-      "age" : "age (in years).",
-      "re75" : "real earnings in 1975.",
       "nodeg" : "(0 = completed high school, 1 = dropout).",
-      "re74" : "real earnings in 1974.",
-      "black" : "(0 = not black, 1 = black).",
+      "age" : "age (in years).",
+      "marr" : "(0 = not married, 1 = married).",
       "re78" : "real earnings in 1978.",
-      "marr" : "(0 = not married, 1 = married)."
+      "trt" : "a numeric vector \nidentifying the study in which the subjects were enrolled\n(0 = PSID, 1 = NSW).",
+      "black" : "(0 = not black, 1 = black).",
+      "re75" : "real earnings in 1975."
    },
-   "reference" : "The nsw74psidA data set (252 rows) was obtained from\nnsw74psid1 using:",
-   "title" : "Labour Training Evaluation Data",
-   "format" : "Columns are:",
-   "description" : "Description\nThis nsw74demo data frame, with 445 rows and 10 columns,\nis the subset of the nswdemo dataset for which 1974\nearnings are available. \nData are for the male experimental control and treatment\ngroups, in an investigation of the effect of training\non changes, between 1974-1975 and 1978, in the earnings\nof individuals who had experienced employment difficulties.\nLikewise, nsw74psid1 (2675 rows) is the subset of the\nnswpsid1 data, and nsw74psid3 (313 rows) is the subset of\nthe  nswpsid3 data, for which 1974 income is available.\nNB, also, the nsw74psidA data set.",
-   "usage" : "data(nsw74demo)\n  data(nsw74psid1)\n  data(nsw74psid3)\n  data(nsw74psidA)"
+   "format" : "Columns are:"
 }
 
 var nsw74psid3 = [

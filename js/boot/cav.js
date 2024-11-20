@@ -1,12 +1,12 @@
 var cavInfo ={
+   "format" : "This data frame contains the following columns:",
+   "title" : "Position of Muscle Caveolae",
+   "description" : "Description\nThe cav data frame has 138 rows and 2 columns.\nThe data gives the positions of the individual caveolae in a square region\nwith sides of length 500 units.  This grid was originally on a 2.65mum\nsquare of muscle fibre.  The data are those points falling in the lower left \nhand quarter of the region used for the\ndataset caveolae.dat in the spatial package by B.D. Ripley (1994).",
+   "usage" : "cav",
    "parameters" : {
       "x" : "The x coordinate of the caveola's position in the region.",
       "y" : "The y coordinate of the caveola's position in the region."
-   },
-   "description" : "Description\nThe cav data frame has 138 rows and 2 columns.\nThe data gives the positions of the individual caveolae in a square region\nwith sides of length 500 units.  This grid was originally on a 2.65mum\nsquare of muscle fibre.  The data are those points falling in the lower left \nhand quarter of the region used for the\ndataset caveolae.dat in the spatial package by B.D. Ripley (1994).",
-   "usage" : "cav",
-   "format" : "This data frame contains the following columns:",
-   "title" : "Position of Muscle Caveolae"
+   }
 }
 
 var cav = [

@@ -1,9 +1,10 @@
 {
    "config" : {
+      "subtitle" : "DAAG - droughts",
       "title" : "Periods Between Rain Events",
-      "graphType" : "Scatter2D",
-      "subtitle" : "DAAG - droughts"
+      "graphType" : "Scatter2D"
    },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>droughts</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Periods Between Rain Events</h2>\n<h3>Description</h3>\n<p>Data collected at Winnipeg International Airport (Canada)\non periods (in days) between rain events.  \n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>droughts</code></pre>\n<h3>Format</h3>\n<p>This data frame contains the following columns:\n</p>\n<dl>\n<dt>length</dt><dd><p>the length of time from the completion of\nthe last rain event to the beginning of the next rain event.</p>\n</dd>\n<dt>year</dt><dd><p>the calendar year.</p>\n</dd>\n</dl>\n<h3>Examples</h3>\n<pre><code class='language-R'>  boxplot(length ~ year, data=droughts)\n  boxplot(log(length) ~ year, data=droughts)\n  hist(droughts$length, main=\"Winnipeg Droughts\", xlab=\"length (in days)\")\n  hist(log(droughts$length), main=\"Winnipeg Droughts\", xlab=\"length (in days, log scale)\")\n</code></pre>\n</main>\n</div>\n",
    "data" : {
       "y" : {
          "vars" : [
@@ -2049,10 +2050,6 @@
             "Var2040",
             "Var2041",
             "Var2042"
-         ],
-         "smps" : [
-            "length",
-            "year"
          ],
          "data" : [
             [
@@ -10223,8 +10220,11 @@
                16.25,
                1980
             ]
+         ],
+         "smps" : [
+            "length",
+            "year"
          ]
       }
-   },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>droughts</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Periods Between Rain Events</h2>\n<h3>Description</h3>\n<p>Data collected at Winnipeg International Airport (Canada)\non periods (in days) between rain events.  \n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>droughts</code></pre>\n<h3>Format</h3>\n<p>This data frame contains the following columns:\n</p>\n<dl>\n<dt>length</dt><dd><p>the length of time from the completion of\nthe last rain event to the beginning of the next rain event.</p>\n</dd>\n<dt>year</dt><dd><p>the calendar year.</p>\n</dd>\n</dl>\n<h3>Examples</h3>\n<pre><code class='language-R'>  boxplot(length ~ year, data=droughts)\n  boxplot(log(length) ~ year, data=droughts)\n  hist(droughts$length, main=\"Winnipeg Droughts\", xlab=\"length (in days)\")\n  hist(log(droughts$length), main=\"Winnipeg Droughts\", xlab=\"length (in days, log scale)\")\n</code></pre>\n</main>\n</div>\n"
+   }
 }

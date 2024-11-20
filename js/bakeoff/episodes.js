@@ -1,21 +1,21 @@
 var episodesInfo ={
-   "description" : "Description\nEach episodes' statistics. This dataset is made by collapsing\nchallenges by series and episode.",
-   "usage" : "episodes",
-   "parameters" : {
-      "bakers_out" : "An integer denoting the number of bakers were either\neliminated, left at will, or left due to illness in that episode.",
-      "bakers_appeared" : "an integer denoting the number of bakers who\nappeared in a given episode.",
-      "eliminated" : "A character string with the name of the bakers who left\na given episode, separated by commas.",
-      "star_bakers" : "An integer denoting the number of bakers crowned Star\nBaker in a given episode.",
-      "episode" : "An integer denoting episode number within a series.",
-      "sb_name" : "A character string with the names of the bakers who won\nStar Baker in a given episode, separated by commas.",
-      "bakers_remaining" : "An integer denoting the number of bakers who\nremained at the end of a given episode.",
-      "winner_name" : "A character string with the name of the series winner.\nOnly present for final episodes within each series.",
-      "technical_winners" : "An integer denoting the number of bakers who\nplaced first in the technical challenge.",
-      "series" : "An integer denoting UK series (1-10)."
-   },
-   "title" : "Episodes",
    "format" : "A data frame with 94 rows representing individual episodes per series\nand 10 variables:",
-   "reference" : "See\nhttps://en.wikipedia.org/wiki/The_Great_British_Bake_Off#Format"
+   "usage" : "episodes",
+   "reference" : "See\nhttps://en.wikipedia.org/wiki/The_Great_British_Bake_Off#Format",
+   "description" : "Description\nEach episodes' statistics. This dataset is made by collapsing\nchallenges by series and episode.",
+   "title" : "Episodes",
+   "parameters" : {
+      "bakers_remaining" : "An integer denoting the number of bakers who\nremained at the end of a given episode.",
+      "sb_name" : "A character string with the names of the bakers who won\nStar Baker in a given episode, separated by commas.",
+      "technical_winners" : "An integer denoting the number of bakers who\nplaced first in the technical challenge.",
+      "star_bakers" : "An integer denoting the number of bakers crowned Star\nBaker in a given episode.",
+      "winner_name" : "A character string with the name of the series winner.\nOnly present for final episodes within each series.",
+      "eliminated" : "A character string with the name of the bakers who left\na given episode, separated by commas.",
+      "bakers_appeared" : "an integer denoting the number of bakers who\nappeared in a given episode.",
+      "bakers_out" : "An integer denoting the number of bakers were either\neliminated, left at will, or left due to illness in that episode.",
+      "series" : "An integer denoting UK series (1-10).",
+      "episode" : "An integer denoting episode number within a series."
+   }
 }
 
 var episodes = [

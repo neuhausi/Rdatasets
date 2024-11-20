@@ -1,8 +1,8 @@
 var qcementInfo ={
-   "title" : "Quarterly Australian Portland Cement production",
-   "format" : "Australian Bureau of Statistics. Cat. 8301.0.55.001.",
    "usage" : "Quarterly time series of class ts.",
-   "description" : "Description\nTotal quarterly production of Portland cement in Australia (in millions of\ntonnes) from 1956:Q1 to 2014:Q1."
+   "title" : "Quarterly Australian Portland Cement production",
+   "description" : "Description\nTotal quarterly production of Portland cement in Australia (in millions of\ntonnes) from 1956:Q1 to 2014:Q1.",
+   "format" : "Australian Bureau of Statistics. Cat. 8301.0.55.001."
 }
 
 var qcement = [

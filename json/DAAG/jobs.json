@@ -1,16 +1,12 @@
 {
+   "config" : {
+      "title" : "Canadian Labour Force Summary Data (1995-96)",
+      "subtitle" : "DAAG - jobs",
+      "graphType" : "Heatmap"
+   },
    "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>jobs</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Canadian Labour Force Summary Data (1995-96)</h2>\n<h3>Description</h3>\n<p>The number of workers in the Canadian\nlabour force broken down by region (BC, Alberta, Prairies,\nOntario, Quebec, Atlantic) for the 24-month period from January,\n1995 to December, 1996 (a time when Canada was emerging from a\ndeep economic recession).\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>jobs</code></pre>\n<h3>Format</h3>\n<p>This data frame contains the following columns:\n</p>\n<dl>\n<dt>BC</dt><dd><p>monthly labour force counts in British Columbia</p>\n</dd>\n<dt>Alberta</dt><dd><p>monthly labour force counts in Alberta</p>\n</dd>\n<dt>Prairies</dt><dd><p>monthly labour force counts in Saskatchewan and \nManitoba</p>\n</dd>\n<dt>Ontario</dt><dd><p>monthly labour force counts in Ontario</p>\n</dd>\n<dt>Quebec</dt><dd><p>monthly labour force counts in Quebec</p>\n</dd>\n<dt>Atlantic</dt><dd><p>monthly labour force counts in Newfoundland, Nova \nScotia, Prince Edward Island and New Brunswick</p>\n</dd>\n<dt>Date</dt><dd><p>year (in decimal form)</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>These data have been seasonally adjusted.\n</p>\n<h3>Source</h3>\n<p>Statistics Canada\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>print(\"Multiple Variables and Times - Example 2.1.4\")\nsapply(jobs, range)\npause()\nmatplot(jobs[,7], jobs[,-7], type=\"l\", xlim=c(95,97.1))\n # Notice that we have been able to use a data frame as the second argument to matplot().\n # For more information on matplot(), type help(matplot)\ntext(rep(jobs[24,7], 6), jobs[24,1:6], names(jobs)[1:6], adj=0)\npause()\nsapply(log(jobs[,-7]), range)\napply(sapply(log(jobs[,-7]), range), 2, diff)\npause()\noldpar &lt;- par(mfrow=c(2,3))\nrange.log &lt;- sapply(log(jobs[,-7], 2), range)\nmaxdiff &lt;- max(apply(range.log, 2, diff))\nrange.log[2,] &lt;- range.log[1,] + maxdiff\ntitles &lt;- c(\"BC Jobs\",\"Alberta Jobs\",\"Prairie Jobs\",\n   \"Ontario Jobs\", \"Quebec Jobs\", \"Atlantic Jobs\")\nfor (i in 1:6){\nplot(jobs$Date, log(jobs[,i], 2), type = \"l\", ylim = range.log[,i],\n    xlab = \"Time\", ylab = \"Number of jobs\", main = titles[i])\npar(oldpar)\n</code></pre>\n</main>\n</div>\n",
    "data" : {
       "y" : {
-         "vars" : [
-            "BC",
-            "Alberta",
-            "Prairies",
-            "Ontario",
-            "Quebec",
-            "Atlantic",
-            "Date"
-         ],
          "smps" : [
             "Smp1",
             "Smp2",
@@ -220,12 +216,16 @@
                96.83333,
                96.91667
             ]
+         ],
+         "vars" : [
+            "BC",
+            "Alberta",
+            "Prairies",
+            "Ontario",
+            "Quebec",
+            "Atlantic",
+            "Date"
          ]
       }
-   },
-   "config" : {
-      "title" : "Canadian Labour Force Summary Data (1995-96)",
-      "graphType" : "Heatmap",
-      "subtitle" : "DAAG - jobs"
    }
 }

@@ -1,18 +1,18 @@
 var USMacroSWInfo ={
-   "title" : "US Macroeconomic Data (1957&ndash;2005, Stock & Watson)",
-   "reference" : "The US Consumer Price Index is measured using monthly surveys \nand is compiled by the Bureau of Labor Statistics (BLS). The\nunemployment rate is computed from the BLS's Current Population. The quarterly data\nused here were computed by averaging the monthly values. The interest data are the\nmonthly average of daily rates as reported by the Federal Reserve and the dollar-pound\nexchange rate data are the monthly average of daily rates; both are for the final month in\nthe quarter. Japanese real GDP data were obtained from the OECD.",
-   "format" : "A quarterly multiple time series from 1957(1) to 2005(1) with 7 variables.",
    "parameters" : {
+      "tbond" : "1-year treasury bond interest rate.",
       "cpi" : "Consumer price index.",
-      "tbill" : "3-month treasury bill interest rate.",
       "gbpusd" : "GBP/USD exchange rate (US dollar in cents per British pound).",
-      "unemp" : "Unemployment rate.",
       "gdpjp" : "GDP for Japan.",
+      "unemp" : "Unemployment rate.",
       "ffrate" : "Federal funds interest rate.",
-      "tbond" : "1-year treasury bond interest rate."
+      "tbill" : "3-month treasury bill interest rate."
    },
+   "reference" : "The US Consumer Price Index is measured using monthly surveys \nand is compiled by the Bureau of Labor Statistics (BLS). The\nunemployment rate is computed from the BLS's Current Population. The quarterly data\nused here were computed by averaging the monthly values. The interest data are the\nmonthly average of daily rates as reported by the Federal Reserve and the dollar-pound\nexchange rate data are the monthly average of daily rates; both are for the final month in\nthe quarter. Japanese real GDP data were obtained from the OECD.",
    "usage" : "data(\"USMacroSW\")",
-   "description" : "Description\nTime series data on 7 (mostly) US macroeconomic variables for 1957&ndash;2005."
+   "description" : "Description\nTime series data on 7 (mostly) US macroeconomic variables for 1957&ndash;2005.",
+   "title" : "US Macroeconomic Data (1957&ndash;2005, Stock & Watson)",
+   "format" : "A quarterly multiple time series from 1957(1) to 2005(1) with 7 variables."
 }
 
 var USMacroSW = [

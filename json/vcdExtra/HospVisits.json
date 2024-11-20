@@ -1,17 +1,46 @@
 {
    "config" : {
-      "subtitle" : "vcdExtra - HospVisits",
-      "segregateSamplesBy" : [
-         "visit"
-      ],
       "title" : "Hospital Visits Data",
+      "subtitle" : "vcdExtra - HospVisits",
       "groupingFactors" : [
          "stay"
       ],
+      "colorBy" : "variable",
       "graphType" : "Boxplot",
-      "colorBy" : "variable"
+      "segregateSamplesBy" : [
+         "visit"
+      ]
    },
    "data" : {
+      "y" : {
+         "vars" : [
+            "Freq"
+         ],
+         "data" : [
+            [
+               43,
+               6,
+               9,
+               16,
+               11,
+               18,
+               3,
+               10,
+               16
+            ]
+         ],
+         "smps" : [
+            "Smp1",
+            "Smp2",
+            "Smp3",
+            "Smp4",
+            "Smp5",
+            "Smp6",
+            "Smp7",
+            "Smp8",
+            "Smp9"
+         ]
+      },
       "x" : {
          "stay" : [
             "2-9",
@@ -34,35 +63,6 @@
             "Regular",
             "Infrequent",
             "Never"
-         ]
-      },
-      "y" : {
-         "vars" : [
-            "Freq"
-         ],
-         "smps" : [
-            "Smp1",
-            "Smp2",
-            "Smp3",
-            "Smp4",
-            "Smp5",
-            "Smp6",
-            "Smp7",
-            "Smp8",
-            "Smp9"
-         ],
-         "data" : [
-            [
-               43,
-               6,
-               9,
-               16,
-               11,
-               18,
-               3,
-               10,
-               16
-            ]
          ]
       }
    },

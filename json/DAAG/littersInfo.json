@@ -1,0 +1,12 @@
+{
+   "format" : "This data frame contains the following columns:",
+   "reference" : "Wainright P, Pelkman C and Wahlsten D 1989. The quantitative\nrelationship between nutritional effects on preweaning growth      \nand behavioral development in mice. Developmental Psychobiology   \n22: 183-193.",
+   "usage" : "litters",
+   "title" : "Mouse Litters",
+   "description" : "Description\nData on the body and brain weights of 20 mice, together\nwith the size of the litter.  Two mice were taken from each\nlitter size.",
+   "parameters" : {
+      "brainwt" : "brain weight",
+      "lsize" : "litter size",
+      "bodywt" : "body weight"
+   }
+}

@@ -1,8 +1,8 @@
 var votes.repubInfo ={
-   "description" : "Description\nA data frame with the percents of votes given to the republican\ncandidate in presidential elections from 1856 to 1976.  Rows\nrepresent the 50 states, and columns the 31 elections.",
-   "usage" : "data(votes.repub)",
+   "format" : "S. Peterson (1973):\nA Statistical History of the American Presidential Elections.\nNew York: Frederick Ungar Publishing Co.",
    "title" : "Votes for Republican Candidate in Presidential Elections",
-   "format" : "S. Peterson (1973):\nA Statistical History of the American Presidential Elections.\nNew York: Frederick Ungar Publishing Co."
+   "description" : "Description\nA data frame with the percents of votes given to the republican\ncandidate in presidential elections from 1856 to 1976.  Rows\nrepresent the 50 states, and columns the 31 elections.",
+   "usage" : "data(votes.repub)"
 }
 
 var votes.repub = [

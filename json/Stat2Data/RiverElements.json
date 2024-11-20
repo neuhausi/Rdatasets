@@ -1,77 +1,16 @@
 {
+   "config" : {
+      "title" : "Elements in River Water Samples",
+      "subtitle" : "Stat2Data - RiverElements",
+      "smpOverlays" : [
+         "River",
+         "Ho"
+      ],
+      "graphType" : "Heatmap"
+   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>RiverElements</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Elements in River Water Samples</h2>\n<h3>Description</h3>\n<p>Concentrations of elements in river water samples from upstate NY\n</p>\n<h3>Format</h3>\n<p>A dataset with 12 observations on the following 27 variables.\n</p>\n<table>\n<tr>\n <td style=\"text-align: right;\">\n    <code>River</code> </td><td style=\"text-align: left;\"> One of four rivers: <code>Grasse</code>, <code>Oswegatchie</code>, <code>Raquette</code>, or <code>St. Regis</code></td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Site</code> </td><td style=\"text-align: left;\"> Location: 1=UpStream, 2=MidStream, 3=Downstream</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Al</code> </td><td style=\"text-align: left;\"> Aluminum</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Ba</code> </td><td style=\"text-align: left;\"> Barium</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Br</code> </td><td style=\"text-align: left;\"> Bromine</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Ca</code> </td><td style=\"text-align: left;\"> Calcium</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Ce</code> </td><td style=\"text-align: left;\"> Cerium</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Cu</code> </td><td style=\"text-align: left;\"> Copper</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Dy</code> </td><td style=\"text-align: left;\"> Dysprosium</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Er</code> </td><td style=\"text-align: left;\"> Erbim</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Fe</code> </td><td style=\"text-align: left;\"> Iron</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Gd</code> </td><td style=\"text-align: left;\"> Gadolinium</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Ho</code> </td><td style=\"text-align: left;\"> Holmum</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>K</code> </td><td style=\"text-align: left;\"> Potassium</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>La</code> </td><td style=\"text-align: left;\"> Lathanum</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Li</code> </td><td style=\"text-align: left;\"> Lithium</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Mg</code> </td><td style=\"text-align: left;\"> Magnesium</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Mn</code> </td><td style=\"text-align: left;\"> Manganese</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Nd</code> </td><td style=\"text-align: left;\"> Neodymium</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Pr</code> </td><td style=\"text-align: left;\"> Proseyodymium</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Rb</code> </td><td style=\"text-align: left;\"> Rubidium</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Si</code> </td><td style=\"text-align: left;\"> Silicon</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Sr</code> </td><td style=\"text-align: left;\"> Strontium</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Y</code> </td><td style=\"text-align: left;\"> Yttrium</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Yb</code> </td><td style=\"text-align: left;\"> Ytterbium</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Zn</code> </td><td style=\"text-align: left;\"> Zinc</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Zr</code> </td><td style=\"text-align: left;\"> Zirconium</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n  </td>\n</tr>\n</table>\n<h3>Details</h3>\n<p>Some geologists were interested in the water chemistry of rivers in upstate New York. They took\nwater samples at three different locations in four rivers (Grasse, Oswegatchie, Raquette, and St.\nRegis). The sampling sites were chosen to investigate how the composition of the water changes as\nit flows from the source to the mouth of each river. The sampling sites were labeled as upstream,\nmidstream, and downstream. This dataset contains the concentrations (parts per million) of a variety of elements\nin those water samples.\nThe dataset RiverIron contains the information for iron (FE) alone, along with the log of the concentration.\n</p>\n<h3>Source</h3>\n<p>Thanks to Dr. Jeff Chiarenzelli of the St. Lawrence University Geology Department for the data.\n</p>\n<h3>References</h3>\n<p>Chiarenzelli, Lock, Cady, Bregani and Whitney,\n&quot;Variation in river multi-element chemistry related to bedrock buffering:\nan example from the Adirondack region of northern New York, USA&quot;,\nEnvironmental Earth Sciences, Volume 67, Number 1 (2012), 189-204\n</p>\n</main>\n</div>\n",
    "data" : {
-      "x" : {
-         "River" : [
-            "Grasse",
-            "Grasse",
-            "Grasse",
-            "Oswegatchie",
-            "Oswegatchie",
-            "Oswegatchie",
-            "Raquette",
-            "Raquette",
-            "Raquette",
-            "St. Regis",
-            "St. Regis",
-            "St. Regis"
-         ],
-         "Ho" : [
-            "0.04",
-            "0.04",
-            "0.02",
-            "0.05",
-            "0.02",
-            "0.01",
-            "0.01",
-            "0.01",
-            "",
-            "0.03",
-            "0.02",
-            "0.02"
-         ]
-      },
       "y" : {
-         "vars" : [
-            "Site",
-            "Al",
-            "Ba",
-            "Br",
-            "Ca",
-            "Ce",
-            "Cu",
-            "Dy",
-            "Er",
-            "Fe",
-            "Gd",
-            "K",
-            "La",
-            "Li",
-            "Mg",
-            "Mn",
-            "Nd",
-            "Pr",
-            "Rb",
-            "Si",
-            "Sr",
-            "Y",
-            "Yb",
-            "Zn",
-            "Zr"
-         ],
-         "smps" : [
-            "Smp1",
-            "Smp2",
-            "Smp3",
-            "Smp4",
-            "Smp5",
-            "Smp6",
-            "Smp7",
-            "Smp8",
-            "Smp9",
-            "Smp10",
-            "Smp11",
-            "Smp12"
-         ],
          "data" : [
             [
                1,
@@ -423,17 +362,78 @@
                0.09,
                0.08
             ]
+         ],
+         "smps" : [
+            "Smp1",
+            "Smp2",
+            "Smp3",
+            "Smp4",
+            "Smp5",
+            "Smp6",
+            "Smp7",
+            "Smp8",
+            "Smp9",
+            "Smp10",
+            "Smp11",
+            "Smp12"
+         ],
+         "vars" : [
+            "Site",
+            "Al",
+            "Ba",
+            "Br",
+            "Ca",
+            "Ce",
+            "Cu",
+            "Dy",
+            "Er",
+            "Fe",
+            "Gd",
+            "K",
+            "La",
+            "Li",
+            "Mg",
+            "Mn",
+            "Nd",
+            "Pr",
+            "Rb",
+            "Si",
+            "Sr",
+            "Y",
+            "Yb",
+            "Zn",
+            "Zr"
+         ]
+      },
+      "x" : {
+         "River" : [
+            "Grasse",
+            "Grasse",
+            "Grasse",
+            "Oswegatchie",
+            "Oswegatchie",
+            "Oswegatchie",
+            "Raquette",
+            "Raquette",
+            "Raquette",
+            "St. Regis",
+            "St. Regis",
+            "St. Regis"
+         ],
+         "Ho" : [
+            "0.04",
+            "0.04",
+            "0.02",
+            "0.05",
+            "0.02",
+            "0.01",
+            "0.01",
+            "0.01",
+            "",
+            "0.03",
+            "0.02",
+            "0.02"
          ]
       }
-   },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>RiverElements</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Elements in River Water Samples</h2>\n<h3>Description</h3>\n<p>Concentrations of elements in river water samples from upstate NY\n</p>\n<h3>Format</h3>\n<p>A dataset with 12 observations on the following 27 variables.\n</p>\n<table>\n<tr>\n <td style=\"text-align: right;\">\n    <code>River</code> </td><td style=\"text-align: left;\"> One of four rivers: <code>Grasse</code>, <code>Oswegatchie</code>, <code>Raquette</code>, or <code>St. Regis</code></td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Site</code> </td><td style=\"text-align: left;\"> Location: 1=UpStream, 2=MidStream, 3=Downstream</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Al</code> </td><td style=\"text-align: left;\"> Aluminum</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Ba</code> </td><td style=\"text-align: left;\"> Barium</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Br</code> </td><td style=\"text-align: left;\"> Bromine</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Ca</code> </td><td style=\"text-align: left;\"> Calcium</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Ce</code> </td><td style=\"text-align: left;\"> Cerium</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Cu</code> </td><td style=\"text-align: left;\"> Copper</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Dy</code> </td><td style=\"text-align: left;\"> Dysprosium</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Er</code> </td><td style=\"text-align: left;\"> Erbim</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Fe</code> </td><td style=\"text-align: left;\"> Iron</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Gd</code> </td><td style=\"text-align: left;\"> Gadolinium</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Ho</code> </td><td style=\"text-align: left;\"> Holmum</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>K</code> </td><td style=\"text-align: left;\"> Potassium</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>La</code> </td><td style=\"text-align: left;\"> Lathanum</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Li</code> </td><td style=\"text-align: left;\"> Lithium</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Mg</code> </td><td style=\"text-align: left;\"> Magnesium</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Mn</code> </td><td style=\"text-align: left;\"> Manganese</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Nd</code> </td><td style=\"text-align: left;\"> Neodymium</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Pr</code> </td><td style=\"text-align: left;\"> Proseyodymium</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Rb</code> </td><td style=\"text-align: left;\"> Rubidium</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Si</code> </td><td style=\"text-align: left;\"> Silicon</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Sr</code> </td><td style=\"text-align: left;\"> Strontium</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Y</code> </td><td style=\"text-align: left;\"> Yttrium</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Yb</code> </td><td style=\"text-align: left;\"> Ytterbium</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Zn</code> </td><td style=\"text-align: left;\"> Zinc</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Zr</code> </td><td style=\"text-align: left;\"> Zirconium</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n  </td>\n</tr>\n</table>\n<h3>Details</h3>\n<p>Some geologists were interested in the water chemistry of rivers in upstate New York. They took\nwater samples at three different locations in four rivers (Grasse, Oswegatchie, Raquette, and St.\nRegis). The sampling sites were chosen to investigate how the composition of the water changes as\nit flows from the source to the mouth of each river. The sampling sites were labeled as upstream,\nmidstream, and downstream. This dataset contains the concentrations (parts per million) of a variety of elements\nin those water samples.\nThe dataset RiverIron contains the information for iron (FE) alone, along with the log of the concentration.\n</p>\n<h3>Source</h3>\n<p>Thanks to Dr. Jeff Chiarenzelli of the St. Lawrence University Geology Department for the data.\n</p>\n<h3>References</h3>\n<p>Chiarenzelli, Lock, Cady, Bregani and Whitney,\n&quot;Variation in river multi-element chemistry related to bedrock buffering:\nan example from the Adirondack region of northern New York, USA&quot;,\nEnvironmental Earth Sciences, Volume 67, Number 1 (2012), 189-204\n</p>\n</main>\n</div>\n",
-   "config" : {
-      "title" : "Elements in River Water Samples",
-      "graphType" : "Heatmap",
-      "smpOverlays" : [
-         "River",
-         "Ho"
-      ],
-      "subtitle" : "Stat2Data - RiverElements"
    }
 }

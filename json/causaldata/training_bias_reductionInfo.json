@@ -1,0 +1,13 @@
+{
+   "parameters" : {
+      "Y" : "Outcome",
+      "X" : "Matching variable",
+      "Unit" : "Unit ID",
+      "D" : "Treatment"
+   },
+   "description" : "Description\nThis simulated data is used to demonstrate the bias-reduction method in matching as per Abadie and Imbens (2011).",
+   "title" : "Simulated data from a job training program for a bias reduction method",
+   "reference" : "This data is used in the Matching and Subclassification chapter of Causal Inference: The Mixtape by Cunningham.",
+   "usage" : "training_bias_reduction",
+   "format" : "A data frame with 8 rows and 4 variables"
+}

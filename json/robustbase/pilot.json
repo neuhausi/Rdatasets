@@ -1,5 +1,9 @@
 {
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>pilot</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Pilot-Plant Data</h2>\n<h3>Description</h3>\n<p>Pilot-Plant data from Daniel and Wood (1971). The response variable\ncorresponds to the acid content determined by titration and the\nexplanatory variable is the organic acid content determined by\nextraction and weighing. This data set was analyzed also by Yale and\nForsythe (1976).\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(pilot, package=\"robustbase\")</code></pre>\n<h3>Format</h3>\n<p>A data frame with 20 observations on the following 2 variables.\n</p>\n<dl>\n<dt><code>X</code></dt><dd><p>Organic acid content - extraction</p>\n</dd>\n<dt><code>Y</code></dt><dd><p>Acid content - titration </p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>P. J. Rousseeuw and A. M. Leroy (1987)\n<em>Robust Regression and Outlier Detection</em>;\nWiley, page 21, table 1.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>data(pilot)\nsummary(lm.pilot &lt;- lm(Y ~.,data=pilot))\n</code></pre>\n</main>\n</div>\n",
+   "config" : {
+      "title" : "Pilot-Plant Data",
+      "subtitle" : "robustbase - pilot",
+      "graphType" : "Scatter2D"
+   },
    "data" : {
       "y" : {
          "data" : [
@@ -84,6 +88,10 @@
                88
             ]
          ],
+         "smps" : [
+            "X",
+            "Y"
+         ],
          "vars" : [
             "Var1",
             "Var2",
@@ -105,16 +113,8 @@
             "Var18",
             "Var19",
             "Var20"
-         ],
-         "smps" : [
-            "X",
-            "Y"
          ]
       }
    },
-   "config" : {
-      "subtitle" : "robustbase - pilot",
-      "graphType" : "Scatter2D",
-      "title" : "Pilot-Plant Data"
-   }
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>pilot</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Pilot-Plant Data</h2>\n<h3>Description</h3>\n<p>Pilot-Plant data from Daniel and Wood (1971). The response variable\ncorresponds to the acid content determined by titration and the\nexplanatory variable is the organic acid content determined by\nextraction and weighing. This data set was analyzed also by Yale and\nForsythe (1976).\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(pilot, package=\"robustbase\")</code></pre>\n<h3>Format</h3>\n<p>A data frame with 20 observations on the following 2 variables.\n</p>\n<dl>\n<dt><code>X</code></dt><dd><p>Organic acid content - extraction</p>\n</dd>\n<dt><code>Y</code></dt><dd><p>Acid content - titration </p>\n</dd>\n</dl>\n<h3>Source</h3>\n<p>P. J. Rousseeuw and A. M. Leroy (1987)\n<em>Robust Regression and Outlier Detection</em>;\nWiley, page 21, table 1.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>data(pilot)\nsummary(lm.pilot &lt;- lm(Y ~.,data=pilot))\n</code></pre>\n</main>\n</div>\n"
 }

@@ -1,0 +1,16 @@
+{
+   "parameters" : {
+      "DIFF" : "Survey1 - Survey2",
+      "Gender" : "Gender of Respondent (0 = male, 1 = female)",
+      "Survey1" : "Percent correct on Survey 1",
+      "FemaleID" : "Percent correct in identifying female specimens on Survey 1",
+      "MaleID" : "Percent correct in identifying male specimens on Survey 1",
+      "Survey2" : "Percent correct on Survey 2",
+      "Individual" : "Survey Respondent Number",
+      "Both" : "Percent correctly identified on Survey 1 AND Survey 2"
+   },
+   "reference" : "Bradley and colleagues at Clarke University gave two identical surveys to a sample of 203 students (each student did the survey twice).  Each survey contains 25 writing specimens and students were asked to identify whether the author is male or female.  Of the 25 specimens, 12 are written by a female, 13 by a male.",
+   "usage" : "A data frame with 204 observations on the following 8 variables.",
+   "description" : "Description\nSurvey data to see if subjects can guess author's sex from handwriting specimens",
+   "title" : "Guess Author's Sex from Handwriting?"
+}

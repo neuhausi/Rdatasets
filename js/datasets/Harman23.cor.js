@@ -1,8 +1,8 @@
 var Harman23.corInfo ={
    "description" : "Description\nA correlation matrix of eight physical measurements on 305 girls between\nages seven and seventeen.",
-   "format" : "Harman, H. H. (1976)\nModern Factor Analysis, Third Edition Revised,\nUniversity of Chicago Press, Table 2.3.",
    "title" : "Harman Example 2.3",
-   "usage" : "Harman23.cor"
+   "usage" : "Harman23.cor",
+   "format" : "Harman, H. H. (1976)\nModern Factor Analysis, Third Edition Revised,\nUniversity of Chicago Press, Table 2.3."
 }
 
 var Harman23.cor = [

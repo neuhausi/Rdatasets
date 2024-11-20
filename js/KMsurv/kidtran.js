@@ -1,16 +1,16 @@
 var kidtranInfo ={
+   "reference" : "Klein and Moeschberger (1997) Survival Analysis Techniques for Censored\nand truncated data, Springer.",
+   "usage" : "This data frame contains the following columns:",
+   "title" : "data from Section 1.7",
    "description" : "Description\nThe kidtran data frame has 863 rows and 6 columns.",
    "parameters" : {
-      "obs" : "Observation number",
-      "race" : "1=white, 2=black",
       "gender" : "1=male, 2=female",
-      "delta" : "Death indicator (0=alive, 1=dead)",
+      "obs" : "Observation number",
       "age" : "Age in years",
-      "time" : "Time to death or on-study time"
-   },
-   "usage" : "This data frame contains the following columns:",
-   "reference" : "Klein and Moeschberger (1997) Survival Analysis Techniques for Censored\nand truncated data, Springer.",
-   "title" : "data from Section 1.7"
+      "time" : "Time to death or on-study time",
+      "race" : "1=white, 2=black",
+      "delta" : "Death indicator (0=alive, 1=dead)"
+   }
 }
 
 var kidtran = [

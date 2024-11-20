@@ -1,16 +1,16 @@
 var HCInfo ={
    "format" : "A dataframe containing :",
-   "title" : "Heating and Cooling System Choice in Newly Built Houses in California",
-   "usage" : "data(HC)",
-   "description" : "Description\na cross-section\nnumber of observations :  250\nobservation :  households\ncountry :  California",
    "parameters" : {
       "ich.z" : "installation cost of the heating \nportion of the system",
-      "occa" : "operating cost for cooling",
       "och.z" : "operating cost for the heating portion of the system",
-      "icca" : "installation cost for cooling",
       "income" : "annual income of the household",
-      "depvar" : "heating system, one of gcc \n(gas central heat with cooling), \necc (electric central \nresistance heat with cooling), \nerc (electric room \nresistance heat with cooling), \nhpc (electric heat pump \nwhich provides cooling also), \ngc (gas central heat without \ncooling, ec (electric \ncentral resistance heat without \ncooling), er (electric room \nresistance heat without cooling)"
-   }
+      "depvar" : "heating system, one of gcc \n(gas central heat with cooling), \necc (electric central \nresistance heat with cooling), \nerc (electric room \nresistance heat with cooling), \nhpc (electric heat pump \nwhich provides cooling also), \ngc (gas central heat without \ncooling, ec (electric \ncentral resistance heat without \ncooling), er (electric room \nresistance heat without cooling)",
+      "icca" : "installation cost for cooling",
+      "occa" : "operating cost for cooling"
+   },
+   "description" : "Description\na cross-section\nnumber of observations :  250\nobservation :  households\ncountry :  California",
+   "title" : "Heating and Cooling System Choice in Newly Built Houses in California",
+   "usage" : "data(HC)"
 }
 
 var HC = [

@@ -1,8 +1,8 @@
 var austaInfo ={
    "usage" : "Annual time series of class ts.",
+   "description" : "Description\nTotal international visitors to Australia (in millions). 1980-2015.",
    "title" : "International visitors to Australia",
-   "format" : "International Visitor Survey, Tourism Research Australia.",
-   "description" : "Description\nTotal international visitors to Australia (in millions). 1980-2015."
+   "format" : "International Visitor Survey, Tourism Research Australia."
 }
 
 var austa = [

@@ -1,22 +1,22 @@
 var ArmadaInfo ={
    "usage" : "data(\"Armada\")",
-   "description" : "Description\nThe Spanish Armada (Spanish: Grande y Felicisima Armada, literally \"Great and Most Fortunate Navy\") was a Spanish fleet of 130 ships \nthat sailed from La Coruna in August 1588.\nDuring its preparation, several accounts of its formidable strength\nwere circulated to reassure allied powers of Spain or to intimidate its enemies.\nOne such account was given by Paz Salas et Alvarez (1588).\nThe intent was bring the forces of Spain to invade England, overthrow\nQueen Elizabeth I, and re-establish Spanish control of the Netherlands.\nHowever the Armada\nwas not as fortunate as hoped: it was all destroyed in one week's fighting.\nde Falguerolles (2008) reports the table given here as Armada\nas an early example of data to which multivariate methods might be applied.",
    "reference" : "Note that men = soldiers + sailors",
-   "format" : "A data frame with 10 observations on the following 11 variables.",
+   "description" : "Description\nThe Spanish Armada (Spanish: Grande y Felicisima Armada, literally \"Great and Most Fortunate Navy\") was a Spanish fleet of 130 ships \nthat sailed from La Coruna in August 1588.\nDuring its preparation, several accounts of its formidable strength\nwere circulated to reassure allied powers of Spain or to intimidate its enemies.\nOne such account was given by Paz Salas et Alvarez (1588).\nThe intent was bring the forces of Spain to invade England, overthrow\nQueen Elizabeth I, and re-establish Spanish control of the Netherlands.\nHowever the Armada\nwas not as fortunate as hoped: it was all destroyed in one week's fighting.\nde Falguerolles (2008) reports the table given here as Armada\nas an early example of data to which multivariate methods might be applied.",
    "title" : "La Felicisima Armada",
    "parameters" : {
-      "lead" : "a numeric vector",
-      "tons" : "total tons, a numeric vector",
       "Armada" : "designation of the fleet, a factor with levels Andalucia Castilla Galeras Guipuscua Napoles Pataches Portugal Uantiscas Vizca Vrcas",
       "balls" : "a numeric vector",
-      "gunpowder" : "a numeric vector",
-      "ships" : "number of ships, a numeric vector",
       "men" : "total of soldiers plus sailors, a numeric vector",
-      "artillery" : "a numeric vector",
-      "sailors" : "number of sailors, a numeric vector",
       "rope" : "a numeric vector",
-      "soldiers" : "number of soldiers, a numeric vector"
-   }
+      "lead" : "a numeric vector",
+      "artillery" : "a numeric vector",
+      "soldiers" : "number of soldiers, a numeric vector",
+      "tons" : "total tons, a numeric vector",
+      "sailors" : "number of sailors, a numeric vector",
+      "gunpowder" : "a numeric vector",
+      "ships" : "number of ships, a numeric vector"
+   },
+   "format" : "A data frame with 10 observations on the following 11 variables."
 }
 
 var Armada = [

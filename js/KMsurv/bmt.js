@@ -1,32 +1,32 @@
 var bmtInfo ={
    "description" : "Description\nThe bmt data frame has 137 rows and 22 columns.",
+   "title" : "data from Section 1.3",
+   "usage" : "This data frame contains the following columns:",
+   "reference" : "Klein and Moeschberger (1997) Survival Analysis Techniques for Censored\nand truncated data, Springer.",
    "parameters" : {
-      "dp" : "Platelet Recovery Indicator 1-Platelets Returned To Normal, 0-Platelets Never Returned to Normal",
-      "z3" : "Patient Sex: 1-Male, 0-Female",
-      "d3" : "Disease Free Survival Indicator 1-Dead Or Relapsed, 0-Alive Disease Free)",
-      "z7" : "Waiting Time to Transplant In Days",
+      "z10" : "MTX Used as a Graft-Versus-Host- Prophylactic: 1-Yes 0-No",
+      "ta" : "Time To Acute Graft-Versus-Host Disease",
+      "dc" : "Chronic GVHD Indicator 1-Developed Chronic GVHD 0-Never Developed Chronic GVHD",
+      "z4" : "Donor Sex: 1-Male, 0-Female",
       "z5" : "Patient CMV Status: 1-CMV Positive, 0-CMV Negative",
       "group" : "Disease Group 1-ALL, 2-AML Low Risk, 3-AML High Risk",
-      "z6" : "Donor CMV Status: 1-CMV Positive, 0-CMV Negative",
-      "t2" : "Disease Free Survival Time (Time To Relapse, Death Or End Of Study)",
-      "ta" : "Time To Acute Graft-Versus-Host Disease",
-      "t1" : "Time To Death Or On Study Time",
       "tc" : "Time To Chronic Graft-Versus-Host Disease",
+      "da" : "Acute GVHD Indicator 1-Developed Acute GVHD 0-Never Developed Acute GVHD)",
+      "dp" : "Platelet Recovery Indicator 1-Platelets Returned To Normal, 0-Platelets Never Returned to Normal",
+      "t1" : "Time To Death Or On Study Time",
+      "d2" : "Relapse Indicator 1-Relapsed, 0-Disease Free",
+      "d3" : "Disease Free Survival Indicator 1-Dead Or Relapsed, 0-Alive Disease Free)",
+      "z3" : "Patient Sex: 1-Male, 0-Female",
+      "z6" : "Donor CMV Status: 1-CMV Positive, 0-CMV Negative",
+      "z7" : "Waiting Time to Transplant In Days",
+      "z2" : "Donor Age In Years",
       "z9" : "Hospital: 1-The Ohio State University, 2-Alferd , 3-St. Vincent, 4-Hahnemann",
-      "z10" : "MTX Used as a Graft-Versus-Host- Prophylactic: 1-Yes 0-No",
-      "tp" : "Time To Chronic Graft-Versus-Host Disease",
-      "z4" : "Donor Sex: 1-Male, 0-Female",
       "z8" : "FAB: 1-FAB Grade 4 Or 5 and AML, 0-Otherwise",
-      "dc" : "Chronic GVHD Indicator 1-Developed Chronic GVHD 0-Never Developed Chronic GVHD",
       "z1" : "Patient Age In Years",
       "d1" : "Death Indicator 1-Dead 0-Alive",
-      "da" : "Acute GVHD Indicator 1-Developed Acute GVHD 0-Never Developed Acute GVHD)",
-      "z2" : "Donor Age In Years",
-      "d2" : "Relapse Indicator 1-Relapsed, 0-Disease Free"
-   },
-   "usage" : "This data frame contains the following columns:",
-   "title" : "data from Section 1.3",
-   "reference" : "Klein and Moeschberger (1997) Survival Analysis Techniques for Censored\nand truncated data, Springer."
+      "tp" : "Time To Chronic Graft-Versus-Host Disease",
+      "t2" : "Disease Free Survival Time (Time To Relapse, Death Or End Of Study)"
+   }
 }
 
 var bmt = [

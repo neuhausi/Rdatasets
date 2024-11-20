@@ -1,13 +1,13 @@
 var cloudInfo ={
-   "title" : "Cloud point of a Liquid",
    "format" : "A data frame with 19 observations on the following 2 variables.",
    "reference" : "P. J. Rousseeuw and A. M. Leroy (1987)\nRobust Regression and Outlier Detection;\nWiley, p.96, table 10.",
-   "parameters" : {
-      "Percentage" : "Percentage of I-8",
-      "CloudPoint" : "Cloud point"
-   },
    "usage" : "data(cloud, package=\"robustbase\")",
-   "description" : "Description\nThis data set contains the measurements concerning the\ncloud point of a Liquid, from Draper and Smith (1969).\nThe cloud point is a measure of the degree of crystallization in a\nstock."
+   "title" : "Cloud point of a Liquid",
+   "description" : "Description\nThis data set contains the measurements concerning the\ncloud point of a Liquid, from Draper and Smith (1969).\nThe cloud point is a measure of the degree of crystallization in a\nstock.",
+   "parameters" : {
+      "CloudPoint" : "Cloud point",
+      "Percentage" : "Percentage of I-8"
+   }
 }
 
 var cloud = [

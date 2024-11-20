@@ -1,20 +1,20 @@
 var us_temperatureInfo ={
-   "reference" : "Please keep in mind that the data represent two annual snapshots, and a complete\nanalysis would consider more than two years of data and a random or more\ncomplete sampling of weather stations across the US.",
    "format" : "A data frame with 18759 observations on the following 9 variables.",
-   "title" : "US temperatures in 1950 and 2022",
    "parameters" : {
-      "date" : "Date the measurement was taken (Y-m-d).",
-      "latitude" : "Latitude of the NOAA weather station.",
+      "tmax" : "Maximum daily temperature (Farenheit).",
       "year" : "Year of the measurement.",
-      "elevation" : "Elevation of the NOAA weather station.",
       "tmin" : "Minimum daily temperature (Farenheit).",
       "location" : "Location of the NOAA weather station.",
       "station" : "Formal ID of the NOAA weather station.",
-      "tmax" : "Maximum daily temperature (Farenheit).",
+      "date" : "Date the measurement was taken (Y-m-d).",
+      "elevation" : "Elevation of the NOAA weather station.",
+      "latitude" : "Latitude of the NOAA weather station.",
       "longitude" : "Longitude of the NOAA weather station."
    },
+   "description" : "Description\nA representative set of monitoring locations were taken from NOAA\ndata in 1950 and 2022 such that the locations are sampled roughly\ngeographically across the continental US (the observations do not\nrepresent a random sample of geographical locations).",
+   "title" : "US temperatures in 1950 and 2022",
    "usage" : "us_temperature",
-   "description" : "Description\nA representative set of monitoring locations were taken from NOAA\ndata in 1950 and 2022 such that the locations are sampled roughly\ngeographically across the continental US (the observations do not\nrepresent a random sample of geographical locations)."
+   "reference" : "Please keep in mind that the data represent two annual snapshots, and a complete\nanalysis would consider more than two years of data and a random or more\ncomplete sampling of weather stations across the US."
 }
 
 var us_temperature = [

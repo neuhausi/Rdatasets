@@ -1,0 +1,11 @@
+{
+   "format" : "An object of class \"data.frame\".",
+   "usage" : "heights",
+   "reference" : "reported_heights for the original data source.",
+   "description" : "Description\nSelf-reported heights and sex. The heights were converted to inches from the original data included in reported_heights.",
+   "title" : "Self-reported Heights in Inches",
+   "parameters" : {
+      "height. A numeric vector with self-reported heights in inches." : null,
+      "sex. A factor with the self-reported sex." : null
+   }
+}

@@ -1,19 +1,19 @@
 var cle_sacInfo ={
-   "reference" : "library(ggplot2)\n\nggplot(cle_sac, aes(x = personal_income)) +\n  geom_histogram(binwidth = 20000) +\n  facet_wrap(~city)",
+   "description" : "Description\nData on a sample of 500 people from the Cleveland, OH and Sacramento, CA\nmetro areas.",
    "title" : "Cleveland and Sacramento",
-   "format" : "A data frame with 500 observations representing people on the\nfollowing 8 variables.",
-   "parameters" : {
-      "state" : "State where person resides.",
-      "city" : "City.",
-      "race" : "Race.",
-      "marital_status" : "Marital status.",
-      "sex" : "Sex.",
-      "personal_income" : "Personal income.",
-      "year" : "Year the data was collected.",
-      "age" : "Age."
-   },
    "usage" : "cle_sac",
-   "description" : "Description\nData on a sample of 500 people from the Cleveland, OH and Sacramento, CA\nmetro areas."
+   "reference" : "library(ggplot2)\n\nggplot(cle_sac, aes(x = personal_income)) +\n  geom_histogram(binwidth = 20000) +\n  facet_wrap(~city)",
+   "parameters" : {
+      "year" : "Year the data was collected.",
+      "city" : "City.",
+      "state" : "State where person resides.",
+      "personal_income" : "Personal income.",
+      "age" : "Age.",
+      "marital_status" : "Marital status.",
+      "race" : "Race.",
+      "sex" : "Sex."
+   },
+   "format" : "A data frame with 500 observations representing people on the\nfollowing 8 variables."
 }
 
 var cle_sac = [

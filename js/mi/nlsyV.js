@@ -1,18 +1,18 @@
 var nlsyVInfo ={
-   "description" : "Description\nThis dataset pertains to children and their families in the United States and \nis intended to illustrate missing data issues. Note that although the original\ndata are longitudinal, this extract is not.",
-   "usage" : "data(nlsyV)",
+   "format" : "A data frame with 400 randomly subsampled observations on the following 7 variables.",
    "parameters" : {
-      "b.marr" : "indicator for whether mother was married when child was born",
+      "income" : "a numeric vector with data on family income in year after the child was born",
       "momage" : "a numeric vector with data on the age of the mother when the child was born",
       "momrace" : "race of mother (1 = black, 2 = Hispanic, 3 = white)",
-      "ppvtr.36" : "a numeric vector with data on the Peabody Picture Vocabulary Test (Revised) \nadministered at 36 months",
       "first" : "indicator for whether child was first-born",
-      "momed" : "educational status of mother when child was born (1 = less than high school, \n2 = high school graduate, 3 = some college, 4 = college graduate)",
-      "income" : "a numeric vector with data on family income in year after the child was born"
+      "ppvtr.36" : "a numeric vector with data on the Peabody Picture Vocabulary Test (Revised) \nadministered at 36 months",
+      "b.marr" : "indicator for whether mother was married when child was born",
+      "momed" : "educational status of mother when child was born (1 = less than high school, \n2 = high school graduate, 3 = some college, 4 = college graduate)"
    },
-   "format" : "A data frame with 400 randomly subsampled observations on the following 7 variables.",
    "title" : "National Longitudinal Survey of Youth Extract",
-   "reference" : "National Longitudinal Survey of Youth, 1997, https://www.bls.gov/nls/nlsy97.htm"
+   "description" : "Description\nThis dataset pertains to children and their families in the United States and \nis intended to illustrate missing data issues. Note that although the original\ndata are longitudinal, this extract is not.",
+   "reference" : "National Longitudinal Survey of Youth, 1997, https://www.bls.gov/nls/nlsy97.htm",
+   "usage" : "data(nlsyV)"
 }
 
 var nlsyV = [

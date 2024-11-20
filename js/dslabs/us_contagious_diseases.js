@@ -1,17 +1,17 @@
 var us_contagious_diseasesInfo ={
+   "format" : "An object of class \"data.frame\".",
+   "description" : "Description\nYearly counts for Hepatitis A, Measles, Mumps, Pertussis, Polio,  Rubella, and Smallpox for US states. Original data courtesy of Tycho Project (http://www.tycho.pitt.edu/).",
+   "title" : "Contagious disease data for US states",
+   "usage" : "us_contagious_diseases",
+   "reference" : "Tycho Project",
    "parameters" : {
+      "disease. A factor containing disease names." : null,
+      "population. State population, interpolated for non-census years." : null,
       "count. Total number of reported cases." : null,
       "year." : null,
       "state. A factor containing state names." : null,
-      "disease. A factor containing disease names." : null,
-      "weeks_reporting. Number of weeks counts were reported that year." : null,
-      "population. State population, interpolated for non-census years." : null
-   },
-   "format" : "An object of class \"data.frame\".",
-   "reference" : "Tycho Project",
-   "title" : "Contagious disease data for US states",
-   "description" : "Description\nYearly counts for Hepatitis A, Measles, Mumps, Pertussis, Polio,  Rubella, and Smallpox for US states. Original data courtesy of Tycho Project (http://www.tycho.pitt.edu/).",
-   "usage" : "us_contagious_diseases"
+      "weeks_reporting. Number of weeks counts were reported that year." : null
+   }
 }
 
 var us_contagious_diseases = [

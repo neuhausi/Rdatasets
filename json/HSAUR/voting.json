@@ -1,14 +1,41 @@
 {
-   "config" : {
-      "subtitle" : "HSAUR - voting",
-      "smpOverlays" : [
-         null
-      ],
-      "graphType" : "Heatmap",
-      "title" : "House of Representatives Voting Data"
-   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>voting</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2> House of Representatives Voting Data </h2>\n<h3>Description</h3>\n<p>Voting results for 15 congressmen from New Jersey.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(\"voting\")</code></pre>\n<h3>Format</h3>\n<p>A 15 times 15 matrix.\n</p>\n<h3>Details</h3>\n<p>Romesburg (1984) gives a set of data that shows the number\nof times 15 congressmen from New Jersey voted differently in \nthe House of Representatives on 19 environmental bills. Abstentions\nare not recorded.\n</p>\n<h3>Source</h3>\n<p>H. C. Romesburg (1984), <em>Cluster Analysis for Researchers</em>.\nLifetime Learning Publications, Belmont, Canada.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>\n  data(\"voting\", package = \"HSAUR\")\n  require(\"MASS\")\n  voting_mds &lt;- isoMDS(voting)\n  plot(voting_mds$points[,1], voting_mds$points[,2],\n       type = \"n\", xlab = \"Coordinate 1\", ylab = \"Coordinate 2\",\n       xlim = range(voting_mds$points[,1])*1.2)\n  text(voting_mds$points[,1], voting_mds$points[,2], \n       labels = colnames(voting))\n  voting_sh &lt;- Shepard(voting[lower.tri(voting)], voting_mds$points)\n</code></pre>\n</main>\n</div>\n",
    "data" : {
       "y" : {
+         "vars" : [
+            "Hunt(R)",
+            "Sandman(R)",
+            "Howard(D)",
+            "Thompson(D)",
+            "Freylinghuysen(R)",
+            "Forsythe(R)",
+            "Widnall(R)",
+            "Roe(D)",
+            "Heltoski(D)",
+            "Rodino(D)",
+            "Minish(D)",
+            "Rinaldo(R)",
+            "Maraziti(R)",
+            "Daniels(D)",
+            "Patten(D)"
+         ],
+         "smps" : [
+            "Hunt(R)",
+            "Sandman(R)",
+            "Howard(D)",
+            "Thompson(D)",
+            "Freylinghuysen(R)",
+            "Forsythe(R)",
+            "Widnall(R)",
+            "Roe(D)",
+            "Heltoski(D)",
+            "Rodino(D)",
+            "Minish(D)",
+            "Rinaldo(R)",
+            "Maraziti(R)",
+            "Daniels(D)",
+            "Patten(D)"
+         ],
          "data" : [
             [
                0,
@@ -265,42 +292,15 @@
                9,
                0
             ]
-         ],
-         "vars" : [
-            "Hunt(R)",
-            "Sandman(R)",
-            "Howard(D)",
-            "Thompson(D)",
-            "Freylinghuysen(R)",
-            "Forsythe(R)",
-            "Widnall(R)",
-            "Roe(D)",
-            "Heltoski(D)",
-            "Rodino(D)",
-            "Minish(D)",
-            "Rinaldo(R)",
-            "Maraziti(R)",
-            "Daniels(D)",
-            "Patten(D)"
-         ],
-         "smps" : [
-            "Hunt(R)",
-            "Sandman(R)",
-            "Howard(D)",
-            "Thompson(D)",
-            "Freylinghuysen(R)",
-            "Forsythe(R)",
-            "Widnall(R)",
-            "Roe(D)",
-            "Heltoski(D)",
-            "Rodino(D)",
-            "Minish(D)",
-            "Rinaldo(R)",
-            "Maraziti(R)",
-            "Daniels(D)",
-            "Patten(D)"
          ]
       }
    },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>voting</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2> House of Representatives Voting Data </h2>\n<h3>Description</h3>\n<p>Voting results for 15 congressmen from New Jersey.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(\"voting\")</code></pre>\n<h3>Format</h3>\n<p>A 15 times 15 matrix.\n</p>\n<h3>Details</h3>\n<p>Romesburg (1984) gives a set of data that shows the number\nof times 15 congressmen from New Jersey voted differently in \nthe House of Representatives on 19 environmental bills. Abstentions\nare not recorded.\n</p>\n<h3>Source</h3>\n<p>H. C. Romesburg (1984), <em>Cluster Analysis for Researchers</em>.\nLifetime Learning Publications, Belmont, Canada.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>\n  data(\"voting\", package = \"HSAUR\")\n  require(\"MASS\")\n  voting_mds &lt;- isoMDS(voting)\n  plot(voting_mds$points[,1], voting_mds$points[,2],\n       type = \"n\", xlab = \"Coordinate 1\", ylab = \"Coordinate 2\",\n       xlim = range(voting_mds$points[,1])*1.2)\n  text(voting_mds$points[,1], voting_mds$points[,2], \n       labels = colnames(voting))\n  voting_sh &lt;- Shepard(voting[lower.tri(voting)], voting_mds$points)\n</code></pre>\n</main>\n</div>\n"
+   "config" : {
+      "subtitle" : "HSAUR - voting",
+      "title" : "House of Representatives Voting Data",
+      "graphType" : "Heatmap",
+      "smpOverlays" : [
+         null
+      ]
+   }
 }

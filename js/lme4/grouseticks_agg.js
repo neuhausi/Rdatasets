@@ -1,20 +1,20 @@
 var grouseticks_aggInfo ={
-   "parameters" : {
-      "INDEX" : "(factor) chick number (observation level)",
-      "LOCATION" : "(factor) geographic location code",
-      "HEIGHT" : "height above sea level (meters)",
-      "meanTICKS" : "mean number of ticks by brood",
-      "varTICKS" : "variance of number of ticks by brood",
-      "cHEIGHT" : "centered height, derived from HEIGHT",
-      "TICKS" : "number of ticks sampled",
-      "YEAR" : "year (-1900)",
-      "BROOD" : "(factor) brood number"
-   },
-   "title" : "Data on red grouse ticks from Elston et al. 2001",
-   "format" : "INDEX(factor) chick number (observation level)\n\nTICKSnumber of ticks sampled\n\nBROOD(factor) brood number\n\nHEIGHTheight above sea level (meters)\n\nYEARyear (-1900)\n\nLOCATION(factor) geographic location code\n\ncHEIGHTcentered height, derived from HEIGHT\n\nmeanTICKSmean number of ticks by brood\n\nvarTICKSvariance of number of ticks by brood",
    "reference" : "grouseticks_agg is just a brood-level\naggregation of the data",
+   "usage" : "data(grouseticks)",
    "description" : "Description\nNumber of ticks on the heads of red grouse chicks\nsampled in the field (grouseticks)\nand an aggregated version (grouseticks_agg); see original source for more details",
-   "usage" : "data(grouseticks)"
+   "title" : "Data on red grouse ticks from Elston et al. 2001",
+   "parameters" : {
+      "meanTICKS" : "mean number of ticks by brood",
+      "YEAR" : "year (-1900)",
+      "TICKS" : "number of ticks sampled",
+      "BROOD" : "(factor) brood number",
+      "cHEIGHT" : "centered height, derived from HEIGHT",
+      "varTICKS" : "variance of number of ticks by brood",
+      "HEIGHT" : "height above sea level (meters)",
+      "INDEX" : "(factor) chick number (observation level)",
+      "LOCATION" : "(factor) geographic location code"
+   },
+   "format" : "INDEX(factor) chick number (observation level)\n\nTICKSnumber of ticks sampled\n\nBROOD(factor) brood number\n\nHEIGHTheight above sea level (meters)\n\nYEARyear (-1900)\n\nLOCATION(factor) geographic location code\n\ncHEIGHTcentered height, derived from HEIGHT\n\nmeanTICKSmean number of ticks by brood\n\nvarTICKSvariance of number of ticks by brood"
 }
 
 var grouseticks_agg = [

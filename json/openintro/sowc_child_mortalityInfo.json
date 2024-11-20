@@ -1,0 +1,27 @@
+{
+   "format" : "A data frame with 195 rows and 19 variables.",
+   "usage" : "sowc_child_mortality",
+   "reference" : "United Nations Children's Emergency Fund (UNICEF)",
+   "title" : "SOWC Child Mortality Data.",
+   "description" : "Description\nChild mortality data from UNICEF's State of the World's Children 2019 Statistical Tables.",
+   "parameters" : {
+      "neonatal_mortality_2018" : "Neonatal mortality rate (deaths per 1,000 live births) 2018.",
+      "under5_deaths_2018" : "Annual number of under-5 deaths (thousands) 2018.",
+      "under5_mortality_1990" : "Under-5 mortality rate (deaths per 1,000 live births) in 1990.",
+      "countries_and_areas" : "Country or area name.",
+      "neonatal_deaths_2018" : "Annual number of neonatal deaths (thousands) 2018.",
+      "infant_mortality_2018" : "Infant mortality rate (deaths per 1,000 live births) 2018",
+      "prob_dying_age5to14_1990" : "Probability of dying among children aged 5â14 (deaths per\n1,000 children aged 5) 1990.",
+      "prob_dying_age5to14_2018" : "Probability of dying among children aged 5â14 (deaths per\n1,000 children aged 5) 2018.",
+      "under5_mortality_2000" : "Under-5 mortality rate (deaths per 1,000 live births) in 2000.",
+      "age5to14_deaths_2018" : "Number of deaths among children aged 5â14 (thousands) 2018.",
+      "under5_mortality_2018_male" : "Under-5 mortality rate male (deaths per 1,000 live births) 2018.",
+      "infant_mortality_1990" : "Infant mortality rate (deaths per 1,000 live births) 1990",
+      "under5_mortality_2018_female" : "Under-5 mortality rate female (deaths per 1,000 live births) 2018.",
+      "under5_reduction" : "Annual rate of reduction in under-5 mortality rate (%)2000â2018.",
+      "under5_mortality_2018" : "Under-5 mortality rate (deaths per 1,000 live births) in 2018.",
+      "neonatal_mortality_1990" : "Neonatal mortality rate (deaths per 1,000 live births) 1990.",
+      "neonatal_deaths_percent_under5" : "Neonatal deaths as proportion of all under-5\ndeaths (%) 2018.",
+      "neonatal_mortality_2000" : "Neonatal mortality rate (deaths per 1,000 live births) 2000."
+   }
+}

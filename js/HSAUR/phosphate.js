@@ -1,13 +1,13 @@
 var phosphateInfo ={
-   "title" : "Phosphate Level Data",
    "format" : "A data frame with 33 observations on the following 9 variables.",
+   "usage" : "data(\"phosphate\")",
    "reference" : "C. S. Davis (2002), Statistical Methods for the Analysis \nof Repeated Measurements, Springer, New York.",
+   "description" : "Description\nPlasma inorganic phosphate levels from 33 subjects.",
+   "title" : "Phosphate Level Data",
    "parameters" : {
       "group" : "a factor with levels control and\nobese.",
       "t0" : "baseline phosphate level"
-   },
-   "usage" : "data(\"phosphate\")",
-   "description" : "Description\nPlasma inorganic phosphate levels from 33 subjects."
+   }
 }
 
 var phosphate = [

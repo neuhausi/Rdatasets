@@ -1,0 +1,10 @@
+{
+   "reference" : "data(appletaste)\nappletaste.aov <- aov(aftertaste ~ panelist + product, data=appletaste)\ntermplot(appletaste.aov)",
+   "usage" : "data(appletaste)",
+   "description" : "Description\nEach of 20 tasters each assessed three out of the four varieties.\nThe experiment was conducted according to a balanced incomplete\nblock design.",
+   "title" : "Tasting experiment that compared four apple varieties",
+   "parameters" : {
+      "aftertaste" : "a numeric vector"
+   },
+   "format" : "A data frame with 60 observations on the following 3 variables."
+}

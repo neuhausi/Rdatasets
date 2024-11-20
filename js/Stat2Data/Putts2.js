@@ -1,7 +1,7 @@
 var Putts2Info ={
-   "description" : "Description\nPutting results for a golfing statistician (by length of the putts)",
+   "usage" : "A dataset with 5 observations on the following 4 variables.",
    "title" : "Putting Success by Length (Short Form)",
-   "usage" : "A dataset with 5 observations on the following 4 variables."
+   "description" : "Description\nPutting results for a golfing statistician (by length of the putts)"
 }
 
 var Putts2 = [

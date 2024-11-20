@@ -1,17 +1,17 @@
 var gapminderInfo ={
    "format" : "The main data frame gapminder has 1704 rows and 6 variables:",
-   "reference" : "https://www.gapminder.org/data/",
-   "title" : "Gapminder data",
    "parameters" : {
-      "lifeExp" : "life expectancy at birth, in years",
-      "gdpPercap" : "GDP per capita (US$, inflation-adjusted)",
-      "continent" : "factor with 5 levels",
-      "country" : "factor with 142 levels",
       "year" : "ranges from 1952 to 2007 in increments of 5 years",
-      "pop" : "population"
+      "continent" : "factor with 5 levels",
+      "pop" : "population",
+      "country" : "factor with 142 levels",
+      "gdpPercap" : "GDP per capita (US$, inflation-adjusted)",
+      "lifeExp" : "life expectancy at birth, in years"
    },
+   "reference" : "https://www.gapminder.org/data/",
    "usage" : "gapminder",
-   "description" : "Description\nExcerpt of the Gapminder data on life expectancy, GDP per capita, and\npopulation by country."
+   "description" : "Description\nExcerpt of the Gapminder data on life expectancy, GDP per capita, and\npopulation by country.",
+   "title" : "Gapminder data"
 }
 
 var gapminder = [

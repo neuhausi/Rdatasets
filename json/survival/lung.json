@@ -1,40 +1,19 @@
 {
+   "config" : {
+      "graphType" : "Boxplot",
+      "colorBy" : "variable",
+      "title" : "NCCTG Lung Cancer Data",
+      "subtitle" : "survival - lung",
+      "groupingFactors" : [
+         "dat"
+      ]
+   },
+   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>lung</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>NCCTG Lung Cancer Data</h2>\n<h3>Description</h3>\n<p>Survival in patients with advanced lung cancer from the North\nCentral Cancer Treatment Group.  Performance\nscores rate how well the patient can perform usual daily activities.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>lung\ndata(cancer, package=\"survival\")\n</code></pre>\n<h3>Format</h3>\n<table>\n<tr>\n <td style=\"text-align: left;\">\n    inst:</td><td style=\"text-align: left;\"> Institution code</td>\n</tr>\n<tr>\n <td style=\"text-align: left;\">\n    time:</td><td style=\"text-align: left;\"> Survival time in days</td>\n</tr>\n<tr>\n <td style=\"text-align: left;\">\n    status:</td><td style=\"text-align: left;\"> censoring status 1=censored, 2=dead</td>\n</tr>\n<tr>\n <td style=\"text-align: left;\">\n    age:</td><td style=\"text-align: left;\"> Age in years</td>\n</tr>\n<tr>\n <td style=\"text-align: left;\">\n    sex:</td><td style=\"text-align: left;\">  Male=1 Female=2</td>\n</tr>\n<tr>\n <td style=\"text-align: left;\">\n    ph.ecog:</td><td style=\"text-align: left;\"> ECOG performance score as rated by the physician.\n    0=asymptomatic, 1= symptomatic but completely ambulatory, 2= in bed\n    &lt;50% of the day, 3= in bed &gt; 50% of the day but not bedbound, 4 =\n    bedbound</td>\n</tr>\n<tr>\n <td style=\"text-align: left;\">\n    ph.karno:</td><td style=\"text-align: left;\"> Karnofsky performance score (bad=0-good=100) rated by physician</td>\n</tr>\n<tr>\n <td style=\"text-align: left;\">\n    pat.karno:</td><td style=\"text-align: left;\"> Karnofsky performance score as rated by patient</td>\n</tr>\n<tr>\n <td style=\"text-align: left;\">\n    meal.cal:</td><td style=\"text-align: left;\"> Calories consumed at meals</td>\n</tr>\n<tr>\n <td style=\"text-align: left;\">\n    wt.loss:</td><td style=\"text-align: left;\"> Weight loss in last six months (pounds)</td>\n</tr>\n<tr>\n <td style=\"text-align: left;\">\n  </td>\n</tr>\n</table>\n<h3>Note</h3>\n<p>The use of 1/2 for alive/dead instead of the usual 0/1 is a historical\nfootnote.\nFor data contained on punch cards, IBM 360 Fortran treated blank as a zero,\nwhich led to a policy within the section of Biostatistics to never\nuse &quot;0&quot; as a data value since one could not distinguish it from a\nmissing value.\nThe policy became a habit, as is often the case; and the 1/2 coding\nendured long beyond the demise of punch cards and Fortran.\n</p>\n<h3>Source</h3>\n<p>Terry Therneau</p>\n<h3>References</h3>\n<p>Loprinzi CL. Laurie JA. Wieand HS. Krook JE. Novotny PJ.\nKugler JW. Bartel J. Law M. Bateman M. Klatt NE. et al.\nProspective evaluation of prognostic variables from patient-completed\nquestionnaires. North Central Cancer Treatment Group.\nJournal of Clinical Oncology. 12(3):601-7, 1994. </p>\n</main>\n</div>\n",
    "data" : {
-      "x" : {
-         "dat" : [
-            "605",
-            "436",
-            "380",
-            "493.9",
-            "",
-            "550",
-            "470",
-            "592.5",
-            "605",
-            "799.9",
-            "995",
-            "785",
-            "910",
-            "1115",
-            "1142.6",
-            "1465",
-            "1250",
-            "1580",
-            "2000",
-            "1474.4",
-            "",
-            "1220",
-            "1790",
-            "1510",
-            "",
-            "",
-            "2735",
-            "",
-            "2380",
-            ""
-         ]
-      },
       "y" : {
+         "vars" : [
+            "Row"
+         ],
          "data" : [
             [
                1,
@@ -69,9 +48,6 @@
                30
             ]
          ],
-         "vars" : [
-            "Row"
-         ],
          "smps" : [
             "Smp1",
             "Smp2",
@@ -104,16 +80,40 @@
             "Smp29",
             "Smp30"
          ]
+      },
+      "x" : {
+         "dat" : [
+            "605",
+            "436",
+            "380",
+            "493.9",
+            "",
+            "550",
+            "470",
+            "592.5",
+            "605",
+            "799.9",
+            "995",
+            "785",
+            "910",
+            "1115",
+            "1142.6",
+            "1465",
+            "1250",
+            "1580",
+            "2000",
+            "1474.4",
+            "",
+            "1220",
+            "1790",
+            "1510",
+            "",
+            "",
+            "2735",
+            "",
+            "2380",
+            ""
+         ]
       }
-   },
-   "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>lung</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>NCCTG Lung Cancer Data</h2>\n<h3>Description</h3>\n<p>Survival in patients with advanced lung cancer from the North\nCentral Cancer Treatment Group.  Performance\nscores rate how well the patient can perform usual daily activities.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>lung\ndata(cancer, package=\"survival\")\n</code></pre>\n<h3>Format</h3>\n<table>\n<tr>\n <td style=\"text-align: left;\">\n    inst:</td><td style=\"text-align: left;\"> Institution code</td>\n</tr>\n<tr>\n <td style=\"text-align: left;\">\n    time:</td><td style=\"text-align: left;\"> Survival time in days</td>\n</tr>\n<tr>\n <td style=\"text-align: left;\">\n    status:</td><td style=\"text-align: left;\"> censoring status 1=censored, 2=dead</td>\n</tr>\n<tr>\n <td style=\"text-align: left;\">\n    age:</td><td style=\"text-align: left;\"> Age in years</td>\n</tr>\n<tr>\n <td style=\"text-align: left;\">\n    sex:</td><td style=\"text-align: left;\">  Male=1 Female=2</td>\n</tr>\n<tr>\n <td style=\"text-align: left;\">\n    ph.ecog:</td><td style=\"text-align: left;\"> ECOG performance score as rated by the physician.\n    0=asymptomatic, 1= symptomatic but completely ambulatory, 2= in bed\n    &lt;50% of the day, 3= in bed &gt; 50% of the day but not bedbound, 4 =\n    bedbound</td>\n</tr>\n<tr>\n <td style=\"text-align: left;\">\n    ph.karno:</td><td style=\"text-align: left;\"> Karnofsky performance score (bad=0-good=100) rated by physician</td>\n</tr>\n<tr>\n <td style=\"text-align: left;\">\n    pat.karno:</td><td style=\"text-align: left;\"> Karnofsky performance score as rated by patient</td>\n</tr>\n<tr>\n <td style=\"text-align: left;\">\n    meal.cal:</td><td style=\"text-align: left;\"> Calories consumed at meals</td>\n</tr>\n<tr>\n <td style=\"text-align: left;\">\n    wt.loss:</td><td style=\"text-align: left;\"> Weight loss in last six months (pounds)</td>\n</tr>\n<tr>\n <td style=\"text-align: left;\">\n  </td>\n</tr>\n</table>\n<h3>Note</h3>\n<p>The use of 1/2 for alive/dead instead of the usual 0/1 is a historical\nfootnote.\nFor data contained on punch cards, IBM 360 Fortran treated blank as a zero,\nwhich led to a policy within the section of Biostatistics to never\nuse &quot;0&quot; as a data value since one could not distinguish it from a\nmissing value.\nThe policy became a habit, as is often the case; and the 1/2 coding\nendured long beyond the demise of punch cards and Fortran.\n</p>\n<h3>Source</h3>\n<p>Terry Therneau</p>\n<h3>References</h3>\n<p>Loprinzi CL. Laurie JA. Wieand HS. Krook JE. Novotny PJ.\nKugler JW. Bartel J. Law M. Bateman M. Klatt NE. et al.\nProspective evaluation of prognostic variables from patient-completed\nquestionnaires. North Central Cancer Treatment Group.\nJournal of Clinical Oncology. 12(3):601-7, 1994. </p>\n</main>\n</div>\n",
-   "config" : {
-      "subtitle" : "survival - lung",
-      "groupingFactors" : [
-         "dat"
-      ],
-      "graphType" : "Boxplot",
-      "colorBy" : "variable",
-      "title" : "NCCTG Lung Cancer Data"
    }
 }

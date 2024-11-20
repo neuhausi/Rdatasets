@@ -1,14 +1,14 @@
 var EdgeworthDeathsInfo ={
-   "usage" : "data(\"EdgeworthDeaths\")",
-   "description" : "Description\nIn 1885, Francis Edgeworth published a paper, On methods of ascertaining variations in the rate of births, deaths and marriages.\nIt contained among the first examples of two-way tables, analyzed to show variation among row and column factors,\nin a way that Fisher would later formulate as the Analysis of Variance.\nAlthough the data are rates per 1000, they provide a good example of a two-way ANOVA with n=1 per cell,\nwhere an additive model fits reasonably well.\nTreated as frequencies, the data is also a good example of a case where the independence model fits\nreasonably well.",
-   "title" : "Edgeworth's Data on Death Rates in British Counties",
    "format" : "A data frame with 42 observations on the following 3 variables.",
-   "reference" : "Edgeworth's data came from the Registrar General's report for the final year, 1883.\nThe Freq variable represents death rates per 1000 population in the six counties listed.",
    "parameters" : {
       "Freq" : "a numeric vector, death rate per 1000 population",
-      "year" : "an ordered factor with levels 1876 < 1877 < 1878 < 1879 < 1880 < 1881 < 1882",
-      "County" : "a factor with levels Berks Herts Bucks Oxford Bedford Cambridge"
-   }
+      "County" : "a factor with levels Berks Herts Bucks Oxford Bedford Cambridge",
+      "year" : "an ordered factor with levels 1876 < 1877 < 1878 < 1879 < 1880 < 1881 < 1882"
+   },
+   "usage" : "data(\"EdgeworthDeaths\")",
+   "reference" : "Edgeworth's data came from the Registrar General's report for the final year, 1883.\nThe Freq variable represents death rates per 1000 population in the six counties listed.",
+   "description" : "Description\nIn 1885, Francis Edgeworth published a paper, On methods of ascertaining variations in the rate of births, deaths and marriages.\nIt contained among the first examples of two-way tables, analyzed to show variation among row and column factors,\nin a way that Fisher would later formulate as the Analysis of Variance.\nAlthough the data are rates per 1000, they provide a good example of a two-way ANOVA with n=1 per cell,\nwhere an additive model fits reasonably well.\nTreated as frequencies, the data is also a good example of a case where the independence model fits\nreasonably well.",
+   "title" : "Edgeworth's Data on Death Rates in British Counties"
 }
 
 var EdgeworthDeaths = [

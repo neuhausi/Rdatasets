@@ -1,20 +1,20 @@
 var KleinInfo ={
    "format" : "A time series containing :",
-   "title" : "Klein's Model I",
-   "reference" : "Klein, L. (1950) Economic fluctuations in the United States, 1921-1941, New York, John Wiley and Sons.",
-   "parameters" : {
-      "pubwage" : "government wage bill",
-      "taxe" : "taxes",
-      "lcap" : "previous year's capital stock",
-      "govspend" : "government spending",
-      "gnp" : "GNP",
-      "profit" : "corporate profits",
-      "inv" : "investment",
-      "privwage" : "private wage bill",
-      "cons" : "consumption"
-   },
    "usage" : "data(Klein)",
-   "description" : "Description\nannual observations from 1920 to 1941\nnumber of observations :  22\nobservation :  country\ncountry :  United States"
+   "reference" : "Klein, L. (1950) Economic fluctuations in the United States, 1921-1941, New York, John Wiley and Sons.",
+   "description" : "Description\nannual observations from 1920 to 1941\nnumber of observations :  22\nobservation :  country\ncountry :  United States",
+   "title" : "Klein's Model I",
+   "parameters" : {
+      "lcap" : "previous year's capital stock",
+      "taxe" : "taxes",
+      "privwage" : "private wage bill",
+      "gnp" : "GNP",
+      "govspend" : "government spending",
+      "profit" : "corporate profits",
+      "cons" : "consumption",
+      "pubwage" : "government wage bill",
+      "inv" : "investment"
+   }
 }
 
 var Klein = [

@@ -1,30 +1,30 @@
 var OFPInfo ={
+   "usage" : "data(OFP)",
    "reference" : "Deb, P.  and  P.K.  Trivedi (1997) &ldquo;Demand for Medical Care by the Elderly: A Finite Mixture Approach&rdquo;, Journal of Applied Econometrics, 12, 313-326..",
-   "format" : "A dataframe containing :",
+   "description" : "Description\na cross-section\nnumber of observations :  4406\nobservation :  individuals\ncountry :  United States",
    "title" : "Visits to Physician Office",
    "parameters" : {
-      "opnp" : "number of nonphysician outpatient visits",
-      "ofnp" : "number of nonphysician office visits",
-      "age" : "age in years (divided by 10)",
-      "medicaid" : "is the person covered by medicaid ?",
-      "emr" : "number of emergency room visits",
-      "faminc" : "family income in 10000$",
-      "adldiff" : "the person has a condition that limits activities of daily living ?",
-      "maried" : "is the person married ?",
+      "region" : "the region (noreast, midwest, \nwest)",
       "sex" : "is the person male ?",
-      "school" : "number of years of education",
+      "opp" : "number of physician outpatient visits",
+      "adldiff" : "the person has a condition that limits activities of daily living ?",
+      "ofnp" : "number of nonphysician office visits",
+      "hlth" : "self-perceived health (excellent, poor, other)",
       "privins" : "is the person covered by private health insurance?",
       "numchron" : "number of chronic conditions",
-      "region" : "the region (noreast, midwest, \nwest)",
-      "ofp" : "number of physician office visits",
-      "opp" : "number of physician outpatient visits",
       "hosp" : "number of hospitalizations",
-      "employed" : "is the person employed ?",
+      "maried" : "is the person married ?",
+      "school" : "number of years of education",
+      "faminc" : "family income in 10000$",
       "black" : "is the person African&ndash;American ?",
-      "hlth" : "self-perceived health (excellent, poor, other)"
+      "ofp" : "number of physician office visits",
+      "medicaid" : "is the person covered by medicaid ?",
+      "age" : "age in years (divided by 10)",
+      "emr" : "number of emergency room visits",
+      "employed" : "is the person employed ?",
+      "opnp" : "number of nonphysician outpatient visits"
    },
-   "usage" : "data(OFP)",
-   "description" : "Description\na cross-section\nnumber of observations :  4406\nobservation :  individuals\ncountry :  United States"
+   "format" : "A dataframe containing :"
 }
 
 var OFP = [

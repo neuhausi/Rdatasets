@@ -1,25 +1,25 @@
 var GrinnellHousesInfo ={
+   "title" : "House Sales in Grinnell, Iowa",
+   "description" : "Description\nData on houses sold between 2005 and 2015 in Grinnell, Iowa",
+   "reference" : "A local Grinnell realtor, Matt Karjalahti, put these data together to see what patterns might be found, perhaps with an improvement in how one sells houses or buys them.  He asked Grinnell College economists, Lee Logan and Eric Ohrn, to help with the analysis and we obtained the data from them.",
+   "usage" : "A data frame with 929 observations on the following 15 variables.",
    "parameters" : {
+      "SPLPPct" : "(Sale_Price / List_Price ) * 100",
+      "DaySold" : "Day of the month the house was sold (1 to 31)",
+      "OrigPrice" : "List price of the house when originally put on the market (dollars)",
+      "SquareFeet" : "The square footage of the home's living space",
+      "Date" : "Coded value for date of sale (Jan 1, 2005=16436)",
+      "Address" : "Street address of the house",
+      "YearSold" : "The year the house was sold, for this case",
+      "CostPerSqFt" : "SalePrice / SquareFeet (round to nearest penny)",
+      "MonthSold" : "The month the house was sold (1=Jan, 2=Feb, to 12=Dec)",
+      "SalePrice" : "Sale price of the house (dollars)",
+      "Bedrooms" : "Number of bedrooms",
       "ListPrice" : "List price at the time of sale (dollars)",
       "YearBuilt" : "Year the house was built; many pre-1900 homes are listed as 1900",
-      "LotSize" : "Lot size (in acres)",
-      "Date" : "Coded value for date of sale (Jan 1, 2005=16436)",
-      "SPLPPct" : "(Sale_Price / List_Price ) * 100",
-      "MonthSold" : "The month the house was sold (1=Jan, 2=Feb, to 12=Dec)",
       "Baths" : "Number of bathrooms",
-      "CostPerSqFt" : "SalePrice / SquareFeet (round to nearest penny)",
-      "SquareFeet" : "The square footage of the home's living space",
-      "OrigPrice" : "List price of the house when originally put on the market (dollars)",
-      "SalePrice" : "Sale price of the house (dollars)",
-      "YearSold" : "The year the house was sold, for this case",
-      "Address" : "Street address of the house",
-      "DaySold" : "Day of the month the house was sold (1 to 31)",
-      "Bedrooms" : "Number of bedrooms"
-   },
-   "description" : "Description\nData on houses sold between 2005 and 2015 in Grinnell, Iowa",
-   "usage" : "A data frame with 929 observations on the following 15 variables.",
-   "reference" : "A local Grinnell realtor, Matt Karjalahti, put these data together to see what patterns might be found, perhaps with an improvement in how one sells houses or buys them.  He asked Grinnell College economists, Lee Logan and Eric Ohrn, to help with the analysis and we obtained the data from them.",
-   "title" : "House Sales in Grinnell, Iowa"
+      "LotSize" : "Lot size (in acres)"
+   }
 }
 
 var GrinnellHouses = [

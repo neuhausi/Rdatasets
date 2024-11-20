@@ -1,14 +1,14 @@
 var rosling_responsesInfo ={
-   "description" : "Description\nPublic health has improved and evolved, but has the public's knowledge\nchanged with it? This dataset explores sample responses for two survey\nquestions posed by Hans Rosling during lectures to a wide array of\nwell-educated audiences.",
    "usage" : "rosling_responses",
-   "parameters" : {
-      "prob_random_correct" : "The probability the person would have guessed\nthe answer correctly if they were guessing completely randomly.",
-      "response" : "Noting whether the response was correct\nor incorrect.",
-      "question" : "ID for the question being posed."
-   },
    "reference" : "The samples we describe are plausible based on the exact rates observed in larger samples.\nFor more info on the actual rates observed, visit https://www.gapminder.org.",
-   "format" : "A data frame with 278 rows and 3 variables:",
-   "title" : "Sample Responses to Two Public Health Questions"
+   "description" : "Description\nPublic health has improved and evolved, but has the public's knowledge\nchanged with it? This dataset explores sample responses for two survey\nquestions posed by Hans Rosling during lectures to a wide array of\nwell-educated audiences.",
+   "title" : "Sample Responses to Two Public Health Questions",
+   "parameters" : {
+      "question" : "ID for the question being posed.",
+      "response" : "Noting whether the response was correct\nor incorrect.",
+      "prob_random_correct" : "The probability the person would have guessed\nthe answer correctly if they were guessing completely randomly."
+   },
+   "format" : "A data frame with 278 rows and 3 variables:"
 }
 
 var rosling_responses = [

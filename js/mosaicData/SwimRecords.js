@@ -1,14 +1,14 @@
 var SwimRecordsInfo ={
-   "usage" : "data(SwimRecords)",
-   "description" : "Description\nWorld records for men and women over time from 1905 through 2004.",
-   "title" : "100 m Swimming World Records",
    "format" : "A data frame with 62 observations of the following variables.",
-   "reference" : "data(SwimRecords)\nif (require(ggformula)) {\n  gf_point(time ~ year, data = SwimRecords, color = ~ sex)\n}",
    "parameters" : {
       "time" : "time (in seconds) of the world record",
-      "sex" : "a factor with levels M and F",
-      "year" : "Year in which the record was set"
-   }
+      "year" : "Year in which the record was set",
+      "sex" : "a factor with levels M and F"
+   },
+   "title" : "100 m Swimming World Records",
+   "description" : "Description\nWorld records for men and women over time from 1905 through 2004.",
+   "usage" : "data(SwimRecords)",
+   "reference" : "data(SwimRecords)\nif (require(ggformula)) {\n  gf_point(time ~ year, data = SwimRecords, color = ~ sex)\n}"
 }
 
 var SwimRecords = [

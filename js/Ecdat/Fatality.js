@@ -1,21 +1,21 @@
 var FatalityInfo ={
-   "description" : "Description\na panel of 48 observations  from 1982  to 1988\nnumber of observations :  336\nobservation :  regional\ncountry :  United States",
-   "usage" : "data(Fatality)",
+   "format" : "A dataframe containing :",
    "parameters" : {
-      "state" : "state ID code",
-      "mlda" : "minimum legal drinking age",
-      "mrall" : "traffic fatality rate (deaths per 10000)",
-      "vmiles" : "average miles per driver",
       "comserd" : "mandatory community service ?",
       "unrate" : "unemployment rate",
-      "perinc" : "per capita personal income",
+      "vmiles" : "average miles per driver",
+      "mlda" : "minimum legal drinking age",
       "jaild" : "mandatory jail sentence ?",
+      "perinc" : "per capita personal income",
+      "year" : "year",
+      "mrall" : "traffic fatality rate (deaths per 10000)",
       "beertax" : "tax on case of beer",
-      "year" : "year"
+      "state" : "state ID code"
    },
-   "title" : "Drunk Driving Laws and Traffic Deaths",
-   "format" : "A dataframe containing :",
-   "reference" : "Pr. Christopher J. Ruhm, Department of Economics, University of North Carolina."
+   "usage" : "data(Fatality)",
+   "reference" : "Pr. Christopher J. Ruhm, Department of Economics, University of North Carolina.",
+   "description" : "Description\na panel of 48 observations  from 1982  to 1988\nnumber of observations :  336\nobservation :  regional\ncountry :  United States",
+   "title" : "Drunk Driving Laws and Traffic Deaths"
 }
 
 var Fatality = [

@@ -1,0 +1,28 @@
+{
+   "description" : "Description\nWooldridge  Data loads lazily.",
+   "title" : "hprice3",
+   "usage" : "data('hprice3')",
+   "reference" : "NA",
+   "parameters" : {
+      "linstsq" : " linst^2",
+      "agesq" : " age^2",
+      "linst" : " log(inst)",
+      "larea" : " log(area)",
+      "nbh" : " neighborhood, 1-6",
+      "y81" : " =1 if year = 1981",
+      "age" : " age of house",
+      "inst" : " dist. to interstate, ft.",
+      "lland" : " log(land)",
+      "ldist" : " log(dist)",
+      "baths" : " # bathrooms",
+      "year" : " 1978, 1981",
+      "dist" : " dist. from house to incin., ft.",
+      "area" : " square footage of house",
+      "lprice" : " log(price)",
+      "price" : " selling price",
+      "rooms" : " # rooms in house",
+      "cbd" : " dist. to cent. bus. dstrct, ft.",
+      "land" : " square footage lot"
+   },
+   "format" : "A data.frame with 321 observations on 19 variables:"
+}

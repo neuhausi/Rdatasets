@@ -1,6 +1,41 @@
 {
    "data" : {
+      "z" : {
+         "year" : [
+            "1920-21",
+            "1921-22",
+            "1922-23",
+            "1923-24",
+            "1924-25",
+            "1925-26",
+            "1926-27",
+            "1927-28",
+            "1928-29",
+            "1929-30",
+            "1930-31"
+         ]
+      },
       "y" : {
+         "vars" : [
+            "Var1",
+            "Var2",
+            "Var3",
+            "Var4",
+            "Var5",
+            "Var6",
+            "Var7",
+            "Var8",
+            "Var9",
+            "Var10",
+            "Var11"
+         ],
+         "smps" : [
+            "rainNovDec",
+            "temp",
+            "rainJuly",
+            "radiation",
+            "yield"
+         ],
          "data" : [
             [
                87.9,
@@ -79,50 +114,15 @@
                1150,
                24.37
             ]
-         ],
-         "smps" : [
-            "rainNovDec",
-            "temp",
-            "rainJuly",
-            "radiation",
-            "yield"
-         ],
-         "vars" : [
-            "Var1",
-            "Var2",
-            "Var3",
-            "Var4",
-            "Var5",
-            "Var6",
-            "Var7",
-            "Var8",
-            "Var9",
-            "Var10",
-            "Var11"
-         ]
-      },
-      "z" : {
-         "year" : [
-            "1920-21",
-            "1921-22",
-            "1922-23",
-            "1923-24",
-            "1924-25",
-            "1925-26",
-            "1926-27",
-            "1927-28",
-            "1928-29",
-            "1929-30",
-            "1930-31"
          ]
       }
    },
    "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>meteo</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2> Meteorological Measurements for 11 Years </h2>\n<h3>Description</h3>\n<p>Several meteorological measurements for a period between 1920 and 1931.\n</p>\n<h3>Usage</h3>\n<pre><code class='language-R'>data(\"meteo\")</code></pre>\n<h3>Format</h3>\n<p>A data frame with 11 observations on the following 6 variables.\n</p>\n<dl>\n<dt><code>year</code></dt><dd><p>the years.</p>\n</dd>\n<dt><code>rainNovDec</code></dt><dd><p>rainfall in November and December (mm).</p>\n</dd>\n<dt><code>temp</code></dt><dd><p>average July temperature.</p>\n</dd>\n<dt><code>rainJuly</code></dt><dd><p>rainfall in July (mm).</p>\n</dd>\n<dt><code>radiation</code></dt><dd><p>radiation in July (millilitres of alcohol).</p>\n</dd>\n<dt><code>yield</code></dt><dd><p>average harvest yield (quintals per hectare).</p>\n</dd>\n</dl>\n<h3>Details</h3>\n<p>Carry out a principal components analysis of both the covariance\nmatrix and the correlation matrix of the data and compare the\nresults. Which set of components leads to the most meaningful\ninterpretation? \n</p>\n<h3>Source</h3>\n<p>B. S. Everitt and G. Dunn (2001), <em>Applied Multivariate Data\nAnalysis</em>, 2nd edition, Arnold, London.\n</p>\n<h3>Examples</h3>\n<pre><code class='language-R'>\n  data(\"meteo\", package = \"HSAUR\")\n  meteo\n</code></pre>\n</main>\n</div>\n",
    "config" : {
-      "title" : "Meteorological Measurements for 11 Years",
       "colorBy" : "year",
       "graphType" : "Scatter2D",
-      "scatterPlotMatrix" : 1,
-      "subtitle" : "HSAUR - meteo"
+      "subtitle" : "HSAUR - meteo",
+      "title" : "Meteorological Measurements for 11 Years",
+      "scatterPlotMatrix" : 1
    }
 }

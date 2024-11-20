@@ -2,6 +2,10 @@
    "info" : "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />\n<script type=\"text/javascript\">\nconst macros = { \"\\\\R\": \"\\\\textsf{R}\", \"\\\\code\": \"\\\\texttt\"};\nfunction processMathHTML() {\n    var l = document.getElementsByClassName('reqn');\n    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }\n    return;\n}</script>\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js\"\n    onload=\"processMathHTML();\"></script>\n<table style=\"width: 100%;\"><tr><td>Putts1</td><td style=\"text-align: right;\">R Documentation</td></tr></table>\n<h2>Putting Success by Length (Long Form)</h2>\n<h3>Description</h3>\n<p>Putting results for a golfing statistician\n</p>\n<h3>Format</h3>\n<p>A dataset with 587 observations on the following 2 variables.\n</p>\n<table>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Length</code> </td><td style=\"text-align: left;\"> Length of the putt (in feet)</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n    <code>Made</code> </td><td style=\"text-align: left;\"> <code>1</code>=made the putt or <code>0</code>=missed the putt</td>\n</tr>\n<tr>\n <td style=\"text-align: right;\">\n  </td>\n</tr>\n</table>\n<h3>Details</h3>\n<p>A statistician golfer kept careful records of every putt he attempted when playing golf,\nrecording the length of the putt and whether or not he was successful in making the putt.\nThis dataset has one case for each of the 587 attempted putts.\nA different form of the same data (Putts2) accumulates counts of makes and misses for each putt length.\n</p>\n<h3>Source</h3>\n<p>Personal observations by one of the Stat2 authors\n</p>\n</main>\n</div>\n",
    "data" : {
       "y" : {
+         "smps" : [
+            "Length",
+            "Made"
+         ],
          "data" : [
             [
                3,
@@ -2940,16 +2944,12 @@
             "Var585",
             "Var586",
             "Var587"
-         ],
-         "smps" : [
-            "Length",
-            "Made"
          ]
       }
    },
    "config" : {
-      "graphType" : "Scatter2D",
       "title" : "Putting Success by Length (Long Form)",
-      "subtitle" : "Stat2Data - Putts1"
+      "subtitle" : "Stat2Data - Putts1",
+      "graphType" : "Scatter2D"
    }
 }

@@ -1,6 +1,6 @@
 var CAFEInfo ={
-   "title" : "US Senate Votes on Corporate Average Fuel Economy Bill",
    "usage" : "A data frame with 100 observations on the following 7 variables.",
+   "title" : "US Senate Votes on Corporate Average Fuel Economy Bill",
    "description" : "Description\nSenate votes for Corporate Average Fuel Economy (CAFE) bill"
 }
 

@@ -1,13 +1,13 @@
 var droughtsInfo ={
    "description" : "Description\nData collected at Winnipeg International Airport (Canada)\non periods (in days) between rain events.",
+   "title" : "Periods Between Rain Events",
    "usage" : "droughts",
+   "reference" : "boxplot(length ~ year, data=droughts)\n  boxplot(log(length) ~ year, data=droughts)\n  hist(droughts$length, main=\"Winnipeg Droughts\", xlab=\"length (in days)\")\n  hist(log(droughts$length), main=\"Winnipeg Droughts\", xlab=\"length (in days, log scale)\")",
    "parameters" : {
       "length" : "the length of time from the completion of\nthe last rain event to the beginning of the next rain event.",
       "year" : "the calendar year."
    },
-   "format" : "This data frame contains the following columns:",
-   "title" : "Periods Between Rain Events",
-   "reference" : "boxplot(length ~ year, data=droughts)\n  boxplot(log(length) ~ year, data=droughts)\n  hist(droughts$length, main=\"Winnipeg Droughts\", xlab=\"length (in days)\")\n  hist(log(droughts$length), main=\"Winnipeg Droughts\", xlab=\"length (in days, log scale)\")"
+   "format" : "This data frame contains the following columns:"
 }
 
 var droughts = [

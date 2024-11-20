@@ -1,19 +1,19 @@
 var MrozInfo ={
-   "parameters" : {
-      "inc" : "family income exclusive of wife's income.",
-      "lfp" : "labor-force participation; a factor with levels:\nno;\nyes.",
-      "k5" : "number of children 5 years old or younger.",
-      "wc" : "wife's college attendance; a factor with levels:\nno;\nyes.",
-      "lwg" : "log expected wage rate; for women in the labor force, the actual\nwage rate; for women not in the labor force, an imputed value based on the\nregression of lwg on the other variables.",
-      "age" : "in years.",
-      "hc" : "husband's college attendance; a factor with levels:\nno;\nyes.",
-      "k618" : "number of children 6 to 18 years old."
-   },
-   "format" : "This data frame contains the following columns:",
    "title" : "U.S. Women's Labor-Force Participation",
-   "reference" : "Mroz, T. A. (1987)\nThe sensitivity of an empirical model of married women's hours of work to\neconomic and statistical assumptions. \nEconometrica 55, 765&ndash;799.",
    "description" : "Description\nThe Mroz data frame has 753 rows and 8 columns.\nThe observations, from the Panel Study of Income Dynamics (PSID),\nare married women.",
-   "usage" : "Mroz"
+   "usage" : "Mroz",
+   "reference" : "Mroz, T. A. (1987)\nThe sensitivity of an empirical model of married women's hours of work to\neconomic and statistical assumptions. \nEconometrica 55, 765&ndash;799.",
+   "parameters" : {
+      "hc" : "husband's college attendance; a factor with levels:\nno;\nyes.",
+      "k618" : "number of children 6 to 18 years old.",
+      "age" : "in years.",
+      "wc" : "wife's college attendance; a factor with levels:\nno;\nyes.",
+      "k5" : "number of children 5 years old or younger.",
+      "lfp" : "labor-force participation; a factor with levels:\nno;\nyes.",
+      "inc" : "family income exclusive of wife's income.",
+      "lwg" : "log expected wage rate; for women in the labor force, the actual\nwage rate; for women not in the labor force, an imputed value based on the\nregression of lwg on the other variables."
+   },
+   "format" : "This data frame contains the following columns:"
 }
 
 var Mroz = [

@@ -1,15 +1,15 @@
 var HittersInfo ={
+   "reference" : "SAS System for Statistical Graphics, First Edition, Page A2.3",
    "usage" : "data(\"Hitters\")",
    "description" : "Description\nThis data set is deduced from the Baseball fielding data\nset: fielding performance basically includes the numbers of Errors,\nPutouts and Assists made by each player.  In order to reduce the\nnumber of observations, the was compressed by calculating the mean\nnumber of errors, putouts and assists for each team and for only 6\npositions (1B, 2B, 3B, C, OF, SS and UT).  In addition, each of these\nthree variables was scaled to a common range by dividing each variable\nby the maximum of the variable.",
-   "reference" : "SAS System for Statistical Graphics, First Edition, Page A2.3",
-   "format" : "A data frame with 154 observations and 4 variables.",
    "title" : "Hitters Data",
    "parameters" : {
       "Errors" : "count the errors made by a player.",
       "Assists" : "are credited to other fielders involved in making\nthat putout.",
       "Positions" : "factor indicating the field position (1B=first\nbaseman, 2B=second baseman, 3B=third baseman, C=catcher,\nOF=outfielder, SS=Short Stop, UT=Utility Players).",
       "Putouts" : "occur when a fielder causes an opposing player to be\ntagged or forced out."
-   }
+   },
+   "format" : "A data frame with 154 observations and 4 variables."
 }
 
 var Hitters = [

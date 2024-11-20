@@ -1,13 +1,13 @@
 var starsCYGInfo ={
-   "format" : "A data frame with 47 observations on the following 2 variables",
-   "reference" : "P. J. Rousseeuw and A. M. Leroy (1987)\nRobust Regression and Outlier Detection;\nWiley, p.27, table 3.",
-   "title" : "Hertzsprung-Russell Diagram Data of Star Cluster CYG OB1",
    "parameters" : {
       "log.Te" : "Logarithm of the effective temperature at the\nsurface of the star (Te).",
       "log.light" : "Logarithm of its light intencity (L/L_0)"
    },
+   "title" : "Hertzsprung-Russell Diagram Data of Star Cluster CYG OB1",
+   "description" : "Description\nData for the Hertzsprung-Russell Diagram of the Star Cluster CYG OB1,\nwhich contains 47 stars in the direction of Cygnus, from C.Doom.  The\nfirst variable is the logarithm of the effective temperature at the\nsurface of the star (Te) and the second one is the logarithm of its\nlight intencity (L/L_0).\nIn the Hertzsprung-Russell diagram, which is the scatterplot of these\ndata points, where the log temperature is plotted from left to right,\ntwo groups of points are seen:\nthe majority which tend to follow a steep band and four stars in the\nupper corner.  In the astronomy the 43 stars are said to lie on the\nmain sequence and the four remaining stars are called &ldquo;giants&rdquo; (the\npoints 11, 20, 30, 34).",
    "usage" : "data(starsCYG, package=\"robustbase\")",
-   "description" : "Description\nData for the Hertzsprung-Russell Diagram of the Star Cluster CYG OB1,\nwhich contains 47 stars in the direction of Cygnus, from C.Doom.  The\nfirst variable is the logarithm of the effective temperature at the\nsurface of the star (Te) and the second one is the logarithm of its\nlight intencity (L/L_0).\nIn the Hertzsprung-Russell diagram, which is the scatterplot of these\ndata points, where the log temperature is plotted from left to right,\ntwo groups of points are seen:\nthe majority which tend to follow a steep band and four stars in the\nupper corner.  In the astronomy the 43 stars are said to lie on the\nmain sequence and the four remaining stars are called &ldquo;giants&rdquo; (the\npoints 11, 20, 30, 34)."
+   "reference" : "P. J. Rousseeuw and A. M. Leroy (1987)\nRobust Regression and Outlier Detection;\nWiley, p.27, table 3.",
+   "format" : "A data frame with 47 observations on the following 2 variables"
 }
 
 var starsCYG = [

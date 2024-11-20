@@ -1,8 +1,8 @@
 {
    "config" : {
-      "graphType" : "Heatmap",
       "title" : "Wages and Hours Worked",
-      "subtitle" : "plm - LaborSupply"
+      "subtitle" : "plm - LaborSupply",
+      "graphType" : "Heatmap"
    },
    "data" : {
       "y" : {
@@ -37262,15 +37262,6 @@
                1988
             ]
          ],
-         "vars" : [
-            "lnhr",
-            "lnwg",
-            "kids",
-            "age",
-            "disab",
-            "id",
-            "year"
-         ],
          "smps" : [
             "Smp1",
             "Smp2",
@@ -42592,6 +42583,15 @@
             "Smp5318",
             "Smp5319",
             "Smp5320"
+         ],
+         "vars" : [
+            "lnhr",
+            "lnwg",
+            "kids",
+            "age",
+            "disab",
+            "id",
+            "year"
          ]
       }
    },

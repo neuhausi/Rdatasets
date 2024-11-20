@@ -9,10 +9,6 @@
             "Var4",
             "Var5"
          ],
-         "smps" : [
-            "year",
-            "carbon"
-         ],
          "data" : [
             [
                1800,
@@ -34,12 +30,16 @@
                2000,
                6611
             ]
+         ],
+         "smps" : [
+            "year",
+            "carbon"
          ]
       }
    },
    "config" : {
-      "title" : "Fossil Fuel Data",
       "graphType" : "Scatter2D",
+      "title" : "Fossil Fuel Data",
       "subtitle" : "DAAG - fossilfuel"
    }
 }

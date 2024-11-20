@@ -1,0 +1,19 @@
+{
+   "parameters" : {
+      "lprice" : "Price of liquefied petroleum gas.",
+      "statecode" : "factor. State Code.",
+      "price" : "Price of natural gas",
+      "state" : "factor. State abbreviation.",
+      "heating" : "Heating degree days.",
+      "income" : "Real per-capita personal income.",
+      "oprice" : "Price of distillate fuel oil.",
+      "year" : "factor coding year.",
+      "consumption" : "Consumption of natural gas by the residential sector.",
+      "eprice" : "Price of electricity."
+   },
+   "reference" : "The data are from Baltagi (2002).",
+   "usage" : "data(\"NaturalGas\")",
+   "description" : "Description\nPanel data originating from 6 US states over the period 1967&ndash;1989.",
+   "title" : "Natural Gas Data",
+   "format" : "A data frame containing 138 observations on 10 variables."
+}
