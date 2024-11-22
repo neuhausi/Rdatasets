@@ -54,8 +54,42 @@ $blacklist->{'co2'}++;
 
 sub main {
 
-  &process_data;
-  &delete_files;
+  #&process_data;
+  &create_summary;
+  #&delete_files;
+
+}
+
+sub create_summary {
+
+  my $sets = {};
+
+  my $main = "datasets.csv";
+  my $data;
+  my @line;
+  my $csv = parse_csv($main);
+  my @header = @{$csv->{header}};
+  open my $fh, ">:encoding(UTF-8)", "datasetsCX.csv" or die "Could not open datasetsCX.csv: $!";
+  print $fh join(",", @header) . "\n";
+  unshift (@$data, \@header);
+  foreach my $row (@{$csv->{data}}) {
+    @line = ();
+    foreach my $key (@header) {
+      $row->{$key} =~ s/\n/ /g;
+      $row->{$key} =~ s/\"/ /g;
+      $row->{$key} =~ s/,/;/g;
+      if ($key eq "CSV") {
+        push @line, "<a onclick=&quot;CanvasXpress.callbackRDataset('https://raw.githubusercontent.com/neuhausi/Rdatasets/refs/heads/master/csv/$row->{'Package'}/$row->{'Item'}.csv');&quot; href=&quot;#&quot;>Select $row->{'Item'}</a>";
+      } elsif ($key eq "Doc") {
+        push @line, "<a onclick=&quot;CanvasXpress.callbackRDataset('https://raw.githubusercontent.com/neuhausi/Rdatasets/refs/heads/master/json/$row->{'Package'}/$row->{'Item'}Info.json');&quot; href=&quot;#&quot;>$row->{'Item'} Info</a>";
+      } else {
+        push @line, $row->{$key};
+      }
+    }
+    push @$data, [@line];
+    print $fh join(",", @line) . "\n";
+  }
+  close $fh;
 
 }
 
@@ -559,6 +593,5 @@ sub create_json {
   open $fh, ">:encoding(UTF-8)", "json/$lib/$ds" . "Info" . ".json" or die "Could not open json/$lib/$ds" . "Info" . ".json: $!";
   print $fh JSON->new->pretty->allow_nonref->encode($obj);
   close $fh;
-
 
 }
